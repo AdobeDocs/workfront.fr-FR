@@ -2,44 +2,44 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: Connecteur
 navigation-topic: apps-and-their-modules
-title: Modules Microsoft SQL Server
+title: Modules Microsoft SQL Server
 description: Vous pouvez utiliser [!DNL Adobe Workfront Fusion] pour vous connecter à Microsoft SQL Server.
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 1%
+source-wordcount: '502'
+ht-degree: 22%
 
 ---
 
-# [!DNL Microsoft SQL Server] modules
+# Modules [!DNL Microsoft SQL Server]
 
 Vous pouvez utiliser [!DNL Adobe Workfront Fusion] pour se connecter à [!UICONTROL Microsoft SQL Server].
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -47,17 +47,29 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+
+
+## Connexion de la variable [!DNL Microsoft SQL Server] service à [!DNL Workfront Fusion]
+
+Pour obtenir des instructions sur la connexion à [!DNL Microsoft SQL Server] compte à [!UICONTROL Workfront Fusion], voir [Créer une connexion à [!UICONTROL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Certaines applications Microsoft utilisent la même connexion, qui est liée à des autorisations utilisateur individuelles. Par conséquent, lors de la création d’une connexion, l’écran de consentement des autorisations affiche les autorisations qui ont été accordées à la connexion de cet utilisateur, en plus des nouvelles autorisations nécessaires à l’application actuelle.
+>
+>Par exemple, si un utilisateur dispose d’autorisations &quot;Lecture de tableau&quot; accordées via le connecteur Excel, puis crée une connexion dans le connecteur Outlook pour lire les emails, l’écran de consentement des autorisations affiche à la fois l’autorisation &quot;Lecture de tableau&quot; déjà accordée et l’autorisation &quot;Ecriture d’email&quot; nouvellement requise.
 
 ## Utilisation [!DNL Microsoft SQL Server] modules
 
@@ -67,13 +79,13 @@ When [!DNL Fusion] établit la connexion à la variable [!DNL SQL server] destin
 
 Pour plus d’informations sur les adresses IP spécifiques utilisées par [!DNL Workfront Fusion], voir [Adresses IP pour l’accès [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 
-Pour en savoir plus sur la création d’une procédure stockée, reportez-vous à la section [!DNL Microsoft SQL Server] documentation.
+Pour en savoir plus sur la création d’une procédure stockée, voir la section [!DNL Microsoft SQL Server] la documentation.
 
 >[!NOTE]
 >
 >[!DNL Workfront Fusion] ne prend pas en charge plusieurs jeux d’enregistrements. Seul le premier est traité.
 
-## Erreur de dépannage [!UICONTROL ER_LOCK_WAIT_TIMEOUT : Dépassement du délai d’attente de verrouillage ; essayer de redémarrer la transaction]
+## Erreur de dépannage [!UICONTROL ER_LOCK_WAIT_TIMEOUT : le délai d’attente de verrouillage a été dépassé ; essayez de redémarrer la transaction.]
 
 Cette erreur se produit lorsque vous modifiez les mêmes données à l’aide de plusieurs modules. Il est dû à des transactions SQL.
 

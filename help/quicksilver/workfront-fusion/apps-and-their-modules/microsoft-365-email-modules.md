@@ -2,17 +2,17 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: Connecteur
 navigation-topic: apps-and-their-modules
-title: Microsoft Office 365 Email
+title: E-mail Microsoft Office 365
 description: Dans un [!DNL Adobe Workfront Fusion] vous pouvez automatiser les workflows qui utilisent Microsoft Office 365 Email, et les connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1886'
-ht-degree: 0%
+source-wordcount: '1974'
+ht-degree: 16%
 
 ---
 
@@ -20,32 +20,32 @@ ht-degree: 0%
 
 Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!UICONTROL Microsoft Office 365 Email], ainsi que de la connecter à plusieurs applications et services tiers.
 
-Pour utiliser [!UICONTROL Courrier électronique Office 365] avec [!DNL Adobe Workfront Fusion], une [!UICONTROL Compte Office 365]. Vous pouvez en créer un à l’adresse www.office.com.
+Pour utiliser [!UICONTROL Office 365 Email] avec [!DNL Adobe Workfront Fusion], une [!UICONTROL Compte Office 365]. Vous pouvez en créer un à l’adresse www.office.com.
 
 Pour obtenir des instructions sur la connexion à [!UICONTROL Office 365] compte à [!DNL Workfront Fusion], voir [Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 Une fois le consentement accordé, vous êtes redirigé vers le [!UICONTROL Workfront Fusion] page d’administration où vous pouvez continuer à créer votre scénario.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -53,27 +53,39 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
 Pour utiliser [!DNL Microsoft Office 365 Email] modules, vous devez disposer d’un [!DNL Microsoft Office 365 Email] compte .
 
-## [!DNL Microsoft Office 365 Email] modules et leurs champs
 
-Lorsque vous configurez [!DNL Microsoft Office 365 Email] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL Microsoft Office 365 Email] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+## Connexion de la variable [!DNL Office 365 Email] service à [!DNL Workfront Fusion]
+
+Pour obtenir des instructions sur la connexion à [!DNL Office 365 Email] compte à [!UICONTROL Workfront Fusion], voir [Créer une connexion à [!UICONTROL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Certaines applications Microsoft utilisent la même connexion, qui est liée à des autorisations utilisateur individuelles. Par conséquent, lors de la création d’une connexion, l’écran de consentement des autorisations affiche les autorisations qui ont été accordées à la connexion de cet utilisateur, en plus des nouvelles autorisations nécessaires à l’application actuelle.
+>
+>Par exemple, si un utilisateur dispose d’autorisations &quot;Lecture de tableau&quot; accordées via le connecteur Excel, puis crée une connexion dans le connecteur Outlook pour lire les emails, l’écran de consentement des autorisations affiche à la fois l’autorisation &quot;Lecture de tableau&quot; déjà accordée et l’autorisation &quot;Ecriture d’email&quot; nouvellement requise.
+
+## Modules [!DNL Microsoft Office 365 Email] et leurs champs
+
+Lorsque vous configurez des modules [!DNL Microsoft Office 365 Email], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Microsoft Office 365 Email] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+
+Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -104,7 +116,7 @@ Déclenche lorsqu’un nouveau message électronique est envoyé ou reçu.
    <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Office 365] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Messages Watch]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Messages De Contrôle]</p> </td> 
    <td> <p>Sélectionnez les messages à regarder :</p> 
     <ul> 
      <li>[!UICONTROL Seulement Non Lu]</li> 
@@ -114,14 +126,14 @@ Déclenche lorsqu’un nouveau message électronique est envoyé ou reçu.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Mail Folder]</td> 
-   <td> <p>Sélectionnez le dossier contenant les messages à regarder.</p> </td> 
+   <td> <p>Sélectionnez le dossier contenant les messages que vous souhaitez voir.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search]</td> 
    <td>Entrez votre requête de recherche. Pour plus d’informations sur l’écriture d’une requête de recherche, voir [!DNL Microsoft] article du support <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Recherche dans les courriers électroniques et les personnes dans [!DNL Outlook.com]</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite] </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
    <td> <p>Entrer le nombre maximum de messages [!DNL Workfront Fusion] doit revenir pendant un cycle d'exécution de scénario.</p> </td> 
   </tr> 
  </tbody> 
@@ -158,7 +170,7 @@ Recherche des messages selon des critères spécifiques.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>Entrer le nombre maximum de messages [!DNL Workfront Fusion] doit revenir pendant un cycle d'exécution de scénario.</p> </td> 
   </tr> 
  </tbody> 
@@ -248,7 +260,7 @@ Crée et envoie un message électronique.
    <td role="rowheader"> <p>[!UICONTROL Pièces jointes]</p> </td> 
    <td> <p>Ajoutez les pièces jointes au courrier électronique :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Nom du fichier]</strong> </p> <p>Saisissez le nom du fichier. Exemple: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Nom du fichier]</strong> </p> <p>Saisissez le nom du fichier. Exemple : <code>sample.doc</code></p> </li> 
      <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Saisissez les données du fichier dans le champ ou mappez la source du fichier.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -256,7 +268,7 @@ Crée et envoie un message électronique.
    <td role="rowheader">[!UICONTROL En-têtes de message Internet]</td> 
    <td> <p>Ajoutez les en-têtes de message pour l’email.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom de l’en-tête</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom de l’en-tête.</p> </li> 
      <li> <p><strong>[!UICONTROL Adresse électronique]</strong> </p> <p>Saisissez une valeur pour l’en-tête .</p> </li> 
     </ul> </td> 
   </tr> 
@@ -372,7 +384,7 @@ Crée un message électronique.
    <td role="rowheader"> <p>[!UICONTROL Pièces jointes]</p> </td> 
    <td> <p>Ajoutez les pièces jointes au courrier électronique :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Nom du fichier]</strong> </p> <p>Saisissez le nom du fichier. Exemple: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Nom du fichier]</strong> </p> <p>Saisissez le nom du fichier. Exemple : <code>sample.doc</code></p> </li> 
      <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Saisissez les données du fichier dans le champ ou mappez la source du fichier.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -415,7 +427,7 @@ Met à jour un message existant.
    <td> <p>Sélectionnez le mode d'identification du message à mettre à jour :</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Entrée Manuelle]</strong> </p> <p>Saisissez ou mappez l’identifiant du message.</p> </li> 
-     <li> <p><strong>[!UICONTROL Effectuer une sélection dans la liste]</strong> </p> <p>Sélectionnez le dossier contenant le message que vous souhaitez mettre à jour, puis sélectionnez le message.</p> </li> 
+     <li> <p><strong>[!UICONTROL Sélectionnez dans la liste]</strong> </p> <p>Sélectionnez le dossier contenant le message à mettre à jour, puis sélectionnez le message.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -463,7 +475,7 @@ Met à jour un message existant.
    <td role="rowheader"> <p>[!UICONTROL Pièces jointes]</p> </td> 
    <td> <p>Ajoutez les pièces jointes au courrier électronique :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Nom du fichier]</strong> </p> <p>Saisissez le nom du fichier. Exemple: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Nom du fichier]</strong> </p> <p>Saisissez le nom du fichier. Exemple : <code>sample.doc</code></p> </li> 
      <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Saisissez les données du fichier dans le champ ou mappez la source du fichier.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -496,7 +508,7 @@ Ce module récupère une liste de pièces jointes appartenant au message spécif
    <td> <p> Sélectionnez ou mappez l’identifiant du message à partir duquel vous souhaitez récupérer les pièces jointes.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>Saisissez ou mappez le nombre maximal de pièces jointes que le module doit renvoyer lors de chaque cycle d’exécution de scénario.</p> </td> 
   </tr> 
  </tbody> 
@@ -544,10 +556,10 @@ Ce module vous permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Saisissez un chemin relatif à <code>https://graph.microsoft.com</code>. Exemple:<code> /v1.0/me/messages</code></p> </td> 
+   <td> <p>Saisissez un chemin relatif à <code>https://graph.microsoft.com</code>. Exemple :<code> /v1.0/me/messages</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Méthode [!UICONTROL]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
    td&gt; <p>Sélectionnez la méthode de requête HTTP dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -556,11 +568,11 @@ Ce module vous permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p> Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> </td> 
+   <td> <p> Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -585,7 +597,7 @@ Ce module ajoute un grand attachement à un message.
    <td> <p> Sélectionnez ou mappez l’identifiant du message auquel vous souhaitez ajouter une pièce jointe.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fichier source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Sélectionnez un fichier d’un module précédent ou mappez le nom et les données du fichier source.</p> </td> 
   </tr> 
  </tbody> 

@@ -3,46 +3,46 @@ filename: microsoft-word-templates-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: Connecteur
 navigation-topic: apps-and-their-modules
 title: Modules de modèle Microsoft Word
 description: Dans un scénario de fusion Adobe Workfront, vous pouvez automatiser les workflows qui utilisent des modèles Microsoft Word et les connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 0%
+source-wordcount: '1401'
+ht-degree: 4%
 
 ---
 
-# [!DNL Microsoft Word Template] modules
+# Modules [!DNL Microsoft Word Template]
 
 Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft Word Templates], ainsi que de la connecter à plusieurs applications et services tiers.
 
 Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
   </tr> 
   <tr> 
@@ -60,13 +60,25 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
 Pour utiliser [!DNL Miscrosoft Word Templates] avec [!DNL Adobe Workfront Fusion], une [!DNL Office 365] compte . Vous pouvez en créer un à l’adresse www.office.com.
+
+
+
+## Connexion de la variable [!DNL Office] service à [!DNL Workfront Fusion]
+
+Pour obtenir des instructions sur la connexion à [!DNL Office] compte à [!UICONTROL Workfront Fusion], voir [Créer une connexion à [!UICONTROL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Certaines applications Microsoft utilisent la même connexion, qui est liée à des autorisations utilisateur individuelles. Par conséquent, lors de la création d’une connexion, l’écran de consentement des autorisations affiche les autorisations qui ont été accordées à la connexion de cet utilisateur, en plus des nouvelles autorisations nécessaires à l’application actuelle.
+>
+>Par exemple, si un utilisateur dispose d’autorisations &quot;Lecture de tableau&quot; accordées via le connecteur Excel, puis crée une connexion dans le connecteur Outlook pour lire les emails, l’écran de consentement des autorisations affiche à la fois l’autorisation &quot;Lecture de tableau&quot; déjà accordée et l’autorisation &quot;Ecriture d’email&quot; nouvellement requise.
 
 ## Utilisation [!DNL Microsoft Word Templates] modules
 
@@ -93,14 +105,14 @@ A [!DNL Microsoft Word] modèle est normal [!DNL Microsoft Word] document (fichi
 Une balise de valeur simple est simplement remplacée par une valeur correspondante. Le nom de la balise correspond au [!UICONTROL Clé] la valeur du champ, qui est placée à l’intérieur d’accolades doubles ; par exemple,
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Exemple :** Pour créer un document qui indique &quot;Bonjour, Piotr !&quot;, vous pouvez utiliser un [!DNL Microsoft Word Template] pour créer le modèle suivant :
 
-<pre>&gt; Bonjour &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Bonjour {{name}}!</pre>
 
 Pour ce faire, vous devez configurer le module comme suit :
 
@@ -111,7 +123,7 @@ Pour ce faire, vous devez configurer le module comme suit :
 Vous pouvez utiliser une balise de condition pour renvoyer à la ligne le texte qui doit être rendu uniquement lorsque certaines conditions sont remplies. Pour renvoyer le texte à la ligne, placez-le entre les balises de condition d’ouverture et de fermeture, telles que &quot;hasPhone&quot; si la condition indique si les données incluent ou non un numéro de téléphone. Le nom d’une balise d’ouverture est précédé d’un signe de hachage #, le nom d’une balise de fermeture est précédé d’une barre oblique /, comme illustré dans l’exemple ci-dessous.
 
 **Exemple :** Pour produire un document qui comprend le numéro de téléphone d’un client si les données d’entrée incluent un numéro de téléphone, mais pas d’adresse électronique, vous pouvez utiliser une [!DNL Microsoft Word Template] et créez le modèle suivant :
-<pre>&gt; &#123;&#123;#hasPhone&#125;&#125;Téléphone : &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone}</pre><pre>&gt; {{#hasEmail&#125;&#125;Courriel : &#123;&#123;email&#125;&#125; {{/hasEmail}</pre>Pour ce faire, vous devez configurer le module comme suit :
+<pre>&gt; {{#hasPhone}}Téléphone : {{phone}} {{/hasPhone}</pre><pre>&gt; {{#hasEmail}}Courriel : {{email}} {{/hasEmail}</pre>Pour ce faire, vous devez configurer le module comme suit :
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +141,7 @@ Vous pouvez utiliser une balise de boucle, également appelée balise de section
 
 **Exemple :** Pour produire un document qui répertorie le nom et le numéro de téléphone de chaque contact dans une liste de clients, vous pouvez utiliser une [!DNL Microsoft Word Template] et créez le modèle suivant :
 
-<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>&gt; {{/contact}</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}</pre>
 
 Pour ce faire, vous devez configurer le module comme suit :
 
@@ -166,7 +178,7 @@ The module would create the following document:
 ![](assets/word-template-batch-document-350x46.png)
 -->
 
-## [!DNL Microsoft Word Template] modules
+## Modules [!DNL Microsoft Word Template]
 
 Ces modules ne nécessitent pas de connexion.
 
@@ -190,7 +202,7 @@ Ce module du transformateur permet de remplir un document avec les données que 
    <td> <p>Saisissez le ou les caractères que vous souhaitez marquer la fin du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrée <code>]]</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fichier source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p> Mappez le fichier que vous souhaitez charger à partir du module précédent (par exemple, HTTP &gt; Obtenir un fichier ou un Dropbox &gt; Obtenir un module de fichier). Vous pouvez également saisir le fichier de données manuellement.</p> </td> 
   </tr> 
   <tr> 
@@ -260,7 +272,7 @@ Ce module d&#39;agrégation est particulièrement utile pour créer des listes o
    <td>Activez cette option pour arrêter le traitement lorsqu’une agrégation ne contient aucun lot.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fichier source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p> Mappez le fichier que vous souhaitez charger à partir du module précédent (par exemple, HTTP &gt; Obtenir un fichier ou un Dropbox &gt; Obtenir un module de fichier). Vous pouvez également saisir le fichier de données manuellement.</p> </td> 
   </tr> 
   <tr> 

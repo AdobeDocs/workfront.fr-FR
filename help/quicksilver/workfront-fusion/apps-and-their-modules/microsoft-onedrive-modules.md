@@ -2,48 +2,48 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
-keywords: connector
+keywords: Connecteur
 navigation-topic: apps-and-their-modules
-title: Modules Microsoft OneDrive
+title: Modules Microsoft OneDrive
 description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent OneDrive et les connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 0%
+source-wordcount: '4073'
+ht-degree: 9%
 
 ---
 
-# [!DNL Microsoft OneDrive] modules
+# Modules [!DNL Microsoft OneDrive]
 
 Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL OneDrive], ainsi que de la connecter à plusieurs applications et services tiers.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
    <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td> 
@@ -51,31 +51,40 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités de ce
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
 Pour utiliser [!DNL OneDrive] modules, vous devez disposer d’un [!DNL Microsoft OneDrive] compte .
 
+
+
+
 ## Connexion de la variable [!DNL OneDrive] service à [!DNL Workfront Fusion]
 
 Pour obtenir des instructions sur la connexion à [!DNL OneDrive] compte à [!UICONTROL Workfront Fusion], voir [Créer une connexion à [!UICONTROL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-## [!DNL Microsoft OneDrive] modules et leurs champs
+>[!NOTE]
+>
+>Certaines applications Microsoft utilisent la même connexion, qui est liée à des autorisations utilisateur individuelles. Par conséquent, lors de la création d’une connexion, l’écran de consentement des autorisations affiche les autorisations qui ont été accordées à la connexion de cet utilisateur, en plus des nouvelles autorisations nécessaires à l’application actuelle.
+>
+>Par exemple, si un utilisateur dispose d’autorisations &quot;Lecture de tableau&quot; accordées via le connecteur Excel, puis crée une connexion dans le connecteur Outlook pour lire les emails, l’écran de consentement des autorisations affiche à la fois l’autorisation &quot;Lecture de tableau&quot; déjà accordée et l’autorisation &quot;Ecriture d’email&quot; nouvellement requise.
 
-Lorsque vous configurez [!DNL OneDrive] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL OneDrive] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+## Modules [!DNL Microsoft OneDrive] et leurs champs
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Lorsque vous configurez des modules [!DNL OneDrive], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL OneDrive] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+
+Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -134,8 +143,8 @@ Ce module de déclenchement lance un scénario lorsqu’un fichier ou un dossier
    <td> <p>Indiquez si vous souhaitez surveiller les fichiers, les dossiers ou les deux.</p> <p>Remarque : Vous ne pouvez pas rechercher des dossiers dans un lecteur [!UICONTROL Partagé avec moi].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -164,7 +173,7 @@ Ce module de recherche renvoie les fichiers et les dossiers en fonction des crit
        <li> <p><b>[!UICONTROL No]</b> </p> <p>Accédez au dossier dans lequel vous souhaitez que le module recherche. Vous pouvez également saisir une requête pour filtrer les résultats renvoyés.</p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL Partagé Avec Moi]</b> </p> <p>Le module recherche les fichiers qui ont été partagés avec le propriétaire du lecteur.</p> </li> 
-     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la [!DNL SharePoint] Site sur lequel vous souhaitez que le module effectue une recherche. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
+     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la variable [!DNL SharePoint] Site sur lequel vous souhaitez que le module effectue une recherche. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Sélectionnez le groupe dont vous souhaitez que le module effectue la recherche.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -173,8 +182,8 @@ Ce module de recherche renvoie les fichiers et les dossiers en fonction des crit
    <td> <p>Indiquez si vous souhaitez rechercher des fichiers, des dossiers ou les deux.</p> <p>Remarque : Vous ne pouvez pas rechercher des dossiers dans un lecteur [!UICONTROL Partagé avec moi].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -328,7 +337,7 @@ Ce module d’action charge un fichier dans le dossier spécifié.
    <td>Pour obtenir des instructions sur la connexion à [!DNL OneDrive] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Entrée (Folder Location ID &amp; Path)</td> 
+   <td role="rowheader">Entrée (ID et chemin d’accès de l’emplacement du dossier)</td> 
    <td>Indiquez si vous souhaitez identifier le dossier cible par identifiant ou par chemin d’accès.</td> 
   </tr> 
   <tr> 
@@ -340,7 +349,7 @@ Ce module d’action charge un fichier dans le dossier spécifié.
        <li> <p><b>[!UICONTROL Oui]</b> </p> <p>Sélectionnez le lecteur contenant le fichier que vous souhaitez obtenir.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la [!DNL SharePoint] Site contenant le dossier dans lequel vous souhaitez charger un fichier. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
+     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la variable [!DNL SharePoint] Site contenant le dossier dans lequel vous souhaitez charger un fichier. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Sélectionnez le groupe dont le lecteur contient le dossier dans lequel vous souhaitez charger un fichier.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -349,7 +358,7 @@ Ce module d’action charge un fichier dans le dossier spécifié.
    <td> <p>Sélectionnez le lecteur contenant le dossier dans lequel vous souhaitez charger un fichier. Ce champ n’est pas disponible si vous avez sélectionné [!UICONTROL Non] dans le champ [!UICONTROL Activer pour entrer un identifiant de lecteur] .</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fichier source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom et les données du fichier source.</p> </td> 
   </tr> 
   <tr> 
@@ -384,7 +393,7 @@ Ce module d’action crée un dossier dans le lecteur spécifié.
        <li> <p><b>[!UICONTROL Oui]</b> </p> <p>Sélectionnez le lecteur sur lequel vous souhaitez créer un dossier.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la [!DNL SharePoint] Emplacement où vous souhaitez créer un dossier. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
+     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la variable [!DNL SharePoint] Emplacement où vous souhaitez créer un dossier. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Sélectionnez le groupe propriétaire du lecteur dans lequel vous souhaitez créer un dossier.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -496,7 +505,7 @@ Ce module d’action déplace un fichier ou un dossier vers un nouvel emplacemen
        <li> <p><b>[!UICONTROL Oui]</b> </p> <p>Saisissez l’identifiant du lecteur contenant le fichier ou le dossier à déplacer.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la [!DNL SharePoint] Site contenant le fichier ou le dossier à déplacer. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
+     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la variable [!DNL SharePoint] Site contenant le fichier ou le dossier à déplacer. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Sélectionnez le groupe dont le lecteur contient le fichier ou le dossier que vous souhaitez déplacer.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -529,7 +538,7 @@ Ce module d’action déplace un fichier ou un dossier vers un nouvel emplacemen
        <li> <p><b>[!UICONTROL Oui]</b> </p> <p>Saisissez l’identifiant du lecteur sur lequel vous souhaitez déplacer le fichier ou le dossier.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la [!DNL SharePoint] Emplacement où vous souhaitez déplacer le fichier ou le dossier. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
+     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la variable [!DNL SharePoint] Emplacement où vous souhaitez déplacer le fichier ou le dossier. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Sélectionnez le groupe sur lequel vous souhaitez déplacer le fichier ou le dossier.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -606,7 +615,7 @@ Ce module d’action copie un fichier dans un nouvel emplacement de dossier.
        <li> <p><b>[!UICONTROL Oui]</b> </p> <p>Saisissez l’identifiant du lecteur sur lequel vous souhaitez copier le fichier.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la [!DNL SharePoint] Emplacement où vous souhaitez copier le fichier. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
+     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la variable [!DNL SharePoint] Emplacement où vous souhaitez copier le fichier. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Sélectionnez le groupe sur lequel vous souhaitez copier le fichier.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -620,7 +629,7 @@ Ce module d’action copie un fichier dans un nouvel emplacement de dossier.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nouveau nom de fichier copié]</td> 
-   <td> <p>Saisissez ou mappez un nom pour la nouvelle copie du fichier. Si vous ne souhaitez pas modifier le nom de fichier d’origine, laissez ce champ vide.</p> <p>Le nom doit inclure l’extension du fichier. Exemple:<code> file.txt</code></p> </td> 
+   <td> <p>Saisissez ou mappez un nom pour la nouvelle copie du fichier. Vous pouvez laisser ce champ vide si vous ne souhaitez pas modifier le nom de fichier d’origine.</p> <p>Le nom doit inclure l’extension du fichier. Exemple :<code> file.txt</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -655,10 +664,10 @@ Ce module d&#39;action supprime le fichier sélectionné.
     <ul> 
      <li> <p><b>[!UICONTROL Mon lecteur]</b> </p> <p>Indiquez si le module doit entrer un identifiant de lecteur.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Oui]</b> </p> <p>Saisissez l’identifiant du lecteur qui contient le fichier ou le dossier à supprimer.</p> </li> 
+       <li> <p><b>[!UICONTROL Oui]</b> </p> <p>Saisissez l’identifiant du lecteur qui contient le fichier ou le dossier que vous souhaitez supprimer.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la [!DNL SharePoint] Site contenant le fichier ou le dossier à supprimer. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
+     <li> <p><b>[!UICONTROL Lecteur du site]</b> </p> <p>Sélectionnez la variable [!DNL SharePoint] Site contenant le fichier ou le dossier à supprimer. Les sites disponibles sont Sites, suivis par l’utilisateur connecté.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Sélectionnez le groupe dont le lecteur contient le fichier ou le dossier que vous souhaitez supprimer.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -693,10 +702,10 @@ Ce module effectue un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Saisissez un chemin relatif à <code>https://graph.microsoft.com</code>. Exemple:<code> /v1.0/me/drive/root/children</code></td> 
+   <td>Saisissez un chemin relatif à <code>https://graph.microsoft.com</code>. Exemple :<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Méthode [!UICONTROL]</td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
    td&gt; <p>Sélectionnez la méthode de requête HTTP dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -705,11 +714,11 @@ Ce module effectue un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> <p>Par exemple : <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> <p>Par exemple : <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -723,6 +732,6 @@ Ce module effectue un appel API personnalisé.
 
 Plusieurs problèmes peuvent se produire lors de l’échec du téléchargement ou de la mise à jour d’un fichier :
 
-* Le fichier téléchargé est trop volumineux et dépasse la taille maximale autorisée pour votre [!DNL OneDrive] planifiez ou vous avez utilisé tous vos [!DNL OneDrive] quota de stockage du compte. Pour obtenir plus d’espace de stockage, supprimez les fichiers existants de [!DNL OneDrive] ou mettez à niveau votre [!DNL OneDrive] compte .
+* Le fichier téléchargé est trop volumineux et dépasse la taille maximale autorisée pour votre [!DNL OneDrive] planifiez ou vous avez utilisé l’ensemble de vos [!DNL OneDrive] quota de stockage du compte. Pour obtenir plus d’espace de stockage, supprimez les fichiers existants de [!DNL OneDrive] ou mettez à niveau votre [!DNL OneDrive] compte .
 * OneDrive ne permet pas de charger deux fichiers portant le même nom dans un seul dossier. Si le dossier cible contient un fichier portant le même nom que le fichier téléchargé, l’exécution du scénario s’arrête avec une erreur. La solution consiste à simplement renommer le fichier en cours de chargement. Si vous souhaitez mettre à jour un fichier, utilisez la variable [!UICONTROL Mettre à jour un fichier] action.
 * Le dossier précédemment sélectionné, vers lequel le fichier est chargé, n’existe plus. Le scénario s’arrête et vous devrez sélectionner à nouveau le dossier cible.
