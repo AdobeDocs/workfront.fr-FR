@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
+source-git-commit: 2eb27afe73a7f46bade832b122159d3f93f7fb37
 workflow-type: tm+mt
-source-wordcount: '14329'
+source-wordcount: '14340'
 ht-degree: 95%
 
 ---
@@ -615,6 +615,7 @@ ht-degree: 95%
                * [Gérer un formulaire](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
                * [Ajouter ou supprimer des types d’objets d’un formulaire personnalisé existant à l’aide du créateur de formulaires](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
                * [Renommer un formulaire personnalisé avec le créateur de formulaires](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+               * [Configuration du partage de champs et de widgets personnalisés avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
          * Gérer les formulaires personnalisés {#manage-custom-forms}
             * [Gérer les formulaires et les champs personnalisés](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
             * [Partager un formulaire personnalisé](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
