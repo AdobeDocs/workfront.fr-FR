@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '558'
 ht-degree: 6%
 
 ---
@@ -126,8 +126,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Modifier les paramètres de champ
 
 {{step1-to-planning}}
-
-L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez supprimer des types d’enregistrement.
 

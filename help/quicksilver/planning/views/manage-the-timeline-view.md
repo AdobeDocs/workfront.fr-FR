@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b3e4b056961543ea95c67c00f93d1fe13b280985
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1724'
 ht-degree: 2%
 
 ---
@@ -98,6 +98,8 @@ Lors de la création d’une vue chronologique, tous les enregistrements du type
 Tenez compte des points suivants :
 
 * Vous ne pouvez créer une vue Chronologie que si au moins deux champs de date sont associés à un type d’enregistrement. Lorsqu’un ou plusieurs champs de date sont associés à un type d’enregistrement, l’option Mode Chronologie est grisée.
+
+  Vous pouvez sélectionner des champs de date d’enregistrement ou des champs de date de recherche à partir des types d’enregistrement ou d’objet connectés.
 * Selon les dates associées aux enregistrements, il se peut que certains enregistrements ne s’affichent pas dans la vue de la chronologie dans les scénarios suivants :
 
    * Lorsque les dates de début et de fin n’ont aucune valeur

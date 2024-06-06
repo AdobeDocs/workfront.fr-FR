@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 5%
+source-wordcount: '543'
+ht-degree: 6%
 
 ---
 
@@ -89,8 +89,6 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 ## Modifier un espace de travail
 
 {{step1-to-planning}}
-
-Cela ouvre la zone Espaces de travail de la planification Workfront.
 
 1. Cliquez dans le nom de l’espace de travail dans l’en-tête du nouvel espace de travail pour le renommer, puis appuyez sur **Entrée**.
 1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png)à droite du nom de l’espace de travail dans l’en-tête, puis cliquez sur **Modifier**.

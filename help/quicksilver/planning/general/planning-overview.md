@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1875'
 ht-degree: 4%
 
 ---
@@ -283,23 +283,35 @@ Pour localiser Workfront Planning :
 
    La zone Espaces de travail s’ouvre.
 
+   <!--replace above with: The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all workspaces in the system.
+    Otherwise, all workspaces display in the **Workspaces** area.-->
+
 1. (Facultatif et recommandé) Passez à certaines des actions suivantes pour créer votre structure de travail :
 
-   1. Créez un espace de travail entièrement ou à l’aide d’un modèle.
+   1. Créez un espace de travail entièrement ou à l’aide d’un modèle. Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. Ajoutez des sections au nouvel espace de travail.
+   1. Ajoutez des sections au nouvel espace de travail. Pour plus d’informations, voir [Modification des espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. Renommez les sections existantes dans le nouvel espace de travail.
-   1. Ajoutez des types d’enregistrement au nouvel espace de travail.
+   1. Ajoutez des types d’enregistrement au nouvel espace de travail. Pour plus d’informations, voir [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. Cliquez sur le nom d’un type d’enregistrement pour ouvrir la page du type d’enregistrement. Par défaut, la page de type enregistrement s’ouvre dans la vue Tableau.
 
-      Vous pouvez également créer une vue Chronologie ou Calendrier.
+      Vous pouvez également créer une vue Chronologie ou Calendrier. Pour plus d’informations, voir [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
    1. En mode Tableau, commencez à ajouter des enregistrements en ajoutant des lignes.
 
       Ou
 
       Commencez à ajouter des champs d’enregistrement en ajoutant des colonnes.
+
+      Pour plus d’informations, voir les articles suivants :
+
+      * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
+      * [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Activité de mise à jour de la planification Adobe Workfront
 

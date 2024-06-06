@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1244'
 ht-degree: 3%
 
 ---
@@ -135,8 +135,6 @@ Pour plus d’informations sur les types d’enregistrement inclus dans chaque m
 
 {{step1-to-planning}}
 
-L’espace de travail du dernier accès doit s’ouvrir par défaut.
-
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez créer des types d’enregistrement.
 1. (Facultatif) Cliquez sur **Ajouter une section** pour ajouter une nouvelle section à l’espace de travail.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
@@ -223,8 +221,6 @@ Tenez compte des points suivants lors de l’importation de types d’enregistre
 Pour importer des types d’enregistrement à l’aide d’un fichier Excel :
 
 {{step1-to-planning}}
-
-L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez créer des types d’enregistrement.
 1. Cliquez sur **Ajouter un type d’enregistrement**.

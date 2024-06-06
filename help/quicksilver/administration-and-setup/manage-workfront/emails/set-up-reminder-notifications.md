@@ -1,14 +1,14 @@
 ---
 title: Configurer des notifications de rappel
-description: Configurer des notifications de rappel
+description: Les notifications de rappel génèrent des emails envoyés aux utilisateurs selon des critères spécifiés. Les notifications de rappel rappellent aux utilisateurs qu’une action doit être effectuée pour une tâche, un problème, un projet ou une feuille de temps.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 2%
+source-wordcount: '1215'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,11 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-Les notifications de rappel envoient des emails aux destinataires selon des critères spécifiés. Vous pouvez associer manuellement des notifications de rappel à vos tâches, telles que des projets, des tâches, des problèmes et des feuilles de temps.
+En tant qu’administrateur Workfront, vous pouvez créer des notifications de rappel pour les utilisateurs et les associer à des objets auxquels vous souhaitez que vos utilisateurs accordent une attention particulière.
+
+Les notifications de rappel génèrent des emails envoyés aux utilisateurs selon des critères spécifiés. Les notifications de rappel rappellent aux utilisateurs qu’une action doit être effectuée pour une tâche, un problème, un projet ou une feuille de temps.
+
+Après avoir créé les notifications de rappel, les utilisateurs peuvent les associer manuellement aux tâches, telles que les projets, les tâches, les problèmes et les feuilles de temps. Pour plus d’informations, voir [Joindre une notification de rappel à un objet](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -27,33 +31,33 @@ An example of how this can be used would be helpful here and/or in the section <
 
 -->
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard </p>
  <p>ou</p> 
 <p>Actuel : formule</p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Planificateur ou version ultérieure, avec accès administratif aux notifications de rappel</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Personnalisation de l’email de rappel
 
@@ -126,7 +130,18 @@ Pour plus d’informations sur la création d’un modèle de courrier électron
      </tr> 
      <tr> 
       <td role="rowheader">Destinataires</td> 
-      <td>Sélectionnez les types d'utilisateurs auxquels vous souhaitez envoyer la notification. Effectuez une sélection parmi les différents intervenants d’objet, tels que le propriétaire, l’approbateur ou la personne désignée.</td> 
+      <td><p>En fonction de l’objet pour lequel la notification de rappel est envoyée, sélectionnez l’un des types d’utilisateurs suivants auxquels vous souhaitez envoyer la notification :</p>
+      <ul>
+      <li>Affecté à</li>
+      <li>Entré par</li>
+      <li>Équipe de projet (tous les utilisateurs de l’équipe de projet reçoivent un rappel)</li>
+      <li>Affectations de tâches dépendantes (les utilisateurs affectés à des tâches dépendantes reçoivent le rappel)</li>
+      <li>Propriétaire du projet</li>
+      <li>Affecté à (les utilisateurs affectés à une tâche ou à un problème reçoivent le rappel)</li>
+      <li>Propriétaire de feuille de temps</li>
+      <li>Approbateur de feuilles de temps</li>
+      <li>Gestionnaire du propriétaire de feuille de temps</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>

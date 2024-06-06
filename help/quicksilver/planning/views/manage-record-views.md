@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1083'
 ht-degree: 7%
 
 ---
@@ -172,14 +172,12 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
 >
 >Lorsque vous créez un type d’enregistrement, la vue de tableau est également créée par défaut.
 >
->Pour créer une vue de chronologie ou de calendrier, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date. Dans le cas contraire, les options Chronologie et Calendrier sont grisées.
+>Pour créer une vue de chronologie ou de calendrier, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date.
+>
+>Dans le cas contraire, les options Chronologie et Calendrier sont grisées.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    Pour créer une vue de chronologie ou de calendrier, le type d’enregistrement pour lequel vous créez la vue doit comporter au moins deux champs de date. Dans le cas contraire, les options Chronologie ou Calendrier sont grisées.
 
 1. (Conditionnel) Cliquez sur **Suivant**, lors de la création d’une vue de chronologie ou de calendrier.
 
@@ -195,7 +193,7 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
 
    >[!TIP]
    >
-   >    Vous pouvez sélectionner des champs de date d’enregistrement ou des champs de date de recherche à partir d’enregistrements ou d’objets connectés.
+   >    Vous pouvez sélectionner des champs de date d’enregistrement ou des champs de date de recherche à partir des types d’enregistrement ou d’objet connectés.
 
 1. Cliquez sur **Créer**.
 

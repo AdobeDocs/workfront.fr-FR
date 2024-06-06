@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '2243'
+source-wordcount: '2236'
 ht-degree: 2%
 
 ---
@@ -174,8 +174,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <!--when changes here, also update the article for "Connect records"-->
 
 {{step1-to-planning}}
-
-L’espace de travail du dernier accès doit s’ouvrir par défaut.
 
 1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail duquel vous souhaitez connecter les types d’enregistrement.
 1. Cliquez sur la carte d’un type d’enregistrement pour ouvrir la page de type d’enregistrement.
