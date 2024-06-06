@@ -4,10 +4,10 @@ description: Lorsque vous affichez la liste des formulaires personnalisés de vo
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 0%
+source-wordcount: '556'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ Lorsque vous affichez la liste des formulaires personnalisés de votre entrepris
 
 Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -27,15 +27,15 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td role="rowheader"> <p>Forfait Adobe Workfront*</p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs de Workfront accordent cet accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -49,7 +49,7 @@ Les étapes de cet article doivent être les suivantes :
 
 1. Cliquez sur **Forms personnalisée**.
 
-   Avec la variable **Forms** sélectionné, tous les formulaires personnalisés de votre organisation sont répertoriés, ainsi que leurs descriptions, les types d’objets qui leur sont associés, le nom des utilisateurs qui les ont créés et s’ils sont principaux ou non dans le système.
+   Avec la variable **Forms** sélectionné, tous les formulaires personnalisés de votre organisation sont répertoriés, ainsi que leurs descriptions, les types d’objets qui leur sont associés, le nom des utilisateurs qui les ont créés et s’ils sont actifs ou non dans le système.
 
    Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un formulaire personnalisé dans la liste, reportez-vous aux articles suivants :
 
@@ -75,9 +75,9 @@ Les étapes de cet article doivent être les suivantes :
 
    Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un élément dans la liste, reportez-vous aux articles suivants :
 
-   * [Modifier les propriétés d’un champ personnalisé, d’un saut de section ou d’un widget dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [Ajouter ou modifier un champ personnalisé, un saut de section ou un widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Configuration du partage pour les champs et widgets personnalisés](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-   * [Suppression d’un champ ou d’un widget personnalisé du système](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
+   * [Supprimer un champ personnalisé ou un widget du système](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. Sélectionnez la variable **Sections** , puis assurez-vous que la variable **Groupe de paramètres** est sélectionné en tant que **Affichage** pour la liste.
 
