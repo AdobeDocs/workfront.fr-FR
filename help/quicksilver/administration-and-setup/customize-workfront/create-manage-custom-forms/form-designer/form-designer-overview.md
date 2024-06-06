@@ -1,5 +1,5 @@
 ---
-title: Présentation du concepteur de formulaires
+title: Vue d’ensemble du créateur de formulaires
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
+source-git-commit: 2a2f6d93c916863177d7a9d2f46f8124d1430354
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 1%
+source-wordcount: '345'
+ht-degree: 3%
 
 ---
 
-# Présentation du concepteur de formulaires
+# Vue d’ensemble du créateur de formulaires
 
 Vous pouvez utiliser le nouveau concepteur de formulaire pour concevoir un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Workfront. Les utilisateurs qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 
@@ -23,9 +23,9 @@ Le nouveau concepteur de formulaire dispose d’un nouvel espace de travail de s
 
 ![Concepteur d’exemple de formulaire](assets/form-designer-example.png)
 
-## Accès au nouveau concepteur de formulaires
+## Accès au concepteur de formulaires
 
-Il existe un nouveau bouton en haut du nouveau concepteur de formulaire et de l’ancien créateur de formulaires. Vous pouvez utiliser ce bouton pour basculer entre le créateur hérité et le nouveau concepteur.
+Un bouton situé en haut du nouveau concepteur de formulaires et de l’ancien créateur de formulaires vous permet de basculer entre les versions.
 
 ![Passer au nouveau concepteur de formulaires](assets/switch-views.png)
 
@@ -43,23 +43,17 @@ Avec le nouveau concepteur de formulaires, nous avons ajouté la possibilité de
   >
   >La section Par défaut n’est pas visible dans les objets lorsque le formulaire est joint à l’objet.
 
+* **Utilisation d’un champ de recherche externe**: ce type de champ appelle une API externe et renvoie les valeurs sous forme d’options dans un champ de liste déroulante.
+
 ## Fonctionnalité supprimée du concepteur de formulaires
 
 Nous avons supprimé les fonctionnalités suivantes du concepteur de formulaires :
 
-* Onglets Paramètres de formulaire, Partage de formulaires, Partage de champs
-
-   * Les paramètres de formulaire sont désormais disponibles en haut de la zone de travail.
-
-   * Panneau principal Partage de formulaires et sous-onglet Partage de champs
-
-  >[!NOTE]
-  >
-  >Vous pouvez contrôler le partage des formulaires et des champs à partir de Configuration > Forms personnalisé > Forms ou de la zone Champs .
+* Les paramètres de formulaire sont désormais disponibles en haut de la zone de travail.
 
 * Suivre les modifications de champ dans les messages de mise à jour
 
   >[!NOTE]
   >
-  >Vous pouvez le trouver dans Configuration > Interface > Mettre à jour les flux.
+  >Cette option est disponible dans Configuration > Interface > Mettre à jour les flux.
 
