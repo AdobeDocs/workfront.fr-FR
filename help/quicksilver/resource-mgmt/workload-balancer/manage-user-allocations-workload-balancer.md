@@ -1,25 +1,27 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Gestion des affectations utilisateur dans l’équilibreur de charge de travail
+title: Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail
 description: En tant que gestionnaire de ressources, vous pouvez affecter du travail aux utilisateurs et gérer leurs allocations quotidiennes, hebdomadaires ou mensuelles à partir de l’équilibreur de charge de travail.
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ce89f7e680f11a11c8646853652f9f24ee89b14
 workflow-type: tm+mt
-source-wordcount: '2798'
-ht-degree: 0%
+source-wordcount: '2887'
+ht-degree: 1%
 
 ---
 
-# Gestion des affectations utilisateur dans l’équilibreur de charge de travail
+# Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail
 
 <!-- Audited: 01/2024 -->
 
+{{highlighted-preview}}
+
 En tant que gestionnaire de ressources, vous pouvez affecter du travail aux utilisateurs et gérer leurs allocations quotidiennes, hebdomadaires ou mensuelles à partir de l’équilibreur de charge de travail afin de vous assurer qu’un nombre d’heures adapté à leurs plannings disponibles leur est alloué.
 
-## Exigences d’accès {#access-requirements}
+## Conditions d’accès {#access-requirements}
 
 Vous devez disposer des éléments suivants :
 
@@ -28,11 +30,11 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
    <p>Lors de l’utilisation de l’équilibreur de charge de travail dans la zone Ressource , vous avez besoin des éléments suivants :</p>
    <p>Nouveau : Standard</p>
@@ -61,7 +63,7 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Présentation des affectations utilisateur
 
@@ -111,11 +113,14 @@ Tenez compte des points suivants lorsque vous localisez des allocations quotidie
 
 * Deux utilisateurs dans des fuseaux horaires ou des plannings différents de ceux des utilisateurs affectés peuvent faire apparaître les quantités d’allocation différemment à deux utilisateurs affichant les mêmes tâches.
 
-* Lorsqu’un utilisateur a programmé des congés, le jour ou la partie de la journée s’affiche en arrière-plan gris. Si l’administrateur de Workfront a activé le paramètre de désactivation de l’heure de l’utilisateur dans la zone Configuration afin de prendre en compte l’heure de désactivation de l’utilisateur, les heures allouées sont déplacées vers le jour disponible suivant dans la chronologie. Si le paramètre est désactivé, les heures allouées restent le jour désigné pour le congé et l’utilisateur s’affiche comme suralloué. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Lorsqu’un utilisateur a planifié un congé, le jour ou la partie de la journée s’affiche en arrière-plan gris, <span class="preview">et une icône d’avion indique le temps de pause</span>. Si l’administrateur de Workfront a activé le paramètre de désactivation de l’heure de l’utilisateur dans la zone Configuration afin de prendre en compte l’heure de désactivation de l’utilisateur, les heures allouées sont déplacées vers le jour disponible suivant dans la chronologie. Si le paramètre est désactivé, les heures allouées restent le jour désigné pour le congé et l’utilisateur s’affiche comme suralloué. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >Si le temps de pause a été marqué après l’affectation de l’utilisateur à une tâche, vous devez recalculer la chronologie du projet pour afficher l’allocation déplacée. Pour plus d’informations, voir [Recalculer les calendriers du projet](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+   * <span class="preview">Lorsque plusieurs utilisateurs sont affectés à une tâche et que le cessionnaire principal a programmé un congé, la chronologie est décalée (si les dates ne sont pas fixes) et les heures planifiées de tous les cessionnaires sont redistribuées sur la nouvelle durée de la tâche. Si la tâche comporte des dates fixes, la chronologie n’est pas modifiée en raison d’un temps de congé et les heures sont réaffectées parmi les jours restants.</span>
+   * <span class="preview">Si les affectations sont effectuées manuellement, les heures planifiées ne sont pas redistribuées après le congé.</span>
 
 * Si plusieurs utilisateurs sont affectés à la tâche, le montant des heures planifiées est réparti uniformément entre chaque utilisateur en premier, puis uniformément sur chaque jour au cours de la durée de la tâche. Cette répartition devient l’affectation de chaque utilisateur à la tâche.
 
