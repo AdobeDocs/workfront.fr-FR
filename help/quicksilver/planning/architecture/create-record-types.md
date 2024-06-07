@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 3%
+source-wordcount: '1269'
+ht-degree: 4%
 
 ---
 
@@ -135,7 +135,11 @@ Pour plus d’informations sur les types d’enregistrement inclus dans chaque m
 
 {{step1-to-planning}}
 
-1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez créer des types d’enregistrement.
+1. Cliquez sur l&#39;espace de travail dans lequel vous souhaitez créer un type d&#39;enregistrement,
+
+   Ou
+
+   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail dans lequel vous souhaitez créer des types d’enregistrement.
 1. (Facultatif) Cliquez sur **Ajouter une section** pour ajouter une nouvelle section à l’espace de travail.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
 1. (Conditionnel) Lorsque vous créez des types d’enregistrement en important un fichier Excel ou CSV, cliquez sur **A partir de zéro**. Sinon, la variable **Ajouter un type d’enregistrement** s’ouvre.
@@ -222,7 +226,11 @@ Pour importer des types d’enregistrement à l’aide d’un fichier Excel :
 
 {{step1-to-planning}}
 
-1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez créer des types d’enregistrement.
+1. Cliquez sur l&#39;espace de travail dans lequel vous souhaitez créer des types d&#39;enregistrements,
+
+   Ou
+
+   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail dans lequel vous souhaitez créer des types d’enregistrement.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
 1. Cliquez sur **Excel/CSV**.
 1. Faites glisser et déposez un fichier Excel ou CSV précédemment enregistré sur votre ordinateur, ou cliquez sur **Sélection d’un fichier CSV ou Excel** pour en rechercher une.

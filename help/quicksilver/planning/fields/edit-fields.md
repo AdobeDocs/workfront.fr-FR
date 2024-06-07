@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 6%
+source-wordcount: '613'
+ht-degree: 5%
 
 ---
 
@@ -127,13 +127,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{step1-to-planning}}
 
-1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez supprimer des types d’enregistrement.
+1. Cliquez sur l’espace de travail dont vous souhaitez modifier les champs d’enregistrement.
 
-   L’espace de travail s’ouvre et les types d’enregistrement qui lui sont associés s’affichent.
-1. Cliquez sur la carte correspondant au type d’enregistrement dont vous souhaitez modifier les champs.
+   L’espace de travail s’ouvre et tous les types d’enregistrement de l’espace de travail s’affichent sur les cartes.
+
+1. Cliquez sur la carte d’un type d’enregistrement.
 
    Cela ouvre la page du type d’enregistrement.
+
 1. (Conditionnel) Cliquez sur l’onglet d’un **Vue Tableau**.
+
+   Tous les enregistrements existants associés au type d&#39;enregistrement s&#39;affichent dans les lignes du mode Tableau.
 1. Pointez sur l’en-tête de colonne d’un champ à modifier, puis cliquez sur la flèche pointant vers le bas située après le nom du champ, puis cliquez sur **Champ Modifier**
 
    Ou
@@ -146,7 +150,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!TIP]
    >
-   >Une fois le champ enregistré, vous ne pouvez pas le mettre à jour.
+   >* Une fois le champ enregistré, vous ne pouvez pas le mettre à jour.
+   >
+   >* Lorsque vous modifiez des configurations de champ (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’y a aucun avertissement et aucun journal d’audit pour les modifications de valeur déclenchées par les modifications de configuration des champs. Tous les utilisateurs qui visualisent les champs verront immédiatement les nouvelles valeurs avec les modifications.
 
    Les informations des champs sont mises à jour pour toutes les personnes ayant accès à l’espace de travail.
 
@@ -154,9 +160,3 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

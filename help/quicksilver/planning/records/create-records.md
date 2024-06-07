@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '824'
 ht-degree: 5%
 
 ---
@@ -98,7 +98,9 @@ Pour plus d’informations sur la modification des informations d’enregistreme
 
 {{step1-to-planning}}
 
-L’espace de travail que vous avez consulté pour la dernière fois s’ouvre par défaut. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Cliquez sur l&#39;espace de travail dans lequel vous souhaitez ajouter des enregistrements.
+
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
 1. Cliquez sur une carte de type enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 

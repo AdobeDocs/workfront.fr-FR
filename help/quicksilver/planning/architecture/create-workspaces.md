@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 6%
 
 ---
@@ -111,19 +111,9 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
 
 {{step1-to-planning}}
 
-<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. Cliquez sur **Créer un espace de travail**
 
-1. (Conditionnel) Si votre environnement ne contient aucun espace de travail, cliquez sur **Créer un espace de travail**
-
-   Ou, dans un espace de travail existant, cliquez sur la flèche vers le bas située à droite du nom de l’espace de travail, puis cliquez sur **Créer un espace de travail**.
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   La zone Créer un espace de travail s’affiche. Vous pouvez créer entièrement un espace de travail ou le créer à l’aide de l’un des modèles disponibles.
 
 1. (facultatif et conditionnel) Cliquez sur **Aperçu** dans l’un des modèles d’espace de travail prédéfinis suivants :
 
@@ -131,17 +121,19 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
    * Gestion des ventes
    * Gestion des produits
 
+   La boîte de dialogue d’aperçu du modèle s’ouvre.
+
    Il existe une indication des types d’enregistrements opérationnels, des taxonomies et du nombre de champs associés à chaque modèle.
 
    ![](assets/previewing-a-workspace-template.png)
 
    Pour plus d’informations sur les modèles d’espace de travail de la planification Workfront, voir [Liste des modèles d&#39;espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Cliquez sur **Utiliser un modèle** pour commencer à créer l’espace de travail à partir du modèle sélectionné
+1. Dans la zone d’aperçu du modèle, cliquez sur **Utiliser un modèle** pour commencer à créer l’espace de travail à partir du modèle sélectionné
 
    Ou
 
-   Cliquez sur **Créer un espace de travail** pour créer entièrement un espace de travail.
+   Cliquez sur **Précédent**, puis cliquez sur **Créer un espace de travail** pour créer entièrement un espace de travail.
 
    L’un des types d’espaces de travail suivants est créé :
 

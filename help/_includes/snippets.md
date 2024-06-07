@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2412'
 ht-degree: 4%
 
 ---
@@ -249,20 +249,14 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Planification]**.
 
-   Cela ouvre la zone Espaces de travail de la planification Workfront.
+   La page d’entrée Planification Workfront s’ouvre.
 
-<!-- replace sentence above with this and following step:
-   The Workfront Planning landing page opens. 
-    
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. (Facultatif et conditionnel) Si vous êtes administrateur Workfront, cliquez sur les onglets suivants :
 
-   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+   * **Mes espaces de travail**: affiche les espaces de travail que vous avez créés.
+   * **Autres espaces de travail**: affiche tous les espaces de travail de la planification Workfront, y compris ceux partagés avec vous.
 
-   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
- 
--->
-
+   Pour tous les autres utilisateurs, tous les espaces de travail qu’ils ont créés ou qu’ils partagent avec eux s’affichent dans la variable **Espaces de travail** zone.
 
 ## Intro important de la planification Workfront - {#planning-important-intro}
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3287'
 ht-degree: 3%
 
 ---
@@ -117,9 +117,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{step1-to-planning}}
 
-L’espace de travail du dernier accès doit s’ouvrir par défaut.
+1. Cliquez sur l&#39;espace de travail pour lequel vous souhaitez créer des champs.
 
-1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, sélectionnez l’espace de travail dont vous souhaitez créer des champs, puis cliquez sur le type d’enregistrement.
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent.
+
+1. Cliquez sur la carte d’un type d’enregistrement.
 
    Tous les enregistrements existants associés au type d&#39;enregistrement s&#39;affichent dans les lignes du mode Tableau.
 
@@ -127,8 +129,11 @@ L’espace de travail du dernier accès doit s’ouvrir par défaut.
    >
    >    Si aucun enregistrement ne s’affiche, il se peut que vous n’ayez encore aucun enregistrement ou qu’un filtre soit appliqué pour limiter ce que vous voyez à l’écran.
 
-   Tous les champs existants associés au type d&#39;enregistrement s&#39;affichent dans les colonnes de la vue de tableau. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+   Tous les champs existants associés au type d&#39;enregistrement s&#39;affichent dans les colonnes de la vue de tableau.
 
+   >[!TIP]
+   >
+   >    Certains champs peuvent être masqués. Cliquez sur Champs et activez le bouton d’activation/désactivation des champs à afficher en tant que colonnes dans la vue Tableau.
 
 1. Cliquez sur le bouton **+** dans le coin supérieur droit de la vue de tableau pour ajouter de nouveaux champs.
 1. Dans le **Nouveau champ** , recherchez un type de champ dans la variable **Type de champ** ou effectuez une sélection parmi les types de champ suivants :

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1481'
 ht-degree: 3%
 
 ---
@@ -120,9 +120,9 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
 {{step1-to-planning}}
 
-L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
+1. Cliquez sur l&#39;espace de travail dont vous souhaitez modifier les enregistrements.
 
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.
@@ -192,9 +192,9 @@ L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
 
 {{step1-to-planning}}
 
-L’espace de travail auquel vous accédez en dernier s’ouvre.
+1. Cliquez sur l&#39;espace de travail dont vous souhaitez modifier les enregistrements.
 
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
 1. Cliquez sur une carte de type enregistrement.
 
@@ -231,9 +231,9 @@ L’espace de travail auquel vous accédez en dernier s’ouvre.
 
 {{step1-to-planning}}
 
-L’espace de travail auquel vous accédez en dernier s’ouvre.
+1. Cliquez sur l&#39;espace de travail dont vous souhaitez modifier les enregistrements.
 
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
 1. Cliquez sur une carte de type enregistrement.
 

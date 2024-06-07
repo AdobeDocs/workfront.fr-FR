@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '448'
 ht-degree: 9%
 
 ---
@@ -97,7 +97,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{step1-to-planning}}
 
-1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez modifier les types d’enregistrement.
+1. Cliquez sur l’espace de travail dont vous souhaitez modifier les types d’enregistrement,
+
+   Ou
+
+   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail dont vous souhaitez modifier les types d’enregistrement.
+
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent.
 1. Pointez sur la carte d’un type d’enregistrement, puis cliquez sur le **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit de la carte de type enregistrement, puis cliquez sur **Modifier**.
 
    ![](assets/more-menu-options-from-record-type-card.png)

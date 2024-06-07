@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Présentation du projet Date d’achèvement réelle
+title: Vue d’ensemble de la date d’achèvement effective du projet
 description: Les projets, tâches et problèmes ont une date d’achèvement réelle dans Adobe Workfront. Il s’agit de la date à laquelle le projet, la tâche ou le problème ont été marqués comme étant terminés.
 author: Alina
 feature: Work Management
 exl-id: 0baba359-a61d-43d7-8336-1f45c7f34374
-source-git-commit: 3a3dc541219706e3f6a4700889db344c110838bb
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Présentation du projet Date d’achèvement réelle
+# Vue d’ensemble de la date d’achèvement effective du projet
 
 Les projets, tâches et problèmes ont une date d’achèvement réelle dans Adobe Workfront. Il s’agit de la date à laquelle le projet, la tâche ou le problème ont été marqués comme étant terminés.
 
@@ -28,14 +28,14 @@ Vous ne pouvez pas modifier manuellement la date de fin réelle d’un projet, m
 
 La date d’achèvement réelle d’un projet est définie comme suit :
 
-* En mettant manuellement à jour l’état du projet : Si le mode d’achèvement du projet est défini sur Manuel et que vous modifiez manuellement l’état du projet en Terminé, la date d’achèvement réelle du projet est alors mise à jour à la date et à l’heure de modification de l’état.
-* Automatiquement, lorsque la dernière tâche du projet se termine : Si le mode d’achèvement du projet est défini sur Automatique et que vous marquez la dernière tâche comme Terminée ou mettez à jour la date d’achèvement réelle de la dernière tâche, la date d’achèvement réelle du projet est également mise à jour avec cette date.
+* En mettant manuellement à jour l’état du projet : si le mode d’achèvement du projet est défini sur Manuel et que vous modifiez manuellement l’état du projet sur Terminé, la date d’achèvement réel du projet est mise à jour à la date et à l’heure de la dernière tâche terminée.
+* Automatiquement, lorsque la dernière tâche du projet se termine : si le mode d’achèvement du projet est défini sur Automatique et que vous marquez la dernière tâche comme Terminée ou mettez à jour la date d’achèvement réelle de la dernière tâche, la date d’achèvement réelle du projet est également mise à jour avec cette date.
 
-   Pour plus d’informations sur la définition du mode d’exécution d’un projet, reportez-vous à l’article . [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Pour plus d’informations sur la définition du mode d’exécution d’un projet, voir l’article . [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   >[!NOTE]
-   >
-   >Workfront utilise la date d’achèvement réelle de la tâche du projet qui s’est terminée en dernier en tant que date d’achèvement réel pour l’ensemble du projet.
+  >[!NOTE]
+  >
+  >Workfront utilise la date d’achèvement réelle de la tâche du projet qui s’est terminée en dernier en tant que date d’achèvement réel pour l’ensemble du projet.
 
 Un administrateur Workfront ou de groupe détermine si Workfront utilise la date d’aujourd’hui ou la date d’achèvement planifiée d’une tâche ou un problème lorsqu’ils sont définis sur Terminé ou Fermé. Pour plus d’informations sur la définition des préférences de tâche et de problème, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

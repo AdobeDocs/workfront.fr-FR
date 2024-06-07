@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 6%
+source-wordcount: '551'
+ht-degree: 5%
 
 ---
 
@@ -90,6 +90,7 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 
 {{step1-to-planning}}
 
+1. Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail.
 1. Cliquez dans le nom de l’espace de travail dans l’en-tête du nouvel espace de travail pour le renommer, puis appuyez sur **Entrée**.
 1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png)à droite du nom de l’espace de travail dans l’en-tête, puis cliquez sur **Modifier**.
 
@@ -130,7 +131,7 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 
 1. (Facultatif) Passez la souris sur une carte de type enregistrement, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Supprimer** pour supprimer un type d’enregistrement.
 
-   Pour plus d’informations, voir [Suppression des types d’enregistrement](/help/quicksilver/planning/architecture/delete-record-types.md)).
+   Pour plus d’informations, voir [Suppression des types d’enregistrement](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Facultatif) Appuyez sur une carte de type enregistrement et cliquez dessus pour la faire glisser et la déposer à un nouvel emplacement. Vous pouvez faire glisser et déposer des types d’enregistrement d’une section d’espace de travail vers une autre.
 

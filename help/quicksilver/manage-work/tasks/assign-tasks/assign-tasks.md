@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2021'
 ht-degree: 8%
 
 ---
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Attribuer une seule tâche
 
 1. Accédez à une tâche que vous souhaitez affecter.
-1. Cliquez sur **Attribuer à** dans le **Affectations** dans l’en-tête de la tâche ou du problème.
+1. Cliquez sur **Attribuer à** dans le **Affectations** champ dans l’en-tête de la tâche
 
    Ou
 
    Cliquez sur le nom des affectations si la tâche ou le problème est déjà assigné.
 
-   Exemple d’image dans l’environnement de production :
+   Dans l’environnement de production :
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
+   <span class="preview">Dans l’environnement Aperçu :</span>
    ![Affectations](assets/assignments-box-in-task-header.png)
 
 1. Utilisez l’une des méthodes suivantes :

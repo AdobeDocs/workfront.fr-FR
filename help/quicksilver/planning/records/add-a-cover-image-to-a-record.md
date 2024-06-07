@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 5%
 
 ---
@@ -102,9 +102,13 @@ Vous pouvez personnaliser un enregistrement en ajoutant une image de couverture 
 
 {{step1-to-planning}}
 
-L’espace de travail auquel vous accédez en dernier s’ouvre.
+1. Cliquez sur l&#39;espace de travail dont vous souhaitez personnaliser les enregistrements,
 
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
+   Ou
+
+   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail dont vous souhaitez personnaliser les enregistrements.
+
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent.
 
 1. Cliquez sur une carte de type enregistrement.
 

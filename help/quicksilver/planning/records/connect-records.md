@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2415'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{step1-to-planning}}
 
-1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à partir duquel vous souhaitez connecter des enregistrements.
+1. Cliquez sur l&#39;espace de travail dont vous souhaitez connecter les enregistrements.
+
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 1. Cliquez sur la carte d’un type d’enregistrement pour ouvrir la page de type d’enregistrement.
 1. Sélectionnez une **Tableau** de la vue **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
 1. (Facultatif) Ajoutez des enregistrements au type d’enregistrement que vous avez sélectionné en ajoutant une nouvelle ligne au tableau. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
@@ -223,7 +225,9 @@ Après avoir créé une connexion entre un type d’enregistrement et un type d�
 
 {{step1-to-planning}}
 
-1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à partir duquel vous souhaitez connecter des enregistrements.
+1. Cliquez sur l&#39;espace de travail dont vous souhaitez vous connecter.
+
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 1. Cliquez sur la carte d’un type d’enregistrement pour ouvrir la page de type d’enregistrement.
 1. Sélectionnez une **Tableau** de la vue **Affichage** menu déroulant.
 
@@ -306,7 +310,9 @@ Après avoir créé une connexion entre un type d’enregistrement et Adobe Expe
 
 {{step1-to-planning}}
 
-1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à partir duquel vous souhaitez connecter des enregistrements.
+1. Cliquez sur l&#39;espace de travail dont vous souhaitez vous connecter.
+
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent.
 1. Cliquez sur la carte d’un type d’enregistrement pour ouvrir la page de type d’enregistrement.
 1. Sélectionnez une **Tableau** de la vue **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
 

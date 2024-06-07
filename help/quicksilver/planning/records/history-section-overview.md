@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,12 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
 
 {{step1-to-planning}}
 
-Le dernier espace de travail ouvert par défaut.
+1. Cliquez sur la carte d’un espace de travail.
+
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sur les cartes.
+
+1. Cliquez sur une carte de type enregistrement.
+La page de type enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
 1. Choisissez une vue de tableau parmi les **Affichage** menu déroulant.
 1. Cliquez sur le nom d’un enregistrement dans la vue de tableau.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1118'
 ht-degree: 3%
 
 ---
@@ -123,9 +123,10 @@ Pour ajouter une section à un aperçu d’enregistrement ou à une page :
 
 {{step1-to-planning}}
 
-L’espace de travail auquel vous accédez en dernier s’ouvre.
+1. Cliquez sur la carte d’un espace de travail.
 
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+
 1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.
@@ -187,9 +188,10 @@ Par défaut, toutes les sections sont développées.
 
 {{step1-to-planning}}
 
-L’espace de travail auquel vous accédez en dernier s’ouvre.
+1. Cliquez sur la carte d’un espace de travail.
 
-1. (Facultatif) Cliquez sur la flèche pointant vers le bas située à droite du nom de l’espace de travail pour sélectionner l’espace de travail dont vous souhaitez mettre à jour les enregistrements.
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+
 1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.

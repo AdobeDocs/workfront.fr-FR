@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 9%
+source-wordcount: '341'
+ht-degree: 8%
 
 ---
 
@@ -113,9 +113,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{step1-to-planning}}
 
-Cela ouvre le dernier espace de travail accessible dans Workfront Planning.
-1. Cliquez sur la carte d’un type d’enregistrement dont vous souhaitez supprimer les champs.
-1. (Conditionnel) Sélectionnez une **Vue Tableau** de la **Affichage** menu déroulant dans le coin supérieur droit de la page de type enregistrement.
+1. Cliquez sur l’espace de travail dont vous souhaitez supprimer les champs d’enregistrement.
+
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent.
+
+1. Cliquez sur la carte d’un type d’enregistrement.
+
+1. (Conditionnel) Si ce n’est pas déjà fait, cliquez sur l’onglet d’un **Vue Tableau** sur la page de type enregistrement.
+
+   Tous les enregistrements existants associés au type d&#39;enregistrement s&#39;affichent dans les lignes du mode Tableau.
+
 1. Recherchez le champ à supprimer dans les en-têtes de colonne, survolez l’en-tête de colonne avec la souris, puis cliquez sur la flèche pointant vers le bas située après le nom du champ.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

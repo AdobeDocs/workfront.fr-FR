@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 10%
+source-wordcount: '404'
+ht-degree: 11%
 
 ---
 
@@ -122,13 +122,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 {{step1-to-planning}}
 
-1. (Facultatif) Développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail pour lequel vous souhaitez supprimer des types d’enregistrement.
+1. Cliquez sur l’espace de travail dont vous souhaitez supprimer les types d’enregistrements,
+
+   Ou
+
+   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail duquel vous souhaitez supprimer des types d’enregistrement.
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent.
-1. Cliquez sur la carte correspondant au type d’enregistrement à supprimer.
+1. Utilisez l’une des méthodes suivantes :
 
-   Cela ouvre la page du type d’enregistrement.
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Supprimer**. <!--add screen shot when they finalize the UI-->
-1. Type **Supprimer** dans la boîte de confirmation, puis cliquez sur **Suppression définitive**.
+   * Passez la souris sur la carte de type enregistrement, cliquez sur le menu Plus , puis **Supprimer**.
+   * Cliquez sur la carte correspondant au type d’enregistrement à supprimer. Dans la page du type d’enregistrement, cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Supprimer**.
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. Type **delete** dans la boîte de confirmation, puis cliquez sur **Suppression définitive**. Ceci n’est pas sensible à la casse.
 
    Le type d’enregistrement sélectionné, ainsi que leurs champs, enregistrements associés et vues, sont supprimés.

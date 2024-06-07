@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1065'
 ht-degree: 7%
 
 ---
@@ -150,9 +150,13 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 {{step1-to-planning}}
 
 
-L’espace de travail que vous avez consulté pour la dernière fois s’ouvre par défaut. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Cliquez sur la carte d’un espace de travail.
 
-1. Cliquez sur une carte de type enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+
+1. Cliquez sur une carte de type enregistrement.
+
+   La page de type enregistrement s’ouvre.
 
    Par défaut, tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
@@ -218,11 +222,13 @@ L’espace de travail que vous avez consulté pour la dernière fois s’ouvre p
 
 {{step1-to-planning}}
 
-L’espace de travail que vous avez consulté pour la dernière fois s’ouvre par défaut. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Cliquez sur la carte d’un espace de travail.
+
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
 1. Cliquez sur une carte de type enregistrement.
 
-   Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+   La page de type enregistrement s’ouvre.
 
    Par défaut, tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
@@ -247,13 +253,14 @@ Les autorisations de partage de la vue d’origine ne sont pas transférées ver
 
 {{step1-to-planning}}
 
-L’espace de travail que vous avez consulté pour la dernière fois s’ouvre par défaut.
+1. Cliquez sur la carte d’un espace de travail.
 
-Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Cliquez sur une carte de type enregistrement.
 
-   Par défaut, tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
+   La page de type enregistrement s’ouvre.
+Par défaut, tous les enregistrements du type sélectionné s&#39;affichent en mode Tableau.
 
 1. Pointez sur l’onglet de la vue à dupliquer, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Dupliquer**.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '504'
 ht-degree: 9%
 
 ---
@@ -102,9 +102,11 @@ Vous pouvez supprimer un enregistrement des zones suivantes :
 
 {{step1-to-planning}}
 
-L’espace de travail auquel vous accédez en dernier s’ouvre.
+1. Cliquez sur l&#39;espace de travail dont vous souhaitez supprimer les enregistrements.
 
-1. Cliquez sur un type d’enregistrement.
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+
+1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.
 1. Utilisez l’une des méthodes suivantes :
@@ -126,9 +128,11 @@ L’enregistrement est supprimé et ne peut pas être récupéré.
 
 {{step1-to-planning}}
 
-L’espace de travail auquel vous avez accédé la dernière fois s’ouvre.
+1. Cliquez sur l&#39;espace de travail dont vous souhaitez supprimer les enregistrements.
 
-1. Cliquez sur un type d’enregistrement.
+   L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
+
+1. Cliquez sur une carte de type enregistrement.
 
    La page de type enregistrement s’ouvre.
 1. (Conditionnel) Dans la variable **Affichage** Sélectionnez une vue Tableau dans le menu déroulant situé dans le coin supérieur gauche du tableau. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.

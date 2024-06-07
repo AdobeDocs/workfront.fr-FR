@@ -1,20 +1,20 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Création de tâches dans un projet
+title: Créer des tâches dans un projet
 description: Vous ne pouvez créer des tâches dans un projet qu’après avoir créé le projet.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Création de tâches dans un projet
+# Créer des tâches dans un projet
 
 <!-- Audited: 1/2024 -->
 
@@ -29,24 +29,24 @@ Cet article décrit comment créer des tâches à partir de zéro. Vous pouvez �
 * En copiant ou en dupliquant des tâches existantes. Pour plus d’informations, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 * En déplaçant les tâches d’un projet à un autre. Pour plus d’informations, voir [Déplacer les tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront</p> </td> 
    <td><p>Actuel : travail ou plus élevé</p> 
    Ou
    <p>Nouveau : Standard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux tâches et aux projets</p></td> 
   </tr> 
   <tr> 
@@ -56,9 +56,9 @@ Cet article décrit comment créer des tâches à partir de zéro. Vous pouvez �
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Création de tâches dans un projet
+## Créer des tâches dans un projet
 
 1. Accédez au projet dans lequel vous souhaitez créer une tâche.
 1. Cliquez sur **Tâche** dans le panneau de gauche.
@@ -120,7 +120,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
    Nous vous recommandons d’utiliser cette option, en particulier lors de l’ajout de plusieurs tâches à la liste.
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. (Conditionnel) Effectuez l’une des opérations suivantes :
 
@@ -141,7 +141,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
          Cela fait de la nouvelle tâche un enfant ou une sous-tâche de la tâche précédente.
 
-         Pour plus d’informations sur les tâches pour enfants, voir [Présentation des tâches](../../../manage-work/tasks/task-information/tasks-overview.md).
+         Pour plus d’informations sur les tâches pour enfants, voir [Création de sous-tâches](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Conditionnel) Si vous avez désactivé la variable **Enregistrement automatique** option après avoir appuyé **Ajout de tâches**, vous pouvez effectuer les opérations suivantes :
 

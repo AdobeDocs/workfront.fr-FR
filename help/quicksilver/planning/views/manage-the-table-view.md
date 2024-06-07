@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2403'
 ht-degree: 5%
 
 ---
@@ -270,9 +270,9 @@ Pour ajouter un filtre à une vue de tableau :
 1. Sélectionnez une vue de tableau, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
 1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
 
-   * Sélectionnez un champ en fonction duquel vous souhaitez filtrer les données <!-- the tip below might change-->
+   * **Sélection d’un champ** que vous souhaitez filtrer <!-- the tip below might change-->
 
-   * Sélectionnez une option (ou un modificateur de filtre) pour définir le type de condition que le champ doit remplir.
+   * **Sélection d’une option** (ou un modificateur de filtre) pour définir le type de condition que le champ doit remplir
 
      Le tableau ci-dessous présente les modificateurs disponibles pour chaque type de champ.
 
@@ -387,7 +387,7 @@ Pour ajouter un groupement :
 
    Le groupement est appliqué automatiquement à la table et les enregistrements s&#39;affichent sous la ligne de séparation du groupement.
 
-1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
+1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 
    Le nombre de champs sélectionnés pour le groupement s&#39;affiche en regard de l&#39;icône Groupement .
 
@@ -438,13 +438,13 @@ Pour trier <!--ungrouped (add this when sorting for groupings will be available-
 
    Passez la souris sur le nom d’une colonne dans la vue du tableau, cliquez sur la flèche pointant vers le bas située à droite du nom de l’en-tête de colonne, puis cliquez sur **Tri par ce champ**. Le champ est ajouté en tant que sélection de tri dans l’icône Tri située dans le coin supérieur droit de la vue du tableau.
 
-1. Dans le **Tri des enregistrements par** , cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent** et recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. (Conditionnel) Dans la variable **Tri des enregistrements par** , cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent** et recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    Le tri est appliqué automatiquement à la vue du tableau et les enregistrements s&#39;affichent triés selon les critères que vous avez sélectionnés.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Facultatif) Répétez les étapes ci-dessus pour trier par champs supplémentaires.
+1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour trier en fonction de champs supplémentaires.
 
    Le nombre de champs par lesquels vous effectuez un tri s’affiche à gauche de l’icône Tri dans le coin supérieur droit de la barre d’outils. Vous ne pouvez sélectionner que les champs qui s&#39;affichent dans les colonnes du tableau.
 
