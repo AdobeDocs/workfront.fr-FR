@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Pour plus d’informations, voir [Partage d’un formulaire personnalisé](/help
 
 >[!NOTE]
 >
->Aperçu de la version : 6 juin 2024 ; Production pour une version rapide : avec la version 24.6 (20 juin 2024) ; Production pour une version trimestrielle : avec la version 24.7 (juillet 2024)
+>Version d’aperçu : 6 juin 2024 ; version de production pour tous les clients : avec la version 24.7 (juillet 2024)
 
 Vous pouvez désormais ajouter un nouveau champ ou widget personnalisé directement à partir de la zone Champs de Workfront, sans ouvrir de formulaire personnalisé pour créer le champ. Vous pouvez ainsi créer rapidement des champs personnalisés réutilisables.
 

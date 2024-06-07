@@ -4,9 +4,9 @@ description: Améliorations de la gestion des ressources au troisième trimestre
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3a56518ecbcb85b443284402d0e273d6a8485fb2
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu de la version : 6 juin 2024 ; Production pour une version rapide : avec la version 24.6 (20 juin 2024) ; Production pour une version trimestrielle : avec la version 24.7 (juillet 2024)
+>Version d’aperçu : 6 juin 2024 ; version de production pour tous les clients : avec la version 24.7 (juillet 2024)
 
 Pour régler facilement le travail lorsque le responsable principal d’une tâche a programmé un congé, l’équilibreur de charge de travail réalloue désormais les heures aux utilisateurs principaux et secondaires lorsque la chronologie du projet est recalculée. (Cette fonctionnalité n’est disponible que si l’administrateur de Workfront a activé le paramètre de désactivation de l’heure de l’utilisateur dans la zone Configuration pour prendre en compte le délai d’expiration de l’utilisateur.)
 

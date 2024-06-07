@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 42%
+source-wordcount: '1362'
+ht-degree: 41%
 
 ---
 
@@ -98,10 +98,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Version d’aperçu : vendredi 6 juin 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.6 (vendredi 20 juin 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production pour une version trimestrielle : avec la version 24.7 (juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Le temps de pause se reflète désormais dans l’équilibreur de charge de travail.</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Le temps de pause se reflète désormais dans l’équilibreur de charge de travail.</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>Pour régler facilement le travail lorsque le responsable principal d’une tâche a programmé un congé, l’équilibreur de charge de travail réalloue désormais les heures aux utilisateurs principaux et secondaires lorsque la chronologie du projet est recalculée.</p>
                     </td>
@@ -274,10 +271,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Version d’aperçu : vendredi 6 juin 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.6 (vendredi 20 juin 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production pour une version trimestrielle : avec la version 24.7 (juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
