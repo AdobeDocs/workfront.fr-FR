@@ -1,5 +1,5 @@
 ---
-title: Aperçu des formulaires personnalisés
+title: Vue d’ensemble des formulaires personnalisés
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5b167c2d7ca388d0f5298edb301174ff23d85c4d
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 7%
+source-wordcount: '357'
+ht-degree: 9%
 
 ---
 
-# Aperçu des formulaires personnalisés
+# Vue d’ensemble des formulaires personnalisés
 
 <!--Audited: 12/2023-->
 
@@ -30,7 +30,7 @@ Par exemple, vous pouvez joindre à un projet un formulaire personnalisé appel�
 Il existe deux options pour créer un formulaire personnalisé dans [!DNL Workfront]. Vous pouvez utiliser le créateur de formulaires personnalisés hérité ou le nouveau concepteur de formulaires :
 
 * [Créateur de formulaires personnalisés hérité](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+* [Créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
 
 ## Champs et widgets personnalisés
 
@@ -77,5 +77,7 @@ Les utilisateurs peuvent joindre des formulaires personnalisés aux types d’ob
 * Enregistrement de facturation
 
 Pour plus d’informations sur l’association de formulaires personnalisés à des objets, voir [Ajout d’un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+Pour plus d’informations sur ce qui arrive aux formulaires personnalisés lorsqu’un problème est converti en projet, voir [Convertir un problème en projet](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 
