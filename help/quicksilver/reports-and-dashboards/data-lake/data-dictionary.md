@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 7%
+source-wordcount: '725'
+ht-degree: 5%
 
 ---
 
@@ -50,6 +50,15 @@ Les objets de Workfront (et, par conséquent, de votre lac de données) sont dé
 >[!IMPORTANT]
 >
 >Le diagramme des relations d’entité est un travail en cours : il est donc destiné uniquement à des fins de référence et peut faire l’objet de modifications.
+
+## Types de date
+
+Un certain nombre d’objets date fournissent des informations sur le moment où des événements spécifiques se produisent.
+
+* `DL_LOAD_TIMESTAMP`: cette date est utilisée à des fins de référence interne et reflète le moment où les données ont été chargées dans la table Actuel, Événement ou Historique quotidien. Cette date ne doit pas être utilisée pour l’analyse des données et doit être supprimée pendant la phase bêta du lac de données Workfront.
+* `CALENDAR_DATE`: cette date n’est présente que dans le tableau Historique quotidien . Ce tableau fournit un enregistrement de l’apparence des données à 11h59 UTC pour chaque date spécifiée dans `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: cette date est présente dans les tables Historique des événements et Historique quotidien, et enregistre exactement lorsqu’un enregistrement a été modifié. _to_ valeur de la ligne actuelle.
+* `END_EFFECTIVE_TIMESTAMP`: cette date est présente dans les tables Historique des événements et Historique quotidien, et enregistre exactement lorsqu’un enregistrement a été modifié. _de_ valeur de la ligne actuelle par rapport à une valeur d’une autre ligne. Pour autoriser entre les requêtes sur `BEGIN_EFFECTIVE_TIMESTAMP` et `END_EFFECTIVE_TIMESTAMP` cette valeur n’est jamais nulle, même s’il n’y a pas de nouvelle valeur. Dans le cas où un enregistrement est toujours valide (c’est-à-dire que la valeur n’a pas changé), `END_EFFECTIVE_TIMESTAMP` a une valeur de 2300-01-01.
 
 ## Table de terminologie
 

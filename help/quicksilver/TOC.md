@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2eb27afe73a7f46bade832b122159d3f93f7fb37
+source-git-commit: ca7d1276c179ceb5517881d064e431658ea63793
 workflow-type: tm+mt
-source-wordcount: '14340'
+source-wordcount: '14345'
 ht-degree: 95%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 95%
          * [Améliorations de l’administrateur du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
          * [Améliorations de la gestion financière au 3e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
          * [Améliorations du projet 2024 Q3](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
+         * [Améliorations de la gestion des ressources au troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
          * [Autres améliorations au cours de la période de publication du troisième trimestre 2024](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [Mises à jour de l’apparence pendant la période de publication du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * Version du 2e trimestre 2024 {#release-24-q2}
