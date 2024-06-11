@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 5%
+source-wordcount: '408'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,36 @@ Cette page décrit les améliorations apportées à la version du troisième tri
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
+DÉJÀ MESSAGÉ - NOLAN PEUT IGNORER
+
+## Expérience unifiée Adobe désormais disponible pour d’autres organisations Workfront
+
+>[!NOTE]
+>
+>* L’Adobe de Shell unifié est rendu disponible dans un déploiement par étapes. D’autres organisations seront intégrées à l’Adobe Unified Shell avec les versions 24.10 et 25.1.
+>* Version d’aperçu : 11 juin 2024 ; version de production pour des clients spécifiés : avec la version 24.7 (juillet 2024)
+
+Pour permettre aux entreprises d’accéder aux avantages de l’expérience unifiée Adobe, nous avons commencé à la mettre à la disposition des clients Workfront existants.
+
+L’expérience unifiée Adobe comprend :
+
+* Une seule connexion pour toutes les applications Adobe via Adobe Experience Cloud
+* Sélecteur d’organisation à déplacer entre les organisations et les environnements Workfront
+* Navigation avec options pour les pages Workfront, les préférences Adobe Experience Cloud et votre profil Workfront
+
+Si votre entreprise évolue vers l’Adobe d’expérience unifiée avec la version 24.7, votre administrateur Workfront a reçu un message du Centre d’annonces concernant la modification.
+
+Auparavant, l’Adobe Expérience unifiée était disponible uniquement pour les nouveaux clients Workfront.
+
+Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+
 ## Bouton Aide supprimé de la barre de navigation principale
 
 >[!NOTE]
 >
->Aperçu de la version : 6 juin 2024 ; Production pour une version rapide : avec la version 24.6 (20 juin 2024) ; Production pour une version trimestrielle : avec la version 24.7 (juillet 2024)
+>Aperçu de la version : 6 juin 2024 ; Production pour une version rapide : avec la version 24.6 (13 juin 2024) ; Production pour une version trimestrielle : avec la version 24.7 (juillet 2024)
 
 Pour unifier l’expérience pour les utilisateurs qui ne sont pas sur un Shell unifié, le bouton Aide de la barre de navigation principale a été supprimé. Ce bouton, qui n’est pas présent pour les utilisateurs de Shell unifié, est lié à la documentation de Workfront et a été redondant avec un bouton d’aide similaire disponible pour tous les utilisateurs dans le menu principal.
 

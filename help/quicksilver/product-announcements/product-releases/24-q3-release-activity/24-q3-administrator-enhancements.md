@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->La promotion de l’environnement sera disponible dans les environnements de test, de prévisualisation et de production avec la version 24.6 (20 juin 2024).
+>La promotion de l’environnement sera disponible dans les environnements de test, de prévisualisation et de production avec la version 24.6 (13 juin 2024).
 
 La promotion d’environnement vous permet de déplacer des objets d’un environnement Workfront vers un autre, par exemple d’un environnement de test vers un environnement de production. Vous pouvez configurer et tester des objets sans aucun risque pour les données et les enregistrements de votre entreprise. Vous pouvez ensuite déplacer ces objets en production sans avoir à les reconfigurer, ce qui vous permet de gagner du temps et vous évite d&#39;avoir à les reconfigurer.
 
