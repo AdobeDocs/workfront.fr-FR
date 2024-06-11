@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
+source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1435'
 ht-degree: 39%
 
 ---
@@ -325,10 +325,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                                 <p>Version d’aperçu : vendredi 6 juin 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.6 (vendredi 13 juin 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production pour une version trimestrielle : avec la version 24.7 (juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
