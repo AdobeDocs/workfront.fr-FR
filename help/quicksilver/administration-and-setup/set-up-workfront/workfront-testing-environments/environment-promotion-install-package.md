@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
+source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '849'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
-   <td> Votre entreprise doit se conformer au nouveau modèle de tarification et avoir un plan Prime ou Ultimate.
+   <td> Prime ou Ultimate (Nouveaux plans uniquement)
    </td>
   </tr>
   <tr>
