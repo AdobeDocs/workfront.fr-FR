@@ -8,20 +8,18 @@ description: La fonctionnalité Promotion de l’environnement est conçue pour 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # Présentation du déplacement d’objets entre les environnements Workfront (promotion d’environnement)
 
-La fonctionnalité de promotion de l’environnement est destinée à permettre de déplacer des objets d’un environnement Workfront vers un autre. Par exemple, vous pouvez créer un modèle et le configurer dans votre environnement de test, tout en sachant que les tests que vous effectuez n’auront aucune incidence sur les données réelles de votre entreprise. Une fois le modèle configuré et testé, vous pouvez le déplacer vers votre environnement de production, prêt à l’emploi.
+La fonctionnalité de promotion de l’environnement vous permet de déplacer des objets d’un environnement Workfront vers un autre. Par exemple, vous pouvez créer un modèle et le configurer dans votre environnement de test, tout en sachant que les tests que vous effectuez n’auront aucune incidence sur les données réelles de votre entreprise. Une fois le modèle configuré et testé, vous pouvez le déplacer vers votre environnement de production, prêt à l’emploi.
 
 Ce processus est appelé &quot;promotion de l’environnement&quot;.
 

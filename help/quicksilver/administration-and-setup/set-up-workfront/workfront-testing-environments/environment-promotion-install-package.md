@@ -8,14 +8,12 @@ description: La fonctionnalité de promotion de l’environnement est conçue po
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 2%
 
 ---
 
@@ -29,9 +27,36 @@ Vous devez installer un package dans l’environnement dans lequel vous souhaite
 >
 >Si votre environnement de test d’actualisation personnalisée est actualisé pendant que vous configurez l’objet pour la promotion de l’environnement, cette configuration sera perdue lors de l’actualisation. Nous vous recommandons de ne pas actualiser votre sandbox d’actualisation personnalisée à moins que tous les objets et packages de promotion d’environnement en cours n’aient été promus avec succès.
 
+## Conditions d’accès
+
+Vous devez disposer des éléments suivants :
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Votre entreprise doit se conformer au nouveau modèle de tarification et avoir un plan Prime ou Ultimate.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licences</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Configurations du niveau d’accès
+   </td>
+   <td>Vous devez être un [!DNL Workfront] administrateur.
+   </td>
+  </tr>
+</table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Conditions préalables
 
-Vous devez avoir créé un package avant de pouvoir l’installer.
+Un package de promotion d’environnement doit être créé avant de pouvoir être installé.
 
 Pour obtenir des instructions, voir [Créer ou modifier un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 

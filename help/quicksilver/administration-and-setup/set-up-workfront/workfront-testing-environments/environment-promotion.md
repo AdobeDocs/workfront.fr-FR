@@ -8,20 +8,18 @@ description: La fonctionnalité Promotion de l’environnement est conçue pour 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 2%
+source-wordcount: '2105'
+ht-degree: 3%
 
 ---
 
 # Déplacer des objets entre [!DNL Workfront] à l’aide des [!DNL Workfront] API de promotion d’environnement
 
-La fonctionnalité Promotion de l’environnement est conçue pour permettre de déplacer des objets liés à la configuration d’un environnement à un autre. Vous pouvez déplacer ces objets à l’aide de l’API Workfront, comme décrit dans cet article.
+La fonctionnalité Promotion de l’environnement vous permet de déplacer des objets liés à la configuration d’un environnement à un autre. Vous pouvez déplacer ces objets à l’aide de l’API Workfront, comme décrit dans cet article.
 
 Pour plus d’informations sur le déplacement d’objets entre les environnements à l’aide de l’application Workfront, voir :
 
@@ -29,7 +27,32 @@ Pour plus d’informations sur le déplacement d’objets entre les environnemen
 * [Installer un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## Conditions d’accès
+
+Vous devez disposer des éléments suivants :
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Votre entreprise doit se conformer au nouveau modèle de tarification et avoir un plan Prime ou Ultimate.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licences</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Configurations du niveau d’accès
+   </td>
+   <td>Vous devez être un [!DNL Workfront] administrateur.
+   </td>
+  </tr>
+</table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
