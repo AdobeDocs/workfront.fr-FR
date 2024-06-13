@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '912'
 ht-degree: 2%
 
 ---
@@ -94,9 +94,15 @@ Pour plus d’informations sur les états, voir [Statuts des promotions d’envi
 
 ## Collisions
 
-Des collisions se produisent lorsqu’un objet faisant partie du package d’installation porte le même nom qu’un objet existant dans l’environnement cible. Lorsque cela se produit, vous pouvez choisir comment résoudre la collision. Les collisions sont résolues au niveau de l’objet.
+Une collision est un objet qui se trouve dans l’environnement cible d’une installation qui correspond à l’un des objets installés à partir de l’environnement source. Les collisions sont détectées en comparant les noms et les identifiants des objets sources aux objets de l’environnement cible. Les collisions sont également détectées en comparant les objets source aux enregistrements d’objets précédemment installés.
+
+Lorsqu’une collision se produit, vous pouvez sélectionner la manière de résoudre la collision. Les collisions sont résolues au niveau de l’objet.
 
 Vous pouvez afficher les collisions en cliquant sur la liste déroulante en regard de chaque type d’objet. Les colonnes s&#39;affichent dans la colonne Collision .
+
+>[!NOTE]
+>
+>Les collisions détectées peuvent ne pas être les objets que vous souhaitez remplacer ou utiliser dans votre installation. Nous vous recommandons de valider les collisions détectées pour vous assurer que les cibles d’installation sont correctes.
 
 Pour résoudre une collision, sélectionnez une action dans la colonne Action de déploiement ou utilisez l’action par défaut qui est déjà affichée.
 
