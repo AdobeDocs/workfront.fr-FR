@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ca7d1276c179ceb5517881d064e431658ea63793
+source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14351'
 ht-degree: 95%
 
 ---
@@ -2744,6 +2744,7 @@ ht-degree: 95%
       * [Configuration des options pour OPTASK copyIssue](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
       * [Récupérer les informations relatives à la devise d’un projet lorsque la devise est nulle (non attribuée).](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
       * [L’utilisation de l’API pour ajouter un dossier lié n’est pas prise en charge.](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+      * [L’action déplacement de document vers le dossier ne fonctionne pas.](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 * API ProofHQ {#proofhqpapi}
    * [API ProofHQ](proofhq-api/proofhq-api.md)
    * Général {#general}

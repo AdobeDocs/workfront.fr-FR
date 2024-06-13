@@ -7,11 +7,13 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -26,6 +28,6 @@ ht-degree: 0%
 
 Les articles suivants documentent les fonctionnalités mises à disposition dans la nouvelle expérience de commentaire :
 
-* [Nouvelle activité de mise à jour d’une expérience de commentaire](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+* [Activité Version de la nouvelle expérience de commentaire](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * [Nouvelle expérience de commentaire](../new-commenting-experience-beta/unified-commenting-experience.md)
-* [FAQ sur les nouvelles expériences de commentaires](../new-commenting-experience-beta/new-commenting-faq.md)
+* [Questions fréquentes sur la nouvelle expérience de commentaire](../new-commenting-experience-beta/new-commenting-faq.md)
