@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 5%
+source-wordcount: '2619'
+ht-degree: 4%
 
 ---
 
@@ -264,6 +264,8 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue T
 
 * Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté, mais pas par champ qui permet de lier plusieurs enregistrements.
 
+* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un filtre pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le propriétaire du projet dans le filtre que vous créez pour le type d’enregistrement Activité.
+
 Pour ajouter un filtre à une vue de tableau :
 
 1. Créez une vue de tableau pour une page de type enregistrement, comme décrit dans l’article . [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
@@ -373,6 +375,7 @@ Tenez compte des points suivants :
 * Le fait de supprimer des regroupements les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
 * Vous pouvez éditer les enregistrements répertoriés sous un groupement.
 * Vous pouvez regrouper les champs d’enregistrement ou de recherche par champs d’enregistrement connectés, mais pas pour les champs qui permettent de lier plusieurs enregistrements.
+* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le propriétaire du projet dans le regroupement que vous créez pour le type d’enregistrement Activité.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -428,6 +431,8 @@ Tenez compte des points suivants lors du tri des enregistrements dans la vue de 
 * Le fait de supprimer des critères de tri les supprime de toute personne accédant au même type d’enregistrement que vous et utilise la même vue que vous.
 
 * Vous pouvez trier les champs d’enregistrement ou de recherche connectés, mais pas ceux qui permettent de lier plusieurs enregistrements.
+
+* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un tri pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le propriétaire du projet dans le type que vous créez pour le type d’enregistrement Activité.
 
 Pour trier <!--ungrouped (add this when sorting for groupings will be available--> enregistrements, procédez comme suit :
 
