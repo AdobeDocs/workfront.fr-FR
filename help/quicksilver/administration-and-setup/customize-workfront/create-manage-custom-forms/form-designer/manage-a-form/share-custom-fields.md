@@ -7,7 +7,7 @@ description: Par défaut, lorsque vous ajoutez un nouveau champ ou widget person
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: d80eb802baa6f03ca6e65e542f16b23e9d42444a
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 3%
@@ -15,8 +15,6 @@ ht-degree: 3%
 ---
 
 # Configuration du partage de champs et de widgets personnalisés avec le concepteur de formulaires
-
-{{highlighted-preview-article-level}}
 
 Par défaut, lorsque vous ajoutez un nouveau champ ou widget personnalisé à un formulaire personnalisé, toute personne du système ayant accès à des formulaires personnalisés peut modifier les propriétés de cet élément, telles que son libellé et son nom. Vous pouvez modifier ce paramètre en contrôlant avec qui il peut être partagé.
 

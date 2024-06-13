@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6ddbe56dd187d62489c41ff721d0f071202e54e4
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 3%
@@ -16,8 +16,6 @@ ht-degree: 3%
 ---
 
 # Partager un formulaire personnalisé
-
-{{highlighted-preview}}
 
 Vous pouvez configurer l’accès à un formulaire personnalisé pour contrôler qui (personne, rôle, groupe, équipe, entreprise) peut l’afficher, le partager et le modifier.
 
@@ -109,8 +107,6 @@ Plutôt que de laisser un formulaire personnalisé dans l’état de partage par
 
 1. Cliquer sur **Enregistrer**.
 
-<div class="preview">
-
 ## Partage d’un formulaire personnalisé à partir du concepteur de formulaires
 
 {{step-1-to-setup}}
@@ -160,8 +156,6 @@ Plutôt que de laisser un formulaire personnalisé dans l’état de partage par
    >Si un formulaire personnalisé vous préoccupe, dans lequel les utilisateurs peuvent saisir des données sensibles lorsqu’il est joint à certains objets, limite le partage pour ces données. *objet* peut être préférable à la limitation de l’accès au formulaire lui-même.
 
 1. Cliquer sur **Enregistrer**.
-
-</div>
 
 ## Supprimer l’accès à un formulaire personnalisé de la liste des formulaires
 
