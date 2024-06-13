@@ -6,16 +6,14 @@ description: "Les informations que vous affichez dans [!DNL Adobe Workfront] est
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
+source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2419'
 ht-degree: 2%
 
 ---
 
 # Vue d’ensemble des objets [!DNL Adobe Workfront]
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Elle est disponible uniquement dans l’environnement Aperçu de l’environnement de test.</span>
 
 <!--Audited: 12/2023-->
 
@@ -211,14 +209,11 @@ Pour plus d’informations sur l’exécution de recherches de base et avancées
 
 ## Accès limité aux objets
 
-<span class="preview">
-Lorsqu’un utilisateur n’a pas accès à un objet, il voit "Aucun accès" partout où ce nom s’affiche dans Workfront.
+Lorsqu’un utilisateur n’a pas accès à un objet, il voit &quot;Aucun accès&quot; partout où ce nom s’affiche dans Workfront.
 
 L’accès aux objets peut être limité au niveau d’accès ou dans les autorisations d’un objet spécifique.
 
 Cela s’applique à tous les objets et aux objets enfants répertoriés dans la variable [Interdépendance et hiérarchie des objets](#interdependency-and-hierarchy-of-objects) dans cet article. Cela ne s’applique pas aux objets Equipe et Utilisateur.
-
-</span>
 
 ## Rapport sur les objets
 
