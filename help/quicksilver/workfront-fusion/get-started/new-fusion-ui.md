@@ -7,10 +7,10 @@ description: Workfront Fusion a mis à jour son interface utilisateur pour les u
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
+source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 20%
+source-wordcount: '409'
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,8 @@ Workfront Fusion a été mis à jour pour les utilisateurs qui n’accèdent pas
 
 >[!IMPORTANT]
 >
->L’expérience Fusion héritée sera abandonnée le 15 août 2024.
+>* L’expérience Fusion héritée sera abandonnée le 15 août 2024.
+>* Lors du premier chargement, la nouvelle expérience Fusion peut se charger lentement (30 à 60 secondes). Après la première fois, Fusion se charge plus rapidement.
 
 ## Conditions d’accès
 
