@@ -6,9 +6,9 @@ description: Vous pouvez utiliser des affectations intelligentes pour identifier
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '603'
 ht-degree: 10%
 
 ---
@@ -75,22 +75,29 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
 
 1. Placez le curseur dans le champ d’affectation et attendez deux secondes.
 
-   <span class="preview">La variable **Suggestions d’affectation** s’affiche.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   Une ou plusieurs des sections suivantes contenant des suggestions d’affectation dynamique s’affichent :
 
-   >[!TIP]
-   >
-   >   L’en-tête de liste s’affiche. **Voici quelques recommandations :** au lieu de **Suggestions d’affectation** dans une liste de problèmes.
+   * **Affectations proposées**: s’affiche pour les tâches.
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   L’en-tête de liste s’affiche. **Voici quelques recommandations :** au lieu de **Affectations proposées** dans l’environnement de production.
+     >
+   * **Autres affectations**: s’affiche pour les tâches et les problèmes.
+   * **Utilisateurs et équipes**: s’affiche pour les tâches et les problèmes.
+   * **Rôles de tâche**: s’affiche pour les tâches et les problèmes.
+   </div>
 
-   Pour les problèmes, les suggestions d’affectation dynamique s’affichent dans la variable **Affectations proposées** zone.
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    Pour les tâches, les affectations intelligentes s’affichent dans les sections suivantes, selon la phase du calcul de l’algorithme qui a identifié les affectations :
 
    * **Affectations proposées**: affectations identifiées dans la première phase du calcul de l’algorithme de l’affectation dynamique de tâche. <span class="preview">Cette section n’est pas disponible pour les problèmes.</span>
-   * <span class="preview">**Autres affectations** (ou **Utilisateurs et équipes**, ou **Rôles de tâche**) : affectations identifiées dans la seconde phase du calcul de l’algorithme de l’affectation dynamique de la tâche. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Autres affectations**, **Utilisateurs et équipes**, ou **Rôles de tâche**: affectations identifiées dans la seconde phase du calcul de l’algorithme de l’affectation dynamique de tâche. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Pour plus d’informations, voir [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

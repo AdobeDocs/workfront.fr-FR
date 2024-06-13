@@ -6,16 +6,20 @@ description: La condition d’une tâche ou d’un problème est un indicateur q
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 6%
 
 ---
 
 # Mettre à jour la condition des tâches et des problèmes
 
-{{highlighted-preview}}
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 La condition d’une tâche ou d’un problème est un indicateur qui y est placé pour indiquer comment elle se déroule. Il s’agit d’un état différent de celui de l’élément de travail, qui indique l’étape actuelle du développement de l’élément.
 
@@ -136,7 +140,7 @@ Pour mettre à jour manuellement la condition d’une tâche ou d’un problème
 
 1. Pour mettre à jour la condition d’une tâche ou d’un problème dans la section Détails de la tâche ou du problème :
 
-   1. (Conditionnel) Si votre administrateur Workfront ou de groupe a ajouté le champ Condition à la section Détails d’une tâche ou d’un problème dans votre modèle de mise en page, cliquez sur **Détails** dans le panneau de gauche, puis cliquez sur le bouton **Condition** et sélectionnez l’une des options suivantes :
+   1. (Conditionnel) Si votre administrateur Workfront ou de groupe a ajouté le champ Condition à la section Détails d’une tâche ou d’un problème dans votre modèle de mise en page, cliquez sur **Détails** dans le panneau de gauche, puis cliquez sur **Condition de tâche** ou **Condition de problème** et sélectionnez l’une des options suivantes :
       * Tout est en ordre
       * Certaines inquiétudes
       * Obstacles majeurs

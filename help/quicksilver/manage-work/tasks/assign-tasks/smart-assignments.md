@@ -7,7 +7,7 @@ description: Lors de la gestion des tâches et des affectations de problèmes, v
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 6e6115829412b537f6a196a564088c3b6d1d6e8a
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -69,11 +69,11 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
 * Le champ Affectations d’un élément répertorié dans la zone Accueil lorsque vous ouvrez une tâche ou un problème
 
-  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
 
 * Équilibreur de charge de travail dans la zone Affecté à lorsque vous affectez une tâche ou un problème
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Critères d’attribution intelligente
@@ -122,7 +122,7 @@ Le calcul du score de similarité et l’ordre dans lequel les affectations sont
 
   Par exemple, si Rick a été affecté à une tâche similaire plus tôt aujourd’hui et que Jennifer a été affectée à une tâche similaire il y a deux jours, Rick s’affiche en premier.
 
-* Les affectations identifiées dans cette phase sont répertoriées dans la section    **Affectations proposées**  du champ Affectations .
+* Les affectations identifiées dans cette phase sont répertoriées dans la section    **Affectations proposées**  section du champ Affectations des tâches.
 
 * S’il n’existe aucune correspondance utilisant ce calcul, la deuxième phase des affectations intelligentes commence, qui est calculée à l’aide d’un autre algorithme.
 
@@ -132,7 +132,7 @@ Si la première étape des affectations intelligentes de tâche n’a trouvé au
 
 Pour plus d’informations, voir la section [Critères d’attribution intelligente des tâches et des problèmes](#smart-assignments-criteria-for-tasks-and-issues) dans cet article.
 
-Les affectations identifiées dans cette phase sont répertoriées dans la section   **Autres affectations** (ou la section Utilisateurs et équipes ou Affectations de rôles de tâche) du champ Affectations pour les tâches.
+Les affectations identifiées dans cette phase sont répertoriées dans la section   **Autres affectations**, **Utilisateurs et équipes**, ou **Affectations de rôle**  des sections du champ Affectations pour les tâches.
 
 ### Critères d’attribution intelligente des tâches et des problèmes
 
@@ -142,7 +142,7 @@ Les affectations identifiées dans cette phase sont répertoriées dans la secti
 >
 ><span class="preview">Les critères suivants s’appliquent aux tâches uniquement lorsque la première phase du calcul d’affectation dynamique de tâche n’a trouvé aucune correspondance. Pour plus d’informations, voir la section [Première phase de calcul de l’affectation dynamique pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) dans cet article. Par défaut, les critères suivants s’appliquent toujours aux problèmes. </span>
 
-![](assets/smart-assignments-issue-header.png)
+<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 
 Les utilisateurs sont recommandés dans la liste déroulante Affectations intelligentes en fonction d’une combinaison des critères suivants (répertoriés dans l’ordre du plus important au moins important) :
 
