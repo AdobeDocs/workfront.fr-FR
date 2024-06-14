@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: add-documents-to-workfront
-title: Ajout de documents à Adobe Workfront à partir de votre système de fichiers
+title: Ajouter des documents à Adobe Workfront à partir de votre système de fichiers
 description: Vous pouvez ajouter des documents à des projets, des tâches ou des problèmes dans plusieurs zones d’Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
+source-git-commit: 187e33c088177affd246aaf90cea33d6201e7a1b
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 1%
+source-wordcount: '766'
+ht-degree: 7%
 
 ---
 
-# Ajout de documents à Adobe Workfront à partir de votre système de fichiers
+# Ajouter des documents à Adobe Workfront à partir de votre système de fichiers
 
 Vous pouvez ajouter des documents à des projets, à des tâches ou à des problèmes dans les zones suivantes d’Adobe Workfront :
 
@@ -27,7 +27,9 @@ Il n’existe aucune restriction quant aux types et tailles de fichiers que vous
 
 Si vous avez besoin d’informations sur le téléchargement de nouvelles versions d’un document vers Workfront, reportez-vous à la section [Télécharger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -36,29 +38,33 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p> Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p> N’importe quelle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
    <td> <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
++++
 
 ## Ajout de documents à Workfront
 
 Vous pouvez ajouter de nouveaux documents à Workfront à partir du système de fichiers de votre poste de travail. Vous pouvez également lier des documents à partir d’applications tierces telles que Google Drive et SharePoint.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Bien qu’il n’existe aucune limite de taille pour les téléchargements de documents, les téléchargements de documents sont limités à 4 Go.
+>* Vous pouvez charger jusqu’à 150 documents à la fois.
+>* La taille du fichier n’est pas limitée.
+>* Les téléchargements de documents sont limités à 4 Go.
 
 Pour ajouter un document :
 
