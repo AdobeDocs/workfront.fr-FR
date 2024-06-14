@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 5%
+source-wordcount: '1956'
+ht-degree: 7%
 
 ---
 
@@ -29,32 +29,36 @@ Lorsque vous créez une [!UICONTROL OAuth2] , vous générez un identifiant clie
 * Pour plus d’informations sur la configuration et l’utilisation de l’application OAuth2 à l’aide de l’authentification du serveur (flux JWT), voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux JWT](../../wf-api/api/oauth-app-jwt-flow.md).
 * Pour obtenir des instructions sur la configuration et l’utilisation de l’application OAuth2 à l’aide de PKCE, voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux PKCE](../../wf-api/api/oauth-app-pkce-flow.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td><p>Nouveau : [!UICONTROL Standard]</p>
    Ou
    <p>Actuel :[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> Vous devez être un [!DNL Workfront] administrateur. </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+
++++
 
 ## Présentation d’OAuth2
 
@@ -138,7 +142,7 @@ La variable **Nouvelle application OAuth2** s’affiche.
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID client]</td> 
+      <td role="rowheader">[!UICONTROL Client ID]</td> 
       <td> <p>Ce champ est généré automatiquement.</p> </td> 
      </tr> 
      <tr> 
@@ -190,7 +194,7 @@ Pour plus d’informations sur la configuration et l’utilisation de l’applic
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID client]</td> 
+      <td role="rowheader">[!UICONTROL Client ID]</td> 
       <td> <p>Ce champ est généré automatiquement.</p> </td> 
      </tr> 
      <tr> 
@@ -258,7 +262,7 @@ Pour plus d’informations sur la configuration et l’utilisation de l’applic
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID client]</td> 
+      <td role="rowheader">[!UICONTROL Client ID]</td> 
       <td> <p>Ce champ est généré automatiquement.</p> </td> 
      </tr> 
      <tr> 

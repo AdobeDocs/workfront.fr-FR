@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Installation et ouverture [!DNL Adobe Workfront for Photoshop]
+title: Installer et ouvrir  [!DNL Adobe Workfront for Photoshop]
 description: Vous pouvez installer le module externe Adobe Workfront for Photoshop à partir d’Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 316c85d4809f6833441f63578038624a7ebfcb39
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 1%
+source-wordcount: '516'
+ht-degree: 7%
 
 ---
 
@@ -28,9 +28,11 @@ Vous pouvez installer le [!DNL Adobe Workfront for Photoshop] du module externe 
 * Chinois traditionnel
 * Coréen
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +53,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+
++++
 
 ## Conditions préalables
 
@@ -69,7 +73,7 @@ Si vous êtes un [!DNL Adobe Admin Console] administrateur, vous pouvez inclure 
 
 Vous pouvez installer le [!DNL Adobe Workfront for Photoshop] pour vous aider à [!DNL Adobe Exchange].
 
-1. Accédez au [Page d’installation d’Adobe Workfront for Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) sur Adobe Exchange.
+1. Accédez au [Page d’installation d’Adobe Workfront for Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) sur l’Adobe Exchange.
 1. Dans la boîte de dialogue qui apparaît, cliquez sur **Ouvrir [!DNL Adobe Creative Cloud] application de bureau**.
 1. Une fois [!DNL Adobe Photoshop] module externe manager s’ouvre, cliquez sur **[!UICONTROL Installer]**.
 1. Lisez les informations de la boîte de dialogue, puis cliquez sur **[!UICONTROL OK]**.

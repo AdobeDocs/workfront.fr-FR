@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 42e20743b98d9a7cf1f6b37f007823c035e1b636
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 0%
+source-wordcount: '1696'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,9 @@ Vous pouvez intégrer des [!DNL Workfront] avec [!DNL SharePoint Online], ce qui
 
 Cette intégration est compatible uniquement avec [!DNL SharePoint Online]. Instances on-premise de [!DNL SharePoint] ne sont pas prises en charge.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -49,20 +51,22 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Quelconque</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>Nouveau : Standard <p>Ou</p><p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td>Vous devez être un [!DNL Workfront] administrateur. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 

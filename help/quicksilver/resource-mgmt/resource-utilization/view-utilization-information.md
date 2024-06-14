@@ -1,19 +1,19 @@
 ---
 product-area: resource-management
 navigation-topic: resource-utilization
-title: Affichage des informations sur l’utilisation des ressources
+title: Afficher des informations sur l’utilisation des ressources
 description: Vous pouvez afficher l’utilisation de vos ressources dans le rapport Utilisation .
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '7243'
+source-wordcount: '7254'
 ht-degree: 0%
 
 ---
 
-# Affichage des informations sur l’utilisation des ressources
+# Afficher des informations sur l’utilisation des ressources
 
 <!-- Audited: 01/2024 -->
 
@@ -37,7 +37,9 @@ Vous pouvez afficher l’utilisation de vos ressources dans le rapport Utilisati
 <p style="color: #dc143c;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This report displays information about the assignments on work items for projects in your environment, like Planned, Actual, and Budgeted Hours, FTE, or Cost.&nbsp;These are hours,&nbsp;FTE, or costs associated with the assignments and not with the tasks and issues themselves.(PRIVATE NOTE:&nbsp;Vazgen's response about these hours: It queries Assignments first to get the tasks, issues, projects to display in the view. And then from those gets the hours. In some cases, like for Planned Hours, it takes them from Assignments; But Budgeted Hours come from projects. And Actual Hours are their own object - Hour.)</p>
 -->
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Pour accéder au rapport d&#39;utilisation, vous devez disposer des éléments suivants :
 
@@ -46,19 +48,19 @@ Pour accéder au rapport d&#39;utilisation, vous devez disposer des éléments s
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td><p>Nouveau : Quelconque</p>
        <p>Ou</p>
        <p>Actuel : Pro ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>Ou</p>
        <p>Actuel : formule</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Visualisez ou affichez un accès supérieur aux éléments suivants :</p> 
     <ul> 
      <li> <p>Gestion des ressources </p> </li> 
@@ -75,7 +77,9 @@ Pour accéder au rapport d&#39;utilisation, vous devez disposer des éléments s
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have View access to the projects you want to view utilization information for as described in this section. If you are still unable to access this information, contact your Workfront administrator. (NOTE:&nbsp;replaced with above table)</p>
@@ -145,7 +149,7 @@ Les informations suivantes sont disponibles dans le rapport Utilisation lors du 
     </ul> <p>Pour plus d’informations sur les heures budgétisées, voir <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">Recherche des heures budgétisées d’un projet</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">Présentation de l’option Coût de la main-d’oeuvre budgétisée et heures budgétisées pour les projets</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Heures planifiées</strong> </td> 
+   <td scope="col"><strong>Nombre d’heures prévues</strong> </td> 
    <td scope="col">
 <p>
 Les Heures planifiées sur les projets inclus associés aux affectations pour chaque tâche et chaque problème. Vous pouvez afficher le nombre total d’heures planifiées de toutes les affectations sur le projet pour la durée totale des projets inclus ou afficher le nombre total d’heures planifiées uniquement pour la période spécifiée (vous pouvez spécifier une semaine ou un mois spécifique).
@@ -264,7 +268,7 @@ Les informations suivantes sont disponibles dans le rapport Utilisation lors du 
    <td scope="col"> <p>Coût budgété des projets inclus. Vous pouvez afficher le coût total budgété pour la durée totale des projets inclus ou afficher le coût total budgété uniquement pour la période spécifiée (vous pouvez spécifier une semaine ou un mois spécifique).</p> <p>Comme le rapport Coût budgétaire dans l’utilisation est axé sur le coût par rôle, le calcul est le même que le coût de la main-d’oeuvre budgété dans d’autres zones de Workfront. Pour plus d’informations sur le mode de calcul du coût de la main-d’oeuvre budgétisée, voir <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Présentation de l’option Coût de la main-d’oeuvre budgétisée et heures budgétisées pour les projets</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Coût planifié</strong> </td> 
+   <td scope="col"><strong>Coûts prévus</strong> </td> 
    <td scope="col"> <p>Coût planifié total sur les projets inclus. Vous pouvez afficher le coût planifié total pour la durée totale des projets inclus ou afficher le coût planifié total uniquement pour la période spécifiée (vous pouvez spécifier une semaine ou un mois spécifique).</p> <p>Notez que pour les vues hebdomadaires, mensuelles et trimestrielles, les coûts prévus sont calculés en moyenne par rapport à la période choisie lorsque les taux de coût des rôles de travail ou des utilisateurs sont à la date d'entrée en vigueur.</p><p>Pour plus d’informations sur le mode de calcul du coût planifié du projet, voir <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Comment Workfront calcule les coûts prévus, budgétaires et réels</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Suivi des coûts</a>.</p> </td>
   </tr> 
   <tr> 
@@ -394,7 +398,7 @@ Les informations suivantes sont disponibles dans le rapport Utilisation lors de 
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"><strong>Coût planifié</strong> </td> 
+   <td scope="col"><strong>Coûts prévus</strong> </td> 
    <td scope="col"> Coût planifié total sur les projets inclus. Vous pouvez afficher le coût planifié total pour la durée totale des projets inclus ou afficher le coût planifié total uniquement pour la période spécifiée (vous pouvez spécifier une semaine ou un mois spécifique). </td> 
   </tr> 
   <tr> 

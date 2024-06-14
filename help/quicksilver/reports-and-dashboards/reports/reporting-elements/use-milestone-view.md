@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Utilisation de la vue Milestone
+title: Utiliser la vue jalonnée
 description: Vous pouvez appliquer la vue Milestone à une liste de projets ou à un rapport.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 0%
+source-wordcount: '1302'
+ht-degree: 4%
 
 ---
 
-# Utilisation de la vue Milestone
+# Utiliser la vue jalonnée
 
 <!-- Audited: 1/2024 -->
 
@@ -23,9 +23,11 @@ Avant de pouvoir utiliser la vue du jalon, les jalons doivent être configurés,
 
 La vue Milestone est disponible lors de l’affichage d’une liste de projets ou d’un rapport de projet. Les sections suivantes décrivent comment afficher et utiliser la vue du jalon.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,17 +36,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader"><strong>Forfait Adobe Workfront</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
    <p>Nouveau : Standard</p>
    <p>Actuel : travail ou plus élevé </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
+   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
    <td> <p>Affichage ou accès supérieur à Reports, Dashboard, Calendriers</p></td> 
   </tr> 
   <tr> 
@@ -54,7 +56,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Basculer vers la vue Milestone {#switch-to-the-milestone-view}
 

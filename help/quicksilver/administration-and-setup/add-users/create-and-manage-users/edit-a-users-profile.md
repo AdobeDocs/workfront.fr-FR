@@ -1,5 +1,5 @@
 ---
-title: Modification du profil d’un utilisateur
+title: Modifier le profil d’un utilisateur ou d’une utilisatrice
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '3287'
-ht-degree: 0%
+source-wordcount: '3298'
+ht-degree: 1%
 
 ---
 
-# Modification du profil d’un utilisateur
+# Modifier le profil d’un utilisateur ou d’une utilisatrice
 
 {{highlighted-preview}}
 
@@ -32,7 +32,9 @@ ht-degree: 0%
 
 En tant qu’administrateur Adobe Workfront, vous pouvez créer des utilisateurs et gérer les profils des utilisateurs existants. Pour plus d’informations sur la création d’utilisateurs, voir [Ajout d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -41,17 +43,17 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard</p>
    Ou
    <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Vous devez disposer de l’une des options suivantes :</p> 
     <ul> 
      <li> <p>Niveau d’accès Administrateur système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>. </p> </li> 
@@ -63,8 +65,11 @@ Les étapes de cet article doivent être les suivantes :
     </ul> </td> 
   </tr> 
  </tbody> 
-</table> 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+</table>
+
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Modification d’un profil utilisateur
 

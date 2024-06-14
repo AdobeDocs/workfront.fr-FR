@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Types de balises - Aperçu
+title: Vue d’ensemble des types de décalage
 description: La durée correspond au temps qui doit s’écouler après la fin d’un prédécesseur appliqué jusqu’à ce que la tâche dépendante puisse commencer (Durée positive), ou au temps pendant lequel une tâche dépendante peut commencer avant le début du prédécesseur (Durée négative).
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 0%
+source-wordcount: '1476'
+ht-degree: 3%
 
 ---
 
-# Types de balises - Aperçu
+# Vue d’ensemble des types de décalage
 
 <!-- Audited: 01/2024 -->
 
@@ -22,7 +22,9 @@ La durée correspond au temps qui doit s’écouler après la fin planifiée d�
 
 Les dates Prévues, Prévues et Estimées des tâches qui lui succèdent sont calculées en tenant compte des dates de retard et de planification, de projection et de début estimé (fin) des tâches précédentes.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <!--drafted - replace table at P&P:
 
@@ -54,24 +56,24 @@ Les dates Prévues, Prévues et Estimées des tâches qui lui succèdent sont ca
 
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
        <p>ou</p>
        <p>Actuel : formule </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux tâches et aux projets</p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +83,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Définition des types de balise et de balise sur les tâches
 

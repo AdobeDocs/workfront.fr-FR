@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Modification d’un filtre à l’aide du mode texte
+title: Modifier un filtre en mode texte
 description: Vous pouvez éditer un filtre dans une liste ou un rapport à l'aide du mode texte pour accéder aux champs qui ne sont pas disponibles dans l'interface standard et créer des filtres plus complexes.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 0%
+source-wordcount: '1008'
+ht-degree: 6%
 
 ---
 
-# Modification d’un filtre à l’aide du mode texte
+# Modifier un filtre en mode texte
 
 <!-- Audited: 01/2024 -->
 
@@ -25,26 +25,28 @@ Vous pouvez éditer un filtre dans une liste ou un rapport à l&#39;aide du mode
 
 Pour plus d’exemples de mode texte lors de la création d’un filtre, reportez-vous également à la section [Exemples de filtres personnalisés](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) dans l’article [Exemples de filtrage, de filtrage et de regroupement personnalisés : index de l&#39;article](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouveau : Standard</p>
     <p>ou</p>
     <p>Actuel : formule</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modification de l’accès aux rapports, aux tableaux de bord et aux calendriers pour la modification des éléments de rapport dans un rapport</p></td> 
   </tr> 
   <tr> 
@@ -54,7 +56,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -64,7 +68,7 @@ Pour plus d’informations, voir :
 
 * [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Présentation de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Exemples de filtrage, de filtrage et de regroupement personnalisés : index de l&#39;article](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Exemples de vues, de filtres et de regroupements personnalisés : index des articles](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Mode d’édition de texte dans un filtre
 

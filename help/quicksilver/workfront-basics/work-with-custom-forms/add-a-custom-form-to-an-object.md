@@ -2,19 +2,19 @@
 product-area: projects;user-management
 keywords: attach,apply
 navigation-topic: work-with-custom-forms
-title: Ajout d’un formulaire personnalisé à un objet
+title: Ajouter un formulaire personnalisé à un objet
 description: Vous pouvez ajouter un formulaire personnalisé existant à l’un des objets répertoriés ci-dessous. Un formulaire personnalisé contient des champs personnalisés dans lesquels vous pouvez stocker des informations sur l’objet.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 1%
+source-wordcount: '822'
+ht-degree: 10%
 
 ---
 
-# Ajout d’un formulaire personnalisé à un objet
+# Ajouter un formulaire personnalisé à un objet
 
 <!--Audited: 12/2023-->
 
@@ -36,27 +36,29 @@ Vous pouvez ajouter un formulaire personnalisé existant à l’un des objets r�
 
 Vous pouvez ajouter un formulaire personnalisé uniquement aux types d’objets pour lesquels le formulaire a été créé.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Pour effectuer les actions décrites dans cet article, vous devez disposer de l’accès suivant :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Licence Adobe Workfront</td> 
+  <td role="rowheader">Licence Adobe Workfront</td> 
   <td> <p>Nouveau : contributeur ou version ultérieure </p>
  <p>ou</p> 
 <p>Actuel : requête ou version ultérieure </p> 
 </td> 
  </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modification de l’accès aux objets pour lesquels vous gérez des formulaires personnalisés</p>
     </td> 
   </tr> 
@@ -67,13 +69,15 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
 Votre administrateur Workfront ou un utilisateur disposant d’une licence Plan et d’un accès administratif à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement avant de pouvoir les ajouter aux objets. Pour plus d’informations, voir [Création ou modification d’un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## Ajout d’un formulaire personnalisé à un objet
+## Ajouter un formulaire personnalisé à un objet
 
 Vous pouvez ajouter un formulaire personnalisé à un objet de deux manières :
 

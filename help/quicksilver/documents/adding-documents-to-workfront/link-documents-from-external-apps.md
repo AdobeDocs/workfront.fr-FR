@@ -6,9 +6,9 @@ description: Vous pouvez lier des documents et des dossiers à Adobe Workfront �
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2596'
+source-wordcount: '2607'
 ht-degree: 2%
 
 ---
@@ -61,6 +61,8 @@ Vous pouvez BAT et approuver les documents liés à un fournisseur cloud externe
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -85,6 +87,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Stockage de documents
 

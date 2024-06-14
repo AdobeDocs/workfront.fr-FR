@@ -6,10 +6,10 @@ description: Les tâches planifiées sont représentées dans Adobe Workfront pa
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '2327'
-ht-degree: 1%
+source-wordcount: '2338'
+ht-degree: 4%
 
 ---
 
@@ -36,34 +36,37 @@ Vous pouvez créer une requête de la manière suivante :
 * Versions préliminaires. Pour plus d’informations, voir [Création de requêtes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * À partir d’une requête existante, en copiant et en envoyant une copie. Pour plus d’informations, voir [Copie et envoi de requêtes](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Nouveau : contributeur ou version ultérieure</p>
    Ou
    <p>Actuel : requête ou version ultérieure</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux problèmes</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Conditions préalables pour l’utilisation des files d’attente de requête
 
@@ -107,7 +110,7 @@ Pour plus d’informations sur la création de requêtes à partir de brouillons
 
 Pour créer une requête dans l’application web Workfront :
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -262,7 +265,7 @@ Pour créer une requête dans l’application web Workfront :
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>Heures planifiées</strong> </td> 
+      <td role="rowheader"><strong>Nombre d’heures prévues</strong> </td> 
       <td> <p>Estimez le nombre d’heures nécessaire à l’exécution de cette requête.</p> </td> 
      </tr> 
      <tr> 
@@ -274,7 +277,7 @@ Pour créer une requête dans l’application web Workfront :
       <td>Indiquez la date à laquelle vous souhaitez que cette requête soit résolue.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>État</strong> </td> 
+      <td role="rowheader"><strong>Statut</strong> </td> 
       <td>L’état par défaut d’une nouvelle requête est "Nouveau". L’administrateur système a peut-être modifié le nom de cet état. Vous pouvez également modifier l’état pour autre chose à partir de ce menu déroulant.</td> 
      </tr> 
      <tr> 
@@ -335,7 +338,7 @@ Vous pouvez envoyer des requêtes à l’aide de l’application mobile sur votr
 Pour plus d’informations sur l’envoi de requêtes par le biais de l’application mobile, reportez-vous à la section Demandes dans les articles :
 
 * [Adobe Workfront pour Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md#requests)
-* [Adobe Workfront pour iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md#requests)
+* [Adobe Workfront pour iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md#requests)
 
 ## Création de requêtes à partir d’autres applications
 
@@ -347,6 +350,6 @@ Vous pouvez envoyer des requêtes à l’aide de n’importe quelle application 
 * Vous pouvez envoyer des requêtes de Salesforce si vous avez installé l’application Workfront pour Salesforce.\
   Pour plus d’informations sur l’envoi de requêtes de Salesforce à l’aide de notre application Workfront pour Salesforce, consultez l’article . [Envoi de requêtes Adobe Workfront à partir d’objets Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
-## Recherche des requêtes envoyées
+## Localiser les demandes envoyées
 
 Pour plus d’informations sur la localisation des requêtes envoyées ou en version préliminaire, voir [Recherche des requêtes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

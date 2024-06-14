@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Utilisation du tableau de bord des panoramas
+title: Utiliser le tableau de bord des panoramas
 description: La variable [!UICONTROL panoramas] le tableau de bord affiche la liste des panoramas auxquels vous avez accès, y compris ceux que vous avez créés et auxquels vous avez été ajouté.
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 0%
+source-wordcount: '829'
+ht-degree: 5%
 
 ---
 
-# Utilisation du tableau de bord des panoramas
+# Utiliser le tableau de bord des panoramas
 
 <!-- Audited: 1/2024 -->
 
@@ -33,20 +33,22 @@ Sur le tableau de bord, vous pouvez effectuer les opérations suivantes pour les
 
 Pour plus d’informations sur la création d’un panorama ou la modification d’un panorama existant, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md). Pour plus d’informations sur la création d’un nouveau flux de travail, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> 
    <p>Nouveau : [!UICONTROL Contributeur] ou version ultérieure</p> 
    <p>ou</p>
@@ -56,7 +58,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Filtres de panoramas et de workflows {#filter-boards}

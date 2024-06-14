@@ -1,19 +1,19 @@
 ---
-title: Application de filtres dans les analyses améliorées
+title: Appliquer des filtres dans Analytique améliorée
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 description: Les filtres de la zone Analyses améliorées d’Adobe Workfront vous aident à vous concentrer sur des projets spécifiques ou des types de données spécifiques.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 0%
+source-wordcount: '1486'
+ht-degree: 4%
 
 ---
 
-# Application de filtres dans les analyses améliorées
+# Appliquer des filtres dans Analytique améliorée
 
 <!-- Audited: 12/2023 -->
 
@@ -25,31 +25,33 @@ Les filtres de la zone Analyses améliorées d’Adobe Workfront vous aident à 
 
 Vous pouvez ajouter et supprimer des filtres selon vos besoins et Workfront conserve les filtres que vous appliquez même si vous vous déconnectez.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td>
       <p>Nouveau : Quelconque</p>
       <p>ou</p>
       <p>Actuel : métier ou supérieur</p></td> 
   </tr>
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-      <p>Nouveau : clair ou supérieur</p>
+      <p>Nouveau : Léger ou supérieur</p>
       <p>ou</p>
       <p>Actuel : révision ou version ultérieure</p>
    </td> 
   </tr>
   <tr> 
-   <td>Paramétrages du niveau d'accès</td> 
+   <td>Configurations du niveau d’accès</td> 
    <td> <p>Affichage de l’accès aux projets</p> <p>Vous devez également disposer d’un accès en mode Affichage aux tâches, aux Portfolios et aux utilisateurs pour afficher des options de filtrage de champ de projet spécifiques.</p> <p>Remarque : Si des restrictions sont sélectionnées dans la variable <strong>Définition de restrictions supplémentaires</strong> dans la boîte de dialogue Modifier le niveau d’accès , il se peut que toutes les informations ne s’affichent pas dans les filtres ou sur la page Analyses améliorées après l’application du filtre.</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +61,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -115,7 +119,7 @@ Les types de filtre de champ de projet suivants sont disponibles :
 | **Programme** | Affiche uniquement les données des projets du ou des programmes sélectionnés. |
 | **Portfolio** | Affiche uniquement les données des projets du ou des portefeuilles sélectionnés. |
 | **Condition** | Affiche uniquement les données des projets qui présentent la ou les conditions sélectionnées le plus récemment (sur la cible, à risque ou en difficulté). |
-| **État** | Affiche uniquement les données des projets dont les états ont été sélectionnés le plus récemment (terminé, en cours, en attente, annulé, etc.) |
+| **Statut** | Affiche uniquement les données des projets dont les états ont été sélectionnés le plus récemment (terminé, en cours, en attente, annulé, etc.) |
 | **Sponsor** | Affiche les données uniquement pour les projets avec le ou les sponsors sélectionnés. |
 | **Propriétaire du projet** | Affiche les données uniquement pour les projets avec le ou les propriétaires de projet sélectionnés. |
 

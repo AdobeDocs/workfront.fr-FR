@@ -1,19 +1,19 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Modifier des modèles de projet
+title: Modifier les modèles de projet
 description: Vous pouvez modifier des modèles de projet pour prendre en compte les modifications apportées aux paramètres et aux processus du projet.
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '4710'
-ht-degree: 2%
+source-wordcount: '4721'
+ht-degree: 3%
 
 ---
 
-# Modifier des modèles de projet
+# Modifier les modèles de projet
 
 <!-- Audited: 2/2024 -->
 
@@ -21,17 +21,19 @@ ht-degree: 2%
 
 Vous pouvez modifier des modèles de projet pour prendre en compte les modifications apportées aux paramètres et aux processus du projet. Après avoir mis à jour et enregistré les modifications sur un modèle, les nouvelles modifications sont visibles dans les nouveaux projets lorsque les projets sont créés à l’aide du modèle. Les modifications que vous apportez au modèle ne concernent pas le projet qui utilise actuellement ce modèle.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront</td> 
@@ -56,7 +58,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modifier un modèle {#edit-a-template}
 
@@ -715,7 +719,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody>
        <tr> 
          <td role="rowheader"><strong> Devise</strong></td> 
-         <td><p>Indiquez la devise du projet futur, si elle est différente de la devise par défaut de votre système. Ce champ n’est pas visible si vous avez uniquement la devise par défaut dans le système.<br>Pour plus d’informations sur la devise, voir <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer les taux de change</a>.</p></td> 
+         <td><p>Indiquez la devise du projet futur, si elle est différente de la devise par défaut de votre système. Ce champ n’est pas visible si vous avez uniquement la devise par défaut dans le système.<br>Pour plus d’informations sur la devise, voir <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configuration des taux d’exchange</a>.</p></td> 
        </tr>
        <tr> 
        <td role="rowheader"><strong>Budget</strong></td> 

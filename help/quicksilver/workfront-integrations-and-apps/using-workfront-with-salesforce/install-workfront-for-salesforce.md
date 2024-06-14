@@ -6,10 +6,10 @@ description: Pour installer l’application avant qu’elle ne soit disponible d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: e823589247a2231e038142ae8d19f366769060e2
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,9 @@ Pour une compréhension générale de ce à quoi vous pouvez vous attendre en in
 * [Conditions préalables pour l’installation et l’utilisation [!DNL Workfront for Salesforce]](#prerequisites-for-installing-and-using-workfront-for-salesforce)
 * [Installation [!DNL Workfront for Salesforce]](#installing-workfrontfor-salesforce)
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour utiliser les fonctionnalités décrites dans cet article :
 
@@ -38,7 +40,7 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités décr
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Quelconque</p></td> 
+   <td> <p>N’importe quelle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
@@ -46,7 +48,9 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités décr
   </tr>  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables pour l’installation et l’utilisation [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
 

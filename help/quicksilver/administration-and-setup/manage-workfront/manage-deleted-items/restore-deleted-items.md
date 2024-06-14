@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Restauration des éléments supprimés
+title: Restaurer les éléments supprimés
 description: Si vous êtes administrateur de Workfront, vous pouvez restaurer des projets, tâches, problèmes, documents et modèles dans Adobe Workfront s’ils ont été supprimés au cours des 30 derniers jours. Au bout de 30 jours, ces éléments sont supprimés définitivement et ne peuvent pas être restaurés. Lorsque vous restaurez un objet, tous ses objets et champs enfants sont également restaurés. Par exemple, si vous restaurez un projet, toutes les tâches, problèmes, documents, heures, notes, affectations et données personnalisées du projet seront également restaurées.items
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 1%
+source-wordcount: '1082'
+ht-degree: 3%
 
 ---
 
-# Restauration des éléments supprimés
+# Restaurer les éléments supprimés
 
 <!--Audited: 12/2023-->
 
@@ -36,7 +36,9 @@ Un administrateur de groupe peut également restaurer ces objets pour un groupe 
 >
 >* Si vous déplacez une tâche ou un problème et que vous choisissez de ne pas déplacer également les documents joints à la tâche ou au problème, les documents sont supprimés et placés dans la Corbeille pendant 30 jours. Un administrateur peut les restaurer et ils sont rattachés à la tâche ou au problème déplacé. Si la tâche ou le problème a été supprimé depuis son déplacement, les documents sont restaurés dans la zone Documents de la page utilisateur de l’administrateur qui les restaure.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -45,11 +47,11 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td><p>Nouveau : Standard</p>
    ou
    <p>Actuel : formule</p></td> 
@@ -58,6 +60,8 @@ Les étapes de cet article doivent être les suivantes :
 </table>
 
 &#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur Workfront.
+
++++
 
 ## Informations récupérées lorsque vous restaurez un projet, une tâche ou un problème
 

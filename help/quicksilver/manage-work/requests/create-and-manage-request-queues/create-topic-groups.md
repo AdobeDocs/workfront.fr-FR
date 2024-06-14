@@ -1,27 +1,29 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Création de groupes de rubriques
+title: Créer les groupes de rubriques
 description: Les groupes de rubriques sont associés aux files d’attente de demandes. Ils vous permettent de regrouper vos files d’attente de requêtes en plusieurs catégories, selon la nature des requêtes.
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 0%
+source-wordcount: '438'
+ht-degree: 10%
 
 ---
 
-# Création de groupes de rubriques
+# Créer les groupes de rubriques
 
 <!-- Audited: 2/2024 -->
 
 Les groupes de rubriques sont associés aux files d’attente de demandes. Ils vous permettent de regrouper vos files d’attente de requêtes en plusieurs catégories, selon la nature des requêtes.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -30,11 +32,11 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront</p> </td> 
    <td>   
       <p>Nouveau : Standard</p>
       <p>Ou</p> 
@@ -42,7 +44,7 @@ Vous devez disposer des éléments suivants :
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux projets</p> </td> 
   </tr> 
   <tr> 
@@ -52,7 +54,9 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Présentation des groupes de rubriques
 
@@ -67,7 +71,7 @@ Pour plus d’informations sur la création de files d’attente de requête, vo
 >* Les groupes de rubriques sont un objet à reporter.
 >
 
-## Création de groupes de rubriques
+## Créer les groupes de rubriques
 
 Nous vous recommandons de créer des groupes de rubriques avant de créer une rubrique de file d’attente. Cependant, un groupe de rubriques peut être créé dans le créateur de rubriques de file d’attente. Pour plus d’informations sur la création de rubriques de file d’attente, voir [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -81,7 +85,7 @@ Pour créer un groupe de rubriques :
 
    ![](assets/new-topic-group-box-nwe-350x306.png)
 
-1. Indiquez les informations suivantes :
+1. Indiquez les informations suivantes :
 
    * **Nom**: le nom est visible pour les utilisateurs qui envoient des requêtes vers cette file d’attente de requêtes.
    * **Description**: la description s’affiche lorsque les utilisateurs sélectionnent le groupe de rubriques dans le processus d’envoi d’une nouvelle demande.

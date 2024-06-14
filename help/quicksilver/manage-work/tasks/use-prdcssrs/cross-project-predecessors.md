@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Création de prédécesseurs sur plusieurs projets
+title: Créer les projets transversaux antérieurs
 description: Un prédécesseur multi-projets est une tâche dont dépend une autre tâche (appelée tâche de remplacement) dans un autre projet. Le prédécesseur est la tâche qui a la priorité sur la tâche dépendante (qui lui succède). Par exemple, vous pouvez créer une dépendance qui nécessite que la tâche du prédécesseur soit marquée comme Terminée avant que la tâche dépendante puisse commencer.
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 0%
+source-wordcount: '726'
+ht-degree: 7%
 
 ---
 
-# Création de prédécesseurs sur plusieurs projets
+# Créer les projets transversaux antérieurs
 
 <!--Audited: 12/2023-->
 
@@ -33,27 +33,29 @@ Lors de la liaison de projets par le biais de prédécesseurs interprojets, les 
 
 Pour plus d’informations sur les relations de prédécesseur, voir [Présentation des prédécesseurs de tâches](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard </p> 
    Ou
    <p>Actuel : formule </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux tâches et aux projets</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +65,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Création d’un prédécesseur multi-projet

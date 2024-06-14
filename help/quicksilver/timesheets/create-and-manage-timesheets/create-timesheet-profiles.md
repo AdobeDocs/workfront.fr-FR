@@ -1,19 +1,19 @@
 ---
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
-title: Création, modification et affectation de profils de feuille de temps
+title: Créer, modifier et attribuer des profils de feuille de temps
 description: Vous pouvez créer, modifier et affecter des profils de feuille de temps qui génèrent des feuilles de temps récurrentes pour vos utilisateurs sans intervention de votre part. Vous gagnez ainsi du temps et garantissez la cohérence entre les utilisateurs.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 0%
+source-wordcount: '1472'
+ht-degree: 3%
 
 ---
 
-# Création, modification et affectation de profils de feuille de temps
+# Créer, modifier et attribuer des profils de feuille de temps
 
 Vous pouvez créer, modifier et affecter des profils de feuille de temps qui génèrent des feuilles de temps récurrentes pour vos utilisateurs sans intervention de votre part. Cela vous permet de gagner du temps et de vous assurer que les éléments suivants sont cohérents entre les utilisateurs :
 
@@ -23,7 +23,9 @@ Vous pouvez créer, modifier et affecter des profils de feuille de temps qui gé
 
 Pour plus d’informations sur la création manuelle d’une feuille de temps, voir [Création d’une feuille de temps à usage unique](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -32,24 +34,26 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard </p>
  <p>ou</p> 
 <p>Actuel : formule </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Vous devez disposer d’un accès administratif aux feuilles de calcul. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Création ou modification d’un profil de feuille de temps
 
@@ -121,7 +125,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
       <td role="rowheader"><strong>Peut modifier l’heure </strong> </td> 
       <td> <p> <p>Sélectionnez cette option pour permettre aux approbateurs de modifier les heures sur la feuille de temps.
 
-   Cette option fonctionne avec la fonction **Limitation de la modification de la feuille de temps aux propriétaires et aux administrateurs** dans la zone Configuration > Frise chronologique et heures > Préférences . Pour plus d’informations, voir <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configuration des préférences de feuille de temps et d’heure</a>.
+   Cette option fonctionne avec la fonction **Limitation de la modification de la feuille de temps aux propriétaires et aux administrateurs** dans la zone Configuration > Frise chronologique et heures > Préférences . Pour plus d’informations, consultez <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurer les préférences de feuilles de temps et d’heures</a>.
 
    Les scénarios suivants existent :
 

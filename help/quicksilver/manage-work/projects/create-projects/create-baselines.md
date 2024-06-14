@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Création de lignes de base de projet
+title: Créer des références pour les projets
 description: Une ligne de base est un instantané de projet qui représente des éléments d’information clés inclus dans le plan initial du projet ou à tout moment pendant la durée du projet.
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 6%
 
 ---
 
-# Création de lignes de base de projet
+# Créer des références pour les projets
 
 <!-- Audited: 12/2023 -->
 
@@ -21,7 +21,9 @@ Une ligne de base est un instantané de projet qui représente des éléments d�
 
 Vous pouvez utiliser la ligne de base pour comparer ces informations du plan actuel au plan d’origine ou à tout autre moment dans le temps, afin d’identifier les tâches problématiques, les changements d’étendue et d’autres tendances au fil du temps.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <!--
 drafted for P&P:
@@ -55,18 +57,18 @@ drafted for P&P:
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
     <td><p>Nouveau : Standard</p>
         <p>ou</p>
         <p>Actuel : formule </p> </td> 
@@ -82,7 +84,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Observations relatives à l’utilisation des lignes de base
 

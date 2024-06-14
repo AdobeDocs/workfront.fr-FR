@@ -1,5 +1,5 @@
 ---
-title: Suppression de projets
+title: Supprimer des projets
 product-area: projects
 navigation-topic: manage-projects
 description: Vous pouvez supprimer un projet si celui-ci et ses données ne sont plus nécessaires. Au lieu de supprimer un projet, nous vous recommandons de le modifier et de définir le statut Terminé ou Mort. Cette opération supprime de la liste des tâches d’un utilisateur toutes les tâches en cours liées au projet, mais enregistre toutes les données associées au projet.
@@ -7,14 +7,14 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 1%
+source-wordcount: '908'
+ht-degree: 7%
 
 ---
 
-# Suppression de projets
+# Supprimer des projets
 
 <!--Audited: 01/2024-->
 
@@ -24,18 +24,22 @@ Au lieu de supprimer un projet, nous vous recommandons de le modifier et de déf
 
 Vous pouvez supprimer un projet dans une liste de projets ou au niveau du projet.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Formule Adobe Workfront</p> </td> 
-   <td>Quelconque</td> 
+   <td> <p>Forfait Adobe Workfront</p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td> <p>Licence Adobe Workfront*</p> </td> 
+   <td> <p>Licence Adobe Workfront*</p> </td> 
    <td> <p>Licence actuelle : formule </p> 
    Ou
    <p>Nouvelle licence : Standard </p>
@@ -52,7 +56,9 @@ Vous pouvez supprimer un projet dans une liste de projets ou au niveau du projet
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Comprendre le processus de suppression de projets
 
@@ -96,7 +102,7 @@ Vous pouvez supprimer un projet dans une liste de projets ou au niveau du projet
    * Taux de facturation
    * Enregistrements de facturation
 
-     Vous ne pouvez pas supprimer un projet dont l’état est Facturé pour les enregistrements de facturation. Pour plus d’informations, voir [Créer des enregistrements de facturation](../../projects/project-finances/create-billing-records.md).
+     Vous ne pouvez pas supprimer un projet dont l’état est Facturé pour les enregistrements de facturation. Pour plus d’informations, consultez [Créer des enregistrements de facturation](../../projects/project-finances/create-billing-records.md).
 
 * Selon la manière dont votre administrateur Workfront configure les préférences Projet, Tâche ou Suppression d’un problème dans les préférences Frise chronologique et Heures de votre instance Workfront, les heures consignées pour les tâches, les problèmes ou le projet sont traitées de l’une des manières suivantes lors de la suppression du projet :
 

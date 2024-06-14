@@ -1,19 +1,19 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-adobe-creative-cloud
-title: Utilisation de l’extension Workfront pour Illustrator et InDesign
+title: Utiliser l’extension Workfront pour Illustrator et InDesign
 description: Vous pouvez utiliser l’extension Workfront pour exporter du contenu numérique que vous enregistrez et créez dans Adobe Illustrator et Adobe InDesign vers Workfront. Cela accélère le processus de révision et d’approbation des documents.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '3076'
-ht-degree: 0%
+source-wordcount: '3087'
+ht-degree: 1%
 
 ---
 
-# Utilisation de l’extension Workfront pour Illustrator et InDesign
+# Utiliser l’extension Workfront pour Illustrator et InDesign
 
 <!--Audited: 01/2024-->
 
@@ -33,22 +33,24 @@ L’extension Workfront est prise en charge pour Adobe Creative Cloud 2017 et ve
   >
   >Nous vous recommandons d’utiliser la nouvelle [Adobe Workfront pour Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) module externe
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> <p>Actuel : Pro ou supérieur</p>
    Ou
    <p>Nouveau : N’importe quel plan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Actuel : travail ou plus élevé</p>
    Ou
    <p>Nouveau : Standard</p> </td> 
@@ -64,7 +66,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Connexion à l’extension Workfront depuis Illustrator ou InDesign {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 

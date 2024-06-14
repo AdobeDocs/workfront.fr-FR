@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 1%
+source-wordcount: '2174'
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Cet article décrit comment créer des processus d’approbation globale au nive
 Pour plus d&#39;informations sur les validations associées aux documents ou BAT, consultez les articles suivants :
 
 * [Demande d’approbation de documents](../../../review-and-approve-work/manage-approvals/request-document-approvals.md)
-* [Présentation des processus automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
+* [Vue d’ensemble du workflow automatisé](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 
 >[!NOTE]
 >
@@ -40,7 +40,9 @@ Pour plus d&#39;informations sur les validations associées aux documents ou BAT
 >
 >Pour plus d’informations sur les processus de validation à usage unique, voir [Présentation du processus de validation](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) et [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -49,25 +51,27 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau plan : Standard </p>
  <p>ou</p> 
 <p>Formule actuelle : Formule </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Si vous êtes administrateur de Workfront ou si vous avez un accès administratif aux processus d’approbation, vous pouvez créer un processus d’approbation au niveau du système ou un processus d’approbation au niveau du groupe pour un groupe particulier.</p> 
    <p>Si vous êtes administrateur de groupe, vous pouvez créer des processus d’approbation au niveau du groupe pour les groupes que vous gérez.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer un processus d’approbation globale au niveau du système ou du groupe pour les éléments de travail
 
@@ -146,7 +150,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    <p><b>CONSEIL</b>:</p>
 
    <p>Lors de l’ajout d’un utilisateur en tant qu’approbateur, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique pour distinguer les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.</p>
-      <p>Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Accorder l’accès aux utilisateurs</a>. </p>
+      <p>Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Accorder l’accès aux utilisateurs et utilisatrices</a>. </p>
 
    <p><b>REMARQUE</b>:
 

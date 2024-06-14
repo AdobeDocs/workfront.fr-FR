@@ -6,10 +6,10 @@ description: Vous pouvez accéder à [!DNL Adobe Workfront] de [!DNL Microsoft T
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 1%
+source-wordcount: '466'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez effectuer les opérations suivantes dans [!DNL Workfront] de [!DNL M
 * Recherche de projets, de tâches ou de problèmes
 * Créer des tâches personnelles
 * Réponse aux notifications
-* Gestion des approbations de documents
+* Gérer les approbations de documents
 
 Commandes utilisées à partir de [!DNL Microsoft Teams] pour effectuer ces actions, elles sont différentes selon le canal auquel vous souhaitez accéder. [!DNL Workfront] de .
 
@@ -36,20 +36,22 @@ Commandes utilisées à partir de [!DNL Microsoft Teams] pour effectuer ces acti
 >
 >[!DNL Microsoft Teams] ne prend plus en charge [!DNL Internet Explorer]. Pour utiliser la variable [!DNL Adobe Workfront for Microsoft Teams integration], vous devez utiliser un navigateur web autre que [!DNL Internet Explorer].
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>Nouveau : [!UICONTROL Standard]</p>
    <p>Actuel : [!UICONTROL Travail], [!UICONTROL Plan]</p> </td> 
   </tr> 
@@ -59,6 +61,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 *Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
 
 *Pour plus d’informations sur les exigences d’accès à Workfront, voir [Présentation des exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 

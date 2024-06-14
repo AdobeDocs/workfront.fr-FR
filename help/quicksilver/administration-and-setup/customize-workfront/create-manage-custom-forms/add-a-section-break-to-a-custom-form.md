@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1249'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,8 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
 -->
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -59,6 +61,8 @@ Les étapes de cet article doivent être les suivantes :
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Création et configuration de l’accès à une section dans un formulaire personnalisé
 

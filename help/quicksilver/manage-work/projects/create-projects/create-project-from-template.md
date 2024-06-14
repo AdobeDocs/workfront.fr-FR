@@ -1,19 +1,19 @@
 ---
 product-area: projects;templates
 navigation-topic: create-projects
-title: Créer un projet à l’aide d’un modèle
+title: Créer un projet à partir d’un modèle
 description: Vous pouvez utiliser des modèles comme structure pour créer des projets dans Adobe Workfront. Si des projets se répètent fréquemment, l’utilisation de modèles pour le nouveau projet vous évite d’avoir à créer les mêmes projets à plusieurs reprises.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 0%
+source-wordcount: '1135'
+ht-degree: 5%
 
 ---
 
-# Créer un projet à l’aide d’un modèle
+# Créer un projet à partir d’un modèle
 
 <!-- Audited: 01/2024 -->
 
@@ -41,7 +41,9 @@ Vous disposez des options suivantes pour créer un projet à partir d’un modè
 
 * Création d’un projet à partir d’un modèle dans la zone Groupes
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <!--drafted for P&P:
 
@@ -74,15 +76,15 @@ Vous disposez des options suivantes pour créer un projet à partir d’un modè
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Workfront</td> 
@@ -91,7 +93,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
         <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux projets et aux modèles</p> </td> 
   </tr> 
   <tr> 
@@ -101,7 +103,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Création d’un projet à partir d’un modèle dans la zone Projets
 

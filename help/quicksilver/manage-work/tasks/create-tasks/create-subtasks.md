@@ -1,44 +1,46 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Création de sous-tâches
+title: Créer des sous-tâches
 description: Dans Workfront, les tâches peuvent avoir des relations parents-enfants. Les tâches filles sont appelées sous-tâches. Vous pouvez créer des sous-tâches dans la liste des tâches en faisant d’une tâche principale une sous-tâche. Vous pouvez également faire d’une sous-tâche une tâche principale.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 0%
+source-wordcount: '543'
+ht-degree: 9%
 
 ---
 
-# Création de sous-tâches
+# Créer des sous-tâches
 
 <!-- Audited: 1/2024 -->
 
 Dans Workfront, les tâches peuvent avoir des relations parents-enfants. Les tâches filles sont appelées sous-tâches. Vous pouvez créer des sous-tâches dans la liste des tâches en faisant d’une tâche principale une sous-tâche. Vous pouvez également faire d’une sous-tâche une tâche principale.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
    <p>Nouveau : Standard</p>
    <p>Actuel : travail ou plus élevé</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux tâches et aux projets</p>  </td> 
   </tr> 
   <tr> 
@@ -48,9 +50,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Création de sous-tâches
++++
+
+## Créer des sous-tâches
 
 Vous pouvez créer des sous-tâches à partir de la liste des tâches ou de la section des sous-tâches de tâche.
 

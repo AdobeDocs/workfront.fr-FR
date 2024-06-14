@@ -1,5 +1,5 @@
 ---
-title: Création d’un chemin de jalon
+title: Créer un chemin jalonné
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
@@ -8,14 +8,14 @@ author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 2%
+source-wordcount: '531'
+ht-degree: 12%
 
 ---
 
-# Création d’un chemin de jalon
+# Créer un chemin jalonné
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -23,28 +23,32 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 En tant qu’administrateur Adobe Workfront, vous pouvez créer des chemins de jalon qui peuvent ensuite être appliqués à n’importe quel projet du système. Les modifications apportées aux chemins d’accès aux jalons dans cette zone affectent l’ensemble du système Workfront.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Jalons et chemins de jalon
 
@@ -56,11 +60,11 @@ La première étape de la création d’un chemin de jalon consiste à identifie
 
 Pour plus d’informations sur la manière d’associer un chemin de jalon à un projet et un jalon à une tâche, voir [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-## Création d’un chemin de jalon
+## Créer un chemin jalonné
 
 1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Traitements** > **Chemins Milestone**.
+1. Cliquez sur **Processus** > **Chemins Milestone**.
 1. Cliquez sur **Nouveau Chemin Milestone.**
 1. Indiquez les informations suivantes dans la variable **Informations de base** area :
 
@@ -74,8 +78,8 @@ Pour plus d’informations sur la manière d’associer un chemin de jalon à un
       <td>Saisissez une description pour définir le chemin du jalon.</td>
     </tr>
     <tr>
-       <td>Est actif</td>
-      <td>Cochez cette case si vous souhaitez que le chemin du jalon soit principal. D’autres utilisateurs peuvent trouver ce chemin et le joindre à des projets lors de la création ou de la modification de projets. Les chemins de jalon inactifs ne peuvent pas être associés aux projets. Cette option est activée par défaut.</td>
+       <td>Est active</td>
+      <td>Cochez cette case si vous souhaitez que le chemin du jalon soit actif. D’autres utilisateurs peuvent trouver ce chemin et le joindre à des projets lors de la création ou de la modification de projets. Les chemins de jalon inactifs ne peuvent pas être associés aux projets. Cette option est activée par défaut.</td>
     </tr>
     <tr>
       <td>Groupes</td>

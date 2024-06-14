@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Présentation de l’effort de travail
-description: Présentation de l’effort de travail
+title: Vue d’ensemble de l’effort de travail
+description: Vue d’ensemble de l’effort de travail
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 0%
+source-wordcount: '1505'
+ht-degree: 4%
 
 ---
 
-# Présentation de l’effort de travail
+# Vue d’ensemble de l’effort de travail
 
 <!--Audited: 01/2024-->
 
@@ -57,20 +57,22 @@ Cet article décrit l’effort de travail et comment l’utiliser pour estimer l
 >
 >Les heures prévues et l&#39;effort de travail s&#39;influencent mutuellement. La mise à jour des heures planifiées peut mettre à jour l’effort de travail et la mise à jour de l’effort de travail peut mettre à jour les heures planifiées de la tâche.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Actuel : formule </p>
    Ou
    <p>Nouveau : Standard </p>
@@ -87,7 +89,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Observations relatives à l’utilisation des efforts de travail
 
@@ -122,7 +126,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    Pour plus d’informations sur la mise à jour du champ Effort de travail sur une tâche, consultez les articles suivants :
 
    * La section &quot;Aperçu&quot; de la variable [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md) article
-   * [Gestion des informations sur la tâche dans la zone Présentation des détails de la tâche](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+   * [Gérer les informations des tâches dans la zone Vue d’ensemble des détails de la tâche](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Niveaux de travail {#levels-of-work-effort}
 

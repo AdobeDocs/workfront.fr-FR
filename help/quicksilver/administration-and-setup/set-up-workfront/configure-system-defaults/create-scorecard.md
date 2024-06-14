@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Création d’une Fiche d’évaluation
+title: Créer une carte de performance
 description: Une fiche d’évaluation mesure si un projet s’aligne sur les critères précédemment établis d’un portefeuille. Une fiche d’évaluation reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation. Les gestionnaires de Portfolios définissent généralement les questions et les réponses de la fiche d’évaluation afin de s’assurer qu’elles sont pertinentes et utiles lors de la définition des priorités et de la sélection du projet. Un [!DNL Adobe Workfront] L’administrateur crée les fiches d’évaluation en fonction des recommandations des gestionnaires de portefeuille.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 0%
+source-wordcount: '601'
+ht-degree: 2%
 
 ---
 
-# Création d’une Fiche d’évaluation
+# Créer une carte de performance
 
 <!--Audited: 01/2024-->
 
@@ -27,7 +27,9 @@ Les gestionnaires de Portfolios définissent généralement les questions et ré
 
 Les questions et réponses choisies pour une fiche d’évaluation doivent être quantifiables afin de fournir une valeur d’alignement pour comparer différents projets.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -36,14 +38,14 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
    <td> <p>Actuel : [!UICONTROL Entreprise] ou version ultérieure</p> 
    Ou
    <p>Nouveau : [!UICONTROL Prime] ou version ultérieure</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td><p>Actuel : formule [!UICONTROL]</p>
    Ou
    <p>Nouveau : [!UICONTROL Standard]</p>
@@ -52,7 +54,9 @@ Les étapes de cet article doivent être les suivantes :
  </tbody> 
 </table>
 
-## Création d’une Fiche d’évaluation
++++
+
+## Créer une carte de performance
 
 {{step-1-to-setup}}
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 2%
+source-wordcount: '821'
+ht-degree: 5%
 
 ---
 
@@ -24,20 +24,22 @@ Sans modèle d&#39;email, la notification de rappel sera diffusée en tant que c
 
 Les modèles de courrier électronique peuvent être associés à des notifications de rappel pour les problèmes, les tâches, les projets et les feuilles de temps. Lors de la création de modèles de courrier électronique, votre administrateur Workfront peut fournir du contenu pour le courrier électronique et un objet.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td><p>Actuel : formule</p>
    Ou
    <p>Nouveau : Standard</p></td> 
@@ -50,6 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 *Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Création d’un modèle de courrier électronique {#create-an-email-template}
 

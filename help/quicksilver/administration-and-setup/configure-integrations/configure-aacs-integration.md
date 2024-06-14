@@ -6,10 +6,10 @@ description: Vous pouvez connecter votre travail à votre contenu dans [!DNL Exp
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 0%
+source-wordcount: '1678'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,9 @@ Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manag
 >
 >Vous pouvez également connecter plusieurs [!DNL Experience Manager Assets] référentiels sur un [!UICONTROL Workfront] ou plusieurs [!DNL Workfront] environnements à un [!DNL Experience Manager Assets] référentiel dans les ID d’organisation. Suivez les instructions de configuration de cet article pour chaque intégration que vous souhaitez configurer.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -43,7 +45,7 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
-   <td>Quelconque
+   <td>N’importe quelle
    </td>
   </tr>
   <tr>
@@ -66,14 +68,16 @@ Vous devez disposer des éléments suivants :
    </td>
   </tr>
   <tr>
-   <td>Paramétrages du niveau d'accès*
+   <td>Configurations des niveau d’accès*
    </td>
    <td>Vous devez être un [!DNL Workfront] administrateur.
    </td>
   </tr>
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Conditions préalables

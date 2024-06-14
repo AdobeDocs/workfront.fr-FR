@@ -1,41 +1,43 @@
 ---
 product-area: documents;setup
 navigation-topic: create-proofs-within-workfront
-title: Créer un BAT avancé avec un workflow de base
+title: Créer une épreuve avancée avec un workflow de base
 description: Avec un workflow de base, vous pouvez créer plusieurs validants sur un BAT, mais ils ne sont pas organisés par étapes. Tous les opérateurs validants que vous ajoutez peuvent accéder au BAT immédiatement après sa création.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1842'
-ht-degree: 1%
+source-wordcount: '1853'
+ht-degree: 6%
 
 ---
 
-# Créer un BAT avancé avec un workflow de base
+# Créer une épreuve avancée avec un workflow de base
 
 <!-- Audited: 1/2024 -->
 
 Avec un workflow de base, vous pouvez créer plusieurs validants sur un BAT, mais ils ne sont pas organisés par étapes. Tous les opérateurs validants que vous ajoutez peuvent accéder au BAT immédiatement après sa création.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td>
    <p>Nouveau : Quelconque</p>
     <p>Formule actuelle : Pro ou supérieure</p>
    <p>Formule héritée : sélection ou supérieure</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
    <p>Nouveau : Standard</p>
     <p>Actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
@@ -45,15 +47,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>Manager ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront BAT.
+&#42;Pour savoir quel plan, rôle ou profil d’autorisation de BAT vous avez, contactez votre administrateur Workfront ou Workfront Proof.
 
-## Créer un BAT avancé avec un workflow de base
++++
+
+## Créer une épreuve avancée avec un workflow de base
 
 1. Accédez au projet, à la tâche ou au problème pour lequel vous souhaitez obtenir le BAT, puis cliquez sur le bouton **Documents** .
 1. Cliquez sur **Ajouter** > Bon à tirer, téléchargez le contenu, puis parcourez les sections répertoriées ci-dessous.
@@ -221,7 +225,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Partager l'épreuve par balisage</td> 
-      <td> <p>Permet au réviseur d’ajouter n’importe quel utilisateur Workfront au BAT, comme expliqué dans la section <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Balisage des utilisateurs pour partager un BAT</a>.</p> <p>Remarque :  <p>Si ces deux options ne sont pas disponibles (grisées), l’utilisateur dispose déjà d’un profil d’autorisation lui permettant de résoudre les commentaires, d’appliquer des actions aux commentaires et de baliser n’importe quel utilisateur. </p> <p>Si les options ne s’affichent pas, la personne que vous avez ajoutée n’est pas titulaire de licence Workfront.</p> </p> </td> 
+      <td> <p>Permet au réviseur d’ajouter n’importe quel utilisateur Workfront au BAT, comme expliqué dans la section <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Balisage des utilisateurs pour partager un BAT</a>.</p> <p>Remarque :  <p>Si ces deux options ne sont pas disponibles (grisées), l’utilisateur dispose déjà d’un profil d’autorisation lui permettant de résoudre les commentaires, d’appliquer des actions aux commentaires et de baliser n’importe quel utilisateur. </p> <p>Si les options ne s’affichent pas, la personne que vous avez ajoutée n’est pas titulaire de licence Workfront.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -298,7 +302,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td role="rowheader">Connexion requise : le BAT ne peut être partagé qu’avec d’autres utilisateurs.</td> 
       <td>Lorsque cette option est désactivée (par défaut), toute personne disposant de l’URL peut afficher le BAT. <br>Lorsque cette option est sélectionnée :
        <ul>
-        <li>Seuls les utilisateurs du BAT Workfront peuvent afficher le BAT.</li>
+        <li>Seuls les utilisateurs de Workfront Proof peuvent afficher le BAT.</li>
         <li>Les utilisateurs ne peuvent pas se connecter au BAT à moins qu’ils n’aient été ajoutés au BAT.</li>
         <li>Les abonnements ne peuvent pas être activés.</li>
        </ul></td> 

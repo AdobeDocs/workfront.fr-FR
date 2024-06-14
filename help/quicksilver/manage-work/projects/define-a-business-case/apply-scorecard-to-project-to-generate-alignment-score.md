@@ -1,18 +1,18 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Application d’une fiche d’évaluation à un projet et génération d’une note d’alignement
+title: Appliquer une carte de performance à un projet et générer un score d’alignement
 description: Vous pouvez utiliser une fiche d’évaluation pour mesurer l’alignement d’un projet avec les critères précédemment définis d’un portfolio. Une fiche d'évaluation reflète souvent la mission, les valeurs et les objectifs stratégiques d'une organisation.
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 0%
+source-wordcount: '1240'
+ht-degree: 5%
 
 ---
 
-# Application d’une fiche d’évaluation à un projet et génération d’une note d’alignement
+# Appliquer une carte de performance à un projet et générer un score d’alignement
 
 <!-- Audited: 02/2024 -->
 
@@ -20,30 +20,32 @@ Vous pouvez utiliser une fiche d’évaluation pour mesurer l’alignement d’u
 
 Pour plus d’informations sur les Fiches d’évaluation et sur la manière d’en créer une, voir [Création d’une Fiche d’évaluation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td>
    <p>Nouveau : Prime ou version ultérieure</p>
    <p>ou</p>
    <p>Actuel : métier ou supérieur</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
    <p>Nouveau : Standard</p>
    <p>ou</p>
    <p>Actuel : formule</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux projets</p> <p>Affichage ou accès supérieur à Portfolio</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Fiches d’évaluation du projet {#project-scorecards}
 
@@ -200,7 +204,7 @@ Pour plus d’informations sur les informations affichées dans Portfolio Optimi
 
    Pour plus d’informations sur la génération du score d’alignement d’un portfolio, voir [Génération d’un score d’alignement pour un portfolio](#generate-an-alignment-score-for-a-portfolio).
 
-## Score Portfolio Optimizer - Aperçu
+## Vue d’ensemble du score de l’optimiseur de portfolio
 
 Il existe une différence entre le score d’alignement et le score d’optimisation de portefeuille d’un projet.
 

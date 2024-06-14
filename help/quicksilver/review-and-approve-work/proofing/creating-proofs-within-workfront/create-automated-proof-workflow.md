@@ -1,38 +1,40 @@
 ---
 product-area: documents;setup
 navigation-topic: create-proofs-within-workfront
-title: Créer un BAT avancé avec un workflow automatisé
+title: Créer une épreuve avancée avec un workflow automatisé
 description: Un processus automatisé facilite la gestion du processus de révision si votre processus est complexe ou si vous envoyez régulièrement du contenu à des personnes identiques pour révision. Le BAT passe d’une étape à l’autre et Adobe Workfront avertit chaque utilisateur lorsqu’il est à son tour de le vérifier. Pour plus d’informations sur les workflows automatisés, voir Présentation des workflows automatisés.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 0%
+source-wordcount: '1831'
+ht-degree: 3%
 
 ---
 
-# Créer un BAT avancé avec un workflow automatisé
+# Créer une épreuve avancée avec un workflow automatisé
 
 <!-- Audited: 2/2024 -->
 
 Un processus automatisé facilite la gestion du processus de révision si votre processus est complexe ou si vous envoyez régulièrement du contenu à des personnes identiques pour révision. Le BAT passe d’une étape à l’autre et Adobe Workfront avertit chaque utilisateur lorsqu’il est à son tour de le vérifier. Pour plus d’informations sur les workflows automatisés, voir [Présentation des processus automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>Nouveau : Quelconque</p><p>Formule actuelle : Pro ou supérieure</p><p>Formule héritée : sélection ou supérieure</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard</p><p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
@@ -40,15 +42,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>Manager ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux documents</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Créer un BAT avancé avec un workflow automatisé
++++
+
+## Créer une épreuve avancée avec un workflow automatisé
 
 1. Accédez au projet, à la tâche ou au problème pour lequel vous souhaitez obtenir le BAT, puis cliquez sur le bouton **Documents** .
 1. Cliquez sur **Ajouter** > Bon à tirer, téléchargez le contenu, puis parcourez les sections répertoriées ci-dessous.
@@ -121,7 +125,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
         </tr>
         <tr>
          <td role="rowheader">Rendre cette étape privée</td>
-         <td>Permet uniquement aux personnes suivantes d’afficher les commentaires et les décisions pris à cette étape : superviseurs, administrateurs Workfront et administrateurs Workfront BAT</td>
+         <td>Permet uniquement aux personnes suivantes d’afficher les commentaires et les décisions pris à cette étape : superviseurs, administrateurs Workfront et administrateurs Workfront Proof</td>
         </tr>
        </tbody>
       </table>
@@ -181,7 +185,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
       <td role="rowheader">Connexion requise : le BAT ne peut être partagé qu’avec d’autres utilisateurs.</td> 
       <td>Lorsque cette option est désactivée (par défaut), toute personne disposant de l’URL peut afficher le BAT. <br>Lorsque cette option est sélectionnée :
        <ul>
-        <li>Seuls les utilisateurs du BAT Workfront peuvent afficher le BAT.</li>
+        <li>Seuls les utilisateurs de Workfront Proof peuvent afficher le BAT.</li>
         <li>Les utilisateurs ne peuvent pas se connecter au BAT à moins qu’ils n’aient été ajoutés au BAT.</li>
         <li>Les abonnements ne peuvent pas être activés.</li>
        </ul></td> 

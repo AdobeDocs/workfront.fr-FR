@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Application des prédécesseurs
+title: Appliquer les tâches antérieures
 description: Les prédécesseurs sont des tâches sur lesquelles d’autres tâches dépendent pour être terminées. Les relations du prédécesseur affectent les dates de début et de fin des tâches et, en fin de compte, affectent la chronologie du projet.
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 0%
+source-wordcount: '494'
+ht-degree: 9%
 
 ---
 
-# Application des prédécesseurs
+# Appliquer les tâches antérieures
 
 <!-- Audited: 2/2024 -->
 
@@ -35,20 +35,22 @@ Vous pouvez appliquer la relation de prédécesseur lors de la définition des p
 
 Si un prédécesseur est appliqué, la tâche qui lui succède ne peut pas commencer avant l’achèvement du prédécesseur. Par exemple, l’application d’une relation Finish-Start entre la tâche A et la tâche B signifie que la tâche B ne peut pas démarrer (l’état doit rester Nouveau et le pourcentage terminé doit rester 0 %) jusqu’à ce que la tâche A soit marquée comme terminée. L’application des relations s’applique à tous les types de prédécesseur.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
       <p>Nouveau : Standard</p> 
       <p>OU</p>
@@ -56,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux tâches et aux projets</p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +68,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Application d’un prédécesseur au niveau de la tâche
 

@@ -6,10 +6,10 @@ description: La variable [!UICONTROL Liste de tâches] dans le [!UICONTROL Accue
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 0%
+source-wordcount: '1837'
+ht-degree: 2%
 
 ---
 
@@ -27,9 +27,11 @@ La variable [!UICONTROL Liste de tâches] dans le [!UICONTROL Accueil] affiche t
 >* Lors de la conversion d’une tâche en projet, la tâche est supprimée de la zone Accueil de l’utilisateur affecté à la tâche.
 
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,15 +41,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
    <td> <p>Nouveau :</p><ul><li>[!UICONTROL Contributeur] pour les approbations uniquement</li> <li>[!UICONTROL Standard] ou version ultérieure pour tous les autres objets</li> <p>Ou</p> 
-  </ul><p>Actuel :</p><ul><li>Révision [!UICONTROL] pour les approbations uniquement</li> <li>[!UICONTROL Travail] ou version ultérieure pour tous les autres objets</li> </td> 
+  </ul><p>Actuel :</p><ul><li>Révision [!UICONTROL] pour les approbations uniquement</li> <li>[!UICONTROL Travail] ou version ultérieure pour tous les autres objets</li> </td> 
   </tr> </ul>
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès</strong></td> 
+   <td role="rowheader"><strong>Configurations du niveau d’accès</strong></td> 
    <td> <p>Accès à [!UICONTROL View] ou à un accès supérieur à Projects, Tasks, Issues et Documents</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +59,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Filtrez les [!UICONTROL Liste de tâches]
 

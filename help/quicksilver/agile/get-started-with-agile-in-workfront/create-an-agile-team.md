@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
-title: Créer une équipe agile
+title: Créer une équipe Agile
 description: Adobe Workfront permet aux équipes agiles d’effectuer leur travail de manière progressive et organisée.
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 0%
+source-wordcount: '1012'
+ht-degree: 3%
 
 ---
 
-# Créer une équipe agile
+# Créer une équipe Agile
 
 <!--Audited: 01/2024-->
 
@@ -27,9 +27,11 @@ Tout utilisateur de l’entreprise peut voir l’équipe agile et afficher tous 
 
 * **[!UICONTROL Kanban]:** Les équipes déplacent le travail dans la vue Kanban à travers des états prédéterminés. Les états par défaut sont les suivants : en retard, en cours de traitement et terminé. Pour plus d’informations sur la gestion d’une équipe Kanban, voir [Kanban dans une équipe agile](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,20 +40,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>Nouveau : Standard</p>
-   Actuel : 
+   Actuel : 
    <ul><li><p>[!UICONTROL Formule] pour créer une équipe agile</p></li> 
    <li><p>[!UICONTROL Travail] ou version ultérieure pour convertir une équipe en équipe agile</p></li></ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître le plan ou le type de licence dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+
++++
 
 ## Choix d’une méthodologie agile
 
@@ -88,7 +92,7 @@ Les fonctionnalités suivantes prennent en charge cette méthodologie :
 * Affichage d’un graphique de condensation pour voir la progression par rapport aux histoires lors de l’itération\
    Pour plus d’informations, voir [Présentation du graphique en décharge agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-## Créer une équipe agile
+## Créer une équipe Agile
 
 {{step1-to-team}}
 
@@ -98,7 +102,7 @@ Les fonctionnalités suivantes prennent en charge cette méthodologie :
 
    La boîte Nouvelle équipe s’affiche.
 
-1. Indiquez les informations suivantes :
+1. Indiquez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 

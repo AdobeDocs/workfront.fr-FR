@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Incorporation d’une page web externe dans un tableau de bord
+title: Intégrer une page web externe dans un tableau de bord
 description: Vous pouvez incorporer une page Web externe dans un tableau de bord pour permettre l’accès aux informations connexes provenant d’autres systèmes dans Adobe Workfront ou d’autres pages Workfront.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 0%
+source-wordcount: '1025'
+ht-degree: 6%
 
 ---
 
-# Incorporation d’une page web externe dans un tableau de bord
+# Intégrer une page web externe dans un tableau de bord
 
 <!--Audited: 01/2024-->
 
@@ -49,7 +49,9 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents Web, 
 >
 >Vous pouvez également envisager d’inclure un rapport de liste dans votre tableau de bord, en suivant la procédure décrite à la section [Ajout d’un rapport à un tableau de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -58,17 +60,17 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader"><strong>Forfait Adobe Workfront</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> <p>Actuel : formule </p>
    Ou
    <p>Nouveau : Standard </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès</strong></td> 
+   <td role="rowheader"><strong>Configurations du niveau d’accès</strong></td> 
    <td> <p>Modification de l’accès aux rapports, aux tableaux de bord et aux calendriers</p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +80,9 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -177,7 +181,7 @@ Vous pouvez afficher toutes les pages externes de Workfront dans un rapport Page
 
 1. (Facultatif) Mettez à jour les onglets Affichage, Filtres ou Groupements du rapport.
 
-   Pour plus d’informations, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Pour plus d’informations, consultez [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Cliquez sur **Enregistrer + Fermer**.
 

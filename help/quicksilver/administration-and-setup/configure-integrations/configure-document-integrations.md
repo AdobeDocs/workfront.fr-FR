@@ -1,5 +1,5 @@
 ---
-title: Configuration des intégrations de documents
+title: Configurer les intégrations de documents
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,14 +8,14 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 1%
+source-wordcount: '1117'
+ht-degree: 4%
 
 ---
 
-# Configuration des intégrations de documents
+# Configurer les intégrations de documents
 
 <!-- Audited: 12/2023 -->
 
@@ -29,7 +29,9 @@ Comme [!DNL Adobe Workfront] administrateur, vous pouvez configurer les intégra
 >
 >Pour permettre une communication ouverte entre [!DNL Workfront Proof] et la variable [!DNL Workfront] serveurs, vous devrez peut-être ajouter certaines adresses IP à votre liste autorisée. Pour plus d’informations, voir [Configuration de la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -39,7 +41,7 @@ Les étapes de cet article doivent être les suivantes :
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Quelconque</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
@@ -48,13 +50,15 @@ Les étapes de cet article doivent être les suivantes :
        <p>Actuel : formule [!UICONTROL]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Intégrations prises en charge
 
@@ -168,7 +172,7 @@ Une fois l’intégration de document personnalisé créée, vous pouvez la rend
       <td>L'URL d'API complète utilisée pour récupérer les jetons OAuth.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID client]</td> 
+      <td role="rowheader">[!UICONTROL Client ID]</td> 
       <td>Identifiant du client OAut pour cette intégration.</td> 
      </tr> 
      <tr> 

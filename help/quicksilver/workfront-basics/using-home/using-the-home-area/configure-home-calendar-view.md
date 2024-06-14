@@ -1,15 +1,15 @@
 ---
 product-area: calendars;setup
 navigation-topic: use-the-home-area
-title: Configuration des paramètres de la vue Calendrier d’accueil
+title: Configurer les paramètres d’affichage du calendrier de l’accueil
 description: Vous pouvez configurer les paramètres du calendrier d’accueil pour les intégrer à une version Web d’Outlook et vous aider à suivre votre charge de travail par rapport à vos heures de travail disponibles.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 4%
 
 ---
 
@@ -19,16 +19,18 @@ ht-degree: 0%
 
 Vous pouvez configurer la variable [!UICONTROL Calendrier d’accueil] pour effectuer les opérations suivantes :
 
-* Intégration à une version web d’ [!DNL Outlook] dans le cloud hébergé [!DNL Office 365] ou [!DNL Outlook Live]. Vous pouvez afficher tous les événements de votre calendrier Outlook et les calendriers associés que vous sélectionnez dans votre [!UICONTROL Calendrier d’accueil] dans Adobe Workfront.
+* Effectuer l’intégration à une version web d’[!DNL Outlook] dans [!DNL Office 365] hébergé dans le cloud ou [!DNL Outlook Live]. Vous pouvez afficher tous les événements de votre calendrier Outlook et les calendriers associés que vous sélectionnez dans votre [!UICONTROL Calendrier d’accueil] dans Adobe Workfront.
 * vous aider à effectuer le suivi de votre charge de travail par rapport à vos heures de travail disponibles sur la [!UICONTROL Affectation] de la barre
 
 Pour en savoir plus sur le calendrier d’accueil, voir [[!UICONTROL Calendrier d’accueil] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 Cet article décrit comment configurer les paramètres du calendrier d’accueil et intégrer le calendrier d’accueil à votre calendrier Outlook externe.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,10 +40,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> 
    Ou
    <p>Nouveau : [!UICONTROL Standard]</p> 
@@ -50,7 +52,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </tbody> 
 </table>
 
-*Pour savoir quel plan ou type de licence vous disposez, contactez votre [!DNL Workfront] administrateur. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour savoir quel plan ou type de licence vous disposez, contactez votre [!DNL Workfront] administrateur. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## A propos de l&#39;intégration [!DNL Microsoft Outlook] calendriers
 

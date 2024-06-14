@@ -7,14 +7,14 @@ description: Découvrez comment calculer les différences d’heure et de date.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 0%
+source-wordcount: '621'
+ht-degree: 8%
 
 ---
 
-# Afficher : calculer les différences d’heure et de date
+# Vue : calculer les différences d’heure et de date
 
 <!-- Audited: 1/2024 -->
 
@@ -31,26 +31,28 @@ Vous pouvez calculer la différence entre les éléments suivants :
 >
 >Ces calculs affichent le nombre de jours entre deux dates. Le résultat s’affiche en jours. L’horodatage du champ de date est également pris en compte et le nombre de jours peut être suivi de décimales si les horodatages ne correspondent pas. Si la tâche a été effectuée en retard, le nombre de jours s’affiche sous la forme d’une valeur négative.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : </p><ul><li><p>Contributeur à la modification d’une vue </p></li><li>
-   <p>Standard pour modifier un rapport</p></li></ul><p>Ou</p><p>Actuel :</p><ul><li><p>Demande de modification d’une vue </p></li><li>
+   <p>Standard pour modifier un rapport</p></li></ul><p>Ou</p><p>Actuel :</p><ul><li><p>Demande de modification d’une vue </p></li><li>
    <p>Prévoir de modifier un rapport</p> </li><ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour la modification d’un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> </td> 
   </tr>  
   <tr> 
@@ -60,7 +62,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Calcul de la différence entre l’heure et la date de deux champs de date sur le même objet
 

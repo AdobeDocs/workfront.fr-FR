@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: Gestion du journal en souffrance agile
+title: Gérer la liste d’attente agile
 description: Les tâches et les problèmes peuvent être attribués à une équipe agile et ajoutés au journal de l’équipe sous forme d’articles, selon la méthodologie agile utilisée par l’équipe.
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 0%
+source-wordcount: '1371'
+ht-degree: 4%
 
 ---
 
-# Gestion du journal en souffrance agile
+# Gérer la liste d’attente agile
 
 Les tâches suivantes peuvent être affectées à une équipe agile et ajoutées au journal de l’équipe en tant qu’articles, en fonction de la méthodologie agile utilisée par l’équipe :
 
@@ -26,9 +26,11 @@ Les tâches ou les problèmes peuvent être affectés à l’équipe (et par la 
 >
 >Si vous ajoutez plusieurs équipes à un élément de journal, la tâche ou le problème s’affiche uniquement sur le journal de l’équipe principale. L’équipe principale est la première équipe affectée.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,14 +40,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
    <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès</strong></td> 
+   <td role="rowheader"><strong>Configurations du niveau d’accès</strong></td> 
    <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Worker] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +57,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer et gérer des articles en souffrance
 
@@ -130,7 +134,7 @@ Pour créer un article à partir du journal :
 
 1. Cliquez sur **[!UICONTROL New Story]** ou **[!UICONTROL Nouveau problème]**.
 
-1. Indiquez les informations suivantes :
+1. Indiquez les informations suivantes :
 
    <table style="table-layout:auto">
     <col>

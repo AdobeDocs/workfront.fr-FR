@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Configuration des paramètres de notification électronique dans [!DNL Workfront Proof]
-description: Les notifications par e-mail générées par Workfront BAT informent les collaborateurs de l’activité récente sur les bons à tirer, comme les commentaires, les réponses ou les décisions.
+description: Les notifications électroniques générées par Workfront Proof informent les collaborateurs de l’activité récente sur les bons à tirer (commentaires, réponses ou décisions).
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ ht-degree: 0%
 Les notifications par e-mail informent les collaborateurs de l’activité récente sur les bons à tirer, comme les commentaires, les réponses ou les décisions.
 
 Vous pouvez définir des notifications par email pour les réviseurs dans les zones suivantes :
-
-## Exigences d’accès
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">Produit</td> 
-   <td>Workfront BAT autonome</td> 
-  </tr> 
-</table>
 
 Les notifications par email destinées aux réviseurs peuvent être définies sur la page Nouveau BAT, [!UICONTROL Nouvelle version] et gérés dans la variable [!UICONTROL Workflow] de la [!UICONTROL Détails du BAT] page. Pour plus d’informations, voir [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -63,9 +52,20 @@ Utilisateurs avec [!UICONTROL Administrateur] ou [!UICONTROL Administrateur de f
 
 Pour plus d’informations sur les profils, voir [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Configurer les paramètres par défaut du BAT dans les paramètres personnels ([!DNL Workfront Proof] utilisateurs uniquement)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [Modifier les alertes par email d&#39;un destinataire](#change-email-alerts-for-a-recipient)
-* [Configuration des paramètres par défaut d’un BAT pour un utilisateur](#configure-proof-defaults-for-a-user)
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Produit</td> 
+   <td>Workfront Proof autonome</td> 
+  </tr> 
+</table>
+
++++
 
 ## Configurer les paramètres par défaut du BAT dans les paramètres personnels ([!DNL Workfront Proof] utilisateurs uniquement)
 

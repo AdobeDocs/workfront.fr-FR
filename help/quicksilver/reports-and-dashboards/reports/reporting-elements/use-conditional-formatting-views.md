@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Utilisation d’une mise en forme conditionnelle dans les vues
+title: Utiliser la mise en forme conditionnelle dans les vues
 description: À mesure que vous partagez vos rapports avec d’autres utilisateurs d’Adobe Workfront, pensez à personnaliser l’affichage des rapports, à faciliter la lecture de certaines informations ou à simplement vous distinguer.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 2%
+source-wordcount: '1220'
+ht-degree: 12%
 
 ---
 
-# Utilisation d’une mise en forme conditionnelle dans les vues
+# Utiliser la mise en forme conditionnelle dans les vues
 
 <!--Audited: 01/2024-->
 
@@ -35,41 +35,45 @@ Avec une vue formatée de manière conditionnelle, vous pouvez :
 
 Les modifications que vous apportez dans la vue du rapport ne prennent effet que dans l&#39;onglet Détails du rapport. Ces modifications n’affectent pas les onglets Résumé, Matrice ou Graphique du rapport.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader"><strong>Forfait Adobe Workfront*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> <p>Nouveau :</p> 
    <ul><li>Standard pour les vues de rapport</li>
   <li> Contributeur ou version ultérieure pour les vues de liste</li></ul>
 
-<p>Actuel :</p>
+<p>Actuel :</p>
    <ul>
     <li> Planification des vues de rapport </li>
     <li> Requête ou supérieure pour les vues de liste </li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, tableaux de bord et calendriers pour modifier une vue dans un rapport</p> <p><b>NOTE</b></p> <p>Si vous n’y avez pas accès, demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux Rapports, tableaux de bord et calendriers pour modifier une vue dans un rapport</p> <p><b>NOTE</b></p> <p>Si vous n’y avez pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été définies pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gestion des autorisations pour un affichage</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gestion des autorisations pour un affichage</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Conditions préalables
 
@@ -93,7 +97,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 1. Dans le **Afficher dans cette colonne** dans le coin supérieur gauche du créateur de rapports, sélectionnez le champ à afficher dans la nouvelle colonne.
 1. Cliquez sur **Options avancées**.
 
-1. Indiquez les informations suivantes :
+1. Indiquez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,7 +118,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
     </tbody> 
    </table>
 
-1. Cliquez sur **Ajouter une règle pour cette colonne**.
+1. Cliquez sur **Ajouter une règle à cette colonne**.
 
    <!--
    <note type="note">
@@ -127,7 +131,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
    Par exemple : &quot;lorsque le pourcentage de tâche terminé est égal à (sensible à la casse) 50.&quot;
 1. Dans le **Afficher le champ comme suit :** indiquez à quoi ressemble ce champ lorsque la condition définie ci-dessus est remplie.
 
-   Indiquez les informations suivantes :
+   Indiquez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 

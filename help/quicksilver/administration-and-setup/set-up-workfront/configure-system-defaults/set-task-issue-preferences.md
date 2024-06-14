@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 0%
+source-wordcount: '2074'
+ht-degree: 2%
 
 ---
 
@@ -27,9 +27,11 @@ Comme [!DNL Adobe Workfront] administrateur, vous pouvez configurer les préfér
 Par défaut, les préférences de tâche et de problème sont verrouillées et les administrateurs de groupe ne peuvent pas les modifier au niveau du groupe, sauf si vous les déverrouillez pour tous les groupes du système. Pour plus d’informations, voir la section [Verrouillage des préférences de tâche et d’émission pour les groupes](#lock-task-and-issue-preferences-for-groups) dans cet article.
 
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Quelconque</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
@@ -46,13 +48,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <p>Actuel : formule [!UICONTROL]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configuration des préférences de tâche et de problème pour toutes les personnes de [!DNL Workfront]
 
@@ -70,7 +74,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Travailler dessus</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL Accès]](#access)
 
@@ -114,7 +118,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Lors de la conversion d’un problème en tâche]</td> 
+    <td role="rowheader" [!UICONTROL>Lors de la conversion d’un problème en tâche]</td> 
     <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion, d’un problème à l’autre :</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Conserver le problème d’origine et lier sa résolution à la tâche]</strong>: lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à [!UICONTROL Fermé] une fois la tâche terminée. Si cette option est désélectionnée, le problème est supprimé.</p> <p><b>REMARQUE</b>:  <p>Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :</p> 

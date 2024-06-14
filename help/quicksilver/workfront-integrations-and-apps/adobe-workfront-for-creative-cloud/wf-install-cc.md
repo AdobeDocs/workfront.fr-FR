@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Installation et ouverture [!DNL Adobe Workfront for design and video]
+title: Installer et ouvrir  [!DNL Adobe Workfront for design and video]
 description: Vous pouvez installer [!DNL Adobe Workfront for design and video] de l’Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 1%
+source-wordcount: '536'
+ht-degree: 7%
 
 ---
 
@@ -37,9 +37,11 @@ Vous pouvez installer [!DNL Adobe Workfront for design and video] de la [!DNL Ad
 >Il existe des instructions d’installation distinctes pour [!DNL Photoshop] et [!DNL XD]. Pour plus d’informations, voir [Installer [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) et [Installer [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+
++++
 
 ## Conditions préalables
 
@@ -78,7 +82,7 @@ Si vous êtes un [!DNL Adobe Admin Console] administrateur, vous pouvez inclure 
 
 Vous pouvez installer [!DNL Adobe Workfront for design and video] pour vous-même depuis le [!DNL Adobe Exchange].
 
-1. Accédez au [Page d’installation d’Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) sur Adobe Exchange.
+1. Accédez au [Page d’installation d’Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) sur l’Adobe Exchange.
 1. Dans la boîte de dialogue qui apparaît, cliquez sur **Ouvrir [!DNL Adobe Creative Cloud] application de bureau**.
 1. Une fois [!DNL Adobe Creative Cloud] module externe manager s’ouvre, cliquez sur **[!UICONTROL Installer]**.
 1. Lisez les informations de la boîte de dialogue, puis cliquez sur **[!UICONTROL OK]**.

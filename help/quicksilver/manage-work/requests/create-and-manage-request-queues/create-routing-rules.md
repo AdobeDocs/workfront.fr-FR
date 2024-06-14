@@ -1,21 +1,21 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Création de règles de routage
+title: Créer des règles de routage
 description: Les règles de routage contrôlent ce qu’Adobe Workfront fait avec les problèmes lorsqu’elles sont envoyées à une file d’attente de requêtes. Pour plus d’informations sur la création de files d’attente de requête, voir Création d’une file d’attente de requête.
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 0%
+source-wordcount: '522'
+ht-degree: 10%
 
 ---
 
-# Création de règles de routage
+# Créer des règles de routage
 
 <!-- Audited: 12/2023 -->
 
@@ -23,7 +23,9 @@ Les règles de routage contrôlent ce qu’Adobe Workfront fait avec les problè
 
 Les règles de routage envoient des problèmes à des utilisateurs spécifiques ou à des rôles de tâche les mieux équipés pour résoudre le problème ou la requête envoyée. Les règles de routage sont généralement associées aux rubriques de la file d’attente, qui sont utilisées pour contrôler la règle de routage qui sera appliquée au problème ou à la requête.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <!--drafted - replace the table at P&P:
 
@@ -55,25 +57,25 @@ Les règles de routage envoient des problèmes à des utilisateurs spécifiques 
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
     <p>Nouveau : Standard</p>
     <p>ou</p>
     <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Modifier l’accès aux projets</p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +85,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Création d’une règle de routage
 

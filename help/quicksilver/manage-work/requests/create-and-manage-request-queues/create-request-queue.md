@@ -1,22 +1,22 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Création d’une file d’attente de requête
+title: Créer une file d’attente des demandes
 description: Vous pouvez configurer une file d’attente de requêtes dans laquelle les utilisateurs peuvent saisir des requêtes occasionnelles qui ne sont pas planifiées pour un projet. Par exemple, une file d’attente de demandes du service d’assistance peut être configurée pour capturer toutes les demandes d’utilisateurs envoyées à un service informatique.
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2679'
-ht-degree: 2%
+source-wordcount: '2690'
+ht-degree: 5%
 
 ---
 
 
-# Création d’une file d’attente de requête
+# Créer une file d’attente des demandes
 
 <!--Audited: 12/2023-->
 
@@ -28,37 +28,41 @@ Vous pouvez configurer une file d’attente de requêtes dans laquelle les utili
 
 Cet article décrit comment créer une file d’attente de requêtes dans laquelle les utilisateurs peuvent envoyer des requêtes. Pour plus d’informations sur la manière d’envoyer une nouvelle requête à une file d’attente de requêtes, voir [Copie et envoi de requêtes](../create-requests/copy-and-submit-requests.md).
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
    <p>Nouvelle licence : Standard </p>
    Ou
    <p>Licence actuelle : formule </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p> Gestion des autorisations pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p> Gestion des autorisations pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 
 <!--old access levels: 
@@ -121,7 +125,7 @@ Cet article décrit comment créer une file d’attente de requêtes à partir d
  </tbody> 
 </table>
 
-## Création d’une file d’attente de requête
+## Créer une file d’attente des demandes
 
 Lorsque vous configurez un projet en tant que file d’attente des demandes, l’état du projet doit être Actuel pour s’afficher dans la zone Demandes de Workfront.
 
@@ -140,7 +144,7 @@ Pour créer une file d’attente de requête :
 
    ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
 
-1. Indiquez les informations suivantes :
+1. Indiquez les informations suivantes :
 
    * **Publier en tant que file d’attente de demande d’aide :** Sélectionnez cette option pour identifier ce projet en tant que file d’attente de demandes. Tous les problèmes entrants sont considérés comme des requêtes.\
      Lorsque cette option n’est pas sélectionnée, le projet se comporte comme un projet standard dans Workfront et tous les problèmes entrants sont des problèmes.

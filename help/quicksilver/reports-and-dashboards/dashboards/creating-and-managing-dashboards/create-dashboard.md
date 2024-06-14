@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Création d’un tableau de bord
+title: Créer un tableau de bord
 description: Vous pouvez créer des tableaux de bord pour accéder rapidement aux informations dans Adobe Workfront. Les rapports, les calendriers et les pages externes peuvent être ajoutés aux tableaux de bord que vous pouvez partager avec d’autres utilisateurs pour une collaboration optimale.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 0%
+source-wordcount: '486'
+ht-degree: 8%
 
 ---
 
-# Création d’un tableau de bord
+# Créer un tableau de bord
 
 <!--Audited: 01/2024-->
 
@@ -21,7 +21,9 @@ Vous pouvez créer des tableaux de bord pour accéder rapidement aux information
 
 Pour en savoir plus sur les tableaux de bord, voir [Prise en main des tableaux de bord](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -32,11 +34,11 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Formule Adobe Workfront</strong></p> </td> 
-   <td>Quelconque</td> 
+   <td> <p><strong>Forfait Adobe Workfront</strong></p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licence Adobe Workfront*</strong></p> </td> 
+   <td> <p><strong>Licence Adobe Workfront*</strong></p> </td> 
    <td> <p>Actuel : formule </p>
    Ou
    <p>Nouveau : Standard </p> </td> 
@@ -52,7 +54,9 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -64,7 +68,7 @@ Vous devez créer l’un des objets suivants avant de pouvoir les ajouter à un 
 
 Vous pouvez ajouter des pages externes existantes à un tableau de bord ou en créer une à partir du nouveau tableau de bord. Pour plus d’informations sur la création de pages externes, voir [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-## Création d’un tableau de bord
+## Créer un tableau de bord
 
 {{step1-to-dashboards}}
 

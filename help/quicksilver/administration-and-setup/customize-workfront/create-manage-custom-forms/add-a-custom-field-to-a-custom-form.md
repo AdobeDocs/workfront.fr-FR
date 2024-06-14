@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2327'
-ht-degree: 2%
+source-wordcount: '2338'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,9 @@ Pour plus d’informations sur l’ajout d’un widget de ressource à un formul
 >
 >Dans un formulaire personnalisé contenant un grand nombre de champs personnalisés ou de nombreuses options à sélection multiple dans des champs personnalisés, les utilisateurs risquent d’avoir des performances plus lentes lors de l’ajout ou de la modification de valeurs dans ces champs. Par exemple, un formulaire contenant 100 champs personnalisés ou des champs personnalisés à sélection multiple avec plus de 200 options peut être plus lent lorsque les utilisateurs interagissent avec.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Les étapes de cet article doivent être les suivantes :
 
@@ -38,24 +40,26 @@ Les étapes de cet article doivent être les suivantes :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Quelconque</td> 
+   <td role="rowheader"> <p>Forfait Adobe Workfront</p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
    <p>Nouveau : Standard</p>
    <p>ou</p>
    <p>Actuel : formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td>Accès administratif aux formulaires personnalisés </td> 
   </tr>  
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajouter un champ personnalisé à un formulaire personnalisé {#add-custom-field-to-custom-form}
 

@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Création d’un planning
+title: Créer un planning
 description: Vous pouvez définir les semaines de travail de vos utilisateurs avec des plannings. Vous pouvez associer un planning à un utilisateur ou à un projet. Cela permet [!DNL Workfront] pour calculer les chronologies et la disponibilité de l’utilisateur.
 author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 0%
+source-wordcount: '819'
+ht-degree: 5%
 
 ---
 
-# Création d’un planning
+# Créer un planning
 
 <!--Audited: 01/2024-->
 
@@ -35,9 +35,11 @@ Pour plus d’informations sur l’utilisation des plannings pour aider les util
 
 Pour plus d’informations sur l’utilisation des plannings dans la planification des ressources, voir [Présentation des planifications](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) et [Présentation de Resource Planner](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Quelconque</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
@@ -54,15 +56,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
        <p>Actuel : formule [!UICONTROL]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td>Vous devez être un [!DNL Workfront] administrateur. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Création d’un planning
++++
+
+## Créer un planning
 
 {{step-1-to-setup}}
 

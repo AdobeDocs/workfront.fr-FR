@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 0%
+source-wordcount: '1472'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 0%
 
 Une entreprise est une entité organisationnelle dans [!DNL Adobe Workfront] qui peuvent représenter votre organisation, un service au sein de l’organisation ou un client avec lequel vous travaillez. Vous pouvez ajouter des entreprises à [!DNL Workfront] et les utiliser à des fins de planification financière, de création de rapports, pour définir des autorisations liées à des objets et pour préserver la confidentialité des informations.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Pour gérer les entreprises dans , vous devez disposer des éléments suivants : [!DNL Workfront]:
 
@@ -33,10 +35,10 @@ Pour gérer les entreprises dans , vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
-   <td>Quelconque</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] licence*</p> </td> 
    <td><p>Actuel : formule [!UICONTROL]</p>
    Ou
    <p>Nouveau : [!UICONTROL Standard]</p>
@@ -61,7 +63,9 @@ Pour gérer les entreprises dans , vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Avantages de l’ajout d’utilisateurs à une entreprise {#benefits-of-adding-users-to-a-company}
 
@@ -128,7 +132,7 @@ Pour ajouter ou modifier une société :
 
    Si vous modifiez une société existante, cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
-## Gestion des appartenances à une entreprise
+## Gérer les appartenances à une entreprise
 
 Pour plus d’informations sur la gestion des adhésions pour une entreprise existante, voir [Gestion des appartenances à une entreprise](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 

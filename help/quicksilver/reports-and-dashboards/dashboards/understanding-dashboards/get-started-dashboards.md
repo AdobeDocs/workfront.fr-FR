@@ -2,25 +2,27 @@
 content-type: overview
 product-area: dashboards
 navigation-topic: understand-dashboards
-title: Prise en main des tableaux de bord
+title: Prendre en main les tableaux de bord
 description: Le tableau de bord permet d’accéder rapidement aux informations. Vous pouvez collecter des informations dans des rapports, puis les placer dans des tableaux de bord afin de faciliter leur accès.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: '693'
+ht-degree: 5%
 
 ---
 
-# Prise en main des tableaux de bord
+# Prendre en main les tableaux de bord
 
 <!-- Audited: 1/2024 -->
 
 Le tableau de bord permet d’accéder rapidement aux informations issues de plusieurs rapports. Tout d’abord, vous pouvez collecter des informations dans les rapports, puis placer plusieurs rapports sur les tableaux de bord afin de faciliter l’accès aux informations.
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -31,11 +33,11 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Formule Adobe Workfront</strong></p> </td> 
-   <td>Quelconque</td> 
+   <td> <p><strong>Forfait Adobe Workfront</strong></p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licence Adobe Workfront</strong></p> </td> 
+   <td> <p><strong>Licence Adobe Workfront</strong></p> </td> 
    <td> <p>Nouveau : contributeur ou version ultérieure</p><p>Ou</p><p>Actuel : révision ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +51,9 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Objets que vous pouvez ajouter à un tableau de bord
 

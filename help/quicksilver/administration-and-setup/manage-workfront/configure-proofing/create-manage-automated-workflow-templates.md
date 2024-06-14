@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2056'
-ht-degree: 0%
+source-wordcount: '2075'
+ht-degree: 2%
 
 ---
 
@@ -33,30 +33,34 @@ Tenez compte des points suivants lorsque vous utilisez un modèle de workflow au
 
 Pour plus d’informations sur les processus automatisés, voir [Présentation des processus automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>Nouveau : Quelconque</p><p>Actuel : Pro ou supérieur</p><p>Hérité : Premium ou Sélectionner</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td> <p>Nouveau : Standard</p><p>Actuel : travail ou plan</p> <p>Hérité : Toutes (la vérification doit être activée pour l’utilisateur)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>L’administrateur doit être sélectionné dans votre profil d’autorisation de BAT. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Création d’un modèle de processus automatisé
 
@@ -77,7 +81,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
      </tr> 
      <tr> 
       <td role="rowheader">Propriétaire du modèle</td> 
-      <td>Vous pouvez sélectionner l’administrateur Workfront ou l’administrateur Workfront BAT qui gérera le modèle.</td> 
+      <td>Vous pouvez sélectionner l’administrateur Workfront ou l’administrateur Workfront Proof qui gérera le modèle.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Groupe de modèles</td> 
@@ -131,7 +135,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
      </tr> 
      <tr> 
       <td role="rowheader">Une seule décision requise</td> 
-      <td>Le processus d'examen de l'étape sera achevé dès que l'un des décideurs aura présenté sa décision. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configuration des paramètres de BAT dans le BAT Workfront</a>.</td> 
+      <td>Le processus d'examen de l'étape sera achevé dès que l'un des décideurs aura présenté sa décision. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configuration des paramètres de BAT dans Workfront Proof</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Etape privée</td> 
@@ -148,7 +152,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
    Choisir le **Rôle** sur les BAT qui utiliseront ce modèle et le **Alertes par email** vous souhaitez que l’utilisateur reçoive lorsqu’il travaille sur des bons à tirer qui utilisent ce modèle.
 
-   Pour plus d’informations sur les rôles sur un BAT, voir [Configuration des rôles de vérification par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Pour plus d’informations sur les alertes par email de BAT, voir la section [Configuration des paramètres par défaut d’un BAT pour un utilisateur](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) dans l’article  [Configuration des paramètres de notification électronique dans le bon à tirer Workfront](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   Pour plus d’informations sur les rôles sur un BAT, voir [Configuration des rôles de vérification par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Pour plus d’informations sur les alertes par email de BAT, voir la section [Configuration des paramètres par défaut d’un BAT pour un utilisateur](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) dans l’article  [Configuration des paramètres de notification électronique dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
    Chaque utilisateur ne peut être ajouté qu’à une seule étape. Vous pouvez ajouter autant d’utilisateurs que vous le souhaitez à une étape.
 
@@ -170,7 +174,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 ## Modification d’un modèle de processus automatisé
 
-En tant qu’administrateur de BAT Workfront, vous pouvez modifier un modèle de workflow automatisé. Vos modifications sont enregistrées automatiquement au fur et à mesure que vous les apportez.
+En tant qu’administrateur Workfront Proof, vous pouvez modifier un modèle de workflow automatisé. Vos modifications sont enregistrées automatiquement au fur et à mesure que vous les apportez.
 
 {{step1-to-proofing}}
 
@@ -188,7 +192,7 @@ En tant qu’administrateur de BAT Workfront, vous pouvez modifier un modèle de
      </tr> 
      <tr> 
       <td role="rowheader">Propriétaire du modèle</td> 
-      <td>Vous pouvez sélectionner l’administrateur Workfront ou l’administrateur Workfront BAT qui gérera le modèle.</td> 
+      <td>Vous pouvez sélectionner l’administrateur Workfront ou l’administrateur Workfront Proof qui gérera le modèle.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Groupe de modèles</td> 
@@ -229,7 +233,7 @@ En tant qu’administrateur de BAT Workfront, vous pouvez modifier un modèle de
      </tr> 
      <tr> 
       <td role="rowheader">Décision</td> 
-      <td>Termine l’étape la première fois qu’un des décideurs envoie sa décision. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configuration des paramètres de BAT dans le BAT Workfront</a>.</td> 
+      <td>Termine l’étape la première fois qu’un des décideurs envoie sa décision. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configuration des paramètres de BAT dans Workfront Proof</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Privacy</td> 
@@ -241,7 +245,7 @@ En tant qu’administrateur de BAT Workfront, vous pouvez modifier un modèle de
      </tr> 
      <tr> 
       <td role="rowheader">Plus <img src="assets/more-icon.png"></td> 
-      <td>Ajoutez des réviseurs à l’étape ou supprimez l’étape.<p>Si chacun de vos bons à tirer est envoyé à la même personne au cours d’une étape spécifique, vous pouvez spécifier son nom ici afin de ne pas avoir à les ajouter chaque fois que vous créez un bon à tirer. Saisissez et sélectionnez le nom d’un utilisateur que vous souhaitez ajouter à l’étape, puis ajoutez-lui la valeur <strong>Rôle</strong> sur le BAT et <strong>Alertes par email</strong> paramètres que vous souhaitez pour l’utilisateur. Pour plus d’informations sur la vérification des rôles, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configuration des rôles de vérification par défaut</a>. Pour plus d’informations sur les alertes par email de BAT, voir la section <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Configuration des paramètres par défaut d’un BAT pour un utilisateur</a> dans l’article <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configuration des paramètres de notification électronique dans le bon à tirer Workfront</a>.</p><p>Vous pouvez ajouter autant d’utilisateurs que vous le souhaitez à une étape.</p><p>Conseil : Vous pouvez faire glisser et déposer les noms des réviseurs entre les étapes du diagramme des étapes. Les étapes disponibles sont mises en surbrillance en bleu.</p></td> 
+      <td>Ajoutez des réviseurs à l’étape ou supprimez l’étape.<p>Si chacun de vos bons à tirer est envoyé à la même personne au cours d’une étape spécifique, vous pouvez spécifier son nom ici afin de ne pas avoir à les ajouter chaque fois que vous créez un bon à tirer. Saisissez et sélectionnez le nom d’un utilisateur que vous souhaitez ajouter à l’étape, puis ajoutez-lui la valeur <strong>Rôle</strong> sur le BAT et <strong>Alertes par email</strong> paramètres que vous souhaitez pour l’utilisateur. Pour plus d’informations sur la vérification des rôles, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configuration des rôles de vérification par défaut</a>. Pour plus d’informations sur les alertes par email de BAT, voir la section <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Configuration des paramètres par défaut d’un BAT pour un utilisateur</a> dans l’article <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configuration des paramètres de notification électronique dans Workfront Proof</a>.</p><p>Vous pouvez ajouter autant d’utilisateurs que vous le souhaitez à une étape.</p><p>Conseil : Vous pouvez faire glisser et déposer les noms des réviseurs entre les étapes du diagramme des étapes. Les étapes disponibles sont mises en surbrillance en bleu.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -272,7 +276,7 @@ Vous pouvez déplacer les modèles entre les groupes en les faisant glisser et e
 
 {{step1-to-proofing}}
 
-1. Dans le panneau de gauche du BAT Workfront, cliquez sur **Workflows**.
+1. Dans le panneau de gauche de Workfront Proof, cliquez sur **Workflows**.
 1. Sur le **Workflows** qui s’affiche, effectuez l’une des opérations suivantes :
 
    * Ajouter un nouveau modèle

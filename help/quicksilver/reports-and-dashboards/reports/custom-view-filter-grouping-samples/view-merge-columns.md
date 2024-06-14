@@ -7,34 +7,36 @@ description: Vous pouvez fusionner les informations qui s’affichent dans plusi
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 0%
+source-wordcount: '1014'
+ht-degree: 5%
 
 ---
 
-# Vue : fusionner les informations de plusieurs colonnes dans une seule colonne partagée
+# Vue : fusionner les informations de plusieurs colonnes dans une colonne partagée
 
 <!-- Audited: 1/2024 -->
 
 Vous pouvez fusionner les informations qui s’affichent dans plusieurs colonnes distinctes et les afficher dans une seule colonne partagée.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p> Actuel : 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p> Actuel : 
    <ul>
    <li>Demande de modification d’une vue</li> 
    <li>Prévoir de modifier un rapport</li>
@@ -49,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour la modification d’un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +61,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Remarques concernant le partage ou la fusion de colonnes
 

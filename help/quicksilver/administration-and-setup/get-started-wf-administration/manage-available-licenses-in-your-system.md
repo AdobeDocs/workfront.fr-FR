@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1198'
 ht-degree: 4%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 4%
 En tant qu’administrateur Adobe Workfront, vous pouvez accéder aux informations sur votre compte Workfront, y compris le nombre de licences achetées pour votre entreprise, ainsi que le nombre de licences en cours d’utilisation.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -64,6 +66,8 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 >1. Les administrateurs système peuvent ajouter des groupes d’accueil à la page Licences pour afficher l’utilisation des licences de ces groupes, et ils peuvent également définir des limites de licence.
 >2. Les administrateurs de groupe peuvent accéder à la page Licences et afficher l’utilisation des licences dans les groupes qu’ils gèrent et qui ont été ajoutées à la page Licences par les administrateurs système.
 >3. Les administrateurs de groupe ne peuvent pas afficher d’informations pour d’autres groupes d’accueil ni ajouter de maximums.
+
++++
 
 ## Affichage des licences de votre entreprise
 

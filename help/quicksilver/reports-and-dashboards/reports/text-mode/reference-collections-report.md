@@ -1,52 +1,56 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Collections de référence dans un rapport
-description: Collections de référence dans un rapport
+title: Référencer des collections dans un rapport
+description: Référencer des collections dans un rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2587'
-ht-degree: 0%
+source-wordcount: '2598'
+ht-degree: 3%
 
 ---
 
-# Collections de référence dans un rapport
+# Référencer des collections dans un rapport
 
 La création d&#39;un rapport dans Adobe Workfront permet d&#39;afficher un ensemble d&#39;objets, leurs champs respectifs ou les objets liés sous la forme d&#39;une liste, d&#39;une grille ou d&#39;un graphique.
 
 Pour plus d’informations sur la création d’un rapport dans Workfront, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations d’un rapport</p> <p>Gestion des autorisations d’un affichage, d’un filtre ou d’un regroupement </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gestion des autorisations d’un rapport</p> <p>Gestion des autorisations d’un affichage, d’un filtre ou d’un regroupement </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
++++
 
 ## Présentation des collections
 
@@ -70,7 +74,7 @@ Pour plus d’informations sur la création d’un rapport à l’aide de l’in
 
 * [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Présentation des utilisations courantes du mode Texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
-* [Présentation de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Vue d’ensemble de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 
 ## Recherche d’objets de collection et de leurs champs dans l’explorateur d’API {#find-collection-objects-and-their-fields-in-the-api-explorer}
 
@@ -419,7 +423,7 @@ Pour ajouter une référence à une collection dans l’invite personnalisée d�
 
    >[!NOTE]
    >
-   Notez que vous devez utiliser **Problèmes** pour le nom de l’objet de collection. Pour l’instant, l’explorateur d’API ne propose pas de nom d’objet de collection pour les problèmes.
+   >Notez que vous devez utiliser **Problèmes** pour le nom de l’objet de collection. Pour l’instant, l’explorateur d’API ne propose pas de nom d’objet de collection pour les problèmes.
 
 1. Cliquez sur **Terminé**.
 1. (Facultatif) Poursuivez la modification du rapport.

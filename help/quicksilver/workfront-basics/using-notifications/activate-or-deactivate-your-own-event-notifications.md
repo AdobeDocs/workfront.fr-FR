@@ -2,19 +2,19 @@
 product-area: setup
 navigation-topic: notifications
 keywords: modify,email,notification,settings
-title: Modifier vos propres notifications électroniques
+title: Modifier vos propres notifications par e-mail
 description: Cet article décrit comment gérer vos notifications électroniques dans votre profil utilisateur.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 0%
+source-wordcount: '620'
+ht-degree: 7%
 
 ---
 
-# Modifier vos propres notifications électroniques
+# Modifier vos propres notifications par e-mail
 
 <!-- Audited: 1/2024 -->
 
@@ -32,9 +32,11 @@ Pour plus d’informations sur les notifications électroniques, voir [[!DNL Ado
 >* La variable [!DNL Workfront] un administrateur ou un administrateur de groupe ne peut pas configurer de notifications pour [!DNL Workfront Goals]. Pour plus d’informations sur les notifications de la variable [!DNL Workfront] l’administrateur peut configurer, voir [Configuration des notifications d’événement pour tous les membres du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Pour plus d’informations sur la configuration de notifications individuelles pour [!DNL Workfront Goals] continuez à lire cet article.
 >
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,20 +46,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
    <td>  <p>Nouveau :</p> 
    <ul><li>Contributeur ou version ultérieure</li></ul>
-   <p>Actuel :</p>
+   <p>Actuel :</p>
    <ul><li>Requête ou supérieure</li></ul>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Afficher et modifier vos paramètres de notification électronique
 

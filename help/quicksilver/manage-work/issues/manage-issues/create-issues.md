@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Création de problèmes
+title: Créer les problèmes
 description: Lorsque vous travaillez sur un projet, vous pouvez découvrir que des événements inattendus se produisent. Vous pouvez consigner ces événements inattendus comme des problèmes pour un projet particulier ou pour une tâche. Les utilisateurs disposant de l’accès approprié peuvent afficher et surveiller l’état des problèmes au fur et à mesure que le projet ou la tâche se termine, éliminant ainsi la nécessité de longues chaînes de messagerie ou de réunions d’état. Contrairement aux tâches, qui sont des événements planifiés, les problèmes représentent des tâches non planifiées dans Adobe Workfront.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 0%
+source-wordcount: '1533'
+ht-degree: 2%
 
 ---
 
-# Création de problèmes
+# Créer les problèmes
 
 <!--
 
@@ -35,24 +35,26 @@ Vous pouvez également ajouter des problèmes aux projets en tant que requêtes.
 >
 >Les problèmes et les requêtes sont interchangeables dans Workfront. Vous pouvez enregistrer les problèmes sur les projets et les tâches pour indiquer les travaux imprévus qui doivent être résolus. Vous pouvez également envoyer des requêtes qui sont enregistrées en tant que problèmes sur un projet désigné comme file d’attente de requêtes.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Révision ou version ultérieure pour ajouter des problèmes à un projet ou à une tâche</p> <p>Demandez à ou à une version ultérieure d’ajouter des problèmes en tant que requêtes à l’aide d’une file d’attente de requêtes.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur à Projets et tâches</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur l’accès aux problèmes de votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a>. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +64,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
++++
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
@@ -196,7 +200,7 @@ La boîte Nouveau numéro s’affiche.
 
    Pour plus d’informations, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Cliquez sur **Envoyer**.
+1. Cliquez sur **Soumettre**.
 
    Les problèmes peuvent être affectés à plusieurs utilisateurs, rôles de tâche ou à une équipe. Pour plus d’informations sur l’affectation et la gestion des requêtes, voir [Gérer les requêtes de travail et d’équipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 

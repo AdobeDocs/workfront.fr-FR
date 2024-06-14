@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Convertir un problème en projet dans Adobe Workfront
-description: Convertir un problème en projet dans Adobe Workfront
+title: Convertir un problème en projet dans Adobe Workfront
+description: Convertir un problème en projet dans Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b091b62d3afe822c92f96641332077b5a211ee58
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1969'
-ht-degree: 0%
+source-wordcount: '1980'
+ht-degree: 4%
 
 ---
 
-# Convertir un problème en projet dans Adobe Workfront
+# Convertir un problème en projet dans Adobe Workfront
 
 <!--Audited: 01/2024-->
 
@@ -27,26 +27,28 @@ Vous pouvez convertir un problème en nouveau projet ou en projet à l’aide d�
 
 Lors de la création d’un projet à partir d’un problème, certains champs du projet sont renseignés à partir d’autres objets. Pour plus d’informations, voir la section &quot;Paramètres par défaut du nouveau projet&quot; dans l’article . [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
    <p>Nouveau : Standard </p> 
     <p>Actuel : formule </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modification de l’accès aux problèmes, tâches et projets</p> <p>Modifier l’accès aux données financières pour mettre à jour les informations financières pour une conversion anticipée du problème</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +58,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Convertir un problème en projet
 

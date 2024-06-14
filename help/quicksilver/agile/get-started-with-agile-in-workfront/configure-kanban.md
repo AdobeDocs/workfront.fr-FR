@@ -6,14 +6,16 @@ description: Vous créez une équipe agile Kanban ou Scrum dans [!DNL Adobe Work
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 0%
+source-wordcount: '1487'
+ht-degree: 2%
 
 ---
 
 # Configurer [!UICONTROL Kanban]
+
+<!--Audited: 12/2023-->
 
 Vous pouvez créer une équipe agile dans [!DNL Adobe Workfront] comme décrit dans [Créer une équipe agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Lors de la création d’une équipe agile, vous pouvez choisir la méthodologie que l’équipe utilise pour terminer son travail. Vous pouvez choisir parmi les options suivantes :
 
@@ -31,11 +33,11 @@ Cet article décrit comment configurer les paramètres d’une équipe Kanban. A
 
 Pour plus d’informations sur la configuration d’une équipe Scrum, voir [Configuration de Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-<!--Audited: 12/2023-->
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,12 +46,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>Nouveau : [!UICONTROL Standard]</p> 
    ou
    <p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td> 
@@ -64,6 +66,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 *Pour savoir quel plan ou type de licence vous disposez, contactez votre [!DNL Workfront] administrateur.
+
++++
 
 ## Configurer l’estimation des articles en points ou en heures
 

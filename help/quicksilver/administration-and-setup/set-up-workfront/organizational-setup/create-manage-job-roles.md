@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Création et gestion des rôles de tâche
+title: Créer et gérer des fonctions
 description: Comme [!DNL Adobe Workfront] administrateur ou utilisateur disposant d’un accès administratif aux rôles de tâche, vous pouvez créer des rôles de tâche qui peuvent être attribués à des utilisateurs et supprimer les rôles de tâche par défaut qui ne sont pas pertinents pour votre organisation.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 32441df90b915077f57ead791116dcbd32c9557a
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 0%
+source-wordcount: '1151'
+ht-degree: 1%
 
 ---
 
-# Création et gestion des rôles de tâche
+# Créer et gérer des fonctions
 
 <!-- Audited: 1/2024 -->
 
@@ -23,7 +23,9 @@ ht-degree: 0%
 
 Comme [!DNL Adobe Workfront] administrateur ou utilisateur disposant d’un accès administratif aux rôles de tâche, vous pouvez créer des rôles de tâche qui peuvent être attribués à des utilisateurs et supprimer les rôles de tâche par défaut qui ne sont pas pertinents pour votre organisation. Pour plus d’informations sur l’accès administrateur dans [!DNL Workfront], voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-## Exigences d’accès
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -33,7 +35,7 @@ Vous devez disposer des éléments suivants :
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
@@ -42,13 +44,15 @@ Vous devez disposer des éléments suivants :
    <p>Actuel : formule [!UICONTROL]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Accès administratif aux rôles de tâche</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+
++++
 
 ## Création d’un rôle de tâche
 
@@ -82,7 +86,7 @@ Pour créer un rôle de tâche :
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Devise de base]</span> </td> 
-      <td> <p><span>Il s’agit de la [!UICONTROL Devise de base], telle que définie dans la zone [!UICONTROL Configuration] par votre administrateur Workfront. Pour plus d’informations, voir</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer les taux de change</a> .</p> <p>Conseil : <span>Vous ne pouvez pas modifier la [!UICONTROL Devise de base] au niveau du rôle de tâche. Ce champ est grisé et sert de rappel de la devise de base de votre système.</span> </p> </td> 
+      <td> <p><span>Il s’agit de la [!UICONTROL Devise de base], telle que définie dans la zone [!UICONTROL Configuration] par votre administrateur Workfront. Pour plus d’informations, voir</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configuration des taux d’exchange</a> .</p> <p>Conseil : <span>Vous ne pouvez pas modifier la [!UICONTROL Devise de base] au niveau du rôle de tâche. Ce champ est grisé et sert de rappel de la devise de base de votre système.</span> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Cost Rate]</td> 
@@ -98,8 +102,8 @@ Pour créer un rôle de tâche :
       <td>
         <p>Sélectionnez une devise associée à ce rôle de tâche. Il s’agit de la devise qui [!DNL Workfront] utilise pour calculer les coûts et les recettes associés à ce rôle de tâche. </p> 
         <p><span>Différent de la [!UICONTROL Devise de base] configurée par votre [!DNL Workfront] dans la zone [!UICONTROL Configuration] et peut être différent de la devise associée à un projet.</span> </p> 
-        <p>Conseil : Seules les devises disponibles dans la zone [!UICONTROL Taux de change] de votre système sont disponibles dans ce champ. Si une seule devise est configurée, ce champ n’apparaît pas.</p> 
-       <p><span>Pour plus d’informations sur la configuration de la [!UICONTROL Devise de base] dans [!DNL Workfront], voir</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer les taux de change</a>.</p> <p><span>Pour plus d’informations sur la modification de la devise d’un projet, voir</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Modification de la devise du projet</a>.</p> </td> 
+        <p>Conseil : Seules les devises disponibles dans la zone [!UICONTROL Taux d’Exchange] de votre système sont disponibles dans ce champ. Si une seule devise est configurée, ce champ n’apparaît pas.</p> 
+       <p><span>Pour plus d’informations sur la configuration de la [!UICONTROL Devise de base] dans [!DNL Workfront], voir</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configuration des taux d’exchange</a>.</p> <p><span>Pour plus d’informations sur la modification de la devise d’un projet, voir</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Modification de la devise du projet</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Remplacement du taux de coût de la devise]</span> </td> 
