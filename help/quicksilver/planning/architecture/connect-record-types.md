@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2268'
 ht-degree: 2%
 
 ---
@@ -212,6 +212,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * **Description**: informations supplémentaires sur le champ d’enregistrement connecté. La description d’un champ s’affiche lorsque vous placez le pointeur de la souris sur la colonne du champ dans un tableau.
    * **Autoriser plusieurs enregistrements**: sélectionnez cette option pour indiquer que vous autorisez les utilisateurs à ajouter plusieurs enregistrements lorsque le champ de type d’enregistrement associé s’affiche sur les enregistrements originaux. Cette option est sélectionnée par défaut.
    * **Sélectionner les champs de recherche**: sélectionnez cette option pour ajouter des champs à partir du type d’enregistrement sélectionné. Les champs de recherche sont des champs associés à l’enregistrement ou au type d’objet auquel vous créez un lien. Leur liaison affiche des informations sur l’enregistrement ou l’objet auquel vous créez un lien dans l’enregistrement que vous souhaitez. Cette option est sélectionnée par défaut.
+
+     >[!TIP]
+     >
+     > Vous ne pouvez pas ajouter les types de champ suivants comme champs de recherche :
+     >
+     >    * Personnes
+     >    * Créé par
+     >    * Dernière modification par
+     >    * Champs de saisie anticipée Workfront
 
 1. (Conditionnel et facultatif) Si vous avez choisi de connecter un objet Workfront, sélectionnez une **Formulaire personnalisé** de la **Lier uniquement les objets correspondant à ces critères** . Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être associés au type d’enregistrement sélectionné. Vous pouvez sélectionner plusieurs formulaires.
 

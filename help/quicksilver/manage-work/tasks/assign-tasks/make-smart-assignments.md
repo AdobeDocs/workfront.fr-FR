@@ -6,14 +6,16 @@ description: Vous pouvez utiliser des affectations intelligentes pour identifier
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 10%
+source-wordcount: '620'
+ht-degree: 9%
 
 ---
 
 # Créer des affectations intelligentes
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
 
@@ -25,7 +27,7 @@ Vous pouvez utiliser des affectations intelligentes pour identifier le meilleur 
 
 Les affectations intelligentes sont des suggestions destinées aux utilisateurs, aux rôles ou aux équipes qu’Adobe Workfront vous présente lorsque vous affectez des tâches à des ressources. Workfront base ses suggestions sur un algorithme qui détermine la ressource la plus appropriée pour la tâche.
 
-<span class="preview">Il existe deux algorithmes distincts dans Workfront pour les tâches et les problèmes. </span>
+<span class="preview">Il existe deux algorithmes distincts dans Workfront qui calculent les affectations intelligentes qui fonctionnent différemment pour les tâches et pour les problèmes. </span>
 
 Pour plus d’informations sur les critères utilisés pour déterminer les affectations intelligentes, voir [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -73,20 +75,20 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    * Le champ Affectations pour un élément répertorié dans la zone Accueil
    * Tâche ou problème dans l’équilibreur de charge de travail
 
-1. Placez le curseur dans le champ d’affectation et attendez deux secondes.
+1. Placez le curseur dans le champ Affectations et attendez deux secondes.
 
    <div class="preview">
    Une ou plusieurs des sections suivantes contenant des suggestions d’affectation dynamique s’affichent :
 
-   * **Affectations proposées**: s’affiche pour les tâches.
+   * **Affectations proposées**: s’affiche pour les tâches. <!--remove the note when we go to production with smarter assignments-->
 
      >[!TIP]
      >
      >   L’en-tête de liste s’affiche. **Voici quelques recommandations :** au lieu de **Affectations proposées** dans l’environnement de production.
      >
-   * **Autres affectations**: s’affiche pour les tâches et les problèmes.
    * **Utilisateurs et équipes**: s’affiche pour les tâches et les problèmes.
    * **Rôles de tâche**: s’affiche pour les tâches et les problèmes.
+   * **Rôles de tâche de carte de taux**: s’affiche pour les tâches. Pour plus d’informations, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
    </div>
 
    <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
@@ -95,7 +97,7 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    Pour les tâches, les affectations intelligentes s’affichent dans les sections suivantes, selon la phase du calcul de l’algorithme qui a identifié les affectations :
 
    * **Affectations proposées**: affectations identifiées dans la première phase du calcul de l’algorithme de l’affectation dynamique de tâche. <span class="preview">Cette section n’est pas disponible pour les problèmes.</span>
-   * <span class="preview">**Autres affectations**, **Utilisateurs et équipes**, ou **Rôles de tâche**: affectations identifiées dans la seconde phase du calcul de l’algorithme de l’affectation dynamique de tâche. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Utilisateurs et équipes**, **Rôles de tâche**, ou **Rôles de tâche de carte de taux**: affectations identifiées dans la seconde phase du calcul de l’algorithme de l’affectation dynamique de tâche. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 

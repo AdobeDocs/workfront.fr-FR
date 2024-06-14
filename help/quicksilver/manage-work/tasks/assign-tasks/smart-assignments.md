@@ -7,14 +7,16 @@ description: Lors de la gestion des tâches et des affectations de problèmes, v
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 # Vue d’ensemble des affectations intelligentes
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
 
@@ -122,7 +124,7 @@ Le calcul du score de similarité et l’ordre dans lequel les affectations sont
 
   Par exemple, si Rick a été affecté à une tâche similaire plus tôt aujourd’hui et que Jennifer a été affectée à une tâche similaire il y a deux jours, Rick s’affiche en premier.
 
-* Les affectations identifiées dans cette phase sont répertoriées dans la section    **Affectations proposées**  section du champ Affectations des tâches.
+* Les affectations identifiées dans cette phase sont répertoriées dans la section    **Affectations proposées**  section du champ Affectations pour les tâches.
 
 * S’il n’existe aucune correspondance utilisant ce calcul, la deuxième phase des affectations intelligentes commence, qui est calculée à l’aide d’un autre algorithme.
 
@@ -132,7 +134,7 @@ Si la première étape des affectations intelligentes de tâche n’a trouvé au
 
 Pour plus d’informations, voir la section [Critères d’attribution intelligente des tâches et des problèmes](#smart-assignments-criteria-for-tasks-and-issues) dans cet article.
 
-Les affectations identifiées dans cette phase sont répertoriées dans la section   **Autres affectations**, **Utilisateurs et équipes**, ou **Affectations de rôle**  des sections du champ Affectations pour les tâches.
+Les affectations identifiées dans cette phase sont répertoriées dans la section **Utilisateurs et équipes**, **Affectations de rôle**, et **Rôles de carte de taux**  des sections du champ Affectations . Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Critères d’attribution intelligente des tâches et des problèmes
 

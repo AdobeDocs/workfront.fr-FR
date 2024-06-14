@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 7%
 
 ---
 
 # Attribuer les problèmes
+
+<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
 
@@ -130,7 +132,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
      <span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
      <span class="preview">![Recherche d’affectations](assets/smart-assignments-issue-header.png)</span>
 
-   * (Conditionnel) Cliquez sur l’un des noms de la section **Suggestions d’affectation** list
+   * (Conditionnel) Cliquez sur l’un des noms, rôles ou équipes dans les listes disponibles.
    * Cliquez sur **M&#39;affecter** pour l’affecter à vous-même
    * Cliquez sur **Avancé**.
 
@@ -143,6 +145,10 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
      >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
      >
      >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >
+
+     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
 1. Cliquez sur **Enregistrer** pour terminer l’attribution du problème.
