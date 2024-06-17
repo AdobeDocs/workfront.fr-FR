@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -28,15 +28,20 @@ La promotion d’environnement vous permet de déplacer des objets d’un enviro
 
 Auparavant, les objets devaient être configurés dans les environnements de production indépendamment des environnements de test ou d’aperçu.
 
-Des informations supplémentaires et des instructions relatives à la promotion de l’environnement seront disponibles lorsque la promotion de l’environnement sera activée avec la version 24.6.
+Pour plus d’informations sur la promotion de l’environnement, voir [Présentation du déplacement d’objets entre les environnements Workfront (promotion d’environnement)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
+>[!IMPORTANT]
+>
+>La promotion de l’environnement n’est disponible que pour les organisations utilisant les nouveaux plans Prime ou Ultimate.
+>
 
 ## Partage de formulaires et de champs personnalisés dans le concepteur de formulaires personnalisés
 
 >[!NOTE]
 >
->Version d’aperçu : 6 juin 2024 ; Version de production pour tous les clients : à déterminer
+>Version d’aperçu : 6 juin 2024 ; version de production pour tous les clients : 13 juin
 
 Vous pouvez désormais partager des formulaires personnalisés et des champs personnalisés dans le nouveau concepteur de formulaires. Cela permet une plus grande collaboration entre les utilisateurs sur les formulaires personnalisés.
 
