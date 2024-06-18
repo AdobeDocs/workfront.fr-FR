@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -330,17 +330,17 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
 
    Le fichier de démarrage rapide exporté est téléchargé sur votre ordinateur sous la forme d’un fichier Excel ou d’un fichier . fichier zip contenant plusieurs fichiers Excel et de propriétés. Chaque fichier Excel est un ensemble de feuilles, où chaque feuille représente un champ associé à l’objet sélectionné. Il existe une **Propriétés** feuille associée à chaque export.
 
-   La variable **Tableau de bord** et **Rapport** Les options vous permettent de sélectionner des tableaux de bord et des rapports spécifiques à inclure dans le téléchargement. Vous ne pouvez exporter que les tableaux de bord qui sont partagés à l’échelle du système.
+   La variable **Tableau de bord** et **Rapport** Les options vous permettent de sélectionner des tableaux de bord et des rapports spécifiques à inclure dans le téléchargement. Vous ne pouvez exporter que les tableaux de bord, qui sont partagés à l’échelle du système.
 
    Vous ne pouvez pas exporter de rapports de matrice. Pour plus d’informations sur les rapports de matrice, voir [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+
+   Le démarrage rapide ne prend pas en charge les filtres en mode texte. Pour réussir l’exportation, les filtres de création de rapports doivent être basculés en mode standard.
 
    Vous pouvez sélectionner jusqu’à 100 tableaux de bord et 100 rapports dans un seul export.
 
    ![](assets/kickstart-export-350x381.png)
 
    Vous pouvez exporter plusieurs objets simultanément.
-
-
 
 1. (Recommandé) Analysez les données exportées pour vous assurer que toutes les informations que vous attendez à voir ont été exportées.
 
