@@ -1,7 +1,7 @@
 ---
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2411'
 ht-degree: 4%
 
 ---
@@ -256,7 +256,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
    * **Mes espaces de travail**: affiche les espaces de travail que vous avez créés.
    * **Autres espaces de travail**: affiche tous les espaces de travail de la planification Workfront, y compris ceux partagés avec vous.
 
-   Pour tous les autres utilisateurs, tous les espaces de travail qu’ils ont créés ou qu’ils partagent avec eux s’affichent dans la variable **Espaces de travail** zone.
+   Pour tous les autres utilisateurs, tous les espaces de travail que vous avez créés ou que vous partagez avec vous s’affichent dans la variable **Espaces de travail** zone.
 
 ## Intro important de la planification Workfront - {#planning-important-intro}
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2404'
 ht-degree: 2%
 
 ---
@@ -151,11 +151,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
      Par exemple, si vous connectez le type d’enregistrement &quot;Campagne&quot; au type d’enregistrement &quot;Produit&quot;, un champ d’enregistrement lié que vous nommez &quot;Produit lié&quot; est créé sur le type d’enregistrement Campaign et un type d’enregistrement lié automatiquement nommé &quot;Campagne&quot; est créé sur le type d’enregistrement Produit .
 
-   * **Lorsque vous connectez un type d’enregistrement à un type d’objet d’une autre application**: un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Aucun champ d’enregistrement lié n’est automatiquement créé sur le type d’objet de l’autre application.
+   * **Lorsque vous connectez un type d’enregistrement à un type d’objet d’une autre application**:
 
-     Un nouveau type d’enregistrement en lecture seule de la planification Workfront est créé pour l’objet de l’autre application uniquement lorsque les objets réels sont connectés aux enregistrements de la planification Workfront.
+      * Un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Aucun champ d’enregistrement lié n’est automatiquement créé sur le type d’objet de l’autre application.
 
-     Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/planning/records/connect-records.md).
+      * Un nouveau type d’enregistrement en lecture seule de la planification Workfront est créé pour l’objet de l’autre application uniquement lorsque les objets réels sont connectés aux enregistrements de la planification Workfront.
+
+        Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/planning/records/connect-records.md).
+
+      * La planification des enregistrements ou de leurs champs n’est pas accessible à partir de Workfront.
+      * La planification des enregistrements et de leurs champs est accessible à partir de Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
    * **Lorsque vous ajoutez des champs de recherche de l’enregistrement ou de l’objet auquel vous vous connectez.**: vous pouvez connecter des champs de l’objet de l’autre application au type d’enregistrement de la planification Workfront. Il s’agit de champs liés ou de recherche. Les champs liés affichent automatiquement les informations des enregistrements ou des objets connectés lorsque vous connectez les enregistrements ou les objets. Les champs de recherche liés sont toujours en lecture seule et renseignent automatiquement les valeurs des enregistrements ou objets connectés.
 
@@ -167,7 +172,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Les champs d’enregistrement liés sont précédés d’une icône de relation ![](assets/relationship-field-icon.png).
 
-  Les champs liés sont précédés d’une icône qui identifie le type de champ. Par exemple, des icônes qui indiquent qu’un champ est un nombre, un paragraphe ou une date.
+  Les champs liés sont précédés d’une icône qui identifie le type de champ. Par exemple, les champs liés (ou recherche) sont précédés d’icônes indiquant qu’un champ est un nombre, un paragraphe ou une date.
+
 
 ## Connecter des types d’enregistrements
 
@@ -220,7 +226,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      >    * Personnes
      >    * Créé par
      >    * Dernière modification par
-     >    * Champs de saisie anticipée Workfront
+     >    * Champs de saisie anticipée Workfront (y compris les champs tels que Propriétaire du projet ou Parrain du projet)
 
 1. (Conditionnel et facultatif) Si vous avez choisi de connecter un objet Workfront, sélectionnez une **Formulaire personnalisé** de la **Lier uniquement les objets correspondant à ces critères** . Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être associés au type d’enregistrement sélectionné. Vous pouvez sélectionner plusieurs formulaires.
 
@@ -235,6 +241,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
+
+   >[!NOTE]
+   >
+   >Votre administrateur Workfront peut mapper les champs de planification Workfront aux champs Experience Manager Assets par le biais du mappage des métadonnées dans Workfront. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
+
+    >[!TIP]
+    >
+    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
+    >
+    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+-->
 
 1. Cliquez sur **Créer**.
 
@@ -258,6 +279,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. (Facultatif) Cliquez sur **Ignorer** et n’ajoutez aucun champ de l’enregistrement ou de l’objet lié. La variable **Nom** de l’enregistrement lié est le seul champ visible dans la vue de table de l’enregistrement d’origine.
 
 1. (Facultatif et conditionnel) Si vous choisissez de lier un champ de type nombre, devise, pourcentage ou date, sélectionnez également une valeur d’agrégateur. Les valeurs des champs liés s&#39;affichent soit séparés par des virgules, soit sous la forme d&#39;une valeur agrégée selon l&#39;agrégateur que vous choisissez, lorsque les utilisateurs sélectionnent plusieurs enregistrements liés dans le champ d&#39;enregistrement lié.
+
+   >[!IMPORTANT]
+   >
+   >    Vous devez sélectionner une valeur d’agrégateur lors de l’ajout de champs de date, si vous souhaitez que les champs soient disponibles à ajouter en tant que dates de début et de fin pour les vues de chronologie et de calendrier.
+
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 

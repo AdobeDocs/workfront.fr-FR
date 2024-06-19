@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2573'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
    <td> <p>Gérer les autorisations d’un espace de travail pour connecter des enregistrements </p>  
-   <p>Afficher ou des autorisations supérieures à un espace de travail pour afficher toutes les connexions aux objets et aux champs d’autres applications, quel que soit votre accès dans une autre application. </p>
+   <p>Afficher ou des autorisations supérieures à un espace de travail pour afficher toutes les connexions aux objets et aux champs d’autres applications, quel que soit votre accès dans l’autre application. </p>
+   <p>Afficher ou des autorisations supérieures aux objets que vous souhaitez lier à partir de Workfront ou Experience Manager Assets. </p>
    <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
@@ -129,28 +130,41 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Une fois que vous avez connecté les types d’enregistrement, les types d’enregistrement connectés s’affichent sous forme de champs d’enregistrement liés dans la table des types d’enregistrement à partir desquels ils sont liés et sur les pages des enregistrements.
 * Vous pouvez parcourir et ajouter des enregistrements et des objets de l’enregistrement et des types d’objets liés à partir des champs d’enregistrement liés.
-* Vous pouvez ajouter des champs des types d’enregistrement liés à la table du type d’enregistrement à partir duquel vous effectuez la liaison.
-* Vous ne pouvez pas mettre à jour manuellement les valeurs des champs liés sur les enregistrements à partir desquels vous effectuez la liaison.
+* Vous pouvez ajouter des champs (champs de recherche) des types d&#39;enregistrements liés dans la table du type d&#39;enregistrement à partir duquel vous effectuez la liaison.
 
-  Les valeurs des champs liés des enregistrements liés renseignent l’enregistrement Workfront Planning à partir duquel vous effectuez une liaison automatique à partir de l’enregistrement ou de l’objet d’origine.
+  Vous pouvez ajouter des champs (champs de recherche) des types d’enregistrement que vous associez dans la table du type d’enregistrement auquel vous associez.
+
+  Par exemple, si vous liez le type d’enregistrement Produit du type d’enregistrement Campagne , vous pouvez afficher les champs Produit pour les campagnes, ainsi que les champs Campagne pour les produits.
+* Vous ne pouvez pas mettre à jour manuellement les valeurs des champs de recherche dans les enregistrements à partir desquels vous créez une liaison.
+
+  Les valeurs des champs de recherche des enregistrements liés renseignent l’enregistrement de planification Workfront à partir duquel vous créez une liaison automatique à partir de l’enregistrement ou de l’objet d’origine.
 
 * Toute personne ayant accès à Workfront Planning et View ou à des autorisations supérieures de l&#39;espace de travail peut voir les connexions que vous effectuez entre des enregistrements ou entre des enregistrements et des objets d&#39;autres applications. Ils peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
 * Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs, si vous disposez des autorisations de gestion de l’espace de travail dans lequel se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement à un ou plusieurs objets à partir d’une autre application.
-* Pour lier des enregistrements à d’autres enregistrements ou objets, vous devez disposer des éléments suivants :
 
-   * Au moins un espace de travail, un type d’enregistrement et un enregistrement.
-
-     Pour plus d’informations, voir les articles suivants :
-
-      * [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
-
-   * Connexions entre types d’enregistrement ou entre types d’enregistrement et objets d’autres applications. Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md)
 * Vous pouvez connecter des objets de Workfront à des enregistrements Workfront Planning dans les zones suivantes :
    * À partir d’un enregistrement de planification dans la planification Workfront.
    * Dans la section Planification d’un objet Workfront.
+
+* Vous pouvez connecter les enregistrements de planification Workfront à Experience Manager Assets dans les zones suivantes :
+
+   * À partir d’un enregistrement de planification dans Workfront Planning
+
+
+## Conditions préalables pour lier des enregistrements
+
+Pour lier des enregistrements à d’autres enregistrements ou objets, vous devez disposer des éléments suivants :
+
+* Au moins un espace de travail, un type d’enregistrement et un enregistrement.
+
+  Pour plus d’informations, voir les articles suivants :
+
+   * [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md)
+   * [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md)
+   * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
+
+* Connexions entre types d’enregistrement ou entre types d’enregistrement et objets d’autres applications. Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Connexion d’enregistrements à partir de Workfront Planning
 
@@ -186,7 +200,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!TIP]
    >
-   >    Vous pouvez ouvrir la page d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur **Connexion d’enregistrements** dans le champ pour ajouter des enregistrements de l’enregistrement connecté ou du type d’objet.
+   >    Vous pouvez ouvrir la page d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le champ connecté (s’il existe déjà des enregistrements connectés), ou cliquer sur **Connexion d’enregistrements** (si le champ est vide) pour ajouter des enregistrements de l’enregistrement connecté ou du type d’objet.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -307,6 +321,11 @@ Après avoir créé une connexion entre un type d’enregistrement et un type d�
 >Si vous avez des questions sur l’intégration à Adobe Admin Console, reportez-vous à la section [FAQ sur l’expérience unifiée Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Après avoir créé une connexion entre un type d’enregistrement et Adobe Experience Manager Assets, vous pouvez connecter des enregistrements individuels à des ressources du Experience Manager. Les champs de ressource que vous avez connectés à partir de Experience Manager Assets lors de la création de la connexion sont automatiquement renseignés sur le type d’enregistrement à partir duquel vous avez créé un lien.
+
+>[!NOTE]
+>
+>La planification des enregistrements et de leurs champs est accessible à partir de Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
 {{step1-to-planning}}
 

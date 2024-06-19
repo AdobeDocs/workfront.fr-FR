@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 216ddc77c76d3e607cc56f32f347aa3544a03ebf
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7510'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Aperçu : à déterminer
 
 Nous avons mis à jour l’expérience afin d’ajouter une miniature ou une image de couverture à un enregistrement à partir de la page Détails. Les améliorations incluent les mises à jour suivantes :
 
-* Une miniature est attribuée de manière aléatoire à un enregistrement lorsque vous le créez. Vous pouvez modifier cette image ultérieurement.
+* Une miniature et une image de couverture sont automatiquement affectées à un enregistrement lorsque vous le créez. Vous pourrez ensuite modifier ces images.
 
 * Vous pouvez ajouter une miniature à partir de la page Détails . Avant cette amélioration, vous ne pouviez ajouter une miniature qu’à partir du mode Tableau.
 
@@ -129,7 +129,7 @@ Production : 17 juin 2024
 
 Aperçu : à déterminer
 
-Nous avons ajouté un lien &quot;Afficher plus/ Afficher moins&quot; dans un champ d’enregistrement connecté, lorsqu’il existe des enregistrements qui s’afficheraient autrement sur plus de deux lignes.
+Nous avons ajouté un lien &quot;Afficher plus/Afficher moins&quot; dans un champ d’enregistrement connecté, lorsqu’il existe des enregistrements qui s’afficheraient autrement sur plus de deux lignes dans la page Détails d’un enregistrement.
 
 Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
@@ -169,7 +169,7 @@ Une fois que vous avez cliqué sur Planification dans le menu principal, une nou
 
 Certaines des informations de la landing page sont les suivantes :
 
-* Zone qui affiche vos espaces de travail et vos espaces de travail partagés avec vous. Le propriétaire de l’espace de travail est répertorié sur chaque carte de l’espace de travail.
+* Zone qui affiche vos espaces de travail et vos espaces de travail partagés avec vous. Le propriétaire de l’espace de travail s’affiche sur chaque carte de l’espace de travail.
 
 * Si vous êtes administrateur Workfront, les onglets suivants s’affichent :
 
@@ -324,7 +324,7 @@ Aperçu : à déterminer
 
 Pour mieux organiser les informations sur la page de l’enregistrement afin d’optimiser la lisibilité et la navigation, nous avons ajouté des sections à la page de l’enregistrement. Les titres de section servent d’en-têtes qui organisent les champs en catégories distinctes. Les sections sont entièrement personnalisables et peuvent être développées ou réduites, si nécessaire.
 
-Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
+Pour plus d’informations, voir [Gestion de la mise en page de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Mises à jour en temps réel pour les modifications de configuration des champs
 
@@ -433,7 +433,7 @@ Aperçu : à déterminer
 
 En tant que gestionnaire de Workspace, vous pouvez désormais réorganiser les champs répertoriés dans la page d’enregistrement ou l’aperçu. La mise à jour de l’ordre des champs modifie l’ordre des champs pour tous les enregistrements du même type, pour toutes les personnes qui consultent la page d’enregistrement ou l’aperçu de l’enregistrement.
 
-Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
+Pour plus d’informations, voir [Gestion de la mise en page de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Ajout d’une image de couverture pour enregistrer des pages
@@ -444,7 +444,7 @@ Aperçu : à déterminer
 
 À mesure que vous gérez les pages d’enregistrement, vous pouvez désormais ajouter, repositionner et remplacer une image de couverture sur une page d’enregistrement ou un aperçu, afin d’enrichir la présentation de l’enregistrement et l’engagement des parties prenantes. Les images de couverture sont visibles par tous les utilisateurs qui visualisent les enregistrements.
 
-Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
+Pour plus d’informations, voir [Gestion de la mise en page de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Semaine du 25 mars 2024
 

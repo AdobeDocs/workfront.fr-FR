@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1965'
 ht-degree: 4%
 
 ---
@@ -100,6 +100,7 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Modules de planification Adobe Workfront pour Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copier et coller des informations d’un champ vers un autre | ✓ |                                  |                 |
 | Accès aux enregistrements de planification à partir d’objets Workfront | ✓ |                                  |                 |
+| Connexion d’enregistrements de planification à partir d’objets Workfront | ✓ |                                  |                 |
 
 ## Activation de la planification Adobe Workfront pour les utilisateurs de votre instance Workfront
 
@@ -208,9 +209,18 @@ Vous trouverez ci-dessous les principaux objets et concepts de la planification 
 
 * **Champs liés** (ou champs de recherche) : après avoir établi la connexion entre deux types d’enregistrements et lier des enregistrements individuels, vous pouvez référencer les champs des enregistrements liés sur l’enregistrement à partir duquel vous vous connectez.
 
-  Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront , vous pouvez afficher le champ Propriétaire du projet des projets connectés dans les enregistrements de campagne.
+  Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront , vous pouvez afficher le champ Budget des projets connectés dans les enregistrements de campagne.
 
   ![](assets/add-lookup-fields-modal.png)
+
+  >[!TIP]
+  >
+  > Vous ne pouvez pas ajouter les types de champ suivants comme champs de recherche :
+  >
+  >* Personnes
+  >* Créé par
+  >* Dernière modification par
+  >* Champs de saisie anticipée Workfront (y compris les champs tels que Propriétaire du projet ou Parrain du projet)
 
   Pour plus d’informations sur la liaison de types d’enregistrements, d’enregistrements et la création de champs liés, consultez les articles suivants :
 
@@ -285,7 +295,7 @@ Pour localiser Workfront Planning :
 
    ![](assets/planning-landing-page-admin.png)
 
-   1. (Conditionnel et facultatif) Si vous êtes administrateur Workfront, cliquez sur l’un des onglets suivants :
+1. (Conditionnel et facultatif) Si vous êtes administrateur Workfront, cliquez sur l’un des onglets suivants :
    * **Mes espaces de travail**: affiche les espaces de travail que vous avez créés.
    * **Autres espaces de travail**: affiche tous les autres espaces de travail du système, y compris ceux partagés avec vous.
 

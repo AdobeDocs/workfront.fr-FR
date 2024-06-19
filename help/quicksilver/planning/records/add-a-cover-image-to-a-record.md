@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '619'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Pour plus d’informations, voir [Création de types d’enregistrement](/help/q
 
 ## Conditions d’accès
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -58,9 +58,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>N’importe quelle</p> 
+   <p>Actuel : travail ou plus élevé</p>
+   <p>Nouveau : Standard</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Attribution ou autorisations supérieures à un espace de travail </p>  
+   <td> <p>Gestion des autorisations d’un espace de travail </p>  
    <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </tbody>
 </table>
 
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation de Workbench](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Considérations relatives aux images de couverture de page d’enregistrement
 
 Vous pouvez personnaliser la page d’un enregistrement en y ajoutant une image de couverture.
@@ -94,7 +97,8 @@ Tenez compte des points suivants :
 * Vous pouvez uniquement ajouter des fichiers image comme images de couverture.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Vous pouvez ajouter une image de couverture à des enregistrements individuels à partir de l’aperçu de l’enregistrement dans n’importe quelle vue ou à partir de la page d’enregistrement.
-* Vous ne pouvez pas ajouter d’images de couverture en ligne à partir de n’importe quel affichage d’enregistrement.
+* Vous ne pouvez pas ajouter d’images de couverture à partir d’une vue d’enregistrement.
+* Workfront télécharge automatiquement une image de couverture chaque fois que vous créez un enregistrement. Vous pouvez modifier cette image ultérieurement.
 
 ## Ajout d’une image de couverture à un enregistrement
 
@@ -114,19 +118,15 @@ Vous pouvez personnaliser un enregistrement en ajoutant une image de couverture 
 
    La page de type enregistrement s’ouvre.
 
-1. Dans une vue de tout type, cliquez sur le nom d’un enregistrement.
+1. Dans une vue quel que soit le type, cliquez sur un enregistrement.
 
    Ou
 
-   Dans la vue Tableau, cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement.
+   Dans la vue Tableau, cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) dans la première colonne.
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >Vous pouvez afficher la **Ouvrir les détails** à gauche du champ Nom d’un enregistrement dans une vue de tableau uniquement lorsque le champ Nom est un champ principal.
 
 1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
@@ -134,10 +134,25 @@ Vous pouvez personnaliser un enregistrement en ajoutant une image de couverture 
 
    ![](assets/details-page.png)
 
-1. Dans l’aperçu de l’enregistrement ou la page, cliquez sur **Ajouter une couverture**. <!--check the casing here; I logged a bug for this-->
-La variable **Record cover** s’ouvre.
+1. Dans l’aperçu de l’enregistrement ou la page, cliquez sur **Ajouter une couverture**
 
-1. Cliquez sur **Sélectionner pour charger** et recherchez une image sur votre ordinateur pour la sélectionner, l’ajouter, puis cliquez sur **Utiliser une image**.
+
+   Ou
+
+   Pointez sur une image de couverture existante, puis cliquez sur **Plus** menu ![](assets/more-menu.png) , puis cliquez sur **Télécharger**. <!--check the casing here; I logged a bug for this-->
+La variable **Record cover** s’ouvre dans la **Télécharger** .
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. Cliquez sur **Parcourir les images** et recherchez une image sur votre ordinateur pour la sélectionner et l’ajouter.
+
+1. (Facultatif) Pour supprimer l’image avant qu’elle ne soit enregistrée, cliquez sur le bouton **Charger une nouvelle image** icon ![](assets/upload-new-image-icon.png) , puis chargez une nouvelle image.
+
+1. (Facultatif) Cliquez sur le **Galerie** , puis cliquez sur une image dans la galerie d’images. La galerie d’images ne peut pas être modifiée.
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. Cliquez sur **Utiliser une image**.
 
    L’image est téléchargée en haut de l’aperçu de l’enregistrement ou de la page et les modifications sont enregistrées automatiquement.
 
