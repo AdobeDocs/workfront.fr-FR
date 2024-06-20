@@ -2,18 +2,18 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: access,model,funnel,diagramme,levels,permissions
+keywords: accès,modèle,entonnoir,diagramme,niveaux,autorisations
 navigation-topic: access-levels
 title: Fonctionnalités disponibles pour chaque type d’objet pour les nouveaux niveaux d’accès
-description: Le tableau suivant répertorie les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
+description: Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
@@ -21,345 +21,345 @@ ht-degree: 11%
 
 {{highlighted-preview}}
 
-Le tableau suivant répertorie les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
+Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
 
-Elle indique également les actions que les administrateurs Workfront peuvent désactiver ou activer à l’aide d’un niveau d’accès.
+Ils indiquent également les actions que les administrateurs et administratrices Workfront peuvent désactiver ou activer à l’aide d’un niveau d’accès.
 
 ## Projets
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |------------------------------|----------|--------|-------------|---------------|
 | Créer | ✓&#42; |   |   |   |
 | Copier | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
 | Partager | ✓&#42; |   |   |   |
-| Partager à l’échelle du système | ✓&#42; |   |   |   |
+| Partager sur le système | ✓&#42; |   |   |   |
 | Afficher | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Ajouter un formulaire personnalisé | ✓ |   |   |   |
-| Mettre à jour les champs personnalisés | ✓ |   |   |   |
-| Ajouter un processus de validation | ✓ |   |   |   |
-| Approbation d’un projet | ✓ | ✓ |   |   |
+| Mettre à jour des champs personnalisés | ✓ |   |   |   |
+| Ajouter un processus d’approbation | ✓ |   |   |   |
+| Approuver un projet | ✓ | ✓ |   |   |
 | Ajouter un document | ✓ | ✓ |   |   |
 | Ajouter un problème | ✓ | ✓ |   |   |
 | Ajouter des tâches | ✓ |   |   |   |
 | Envoyer des mises à jour/commentaires | ✓ | ✓ |   |   |
 | Modifier le statut | ✓ |   |   |   |
 | Consigner les heures | ✓ | ✓ |   |   |
-| Modifier des affectations | ✓ |   |   |   |
-| Gestion d’une ligne de base | ✓ |   |   |   |
-| Gestion des risques | ✓ |   |   |   |
+| Modifier les affectations | ✓ |   |   |   |
+| Gérer un niveau de référence | ✓ |   |   |   |
+| Gérer les risques | ✓ |   |   |   |
 | Gérer les finances | ✓ |   |   |   |
 | Ajouter/modifier des dépenses | ✓ |   |   |   |
 | Joindre des modèles | ✓ |   |   |   |
 | Enregistrer en tant que modèle | ✓ |   |   |   |
-| Ajout/modification d’un cas d’entreprise | ✓ |   |   |   |
-| Modification des détails du projet | ✓ |   |   |   |
-| Modifier les effectifs | ✓ |   |   |   |
+| Ajouter/modifier une analyse de rentabilité | ✓ |   |   |   |
+| Modifier des détails du projet | ✓ |   |   |   |
+| Modifier le personnel | ✓ |   |   |   |
 | Exporter vers MS Project | ✓ | ✓ |   |   |
-| Recalculer la finance/la chronologie | ✓ |   |   |   |
-| Définition des propriétés de file d’attente | ✓ |   |   |   |
+| Recalculer les finances / la chronologie | ✓ |   |   |   |
+| Définir des propriétés de file d’attente | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 ## Tâches
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |--------------------------------|----------|--------|-------------|---------------|
 | Créer | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
 | Partager | ✓&#42; |   |   |   |
-| Partager à l’échelle du système | ✓&#42; |   |   |   |
+| Partager sur le système | ✓&#42; |   |   |   |
 | Afficher | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Ajout de prédécesseurs | ✓ |   |   |   |
+| Ajouter des tâches antérieures | ✓ |   |   |   |
 | Ajouter des problèmes | ✓ | ✓ |   |   |
-| Modification d’une tâche (à l’exception de son état) | ✓ |   |   |   |
-| Modifier l’état de la tâche | ✓ |   |   |   |
+| Modifier une tâche (à l’exception du statut) | ✓ |   |   |   |
+| Modifier le statut de la tâche | ✓ |   |   |   |
 | Ajouter des documents | ✓ | ✓ |   |   |
 | Copier une tâche | ✓ |   |   |   |
 | Déplacer une tâche | ✓ |   |   |   |
 | Consigner les heures | ✓ | ✓ |   |   |
-| Acceptation d’une affectation | ✓ |   |   |   |
-| Effectuer une affectation | ✓ | ✓ |   |   |
+| Accepter une affectation | ✓ |   |   |   |
+| Créer une affectation | ✓ | ✓ |   |   |
 | Joindre un formulaire personnalisé | ✓ |   |   |   |
-| Modifier des champs personnalisés | ✓ |   |   |   |
+| Modifier les champs personnalisés | ✓ |   |   |   |
 | Créer un processus d’approbation | ✓ |   |   |   |
-| Approbation d’une tâche | ✓ | ✓ | ✓ |   |
-| Editer les finances | ✓ |   |   |   |
+| Approuver une tâche | ✓ | ✓ | ✓ |   |
+| Modifier des finances | ✓ |   |   |   |
 | Ajouter/modifier des dépenses | ✓ |   |   |   |
 | Afficher Finance | ✓ | ✓ |   |   |
-| Ajouter des mises à jour/commentaires | ✓ | ✓ |   |   |
+| Ajouter des mises à jour / commentaires | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 ## Problèmes
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |-------------------------------|----------|--------|-------------|---------------|
 | Créer | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifier | ✓ | ✓ | ✓ |   |
 | Supprimer | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Partager | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Partager à l’échelle du système | ✓&#42; |   |   |   |
+| Partager sur le système | ✓&#42; |   |   |   |
 | Afficher | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Joindre des formulaires personnalisés | ✓ | ✓ | ✓ |   |
-| Modifier des champs personnalisés | ✓ | ✓ | ✓ |   |
-| Approbation des problèmes | ✓ | ✓ | ✓ |   |
-| Ajouter un processus de validation | ✓ | ✓ | ✓ |   |
+| Modifier les champs personnalisés | ✓ | ✓ | ✓ |   |
+| Approuver des problèmes | ✓ | ✓ | ✓ |   |
+| Ajouter un processus d’approbation | ✓ | ✓ | ✓ |   |
 | Ajouter des documents | ✓ | ✓ | ✓ |   |
 | Copier les problèmes | ✓ | ✓ | ✓ |   |
 | Déplacer les problèmes | ✓ | ✓ | ✓ |   |
 | Consigner les heures | ✓ |   |   |   |
 | Convertir un problème en projet | ✓ |   |   |   |
 | Convertir un problème en tâche | ✓ |   |   |   |
-| Accepter les affectations | ✓ |   |   |   |
+| Accepter des affectations | ✓ |   |   |   |
 | Créer des affectations | ✓ |   |   |   |
-| Ajout de mises à jour et de commentaires | ✓ | ✓ | ✓ |   |
+| Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 ## Portefeuilles
 
-Seuls les utilisateurs disposant d’une licence Standard peuvent avoir un accès complet aux portefeuilles.
+Seuls les utilisateurs et utilisatrices disposant d’une licence standard peuvent avoir un accès complet aux portfolios.
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |--------------------------|----------|--------|-------------|---------------|
 | Créer | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
 | Partager | ✓&#42; |   |   |   |
-| Partager à l’échelle du système | ✓&#42; |   |   |   |
+| Partager sur le système | ✓&#42; |   |   |   |
 | Afficher | ✓&#42; | ✓&#42; |   |   |
 | Modifier les détails | ✓ |   |   |   |
 | Joindre des formulaires personnalisés | ✓ |   |   |   |
-| Modifier des champs personnalisés | ✓ |   |   |   |
-| Ajout et suppression de projets | ✓ |   |   |   |
-| Approbation de projets | ✓ |   |   |   |
-| Optimisation des Portfolios | ✓ |   |   |   |
-| Ajouter des documents | ✓ | ✓ |   |   |
-| Ajout de mises à jour et de commentaires | ✓ | ✓ |   |   |
-
-{style="table-layout:auto"}
-
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
-
-## Programmes
-
-Seuls les utilisateurs disposant d’une licence Standard peuvent avoir un accès complet aux programmes.
-
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
-|------------------------------|----------|--------|-------------|---------------|
-| Créer | ✓&#42; |   |   |   |
-| Supprimer | ✓&#42; |   |   |   |
-| Partager | ✓&#42; |   |   |   |
-| Partager à l’échelle du système | ✓&#42; |   |   |   |
-| Afficher | ✓&#42; | ✓&#42; |   |   |
-| Modifier les détails | ✓ |   |   |   |
-| Joindre des formulaires personnalisés | ✓ |   |   |   |
-| Modifier des champs personnalisés | ✓ |   |   |   |
-| Ajout et suppression de projets | ✓ |   |   |   |
-| Approbation de projets | ✓ |   |   |   |
+| Modifier les champs personnalisés | ✓ |   |   |   |
+| Ajouter et supprimer des projets | ✓ |   |   |   |
+| Approuver des projets | ✓ |   |   |   |
 | Optimisation du portefeuille | ✓ |   |   |   |
 | Ajouter des documents | ✓ | ✓ |   |   |
 | Ajouter des mises à jour et des commentaires | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
+
+## Programmes
+
+Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avoir un accès complet aux programmes.
+
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
+|------------------------------|----------|--------|-------------|---------------|
+| Créer | ✓&#42; |   |   |   |
+| Supprimer | ✓&#42; |   |   |   |
+| Partager | ✓&#42; |   |   |   |
+| Partager sur le système | ✓&#42; |   |   |   |
+| Afficher | ✓&#42; | ✓&#42; |   |   |
+| Modifier les détails | ✓ |   |   |   |
+| Joindre des formulaires personnalisés | ✓ |   |   |   |
+| Modifier les champs personnalisés | ✓ |   |   |   |
+| Ajouter et supprimer des projets | ✓ |   |   |   |
+| Approuver des projets | ✓ |   |   |   |
+| Optimisation du portefeuille | ✓ |   |   |   |
+| Ajouter des documents | ✓ | ✓ |   |   |
+| Ajouter des mises à jour et des commentaires | ✓ | ✓ |   |   |
+
+{style="table-layout:auto"}
+
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 ## Rapports, tableaux de bord et calendriers
 
-Les utilisateurs disposant d’une licence Standard peuvent avoir un accès complet aux rapports. Tous les autres niveaux d’accès disposent d’un accès en vue aux rapports.
+Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avoir un accès complet aux rapports. Tous les autres niveaux d’accès disposent d’un accès en affichage aux rapports.
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |--------------------------------------|----------|--------|-------------|---------------|
 | Créer | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
-| Affichage des rapports natifs | ✓&#42; |   |   |   |
+| Afficher les rapports intégrés | ✓&#42; |   |   |   |
 | Partager | ✓&#42; | ✓ |   |   |
-| Partage public de calendriers et de rapports | ✓&#42; |   |   |   |
-| Partager à l’échelle du système | ✓&#42; |   |   |   |
+| Partager publiquement des calendriers et des rapports | ✓&#42; |   |   |   |
+| Partager sur le système | ✓&#42; |   |   |   |
 | Afficher | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Modifier | ✓ |   |   |   |
 | Copier | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 >[!NOTE]
 >
->Les contributeurs peuvent uniquement afficher les rapports qui ont été partagés avec eux.
+>Les contributeurs et contributrices peuvent uniquement afficher les rapports qui ont été partagés avec eux.
 
 ## Filtres, vues et regroupements
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |-------------------|------------|---------|---------------|---------------|
 | Créer | ✓* | ✓* | ✓* |   |
 | Supprimer | ✓* | ✓* | ✓* |   |
 | Partager | ✓* | ✓* | ✓* |   |
-| Partager à l’échelle du système | ✓* | ✓* | ✓* |   |
+| Partager sur le système | ✓* | ✓* | ✓* |   |
 | Afficher | ✓ | ✓ | ✓ |   |
 | Modifier | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 ## Documents
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |--------------------------------|----------|--------|-------------|---------------|
 | Créer | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Suppression (documents et dossiers) | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Supprimer (documents et dossiers) | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Partager | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Partager publiquement (en externe) | ✓&#42; |   |   |   |
-| Partager à l’échelle du système | ✓&#42; |   |   |   |
+| Partager sur le système | ✓&#42; |   |   |   |
 | Afficher | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Modifier les détails | ✓ | ✓ | ✓ |   |
 | Téléchargement | ✓ | ✓ | ✓ | ✓ |
 | Passage en caisse | ✓ | ✓ | ✓ |   |
-| Ajouter des approbateurs | ✓ | ✓ | ✓ |   |
-| Approbation de documents | ✓ | ✓ | ✓ | ✓ |
+| Ajouter des approbateurs et approbatrices | ✓ | ✓ | ✓ |   |
+| Approuver des documents | ✓ | ✓ | ✓ | ✓ |
 | Joindre des formulaires personnalisés | ✓ | ✓ | ✓ |   |
-| Modifier des champs personnalisés | ✓ | ✓ | ✓ |   |
+| Modifier les champs personnalisés | ✓ | ✓ | ✓ |   |
 | Déplacer vers (objet) | ✓ | ✓ | ✓ |   |
 | Envoyer à (intégration) | ✓ | ✓ | ✓ |   |
-| Ajout de mises à jour et de commentaires | ✓ | ✓ | ✓ |   |
-| Télécharger une nouvelle version | ✓ | ✓ | ✓ |   |
-| Suppression d’une version | ✓ | ✓ | ✓ |   |
-| Aperçu | ✓ | ✓ | ✓ | ✓ |
+| Ajouter des mises à jour et des commentaires | ✓ | ✓ | ✓ |   |
+| Charger une nouvelle version | ✓ | ✓ | ✓ |   |
+| Supprimer une version | ✓ | ✓ | ✓ |   |
+| Prévisualiser | ✓ | ✓ | ✓ | ✓ |
 | Épreuve | ✓ | ✓ | ✓ | ✓ |
-| Générer un BAT | ✓ |   |   |   |
-| Supprimer le BAT | ✓ | ✓ | ✓ |   |
+| Générer une épreuve | ✓ |   |   |   |
+| Supprimer l’épreuve | ✓ | ✓ | ✓ |   |
 | Ajouter/Supprimer&#42;&#42; | ✓ | ✓ | ✓ |   |
 | Renommer&#42;&#42; | ✓ | ✓ | ✓ |   |
-| Lien (avec intégration) | ✓ | ✓ | ✓ |   |
-| Dissocier (avec intégration) | ✓ | ✓ | ✓ |   |
+| Lier (avec intégration) | ✓ | ✓ | ✓ |   |
+| Annuler le lien (avec intégration) | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 ## Utilisateurs
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe** |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | Créer | ✓* |   |   |   |
 | Supprimer | ✓* |   |   |   |
-| Modification, suppression, désactivation, connexion ou réinitialisation du mot de passe de n’importe quel utilisateur | ✓* |   |   |   |
-| Modifiez, supprimez, désactivez, connectez-vous en tant que ou réinitialisez le mot de passe pour tout utilisateur d’un groupe qu’il administre. | ✓* |   |   |   |
-| Affichage des utilisateurs | ✓ | ✓ | ✓ |   |
-| Afficher les informations de contact | ✓ | ✓ | ✓ |   |
+| Modifier, supprimer, désactiver, se connecter en tant que ou réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice | ✓* |   |   |   |
+| Modifier, supprimer, désactiver, se connecter en tant que ou réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice d’un groupe sous son administration | ✓* |   |   |   |
+| Afficher les utilisateurs et utilisatrices | ✓ | ✓ | ✓ |   |
+| Afficher les coordonnées | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 &#42;&#42;Les utilisateurs externes ne peuvent rechercher que d’autres utilisateurs.
 
 ## Équipes
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe* |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe* |
 |-----------------------------------------|-----------|------------|-------------|------------------|
 | Créer | ✓* |   |   |   |
 | Supprimer | ✓* |   |   |   |
-| Éditer les équipes sur lesquelles ils sont | ✓* |   |   |   |
-| Modifier les équipes dans les groupes qu’elles gèrent | ✓* |   |   |   |
+| Modifier les équipes auxquelles la personne appartient | ✓* |   |   |   |
+| Modifier les équipes dans les groupes que la personne gère | ✓* |   |   |   |
 | Afficher toutes les équipes | ✓ | ✓ | ✓ |   |
-| Afficher les équipes associées à leurs groupes | ✓ | ✓ | ✓ |   |
+| Afficher les équipes associées aux groupes de la personne | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 ## Modèles
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |-----------------------|----------|--------|-------------|---------------|
 | Créer | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
 | Partager | ✓&#42; |   |   |   |
-| Partager à l’échelle du système | ✓&#42; |   |   |   |
+| Partager sur le système | ✓&#42; |   |   |   |
 | Afficher | ✓&#42; |   |   |   |
 | Copier | ✓ |   |   |   |
 | Modifier les détails du modèle | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 ## Données financières
 
-Seuls les utilisateurs disposant d’une licence Standard peuvent avoir un accès complet aux données financières.
+Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avoir un accès complet aux données financières.
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Modifier la facturation des rôles et les taux de coûts | ✓&#42; |   |   |   |
-| Modification de la facturation et des coûts des utilisateurs | ✓&#42; |   |   |   |
-| Affichage de la facturation des rôles et des taux de coûts | ✓&#42; |   |   |   |
-| Affichage de la facturation et des coûts des utilisateurs | ✓&#42; |   |   |   |
+| Modifier les taux de facturation et de coûts du rôle | ✓&#42; |   |   |   |
+| Modifier les taux de facturation et de coûts de la personne | ✓&#42; |   |   |   |
+| Afficher les taux de facturation et de coûts du rôle | ✓&#42; |   |   |   |
+| Afficher les taux de facturation et de coûts de la personne | ✓&#42; |   |   |   |
 | Gérer des enregistrements de facturation | ✓ |   |   |   |
 | Gérer les dépenses | ✓ |   |   |   |
-| Affichage des données financières | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview">Gestion des cartes de taux</span> | ✓ |   |   |   |
-| Affichage des informations par coût dans les outils de planification des ressources | ✓ |   |   |   |
+| Afficher les données financières | ✓&#42; | ✓&#42; |   |   |
+| <span class="preview">Gérer les cartes tarifaires</span> | ✓ |   |   |   |
+| Afficher des informations par coût dans les outils de planification des ressources | ✓ |   |   |   |
 | Ressources budgétaires dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |   |
-| Affichage de l’affectation des ressources dans les outils de planification des ressources&#42; | ✓ | ✓ |   |   |
+| Afficher l’affectation des ressources dans les outils de planification des ressources&#42; | ✓ | ✓ |   |   |
 | Créer des risques sur les projets | ✓ |   |   |   |
-| Affichage des risques sur les projets | ✓ | ✓ |   |   |
+| Afficher les risques sur les projets | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
 ## Gestion des ressources
 
-Seuls les utilisateurs disposant d’une licence Standard peuvent avoir un accès complet à la gestion des ressources. D’autres types de licence peuvent avoir un accès limité ou non à la gestion des ressources dans Workfront.
+Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avoir un accès complet à la gestion des ressources. D’autres types de licences peuvent avoir un accès limité ou non à la gestion des ressources dans Workfront.
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Modifier les priorités et les heures budgétées dans le Planificateur | ✓&#42; |   |   |   |
-| Créer, modifier et supprimer des groupes de ressources&#42;&#42; | ✓&#42; |   |   |   |
+| Créer, modifier et supprimer des pools de ressources&#42;&#42; | ✓&#42; |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42; |   |   |   |
-| Afficher les priorités de projet dans le planificateur de ressources | ✓&#42; |   |   |   |
-| Affichage de l’affectation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; |   |   |
-| Affichage des groupes de ressources | ✓&#42; | ✓&#42; |   |   |
-| Ressources budgétaires dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |   |
-| Joindre des groupes de ressources aux projets, modèles et utilisateurs | ✓ |   |   |   |
+| Afficher les priorités du projet dans le planificateur de ressources | ✓&#42; |   |   |   |
+| Afficher l’affectation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; |   |   |
+| Afficher les groupes de ressources | ✓&#42; | ✓&#42; |   |   |
+| Budgéter les ressources dans les outils de planification des ressources&#42;&#42; | ✓ |   |   |   |
+| Joindre des groupes de ressources à des projets, modèles et utilisateurs et utilisatrices | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Avec un niveau d’accès, les administrateurs Workfront peuvent désactiver ou activer cette fonctionnalité.
+&#42; Avec un niveau d’accès, l’équipe d’administration Workfront peut désactiver ou activer cette fonctionnalité.
 
-&#42;&#42;Nécessite un accès supplémentaire aux données financières et des autorisations pour les finances du projet. Si vous accordez l’accès à Resource Management à un utilisateur du planificateur qui n’a pas accès aux données financières, l’utilisateur peut toujours voir les affectations horaires dans le planificateur de ressources, mais ne peut pas passer en vue Coût ou afficher l’analyse de cas. Pour plus d’informations, voir [Accorder l&#39;accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) et [Partage des autorisations financières sur un objet](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Nécessite un accès supplémentaire aux données financières et des autorisations sur les finances du projet. Si vous accordez l’accès à la gestion des ressources à une personne utilisant le planificateur, mais qui n’a pas accès aux données financières, elle peut toujours voir les affectations d’heures dans le planificateur de ressources, mais ne peut pas basculer sur la vue Coût ni afficher le business case. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) et [Partager les autorisations financières sur un objet](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Nécessite l’autorisation de contribuer à l’objet, avec l’option Rendre les affectations activée sous Paramètres avancés. Pour plus d’informations, voir la section [Présentation des autorisations héritées et de la hiérarchie des objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) dans l’article [Présentation des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Nécessite l’autorisation de contribution à l’objet, avec l’option Créer des affectations activée sous Paramètres avancés. Pour plus d’informations, consultez la section [Comprendre les autorisations héritées et la hiérarchie des objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) dans l’article [Vue d’ensemble du partage des autorisations sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-## Zone du planificateur de scénario
+## Zone Planificateur de scénarios
 
-| Action | Standard | Léger | Contributeur | Utilisateur externe |
+| Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
-| Créer/modifier des plans et des initiatives existants | ✓ | ✓ |   |   |
-| Ajouter ou modifier des informations sur les rôles de tâche dans les plans et les initiatives&#42; | ✓ | ✓ |   |   |
+| Créer/modifier des plans et initiatives existants | ✓ | ✓ |   |   |
+| Ajouter ou modifier des informations sur les fonctions dans les plans et les initiatives&#42; | ✓ | ✓ |   |   |
 | Ajouter ou modifier des informations sur les coûts des plans et des initiatives&#42; | ✓ | ✓ |   |   |
-| Suppression de plans et d’initiatives | ✓ | ✓ |   |   |
-| Affichage des scénarios dans le menu principal | ✓ | ✓ |   |   |
-| Afficher les plans et initiatives créés par l’utilisateur&#42; | ✓ | ✓ |   |   |
+| Supprimer des plans et des initiatives | ✓ | ✓ |   |   |
+| Afficher Scénarios dans le menu principal | ✓ | ✓ |   |   |
+| Afficher les plans et initiatives créés par l’utilisateur ou l’utilisatrice&#42; | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Les utilisateurs peuvent afficher un plan créé par un autre utilisateur uniquement si un lien vers le plan est partagé avec eux.
+>Les utilisateurs et utilisatrices peuvent afficher un plan créé par une autre personne uniquement si un lien vers le plan est partagé avec eux.
 
-&#42; Pour que les utilisateurs puissent afficher les données financières dans un plan ou une initiative, ils doivent avoir accès aux données financières. Pour plus d’informations, voir [Accorder l&#39;accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Pour que les utilisateurs et utilisatrices puissent afficher les données financières dans un plan ou une initiative, ils doivent avoir accès aux données financières. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-## Zone Objectifs de Workfront
+## Zone Objectifs Workfront
 
 <!-- ask Alina about this section -->
 
@@ -367,21 +367,21 @@ Seuls les utilisateurs disposant d’une licence Standard peuvent avoir un accè
 |---|---|---|
 | Créer |   | ✓ |
 | Modifier/supprimer tous les objectifs |   | ✓ |
-| Afficher les objectifs dans le menu principal | ✓ | ✓ |
+| Afficher Objectifs dans le menu principal | ✓ | ✓ |
 | Afficher la zone Objectifs à partir d’un lien partagé | ✓ | ✓ |
 | Afficher tous les objectifs du système | ✓ | ✓ |
-| Activer/désactiver/fermer tous les objectifs |   | ✓ |
-| Créer/modifier/supprimer des activités |   | ✓ |
-| Créer/modifier/supprimer des résultats |   | ✓ |
+| Activer, désactiver et fermer tous les objectifs |   | ✓ |
+| Créer, modifier et supprimer des activités |   | ✓ |
+| Créer, modifier et supprimer des résultats |   | ✓ |
 | Ajouter un objectif aligné |   | ✓ |
-| Mise à jour de la progression d’un résultat ou d’une activité |   | ✓ |
+| Mettre à jour la progression d’un résultat ou d’une activité |   | ✓ |
 | Posséder un objectif, un résultat ou une activité | ✓ | ✓ |
-| Commentaire sur un objectif | ✓ | ✓ |
-| Copie d’objectifs |   | ✓ |
+| Commenter un objectif | ✓ | ✓ |
+| Copier des objectifs |   | ✓ |
 | Afficher la section Liste des objectifs dans le panneau de gauche | ✓ | ✓ |
-| Affichage de la section Graphiques dans le panneau de gauche | ✓ | ✓ |
-| Afficher la section Alignement de l’objectif dans le panneau de gauche | ✓ | ✓ |
+| Afficher la section Graphiques dans le panneau de gauche | ✓ | ✓ |
+| Afficher la section Alignement des objectifs dans le panneau de gauche | ✓ | ✓ |
 | Afficher la section Pulse dans le panneau de gauche | ✓ | ✓ |
-| Afficher la zone d’archivage dans le panneau de gauche |   | ✓ |
+| Afficher la zone Vérification dans le panneau de gauche |   | ✓ |
 | Afficher la zone Paramètres dans le panneau de gauche | ✓ | ✓ |
 | Imprimer une liste d’objectifs | ✓ | ✓ |

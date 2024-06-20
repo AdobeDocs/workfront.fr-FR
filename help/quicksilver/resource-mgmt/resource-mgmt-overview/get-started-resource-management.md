@@ -3,14 +3,14 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-management-overview
 title: Prise en main de la gestion des ressources
-description: La gestion des ressources vous permet de configurer votre système pour prévoir précisément l’utilisation de vos ressources en fonction de leur disponibilité, de sorte que le travail à faire soit terminé à temps et selon le budget.
+description: La gestion des ressources vous permet de configurer votre système pour prévoir précisément l’utilisation de vos ressources en fonction de leur disponibilité, de sorte que le travail à effectuer soit terminé à temps et selon le budget.
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1167'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -24,33 +24,33 @@ ht-degree: 0%
 </div>
 -->
 
-La gestion des ressources vous permet de configurer votre système pour prévoir précisément l’utilisation de vos ressources en fonction de leur disponibilité, de sorte que le travail à faire soit terminé à temps et selon le budget.
+La gestion des ressources vous permet de configurer votre système pour prévoir précisément l’utilisation de vos ressources en fonction de leur disponibilité, de sorte que le travail à effectuer soit terminé à temps et selon le budget.
 
-## Présentation de la gestion des ressources dans Adobe Workfront
+## Vue d’ensemble de la gestion des ressources dans Adobe Workfront
 
-La gestion des ressources fait référence à toutes les activités exécutées par l’administrateur Adobe Workfront, le gestionnaire des ressources et le propriétaire du projet pour planifier (planification des ressources ou des scénarios) et planifier (équilibreur de charge de travail) les ressources d’une organisation et les affecter au travail qui doit être effectué, en tenant compte de leur disponibilité. En outre, la gestion des ressources fait également référence à l’affichage d’informations sur les affectations de ressources prévues et réelles dans une vue de rapport (rapport Utilisation).
+La gestion des ressources fait référence à toutes les activités exécutées par l’équipe d’administration Adobe Workfront, les gestionnaires des ressources et les propriétaires du projet pour planifier (planification des ressources ou des scénarios) et programmer (équilibreur de charge de travail) les ressources d’une organisation et les affecter au travail qui doit être effectué, en tenant compte de leur disponibilité. En outre, la gestion des ressources fait également référence à l’affichage d’informations sur les affectations de ressources prévues et réelles dans une vue de rapport (rapport d’utilisation).
 
-Workfront comporte plusieurs ensembles d’outils utilisés pour gérer les ressources. Chaque outil a une portée individuelle. Actuellement, vous pouvez utiliser les outils de gestion des ressources suivants dans Workfront, en fonction de l’étape de gestion des ressources dans laquelle vous vous trouvez :
+Workfront comporte plusieurs ensembles d’outils utilisés pour gérer les ressources. Chaque outil a une portée individuelle. Actuellement, vous pouvez utiliser les outils suivants de la gestion des ressources dans Workfront, en fonction de l’étape de gestion des ressources à laquelle vous vous trouvez :
 
-* Pour planifier l’affectation des ressources à un niveau supérieur, utilisez les outils suivants avant le début du travail réel sur les projets :
+* Pour planifier l’affectation des ressources à un niveau supérieur, utilisez les outils suivants avant le début du travail réel sur les projets :
 
-   * **Le planificateur de ressources**: vous pouvez utiliser le planificateur de ressources dans la première étape de la gestion des ressources pour planifier l’heure de vos ressources en fonction de leur disponibilité planifiée. Lors de la phase de planification des ressources, vous pouvez organiser les utilisateurs dans les pools de ressources et affecter plusieurs pools de ressources à un projet.
+   * **Planificateur de ressources** : vous pouvez utiliser le planificateur de ressources dans la première étape de la gestion des ressources pour budgétiser la durée du projet pour vos ressources en fonction de leur disponibilité planifiée. Lors de la phase de planification des ressources, vous pouvez organiser les personnes dans des groupes de ressources et affecter plusieurs groupes de ressources à un projet.
 
-     Pour plus d’informations sur la planification des ressources, voir [Planification des ressources : index des articles](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Pour plus d’informations sur la planification des ressources, voir [Planification des ressources : index des articles](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
-   * **Planification du scénario**: il s’agit d’une planification des ressources de niveau supérieur qui vous permet de les gérer au cours de plusieurs initiatives qui peuvent s’étendre sur un, trois ou cinq ans et inclure plusieurs projets. Vous pouvez utiliser le meilleur scénario pour tirer le meilleur parti de leur disponibilité et de votre budget.
+   * **Planification de scénarios** : il s’agit d’une planification des ressources de niveau supérieur qui vous permet de les gérer dans le cadre de multiples initiatives qui peuvent s’étendre sur un, trois ou cinq ans et inclure plusieurs projets. Vous pouvez utiliser le meilleur scénario pour tirer le meilleur parti de leur disponibilité et de votre budget.
 
-     Le planificateur de scénario nécessite une licence distincte, en plus de la licence Workfront. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../scenario-planner/scenario-planner-overview.md).
+     Le planificateur de scénarios nécessite une licence distincte, en plus de la licence Workfront. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../scenario-planner/scenario-planner-overview.md).
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
      -->
 
-* Pour planifier ou affecter des ressources à un travail réel (tâches et problèmes), utilisez l’outil suivant :
+* Pour planifier ou affecter des ressources à un travail réel (tâches et problèmes), utilisez l’outil suivant :
 
-   * **L’équilibreur de charge de travail**: il s’agit d’une étape inférieure de la gestion des ressources, dans laquelle vous pouvez affecter vos ressources au travail réel (tâches et problèmes) qu’elles doivent effectuer, en fonction du nombre d’heures nécessaires pour les terminer et de leur disponibilité. Avec l’équilibreur de charge de travail, vous pouvez affecter des utilisateurs à un travail réel qui n’est actuellement pas affecté ou affecté à des rôles de tâche.
+   * **Équilibreur de charge de travail** : il s’agit d’une étape inférieure de la gestion des ressources, dans laquelle vous pouvez affecter vos ressources au travail réel (tâches et problèmes) qui doit être effectué, en fonction du nombre d’heures nécessaires pour terminer le travail et de la disponibilité. Avec l’équilibreur de charge de travail, vous pouvez affecter des personnes à un travail réel qui n’est actuellement pas affecté ou qui est affecté à des fonctions.
 
-     Pour plus d’informations sur l’équilibreur Workfront, voir [L’équilibreur de charge de travail : index de l’article](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Pour plus d’informations sur l’équilibreur Workfront, voir [Équilibreur de charge de travail : index des articles](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -70,57 +70,57 @@ Workfront comporte plusieurs ensembles d’outils utilisés pour gérer les ress
     >* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 -->
-* Pour analyser les affectations prévues, prévues et réelles pour plusieurs projets, utilisez l’outil suivant :
+* Pour analyser les affectations budgétisées, prévues et réelles pour plusieurs projets, utilisez l’outil suivant :
 
-   * **Rapport d’utilisation**: utilisez ce rapport pour afficher l’utilisation des ressources pour les projets. Vous pouvez comparer les affectations prévues, prévues et réelles pour vos projets et leur impact sur le coût et le chiffre d’affaires des projets.
+   * **Rapport d’utilisation** : utilisez ce rapport pour afficher l’utilisation des ressources pour les projets. Vous pouvez comparer les affectations budgétisées, prévues et réelles pour vos projets et leur impact sur le coût et le chiffre d’affaires des projets.
 
-     Pour plus d’informations sur le rapport d’utilisation, voir [Affichage des informations sur l’utilisation des ressources](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+     Pour plus d’informations sur le rapport d’utilisation, voir [Afficher des informations sur l’utilisation des ressources](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## Composants du processus de gestion des ressources
 
 >[!NOTE]
 >
->La gestion des ressources n’est jamais un processus stagnant dans Workfront. Au fur et à mesure que les plannings de vos projets, la disponibilité de vos utilisateurs ou leurs rôles changent, vous devez continuellement ajuster les informations sur vos ressources, leurs affectations et leurs allocations aux projets, tâches et problèmes.
+>La gestion des ressources n’est jamais un processus stagnant dans Workfront. Au fur et à mesure que les planifications de vos projets, la disponibilité de vos utilisateurs et utilisatrices ou leurs rôles changent, vous devez continuellement ajuster les informations sur vos ressources, leurs affectations et leurs allocations aux projets, tâches et problèmes.
 
-Le processus de gestion des ressources dans Workfront comprend les étapes suivantes :
+Le processus de gestion des ressources dans Workfront comprend les étapes suivantes :
 
-* **Configuration**: en tant qu’administrateur système, responsable de ressources ou responsable de projet, vous devez configurer certains champs et objets dans votre instance Workfront avant de gérer vos ressources. Pour plus d’informations sur les conditions préalables requises pour commencer la gestion des ressources dans Workfront, voir la section [Prérequis pour une gestion précise des ressources](#prerequisites-for-accurate-resource-management) dans cet article.\
-  Outre les projets comportant des éléments de travail, vous devez configurer les éléments suivants dans Workfront :
+* **Configuration** : en tant qu’administrateur ou administratrice système, responsable de ressources ou propriétaire de projet, vous devez configurer certains champs et objets dans votre instance Workfront avant de gérer vos ressources. Pour plus d’informations sur les conditions préalables requises pour commencer à gérer les ressources dans Workfront, voir la section [Conditions préalables pour une gestion précise des ressources](#prerequisites-for-accurate-resource-management) dans cet article.\
+  Outre les projets comportant des éléments de travail, vous devez configurer les éléments suivants dans Workfront :
 
    * Utilisateurs\
-     Pour plus d’informations sur la création d’utilisateurs, voir l’article [Ajout d’utilisateurs](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+     Pour plus d’informations sur la création d’utilisateurs et d’utilisatrices, voir l’article [Ajouter des utilisateurs et utilisatrices](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
    * Fonctions\
-     Pour plus d’informations sur la création de rôles de tâche, consultez l’article [Création et gestion des rôles de tâche](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+     Pour plus d’informations sur la création de fonctions, consultez l’article [Créer et gérer des fonctions](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
    * Planifications\
-     Pour plus d’informations sur la création de plannings, consultez l’article [Création d’un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Pour plus d’informations sur la création de planifications, consultez l’article [Créer une planification](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * Préférences Projet
 
      >[!TIP]
      >
-     >Seul un administrateur système ou groupe peut modifier les préférences du projet pour votre système ou votre groupe.
+     >Seule une personne de l’équipe d’administration système ou de groupe peut modifier les préférences du projet pour votre système ou votre groupe.
 
-     Pour plus d’informations sur la définition des préférences du projet, voir l’article [Configuration des préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+     Pour plus d’informations sur la définition des préférences de projet, voir l’article [Configurer les préférences de projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    * Pools de ressources
 
-     Pour plus d’informations sur la création de pools de ressources, voir [Création de pools de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+     Pour plus d’informations sur la création de groupes de ressources, voir [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
    * Préférences de gestion des ressources
 
-     En tant que système, vous devez décider comment Workfront calcule la disponibilité de l’utilisateur au niveau du système, que ce soit en utilisant la planification de l’utilisateur ou la planification par défaut de votre système.
+     En tant que système, vous devez décider comment Workfront calcule la disponibilité des utilisateurs et utilisatrices au niveau du système, que ce soit en utilisant la planification des utilisateurs et utilisatrices, ou la planification par défaut de votre système.
 
-     Pour plus d’informations, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+     Pour plus d’informations, voir [Configurer les préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* **Allocation des ressources**: en tant que gestionnaire de ressources ou propriétaire de projet, vous pouvez définir l’allocation des ressources pour vos projets et affecter du travail. Pour cette étape, vous pouvez gérer l’estimation de l’allocation de vos ressources à l’aide du planificateur de ressources ou du planificateur de scénario, et affecter le travail réel aux utilisateurs dans l’équilibreur de charge de travail.
+* **Allocation des ressources** : en tant que gestionnaire de ressources ou propriétaire de projet, vous pouvez définir l’allocation des ressources pour vos projets et affecter le travail. Pour cette étape, vous pouvez gérer l’estimation de l’allocation de vos ressources à l’aide du planificateur de ressources ou du planificateur de scénarios, et affecter le travail réel aux utilisateurs et utilisatrices dans l’équilibreur de charge de travail.
 
-  Pour plus d’informations sur la planification des ressources et l’affectation des tâches, consultez les sections suivantes :
+  Pour plus d’informations sur la planification des ressources et l’affectation du travail, consultez les sections suivantes :
 
-   * [Planification des ressources : index des articles](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [Gestionnaire de scénarios Adobe Workfront](../../scenario-planner/scenario-planning.md)
-   * [L’équilibreur de charge de travail : index de l’article](../../resource-mgmt/workload-balancer/workload-balancer.md)
+   * [Planification des ressources : index des articles](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Planificateur de scénarios Adobe Workfront](../../scenario-planner/scenario-planning.md)
+   * [Équilibreur de charge de travail : index des articles](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
@@ -128,26 +128,26 @@ Le processus de gestion des ressources dans Workfront comprend les étapes suiva
   For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
-* **Analyse**: en tant que responsable des ressources, responsable de projet ou responsable de personnes, consultez le rapport d’utilisation pour comparer les affectations planifiées et budgétées de vos ressources aux affectations réelles. Consultez les informations par heures, coût ou recettes. Pour plus d’informations sur le rapport Utilisation, voir [Affichage des informations sur l’utilisation des ressources](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **Analyse** : en tant que responsable des ressources, responsable de projet ou responsable de personnes, consultez le rapport d’utilisation pour comparer les affectations prévues et budgétées de vos ressources aux affectations réelles. Consultez les informations par heures, coût ou chiffre d’affaires. Pour plus d’informations sur l’utilisation du rapport d’utilisation, voir [Afficher des informations sur l’utilisation des ressources](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## Accès nécessaire pour afficher et gérer les ressources à l’aide des outils de gestion des ressources dans Workfront
 
-Les utilisateurs suivants ont accès aux outils de gestion des ressources dans Workfront :
+Les personnes suivantes ont accès aux outils de gestion des ressources dans Workfront :
 
-Vous devez être l’un des utilisateurs suivants et disposer des droits d’accès et des autorisations suivants pour accéder aux outils de gestion des ressources :
+Vous devez être l’une des personnes suivantes et disposer des autorisations et droits d’accès ci-après pour accéder aux outils de gestion des ressources :
 
-* Administrateur système.
-* Un utilisateur disposant d’une licence Plan.
+* L’administrateur ou administratrice système.
+* Un utilisateur ou une utilisatrice disposant d’une licence de plan.
 
-  Un utilisateur disposant d’une licence de travail peut utiliser l’équilibreur de charge de travail d’un projet et gérer les affectations et les affectations.
+  Une personne disposant d’une licence de travail peut utiliser l’équilibreur de charge de travail d’un projet et gérer les affectations reçues et attribuées.
 
-  Outre le fait d’avoir une licence Work ou supérieure, vous devez disposer des éléments suivants pour utiliser des outils de gestion de ressources spécifiques :
+  Outre le fait d’avoir une licence Travail ou supérieure, vous devez disposer des éléments suivants pour utiliser des outils de gestion de ressources spécifiques :
 
-   * Modifier l’accès à la gestion des ressources (non nécessaire pour effectuer des affectations dans l’équilibreur de charge de travail)
+   * Modifier l’accès à la gestion des ressources (non nécessaire pour réaliser des affectations dans l’équilibreur de charge de travail)
    * Modifier l’accès aux données financières pour afficher les informations de coût dans le planificateur de ressources
-   * Afficher l’accès aux données financières pour afficher les informations sur les coûts et les recettes dans le rapport d’utilisation (seuls les utilisateurs disposant d’une licence Plan)
+   * Afficher l’accès aux données financières pour afficher les informations sur les coûts et le chiffre d’affaires dans le rapport d’utilisation (seules les personnes disposant d’une licence de plan)
 
-* Contribuez à des autorisations ou des autorisations supérieures qui incluent l’option Rendre des affectations sur les projets pour lesquels vous souhaitez gérer des ressources.
+* Contribute ou autorisations supérieures qui incluent l’option Rendre des affectations sur les projets pour lesquels vous souhaitez gérer des ressources.
 
 <!--
 * Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).
@@ -157,21 +157,21 @@ Vous devez être l’un des utilisateurs suivants et disposer des droits d’acc
   >You do not have to be a Resource Manager to use the Resource Planner, Scenario Planner, or the Workload Balancer. 
 -->
 
-Pour plus d’informations sur l’accès aux ressources du budget, consultez l’article . [Accès aux ressources du budget](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Pour plus d’informations sur le nouvel accès requis pour la budgétisation des ressources, voir [Accès requis aux ressources budgétaires](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Pour plus d’informations sur l’accès nécessaire à la gestion des ressources dans l’équilibreur de charge de travail, voir [Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+Pour plus d’informations sur l’accès nécessaire à la planification des ressources à l’aide de l’équilibreur de charge de travail, voir [Accès requis pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 ## Prérequis pour une gestion précise des ressources  {#prerequisites-for-accurate-resource-management}
 
-Pour pouvoir utiliser efficacement les outils de gestion des ressources de Workfront, vous devez répondre à un ensemble de exigences.
+Pour pouvoir utiliser efficacement les outils de gestion des ressources de Workfront, vous devez répondre à un ensemble d’exigences.
 
-Pour plus d’informations sur les exigences de chaque outil de gestion des ressources dans Workfront, voir :
+Pour plus d’informations sur les exigences de chaque outil de gestion des ressources dans Workfront, voir :
 
-* La section [Conditions préalables pour travailler dans le planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) dans l’article [Présentation de Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* La section [Conditions préalables pour travailler dans le planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) de l’article [Présentation du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* La section [Bonnes pratiques relatives à l’utilisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) dans l’article [Présentation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
-* [Accès aux ressources de budget nécessaires dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
-* [Accès nécessaire pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+* La section [Bonnes pratiques relatives à l’utilisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) de l’article [Vue d’ensemble de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* [Accès requis pour budgétiser les ressources dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+* [Accès requis pour gérer les ressources dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

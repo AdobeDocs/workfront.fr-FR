@@ -4,15 +4,15 @@ content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: Mises à jour suivies par le système
-description: Adobe Workfront capture l’activité qui se produit sur certains objets en consignant les informations d’état dans le rapport [!UICONTROL Mises à jour] zone.
+description: Adobe Workfront capture l’activité qui se produit sur certains objets en consignant les informations de statut dans la zone [!UICONTROL Mises à jour] de l’objet.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] capture l’activité qui se produit sur certains objets en consignant des informations d’état dans le rapport [!UICONTROL Mises à jour] .
+[!DNL Adobe Workfront] capture l’activité qui se produit sur certains objets en consignant des informations relatives au statut dans la section [!UICONTROL Mises à jour] de l’objet.
 
-Pour plus d’informations sur la section Mises à jour, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Pour plus d’informations sur la section Mises à jour, consultez la [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-La variable [!UICONTROL Mises à jour] comprend les types de mises à jour suivants :
+La zone [!UICONTROL Mises à jour] comprend les types de mises à jour suivants :
 
-* **Mises à jour de l’utilisateur :** saisie manuellement par les utilisateurs ; On parle également de commentaires, de réponses et de notes. Les mises à jour des utilisateurs s’affichent dans les onglets Commentaires et Tous de la section Mises à jour d’un objet.
+* **Mises à jour par les utilisateurs et utilisatrices :** informations saisies manuellement par les utilisateurs et utilisatrices. Il peut s’agir de commentaires, de réponses ou de notes. Les mises à jour apportées par les utilisateurs et utilisatrices s’affichent dans les onglets Commentaires et Tous de la section Mises à jour d’un objet.
 
-  Pour plus d’informations sur la configuration des mises à jour des utilisateurs, voir [Configuration des préférences pour les mises à jour des utilisateurs](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+  Pour plus d’informations sur la configuration des mises à jour apportées par les utilisateurs et utilisatrices, consultez la section [Configurer les préférences en matière de mises à jour apportées par les utilisateurs et utilisatrices](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
   ![](assets/updates-qs-350x125.png)
 
-* **Mises à jour système :** Créé automatiquement par le système. Une mise à jour du système comprend une brève note décrivant le type de changement survenu dans l’élément. Les mises à jour système s’affichent dans l’activité système et dans les onglets Toutes de la section Mises à jour d’un objet.
+* **Mises à jour système :** créés automatiquement par le système. Une mise à jour système comprend une brève note décrivant le type de modification apporté à l’élément. Les mises à jour système s’affichent dans les onglets Activité du système et Tous de la section Mises à jour d’un objet.
 
-  Pour plus d’informations sur les flux de mise à jour du système et leur activation, voir [Configuration des mises à jour du système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Pour plus d’informations sur les flux de mise à jour système et leur activation, consultez la section [Configurer les mises à jour système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
   ![](assets/system-updates-example-unified-stream.png)
 
@@ -54,38 +54,38 @@ La variable [!UICONTROL Mises à jour] comprend les types de mises à jour suiva
 
 ## Considérations sur les mises à jour suivies par le système
 
-Les mises à jour suivies par le système ne sont pas disponibles pour tous les objets disposant de la zone Mises à jour .
+Les mises à jour suivies par le système ne sont pas disponibles pour tous les objets disposant de la zone Mises à jour.
 
-* La variable [!UICONTROL Mises à jour] est disponible pour les objets suivants :
+* La zone [!UICONTROL Mises à jour] est disponible pour les objets suivants :
 
    * [!UICONTROL Projet]
    * [!UICONTROL Tâche]
    * [!UICONTROL Problème]
    * [!UICONTROL Portfolio]
    * [!UICONTROL Programme]
-   * [!UICONTROL Utilisateur]
+   * [!UICONTROL Utilisateur ou utilisatrice]
    * [!UICONTROL Modèle]
-   * [!UICONTROL Tâche du modèle]
+   * [!UICONTROL Tâche de modèle]
    * [!UICONTROL Équipe]
    * [!UICONTROL Document]
-   * [!UICONTROL Feuille de calcul]
-   * [!UICONTROL Histoire]
+   * [!UICONTROL Feuille de temps]
+   * [!UICONTROL Story]
 
-     Dans [!DNL Workfront], une histoire est une tâche.
+     Dans [!DNL Workfront], une story est une tâche.
    * [!UICONTROL Itération]
    * [!UICONTROL Objectif]
 
-     Vous devez disposer d’une licence supplémentaire pour avoir accès à la variable [!UICONTROL Objectifs] zone. Pour plus d’informations, voir [Conditions requises pour utiliser les objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     L’accès à la zone [!UICONTROL Objectifs] nécessite une licence supplémentaire. Pour plus d’informations, consultez la section [Exigences pour l’utilisation des Objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Carte] sur un panorama
 
-     Pour plus d’informations sur les mises à jour des cartes, voir [Utilisation de cartes connectées sur les panoramas](../../../agile/get-started-with-boards/connected-cards.md).
+     Pour plus d’informations sur les mises à jour des cartes, consultez la section [Utiliser des cartes connectées sur les panoramas](../../../agile/get-started-with-boards/connected-cards.md).
 
-* [!DNL Workfront] ne suit pas les mises à jour système pour les objets suivants :
+* [!DNL Workfront] ne suit pas les mises à jour système pour les objets suivants :
 
    * [!UICONTROL Équipe]
    * [!UICONTROL Modèle]
-   * [!UICONTROL Tâche du modèle]
-   * Ad hoc [!UICONTROL Carte]
+   * [!UICONTROL Tâche de modèle]
+   * [!UICONTROL Carte] ad hoc
    * [!UICONTROL Itérations]
 
 
@@ -94,11 +94,11 @@ Les mises à jour suivies par le système ne sont pas disponibles pour tous les 
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* Les mises à jour des utilisateurs s’affichent dans l’onglet Commentaires et les mises à jour système s’affichent dans l’activité système et dans les onglets Tous .
+* Les mises à jour apportées par les utilisateurs et utilisatrices s’affichent dans l’onglet Commentaires et les mises à jour système s’affichent dans les onglets Activité du système et Tous.
 
-  Pour obtenir la liste des objets ne disposant pas des onglets Activité système ou Tous, voir [Mise à jour de la section - Aperçu](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+  Pour obtenir la liste des objets ne disposant pas des onglets Activité du système ou Tous, consultez la [Vue d’ensemble de la section Mise à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* Vous ne pouvez pas ajouter de réponse à une mise à jour du système. Toutefois, toutes les réponses apportées aux enregistrements d’activité du système dans l’expérience de commentaire héritée avant le 11 avril 2024 sont renseignées en lecture seule dans l’onglet Activité du système.
+* Vous ne pouvez pas ajouter de réponse à une mise à jour système. Toutefois, toutes les réponses apportées aux enregistrements d’activité du système dans l’ancienne expérience de commentaire avant le 11 avril 2024 sont renseignées en lecture seule dans l’onglet Activité du système.
 
 <!--
 * The following are differences between the new and the legacy commenting experience: 
@@ -119,10 +119,10 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* [!DNL Workfront] Les administrateurs peuvent définir le type de modifications dont le système doit effectuer le suivi dans la variable [!UICONTROL Mises à jour] zone. Tous les objets qui ont une propriété [!UICONTROL Mises à jour] zone également configurable [!UICONTROL update] flux. Les objets suivants ont une propriété [!UICONTROL Mises à jour] zone qui capture les flux de mise à jour trackés par le système, mais qui ne comporte pas de flux de mise à jour configurables :
+* L’administration de [!DNL Workfront] peut définir le type de modifications dont le système doit effectuer le suivi dans la zone [!UICONTROL Mises à jour]. Tous les objets disposant d’une zone [!UICONTROL Mises à jour] ont également des flux de [!UICONTROL mise à jour] configurables. Les objets suivants ont une zone [!UICONTROL Mises à jour] qui capture les flux de mise à jour suivis par le système, mais leurs flux de mise à jour ne sont pas configurables :
 
    * [!UICONTROL Document]
-   * [!UICONTROL Feuille de calcul]
+   * [!UICONTROL Feuille de temps]
    * [!UICONTROL Itération]
    * [!UICONTROL Objectif]
 

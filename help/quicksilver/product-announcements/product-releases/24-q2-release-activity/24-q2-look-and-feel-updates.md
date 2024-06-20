@@ -1,37 +1,37 @@
 ---
-title: Mises à jour de l’apparence pendant la période de publication du deuxième trimestre 2024
-description: Mises à jour de l’apparence pendant la période de publication du deuxième trimestre 2024
+title: Mises à jour de l’apparence et de la convivialité au cours des versions publiées au deuxième trimestre 2024
+description: Mises à jour de l’apparence et de la convivialité au cours des versions publiées au deuxième trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
 source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Mises à jour de l’apparence pendant la période de publication du deuxième trimestre 2024
+# Mises à jour de l’apparence et de la convivialité au cours des versions publiées au deuxième trimestre 2024
 
-Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication du deuxième trimestre 2024.
+Cette page décrit les mises à jour mineures apportées à l’aspect des différentes zones de l’application Adobe Workfront au cours des versions publiées au deuxième trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version du deuxième trimestre 2024, voir [Présentation de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Pour obtenir la liste de toutes les modifications apportées par les versions publiées au deuxième trimestre 2024, consultez l’article [Vue d’ensemble des versions publiées au deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
-## Mises à jour de l’apparence pour deux modèles d’email
-
->[!NOTE]
->
->Version pour tous les clients : avec la version 24.2 (15 février 2024)
-
-Les modèles de courrier électronique permettant d’ajouter un approbateur à une ressource et un utilisateur à un panorama ont été mis à jour afin de mieux correspondre aux autres modèles de courrier électronique Adobe et d’améliorer la clarté et la convivialité.
-
-## Nouvelles mises à jour de l’apparence pour les onglets dans la zone Forms personnalisée
+## Mises à jour de l’aspect de deux modèles d’e-mail
 
 >[!NOTE]
 >
->Aperçu de la version : 8 février 2024 ; Production pour une version rapide : avec la version 24.3 (14 mars 2024) ; Production pour une version trimestrielle : avec la version 24.4 (11 avril 2024)
+>Version pour l’ensemble des clientes et clients : avec la version 24.2 (15 février 2024)
 
-Nous avons mis à jour les onglets de Forms, Fields et Sections dans la zone Configuration > Forms personnalisé afin qu’ils soient plus modernes et cohérents avec les autres zones de Workfront. Vous pouvez désormais accéder aux trois zones à partir du menu de navigation de gauche. Des filtres, des vues et des regroupements sont toujours disponibles pour les listes. La conception mise à jour s’applique aux formulaires personnalisés, aux champs et aux sections créés à la fois dans le nouveau concepteur de formulaires et dans l’ancien créateur de formulaires.
+Les modèles d’-mail permettant d’ajouter une personne approbatrice à une ressource et un utilisateur ou une utilisatrice à un panorama ont été mis à jour afin de mieux correspondre aux autres modèles d’e-mail Adobe et d’améliorer la clarté et la convivialité.
 
-Pour plus d’informations, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) et [Création ou modification d’un formulaire personnalisé avec le créateur de formulaires hérité](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+## Mises à jour de l’aspect pour les onglets dans la zone Formulaires personnalisés
+
+>[!NOTE]
+>
+>Version de prévisualisation : 8 février 2024. Production pour un déploiement rapide : avec la version 24.3 (14 mars 2024). Production pour l’ensemble des clientes et clients : avec la version 24.4 (11 avril 2024)
+
+Nous avons mis à jour les onglets Formulaires, Champs et Sections dans la zone Configuration > Formulaires personnalisés afin de les rendre plus modernes et cohérents avec les autres zones de Workfront. Vous pouvez désormais accéder aux trois zones à partir du menu de navigation de gauche. Les filtres, les vues et les regroupements sont toujours disponibles pour les listes. Cette mise à jour s’applique aux formulaires personnalisés, aux champs et aux sections créés dans le nouveau et l’ancien créateur de formulaires.
+
+Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) et [Créer ou modifier un formulaire personnalisé avec le créateur de formulaire hérité](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).

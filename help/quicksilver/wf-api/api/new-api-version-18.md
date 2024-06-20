@@ -1,36 +1,36 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 18
-description: Adobe Workfront a publié la version 18 de l’API le 6 avril 2022. La version 18 de l’API présente les modifications suivantes par rapport à la version 15.
+title: Nouveautés de la version 18 de l’API
+description: Adobe Workfront a publié la version 18 de l’API le 6 avril 2022. La version 18 de l’API comprend les modifications suivantes par rapport à la version 15.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
 source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1141'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Nouveautés de l’API version 18
+# Nouveautés de la version 18 de l’API
 
-Adobe Workfront a publié la version 18 de l’API le 8 avril 2024. La version 18 de l’API présente les modifications suivantes par rapport à la version 15.
+Adobe Workfront a publié la version 18 de l’API le 8 avril 2024. La version 18 de l’API comprend les modifications suivantes par rapport à la version 15.
 
 ## Ressources ajoutées
 
-Aucune ressource n’a été ajoutée pour l’API version 18.
+Aucune ressource n’a été ajoutée pour la version 18 de l’API.
 
 ## Ressources supprimées
 
-Aucune ressource n’a été supprimée pour l’API version 18
+Aucune ressource n’a été supprimée pour la version 18 de l’API.
 
 ## Ressources modifiées
 
 ### AccessLevelPermissions (ALVPER)
 
-Un objet AccessLevelPermissions représente une autorisation spécifique d&#39;accès, de création ou de modification d&#39;un objet Workfront. Ces autorisations peuvent ensuite être associées à un niveau d’accès.
+Un objet AccessLevelPermissions représente une autorisation spécifique d’accès, de création ou de modification d’un objet Workfront. Ces autorisations peuvent ensuite être associées à un niveau d’accès.
 
 <table>
   <col/>
@@ -43,75 +43,75 @@ Un objet AccessLevelPermissions représente une autorisation spécifique d&#39;a
           <li>
             <p><b>coreAction</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Afficher les taux de coûts)</p>
+                <p><code>VIEW_COST_RATES</code> (Afficher les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Afficher les taux de facturation)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher finances générales)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher les finances générales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Modifier les taux de coûts)</p>
+                <p><code>EDIT_COST_RATES</code> (Modifier les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Modifier les taux de facturation)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier finances générales)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier les finances générales)</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>forbiddenActions</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Afficher les taux de coûts)</p>
+                <p><code>VIEW_COST_RATES</code> (Afficher les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Afficher les taux de facturation)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher finances générales)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher les finances générales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Modifier les taux de coûts)</p>
+                <p><code>EDIT_COST_RATES</code> (Modifier les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Modifier les taux de facturation)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier finances générales)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier les finances générales)</p>
               </li>
             </ul>
          </li>
           <li>
             <p><b>secondaryActions</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Afficher les taux de coûts)</p>
+                <p><code>VIEW_COST_RATES</code> (Afficher les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Afficher les taux de facturation)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher finances générales)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher les finances générales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Modifier les taux de coûts)</p>
+                <p><code>EDIT_COST_RATES</code> (Modifier les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Modifier les taux de facturation)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier finances générales)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier les finances générales)</p>
               </li>
             </ul>
           </li>
@@ -121,9 +121,9 @@ Un objet AccessLevelPermissions représente une autorisation spécifique d&#39;a
   </tbody>
 </table>
 
-### Demande d&#39;accès (ACSREQ)
+### AccessRequest (ACSREQ)
 
-Si un utilisateur n’a pas accès à un objet dans Workfront dont il a besoin, il peut demander l’accès à cet objet. L&#39;objet AccessRequest représente cette demande.
+Si un utilisateur ou une utilisatrice n’a pas accès à un objet Workfront dont il ou elle a besoin, il ou elle peut demander l’accès à cet objet. L’objet AccessRequest représente cette demande.
 
 <table>
   <col/>
@@ -136,25 +136,25 @@ Si un utilisateur n’a pas accès à un objet dans Workfront dont il a besoin, 
           <li>
             <p><b>action</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Afficher les taux de coûts)</p>
+                <p><code>VIEW_COST_RATES</code> (Afficher les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Afficher les taux de facturation)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher finances générales)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher les finances générales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Modifier les taux de coûts)</p>
+                <p><code>EDIT_COST_RATES</code> (Modifier les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Modifier les taux de facturation)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier finances générales)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier les finances générales)</p>
               </li>
             </ul>
           </li>
@@ -164,9 +164,9 @@ Si un utilisateur n’a pas accès à un objet dans Workfront dont il a besoin, 
   </tbody>
 </table>
 
-### Règle d’accès (ACSRUL)
+### AccessRule (ACSRUL)
 
-Un objet AccessRule représente un ensemble de règles dans les niveaux d&#39;accès personnalisés qui détermine comment les utilisateurs peuvent partager les projets qu&#39;ils créent.
+Un objet AccessRule représente un jeu de règles dans les niveaux d’accès personnalisés qui détermine comment les utilisateurs et les utilisatrices peuvent partager les projets qu’ils ou elles créent.
 
 <table>
   <col/>
@@ -179,75 +179,75 @@ Un objet AccessRule représente un ensemble de règles dans les niveaux d&#39;ac
           <li>
             <p><b>coreAction</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Afficher les taux de coûts)</p>
+                <p><code>VIEW_COST_RATES</code> (Afficher les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Afficher les taux de facturation)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher finances générales)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher les finances générales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Modifier les taux de coûts)</p>
+                <p><code>EDIT_COST_RATES</code> (Modifier les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Modifier les taux de facturation)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier finances générales)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier les finances générales)</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>forbiddenActions</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Afficher les taux de coûts)</p>
+                <p><code>VIEW_COST_RATES</code> (Afficher les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Afficher les taux de facturation)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher finances générales)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher les finances générales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Modifier les taux de coûts)</p>
+                <p><code>EDIT_COST_RATES</code> (Modifier les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Modifier les taux de facturation)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier finances générales)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier les finances générales)</p>
               </li>
             </ul>
          </li>
           <li>
             <p><b>secondaryActions</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Afficher les taux de coûts)</p>
+                <p><code>VIEW_COST_RATES</code> (Afficher les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Afficher les taux de facturation)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher finances générales)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher les finances générales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Modifier les taux de coûts)</p>
+                <p><code>EDIT_COST_RATES</code> (Modifier les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Modifier les taux de facturation)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier finances générales)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier les finances générales)</p>
               </li>
             </ul>
           </li>
@@ -257,9 +257,9 @@ Un objet AccessRule représente un ensemble de règles dans les niveaux d&#39;ac
   </tbody>
 </table>
 
-### Approbation (APPROBATION)
+### Approval (APPROVAL)
 
-Un élément de travail donné, tel qu’une tâche, un document ou une feuille de temps, peut nécessiter l’approbation d’un superviseur ou d’un autre utilisateur sur l’élément de travail. Un objet d&#39;approbation représente l&#39;action d&#39;approbation d&#39;un élément de travail.
+Un élément de travail donné, tel qu’une tâche, un document ou une feuille de temps, peut exiger qu’un superviseur ou une superviseuse, ou un autre utilisateur ou une autre utilisatrice, valide l’élément de travail. Un objet Approval représente l’action de validation d’un élément de travail.
 
 <table>
   <col/>
@@ -270,23 +270,23 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
       <td>
         <ul>
           <li>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             </p>
             <ul>
               <li>
-                <p><b>realBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>realNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>coûtDépenseNonFacturablePrévu</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -297,7 +297,7 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
   </tbody>
 </table>
 
-### En attente d’approbation (AWAPVL)
+### AwaitApproval (AWAPVL)
 
 <table>
   <tbody>
@@ -306,11 +306,11 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
       <td>
         <ul>
           <li>
-            <p>Ajout des opérations suivantes :
+            <p>Ajout des opérations suivantes :
             </p>
             <ul>
               <li>
-                <p><b>AJOUTER</b>
+                <p><b>ADD</b>
                 </p>
               </li>
               <li>
@@ -325,9 +325,9 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
   </tbody>
 </table>
 
-### Ligne de base (BLIN)
+### Baseline (BLIN)
 
-Les références sont des instantanés de la performance d’un projet à un moment donné dans le temps. Ils stockent des informations clés sur le projet, telles que les dates clés, l’avancement, les coûts et les valeurs de chiffre d’affaires.
+Les références sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés, la progression, et les valeurs de coût et de revenu.
 
 <table>
   <col/>
@@ -338,23 +338,23 @@ Les références sont des instantanés de la performance d’un projet à un mom
       <td>
         <ul>
           <li>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             </p>
             <ul>
               <li>
-                <p><b>realBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>realNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>coûtDépenseNonFacturablePrévu</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -365,9 +365,9 @@ Les références sont des instantanés de la performance d’un projet à un mom
   </tbody>
 </table>
 
-### Tâche de ligne de base (BSTSK)
+### BaselineTask (BSTSK)
 
-Les références sont des instantanés de la performance d’un projet à un moment donné dans le temps. Ils stockent des informations clés sur le projet, telles que les dates clés, l’avancement, les coûts et les valeurs de chiffre d’affaires. Lorsque vous créez une planification, les informations sur la tâche sont également capturées sur les tâches planifiées de cette planification.
+Les références sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés, la progression, et les valeurs de coût et de revenu. Lorsque vous créez une référence, les informations de tâche sont également capturées sur les tâches de base de cette référence.
 
 <table>
   <col/>
@@ -378,23 +378,23 @@ Les références sont des instantanés de la performance d’un projet à un mom
       <td>
         <ul>
           <li>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             </p>
             <ul>
               <li>
-                <p><b>realBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>realNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>coûtDépenseNonFacturablePrévu</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -405,9 +405,9 @@ Les références sont des instantanés de la performance d’un projet à un mom
   </tbody>
 </table>
 
-### Catégorie (CTY)
+### Category (CTGY)
 
-Un objet Catégorie est un formulaire personnalisé.
+Un objet Category est un formulaire personnalisé.
 
 <table>
   <col/>
@@ -418,12 +418,12 @@ Un objet Catégorie est un formulaire personnalisé.
       <td>
         <ul>
           <li>
-            <p><b>catObjCode</b>:
+            <p><b>catObjCode</b> :
             </p>
-            <p>Ajout des valeurs possibles suivantes :
+            <p>Ajout des valeurs possibles suivantes :
             <ul>
               <li>
-                <p><code>NLBRCY</code> (Catégorie de ressources non liées à la main-d’œuvre)
+                <p><code>NLBRCY</code> (Catégorie de ressources non liée à la main-d’œuvre)
                 </p>
               </li>
               <li>
@@ -438,12 +438,12 @@ Un objet Catégorie est un formulaire personnalisé.
              </p>
           </li>
           <li>
-            <p><b>objTypes</b>:
+            <p><b>objTypes</b> :
             </p>
-            <p>Ajout des valeurs possibles suivantes :
+            <p>Ajout des valeurs possibles suivantes :
             <ul>
               <li>
-                <p><code>NLBRCY</code> (Catégorie de ressources non liées à la main-d’œuvre)
+                <p><code>NLBRCY</code> (Catégorie de ressources non liée à la main-d’œuvre)
                 </p>
               </li>
               <li>
@@ -465,7 +465,7 @@ Un objet Catégorie est un formulaire personnalisé.
 
 ### Document (DOCU)
 
-Un objet Document représente un fichier (tel qu&#39;un document écrit, des images ou d&#39;autres formes d&#39;informations).
+Un objet Document représente un fichier (tel qu’un support écrit, des images ou d’autres formes d’informations).
 
 <table>
   <col/>
@@ -476,9 +476,9 @@ Un objet Document représente un fichier (tel qu&#39;un document écrit, des ima
       <td>
         <ul>
           <li>
-            <p><b>createLargeDocument</b>:
+            <p><b>createLargeDocument</b> :
             </p>
-            <p>Ajout du paramètre suivant :
+            <p>Ajout du paramètre suivant :
             <ul>
               <li>
                 <p><code>documentID</code> 
@@ -488,9 +488,9 @@ Un objet Document représente un fichier (tel qu&#39;un document écrit, des ima
              </p>
           </li>
           <li>
-            <p><b>moveToFolder</b>:
+            <p><b>moveToFolder</b> :
             </p>
-            <p>Ajouté. Cette nouvelle action utilise les paramètres suivants :
+            <p>Ajouté. Cette nouvelle action utilise les paramètres suivants :
             <ul>
               <li>
                 <p><code>documentIDs</code>
@@ -513,7 +513,7 @@ Un objet Document représente un fichier (tel qu&#39;un document écrit, des ima
   </tbody>
 </table>
 
-### Données financières (FINDAT)
+### FinancialData (FINDAT)
 
 <table>
   <col/>
@@ -524,23 +524,23 @@ Un objet Document représente un fichier (tel qu&#39;un document écrit, des ima
       <td>
         <ul>
           <li>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             </p>
             <ul>
               <li>
-                <p><b>realBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>realNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>coûtDépenseNonFacturablePrévu</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -553,23 +553,23 @@ Un objet Document représente un fichier (tel qu&#39;un document écrit, des ima
       <td>
         <ul>
           <li>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             </p>
             <ul>
               <li>
-                <p><b>realBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>realNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>coûtDépenseNonFacturablePrévu</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -580,9 +580,9 @@ Un objet Document représente un fichier (tel qu&#39;un document écrit, des ima
   </tbody>
 </table>
 
-### Entrée de journal (JRNLE)
+### JournalEntry (JRNLE)
 
-L&#39;objet JournalEntry peut être configuré pour enregistrer des informations sur des champs d&#39;objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être enregistré dans l’objet Entrée du journal, une entrée du journal correspondante sera créée chaque fois que ce champ sera modifié.
+L’objet JournalEntry peut être configuré pour consigner des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être consigné dans le cadre de l’objet d’entrée du journal, une entrée du journal correspondante est créée chaque fois que ce champ est modifié.
 
 <table>
   <col/>
@@ -595,10 +595,10 @@ L&#39;objet JournalEntry peut être configuré pour enregistrer des informations
           <li>
             <p><b>changeType</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p><code>AAO</code> (enum.actiontypeenum.assetapproval.opens)</p>
+                <p><code>AAO</code> (enum.actiontypeenum.assetapproval.opened)</p>
               </li>
               <li>
                 <p><code>ADM</code> (enum.actiontypeenum.assetapproval.locked.all.decisions.made)</p>
@@ -619,7 +619,7 @@ L&#39;objet JournalEntry peut être configuré pour enregistrer des informations
 
 ### OpTask (OPTASK)
 
-Un objet OpTask est communément appelé événement. Un événement est un élément de travail qui indique généralement qu’il existe un problème empêchant l’achèvement d’une tâche ou d’un projet. Un événement peut également être une demande du Help Desk. Les ordres de modification, les demandes et les bogues sont également des problèmes.
+Un objet OpTask est généralement appelé un Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Les ordres de modification, les demandes et les bogues sont également des problèmes.
 
 <table>
   <col/>
@@ -630,9 +630,9 @@ Un objet OpTask est communément appelé événement. Un événement est un él�
       <td>
         <ul>
           <li>
-            <p><b>convertToProject</b>:
+            <p><b>convertToProject</b> :
             </p>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             <ul>
               <li>
                 <code>copyCategories</code></li><li><code>copyNativeFields</code>
@@ -642,9 +642,9 @@ Un objet OpTask est communément appelé événement. Un événement est un él�
              </p>
           </li>
           <li>
-            <p><b>convertToTask</b>:
+            <p><b>convertToTask</b> :
             </p>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             <ul>
               <li>
                 <code>copyCategories</code></li><li><code>copyNativeFields</code>
@@ -659,9 +659,9 @@ Un objet OpTask est communément appelé événement. Un événement est un él�
   </tbody>
 </table>
 
-### Projet (PROJ)
+### Project (PROJ)
 
-Les projets sont des éléments de travail dans Workfront et constituent un élément essentiel de la manière dont Workfront aide les utilisateurs à travailler. Un objet Project représente un groupe de tâches ayant un objectif commun et spécifique.
+Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Project représente un groupe de tâches avec un objectif commun et spécifique.
 
 <table>
   <col/>
@@ -672,23 +672,23 @@ Les projets sont des éléments de travail dans Workfront et constituent un él�
       <td>
         <ul>
           <li>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             </p>
             <ul>
               <li>
-                <p><b>realBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>realNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>coûtDépenseNonFacturablePrévu</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -722,7 +722,7 @@ Les projets sont des éléments de travail dans Workfront et constituent un él�
       <td>
         <ul>
           <li>
-            <p>Ajout du champ suivant :
+            <p>Ajout du champ suivant :
             </p>
             <ul>
               <li>
@@ -739,7 +739,7 @@ Les projets sont des éléments de travail dans Workfront et constituent un él�
       <td>
         <ul>
           <li>
-            <p>Ajout du champ suivant :
+            <p>Ajout du champ suivant :
             </p>
             <ul>
               <li>
@@ -756,7 +756,7 @@ Les projets sont des éléments de travail dans Workfront et constituent un él�
 
 ### QueueDef (QUED)
 
-Un objet QueueDef représente une file d&#39;attente, qui est un projet qui a été publié dans la zone du Help Desk pour permettre aux utilisateurs d&#39;y soumettre des problèmes.
+Un objet QueueDef représente une file d’attente, à savoir un projet qui a été publié dans la zone Centre d’assistance pour permettre aux utilisateurs et utilisatrices d’y envoyer des problèmes.
 
 <table>
   <col/>
@@ -769,50 +769,50 @@ Un objet QueueDef représente une file d&#39;attente, qui est un projet qui a é
           <li>
             <p><b>requestorCoreAction</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Afficher les taux de coûts)</p>
+                <p><code>VIEW_COST_RATES</code> (Afficher les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Afficher les taux de facturation)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher finances générales)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher les finances générales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Modifier les taux de coûts)</p>
+                <p><code>EDIT_COST_RATES</code> (Modifier les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Modifier les taux de facturation)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier finances générales)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier les finances générales)</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>requestorForbiddenActions</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Afficher les taux de coûts)</p>
+                <p><code>VIEW_COST_RATES</code> (Afficher les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>VIEW_BILLING_RATES</code> (Afficher les taux de facturation)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher finances générales)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Afficher les finances générales)</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> (Modifier les taux de coûts)</p>
+                <p><code>EDIT_COST_RATES</code> (Modifier les taux de dépenses)</p>
               </li>
               <li>
                 <p><code>EDIT_BILLING_RATES</code> (Modifier les taux de facturation)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier finances générales)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Modifier les finances générales)</p>
               </li>
             </ul>
          </li>
@@ -822,7 +822,7 @@ Un objet QueueDef représente une file d&#39;attente, qui est un projet qui a é
   </tbody>
 </table>
 
-### Taux (TAUX)
+### Rate (RATE)
 
 Un objet Rate représente un taux de facturation dans Workfront.
 
@@ -833,7 +833,7 @@ Un objet Rate représente un taux de facturation dans Workfront.
       <td>
         <ul>
           <li>
-            <p><b>companyID</b></p><p>Ajout des indicateurs suivants :
+            <p><b>companyID</b></p><p>Ajout des indicateurs suivants :
             </p>
             <ul>
               <li>
@@ -841,7 +841,7 @@ Un objet Rate représente un taux de facturation dans Workfront.
                 </p>
               </li>
               <li>
-                <p>DYNAMIQUE
+                <p>DYNAMIC
                 </p>
               </li>
              </ul>
@@ -866,9 +866,9 @@ Un objet Rate représente un taux de facturation dans Workfront.
 </table>
 
 
-### Tâche (TÂCHE)
+### Task (TASK)
 
-Un objet Tâche représente un élément de travail qui doit être effectué en tant qu’étape vers l’objectif final (terminer un projet).
+Un objet Task représente un élément de travail qui doit être exécuté en tant qu’étape vers la réalisation d’un objectif final (achèvement d’un projet).
 
 <table>
   <col/>
@@ -879,23 +879,23 @@ Un objet Tâche représente un élément de travail qui doit être effectué en 
       <td>
         <ul>
           <li>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             </p>
             <ul>
               <li>
-                <p><b>realBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>realNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>coûtDépenseNonFacturablePrévu</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -910,7 +910,7 @@ Un objet Tâche représente un élément de travail qui doit être effectué en 
           <li>
             <p><b>convertToProject</b>
             </p>
-             <p>Ajout du champ suivant :
+             <p>Ajout du champ suivant :
              <ul><li><code>copyCategories</code></li></ul>
             </p>
            </li>
@@ -920,7 +920,7 @@ Un objet Tâche représente un élément de travail qui doit être effectué en 
   </tbody>
 </table>
 
-### Modèle (TMPL)
+### Template (TMPL)
 
 Un objet Template représente un modèle pour un projet. Les projets peuvent être créés à partir de modèles pour gagner du temps. Un modèle contient une équipe et des tâches qui seront copiées dans tout projet créé à partir du modèle.
 
@@ -933,15 +933,15 @@ Un objet Template représente un modèle pour un projet. Les projets peuvent êt
       <td>
         <ul>
           <li>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             </p>
             <ul>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>coûtDépenseNonFacturablePrévu</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -953,9 +953,9 @@ Un objet Template représente un modèle pour un projet. Les projets peuvent êt
 </table>
 
 
-### TâcheModèle (TSK)
+### TemplateTask (TTSK)
 
-Un objet TemplateTask représente une tâche qui fait partie d&#39;un modèle. Les tâches de modèles deviennent des tâches dans le projet dans lequel le modèle est utilisé.<table>
+Un objet TemplateTask représente une tâche qui fait partie d’un modèle. Les tâches de modèle deviennent des tâches dans le projet où le modèle est utilisé.<table>
 <col/>
   <col/>
   <tbody>
@@ -964,15 +964,15 @@ Un objet TemplateTask représente une tâche qui fait partie d&#39;un modèle. L
       <td>
         <ul>
           <li>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             </p>
             <ul>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>coûtDépenseNonFacturablePrévu</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -983,7 +983,7 @@ Un objet TemplateTask représente une tâche qui fait partie d&#39;un modèle. L
   </tbody>
 </table>
 
-### TemplateUserRole (ÉQUIPE)
+### TemplateUserRole (TTEAM)
 
 <table>
   <tbody>
@@ -992,7 +992,7 @@ Un objet TemplateTask représente une tâche qui fait partie d&#39;un modèle. L
       <td>
         <ul>
           <li>
-            <p>Ajout du champ suivant :
+            <p>Ajout du champ suivant :
             </p>
             <ul>
               <li>
@@ -1009,7 +1009,7 @@ Un objet TemplateTask représente une tâche qui fait partie d&#39;un modèle. L
       <td>
         <ul>
           <li>
-            <p>Ajout du champ suivant :
+            <p>Ajout du champ suivant :
             </p>
             <ul>
               <li>
@@ -1024,9 +1024,9 @@ Un objet TemplateTask représente une tâche qui fait partie d&#39;un modèle. L
   </tbody>
 </table>
 
-### Feuille de temps (TSHET)
+### Timesheet (TSHET)
 
-Un objet de feuille de temps représente une carte de présence virtuelle qui permet aux utilisateurs de saisir les heures réellement travaillées pour les tâches, les projets et les types d&#39;heures de frais généraux.
+Un objet Timesheet représente une feuille de temps virtuelle qui permet aux utilisateurs et utilisatrices de saisir les heures effectives travaillées pour les heures de tâches, projets et types de frais.
 
 <table>
   <tbody>
@@ -1035,7 +1035,7 @@ Un objet de feuille de temps représente une carte de présence virtuelle qui pe
       <td>
         <ul>
           <li>
-            <p>Suppression du champ suivant :
+            <p>Suppression du champ suivant :
             </p>
             <ul>
               <li>
@@ -1050,9 +1050,9 @@ Un objet de feuille de temps représente une carte de présence virtuelle qui pe
   </tbody>
 </table>
 
-### Mettre à jour (MISE À JOUR)
+### Update (UPDATE)
 
-Les éléments de travail dans Workfront peuvent être mis à jour pour tenir les utilisateurs informés du statut actuel. Un objet Update représente l&#39;une de ces mises à jour. Les mises à jour peuvent être saisies par les utilisateurs ou créées par le système Workfront.
+Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir les utilisateurs et utilisatrices informés du statut actuel. Un objet Update représente l’une de ces mises à jour. Les mises à jour peuvent être saisies par les utilisateurs et utilisatrices ou créées par le système Workfront.
 
 <table>
   <col/>
@@ -1065,7 +1065,7 @@ Les éléments de travail dans Workfront peuvent être mis à jour pour tenir le
           <li>
             <p><b>updateType</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
              <ul>
               <li>
                 <p><code>assetapprovalsLockedAllDecisionsMade</code></p>
@@ -1101,7 +1101,7 @@ Les éléments de travail dans Workfront peuvent être mis à jour pour tenir le
 
 ### UserPrefValue (USERPF)
 
-Un objet UserPrefValue représente une préférence utilisateur.
+Un objet UserPrefValue représente une préférence utilisateur ou utilisatrice.
 
 <table>
   <col/>
@@ -1112,7 +1112,7 @@ Un objet UserPrefValue représente une préférence utilisateur.
       <td>
         <ul>
           <li>
-            <p><b>valeur</b>
+            <p><b>value</b>
             </p>
             <p>Ajout du programme de validation <code>MAX_LENGTH</code></p>
       </td>
@@ -1120,9 +1120,9 @@ Un objet UserPrefValue représente une préférence utilisateur.
   </tbody>
 </table>
 
-### Travail (TRAVAIL)
+### Work (WORK)
 
-Un objet de travail est une interface commune dont les propriétés Task et OpTask héritent et qui partage un code commun.
+Un objet Work est une interface commune dont Task et OpTask héritent tous deux, et partage le code commun entre les deux.
 
 <table>
   <col/>
@@ -1133,23 +1133,23 @@ Un objet de travail est une interface commune dont les propriétés Task et OpTa
       <td>
         <ul>
           <li>
-            <p>Ajout des champs suivants :
+            <p>Ajout des champs suivants :
             </p>
             <ul>
               <li>
-                <p><b>realBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>realNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>coûtDépenseNonFacturablePrévu</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>

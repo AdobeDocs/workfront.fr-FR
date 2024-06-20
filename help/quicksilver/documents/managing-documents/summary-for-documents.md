@@ -2,27 +2,27 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-documents
-title: Présentation du résumé des documents
+title: Résumé de la vue d’ensemble des documents
 description: Le résumé vous permet d’interagir avec des informations importantes directement depuis la liste des documents.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Présentation du résumé des documents
+# Résumé de la vue d’ensemble des documents
 
 <!--Audited: April, 2024-->
 
 Vous pouvez utiliser le panneau Résumé pour accéder à des informations importantes et les mettre à jour directement à partir de la liste des documents.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,83 +31,83 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p> Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p> N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licences Adobe Workfront*</td> 
-   <td> <p>Nouveau : contributeur ou version ultérieure</p> 
-   <p>Actuel : requête ou version ultérieure</p>
+   <td role="rowheader">Licences Adobe Workfront*</td> 
+   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p> 
+   <p>Actuelle : demande ou supérieure</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Modifier l’accès aux documents</p>  </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Accès en modification aux documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher l’accès à l’objet associé au document</p> </td> 
+   <td> <p>Accès d’affichage à l’objet associé au document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ouvrir la vue Résumé
 
-1. Accédez au **Documents** et sélectionnez un élément dans la liste.
-1. Cliquez sur le bouton **Icône Ouvrir le résumé** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Accédez à la zone **Documents** et sélectionnez un élément dans la liste.
+1. Cliquez sur l’**icône Ouvrir le résumé** ![](assets/qs-summary-in-new-toolbar-small.png).
 
-   Une fois le résumé ouvert, il reste ouvert lorsque vous cliquez sur d’autres documents et ouvert jusqu’à sa fermeture manuelle.
+   Une fois le résumé ouvert, il reste ouvert lorsque vous cliquez sur d’autres documents et jusqu’à sa fermeture manuelle.
 
    ![](assets/summary-details-350x585.png)
 
 ## Détails
 
-Utilisez la section Détails pour afficher des informations d’aperçu générales et interagir avec des formulaires personnalisés. Cliquez sur **Détails** en haut de la section pour accéder à la page Détails du document.
+Utilisez la section Détails pour afficher des informations de vue d’ensemble générales et interagir avec des formulaires personnalisés. Cliquez sur **Détails** en haut de la section pour accéder à la page Détails du document.
 
-* [Présentation](#overview)
+* [Vue d’ensemble](#overview)
 * [Formulaires personnalisés](#custom-forms)
 
 ![](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Vue d’ensemble {#overview}
 
-Développez la section Aperçu pour afficher ou télécharger une miniature d’image, ouvrir un BAT, mettre à jour la description de base, extraire le document, etc.
+Développez la section Vue d’ensemble pour afficher ou télécharger une miniature d’image, ouvrir une épreuve, mettre à jour la description de base, vérifier le document, etc.
 
 ![](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### Formulaires personnalisés {#custom-forms}
 
-Utilisez la section Forms personnalisée pour ajouter, modifier ou afficher tout formulaire personnalisé associé au document. Commencez à saisir le nom du formulaire personnalisé pour l’ajouter au document. Pour plus d’informations, voir [Ajouter ou modifier un formulaire personnalisé à un document](../../documents/managing-documents/add-custom-form-documents.md).
+Utilisez la section Formulaires personnalisés pour ajouter, modifier ou afficher tout formulaire personnalisé associé au document. Commencez à saisir le nom du formulaire personnalisé pour l’ajouter au document. Pour plus d’informations, voir [Ajouter ou modifier un formulaire personnalisé à un document](../../documents/managing-documents/add-custom-form-documents.md).
 
 ![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Mises à jour
 
-Utilisez la section Mises à jour pour lire une mise à jour effectuée sur le document ou le BAT. Le résumé présente les 2 premiers commentaires. Pour plus d’informations sur les mises à jour, voir [Commentaire sur un BAT](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+Utilisez la section Mises à jour pour lire une mise à jour effectuée sur le document ou l’épreuve. Le résumé présente les 2 premiers commentaires. Pour plus d’informations sur les mises à jour, voir [Commentaire sur une épreuve](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
 ![Section Mises à jour du panneau Résumé](assets/summary-updates-section-new-comments.png)
 
 ## Approbations
 
-Utilisez la section Validations pour demander la validation du document. Vous pouvez également rappeler une validation à une personne, la soumettre à nouveau et annuler la décision précédente, ou supprimer la validation. Les approbateurs de document peuvent utiliser le résumé pour prendre une décision.
+Utilisez la section Approbations pour demander l’approbation du document. Vous pouvez également rappeler une approbation à une personne, la soumettre à nouveau et annuler la décision précédente, ou supprimer l’approbation. Les approbateurs et approbatrices de document peuvent utiliser le résumé pour prendre une décision.
 
-Les validations de BAT doivent être ajoutées dans le workflow BAT. Pour plus d’informations sur les validations, voir
+Les approbations d’épreuve doivent être ajoutées dans le workflow de l’épreuve. Pour plus d’informations sur les approbations, voir
 
-* [Valider le travail](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [Approuver du travail](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Demander l’approbation de documents](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versions
 
-Utilisez la section Versions pour afficher le nombre de versions créées pour un document spécifique. Cliquez sur le bouton **Plus de menu** to
+Utilisez la section Versions pour afficher le nombre de versions créées pour un document spécifique. Cliquez sur le **menu Plus** pour :
 
-* Ouvrir un BAT
-* Téléchargement d’un BAT ou d’un document
-* Aperçu d’un document pris en charge par le navigateur
-* Accédez à Détails du document .
-* Suppression d’un BAT ou d’un document
+* ouvrir une épreuve ;
+* télécharger une épreuve ou d’un document ;
+* prévisualiser un document pris en charge par le navigateur ;
+* accéder à Détails du document ;
+* supprimer une épreuve ou un document.
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

@@ -2,70 +2,70 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Suppression de types d’objet sur un formulaire personnalisé
-description: Sur un formulaire personnalisé existant, vous pouvez supprimer les types d’objet associés au formulaire. Après cela, les utilisateurs ne peuvent plus joindre le formulaire à des objets de ce type.
+title: Supprimer des types d’objets sur un formulaire personnalisé
+description: Sur un formulaire personnalisé existant, vous pouvez supprimer les types d’objets associés au formulaire. Après cela, les utilisateurs et les utilisatrices ne peuvent plus joindre le formulaire à des objets de ce type.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
 source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Suppression de types d’objet sur un formulaire personnalisé
+# Supprimer des types d’objets sur un formulaire personnalisé
 
-Sur un formulaire personnalisé existant, vous pouvez supprimer les types d’objet associés au formulaire. Après cela, les utilisateurs ne peuvent plus joindre le formulaire à des objets de ce type.
+Sur un formulaire personnalisé existant, vous pouvez supprimer les types d’objets associés au formulaire. Après cela, les utilisateurs et les utilisatrices ne peuvent plus joindre le formulaire à des objets de ce type.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
-   <td>Quelconque</td> 
+   <td role="rowheader"> <p>Forfait Adobe Workfront</p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
+   <p>Nouvelle : standard</p>
    <p>ou</p>
-   <p>Actuel : formule</p></td>
+   <p>Actuelle : formule</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Accès administratif aux formulaires personnalisés</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Suppression de types d’objet sur un formulaire personnalisé
+## Supprimer des types d’objets sur un formulaire personnalisé
 
-Vous pouvez supprimer des types d’objet d’un formulaire personnalisé existant.
+Vous pouvez supprimer des types d’objets d’un formulaire personnalisé existant.
 
 Un formulaire personnalisé doit comporter au moins un type d’objet.
 
 >[!CAUTION]
 >
->Si des personnes ont déjà joint le formulaire personnalisé à des objets du type que vous souhaitez supprimer et y ont ajouté des données, ces données sont définitivement supprimées lorsque vous supprimez ce type d’objet sur le formulaire. Il peut inclure des informations historiques dont les utilisateurs auront besoin ultérieurement.
+>Si des personnes ont déjà joint le formulaire personnalisé à des objets du type que vous souhaitez supprimer et y ont ajouté des données, ces données sont définitivement supprimées lorsque vous supprimez ce type d’objet sur le formulaire. Cela peut inclure des informations historiques dont les utilisateurs et les utilisatrices auront besoin ultérieurement.
 >
->En règle générale, il est recommandé de réduire au minimum le nombre de fois où vous modifiez un formulaire personnalisé déjà utilisé. Il n’existe pas de système de notification pour alerter les personnes qui utilisent le formulaire personnalisé au sujet de vos modifications.
+>En règle générale, il est recommandé de réduire au minimum le nombre de fois où vous modifiez un formulaire personnalisé déjà utilisé. Il n’existe pas de système de notification pour informer les personnes qui utilisent le formulaire personnalisé de vos modifications.
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Forms personnalisée** dans le panneau de gauche.
-1. Sélectionnez le formulaire personnalisé à modifier, puis cliquez sur ![Icône Modifier](assets/edit-icon.png).
-1. Cliquez sur le X dans l’une des **Types d’objet** à supprimer du formulaire, puis cliquez sur **Supprimer** dans le message d’avertissement qui s’affiche.
+1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
+1. Sélectionnez le formulaire personnalisé que vous souhaitez modifier, puis cliquez sur l’![icône Modifier](assets/edit-icon.png).
+1. Cliquez sur X sur l’un des **Types d’objets** que vous souhaitez supprimer du formulaire, puis sur **Supprimer** dans le message d’avertissement qui s’affiche.
 
    ![](assets/click-x-object-types.jpg)
 
 1. (Facultatif) Répétez l’étape précédente pour tout autre type d’objet que vous souhaitez supprimer du formulaire.
-1. Cliquez sur **Terminé**, puis cliquez sur **Enregistrer et fermer**.
+1. Cliquez sur **Terminé**, puis sur **Enregistrer et fermer**.
