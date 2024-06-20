@@ -1,14 +1,14 @@
 ---
 title: Gérer la vue chronologique
-description: Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type d’enregistrement dans Adobe Workfront Planning.
+description: Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page du type d’enregistrement dans Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 2%
+source-wordcount: '1764'
+ht-degree: 93%
 
 ---
 
@@ -28,9 +28,9 @@ role: User
 
 {{planning-important-intro}}
 
-Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page de type d’enregistrement dans Adobe Workfront Planning.
+Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page du type d’enregistrement dans Adobe Workfront Planning.
 
-Pour plus d’informations sur les vues d’enregistrement, voir [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+Pour plus d’informations sur les vues d’enregistrement, consultez la section [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Conditions d’accès
 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -64,52 +64,52 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
    <p>N’importe quelle</p> 
-   <p>Les administrateurs système n’ont accès qu’aux vues qu’ils ont créées ou qui sont partagées avec eux. </p>
+   <p>L’administration système n’a accès qu’aux vues créées par elle ou partagées avec elle. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning. </p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Gestion des autorisations pour l’affichage</p>  
+   <td> <p>Autorisations de gestion pour l’affichage</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Modèle de mise en page</td>
-   <td> <p>L’administrateur système doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader">Modèle de disposition</td>
+   <td> <p>L’administration système doit ajouter la zone Planification dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
 
-## Gestion de la vue chronologique {#manage-a-timeline-view}
+## Gérer une vue chronologique {#manage-a-timeline-view}
 
 <!--insert screen shot of timeline view-->
 
-Lors de la création d’une vue chronologique, tous les enregistrements du type d’enregistrement sélectionné s’affichent dans une chronologie chronologique.
+Lors de la création d’une vue chronologique, tous les enregistrements du type d’enregistrement sélectionné s’affichent sous forme de chronologie.
 
-Tenez compte des points suivants :
+Tenez compte des points suivants :
 
-* Vous ne pouvez créer une vue Chronologie que si au moins deux champs de date sont associés à un type d’enregistrement. Lorsqu’un ou plusieurs champs de date sont associés à un type d’enregistrement, l’option Mode Chronologie est grisée.
+* Vous ne pouvez créer une vue chronologique que si au moins deux champs de date sont associés à un type d’enregistrement. Lorsqu’un ou plusieurs champs de date sont associés à un type d’enregistrement, l’option Vue chronologique est grisée.
 
   Vous pouvez sélectionner des champs de date d’enregistrement ou des champs de date de recherche à partir des types d’enregistrement ou d’objet connectés.
-* Selon les dates associées aux enregistrements, il se peut que certains enregistrements ne s’affichent pas dans la vue de la chronologie dans les scénarios suivants :
+* Selon les dates associées aux enregistrements, il se peut que certains enregistrements ne s’affichent pas dans la vue chronologique dans les scénarios suivants :
 
-   * Lorsque les dates de début et de fin n’ont aucune valeur
-   * Lorsque les dates de début ou de fin n’ont aucune valeur
-   * Lorsque la date de début est postérieure à la date de fin
+   * Lorsque les dates de début et de fin n’ont aucune valeur.
+   * Lorsque les dates de début ou de fin n’ont aucune valeur.
+   * Lorsque la date de début est postérieure à la date de fin.
 
-Pour gérer une vue de chronologie :
+Pour gérer une vue chronologique, procédez comme suit :
 
-1. Accédez à la page de type enregistrement pour laquelle vous souhaitez afficher la chronologie.
-1. Créez une vue chronologique, comme décrit dans l’article . [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Accédez à la page du type d’enregistrement pour lequel vous souhaitez afficher la chronologie.
+1. Créez une vue chronologique, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/timeline-view-example.png)
 
@@ -120,114 +120,114 @@ Pour gérer une vue de chronologie :
    >    Le tri des enregistrements dans la chronologie n’est pas visible dans la vue compacte.
 
 
-1. Pour parcourir la chronologie, effectuez l’une des opérations suivantes :
+1. Pour parcourir la chronologie, effectuez l’une des opérations suivantes :
 
-   * Cliquez sur les icônes gauche et droite ou utilisez le défilement horizontal pour passer d’un plan à l’autre dans la chronologie.
-   * Cliquez sur **Aujourd&#39;hui** pour centrer la chronologie sur la date d’aujourd’hui.
-   * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
+   * Cliquez sur les icônes gauche et droite ou utilisez le défilement horizontal pour avancer ou reculer dans la chronologie.
+   * Cliquez sur **Aujourd’hui** pour centrer la chronologie sur la date d’aujourd’hui.
+   * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 
       * Année
       * Trimestre
       * Mois
-1. Cliquez sur **Basculer vers Standard** affichage des enregistrements dans des lignes distinctes <!--check to see if they updated the name of the setting here-->
+1. Cliquez sur la vue **Passer en vue standard** pour afficher les enregistrements dans des lignes distinctes <!--check to see if they updated the name of the setting here-->
 
    Ou
 
-   Cliquez sur **Basculer vers la vue compacte** pour afficher les enregistrements dont les dates ne se croisent pas sur la même ligne. <!--check to see if they updated the name of the setting here-->
+   Cliquez sur **Passer en vue compacte** pour afficher les enregistrements dont les dates ne se croisent pas sur la même ligne. <!--check to see if they updated the name of the setting here-->
 
    Les enregistrements s’affichent par défaut dans la vue compacte.
 
-1. Procédez comme suit pour rechercher rapidement les enregistrements correspondant à un mot-clé :
+1. Procédez comme suit pour rechercher rapidement les enregistrements correspondant à un mot-clé :
 
-   1. Cliquez sur le bouton **Rechercher** icon ![](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche en regard de l’élément de recherche et l’enregistrement avec la correspondance correcte est mis en surbrillance.
+   1. Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche en regard de l’élément de recherche et l’enregistrement avec la correspondance correcte est mis en surbrillance.
 
       ![](assets/search-box-and-results-timeline-view.png)
 
       Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
 
-      Vous ne pouvez pas utiliser de mots-clés associés à des champs qui ne s’affichent pas dans la vue de la chronologie.
+      Vous ne pouvez pas utiliser de mots-clés associés à des champs qui ne s’affichent pas dans la vue chronologique.
 
    1. Appuyez sur Entrée sur votre clavier pour accéder au champ suivant trouvé.
    1. (Facultatif) S’il existe plusieurs correspondances, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour trouver toutes les correspondances dans le tableau.
-   1. Cliquez sur le bouton **x** dans la zone de recherche pour effacer le mot-clé de recherche.
+   1. Cliquez sur l’icône **x** dans la zone de recherche pour effacer le mot-clé de recherche.
 
-1. Mettez à jour les éléments de vue suivants comme décrit dans les sous-sections ci-dessous :
+1. Mettez à jour les éléments de vue suivants comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
    * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
-### Ajout de filtres
+### Ajouter des filtres
 
-Vous pouvez réduire la quantité d’informations affichées à l’écran à l’aide de filtres.
+Tirez part ides filtres pour réduire la quantité d’informations affichées à l’écran.
 
-Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue de chronologie :
+Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue chronologique :
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * Les filtres que vous créez pour une vue chronologique fonctionnent indépendamment des filtres de toute autre vue appliquée au même type d’enregistrement.
 
-* Les filtres sont propres à la vue que vous sélectionnez. Des filtres différents peuvent être appliqués à deux vues de chronologie du même type d’enregistrement.
+* Les filtres sont propres à la vue que vous sélectionnez. Des filtres différents peuvent être appliqués à deux vues chronologiques du même type d’enregistrement.
 
-* Deux utilisateurs qui consultent la même vue de chronologie voient le même filtre actuellement appliqué.
+* Deux personnes qui consultent la même vue chronologique voient le même filtre actuellement appliqué.
 
 * Vous ne pouvez pas nommer les filtres que vous créez pour une vue chronologique.
 
-* Le fait de supprimer des filtres les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
+* La suppression d’un filtre le supprime pour toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
 
-* L’ajout de filtres en mode Chronologie est identique à l’ajout de filtres dans la vue Tableau.
+* L’ajout de filtres en vue chronologique est identique à l’ajout de filtres dans la vue de tableau.
 
-  Pour plus d’informations, voir la section &quot;Ajouter des filtres&quot; de l’article [Gestion de la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Pour plus d’informations, consultez la section « Ajouter des filtres » de l’article [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté, mais pas par champ qui permet de lier plusieurs enregistrements.
+* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté, mais pas pour les champs qui permettent d’associer plusieurs enregistrements.
 
 ### Ajouter un regroupement
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
-Vous pouvez regrouper des enregistrements selon des informations similaires lors de l’application d’un groupement à une vue.
+Vous pouvez regrouper des enregistrements selon des informations similaires lors de l’application d’un regroupement à une vue.
 
-L’ajout de regroupements dans la vue de chronologie est similaire à l’ajout de regroupements dans la vue de tableau.
+L’ajout de regroupements dans la vue chronologique est similaire à l’ajout de regroupements dans la vue de tableau.
 
-Tenez compte des points suivants lorsque vous utilisez des regroupements dans la vue de chronologie :
+Tenez compte des points suivants lorsque vous utilisez des regroupements dans la vue chronologique :
 
-* Vous pouvez appliquer des regroupements dans les vues de tableau et de chronologie. Les regroupements de la vue de tableau sont indépendants de ceux de la vue de chronologie du même type d’enregistrement.
-* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l&#39;ordre des groupements que vous sélectionnez.
-* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API.
-* Les regroupements sont propres à la vue sélectionnée. Deux vues de chronologie d’un même type d’enregistrement peuvent être associées à des regroupements différents. Deux utilisateurs qui visualisent la même vue de chronologie voient le même regroupement actuellement appliqué.
+* Vous pouvez appliquer des regroupements dans les vues de tableau et chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
+* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
+* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API.
+* Les regroupements sont propres à la vue sélectionnée. Deux vues chronologiques d’un même type d’enregistrement peuvent être associées à des regroupements différents. Deux personnes qui visualisent la même vue chronologique consultent le même regroupement actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue chronologique.
-* Le fait de supprimer des regroupements les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
-* Vous pouvez regrouper les champs d’enregistrement ou de recherche par champs d’enregistrement connectés, mais pas pour les champs qui permettent de lier plusieurs enregistrements.
+* La suppression de regroupements les supprime pour toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
+* Vous pouvez regrouper par champ d’enregistrement ou de recherche connecté, mais pas pour les champs qui permettent d’associer plusieurs enregistrements.
 
-Pour ajouter un groupement dans la vue de frise chronologique :
+Pour ajouter un regroupement dans la vue chronologique :
 
-1. Créez une vue de chronologie pour un type d’enregistrement, comme décrit dans l’article . [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue chronologique.
 
    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
-   Le groupement est appliqué automatiquement à la chronologie et les enregistrements s&#39;affichent dans la zone de groupement.
+   Le regroupement est appliqué automatiquement à la chronologie et les enregistrements s’affichent dans la zone de regroupement.
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
-1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
+1. (Facultatif) Répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 
-   Le nombre de champs sélectionnés pour le groupement s&#39;affiche en regard de l&#39;icône Groupement .
+   Le nombre de champs sélectionnés pour le regroupement s’affiche en regard de l’icône Regroupement.
 
    <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Facultatif) Dans le **Regrouper les enregistrements par** , cliquez sur le bouton **x** icône à droite d&#39;un champ sélectionné pour le groupement afin de supprimer le groupement
+1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** en regard d’un champ sélectionné pour le regroupement afin de supprimer le regroupement.
 
    Ou
 
    Cliquez sur **Effacer tout** pour supprimer tous les champs.
 
-1. Cliquez en dehors du **Regrouper les enregistrements par** pour le fermer.
-1. (Facultatif) Cliquez sur **Paramètres**, puis **Couleur** aux regroupements de code-couleur. Pour plus d’informations, voir [Modification des paramètres de vue de la chronologie](#edit-the-timeline-view-settings) dans cet article.
+1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
+1. (Facultatif) Cliquez sur **Paramètres**, puis sur **Couleur** pour attribuer des couleurs aux regroupements. Pour plus d’informations, consultez la section [Modifier les paramètres de la vue chronologique](#edit-the-timeline-view-settings) de cet article.
 
 <!-- 
 
@@ -237,48 +237,48 @@ this is not possible right now; if this is the same functionality as the table v
 
 -->
 
-### Modification des paramètres de vue de la chronologie {#edit-the-timeline-view-settings}
+### Modifier les paramètres de la vue chronologique {#edit-the-timeline-view-settings}
 
-Mettez à jour les paramètres de vue de la chronologie pour indiquer ce qui s’affiche et comment les informations s’affichent dans la section de la chronologie de la vue.
+Mettez à jour les paramètres de la vue chronologique pour indiquer la nature et le mode d’affichage des informations dans la vue chronologique.
 
-1. Créez une vue de chronologie pour un type d’enregistrement, comme décrit dans l’article . [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 1. Cliquez sur **Paramètres**.
-1. Cliquez sur **Date et heure** dans le panneau de gauche, puis sélectionnez une **Date de début** et un **Date de fin** pour l’afficher dans la chronologie. Vous pouvez choisir les dates de début et de fin par défaut ou choisir n’importe quel champ de date disponible. Les barres représentant les enregistrements commencent à la date que vous indiquez pour la date de Début et se terminent à la date correspondant à la date de Fin.
+1. Cliquez sur **Date et heure** dans le panneau de gauche, puis sélectionnez une **Date de début** et une **Date de fin** pour l’afficher dans la chronologie. Vous pouvez choisir les dates de début et de fin par défaut ou choisir n’importe quel champ de date disponible. Les barres représentant les enregistrements commencent à la date que vous indiquez pour la date de début et se terminent à la date correspondant à la date de fin.
 
    >[!NOTE]
    >
-   >Les enregistrements qui ne comportent aucune valeur pour les dates de début ou de fin ou dont la date de début est postérieure à la date de fin ne s’affichent pas dans la vue de chronologie.
+   >Les enregistrements qui ne comportent aucune valeur pour les dates de début ou de fin ou dont la date de début est postérieure à la date de fin ne s’affichent pas dans la vue chronologique.
 
-1. Cliquez sur **Style de barre** dans le panneau de gauche, pour indiquer les champs que vous souhaitez afficher dans les barres d’enregistrement.
+1. Cliquez sur **Style de barre** dans le panneau de gauche pour indiquer les champs à afficher dans les barres d’enregistrement.
 
-   Le champ Nom est sélectionné par défaut. <!--adjust this when the primary field is released??-->
+   Le champ principal (ou titre) de l’enregistrement, tel que défini dans la vue de table de l’enregistrement, est sélectionné par défaut. <!--adjust this when the primary field is released??-->
 
-1. (Facultatif et conditionnel) Si vous avez ajouté des miniatures aux enregistrements, sélectionnez l’option Miniature pour afficher l’image associée aux enregistrements dans leur barre d’enregistrement.
+1. (Facultatif et le cas échéant) Si vous avez ajouté des miniatures aux enregistrements, sélectionnez l’option Miniature pour afficher l’image associée aux enregistrements dans leur barre d’enregistrement.
 
    >[!NOTE]
    >
-   >    Vous devez d’abord ajouter des miniatures dans la vue de tableau avant de pouvoir les afficher dans la vue de chronologie. Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   >    Vous devez d’abord ajouter des miniatures dans la vue de tableau avant de pouvoir les afficher dans la vue chronologique. Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. Cliquez sur **Ajouter un champ** pour ajouter jusqu’à 4 champs aux barres d’enregistrement.
-1. Cliquez dans le **Champs de recherche** puis cliquez sur le champ à ajouter.
+1. Cliquez sur **Ajouter un champ** pour ajouter jusqu’à 4 champs aux barres d’enregistrement.
+1. Cliquez dans la zone **Champs de recherche**, puis cliquez sur le champ à ajouter.
 
    >[!TIP]
    >
    >   * Vous devez créer les champs avant de pouvoir les ajouter aux barres d’enregistrement.
    > 
-   >   * Vous devez avoir sélectionné au moins un champ. **Nom** est sélectionné par défaut.
+   >   * Vous devez sélectionner au moins un champ. Le champ **Nom** est sélectionné par défaut.
 
-   Un aperçu de l’aspect des barres dans la chronologie s’affiche à droite.
+   Une prévisualisation de l’aspect des barres dans la chronologie s’affiche à droite.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. Cliquez sur **Couleur** dans le panneau de gauche, pour personnaliser les couleurs des enregistrements et des regroupements dans la chronologie.
+1. Cliquez sur **Couleur** dans le panneau de gauche pour personnaliser les couleurs des enregistrements et des regroupements dans la chronologie.
 
    ![](assets/color-tab-timeline-view.png)
 
-1. (Conditionnel et facultatif) Si vous avez ajouté un groupement à la vue de la chronologie, sélectionnez l’une des options suivantes pour définir la couleur du groupement dans la fenêtre **Définir la couleur du groupement** section :
+1. (Conditionnel et le cas échéant) Si vous avez ajouté un regroupement à la vue chronologique, sélectionnez l’une des options suivantes pour définir la couleur du regroupement dans la section **Définir la couleur du regroupement** :
 
-   * **Par défaut (gris)**: la couleur des groupements est définie sur gris. Il s’agit du paramètre par défaut.
+   * **Par défaut (gris)** : la couleur des regroupements est définie sur gris. Il s’agit du paramètre par défaut.
    * **Valeurs de champ**: la couleur des groupements correspond à la couleur du champ par lequel vous effectuez un groupement.
 
      >[!NOTE]
@@ -288,31 +288,31 @@ Mettez à jour les paramètres de vue de la chronologie pour indiquer ce qui s�
      >    * Vous ne pouvez pas faire correspondre la couleur aux champs de recherche des types d’enregistrement ou d’objet liés.
 
 
-   Par exemple, les champs à sélection multiple ou à sélection unique peuvent comporter des options codées par couleur.
+   Par exemple, les champs à sélection unique ou multiple peuvent comporter des choix de code couleur.
 
-   Si vous effectuez un groupement par champs sans options codées par couleur, la couleur du groupement reste grise.
+   Si vous effectuez un regroupement par champs sans choix de code couleur, la couleur du regroupement reste grise.
 
    >[!TIP]
    >
-   >Si vous n’avez pas ajouté de groupes à la vue de la chronologie, cette section ne s’affiche pas.
+   >Si vous n’avez pas ajouté de regroupements à la vue chronologique, cette section ne s’affiche pas.
 
-1. Dans le **Définir la couleur de l’enregistrement** , sélectionnez l’une des options suivantes pour définir une couleur pour les enregistrements :
+1. Dans la section **Définir la couleur de l’enregistrement**, sélectionnez l’une des options suivantes pour définir une couleur pour les enregistrements :
 
-   * **Type d’enregistrement**: la couleur des enregistrements correspond à celle du type d’enregistrement que vous avez sélectionné. Il s’agit de l’option par défaut.
-   * **Valeurs de champ**: la couleur des enregistrements correspond à la couleur d’un champ que vous spécifiez. Passez à l’étape 10. <!--ensure this stays accurate-->
-   * **Regroupement**: la couleur des enregistrements correspond à la couleur que vous avez indiquée pour les regroupements. Cette option est grisée lorsque aucun regroupement n’est appliqué à la vue de la chronologie.
-   * **Aucun**: les enregistrements s’affichent dans une barre blanche.
+   * **Type d’enregistrement** : la couleur des enregistrements correspond à celle du type d’enregistrement que vous avez sélectionné. Il s’agit de l’option par défaut.
+   * **Valeurs de champ** : la couleur des enregistrements correspond à la couleur d’un champ que vous spécifiez. Passez à l’étape 10. <!--ensure this stays accurate-->
+   * **Regroupement** : la couleur des enregistrements correspond à la couleur que vous avez indiquée pour les regroupements. Cette option est grisée lorsque aucun regroupement n’est appliqué à la vue chronologique.
+   * **Aucun** : les enregistrements s’affichent dans une barre blanche.
 
-1. (Conditionnel) Si vous avez sélectionné **Valeurs de champ** pour les couleurs d’enregistrement, sélectionnez un champ dans la **Correspondance de la couleur de l’enregistrement avec** menu déroulant.
+1. (Le cas échéant) Si vous avez sélectionné **Valeurs de champ** pour les couleurs d’enregistrement, sélectionnez un champ dans le menu déroulant **Faire correspondre la couleur de l’enregistrement à**.
 
    ![](assets/field-selector-drop-down-menu-timeline-view.png)
 
-   Seuls les champs avec des options codées par couleur s’affichent dans le menu déroulant.
+   Seuls les champs avec des choix de code couleur s’affichent dans le menu déroulant.
 
-   Par exemple, les champs à sélection multiple ou à sélection unique peuvent comporter des options codées par couleur.
+   Par exemple, les champs à sélection unique ou multiple peuvent comporter des choix de code couleur.
 
-   Si vous ne disposez pas d’un champ avec des options codées par couleur pour le type d’enregistrement sélectionné, cette option est grisée.
+   Si vous ne disposez pas d’un champ avec des choix de code couleur pour le type d’enregistrement sélectionné, cette option est grisée.
 
 1. Cliquer sur **Enregistrer**.
 
-   Les enregistrements s’affichent en mode Chronologie avec les spécifications que vous avez sélectionnées.
+   Les enregistrements s’affichent en vue chronologique avec les spécifications que vous avez sélectionnées.
