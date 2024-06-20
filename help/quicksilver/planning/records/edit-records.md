@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1626'
 ht-degree: 3%
 
 ---
@@ -106,14 +106,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Vous ne pouvez pas modifier les enregistrements en masse. <!--this will probably change-->
 * Les URL sont reconnues comme des liens dans les types de champ de texte sur une seule ligne uniquement lorsqu’elles commencent par les éléments suivants : http://, https://, ftp:// ou www. .
 * Vous pouvez ajouter une image de couverture à chaque enregistrement. L’image est unique pour chaque enregistrement et ne s’applique pas à tous les enregistrements en même temps.
-* Vous pouvez modifier l’ordre des champs dans une page d’enregistrement et ajouter une image de couverture pour un enregistrement. Pour plus d’informations, voir [Gestion de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
+* Vous pouvez modifier l’ordre des champs dans une page d’enregistrement et ajouter une image de couverture pour un enregistrement. Pour plus d’informations, voir [Gestion de la mise en page de la page d’enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Modifier des enregistrements
 
 Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
-* [En mode Tableau d’un type d’enregistrement](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-box-in-a-view)
+* [En mode Tableau d’un type d’enregistrement](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view)
 * [Sur la page de l’enregistrement](#edit-a-record-from-the-records-page)
 
 ### Modification d’un enregistrement en ligne dans la vue de tableau d’un type d’enregistrement
@@ -200,17 +200,17 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
    La page de type enregistrement s’ouvre.
 
-1. Dans une vue de tout type, cliquez sur le nom d’un enregistrement.
+1. Dans une vue de n&#39;importe quel type, cliquez sur l&#39;enregistrement
 
    Ou
 
-   Dans la vue Tableau, cliquez sur le **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) à gauche d’un nom d’enregistrement. L’aperçu de l’enregistrement s’ouvre dans la vue.
+   Dans la vue Tableau, cliquez sur le **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
 
    ![](assets/details-box.png)
 
-   >[!TIP]
-   >
-   >Vous pouvez afficher la **Ouvrir les détails** à gauche du champ Nom d’un enregistrement dans une vue de tableau uniquement lorsque le champ Nom est un champ principal.
+1. (Facultatif) Cliquez sur le **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cela met à jour le champ qui s’affiche comme titre de l’enregistrement.
+
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue de tableau. Pour plus d’informations, voir [Gestion de la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 
@@ -218,10 +218,12 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
    >
    >  Vous ne pouvez pas modifier les informations des champs suivants, car ils sont en lecture seule et Workfront les met automatiquement à jour :
    >  
-   >  * Champs liés créés par la connexion des types d’enregistrement. Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Champs de recherche d’autres enregistrements créés en connectant des types d’enregistrements. Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification, Champs de formule.
 
 1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement. Pour plus d’informations, voir [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (Facultatif) Pointez sur l’icône de miniature, puis cliquez sur **Plus** ![](assets/more-menu.png) > **Modifier la miniature** pour ajouter une miniature. Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront enregistre automatiquement vos modifications.
 
@@ -251,6 +253,10 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
      ![](assets/details-page.png)
 
+1. (Facultatif) Cliquez sur le **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cela met à jour le champ qui s’affiche comme titre de l’enregistrement.
+
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue de tableau. Pour plus d’informations, voir [Gestion de la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 1. Cliquez sur un champ modifiable de la page d’enregistrement pour l’éditer.
 
    >[!TIP]
@@ -260,7 +266,17 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
    >  * Champs liés créés par la connexion des types d’enregistrement. Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification, Champs de formule.
 
-1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement. Pour plus d’informations, voir [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement
+
+   Ou
+
+   Passez la souris sur l’image de couverture existante, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) > **Télécharger** pour ajouter une nouvelle image de couverture pour l’enregistrement.
+
+   Pour plus d’informations, voir [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (Facultatif) Passez la souris sur une miniature existante, ou le **icône de miniature** ![](assets/record-thumbnail-icon-on-details-page.png), puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) > **Modifier la miniature** pour ajouter une miniature pour l’enregistrement.
+
+   Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront enregistre automatiquement vos modifications.
 

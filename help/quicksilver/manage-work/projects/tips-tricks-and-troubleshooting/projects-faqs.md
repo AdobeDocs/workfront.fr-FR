@@ -1,26 +1,26 @@
 ---
-title: FAQ sur les projets
-description: FAQ sur les projets
+title: Questions fréquentes sur les projets
+description: Questions fréquentes sur les projets
 author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 2%
 
 ---
 
-# FAQ sur les projets
+# Questions fréquentes sur les projets
 
-Vous trouverez ci-dessous les questions fréquentes sur les projets.
+Vous trouverez ci-dessous des questions fréquentes sur les projets.
 
 ## Pourquoi l’option Insérer la tâche au-dessus/en-dessous est-elle manquante lorsque je clique avec le bouton droit sur une tâche dans la liste des tâches ?
 
 ### Réponse
 
-Pour utiliser les options d&#39;insertion, la liste des tâches doit être triée par nombre. Pour trier la colonne par nombre, cliquez sur **#** dans l’en-tête de colonne à gauche de **Nom de la tâche** pour utiliser la tâche par son numéro.
+Pour utiliser les options d&#39;insertion, la liste des tâches doit être triée par nombre. Pour trier la colonne par nombre, cliquez sur **#** dans l’en-tête de colonne à gauche de **Task Name** pour utiliser la tâche par son numéro.
 
 ## Qu’est-ce que la date d’achèvement réelle ?
 
@@ -62,10 +62,10 @@ Bien que je dispose des autorisations appropriées, le bouton Ajouter des projet
 Cela est dû au fait que l’état du Portfolio est inactif. Pour modifier le statut du Portfolio :
 
 1. Cliquez sur **Détails du Portfolio > Aperçu**.
-1. Modifiez la variable **État** to **Principal.**
+1. Modifiez la variable **État** to **Actif.**
 
 1. Cliquer sur **Enregistrer**.\
-   Le **Ajouter des projets** doit maintenant être visible sur la **Projets** .
+   La variable **Ajouter des projets** doit maintenant être visible sur la balise **Projets** .
 
 ## Quel accès reçoit un gestionnaire de ressources lorsqu’il est ajouté à un projet ?
 
@@ -81,7 +81,7 @@ Les états du projet changent en raison des états par défaut du Groupe. Lorsqu
 
 Pour plus d’informations, voir l’article [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-## Qu’est-ce que l’état du budget ?
+## En quoi consiste l’état du budget ?
 
 ### Réponse
 

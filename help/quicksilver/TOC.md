@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '14351'
+source-wordcount: '14352'
 ht-degree: 95%
 
 ---
@@ -2091,7 +2091,7 @@ ht-degree: 95%
       * [Vue d’ensemble de la section Historique](planning/records/history-section-overview.md)
       * [Ajout d’une miniature à un enregistrement](planning/records/add-thumbnails-to-records.md)
       * [Ajout d’une image de couverture à un enregistrement](planning/records/add-a-cover-image-to-a-record.md)
-      * [Gestion de la page d’enregistrement](planning/records/manage-the-record-page.md)
+      * [Gestion de la mise en page de la page d’enregistrement](planning/records/manage-the-record-page.md)
       * [Gestion des enregistrements dans la section Planification des objets Adobe Workfront](planning/records/manage-records-in-planning-section.md)
    * Vues de la planification Adobe Workfront {#adobe-workfront-planning-views}
       * [Vues : index des articles](planning/views/views-information.md)

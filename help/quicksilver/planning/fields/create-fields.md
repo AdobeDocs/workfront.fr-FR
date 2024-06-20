@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 3%
@@ -384,7 +384,7 @@ Pour plus d’informations, voir [Champs de formule - Aperçu](/help/quicksilver
    >
    >* Vous ne pouvez pas ajouter de champs de type Sélection multiple dans une formule.
    >
-   >* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le propriétaire du projet dans la formule que vous créez pour le type d’enregistrement Activité .
+   >* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le budget du projet dans la formule que vous créez pour le type d’enregistrement Activité .
 
 1. Cliquez sur **Créer**.
 

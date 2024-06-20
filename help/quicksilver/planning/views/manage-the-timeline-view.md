@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1752'
 ht-degree: 2%
 
 ---
@@ -280,7 +280,13 @@ Mettez à jour les paramètres de vue de la chronologie pour indiquer ce qui s�
 
    * **Par défaut (gris)**: la couleur des groupements est définie sur gris. Il s’agit du paramètre par défaut.
    * **Valeurs de champ**: la couleur des groupements correspond à la couleur du champ par lequel vous effectuez un groupement.
-Vous pouvez faire correspondre la couleur des regroupements uniquement aux champs avec des options codées par couleur.
+
+     >[!NOTE]
+     >
+     >    * Vous ne pouvez faire correspondre la couleur qu’aux champs contenant des options codées par couleur. Par exemple, vous pouvez faire correspondre la couleur aux champs État ou aux champs auxquels des options sont associées.
+     >    
+     >    * Vous ne pouvez pas faire correspondre la couleur aux champs de recherche des types d’enregistrement ou d’objet liés.
+
 
    Par exemple, les champs à sélection multiple ou à sélection unique peuvent comporter des options codées par couleur.
 

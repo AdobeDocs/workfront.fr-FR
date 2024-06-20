@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '642'
 ht-degree: 6%
 
 ---
@@ -117,7 +117,9 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
 
 1. (facultatif et conditionnel) Cliquez sur **Aperçu** dans l’un des modèles d’espace de travail prédéfinis suivants :
 
-   * Gestion marketing
+   * De base : gestion marketing
+   * Avancé : Gestion marketing
+   * Entreprise : gestion marketing
    * Gestion des ventes
    * Gestion des produits
 
@@ -133,7 +135,7 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
 
    Ou
 
-   Cliquez sur **Précédent**, puis cliquez sur **Créer un espace de travail** pour créer entièrement un espace de travail.
+   Cliquez sur **Précédent**, puis cliquez sur **Nouvel espace de travail** pour créer entièrement un espace de travail.
 
    L’un des types d’espaces de travail suivants est créé :
 

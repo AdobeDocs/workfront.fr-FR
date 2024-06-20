@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '2619'
+source-wordcount: '2645'
 ht-degree: 4%
 
 ---
@@ -145,9 +145,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
      >
      >* Vous ne pouvez pas déplacer le champ Nom vers un autre emplacement, sauf si vous désigner un autre champ comme champ principal. Pour plus d’informations, passez à l’étape 4. <!--accurate?-->
      >
-     >* Vous ne pouvez pas masquer ni supprimer un champ principal.
      >
-     >* Le champ principal est figé et ne fait pas partie du défilement horizontal.
 
    * Remplacez le champ de la première colonne par un autre champ en modifiant le champ principal. Pour plus d’informations, reportez-vous à l’étape 4. <!--accurate?-->
 
@@ -167,7 +165,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
    >       * Nombre
    >       * Formule
    >
-   >   * Le champ principal est toujours gelé et ne peut pas être déplacé. Vous pouvez sélectionner un autre champ pour remplacer un champ principal, si vous devez le déplacer vers un autre emplacement.
+   >   * Le champ principal est toujours gelé et ne peut être ni déplacé ni masqué. Le champ principal est figé et ne fait pas partie du défilement horizontal. Vous pouvez sélectionner un autre champ pour remplacer un champ principal, si vous devez le déplacer vers un autre emplacement.
    >
    >   * La modification du champ principal dans la vue de tableau affecte la vue pour tous les autres utilisateurs qui la choisissent.
    >
@@ -176,6 +174,8 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
    >   * Vous ne pouvez pas supprimer ni masquer un champ principal.
    >
    >   * La valeur indiquée dans le champ principal est toujours liée par un hyperlien à la page de l’enregistrement.
+   >
+   >   * Les champs de Principal deviennent le titre et s’affichent dans les pages d’enregistrement de la zone d’en-tête des enregistrements, et partout où les enregistrements s’affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et dans toutes les vues.
 
 1. Cliquez et faites glisser les lignes de séparation des colonnes et déposez-les à l’emplacement souhaité pour augmenter la largeur des colonnes.
 
@@ -230,7 +230,7 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
 
    Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Facultatif) Sélectionnez un ou plusieurs enregistrements dans une ligne, puis faites glisser et déposez le **handle** icon ![](assets/handle-icon.png) à gauche du nom de l’enregistrement pour réorganiser les lignes.
+1. (Facultatif) Sélectionnez un ou plusieurs enregistrements dans une ligne, puis faites glisser et déposez le **handle** icon ![](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
 
    >[!NOTE]
    >
@@ -264,7 +264,7 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue T
 
 * Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté, mais pas par champ qui permet de lier plusieurs enregistrements.
 
-* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un filtre pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le propriétaire du projet dans le filtre que vous créez pour le type d’enregistrement Activité.
+* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un filtre pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le budget du projet dans le filtre que vous créez pour le type d’enregistrement Activité .
 
 Pour ajouter un filtre à une vue de tableau :
 
@@ -375,7 +375,7 @@ Tenez compte des points suivants :
 * Le fait de supprimer des regroupements les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
 * Vous pouvez éditer les enregistrements répertoriés sous un groupement.
 * Vous pouvez regrouper les champs d’enregistrement ou de recherche par champs d’enregistrement connectés, mais pas pour les champs qui permettent de lier plusieurs enregistrements.
-* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le propriétaire du projet dans le regroupement que vous créez pour le type d’enregistrement Activité.
+* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer l’état du projet dans le regroupement que vous créez pour le type d’enregistrement Activité .
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -403,7 +403,7 @@ Pour ajouter un groupement :
    Cliquez sur **Effacer tout** pour supprimer tous les champs.
 
 1. Cliquez en dehors du **Regrouper les enregistrements par** pour le fermer.
-1. (Facultatif) Cliquez sur **+ Nouveau &lt; Nom du type d’enregistrement >** à la fin d’un groupement pour ajouter de nouveaux enregistrements, actualisez votre page afin d’ajouter le nouvel enregistrement au groupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin d’un groupement pour ajouter de nouveaux enregistrements, actualisez votre page afin d’ajouter le nouvel enregistrement au groupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Ajouter un tri {#sort-information}
 
@@ -432,7 +432,7 @@ Tenez compte des points suivants lors du tri des enregistrements dans la vue de 
 
 * Vous pouvez trier les champs d’enregistrement ou de recherche connectés, mais pas ceux qui permettent de lier plusieurs enregistrements.
 
-* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un tri pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le propriétaire du projet dans le type que vous créez pour le type d’enregistrement Activité.
+* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un tri pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer l’état du projet dans le type que vous créez pour le type d’enregistrement Activité .
 
 Pour trier <!--ungrouped (add this when sorting for groupings will be available--> enregistrements, procédez comme suit :
 

@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -100,55 +100,81 @@ You must have the following:
 
 Vous trouverez ci-dessous des modèles d’espace de travail dans la planification Workfront et le nombre de champs qu’ils incluent :
 
-* **Gestion marketing**: vous pouvez gérer toutes vos campagnes marketing lorsque vous utilisez ce modèle. Le modèle est fourni avec les éléments suivants :
+* **De base : gestion marketing**: idéal pour les entreprises qui établissent la base d’un système marketing fondamental. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
 
-   * Types d&#39;enregistrements opérationnels :
+   * Types d&#39;enregistrement opérationnel :
 
-      * **Plan marketing**: 7 champs et 5 champs liés
-      * **Campagne**: 9 champs et 7 champs liés
-      * **Programme**: 9 champs et 5 champs liés
-      * **Activité**: 6 champs et 5 champs liés
+      * **Campagne**: 15 champs
    * Taxonomies :
-      * **Audience**: 3 champs et 3 champs liés
-      * **Segment**: 5 champs et 1 champ lié
-      * **Parcours client**: 4 champs
-      * **Offre de produit**: 3 champs et 1 champ lié
-      * **Région**: 1 champ
-      * **Tactique**: 1 champ
-      * **Canaux**: 1 champ et 1 champ lié
-      * **Unité opérationnelle**: 1 champ
-      * **Fonction**: 1 champ
 
-* **Gestion des ventes**: vous pouvez créer un système de vente complet qui simplifie vos processus de vente et améliore votre efficacité. Le modèle est fourni avec les éléments suivants :
+      * **Personas**: 7 champs
+      * **Marques**: 6 champs
+      * **Produits**: 5 champs
 
-   * Types d&#39;enregistrements opérationnels :
+* **Avancé : Gestion marketing**: approprié pour les équipes prêtes à explorer des stratégies marketing plus nuancées. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
 
-      * **Opportunité**: 7 champs et 4 champs liés
-      * **Activité**: 4 champs et 5 champs liés
-      * **Campagne**: 5 champs et 3 champs liés
+   * Types d&#39;enregistrement opérationnel :
+
+      * **Campagnes**: 14 champs
+      * **Programmes**: 23 champs
+
    * Taxonomies :
-      * **Compte**: 4 champs et 3 champs liés
-      * **prospect**: 12 champs et 2 champs liés
-      * **Contact**: 10 champs et 2 champs liés
-      * **Région**: 1 champ et 2 champs liés
-      * **Secteur industriel**: 1 champ
+      * **Régions**: 1 champ
+      * **Étapes du Parcours client**: 4 champs
+      * **Audiences**: 8 champs
+      * **Deliverables**: 12 champs
+      * **Marques**: 6 champs
+
+* **Entreprise : gestion marketing**: conçu pour les grandes entreprises ou les organisations matures dotées de systèmes marketing complexes. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
+
+   * Types d&#39;enregistrement opérationnel :
+
+      * **Campagnes**: 15 champs
+      * **Programmes**: 15 champs
+      * **Tactiques**: 11 champs
+      * **Activités**: 18 champs
+
+   * Taxonomies :
+
+      * **Produits**: 10 champs
+      * **Deliverables**: 18 champs
+      * **Audiences cibles**: 8 champs
+      * **Régions**: 8 champs
+      * **Sous-régions**: 7 champs
+      * **Partenaires**: 7 champs
+      * **Cas d’utilisation**: 7 champs
+      * **Étapes du Parcours client**: 3 champs
+
+* **Gestion des ventes**: vous pouvez créer un système de vente complet qui simplifie vos processus de vente et améliore votre efficacité. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
+
+   * Types d&#39;enregistrement opérationnel :
+
+      * **Opportunité**: 11 champs
+      * **Activité**: 9 champs
+      * **Campagne**: 8 champs
+   * Taxonomies :
+      * **Compte**: 7 champs
+      * **prospect**: 14 champs
+      * **Contact**: 12 champs
+      * **Région**: 3 champs
+      * **Secteur industriel**: 2 champs
       * **Centre d’achat**: 1 champ
       * **Produit/service**: 1 champ
       * **Concurrence**: 1 champ
 
-* **Gestion des produits**: vous pouvez créer un processus de gestion des produits efficace et structuré à l’aide de ce modèle. Le modèle est fourni avec les éléments suivants :
+* **Gestion des produits**: vous pouvez créer un processus de gestion des produits efficace et structuré à l’aide de ce modèle. Le modèle comprend les types d’enregistrement et le nombre de champs suivants, y compris les champs liés à d’autres types d’enregistrement :
 
-   * Types d&#39;enregistrements opérationnels :
+   * Types d&#39;enregistrement opérationnel :
 
-      * **Thème**: 8 champs et 2 champs liés
-      * **Initiative**: 8 champs et 2 champs liés
-      * **Epic**: 9 champs et 3 champs liés
-      * **User Story**: 9 champs et 2 champs liés
+      * **Thème**: 10 champs
+      * **Initiative**: 10 champs
+      * **Epic**: 12 champs
+      * **User Story**: 11 champs
 
    * Taxonomies :
 
-      * **Client**: 6 champs et 1 champ lié
-      * **Sprint**: 7 champs et 1 champ lié
-      * **Équipe produit**: 3 champs
-      * **Requêtes de fonctionnalités**: 8 champs et 1 champ lié
-      * **Secteur industriel**: 1 champ et 1 champ lié
+      * **Client**: 8 champs
+      * **Sprint**: 9 champs
+      * **Équipe produit**: 4 champs
+      * **Requêtes de fonctionnalités**: 9 champs
+      * **Secteur industriel**: 2 champs
