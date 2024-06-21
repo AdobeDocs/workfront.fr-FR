@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0411db95c2c4b85fdc09ec11ca90dec60deacbb7
+source-git-commit: a48f51de4de911605b84055cf115e649d5750ca4
 workflow-type: tm+mt
 source-wordcount: '14367'
 ht-degree: 97%
@@ -2239,9 +2239,9 @@ ht-degree: 97%
       * [Modules des bibliothèques d’Adobe Creative Cloud](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Modules Adobe Campaign Classic](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Modules Adobe Experience Manager Assets](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
-      * [Adobe I/O des modules d’événements](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Module Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Firefly de modules](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
+      * [Adobe I/O des modules d’événements](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Modules Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Modules Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Modules Adobe PDF Services](workfront-fusion/apps-and-their-modules/pdf-modules.md)
