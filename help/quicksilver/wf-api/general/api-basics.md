@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
-workflow-type: ht
-source-wordcount: '4386'
-ht-degree: 100%
+source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
+workflow-type: tm+mt
+source-wordcount: '4384'
+ht-degree: 99%
 
 ---
 
@@ -363,7 +363,7 @@ Vous pouvez récupérer des champs de données personnalisés à l’aide du pr�
 #### Utiliser des requêtes nommées
 
 Certains types d’objets possèdent des recherches nommées qui sont généralement exécutées et qui sont disponibles en ajoutant le nom de la requête à la fin de l’URI de type d’objet. Par exemple, la requête suivante récupère les éléments de travail (tâches et problèmes) auxquels l’utilisateur ou l’utilisatrice est actuellement affecté :
-<pre>/attask/api/v15.0/work/myWork</pre>Les requêtes nommées prennent en charge la demande du paramètre fields pour récupérer des champs supplémentaires. Certaines requêtes nommées acceptent également des filtres supplémentaires. Pour obtenir la liste des requêtes nommées autorisées pour un objet, voir l’onglet Action pour l’objet dans l’[API Explorer](../../wf-api/general/api-explorer.md).
+<pre>/attask/api/v15.0/work/myWork</pre>Les requêtes nommées prennent en charge la demande du paramètre fields pour récupérer des champs supplémentaires. Certaines requêtes nommées acceptent également des filtres supplémentaires. Pour obtenir la liste des requêtes nommées autorisées pour un objet, voir l’onglet Action pour l’objet dans l’[Explorateur API](https://developer.adobe.com/workfront/api-explorer/).
 
 #### Utiliser `Count`
 
