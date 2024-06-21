@@ -8,10 +8,11 @@ title: Adobe Firefly de modules
 description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Firefly], ainsi que de la connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
+exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
+source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 20%
+source-wordcount: '1274'
+ht-degree: 28%
 
 ---
 
@@ -36,8 +37,8 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
@@ -50,7 +51,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul>
+   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul>
    <p>Ou</p>
    <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p>
    </td> 
@@ -70,9 +71,9 @@ Avant d’utiliser la variable [!DNL Adobe Firefly] , vous devez vous assurer qu
 
 ## Créer une connexion à [!DNL Adobe Firefly]
 
-Pour créer une connexion pour votre [!DNL Adobe Firefly] modules :
+Pour créer une connexion pour vos modules [!DNL Adobe Firefly] :
 
-1. Cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion .
+1. Cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion.
 
 1. Renseignez les champs suivants :
 
@@ -85,7 +86,7 @@ Pour créer une connexion pour votre [!DNL Adobe Firefly] modules :
         <tr>
         <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
-          <p>Saisissez un nom pour cette connexion.</p>
+          <p>Nommez cette connexion.</p>
         </td>
         </tr>
         <tr>
@@ -129,7 +130,7 @@ Pour connaître les API disponibles spécifiques, voir [API ADOBE FIREFLY](https
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Firefly], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer une connexion à [!DNL Adobe Firefly]</a> dans cet article.</td>
+      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Firefly], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer la connexion à [!DNL Adobe Firefly]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
@@ -170,11 +171,15 @@ Ce module d’action développe une image, éventuellement avec le contenu d’u
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer une connexion à [!DNL Adobe Firefly]</a> dans cet article.</td> 
+   <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Campaign], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer la connexion à [!DNL Adobe Firefly]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Invite]</td> 
    <td>Saisissez ou mappez une invite pour le contenu avec lequel vous souhaitez développer l’image. Si aucune invite n’est fournie, l’image est développée avec du contenu correspondant à l’image d’origine.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Nombre de variations]</td> 
+   <td>Saisissez un nombre compris entre 1 et 4. Le module génère ce nombre de variations d’image étendues.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Format d’image étendu]</td> 
@@ -207,11 +212,15 @@ Ce module d’action remplit la zone masquée d’une image, éventuellement ave
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer une connexion à [!DNL Adobe Firefly]</a> dans cet article.</td> 
+   <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Campaign], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer la connexion à [!DNL Adobe Firefly]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Invite]</td> 
    <td>Saisissez ou mappez une invite pour le contenu avec lequel vous souhaitez remplir l’image. Si aucune invite n’est fournie, l’image est remplie avec du contenu correspondant à l’image d’origine.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Nombre de variations]</td> 
+   <td>Saisissez un nombre compris entre 1 et 4. Le module génère ce nombre de variations d’image remplies.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Format d’image rempli]</td> 
@@ -248,11 +257,15 @@ Ce module d’action génère une image à partir d’une invite que vous fourni
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer une connexion à [!DNL Adobe Firefly]</a> dans cet article.</td> 
+   <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Campaign], voir <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Créer la connexion à [!DNL Adobe Firefly]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Invite]</td> 
    <td>Saisissez ou mappez une invite pour l’image que vous souhaitez créer. Plus de détails dans l’invite vous permettront de mieux contrôler ce qui apparaît dans l’image.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Nombre de variations]</td> 
+   <td>Saisissez un nombre compris entre 1 et 4. Le module génère ce nombre de variations d’image.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Format d’image généré]</td> 
@@ -297,5 +310,3 @@ Ce module d’action génère une image à partir d’une invite que vous fourni
   </tr> 
  </tbody> 
 </table>
-
-
