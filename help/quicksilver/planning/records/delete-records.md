@@ -1,14 +1,14 @@
 ---
 title: Supprimer des enregistrements
-description: Vous pouvez supprimer les enregistrements que vous ou un autre utilisateur avez créés. Vous ne pouvez pas récupérer les enregistrements supprimés.
+description: Vous pouvez supprimer les enregistrements que vous ou un autre utilisateur ou une autre utilisatrice avez créés. Vous ne pouvez pas récupérer des enregistrements supprimés.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 9%
+source-wordcount: '507'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 {{planning-important-intro}}
 
-Vous pouvez supprimer les enregistrements qui ne sont plus pertinents dans la planification Adobe Workfront.
+Vous pouvez supprimer les enregistrements qui ne sont plus pertinents dans Adobe Workfront Planning.
 
 ## Conditions d’accès
 
@@ -37,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -49,28 +49,29 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p>
    </td>
    <td>
-   <p>N’importe quelle</p> 
+   <p>Nouvelle : standard</p>
+   <p>Actuelle : formule</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning. </p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Attribution ou autorisations supérieures à un espace de travail</a> </p>  
-   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
+   <td> <p>Autorisations Contribuer ou supérieures pour à un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Votre administrateur ou administratrice Workfront ou de groupes doit ajouter la zone Planning dans votre modèle de disposition. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
 </td>
   </tr>
 
@@ -85,20 +86,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Considérations relatives à la suppression d’enregistrements
 
-* Vous pouvez supprimer les enregistrements que vous ou un autre utilisateur avez créés.
-* Vous ne pouvez pas récupérer les enregistrements supprimés. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
-* Si les enregistrements supprimés sont liés à d&#39;autres enregistrements, les enregistrements liés ne sont pas supprimés, mais les informations de l&#39;enregistrement supprimé sont également supprimées.
-* Vous ne pouvez pas supprimer des enregistrements en bloc. <!--this will probably change-->
-* Vous ne pouvez pas supprimer d’enregistrements de la vue de chronologie.
+* Vous pouvez supprimer les enregistrements que vous ou un autre utilisateur ou une autre utilisatrice avez créés.
+* Vous ne pouvez pas récupérer des enregistrements supprimés. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* Si les enregistrements supprimés sont liés à d&#39;autres enregistrements, les enregistrements liés ne sont pas supprimés, mais les informations de l’enregistrement supprimé sont également supprimées.
+* Vous ne pouvez pas supprimer des enregistrements en masse. <!--this will probably change-->
+* Vous ne pouvez pas supprimer des enregistrements à partir de la vue de chronologie.
 
 ## Supprimer des enregistrements
 
-Vous pouvez supprimer un enregistrement des zones suivantes :
+Vous pouvez supprimer un enregistrement à partir des zones suivantes :
 
-* [Sur la page de l’enregistrement](#delete-a-record-from-the-records-page)
-* [En mode Tableau d’un type d’enregistrement](#delete-a-record-from-the-record-type-table-view)
+* [À partir de la page de l’enregistrement](#delete-a-record-from-the-records-page)
+* [À partir de la vue de tableau d’un type d’enregistrement](#delete-a-record-from-the-record-type-table-view)
 
-### Supprimer un enregistrement de la page de l’enregistrement
+### Supprimer un enregistrement à partir de la page de l’enregistrement
 
 {{step1-to-planning}}
 
@@ -106,25 +107,25 @@ Vous pouvez supprimer un enregistrement des zones suivantes :
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type enregistrement.
+1. Cliquez sur une carte de type d’enregistrement.
 
-   La page de type enregistrement s’ouvre.
+   La page du type d’enregistrement s’ouvre.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Dans une vue Tableau, cliquez sur le nom d’un enregistrement.
-   * Dans la vue Tableau, passez la souris sur le nom d’un enregistrement, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Affichage**
+   * Dans une vue de tableau, cliquez sur le nom d’un enregistrement.
+   * Dans la vue de tableau, pointez sur le nom d’un enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png), puis sur **Afficher**.
 
      ![](assets/contextual-menu-for-record-row.png)
-   * Dans la vue Chronologie, cliquez sur une barre d’enregistrement.
+   * Dans une vue de chronologie, cliquez sur une barre d’un enregistrement.
 
-   La page d’enregistrement s’ouvre.
+   La page de l’enregistrement s’ouvre.
 
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Supprimer**, puis **Supprimer** pour confirmer.
+1. Cliquez sur le menu **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, cliquez sur **Supprimer**, puis à nouveau sur **Supprimer** pour confirmer.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 L’enregistrement est supprimé et ne peut pas être récupéré.
 
-### Supprimer un enregistrement de la vue de table de type enregistrement
+### Supprimer un enregistrement à partir de la vue de tableau de type d’enregistrement
 
 {{step1-to-planning}}
 
@@ -132,24 +133,24 @@ L’enregistrement est supprimé et ne peut pas être récupéré.
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type enregistrement.
+1. Cliquez sur une carte de type d’enregistrement.
 
-   La page de type enregistrement s’ouvre.
-1. (Conditionnel) Dans la variable **Affichage** Sélectionnez une vue Tableau dans le menu déroulant situé dans le coin supérieur gauche du tableau. Il doit s’agir de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue chronologique lors de votre dernier accès.
+   La page du type d’enregistrement s’ouvre.
+1. (Conditionnel) Dans le menu déroulant **Afficher** situé dans le coin supérieur gauche du tableau, sélectionnez une vue de tableau. Il s’agit de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue Chronologique lors de votre dernier accès.
 
-   Les enregistrements associés au type d&#39;enregistrement sélectionné s&#39;affichent dans la vue Tableau.
+   Les enregistrements associés au type d’enregistrement sélectionné s’affichent dans la vue Tableau.
 1. Utilisez l’une des méthodes suivantes :
 
    * Cliquez avec le bouton droit de la souris sur une ligne d’enregistrement, puis cliquez sur **Supprimer**.
-   * Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Supprimer**
+   * Cliquez sur le menu **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez sur **Supprimer**.
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Cliquez sur le bouton **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) pour ouvrir la boîte contenant les informations détaillées de l’enregistrement, cliquez sur **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis **Supprimer**.
+   * Cliquez sur l’icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) pour ouvrir la boîte contenant les informations détaillées de l’enregistrement, cliquez sur **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, puis sur **Supprimer**.
 
    L’enregistrement est supprimé et ne peut pas être récupéré.
 
-1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir la suppression d’un enregistrement :
+1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir la suppression d’un enregistrement :
 
-   * Ctrl + Z (⌘ + Z pour Mac) pour annuler une modification.
-   * Ctrl + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir la modification
+   * Ctrl+Z (⌘+Z pour Mac) pour annuler une modification
+   * Ctrl+Maj+Z (⌘+Maj+Z pour Mac) pour rétablir une modification

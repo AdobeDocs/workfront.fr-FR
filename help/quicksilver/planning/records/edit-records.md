@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 63%
+source-wordcount: '1674'
+ht-degree: 62%
 
 ---
 
@@ -59,9 +59,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>Nouveau : Léger ou supérieur</p>
+   <p>Nouvelle : standard</p>
    Ou
-   <p>Actuellement : Travail ou licence supérieure</p> 
+   <p>Actuelle : formule</p> 
   </td>
   </tr>
 

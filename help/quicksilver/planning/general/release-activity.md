@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
-ht-degree: 70%
+source-wordcount: '7781'
+ht-degree: 69%
 
 ---
 
@@ -156,6 +156,16 @@ Le titre d’un enregistrement est soit le nom de l’enregistrement, soit un ch
 Cette amélioration est disponible pour les enregistrements connectés à Workfront Planning et pour les ressources connectées à partir de Adobe Experience Manager.
 
 Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Seuls les utilisateurs sous licence Standard ou Plan peuvent disposer des autorisations Gérer sur les espaces de travail (titre).
+
+Production : samedi 21 juin 2024
+
+Prévisualisation : à déterminer
+
+Nous avons modifié les types d’utilisateurs pouvant avoir un accès complet aux espaces de travail. Désormais, seuls les utilisateurs sous licence Standard ou Plan peuvent disposer des autorisations Manage (Gérer) pour les espaces de travail. L’accès aux types d’enregistrement, aux enregistrements et aux champs est hérité d’un espace de travail. Tous les autres utilisateurs ont un accès en lecture seule aux espaces de travail et à leurs types d’objets. Avant cette mise à jour, les utilisateurs sous licence de Light et Worker pouvaient recevoir des autorisations Contribute pour les espaces de travail.
+
+Pour plus d’informations, voir [Présentation du type de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Semaine du mardi 10 juin 2024
 
@@ -366,7 +376,7 @@ Lorsqu’un utilisateur modifie une configuration de champ (nom, description, li
 >
 >Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
 
-Pour plus d’informations, voir [Modifier les champs](/help/quicksilver/planning/fields/edit-fields.md).
+Pour plus d’informations, voir [Modifier les paramètres de champ](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Semaine du mardi 6 mai 2024
 

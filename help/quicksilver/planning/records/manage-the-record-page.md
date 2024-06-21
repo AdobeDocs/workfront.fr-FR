@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 3%
+source-wordcount: '1060'
+ht-degree: 15%
 
 ---
 
@@ -28,9 +28,9 @@ Cet article explique comment modifier la mise en page et l’aspect d’une boî
 
 Vous devez créer des types d’enregistrement et des enregistrements avant de pouvoir commencer à modifier des pages d’enregistrement.
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d’informations, voir les articles suivants :
 
-* [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md)
 
 * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -65,33 +65,33 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>Nouveau : Léger ou supérieur</p>
+   <p>Nouvelle : standard</p>
    Ou
-   <p>Actuel : travail ou plus élevé</p> 
+   <p>Actuelle : formule</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Gestion ou autorisations supérieures à un espace de travail</a> </p>  
-   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
+   <td> <p>Gérer les autorisations d’un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Votre administrateur ou administratrice Workfront ou de groupes doit ajouter la zone Planning dans votre modèle de disposition. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Remarques concernant la modification de pages d’enregistrement
 
@@ -127,9 +127,9 @@ Pour ajouter une section à un aperçu d’enregistrement ou à une page :
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type enregistrement.
+1. Cliquez sur une carte de type d’enregistrement.
 
-   La page de type enregistrement s’ouvre.
+   La page du type d’enregistrement s’ouvre.
 
 1. Dans une vue de tout type, cliquez sur le nom d’un enregistrement.
 
@@ -143,7 +143,7 @@ Pour ajouter une section à un aperçu d’enregistrement ou à une page :
 
 1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
-   La page d’enregistrement s’ouvre.
+   La page de l’enregistrement s’ouvre.
 
    ![](assets/details-page.png)
 
@@ -188,9 +188,9 @@ Par défaut, toutes les sections sont développées.
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type enregistrement.
+1. Cliquez sur une carte de type d’enregistrement.
 
-   La page de type enregistrement s’ouvre.
+   La page du type d’enregistrement s’ouvre.
 
 1. Dans une vue de tout type, cliquez sur le nom d’un enregistrement.
 
@@ -204,7 +204,7 @@ Par défaut, toutes les sections sont développées.
 
 1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
-   La page d’enregistrement s’ouvre.
+   La page de l’enregistrement s’ouvre.
 
    ![](assets/details-page.png)
 

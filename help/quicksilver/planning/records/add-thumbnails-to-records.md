@@ -1,27 +1,27 @@
 ---
-title: Ajout d’une miniature à un enregistrement
-description: Vous pouvez modifier les informations d’enregistrement dans Adobe Workfront Planning et associer chaque enregistrement à des miniatures individuelles afin de les rendre facilement reconnaissables.
+title: Ajouter une miniature à un enregistrement
+description: Vous pouvez modifier les informations d’enregistrement dans Adobe Workfront Planning et associer chaque enregistrement à des miniatures individuelles afin de les rendre facilement reconnaissables.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 3%
+source-wordcount: '777'
+ht-degree: 39%
 
 ---
 
 <!--update the metadata with real information-->
 
-# Ajout d’une miniature à un enregistrement
+# Ajouter une miniature à un enregistrement
 
 {{planning-important-intro}}
 
-Vous pouvez associer des enregistrements à des miniatures uniques dans Adobe Workfront Planning afin de les rendre facilement reconnaissables.
+Vous pouvez associer des enregistrements à des miniatures uniques dans Adobe Workfront Planning afin de les rendre facilement reconnaissables.
 
 Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
-Pour plus d’informations, voir [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+Pour plus d’informations, voir [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Conditions d’accès
 
@@ -42,7 +42,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -56,25 +56,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>Actuel : travail ou plus élevé</p>
-   <p>Nouveau : Standard</p>  
-  </td>
+   <p>Nouvelle : standard</p> 
+   <p>Actuelle : formule</p>
+
+</td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour Workfront Planning </p>  
+   <td> <p>Il n’existe aucun contrôle d’accès pour Workfront Planning </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Gestion des autorisations d’un espace de travail </p>  
-   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
+   <td> <p>Gérer les autorisations d’un espace de travail </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td>  <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td>  <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
 </td>
   </tr>
 
@@ -83,24 +84,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 *Pour plus d’informations, voir [Conditions d’accès requises dans la documentation de Workbench](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Points à prendre en compte concernant les miniatures d’enregistrements
+## Remarques sur les miniatures d’enregistrements
 
 Pour faire la distinction visuelle entre les enregistrements dans une vue de tableau, vous pouvez associer une miniature unique à chaque enregistrement.
 
-Tenez compte des points suivants :
+Tenez compte des points suivants :
 
 * Une miniature est propre à un enregistrement et ne s’applique pas à tous les enregistrements du même type.
 * Vous pouvez uniquement ajouter des fichiers image sous forme de miniatures.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Vous pouvez ajouter une miniature à des enregistrements individuels dans la vue de tableau ou à partir de la page ou de la zone d’aperçu de l’enregistrement.
 * Workfront télécharge automatiquement une miniature chaque fois que vous créez un enregistrement. Vous pouvez modifier cette image ultérieurement.
-* Les miniatures appartiennent aux informations d’enregistrement et s’affichent dans les zones où s’affichent les enregistrements. Par exemple, les miniatures s’affichent avec les informations d’enregistrement dans les zones suivantes :
+* Les miniatures appartiennent aux informations d’enregistrement et s’affichent dans les zones où s’affichent les enregistrements. Par exemple, les miniatures s’affichent avec les informations d’enregistrement dans les zones suivantes :
 
    * Le champ principal d’un enregistrement dans la vue de tableau
-   * La barre d’enregistrement en mode Chronologie.
+   * La barre d’enregistrement dans la vue chronologique.
    * Aperçu et page des détails de l’enregistrement.
 
-## Ajout d’une miniature à un enregistrement
+## Ajouter une miniature à un enregistrement
 
 Vous pouvez ajouter une miniature de la manière suivante :
 
@@ -113,9 +114,9 @@ Vous pouvez ajouter une miniature de la manière suivante :
 
 1. Cliquez sur l’espace de travail pour lequel vous souhaitez ajouter des miniatures, puis cliquez sur la carte de type d’enregistrement.
 
-   Cela ouvre la page de type enregistrement.
-1. Sélectionnez une vue de tableau dans la **Affichage** menu déroulant. Tous les enregistrements du type que vous avez sélectionné s&#39;affichent dans un tableau.
-1. Passez la souris sur les informations du champ principal, puis cliquez sur le **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Miniature**.
+   La page du type d’enregistrement s’affiche.
+1. Sélectionnez une vue de tableau dans le menu déroulant **Vue**. Tous les enregistrements du type que vous avez sélectionné s&#39;affichent dans un tableau.
+1. Pointez sur les informations du champ principal, puis cliquez sur le menu **Plus** ![](assets/more-menu.png), puis sur **Miniature**.
 
    ![](assets/record-more-menu-expanded.png)
 
@@ -159,7 +160,7 @@ Vous pouvez ajouter une miniature de la manière suivante :
 
 1. Cliquez sur l’espace de travail pour lequel vous souhaitez ajouter des miniatures, puis cliquez sur la carte de type d’enregistrement.
 
-   Cela ouvre la page de type enregistrement.
+   La page du type d’enregistrement s’affiche.
 1. Dans n’importe quelle vue, cliquez sur un enregistrement pour l’ouvrir.
 
    La zone d’aperçu des détails s’affiche.
@@ -186,7 +187,7 @@ Vous pouvez ajouter une miniature de la manière suivante :
 
 1. (Facultatif) Pour supprimer la miniature avant son enregistrement, cliquez sur le bouton **Supprimer** icon ![](assets/remove-image-icon.png) à droite de l’image.
 
-1. Cliquez sur **Utiliser une image** pour ajouter l’image en tant que miniature.
+1. Cliquez sur **Utiliser l’image** pour ajouter l’image en tant que miniature.
 Cela ferme la fenêtre **Miniature d’enregistrement** de la boîte.
 La miniature s’affiche dans les zones de la planification Workfront où s’affiche l’enregistrement.
 
