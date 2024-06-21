@@ -12,7 +12,7 @@ exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
 source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
 workflow-type: tm+mt
 source-wordcount: '6259'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Le connecteur [!DNL Workfront] utilise OAuth 2.0 pour se connecter à [!DNL Wor
 
 Vous pouvez créer une connexion à votre compte [!DNL Workfront] directement à partir de l’intérieur d’un module [!DNL Workfront Fusion].
 
-1. Dans un module Adobe Workfront, cliquez sur **Ajouter** en regard du champ Connexion .
+1. Dans un module Adobe Workfront, cliquez sur **Ajouter** en regard du champ Connexion.
 1. Renseignez les champs suivants :
 
    <table style="table-layout:auto"> 
@@ -201,7 +201,7 @@ Le module renvoie les champs standard associés à l’enregistrement, ainsi que
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Exclure les événements créés par cette connexion</td> 
-      <td>Activez cette option pour exclure les événements créés ou mis à jour à l’aide du même connecteur que celui utilisé par ce module de déclenchement. Cela peut empêcher qu’un scénario se déclenche lui-même et se répète en une boucle sans fin.<p><b>REMARQUE</b>Le type d’enregistrement Attribution n’inclut pas cette option.</p></td> 
+      <td>Activez cette option pour exclure les événements créés ou mis à jour à l’aide du même connecteur que celui utilisé par ce module de déclenchement. Cela peut empêcher qu’un scénario se déclenche lui-même et se répète en une boucle sans fin.<p><b>REMARQUE</b> : le type d’enregistrement Affectation n’inclut pas cette option.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Record Origin]</td> 
@@ -850,8 +850,8 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
    <td> <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Champs de critères de recherche]</td> 
-   <td> <p>Sélectionnez les champs à utiliser pour vos critères de recherche. Ces champs seront ensuite disponibles dans la liste déroulante Critères de recherche .</p></td> 
+   <td>[!UICONTROL Search criteria fields]</td> 
+   <td> <p>Sélectionnez les champs que vous souhaitez utiliser pour vos critères de recherche. Ces champs seront ensuite disponibles dans la liste déroulante Critères de recherche.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Search criteria]</td> 
@@ -873,7 +873,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 </table>
 +++
 
-+++ **[!UICONTROL Recherche (héritée)]**
++++ **[!UICONTROL Recherche (hérité)]**
 
 Ce module de recherche recherche des enregistrements d’un objet dans [!DNL Workfront] qui correspondent à la requête de recherche que vous avez spécifiée.
 

@@ -11,7 +11,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,7 +47,7 @@ Lorsqu’une personne répond à un commentaire ou à une mise à jour système 
 
 >[!IMPORTANT]
 >
->Il n’est pas possible de répondre aux mises à jour du système dans l’onglet Activité du système . Toutes les réponses aux mises à jour système effectuées dans l’expérience héritée de commentaires avant le 11 avril 2024 s’affichent en lecture seule .
+>Il n’est pas possible de répondre aux mises à jour du système dans l’onglet Activité du système. Toutes les réponses aux mises à jour système effectuées dans l’ancienne expérience de commentaires avant le 11 avril 2024 s’affichent en lecture seule.
 
 Cet article décrit comment répondre aux commentaires de la plupart des objets dans Workfront. Pour connaître les différences entre les sections Mises à jour de divers objets, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -65,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Nouveau : contributeur ou version ultérieure pour les problèmes et documents ; clair ou supérieur pour tous les autres objets</p> 
+   <td> <p>Nouveau : licence de contribution ou supérieure pour les problèmes et les documents ; licence légère (Light) ou supérieure pour tous les autres objets</p> 
    <p>Actuel : licence de demande ou supérieure pour les problèmes et les documents ; licence de révision ou supérieure pour tous les autres objets</p> </td> 
   </tr> 
   <tr> 
@@ -79,22 +79,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès de la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Répondre à une mise à jour ou à une réponse dans Workfront
 
 Vous pouvez répondre à un commentaire dans le fil d’un objet que vous pouvez afficher. Vous pouvez également vous connecter en tant qu’administrateur ou administratrice Workfront ou de groupes et répondre à un commentaire au nom d’un autre utilisateur ou d’une autre utilisatrice. Pour plus d’informations, voir [Se connecter en tant qu’un autre utilisateur ou qu’une autre utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-### Réponse à un commentaire
+### Répondre à un commentaire
 
 La réponse à un commentaire dans la section Mises à jour d’un objet est similaire pour la plupart des objets dans Workfront.
 
 1. Accédez à l’objet auquel vous souhaitez apporter une réponse.
-1. Cliquez sur **Mises à jour**, puis cliquez sur le bouton **Commentaires** pour l’objet et recherchez le commentaire ou la réponse à laquelle vous souhaitez répondre.
+1. Cliquez sur **Mises à jour**, puis cliquez sur l’onglet **Commentaires** de l’objet et recherchez la réponse ou le commentaire auquel vous souhaitez répondre.
 
    Ou
 
-   Cliquez sur le bouton **Tous** , puis cliquez sur **Réponse aux commentaires** pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. Vous ne pouvez pas répondre dans l’onglet Tout .
+   Sélectionnez l’onglet **Tous**, puis cliquez sur **Répondre dans les commentaires** pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. Vous ne pouvez pas répondre dans l’onglet Tous.
 
 1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur **Citer la réponse**. Le texte de la mise à jour précédente apparaît dans la zone de saisie, marquée d’une ligne grise verticale.
 1. Cliquez sur **Répondre**.

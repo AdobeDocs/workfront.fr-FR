@@ -9,7 +9,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 82%
+ht-degree: 99%
 
 ---
 
@@ -51,13 +51,13 @@ ht-degree: 82%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront pour informer d’autres personnes de la progression de l’objet. Pour plus d’informations sur les objets auxquels vous pouvez ajouter des mises à jour dans Workfront, voir [Mise à jour de la section - Aperçu](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront pour communiquer avec les autres sur la progression de l’objet. Pour plus d’informations sur les objets auxquels vous pouvez ajouter des mises à jour dans Workfront, voir [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Les informations de cet article décrivent comment vous pouvez commenter et mettre à jour les informations pour les projets, les tâches et les problèmes. Les utilisateurs et utilisatrices affectés ou les personnes abonnées à l’objet peuvent afficher votre mise à jour. Vous pouvez également baliser des utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour.
+Les informations de cet article expliquent comment commenter et mettre à jour les informations liées aux projets, aux tâches et aux problèmes. Les utilisateurs et utilisatrices affectés ou les personnes abonnées à l’objet peuvent afficher votre mise à jour. Vous pouvez également baliser des utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour.
 
-L’ajout de commentaires à d’autres objets est similaire à la mise à jour de projets, de tâches et de problèmes. Pour plus d’informations sur les commentaires sur les cartes et les objectifs, consultez également les articles suivants :
+L’ajout de commentaires à d’autres objets est similaire à la mise à jour des projets, des tâches et des problèmes. Pour plus d’informations sur les commentaires sur les cartes et les objectifs, consultez également les articles suivants :
 
-* [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+* [Gérer les commentaires des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   Vous devez disposer d’une licence supplémentaire pour accéder aux Objectifs Workfront.
 
@@ -117,21 +117,21 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
   >[!TIP]
   >
-  >Les propriétaires de commentaires sont automatiquement balisés. Pour plus d’informations, consultez [Baliser d’autres personnes sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+  >Les personnes propriétaires de commentaires sont automatiquement taguées. Pour plus d’informations, consultez [Baliser d’autres personnes sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 
 * Vous pouvez ajouter un commentaire à un objet que vous pouvez afficher ou vous connecter en tant qu’administrateur ou administratrice Workfront ou de groupes et ajouter un commentaire au nom d’un autre utilisateur ou d’une autre utilisatrice. Pour plus d’informations, consultez [Se connecter en tant qu’autre utilisateur ou utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 * Vous pouvez ajouter une mise à jour à des projets, tâches et problèmes à partir des zones suivantes de Workfront :
 
-   * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
+   * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
    * Dans la zone Accueil (pour les tâches et les problèmes)
-   * Dans le panneau Résumé dans les zones suivantes (pour les tâches, les problèmes et les documents) :
+   * Dans le panneau Résumé des zones suivantes (pour les tâches, les problèmes et les documents) :
 
-      * Une liste d’objets
+      * Une liste des objets
       * Une feuille de temps
       * Page d’accueil
-      * L’équilibreur de charge de travail
+      * Équilibreur de charge de travail
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -227,8 +227,8 @@ You can add updates to the following objects:
 
 Cet article décrit comment mettre à jour un projet, des tâches ou des problèmes. La mise à jour de la plupart des autres objets est similaire.
 
-1. Recherchez l’objet à mettre à jour, puis cliquez sur son nom pour ouvrir la page de l’objet.
-1. Cliquez sur  **Mises à jour** dans le panneau de gauche.
+1. Recherchez l’objet à mettre à jour, puis cliquez sur son nom pour ouvrir sa page.
+1. Cliquez sur **Mises à jour** dans le panneau de gauche.
 L’onglet **Commentaires** est sélectionné par défaut.
 
    <!--
@@ -286,7 +286,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >* La date et l’heure en regard du commentaire correspondent à la date du commentaire d’origine, et non à celle de la dernière modification.
    >* Lorsque vous ajoutez un commentaire au nom d’une autre personne (lorsque vous vous connectez en tant qu’autre utilisateur ou utilisatrice, en tant qu’administrateur ou administratrice Workfront ou de groupes), vous ne pouvez pas modifier le commentaire si votre connexion est effectuée au nom de l’autre personne. Vous ne pouvez modifier le commentaire qu’après votre déconnexion au nom de l’autre personne et votre reconnexion en votre nom.
 
-1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la variable **Ajouter une réponse ...** , pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, consultez [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse...** pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, consultez [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 1. (Le cas échéant et facultatif) Si d’autres utilisateurs et utilisatrices ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour pendant que vous ajoutiez vos commentaires, cliquez sur **Afficher** à l’intérieur de la **bannière de nouveaux commentaires** bleue en bas de l’écran pour afficher ces commentaires.
 
@@ -303,20 +303,20 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >
    >Les noms des deux premières entités balisées s’affichent en regard de leurs avatars. Si plus de deux entités sont balisées, seuls le nom de la première et le nombre d’entités supplémentaires s’affichent.
 
-1. (Facultatif) Cliquez sur le nom d’un commentateur pour afficher son nom, son rôle et son adresse électronique dans une zone d’informations. Cliquez à nouveau sur le nom du commentateur dans la zone d’informations pour ouvrir son profil utilisateur.
+1. (Facultatif) Cliquez sur le nom d’un commentateur ou d’une commentatrice pour afficher son nom, son rôle et son adresse e-mail dans une zone d’informations. Cliquez à nouveau sur le nom du commentateur ou de la commentatrice dans la zone d’informations pour ouvrir son profil utilisateur.
 1. (Facultatif) Cliquez sur l’onglet **Activité du système** pour afficher les mises à jour consignées par le système. Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note relative à cette mise à jour et l’affiche dans l’onglet Activité du système.
 
    Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
-   >Vous ne pouvez pas ajouter de commentaire à une mise à jour du système. Cependant, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée ont été ajoutées à l’onglet Activité système en lecture seule. L’expérience de commentaire héritée a été supprimée de Workfront le 11 avril 2024.
+   >Vous ne pouvez pas ajouter de commentaire à une mise à jour système. Cependant, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée ont été ajoutées à l’onglet Activité système en lecture seule. L’expérience de commentaire héritée a été supprimée de Workfront le 11 avril 2024.
 
-1. (Facultatif) Cliquez sur le **Tous** pour afficher à la fois les commentaires d’utilisateur et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule.
+1. (Facultatif) Cliquez sur l’onglet **Tous** pour afficher les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit. Il s’agit d’un onglet en lecture seule.
 
    >[!TIP]
    >
-   >Vous ne pouvez pas répondre aux commentaires ni identifier d’autres personnes dans les commentaires existants de l’onglet Tous. Pour répondre à un commentaire dans l’onglet Toutes , cliquez sur **Réponse aux commentaires** pour ouvrir le commentaire dans l’onglet Commentaires .
+   >Vous ne pouvez pas répondre aux commentaires ni identifier d’autres personnes dans les commentaires existants de l’onglet Tous. Pour répondre à un commentaire dans l’onglet Tous, cliquez sur **Répondre dans les commentaires** pour ouvrir le commentaire dans l’onglet Commentaires.
 
 ## Utiliser du texte enrichi dans une mise à jour Workfront{#use-rich-text-in-a-workfront-update}
 
@@ -381,7 +381,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 1. (Facultatif) Pour joindre une image à votre mise à jour, effectuez l’une des opérations suivantes :
 
    * Enregistrez l’image sur votre ordinateur, puis faites-la glisser et déposez-la dans la zone Nouveau commentaire.
-   * Copiez une capture d’écran de votre ordinateur, puis collez-la dans le commentaire.<!-- This is not available in the legacy commenting experience.-->
+   * Copiez une copie d’écran de votre ordinateur, puis collez-la dans le commentaire.<!-- This is not available in the legacy commenting experience.-->
    * Cliquez sur l’icône **Ajouter une image** ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
 
 
@@ -392,7 +392,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >* Les images sont accessibles à partir de la section Mises à jour d’un objet et sont également disponibles dans la zone Documents sous le menu principal.
    >* Vous pouvez coller l’image en cliquant avec le bouton droit de la souris dans le nouveau commentaire, ou en appuyant sur les touches CTRL+V pour Windows (ou ⌘+V pour Mac) de votre clavier.
    >* Vous pouvez envoyer une mise à jour avec une image et sans texte.
-   >* Lorsque vous supprimez un commentaire qui contient une image, celle-ci est supprimée de la section Mises à jour , ainsi que de la zone Documents . L’image est également supprimée de la zone Documents lorsque vous modifiez un commentaire et supprimez l’image.
+   >* Lorsque vous supprimez un commentaire qui contient une image, celle-ci est supprimée de la section Mises à jour, ainsi que de la zone Documents. L’image est également supprimée de la zone Documents lorsque vous modifiez un commentaire et supprimez l’image.
    >* Lorsqu’une personne supprime une image jointe à un commentaire de la zone Documents, elle est également supprimée du commentaire.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
@@ -427,9 +427,9 @@ Vous pouvez rechercher un commentaire ou une réponse dans la section Mises à j
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## Copie de mises à jour
+## Copier des mises à jour
 
-Il existe plusieurs façons de copier une mise à jour.
+Vous pouvez copier une mise à jour de plusieurs manières différentes.
 
 Vous pouvez copier un lien vers la mise à jour ou copier le contenu d’une mise à jour afin de l’utiliser dans une nouvelle mise à jour.
 
@@ -553,7 +553,7 @@ En fonction de l’accès que l’administrateur ou l’administratrice Workfron
 Aucune personne utilisant Workfront (y compris l’administrateur ou l’administratrice Workfront) ne peut supprimer les mises à jour effectuées par une autre personne. Cependant, si le niveau d’accès d’une personne lui permet de supprimer ses propres mises à jour, l’administrateur ou l’administratrice Workfront peut se connecter au nom de cette personne et supprimer les mises à jour qu’elle a effectuées. Pour plus d’informations, consultez [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) et [Se connecter en tant qu’autre utilisateur ou utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez supprimer.
-1. Cliquez sur le bouton **Plus** en regard de la mise à jour ou de la réponse que vous souhaitez supprimer, puis cliquez sur **Supprimer**.
+1. Cliquez sur le menu **Plus** en regard de la mise à jour ou de la réponse à supprimer, puis sur **Supprimer**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -570,15 +570,15 @@ Aucune personne utilisant Workfront (y compris l’administrateur ou l’adminis
    Les commentaires supprimés le sont immédiatement de Workfront. Un utilisateur ou une utilisatrice qui utilise la section Mises à jour voit la suppression d’un commentaire par une autre personne en temps réel.
 
 
-## Vérifier les mises à jour du système
+## Passer en revue les mises à jour système
 
 La section Mises à jour d’un objet Workfront affiche deux types d’informations :
 
-* **Mises à jour de l’utilisateur :** Les mises à jour des utilisateurs sont des commentaires que vous et d’autres utilisateurs de votre système saisissez. Les mises à jour de l’utilisateur s’affichent dans les onglets Commentaires et Tous de la section Mises à jour .
+* **Mises à jour des utilisateurs et des utilisatrices :** les mises à jour des utilisateurs et des utilisatrices sont des commentaires que vous et d’autres personnes de votre système saisissez. Les mises à jour des utilisateurs et des utilisatrices s’affichent dans les onglets Commentaires et Tous de la section Mises à jour.
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Mises à jour système :** Les mises à jour système enregistrent la suppression de tâches ou de problèmes, l’ajout ou la suppression de versions de document, l’ajout ou la suppression d’une demande d’approbation, ainsi que les modifications ou modifications apportées à l’objet. Les mises à jour système s’affichent dans l’activité système et dans les onglets Toutes de la section Mises à jour .
+* **Mises à jour système :** les mises à jour système consignent la suppression de tâches ou de problèmes, l’ajout ou la suppression de versions de document, l’association ou la suppression d’une demande d’approbation, ainsi que les modifications ou changements apportés à l’objet. Les mises à jour système s’affichent dans l’activité système et dans les onglets Tous de la section Mises à jour.
 
   ![](assets/system-updates-cl-350x277.png)
 
@@ -591,7 +591,7 @@ La section Mises à jour d’un objet Workfront affiche deux types d’informat
    * Tâche de modèle
    * Carte ad hoc
 
-Pour plus d’informations sur les mises à jour du système dans la section Mises à jour, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Pour plus d’informations sur les mises à jour système dans la section Mises à jour, voir [Vue d’ensemble de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 <!--

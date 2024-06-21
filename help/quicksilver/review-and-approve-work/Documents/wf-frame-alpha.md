@@ -10,19 +10,19 @@ exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
 source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 1%
+ht-degree: 76%
 
 ---
 
 # Programme bêta - Workfront + Frame.io
 
-Bienvenue dans le programme bêta d’intégration de Workfront + Frame.io ! Dans le cadre de cette version bêta, vous accéderez rapidement à notre expérience d’intégration native de Workfront + Frame.io et serez en mesure de partager vos commentaires qui définiront en fin de compte l’expérience finale que nous publierons sur notre base de clients élargie. Avec cette intégration, nous visons à créer un processus de bout en bout sans heurts entre Workfront et Frame.io, en mettant l’accent sur une solution idéale, unifiée de révision et d’approbation.
+Bienvenue dans le programme bêta de l’intégration de Workfront + Frame.io ! Dans le cadre de cette version bêta, vous accéderez rapidement à notre expérience d’intégration native de Workfront + Frame.io et serez en mesure de partager vos commentaires qui définiront l’expérience finale que nous proposerons à notre plus large base de clientes et de clients. L’objectif de cette intégration est de créer un workflow de bout en bout et sans friction entre Workfront et Frame.io, en mettant l’accent sur la fourniture d’une solution optimale et unifiée de révision et d’approbation.
 
 Vous trouverez ici des informations sur la dernière version bêta, ainsi qu’une brève présentation vidéo pour commencer.
 
 >[!NOTE]
 >
->Pour participer à cette version bêta, vous devez être activé par l’équipe produit. Contactez votre gestionnaire de compte ou votre service client pour demander à être ajouté.
+>Pour participer à cette version bêta, vous devez être inscrit par l’équipe produit. Contactez votre gestionnaire de compte ou de succès client pour demander à participer.
 
 ## Mai 2024 : Mises à jour de la version bêta dans Workfront
 
@@ -53,21 +53,21 @@ Effectuez facilement le suivi de l’état d’approbation d’un fichier direct
 
 ### Ajout de plusieurs ressources de Frame.io à Workfront
 
-Vous pouvez désormais ajouter jusqu’à 10 ressources de Frame.io à Workfront à la fois. Vous pouvez choisir d’ajouter des documents au projet Workfront ou à une tâche de projet spécifique.
+Vous pouvez désormais ajouter jusqu’à 10 ressources de Frame.io à Workfront à la fois. Vous pouvez choisir d’ajouter des documents au projet Workfront ou à une tâche de projet spécifique.
 
 ### Expérience améliorée lors de l’ajout d’une ressource Frame.io à Workfront
 
-Les éléments de menu permettant d’ajouter une ressource à Workfront ont été mis à jour afin de faciliter l’affichage des tâches qui vous sont affectées, de la hiérarchie des tâches et de l’état des tâches.
+Les éléments de menu permettant d’ajouter une ressource à Workfront ont été mis à jour afin de faciliter l’affichage des tâches qui vous sont affectées, de la hiérarchie des tâches et du statut des tâches.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
 ## Mars 2024 : Mises à jour de la version bêta dans Workfront
 
-Dans cette version bêta, nous avons :
+Dans cette version bêta, nous avons apporté les améliorations suivantes :
 
-### Ajout d’une date limite aux révisions et validations de documents
+### Ajouter une échéance aux révisions et approbations de documents
 
-Vous pouvez maintenant spécifier une échéance pour les utilisateurs ou les équipes affectés à la révision ou à l’approbation d’un document. Les réviseurs et les approbateurs reçoivent des notifications par e-mail 72 heures, puis 24 heures avant la date limite spécifiée. L’échéance est également répercutée dans le widget Validations de la nouvelle zone d’accueil.
+Vous pouvez maintenant spécifier une échéance pour les utilisateurs et utilisatrices ou les équipes affectés à la révision ou à l’approbation d’un document. Les réviseurs et réviseuses et les approbateurs et approbatrices reçoivent des notifications par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée. L’échéance est également répercutée dans le widget Approbations de la nouvelle zone d’accueil.
 
 Pour plus d’informations, voir [Créer une demande d’approbation ou de révision de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
@@ -75,33 +75,33 @@ Pour plus d’informations, voir [Créer une demande d’approbation ou de révi
 
 Vous pouvez maintenant créer des modèles d’approbation dans la zone Configuration afin de rationaliser le processus de révision et d’approbation. Les modèles d’approbation vous permettent de rendre le processus de révision et d’approbation plus répétable en
 
-* Ajouter des validants et des approbateurs
-* Définition d’une période
+* Ajoutant des réviseurs et réviseuses et des approbateurs et approbatrices.
+* Définissant un délai.
 
 Vous pouvez appliquer des modèles d’approbation à partir de la zone Documents lors de la création d’un processus d’approbation pour un document.
 
-Pour plus d’informations, voir [Création d’un modèle d’approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Pour plus d’informations, consultez [Créer un modèle d’approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
-### Afficher les informations sur toutes vos validations en une seule fois
+### Afficher les informations relatives à toutes vos approbations au même endroit
 
-Pour vous aider à gérer et analyser vos demandes d’approbation en un coup d’oeil, nous avons ajouté les indicateurs de performances clés suivants au widget Toutes les approbations :
+Pour vous aider à gérer et analyser vos demandes d’approbation d’un seul coup d’œil, nous avons ajouté les indicateurs clés de performances suivants au widget Toutes les approbations :
 
 * Approbations par décision
 * Temps moyen d’approbation
 * Approbations en attente
 * Approbations en retard
 
-Vous pouvez accéder aux catégories répertoriées ci-dessus pour obtenir une vue plus détaillée. Le widget Toutes les approbations est disponible dans Tableaux de bord Accueil et Zone de travail .
+Vous pouvez accéder aux catégories répertoriées ci-dessus pour obtenir une vue plus détaillée. Le widget Toutes les approbations est disponible dans les nouveaux tableaux de bord Accueil et Zone de travail.
 
-Pour plus d’informations, voir [Prise en main du nouvel accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations, voir [Commencer avec la nouvelle zone Accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-### Verrouillez vos révisions et approbations une fois qu’une décision globale est prise
+### Verrouillez vos révisions et approbations une fois qu’une décision globale est prise.
 
-Pour garantir la conformité et réduire l’attrition de vos processus d’approbation de contenu, nous verrouillons désormais toute approbation sur un fichier une fois qu’une décision globale a été prise. Cela inclut le travail Approuvé, Approuvé avec des modifications ou Nécessite un travail.
+Pour garantir la conformité et réduire l’attrition dans vos processus d’approbation de contenu, toute approbation de fichier est maintenant verrouillée une fois qu’une décision globale a été prise. Les décisions suivantes sont concernées : Approuvé, Approuvé avec des modifications ou A besoin d’être retravaillé.
 
-Une fois verrouillé, toute personne effectuant une révision ou une approbation ne pourra plus faire de commentaires, de réponses, de décisions ou ajouter des balises de dessin, ce qui garantit que votre processus de révision et l’audit associé restent inchangés.
+Une fois verrouillé, toute personne effectuant une révision ou une approbation ne pourra plus faire de commentaires, de réponses, de décisions ou ajouter des annotations, ce qui garantit que votre processus de révision et l’audit associé restent inchangés.
 
-Lorsqu’une nouvelle version de document est téléchargée, le cycle de révision suivant peut être déclenché tout en maintenant verrouillées les révisions précédentes.
+Lorsqu’une nouvelle version de document est chargée, le cycle de révision suivant peut être déclenché tout en maintenant verrouillées les révisions précédentes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
@@ -109,21 +109,22 @@ Lorsqu’une nouvelle version de document est téléchargée, le cycle de révis
 
 ## Test des fonctionnalités
 
-Avec cette intégration, notre objectif est de permettre aux créatifs de rester dans leur outil de choix (CC ou Frame.io) pour créer leur contenu et réaliser des révisions par les pairs, tout en ayant des chefs de projet pour coordonner le travail et initialiser et suivre le processus de révision formel depuis Workfront. Pour ce faire, vous pouvez utiliser les deux meilleures solutions : Workfront de nouvelles validations de document pour la gestion des validations de contenu, ainsi que les fonctionnalités d’examen de contenu proposées par Frame.io. Collectivement, les nouveaux documents approuvés et Frame.io formeront notre nouvelle expérience de révision et d’approbation de contenu de bout en bout. 
+Nous avons développé cette intégration pour permettre aux personnes créatives de continuer à utiliser leur outil de prédilection (CC ou Frame.io) pour créer du contenu et effectuer des révisions par des pairs, le tout sous la coupe de personnes responsables de projet chargées de coordonner le travail et d’initialiser et de suivre le processus de révision formel à partir de Workfront. Pour ce faire, vous pouvez utiliser le meilleur des deux mondes : les nouvelles approbations de document de Workfront pour la gestion des approbations de contenu, ainsi que les fonctionnalités de révision de contenu proposées par Frame.io. Les nouvelles approbations de documents et Frame.io formeront notre nouvelle expérience de révision et d’approbation de contenu de bout en bout.
 
-Pour vous permettre de tester facilement les nouvelles fonctionnalités du programme bêta, nous avons créé un nouveau compte de test Frame.io et nous l’avons connecté à un nouveau groupe appelé `Frame.io testing` dans votre environnement Workfront Preview ou Sandbox existant.
+Pour vous permettre de tester facilement les nouvelles fonctionnalités du programme bêta, nous avons créé un nouveau compte de test Frame.io et nous l’avons connecté à un nouveau groupe appelé `Frame.io testing` dans votre environnement de prévisualisation ou de sandbox Workfront existant.
 
 ### Instructions détaillées sur les tests
 
-Pour les participants qui souhaitent tester des fonctionnalités supplémentaires, nous avons créé un scénario de test plus impliqué. Un guide pour ce scénario de test détaillé peut être téléchargé ici : [Présentation détaillée du scénario de test détaillé WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
+Pour les personnes participantes qui souhaitent tester des fonctionnalités supplémentaires, nous avons créé un scénario de test plus poussé. Un guide pour ce scénario de test détaillé peut être téléchargé ici : [Présentation détaillée du scénario de test détaillé WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 
 
 ## Vidéo de démonstration
 
 >[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
-## Envoyer un commentaire
+## Envoyer des commentaires
 
 Nous apprécions votre contribution et pensons que votre point de vue est essentiel pour nous aider à créer le meilleur produit possible.
 
-Comme vous avez des commentaires spécifiques sur ce qui serait nécessaire pour que votre entreprise adopte cette solution en production, envoyez-la à [etienneb@adobe.com](mailto:etienneb@adobe.com).
+
+Si vous avez des commentaires spécifiques sur les modifications à apporter pour que votre entreprise adopte cette solution en production, communiquez-les à l’adresse suivante : [etienneb@adobe.com](mailto:etienneb@adobe.com).

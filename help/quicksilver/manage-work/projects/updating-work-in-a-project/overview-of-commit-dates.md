@@ -3,56 +3,56 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Vue d’ensemble des dates d’engagement
-description: La date de validation est la date à laquelle un utilisateur affecté à une tâche ou à un problème s’engage à terminer la tâche ou le problème. Cette valeur est différente de la date d’achèvement prévue, car il s’agit d’une estimation plus réaliste de la date d’achèvement fournie par l’utilisateur qui est directement responsable du travail.
+description: La date d’engagement est la date à laquelle une personne affectée à une tâche ou à un problème s’engage à le terminer. Cette valeur est différente de la date d’achèvement prévue, car il s’agit d’une estimation plus réaliste de la date d’achèvement fournie par la personne directement responsable du travail.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
 source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 1%
+ht-degree: 80%
 
 ---
 
 # Vue d’ensemble des dates d’engagement
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour toutes les clientes et tous les clients ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
-La date de validation est la date à laquelle un utilisateur affecté à une tâche ou à un problème s’engage à terminer la tâche ou le problème.
+La date d’engagement est la date à laquelle une personne affectée à une tâche ou à un problème s’engage à le terminer.
 
-Cette valeur est différente de la date d’achèvement prévue d’une tâche ou d’une tâche, car il s’agit d’une estimation plus réaliste de la date d’achèvement donnée uniquement par l’utilisateur responsable du travail.
+Cette valeur est différente de la date d’achèvement prévue d’une tâche ou d’un problème, car il s’agit d’une estimation plus réaliste de la date d’achèvement indiquée par la personne responsable du travail.
 
-Pour plus d’informations sur la date d’achèvement prévue, voir [Présentation de la date d’achèvement planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Pour plus d’informations sur la date d’achèvement prévue, consultez la section [Vue d’ensemble de la date d’achèvement prévu de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Vue d’ensemble des dates d’engagement
 
-Tenez compte des points suivants lorsque vous utilisez des dates de validation :
+Tenez compte des points suivants lorsque vous utilisez des dates d’engagement :
 
-* Seules les tâches et les problèmes ont une date de validation.
-* Les dates de validation ne sont pas définies automatiquement par Adobe Workfront.\
-  Lorsque vous créez une tâche ou un problème, aucune date de validation n’est affectée à la tâche ou au problème.
-* Si une tâche ou un problème vous est assigné, vous pouvez définir la Date de validation en effectuant l’une des opérations suivantes :
+* Seules les tâches et les problèmes ont une date d’engagement.
+* Les dates d’engagement ne sont pas définies automatiquement par Adobe Workfront.\
+  Lorsque vous créez une tâche ou un problème, aucune date d’engagement n’est affectée à la tâche ou au problème.
+* Lorsque vous recevez une tâche ou un problème, vous pouvez définir la date d’engagement en effectuant l’une des opérations suivantes :
 
-   * Laissez Workfront définir la date de validation de sorte qu’elle corresponde à la date d’achèvement planifiée existante de la tâche ou de la question en cliquant sur Travailler dessus, Démarrer le problème ou Démarrer la tâche sur la tâche ou la tâche. Pour plus d’informations sur le remplacement du bouton Travailler dessus par un bouton Démarrer , voir  [Remplacez le bouton Travailler dessus par un bouton Démarrer](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
-   * Définissez manuellement vous-même la date de validation en fonction du moment où vous pensez que la tâche ou le problème peut être terminé. Il s’agit de votre estimation et de votre engagement, en tant que personne désignée, envers le chef de projet, à ce que la tâche ou le problème soit terminé à une date spécifique.
-Pour plus d’informations, voir [Mise à jour des dates de validation pour les tâches et les problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+   * Laissez Workfront définir la date d’engagement de sorte qu’elle corresponde à la date d’achèvement prévue existante de la tâche ou du problème en cliquant sur Travailler sur ce projet, Démarrer le problème ou Démarrer la tâche sur la tâche ou le problème. Pour plus d’informations sur le remplacement du bouton Travailler sur ce projet par un bouton Démarrer, consultez la section [Remplacer le bouton Travailler sur ce projet avec un bouton Démarrer](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Définissez manuellement vous-même la date d’engagement en fonction de quand vous pensez terminer la tâche ou le problème. En tant que personne cessionnaire, il s’agit de votre estimation et de votre engagement envers la personne chargée de la gestion du projet de terminer la tâche ou le problème à une date spécifique.
+Pour plus d’informations, consultez la section [Mettre à jour les dates d’engagement pour les tâches et les problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
->Pour modifier la date de validation, vous devez être le propriétaire d’une tâche. Les utilisateurs suivants ne peuvent pas modifier la date de validation d’une tâche :
+>Pour modifier la date d’engagement, vous devez être la personne propriétaire de la tâche. Les personnes suivants ne peuvent pas modifier la date d’engagement d’une tâche :
 >
 >* Propriétaire du projet
 >* Sponsor du projet
 >* Gestionnaire des ressources
->* Administrateur système
->* Toute autre personne désignée pour la tâche
->* Tout autre utilisateur disposant d’autorisations sur la tâche.
+>* Administrateur ou administratrice système
+>* Toute autre personne cessionnaire pour la tâche
+>* Toute autre personne disposant d’autorisations sur la tâche
 >
->Pour plus d’informations sur le propriétaire de la tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>Pour plus d’informations sur la personne propriétaire de la tâche, consultez la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Localisation de la date de validation des tâches et des problèmes
 
@@ -62,35 +62,35 @@ Vous trouverez la date de validation des tâches et des problèmes dans les zone
 * Le panneau Résumé, une fois qu’un administrateur de Workfront ou de groupe l’a ajouté à votre modèle de mise en page. Pour plus d’informations, voir [Personnalisation de l’accueil et du résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * <span class="preview">L’en-tête d’une tâche ou d’un problème, après qu’un administrateur de Workfront ou de groupe l’ait ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
-## Notifications et mises à jour déclenchées en modifiant la date de validation {#notifications-and-updates-triggered-by-changing-the-commit-date}
+## Notifications et mises à jour déclenchées en modifiant la date d’engagement {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
-Lorsqu’une tâche ou un responsable d’émission modifie manuellement une date de validation à une date différente de la date d’achèvement planifiée définie par le propriétaire du projet, un certain nombre de notifications et de mises à jour avertissent le propriétaire du projet et d’autres utilisateurs de cette modification.
+Lorsqu’une personne cessionnaire d’une tâche ou d’un problème sélectionne une date d’engagement différente de la date d’achèvement prévue définie par la personne propriétaire du projet, un certain nombre de notifications et de mises à jour alertent la personne propriétaire du projet et d’autres utilisateurs et utilisatrices de cette modification.
 
 >[!NOTE]
 >
->Les modifications apportées à la date de validation ne modifient pas automatiquement les dates planifiées et les modifications apportées aux dates planifiées ne modifient pas automatiquement la date de validation.
+>Les modifications apportées à la date d’engagement ne modifient pas automatiquement les dates prévues et inversement.
 
-La définition manuelle de la date de validation d’une tâche ou d’un problème déclenche les modifications suivantes :
+La définition manuelle de la date d’engagement d’une tâche ou d’un problème déclenche les modifications suivantes :
 
-* Le changement de date de validation est renseigné dans l’activité système et dans les onglets Tous de la section Mise à jour de la tâche ou du problème.
+* La modification de la date d’engagement est renseignée dans la section Mises à jour, sous les onglets Activité système et Tous pour la tâche ou le problème.
 
   ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  Le changement de la date de validation s’affiche dans la zone Mises à jour de la tâche ou lorsque l’administrateur Workfront active cette mise à jour dans la zone Flux de mises à jour de la configuration. Pour plus d’informations, voir [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  La modification de la date d’engagement s’affiche dans la zone Mises à jour de la tâche ou du problème lorsque l’administrateur ou l’administratrice de Workfront active cette mise à jour dans la zone Flux de mises à jour de Configuration. Pour plus d’informations, consultez la section [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
   Si un propriétaire de projet ne souhaite pas accepter la modification, nous lui recommandons de faire part de ses commentaires à l’utilisateur qui propose une nouvelle date à l’aide de l’onglet Commentaires de la section Mises à jour, afin de lui demander de redéfinir la date de validation sur la date planifiée d’origine ou de sélectionner une nouvelle date.
 
-  Si un propriétaire de projet accepte la modification, il peut ajuster manuellement la date d’achèvement planifiée afin qu’elle corresponde à la date de validation proposée par l’utilisateur affecté à l’élément en modifiant la tâche ou le problème.
+  Si une personne propriétaire de projet accepte la modification, la date d’achèvement prévue peut être ajustée manuellement afin qu’elle corresponde à la date d’engagement proposée par la personne affectée à l’élément en modifiant la tâche ou le problème.
 
-  Vous devez avoir accès à la gestion de la tâche ou du problème pour les modifier.
+  Vous devez disposer d’un accès en gestion à la tâche ou au projet pour le modifier.
 
   >[!TIP]
   >
   >Vous pouvez demander à votre administrateur système ou de groupe d’ajouter le champ Date de validation à votre panneau Résumé, ou en-tête, pour faciliter la mise à jour.
   >
-  >Pour plus d’informations, voir les articles suivants :
+  >Pour plus d’informations, consultez les articles suivants :
   >
-  >* [Aperçu du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Vue d’ensemble du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
   >* [Personnalisation de l’accueil et du résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
   >* [Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
@@ -105,13 +105,13 @@ La définition manuelle de la date de validation d’une tâche ou d’un probl�
 -->
 
 
-* La date de fin prévue de la tâche ou du problème est définie sur la même date, car la tâche a maintenant une indication plus précise du moment où elle sera probablement terminée.
+* La date d’achèvement prévisionnelle de la tâche ou du problème est définie sur la même date, car la tâche a maintenant une indication plus précise du moment où elle sera probablement terminée.
 
-  Pour plus d’informations sur la date d’achèvement prévue, voir [Présentation de la date d’achèvement prévue pour les projets, tâches et problèmes](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  Pour plus d’informations sur la date d’achèvement prévisionnelle, voir [Vue d’ensemble de la date d’achèvement prévisionnelle pour les projets, tâches et problèmes](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* Le propriétaire du projet est informé dans la zone Notifications qu’une tâche ou un problème a été modifié.
+* La personne propriétaire du projet est informée dans la zone Notifications que la date d’engagement d’une tâche ou d’un problème a été modifiée.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 
@@ -121,11 +121,11 @@ La définition manuelle de la date de validation d’une tâche ou d’un probl�
 
   >[!TIP]
   >
-  >La notification indiquant que la date de validation a changé est envoyée au propriétaire du projet uniquement lorsque l’administrateur Workfront active l’affichage de la date de validation dans la zone Flux de mise à jour de la configuration. Pour plus d’informations, voir [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  >La notification indiquant que la date d’engagement a changé est envoyée à la personne propriétaire du projet uniquement lorsque l’administrateur ou l’administratrice de Workfront active l’affichage de la date d’engagement dans la zone Flux de mise à jour de Configuration. Pour plus d’informations, consultez la section [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, voir  [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, consultez la section [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Pour plus d’informations sur la mise à jour des dates de validation pour les tâches et les problèmes, voir [Mise à jour des dates de validation pour les tâches et les problèmes](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+Pour plus d’informations sur la mise à jour des dates d’engagement pour les tâches et les problèmes, voir [Mettre à jour les dates d’engagement pour les tâches et les problèmes](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

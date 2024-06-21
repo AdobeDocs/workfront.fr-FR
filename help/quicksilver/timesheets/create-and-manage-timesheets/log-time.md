@@ -10,7 +10,7 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
 source-wordcount: '3589'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -47,9 +47,9 @@ Pour effectuer les étapes décrites dans cet article et consigner les heures sp
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : 
-   <ul><li>Clair ou supérieur pour consigner les heures générales dans une feuille de temps</li>
-   <li>Standard pour consigner les heures sur un projet, une tâche ou un problème</li></ul>
+   <td> <p>Nouveau : 
+   <ul><li>Light ou supérieur pour consigner les heures générales dans une feuille de temps</li>
+   <li>Standard pour consigner les heures liées à un projet, à une tâche ou à un problème</li></ul>
 
 
 <p>Actuel : 
@@ -345,7 +345,7 @@ Pour obtenir des informations générales sur l’utilisation de la zone Accueil
 
 #### Consigner le temps sur un élément de travail de la nouvelle zone Accueil
 
-Vous pouvez consigner le temps d’accès aux tâches et aux problèmes dans n’importe quel widget à l’aide du panneau Résumé de la zone Accueil. Pour plus d’informations, consultez la section [Panneau Résumé](#summary-panel) dans cet article.
+Vous pouvez consigner les heures consacrées aux tâches et aux problèmes dans un widget à l’aide du panneau Résumé de la zone Accueil. Pour plus d’informations, consultez la section [Panneau Résumé](#summary-panel) dans cet article.
 
 En outre, pour enregistrer l’heure d’un élément dans le widget Mon travail :
 
@@ -358,7 +358,7 @@ En outre, pour enregistrer l’heure d’un élément dans le widget Mon travail
 
 1. Cliquez sur **Consigner le temps**.
 
-   L’heure consignée s’affiche dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
+   Les heures consignées s’affichent dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
 
 #### Consigner le temps sur un élément de travail à partir de la zone Accueil héritée
 
@@ -372,7 +372,7 @@ En outre, pour enregistrer l’heure d’un élément dans le widget Mon travail
 1. (Le cas échéant) Si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre **Affecter manuellement des fonctions aux entrées d’heure**, sélectionnez une fonction dans le menu déroulant. Le rôle spécifié lors de votre affectation à l’élément de travail s’affiche par défaut. Si aucune fonction ne vous est attribuée sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer les préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Précisez le temps à consigner, puis cliquez sur **Consigner le temps**.
 
-   L’heure consignée s’affiche dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
+   Les heures consignées s’affichent dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
 
 ### Projet, tâche ou problème {#project-task-or-issue}
 
@@ -385,9 +385,9 @@ Vous pouvez enregistrer l’heure spécifique d’un projet, d’une tâche ou d
 
 Pour consigner une heure dans la section Mises à jour d’un projet, d’une tâche ou d’un problème, vous devez disposer des éléments suivants :
 
-* L’accès et les autorisations appropriés, comme décrit dans la section [Exigences d’accès](#access-requirements) dans cet article.
+* L’accès et les autorisations appropriés, comme décrit dans la section [Exigences d’accès](#access-requirements) de cet article.
 
-* Votre administrateur Workfront doit activer le paramètre Temps de connexion directement sur les projets sous [!UICONTROL **Frise chronologique et heures**]> [!UICONTROL **Préférences**] dans la zone Système , si vous souhaitez consigner le temps directement dans un projet.
+* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets sous [!UICONTROL **Feuille de temps et heures**]> [!UICONTROL **Préférences**] dans la zone Système, si vous souhaitez consigner les heures directement dans un projet.
 
   Pour plus d’informations sur l’autorisation des utilisateurs et utilistarices de consigner des heures directement dans des projets, consultez [Configurer les préférences de feuille de temps et d’heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -419,7 +419,7 @@ Pour consigner une heure dans la section Mises à jour d’un projet, d’une t�
 
 1. Cliquez sur **Consigner le temps**.
 
-   L’heure consignée s’affiche dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
+   Les heures consignées s’affichent dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
 
 #### Section Heures{#hours-section}
 
@@ -431,7 +431,7 @@ vous devez disposer de tous les éléments suivants :
 
 * Une licence Plan avec accès administratif aux feuilles de temps et aux heures. Pour plus d’informations sur l’octroi de l’accès administratif aux feuilles de temps et aux heures, consultez [Octroyer aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * Autorisations Contribuer ou supérieures pour le projet avec accès aux heures de journal. Pour plus d’informations sur l’octroi d’autorisations sur les projets, consultez [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Votre administrateur Workfront doit activer le paramètre Temps de connexion direct aux projets dans le **Fiches et heures > Préférences** de la zone Configuration , si vous souhaitez consigner le temps directement dans un projet. Pour plus d’informations sur l’autorisation des utilisateurs et utilisatrices de consigner des heures directement dans des projets, consultez [Configurer les préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section **Feuille de temps et heures > Préférences** de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. Pour plus d’informations sur l’autorisation des utilisateurs et utilisatrices de consigner des heures directement dans des projets, consultez [Configurer les préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Pour consigner du temps dans la section Heures d’un projet, d’une tâche ou d’un problème :
 

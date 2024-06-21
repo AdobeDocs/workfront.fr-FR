@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Fonctions de tableau dans Adobe Workfront Fusion
-description: Les fonctions de tableau suivantes sont disponibles dans le panneau Mappage de fusion Adobe Workfront .
+description: Les fonctions de tableau suivantes sont disponibles dans le panneau de mappage d’Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
 source-git-commit: 033a9f4aa1f191e5e3cabd0c0f232128fa6bce5d
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 8%
+ht-degree: 93%
 
 ---
 
@@ -30,8 +30,8 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td> <p>N’importe quelle</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
-   <td role="rowheader">[!DNL Adobe Workfront] license</td>  
-   <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td>  
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td>  
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td>  
   </tr>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>  
@@ -44,7 +44,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr>  
    <td role="rowheader">Produit</td>  
    <td> 
-   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul> 
+   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul> 
    <p>Ou</p> 
    <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -77,123 +77,123 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 * [arrayDifference](#arraydifference-array1-array2-mode)
 * [dédupliquer]
 
-### [!UICONTROL join (tableau ; séparateur)]
+### [!UICONTROL join (array; separator)]
 
-Concatène tous les éléments d’un tableau dans une chaîne, à l’aide du séparateur spécifié entre chaque élément.
+Concatène tous les éléments d’un tableau en une chaîne, en utilisant le séparateur spécifié entre chaque élément.
 
-### [!UICONTROL length (tableau)]
+### [!UICONTROL length (array)]
 
 Renvoie le nombre d’éléments d’un tableau.
 
-### [!UICONTROL keys (objet)]
+### [!UICONTROL keys (object)]
 
 Renvoie un tableau des propriétés d’un objet ou d’un tableau donné.
 
-### [!UICONTROL slice (tableau ; démarrage) ; [end])]
+### [!UICONTROL slice (array; start; [end])]
 
 Renvoie un nouveau tableau contenant uniquement les éléments sélectionnés.
 
-### [!UICONTROL merge (tableau1 ; tableau2 ; ...)]
+### [!UICONTROL merge (array1; array2; ...)]
 
-Fusionne un ou plusieurs tableaux en un seul tableau.
+Fusionne un ou plusieurs tableaux en un seul.
 
-### [!UICONTROL contains (tableau ; valeur)]
+### [!UICONTROL contains (array; value)]
 
-Vérifie si un tableau contient la valeur .
+Vérifie si un tableau contient la valeur.
 
-### [!UICONTROL remove (tableau ; valeur1 ; valeur2 ; ...)]
+### [!UICONTROL remove (array; value1; value2; ...)]
 
-Supprime les valeurs spécifiées dans les paramètres d’un tableau. Cette fonction n’est efficace que sur des tableaux primitifs de texte ou de nombres.
+Supprime les valeurs spécifiées dans les paramètres d’un tableau. Cette fonction est efficace uniquement pour les tableaux primitifs de textes ou de nombres.
 
-### [!UICONTROL add (tableau ; valeur1 ; valeur2 ; ...)]
+### [!UICONTROL add (array; value1; value2; ...)]
 
-Ajoute des valeurs spécifiées dans les paramètres à un tableau et renvoie ce tableau.
+Ajoute les valeurs spécifiées dans les paramètres à un tableau et renvoie ce tableau.
 
-### [!UICONTROL map (tableau complexe; clé;[clé de filtrage];[valeurs possibles pour le filtrage])]
+### [!UICONTROL map (complex array; key;[key for filtering];[valeurs possibles pour le filtrage])]
 
 Renvoie un tableau primitif contenant les valeurs d’un tableau complexe. Cette fonction permet de filtrer les valeurs. Utilisez des noms de variable bruts pour les clés.
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `map(Emails[];email)`
 >
->  Renvoie un tableau primitif avec des emails
+>  Renvoie un tableau primitif contenant les e-mails.
 >
 >* `map(Emails[];email;label;work;home)`
 >
->  Renvoie un tableau primitif avec des emails dont le libellé est égal au travail ou à la maison
+>  Renvoie un tableau primitif contenant les e-mails dont le libellé est « travail » ou « perso ».
 
-Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+Pour plus d’informations, voir [Mapper des informations d’un module à l’autre dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
 ### shuffle
 
-### [!UICONTROL sort (tableau); [order]; [key])]
+### [!UICONTROL sort (array; [order]; [key])]
 
-Trie les valeurs d’un tableau. Les valeurs valides de la variable `order` sont les suivants :
+Trie les valeurs d’un tableau. Les valeurs valides du paramètre `order` sont les suivantes :
 
 * `asc`
 
-  (par défaut) - ordre croissant : 1, 2, 3, ... pour le type Nombre. A, B, C, a, b, c, etc. pour le type Texte
+  (par défaut) - ordre croissant : 1, 2, 3, ... pour le type Nombre. A, B, C, a, b, c, ... pour le type Texte.
 
 * `desc`
 
-  ordre décroissant : ..., 3, 2, 1 pour le type Nombre. ..., c, b, a, C, B, A pour le type Texte.
+  ordre décroissant : ..., 3, 2, 1 pour le type Nombre. ..., c, b, a, C, B, A pour le type Texte.
 
 * `asc ci`
 
-  ordre croissant insensible à la casse : A, a, B, b, C, c, ... pour le type Texte.
+  ordre croissant qui ne respecte pas la casse : A, a, B, b, C, c, ... pour le type Texte.
 
 * `desc ci`
 
-  ordre décroissant non sensible à la casse : ..., C, c, B, b, A, a pour le type Texte.
+  ordre décroissant qui ne respecte pas la casse : ..., C, c, B, b, A, a pour le type Texte.
 
-Utilisez la variable `key` pour accéder aux propriétés dans des objets complexes.
+Utilisez le paramètre `key` pour accéder aux propriétés des objets complexes.
 
 Utilisez des noms de variable bruts pour les clés.
 
-Pour accéder aux propriétés imbriquées, utilisez la notation par points.
+Pour accéder aux propriétés imbriquées, utilisez la notation avec point.
 
-Le premier élément d’un tableau est index 1.
+Le premier élément d’un tableau est l’index 1.
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `sort(Contacts[];name)`
 >
->    Trie un tableau de contacts par propriété &quot;name&quot; dans l’ordre croissant par défaut.
+>    Trie un tableau de contacts en fonction de la propriété « name » dans l’ordre croissant par défaut.
 >
 >* `sort(Contacts[];desc;name)`
 >
->   Trie un tableau de contacts par propriété &quot;name&quot; dans l’ordre décroissant.
+>   Trie un tableau de contacts par propriété « name » dans l’ordre décroissant.
 >
 >* `sort(Contacts[];asc ci;name)`
 >
->    Trie un tableau de contacts par propriété &quot;name&quot; dans l’ordre croissant sans distinction de la casse.
+>    Trie un tableau de contacts par propriété « name » dans l’ordre croissant sans respect de la casse.
 >
 >* `sort(Emails[];sender.name)`
 >
->    Trie un tableau d’emails par la propriété &quot;sender.name&quot;
+>    Trie un tableau d’e-mails par la propriété « sender.name ».
 
-### [!UICONTROL reverse (tableau)]
+### [!UICONTROL reverse (array)]
 
-Le premier élément du tableau devient le dernier élément, le second devient le prochain au dernier, etc.
+Le premier élément du tableau devient le dernier élément, le deuxième devient l’avant-dernier, et ainsi de suite.
 
-### [!UICONTROL aplatissement (tableau)]
+### [!UICONTROL flatten (array)]
 
-Crée un tableau avec tous les éléments de sous-tableau concaténés, de manière récursive, jusqu’à la profondeur spécifiée.
+Crée un nouveau tableau dans lequel sont concaténés tous les éléments des sous-tableaux, de manière récursive, jusqu’à la profondeur spécifiée.
 
-### [!UICONTROL distinct (tableau) ; [key])]
+### [!UICONTROL distinct (array; [key])]
 
-Supprime les doublons dans un tableau. Utilisez le[!UICONTROL key]&quot; pour accéder aux propriétés dans des objets complexes. Pour accéder aux propriétés imbriquées, utilisez la notation par points. Le premier élément d’un tableau est index 1.
+Supprime les doublons dans un tableau. Utilisez l’argument « [!UICONTROL key] » pour accéder aux propriétés des objets complexes. Pour accéder aux propriétés imbriquées, utilisez la notation avec point. Le premier élément d’un tableau est l’index 1.
 
 >[!INFO]
 >
->**Exemple :** `distinct(Contacts[];name)`
+>**Exemple :** `distinct(Contacts[];name)`
 >
->Supprime les doublons dans un tableau de contacts en comparant la propriété &quot;name&quot;
+>Supprime les doublons dans un tableau de contacts en comparant la propriété « name ».
 
 ### toCollection
 
@@ -203,9 +203,9 @@ Cette fonction convertit une collection en un tableau de paires clé-valeur.
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
->Compte tenu de la collection
+>Prenons l’exemple de la collection suivante :
 >
 >`{ key1: "value1", key2: "value2:}`
 >
@@ -217,23 +217,23 @@ Cette fonction convertit une collection en un tableau de paires clé-valeur.
 >
 >`[{ key1: "value1"}, { key2: "value2"}]`
 
-### [!UICONTROL arrayDifference [tableau1, tableau2, mode]]
+### [!UICONTROL arrayDifference [array1, array2, mode]]
 
 Renvoie la différence entre deux tableaux.
 
-Saisissez l’une des valeurs suivantes pour la variable `mode` .
+Saisissez l’une des valeurs suivantes pour le paramètre `mode`.
 
-* `classic`: renvoie un nouveau tableau contenant tous les éléments de `array1` qui n’existent pas dans `array2`.
+* `classic` : renvoie un nouveau tableau contenant tous les éléments de `array1` qui n’existent pas dans `array2`.
 
-* `symmetric`: renvoie un tableau d’éléments qui ne sont pas communs aux deux tableaux.
+* `symmetric` : renvoie un tableau d’éléments qui ne sont pas communs aux deux tableaux.
 
-  En d’autres termes, la fonction renvoie un tableau contenant tous les éléments de la variable `array1` qui n’existent pas dans `array2`et tous les éléments de la variable `array2` qui n’existent pas dans `array1`.
+  En d’autres termes, la fonction renvoie un tableau contenant tous les éléments de `array1` qui n’existent pas dans `array2`, et tous les éléments de `array2` qui n’existent pas dans `array1`.
 
   >[!INFO]
   >
-  >**Exemples :**
+  >**Exemples :**
   >
-  >Compte tenu des tableaux suivants :
+  >Prenons l’exemple des tableaux suivants :
   >
   >```
   >myArray = [1,2,3,4,5]

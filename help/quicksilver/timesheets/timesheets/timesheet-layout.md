@@ -10,7 +10,7 @@ exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ Vous pouvez consigner plusieurs saisies d’heures pour le même élément de tr
 
 ## Zone Mises à jour dans le panneau de gauche
 
-![Zone Mises à jour dans le panneau de la feuille de temps gauche](assets/timesheet-updates-with-all-tab.png)
+![Zone Mises à jour dans le panneau de gauche de la feuille de temps](assets/timesheet-updates-with-all-tab.png)
 
 Vous pouvez faire des commentaires sur une feuille de temps pour communiquer avec les approbateurs et approbatrices de votre feuille de temps ou d’autres utilisateurs et utilisatrices dans la section Mises à jour du panneau gauche de la feuille de temps.
 

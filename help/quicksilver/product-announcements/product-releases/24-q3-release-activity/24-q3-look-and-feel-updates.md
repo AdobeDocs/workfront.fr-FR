@@ -1,6 +1,6 @@
 ---
-title: Mises à jour de l’apparence pendant la période de publication du troisième trimestre 2024
-description: Mises à jour de l’apparence pendant la période de publication du troisième trimestre 2024
+title: Mises à jour de l’apparence et de la convivialité au cours des versions publiées au troisième trimestre 2024
+description: Mises à jour de l’apparence et de la convivialité au cours des versions publiées au troisième trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,15 +8,15 @@ exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
 source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
-# Mises à jour de l’apparence pendant la période de publication du troisième trimestre 2024
+# Mises à jour de l’apparence et de la convivialité au cours des versions publiées au troisième trimestre 2024
 
-Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication du troisième trimestre 2024.
+Cette page décrit les mises à jour mineures apportées à l’apparence et à la convivialité de diverses zones de l’application Adobe Workfront dans le cadre des versions publiées au cours du troisième trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version du troisième trimestre 2024, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Pour obtenir la liste de toutes les modifications apportées par la version du troisième trimestre 2024, consultez l’article [Vue d’ensemble de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 
@@ -66,9 +66,9 @@ Pour plus d’informations, voir [Création d’un groupe](/help/quicksilver/adm
 >
 >Aperçu de la version : 2 avril 2024 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024) ; Production pour une version trimestrielle : avec la version 24.7 (juillet 2024)
 
-Nous avons mis à jour l’écran Taux d’Exchange pour une conception plus moderne et cohérente avec les autres zones de Workfront.
+Nous avons mis à jour l’écran Taux de change avec un design plus moderne et plus semblable aux autres zones de Workfront.
 
-Pour plus d’informations, voir [Configuration des taux d’exchange](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Pour plus d’informations, voir [Configurer les taux de change](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Mises à jour de l’apparence pour la liste des rôles de tâche
 
@@ -76,6 +76,6 @@ Pour plus d’informations, voir [Configuration des taux d’exchange](/help/qui
 >
 >Aperçu de la version : 2 avril 2024 ; Production pour une version rapide : avec la version 24.5 (16 mai 2024) ; Production pour une version trimestrielle : avec la version 24.7 (juillet 2024)
 
-L’écran Rôles de tâche a été mis à jour afin d’offrir une conception plus moderne et cohérente avec les autres zones de Workfront.
+Nous avons mis à jour l’écran Fonctions avec un design plus moderne et plus semblable aux autres zones de Workfront.
 
-Pour plus d’informations, voir [Création et gestion des rôles de tâche](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Pour plus d’informations, voir [Créer et gérer les fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

@@ -1,6 +1,6 @@
 ---
-title: Présentation de la version du troisième trimestre 2024
-description: Cette page fournit des informations sur les fonctionnalités incluses dans la version du troisième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
+title: Vue d’ensemble de la version du troisième trimestre 2024
+description: Cette page fournit des informations sur les fonctionnalités incluses dans la version du troisième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,17 +8,17 @@ exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
 source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 40%
+ht-degree: 49%
 
 ---
 
-# Présentation de la version du troisième trimestre 2024
+# Vue d’ensemble de la version du troisième trimestre 2024
 
-Cette page fournit des informations sur les fonctionnalités incluses dans la version du troisième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
+Cette page fournit des informations sur les fonctionnalités incluses dans la version du troisième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
 
 Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrivez-vous au webinaire ici](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
 
-<span class="preview">Les fonctionnalités hors cycle (celles publiées en production avant la date de publication du troisième trimestre 2024) sont surlignées en jaune.</span>
+<span class="preview">Les fonctionnalités hors cycle (celles qui sont publiées en production avant la date de version du troisième trimestre 2024) sont surlignées en jaune.</span>
 
 >[!IMPORTANT]
 >
@@ -28,7 +28,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.5 (16 mai 2024)</li><li>24.6 (13 juin 2024)</li><li>24.7 (juillet 2024)</li></ul> | <ul><li>24.7 (juillet 2024)</li></ul> |
+>| <ul><li>24.5 (16 mai 2024)</li><li>24.6 (13 juin 2024)</li><li>24.7 (juillet 2024)</li></ul> | <ul><li>24.7 (juillet 2024)</li></ul> |
 >
 >Pour plus d’informations sur le processus de version rapide, consultez [Activer ou désactiver le processus de version rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -193,7 +193,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Version d’aperçu : vendredi 30 mai 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.6 (vendredi 13 juin 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.6 (13 juin 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
@@ -213,7 +213,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Version d’aperçu : 13 février 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (vendredi 16 mai 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
@@ -233,7 +233,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Version d’aperçu : 21 décembre 2023</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (vendredi 16 mai 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
@@ -340,7 +340,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Version d’aperçu : jeudi 27 mars 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (vendredi 16 mai 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Production pour les versions trimestrielles : avec la version 24.7 </p>
@@ -350,13 +350,13 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période du troisième trimestre 2024</a></p>
-                        <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai du troisième trimestre 2024. Consultez les notes de mise à jour individuelles pour connaître les dates de publication spécifiques.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’aspect pendant le troisième trimestre 2024</a></p>
+                        <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées durant le troisième trimestre 2024. Consultez les notes de mise à jour individuelles pour connaître les dates de publication spécifiques.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : pendant toute la période de publication du troisième trimestre 2024</p>
+                                <p>Version préliminaire : pendant toute la durée de la version du troisième trimestre 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Version de production : passez en revue les notes de mise à jour pour connaître les dates spécifiques.</span></p>
@@ -371,7 +371,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
 
 ### Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de publication du troisième trimestre 2024. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Publication de fusion Adobe Workfront](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent de celui du calendrier de la version du troisième trimestre 2024. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de version d’Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Améliorations du planificateur de scénarios Workfront
 
@@ -395,7 +395,7 @@ Pour plus d’informations sur les versions d’API, consultez [Contrôle de ver
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du troisième trimestre 2024, voir [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées au cours de la version du troisième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
 
 ### Mises à jour de formation
 

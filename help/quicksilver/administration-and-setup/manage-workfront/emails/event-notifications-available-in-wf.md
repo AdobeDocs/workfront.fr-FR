@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Types de notifications d’événements
-description: Les notifications d’événement sont des emails déclenchés par divers types d’événements sur des objets tels que des projets, des tâches et des problèmes. Cet article répertorie et décrit les types de notifications d’événement disponibles.
+description: Les notifications d’événements sont des e-mails déclenchés par divers types d’événements sur des objets tels que des projets, des tâches et des problèmes. Cet article répertorie et décrit les types de notifications d’événements disponibles.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
 source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
 source-wordcount: '5201'
-ht-degree: 8%
+ht-degree: 97%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 8%
 
 <!-- Audited: 1/2024 -->
 
-Les notifications d’événement sont des emails déclenchés par divers types d’événements sur des objets tels que des projets, des tâches et des problèmes, comme expliqué dans la section [Notifications d’événements](../../../workfront-basics/using-notifications/event-notifications.md).
+Les notifications d’événements sont des e-mails déclenchés par divers types d’événements sur des objets tels que des projets, des tâches et des problèmes, comme expliqué dans la section [Notifications d’événements](../../../workfront-basics/using-notifications/event-notifications.md).
 
-Ces notifications peuvent être configurées au niveau du système et du groupe :
+Ces notifications peuvent être configurées au niveau du système et du groupe :
 
-* Pour plus d’informations sur la configuration des notifications d’événement au niveau du système, voir [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* Pour plus d’informations sur la configuration des notifications d’événement au niveau du groupe, voir [Affichage et configuration des notifications d’événement pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* Pour plus d’informations sur la configuration des notifications d’événements au niveau du système, voir [Configurer les notifications d’événement pour tous les utilisateurs et les utilisatrices du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* Pour plus d’informations sur la configuration des notifications d’événements au niveau du groupe, voir [Afficher et configurer les notifications d’événements pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-Les utilisateurs individuels peuvent également activer et désactiver leurs notifications d’événement individuelles dans leur profil individuel. Pour plus d’informations, consultez [Modifier vos propres notifications par e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Les utilisateurs et utilisatrices individuels peuvent également activer et désactiver leurs notifications d’événements individuelles dans leur profil individuel. Pour plus d’informations, consultez [Modifier vos propres notifications par e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Les tableaux suivants répertorient toutes les notifications d’événement Adobe Workfront, une brève description de l’événement et si l’événement est actif ou inactif par défaut.
+Les tableaux suivants répertorient toutes les notifications d’événements Adobe Workfront, une brève description de l’événement et si l’événement est actif ou inactif par défaut.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Les tableaux suivants répertorient toutes les notifications d’événement Ado
 
 ## Action nécessaire
 
-Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,120 +58,120 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using-
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td> <p>Demande d'accès</p> </td> 
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
-   <td> <p>Quelqu'un me demande l'accès.</p> </td> 
+   <td> <p>Quelqu’un me demande un accès</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> <p> </p> </td> 
-   <td> <p>Document Request Add</p> </td> 
-   <td> <p>Utilisateur dont le document est demandé par</p> </td> 
-   <td> <p>Quelqu’un m’a demandé de télécharger le ou les documents.</p> <p>Le demandeur de document reçoit une notification par courrier électronique lorsqu’il reçoit une demande de téléchargement d’un document.</p> </td> 
+   <td> <p>Ajout de demande de document</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel ou à laquelle le document est demandé</p> </td> 
+   <td> <p>Quelqu’un m’a demandé de charger un ou des documents.</p> <p>Le demandeur ou la demandeuse de document reçoit une notification par e-mail lorsqu’il ou elle reçoit une demande de chargement d’un document.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document en attente de validation</p> </td> 
+   <td> <p>Document en attente d’approbation</p> </td> 
    <td> <p>Approbateurs</p> </td> 
    <td> <p>Je dois approuver un document.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Attribution de problèmes</p> </td> 
-   <td> <p>L’utilisateur auquel ce problème est affecté</p> </td> 
-   <td> <p>Je suis assigné à un problème.</p> <p>La personne désignée pour le problème ne reçoit une notification par courrier électronique que si l’état du projet est Actuel et que l’état du problème n’est pas Fermé ou que l’état du problème est Terminé.</p> <p>Les utilisateurs disposant d’une licence Light, Contributor, Review ou Request ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Affectation de problème</p> </td> 
+   <td> <p>L’utilisateur ou l’utilisatrice auquel ou à laquelle ce problème est affecté</p> </td> 
+   <td> <p>On m’affecte à un problème.</p> <p>La personne désignée pour le problème ne reçoit une notification par e-mail que si le projet est Actuel et que le statut du problème n’est pas Fermé ou similaire à Fermé.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light, de contributeur ou contributrice, révision ou demande ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Événement en attente d'approbation</p> </td> 
    <td> <p>Approbateurs</p> </td> 
-   <td> <p>Je dois approuver un problème.</p> <p>Les utilisateurs qui reçoivent une notification par courrier électronique pour cet événement dépendent de l’activation du paramètre "L’approbateur n’a pas besoin d’appartenir à l’équipe de projet (pour les processus d’approbation qui incluent un rôle)" (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuration des paramètres d’approbation globaux</a>). </p> <p>Si cette option est activée</strong>, une notification électronique est envoyée à tous les utilisateurs du système avec le rôle de tâche "approbateur".</p> <p>Si cette option est désactivée</strong>, seuls les membres de l’équipe de projet ayant le rôle d’approbateur reçoivent une notification par e-mail.</p> <p>Une notification est envoyée si le projet est à l’état Planification ou En cours . </p> </td> 
+   <td> <p>Je dois approuver un problème.</p> <p>Les utilisateurs et les utilisatrices qui reçoivent une notification par e-mail pour cet événement varient selon que le paramètre « L’approbateur ou l’approbatrice ne doit pas nécessairement faire partie de l’équipe du projet (pour les processus d’approbation incluant un rôle » est activé ou désactivé (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres d’approbation globaux</a>). </p> <p>Si cette option est activée</strong>, une notification par e-mail est envoyée à tous les utilisateurs et à toutes les utilisatrices du système ayant la fonction « Approbateur ou approbatrice ».</p> <p>Si cette option est désactivée</strong>, seules les personnes membres de l’équipe du projet ayant la fonction « Approbateur ou approbatrice » reçoivent une notification par e-mail.</p> <p>Une notification est envoyée si le projet est au statut Planification ou Actuel. </p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Événement en attente d'approbation</p> </td> 
-   <td> <p>Approbateur délégué</p> </td> 
-   <td> <p>Je dois passer en revue une approbation de problème qui m'a été déléguée.</p> <p>Lorsqu’une personne délègue l’approbation d’un problème à un autre utilisateur, cet utilisateur en est informé. </p> <p>Une notification est envoyée uniquement lorsque le projet est à l’état En cours .</p> </td> 
+   <td> <p>Approbateur ou approbatrice délégué</p> </td> 
+   <td> <p>Je dois passer en revue une approbation de problème qui m'a été déléguée.</p> <p>Lorsqu’une personne délègue l’approbation d’un problème à un autre utilisateur ou une autre utilisatrice, cet utilisateur ou cette utilisatrice en est informé. </p> <p>Une notification n’est envoyée que lorsque le projet est au statut Actuel.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
    <td> <p>Projet en attente d'approbation</p> </td> 
    <td> <p>Approbateurs</p> </td> 
-   <td> <p>Je dois approuver un projet.</p> <p>Les utilisateurs qui reçoivent une notification par courrier électronique pour cet événement dépendent de l’activation du paramètre "L’approbateur n’a pas besoin d’être membre de l’équipe de projet (pour les processus d’approbation qui incluent un rôle de tâche)" (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuration des paramètres d’approbation globaux</a>).</p> <p>Si cette option est activée</strong>, une notification électronique est envoyée à tous les utilisateurs du système avec le rôle de tâche "approbateur".</p> <p>Si cette option est désactivée</strong>, seuls les membres de l’équipe de projet ayant le rôle d’approbateur reçoivent une notification par e-mail.</p> </td> 
+   <td> <p>Je dois approuver un projet.</p> <p>Les utilisateurs et les utilisatrices qui reçoivent une notification par e-mail pour cet événement varient selon que le paramètre « L’approbateur ou l’approbatrice ne doit pas nécessairement faire partie de l’équipe de projet (pour les processus d’approbation incluant un rôle) » est activé ou désactivé (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres d’approbation globaux</a>).</p> <p>Si cette option est activée</strong>, une notification par e-mail est envoyée à tous les utilisateurs et à toutes les utilisatrices du système ayant la fonction « Approbateur ou approbatrice ».</p> <p>Si cette option est désactivée</strong>, seules les personnes membres de l’équipe du projet ayant la fonction « Approbateur ou approbatrice » reçoivent une notification par e-mail.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td>Projet</td> 
    <td>Projet en attente d'approbation</td> 
-   <td>Approbateur délégué</td> 
-   <td> <p>Je dois passer en revue l’approbation d’un projet qui m’a été déléguée.</p> </td> 
+   <td>Approbateur ou approbatrice délégué</td> 
+   <td> <p>J’ai besoin de vérifier une approbation de projet qui m’a été déléguée.</p> </td> 
    <td> Actif</td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Affectation de tâches</p> </td> 
-   <td> <p>Utilisateur auquel la tâche est affectée</p> </td> 
-   <td> <p>Je suis défini comme le responsable principal d'une tâche.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique s’il est désigné premier responsable de la tâche, sauf si le cessionnaire est l’utilisateur qui a effectué l’affectation.</p> <p>Une notification est envoyée si l’état du projet est Actuel et que la tâche n’est pas marquée Terminée.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Affectation de tâche</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel ou à laquelle la tâche est affectée</p> </td> 
+   <td> <p>Je suis la personne cessionnaire principale d’une tâche.</p> <p>La personne cessionnaire d’une tâche reçoit une notification par e-mail si elle est désignée comme personne cessionnaire principale de la tâche, sauf si la personne cessionnaire est l’utilisateur ou l’utilisatrice qui a effectué l’affectation.</p> <p>Une notification est envoyée si le statut du projet est Actuel et que la tâche n’est pas marquée comme terminée.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Tâche en attente d'approbation</p> </td> 
    <td> <p>Approbateurs</p> </td> 
-   <td> <p>Il me faut approuver une tâche.</p> <p>Les utilisateurs qui reçoivent une notification par courrier électronique pour cet événement dépendent de l’activation du paramètre "L’approbateur n’a pas besoin d’appartenir à l’équipe de projet (pour les processus d’approbation qui incluent un rôle)" (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuration des paramètres d’approbation globaux</a>). </p> <p>Si cette option est activée</strong>, une notification électronique est envoyée à tous les utilisateurs du système avec le rôle de tâche "approbateur".</p> <p>Si cette option est désactivée</strong>, seuls les membres de l’équipe de projet ayant le rôle d’approbateur reçoivent une notification par e-mail.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel au moment de la demande.</p> </td> 
+   <td> <p>Je dois approuver une tâche.</p> <p>Les utilisateurs et les utilisatrices qui reçoivent une notification par e-mail pour cet événement varient selon que le paramètre « L’approbateur ou l’approbatrice ne doit pas nécessairement faire partie de l’équipe de projet (pour les processus d’approbation incluent un rôle) » est activé ou désactivé (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres d’approbation globaux</a>). </p> <p>Si cette option est activée</strong>, une notification par e-mail est envoyée à tous les utilisateurs et à toutes les utilisatrices du système ayant la fonction « Approbateur ou approbatrice ».</p> <p>Si cette option est désactivée</strong>, seules les personnes membres de l’équipe du projet ayant la fonction « Approbateur ou approbatrice » reçoivent une notification par e-mail.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel au moment de la demande.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Tâche en attente d'approbation</p> </td> 
-   <td> <p>Approbateur délégué</p> </td> 
-   <td> <p>Je dois passer en revue une approbation de tâche qui m'a été déléguée.</p> <p>Lorsqu’une personne délègue l’approbation d’un problème à un autre utilisateur, cet utilisateur en est informé. </p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel au moment de la demande.</p> </td> 
+   <td> <p>Approbateur ou approbatrice délégué</p> </td> 
+   <td> <p>J’ai besoin de vérifier une approbation de tâche qui m’a été déléguée.</p> <p>Lorsqu’une personne délègue l’approbation d’un problème à un autre utilisateur ou une autre utilisatrice, cet utilisateur ou cette utilisatrice en est informé. </p> <p>Une notification n’est envoyée que si le statut du projet est Actuel au moment de la demande.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Feuille de temps</p> </td> 
-   <td> <p>Nouvelle ouverture de la feuille de temps</p> </td> 
-   <td> <p>Utilisateur auquel la feuille de temps appartient</p> </td> 
-   <td> <p>Ma feuille de temps est rouverte.</p> <p>Le propriétaire de la feuille de temps reçoit une notification par e-mail lorsque la feuille de temps est rouverte, sauf si l’utilisateur qui l’a rouverte est également propriétaire de la feuille de temps.</p> <p>Une notification par e-mail n'est envoyée que si l'état de la feuille de temps est Ouverte.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Feuille de temps rouverte</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel ou à laquelle la feuille de temps appartient</p> </td> 
+   <td> <p>Ma feuille de temps est rouverte.</p> <p>La personne propriétaire de la feuille de temps reçoit une notification par e-mail lorsque la feuille de temps est rouverte, sauf si la personne qui a rouvert la feuille de temps est également propriétaire de la feuille de temps.</p> <p>Une notification par e-mail n’est envoyée que si le statut de la feuille de temps est Ouverte.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Feuille de temps</p> </td> 
    <td> <p>Rejet de la feuille de temps</p> </td> 
-   <td> <p>Utilisateur auquel la feuille de temps appartient</p> </td> 
-   <td> <p>Ma feuille de temps est rejetée.</p> <p>Le propriétaire de la feuille de temps reçoit une notification par e-mail lorsque la feuille de temps est rejetée, sauf si l’utilisateur qui a rejeté la feuille de temps est également le propriétaire.</p> <p>Une notification par e-mail n’est envoyée que si l’état de la feuille de temps est Refusé.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel ou à laquelle la feuille de temps appartient</p> </td> 
+   <td> <p>Ma feuille de temps est rejetée.</p> <p>Le ou la propriétaire de la feuille de temps reçoit une notification par e-mail lorsque la feuille de temps est rejetée, sauf si la personne qui a rejeté la feuille de temps est également la propriétaire.</p> <p>Une notification par e-mail n’est envoyée que si le statut de la feuille de temps est Rejeté.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Feuille de temps</p> </td> 
    <td> <p>Envoi de la feuille de temps</p> </td> 
    <td> <p>Approbateur</p> </td> 
-   <td> <p>Je dois approuver une feuille de temps.</p> <p>L’approbateur de la feuille de temps reçoit une notification par courrier électronique lorsqu’une feuille de temps qu’il doit approuver est envoyée, sauf si l’utilisateur qui l’a envoyée est également l’approbateur de la feuille de temps.</p> <p>Une notification n'est envoyée que si l'état de la feuille de temps est Envoyé.</p> </td> 
+   <td> <p>Je dois approuver une feuille de temps.</p> <p>La personne approbatrice de la feuille de temps reçoit une notification par e-mail lorsqu’une feuille de temps qu’elle doit approuver est envoyée, sauf si l’utilisateur ou l’utilisatrice qui l’a envoyée est également l’approbateur ou l’approbatrice de la feuille de temps.</p> <p>Une notification n’est envoyée que si le statut de la feuille de temps est Envoyé.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Affectation</p> </td> 
-   <td> <p>Requête d’élément de travail</p> </td> 
-   <td> <p>Membres de l’équipe pour laquelle l’élément est demandé</p> </td> 
-   <td> <p>Mon équipe reçoit une nouvelle demande de travail.</p> <p>Les membres de l’équipe reçoivent une notification par e-mail lorsqu’ils reçoivent une nouvelle demande de travail. (L’utilisateur qui a soumis la demande ne reçoit pas de notification s’il est membre de l’équipe.)</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel au moment de la demande de travail et que l’état de la demande de travail est Nouveau.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Demande d’élément de travail</p> </td> 
+   <td> <p>Membres de l’équipe pour lesquels l’élément est demandé</p> </td> 
+   <td> <p>Mon équipe reçoit une nouvelle demande de travail.</p> <p>Les personnes membres de l’équipe reçoivent une notification par e-mail lorsque l’équipe reçoit une nouvelle demande de travail. (La personne qui a soumis la demande ne reçoit pas de notification si elle est membre de l’équipe.)</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel au moment de la demande de travail et que le statut de la demande de travail est Nouvelle.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Affectation</p> </td> 
-   <td> <p>Requête d’élément de travail</p> </td> 
-   <td> <p>Utilisateur pour lequel un élément de travail est demandé</p> </td> 
-   <td> <p>Je reçois une nouvelle demande de travail.</p> <p>La personne désignée de l’élément de travail reçoit une notification par courrier électronique, sauf si l’utilisateur qui effectue la demande est également la personne désignée. </p> <p>Une notification n’est pas envoyée si l’état de la tâche est Terminé ou si l’état du problème est Fermé.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel au moment de la demande.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Demande d’élément de travail</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice pour lequel ou laquelle l’élément de travail est demandé</p> </td> 
+   <td> <p>Je reçoit une nouvelle nouvelle demande de travail.</p> <p>La personne cessionnaire de l’élément de travail reçoit une notification par e-mail, sauf si la personne qui dépose la demande est également la personne cessionnaire. </p> <p>La notification n’est pas envoyée si le statut de la tâche est Terminé ou si le statut du problème est Fermé.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel au moment de la demande.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Demandes que j’ai faites
+## Demandes que j’ai effectuées
 
-Voir aussi [Notifications : demandes que j’ai effectuées](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+Voir aussi [Notifications : demandes que j’ai effectuées](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -191,79 +191,79 @@ Voir aussi [Notifications : demandes que j’ai effectuées](../../../workfront-
  <tbody> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Modification de l’état d’approbation du document</p> </td> 
+   <td> <p>Changement de statut d’approbation de document</p> </td> 
    <td> <p>Demandeur</p> </td> 
-   <td> <p>Une demande d’approbation de document est terminée.</p> <p>Le demandeur du document reçoit une notification par courrier électronique une fois la demande d’approbation du document terminée.</p> </td> 
+   <td> <p>Une demande d’approbation de document est remplie.</p> <p>Le demandeur ou la demandeuse de document reçoit une notification par e-mail lorsque la demande d’approbation de document est remplie.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Fin de la demande de document</p> </td> 
+   <td> <p>Demande de document remplie</p> </td> 
    <td> <p>Demandeur</p> </td> 
-   <td> <p>Une requête de téléchargement de document est satisfaite.</p> <p>Le demandeur de document reçoit une notification par courrier électronique lorsqu’une demande de téléchargement d’un document est satisfaite.</p> </td> 
+   <td> <p>Une demande de chargement de document est honorée.</p> <p>Le demandeur ou la demandeuse de document reçoit une notification par e-mail lorsqu’une demande de chargement d’un document est honorée.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Ajout de problème</p> </td> 
-   <td> <p>Contact de Principal de problème</p> </td> 
-   <td> <p>J’ajoute un problème à un projet.</p> <p>Le contact principal sur un problème reçoit une notification lorsqu’il ajoute un problème dans un projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>Contact principal du problème</p> </td> 
+   <td> <p>J’ajoute un problème à un projet.</p> <p>Le contact principal sur un problème reçoit une notification lorsqu’il ajoute un problème dans un projet.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td>Problème</td> 
-   <td>Attribution de problèmes</td> 
-   <td>Contact de Principal de problème</td> 
-   <td> <p>Quelqu'un est affecté à un problème pour lequel je suis le contact principal.</p> <p>Le contact principal sur une question reçoit une notification lorsque la question est assignée à un utilisateur. </p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td>Affectation de problème</td> 
+   <td>Contact principal du problème</td> 
+   <td> <p>Une personne a été affectée à un problème dont je suis le contact principal.</p> <p>Le contact principal sur un problème reçoit une notification lorsque le problème est affecté à un utilisateur ou une utilisatrice. </p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> Inactif</td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Fin du problème</p> </td> 
-   <td> <p>Contact de Principal de problème</p> </td> 
-   <td> <p>Un problème pour lequel je suis le contact principal est terminé.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>Achèvement de problème</p> </td> 
+   <td> <p>Contact principal du problème</p> </td> 
+   <td> <p>Un problème dont je suis le contact principal est terminé.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>Modification de l’état du projet</p> </td> 
-   <td> <p>Utilisateur ayant créé le projet (Entré par)</p> </td> 
-   <td> <p>L’état change sur un projet que j’ai créé.</p> <p>L’utilisateur qui a créé le projet reçoit une notification par courrier électronique lorsque l’état du projet change.</p> </td> 
+   <td> <p>Changement de statut de projet</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice ayant créé le projet (Entré par)</p> </td> 
+   <td> <p>Le statut d’un projet que j’ai créé a changé.</p> <p>La personne qui a créé le projet reçoit une notification par e-mail lorsque le statut du projet change.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Request Add</p> </td> 
-   <td> <p>Contact de Principal de problème</p> </td> 
-   <td> <p>Je soumets une demande (confirmation).</p> <p>Le contact par Principal sur le problème reçoit une notification par courrier électronique lorsqu’il envoie un problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si le projet utilise une vue "Is Help Desk".</p> </td> 
+   <td> <p>Ajout de demande</p> </td> 
+   <td> <p>Contact principal du problème</p> </td> 
+   <td> <p>J’envoie une demande (confimation).</p> <p>Le contact principal sur le problème reçoit une notification par e-mail lorsqu’un problème est envoyé.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel et si le projet utilise une vue « Est le Help Desk ».</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Attribution de requêtes</p> </td> 
-   <td> <p>Contact de Principal de problème</p> </td> 
-   <td> <p>Quelqu'un est affecté à ma demande.</p> <p>Le contact principal de l’émission reçoit une notification par courrier électronique lorsqu’un utilisateur est affecté à l’émission, sauf si le contact principal et l’utilisateur affecté sont le même utilisateur.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si le projet utilise une vue "Is Help Desk".</p> </td> 
+   <td> <p>Affectation de demande</p> </td> 
+   <td> <p>Contact principal du problème</p> </td> 
+   <td> <p>Une personne est affectée à ma demande.</p> <p>Le contact principal du problème reçoit une notification par e-mail lorsqu’une personne est affectée au problème, sauf si le contact principal et la personne affectée sont le même utilisateur ou la même utilisatrice.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel et si le projet utilise une vue « Est le Help Desk ».</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Demande fermée</p> </td> 
-   <td> <p>Contact de Principal de problème</p> </td> 
-   <td> <p>Ma demande est close (confirmation).</p> <p>Le contact principal du problème reçoit une notification par e-mail à la fermeture de la demande.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si le projet utilise une vue "Is Help Desk".</p> <p>Si les notifications relatives à la "fin de la publication" sont activées, elles se déclenchent toujours au lieu de la "demande fermée à contact du Principal de publication". Si vous souhaitez que cette notification se déclenche, vous devez désactiver les notifications "achèvement du problème".</p> </td> 
+   <td> <p>Demande close</p> </td> 
+   <td> <p>Contact principal du problème</p> </td> 
+   <td> <p>Ma demande est close.</p> <p>Le contact principal du problème reçoit une notification par e-mail lorsque la demande est close.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel et si le projet utilise une vue « Est le Help Desk ».</p> <p>Si les notifications d’« achèvement de problème » sont activées, elles se déclenchent toujours au lieu de la « demande au contact principal du problème close ». Si vous souhaitez que cette notification se déclenche, vous devez désactiver les notifications d’« achèvement de problème ».</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Demande d’ajout de document</p> </td> 
-   <td> <p>Contact de Principal de problème</p> </td> 
-   <td> <p>Un document est modifié ou téléchargé sur un problème pour lequel je suis le contact principal.</p> <p>Le contact principal du problème reçoit une notification par e-mail lorsqu’un document est téléchargé ou modifié sur le problème, sauf si l’utilisateur qui a téléchargé ou modifié le document est également le contact principal.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .</p> </td> 
+   <td> <p>Ajout de demande de document</p> </td> 
+   <td> <p>Contact principal du problème</p> </td> 
+   <td> <p>Un document est modifié ou chargé sur un problème pour lequel je suis le contact principal.</p> <p>Le contact principal du problème reçoit une notification par e-mail lorsqu’un document est chargé ou modifié sur le problème, sauf si la personne qui a chargé ou modifié le document est également le contact principal.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel et si l’option « Publier en tant que file d’attente des demandes d’aide » est activée pour le projet dans l’onglet Configuration de la file d’attente.</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Modification de l’état de la demande</p> </td> 
-   <td> <p>Contact de Principal de problème</p> </td> 
-   <td> <p>L’état change à ma demande.</p> <p>Le contact principal de la question reçoit une notification par courrier électronique lorsque l’état de la question change, sauf si l’utilisateur qui a modifié l’état est également le contact principal.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et que le projet utilise une vue "Is Help Desk" (Le service d’aide est).</p> </td> 
+   <td> <p>Changement de statut de demande</p> </td> 
+   <td> <p>Contact principal du problème</p> </td> 
+   <td> <p>Le statut dans ma demande change.</p> <p>Le contact principal du problème reçoit une notification par e-mail lorsque le statut du problème change, sauf si l’utilisateur ou l’utilisatrice qui a modifié le statut est également le contact principal.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel et que le projet utilise une vue « Est le Help Desk ».</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
  </tbody> 
@@ -276,7 +276,7 @@ Voir aussi [Notifications : demandes que j’ai effectuées](../../../workfront-
 
 ## Communication
 
-Voir aussi [Notifications : communication](../../../workfront-basics/using-notifications/notifications-communication.md).
+Voir aussi [Notifications : communication](../../../workfront-basics/using-notifications/notifications-communication.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -297,57 +297,57 @@ Voir aussi [Notifications : communication](../../../workfront-basics/using-notif
    <td> <p>Document</p> </td> 
    <td> <p>Commentaire sur le document</p> </td> 
    <td> <p>Propriétaire du document</p> </td> 
-   <td> <p>Un commentaire est ajouté à mon document.</p> <p>Le propriétaire d’un document dans Workfront reçoit une notification par courrier électronique lorsqu’un commentaire est publié sur le document, sauf si l’utilisateur qui a publié le commentaire est également le propriétaire du document.</p> <p>Tous les utilisateurs qui sont directement inclus dans le commentaire reçoivent également une notification par courrier électronique.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel. </p> <p>L'objet de l'email de notification instantanée est le suivant : <em>Commentaire sur &lt;request name=""&gt; on &lt;project name=""&gt; (ref# &lt;request reference="" number=""&gt;)</em></p> <p> L’objet de la notification quotidiennement Digest est :<em> Résumé de la communication &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p>Un commentaire a été ajouté sur mon document.</p> <p>La personne propriétaire d’un document dans Workfront reçoit une notification par e-mail lorsqu’un commentaire est publié sur le document, sauf si l’utilisateur ou l’utilisatrice qui a publié le commentaire est également la personne propriétaire du document.</p> <p>Tous les utilisateurs et toutes les utilisatrices qui sont directement inclus dans le commentaire reçoivent également une notification par e-mail.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel. </p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>Commentaire sur &lt;Nom de la demande&gt; sur &lt;Nom du projet&gt; (réf# &lt;Numéro de référence de la demande&gt;)</em>.</p> <p> L’objet de la notification de synthèse quotidienne est : <em>Synthèse de la communication &lt;Date de synthèse quotidienne&gt;</em>.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
-   <td> <p>Demande d’ajout de notes</p> </td> 
-   <td> <p>Contact de Principal de problème</p> </td> 
-   <td> <p>Lorsqu’un commentaire est publié sur une demande, envoyez un courrier électronique au contact principal du problème.</p> <p>Le contact principal d’un problème reçoit une notification par courrier électronique lorsqu’un commentaire est publié sur une demande, sauf si l’utilisateur qui a publié le commentaire est également le contact principal du problème.</p> <p>Tous les utilisateurs qui sont directement inclus dans le commentaire reçoivent également une notification par courrier électronique.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>Ajout de note de demande</p> </td> 
+   <td> <p>Contact principal du problème</p> </td> 
+   <td> <p>Lorsqu’un commentaire est publié sur une demande, envoyez un e-mail au contact principal du problème.</p> <p>Le contact principal d’un problème reçoit une notification par e-mail lorsqu’un commentaire est publié sur une demande, sauf si l’utilisateur ou l’utilisatrice qui a publié le commentaire est également le contact principal du problème.</p> <p>Tous les utilisateurs et toutes les utilisatrices qui sont directement inclus dans le commentaire reçoivent également une notification par e-mail.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td>Mise à jour dirigée</td> 
    <td>l’utilisateur ou de l’utilisatrice</td> 
-   <td> <p>Quelqu'un m'inclut sur une mise à jour dirigée.</p> <p>Une mise à jour ciblée est effectuée lorsqu’un utilisateur inclut spécifiquement un autre utilisateur dans une mise à jour, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Balisage des autres sur les mises à jour</a>.</p> <p>Dans ce cas, l’utilisateur inclus dans la mise à jour redirigée reçoit une notification par courrier électronique concernant la mise à jour.</p> <p>La notification électronique n’est envoyée que si l’utilisateur dispose des droits d’accès à l’objet et s’il le garde activé dans son profil.  </p> <p>Cette notification d’événement est activée par défaut et ne peut pas être désactivée.</p> </td> 
+   <td> <p>Une personne m’a inclus dans une mise à jour dirigée.</p> <p>Une mise à jour dirigée réside dans le fait qu’une personne inclut spécifiquement un autre utilisateur ou une autre utilisatrice dans une mise à jour, comme décrit dans <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Taguer d’autres personnes sur les mises à jour</a>.</p> <p>Dans ce cas, l’utilisateur ou l’utilisatrice qui est inclus dans la mise à jour dirigée reçoit une notification par e-mail concernant la mise à jour.</p> <p>La notification par e-mail n’est envoyée que si l’utilisateur ou l’utilisatrice dispose de droits d’accès à l’objet et s’il la garde activée dans son profil.  </p> <p>Cette notification d’événement est activée par défaut et ne peut pas être désactivée.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Equipe</p> </td> 
    <td> <p>Mise à jour dirigée</p> </td> 
    <td> <p>Membres d'équipe</p> </td> 
-   <td> <p>Quelqu'un inclut mon équipe à une mise à jour dirigée.</p> <p>Une mise à jour ciblée est effectuée lorsqu’un utilisateur inclut spécifiquement un autre utilisateur dans une mise à jour, comme décrit dans la section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Balisage des autres sur les mises à jour</a>.</p> <p>Dans ce cas, tout membre de l’équipe inclus dans la mise à jour ciblée reçoit une notification par courrier électronique à propos de la mise à jour.</p> <p>La notification électronique est envoyée uniquement aux utilisateurs disposant de droits d’accès à l’objet de la mise à jour.</p> <p>Si l’utilisateur qui envoie la mise à jour redirigée est membre de l’équipe en cours d’inclusion, l’utilisateur qui envoie la mise à jour ne reçoit pas de notification par courrier électronique.</p> </td> 
+   <td> <p>Une personne inclut mon équipe dans une mise à jour dirigée.</p> <p>Une mise à jour dirigée réside dans le fait qu’une personne inclut spécifiquement un autre utilisateur ou une autre utilisatrice dans une mise à jour, comme décrit dans <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Taguer d’autres personnes sur les mises à jour</a>.</p> <p>Dans ce cas, tout membre de l’équipe inclus dans la mise à jour dirigée reçoit une notification par e-mail concernant la mise à jour.</p> <p>La notification par e-mail n’est envoyée qu’aux utilisateurs et utilisatrices disposant de droits d’accès à l’objet de la mise à jour.</p> <p>Si la personne qui envoie la mise à jour dirigée est un membre de l’équipe en cours d’inclusion, la personne qui envoie la mise à jour ne reçoit pas de notification par e-mail.</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
-   <td> <p>Commentaire de l’élément de travail</p> </td> 
-   <td> <p>Participants au fil</p> </td> 
-   <td> <p>Quelqu'un commente un fil dans lequel je suis.</p> <p>Les participants au thread et les utilisateurs inclus dans un message direct reçoivent une notification par email lorsqu’un utilisateur fait un commentaire dans le thread.</p> <p>Les utilisateurs doivent disposer de l’accès Affichage pour recevoir une notification.</p> <p>Les utilisateurs suivants ne reçoivent pas de notification :</p> 
+   <td> <p>Commentaire sur l’élément de travail</p> </td> 
+   <td> <p>Participantes et participants au thread</p> </td> 
+   <td> <p>Quelqu’un commente un thread auquel je participe.</p> <p>Les participantes et participants au thread et les utilisateurs et utilisatrices inclus dans un message direct reçoivent une notification par e-mail lorsqu’une personne fait un commentaire dans le thread.</p> <p>Les utilisateurs et utilisatrices doivent disposer d’un accès en affichage pour recevoir une notification.</p> <p>Les utilisateurs et utilisatrices suivants ne reçoivent pas de notification :</p> 
     <ul> 
      <li> <p>Équipes incluses dans un message direct</p> </li> 
-     <li> <p>Propriétaire de la note</p> </li> 
-     <li> <p>Contact Principal</p> </li> 
+     <li> <p>Personne propriétaire de la note</p> </li> 
+     <li> <p>Contact principal</p> </li> 
     </ul> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
-   <td> <p>Commentaire de l’élément de travail</p> </td> 
-   <td> <p>Cessionnaire de l’élément de travail</p> </td> 
-   <td> <p>Quelqu'un commente un de mes travaux.</p> <p>La personne désignée de l’élément de travail reçoit une notification par courrier électronique chaque fois qu’un utilisateur ajoute une mise à jour à un élément de travail, sauf si l’utilisateur qui ajoute la mise à jour est également la personne désignée.</p> </td> 
+   <td> <p>Commentaire sur l’élément de travail</p> </td> 
+   <td> <p>Personne cessionnaire d’élément de travail</p> </td> 
+   <td> <p>Une personne commente l’un de mes éléments de travail.</p> <p>La personne cessionnaire de l’élément de travail reçoit une notification par e-mail chaque fois qu’une personne ajoute une mise à jour à un élément de travail, sauf si la personne qui ajoute la mise à jour est également la personne cessionnaire.</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
-   <td> <p>Réponse de la demande de travail</p> </td> 
-   <td> <p> Demandeur de travail</p> </td> 
-   <td> <p>Quelqu'un répond à ma demande.</p> <p>Une fois qu’un utilisateur a envoyé une requête et qu’un autre utilisateur a répondu à cette requête, l’utilisateur qui l’a envoyée reçoit une notification par courrier électronique.</p> <p>Une notification électronique n’est pas envoyée si :</p> 
+   <td> <p>Réponse à la demande de travail</p> </td> 
+   <td> <p> Demandeuse ou demandeur de travail</p> </td> 
+   <td> <p>Une personne répond à ma demande.</p> <p>Une fois qu’un utilisateur ou une utilisatrice a envoyé une demande et qu’une autre personne a répondu à cette demande, l’utilisateur ou l’utilisatrice qui a envoyé la demande reçoit une notification par e-mail.</p> <p>Une notification par e-mail n’est pas envoyée si :</p> 
     <ul> 
-     <li> <p>L’utilisateur qui envoie la réponse est le même que celui qui a effectué la demande.</p> </li> 
-     <li> <p>L’utilisateur n’a pas accès à la note.</p> </li> 
+     <li> <p>L’utilisateur ou l’utilisatrice qui envoie la réponse est la même personne que celle qui a effectué la demande.</p> </li> 
+     <li> <p>L’utilisateur ou l’utilisatrice n’a pas accès en affichage à la note.</p> </li> 
     </ul> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
@@ -358,9 +358,9 @@ Voir aussi [Notifications : communication](../../../workfront-basics/using-notif
       DRAFTED IN FLARE: for the directed update above, it also mentions:
         ... and is not the same user that enters the update-->
 
-## Informations de validation
+## Informations d’approbation
 
-Voir aussi [Notifications : informations de validation](../../../workfront-basics/using-notifications/notifications-approval-information.md).
+Voir aussi [Notifications : informations d’approbation](../../../workfront-basics/using-notifications/notifications-approval-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -381,50 +381,50 @@ Voir aussi [Notifications : informations de validation](../../../workfront-basic
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td> <p>Délégation d'approbation</p> </td> 
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
-   <td> <p>Je suis délégué en tant qu'approbateur.</p> </td> 
+   <td> <p>J’ai reçu une délégation en tant que personne approbatrice.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Changement de statut de l'approbation d'événement déléguée</p> </td> 
-   <td> <p>Utilisateur ayant délégué l’approbation</p> </td> 
-   <td> <p>Une demande d’approbation des problèmes déléguée est terminée. </p> <p>Lorsque vous déléguez l’approbation d’un problème à quelqu’un d’autre, vous recevez une notification par courrier électronique une fois cette approbation terminée (qu’il approuve ou refuse l’approbation du problème). </p> </td> 
+   <td> <p>Utilisateur ou utilisatrice ayant délégué l’approbation</p> </td> 
+   <td> <p>Une demande d’approbation de problème déléguée a été remplie. </p> <p>Lorsque vous déléguez l’approbation d’un problème à une autre personne, vous recevez une notification par e-mail une fois cette approbation terminée (qu’elle approuve ou rejette l’approbation du problème). </p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
    <td> <p>Changement de statut de l'approbation de projet déléguée</p> </td> 
-   <td> <p>Utilisateur ayant délégué l’approbation</p> </td> 
-   <td> <p>Une demande d’approbation de projet déléguée est terminée.</p> <p>Lorsque vous déléguez l’approbation d’un projet à une autre personne, vous recevez une notification par e-mail une fois cette approbation terminée (qu’elle approuve ou refuse l’approbation du projet).</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice ayant délégué l’approbation</p> </td> 
+   <td> <p>Une demande d’approbation de projet déléguée a été remplie.</p> <p>Lorsque vous déléguez l’approbation d’un projet à une autre personne, vous recevez une notification par e-mail une fois cette approbation terminée (qu’elle approuve ou rejette l’approbation du projet).</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Changement de statut de l'approbation de tâche déléguée</p> </td> 
-   <td> <p>Utilisateur ayant délégué l’approbation</p> </td> 
-   <td> <p>Un état d’approbation de tâche déléguée est terminé.</p> <p>Lorsque vous déléguez une validation de tâche à une autre personne, vous recevez un email de notification une fois cette validation terminée (qu’elle valide ou refuse la validation de la tâche).</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice ayant délégué l’approbation</p> </td> 
+   <td> <p>Une demande d’approbation de tâche déléguée a été remplie.</p> <p>Lorsque vous déléguez l’approbation d’une tâche à une autre personne, vous recevez une notification par e-mail une fois cette approbation terminée (qu’elle approuve ou rejette l’approbation de la tâche).</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Annuler l'approbation du document pour l'approbateur</p> </td> 
-   <td> <p>Utilisateur ayant délégué l’approbation</p> </td> 
-   <td> <p>Une demande d’approbation de document est annulée.</p> <p>L’approbateur du document reçoit une notification par courrier électronique lorsque la demande d’approbation du document est annulée.</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice ayant délégué l’approbation</p> </td> 
+   <td> <p>Une demande d’approbation de document a été annulée.</p> <p>L’approbateur ou l’approbatrice du document reçoit une notification par e-mail lorsque la demande d’approbation du document est annulée.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Feuille de temps</p> </td> 
-   <td> <p>Approbation de la feuille de temps</p> </td> 
-   <td> <p>Utilisateur auquel la feuille de temps appartient</p> </td> 
+   <td> <p>Approbation de feuille de temps</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel ou à laquelle la feuille de temps appartient</p> </td> 
    <td> <p>Ma feuille de temps est approuvée.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Informations sur le travail qui m&#39;est assigné
+## Informations sur le travail qui m’a été affecté
 
-Voir aussi [Notifications : informations sur le travail qui m’est assigné](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+Voir aussi [Notifications : informations sur le travail qui m’a été affecté](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -443,86 +443,86 @@ Voir aussi [Notifications : informations sur le travail qui m’est assigné](..
  <tbody> 
   <tr data-mc-conditions=""> 
    <td>Tâche</td> 
-   <td>Fin de toutes les tâches du prédécesseur</td> 
-   <td>Membres de l’équipe affectés à des tâches dépendantes</td> 
-   <td> <p>Tous les prédécesseurs des tâches de l'équipe sont terminés.</p> <p>Les personnes désignées pour la tâche (tous les membres de l’équipe) reçoivent une notification par e-mail.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td>Achèvement de toutes les tâches antérieures</td> 
+   <td>Membres de l’équipe affectés aux tâches dépendantes</td> 
+   <td> <p>Toutes les tâches antérieures des tâches de l’équipe sont terminées.</p> <p>Les personnes cessionnaires de la tâche (tous les membres de l’équipe) reçoivent une notification par e-mail.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td>Inactif</td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Fin de toutes les tâches du prédécesseur</p> </td> 
-   <td> <p>Utilisateur affecté aux tâches dépendantes</p> </td> 
-   <td> <p>Tous les prédécesseurs de mes tâches sont terminés.</p> <p>La personne désignée pour la tâche reçoit une notification par courrier électronique.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Achèvement de toutes les tâches antérieures</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice affecté aux tâches dépendantes</p> </td> 
+   <td> <p>Toutes les tâches antérieures de mes tâches sont terminées.</p> <p>La personne cessionnaire de la tâche reçoit une notification par e-mail.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Décision de validation</p> </td> 
-   <td> <p>Utilisateur auquel le problème est affecté</p> </td> 
-   <td> <p>Un problème que je résolve est approuvé ou rejeté.</p> <p>La personne désignée pour un problème reçoit une notification par courrier électronique lorsqu’une décision d’approbation est prise (approuvée ou rejetée).</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Décision d’approbation</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel le problème est affecté</p> </td> 
+   <td> <p>Un problème que j’ai résolu est approuvé ou rejeté</p> <p>La personne cessionnaire du problème reçoit une notification par e-mail lorsqu’une décision d’approbation est prise (approuvée ou rejetée).</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Décision de validation</p> </td> 
-   <td> <p>Utilisateur auquel la tâche est affectée</p> </td> 
-   <td> <p>Une tâche que je termine est approuvée ou rejetée.</p> <p>La personne désignée pour la tâche reçoit une notification par e-mail lorsque la tâche est approuvée ou rejetée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Décision d’approbation</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel la tâche est affectée</p> </td> 
+   <td> <p>Une tâche que j’ai terminée est approuvée ou rejetée.</p> <p>La personne cessionnaire pour la tâche reçoit une notification par e-mail lorsque la tâche est approuvée ou refusée.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Fin du problème</p> </td> 
-   <td> <p>Utilisateur auquel le problème est affecté</p> </td> 
-   <td> <p>Un problème auquel je suis affecté est terminé.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Achèvement de problème</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel le problème est affecté</p> </td> 
+   <td> <p>Un problème qui m’a été affecté est terminé.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>La date d'achèvement planifiée pour l'événement a changé</p> </td> 
-   <td> <p>Utilisateur auquel le problème est affecté</p> </td> 
-   <td> <p>L’échéance change pour un problème auquel je suis affecté.</p> <p>La personne désignée par le problème reçoit une notification par courrier électronique lorsque la date de fin planifiée change, sauf si l’utilisateur qui a modifié la date de fin planifiée est également la personne désignée.</p> <p>Une notification est envoyée uniquement si l’état du projet est autre que Planification.</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel le problème est affecté</p> </td> 
+   <td> <p>La date d’échéance d’un problème qui m’a été affecté est modifiée.</p> <p>La personne cessionnaire du problème reçoit une notification par e-mail lorsque la date d’achèvement prévue est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la date d’achèvement prévue est également la personne cessionnaire.</p> <p>Une notification n’est envoyée que si le statut du projet est autre que Planification.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Modification de l’état du problème</p> </td> 
-   <td> <p>Utilisateur auquel le problème est affecté</p> </td> 
-   <td> <p>L’état change pour l’une de mes tâches.</p> <p>La personne désignée de la publication reçoit une notification par courrier électronique lorsque l’état change, sauf si l’utilisateur qui a modifié l’état est également la personne désignée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Changement de statut de problème</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel le problème est affecté</p> </td> 
+   <td> <p>Le statut de l’un de mes éléments de travail a changé.</p> <p>La personne cessionnaire du problème reçoit une notification par e-mail lorsque le statut est modifié, sauf si l’utilisateur ou l’utilisatrice qui a modifié le statut est également la personne cessionnaire.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Demande d’ajout de document</p> </td> 
-   <td> <p>Utilisateur auquel le problème est affecté</p> </td> 
-   <td> <p>Les documents sont chargés ou modifiés sur les demandes auxquelles je suis affecté.</p> <p>La personne désignée pour le problème reçoit une notification par courrier électronique lorsque des documents sont chargés ou modifiés sur un problème qu’elle a ajouté.</p> <p>Une notification par courrier électronique n’est pas envoyée si l’utilisateur qui a participé au problème est la personne désignée pour le problème.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si l’option "Publier en tant que file d’attente de demande d’aide" est activée pour le projet dans l’onglet Configuration de la file d’attente .</p> </td> 
+   <td> <p>Ajout de demande de document</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel le problème est affecté</p> </td> 
+   <td> <p>Des documents sont chargés ou modifiés sur des demandes qui me sont affectées.</p> <p>La personne cessionnaire du problème reçoit une notification par e-mail lorsque des documents sont chargés ou ont été modifiés sur un problème qu’elle a ajouté.</p> <p>Une notification par e-mail n’est pas envoyée si la personne qui a entré le problème est la personne cessionnaire du problème.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel et si l’option « Publier en tant que file d’attente des demandes d’aide » est activée pour le projet dans l’onglet Configuration de la file d’attente.</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Fin de tâche</p> </td> 
-   <td> <p>Utilisateur auquel la tâche est affectée</p> </td> 
-   <td> <p>Une tâche à laquelle je suis affecté est terminée.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique une fois la tâche terminée. Les notifications ne sont pas envoyées lorsqu’une tâche personnelle est terminée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence Light, Contributor, Review ou Requestor ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Achèvement de tâche</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel la tâche est affectée</p> </td> 
+   <td> <p>Une tâche qui m’a été affectée est terminée.</p> <p>La personne cessionnaire de la tâche reçoit une notification par e-mail lorsque la tâche est terminée. Les notifications ne sont pas envoyées lorsqu’une tâche personnelle est terminée.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light, de contributeur ou contributrice, révision ou demandeuse ou demandeur ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Fin de tâche</p> </td> 
-   <td> <p>Utilisateur affecté à une tâche dépendante</p> </td> 
-   <td> <p>Un prédécesseur de l'une de mes tâches est terminé.</p> <p>La personne désignée pour la tâche reçoit une notification par e-mail lorsque l’un des prédécesseurs de la tâche est terminé.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Achèvement de tâche</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice affecté à une tâche dépendante</p> </td> 
+   <td> <p>Une tâche antérieure de l’une des mes tâches est terminée.</p> <p>La personne cessionnaire de la tâche reçoit une notification par e-mail lorsque l’une des tâches antérieures de ses tâches est terminée.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>La date d'achèvement prévue pour la tâche a changé</p> </td> 
-   <td> <p>Utilisateur auquel la tâche est affectée</p> </td> 
-   <td> <p>La date d’échéance change pour une tâche à laquelle je suis affecté.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique lorsque la date d’achèvement planifiée de la tâche change, sauf si l’utilisateur qui a modifié la date d’achèvement planifiée est également le cessionnaire de la tâche.</p> <p>Une notification est envoyée uniquement si l’état du projet est autre que Planification.</p> <p>Aucune notification n’est envoyée concernant les tâches personnelles.</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel la tâche est affectée</p> </td> 
+   <td> <p>La date d’échéance d’une tâche qui m’a été affectée est modifiée.</p> <p>La personne cessionnaire de la tâche reçoit une notification par e-mail lorsque la date d’achèvement prévue de la tâche est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la date d’achèvement prévue est également la personne cessionnaire de la tâche.</p> <p>Une notification n’est envoyée que si le statut du projet est autre que Planification.</p> <p>Aucune notification n’est envoyée concernant les tâches personnelles.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Changement de statut de la tâche</p> </td> 
-   <td> <p>Utilisateur auquel la tâche est affectée</p> </td> 
-   <td> <p>L’état change pour une tâche à laquelle je suis affecté.</p> <p>Le cessionnaire de la tâche reçoit une notification par courrier électronique lorsque l’état de la tâche change, sauf si l’utilisateur qui a modifié l’état est également la personne désignée.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification. </p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel la tâche est affectée</p> </td> 
+   <td> <p>Le statut est modifié sur une tâche qui m’a été affectée.</p> <p>La personne cessionnaire de la tâche reçoit une notification par e-mail lorsque le statut de la tâche est modifié, sauf si l’utilisateur ou l’utilisatrice qui a modifié le statut est également la personne cessionnaire.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification. </p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
  </tbody> 
@@ -533,9 +533,9 @@ Voir aussi [Notifications : informations sur le travail qui m’est assigné](..
         For more information on publishing a project as a Help Request Queue, see 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
-## Informations sur les projets sur lesquels je travaille
+## Informations sur les projets auxquels je participe
 
-Voir aussi [Notifications : informations sur les projets sur lesquels je travaille](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Voir aussi [Notifications : informations sur les projets auxquels je participe](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -554,80 +554,80 @@ Voir aussi [Notifications : informations sur les projets sur lesquels je travail
  <tbody> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>État actuel du projet</p> </td> 
+   <td> <p>Statut de projet Actuel</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
-   <td> <p>Un projet sur lequel je travaille devient actif.</p> <p>Les utilisateurs du projet reçoivent une notification par e-mail lorsque le projet devient actif.</p> </td> 
+   <td> <p>Un projet sur lequel je travaille devient actif.</p> <p>Les utilisateurs et utilisatrices sur le projet reçoivent une notification par e-mail lorsque le projet devient actif.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document Add</p> </td> 
+   <td> <p>Ajout de document</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
-   <td> <p>Un document est ajouté à un projet sur lequel je travaille.</p> <p>Les utilisateurs de l’équipe de projet reçoivent une notification par courrier électronique lorsqu’un document est ajouté au projet, à l’exception de l’utilisateur qui a ajouté le document.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et que le document n’est pas Privé. </p> </td> 
+   <td> <p>Un document est ajouté au projet sur lequel je travaille.</p> <p>Les utilisateurs et utilisatrices de l’équipe de projet reçoivent une notification par e-mail lorsqu’un document est ajouté au projet, à l’exception de l’utilisateur ou l’utilisatrice qui a ajouté le document.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel et si le document n’est pas Privé. </p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Ajout de problème</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
-   <td> <p>Un problème est ajouté à un projet sur lequel je travaille.</p> <p>Les utilisateurs d’un projet reçoivent une notification par courrier électronique lorsqu’un problème est ajouté au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>Un problème est ajouté à un projet sur lequel je travaille.</p> <p>Les utilisateurs et utilisatrices d’un projet reçoivent une notification par e-mail lorsqu’un problème est ajouté au projet.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Fin du problème</p> </td> 
+   <td> <p>Achèvement de problème</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
-   <td> <p>Un problème est terminé sur un projet que je suis en cours.</p> <p>Tout utilisateur du projet reçoit une notification.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>Un problème sur un projet sur lequel je travaille est résolu.</p> <p>Toute personne sur le projet reçoit une notification.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Fin de la tâche Milestone</p> </td> 
+   <td> <p>Achèvement de tâche jalonnée</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
-   <td> <p>Une tâche de jalon est effectuée sur un projet sur lequel je travaille.</p> <p>Tous les utilisateurs de l’équipe de projet reçoivent une notification lorsqu’une tâche de jalon est terminée. </p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>Une tâche jalonnée sur un projet sur lequel je travaille est terminée.</p> <p>Toutes les personnes de l’équipe de projet reçoivent une notification lorsqu’une tâche jalonnée est terminée. </p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>Fin du projet</p> </td> 
+   <td> <p>Achèvement de projet</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
-   <td> <p>Un projet sur lequel je travaille est terminé.</p> <p>Les utilisateurs d’une équipe de projet reçoivent une notification par courrier électronique lorsque l’état du projet est terminé.</p> <p>Conseil : Si les projets sont terminés régulièrement, l’activation de cette option peut créer de nombreux courriers électroniques pour les utilisateurs qui ont un nombre limité de tâches sur de nombreux projets. </p> </td> 
+   <td> <p>Un projet sur lequel je travaille est terminé.</p> <p>Les utilisateurs et utilisatrices d’une équipe de projet reçoivent une notification par e-mail lorsque le statut du projet est Terminé.</p> <p>Conseil : si les projets sont terminés régulièrement, l’activation de cette option peut générer un grand nombre d’e-mails pour les utilisateurs et utilisatrices qui ont un nombre limité de tâches sur de nombreux projets. </p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>Modification de l’état du projet</p> </td> 
+   <td> <p>Changement de statut de projet</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
-   <td> <p>L’état change pour un projet sur lequel je travaille.</p> <p>Les utilisateurs de l’équipe de projet reçoivent une notification par e-mail lorsque l’état du projet change. </p> </td> 
+   <td> <p>Le statut d’un projet sur lequel je travaille est modifié.</p> <p>Les utilisateurs et utilisatrices de l’équipe de projet reçoivent une notification par e-mail lorsque le statut du projet change. </p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Utilisateur du projet</p> </td> 
-   <td> <p>Ajout d’un utilisateur de projet</p> </td> 
+   <td> <p>Ajout d’utilisateur et d’utilisatrice de projet</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
-   <td> <p>Je suis ajouté à un projet.</p> <p>L’utilisateur qui a été ajouté au projet reçoit une notification par courrier électronique lorsqu’il est ajouté, sauf s’il a été ajouté lui-même au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>J’ai été ajouté à un projet.</p> <p>L’utilisateur ou l’utilisatrice qui a été ajouté au projet reçoit une notification par e-mail lorsqu’il ou elle est ajouté, sauf s’il ou elle s’est ajouté lui-même ou elle-même au projet.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Fin de tâche</p> </td> 
+   <td> <p>Achèvement de tâche</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
-   <td> <p>Une tâche est terminée sur un projet que je suis en cours.</p> <p>Les membres de l’équipe de projet reçoivent une notification par e-mail.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>Une tâche sur un projet sur lequel je travaille est terminée.</p> <p>Les membres de l’équipe de projet reçoivent une notification par e-mail.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Problème non attribué ajouté</p> </td> 
+   <td> <p>Problème non affecté ajouté</p> </td> 
    <td> <p>Membres de l’équipe de projet</p> </td> 
-   <td> <p>Un problème non assigné est ajouté à un projet sur lequel je travaille.</p> <p>Les utilisateurs d’un projet reçoivent une notification par courrier électronique lorsqu’un problème non attribué est ajouté au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>Un problème non affecté est ajouté à un projet sur lequel je travaille.</p> <p>Les utilisateurs et utilisatrices d’un projet reçoivent une notification par e-mail lorsqu’un problème non affecté est ajouté au projet.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Informations sur les projets que je possède
+## Informations sur les projets dont je suis propriétaire
 
-Voir aussi [Notifications : informations sur les projets que je possède](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
+Voir aussi [Notifications : informations sur les projets dont je suis propriétaire](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -646,79 +646,79 @@ Voir aussi [Notifications : informations sur les projets que je possède](../../
  <tbody> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document Add</p> </td> 
+   <td> <p>Ajout de document</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Un document est ajouté à un projet dont je suis propriétaire.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un document est ajouté au projet, sauf si l’utilisateur qui a ajouté le document est également le propriétaire du projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et que le document n’est pas Privé.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un document est ajouté à un projet dont je suis propriétaire.</p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsqu’un document est ajouté au projet, sauf si la personne qui a ajouté le document est également propriétaire du projet.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel et si le document n’est pas Privé.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Ajout de problème</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Un problème est ajouté à un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un problème est ajouté au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un problème est ajouté à un projet dont je suis propriétaire.</p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsqu’un problème est ajouté au projet.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Modification de la date d'engagement pour l'événement</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>La date de validation change pour un problème sur l’un de mes projets.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsque la date de validation change pour un problème sur le projet, sauf si l’utilisateur qui modifie la date de validation est le même que le propriétaire du projet.</p> </td> 
+   <td> <p>La date d’engagement d’un problème sur l’un de mes projets est modifiée.</p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsque la date d’engagement d’un problème sur le projet change, sauf si la personne qui modifie la date d’engagement est la même que la personne propriétaire du projet.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Fin du problème</p> </td> 
+   <td> <p>Achèvement de problème</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Un problème est terminé sur un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un problème sur un projet dont je suis propriétaire est terminé.</p> <p>La personne propriétaire du projet reçoit une notification par e-mail.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Fin de la tâche Milestone</p> </td> 
+   <td> <p>Achèvement de tâche jalonnée</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Une tâche de jalon est effectuée sur un projet que je possède.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>Une tâche jalonnée sur un projet dont je suis propriétaire est terminée.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>Attribution des propriétaires de projet</p> </td> 
+   <td> <p>Affectation de propriétaire de projet</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Je suis le propriétaire d'un nouveau projet.</p> <p>Lorsqu’un utilisateur est désigné propriétaire d’un projet, il reçoit une notification par courrier électronique.</p> <p>Si le propriétaire du projet est le même utilisateur que celui qui a effectué l’affectation, aucune notification par courrier électronique n’est envoyée.</p> </td> 
+   <td> <p>Je suis désigné comme la personne propriétaire d’un nouveau projet.</p> <p>Lorsqu’un utilisateur ou une utilisatrice est désigné comme la personne propriétaire d’un projet, il ou elle reçoit une notification par e-mail.</p> <p>Si la personne propriétaire du projet est la même personne que celle qui a effectué l’affectation, aucune notification par e-mail n’est envoyée.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
    <td> <p>Modification de la progression du projet</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Un projet dont je suis propriétaire se fait soutenir.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsque le projet est en retard sur le planning.</p> </td> 
+   <td> <p>Un projet que je possède est en retard.</p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsque le projet est en retard par rapport au planning.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Modification de la date d'engagement pour la tâche</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>La date de validation change pour une tâche sur l’un de mes projets.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsque la date de validation change pour une tâche du projet, sauf si l’utilisateur qui a modifié la date de validation est également le propriétaire du projet.</p> </td> 
+   <td> <p>La date d’engagement pour une tâche d’un de mes projets est modifiée.</p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsque la date d’engagement d’une tâche sur le projet est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la date d’engagement est également la personne propriétaire du projet.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Fin de tâche</p> </td> 
+   <td> <p>Achèvement de tâche</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Une tâche est effectuée sur un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification. </p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>Une tâche est terminée sur un projet que je possède.</p> <p>La personne propriétaire du projet reçoit une notification. </p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Modification de la progression de la tâche</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Une tâche sur un projet dont je suis propriétaire se fait attendre.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’une tâche du projet est en retard sur le planning.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>Une tâche d’un projet que je possède est en retard.</p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsqu’une tâche du projet est en retard sur le planning.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Ajout d’un problème non attribué</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
-   <td> <p>Un problème non attribué est ajouté à un projet que je possède.</p> <p>Le propriétaire du projet reçoit une notification par courrier électronique lorsqu’un problème non attribué est ajouté au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Un problème non attribué est ajouté à un projet que je possède.</p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsqu’un problème non attribué est ajouté au projet.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
  </tbody> 
@@ -726,7 +726,7 @@ Voir aussi [Notifications : informations sur les projets que je possède](../../
 
 ## Informations sur les projets que je sponsorise
 
-Voir aussi [Notifications : informations sur les projets que je sponsorise](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
+Voir aussi [Notifications : informations sur les projets que je sponsorise](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -745,65 +745,65 @@ Voir aussi [Notifications : informations sur les projets que je sponsorise](../.
  <tbody> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document Add</p> </td> 
+   <td> <p>Ajout de document</p> </td> 
    <td> <p>Sponsor du projet</p> </td> 
-   <td> <p>Un document est ajouté à un projet que je sponsorise.</p> <p>Le parrain du projet reçoit une notification par courrier électronique lorsqu’un document est ajouté au projet, sauf si le parrain du projet l’ajoute.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel et si le document n’est pas Privé.</p> </td> 
+   <td> <p>Un document est ajouté à un projet que je sponsorise.</p> <p>La personne sponsor du projet reçoit une notification par e-mail lorsqu’un document est ajouté au projet, sauf si le document est ajouté par la personne sponsor du projet.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel et si le document n’est pas Privé.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Ajout de problème</p> </td> 
    <td> <p>Sponsor du projet</p> </td> 
-   <td> <p>Un problème est ajouté à un projet que je sponsorise.</p> <p>Le parrain du projet reçoit une notification par courrier électronique lorsqu’un problème est ajouté au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>Un problème est ajouté au projet que je sponsorise</p> <p>La personne sponsor du projet reçoit une notification par e-mail lorsqu’un problème est ajouté au projet.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Fin du problème</p> </td> 
+   <td> <p>Achèvement de problème</p> </td> 
    <td> <p>Sponsor du projet</p> </td> 
-   <td> <p>Un problème est terminé sur un projet que je sponsorise.</p> <p>Le sponsor du projet reçoit une notification par email.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>Un problème est résolu sur un projet que je sponsorise</p> <p>La personne sponsor du projet reçoit une notification par e-mail.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Fin de la tâche Milestone</p> </td> 
+   <td> <p>Achèvement de tâche jalonnée</p> </td> 
    <td> <p>Sponsor du projet</p> </td> 
-   <td> <p>Une tâche de jalon est effectuée sur un projet que je sponsorise.</p> <p>Le sponsor du projet reçoit une notification par e-mail lorsqu’une tâche de jalon est terminée sur un projet qu’il sponsorise.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>Envoyer un e-mail à la personne sponsor du projet lorsqu’une tâche jalonnée est terminée.</p> <p>La personne sponsor du projet reçoit une notification par e-mail lorsqu’une tâche jalonnée est terminée sur un projet qu’elle sponsorise.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
    <td> <p>Modification de la progression du projet</p> </td> 
    <td> <p>Sponsor du projet</p> </td> 
-   <td> <p>Un projet que je sponsorise prend du retard.</p> <p>Le parrain du projet reçoit une notification par e-mail lorsque le projet est en retard sur le planning.</p> </td> 
+   <td> <p>Un projet que je sponsorise est en retard.</p> <p>La personne sponsor du projet reçoit une notification par e-mail lorsque le projet est en retard par rapport au planning.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>Attribution des parrains de projet</p> </td> 
+   <td> <p>Affectation de la personne sponsor du projet</p> </td> 
    <td> <p>Sponsor du projet</p> </td> 
-   <td> <p>Je suis le parrain d'un projet.</p> <p>Le sponsor du projet reçoit une notification par email lorsqu’il est défini comme sponsor d’un projet.</p> </td> 
+   <td> <p>Je sponsorise un projet.</p> <p>La personne sponsor du projet reçoit une notification par e-mail lorsqu’elle est définie comme sponsor d’un projet.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Fin de tâche</p> </td> 
+   <td> <p>Achèvement de tâche</p> </td> 
    <td> <p>Sponsor du projet</p> </td> 
-   <td> <p>Une tâche est effectuée sur un projet que je sponsorise.</p> <p>Le sponsor du projet reçoit une notification par email.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>Une tâche jalonnée est terminée dans un projet que je sponsorise.</p> <p>La personne sponsor du projet reçoit une notification par e-mail.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
    <td> <p>Modification de la progression de la tâche</p> </td> 
    <td> <p>Sponsor du projet</p> </td> 
-   <td> <p>Une tâche sur un projet que je sponsorise prend du retard.</p> <p>Le parrain du projet reçoit une notification par e-mail lorsqu’une tâche du projet est en retard sur le planning.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>Un tâche d’un projet que je sponsorise est en retard.</p> <p>La personne sponsor du projet reçoit une notification par e-mail lorsqu’une tâche du projet est en retard sur le planning.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
    <td> <p>Ajout d’un problème non attribué</p> </td> 
    <td> <p>Sponsor du projet</p> </td> 
-   <td> <p>Un problème non attribué est ajouté à un projet que je sponsorise.</p> <p>Le parrain du projet reçoit une notification par courrier électronique lorsqu’un problème non attribué est ajouté au projet.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>Un problème non attribué est ajouté à un projet que je sponsorise.</p> <p>La personne sponsor du projet reçoit une notification par e-mail lorsqu’un problème non attribué est ajouté au projet.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
  </tbody> 
@@ -811,7 +811,7 @@ Voir aussi [Notifications : informations sur les projets que je sponsorise](../.
 
 ## Informations diverses
 
-Voir aussi [Notifications : informations diverses](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+Voir aussi [Notifications : informations diverses](../../../workfront-basics/using-notifications/notifications-misc-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -832,78 +832,78 @@ Voir aussi [Notifications : informations diverses](../../../workfront-basics/usi
    <td>Annonce</td> 
    <td> <p>L'annonce a été ajoutée</p> </td> 
    <td> <p></p> </td> 
-   <td> <p>Un message est envoyé au Centre d’annonces.</p> </td> 
+   <td> <p>Un message est envoyé au Centre des annonces.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document Request Cancel</p> </td> 
-   <td> <p>Utilisateur dont le document est demandé par</p> </td> 
-   <td> <p>Annuler une demande de téléchargement de document de ma part.</p> <p>L’utilisateur reçoit une notification par courrier électronique lorsqu’une demande de document est annulée.</p> </td> 
+   <td> <p>Annulation de demande de documents</p> </td> 
+   <td> <p>Utilisateur ou utilisatrice auquel ou à laquelle le document est demandé</p> </td> 
+   <td> <p>Annuler une demande de chargement de documents de ma part.</p> <p>Le demandeur ou la demandeuse de document reçoit une notification par e-mail lorsqu’ une demande de document est annulée.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> <p>Notification d'erreur</p> </td> 
    <td> <p></p> </td> 
-   <td> <p>Une erreur qui nécessite votre attention a été trouvée.</p> <p>Une notification par courrier électronique est générée une fois que Workfront a tenté de se connecter à un compte POP et qu’il n’y a pas réussi. Après 25 tentatives, Workfront désactive la connexion au compte POP afin de préserver les ressources et envoie une notification. </p> <p>La notification est envoyée par courrier électronique au propriétaire du projet, si le courrier électronique POP est associé à une file d’attente de requêtes, ou aux administrateurs Workfront, si le compte POP est associé à la fonction "Courrier entrant" dans la configuration des emails.
+   <td> <p>Une erreur a été détectée et requiert votre attention</p> <p>Une notification par e-mail est générée une fois que Workfront a tenté de se connecter à un compte POP sans y parvenir. Après 25 tentatives, Workfront désactive la connexion au compte POP afin de préserver les ressources et envoie une notification. </p> <p>La notification est envoyée par e-mail à la personne propriétaire du projet, si l’e-mail POP est associé à une file d’attente des demandes, ou à l’équipe d’administration Workfront, si le compte POP est associé à la fonction « Courrier entrant » dans la configuration de la messagerie.
    </p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Attribution de problèmes</p> </td> 
+   <td> <p>Affectation de problème</p> </td> 
    <td> <p>Propriétaire de la ressource</p> </td> 
-   <td> <p>Un changement d'attribution de problèmes affecte l'un de mes collaborateurs.</p> <p>Le Gestionnaire des personnes concernées reçoit une notification par e-mail lorsqu’une modification affecte un utilisateur qu’il gère.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel ou Planification.</p> </td> 
+   <td> <p>L’attribution d’un problème affecte une personne dont je suis responsable.</p> <p>Le Gestionnaire des cessionnaires des problèmes reçoit une notification par e-mail lorsqu’une modification affecte un utilisateur ou une utilisatrice sous sa responsabilité.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel ou Planification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td> <p>Nouvel utilisateur</p> </td> 
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
-   <td> <p>Lorsqu’un nouvel utilisateur est créé dans Workfront, envoyez un courrier électronique à l’utilisateur.</p> <p>Une fois le nouvel utilisateur créé, il reçoit une invitation par courrier électronique l’informant qu’un compte Workfront a été créé et lui demandant de définir son mot de passe.</p> <p>Lors de la création d’un nouvel utilisateur, les utilisateurs peuvent sélectionner l’option "Envoyer un courrier électronique d’invitation à cette personne" (comme décrit dans la section <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Ajout d’utilisateurs</a><span style="font-weight: 400;">). Cependant, lorsque l’option "Nouvel utilisateur à l’utilisateur" est activée globalement, tous les nouveaux utilisateurs reçoivent l’invitation par courrier électronique, que l’option "Envoyer un courrier électronique d’invitation à cette personne" soit sélectionnée ou non.</span></p> </td> 
+   <td> <p>Lorsqu’un utilisateur ou une utilisatrice est créé dans Workfront, envoyez-lui un e-mail.</p> <p>Une fois créé, l’utilisateur ou l’utilisatrice reçoit une invitation par e-mail l’informant qu’un compte Workfront a été créé et lui demandant de configurer son mot de passe.</p> <p>Lors de la création d’un utilisateur ou d’une utilisatrice, les utilisateurs et utilisatrices peuvent sélectionner l’option « Envoyer un e-mail d’invitation à cette personne » (comme décrit dans la section <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Ajouter des utilisateurs et utilisatrices</a><span style="font-weight: 400;">). Cependant, lorsque l’option « Nouvel utilisateur ou utilisatrice à utilisateur ou utilisatrice » est activée globalement, les nouveaux utilisateurs et utilisatrices reçoivent l’invitation par e-mail, que l’option « Envoyer un e-mail d’invitation à cette personne » soit sélectionnée ou non.</span></p> </td> 
    <td> Inactif </td> 
   </tr> 
   <tr> 
    <td> <p>Equipe</p> </td> 
    <td> <p>Partage d’objets</p> </td> 
    <td> <p>Membres de l’équipe avec lesquels l’objet a été partagé</p> </td> 
-   <td> <p>Quelqu'un partage un objet avec mon équipe.</p> </td> 
+   <td> <p>Quelqu’un partage un objet avec mon équipe.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td> <p>Partage d’objets</p> </td> 
-   <td> <p>Utilisateur avec lequel l’objet a été partagé</p> </td> 
-   <td> <p>Quelqu'un partage un objet avec moi.</p> </td> 
+   <td> <p>Personne avec laquelle l’objet a été partagé</p> </td> 
+   <td> <p>Quelqu’un partage un objet avec moi.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Utilisateur du projet</p> </td> 
-   <td> <p>Ajout d’un utilisateur de projet</p> </td> 
+   <td> <p>Ajout d’utilisateur et d’utilisatrice de projet</p> </td> 
    <td> <p>Propriétaire de la ressource</p> </td> 
-   <td> <p>Un de mes collaborateurs est ajouté à un projet.</p> <p>Un responsable reçoit une notification par e-mail lorsqu’un de ses rapports directs est ajouté à un projet.</p> <p>Les utilisateurs disposant d’une licence Light ou Review ne reçoivent pas de notification.</p> </td> 
+   <td> <p>Une des personnes dont je suis responsable est ajoutée à un projet.</p> <p>Une personne responsable reçoit une notification par e-mail lorsqu’un de ses rapports directs est ajouté à un projet.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence light ou de révision ne reçoivent pas de notification.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
    <td> <p>Projet ajouté à un portefeuille ou un programme</p> </td> 
-   <td> <p>Propriétaire du Portfolio ou du programme</p> </td> 
-   <td> <p>Quelqu’un ajoute un projet à un portefeuille ou à un programme que je possède.</p> </td> 
+   <td> <p>Propriétaire du portfolio ou du programme</p> </td> 
+   <td> <p>Quelqu’un ajoute un projet à un portfolio ou un programme dont je suis propriétaire.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Affectation de tâches</p> </td> 
+   <td> <p>Affectation de tâche</p> </td> 
    <td> <p>Propriétaire de la ressource</p> </td> 
-   <td> <p>Un changement d'affectation de tâche affecte l'une de mes personnes.</p> <p>Le responsable du cessionnaire de la tâche reçoit une notification par courrier électronique.</p> <p>Une notification est envoyée uniquement si l’état du projet est Actuel.</p> </td> 
+   <td> <p>L’attribution d’une tâche affecte une personne dont je suis responsable.</p> <p>Le responsable du cessionnaire de la tâche reçoit une notification par e-mail.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> Projet <br>Tâche <br>Problème</td> 
    <td>Nouvelle mise à jour</td> 
    <td>Abonné </td> 
-   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Un email est envoyé lorsqu’une mise à jour est effectuée sur une tâche, un problème ou un projet auquel je suis abonné.</span> </p> </td> 
+   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Un e-mail est envoyé lorsqu’une mise à jour est effectuée sur une tâche, un problème ou un projet auquel je suis abonné ou abonnée.</span> </p> </td> 
    <td>Actif (instantané uniquement)</td> 
   </tr> 
  </tbody> 
@@ -919,11 +919,11 @@ Voir aussi [Notifications : informations diverses](../../../workfront-basics/usi
 
 ## Délégation
 
-Voir aussi [Notifications : Délégation](../../../workfront-basics/using-notifications/notifications-delegation.md).
+Voir aussi [Notifications : délégation](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
 | Type d&#39;objet | Événement | Destinataire | Description | État par défaut |
 |------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|
 | Tâches et événements | Délégation des tâches et des problèmes | Cessionnaire | Je délègue mes tâches et problèmes (confirmation). | Actif (instantané uniquement) |
 | Tâches et événements | Arrêter la délégation des tâches et des problèmes | Cessionnaire | J’arrête de déléguer mes tâches et problèmes (confirmation). | Actif (instantané uniquement) |
 | Tâches et événements | Délégation des tâches et des problèmes | Déléguer | Quelqu’un me délègue ses tâches et problèmes. | Actif (instantané uniquement) |
-| Tâches et événements | Arrêter les tâches et déléguer les problèmes | Déléguer | Quelqu’un cesse de me déléguer ses tâches et problèmes. | Actif (instantané uniquement) |
+| Tâches et événements | Arrêter la délégation des tâches et des problèmes | Déléguer | Quelqu’un cesse de me déléguer ses tâches et problèmes. | Actif (instantané uniquement) |

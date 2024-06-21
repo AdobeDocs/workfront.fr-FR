@@ -10,7 +10,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 76%
+ht-degree: 97%
 
 ---
 
@@ -62,7 +62,7 @@ La section Mises à jour d’un objet affiche les mises à jour système et jusq
 
 <!--Info for April 11: Add the following right under the screen shot above:-->
 
-Les objets suivants comportent une section Mises à jour dans laquelle vous pouvez ajouter des commentaires ou revoir les mises à jour du système :
+Les objets suivants comportent une section Mises à jour dans laquelle vous pouvez ajouter des commentaires ou revoir les mises à jour du système :
 
 * Projets
 * Tâches
@@ -124,18 +124,18 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ![Met à jour la section](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-* La section Mises à jour affiche des informations dans les onglets suivants :
+* La section Mises à jour affiche des informations dans les onglets suivants :
 
-   * **Commentaires** : affiche les commentaires effectués par les utilisateurs et utilisatrices et les réponses à ces commentaires. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants. Pour plus d’informations sur la mise à jour des objets, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Activité du système** : affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications apportées dans les champs du statut, du nom ou personnalisés sont capturées avec des mises à jour système. Votre administrateur ou administratrice Workfront ou de groupes peut activer les mises à jour système pour vos objets. Toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité système . Pour plus d’informations, consultez [Configurer les mises à jour système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Tous (lecture seule)** : affiche les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni identifier d’autres personnes dans les commentaires existants de l’onglet Tous. Pour répondre à un commentaire spécifique, utilisez le lien dans l’onglet Tous vers l’onglet Commentaires. Pour plus d’informations sur la mise à jour des objets, voir [Mise à jour du travail](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Commentaires** : affiche les commentaires effectués par les utilisateurs et utilisatrices et les réponses à ces commentaires. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants. Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Activité du système** : affiche les mises à jour système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications apportées dans les champs du statut, du nom ou personnalisés sont capturées avec des mises à jour système. Votre administrateur ou administratrice Workfront ou de groupes peut activer les mises à jour système pour vos objets. Toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée sont renseignées en lecture seule dans l’onglet Activité système. Pour plus d’informations, consultez [Configurer les mises à jour système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Tous (lecture seule)** : affiche les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni identifier d’autres personnes dans les commentaires existants de l’onglet Tous. Pour répondre à un commentaire spécifique, utilisez le lien dans l’onglet Tous vers l’onglet Commentaires. Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 
      >[!NOTE]
      >
      >Les onglets Commentaires et Activité système sont mis à jour en temps réel. Vous devez actualiser l’onglet Tous pour afficher les mises à jour les plus récentes.
 
 
-* Les objets suivants présentent des expériences similaires dans les trois onglets de la section Mises à jour :
+* Les objets suivants présentent des expériences similaires dans les trois onglets de la section Mises à jour :
 
    * Projets
    * Tâches
@@ -145,23 +145,23 @@ Depending on what objects you access the commenting experience for, you might fi
    * Utilisateurs
    * Feuilles de temps
 
-* Les objets suivants n’ont pas d’onglet Activité système ou Tous et l’expérience de l’onglet Commentaires correspond à celle de tous les autres objets :
+* Les objets suivants n’ont pas d’onglet Activité système ou Tous et l’expérience de l’onglet Commentaires correspond à celle de tous les autres objets :
 
    * Equipe
    * Modèle
    * Tâche de modèle
 
-* Les objets suivants n’ont pas d’onglet Activité système ou Tous et l’expérience dans l’onglet Commentaires diffère de celle de tous les autres objets :
+* Les objets suivants n’ont pas d’onglet Activité système ou Tous et l’expérience dans l’onglet Commentaires diffère de celle de tous les autres objets :
    * Itérations
    * Carte ad hoc
 
      Pour plus d’informations sur les mises à jour des cartes, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-* Les objets suivants n’ont pas de panneau Tous et l’expérience de l’onglet Commentaires correspond à celle de la plupart des objets :
+* Les objets suivants n’ont pas d’onglet Tous et l’expérience de l’onglet Commentaires correspond à celle de la plupart des objets :
 
    * Objectifs
 
-     Pour plus d’informations sur les mises à jour des objectifs, voir [Gestion des commentaires d’objectif](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+     Pour plus d’informations sur les mises à jour des objectifs, voir [Gérer des commentaires d’objectif](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -183,9 +183,9 @@ The following objects don't record system updates:
 * Iterations
 -->
 
-## Mises à jour qui apparaissent également sur les objets de rang supérieur
+## Mises à jour apparaissant également sur les objets de niveau supérieur
 
-Les commentaires, réponses ou mises à jour système de certains objets apparaissent également dans la section Mises à jour des objets de rang supérieur.
+Les commentaires, les réponses ou les mises à jour système de certains objets apparaissent également dans la section Mises à jour d’objets de niveau supérieur.
 
 Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jour apparaît dans la section Mises à jour de la tâche et dans la section Mises à jour du projet contenant la tâche.
 
@@ -197,7 +197,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
  <thead> 
   <tr> 
    <th><strong>Objet où la mise à jour d’origine a été ajoutée</strong> </th> 
-   <th> <p><strong>Objets de rang supérieur où la mise à jour d’origine apparaît également</strong> </p> </th> 
+   <th> <p><strong>Objet de niveau supérieur où la mise à jour d’origine apparaît également</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

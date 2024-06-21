@@ -3,24 +3,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Modèles Adobe Workfront Fusion actuellement disponibles
-description: Les modèles publics suivants sont actuellement disponibles dans Adobe Workfront Fusion.
+description: Les modèles publics suivants sont actuellement disponibles dans Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
 source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 1%
+ht-degree: 97%
 
 ---
 
 # Modèles Adobe Workfront Fusion actuellement disponibles
 
-Les modèles publics suivants sont actuellement disponibles dans Adobe Workfront Fusion.
+Les modèles publics suivants sont actuellement disponibles dans Adobe Workfront Fusion.
 
-D’autres modèles créés par l’équipe ou l’entreprise peuvent être disponibles pour votre équipe.
+Des modèles créés par d’autres équipes peuvent être disponibles pour votre équipe ou organisation.
 
-Pour afficher les modèles disponibles, cliquez sur le bouton **Modèles** icon ![](assets/fusion-template-icon.png) dans le menu de navigation latéral de Fusion.
+Pour afficher les modèles disponibles, cliquez sur l’icône **Modèles** ![](assets/fusion-template-icon.png) dans le menu de navigation latéral de Fusion.
 
 ## Modèles Workfront
 
@@ -30,93 +30,93 @@ Ces modèles automatisent les processus et les workflows Workfront.
 
 Ce modèle de fusion crée une liste de contrôle standard pour toutes les cartes qui entrent ponctuellement une colonne spécifique sur un panorama spécifique.
 
-### Workfront - Création de projet à partir de CSV
+### Workfront - Création de projet à partir d’un fichier CSV
 
-Cette automatisation crée de nouveaux projets dans Workfront en fonction du nom, du Portfolio, de l’état, de la date de début planifiée et des détails du modèle que vous spécifiez dans un fichier CSV.
+Cette automatisation crée des projets dans Workfront en fonction du nom, du portfolio, du statut, de la date de début prévue et des détails du modèle que vous spécifiez dans un fichier CSV.
 
-### Workfront - Demandes de nettoyage sans nouvelles notes au cours des 30 derniers jours
+### Workfront - Demandes de nettoyage sans nouvelles notes au cours des 30 derniers jours
 
-Utilisez ce modèle pour appliquer une mise à jour de note de 30 jours à vos requêtes. Les demandes qui ne sont pas mises à jour dans 30 jours voient leur état changé et fermé à 60 jours.
+Utilisez ce modèle pour appliquer une mise à jour de note de 30 jours à vos demandes. Le statut des demandes qui ne sont pas mises à jour pendant 30 jours change et elles sont fermées au bout de 60 jours.
 
-### Workfront : définissez l’état du projet sur Terminé à 100 %.
+### Workfront - Faire passer le statut d’un projet sur Terminé au pourcentage terminé à 100 %
 
-Cette automatisation met à jour les projets à l’état Terminé pour lequel toutes les tâches à 1 005 sont terminées. Les projets avec des problèmes en cours ou des tâches ouvertes ou des approbations de projet recevront une mise à jour. Une fois résolus, les projets passeront à l’état Terminé.
+Cette automatisation met à jour les projets dont toutes les tâches sont au pourcentage terminé à 100 % au statut Terminé. Les projets avec des problèmes ouverts ou des approbations de tâches ou de projet ouvertes font l’objet d’une mise à jour. Une fois résolus, les projets passent au statut Terminé.
 
-### Workfront - Avertissement et tentative de fermeture de projets obsolètes
+### Workfront - Avertir et tenter de fermer des projets obsolètes
 
-Utilisez ce scénario pour automatiser l’avertissement et la fermeture des projets qui correspondent à la stratégie de projet obsolète de votre entreprise.
+Utilisez ce scénario pour automatiser l’avertissement et la fermeture de projets qui satisfont la politique de projet obsolète de votre organisation.
 
-### Workfront : copiez les nouvelles notes et réponses du problème/de la demande source au projet ou à la tâche déjà converti.
+### Workfront - Copier les nouvelles notes et réponses du problème/de la demande source dans un projet ou une tâche déjà convertis
 
-Utilisez ce modèle pour copier les notes et les réponses d’un problème ou d’une requête vers un projet ou une tâche déjà converti.
+Utilisez ce modèle pour copier les notes et les réponses d’un problème ou d’une demande dans un projet ou une tâche déjà convertis.
 
-### Workfront - Copier le programme Forms personnalisé et les données de champ dans les nouveaux projets associés
+### Workfront - Copier les données de formulaires et de champs personnalisés de programme dans les nouveaux projets associés
 
-Cette automatisation recherche de nouveaux projets dans les programmes avec des formulaires personnalisés. Il ajoute ensuite ces formulaires et champs personnalisés de programme aux nouveaux projets.
+Cette automatisation recherche de nouveaux projets dans les programmes avec des formulaires personnalisés. Elle ajoute ensuite ces formulaires et champs personnalisés de programme aux nouveaux projets.
 
-### Workfront - Copie de Portfolios de données de champ et de Forms personnalisées dans les nouveaux projets associés
+### Workfront - Copier les données de formulaires et de champs personnalisés de portfolio dans les nouveaux projets associés
 
-Cette automatisation recherche de nouveaux projets dans les portefeuilles avec des formulaires personnalisés. Il ajoute ensuite ces champs et formulaires personnalisés de portefeuille aux nouveaux projets.
+Cette automatisation recherche de nouveaux projets dans les portfolios avec des formulaires personnalisés. Elle ajoute ensuite ces formulaires et champs personnalisés de portfolio aux nouveaux projets.
 
-### Workfront - Convertir le problème approuvé en projet
+### Workfront - Convertir un problème approuvé en projet
 
-Ce modèle convertit les problèmes en projets. Vous pouvez la modifier pour répondre aux normes de votre entreprise.
+Ce modèle convertit les problèmes en projets. Vous pouvez le modifier pour répondre aux normes de votre organisation.
 
-### Workfront - Copie de documents provenant de problèmes/requêtes vers des projets ou des tâches déjà convertis
+### Workfront - Copier des documents de problèmes/demandes dans des projets ou des tâches déjà convertis
 
-Ce scénario flexible copie des documents provenant de problèmes ou de requêtes vers des projets ou des tâches précédemment convertis.
+Ce scénario flexible copie des documents de problèmes ou de demandes dans des projets ou des tâches précédemment convertis.
 
-### Notification personnalisée basée sur le changement de champ
+### Notification personnalisée en fonction de la modification de champ
 
-Ce modèle crée des mises à jour personnalisées (et des notifications associées) pour les personnes travaillant sur un projet Workfront, en fonction d’un événement unique, tel qu’un changement de valeur de champ. Le scénario recherche Workfront lorsqu’un champ spécifié change dans une tâche ou un problème. Lorsqu’il est rencontré, le scénario évalue les informations du projet associé et crée une mise à jour personnalisée pour une personne affectée à un rôle spécifique dans le projet.
+Ce modèle crée des mises à jour personnalisées (et des notifications associées) pour les personnes travaillant sur un projet Workfront, en fonction d’un événement unique comme la modification d’une valeur de champ. Le scénario recherche dans Workfront le moment où un champ spécifié change dans une tâche ou un problème. Lorsqu’il trouve une modification, le scénario évalue les informations du projet associé et crée une mise à jour personnalisée pour une personne affectée à un rôle spécifique dans le projet.
 
-### Workfront : ajout groupé au nom du projet avec convention
+### Workfront - Ajout groupé au nom du projet avec convention
 
 Ce modèle de mise à jour en bloc renomme tous les projets qui répondent aux critères d’une recherche (appartenant à un portfolio) et les renomme avec un format standard.
 
 ### Workfront - Renommer les projets avec convention
 
-Ce modèle localise tous les projets répondant aux critères d’un filtre (appartenant à un portfolio) et les renomme avec un format standard.
+Ce modèle recherche tous les projets qui répondent aux critères d’un filtre (appartenant à un portfolio) et les renomme avec un format standard.
 
-### Workfront - Créer une ligne de base lors de la modification de l’état
+### Workfront - Créer une référence de changement de statut
 
-Ce modèle capture une ligne de base de projet lors de tout changement d’état de projet noté dans les modules &quot;switch&quot; et crée une mise à jour dans le flux de mise à jour pour la journalisation.
+Ce modèle capture une référence de projet lors de tout changement de statut du projet noté dans les modules « switch », et crée une mise à jour dans le flux de mise à jour à des fins de consignation.
 
-### Workfront : création de base hebdomadaire
+### Workfront - Création de référence hebdomadaire
 
-Ce modèle capture une ligne de base de projet sur une base hebdomadaire chaque lundi à 6h00 ET sur les projets filtrés par portefeuille, et crée une mise à jour dans le flux de mise à jour pour la journalisation.
+Ce modèle capture une référence de projet chaque semaine le lundi à 6 h 00 (ET) sur les projets filtrés par portfolio, et crée une mise à jour dans le flux de mise à jour à des fins de consignation.
 
-### Recherche de modèles de projet non utilisés au moment de la stratégie et notification
+### Rechercher des modèles de projet non utilisés pendant la période de la politique et informer
 
-Une fois par mois, consultez vos modèles de projet en utilisant votre propre stratégie avec ce modèle facile à gérer qui avertit les utilisateurs appropriés des modèles en violation de votre stratégie.
+Une fois par mois, vérifiez vos modèles de projet en utilisant votre propre politique avec ce modèle facile à gérer qui informe les utilisateurs et les utilisatrices appropriés des modèles qui enfreignent votre politique.
 
-## Workfront - Modèles Workfront Proof
+## Workfront - Modèles Workfront Proof
 
-Ces modèles automatisent les workflows qui combinent Workfront à Workfront Proof.
+Ces modèles automatisent les workflows qui combinent Workfront et Workfront Proof.
 
-### Workfront Proof > Workfront - Mise à jour du projet sur la décision de BAT
+### Workfront Proof > Workfront - Mise à jour du projet selon le statut de décision de l’épreuve
 
-Lorsqu’une décision est prise sur un BAT ajouté directement à un projet, cette automatisation rassemble des informations sur la décision du BAT, telles que les personnes qui ont pris la décision, puis reflète cette progression dans le projet Workfront correspondant sous forme de mise à jour.
+Lorsqu’une décision est prise sur une épreuve ajoutée directement à un projet, cette automatisation rassemble des informations sur le statut de décision de l’épreuve, telles que les personnes qui ont pris la décision, puis reflète cette progression dans le projet Workfront correspondant sous forme de mise à jour.
 
-### Workfront Proof > Workfront - Mise à jour et exécution de la tâche (si approuvée) sur la décision de BAT
+### Workfront Proof > Workfront - Mise à jour et achèvement de tâche (si approuvée) selon le statut de décision de l’épreuve
 
-Lorsque des BAT individuels sont liés à des tâches individuelles, ce scénario ferme la tâche associée lorsqu&#39;une décision de validation est prise sur le BAT. S’il est approuvé, il termine la tâche et met à jour le projet.
+Lorsque des épreuves individuelles sont liées à des tâches individuelles, ce scénario ferme la tâche associée lorsqu’une décision d’approbation est prise sur l’épreuve. Si elle est approuvée, il termine la tâche et met à jour le projet.
 
 ## HTTP - Modèles Workfront
 
-Ces modèles récupèrent les informations d’un service Web et les intègrent à Workfront.
+Ces modèles récupèrent des informations d’un service web et les intègrent à Workfront.
 
 >[!NOTE]
 >
-> Vous devez disposer d’une licence Workfront Fusion for Work Automation and Integration pour utiliser des modèles dans cette section.
+> Vous devez disposer d’une licence Workfront Fusion pour l’automatisation du travail et l’intégration afin d’utiliser des modèles dans cette section.
 
-### Établissement de la connexion à l’aide de JWT (JSON Web Token)
+### Établir une connexion à l’aide d’un jeton web JSON (JWT)
 
-Définition de l’autorisation JWT pour une API client.
+Définissez l’autorisation JWT pour une API client.
 
-### APILayer > Workfront - Mise à jour du taux d’Exchange quotidien (EUR)
+### APILayer > Workfront - Mise à jour quotidienne du taux de change (EUR)
 
-Ce modèle crée un scénario qui automatise la mise à jour d’un taux d’exchange à un moment donné. Ce scénario extrait le taux d’euros (EUR) en dollars US (USD) d’une API APIlayers.com et le met à jour dans Workfront.
+Ce modèle crée un scénario qui automatise la mise à jour d’un taux de change à un moment donné. Ce scénario extrait le taux de change entre l’euro (EUR) et le dollar US (USD) d’une API APIlayers.com et le met à jour dans Workfront.
 
 ## Modèles Workfront-Marketo
 
@@ -124,58 +124,58 @@ Ces modèles prennent en charge l’intégration Workfront-Marketo.
 
 >[!NOTE]
 >
-> Vous devez disposer d’une licence Workfront Fusion for Work Automation and Integration pour utiliser des modèles dans cette section.
+> Vous devez disposer d’une licence Workfront Fusion pour l’automatisation du travail et l’intégration afin d’utiliser des modèles dans cette section.
 
-### Approbation de votre brouillon de courrier électronique Marketo Engage avec les workflows d’approbation Workfront
+### Approuver votre brouillon d’e-mail Marketo Engage avec des workflows d’approbation Workfront
 
-Il fait partie de l’intégration de vérification et d’approbation entre Workfront et Marketo Engage. Ce modèle détecte si un BAT d’email dans Workfront a été approuvé, puis met à jour l’email correspondant dans Marketo Engage comme approuvé.
+Cela fait partie de l’intégration de révision et d’approbation entre Workfront et Marketo Engage. Ce modèle détecte si une épreuve d’e-mail dans Workfront a été approuvée, puis met à jour l’e-mail correspondant dans Marketo Engage comme étant approuvé.
 
-### Récupérer les requêtes de campagne marketing dans Workfront et automatiser la création des campagnes dans Marketo Engage
+### Récupérer les demandes de campagne marketing dans Workfront et automatiser la création des campagnes dans Marketo Engage
 
-Ce scénario fournit un moyen programmatique de créer des campagnes par courrier électronique et des webinaires en Marketo Engage à partir d’une demande effectuée dans Workfront. Grâce à l’automatisation de la création, de l’organisation et de la configuration des campagnes, les équipes peuvent améliorer leur efficacité.
+Ce scénario offre un moyen programmatique de créer des campagnes e-mail et webinaires dans Marketo Engage à partir d’une demande effectuée dans Workfront. Grâce à l’automatisation de la création, de l’organisation et de la configuration des campagnes, les équipes peuvent gagner en efficacité.
 
-### Vérification d’un BAT d’email de votre brouillon de courrier électronique de Marketo Engage dans Workfront
+### Vérifier une épreuve d’e-mail de votre brouillon d’e-mail Marketo Engage dans Workfront
 
-Ce modèle détecte si une tâche Workfront a été définie sur un état prêt à être examinée, puis exporte le brouillon de l’email depuis Marketo Engage pour l’enregistrer en tant que BAT dans Workfront.
+Ce modèle détecte si une tâche Workfront a été définie sur le statut « prêt pour révision », puis exporte le brouillon d’e-mail depuis Marketo Engage pour l’enregistrer en tant qu’épreuve dans Workfront.
 
 ## Modèles Workfront-SharePoint
 
-Ces modèles connectent Workfront et SharePoint.
+Ces modèles relient Workfront et SharePoint.
 
 >[!NOTE]
 >
-> Vous devez disposer d’une licence Workfront Fusion for Work Automation and Integration pour utiliser des modèles dans cette section.
+> Vous devez disposer d’une licence Workfront Fusion pour l’automatisation du travail et l’intégration afin d’utiliser des modèles dans cette section.
 
-### Surveillance des modifications du dossier SharePoint
+### Surveiller les modifications de dossier SharePoint
 
-Ce modèle vous permet de voir si un dossier SharePoint a été modifié.
+Ce modèle vous permet de voir si un dossier SharePoint a changé.
 
 
 ## Modèles Workfront-Anaplan
 
-Ces modèles prennent en charge l’intégration Workfront-Anaplan et nécessitent une configuration spécifique dans les deux interfaces dans Workfront. Pour plus d’informations sur ces modèles et leurs configurations requises, consultez les articles relatifs aux modèles individuels.
+Ces modèles prennent en charge l’intégration Workfront-Anaplan et nécessitent une configuration spécifique à la fois dans Anaplan et dans Workfront. Pour plus d’informations sur ces modèles et leurs configurations requises, consultez les articles relatifs aux modèles individuels.
 
-Pour plus d’informations sur l’intégration Workfront-Anaplan, voir [Adobe Workfront avec Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+Pour plus d’informations sur l’intégration Workfront-Anaplan, voir [Adobe Workfront avec Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
 >[!NOTE]
 >
-> Vous devez disposer d’une licence Workfront Fusion for Work Automation and Integration pour utiliser des modèles dans cette section.
+> Vous devez disposer d’une licence Workfront Fusion pour l’automatisation du travail et l’intégration afin d’utiliser des modèles dans cette section.
 
-### Workflows d&#39;optimisation des dépenses
+### Workflows d’optimisation des dépenses
 
-* [Envoyer [!DNL Adobe Workfront] mises à jour de projet à une [!DNL Anaplan] élément de liste](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [Envoyer [!DNL Adobe Workfront] dépenses d’un [!DNL Anaplan] élément de liste](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [Envoyer [!DNL Adobe Workfront] mises à jour des heures réelles à une [!DNL Anaplan] élément de liste](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Envoyer les mises à jour du projet  [!DNL Adobe Workfront]  à un élément de liste  [!DNL Anaplan] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Envoyer les dépenses  [!DNL Adobe Workfront]  à un élément de liste  [!DNL Anaplan] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [Envoyer les mises à jour des heures effectives  [!DNL Adobe Workfront]  à un élément de liste  [!DNL Anaplan] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
-### Workflows pour lier les requêtes de budget
+### Workflows de liaison de demandes de budget
 
-* [Créez un [!DNL Anaplan] élément de liste d’un [!DNL Adobe Workfront] requête budget](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Appliquez une [!DNL Anaplan] allocation d’un budget à un [!DNL Adobe Workfront] project](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Créer un élément de liste  [!DNL Anaplan]  à partir d’une demande de budget  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Appliquer une allocation de budget  [!DNL Anaplan]  à un projet  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
-### Workflows pour lier des requêtes de campagne
+### Workflows de liaison de demandes de campagne
 
-* [Créez un [!DNL Anaplan] élément de liste d’un [!DNL Adobe Workfront] requête de campagne](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [Appliquez une [!DNL Anaplan] allocation d’un budget à un [!DNL Adobe Workfront] requête de campagne ou projet de campagne](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [Créer un élément de liste  [!DNL Anaplan]  à partir d’une demande de campagne  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [Appliquer une allocation de budget  [!DNL Anaplan]  à une demande de campagne ou à un projet de campagne  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 
 <!--[!BADGE New!]{type=Informative} -->

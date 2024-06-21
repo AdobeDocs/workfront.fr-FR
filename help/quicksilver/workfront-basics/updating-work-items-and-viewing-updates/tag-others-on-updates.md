@@ -9,7 +9,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 85%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 85%
 
 Vous pouvez baliser des utilisateurs et utilisatrices lors de la mise à jour d’un objet si vous souhaitez attirer leur attention sur un objet qu’ils n’auraient pas normalement suivi.
 
-Plutôt que d’inclure ces utilisateurs et utilisatrices dans l’objet en les affectant ou en les abonnant à celui-ci, vous pouvez les baliser sur la mise à jour pour la partager avec eux. Les utilisateurs balisés reçoivent une notification Workfront à propos de la mise à jour que vous avez saisie. En fonction de leurs paramètres de notification, ils reçoivent également un e-mail sur la mise à jour que vous avez saisie.
+Plutôt que d’inclure ces utilisateurs et utilisatrices dans l’objet en les affectant ou en les abonnant à celui-ci, vous pouvez les baliser sur la mise à jour pour la partager avec eux. Les utilisateurs et utilisatrices tagués reçoivent une notification Workfront concernant la mise à jour que vous avez saisie. En fonction de leurs paramètres de notification, ils ou elles reçoivent également un e-mail concernant la mise à jour que vous avez saisie.
 
 ## Remarques relatives au balisage d’utilisateurs et d’utilisatrices dans des mises à jour
 
@@ -67,25 +67,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Nouveau : contributeur ou version ultérieure pour les problèmes et documents ; clair ou supérieur pour tous les autres objets</p>
+   <td> <p>Nouveau : licence de contribution ou supérieure pour les problèmes et les documents ; licence légère (Light) ou supérieure pour tous les autres objets</p>
    <p>Actuel : licence de demande ou supérieure pour les problèmes et les documents ; licence de révision ou supérieure pour tous les autres objets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
-   <td> <p>Affichage ou accès supérieur aux objets dans lesquels vous souhaitez publier la réponse</p> </td> 
+   <td> <p>Accès en affichage ou supérieur aux objets dans lesquels vous souhaitez publier la réponse</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisation d’objet</strong></td> 
-   <td> <p>Afficher ou des autorisations supérieures aux objets dans lesquels vous souhaitez publier la réponse</p> </td> 
+   <td> <p>Autorisations d’affichage ou supérieures sur les objets dans lesquels vous souhaitez publier la réponse</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Exigences d’accès à la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Baliser d’autres personnes sur les mises à jour
 
-Vous pouvez baliser d’autres utilisateurs sur les mises à jour de la manière suivante :
+Vous pouvez taguer d’autres personnes sur des mises à jour des manières suivantes :
 
 * **Automatiquement**: lorsqu’un utilisateur lance un thread, ajoute un commentaire ou ajoute une réponse, il est automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire.
 * **Manuellement** : lorsque vous ajoutez manuellement un utilisateur ou une utilisatrice à la zone Taguer des personnes de la zone de commentaire.
@@ -134,11 +134,11 @@ Vous pouvez également supprimer des utilisateurs et utilisatrices balisés par 
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   Lorsque vous êtes balisé dans le texte du commentaire, votre nom est surligné dans ces commentaires.
+   Lorsque vous êtes tagué dans le texte du commentaire, votre nom est mis en surbrillance dans ces commentaires.
 
    Pour plus d’informations sur les fonctionnalités supplémentaires disponibles lors de la mise à jour d’un élément de travail, consultez [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis sur **Modifier**. Supprimez les utilisateurs balisés, puis cliquez sur **Envoyer**.
+1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis sur **Modifier**. Supprimez des utilisateurs et utilisatrices tagués, puis cliquez sur **Soumettre**.
 
    >[!IMPORTANT]
    >

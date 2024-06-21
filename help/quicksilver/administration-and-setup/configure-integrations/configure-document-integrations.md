@@ -3,7 +3,7 @@ title: Configurer les intégrations de documents
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer les intégrations de documents pour gérer les documents dans Workfront.
+description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez configurer les intégrations de documents pour gérer les documents dans Workfront.
 author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
@@ -11,7 +11,7 @@ exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
 source-wordcount: '1117'
-ht-degree: 4%
+ht-degree: 99%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-Comme [!DNL Adobe Workfront] administrateur, vous pouvez configurer les intégrations de documents pour gérer les documents dans [!UICONTROL Workfront]. Vous pouvez également configurer [!UICONTROL Workfront] afin que les documents soient stockés uniquement dans les applications Document Services et non dans [!UICONTROL Workfront] elle-même. Pour plus d’informations, voir [Mise à jour et liaison d’un document à partir de [!UICONTROL Workfront] vers un fournisseur cloud externe](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) in [Liaison de documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+En tant qu’ administrateur ou administratrice [!DNL Adobe Workfront], vous pouvez configurer les intégrations de documents pour gérer les documents dans [!UICONTROL Workfront]. Vous pouvez également configurer [!UICONTROL Workfront] afin que les documents soient stockés uniquement dans les applications de services liés aux docuements et non dans [!UICONTROL Workfront]. Pour plus d’informations, voir [Mettre à jour et lier un document à partir de [!UICONTROL Workfront] vers un fournisseur cloud externe](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) dans [Lier des documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 >[!NOTE]
 >
->Pour permettre une communication ouverte entre [!DNL Workfront Proof] et la variable [!DNL Workfront] serveurs, vous devrez peut-être ajouter certaines adresses IP à votre liste autorisée. Pour plus d’informations, voir [Configuration de la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+>Pour permettre une communication ouverte entre [!DNL Workfront Proof] et les serveurs [!DNL Workfront], vous devrez peut-être ajouter certaines adresses IP à votre liste autorisée. Pour plus d’informations, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,14 @@ Les étapes de cet article doivent être les suivantes :
    <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>Nouveau : [!UICONTROL Standard]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td><p>Nouvelle : [!UICONTROL Standard]</p>
        <p>ou</p>
-       <p>Actuel : formule [!UICONTROL]</p></td>
+       <p>Actuelle : [!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> </td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Vous pouvez configurer les intégrations suivantes pour la gestion des documents :
+Vous pouvez configurer les intégrations suivantes pour la gestion des documents :
 
 <!--
   Experience Manager Assets Essentials </p>
@@ -74,13 +74,13 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
 
 * [!DNL Workfront Proof]
 
-  Liaison de BAT à partir de [!DNL Workfront Proof] vous permet d’effectuer des bons à tirer créés à l’origine dans [!DNL Workfront Proof] disponible dans [!DNL Workfront]. Pour les plans actuels, une [!UICONTROL Pro] [!DNL Workfront] Cette fonctionnalité nécessite une formule ou une valeur supérieure. Pour les nouveaux plans, cette fonctionnalité est disponible avec tous les plans. Pour plus d’informations sur les différents plans disponibles, voir [Formules Workfront](https://www.workfront.com/plans).
+  La liaison d’épreuves à partir de [!DNL Workfront Proof] vous permet de rendre des épreuves créés à l’origine dans [!DNL Workfront Proof] disponibles dans [!DNL Workfront]. Pour les formules actuelles, une formule [!UICONTROL Pro] [!DNL Workfront] ou supérieure est nécessaire pour utiliser cette fonctionnalité. Pour les nouvelles formules, cette fonctionnalité est disponible avec toutes les formules. Pour plus d’informations sur les différentes formules disponibles, voir [Formules Workfront](https://www.workfront.com/plans?lang=fr).
 
 * [!DNL Microsoft SharePoint]
 
-  Pour plus d’informations sur l’intégration à [!DNL SharePoint], voir [Configurez la variable [!DNL SharePoint] integration](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Pour plus d’informations sur l’intégration à [!DNL SharePoint], voir [Configurer l’intégration [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
-* Fournisseurs de documents cloud tiers :
+* Fournisseurs de documents cloud tiers :
 
    * [!DNL Box]
    * [!DNL Dropbox]
@@ -88,51 +88,51 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
    * [!DNL WebDAM]
    * [!DNL Microsoft OneDrive]
    * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Google Drive]
+   * [!UICONTROL Google Drive]
 
      <!--Quip-->
 
   >[!TIP]
   >
-  >Vous pouvez BAT et approuver les documents liés depuis un fournisseur cloud externe de la même manière que vous testez et approuvez les documents téléchargés directement vers [!DNL Workfront].
+  >Vous pouvez relire et approuver les documents liés depuis un fournisseur cloud externe de la même manière que vous testez et approuvez les documents chargés directement dans [!DNL Workfront].
 
 * Autres fournisseurs de documents (par le biais d’intégrations de documents personnalisées).
 
-  Pour les plans actuels, une [!UICONTROL Pro] [!DNL Workfront] Cette fonctionnalité nécessite une formule ou une valeur supérieure. Pour les nouveaux plans, cette fonctionnalité est disponible avec tous les plans. Pour plus d’informations sur les différents plans disponibles, voir [Formules Workfront](https://www.workfront.com/plans).
+  Pour les formules actuelles, une formule [!UICONTROL Pro] [!DNL Workfront] ou supérieure est nécessaire pour utiliser cette fonctionnalité. Pour les nouvelles formules, cette fonctionnalité est disponible avec toutes les formules. Pour plus d’informations sur les différentes formules disponibles, voir [Formules Workfront](https://www.workfront.com/plans?lang=fr).
 
-En outre, vous pouvez améliorer votre [!DNL Workfront] Expérience de document avec un système de gestion des actifs numériques (DAM) natif ou avec des intégrations de gestion des actifs numériques tierces. Les administrateurs doivent activer ces fonctionnalités pour que les utilisateurs puissent lier le service à leurs [!DNL Workfront] compte . Pour plus d’informations sur la gestion des ressources numériques Workfront, voir [Gestion de documents avec [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+En outre, vous pouvez améliorer votre expérience de document [!DNL Workfront] avec un système de gestion des ressources numériques (DAM) natif ou avec des intégrations de gestion des ressources numériques tierces. L’équipe d’aministration doit activer ces fonctionnalités pour que les personnes puissent lier le service à leur compte [!DNL Workfront]. Pour plus d’informations sur la gestion des ressources numériques Workfront, voir [Gérer des documents avec  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
-## Configuration d’intégrations pour gérer des documents
+## Configurer des intégrations pour gérer des documents
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Fournisseurs cloud].**
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Fournisseurs cloud].**
 
-1. (Facultatif) Pour stocker des documents dans une application Document Services et non dans [!DNL Workfront], sélectionnez **[!UICONTROL Empêcher les utilisateurs de stocker des documents dans [!DNL Workfront]].**
+1. (Facultatif) Pour stocker des documents dans une application de services liés aux documents et non dans [!DNL Workfront], sélectionnez **[!UICONTROL Empêcher les utilisateurs et utilisatrices de stocker des documents dans [!DNL Workfront]].**
 
 1. Sélectionnez les intégrations à activer.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-Si vous configurez des intégrations avec [!DNL Workfront DAM], vous pouvez activer [!DNL Workfront] pour inclure des métadonnées avec des documents. Pour plus d’informations sur le mappage des métadonnées, voir [Configuration du mappage des métadonnées](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
+Si vous configurez des intégrations avec [!DNL Workfront DAM], vous pouvez activer [!DNL Workfront] pour inclure des métadonnées avec des documents. Pour plus d’informations sur le mappage des métadonnées, voir [Configurer le mappage des métadonnées](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
 
-## Configuration des intégrations de documents personnalisés
+## Configurer les intégrations de documents personnalisées
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **)</p>
 -->
 
-Une intégration de document personnalisée permet [!DNL Workfront] utilisateurs pour lier des fichiers à [!DNL Workfront] de pratiquement tous les systèmes, à condition que le système soit conçu pour fonctionner avec [!DNL Workfront].
+Une intégration de document personnalisée permet aux utilisateurs et utilisatrices [!DNL Workfront] de lier des fichiers à [!DNL Workfront] de pratiquement tous les systèmes, à condition que le système soit compatible avec [!DNL Workfront].
 
-Pour que l’intégration personnalisée soit disponible pour les utilisateurs, vous devez d’abord créer l’intégration. Pour plus d’informations sur la création d’intégrations à utiliser avec [!DNL Workfront], voir [API Document Webhooks](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
+Pour que l’intégration personnalisée soit disponible pour les utilisateurs et utilisatrices, vous devez d’abord créer l’intégration. Pour plus d’informations sur la création d’intégrations à utiliser avec [!DNL Workfront], voir [API Document Webhooks](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
 
-Une fois l’intégration de document personnalisé créée, vous pouvez la rendre disponible pour les utilisateurs de votre site.
+Une fois l’intégration de document personnalisé créée, vous pouvez la rendre disponible pour les utilisateurs et utilisatrices de votre site.
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Intégration personnalisée]**.
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Intégration personnalisée]**.
 
-1. Cliquez sur **[!UICONTROL Ajout d’une intégration personnalisée]**.
-1. Saisissez les informations suivantes pour configurer l’intégration :
+1. Cliquez sur **[!UICONTROL Ajouter une intégration personnalisée]**.
+1. Saisissez les informations suivantes pour configurer l’intégration :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -140,24 +140,24 @@ Une fois l’intégration de document personnalisé créée, vous pouvez la rend
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>Nom de l’intégration personnalisée. Il s’agit du nom que les utilisateurs voient lors de l’utilisation de l’intégration dans Workfront.</td> 
+      <td>Le nom de l’intégration personnalisée. Il s’agit du nom que les utilisateurs et utilisatrices voient lors de l’utilisation de l’intégration dans Workfront.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL URL de l’API de base] </td> 
-      <td>URL HTTP de base ou HTTP sécurisée pour les appels API. Par exemple, <code>https://documentprovider.com/api/v2</code></td> 
+      <td role="rowheader">[!UICONTROL Base API URL] </td> 
+      <td>L’URL HTTP de base ou HTTP sécurisée pour les appels API. Par exemple, <code>https://documentprovider.com/api/v2</code></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authentication Type]</td> 
-      <td> <p>Méthode d’authentification à utiliser lors d’appels API autorisés à l’intégration personnalisée.</p> 
+      <td> <p>La méthode d'authentification utilisée pour passer des appels API autorisés pour l’intégration personnalisée.</p> 
        <ul> 
-        <li>Si vous choisissez <strong>[!UICONTROL OAuth]</strong>, passez à l’étape 5.</li> 
-        <li>Si vous choisissez <strong>[!UICONTROL ApiKey]</strong>, passez à l’étape 6.</li> 
+        <li>Si vous choisissez <strong>[!UICONTROL OAuth]</strong>, passez à l’étape 5.</li> 
+        <li>Si vous choisissez <strong>[!UICONTROL ApiKey]</strong>, passez à l’étape 6.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL OAuth]** l’authentification pour la **[!UICONTROL Type d’authentification]**, saisissez les informations suivantes :
+1. (Conditionnel) Si vous avez sélectionné l’authentification **[!UICONTROL OAuth]** pour le **[!UICONTROL Type d’authentification]**, saisissez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -165,7 +165,7 @@ Une fois l’intégration de document personnalisé créée, vous pouvez la rend
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authentication URL]</td> 
-      <td>URL complète utilisée pour l’authentification de l’utilisateur. [!DNL Workfront] accède aux utilisateurs à cette adresse dans le cadre du processus d’approvisionnement OAuth.</td> 
+      <td>L’URL complète utilisée pour l’authentification de l’utilisateur ou l’utilisatrice. [!DNL Workfront] accède aux utilisateurs et utilisatrices à cette adresse dans le cadre du processus d’approvisionnement OAuth.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Token Endpoint URL]</td> 
@@ -173,36 +173,36 @@ Une fois l’intégration de document personnalisé créée, vous pouvez la rend
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client ID]</td> 
-      <td>Identifiant du client OAut pour cette intégration.</td> 
+      <td>L’identifiant du client OAuth pour cette intégration.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client Secret]</td> 
-      <td>Secret client OAut pour cette intégration.</td> 
+      <td>Le secret du client OAuth pour cette intégration.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Paramètres de requête]</td> 
-      <td> <p>Saisissez les valeurs facultatives à ajouter à la chaîne de requête de chaque appel API. Par exemple, access_type=offline.</p> <p>Pour ajouter plusieurs paramètres de requête, cliquez sur <strong>+Ajouter le paramètre de requête</strong>.</p> </td> 
+      <td role="rowheader">[!UICONTROL Request Parameters]</td> 
+      <td> <p>Saisissez les valeurs facultatives à ajouter à la chaîne de requête de chaque appel API. Par exemple, access_type=offline.</p> <p>Pour ajouter plusieurs paramètres de demande, cliquez sur <strong>+Ajouter un paramètre de demande</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >La variable [!DNL Workfront] URI de redirection qui s’affiche au bas de la page [!UICONTROL Intégration personnalisée] page répertorie l’URI utilisé pour enregistrer cette intégration auprès du fournisseur de documents externe.
+   >L’URI de redirection [!DNL Workfront] qui s’affiche au bas de la page [!UICONTROL Intégration personnalisée] répertorie l’URI utilisé pour enregistrer cette intégration auprès du fournisseur de documents externe.
 
-1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL ApiKey]** l’authentification pour la **[!UICONTROL Type d’authentification]**, saisissez la clé API émise par le fournisseur de documents personnalisé.
+1. (Conditionnel) Si vous avez sélectionné l’authentification **[!UICONTROL ApiKey]** pour le **[!UICONTROL Type d’authentification]**, saisissez la clé API émise par le fournisseur de documents personnalisé.
 
-   [!DNL Workfront] utilise cette clé d’API pour effectuer des appels d’API autorisés au fournisseur de documents.
+   [!DNL Workfront] utilise cette clé API pour effectuer des appels API autorisés au fournisseur de documents.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer l’intégration.
 
-## Utilisation des intégrations de documents
+## Utiliser les intégrations de documents
 
-Pour plus d’informations sur la manière dont les utilisateurs peuvent utiliser [!DNL Workfront DAM], voir [Gestion de documents avec [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices peuvent utiliser [!DNL Workfront DAM], voir [Gérer des documents avec  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
-Pour plus d’informations sur l’utilisation du correctif par les utilisateurs, voir [Créer un bon à tirer](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
+Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices peuvent utiliser la relecture, voir [Créer des épreuves](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 
-Pour plus d’informations sur l’utilisation des intégrations de documents tiers par les utilisateurs après leur configuration, voir [Liaison de documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices peuvent utiliser des intégrations de documents tierces après leur configuration, voir [Lier des documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ### Configurer [!DNL Workfront] pour envoyer des métadonnées à [!UICONTROL [!DNL Workfront] DAM] {#configure-workfront-to-send-metadata-to-workfront-dam}
 
@@ -210,42 +210,42 @@ Pour plus d’informations sur l’utilisation des intégrations de documents ti
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>
 -->
 
-Lors de l’envoi d’un document à partir de [!DNL Workfront] to [!DNL Workfront DAM], vous pouvez également envoyer des informations associées à ce document. Les informations sur le document sont mappées sur [!DNL Workfront DAM] comme métadonnées.
+Lors de l’envoi d’un document de [!DNL Workfront] à [!DNL Workfront DAM], vous pouvez également envoyer des informations associées à ce document. Les informations sur le document sont mappées sur [!DNL Workfront DAM] en tant que métadonnées.
 
-Les informations sont mappées à sens unique uniquement, à partir de [!DNL Workfront] to [!DNL Workfront DAM] et il n’est transféré que lorsque le document est téléchargé vers [!DNL Workfront DAM]. Les modifications futures apportées aux champs Workfront ne mettront pas à jour les champs de métadonnées dans [!DNL Workfront DAM] une fois le document téléchargé.\
-Vous pouvez mapper la même [!DNL Workfront] champ à divers [!DNL Workfront DAM] , mais vous ne pouvez pas utiliser le même [!DNL Workfront DAM] champ pour plusieurs [!DNL Workfront] des champs.
+Les informations sont mappées à sens unique uniquement, de [!DNL Workfront] à [!DNL Workfront DAM], et ne sont transférées que lorsque le document est chargé sur [!DNL Workfront DAM]. Les modifications futures apportées aux champs Workfront ne mettront pas à jour les champs de métadonnées dans [!DNL Workfront DAM] une fois le document chargé.\
+Vous pouvez mapper le même champ [!DNL Workfront] sur divers [!DNL Workfront DAM], mais vous ne pouvez pas utiliser le même champ [!DNL Workfront DAM] pour plusieurs champs [!DNL Workfront].
 
-Si vous devez configurer plusieurs [!DNL Workfront] champs à exporter en un [!DNL Workfront DAM] , créez tout d’abord un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés d’un objet. Associez ensuite le calcul [!DNL Workfront] champ à un [!DNL Workfront DAM] champ .\
-Pour plus d’informations sur les champs personnalisés calculés, voir [Ajout de données calculées à un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Si vous devez configurer plusieurs champs [!DNL Workfront] à exporter vers un champ [!DNL Workfront DAM], créez tout d’abord un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés d’un objet. Mappez ensuite le champ [!DNL Workfront] calculé sur un champ [!DNL Workfront DAM].\
+Pour plus d’informations sur les champs personnalisés calculés, voir [Ajouter des données calculées à un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Le mappage affecte tous les documents chargés par un utilisateur à partir de [!DNL Workfront] to [!UICONTROL Workfront] DAM.
+Le mappage affecte tous les documents chargés par un utilisateur ou une utilisatrice de [!DNL Workfront] sur [!UICONTROL Workfront] DAM.
 
-Comme [!DNL Workfront] administrateur, vous devez activer [!DNL Workfront DAM] dans Workfront avant de pouvoir mapper les champs du processus de mappage des métadonnées.
+En tant qu’administrateur ou administratrice [!DNL Workfront], vous devez activer [!DNL Workfront DAM] dans Workfront avant de pouvoir mapper les champs du processus de mappage des métadonnées.
 
-Pour configurer [!DNL Workfront] pour envoyer des métadonnées à [!DNL Workfront DAM]:
+Pour configurer [!DNL Workfront] pour envoyer des métadonnées à [!DNL Workfront DAM] :
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Mappage des métadonnées]**.
+1. Cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Mappage des métadonnées]**.
 
-1. Dans le **[!UICONTROL Sélectionner le champ source pour le mappage]** , commencez à saisir le nom du champ Workfront auquel vous souhaitez mapper l’élément [!DNL Workfront DAM], puis sélectionnez-le lorsque vous le verrez dans la liste.
-1. Dans le **[!UICONTROL Sélectionner le champ cible pour le mappage]**, sélectionnez la variable [!DNL Workfront DAM] champ que vous souhaitez renseigner avec les informations dans le [!DNL Workfront] champ .
+1. Dans le champ **[!UICONTROL Sélectionner le champ source pour le mappage]**, commencez à saisir le nom du champ Workfront que vous souhaitez mapper sur [!DNL Workfront DAM], puis sélectionnez-le lorsque vous le voyez dans la liste.
+1. Dans le champ **[!UICONTROL Sélectionner le champ cible pour le mappage]**, sélectionnez le champ [!DNL Workfront DAM] que vous souhaitez renseigner avec les informations du champ [!DNL Workfront] sélectionné.
 
    >[!NOTE]
    >
-   > Tous les documents envoyés à [!DNL Workfront DAM] par les utilisateurs qui disposent des droits nécessaires, leurs métadonnées sont mises à jour avec la variable [!DNL Workfront] champs mappés ici, lorsqu’ils sont transférés vers [!DNL Workfront DAM].
+   > Les métadonnées de tous les documents envoyés à [!DNL Workfront DAM] par les personnes qui disposent des droits nécessaires sont mises à jour avec la champs [!DNL Workfront] mappés ici, lors du chargement sur [!DNL Workfront DAM].
 
 1. Cliquez sur **[!UICONTROL Ajouter un mappage]**.
 
-1. Continuer à ajouter d’autres [!UICONTROL Workfront] champs et correspondants [!DNL Workfront DAM] des champs.
+1. Continuer à ajouter d’autres champs [!UICONTROL Workfront] et les champs [!DNL Workfront DAM] correspondants.
 
-### Suppression des champs mappés
+### Supprimer les champs mappés
 
 {{step-1-to-setup}}
 
-1. Développer **[!UICONTROL Documents]**, puis cliquez sur **[!UICONTROL Mappage des métadonnées]**.
+1. Développer **[!UICONTROL Documents]**, puis cliquez sur **[!UICONTROL Mappage de métadonnées]**.
 
-1. Dans la liste des champs, sélectionnez les champs à supprimer du mappage des métadonnées.
+1. Dans la liste des champs, sélectionnez les champs à supprimer du mappage de métadonnées.
 1. Cliquez sur **[!UICONTROL Supprimer]**.
 
-   Les champs sont supprimés du mappage des métadonnées et les informations qu’ils contiennent ne sont pas transférées vers [!DNL Workfront DAM] avec les documents téléchargés.
+   Les champs sont supprimés du mappage de métadonnées et les informations qu’ils contiennent ne sont pas transférées vers [!DNL Workfront DAM] avec les documents chargés.

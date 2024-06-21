@@ -2,30 +2,30 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Débogage des scénarios avec l’outil Adobe Workfront Fusion Devtool
-description: L’outil Adobe Workfront Fusion Devtool vous permet de comprendre et de résoudre les problèmes liés aux scénarios. L’outil Devtool ajoute un panneau supplémentaire aux Chrome Developer Tools. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
+title: Déboguer des scénarios avec le Devtool d’Adobe Workfront Fusion
+description: L’outil Devtool d’Adobe Workfront Fusion vous permet de comprendre et de résoudre les problèmes liés aux scénarios. L’outil Devtool est constitué d’un panneau venant s’ajouter aux outils de développement Chrome. Grâce à ce panneau de débogage, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, quelle opération ou quelle réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
 source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
 source-wordcount: '1858'
-ht-degree: 7%
+ht-degree: 97%
 
 ---
 
-# Déboguer les scénarios à l’aide de [!DNL Adobe Workfront Fusion] Devtool
+# Déboguer des scénarios avec le DevtTool [!DNL Adobe Workfront Fusion]
 
-La variable [!DNL Adobe Workfront Fusion] Devtool vous permet de comprendre et de dépanner les scénarios. L’outil Devtool ajoute un panneau supplémentaire au [!DNL Chrome Developer Tools]. Grâce à ce panneau du débogueur, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, opération ou réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
+Le Devtool [!DNL Adobe Workfront Fusion] vous permet de comprendre et de dépanner les scénarios. L’outil Devtool est constitué d’un panneau venant s’ajouter aux [!DNL Chrome Developer Tools]. Grâce à ce panneau de débogage, vous pouvez vérifier toutes les exécutions manuelles de votre scénario, passer en revue toutes les opérations effectuées et afficher les détails de chaque appel API effectué. Vous pouvez voir quel module, quelle opération ou quelle réponse unique a provoqué l’erreur et utiliser ces connaissances pour affiner votre scénario.
 
 >[!NOTE]
 >
 >La connexion au panneau du débogueur sera limitée ou indisponible pour les scénarios confidentiels, les exécutions automatiques et les opérations réussies.
 
-Pour une présentation vidéo et une présentation de l’outil Fusion Devtool, voir
+Pour une vidéo d’introduction et une présentation de l’outil Fusion Devtool, voir
 
-* [Outil de développement de fusion](https://video.tv.adobe.com/v/3427031/){target=_blank}.
-* [Présentation de Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [Outil de développement de Fusion](https://video.tv.adobe.com/v/3427031/){target=_blank}.
+* [Présentation du Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=fr)
 
 ## Conditions d’accès
 
@@ -66,12 +66,12 @@ Pour connaître la formule, le type de licence ou l’accès dont vous disposez,
 
 Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Accès à l’outil Workfront Fusion Devtool
+## Accéder à l’outil Workfront Fusion Devtool
 
-L’accès à Devtool varie selon que vous utilisez Fusion dans la variable [!DNL Adobe Unified Experience].
+L’accès au Devtool varie selon que vous utilisez ou non Fusion dans l’[!DNL Adobe Unified Experience].
 
-* [Accédez à l’outil Devtool dans le [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
-* [Accédez à l’outil Devtool dans classic [!DNL Fusion] expérience](#access-the-devtool-in-the-classic-fusion-experience)
+* [Accéder au Devtool dans l’ [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [Accéder au Devtool dans l’expérience  [!DNL Fusion]  classique](#access-the-devtool-in-the-classic-fusion-experience)
 
 ### Accédez à l’outil Devtool dans le [!DNL Adobe Unified Experience] ou la nouvelle expérience Fusion
 
@@ -81,37 +81,37 @@ Si vous utilisez Fusion dans le Shell unifié de l’Adobe ou que vous avez mis 
 
 Ou :
 
-1. Accédez à l’éditeur de scénarios pour le scénario que vous souhaitez déboguer.
+1. Accédez à l’éditeur de scénarios pour le scénario à déboguer.
 
    Pour localiser l’éditeur de scénario, voir [Éditeur de scénario](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
 
 1. Cliquez avec le bouton droit dans une zone vide de la page (et non sur un module).
-1. Sélectionner **Open Devtool**.
+1. Sélectionnez **Ouvrir le Devtool**.
 
-### Accédez à l’outil Devtool dans classic [!DNL Fusion] expérience
+### Accéder au Devtool dans l’expérience [!DNL Fusion] classique
 
-Pour utiliser l’outil Devtool dans classic [!DNL Fusion] experience, vous devez installer une [!DNL Chrome] extension . Vous pouvez ensuite utiliser cette extension à partir de la fonction [!DNL Chrome] Outils de développement.
+Pour utiliser le Devtool dans l’expérience [!DNL Fusion] classique, vous devez installer une extension [!DNL Chrome]. Vous pouvez ensuite utiliser cette extension à partir des outils de développement [!DNL Chrome].
 
-* [Installez le [!DNL Chrome] Extension Devtool](#install-the-chrome-devtool-extension)
-* [Recherchez la variable [!DNL Workfront Fusion] Devtool](#locate-the-workfront-fusion-devtool)
+* [Installer l’extension  [!DNL Chrome]  Devtool](#install-the-chrome-devtool-extension)
+* [Rechercher  [!DNL Workfront Fusion]  Devtool](#locate-the-workfront-fusion-devtool)
 
-#### Installez le [!DNL Chrome] Extension Devtool
+#### Installer l’extension [!DNL Chrome] Devtool
 
-Vous pouvez ajouter la variable [!DNL Workfront Fusion] Déplacer l’outil vers [!DNL Chrome] par le biais du [!UICONTROL [!DNL Chrome] Boutique Web].
+Vous pouvez ajouter le Devtool [!DNL Workfront Fusion] à [!DNL Chrome] via la Boutique Web [!UICONTROL [!DNL Chrome] ].
 
-1. Cliquez sur [ce lien](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) pour accéder au [!DNL Workfront Fusion] Développez l’outil sur [!UICONTROL [!DNL Chrome] Boutique Web].
+1. Cliquez sur [ce lien](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) pour accéder au [!DNL Workfront Fusion] DevTool sur le [!UICONTROL [!DNL Chrome] Web Store].
 1. Cliquez sur **[!UICONTROL Ajouter à[!DNL Chrome]]**.
-1. Dans la fenêtre qui s’ouvre, examinez les autorisations. Si vous acceptez les autorisations, cliquez sur **[!UICONTROL Ajouter une extension]**.
+1. Dans la fenêtre qui s’ouvre, examinez les autorisations. Si vous acceptez les autorisations, cliquez sur **[!UICONTROL Ajouter l’extension]**.
 
-La variable [!DNL Workfront Fusion] L’extension Devtool a été ajoutée à votre [!DNL Chrome] extensions.
+L’extension [!DNL Workfront Fusion] Devtool a été ajoutée à vos extensions [!DNL Chrome].
 
 
-#### Recherchez la variable [!DNL Workfront Fusion] Devtool
+#### Rechercher [!DNL Workfront Fusion] Devtool
 
-Pour utiliser la variable [!DNL Workfront Fusion] Devtool, vous devez ajouter la variable [!DNL Workfront Fusion] Extension Devtool pour [!DNL Chrome] , comme décrit dans la section [Installation de l’extension Chrome Devtool](#install-the-chrome-Devtool-extension).
+Pour utiliser [!DNL Workfront Fusion] Devtool, vous devez ajouter l’extension [!DNL Workfront Fusion] Devtool à votre navigateur [!DNL Chrome], comme décrit dans [Installer l’extension Chrome Devtool](#install-the-chrome-Devtool-extension).
 
-1. Ouvrez votre [!DNL Workfront Fusion] .
-1. Ouvrir [!DNL Chrome Developer Tools]:
+1. Ouvrez votre scénario [!DNL Workfront Fusion].
+1. Ouvrez [!DNL Chrome Developer Tools] :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -119,35 +119,35 @@ Pour utiliser la variable [!DNL Workfront Fusion] Devtool, vous devez ajouter la
     <tbody> 
      <tr> 
       <td role="rowheader">[!DNL Mac]</td> 
-      <td>Commande + Option + I</td> 
+      <td>Commande+Option+I</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Windows]</td> 
-      <td> <p>Ctrl + Maj + I</p> <p> Ou </p> <p>F12</p> </td> 
+      <td> <p>Ctrl+Maj+I</p> <p> Ou </p> <p>F12</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >Il est recommandé d’ancrer la variable [!DNL Chrome Developer Console] en bas pour une meilleure vue de vos modules.
+   >Il est recommandé d’attacher la [!DNL Chrome Developer Console] en bas pour une meilleure vue de vos modules.
 
-1. Cliquez sur le bouton **[!DNL Workfront Fusion]** dans [!DNL Chrome Dev Tools].
+1. Cliquez sur l’onglet **[!DNL Workfront Fusion]** dans [!DNL Chrome Dev Tools].
 
-## Utilisez la variable [!DNL Workfront Fusion] Devtool
+## Utiliser [!DNL Workfront Fusion] Devtool
 
-Workfront Fusion Devtool est divisé en 3 sections principales. Vous pouvez les trouver dans le panneau de gauche de votre fenêtre Devtool.
+Workfront Fusion Devtool est divisé en 3 sections principales. Vous pouvez les trouver dans le panneau de gauche de votre fenêtre Devtool.
 
-* [Flux en direct](#live-stream)
+* [Live Stream](#live-stream)
 * [Débogueur de scénario](#scenario-debugger)
 * [Outils](#tools)
 
-### Flux en direct
+### Live Stream
 
 Live Stream affiche ce qui se passe en arrière-plan lorsque vous cliquez sur Exécuter une fois dans votre scénario.
 
-1. Cliquez sur le bouton **[!UICONTROL Flux en direct]** icon ![](assets/live-stream-icon.png) pour ouvrir la section Live Stream .
-1. Effectuez l’une des opérations suivantes :
+1. Cliquez sur l’icône **[!UICONTROL Live Stream]** ![](assets/live-stream-icon.png) pour ouvrir la section Live Stream.
+1. Effectuez l’une des opérations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -160,33 +160,33 @@ Live Stream affiche ce qui se passe en arrière-plan lorsque vous cliquez sur Ex
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Affichage des informations sur la requête</td> 
+      <td role="rowheader">Afficher les informations sur la demande</td> 
       <td> <p>Vous pouvez afficher les informations suivantes pour chaque module dans votre scénario.</p> 
        <ul> 
-        <li> <p>En-têtes de requête (URL du point de terminaison de l’API, méthode http, heure et date d’appel de la requête, en-têtes de requête et chaîne de requête)</p> </li> 
+        <li> <p>En-têtes de requête (URL du point d’entrée de l’API, méthode HTTP, heure et date d’appel de la requête, en-têtes de requête et chaîne de requête)</p> </li> 
         <li> <p>Corps de requête</p> </li> 
         <li> <p>En-têtes de réponse</p> </li> 
         <li> <p>Corps de réponse</p> </li> 
-       </ul> <p>Pour afficher ces informations, cliquez sur l’onglet approprié dans le panneau de droite du [!DNL Workfront Fusion] Devtool.</p> </td> 
+       </ul> <p>Pour afficher ces informations, cliquez sur l’onglet approprié dans le panneau de droite de [!DNL Workfront Fusion] Devtool.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Requêtes de recherche et réponses</p> </td> 
-      <td> <p>Saisissez le terme recherché dans le champ de recherche du panneau de gauche de la variable [!DNL Workfront Fusion] Développez pour afficher uniquement les requêtes qui contiennent le terme de recherche.</p> </td> 
+      <td role="rowheader"> <p>Rechercher des requêtes et des réponses</p> </td> 
+      <td> <p>Saisissez le terme de recherche dans le champ de recherche du panneau de gauche de [!DNL Workfront Fusion] Devtool pour afficher uniquement les requêtes qui contiennent le terme de recherche.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Supprimer la liste des requêtes </p> </td> 
-      <td> <p>Cliquez sur l’icône de la corbeille dans le coin supérieur droit du panneau de gauche de Devtool pour effacer la liste des requêtes enregistrées par l’événement [!DNL Workfront Fusion] Devtool. </p> </td> 
+      <td> <p>Cliquez sur l’icône de la corbeille dans le coin supérieur droit du panneau de gauche de Devtool pour effacer la liste des requêtes enregistrées par [!DNL Workfront Fusion] Devtool. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Activation de la journalisation de la console</p> </td> 
-      <td> <p>Cliquez sur l’icône de l’ordinateur. <img src="assets/console-computer-icon.png"> dans le coin supérieur droit du panneau de gauche de Devtool.</p> <p>La journalisation dans la console est activée lorsque l’icône de l’ordinateur est verte.</p> </td> 
+      <td role="rowheader"> <p>Activer la journalisation de console</p> </td> 
+      <td> <p>Cliquez sur l’icône d’ordinateur. <img src="assets/console-computer-icon.png"> dans le coin supérieur droit du panneau de gauche de Devtool.</p> <p>La journalisation dans la console est activée lorsque l’icône d’ordinateur est verte.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Récupération de la requête au format JSON brut ou cURL</p> </td> 
+      <td role="rowheader"> <p>Récupérer la requête au format JSON brut ou cURL</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>JSON brut</strong> </p> <p>Cliquez sur <strong>[!UICONTROL Copier RAW]</strong> dans le coin supérieur droit du volet de droite de Devtool.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Cliquez sur <strong>[!UICONTROL Copier cURL]</strong> dans le coin supérieur droit du volet de droite de Devtool.</p> </li> 
+        <li> <p><strong>JSON brut</strong> </p> <p>Cliquez sur <strong>[!UICONTROL Copy RAW]</strong> dans le coin supérieur droit du volet de droite de Devtool.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Cliquez sur <strong>[!UICONTROL Copy cURL]</strong> dans le coin supérieur droit du volet de droite de Devtool.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -196,73 +196,73 @@ Live Stream affiche ce qui se passe en arrière-plan lorsque vous cliquez sur Ex
 
 Le débogueur de scénario est utile pour les scénarios plus complexes. Il affiche l’historique du scénario qui s’exécute et vous permet de rechercher les modules par leur nom ou identifiant.
 
-1. Cliquez sur le bouton **[!UICONTROL Débogueur de scénario]** icon ![](assets/scenario-debugger-icon.png) pour ouvrir le débogueur de scénario.
-1. (Facultatif) Saisissez le terme à rechercher (nom ou identifiant de module) dans le champ de recherche du volet de gauche de la variable [!DNL Workfront Fusion] Devtool dans la section [!UICONTROL Débogueur de scénario] .
-1. Double-cliquez sur le nom du module pour ouvrir ses paramètres dans l’éditeur de scénarios.
-1. Affichez les détails de la requête en cliquant sur l’opération souhaitée.
+1. Cliquez sur l’icône **[!UICONTROL Débogueur de scénario]** ![](assets/scenario-debugger-icon.png) pour ouvrir le débogueur de scénario.
+1. (Facultatif) Saisissez le terme de recherche (nom ou ID de module) dans le champ de recherche du volet de gauche de [!DNL Workfront Fusion] Devtool dans la section [!UICONTROL Débogueur de scénario].
+1. Double-cliquez sur le nom du module pour ouvrir ses paramètres dans l’éditeur de scénario.
+1. Affichez les détails de la demande en cliquant sur l’opération souhaitée.
 
 ### Outils
 
-La variable [!DNL Workfront Fusion] Devtool contient des outils qui facilitent la configuration de votre scénario.
+[!DNL Workfront Fusion] Devtool contient des outils qui facilitent la configuration de votre scénario.
 
-1. Cliquez sur le bouton **[!UICONTROL Outils]** icon ![](assets/console-tools-icon.png) pour ouvrir les outils.
-1. Sélectionnez l’outil à utiliser.
-1. Configurez les champs comme indiqué ci-dessous.
+1. Cliquez sur l’icône **[!UICONTROL Outils]** ![](assets/console-tools-icon.png) pour ouvrir les outils.
+1. Sélectionnez l’outil que vous souhaitez utiliser.
+1. Configurez les champs comme décrit ci-dessous.
 1. Cliquez sur **[!UICONTROL Exécuter]**.
 
-Outils et leurs champs :
+Outils et leurs champs :
 
-* [Mise au point d’un module](#focus-a-module)
-* [Recherche de modules par mappage](#find-modules-by-mapping)
-* [Obtenir les métadonnées d’application](#get-app-metadata)
+* [Cibler un module](#focus-a-module)
+* [Rechercher des modules par mappage](#find-modules-by-mapping)
+* [Obtenir les métadonnées de l’application](#get-app-metadata)
 * [Copier le mappage](#copy-mapping)
 * [Copier le filtre](#copy-filter)
-* [Permutation de la connexion](#swap-connection)
-* [Variable Swap](#swap-variable)
-* [Permutation d’application](#swap-app)
-* [Base 64](#base-64)
+* [Intervertir la connexion](#swap-connection)
+* [Intervertir une variable](#swap-variable)
+* [Intervertir une application](#swap-app)
+* [Base 64](#base-64)
 * [Copier le nom du module](#copy-module-name)
-* [Remap Source](#remap-source)
+* [Remapper la source](#remap-source)
 * [Mettre l’application en surbrillance](#highlight-app)
-* [Migration des GS](#migrate-gs)
+* [Migrer GS](#migrate-gs)
 
-#### [!UICONTROL Mise au point d’un module]
+#### [!UICONTROL Cibler un module]
 
-Ouvre les paramètres du module spécifié par son identifiant.
+Ouvre les paramètres du module spécifié par son ID.
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL ID de module]</td>
-        <td>Saisissez l’identifiant du module pour lequel vous souhaitez ouvrir les paramètres.</td>
+        <td>[!UICONTROL Module ID]</td>
+        <td>Saisissez l’ID du module pour lequel vous souhaitez ouvrir les paramètres.</td>
     </tr>
 </table>
 
-#### [!UICONTROL Recherche de modules par mappage]
+#### [!UICONTROL Rechercher des modules par mappage]
 
-Permet de rechercher les valeurs des modules pour un terme spécifié. La sortie contient les identifiants des modules qui contiennent le terme que vous avez recherché.
+Permet de rechercher les valeurs des modules pour un terme spécifié. La sortie contient les ID des modules qui contiennent le terme que vous avez recherché.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Mot-clé]</td> 
-   <td> <p> Saisissez le terme à rechercher. </p> </td> 
+   <td role="rowheader">[!UICONTROL Keyword]</td> 
+   <td> <p> Saisissez le terme que vous souhaitez rechercher. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Utiliser uniquement les valeurs]</p> </td> 
-   <td> <p>Activez cette option pour ne rechercher que dans les valeurs des champs du module.</p> <p>Désactivez cette option pour effectuer également une recherche dans les noms des champs du module.</p> <p>La recherche est effectuée par le biais des paramètres de nom et de libellé.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Use Only Values]</p> </td> 
+   <td> <p>Activez cette option pour ne rechercher que dans les valeurs des champs du module.</p> <p>Désactivez cette option pour rechercher également dans les noms des champs du module.</p> <p>La recherche est effectuée par le biais des paramètres de nom et de libellé.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Obtenir les métadonnées d’application]
+#### [!UICONTROL Obtenir les métadonnées de l’application]
 
-Récupère les métadonnées de l’application par le nom ou l’identifiant du module de l’application. Cela s’avère utile, par exemple, lorsque vous devez connaître la version de l’application utilisée dans votre scénario.
+Récupère les métadonnées de l’application par le nom ou l’ID du module de l’application. Cette fonction est utile, par exemple, lorsque vous devez connaître la version de l’application utilisée dans votre scénario.
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Module source]</td>
+        <td>[!UICONTROL Source Module]</td>
         <td>Sélectionnez le module pour lequel vous souhaitez récupérer les métadonnées.</td>
     </tr>
 </table>
@@ -280,12 +280,12 @@ Copie les valeurs du module source vers le module cible.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Module source]</td> 
-   <td> <p> Sélectionnez le module ou saisissez l’identifiant du module à partir duquel vous souhaitez copier les valeurs de champ.</p> </td> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
+   <td> <p> Sélectionnez le module ou saisissez l’ID du module à partir duquel vous souhaitez copier les valeurs de champ.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Module Target]</p> </td> 
-   <td> <p>Sélectionnez le module ou saisissez l'identifiant du module dans lequel vous souhaitez insérer les valeurs du module source.</p> <p>Important : Les valeurs du module cible seront remplacées.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
+   <td> <p>Sélectionnez le module ou saisissez l'ID du module dans lequel vous souhaitez insérer les valeurs du module source.</p> <p>Important : les valeurs du module cible seront remplacées.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -303,32 +303,32 @@ Copie les paramètres de filtre du module source vers le module cible.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Module source]</td> 
-   <td> <p> Sélectionnez le module ou saisissez l’identifiant du module à partir duquel vous souhaitez copier les valeurs de filtre.</p> </td> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
+   <td> <p> Sélectionnez le module ou saisissez l’ID du module à partir duquel vous souhaitez copier les valeurs de filtre.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Module Target]</p> </td> 
-   <td> <p>Sélectionnez le module ou saisissez l'identifiant du module dans lequel vous souhaitez insérer les valeurs de filtre du module source.</p> <p>Important : Les valeurs du module cible seront remplacées.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
+   <td> <p>Sélectionnez le module ou saisissez l’ID du module dans lequel vous souhaitez insérer les valeurs de filtre du module source.</p> <p>Important : les valeurs du module cible seront remplacées.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Conserver le paramètre d’itinéraire de secours]</p> </td> 
-   <td> <p>Le filtre source est défini comme itinéraire de secours. Activez cette option pour définir également le filtre cible comme itinéraire de secours.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Preserve Fallback Route setting]</p> </td> 
+   <td> <p>Le filtre source est défini en tant qu’itinéraire de secours. Activez cette option pour définir également le filtre cible en tant qu’itinéraire de secours.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Permutation de la connexion]
+#### [!UICONTROL Intervertir la connexion]
 
-Duplique une connexion du module source à chaque module dans le scénario d’une même application.
+Duplique une connexion du module source sur chaque module dans le scénario d’une même application.
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Module source]</td>
-        <td>Sélectionnez le module ou saisissez l'identifiant du module à partir duquel vous souhaitez dupliquer la connexion.</td>
+        <td>[!UICONTROL Source Module]</td>
+        <td>Sélectionnez le module ou saisissez l’ID du module à partir duquel vous souhaitez dupliquer la connexion.</td>
     </tr>
 </table>
 
-#### [!UICONTROL Variable Swap]
+#### [!UICONTROL Intervertir une variable]
 
 Recherche les variables spécifiées dans le scénario et les remplace par une nouvelle variable.
 
@@ -337,12 +337,12 @@ Recherche les variables spécifiées dans le scénario et les remplace par une n
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Variable à rechercher]</td> 
-   <td> <p> Localisez la pilule de variable que vous souhaitez remplacer à partir du module dans votre scénario et copiez-la dans ce champ ([!UICONTROL Variable à rechercher]). Dans le champ, il apparaît avec des accolades doubles. Exemple : <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Variable to Find]</td> 
+   <td> <p> Localisez la puce de la variable que vous souhaitez remplacer à partir du module dans votre scénario et copiez-la dans ce champ ([!UICONTROL Variable to Find]). Dans le champ, elle apparaît entre accolades doubles. Exemple : <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Remplacer par]</p> </td> 
-   <td> <p>Localisez la pilule de variables que vous souhaitez remplacer la variable par à partir du module dans votre scénario et copiez-la dans ce champ ([!UICONTROL Variable à rechercher]). Dans le champ, il apparaît avec des accolades doubles. Exemple : <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Replace With]</p> </td> 
+   <td> <p>Localisez la puce de la variable que vous souhaitez remplacer par la variable du module dans votre scénario et copiez-la dans ce champ ([!UICONTROL Variable to Find]). Dans le champ, elle apparaît entre accolades doubles. Exemple : <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Module]</p> </td> 
@@ -351,30 +351,30 @@ Recherche les variables spécifiées dans le scénario et les remplace par une n
  </tbody> 
 </table>
 
-#### [!UICONTROL Permutation d’application]
+#### [!UICONTROL Intervertir une application]
 
-Remplace la version sélectionnée de l’application dans votre scénario par une autre version de l’application.
+Remplace la version de l’application sélectionnée dans votre scénario par une autre version de l’application.
 
-Cela peut être utilisé, par exemple, pour mettre à niveau les modules des applications Gmail et Email vers la dernière version.
+Cela peut être utilisé, par exemple, pour mettre à niveau les modules des applications Gmail et E-mail vers la dernière version.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Application à remplacer]</td> 
+   <td role="rowheader">[!UICONTROL App to be Replaced]</td> 
    <td> <p> Sélectionnez l’application que vous souhaitez remplacer.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Remplacer par]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Replace with]</p> </td> 
    <td> <p>Sélectionnez l’application par laquelle vous souhaitez la remplacer.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Base 64]
+#### [!UICONTROL Base 64]
 
-Permet de coder les données saisies dans Base64 ou de décoder Base64. Certaines requêtes sont codées en Base64. Cet outil peut s’avérer utile lorsque vous souhaitez rechercher des données spécifiques dans la requête codée.
+Permet de coder les données saisies en Base64 ou de décoder du Base64. Certaines requêtes sont codées en Base64. Cet outil est utile lorsque vous souhaitez rechercher des données spécifiques dans la requête codée.
 
 <table style="table-layout:auto">
  <col> 
@@ -382,18 +382,18 @@ Permet de coder les données saisies dans Base64 ou de décoder Base64. Certaine
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Operation] </td> 
-   <td> <p>Indiquez si vous souhaitez coder les données du champ [!UICONTROL Données brutes] en Base64 ou décoder Base64 en Données brutes.</p> </td> 
+   <td> <p>Choisissez si vous souhaitez coder les données du champ [!UICONTROL Raw Data] en Base64 ou décoder du Base64 en données brutes.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Raw Data]</p> </td> 
-   <td> <p> Saisissez les données que vous souhaitez coder en Base64 ou Base64 si vous souhaitez les décoder en données brutes, selon l’option sélectionnée dans le champ [!UICONTROL Opération] ci-dessus.</p> </td> 
+   <td> <p> Saisissez les données que vous souhaitez coder en Base64, ou Base64 si vous souhaitez les décoder en données brutes, selon l’option sélectionnée dans le champ [!UICONTROL Operation] ci-dessus.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Copier le nom du module]
 
-Copie le nom du module sélectionné dans le presse-papiers.
+Copie le nom du module sélectionné dans le Presse-papiers.
 
 <table style="table-layout:auto">
  <col> 
@@ -406,9 +406,9 @@ Copie le nom du module sélectionné dans le presse-papiers.
  </tbody> 
 </table>
 
-#### [!UICONTROL Remap Source]
+#### [!UICONTROL Remapper la source]
 
-Permet de changer la source de mapping d&#39;un module vers un autre.
+Permet de modifier la source de mappage d’un module à un autre.
 
 Vous devez d’abord ajouter le module que vous souhaitez utiliser comme module source à l’itinéraire dans votre scénario.
 
@@ -417,15 +417,15 @@ Vous devez d’abord ajouter le module que vous souhaitez utiliser comme module 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Module source] </td> 
+   <td role="rowheader">[!UICONTROL Source Module] </td> 
    <td> <p> Sélectionnez le module que vous souhaitez remplacer en tant que source de mappage pour les autres modules de votre scénario.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Module Target]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
    <td> <p>Sélectionnez le module à utiliser comme nouvelle source de mappage.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Module à modifier]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Module to Edit]</p> </td> 
    <td> <p>Sélectionnez le module pour lequel vous souhaitez modifier le mappage si vous ne souhaitez pas modifier le mappage dans l’ensemble du scénario. </p> </td> 
   </tr> 
  </tbody> 
@@ -440,7 +440,7 @@ Met en surbrillance les modules de l’application spécifiée dans votre scéna
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Application à mettre en surbrillance] </td> 
+   <td role="rowheader">[!UICONTROL App to be Highlighted] </td> 
    <td> <p> Sélectionnez l’application que vous souhaitez mettre en surbrillance dans votre scénario.</p> </td> 
   </tr> 
   <tr> 
@@ -448,14 +448,14 @@ Met en surbrillance les modules de l’application spécifiée dans votre scéna
    <td> <p>Sélectionnez la version de l’application que vous souhaitez mettre en surbrillance.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Couleur de surbrillance]</p> </td> 
-   <td> <p> Saisissez l’hexadécimal de couleur à utiliser pour la mise en surbrillance des modules.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Highlight Color]</p> </td> 
+   <td> <p> Saisissez le code hexadécimal de couleur à utiliser pour la mise en surbrillance des modules.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Migration des GS]
+#### [!UICONTROL Migrer Google Sheets]
 
-Cet outil est spécialement mis à niveau. [!DNL Google Sheets] modules (hérités) vers la dernière version [!DNL Google Sheets] version. Cela ajoute une nouvelle version du module juste après l&#39;ancienne version du module dans l’itinéraire du scénario.
+Cet outil est spécialement conèu pour mettre à niveau les modules [!DNL Google Sheets] (hérités) vers la dernière version de [!DNL Google Sheets]. Cela ajoute une nouvelle version du module juste après l&#39;ancienne version du module dans l’itinéraire du scénario.
 
-Ce module ne nécessite la définition d’aucun paramètre.
+Vous n’avez pas besoin de définir de paramètres pour ce module.
