@@ -9,10 +9,10 @@ description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
+source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 28%
+source-wordcount: '1301'
+ht-degree: 27%
 
 ---
 
@@ -241,8 +241,8 @@ Ce module d’action remplit la zone masquée d’une image, éventuellement ave
    <td>Sélectionnez la taille de l’image à remplir.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Saisissez ou mappez un entier. Vous pouvez utiliser cette même source dans un autre module Développer une image pour générer une image similaire avec différents styles. </td> 
+   <td role="rowheader">[!UICONTROL Seeds]</td> 
+   <td>Pour chaque image que le module va générer, cliquez sur <b>Ajouter un élément<b> et saisissez ou mappez un entier. Vous pouvez utiliser cette même source dans un autre module Développer une image pour générer une image similaire avec différents styles. Le nombre de graines que vous ajoutez doit être égal au champ Nombre de variations .</td> 
   </tr> 
  </tbody> 
 </table>
