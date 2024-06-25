@@ -9,21 +9,22 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 0%
+source-wordcount: '65'
+ht-degree: 18%
 
 ---
 
 # Modules dans [!DNL Adobe Workfront Fusion]
 
-Cette section contient les articles suivants :
+Cette section contient les articles suivants :
 
 * [Types de modules](../../workfront-fusion/modules/module-types.md)
 * [Configurez les paramètres d’un module dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md)
 * [Sélectionnez l’endroit où commence un module de déclenchement dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)
-* [Entrepôts de données dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+* [Déclencheurs instantanés (webhooks) dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md)
+* [Magasins de données dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 * [Structures de données dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-structures.md)
 * [Module d’agrégation dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md)
 * [Module de routeur dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md)

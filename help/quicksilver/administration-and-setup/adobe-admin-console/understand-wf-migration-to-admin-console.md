@@ -4,21 +4,23 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: Comprendre la migration de Workfront vers Adobe Admin Console
-description: Comprendre la migration du produit, des utilisateurs et des utilisatrices Workfront vers Adobe Admin Console
+description: Cet article décrit en termes généraux le processus de déplacement d’une organisation vers Adobe Admin Console, de sorte que vous, en tant qu’administrateur de Workfront, sachiez à quoi vous attendre.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
-workflow-type: ht
-source-wordcount: '1067'
-ht-degree: 100%
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 94%
 
 ---
 
 # Comprendre la migration de Workfront vers Adobe Admin Console
 
 Adobe change la manière dont vous gérez les utilisateurs et utilisatrices d’Adobe Workfront, ce qui augmente votre productivité et celle de votre organisation. Dans le cadre de ce changement, Adobe migre votre instance Workfront, ainsi que les utilisateurs et utilisatrices vers Adobe Admin Console. Il s’agit d’une migration nécessaire qui n’aura aucune incidence sur les rapports, les voies d’approbation, le contenu ou les ressources. Elle impacte toutefois la manière dont vous gérez l’accès des personnes et dont vos utilisateurs et utilisatrices se connectent.
+
+Cet article décrit en termes généraux le processus de déplacement d’une organisation vers Adobe Admin Console, de sorte que vous, en tant qu’administrateur de Workfront, sachiez à quoi vous attendre.
 
 Pour découvrir comment utiliser Adobe Admin Console pour gérer vos droits Adobe dans l’ensemble de votre organisation, voir [Gérer les utilisateurs et utilisatrices dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
