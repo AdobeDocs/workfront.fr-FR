@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
-workflow-type: ht
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 
 ---
 
 # Supprimer des types d’objets sur un formulaire personnalisé
+
+{{form-designer-default}}
 
 Sur un formulaire personnalisé existant, vous pouvez supprimer les types d’objets associés au formulaire. Après cela, les utilisateurs et les utilisatrices ne peuvent plus joindre le formulaire à des objets de ce type.
 

@@ -3,29 +3,31 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Ajout d’un saut de section à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
-description: Vous pouvez regrouper les champs personnalisés et les widgets d’un formulaire personnalisé en sections avec des en-têtes. Cela s’avère utile pour présenter une expérience organisée aux utilisateurs qui remplissent le formulaire. En outre, si vous devez limiter l’accès à certains champs et widgets personnalisés à certains utilisateurs, vous pouvez les placer dans une section, puis accorder l’accès à la section à ces utilisateurs uniquement.
+description: Vous pouvez regrouper les champs personnalisés et les widgets d’un formulaire personnalisé en sections avec des en-têtes. Cela s’avère utile pour présenter une expérience organisée aux utilisateurs et utilisatrices qui remplissent le formulaire. En outre, si vous devez limiter l’accès à certains champs et widgets personnalisés à des utilisateurs ou utilisatrices, vous pouvez les placer dans une section, puis accorder l’accès à la section à ces utilisateurs et utilisatrices uniquement.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '1249'
-ht-degree: 2%
+ht-degree: 76%
 
 ---
 
 # Ajout d’un saut de section à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 
-Vous pouvez regrouper les champs personnalisés et les widgets d’un formulaire personnalisé en sections avec des en-têtes. Cela s’avère utile pour présenter une expérience organisée aux utilisateurs qui remplissent le formulaire. En outre, si vous devez limiter l’accès à certains champs et widgets personnalisés à certains utilisateurs, vous pouvez les placer dans une section, puis accorder l’accès à la section à ces utilisateurs uniquement.
+{{form-designer-default}}
 
-Par exemple, si vous devez suivre des informations sensibles que seuls les administrateurs système doivent être en mesure d’afficher ou de modifier, vous pouvez créer un saut de section avec les autorisations Admin uniquement et placer les champs sensibles dans cette section.
+Vous pouvez regrouper les champs personnalisés et les widgets d’un formulaire personnalisé en sections avec des en-têtes. Cela s’avère utile pour présenter une expérience organisée aux utilisateurs et utilisatrices qui remplissent le formulaire. En outre, si vous devez limiter l’accès à certains champs et widgets personnalisés à des utilisateurs ou utilisatrices, vous pouvez les placer dans une section, puis accorder l’accès à la section à ces utilisateurs et utilisatrices uniquement.
 
-Les paramètres d’accès que vous sélectionnez pour une section sont directement liés aux autorisations dont disposent les utilisateurs sur l’objet Workfront auquel est associé le formulaire personnalisé. Vous pouvez masquer ou afficher une section selon que l’utilisateur a accès à l’affichage, à la contribution ou à la gestion de cet objet. Vous pouvez également définir une section sur Administrateur uniquement afin que seuls les utilisateurs disposant d’un niveau d’accès administrateur système puissent y accéder.
+Par exemple, si vous devez suivre des informations sensibles que seuls les administrateurs et administratrices système doivent être en mesure d’afficher ou de modifier, vous pouvez créer un saut de section avec les autorisations Admin uniquement et placer les champs sensibles dans cette section.
 
-Pour plus d’informations sur les autorisations relatives aux objets, voir [Présentation des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Les paramètres d’accès que vous sélectionnez pour une section sont directement liés aux autorisations dont disposent les utilisateurs et utilisatrices sur l’objet Workfront auquel le formulaire personnalisé est associé. Vous pouvez masquer ou afficher une section selon que l’utilisateur ou l’utilisatrice dispose d’un accès pour afficher, contribuer à ou gérer cet objet. Vous pouvez également définir une section sur Admin uniquement de sorte que seuls les utilisateurs et les utilisatrices disposant d’un niveau d’accès administrateur ou administratrice système puissent y accéder.
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Pour plus d’informations sur les autorisations sur les objets, voir [Vue d’ensemble du partage des autorisations sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 <!--
 >[!TIP]
@@ -37,7 +39,7 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,8 +52,8 @@ Les étapes de cet article doivent être les suivantes :
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
-   <p>Actuel : formule</p></td> 
+   <p>Nouvelle : standard</p>
+   <p>Actuelle : formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
@@ -64,9 +66,9 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 +++
 
-## Création et configuration de l’accès à une section dans un formulaire personnalisé
+## Créer et configurer l’accès pour une section dans un formulaire personnalisé
 
-1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans la section [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans la section [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Ajoutez des champs et des widgets personnalisés au formulaire, comme décrit dans la section [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 1. Lors de la création ou de la modification du formulaire personnalisé, sur la page **Ajouter un champ** , cliquez sur **Saut de section**.
@@ -83,43 +85,43 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus de la section. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b>: évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus de la section. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Ils ne s’affichent pas correctement dans les rapports.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
-      <td>Saisissez du texte si vous souhaitez expliquer aux utilisateurs à quoi sert la section . Celui-ci s’affiche sous le libellé de la section sur le formulaire personnalisé.</td> 
+      <td>Saisissez du texte si vous souhaitez expliquer aux utilisateurs et utilisatrices à quoi sert la section. Celui-ci s’affiche sous le libellé de la section sur le formulaire personnalisé.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><p>Ajouter une logique</p></td> 
-      <td><p>Utilisez la logique d’affichage pour spécifier si la section doit s’afficher sur le formulaire, en fonction des sélections que les utilisateurs font dans des champs personnalisés à choix multiples lorsqu’ils remplissent le formulaire.</p><p><strong>REMARQUE :</strong> Si la logique d’affichage est appliquée à tous les champs individuels sous un saut de section et qu’ils sont tous masqués en raison de la logique, la section entière est masquée sur le formulaire personnalisé. Cela se produit même si la logique d’affichage n’est pas appliquée au saut de section.</p><p>Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Ajouter une logique d’affichage et ignorer une logique dans un formulaire personnalisé</a>.</p></td> 
+      <td><p>Utilisez la logique d’affichage pour spécifier si la section doit s’afficher sur le formulaire, en fonction des sélections que les utilisateurs font dans des champs personnalisés à choix multiples lorsqu’ils remplissent le formulaire.</p><p><strong>REMARQUE :</strong> Si la logique d’affichage est appliquée à tous les champs individuels sous un saut de section et qu’ils sont tous masqués en raison de la logique, la section entière est masquée sur le formulaire personnalisé. Cela se produit même si la logique d’affichage n’est pas appliquée au saut de section.</p><p>Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Accorder l’accès</p> </td> 
-      <td> <p> Sélectionnez les autorisations dont les utilisateurs ont besoin sur un objet où le formulaire personnalisé est joint afin d’afficher cette section et de modifier ses valeurs de champ.
-       <p>Les autorisations suivantes sont disponibles sous <b>Les utilisateurs disposant de cet accès à l’objet peuvent afficher les valeurs de champ.</b>:</p> 
+      <td> <p> Sélectionnez les autorisations dont les utilisateurs et les utilisatrices ont besoin sur un objet où le formulaire personnalisé est joint afin d’afficher cette section et de modifier ses valeurs de champ.
+       <p>Les autorisations suivantes sont disponibles sous <b>Les utilisateurs et utilisatrices avec cet accès à l’objet peuvent afficher les valeurs de champ</b> :</p> 
          <ul>
-          <li><strong>Affichage</strong>: affichage des autorisations sur l’objet</li>
-          <li><p><b>Modification limitée</b>: (disponible uniquement si l’objet est un projet, une tâche, un problème ou un utilisateur) :</p> 
-          <p>Permet aux utilisateurs de contribuer à l’objet s’il s’agit d’un projet, d’une tâche ou d’un problème.</p>
-          <p>Permet aux utilisateurs de modifier le profil ou de posséder l’autorisation de profil pour l’objet s’il s’agit d’un utilisateur.</p></li> 
-          <li><b>Modifier</b>: gestion des autorisations pour l’objet </li> 
-          <li><b>Administrateur uniquement</b>: niveau d’accès administrateur système</li> 
+          <li><strong>Afficher</strong> : autorisations d’affichage sur l’objet.</li>
+          <li><p><b>Modification limitée</b> : (disponible uniquement si l’objet est un projet, une tâche, un problème ou un utilisateur ou une utilisatrice) :</p> 
+          <p>Permet aux utilisateurs et utilisatrices de contribuer à l’objet s’il s’agit d’un projet, d’une tâche ou d’un problème.</p>
+          <p>Permet aux utilisateurs et utilisatrices de modifier le profil ou de posséder l’autorisation de profil sur l’objet s’il s’agit d’un utilisateur ou d’une utilisatrice.</p></li> 
+          <li><b>Modifier</b> : autorisations de gestion sur l’objet. </li> 
+          <li><b>Admin uniquement</b> : niveau d’accès administrateur ou administratrice système.</li> 
          </ul> </li> 
-        <p>Les autorisations suivantes sont disponibles sous <b>Les utilisateurs disposant de cet accès à l’objet peuvent modifier les valeurs de champ.</b>: </p> 
+        <p>Les autorisations suivantes sont disponibles sous <b>Les utilisateurs et utilisatrices avec cet accès à l’objet peuvent modifier les valeurs de champ</b> : </p> 
          <ul> 
-          <li> <p><b>Modification limitée</b>: (disponible uniquement si l’objet est un projet, une tâche, un problème ou un utilisateur) :</p> 
-           <p>Si l’objet est un projet, une tâche ou un problème, cette autorisation permet aux utilisateurs de contribuer à l’objet</p>
-          <p>Si l’objet est un utilisateur, cette autorisation permet aux utilisateurs de modifier le profil ou de posséder l’autorisation de profil pour l’objet.</p> 
-          <li><b>Modifier</b>: gestion des autorisations pour l’objet </li> 
-          <li><b>Administrateur uniquement</b>: niveau d’accès administrateur système</li> 
+          <li> <p><b>Modification limitée</b> : (disponible uniquement si l’objet est un projet, une tâche, un problème ou un utilisateur ou une utilisatrice) :</p> 
+           <p>Si l’objet est un projet, une tâche ou un problème, cette autorisation permet aux utilisateurs et utilisatrices de contribuer à l’objet.</p>
+          <p>Si l’objet est un utilisateur ou une utilisatrice, cette autorisation permet aux utilisateurs et utilisatrices de modifier le profil ou de posséder l’autorisation de profil sur l’objet.</p> 
+          <li><b>Modification</b> : autorisations de gestion pour l’objet </li> 
+          <li><b>Administrateur ou administratrice uniquement</b> : niveau d’accès administration système</li> 
          </ul> </li> 
        </ul> 
-       <p>Pour plus d’informations sur les autorisations relatives aux objets, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Présentation des autorisations de partage sur les objets</a>.</p> 
-       <p><b>REMARQUE</b>:  
+       <p>Pour plus d’informations sur les autorisations sur les objets, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Vue d’ensemble du partage d’autorisations sur les objets</a>.</p> 
+       <p><b>REMARQUE</b> :  
        <ul> 
-       <li> <p>Les utilisateurs ne disposant pas des autorisations que vous indiquez ici ne peuvent pas voir les champs personnalisés et les widgets dans la section . </p> <p>C’est également le cas si vous affichez les valeurs des champs dans les rapports ou si vous les utilisez dans les champs calculés dans les rapports de mode texte.</p> </li>
+       <li> <p>Les utilisateurs et utilisatrices ne disposant pas des autorisations que vous indiquez ici ne peuvent pas voir les champs personnalisés et les widgets de la section. </p> <p>C’est également le cas si vous affichez les valeurs des champs dans les rapports ou si vous les utilisez dans les champs calculés des rapports en mode texte.</p> </li>
        <li><p>Pour les formulaires personnalisés de demande/publication : si l’accès Affichage est nécessaire pour voir les champs dans le saut de section, mais qu’un accès administrateur est nécessaire pour modifier les champs, la section et tous ses champs ne seront pas visibles par les non-administrateurs lorsqu’ils rempliront le formulaire. Une fois la requête créée, les utilisateurs disposant de l’accès Affichage peuvent afficher les champs de la section .</p></li>
-       <li> <p>L’association de plusieurs types d’objets à votre formulaire peut modifier les autorisations d’affichage et de modification disponibles au cours de ces étapes. Pour plus d’informations, voir <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Comment plusieurs types d’objets peuvent affecter les autorisations de saut de section dans un formulaire personnalisé</a> dans cet article.</p> </li> 
+       <li> <p>L’association de plusieurs types d’objets à votre formulaire peut modifier les autorisations d’affichage et de modification disponibles au cours de ces étapes. Pour plus d’informations, consultez la section <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Comment plusieurs types d’objets peuvent affecter les autorisations de saut de section dans un formulaire personnalisé</a> de cet article.</p> </li> 
         </ul> </p> </td> 
      </tr> 
     </tbody> 
@@ -127,7 +129,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 1. Faites glisser ou ajoutez au moins un champ ou un widget personnalisé à la nouvelle section.
 
-   Cela est nécessaire avant d’enregistrer la section .
+   Cette opération est nécessaire pour enregistrer la section.
 
 1. Cliquez sur **Terminé**.
 
@@ -135,14 +137,14 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
    >
    >Cliquez sur **Appliquer** lorsque vous créez un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
 
-1. Si vous souhaitez continuer à créer votre formulaire personnalisé d’une autre manière, passez à l’un des articles suivants :
+1. Si vous souhaitez continuer à créer votre formulaire personnalisé d’une autre manière, consultez les articles suivants :
 
    * [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
-   * [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Placement de champs et de widgets personnalisés dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Ajouter une logique d’affichage et ignorer une logique dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [Aperçu et remplissage d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [Ajouter des données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Positionner des champs personnalisés et des widgets dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Prévisualiser et finaliser un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 <!--
 DRAFTED IN FLARE:
@@ -214,17 +216,17 @@ You can click
 </div>
 -->
 
-## Comment plusieurs types d’objets peuvent affecter les autorisations de sauts de section {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
+## Comment plusieurs types d’objets peuvent affecter les autorisations de saut de section {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
-L’autorisation Modification limitée pour les sauts de section de formulaire personnalisés est disponible uniquement pour les types d’objets Projet, Tâche, Problème et Utilisateur .
+L’autorisation de modification limitée pour les sauts de section de formulaire personnalisés est disponible uniquement pour les types d’objets Projet, Tâche, Problème et Utilisateur ou Utilisatrice.
 
-Dans un formulaire personnalisé avec saut de section configuré avec l’autorisation Modifier limité , si vous ajoutez l’un des autres types d’objets au formulaire (Portfolio, Programme, Document, Société, Enregistrement de facturation, Itération, Dépenses ou Groupe), vous serez invité à passer à l’autorisation Modifier, qui est compatible avec ce type d’objet et les types d’objets existants dans le formulaire.
+Dans un formulaire personnalisé avec un saut de section configuré et l’autorisation de modification limitée, si vous ajoutez l’un des autres types d’objets au formulaire (Portfolio, Programme, Document, Société, Enregistrement de facturation, Itération, Dépenses ou Groupe), Workfront vous demandera de passer à l’autorisation de modification, qui est compatible avec ce type d’objet et les types d’objets existants du formulaire.
 
 >[!INFO]
 >
->**Exemple :** Dans un formulaire personnalisé associé au type d’objet Projet , un saut de section est configuré avec l’autorisation Modification limitée .
+>**Exemple :** dans un formulaire personnalisé associé au type d’objet Projet, un saut de section est configuré avec l’autorisation de modification limitée.
 >
->Vous ajoutez le type d’objet Portfolio au formulaire, ce qui signifie que l’option d’autorisation Modification limitée n’est plus disponible pour le saut de section dans le formulaire.
+>Vous ajoutez le type d’objet Portfolio au formulaire, ce qui signifie que l’option d’autorisation de modification limitée n’est plus disponible pour le saut de section dans le formulaire.
 >
 >Un message à l’écran vous invite à passer à l’autorisation Modifier, qui est l’option la plus similaire à Modifier limité. Elle est compatible avec le type d’objet Projet et le type d’objet Portfolio.
 

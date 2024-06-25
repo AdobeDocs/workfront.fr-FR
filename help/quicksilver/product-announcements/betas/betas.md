@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b76a23bef00ab50dfb23c65f0570a56537ba1fec
+source-git-commit: 0a8e06b6f6ac8e378103572bc974742057308645
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 16%
+source-wordcount: '58'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +20,6 @@ Les articles liés à cette page décrivent les programmes bêta actuels disponi
 Les articles suivants contiennent des informations sur les fonctionnalités actuellement en version bêta :
 
 * [Vue d’ensemble des tableaux de bord de zone de travail](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-* [Vue d’ensemble du créateur de formulaires](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
 * [Intégration de Workfront et Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
 

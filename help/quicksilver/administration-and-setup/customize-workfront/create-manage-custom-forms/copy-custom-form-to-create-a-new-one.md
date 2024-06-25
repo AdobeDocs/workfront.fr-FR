@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
-workflow-type: ht
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 
 ---
 
 # Copier un formulaire personnalisé pour en créer un nouveau avec le créateur hérité
+
+{{form-designer-default}}
 
 Vous pouvez créer un formulaire personnalisé basé sur un formulaire existant.
 

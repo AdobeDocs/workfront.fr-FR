@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 96%
+source-wordcount: '2502'
+ht-degree: 92%
 
 ---
 # Extraits de code
@@ -61,6 +61,15 @@ ht-degree: 96%
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis sur **[!UICONTROL Configuration]** ![icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 
+## Concepteur de formulaire pour la disponibilité générale {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>Avec la version 24.7, le concepteur de formulaires sera disponible en général et deviendra l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront. Le créateur de formulaires hérité ne sera plus disponible. Nous vous recommandons de basculer maintenant vers le concepteur de formulaires et de profiter de ses fonctionnalités.
+>
+>Pour plus d’informations, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+>L’ancien créateur de formulaires a été supprimé de l’environnement Aperçu le 19 juin 2024 et sera supprimé de l’environnement de production avec la version 24.7 de juillet.
 
 ## Associer le bon groupe à l’équipe {#right-group-team}
 

@@ -3,15 +3,15 @@ title: Vue d’ensemble des formulaires personnalisés
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Vous pouvez créer un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Adobe Workfront. Les utilisateurs qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
+description: Vous pouvez créer un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Adobe Workfront. Les utilisateurs et utilisatrices qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 5b167c2d7ca388d0f5298edb301174ff23d85c4d
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 9%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 9%
 
 <!--Audited: 12/2023-->
 
-Vous pouvez créer un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Adobe Workfront. Les utilisateurs qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
+{{form-designer-default}}
+
+Vous pouvez créer un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Adobe Workfront. Les utilisateurs et utilisatrices qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 
 Par exemple, vous pouvez joindre à un projet un formulaire personnalisé appelé &quot;Recherche de contenu marketing&quot; afin que les utilisateurs du projet puissent demander du contenu marketing pour le projet :
 
@@ -49,7 +51,7 @@ Vous pouvez ajouter les types de champs personnalisés suivants à un formulaire
 * Calculé
 * Date ou champ de date dans le concepteur de formulaire
 * Cases à cocher
-* Boutons radio
+* Cases d’option
 * Texte descriptif
 * Saut de section
 * Adobe XD

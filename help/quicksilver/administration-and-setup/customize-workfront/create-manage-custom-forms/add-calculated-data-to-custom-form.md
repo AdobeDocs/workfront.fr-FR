@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '2911'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
 # Ajout de données calculées à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 
 <!--Audited: 01/2024-->
+
+{{form-designer-default}}
 
 Dans un formulaire personnalisé, vous pouvez ajouter un champ personnalisé calculé qui utilise les données existantes pour générer de nouvelles données lorsque le formulaire personnalisé est joint à un objet.
 
@@ -49,7 +51,7 @@ Pour plus d’informations sur la création de formulaires personnalisés pour v
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,9 +63,9 @@ Les étapes de cet article doivent être les suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td><p>Actuel : formule</p>
+   <td><p>Actuelle : formule</p>
    Ou
-   <p>Nouveau : Standard</p>
+   <p>Nouvelle : standard</p>
    </td> 
   </tr> 
   <tr> 
@@ -73,7 +75,7 @@ Les étapes de cet article doivent être les suivantes :
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +88,7 @@ Vous pouvez utiliser à la fois les champs Workfront intégrés et les champs pe
 >
 >Avant de créer un champ personnalisé calculé, identifiez les champs existants que vous souhaitez inclure afin de vous assurer que les données nécessaires au calcul sont présentes dans Workfront.
 
-1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans la section [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans la section [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 1. Sur le **Ajouter un champ** , cliquez sur **Calculé**.
 
@@ -102,12 +104,12 @@ Vous pouvez utiliser à la fois les champs Workfront intégrés et les champs pe
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td>Saisissez le libellé du champ. Voici ce que voient les utilisateurs lorsqu’ils utilisent le formulaire personnalisé. Le champ <b>Nom</b>, qui renseigne automatiquement et correspond au libellé, est référencé par Workfront dans les rapports. Champ obligatoire.</td> 
+      <td>Saisissez le libellé du champ. Voici ce que voient les utilisateurs lorsqu’ils utilisent le formulaire personnalisé. Le champ <b>Nom</b>, qui renseigne automatiquement et correspond au libellé, est référencé par Workfront dans les rapports. Il s’agit d’un champ obligatoire.</td> 
      </tr>
 
    <tr> 
    <td role="rowheader">Nom</td> 
-   <td>Par défaut, le Nom d'un champ est identique au Libellé. Vous pouvez toutefois modifier le Nom d’un champ pour qu’il soit différent du Libellé d’un champ. Le champ <b>Nom</b> est référencé par Workfront dans les rapports. Champ obligatoire.</td> 
+   <td>Par défaut, le Nom d'un champ est identique au Libellé. Vous pouvez toutefois modifier le Nom d’un champ pour qu’il soit différent du Libellé d’un champ. Le champ <b>Nom</b> est référencé par Workfront dans les rapports. Il s’agit d’un champ obligatoire.</td> 
    </tr>
 
    <tr> 
@@ -130,7 +132,7 @@ Vous pouvez utiliser à la fois les champs Workfront intégrés et les champs pe
      <tr> 
       <td role="rowheader">Format</td> 
       <td> <p>Format dans lequel vous souhaitez que les résultats du champ soient stockés et affichés.</p> <p>Si vous prévoyez d’utiliser le champ dans les calculs mathématiques, utilisez toujours un <strong>Nombre</strong> ou <strong>Devise</strong> format. Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</p> 
-      <p><b>IMPORTANT</b>: <p>Avant de choisir un format, tenez compte du format correct pour le nouveau champ. Une fois le formulaire personnalisé enregistré, le champ de format ne peut plus être modifié. Et le choix d’un mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p>
+      <p><b>IMPORTANT</b> : <p>Avant de choisir un format, tenez compte du format correct pour le nouveau champ. Une fois le formulaire personnalisé enregistré, le champ de format ne peut plus être modifié. Et le choix d’un mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p>
       <p><strong>REMARQUE :</strong> Les champs calculés avec un format de devise ne doivent pas inclure de guillemets. (Par exemple, utilisez 800.00 et non "800.00".) L’utilisation de guillemets peut entraîner des conséquences inattendues en raison de nuances liées au formatage de la langue pour les types de devise.</p></td> 
      </tr> 
     </tbody> 
@@ -160,7 +162,7 @@ Vous pouvez utiliser à la fois les champs Workfront intégrés et les champs pe
    >
    >   Dans un calcul, vous ne pouvez pas référencer des champs des types suivants : 
    >   
-   >   * Champ de texte avec formatage
+   >   * Champ de texte avec mise en forme
    >   * Texte descriptif.
    >   
    >   Pour plus d’informations sur les types de champ personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
@@ -200,7 +202,7 @@ Vous pouvez utiliser à la fois les champs Workfront intégrés et les champs pe
     <tbody> 
      <tr> 
       <td role="rowheader">Ajouter une logique</td> 
-      <td>Vous pouvez ajouter la logique d’affichage pour déterminer si le champ calculé s’affiche en fonction d’au moins un choix effectué par un utilisateur dans un champ à choix multiples précédent (liste déroulante, cases à cocher ou boutons radio) lors du remplissage du formulaire. Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Ajouter une logique d’affichage et ignorer une logique dans un formulaire personnalisé</a>. <p>Cette option est disponible uniquement lorsqu’au moins une case à cocher, un bouton radio ou un champ déroulant précède le champ personnalisé calculé du formulaire. </p> <p>Ignorer la logique n’est pas disponible pour les champs personnalisés calculés.</p> </td> 
+      <td>Vous pouvez ajouter la logique d’affichage pour déterminer si le champ calculé s’affiche en fonction d’au moins un choix effectué par un utilisateur dans un champ à choix multiples précédent (liste déroulante, cases à cocher ou boutons radio) lors du remplissage du formulaire. Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé</a>. <p>Cette option est disponible uniquement lorsqu’au moins une case à cocher, un bouton radio ou un champ déroulant précède le champ personnalisé calculé du formulaire. </p> <p>Ignorer la logique n’est pas disponible pour les champs personnalisés calculés.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mise à jour des calculs précédents</td> 
@@ -225,11 +227,11 @@ Vous pouvez utiliser à la fois les champs Workfront intégrés et les champs pe
    Si vous souhaitez continuer à créer votre formulaire personnalisé d’une autre manière, vous pouvez passer à l’un des articles suivants :
 
    * [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-   * [Placement de champs et de widgets personnalisés dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [Positionner des champs personnalisés et des widgets dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [Réutiliser un champ personnalisé calculé existant dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Ajouter une logique d’affichage et ignorer une logique dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [Aperçu et remplissage d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Prévisualiser et finaliser un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 ## Syntaxe requise dans les champs personnalisés calculés
 
@@ -302,7 +304,7 @@ Dans un formulaire personnalisé à plusieurs objets, les types d’objet sélec
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >Dans un formulaire personnalisé configuré pour fonctionner avec le type d’objet Tâche , vous créez un champ personnalisé calculé nommé En charge. Vous pouvez le configurer pour référencer le champ intégré afin qu’il affiche le nom de la personne désignée principale responsable chaque fois que le formulaire est joint à une tâche :
 >

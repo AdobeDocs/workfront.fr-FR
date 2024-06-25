@@ -3,45 +3,47 @@ title: Ajouter une logique d’affichage et ignorer la logique à un formulaire 
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Vous pouvez choisir quelles sections d’un formulaire personnalisé doivent être affichées ou ignorées en fonction des choix que fait l’utilisateur lorsqu’il le remplit.
+description: Vous pouvez choisir quelles sections d’un formulaire personnalisé doivent être affichées ou ignorées en fonction des choix que fait la personne qui le remplit.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 0%
+ht-degree: 41%
 
 ---
 
 # Ajouter une logique d’affichage et ignorer la logique à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires
 
-Vous pouvez choisir quelles sections d’un formulaire personnalisé doivent être affichées ou ignorées en fonction des choix que fait l’utilisateur lorsqu’il le remplit.
+{{form-designer-default}}
+
+Vous pouvez choisir quelles sections d’un formulaire personnalisé doivent être affichées ou ignorées en fonction des choix que fait la personne qui le remplit.
 
 >[!NOTE]
 >
 >La logique s’applique uniquement à un formulaire et ne peut pas être basée sur des sélections d’un autre formulaire.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Quelconque</td> 
+   <td role="rowheader"> <p>Forfait Adobe Workfront*</p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs de Workfront accordent cet accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs et administratrices de Workfront accordent cet accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroyer aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -52,22 +54,22 @@ Les étapes de cet article doivent être les suivantes :
 
 * Pour ajouter une logique d’affichage à un champ personnalisé, un widget ou un saut de section, au moins un champ à choix multiples (boutons radio, liste déroulante ou cases à cocher) doit être positionné avant cette logique dans le formulaire.
 
-  Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  Pour plus d’informations sur les champs et les widgets personnalisés dans les formulaires personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé à l’aide du créateur de formulaires hérité](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé à l’aide du créateur de formulaire hérité](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-* Vous ne pouvez pas ajouter de logique de saut à un widget ou à un saut de section. Vous pouvez l’ajouter uniquement à plusieurs champs de choix (boutons radio, liste déroulante ou cases à cocher).
+* Vous ne pouvez pas ajouter de logique de saut à un widget ou à un saut de section. Vous pouvez l’ajouter qu’à un champ à choix multiples (boutons radio, liste déroulante ou cases à cocher).
 
-* Vous pouvez ajouter une logique d’affichage et ignorer la logique à un champ personnalisé si tous les éléments suivants sont vrais concernant le champ personnalisé :
+* Vous pouvez ajouter une logique d’affichage et une logique de saut à un champ personnalisé si tous les éléments suivants sont vrais concernant le champ personnalisé :
 
    * Il s’agit d’un champ à choix multiples (boutons radio, liste déroulante ou cases à cocher).
    * Il est précédé d’un champ à choix multiples.
-   * Il est suivi d’un autre champ personnalisé
+   * Il est suivi d’un autre champ personnalisé.
 
-* Lorsque vous copiez des formulaires avec une logique d’affichage ou ignorez la logique, celle-ci est copiée dans le nouveau formulaire personnalisé.
-* Lorsque vous modifiez des objets en bloc, tous les champs personnalisés s’affichent dans la zone Modifier les objets , y compris les champs qui sont ignorés ou masqués.
-* Gardez ce qui suit à l’esprit lorsque vous créez une règle de logique d’affichage pour un formulaire personnalisé :
+* Lorsque vous copiez des formulaires avec une logique d’affichage ou une logique de saut, celle-ci est copiée dans le nouveau formulaire personnalisé.
+* Lorsque vous modifiez des objets en masse, tous les champs personnalisés s’affichent dans la zone Modifier les objets, y compris les champs qui sont ignorés ou masqués.
+* Gardez ce qui suit à l’esprit lorsque vous créez une règle de logique d’affichage pour un formulaire personnalisé :
 
    * Les champs personnalisés non inclus dans une instruction de logique d’affichage s’affichent par défaut sur un formulaire personnalisé.
-   * Vous pouvez créer des instructions logiques d’affichage à champs multiples.
+   * Vous pouvez créer des instructions de logique d’affichage à champs multiples.
    * Si la logique d’affichage est appliquée à tous les champs sous un saut de section et qu’ils sont tous masqués en raison de la logique, la section entière est masquée sur le formulaire personnalisé.
 
 ## Création d’un exemple de formulaire personnalisé avec une logique d’affichage et de saut
@@ -76,9 +78,9 @@ La meilleure façon d’apprendre à ajouter une logique d’affichage et d’ex
 
 ### Logique d’affichage {#display-logic}
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Dans le panneau de gauche, cliquez sur **Forms personnalisée**.
+1. Dans le panneau de gauche, cliquez sur **Formulaires personnalisés**.
 
 1. Créez l’exemple de formulaire personnalisé :
 
@@ -118,9 +120,9 @@ Ignorer la logique fonctionne de la même manière que pour afficher la logique,
 
 Pour en savoir plus, continuez à travailler sur l’exemple de formulaire personnalisé que vous avez créé dans la section . [Logique d’affichage](#display-logic) dans cet article :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Forms personnalisée**.
+1. Cliquez sur **Formulaires personnalisés**.
 1. Sélectionner le formulaire **Exemple de formulaire personnalisé : apprentissage de la logique d’affichage et de la logique de saut** que vous avez créé lors des étapes ci-dessus, puis cliquez sur **Modifier**.
 
 1. Sélectionnez le champ déroulant que vous avez créé nommé *Champ de problème*.
