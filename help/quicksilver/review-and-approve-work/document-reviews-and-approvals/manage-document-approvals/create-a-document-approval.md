@@ -6,16 +6,14 @@ description: Vous pouvez demander l’approbation d’un document à d’autres 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
-workflow-type: ht
-source-wordcount: '500'
-ht-degree: 100%
+source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 90%
 
 ---
 
 # Créer une demande de révision ou d’approbation de document
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation de sandbox.</span>
 
 Vous pouvez demander l’approbation d’un document à d’autres utilisateurs et utilisatrices ou équipes dans Adobe Workfront, ou leur demander de réviser un document sans devoir l’approuver.
 
@@ -62,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur **Approbations** dans le volet de gauche.
 
-1. <span class="preview">(Facultatif) Définissez un échéance pour l’approbation. Les utilisateurs et utilisatrices et les équipes sont informés par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.</span>
+1. (Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.
 
 1. Pour ajouter un approbateur ou une approbatrice, cliquez sur **Approbateur** et commencez à saisir le nom d’un utilisateur, d’une utilisatrice ou d’une équipe.
 
@@ -84,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ![](assets/doc-summary-add-approvers.png)
 
-1. <span class="preview">(Facultatif) Définissez une échéance pour l’approbation. Les utilisateurs et utilisatrices et les équipes sont informés par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée.</span>
+1. (Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.
 
 1. Pour ajouter un approbateur ou une approbatrice, cliquez sur **Approbateur** et commencez à saisir le nom d’un utilisateur, d’une utilisatrice ou d’une équipe.
 
