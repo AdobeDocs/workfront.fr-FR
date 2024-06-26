@@ -1,19 +1,19 @@
 ---
-title: 20.4 Améliorations de l’intégration et des appareils mobiles
-description: 20.4 Améliorations de l’intégration et des appareils mobiles
+title: Améliorations apportées à l’application mobile et à l’intégration (version 20.4)
+description: Améliorations apportées à l’application mobile et à l’intégration (version 20.4)
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 4%
 
 ---
 
-# 20.4 Améliorations de l’intégration et des appareils mobiles
+# Améliorations apportées à l’application mobile et à l’intégration (version 20.4)
 
 Cette page décrit toutes les améliorations apportées à la version 20.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production durant la semaine du 9 novembre 2020.
 
@@ -51,7 +51,7 @@ Auparavant, les champs de description et d’affectation étaient toujours visib
 Pour plus d’informations, voir
 
 * [Adobe Workfront pour iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-* [Adobe Workfront pour Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [Adobe Workfront pour Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
 ## Obtenir de l’aide sur les commandes d’assistant virtuel de Workfront Mobile
 
@@ -62,4 +62,4 @@ Dans l’application mobile, vous pouvez demander à l’assistant virtuel de vo
 
 Ces commandes affichent une liste des différentes questions que vous pouvez poser à l’assistant.
 
-Pour obtenir la liste des commandes existantes, voir [Assistant virtuel d’application mobile Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**Remarque : L’assistant virtuel mobile est obsolète depuis avril 2024.**

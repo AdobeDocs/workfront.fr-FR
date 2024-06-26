@@ -1,20 +1,20 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Améliorations de l’intégration et des mobiles
+title: Améliorations apportées à l’application mobile et à l’intégration (version 20.3)
 description: Cette page décrit toutes les améliorations apportées à l’intégration et aux appareils mobiles avec la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 0%
+source-wordcount: '309'
+ht-degree: 3%
 
 ---
 
-# 20.3 Améliorations de l’intégration et des mobiles
+# Améliorations apportées à l’application mobile et à l’intégration (version 20.3)
 
 Cette page décrit toutes les améliorations apportées à l’intégration et aux appareils mobiles avec la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 
@@ -52,5 +52,5 @@ Commandes Pin
 
 Vous pouvez utiliser la fonction d’épingle pour accéder aux commandes enregistrées de l’assistant virtuel, ainsi qu’aux broches de votre navigateur web.
 
-Pour plus d’informations sur ces deux fonctionnalités, voir [Assistant virtuel d’application mobile Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**Remarque : L’assistant virtuel mobile est obsolète depuis avril 2024.**
 

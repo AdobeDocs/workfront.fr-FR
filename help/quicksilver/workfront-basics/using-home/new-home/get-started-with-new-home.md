@@ -6,10 +6,10 @@ description: La nouvelle page d’accueil est une nouvelle fonctionnalité puiss
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 93%
+source-wordcount: '1140'
+ht-degree: 91%
 
 ---
 
@@ -45,7 +45,7 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’
     Affiche les tâches qui vous sont affectées dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste, ou créer une tâche directement à partir du widget. Vous pouvez également déléguer vos tâches lorsque vous n’êtes pas au bureau.
 
 * **Mes problèmes**\
-    Affiche les problèmes qui vous sont attribués dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste, ou créer un problème directement à partir du widget. Ce widget comprend uniquement les problèmes dont les projets associés sont définis sur Actuel. Vous pouvez également déléguer vos problèmes lorsque vous n’êtes pas au bureau.
+    Affiche les problèmes qui vous sont attribués dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste, ou créer un problème directement à partir du widget. Ce widget comprend uniquement les problèmes dont les projets associés sont définis sur Actuel et n’incluent pas les projets terminés. Vous pouvez également déléguer vos problèmes lorsque vous n’êtes pas au bureau.
 
 * **Mes demandes**\
     Affiche toutes les demandes que vous avez envoyées, un filtre qui vous permet de n’afficher que les demandes en cours et un bouton qui ouvre le volet récapitulatif d’une demande.
