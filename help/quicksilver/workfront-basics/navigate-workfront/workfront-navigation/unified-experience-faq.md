@@ -1,14 +1,14 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe Unified Experience pour FAQ
+title: Questions fréquentes sur Adobe Unified Experience
 description: Quelques fonctions différentes entre [!DNL Workfront] et Adobe Experience Cloud, et vous pouvez avoir quelques questions en tant que [!DNL Workfront] est migrée vers l’expérience unifiée.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ Ce tableau décrit certaines fonctionnalités qui diffèrent entre les deux exp�
 
 Pour déterminer si votre organisation se trouve dans l’expérience unifiée Adobe, examinez l’URL que vous utilisez pour accéder à Workfront.
 
-| URL | Expérience Adobe |
+| URL | Adobe Experience |
 |------------|------------|
-| (NomSociété).my.workfront.com | Expérience Workfront |
+| (Nom de l’entreprise).my.workfront.com | Expérience Workfront |
 | experience.adobe.com | Adobe d’une expérience unifiée |
 
 ### Comment puis-je en savoir plus sur la variable [!DNL Adobe Admin Console]?

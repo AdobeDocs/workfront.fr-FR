@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 49%
@@ -303,7 +303,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : mercredi 11 juin 2024</p>
+                                <p>Version d’aperçu : vendredi 20 juin 2024</p>
                             </li>
                             <li>
                                 <p>Production pour des clients spécifiés : avec la version 24.7 (juillet 2024)</p>

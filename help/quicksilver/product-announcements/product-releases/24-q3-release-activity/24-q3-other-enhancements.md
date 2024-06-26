@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!NOTE]
 >
 >* L’Adobe de Shell unifié est rendu disponible dans un déploiement par étapes. D’autres organisations seront intégrées à l’Adobe Unified Shell avec les versions 24.10 et 25.1.
->* Version d’aperçu : 11 juin 2024 ; version de production pour des clients spécifiés : avec la version 24.7 (juillet 2024)
+>* Version d’aperçu : 20 juin 2024 ; version de production pour des clients spécifiés : avec la version 24.7 (juillet 2024)
 
 Pour permettre aux entreprises d’accéder aux avantages de l’expérience unifiée Adobe, nous avons commencé à la mettre à la disposition des clients Workfront existants.
 
@@ -39,7 +39,7 @@ Auparavant, l’Adobe Expérience unifiée était disponible uniquement pour les
 
 Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## Bouton Aide supprimé de la barre de navigation principale
 
