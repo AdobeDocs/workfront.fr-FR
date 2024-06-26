@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
-workflow-type: ht
-source-wordcount: '1944'
-ht-degree: 100%
+source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
+workflow-type: tm+mt
+source-wordcount: '2019'
+ht-degree: 96%
 
 ---
 
@@ -83,6 +83,10 @@ Ce plan directeur contient un modèle que l’entreprise de services professionn
 
 Ce plan directeur contient un tableau de bord unique composé de 13 rapports pour vous aider à trouver, réaffecter ou gérer les objets et affectations associés au personnel qui quitte Workfront. Vous pouvez également utiliser ces rapports pour qu’un utilisateur ou une utilisatrice accède à un nouveau rôle ou groupe afin de réaffecter son travail.
 
+[!BADGE Nouveau]{type=negative}**Tableau de bord de People Manager**
+
+Ce plan directeur contient un seul tableau de bord avec 12 rapports pour donner aux gestionnaires de personnes la visibilité sur le travail de leurs rapports directs.
+
 **[!UICONTROL Post-mise en œuvre : déploiement d’un nouveau cas d’utilisation]**
 Ce plan directeur contient un modèle unique qui organise le travail qu’un client ou une cliente [!DNL Workfront] doit effectuer pour gérer la migration vers des processus ultérieurs après leur mise en œuvre initiale.
 
@@ -133,6 +137,10 @@ Ce plan directeur contient un tableau de bord unique comprenant 21 rapports pou
 **Réalisation de la valeur | Diffuser le tableau de bord des services destiné à la clientèle**
 
 Ce plan directeur contient un tableau de bord unique avec 8 rapports pour vous aider à tirer parti des avantages de Workfront. Ces rapports sont conçus pour vous aider à traduire vos services à la clientèle en valeurs mesurables dont vous pouvez effectuer le suivi au fil du temps afin d’obtenir de meilleurs résultats.
+
+[!BADGE Nouveau]{type=negative}**Réalisation de la valeur | Tableau de bord des workflows de conformité**
+
+Ce plan directeur contient un seul tableau de bord avec 7 rapports pour vous aider à réaliser la valeur de Workfront. Pour une utilisation quotidienne ou dans des secteurs hautement réglementés, ces rapports qui permettent de gagner du temps permettent de rendre des comptes et d&#39;améliorer les résultats au fil du temps en aidant à suivre et à gérer les workflows et les besoins de conformité.
 
 **Réalisation de la valeur | Tableau de bord de révision et d’approbation**
 
