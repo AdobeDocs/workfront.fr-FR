@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 23%
+source-wordcount: '620'
+ht-degree: 22%
 
 ---
 
@@ -110,7 +110,7 @@ Vous pouvez personnaliser un enregistrement en ajoutant une image de couverture 
 
    Ou
 
-   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail dont vous souhaitez personnaliser les enregistrements.
+   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
    L’espace de travail et les types d’enregistrement s’affichent.
 

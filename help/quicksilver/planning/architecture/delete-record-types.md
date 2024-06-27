@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 11%
+source-wordcount: '405'
+ht-degree: 70%
 
 ---
 
@@ -31,7 +31,7 @@ hide: yes
 
 Vous pouvez supprimer des types d’enregistrement lorsqu’ils ne sont plus pertinents.
 
-Cependant, la suppression des types d’enregistrement supprime également toutes les informations associées aux types d’enregistrement. Pour plus d’informations, voir [Remarques concernant la suppression de types d’enregistrement](#considerations-when-deleting-record-types) dans cet article.
+Cependant, la suppression des types d’enregistrement supprime également toutes les informations associées aux types d’enregistrement. Pour plus d’informations, consultez la section [Remarques concernant la suppression de types d’enregistrement](#considerations-when-deleting-record-types) de cet article.
 
 Pour plus d’informations sur les types d’enregistrement, voir [Types d’enregistrement - Aperçu](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -74,19 +74,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Gestion des autorisations d’un espace de travail</a> </p>  
-   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.
+   <td> <p>Gérer les autorisations d’un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Votre administrateur ou administratrice Workfront ou de groupes doit ajouter la zone Planning dans votre modèle de disposition. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
 </td>
   </tr>
 
@@ -108,15 +108,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* Vous ne pouvez supprimer que les types d’enregistrement des espaces de travail auxquels vous disposez des autorisations de gestion.
-* La suppression des types d’enregistrement supprime les informations suivantes qui leur sont associées :
+* Vous ne pouvez supprimer que les types d’enregistrement des espaces de travail pour lesquels vous disposez d’autorisations de gestion.
+* La suppression des types d’enregistrement supprime les informations suivantes qui leur sont associées :
 
-   * Tous les enregistrements de ce type.
-   * Tous les champs associés au type d’enregistrement.
-   * Toutes les vues (y compris les filtres, les regroupements et les critères de tri) du type d’enregistrement.
-* Le type d’enregistrement est supprimé de tous les utilisateurs accédant à l’espace de travail.
-* Vous ne pouvez pas récupérer les types d&#39;enregistrements supprimés ni leurs informations.
-* Il est recommandé de recréer les champs et les enregistrements associés au type d&#39;enregistrement que vous souhaitez supprimer sur un autre type d&#39;enregistrement avant de les supprimer.
+   * Tous les enregistrements de ce type
+   * Tous les champs associés au type d’enregistrement
+   * Toutes les vues (y compris les filtres, les regroupements et les critères de tri) du type d’enregistrement
+* Le type d’enregistrement est supprimé pour toutes les personnes accédant à l’espace de travail.
+* La suppression des types d’enregistrements et leurs informations associées est irréversible.
+* Il est recommandé de recréer les champs et les enregistrements associés au type d’enregistrement que vous souhaitez supprimer sur un autre type d’enregistrement avant de les supprimer.
 
 ## Supprimer des types d’enregistrements
 
@@ -126,9 +126,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Ou
 
-   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail duquel vous souhaitez supprimer des types d’enregistrement.
+   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent.
+   L’espace de travail et les types d’enregistrement s’affichent.
 1. Utilisez l’une des méthodes suivantes :
 
    * Passez la souris sur la carte de type enregistrement, cliquez sur le menu Plus , puis **Supprimer**.

@@ -1,14 +1,14 @@
 ---
 title: Modifier des types d’enregistrements
-description: Vous pouvez modifier les types d’enregistrement après leur enregistrement. Les types d’enregistrement sont les types d’objets d’Adobe Workfront Planning.
+description: Vous pouvez modifier les types d’enregistrement après leur enregistrement. Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 9%
+source-wordcount: '462'
+ht-degree: 60%
 
 ---
 
@@ -30,7 +30,7 @@ hide: yes
 
 {{planning-important-intro}}
 
-Les types d’enregistrement sont les types d’objets d’Adobe Workfront Planning. Vous pouvez modifier l’aspect des types d’enregistrement que vous ou toute autre personne avez créés. Pour plus d’informations sur la création de types d’enregistrement Workfront Planning, voir [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Vous pouvez modifier l’apparence des types d’enregistrement que vous ou toute autre personne avez créés. Pour plus d’informations sur la création de types d’enregistrement Workfront Planning, voir [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Conditions d’accès
 
@@ -47,9 +47,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrement Adobe Workfront Planning à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrements Adobe Workfront Planning à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre organisation doit être intégrée à Adobe Business Platform ou à Adobe Admin Console.</p> </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -69,19 +69,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Gestion des autorisations d’un espace de travail</a> </p>  
-   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.
+   <td> <p>Gérer les autorisations d’un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Votre administrateur ou administratrice Workfront ou de groupes doit ajouter la zone Planning dans votre modèle de disposition. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
 </td>
   </tr>
 
@@ -101,9 +101,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Ou
 
-   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail dont vous souhaitez modifier les types d’enregistrement.
+   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent.
+   L’espace de travail et les types d’enregistrement s’affichent.
 1. Pointez sur la carte d’un type d’enregistrement, puis cliquez sur le **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit de la carte de type enregistrement, puis cliquez sur **Modifier**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
@@ -112,8 +112,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Modifiez le nom du type d’enregistrement, si nécessaire. <!--did they add a field label for this? -->
    * **Description**: modifiez ou ajoutez une description pour le type d’enregistrement avec plus d’informations à son sujet.
-   * Editez la couleur et la forme de l&#39;icône associée au type d&#39;enregistrement. Procédez comme suit :
-      * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône de type d’enregistrement. L’option Gris est sélectionnée par défaut.
+   * Editez la couleur et la forme de l&#39;icône associée au type d&#39;enregistrement. Procédez comme suit :
+      * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. L’option Gris est sélectionnée par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
      ![](assets/update-record-type-box.png)
@@ -130,4 +130,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    <!--check this screen shot - not sure this is valid ???-->
 
-1. (Facultatif) Développez la flèche vers le bas située à droite d’un nom de type d’enregistrement et sélectionnez un autre type d’enregistrement à modifier.
+1. (Facultatif) Pour modifier un autre type d’enregistrement, développez la flèche pointant vers le bas située à droite d’un nom de type d’enregistrement, recherchez un type d’enregistrement, puis sélectionnez-le lorsqu’il s’affiche dans la liste.

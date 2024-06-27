@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '2486'
+source-wordcount: '2487'
 ht-degree: 66%
 
 ---
@@ -161,7 +161,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
         Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
       * La planification des champs d’enregistrement n’est pas accessible à partir des objets Workfront.
-      * La planification des champs d’enregistrement est accessible à partir des ressources du Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
+      * La planification des champs d’enregistrement est accessible à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
 
    * **Lorsque vous ajoutez des champs liés (ou de recherche) de l’enregistrement ou de l’objet auquel vous vous connectez.**: vous pouvez connecter des champs de l’objet de l’autre application au type d’enregistrement de la planification Workfront. Les champs liés sont en lecture seule et affichent automatiquement les informations des enregistrements ou des objets connectés lorsque vous connectez les enregistrements ou les objets.
 
@@ -186,7 +186,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Ou
 
-   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, puis sélectionnez l’espace de travail à partir duquel vous souhaitez connecter des types d’enregistrements.
+   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. Cliquez sur la vignette d’un type d’enregistrement pour ouvrir la page du type d’enregistrement.
 1. Cliquez sur l’icône **+** dans le coin supérieur droit de la vue Tableau, puis cliquez sur l’onglet **Nouvelle connexion**.
 
