@@ -1,13 +1,13 @@
 ---
 title: "FAQ sur la planification Adobe Workfront"
-description: En tant que personne responsable des opérations marketing, vous pouvez utiliser Adobe Workfront Planning pour organiser le travail de toutes vos équipes au cours du cycle de vie marketing. Voici quelques questions fréquentes sur la planification de Workfront.
+description: En tant que personne responsable des opérations marketing, vous pouvez utiliser Adobe Workfront Planning pour organiser le travail de toutes vos équipes au cours du cycle de vie marketing. Cet article contient quelques-unes des questions les plus fréquemment posées à propos de Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 1%
+source-wordcount: '1674'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Cet article contient la liste des questions les plus courantes concernant la planification Adobe Workfront.
 
-Pour plus d’informations sur la planification de Workfront, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+Pour plus d’informations sur la planification Workfront, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Qu’est-ce que la planification Workfront ?
 
@@ -30,146 +30,171 @@ Anciennement appelé Project Manager, la planification Workfront est une nouvell
 
 Le module de planification de Workfront est l’une des trois fonctionnalités Workfront distinctes mais connectées qui, ensemble, créent un système d’enregistrement marketing. Les trois fonctionnalités sont les suivantes :
 
-* Planification : nouvelles fonctionnalités avancées incluses dans la planification Workfront.
+* **Planification**: nouvelles fonctionnalités avancées incluses dans la planification Workfront.
 
-* Workflow : les fonctionnalités de gestion de travail collaboratif que vous utilisez aujourd’hui dans Workfront (gestion de projet, gestion de ressources, etc.).
+* **Workflow**: les fonctionnalités de gestion de travail collaboratif que vous utilisez aujourd’hui dans Workfront (gestion de projet, gestion des ressources, etc.)
 
-* Automatisation et intégration : capacités complètes d’intégration et d’automatisation optimisées par Workfront Fusion.
+* **Automatisation et intégration**: fonctionnalités complètes d’intégration et d’automatisation optimisées par Workfront Fusion.
 
 ## Quand Workfront Planning sera-t-il publié ?
 
-La dernière version de Workfront Planning prévue pour l’audience générale est le 28 août 2024. Pour obtenir des informations à jour sur les fonctionnalités actuellement publiées, voir [Activité de mise à jour de la planification Adobe Workfront](/help/quicksilver/planning/general/release-activity.md).
+La dernière version de Workfront Planning mise à disposition est prévue pour le 28 août 2024. Pour obtenir des informations à jour sur les fonctionnalités actuellement publiées, voir [Activité de mise à jour de la planification Adobe Workfront](/help/quicksilver/planning/general/release-activity.md).
 
-<!-- To verify this: are we even saying "Beta"? - What happens after the beta program concludes? 
+## Que se passe-t-il une fois la phase de planification de Workfront terminée ?
 
-Beta participants that want to leverage Planning in production will be able to purchase it at the GA date. We encourage you to reach out to your sales rep to discuss further details. The environment used for the beta program is not in production and will not be migrated. The data stored in the beta environment will be available until December 2024. -->
+Les clients qui ont participé aux phases bêta et précoce de la planification Workfront pourront acheter la planification Workfront à partir du 28 août 2024. Nous vous encourageons à contacter votre gestionnaire de compte pour en savoir plus.
 
+## Processus de création de résumé (utilisation de l’IA pour extraire divers documents afin de créer dynamiquement un résumé). Est-ce que ça fait partie de la version bêta ?
 
+Cette fonctionnalité sera bientôt disponible.
 
-QUESTIONS CLIENT - SESSION #1 6/13
+## Devons-nous migrer vers IMS ?
 
+Oui. Les clients qui souhaitent acheter Workfront Planning devront migrer vers Adobe Unified Experience/Adobe Business Platform. Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
+## Pouvez-vous fournir des exemples d’espaces de travail différents ?
 
-Processus de création de résumé (utilisation de l’IA pour extraire divers documents afin de créer dynamiquement un résumé). Est-ce que ça fait partie de la version bêta ?
+Vous pouvez avoir des espaces de travail à différents niveaux de votre entreprise. En raison de la flexibilité du système, le fait d’avoir des espaces de travail à différents niveaux peut servir plusieurs objectifs au niveau de l’équipe ou de la personne. Vous pouvez créer des espaces de travail pour une équipe, un service ou un groupe dans votre entreprise. Les utilisateurs peuvent choisir de créer leur propre espace de travail dans lequel ils peuvent effectuer le suivi des tâches personnelles.
 
-Nous espérons que cette fonctionnalité pourra être testée.
+Le principal cas d’utilisation d’un espace de travail est d’être un espace plus vaste et centralisé pour une organisation.
 
-Devons-nous être migrés vers IMS ?
+Les espaces de travail peuvent être partagés avec des groupes ou des utilisateurs individuels.
 
-Oui, les clients qui souhaitent acheter la planification devront être migrés vers l’ABP.
+<!--## Can workspaces share funding accounts? -->
 
-Pouvez-vous fournir des exemples d’espaces de travail différents ?
+## Les espaces de travail peuvent-ils se parler ? Ou faut-il renseigner des informations dans chaque espace de travail ?
 
-Vous pouvez avoir des espaces de travail à différents niveaux, et grâce à la flexibilité du système, qui peuvent vraiment servir de multiples objectifs au niveau de l’équipe et de la personne. Les cas d’utilisation de Principal sont des espaces de travail centralisés plus volumineux pour les organisations. Voici quelques exemples spécifiques d’espaces de travail : .....
+Depuis juin 2024, les espaces de travail ne peuvent plus se connecter les uns aux autres. Cette fonctionnalité est toutefois prévue pour une version ultérieure.
 
-Les espaces de travail peuvent-ils partager des comptes de financement ?
+## Le nombre d’espaces de travail autorisés dans une organisation est-il limité ?
 
-Les espaces de travail peuvent-ils se parler ? Ou faut-il renseigner des informations dans chaque espace de travail ?
+Vous pouvez avoir jusqu’à 1 000 espaces de travail dans l’instance Workfront de votre entreprise. Pour plus d’informations sur les limites, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
-Dans son état actuel, existe-t-il des limites souples sur le nombre d’espaces de travail pouvant être configurés (c.-à-d. des dégradations de performances après ce point) ? Toute limite stricte au nombre d’espaces de travail pouvant être configurés (c.-à-d. le système n&#39;autorise pas plus que ce #) ?
+## Les objets actuels du système Workfront peuvent-ils être disponibles dans Planification ou doivent-ils être créés manuellement ?
 
-Jusqu’à 1 000 espaces de travail dans l’instance Workfront de votre entreprise. Lien vers la documentation : https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/create-workspaces
+Vous pouvez créer des connexions entre un type d’enregistrement Planning et des portefeuilles, programmes, projets, groupes et entreprises Workfront.
 
-Les objets actuels du système peuvent-ils être branchés ou tous doivent-ils être créés manuellement ?
+Une fois que vous avez établi une connexion, par exemple avec des projets Workfront, vous pouvez connecter des enregistrements dans Planification à des projets Workfront.
 
-Vous pouvez créer des connexions entre un type d’enregistrement Planning avec des portefeuilles WF, des programmes, des projets, des groupes et des entreprises. Une fois que vous avez établi une connexion, par exemple avec des projets WF, vous pouvez lier les enregistrements du tableau Planning aux projets WF. Cela signifie que les objets WF seront toujours créés et gérés dans Workfront, mais vous pouvez les aligner avec les enregistrements de planification. Vous avez une documentation ici : https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types et nous prévoyons également d’organiser une session de commentaires sur les connexions !
+Cela signifie que vous devez continuer à créer et gérer des projets Workfront dans Workfront, mais vous pouvez les aligner avec les enregistrements de planification, comme les campagnes, dans la planification Workfront.
 
-A partir des tests, j’ai remarqué que si vous ajoutez beaucoup d’enregistrements, ils deviennent difficiles à distinguer les uns des autres lorsqu’ils ne sont pas dans la vue Tableau. Y a-t-il un moyen de faire des records avec des couleurs différentes ? Il serait bon de les rendre configurables en fonction de leur couleur, de sorte qu’ils se distinguent davantage les uns des autres dans les vues Chronologie et Calendrier.
+Pour plus d’informations sur la connexion des types d’enregistrements aux types d’objets Workfront et des enregistrements aux objets Workfront, reportez-vous aux articles suivants :
 
-Les personnes sont-elles des personnes Workfront ou IMS ?
+* [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
 
-Instance Workfront
+Nous prévoyons également d’organiser des sessions de rétroaction sur les connexions.
 
-Ces listes peuvent-elles être liées à plusieurs espaces de travail ?
+## Une fois que vous avez ajouté beaucoup d’enregistrements, il devient difficile de les distinguer les uns des autres lorsqu’ils ne sont pas dans la vue table. Existe-t-il un moyen de faire apparaître les enregistrements dans différentes couleurs ?
 
-Nous prévoyons de lier les types d’enregistrement entre les espaces de travail. Pas encore prêt.
+Depuis juin 2024, les enregistrements ne peuvent plus être configurés par couleur dans aucun des modes disponibles : tableau, chronologie ou calendrier. Cependant, vous pouvez ajouter une miniature à chaque enregistrement, ce qui peut faciliter leur identification.
 
-Les champs personnalisés que vous ajoutez sont-ils verrouillés sur le type d’enregistrement sous lequel ils ont été créés ?
+## Les utilisateurs de la planification proviennent-ils de Workfront ou de Adobe Admin Console (IMS) ?
 
-Cela ne me permet pas d’établir une connexion avec les champs Date de début/fin par défaut. Dois-je en ajouter un nouveau si je souhaite me connecter à un champ qui existe déjà ?
+Les utilisateurs de la planification Workfront sont des utilisateurs de Workfront.
 
-Avez-vous prévu de créer de vrais champs de style de recherche externe comme type de champ dans Planification ?
+## Les listes de chaque type d’enregistrement peuvent-elles être liées entre les types d’enregistrement dans plusieurs espaces de travail ?
 
-Est-il prévu que les champs &quot;Créé le&quot; &quot;Créé par&quot; &quot;Modifié&quot; et &quot;Modifié par&quot; soient uniquement créés par défaut dans les enregistrements ? Cela ressemble à une consommation pour les champs qui doivent être ajoutés si nous voulons suivre les enregistrements ?
+La connexion des types d’enregistrement entre différents espaces de travail aura lieu ultérieurement.
 
-Le module étant lié aux objets en direct dans WF, seront-ils affectés par les activités de la version bêta de planification ?
+## Les champs personnalisés que vous ajoutez sont-ils verrouillés sur le type d’enregistrement sous lequel ils ont été créés ?
 
-Allons-nous recevoir des mises à jour pour les modifications apportées à Fusion ou est-ce quelque chose qui est géré séparément ?
+Pour l’instant, les champs d’enregistrement sont uniques à l’enregistrement sous lequel ils ont été créés. Vous pouvez référencer des champs d’autres enregistrements lorsque vous connectez des types d’enregistrement. Vous ne pouvez pas utiliser le même champ que celui créé pour un type d’enregistrement dans un autre type d’enregistrement, même s’il se trouve dans le même espace de travail. Vous ne pouvez pas référencer des champs à partir d’enregistrements qui ne se trouvent pas dans le même espace de travail, car vous ne pouvez pas, pour l’instant, connecter des types d’enregistrements à partir de différents espaces de travail.
 
-Est-il prévu d’intégrer les tableaux de bord de canevas ? Comment créer des rapports sur les données ?
+<!--## It isn't allowing me to make a connection with the Start/End Date fields that are default. Should I add a new one if I want to connect to a field that already exists? -->
 
-Le Canevas de tableau de bord sera bientôt disponible pour visualiser les données de planification.
+<!--## Any plans for true external lookup style fields as a field type in Planning? -->
 
-Pouvons-nous créer des modèles d&#39;espace de travail ?
+<!-- ## Any plans to just have the fields "Created" "Created by" "Modified" and "Modified by" by default in records - seems like a consumption for fields to have to add it if we want to track records? -->
 
-Cette taxonomie / structure d&#39;enregistrement est-elle disponible UNIQUEMENT si vous achetez Planning ?  Une structure de taxonomie serait également bénéfique pour les utilisateurs standard de Workfront.
+<!--## Since the module links through to live objects in WF, will they be affected by the Planning beta's activities? -->
 
-Les administrateurs pourront-ils créer nos propres modèles ?
+<!--## Are we going to be getting updates for the changes putting into Fusion or is that something that is managed separately? -->
 
-Pas pendant la version bêta.
+## L’intégration aux tableaux de bord de la zone de travail est-elle prévue ? Comment pouvons-nous générer d’autres rapports sur les données de la planification Workfront ?
 
-Avez-vous tous un ERD documenté et disponible à partager pour le modèle de planification et les types d’enregistrement ? Pas un ERD à ce stade, mais nous disposons d’articles d’aide détaillés qui vous guident tout au long du processus de création et de connexion des types d’enregistrement : https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/overview-of-record-types https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types
+Nous prévoyons de mettre bientôt des tableaux de bord de canevas à disposition pour visualiser les données de planification.
 
-C&#39;est donc la seule fois (tarif annuel) pour accéder à la PLANIFICATION, et là, nous pouvons ajouter autant d&#39;utilisateurs que nécessaire ? ou des frais sont facturés par utilisateur ?
+<!--## Will we be able to create workspace templates? -->
 
-La planification est une offre payante qui a une date cible de disponibilité générale le 28 août, l’heure à laquelle vous devrez acheter la planification pour pouvoir en profiter en production. Pour plus d’informations, contactez votre représentant commercial.
+<!--## Is this Taxonomy / Record structure ONLY available if you purchase Planning?  A taxonomy structure would be beneficial for standard Workfront users too -->
 
-L’activation de l’IA est-elle disponible uniquement pour les administrateurs système WF OU peut-elle être activée à des niveaux d’accès spécifiques OU peut-elle être activée UNIQUEMENT pour des utilisateurs spécifiques (1 ou 2) ?
+## Les administrateurs de Workfront pourront-ils créer leurs propres modèles ?
 
-Au départ, seuls les administrateurs système de Principal ont accès à afin de pouvoir effectuer la configuration via les niveaux d’accès qui, dans leur organisation, auront accès. Après le 21 juin, nous activerons l’IA pour le reste de l’organisation et ils auront accès ou non à la configuration définie par l’administrateur système.
+Pas pendant l’étape d’accès anticipé.
 
-Où se trouvent les CHAMPS créés ici ? Les CHAMPS existants peuvent-ils être récupérés à partir de ceux que nous avons créés pour d’autres objets ? Sont-ils distincts des autres champs créés ?
+## Avez-vous un ERD documenté et disponible à partager pour le modèle de planification et les types d’enregistrement ?
 
-Actuellement, les champs résident dans le type d’enregistrement dans lequel ils ont été créés, mais nous avons une initiative prioritaire pour H2 &#39;24 pour rassembler les champs Planification et Workfront dans une bibliothèque de champs centralisée.
+Nous n’avons pas encore d’outil de gestion des actifs numériques, mais nous disposons d’une documentation détaillée qui vous guide tout au long des détails liés à la planification Workfront. Pour plus d’informations, voir [Planification Adobe Workfront : index des articles](/help/quicksilver/planning/planning-information.md).
 
-Pourrons-nous créer des rapports en fonction des enregistrements/champs que nous créons dans la planification ?
+## Comment les tarifs de Workfront Planning sont-ils structurés : s’agit-il d’une redevance annuelle ponctuelle ? Ou sommes-nous facturés par utilisateur ?
 
-Oui ! Bientôt disponible dans la zone de travail du tableau de bord
+La planification est une offre payante en plus de votre licence Workfront. La planification sera disponible à l’achat le 28 août 2024. À ce moment-là, vous devrez acheter Planification pour pouvoir continuer à l’utiliser dans Production. Pour plus d’informations, contactez votre gestionnaire de compte.
 
-Pouvons-nous également extraire ces données à l’aide de l’API ?
+## L’assistant d’IA est-il disponible uniquement pour les administrateurs système Workfront, ou peut-il être activé pour des niveaux d’accès spécifiques ou uniquement pour des utilisateurs spécifiques ?
 
-Oui ! Nous avons déjà une API disponible et le connecteur Fusion.
+L’assistant d’IA est actuellement disponible en version bêta et peut être activé pour votre environnement lorsque vous effectuez une requête spéciale auprès de votre gestionnaire de compte. Une fois la requête approuvée et l’assistant d’IA (version bêta) activé dans votre environnement, tous les membres de l’environnement peuvent utiliser l’assistant d’IA dans toutes les zones de Workfront, y compris dans la planification. Les administrateurs de Workfront doivent ajouter Planification aux modèles de mise en page de tous les utilisateurs. Ils peuvent également désactiver l’assistant d’IA pour les utilisateurs dans leurs niveaux d’accès.
 
-À partir d’un espace de travail marketing : est-il préférable d’avoir un espace de travail maître à utiliser pour une équipe marketing globale OU est-il préférable d’avoir des espaces de travail individuels pour chaque secteur d’activité, pays, marque, etc. j’ai vu que nous pouvons avoir jusqu’à 1 000 espaces de travail et potentiellement connecter des espaces de travail. est-il possible de lier des enregistrements entre espaces de travail ? Le cas d’utilisation est le suivant : autorisez chaque produit à utiliser son propre espace de travail, mais avec des types d’enregistrement partagés. Et ensuite je voudrais voir une vue partagée qui combine tout.
+## Où vivent les champs créés ici ? Les champs existants que nous avons créés pour d’autres objets peuvent-ils être incorporés ? Sont-ils distincts des autres champs créés ailleurs ?
 
-Pouvons-nous intégrer Portfolio et programme aux Campagnes ? Cela amène des projets ?
+Actuellement, les champs sont en direct sur le type d’enregistrement à partir duquel ils ont été créés. Ils ne sont pas disponibles pour les autres types d’enregistrement ou pour les objets Workfront. Les champs Workfront ne sont pas non plus disponibles dans la planification. Nous avons une initiative sur notre feuille de route pour rassembler les champs Planification et Workfront dans une bibliothèque de champs centralisée.
 
-Est-il possible de lier des projets à des enregistrements dans un espace de travail lors de la création du projet, sans avoir à accéder à l’espace de travail pour le lier ?
+## Serons-nous en mesure de créer des rapports en fonction des enregistrements et des champs que nous créons dans Planification ?
 
-Actuellement, nous avons une section Planification dans les projets qui affichent les enregistrements de connexion des types d’enregistrements de planification. Vous pouvez ajouter ou supprimer des enregistrements de ces connexions. Nous ajouterons bientôt la possibilité de lier les enregistrements à d&#39;autres types d&#39;enregistrements de Planning, même si cette connexion n&#39;a actuellement aucun enregistrement associé.
+Oui. Bientôt, nous pourrons générer des rapports sur les informations de planification à l’aide des tableaux de bord de canevas.
 
-Je comprends qu&#39;un jour nous pourrons recueillir des informations/des données de quelqu&#39;un en dehors de notre organisation. Quand cette fonctionnalité sera-t-elle disponible en version bêta ?
+## Pouvons-nous également extraire des données de planification à l’aide de l’API ?
 
-L&#39;espace de travail peut-il être utilisé pour la planification des ressources et des capacités par rôle de tâche dans une campagne ?
+Oui. Une API de planification est déjà disponible, ainsi qu&#39;un connecteur Fusion. Pour plus d’informations, voir [Modules de planification Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). La documentation de l’API de planification Workfront sera bientôt disponible.
 
-Nous pourrons lier un enregistrement Workspace pour démarrer une requête ?
+<!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
-HEURES DU BUREAU 6/18
+## Pouvons-nous intégrer Portfolio et programme à Campagnes ? Cela amène des projets ?
 
-La possibilité de lier des dates à des données Workfront connectées. Est-ce actuellement actif à tous les niveaux (projets, portefeuilles, programme, etc.) ?
+Oui, vous pouvez connecter des campagnes Workfront Planning à des portfolios et programmes Workfront. Toutefois, les projets ne sont pas ajoutés lorsque vous connectez des portefeuilles et des programmes. Vous devez connecter les types d’enregistrement aux portefeuilles, programmes et projets sous la forme d’objets distincts.
 
-Oui, il est possible de connecter des projets via les champs de recherche.
+## Est-il possible de lier des projets à des enregistrements dans un espace de travail lors de la création du projet, sans avoir à accéder à l’espace de travail pour le lier ?
 
-Comment sais-je qu&#39;il y a une vue publique prête à être vue ?
+Actuellement, la section Planification des projets affiche les enregistrements connectés des types d’enregistrements Planification connectés aux objets de projet. Vous pouvez ajouter ou supprimer des enregistrements supplémentaires dans la section Planification . Nous ajouterons bientôt la possibilité de créer des liens vers des enregistrements de tout autre type d&#39;enregistrement Planning , même si cette connexion n&#39;a aucun enregistrement associé. Mais vous devez lier le type d’enregistrement au type d’objet Workfront (projet) pour connecter les enregistrements réels aux projets à partir de Workfront.
 
-Les vues publiques partagées sont visibles
+<!--I'm understanding eventually we will be able to intake information/data from someone outside our organization. When will this feature be made available in beta? 
 
-Comment partager une vue en interne ?
+Can the workspace be used for resource and capacity planning by job role across a campaign? 
 
-À chaque fois que vous créez un espace de travail, devez-vous partager à nouveau des vues ?
+We will be able to link a Workspace record to start a request? -->
 
-Oui, chaque fois que vous créez un espace de travail, il s’agit d’un nouveau type d’enregistrement. Les vues sont spécifiques aux types d’enregistrement. Par conséquent, vous devrez les partager à nouveau.
+## Pouvez-vous lier des dates à partir de données Workfront connectées ? Est-ce actuellement actif à tous les niveaux (projets, portefeuilles, programme) ?
 
-Les miniatures peuvent-elles provenir du contenu ? C’est-à-dire, définissez la miniature sur .pdf ou video. Nous travaillons avec des personnes créatives et avoir une vue miniature qui est sélectionnable serait un excellent moyen de maintenir l’engagement des équipes dans ces réunions de niveau supérieur où elles discuteront de notre carte de contenu - un lien vers le contenu directement serait également formidable.
+Oui, il est possible de connecter des dates de projet, de programme ou de portefeuille via des champs de recherche.
 
-Pouvez-vous personnaliser les autorisations au-delà de ce qu’est la base ? Actuellement, avec d’autres objets Workfront, vous pouvez personnaliser ce que l’accès d’contribution/de gestion/d’affichage peut faire.
+<!-- ******************not sure about the answer here: 
 
-Actuellement, nous ne disposons que des autorisations de niveau Espace de travail et Vue, mais pas des autorisations de type d’enregistrement ni des autorisations de niveau enregistrement individuel.
+## How do I know there are public view ready to view? 
 
-Sommes-nous en mesure de personnaliser les icônes de Workspace de la même manière que nous pouvons personnaliser les miniatures ?
+Public views that are shared are visible  -->
 
-Existe-t-il des API personnalisables pour utiliser notre propre gestion des ressources numériques au lieu de la gestion des ressources numériques d’Adobe ?
+## Comment partager une vue en interne ?
 
-Nous avons créé une API publique pour la planification et nous avons aussi le connecteur Fusion. La documentation de l’API sera publiée et pourra être utilisée pour créer des connexions.
+Pour plus d’informations sur le partage des vues, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 
-Je vois de la valeur dans Planning (employés utilisant Airtable). Jusqu&#39;à maintenant, nous avons été .. curieuse connexion du serveur principal après x qui sera liée à ~10.47am
+## Chaque fois que vous créez un espace de travail, devez-vous partager à nouveau des vues ?
+
+Oui, chaque fois que vous créez un espace de travail, vous créez également des types d’enregistrement. Les vues sont spécifiques aux types d’enregistrement. Par conséquent, vous devrez partager à nouveau les vues.
+
+Les vues sont partagées séparément des espaces de travail. Vous devez partager l’espace de travail afin que les utilisateurs puissent accéder aux types d’enregistrements, ainsi qu’aux vues, afin que les utilisateurs puissent accéder aux champs des enregistrements.
+
+<!--Can thumbnails be from the content? i.e. Set the thumbnail to the .pdf or video. We work with creative people and to have a thumbnail view that is selectable would be a great way to keep teams engaged in those higher-level meetings where they will discuss our Content Map – a link to the content directly would be great too. -->
+
+## Pouvez-vous personnaliser les autorisations au-delà de ce qu’est la base ? Actuellement, avec d’autres objets Workfront, vous pouvez personnaliser les autorisations Contribute/Manage/View .
+
+Pas pour le moment. Pour plus d’informations sur ce que chaque autorisation autorise, voir [Présentation du partage des autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+Actuellement, nous ne disposons que d’autorisations d’espace de travail et d’affichage, mais pas d’autorisations de type d’enregistrement ni d’autorisations de niveau enregistrement individuel. Les types d’enregistrement et les enregistrements héritent des autorisations de l’espace de travail auquel ils appartiennent.
+
+## Sommes-nous en mesure de personnaliser les icônes de Workspace de la même manière que nous pouvons personnaliser les miniatures ?
+
+Non.
+
+## Existe-t-il des API personnalisables pour utiliser notre propre gestion des ressources numériques au lieu de la gestion des ressources numériques d’Adobe ?
+
+Une API de planification est déjà disponible, ainsi qu&#39;un connecteur Fusion. Pour plus d’informations, voir [Modules de planification Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). La documentation de l’API de planification Workfront sera bientôt disponible. Vous pouvez utiliser l’API pour créer des intégrations personnalisées.

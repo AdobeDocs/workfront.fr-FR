@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 11%
+source-wordcount: '676'
+ht-degree: 10%
 
 ---
 
@@ -78,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
    <td> <p>Dans Workfront, affichez les autorisations d’un projet, d’un portfolio ou d’un programme ou davantage d’autorisations</a> </p> 
-   <p>Dans Workfront Planning, affichez les autorisations d’un espace de travail ou les autorisations supérieures</a> </p>  
+   <p>Dans Workfront Planning, Contribute ou autorisations supérieures à un espace de travail</a> </p>  
    <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail de planification Workfront, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
@@ -103,7 +103,6 @@ Pour plus d’informations, consultez les [Conditions d’accès dans la documen
    * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
 * Vous pouvez afficher la section Planification dans un objet Workfront, même lorsqu’aucun enregistrement n’est associé à l’objet Workfront.
 * Vous pouvez connecter des enregistrements de planification à des objets Workfront de Workfront, dans la section Planification lorsqu’au moins un enregistrement est connecté à l’objet Workfront.
-* Pour connecter des enregistrements des objets Workfront, vous devez disposer des autorisations Manage (Gérer) à un espace de travail.
 
 ## Gestion des enregistrements dans la section Planification
 
@@ -114,8 +113,8 @@ Pour plus d’informations, consultez les [Conditions d’accès dans la documen
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
 1. Cliquez sur la carte d’un type d’enregistrement connecté à un projet, un portfolio ou un programme Workfront.
-1. Choisissez une vue de tableau dans le menu déroulant **Affichage**.
-1. (Conditionnel) Dans le tableau, accédez au champ d’enregistrement connecté et ajoutez un objet Workfront, puis cliquez sur le nom de l’objet Workfront dans le champ. Pour plus d’informations, voir [Connexion d’enregistrements](/help/quicksilver/planning/records/connect-records.md).
+1. Accédez à un champ d’enregistrement connecté qui a une connexion avec un objet Workfront, soit en mode Tableau, soit à partir de la page de détails d’un enregistrement. Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+1. Cliquez sur le nom d’un objet Workfront dans le champ d’enregistrement connecté.
 La page des objets s’ouvre dans Workfront Planning.
 1. Cliquez sur **Accéder à la source**, dans le coin supérieur droit de l’écran.
 
@@ -148,7 +147,7 @@ Les événements suivants se produisent :
 
    >[!NOTE]
    >
-   >   Le bouton Se connecter s’affiche uniquement pour les espaces de travail dans lesquels vous disposez des autorisations de contribution. <!--they might replace this with one button at the top of the page. Rephrase-->
+   >   Le bouton Se connecter s’affiche uniquement pour les espaces de travail dans lesquels vous disposez des autorisations Contribute. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. Cliquez sur les enregistrements que vous souhaitez connecter. Les événements suivants se produisent :
 
