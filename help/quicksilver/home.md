@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront] documentation'
 description: Documentation pour [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 618267f23e5d080a5c0072370eb31188f86a1700
+source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -20,14 +20,14 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 
 >[!TAB Dernière version]
 
-* [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Vue d’ensemble de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Activité Publication de fusion Adobe Workfront](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
 >[!TAB Versions de 2024]
 
 * [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
 * [Vue d’ensemble de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
-* [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Vue d’ensemble de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Activité Publication de fusion Adobe Workfront](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
 >[!TAB Bêta]
@@ -94,7 +94,7 @@ La recherche de documentation peut être plus efficace avec quelques approches s
 
 ### Exploration des sections Formation
 
-* **Matériel de formation**: accédez au [Formation Workfront](https://experienceleague.adobe.com/en/browse/workfront) pour une bibliothèque de vidéos et d’articles de formation conçus pour vous aider à mieux comprendre les fonctionnalités et les paramètres de Workfront. Vous pouvez également accéder à des supports de formation payants à l’adresse [learning.adobe.com](http://learning.adobe.com/).
+* **Matériel de formation**: accédez au [Formation Workfront](https://experienceleague.adobe.com/en/browse/workfront) pour une bibliothèque de vidéos et d’articles de formation conçus pour vous aider à mieux comprendre les fonctionnalités et les paramètres de Workfront. Vous pouvez également accéder à des supports de formation payants à l’adresse [learning.adobe.com](https://learning.adobe.com/).
 * **Cours**: Rechercher [cours d&#39;apprentissage structuré](https://experienceleague.adobe.com/home?Solution=Workfront#courses) qui vous guide tout au long de l’utilisation de différentes fonctionnalités Workfront dans une séquence logique.
 
 ### Trouver des réponses dans les forums de la communauté

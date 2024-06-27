@@ -2,22 +2,26 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Envoyer un document à Experience Manager Assets ou Assets Essentials
-description: Vous pouvez envoyer des documents de Workfront vers Experience Manager Assets ou des Assets Essentials. Les documents téléchargés et envoyés depuis Workfront à des Assets Essentials sont toujours pris en compte par rapport à votre stockage global de documents. Les ressources liées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global.
+description: Vous pouvez envoyer des documents de Workfront vers Experience Manager Assets ou des Assets Essentials. Les documents téléchargés et envoyés depuis Workfront à des Assets Essentials sont toujours pris en compte par rapport à votre stockage global de documents. Les Assets liées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 8%
+source-wordcount: '918'
+ht-degree: 14%
 
 ---
 
 # Envoyer un document à Experience Manager Assets ou Assets Essentials
 
-Vous pouvez envoyer des documents de Workfront vers Experience Manager Assets ou des Assets Essentials. Les documents téléchargés et envoyés depuis Workfront à des Assets Essentials sont toujours pris en compte par rapport à votre stockage global de documents. Les ressources liées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global.
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation de sandbox.</span>
 
-Les ressources envoyées au Experience Manager par le biais de cette intégration sont limitées à une taille de **5 Go**.
+Vous pouvez envoyer des documents de Workfront vers Experience Manager Assets ou des Assets Essentials. Les documents téléchargés et envoyés depuis Workfront à des Assets Essentials sont toujours pris en compte par rapport à votre stockage global de documents. Les Assets liées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global.
+
+Les Assets envoyées à Experience Manager par le biais de cette intégration ont une taille limite de **5 Go**.
+
+<span class="preview">Dans l’environnement Aperçu, les Assets envoyées à l’Experience Manager par le biais de cette intégration ont une limite de taille de **30 Go**.</span>
 
 Les champs de métadonnées sont d’abord mappés lorsque vous envoyez une ressource de Workfront vers Experience Manager Assets ou des Assets Essentials. Toutes les métadonnées configurées pour mapper des objets parents sont également envoyées. Pour plus d’informations sur la configuration du mappage des métadonnées, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -27,14 +31,14 @@ Les champs de métadonnées sont d’abord mappés lorsque vous envoyez une ress
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Adobe Workfront</a>*</td> 
    <td> <p> N’importe quelle</p> </td> 
   </tr> 
   <tr> 
@@ -43,12 +47,12 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Vous devez disposer d’un Experience Manager as a Cloud Service ou Assets Essentials, et vous devez être ajouté au produit en tant qu’utilisateur dans le Admin Console.
+   <td>Vous devez disposer d’Assets Essentials as a Cloud Service Experience Manager et vous ajouter au produit en tant qu’utilisateur dans l’Admin Console.
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Accès en modification aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -61,23 +65,23 @@ Vous devez disposer des éléments suivants :
 
 ## Conditions préalables
 
-Avant de commencer,
+Avant de commencer
 
-* Votre administrateur Workfront doit configurer une intégration de Experience Manager. Pour plus d’informations, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Votre administrateur Workfront doit configurer une intégration d’Experience Manager. Pour plus d’informations, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Envoi d’un document à partir de Workfront
 
-Lorsqu’un utilisateur envoie un document de Workfront vers Experience Manager Assets ou des Assets Essentials, les métadonnées mappées sont transférées le long du document. Une fois le document envoyé, les modifications apportées aux métadonnées du document dans Workfront ne sont pas répercutées dans les ressources ou les Assets Essentials. Si un champ mappé dans Workfront est modifié, vous devez envoyer une nouvelle version du document avec les métadonnées mises à jour à Assets ou aux Assets Essentials. Pour configurer ou modifier des métadonnées, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configuration de l’intégration de Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Lorsqu’un utilisateur envoie un document de Workfront vers Experience Manager Assets ou des Assets Essentials, les métadonnées mappées sont transférées le long du document. Une fois le document envoyé, les modifications apportées aux métadonnées du document dans Workfront ne sont pas répercutées dans Assets ou les Assets Essentials. Si un champ mappé dans Workfront est modifié, vous devez envoyer une nouvelle version du document avec les métadonnées mises à jour à Assets ou aux Assets Essentials. Pour configurer ou modifier des métadonnées, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configuration de l’intégration de Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 Pour envoyer un document :
 
 1. Accédez au **Documents** dans Workfront, puis sélectionnez le document à envoyer.
-1. Cliquez sur **Envoyer à**, puis sélectionnez l’intégration de Experience Manager configurée par votre administrateur.
+1. Cliquez sur **Envoyer à**, puis sélectionnez l’intégration Experience Manager configurée par votre administrateur.
 
    >[!NOTE]
    >
-   >L’administrateur de Workfront peut choisir n’importe quel nom pour cette intégration. Il peut donc ne pas mentionner spécifiquement les ressources ou les Assets Essentials.
+   >L’administrateur de Workfront peut choisir n’importe quel nom pour cette intégration. Il peut donc ne pas mentionner spécifiquement Assets ou les Assets Essentials.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
@@ -95,11 +99,11 @@ Vous pouvez ajouter une nouvelle version à un document que vous avez précédem
 Pour envoyer la version la plus récente :
 
 1. Accédez au **Documents** dans Workfront, puis recherchez le document.
-1. Sélectionner **Envoyer à**, puis sélectionnez l’intégration de Experience Manager configurée par votre administrateur.
+1. Sélectionner **Envoyer à**, puis sélectionnez l’intégration Experience Manager configurée par votre administrateur.
 
    >[!NOTE]
    >
-   >L’administrateur de Workfront peut choisir n’importe quel nom pour cette intégration. Il peut donc ne pas mentionner spécifiquement les ressources ou les Assets Essentials.
+   >L’administrateur de Workfront peut choisir n’importe quel nom pour cette intégration, de sorte qu’il ne mentionnera pas spécifiquement Assets ou les Assets Essentials.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
