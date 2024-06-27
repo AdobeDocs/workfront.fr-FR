@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 49%
+source-wordcount: '1616'
+ht-degree: 45%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 49%
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version du troisième trimestre 2024. Ces améliorations sont prévues pour être disponibles dans l’environnement de production tout au long du trimestre.
 
-Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrivez-vous au webinaire ici](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
+Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez toujours [visionnez une démonstration vidéo des fonctionnalités de la version 24.7 ici .](https://video.tv.adobe.com/v/3430532/%20).
 
 <span class="preview">Les fonctionnalités hors cycle (celles qui sont publiées en production avant la date de version du troisième trimestre 2024) sont surlignées en jaune.</span>
 
@@ -28,7 +28,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.5 (16 mai 2024)</li><li>24.6 (13 juin 2024)</li><li>24.7 (juillet 2024)</li></ul> | <ul><li>24.7 (juillet 2024)</li></ul> |
+>| <ul><li>24.5 (16 mai 2024)</li><li>24.6 (13 juin 2024)</li><li>24.7 (18 juillet 2024)</li></ul> | <ul><li>24.7 (18 juillet 2024)</li></ul> |
 >
 >Pour plus d’informations sur le processus de version rapide, consultez [Activer ou désactiver le processus de version rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -36,6 +36,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
 
 * [Améliorations d’administration](#administrator-enhancements)
 * [Améliorations de la gestion financière](#financial-management-enhancements)
+* [Améliorations de l’intégration](#integration-enhancements)
 * [Améliorations des projets](#project-enhancements)
 * [Améliorations de la gestion des ressources](#resource-management-enhancements)
 * [Autres améliorations](#other-enhancements)
@@ -54,6 +55,23 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                     <td>
                         <p><span class="bold">Dates de version</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Concepteur de formulaire personnalisé généralement disponible dans Adobe Workfront</a></p>
+                        <p>Avec la version 24.7, le concepteur de formulaires sera disponible en général et deviendra l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront. Lorsque vous créez un formulaire personnalisé ou ouvrez un formulaire existant, l’espace de travail du concepteur de formulaire dans le style de zone de travail s’affiche.</p>
+                        <p>Après cette version, vous n’aurez plus la possibilité de revenir à l’ancien créateur de formulaires.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : jeudi 19 juin 2024</p>
+                            </li>
+                            <li>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +116,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Version d’aperçu : vendredi 6 juin 2024</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -165,6 +183,46 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
            </tbody>
         </table>
 
+### Améliorations de l’intégration
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de version</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations de Workfront pour Experience Manager Assets et les Assets Essentials</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>Nous avons apporté les améliorations suivantes aux intégrations Workfront pour Experience Manager Assets et Assets Essentials :</p>
+                        <ul>
+                            <li><p>L’intégration prend désormais en charge GCP en tant que fournisseur de services cloud. AWS et Azure étaient auparavant pris en charge.</p></li>
+                            <li><p>La taille limite des fichiers envoyés à Experience Manager par le biais de l’intégration a été augmentée à 30 Go. Auparavant, la limite était de 5 Go.</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : vendredi 27 juin 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### Améliorations des projets
 
 <table>
@@ -196,7 +254,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Production pour une version rapide : avec la version 24.6 (13 juin 2024)</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -216,7 +274,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -236,7 +294,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -271,7 +329,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Version d’aperçu : vendredi 6 juin 2024</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -306,7 +364,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Version d’aperçu : vendredi 20 juin 2024</p>
                             </li>
                             <li>
-                                <p>Production pour des clients spécifiés : avec la version 24.7 (juillet 2024)</p>
+                                <p>Production pour des clients spécifiés : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">L’Adobe de Shell unifié est rendu disponible dans un déploiement par étapes. D’autres organisations seront intégrées à l’Adobe Unified Shell avec les versions 24.10 et 25.1. </p>
@@ -323,7 +381,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Version d’aperçu : vendredi 6 juin 2024</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.7 (juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -343,7 +401,7 @@ Le webinaire de la version 24.7 aura lieu le 27 juin 2024. Vous pouvez [Inscrive
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
-                                <p>Production pour les versions trimestrielles : avec la version 24.7 </p>
+                                <p>Production pour une version trimestrielle : avec la version 24.7 (vendredi 18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 2%
+source-wordcount: '594'
+ht-degree: 5%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 2%
 Cette page décrit toutes les améliorations apportées à l’administrateur à la version du troisième trimestre 2024 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Concepteur de formulaire personnalisé généralement disponible dans Adobe Workfront
+
+>[!NOTE]
+>
+>Version d’aperçu : 19 juin 2024 ; Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024).
+
+Le concepteur de formulaire personnalisé a été publié en version bêta en avril 2023 (version 23.2). Depuis, d’autres fonctionnalités ont été ajoutées, telles que les champs de recherche externe et les champs natifs Workfront. En 2024, le concepteur de formulaire a atteint la parité fonctionnelle avec l’ancien créateur de formulaires.
+
+Avec la version 24.7, le concepteur de formulaires sera disponible en général et deviendra l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront. Lorsque vous créez un formulaire personnalisé ou ouvrez un formulaire existant, l’espace de travail du concepteur de formulaire dans le style de zone de travail s’affiche.
+
+Après cette version, vous n’aurez plus la possibilité de revenir à l’ancien créateur de formulaires.
+
+Pour plus d’informations sur le concepteur de formulaire et une démonstration vidéo, voir [note de mise à jour de la version bêta de form designer](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Déplacement d’objets entre les environnements Workfront avec promotion de l’environnement
 
@@ -30,7 +44,7 @@ Auparavant, les objets devaient être configurés dans les environnements de pro
 
 Pour plus d’informations sur la promotion de l’environnement, voir [Présentation du déplacement d’objets entre les environnements Workfront (promotion d’environnement)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
@@ -51,7 +65,7 @@ Pour plus d’informations, voir [Partage d’un formulaire personnalisé](/help
 
 >[!NOTE]
 >
->Version d’aperçu : 6 juin 2024 ; version de production pour tous les clients : avec la version 24.7 (juillet 2024)
+>Version d’aperçu : 6 juin 2024 ; version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)
 
 Vous pouvez désormais ajouter un nouveau champ ou widget personnalisé directement à partir de la zone Champs de Workfront, sans ouvrir de formulaire personnalisé pour créer le champ. Vous pouvez ainsi créer rapidement des champs personnalisés réutilisables.
 
@@ -71,4 +85,4 @@ Vous pouvez toujours créer un champ déroulant à sélection unique et modifier
 
 Cette option n’est pas disponible dans le créateur de formulaires hérité.
 
-Pour plus d’informations, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations, voir [Concevoir un formulaire à l’aide du créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
