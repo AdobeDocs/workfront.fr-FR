@@ -4,10 +4,10 @@ description: Vous pouvez utiliser l’assistant d’IA pour générer, mettre à
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 7%
+source-wordcount: '632'
+ht-degree: 6%
 
 ---
 
@@ -18,9 +18,11 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à la planification Adobe Workfront et à l’assistant d’IA, qui sont de nouvelles offres d’Adobe Workfront.
+>Les informations de cet article se rapportent à la planification Adobe Workfront et à l’assistant Workfront AI (version bêta), qui sont de nouvelles offres d’Adobe Workfront.
 >
->Actuellement, Workfront Planning et l’assistant d’IA sont à un stade d’accès anticipé, ouvert à un nombre limité de clients.
+>Actuellement, Workfront Planning est en phase d’accès anticipé et l’assistant Workfront AI est en phase bêta.
+>
+>La planification de Workfront et l’assistant d’IA (version bêta) sont ouverts à un nombre limité de clients.
 >
 >Vous devez être une cliente ou un client Workfront pour utiliser ces fonctionnalités.
 >
@@ -28,7 +30,7 @@ ht-degree: 7%
 >
 >Pour plus d’informations, voir [Vue d’ensemble d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-Vous pouvez utiliser l’assistant d’IA pour générer, mettre à jour ou supprimer des enregistrements en fonction du contexte de page et de la structure d’enregistrement actuels.
+Vous pouvez utiliser l’assistant d’IA pour générer, mettre à jour ou supprimer des enregistrements en fonction du contexte de page et de la structure d’enregistrements actuels.
 
 Les commandes de l’utilisateur et l’exécution de ces commandes par l’IA fonctionnent ensemble pour garantir que les modifications apportées par l’IA sont reflétées avec précision dans votre environnement.
 
@@ -40,25 +42,27 @@ Les commandes de l’utilisateur et l’exécution de ces commandes par l’IA f
 
 * L’assistant d’IA fonctionne dans le contexte de chaque page. Les requêtes que vous envoyez pour l’assistant d’IA doivent référencer la fonctionnalité disponible dans la page que vous avez ouverte.
 
-* Les actions effectuées par l’assistant d’IA se rapportent à vos autorisations de planification Workfront et à votre niveau d’accès Workfront. Pour plus d’informations, voir les articles suivants :
+* Les actions effectuées par l’assistant d’IA dans la zone Planification se rapportent à vos autorisations de planification Workfront et à votre niveau d’accès Workfront. Pour plus d’informations, voir les articles suivants :
 
    * [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
 * Les modifications apportées par l’assistant d’IA au nom de l’utilisateur sont suivies dans le panneau Historique des enregistrements.
 
-* Vous pouvez utiliser des commandes pour annuler vos actions.
+* Vous pouvez utiliser des commandes pour annuler vos actions. Par exemple, vous pouvez saisir &quot;Annuler la dernière modification&quot; pour annuler la modification.
 
 ## Fonctionnalités actuellement disponibles pour l’assistant AI
 
 Actuellement, l’assistant d’IA est disponible dans la zone Planification de Workfront pour les pages suivantes :
 
+* Page Workspace
 * Page de type d’enregistrement
 * Enregistrer la page
 
 Pour le moment, vous pouvez utiliser l’assistant d’IA pour effectuer les actions suivantes :
 
-* Créer des enregistrements. Un identifiant avec un lien vers le nouvel enregistrement s’affiche une fois l’enregistrement créé.
+* Recherchez des enregistrements. Vous pouvez effectuer une recherche en fonction des informations contenues dans n’importe quel champ d’enregistrement.
+* Créer des enregistrements. Un identifiant avec un lien vers le nouvel enregistrement s’affiche une fois l’enregistrement créé. Vous pouvez spécifier les champs que vous souhaitez mettre à jour au cours du processus de création, tels que les dates ou la description.
 * Créez des enregistrements à partir d’un document que vous téléchargez. Workfront prend en charge les formats de document suivants pour l’assistant d’IA :
 
   .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt et la plupart des formats d’image
@@ -70,7 +74,9 @@ Pour le moment, vous pouvez utiliser l’assistant d’IA pour effectuer les act
 
 1. Connectez-vous à Workfront, puis accédez au **Planification** zone.
 
-1. Cliquez sur un **carte de l&#39;espace de travail** > **carte de type d’enregistrement**.
+1. Cliquez sur un **carte de l&#39;espace de travail**.
+
+1. (Facultatif) Cliquez sur un **carte de type d’enregistrement**.
 
 1. (Facultatif) Cliquez sur un **record** pour ouvrir le **Détails** page.
 
@@ -84,7 +90,7 @@ Pour le moment, vous pouvez utiliser l’assistant d’IA pour effectuer les act
 
    Par exemple, vous pouvez saisir l’une des valeurs suivantes :
 
-   * Création d’un enregistrement
+   * Créez une campagne dont la date de début est le 4 juillet et la date de fin est le 30 juillet.
    * Mettre à jour le champ Description de l’enregistrement de campagne d’été avec la date à déterminer
    * Supprimer le dernier enregistrement
    * Restaurer l’enregistrement
