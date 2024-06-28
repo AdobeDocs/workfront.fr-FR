@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
+source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 45%
+source-wordcount: '1666'
+ht-degree: 44%
 
 ---
 
@@ -38,6 +38,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
 * [Améliorations de la gestion financière](#financial-management-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
 * [Améliorations des projets](#project-enhancements)
+* [Améliorations de la vérification](#proofing-enhancements)
 * [Améliorations de la gestion des ressources](#resource-management-enhancements)
 * [Autres améliorations](#other-enhancements)
 
@@ -299,6 +300,41 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                         </ul>
                     </td>
                  </tr>
+           </tbody>
+        </table>
+
+### Améliorations de la vérification
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de version</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour de sécurité de la visionneuse de vérification de l’appli de bureau</a></p>
+                        <p>La mise à jour de sécurité de Workfront Proof Desktop Proofing Viewer 2.1.35 fournit des correctifs de bogues de sécurité pour les vulnérabilités identifiées dans les versions précédentes.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : juillet 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production pour tous les clients : 4 juillet 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
            </tbody>
         </table>
 
