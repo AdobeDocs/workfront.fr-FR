@@ -6,10 +6,10 @@ description: Pour installer l’application avant qu’elle ne soit disponible d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
 workflow-type: tm+mt
 source-wordcount: '941'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -43,8 +43,8 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités décr
    <td> <p>N’importe quelle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : formule [!UICONTROL]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Plan]</p> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -79,11 +79,11 @@ Pour installer l’application avant qu’elle ne soit disponible :
 
 1. Dans votre environnement de production, accédez à
 
-   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
 
    Dans votre environnement Sandbox, accédez à
 
-   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ Pour installer l’application avant qu’elle ne soit disponible :
 1. Dans le **Rechercher des applications d’AppExchange** box, type **Workfront**.
 
 1. Cliquez sur l’application Workfront lorsque vous la trouvez, puis cliquez sur **Obtenir maintenant**.
-1. Cliquez sur **[!UICONTROL Installation en production]** pour installer le [!DNL Workfront] dans votre application [!DNL Salesforce] Environnement de production. (recommandé)
+1. Cliquez sur **[!UICONTROL Installation en production]** pour installer le [!DNL Workfront] dans votre application [!DNL Salesforce] Environnement de production. (recommandé).
 1. Après avoir lu et accepté les conditions générales, activez la variable **[!UICONTROL J&#39;ai lu et j&#39;accepte les conditions générales]** champ .
 1. Cliquez sur **[!UICONTROL Confirmation et installation]**.
 1. Sélectionner **[!UICONTROL Installation pour tous les utilisateurs]** (recommandé), puis cliquez sur **[!UICONTROL Installer]**.
@@ -167,7 +167,7 @@ Par exemple : *yourDomain.my.workfront.com*.
    Vous devez vous connecter avec votre [!DNL Workfront] compte administrateur pour [!DNL Salesforce].
 
 1. Cliquez sur **[!UICONTROL Autoriser]**.
-1. Dans le **[!UICONTROL Installation dans cette organisation]** , cliquez sur **[!UICONTROL Installer ici]** pour installer [!DNL Workfront] dans votre [!DNL Salesforce] Environnement de production. (recommandé)
+1. Dans le **[!UICONTROL Installation dans cette organisation]** , cliquez sur **[!UICONTROL Installer ici]** pour installer [!DNL Workfront] dans votre [!DNL Salesforce] Environnement de production. (recommandé).
 
 1. Après avoir lu et accepté les conditions générales, activez la variable **[!UICONTROL J&#39;ai lu et j&#39;accepte les conditions générales]** champ .
 1. Cliquez sur **[!UICONTROL Confirmation et installation]**.
