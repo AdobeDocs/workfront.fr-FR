@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 5%
+source-wordcount: '685'
+ht-degree: 4%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 5%
 Cette page décrit toutes les améliorations apportées à l’administrateur à la version du troisième trimestre 2024 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Les règles de fonctionnement sont désormais disponibles.
+
+>[!NOTE]
+>
+>Version d’aperçu : 4 juillet 2024 ; version de production pour tous les clients : avec la version 24.7 (18 juillet 2024).
+
+Les administrateurs peuvent désormais ajouter des règles de fonctionnement dans la zone Configuration de Workfront.
+
+Une règle de fonctionnement vous permet d’appliquer la validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles sont créées à l’aide d’une formule similaire aux champs calculés dans les formulaires personnalisés.
+
+Pour plus d’informations, voir [Création et modification de règles de fonctionnement](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>Les règles de fonctionnement ne sont disponibles que pour les organisations qui ont souscrit au nouveau plan Ultimate.
 
 ## Concepteur de formulaire personnalisé généralement disponible dans Adobe Workfront
 

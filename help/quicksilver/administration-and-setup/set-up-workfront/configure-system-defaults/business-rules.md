@@ -7,17 +7,16 @@ description: Vous pouvez indiquer si vous souhaitez recevoir de nouvelles foncti
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
-source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1051'
 ht-degree: 4%
 
 ---
 
 # Création et modification de règles de fonctionnement
+
+{{highlighted-preview-article-level}}
 
 Une règle de fonctionnement vous permet d’appliquer la validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles métier permettent d’améliorer la qualité des données et l’efficacité opérationnelle en empêchant les actions susceptibles de compromettre l’intégrité des données.
 
@@ -25,7 +24,7 @@ Une règle de fonctionnement unique ne peut être affectée qu’à un seul obje
 
 Les niveaux d’accès et le partage d’objets ont une priorité plus élevée que les règles métier lorsqu’un utilisateur interagit avec un objet. Par exemple, si un utilisateur dispose d’un niveau d’accès ou d’une autorisation qui ne permet pas de modifier un projet, ceux-ci sont prioritaires sur une règle de fonctionnement qui autorise la modification d’un projet dans certaines conditions.
 
-Il existe également une hiérarchie lorsque plusieurs règles métier sont appliquées à un objet. Par exemple, vous avez deux règles de fonctionnement. L&#39;une restreint la création des dépenses au mois de février. La seconde empêche la modification d’un projet lorsque l’état du projet est Terminé. Si un utilisateur tente d’ajouter une dépense à un projet terminé en juin, la dépense ne peut pas être ajoutée car elle a déclenché la deuxième règle.
+Lorsque plusieurs règles de fonctionnement s’appliquent à un objet, les règles sont toutes suivies mais ne sont pas appliquées dans un certain ordre. Par exemple, vous avez deux règles de fonctionnement. L&#39;une restreint la création des dépenses au mois de février. La seconde empêche la modification d’un projet lorsque l’état du projet est Terminé. Si un utilisateur tente d’ajouter une dépense à un projet terminé en juin, la dépense ne peut pas être ajoutée car elle a déclenché la deuxième règle.
 
 Les règles de fonctionnement s’appliquent à la création, la modification et la suppression d’objets via l’API ainsi que dans l’interface de Workfront.
 
@@ -64,18 +63,36 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 ## Scénarios de règles de fonctionnement
 
-Voici quelques scénarios de règles de fonctionnement simples :
+Le format d’une règle de fonctionnement est &quot;SI la condition définie est remplie, l’utilisateur ne peut pas effectuer d’action sur l’objet et le message s’affiche&quot;.
 
-* Les utilisateurs ne peuvent pas ajouter de nouvelles dépenses pendant la dernière semaine de février. Cette formule pourrait être formulée comme suit : `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Les utilisateurs ne peuvent pas modifier un projet dont l’état est Terminé. Cette formule pourrait être formulée comme suit : `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-La syntaxe de création d’une règle de fonctionnement est la même que celle de création d’un champ calculé dans un formulaire personnalisé. Pour plus d’informations sur la syntaxe, voir [Ajouter des champs calculés avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+La syntaxe des propriétés et autres fonctions d’une règle de fonctionnement est la même que celle d’un champ calculé d’un formulaire personnalisé. Pour plus d’informations sur la syntaxe, voir [Ajouter des champs calculés avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Pour plus d’informations sur les instructions IF, voir [Présentation des instructions &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) et [Opérateurs de condition dans les champs personnalisés calculés](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Pour plus d’informations sur les caractères génériques basés sur l’utilisateur, voir [Utilisation de caractères génériques basés sur l’utilisateur pour généraliser des rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Pour plus d’informations sur les caractères génériques basés sur des dates, voir [Utilisation de caractères génériques basés sur des dates pour généraliser des rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+Un caractère générique API est également disponible dans les règles de fonctionnement. Vous pouvez utiliser `$$ISAPI` pour déclencher la règle uniquement dans l’interface utilisateur ou uniquement dans l’API.
+
+Voici quelques scénarios de règles de fonctionnement simples :
+
+* Les utilisateurs ne peuvent pas ajouter de nouvelles dépenses pendant la dernière semaine de février. Cette formule pourrait être formulée comme suit : `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Les utilisateurs ne peuvent pas modifier un projet dont l’état est Terminé. Cette formule pourrait être formulée comme suit : `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+Un scénario avec des instructions IF imbriquées est le suivant :
+
+Les utilisateurs ne peuvent pas modifier les projets terminés et ne peuvent pas modifier les projets dont la date de fin est planifiée au mois de mars. Cette formule pourrait être formulée comme suit :
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## Ajouter une nouvelle règle de fonctionnement
 

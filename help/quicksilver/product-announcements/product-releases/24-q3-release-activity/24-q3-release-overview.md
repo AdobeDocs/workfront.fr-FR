@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
+source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 44%
+source-wordcount: '1740'
+ht-degree: 43%
 
 ---
 
@@ -56,6 +56,23 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                     <td>
                         <p><span class="bold">Dates de version</span>
                         </p>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Les règles de fonctionnement sont désormais disponibles.</a></p>
+                        <p>Les administrateurs peuvent désormais ajouter des règles de fonctionnement dans la zone Configuration de Workfront.</p>
+                        <p>Une règle de fonctionnement vous permet d’appliquer la validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles sont créées à l’aide d’une formule similaire aux champs calculés dans les formulaires personnalisés.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : vendredi 4 juillet 2024</p>
+                            </li>
+                            <li>
+                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
