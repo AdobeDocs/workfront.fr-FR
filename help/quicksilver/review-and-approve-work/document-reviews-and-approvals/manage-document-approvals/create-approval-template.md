@@ -6,9 +6,9 @@ description: Vous pouvez créer des modèles d’approbation afin d’optimiser 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
-workflow-type: ht
-source-wordcount: '224'
+source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Standard</p> </td> 
+   <td> <p>Nouvelle : standard</p> 
+   <p>ou</p>
+   <p>Actuelle : formule</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

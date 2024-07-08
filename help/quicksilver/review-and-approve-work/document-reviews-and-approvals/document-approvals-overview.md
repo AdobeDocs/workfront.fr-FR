@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateu
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
+source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 96%
+source-wordcount: '478'
+ht-degree: 91%
 
 ---
 
@@ -41,13 +41,9 @@ Pour plus d’informations sur les fonctionnalités et versions prévues pour la
 
 ## Calendrier des versions
 
-Nous publions plusieurs versions de la nouvelle approbation de documents. Outre l’ajout de nouvelles fonctionnalités, nous allons également augmenter le nombre de comptes pour lesquels la nouvelle approbation de documents est disponibles avec chaque version. L’équipe d’administration de compte recevra un e-mail du Centre d’annonces l’informant de la modification avant son inclusion.
+Nous publions plusieurs versions de la nouvelle approbation de documents. Outre l’ajout de nouvelles fonctionnalités, nous allons également augmenter le nombre de comptes pour lesquels de nouvelles approbations de document sont disponibles avec chaque version.
 
 Si vous souhaitez que la nouvelle approbation de documents soit activée dans votre environnement de production, contactez votre gestionnaire de compte stratégique ou de succès client.
-
-**Version 1**\
-    Version préliminaire : 31 mai 2023\
-    Version de production : 14 juin 2023
 
 ## Utilisation de la nouvelle approbation de documents
 
