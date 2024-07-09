@@ -2,19 +2,19 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-documents
-title: La zone Documents
+title: Zone Documents
 description: Dans la zone Documents, vous pouvez organiser, gérer et afficher les métadonnées des documents chargés dans Adobe Workfront. Vous pouvez également voir la décision du BAT.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 4%
 
 ---
 
-# La zone Documents
+# Zone Documents
 
 Dans la zone Documents, vous pouvez organiser, gérer et afficher les métadonnées des documents chargés dans Adobe Workfront. Vous pouvez également voir la décision du BAT.
 
@@ -22,11 +22,19 @@ Dans la zone Documents, vous pouvez organiser, gérer et afficher les métadonn�
 
 Il existe deux types de zones Documents . Les fonctionnalités sont les mêmes pour les deux types de fonctionnalités :
 
-* **Zone Documents dans un projet, une tâche ou un problème :** Répertorie tous les documents auxquels vous avez accès pour un projet, une tâche ou un problème particulier. Pour accéder à cette zone, cliquez sur **Documents** ![](assets/document-icon-12x14.png) dans le panneau de gauche lors de l’affichage d’un projet, d’une tâche ou d’un problème.
+* **Zone Documents d’un programme, d’un portfolio, d’un projet, d’une tâche ou d’un problème :** Répertorie tous les documents auxquels vous avez accès pour un projet, une tâche ou un problème particulier. Pour accéder à cette zone, cliquez sur **Documents** ![](assets/document-icon-12x14.png) dans le panneau de gauche lors de l’affichage d’un projet, d’une tâche ou d’un problème.
 
 * **Zone Documents globaux :** Répertorie tous les documents auxquels vous avez accès dans Workfront. Pour accéder à cette zone, cliquez sur **Documents** ![](assets/document-icon.png) dans le menu principal ![](assets/main-menu-icon.png).
 
 Pour plus d’informations sur le téléchargement de documents vers Workfront, voir [Ajout de documents à Adobe Workfront à partir de votre système de fichiers](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
+
+La zone Documents enregistre un nombre d’éléments suivants :
+
+* Dossiers Workfront
+* Fichiers chargés à partir du système de fichiers
+* Fichiers ajoutés à Workfront à partir des intégrations
+* Linked Experience Manager Assets
 
 ## Panneau Résumé
 
@@ -38,7 +46,7 @@ Vous pouvez cliquer sur l’en-tête Détails pour accéder à la zone Détails 
 
 ![](assets/documents-area-v2-350x199.png)
 
-Pour plus d’informations sur le résumé, voir [Présentation du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
+Pour plus d’informations sur le résumé, voir [Résumé de la vue d’ensemble des documents](../../documents/managing-documents/summary-for-documents.md).
 
 ## Décision du BAT
 
