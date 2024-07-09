@@ -7,10 +7,10 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4fd097395a3122caa5ba63765e572186c31c75ac
+source-git-commit: d2d96baa060cb3306f1767d179d514b569b0156a
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ La colonne d’ingestion n’est pas disponible sur un panorama dynamique. Vous 
 
 >[!NOTE]
 >
->Pour des raisons de sécurité, seul le propriétaire d’un panorama peut modifier les filtres du panorama dans le panneau Configurer .
+>Pour des raisons de sécurité, seule la personne propriétaire d’un panorama peut modifier les filtres du panorama dans le panneau Configurer.
 
 La colonne d’admission est limitée à 300 tâches et 300 numéros. L&#39;ordre par défaut des éléments dans la colonne d&#39;entrée est le suivant :
 
@@ -166,4 +166,5 @@ Les icônes situées en haut à droite de la colonne d’entrée indiquent le no
    Cliquez sur le bouton **[!UICONTROL Plus]** menu ![Icône Plus de menu](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Déplacer]**. Ensuite, sur le **[!UICONTROL Déplacer un élément]** , choisissez une autre colonne et sélectionnez **[!UICONTROL Déplacer]**.
 
 1. (Facultatif) Pour supprimer la colonne d’ingestion, cliquez sur le bouton **[!UICONTROL Plus]** menu ![Icône Plus de menu](assets/more-icon-spectrum.png) et sélectionnez **[!UICONTROL Supprimer]**.
+
 
