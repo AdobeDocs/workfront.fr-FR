@@ -7,7 +7,7 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: d2d96baa060cb3306f1767d179d514b569b0156a
+source-git-commit: 14448432922ec1fa478b805dead2ba1e6c211e86
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 9%
@@ -166,5 +166,3 @@ Les icônes situées en haut à droite de la colonne d’entrée indiquent le no
    Cliquez sur le bouton **[!UICONTROL Plus]** menu ![Icône Plus de menu](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Déplacer]**. Ensuite, sur le **[!UICONTROL Déplacer un élément]** , choisissez une autre colonne et sélectionnez **[!UICONTROL Déplacer]**.
 
 1. (Facultatif) Pour supprimer la colonne d’ingestion, cliquez sur le bouton **[!UICONTROL Plus]** menu ![Icône Plus de menu](assets/more-icon-spectrum.png) et sélectionnez **[!UICONTROL Supprimer]**.
-
-
