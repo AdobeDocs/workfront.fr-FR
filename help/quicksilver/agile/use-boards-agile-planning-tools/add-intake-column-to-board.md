@@ -7,10 +7,10 @@ description: Vous pouvez éventuellement ajouter une colonne d’entrée à votr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
+source-git-commit: 4fd097395a3122caa5ba63765e572186c31c75ac
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 4%
+source-wordcount: '1108'
+ht-degree: 8%
 
 ---
 
@@ -21,6 +21,10 @@ Vous pouvez éventuellement ajouter une colonne d’entrée à votre panorama qu
 Une seule colonne d’entrée est autorisée sur un panorama et apparaît toujours comme la colonne la plus à gauche.
 
 La colonne d’ingestion n’est pas disponible sur un panorama dynamique. Vous pouvez toutefois mettre à jour les filtres qui définissent les cartes qui sont importées sur un panorama dynamique. Lorsque vous modifiez ces filtres sur un panorama dynamique, les paramètres de carte qui ne font pas partie de la tâche ou du problème Workfront (comme les balises) sont réinitialisés.
+
+>[!NOTE]
+>
+>Pour des raisons de sécurité, seul le propriétaire d’un panorama peut modifier les filtres du panorama dans le panneau Configurer .
 
 La colonne d’admission est limitée à 300 tâches et 300 numéros. L&#39;ordre par défaut des éléments dans la colonne d&#39;entrée est le suivant :
 
@@ -61,7 +65,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
 ## Création d’une colonne d’entrée à l’aide de filtres simples
 
