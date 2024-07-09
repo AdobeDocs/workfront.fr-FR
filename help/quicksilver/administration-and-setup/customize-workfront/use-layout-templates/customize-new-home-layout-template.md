@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 97%
 
 ---
 
@@ -132,3 +132,8 @@ Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p
    Ou
 
    Si vous avez terminé de le personnaliser, cliquez sur **Enregistrer** en bas à gauche.
+
+
+>[!NOTE]
+>
+>Les administrateurs qui personnalisent leur propre modèle de mise en page devront actualiser la page pour afficher les modifications.

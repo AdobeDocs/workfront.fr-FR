@@ -6,10 +6,10 @@ description: Les modificateurs de filtre et de condition vous permettent de cré
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
-workflow-type: ht
-source-wordcount: '1516'
-ht-degree: 100%
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
+workflow-type: tm+mt
+source-wordcount: '1566'
+ht-degree: 96%
 
 ---
 
@@ -101,7 +101,7 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
   </tr>   <tr valign="top"> 
    <td> </td> 
    <td> <p><strong>eq</strong> </p> </td> 
-   <td> <p>Ce modificateur ne renvoie qu’une correspondance exacte, qui <i>respecte la casse</i> de la valeur recherchée.</p> <p>Par exemple, lors de la recherche de projets complets, <code>eq CPL</code> renvoie tous les projets dont le statut est Terminé. <code>eq CPL, CUR</code> ne renvoie pas de résultat, car un projet ne peut pas être terminé et en cours en même temps.</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modifier un filtre à l’aide du mode texte</a>.</p> </td> 
+   <td> <p>Ce modificateur ne renvoie qu’une correspondance exacte, qui <i>respecte la casse</i> de la valeur recherchée.</p> <p>Par exemple, lors de la recherche de projets complets, <code>eq CPL</code> renvoie tous les projets dont le statut est Terminé. <code>eq CPL, CUR</code> ne renvoie pas de résultat, car un projet ne peut pas être terminé et en cours en même temps.</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modifier un filtre en mode texte</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
@@ -127,16 +127,16 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
    <td> <p><strong>Non égal à</strong> </p> </td> 
    <td> <p><strong>notin</strong> </p> </td> 
    <td> <p>Il s’agit du <i>respect de la casse</i> opposé à <strong>in</strong>. Seuls les résultats qui ne figurent pas dans la liste spécifiée sont renvoyés.</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modifier un filtre à l’aide du mode texte</a>.</p> <p>Note : <span>si le champ que vous filtrez comporte plusieurs options, les résultats qui contiennent à la fois le choix que vous spécifiez, ainsi que le choix que vous spécifiez et tout autre choix sont filtrés.</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>like</strong> </p> </td> 
+   <td> <p>Ce modificateur recherche des parties d’une chaîne de texte qui <i>respecte la casse</i> de la même manière que <strong>contains</strong>. Cependant, <strong>like</strong> permet d’insérer des caractères joker pour séparer le texte.</p> <p>Par exemple, lors de la recherche de notes, l’utilisation de <code>like %Current% %Dead%</code> renvoie toute note contenant l’expression « Actuel à inactif ». Aucune note contenant « Inactif à actuel » n’est incluse. Chaque valeur est recherchée dans l’ordre dans lequel elle est répertoriée. Le % représente un caractère générique pour remplacer des caractères ou des segments de texte. Un trait de soulignement peut également être utilisé pour un seul caractère générique, comme dans <code>like Project_</code> qui renvoie "Projet" et "Projets". Si vous envisagez d’utiliser une <strong>like</strong> ou <strong>clike</strong> dans votre filtrage, nous vous recommandons d’éviter les caractères % ou _ dans les noms de champ de données personnalisés, les valeurs des options de paramètre ou d’autres noms d’objet.</p><p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modifier un filtre en mode texte</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
    <td> <p>Il s’agit de la version du <i>respect de la casse</i> de <strong>like</strong>. Par exemple : <code>cilike %Current% %Dead%</code> renvoie les notes qui contiennent <code>Current to Dead</code> ou <code>current to dead</code>.</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modifier un filtre à l’aide du mode texte</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>like</strong> </p> </td> 
-   <td> <p>Ce modificateur recherche des parties d’une chaîne de texte qui <i>respecte la casse</i> de la même manière que <strong>contains</strong>. Cependant, <strong>like</strong> permet d’insérer des caractères joker pour séparer le texte.</p> <p>Par exemple, lors de la recherche de notes, l’utilisation de <code>like %Current% %Dead%</code> renvoie toute note contenant l’expression « Actuel à inactif ». Aucune note contenant « Inactif à actuel » n’est incluse. Chaque valeur est recherchée dans l’ordre dans lequel elle est répertoriée. Le % représente un caractère joker pour remplacer des caractères ou des segments de texte.</p> <p>Ce modificateur ne peut être utilisé que dans les filtres de mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modifier un filtre à l’aide du mode texte</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>N’existe pas</strong> </td> 
