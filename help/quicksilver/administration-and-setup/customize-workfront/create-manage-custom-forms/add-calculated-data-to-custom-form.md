@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
+source-git-commit: 02b025f228b6e2abc58dbc30f88c055c7850b803
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2895'
 ht-degree: 6%
 
 ---
@@ -300,7 +300,7 @@ Par exemple, pour référencer l’option sélectionnée dans un champ personnal
 
 ## Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets {#calculated-custom-fields-in-multi-object-custom-forms}
 
-Dans un formulaire personnalisé à plusieurs objets, les types d’objet sélectionnés doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous avertit d’effectuer des ajustements.
+Dans un formulaire personnalisé à plusieurs objets, les types d’objet sélectionnés doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire.
 
 >[!INFO]
 >
@@ -310,7 +310,7 @@ Dans un formulaire personnalisé à plusieurs objets, les types d’objet sélec
 >
 >`{assignedTo}.{name}`
 >
->Par la suite, vous ajoutez le type d’objet Projet au formulaire personnalisé. Un message d’avertissement vous indique que le type d’objet Projet est incompatible avec le champ personnalisé calculé.
+>Par la suite, vous ajoutez le type d’objet Projet au formulaire personnalisé, mais le type d’objet Projet est incompatible avec le champ personnalisé calculé.
 
 Dans ce cas, vous pouvez effectuer l’une des opérations suivantes :
 
@@ -325,7 +325,7 @@ Dans ce cas, vous pouvez effectuer l’une des opérations suivantes :
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-Pour plus d’informations sur les variables telles que `$$OBJCODE,` see [Présentation des variables de filtre de caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Pour plus d’informations sur les variables telles que `$$OBJCODE,` see [Présentation des variables de filtre de caractères génériques](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Mises à jour automatiques des champs personnalisés calculés
 

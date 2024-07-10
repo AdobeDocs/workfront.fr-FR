@@ -1,5 +1,5 @@
 ---
-title: Ajouter des champs calculés avec le concepteur de formulaires
+title: Ajouter des champs calculés avec le créateur de formulaires
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
 workflow-type: tm+mt
 source-wordcount: '2355'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Ajouter des champs calculés avec le concepteur de formulaires
+# Ajouter des champs calculés avec le créateur de formulaires
 
 Vous pouvez ajouter un champ personnalisé calculé qui utilise les données existantes pour générer de nouvelles données lorsque le formulaire personnalisé est joint à un objet.
 
@@ -38,25 +38,25 @@ Un champ personnalisé calculé peut contenir :
   >Dans les étapes ci-dessous, vous pouvez suivre cet exemple.
 
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Quelconque</td> 
+   <td role="rowheader"> <p>Forfait Adobe Workfront*</p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs de Workfront accordent cet accès, voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs et administratrices de Workfront accordent cet accès, voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroyer aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -81,15 +81,15 @@ Vous pouvez également avoir un calcul différent pour le même champ, sur le no
 
 Pour réutiliser un champ personnalisé calculé existant :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Forms personnalisée** dans le panneau de gauche.
+1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Cliquez sur **Nouveau formulaire personnalisé.**
+1. Cliquez sur **Nouveau formulaire personnalisé**.
 1. Sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
@@ -102,7 +102,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 
    >[!NOTE]
    >
-   >Vous pouvez ajouter jusqu’à 500 champs et widgets sur un seul formulaire personnalisé. Cependant, une dégradation des performances peut se produire lorsque plus de 100 sur un formulaire existent, selon sa complexité.
+   >Vous pouvez ajouter jusqu’à 500 champs et widgets sur un seul formulaire personnalisé. Cependant, une dégradation des performances peut se produire lorsque le formulaire comporte plus de 100 champs, en fonction de sa complexité.
    >
    >
    >Parmi les exemples de formulaires complexes, citons les formulaires avec des paramètres en cascade, des champs de données personnalisés calculés et plusieurs options de valeur dans un seul champ.
@@ -111,7 +111,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 
    ou
 
-   Cliquez sur **Enregistrer et fermer**.
+   Cliquez sur **Enregistrer et Fermer**.
 
 ## Ajouter un nouveau champ calculé
 
@@ -119,22 +119,22 @@ Pour réutiliser un champ personnalisé calculé existant :
 >
 >Avant de créer un nouveau champ personnalisé calculé, identifiez les champs existants que vous souhaitez inclure afin de vous assurer que les données nécessaires au calcul sont présentes dans Workfront.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Forms personnalisée** dans le panneau de gauche.
+1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Cliquez sur **Nouveau formulaire personnalisé.**
+1. Cliquez sur **Nouveau formulaire personnalisé**.
 1. Sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 
 1. Dans la partie gauche de l’écran, recherchez **Calculé** et faites-le glisser vers une section de la zone de travail.
 
    ![](assets/drag-field-to-section.png)
 
-1. Dans la partie droite de l’écran, configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
+1. Dans la partie droite de l’écran, configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -238,7 +238,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         >[!INFO]
         >
-        >**Exemple :**
+        >**Exemple :**
         >
         >Dans un formulaire personnalisé configuré pour fonctionner avec des projets, des tâches et des problèmes, vous pouvez utiliser la formule suivante pour afficher le type d’objet :
         >
@@ -267,7 +267,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
            >[!NOTE]
            >
-           ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont calculées et enregistrées selon l’heure universelle coordonnée (UTC), et non selon les configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil utilisateur. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque utilisateur.</div>
+           ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont traitées et enregistrées en fonction du temps universel coordonné (UTC), et non en fonction des configurations de fuseau horaire définies pour l’instance de votre entreprise et votre profil d’utilisateur ou d’utilisatrice. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque utilisateur.</div>
 
 +++
 
@@ -278,6 +278,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
       Si vous entrez une parenthèse d’ouverture, la parenthèse de fermeture est ajoutée automatiquement.
 
 +++ **Développer pour afficher des conseils utiles**
+
       >[!TIP]
       >
       >Vous pouvez effectuer l’une des opérations suivantes pour obtenir de l’aide sur votre calcul :
@@ -321,4 +322,4 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
    ou
 
-   Cliquez sur **Enregistrer et fermer**.
+   Cliquez sur **Enregistrer et Fermer**.
