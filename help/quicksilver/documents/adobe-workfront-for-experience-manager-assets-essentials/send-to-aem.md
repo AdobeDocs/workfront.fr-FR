@@ -6,22 +6,20 @@ description: Vous pouvez envoyer des documents de Workfront vers Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 14%
+source-wordcount: '915'
+ht-degree: 11%
 
 ---
 
 # Envoyer un document à Experience Manager Assets ou Assets Essentials
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation de sandbox.</span>
-
 Vous pouvez envoyer des documents de Workfront vers Experience Manager Assets ou des Assets Essentials. Les documents téléchargés et envoyés depuis Workfront à des Assets Essentials sont toujours pris en compte par rapport à votre stockage global de documents. Les Assets liées à partir d’Assets Essentials ne sont pas prises en compte dans le stockage global.
 
 Les Assets envoyées à Experience Manager par le biais de cette intégration ont une taille limite de **5 Go**.
 
-<span class="preview">Dans l’environnement Aperçu, les Assets envoyées à l’Experience Manager par le biais de cette intégration ont une limite de taille de **30 Go**.</span>
+Dans l’environnement Aperçu, les Assets envoyées à l’Experience Manager par le biais de cette intégration ont une limite de taille de **30 Go**.
 
 Les champs de métadonnées sont d’abord mappés lorsque vous envoyez une ressource de Workfront vers Experience Manager Assets ou des Assets Essentials. Toutes les métadonnées configurées pour mapper des objets parents sont également envoyées. Pour plus d’informations sur la configuration du mappage des métadonnées, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -31,7 +29,9 @@ Les champs de métadonnées sont d’abord mappés lorsque vous envoyez une ress
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,6 +62,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Conditions préalables
 
