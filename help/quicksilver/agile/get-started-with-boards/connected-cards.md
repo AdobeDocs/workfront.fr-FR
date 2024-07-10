@@ -6,10 +6,10 @@ description: Vous pouvez ajouter sur votre panorama une carte qui est connectée
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 95%
+source-wordcount: '1492'
+ht-degree: 94%
 
 ---
 
@@ -166,8 +166,8 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Cliquez dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme, puis cliquez sur l’icône <strong>Ajouter une pièce jointe</strong> <img src="assets/attachment-icon.png" alt="Icône Pièce jointe"> pour joindre un fichier au commentaire. Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur ou l’utilisatrice ne doit pas nécessairement être membre du panorama. Les utilisateurs et utilisatrices tagués sur des cartes connectées recevront des notifications par e-mail.</p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
-      <p><strong>REMARQUE :</strong> la zone de commentaire sur les cartes utilise la nouvelle expérience de commentaire d’Adobe Workfront. Pour plus d’informations, consultez la section <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mettre à jour le travail</a>.</p></td>
+      <td><p>Cliquez dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme. Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur ou l’utilisatrice ne doit pas nécessairement être membre du panorama. Les utilisateurs et utilisatrices tagués sur des cartes connectées recevront des notifications par e-mail.</p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
+      <p>Pour plus d’informations sur les commentaires, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 

@@ -6,10 +6,10 @@ description: Vous pouvez rapidement ajouter une carte ad hoc à un panorama et l
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 0%
+source-wordcount: '878'
+ht-degree: 33%
 
 ---
 
@@ -21,9 +21,9 @@ Vous pouvez ajouter rapidement une carte à un panorama et l’affecter à un me
 >
 >Les cartes ad hoc d’un panorama ne sont pas connectées aux tâches dans [!DNL Adobe Workfront]. Pour plus d’informations sur les cartes connectées, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,17 +32,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
 ## Ajout d’une carte ad hoc avec des détails complets
 
@@ -70,7 +70,7 @@ Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
-      <td>Description de la carte. Vous pouvez ajouter des URL dans la description ; elles deviennent des liens cliquables lors de l’enregistrement de la carte.</td>
+      <td>Description de la carte. Vous pouvez ajouter des URL dans la description ; elles deviennent des liens cliquables lorsque la carte est enregistrée.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Column]</strong> </td> 
@@ -78,7 +78,7 @@ Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
-      <td>Sélectionnez l’état de la carte. Cliquez sur <strong>[!UICONTROL Mark Complete]</strong> en haut de la carte, l’état devient automatiquement [!UICONTROL Terminé].</td> 
+      <td>Sélectionnez un statut pour la carte. Cliquez sur <strong>[!UICONTROL Mark Complete]</strong> en haut de la carte, l’état devient automatiquement [!UICONTROL Terminé].</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Échéance]</strong></td> 
@@ -90,11 +90,11 @@ Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Affectations]</strong> </td> 
-      <td>Pour attribuer la carte, cliquez sur <strong>[!UICONTROL Ajouter une affectation]</strong> et commencez à saisir un nom dans le champ de recherche. Sélectionnez-la ensuite lorsqu’elle s’affichera dans la liste de résultats. Vous pouvez ajouter des individus et des équipes et affecter plusieurs personnes ou équipes à une carte.</td>
+      <td>Pour attribuer la carte, cliquez sur <strong>[!UICONTROL Ajouter une affectation]</strong> et commencez à saisir un nom dans le champ de recherche. Sélectionnez-le ensuite lorsqu’elle s’affiche dans la liste de résultats. Vous pouvez ajouter des individus et des équipes et affecter plusieurs personnes ou équipes à une carte.</td>
      </tr>     
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Balises]</strong></td> 
-      <td>Recherchez et sélectionnez des balises pour la carte. Pour plus d’informations sur la création de balises, voir <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Ajout de balises</a>.</td> 
+      <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
+      <td>Recherchez et sélectionnez des balises pour la carte. Pour plus d’informations sur la création de balises, voir <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Ajouter des balises</a>.</td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Connection]</strong> </td>
@@ -102,13 +102,13 @@ Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Liste de contrôle]</strong> </td> 
-      <td> <p>Cliquez sur <strong>[!UICONTROL Ajouter un élément de liste de contrôle]</strong>. Saisissez ensuite le titre de l’élément et appuyez sur Entrée. Un autre élément est automatiquement ajouté. Continuez à saisir des titres pour ajouter d’autres éléments.</p> <p>Le compteur en haut de la liste de contrôle indique le nombre d’éléments terminés et le nombre total d’éléments.</p> <p>Pour plus d’informations sur les éléments de liste de contrôle, voir <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gérer les éléments de liste de contrôle sur les cartes</a>.</p> </td> 
+      <td> <p>Cliquez sur <strong>[!UICONTROL Add checklist item]</strong>. Saisissez ensuite le titre de l’élément et appuyez sur Entrée. Un autre élément est automatiquement ajouté. Continuez à saisir des titres pour ajouter d’autres éléments.</p> <p>Le compteur en haut de la liste de contrôle indique le nombre d’éléments terminés et le nombre total d’éléments.</p> <p>Pour plus d’informations sur les éléments de liste de contrôle, voir <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gérer les éléments de la liste de contrôle sur les cartes</a>.</p> </td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Cliquez sur dans le <strong>[!UICONTROL Nouveau commentaire]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme, puis cliquez sur le bouton <strong>Ajouter une pièce jointe</strong> icon <img src="assets/attachment-icon.png" alt="Icône Pièce jointe"> pour joindre un fichier au commentaire. Pour baliser une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur n’a pas à être membre du panorama.</p><p><strong>REMARQUE :</strong> Actuellement, les utilisateurs balisés dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par courrier électronique.
+      <td><p>Cliquez dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme. Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur n’a pas à être membre du panorama.</p><p><strong>REMARQUE :</strong> Actuellement, les utilisateurs balisés dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par courrier électronique.
       </p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
-      <p><strong>REMARQUE :</strong> La zone de commentaire sur les cartes utilise la nouvelle expérience de commentaire d’Adobe Workfront. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
+      <p>Pour plus d’informations sur les commentaires, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -139,12 +139,12 @@ Vous pouvez ajouter des cartes ad hoc avec un titre uniquement pour remplir rapi
 
 1. Accédez au panorama.
 1. Cliquez sur le nom de la carte pour le modifier.
-1. Pour modifier les détails de la carte, cliquez sur la carte (et non dans le nom de la carte).
+1. Pour modifier les détails de la carte, cliquez sur la carte (ne cliquez pas sur le nom de la carte).
 
    Ou
 
-   Cliquez sur le bouton **[!UICONTROL Plus]** menu ![[!UICONTROL Plus de menu]](assets/more-icon-spectrum.png) sur la carte et sélectionnez **[!UICONTROL Modifier]**.
+   Cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Menu Plus]](assets/more-icon-spectrum.png) sur la carte et sélectionnez **[!UICONTROL Modifier]**.
 
 1. Dans le [!UICONTROL Détails de la carte] , mettez à jour les informations selon les besoins, puis cliquez sur **[!UICONTROL Fermer]** pour revenir au panorama.
 
-   Si des stratégies de colonne sont activées pour la mise à jour des valeurs de champ, la modification de l’état de la carte déplace automatiquement la carte vers la colonne correspondante. Pour plus d’informations, voir &quot;Définition des paramètres et des stratégies de colonne&quot; dans l’article [Gestion des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Si des politiques de colonne sont activées pour la mise à jour des valeurs de champ, la modification du statut de la carte déplace automatiquement la carte dans la colonne correspondante. Pour plus d’informations, voir « Définir des paramètres et des politiques de colonne » dans l’article [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
