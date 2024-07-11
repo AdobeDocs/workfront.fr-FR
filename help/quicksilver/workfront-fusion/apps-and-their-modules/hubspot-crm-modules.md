@@ -4,69 +4,73 @@ description: La variable [!DNL Adobe Workfront Fusion] Les modules CRM HubSpot v
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
+source-git-commit: 1c56cf8aa9da7ec2644955d5533c71f60160d580
 workflow-type: tm+mt
-source-wordcount: '2582'
-ht-degree: 0%
+source-wordcount: '2615'
+ht-degree: 14%
 
 ---
 
-# [!DNL HubSpot CRM] modules
+# Modules [!DNL HubSpot CRM]
 
 La variable [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] Les modules vous permettent de surveiller les événements, les enregistrements, les contacts, les engagements, les envois de fichiers et de formulaires, ou de créer, récupérer, mettre à jour et supprimer des enregistrements, des contacts, des engagements, des événements ou des fichiers dans vos [!DNL HubSpot CRM] compte .
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
-Pour utiliser [!DNL HubSpot CRM] modules, vous devez disposer d’un [!DNL HubSpot CRM] compte .
+Pour utiliser des modules [!DNL HubSpot CRM], vous devez disposer d’un compte [!DNL HubSpot CRM].
 
-## Connexion [!DNL Adobe Workfront Fusion] to [!DNL HubSpot CRM]
+## Connecter [!DNL Adobe Workfront Fusion] à [!DNL HubSpot CRM]
 
 Pour obtenir des instructions sur la connexion à [!DNL HubSpot CRM] compte à [!DNL Workfront Fusion], voir [Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-## [!DNL HubSpot CRM] modules et leurs champs
+>[!NOTE]
+>
+>Lors de la configuration d’une connexion, sélectionnez l’événement **HubSpot CRM** type de connexion. Le type HubSpot CRM (obsolète) prend en charge les connexions existantes, mais il est déconseillé de l’utiliser pour créer de nouvelles connexions.
 
-Lorsque vous configurez [!DNL Hubspot CRM] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL Hubspot CRM] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+## Modules [!DNL HubSpot CRM] et leurs champs
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Lorsque vous configurez des modules [!DNL Hubspot CRM], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Hubspot CRM] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+
+Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -94,7 +98,7 @@ Ce module de recherche recherche des objets CRM par propriétés personnalisées
    <td> <p>Pour obtenir des instructions sur la connexion à [!DNL HubSpot CRM] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>Saisissez ou mappez le nombre maximal d’éléments que le module renverra dans un cycle d’exécution.</td> 
   </tr> 
   <tr> 
@@ -311,8 +315,8 @@ Ce module de déclenchement lance un scénario lorsqu’un contact, une sociét�
    <td>Sélectionnez les propriétés à inclure dans la sortie du module.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -466,7 +470,7 @@ Récupère une liste de contacts à l’aide de la requête de recherche.
    <td>Saisissez la requête de recherche.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite] </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
    <td>Entrer ou mapper le nombre maximum de contacts [!DNL Workfront Fusion] doit revenir pendant un cycle d'exécution de scénario. </td> 
   </tr> 
  </tbody> 
@@ -485,7 +489,7 @@ Renvoie tous les contacts qui ont été créés dans le portail. La sortie est l
    <td> <p>Pour obtenir des instructions sur la connexion à [!DNL HubSpot CRM] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>Nombre maximum de contacts [!DNL Workfront Fusion] doit revenir pendant un cycle d'exécution de scénario. </td> 
   </tr> 
   <tr> 
@@ -517,7 +521,7 @@ Récupère une liste de contacts dans la société. La sortie est limitée à 50
    <td>Saisissez l'identifiant de la société dont vous souhaitez répertorier les contacts. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>Nombre maximum de contacts [!DNL Workfront Fusion] doit revenir pendant un cycle d'exécution de scénario. </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -549,8 +553,8 @@ Ce module de déclenchement lance un scénario lorsqu&#39;un nouveau contact est
    <td>Sélectionnez les propriétés à inclure dans la sortie du module.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -621,7 +625,7 @@ Récupère une liste d’entreprises en fonction d’une correspondance exacte a
    <td>Entrez le domaine des sociétés que vous souhaitez rechercher, par exemple <code>[!DNL hubspot].com</code>. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>Nombre maximum d'entreprises [!DNL Workfront Fusion] doit revenir pendant un cycle d'exécution de scénario. </td> 
   </tr> 
   <tr> 
@@ -633,11 +637,11 @@ Récupère une liste d’entreprises en fonction d’une correspondance exacte a
 
 ### Fichiers
 
-* [[!UICONTROL Création d’un dossier]](#create-a-folder)
+* [[!UICONTROL Créer un dossier]](#create-a-folder)
 * [[!UICONTROL Suppression d’un dossier]](#delete-a-folder)
 * [[!UICONTROL Déplacer un fichier]](#move-a-file)
 
-#### [!UICONTROL Création d’un dossier]
+#### [!UICONTROL Créer un dossier]
 
 Ce module crée un dossier.
 
@@ -727,7 +731,7 @@ Supprime un ticket existant par son identifiant.
  </tbody> 
 </table>
 
-### [!UICONTROL Lancer un appel API]
+### [!UICONTROL Effectuer un appel API]
 
 Permet d’effectuer un appel API personnalisé.
 
@@ -757,7 +761,7 @@ Permet d’effectuer un appel API personnalisé.
    <td> <p>Saisissez un chemin relatif à https://api.hubapi.com/. Par exemple, /contacts/v1/lists/all/contacts/all</p> <p>Pour obtenir la liste des points de fin disponibles, reportez-vous à la section <a href="https://legacydocs.hubspot.com/docs/overview">[!DNL HubSpot] Documentation de l’API</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Méthode [!UICONTROL]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
    <td> <p>Sélectionnez la méthode HTTP à utiliser :</p> <p>[!UICONTROL GET]</p> <p>pour récupérer les informations d’une entrée.</p> <p>[!UICONTROL POST]</p> <p>pour créer une entrée.</p> <p>[!UICONTROL PUT]</p> <p>pour mettre à jour/remplacer une entrée existante.</p> <p>[!UICONTROL PATCH]</p> <p>pour effectuer une mise à jour partielle des entrées.</p> <p>[!UICONTROL DELETE]</p> <p>pour supprimer une entrée.</p> </td> 
   </tr> 
   <tr> 
@@ -766,7 +770,7 @@ Permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p> Saisissez la chaîne de requête de requête de requête.</p> </td> 
+   <td> <p> Saisissez la chaîne de requête.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
