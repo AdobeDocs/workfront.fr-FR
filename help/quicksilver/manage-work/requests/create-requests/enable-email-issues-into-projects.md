@@ -1,19 +1,19 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Autorisation des utilisateurs à envoyer par courrier électronique un problème dans un projet de file d’attente des demandes
-description: Autorisation des utilisateurs à envoyer par courrier électronique un problème dans un projet de file d’attente des demandes
+title: Permettre aux utilisateurs et utilisatrices d’envoyer par e-mail un problème dans un projet de la file d’attente des demandes
+description: Permettre aux utilisateurs et utilisatrices d’envoyer par e-mail un problème dans un projet de la file d’attente des demandes
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Autorisation des utilisateurs à envoyer par courrier électronique un problème dans un projet de file d’attente des demandes
+# Permettre aux utilisateurs et utilisatrices d’envoyer par e-mail un problème dans un projet de la file d’attente des demandes
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Vous pouvez configurer un projet pour permettre aux utilisateurs d’ajouter des problèmes au projet par courrier électronique. Vous pouvez autoriser l’envoi de problèmes par courrier électronique dans un projet uniquement si le projet est désigné comme une file d’attente de requêtes. Pour plus d’informations sur la création d’un projet de file d’attente des demandes, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,18 +32,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux problèmes</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -53,7 +53,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Conditions préalables
 
@@ -76,12 +76,12 @@ Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
 >
 >* Workfront autorise un email unique par file d’attente de requêtes dans toutes les grappes. Si vous choisissez de désactiver la file d’attente des demandes, vous conserverez l’adresse électronique que vous avez créée tant qu’elle se trouve toujours dans la zone Intake Email Address (Adresse électronique d’entrée). Si vous choisissez d’arrêter l’utilisation de l’email d’ingestion, vous devez le supprimer du champ Réception d’email afin qu’il puisse être utilisé ultérieurement.
 >
->* Si la file d’attente des demandes comporte plusieurs rubriques ou groupes de rubriques de file d’attente, Workfront sélectionne de manière aléatoire la rubrique de file d’attente vers laquelle les demandes envoyées par courrier électronique seront envoyées, rendant ainsi les requêtes envoyées difficilement gérables.
+>* Si la file d’attente des demandes comporte plusieurs rubriques ou groupes de rubriques de file d’attente, Workfront sélectionne de manière aléatoire la rubrique de file d’attente vers laquelle les demandes envoyées par courrier électronique seront envoyées, rendant ainsi les demandes envoyées par courrier électronique difficiles à gérer.
 >Nous recommandons que le projet que vous configurez pour recevoir des requêtes par courrier électronique ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
 
 1. Accédez au projet que vous souhaitez activer pour recevoir les problèmes par email.
 1. Cliquez sur **Détails de la file** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus** en premier.
-1. Dans le **Type de file d’attente** zone, sélectionnez **Publier en tant que file d’attente de demande d’aide**.
+1. Dans le **Type de file d’attente** zone, sélectionnez **Publish en tant que file d’attente de demande d’aide**.
 
 1. Faites défiler l’écran vers le bas jusqu’à **Paramètres de la file d’attente des emails** puis sélectionnez **Activer l’entrée de demande par courrier électronique**.
 
@@ -102,7 +102,7 @@ Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
 
    Cette adresse électronique reçoit des informations sur les courriers électroniques qui n’ont pas pu être envoyés au projet.
 
-1. Cliquez sur **Enregistrer**. Désormais, lorsque les utilisateurs disposant d’un compte Workfront actif envoient un courrier électronique à cette adresse électronique, un problème est créé dans le projet Workfront.
+1. Cliquer sur **Enregistrer**. Désormais, lorsque les utilisateurs disposant d’un compte Workfront actif envoient un courrier électronique à cette adresse électronique, un problème est créé dans le projet Workfront.
 
    >[!NOTE]
    >
