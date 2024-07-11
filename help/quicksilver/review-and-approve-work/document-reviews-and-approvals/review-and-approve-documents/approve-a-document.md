@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Approuver un document
+title: Approbation d’un document dans Workfront
 description: Si vous êtes affecté en tant qu’approbateur ou approbatrice à un document, vous pouvez prendre votre décision d’approbation de plusieurs façons.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
-workflow-type: ht
-source-wordcount: '1063'
-ht-degree: 100%
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
+workflow-type: tm+mt
+source-wordcount: '1067'
+ht-degree: 99%
 
 ---
 
-# Approuver un document
+# Approbation d’un document dans Workfront
 
 Si vous êtes affecté en tant qu’approbateur ou approbatrice à un document, vous pouvez prendre votre décision d’approbation de plusieurs façons.
 
@@ -106,9 +106,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * La liste déroulante **Approuver** contient deux options :
 
-      * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est octroyée.
+      * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est accordée.
 
-      * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est octroyée à la condition que ces modifications soient apportées. Si vous sélectionnez cette option, une fenêtre contenant une zone de texte nommée **Étapes suivantes** s’affiche où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message**, ou cliquez sur **Ignorer** pour envoyer la décision d’approbation sans informations supplémentaires.
+      * **Approuver avec des modifications** indique que de modifications mineures sont toujours requises sur le document, mais que l’approbation est accordée à la condition que ces modifications soient apportées. Si vous sélectionnez cette option, une fenêtre contenant une zone de texte nommée **Étapes suivantes** dans laquelle vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé s’affiche. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message**, ou cliquer sur **Ignorer** pour envoyer la décision de validation sans informations supplémentaires.
 
    * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.
 
@@ -130,8 +130,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * La liste déroulante **Approuver** contient deux options :
 
-      * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est octroyée.
+      * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est accordée.
 
-      * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est octroyée à la condition que ces modifications soient apportées. Si vous sélectionnez cette option, une fenêtre contenant une zone de texte nommée **Étapes suivantes** s’affiche où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message**, ou cliquez sur **Ignorer** pour envoyer la décision d’approbation sans informations supplémentaires.
+      * **Approuver avec des modifications** indique que de modifications mineures sont toujours requises sur le document, mais que l’approbation est accordée à la condition que ces modifications soient apportées. Si vous sélectionnez cette option, une fenêtre contenant une zone de texte nommée **Étapes suivantes** dans laquelle vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé s’affiche. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message**, ou cliquer sur **Ignorer** pour envoyer la décision de validation sans informations supplémentaires.
 
    * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.

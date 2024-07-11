@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Lorsqu’un élément créatif est ajouté à un projet connecté, il peut effec
 * Modifier l’état d’une tâche ou la marquer comme terminée
 * Charger de nouvelles versions, puis les soumettre à nouveau pour approbation <!--do they have to send to frame.io again?-->
 
-Pour plus d’informations sur Frame.io, voir [J&#39;ai été invité à collaborer à un projet.](https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project).
+Pour plus d’informations sur Frame.io, voir [J&#39;ai été invité à collaborer à un projet.](https://support.frame.io/fr/articles/11125-j-ai-ete-invite-a-collaborer-sur-un-projet).
 
 ## Révision et approbation de ressources
 
@@ -103,7 +103,7 @@ Les validants et les validants peuvent être ajoutés à un workflow de validati
 
 * **Validations à usage unique**: dans le projet ou la tâche où réside la ressource, le coordinateur de projet peut affecter les réviseurs et les approbateurs et définir une date limite d’achèvement. Les validants et les approbateurs sont rappelés par email 72 et 24 heures avant le délai ainsi que le délai lui-même.
 
-  Pour plus d’informations, voir [Créer une demande d’approbation ou de révision de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+  Pour plus d’informations, voir * [Création d’une demande de révision ou d’approbation pour une ressource Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
 * **Modèles de validation**: dans la zone Configuration de Workfront , les coordinateurs de projet peuvent créer des modèles d’approbation fiables. Dans un modèle, les utilisateurs peuvent ajouter des validants et des approbateurs et spécifier un délai d’achèvement. Lorsque le modèle de validation est appliqué à une ressource, la date limite est calculée à partir de la période spécifiée.
 

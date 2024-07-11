@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Vue d’ensemble de la nouvelle approbation de documents
+title: Présentation des nouvelles validations de document
 description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateurs et approbatrices supplémentaires à un document ayant déjà des approbations en attente.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
+source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 91%
+source-wordcount: '486'
+ht-degree: 75%
 
 ---
 
-# Vue d’ensemble de la nouvelle approbation de documents
+# Présentation des nouvelles validations de document
 
-La nouvelle approbation de documents est une reconception complète du processus d’approbation existant en cours de développement pour Adobe Workfront. Actuellement disponible dans une version limitée, elle est conçue pour être une solution pratique et efficace pour les entreprises qui nécessitent un engagement complet des parties prenantes et des approbations de documents spécifiques aux versions. Sa conception réfléchie et ses nouvelles fonctionnalités ciblées facilitent la collaboration, la clarté des rôles et le contrôle des versions dans le processus d’approbation, ce qui accroît l’efficacité et la responsabilité.
+Les nouvelles approbations de documents consistent en une reconception complète du processus d’approbation existant en cours d’élaboration pour Adobe Workfront. Actuellement disponible dans une version limitée, elle est conçue pour être une solution pratique et efficace pour les entreprises qui nécessitent un engagement complet des parties prenantes et des approbations de documents spécifiques aux versions. Sa conception réfléchie et ses nouvelles fonctionnalités ciblées facilitent la collaboration, la clarté des rôles et le contrôle des versions dans le processus d’approbation, ce qui accroît l’efficacité et la responsabilité.
 
 Pour plus d’informations sur les fonctionnalités et versions prévues pour la nouvelle approbation de documents, reportez-vous à la section ci-dessous.
 
@@ -47,9 +47,9 @@ Si vous souhaitez que la nouvelle approbation de documents soit activée dans vo
 
 ## Utilisation de la nouvelle approbation de documents
 
-Pour les personnes qui souhaitent créer ou gérer des validations de documents, reportez-vous aux articles répertoriés dans [Approuver des documents : index des articles](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+Pour les utilisateurs qui souhaitent créer ou gérer des validations de document, reportez-vous aux articles répertoriés dans la section [Configuration et gestion des validations de ressources et de documents : index des articles](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Pour les personnes qui souhaitent consulter ou approuver des documents pour lesquels elles ont reçu une demande, reportez-vous aux articles répertoriés dans [Réviser des documents : index des articles](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Pour les utilisateurs qui souhaitent consulter ou approuver des documents pour lesquels ils ont reçu une demande, reportez-vous aux articles répertoriés dans la section [Approbation et révision de documents : index de l’article](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

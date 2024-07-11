@@ -6,10 +6,10 @@ description: Les créateurs et créatrices peuvent ajouter des ressources qui do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
-workflow-type: ht
-source-wordcount: '323'
-ht-degree: 100%
+source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 93%
 
 ---
 
@@ -55,11 +55,7 @@ Pour plus de détails sur les informations dans ce tableau, voir [Conditions d�
 
 ## Conditions préalables
 
-* Un groupe Workfront doit être connecté à une équipe Frame.io.
-* Un projet Workfront doit être connecté à un projet Frame.io et ajouté en tant qu’utilisateur ou utilisatrice à une tâche Workfront activée pour Frame.io.
-
-Pour plus d’informations, voir [Connecter Workfront et Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-
+* Vous devez configurer l’intégration de Workfront et de Frame.io. Pour plus d’informations, voir [Configuration de l’intégration Workfront et Frame.io](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ## Ajouter une ressource Frame.io à un projet Workfront connecté
 

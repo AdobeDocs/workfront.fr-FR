@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Créer un modèle d’approbation
+title: Créer un modèle d’approbation pour les ressources et les documents
 description: Vous pouvez créer des modèles d’approbation afin d’optimiser votre processus d’approbation.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 93%
 
 ---
 
-# Créer un modèle d’approbation
+# Créer un modèle d’approbation pour les ressources et les documents
 
 <span class="preview">Les informations sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation de sandbox.</span>
 
