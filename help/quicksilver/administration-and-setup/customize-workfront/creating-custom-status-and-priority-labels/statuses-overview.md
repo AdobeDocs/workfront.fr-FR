@@ -3,20 +3,20 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Présentation des états
+title: Vue d’ensemble des statuts
 description: Pour connaître l’état actuel du développement d’un projet, d’une tâche ou d’un problème, un utilisateur peut consulter son état.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 0%
+source-wordcount: '321'
+ht-degree: 1%
 
 ---
 
-# Présentation des états
+# Vue d’ensemble des statuts
 
 <!-- Audited: 01/2024 -->
 
@@ -25,6 +25,17 @@ Pour connaître l’état actuel du développement d’un projet, d’une tâche
 Par exemple, dans ce projet, la planification de l’état indique que le responsable du projet planifie actuellement certains aspects du projet, tels que son calendrier, les affectations de tâches et les approbations.
 
 ![Exemple d’état de projet](assets/statuses-overview.png)
+
+Pour afficher leur état, vous devez disposer des droits et autorisations suivants sur un projet, une tâche ou un problème :
+
+* Afficher ou un accès supérieur dans votre niveau d’accès aux projets, tâches et problèmes
+* Affichage ou autorisations supérieures sur l’objet
+
+Pour modifier manuellement leur état, vous devez disposer des droits et autorisations suivants sur un projet, une tâche ou un problème :
+
+* Modifiez l’accès à votre niveau d’accès à Projets, tâches et problèmes.
+* Autorisations Contribute ou supérieures pour la tâche ou le problème
+* Gérez les autorisations du projet.
 
 La modification de l’état d’un projet, d’une tâche ou d’un problème est généralement un processus manuel. Cependant, il arrive que l’état d’un problème soit automatiquement modifié, en fonction d’autres facteurs se produisant dans le système.
 

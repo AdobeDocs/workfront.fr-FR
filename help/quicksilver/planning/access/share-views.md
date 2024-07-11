@@ -1,14 +1,14 @@
 ---
 title: Partager des vues
-description: Vous pouvez partager une vue avec d’autres pour garantir la collaboration lors de l’utilisation d’Adobe Workfront Planning.
+description: Vous pouvez partager une vue avec d’autres personnes pour travailler en collaboration lors de l’utilisation d’Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 6%
+source-wordcount: '640'
+ht-degree: 60%
 
 ---
 
@@ -18,9 +18,10 @@ ht-degree: 6%
 
 {{planning-important-intro}}
 
-Vous pouvez partager une vue avec d’autres pour garantir la collaboration lors de l’utilisation d’enregistrements dans Adobe Workfront Planning.
+Vous pouvez partager une vue avec d’autres personnes pour travailler en collaboration lors de l’utilisation d’enregistrements dans Adobe Workfront Planning.
 
-L’octroi d’autorisations à un espace de travail ne donne pas à d’autres utilisateurs les autorisations d’accès aux vues sur les pages de type enregistrement. Vous devez accorder des autorisations pour des vues individuelles dans une page de type enregistrement afin de les partager avec d’autres utilisateurs.
+L’octroi d’autorisations à un espace de travail ne donne pas à d’autres personnes les autorisations d’accès aux vues sur les pages de type enregistrement. Vous devez accorder des autorisations pour des vues individuelles dans une page de type d’enregistrement afin de les partager avec d’autres personnes.
+
 
 Lorsque vous partagez une vue, vous autorisez d’autres personnes à accéder à tous les éléments de la vue. Par exemple, lorsque vous leur accordez les autorisations Gérer pour une vue, ils peuvent modifier l’aspect du regroupement, du filtre, du tri ou de la barre.
 
@@ -36,6 +37,8 @@ Vous pouvez partager une vue avec les entités suivantes :
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -49,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -61,32 +64,37 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>N’importe quelle</p> 
+   <p>Nouvelle : standard</p>
+   Ou
+   <p>Actuelle : formule </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
-   <td> Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning </p>  
+   <td> Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Autorisations d’objet</p></td>
-   <td> <p>Gestion des autorisations pour un affichage</p>
-
+   <td role="rowheader"><p>Autorisations</p></td>
+   <td> <p>Autorisations de gestion d’une vue</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Partage des autorisations sur une vue <!--internally-->
 
@@ -94,17 +102,17 @@ Vous pouvez partager les vues que vous avez créées ou les vues auxquelles vous
 
 >[!NOTE]
 >
->Les administrateurs système ne peuvent pas afficher ni partager les vues qu’ils n’ont pas créées eux-mêmes. Ils peuvent uniquement accéder aux vues partagées avec eux ou les partager.
+>Les administrateurs et administratrices système ne peuvent pas afficher ou partager des vues qu’ils n’ont pas créées eux-mêmes ou elles-mêmes. Ils ou elles peuvent uniquement accéder à des vues ou partager des vues qui ont été partagées avec eux ou elles.
 >
->Les administrateurs système ne peuvent disposer que des autorisations de gestion pour une vue.
+>Les administrateurs et administratrices système peuvent uniquement disposer d’autorisations de gestion sur une vue.
 
 {{step1-to-planning}}
 
-1. Ouvrez l’espace de travail dont vous souhaitez partager la vue, puis cliquez sur une carte de type enregistrement.
+1. Ouvrez l’espace de travail dont vous souhaitez partager la vue, puis cliquez sur une carte de type d’enregistrement.
 
-   Cela ouvre la page de type enregistrement.
+   La page du type d’enregistrement s’affiche.
 
-1. Dans l’onglet Affichage , passez la souris sur la vue que vous souhaitez partager et cliquez sur le **Plus** menu ![](assets/more-menu.png) à droite du nom de la vue, puis cliquez sur **Partager**.
+1. Dans l’onglet Vue, pointez la souris sur la vue que vous souhaitez partager et cliquez sur le menu **Plus** ![](assets/more-menu.png) à droite du nom de la vue, puis sur **Partager**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -119,16 +127,16 @@ Vous pouvez partager les vues que vous avez créées ou les vues auxquelles vous
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
-1. Sélectionnez l’un des niveaux d’autorisation suivants dans le menu déroulant :
+1. Sélectionnez l’un des niveaux d’autorisation suivants dans le menu déroulant :
    * Afficher
    * Gérer
 
-     Pour plus d’informations sur les niveaux d’autorisation et les actions que les utilisateurs peuvent effectuer pour chaque niveau, voir [Présentation du partage des autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     Pour plus d’informations sur les niveaux d’autorisation et les actions que les utilisateurs et les utilisatrices peuvent effectuer pour chaque niveau, consultez la [Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
      Les administrateurs système reçoivent toujours les autorisations Gérer pour les vues partagées avec eux.
 
 1. Cliquez sur **Copier le lien** pour copier un lien vers la vue dans le presse-papiers.
-1. Partagez le lien copié avec d’autres personnes. Les utilisateurs qui reçoivent le lien doivent être des utilisateurs actifs et se connecter à Workfront pour pouvoir accéder à la page de type d’enregistrement et l’afficher dans la vue sélectionnée.
+1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à la page du type d’enregistrement et l’afficher dans la vue sélectionnée.
 1. Cliquer sur **Enregistrer**.
 
    >[!TIP]
@@ -177,15 +185,15 @@ To share a view publicly in Workfront Planning:
 -->
 
 
-## Suppression des autorisations d’un affichage
+## Supprimer des autorisations d’une vue
 
 {{step1-to-planning}}
 
-1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage, puis cliquez sur une carte de type enregistrement. Cela ouvre la page de type enregistrement.
+1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage, puis cliquez sur une carte de type enregistrement. La page du type d’enregistrement s’affiche.
 1. Pointez sur le nom de l’onglet de la vue à partir de laquelle vous souhaitez supprimer le partage, puis cliquez sur le **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Partager**.
-1. Recherchez l’utilisateur ou le groupe à supprimer, puis cliquez sur **Supprimer** dans le menu déroulant des autorisations situé à droite du nom de l’utilisateur ou du groupe.
+1. Recherchez la personne ou le groupe que vous souhaitez supprimer, puis cliquez sur **Supprimer** dans le menu déroulant des autorisations situé à droite du nom de la personne ou du groupe.
 1. Cliquez sur **Enregistrer**.
-L’utilisateur ou les utilisateurs appartenant au groupe supprimé n’ont plus accès à la vue. Les utilisateurs qui ont été supprimés de l’accès ne reçoivent aucune notification leur indiquant qu’ils ont perdu cet accès.
+La ou les personnes appartenant au groupe supprimé n’ont plus accès à la vue. Les utilisateurs qui ont été supprimés de l’accès ne reçoivent aucune notification leur indiquant qu’ils ont perdu cet accès.
 
 <!--Replace the above instructions with the following when public sharing is released: 
 

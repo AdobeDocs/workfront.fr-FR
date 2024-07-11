@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 93%
+source-wordcount: '1880'
+ht-degree: 85%
 
 ---
 
@@ -36,6 +36,8 @@ Pour plus d’informations sur les vues d’enregistrement, consultez la section
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>N’importe quelle</p> 
-   <p>L’administration système n’a accès qu’aux vues créées par elle ou partagées avec elle. </p>
+   <p>Nouvelle : standard</p>
+   Ou
+   <p>Actuelle : formule </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning. </p>  
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
+   <td> Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Autorisations de gestion pour l’affichage</p>  
+   <td> <p>Autorisations de gestion d’une vue</p>  
+   <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Modèle de disposition</td>
-   <td> <p>L’administration système doit ajouter la zone Planification dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Gérer une vue chronologique {#manage-a-timeline-view}
@@ -179,7 +185,9 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue c
 
   Pour plus d’informations, consultez la section « Ajouter des filtres » de l’article [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté, mais pas pour les champs qui permettent d’associer plusieurs enregistrements.
+* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté.
+* Vous pouvez filtrer par champs de recherche qui affichent plusieurs valeurs.
+
 
 ### Ajouter un regroupement
 
@@ -193,11 +201,16 @@ Tenez compte des points suivants lorsque vous utilisez des regroupements dans la
 
 * Vous pouvez appliquer des regroupements dans les vues de tableau et chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
 * Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
-* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API.
-* Les regroupements sont propres à la vue sélectionnée. Deux vues chronologiques d’un même type d’enregistrement peuvent être associées à des regroupements différents. Deux personnes qui visualisent la même vue chronologique consultent le même regroupement actuellement appliqué.
-* Vous ne pouvez pas nommer les regroupements que vous créez pour une vue chronologique.
+&lt;!--* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. --point à vérifier—>
+* Les regroupements sont propres à la vue sélectionnée. Deux vues de tableau d’un même type d’enregistrement peuvent avoir des regroupements différents. Deux personnes qui consultent le même tableau voient le même regroupement appliqué actuellement.
+* Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * La suppression de regroupements les supprime pour toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
-* Vous pouvez regrouper par champ d’enregistrement ou de recherche connecté, mais pas pour les champs qui permettent d’associer plusieurs enregistrements.
+* Vous pouvez modifier les enregistrements répertoriés sous un regroupement.
+* Vous pouvez regrouper par champs d’enregistrement ou de recherche connectés.
+* Lorsque vous effectuez un regroupement par champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
+* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer l’état du projet dans le regroupement que vous créez pour le type d’enregistrement Activité .
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
 Pour ajouter un regroupement dans la vue chronologique :
 

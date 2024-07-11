@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 67%
+source-wordcount: '692'
+ht-degree: 65%
 
 ---
 
@@ -69,7 +69,9 @@ Les tableaux des sections suivantes illustrent le niveau d’autorisation que vo
 >
 >Tous les utilisateurs et utilisatrices ne peuvent pas avoir les niveaux d’autorisation décrits ci-dessous. La licence individuelle de la personne détermine le niveau d’autorisation qu’elle peut recevoir pour les objets Workfront Planning.
 >
->Seuls les utilisateurs de licence Standard (ou Plan) peuvent disposer de droits Contribute ou Gérer sur les espaces de travail.
+>Seuls les utilisateurs de licence Standard (ou Plan) peuvent disposer de droits Contribute ou Gérer sur les espaces de travail et Gérer les autorisations pour les vues.
+> 
+>Les utilisateurs disposant de tous les autres types de licence peuvent disposer des autorisations d’affichage sur les espaces de travail et les vues.
 >
 >Pour plus d’informations, voir [Vue d’ensemble des types de licences lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -157,7 +159,8 @@ Voici les niveaux d’autorisation des vues et des éléments d’affichage :
 | Supprimer | ✓ |       |                            |
 | Partager | ✓ |       |                           |
 | Afficher | ✓ | ✓ | ✓ |
-| Appliquer | ✓ | ✓ | ✓ |
+| Accès à la vue | ✓ | ✓ | ✓ |
+| appliquer des filtres temporaires, des groupements, un tri ; | ✓ | ✓ | ✓ |
 
 *Les utilisateurs doivent disposer d’autorisations d’affichage ou supérieures pour accéder à un espace de travail.
 

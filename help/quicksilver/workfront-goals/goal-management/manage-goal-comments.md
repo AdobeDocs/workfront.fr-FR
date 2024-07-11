@@ -6,10 +6,10 @@ description: Vous pouvez apporter des commentaires à tous les objectifs que vou
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 92%
+source-wordcount: '1092'
+ht-degree: 90%
 
 ---
 
@@ -80,14 +80,14 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -127,12 +127,12 @@ La liste des objectifs s’affiche.
 
    >[!TIP]
    >
-   >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode brouillon, même après une déconnexion et une reconnexion. Toutes les images ajoutées au commentaire sont également enregistrées dans le brouillon. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont ignorés et ne peuvent pas être récupérés. Les brouillons de commentaires ne sont visibles que par l’utilisateur ou l’utilisatrice qui les saisit.
+   >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode brouillon, même après une déconnexion et une reconnexion. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont ignorés et ne peuvent pas être récupérés. Les brouillons de commentaires ne sont visibles que par l’utilisateur ou l’utilisatrice qui les saisit.
 
 1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
    * Ctrl+Z (⌘+Z pour Mac) pour annuler une modification
    * Ctrl+Y (⌘+Y pour Mac) pour rétablir une modification
-1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, à un lien hypertexte ou à une image, utilisez n’importe quelle option de la barre d’outils Texte enrichi ou les icônes adjacentes. Pour plus d’informations, voir [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, à un lien hypertexte ou à une émoticône, utilisez n’importe quelle option de la barre d’outils Texte enrichi ou les icônes adjacentes. Pour plus d’informations, voir [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Dans la zone **Taguer des personnes ou des équipes**, commencez à saisir le nom ou l’adresse e-mail d’un utilisateur, d’une utilisatrice ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez votre choix lorsqu’il s’affiche dans la liste.
 1. Sélectionnez le bouton (bascule) **Réservé à mon entreprise** pour rendre le commentaire visible uniquement aux personnes de votre entreprise.
 
@@ -150,7 +150,7 @@ La liste des objectifs s’affiche.
    >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. (Facultatif) Pour modifier un commentaire, cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
-1. Modifiez les informations du commentaire, ajoutez ou supprimez des images, ou supprimez l’une des personnes balisées.
+1. Modifiez les informations dans le commentaire ou supprimez les utilisateurs balisés.
 Vous pouvez modifier votre commentaire dans les 15 minutes suivant son envoi. Un indicateur « modifié » est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2585'
-ht-degree: 80%
+source-wordcount: '2512'
+ht-degree: 77%
 
 ---
 
@@ -288,19 +288,13 @@ Une fois que vous avez créé une connexion entre un type d’enregistrement et 
 
 1. (Facultatif) Cliquez sur le nom d’un objet Workfront connecté à un enregistrement Workfront Planning dans le champ lié d’une vue de tableau ou du champ lié dans la page d’enregistrement.
 
-   La page d’enregistrement de Workfront Planning en lecture seule pour l’objet Workfront lié s’ouvre. Les champs que vous avez sélectionnés comme champs de recherche lorsque vous avez connecté le type d’enregistrement à l’objet Workfront s’affichent dans la page d’enregistrement Workfront Planning.
+   L’objet Workfront s’ouvre alors dans Workfront, si vous disposez au moins des autorisations d’affichage sur l’objet.
 
    >[!TIP]
    >
    >* Lorsque vous activez le paramètre Autoriser plusieurs enregistrements, les valeurs des champs de recherche sont affichées séparées par des virgules ou sont agrégées selon l’agrégateur que vous avez choisi.
    >
    >* Un champ d’enregistrement lié n’est pas créé pour les objets Workfront liés dans Workfront.
-
-1. (Facultatif) Pour ouvrir l’objet Workfront lié dans Workfront, cliquez sur **Aller à la source** dans le coin supérieur droit de la page d’enregistrement de l’objet Workfront.
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   La page d’objet Workfront s’ouvre si vous disposez au moins des autorisations d’affichage pour afficher l’objet. Si vous êtes autorisé à le faire, vous pouvez modifier les informations relatives à l’objet Workfront.
 
 1. (Facultatif) Dans la vue de tableau du type d’enregistrement, pointez sur l’en-tête de colonne de l’objet Workfront lié, cliquez sur le menu déroulant, puis sur **Modifier les champs de recherche**.
 
@@ -391,7 +385,7 @@ Après avoir créé une connexion entre un type d’enregistrement et Adobe Exp
    * Date de création
    * Date de modification
 
-1. (Facultatif) Pour ouvrir la page d’enregistrement des ressources d’Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous créez un lien, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre contextuelle, puis cliquez sur l’icône **Ouvrir** icon ![](assets/open-asset-icon.png) pour ouvrir la ressource.
+1. (Facultatif) Pour ouvrir la page d’enregistrement des ressources Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous liez, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre contextuelle, puis cliquez sur le bouton **Ouvrir dans AEM** icon ![](assets/open-asset-icon.png) pour ouvrir la ressource.
 
    Cette opération ouvre la ressource Experience Manager dans Adobe Experience Manager Assets.
 

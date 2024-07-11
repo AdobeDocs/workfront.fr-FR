@@ -1,18 +1,18 @@
 ---
-title: Gestion de la vue Calendrier
+title: Gérer la vue de calendrier
 description: Vous pouvez afficher les enregistrements et leurs champs en mode Calendrier.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 5%
+source-wordcount: '565'
+ht-degree: 27%
 
 ---
 
-# Gestion de la vue Calendrier
+# Gérer la vue de calendrier
 
 <!--
 title: Manage the calendar view
@@ -30,11 +30,9 @@ hide: yes
 
 Vous pouvez afficher les enregistrements et leurs champs dans une vue de calendrier, à partir de la page de type enregistrement.
 
-Pour plus d’informations sur les vues des fonctionnalités de planification d’Adobe Workfront et sur la manière de les gérer, voir [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+Pour plus d’informations sur les vues de la planification Adobe Workfront et leur gestion, voir [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
-## Conditions d’accès
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -49,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -61,44 +59,47 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>N’importe quelle</p> 
-   <p>Les administrateurs système n’ont accès qu’aux vues qu’ils ont créées ou qui sont partagées avec eux. </p>
+   <p>Nouvelle : standard</p>
+   Ou
+   <p>Actuelle : formule </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning</p>  
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
+   <td> Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Gestion des autorisations pour l’affichage</p>  
+   <td> <p>Autorisations de gestion d’une vue</p>  
+   <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Modèle de mise en page</td>
-   <td> <p>L’administrateur système doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Gestion de la vue Calendrier {#manage-a-calendar-view}
 
 <!--insert screen shot of calendar view-->
 
-Tenez compte des points suivants :
+Tenez compte des points suivants :
 
 * Vous ne pouvez créer une vue Calendrier que si au moins deux champs de date sont associés à un type d’enregistrement. Lorsqu’un ou plusieurs champs de date sont associés à un type d’enregistrement, l’option Mode Calendrier est grisée.
 
   Vous pouvez sélectionner des champs de date d’enregistrement ou des champs de date de recherche à partir des types d’enregistrement ou d’objet connectés.
-* Les scénarios suivants existent :
+* Les scénarios suivants sont possibles :
 
    * Lorsque les dates de Début et de Fin n&#39;ont aucune valeur, les enregistrements ne s&#39;affichent pas dans le calendrier.
    * Lorsque les dates de début ou de fin n’ont aucune valeur, l’enregistrement s’affiche sous la forme d’un événement d’un jour.
@@ -120,15 +121,15 @@ Pour gérer une vue de calendrier :
    * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 
       * Mois
-1. Mettez à jour les éléments de vue suivants comme décrit dans les sous-sections ci-dessous :
+1. Mettez à jour les éléments de vue suivants comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
      <!--* [Grouping](#add-grouping)-->
      <!--* [Settings](#edit-the-calendar-view-settings)-->
      <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
 
-### Ajout de filtres
+### Ajouter des filtres
 
-Vous pouvez réduire la quantité d’informations affichées à l’écran à l’aide de filtres.
+Tirez part ides filtres pour réduire la quantité d’informations affichées à l’écran.
 
 Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue Calendrier :
 
@@ -142,10 +143,12 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue C
 
 * Vous ne pouvez pas nommer les filtres que vous créez pour une vue Calendrier.
 
-* Le fait de supprimer des filtres les supprime de toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
+* La suppression d’un filtre le supprime pour toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
 
 * L’ajout de filtres dans la vue Calendrier est identique à l’ajout de filtres dans la vue Tableau.
 
-  Pour plus d’informations, voir la section &quot;Ajouter des filtres&quot; de l’article [Gestion de la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Pour plus d’informations, consultez la section « Ajouter des filtres » de l’article [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté, mais pas par champ qui permet de lier plusieurs enregistrements.
+* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté.
+
+* Vous pouvez filtrer par champs de recherche qui affichent plusieurs valeurs.

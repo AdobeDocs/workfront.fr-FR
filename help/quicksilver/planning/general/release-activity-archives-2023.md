@@ -4,9 +4,9 @@ description: Les fonctionnalités d’Adobe Workfront Planning sont actuelleme
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2988'
 ht-degree: 94%
 
 ---
@@ -236,7 +236,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 Prévisualisation et production : 31 octobre 2023
 
-Vous pouvez désormais ouvrir les pages d’objets Workfront à partir des zones suivantes des fonctionnalités de planification :
+Vous pouvez maintenant ouvrir les pages d’objet Workfront à partir des zones suivantes dans Workfront Planning :
 
 * La vue de tableau d’enregistrement d’objet Workfront liée en lecture seule
 

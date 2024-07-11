@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '658'
 ht-degree: 10%
 
 ---
@@ -115,10 +115,8 @@ Pour plus d’informations, consultez les [Conditions d’accès dans la documen
 1. Cliquez sur la carte d’un type d’enregistrement connecté à un projet, un portfolio ou un programme Workfront.
 1. Accédez à un champ d’enregistrement connecté qui a une connexion avec un objet Workfront, soit en mode Tableau, soit à partir de la page de détails d’un enregistrement. Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 1. Cliquez sur le nom d’un objet Workfront dans le champ d’enregistrement connecté.
-La page des objets s’ouvre dans Workfront Planning.
-1. Cliquez sur **Accéder à la source**, dans le coin supérieur droit de l’écran.
+La page des objets s’ouvre dans Workfront.
 
-   La page de l’objet s’ouvre dans Workfront.
 1. Cliquez sur **Planification** dans le panneau de gauche.
 
    >[!NOTE]

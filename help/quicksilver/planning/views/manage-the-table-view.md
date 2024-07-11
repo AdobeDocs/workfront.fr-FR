@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 83%
+source-wordcount: '2569'
+ht-degree: 79%
 
 ---
 
@@ -36,6 +36,8 @@ Pour plus d’informations sur les vues d’enregistrement et leur gestion, cons
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>N’importe quelle</p> 
-   <p>L’administration système n’a accès qu’aux vues créées par elle ou partagées avec elle. </p>
+   <p>Nouvelle : standard</p>
+   Ou
+   <p>Actuelle : formule </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuration du niveau d’accès</td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>  
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
+   <td> Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Autorisations de gestion pour l’affichage</p>  
+   <td> <p>Autorisations de gestion d’une vue</p>  
+   <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Modèle de disposition</td>
-   <td> <p>L’administration système doit ajouter la zone Planification dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Gérer une vue de tableau {#manage-a-table-view}
 
@@ -243,7 +249,9 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue d
 
 * L’ajout de filtres à la vue de tableau est identique à l’ajout de filtres à la vue chronologique.
 
-* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté, mais pas pour les champs qui permettent d’associer plusieurs enregistrements.
+* Vous pouvez filtrer par champ d’enregistrement ou champ de recherche connecté.
+
+* Vous pouvez filtrer par champs de recherche qui affichent plusieurs valeurs.
 
 * Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un filtre pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le budget du projet dans le filtre que vous créez pour le type d’enregistrement Activité .
 
@@ -355,7 +363,8 @@ Tenez compte des points suivants :
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * La suppression de regroupements les supprime pour toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
 * Vous pouvez modifier les enregistrements répertoriés sous un regroupement.
-* Vous pouvez regrouper par champ d’enregistrement ou de recherche connecté, mais pas pour les champs qui permettent d’associer plusieurs enregistrements.
+* Vous pouvez regrouper par champs d’enregistrement ou de recherche connectés.
+* Lorsque vous effectuez un regroupement par champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
 * Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer l’état du projet dans le regroupement que vous créez pour le type d’enregistrement Activité .
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
@@ -407,11 +416,11 @@ Tenez compte des points suivants lors du tri des enregistrements dans la vue de 
 
 * Vous pouvez trier par autant de champs que comporte la vue de tableau d’un type d’enregistrement.
 
-* Les champs liés ne peuvent être triés que s’ils autorisent des valeurs uniques, ou des valeurs à sélection multiple avec l’option de résumé sélectionnée (somme, moyenne, max, min).
+* Vous ne pouvez pas trier par champ d’enregistrement connecté, mais vous pouvez trier par champ de recherche à partir des types d’enregistrement connectés.
+
+* Lorsque vous triez par champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), la première valeur est utilisée pour le tri.
 
 * Le fait de supprimer des critères de tri les supprime de toute personne accédant au même type d’enregistrement et utilisant la même vue que vous.
-
-* Vous pouvez trier les champs d’enregistrement ou de recherche connectés, mais pas ceux qui permettent de lier plusieurs enregistrements.
 
 * Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un tri pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer l’état du projet dans le type que vous créez pour le type d’enregistrement Activité .
 

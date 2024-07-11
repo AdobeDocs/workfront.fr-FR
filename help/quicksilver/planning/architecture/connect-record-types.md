@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2487'
-ht-degree: 66%
+source-wordcount: '2515'
+ht-degree: 62%
 
 ---
 
@@ -156,10 +156,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
       * Un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Aucun champ d’enregistrement lié n’est automatiquement créé sur le type d’objet de l’autre application.
 
-      * Un nouveau type d’enregistrement Workfront Planning en lecture seule est créé pour l’objet de l’autre application uniquement lorsque des objets réels sont connectés aux enregistrements Workfront Planning.
-
-        Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
-
       * La planification des champs d’enregistrement n’est pas accessible à partir des objets Workfront.
       * La planification des champs d’enregistrement est accessible à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
 
@@ -274,7 +270,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Facultatif) Cliquez sur **Ignorer** pour ignorer l’ajout de champs à partir de l’enregistrement ou du type d’objet lié. La variable **Nom** ou le **Titre** de l’enregistrement lié est le seul champ visible dans la vue table du type d’enregistrement à partir duquel vous vous connectez.
 
-1. (Facultatif et le cas échéant) Si vous choisissez de lier un champ de type nombre, devise, pourcentage ou date, sélectionnez également une valeur d’agrégation. Les valeurs des champs liés s’affichent séparés par des virgules ou sous la forme d’une valeur agrégée, selon l’agrégateur que vous choisissez, lorsque les utilisateurs et utilisatrices sélectionnent plusieurs enregistrements liés dans le champ d’enregistrement lié.
+1. (Facultatif et conditionnel) Si vous choisissez de lier un champ de type nombre, devise, pourcentage ou date, sélectionnez également une valeur d’agrégateur pour résumer plusieurs valeurs. Les valeurs des champs liés s&#39;affichent soit séparés par des virgules, soit sous la forme d&#39;une valeur résumée selon l&#39;agrégateur que vous choisissez, lorsque les utilisateurs sélectionnent plusieurs enregistrements liés dans le champ d&#39;enregistrement lié.
+
+   Si le champ de recherche contient plusieurs valeurs qui ne sont pas résumées, tenez compte des points suivants lorsque vous utilisez le champ pour trier ou regrouper dans une vue :
+
+   * Le tri est effectué par la première valeur
+
+   * Les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
+
+   * La vue de la chronologie est basée sur la première valeur de date.
 
    >[!IMPORTANT]
    >

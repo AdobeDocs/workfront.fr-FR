@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1801'
 ht-degree: 85%
 
 ---
@@ -205,10 +205,7 @@ Pour ce faire :
 
 1. Cliquez sur le nom d’un projet dans le champ d’enregistrement connecté.
 
-   Cela ouvre la page du projet Workfront Planning en lecture seule.
-Passez en revue les informations sur le projet. Seuls les champs de projet sélectionnés s’affichent dans la page de l’enregistrement.
-
-1. Cliquez sur **Aller à la source** dans le coin supérieur droit de l’écran pour ouvrir le projet dans Workfront, si vous disposez au moins des autorisations d’affichage sur le projet.
+   Le projet s’ouvre alors dans Workfront, si vous disposez au moins des autorisations d’affichage du projet.
 1. (Facultatif) Mettez à jour les informations sur le projet dans Workfront, si vous êtes autorisé à le faire.
 
 1. (Facultatif) Dans la vue de tableau Campaign, pointez sur l’en-tête du champ **Informations sur le projet**, cliquez sur la flèche pointant vers le bas, puis sur **Modifier les champs de recherche.**
