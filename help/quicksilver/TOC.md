@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
+source-git-commit: 496f5e6dcaab225ce48cecd291a0cf79f1dc1868
 workflow-type: tm+mt
 source-wordcount: '14434'
 ht-degree: 96%
@@ -791,7 +791,7 @@ ht-degree: 96%
    * Configurer les intégrations {#configure-integrations}
       * [Configurer les intégrations](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Intégrations Adobe Workfront](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [Configurez la variable [!DNL Workfront] et [!DNL Frame.io] integration](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
+      * [Configuration de l&#39;intégration  [!DNL Workfront] et [!DNL Frame.io] ](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Configurer l’intégration d’Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Configurer Workfront avec le connecteur hérité Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -1531,12 +1531,12 @@ ht-degree: 96%
    * [Rapports et tableaux de bord : index des articles](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Tableaux de bord de canevas {#canvas-dashboards}
       * [Tableaux de bord Zone de travail.](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-      * Gestion des tableaux de bord de canevas {#manage-canvas-dashboards}
+      * Gérer les tableaux de bord de canevas {#manage-canvas-dashboards}
          * [Gestion des tableaux de bord de canevas](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Prise en main des tableaux de bord de zone de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
          * [Ajout, suppression ou organisation de rapports dans un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
          * [Partage d’un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-      * Types de rapports du tableau de bord du canevas {#report-types}
+      * Types de rapports Tableau de bord du canevas {#report-types}
          * [Types de rapports du tableau de bord du canevas](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Ajout d’un rapport existant à un tableau de bord Zone de travail](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
          * [Création d’un rapport sur les indicateurs de performance clés dans un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
@@ -1820,12 +1820,12 @@ ht-degree: 96%
       * [Déléguer une demande d’approbation](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associer un processus d’approbation nouveau ou existant au travail](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Rappeler des approbations soumises](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Examen et approbation des ressources et des documents {#document-reviews-and-approvals}
+   * Révision et approbation des ressources et des documents {#document-reviews-and-approvals}
       * [Révision et approbation des ressources et des documents : index des articles](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Vue d’ensemble des approbations de documents](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Présentation de l’état de décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Prise en main de la révision et de l’approbation des ressources avec Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
-      * [Configuration et gestion des approbations de ressources et de documents]{#manage-asset-review-and-approval}
+      * Configuration et gestion des approbations de ressources et de documents {#manage-asset-review-and-approval}
          * [Configuration et gestion des validations de ressources et de documents : index des articles](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Créer une demande de révision ou d’approbation de document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Création d’une demande de révision ou d’approbation pour une ressource Frame.io](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
@@ -2051,7 +2051,7 @@ ht-degree: 96%
       * [Personnaliser la terminologie d’Objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Partager un objectif dans Objectifs Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Activer les notifications d’Objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Planification d’Adobe Workfront {#adobe-workfront-planning}
+* Planification Adobe Workfront {#adobe-workfront-planning}
    * [Adobe Workfront Planning : index des articles](planning/planning-information.md)
    * Informations générales de la planification Adobe Workfront {#adobe-workfront-planning-general-information}
       * [Adobe Workfront Planning - Informations générales : index des articles](planning/general/planning-general-article-index.md)
@@ -2060,7 +2060,7 @@ ht-degree: 96%
       * [Présentation de l’assistant de planification Adobe Workfront AI](planning/general/planning-ai-assistant-overview.md)
       * [Activité de mise à jour en cours de la planification Adobe Workfront](planning/general/release-activity.md)
       * [Archives de l’activité de planification Adobe Workfront pour 2023](planning/general/release-activity-archives-2023.md)
-   * Architecture de la planification Adobe Workfront {#adobe-workfront-planning-architecture}
+   * Architecture de planification Adobe Workfront {#adobe-workfront-planning-architecture}
       * [Architecture : index des articles](planning/architecture/architecture-information.md)
       * [Créer des espaces de travail](planning/architecture/create-workspaces.md)
       * [Types d’enregistrement - Aperçu](planning/architecture/overview-of-record-types.md)
@@ -2100,7 +2100,7 @@ ht-degree: 96%
       * [Ajout d’une image de couverture à un enregistrement](planning/records/add-a-cover-image-to-a-record.md)
       * [Gestion de la mise en page de la page d’enregistrement](planning/records/manage-the-record-page.md)
       * [Gestion des enregistrements dans la section Planification des objets Adobe Workfront](planning/records/manage-records-in-planning-section.md)
-   * Vues de la planification Adobe Workfront {#adobe-workfront-planning-views}
+   * Vues de planification Adobe Workfront {#adobe-workfront-planning-views}
       * [Vues : index des articles](planning/views/views-information.md)
       * [Gérer les vues d’enregistrement](planning/views/manage-record-views.md)
       * [Gérer la vue de tableau](planning/views/manage-the-table-view.md)
@@ -2121,11 +2121,11 @@ ht-degree: 96%
       * [Termes de base d’Adobe Workfront Fusion](workfront-fusion/get-started/basic-terms.md)
       * Créer des scénarios pratiques {#practice-scenarios-in-workfront-fusion}
          * [Création de scénarios d’pratique](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
-         * [Créez un scénario de base dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
-         * [Ajout d’un module de déclenchement à un scénario de base dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
-         * [Utilisez une fonction pour mettre à jour un projet dans un scénario simple de la fonction [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-         * [Ajoutez un filtre à un scénario de base dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
-         * [Ajout d’un webhook à un scénario de base dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
+         * [Création d’un scénario de base dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+         * [Ajout d’un module de déclenchement à un scénario de base dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+         * [Utilisez une fonction pour mettre à jour un projet dans un scénario simple dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+         * [Ajout d’un filtre à un scénario de base dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+         * [Ajout d’un webhook à un scénario de base dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Créer un scénario d’automatisation pratique dans Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Créer un scénario d’intégration pratique dans Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
       * [Mécanismes de sécurisation des performances d’Adobe Workfront Fusion](workfront-fusion/get-started/fusion-performance-guardrails.md)
@@ -2214,7 +2214,7 @@ ht-degree: 96%
       * [Afficher l’historique d’exécution d’un scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Afficher et résoudre les exécutions incomplètes dans Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
       * [Afficher et gérer les scénarios verrouillés dans  [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
-      * [Mise à jour d’un module vers une nouvelle version d’une [!DNL Adobe Workfront Fusion] scenario](workfront-fusion/scenarios/update-module-to-new-version.md)
+      * [ Mettre à jour un module vers une nouvelle version dans un  [!DNL Adobe Workfront Fusion] scénario](workfront-fusion/scenarios/update-module-to-new-version.md)
       * [Planifier un scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Activer ou désactiver un scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Ajouter un filtre à un scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2222,7 +2222,7 @@ ht-degree: 96%
       * [Générer un module à l’aide de l’AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Modèles de scénarios Adobe Workfront Fusion {#fusion-scenario-templates}
          * [Modèles de scénarios](workfront-fusion/scenarios/templates/fusion-templates.md)
-         * [[!DNL Fusion] présentation des modèles](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
+         * [[!DNL Fusion] - Aperçu des modèles](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Créer de nouveaux modèles dans Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
          * [Publier et partager des modèles Adobe Workfront Fusion](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Créer des scénarios avec les modèles Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
