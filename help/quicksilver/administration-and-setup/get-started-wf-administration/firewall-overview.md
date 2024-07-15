@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
-workflow-type: ht
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -76,7 +76,7 @@ Fournissez les informations suivantes à votre administrateur ou administratrice
    <td>Si vous utilisez l’une des intégrations suivantes, informez votre administrateur ou administratrice réseau :
     <ul>
      <li><p>Workfront pour Jira</p></li>
-     <li><p>Workfront pour G Suite</p></li>
+     <li><p>Workfront pour Google Workspace</p></li>
      <li><p>Workfront pour Microsofts Teams</p></li>
      <li><p>Workfront pour Outlook</p></li>
      <li><p>Workfront pour Salesforce</p></li>

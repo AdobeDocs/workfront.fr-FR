@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 97%
@@ -73,7 +73,7 @@ Pour plus d’informations, voir la section [Afficher le cluster et le plan Work
 >
 >Certaines intégrations Workfront ne fonctionnent pas lorsque la liste autorisée est activée, car elles ne peuvent pas être configurées avec une adresse IP statique. Pour utiliser les intégrations suivantes, vous devez désactiver la liste autorisée.
 >
->* Workfront pour G Suite
+>* Workfront pour Google Workspace
 >* Workfront pour Outlook
 >* Workfront pour Salesforce
 

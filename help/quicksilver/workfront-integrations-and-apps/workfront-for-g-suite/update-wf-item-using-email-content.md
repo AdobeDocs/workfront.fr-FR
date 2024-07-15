@@ -2,62 +2,62 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,document,sheet,diapositive
 navigation-topic: workfront-for-g-suite
-title: Mettre à jour une [!DNL Adobe Workfront] élément de la suite G à l’aide du contenu des emails
+title: Mettre à jour un élément  [!DNL Adobe Workfront] de Google Workspace à l’aide du contenu d’email
 description: Vous pouvez mettre à jour un projet, une tâche ou un problème existant à l’aide d’informations provenant d’un courrier électronique non Adobe Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 0%
+source-wordcount: '645'
+ht-degree: 5%
 
 ---
 
-# Mettre à jour une [!DNL Adobe Workfront] item from [!DNL G Suite] utilisation du contenu des emails
+# Mettre à jour un élément [!DNL Adobe Workfront] de [!DNL Google Workspace] à l’aide du contenu d’email
 
 >[!NOTE]
 >
 >La dernière version du module externe Adobe Workfront pour Google a été publiée le 26 juin 2023.
 
-Vous pouvez mettre à jour un projet, une tâche ou un problème existant à l’aide d’informations provenant d’une[!DNL Adobe Workfront] e-mail.
+Vous pouvez mettre à jour un projet, une tâche ou un problème existant à l’aide d’informations provenant d’un email non-[!DNL Adobe Workfront].
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
 ## Conditions préalables
 
-Avant de pouvoir mettre à jour une [!DNL Workfront] élément à l’aide du contenu d’email provenant de [!DNL G Suite], vous devez
+Avant de pouvoir mettre à jour un élément [!DNL Workfront] à l’aide du contenu d’email de [!DNL Google Workspace], vous devez :
 
-* Installer [!DNL Workfront for G suite]\
-   Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Installer [!DNL Workfront for Google Workspace]\
+   Pour obtenir des instructions, voir [Installation [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Mettre à jour une [!DNL Workfront] élément à l’aide du contenu d’email provenant de [!DNL G Suite]
+## Mettre à jour un élément [!DNL Workfront] à l’aide du contenu d’email de [!DNL Google Workspace]
 
-1. Si la variable [!UICONTROL Workfront for G Suite] ne s’affiche pas, cliquez sur l’icône Workfront ![](assets/wf-lion-icon.png) dans le [!DNL G Suite] la barre latérale des modules complémentaires située à l’extrémité droite de la page.
-1. Avec le message électronique ouvert dans [!DNL G Suite], cliquez sur **[!UICONTROL Publier comme nouvelle mise à jour]** dans le [!DNL G Suite] du panneau.
+1. Si le panneau [!UICONTROL  Workfront for Google Workspace] n’est pas affiché, cliquez sur l’icône Workfront ![](assets/wf-lion-icon.png) dans la barre latérale des modules complémentaires [!DNL Google Workspace] située à l’extrémité droite de la page.
+1. Une fois le message électronique ouvert dans [!DNL Google Workspace], cliquez sur **[!UICONTROL Post as a new update]** dans le panneau [!DNL Google Workspace].
 1. Sous **[!UICONTROL Type]**, cliquez sur la flèche déroulante, puis sur le type d’objet dans lequel vous souhaitez ajouter la mise à jour.
-1. Cliquez sur le bouton **[!UICONTROL Rechercher]** , commencez à saisir le nom de l’objet auquel vous souhaitez ajouter la mise à jour, puis sélectionnez l’élément lorsqu’il apparaît dans la liste ci-dessous.
+1. Cliquez sur l’option **[!UICONTROL Rechercher]** , commencez à saisir le nom de l’objet dans lequel vous souhaitez ajouter la mise à jour, puis sélectionnez l’élément lorsqu’il apparaît dans la liste ci-dessous.
 
-   Cette option varie en fonction de ce que vous avez sélectionné à l’étape 3. Il se peut que **[!UICONTROL Recherche d’un projet]**, **[!UICONTROL Recherche d’une tâche]** ou **[!UICONTROL Recherche d’un problème]**.
+   Cette option varie en fonction de ce que vous avez sélectionné à l’étape 3. Il peut s’agir de **[!UICONTROL Rechercher un projet]**, **[!UICONTROL Rechercher une tâche]** ou **[!UICONTROL Rechercher un problème]**.
 
    >[!NOTE]
    >
@@ -75,30 +75,30 @@ Avant de pouvoir mettre à jour une [!DNL Workfront] élément à l’aide du co
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Inclure les pièces jointes aux emails]</td> 
-      <td><p>(Disponible uniquement si l’email contient au moins une pièce jointe.) Cliquez sur cette option pour enregistrer les pièces jointes dans l’onglet [!UICONTROL Documents] de la tâche ou du problème. </p><p>Si vous ne souhaitez pas enregistrer une pièce jointe, cliquez sur le X situé à droite de son nom. </p><p>Si le courrier électronique contient des liens vers des documents dans [!DNL Google Drive], les liens sont enregistrés dans l’onglet [!UICONTROL Aperçu] de la tâche ou du problème que vous créez. </p><p>Important : <span style="color: #ff1493;"><span style="color: #000000;">Pour que cela fonctionne, votre</span></span>[!DNL Workfront] administrator<span style="color: #ff1493;"><span style="color: #000000;"> must [!DNL Google Drive] pour utiliser [!DNL Workfront]</span></span></p>
+      <td><p>(Disponible uniquement si l’email contient au moins une pièce jointe.) Cliquez sur cette option pour enregistrer les pièces jointes dans l’onglet [!UICONTROL Documents] de la tâche ou du problème. </p><p>Si vous ne souhaitez pas enregistrer une pièce jointe, cliquez sur le X situé à droite de son nom. </p><p>Si le courrier électronique contient des liens vers des documents dans [!DNL Google Drive], les liens sont enregistrés dans l’onglet [!UICONTROL Aperçu] de la tâche ou du problème que vous créez. </p><p>Important : <span style="color: #ff1493;"><span style="color: #000000;"> Pour que cela fonctionne, votre </span></span>[!DNL Workfront] administrateur<span style="color: #ff1493;"><span style="color: #000000;"> doit autoriser [!DNL Google Drive] à travailler avec [!DNL Workfront]</span></span>.</p>
       <p>Si vous activez cette option, elle reste activée pour les autres emails que vous convertissez en tâches, problèmes et mises à jour.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Notifier </td> 
-      <td>Cliquez sur <strong>[!UICONTROL Notifier]</strong>, cliquez sur le bouton <strong>[!UICONTROL Recherche d’un utilisateur ou d’une équipe]</strong> qui s’affiche, puis commencez à saisir le nom de la personne ou de l’équipe et cliquez dessus lorsqu’il apparaît dans la liste ci-dessous. Répétez cette opération pour chaque personne et équipe à ajouter, puis cliquez sur <strong>[!UICONTROL Enregistrer]</strong>.</td> 
+      <td>Cliquez sur <strong>[!UICONTROL Notifier]</strong>, cliquez sur l’option <strong>[!UICONTROL Rechercher un utilisateur ou une équipe]</strong> qui s’affiche, puis commencez à saisir le nom de la personne ou de l’équipe et cliquez dessus lorsqu’il apparaît dans la liste ci-dessous. Répétez cette opération pour chaque personne et équipe à ajouter, puis cliquez sur <strong>[!UICONTROL Enregistrer]</strong>.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Cliquez sur **[!UICONTROL Mettre à jour]**.
 
-   Lorsque vous actualisez votre navigateur, un message contenant un lien au bas de la page [!DNL Workfront for G Suite] confirme que vous avez converti l&#39;email en une mise à jour :
+   Lorsque vous actualisez votre navigateur, un message contenant un lien au bas du panneau [!DNL Workfront for Google Workspace] confirme que vous avez converti l’email en une mise à jour :
 
-   Vous pouvez cliquer sur le lien pour accéder au [!UICONTROL Mises à jour] dans [!DNL Workfront] pour l’objet que vous avez spécifié à l’étape 4.
+   Vous pouvez cliquer sur le lien pour accéder à l’onglet [!UICONTROL Mises à jour] dans [!DNL Workfront] pour l’objet que vous avez spécifié à l’étape 4.
 
-   Vous pouvez répéter ces étapes pour convertir le même email en mises à jour, tâches et problèmes (voir [Création d’un problème Adobe Workfront dans [!DNL G Suite] à l’aide du contenu d’un email](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). Lorsque vous actualisez votre navigateur ou revenez à l’email à un autre moment, tous les liens que vous avez créés pour l’email sont répertoriés au bas de la page [!UICONTROL Workfront for G Suite] du panneau.
+   Vous pouvez répéter ces étapes pour convertir le même email en mises à jour, tâches et problèmes (voir [Création d’un problème Adobe Workfront dans  [!DNL Google Workspace] à l’aide du contenu d’email](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). Lorsque vous actualisez votre navigateur ou revenez à l’e-mail à un autre moment, tous les liens que vous avez créés pour l’e-mail sont répertoriés au bas du panneau [!UICONTROL Workfront for Google Workspace].
 
-1. (Facultatif) Continuez à utiliser la mise à jour dans la variable [!DNL Workfront] pour ajouter un composant en effectuant l’une des opérations suivantes :
+1. (Facultatif) Continuez à utiliser la mise à jour dans le panneau du module complémentaire [!DNL Workfront] en effectuant l’une des opérations suivantes :
 
-   * Pour ajouter une autre mise à jour au **[!UICONTROL Mises à jour]** , cliquez sur **[!UICONTROL Démarrer une nouvelle mise à jour]** et saisissez les informations.
+   * Pour ajouter une autre mise à jour dans l&#39;onglet **[!UICONTROL Mises à jour]**, cliquez sur **[!UICONTROL Démarrer une nouvelle mise à jour]** et saisissez les informations.
 
-   * Pour répondre à une mise à jour de la variable **[!UICONTROL Mises à jour]** , cliquez sur **[!UICONTROL Répondre]** et tapez votre réponse.
+   * Pour répondre à une mise à jour sur l’onglet **[!UICONTROL Mises à jour]**, cliquez sur **[!UICONTROL Répondre]** et saisissez votre réponse.
 
-     Pour les deux options ci-dessus, vous pouvez cliquer sur **[!UICONTROL Notifier]** pour indiquer les destinataires de la réponse, comme à l&#39;étape 5. Lorsque vous êtes prêt, cliquez sur **[!UICONTROL Post]** pour ajouter la mise à jour ou la réponse.
+     Pour les deux options ci-dessus, vous pouvez cliquer sur **[!UICONTROL Notifier]** pour spécifier les destinataires de la réponse comme à l’étape 5. Lorsque vous êtes prêt, cliquez sur **[!UICONTROL Post]** pour ajouter la mise à jour ou la réponse.
 
-   * Cliquez sur le bouton **[!UICONTROL Détails]** pour afficher les détails du nouveau projet, de la nouvelle tâche ou du nouveau problème.
+   * Cliquez sur l’onglet **[!UICONTROL Détails]** pour afficher les détails du nouveau projet, de la nouvelle tâche ou du nouveau problème.

@@ -2,25 +2,25 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,document,sheet,diapositive
 navigation-topic: workfront-for-g-suite
-title: Transformer les emails de la suite G en [!DNL Adobe Workfront] objets et mises à jour
-description: Vous pouvez transformer des emails standard non Workfront en [!DNL Adobe Workfront] objets et mises à jour sans quitter G Mail.
+title: Transformer les emails Google Workspace en objets  [!DNL Adobe Workfront]  et mises à jour
+description: Vous pouvez transformer des emails non Workfront standard en objets  [!DNL Adobe Workfront] et mises à jour sans quitter G Mail.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 62df8503-fe6e-4b37-b2ce-0fb5678c21d7
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 8%
 
 ---
 
-# Transformer les emails de la suite G en [!DNL Adobe Workfront] objets et mises à jour
+# Transformer les emails Google Workspace en objets [!DNL Adobe Workfront] et mises à jour
 
 >[!NOTE]
 >
 >La dernière version du module externe Adobe Workfront pour Google a été publiée le 26 juin 2023.
 
-Vous pouvez passer à l’état normal non[!DNL Workfront] emails dans [!DNL Adobe Workfront] objets et mises à jour sans quitter [!DNL G Mail]. Pour plus d’informations, voir les articles suivants :
+Vous pouvez transformer des emails non-[!DNL Workfront] standard en objets [!DNL Adobe Workfront] et mises à jour sans quitter [!DNL G Mail]. Pour plus d’informations, consultez les articles suivants :
 
-* [Créez un [!DNL Adobe Workfront] Problème dans [!DNL G Suite] à l’aide du contenu d’un email](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-* [Mettre à jour une [!DNL Adobe Workfront] élément de [!DNL G Suite] à l’aide du contenu d’un email](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+* [Créez un  [!DNL Adobe Workfront] problème dans [!DNL Google Workspace] à l’aide du contenu d’email](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+* [Mettre à jour un élément  [!DNL Adobe Workfront] à partir de [!DNL Google Workspace]  à l&#39;aide d&#39;un contenu d&#39;email](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)

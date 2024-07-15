@@ -1,19 +1,19 @@
 ---
-title: 2.2 Améliorations de l’intégration
-description: 2.2 Améliorations de l’intégration
+title: Améliorations de l’intégration (version 22.2)
+description: Améliorations de l’intégration (version 22.2)
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 2.2 Améliorations de l’intégration
+# Améliorations de l’intégration (version 22.2)
 
 Cette page décrit toutes les améliorations apportées à l’intégration avec la version 22.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
 
@@ -25,7 +25,7 @@ in January 2022
 
 la semaine du 4 avril 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, voir [Présentation de la version 2.2.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, consultez la [présentation des versions 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Intégration d’Adobe Workfront avec Anaplan désormais disponible
 
@@ -41,9 +41,9 @@ D’autres workflows pour lesquels vous pouvez envisager d’utiliser l’intég
 
 Pour plus d’informations, voir [Adobe Workfront avec Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
-## Mises à jour du connecteur amélioré pour Workfront et Experience Manager
+## Workfront pour les mises à jour du connecteur amélioré pour les Experience Manager
 
-Workfront pour Experience Manager Enhanced Connector comprend désormais les mises à jour suivantes :
+Workfront pour le connecteur amélioré Experience Manager comprend désormais les mises à jour suivantes :
 
 * Vous pouvez désormais créer des dossiers liés entre Adobe Workfront et Adobe Experience Manager Assets as a Cloud Service même s’il existe plusieurs configurations de dossiers liés à un projet.
 * Ajout de la prise en charge de la pagination des abonnements aux événements
@@ -51,11 +51,11 @@ Workfront pour Experience Manager Enhanced Connector comprend désormais les mis
 * Ajout de la prise en charge des environnements proxy
 * Plusieurs correctifs basés sur les commentaires des partenaires et des clients
 
-Pour plus d’informations, voir [Présentation du connecteur amélioré pour Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+Pour plus d’informations, voir [Workfront for Experience Manager Enhanced connector overview](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
 
 >[!NOTE]
 >
->Le déploiement et la configuration de ce connecteur nécessitent un partenaire certifié. Voir [Installation de Workfront pour Experience Manager Enhanced Connector](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) pour plus d’informations.
+>Le déploiement et la configuration de ce connecteur nécessitent un partenaire certifié. Pour plus d’informations, voir [Installation de Workfront pour le connecteur amélioré Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) .
 
 ## Les intégrations Adobe Creative Cloud utilisent désormais OAuth2
 
@@ -93,8 +93,8 @@ Auparavant, toutes les authentifications de vos applications OAuth2 personnalis�
 
 Pour plus d’informations, voir [Création d’applications OAuth2 pour les intégrations Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
-## L’intégration de Google G Suite utilise désormais OAuth2.
+## L’intégration de Google Google Workspace utilise désormais OAuth2
 
-Pour une plus grande sécurité et pour offrir une expérience plus cohérente entre les intégrations, nous avons mis à jour l’intégration de Google G Suite afin d’utiliser l’authentification OAuth2, un moyen standard d’authentifier les utilisateurs. Désormais, lorsque vos utilisateurs se connectent, ils peuvent voir les actions et les zones auxquelles les intégrations ont accès et y autoriser l’accès. Après cela, il n’est plus nécessaire de se connecter aussi fréquemment.
+Pour une sécurité accrue et pour offrir une expérience plus cohérente entre les intégrations, nous avons mis à jour l’intégration de Google Google Workspace afin d’utiliser l’authentification OAuth2, un moyen standard d’authentifier les utilisateurs. Désormais, lorsque vos utilisateurs se connectent, ils peuvent voir les actions et les zones auxquelles les intégrations ont accès et y autoriser l’accès. Après cela, il n’est plus nécessaire de se connecter aussi fréquemment.
 
-Pour plus d’informations, voir [Connexion et déconnexion d’Adobe Workfront for G Suite](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+Pour plus d’informations, voir [Connexion et déconnexion d’Adobe Workfront pour Google Workspace](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
