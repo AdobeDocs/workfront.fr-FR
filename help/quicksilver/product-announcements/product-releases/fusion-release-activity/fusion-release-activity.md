@@ -9,10 +9,10 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 3b3dd815b5618853bdf8fc29304ed60d686195c3
+source-git-commit: d38dbad360db7317e05d4b9829c574596cca1c34
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,12 @@ Pour plus d’informations sur l’utilisation de Workfront Fusion, voir [Adobe 
 
 ## Versions de Fusion en 2024
 
-### Juin 2024
+### Juillet 2024
+
+* [Activité Version de Workfront Fusion : semaine du mardi 8 juillet 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md)
+
+
+### Juin 2024
 
 * [Activité Version de Workfront Fusion : semaine du mardi 17 juin 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-17.md)
 * [Activité Version de Workfront Fusion : semaine du mardi 3 juin 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)
