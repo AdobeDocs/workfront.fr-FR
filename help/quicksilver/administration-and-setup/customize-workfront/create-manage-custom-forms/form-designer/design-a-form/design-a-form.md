@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
+source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6081'
 ht-degree: 97%
 
 ---
@@ -78,7 +78,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
    * [Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Ajouter des champs de texte](#add-text-fields)
    * [Ajouter des champs calculés](#add-calculated-fields)
-   * [Ajouter des boutons radio, des groupes de cases à cocher et des listes déroulantes](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Ajouter des champs de frappe continue et des champs de date](#add-typeahead-and-date-fields)
    * [Ajouter des champs de recherche externes](#add-external-lookup-fields)
    * [Ajouter des images, des fichiers PDF et des vidéos](#add-images-pdfs-and-videos)
@@ -245,16 +245,16 @@ Dans un formulaire personnalisé, vous pouvez ajouter un champ personnalisé cal
 
 Pour ajouter un champ calculé, consultez la section [Ajouter des champs calculés avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-### Ajouter des cases d’option, des cases à cocher et des listes déroulantes
+### Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes
 
-Vous pouvez ajouter des boutons radio, des cases à cocher, des listes déroulantes et des listes déroulantes à sélection multiple à un formulaire personnalisé.
+Vous pouvez ajouter des boutons radio, des groupes de cases à cocher, des listes déroulantes et des listes déroulantes à sélection multiple à un formulaire personnalisé.
 
 +++ **Développez pour afficher les descriptions des champs disponibles**
 
 * **Cases d’option** : les personnes ne peuvent effectuer qu’une seule sélection.
 * **Groupe Case à cocher** : permet aux personnes d’effectuer plusieurs sélections.
 * **Liste déroulante** : fournit une liste de choix de liste déroulante.
-* **Menu déroulant à sélection multiple**: permet aux utilisateurs de sélectionner plusieurs choix dans une liste déroulante.
+* **Liste déroulante à sélection multiple** : permet aux utilisateurs de sélectionner plusieurs choix dans une liste déroulante.
 
 +++
 
@@ -262,7 +262,7 @@ Vous pouvez ajouter des boutons radio, des cases à cocher, des listes déroulan
 >
 >Les champs qui autorisent plusieurs sélections, tels que le groupe de cases à cocher et la liste déroulante à sélection multiple, sont difficiles à associer et à associer dans les rapports. Pour simplifier la création de graphiques et de regroupements dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple, un champ de texte d’une seule ligne).
 
-Pour ajouter des boutons radio, des cases à cocher et des listes déroulantes :
+Pour ajouter des boutons radio, des groupes de cases à cocher et des listes déroulantes :
 
 1. Dans la partie gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail.
 
@@ -271,7 +271,7 @@ Pour ajouter des boutons radio, des cases à cocher et des listes déroulantes :
    * Menu déroulant
    * Menu déroulant multi-sélection
 
-   ![Faire glisser un champ sur la zone de travail](assets/drag-field-to-section-041524.png)
+   ![Faites glisser un champ sur la zone de travail](assets/drag-field-to-section-041524.png)
 
 1. Dans la partie droite de l’écran, configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
 
@@ -655,9 +655,9 @@ The Workfront Mobile app -->
 
 +++ **Développez pour afficher les descriptions des champs disponibles.**
 
-* **Image**: permet aux utilisateurs d’ajouter des fichiers image.
+* **Image** : permet aux utilisateurs d’ajouter des fichiers image.
 * **PDF** : permet aux utilisateurs et utilisatrices d’ajouter des fichiers PDF.
-* **Vidéos**: permet aux utilisateurs d’ajouter des fichiers vidéo.
+* **Vidéos** : permet aux utilisateurs d’ajouter des fichiers vidéo.
 
 +++
 
