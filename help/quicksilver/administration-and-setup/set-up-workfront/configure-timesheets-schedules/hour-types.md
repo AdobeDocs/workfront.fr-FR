@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Il existe deux jeux de types d’heures :
    * Durée de la tâche
    * Heure de l’événement
 
-  L’administrateur ou l’administratrice [!DNL Workfront] détermine les types d’heures spécifiques au projet qui sont disponibles, comme décrit dans la section [Définir les types d’heures et la disponibilité pour les feuilles de temps](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+  L’administrateur [!DNL Workfront] détermine les types d’heures spécifiques au projet disponibles, comme décrit dans la section [Définition des types d’heures et disponibilité](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
   >[!NOTE]
   >
@@ -81,7 +81,7 @@ Les types d’heures fournis avec [!DNL Workfront] sont les suivants :
 
 ## Créer des types d’heures
 
-En tant qu’administrateur ou administratrice [!DNL Workfront], vous pouvez créer de nouveaux types d’heures pour votre organisation, tant au niveau du système que du projet. Une fois que vous avez créé les types d’heures au niveau du système et du projet, les utilisateurs et utilisatrices peuvent définir quels sont les types d’heures disponibles pour des projets et des personnes spécifiques. Pour plus d’informations, voir [Définir les types d’heures et la disponibilité pour les feuilles de temps](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+En tant qu’administrateur ou administratrice [!DNL Workfront], vous pouvez créer de nouveaux types d’heures pour votre organisation, tant au niveau du système que du projet. Une fois que vous avez créé les types d’heures au niveau du système et du projet, les utilisateurs et utilisatrices peuvent définir quels sont les types d’heures disponibles pour des projets et des personnes spécifiques. Pour plus d’informations, voir la [définition des types d’heures et de la disponibilité](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 
 Pour créer de nouveaux types d’heures :
 

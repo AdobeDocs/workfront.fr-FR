@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '3589'
-ht-degree: 99%
+source-wordcount: '3581'
+ht-degree: 97%
 
 ---
 
@@ -201,7 +201,7 @@ ou
    >   * Ctrl+Option+« + »+pour les ordinateurs Windows
    >   * Cmd+Option+« + » pour les ordinateurs Mac
 
-   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet, de l’utilisateur ou de l’utilisatrice, comme décrit dans [Définir des types d’heures et la disponibilité des feuilles de temps](define-hour-types-and-availability.md).
+   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [Définition des types d’heures et disponibilité](define-hour-types-and-availability.md).
 
    Le type d’heure ne peut pas être modifié après la fermeture d’une feuille de temps.
 
@@ -368,8 +368,8 @@ En outre, pour enregistrer l’heure d’un élément dans le widget Mon travail
    ![](assets/log-time-home-350x181.png)
 
 1. Dans le menu déroulant **Saisir les heures**, sélectionnez le type d’heure approprié.\
-   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur ou utilisatrice, comme décrit dans la section [Définir les types d’heures et la disponibilité des feuilles de temps](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. (Le cas échéant) Si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre **Affecter manuellement des fonctions aux entrées d’heure**, sélectionnez une fonction dans le menu déroulant. Le rôle spécifié lors de votre affectation à l’élément de travail s’affiche par défaut. Si aucune fonction ne vous est attribuée sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer les préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [Définition des types d’heures et disponibilité](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+1. (Facultatif) Si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre **Attribuer manuellement des fonctions aux entrées d’heure**, sélectionnez une fonction dans le menu déroulant. Le rôle spécifié lors de votre affectation à l’élément de travail s’affiche par défaut. Si aucune fonction ne vous est attribuée sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer les préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Précisez le temps à consigner, puis cliquez sur **Consigner le temps**.
 
    Les heures consignées s’affichent dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
@@ -411,7 +411,7 @@ Pour consigner une heure dans la section Mises à jour d’un projet, d’une t�
 
    * **Type d’heure** : sélectionnez un type d’heure dans le menu déroulant, s’il est différent de celui affiché par défaut.
 
-     Selon les types d’heures configurés dans votre système, les options disponibles peuvent varier. Pour plus d’informations sur la configuration des types d’heures, consultez [Définir des types d’heures et la disponibilité des feuilles de temps](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Selon les types d’heures configurés dans votre système, les options disponibles peuvent varier. Pour plus d’informations sur la configuration des types d’heures, voir [Définition des types d’heures et disponibilité](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Fonctions** : (le cas échéant) si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre **Affecter manuellement des fonctions aux entrées d’heure**, sélectionnez une **Fonction** dans le menu déroulant. La fonction spécifiée lorsque vous êtes la personne affectée à l’objet s’affiche par défaut. Si aucune fonction ne vous est attribuée sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -448,7 +448,7 @@ Pour consigner du temps dans la section Heures d’un projet, d’une tâche ou 
 
    * **Type d’heure** : sélectionnez un type d’heure dans le menu déroulant, s’il est différent de celui affiché par défaut.
 
-     Selon les types d’heures configurés dans votre système, les options disponibles peuvent varier. Pour plus d’informations sur la configuration des types d’heures, consultez [Définir des types d’heures et la disponibilité des feuilles de temps](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Selon les types d’heures configurés dans votre système, les options disponibles peuvent varier. Pour plus d’informations sur la configuration des types d’heures, voir [Définition des types d’heures et disponibilité](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Fonctions** : (le cas échéant) si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre **Affecter manuellement des fonctions aux entrées d’heure**, sélectionnez une **Fonction** dans le menu déroulant. La fonction spécifiée lorsque vous êtes la personne affectée à l’objet s’affiche par défaut. Si aucune fonction ne vous est attribuée sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer des préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '3298'
+source-wordcount: '3296'
 ht-degree: 99%
 
 ---
@@ -203,7 +203,7 @@ L’équipe principale est importante lors de l’attribution d’un modèle de 
        <li>En tant qu’utilisateur ou utilisatrice disposant d’une licence Plan et d’un accès à la modification des utilisateurs et des utilisatrices, vous ne pouvez voir que les profils de feuille de temps au niveau du système. Pour plus d’informations sur les profils de feuille de calcul au niveau du groupe, voir <a href="../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md" class="MCXref xref">Création, modification et affectation de profils de feuille de temps</a>.</li>
       </ul></p> </li> 
        <li><b>Type d’heure par défaut</b> : sélectionnez le type d’heure par défaut pour la personne. Il s’agit du type d’heure utilisé par défaut lorsque la personne consigne des heures.</li> 
-       <li><b>Types d’heure disponibles</b> : sélectionnez les types d’heures qui doivent être disponibles pour la personne. Ces types d’heure sont visibles partout dans Workfront, où la personne peut consigner l’heure. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne. Pour plus d’informations sur les types d’heure disponibles pour les personnes, consultez la section <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Définir les types d’heure et la disponibilité des feuilles de temps</a>.</li> 
+       <li><b>Types d’heure disponibles</b> : sélectionnez les types d’heures qui doivent être disponibles pour la personne. Ces types d’heure sont visibles partout dans Workfront, où la personne peut consigner l’heure. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Définition des types d’heures et disponibilité</a>.</li> 
        <li><b>Temps de connexion :</b> indiquez si la personne doit se consigner les tâches en heures ou en jours. Pour plus d’informations, voir <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">Configurer si la durée est consignée en heures ou en jours</a>.</li>
 
    <li> <b>FTE</b> : il s’agit de l’équivalent temps plein de la personne. Workfront utilise ce nombre pour calculer la disponibilité de la personne en fonction du planning par défaut uniquement lorsque les préférences de gestion des ressources au niveau du système sont définies sur « Le planning par défaut ».

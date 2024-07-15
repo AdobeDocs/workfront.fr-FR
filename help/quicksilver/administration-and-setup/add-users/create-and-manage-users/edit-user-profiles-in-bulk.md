@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
-workflow-type: ht
-source-wordcount: '2247'
-ht-degree: 100%
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+workflow-type: tm+mt
+source-wordcount: '2245'
+ht-degree: 99%
 
 ---
 
@@ -185,7 +185,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
        </ul> </p> </li> 
        <li><b>Type d’heure par défaut</b> : sélectionnez le type d’heure par défaut pour les utilisateurs et les utilisatrices. Il s’agit du type d’heure utilisé par défaut lorsque les utilisateurs et les utilisatrices consignent des heures.</li> 
        <li> <p><b>Types d’heures disponibles</b> : sélectionnez les types d’heures qui doivent être disponibles pour la personne. Ces types d’heures sont visibles partout dans Workfront où les personnes peuvent consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne.</p> 
-       <p>Pour plus d’informations sur les types d’heures disponibles pour les personnes, voir <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Définir les types d’heures et la disponibilité des feuilles de temps</a>.</p> 
+       <p>Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Définition des types d’heures et disponibilité</a>.</p> 
        </li> 
        <li> <b>FTE</b> : il s’agit de l’équivalent temps plein de la personne. Workfront utilise ce nombre pour calculer la disponibilité de la personne en fonction du planning par défaut uniquement lorsque les préférences de gestion des ressources au niveau du système sont définies sur « Le planning par défaut ».
 
