@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '440'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 4%
 
 Cette page décrit les améliorations apportées à la version du troisième trimestre 2024 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, consultez la [présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Modification du serveur principal en guides intégrés au produit
+
+>[!NOTE]
+>
+>Production pour tous les clients : par incréments jusqu’à la mi-août 2024
+
+Au cours des prochaines semaines, nous allons mettre en oeuvre un changement technologique pour nos guides intégrés au produit. Bien que nous ayons essayé de minimiser l’impact de cette transition, certains utilisateurs peuvent rencontrer des guides qu’ils ont précédemment vus.
 
 ## Expérience unifiée Adobe désormais disponible pour d’autres organisations Workfront
 
@@ -37,7 +45,7 @@ Si votre entreprise évolue vers l’Adobe d’expérience unifiée avec la vers
 
 Auparavant, l’Adobe Expérience unifiée était disponible uniquement pour les nouveaux clients Workfront.
 
-Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 [Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
@@ -55,4 +63,4 @@ Lorsqu’un utilisateur n’a pas accès à un objet, il voit &quot;Aucun accès
 
 Les équipes et les utilisateurs ne sont pas inclus dans cette modification. Les utilisateurs peuvent toujours afficher les noms d’équipe et d’utilisateur.
 
-Pour plus d’informations, voir la section [Accès limité aux objets](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) dans le [!DNL Adobe Workfront] Présentation des objets .
+Pour plus d’informations, reportez-vous à la section [Accès restreint aux objets](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) dans l’article [!DNL Adobe Workfront] de présentation des objets.
