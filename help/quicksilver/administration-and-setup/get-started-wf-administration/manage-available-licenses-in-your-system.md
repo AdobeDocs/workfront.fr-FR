@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 834d08d8e9896b80d047d00b2008dd9a002a95da
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 89%
+source-wordcount: '1212'
+ht-degree: 87%
 
 ---
 
@@ -44,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> </td> 
+   <td> <p>Vous devez être administrateur système ou administrateur de groupe. L’administrateur du groupe a une vue limitée des informations de licence.</p> </td> 
   </tr> 
  </tbody> 
 </table>
