@@ -6,10 +6,10 @@ description: Une ligne de base est un instantané de projet qui représente des 
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 11%
+source-wordcount: '757'
+ht-degree: 7%
 
 ---
 
@@ -57,8 +57,6 @@ drafted for P&P:
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -68,7 +66,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
     <td><p>Nouvelle : standard</p>
         <p>ou</p>
         <p>Actuelle : formule </p> </td> 
@@ -84,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations sur les informations contenues dans ce tableau, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

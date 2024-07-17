@@ -6,10 +6,10 @@ description: Les portfolios sont des collections de projets ou de programmes dan
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 97%
+source-wordcount: '358'
+ht-degree: 95%
 
 ---
 
@@ -77,14 +77,16 @@ Lorsque vous désactivez un portfolio, vous pouvez toujours y accéder à partir
 >
 >Selon la manière dont votre administrateur ou administratrice de groupes [!DNL Workfront] configure votre modèle de disposition, la zone [!UICONTROL Portfolios] peut ne pas s’afficher dans le [!UICONTROL Menu principal]. Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
+{{step1-click-main-menu}}
+
 1. Cliquez sur **[!UICONTROL Portfolios]**.
 1. Cliquez sur le nom du portfolio.
 1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom du portfolio, puis cliquez sur **[!UICONTROL Désactiver le portefeuille]**.
 
 ## Supprimer un portfolio
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
+{{step1-click-main-menu}}
+
 1. Cliquez sur **[!UICONTROL Portfolios]**.
 1. Sélectionnez le portfolio, puis cliquez sur l’icône **[!UICONTROL Supprimer]** [!UICONTROL Supprimer] ![](assets/delete.png).
-1. Dans la zone qui s’affiche, cliquez sur **[!UICONTROL Oui, supprimer]** pour confirmer.
+1. Cliquez sur **[!UICONTROL Oui, Supprimer]** pour confirmer.

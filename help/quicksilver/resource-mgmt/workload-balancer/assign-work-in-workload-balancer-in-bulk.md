@@ -6,10 +6,10 @@ description: Vous pouvez affecter des ressources à plusieurs tâches et problè
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 6%
+source-wordcount: '1499'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Pour des informations générales sur l’affectation de travail aux utilisateur
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,6 +68,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 *Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considérations pour effectuer des affectations en bloc dans l’équilibreur de charge de travail
 

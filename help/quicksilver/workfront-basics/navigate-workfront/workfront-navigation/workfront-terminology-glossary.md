@@ -6,9 +6,9 @@ description: Le glossaire  [!DNL Adobe Workfront] répertorie les termes couramm
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '20304'
+source-wordcount: '20310'
 ht-degree: 1%
 
 ---
@@ -1531,7 +1531,7 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
   </tr> 
   <tr> 
    <td>[!UICONTROL Date d’achèvement prévue]</td> 
-   <td> <p>Vous pouvez définir manuellement la [!UICONTROL Date d’achèvement planifiée] sur une date de votre choix. Si vous ne définissez pas la [!UICONTROL Date d’achèvement planifiée], [!DNL Workfront] la définit automatiquement. Lorsqu’elle est définie automatiquement, la [!UICONTROL Date d’achèvement planifiée] est : [!UICONTROL Date de début planifiée] + [!UICONTROL Durée]</p> <p>Pour plus d’informations, consultez les articles suivants :</p> 
+   <td> <p>Vous pouvez définir manuellement la [!UICONTROL Date d’achèvement planifiée] d’une tâche, d’un projet ou d’une émission à une date de votre choix. Si vous ne définissez pas la [!UICONTROL Date d’achèvement planifiée], [!DNL Workfront] la définit automatiquement. Lorsqu’elle est définie automatiquement, la [!UICONTROL Date d’achèvement planifiée] est : [!UICONTROL Date de début planifiée] + [!UICONTROL Durée]</p> <p>Pour plus d’informations, consultez les articles suivants :</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Présentation de la tâche [!UICONTROL Date d’achèvement planifiée]</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Définition de la date d’achèvement prévue du projet [!UICONTROL]</a> </p> </li> 

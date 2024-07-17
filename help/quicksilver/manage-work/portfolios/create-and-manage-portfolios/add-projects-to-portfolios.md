@@ -6,14 +6,16 @@ description: Nous vous recommandons d’ajouter des projets aux portefeuilles lo
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 19%
+source-wordcount: '376'
+ht-degree: 7%
 
 ---
 
 # Ajouter des projets à un portfolio
+
+<!--Audited: 7/2024-->
 
 Nous vous recommandons d’ajouter des projets aux portefeuilles lorsque vous les lancez. Vous pouvez toutefois les ajouter à un portfolio à tout moment de leur vie.
 
@@ -24,32 +26,35 @@ Tenez compte des points suivants lors de l’ajout de projets à des portefeuill
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!UICONTROL Business] ou niveau supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td><p>Nouvelle : standard</p> 
+   <p>Actuel :[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès à [!UICONTROL Affichage] à Portfolio ou à une version ultérieure</p> <p>Accès à [!UICONTROL Modifier] dans Projets</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur [!DNL Workfront] s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la manière dont l’équipe d’administration [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Accès à [!UICONTROL Affichage] à Portfolio ou à une version ultérieure</p> <p>Accès à [!UICONTROL Modifier] dans Projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Afficher] pour le portfolio</p> <p>Autorisations [!UICONTROL Gérer] pour les projets</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations [!UICONTROL Afficher] pour le portfolio</p> <p>Autorisations [!UICONTROL Gérer] pour les projets</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajout d’un projet à un portfolio
 

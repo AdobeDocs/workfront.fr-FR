@@ -6,10 +6,10 @@ description: Vous pouvez importer des projets de Microsoft Project dans Adobe Wo
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 29%
+source-wordcount: '503'
+ht-degree: 16%
 
 ---
 
@@ -25,12 +25,14 @@ Vous pouvez importer des projets de Microsoft Project dans Adobe Workfront et g�
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
@@ -41,19 +43,19 @@ Vous pouvez importer des projets de Microsoft Project dans Adobe Workfront et g�
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur l’accès aux projets, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Accorder l’accès aux projets</a>. Pour plus d’informations sur la façon dont un administrateur ou une administratrice de Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Niveau d’accès</td> 
+   <td> <p>Modifier l’accès aux projets</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Lorsque vous créez un projet, vous recevez automatiquement les autorisations de gestion du projet. </p> <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Lorsque vous créez un projet, vous recevez automatiquement les autorisations de gestion du projet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--old permissions model: 
 
@@ -96,7 +98,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal ou d
 1. Connectez-vous à Workfront.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur le **menu principal** ![](assets/main-menu-icon.png), cliquez sur **Projets**, puis développez **Nouveau projet**.
+   * Cliquez sur le **menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront ou cliquez sur le **menu principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, cliquez sur **Projets**, puis développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
    * Accédez à un programme, puis développez **Nouveau projet**.
    * Si vous êtes administrateur ou administratrice de groupes, vous pouvez également créer un projet dans la section Projets d’un groupe que vous gérez. Pour plus d’informations, voir [Créer et modifier des projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

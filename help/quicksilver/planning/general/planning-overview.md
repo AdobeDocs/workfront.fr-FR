@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 83%
+source-wordcount: '1989'
+ht-degree: 81%
 
 ---
 
@@ -287,13 +287,18 @@ Pour localiser Workfront Planning :
 
 1. Connectez-vous à Adobe Workfront.
 
-1. Cliquez sur le **menu principal** ![](assets/main-menu-workfront.png) dans le coin supérieur droit ou sur l’icône **Menu principal** ![](assets/main-menu-shell.png) dans le coin supérieur gauche, le cas échéant.
+{{step1-click-main-menu}}
 
 1. Cliquez sur **Planning** ![](assets/planning-icon.png).
 
    La page d’entrée Planification Workfront s’ouvre.
 
    ![](assets/planning-landing-page-admin.png)
+
+   >[!TIP]
+   >
+   >    Votre administrateur Workfront peut ajouter la zone Planning à l&#39;option Sélectionner une page d&#39;entrée de votre modèle de mise en page afin que vous puissiez ouvrir la Planification dès que vous vous connectez à Workfront. Pour plus d’informations, voir [Personnaliser la landing page à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+
 
 1. (Conditionnel et facultatif) Si vous êtes administrateur Workfront, cliquez sur l’un des onglets suivants :
    * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés.

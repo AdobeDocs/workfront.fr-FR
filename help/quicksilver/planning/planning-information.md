@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '485'
 ht-degree: 40%
 
 ---
@@ -87,6 +87,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
    * Créer, modifier et supprimer des enregistrements
    * Connecter des enregistrements
    * Ajout d’une image de couverture ou d’une miniature à un enregistrement
+   * Gestion de la mise en page d’une page d’enregistrement
    * Enregistrement des commentaires et de l’historique
    * Partager des enregistrements
    * Section Planification Workfront pour les objets Workfront

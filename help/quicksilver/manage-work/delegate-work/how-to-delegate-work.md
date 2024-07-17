@@ -3,10 +3,10 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Déléguer des tâches et problèmes
 description: Vous pouvez déléguer temporairement la tâche à laquelle vous êtes affecté lorsque vous êtes absent du bureau. Cet article décrit comment déléguer des tâches et des affectations de problèmes.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 4%

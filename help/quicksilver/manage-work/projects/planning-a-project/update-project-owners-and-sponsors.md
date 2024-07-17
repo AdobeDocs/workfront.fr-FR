@@ -6,14 +6,17 @@ description: Lorsque vous créez un projet dans Adobe Workfront, vous êtes auto
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 27%
+source-wordcount: '421'
+ht-degree: 13%
 
 ---
 
+
 # Mettre à jour les personnes propriétaires et sponsors des projets
+
+<!--Audited: 07/2024-->
 
 Lorsque vous créez un projet dans Adobe Workfront, vous êtes automatiquement défini comme propriétaire du projet. Vous pouvez mettre à jour ce champ avec un autre utilisateur. Vous pouvez également mettre à jour le champ Sponsor de projet d’un projet.
 
@@ -60,34 +63,35 @@ Pour plus d’informations sur les propriétaires et les sponsors de projets, vo
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>N’importe quelle</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nouvelle : standard</p> 
+   <p>Actuelle : formule </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td> <p>Modifier l’accès aux projets</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Modification des autorisations d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Modification des autorisations d’un projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Mise à jour du propriétaire d’un projet
 
@@ -105,7 +109,7 @@ Lorsque vous ajoutez un utilisateur en tant que propriétaire de projet, Workfro
 
    Le propriétaire du projet se met à jour dans l’en-tête du projet et dans la zone Détails du projet.
 
-![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Mise à jour du parrain d’un projet
 

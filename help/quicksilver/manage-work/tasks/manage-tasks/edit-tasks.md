@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '3664'
-ht-degree: 91%
+source-wordcount: '3662'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez modifier les informations sur les tâches que vous avez créées ou 
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,6 +70,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 *Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Restrictions relatives à la modification des tâches
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '3581'
+source-wordcount: '3553'
 ht-degree: 97%
 
 ---
@@ -118,7 +118,7 @@ Vous pouvez consigner les heures pour les éléments suivants dans la feuille de
 
 Pour consigner des heures sur une feuille de temps :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche.
+{{step1-click-main-menu}}
 
 1. Cliquez sur [!UICONTROL **Feuilles de temps**]. Votre feuille de temps actuelle s’affiche par défaut.
    ![Feuille de temps](assets/timesheet-redesigned-nwe.png)

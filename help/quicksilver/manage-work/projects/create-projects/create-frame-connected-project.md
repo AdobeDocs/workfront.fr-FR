@@ -6,10 +6,10 @@ description: Un projet est une grande unité de travail dans Adobe Workfront. Vo
 author: Courtney
 feature: Work Management
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 12%
+source-wordcount: '1169'
+ht-degree: 11%
 
 ---
 
@@ -26,9 +26,11 @@ Lorsqu’un projet Workfront est connecté à Frame.io, vous pouvez
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les entreprises qui ont été intégrées à [!DNL Adobe Admin Console].
+>Cette fonctionnalité est disponible uniquement pour les organisations qui ont été intégrées à [!DNL Adobe Admin Console].
 
 Vous devez disposer des éléments suivants :
 
@@ -56,6 +58,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 

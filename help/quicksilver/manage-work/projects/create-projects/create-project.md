@@ -6,10 +6,10 @@ description: Un projet est une grande unité de travail dans Adobe Workfront. Vo
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Nouvelle : standard</p>
         <p>ou</p>
         <p>Actuelle : formule </p> </td> 
@@ -85,7 +85,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations sur les informations contenues dans ce tableau, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

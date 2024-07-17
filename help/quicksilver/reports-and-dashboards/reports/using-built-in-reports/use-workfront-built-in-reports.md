@@ -6,10 +6,10 @@ description: Adobe Workfront contient une liste complète de rapports natifs pr�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '2953'
-ht-degree: 12%
+source-wordcount: '2951'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ Pour plus d’informations sur la façon de masquer les rapports natifs, voir [M
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,6 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 *Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Présentation des rapports natifs {#overview-of-built-in-reports}
 
