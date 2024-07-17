@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
+source-git-commit: dff543fcd657ba5208e1ef1110502175155d2040
 workflow-type: tm+mt
-source-wordcount: '14439'
+source-wordcount: '14438'
 ht-degree: 95%
 
 ---
@@ -490,6 +490,9 @@ ht-degree: 95%
          * [Créer ou modifier un package de promotion environnementale](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [Installer un package de promotion environnementale](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [Promotion environnementale à l’aide de l’API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [FAQ sur la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+         * [Résolution des problèmes de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
    * User Management {#add-users}
       * [User Management : index des articles](administration-and-setup/add-users/add-users.md)
       * Créer et gérer des utilisateurs et des utilisatrices {#create-manage-users}
@@ -2207,7 +2210,6 @@ ht-degree: 95%
       * [Vue d’ensemble du scénario d’Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-overview.md)
       * [Créer un scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/create-a-scenario.md)
       * [L’éditeur de scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-editor.md)
-      * [Paramètres de scénario de base dans Adobe Workfront Fusion](workfront-fusion/scenarios/basic-scenario-settings.md)
       * [Panneau des paramètres de scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-settings-panel.md)
       * [Détails du scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-detail.md)
       * [Flux d’exécution du scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-flow.md)

@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 99%
+source-wordcount: '759'
+ht-degree: 98%
 
 ---
 
@@ -109,6 +109,6 @@ Fournissez les informations suivantes à votre administrateur ou administratrice
 
 1. Pour afficher votre plan Workfront, sélectionnez **Licences**.
 
-   Votre plan s’affiche au bas de la page.
+   Votre plan s’affiche près du coin supérieur droit de la page.
 
    ![](assets/locate-plan.png)
