@@ -9,7 +9,7 @@ exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
 source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -69,9 +69,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-    <td><p>Nouveau : Standard</p>
+    <td><p>Nouvelle : standard</p>
         <p>ou</p>
-        <p>Actuel : formule </p> </td> 
+        <p>Actuelle : formule </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
@@ -92,26 +92,26 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 * Vous pouvez capturer plusieurs fois un instantané de la progression d’un projet au cours de sa durée de vie, créant ainsi plusieurs lignes de base.
 * Vous pouvez afficher les informations incluses dans les lignes de base d’un projet en créant une ligne de base ou en créant un rapport de ligne de base.
-* Lorsque vous créez une ligne de base, les informations de tâche sont également capturées sur les tâches de base de cette ligne de base.
+* Lorsque vous créez une référence, les informations de tâche sont également capturées sur les tâches de base de cette référence.
 * Vous pouvez afficher les informations des tâches de base en créant un rapport Tâche de ligne de base .
 
 >[!IMPORTANT]
 >
->Une ligne de base prend un instantané du nom, des dates et des informations financières du projet. La ligne de base n’inclut pas les valeurs des champs personnalisés du projet. Pour plus d’informations sur les informations financières incluses dans la ligne de base, voir [Finances du projet incluses dans les lignes de base du projet](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>Une ligne de base prend un instantané du nom, des dates et des informations financières du projet. La ligne de base n’inclut pas les valeurs des champs personnalisés du projet. Pour plus d’informations sur les informations financières incluses dans la ligne de base, reportez-vous à la section [Finance du projet inclus dans les lignes de base du projet](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Création d’une ligne de base
 
 Vous pouvez créer une ligne de base comme suit :
 
-* **Automatiquement**: votre administrateur Workfront ou un administrateur de groupe définit les préférences de projet pour que Workfront crée automatiquement une ligne de base lorsqu’un projet devient actuel. Lorsque ce paramètre est activé, une ligne de base est créée lorsque l’état du projet devient Actuel. Lorsque ce paramètre n’est pas activé, vous devez créer manuellement des lignes de base.
+* **Automatiquement** : votre administrateur Workfront ou un administrateur de groupe définit la préférence de projet pour Workfront afin de créer automatiquement une ligne de base lorsqu’un projet devient actuel. Lorsque ce paramètre est activé, une ligne de base est créée lorsque l’état du projet devient Actuel. Lorsque ce paramètre n’est pas activé, vous devez créer manuellement des lignes de base.
 
-  Pour plus d’informations sur la configuration des préférences de projet et la configuration de la création automatique de la ligne de base, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Pour plus d’informations sur la configuration des préférences de projet et la configuration de la création automatique de la ligne de base, voir [ Configuration des préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!CAUTION]
   >
   >L’activation de ce paramètre crée automatiquement une ligne de base pour un projet chaque fois qu’un état de projet passe à Actuel. La première ligne de base créée est la ligne par défaut. Vous devez créer manuellement toutes les autres lignes de base pendant la durée du projet .
 
-* **Manuellement**: vous pouvez créer de nouvelles lignes de base pour le projet au fur et à mesure que le projet progresse. Vous pouvez ensuite comparer des lignes de base pour voir l’évolution du projet au fil du temps.
+* **Manuellement** : vous pouvez créer de nouvelles lignes de base pour le projet au fur et à mesure que le projet progresse. Vous pouvez ensuite comparer des lignes de base pour voir l’évolution du projet au fil du temps.
 
 Pour créer une ligne de base :
 
@@ -120,7 +120,7 @@ Pour créer une ligne de base :
 
    Ou
 
-   Cliquez sur **Afficher plus**, puis cliquez sur **Lignes de base**.
+   Cliquez sur **Afficher plus**, puis sur **Lignes de base**.
 
    ![Section de base sur le projet](assets/baselines-section-on-project-with-header.png)
 
@@ -143,7 +143,7 @@ Pour créer une ligne de base :
      >
      >Vous ne pouvez pas afficher les informations de deux lignes de base en même temps dans la même vue ou dans le même rapport. Vous pouvez uniquement afficher les informations d’une ligne de base donnée et de la ligne de base par défaut dans le même rapport. Vous pouvez modifier la ligne de base que vous considérez comme la ligne de base par défaut à tout moment pendant la durée du projet.
 
-1. (Facultatif) Cliquez sur le **Affichage** , puis créez une vue ou modifiez la vue actuelle pour ajouter des champs à la vue et comparer des informations supplémentaires entre les lignes de base. Pour plus d’informations, voir [Création ou modification de vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. (Facultatif) Cliquez sur le bouton **Afficher** , puis créez une nouvelle vue ou modifiez la vue actuelle pour ajouter des champs à la vue et comparer des informations supplémentaires entre les lignes de base. Pour plus d’informations, voir [Création ou modification de vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Création d’un rapport de ligne de base ou de tâche de ligne de base
 
@@ -153,8 +153,8 @@ Pour afficher des informations de base, vous pouvez également créer un rapport
 >
 >Vous devez créer une ligne de base avant de pouvoir créer un rapport de ligne de base ou de tâche de ligne de base.
 
-Pour plus d’informations sur la création d’un rapport, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Pour plus d’informations sur la création d’un rapport, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 Nous vous recommandons d’ajouter un regroupement Nom de projet à votre rapport Tâche de ligne de base ou Tâche de ligne de base afin de faciliter la lecture.
 
-Pour plus d’informations sur la création d’un groupement, voir [Création de groupes dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+Pour plus d’informations sur la création d’un groupement, voir [Création de groupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

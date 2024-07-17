@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de version 2017.2 bêta 3
-description: Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 bêta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 24 mai 2017. Il sera disponible dans l’environnement de production entre fin juillet et début août 2017.
+title: Activité Version 2017.2, version bêta 3
+description: Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 de Beta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 24 mai 2017. Il sera disponible dans l’environnement de production entre fin juillet et début août 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,37 +10,37 @@ exl-id: 9647f3c6-f287-426c-a5e7-eb33b8b22a34
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1387'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Activité de version 2017.2 bêta 3
+# Activité Version 2017.2, version bêta 3
 
-Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 bêta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 24 mai 2017. Il sera disponible dans l’environnement de production entre fin juillet et début août 2017.
+Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 de Beta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 24 mai 2017. Il sera disponible dans l’environnement de production entre fin juillet et début août 2017.
 
 >[!IMPORTANT]
 >
 >Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2017.2, voir [Présentation de l’activité de la version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées en 2017.2, consultez la [présentation de l’activité de version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-La version 2017.2 bêta 2 contient des améliorations à la fois pour les administrateurs de Workfront et pour les autres utilisateurs :
+La version 2017.2 de Beta 2 contient des améliorations tant pour les administrateurs de Workfront que pour d’autres utilisateurs :
 
 **Pour les administrateurs :**
 
 * [Restauration d’éléments en bloc à partir de la Corbeille](#restoring-items-in-bulk-from-the-recycle-bin)
 * [Les informations utilisateur sont synchronisées de Workfront vers ProofHQ (ProofHQ et Workfront)](#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront)
 
-**Pour tous les utilisateurs :** 
+**Pour Tous Les Utilisateurs :** 
 
 * [Afficher les utilisateurs abonnés](#view-subscribed-users)
 * [Configuration de l’affichage des jalons sur le diagramme de Gantt](#configure-how-milestones-are-displayed-on-the-gantt-chart)
-* [Inclure la légende du diagramme de Gantt lors de l’exportation vers PDF](#include-the-gantt-chart-legend-when-exporting-to-pdf)
-* [Affichage des validations de BAT dans la zone de travail Mes (Workfront)](#view-proof-approvals-in-the-my-work-area-workfront)
-* [Affichage des noms d’utilisateur lors de la réponse aux demandes d’approbation de vérification à partir de ma zone de travail (Workfront)](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
-* [Amélioration de la visionneuse de vérification pour les bons à tirer vidéo (BAT et Workfront)](#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront)
-* [Affichage des bons à tirer pour les médias riches dans d’autres résolutions (BATHQ et Workfront)](#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront)
-* [Nouvel objet &quot;Créateur de BAT&quot; dans le rapport Version du document (Workfront)](#new-proof-creator-object-in-document-version-report-workfront)
+* [Inclure la légende du graphique de Gantt lors de l’exportation vers PDF](#include-the-gantt-chart-legend-when-exporting-to-pdf)
+* [Afficher les validations de BAT dans ma zone de travail (Workfront)](#view-proof-approvals-in-the-my-work-area-workfront)
+* [ Afficher les noms d’utilisateur lors de la réponse aux demandes d’approbation de vérification à partir de ma zone de travail (Workfront)](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
+* [Visionneuse de vérification améliorée pour les BAT vidéo (BATHQ et Workfront)](#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront)
+* [Affichage de BAT de médias riches dans d’autres résolutions (ProofHQ et Workfront)](#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront)
+* [Nouvel objet &#39;Proof Creator&#39; dans le rapport Version du document (Workfront)](#new-proof-creator-object-in-document-version-report-workfront)
 * [Nouvelle fonctionnalité de pool de ressources temporairement supprimée de l’aperçu](#new-resource-pool-functionality-temporarily-removed-from-preview)
 
 ## Restauration d’éléments en bloc à partir de la Corbeille {#restoring-items-in-bulk-from-the-recycle-bin}
@@ -49,7 +49,7 @@ Vous pouvez désormais restaurer jusqu’à 10 projets, tâches, problèmes ou d
 
 Avant cette modification, vous pouviez restaurer un seul élément supprimé à la fois.
 
-Pour plus d’informations sur la restauration d’éléments, voir [Restauration des éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Pour plus d’informations sur la restauration d’éléments, voir [Restaurer les éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Afficher les utilisateurs abonnés {#view-subscribed-users}
 
@@ -73,7 +73,7 @@ Deux options sont désormais disponibles pour afficher les informations de jalon
 
 Avant cette modification, il n’existait qu’une seule option permettant aux jalons de s’afficher sur un graphique de Gantt, appelé &quot;Jalons&quot;. Cette option a activé l’icône représentant un jalon et la ligne de jalon. Ces indicateurs n’ont pas pu être séparés.
 
-Pour plus d’informations sur la configuration de l’affichage des informations dans le diagramme de Gantt, voir [Configuration de l’affichage des informations sur le diagramme de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+Pour plus d’informations sur la configuration de l’affichage des informations dans le diagramme de Gantt, voir [Configuration de l’affichage des informations dans le diagramme de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 ## Inclure la légende du diagramme de Gantt lors de l’exportation vers PDF {#include-the-gantt-chart-legend-when-exporting-to-pdf}
 
@@ -81,7 +81,7 @@ Lorsque vous exportez le diagramme de Gantt vers un PDF, vous pouvez maintenant 
 
 Avant cette modification, vous ne pouviez pas exclure la légende du PDF exporté. La légende incluait toutes les options et marqueurs possibles du Gantt, qu’ils aient été activés ou qu’ils existent dans l’interface utilisateur.
 
-Pour plus d’informations sur l’exportation du diagramme de Gantt, voir [Exportation du diagramme de Gantt vers PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+Pour plus d’informations sur l’exportation du diagramme de Gantt, voir [Export du graphique de Gantt vers PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
 ## Les informations utilisateur sont synchronisées de Workfront vers ProofHQ (ProofHQ et Workfront) {#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront}
 
@@ -103,13 +103,13 @@ Le nouvel objet Créateur de BAT du rapport Version du document contient tous le
 
 Vous accédez à l’objet Créateur de BAT lors de la création d’un rapport Version du document, comme décrit dans la section [Création d’un rapport personnalisé](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Pour plus d’informations sur le rapport d’objet Document Version, voir [Présentation des objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) dans [Présentation des objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Pour plus d’informations sur le rapport d’objet Version du document, reportez-vous à la section [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) de la section [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Affichage des validations de BAT dans la zone de travail Mes (Workfront) {#view-proof-approvals-in-the-my-work-area-workfront}
 
-Toutes les validations de BAT que vous avez soumises à validation sont désormais affichées dans la zone Mon travail, dans la **Travail que j’ai envoyé pour approbation** .
+Toutes les validations de BAT que vous avez soumises pour approbation sont désormais affichées dans la zone Mon travail, dans l’onglet **Travail que j’ai envoyé pour approbation** .
 
-Avant cette modification, la variable **Travail que j’ai envoyé pour approbation** n’incluait pas les approbations de BAT.
+Avant cette modification, l’onglet **Travail que j’ai envoyé pour approbation** n’incluait pas les validations de BAT.
 
 Les validations de BAT ne s&#39;affichent que lorsque les critères suivants sont remplis :
 
@@ -117,13 +117,13 @@ Les validations de BAT ne s&#39;affichent que lorsque les critères suivants son
 * Le processus d’approbation est attribué à un utilisateur qui est un utilisateur Workfront sous licence (les processus d’approbation attribués à des utilisateurs qui ne sont pas des utilisateurs Workfront sous licence ne s’affichent pas).
 * Les processus d’approbation ont été lancés après la publication de cette fonctionnalité (les processus d’approbation initiés avant la publication de cette fonctionnalité ne s’affichent pas).
 
-Pour plus d’informations, voir [Afficher les approbations](../../../../review-and-approve-work/manage-approvals/view-approvals.md) in [Afficher les approbations](../../../../review-and-approve-work/manage-approvals/view-approvals.md).
+Pour plus d’informations, voir [Afficher les approbations](../../../../review-and-approve-work/manage-approvals/view-approvals.md) dans [Afficher les approbations](../../../../review-and-approve-work/manage-approvals/view-approvals.md).
 
 ## Affichage des noms d’utilisateur lors de la réponse aux demandes d’approbation de vérification à partir de ma zone de travail (Workfront) {#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront}
 
 Désormais, lorsque vous approuvez les validations de vérification dans la zone Mon travail, le nom de l’utilisateur qui a demandé la validation s’affiche.
 
-Pour plus d’informations, voir [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Pour plus d’informations, voir [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) dans [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Amélioration de la visionneuse de vérification pour les bons à tirer vidéo (BAT et Workfront) {#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront}
 
@@ -139,13 +139,13 @@ La nouvelle visionneuse de correctifs contient les améliorations suivantes :
 * Vérifier le contenu plus rapidement ou plus lentement
 * Vérificateur orthographique lors de l’ajout de commentaires et de réponses
 
-### Aperçu
+### Prévisualiser
 
 La nouvelle visionneuse de vérification est disponible pour les tests dans les environnements d’aperçu suivants :
 
 * Environnement d’aperçu de BATHQ
 
-  Pour plus d’informations sur l’environnement d’aperçu de BATHQ, voir [Aperçu de l’environnement de test Sandbox - BAT Workfront](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+  Pour plus d’informations sur l’environnement d’aperçu de BATHQ, voir [Aperçu de l’environnement de test Sandbox - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
 
 * Environnement de prévisualisation de Workfront, lorsque votre compte est activé avec la vérification
 
@@ -167,7 +167,7 @@ Avant cette modification, vous pouviez passer en revue les BAT à l’aide de la
 
 Vous pouvez utiliser le mode Comparer pour comparer différentes résolutions de BAT.
 
-Pour plus d’informations, voir [Ouverture de BAT dans la visionneuse de vérification de l’appli de bureau](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md). 
+Pour plus d’informations, voir [Ouvrir les bons à tirer dans la visionneuse de vérification de l’appli de bureau](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md). 
 
 ## Nouvelle fonctionnalité de pool de ressources temporairement supprimée de l’aperçu {#new-resource-pool-functionality-temporarily-removed-from-preview}
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Présentation des instructions &quot;IF&quot;
+# Vue d’ensemble des instructions « IF »
 
 <!-- Audited: 1/2024 -->
 
@@ -27,7 +27,7 @@ Tenez compte des points suivants avant de créer une instruction &quot;IF&quot; 
 * Nous recommandons une compréhension de base de tout langage de programmation général, mais nous n’en avons pas besoin pour ce guide.
 * Nous avons besoin d’une compréhension avancée de la syntaxe du mode texte de Workfront. Cela permet de comprendre la terminologie de l’API Workfront et la syntaxe des données personnalisées dans ces formats spécifiques.
 
-  Pour plus d’informations sur l’API Workfront, voir [Principes de base des API](../../../wf-api/general/api-basics.md).
+  Pour plus d’informations sur l’API Workfront, reportez-vous à la section [Principes de base de l’API](../../../wf-api/general/api-basics.md).
 
   Pour plus d’informations sur l’utilisation du mode texte, voir [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
@@ -55,9 +55,9 @@ Vous pouvez créer des instructions &quot;IF&quot; dans Workfront au format suiv
    * Un état est égal à l’un des états disponibles sur un objet spécifié.
    * Le pourcentage d’achèvement d’une tâche est inférieur ou supérieur à un certain pourcentage.
 
-* **Opérateur de condition** = il s’agit de l’opérateur qui vous aide à créer la condition de votre instruction &quot;IF&quot;. Par exemple, &quot;est égal à&quot; ou &quot;est supérieur à&quot; sont des opérateurs de condition. Pour obtenir la liste des opérateurs de condition que vous pouvez utiliser dans les instructions, voir [Opérateurs de condition dans les expressions personnalisées calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+* **Opérateur de condition** = opérateur qui vous aide à créer la condition de votre instruction &quot;IF&quot;. Par exemple, &quot;est égal à&quot; ou &quot;est supérieur à&quot; sont des opérateurs de condition. Pour obtenir la liste des opérateurs de condition que vous pouvez utiliser dans les instructions, voir [Opérateurs de condition dans les expressions personnalisées calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****Expression** = Il s’agit de la variable &quot;True&quot;, qui indique à l’équation quel indicateur afficher une fois que les critères de la condition sont satisfaits (indicateurs true).
+* **True****Expression** = Il s’agit de la variable &quot;True&quot;, qui indique à l’équation quel indicateur afficher une fois les critères de la condition satisfaits (indicateurs true).
 
 * **False Expression** = Il s’agit de la variable &quot;False&quot;, qui indique à l’équation quel indicateur afficher lorsque les critères de la condition ne sont pas satisfaits (faux indicateurs).
 
@@ -121,6 +121,6 @@ valueexpression=IF({"projectedCompletionDate"}>{"plannedCompletionDate"},"Off Tr
 Dans cet exemple, la même chose a été accomplie en assemblant deux variables de critères différentes.\
 Vous pouvez explorer ces options plus en détail en recréant ces exemples dans votre propre environnement.
 
-La meilleure façon d&#39;apprendre cela est d&#39;expérimenter différents domaines et scénarios. Familiarisez-vous également avec l’explorateur d’API, qui révèle les noms des champs qui peuvent être utilisés. Pour plus d’informations sur l’explorateur d’API, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
+La meilleure façon d&#39;apprendre cela est d&#39;expérimenter différents domaines et scénarios. Familiarisez-vous également avec l’explorateur d’API, qui révèle les noms des champs qui peuvent être utilisés. Pour plus d’informations sur l’explorateur d’API, voir [API Explorer](../../../wf-api/general/api-explorer.md).
 
 Pour plus d’informations sur la syntaxe Workfront des expressions de données calculées, voir [Présentation des expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).

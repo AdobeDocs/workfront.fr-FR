@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: financials
-title: Présentation de la facturation et des recettes
+title: Vue d’ensemble de la facturation et du revenu
 description: En tant que chef de projet, vous pouvez utiliser les taux de facturation pour capturer les recettes de vos projets.
 author: Alina, Lisa
 feature: Work Management
@@ -10,11 +10,11 @@ exl-id: 400abcde-e368-4a70-89a9-05027900ab81
 source-git-commit: c485676fb5584e8438823e9ce0c28b551f6bab45
 workflow-type: tm+mt
 source-wordcount: '3691'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Présentation de la facturation et des recettes
+# Vue d’ensemble de la facturation et du revenu
 
 <!-- Audited: 1/2024 -->
 
@@ -29,7 +29,7 @@ Cet article décrit le suivi des recettes pour les projets. Les recettes sont ca
 Tenez compte des points suivants lorsque vous utilisez des taux de facturation :
 
 * Vous avez besoin d’une licence Plan ou Standard avec l’accès Modifier aux données financières pour gérer les taux de facturation.\
-  Pour plus d’informations sur l’octroi de l’accès aux données financières, voir [Accorder l&#39;accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Pour plus d’informations sur l’octroi de l’accès aux données financières, voir [Octroi de l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * Les taux de facturation correspondent aux recettes par unité de travail associée aux rôles de travail ou aux utilisateurs.
 
@@ -58,9 +58,9 @@ Tenez compte des points suivants lorsque vous utilisez des taux de facturation :
 
 En tant qu’administrateur utilisateur, lorsque vous créez un utilisateur, vous pouvez l’associer à des taux de facturation à date effective en spécifiant les valeurs des champs Facturation par heure et les dates des taux.
 
-Pour plus d’informations sur la création d’utilisateurs, voir l’article [Ajout d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Pour plus d’informations sur la création d’utilisateurs et d’utilisatrices, voir l’article [Ajouter des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-![Modification des coûts utilisateur et des taux de facturation](assets/edit-user-cost-billing-rate-1.png)
+![Modifier les taux de facturation et de coût utilisateur](assets/edit-user-cost-billing-rate-1.png)
 
 ### Taux de facturation des rôles de tâche {#job-role-billing-rates}
 
@@ -68,9 +68,9 @@ En tant qu’administrateur Adobe Workfront, lorsque vous créez un rôle de tâ
 
 Vous pouvez définir la valeur d’un taux de facturation de rôle de tâche à l’aide de la devise de base de votre système Workfront ou à l’aide d’une autre devise personnalisée.
 
-Pour plus d’informations sur la création de rôles de tâche et le remplacement de leur devise, reportez-vous à l’article [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Pour plus d’informations sur la création de rôles de tâche et le remplacement de leur devise, consultez l’article [Créer et gérer des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![Modification des coûts et des taux de facturation des rôles de tâche](assets/edit-job-role-multiple-billing-rates-new.png)
+![Modifier les taux de facturation et le coût du rôle de tâche](assets/edit-job-role-multiple-billing-rates-new.png)
 
 ### Taux de facturation fixes pour les projets ou les tâches {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -95,7 +95,7 @@ Vous pouvez remplacer les taux de facturation des rôles de tâche pour :
 
 * Un projet spécifique
 
-  Pour plus d’informations sur la création de taux de facturation des rôles de tâche spécifiques à un projet, consultez l’article . [Présentation du remplacement des taux de facturation des rôles de tâche et calcul des recettes sur un projet](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Pour plus d’informations sur la création de taux de facturation des rôles de tâche spécifiques à un projet, reportez-vous à l’article [Présentation du remplacement des taux de facturation des rôles de tâche et du calcul des recettes sur un projet](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Suivi des recettes
 
@@ -111,7 +111,7 @@ Le tableau suivant indique les types de recettes associés aux tâches, problèm
  <tbody> 
   <tr> 
    <td role="rowheader">Revenus prévus</td> 
-   <td> <p>Pour les tâches, il s’agit des recettes associées aux Heures planifiées des tâches. Les Heures planifiées de toutes les tâches sont cumulées aux Heures planifiées du projet pour contribuer au calcul des Heures planifiées du projet. </p> <p>Pour plus d’informations sur les heures planifiées dans Workfront, voir <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Présentation des heures planifiées</a>. </p> <ul><li><p>Workfront calcule les Recettes prévues pour les tâches à l’aide de cette formule :</p>
+   <td> <p>Pour les tâches, il s’agit des recettes associées aux Heures planifiées des tâches. Les Heures planifiées de toutes les tâches sont cumulées aux Heures planifiées du projet pour contribuer au calcul des Heures planifiées du projet. </p> <p>Pour plus d’informations sur les heures planifiées dans Workfront, consultez la <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">présentation des heures planifiées</a>. </p> <ul><li><p>Workfront calcule les Recettes prévues pour les tâches à l’aide de cette formule :</p>
    <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>REMARQUE</strong></br> Le taux de facturation horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</p> </li><li><p>Workfront calcule les recettes prévues pour les projets à l’aide de la formule suivante :</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>NOTE</b>
 
@@ -121,7 +121,7 @@ Le tableau suivant indique les types de recettes associés aux tâches, problèm
      </div> </p> <p>Tâche Les recettes planifiées sont calculées à l’aide des taux de facturation horaires des utilisateurs ou des rôles de tâche affectés aux tâches. Le type de chiffre d’affaires des tâches influence le taux (utilisateur ou rôle) utilisé pour le calcul des recettes planifiées. Pour plus d’informations, reportez-vous aux sections suivantes de cet article :</p> 
     <ul> 
      <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">Présentation des types de recettes de la tâche</a> </p> </li> 
-     <li> <p><a href="#revenue-calculations-for-tasks-based-on-user-and-role-assignments" class="MCXref xref">Calcul des recettes pour les tâches basées sur les affectations d’utilisateur et de rôle</a> </p> </li> 
+     <li> <p><a href="#revenue-calculations-for-tasks-based-on-user-and-role-assignments" class="MCXref xref"> Calculs de recettes pour les tâches en fonction des affectations d’utilisateur et de rôle</a> </p> </li> 
     </ul> <p>Pour plus d’informations sur les calculs des recettes planifiées dans le rapport Utilisation, voir <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Affichage des informations sur l’utilisation des ressources</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -133,7 +133,7 @@ Vous ne pouvez pas afficher les recettes réelles au niveau du problème, mais l
  </tbody> 
 </table>
 
-*Pour les heures réelles, les taux de l’utilisateur se rapportent toujours à l’utilisateur qui consigne les heures ou aux taux de ses rôles de tâche. Pour plus d’informations sur le moment où Workfront utilise les taux de l’utilisateur et celui où il utilise les taux de ses rôles de tâche, voir la section [Calculs de recettes](#revenue-calculations) dans cet article.
+*Pour les heures réelles, les taux de l’utilisateur se rapportent toujours à l’utilisateur qui consigne les heures ou aux taux de ses rôles de tâche. Pour plus d’informations sur le moment où Workfront utilise les taux de l’utilisateur et celui où il utilise les taux de ses rôles de tâche, consultez la section [Calculs de recettes](#revenue-calculations) de cet article.
 
 <!--Note from the table for Planned Revenue line: 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
@@ -144,7 +144,7 @@ Par exemple, si une tâche avec le type de revenu horaire de l’utilisateur est
 Vous pouvez enregistrer les recettes comme suit :
 
 * En définissant le Type de revenu de vos tâches et en associant les utilisateurs ou les rôles affectés aux tâches aux taux de facturation. Cela calcule les recettes en fonction du montant des heures planifiées ou réelles sur les éléments de travail. Vous pouvez définir une limite sur le montant maximal facturé pour les taux horaires, ou non.\
-  Pour plus d’informations sur la spécification du type de recette d’une tâche, consultez l’article . [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+  Pour plus d’informations sur la spécification du type de recette d’une tâche, voir l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 * Facturation d’un taux de recettes fixe fixe fixe uniforme pour les tâches ou les projets.\
   Si vous avez des tâches avec des recettes fixes, le montant des recettes fixes sera ajouté en tant que recettes planifiées d’une tâche ou d’un projet, et les recettes planifiées d’une tâche pourront être ajoutées à un enregistrement de facturation en tant que recettes fixes.
@@ -156,11 +156,11 @@ Vous pouvez également marquer vos tâches comme &quot;Non facturable&quot;, auq
 ## Présentation des types de recettes de la tâche {#overview-of-task-revenue-types}
 
 Par défaut, le Type de revenu de toutes les nouvelles tâches est défini en fonction des Préférences de tâche et de problème spécifiées par votre administrateur Workfront ou de groupe.\
-Pour plus d’informations sur la définition de la tâche et des préférences de problème pour votre instance Workfront, consultez l’article . [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Pour plus d’informations sur la définition de la tâche et des préférences de problème pour votre instance Workfront, consultez l’article [Configuration de la tâche à l’échelle du système et des préférences de problème](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Le propriétaire du projet peut modifier le type de chiffre d’affaires des tâches et les recettes fixes des projets.\
-Pour plus d’informations sur la spécification des recettes fixes d’un projet, consultez l’article . [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).\
-Pour plus d’informations sur la spécification du type de recette d’une tâche, consultez l’article . [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Pour plus d’informations sur la spécification des recettes fixes d’un projet, consultez l’article [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).\
+Pour plus d’informations sur la spécification du type de recette d’une tâche, voir l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 Vous pouvez appliquer les types de recettes suivants à vos tâches ou projets :
 
@@ -180,7 +180,7 @@ Vous pouvez appliquer les types de recettes suivants à vos tâches ou projets :
   </tr> 
   <tr> 
    <td> <p>Utilisateur, par heure</p> </td> 
-   <td> <p>Ce type ne peut être utilisé que pour les tâches. </p> <p>Le taux de facturation que vous définissez pour un utilisateur spécifique multiplié par le nombre d’ Heures planifiées pour cette tâche devient le montant des Recettes planifiées de la tâche. Le taux de facturation que vous définissez pour un utilisateur spécifique multiplié par le nombre d’heures que l’utilisateur consigne par rapport à la tâche est le montant des recettes réelles de la tâche. <br>Par exemple, lorsque vous créez un utilisateur et que vous définissez 20 € pour son champ Facturation par heure , si l’utilisateur envoie 5 heures pour une tâche sur la feuille de temps, le montant de facturation réel de la tâche est de 100 €.</p>
+   <td> <p>Ce type ne peut être utilisé que pour les tâches. </p> <p>Le taux de facturation que vous définissez pour un utilisateur spécifique multiplié par le nombre d’ Heures planifiées pour cette tâche devient le montant des Recettes planifiées de la tâche. Le taux de facturation que vous définissez pour un utilisateur spécifique multiplié par le nombre d’heures que l’utilisateur consigne par rapport à la tâche est le montant des recettes réelles de la tâche. <br>Par exemple, lorsque vous créez un utilisateur et que vous définissez 20 € pour son champ Facturation par heure , puis que l’utilisateur envoie 5 heures pour une tâche sur la feuille de temps, le montant de facturation réel de la tâche est de 100 €.</p>
    <p>Un profil utilisateur peut contenir plusieurs taux de facturation avec des dates d’entrée en vigueur. Par exemple, le premier taux de facturation utilisateur de 20 € s’achève le 30 avril 2023 et le second, de 25 €, commence le 1er mai 2023. Si l’utilisateur envoie 2 heures le 28 avril et 3 heures le 2 mai pour une tâche, alors le montant de facturation réel de la tâche est de 40 $ + 75 $ = 115 $.</p>
    <p><b>CONSEIL</b>
 
@@ -188,11 +188,11 @@ Il s’agit du type de recette par défaut lorsque vous créez une tâche.</p> <
 </tr> 
   <tr> 
    <td> <p>Rôle par heure</p> </td> 
-   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Ce type est similaire à Heure de l’utilisateur , mais utilise des taux de rôle de tâche plutôt que des taux d’utilisation.</p> <p><strong>REMARQUE</strong><br>Un rôle de tâche peut également comporter plusieurs taux de facturation avec des dates de validité.</p></td> 
+   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Ce type est similaire à Heure de l’utilisateur , mais utilise des taux de rôle de tâche plutôt que des taux d’utilisation.</p> <p><strong>REMARQUE</strong><br>Un rôle de tâche peut également avoir plusieurs taux de facturation avec des dates d’entrée en vigueur.</p></td> 
   </tr> 
   <tr> 
    <td> <p>Heure de l’utilisateur avec limite</p> </td> 
-   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Les tâches sont facturées toutes les heures comme dans l’option Heure de l’utilisateur, mais vous pouvez spécifier un montant de limite maximal. <br>Par exemple, si le taux de facturation d’un utilisateur est de 25 €, mais que le montant de la limite sur la tâche est de 20 €, et que l’utilisateur consigne une heure, les recettes réelles sur la tâche sont de 20 €. </p> </td> 
+   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Les tâches sont facturées toutes les heures comme dans l’option Heure de l’utilisateur, mais vous pouvez spécifier un montant de limite maximal. <br>Par exemple, si le taux de facturation d’un utilisateur est de 25 $, mais que le montant limite de la tâche est de 20 $ et que l’utilisateur consigne une heure, le chiffre d’affaires réel de la tâche est de 20 $. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Rôle Horaire avec limite</p> </td> 
@@ -212,7 +212,7 @@ Il s’agit du type de recette par défaut lorsque vous créez une tâche.</p> <
   </tr> 
   <tr> 
    <td> <p>Non facturable</p> </td> 
-   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Ce type de revenu n’a aucun effet sur les recettes. </p> <p>Si un objet parent possède ce paramètre, les tâches enfants avec un type de facturation continueront de s’appliquer normalement.</p> <p>Lorsqu’un utilisateur n’ayant pas accès aux données financières ou qu’il n’a pas d’autorisations financières sur un modèle crée un projet à partir de ce modèle, il s’agit du type de recettes par défaut pour les tâches du projet.</p> <p>Pour plus d’informations sur l’accès aux données financières, consultez l’article . <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l'accès aux données financières</a>.<br>Pour plus d’informations sur les autorisations financières relatives aux objets, reportez-vous à l’article <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Présentation des autorisations de partage sur les objets</a>.<br>Pour plus d’informations sur la création de projets à partir de modèles, reportez-vous à l’article <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Créer un projet à l’aide d’un modèle</a>. </p> </td> 
+   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Ce type de revenu n’a aucun effet sur les recettes. </p> <p>Si un objet parent possède ce paramètre, les tâches enfants avec un type de facturation continueront de s’appliquer normalement.</p> <p>Lorsqu’un utilisateur n’ayant pas accès aux données financières ou qu’il n’a pas d’autorisations financières sur un modèle crée un projet à partir de ce modèle, il s’agit du type de recettes par défaut pour les tâches du projet.</p> <p>Pour plus d'informations sur l'accès aux données financières, consultez l'article <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l'accès aux données financières</a>.<br>Pour plus d’informations sur les autorisations financières sur les objets, consultez l’article <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Présentation des autorisations de partage sur les objets</a>.<br>Pour plus d’informations sur la création de projets à partir de modèles, reportez-vous à l’article <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Création d’un projet à l’aide d’un modèle</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -229,9 +229,9 @@ Les problèmes ne comportent pas de montants de recettes planifiées ou réelles
 
 Si vous enregistrez les heures pour un problème et que vous utilisez un type d’heure marqué &quot;Compter comme recettes&quot;, Workfront calcule alors un montant de coût réel en fonction du taux de l’utilisateur qui se connecte au moment. Ce nombre est ajouté au coût réel du projet. Les heures peuvent également être incluses dans un enregistrement de facturation.
 
-Pour plus d’informations sur le suivi des coûts, consultez l’article [Suivi des coûts](../../../manage-work/projects/project-finances/track-costs.md).
+Pour plus d&#39;informations sur le suivi des coûts, consultez l&#39;article [Tracker les coûts](../../../manage-work/projects/project-finances/track-costs.md).
 
-Pour plus d’informations sur les types d’heures, voir l’article [Gestion des types d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+Pour plus d’informations sur les types d’heures, consultez l’article [Gérer les types d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Calculs de recettes
 
@@ -248,11 +248,11 @@ Pour calculer les recettes d’une tâche, tenez compte des points suivants :
 
 Il existe une hiérarchie dont le taux est utilisé dans les calculs des recettes en fonction des affectations de tâche.
 
-Si votre administrateur Workfront a activé la variable **Affecter manuellement des rôles de tâche aux entrées d’heure** dans la zone Préférences Heures et Fiches d’exécution et le temps de connexion de l’utilisateur sur le projet sélectionne un rôle différent à associer à cette heure. Le revenu réel de la tâche ou du projet calcule toujours en fonction du rôle associé à l’entrée d’heure. Pour plus d’informations sur l’activation de la durée de journalisation pour un rôle de tâche spécifique, voir l’article [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Si votre administrateur Workfront a activé manuellement le paramètre **Attribuer les rôles de tâche aux entrées d’heure** dans la zone Préférences de la feuille de temps et des heures, et que l’heure de connexion de l’utilisateur sur le projet sélectionne un rôle différent à associer à cette heure, le revenu réel de la tâche ou du projet calcule toujours en fonction du rôle associé à l’entrée d’heure. Pour plus d’informations sur l’activation de la durée de journalisation pour un rôle de tâche spécifique, consultez l’article [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Les scénarios suivants existent lors du calcul des recettes de la tâche en fonction du type de recettes et de la nature de l’affectation de la tâche :
 
-* **Le type de recette de la tâche est Heure de l’utilisateur**
+* **Le type de revenu de la tâche est User Hourly**
 
   <table style="table-layout:auto"> 
    <col> 
@@ -269,7 +269,7 @@ Les scénarios suivants existent lors du calcul des recettes de la tâche en fon
     <tr> 
      <td role="rowheader">Taux de facturation par heure pour les recettes prévues</td> 
      <td>0,00 $</td> 
-     <td> Si un utilisateur a un taux de facturation dans son profil, ce taux est utilisé pour calculer les recettes prévues. Dans le cas contraire, le taux de facturation système de leur rôle de tâche principale est utilisé. <br><p><b>REMARQUE</b>  L’utilisateur peut être affecté à la tâche avec l’un de ses rôles de tâche secondaires, mais le taux du rôle de tâche principale est utilisé ici à la place.</p><p>Si le rôle de l’utilisateur a changé au cours de l’affectation, les taux corrects sont appliqués lorsque les finances du projet sont recalculées.</p></td> 
+     <td> Si un utilisateur a un taux de facturation dans son profil, ce taux est utilisé pour calculer les recettes prévues. Dans le cas contraire, le taux de facturation système de leur rôle de tâche principale est utilisé. <br><p><b>REMARQUE</b> L’utilisateur peut être affecté à la tâche avec l’un de ses rôles de tâche secondaires, mais le taux du rôle de tâche principal est utilisé ici à la place.</p><p>Si le rôle de l’utilisateur a changé au cours de l’affectation, les taux corrects sont appliqués lorsque les finances du projet sont recalculées.</p></td> 
      <td><p><span class="preview">Si une carte de taux est jointe au projet, les recettes planifiées sont calculées en fonction du rôle de tâche figurant dans la carte de taux.</span></p> <p><span class="preview">Les taux de facturation peuvent être remplacés au niveau du projet.</span></p></td> 
     </tr> 
     <tr> 
@@ -289,7 +289,7 @@ Les scénarios suivants existent lors du calcul des recettes de la tâche en fon
    </tbody> 
   </table>
 
-* **Le type de revenu de la tâche est Rôle horaire.**
+* **Le type de revenu de la tâche est Rôle Heure**
 
   <table style="table-layout:auto"> 
    <col> 
@@ -311,8 +311,8 @@ Les scénarios suivants existent lors du calcul des recettes de la tâche en fon
     </tr> 
     <tr> 
      <td role="rowheader">Taux de facturation par heure pour les recettes réelles</td> 
-     <td>Workfront utilise le taux de facturation du rôle de tâche principal de l’utilisateur consignant l’heure. <br><span class="preview">Lorsque l’heure est consignée pour un utilisateur ou un rôle ayant une affectation spécifique à un emplacement dans les affectations avancées, le taux de l’emplacement est utilisé.</span> <br>Si l’utilisateur qui consigne l’heure n’a aucun rôle de tâche associé ou si le rôle de tâche principal n’a pas de taux de facturation, les recettes réelles sont de 0,00 $. </td> 
-     <td> Si l’utilisateur qui consigne l’heure est affecté à la tâche, le taux de facturation du rôle de tâche associé à l’utilisateur sur la tâche est utilisé pour calculer les Recettes réelles. <br><span class="preview">Lorsque l’heure est consignée pour un utilisateur ou un rôle ayant une affectation spécifique à un emplacement dans les affectations avancées, le taux de l’emplacement est utilisé.</span> <br>Dans le cas contraire, le taux de facturation de leur rôle de tâche principale est utilisé. Si l’utilisateur n’a pas de rôle de tâche principal ou si son rôle de tâche principal n’a pas de taux de facturation, le chiffre d’affaires réel est de 0,00 $. </td> 
+     <td>Workfront utilise le taux de facturation du rôle de tâche principal de l’utilisateur consignant l’heure. <br><span class="preview">Lorsque l’heure est consignée pour un utilisateur ou un rôle ayant une affectation spécifique à un emplacement dans les affectations avancées, le taux de l’emplacement est utilisé.</span> <br>Si l’utilisateur qui consigne l’heure n’a aucun rôle de tâche associé ou si le rôle de tâche principal n’a pas de taux de facturation, le chiffre d’affaires réel est de 0,00 $. </td> 
+     <td> Si l’utilisateur qui consigne l’heure est affecté à la tâche, le taux de facturation du rôle de tâche associé à l’utilisateur sur la tâche est utilisé pour calculer les Recettes réelles. <br><span class="preview">Lorsque l’heure est consignée pour un utilisateur ou un rôle ayant une affectation spécifique à un emplacement dans les affectations avancées, le taux de l’emplacement est utilisé.</span> <br>Dans le cas contraire, le taux de facturation de leur rôle de tâche principal est utilisé. Si l’utilisateur n’a pas de rôle de tâche principal ou si son rôle de tâche principal n’a pas de taux de facturation, le chiffre d’affaires réel est de 0,00 $. </td> 
      <td>Si l’un des rôles de tâche de l’utilisateur qui enregistre la durée est affecté à la tâche, ce taux de rôle de tâche est utilisé. Si le rôle de tâche attribué à la tâche n’est pas associé à l’utilisateur qui enregistre l’heure, le taux de facturation du rôle principal de l’utilisateur est utilisé pour calculer les Recettes réelles. Si l’utilisateur n’a pas de rôle de tâche ou qu’aucun taux n’est associé à son rôle de tâche principal, le taux du rôle de tâche affecté à la tâche est utilisé. </td> 
     </tr> 
    </tbody> 
@@ -379,12 +379,12 @@ Vous pouvez effectuer le suivi des types de recettes suivants pour les projets :
 
   `Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue`
 
-  Pour plus d’informations sur le mode de calcul des recettes planifiées d’une tâche, voir [Calcul des recettes pour les tâches basées sur les affectations d’utilisateur et de rôle](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) dans cet article.
+  Pour plus d’informations sur le mode de calcul des recettes planifiées d’une tâche, voir la section [Calculs de recettes pour les tâches basées sur les affectations d’utilisateurs et de rôles](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) de cet article.
 
 * Les recettes réelles d’un projet sont calculées à l’aide de la formule suivante :
 
   `Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)`
 
-Pour plus d’informations sur le mode de calcul de la tâche Recettes réelles, voir [Calcul des recettes pour les tâches basées sur les affectations d’utilisateur et de rôle](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) dans cet article.
+Pour plus d’informations sur le mode de calcul des recettes réelles de la tâche, reportez-vous à la section [Calculs de recettes pour les tâches basées sur les affectations d’utilisateurs et de rôles](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) de cet article.
 
 Pour les recettes réelles associées aux heures enregistrées directement dans le projet ou aux problèmes, Workfront utilise le taux de facturation de l’utilisateur qui consigne l’heure sur le projet. Si aucun taux de facturation n’est associé à son profil, Workfront utilise le taux de facturation de son rôle de tâche de Principal. Si les deux taux sont nuls, le chiffre d’affaires réel associé aux heures enregistrées sur le projet ou aux problèmes est nul.

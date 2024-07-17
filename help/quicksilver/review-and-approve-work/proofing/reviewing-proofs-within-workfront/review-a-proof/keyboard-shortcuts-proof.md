@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Raccourcis clavier dans la visionneuse de vérification
+title: Raccourcis clavier dans la visionneuse de relecture
 description: Les raccourcis clavier décrits dans cet article sont disponibles à la fois dans la visionneuse de vérification de l’intégrité web et dans la visionneuse de vérification de l’intégrité du bureau.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5a408439-9767-4d68-be04-034f0bce275a
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 0%
+source-wordcount: '339'
+ht-degree: 5%
 
 ---
 
-# Raccourcis clavier dans la visionneuse de vérification
+# Raccourcis clavier dans la visionneuse de relecture
 
 Les raccourcis clavier décrits dans cet article sont disponibles à la fois dans la visionneuse de vérification de l’intégrité web et dans la visionneuse de vérification de l’intégrité du bureau. 
 
@@ -28,8 +28,8 @@ Les raccourcis clavier décrits dans cet article sont disponibles à la fois dan
    <td><strong>Action sur les bons à tirer statiques</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p>Barre d’espacement<br>Ou<br>k (majuscule ou minuscule)</p> </td> 
-   <td> <p>Lecture ou mise en pause d’une vidéo</p> </td> 
+   <td> <p>Barre d’espacement<br>Ou<br>k (majuscules ou minuscules)</p> </td> 
+   <td> <p>Lire ou suspendre une vidéo</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Les raccourcis clavier décrits dans cet article sont disponibles à la fois dan
    <td> <p>Page précédente</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> cmd+n</p> <p><strong>Windows :</strong> Ctrl+N</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+n</p> <p><strong>Windows :</strong> Ctrl+n</p> </td> 
    <td> <p>Ouvrir une nouvelle fenêtre de commentaire</p> </td> 
    <td> <p>Ouvrir une nouvelle fenêtre de commentaire</p> </td> 
   </tr> 
@@ -73,7 +73,7 @@ Les raccourcis clavier décrits dans cet article sont disponibles à la fois dan
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> Ctrl+Entrée </p> <p><strong>Windows :</strong> cmd+return</p> </td> 
+   <td> <p><strong>Mac:</strong> Ctrl+Entrée </p> <p><strong>Windows :</strong> cmd+return</p> </td> 
    <td> <p>Enregistrer le commentaire</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ Les raccourcis clavier décrits dans cet article sont disponibles à la fois dan
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0 (zéro)<br>Ou<br> fn+Flèche gauche<br> Ou<br> Clé d’accueil</p> </td> 
+   <td> <p>0 (zéro)<br>Or<br> fn+Flèche Gauche<br> Ou<br> Clé Accueil</p> </td> 
    <td> <p>Redémarrer la vidéo</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -104,7 +104,7 @@ Les raccourcis clavier décrits dans cet article sont disponibles à la fois dan
   </tr> 
   <tr> 
    <td> <p>M (majuscule ou minuscule)</p> </td> 
-   <td> <p>Lecture muette et annulation de la vidéo</p> </td> 
+   <td> <p>Lecture et annulation de la vidéo</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -113,57 +113,57 @@ Les raccourcis clavier décrits dans cet article sont disponibles à la fois dan
    <td> <p>Zoom avant ou arrière</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> ctrl+0</p> <p><strong>Windows :</strong> Ctrl+0</p> </td> 
+   <td> <p><strong>Mac:</strong> ctrl+0</p> <p><strong>Windows :</strong> Ctrl+0</p> </td> 
    <td> <p> Ajuster à la page</p> </td> 
    <td> <p>Ajuster à la page</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> ctrl+1</p> <p><strong>Windows :</strong> Ctrl+1</p> </td> 
+   <td> <p><strong>Mac:</strong> ctrl+1</p> <p><strong>Windows :</strong> Ctrl+1</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Zoom à 100 % </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> ctrl+2</p> <p><strong>Windows :</strong> Ctrl+2</p> </td> 
+   <td> <p><strong>Mac:</strong> ctrl+2</p> <p><strong>Windows :</strong> Ctrl+2</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Ajuster à la largeur </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> ctrl+3</p> <p><strong>Windows :</strong> Ctrl+3 </p> </td> 
+   <td> <p><strong>Mac:</strong> ctrl+3</p> <p><strong>Windows :</strong> Ctrl+3 </p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Ajuster à la hauteur </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> cmd++ <br>Ou <br>cmd+shift+faire défiler vers le haut</p> <p><strong>Windows :</strong> Ctrl++</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd++ <br>Ou <br>cmd+shift+faire défiler vers le haut</p> <p><strong>Windows :</strong> Ctrl++</p> </td> 
    <td> <p> Zoom avant</p> </td> 
    <td> <p>Zoom avant </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> cmd+- <br>Ou <br>cmd+shift+faire défiler vers le bas</p> <p><strong>Windows :</strong> Ctrl+-</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+- <br>Ou <br>cmd+shift+faire défiler vers le bas</p> <p><strong>Windows :</strong> Ctrl+-</p> </td> 
    <td> <p>Zoom arrière </p> </td> 
    <td> <p>Zoom arrière</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Windows :</strong> Maintenez la barre d’espace enfoncée tout en faisant glisser l’image</p> </td> 
+   <td> <p><strong>Windows :</strong> Maintenez la barre d’espace tout en faisant glisser l’image</p> </td> 
    <td> <p> Panoramique</p> </td> 
    <td> <p> Panoramique</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> cmd+f</p> <p><strong>Windows</strong>: Ctrl+f</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+f</p> <p><strong>Windows</strong> : Ctrl+f</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Document de recherche</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> cmd+g</p> <p><strong>Windows :</strong> Ctrl+G</p> <p><strong>Mac et Windows :</strong> Appuyez sur la touche Entrée du champ Rechercher.</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+g</p> <p><strong>Windows :</strong> Ctrl+g</p> <p><strong>Mac et Windows :</strong> appuyez sur la touche Entrée dans le champ Rechercher.</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Résultat de la recherche suivante</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> cmd+Maj+g</p> <p><strong>Windows :</strong> Ctrl+Maj+g</p> <p><strong>Mac et Windows :</strong> Appuyez sur les touches Maj+Entrée du champ Rechercher.</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+Shift+g</p> <p><strong>Windows :</strong> Ctrl+Maj+g</p> <p><strong>Mac et Windows :</strong> appuyez sur les touches Maj+Entrée dans le champ Rechercher.</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Résultat de la recherche précédente</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> cmd+z</p> <p><strong>Windows :</strong> Ctrl+z</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+z</p> <p><strong>Windows :</strong> Ctrl+z</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Annuler la saisie d’un commentaire</p> </td> 
   </tr> 

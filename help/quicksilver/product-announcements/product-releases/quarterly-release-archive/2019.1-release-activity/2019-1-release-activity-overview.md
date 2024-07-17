@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Présentation de l’activité de la version 2019.1
+title: Vue d’ensemble de l’activité Version 2019.1
 description: Cette page fournit des informations sur les fonctionnalités incluses dans la version 2019.1.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Présentation de l’activité de la version 2019.1
+# Vue d’ensemble de l’activité Version 2019.1
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version 2019.1.
 
@@ -34,7 +34,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateur
 
   Les administrateurs de Workfront peuvent désormais choisir d’afficher ou de masquer les horodatages des dates d’échéance dans la liste de travail et le calendrier à l’aide des modèles de mise en page.
 
-* [Configuration du rôle de vérification par défaut pour les non-destinataires ayant ouvert un bon à tirer](https://support.workfront.com/hc/en-us/articles/360016372633#configure-default-proofing-role)
+* [Configurer le rôle de vérification par défaut pour les non-destinataires qui ouvrent un bon à tirer](https://support.workfront.com/hc/en-us/articles/360016372633#configure-default-proofing-role)
 
   Les administrateurs Workfront peuvent désormais configurer le rôle de vérification par défaut pour les utilisateurs qui ne sont pas désignés comme destinataires dans le workflow du BAT, mais qui ont accès au BAT via son objet Workfront (projet, tâche ou problème, par exemple).
 
@@ -98,7 +98,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateur
 
   Vous pouvez désormais exporter les entrées du journal d’audit vers un fichier CSV. Vous pouvez exporter jusqu’à 50 000 entrées du journal d’audit dans un fichier CSV à la fois.
 
-* [La vue WBS sur une liste de tâches n’est plus disponible en cliquant avec le bouton droit de la souris sur la colonne Numéro de tâche .](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
+* [La vue WBS sur une liste de tâches n’est plus disponible en cliquant avec le bouton droit de la souris sur la colonne Numéro de tâche](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
 
   Vous ne pouvez plus cliquer avec le bouton droit sur la colonne Numéro de la tâche dans une liste de tâches pour afficher la structure de ventilation du travail (WBS) du projet.
 
@@ -108,15 +108,15 @@ La version 2019.1 contient des améliorations à la fois pour les administrateur
 
   Le filtre par défaut dans le planificateur de ressources n’est plus filtré par le groupe du projet.
 
-* [Utilisation de caractères génériques pour les filtres du planificateur de ressources](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
+* [ Utilisation de caractères génériques pour les filtres du planificateur de ressources ](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
 
   Vous pouvez désormais utiliser des caractères génériques lors de la création de filtres dans le planificateur de ressources.
 
-* [Prise en charge des variables de filtre par caractères génériques basées sur des dates dans le planificateur de ressources](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
+* [Prise en charge des variables de filtre de caractères génériques basées sur des dates dans le planificateur de ressources](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
 
   Vous pouvez désormais utiliser n’importe quelle version de la variable de filtre de caractères génériques $$TODAY lorsque vous créez un filtre dans le planificateur de ressources.
 
-* [Options d’exportation pour la vue Rôle dans le planificateur de ressources](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
+* [Options d’exportation pour l’affichage du rôle dans le planificateur de ressources](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
 
   Vous pouvez maintenant sélectionner les niveaux d’informations à exporter à partir du planificateur de ressources dans la vue Rôle.
 
@@ -138,7 +138,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateur
 
 ### Améliorations de la vérification
 
-* [Contenu interactif de BAT dans la visionneuse de tests de performance web](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
+* [Contenu interactif de BAT dans la visionneuse de test Web](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
 
   Si les stratégies de sécurité de votre entreprise n’autorisent pas l’utilisation de l’application de visionneuse de vérification de l’appli de bureau autonome, votre administrateur Workfront peut désormais activer le contenu interactif dans la visionneuse de vérification de l’application Web.
 
@@ -150,11 +150,11 @@ La version 2019.1 contient des améliorations à la fois pour les administrateur
 
   Lorsque vous passez en revue un commentaire associé à une gamme de séquences vidéo dans la visionneuse de correctifs, vous pouvez désormais cliquer sur Lecture pour afficher l’ensemble de la gamme de séquences.
 
-* [Lien vers les détails du document à partir d’une notification de BAT ou de la visionneuse de vérification](https://support.workfront.com/hc/en-us/articles/360016372633#link-to-document-details)
+* [Lien vers les détails du document à partir d’une notification de bon à tirer ou de la visionneuse de vérification](https://support.workfront.com/hc/en-us/articles/360016372633#link-to-document-details)
 
   Lorsque vous recevez un courrier électronique vous invitant à réviser un BAT ou que vous passez en revue un BAT dans la visionneuse de vérification, vous pouvez maintenant accéder rapidement à la page Détails du document du BAT.
 
-* [Modification des notifications électroniques dans la visionneuse de vérification](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
+* [Modifier vos notifications par e-mail dans la visionneuse de correctifs](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
 
   Désormais, tous les réviseurs de vérification peuvent spécifier les notifications de BAT qu’ils souhaitent recevoir pour un BAT. Ceci est particulièrement important lors de la collaboration avec des parties prenantes externes.
 
@@ -162,7 +162,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateur
 
   Vous pouvez désormais modifier la couleur d’arrière-plan de la visionneuse de vérification de l’ordinateur de bureau, de la couleur par défaut proche du noir à la couleur blanche.
 
-* [Effacement des données de navigateur mises en cache à partir d’un bon à tirer](https://support.workfront.com/hc/en-us/articles/360016372633#clear-cached-browser-data-from-a-proof)
+* [Effacer les données du navigateur mises en cache d’un bon à tirer](https://support.workfront.com/hc/en-us/articles/360016372633#clear-cached-browser-data-from-a-proof)
 
   Vous pouvez désormais effacer les données du cache du navigateur qui peuvent être enregistrées avec un BAT afin que tout le contenu apparaisse dans la visionneuse de vérification de l’appli de bureau et que les réviseurs puissent y voir et y ajouter des commentaires.
 
@@ -172,7 +172,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateur
 
   La recherche d’éléments dans l’application mobile Workfront est désormais plus conviviale et intuitive.
 
-* [Accueil : Nouvelle page d’entrée par défaut sur les applications mobiles Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
+* [Accueil est la nouvelle page d’entrée par défaut sur les applications mobiles Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
 
   La zone Accueil est désormais la nouvelle page d’entrée par défaut des applications mobiles Workfront. Cette fonctionnalité est prise en charge pour les appareils iOS et Android.
 
@@ -180,15 +180,15 @@ La version 2019.1 contient des améliorations à la fois pour les administrateur
 
   Vous pouvez désormais filtrer, trier et classer vos listes dans l’application mobile Workfront.
 
-* [Prise en charge de l’application Workfront bêta pour les appareils iOS](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
+* [Prise en charge de l’application Beta Workfront pour les appareils iOS](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
 
   Vous pouvez désormais vous inscrire pour être un testeur bêta pour l’application mobile Workfront à partir d’un appareil iOS.
 
-* [Création de tâches simple pour Android Beta](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
+* [Création de tâche simple pour Android Beta](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
 
-  Vous pouvez désormais créer des tâches directement à partir d’un projet, d’une tâche ou de la zone d’accueil pour la version bêta de l’application mobile Android.
+  Vous pouvez désormais créer des tâches directement à partir d’un projet, d’une tâche ou de la zone Accueil pour la version bêta de l’application mobile Android.
 
-* [Nouveau tutoriel pour la première utilisation de l’application mobile Workfront pour les appareils Android](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
+* [Nouveau tutoriel pour la première fois de l’application mobile Workfront pour les appareils Android](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
 
   L’aspect du tutoriel qui s’affiche la première fois que vous accédez à l’application mobile Workfront sur un appareil Android a été mis à jour.
 
@@ -198,7 +198,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateur
 
   Diverses mises à jour sont désormais disponibles dans Workfront pour Slack, notamment la possibilité de publier un commentaire que vous avez fait dans Slack sous la forme d’un commentaire sur un objet dans Workfront, de vous abonner pour être averti en Slack lorsqu’une personne fait un commentaire sur l’une de vos demandes, et bien plus encore.
 
-* [Améliorations de Workfront pour Jira](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
+* [Workfront for Jira Améliorations](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
 
   L’intégration de Workfront for Jira contient désormais diverses améliorations, notamment une indication du moment où l’intégration crée automatiquement un utilisateur dans Jira, une option pour désactiver la création automatique d’utilisateurs Workfront, etc.
 
@@ -209,7 +209,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateur
 
 ### L’API version 4 n’est plus prise en charge
 
-La prise en charge de l’API version 4 se termine avec la version 2019.1. Pour plus d’informations sur la planification de la prise en charge des versions de l’API Workfront, voir  [Contrôle de version des API et planification de la prise en charge](../../../../wf-api/api/api-version-support-schedule.md).
+La prise en charge de l’API version 4 se termine avec la version 2019.1. Pour plus d’informations sur la planification de la prise en charge des versions de l’API Workfront, voir  [ Le contrôle de version des API et la planification de la prise en charge](../../../../wf-api/api/api-version-support-schedule.md).
 
 ### Mises à jour rapides de l’outil
 
@@ -227,7 +227,7 @@ L’API version 10 est désormais disponible dans l’environnement Aperçu. Il 
 Les options d’authentification unique (SSO) suivantes ne sont désormais prises en charge que dans une capacité limitée. Elles seront supprimées du produit au cours du second semestre 2019 :
 
 * LDAP\
-  Pour plus d’informations sur l’utilisation de LDAP avec Workfront, voir [Configuration de Workfront avec LDAP.](https://support.workfront.com/hc/en-us/articles/217223517)
+  Pour plus d&#39;informations sur l&#39;utilisation de LDAP avec Workfront, voir [Configuration de Workfront avec LDAP.](https://support.workfront.com/hc/en-us/articles/217223517)
 
 * Active Directory\
   Pour plus d’informations sur l’utilisation d’Active Directory avec Workfront, voir [Configuration de Workfront avec Active Directory.](https://support.workfront.com/hc/en-us/articles/217223547)
@@ -237,12 +237,12 @@ Les options d’authentification unique (SSO) suivantes ne sont désormais prise
 
 Voici la chronologie de suppression pour ces options d’authentification unique :
 
-* **Prise en charge limitée :** Août 2018 - Janvier 2019\
+* **Prise en charge limitée :** août 2018 - janvier 2019\
   Les problèmes majeurs seront résolus ; les problèmes de faible gravité ne seront pas résolus.
 
-* **Obsolescence :** Janvier 2019 - Août 2019\
+* **Obsolescence :** janvier 2019 - août 2019\
   Non pris en charge.
 
-* **Plus disponible dans Workfront :** Août 2019
+* **Plus disponible dans Workfront :** août 2019
 
 Ces modifications sont effectuées en vue de la préparation de l’expérience d’authentification améliorée, actuellement disponible uniquement pour un nombre limité de clients. Pour plus d’informations sur ces modifications à venir, voir [Prise en main de l’expérience d’authentification améliorée.](https://support.workfront.com/hc/en-us/articles/360008329033)

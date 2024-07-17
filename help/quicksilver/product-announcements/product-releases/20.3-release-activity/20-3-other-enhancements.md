@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 autres améliorations
+title: Autres améliorations (version 20.3)
 description: Cette page décrit toutes les autres améliorations apportées à la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements
@@ -10,15 +10,15 @@ exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1503'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 20.3 autres améliorations
+# Autres améliorations (version 20.3)
 
 Cette page décrit toutes les autres améliorations apportées à la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, voir [Présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, consultez la [présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Partage d’un calendrier avec un lien privé
 
@@ -48,7 +48,7 @@ Pour vous aider à gérer facilement les feuilles de temps avec plusieurs élém
 
 Auparavant, vous deviez cliquer individuellement sur chaque élément.
 
-Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Pour plus d’informations, consultez [Consigner des heures](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Ignorer les dates réelles dans les calendriers Workfront
 
@@ -60,7 +60,7 @@ Pour mieux contrôler l’affichage des objets dans les rapports du calendrier, 
 
 Auparavant, les dates réelles étaient automatiquement utilisées une fois disponibles.
 
-Pour plus d’informations, voir [Présentation des rapports sur les calendriers](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Pour plus d’informations, reportez-vous à la section [Présentation des rapports du calendrier](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ## Utilisation de champs de date personnalisés dans les rapports de calendrier
 
@@ -72,17 +72,17 @@ Pour vous aider à mieux visualiser et gérer votre travail quotidien avec les c
 
 Auparavant, vous ne pouviez gérer votre calendrier qu’avec des projections, planifiées lorsque les dates réelles n’étaient pas disponibles.
 
-Pour plus d’informations, voir [Utilisation de champs de date personnalisés dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (ou si vous utilisez Workfront Classic, voir [Utilisation de champs de date personnalisés dans un rapport de calendrier](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+Pour plus d’informations, reportez-vous à la section [Utilisation de champs de date personnalisés dans un rapport de calendrier](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (ou si vous utilisez Workfront Classic, reportez-vous à la section [Utilisation de champs de date personnalisés dans un rapport de calendrier](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
 
 ## Modifications des emails
 
-**Modifications des emails sortants :** Tous les courriers électroniques de Workfront proviennent de notifications@my.workfront.com. Cela inclut les alertes automatisées et la communication utilisateur-utilisateur.
+**Modifications des emails sortants :** Tous les emails provenant de Workfront proviennent de notifications@my.workfront.com. Cela inclut les alertes automatisées et la communication utilisateur-utilisateur.
 
 Auparavant, les administrateurs système pouvaient ajouter une adresse électronique personnalisée dans la zone Configuration du courrier électronique .
 
-**Modifications de la réponse POP d&#39;un email entrant :** Les administrateurs système n’auront plus la possibilité de configurer un serveur de messagerie POP personnalisé pour les réponses aux emails entrants aux notifications.
+**Modifications des réponses POP des emails entrants :** Les administrateurs système ne pourront plus configurer un serveur de messagerie POP personnalisé pour les réponses aux emails entrants aux notifications.
 
-Pour plus d’informations, voir [Mise en file d’attente des emails et modifications des emails de réponse POP](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+Pour plus d’informations, voir [Mise en file d’attente des emails et changements des emails de réponse POP](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
 
 ## DomainKeys Identified Mail (DKIM) désormais inclus dans les emails Workfront sortants
 
@@ -95,7 +95,7 @@ Pour rendre plus gérable l’inscription des utilisateurs à la nouvelle expér
 Il existe également un lien Détails de l’utilisateur qui affiche les informations suivantes :
 
 * Nom
-* Rôle de tâche
+* Fonction
 * Adresse e-mail
 * Image de profil
 
@@ -107,7 +107,7 @@ Il existe également un lien Détails de l’utilisateur qui affiche les informa
 
 Vous pouvez désormais utiliser un modèle de mise en page pour modifier les logos de la zone de navigation supérieure et du menu principal pour des groupes, des équipes, des rôles de travail et des utilisateurs spécifiques ayant leur propre valorisation de marque.
 
-Pour plus d’informations, voir [Marque votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Pour plus d’informations, voir [Marquez votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Les administrateurs de groupe peuvent créer et gérer des processus d’approbation.
 
@@ -115,7 +115,7 @@ Afin de garantir une plus grande autonomie et un meilleur contrôle des workflow
 
 Pour s’assurer que les administrateurs de groupe ne modifient pas par inadvertance les processus de validation utilisés dans tout le système ou créés par d’autres groupes, ils ne peuvent accéder qu’aux processus de validation associés aux groupes qu’ils gèrent.
 
-Pour plus d’informations, voir [Créer un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Pour plus d’informations, voir [Création d’un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Pour les administrateurs : la nouvelle page Groupes facilite la création et la gestion des groupes.
 
@@ -170,4 +170,4 @@ Pour plus d’informations, voir [API d’abonnement à un événement](../../..
 
 Pour empêcher la diffusion de messages en double, vous ne pouvez plus créer de doublons d&#39;abonnements. De plus, les abonnements en double créés précédemment ont été supprimés.
 
-Pour plus d’informations, voir [Questions fréquentes - Abonnements à un événement](../../../wf-api/general/event-subs-faq.md).
+Pour plus d’informations, voir [FAQ - Abonnements à des événements](../../../wf-api/general/event-subs-faq.md).

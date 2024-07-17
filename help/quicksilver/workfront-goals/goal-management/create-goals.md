@@ -9,7 +9,7 @@ exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -19,7 +19,7 @@ Que vous soyez PDG, responsable ou contributeur individuel, vous pouvez créer d
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -69,18 +69,18 @@ Vous devez disposer des éléments suivants :
 </td>
 </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Instructions relatives à la création d’objectifs
 
-Avant de commencer avec les objectifs de Workfront, nous vous recommandons de lire nos recommandations et instructions relatives aux bonnes pratiques en matière de gestion efficace des objectifs. Pour plus d’informations sur les consignes de création et de gestion des objectifs, voir [Présentation des objectifs d’Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md).
+Avant de commencer avec les objectifs de Workfront, nous vous recommandons de lire nos recommandations et instructions relatives aux bonnes pratiques en matière de gestion efficace des objectifs. Pour plus d’informations sur les consignes de création et de gestion des objectifs, consultez la [présentation des objectifs d’Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Créer des objectifs
 
@@ -171,7 +171,7 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Objectifs**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -184,22 +184,22 @@ Creating goals differs depending on what environment you use.
    ![](assets/new-goal-box-unshimmed.png)
 
 1. Renseignez les champs suivants :
-   * **Nom de l’objectif**: saisissez un nom pour l’objectif. Champ obligatoire.
-   * **Période**: sélectionnez un trimestre ou une année prédéfini dans la variable **Période** champ déroulant
+   * **Nom de l’objectif** : saisissez un nom pour l’objectif. Il s’agit d’un champ obligatoire.
+   * **Période** : sélectionnez un trimestre ou une année prédéfini dans le champ déroulant **Période**
 
      Ou
 
-     Sélectionnez la variable **Activation des dates personnalisées** , puis sélectionnez une **Début** et **Date de fin** pour l’objectif.
+     Sélectionnez l’option **Activer les dates personnalisées**, puis sélectionnez une **Date de début** et une **Date de fin** pour l’objectif.
 
      Les années précédentes, en cours et suivantes, ainsi que leurs trimestres respectifs, sont répertoriés comme des options prédéfinies dans le champ déroulant Période .
 
      La période de l’objectif indique la période pendant laquelle vous prévoyez que l’objectif se termine.
 
-   * **Propriétaire de l’objectif**: commencez à saisir le nom d’un utilisateur, d’une équipe, d’un groupe ou de votre organisation pour indiquer qui est le propriétaire de l’objectif. Par défaut, vous êtes sélectionné en tant que propriétaire de l’objectif.
-   * **Description**: saisissez des informations supplémentaires sur l’objectif.
+   * **Propriétaire de l’objectif** : commencez à saisir le nom d’un utilisateur, d’une équipe, d’un groupe ou de votre organisation pour indiquer qui est le propriétaire de l’objectif. Par défaut, vous êtes sélectionné en tant que propriétaire de l’objectif.
+   * **Description** : entrez des informations supplémentaires sur l’objectif.
 1. Cliquez sur **Créer un objectif**.
 
-   Le nouvel objectif est répertorié dans la liste Objectif et a le statut de **Version préliminaire**.
+   Le nouvel objectif est répertorié dans la liste des objectifs et a le statut **Brouillon**.
 
    Vous devez associer un objectif à un indicateur de progression pour l’activer et commencer à travailler dessus.
 
@@ -209,21 +209,21 @@ Creating goals differs depending on what environment you use.
      Pour plus d’informations sur l’ajout de résultats, voir [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-results-to-goals.md).
    * Ajout d’une activité
 
-     Pour plus d’informations sur l’ajout d’activités, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-activities-to-goals.md).
+     Pour plus d’informations sur l’ajout d’activités, voir [Ajout d’activités à des objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-activities-to-goals.md).
    * Aligner un autre objectif dessus
 
-     Pour plus d’informations sur l’alignement des objectifs, voir [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md).
+     Pour plus d’informations sur l’alignement des objectifs, voir [Aligner les objectifs en les connectant dans les objectifs Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md).
 
 
 ### Copier un objectif existant {#copy-an-existing-goal}
 
 Vous pouvez créer un objectif en copiant un objectif existant.
 
-Pour plus d’informations sur la copie d’objectifs, voir [Copie d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/copy-goals.md).
+Pour plus d’informations sur la copie des objectifs, voir [Copier les objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/copy-goals.md).
 
 ### Convertir un résultat ou une activité en objectif {#convert-a-result-or-activity-to-a-goal}
 
 Vous pouvez créer un objectif en convertissant le résultat ou l’activité d’un objectif existant en objectif. Le nouvel objectif s’aligne sur l’objectif d’origine.
 
-Pour plus d’informations sur la conversion des résultats et des activités en objectifs, voir [Alignement des objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+Pour plus d’informations sur la conversion des résultats et des activités en objectifs, voir [Aligner les objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 

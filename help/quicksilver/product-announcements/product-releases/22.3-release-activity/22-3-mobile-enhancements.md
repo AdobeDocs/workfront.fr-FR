@@ -9,13 +9,13 @@ exl-id: eb62baf2-109c-4b50-8cd1-415d3c40c7ed
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 22.3 Améliorations apportées aux appareils mobiles
+# Améliorations apportées à l’application mobile (version 22.3)
 
-Cette page décrit toutes les améliorations apportées à Mobile avec la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, voir [Présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Cette page décrit toutes les améliorations apportées à Mobile avec la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, consultez la [présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Améliorations de la vérification de l’application mobile
 

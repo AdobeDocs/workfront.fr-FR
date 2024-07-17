@@ -2,7 +2,7 @@
 content-type: release-notes
 keywords: notes,trimestriel,mise à jour,version
 navigation-topic: 2021-2-release-activity
-title: 21.2 Autres améliorations
+title: Autres améliorations (version 21.2)
 description: Cette page décrit toutes les autres améliorations apportées à la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
 feature: Product Announcements
@@ -11,13 +11,13 @@ exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 21.2 Autres améliorations
+# Autres améliorations (version 21.2)
 
-Cette page décrit toutes les autres améliorations apportées à la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, voir [Présentation de la version 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Cette page décrit toutes les autres améliorations apportées à la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, consultez la [présentation de la version 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Nous sommes maintenant officiellement Adobe Workfront
 
@@ -37,7 +37,7 @@ Mise à jour des zones bientôt
 * Exports de PDF pour les listes et les rapports
 * Icône Favicon dans l’onglet du navigateur
 
-**Mise à jour ultérieure des zones**
+**Zones mises à jour ultérieurement**
 
 * Notifications par e-mail
 
@@ -96,4 +96,4 @@ Il est important de noter que chaque objet possède son propre ensemble unique d
 
 Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui s’adapte à vos besoins. Les administrateurs système peuvent parcourir le catalogue de plans directeurs et installer des modèles de projet prêts à l’emploi.
 
-Pour plus d’informations, voir [Plans directeurs](../../../administration-and-setup/blueprints/blueprints.md).
+Pour plus d’informations, voir [Blueprints](../../../administration-and-setup/blueprints/blueprints.md).

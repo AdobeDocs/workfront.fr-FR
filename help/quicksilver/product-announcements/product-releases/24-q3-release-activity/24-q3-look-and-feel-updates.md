@@ -28,7 +28,7 @@ Pour obtenir la liste de toutes les modifications apportées par la version du t
 
 Nous avons mis à jour la liste de suggestions Affectations afin qu’elle présente une conception plus moderne et cohérente dans tous les domaines de Workfront. Lorsque vous ajoutez une affectation à une tâche ou à un problème depuis l’écran d’en-tête, de liste ou d’affectation avancée, l’expérience est la même. Les suggestions sont divisées en sections afin de vous aider à trouver rapidement la personne, l’équipe ou le rôle approprié pour l’affectation.
 
-Pour plus d’informations, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Attribuer des problèmes](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md), et [Création d’affectations avancées](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+Pour plus d’informations, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Affecter des problèmes](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) et [Créer des affectations avancées](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 ## Mises à jour de l’apparence pour les formulaires personnalisés sur les détails du document
 
@@ -48,7 +48,7 @@ Pour plus d’informations, voir [Présentation des détails du document](/help/
 
 Nous avons mis à jour la page Détails de l’itération > Forms personnalisé afin qu’elle soit plus moderne et cohérente avec les autres zones de Workfront. La page prend désormais en charge les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe.
 
-Pour plus d’informations, voir [Créer un article agile dans une itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
+Pour plus d’informations, voir [Création d’un article agile dans une itération](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
 
 ## Mises à jour de l’apparence pour la zone Groupes
 

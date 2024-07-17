@@ -1,6 +1,6 @@
 ---
-title: 21.3 Améliorations de la vérification
-description: 21.3 Améliorations de la vérification
+title: Améliorations de la relecture (version 21.3)
+description: Améliorations de la relecture (version 21.3)
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
@@ -9,15 +9,15 @@ exl-id: cad1ebc1-0477-4a05-a8c0-6cdfacbdc976
 source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 21.3 Améliorations de la vérification
+# Améliorations de la relecture (version 21.3)
 
 Cette page décrit toutes les améliorations apportées à la vérification de la version 21.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 21 juillet 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.3, voir [Présentation de la version 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.3, consultez la [présentation de la version 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Suppression de la possibilité de créer un document ou une version de BAT dans un dossier lié
 

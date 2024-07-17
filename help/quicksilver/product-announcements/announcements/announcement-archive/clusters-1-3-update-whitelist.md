@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Les clients des grappes 1, 2 et 3 doivent mettre à jour tous les blocs IP de liste autorisée pour empêcher le blocage des services Adobe Workfront.
+title: Mise à jour requise par les clientes et clients des clusters 1, 2 et 3 de tous les blocs d’adresses IP de liste autorisée pour empêcher le blocage des services Adobe Workfront
 description: Pour améliorer notre infrastructure de base, nous migrerons bientôt les clients Adobe Workfront sur les grappes 01, 02 et 03 vers le cloud public AWS.
 author: Luke
 feature: Product Announcements
 exl-id: 77d43206-1db7-4075-a063-043f8c9f75ed
 source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 4%
+source-wordcount: '317'
+ht-degree: 16%
 
 ---
 
-# Les clients des grappes 1, 2 et 3 doivent mettre à jour tous les blocs IP de liste autorisée pour empêcher le blocage des services Adobe Workfront.
+# Mise à jour requise par les clientes et clients des clusters 1, 2 et 3 de tous les blocs d’adresses IP de liste autorisée pour empêcher le blocage des services Adobe Workfront
 
 Pour améliorer notre infrastructure de base, nous migrerons bientôt les clients Adobe Workfront sur les grappes 01, 02 et 03 vers le cloud public AWS.
 
@@ -27,7 +27,7 @@ Pour SSO et POP :
 * 34.213.96.218
 * 3.16.210.22
 * 3.16.229.153
-* 18.224.117.99
+* 18 224 117 99
 * 3.18.123.153
 * 3.211.159.196
 * 3.85.255.45
@@ -39,13 +39,13 @@ Pour l’e-mail :
 * 54.240.60.174
 * 54.240.60.175
 
-Assurez-vous que vos blocs IP de liste autorisée sont mis à jour d’ici le 13 mai 2019. Pour plus d’informations, voir [Configuration de la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Veillez à ce que vos blocs IP de liste autorisée soient mis à jour d’ici le 13 mai 2019. Pour plus d’informations, voir [Configurer la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-Merci pour votre soutien constant à Workfront alors que nous travaillons à créer une expérience plus fiable et robuste pour nos clients.
+Merci pour votre soutien constant à Workfront alors que nous nous efforçons de créer une expérience plus fiable et robuste pour nos clients.
 
-Pour toute question, contactez notre équipe d’assistance en consultant experience.workfront.com ou en appelant le 844.306.4357 (Etats-Unis) ou le +44.1256.274200 (EMEA).
+Si vous avez d’autres questions, contactez notre équipe d’assistance en consultant experience.workfront.com ou en appelant le 844.306.4357 (États-Unis) ou le +44.1256.274200 (EMEA).
 
-## FAQ
+## Questions fréquentes
 
 ### Pourquoi Workfront apporte-t-il cette modification ?
 

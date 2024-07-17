@@ -6,7 +6,8 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: b5ec158fc1484df193120a9c7aca9f19d2b65265
+exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -27,11 +28,11 @@ L’assistant d’IA peut vous aider à réviser votre formule en une expression
 
 Pour réviser une expression de champ calculé non valide :
 
-1. Cliquez sur le bouton **Assistant IA** icon ![Icône Assistant IA](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
+1. Cliquez sur l’icône **Assistant IA** ![Icône Assistant IA](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
 1. dans la zone d’invite située au bas du panneau de l’assistant d’IA, saisissez une invite du type :
    `Rewrite this formula to remove the invalid expression error`
 1. Copiez l’expression non valide à partir du créateur de formulaires personnalisé et collez-la dans la zone d’invite.
-1. Presse **Entrée**.
+1. Appuyez sur **Entrée**.
 
    L’assistant d’IA peut prendre quelques instants pour générer la formule révisée, en fonction de la taille ou de la complexité de la formule.
 1. Affichez la formule révisée dans le panneau de l’assistant d’IA.
@@ -41,7 +42,4 @@ Pour réviser une expression de champ calculé non valide :
 >
 >Nous vous recommandons de tester le champ calculé pour vous assurer qu’il récupère le résultat attendu.
 
-Pour plus d’informations sur les champs calculés dans Workfront, voir [Ajout de données calculées à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
-
-
+Pour plus d’informations sur les champs calculés dans Workfront, voir [Ajout de données calculées à un formulaire personnalisé avec l’ancien créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).

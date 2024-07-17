@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version finale de la version 2017.3 bêta
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de la version bêta 2017.3. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 12 septembre 2017. Il sera disponible dans l’environnement de production début novembre 2017.
+title: Activité Version 2017.3, version bêta finale
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de Beta 2017.3. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 12 septembre 2017. Il sera disponible dans l’environnement de production début novembre 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,48 +14,48 @@ ht-degree: 0%
 
 ---
 
-# Activité Version finale de la version 2017.3 bêta
+# Activité Version 2017.3, version bêta finale
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de la version bêta 2017.3. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 12 septembre 2017. Il sera disponible dans l’environnement de production début novembre 2017.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de Beta 2017.3. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 12 septembre 2017. Il sera disponible dans l’environnement de production début novembre 2017.
 
 >[!IMPORTANT]
 >
 > Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2017.3, voir  [Présentation de l’activité de la version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2017.3, voir  [Présentation de l’activité de version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-La version finale de la version bêta 2017.3 contient des améliorations pour les administrateurs de Workfront et d’autres utilisateurs :
+La version finale de Beta 2017.3 contient des améliorations pour les administrateurs de Workfront et d’autres utilisateurs :
 
 **Pour les administrateurs**
 
-* [Nouvelle configuration pour les requêtes d’appel dans la zone Paramètres d’approbation](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
+* [Nouvelle configuration pour l’appel de requêtes dans la zone Paramètres d’approbation](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [Configuration des rôles de BAT par défaut](#configure-default-proof-roles)
 
-**Pour tous les utilisateurs**
+**Pour Tous Les Utilisateurs**
 
-* [Zone d’accueil (mise à jour de ma zone de travail)](#home-area-updated-my-work-area)
+* [Zone D’Accueil (Mise À Jour De Ma Zone De Travail)](#home-area-updated-my-work-area)
 
-* [Mise à jour du modèle de mise en page pour prendre en charge la zone d’accueil](#updated-layout-template-to-support-the-home-area)
+* [ Modèle de mise en page mis à jour pour prendre en charge la zone d’accueil](#updated-layout-template-to-support-the-home-area)
 
 * [Kanban pour Agile](#kanban-for-agile)
-* [Inclure des problèmes sur le journal de démarrage d’une équipe agile](#include-issues-on-the-scrum-backlog-for-an-agile-team)
-* [Inclure des problèmes sur le panorama d’articles agiles sur Scrum](#include-issues-on-the-scrum-agile-story-board)
-* [Application de groupes et de filtres au journal pour une équipe agile](#apply-groupings-and-filters-to-the-backlog-for-an-agile-team)
-* [Amélioration des @Tagging Fonctionnalités de retour dans l’environnement de prévisualisation](#enhanced-tagging-functionality-returns-in-the-preview-environment)
+* [Inclure les problèmes sur le journal de démarrage pour une équipe agile](#include-issues-on-the-scrum-backlog-for-an-agile-team)
+* [Inclure les problèmes sur le panorama d’articles agiles de Scrum](#include-issues-on-the-scrum-agile-story-board)
+* [Appliquer les groupes et les filtres au journal pour une équipe agile](#apply-groupings-and-filters-to-the-backlog-for-an-agile-team)
+* [Amélioration des retours de la fonctionnalité @Tagging dans l’environnement de prévisualisation](#enhanced-tagging-functionality-returns-in-the-preview-environment)
 * [Les mises à jour du système de filtrage dans le flux de mise à jour sont maintenant persistantes dans tous les objets](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
 * [Visualiser les données dans le rapport d’utilisation](#visualize-data-in-the-utilization-report)
 * [Amélioration des performances des rapports d’utilisation](#utilization-report-performance-improvement)
-* [Améliorations des documents : interface rationalisée](#document-enhancements-streamlined-interface)
+* [Améliorations du document : interface rationalisée](#document-enhancements-streamlined-interface)
 * [Améliorations de la vérification dans Workfront](#proofing-enhancements-within-workfront)
-* [Améliorations de la vérification dans Workfront Proof et Workfront](#proofing-enhancements-within-both-workfront-proof-and-workfront)
+* [ Améliorations de la vérification dans Workfront Proof et Workfront](#proofing-enhancements-within-both-workfront-proof-and-workfront)
 * [Formatage de texte enrichi pour les mises à jour et les emails](#rich-text-formatting-for-updates-and-emails)
 * [Nouvelle reconception du diagramme de Gantt](#new-gantt-chart-redesign)
-* [Les rapports natifs contiennent des descriptions mises à jour](#built-in-reports-contain-updated-descriptions)
+* [Les Rapports Intégrés Contiennent Des Descriptions Mises À Jour](#built-in-reports-contain-updated-descriptions)
 * [Marque dans les rapports, listes et tableaux de bord exportés](#branding-in-exported-reports-lists-and-dashboards)
 * [Améliorations apportées à la copie de tâches et au déplacement de tâches ou de problèmes](#improvements-when-copying-tasks-and-moving-tasks-or-issues)
-* [Nouveau groupement pour les rapports d’heure budgétés de ressources : Date d’affectation](#new-grouping-for-resource-budgeted-hour-reports-allocation-date)
+* [ Nouveau groupement pour les rapports d’heure sur la ressource : Date d’allocation ](#new-grouping-for-resource-budgeted-hour-reports-allocation-date)
 * [Améliorations du planificateur de ressources](#resource-planner-improvements)
-* [Améliorations des périphériques mobiles](#mobile-improvements)
+* [Améliorations mobiles](#mobile-improvements)
 * [Intégration de Workfront avec Slack](#workfront-integration-with-slack)
 * [Améliorations d’Outlook 365](#outlook-365-improvements)
 * [Modifications des API](#api-changes)
@@ -80,7 +80,7 @@ Les fonctionnalités suivantes sont disponibles dans la zone Mon travail, mais n
 * Création d’un problème ad hoc sur un projet
 * Afficher uniquement les autorisations qui vous ont été déléguées
 
-Pour plus d’informations sur l’utilisation de la nouvelle zone d’accueil, voir [Utilisation de la zone Accueil](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Pour plus d’informations sur l’utilisation de la nouvelle zone d’accueil, voir [Utilisation de la zone d’accueil](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Mise à jour du modèle de mise en page pour prendre en charge la zone d’accueil {#updated-layout-template-to-support-the-home-area}
 
@@ -106,26 +106,26 @@ Les méthodologies agiles Scrum et Kanban de Workfront diffèrent comme suit :
 
 * Configurez les éléments sur le journal en attente pour qu’ils soient automatiquement ajoutés au tableau de bord agile de Kanban lorsque d’autres éléments sont déplacés vers un état correspondant à Terminé.
 
-  Pour plus d’informations, voir [Configurer des articles à ajouter automatiquement à partir du journal](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in [Configurer Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+  Pour plus d’informations, voir [Configuration d’articles à ajouter automatiquement à partir du journal ](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) dans [Configurer Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 * Configurez une limite de travail en cours (WIP) à afficher sur le tableau de bord agile de Kanban.
 
-  Pour plus d’informations, voir [Configuration de la limite de travail en cours (WIP)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) in [Configurer Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+  Pour plus d’informations, voir [Configuration de la limite de travail en cours](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) dans [Configuration de Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-**Avantages de Scrum dans Workfront**
+**Avantages de l’utilisation de Scrum dans Workfront**
 
 * Ajoutez un ensemble d’articles à une itération agile et créez un panorama pour cette itération.
 * Incluez les problèmes sur le tableau de bord Scrum.
 * Incluez des problèmes sur le journal des tâches d’une équipe agile.
 
-  Pour plus d’informations, voir [Configurer l’application des dates lors de l’ajout d’éléments de travail à une itération](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [Configuration de Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+  Pour plus d’informations, voir [Configurer la manière dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans [Configurer le graphique](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 * Les sous-tâches peuvent être affichées sur le tableau de bord de Scrum.
 * Affichez un graphique de condensation pour voir la progression par rapport aux histoires lors de l’itération.
 
-  Pour plus d’informations, voir [Présentation du graphique en décharge agile](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+  Pour plus d’informations, consultez la [présentation d’un graphique de condensation agile](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-Pour plus d’informations sur l’activation et la configuration de Kanban pour une équipe agile, voir [Choix d’une méthodologie agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) in [Créer une équipe agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Pour plus d’informations sur l’activation et la configuration de Kanban pour une équipe agile, voir [Choix d’une méthodologie agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) dans [Création d’une équipe agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Inclure des problèmes sur le journal de démarrage d’une équipe agile {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -139,9 +139,9 @@ Avant cette modification, seules les tâches pouvaient être ajoutées au journa
 
 Comme vous avez désormais accès à plus de tâches que les tâches du journal, toutes les tâches personnalisées disponibles précédemment dans le journal sont copiées et ajoutées au journal en tant que vues d’élément de travail du journal personnalisées.
 
-Pour plus d’informations sur l’utilisation des problèmes sur le journal en souffrance, voir  [Gestion du journal en souffrance agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur l’utilisation des problèmes sur le journal en souffrance, voir  [Gérez le journal agile ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Pour plus d’informations sur l’activation des problèmes à mettre à disposition sur le journal d’une équipe Scrum agile, voir  [Configurer l’application des dates lors de l’ajout d’éléments de travail à une itération](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [Configuration de Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Pour plus d’informations sur l’activation des problèmes à mettre à disposition sur le journal d’une équipe Scrum agile, voir  [Configurez le mode d’application des dates lors de l’ajout d’éléments de travail à une itération](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans [Configurer le graphique](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Inclure des problèmes sur le panorama d’articles agiles sur Scrum {#include-issues-on-the-scrum-agile-story-board}
 
@@ -151,7 +151,7 @@ Pour plus d’informations sur l’activation des problèmes à mettre à dispos
 
 Vous pouvez désormais inclure des problèmes sur le panorama lorsque vous utilisez la méthodologie agile de Scrum.
 
-Pour plus d’informations, voir [Configuration des colonnes d’état sur le tableau de bord agile](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) in [Configuration de Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Pour plus d’informations, voir [Configuration des colonnes d’état sur le tableau de bord agile](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) dans [Configurer le graphique](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Application de groupes et de filtres au journal pour une équipe agile {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -163,7 +163,7 @@ Les options Groupement et Filtre sont désormais disponibles sur le journal en s
 
 Avant cette modification, vous pouviez appliquer les vues au journal agile.
 
-Pour plus d’informations, voir  [Gestion du journal en souffrance agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Gestion du journal en souffrance agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations, voir  [Gérer le journal en souffrance agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) dans  [Gérez le journal agile ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## Formatage de texte enrichi pour les mises à jour et les emails {#rich-text-formatting-for-updates-and-emails}
 
@@ -187,23 +187,23 @@ L’option Filtrer les mises à jour du système est désormais persistante sur 
 
 Avant cette modification, vous deviez choisir de filtrer les mises à jour du système pour chaque objet lorsque vous parcourez le site Workfront.
 
-Pour plus d’informations, voir [Mise à jour du travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations, consultez la section [Mettre à jour le travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Visualiser les données dans le rapport d’utilisation {#visualize-data-in-the-utilization-report}
 
  Vous pouvez désormais afficher les informations d’utilisation dans un graphique. 
 
-Pour plus d’informations, voir [Présentation du rapport Utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Présentation du rapport Utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Pour plus d’informations, voir [Présentation du rapport d’utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) dans [Présentation du rapport d’utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Amélioration des performances des rapports d’utilisation {#utilization-report-performance-improvement}
 
 >[!NOTE]
 >
->Cette fonctionnalité a été publiée dans un correctif après la version finale bêta.
+>Cette fonctionnalité a été publiée dans un correctif après la version finale de Beta.
 
 Désormais, lors de l’exécution d’un rapport d’utilisation, vous êtes invité à appliquer un filtre avant l’exécution du rapport. Cette modification garantit que les informations les plus pertinentes sont générées dans le rapport Utilisation aussi rapidement que possible.
 
-Pour plus d’informations sur l’exécution d’un rapport d’utilisation, voir [Présentation du rapport Utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Présentation du rapport Utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Pour plus d’informations sur l’exécution d’un rapport d’utilisation, voir [Présentation du rapport d’utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) dans [Présentation du rapport d’utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Améliorations des documents : interface rationalisée {#document-enhancements-streamlined-interface}
 
@@ -213,9 +213,9 @@ Auparavant, ces options étaient disponibles lors du lancement de la boîte de d
 
 Pour plus d’informations, voir les informations suivantes :
 
-* [Ajout de documents à Adobe Workfront à partir de votre système de fichiers](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
-* [Demande d’un document](../../../../documents/adding-documents-to-workfront/request-a-document.md)
-* [Liaison de documents à partir d’applications externes](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) 
+* [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+* [Demander un document](../../../../documents/adding-documents-to-workfront/request-a-document.md)
+* [ Lier des documents à partir d’applications externes](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) 
 
 >[!NOTE]
 >
@@ -239,13 +239,13 @@ Outre une meilleure expérience utilisateur lors de la création de BAT dans Wor
 * Paramètres de BAT supplémentaires 
 * Validation des erreurs en temps réel lors de la vérification d’une URL (auparavant, vous deviez attendre plusieurs minutes avant qu’une erreur ne s’affiche)
 
-Pour plus d’informations, voir .
+Pour plus d’informations, poursuivez votre lecture.
 
 >[!NOTE]
 >
 > Lors de la création d’un BAT avec un workflow automatisé, le glisser-déposer n’est pas pris en charge pour déplacer les utilisateurs d’une étape à une autre. Supprimez plutôt l’utilisateur d’une étape et ajoutez-le à une autre.
 
-*L’option permettant de déplacer les utilisateurs d’une étape à l’autre à l’aide du glisser-déposer sera réintroduite avec la version 2018.1.*
+*L’option permettant de déplacer des utilisateurs d’une étape vers une autre à l’aide du glisser-déposer sera réintroduite avec la version 2018.1.*
 
 ### Partager directement à partir de la visionneuse de vérification {#share-directly-from-the-proofing-viewer}
 
@@ -253,11 +253,11 @@ Vous pouvez désormais partager des données avec des utilisateurs Workfront sp�
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible uniquement pour les nouveaux BAT (BAT créés après la version 2017.3) et uniquement pour les instances Workfront intégrées à un compte Workfront BAT Premium.
+>Cette fonctionnalité est disponible uniquement pour les nouveaux BAT (BAT créés après la version 2017.3) et uniquement pour les instances Workfront intégrées à un compte Workfront Proof Premium.
 
 Avant cette modification, vous ne pouviez partager qu’en créant un lien, puis en le partageant avec un utilisateur. 
 
-Pour plus d’informations, voir [Partage d’un BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Partage d’un BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+Pour plus d’informations, voir [Partager un BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) dans [Partager un BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 ### Configuration des rôles de BAT par défaut {#configure-default-proof-roles}
 
@@ -267,22 +267,22 @@ Il s’agit du rôle par défaut auquel les utilisateurs sont affectés sur un B
 
 ## Améliorations de la vérification dans Workfront Proof et Workfront {#proofing-enhancements-within-both-workfront-proof-and-workfront}
 
-* [Redémarrez et passez dans la visionneuse de vérification vidéo HTML5 (raccourcis clavier).](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
-* [Mises à jour de la visionneuse HTML5](#html5-proofing-viewer-updates)
+* [Redémarrer et passer dans la visionneuse de vérification vidéo HTML5 (raccourcis clavier)](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
+* [Mises à jour de la visionneuse de vérification d’HTML5](#html5-proofing-viewer-updates)
 
 ### Redémarrez et passez dans la visionneuse de vérification vidéo HTML5 (raccourcis clavier). {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
-Il existe désormais des raccourcis clavier dans la visionneuse de vérification de contenu HTML5 pour la vidéo qui vous permettent de redémarrer la vidéo du début à la fin de la vidéo.
+Il existe désormais des raccourcis clavier dans la visionneuse de vérification vidéo HTML5 qui vous permettent de redémarrer la vidéo du début à la fin de la vidéo.
 
-Pour plus d’informations sur les raccourcis clavier disponibles, voir [Raccourcis clavier dans la visionneuse de vérification de performance Workfront](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md).
+Pour plus d’informations sur les raccourcis clavier disponibles, voir [Raccourcis clavier dans la visionneuse de vérification de performance Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md).
 
-### Mises à jour de la visionneuse HTML5 {#html5-proofing-viewer-updates}
+### Mises à jour de la visionneuse de vérification d’HTML5 {#html5-proofing-viewer-updates}
 
 La visionneuse HTML5 prend désormais en charge les bons à tirer statiques.
 
-Avant cette modification, la visionneuse HTML5 ne prenait en charge que les bons à tirer pour la vidéo. 
+Avant cette modification, la visionneuse HTML5 ne prenait en charge que les bons à tirer vidéo. 
 
-La visionneuse de HTMLS comprend les nouvelles fonctionnalités suivantes lors de la vérification du contenu statique :
+La visionneuse HTML comprend les nouvelles fonctionnalités suivantes lors de la vérification du contenu statique :
 
 * Faire un seul commentaire avec des balises sur plusieurs pages en mode Une seule vue
 
@@ -290,12 +290,12 @@ La visionneuse de HTMLS comprend les nouvelles fonctionnalités suivantes lors d
 
 * Parcourir les BAT à partir des miniatures de BAT
 
-   * Identifiez facilement la partie du BAT qui est en cours de révision. Ceci est important, en particulier lorsque les utilisateurs utilisent des bons à tirer plus volumineux et de longues pages web, ou à tout moment le niveau de zoom le plus élevé est nécessaire pour afficher les détails.
+   * Identifiez facilement la partie du BAT qui est en cours de révision. Cela est important, en particulier lorsque les utilisateurs utilisent des bons à tirer plus volumineux et des pages web longues, ou à tout moment, lorsque la variable  un niveau de zoom plus élevé est nécessaire pour afficher les détails.
    * Modification du niveau de zoom
    * Panoramique du contenu
 
 * Spécification de valeurs personnalisées dans l’outil de mesure
-* Lors de l’annotation de texte dans un BAT dans la visionneuse de vérification dans le BAT Workfront, vous pouvez inclure des options pour indiquer que le texte doit être en gras, en italique et souligné.
+* Lors de l’annotation de texte dans un BAT dans la visionneuse de vérification dans Workfront Proof, vous pouvez inclure des options pour indiquer que le texte doit être en gras, en italique et souligné.
 
 La visionneuse HTML5 ne prend pas encore en charge toutes les fonctionnalités actuellement disponibles dans la visionneuse de Flashs existante. Les fonctionnalités suivantes ne sont actuellement pas disponibles, mais seront incluses dans une version ultérieure :
 
@@ -309,7 +309,7 @@ La visionneuse HTML5 ne prend pas encore en charge toutes les fonctionnalités a
 
 Pour plus d’informations sur la vérification des bons à tirer statiques dans la visionneuse HTML5, voir .
 
-En tant qu’administrateur Workfront dans Workfront BAT, vous pouvez déterminer si les utilisateurs de votre entreprise ont accès à la nouvelle visionneuse de BAT pour HTML5 pour les BAT vidéo.
+En tant qu’administrateur Workfront dans Workfront Proof, vous pouvez déterminer si les utilisateurs de votre entreprise ont accès à la nouvelle visionneuse de vérification de l’HTML5 pour les bons à tirer (BAT) vidéo.
 
 ## Nouvelle reconception du diagramme de Gantt {#new-gantt-chart-redesign}
 
@@ -320,7 +320,7 @@ Le nouveau graphique Gantt comprend les améliorations suivantes :
 * Cellules de tâche plus petites dans la partie liste du graphique
 * Options repensées pour les paramètres, l’impression et le passage aux dates de projection.
 
-Pour plus d’informations sur la configuration des options dans le diagramme de Gantt, voir [Configuration de l’affichage des informations sur le diagramme de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
+Pour plus d’informations sur la configuration des options dans le diagramme de Gantt, voir [Configuration de l’affichage des informations sur le graphique de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
 
 ## Les rapports natifs contiennent des descriptions mises à jour {#built-in-reports-contain-updated-descriptions}
 
@@ -328,7 +328,7 @@ Nous avons mis à jour les descriptions de nos rapports système dans Workfront 
 
 Avant cette modification, la plupart de nos rapports intégrés n’avaient aucune description ou étaient très limités.
 
-Pour plus d’informations sur les rapports natifs, voir [Utilisation des rapports intégrés d’Adobe Workfront](../../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+Pour plus d’informations sur les rapports natifs, voir [Utilisation des rapports natifs Adobe Workfront](../../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
 ## Marque dans les rapports, listes et tableaux de bord exportés {#branding-in-exported-reports-lists-and-dashboards}
 
@@ -344,13 +344,13 @@ Les fichiers .pdf suivants incluront le logo de votre organisation dans le docum
 * Rapports exportés et distribués
 * Tableaux de bord imprimés
 
-Pour plus d’informations sur l’exportation de données à partir de Workfront, voir [Exporter des données](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Pour plus d&#39;informations sur l&#39;export de données depuis Workfront, voir [Export de données](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Améliorations apportées à la copie de tâches et au déplacement de tâches ou de problèmes {#improvements-when-copying-tasks-and-moving-tasks-or-issues}
 
 Nous avons amélioré la façon dont vous copiez une tâche ou déplacez une tâche ou un problème, afin de faciliter la sélection d’un parent pour la tâche ou le problème copié ou déplacé. Lors de la sélection d’un parent lors de la copie d’une tâche, par exemple, vous pouvez désormais voir une hiérarchie de tâches, avec leur relation parent-enfant, ainsi que rechercher un parent dans les projets comportant de nombreuses tâches.
 
-Avant cette modification, aucun champ Rechercher n’était présent dans la variable **Sélection d’un parent** et la hiérarchie des tâches n’était pas visible dans la liste des tâches.
+Avant cette modification, aucun champ de recherche n’était présent à l’étape **Sélectionner un parent** et la hiérarchie des tâches n’était pas visible dans la liste des tâches.
 
 Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
@@ -374,47 +374,47 @@ Nous avons ajouté la possibilité de regrouper vos résultats par date d’attr
 
 Avant cette modification, vous pouviez afficher la Date d&#39;affectation dans la vue du rapport, et l&#39;utiliser dans un filtre, mais vous ne pouviez pas utiliser ce champ dans un regroupement.
 
-Pour plus d’informations sur la date d’affectation, voir [Glossaire de la terminologie Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Pour plus d’informations sur la date d’attribution, voir [Glossaire de la terminologie Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 Pour plus d’informations sur la création d’un rapport, voir [Création d’un rapport personnalisé](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Améliorations du planificateur de ressources {#resource-planner-improvements}
 
-* [planificateur de ressources : afficher les données par éditeur de texte enrichi](#resource-planner-show-data-by-fte)
-* [Planification des ressources : afficher les données par semaine et par trimestre](#resource-planner-show-data-by-week-and-quarter)
-* [planificateur de ressources : affichage par utilisateur](#resource-planner-view-by-user)
-* [Planification des ressources : faites glisser et déposez les projets pour établir la priorité](#resource-planner-drag-and-drop-projects-to-establish-priority)
+* [ Resource Planner : Afficher les données par FTE](#resource-planner-show-data-by-fte)
+* [planificateur de ressources : afficher les données par semaine et par trimestre](#resource-planner-show-data-by-week-and-quarter)
+* [ Resource Planner : affichage par utilisateur](#resource-planner-view-by-user)
+* [planificateur de ressources : faire glisser et déposer des projets pour établir la priorité](#resource-planner-drag-and-drop-projects-to-establish-priority)
 * [Resource Planner : exportez les données du Resource Planner vers Excel](#resource-planner-export-the-data-in-the-resource-planner-to-excel)
 
 ### planificateur de ressources : afficher les données par éditeur de texte enrichi {#resource-planner-show-data-by-fte}
 
 Vous pouvez maintenant afficher l’allocation et la disponibilité de vos ressources par EPT dans le planificateur de ressources. Avant cette modification, vous ne pouviez afficher que les valeurs en heures.
 
-Pour plus d’informations sur l’utilisation du planificateur de ressources, voir [Présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur l’utilisation du planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### Planification des ressources : afficher les données par semaine et par trimestre {#resource-planner-show-data-by-week-and-quarter}
 
 Vous pouvez désormais modifier l’intervalle de temps de votre planificateur de ressources afin de l’afficher par semaine ou par trimestre. Avant cette modification, vous ne pouviez afficher l’allocation et la disponibilité de vos ressources et les budgétiser que par mois.
 
-Pour plus d’informations sur l’utilisation du planificateur de ressources, voir [Présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur l’utilisation du planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### planificateur de ressources : affichage par utilisateur {#resource-planner-view-by-user}
 
 Vous pouvez désormais afficher les informations dans le planificateur de ressources par utilisateur, d’abord, puis par projets, rôles et tâches. Vous pouvez également afficher une différence entre les heures prévues et les heures disponibles ou l’éditeur de texte enrichi pour les utilisateurs. Avant cette modification, vous pouvez afficher les informations dans le planificateur de ressources par projets et rôles.
 
-Pour plus d’informations sur l’utilisation du planificateur de ressources, voir [Présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur l’utilisation du planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### Planification des ressources : faites glisser et déposez les projets pour établir la priorité {#resource-planner-drag-and-drop-projects-to-establish-priority}
 
 Vous pouvez désormais faire glisser et déposer des projets dans l’ordre de priorité souhaité. Avant cette modification, vous ne pouviez définir la priorité des projets qu’en leur attribuant manuellement un nombre.
 
-Pour plus d’informations sur l’utilisation du planificateur de ressources, voir [Présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur l’utilisation du planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### Resource Planner : exportez les données du Resource Planner vers Excel {#resource-planner-export-the-data-in-the-resource-planner-to-excel}
 
 Vous pouvez désormais exporter les informations du planificateur de ressources vers un fichier Excel.
 
-Pour plus d’informations sur l’utilisation du planificateur de ressources, voir [Présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur l’utilisation du planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Améliorations des périphériques mobiles {#mobile-improvements}
 
@@ -425,7 +425,7 @@ Nous avons ajouté la possibilité d’accéder à vos projets et de les gérer 
 * Accès à une liste de problèmes sur un projet
 * Enregistrer un nouveau problème sur un projet
 
-Vous pouvez installer cette fonctionnalité lorsque vous mettez à jour votre application mobile Workfront. La mise à jour sera disponible dans les boutiques Apple et Android en novembre 2017.
+Vous pouvez installer cette fonctionnalité lorsque vous mettez à jour votre application mobile Workfront. La mise à jour sera disponible dans les boutiques mobiles Apple et Android en novembre 2017.
 
 ## Intégration de Workfront avec Slack {#workfront-integration-with-slack}
 
@@ -448,18 +448,18 @@ Pour plus d’informations sur l’accès à Workfront à partir de Slack, voir 
 
 ## Améliorations d’Outlook 365 {#outlook-365-improvements}
 
-Nous avons apporté les améliorations suivantes au module complémentaire Workfront pour Outlook 365 :
+Nous avons apporté les améliorations suivantes au module complémentaire Workfront pour  Outlook 365 :
 
 * Ajouter une tâche ou un problème à un projet dans Workfront : vous pouvez désormais convertir un email en tâche ou en problème dans Workfront, à l’aide du module complémentaire Outlook 365. Au cours de ce processus, vous pouvez spécifier un projet auquel vous souhaitez ajouter la tâche ou le problème, ainsi qu’une personne désignée et une date d’échéance. Avant cette amélioration, vous ne pouviez envoyer qu’une requête à une file d’attente de requêtes ou ajouter une tâche personnelle à votre liste Travailler sur à partir d’Outlook 365. 
 * Conserver un lien vers les objets Workfront dans l’email d’origine converti en tâches, problèmes ou requêtes : lorsque vous convertissez un email d’Outlook 365 en tâche, problème ou requête, Outlook 365 conserve un lien vers la tâche ou le problème converti à partir de cet email dans l’email d’origine. Avant cette modification, Outlook n’indiquait pas si un courrier électronique avait été converti en tâche ou envoyé en tant que requête. 
 
-  Pour plus d’informations sur la conversion d’un email en une tâche ou d’un problème à partir d’Outlook 365, voir [Ajout d’un courrier électronique Outlook à un projet en tant que tâche ou problème](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
+  Pour plus d’informations sur la conversion d’un courrier électronique en tâche ou sur un problème provenant d’Outlook 365, voir [Ajout d’un courrier électronique Outlook à un projet en tant que tâche ou problème](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
 
 ## Modifications des API {#api-changes}
 
 * [API 8 désormais disponible](#api-8-now-available)
 * [Versions supprimées et obsolètes de l’API](#removed-and-deprecated-versions-of-the-api)
-* [Activité Version finale de la version 2017.3 bêta](#updated-message-format-for-event-subscriptions)
+* [2017.3 Activité Version finale de Beta](#updated-message-format-for-event-subscriptions)
 * [Reprises d’abonnement à un événement pour les messages en échec](#event-subscription-retries-for-undeliverable-messages)
 
 ### API 8 désormais disponible {#api-8-now-available}
@@ -472,7 +472,7 @@ Pour obtenir la liste des modifications apportées à l’API Workfront, voir [M
 
 ### Mise à jour du format de message pour les abonnements à un événement
 
-Afin de fournir des informations plus utiles pour vos intégrations qui incluent l’API d’abonnements aux événements Workfront, nous avons modifié le format du message sortant pour les ressources prises en charge en incluant les anciennes et nouvelles valeurs associées à ces ressources. Pour éviter tout échec, toutes les intégrations que vous avez à l’aide de l’API des abonnements aux événements de Workfront doivent être mises à jour dans le nouveau format, comme décrit dans la section [API d’abonnement à un événement](../../../../wf-api/general/event-subs-api.md).
+Afin de fournir des informations plus utiles pour vos intégrations qui incluent l’API d’abonnements aux événements Workfront, nous avons modifié le format du message sortant pour les ressources prises en charge en incluant les anciennes et nouvelles valeurs associées à ces ressources. Pour éviter tout échec, toutes les intégrations que vous avez à l’aide de l’API d’abonnements aux événements Workfront devront être mises à jour dans le nouveau format, comme décrit dans [API d’abonnement à un événement](../../../../wf-api/general/event-subs-api.md).
 
 ### Reprises d’abonnement à un événement pour les messages en échec {#event-subscription-retries-for-undeliverable-messages}
 

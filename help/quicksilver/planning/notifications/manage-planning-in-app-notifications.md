@@ -8,7 +8,7 @@ exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 10%
+ht-degree: 29%
 
 ---
 
@@ -22,7 +22,7 @@ Lorsqu’une personne vous balise dans un commentaire d’enregistrement, vous p
 >
 >Votre entreprise doit être un client Adobe Unified Experience pour pouvoir recevoir des notifications de Workfront Planning.
 >
->Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Pour plus d’informations sur le balisage des autres dans un commentaire d’enregistrement, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
 
@@ -42,9 +42,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <p> Produit</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Pour recevoir des notifications de Workfront Planning, l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p></td>
+   <p>Pour recevoir des notifications de Workfront Planning, l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -64,19 +64,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès dans la planification Workfront. </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès dans Workfront Planning. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Affichage ou autorisations supérieures à un espace de travail</a> </p>  
-   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
+   <td> <p>Autorisations d’affichage ou supérieures pour un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Votre administrateur ou administratrice Workfront ou de groupes doit ajouter la zone Planning dans votre modèle de disposition. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -85,7 +85,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Gestion des notifications in-app
 
-1. (Conditionnel) Une fois qu’un utilisateur vous a marqué dans un commentaire sur un enregistrement, accédez à la variable in-app **Notifications** icon ![](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
+1. (Conditionnel) Après qu’un utilisateur vous ait marqué dans un commentaire sur un enregistrement, accédez à l’icône **Notifications** in-app ![](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 
@@ -94,4 +94,4 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    La page des détails de l’enregistrement s’ouvre dans Workfront Planning. Vous pouvez mettre à jour l’enregistrement ou répondre au commentaire.
 
 1. (Facultatif) Cliquez sur **Tout marquer comme lu** pour indiquer que vous avez lu toutes les notifications.
-1. (Facultatif) Cliquez sur **Afficher tout** pour accéder au **Notifications** dans Adobe Experience Cloud.
+1. (Facultatif) Cliquez sur **Afficher tout** pour accéder à la page **Notifications** dans Adobe Experience Cloud.

@@ -41,7 +41,7 @@ Après avoir établi la connexion entre les enregistrements ou les types d’obj
 
 Pour plus d’informations sur la connexion d’un enregistrement Adobe Workfront Planning à un objet à partir d’une autre application, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
-Pour un exemple de connexion des types d’enregistrements et des enregistrements, reportez-vous à la section [Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+Pour un exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements, voir [Exemple de connexion de types d&#39;enregistrements et d&#39;enregistrements](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -60,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>
    <p> Produit</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrements Adobe Workfront Planning à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée de l’Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p> </td>
+   <p> Adobe Workfront</p> <p>Pour connecter les types d’enregistrements Adobe Workfront Planning à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée de l’Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p> </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
@@ -100,7 +100,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -152,14 +152,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
      Par exemple, si vous connectez le type d’enregistrement « Campagne » au type d’enregistrement « Produit », un champ d’enregistrement lié que vous nommez « Produit lié » est créé dans le type d’enregistrement « Campagne » et un type d’enregistrement lié automatiquement nommé « Campagne » est créé dans le type d’enregistrement « Produit ».
 
-   * **Lorsque vous connectez un type d’enregistrement à un type d’objet d’une autre application**:
+   * **Lorsque vous connectez un type d&#39;enregistrement à un type d&#39;objet à partir d&#39;une autre application** :
 
       * Un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Aucun champ d’enregistrement lié n’est automatiquement créé sur le type d’objet de l’autre application.
 
       * La planification des champs d’enregistrement n’est pas accessible à partir des objets Workfront.
       * La planification des champs d’enregistrement est accessible à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
 
-   * **Lorsque vous ajoutez des champs liés (ou de recherche) de l’enregistrement ou de l’objet auquel vous vous connectez.**: vous pouvez connecter des champs de l’objet de l’autre application au type d’enregistrement de la planification Workfront. Les champs liés sont en lecture seule et affichent automatiquement les informations des enregistrements ou des objets connectés lorsque vous connectez les enregistrements ou les objets.
+   * **Lorsque vous ajoutez des champs liés (ou de recherche) de l’enregistrement ou de l’objet auquel vous vous connectez** : vous pouvez connecter des champs de l’objet de l’autre application au type d’enregistrement de la planification Workfront. Les champs liés sont en lecture seule et affichent automatiquement les informations des enregistrements ou des objets connectés lorsque vous connectez les enregistrements ou les objets.
 
      Par exemple, si vous connectez le type d’enregistrement « Campagne » à un projet Workfront et que vous choisissez d’intégrer le champ Date d’achèvement prévue du projet à l’enregistrement Workfront Planning, un champ lié nommé Date d’achèvement prévue (du projet) est automatiquement créé pour la campagne. Vous ne pouvez pas modifier manuellement ce champ lié. Le champ Date d’achèvement prévue (du projet) affiche la date d’achèvement prévue des projets liés.
 
@@ -241,13 +241,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Votre administrateur Workfront peut mapper les champs de planification Workfront aux champs Experience Manager Assets par le biais du mappage des métadonnées dans Workfront. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
 
-1. (Conditionnel) Si vous avez choisi de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, désactivez la variable **Titre** bascule dans le **Apparence d’enregistrement** , si vous ne souhaitez pas que le titre des enregistrements ou ressources connectés s’affiche dans le champ lié. Lorsque cette option est désactivée, seules les miniatures des enregistrements s’affichent dans les champs liés. Les enregistrements sans miniature affichent une icône d’image à la place. Le bouton bascule est activé par défaut. Un exemple d’affichage des enregistrements connectés dans la section **Apparence d’enregistrement** zone.
+1. (Conditionnel) Si vous avez choisi de vous connecter à Experience Manager Assets ou à un type d’enregistrement Workfront Planning, désactivez l’option **Titre** dans la zone **Apparence d’enregistrement**, si vous ne souhaitez pas que le titre des enregistrements ou des ressources connectés s’affiche dans le champ lié. Lorsque cette option est désactivée, seules les miniatures des enregistrements s’affichent dans les champs liés. Les enregistrements sans miniature affichent une icône d’image à la place. Le bouton bascule est activé par défaut. Un exemple d’affichage des enregistrements connectés s’affiche dans la zone **Apparence des enregistrements**.
 
    >[!TIP]
    >
    >    Lorsque vous autorisez le lien de plusieurs enregistrements, l’affichage de la miniature peut économiser de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >Le titre d’un enregistrement est le champ principal de l’enregistrement. Pour plus d’informations, voir [Champ Principal - Aperçu](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >Le titre d’un enregistrement est le champ principal de l’enregistrement. Pour plus d’informations, voir [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur **Créer**.
 
@@ -268,7 +268,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >    Toute personne disposant d’autorisations d’affichage ou supérieures sur l’espace de travail peut afficher les informations dans les champs liés, indépendamment de ses autorisations ou de son niveau d’accès dans l’application des types d’objets liés.
 
 
-1. (Facultatif) Cliquez sur **Ignorer** pour ignorer l’ajout de champs à partir de l’enregistrement ou du type d’objet lié. La variable **Nom** ou le **Titre** de l’enregistrement lié est le seul champ visible dans la vue table du type d’enregistrement à partir duquel vous vous connectez.
+1. (Facultatif) Cliquez sur **Ignorer** pour ignorer l’ajout de champs à partir de l’enregistrement ou du type d’objet lié. Le **Nom** ou le **Titre** de l’enregistrement lié est le seul champ visible dans la vue de table du type d’enregistrement à partir duquel vous vous connectez.
 
 1. (Facultatif et conditionnel) Si vous choisissez de lier un champ de type nombre, devise, pourcentage ou date, sélectionnez également une valeur d’agrégateur pour résumer plusieurs valeurs. Les valeurs des champs liés s&#39;affichent soit séparés par des virgules, soit sous la forme d&#39;une valeur résumée selon l&#39;agrégateur que vous choisissez, lorsque les utilisateurs sélectionnent plusieurs enregistrements liés dans le champ d&#39;enregistrement lié.
 
@@ -297,7 +297,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * **MIN** : affiche la valeur la plus basse parmi toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ d’enregistrement lié.
    * **SOM**: affiche le total de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ d’enregistrement lié.
    * **MOY** : affiche la moyenne de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ d’enregistrement lié.
-   * **UNIQUE**: supprime les doublons des valeurs de champ de recherche et affiche uniquement les valeurs uniques. Cette option n’est pas disponible pour les types de champ suivants :
+   * **UNIQUE** : supprime les doublons des valeurs de champ de recherche et n’affiche que les valeurs uniques. Cette option n’est pas disponible pour les types de champ suivants :
       * Paragraphe
       * Case à cocher
       * Personnes
@@ -306,12 +306,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Vous pouvez, par exemple, lier l’enregistrement Produit (enregistrement lié) de l’enregistrement Campagne (enregistrement d’origine) et le nommer « champ de produit ». Vous pouvez également choisir de lier le champ Budget de l’enregistrement Produit à partir de l’enregistrement Campagne et de l’appeler « Budget produit ». Si vous avez le droit de sélectionner plusieurs enregistrements dans le &quot;champ Produit&quot;, vous pouvez sélectionner le Produit 1 dont le budget est de 100 000 € et le Produit 2 dont le budget est de 110 000 €, et le Produit 3 dont le budget est de 100 000 €. Vous pouvez afficher les informations budgétaires suivantes dans le champ lié à partir de l’enregistrement d’origine, en fonction de l’agrégateur choisi :
    >
-   >* **Aucun**: 100 000 $, 110 000 $, 100 000 $
-   >* **MAX**: 110 000 $
+   >* **Aucun** : 100 000 $, 110 000 $, 100 000 $
+   >* **MAX** : 110 000 $
    >* **MIN** : 100 000 €
-   >* **SUM**: 310 000 $
-   >* **AVG**: 103 000,33 $
-   >* **UNIQUE**: 100 000 $
+   >* **SUM** : 310 000 $
+   >* **AVG** : 103 000,33 $
+   >* **UNIQUE** : 100 000 $
    >
 
 1. (Facultatif) Utilisez l’icône **rechercher** ![](assets/search-icon.png) pour rechercher un champ.
@@ -322,7 +322,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Champ de l’enregistrement lié au type d’enregistrement à partir duquel vous créez un lien. Le champ d’enregistrement lié affiche les enregistrements individuels du type d’enregistrement lié, une fois que vous les avez ajoutés manuellement. Pour plus d’informations sur l’ajout d’enregistrements, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md). Le nom du champ d’enregistrement lié est le nom que vous avez sélectionné à l’étape 7. <!--accurate-->
 
-   * Champ (ou champ) lié(e) qui affiche des informations sur l’enregistrement ou les types d’objet liés après avoir ajouté manuellement les enregistrements ou les objets dans le champ d’enregistrement lié. Les champs de recherche ne sont créés que lorsque la variable **Sélectionner les champs de recherche** est sélectionné lors de la création de la connexion. Les champs de recherche sont automatiquement nommés selon ce modèle :
+   * Champ (ou champ) lié(e) qui affiche des informations sur l’enregistrement ou les types d’objet liés après avoir ajouté manuellement les enregistrements ou les objets dans le champ d’enregistrement lié. Les champs de recherche ne sont créés que lorsque le paramètre **Sélectionner les champs de recherche** est sélectionné lors de la création de la connexion. Les champs de recherche sont automatiquement nommés selon ce modèle :
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
@@ -338,7 +338,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Facultatif et le cas échéant) À partir de la vue de tableau du type d’enregistrement d’origine ou d’enregistrement lié, cliquez sur la flèche du bas dans l’en-tête des champs d’enregistrement liés, puis sélectionnez l’une des options suivantes :
 
-   * **Champ Modifier**: vous pouvez mettre à jour la variable **Nom** et la variable **Description** informations du champ.
+   * **Modifier le champ** : vous pouvez mettre à jour le **nom** et les informations **Description** du champ.
    * **Modifier les champs de recherche** : ajoutez ou supprimez l’un des champs de l’enregistrement lié.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

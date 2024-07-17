@@ -11,7 +11,7 @@ exl-id: a08c18a0-1797-4126-827a-1ea7e11d4bad
 source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -19,56 +19,56 @@ ht-degree: 0%
 
 Lorsque des erreurs se produisent lors de l’exécution d’un scénario, c’est généralement parce qu’un service n’est pas disponible en raison d’un échec, qu’il répond avec des données inattendues ou que la validation des données d’entrée échoue.
 
-Si un module renvoie une erreur lors de l’exécution du scénario et qu’aucun itinéraire de gestion des erreurs n’est associé au module, la logique de gestion des erreurs par défaut s’exécute, comme décrit dans la section [Traitement des erreurs dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
+Si un module renvoie une erreur lors de l’exécution du scénario et qu’aucun itinéraire de gestion des erreurs n’est associé au module, la logique de gestion des erreurs par défaut s’exécute, comme décrit dans [Traitement des erreurs dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
 
-En ajoutant un itinéraire de gestionnaire d’erreurs à un module, vous pouvez remplacer la logique de gestion des erreurs par défaut par la vôtre. [!DNL Adobe Workfront Fusion] propose cinq directives différentes qui peuvent être insérées à la fin des itinéraires de votre gestionnaire d’erreurs.
+En ajoutant un itinéraire de gestionnaire d’erreurs à un module, vous pouvez remplacer la logique de gestion des erreurs par défaut par la vôtre. [!DNL Adobe Workfront Fusion] offre cinq directives différentes qui peuvent être insérées à la fin de vos itinéraires de gestionnaire d’erreurs.
 
-Pour plus d’informations, voir [Directives de gestion des erreurs dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
+Pour plus d’informations, voir [Directives pour la gestion des erreurs dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
    <td> <p>[!DNL Pro] ou supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Itinéraire du gestionnaire d’erreurs
 
 Pour ajouter un itinéraire de gestionnaire d’erreurs à un module :
 
-1. Cliquez avec le bouton droit sur le module et sélectionnez **[!UICONTROL Ajouter un gestionnaire d’erreurs]**:
+1. Cliquez avec le bouton droit sur le module et sélectionnez **[!UICONTROL Ajouter un gestionnaire d’erreurs]** :
 
    ![](assets/error-handler-route.png)
 
@@ -80,14 +80,14 @@ Pour ajouter un itinéraire de gestionnaire d’erreurs à un module :
 
    Ajoutez un ou plusieurs modules à l’itinéraire du gestionnaire d’erreurs.
 
-   Si vous ajoutez d’autres modules à l’itinéraire, la variable [!UICONTROL Ignorer] est appliquée par défaut et, en cas d’erreur, les modules suivants sur cet itinéraire sont traités.
+   Si vous ajoutez d’autres modules à l’itinéraire, la directive [!UICONTROL Ignorer] est appliquée par défaut et, en cas d’erreur, les modules suivants sur cet itinéraire sont traités.
 
 
 >[!INFO]
 >
->Dans cet exemple, si une erreur se produit lors de l’exécution de la variable [!UICONTROL Création d’un dossier] , [!UICONTROL Ignorer] est appliquée automatiquement et le scénario passe au module suivant sur l’itinéraire du gestionnaire d’erreurs.
+>Dans cet exemple, si une erreur se produit lors de l&#39;exécution du module [!UICONTROL Créer un dossier], la directive [!UICONTROL Ignorer] est appliquée automatiquement et le scénario se déplace vers le module suivant sur l&#39;itinéraire du gestionnaire d&#39;erreurs.
 >
->En revanche, en l’absence d’erreur, le scénario se déplace vers le [!UICONTROL Liste de tous les fichiers dans un module de dossiers] sur la route normale.
+>Cependant, s’il n’y a aucune erreur, le scénario se déplace vers le [!UICONTROL List all files in a folder module] sur l’itinéraire normal.
 >
 >![](assets/if-there-is-no-error-350x234.png)
 
@@ -95,20 +95,20 @@ Notez qu’un itinéraire de gestionnaire d’erreurs est composé de cercles tr
 
 ## Instructions de gestion des erreurs
 
-Les directives sont brièvement expliquées ci-dessous. Pour plus d’informations, voir [Directives de gestion des erreurs dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
+Les directives sont brièvement expliquées ci-dessous. Pour plus d’informations, voir [Directives pour la gestion des erreurs dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
 Cinq directives au total peuvent être regroupées dans les catégories suivantes selon qu&#39;une exécution de scénario doit se poursuivre ou non.
 
 Les directives suivantes garantissent qu’une exécution de scénario se poursuit :
 
-* **[!UICONTROL Reprendre]**: Permet de spécifier une sortie de substitution pour le module avec l’erreur. L’état d’exécution du scénario est marqué comme succès.
-* **[!UICONTROL Ignorer]**: ignore l’erreur. L’état d’exécution du scénario est marqué comme succès.
-* **[!UICONTROL Rompre]**: Stocke l’entrée dans la file d’attente des exécutions incomplètes. L’état d’exécution du scénario est marqué comme avertissement. Pour plus d’informations, voir [Afficher et résoudre les exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+* **[!UICONTROL Reprendre]** : permet de spécifier une sortie de substitution pour le module avec l’erreur. L’état d’exécution du scénario est marqué comme succès.
+* **[!UICONTROL Ignorer]** : ignore l’erreur. L’état d’exécution du scénario est marqué comme succès.
+* **[!UICONTROL Break]** : stocke l’entrée dans la file d’attente des exécutions incomplètes. L’état d’exécution du scénario est marqué comme avertissement. Pour plus d’informations, voir [Affichage et résolution d’exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 Si l’exécution d’un scénario doit s’arrêter en cas d’erreur, utilisez l’une des directives suivantes :
 
-* **[!UICONTROL Retour arrière]**: Arrête immédiatement l’exécution du scénario et marque son état d’erreur
-* **[!UICONTROL Commit]**: Arrête immédiatement l’exécution du scénario et marque son statut de succès.
+* **[!UICONTROL Rollback]** : arrête immédiatement l’exécution du scénario et marque son statut d’erreur
+* **[!UICONTROL Commit]** : arrête immédiatement l’exécution du scénario et marque son statut de succès.
 
 Pour plus d’informations sur la gestion des erreurs, voir :
 

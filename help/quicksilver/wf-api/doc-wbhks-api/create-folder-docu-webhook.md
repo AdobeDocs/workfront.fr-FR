@@ -2,8 +2,8 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Création d’un dossier avec des webhooks de document
-description: Création d’un dossier avec des webhooks de document
+title: Créer un dossier avec Document Webhooks
+description: Créer un dossier avec Document Webhooks
 author: Becky
 feature: Workfront API
 role: Developer
@@ -11,12 +11,12 @@ exl-id: 50905915-58c9-4b50-b8a1-133833884a88
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 7%
+ht-degree: 33%
 
 ---
 
 
-# Création d’un dossier avec des webhooks de document
+# Créer un dossier avec Document Webhooks
 
 Crée un dossier dans un répertoire donné.
 

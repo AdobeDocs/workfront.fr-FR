@@ -1,6 +1,6 @@
 ---
-title: 21.4 Améliorations apportées au projet
-description: 21.4 Améliorations apportées au projet
+title: Améliorations apportées aux projets (version 21.4)
+description: Améliorations apportées aux projets (version 21.4)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 21.4 Améliorations apportées au projet
+# Améliorations apportées aux projets (version 21.4)
 
 Cette page décrit toutes les améliorations apportées aux projets avec la version 21.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 4 octobre 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, voir [Présentation de la version 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, reportez-vous à la [21.4 Release Overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Inclure des images dans les mises à jour
 
@@ -27,9 +27,9 @@ Vous pouvez ajouter des images dans les mises à jour et les réponses. Une mini
 
 Auparavant, le seul moyen de partager une image dans Workfront était de la joindre à un objet en tant que document. Les images ajoutées sous l’onglet Mises à jour ne sont disponibles que dans cet onglet et non dans l’onglet Documents .
 
-Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations, consultez la section [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Pour que les utilisateurs de Workfront puissent inclure des images dans les mises à jour, cette fonction doit d’abord être activée par l’administrateur Adobe Workfront, comme décrit dans la section [Configuration des préférences pour les mises à jour des utilisateurs](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+Avant que les utilisateurs de Workfront puissent inclure des images dans les mises à jour, cette fonctionnalité doit d’abord être activée par l’administrateur Adobe Workfront, comme décrit dans la section [Configuration des préférences pour les mises à jour des utilisateurs](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
 ## Algorithme mis à jour pour les affectations intelligentes
 
@@ -37,7 +37,7 @@ Nous avons amélioré l’algorithme utilisé lors d’affectations intelligente
 
 Avant cette amélioration, Workfront prenait en compte les affectations sur les tâches parents et d’autres attributs utilisateur associés à ces affectations lors de la suggestion d’utilisateurs.
 
-Pour plus d’informations sur les affectations intelligentes, voir [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Pour plus d’informations sur les affectations intelligentes, voir [Présentation des affectations dynamiques](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Nouvelle expérience lors de la création d’un projet à partir d’un modèle
 
@@ -48,7 +48,7 @@ Pour que votre utilisation de Workfront soit cohérente avec la nouvelle expéri
 
 Nous avons mis à jour l’interface de création du projet, à la fois lorsque vous le créez à partir des projets et de la zone Modèles .
 
-Pour plus d’informations, [Créer un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Pour plus d’informations, [Créez un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Nouvelle expérience lors de l’association de modèles à des projets
 
@@ -87,7 +87,7 @@ Pour vous assurer que les utilisateurs fournissent des informations précises lo
 >
 >Ce paramètre est disponible uniquement dans la nouvelle expérience Workfront. Les utilisateurs qui travaillent dans Workfront Classic peuvent toujours ajouter des problèmes à un projet ou à ses tâches, même si ce paramètre a été désactivé pour le projet par un utilisateur qui travaille dans la nouvelle expérience Workfront.
 
-Pour plus d’informations, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+Pour plus d’informations, consultez la section [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Amélioration de l’affichage des champs personnalisés pour les cases à cocher et les boutons radio
 
@@ -97,5 +97,5 @@ Cela dépend de la position des champs dans le formulaire personnalisé. Si vous
 
 Pour plus d’informations sur le remplissage d’un formulaire personnalisé, voir [Modifier les informations dans les champs de formulaire personnalisés](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-Pour plus d’informations sur la création d’une case à cocher ou d’un champ de bouton radio dans un formulaire personnalisé, consultez les sections [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) et [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) dans l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations sur la création d’une case à cocher ou d’un champ de bouton radio dans un formulaire personnalisé, reportez-vous aux sections [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) et [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) de l’article [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

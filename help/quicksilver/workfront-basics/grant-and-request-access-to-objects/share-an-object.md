@@ -19,11 +19,11 @@ ht-degree: 3%
 
 Votre administrateur Adobe Workfront permet aux utilisateurs d’afficher ou de modifier des objets lorsqu’ils attribuent des niveaux d’accès. Pour plus d’informations sur l’octroi de l’accès aux objets, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Outre le niveau d’accès qui est accordé aux utilisateurs, vous pouvez leur accorder des autorisations pour afficher ou modifier des objets spécifiques que vous avez créés ou que vous avez accès au partage. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Outre le niveau d’accès qui est accordé aux utilisateurs, vous pouvez leur accorder des autorisations pour afficher ou modifier des objets spécifiques que vous avez créés ou que vous avez accès au partage. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Comment les niveaux d’accès et les autorisations fonctionnent ensemble](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Les autorisations sont spécifiques à un élément dans Workfront et définissent les actions que vous pouvez effectuer sur cet élément.
 
-Pour plus d’informations sur le partage des autorisations sur les objets, voir [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Pour plus d’informations sur le partage des autorisations sur les objets, voir [Présentation des droits de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Cet article décrit comment partager les objets suivants :
 
 Pour plus d’informations sur le partage de tous les autres objets dans Workfront, reportez-vous également aux articles suivants :
 
-* Pour les modèles, voir [Partage de modèles de projet](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* Pour les modèles, voir [Partager des modèles de projet](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 * Pour les bons à tirer, voir [Partage d’un bon à tirer dans Workfront Proof](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 * Pour les rapports, les tableaux de bord et les calendriers, reportez-vous aux articles suivants :
 
@@ -45,11 +45,11 @@ Pour plus d’informations sur le partage de tous les autres objets dans Workfro
    * [Partager un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Partager un rapport de calendrier](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-  En outre, voir [Partage de rapports, de tableaux de bord et de calendriers](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) pour obtenir des informations générales sur le partage de rapports, de tableaux de bord et de calendriers.
+  Consultez également la section [ Partage de rapports, de tableaux de bord et de calendriers](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) pour obtenir des informations générales sur le partage de rapports, de tableaux de bord et de calendriers.
 
 * Pour les filtres, les vues et les regroupements, voir [Partager un filtre, une vue ou un regroupement](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * Pour les dossiers de documents, voir [Partage d’un dossier de document](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
-* Pour les plans, voir [Partage d’un plan dans le planificateur de scénarios](../../scenario-planner/share-a-plan.md).
+* Pour les plans, voir [Partager un plan dans le planificateur de scénario](../../scenario-planner/share-a-plan.md).
 
   Cela nécessite une licence supplémentaire.
 
@@ -69,9 +69,9 @@ Pour partager des objets, vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle licence : Standard</p> 
+   <td> <p>Nouvelle licence : standard</p> 
    Ou
-   <p>Licence actuelle : travail ou version ultérieure</p>
+   <p>Licence actuelle : travail ou supérieure</p>
    </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    ![](assets/new-share-button.png)
 
-1. Dans le **Accorder &lt; nom de l’objet > l’accès à** , commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager l’objet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans la zone **Accorder l’accès à &lt; nom d’objet >**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager l’objet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
 
@@ -116,13 +116,13 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    ![](assets/new-share-permissions-dropdown.png)
 
-   Pour supprimer des autorisations d’un objet, voir [Suppression des autorisations des objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+   Pour supprimer des autorisations d’un objet, voir [Suppression des autorisations d’objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
    Les options disponibles sont les suivantes :
 
-   * **Afficher :** Les utilisateurs peuvent réviser et partager l’élément.
-   * **Contribution**: les utilisateurs peuvent effectuer des mises à jour, consigner des informations, effectuer des modifications mineures et partager, ainsi que toutes les autorisations d’affichage.
-   * **Gérer :** Les utilisateurs disposent d’un accès complet à l’objet sans droits d’administration (qui sont accordés au niveau de l’accès). En outre, ils disposent de toutes les autorisations Afficher et Contribuer .
+   * **Vue :** Les utilisateurs peuvent consulter et partager l’élément.
+   * **Contribute** : les utilisateurs peuvent effectuer des mises à jour, consigner des informations, effectuer des modifications mineures et partager, ainsi que toutes les autorisations d’affichage.
+   * **Gérer :** Les utilisateurs ont un accès complet à l’objet sans droits d’administration (qui sont accordés au niveau de l’accès). Ils disposent également de toutes les autorisations d’affichage et de Contribute.
 
      >[!NOTE]
      >
@@ -132,16 +132,16 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   Les options d’affichage, de gestion et de contribution sont différentes selon l’objet sélectionné.\
-   Pour plus d’informations sur les niveaux d’autorisation, voir [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   Les options d’affichage, de gestion et de Contribute sont différentes selon l’objet sélectionné.\
+   Pour plus d’informations sur les niveaux d’autorisation, voir [Présentation des droits de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. (Facultatif) Pour rendre cet objet disponible pour tous les utilisateurs du système, cliquez sur le menu déroulant sous **Qui a accès**, puis, dans le menu déroulant, cliquez sur **Tout le monde dans le système peut voir**.
+1. (Facultatif) Pour rendre cet objet disponible pour tous les utilisateurs du système, cliquez sur le menu déroulant sous **Qui a accès à**, puis, dans le menu déroulant, cliquez sur **Tout le monde dans le système peut afficher**.
 
    ![](assets/new-share-everyone-access.png)
 
    Tous les utilisateurs peuvent voir l’objet en fonction des autorisations que vous avez définies.
 
-1. (Facultatif et conditionnel) Lors du partage d’un projet, cliquez sur l’icône **Gear** icon ![](assets/gear-icon-settings.png), puis cochez la case en regard de **Défini comme modèle d’accès à mon projet** pour définir les autorisations en tant que modèle.
+1. (Facultatif et conditionnel) Lors du partage d’un projet, cliquez sur l’icône **engrenage** ![](assets/gear-icon-settings.png), puis cochez la case en regard de **Définir comme modèle d’accès au projet** pour définir les autorisations en tant que modèle.
 
    Une fois que vous avez défini des autorisations sur un projet, ces mêmes autorisations sont automatiquement appliquées la prochaine fois que vous créez un projet à partir de zéro.
 
@@ -181,11 +181,11 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    Pour les documents :
 
-   Cliquez sur le bouton **Plus** icon ![](assets/more-icon.png) en regard du nom de l’objet, puis cliquez sur **Partager**.
+   Cliquez sur l’icône **Plus** ![](assets/more-icon.png) en regard du nom de l’objet, puis cliquez sur **Partager**.
 
    ![](assets/share-a-document-350x160.png)
 
-1. Dans le **Accédez à &lt; Nom de l’objet > à** , commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager l’objet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans la zone **Accorder l’accès à &lt; Nom de l’objet >**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager l’objet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
 
@@ -204,12 +204,12 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 1. Spécifiez les autorisations pour chaque utilisateur, équipe, rôle, groupe ou société que vous avez ajouté à l’étape 3 en cliquant sur le menu déroulant, puis en sélectionnant le niveau d’autorisation à accorder.
 
-   Pour supprimer des autorisations d’un objet, voir [Suppression des autorisations des objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+   Pour supprimer des autorisations d’un objet, voir [Suppression des autorisations d’objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
    Les options disponibles sont les suivantes :
 
-   * **Afficher :** Les utilisateurs peuvent réviser et partager l’élément.
-   * **Gérer :** Les utilisateurs disposent d’un accès complet à l’objet sans droits d’administration (qui sont accordés au niveau de l’accès). En outre, ils disposent de toutes les autorisations Afficher et Contribuer .
+   * **Vue :** Les utilisateurs peuvent consulter et partager l’élément.
+   * **Gérer :** Les utilisateurs ont un accès complet à l’objet sans droits d’administration (qui sont accordés au niveau de l’accès). Ils disposent également de toutes les autorisations d’affichage et de Contribute.
 
      >[!NOTE]
      >
@@ -219,16 +219,16 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 1. (Facultatif) Cliquez sur **Paramètres avancés** pour configurer des autorisations spécifiques sur l’objet.
 
-   Les options d’affichage, de gestion et de contribution sont différentes selon l’objet sélectionné.\
+   Les options d’affichage, de gestion et de Contribute sont différentes selon l’objet sélectionné.\
    Pour plus d’informations sur les niveaux d’autorisation, voir [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
    ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
-1. (Facultatif) Pour rendre cet objet disponible pour tous les utilisateurs du système, cliquez sur le bouton **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg), puis, dans le menu déroulant, cliquez sur **rendre visible à l’échelle du système ;**.
+1. (Facultatif) Pour rendre cet objet disponible pour tous les utilisateurs du système, cliquez sur l’icône **Gear** ![](assets/gear-icon-settings-with-dn-arrow.jpg), puis, dans le menu déroulant, cliquez sur **Rendre cet objet visible à l’échelle du système**.
 
    Tous les utilisateurs peuvent voir l’objet en fonction des autorisations que vous avez définies.
 
-1. (Facultatif) Pour rendre l’objet public, cliquez sur **Rendre ceci public aux utilisateurs externes**.
+1. (Facultatif) Pour rendre l’objet public, cliquez sur **Rendre public aux utilisateurs externes**.
 
    >[!TIP]
    >
@@ -236,7 +236,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
 
-1. (Conditionnel) Si vous avez rendu l’objet public aux utilisateurs externes, cliquez sur **lien de copie**, puis distribuez le lien aux utilisateurs externes.
+1. (Conditionnel) Si vous avez rendu l’objet public aux utilisateurs externes, cliquez sur **Copier le lien**, puis distribuez le lien aux utilisateurs externes.
 
    Tous les utilisateurs disposant du lien peuvent afficher l’objet .
 
@@ -252,11 +252,11 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    Pour plus d’informations sur les objets qui peuvent être partagés, voir [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Cochez la case en regard du ou des objets que vous souhaitez partager, puis cliquez sur le bouton **Icône Partager** ![](assets/share-icon.png) en haut de la page.
+1. Cochez la case en regard du ou des objets que vous souhaitez partager, puis cliquez sur l’icône **Partager** ![](assets/share-icon.png) en haut de la page.
 
    ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
 
-1. Dans le **&lt; Objet > Accès** s’affiche, commencez à saisir dans la **Modifier &lt; Nom de l’objet > accéder à** indiquez le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager le ou les objets, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans la fenêtre **&lt; Objet > Accès** , commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lesquels vous souhaitez partager le ou les objets, dans la zone **Modifier le nom de l’objet > accéder à**, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
 
@@ -273,25 +273,25 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 1. Spécifiez les autorisations pour chaque utilisateur, équipe, rôle, groupe ou société que vous avez ajouté à l’étape 3 en cliquant sur le menu déroulant à droite de son nom, puis en sélectionnant le niveau d’autorisation que vous souhaitez accorder.
 
-   Pour supprimer des autorisations d’un objet, voir [Suppression des autorisations des objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+   Pour supprimer des autorisations d’un objet, voir [Suppression des autorisations d’objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
    ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    Les options disponibles sont les suivantes :
 
-   * **Afficher :** Les utilisateurs peuvent réviser et partager l’élément.
-   * **Contribution**: les utilisateurs peuvent effectuer des mises à jour, consigner des informations, effectuer des modifications mineures et partager, ainsi que toutes les autorisations d’affichage.
+   * **Vue :** Les utilisateurs peuvent consulter et partager l’élément.
+   * **Contribute** : les utilisateurs peuvent effectuer des mises à jour, consigner des informations, effectuer des modifications mineures et partager, ainsi que toutes les autorisations d’affichage.
 
      >[!TIP]
      >
-     >Vous ne pouvez accorder des autorisations de contribution qu’aux objets suivants :
+     >Vous ne pouvez accorder des autorisations Contribute qu’aux objets suivants :
      >
      >   * Projets
      >   * Tâches
      >   * Problèmes
      >  
 
-   * **Gérer :** Les utilisateurs disposent d’un accès complet à l’objet sans droits d’administration (qui sont accordés au niveau de l’accès). En outre, ils disposent de toutes les autorisations Afficher et Contribuer .
+   * **Gérer :** Les utilisateurs ont un accès complet à l’objet sans droits d’administration (qui sont accordés au niveau de l’accès). Ils disposent également de toutes les autorisations d’affichage et de Contribute.
 
      >[!NOTE]
      >
@@ -299,16 +299,16 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 1. (Facultatif) Cliquez sur **Paramètres avancés** pour configurer des autorisations spécifiques sur l’objet.
 
-   Les options d’affichage, de gestion et de contribution sont différentes selon l’objet sélectionné.\
+   Les options d’affichage, de gestion et de Contribute sont différentes selon l’objet sélectionné.\
    Pour plus d’informations sur les niveaux d’autorisation, voir [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
    ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
-1. (Facultatif) Pour rendre cet objet disponible pour tous les utilisateurs du système, cliquez sur le bouton **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) , puis, dans le menu déroulant, cliquez sur **rendre visible à l’échelle du système ;**.
+1. (Facultatif) Pour rendre cet objet disponible pour tous les utilisateurs du système, cliquez sur l’icône **Gear** ![](assets/gear-icon-settings-with-dn-arrow.jpg) , puis, dans le menu déroulant, cliquez sur **Rendre cet objet visible à l’échelle du système**.
 
    Tous les utilisateurs peuvent voir le ou les objets en fonction des autorisations que vous avez définies.
 
-1. (Facultatif et conditionnel) Lors du partage d’un projet, cliquez sur l’icône **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg), puis, dans le menu déroulant, cliquez sur **Défini comme modèle d’accès à mon projet** pour définir les autorisations en tant que modèle.
+1. (Facultatif et conditionnel) Lors du partage d’un projet, cliquez sur l’icône **engrenage** ![](assets/gear-icon-settings-with-dn-arrow.jpg), puis, dans le menu déroulant, cliquez sur **Définir comme modèle d’accès au projet** pour définir les autorisations en tant que modèle.
 
    Une fois que vous avez défini des autorisations sur un projet, ces mêmes autorisations sont automatiquement appliquées la prochaine fois que vous créez un projet à partir de zéro.
 
@@ -322,7 +322,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    Vous pouvez spécifier des autorisations sur les projets qui seront créés à partir d’un modèle lorsque vous partagez le modèle. Pour plus d’informations, voir [Partage de modèles de projet](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Facultatif) Pour rendre le ou les objets publics, cliquez sur **Rendre ceci public aux utilisateurs externes**.
+1. (Facultatif) Pour rendre le ou les objets publics, cliquez sur **Rendre public aux utilisateurs externes**.
 
    >[!TIP]
    >
@@ -330,7 +330,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
    ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
 
-1. (Conditionnel) Si vous avez rendu les objets publics aux utilisateurs externes, cliquez sur **lien de copie**, puis distribuez le lien aux utilisateurs externes.
+1. (Conditionnel) Si vous avez rendu public le ou les objets aux utilisateurs externes, cliquez sur **Copier le lien**, puis distribuez le lien aux utilisateurs externes.
 
    Tous les utilisateurs disposant du lien peuvent afficher l’objet .
 

@@ -22,12 +22,12 @@ Vous pouvez exporter un rapport entier (ou un bloc spécifique) dans un format d
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, reportez-vous à la section [Présentation du canevas de rapports bêta : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Exporter un rapport
 
 1. Accédez au rapport à exporter.
-1. Dans l’en-tête du rapport, cliquez sur le **Plus** icon ![](assets/more-icon-27x15.png), cliquez sur **Exporter**, puis sélectionnez le format de fichier à créer.
+1. Dans l&#39;en-tête du rapport, cliquez sur l&#39;icône **Plus** ![](assets/more-icon-27x15.png), cliquez sur **Exporter**, puis sélectionnez le format de fichier que vous souhaitez créer.
 
    >[!NOTE]
    >

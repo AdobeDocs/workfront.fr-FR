@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion durant la semaine du 11 janvier 2021.
 
-Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
 
 ## Connecteur et modules étendus désormais disponibles
 
@@ -36,7 +36,7 @@ Vous pouvez désormais utiliser Workfront Fusion pour vous connecter à votre co
 * Récupération d’une liste de ressources dans une collection
 * Effectuez un appel API personnalisé.
 
-Pour plus d’informations, voir [Modules étendus](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+Pour plus d’informations, voir [Modules larges](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
 
 ## Connecteur et modules de données désormais disponibles
 
@@ -44,10 +44,10 @@ Vous pouvez désormais utiliser Workfront Fusion pour vous connecter à votre co
 
 Avec les modules Datadog, vous pouvez :
 
-* Points d’horodatage des publications
+* Points d’horodatage Post
 * Exécution d’un appel API personnalisé
 
-Pour plus d’informations sur les modules DataManager, voir [Modules de données](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+Pour plus d’informations sur les modules Datadog, voir [Modules Datadog](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
 
 ## Connecteur Cvent et modules désormais disponibles
 
@@ -62,7 +62,7 @@ Avec les modules Cvent, vous pouvez :
 * Mettre à jour ou supprimer des contacts
 * Effectuer un appel API personnalisé
 
-Pour plus d’informations sur les modules Cvent disponibles, voir [Modules d’événement](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+Pour plus d’informations sur les modules Cvent disponibles, voir [Modules Cvent](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
 
 ## Connecteur et modules Microsoft Dynamics 365 désormais disponibles
 

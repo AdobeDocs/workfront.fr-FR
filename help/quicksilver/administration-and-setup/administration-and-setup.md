@@ -12,11 +12,11 @@ exl-id: f80bb267-be96-41d4-98c5-398bde66499e
 source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 15%
+ht-degree: 21%
 
 ---
 
-# Administration et configuration : index des articles
+# Administration et configuration : index des articles
 
 <!-- Audited: 12/2023 -->
 
@@ -29,10 +29,10 @@ Les administrateurs ont la possibilité de contrôler et de personnaliser l’ex
 
 * [Configuration d’Adobe Workfront](../administration-and-setup/set-up-workfront/set-up-workfront.md)
 * [Gestion des utilisateurs](../administration-and-setup/add-users/add-users.md)
-* [Personnalisation d’Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md)
-* [Gestion d’Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md)
-* [Gestion des groupes](../administration-and-setup/manage-groups/manage-groups.md)
-* [Configuration des intégrations](../administration-and-setup/configure-integrations/workfront-integrations.md)
+* [Personnaliser Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md)
+* [Gérer Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md)
+* [Gérer les groupes](../administration-and-setup/manage-groups/manage-groups.md)
+* [Configurer des intégrations](../administration-and-setup/configure-integrations/workfront-integrations.md)
 * [Blueprints](../administration-and-setup/blueprints/blueprints.md)
-* [Questions fréquentes sur l’administrateur](../administration-and-setup/administrator-faqs/adminstrator-faqs.md)
+* [FAQ sur l’administrateur](../administration-and-setup/administrator-faqs/adminstrator-faqs.md)
 * [Conseils, astuces et dépannage pour l’administration et la configuration](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)

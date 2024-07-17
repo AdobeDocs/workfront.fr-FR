@@ -1,20 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Format du message sortant pour les abonnements aux événements
-description: Format du message sortant pour les abonnements aux événements
+title: Format des messages sortants pour les abonnements aux événements
+description: Format des messages sortants pour les abonnements aux événements
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 7%
 
 ---
 
-# Format du message sortant pour les abonnements aux événements
+# Format des messages sortants pour les abonnements aux événements
 
 Avec la version 2017.3 d’Adobe Workfront, le format des messages sortants pour les abonnements aux événements va changer afin d’améliorer les performances et d’optimiser l’utilisation des abonnements aux événements pour vos intégrations.
 

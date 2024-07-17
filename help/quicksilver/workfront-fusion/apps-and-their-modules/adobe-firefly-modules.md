@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: Connecteur
 navigation-topic: apps-and-their-modules
 title: Adobe Firefly de modules
-description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Firefly], ainsi que de la connecter à plusieurs applications et services tiers.
+description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent  [!DNL Adobe Firefly] et les connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
@@ -18,7 +18,7 @@ ht-degree: 27%
 
 # Modules [!DNL Adobe Firefly]
 
-Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Firefly], ainsi que de la connecter à plusieurs applications et services tiers.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Firefly] et les connecter à plusieurs applications et services tiers.
 
 Si vous avez besoin d’instructions sur la création d’un scénario, voir [Création d’un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -43,7 +43,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Actuel : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Actuel : aucune exigence de licence [!DNL Workfront Fusion].</p>
    <p>Ou</p>
    <p>Hérité : Tout </p>
    </td> 
@@ -51,9 +51,9 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul>
+   <p>Nouveau :</p> <ul><li>Formule [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront] : [!DNL Workfront Fusion] est inclus.</li></ul>
    <p>Ou</p>
-   <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p>
+   <p>Actuel : votre organisation doit acheter [!DNL Adobe Workfront Fusion].</p>
    </td> 
   </tr>
  </tbody> 
@@ -65,9 +65,9 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 ## Conditions préalables
 
-Avant d’utiliser la variable [!DNL Adobe Firefly] , vous devez vous assurer que les conditions préalables suivantes sont remplies :
+Avant de pouvoir utiliser le connecteur [!DNL Adobe Firefly], vous devez vous assurer que les conditions préalables suivantes sont remplies :
 
-* Vous devez disposer d’un [!DNL Adobe Firefly] compte .
+* Vous devez avoir un compte [!DNL Adobe Firefly] actif.
 
 ## Créer une connexion à [!DNL Adobe Firefly]
 
@@ -103,7 +103,7 @@ Pour créer une connexion pour vos modules [!DNL Adobe Firefly] :
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Saisissez votre [!DNL Adobe] [!UICONTROL Client Secret]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
+        <td>Entrez votre [0} [!UICONTROL Client Secret]. [!DNL Adobe] Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
         </tr>
       </tbody>
     </table>
@@ -122,7 +122,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 Ce module d’action effectue un appel personnalisé à l’API du Firefly.
 
-Pour connaître les API disponibles spécifiques, voir [API ADOBE FIREFLY](https://developer.adobe.com/firefly-services/docs/firefly-api/) dans la documentation Adobe Developer.
+Pour connaître les API disponibles spécifiques, reportez-vous à la section [API Adobe Firefly](https://developer.adobe.com/firefly-services/docs/firefly-api/) de la documentation Adobe Developer.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -228,7 +228,7 @@ Ce module d’action remplit la zone masquée d’une image, éventuellement ave
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Image]</td> 
-   <td>  <p> Cliquez sur <b>Ajout d’une image</b>. Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom du fichier image et les données image du fichier source.</p> </td> 
+   <td>  <p> Cliquez sur <b>Ajouter une image</b>. Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom du fichier image et les données image du fichier source.</p> </td> 
 </td> 
   </tr> 
   <tr> 
@@ -278,7 +278,7 @@ Ce module d’action génère une image à partir d’une invite que vous fourni
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Paramètres prédéfinis]</td> 
-   <td>Si vous souhaitez utiliser un style prédéfini, cliquez sur Ajouter un élément et saisissez ou mappez le style que vous souhaitez utiliser.<p>Pour obtenir la liste des styles prédéfinis, voir <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Styles de modèle d’image</a> dans la documentation destinée aux développeurs d’Adobes.</td> 
+   <td>Si vous souhaitez utiliser un style prédéfini, cliquez sur Ajouter un élément et saisissez ou mappez le style que vous souhaitez utiliser.<p>Pour obtenir une liste des styles de paramètres prédéfinis, reportez-vous à la section <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Styles de modèle d’image</a> de la documentation destinée aux développeurs d’Adobe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL invite négative]</td> 

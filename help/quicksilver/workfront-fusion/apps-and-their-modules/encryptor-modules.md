@@ -1,5 +1,5 @@
 ---
-title: Crypteur
+title: Encryptor
 description: Les modules Adobe Workfront Fusion Encryptor permettent de crypter toutes les données texte. Ils prennent actuellement en charge le cryptage des messages via AES256 et PGP (OpenPGP).
 author: Becky
 draft: Probably
@@ -8,62 +8,62 @@ exl-id: 9664c4f1-6467-45c9-8b9e-5a41d0e9ccb9
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
-# Crypteur
+# Encryptor
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Crypteur] Les modules permettent de crypter des données texte. Ils prennent actuellement en charge le cryptage des messages via AES256 et PGP ([!UICONTROL OpenPGP]).
+Les modules [!DNL Adobe Workfront Fusion] [!UICONTROL Encryptor] vous permettent de chiffrer des données texte. Ils prennent actuellement en charge le cryptage des messages via AES256 et PGP ([!UICONTROL OpenPGP]).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
+   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Cryptage et décryptage des messages à l’aide de PGP
 
 Lors du cryptage et du décryptage via PGP, il est nécessaire d’utiliser un trousseau et de créer une clé privée ou publique (ou les deux).
 
-Pour plus d’informations sur les clés publiques et privées, voir [Termes de base [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Pour plus d’informations sur les chaînes de clés, voir [Raccourcis clavier [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
+Pour plus d’informations sur les clés publiques et privées, voir [Termes de base dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Pour plus d&#39;informations sur les chaînes de clés, voir [Clés dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
 
-## [!UICONTROL Crypteur] modules et leurs champs
+## Modules [!UICONTROL Encryptor] et leurs champs
 
-Lors de la configuration [!UICONTROL Crypteur] , les champs suivants s’affichent. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez les modules [!UICONTROL Encryptor], les champs suivants s’affichent. Un titre en gras dans un module indique un champ obligatoire.
 
 ### Chiffrer un message PGP
 

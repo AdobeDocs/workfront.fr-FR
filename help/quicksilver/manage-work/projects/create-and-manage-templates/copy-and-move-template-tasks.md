@@ -1,52 +1,52 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Copier et déplacer des tâches de modèle
+title: Copier et déplacer les tâches du modèle
 description: Vous pouvez copier ou déplacer une tâche de modèle vers le même modèle ou vers un autre modèle.
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2127'
-ht-degree: 3%
+source-wordcount: '2128'
+ht-degree: 8%
 
 ---
 
-# Copier et déplacer des tâches de modèle
+# Copier et déplacer les tâches du modèle
 
 Vous pouvez copier une tâche de modèle d’un modèle vers un autre modèle ou la déplacer vers un autre modèle ou vers un autre emplacement du même modèle.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux modèles</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un modèle et de la tâche de modèle </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un modèle et de la tâche de modèle </p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Observations relatives à la copie ou au déplacement de tâches de modèle
 
@@ -83,20 +83,20 @@ Tenez compte des points suivants lors du déplacement des tâches de modèle :
 Vous pouvez copier une seule tâche de modèle ou copier plusieurs tâches de modèle en bloc.
 
 1. Accédez au modèle contenant la tâche de modèle ou les tâches de modèle à copier.
-1. Cliquez sur **Tâches de modèle** dans le panneau de gauche.
+1. Cliquez sur **Tâches du modèle** dans le panneau de gauche.
 1. Utilisez l’une des méthodes suivantes :
    * Cliquez sur le nom d’une tâche de modèle pour l’ouvrir.
    * Sélectionnez une ou plusieurs tâches de modèle dans la liste.
-1. (Conditionnel) Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) en haut de la liste des tâches de modèle ou à droite du nom de la tâche de modèle si vous avez ouvert la tâche, cliquez sur **Copier vers** ou **Copier**, selon l’emplacement d’accès à l’option Copier .
+1. (Conditionnel) Cliquez sur le menu **Plus** ![](assets/more-icon.png) en haut de la liste des tâches du modèle ou à droite du nom de la tâche du modèle si vous avez ouvert la tâche, puis cliquez sur **Copier vers** ou **Copier**, selon l’emplacement d’accès à l’option Copier.
 La zone Copier la tâche de modèle s’ouvre.
    ![](assets/copy-template-task-box-unshimmed.png)
-1. (Facultatif) Renommez la tâche de modèle dans le **Nom de la tâche de modèle** champ .
+1. (Facultatif) Renommez la tâche de modèle dans le champ **Nom de la tâche de modèle** .
 
    >[!TIP]
    >
    >Ce champ est grisé et ne peut pas être modifié lorsque vous sélectionnez de copier plusieurs tâches de modèle dans une liste. Vous pouvez placer le pointeur de la souris sur le champ Nom de la tâche du modèle pour afficher la liste de toutes les tâches de modèle sélectionnées.
 
-1. Commencez à saisir le nom de la variable **Modèle de destination** où vous souhaitez copier la tâche de modèle dans le **Sélectionner le modèle de destination** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. Commencez à saisir le nom du **modèle de destination** où vous souhaitez copier la tâche de modèle dans le champ **Sélectionner le modèle de destination** , puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
    Le nom actuel du modèle s’affiche par défaut. Si vous souhaitez copier la tâche de modèle dans le même modèle, laissez ce champ inchangé.
 
@@ -104,14 +104,14 @@ La zone Copier la tâche de modèle s’ouvre.
    >
    >Vous pouvez également commencer à saisir le numéro de référence ou saisir l’identifiant du modèle. Cela peut vous aider à distinguer les modèles portant des noms identiques.
 
-1. (Conditionnel) Cliquez sur **accès aux demandes** pour demander l&#39;accès au modèle de destination, si vous n&#39;avez pas accès au modèle sélectionné.
+1. (Conditionnel) Cliquez sur **demander l’accès** pour demander l’accès au modèle de destination, si vous n’avez pas accès au modèle sélectionné.
 1. (Conditionnel) Continuez à copier la tâche de modèle vers le modèle de destination sélectionné sans demander l’accès si vous avez accès à l’une des tâches de modèle dans le modèle de destination.
 
-1. Cliquez sur **Options** dans le panneau de gauche, désélectionnez les attributs de tâche de modèle que vous ne souhaitez pas copier avec la tâche de modèle. Toutes les options sont sélectionnées par défaut.
+1. Cliquez sur **Options** dans le panneau de gauche, puis désélectionnez les attributs de tâche de modèle que vous ne souhaitez pas copier avec la tâche de modèle. Toutes les options sont sélectionnées par défaut.
 
    >[!TIP]
    >
-   >Désélection **Tout sélectionner** désélectionne toutes les options.
+   >La désélection de **Select all** désélectionne toutes les options.
 
    Désélectionnez les options suivantes pour ne pas les transférer vers la tâche de modèle copiée. Le tableau suivant décrit ce qui se produit lorsque les options sont désélectionnées :
 
@@ -179,7 +179,7 @@ La zone Copier la tâche de modèle s’ouvre.
    </table>
 
 
-1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche, sélectionnez la tâche de modèle dans le modèle de destination que vous souhaitez devenir le parent de la tâche de modèle copiée.
+1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche, puis sélectionnez la tâche de modèle dans le modèle de destination que vous souhaitez devenir le parent de la tâche de modèle copiée.
 
    >[!TIP]
    >
@@ -188,7 +188,7 @@ La zone Copier la tâche de modèle s’ouvre.
    Sélectionnez un parent en effectuant l’une des opérations suivantes :
 
    * Dans la liste des tâches du modèle, sélectionnez l’un des parents du plan de modèle.
-   * Cliquez sur l’icône de recherche ![Icône Rechercher](assets/search-icon.png) et recherchez une tâche de modèle parent par nom.
+   * Cliquez sur l’icône de recherche ![Icône de recherche](assets/search-icon.png) et recherchez une tâche de modèle parent par nom.
 
    La tâche de modèle doit apparaître dans la liste.
 
@@ -206,35 +206,35 @@ La zone Copier la tâche de modèle s’ouvre.
 Vous pouvez déplacer une tâche de modèle vers une autre tâche de modèle dans le même modèle ou vers un autre modèle. Vous pouvez déplacer une ou plusieurs tâches de modèle en bloc.
 
 1. Accédez au modèle contenant la tâche de modèle ou les tâches de modèle à déplacer.
-1. Cliquez sur **Tâches de modèle** dans le panneau de gauche.
+1. Cliquez sur **Tâches du modèle** dans le panneau de gauche.
 1. Utilisez l’une des méthodes suivantes :
    * Cliquez sur le nom d’une tâche de modèle pour l’ouvrir.
    * Sélectionnez une ou plusieurs tâches de modèle dans la liste.
-1. (Conditionnel) Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) en haut de la liste des tâches de modèle ou à droite du nom de la tâche de modèle si vous avez ouvert la tâche, cliquez sur **Déplacer vers** ou **Déplacer**, selon l’emplacement d’accès à l’option Déplacer .
+1. (Conditionnel) Cliquez sur le menu **Plus** ![](assets/more-icon.png) en haut de la liste des tâches du modèle ou à droite du nom de la tâche du modèle si vous avez ouvert la tâche, puis cliquez sur **Déplacer vers** ou **Déplacer vers**, selon l’emplacement d’accès à l’option Déplacer.
 La zone Déplacer la tâche de modèle s’affiche.
    ![](assets/move-template-task-box-unshimmed.png)
 
-1. (Facultatif) Renommez la tâche de modèle dans le **Nom de la tâche de modèle** champ .
+1. (Facultatif) Renommez la tâche de modèle dans le champ **Nom de la tâche de modèle** .
 
    >[!TIP]
    >
    >Ce champ est grisé et ne peut pas être modifié lorsque vous sélectionnez de déplacer plusieurs tâches de modèle dans une liste. Vous pouvez placer le pointeur de la souris sur le champ Nom de la tâche de modèle pour afficher une liste de toutes les tâches de modèle sélectionnées.
 
-1. Commencez à saisir le nom de la variable **Modèle de destination** où vous souhaitez déplacer la tâche de modèle dans le **Sélectionner le modèle de destination** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. Commencez à saisir le nom du **Modèle de destination** où vous souhaitez déplacer la tâche de modèle dans le champ **Sélectionner le modèle de destination** , puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
    >[!TIP]
    >
    >Vous pouvez également commencer à saisir le numéro de référence ou saisir l’identifiant du modèle. Cela peut vous aider à distinguer les modèles portant des noms identiques.
 
-1. (Conditionnel) Cliquez sur **accès aux demandes** pour demander l’accès au modèle, si vous n’avez pas accès au modèle de destination.
+1. (Conditionnel) Cliquez sur **demander l’accès** pour demander l’accès au modèle, si vous n’avez pas accès au modèle de destination.
 1. (Conditionnel) Continuez à déplacer la tâche de modèle vers le modèle de destination sélectionné sans demander l’accès si vous avez accès à l’une des tâches de modèle sur le modèle de destination.
 
-1. Cliquez sur **Options** dans le panneau de gauche, désélectionnez les attributs de tâche de modèle que vous ne souhaitez pas copier avec la tâche de modèle. Toutes les options sont sélectionnées par défaut.
+1. Cliquez sur **Options** dans le panneau de gauche, puis désélectionnez les attributs de tâche de modèle que vous ne souhaitez pas copier avec la tâche de modèle. Toutes les options sont sélectionnées par défaut.
 
    >[!TIP]
    >
    >* La section Options n’est disponible qu’après avoir sélectionné un modèle de destination.
-   >* Désélection **Tout sélectionner** désélectionne toutes les options.
+   >* La désélection de **Select all** désélectionne toutes les options.
 
    Désélectionnez les options suivantes pour ne pas transférer les informations vers la tâche de modèle déplacée. Le tableau suivant décrit ce qui se produit lorsque les options sont désélectionnées :
 
@@ -312,7 +312,7 @@ La zone Déplacer la tâche de modèle s’affiche.
    </table>
 
 
-1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche, sélectionnez la tâche de modèle dans le modèle de destination que vous souhaitez devenir le parent de la tâche de modèle déplacée.
+1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche, puis sélectionnez la tâche de modèle dans le modèle de destination que vous souhaitez devenir le parent de la tâche de modèle déplacée.
 
    >[!TIP]
    >
@@ -321,7 +321,7 @@ La zone Déplacer la tâche de modèle s’affiche.
    Sélectionnez un parent en effectuant l’une des opérations suivantes :
 
    * Dans la liste des tâches du modèle, sélectionnez l’un des parents du plan de modèle.
-   * Cliquez sur l’icône de recherche ![Icône Rechercher](assets/search-icon.png) et recherchez une tâche de modèle parent par nom.
+   * Cliquez sur l’icône de recherche ![Icône de recherche](assets/search-icon.png) et recherchez une tâche de modèle parent par nom.
 
    La tâche de modèle doit apparaître dans la liste.
 

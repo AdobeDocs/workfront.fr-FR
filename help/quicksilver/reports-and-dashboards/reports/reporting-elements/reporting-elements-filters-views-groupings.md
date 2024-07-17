@@ -9,11 +9,11 @@ exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Éléments de reporting : filtres, vues et regroupements
+# Éléments de rapport : filtres, vues et regroupements
 
 <!--
 <div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -35,11 +35,11 @@ Tenez compte des points suivants lorsque vous utilisez des filtres, des vues et 
 * Les rapports dans Workfront sont spécifiques à un objet. Vous devez définir l’objet principal d’un rapport avant de pouvoir le créer. Par conséquent, tous les éléments de rapport sont spécifiques à un objet.
 * Votre administrateur Workfront doit vous accorder l’accès aux filtres, vues et regroupements de votre niveau d’accès pour pouvoir les afficher ou les modifier dans les listes et les rapports.
 
-  Pour plus d’informations sur l’octroi de l’accès aux filtres, aux vues et aux regroupements, voir [Accorder l’accès aux filtres, vues et regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Pour plus d’informations sur l’octroi de l’accès aux filtres, aux vues et aux regroupements, voir [Octroi de l’accès aux filtres, aux vues et aux regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Pour pouvoir afficher ou modifier des rapports, votre administrateur Workfront doit vous accorder l’accès aux rapports, tableaux de bord et calendriers de votre niveau d’accès.
 
-  Pour plus d’informations sur l’accès aux rapports, aux tableaux de bord et aux calendriers, voir [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Pour plus d’informations sur l’octroi de l’accès aux rapports, tableaux de bord et calendriers, voir [Octroi de l’accès aux rapports, tableaux de bord et calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Si vous sélectionnez un filtre, une vue ou un regroupement sur un rapport ou une liste, Workfront conserve cette sélection pour les listes de cet objet même après vous être déconnecté ou avoir fermé votre navigateur. Par exemple, si vous sélectionnez une vue spécifique pour un rapport de tâche, cette sélection s’affiche pour d’autres listes de tâches, telles que la liste des tâches d’un projet.
 
@@ -54,9 +54,9 @@ Certains attributs de filtres sont les suivants :
 * Par défaut, Workfront fournit plusieurs filtres pour divers objets.
 * Vous pouvez personnaliser les filtres que vous possédez ou gérez.
 
-  Pour plus d’informations sur les filtres, voir l’article [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Pour plus d’informations sur les filtres, consultez l’article [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Icône Filtrer](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
+![Icône de filtre](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
 ## Vues
 
@@ -69,7 +69,7 @@ Voici quelques attributs de vue :
 * Vous pouvez appliquer des vues supplémentaires à partir du champ déroulant Affichage après l’exécution d’un rapport.
 * Les vues supplémentaires remplacent temporairement la vue définie lors de la création du rapport. Toutefois, la vue par défaut s’affiche la prochaine fois que vous revenez au rapport.
 
-  Pour plus d’informations sur les vues, voir l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Pour plus d’informations sur les vues, consultez l’article [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Regroupements
 
@@ -83,20 +83,20 @@ Voici quelques attributs de regroupements :
 * Les groupements affichent une valeur d&#39;agrégat dans les résultats. &#x200B;
 * Les groupes déterminent l’axe des graphiques.
 * Les groupes déterminent l’identification de l’en-tête dans les rapports de matrice.\
-  Pour plus d’informations sur les rapports de matrice, voir l’article [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  Pour plus d’informations sur les rapports de matrice, consultez l’article [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 * Les regroupements permettent de créer l’onglet Résumé d’un rapport, fournissant les valeurs agrégées du rapport.
 * Par défaut, Workfront fournit plusieurs regroupements pour différents objets.
 * Vous pouvez personnaliser les regroupements que vous possédez ou gérez.
 
-  Pour plus d’informations sur les regroupements, voir [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Pour plus d’informations sur les groupements, consultez la [présentation des groupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Autres éléments de reporting
 
 Outre les filtres, les vues et les regroupements, vous pouvez ajouter les éléments suivants à un rapport :
 
-* **Invite**: filtre ouvert qui peut être personnalisé et appliqué différemment chaque fois que vous exécutez un rapport.\
-  Pour plus d’informations sur les invites, voir l’article [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **Invite** : filtre ouvert qui peut être personnalisé et appliqué différemment chaque fois que vous exécutez un rapport.\
+  Pour plus d’informations sur les invites, voir l’article [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-* **Graphique**: vous pouvez améliorer vos rapports en y ajoutant un graphique et en affichant les informations visuellement.\
-  Pour plus d’informations sur les graphiques dans les rapports, voir l’article [Ajouter un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+* **Graphique** : vous pouvez améliorer vos rapports en y ajoutant un graphique et en affichant les informations de manière visuelle.\
+  Pour plus d’informations sur les graphiques dans les rapports, consultez l’article [Ajout d’un graphique à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).

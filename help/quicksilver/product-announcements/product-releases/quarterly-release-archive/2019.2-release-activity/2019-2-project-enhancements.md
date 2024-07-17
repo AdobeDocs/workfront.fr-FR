@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Améliorations du projet 2019.2
+title: Améliorations des projets (version 2019.2)
 description: Cette page décrit toutes les améliorations de projet incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
 author: Luke
 feature: Product Announcements
@@ -10,15 +10,15 @@ exl-id: 76292f90-af1a-4740-9b8e-b02a6303625c
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Améliorations du projet 2019.2
+# Améliorations des projets (version 2019.2)
 
 Cette page décrit toutes les améliorations de projet incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2019.2, voir [Aperçu de l’activité de version 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2019.2, consultez la [présentation de l’activité de version 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Recherche De Groupes Plus Rapide Lors De La Personnalisation Des Statuts
 
@@ -32,7 +32,7 @@ Pour plus d’informations, voir [Création ou modification d’un état](../../
 
 Vous pouvez désormais configurer des formulaires personnalisés et des processus d’approbation par défaut à joindre aux tâches lorsque vous ajoutez des tâches à un projet. Vous pouvez configurer les paramètres par défaut au niveau du projet.
 
-Pour plus d’informations sur la configuration des formulaires personnalisés par défaut et les processus d’approbation pour les tâches au niveau du projet, reportez-vous à la section &quot;Tâches&quot; du [Modification de projets](../../../../manage-work/projects/manage-projects/edit-projects.md) article.
+Pour plus d’informations sur la configuration des formulaires personnalisés par défaut et les processus d’approbation pour les tâches au niveau du projet, reportez-vous à la section &quot;Tâches&quot; de l’article [Modifier les projets](../../../../manage-work/projects/manage-projects/edit-projects.md) .
 
 ## Affichage de la ligne entière d’une tâche parente en gras dans une liste de tâches
 
@@ -46,7 +46,7 @@ Avant cette amélioration, toutes les modifications étaient toujours enregistr�
 
 Pour plus d’informations sur l’édition de tâches dans une liste de tâches, voir [Modifier les tâches](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-Pour plus d’informations sur la modification des tâches dans le diagramme de Gantt, voir [Mise à jour des informations dans le diagramme de Gantt de la liste des tâches](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Pour plus d’informations sur la modification des tâches dans le diagramme de Gantt, voir [Mise à jour d’informations dans la liste de tâches du diagramme de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Nouvelles valeurs par défaut de la largeur des colonnes dans les nouvelles listes
 
@@ -86,7 +86,7 @@ Vous pouvez désormais afficher le Coût planifié des travaux (BCWS) et le Coû
 
 Bien que ces mesures de performances de projet aient été utilisées auparavant dans les calculs financiers dans Workfront, elles n’étaient pas visibles dans le système avant cette amélioration.
 
-Pour plus d’informations sur le calcul de BCWS, voir [Calculer le coût des travaux planifiés (BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+Pour plus d&#39;informations sur le calcul du BCWS, voir [Calculer le coût du travail planifié (BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
 
-Pour plus d’informations sur le calcul du BCWP, voir [Calculer le coût des travaux réalisés budgétisés (BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
+Pour plus d&#39;informations sur le calcul du BCWP, voir [Calculer le coût du travail effectué dans la budget (BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
 

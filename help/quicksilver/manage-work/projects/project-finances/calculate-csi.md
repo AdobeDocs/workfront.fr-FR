@@ -2,19 +2,19 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcul de l’index de performance de la planification des coûts (CSI)
+title: Calculer l’Indice Coûts Horaire Performances (CSI)
 description: L’indice de performance de la planification des coûts (CSI) est un calcul automatique qui combine l’indice de performance des coûts (IPC) et l’indice de performance de la planification (SPI) en une mesure générale qui équilibre les coûts et la planification.
 author: Alina
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 0%
+source-wordcount: '340'
+ht-degree: 3%
 
 ---
 
-# Calcul de l’index de performance de la planification des coûts (CSI)
+# Calculer l’Indice Coûts Horaire Performances (CSI)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.) </p>
@@ -42,9 +42,9 @@ Workfront calcule l’indice de performance des coûts (CSI) d’un projet ou d�
 
 `CSI = CPI x SPI`
 
-Pour plus d’informations sur l’IPC, voir l’article [Calculer l’indice de performance des coûts (IPC)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Pour plus d’informations sur l’IPC, consultez l’article [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
-Pour plus d’informations sur SPI, voir l’article [Calcul de l’index de performance de planification (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
+Pour plus d’informations sur SPI, consultez l’article [Calculate Schedule Performance Index (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
 
 CSI a les trois valeurs possibles suivantes :
 

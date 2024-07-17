@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de version 2017.2 bêta 1
-description: Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 bêta 1. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 10 mai 2017.
+title: Activité Version 2017.2, version bêta 1
+description: Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 de Beta 1. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 10 mai 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# Activité de version 2017.2 bêta 1
+# Activité Version 2017.2, version bêta 1
 
-Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 bêta 1. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 10 mai 2017.
+Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 de Beta 1. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 10 mai 2017.
 
 >[!IMPORTANT]
 >
 >Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-La version bêta 1 2017.2 contient des améliorations à la fois pour les administrateurs de Workfront et pour les autres utilisateurs :
+La version 2017.2 de Beta 1 contient des améliorations tant pour les administrateurs de Workfront que pour d’autres utilisateurs :
 
 **Pour les administrateurs :**
 
@@ -30,14 +30,14 @@ La version bêta 1 2017.2 contient des améliorations à la fois pour les admini
 * [Nouvelle bannière d’aperçu avec informations de mise à jour](#new-preview-banner-with-release-information) 
 * [Disponibilité de l’API 7](#api-7-availability)
 
-**Pour tous les utilisateurs :**
+**Pour Tous Les Utilisateurs :**
 
-* [Abonnement aux tâches et aux problèmes](#subscribe-to-tasks-and-issues)
-* [Amélioration de la planification des ressources](#resource-scheduling-improvements)
-* [Comparaison des bons à tirer](#compare-proofs)
+* [S’abonner aux tâches et aux problèmes](#subscribe-to-tasks-and-issues)
+* [Améliorations de la planification des ressources](#resource-scheduling-improvements)
+* [Comparer les bons à tirer](#compare-proofs)
 * [Nouveau champ pour les groupes de ressources pour les utilisateurs et les projets](#new-field-for-resource-pools-for-users-and-projects)
-* [Représentation mise à jour de la liste des tableaux de bord](#updated-look-and-feel-in-the-dashboard-list)
-* [Suppression de la fonctionnalité Validations dans Workfront](#removing-the-endorsements-functionality-in-workfront)
+* [ Représentation mise à jour dans la liste des tableaux de bord ](#updated-look-and-feel-in-the-dashboard-list)
+* [Suppression de la fonctionnalité de validations dans Workfront](#removing-the-endorsements-functionality-in-workfront)
 * [Réorganiser les colonnes dans n’importe quelle liste par glisser-déplacer (fonctionnalité supprimée)](#reorder-columns-in-any-list-with-drag-and-drop-functionality-is-being-removed)
 
 ## Restaurer des documents {#restore-documents}
@@ -46,11 +46,11 @@ Les administrateurs de Workfront peuvent désormais restaurer des documents qui 
 
 Avant cette modification, les administrateurs de Workfront pouvaient restaurer uniquement les projets, les tâches et les problèmes (y compris les documents qui avaient été supprimés conjointement avec le projet, la tâche ou le problème supprimé).
 
-Pour plus d’informations, voir [Restauration des éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Pour plus d’informations, voir [Restaurer les éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Nouvelle bannière d’aperçu avec informations de mise à jour {#new-preview-banner-with-release-information}
 
-La bannière bleue située en haut de l’environnement de prévisualisation Sandbox affiche désormais le nom et le numéro de version de l’environnement de prévisualisation. Cliquez sur le nom de la version pour accéder à un article du site d’aide dans lequel vous trouverez plus d’informations sur la version actuelle de l’aperçu. Pour plus d’informations sur l’aperçu de l’environnement Sandbox, voir [Environnement Adobe Workfront Preview Sandbox](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
+La bannière bleue située en haut de l’environnement de prévisualisation Sandbox affiche désormais le nom et le numéro de version de l’environnement de prévisualisation. Cliquez sur le nom de la version pour accéder à un article du site d’aide dans lequel vous trouverez plus d’informations sur la version actuelle de l’aperçu. Pour plus d’informations sur l’environnement de test d’aperçu, voir [L’environnement de test d’aperçu Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
 
 ## Disponibilité de l’API 7 {#api-7-availability}
 
@@ -76,10 +76,10 @@ Pour plus d’informations sur l’abonnement aux problèmes et aux tâches, voi
 
 Les améliorations suivantes sont disponibles lors de la planification des ressources :
 
-* [Afficher d’autres éléments sur la chronologie de planification des ressources en une seule vue](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
-* [Configuration du nom du projet à afficher sur les tâches et les problèmes de la chronologie de planification](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
+* [Afficher plus d’éléments sur la chronologie de planification des ressources dans une vue unique](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
+* [Configurez le nom du projet à afficher sur les tâches et les problèmes de la chronologie de planification](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
 * [Configuration de l’affichage des tâches parentes dans la chronologie de planification](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
-* [Développer ou réduire plus facilement toutes les tâches et tous les problèmes de la chronologie de planification](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
+* [ Développer ou réduire plus facilement toutes les tâches et tous les problèmes sur la chronologie de planification ](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
 * [Les informations sur le rôle et l’utilisateur figurent toujours en haut de la chronologie de planification lors du défilement](#role-and-user-information-remains-at-the-top-of-the-scheduling-timeline-when-scrolling)
 
 ### Afficher d’autres éléments sur la chronologie de planification des ressources en une seule vue {#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view}
@@ -88,7 +88,7 @@ Lors de la planification de ressources pour une équipe ou pour tout projet pour
 
 Si vous décidez d’afficher les noms des projets pour chaque tâche et chaque problème dans la chronologie de planification, l’espace vertical de chaque tâche et problème est développé, ce qui entraîne une diminution du nombre de tâches et de problèmes qui s’affichent dans une seule vue.
 
-Pour plus d’informations sur la planification des ressources, voir &quot;Prise en main de la planification des ressources&quot;.
+Pour plus d’informations sur la planification des ressources, voir  &quot;Prise en main de la planification des ressources&quot;.
 
 ### Configuration du nom du projet à afficher sur les tâches et les problèmes de la chronologie de planification {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
@@ -118,7 +118,7 @@ Désormais, lorsque vous faites défiler la chronologie de la planification pour
 
 Avant cette modification, le nom du rôle et le nom d’utilisateur défilaient hors de la vue actuelle.
 
-Pour plus d’informations sur la planification des ressources, voir &quot;Prise en main de la planification des ressources&quot;.
+Pour plus d’informations sur la planification des ressources, voir  &quot;Prise en main de la planification des ressources&quot;.
 
 ## Comparaison des bons à tirer {#compare-proofs}
 
@@ -134,7 +134,7 @@ La version R1.5 introduit de nouvelles fonctionnalités concernant la planificat
 
 Vous pouvez désormais associer ces groupes de ressources aux projets, ainsi qu’aux utilisateurs. Un nouveau champ appelé &quot;Pools de ressources&quot; s’affiche désormais sur le projet, ainsi que sur l’objet utilisateur.
 
-Pour plus d’informations sur les nouveaux pools de ressources et la manière dont ils peuvent être associés aux projets et aux utilisateurs, voir [Présentation des pools de ressources](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+Pour plus d’informations sur les nouveaux pools de ressources et la manière dont ils peuvent être associés aux projets et aux utilisateurs, consultez la [présentation des pools de ressources](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 ## Représentation mise à jour de la liste des tableaux de bord {#updated-look-and-feel-in-the-dashboard-list}
 

@@ -9,13 +9,13 @@ exl-id: d6dba849-6915-4c2c-b378-a8d3daa8a0d5
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# 22.3 Améliorations des rapports
+# Améliorations des rapports (version 22.3)
 
-Cette page décrit toutes les améliorations apportées à la création de rapports avec la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, voir [Présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Cette page décrit toutes les améliorations apportées à la création de rapports avec la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, consultez la [présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Suppression et ajout de champs de budget des ressources dans les listes et les rapports
 
@@ -35,5 +35,5 @@ Les champs de budget des ressources suivants ont été supprimés des listes et 
 * Coûts budgétaires
 
 
-Pour plus d’informations, voir [Présentation de l’option Coût de la main-d’oeuvre budgétisée et heures budgétisées pour les projets](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
+Pour plus d’informations, voir [Comprendre le coût de la main-d’oeuvre et les heures budgétisées pour les projets](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
 

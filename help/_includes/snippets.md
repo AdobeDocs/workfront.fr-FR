@@ -67,7 +67,7 @@ ht-degree: 92%
 >
 >Avec la prochaine version, la semaine du 15 juillet (version 24.7), le concepteur de formulaires sera disponible en général et deviendra l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront. Le créateur de formulaires hérité ne sera plus disponible. Nous vous recommandons de basculer maintenant vers le concepteur de formulaires et de profiter de ses fonctionnalités.
 >
->Pour plus d’informations, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>Pour plus d’informations, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
 >L’ancien créateur de formulaires a été supprimé de l’environnement Aperçu le 19 juin 2024 et sera supprimé de l’environnement de production avec la version 24.7 de juillet.
 
@@ -262,10 +262,10 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 1. (Facultatif et conditionnel) Si vous êtes administrateur Workfront, cliquez sur les onglets suivants :
 
-   * **Mes espaces de travail**: affiche les espaces de travail que vous avez créés.
-   * **Autres espaces de travail**: affiche tous les espaces de travail de la planification Workfront, y compris ceux partagés avec vous.
+   * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés.
+   * **Autres espaces de travail** : affiche tous les espaces de travail dans la planification Workfront, y compris ceux partagés avec vous.
 
-   Pour tous les autres utilisateurs, tous les espaces de travail que vous avez créés ou que vous partagez avec vous s’affichent dans la variable **Espaces de travail** zone.
+   Pour tous les autres utilisateurs, tous les espaces de travail que vous avez créés ou que vous avez partagés avec vous s’affichent dans la zone **Espaces de travail**.
 
 ## Intro important de la planification Workfront - {#planning-important-intro}
 
@@ -327,7 +327,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 ## Dernière version de DPV {#latest-version}
 
-**Dernière version**: 2.1.35 à partir du 7/04/2024
+**Dernière version** : 2.1.35 à partir du 7/04/2024
 
 <!-- Release -->
 

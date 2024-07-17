@@ -10,7 +10,7 @@ exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
 source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,7 @@ Les administrateurs de Workfront ou de groupe ne peuvent pas modifier les limite
  <thead> 
   <tr> 
    <th> <p><strong>Type de champ</strong> </p> </th> 
-   <th> <p><strong>Limite de caractères (</strong><strong>y compris les espaces)</strong> </p> </th> 
+   <th> <p><strong>Limite de caractères (</strong><strong>espaces compris)</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

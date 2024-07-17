@@ -2,43 +2,43 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Marque [!DNL Workfront Proof] site
-description: Comme [!DNL Workfront Proof] administrateur, vous pouvez personnaliser votre [!DNL Workfront Proof] afin de vous offrir, ainsi qu’à vos utilisateurs, une expérience plus personnalisée.
+title: Marque le site  [!DNL Workfront Proof]
+description: En tant qu'administrateur  [!DNL Workfront Proof] , vous pouvez personnaliser votre compte  [!DNL Workfront Proof] pour offrir à vous et à vos utilisateurs une expérience plus personnalisée.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 2%
+source-wordcount: '555'
+ht-degree: 1%
 
 ---
 
-# Marque [!DNL Workfront Proof] site
+# Marque le site [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront] Preuve. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront] BAT. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Comme [!DNL Workfront Proof] administrateur, vous pouvez personnaliser votre [!DNL Workfront Proof] afin de vous offrir, ainsi qu’à vos utilisateurs, une expérience plus personnalisée.
+En tant qu&#39;administrateur [!DNL Workfront Proof], vous pouvez personnaliser votre compte [!DNL Workfront Proof] pour vous offrir, ainsi qu&#39;à vos utilisateurs, une expérience plus personnalisée.
 
 L’identité graphique de base du compte est disponible sur tous les plans sans frais supplémentaires.
 
-Pour plus d’informations sur la valorisation de marque avancée, qui inclut l’identité graphique de l’en-tête, de la barre de menus, du tableau de bord, etc., voir [Marque [!DNL Workfront Proof] site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). La marque avancée est disponible uniquement sur les formules Select et Premium .
+Pour plus d’informations sur l’identité graphique avancée, qui inclut l’identité graphique de l’en-tête, de la barre de menus, du tableau de bord, etc., voir [Marque du  [!DNL Workfront Proof] site - avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). La marque avancée est disponible uniquement sur les formules Select et Premium .
 
-Consultez les sections suivantes pour plus d’informations sur la manière de marquer différents aspects de la [!DNL Workfront] Site de BAT :
+Consultez les sections suivantes pour plus d’informations sur la manière de marquer divers aspects du site [!DNL Workfront] Proof :
 
-## Activation de la valorisation de marque sur la page [!DNL Workfront Proof] Page de connexion
+## Activation de la valorisation de la marque sur la page de connexion [!DNL Workfront Proof]
 
 Pour activer l’identité graphique de votre compte :
 
-1. Connexion à [!DNL Workfront Proof] comme la propriété [!DNL Workfront Proof] administrateur.
-1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans le coin supérieur droit du [!DNL Workfront Proof] .
+1. Connectez-vous à [!DNL Workfront Proof] en tant qu’administrateur [!DNL Workfront Proof].
+1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans le coin supérieur droit de l’interface [!DNL Workfront Proof].
 
-   Pour plus d’informations sur les différents paramètres du compte que vous pouvez configurer, voir [Paramètres du compte.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
+   Pour plus d’informations sur les différents paramètres de compte que vous pouvez configurer, voir [Paramètres du compte.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Cliquez sur le bouton **[!UICONTROL Paramètres]** .
-1. Dans le **[!UICONTROL Marques]** , cliquez sur **[!UICONTROL Activer]**. (1)
+1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** .
+1. Dans la section **[!UICONTROL Marque]**, cliquez sur **[!UICONTROL Activer]**. (1)
 
    ![Enable_branding.png](assets/enable-branding-350x177.png)
 
@@ -46,26 +46,26 @@ Pour activer l’identité graphique de votre compte :
 
    >[!NOTE]
    >
-   >L’image de marque n’apparaît pas sur votre page de connexion si vous accédez à via la page principale. [!DNL Workfront] URL de connexion du BAT. Par exemple, `https://www.proofhq.com/login`. Il s’affiche uniquement si vous accédez à la page de connexion par l’intermédiaire de votre sous-domaine personnalisé ou de votre domaine entièrement de marque. Pour accéder à votre page de connexion personnalisée, saisissez simplement l’URL de votre compte dans votre navigateur. Par exemple, `http://<yoursubdomain>.proofhq.com.` <!--For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).-->
+   >L&#39;image de marque n&#39;apparaît pas sur votre page de connexion si vous y accédez via l&#39;URL de connexion principale [!DNL Workfront] du Bon à tirer. Par exemple, `https://www.proofhq.com/login`. Il s’affiche uniquement si vous accédez à la page de connexion par l’intermédiaire de votre sous-domaine personnalisé ou de votre domaine entièrement de marque. Pour accéder à votre page de connexion personnalisée, saisissez simplement l’URL de votre compte dans votre navigateur. Par exemple, `http://<yoursubdomain>.proofhq.com.` <!--For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).-->
 
-   ![Marque_-_Login_page.png](assets/branding---login-page-350x198.png)
+   ![Branding_-_Login_page.png](assets/branding---login-page-350x198.png)
 
 ## Activation de la valorisation de marque sur les bons à tirer
 
-Pour ajouter votre propre image de marque au [!UICONTROL chargement du BAT] page de chaque BAT créé dans votre compte :
+Pour ajouter votre propre image de marque à la page [!UICONTROL BAT loading] de chaque BAT créé dans votre compte :
 
-1. Connexion à [!DNL Workfront Proof] comme la propriété [!DNL Workfront Proof] administrateur.
-1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans le coin supérieur droit du [!DNL Workfront Proof] .
+1. Connectez-vous à [!DNL Workfront Proof] en tant qu’administrateur [!DNL Workfront Proof].
+1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans le coin supérieur droit de l’interface [!DNL Workfront Proof].
 
-   Pour plus d’informations sur les différents paramètres du compte que vous pouvez configurer, voir [Paramètres du compte.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
+   Pour plus d’informations sur les différents paramètres de compte que vous pouvez configurer, voir [Paramètres du compte.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Cliquez sur le bouton **[!UICONTROL Paramètres]** .
-1. Dans le **[!UICONTROL Marques]** , cliquez sur **[!UICONTROL Configuration]** en regard de **[!UICONTROL Marque du BAT]**. (1)
+1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** .
+1. Dans la section **[!UICONTROL Marque]**, cliquez sur **[!UICONTROL Configuration]** en regard de **[!UICONTROL Marque de BAT]**. (1)
 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
 1. Dans le menu déroulant, sélectionnez **[!UICONTROL Image de marque]**.
-Si vous sélectionnez **[!UICONTROL Désactiver]**, la variable [!DNL Workfront Proof] Le logo apparaît sur la page de chargement du BAT.
+Si vous sélectionnez **[!UICONTROL Désactiver]**, le logo [!DNL Workfront Proof] apparaît sur la page de chargement du BAT.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**. (3)
 
@@ -73,7 +73,7 @@ Si vous sélectionnez **[!UICONTROL Désactiver]**, la variable [!DNL Workfront 
 
 1. Cliquez sur **[!UICONTROL Modifier]** pour sélectionner l’image de marque (4).
 
-   Vous pouvez utiliser des JPG, des GIFs ou des fichiers PNG. La transparence est prise en charge. La taille d’image recommandée est de 150 x 300 pixels. Votre image sur les pages de connexion et de déconnexion sera redimensionnée selon ces dimensions.
+   Vous pouvez utiliser des GIFs, des  ou des fichiers PNG JPG. La transparence est prise en charge. La taille d’image recommandée est de 150 x 300 pixels. Votre image sur les pages de connexion et de déconnexion sera redimensionnée selon ces dimensions.
 
    ![Proof_loading_page_setup_3.png](assets/proof-loading-page-setup-3-350x116.png)
 
@@ -90,18 +90,18 @@ Vous pouvez configurer votre image de marque pour qu’elle soit incluse dans le
 
 Pour configurer la valorisation de marque des emails :
 
-1. Connexion à [!DNL Workfront Proof] comme la propriété [!DNL Workfront Proof] administrateur.
-1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans le coin supérieur droit du [!DNL Workfront Proof] .
+1. Connectez-vous à [!DNL Workfront Proof] en tant qu’administrateur [!DNL Workfront Proof].
+1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans le coin supérieur droit de l’interface [!DNL Workfront Proof].
 
-   Pour plus d’informations sur les différents paramètres du compte que vous pouvez configurer, voir [Paramètres du compte.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
+   Pour plus d’informations sur les différents paramètres de compte que vous pouvez configurer, voir [Paramètres du compte.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Cliquez sur le bouton **[!UICONTROL Paramètres]** .
-1. Dans le **[!UICONTROL Marques]** , cliquez sur **[!UICONTROL Modifier]** en regard de l’image Application de messagerie (1).
+1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** .
+1. Dans la section **[!UICONTROL Marque]** , cliquez sur **[!UICONTROL Modifier]** en regard de l’image de l’application de messagerie (1).
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
 1. Sélectionnez l’image à utiliser pour personnaliser les emails. (2)
 
-   Si une marque d’email est déjà configurée et que vous souhaitez la désactiver, cliquez sur **[!UICONTROL Effacer]**. (4)
+   Si une marque d&#39;email est déjà configurée et que vous souhaitez la désactiver, cliquez sur **[!UICONTROL Effacer]**. (4)
 
    ![Email_branding_setup_2.png](assets/email-branding-setup-2-350x96.png)
 
@@ -133,6 +133,6 @@ Pour configurer la valorisation de marque des emails :
 
 ## Suppression des boutons et des liens via l’API
 
-Si vous créez un BAT via l’événement [!DNL Workfront Proof] Vous pouvez supprimer des boutons et des liens et créer vos propres liens personnalisés.
+Si vous créez un BAT via l’API [!DNL Workfront Proof], vous pouvez supprimer des boutons et des liens et créer vos propres liens personnalisés.
 
 Voir [[!DNL Workfront Proof] API](https://api.proofhq.com/) pour plus d’informations.

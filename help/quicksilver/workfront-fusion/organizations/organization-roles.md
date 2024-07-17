@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Rôles d’organisation dans [!DNL Adobe Workfront Fusion]
-description: Cet article contient des informations sur l’accès et les autorisations des rôles dans [!DNL Adobe] Workfront Fusion.
+description: Cet article contient des informations sur l’accès et les autorisations des rôles dans  [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
 source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 47%
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ Cet article décrit l’accès et les fonctionnalités disponibles pour les diff
 
 >[!NOTE]
 >
->Les rôles d’organisation diffèrent des rôles d’équipe dans [!DNL Workfront Fusion]. Pour plus d’informations sur les rôles d’organisation et d’équipe, voir [Organisations et équipes](../organizations/organizations-and-teams.md).
+>Les rôles d’organisation sont distincts des rôles d’équipe dans [!DNL Workfront Fusion]. Pour plus d’informations sur les rôles d’organisation et d’équipe, voir [Organisations et équipes](../organizations/organizations-and-teams.md).
 
 ## Conditions d’accès
 
@@ -44,7 +44,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td>
    <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
@@ -58,8 +58,8 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> 
-     <p>Vous devez être un [!DNL Workfront Fusion] administrateur de votre entreprise.</p>
-     <p>Vous devez être un [!DNL Workfront Fusion] administrateur de votre équipe.</p>
+     <p>Vous devez être un administrateur ou une administratrice de [!DNL Workfront Fusion] pour votre organisation.</p>
+     <p>Vous devez être un administrateur ou une administratrice de [!DNL Workfront Fusion] pour votre équipe.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ Pour connaître la formule, le type de licence ou l’accès dont vous disposez,
 
 Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Rôles d’organisation
+## Rôles dans l’organisation
 
 <table style="table-layout:auto">
  <col> 
@@ -143,7 +143,7 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 </table>
 
 
-## Rôles d’équipe
+## Rôles dans une équipe
 
 ### Scénarios
 

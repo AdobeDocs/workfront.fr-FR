@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Configurez les paramètres d’un module dans [!DNL Adobe Workfront Fusion]
+title: Configuration des paramètres d’un module dans [!DNL Adobe Workfront Fusion]
 description: Vous devez configurer les paramètres de chaque module que vous créez.
 author: Becky
 feature: Workfront Fusion
@@ -10,15 +10,15 @@ exl-id: 7e66728d-8c6f-4597-98c4-bc6d36f96911
 source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 31%
+ht-degree: 36%
 
 ---
 
-# Configurez les paramètres d’un module dans [!DNL Adobe Workfront Fusion]
+# Configuration des paramètres d’un module dans [!DNL Adobe Workfront Fusion]
 
 Vous devez configurer les paramètres de chaque module que vous créez.
 
-Par exemple, la variable [[!DNL Dropbox] modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) Les modules nécessitent de spécifier le dossier cible dans lequel vous souhaitez charger les fichiers. Pour le [[!UICONTROL Email] modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) , vous devez saisir l’adresse email à laquelle les emails doivent être envoyés.
+Par exemple, les modules [[!DNL Dropbox] modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) nécessitent que vous spécifiiez le dossier cible dans lequel vous souhaitez charger des fichiers. Pour les modules [[!UICONTROL Email]](../../workfront-fusion/apps-and-their-modules/email-modules.md) , vous devez saisir l’adresse électronique à laquelle les emails doivent être envoyés.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td>
    <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
@@ -69,17 +69,17 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
    Ou
 
-   Cliquez sur l’icône du module dans l’éditeur de scénarios, comme décrit dans la section [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Cliquez sur l’icône du module dans l’éditeur de scénarios, comme décrit dans [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Si nécessaire pour le module, créez une **[!UICONTROL Connexion]** à votre compte utilisateur enregistré pour ce service donné, comme décrit dans la section [Présentation des connexions](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. Si nécessaire pour le module, créez une **[!UICONTROL connexion]** à votre compte utilisateur enregistré pour ce service donné, comme décrit dans [Présentation des connexions](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 1. Dans chaque champ, saisissez le texte approprié.
 
    Ou
 
-   Cliquez sur **[!UICONTROL Carte]** s’il apparaît à droite du champ, mappez un élément à partir d’un autre module dans votre scénario.
+   Cliquez sur **[!UICONTROL Map]** s’il apparaît à droite du champ, puis mappez un élément d’un autre module dans votre scénario.
 
    Des paramètres bodés sont requis.
 
-   Pour plus d’informations sur les différents types de données d’élément [!DNL Workfront Fusion] peut reconnaître (date, nombre et texte, par exemple), voir [Types de données d’élément dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+   Pour plus d’informations sur les différents types de données d’élément [!DNL Workfront Fusion] peuvent reconnaître (par exemple, date, nombre et texte), voir [Types de données d’élément dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 1. (Conditionnel) Si le module contient des options avancées que vous souhaitez afficher et utiliser, sélectionnez **[!UICONTROL Afficher les paramètres avancés]**.

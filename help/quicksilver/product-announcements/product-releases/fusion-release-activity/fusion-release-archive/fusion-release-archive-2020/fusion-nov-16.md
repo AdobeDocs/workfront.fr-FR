@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion la semaine du 16 novembre 2020.
 
-Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
 
 ## Mises à jour du connecteur Jira Cloud
 
@@ -35,7 +35,7 @@ Pour développer les façons d’utiliser le connecteur Jira Cloud, nous avons a
 
 Nous avons également mis à jour les modules existants pour prendre en charge le type d’objet &quot;Sprint&quot;. Auparavant, l’objet &quot;Sprint&quot; n’était accessible que par le biais du module d’appel API personnalisé.
 
-Pour plus d’informations, voir [Modules logiciels Jira](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+Pour plus d’informations, voir [Jira Software modules](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
 
 ## L’identifiant d’exécution est désormais disponible pour le mappage dans les scénarios.
 
@@ -54,7 +54,7 @@ Pour plus d’informations sur la création de scénarios Workfront Fusion 2.0, 
 
 ## Mises à jour du connecteur Excel Office 365
 
-Pour étendre les possibilités d&#39;utilisation du connecteur Excel Office 365, nous avons ajouté de nouveaux modules. Vous pouvez désormais :
+Pour étendre les possibilités d&#39;utilisation du connecteur Excel Office 365, nous avons ajouté de nouveaux modules. Vous pouvez désormais :
 
 * Déclencher un module des modifications apportées aux classeurs
 * Recherche ou téléchargement de classeurs

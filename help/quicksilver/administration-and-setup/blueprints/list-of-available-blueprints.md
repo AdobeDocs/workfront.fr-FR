@@ -83,7 +83,7 @@ Ce plan directeur contient un modèle que l’entreprise de services professionn
 
 Ce plan directeur contient un tableau de bord unique composé de 13 rapports pour vous aider à trouver, réaffecter ou gérer les objets et affectations associés au personnel qui quitte Workfront. Vous pouvez également utiliser ces rapports pour qu’un utilisateur ou une utilisatrice accède à un nouveau rôle ou groupe afin de réaffecter son travail.
 
-[!BADGE Nouveau]{type=negative}**Tableau de bord de People Manager**
+[!BADGE New]{type=negative}**Tableau de bord People Manager**
 
 Ce plan directeur contient un seul tableau de bord avec 12 rapports pour donner aux gestionnaires de personnes la visibilité sur le travail de leurs rapports directs.
 
@@ -138,7 +138,7 @@ Ce plan directeur contient un tableau de bord unique comprenant 21 rapports pou
 
 Ce plan directeur contient un tableau de bord unique avec 8 rapports pour vous aider à tirer parti des avantages de Workfront. Ces rapports sont conçus pour vous aider à traduire vos services à la clientèle en valeurs mesurables dont vous pouvez effectuer le suivi au fil du temps afin d’obtenir de meilleurs résultats.
 
-[!BADGE Nouveau]{type=negative}**Réalisation de la valeur | Tableau de bord des workflows de conformité**
+[!BADGE New]{type=negative}**Réalisation de valeur | Tableau de bord des workflows de conformité**
 
 Ce plan directeur contient un seul tableau de bord avec 7 rapports pour vous aider à réaliser la valeur de Workfront. Pour une utilisation quotidienne ou dans des secteurs hautement réglementés, ces rapports qui permettent de gagner du temps permettent de rendre des comptes et d&#39;améliorer les résultats au fil du temps en aidant à suivre et à gérer les workflows et les besoins de conformité.
 

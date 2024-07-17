@@ -4,7 +4,8 @@ description: Améliorations de la gestion financière au troisième trimestre 20
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2681e878b3366b08343aa8d0a513b71126d2a67b
+exl-id: c8f78a68-41d3-4cb3-ade5-577bd85181b3
+source-git-commit: 0132485ba872dbd5961145e0d46fc7500169d728
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 Cette page décrit toutes les améliorations apportées à la gestion financière avec la version du troisième trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du troisième trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, consultez la [présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Champs de dépenses facturables et non facturables disponibles pour les projets et les tâches
 
@@ -34,4 +35,4 @@ Les rapports de ligne de base, modèle et projet (données financières) compren
 
 Les dépenses facturables sont indiquées comme facturables au client. Les dépenses non facturables ne sont pas indiquées comme facturables.
 
-Pour plus d’informations sur le marquage d’une dépense comme facturable, voir [Gestion des dépenses de projet](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+Pour plus d’informations sur le marquage d’une dépense comme facturable, voir [Gérer les dépenses de projet](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).

@@ -26,13 +26,13 @@ Cet article présente quelques bonnes pratiques que nous vous recommandons lorsq
 
 Le module de planification de Workfront est l’une des trois fonctionnalités Workfront distinctes mais connectées qui, ensemble, créent un système d’enregistrement marketing. Les trois fonctionnalités sont les suivantes :
 
-* **Planification**: nouvelles fonctionnalités avancées incluses dans la planification Workfront.
+* **Planification** : nouvelles fonctionnalités avancées incluses dans la planification Workfront.
 
-* **Workflow**: les fonctionnalités de gestion de travail collaboratif que vous utilisez aujourd’hui dans Workfront (gestion de projet, gestion des ressources, etc.)
+* **Workflow** : les fonctionnalités de gestion de travail collaboratif que vous utilisez aujourd’hui dans Workfront (gestion de projet, gestion de ressources, etc.)
 
-* **Automatisation et intégration**: fonctionnalités complètes d’intégration et d’automatisation optimisées par Workfront Fusion.
+* **Automatisation et intégration** : fonctionnalités complètes d’intégration et d’automatisation optimisées par Workfront Fusion.
 
-La planification Workfront est hautement personnalisable. Pour plus d’informations sur la terminologie et le concept de la planification Workfront, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+La planification Workfront est hautement personnalisable. Pour plus d’informations sur la terminologie et le concept de la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Questions à poser avant de configurer Workfront Planning
 
@@ -40,7 +40,7 @@ Après vous être familiarisé avec la terminologie et l’architecture de Workf
 
 Voici quelques questions que vous pouvez vous poser lorsque vous configurez la planification :
 
-* **Voulez-vous utiliser des espaces de travail pour des groupes organisationnels plus importants ? Ou devrais-je encourager les gens à en créer des personnels ?**
+* **Est-ce que je veux utiliser des espaces de travail pour des groupes organisationnels plus grands ? Ou dois-je encourager les gens à en configurer des personnels ?**
 
   Vous pourriez trouver qu&#39;il y a un bon usage pour les deux. Il est recommandé de ne pas avoir trop d’espaces de travail, car ils peuvent devenir difficiles à gérer et vos workflows peuvent être trop fragmentés.
 
@@ -48,13 +48,13 @@ Voici quelques questions que vous pouvez vous poser lorsque vous configurez la p
   >
   >    Vous pouvez avoir 1 000 espaces de travail dans une instance Workfront.
 
-* **Quels types d’enregistrement personnalisés dois-je créer dans chaque espace de travail ?**
+* **Quels types d’enregistrements personnalisés dois-je créer dans chaque espace de travail ?**
 
   Les types d’enregistrement sont semblables aux types d’objet Workfront. Pensez à vos workflows et décidez quels types d’enregistrement (objets de travail, objets de personnes, taxonomies, etc.) chaque workflow peut avoir besoin de.
 
   Pour plus d’informations, voir [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md)
 
-* **Comment vais-je créer mes enregistrements ? Existe-t-il une liste ou une feuille de calcul externe qui contient déjà les enregistrements que je dois ajouter à la planification que je peux utiliser ? L&#39;ajout des enregistrements sera-t-il progressif en fonction des besoins ? Ou seront-ils importés à l’aide d’une intégration d’API Fusion ou personnalisée ?**
+* **Comment vais-je créer mes enregistrements ? Existe-t-il une liste ou une feuille de calcul externe qui contient déjà les enregistrements que je dois ajouter à la planification que je peux utiliser ? L&#39;ajout des enregistrements sera-t-il progressif en fonction des besoins ? Ou seront-ils importés à l&#39;aide d&#39;une intégration d&#39;API Fusion ou personnalisée ?**
 
   Pour plus d’informations, voir :
 
@@ -65,11 +65,11 @@ Voici quelques questions que vous pouvez vous poser lorsque vous configurez la p
 
   Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-* **Quels types d’objets Workfront ou AEM Assets ai-je besoin de me connecter aux types d’enregistrements Workfront Planning pour afficher les dépendances et créer un workflow transparent pour mon entreprise ?**
+* **Quels types d’objets Workfront ou AEM Assets ai-je besoin de me connecter aux types d’enregistrements Workfront Planning pour pouvoir afficher les dépendances et créer un workflow transparent pour mon organisation ?**
 
   Pour plus d’informations, consultez la section [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-* **Quels calendriers et vues marketing vais-je avoir besoin pour raconter l’histoire de mes campagnes ? Et à quelles parties prenantes puis-je mettre ces points de vue à disposition pour une collaboration harmonieuse ?**
+* **Quels calendriers et vues marketing vais-je avoir à raconter l’histoire de mes campagnes ? À quelles parties prenantes puis-je mettre ces points de vue à disposition pour une collaboration transparente ?**
 
   Pour plus d’informations, voir [Gérer des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
@@ -149,7 +149,7 @@ Les instructions sont organisées en fonction de l’objet ou de la zone que vou
 
 Créez et étiquetez des types d’enregistrement qui représentent un seul concept ou nom, comme &quot;Campagnes&quot;.
 
-:no_entry_sign: Ne créez pas de type d’enregistrement mieux représenté sous la forme d’une couche d’affichage ; par exemple, &quot;Calendrier&quot; est un mauvais choix pour un type d’enregistrement, car il ne s’agit pas du type d’enregistrement proprement dit, mais d’une vue d’enregistrements.
+:no_entry_sign: Ne créez pas de type d’enregistrement mieux représenté en tant que couche d’affichage ; par exemple, &quot;Calendrier&quot; est un mauvais choix pour un type d’enregistrement, car il ne s’agit pas du type d’enregistrement lui-même, mais d’une vue d’enregistrements.
 
 ### Combien de couches de hiérarchie dois-je créer ?
 

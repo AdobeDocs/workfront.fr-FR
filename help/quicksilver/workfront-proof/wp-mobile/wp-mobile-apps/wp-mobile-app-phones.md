@@ -1,5 +1,5 @@
 ---
-title: Application mobile Workfront BAT
+title: Application mobile de l’épreuve Workfront
 description: Découvrez l’application mobile Workfront Proof.
 hide: true
 hidefromtoc: true
@@ -7,23 +7,23 @@ exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
 source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Application mobile Workfront BAT
+# Application mobile de l’épreuve Workfront
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Téléchargez la [!DNL Workfront Proof] à partir d’Apple App Store ou de Google Store pour être productif où que vous soyez. La variable [!DNL Workfront Proof] L’application dispose des fonctionnalités suivantes sur iPhone et iPod Touch :
+Téléchargez l’application [!DNL Workfront Proof] depuis Apple App Store ou Google Store pour qu’elle soit productive où que vous soyez. L’application [!DNL Workfront Proof] dispose des fonctionnalités suivantes sur iPhone et iPod Touch :
 
 * Affichage, révision et approbation de BAT statiques et audio-visuels
 * Afficher, ajouter et répondre aux commentaires
 * Gérer vos BAT via votre tableau de bord et vos vues
 
-Vous n’avez pas besoin d’utiliser [!DNL Workfront Proof] (c’est-à-dire posséder vos propres informations de connexion) pour passer en revue et approuver un BAT via l’application iOS. Tant que vous téléchargez l’application sur votre appareil iOS et accédez à votre URL personnelle via votre application de messagerie iOS, vous pouvez la consulter et l’approuver en déplacement.
+Vous n’avez pas besoin d’être un utilisateur de [!DNL Workfront Proof] (c’est-à-dire de disposer de vos propres informations de connexion) pour passer en revue et approuver un BAT via l’application iOS. Tant que vous téléchargez l’application sur votre appareil iOS et accédez à votre URL personnelle via votre application de messagerie iOS, vous pouvez la consulter et l’approuver en déplacement.
 
 ## Exigences relatives aux périphériques
 
@@ -33,11 +33,11 @@ Nécessite iOS 7.0 ou version ultérieure. Android 4.0 et versions ultérieures.
 
 >[!IMPORTANT]
 >
->L’application mobile Workfront BAT n’est plus prise en charge et est disponible en l’état.  Aucun problème dans l’application ne sera résolu.
+>L’application mobile Workfront Proof n’est plus prise en charge et est disponible en l’état.  Aucun problème dans l’application ne sera résolu.
 
-Pour les appareils iOS, veillez à désinstaller le précédent [!DNL Workfront Proof] pour les appareils iOS avant d’installer la nouvelle application.
+Pour les appareils iOS, veillez à désinstaller l’application [!DNL Workfront Proof] précédente pour les appareils iOS avant d’installer la nouvelle application.
 
-La variable [!DNL Workfront Proof] détecte automatiquement le type d’appareil que vous utilisez. Si vous souhaitez utiliser l’application sur votre tablette, voir [[!DNL Workfront Proof] application mobile pour tablettes](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
+L’application [!DNL Workfront Proof] détecte automatiquement le type d’appareil que vous utilisez. Si vous souhaitez utiliser l’application sur votre tablette, voir [[!DNL Workfront Proof] application mobile pour tablettes](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
 
 >[!NOTE]
 >
@@ -45,33 +45,33 @@ La variable [!DNL Workfront Proof] détecte automatiquement le type d’appareil
 
 ## Prise en main de l’application
 
-Vous n’êtes pas obligé d’être un [!DNL Workfront Proof] pour commencer à utiliser l’application. Installez simplement l’application sur votre appareil et cliquez sur un **[!UICONTROL Atteindre le bon à tirer]** dans votre notification électronique. L’application démarre et charge automatiquement le BAT.
+Vous n’avez pas besoin d’être un utilisateur [!DNL Workfront Proof] pour commencer à utiliser l’application. Installez simplement l’application sur votre appareil et cliquez sur un lien **[!UICONTROL Atteindre le bon à tirer]** dans votre notification électronique. L’application démarre et charge automatiquement le BAT.
 
-Si vous êtes un [!DNL Workfront Proof] vous pouvez vous connecter à l’application avant d’ouvrir un bon à tirer. L’application vous permet de parcourir tous les bons à tirer partagés avec vous et de passer facilement d’un formulaire à l’autre.
+Si vous êtes un utilisateur [!DNL Workfront Proof], vous pouvez vous connecter à l’application avant d’ouvrir un bon à tirer. L’application vous permet de parcourir tous les bons à tirer partagés avec vous et de passer facilement d’un formulaire à l’autre.
 
 1. Ouvrez l’application.
-1. Saisissez votre adresse électronique et votre mot de passe, puis appuyez sur **[!UICONTROL Connexion]**.
+1. Saisissez votre adresse électronique et votre mot de passe, puis appuyez sur **[!UICONTROL Login]**.
 
    Ou
 
-   Utilisez l’authentification unique, si elle est configurée sur votre [!DNL Workfront Proof] compte .
+   Utilisez l’authentification unique, si elle est configurée sur votre compte [!DNL Workfront Proof].
 
-   Vous pouvez utiliser la variable **[!UICONTROL Mot de passe oublié]** si vous ne vous souvenez pas de votre mot de passe.
+   Vous pouvez utiliser l&#39;option **[!UICONTROL Mot de passe oublié]** si vous ne vous souvenez pas de votre mot de passe.
 
 ## Le tableau de bord
 
-Après vous être connecté à [!DNL Workfront Proof] , le tableau de bord s’affiche. Ici, vous pouvez facilement accéder à vos bons à tirer. Vous pouvez ouvrir l’une des vues disponibles, Mes bons à tirer et Tous les bons à tirer. Vous pouvez également appuyer sur le nom de l’un de vos BAT récents pour accéder directement à la visionneuse de BAT.
+Une fois que vous êtes connecté à votre compte [!DNL Workfront Proof], le tableau de bord s’affiche. Ici, vous pouvez facilement accéder à vos bons à tirer. Vous pouvez ouvrir l’une des vues disponibles, Mes bons à tirer et Tous les bons à tirer. Vous pouvez également appuyer sur le nom de l’un de vos BAT récents pour accéder directement à la visionneuse de BAT.
 
-Par défaut, le tableau de bord ouvre la vue Total des bons à tirer . Cette vue affiche tous les bons à tirer dont vous êtes le propriétaire ou qui ont été partagés avec vous. Vous pouvez modifier l’affichage en appuyant sur la barre supérieure de la page pour ouvrir un menu déroulant contenant le [!UICONTROL Heure d’activation], [!UICONTROL À risque], [!UICONTROL Tard] et [!UICONTROL Récent] options. Pour ouvrir un BAT dans n’importe quelle vue, faites défiler la liste vers le bas pour trouver le BAT de votre choix, puis appuyez sur son nom pour accéder à la visionneuse de BAT.
+Par défaut, le tableau de bord ouvre la vue Total des bons à tirer . Cette vue affiche tous les bons à tirer dont vous êtes le propriétaire ou qui ont été partagés avec vous. Vous pouvez modifier la vue en appuyant sur la barre supérieure de la page pour ouvrir un menu déroulant contenant les options [!UICONTROL À l’heure ], [!UICONTROL À risque], [!UICONTROL En retard] et [!UICONTROL Récent]. Pour ouvrir un BAT dans n’importe quelle vue, faites défiler la liste vers le bas pour trouver le BAT de votre choix, puis appuyez sur son nom pour accéder à la visionneuse de BAT.
 
-![Capture d’écran_2016-04-28-20-05-34a.png](assets/screenshot-2016-04-28-20-05-34a-350x535.png)
+![Capture d&#39;écran_2016-04-28-20-05-34a.png](assets/screenshot-2016-04-28-20-05-34a-350x535.png)
 
-| **Heure d’activation** | Affiche tous les bons à tirer actifs de votre compte que vous êtes autorisé à voir et qui ne comportent aucune date limite ou qui se trouvent dans un délai supérieur à 24 heures. |
+| **Sur l’affichage de l’heure** | Affiche tous les bons à tirer actifs de votre compte que vous êtes autorisé à voir et qui ne comportent aucune date limite ou qui se trouvent dans un délai supérieur à 24 heures. |
 |---|---|
-| **Vue des risques** | Affiche tous les bons à tirer pour lesquels la date limite est inférieure à 24 heures. |
+| **À l’affichage des risques** | Affiche tous les bons à tirer pour lesquels la date limite est inférieure à 24 heures. |
 | **Affichage en retard** | Répertorie tous les BAT pour lesquels toutes les actions pour lesquelles la date limite n’est pas respectée ne sont pas terminées. |
-| **Affichage récent** | Inclut les bons à tirer récemment consultés par vous-même et que vous détenez, ainsi que les autorisations à afficher selon vos autorisations de profil et qui ont été partagés avec vous. Cette vue affiche uniquement les bons à tirer que vous avez vous-même ouverts (via l’option [!DNL Workfront Proof] Visionneuse ou via la page Détails du BAT). |
-| **Lien de courrier électronique** | Pour ouvrir un BAT à partir de votre email, ouvrez simplement l’email dans votre application de messagerie, cliquez sur le bouton [!UICONTROL Accéder au BAT] lien du bouton dans l&#39;email (1) et vous serez amené au BAT dans la [!DNL Workfront Proof] application. |
+| **Vue récente** | Inclut les bons à tirer récemment consultés par vous-même et que vous détenez, ainsi que les autorisations à afficher selon vos autorisations de profil et qui ont été partagés avec vous. Cette vue affiche uniquement les bons à tirer que vous avez vous-même ouverts (via la visionneuse [!DNL Workfront Proof] ou via la page Détails du bon à tirer). |
+| **Lien d’email** | Pour ouvrir un BAT à partir de votre email, ouvrez simplement l&#39;email dans votre application de messagerie, cliquez sur le lien du bouton [!UICONTROL Aller au BAT] dans l&#39;email (1) et vous serez redirigé vers le BAT dans l&#39;application [!DNL Workfront Proof]. |
 
 {style="table-layout:auto"}
 
@@ -89,7 +89,7 @@ Lorsque vous ouvrez un BAT dans l’application mobile, vous pouvez effectuer le
 
 ## Ajout de commentaires et de réponses
 
-1. Lorsque vous avez ouvert un BAT, appuyez sur la **[!UICONTROL Ajouter un commentaire]** (1).
+1. Lorsque vous avez ouvert un BAT, appuyez sur le bouton **[!UICONTROL Ajouter un commentaire]** (1).
 
    ![appuyez_the_comment_button.png](assets/tap-the-comment-button-350x541.png)
 
@@ -106,10 +106,10 @@ Lorsque vous ouvrez un BAT dans l’application mobile, vous pouvez effectuer le
 
    ![read_comment.png](assets/read-comment-350x543.png)
 
-1. Effectuez l’une des opérations suivantes :
+1. Effectuez l’une des opérations suivantes :
 
    * Pour répondre à un commentaire, appuyez sur le bouton **[!UICONTROL Répondre]** (3).
-   * Pour revenir à l’image du BAT, appuyez sur la [!UICONTROL légende] Icône
+   * Pour revenir à l’image du BAT, appuyez sur l’icône [!UICONTROL callout] .
    * Pour afficher le commentaire complet et ses réponses, appuyez sur le commentaire lui-même.
 
      ![response_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
@@ -117,23 +117,23 @@ Lorsque vous ouvrez un BAT dans l’application mobile, vous pouvez effectuer le
    * Pour appliquer une action à un commentaire :
 
       1. Ouvrez un commentaire.
-      1. Appuyer **[!UICONTROL Répondre]**.
-      1. Ouvrez le [!UICONTROL actions] sur le côté droit du champ de texte (1).
-      1. Appuyer **[!UICONTROL Ajouter une action]** (2).
+      1. Appuyez sur **[!UICONTROL Répondre]**.
+      1. Ouvrez le menu [!UICONTROL actions] sur le côté droit du champ de texte (1).
+      1. Appuyez sur **[!UICONTROL Ajouter une action]** (2).
 
          ![actions_on_comments.png](assets/actions-on-comments-350x543.png)
 
-         Pour plus d’informations sur les actions, voir [Utilisation d’actions sur les commentaires du BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+         Pour plus d’informations sur les actions, voir [Utilisation d’actions sur les commentaires de BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
 ## Ajouter des balises
 
 Vous pouvez ajouter une annotation (par exemple, une zone surlignant une zone du BAT) et saisir un commentaire associé à cette annotation. Vous pouvez également faire un commentaire sans ajouter de marque-up. Et vous pouvez ajouter plusieurs annotations à un seul commentaire.
 
-1. Sur le bon à tirer que vous avez ouvert, appuyez sur **Ajouter un commentaire** (1).
+1. Sur un BAT que vous avez ouvert, appuyez sur **Ajouter un commentaire** (1).
 
    ![appuyez_the_add_comment_button.png](assets/tap-the-add-comment-button-350x541.png)
 
-1. Choisissez parmi les [!UICONTROL mode panoramique] (2), [!UICONTROL outil rectangle] (3), [!UICONTROL dessin à main levée] (4) ou la variable [!UICONTROL flèche] (5).
+1. Choisissez entre le [!UICONTROL mode Panoramique] (2), l&#39;[!UICONTROL outil de rectangle] (3), le [!UICONTROL dessin à main libre] (4) ou l&#39;outil [!UICONTROL flèche] (5)).
 
    Vous pouvez également modifier la couleur de la ligne de l’annotation (6).
 
@@ -141,7 +141,7 @@ Vous pouvez ajouter une annotation (par exemple, une zone surlignant une zone du
 
    Vous n’avez pas besoin d’ajouter du texte pour enregistrer vos balises (7).
 
-1. Appuyer **[!UICONTROL Annuler]** (8) si vous souhaitez ignorer vos balises .
+1. Appuyez sur **[!UICONTROL Annuler]** (8) si vous souhaitez ignorer vos balises .
 
    ![adding_a_markup.png](assets/adding-a-markup-350x543.png)
 
@@ -151,36 +151,36 @@ Vous pouvez ajouter une annotation (par exemple, une zone surlignant une zone du
 
 ## Prendre des décisions sur un BAT
 
-1. Ouvrez le BAT dans la visionneuse de BAT, puis appuyez sur le bouton [!UICONTROL Décision] (1).
+1. Ouvrez le BAT dans la visionneuse de BAT et appuyez sur le bouton [!UICONTROL Décision] (1).
 
    ![décision_button.png](assets/decision-button-350x542.png)
 
 1. Appuyez sur la décision que vous souhaitez soumettre (2).
-1. Appuyer **[!UICONTROL Enregistrer]** pour soumettre votre décision.
+1. Appuyez sur **[!UICONTROL Enregistrer]** pour envoyer votre décision.
 
-   ![submit_choice.png](assets/submit-decision-350x543.png)
+   ![submit_décision.png](assets/submit-decision-350x543.png)
 
    >[!NOTE]
    >
    >* Si un message contextuel de décision est défini sur le compte dans lequel le BAT a été créé, il apparaît également dans l’application iOS lorsqu’une décision est prise sur un BAT.
-   >* Si vous définissez des motifs de décision, ils s’affichent sur la page [!UICONTROL Envoyer votre décision] pour que vous puissiez choisir.
+   >* Si vous définissez des motifs de décision, ils s’afficheront sur l’écran [!UICONTROL Soumettre votre décision] pour que vous puissiez choisir.
 
 
-   Si vous avez déjà soumis une décision et que vous souhaitez la modifier ou la supprimer, vous pouvez facilement le faire. une nouvelle option, **[!UICONTROL Supprimer ma décision]** (6), apparaît sur la [!UICONTROL Envoyer votre décision] écran.
+   Si vous avez déjà soumis une décision et que vous souhaitez la modifier ou la supprimer, vous pouvez facilement le faire. Après avoir envoyé une décision, une nouvelle option, **[!UICONTROL Supprimer ma décision]** (6), apparaît sur l’écran [!UICONTROL Envoyer votre décision].
 
-   ![remove_choice.png](assets/remove-decision-350x543.png)
+   ![remove_décision.png](assets/remove-decision-350x543.png)
 
 ## Vérification d’un BAT audio ou vidéo dans l’application
 
 La vérification d’un BAT audio-vidéo dans l’application iOS est tout aussi simple que la révision d’un fichier statique :
 
-1. Appuyez sur le bouton [!UICONTROL lecture/pause] pour lire ou suspendre la vidéo (1).
-1. Pour parcourir la vidéo, appuyez sur la [!UICONTROL navigation] bar (2).
+1. Appuyez sur le bouton [!UICONTROL play/pause] pour lire ou suspendre la vidéo (1).
+1. Pour parcourir la vidéo, appuyez sur la barre [!UICONTROL navigation] (2).
 1. Pour laisser un commentaire, appuyez sur le bouton **[!UICONTROL Commentaire]** (3), puis suivez les instructions décrites ci-dessus.
 
    Les commentaires ou les annotations laissés sur le BAT seront marqués par des épingles le long de la barre de navigation (4).
 
-1. Si vous souhaitez consulter les commentaires laissés sur le BAT, appuyez sur la **[!UICONTROL Commentaires]** (5), puis suivez les instructions décrites ci-dessus.
-1. Pour prendre une décision, appuyez sur la **[!UICONTROL Décision]** (6), puis suivez les instructions ci-dessus.
+1. Si vous souhaitez consulter les commentaires laissés sur le BAT, appuyez sur le bouton **[!UICONTROL Commentaires]** (5), puis suivez les instructions décrites ci-dessus.
+1. Pour prendre une décision, appuyez sur le bouton **[!UICONTROL Decision]** (6), puis suivez les instructions ci-dessus.
 
-   ![AV_proof.png](assets/av-proof-350x545.png)
+   ![AV_BAT.png](assets/av-proof-350x545.png)

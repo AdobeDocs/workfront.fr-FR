@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations de l’intégration apportées à la version du quatrième trimestre 2023 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production avec la version 23.10.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2023, voir [Présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2023, consultez la [présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Améliorations de l’expérience lors de l’envoi de documents à SharePoint (GraphAPI)
 
@@ -26,7 +26,7 @@ Nous avons apporté quelques modifications à la manière dont vous envoyez des 
 * La fenêtre Envoyer à affiche désormais jusqu’à 500 sites, dossiers et documents.
 * Les résultats de recherche affichent désormais différentes icônes pour les sites et les dossiers SharePoint, ce qui permet d’indiquer clairement quels résultats sont des sites et quels sont les dossiers. Les fichiers n’affichent pas d’icône.
 
-Pour plus d’informations, voir [Lier des documents par le biais de la nouvelle intégration SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
+Pour plus d’informations, reportez-vous à la section [Liaison de documents par le biais de la nouvelle intégration de SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## Mises à niveau par glisser-déposer pour les intégrations de documents
 

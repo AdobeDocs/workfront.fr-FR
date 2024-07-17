@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Webinars de la version 2017.2
+title: Webinaires sur la version 2017.2
 description: Ces webinaires portaient sur les fonctionnalités incluses dans la version 2017.2.
 author: Luke
 feature: Product Announcements
@@ -10,22 +10,22 @@ exl-id: 97091ac4-f5de-4256-aa24-f96d083ced49
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Webinars de la version 2017.2
+# Webinaires sur la version 2017.2
 
 Ces webinaires portaient sur les fonctionnalités incluses dans la version 2017.2. 
 
 La version 2017.2 est actuellement disponible pour le test dans Aperçu ; la version 2017.2 sera disponible dans l’environnement de production à la fin du mois de juillet ou au début du mois d’août 2017.
 
-Pour obtenir des informations plus détaillées sur les fonctionnalités abordées dans les webinaires, voir [Présentation de l’activité de la version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) page.
+Pour plus d’informations sur les fonctionnalités abordées dans les webinaires, consultez la page [2017.2 release activity overview](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) (présentation de l’activité de version ).
 
 Les webinaires suivants sont disponibles :
 
-* [Webinaire sur la version 2017.2 (27 juin 2017)](#2017-2-release-webinar-june-27-2017)
-* [2017.2 bêta 1 et 2 (24 mai 2017)](#2017-2-beta-1-and-2-may-24-2017)
+* [Webinaire de mise à jour 2017.2 (27 juin 2017)](#2017-2-release-webinar-june-27-2017)
+* [2017.2 Beta 1 et 2 (24 mai 2017)](#2017-2-beta-1-and-2-may-24-2017)
 
 ## Webinaire sur la version 2017.2 (27 juin 2017) {#2017-2-release-webinar-june-27-2017}
 
@@ -38,7 +38,7 @@ Pour des raisons pratiques, le webinaire est divisé en plusieurs rubriques :
 * [Vérification](#proofing)
 * [Autres améliorations](#other-enhancements)
 * [Mobile](#mobile)
-* [Suppression de la fonctionnalité](#functionality-being-removed)
+* [Fonctionnalité en cours de suppression](#functionality-being-removed)
 * [Administrateurs et développeurs](#administrators-and-developers)
 
 ### Introduction {#introduction}
@@ -100,6 +100,6 @@ Cette partie du webinaire contient les sujets suivants :
 * Modifications des API
 * API version 7 (et autres modifications)
 
-## 2017.2 bêta 1 et 2 (24 mai 2017) {#2017-2-beta-1-and-2-may-24-2017}
+## 2017.2 Beta 1 et 2 (24 mai 2017) {#2017-2-beta-1-and-2-may-24-2017}
 
-Le webinaire de la version a été présenté le 24 mai 2017. Ce webinaire couvre les fonctionnalités mises à disposition avec les versions bêta 1 et bêta 2017.2.
+Le webinaire de la version a été présenté le 24 mai 2017. Ce webinaire couvre les fonctionnalités mises à disposition avec les versions 2017.2 de Beta 1 et Beta 2.

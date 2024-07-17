@@ -4,7 +4,8 @@ description: Améliorations apportées à l’administrateur au premier trimestr
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+exl-id: bff29a53-8453-4157-aa80-4dbe9f1cc88d
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées à l’environnement de prévisualisation par la version du premier trimestre 2024 de l’administrateur. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du premier trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2024, voir [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication Premier trimestre 2024, reportez-vous à la [présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Les décisions relatives aux BAT/documents sont désormais disponibles pour les 12 mois précédents.
 

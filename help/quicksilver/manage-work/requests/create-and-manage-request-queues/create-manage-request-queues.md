@@ -2,7 +2,7 @@
 content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
-title: Création et gestion des files d’attente de requête
+title: Créer et gérer des files d’attente des demandes
 description: Vous pouvez créer des files d’attente de requêtes dans Adobe Workfront pour capturer le travail non planifié de votre entreprise. Les articles suivants décrivent comment configurer des projets pour qu’ils fonctionnent comme des files d’attente de requêtes.
 author: Alina
 feature: Work Management, Requests
@@ -13,20 +13,20 @@ exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
 source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
-# Création et gestion des files d’attente de requête
+# Créer et gérer des files d’attente des demandes
 
-Cette section contient les articles suivants :
+Cette section contient les articles suivants :
 
-* [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* [Créer une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 * [Définition des types de requête pour un projet](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-* [Fournir l’accès aux files d’attente de demandes](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
-* [Création de groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-* [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
-* [Création de règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+* [Accéder aux files d’attente de demandes](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
+* [Créer des groupes de sujets](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+* [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+* [Créer des règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
   <!--
   <li><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>

@@ -1,85 +1,85 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: iterations
-title: Ajouter des articles à une itération existante
+title: Ajouter des utilisateurs et utilisatrices à une itération existante
 description: Vous pouvez ajouter des articles à une itération de plusieurs façons.
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 11%
 
 ---
 
-# Ajouter des articles à une itération existante
+# Ajouter des utilisateurs et utilisatrices à une itération existante
 
 Vous pouvez ajouter des articles à une itération de l’une des manières suivantes :
 
-* Depuis le journal des travaux après la création de l’itération, comme décrit dans la section [Déplacer des articles du journal vers une itération ou [!UICONTROL Kanban] board](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#moving-stories-from-the-backlog) dans [Gestion du journal en souffrance agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* À partir du journal après la création de l’itération, comme décrit dans la section [Déplacer des articles du journal vers une itération ou [!UICONTROL panorama Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#moving-stories-from-the-backlog) de [Gérer le journal agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
-* Dans la [!UICONTROL Détails] page de la tâche ou du problème individuel
+* Sur la page [!UICONTROL Détails] de la tâche ou du problème individuel
 * À partir d’une tâche ou d’une liste de problèmes
 * À partir d’un rapport
 * Depuis un tableau de bord
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!UICONTROL Work] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou version ultérieure</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
+   <td> <p>[!UICONTROL Worker] ou version ultérieure</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur [!DNL Workfront] s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>[!UICONTROL Gérer] Accès au projet sur lequel se trouve l’article</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>[!UICONTROL Gérer] Accès au projet sur lequel se trouve l’article</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
 ## Comprendre comment l’ajout d’articles affecte les dates des tâches
 
-Par défaut, lorsque vous ajoutez une tâche existante à une itération, la tâche [!UICONTROL Date de début planifiée] et [!UICONTROL Date d’achèvement prévue] sont définies comme suit :
+Par défaut, lorsque vous ajoutez une tâche existante à une itération, les [!UICONTROL Date de début planifiée] et [!UICONTROL Date de fin planifiée] de la tâche sont définies comme suit :
 
 ### Tâche [!UICONTROL Date de début planifiée]
 
 * La tâche utilise la Date de début de l&#39;itération lorsque :
 
    * Le projet n’a pas de [!UICONTROL Date de début planifiée] définie.
-   * Le projet [!UICONTROL Date de début planifiée] is *before* ou *on* date de début de l’itération.
+   * La [!UICONTROL date de début planifiée] du projet est *avant* ou *le* date de début de l’itération.
 
-* La tâche utilise le [!UICONTROL Date de début planifiée] lorsque :
+* La tâche utilise la [!UICONTROL date de début planifiée] du projet lorsque :
 
-   * Le projet [!UICONTROL Date de début planifiée] is *after* date de début de l’itération.
+   * La [!UICONTROL date de début planifiée] du projet est *après* la date de début de l’itération.
 
-### Tâche [!UICONTROL Date d’achèvement prévue]
+### Tâche [!UICONTROL Date d’achèvement planifiée]
 
 * La tâche utilise la Date de fin de l’itération lorsque :
 
-   * Le projet n’a pas de [!UICONTROL Date d’achèvement prévue] définie.
-   * Le projet [!UICONTROL Date de début planifiée] is *avant ou après* Date de début de l’itération ou du projet [!UICONTROL Date d’achèvement prévue] is *avant ou après* Date de fin de l’itération.
+   * Le projet n’a pas de [!UICONTROL Date d’achèvement planifiée] définie.
+   * La [!UICONTROL date de début planifiée] du projet est *avant ou le* la date de début de l’itération ou la [!UICONTROL date d’achèvement planifiée] du projet est *avant ou le* la date de fin de l’itération.
 
-* La tâche utilise le [!UICONTROL Date d’achèvement prévue] lorsque :
+* La tâche utilise la [!UICONTROL date d’achèvement planifiée] du projet lorsque :
 
-   * Le projet [!UICONTROL Date de début planifiée] is *after* la date de début de l’itération et celle du projet ; [!UICONTROL Date d’achèvement prévue] is *after* Date de fin de l’itération.
+   * La [!UICONTROL date de début planifiée] du projet est *après* la date de début de l’itération et la [!UICONTROL date d’achèvement planifiée] du projet est *après* la date de fin de l’itération.
 
-Vous pouvez configurer des équipes Scrum individuelles pour utiliser les dates du projet par défaut plutôt que les dates d’itération. Pour plus d’informations, voir la section [Configurer l’application des dates lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans l’article [Configuration de Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Vous pouvez configurer des équipes Scrum individuelles pour utiliser les dates du projet par défaut plutôt que les dates d’itération. Pour plus d’informations, reportez-vous à la section [Configuration de la manière dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans l’article [Configurer le graphique](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Ajouter un article à une itération existante
 
@@ -87,7 +87,7 @@ Pour ajouter des articles à une itération directement à partir de la tâche o
 
 >[!IMPORTANT]
 >
->Une fois que la tâche est déplacée vers l’itération, vous ne pouvez pas mettre à jour la variable [!UICONTROL Type de durée] ou [!UICONTROL Contrainte de tâche]. [!UICONTROL Type de durée] est défini sur [!UICONTROL Simple] et [!UICONTROL Contrainte de tâche] est défini sur [!UICONTROL Dates fixes] afin que la chronologie de la tâche reste cohérente avec la chronologie de l’itération.
+>Une fois que la tâche est déplacée vers l’itération, vous ne pouvez pas mettre à jour le [!UICONTROL type de durée] ou la [!UICONTROL contrainte de tâche]. [!UICONTROL Le type de durée] est défini sur [!UICONTROL Simple] et [!UICONTROL Contrainte de tâche] est défini sur [!UICONTROL Dates fixes] pour conserver la chronologie de la tâche cohérente avec la chronologie de l’itération.
 
 ### Dans l’onglet Tâches ou problèmes
 
@@ -103,7 +103,7 @@ Vous pouvez ajouter n’importe quelle tâche ou problème à n’importe quelle
 1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png) > **[!UICONTROL Ajouter à l’itération]**.\
    Vous ne pouvez pas affecter de tâches ou de problèmes affectés à des équipes non agiles.
 
-1. Dans le **[!UICONTROL Ajouter des articles]** saisissez le nom de l’itération.
+1. Dans la zone **[!UICONTROL Ajouter des articles]**, saisissez le nom de l’itération.
 
    >[!NOTE]
    >
@@ -111,4 +111,4 @@ Vous pouvez ajouter n’importe quelle tâche ou problème à n’importe quelle
 
 1. Si vous ajoutez des tâches, cliquez sur **[!UICONTROL Ajouter des articles]**.\
    Ou\
-   Si vous ajoutez des problèmes, cliquez sur **[!UICONTROL Ajout de problèmes]**.
+   Si vous ajoutez des problèmes, cliquez sur **[!UICONTROL Ajouter des problèmes]**.

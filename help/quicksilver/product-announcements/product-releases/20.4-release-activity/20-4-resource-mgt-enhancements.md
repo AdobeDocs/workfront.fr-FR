@@ -1,6 +1,6 @@
 ---
-title: 20.4 Améliorations de la gestion des ressources
-description: 20.4 Améliorations de la gestion des ressources
+title: Améliorations de la gestion des ressources (version 20.4)
+description: Améliorations de la gestion des ressources (version 20.4)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 20.4 Améliorations de la gestion des ressources
+# Améliorations de la gestion des ressources (version 20.4)
 
 Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 20.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production durant la semaine du 9 novembre 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 20.4, voir [Présentation de la version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 20.4, consultez la [présentation de la version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Planifier le travail à l’aide de l’effort de travail au lieu des heures planifiées
 
@@ -30,9 +30,9 @@ Les améliorations suivantes sont désormais disponibles avec cette nouvelle fon
 * Désactivez ce paramètre à l’aide d’un modèle de mise en page pour les utilisateurs qui préfèrent continuer à utiliser les heures planifiées.
 * Afficher la valeur de ce nouveau champ dans une liste de tâches ou un rapport.
 
-Pour plus d’informations sur l’effort de travail, voir [Présentation de l’effort de travail](../../../manage-work/tasks/task-information/work-effort.md).
+Pour plus d’informations sur l’effort de travail, consultez la [présentation de l’effort de travail](../../../manage-work/tasks/task-information/work-effort.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes de planification, deuxième partie du parcours d&#39;apprentissage](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans les [Principes de planification, Partie 2 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) sur Workfront One.
 
 ## Couleurs basées sur l’état du projet pour les tâches dans l’équilibreur de charge de travail
 
@@ -88,7 +88,7 @@ Le filtre par défaut de la zone de travail affectée dans l’équilibreur de c
 
 Avant cette amélioration, tous les utilisateurs auxquels vous avez accès s’affichaient dans cette zone.
 
-Pour plus d’informations sur l’utilisation de filtres dans l’équilibreur de charge de travail, voir [Gestion des filtres dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Pour plus d’informations sur l’utilisation des filtres dans l’équilibreur de charge de travail, voir [Gestion des filtres dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ## Nouvelle icône pour basculer entre les heures et les valeurs de pourcentage, ou entre le temps alloué et le temps restant dans l’équilibreur de charge de travail
 
@@ -102,5 +102,5 @@ Pour plus d’informations sur la gestion des paramètres de l’équilibreur de
 
 Pour optimiser votre expérience de filtrage dans l’équilibreur de charge de travail, nous avons ajouté un nouveau filtre intégré dans la zone Travail affecté . Vous pouvez maintenant appliquer le filtre Utilisateurs sur les projets qui affiche les utilisateurs affectés aux tâches et problèmes dans les projets que vous spécifiez.
 
-Pour plus d’informations sur l’utilisation de filtres dans l’équilibreur de charge de travail, voir [Filtrage des informations dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Pour plus d’informations sur l’utilisation des filtres dans l’équilibreur de charge de travail, voir [Filtrage des informations dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 

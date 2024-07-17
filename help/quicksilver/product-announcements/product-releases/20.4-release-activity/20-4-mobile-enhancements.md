@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Cette page décrit toutes les améliorations apportées à la version 20.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production durant la semaine du 9 novembre 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 20.4, voir [Présentation de la version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 20.4, consultez la [présentation de la version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Ajout d’une fonctionnalité dans les notifications de Microsofts Teams
 
@@ -62,4 +62,4 @@ Dans l’application mobile, vous pouvez demander à l’assistant virtuel de vo
 
 Ces commandes affichent une liste des différentes questions que vous pouvez poser à l’assistant.
 
-**Remarque : L’assistant virtuel mobile est obsolète depuis avril 2024.**
+**Remarque : l’assistant virtuel mobile est obsolète depuis avril 2024.**

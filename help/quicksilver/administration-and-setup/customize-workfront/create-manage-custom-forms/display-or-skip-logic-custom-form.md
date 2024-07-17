@@ -84,12 +84,12 @@ La meilleure façon d’apprendre à ajouter une logique d’affichage et d’ex
 
 1. Créez l’exemple de formulaire personnalisé :
 
-   1. Cliquez sur **Nouveau formulaire personnalisé**, puis cliquez sur **Projet** dans la liste déroulante.
+   1. Cliquez sur **New Custom Form**, puis sur **Project** dans la liste déroulante.
 
-   1. Dans le **Titre du formulaire** box, type **Exemple de formulaire personnalisé : apprentissage de la logique d’affichage et de la logique de saut**.
+   1. Dans la zone **Titre du formulaire**, saisissez **Exemple de formulaire personnalisé - Logique d’affichage d’apprentissage et logique d’exclusion**.
 
    1. Cliquez sur **Ajouter un champ** dans le coin supérieur gauche.
-   1. Ajoutez un champ de liste déroulante appelé *Champ de problème* en cliquant **Liste déroulante**, puis en tapant **Champ de problème** dans le **Libellé** de la boîte.
+   1. Ajoutez un champ de liste déroulante appelé *Champ de problème* en cliquant sur **Liste déroulante**, puis en saisissant **Champ de problème** dans la zone **Étiquette**.
 
    1. Sous **Choix**, ajoutez les options suivantes dans les zones de texte :
 
@@ -99,43 +99,43 @@ La meilleure façon d’apprendre à ajouter une logique d’affichage et d’ex
 
    1. Cliquez sur **Enregistrer + Fermer** dans le coin inférieur gauche.
 
-1. Sélectionnez la nouvelle **Exemple de formulaire personnalisé : apprentissage de la logique d’affichage et de la logique de saut** formulaire personnalisé, puis cliquez sur **Modifier**.
+1. Sélectionnez le nouveau formulaire personnalisé **Exemple de formulaire personnalisé - Logique d’affichage d’apprentissage et ignorer la logique**, puis cliquez sur **Modifier**.
 
-1. Ajoutez un nouveau champ de texte d’une seule ligne appelé *Autres recherches* en cliquant **Champ de texte d’une seule ligne**, puis en tapant **Autres recherches** dans le **Libellé** de la boîte.
+1. Ajoutez un nouveau champ de texte d’une seule ligne appelé *Other Research* en cliquant sur **Single Line Text Field**, puis en saisissant **Other Research** dans la zone **Label**.
 
-1. Cliquez sur **Ajouter une logique** près du côté inférieur gauche du **Modifier le formulaire personnalisé** écran.
+1. Cliquez sur **Ajouter la logique** près du coin inférieur gauche de l’écran **Modifier le formulaire personnalisé** .
 
-1. Dans la zone qui s’affiche, avec la fonction **Logique d’affichage** ouvrez l’onglet , configurez la logique pour le moment où la variable **Autres recherches** apparaît sur le formulaire en cliquant sur **Champ de problème** dans la première liste déroulante, **Recherche nécessaire** dans la deuxième liste déroulante, et **Sélectionné** dans la troisième liste déroulante.
-1. Cliquez sur **Enregistrer** pour fermer la **Logique du champ** , puis cliquez sur **Terminé** dans le **Paramètres des champs** zone.
+1. Dans la zone qui s’affiche, avec l’onglet **Afficher la logique** ouvert, configurez la logique du moment où le champ **Autre recherche** apparaîtra sur le formulaire en cliquant sur **Champ de problème** dans la première liste déroulante, **Recherche nécessaire** dans la deuxième liste déroulante et **Sélectionné** dans la troisième liste déroulante.
+1. Cliquez sur **Enregistrer** pour fermer la fenêtre **Logique du champ**, puis cliquez sur **Terminé** dans la zone **Paramètres du champ**.
 
-   Maintenant, lorsqu’une personne sélectionne **Recherche nécessaire** dans le **Champ de problème** , la variable **Autres recherches** s’affiche.
+   Désormais, lorsque quelqu’un sélectionne **Recherche requise** dans la liste déroulante **Champ de problème**, le champ **Autre recherche** s’affiche.
 
-1. Cliquez sur **Aperçu** pour vous assurer que la logique s’affiche comme vous le souhaitez sur le formulaire.
-1. Cliquez sur **Aperçu de la fin** lorsque vous constatez que la logique fonctionne comme prévu.
-1. Cliquez sur **Enregistrer + Fermer** sur le **Modifier le formulaire personnalisé** pour enregistrer le formulaire, puis passez à [Ignorer la logique](#skip-logic) ci-dessous
+1. Cliquez sur **Aperçu** pour vous assurer que la logique apparaît comme vous le souhaitez dans le formulaire.
+1. Cliquez sur **End Preview** lorsque vous constatez que la logique fonctionne comme prévu.
+1. Cliquez sur **Enregistrer + Fermer** dans la fenêtre **Modifier le formulaire personnalisé** pour enregistrer le formulaire, puis passez à [Ignorer la logique](#skip-logic) ci-dessous.
 
 ### Ignorer la logique {#skip-logic}
 
 Ignorer la logique fonctionne de la même manière que pour afficher la logique, mais agit comme l’inverse : au lieu de faire apparaître des champs personnalisés à choix multiples spécifiques en fonction de sélections spécifiques, vous déterminez ceux qui doivent être ignorés en fonction des sélections des utilisateurs.
 
-Pour en savoir plus, continuez à travailler sur l’exemple de formulaire personnalisé que vous avez créé dans la section . [Logique d’affichage](#display-logic) dans cet article :
+Pour en savoir plus à ce sujet, continuez à travailler sur l’exemple de formulaire personnalisé que vous avez créé dans la section [logique d’affichage](#display-logic) de cet article :
 
 1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Formulaires personnalisés**.
-1. Sélectionner le formulaire **Exemple de formulaire personnalisé : apprentissage de la logique d’affichage et de la logique de saut** que vous avez créé lors des étapes ci-dessus, puis cliquez sur **Modifier**.
+1. Sélectionnez le formulaire **Exemple de formulaire personnalisé - Logique d’affichage d’apprentissage et ignorer la logique** que vous avez créée lors des étapes ci-dessus, puis cliquez sur **Modifier**.
 
-1. Sélectionnez le champ déroulant que vous avez créé nommé *Champ de problème*.
-1. Cliquez sur le bouton **Ajouter une logique** dans le **Paramètres des champs** barre latérale.
+1. Sélectionnez le champ déroulant que vous avez créé appelé *Champ de problème*.
+1. Cliquez sur le bouton **Ajouter la logique** dans la barre latérale **Paramètres du champ**.
 
-1. Dans le **Logique du champ** , assurez-vous que la variable **Ignorer la logique** est sélectionné.
+1. Dans la zone **Logique du champ**, assurez-vous que l’onglet **Ignorer la logique** est sélectionné.
 
-1. Définissez la première liste déroulante sur **Plus de recherche** et la deuxième liste déroulante de **Sélectionné**.
+1. Définissez la première liste déroulante sur **Plus de recherche** et la seconde sur **Sélectionné**.
 
-1. Dans le **Puis, passez à** , sélectionnez **Fin de formulaire.**
+1. Dans la liste déroulante **Then Skip To** (Passer à), sélectionnez **End of form (Fin de formulaire).**
 
-   Maintenant, lorsqu’une personne sélectionne **Plus de recherche** dans le **Champ de problème** , le formulaire passe directement à la fin du formulaire sans afficher le champ **Autres recherches** champ .
+   Désormais, lorsqu’une personne sélectionne **Plus de recherche** dans le champ déroulant **Champ de problème**, le formulaire passe directement à la fin du formulaire sans afficher le champ **Autres recherches**.
 
 1. Cliquer sur **Enregistrer**.
-1. Cliquez sur **Aperçu**  pour vous assurer que la logique s’applique comme vous le souhaitez.
+1. Cliquez sur **Aperçu** pour vous assurer que la logique s’applique comme vous le souhaitez.
 1. Cliquez sur **Terminé** dans le coin inférieur gauche du formulaire.

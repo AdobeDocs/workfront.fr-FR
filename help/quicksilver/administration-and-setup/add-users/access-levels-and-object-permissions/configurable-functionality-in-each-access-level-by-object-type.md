@@ -7,8 +7,8 @@ role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
 source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '3435'
-ht-degree: 10%
+source-wordcount: '3436'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Cet article explique ce que vous pouvez autoriser en tant qu’administrateur Adobe Workfront pour chaque type d’objet, à chaque niveau d’accès. Il explique également la configuration par défaut pour chaque type de niveau d’accès.
 
-Pour plus d’informations sur toutes les fonctionnalités disponibles pour un type d’objet dans chaque niveau d’accès, voir [Fonctionnalités disponibles pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Pour plus d’informations sur toutes les fonctionnalités disponibles pour un type d’objet dans chaque niveau d’accès, voir [Fonctionnalité disponible pour chaque type d’objet](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Projets
 
@@ -36,16 +36,16 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Planificateur (type de licence Plan)</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des projets. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des projets.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à la modification des projets.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Copier</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Afficher</p> </li> 
        <li> <p>Partager</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -53,16 +53,16 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des projets. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès limité à l’édition des projets. Pour voir comment l’accès Modifier est limité dans un niveau d’accès Travailleur par rapport à un niveau d’accès Planificateur (qui permet un accès de modification complet aux projets), consultez la section . <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref">Projets</a> dans l’article <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref">Fonctionnalités disponibles pour chaque type d’objet</a>.</p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des projets. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Modifier , puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès limité à l’édition aux projets. Pour voir comment l’accès Modifier est limité dans un niveau d’accès Travailleur par rapport à un niveau d’accès Planificateur (qui permet un accès de modification complet aux projets), consultez la section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref">Projets</a> de l’article <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref">Fonctionnalité disponible pour chaque type d’objet</a>.</p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des projets. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Modifier, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <b>Affichage</b> (sélection par défaut) </li> 
     </ul> </td> 
   </tr> 
@@ -70,12 +70,12 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> (sélection par défaut) <p>L’accès aux vues est limité, car vous ne pouvez pas l’affiner pour activer ou désactiver le partage de projet.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux projets n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
@@ -99,14 +99,14 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire cette fonctionnalité, vous pouvez configurer la possibilité de partager des tâches. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à l'édition des tâches.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à l’édition des tâches.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -114,9 +114,9 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire cette fonctionnalité, vous pouvez configurer la possibilité de partager des tâches. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à l'édition des tâches.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à l’édition des tâches.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
@@ -128,7 +128,7 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <b>Affichage</b> (sélection par défaut) </li> 
     </ul> </td> 
   </tr> 
@@ -136,18 +136,18 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> (sélection par défaut)<p>L’accès aux vues est limité, car vous ne pouvez pas l’affiner pour activer ou désactiver le partage de projet.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux tâches n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Événements
+## Problèmes
 
 Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour les problèmes :
 
@@ -165,14 +165,14 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <p><b>Afficher</b></p><p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des problèmes. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet aux modifications pour les problèmes.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet aux modifications pour les problèmes.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -180,9 +180,9 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des problèmes. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet aux modifications pour les problèmes.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet aux modifications pour les problèmes.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
@@ -194,9 +194,9 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des problèmes. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet aux modifications pour les problèmes.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet aux modifications pour les problèmes.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
@@ -208,9 +208,9 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des problèmes. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet aux modifications pour les problèmes.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet aux modifications pour les problèmes.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
@@ -219,7 +219,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux problèmes n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
@@ -243,14 +243,14 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des portefeuilles. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des portefeuilles.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à la modification des portefeuilles.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -258,7 +258,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <b>Affichage</b> (sélection par défaut) </li> 
     </ul> </td> 
   </tr> 
@@ -266,7 +266,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <b>Affichage</b> (sélection par défaut)</li> 
     </ul> </td> 
   </tr> 
@@ -275,7 +275,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td> <p>L’accès aux portefeuilles n’est pas disponible.</p> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux portefeuilles n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
@@ -299,14 +299,14 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des programmes. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des programmes.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à l’édition aux programmes.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -314,7 +314,7 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <b>Affichage</b> (sélection par défaut) </li> 
     </ul> </td> 
   </tr> 
@@ -322,7 +322,7 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <b>Affichage</b> (sélection par défaut)</li> 
     </ul> </td> 
   </tr> 
@@ -331,7 +331,7 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td> <p>L’accès aux programmes n’est pas disponible.</p> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux programmes n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
@@ -355,20 +355,20 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
-     <li> <p><b>Afficher</b></p><p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> ), puis désactivez ou activez l’une des actions suivantes. Les deux sont activés par défaut :</p> 
+     <li> <b>Aucun accès</b> </li> 
+     <li> <p><b>Afficher</b></p><p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> ), puis désactivez ou activez l’une des actions suivantes. Les deux sont activés par défaut :</p> 
       <ul> 
        <li> <p>Afficher les rapports intégrés</p> </li> 
        <li> <p>Partager</p> </li> 
       </ul> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des rapports, des tableaux de bord et des calendriers.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut, sauf pour <b>Affichage des rapports intégrés</b>, <b>Partage des rapports publiquement</b>, et <b>Partager à l’échelle du système</b>.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à l’édition des rapports, des tableaux de bord et des calendriers.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut, à l’exception de <b>Afficher les rapports natifs</b>, <b>Partager les rapports publiquement</b> et <b>Partager à l’échelle du système</b>.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Afficher les rapports intégrés</p> </li> 
        <li> <p>Partager</p> </li> 
        <li> <p>Partage des rapports publiquement (en externe)</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -376,8 +376,8 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
-     <li><p> <b>Afficher</b></p> (sélection par défaut)<p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des actions suivantes. Les deux sont activés par défaut :</p> 
+     <li> <b>Aucun accès</b> </li> 
+     <li><p> <b>Afficher</b></p> (sélection par défaut)<p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des actions suivantes. Les deux sont activés par défaut :</p> 
       <ul> 
        <li> <p>Afficher les rapports intégrés</p> </li> 
        <li> <p>Partager</p> </li> 
@@ -388,8 +388,8 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
-     <li> <p><b>Affichage</b> (sélection par défaut)<p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des actions suivantes. Seule l’option Partager est activée par défaut.</p> 
+     <li> <b>Aucun accès</b> </li> 
+     <li> <p><b>Affichage</b> (sélection par défaut)<p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des actions suivantes. Seule l’option Partager est activée par défaut.</p> 
       <ul> 
        <li> <p>Afficher les rapports intégrés</p> </li> 
        <li> <p>Partager</p> </li> 
@@ -400,12 +400,12 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
-     <li> <p><b>Affichage</b> (sélection par défaut) : Permet un accès en lecture seule aux rapports, tableaux de bord et calendriers qui ont été partagés avec eux.</p> <p>Pour affiner ce paramétrage, vous pouvez configurer la possibilité d’afficher des rapports natifs. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> bouton, puis désactivez ou activez <b>Affichage intégré</b>(désactivé par défaut).</p> </li> 
+     <li> <b>Aucun accès</b> </li> 
+     <li> <p><b>Affichage</b> (sélection par défaut) : permet un accès en lecture seule aux rapports, aux tableaux de bord et aux calendriers qui ont été partagés avec eux.</p> <p>Pour affiner ce paramétrage, vous pouvez configurer la possibilité d’afficher des rapports natifs. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’option <b>Afficher le contenu intégré</b> (désactivée par défaut).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux rapports, aux tableaux de bord et aux calendriers n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
@@ -430,12 +430,12 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td> 
     <ul> 
      <li> <p><b>Afficher</b></p><p>Pour parfaire cette fonctionnalité, vous pouvez configurer la possibilité de partager des filtres, des vues et des regroupements. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des filtres, des vues et des regroupements.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à l’édition aux filtres, aux vues et aux regroupements.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -444,12 +444,12 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td> 
     <ul> 
      <li> <p><b>Afficher</b></p><p>Pour parfaire cette fonctionnalité, vous pouvez configurer la possibilité de partager des filtres, des vues et des regroupements. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des filtres, des vues et des regroupements.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à l’édition aux filtres, aux vues et aux regroupements.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -458,12 +458,12 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td> 
     <ul> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire cette fonctionnalité, vous pouvez configurer la possibilité de partager des filtres, des vues et des regroupements. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des filtres, des vues et des regroupements.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à l’édition aux filtres, aux vues et aux regroupements.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -471,18 +471,18 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <p><b>Afficher</b>:</p> <p>Pour parfaire cette fonctionnalité, vous pouvez configurer la possibilité de partager des filtres, des vues et des regroupements. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des filtres, des vues et des regroupements.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>View</b> :</p> <p>Pour parfaire cette fonctionnalité, vous pouvez configurer la possibilité de partager des filtres, des vues et des regroupements. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à l’édition aux filtres, aux vues et aux regroupements.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux filtres, aux vues et aux regroupements n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
@@ -506,15 +506,15 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des documents. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des documents.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut, sauf pour <b>Partager des documents publiquement</b> et <b>Partager à l’échelle du système</b>.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet l’accès complet à la modification des documents.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut, à l’exception de <b>Partager des documents publiquement</b> et <b>Partager à l’échelle du système</b>.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
        <li> <p>Partager des documents publiquement (en externe)</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -522,15 +522,15 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <p><b>Afficher</b></p><p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des documents. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des documents.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut, sauf pour <b>Partager des documents publiquement</b> et <b>Partager à l’échelle du système</b>.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet l’accès complet à la modification des documents.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut, à l’exception de <b>Partager des documents publiquement</b> et <b>Partager à l’échelle du système</b>.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
        <li> <p>Partager des documents publiquement (en externe)</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -538,15 +538,15 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des documents. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des documents.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des actions suivantes. Tous sont activés par défaut, sauf pour les deux derniers, <b>Partager des documents publiquement</b> et <b>Partager à l’échelle du système</b>.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet l’accès complet à la modification des documents.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des actions suivantes. Toutes sont activées par défaut, à l’exception des deux dernières options, <b>Partager des documents publiquement</b> et <b>Partager à l’échelle du système</b>.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
        <li> <p>Partager des documents publiquement (en externe)</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -554,9 +554,9 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <p><b>Afficher</b></p><p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité de partager des documents. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification des documents.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet l’accès complet à la modification des documents.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
@@ -565,7 +565,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux documents n’est pas configurable dans ce niveau d’accès. Cependant, les utilisateurs externes peuvent utiliser Workfront pour afficher, réviser et télécharger des documents.</p> </td> 
   </tr> 
  </tbody> 
@@ -589,39 +589,39 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li> <p><b>Afficher</b></p><p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité d'afficher les coordonnées des utilisateurs. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis désactivez ou activez l’option <b>Afficher les coordonnées</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à l’édition aux utilisateurs.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des actions suivantes. Seules les deux premières options, <b>Créer</b> et <b>Supprimer</b>, sont activés par défaut.</p> 
+     <li> <p><b>Afficher</b></p><p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité d'afficher les coordonnées des utilisateurs. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’option <b>Afficher les coordonnées</b> (activée par défaut).</p> </li> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet aux utilisateurs d’accéder à l’édition complète.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des actions suivantes. Seules les deux premières options, <b>Créer</b> et <b>Supprimer</b>, sont activées par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li>Administration des utilisateurs (tous les utilisateurs)</li> 
        <li> <p>Administration des utilisateurs (utilisateurs du groupe)</p> </li> 
-      </ul> <p>Pour plus d’informations sur les deux options d’administration des utilisateurs, voir la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurer l’accès des utilisateurs à la modification des utilisateurs à l’aide d’un niveau d’accès personnalisé</a> dans l’article <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</p> </li> 
+      </ul> <p>Pour plus d’informations sur les deux options d’administration des utilisateurs, reportez-vous à la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configuration de l’accès des utilisateurs à la modification des utilisateurs à l’aide d’un niveau d’accès personnalisé</a> dans l’article <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li><p> <b>Affichage</b> (seule option disponible)</p><p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité d'afficher les coordonnées des utilisateurs. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis désactivez ou activez l’option <b>Afficher les coordonnées</b> (activée par défaut).</p> </li> 
+     <li><p> <b>Afficher</b> (seule option disponible)</p><p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité d'afficher les coordonnées des utilisateurs. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’option <b>Afficher les coordonnées</b> (activée par défaut).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li><p> <b>Affichage</b> (seule option disponible)</p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité d'afficher les coordonnées des utilisateurs. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis activez ou désactivez l’option <b>Afficher les coordonnées</b> (désactivée par défaut).</p> </li> 
+     <li><p> <b>Afficher</b> (seule option disponible)</p> <p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité d'afficher les coordonnées des utilisateurs. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis activez ou désactivez l’option <b>Afficher les coordonnées</b> (désactivée par défaut).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <p><b>Affichage</b> (seule option disponible)</p><p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité d'afficher les coordonnées des utilisateurs. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis activez ou désactivez l’option <b>Afficher les coordonnées</b> (désactivée par défaut).</p> </li> 
+     <li> <p><b>Afficher</b> (seule option disponible)</p><p>Pour parfaire ce paramétrage, vous pouvez configurer la possibilité d'afficher les coordonnées des utilisateurs. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis activez ou désactivez l’option <b>Afficher les coordonnées</b> (désactivée par défaut).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux utilisateurs n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
@@ -645,12 +645,12 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li><b>Afficher</b> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis désactivez ou activez l’une des options suivantes*. Les deux sont désactivés par défaut.</p> 
+     <li><b>Afficher</b> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’une des options suivantes*. Les deux sont désactivés par défaut.</p> 
       <ul> 
        <li>Afficher toutes les équipes</li> 
        <li> <p>Afficher les équipes associées à mes groupes</p> </li> 
       </ul> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet aux modifications aux équipes.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis désactivez ou activez l’une des options suivantes*. Toutes sont activées par défaut, sauf pour <b>Éditer les équipes sur lesquelles je suis</b>.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet aux équipes pour la modification.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’une des options suivantes*. Tous sont activés par défaut, à l’exception de <b>Modifier les équipes sur</b>.</p> 
       <ul> 
        <li>Créer</li> 
        <li>Supprimer</li> 
@@ -666,12 +666,12 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td> 
     <ul> 
      <li> <b>Afficher</b>
-      <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis désactivez ou activez l’une des options suivantes*. Les deux sont activés par défaut.</p> 
+      <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’une des options suivantes*. Les deux sont activés par défaut.</p> 
       <ul> 
        <li>Afficher toutes les équipes</li> 
        <li> <p>Afficher les équipes associées à mes groupes</p> </li> 
       </ul> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet aux modifications aux équipes.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis désactivez ou activez l’une des options suivantes*. Seule la première option, <b>Éditer les équipes sur lesquelles je suis</b>, est désactivé par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet aux équipes pour la modification.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’une des options suivantes*. Seule la première option, <b>Modifier les équipes sur </b>, est désactivée par défaut.</p> 
       <ul> 
        <li> <p>Modifier les équipes auxquelles j’appartiens</p> </li> 
        <li> <p>Afficher toutes les équipes</p> </li> 
@@ -683,7 +683,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <p><b>Affichage</b> (seule option disponible)</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis désactivez ou activez l’une des options suivantes*. Les deux sont activés par défaut.</p> 
+     <li> <p><b>Afficher</b> (seule option disponible)</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’une des options suivantes*. Les deux sont activés par défaut.</p> 
       <ul> 
        <li> <p>Afficher toutes les équipes</p> </li> 
        <li>Afficher les équipes associées à mes groupes</li> 
@@ -694,7 +694,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <p><b>Affichage</b> (seule option disponible)</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis désactivez ou activez l’une des options suivantes*. Les deux sont activés par défaut.</p> 
+     <li> <p><b>Afficher</b> (seule option disponible)</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’une des options suivantes*. Les deux sont activés par défaut.</p> 
       <ul> 
        <li> <p>Afficher toutes les équipes</p> </li> 
        <li>Afficher les équipes associées à mes groupes</li> 
@@ -702,7 +702,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux équipes n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
@@ -727,14 +727,14 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li><p> <b>Afficher</b></p> <p>Pour parfaire cette fonctionnalité, vous pouvez configurer la possibilité de partager des modèles. Cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet aux modifications des modèles.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet aux modifications des modèles.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Tous sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
        <li> <p>Supprimer</p> </li> 
        <li> <p>Partager</p> </li> 
-       <li> <p>Partager à l’échelle du système</p> </li> 
+       <li> <p>Partager sur le système</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -742,25 +742,25 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li> <p><b>Accès interdit</b> (seule option disponible)</p> </li> 
+     <li> <p><b>Aucun accès</b> (seule option disponible)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <p><b>Accès interdit</b> (seule option disponible)</p> </li> 
+     <li> <p><b>Aucun accès</b> (seule option disponible)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <p><b>Accès interdit</b> (seule option disponible)</p> </li> 
+     <li> <p><b>Aucun accès</b> (seule option disponible)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès aux modèles n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
@@ -784,13 +784,13 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
-     <li> <p><b>Afficher</b>:</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis désactivez ou activez l’une des options suivantes*. Les deux sont activés par défaut.</p> 
+     <li> <b>Aucun accès</b> </li> 
+     <li> <p><b>View</b> :</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’une des options suivantes*. Les deux sont activés par défaut.</p> 
       <ul> 
        <li>Afficher les taux de facturation et de coûts du rôle</li> 
        <li> <p>Afficher les taux de facturation et de coûts de l'utilisateur</p> </li> 
       </ul> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à l'édition des données financières.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Affichage</b> , puis désactivez ou activez l’une des options suivantes*. Seules les deux dernières options, <b>Afficher la facturation et les taux de coût des rôles</b> et <b>Afficher les taux de facturation et de coûts des utilisateurs</b>, sont activés par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet un accès complet à l’édition des données financières.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b> , puis désactivez ou activez l’une des options suivantes*. Seules les deux dernières options, <b>Afficher la facturation et les taux de coût des rôles</b> et <b> Afficher la facturation et les taux de coût des utilisateurs</b>, sont activées par défaut.</p> 
       <ul> 
        <li>Modifier les taux de facturation et de coûts du rôle</li> 
        <li> <p>Modifier les taux de facturation et de coûts de l'utilisateur</p> </li> 
@@ -803,7 +803,7 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li> <p><b>Accès interdit</b> (sélection par défaut)</p> </li> 
+     <li> <p><b>Aucun accès</b> (sélection par défaut)</p> </li> 
      <li> <b>Afficher</b> </li> 
     </ul> </td> 
   </tr> 
@@ -811,7 +811,7 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <p><b>Accès interdit</b> (sélection par défaut)</p> </li> 
+     <li> <p><b>Aucun accès</b> (sélection par défaut)</p> </li> 
      <li><b>Afficher</b> </li> 
     </ul> </td> 
   </tr> 
@@ -819,11 +819,11 @@ Dans chaque niveau d&#39;accès, vous pouvez configurer les options suivantes po
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <p><b>Accès interdit</b> (seule option disponible)</p> </li> 
+     <li> <p><b>Aucun accès</b> (seule option disponible)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L'accès aux données financières n'est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
@@ -849,13 +849,13 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Planificateur </td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <b>Afficher</b> </li> 
-     <li> <p><b>Modifier</b> (sélection par défaut) : Permet un accès complet à la modification de la gestion des ressources.</p> <p>Pour affiner ce paramétrage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Seule la première option, <b>Modifier les priorités et les heures du budget dans le planificateur</b>, est activé par défaut.</p> 
+     <li> <p><b>Modifier</b> (sélection par défaut) : permet l’accès complet à l’édition à la gestion des ressources.</p> <p>Pour affiner cette opération, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b> , puis désactivez ou activez l’une des options suivantes. Seule la première option, <b>Modifier les priorités et les heures du budget dans le planificateur</b>, est activée par défaut.</p> 
       <ul> 
        <li> <p> Modifier les priorités et les heures budgétées dans le Planificateur</p> </li> 
-       <li> <p>Gérer les pools de ressources</p> <p><b>REMARQUE</b>: Pour gérer les pools de ressources, un utilisateur a besoin d’un accès supplémentaire aux données financières et des autorisations pour les finances du projet. Si vous accordez l’accès à la gestion des ressources à un utilisateur du planificateur qui n’a pas accès aux données financières, l’utilisateur peut toujours voir les affectations horaires dans le planificateur de ressources, mais ne peut pas passer en vue Coût ou consulter l’analyse de cas. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l'accès aux données financières</a> et <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Partage des autorisations financières sur un objet</a>.</p> </li> 
-       <li> <p>Mettre à jour les heures planifiées dans l'équilibreur de charge de travail</p> <p><b>REMARQUE</b>: Pour mettre à jour les heures planifiées dans l’équilibreur de charge de travail, un utilisateur doit disposer d’une autorisation pour contribuer à l’objet, en activant l’option Rendre les affectations sous Paramètres avancés. Pour plus d’informations, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Présentation des autorisations de partage sur les objets</a>.</p> </li> 
+       <li> <p>Gérer les pools de ressources</p> <p><b>REMARQUE</b> : pour gérer les pools de ressources, un utilisateur a besoin d’un accès supplémentaire aux données financières et d’autorisations d’accès aux finances du projet. Si vous accordez l’accès à la gestion des ressources à un utilisateur du planificateur qui n’a pas accès aux données financières, l’utilisateur peut toujours voir les affectations horaires dans le planificateur de ressources, mais ne peut pas passer en vue Coût ou consulter l’analyse de cas. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Accorder l’accès aux données financières</a> et <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Partager les autorisations financières sur un objet</a>.</p> </li> 
+       <li> <p>Mettre à jour les heures planifiées dans l'équilibreur de charge de travail</p> <p><b>REMARQUE</b> : pour mettre à jour les heures planifiées dans l’équilibreur de charge de travail, un utilisateur doit disposer d’une autorisation pour contribuer à l’objet, avec l’option Rendre les affectations activée sous Paramètres avancés. Pour plus d’informations, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Présentation des autorisations de partage sur les objets</a>.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -863,7 +863,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Employé </td> 
    <td> 
     <ul> 
-     <li><b>Accès interdit</b> </li> 
+     <li><b>Aucun accès</b> </li> 
      <li> <b>Affichage</b> (sélection par défaut) </li> 
     </ul> </td> 
   </tr> 
@@ -871,7 +871,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> </li> 
+     <li> <b>Aucun accès</b> </li> 
      <li> <b>Affichage</b> (sélection par défaut)</li> 
     </ul> </td> 
   </tr> 
@@ -879,17 +879,17 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Demandeur</td> 
    <td> 
     <ul> 
-     <li> <b>Accès interdit</b> (seule option disponible) </li> 
+     <li> <b>Aucun accès</b> (seule option disponible) </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur externe</td> 
+   <td>Utilisateur ou utilisatrice externe</td> 
    <td> <p>L’accès n’est pas disponible. Les utilisateurs externes ne peuvent utiliser Workfront que pour consulter et télécharger des documents et pour afficher les calendriers partagés avec eux.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Zone du planificateur de scénario
+## Zone Planificateur de scénarios
 
 Le paramètre par défaut pour tous les niveaux d’accès est Aucun accès. Un administrateur de Workfront peut modifier ce paramètre pour afficher ou modifier l’accès pour n’importe quel niveau d’accès de planificateur, de traitement et de réviseur.
 
@@ -901,9 +901,9 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 >[!NOTE]
 >
->Les utilisateurs peuvent afficher un plan créé par un autre utilisateur uniquement si un lien vers le plan est partagé avec eux.
+>Les utilisateurs et utilisatrices peuvent afficher un plan créé par une autre personne uniquement si un lien vers le plan est partagé avec eux.
 
-## Zone Objectifs de Workfront
+## Zone Objectifs Workfront
 
 Les six niveaux d’accès par défaut (et les quatre types de licence) peuvent tous modifier et afficher les objectifs de Workfront.
 

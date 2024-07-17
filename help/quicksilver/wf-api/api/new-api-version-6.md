@@ -1,20 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 6
-description: Nouveautés de l’API version 6
+title: Nouveautés de la version 6 de l’API
+description: Nouveautés de la version 6 de l’API
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 32%
+source-wordcount: '538'
+ht-degree: 37%
 
 ---
 
-# Nouveautés de l’API version 6
+# Nouveautés de la version 6 de l’API
 
 ## Nouveaux objets
 
@@ -27,7 +27,7 @@ ht-degree: 32%
 | projectID | resourceManager |   |   |   |   | Supprimer |
 | resourceManagerID | modèle |   |   |   |   | Get |
 | templateID |   |   |   |   |   | Rapport  |
-|   |   |   |   |   |   | Recherche  |
+|   |   |   |   |   |   | Rechercher  |
 
 
 ### Nouvelles
@@ -66,9 +66,9 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications des valeurs possibles
+<sup>1</sup> Modifications apportées aux valeurs possibles
 
-<sup>2</sup> L’attribut hasFilters a été remplacé par true.
+L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
  
 
@@ -84,9 +84,9 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Validation de date ajoutée
+<sup>1</sup> Date de validation ajoutée
 
-<sup>2</sup> Indicateur NOT_FILTERABLE ajouté
+<sup>2</sup> L’indicateur NOT_FILTERABLE a été ajouté
 
  
 
@@ -131,7 +131,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Remplacé par rapport
+<sup>1</sup> Remplacé
 
 <sup>2</sup> Ajout de la validation de longueur maximale
 
@@ -146,9 +146,9 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Validation de date ajoutée
+<sup>1</sup> Date de validation ajoutée
 
-<sup>2</sup> Indicateur Not_Filterable ajouté
+<sup>2</sup> Ajout de l’indicateur non filtrable
 
  
 
@@ -164,7 +164,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
  
 
-### Niveau de référence 
+### Ligne de base 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -172,7 +172,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicateur Not_Filterable ajouté
+<sup>1</sup> Ajout de l’indicateur non filtrable
 
  
 
@@ -184,7 +184,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicateur Not_Filterable ajouté
+<sup>1</sup> Ajout de l’indicateur non filtrable
 
  
 
@@ -196,7 +196,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> indicateur de champ NO_TIME ajouté
+<sup>1</sup> ajout de l’indicateur de champ NO_TIME
 
 ### Événement de Burndown 
 
@@ -243,7 +243,7 @@ Document 
 
  
 
-Taux de change 
+Taux d’Exchange 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -251,7 +251,7 @@ Taux de change 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Changement de la validation PRECISION pour 8 à 9
+<sup>1</sup> Modification du programme de validation PRECISION pour 8 à 9
 
  
 
@@ -277,7 +277,7 @@ Taux de change 
 
  
 
-### Optask (issue)<sup>1</sup> 
+### Optask (problème)<sup>1</sup> 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -285,9 +285,9 @@ Taux de change 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Marqué comme RESTORABLE
+<sup>1</sup> marqué comme RESTORABLE
 
-<sup>2</sup> Indicateur Not_Filterable ajouté
+<sup>2</sup> Ajout de l’indicateur non filtrable
 
  
 
@@ -304,9 +304,9 @@ Taux de change 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Marqué comme RESTORABLE et RESOURCE_MANAGEABLE
+<sup>1</sup> marqué comme RESTORABLE et RESOURCE_MANAGEABLE
 
-<sup>2</sup> Indicateur Not_Filterable ajouté
+<sup>2</sup> Ajout de l’indicateur non filtrable
 
  
 
@@ -319,15 +319,15 @@ Taux de change 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Marqué comme RESTORABLE
+<sup>1</sup> marqué comme RESTORABLE
 
 <sup>2</sup> Ajout du programme de validation AT_DATE_YEAR_BEFORE
 
-<sup>3</sup> Indicateur Not_Filterable ajouté
+<sup>3</sup> Ajout de l’indicateur non filtrable
 
  
 
-### Équipe
+### Equipe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -338,7 +338,7 @@ Taux de change 
 
  
 
-### Modèle<sup>1</sup> 
+### Template<sup>1</sup> 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -346,9 +346,9 @@ Taux de change 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Marqué comme RESTORABLE et RESOURCE_MANAGEABLE
+<sup>1</sup> marqué comme RESTORABLE et RESOURCE_MANAGEABLE
 
-### Tâche du modèle<sup>1</sup> 
+### Tâche de modèle<sup>1</sup> 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -356,9 +356,9 @@ Taux de change 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Marqué comme RESTORABLE
+<sup>1</sup> marqué comme RESTORABLE
 
-<sup>2</sup> Indicateur Not_Filterable ajouté
+<sup>2</sup> Ajout de l’indicateur non filtrable
 
  
 
@@ -384,7 +384,7 @@ Taux de change 
 
 <sup>1</sup> Valeurs possibles modifiées
 
-<sup>2</sup> contient des filtres modifiés en `[true]`
+<sup>2</sup> avec des filtres modifiés en `[true]`
 
  
 

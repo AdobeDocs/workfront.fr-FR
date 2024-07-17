@@ -3,27 +3,27 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-desktop-proofing-viewer
-title: Présentation de la visionneuse de vérification de l’appli de bureau
+title: Comprendre la visionneuse de relecture de bureau
 description: La visionneuse de vérification de l’ordinateur de bureau est conçue pour la vérification du contenu interactif, mais vous pouvez également l’utiliser pour vérifier le contenu statique et vidéo.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4610f24f-345a-4ebc-8a0c-382e34cac7b0
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 0%
+source-wordcount: '548'
+ht-degree: 1%
 
 ---
 
-# Présentation de la visionneuse de vérification de l’appli de bureau
+# Comprendre la visionneuse de relecture de bureau
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 La visionneuse de vérification de l’ordinateur de bureau est conçue pour la vérification du contenu interactif, mais vous pouvez également l’utiliser pour vérifier le contenu statique et vidéo.
 
-Contrairement à la visionneuse de tests de performance Web, la visionneuse de tests de performance sur l’ordinateur de bureau est une application qui s’exécute sur votre poste de travail. Cependant, vous pouvez y accéder à partir de [!DNL Workfront] ou de [!DNL Workfront Proof] lorsque vous lancez des BAT plutôt que de l’exécuter en tant qu’application autonome (pour plus d’informations sur l’installation de la visionneuse de vérification de l’appli de bureau, voir [Installation de la visionneuse de vérification de l’appli de bureau](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).
+Contrairement à la visionneuse de tests de performance Web, la visionneuse de tests de performance sur l’ordinateur de bureau est une application qui s’exécute sur votre poste de travail. Cependant, vous y accédez depuis [!DNL Workfront] ou [!DNL Workfront Proof] lorsque vous lancez des BAT plutôt que de l’exécuter en tant qu’application autonome (pour plus d’informations sur l’installation de la visionneuse de vérification de l’appli de bureau, voir [Installation de la visionneuse de vérification de l’appli de bureau](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).
 
 ## Comparaison de la visionneuse de vérification de l’appli de bureau avec d’autres visionneuses de vérification
 
@@ -34,17 +34,16 @@ Contrairement à la visionneuse de tests de performance Web, la visionneuse de t
 
 Deux caractéristiques principales distinguent la visionneuse de vérification de l’appli de bureau de la visionneuse de vérification de l’application web :
 
-* La visionneuse de vérification de l’appli de bureau vous permet de passer en revue du contenu interactif, tel qu’un site web, une vidéo en flux continu ou une bannière interactive. La visionneuse de test Web permet de consulter uniquement les BAT statiques et vidéo.
-* La visionneuse de vérification de l’appli de bureau s’exécute sur votre ordinateur local en tant qu’application ; la visionneuse de test Web s’exécute dans votre navigateur.
+* La visionneuse de vérification de l’appli de bureau vous permet de passer en revue du contenu interactif, tel qu’un site web, une vidéo en flux continu ou une bannière interactive. La visionneuse de vérification de l’appli de bureau web vous permet de consulter uniquement les bons à tirer statiques et vidéo.
+* La visionneuse de vérification de l’appli de bureau s’exécute sur votre ordinateur local en tant qu’application ; la visionneuse de vérification de l’appli de bureau s’exécute dans votre navigateur.
 
-   >[!NOTE]
-   >
-   >   * Si votre entreprise ne peut pas utiliser l’application Visionneuse de vérification de l’appli de bureau pour des raisons de sécurité, votre [!DNL Workfront] L’administrateur peut configurer votre système de sorte que vous puissiez examiner le contenu interactif, regroupé dans un fichier d’archive ZIP, dans la visionneuse de test Web.
-   >   * Les tâches de gestion des BAT, telles que la création et la navigation parmi les BAT, se produisent dans [!DNL Workfront] ou [!DNL Workfront Proof]. La visionneuse de vérification de l’appli de bureau est uniquement destinée à la vérification des bons à tirer.
+  >[!NOTE]
+  >
+  >   * Si votre entreprise ne peut pas utiliser l’application Visionneuse de vérification de l’appli de bureau pour des raisons de sécurité, votre administrateur [!DNL Workfront] peut configurer votre système afin que vous puissiez consulter le contenu interactif, regroupé dans un fichier d’archive ZIP, dans la visionneuse de vérification de l’application Web.
+  >   * Les tâches de gestion des BAT telles que la création et la navigation à travers les BAT se produisent dans [!DNL Workfront] ou [!DNL Workfront Proof]. La visionneuse de vérification de l’appli de bureau est uniquement destinée à la vérification des bons à tirer.
 
 
-
-Pour plus d’informations sur les fonctionnalités des différentes visionneuses de vérification, voir [Présentation des différences entre la visionneuse de test Web et la visionneuse de test de bureau](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
+Pour plus d’informations sur les fonctionnalités des différentes visionneuses de vérification, voir [Différences entre la visionneuse de vérification de l’intégrité web et la visionneuse de vérification de l’intégrité de l’appli de bureau](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
 
 ### Visionneuse de vérification de l’appli de bureau ou visionneuse de vérification de l’ancienne version {#desktop-proofing-viewer-vs-legacy-proofing-viewer}
 
@@ -65,7 +64,7 @@ La visionneuse de vérification héritée n’est pas incluse pour les clients q
 
 Bien que le principal objectif de la visionneuse de vérification de l’appli de bureau soit la vérification du contenu interactif, vous pouvez également l’utiliser pour vérifier les bons à tirer statiques et vidéo.
 
-Les utilisateurs peuvent configurer la visionneuse de vérification de l’appli de bureau de sorte qu’elle se lance automatiquement lorsqu’ils ouvrent des bons à tirer de tous types, y compris des bons à tirer statiques et vidéo. Pour plus d’informations, voir [Configuration des paramètres de la visionneuse de vérification](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Les utilisateurs peuvent configurer la visionneuse de vérification de l’appli de bureau de sorte qu’elle se lance automatiquement lorsqu’ils ouvrent des bons à tirer de tous types, y compris des bons à tirer statiques et vidéo. Pour plus d’informations, voir [Configuration des paramètres de la visionneuse de correctifs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 ## Saisie d’une URL de bon à tirer
 

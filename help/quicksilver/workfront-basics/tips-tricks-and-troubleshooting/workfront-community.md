@@ -6,7 +6,7 @@ description: La communauté Adobe  [!DNL Workfront]  est un groupe en ligne de 
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
 source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 

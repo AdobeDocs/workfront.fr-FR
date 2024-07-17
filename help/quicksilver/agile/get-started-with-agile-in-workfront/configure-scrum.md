@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
-title: Configuration de Scrum
+title: Configurer Scrum
 description: Vous pouvez configurer les options suivantes pour les équipes agiles Scrum pendant ou après la création de l’équipe.
 author: Lisa
 feature: Agile
@@ -9,13 +9,13 @@ exl-id: 7509608e-96af-4601-80d4-791ee29046da
 source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
 source-wordcount: '1793'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # Configurer [!UICONTROL Scrum]
 
-Vous pouvez créer une équipe agile dans [!DNL Adobe Workfront] comme décrit dans [Créer une équipe agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Lors de la création d’une équipe agile, vous pouvez choisir la méthodologie que l’équipe utilise pour terminer son travail. Vous pouvez choisir parmi les options suivantes :
+Vous pouvez créer une équipe agile dans [!DNL Adobe Workfront] comme décrit dans la section [Créer une équipe agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Lors de la création d’une équipe agile, vous pouvez choisir la méthodologie que l’équipe utilise pour terminer son travail. Vous pouvez choisir parmi les options suivantes :
 
 * Scrum
 * Kanban
@@ -28,11 +28,11 @@ Cet article décrit comment configurer les paramètres d’une équipe Scrum. Ap
 * Utilisation des indicateurs de couleur pour les articles sur le tableau de bord agile
 * Comment les dates sont-elles appliquées lors de l’ajout d’éléments de travail à une itération
 
-Pour plus d’informations sur la configuration d’une équipe Kanban, voir [Configurer Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Pour plus d’informations sur la configuration d’une équipe Kanban, voir [Configuration de Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,15 +41,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Nouveau : [!UICONTROL Standard]</p> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
    ou
-   <p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td> 
+   <p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
   </tr>
 
 <tr> 
@@ -60,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </tbody> 
 </table>
 
-*Pour savoir quel plan ou type de licence vous disposez, contactez votre [!DNL Workfront] administrateur.
+*Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur [!DNL Workfront].
 
 ## Configurer l’estimation des articles en points ou en heures
 
@@ -72,18 +72,18 @@ Vous pouvez configurer les articles à estimer en points ou en heures.
 
 Pour configurer l’estimation des articles pour votre équipe agile :
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!UICONTROL Workfront], puis cliquez sur **[!UICONTROL Équipes]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!UICONTROL Workfront], puis cliquez sur **[!UICONTROL Équipes]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Equipe de commutation]** , puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
+1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]**, puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 1. Sélectionnez l’équipe agile à gérer.
-1. Cliquez sur le bouton **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.\
-   ![Éditer l’équipe](assets/edit-team-settings-350x205.png)
+   Seuls les membres de l’équipe ayant une licence [!UICONTROL Plan] ou [!UICONTROL Travail] voient cette option.\
+   ![Modifier l’équipe](assets/edit-team-settings-350x205.png)
 
-1. Dans le **[!UICONTROL Agile]** , dans la section **[!UICONTROL Estimation des articles dans]** , choisissez si vous souhaitez utiliser des points ou des heures pour estimer la taille (charge de travail) des articles. Si vous sélectionnez Points, indiquez le nombre d’heures égal à 1 point. (La valeur par défaut est de 1 point = 8 heures.) Il s’agit du nombre d’heures planifiées ajoutées à l’article.
+1. Dans la section **[!UICONTROL Agile]**, dans la zone **[!UICONTROL Estimer les articles dans]**, choisissez si vous souhaitez utiliser des points ou des heures pour estimer la taille (charge de travail) des articles. Si vous sélectionnez Points, indiquez le nombre d’heures égal à 1 point. (La valeur par défaut est de 1 point = 8 heures.) Il s’agit du nombre d’heures planifiées ajoutées à l’article.
 
-   **Exemple :** Si vous avez choisi d’estimer les articles en points et qu’un point équivaut à 8 heures, et qu’un article est estimé à 3 points, 24 Heures planifiées sont ajoutées à l’article.
+   **Exemple :** Si vous avez choisi d’estimer les articles en points et qu’un point équivaut à 8 heures, et qu’un article est estimé à 3 points, 24 heures planifiées sont ajoutées à l’article.
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
@@ -100,18 +100,18 @@ Vous pouvez définir les états qui existent sur le tableau de bord de l’équi
 
 Pour définir les états disponibles pour le panorama d’articles associé à l’équipe agile :
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Workfront], puis cliquez sur **[!UICONTROL Équipes]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Workfront], puis cliquez sur **[!UICONTROL Equipes]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Equipe de commutation]** icon ![Icône Changer l’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
+1. Cliquez sur l&#39;icône **[!UICONTROL Changer d&#39;équipe]** ![Icône Changer d&#39;équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
 1. Sélectionnez l’équipe agile à gérer.
-1. Cliquez sur le bouton **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.
+   Seuls les membres de l’équipe ayant une licence [!UICONTROL Plan] ou [!UICONTROL Travail] voient cette option.
 
-   ![Éditer l’équipe](assets/edit-team-settings-350x205.png)
+   ![Modifier l’équipe](assets/edit-team-settings-350x205.png)
 
-1. Dans le **[!UICONTROL Agile]** , recherchez la **[!UICONTROL Story Board]** zone.
+1. Dans la section **[!UICONTROL Agile]** , recherchez la zone **[!UICONTROL Story Board]** .
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une colonne]** pour ajouter une colonne d’état supplémentaire au tableau de bord.
 1. (Facultatif) Faites glisser une colonne d’état à l’aide de l’indicateur glisser-déposer pour réorganiser les colonnes d’état sur le tableau d’articles. La première colonne ne peut pas être déplacée et vous ne pouvez pas faire glisser une autre colonne devant la première colonne.
@@ -122,19 +122,19 @@ Pour définir les états disponibles pour le panorama d’articles associé à l
 
    >[!IMPORTANT]
    >
-   >Seuls les états verrouillés à l’échelle du système peuvent être sélectionnés ; vous ne pouvez pas sélectionner d’états spécifiques à un groupe. En outre, l’état de la première colonne correspond toujours à **[!UICONTROL Nouveau]**.
+   >Seuls les états verrouillés à l’échelle du système peuvent être sélectionnés ; vous ne pouvez pas sélectionner d’états spécifiques à un groupe. En outre, l’état de la première colonne correspond toujours à **[!UICONTROL New]**.
 
-   Vous pouvez ajouter des états personnalisés si votre [!DNL Workfront] l’administrateur les a configurés ; les états personnalisés peuvent être configurés comme décrit dans la section [Création ou modification d’un état](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   Vous pouvez ajouter des états personnalisés si votre administrateur [!DNL Workfront] les a configurés ; les états personnalisés peuvent être configurés comme décrit dans la section [Créer ou modifier un état](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
    >[!NOTE]
    >
-   >Lors de la sélection des états d’un problème, la troisième colonne est toujours définie par défaut sur [!UICONTROL Fermé]. Si vous disposez de plus de trois colonnes, veillez à les mettre à jour manuellement pour qu’elles reflètent les états appropriés.
+   >Lors de la sélection des états de problème, la troisième colonne prend toujours par défaut la valeur [!UICONTROL Fermé]. Si vous disposez de plus de trois colonnes, veillez à les mettre à jour manuellement pour qu’elles reflètent les états appropriés.
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
 ### Configuration des colonnes d’état pour les projets {#configure-status-columns-for-projects}
 
-Pour plus d’informations sur la configuration des colonnes d’état pour un projet, voir la section [Créez ou personnalisez une [!UICONTROL Agile] view](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) dans l’article [Créer ou modifier des vues dans [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Pour plus d’informations sur la configuration des colonnes d’état pour un projet, reportez-vous à la section [Création ou personnalisation d’une [!UICONTROL vue Agile]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) dans l’article [Créer ou modifier des vues dans [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Configuration de champs supplémentaires à afficher sur les cartes d’articles sur le tableau de bord agile
 
@@ -158,22 +158,22 @@ Vous pouvez afficher des données supplémentaires (y compris des données perso
 
 Pour configurer les fiches d’article affectées à l’équipe agile afin d’afficher des champs supplémentaires :
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!UICONTROL Workfront], puis cliquez sur **[!UICONTROL Équipes]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!UICONTROL Workfront], puis cliquez sur **[!UICONTROL Équipes]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Equipe de commutation]** icon ![Icône Changer l’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
+1. Cliquez sur l&#39;icône **[!UICONTROL Changer d&#39;équipe]** ![Icône Changer d&#39;équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
 1. Sélectionnez l’équipe agile à gérer.
-1. Cliquez sur le bouton **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.\
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.
+1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.\
+   Seuls les membres de l’équipe ayant une licence [!UICONTROL Plan] ou [!UICONTROL Travail] voient cette option.
 
-   ![Éditer l’équipe](assets/edit-team-settings-350x205.png)
+   ![Modifier l’équipe](assets/edit-team-settings-350x205.png)
 
-1. Dans le **[!UICONTROL Agile]** , saisissez un nom de champ pour le localiser.
+1. Dans la section **[!UICONTROL Agile]** , saisissez un nom de champ pour le localiser.
 
    ![Champs supplémentaires](assets/agile-additional-fields-scrum.png)
 
 1. Sélectionnez le nom du champ que vous souhaitez ajouter.
-1. Saisissez le **[!UICONTROL Nom d’affichage]** pour que le champ s’affiche sur l’article ou la carte de problème.
+1. Saisissez le **[!UICONTROL nom d’affichage]** du champ à afficher sur l’article ou la carte de problème.
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
 ## Configuration de l’utilisation des indicateurs de couleur pour les articles sur le tableau de bord agile
@@ -182,29 +182,29 @@ Par défaut, les mosaïques de panorama dans une itération agile sont codées p
 
 Pour modifier le comportement de l’affectation des couleurs aux articles pour une équipe agile :
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Workfront], puis cliquez sur **[!UICONTROL Équipes]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Workfront], puis cliquez sur **[!UICONTROL Equipes]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Equipe de commutation]** icon ![Icône Changer l’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
+1. Cliquez sur l&#39;icône **[!UICONTROL Changer d&#39;équipe]** ![Icône Changer d&#39;équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
 1. Sélectionnez l’équipe agile à gérer.
-1. Cliquez sur le bouton **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.
+   Seuls les membres de l’équipe ayant une licence [!UICONTROL Plan] ou [!UICONTROL Travail] voient cette option.
 
-   ![Éditer l’équipe](assets/edit-team-settings-350x205.png)
+   ![Modifier l’équipe](assets/edit-team-settings-350x205.png)
 
-1. Dans le [!UICONTROL Agile] , dans la section [!UICONTROL Associer la couleur de la carte à] , sélectionnez l’une des options suivantes :
+1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à], sélectionnez l’une des options suivantes :
 
-   * **[!UICONTROL Projet]**: les couleurs sont associées au projet auquel l’histoire est liée. (Lorsqu’un article est créé, il doit être associé à un projet, comme décrit à la section [Création d’un article agile](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Toutes les tâches d’un même projet s’affichent avec la même couleur.
-   * **[!UICONTROL Formulaire libre]**: toutes les cartes sont affichées en bleu par défaut jusqu’à ce qu’un utilisateur modifie manuellement la couleur, comme décrit dans la section [[!UICONTROL Catégorisation des articles par couleur] sur le panneau Scrum](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
-   * **[!UICONTROL Priorité]**: les couleurs sont associées à la priorité de l’article, comme suit :
+   * **[!UICONTROL Projet]** : les couleurs sont associées au projet auquel l’histoire est liée. (Lorsqu’un article est créé, il doit être associé à un projet, comme décrit dans la section [Créer un article agile](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Toutes les tâches d’un même projet s’affichent avec la même couleur.
+   * **[!UICONTROL Formulaire gratuit]** : toutes les cartes s’affichent en bleu par défaut jusqu’à ce qu’un utilisateur modifie manuellement la couleur, comme décrit dans la section [[!UICONTROL Catégorisation des articles par couleur] sur la carte de défilement](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
+   * **[!UICONTROL Priority]** : les couleurs sont associées à la priorité de l’histoire, comme suit :
 
       * Élevé = Rouge
-      * Moyen = Jaune
+      * Medium = jaune
       * Faible = Vert\
 
-        Si votre administrateur système a configuré des priorités personnalisées pour votre [!DNL Workfront] système, la priorité la plus élevée est le rouge, la seconde le jaune et la troisième le vert.
-   * **[!UICONTROL Propriétaire de la tâche]**: tous les articles ayant la même personne désignée principale sont de la même couleur. La personne désignée principale est l’utilisateur qui a été affecté la première fois à la tâche.
+        Si votre administrateur système a configuré des priorités personnalisées pour votre système [!DNL Workfront], la priorité la plus élevée est rouge, la seconde est jaune et la troisième est verte.
+   * **[!UICONTROL Propriétaire de la tâche]** : tous les articles ayant le même responsable principal sont de la même couleur. La personne désignée principale est l’utilisateur qui a été affecté la première fois à la tâche.
 
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
@@ -213,16 +213,16 @@ Pour modifier le comportement de l’affectation des couleurs aux articles pour 
 
 Par défaut, lorsque vous ajoutez un élément de travail à une itération par flux, la Date de début planifiée et la Date de fin planifiée de l’élément de travail sont modifiées pour correspondre aux dates de début et de fin de l’itération. Vous pouvez choisir de conserver les dates d’origine sur toutes les tâches de l’équipe.
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe] Workfront, puis cliquez sur **[!UICONTROL Équipes]**.
-1. (Facultatif) Cliquez sur le **[!UICONTROL Equipe de commutation]** icon ![Icône Changer l’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
-1. Cliquez sur le bouton **[!UICONTROL Plus]** , puis sélectionnez **[!UICONTROL Modifier]**.\
-   Uniquement les membres de l’équipe qui disposent d’une [!UICONTROL Planifier] ou [!UICONTROL Travail] voir cette option.
-1. Dans le [!UICONTROL Agile] , dans la section [!UICONTROL Lorsqu’un élément de travail est ajouté à une itération] , sélectionnez l’une des options suivantes :
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe] Workfront, puis cliquez sur **[!UICONTROL Équipes]**.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
+1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.\
+   Seuls les membres de l’équipe ayant une licence [!UICONTROL Plan] ou [!UICONTROL Travail] voient cette option.
+1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Lorsqu’un élément de travail est ajouté à une itération], sélectionnez l’une des options suivantes :
 
-   * **[!UICONTROL Modifier la date de début planifiée et la date de fin planifiée pour qu’elles correspondent aux dates de début et de fin de l’itération]**: lorsque des éléments de travail sont ajoutés à une itération, les dates des éléments de travail sont modifiées en dates d’itération.\
+   * **[!UICONTROL Modifiez la date de début planifiée et la date de fin planifiée pour qu’elles correspondent aux dates de début et de fin de l’itération]** : lorsque des éléments de travail sont ajoutés à une itération, les dates des éléments de travail sont remplacées par les dates d’itération.\
 
-     Pour plus d’informations sur la façon dont les dates sont modifiées, voir la section [Comprendre comment l’ajout d’articles affecte les dates des tâches](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) dans l’article [Ajouter des articles à une itération existante](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
-   * **[!UICONTROL Ne modifiez pas la date de début planifiée et la date de fin planifiée pour qu’elles correspondent aux dates de début et de fin de l’itération.]**: lorsque des tâches sont ajoutées à une itération, elles conservent leurs dates d’origine.
+     Pour plus d’informations sur la façon dont les dates sont modifiées, consultez la section [Comprendre comment l’ajout d’articles affecte les dates de tâche](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) dans l’article [Ajout d’articles à une itération existante](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   * **[!UICONTROL Ne modifiez pas les dates de début et de fin planifiées pour qu’elles correspondent aux dates de début et de fin de l’itération]** : lorsque des tâches sont ajoutées à une itération, les tâches conservent leurs dates d’origine.
 
    Si vous modifiez l’option de date, les dates des tâches déjà en itération ne sont pas ajustées.
 

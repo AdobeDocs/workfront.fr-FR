@@ -11,7 +11,7 @@ exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
 source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 7%
+ht-degree: 18%
 
 ---
 
@@ -50,8 +50,8 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 La visionneuse de vérification de l’appli de bureau est prise en charge sur les systèmes d’exploitation suivants :
 
-* Windows 7 et versions ultérieures, 32 et 64 bits
-* Mac OS X 10.9 et versions ultérieures, 64 bits
+* Windows 7 et versions ultérieures, 32 bits et 64 bits
+* Mac OS X 10.9 et versions supérieures, 64 bits
 
 ## Conditions préalables
 
@@ -63,13 +63,13 @@ Après avoir installé la visionneuse de vérification de l’appli de bureau po
 
 {{step1-to-proofing}}
 
-1. Cliquez sur **Paramètres du compte** près du coin supérieur droit de Workfront Proof, puis cliquez sur l’icône **Paramètres** .
+1. Cliquez sur **Paramètres du compte** près du coin supérieur droit de Workfront Proof, puis cliquez sur l’onglet **Paramètres** .
 
-1. Sous **Valeurs par défaut des BAT**, à la fin de la variable **Visionneuse de vérification de l’appli de bureau pour la vérification interactive** ligne, cliquez sur **Configuration**.
+1. Sous **Valeurs par défaut du BAT**, à la fin de la ligne **Visionneuse de vérification de l’appli de bureau pour la vérification interactive**, cliquez sur **Configuration**.
 
-   ![Valeurs par défaut des BAT](assets/proof-defaults.png)
+   ![Valeurs par défaut du bon à tirer](assets/proof-defaults.png)
 
-1. Cliquez sur **Activé et par défaut**, puis cliquez sur **Enregistrer**.
+1. Cliquez sur **Activé et par défaut**, puis sur **Enregistrer**.
 
 ## Installation de la visionneuse de vérification de l’appli de bureau pour vos utilisateurs
 
@@ -80,13 +80,13 @@ Après avoir installé la visionneuse de vérification de l’appli de bureau po
 
 1. Sur l’ordinateur de l’utilisateur, effectuez l’une des opérations suivantes pour télécharger l’application :
 
-   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de production Mac pour la visionneuse de vérification de poste de travail](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg).
-   * Si vous utilisez l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Mac pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
+   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de production Mac pour la visionneuse de vérification de l’appli de bureau](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg).
+   * Si vous utilisez l’environnement de prévisualisation, cliquez sur [Téléchargement de prévisualisation Mac pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
 
-1. Ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
-1. Dans la boîte d’installation qui s’affiche, cliquez sur **Continuer**, puis cliquez sur **Installer**.
+1. Ouvrez le fichier que vous venez de télécharger pour démarrer l’installation.
+1. Dans la boîte d&#39;installation qui s&#39;affiche, cliquez sur **Continuer**, puis sur **Installer**.
 
-   ![Zone d&#39;installation](assets/install-wf-proof-box.png)
+   ![Boîte d’installation](assets/install-wf-proof-box.png)
 
 1. Assurez-vous que chaque utilisateur termine l’installation en ouvrant un BAT interactif à partir de la zone Documents de Workfront.
 
@@ -94,15 +94,15 @@ Après avoir installé la visionneuse de vérification de l’appli de bureau po
 
 1. Sur l’ordinateur de l’utilisateur, effectuez l’une des opérations suivantes pour télécharger l’application :
 
-   * Dans l’environnement de production, cliquez sur [Téléchargement en production Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
+   * Dans l’environnement de production, cliquez sur [Téléchargement de production Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
    * Dans l’environnement Aperçu, cliquez sur [Téléchargement de l’aperçu Windows pour la visionneuse de vérification de l’appli de bureau](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
 
-1. Ouvrez le fichier que vous venez de télécharger pour lancer l’installation.
-1. Dans la boîte d’avertissement de sécurité qui s’affiche, cliquez sur **Exécuter**.
+1. Ouvrez le fichier que vous venez de télécharger pour démarrer l’installation.
+1. Dans la zone d&#39;avertissement de sécurité qui s&#39;affiche, cliquez sur **Exécuter**.
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
    La visionneuse de vérification de l’appli de bureau installe et s’exécute.
 
-1. (Conditionnel) Si vous installez l’application à l’aide d’Internet Explorer, actualisez la page de lancement dans le navigateur après l’installation de l’application.
+1. (Le cas échéant) Si vous installez l’application à l’aide d’Internet Explorer, actualisez la page de lancement dans le navigateur après l’installation de l’application.
 1. Assurez-vous que chaque utilisateur termine l’installation en ouvrant un BAT interactif à partir de la zone Documents de Workfront.

@@ -11,7 +11,7 @@ exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
 source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -43,7 +43,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,15 +58,15 @@ La somme de tous les jalons prédéfinis est appelée chemin de jalon.
 
 La première étape de la création d’un chemin de jalon consiste à identifier les étapes de jalon et à définir les jalons. Puisque vous pouvez associer un chemin de jalon à plusieurs projets, les étapes de jalon doivent être des phases générales ou des étapes d’un projet.
 
-Pour plus d’informations sur la manière d’associer un chemin de jalon à un projet et un jalon à une tâche, voir [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Pour plus d’informations sur la manière d’associer un chemin de jalon à un projet et un jalon à une tâche, voir [Association de jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 ## Créer un chemin jalonné
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Processus** > **Chemins Milestone**.
-1. Cliquez sur **Nouveau Chemin Milestone.**
-1. Indiquez les informations suivantes dans la variable **Informations de base** area :
+1. Cliquez sur **Traitements** > **Chemins Milestone**.
+1. Cliquez sur **New Milestone Path.**
+1. Indiquez les informations suivantes dans la zone **Informations de base** :
 
    <table style="table-layout:auto">
     <tr>
@@ -78,7 +78,7 @@ Pour plus d’informations sur la manière d’associer un chemin de jalon à un
       <td>Saisissez une description pour définir le chemin du jalon.</td>
     </tr>
     <tr>
-       <td>Est active</td>
+       <td>Est actif</td>
       <td>Cochez cette case si vous souhaitez que le chemin du jalon soit actif. D’autres utilisateurs peuvent trouver ce chemin et le joindre à des projets lors de la création ou de la modification de projets. Les chemins de jalon inactifs ne peuvent pas être associés aux projets. Cette option est activée par défaut.</td>
     </tr>
     <tr>
@@ -87,7 +87,7 @@ Pour plus d’informations sur la manière d’associer un chemin de jalon à un
     </tr>
    </table>
 
-1. Indiquez les informations suivantes dans la variable **Jalons** area :
+1. Indiquez les informations suivantes dans la zone **Jalons** :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,9 +108,9 @@ Pour plus d’informations sur la manière d’associer un chemin de jalon à un
     </tbody> 
    </table>
 
-1. Cliquez sur **Ajouter Milestone** et continuez à ajouter des jalons, si nécessaire, jusqu’à ce que le chemin soit terminé.
-1. Cliquez sur **Créer un chemin Milestone** pour enregistrer vos modifications.
+1. Cliquez sur **Ajouter Milestone** et continuez à ajouter des jalons si nécessaire jusqu’à ce que le chemin soit terminé.
+1. Cliquez sur **Créer un chemin d’accès à Milestone** pour enregistrer vos modifications.
 
    Votre chemin de jalon est prêt à être associé à un projet.
 
-   Pour plus d’informations sur la manière d’associer des chemins de jalon à des projets et des jalons à des tâches, voir [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+   Pour plus d’informations sur la manière d’associer des chemins de jalon à des projets et des jalons à des tâches, voir [Association de jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).

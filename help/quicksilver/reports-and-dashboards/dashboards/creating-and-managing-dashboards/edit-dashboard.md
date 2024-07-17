@@ -1,7 +1,7 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Modification d’un tableau de bord
+title: Modifier un tableau de bord
 description: Le tableau de bord permet d’accéder rapidement aux informations. Vous pouvez remplir un tableau de bord avec des rapports, des calendriers et des pages externes.
 author: Nolan
 feature: Reports and Dashboards
@@ -9,21 +9,21 @@ exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
 source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Modification d’un tableau de bord
+# Modifier un tableau de bord
 
 Le tableau de bord permet d’accéder rapidement aux informations. Vous pouvez remplir un tableau de bord avec les éléments suivants dans Adobe Workfront :
 
 * Rapports
 
-  Pour plus d’informations sur la création de rapports, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Pour plus d’informations sur la création de rapports, consultez la section [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Calendriers
 
-  Pour plus d’informations sur la création de calendriers, voir [Calendriers : index des articles](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  Pour plus d’informations sur la création de calendriers, voir [Calendriers : index de l’article](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * Pages externes
 
@@ -35,34 +35,34 @@ Toute modification apportée à un tableau de bord aura un impact sur tous les u
 
 Lorsque vous partagez un tableau de bord avec des utilisateurs, tous les rapports, calendriers et pages externes sont également partagés avec les mêmes utilisateurs.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader"><strong>Forfait Adobe Workfront*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Modification de l’accès aux rapports, aux tableaux de bord et aux calendriers</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
+   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice de Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gestion des autorisations pour le tableau de bord</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations en gestion pour le tableau de bord</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Conditions préalables
 
@@ -70,10 +70,10 @@ Vous devez créer un tableau de bord avant de pouvoir le modifier.
 
 Pour plus d’informations sur la création de tableaux de bord, voir [Création d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-## Modification d’un tableau de bord
+## Modifier un tableau de bord
 
 1. Accédez au tableau de bord que vous souhaitez modifier.
-1. Cliquez sur **Actions du tableau de bord**, puis cliquez sur **Modifier**.
+1. Cliquez sur **Actions du tableau de bord**, puis sur **Modifier**.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
@@ -83,10 +83,10 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Création
 
 1. Envisagez de modifier les champs suivants :
 
-   * **Nom**: modifiez le nom du tableau de bord.
-   * **Description**: décrivez le tableau de bord.
+   * **Nom** : modifiez le nom du tableau de bord.
+   * **Description** : décrivez le tableau de bord.
 
-1. Dans le **Rapports et calendriers disponibles** , commencez à saisir le nom d’un rapport, d’un calendrier ou d’une page externe dans la variable **Effectuez une recherche par nom ou par type ...** puis faites glisser le rapport ou le calendrier dans le volet de mise en page à droite.
+1. Dans la section **Rapports et calendriers disponibles**, commencez à saisir le nom d’un rapport, d’un calendrier ou d’une page externe dans le champ **Rechercher par nom ou type...**, puis faites glisser le rapport ou le calendrier dans le volet de mise en page de droite.
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Création
 1. (Facultatif) Modifiez l’ordre des rapports dans le tableau de bord en cliquant sur le nom d’un rapport, en le faisant glisser et en le déposant à l’emplacement de votre choix dans le volet Disposition.
 1. (Facultatif) Cliquez sur **Ajouter une page externe** pour ajouter une page externe au tableau de bord.\
    Ou\
-   Localisez une page externe existante dans le tableau de bord, puis placez-la à l’aide de la souris et cliquez sur le bouton **Modifier** pour modifier la page externe.\
-   Pour plus d’informations sur l’ajout ou la modification de pages externes dans un tableau de bord, voir [Incorporation d’une page web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   Localisez une page externe existante dans le tableau de bord, puis placez-la au-dessus et cliquez sur l’icône **Modifier** pour modifier la page externe.\
+   Pour plus d’informations sur l’ajout ou la modification de pages externes dans un tableau de bord, voir [Incorporation d’une page Web externe dans un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 1. Cliquez sur **Enregistrer + Fermer**.

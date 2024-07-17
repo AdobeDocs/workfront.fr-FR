@@ -8,7 +8,7 @@ exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées au Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
+>La procédure décrite sur cette page s’applique uniquement aux organisations qui n’ont pas encore été intégrées à Admin Console. Si votre organisation a été intégrée à Adobe Admin Console, vous devez effectuer cette action via Adobe Admin Console.
 >
 >Pour obtenir des instructions sur l’octroi d’un accès administrateur complet dans Adobe Admin Console, voir [Gestion des administrateurs système dans Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->Pour obtenir une liste des procédures différentes selon que votre organisation a été intégrée à Adobe Admin Console, voir [Différences d’administration basées sur les plateformes (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Pour obtenir une liste de procédures qui varient selon que votre organisation a été intégrée ou non à Adobe Admin Console, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront Fusion/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 En tant qu’administrateur Adobe Workfront, vous pouvez créer un autre administrateur Workfront en lui affectant le niveau d’accès Administrateur système. Un utilisateur disposant de ce niveau d’accès dispose d’un accès d’administration complet à tous les éléments de Workfront, y compris les éléments qu’il n’a pas créés lui-même.
 
@@ -28,47 +28,47 @@ En tant qu’administrateur Adobe Workfront, vous pouvez créer un autre adminis
 >
 >Cela diffère de l’utilisation d’un niveau d’accès pour accorder aux utilisateurs un accès administratif à certaines zones du système. Pour plus d’informations, voir :
 >
->* [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Accès d’un administrateur Workfront et accès d’un utilisateur Plan disposant de droits d’administration](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) dans cet article
+>* [Octroyer aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+>* [Accès d’un administrateur Workfront par rapport à accès d’un utilisateur Plan disposant de droits d’administration](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) dans cet article
 >
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront. Pour plus d’informations, voir <a href="#" class="MCXref xref selected">Octroi d’un accès administratif complet à un utilisateur</a>.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Vous devez être un administrateur Workfront. Pour plus d’informations, voir <a href="#" class="MCXref xref selected">Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices</a>.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Octroi d’un accès administrateur système complet à un utilisateur unique
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs et utilisatrices** ![](assets/users-icon-in-main-menu.png).
 
 1. Cliquez sur le nom de l’utilisateur auquel vous souhaitez accorder des droits d’administrateur.
-1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis cliquez sur **Modifier**.
+1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Modifier**.
 
-1. Sur le **Modifier la personne** qui s’affiche, cliquez sur **Accès**.
+1. Dans la zone **Modifier la personne** qui s’affiche, cliquez sur **Accès**.
 
-1. Dans le **niveau d&#39;accès** , sélectionnez la **Administrateur système** niveau d’accès.
+1. Dans la liste déroulante **niveau d&#39;accès**, sélectionnez le niveau d&#39;accès **Administrateur système**.
 
    Selon les modifications apportées à votre système, le nom de ce niveau d’accès peut avoir changé.
 
-1. Cliquez sur **Enregistrez les modifications.**
+1. Cliquez sur **Enregistrer les modifications.**
 
    L’utilisateur dispose désormais de droits d’administrateur système complets dans le système.
 
@@ -104,30 +104,30 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Préférences de projet : Projets</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Préférences du projet : tâches et problèmes</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Préférences du projet : états</td> 
    <td>Accès complet</td> 
-   <td> <p>Accès interdit</p> </td> 
+   <td> <p>Pas d’accès</p> </td> 
   </tr> 
   <tr> 
    <td>Préférences de projet : priorités</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Préférences du projet : Gravités</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
-   <td>Préférences du projet : taux de change</td> 
+   <td>Préférences du projet : taux d’Exchange</td> 
    <td>Accès complet</td> 
    <td>Accès complet</td> 
   </tr> 
@@ -179,7 +179,7 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Connexion en tant que</td> 
    <td>Accès complet </td> 
-   <td> <p>Si l’accès administratif de leur groupe est activé à son niveau d’accès et s’il est désigné comme administrateur de groupe, il peut se connecter en tant qu’utilisateurs du groupe qu’il administre et de leurs sous-groupes. Ils ne peuvent pas se connecter en tant qu’administrateur système.<br>Pour plus d’informations sur l’activation de l’accès administratif de groupe pour les utilisateurs, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</p> </td> 
+   <td> <p>Si l’accès administratif de leur groupe est activé à son niveau d’accès et s’il est désigné comme administrateur de groupe, il peut se connecter en tant qu’utilisateurs du groupe qu’il administre et de leurs sous-groupes. Ils ne peuvent pas se connecter en tant qu’administrateur système.<br>Pour plus d’informations sur l’activation de l’accès administratif de groupe pour les utilisateurs, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Octroi de l’accès aux utilisateurs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Planifications</td> 
@@ -199,12 +199,12 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Frise chronologique et heures : préférences</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Courriel : notifications : notifications d’événement</td> 
    <td>Activer/Désactiver tout</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Courriel : notifications : notifications de rappel</td> 
@@ -219,7 +219,7 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Email : Reminders automatiques</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Email : Invitations</td> 
@@ -229,7 +229,7 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Email : Configuration</td> 
    <td>Accès complet</td> 
-   <td> <p>Accès interdit</p> </td> 
+   <td> <p>Pas d’accès</p> </td> 
   </tr> 
   <tr> 
    <td>Cartes de score</td> 
@@ -239,12 +239,12 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Types de dépenses</td> 
    <td>Accès complet</td> 
-   <td> <p>Accès interdit</p> </td> 
+   <td> <p>Pas d’accès</p> </td> 
   </tr> 
   <tr> 
    <td>Types de risques</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Niveaux d'accès</td> 
@@ -279,7 +279,7 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Interface : commandes de liste</td> 
    <td>Accès complet</td> 
-   <td> <p>Accès interdit</p> </td> 
+   <td> <p>Pas d’accès</p> </td> 
   </tr> 
   <tr> 
    <td>Documents : Fournisseurs cloud</td> 
@@ -289,7 +289,7 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Documents : Mappage des métadonnées</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Documents : Intégration SharePoint</td> 
@@ -304,37 +304,37 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Système : branding</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Système : Informations client</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Système : authentification unique (SSO)</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Système : mise à jour des utilisateurs pour SSO</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Système : démarrage rapide</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Système : Diagnostics</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
   <tr> 
    <td>Système : préférences</td> 
    <td>Accès complet</td> 
-   <td>Accès interdit</td> 
+   <td>Pas d’accès</td> 
   </tr> 
  </tbody> 
 </table>
@@ -411,7 +411,7 @@ Les utilisateurs disposant d’une licence Plan qui peuvent modifier les fonctio
   <tr> 
    <td>Utilisateurs</td> 
    <td>Accès complet</td> 
-   <td> <p>Accès limité</p> <p>Ils ne peuvent pas affecter de groupes à des utilisateurs pour lesquels ils ne sont pas administrateurs de groupe ou à des groupes qui ne sont pas publics.</p> <p>Ils ne peuvent pas attribuer un niveau d’accès aux utilisateurs qui est supérieur à leur niveau d’accès.</p> <p>Si l’accès administratif de leur groupe est activé à son niveau d’accès et s’il est désigné comme administrateur de groupe dans un groupe, il peut réinitialiser le mot de passe et se connecter en tant qu’utilisateurs du groupe qu’il administre et de leurs sous-groupes. Ils ne peuvent pas réinitialiser le mot de passe ou se connecter en tant qu’administrateur système.<br>Pour plus d’informations sur l’activation de l’accès administratif de groupe pour les utilisateurs, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</p> </td> 
+   <td> <p>Accès limité</p> <p>Ils ne peuvent pas affecter de groupes à des utilisateurs pour lesquels ils ne sont pas administrateurs de groupe ou à des groupes qui ne sont pas publics.</p> <p>Ils ne peuvent pas attribuer un niveau d’accès aux utilisateurs qui est supérieur à leur niveau d’accès.</p> <p>Si l’accès administratif de leur groupe est activé à son niveau d’accès et s’il est désigné comme administrateur de groupe dans un groupe, il peut réinitialiser le mot de passe et se connecter en tant qu’utilisateurs du groupe qu’il administre et de leurs sous-groupes. Ils ne peuvent pas réinitialiser le mot de passe ou se connecter en tant qu’administrateur système.<br>Pour plus d’informations sur l’activation de l’accès administratif de groupe pour les utilisateurs, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Octroi de l’accès aux utilisateurs</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

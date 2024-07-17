@@ -9,7 +9,7 @@ exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
 source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents Web, 
 >
 >* Pour des raisons de sécurité, certains sites web ne vous permettent pas d’incorporer des pages web en tant qu’iframe. Si la page Web que vous souhaitez incorporer dans un tableau de bord ne l’autorise pas, elle ne s’affiche pas dans le tableau de bord. Vous pouvez toutefois accéder à la page externe en cliquant sur le nom du tableau de bord.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
->Pour permettre l’incorporation d’un site web dont vous êtes propriétaire, demandez à votre administrateur web d’ajuster la variable **X-Frame-Options** . Pour plus d’informations, voir [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+>Pour permettre l’incorporation d’un site web dont vous êtes propriétaire, demandez à votre administrateur web d’ajuster le paramètre **X-Frame-Options**. Pour plus d’informations, voir [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
 >* Les pages de tableau de bord ne sont plus prises en charge en tant que pages externes incorporées dans les tableaux de bord. Bien que les tableaux de bord existants ne soient pas automatiquement modifiés pour supprimer ces pages externes, toute modification apportée à un tableau de bord contenant une telle référence ne pourra pas être enregistrée tant que la référence n’aura pas été supprimée ou modifiée.
@@ -47,13 +47,13 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents Web, 
 >     * /group/:ID/content-dashboard__:dashboardID &#x200B;
 >     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
->Vous pouvez également envisager d’inclure un rapport de liste dans votre tableau de bord, en suivant la procédure décrite à la section [Ajout d’un rapport à un tableau de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+>Autre solution : pensez à inclure un rapport de liste dans votre tableau de bord, comme expliqué dans la section [Ajouter un rapport à un tableau de bord](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,13 +65,13 @@ Vous devez disposer des éléments suivants :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Actuel : formule </p>
+   <td> <p>Actuelle : formule </p>
    Ou
-   <p>Nouveau : Standard </p> </td> 
+   <p>Nouvelle : standard </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès</strong></td> 
-   <td> <p>Modification de l’accès aux rapports, aux tableaux de bord et aux calendriers</p> </td> 
+   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -104,22 +104,22 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Création
 
 {{step1-to-dashboards}}
 
-1. Pour modifier un tableau de bord existant, sélectionnez le tableau de bord dans lequel vous souhaitez incorporer la page du site web, puis cliquez sur **Actions du tableau de bord**, puis cliquez sur **Modifier**
+1. Pour modifier un tableau de bord existant, sélectionnez le tableau de bord dans lequel vous souhaitez incorporer la page du site web, puis cliquez sur **Actions du tableau de bord**, puis sur **Modifier**
 Ou\
    Pour créer un tableau de bord, cliquez sur **Nouveau tableau de bord**.\
-   Pour plus d’informations sur la création d’un tableau de bord, voir [Création d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+   Pour plus d’informations sur la création d’un tableau de bord, voir [Créer un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-1. Cliquez sur **Ajouter une page externe** sous le **Sélectionner Mise en page/Ajouter des rapports/Ajouter des calendriers** zone.
+1. Cliquez sur **Ajouter une page externe** sous la zone **Sélectionner la mise en page/Ajouter des rapports/Ajouter des calendriers** .
 
    ![](assets/qs-add-external-page-350x239.png)
 
-   La variable **Ajouter une page externe** s’affiche.
+   La zone **Ajouter une page externe** s’affiche.
 
 1. Indiquez les informations suivantes sur la page externe :
 
-   * **Nom**: ajoutez un nom pour le tableau de bord.
-   * **Description**: ajoutez des informations supplémentaires sur le tableau de bord pour identifier les informations qu’il contient. La description s’affiche sur le tableau de bord pour toutes les personnes ayant accès à l’afficher, une fois que vous l’avez enregistré.
-   * **URL**: collez l’URL que vous avez copiée précédemment dans ce champ.
+   * **Nom** : ajoutez un nom pour le tableau de bord.
+   * **Description** : ajoutez plus d’informations sur le tableau de bord pour identifier les informations qu’il contient. La description s’affiche sur le tableau de bord pour toutes les personnes ayant accès à l’afficher, une fois que vous l’avez enregistré.
+   * **URL** : collez l’URL que vous avez copiée précédemment dans ce champ.
 
      Vous pouvez spécifier les types d’URL suivants :
 
@@ -132,7 +132,7 @@ Ou\
 Vous devez être connecté au site web spécifié pour afficher la page externe.\
         Pour plus d’informations sur l’obtention d’un ID de session à partir de Workfront, voir [Principes de base des API](../../../wf-api/general/api-basics.md).\
         Pour des raisons de sécurité, votre administrateur Workfront peut configurer vos préférences système de manière à ne pas autoriser l’utilisation des informations de session dans vos pages externes. Dans ce cas, la page externe ne se charge pas sur le tableau de bord.\
-        Pour plus d’informations sur les préférences de sécurité du système, voir [Configuration des préférences de sécurité système](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
+        Pour plus d’informations sur les préférences de sécurité du système, voir [Configuration des préférences de sécurité du système](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
      >[!WARNING]
@@ -140,7 +140,7 @@ Vous devez être connecté au site web spécifié pour afficher la page externe.
      >L’utilisation de SessionID n’est pas sécurisée et n’est pas recommandée.
      >
 
-   * **Hauteur**: saisissez un nombre supérieur à 0 pour définir l’espace occupé par la page externe sur le tableau de bord. La hauteur par défaut est de 500.
+   * **Hauteur** : saisissez un nombre supérieur à 0 pour définir l’espace occupé par la page externe sur le tableau de bord. La hauteur par défaut est de 500.
 
 1. Cliquer sur **Enregistrer**.
 
@@ -158,15 +158,15 @@ Pour mettre à jour les informations d’une page externe utilisée dans un tabl
 
 {{step1-to-dashboards}}
 
-1. Cliquez sur le nom du tableau de bord à mettre à jour pour l’ouvrir, puis cliquez sur **Actions du tableau de bord**, puis **Modifier**.
+1. Cliquez sur le nom du tableau de bord que vous souhaitez mettre à jour pour l’ouvrir, puis cliquez sur **Actions sur le tableau de bord**, puis sur **Modifier**.
 
-   La variable **Détails du tableau de bord** s’ouvre.
+   La zone **Détails du tableau de bord** s’ouvre.
 
-1. Dans le **Sélectionner la mise en page / Ajouter des rapports / Ajouter des calendriers** de la zone **Détails du tableau de bord** recherchez la page externe à mettre à jour, survolez-la avec la souris, puis cliquez sur le bouton **Modifier** Icône\
+1. Dans la zone **Sélectionner la mise en page / Ajouter des rapports / Ajouter des calendriers** de la zone **Détails du tableau de bord**, recherchez la page externe à mettre à jour, survolez-la avec la souris et cliquez sur l’icône **Modifier**.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. Dans le **Modifier la page externe** , mettez à jour les champs à modifier, puis cliquez sur **Enregistrer**.
-1. (Facultatif) Cliquez sur le **Supprimer** icon ![](assets/delete.png) pour supprimer la page externe du tableau de bord. Pour plus d’informations, voir [Suppression d’une page externe d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. Dans la zone **Modifier la page externe**, mettez à jour les champs que vous souhaitez modifier, puis cliquez sur **Enregistrer**.
+1. (Facultatif) Cliquez sur l’icône **Supprimer** ![](assets/delete.png) pour supprimer la page externe du tableau de bord. Pour plus d’informations, voir [Suppression d’une page externe d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Cliquez sur **Enregistrer + Fermer**.
 
 ## Affichage des pages externes dans un rapport
@@ -175,7 +175,7 @@ Vous pouvez afficher toutes les pages externes de Workfront dans un rapport Page
 
 {{step1-to-reports}}
 
-1. Cliquez sur **Nouveau rapport** > sélectionner **Page externe**.
+1. Cliquez sur **Nouveau rapport** > sélectionnez **Page externe**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -183,7 +183,7 @@ Vous pouvez afficher toutes les pages externes de Workfront dans un rapport Page
 
    Pour plus d’informations, consultez [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Cliquez sur **Enregistrer + Fermer**.
+1. Cliquez sur **Enregistrer+Fermer**.
 
    Vous pouvez afficher le nom et l’URL associés aux pages externes de votre système dans le nouveau rapport.
 

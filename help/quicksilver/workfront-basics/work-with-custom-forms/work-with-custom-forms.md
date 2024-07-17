@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Utilisation de formulaires personnalisés
+title: Travailler avec des formulaires personnalisés
 description: Consultez ces articles pour savoir comment utiliser des formulaires personnalisés dans Adobe Workfront.
 author: Alina
 feature: Get Started with Workfront
@@ -10,15 +10,15 @@ exl-id: ef68fcaf-b5b6-4e63-a37c-3a3926553992
 source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 0%
+ht-degree: 37%
 
 ---
 
-# Utilisation de formulaires personnalisés
+# Travailler avec des formulaires personnalisés
 
-Cette section contient les articles suivants :
+Cette section contient les articles suivants :
 
-* [Ajout d’un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
+* [Ajouter un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [Modifier les informations dans les champs de formulaire personnalisés](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
-* [Exportation de formulaires personnalisés et de détails d’objet](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
-* [Gestion des formulaires personnalisés associés à des objets](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
+* [ Exporter les détails des formulaires et des objets personnalisés](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
+* [Gérer les formulaires personnalisés attachés aux objets](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)

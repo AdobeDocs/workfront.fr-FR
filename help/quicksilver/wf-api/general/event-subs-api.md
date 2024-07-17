@@ -1,21 +1,21 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: API d’abonnement à un événement
-description: API d’abonnement à un événement
+title: API d’abonnement aux événements
+description: API d’abonnement aux événements
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2147'
 ht-degree: 4%
 
 ---
 
 
-# API d’abonnement à un événement
+# API d’abonnement aux événements
 
 <!--BOB clean this up-->
 
@@ -56,7 +56,7 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * Tableau de bord
 * Document
 * Frais
-* Champ
+* champ
 * Heure
 * Problème
 * Note
@@ -72,16 +72,16 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * l’utilisateur ou de l’utilisatrice
 * Espace de travail
 
-Pour obtenir la liste des champs pris en charge par les objets d’abonnement d’événement, voir [Champs de ressource d’abonnement à un événement](../../wf-api/api/event-sub-resource-fields.md).
+Pour obtenir la liste des champs pris en charge par les objets d’abonnement d’événement, voir [Champs de ressource d’abonnement d’événement](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Authentification de l’abonnement à un événement
 
 Pour créer, interroger ou supprimer un abonnement à un événement, l’utilisateur de Workfront doit disposer des éléments suivants :
 
 * Un niveau d’accès &quot;Administrateur système&quot; est requis pour utiliser les abonnements à un événement.
-* A `sessionID`  L’en-tête est requis pour utiliser l’API Event Subscriptions
+* Un en-tête `sessionID` est nécessaire pour utiliser l’API d’abonnements à un événement
 
-  Pour plus d’informations, voir [Authentification](api-basics.md#authentication) in [Principes de base des API](api-basics.md).
+  Pour plus d’informations, voir [Authentification](api-basics.md#authentication) dans [Principes de base des API](api-basics.md).
 
 ## Formation de la ressource d’abonnement
 
@@ -89,11 +89,11 @@ La ressource d&#39;abonnement contient les champs suivants.
 
 * objId (facultatif)
 
-   * **Chaîne** - Identifiant de l’objet objCode spécifié pour lequel les événements sont déclenchés. Si ce champ n’est pas spécifié, l’utilisateur reçoit des événements pour tous les objets du type spécifié.
+   * **String** - ID de l’objet objCode spécifié pour lequel les événements sont déclenchés. Si ce champ n’est pas spécifié, l’utilisateur reçoit des événements pour tous les objets du type spécifié.
 
 * objCode (obligatoire)
 
-   * **Chaîne** - objCode de l’objet abonné aux modifications. Les valeurs possibles pour objCode sont répertoriées dans le tableau ci-dessous.
+   * **String** - objCode de l’objet abonné aux modifications. Les valeurs possibles pour objCode sont répertoriées dans le tableau ci-dessous.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -110,7 +110,7 @@ La ressource d&#39;abonnement contient les champs suivants.
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Entreprise </td> 
+        <td scope="col">Société </td> 
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
@@ -126,7 +126,7 @@ La ressource d&#39;abonnement contient les champs suivants.
         <td scope="col">EXPNS</td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Champ</p></td> 
+        <td scope="col"><p>champ</p></td> 
         <td scope="col"><p>CHAMP</p></td> 
        </tr> 
       <tr> 
@@ -190,19 +190,19 @@ La ressource d&#39;abonnement contient les champs suivants.
 
 * eventType (obligatoire)
 
-   * **Chaîne** - Une valeur qui représente le type d’événement auquel l’objet est abonné. Les types d’événement disponibles sont les suivants :
+   * **String** - Valeur qui représente le type d’événement auquel l’objet est abonné. Les types d’événement disponibles sont les suivants :
 
       * CREATE
-      * SUPPRIMER 
+      * DELETE 
       * UPDATE
 
 * url (obligatoire)
 
-   * **Chaîne** - URL du point de terminaison auquel les payloads d’événement d’abonnement sont envoyées via HTTP.
+   * **String** - URL du point de terminaison auquel les payloads d’événement d’abonnement sont envoyées via HTTP.
 
 * authToken (obligatoire)
 
-   * **Chaîne** - Jeton porteur OAuth2 utilisé pour l’authentification avec l’URL spécifiée dans le champ &quot;URL&quot;. 
+   * **String** - Jeton de porteur OAuth2 utilisé pour s’authentifier avec l’URL spécifiée dans le champ &quot;URL&quot;. 
 
 ## Création de requêtes d’API d’abonnement à un événement
 
@@ -210,7 +210,7 @@ Une fois que l’utilisateur a accès en tant qu’administrateur et qu’il a c
 
 Utilisez la syntaxe suivante pour construire l’URL.
 
-**URL de la demande :**
+**URL de requête :**
 
 
 ```
@@ -260,7 +260,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401 (Non autorisé) | L’ID de session fourni était vide ou considéré comme non valide. |
 | 403 (Interdit) | L’utilisateur qui correspond à l’ID de session fourni ne dispose pas d’un accès administrateur. |
 
-La transmission d’une ressource d’abonnement en tant que corps d’une requête (le type de contenu étant &quot;application/json&quot;) entraîne la création d’un abonnement d’événement pour l’objet spécifié. Un code de réponse 201 (Créé) indique que l’abonnement a été créé. Un code de réponse autre que 201 signifie que l’abonnement était **NOT** créé.
+La transmission d’une ressource d’abonnement en tant que corps d’une requête (le type de contenu étant &quot;application/json&quot;) entraîne la création d’un abonnement d’événement pour l’objet spécifié. Un code de réponse 201 (Créé) indique que l’abonnement a été créé. Un code de réponse autre que 201 signifie que l’abonnement a été **NOT** créé.
 
 >[!NOTE]
 >
@@ -283,12 +283,12 @@ Lors de l’interrogation de Workfront HTTP, utilisez la méthode GET. Il existe
 
 Vous pouvez interroger tous les abonnements à des événements pour un client ou utiliser les éléments suivants pour gérer la réponse. Vous pouvez également utiliser les options suivantes pour gérer la réponse :
 
-* **page**: option de paramètre de requête pour spécifier le nombre de pages à renvoyer. La valeur par défaut est 1.
-* **limit**: option de paramètre de requête pour spécifier le nombre de résultats à renvoyer par page. La valeur par défaut est 100 avec un maximum de 1 000.
+* **page** : option de paramètre de requête pour spécifier le nombre de pages à renvoyer. La valeur par défaut est 1.
+* **limit** : option de paramètre de requête pour spécifier le nombre de résultats à renvoyer par page. La valeur par défaut est 100 avec un maximum de 1 000.
 
 La syntaxe de requête pour répertorier tous les abonnements d’événement pour un client spécifique est la suivante :
 
-**URL de la demande :**
+**URL de requête :**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -373,15 +373,15 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 Où
 
-* **page** et **limit** sont les valeurs fournies dans la requête ou la valeur par défaut si aucune valeur n’est fournie ;
-* **page_count** est le nombre total de pages qui peuvent être interrogées.
+* **page** et **limit** sont les valeurs fournies dans la requête ou la valeur par défaut si aucune valeur n’est fournie.
+* **page_count** est le nombre total de pages pouvant être interrogées.
 * **total_count** est le nombre total d’abonnements correspondant à la requête.
 
 ### Requête par identifiant d’abonnement à l’événement
 
 Vous pouvez rechercher des abonnements à des événements par identifiant d’abonnement à l’événement. La syntaxe de requête pour répertorier les abonnements d’événement est la suivante :
 
-**URL de la demande :**
+**URL de requête :**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -437,21 +437,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 Le filtrage des abonnements aux événements peut être utilisé pour vous assurer que vous ne recevez que les messages pertinents. La création de filtres pour vos abonnements peut diminuer considérablement le nombre de messages que votre point de terminaison doit consommer.
 
-Par exemple, un **MISE À JOUR - TÂCHE** Un abonnement d’événement peut être défini pour se déclencher uniquement lorsque la variable **newState** d’une payload d’événement définit la variable **taskStatus** as **current**.
+Par exemple, un abonnement à un événement **UPDATE - TASK** peut être défini pour se déclencher uniquement lorsque l’événement **newState** d’une charge utile d’événement définit **taskStatus** comme **current**.
 
 >[!IMPORTANT]
 >
-Les attributs suivants s’appliquent au filtrage des abonnements aux événements
+>Les attributs suivants s’appliquent au filtrage des abonnements aux événements
 
-* Lorsqu’un champ de filtre a une valeur non vide, seuls les messages comportant une **newState** contenant les clés et valeurs de filtre sont envoyées à l&#39;URL abonnée
-* Vous pouvez filtrer par données personnalisées incluses dans la variable **newState** ET/OU **oldState** de l’objet
+* Lorsqu’un champ de filtre a une valeur non vide, seuls les messages avec un **newState** contenant les clés de filtre et les valeurs sont envoyés à l’URL abonnée.
+* Vous pouvez filtrer par données personnalisées incluses dans l’objet **newState** ET/OU **oldState**
 * Les filtres sont évalués uniquement s’ils sont égaux ou non à une valeur spécifique.
-* Si votre syntaxe de filtre est incorrecte ou ne correspond à aucune donnée contenue dans la variable **newState** du payload, un message de validation n’est pas renvoyé pour indiquer qu’une erreur s’est produite.
+* Si la syntaxe de votre filtre est incorrecte ou ne correspond à aucune donnée contenue dans le **newState** de la payload, un message de validation n’est pas renvoyé pour indiquer qu’une erreur s’est produite.
 * Les filtres ne peuvent pas être mis à jour sur un abonnement existant ; un nouvel abonnement doit être créé avec de nouveaux paramètres de filtre.
 * Plusieurs filtres peuvent être appliqués à un seul abonnement et celui-ci ne sera diffusé que lorsque toutes les conditions de filtre auront été remplies.
-* L’application de plusieurs filtres à un seul abonnement équivaut à utiliser une **ET** opérateur logique.
+* L’application de plusieurs filtres à un seul abonnement équivaut à l’utilisation d’un opérateur logique **AND**.
 * Plusieurs abonnements d’événement peuvent être appliqués à un seul objet tant qu’un ou plusieurs paramètres de champ d’abonnement d’événement sont différents entre chaque abonnement d’événement.
-* Lorsque plusieurs abonnements d’événement sont attribués à un seul objet, tous les abonnements d’événement associés à cet objet peuvent être renvoyés à un seul point de terminaison. Cette pratique peut être utilisée comme équivalent à un opérateur logique. **OU** qui ne peuvent pas être définis à l’aide des paramètres de filtre.
+* Lorsque plusieurs abonnements d’événement sont attribués à un seul objet, tous les abonnements d’événement associés à cet objet peuvent être renvoyés à un seul point de terminaison. Cette pratique peut être utilisée comme alternative équivalente à l&#39;opérateur logique **OR** qui ne peut pas être défini à l&#39;aide des paramètres de filtre.
 
 ### Utilisation des opérateurs de comparaison
 
@@ -459,7 +459,7 @@ Vous pouvez spécifier un champ de comparaison avec le champ de filtrage. Utilis
 
 #### eq : égal
 
-Ce filtre permet aux messages de passer si la modification survenue correspond à `fieldValue` dans le filtre exactement. La variable `fieldValue` est sensible à la casse.
+Ce filtre permet aux messages de passer si la modification survenue correspond exactement à `fieldValue` dans le filtre. La valeur `fieldValue` est sensible à la casse.
 
 ```
 {
@@ -479,7 +479,7 @@ Ce filtre permet aux messages de passer si la modification survenue correspond �
 
 #### ne : différent de
 
-Ce filtre permet aux messages de passer si la modification survenue ne correspond pas à `fieldValue` dans le filtre exactement. La variable `fieldValue` est sensible à la casse.
+Ce filtre permet aux messages de passer si la modification survenue ne correspond pas exactement à `fieldValue` dans le filtre. La valeur `fieldValue` est sensible à la casse.
 
 ```
 {
@@ -499,7 +499,7 @@ Ce filtre permet aux messages de passer si la modification survenue ne correspon
 
 #### gt : supérieur à
 
-Ce filtre permet aux messages de passer si la mise à jour de la variable `fieldName` est supérieur à la valeur de `fieldValue`.
+Ce filtre permet aux messages de passer si la mise à jour de la `fieldName` spécifiée est supérieure à la valeur de `fieldValue`.
 
 ```
 {
@@ -519,7 +519,7 @@ Ce filtre permet aux messages de passer si la mise à jour de la variable `field
 
 #### gte : supérieur ou égal à
 
-Ce filtre permet aux messages de passer si la mise à jour de la variable `fieldName` est supérieur ou égal à la valeur de `fieldValue`.
+Ce filtre permet de transmettre des messages si la mise à jour de la `fieldName` spécifiée est supérieure ou égale à la valeur de `fieldValue`.
 
 ```
 {
@@ -539,7 +539,7 @@ Ce filtre permet aux messages de passer si la mise à jour de la variable `field
 
 #### lt : inférieur à
 
-Ce filtre permet aux messages de passer si la mise à jour de la variable `fieldName` est inférieur à la valeur de `fieldValue`.
+Ce filtre permet aux messages de passer si la mise à jour de la `fieldName` spécifiée est inférieure à la valeur de `fieldValue`.
 
 ```
 {
@@ -559,7 +559,7 @@ Ce filtre permet aux messages de passer si la mise à jour de la variable `field
 
 #### lte : inférieur ou égal à
 
-Ce filtre permet aux messages de passer si la mise à jour de la variable `fieldName` est inférieur ou égal à la valeur de `fieldValue`.
+Ce filtre permet de transmettre des messages si la mise à jour de la `fieldName` spécifiée est inférieure ou égale à la valeur de `fieldValue`.
 
 ```
 {
@@ -579,7 +579,7 @@ Ce filtre permet aux messages de passer si la mise à jour de la variable `field
 
 #### contient
 
-Ce filtre permet aux messages de passer si la modification apportée contient la variable `fieldValue` dans le filtre. La variable `fieldValue` est sensible à la casse
+Ce filtre permet aux messages de passer si la modification survenue contient le `fieldValue` dans le filtre. La valeur `fieldValue` est sensible à la casse.
 
 ```
 {
@@ -599,11 +599,11 @@ Ce filtre permet aux messages de passer si la modification apportée contient la
 
 #### modifier
 
-Ce filtre permet aux messages de passer uniquement si le champ spécifié (`fieldName`) a une valeur différente dans l’ancien et le nouvel état. Mettre à jour les autres champs en plus de celui spécifié (`fieldName`) ne renverra pas cette modification.
+Ce filtre permet aux messages de passer uniquement si le champ spécifié (`fieldName`) a une valeur différente dans les états ancien et nouveau. La mise à jour d’autres champs en plus de celui spécifié (`fieldName`) ne renverra pas cette modification.
 
 >[!NOTE]
 >
-`fieldValue` dans le tableau filters ci-dessous n’a aucun effet.
+>`fieldValue` dans le tableau de filtres ci-dessous n’a aucun effet.
 
 ```
 {
@@ -628,8 +628,8 @@ Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l�
 
 >[!NOTE]
 >
-L&#39;abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur le `oldState`, c’était avant qu’une mise à jour ne soit effectuée sur la tâche.
-Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’une chose à l’autre. Par exemple, pour connaître toutes les tâches qui ont changé de &quot;Recherche et nom&quot; en &quot;Nom de l’équipe de recherche Certains nom&quot;.
+>L’abonnement ci-dessous avec le filtre donné renvoie uniquement les messages où le nom de la tâche contient `again` sur le `oldState`, ce qu’il était avant qu’une mise à jour ait été effectuée sur la tâche.
+>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’une chose à l’autre. Par exemple, pour connaître toutes les tâches qui ont changé de &quot;Recherche et nom&quot; en &quot;Nom de l’équipe de recherche Certains nom&quot;.
 
 ```
 {
@@ -650,7 +650,7 @@ Un cas pratique pour cela serait de trouver les messages objCode qui ont changé
 
 ### Utilisation des champs de connecteur
 
-La variable `filterConnector` sur la payload de l’abonnement vous permet de choisir comment les filtres doivent être appliqués. La valeur par défaut est &quot;AND&quot;, où les filtres doivent tous être `true` pour le message d&#39;abonnement à transmettre. Si &quot;OR&quot; est spécifié, un seul filtre doit correspondre pour que le message d’abonnement passe.
+Le champ `filterConnector` de la payload de l’abonnement vous permet de choisir comment les filtres doivent être appliqués. La valeur par défaut est &quot;AND&quot;, où les filtres doivent tous être `true` pour que le message d’abonnement passe. Si &quot;OR&quot; est spécifié, un seul filtre doit correspondre pour que le message d’abonnement passe.
 
 ```
 {
@@ -678,7 +678,7 @@ La variable `filterConnector` sur la payload de l’abonnement vous permet de ch
 
 Lors de la suppression d’un HTTP Workfront, utilisez la méthode DELETE. La syntaxe de requête pour la suppression d’un abonnement d’événement unique par ID d’abonnement est la suivante :
 
-**URL de la demande :**
+**URL de requête :**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -744,7 +744,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 | Serveur | `→Apache-Coyote/1.1` |
 
 
-**Exemple de corps de réponse :** N/A
+**Exemple de corps de réponse :** S.O.
 
 ## Exemples de payloads d’événement
 
@@ -881,7 +881,7 @@ Le champ de codage base64Encoding est un champ facultatif qui est utilisé pour 
 
 ### Exemple de requête utilisant le champ base64Encoding
 
-Si une requête est effectuée à l’aide du champ de codage base64Encoding défini sur true, la variable **newState** et **oldState** les objets de la payload sont fournis sous forme de chaînes de codage de base 64. Si le champ de codage base64Encoding est défini sur false, laissez le champ vide ou n’est pas inclus dans la requête, la payload renvoyée ne sera pas codée en base 64.
+Si une requête est effectuée à l’aide du champ de codage base64Encoding défini sur true, les objets **newState** et **oldState** de la payload sont fournis sous forme de chaînes de codage de base 64. Si le champ de codage base64Encoding est défini sur false, laissez le champ vide ou n’est pas inclus dans la requête, la payload renvoyée ne sera pas codée en base 64.
 
 Voici un exemple de requête qui utilise le champ base64Encoding :
 
@@ -917,7 +917,7 @@ Voici un exemple de requête qui utilise le champ base64Encoding :
 
 ## Méthode obsolète pour interroger tous les abonnements à un événement
 
-Le point de terminaison d’API suivant est obsolète et ne doit pas être utilisé pour les nouvelles implémentations. Nous vous recommandons également de passer d’anciennes implémentations à la méthode dans la variable **Requête sur les abonnements aux événements** section décrite ci-dessus.
+Le point de terminaison d’API suivant est obsolète et ne doit pas être utilisé pour les nouvelles implémentations. Nous vous recommandons également de passer d’anciennes implémentations à la méthode dans la section **Abonnements à des événements de requêtage** décrite ci-dessus.
 
 Vous pouvez interroger tous les abonnements à un événement pour un client, comme spécifié par la valeur sessionID . La syntaxe de requête permettant de répertorier tous les abonnements d’événement pour un client spécifique est l’URL suivante :
 

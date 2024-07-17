@@ -1,9 +1,9 @@
 ---
-title: Création d’applications OAuth2 pour [!DNL Workfront] intégrations
+title: Créer des applications OAuth2 pour les intégrations  [!DNL Workfront]
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Comme [!DNL Adobe Workfront] administrateur, vous pouvez créer des applications OAuth2 pour votre instance de [!DNL Workfront], qui permettent à d’autres applications d’accéder à Workfront. Vos utilisateurs peuvent alors autoriser ces autres applications à accéder à leurs données Workfront. Ainsi, vous pouvez intégrer Workfront aux applications de votre choix, y compris vos propres applications internes.
+description: En tant qu’administrateur  [!DNL Adobe Workfront] , vous pouvez créer des applications OAuth2 pour votre instance de [!DNL Workfront], ce qui permet à d’autres applications d’accéder à Workfront. Vos utilisateurs peuvent alors autoriser ces autres applications à accéder à leurs données Workfront. Ainsi, vous pouvez intégrer Workfront aux applications de votre choix, y compris vos propres applications internes.
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
@@ -11,23 +11,23 @@ exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
 source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
 source-wordcount: '1956'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
-# Création d’applications OAuth2 pour [!DNL Workfront] intégrations
+# Créer des applications OAuth2 pour les intégrations [!DNL Workfront]
 
-Comme [!DNL Adobe Workfront] administrateur, vous pouvez créer des applications OAuth2 pour votre instance de [!DNL Workfront], qui permettent à d’autres applications d’accéder à [!DNL Workfront]. Vos utilisateurs peuvent alors autoriser ces autres applications à accéder à leurs [!DNL Workfront] data. Vous pouvez ainsi intégrer les applications de votre choix, y compris vos propres applications internes.
+En tant qu&#39;administrateur [!DNL Adobe Workfront], vous pouvez créer des applications OAuth2 pour votre instance de [!DNL Workfront], qui permettent à d&#39;autres applications d&#39;accéder à [!DNL Workfront]. Vos utilisateurs peuvent alors autoriser ces autres applications à accéder à leurs données [!DNL Workfront]. Ainsi, vous pouvez intégrer   avec les applications de votre choix, y compris vos propres applications internes.
 
-Lorsque vous créez une [!UICONTROL OAuth2] , vous générez un identifiant client et un secret client. Vos utilisateurs peuvent ensuite utiliser l’ID client dans les appels API pour s’intégrer à l’application que vous avez créée.
+Lorsque vous créez une application [!UICONTROL OAuth2], vous générez un identifiant client et un secret client. Vos utilisateurs peuvent ensuite utiliser l’ID client dans les appels API pour s’intégrer à l’application que vous avez créée.
 
 >[!NOTE]
 >
->Dans le contexte d’OAuth2, &quot;création d’une application&quot; fait référence au processus de création de ce type de lien d’accès entre une application et un serveur, tel que [!DNL Workfront].
+>Dans le contexte d’OAuth2, &quot;création d’une application&quot; fait référence au processus de création de ce type de lien d’accès entre une application et un serveur tel que [!DNL Workfront].
 
 * Pour plus d’informations sur la configuration et l’utilisation de l’application OAuth2 avec les informations d’identification de l’utilisateur (flux de code d’autorisation), voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux de code d’autorisation](../../wf-api/api/oauth-app-code-token-flow.md).
 * Pour plus d’informations sur la configuration et l’utilisation de l’application OAuth2 à l’aide de l’authentification du serveur (flux JWT), voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux JWT](../../wf-api/api/oauth-app-jwt-flow.md).
-* Pour obtenir des instructions sur la configuration et l’utilisation de l’application OAuth2 à l’aide de PKCE, voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux PKCE](../../wf-api/api/oauth-app-pkce-flow.md).
+* Pour plus d’informations sur la configuration et l’utilisation de l’application OAuth2 à l’aide de PKCE, voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide de PKCE flow](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Conditions d’accès
 
@@ -45,28 +45,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td><p>Nouveau : [!UICONTROL Standard]</p>
+   <td><p>Nouvelle : [!UICONTROL Standard]</p>
    Ou
    <p>Actuel :[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> Vous devez être un [!DNL Workfront] administrateur. </td> 
+   <td> Vous devez être un administrateur ou une administratrice de [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
 +++
 
 ## Présentation d’OAuth2
 
-Imaginez qu’une application puisse extraire certaines informations spécifiques de [!DNL Workfront]. Une application qui demande des informations est appelée client. Dans cet exemple, le nom du client est ClientApp. ClientApp doit avoir accès aux informations d’un utilisateur particulier et doit donc y accéder [!DNL Workfront] en tant qu’utilisateur. Si votre utilisateur donne à ClientApp son nom d’utilisateur et son mot de passe, il peut accéder à toutes les données auxquelles il peut accéder. Il s’agit d’un risque de sécurité, car ClientApp n’a besoin que d’un petit ensemble d’informations spécifiques.
+Imaginez qu’une application doit extraire certaines informations spécifiques de [!DNL Workfront]. Une application qui demande des informations est appelée client. Dans cet exemple, le nom du client est ClientApp. ClientApp doit accéder aux informations d’un utilisateur particulier et doit donc accéder à [!DNL Workfront] en tant qu’utilisateur. Si votre utilisateur donne à ClientApp son nom d’utilisateur et son mot de passe, il peut accéder à toutes les données auxquelles il peut accéder. Il s’agit d’un risque de sécurité, car ClientApp n’a besoin que d’un petit ensemble d’informations spécifiques.
 
-Lorsque vous créez une application OAuth2 pour ClientApp, vous indiquez essentiellement : [!DNL Workfront] que ClientApp est autorisé à accéder [!DNL Workfront], mais uniquement si l’utilisateur dont le compte auquel accède ClientApp donne l’autorisation d’accès.
+Lorsque vous créez une application OAuth2 pour ClientApp, vous indiquez essentiellement à [!DNL Workfront] que ClientApp est autorisé à accéder à [!DNL Workfront], mais seulement si l’utilisateur dont le compte Accès à ClientApp donne l’autorisation d’accès.
 
-## Création d’une application OAuth2
+## Créer une application OAuth2
 
 Lors de la création d’une application OAuth2, choisissez le type d’application qui répond le mieux aux besoins de votre intégration.
 
@@ -129,11 +129,11 @@ Lors de la création d’une application OAuth2, choisissez le type d’applicat
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Système]**, puis sélectionnez **[!UICONTROL Applications OAuth2]**.
-1. Cliquez sur **[!UICONTROL Création d’une intégration d’application]**.
-La variable **Nouvelle application OAuth2** s’affiche.
-1. Dans le **Nouvelle application OAuth2** , sélectionnez **[!UICONTROL Application machine à machine]**.
-1. Saisissez un nom pour la nouvelle application, par exemple &quot;&quot;[!DNL Workfront] pour ClientApp.&quot;
+1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL System]**, puis sélectionnez **[!UICONTROL OAuth2 Applications]**.
+1. Cliquez sur **[!UICONTROL Créer une intégration d’application]**.
+La zone **Nouvelle application OAuth2** s’affiche.
+1. Dans la zone **Nouvelle application OAuth2**, sélectionnez **[!UICONTROL Machine to Machine Application]**.
+1. Saisissez un nom pour la nouvelle application, par exemple &quot;[!DNL Workfront] pour ClientApp&quot;.
 1. Cliquez sur **[!UICONTROL Créer]**.
 1. Renseignez les champs de la nouvelle application.
 
@@ -147,10 +147,10 @@ La variable **Nouvelle application OAuth2** s’affiche.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>Ce champ est généré automatiquement</p> <p><b>IMPORTANT</b>:  <p>Copiez le contenu de ce champ dans un autre fichier sécurisé avant de fermer cette page. Vous ne pourrez plus voir cette clé secrète.</p> <p>Si vous perdez cette clé, supprimez-la et créez un secret client.</p> 
+      <td> <p>Ce champ est généré automatiquement</p> <p><b>IMPORTANT</b> :  <p>Copiez le contenu de ce champ dans un autre fichier sécurisé avant de fermer cette page. Vous ne pourrez plus voir cette clé secrète.</p> <p>Si vous perdez cette clé, supprimez-la et créez un secret client.</p> 
         <ol> 
-         <li value="1"> <p>Cliquez sur le bouton <b>[!UICONTROL Supprimer]</b> icon <img src="assets/delete.png"> pour supprimer le secret client actuel.</p> </li> 
-         <li value="2"> <p>Cliquez sur <b>[!UICONTROL Ajouter un secret client]</b> pour générer un nouveau secret client.</p> </li> 
+         <li value="1"> <p>Cliquez sur l’icône <b>[!UICONTROL Supprimer]</b> <img src="assets/delete.png"> pour supprimer le secret client actuel.</p> </li> 
+         <li value="2"> <p>Cliquez sur <b>[!UICONTROL Ajouter le secret client]</b> pour générer un nouveau secret client.</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
@@ -180,12 +180,12 @@ Pour plus d’informations sur la configuration et l’utilisation de l’applic
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Système]**, puis sélectionnez **[!UICONTROL Applications OAuth2]**.
-1. Cliquez sur **[!UICONTROL Création d’une intégration d’application]**.
+1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL System]**, puis sélectionnez **[!UICONTROL OAuth2 Applications]**.
+1. Cliquez sur **[!UICONTROL Créer une intégration d’application]**.
 
-   La variable **Nouvelle application OAuth2** s’affiche.
-1. Dans le **Nouvelle application OAuth2** , sélectionnez **[!UICONTROL Application web]**.
-1. Saisissez un nom pour la nouvelle application OAuth2, tel que &quot;[!DNL Workfront] pour ClientApp.&quot;
+   **Nouvelle application OAuth2** s’affiche.
+1. Dans la zone **Nouvelle application OAuth2**, sélectionnez **[!UICONTROL Application Web]**.
+1. Saisissez un nom pour la nouvelle application OAuth2, par exemple &quot;[!DNL Workfront] pour ClientApp&quot;.
 1. Cliquez sur **[!UICONTROL Créer]**.
 1. Renseignez les champs de la nouvelle application.
 
@@ -199,15 +199,15 @@ Pour plus d’informations sur la configuration et l’utilisation de l’applic
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>Ce champ est généré automatiquement</p> <p><b>IMPORTANT</b>:  <p>Copiez le contenu de ce champ dans un autre fichier sécurisé avant de fermer cette page. Vous ne pourrez plus voir cette clé secrète.</p> <p>Si vous perdez cette clé, supprimez-la et créez un secret client.</p> 
+      <td> <p>Ce champ est généré automatiquement</p> <p><b>IMPORTANT</b> :  <p>Copiez le contenu de ce champ dans un autre fichier sécurisé avant de fermer cette page. Vous ne pourrez plus voir cette clé secrète.</p> <p>Si vous perdez cette clé, supprimez-la et créez un secret client.</p> 
         <ol> 
-         <li value="1"> <p>Cliquez sur le bouton <b>[!UICONTROL Supprimer]</b> icon <img src="assets/delete.png"> pour supprimer le secret client actuel.</p> </li> 
-         <li value="2"> <p>Cliquez sur <b>[!UICONTROL Ajouter un secret client]</b> pour générer un nouveau secret client.</p> </li> 
+         <li value="1"> <p>Cliquez sur l’icône <b>[!UICONTROL Supprimer]</b> <img src="assets/delete.png"> pour supprimer le secret client actuel.</p> </li> 
+         <li value="2"> <p>Cliquez sur <b>[!UICONTROL Ajouter le secret client]</b> pour générer un nouveau secret client.</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL URL de redirection]</td> 
-      <td>Les utilisateurs seront redirigés vers ce chemin après s’être authentifiés auprès de [!DNL Workfront].</td> 
+      <td>Les utilisateurs seront redirigés vers ce chemin après s’être authentifiés avec [!DNL Workfront].</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Actualiser la rotation du jeton]</td> 
@@ -248,12 +248,12 @@ Pour plus d’informations sur la configuration et l’utilisation de l’applic
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Système]**, puis sélectionnez **[!UICONTROL Applications OAuth2]**.
-1. Cliquez sur **[!UICONTROL Création d’une intégration d’application]**.
+1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL System]**, puis sélectionnez **[!UICONTROL OAuth2 Applications]**.
+1. Cliquez sur **[!UICONTROL Créer une intégration d’application]**.
 
-   La variable **Nouvelle application OAuth2** s’affiche.
-1. Dans le **Nouvelle application OAuth2** , sélectionnez **[!UICONTROL Application Web Mono-Page]**.
-1. Saisissez un nom pour la nouvelle [!UICONTROL OAuth2] application, telle que &quot;[!DNL Workfront] pour ClientApp.&quot;
+   La zone **Nouvelle application OAuth2** s’affiche.
+1. Dans la zone **Nouvelle application OAuth2**, sélectionnez **[!UICONTROL Application Web Mono-Page]**.
+1. Saisissez un nom pour la nouvelle application [!UICONTROL OAuth2], par exemple &quot;[!DNL Workfront] pour ClientApp&quot;.
 1. Cliquez sur **[!UICONTROL Créer]**.
 1. Renseignez les champs de la nouvelle application.
 
@@ -322,32 +322,32 @@ La configuration et l’utilisation ultérieures de l’application OAuth2 cré�
 
 * Pour plus d’informations sur la configuration et l’utilisation de l’application OAuth2 avec les informations d’identification de l’utilisateur (flux de code d’autorisation), voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux de code d’autorisation](../../wf-api/api/oauth-app-code-token-flow.md).
 * Pour plus d’informations sur la configuration et l’utilisation de l’application OAuth2 à l’aide de l’authentification du serveur (flux JWT), voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux JWT](../../wf-api/api/oauth-app-jwt-flow.md).
-* Pour obtenir des instructions sur la configuration et l’utilisation de l’application OAuth2 à l’aide de PKCE, voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux PKCE](../../wf-api/api/oauth-app-pkce-flow.md).
+* Pour plus d’informations sur la configuration et l’utilisation de l’application OAuth2 à l’aide de PKCE, voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide de PKCE flow](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Processus OAuth2 pour le flux de code d’autorisation
 
 >[!NOTE]
 >
->Vos utilisateurs accèdent au [!UICONTROL OAuth2] par le biais de l’API. Cette section décrit les fonctionnalités en termes généraux et est fournie à titre d’information uniquement.
+>Vos utilisateurs accèdent à l’application [!UICONTROL OAuth2] via l’API. Cette section décrit les fonctionnalités en termes généraux et est fournie à titre d’information uniquement.
 >
 >Pour obtenir des instructions spécifiques sur l’utilisation de l’application OAuth2, y compris des appels d’API spécifiques, voir [Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux de code d’autorisation](../../wf-api/api/oauth-app-code-token-flow.md).
 
 ### Autorisation avec un code d’autorisation et un jeton d’accès {#authorizing-with-an-authorization-code-and-access-token}
 
-1. ClientApp a besoin de certaines informations de [!DNL Workfront], qui envoie donc une requête à la fonction [!DNL Workfront] API `/authorize` point de terminaison . La requête inclut la variable [!UICONTROL response_type] `code`, qui indique que la requête doit renvoyer un code d’autorisation.
-1. Ce déclencheur [!DNL Workfront] pour envoyer une invite d’authentification à l’utilisateur. L’utilisateur peut saisir ses informations d’identification dans l’invite, ce qui donne [!DNL Workfront] autorisation de communiquer avec ClientApp. Si l’utilisateur est déjà connecté [!DNL Workfront], cette étape peut être ignorée.
-1. La variable [!DNL Workfront] L’API envoie un code d’autorisation à ClientApp.
-1. ClientApp envoie les informations suivantes dans une requête au [!DNL Workfront] API `/token`   endpoint :
+1. ClientApp a besoin de certaines informations de [!DNL Workfront], de sorte qu’il envoie une requête au point de terminaison [!DNL Workfront] de l’API `/authorize`. La requête inclut le [!UICONTROL response_type] `code`, ce qui indique que la requête doit renvoyer un code d’autorisation.
+1. Cela déclenche [!DNL Workfront] pour envoyer une invite d’authentification à l’utilisateur. L’utilisateur peut saisir ses informations d’identification dans l’invite, qui autorise [!DNL Workfront] à communiquer avec ClientApp. Si l’utilisateur est déjà connecté à [!DNL Workfront], cette étape peut être ignorée.
+1. L’API [!DNL Workfront] envoie un code d’autorisation à ClientApp.
+1. ClientApp envoie les informations suivantes dans une requête à l’ [!DNL Workfront] API `/token`   endpoint :
 
    * Code d’autorisation envoyé à ClientApp à l’étape 3. Cela identifie l’instance spécifique de l’autorisation utilisateur.
-   * Secret client généré lors de la configuration de l’application OAuth2 ClientApp dans [!DNL Workfront]. Cela permet [!DNL Workfront] pour savoir que la demande provient de ClientApp.
+   * Secret client généré lors de la configuration de l’application OAuth2 ClientApp dans [!DNL Workfront]. Cela permet à [!DNL Workfront] de savoir que la demande provient de ClientApp.
 
-1. Si le code d&#39;autorisation et le secret client sont corrects, [!DNL Workfront] envoie un jeton d’accès à ClientApp. Ce jeton d’accès est envoyé directement depuis [!DNL Workfront] à l’application cliente et ne peut pas être visualisé, copié ou utilisé par un autre utilisateur ou une autre application cliente.
-1. ClientApp envoie le jeton d’accès à [!DNL Workfront] ainsi que la demande d’informations spécifique.
+1. Si le code d’autorisation et le secret client sont corrects, [!DNL Workfront] envoie un jeton d’accès à ClientApp. Ce jeton d’accès est envoyé directement de [!DNL Workfront] à ClientApp et ne peut pas être affiché, copié ou utilisé par un autre utilisateur ou une autre application cliente.
+1. ClientApp envoie le jeton d&#39;accès à [!DNL Workfront] avec la demande d&#39;informations spécifique.
 1. Comme le jeton d’accès est correct, [!DNL Workfront] envoie les informations à ClientApp.
 
 #### Actualisation des jetons d’accès
 
-Pour la sécurité, les jetons d’accès expirent après un court laps de temps. Pour obtenir de nouveaux jetons d’accès sans avoir à saisir des informations d’identification à chaque fois, [!DNL OAuth2] utilise des jetons d’actualisation. Les jetons d’actualisation sont stockés par le client.
+Pour la sécurité, les jetons d’accès expirent après un court laps de temps. Pour obtenir de nouveaux jetons d’accès sans avoir à saisir d’informations d’identification à chaque fois, [!DNL OAuth2] utilise des jetons d’actualisation. Les jetons d’actualisation sont stockés par le client.
 
-Le processus d’acquisition d’un jeton d’actualisation est identique à celui décrit dans la section . [Autorisation avec un code d’autorisation et un jeton d’accès](#authorizing-with-an-authorization-code-and-access-token). La requête de code d’autorisation inclut la portée `offline_access`, qui indique que la requête doit renvoyer un jeton de requête avec le code d’autorisation.
+Le processus d’acquisition d’un jeton d’actualisation est identique à celui décrit dans la section [Autorisation avec un code d’autorisation et un jeton d’accès](#authorizing-with-an-authorization-code-and-access-token). La requête pour le code d’autorisation inclut la portée `offline_access`, qui indique que la requête doit renvoyer un jeton de requête avec le code d’autorisation.

@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: 2020.1 Améliorations de la vérification
+title: Améliorations de la relecture (version 2020.1)
 description: Cette page décrit toutes les améliorations apportées à la vérification de la version 2020.1. Ces améliorations sont actuellement disponibles dans l’environnement Aperçu et seront disponibles dans l’environnement Production à la fin du mois de mars ou au début du mois d’avril 2020.
 author: Luke
 feature: Product Announcements, Workfront Proof
@@ -10,15 +10,15 @@ exl-id: 8371aca4-218b-4501-9db2-5acb1e775917
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 2020.1 Améliorations de la vérification
+# Améliorations de la relecture (version 2020.1)
 
 Cette page décrit toutes les améliorations apportées à la vérification de la version 2020.1. Ces améliorations sont actuellement disponibles dans l’environnement Aperçu et seront disponibles dans l’environnement Production à la fin du mois de mars ou au début du mois d’avril 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.1, voir [Présentation de la version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.1, consultez la [présentation de la version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Mises à jour de l’outil de mesure dans la visionneuse de vérification
 
@@ -44,7 +44,7 @@ Désormais, lorsque vous créez ou modifiez un modèle de workflow automatisé p
 
 Auparavant, le système définissait le fuseau horaire sur celui de l’administrateur Workfront qui créait le modèle et il ne pouvait pas être modifié.
 
-Pour plus d’informations, voir .
+Pour plus d’informations, poursuivez votre lecture.
 
 ## Icône de document supprimée de la visionneuse de vérification
 

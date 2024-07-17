@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: 2019.2 Améliorations de la gestion des ressources
+title: Améliorations de la gestion des ressources (version 2019.2)
 description: Cette page décrit toutes les améliorations de la gestion des ressources incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
 author: Luke
 feature: Product Announcements
@@ -10,15 +10,15 @@ exl-id: b9c1a628-030b-437e-b609-5ab3e608fa31
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 2019.2 Améliorations de la gestion des ressources
+# Améliorations de la gestion des ressources (version 2019.2)
 
 Cette page décrit toutes les améliorations de la gestion des ressources incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2019.2, voir [Aperçu de l’activité de version 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2019.2, consultez la [présentation de l’activité de version 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Afficher la priorité des Portfolios dans le planificateur de ressources
 
@@ -26,7 +26,7 @@ Vous pouvez maintenant activer un paramètre dans le planificateur de ressources
 
 Avant cette amélioration, vous ne pouviez pas afficher la priorité de portefeuille d’un projet dans le planificateur de ressources.
 
-Pour plus d’informations sur l’activation de ce paramètre, voir [Paramètres](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) de la [Présentation des zones du planificateur de ressources](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Pour plus d’informations sur l’activation de ce paramètre, voir la section [Paramètres](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) de la section [Présentation des zones du planificateur de ressources](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Partage de filtres dans le planificateur de ressources
 
@@ -40,7 +40,7 @@ Pour plus d’informations sur le filtrage dans le planificateur de ressources, 
 
 Nous introduisons un nouveau niveau d’accès pour la gestion des ressources. Les utilisateurs disposant d’une licence de formule pourront recevoir l’accès Modifier à la gestion des ressources, ce qui leur permettra d’effectuer les opérations suivantes :
 
-* Définir la priorité des projets dans le planificateur de ressources
+* Hiérarchiser des projets dans le planificateur de ressources
 * Ressources budgétaires dans les outils de planification des ressources
 * Gérer les pools de ressources
 
@@ -50,9 +50,9 @@ Grâce à cette modification, la gestion des pools de ressources fait désormais
 
 En outre, avec cette modification, il n’est plus nécessaire d’être désigné comme gestionnaire de ressources sur un projet. Toutefois, un accès correct à la gestion des ressources est nécessaire pour pouvoir gérer les ressources.
 
-Pour plus d’informations sur le nouvel accès requis pour la budgétisation des ressources, voir [Accès aux ressources du budget](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Pour plus d’informations sur le nouvel accès requis pour les ressources de budget, voir [Accès aux ressources budgétaires nécessaire](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Pour plus d’informations sur le nouveau niveau d’accès à Resource Management, voir [Présentation de l’accès à la gestion des ressources](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Pour plus d’informations sur le nouveau niveau d’accès à Resource Management, voir [Présentation de l’accès à Resource Management](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Classer les projets par priorités de Portfolio dans le planificateur de ressources
 

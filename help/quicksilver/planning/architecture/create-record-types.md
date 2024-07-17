@@ -21,7 +21,7 @@ ht-degree: 82%
 
 Les types d’enregistrements sont les types d’objets d’Adobe Workfront Planning. Dans la planification Workfront, vous pouvez créer des types d’enregistrement personnalisés qui illustrent les éléments liés au travail nécessaires dans le cycle de vie de votre entreprise.
 
-Pour plus d’informations sur les types d’enregistrement, voir [Types d’enregistrement - Aperçu](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Pour plus d’informations sur les types d’enregistrement, voir [Présentation des types d’enregistrement](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 ## Conditions d’accès
 
@@ -149,7 +149,7 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
 1. Mettez à jour les informations suivantes :
 
    * Remplacez &quot;Untitled record type&quot; par le nom de votre futur type d’enregistrement. <!--did they bring back the field label here and did they rename it to "Name"-->
-   * **Description**: ajoutez des informations supplémentaires sur le type d’enregistrement.
+   * **Description** : ajoutez des informations supplémentaires sur le type d’enregistrement.
    * Sélectionnez une couleur et une forme pour l’icône associée au type d’enregistrement. Procédez comme suit :
       * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. L’option Gris est sélectionnée par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
@@ -161,7 +161,7 @@ La description du type d’enregistrement s’affiche sur la carte.
 
    ![](assets/record-type-card-with-description.png)
 
-1. (Facultatif) Passez la souris sur la carte de type d’enregistrement, puis cliquez sur le bouton **Plus** icon ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier les informations sur le type d’enregistrement.
+1. (Facultatif) Pointez sur la carte de type enregistrement, cliquez sur l’icône **Plus** ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier les informations sur le type d’enregistrement.
 1. (Facultatif) Cliquez sur la carte du type d’enregistrement pour ouvrir la page du type d’enregistrement.
 
    ![](assets/operational-record-type-blank.png)
@@ -184,7 +184,7 @@ La description du type d’enregistrement s’affiche sur la carte.
 
    Ou
 
-   Cliquez sur le bouton **Plus** icon ![](assets/more-menu.png) à droite du nom du type d&#39;enregistrement et cliquez sur **Modifier** pour le renommer ou modifier les informations le concernant. Pour plus d’informations, voir [Modification des types d’enregistrement](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Cliquez sur l&#39;icône **Plus** ![](assets/more-menu.png) à droite du nom du type d&#39;enregistrement et cliquez sur **Modifier** pour le renommer ou modifier les informations le concernant. Pour plus d’informations, voir [Modification des types d’enregistrement](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** pour ajouter des enregistrements du type d’enregistrement sélectionné. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 1. (Facultatif) Cliquez sur l’icône **+** dans le coin supérieur droit du tableau pour ajouter d’autres champs au type d’enregistrement.

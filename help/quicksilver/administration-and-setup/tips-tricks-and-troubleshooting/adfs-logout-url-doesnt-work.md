@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: L’URL de déconnexion ADFS ne fonctionne pas.
-description: La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Admin Console.
+description: La procédure décrite sur cette page s’applique uniquement aux entreprises qui ne sont pas encore intégrées à Adobe Admin Console.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -12,7 +12,7 @@ exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
 source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 18%
+ht-degree: 34%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées au [!UICONTROL Adobe Admin Console].
+>La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à [!UICONTROL Adobe Admin Console].
 >
->Si votre entreprise a été intégrée à la variable [!UICONTROL Adobe Admin Console], voir [Différences d’administration basées sur les plateformes ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Si votre organisation a été intégrée à [!UICONTROL Adobe Admin Console], reportez-vous à la section [Différences d’administration basées sur les plateformes ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Problème
 
@@ -47,14 +47,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
+   <td role="rowheader">Adobe de la licence [!DNL Workfront]</td> 
    <td> 
-   <p>Nouveau : Standard</p>
-   <p>Actuel : formule</p></td> 
+   <p>Nouvelle : standard</p>
+   <p>Actuelle : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un [!DNL Workfront] administrateur. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p>  </td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices</a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,10 +65,10 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 ## Solution
 
-1. Dans votre serveur de gestion ADFS, accédez à **[!UICONTROL Relations de confiance]** > **[!UICONTROL Confiance des parties]** > `<your party trust>` propriétés.
+1. Dans votre serveur de gestion ADFS, accédez aux propriétés **[!UICONTROL Trust Relationships]** > **[!UICONTROL Trust Party]** > `<your party trust>` de votre site.
 
-1. Sous , **[!UICONTROL Points de fin]** , cliquez sur **[!UICONTROL Ajouter]**.
+1. Sous l’onglet **[!UICONTROL Points d’entrée]**, cliquez sur **[!UICONTROL Ajouter]**.
 
-1. **[!UICONTROL Type de point d’entrée]** = Déconnexion SAML, liaison = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
+1. **[!UICONTROL Type de point d’entrée]** = Déconnexion SAML, Liaison = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
    Vous pouvez définir une URL de réponse si vous souhaitez qu’elle revienne vers une autre page. Nous vous recommandons toutefois le site ADFS, car il vous avertit que vous êtes déconnecté, mais que vous devez toujours fermer votre navigateur.

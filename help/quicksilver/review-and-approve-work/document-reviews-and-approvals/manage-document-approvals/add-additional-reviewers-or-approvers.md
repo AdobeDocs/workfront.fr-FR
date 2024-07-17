@@ -54,9 +54,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Accédez à la page du document en cliquant sur le nom du document, puis sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou un réviseur dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
 
-1. Sélectionner **Approbations** dans le volet de gauche. Tous les approbateurs et réviseurs existants sont répertoriés ici.
+1. Sélectionnez **Validations** dans le volet de gauche. Tous les approbateurs et réviseurs existants sont répertoriés ici.
 
-1. Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant la saisie.
+1. Pour ajouter un approbateur, assurez-vous que la case **Approbateur** est cochée, puis commencez à saisir le nom dans la zone de texte **Réviseurs** . Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant de saisir le texte.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
@@ -68,7 +68,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou un réviseur dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le volet Résumé du document, où sont répertoriés tous les approbateurs et réviseurs existants. Pour ajouter un approbateur, assurez-vous que la variable **Approbateur** cochée, la case commence à être saisie dans la variable **Réviseurs** zone de texte. Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez plutôt ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant la saisie.
+1. Faites défiler l’écran jusqu’à la section **Validations** du volet Résumé du document, où sont répertoriés tous les approbateurs et réviseurs existants. Pour ajouter un approbateur, assurez-vous que la case **Approbateur** est cochée, puis commencez à saisir le nom dans la zone de texte **Réviseurs** . Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant de saisir le texte.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 

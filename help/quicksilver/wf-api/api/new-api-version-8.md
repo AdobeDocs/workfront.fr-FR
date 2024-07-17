@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 8
+title: Nouveautés de la version 8 de l’API
 description: Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour obtenir la liste des mises à jour apportées aux ressources de la version 8, consultez Mises à jour de l’API version 8 .
 author: Becky
 feature: Workfront API
@@ -9,12 +9,12 @@ role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 26%
+source-wordcount: '269'
+ht-degree: 33%
 
 ---
 
-# Nouveautés de l’API version 8
+# Nouveautés de la version 8 de l’API
 
 ## Nouvelles ressources
 
@@ -122,7 +122,7 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour ob
 
 {style="table-layout:auto"}
 
-**RichTextNote**
+**RichTextRemarque**
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -150,6 +150,6 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour ob
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| roleID | rôle |   |   |   |   |   |
-| timePercentage | user |   |   |   |   |   |
+| roleID | Rôle |   |   |   |   |   |
+| timePercentage | utilisateur |   |   |   |   |   |
 | userID |   |   |   |   |   |   |

@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: Améliorations du projet 2020.2
+title: Améliorations des projets (version 2020.2)
 description: Cette page décrit toutes les améliorations apportées aux projets avec la version 2020.2 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 mai 2020.
 author: Luke
 feature: Product Announcements
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Améliorations du projet 2020.2
+# Améliorations des projets (version 2020.2)
 
 Cette page décrit toutes les améliorations apportées aux projets avec la version 2020.2 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 mai 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.2, voir [Présentation de la version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.2, consultez la [présentation de la version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Pour les administrateurs Workfront : nouveau paramètre de sécurité intégrée lorsque l’état du projet pour les nouveaux projets est masqué ou déverrouillé
 
@@ -26,7 +26,7 @@ Dans Configuration, vous configurez une préférence afin de vous assurer que ch
 
 Pour s’assurer que les nouveaux projets ont toujours un état, même si un administrateur masque ou déverrouille l’état configuré pour les nouveaux projets, le système attribue désormais le premier état de la liste État à tous les nouveaux projets jusqu’à ce que vous configuriez à nouveau l’état pour les nouveaux projets.
 
-Pour plus d’informations sur la définition de la préférence pour le statut de tous les nouveaux projets, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou si vous utilisez Adobe Workfront Classic, voir [Définition des préférences du projet](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Pour plus d’informations sur la définition des préférences pour l’état de tous les nouveaux projets, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou si vous utilisez Adobe Workfront Classic, voir [Définition des préférences du projet](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
 **Disponible dans ces environnements :**
 
@@ -42,7 +42,7 @@ La définition des préférences d’un projet est désormais plus intuitive et 
 * Si vous saisissez un nombre non valide pour une option telle que &quot;Heures types par jour de travail&quot;, un message d’avertissement s’affiche immédiatement au lieu d’apparaître après avoir cliqué sur Enregistrer.
 * Les libellés d’option correspondent au texte de l’interface correspondant ailleurs dans Workfront, tel que la zone Détails et les rapports.
 
-Pour plus d’informations sur la zone Préférences du projet, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou si vous utilisez Adobe Workfront Classic, voir [Définition des préférences du projet](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Pour plus d’informations sur la zone Préférences du projet, voir [Configuration des préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou si vous utilisez Adobe Workfront Classic, voir [Définition des préférences du projet](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
 **Disponible dans ces environnements :**
 
@@ -72,7 +72,7 @@ Pour plus d’informations sur le déplacement des tâches, voir [Déplacer les 
 
 Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (ou si vous utilisez Adobe Workfront Classic, voir [Copier et dupliquer des tâches](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
 
-Pour une présentation de toutes les contraintes de tâche, voir [Présentation de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou si vous utilisez Adobe Workfront Classic, voir [Présentation de la contrainte de tâche](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Pour obtenir un aperçu de toutes les contraintes de tâche, consultez la [présentation de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou si vous utilisez Adobe Workfront Classic, consultez la [présentation de la contrainte de tâche](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
 **Disponible dans ces environnements :**
 
@@ -83,7 +83,7 @@ Pour une présentation de toutes les contraintes de tâche, voir [Présentation 
 
 Pour éviter toute perte de données lorsque vous mettez à jour les informations de la page Détails sur un objet ou des tâches dans une liste de tâches au niveau du projet lors de l’enregistrement manuel des modifications, un message d’avertissement s’affiche maintenant pour vous informer que vous avez enregistré des modifications avant de tenter de modifier les informations dans l’en-tête. Les seules actions autorisées avant d’enregistrer vos modifications sont l’abonnement ou l’ajout de l’objet à vos favoris.
 
-Pour plus d’informations sur la modification des tâches dans une liste, voir [Editer les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+Pour plus d’informations sur l’édition de tâches dans une liste, voir [Modifier les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 
 **Disponible dans ces environnements :**
 

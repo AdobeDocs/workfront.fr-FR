@@ -1,6 +1,6 @@
 ---
-title: 2.2 Améliorations de la gestion des ressources
-description: 2.2 Améliorations de la gestion des ressources
+title: Améliorations de la gestion des ressources (version 22.2)
+description: Améliorations de la gestion des ressources (version 22.2)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,11 +9,11 @@ exl-id: 5f11c43c-3aa8-4135-b6bf-07b9993e63d9
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# 2.2 Améliorations de la gestion des ressources
+# Améliorations de la gestion des ressources (version 22.2)
 
 Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 22.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
 
@@ -25,7 +25,7 @@ in January 2022
 
 la semaine du 4 avril 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, voir [Présentation de la version 2.2.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, consultez la [présentation des versions 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Amélioration de la navigation de l’équilibreur de charge de travail
 
@@ -43,7 +43,7 @@ Pour plus d’informations sur la navigation dans l’équilibreur de charge de 
 
 Pour faciliter l’affectation des tâches et la rendre plus précise, vous pouvez désormais effectuer des affectations avancées lorsque vous attribuez des tâches manuellement dans l’équilibreur de charge de travail. Avant cette amélioration, vous pouviez accéder aux affectations avancées lors de la modification d’éléments, à partir des en-têtes des éléments ou dans des listes.
 
-Pour plus d’informations, voir [Affectation manuelle du travail à l’aide de l’équilibreur de charge](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+Pour plus d’informations, voir [Attribuer manuellement le travail à l’aide de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## Nouvelle formule de calcul de la disponibilité de l’utilisateur lorsque la préférence Planification par défaut est sélectionnée
 
@@ -53,7 +53,7 @@ Heures disponibles de l’utilisateur = (Heures de planification par défaut - E
 
 Avant cette mise à jour, Workfront utilisait la formule suivante pour calculer la disponibilité de l’utilisateur lorsque la planification par défaut était sélectionnée :
 
-Heures disponibles de l’utilisateur = (Heures de planification par défaut - (exceptions de planification + heures de congé)) &#42; Valeur FTE de l’utilisateur
+Heures disponibles de l’utilisateur = (Heures de planification par défaut - (exceptions de planification + heures de congé) &#42; Valeur de l’éditeur de texte enrichi de l’utilisateur
 
-Pour plus d’informations, voir [Configuration des préférences de gestion des ressources](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Pour plus d’informations, voir [Configurer les préférences de gestion des ressources](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

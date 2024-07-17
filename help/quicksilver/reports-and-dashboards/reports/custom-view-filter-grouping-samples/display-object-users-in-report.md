@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Rapports ou listes : afficher les utilisateurs associés à un objet'
+title: "Rapports ou listes : afficher les utilisateurs associés à un objet"
 description: Vous pouvez afficher les utilisateurs, les rôles de tâche et les équipes associés aux objets dans les rapports ou les listes, et les référencer dans les filtres. Vous ne pouvez pas les regrouper par utilisateurs, rôles de tâche ou équipes associés à des objets.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -10,11 +10,11 @@ exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Rapports ou listes : afficher les utilisateurs associés à un objet ;
+# Rapports ou listes : afficher les utilisateurs et utilisatrices associés à un objet
 
 Vous pouvez afficher les utilisateurs, les rôles de tâche et les équipes associés aux objets dans les rapports ou les listes, et les référencer dans les filtres. Vous ne pouvez pas les regrouper par utilisateurs, rôles de tâche ou équipes associés à des objets.
 
@@ -37,7 +37,7 @@ Vous pouvez afficher ou filtrer par utilisateurs, rôles de tâche ou équipes a
    <td>Vous pouvez afficher et filtrer par tous les utilisateurs, rôles de tâche et équipes affectés à une tâche dans un rapport de tâche.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Événements</td> 
+   <td role="rowheader">Problèmes</td> 
    <td>Vous pouvez afficher et filtrer par tous les utilisateurs, rôles de tâche et équipes affectés à un problème dans un rapport de problème.</td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Vous pouvez afficher tous les utilisateurs associés à dans le projet dans la v
 
 ![](assets/project-with-user-and-role-information-report-350x100.png)
 
-Pour plus d’informations sur la création d’un rapport de projet afin d’afficher tous les utilisateurs et leurs rôles sur le projet, voir [Afficher : liste des utilisateurs de projet avec des rôles de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Pour plus d’informations sur la création d’un rapport de projet pour afficher tous les utilisateurs et leurs rôles sur le projet, voir [Affichage : liste des utilisateurs de projet avec des rôles de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
 Vous ne pouvez pas filtrer les utilisateurs ou les rôles de tâche associés aux projets dans un filtre de projet.
 
@@ -71,7 +71,7 @@ Vous pouvez filtrer par utilisateurs, rôles de tâche ou équipes affectés à 
 
 * Utilisateurs de l’affectation
 * Rôles pour l’affectation
-* Équipe
+* Equipe
 
 ![](assets/assignment-users-roles-task-filter-350x334.png)
 
@@ -83,13 +83,13 @@ Vous pouvez filtrer par utilisateurs, rôles de tâche ou équipes affectés à 
 
 * Utilisateurs de l’affectation
 * Rôles pour l’affectation
-* Équipe
+* Equipe
 
 ## Affichage de tous les utilisateurs et rôles de tâche associés à un portfolio
 
 Vous pouvez afficher tous les utilisateurs et rôles associés à un portfolio en les affichant dans un rapport de projet, puis en regroupant le rapport par Portfolio.
 
-Pour plus d’informations sur la création d’un rapport de projet afin d’afficher tous les utilisateurs et leurs rôles sur le projet, voir [Afficher : liste des utilisateurs de projet avec des rôles de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Pour plus d’informations sur la création d’un rapport de projet pour afficher tous les utilisateurs et leurs rôles sur le projet, voir [Affichage : liste des utilisateurs de projet avec des rôles de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
 Vous ne pouvez pas filtrer les utilisateurs ou les rôles de tâche associés aux projets d’un portfolio ou d’un filtre de projet.
 
@@ -97,6 +97,6 @@ Vous ne pouvez pas filtrer les utilisateurs ou les rôles de tâche associés au
 
 Vous pouvez afficher tous les utilisateurs et rôles associés à un programme en les affichant dans un rapport de projet, puis en regroupant le rapport par programme.
 
-Pour plus d’informations sur la création d’un rapport de projet afin d’afficher tous les utilisateurs et leurs rôles sur le projet, voir [Afficher : liste des utilisateurs de projet avec des rôles de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Pour plus d’informations sur la création d’un rapport de projet pour afficher tous les utilisateurs et leurs rôles sur le projet, voir [Affichage : liste des utilisateurs de projet avec des rôles de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
 Vous ne pouvez pas filtrer les utilisateurs ou les rôles de tâche associés aux projets dans un programme ou un filtre de projet.

@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 12
+title: Nouveautés de la version 12 de l’API
 description: 'Workfront a publié l’API version 12 le 12 novembre 2020. L’API version 12 comprend les modifications suivantes de la version 11 :'
 author: Becky
 feature: Workfront API
@@ -9,12 +9,12 @@ role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 2%
+source-wordcount: '2475'
+ht-degree: 12%
 
 ---
 
-# Nouveautés de l’API version 12
+# Nouveautés de la version 12 de l’API
 
 Workfront a publié l’API version 12 le 12 novembre 2020. L’API version 12 comprend les modifications suivantes de la version 11 :
 
@@ -29,7 +29,7 @@ Les ressources suivantes sont nouvelles dans l’API Workfront version 12.
 
 Un objet BreadCrumb représente un élément dans la hiérarchie parent/enfant d’un élément de travail Adobe Workfront. Les chemins de navigation indiquent comment un élément de travail s’intègre à la plus grande structure de Portfolios, de projets, de projets et de tâches.
 
-Pour plus d’informations sur les chemins de navigation dans Workfront, voir [Présentation du chemin de navigation dans la nouvelle expérience Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Pour plus d’informations sur les chemins de navigation dans Workfront, consultez la [présentation des chemins de navigation dans la nouvelle expérience Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -100,7 +100,7 @@ Les ressources suivantes ont été modifiées pour l’API Workfront version 12.
      <li> <p><a href="#activitylog" class="MCXref xref">ActivityLog</a> </p> </li> 
      <li> <p><a href="#announcementattachment" class="MCXref xref">AnnonceAttachment</a> </p> </li> 
      <li> <p><a href="#approval" class="MCXref xref">Approbation</a> </p> </li> 
-     <li> <p><a href="#calendarsection" class="MCXref xref">Section du calendrier</a> </p> </li> 
+     <li> <p><a href="#calendarsection" class="MCXref xref">CalendarSection</a> </p> </li> 
      <li> <p><a href="#company" class="MCXref xref">Entreprise</a> </p> </li> 
      <li> <p><a href="#customer" class="MCXref xref">Client</a> </p> </li> 
     </ul> </td> 
@@ -111,7 +111,7 @@ Les ressources suivantes ont été modifiées pour l’API Workfront version 12.
      <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">Groupe </a> </p> </li> 
      <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
-     <li> <p><a href="#optask" class="MCXref xref">TâcheOp</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
      <li> <p><a href="#parameter" class="MCXref xref">Paramètre</a> </p> </li> 
      <li> <p><a href="#portfolio" class="MCXref xref">Portfolio</a> </p> </li> 
      <li> <p><a href="#program" class="MCXref xref">Programme</a> </p> </li> 
@@ -125,7 +125,7 @@ Les ressources suivantes ont été modifiées pour l’API Workfront version 12.
      <li> <p><a href="#team" class="MCXref xref">Équipe</a> </p> </li> 
      <li> <p><a href="#templatetask" class="MCXref xref">TemplateTask</a> </p> </li> 
      <li> <p><a href="#timesheet" class="MCXref xref">Feuille de temps</a> </p> </li> 
-     <li> <p><a href="#user" class="MCXref xref">l’utilisateur ou de l’utilisatrice</a> </p> </li> 
+     <li> <p><a href="#user" class="MCXref xref">Utilisateur ou utilisatrice</a> </p> </li> 
      <li> <p><a href="#work" class="MCXref xref">Travail </a> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -175,9 +175,9 @@ Un objet AccessLevelPermissions représente une autorisation spécifique d’acc
     <ul> 
      <li> <p><strong>coreAction</strong> </p> <p>Ajout des valeurs possibles suivantes :</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut mettre à jour les heures planifiées dans l’équilibreur de charge de travail.</p> <p>Pour plus d’informations, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestion des affectations utilisateur dans l’équilibreur de charge de travail</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut ajouter des champs aux formulaires personnalisés.</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEM_WIDE </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut partager un champ personnalisé à l’échelle du système avec l’accès Supprimer .</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configuration du partage pour les champs et widgets personnalisés</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut mettre à jour les heures planifiées dans l’équilibreur de charge de travail.</p> <p>Pour plus d’informations, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Mise à jour des heures planifiées de la tâche lors de la gestion des affectations de l’utilisateur</a> dans <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestion des affectations de l’utilisateur dans l’équilibreur de charge de travail</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut ajouter des champs aux formulaires personnalisés.</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> dans <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEM_WIDE </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut partager un champ personnalisé à l’échelle du système avec l’accès Supprimer .</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configuration du partage pour les champs personnalisés et les widgets</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Ajout des valeurs possibles suivantes :</p> 
       <ul> 
@@ -234,7 +234,7 @@ Un objet AccessLevelPermissions représente une autorisation spécifique d’acc
 
 ### AccessRequest {#accessrequest}
 
-Si un utilisateur n’a pas accès à un objet Workfront dont il a besoin, il peut demander l’accès à cet objet. L’objet AccessRequest représente cette requête.
+Si un utilisateur ou une utilisatrice n’a pas accès à un objet Workfront dont il ou elle a besoin, il ou elle peut demander l’accès à cet objet. L’objet AccessRequest représente cette demande.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -246,9 +246,9 @@ Si un utilisateur n’a pas accès à un objet Workfront dont il a besoin, il pe
     <ul> 
      <li> <p style="font-weight: bold;">action</p> <p>Ajout des valeurs possibles suivantes :</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut mettre à jour les heures planifiées dans l’équilibreur de charge de travail.</p> <p>Pour plus d’informations, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestion des affectations utilisateur dans l’équilibreur de charge de travail</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut ajouter des champs aux formulaires personnalisés.</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEM_WIDE </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut partager un champ personnalisé à l’échelle du système avec l’accès Supprimer .</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configuration du partage pour les champs et widgets personnalisés</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut mettre à jour les heures planifiées dans l’équilibreur de charge de travail.</p> <p>Pour plus d’informations, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Mise à jour des heures planifiées de la tâche lors de la gestion des affectations de l’utilisateur</a> dans <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestion des affectations de l’utilisateur dans l’équilibreur de charge de travail</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut ajouter des champs aux formulaires personnalisés.</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> dans <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEM_WIDE </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut partager un champ personnalisé à l’échelle du système avec l’accès Supprimer .</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configuration du partage pour les champs personnalisés et les widgets</a>.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -257,7 +257,7 @@ Si un utilisateur n’a pas accès à un objet Workfront dont il a besoin, il pe
 
 ### AccessRule {#accessrule}
 
-Un objet AccessRule représente un jeu de règles dans les niveaux d’accès personnalisés qui détermine comment les utilisateurs peuvent partager les projets qu’ils créent.
+Un objet AccessRule représente un jeu de règles dans les niveaux d’accès personnalisés qui détermine comment les utilisateurs et les utilisatrices peuvent partager les projets qu’ils ou elles créent.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -269,9 +269,9 @@ Un objet AccessRule représente un jeu de règles dans les niveaux d’accès pe
     <ul> 
      <li><strong>coreAction</strong> <p>Ajout des valeurs possibles suivantes :</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut mettre à jour les heures planifiées dans l’équilibreur de charge de travail.</p> <p>Pour plus d’informations, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestion des affectations utilisateur dans l’équilibreur de charge de travail</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut ajouter des champs aux formulaires personnalisés.</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEM_WIDE </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut partager un champ personnalisé à l’échelle du système avec l’accès Supprimer .</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configuration du partage pour les champs et widgets personnalisés</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut mettre à jour les heures planifiées dans l’équilibreur de charge de travail.</p> <p>Pour plus d’informations, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Mise à jour des heures planifiées de la tâche lors de la gestion des affectations de l’utilisateur</a> dans <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestion des affectations de l’utilisateur dans l’équilibreur de charge de travail</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut ajouter des champs aux formulaires personnalisés.</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> dans <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEM_WIDE </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut partager un champ personnalisé à l’échelle du système avec l’accès Supprimer .</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configuration du partage pour les champs personnalisés et les widgets</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Ajout des valeurs possibles suivantes :</p> 
       <ul> 
@@ -292,7 +292,7 @@ Un objet AccessRule représente un jeu de règles dans les niveaux d’accès pe
 
 ### ActivityLog {#activitylog}
 
-Un objet ActivityLog est une liste complète de toutes les activités qui ont eu lieu dans un compte de bon à tirer Workfront donné.
+Un objet ActivityLog est une liste complète de toutes les activités qui ont eu lieu dans un compte Workfront Proof donné.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -302,7 +302,7 @@ Un objet ActivityLog est une liste complète de toutes les activités qui ont eu
    <td> <p>Opérations</p> </td> 
    <td> <p>L’opération suivante a été supprimée de l’objet ActivityLog :</p> 
     <ul> 
-     <li> <p><strong>AJOUTER</strong> </p> </li> 
+     <li> <p><strong>ADD</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -312,7 +312,7 @@ Un objet ActivityLog est une liste complète de toutes les activités qui ont eu
 
 Un objet AnnoncementAttachment représente un fichier joint à une annonce Workfront.
 
-Pour plus d’informations sur les pièces jointes d’annonce, voir [Envoyer des annonces](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
+Pour plus d’informations sur les pièces jointes d’annonce, voir [Envoi d’annonces](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -335,7 +335,7 @@ Pour plus d’informations sur les pièces jointes d’annonce, voir [Envoyer de
 
 ### Approbation {#approval}
 
-Un élément de travail donné, tel qu’une tâche, un document ou une feuille de temps, peut exiger qu’un superviseur ou un autre utilisateur signe l’élément de travail. Un objet Approval représente l’action de déconnexion d’un élément de travail.
+Un élément de travail donné, tel qu’une tâche, un document ou une feuille de temps, peut exiger qu’un superviseur ou une superviseuse, ou un autre utilisateur ou une autre utilisatrice, valide l’élément de travail. Un objet Approval représente l’action de validation d’un élément de travail.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -360,9 +360,9 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
      <li> <p><strong>workEffort</strong> </p> <p>Ce champ a été ajouté et indique si l’utilisateur doit faire un petit, moyen ou un gros effort quotidien pour terminer une tâche. Les valeurs possibles sont les suivantes :</p> 
       <ul> 
        <li> <p>1 (Petit)</p> </li> 
-       <li> <p>2 (Moyen)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (Grand)</p> </li> 
-      </ul> <p>Pour plus d’informations sur l’effort de travail dans Workfront, voir <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Présentation de l’effort de travail</a>.</p> </li> 
+      </ul> <p>Pour plus d’informations sur l’effort de travail dans Workfront, consultez la <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">présentation de l’effort de travail</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -372,7 +372,7 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
 
 Une section de calendrier est un rapport de calendrier.
 
-Pour plus d’informations sur les rapports de calendrier, voir [Présentation des rapports sur les calendriers](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Pour plus d’informations sur les rapports de calendrier, consultez la [présentation des rapports de calendrier](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -380,7 +380,7 @@ Pour plus d’informations sur les rapports de calendrier, voir [Présentation d
  <tbody> 
   <tr> 
    <td>Champs directs</td> 
-   <td> <p style="font-weight: normal;">Les champs suivants ont été ajoutés à l’objet CalendarSection pour prendre en charge la nouvelle fonctionnalité d’utilisation de dates personnalisées dans les rapports de calendrier. </p> <p style="font-weight: normal;">Pour plus d’informations, voir <a href="../../reports-and-dashboards/reports/calendars/use-custom-dates.md" class="MCXref xref">Utilisation de champs de date personnalisés dans un rapport de calendrier</a>.</p> 
+   <td> <p style="font-weight: normal;">Les champs suivants ont été ajoutés à l’objet CalendarSection pour prendre en charge la nouvelle fonctionnalité d’utilisation de dates personnalisées dans les rapports de calendrier. </p> <p style="font-weight: normal;">Pour plus d’informations, voir <a href="../../reports-and-dashboards/reports/calendars/use-custom-dates.md" class="MCXref xref">Utilisation de champs de date personnalisés dans un rapport Calendrier</a>.</p> 
     <ul> 
      <li> <p style="font-weight: normal;">customDate</p> </li> 
      <li> <p style="font-weight: normal;">customEndDateParameterID</p> </li> 
@@ -395,7 +395,7 @@ Pour plus d’informations sur les rapports de calendrier, voir [Présentation d
 
 Un objet Société représente une organisation composée d’un ensemble de personnes.
 
-Pour plus d’informations sur les entreprises, voir [Création et modification d’entreprises](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Pour plus d&#39;informations sur les entreprises, voir [Créer et modifier des entreprises](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -460,7 +460,7 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
 
 ### Document {#document}
 
-Un objet Document représente un fichier (tel que du matériel écrit, des images ou d’autres formes d’informations).
+Un objet Document représente un fichier (tel qu’un support écrit, des images ou d’autres formes d’informations).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -480,7 +480,7 @@ Un objet Document représente un fichier (tel que du matériel écrit, des image
 
 Un objet DocumentVersion représente une version spécifique d’un fichier (comme du matériel écrit, des images ou d’autres formes d’informations).
 
-Pour plus d’informations sur les versions de document, voir [Télécharger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
+Pour plus d’informations sur les versions de document, voir [Téléchargement d’une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -496,7 +496,7 @@ Pour plus d’informations sur les versions de document, voir [Télécharger une
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p style="font-weight: normal;"><strong>proofDecision</strong> </p> <p>Ajouté(e)(s)</p> </li> 
+     <li> <p style="font-weight: normal;"><strong>BATDecision</strong> </p> <p>Ajouté(e)(s)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -534,7 +534,7 @@ Un objet Group représente un ensemble d’utilisateurs et d’équipes. Les gro
    <td>Champs de référence</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>businessLeader</p> <p style="font-weight: normal;">Chef d’entreprise affecté au groupe. Un chef d’entreprise est quelqu’un qui prend des décisions commerciales pour le groupe.</p> <p style="font-weight: normal;">Pour plus d’informations sur les chefs d’entreprise, voir <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Présentation des chefs d’entreprise</a>.<br></p> </li> 
+     <li style="font-weight: bold;"> <p>businessLeader</p> <p style="font-weight: normal;">Chef d’entreprise affecté au groupe. Un chef d’entreprise est quelqu’un qui prend des décisions commerciales pour le groupe.</p> <p style="font-weight: normal;">Pour plus d’informations sur les chefs d’entreprise, consultez la <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">présentation des chefs d’entreprise</a>.<br></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -562,7 +562,7 @@ Un objet Group représente un ensemble d’utilisateurs et d’équipes. Les gro
 
 Un objet LinkedFolder représente un dossier lié à un fournisseur de documents externe, tel que Google Drive ou Dropbox.
 
-Pour plus d’informations sur les dossiers liés, voir [Liaison de documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Pour plus d’informations sur les dossiers liés, reportez-vous à la section [Lier des documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -583,7 +583,7 @@ Pour plus d’informations sur les dossiers liés, voir [Liaison de documents à
 
 ### TâcheOp {#optask}
 
-Un objet OpTask est généralement appelé Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Modifier les commandes, les requêtes et les bogues sont également des problèmes.
+Un objet OpTask est généralement appelé un Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Les ordres de modification, les demandes et les bogues sont également des problèmes.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -603,7 +603,7 @@ Un objet OpTask est généralement appelé Problème. Un problème est un élém
   </tr> 
   <tr> 
    <td role="rowheader">Actions</td> 
-   <td> <p>Ces actions ont ajouté l’état de l’argument pour prendre en charge la nouvelle fonctionnalité du bouton Démarrer , qui modifie l’état d’un élément de travail lorsqu’un utilisateur clique sur le bouton pour indiquer qu’il a commencé à travailler sur l’élément.</p> <p>Pour plus d’informations, voir <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacez le bouton Travailler dessus par un bouton Démarrer</a>.</p> 
+   <td> <p>Ces actions ont ajouté l’état de l’argument pour prendre en charge la nouvelle fonctionnalité du bouton Démarrer , qui modifie l’état d’un élément de travail lorsqu’un utilisateur clique sur le bouton pour indiquer qu’il a commencé à travailler sur l’élément.</p> <p>Pour plus d’informations, voir <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacer le bouton Travailler dessus par un bouton Démarrer</a>.</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
      <li> <p><strong>unacceptWork</strong> </p> </li> 
@@ -618,7 +618,7 @@ Un objet de paramètre est un champ personnalisé.
 
 La ressource Paramètre a ajouté l’indicateur SHARABLE.
 
-Pour plus d’informations sur les champs personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in [Création ou modification d’un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations sur les champs personnalisés, voir [Créer ou modifier un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) dans [Créer ou modifier un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -660,7 +660,7 @@ Pour plus d’informations sur les champs personnalisés, voir [Création ou mod
 
 Un objet de Portfolio est un ensemble de projets qui rivalisent pour les mêmes ressources, généralement de l’argent ou des personnes pour les compléter.
 
-Pour plus d’informations sur les portefeuilles, voir [Présentation des Portfolios dans Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Pour plus d’informations sur les portefeuilles, consultez la [présentation des Portfolios dans Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -724,8 +724,8 @@ Pour plus d’informations sur les files d’attente de requête, voir [Créatio
     <ul> 
      <li><strong>requestorCoreAction</strong> <p>Ajout des valeurs possibles suivantes :</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut mettre à jour les heures planifiées dans l’équilibreur de charge de travail.</p> <p>Pour plus d’informations, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestion des affectations utilisateur dans l’équilibreur de charge de travail</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut ajouter des champs aux formulaires personnalisés.</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut mettre à jour les heures planifiées dans l’équilibreur de charge de travail.</p> <p>Pour plus d’informations, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Mise à jour des heures planifiées de la tâche lors de la gestion des affectations de l’utilisateur</a> dans <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestion des affectations de l’utilisateur dans l’équilibreur de charge de travail</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut ajouter des champs aux formulaires personnalisés.</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> dans <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p> </li> 
        <li> <p>EDIT_SYSTEM_WIDE </p> <p>Un utilisateur disposant d’un niveau d’accès incluant cette autorisation peut partager un champ personnalisé à l’échelle du système avec l’accès Supprimer .</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configuration du partage pour les champs et widgets personnalisés</a></p> </li> 
       </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>Ajout des valeurs possibles suivantes :</p> 
        <ul> 
@@ -783,7 +783,7 @@ Pour plus d’informations sur les questions de la Fiche d’évaluation, voir [
 
 ### Tâche {#task}
 
-Un objet Task représente un élément de travail qui doit être exécuté comme une étape vers l’atteinte d’un objectif final (achèvement d’un projet).
+Un objet Task représente un élément de travail qui doit être exécuté en tant qu’étape vers la réalisation d’un objectif final (achèvement d’un projet).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -796,14 +796,14 @@ Un objet Task représente un élément de travail qui doit être exécuté comme
      <li> <p><strong>workEffort</strong> </p> <p>Ce champ a été ajouté et indique si l’utilisateur doit faire un petit, moyen ou un gros effort quotidien pour terminer une tâche. Les valeurs possibles sont les suivantes :</p> 
       <ul> 
        <li> <p>1 (Petit)</p> </li> 
-       <li> <p>2 (Moyen)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (Grand)</p> </li> 
-      </ul> <p>Pour plus d’informations sur l’effort de travail dans Workfront, voir <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Présentation de l’effort de travail</a>.</p> </li> 
+      </ul> <p>Pour plus d’informations sur l’effort de travail dans Workfront, consultez la <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">présentation de l’effort de travail</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Actions</td> 
-   <td> <p>Ces actions ont ajouté l’état de l’argument pour prendre en charge la nouvelle fonctionnalité du bouton Démarrer , qui modifie l’état d’un élément de travail lorsqu’un utilisateur clique sur le bouton pour indiquer qu’il a commencé à travailler sur l’élément.</p> <p>Pour plus d’informations, voir <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacez le bouton Travailler dessus par un bouton Démarrer</a>.</p> 
+   <td> <p>Ces actions ont ajouté l’état de l’argument pour prendre en charge la nouvelle fonctionnalité du bouton Démarrer , qui modifie l’état d’un élément de travail lorsqu’un utilisateur clique sur le bouton pour indiquer qu’il a commencé à travailler sur l’élément.</p> <p>Pour plus d’informations, voir <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacer le bouton Travailler dessus par un bouton Démarrer</a>.</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
      <li> <p><strong>unacceptWork</strong> </p> </li> 
@@ -812,7 +812,7 @@ Un objet Task représente un élément de travail qui doit être exécuté comme
  </tbody> 
 </table>
 
-### Équipe {#team}
+### Equipe {#team}
 
 Un objet Équipe est un ensemble d’utilisateurs pouvant être affectés à un élément de travail.
 
@@ -835,14 +835,14 @@ Un objet Équipe est un ensemble d’utilisateurs pouvant être affectés à un 
        <li> <p><strong>workOnItOpTaskChangeOrderStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskIssueStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskRequestStatuses</strong> </p> <p><strong>workOnItTaskStatuses</strong> </p> </li> 
-      </ul> <p>Pour plus d’informations sur le bouton Démarrer , voir <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacez le bouton Travailler dessus par un bouton Démarrer</a>.</p> </li> 
+      </ul> <p>Pour plus d’informations sur le bouton Démarrer, voir <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacer le bouton Travailler dessus par un bouton Démarrer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Champs de référence</td> 
    <td> <p>Le champ suivant a été ajouté à la ressource Équipe :</p> 
     <ul> 
-     <li> <p><strong>groupe</strong> </p> </li> 
+     <li> <p><strong>group</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -850,7 +850,7 @@ Un objet Équipe est un ensemble d’utilisateurs pouvant être affectés à un 
 
 ### TemplateTask {#templatetask}
 
-Un objet TemplateTask représente une tâche qui fait partie d’un modèle. Les tâches du modèle deviennent des tâches dans le projet où le modèle est utilisé.
+Un objet TemplateTask représente une tâche qui fait partie d’un modèle. Les tâches de modèle deviennent des tâches dans le projet où le modèle est utilisé.
 
 Pour plus d’informations sur les tâches de modèle, voir [Modifier une tâche de modèle](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
@@ -865,9 +865,9 @@ Pour plus d’informations sur les tâches de modèle, voir [Modifier une tâche
      <li> <p><strong>workEffort</strong> </p> <p>Ce champ a été ajouté et indique si l’utilisateur doit faire un petit, moyen ou un gros effort quotidien pour terminer une tâche. Les valeurs possibles sont les suivantes :</p> 
       <ul> 
        <li> <p>1 (Petit)</p> </li> 
-       <li> <p>2 (Moyen)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (Grand)</p> </li> 
-      </ul> <p>Pour plus d’informations sur l’effort de travail dans Workfront, voir <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Présentation de l’effort de travail</a>.</p> </li> 
+      </ul> <p>Pour plus d’informations sur l’effort de travail dans Workfront, consultez la <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">présentation de l’effort de travail</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -877,7 +877,7 @@ Pour plus d’informations sur les tâches de modèle, voir [Modifier une tâche
 
 Un objet de feuille de temps représente une feuille de temps virtuelle qui permet aux utilisateurs de saisir les heures réelles travaillées pour les tâches, les projets et les types d’heures de surcharge.
 
-Pour plus d’informations sur les feuilles de calcul, voir [Présentation des feuilles de calcul](../../timesheets/timesheets/timesheets-overview.md)
+Pour plus d’informations sur les feuilles de calcul, consultez la [présentation des feuilles de calcul](../../timesheets/timesheets/timesheets-overview.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -903,11 +903,11 @@ Pour plus d’informations sur les feuilles de calcul, voir [Présentation des f
    <td role="rowheader">Champs directs</td> 
    <td> 
     <ul> 
-     <li> <p><strong>updateType</strong> </p> <p>Ajout des valeurs possibles suivantes :</p> 
+     <li> <p><strong>updateType</strong> </p> <p>Ajout des valeurs possibles suivantes :</p> 
       <ul> 
        <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
        <li> <p>initiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
-      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Pour plus d’informations sur les initiatives, voir <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Présentation des initiatives dans le planificateur de scénarios</a>.</p> </li> 
+      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Pour plus d’informations sur les initiatives, consultez la <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">présentation des initiatives dans le planificateur de scénario</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -925,10 +925,10 @@ Un objet User représente une personne disposant d’un compte dans Workfront qu
    <td role="rowheader">Champs directs</td> 
    <td> <p>Les champs suivants ont été ajoutés à la ressource Utilisateur :</p> 
     <ul> 
-     <li> <p><strong>actualDeactivationDate</strong> </p> <p>Il s’agit de la date et de l’heure auxquelles un utilisateur a été désactivé.</p> <p>Pour plus d’informations sur les utilisateurs désactivés, voir <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactivation ou réactivation d’un utilisateur</a>.</p> </li> 
+     <li> <p><strong>realDeactivationDate</strong> </p> <p>Il s’agit de la date et de l’heure auxquelles un utilisateur a été désactivé.</p> <p>Pour plus d’informations sur les utilisateurs désactivés, voir <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactivation ou réactivation d’un utilisateur</a>.</p> </li> 
      <li> <p><strong>alignAccessType</strong> </p> <p>Ce champ indique l’accès de l’utilisateur aux objectifs Workfront. Les valeurs possibles sont les suivantes :</p> 
       <ul> 
-       <li> <p>Accès interdit</p> </li> 
+       <li> <p>Pas d’accès</p> </li> 
        <li> <p>Afficher</p> </li> 
        <li> <p>Modifier</p> </li> 
       </ul> </li> 
@@ -938,7 +938,7 @@ Un objet User représente une personne disposant d’un compte dans Workfront qu
    <td role="rowheader">Actions</td> 
    <td> <p>L’action suivante a été ajoutée à la ressource Utilisateur :</p> 
     <ul> 
-     <li> <p><strong>getUserAccessPermissionsByCode</strong> </p> <p>Cette action utilise les arguments suivants :</p> 
+     <li> <p><strong>getUserAccessPermissionsByObjCode</strong> </p> <p>Cette action utilise les arguments suivants :</p> 
       <ul> 
        <li> <p>ids (string)</p> </li> 
        <li> <p>objCode (string)</p> </li> 
@@ -950,7 +950,7 @@ Un objet User représente une personne disposant d’un compte dans Workfront qu
 
 ### Travail  {#work}
 
-Un objet de travail est une interface commune dont Task et OpTask héritent tous deux et partagent le code commun entre les deux.
+Un objet Work est une interface commune dont Task et OpTask héritent tous deux, et partage le code commun entre les deux.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -975,9 +975,9 @@ Un objet de travail est une interface commune dont Task et OpTask héritent tous
      <li> <p><strong>workEffort</strong> </p> <p>Ce champ a été ajouté et indique si l’utilisateur doit faire un petit, moyen ou un gros effort quotidien pour terminer une tâche. Les valeurs possibles sont les suivantes :</p> 
       <ul> 
        <li> <p>1 (Petit)</p> </li> 
-       <li> <p>2 (Moyen)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (Grand)</p> </li> 
-      </ul> <p>Pour plus d’informations sur l’effort de travail dans Workfront, voir <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Présentation de l’effort de travail</a>.</p> </li> 
+      </ul> <p>Pour plus d’informations sur l’effort de travail dans Workfront, consultez la <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">présentation de l’effort de travail</a>.</p> </li> 
     </ul> <p style="font-weight: normal;">  </p> </td> 
   </tr> 
  </tbody> 

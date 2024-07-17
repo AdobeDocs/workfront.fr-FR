@@ -22,7 +22,7 @@ ht-degree: 95%
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Lors de la gestion des tâches et des affectations de problèmes, vous pouvez utiliser des affectations intelligentes pour identifier la meilleure ressource pour effectuer le travail. Les affectations intelligentes sont des suggestions qu’Adobe Workfront vous présente lorsque vous affectez des tâches à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour la tâche. Les affectations intelligentes peuvent être des personnes, des rôles de tâche ou des équipes.
 
@@ -124,7 +124,7 @@ Le calcul du score de similarité et l’ordre dans lequel les affectations sont
 
   Par exemple, si Rémy a été affecté à une tâche similaire plus tôt aujourd’hui et qu’Ingrid a été affectée à une tâche similaire il y a deux jours, Rémy s’affiche en premier.
 
-* Les affectations identifiées dans cette phase sont répertoriées dans la section    **Affectations proposées**  section du champ Affectations pour les tâches.
+* Les affectations identifiées dans cette phase sont répertoriées dans la section    **Affectations proposées** du champ Affectations pour les tâches.
 
 * S’il n’existe aucune correspondance utilisant ce calcul, la deuxième phase des affectations intelligentes commence, qui est calculée à l’aide d’un autre algorithme.
 
@@ -134,7 +134,7 @@ Si la première étape des affectations intelligentes de tâche n’a trouvé au
 
 Pour plus d’informations, voir la section [Critères d’affectation intelligente pour les tâches et les problèmes](#smart-assignments-criteria-for-tasks-and-issues) de cet article.
 
-Les affectations identifiées dans cette phase sont répertoriées dans la section **Utilisateurs et équipes**, **Affectations de rôle**, et **Rôles de carte de taux**  des sections du champ Affectations . Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Les affectations identifiées au cours de cette phase sont répertoriées dans les sections **Utilisateurs et équipes**, **Affectations de rôles de tâche** et **Taux des rôles de carte** du champ Affectations. Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Critères d’affectation intelligente pour les tâches et les problèmes
 

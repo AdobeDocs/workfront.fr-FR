@@ -9,14 +9,14 @@ exl-id: 48371389-952c-4732-b519-9774cd4d1b93
 source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 26%
+ht-degree: 29%
 
 ---
 
 # Alignement des objectifs en convertissant les résultats et les activités en objectifs
 
 Vous pouvez aligner manuellement deux objectifs ou convertir les résultats et activités d’un objectif existant en un autre. Le résultat ou l’activité converti devient l’objectif enfant de l’objectif d’origine.
-Pour plus d’informations sur l’alignement manuel de deux objectifs, voir [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+Pour plus d’informations sur l’alignement manuel de deux objectifs, voir [Aligner les objectifs en les connectant dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Conditions d’accès
 
@@ -65,14 +65,14 @@ Pour plus d’informations sur l’alignement manuel de deux objectifs, voir [Al
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -120,14 +120,14 @@ Tenez compte des points suivants lors de la conversion de résultats et d’acti
 
 1. Accédez à un objectif comportant un résultat ou une activité que vous souhaitez convertir en objectif.
 1. Sur la page de l’objectif, cliquez sur **Indicateurs de progression** dans le panneau de gauche.
-1. Sélectionnez un résultat ou une activité dans la liste des indicateurs de progression, puis cliquez sur le bouton **Convertir en objectif** icon ![](assets/convert-to-goal-icon-unshimmed.png) en haut de la liste des indicateurs de progression. La zone Convertir en objectif s’ouvre.
+1. Sélectionnez un résultat ou une activité dans la liste des indicateurs de progression, puis cliquez sur l&#39;icône **Convertir en objectif** ![](assets/convert-to-goal-icon-unshimmed.png) en haut de la liste des indicateurs de progression. La zone Convertir en objectif s’ouvre.
 
    ![](assets/convert-to-goal-box-unshimmed.png)
-1. Mettez à jour les informations suivantes :
-   * **Nom de l’objectif**: par défaut, le nouvel objectif porte le même nom que le résultat ou l’activité d’origine.
-   * **Période**: par défaut, la période du nouvel objectif est le trimestre en cours. Vous pouvez sélectionner la variable **Activation des dates personnalisées** pour définir une période personnalisée pour le nouvel objectif.
-   * **Propriétaire de l’objectif**: par défaut, le nouveau propriétaire de l’objectif est le propriétaire du résultat ou de l’activité d’origine.
-   * **Description**: ajoutez des informations supplémentaires sur le nouvel objectif.
+1. Mettez à jour les informations suivantes :
+   * **Nom de l’objectif** : par défaut, le nouvel objectif porte le même nom que le résultat ou l’activité d’origine.
+   * **Période** : par défaut, la période du nouvel objectif correspond au trimestre en cours. Vous pouvez sélectionner le paramètre **Activer les dates personnalisées** pour définir une période personnalisée pour le nouvel objectif.
+   * **Propriétaire de l’objectif** : par défaut, le nouveau propriétaire de l’objectif est le propriétaire du résultat ou de l’activité d’origine.
+   * **Description** : ajoutez des informations supplémentaires sur le nouvel objectif.
 1. Cliquez sur **Enregistrer**
 
    Le résultat ou l’activité est désormais converti en objectif enfant de l’objectif d’origine. Il est répertorié comme un objectif dans la liste des indicateurs de progression de l’objectif d’origine.

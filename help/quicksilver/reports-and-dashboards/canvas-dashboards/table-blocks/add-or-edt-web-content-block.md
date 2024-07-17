@@ -17,35 +17,35 @@ Les blocs de contenu web permettent d&#39;afficher dans votre rapport les inform
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, reportez-vous à la section [Présentation du canevas de rapports bêta : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Ajouter ou modifier un bloc de contenu web
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Reporting**.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Création de rapports**.
 1. Cliquez sur **Nouveau rapport**.
 
    Ou
 
-   Accédez à un rapport existant, puis cliquez sur le bouton **Plus** icon ![](assets/more-icon-27x15.png) dans l’en-tête du rapport, puis cliquez sur **Modifier**.
+   Accédez à un rapport existant, cliquez sur l&#39;icône **Plus** ![](assets/more-icon-27x15.png) dans l&#39;en-tête du rapport, puis cliquez sur **Modifier**.
 
-1. Dans la partie droite de l’écran, sous **Ajouter un bloc**, soit :
+1. Sur le côté droit de l’écran, sous **Ajouter un bloc**, vous pouvez effectuer l’une des opérations suivantes :
 
-   Faites glisser le **Contenu web** sur la zone de travail, directement à l’emplacement souhaité.
+   Faites glisser l’icône **Contenu web** sur la zone de travail directement vers l’emplacement souhaité.
 
    Ou
 
-   Double-cliquez sur le **Contenu web** pour ajouter un bloc en haut de la zone de travail.
+   Double-cliquez sur l&#39;icône **Contenu web** pour ajouter un bloc en haut de la zone de travail.
 
    >[!TIP]
    >
    >Vous pouvez modifier la taille du bloc une fois qu’il a été placé en faisant glisser ses poignées d’angle.
 
-1. Cliquez sur **Contenu web sans titre** dans l’en-tête de bloc, saisissez le titre du bloc.
-1. Cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png) dans l’en-tête block.
+1. Cliquez sur **Contenu web sans titre** dans l’en-tête du bloc, puis tapez le titre du bloc.
+1. Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans l’en-tête du bloc.
 
    ![](assets/web-content-block-header-350x76.png)
 
-1. Dans le **Paramètres** qui s’ouvre, saisissez l’URL complète de la page que vous souhaitez afficher (y compris &quot;https://&quot;) dans le **URL** champ .
+1. Dans le panneau **Paramètres** qui s’ouvre, saisissez l’URL complète de la page que vous souhaitez afficher (y compris &quot;https://&quot;) dans le champ **URL** .
 
    >[!NOTE]
    >
@@ -68,10 +68,10 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 
    {style="table-layout:auto"}
 
-1. (Facultatif) Cliquez sur le **Transmission des paramètres** pour ouvrir une liste de paramètres de transmission disponibles.
+1. (Facultatif) Cliquez sur le bouton d’activation/désactivation **Pass Parameters** (Transférer des paramètres) pour ouvrir une liste de paramètres de transmission disponibles.
 
    >[!WARNING]
    >
    >Les paramètres de transfert sont actuellement désactivés.
 
-1. Cliquez sur **Incorporer l’URL** pour enregistrer vos sélections et revenir à votre rapport.
+1. Cliquez sur **Intégrer l&#39;URL** pour enregistrer vos sélections et revenir à votre rapport.

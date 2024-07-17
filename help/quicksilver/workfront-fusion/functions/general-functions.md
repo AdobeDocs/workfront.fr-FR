@@ -11,7 +11,7 @@ exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
 source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 35%
+ht-degree: 45%
 
 ---
 
@@ -38,7 +38,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td>
    <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
@@ -58,24 +58,24 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 ## [!UICONTROL get (objet ou tableau ; chemin)]
 
-Renvoie le chemin d’accès à la valeur d’un objet ou d’un tableau. Pour accéder aux objets imbriqués, utilisez la notation par points. Le premier élément d’un tableau est index 1.
+Renvoie le chemin d’accès à la valeur d’un objet ou d’un tableau. Pour accéder aux objets imbriqués, utilisez la notation par points. Le premier élément d’un tableau est l’index 1.
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `get( array ; 1 + 1 )`
 >* `get( array ; 5.raw_name )`
 >* `get( object ; raw_name )`
 >* `get( object ; raw_name.sub_raw_name )`
 
-## [!UICONTROL if (expression ; value1 ; value2)]
+## [!UICONTROL if (expression; value1; value2)]
 
-Renvoie la variable `value1` si l’expression est évaluée sur true ; sinon elle renvoie la valeur `value2`.
+Renvoie le `value1` si l’expression est évaluée à true ; sinon, renvoie le `value2`.
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `if( 1 = 1 ; A ; B )`
 >
@@ -87,11 +87,11 @@ Renvoie la variable `value1` si l’expression est évaluée sur true ; sinon el
 
 ## [!UICONTROL ifempty (value1; value2)]
 
-Renvoie la variable `value1` si cette valeur n’est pas vide, sinon elle renvoie la valeur `value2`.
+Renvoie la valeur `value1` si cette valeur n’est pas vide, sinon renvoie la valeur `value2`.
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `ifempty(` `A` `;` `B` )
 >
@@ -105,13 +105,13 @@ Renvoie la variable `value1` si cette valeur n’est pas vide, sinon elle renvoi
 >
 >   Renvoie B
 
-## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
+## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else]){5]
 
 Evalue une valeur (appelée expression) par rapport à une liste de valeurs ; renvoie le résultat correspondant à la première valeur correspondante.
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
 >
@@ -125,26 +125,26 @@ Evalue une valeur (appelée expression) par rapport à une liste de valeurs ; re
 >
 >  Renvoie 4
 
-## [!UICONTROL omit(object; key1; [key2 ; ...])]
+## [!UICONTROL omit(object; key1; [key2; ...])]
 
 Omet les clés données de l’objet et renvoie le reste.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
->`omit(` Utilisateur `;` password `)`
+>`omit(` User `;` password `)`
 >
 >Renvoie une collection des informations de l’utilisateur, à l’exclusion du mot de passe.
 
-## [!UICONTROL pick(objet; key1; [key2 ; ...])]
+## [!UICONTROL pick(object; key1; [key2; ...])]
 
 Sélectionne uniquement les clés données de l’objet.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
->`pick(` Utilisateur `;` password `;` email `)`
+>`pick(` User `;` password `;` email `)`
 >
 >Renvoie une collection contenant uniquement le mot de passe et l’adresse électronique de l’utilisateur.

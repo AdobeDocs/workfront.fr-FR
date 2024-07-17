@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: Vous pouvez gérer des formulaires personnalisés existants à l’aide du Concepteur de formulaire.
+description: Vous pouvez gérer des formulaires personnalisés existants avec le Designer de formulaire.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin

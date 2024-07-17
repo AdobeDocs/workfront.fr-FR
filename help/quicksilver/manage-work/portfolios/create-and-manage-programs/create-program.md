@@ -9,7 +9,7 @@ exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -32,11 +32,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td>
 
-<td> <p>Nouveau : Quelconque</p><p>Ou</p><p>Actuel : [!UICONTROL Entreprise] ou version ultérieure</p> </td> 
+<td> <p>Nouveau : Tous</p><p>Ou</p><p>Actuel : [!UICONTROL Entreprise] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>Nouveau : [!UICONTROL Standard] </p><p>Ou </p><p>Actuel : formule [!UICONTROL] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard] </p><p>Ou </p><p>Actuelle : [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
@@ -59,32 +59,32 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 1. Effectuez l’une des opérations suivantes.
 
-   * Créez un programme à partir du [!UICONTROL Programmes] area :
+   * Créez un programme à partir de la zone [!UICONTROL Programmes] :
 
       1. Cliquez sur **[!UICONTROL Programmes]** dans le menu principal.
       1. Cliquez sur **[!UICONTROL Nouveau programme]**.
-      1. Dans la zone qui s’affiche, saisissez le nom d’un Portfolio existant dans le champ **[!UICONTROL Sélectionner un Portfolio]** champ .
-      1. Saisissez le nom du nouveau programme dans le champ **[!UICONTROL Nom]** champ .
+      1. Dans la zone qui s’affiche, saisissez le nom d’un Portfolio existant dans le champ **[!UICONTROL Select Portfolio]** .
+      1. Saisissez le nom du nouveau programme dans le champ **[!UICONTROL Nom]** .
       1. Cliquer sur **[!UICONTROL Enregistrer]**.
-   * Créez un programme à partir du [!UICONTROL Portfolios] area :
+   * Créez un programme à partir de la zone [!UICONTROL Portfolios] :
 
-      1. Cliquez sur **[!UICONTROL Portfolios]** dans le [!UICONTROL Menu Principal], puis ouvrez un portfolio.
+      1. Cliquez sur **[!UICONTROL Portfolios]** dans le [!UICONTROL menu principal], puis ouvrez un portfolio.
       1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Programmes]**.
-      1. Cliquez sur le bouton **[!UICONTROL Nouveau programme]** , puis **[!UICONTROL Nouveau programme]**.
+      1. Cliquez sur le menu déroulant **[!UICONTROL Nouveau programme]** , puis sur **[!UICONTROL Nouveau programme]**.
 
 
-1. (Conditionnel) Si vous avez créé le programme à partir d’un portfolio, indiquez le nom du programme dans la variable **[!UICONTROL Programme sans titre]** champ .
+1. (Conditionnel) Si vous avez créé le programme à partir d’un portfolio, indiquez le nom du programme dans le champ **[!UICONTROL Programme sans titre]**.
 
    Le nom peut contenir jusqu’à 255 caractères.
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Responsable de programme]** dans l’en-tête du programme pour le mettre à jour.
+1. (Facultatif) Cliquez sur **[!UICONTROL Gestionnaire de programmes]** dans l’en-tête du programme pour le mettre à jour.
 
    >[!TIP]
    >
    >En tant que créateur du programme, vous êtes défini comme responsable du programme par défaut.
 
 1. Cliquez sur **[!UICONTROL Détails du programme]** dans le panneau de gauche.
-1. Double-cliquez sur un champ pour mettre à jour les informations dans le **[!UICONTROL Présentation]** zone.
+1. Double-cliquez sur un champ pour mettre à jour les informations dans la zone **[!UICONTROL Overview]**.
 
 Vous pouvez indiquer les informations suivantes :
 
@@ -108,7 +108,7 @@ Vous pouvez indiquer les informations suivantes :
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Group] </td> 
-      <td> <p>Ajoutez le nom d’un seul groupe si le groupe est responsable du programme ou s’il est responsable de l’exécuter. </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en pointant dessus et en cliquant sur l’icône [!UICONTROL Information] <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus de celui-ci et ses administrateurs.</p> 
+      <td> <p>Ajoutez le nom d’un seul groupe si le groupe est responsable du programme ou s’il est responsable de l’exécuter. </p> <p>Vous pouvez vous assurer de sélectionner le groupe approprié en pointant dessus et en cliquant sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> qui s’affiche en regard. Cette option permet d’afficher une infobulle contenant des informations sur le groupe, telles que la hiérarchie des groupes qui le précèdent et ses administrateurs et administratrices.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -116,7 +116,7 @@ Vous pouvez indiquer les informations suivantes :
     </tbody> 
    </table>
 
-1. (Facultatif et conditionnel) Cliquez dans le **[!UICONTROL Ajouter un formulaire personnalisé]** pour sélectionner un formulaire personnalisé pour le portfolio et mettre à jour les champs personnalisés.
+1. (Facultatif et conditionnel) Cliquez dans la zone **[!UICONTROL Ajouter un formulaire personnalisé]** pour sélectionner un formulaire personnalisé pour le portfolio et mettre à jour les champs personnalisés.
 
    >[!TIP]
    >
@@ -124,14 +124,14 @@ Vous pouvez indiquer les informations suivantes :
 
 1. (Facultatif et conditionnel) Si vous ajoutez un formulaire personnalisé, cliquez sur un champ du formulaire personnalisé pour mettre à jour les informations dans ce champ.
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
-1. Cliquez sur **[!UICONTROL Projets]** dans le panneau de gauche, puis **[!UICONTROL Ajouter des projets]** pour ajouter des projets au programme.
+1. Cliquez sur **[!UICONTROL Projets]** dans le panneau de gauche, puis sur **[!UICONTROL Ajouter des projets]** pour ajouter des projets au programme.
 
    Pour plus d’informations sur l’ajout de projets à des programmes, voir [Ajout d’un projet à un programme](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
-1. (Facultatif) Cliquez sur le **[!UICONTROL Plus de menu]** ![](assets/more-icon.png) en regard du nom du programme, puis cliquez sur **[!UICONTROL Désactiver le programme]**.
+1. (Facultatif) Cliquez sur le **[!UICONTROL menu Plus]** ![](assets/more-icon.png) en regard du nom du programme et cliquez sur **[!UICONTROL Désactiver le programme]**.
 
-   Lorsque vous désactivez un programme, celui-ci ne s’affiche plus dans la liste des programmes lorsque les utilisateurs tentent de l’ajouter à un projet. Vous pouvez toujours accéder au programme à partir du [!UICONTROL Programmes] zone.
+   Lorsque vous désactivez un programme, celui-ci ne s’affiche plus dans la liste des programmes lorsque les utilisateurs tentent de l’ajouter à un projet. Vous pouvez toujours accéder au programme à partir de la zone [!UICONTROL Programmes].
 
 ## Aperçu de l’en-tête du programme
 
@@ -145,7 +145,7 @@ Les informations suivantes s’affichent dans l’en-tête d’un programme :
  <tbody> 
   <tr> 
    <td role="rowheader">Informations sur l’en-tête</td> 
-   <td> <strong>Remarques</strong> </td> 
+   <td> <strong>Notes</strong> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Chemin de navigation avec le nom du portfolio</td> 
@@ -164,7 +164,7 @@ Les informations suivantes s’affichent dans l’en-tête d’un programme :
    <td> <p>Cliquez sur l’une des options suivantes pour accéder à d’autres informations ou options de modification du programme :</p> 
     <ul> 
      <li>L’icône en forme d’étoile pour ajouter le programme à votre liste de Favoris</li> 
-     <li> <p>Menu [!UICONTROL Plus] <img src="assets/qs-more-menu.png"> pour effectuer l’une des opérations suivantes : </p> 
+     <li> <p>Le menu [!UICONTROL Plus] <img src="assets/qs-more-menu.png"> pour effectuer l’une des opérations suivantes : </p> 
       <ul> 
        <li>Modifier le programme</li> 
        <li>Désactivez-le. Lorsqu’un programme est désactivé, vous ne pouvez plus l’associer aux projets au niveau du projet. </li> 

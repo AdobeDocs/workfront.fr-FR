@@ -104,14 +104,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
    L’espace de travail et les types d’enregistrement s’affichent.
-1. Pointez sur la carte d’un type d’enregistrement, puis cliquez sur le **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit de la carte de type enregistrement, puis cliquez sur **Modifier**.
+1. Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit de la carte de type d’enregistrement, puis cliquez sur **Modifier**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-1. Dans le **Modifier le type d’enregistrement** , mettez à jour les informations suivantes :
+1. Dans la zone **Edit record type** , mettez à jour les informations suivantes :
 
    * Modifiez le nom du type d’enregistrement, si nécessaire. <!--did they add a field label for this? -->
-   * **Description**: modifiez ou ajoutez une description pour le type d’enregistrement avec plus d’informations à son sujet.
+   * **Description** : modifiez ou ajoutez une description pour le type d’enregistrement avec plus d’informations à son sujet.
    * Editez la couleur et la forme de l&#39;icône associée au type d&#39;enregistrement. Procédez comme suit :
       * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. L’option Gris est sélectionnée par défaut.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
@@ -120,7 +120,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquer sur **Enregistrer**.
 1. (Facultatif) Cliquez sur la carte de type d’enregistrement dans la zone de l’espace de travail pour ouvrir la page du type d’enregistrement.
-1. Cliquez sur le bouton **Plus** à droite du nom du type d’enregistrement, puis cliquez sur **Modifier** pour mettre à jour les informations sur le type d’enregistrement.
+1. Cliquez sur le menu **Plus** situé à droite du nom du type d’enregistrement, puis sur **Modifier** pour mettre à jour les informations sur le type d’enregistrement.
 
    >[!TIP]
    >

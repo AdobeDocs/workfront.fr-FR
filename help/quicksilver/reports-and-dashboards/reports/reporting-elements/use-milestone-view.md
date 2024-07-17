@@ -9,7 +9,7 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
 source-wordcount: '1302'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Vous pouvez appliquer la vue Milestone à une liste de projets ou à un rapport.
 
-Avant de pouvoir utiliser la vue du jalon, les jalons doivent être configurés, les chemins d’accès au jalon doivent être ajoutés aux projets et les jalons doivent être associés aux tâches, comme décrit dans les articles. [Création d’un chemin de jalon](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) et [Associer des jalons à des tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Avant de pouvoir utiliser la vue du jalon, les jalons doivent être configurés, les chemins d’accès au jalon doivent être ajoutés aux projets et les jalons doivent être associés aux tâches, comme décrit dans les articles [Créer un chemin d’accès au jalon](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) et [Associer les jalons aux tâches](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 La vue Milestone est disponible lors de l’affichage d’une liste de projets ou d’un rapport de projet. Les sections suivantes décrivent comment afficher et utiliser la vue du jalon.
 
@@ -42,8 +42,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
-   <p>Nouveau : Standard</p>
-   <p>Actuel : travail ou plus élevé </p> </td> 
+   <p>Nouvelle : standard</p>
+   <p>Actuellement : Travail ou licence supérieure </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
@@ -64,11 +64,11 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 {{step1-to-projects}}
 
-1. Cliquez sur le bouton **Affichage** , puis cliquez sur **Milestone**.
+1. Cliquez sur le menu déroulant **Afficher**, puis sur **Jalon**.
 
    La liste ou le rapport s’affiche dans une vue Milestone.
 
-   Pour plus d’informations sur l’affichage du jalon, voir la section [Vue Milestone - Aperçu](#milestone-view-overview) dans cet article.
+   Pour plus d’informations sur la vue du jalon, consultez la section [Aperçu de la vue Milestone](#milestone-view-overview) de cet article.
 
 ## Vue Milestone - Aperçu {#milestone-view-overview}
 
@@ -82,7 +82,7 @@ La vue Milestone est disponible dans les listes de projets et les rapports de pr
 >* Fiches horaires, dans la liste des projets lors de l’ajout d’un projet.
 
 
-Pour plus d’informations sur la façon de passer à la vue Milestone, voir la section [Basculer vers la vue Milestone](#switch-to-the-milestone-view) dans cet article.
+Pour plus d’informations sur la manière de passer à la vue Milestone, reportez-vous à la section [Basculer vers la vue Milestone](#switch-to-the-milestone-view) de cet article.
 
 ![Projet avec vue de jalon](assets/project-with-milestone-view-with-complete.png)
 
@@ -104,17 +104,17 @@ Lors de l’application de la vue Milestone à une liste de projets, les projets
 
 Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans la vue Milestone, les informations suivantes sont disponibles :
 
-* **Dates planifiées ou dates prévues :** Indiquez si vous souhaitez afficher les dates prévues ou les dates prévues dans la vue Jalon.\
+* **Dates planifiées ou dates projetées :** Indiquez si vous souhaitez afficher les dates planifiées ou les dates projetées dans la vue Jalon.\
   Les dates s’affichent pour le début et la fin, ainsi que pour chaque jalon dans le chemin du jalon.\
   Si vous affichez les dates planifiées et que vous avez également accès à l’option Gérer pour le projet, vous pouvez modifier les dates suivantes directement à partir de la vue Jalon : (Si vous affichez les dates prévues, celles-ci ne peuvent pas être modifiées car les dates prévues sont calculées et ne peuvent pas être modifiées manuellement.)
 
    * **Dates de début du projet :** Si un projet est planifié à partir de la date de début, vous pouvez modifier manuellement la date de début du projet, puis la date de fin est calculée.
-   * **Dates d’achèvement du projet :** Si un projet est planifié à partir de la date de fin, vous pouvez modifier manuellement la date de fin du projet, puis la date de début est calculée.
-   * **Dates de fin de tâche :** Vous pouvez mettre à jour manuellement la fin des tâches directement à partir de la vue Milestone.
+   * **Dates de fin du projet :** Si un projet est planifié à partir de la date de fin, vous pouvez modifier manuellement la date de fin du projet, puis la date de début est calculée.
+   * **Dates d’achèvement de la tâche :** Vous pouvez mettre à jour manuellement la fin de la tâche directement depuis la vue Milestone.
 
-* **Pourcentage terminé :** Affiche le pourcentage d’achèvement de chaque tâche et projet.\
-  Vous pouvez désactiver l’affichage du pourcentage d’achèvement, comme décrit dans la section . [Configuration des informations affichées dans la vue Milestone](#configure-what-information-displays-in-the-milestone-view) dans cet article.\
-  Vous pouvez ajuster le pourcentage d’achèvement directement à partir de la vue Milestone, comme décrit dans la section . [Ajuster le pourcentage terminé pour les tâches dans la vue Milestone](#adjust-percent-complete-for-tasks-in-the-milestone-view) dans cet article.
+* **Pourcentage terminé :** affiche le pourcentage d’achèvement de chaque tâche et projet.\
+  Vous pouvez désactiver l’affichage du pourcentage d’achèvement, comme décrit dans la section [Configurer les informations affichées dans la vue Milestone](#configure-what-information-displays-in-the-milestone-view) de cet article.\
+  Vous pouvez ajuster le pourcentage d’achèvement directement à partir de la vue Milestone, comme décrit dans la section [Ajuster le pourcentage terminé pour les tâches dans la vue Milestone](#adjust-percent-complete-for-tasks-in-the-milestone-view) de cet article.
 
 * **Icônes d’état de la tâche :** Une icône d’état s’affiche en regard de chaque projet et tâche dans la vue Jalon.
 
@@ -130,35 +130,35 @@ Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans 
    * En retard\
      ![](assets/gantt-late.png)
 
-  Vous pouvez désactiver l’affichage de ces icônes d’état, comme décrit dans la section . [Configuration des informations affichées dans la vue Milestone](#configure-what-information-displays-in-the-milestone-view) dans cet article.\
-  Pour plus d’informations sur chaque type d’état, reportez-vous à l’article [Présentation de l’état de progression de la tâche](../../../manage-work/tasks/task-information/task-progress-status.md).
+  Vous pouvez désactiver l’affichage de ces icônes d’état, comme décrit dans la section [Configurer les informations affichées dans la vue Milestone](#configure-what-information-displays-in-the-milestone-view) de cet article.\
+  Pour plus d’informations sur chaque type d’état, consultez l’article [Présentation de l’état de progression de la tâche](../../../manage-work/tasks/task-information/task-progress-status.md).
 
-* **Ombrage de l’état de la tâche pour les tâches terminées**: une fois qu’une tâche est marquée comme terminée, l’arrière-plan de la tâche est masqué dans la vue Milestone pour indiquer si la tâche a été terminée à temps ou en retard :
+* **Ombrage de l’état de la tâche pour les tâches terminées** : une fois la tâche marquée comme terminée, l’arrière-plan de la tâche est ombré dans la vue Milestone pour indiquer si la tâche a été terminée à temps ou en retard :
 
-   * **Ombrage rouge pour la colonne de la tâche**: l’arrière-plan d’une tâche est rouge lorsque l’état de progression est **Tard**.
+   * **Ombrage rouge pour la colonne de la tâche** : l’arrière-plan d’une tâche est rouge lorsque l’état de progression est **En retard**.
 
-   * **Ombrage vert pour la colonne de la tâche**: l’arrière-plan d’une tâche est vert lorsque l’état de progression est **Heure d’activation**.
+   * **Ombrage vert pour la colonne de la tâche** : l’arrière-plan d’une tâche est vert lorsque l’état de progression est **À l’heure**.
 
-* **Ombrage de l’état du projet pour les colonnes Début et Fin du projet**:
+* **Ombrage de l’état du projet pour les colonnes Début et Fin du projet** :
 
-   * **Colonne de début du projet**: l’arrière-plan de la colonne Démarrage du projet est rouge ou vert uniquement lorsque la Date de début réelle est renseignée :
+   * **Colonne de début de projet** : l’arrière-plan de la colonne Début du projet est rouge ou vert uniquement lorsque la date de début réelle est renseignée :
 
-      * **Ombrage rouge de la colonne Début du projet**: l’arrière-plan de la colonne Début du projet est rouge lorsque l’état de progression du projet est **Tard**.
+      * **Ombrage rouge pour la colonne Début du projet** : l’arrière-plan de la colonne Début du projet est rouge lorsque l’état de progression du projet est **En retard**.
 
-      * **Ombrage vert pour la colonne Début du projet**: l’arrière-plan de la colonne Début du projet est vert lorsque l’état de progression du projet est **Heure d’activation**.
+      * **Ombrage vert pour la colonne Début du projet** : l’arrière-plan de la colonne Début du projet est vert lorsque l’état de progression du projet est **À l’heure**.
 
-   * **Colonne Fin du projet**: l’arrière-plan de la colonne Fin du projet est rouge ou vert uniquement lorsque la date de fin réelle est renseignée :
+   * **Colonne de fin du projet** : l’arrière-plan de la colonne de fin du projet est rouge ou vert uniquement lorsque la date de fin réelle est renseignée :
 
-      * **Ombrage rouge pour la colonne achèvement du projet**: l’arrière-plan de la colonne Fin du projet est rouge lorsque l’état de progression du projet est **Tard**.
+      * **Ombrage rouge pour la fin du projet** : l’arrière-plan de la colonne achèvement du projet est rouge lorsque l’état de progression du projet est **En retard**.
 
-      * **Ombrage vert de la colonne Fin du projet**: l’arrière-plan de la colonne Fin du projet est vert lorsque l’état de progression du projet est **Heure d’activation**.
+      * **Ombrage vert pour la colonne Fin du projet** : l’arrière-plan de la colonne Fin du projet est vert lorsque l’état de progression du projet est **À l’heure**.
 
    * Aucun ombrage colorimétrique n’est attribué aux colonnes Début et Fin lorsque l’état de progression des tâches est En danger ou Derrière.
 
   ![Vue Milestone avec ombrage](assets/milestone-view-with-shading.png)
 
-* **Nom du projet**: le nom du projet s’affiche avec un lien vers le projet.
-* **Icône Condition de projet**: une icône s’affiche en regard du nom du projet, indiquant la condition du projet.
+* **Nom du projet** : le nom du projet s’affiche avec un lien vers le projet.
+* **Icône Condition du projet** : une icône s’affiche en regard du nom du projet, indiquant la condition du projet.
 
 ## Configuration des informations affichées dans la vue Milestone {#configure-what-information-displays-in-the-milestone-view}
 
@@ -175,13 +175,13 @@ Pour configurer l’affichage des icônes d’état du projet et du pourcentage 
 
 {{step1-to-projects}}
 
-1. Cliquez sur le bouton **Affichage** , puis cliquez sur **Milestone**.\
-   Si vous affichez une liste de projets dans un Portfolio ou un programme, sélectionnez la variable **Milestone** sous-onglet.
+1. Cliquez sur le menu déroulant **Afficher**, puis sur **Jalon**.\
+   Si vous affichez une liste de projets dans un Portfolio ou un programme, sélectionnez le sous-onglet **Milestone** .
 
 1. Cliquez sur **Options** dans le coin supérieur droit de la vue Milestone.\
    ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
 
-1. Sélectionnez l’une des options suivantes :
+1. Sélectionnez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -192,7 +192,7 @@ Pour configurer l’affichage des icônes d’état du projet et du pourcentage 
       <td> <p>Sélectionnez cette option pour afficher les icônes d’état de progression en regard de chaque projet et tâche.</p> <p>Cette option est activée par défaut.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Pourcentage d'achèvement</td> 
+      <td role="rowheader">Pourcentage d’achèvement</td> 
       <td> <p>Sélectionnez cette option pour afficher le pourcentage d’achèvement en regard de chaque projet et tâche.</p> <p>Cette option est activée par défaut.</p> </td> 
      </tr> 
     </tbody> 
@@ -206,8 +206,8 @@ Pour ajuster le pourcentage de réalisation d’une tâche dans la vue Jalon :
 
 {{step1-to-projects}}
 
-1. Cliquez sur le bouton **Affichage** , puis cliquez sur **Milestone**.
+1. Cliquez sur le menu déroulant **Afficher**, puis sur **Jalon**.
 
-1. (Conditionnel) Si les pourcentages d’achèvement ne s’affichent pas actuellement dans la vue Milestone, cliquez sur **Options** dans le coin supérieur droit de la vue Milestone, assurez-vous que **Pourcentage terminé** est activée.
+1. (Conditionnel) Si les pourcentages d’achèvement ne s’affichent pas actuellement dans la vue Jalon, cliquez sur **Options** dans le coin supérieur droit de la vue Jalon, puis assurez-vous que l’option **Pourcentage terminé** est activée.
 
 1. Cliquez sur le pourcentage d’achèvement sous une tâche, indiquez un nouveau pourcentage, puis appuyez sur Entrée.

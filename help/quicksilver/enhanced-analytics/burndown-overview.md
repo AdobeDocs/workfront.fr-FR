@@ -1,5 +1,5 @@
 ---
-title: Affichage de la visualisation de Burndown dans les analyses améliorées
+title: Afficher la visualisation d’avancement dans Analytique améliorée
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
@@ -10,43 +10,43 @@ exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
 source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Affichage de la visualisation de Burndown dans les analyses améliorées
+# Afficher la visualisation d’avancement dans Analytique améliorée
 
 <!-- Audited: 12/2023 -->
 
 La visualisation de ventilation présente la charge d’un projet spécifique au fil du temps et vous aide à comprendre la relation entre la condition du projet, la vitesse et les heures restantes (ou jours).
 
-![Exemple de ventilation d’analyses améliorée](assets/burndown120623.png)
+![Exemple de compilation d’analyses améliorées](assets/burndown120623.png)
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td>
-      <p>Nouveau : Quelconque</p>
+      <p>Nouveau : Tous</p>
       <p>ou</p>
       <p>Actuel : métier ou supérieur</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-      <p>Nouveau : clair ou supérieur</p>
+      <p>Nouveau : Léger ou supérieur</p>
       <p>ou</p>
-      <p>Actuel : révision ou version ultérieure</p>
+      <p>Actuel : révision ou supérieur</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Affichage de l’accès aux projets</p> </td> 
   </tr> 
   <tr> 
@@ -56,11 +56,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
-Pour connaître les conditions préalables à l’utilisation d’Analytics amélioré, reportez-vous à la section &quot;Conditions préalables&quot; de la section [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
+Pour connaître les conditions préalables à l’utilisation d’Analytics amélioré, reportez-vous à la section &quot;Conditions préalables&quot; dans la [présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Présentation de la visualisation Burndown
 
@@ -70,17 +70,17 @@ La ligne bleue pleine indique la vitesse planifiée entre la date de début et l
 
 La ligne réelle indique le nombre d’heures (ou de jours) passées sur le projet au fil du temps. La couleur de cette ligne indique la condition du projet chaque jour :
 
-* **Vert**: le projet est sur cible.
+* **Vert** : le projet est sur la cible.
 
   ![Sur la cible](assets/burndown-green.png)
 
-* **Orange**: le projet est en danger.
+* **Orange** : le projet est en danger.
 
   ![À risque](assets/burndown-orange.png)
 
-* **Rouge**: le projet est en difficulté.
+* **Red** : le projet est en difficulté.
 
-  ![Problèmes](assets/burndown-red.png)
+  ![En difficulté](assets/burndown-red.png)
 
 Pour plus d’informations sur ces conditions de projet, voir [Présentation de la condition et du type de condition du projet](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -94,7 +94,7 @@ L’affichage de toutes ces informations dans la visualisation de Burndown vous 
 * Comment les problèmes liés au travail (ou aux travaux non planifiés) ont-ils affecté le travail planifié ?
 * Quels événements ont prolongé le projet au-delà de la date d’achèvement initiale ?
 
-Pour savoir comment obtenir les meilleures données pour cette visualisation, voir [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
+Pour savoir comment obtenir les meilleures données pour cette visualisation, consultez la [présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Affichage de la visualisation de Burndown
 
@@ -126,33 +126,33 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
    >
    >Pour en savoir plus sur ces autres visualisations, voir :
    >
-   >   * [Visualisation du plan de vol dans Enhanced Analytics](../enhanced-analytics/flight-plan-overview.md)
-   >   * [Visualisation du graphique Treemap du projet dans les analyses améliorées](../enhanced-analytics/project-treemap-overview.md)
-   >   * [Affichage des tâches dans la visualisation en vol dans Enhanced Analytics](../enhanced-analytics/tasks-in-flight-overview.md)
+   >   * [ Afficher la visualisation du plan de vol dans Enhanced Analytics](../enhanced-analytics/flight-plan-overview.md)
+   >   * [Visualisation du graphique Treemap du projet dans l’analyse améliorée](../enhanced-analytics/project-treemap-overview.md)
+   >   * [Afficher les tâches dans la visualisation en vol dans l’analyse améliorée](../enhanced-analytics/tasks-in-flight-overview.md)
    >
 
-1. (Facultatif) Modifiez l’affichage des heures planifiées en **durée**.
+1. (Facultatif) Remplacez l’affichage des heures planifiées par **duration**.
 
    Les heures planifiées sont sélectionnées par défaut.
 
    >[!NOTE]
    >
-   >Sélection **durée** change toutes les informations sur les heures en jours.\
-   >![Farnout de durée](assets/duration-burndown-350x112.png)\
-   >Pour plus d’informations sur la durée dans la zone Analyses améliorées, voir la section &quot;Vue Durée&quot; dans [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
+   >Si vous sélectionnez **duration**, toutes les informations sur les heures sont remplacées par jours.\
+   >![Durée de la compression](assets/duration-burndown-350x112.png)\
+   >Pour plus d’informations sur la durée dans la zone Analyses améliorées, voir la section &quot;Vue Durée&quot; dans la [présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
 
 1. Cliquez sur n’importe quel point du graphique linéaire.
 
    La date exacte s’affiche et des informations supplémentaires sur les tâches et les heures (ou jours) du jour sélectionné s’affichent sous le graphique.
 
-   ![Détails du Burndown](assets/burndown-task-and-hour-changes-350x121.png)
+   ![Détails de la mise en surbrillance](assets/burndown-task-and-hour-changes-350x121.png)
 
    >[!NOTE]
    >
    >Si la vitesse réelle est une ligne plate qui s’exécute le long de l’axe des x (en ligne avec 0 heure ou 0 jour) de la visualisation, cela signifie qu’aucune heure (ou jour) planifiée n’a été ajoutée au projet.\
    >Si la vitesse réelle est une ligne plate au-dessus de l’axe X (en ligne avec un nombre d’heures ou de jours) qui ne diminue jamais, cela signifie qu’aucune tâche n’a été effectuée pendant la période filtrée.
 
-1. (Facultatif) Pour exporter les données de visualisation, cliquez sur le bouton **Exporter** icon ![Icône Exporter](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’exportation :
+1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’exportation :
 
    * Graphique (PNG)
    * Tableau de données (XSLX)

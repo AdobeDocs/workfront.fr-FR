@@ -11,51 +11,51 @@ exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 0%
+ht-degree: 34%
 
 ---
 
 # Personnalisation des pages épinglées à l’aide d’un modèle de mise en page
 
-Dans un modèle de mise en page, vous pouvez épingler les pages que vous souhaitez que les utilisateurs soient toujours disponibles dans la partie supérieure d’Adobe Workfront. Ces pages sont accessibles via le menu principal ![](assets/main-menu-icon.png) ou les tableaux de bord.
+Dans un modèle de mise en page, vous pouvez épingler les pages que vous souhaitez que les utilisateurs soient toujours disponibles dans la partie supérieure d’Adobe Workfront. Ces pages peuvent être accessibles via le menu principal ![](assets/main-menu-icon.png) ou les tableaux de bord.
 
 Les pin’s que vos utilisateurs ont ajoutés eux-mêmes s’affichent à droite des pin’s que vous ajoutez dans le modèle de mise en page.
 
-Pour plus d’informations sur l’épinglage de pages, voir [Epingler des pages pour personnaliser votre espace de travail](../../../workfront-basics/the-new-workfront-experience/pin-pages.md).
+Pour plus d&#39;informations sur l&#39;épinglage de pages, voir [Epinglage de pages pour personnaliser votre espace de travail](../../../workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-Pour plus d’informations sur les modèles de mise en page, voir [Création et gestion des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations sur les modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Pour plus d’informations sur les modèles de disposition pour les groupes, voir [Créer et modifier des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs pour que les modifications que vous avez apportées soient visibles par d’autres utilisateurs. Pour plus d’informations sur l’attribution d’un modèle de mise en page aux utilisateurs, voir [Affecter des utilisateurs à un modèle de mise en page](../use-layout-templates/assign-users-to-layout-template.md).
+Après avoir configuré un modèle de disposition, vous devez l’attribuer à des utilisateurs et utilisatricess pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de disposition à des utilisateurs et utilisatrices, voir [Attribuer un modèle de disposition à des utilisateurs et utilisatrices](../use-layout-templates/assign-users-to-layout-template.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur système.
-Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.
+Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas accès, demandez à votre équipe d’administration Workfront si des restrictions supplémentaires sont définies pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Epinglage de pages à l’aide d’un modèle de mise en page
 
-1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Création et gestion des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Sous **Zone de navigation supérieure**, cliquez sur **Ajouter une nouvelle épingle**.
 
 1. Dans le menu déroulant qui s’affiche, effectuez l’une des opérations suivantes :
@@ -64,17 +64,17 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 
      >[!IMPORTANT]
      >
-     >La consultation des zones Scénarios et Objectifs nécessite des licences supplémentaires. Pour plus d’informations sur les objectifs de Workfront, voir [Présentation des objectifs d’Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) ou pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+     >La consultation des zones Scénarios et Objectifs nécessite des licences supplémentaires. Pour plus d’informations sur les objectifs Workfront, voir [Présentation des objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) ou pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénario](../../../scenario-planner/scenario-planner-overview.md).
 
-   * Cliquez sur **Ajout d’un tableau de bord**, puis entrez un descriptif. **Titre de la section personnalisée** et ajoutez le tableau de bord.
+   * Cliquez sur **Ajouter un tableau de bord**, puis entrez un **titre de section personnalisé** descriptif et ajoutez le tableau de bord.
 
 1. Répétez l’étape précédente pour épingler d’autres pages.
 
-1. (Facultatif) Pour renommer une épingle, survolez-la avec la souris et cliquez sur la flèche en regard de son nom, puis sélectionnez **Renommer le pin**. Saisissez le nouveau nom d’épingle, puis cliquez sur l’icône en forme de coche ou appuyez sur Entrée.
+1. (Facultatif) Pour renommer une épingle, passez la souris sur la épingle, cliquez sur la flèche en regard du nom de la épingle, puis sélectionnez **Renommer la épingle**. Saisissez le nouveau nom d’épingle, puis cliquez sur l’icône en forme de coche ou appuyez sur Entrée.
 
    Une petite fenêtre contextuelle s’affiche pendant plusieurs secondes après avoir cliqué sur la coche ou appuyé sur Entrée, ce qui vous permet d’annuler la modification du nom de la épingle avant qu’elle ne soit enregistrée.
 
-1. Continuez à personnaliser le modèle de mise en page.
+1. Poursuivez la personnalisation du modèle de disposition.
 
    Ou
 
@@ -82,4 +82,4 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
 
    >[!TIP]
    >
-   >Vous pouvez cliquer sur **Enregistrer** à tout moment pour enregistrer votre progression, puis continuez à modifier le modèle ultérieurement.
+   >Vous pouvez cliquer à tout moment sur **Enregistrer** pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.

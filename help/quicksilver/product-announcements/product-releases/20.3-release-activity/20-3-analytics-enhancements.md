@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Améliorations apportées à Analytics
+title: Améliorations d’Analytics (version 20.3)
 description: Cette page décrit toutes les améliorations apportées aux analyses à l’environnement de production avec la version 20.3. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements
@@ -10,15 +10,15 @@ exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 20.3 Améliorations apportées à Analytics
+# Améliorations d’Analytics (version 20.3)
 
 Cette page décrit toutes les améliorations apportées aux analyses à l’environnement de production avec la version 20.3. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, voir [Présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, consultez la [présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## L’analyse améliorée est disponible ici !
 

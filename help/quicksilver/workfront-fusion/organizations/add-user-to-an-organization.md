@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
 source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> 
-     <p>Vous devez être un administrateur ou une administratrice de [!DNL Workfront Fusion] pour votre entreprise.</p>
+     <p>Vous devez être un administrateur ou une administratrice de [!DNL Workfront Fusion] pour votre organisation.</p>
      <p>Vous devez être un administrateur ou une administratrice de [!DNL Workfront Fusion] pour votre équipe.</p>
    </td> 
   </tr> 

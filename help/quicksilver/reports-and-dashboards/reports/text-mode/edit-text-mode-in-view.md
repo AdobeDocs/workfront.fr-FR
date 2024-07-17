@@ -9,7 +9,7 @@ exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
 source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -39,8 +39,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard </p>
-   <p>Actuel : formule </p> </td> 
+   <td> <p>Nouvelle : standard </p>
+   <p>Actuelle : formule </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
-Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,12 +78,12 @@ La modification d’une vue en mode texte est identique pour les rapports et les
 
 Pour plus d’informations sur la création de vues, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-Pour plus d’informations sur la création d’un rapport, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Pour plus d’informations sur la création d’un rapport, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Utilisez l’une des méthodes suivantes :
 
-   1. Pour accéder à la vue depuis un rapport, accédez au rapport, puis cliquez sur **Actions de rapport** > **Modifier** > **Colonnes (affichage)** .
-   1. Pour accéder à la vue depuis une liste, accédez à la liste et à la **Affichage** dans le menu déroulant, placez le pointeur de la souris sur la vue à modifier, puis cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png).
+   1. Pour accéder à la vue à partir d’un rapport, accédez au rapport, puis cliquez sur l’onglet **Actions de rapport** > **Modifier** > **Colonnes (vue)**.
+   1. Pour accéder à la vue à partir d’une liste, accédez à la liste et, dans le menu déroulant **Afficher**, placez le pointeur de la souris sur la vue à modifier, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
 
       Le créateur de vues s’ouvre.
 
@@ -91,7 +91,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Création d’
 
    Ou
 
-   Sélectionnez la variable **Colonnes (affichage)** du créateur de rapports, puis sélectionnez une colonne.
+   Sélectionnez l’onglet **Colonnes (vues)** du créateur de rapports, puis sélectionnez une colonne.
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Création d’
 
    >[!NOTE]
    >
-   >Lorsque vous modifiez une colonne en mode texte, Workfront ajoute la variable `textmode=true` ligne de code vers la colonne . Cela indique que la colonne est modifiée en mode texte.
+   >Lorsque vous modifiez une colonne en mode texte, Workfront ajoute la ligne de code `textmode=true` à la colonne. Cela indique que la colonne est modifiée en mode texte.
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
@@ -201,7 +201,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Création d’
        </div>
 
    <div>
-      La variable <code>aggregator. </code>les lignes peuvent contenir un <code>valuefield </code>ou <code>valueexpression</code>.
+      Les <code>aggregator. </code> lignes peuvent contenir un <code>valuefield </code> ou un <code>valueexpression</code>.
        </div> </td> 
      </tr> 
     </tbody> 

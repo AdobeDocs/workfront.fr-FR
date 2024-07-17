@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Copier un projet
-description: Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vous ne pouvez copier qu’un seul projet à la fois. Vous ne pouvez pas copier des projets en bloc.
+description: Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vous pouvez copier un seul projet à la fois. Vous ne pouvez pas copier des projets en bloc.
 author: Alina
 feature: Projects, Work Management
 role: User
@@ -10,7 +10,7 @@ exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 5%
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vous ne pouvez copier qu’un seul projet à la fois. Vous ne pouvez pas copier des projets en bloc.
+Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vous pouvez copier un seul projet à la fois. Vous ne pouvez pas copier des projets en bloc.
 
 >[!IMPORTANT]
 >
 >Les éléments suivants ne sont jamais copiés d’un projet existant vers un nouveau :
 >
->* Événements
+>* Problèmes
 >* Taux de facturation
 >* Enregistrements de facturation
 >* Notes
@@ -39,14 +39,14 @@ Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vo
 >* Tâches
 >* Modèle
 >* Risques
->* Informations sur la configuration de la file d’attente
+>* Informations sur la configuration de la file
 >* Portfolio et programme
 >* Carte de score
 >* Informations par défaut sur la tâche (Processus d’approbation par défaut de la tâche, Forms personnalisé par défaut de la tâche)
 >
-> Les dates des tâches d’origine sur la copie des projets dans le nouveau projet. Vous devez modifier la date de début ou de fin du projet (en fonction de son mode de planification) pour mettre à jour les dates des tâches. Les contraintes de tâche peuvent vous empêcher de modifier les dates du projet.
+> Les dates des tâches d’origine sur la copie des projets dans le nouveau projet. Vous devez modifier la date de début ou de fin du projet (selon son mode de planification) pour mettre à jour les dates des tâches. Les contraintes de tâche peuvent vous empêcher de modifier les dates du projet.
 
-## Exigences d’accès
+## Conditions d’accès
 
 <!-- drafted for P&P:
 <table style="table-layout:auto"> 
@@ -77,34 +77,34 @@ Vous pouvez copier un projet plutôt que d’en créer un à partir de zéro. Vo
  </tbody> 
 </table>
 -->
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Formule Adobe Workfront*</p> </td> 
-   <td>Tous</td> 
+   <td> <p>Forfait Adobe Workfront*</p> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td> <p>Licence Adobe Workfront*</p> </td> 
+   <td> <p>Licence Adobe Workfront*</p> </td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Paramétrages du niveau d'accès*</strong> </td> 
-   <td> <p>Modifier l’accès aux projets avec la possibilité de créer <span>et Copier</span> projects</p> <p><b>NOTE</b>
+   <td><strong>Configurations des niveaux d’accès*</strong> </td> 
+   <td> <p>Modifier l’accès aux projets avec la possibilité de créer des projets <span>et de copier</span></p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Autorisations d’objet</strong> </p> </td> 
-   <td> <p>Affichage des autorisations ou supérieures au projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p><strong>Autorisations d’objets</strong> </p> </td> 
+   <td> <p>Affichage des autorisations ou supérieures au projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Copier un seul projet
 
@@ -112,13 +112,13 @@ La copie d’un projet copie également certaines informations du projet d’ori
 
 Pour copier un projet :
 
-1. Accédez au projet à copier, puis cliquez sur le bouton **Plus** icon ![](assets/qs-more-menu.png) à droite du nom du projet
+1. Accédez au projet que vous souhaitez copier, puis cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) située à droite du nom du projet.
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Ou
 
-   Accédez à une liste de projets ou à un rapport et sélectionnez un projet, puis cliquez sur le bouton **Plus** icon ![](assets/qs-more-menu.png) en haut de la liste.
+   Accédez à une liste de projets ou à un rapport et sélectionnez un projet, puis cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) en haut de la liste.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
@@ -130,9 +130,9 @@ Pour copier un projet :
 
    ![](assets/copy-project-box-nwe-350x276.png)
 
-1. Sélectionnez la **État** pour le nouveau projet.
+1. Sélectionnez l’ **état** pour le nouveau projet.
 
-   Par défaut, la variable **État** correspond à celui du projet d’origine.
+   Par défaut, le **Statut** correspond à celui du projet d’origine.
 
 1. (Facultatif) Désélectionnez les éléments que vous ne souhaitez pas copier dans le nouveau projet. Le tableau suivant décrit ce qui se passe lorsque vous désélectionnez les éléments :
 
@@ -145,7 +145,7 @@ Pour copier un projet :
       <td role="rowheader">Sélectionner tout</td> 
       <td> <p>Sélectionne toutes les options et efface tous les champs et objets répertoriés dans le nouveau projet.</p> <p><b>CONSEIL</b>
 
-   Désélection <strong>Tout sélectionner</strong> désélectionne tous les éléments. </p> </td>
+   La désélection de <strong>Select all</strong> désélectionne tous les éléments. </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Affectations</td> 
@@ -183,7 +183,7 @@ Pour copier un projet :
 
 <b>NOTE</b>
 
-Les heures budgétées à l’aide du planificateur de scénario ne sont jamais copiées vers le nouveau projet, car ce dernier n’est pas lié à une initiative dans le planificateur de scénario. Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget des ressources dans l’analyse de cas à l’aide du planificateur de scénario</a>
+Les heures budgétées à l’aide du planificateur de scénario ne sont jamais copiées vers le nouveau projet, car ce dernier n’est pas lié à une initiative dans le planificateur de scénario. Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Ressources budgétaires dans l’analyse de cas à l’aide du planificateur de scénario</a>
 </tr></td>
     <tr> 
       <td role="rowheader">Informations financières</td> 
@@ -192,7 +192,7 @@ Les heures budgétées à l’aide du planificateur de scénario ne sont jamais 
         <li>Sous-onglet Finance du projet</li> 
         <li> Avantages prévus dans l’analyse de cas</li> 
         <li>Informations financières de toutes les tâches<br></li> 
-       </ul> <p>Pour plus d’informations sur le sous-onglet Finance de projet, voir <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gestion des informations dans la zone Finance du projet</a>.</p> </td> 
+       </ul> <p>Pour plus d’informations sur le sous-onglet Finance du projet, voir <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Gérer les informations dans la zone Finance du projet</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Processus d'approbation</td> 

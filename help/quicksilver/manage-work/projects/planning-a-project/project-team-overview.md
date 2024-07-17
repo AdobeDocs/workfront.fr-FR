@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
-title: Présentation de l’équipe de projet
+title: Vue d’ensemble de l’équipe d’un projet
 description: Les utilisateurs associés à un projet dans une certaine capacité forment l’équipe du projet. Les utilisateurs répertoriés sous la zone Personnes d’un projet sont les utilisateurs qui constituent l’équipe du projet.
 author: Alina
 feature: Work Management
@@ -10,11 +10,11 @@ exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
 source-git-commit: 1b2180fd33da153c7f8b698cd17df2eb10669ce9
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Présentation de l’équipe de projet
+# Vue d’ensemble de l’équipe d’un projet
 
 Les utilisateurs associés à un projet dans une certaine capacité forment l’équipe du projet. Les utilisateurs répertoriés sous la zone Personnes d’un projet sont les utilisateurs qui constituent l’équipe du projet. Par exemple, les utilisateurs qui sont affectés au projet ou le propriétaire du projet font partie de l’équipe du projet.
 
@@ -26,7 +26,7 @@ Lorsque vous ajoutez manuellement des utilisateurs à l’équipe de projet, ils
 
 ## Notifications aux membres de l’équipe de projet
 
-Selon les notifications par e-mail activées par votre administrateur Adobe Workfront, les utilisateurs d’une équipe de projet sont informés de diverses actions sur un projet. Pour plus d’informations sur l’activation des notifications par courrier électronique, voir [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Selon les notifications par e-mail activées par votre administrateur Adobe Workfront, les utilisateurs d’une équipe de projet sont informés de diverses actions sur un projet. Pour plus d&#39;informations sur l&#39;activation des notifications par e-mail, voir [Configuration des notifications d&#39;événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 >[!NOTE]
 >
@@ -39,9 +39,9 @@ Pour utiliser les approbations basées sur les rôles sur un projet, les utilisa
 Pour plus d’informations sur l’ajout d’un utilisateur à l’équipe de projet et sur l’affectation d’un rôle de tâche, reportez-vous aux articles suivants :
 
 * [Gérer l’équipe de projet](../../../manage-work/projects/planning-a-project/manage-project-team.md)
-* [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+* [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
-Si vous ne souhaitez pas que l’utilisateur soit membre de l’équipe du projet pour les approbations basées sur les rôles, vous pouvez le contrôler dans les paramètres d’approbation. Pour plus d’informations, voir [Configuration des paramètres d’approbation globaux](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+Si vous ne souhaitez pas que l’utilisateur soit membre de l’équipe du projet pour les approbations basées sur les rôles, vous pouvez le contrôler dans les paramètres d’approbation. Pour plus d’informations, voir [Configuration des paramètres d’approbation globale](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
 ## Filtre Projets actifs
 

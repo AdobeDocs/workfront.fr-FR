@@ -19,7 +19,7 @@ Votre entreprise doit disposer des éléments suivants pour utiliser les fonctio
 
 * Pour le plan actuel et la structure de licence :
 
-   * A Pro ou version ultérieure [Formule Adobe Workfront](https://www.workfront.com/plans).
+   * Un [forfait Adobe Workfront](https://www.workfront.com/plans?lang=fr) Pro ou supérieur.
    * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
 
 * Pour le nouveau plan et la nouvelle structure de licence :
@@ -32,7 +32,7 @@ Votre entreprise doit disposer des éléments suivants pour utiliser les fonctio
 
 Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
 
-Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Pour plus d’informations sur l’accès aux objectifs Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 

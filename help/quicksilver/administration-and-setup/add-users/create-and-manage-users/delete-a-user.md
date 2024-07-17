@@ -1,5 +1,5 @@
 ---
-title: Suppression d’utilisateurs
+title: Supprimer des utilisateurs et utilisatrices
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -11,11 +11,11 @@ exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
-# Suppression d’utilisateurs
+# Supprimer des utilisateurs et utilisatrices
 
 Lorsqu’un utilisateur quitte votre entreprise, vous pouvez le supprimer d’Adobe Workfront.
 
@@ -33,28 +33,28 @@ Lorsqu’un utilisateur quitte votre entreprise, vous pouvez le supprimer d’Ad
 >
 -->
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez disposer de l’une des options suivantes :</p> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>. </p> </li> 
-     <li> <p><b>Utilisateurs</b> paramètre de votre niveau d’accès configuré sur <b>Modifier</b> accès, avec <b>Créer</b> et au moins l’une des deux <b>Administration des utilisateurs</b> options activées sous <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>de ces deux options, si Utilisateur <b>Administration (utilisateurs de groupe)</b> est activé, vous devez être administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> <p>Pour plus d’informations sur la variable <b>Utilisateurs</b> paramétrer un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</p> </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont l’utilisateur est membre.</p> <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Les étapes de cet article doivent être les suivantes :
 
 La désactivation d’un utilisateur entraîne les événements suivants :
 
-* Supprime les licences de l’utilisateur pour Workfront et Workfront BAT si le composant BAT Workfront est associé à votre compte Workfront. Pour plus d’informations sur le BAT Workfront, voir [Bon à tirer Workfront : index de l’article](../../../workfront-proof/workfront-proof.md).
+* Supprime les licences de l’utilisateur pour Workfront et Workfront Proof si le composant Workfront Proof est associé à votre compte Workfront. Pour plus d’informations sur Workfront Proof, voir [Workfront Proof : article index](../../../workfront-proof/workfront-proof.md).
 * L’utilisateur ne peut plus se voir attribuer une tâche.
 * L’utilisateur ne peut plus être ajouté aux mises à jour.
 * L’utilisateur ne peut plus être ajouté à des équipes ou à des groupes.
@@ -76,8 +76,8 @@ La désactivation d’un utilisateur entraîne les événements suivants :
 
      >[!NOTE]
      >
-     >Si vous désactivez un utilisateur et ne pouvez plus afficher les rapports ou les tableaux de bord associés à un utilisateur, vous devrez peut-être mettre à jour la variable **Exécutez ce rapport avec les droits d’accès de :** champ .\
-     >Pour en savoir plus, voir la section [Pourquoi ne puis-je pas accéder à un rapport détenu par un utilisateur désactivé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de la [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+     >Si vous désactivez un utilisateur et ne pouvez plus afficher les rapports ou les tableaux de bord associés à un utilisateur, vous devrez peut-être mettre à jour le champ **Exécuter ce rapport avec les droits d’accès de :** .\
+     >Pour en savoir plus, consultez la section [Pourquoi ne puis-je pas accéder à un rapport détenu par un utilisateur désactivé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de l’article [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) .
 
    * Documents
    * Mises à jour
@@ -87,7 +87,7 @@ La désactivation d’un utilisateur entraîne les événements suivants :
 
 La suppression d’un utilisateur entraîne les événements suivants :
 
-* Supprime les licences de l’utilisateur pour Workfront et Workfront BAT, si le composant BAT Workfront est associé à votre compte Workfront. Pour plus d’informations sur le BAT Workfront, voir [Bon à tirer Workfront : index de l’article](../../../workfront-proof/workfront-proof.md).
+* Supprime les licences de l’utilisateur pour Workfront et Workfront Proof, si le composant Workfront Proof est associé à votre compte Workfront. Pour plus d’informations sur Workfront Proof, voir [Workfront Proof : article index](../../../workfront-proof/workfront-proof.md).
 * L’utilisateur ne peut plus se voir attribuer une tâche.
 * L’utilisateur ne peut plus être ajouté aux mises à jour.
 * L’utilisateur ne peut plus être ajouté à des équipes ou à des groupes.
@@ -100,7 +100,7 @@ La suppression d’un utilisateur entraîne les événements suivants :
      >[!NOTE]
      >
      >Vous ne pouvez plus accéder aux sections personnalisées qui contenaient des tableaux de bord associés à l’utilisateur supprimé.\
-     >Pour en savoir plus, voir la section [Comment accéder à un tableau de bord contenant un rapport détenu par un utilisateur supprimé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) de la [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+     >Pour en savoir plus, consultez le [Comment accéder à un tableau de bord contenant un rapport détenu par un utilisateur supprimé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) de l’article [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) .
 
    * Mises à jour
    * Heures
@@ -118,10 +118,10 @@ Vous pouvez supprimer définitivement des utilisateurs un par un ou supprimer pl
 
 ## Suppression d’un ou plusieurs utilisateurs
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
-1. Cliquez sur **Utilisateurs**.
-1. Sélectionnez au moins un utilisateur à supprimer, puis cliquez sur le menu Plus . ![](assets/more-icon.png), puis cliquez sur **Supprimer**.
+1. Cliquez sur **Users**.
+1. Sélectionnez au moins un utilisateur à supprimer, cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Supprimer**.
 1. Dans la zone qui s’affiche, cliquez sur **Supprimer** pour confirmer la suppression.
 
    Le processus de suppression d’utilisateurs s’exécute en arrière-plan, de sorte que vous pouvez continuer à utiliser Workfront lorsque l’utilisateur ou les utilisateurs sont supprimés.

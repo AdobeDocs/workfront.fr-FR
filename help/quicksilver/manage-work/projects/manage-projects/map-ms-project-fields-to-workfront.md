@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Mappage des champs de projet Microsoft aux projets Adobe Workfront
+title: Mapper des champs Microsoft Project à des projets Adobe Workfront
 description: Les projets dans Adobe Workfront et Microsoft Project sont généralement compatibles. Cet article décrit comment les champs de projet les plus courants des deux applications se mappent les uns aux autres.
 author: Alina
 feature: Work Management
@@ -9,20 +9,20 @@ exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
 source-git-commit: c566eb094e96abca6073554433434822c567bc34
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Mappage des champs de projet Microsoft aux projets Adobe Workfront
+# Mapper des champs Microsoft Project à des projets Adobe Workfront
 
-Les projets dans Adobe Workfront et Microsoft Project sont généralement compatibles. Les deux applications permettent d’effectuer les opérations suivantes :
+Les projets dans Adobe Workfront et Microsoft Project sont généralement compatibles. Les deux applications vous permettent d’effectuer les opérations suivantes :
 
 * Exportation de projets à partir de Microsoft Project et importation dans Workfront
 * Exportez des projets à partir de Workfront et importez-les dans Microsoft Project. 
 
 Pour plus d’informations sur l’importation de projets de Microsoft Project dans Workfront, voir [Importation d’un projet à partir d’un projet Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-Pour plus d’informations sur l’exportation d’un projet à partir de Workfront pour l’importer dans Microsoft Project, voir [Exportation d’un projet vers un projet Microsoft](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
+Pour plus d’informations sur l’exportation d’un projet à partir de Workfront pour l’importer dans le projet Microsoft, voir [Exportation d’un projet vers le projet Microsoft](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
 
 Lors de ces importations de données, il est important de comprendre comment les informations se transforment d’une application à l’autre. La plupart du temps, vous devrez apporter des modifications manuelles au projet, une fois l’importation terminée. 
 
@@ -43,7 +43,7 @@ Lors de ces importations de données, il est important de comprendre comment les
 | Tâche % terminée | Tâche % terminée (en fonction des heures planifiées de la tâche) |
 | Début et fin planifiés | Dates de début et de fin planifiées |
 | Début et fin réels | Dates de début et de fin réelles |
-| Resource Name | Affectation de tâches |
+| Resource Name | Affectation de tâche |
 | Unités d&#39;affectation | Pourcentage d’affectation |
 | Note de tâche | Description de la tâche |
 | Tâche antérieure | Tâche antérieure |
@@ -57,10 +57,11 @@ Ces champs comprennent, sans s’y limiter, les éléments suivants :
 * Pièces jointes du document
 * Champs personnalisés (au niveau du projet ou de la tâche)
 * Notes Workfront
-* Événements
+* Problèmes
 * Un décalage négatif dans les tâches avec une relation de prédécesseur Début/Fin (les tâches sont importées sans retard)
 * Affectations
 * Contraintes de tâche
 
-   >[!NOTE]
-   Comme les contraintes ne correspondent pas entre le projet Microsoft et Workfront, assurez-vous qu’il existe des relations de prédécesseur entre les tâches. Dans le cas contraire, les dates de début et de fin planifiées des tâches peuvent ne pas être exactes dans le projet importé. 
+  >[!NOTE]
+  >
+  >Comme les contraintes ne correspondent pas entre le projet Microsoft et Workfront, assurez-vous qu’il existe des relations de prédécesseur entre les tâches. Dans le cas contraire, les dates de début et de fin planifiées des tâches peuvent ne pas être exactes dans le projet importé. 

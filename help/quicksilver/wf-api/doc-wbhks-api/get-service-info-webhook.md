@@ -11,12 +11,12 @@ exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Obtention d’informations sur le service (pas encore mis en oeuvre)
+# Obtenir des informations sur le service (pas encore implémenté)
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ GET /serviceInfo
 
 Aucun. En outre, les appels à ce point de terminaison ne doivent pas nécessiter d’authentification.
 
-## réponse
+## Réponse
 
 JSON contenant des informations sur ce service
 
@@ -76,7 +76,7 @@ JSON contenant des informations sur ce service
  </tbody> 
 </table>
 
-**Exemple :** `https://www.acme.com/api/serviceInfo`
+**Exemple :** `https://www.acme.com/api/serviceInfo`
 
 renvoie
 

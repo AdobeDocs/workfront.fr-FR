@@ -2,25 +2,25 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] Panoramas
-description: Lisez cet article pour en savoir plus sur les [!DNL Workfront Boards] inscription anticipée aux fonctionnalités.
+title: Inclusion anticipée des fonctionnalités pour les  [!DNL Adobe Workfront] panoramas
+description: Lisez cet article pour en savoir plus sur l’ [!DNL Workfront Boards] opt-in des fonctionnalités avancées.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
 source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] [!UICONTROL Panoramas]
+# Accord préalable pour les [!DNL Adobe Workfront] [!UICONTROL panoramas]
 
-Inclusion anticipée des fonctionnalités pour [!DNL Adobe Workfront] [!UICONTROL Panoramas] a été lancé en juillet 2022.
+L&#39;accord préalable pour la fonction [!DNL Adobe Workfront] [!UICONTROL Panoramas] a été lancé en juillet 2022.
 
-[!DNL Adobe Workfront] [!UICONTROL Panoramas] sont des outils flexibles qui permettent la collaboration des équipes en permettant l’accès à un panorama partagé contenant des colonnes et des cartes.
+[!DNL Adobe Workfront] [!UICONTROL Les panoramas] sont des outils flexibles qui permettent une collaboration entre les équipes en permettant l’accès à un panorama partagé qui contient des colonnes et des cartes.
 
-Pour obtenir des informations générales sur les panoramas, voir [[!UICONTROL Panoramas] aperçu](/help/quicksilver/agile/boards-overview.md).
+Pour obtenir des informations générales sur les panoramas, consultez la [[!UICONTROL présentation des panoramas]](/help/quicksilver/agile/boards-overview.md).
 
 ## Fonctionnalités
 
@@ -49,7 +49,7 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
    <td>Publié</td>
   </tr>
   <tr>
-   <td>Créer des cartes connectées à [!DNL Workfront] objet</td>
+   <td>Créer des cartes connectées à des objets [!DNL Workfront]</td>
    <td>Publié</td>
   </tr>
   <tr>
@@ -137,7 +137,7 @@ Le tableau suivant présente les principales fonctionnalités des panoramas ains
    <td>Publié</td>
   </tr>
   <tr>
-   <td>Personnalisation de l’affichage des champs sur une carte</td>
+   <td>Personnaliser l’affichage des champs sur une carte</td>
    <td>Publié</td>
   </tr>  
   <tr>
@@ -191,40 +191,40 @@ Toutes les organisations ont accès aux fonctions initiales des panoramas. La pa
 
 ### Inclusion
 
-Uniquement [!DNL Workfront] les administrateurs peuvent souscrire à des fonctionnalités initiales pour les panoramas. Lorsqu’une [!DNL Workfront] L’administrateur active les fonctionnalités anticipées, tous les utilisateurs de l’entreprise sont inscrits.
+Seuls les administrateurs [!DNL Workfront] peuvent souscrire à des fonctionnalités initiales pour les panoramas. Lorsqu’un administrateur [!DNL Workfront] active des fonctionnalités anticipées, tous les utilisateurs de l’entreprise sont inscrits.
 
 {{step1-to-boards}}
 
-1. Cliquez sur ![Inclusion anticipée des fonctionnalités](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Inclusion anticipée des fonctionnalités]) en haut de l’écran du tableau de bord.
+1. Cliquez sur ![ Opt-in de fonction anticipée](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Opt-in de fonction anticipée]) en haut de l’écran du tableau de bord.
 1. Cliquez sur **[!UICONTROL Activer]**.
 1. Commencez à utiliser les premières fonctionnalités des panoramas.
 
 ## Envoyer les commentaires
 
-1. Lors d’un panorama, cliquez sur l’icône **[!UICONTROL Commentaires]** bouton .
-1. Remplissez le formulaire, puis cliquez sur **[!UICONTROL Envoyer]**.
+1. Dans un panorama, cliquez sur le bouton **[!UICONTROL Commentaires]** .
+1. Remplissez le formulaire, puis cliquez sur **[!UICONTROL Submit]**.
 
 ## FAQ sur l’opt-in des premières fonctionnalités
 
 ### Comment savoir si mon entreprise a choisi les fonctionnalités initiales ?
 
-Contactez votre [!DNL Workfront] pour savoir s’ils ont activé des fonctionnalités anticipées pour les panoramas.
+Contactez votre administrateur [!DNL Workfront] pour savoir s’il a activé les fonctionnalités initiales des panoramas.
 
 ### Les fonctionnalités anticipées peuvent-elles être activées uniquement pour certains utilisateurs ?
 
-Lorsque la variable [!DNL Workfront] L’administrateur active les fonctions initiales pour les panoramas ; tous les utilisateurs de l’entreprise sont inscrits.
+Lorsque l’administrateur [!DNL Workfront] active des fonctionnalités anticipées pour les panoramas, tous les utilisateurs de l’entreprise sont inscrits.
 
-Toutefois, la variable [!DNL Workfront] l’administrateur peut masquer l’option Panoramas de la [!UICONTROL Menu Principal] pour des utilisateurs individuels ou des groupes d’utilisateurs avec un modèle de mise en page. Pour plus d’informations, voir [Personnalisez le [!UICONTROL Menu Principal] utilisation d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Cependant, l’administrateur [!DNL Workfront] peut masquer l’option Panoramas du [!UICONTROL menu principal] pour les utilisateurs individuels ou les groupes d’utilisateurs avec un modèle de mise en page. Pour plus d’informations, consultez la section [Personnaliser le [!UICONTROL Menu Principal] à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
->Cela n’empêche pas les utilisateurs d’accéder aux panoramas à l’aide d’une URL. Cela les empêche seulement de voir la variable [!DNL Boards] dans le [!UICONTROL Menu Principal].
+>Cela n’empêche pas les utilisateurs d’accéder aux panoramas à l’aide d’une URL. Cela les empêche seulement de voir l’option [!DNL Boards] dans le [!UICONTROL menu principal].
 
 ### Puis-je me désabonner des fonctionnalités initiales une fois que j’ai rejoint ?
 
-Uniquement [!DNL Workfront] les administrateurs peuvent se désabonner de la réception des fonctionnalités anticipées. Si une [!DNL Workfront] l’administrateur désactive les premières fonctionnalités, tous les utilisateurs de l’entreprise sont désinscrits.
+Seuls les administrateurs [!DNL Workfront] peuvent se désabonner de la réception des fonctionnalités initiales. Si un administrateur [!DNL Workfront] désactive les premières fonctionnalités, tous les utilisateurs de l’entreprise sont désinscrits.
 
 {{step1-to-boards}}
 
-1. Cliquez sur ![Activation de l’opt-in des fonctionnalités anticipées](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Activation de l’opt-in des fonctionnalités anticipées]) en haut de l’écran du tableau de bord.
+1. Cliquez sur ![Fonctionnalité d’opt-in anticipée activée](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Fonctionnalité d’opt-in anticipée activée]) en haut de l’écran du tableau de bord.
 1. Cliquez sur **[!UICONTROL Désactiver]**.

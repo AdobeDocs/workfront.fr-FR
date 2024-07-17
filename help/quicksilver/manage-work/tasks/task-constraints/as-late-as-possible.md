@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Présentation de la contrainte de tâche : Aussi Tard Que Possible'''
+title: "Présentation de la contrainte de tâche : aussi tard que possible"
 description: Dans la mesure du possible (ALAP), une contrainte de tâche Adobe Workfront est définie. Elle place le temps d’achèvement de la tâche aussi près que possible de la fin du projet.
 author: Alina
 feature: Work Management
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Présentation de la contrainte de tâche : Aussi Tard que possible
+# Présentation de la contrainte de tâche : aussi tard que possible
 
 Dans la mesure du possible (ALAP), une contrainte de tâche Adobe Workfront est définie. Elle place le temps d’achèvement de la tâche aussi près que possible de la fin du projet.
 
 L’utilisation de cette contrainte peut entraîner la replanification des tâches dépendantes ou précédentes.
 
-Pour plus d’informations sur les relations de prédécesseur, voir [Utilisation des prédécesseurs de tâches](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
+Pour plus d’informations sur les relations de prédécesseur, voir [Utilisation des prédécesseurs de tâche](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
 
 La contrainte par défaut est aussi tardive que possible si un projet utilise un mode de planification de la date de fin et que la valeur par défaut système ou groupe de la date de début d’une tâche est Basée sur la date planifiée du projet.
 
-Pour plus d’informations sur l’emplacement où définir la contrainte par défaut pour une nouvelle tâche, reportez-vous à la section [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Pour plus d’informations sur l’emplacement où définir la contrainte par défaut pour une nouvelle tâche, reportez-vous à la section [Configuration de la tâche à l’échelle du système et préférences de publication](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mise à jour de la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -57,17 +57,17 @@ La dernière contrainte Heure disponible diffère de la contrainte Dès que poss
 
 Dans ce cas :
 
-* **Dernière heure disponible :** L’utilisation de la dernière contrainte de temps disponible sur la tâche précédente donne la priorité à la contrainte flexible du successeur.
+* **Dernière heure disponible :** L’utilisation de la dernière contrainte de temps disponible sur la tâche du prédécesseur donne la priorité à la contrainte flexible du successeur.
 
-   **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la dernière contrainte de temps disponible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible du début du projet.
+  **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la contrainte de temps disponible la plus récente et la tâche B a la contrainte de temps aussi tôt que possible. Dans ce cas, la tâche A est planifiée aussi près que possible du début du projet.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Aussi Tard Que Possible :** Dans ce scénario, l’utilisation de la contrainte Aussi tard que possible sur la tâche du prédécesseur donne la priorité à la tâche du prédécesseur.
+* **Aussi tard que possible :** Dans ce scénario, l’utilisation de la contrainte Aussi tard que possible sur la tâche du prédécesseur donne la priorité à la tâche du prédécesseur.
 
-   **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la contrainte Dès que possible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible de la fin du projet.
+  **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la contrainte Aussi tardive que possible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible de la fin du projet.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
  
 

@@ -1,6 +1,6 @@
 ---
-title: 2.2.1 Autres améliorations
-description: 2.2.1 Autres améliorations
+title: Autres améliorations (version 22.1)
+description: Autres améliorations (version 22.1)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,11 +9,11 @@ exl-id: 761ad16f-0c6e-48c7-a3d3-49ebfa1694e5
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 2.2.1 Autres améliorations
+# Autres améliorations (version 22.1)
 
 Cette page décrit toutes les autres améliorations apportées à la version 22.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
 
@@ -25,7 +25,7 @@ in January 2022
 
 la semaine du 17 janvier 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, voir [Présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, consultez la [présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Ordre croissant par défaut de la date d’achèvement planifiée et possibilité de la regrouper par date de début planifiée dans la liste de travail à domicile
 
@@ -33,7 +33,7 @@ Afin de faciliter et d’accélérer la recherche des éléments qui requièrent
 
 Avant ces améliorations, vous ne pouviez regrouper vos éléments que par date d’achèvement prévue et par date de validation.
 
-Pour plus d’informations, voir [Afficher des éléments dans la liste des tâches de la zone Accueil](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Pour plus d’informations, voir [Afficher les éléments dans la liste de travail dans la zone d’accueil](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ## Ajoutez la zone Mes mises à jour pour tous les utilisateurs sous licence
 
@@ -61,9 +61,9 @@ Voici quelques-unes de ces mises à jour :
 * Le pied de page contenant les boutons de la feuille de temps est maintenant collant, de sorte que vous ayez toujours accès à l’enregistrement et à l’annulation sans faire défiler la page vers le bas. Nous avons également ajouté un nouveau bouton Retour vers le haut dans cette zone pour revenir rapidement en haut de la page.
 * Une nouvelle notification d’avertissement vous avertit désormais des modifications non enregistrées afin de vous empêcher de perdre des informations lorsque vous quittez la feuille de temps.
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d’informations, consultez les articles suivants :
 
-* [Présentation de la disposition de la feuille de calcul](../../../timesheets/timesheets/timesheet-layout.md)
+* [Comprendre la disposition de la feuille de temps](../../../timesheets/timesheets/timesheet-layout.md)
 * [Enregistrer des heures](../../../timesheets/create-and-manage-timesheets/log-time.md)
 
 ## Nouvelle barre d’outils pour les listes Utilisateurs

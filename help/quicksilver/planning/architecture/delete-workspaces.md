@@ -107,6 +107,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Type &quot;**delete**&quot; dans l’espace fourni, puis cliquez sur **Suppression définitive**. Ceci n’est pas sensible à la casse.
+1. Saisissez &quot;**delete**&quot; dans l’espace fourni, puis cliquez sur **Supprimer définitivement**. Ceci n’est pas sensible à la casse.
 
    L’espace de travail est supprimé de manière irréversible. Les types d’enregistrement, enregistrements, champs et vues qui leur sont associés sont également supprimés. <!--ensure this is right at or before GA-->

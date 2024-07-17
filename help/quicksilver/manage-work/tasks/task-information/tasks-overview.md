@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Présentation des tâches
+title: Vue d’ensemble de la tâche
 description: Une tâche est un élément de travail au sein d’un projet. Il représente une quantité finie de travail plus petite que le projet.
 author: Alina
 feature: Work Management
@@ -10,11 +10,11 @@ exl-id: 060918b2-8c3f-4f85-a8ac-bcd36141d071
 source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Présentation des tâches
+# Vue d’ensemble de la tâche
 
 <!-- Audited: 01/2024 -->
 
@@ -38,13 +38,13 @@ Vous pouvez ventiler une tâche plus volumineuse en plusieurs tâches plus petit
 
 Selon le mode d’achèvement du résumé du projet, vous pouvez peut-être terminer une tâche parent indépendamment de ses tâches enfants. Par défaut, vous ne pouvez pas terminer ou mettre à jour une tâche parent indépendamment de ses enfants.
 
-Pour plus d’informations sur le mode d’achèvement du résumé des projets, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+Pour plus d’informations sur le mode d’achèvement du résumé des projets, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Présentation des sous-tâches ou des tâches enfants
 
 Les tâches de sous-tâche ou les tâches enfants sont des tâches répertoriées sous une tâche parent. Elles influencent généralement la mise à jour et la résolution de la tâche parent.
 
-Pour plus d’informations sur les tâches parentes, voir [Présentation des tâches parents](#overview-of-parent-tasks) dans cet article.
+Pour plus d’informations sur les tâches parentes, voir [Présentation des tâches parentes](#overview-of-parent-tasks) dans cet article.
 
 Pour plus d’informations sur la création d’une tâche enfant, voir [Création de tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 

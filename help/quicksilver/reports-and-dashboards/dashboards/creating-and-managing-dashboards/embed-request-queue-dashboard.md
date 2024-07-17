@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Incorporation d’une file d’attente de requêtes dans un tableau de bord
+title: Intégrer une file d’attente des demandes dans un tableau de bord
 description: Vous pouvez incorporer une nouvelle file d’attente de requêtes dans un tableau de bord pour fournir un accès direct à la file d’attente de requêtes à vos utilisateurs, sans avoir à accéder à la zone Demandes .
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 1%
+source-wordcount: '1180'
+ht-degree: 11%
 
 ---
 
-# Incorporation d’une file d’attente de requêtes dans un tableau de bord
+# Intégrer une file d’attente des demandes dans un tableau de bord
 
 Vous pouvez incorporer une nouvelle file d’attente de requêtes dans un tableau de bord pour fournir un accès direct à la file d’attente de requêtes à vos utilisateurs, sans avoir à accéder à la zone Demandes . 
 
@@ -21,48 +21,48 @@ Par exemple, si vous disposez d’une file d’attente de demandes ouverte à l�
 
 Tout d’abord, vous devez obtenir une URL vers la file d’attente des demandes. Deuxièmement, vous pouvez incorporer l’URL dans un tableau de bord en ajoutant une page externe.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>Forfait Adobe Workfront*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
+   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice de Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gestion des autorisations pour le tableau de bord</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations en gestion pour le tableau de bord</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Conditions préalables
 
 Vous devez créer les deux éléments suivants avant d’incorporer une file d’attente de requêtes dans un tableau de bord :
 
-* **Le tableau de bord**: Pour plus d’informations sur la création de tableaux de bord, voir [Création d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
-* **File d’attente des demandes**: Pour plus d’informations sur la création de files d’attente de requête, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* **Le tableau de bord** : pour plus d’informations sur la création de tableaux de bord, voir [Création d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+* **La file d’attente des demandes** : pour plus d’informations sur la création de files d’attente des demandes, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## Obtention de l’URL de la file d’attente des demandes {#obtain-the-url-of-the-request-queue}
 
 Vous pouvez obtenir l’URL d’une file d’attente de demandes de plusieurs manières, en fonction de la partie de la file d’attente de demandes que vous souhaitez afficher aux utilisateurs lorsqu’ils y accèdent à partir d’un tableau de bord.
 
-* [Obtention d’un lien vers une rubrique de file d’attente spécifique avec possibilité de modifier le type de requête](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
-* [Obtention d’un lien vers une file d’attente de requêtes et possibilité de modifier le type de requête](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+* [Obtenez un lien vers une rubrique de file d’attente spécifique avec possibilité de modifier le type de requête](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+* [Obtenez un lien vers une file d’attente de demandes et la possibilité de modifier le type de demande](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
 * [Obtention d’un lien vers une file d’attente de requêtes sans possibilité de modifier le type de requête](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
 ### Obtention d’un lien vers une rubrique de file d’attente spécifique avec possibilité de modifier le type de requête {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
@@ -71,7 +71,7 @@ Lorsque vous partagez avec d’autres utilisateurs un lien vers une rubrique de 
 
 Les utilisateurs peuvent modifier le type de requête ou choisir une autre rubrique s’ils le souhaitent. La navigation de la zone Demandes s’affiche également.
 
-1. Cliquez sur le bouton **Menu Principal** > **Demandes** > **Nouvelle requête**.
+1. Cliquez sur le **menu principal** > **Demandes** > **Nouvelle demande**.
 1. Continuez à sélectionner les groupes de rubriques et les rubriques de la file d’attente jusqu’à ce que vous atteigniez la file d’attente que vous souhaitez partager sur le tableau de bord, si vous souhaitez partager une file d’attente spécifique. Pour plus d’informations sur l’envoi de requêtes, voir [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
    >[!TIP]
@@ -90,10 +90,10 @@ Lorsque vous partagez un lien vers un type de requête, le type de requête est 
 
 1. Accédez à un projet désigné comme une file d’attente de requêtes.
 
-   Pour plus d’informations sur la création d’une file d’attente de requêtes à partir d’un projet, accédez à [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Pour plus d’informations sur la création d’une file d’attente de requêtes à partir d’un projet, voir [Créer une file d’attente de requêtes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Accédez à **Détails de la file**.
-1. Copiez le code que vous trouverez dans la variable **URL d’accès direct** champ .
+1. Accédez à **Détails de la file d’attente**.
+1. Copiez le code que vous trouvez dans le champ **URL d’accès direct**.
 
    Le code doit ressembler à ce qui suit :
 
@@ -111,10 +111,10 @@ Lorsque vous partagez un lien vers un type de requête présélectionné, le typ
 
 1. Accédez à un projet désigné comme une file d’attente de requêtes.
 
-   Pour plus d’informations sur la création d’une file d’attente de requêtes à partir d’un projet, accédez à [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Pour plus d’informations sur la création d’une file d’attente de requêtes à partir d’un projet, voir [Créer une file d’attente de requêtes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Accédez à **Détails de la file**.
-1. Copiez le code que vous trouverez dans la variable **Code incorporé** champ .
+1. Accédez à **Détails de la file d’attente**.
+1. Copiez le code que vous trouvez dans le champ **Code incorporé**.
 
    Le code doit ressembler à ce qui suit :
 
@@ -126,7 +126,7 @@ Lorsque vous partagez un lien vers un type de requête présélectionné, le typ
 
    >[!TIP]
    >
-   >Vous pouvez ajouter une `<samp>iframe </samp>` lors de l’incorporation du code dans une application autre que Workfront.
+   >Vous pouvez ajouter une balise `<samp>iframe </samp>` lors de l’incorporation du code dans une application autre que Workfront.
 
    Il s’agit du lien vers la file d’attente des demandes associée au projet sélectionné. Le type de requête est présélectionné et ne peut pas être modifié.
 
@@ -134,25 +134,25 @@ Lorsque vous partagez un lien vers un type de requête présélectionné, le typ
 
    ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
-## Incorporation d’une file d’attente de requêtes dans un tableau de bord
+## Intégrer une file d’attente des demandes dans un tableau de bord
 
 Vous pouvez incorporer un lien vers la file d’attente des demandes ou vers une rubrique de la file d’attente imbriquée sous une file d’attente des demandes dans un tableau de bord pour donner aux utilisateurs un accès direct à la saisie des demandes.
 
-1. Obtenez une URL de file d’attente des demandes à l’aide de l’une des méthodes décrites dans la section [Obtention de l’URL de la file d’attente des demandes](#obtain-the-url-of-the-request-queue) de cet article.
-1. Cliquez sur le bouton **Menu Principal** > **Tableaux de bord** > **Nouveau tableau de bord**.
-1. Saisissez un **Nom** pour le tableau de bord. Champ obligatoire.
+1. Obtenez une URL de file d’attente de demandes à l’aide de l’une des méthodes décrites dans la section [Obtention de l’URL de la file d’attente de demandes](#obtain-the-url-of-the-request-queue) de cet article.
+1. Cliquez sur le **menu principal** > **Tableaux de bord** > **Nouveau tableau de bord**.
+1. Saisissez un **nom** pour le tableau de bord. Il s’agit d’un champ obligatoire.
 1. Cliquez sur **Ajouter une page externe**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
 
-1. Dans le **Ajouter une page externe** modifiez les champs suivants :
+1. Dans la zone **Ajouter une page externe**, modifiez les champs suivants :
 
-   * **Nom**: saisissez le nom de la file d’attente des demandes tel que vous souhaitez le voir apparaître dans le tableau de bord. Champ obligatoire.
+   * **Nom** : saisissez le nom de la file d’attente des demandes tel que vous souhaitez le voir apparaître dans le tableau de bord. Il s’agit d’un champ obligatoire.
 
-   * **Description**: saisissez une description de l’affichage de cette page externe. Ce champ n’est pas obligatoire et il est important uniquement à des fins de création de rapports. Il ne s’affiche pas dans le tableau de bord.
-   * **URL**: collez l’URL que vous avez obtenue à l’aide de l’une des méthodes décrites à l’étape 1.
+   * **Description** : entrez une description de l’affichage de cette page externe. Ce champ n’est pas obligatoire et il est important uniquement à des fins de création de rapports. Il ne s’affiche pas dans le tableau de bord.
+   * **URL** : collez l’URL que vous avez obtenue à l’aide de l’une des méthodes décrites à l’étape 1.
 
-      <!--   
+     <!--   
      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
      <MadCap:conditionalText data-mc-conditions="">   
      (NOTE: ensure this stays accurate)   
@@ -160,7 +160,7 @@ Vous pouvez incorporer un lien vers la file d’attente des demandes ou vers une
      </MadCap:conditionalText>   
      -->
 
-   * **Hauteur**: saisissez la hauteur de la page externe. Cela définit l’espace occupé par la page externe contenant la file d’attente des demandes sur le tableau de bord. Il s’agit d’un champ obligatoire dont la valeur par défaut est 500.
+   * **Hauteur** : saisissez la hauteur de la page externe. Cela définit l’espace occupé par la page externe contenant la file d’attente des demandes sur le tableau de bord. Il s’agit d’un champ obligatoire dont la valeur par défaut est 500.
 
 1. Cliquer sur **Enregistrer**.
 1. Cliquez sur **Enregistrer + Fermer**. 
@@ -169,7 +169,7 @@ Vous pouvez incorporer un lien vers la file d’attente des demandes ou vers une
 
    ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
 
-1. (Facultatif) Cliquez sur **Actions du tableau de bord**, puis **Modifier** pour ajouter des rapports, des calendriers ou d’autres pages externes au même tableau de bord.\
+1. (Facultatif) Cliquez sur **Actions du tableau de bord**, puis sur **Modifier** pour ajouter des rapports, des calendriers ou d’autres pages externes au même tableau de bord.\
    Pour plus d’informations sur l’ajout de composants à un tableau de bord, voir [Création d’un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
  

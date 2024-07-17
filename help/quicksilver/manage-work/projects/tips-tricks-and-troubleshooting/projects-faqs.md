@@ -20,13 +20,13 @@ Vous trouverez ci-dessous des questions fréquentes sur les projets.
 
 ### Réponse
 
-Pour utiliser les options d&#39;insertion, la liste des tâches doit être triée par nombre. Pour trier la colonne par nombre, cliquez sur **#** dans l’en-tête de colonne à gauche de **Task Name** pour utiliser la tâche par son numéro.
+Pour utiliser les options d&#39;insertion, la liste des tâches doit être triée par nombre. Pour trier la colonne par nombre, cliquez sur **#** dans l’en-tête de colonne à gauche de **Nom de la tâche** pour utiliser la tâche par nombre.
 
 ## Qu’est-ce que la date d’achèvement réelle ?
 
 ### Réponse
 
-La date d’achèvement réelle représente la date et l’heure auxquelles le travail est terminé. Pour plus d’informations, voir [Présentation du projet Date d’achèvement réelle](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+La date d’achèvement réelle représente la date et l’heure auxquelles le travail est terminé. Pour plus d’informations, voir [Présentation de la date d’achèvement réelle du projet](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 ## Pourquoi le bouton retrait / retrait est-il absent ?
 
@@ -51,7 +51,7 @@ Vous ne pouvez pas modifier l’état d’un projet pour qu’il se termine si v
 
 ### Réponse
 
-Si le mode d’exécution du projet est défini sur Automatique, une fois toutes les tâches et tous les problèmes terminés, l’état du projet passe automatiquement à Terminé et vous ne pouvez pas le modifier dans un autre état. Le mode d’achèvement du projet doit être défini sur Manuel pour pouvoir activer un projet complet. Pour plus d’informations, voir [L’état du projet ne passe pas de Terminé à Actif](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Si le mode d’exécution du projet est défini sur Automatique, une fois toutes les tâches et tous les problèmes terminés, l’état du projet passe automatiquement à Terminé et vous ne pouvez pas le modifier dans un autre état. Le mode d’achèvement du projet doit être défini sur Manuel pour pouvoir activer un projet complet. Pour plus d’informations, voir [L’état du projet ne passera pas de Terminé à Actuel](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
 ## Pourquoi ne puis-je pas ajouter un projet à un Portfolio alors que je dispose des autorisations appropriées pour le faire ?
 
@@ -62,10 +62,10 @@ Bien que je dispose des autorisations appropriées, le bouton Ajouter des projet
 Cela est dû au fait que l’état du Portfolio est inactif. Pour modifier le statut du Portfolio :
 
 1. Cliquez sur **Détails du Portfolio > Aperçu**.
-1. Modifiez la variable **État** to **Actif.**
+1. Remplacez **Status** par **Active.**
 
 1. Cliquer sur **Enregistrer**.\
-   La variable **Ajouter des projets** doit maintenant être visible sur la balise **Projets** .
+   Le bouton **Ajouter des projets** doit maintenant être visible dans l’onglet **Projets**.
 
 ## Quel accès reçoit un gestionnaire de ressources lorsqu’il est ajouté à un projet ?
 
@@ -79,7 +79,7 @@ Les gestionnaires de ressources reçoivent automatiquement l’accès Gérer aux
 
 Les états du projet changent en raison des états par défaut du Groupe. Lorsque vous ajoutez un groupe à un projet, la liste des états devient les états par défaut définis pour le groupe.
 
-Pour plus d’informations, voir l’article [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Pour plus d’informations, voir l’article [Créer ou modifier un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## En quoi consiste l’état du budget ?
 

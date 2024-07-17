@@ -54,13 +54,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Accédez à la page du document en cliquant sur le nom du document, puis sélectionnez la version du document pour laquelle vous souhaitez supprimer une approbation dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
 
-1. Sélectionner **Approbations** dans le volet de gauche.
+1. Sélectionnez **Validations** dans le volet de gauche.
 
-1. Passez la souris sur le nom de l’approbateur ou du réviseur que vous souhaitez supprimer, puis cliquez sur le bouton **Supprimer** icon ![](../assets/delete.png) qui apparaît après leur nom.
+1. Passez la souris sur le nom de l’approbateur ou du réviseur que vous souhaitez supprimer, puis cliquez sur l’icône **Supprimer** ![](../assets/delete.png) qui apparaît après leur nom.
 
    La demande d’approbation ou de révision est supprimée et l’approbateur reçoit une notification indiquant que sa validation n’est plus nécessaire. Leur accès au partage lié à l’approbation est également supprimé.
 
-1. (Facultatif) Pour rétrograder un approbateur vers un réviseur plutôt que de le supprimer entièrement, décochez la case **Approbateur** correspondant à leur nom.
+1. (Facultatif) Pour rétrograder un approbateur vers un réviseur plutôt que de le supprimer entièrement, décochez la case **Approbateur** en fonction de son nom.
 
 1. Répétez l’étape précédente pour supprimer tout approbateur ou réviseur supplémentaire.
 
@@ -72,10 +72,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Sélectionnez la version du document pour laquelle vous souhaitez supprimer un approbateur ou un réviseur dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le volet Résumé du document . Passez la souris sur le nom de l’approbateur ou du réviseur que vous souhaitez supprimer, puis cliquez sur le bouton **Supprimer** icon ![](../assets/delete.png) qui apparaît après leur nom.
+1. Faites défiler l’écran jusqu’à la section **Approbations** dans le volet Résumé du document. Passez la souris sur le nom de l’approbateur ou du réviseur que vous souhaitez supprimer, puis cliquez sur l’icône **Supprimer** ![](../assets/delete.png) qui apparaît après leur nom.
 
    La demande d’approbation ou de révision est supprimée et l’approbateur reçoit une notification indiquant que sa validation n’est plus nécessaire. Leur accès au partage lié à l’approbation est également supprimé.
 
-1. (Facultatif) Pour rétrograder un approbateur vers un réviseur plutôt que de le supprimer entièrement, décochez la case **Approbateur** correspondant à leur nom.
+1. (Facultatif) Pour rétrograder un approbateur vers un réviseur plutôt que de le supprimer entièrement, décochez la case **Approbateur** en fonction de son nom.
 
 1. Répétez l’étape précédente pour supprimer tout approbateur ou réviseur supplémentaire.

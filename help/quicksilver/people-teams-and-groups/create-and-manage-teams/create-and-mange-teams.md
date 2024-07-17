@@ -11,20 +11,20 @@ exl-id: a5bf6aee-e41f-44d8-a377-baeea6a0a911
 source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Création et gestion des équipes
+# Créer et gérer des équipes
 
-Cette section contient les articles suivants :
+Cette section contient les articles suivants :
 
 * [Présentation des équipes](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
-* [Création d’une équipe](../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
-* [Créer et gérer des équipes Agile](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
-* [Modification des paramètres de l’équipe](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
-* [Gérer les éléments sur lesquels votre équipe travaille](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-* [Désactivation d’une équipe](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
-* [Configurez la variable [!UICONTROL Terminé] bouton pour les tâches](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-* [Configurez la variable [!UICONTROL Terminé] bouton pour les problèmes](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-* [Remplacez la variable [!UICONTROL Travailler dessus] avec un bouton [!UICONTROL Début] button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+* [Créer une équipe](../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
+* [Créer et gérer des équipes agiles](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
+* [Modifier les paramètres de l’équipe](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
+* [Gérez sur quoi votre équipe travaille ](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
+* [Désactiver une équipe](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+* [Configurez le bouton [!UICONTROL Terminé] pour les tâches](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+* [Configurez le bouton [!UICONTROL Terminé] pour les problèmes](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+* [Remplacez le bouton [!UICONTROL Work On It] par un bouton [!UICONTROL Start]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

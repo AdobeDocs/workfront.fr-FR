@@ -27,7 +27,7 @@ Cet article décrit les différences entre les dates estimées et projections po
 
 Lorsque la tâche est créée pour la première fois, les dates prévues, prévues et estimées doivent généralement correspondre. Certaines exceptions existent. 
 
-Pour plus d’informations sur le projet, la tâche et les dates de publication dans Adobe Workfront, voir [Présentation des dates de projet, de tâche et de publication dans Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Pour plus d’informations sur les dates de projet, de tâche et de publication dans Adobe Workfront, voir [Présentation du projet, de la tâche et de la publication dans Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Présentation des dates prévues
 
@@ -89,7 +89,7 @@ La liste suivante répertorie plusieurs scénarios lorsque les dates prévues de
 
 * Lorsqu’une tâche n’a pas de Date de début réelle et que la tâche n’a pas de date de contrainte forcée :
 
-  *Date de début prévue = la prochaine date disponible dans le futur conforme au planning de travail*
+  *Date de début prévue = la prochaine date disponible dans le futur qui tombe dans la planification opérationnelle*
 
 * Lorsque la personne désignée met à jour la date de validation :
 
@@ -99,11 +99,11 @@ La liste suivante répertorie plusieurs scénarios lorsque les dates prévues de
 
 * Lorsque la date de validation de la tâche n’est pas mise à jour et que celle-ci est contrainte (à terminer le) pour la date d’achèvement planifiée qui se situe dans le futur :
 
-  *Date d’achèvement prévue = date de contrainte*
+  *Date d’achèvement prévue = Date de contrainte*
 
 * Lorsqu’une tâche ne dispose pas d’une date de validation mise à jour, d’une date de contrainte forcée à l’avenir ou qu’elle dispose d’une date de contrainte antérieure :
 
-  *Date d’achèvement prévue = calcul système de la date d’achèvement en fonction de la progression actuelle et du travail à effectuer.*
+  *Date d’achèvement prévue = calcul système de la date d’achèvement en fonction de la progression actuelle et du travail à faire*
 
 ### Comprendre quand les dates estimées sont mises à jour pour les tâches {#understand-when-the-estimated-dates-update-on-tasks}
 

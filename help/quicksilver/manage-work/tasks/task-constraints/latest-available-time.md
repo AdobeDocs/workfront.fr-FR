@@ -10,11 +10,11 @@ exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
 source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Présentation de la contrainte de tâche : Dernière heure disponible
+# Vue d’ensemble des contraintes de tâches : Dernière Heure Disponible
 
 La dernière heure disponible (LAT) est un type de contrainte de tâche dans Adobe Workfront.
 
@@ -24,7 +24,7 @@ Vous pouvez utiliser la contrainte LAT lorsque vous souhaitez planifier le débu
 
 Cette contrainte diffère dès que possible du fait qu’elle ne forcera pas les prédécesseurs ou les successeurs à être reprogrammés. En revanche, elle n’affecte que le planning de la tâche à laquelle elle est associée, en la définissant sur l’heure disponible la plus récente en fonction de sa relation avec d’autres tâches.
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mise à jour de la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -54,15 +54,15 @@ La dernière contrainte Heure disponible diffère de la contrainte Dès que poss
 
 Dans ce cas :
 
-* **Dernière heure disponible :** L’utilisation de la dernière contrainte de temps disponible sur la tâche précédente donne la priorité à la contrainte flexible du successeur.
+* **Dernière heure disponible :** L’utilisation de la dernière contrainte de temps disponible sur la tâche du prédécesseur donne la priorité à la contrainte flexible du successeur.
 
-  **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la dernière contrainte de temps disponible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible du début du projet.
+  **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la contrainte de temps disponible la plus récente et la tâche B a la contrainte de temps aussi tôt que possible. Dans ce cas, la tâche A est planifiée aussi près que possible du début du projet.
 
   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Aussi Tard Que Possible :** Dans ce scénario, l’utilisation de la contrainte Aussi tard que possible sur la tâche du prédécesseur donne la priorité à la tâche du prédécesseur.
+* **Aussi tard que possible :** Dans ce scénario, l’utilisation de la contrainte Aussi tard que possible sur la tâche du prédécesseur donne la priorité à la tâche du prédécesseur.
 
-  **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la contrainte Dès que possible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible de la fin du projet.
+  **Exemple :** Par exemple, la tâche A est un prédécesseur de la tâche B. La tâche A a la contrainte Aussi tardive que possible et la tâche B la contrainte Dès que possible. Dans ce cas, la tâche A est planifiée aussi près que possible de la fin du projet.
 
   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 

@@ -1,6 +1,6 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Ressources budgétaires dans l’analyse de cas
+title: Budgétiser les ressources dans l’analyse de rentabilité
 description: Dans le cadre de la planification des ressources, vous pouvez budgéter les rôles de tâche nécessaires pour terminer le travail dans un projet lorsque vous créez l’analyse de cas. Pour plus d’informations sur la création d’un cas d’entreprise, voir Création d’un cas d’entreprise pour un projet .
 author: Alina
 feature: Work Management
@@ -8,29 +8,29 @@ exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
 source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Ressources budgétaires dans l’analyse de cas
+# Budgétiser les ressources dans l’analyse de rentabilité
 
-Dans le cadre de la planification des ressources, vous pouvez budgéter les rôles de tâche nécessaires pour terminer le travail dans un projet lorsque vous créez l’analyse de cas. Pour plus d’informations sur la création d’un cas d’entreprise, voir [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Dans le cadre de la planification des ressources, vous pouvez budgéter les rôles de tâche nécessaires pour terminer le travail dans un projet lorsque vous créez l’analyse de cas. Pour plus d’informations sur la création d’un cas d’entreprise, voir [Création d’un cas d’entreprise pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!NOTE]
 >
->Les ressources de budget ne sont pas identiques aux ressources de planification d’un projet. Lorsque vous planifiez des ressources, vous estimez les rôles qui peuvent être nécessaires pour terminer le travail sur un projet. Pour réellement planifier ou affecter des utilisateurs au travail sur un projet, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>Les ressources de budget ne sont pas identiques aux ressources de planification d’un projet. Lorsque vous planifiez des ressources, vous estimez les rôles qui peuvent être nécessaires pour terminer le travail sur un projet. Pour réellement planifier ou affecter des utilisateurs au travail sur un projet, reportez-vous à la section [Gestion des affectations des utilisateurs dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 Vous devez associer des rôles de tâche au projet avant de pouvoir budgéter les ressources pour celui-ci. Vous trouverez ci-dessous plusieurs façons d’affecter des rôles de tâche à un projet :
 
 * Utilisez le planificateur de ressources pour appliquer des groupes de ressources aux rôles de tâche de projet et de budget.
 
-   Pour plus d’informations, voir [Budget des ressources dans l’analyse de cas à l’aide du planificateur de ressources](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  Pour plus d’informations, voir [Ressources de budget dans l’analyse de cas à l’aide du planificateur de ressources](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-* Utilisez le planificateur de scénario pour créer des initiatives avec les rôles de tâche requis et les lier au projet. Pour plus d’informations, voir [Budget des ressources dans l’analyse de cas à l’aide du planificateur de scénario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* Utilisez le planificateur de scénario pour créer des initiatives avec les rôles de tâche requis et les lier au projet. Pour plus d’informations, voir [Ressources de budget dans l’analyse de cas à l’aide du planificateur de scénario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
 
-   >[!NOTE]
-   >
-   >Le planificateur de scénario n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

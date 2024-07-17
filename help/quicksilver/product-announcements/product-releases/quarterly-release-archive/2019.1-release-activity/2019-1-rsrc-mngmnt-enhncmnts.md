@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: 2019.1 Améliorations de la gestion des ressources
+title: Améliorations de la gestion des ressources (version 2019.1)
 description: Cette page décrit toutes les améliorations de la gestion des ressources incluses dans la version 2019.1. Cette fonctionnalité est désormais disponible dans l’environnement de production.
 author: Luke
 feature: Product Announcements
@@ -10,15 +10,15 @@ exl-id: 6eed6023-96cc-45d7-8dae-a36d45e92068
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 2019.1 Améliorations de la gestion des ressources
+# Améliorations de la gestion des ressources (version 2019.1)
 
 Cette page décrit toutes les améliorations de la gestion des ressources incluses dans la version 2019.1. Cette fonctionnalité est désormais disponible dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2019.1, voir [Présentation de l’activité de la version 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2019.1, consultez la [présentation de l’activité de version 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## Mise à jour du filtre par défaut dans le planificateur de ressources
 
@@ -41,7 +41,7 @@ Pour plus d’informations sur l’application de filtres au planificateur de re
 
 ## Utilisation de caractères génériques pour les filtres du planificateur de ressources
 
-Vous pouvez désormais utiliser des caractères génériques lors de la création de filtres dans le planificateur de ressources. Par exemple, vous pouvez utiliser $$USER.ID pour filtrer les informations sur l’utilisateur connecté ou $$USER.companyID pour filtrer les informations sur tous les utilisateurs appartenant à la même société que l’utilisateur connecté. Pour obtenir la liste complète des variables basées sur l’utilisateur, reportez-vous à la section [Variables de filtre de caractères génériques basées sur l’utilisateur](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) dans [Variables de filtre génériques](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Vous pouvez désormais utiliser des caractères génériques lors de la création de filtres dans le planificateur de ressources. Par exemple, vous pouvez utiliser $$USER.ID pour filtrer les informations sur l’utilisateur connecté ou $$USER.companyID pour filtrer les informations sur tous les utilisateurs appartenant à la même société que l’utilisateur connecté. Pour obtenir une liste complète des variables basées sur l’utilisateur, reportez-vous à la section [ Variables de filtre de caractères génériques basées sur l’utilisateur](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) dans [ ](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 Auparavant, les caractères génériques n’étaient pas disponibles pour les filtres du planificateur de ressources.
 
@@ -59,7 +59,7 @@ Avant cette amélioration, vous ne pouviez utiliser que des variables de filtre 
 
 Pour plus d’informations sur le filtrage dans le planificateur de ressources, voir [Filtrage des informations dans le planificateur de ressources](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
-Pour plus d’informations sur les variables de filtre de caractères génériques, voir [Variables de filtre génériques](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Pour plus d’informations sur les variables de filtre générique, voir [Variables de filtre générique](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Options d’exportation pour la vue Rôle dans le planificateur de ressources
 

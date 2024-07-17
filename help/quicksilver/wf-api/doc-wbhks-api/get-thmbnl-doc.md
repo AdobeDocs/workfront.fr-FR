@@ -2,21 +2,21 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Obtention d’une miniature pour un document
-description: Obtention d’une miniature pour un document
+title: Obtenir une vignette pour un document
+description: Obtenir une vignette pour un document
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 31960689-1811-4ba7-a63d-0842caedf3ea
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 7%
+source-wordcount: '50'
+ht-degree: 42%
 
 ---
 
 
-# Obtention d’une miniature pour un document
+# Obtenir une vignette pour un document
 
 Renvoie les octets de miniature bruts d’un document.
 
@@ -32,7 +32,7 @@ GET /thumbnail
 | size  |  Largeur de la miniature. |
 
 
-## réponse
+## Réponse
 
 Octets de miniature bruts.
 

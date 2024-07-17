@@ -49,7 +49,7 @@ Lorsqu’une personne répond à un commentaire ou à une mise à jour système 
 >
 >Il n’est pas possible de répondre aux mises à jour du système dans l’onglet Activité du système. Toutes les réponses aux mises à jour système effectuées dans l’ancienne expérience de commentaires avant le 11 avril 2024 s’affichent en lecture seule.
 
-Cet article décrit comment répondre aux commentaires de la plupart des objets dans Workfront. Pour connaître les différences entre les sections Mises à jour de divers objets, voir [Présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Cet article décrit comment répondre aux commentaires de la plupart des objets dans Workfront. Pour connaître les différences entre les sections Mises à jour de divers objets, consultez la [présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Conditions d’accès
 

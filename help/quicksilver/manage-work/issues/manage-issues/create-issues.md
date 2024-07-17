@@ -11,7 +11,7 @@ exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
 source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
 source-wordcount: '1533'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -55,11 +55,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur à Projets et tâches</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur l’accès aux problèmes de votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a>. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>. </p> </td> 
+   <td> <p>Modifier l’accès aux problèmes</p> <p>Affichage ou accès supérieur à Projets et tâches</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur l’accès aux problèmes de votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Accorder l’accès aux problèmes</a>. Pour plus d’informations sur la façon dont un administrateur ou une administratrice de Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Contribuez à des autorisations supérieures ou égales avec la possibilité d’ajouter des problèmes à la tâche ou au projet dans lequel vous créez le problème.</p> <p> Pour plus d’informations sur l’octroi d’autorisations aux problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a></p> <p>Pour plus d’informations sur la demande d’autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations Contribute ou supérieures avec possibilité d’ajouter des problèmes à la tâche ou au projet dans lequel vous créez le problème</p> <p> Pour plus d’informations sur l’octroi d’autorisations pour les problèmes, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Partage d’un problème </a></p> <p>Pour plus d'informations sur la demande d'autorisations supplémentaires, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d'accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +76,7 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 Lorsque vous disposez des droits d’accès et des autorisations appropriés, vous pouvez créer des problèmes sur un projet ou une tâche. Cependant, voici quelques cas où vous risquez de ne pas être en mesure de créer des problèmes :
 
-* Votre administrateur Workfront ou un administrateur de groupe doit activer l’ajout de problèmes à un projet dont l’état est Terminé ou Mort dans la zone Préférences du projet. Pour plus d’informations sur la définition des préférences de projet, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Votre administrateur Workfront ou un administrateur de groupe doit activer l’ajout de problèmes à un projet dont l’état est Terminé ou Mort dans la zone Préférences du projet. Pour plus d’informations sur la définition des préférences de projet, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Vous ne pouvez pas ajouter de problèmes à un projet qui est en attente d’approbation.
 
 ## Préparation du formulaire New Issue
@@ -85,7 +85,7 @@ Votre entreprise doit avoir un processus bien défini pour savoir quand et comme
 
 Les champs correspondant aux nouveaux problèmes d’un projet sont définis dans la section Détails de la file d’attente du projet où les problèmes seront consignés. Pour plus d’informations sur la configuration de la section Détails de la file d’attente du projet, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Pour plus d’informations sur la création de problèmes en les envoyant à une file d’attente de requêtes, voir [Créer des problèmes en saisissant une nouvelle requête](#create-issues-by-entering-a-new-request) dans cet article.
+Pour plus d’informations sur la création de problèmes en les envoyant à une file d’attente de demandes, voir la section [Créer des problèmes en saisissant une nouvelle demande](#create-issues-by-entering-a-new-request) de cet article.
 
 ## Création de problèmes sur une tâche ou un projet à l’aide du bouton Nouveau problème
 
@@ -155,8 +155,8 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 Pour créer un problème sur une tâche ou un projet :
 
 1. Accédez à un projet dans lequel vous souhaitez créer le problème.
-1. (Facultatif) Si vous souhaitez consigner le problème pour une tâche, accédez au **Tâche** , puis cliquez sur le nom d’une tâche.
-1. Cliquez sur le bouton **Problèmes** .
+1. (Facultatif) Si vous souhaitez consigner le problème pour une tâche, accédez à la zone **Tâches**, puis cliquez sur le nom d’une tâche.
+1. Cliquez sur la section **Problèmes** .
 
    La liste des problèmes de projet s’affiche.
 
@@ -165,15 +165,15 @@ La boîte Nouveau numéro s’affiche.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
 
-1. (Conditionnel) Si le créateur du projet a créé des rubriques de file d’attente ou des groupes de rubriques sur le projet, ils sont ajoutés au nouveau formulaire de problème. Spécifiez la variable **Groupe de rubriques** ou le **Rubrique de la file d’attente** de votre nouveau problème. Les noms des groupes de rubriques et des rubriques de files d’attente ont été personnalisés en fonction de votre environnement.\
-   Pour plus d’informations sur la création de groupes de rubriques, voir [Création de groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Pour plus d’informations sur la création de rubriques de file d’attente, voir [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. (Conditionnel) Si le créateur du projet a créé des rubriques de file d’attente ou des groupes de rubriques sur le projet, ils sont ajoutés au nouveau formulaire de problème. Spécifiez le **groupe de rubriques** ou la **rubrique de file d’attente** de votre nouveau problème. Les noms des groupes de rubriques et des rubriques de files d’attente ont été personnalisés en fonction de votre environnement.\
+   Pour plus d’informations sur la création de groupes de rubriques, voir [Création de groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Pour plus d’informations sur la création de rubriques de files d’attente, consultez la section [Créer des rubriques de files d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    * Si une seule rubrique de file d’attente est définie sur le projet, elle s’affiche automatiquement.
    * Si le groupe de rubriques ne contient aucune rubrique de file d’attente ou aucun groupe de rubriques, rien n’est disponible dans la liste déroulante Groupe de rubriques .
 
-1. Ajoutez le nom du problème dans le **Objet** , puis ajoutez une **Description**.
+1. Ajoutez le nom du problème dans le champ **Objet**, puis ajoutez une **Description**.
 
-1. (Conditionnel) Si le créateur du projet a autorisé la variable **Type de requête** pour afficher le champ Nouveau problème dans le formulaire, sélectionnez le type de problème parmi les options suivantes :
+1. (Conditionnel) Si le créateur du projet a autorisé l’affichage du champ **Type de demande** sur le formulaire Nouveau problème, sélectionnez le type de problème parmi les options suivantes :
 
    * Rapport sur les bogues
    * Modifier l&#39;ordre
@@ -183,22 +183,22 @@ La boîte Nouveau numéro s’affiche.
 
    >[!TIP]
    >
-   >Les types de requête doivent être activés dans les détails de la file d’attente et lors de la création de la rubrique de la file d’attente pour s’afficher comme une sélection dans le formulaire Nouveau problème . Pour plus d’informations, voir les articles suivants :
-   >* [Création d’une file d’attente de requête](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Création de rubriques de file d’attente](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >Les types de requête doivent être activés dans les détails de la file d’attente et lors de la création de la rubrique de la file d’attente pour s’afficher comme une sélection dans le formulaire Nouveau problème . Pour plus d’informations, voir les articles suivants :
+   >* [Créer une file d’attente de requête](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >  * [Créer des rubriques de file d’attente](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
-1. Continuez à spécifier les champs disponibles dans le **Nouveau problème** formulaire. Pour plus d’informations sur les champs disponibles lorsque vous saisissez un nouveau problème, voir [Modification des problèmes](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Continuez à spécifier les champs disponibles dans le formulaire **Nouveau numéro**. Pour plus d’informations sur les champs disponibles lorsque vous saisissez un nouveau problème, voir [Modification des problèmes](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!IMPORTANT]
    >
    >Tous les champs relatifs aux problèmes ne sont pas disponibles dans le formulaire Nouveau numéro. Le créateur du projet active les champs disponibles lors de la création d’un problème lorsqu’il définit la zone Détails de la file d’attente du projet. Pour plus d’informations, voir [Création d’une file d’attente de requêtes](../../requests/create-and-manage-request-queues/create-request-queue.md).
 
 
-1. (Conditionnel) Si les rubriques de la file d’attente sont associées à un formulaire personnalisé, ce formulaire personnalisé s’affiche dans la variable **Nouveau problème** formulaire.\
+1. (Conditionnel) Si les rubriques de la file d’attente sont associées à un formulaire personnalisé, ce formulaire personnalisé s’affichera dans le formulaire **Nouveau numéro**.\
    Ou\
-   Si le projet est associé à un formulaire personnalisé de problème via la zone Détails de la file d’attente, le formulaire s’affiche dans la variable **Nouveau problème** formulaire, après les champs Workfront par défaut.
+   Si le projet est associé à un formulaire personnalisé de problème via la zone Détails de la file d’attente, le formulaire s’affiche dans le formulaire **Nouveau numéro**, après les champs Workfront par défaut.
 
-   Pour plus d’informations, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Pour plus d’informations, voir [Création d’une file d’attente de requêtes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. Cliquez sur **Soumettre**.
 
@@ -209,7 +209,7 @@ La boîte Nouveau numéro s’affiche.
 
 >[!IMPORTANT]
 >
->Le propriétaire du projet doit activer **Autoriser les utilisateurs à ajouter des problèmes en ligne** lorsque vous définissez les paramètres de problème du projet avant de pouvoir ajouter des problèmes en ligne au projet ou aux tâches. Pour plus d’informations sur la configuration des paramètres de problème sur un projet, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+>Le propriétaire du projet doit activer l’option **Autoriser les utilisateurs à ajouter des problèmes en ligne** lors de la définition des paramètres de problème pour le projet avant de pouvoir ajouter des problèmes en ligne au projet ou aux tâches. Pour plus d’informations sur la configuration des paramètres de problème sur un projet, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 >
 
 Lorsque vous souhaitez ajouter rapidement plusieurs problèmes, vous pouvez créer des problèmes pour une tâche ou un projet intégré, en les ajoutant à une liste de problèmes.
@@ -221,9 +221,9 @@ Lorsque vous souhaitez ajouter rapidement plusieurs problèmes, vous pouvez cré
 Pour créer des problèmes en ligne :
 
 1. Accédez à un projet dans lequel vous souhaitez créer le problème.
-1. (Facultatif) Si vous souhaitez consigner le problème pour une tâche, accédez au **Tâche** , puis cliquez sur le nom d’une tâche.
-1. Cliquez sur le bouton **Problèmes** dans le panneau de gauche.
-1. Cliquez sur **Ajout de problèmes** en bas de la liste des problèmes.
+1. (Facultatif) Si vous souhaitez consigner le problème pour une tâche, accédez à la section **Tâches** , puis cliquez sur le nom d’une tâche.
+1. Cliquez sur la section **Problèmes** dans le panneau de gauche.
+1. Cliquez sur **Ajouter d’autres problèmes** au bas de la liste des problèmes.
 
    Une nouvelle ligne est créée dans la liste des problèmes de la section Problèmes .
 
@@ -253,4 +253,4 @@ Vous pouvez désigner les projets comme des réceptacles pour les problèmes de 
 >
 >Les termes &quot;problème&quot; et &quot;demande&quot; sont interchangeables dans Workfront.
 
-Pour plus d’informations sur la configuration de projets en tant que files d’attente de demandes pour recevoir des problèmes, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). Pour plus d’informations sur l’envoi de requêtes, voir [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+Pour plus d’informations sur la configuration de projets en tant que files d’attente de requêtes pour recevoir des problèmes, voir [Création d’une file d’attente de requêtes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). Pour plus d’informations sur l’envoi de requêtes, voir [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).

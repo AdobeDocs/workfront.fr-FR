@@ -33,7 +33,7 @@ Vous pouvez supprimer des types d’enregistrement lorsqu’ils ne sont plus per
 
 Cependant, la suppression des types d’enregistrement supprime également toutes les informations associées aux types d’enregistrement. Pour plus d’informations, consultez la section [Remarques concernant la suppression de types d’enregistrement](#considerations-when-deleting-record-types) de cet article.
 
-Pour plus d’informations sur les types d’enregistrement, voir [Types d’enregistrement - Aperçu](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Pour plus d’informations sur les types d’enregistrement, voir [Présentation des types d’enregistrement](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -131,11 +131,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    L’espace de travail et les types d’enregistrement s’affichent.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Passez la souris sur la carte de type enregistrement, cliquez sur le menu Plus , puis **Supprimer**.
-   * Cliquez sur la carte correspondant au type d’enregistrement à supprimer. Dans la page du type d’enregistrement, cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Supprimer**.
+   * Passez la souris sur la carte de type enregistrement, cliquez sur le menu Plus, puis **Supprimer**.
+   * Cliquez sur la carte du type d’enregistrement que vous souhaitez supprimer, puis, dans la page du type d’enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom du type d’enregistrement, puis cliquez sur **Supprimer**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. Type **delete** dans la boîte de confirmation, puis cliquez sur **Suppression définitive**. Ceci n’est pas sensible à la casse.
+1. Saisissez **delete** dans la boîte de confirmation, puis cliquez sur **Supprimer définitivement**. Ceci n’est pas sensible à la casse.
 
    Le type d’enregistrement sélectionné, ainsi que leurs champs, enregistrements associés et vues, sont supprimés.

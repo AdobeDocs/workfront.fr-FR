@@ -9,7 +9,7 @@ exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez modifier des objectifs existants à partir de n’importe quelle pé
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -70,14 +70,14 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Observations relatives à la modification des objectifs
 
@@ -145,7 +145,7 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png), puis cliquez sur **Objectifs**.\
+1. Cliquez sur l&#39;icône **Menu principal** ![](assets/main-menu-icon.png), puis sur **Objectifs**.\
    Une liste d’objectifs s’affiche.
 1. Cliquez sur un objectif.\
    La page d’objectif s’affiche.
@@ -154,8 +154,8 @@ Editing goals differs depending on what environment you use.
 
 1. Pour modifier les informations de l’objectif, effectuez l’une des opérations suivantes :
    * Cliquez sur les champs qui s&#39;affichent dans l&#39;en-tête de l&#39;objectif pour les mettre à jour. Tous les champs de l’en-tête ne sont pas modifiables.
-   * Cliquez sur le bouton **Icône Plus** ![](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Modifier**.
-   * Cliquez sur **Détails de l’objectif** dans le panneau de gauche, puis cliquez sur l’icône **Icône Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit, puis cliquez sur **Tout modifier**. Commencez à mettre à jour les champs dans la section Détails de l’objectif .
+   * Cliquez sur l&#39;icône **Plus** ![](assets/more-icon.png) située à droite du nom de l&#39;objectif, puis cliquez sur **Modifier**.
+   * Cliquez sur **Détails de l’objectif** dans le panneau de gauche et cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit, puis sur **Modifier tout**. Commencez à mettre à jour les champs dans la section Détails de l’objectif .
 
      >[!IMPORTANT]
      >
@@ -164,28 +164,28 @@ Editing goals differs depending on what environment you use.
 1. (Conditionnel) Selon ce que vous avez sélectionné à l’étape précédente, mettez à jour les informations suivantes sur l’objectif :
 
    * Mettez à jour les informations suivantes dans l’en-tête de l’objectif, puis appuyez sur Entrée pour enregistrer vos modifications :
-      * **Nom de l’objectif**: cliquez sur le nom de l’objectif et commencez à saisir un nouveau nom.
-      * **Propriétaire**: cliquez sur le nom du propriétaire, puis commencez à saisir le nom d’un utilisateur, d’une équipe, d’un groupe ou de votre société, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Vous ne pouvez avoir qu&#39;un seul propriétaire pour un objectif.
-   * Mettez à jour les informations suivantes dans la zone Modifier l’objectif , puis cliquez sur **Enregistrer**:
+      * **Nom de l’objectif** : cliquez sur le nom de l’objectif et commencez à saisir un nouveau nom.
+      * **Propriétaire** : cliquez sur le nom du propriétaire, puis commencez à saisir le nom d’un utilisateur, d’une équipe, d’un groupe ou de votre société, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Vous ne pouvez avoir qu&#39;un seul propriétaire pour un objectif.
+   * Mettez à jour les informations suivantes dans la zone Modifier l’objectif, puis cliquez sur **Enregistrer** :
       * **Nom de l’objectif**
-      * **Période**: cliquez sur pour mettre à jour la période de l’objectif.\
+      * **Période** : cliquez pour mettre à jour la période de l’objectif.\
         Ou\
-        Sélectionner **Activation des dates personnalisées** pour spécifier des dates pour le **Début** et **Dates de fin**.
+        Sélectionnez **Activer les dates personnalisées** pour spécifier des dates pour les **dates de début** et **dates de fin** de l’objectif.
 
         >[!TIP]
         >
-        >Désélectionner **Activation des dates personnalisées** pour revenir à la période d’origine de l’objectif.
+        >Désélectionnez **Activer les dates personnalisées** pour revenir à la période d’origine de l’objectif.
 
       * **Propriétaire de l’objectif**
-      * **Description**: ajoutez ou mettez à jour des informations sur l’objectif.
-   * Mettez à jour ou passez en revue les informations dans la section Détails de l’objectif . Pour plus d’informations, voir [Mise à jour des objectifs dans la section Détails des objectifs d’Adobe Workfront](../goal-management/update-goals-in-goal-details-panel.md).
+      * **Description** : ajoutez ou mettez à jour des informations sur l’objectif.
+   * Mettez à jour ou passez en revue les informations dans la section Détails de l’objectif . Pour plus d’informations, voir [Mise à jour des objectifs dans la section Détails de l’objectif dans les objectifs Adobe Workfront](../goal-management/update-goals-in-goal-details-panel.md).
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
 1. (Facultatif) Cliquez sur **Indicateurs de progression** dans le panneau de gauche pour ajouter des résultats, des activités ou des projets à l’objectif. L’ajout d’indicateurs de progression vous permet de suivre la progression de l’objectif.
-Pour plus d’informations, voir les articles suivants :
+Pour plus d’informations, consultez les articles suivants :
    * [Ajouter des activités aux objectifs dans Objectifs Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
-   * [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-results-to-goals.md).
-   * [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+   * [Ajoutez des résultats aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-results-to-goals.md).
+   * [ Ajoutez des projets aux objectifs dans les objectifs Adobe Workfront ](../results-and-activities/connect-projects-to-goals-overview.md).
 
 </div>

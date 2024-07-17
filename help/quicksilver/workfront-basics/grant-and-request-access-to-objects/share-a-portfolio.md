@@ -1,5 +1,5 @@
 ---
-title: Partage d’un portfolio
+title: Partager un portfolio
 description: Vous pouvez partager un portfolio avec d’autres utilisateurs si vous êtes autorisé à y accéder.
 author: Alina
 draft: Probably
@@ -8,28 +8,28 @@ exl-id: 79643202-2d91-4028-b673-c3443b50d898
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Partage d’un portfolio
+# Partager un portfolio
 
 Votre administrateur Adobe Workfront peut vous accorder l’accès à l’affichage ou à la modification de portfolios lors de l’attribution de votre niveau d’accès. Pour pouvoir modifier un portfolio, vous devez disposer d’une licence Plan . Pour plus d’informations, voir [Accorder l’accès aux portefeuilles](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
-Outre le niveau d’accès qui vous est accordé, vous pouvez également recevoir des autorisations pour afficher ou gérer des portefeuilles spécifiques de la part des utilisateurs qui peuvent les partager avec vous. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Outre le niveau d’accès qui vous est accordé, vous pouvez également recevoir des autorisations pour afficher ou gérer des portefeuilles spécifiques de la part des utilisateurs qui peuvent les partager avec vous. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Comment les niveaux d’accès et les autorisations fonctionnent ensemble](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Les autorisations sont spécifiques à un élément dans Workfront et définissent les actions que les utilisateurs peuvent entreprendre sur cet élément.
 
 ## Considérations sur le partage de portefeuilles
 
-Outre les considérations ci-dessous, voir [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Outre les considérations ci-dessous, reportez-vous également à la section [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
 >Un administrateur Workfront peut ajouter ou supprimer des autorisations à n’importe quel élément du système, pour tous les utilisateurs, sans en être le propriétaire.
 
 * Par défaut, le créateur d’un portfolio dispose des autorisations de gestion.
-* Vous pouvez partager un portfolio individuellement ou plusieurs portfolios en même temps. Le partage d’un portfolio est identique au partage d’autres objets dans Workfront. Pour plus d’informations, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Vous pouvez partager un portfolio individuellement ou plusieurs portfolios en même temps. Le partage d’un portfolio est identique au partage d’autres objets dans Workfront. Pour plus d’informations, voir [Partage d’un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Vous pouvez uniquement octroyer des autorisations Afficher ou Gérer sur les Portfolios.
 
@@ -54,12 +54,12 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
 | Modifier un champ personnalisé | ✓ |   |
 | Ajout ou suppression d’un programme&#42; | ✓ |   |
 | Ajout ou suppression d’un projet&#42; | ✓ |   |
-| Approbation d’un projet | ✓ |   |
+| Approuver un projet | ✓ |   |
 | Optimisation des Portfolios&#42; | ✓ |   |
-| Ajout d’un dossier de documents&#42; | ✓ | ✓ |
+| Ajouter un dossier de documents&#42; | ✓ | ✓ |
 | Ajout d’un document | ✓ | ✓ |
 | Mises à jour/commentaires | ✓ | ✓ |
 | Partager | ✓ | ✓ |
-| Partager à l’échelle du système |   | ✓ |
+| Partager sur le système |   | ✓ |
 
 *Ces autorisations sont contrôlées par le niveau d’accès et les autorisations sur d’autres objets, tels que des projets, des programmes, des documents.

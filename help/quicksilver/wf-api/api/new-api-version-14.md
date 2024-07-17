@@ -1,26 +1,26 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 14
-description: Adobe Workfront a publié l’API version 14 le 9 septembre 2021. L’API version 14 comprend les modifications suivantes à partir de la version 14.
+title: Nouveautés de la version 14 de l’API
+description: Adobe Workfront a publié la version 14 de l’API le vendredi 9 septembre 2021. La version 14 de l’API comprend les modifications suivantes par rapport à la version 14.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 1%
+source-wordcount: '891'
+ht-degree: 22%
 
 ---
 
-# Nouveautés de l’API version 14
+# Nouveautés de la version 14 de l’API
 
-Adobe Workfront a publié l’API version 14 le 9 septembre 2021. L’API version 14 comprend les modifications suivantes à partir de la version 14.
+Adobe Workfront a publié la version 14 de l’API le vendredi 9 septembre 2021. La version 14 de l’API comprend les modifications suivantes par rapport à la version 14.
 
 ## Ressources ajoutées
 
-Aucune ressource n’a été ajoutée pour l’API version 14.
+Aucune ressource n’a été ajoutée pour la version 14 de l’API.
 
 ## Ressources supprimées
 
@@ -43,13 +43,13 @@ Les ressources suivantes ont été modifiées pour l’API version 14.
 * [Affectation de ressources (RSALLO)](#resource-allocation-rsallo)
 * [Rôle (RÔLE)](#role-role)
 * [Modèle (TMPL)](#template-tmpl)
-* [Feuille de calcul (TSHET)](#timesheet-tshet)
+* [Timesheet (TSHET)](#timesheet-tshet)
 
 ### BillingRecord (BILL) {#billingrecord-bill}
 
 Un objet BillingRecord enregistre les recettes, les heures ou les dépenses qui peuvent être facturées. Ces informations peuvent être utilisées pour créer des factures dans un système comptable externe.
 
-Pour plus d’informations sur les enregistrements de facturation, voir [Créer des enregistrements de facturation](../../manage-work/projects/project-finances/create-billing-records.md).
+Pour plus d’informations sur les enregistrements de facturation, voir [Création d’enregistrements de facturation](../../manage-work/projects/project-finances/create-billing-records.md).
 
 L’objet BillingRecord a ajouté l’indicateur **DATA_EXTENDIBLE**.
 
@@ -61,34 +61,34 @@ L’objet BillingRecord a ajouté l’indicateur **DATA_EXTENDIBLE**.
    <td role="rowheader"> <p role="rowheader">Champs directs</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>categoryID</b> </p> <p>Ajout de . Une catégorie est un formulaire personnalisé. Ce paramètre a été ajouté pour prendre en charge la possibilité d’ajouter des Forms personnalisées aux objets BillingRecord.</p> </li> 
+     <li> <p><b>categoryID</b> </p> <p>Ajouté. Une catégorie est un formulaire personnalisé. Ce paramètre a été ajouté pour prendre en charge la possibilité d’ajouter des Forms personnalisées aux objets BillingRecord.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Champs de référence</td> 
    <td> 
     <ul> 
-     <li> <p><b>category</b> </p> <p>Ajout de . Une catégorie est un formulaire personnalisé. Ce paramètre a été ajouté pour prendre en charge la possibilité d’ajouter des formulaires personnalisés aux objets BillingRecord.</p> </li> 
+     <li> <p><b>catégorie</b> </p> <p>Ajouté. Une catégorie est un formulaire personnalisé. Ce paramètre a été ajouté pour prendre en charge la possibilité d’ajouter des formulaires personnalisés aux objets BillingRecord.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Champs de collection</td> 
    <td> 
     <ul> 
-     <li> <p><b>objectCategories</b> </p> <p>Ajout de . Il s’agit d’un ensemble de catégories (formulaires personnalisés) associés à l’objet BillingRecord.</p> </li> 
+     <li> <p><b>objectCategories</b> </p> <p>Ajouté. Il s’agit d’un ensemble de catégories (formulaires personnalisés) associés à l’objet BillingRecord.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Actions</td> 
    <td> 
     <ul> 
-     <li> <p><b>calculateDataExtension</b> </p> <p>Ajout de . Cette action recalcule les expressions dans les champs de formulaire personnalisés.</p> </li> 
+     <li> <p><b>calculateDataExtension</b> </p> <p>Ajouté. Cette action recalcule les expressions dans les champs de formulaire personnalisés.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Catégorie (CTGY) {#category-ctgy}
+### Category (CTGY) {#category-ctgy}
 
 Un objet Category est un formulaire personnalisé.
 
@@ -128,7 +128,7 @@ L’objet CustomEnum permet de convertir des codes d’état en texte lisible.
    <td role="rowheader">Requêtes</td> 
    <td> 
     <ul> 
-     <li> <p><b>getGroupStatuses</b> </p> <p>Ajout de . Cette requête permet de créer et de gérer des états pour les groupes et les sous-groupes. </p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md" class="MCXref xref">Gestion des états d’un groupe</a>.</p> </li> 
+     <li> <p><b>getGroupStatuses</b> </p> <p>Ajouté. Cette requête permet de créer et de gérer des états pour les groupes et les sous-groupes. </p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md" class="MCXref xref">Gestion des états de groupe</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -155,7 +155,7 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
      <li> <p><b>name</b> </p> <p>Ajout de la valeur possible :</p> 
       <ul> 
        <li> <p>Autoriser les utilisateurs à ajouter des images dans les mises à jour (mises à jour:images.toggle)</p> </li> 
-      </ul> <p>Ce paramètre prend en charge la possibilité d’ajouter des images aux mises à jour des éléments de travail. </p> <p>Pour plus d’informations, voir <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Mise à jour du travail</a>.</p> </li> 
+      </ul> <p>Ce paramètre prend en charge la possibilité d’ajouter des images aux mises à jour des éléments de travail. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Mettre à jour le travail</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -165,7 +165,7 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
 
 Un objet DocumentVersion représente une version spécifique d’un fichier (comme du matériel écrit, des images ou d’autres formes d’informations).
 
-Pour plus d’informations sur les versions de document, voir [Télécharger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
+Pour plus d’informations sur les versions de document, voir [Téléchargement d’une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ Pour plus d’informations sur les versions de document, voir [Télécharger une
    <td role="rowheader">Champs directs</td> 
    <td> 
     <ul> 
-     <li> <p><b>lastCallbackDate</b> </p> <p>Ajout de . Ce champ enregistre la date et l’heure du dernier rappel à partir du BAT Workfront, si la version est associée à un BAT.</p> </li> 
+     <li> <p><b>lastCallbackDate</b> </p> <p>Ajouté. Ce champ enregistre la date et l’heure du dernier rappel de Workfront Proof, si la version est associée à un BAT.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -195,7 +195,7 @@ Pour plus d’informations sur les groupes, voir [Groupes par rapport aux équip
    <td role="rowheader">Actions</td> 
    <td> 
     <ul> 
-     <li> <p><b>addSubgroups</b> </p> <p>Ajout de . Cette action utilise un tableau de groupID et ajoute ces groupes en tant que sous-groupes au groupe spécifié.</p> </li> 
+     <li> <p><b>addSubgroups</b> </p> <p>Ajouté. Cette action utilise un tableau de groupID et ajoute ces groupes en tant que sous-groupes au groupe spécifié.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -217,16 +217,16 @@ Pour plus d’informations sur le balisage dans les mises à jour, voir [Balisag
     <ul> 
      <li> <p><b>COUNT</b> </p> </li> 
      <li> <p><b>GET</b> </p> </li> 
-     <li> <p><b>RAPPORT</b> </p> </li> 
+     <li> <p><b>REPORT</b> </p> </li> 
      <li> <p><b>SEARCH</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Projet (PROJ) {#project-proj}
+### Project (PROJ) {#project-proj}
 
-Les projets sont des éléments de travail dans Workfront et sont une composante essentielle de la façon dont Workfront aide les personnes à travailler. Un objet Projet représente un groupe de tâches avec un objectif commun et spécifique.
+Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Project représente un groupe de tâches avec un objectif commun et spécifique.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -236,7 +236,7 @@ Les projets sont des éléments de travail dans Workfront et sont une composante
    <td role="rowheader">Actions</td> 
    <td> 
     <ul> 
-     <li> <p><b>updateBusinessCaseSource</b> </p> <p>Ajout de .</p> </li> 
+     <li> <p><b>updateBusinessCaseSource</b> </p> <p>Ajouté.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -244,7 +244,7 @@ Les projets sont des éléments de travail dans Workfront et sont une composante
 
 ### QueueDef (QUED) {#queuedef-qued}
 
-Un objet QueueDef représente une file d’attente, qui est un projet qui a été publié dans la zone Aide Desk pour permettre aux utilisateurs de lui envoyer des problèmes.
+Un objet QueueDef représente une file d’attente, à savoir un projet qui a été publié dans la zone Centre d’assistance pour permettre aux utilisateurs et utilisatrices d’y envoyer des problèmes.
 
 Pour plus d’informations sur les files d’attente de requête, voir [Création d’une file d’attente de requête](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -256,7 +256,7 @@ Pour plus d’informations sur les files d’attente de requête, voir [Créatio
    <td role="rowheader">Actions</td> 
    <td> 
     <ul> 
-     <li> <p><b>searchByPath</b> </p> <p>Ajout de . Cette action prend en charge la possibilité de rechercher des requêtes à l’aide du chemin d’accès par le biais de la file d’attente des requêtes et des groupes de rubriques.</p> <p>Pour plus d’informations sur la recherche de files d’attente de requêtes par chemin d’accès, voir <a href="../../manage-work/requests/create-requests/create-submit-requests.md#create-requests-in-the-web-app" class="MCXref xref">Création de requêtes et génération de brouillons dans l’application web Workfront</a> in <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Création et envoi de requêtes Adobe Workfront</a>.</p> </li> 
+     <li> <p><b>searchByPath</b> </p> <p>Ajouté. Cette action prend en charge la possibilité de rechercher des requêtes à l’aide du chemin d’accès par le biais de la file d’attente des requêtes et des groupes de rubriques.</p> <p>Pour plus d’informations sur la recherche des files d’attente de requêtes par chemin, voir <a href="../../manage-work/requests/create-requests/create-submit-requests.md#create-requests-in-the-web-app" class="MCXref xref">Création de requêtes et génération de brouillons dans l’application web Workfront</a> dans <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Création et envoi de requêtes Adobe Workfront</a>.</p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -282,7 +282,7 @@ Pour plus d’informations sur les rôles de tâche, voir [Présentation des rô
    <td role="rowheader">Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ajout de . Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets.</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ajouté. Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -295,7 +295,7 @@ Pour plus d’informations sur les rôles de tâche, voir [Présentation des rô
  </tbody> 
 </table>
 
-### Modèle (TMPL) {#template-tmpl}
+### Template (TMPL) {#template-tmpl}
 
 Un objet Template représente un modèle pour un projet. Les projets peuvent être créés à partir de modèles pour gagner du temps. Un modèle contient une équipe et des tâches qui seront copiées dans tout projet créé à partir du modèle.
 
@@ -307,14 +307,14 @@ Un objet Template représente un modèle pour un projet. Les projets peuvent êt
    <td role="rowheader">Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Ajout de . Ce champ a été ajouté pour prendre en charge la possibilité d’associer des groupes à des modèles.</p> <p style="font-weight: normal;">Pour plus d’informations, voir <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Modifier des modèles de projet</a>.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Ajouté. Ce champ a été ajouté pour prendre en charge la possibilité d’associer des groupes à des modèles.</p> <p style="font-weight: normal;">Pour plus d’informations, voir <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Modifier les modèles de projet</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Champs de référence</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupe</p> <p style="font-weight: normal;">Ajout de . Ce champ a été ajouté pour prendre en charge la possibilité d’associer des groupes à des modèles.</p> <p style="font-weight: normal;">Pour plus d’informations, voir <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Modifier des modèles de projet</a>.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupe</p> <p style="font-weight: normal;">Ajouté. Ce champ a été ajouté pour prendre en charge la possibilité d’associer des groupes à des modèles.</p> <p style="font-weight: normal;">Pour plus d’informations, voir <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Modifier les modèles de projet</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

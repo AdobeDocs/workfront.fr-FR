@@ -75,7 +75,7 @@ Vous pouvez également avoir un calcul différent pour le même champ, sur le no
 >
 >Les modifications apportées aux expressions calculées peuvent rendre la valeur du champ des objets obsolète. Pour vérifier que vous affichez toujours les calculs à jour dans ces champs, effectuez l’une des opérations suivantes :
 >
->* Après avoir enregistré un objet pour lequel vous avez modifié des données dans un formulaire personnalisé joint, cliquez sur l’icône Plus ![](assets/more-icon.png) sur la page principale de l’objet, puis Recalculer les expressions personnalisées.
+>* Après avoir enregistré un objet pour lequel vous avez modifié des données dans un formulaire personnalisé joint, cliquez sur l’icône Plus ![](assets/more-icon.png) sur la page principale de l’objet, puis sur Recalculer les expressions personnalisées.
 >* Sélectionnez l’option Recalculer les expressions personnalisées lors de l’édition d’objets en bloc.
 >* Sélectionnez l’option Mettre à jour les calculs précédents lorsque vous modifiez un champ personnalisé calculé sur un formulaire personnalisé.
 
@@ -96,7 +96,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 
    ![](assets/field-library.png)
 
-1. Utilisez la zone de recherche ou développez la variable **Calculé** pour localiser le champ calculé dont vous avez besoin, puis faites glisser le champ où vous souhaitez qu’il apparaisse dans le formulaire personnalisé.
+1. Utilisez la zone de recherche ou développez la section **Calculé** pour localiser le champ calculé dont vous avez besoin, puis faites glisser le champ où vous souhaitez qu’il apparaisse dans le formulaire personnalisé.
 
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres champs.
 
@@ -130,7 +130,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 1. Cliquez sur **Nouveau formulaire personnalisé**.
 1. Sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 
-1. Dans la partie gauche de l’écran, recherchez **Calculé** et faites-le glisser vers une section de la zone de travail.
+1. Sur le côté gauche de l’écran, recherchez **Calculé** et faites-le glisser vers une section du canevas.
 
    ![](assets/drag-field-to-section.png)
 
@@ -156,14 +156,14 @@ Pour réutiliser un champ personnalisé calculé existant :
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Format dans lequel vous souhaitez que les résultats du champ soient stockés et affichés.</p> <p>Si le champ sera utilisé dans les calculs mathématiques, utilisez toujours un <strong>Nombre</strong> ou <strong>Devise</strong> format. Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</p> 
-      <p><b>IMPORTANT</b>: avant de choisir un format, tenez compte du format correct pour le nouveau champ. Une fois le formulaire personnalisé enregistré, le champ de format ne peut plus être modifié. Et le choix d’un mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p>
+      <td> <p>Format dans lequel vous souhaitez que les résultats du champ soient stockés et affichés.</p> <p>Si le champ sera utilisé dans les calculs mathématiques, utilisez toujours un format <strong>Number</strong> ou <strong>Currency</strong> (Devise)). Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</p> 
+      <p><b>IMPORTANT</b> : avant de choisir un format, considérez le format correct pour le nouveau champ. Une fois le formulaire personnalisé enregistré, le champ de format ne peut plus être modifié. Et le choix d’un mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p>
       <p><strong>REMARQUE :</strong> Les champs calculés avec un format de devise ne doivent pas inclure de guillemets. (Par exemple, utilisez 800.00 et non "800.00".) L’utilisation de guillemets peut entraîner des conséquences inattendues en raison de nuances liées au formatage de la langue pour les types de devise.</p></td>
      </tr> 
     </tbody> 
    </table>
 
-1. Dans le **Calcul** , commencez à créer votre calcul :
+1. Dans la zone **Calcul**, commencez à créer votre calcul :
    1. Cliquez sur **Maximiser** pour ouvrir l’éditeur de calcul et créer votre calcul.</p>
 Un calcul commence généralement par une expression, suivie de parenthèses contenant les champs que vous souhaitez référencer lorsque le formulaire personnalisé est joint à un objet.
 
@@ -177,7 +177,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
       >
       >Actuellement, le système ne fait des suggestions que lorsque vous commencez à saisir le nom d’un champ que vous souhaitez référencer sur un objet auquel le formulaire personnalisé sera joint. Les champs de l’objet parent ne sont pas suggérés.
 
-      **Noms de champ encadrés avec accolades**
+      **Noms de champ entouré de accolades**
 
       * Si vous souhaitez que le calcul référence un champ intégré, le nom du champ doit être entouré de accolades.
 
@@ -185,15 +185,15 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         Les noms de champ sont sensibles à la casse et doivent apparaître dans le calcul exactement comme ils apparaissent dans le système Workfront.
 
-        Accédez au [Explorateur d’API Workfront](https://developer.adobe.com/workfront/api-explorer/) pour identifier les noms de champ qui peuvent être utilisés dans les calculs.
+        Accédez à l’[ explorateur d’API Workfront](https://developer.adobe.com/workfront/api-explorer/) pour identifier les noms de champ qui peuvent être utilisés dans les calculs.
 
       * Si vous souhaitez que le calcul référence un champ personnalisé, le nom du champ doit être entouré de accolades et précédé de `DE:` entre les crochets.
 
         Par exemple : `{DE:Profit}`
 
-        Le système répertorie tous les champs personnalisés que vous pouvez choisir lorsque vous saisissez `DE:`.
+        Le système répertorie tous les champs personnalisés que vous pouvez choisir lorsque vous tapez `DE:`.
 
-         * Si vous souhaitez que le calcul référence un champ qui extrait les données de la variable *parent* lorsque le formulaire personnalisé est associé à un objet, vous devez précéder le nom du champ du type d’objet de l’objet parent, également entre accolades.
+         * Si vous souhaitez que le calcul référence un champ qui extrait les données de l’objet *parent* lorsque le formulaire personnalisé est joint à un objet, vous devez précéder le nom du champ du type d’objet de l’objet parent, également entre accolades.
 
         Par exemple, si le formulaire personnalisé est configuré pour fonctionner avec des tâches et que vous souhaitez que le champ calcule le revenu réel de l’objet parent lorsque le formulaire est joint à une tâche, vous devez indiquer `Project` comme type d’objet du champ :
 
@@ -203,7 +203,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         `{project}.{DE:profit}`
 
-        **Séparez les éléments par des points.**
+        **Éléments distincts avec des points**
 
         Lorsque vous référencez un objet associé dans un champ personnalisé calculé, vous devez séparer les noms et les attributs des objets par des points.
 
@@ -223,7 +223,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         >[!NOTE]
         >
-        >La syntaxe d’un champ de saisie anticipée est légèrement différente de celle des autres types de champs, car vous devez ajouter `:name` à la fin.
+        >La syntaxe d’un champ de type est légèrement différente de celle des autres types de champs, car vous devez ajouter `:name` à la fin.
         >
         >Par exemple, pour référencer l’option sélectionnée dans un champ de type personnalisé nommé &quot;Responsable de l’exécution&quot;, saisissez :
         >
@@ -234,7 +234,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         Dans un formulaire personnalisé à plusieurs objets, les types d’objets sélectionnés doivent être compatibles avec au moins un champ référencé dans les champs personnalisés calculés du formulaire. Les champs non compatibles avec l’objet s’affichent sous la forme N/A.
 
-        Pour vous assurer que le champ calculé présente un résultat correct pour tous les types d’objets, vous devez utiliser `$$OBJCODE` pour définir un calcul pour chaque type d’objet.
+        Pour vous assurer que le champ calculé affiche un résultat correct pour tous les types d’objets, vous devez utiliser `$$OBJCODE` pour définir un calcul pour chaque type d’objet.
 
         >[!INFO]
         >
@@ -249,13 +249,13 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         >[!INFO]
         >
-        >**Exemple :** Bien qu’il n’existe pas de champ Attribué à : nom dans les projets, il existe un champ Propriétaire intégré (qui renseigne automatiquement le nom de la personne qui a créé le projet, sauf si quelqu’un modifie manuellement ce champ).
+        >**Exemple :** Bien qu’il n’existe pas de champ Attribué à : nom dans les projets, il existe un champ Propriétaire intégré (qui renseigne automatiquement le nom de la personne qui a créé le projet, sauf si quelqu’un le modifie manuellement).
         >
-        >Ainsi, dans votre champ personnalisé En charge , vous pouvez utiliser `$$OBJCODE` comme illustré ci-dessous pour faire référence au champ Propriétaire lorsque le formulaire personnalisé est joint à un projet, et au champ Affecté à : Nom lorsque le formulaire est joint à une tâche :
+        >Ainsi, dans votre champ personnalisé En charge , vous pouvez utiliser `$$OBJCODE` comme illustré ci-dessous pour référencer le champ Propriétaire lorsque le formulaire personnalisé est joint à un projet, et le champ Affecté à : Nom lorsque le formulaire est joint à une tâche :
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        Pour plus d’informations sur les variables telles que `$$OBJCODE,` see [Présentation des variables de filtre de caractères génériques](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        Pour plus d’informations sur les variables telles que `$$OBJCODE,`, voir [Présentation des variables de filtre générique](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
         **Mises à jour automatiques des champs personnalisés calculés**
 
@@ -271,7 +271,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
 +++
 
-   1. Cliquez dans la zone de texte de grande taille, puis cliquez sur **Expressions** et **Champs** qui sont disponibles pour les ajouter à votre calcul.
+   1. Cliquez dans la zone de texte de grande taille, puis cliquez sur **Expressions** et **Champs** disponibles pour les ajouter à votre calcul.
 
       Vous pouvez également commencer à saisir une expression ou un champ dans la zone de texte de grande taille, puis le sélectionner lors de son affichage. Chaque élément s’affiche avec un &quot;F&quot; pour le champ ou un &quot;E&quot; pour l’expression.
 
@@ -283,7 +283,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
       >
       >Vous pouvez effectuer l’une des opérations suivantes pour obtenir de l’aide sur votre calcul :
       > 
-      >* Passez la souris sur une expression de votre calcul pour afficher une description, un exemple illustrant son utilisation et un lien &quot;En savoir plus&quot; pour plus d’informations dans l’article. [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Passez la souris sur une expression de votre calcul pour afficher une description, un exemple montrant comment l’utiliser et un lien &quot;En savoir plus&quot; pour plus d’informations dans l’article [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* Utilisez le codage colorimétrique pour identifier les composants que vous avez ajoutés. Les expressions s’affichent en bleu et les champs en vert.
       >  ![](assets/colors-fields-expressions.jpg)
@@ -313,7 +313,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
      </tr> 
      <tr> 
       <td role="rowheader">Afficher la formule dans les instructions</td> 
-      <td>Laissez cette option activée si vous souhaitez que les utilisateurs qui remplissent le formulaire personnalisé voient la formule du champ lorsqu’ils survolent le champ. Pour plus d’informations, voir les informations sur <a href="#instructions" class="MCXref xref">Instructions</a> plus haut dans ce tableau.</td> 
+      <td>Laissez cette option activée si vous souhaitez que les utilisateurs qui remplissent le formulaire personnalisé voient la formule du champ lorsqu’ils survolent le champ. Pour plus d’informations, voir les informations sur <a href="#instructions" class="MCXref xref">Instructions</a> plus tôt dans ce tableau.</td> 
      </tr> 
     </tbody> 
    </table>

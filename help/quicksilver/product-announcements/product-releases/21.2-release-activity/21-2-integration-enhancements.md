@@ -2,7 +2,7 @@
 content-type: release-notes
 keywords: notes,trimestriel,mise à jour,version
 navigation-topic: 2021-2-release-activity
-title: 21.2 Améliorations de l’intégration
+title: Améliorations de l’intégration (version 21.2)
 description: Cette page décrit toutes les améliorations apportées à l’intégration avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
@@ -11,13 +11,13 @@ exl-id: 82279305-d758-4ab3-b77c-8e65a3d19a9f
 source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 21.2 Améliorations de l’intégration
+# Améliorations de l’intégration (version 21.2)
 
-Cette page décrit toutes les améliorations apportées à l’intégration avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, voir [Présentation de la version 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Cette page décrit toutes les améliorations apportées à l’intégration avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, consultez la [présentation de la version 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Présentation d’Adobe Workfront pour XD
 
@@ -32,7 +32,7 @@ Pour faciliter la navigation dans vos intégrations de documents, nous avons ren
 
 Auparavant, les sous-dossiers ne pouvaient être localisés qu’en ouvrant les dossiers parents.
 
-Pour plus d’informations, voir [Liaison de documents à partir d’applications externes](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Pour plus d’informations, voir [Lier des documents à partir d’applications externes](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Amélioration de la sécurité lors du chargement de fichiers vers Google Drive
 

@@ -19,20 +19,20 @@ ht-degree: 1%
 
 Le lac de données Workfront vous permet d’utiliser les données Workfront de votre entreprise avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
 
-Pour connecter vos données de lac de données Workfront à un produit externe, vous devez d’abord ajouter toutes les adresses IP requises à la liste autorisée, comme décrit dans la section [Ajout d’adresses IP à la liste autorisée](#add-ips-to-the-allowlist) ci-dessous En outre, la plupart des produits nécessiteront des informations supplémentaires sur votre lac de données pour établir une connexion :
+Pour connecter vos données de lac de données Workfront à un produit externe, vous devez d’abord ajouter toutes les adresses IP requises à la liste autorisée, comme décrit dans la section [Ajout d’adresses IP à la liste autorisée](#add-ips-to-the-allowlist) ci-dessous. En outre, la plupart des produits nécessiteront des informations supplémentaires sur votre lac de données pour établir une connexion :
 
 | Nom du champ | Valeur |
 |---------------|-------------|
-| Serveur | L’URL de la connexion, sans le paramètre `https://` (se trouve sur la **Accès aux données** page dans Workfront*) |
+| Serveur | URL de la connexion, sans la partie `https://` (disponible sur la page **Data access** dans Workfront*) |
 | Port | `443` |
 | Base | `WORKFRONT` |
 | Entrepôt | `READER_WH` |
 | Schéma | `WF` |
 | Rôle | `READER_ROLE` |
-| Nom d’utilisateur | Nom d’utilisateur choisi lors de la création de la connexion (disponible dans la variable **Accès aux données** page dans Workfront*) |
+| Nom d’utilisateur | Nom d’utilisateur choisi lors de la création de la connexion (trouvé sur la page **Accès aux données** dans Workfront*) |
 | Mot de passe | Mot de passe choisi lors de la première connexion du Snowflake* |
 
-*Pour plus d’informations sur l’emplacement de la variable **Accès aux données** page contenant vos connexions de lac de données, voir [Création d’un compte de lecteur (service) pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*Pour plus d’informations sur l’emplacement de la page **Data access** contenant vos connexions de lac de données, voir [Création d’un compte de lecteur (service) pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
@@ -43,25 +43,25 @@ Pour connecter vos données de lac de données Workfront à un produit externe, 
 
 ## Ajout d’adresses IP à la liste autorisée
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Configuration**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Configuration**.
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Accès aux données**.
 
-1. Cliquez sur le bouton **Adresses IP autorisées** , puis cliquez sur le bouton **Ajout d’une adresse IP à votre Liste autorisée** bouton .
+1. Cliquez sur l’onglet **IP autorisées** , puis sur le bouton **Ajouter une adresse IP à votre Liste autorisée** .
 
-1. Saisissez le nom de l’adresse IP dans **Description de l’adresse IP** et saisissez l’adresse IP (ou bloc CIDR) de l’outil dans lequel vous souhaitez utiliser **Adresse IP**, puis cliquez sur **Ajout d’une adresse IP à la Liste autorisée**.
+1. Saisissez un nom pour l’adresse IP dans **Description de l’adresse IP** et saisissez l’adresse IP (ou bloc CIDR) de l’outil que vous souhaitez utiliser dans **Adresse IP**, puis cliquez sur **Ajouter une adresse IP à la Liste autorisée**.
 
    ![Ajouter une adresse IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## Suppression d’une adresse IP de la liste autorisée
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Configuration**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Configuration**.
 
 1. Dans le panneau de gauche, cliquez sur **Système** > **Accès aux données**.
 
-1. Cliquez sur le bouton **Adresses IP autorisées** , puis cliquez sur l’icône de la corbeille ![Icône Supprimer](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) à droite de l’adresse IP que vous souhaitez supprimer.
+1. Cliquez sur l’onglet **IP autorisées** , puis sur l’icône de corbeille ![Icône Supprimer](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) située à droite de l’adresse IP que vous souhaitez supprimer.
 
-1. Dans la fenêtre qui s’affiche, cochez la case pour confirmer, puis cliquez sur **Supprimer**.
+1. Dans la fenêtre qui s&#39;affiche, cochez la case pour confirmer, puis cliquez sur **Supprimer**.
 
 ## Partage de données avec les outils de Business Intelligence
 
@@ -76,5 +76,5 @@ Vous trouverez ci-dessous un certain nombre d’outils de Business Intelligence 
 
 Vous trouverez ci-dessous un certain nombre d’entrepôts de données courants. Les liens vous conduiront au site de documentation de chaque service, où vous pourrez en savoir plus sur la connexion à votre lac de données.
 
-* [Balises de données](https://docs.databricks.com/en/connect/index.html)
+* [Databricks](https://docs.databricks.com/en/connect/index.html)
 * [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)

@@ -1,19 +1,19 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Calcul des coûts dans le planificateur de ressources
+title: Calculer des coûts dans le planificateur de ressources
 description: Vous pouvez budgéter vos ressources dans le planificateur de ressources Adobe Workfront à l’aide des valeurs de coût, au lieu des valeurs Heures ou ETR. Les valeurs de coût ne sont pas disponibles pour la vue **Vue par utilisateur** dans le planificateur de ressources.
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 0%
+source-wordcount: '1458'
+ht-degree: 7%
 
 ---
 
-# Calcul des coûts dans le planificateur de ressources
+# Calculer des coûts dans le planificateur de ressources
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -21,47 +21,47 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-Vous pouvez budgéter vos ressources dans le planificateur de ressources Adobe Workfront à l’aide des valeurs de coût, au lieu des valeurs Heures ou ETR. Les valeurs de coût ne sont pas disponibles pour la variable **Afficher par utilisateur** dans le planificateur de ressources.
+Vous pouvez budgéter vos ressources dans le planificateur de ressources Adobe Workfront à l’aide des valeurs de coût, au lieu des valeurs Heures ou ETR. Les valeurs de coût ne sont pas disponibles pour la vue **Vue par l’utilisateur** dans le planificateur de ressources.
 
 >[!IMPORTANT]
 >
 >Vous devez associer les utilisateurs et les rôles de tâche aux taux de coût par heure afin d’afficher les informations de coût dans le planificateur de ressources.\
->Pour plus d’informations sur l’association des taux de coût par heure aux rôles de tâche, voir [Création et gestion des rôles de tâche](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+>Pour plus d’informations sur l’association des taux de coût par heure avec les rôles de tâche, voir [Création et gestion des rôles de tâche](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
 >Pour plus d’informations sur l’association des taux de coût par heure avec les utilisateurs, voir [Modification du profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Avant de budgéter vos ressources, assurez-vous de bien comprendre le travail à faire (heures planifiées, EPT ou coût) et l’heure à laquelle vos utilisateurs sont ouverts au travail (heures disponibles, EPT ou coût).\
-Pour plus d’informations sur la compréhension des informations dans le planificateur de ressources lors de la planification par heures ou par éditeur de texte enrichi, voir [Vue d’ensemble des heures, de l’éditeur de texte enrichi et des coûts dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Pour plus d’informations sur la compréhension des informations dans le planificateur de ressources lors de la planification par heures ou par éditeur de texte enrichi, voir [Présentation des heures, de l’éditeur de texte enrichi et des informations de coûts dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> <p>Pro ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès à la gestion des ressources qui inclut l’accès à l’option Modifier les priorités et les heures du budget dans le planificateur de ressources</p> <p>Modifier l’accès aux données financières, aux projets et aux utilisateurs</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations pour les projets pour lesquels vous souhaitez budgétiser les informations avec la possibilité de Gérer les finances</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations pour les projets pour lesquels vous souhaitez budgétiser les informations avec la possibilité de Gérer les finances</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Afficher les informations dans le planificateur de ressources par coût
 
@@ -69,19 +69,19 @@ Par défaut, les informations de disponibilité et d’attribution sont affiché
 
 Pour afficher les informations disponibles, prévues et budgétées par coût dans le planificateur de ressources :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **Ressource**.
 1. Accédez au planificateur de ressources.
 1. (Conditionnel) Sélectionnez **Afficher par projet** ou **Afficher par rôle**.\
-   Par défaut **Afficher par projet** est sélectionnée.\
+   Par défaut, l’option **Afficher par projet** est sélectionnée.\
    Les informations d’attribution et de disponibilité s’affichent dans la section Heures.
 
-1. Dans la **Heures** menu déroulant, sélectionnez **Coût**.
+1. Dans le menu déroulant **Heures**, sélectionnez **Coût**.
 
    Si vous n’avez pas accès aux données financières à votre niveau d’accès, cette option n’est pas disponible.\
    Si les projets ont une devise différente de celle du système, le coût de ces projets s’affiche dans le planificateur de ressources converti dans la devise du système. Votre administrateur système définit la devise système.\
-   Pour plus d’informations sur la configuration de la devise système dans Workfront et des taux de conversion, voir [Configurer les taux de change](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
+   Pour plus d’informations sur la configuration de la devise système dans Workfront et des taux de conversion, voir [Configuration des taux d’exchange](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
    ![cost_in_the_planner_with_no_records.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
 ## Calcul du coût disponible dans le planificateur de ressources
@@ -92,7 +92,7 @@ Pour afficher les valeurs de coûts disponibles dans le planificateur de ressour
 * Informations sur la disponibilité des utilisateurs.
 
   L’obtention d’informations sur la disponibilité des utilisateurs dépend de la manière dont votre administrateur Workfront configure les préférences de gestion des ressources.\
-  Pour plus d’informations sur le calcul de la disponibilité des utilisateurs et la définition des préférences de gestion des ressources, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Pour plus d’informations sur le calcul de la disponibilité des utilisateurs et la définition des préférences de gestion des ressources, voir [ Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 Le tableau suivant illustre le mode de calcul du coût disponible dans le planificateur de ressources :
 
@@ -137,8 +137,8 @@ Bien que vous ne puissiez pas afficher les informations de tâche dans le planif
    * Une équipe\
      Une tâche affectée à une équipe est considérée comme non assignée, du point de vue du planificateur de ressources.
 
-* La variable **Type de coût** des tâches du projet.\
-  Pour plus d’informations sur le type de coût d’une tâche, voir [Suivi des coûts](../../manage-work/projects/project-finances/track-costs.md).
+* **Type de coût** des tâches sur le projet.\
+  Pour plus d’informations sur le type de coût d’une tâche, voir [Tracker les coûts](../../manage-work/projects/project-finances/track-costs.md).
 
 * Dates d’entrée en vigueur des taux de coût pour les rôles de tâche et les utilisateurs.
 
@@ -150,19 +150,19 @@ Bien que vous ne puissiez pas afficher les informations de tâche dans le planif
 
 Les scénarios suivants se présentent lors du calcul du coût planifié pour les utilisateurs, les rôles et le projet :
 
-* Lorsque la variable **Type de coût** est **Heure de l’utilisateur **et il existe **aucune affectation** sur la tâche :
+* Lorsque le **Type de coût** est **Heure de l’utilisateur** et qu’il n’y a **aucune affectation** sur la tâche :
 
-   * **Coût planifié du rôle et de l’utilisateur**:
+   * **Rôle et coût planifié de l’utilisateur** :
 
      Le rôle et les coûts planifiés de l’utilisateur sont de 0,00 $.
 
-   * **Coût planifié du projet**:
+   * **Coût planifié du projet** :
 
      Le coût prévu du projet est de 0,00 $.
 
-* Lorsque la variable **Type de coût** is **Heure de l’utilisateur** et il y a une **affectation d’utilisateur** sur la tâche :
+* Lorsque le **Type de coût** est **Heure de l’utilisateur** et qu’il y a une **affectation d’utilisateur** sur la tâche :
 
-   * **Coût planifié du rôle et de l’utilisateur**:
+   * **Rôle et coût planifié de l’utilisateur** :
 
      Le coût planifié de l’utilisateur est calculé à l’aide de la formule suivante :
 
@@ -178,13 +178,13 @@ Les scénarios suivants se présentent lors du calcul du coût planifié pour le
 
      `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **Coût planifié du projet**:
+   * **Coût planifié du projet** :
 
      Le coût prévu du projet est de 0,00 $.
 
-* Lorsque la variable **Type de coût** is **Heure de l’utilisateur** et il y a une **affectation de rôle de tâche** sur la tâche :
+* Lorsque le **Type de coût** est **Heure de l’utilisateur** et qu’il existe une **affectation de rôle de tâche** sur la tâche :
 
-   * **Coût planifié du rôle et de l’utilisateur**:
+   * **Rôle et coût planifié de l’utilisateur** :
 
      Le coût planifié de l’utilisateur est de 0,00 $.
 
@@ -194,23 +194,23 @@ Les scénarios suivants se présentent lors du calcul du coût planifié pour le
 
      Le taux de coût par heure au niveau du système du rôle de tâche affecté à la tâche est utilisé pour calculer le coût planifié.
 
-   * **Coût planifié du projet**:
+   * **Coût planifié du projet** :
 
      Le coût prévu du projet est de 0,00 $.
 
-* Lorsque la variable **Type de coût** is **Heure du rôle** et il y a **aucune affectation** sur la tâche :
+* Lorsque le **Type de coût** est **Horaire du rôle** et qu&#39;il n&#39;y a **aucune affectation** sur la tâche :
 
-   * **Coût planifié du rôle et de l’utilisateur**:
+   * **Rôle et coût planifié de l’utilisateur** :
 
      Le rôle et les coûts planifiés de l’utilisateur sont de 0,00 $.
 
-   * **Coût planifié du projet**:
+   * **Coût planifié du projet** :
 
      Le coût prévu du projet est de 0,00 $.
 
-* Lorsque la variable **Type de coût** is **Heure du rôle** et il y a une **affectation d’utilisateur** sur la tâche :
+* Lorsque le **Type de coût** est **Horaire du rôle** et qu’il y a une **affectation d’utilisateur** sur la tâche :
 
-   * **Coût planifié du rôle et de l’utilisateur**:
+   * **Rôle et coût planifié de l’utilisateur** :
 
      Le coût planifié de l’utilisateur est de 0,00 $.
 
@@ -222,15 +222,15 @@ Les scénarios suivants se présentent lors du calcul du coût planifié pour le
 
      Si l’utilisateur n’est associé à aucun rôle dans la tâche, le coût planifié est de 0,00 $.
 
-   * **Coût planifié du projet**:
+   * **Coût planifié du projet** :
 
      Le coût planifié du projet est calculé à l’aide de la formule suivante :
 
      `Project Planned Cost = SUM(Role Planned Costs)`
 
-* Lorsque la variable **Type de coût** is **Heure du rôle** et il y a une **affectation de rôle de tâche** sur la tâche :
+* Lorsque le **Type de coût** est **Horaire du rôle** et qu’il existe une **affectation de rôle de tâche** sur la tâche :
 
-   * **Coût planifié du rôle et de l’utilisateur**:
+   * **Rôle et coût planifié de l’utilisateur** :
 
      Le coût planifié de l’utilisateur est de 0,00 $.
 
@@ -240,7 +240,7 @@ Les scénarios suivants se présentent lors du calcul du coût planifié pour le
 
      Workfront examine le rôle de tâche que l’utilisateur remplit sur la tâche pour calculer le coût planifié du rôle.
 
-   * **Coût planifié du projet**:
+   * **Coût planifié du projet** :
 
      Le coût planifié du projet est calculé à l’aide de la formule suivante :
 

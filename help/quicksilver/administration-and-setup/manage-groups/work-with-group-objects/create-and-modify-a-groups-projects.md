@@ -12,7 +12,7 @@ exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 0%
+ht-degree: 26%
 
 ---
 
@@ -23,47 +23,47 @@ Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouv
 * Création d’un projet pour le groupe
 * Modifier, exporter, copier ou supprimer un projet
 
-S’il existe des groupes au-dessus de votre groupe, leurs administrateurs peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour les administrateurs de Workfront (pour n’importe quel groupe).
+S’il existe des groupes au-dessus de votre groupe, leurs administrateurs ou administratrices peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td >Formule Workfront</a>*</td> 
-   <td>Quelconque</td> 
+   <td >Plan Workfront</a>*</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
    <td>Licence Adobe Workfront</a>*</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur de groupe du groupe ou un administrateur Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice de groupe pour le groupe ou un administrateur ou une administratrice de Workfront. Pour plus d’informations, consultez les sections <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à une personne</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> 
     <ul> 
      <li> <p>Le projet doit être associé au groupe ou à l’un de ses sous-groupes. </p> <p>Pour plus d’informations sur l’affectation d’un groupe à un projet, voir <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Gestion des informations dans la zone Aperçu du projet</a>.</p> </li> 
-     <li> <p>Vous devez également disposer des autorisations nécessaires pour modifier le projet, soit parce que vous l’avez créé, soit parce qu’il a été partagé avec vous.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </li> 
-    </ul> <p><b>REMARQUE</b>: lorsque vous créez un projet à partir de la page d’un groupe, le système l’affecte à ce groupe. Cela diffère de la création d’un projet dans d’autres zones Workfront, où le système attribue le projet au groupe d’accueil de l’utilisateur qui le crée (le propriétaire du projet).</p> </td> 
+     <li> <p>Vous devez également disposer des autorisations nécessaires pour modifier le projet, soit parce que vous l’avez créé, soit parce qu’il a été partagé avec vous.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </li> 
+    </ul> <p><b>REMARQUE</b> : lorsque vous créez un projet à partir de la page d’un groupe, le système attribue le projet à ce groupe. Cela diffère de la création d’un projet dans d’autres zones Workfront, où le système attribue le projet au groupe d’accueil de l’utilisateur qui le crée (le propriétaire du projet).</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si vous devez savoir quel plan ou type de licence vous avez, contactez votre administrateur Workfront.
+&#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
 ## Affichage, utilisation et création de projets pour votre groupe à partir de la zone Groupes
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez créer, afficher ou travailler avec des projets.
 1. Dans le panneau de gauche, cliquez sur **Projets** ![](assets/projects-in-main-menu.png) pour afficher la liste des projets associés au groupe.
 
-1. Effectuez l’une des opérations suivantes :
+1. Effectuez l’une des opérations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -71,14 +71,14 @@ Les étapes de cet article doivent être les suivantes :
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Utilisation d’un projet</p> </td> 
-      <td> <p>Sélectionnez le projet, puis utilisez les boutons de la barre d’outils pour modifier le projet. <img src="assets/edit-icon.png">, partager <img src="assets/share-icon.png">, ou supprimez-le <img src="assets/delete.png">.</p> <p>Pour plus d’informations sur ces activités, voir <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Gestion des projets : index des articles</a>.</p> </td> 
+      <td> <p>Sélectionnez le projet, puis utilisez les boutons de la barre d'outils pour modifier <img src="assets/edit-icon.png">, partager <img src="assets/share-icon.png"> ou supprimer <img src="assets/delete.png">.</p> <p>Pour plus d’informations sur ces activités, voir <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Gestion des projets : index de l’article</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Création d’un projet pour le groupe</p> </td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Cliquez sur <strong>Nouveau projet</strong>, puis sélectionnez une option dans le menu déroulant pour indiquer comment la créer. </p> <p>Pour plus d’informations, voir la section <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">Méthodes de création de projets</a> dans l’article <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Création d’un projet</a>.</p> </li> 
-        <li value="2">Saisissez le nom du projet et configurez-le, comme expliqué dans la section <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modification de projets</a>.</li> 
+        <li value="1"> <p>Cliquez sur <strong>Nouveau projet</strong>, puis sélectionnez une option dans le menu déroulant pour indiquer comment vous souhaitez le créer. </p> <p>Pour plus d’informations, reportez-vous à la section <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">Méthodes pour créer des projets</a> de l’article <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Créer un projet</a>.</p> </li> 
+        <li value="2">Saisissez un nom pour le projet et configurez-le, comme expliqué dans la section <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifier les projets</a>.</li> 
        </ol> <p> Les préférences de projet définies pour le groupe affectent tous les projets que vous créez dans la zone Groupes . Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">Configuration des préférences de projet pour un groupe</a>.</p> </td> 
      </tr> 
      <tr> 

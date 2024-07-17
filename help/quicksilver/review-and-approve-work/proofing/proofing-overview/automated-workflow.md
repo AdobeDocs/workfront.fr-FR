@@ -2,7 +2,7 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: Présentation des processus automatisés
+title: Vue d’ensemble du workflow automatisé
 description: Les processus automatisés vous permettent de créer une série d’étapes de révision séquentielles ou parallèles, d’établir des dépendances entre ces étapes et de limiter leur visibilité à certains utilisateurs. S’il existe des étapes interdépendantes dans votre processus de révision, les workflows automatisés déplacent automatiquement votre BAT au cours des étapes, en informant les réviseurs et les approbateurs concernés tout au long du processus.
 author: Courtney
 feature: Digital Content and Documents
@@ -10,17 +10,17 @@ exl-id: d643970a-c00c-4fb4-94bc-fca4e090dcc9
 source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Présentation des processus automatisés
+# Vue d’ensemble du workflow automatisé
 
 <!-- Audited: 01/2024 -->
 
-Les processus automatisés vous permettent de créer une série d’étapes de révision séquentielles ou parallèles, d’établir des dépendances entre ces étapes et de limiter leur visibilité à certains utilisateurs. S’il existe des étapes interdépendantes dans votre processus de révision, les workflows automatisés déplacent automatiquement votre BAT au cours des étapes, en informant les réviseurs et les approbateurs concernés tout au long du processus. Pour plus d’informations sur la configuration d’un processus automatisé, voir [Créer un BAT avancé avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+Les processus automatisés vous permettent de créer une série d’étapes de révision séquentielles ou parallèles, d’établir des dépendances entre ces étapes et de limiter leur visibilité à certains utilisateurs. S’il existe des étapes interdépendantes dans votre processus de révision, les workflows automatisés déplacent automatiquement votre BAT au cours des étapes, en informant les réviseurs et les approbateurs concernés tout au long du processus. Pour plus d’informations sur la configuration d’un workflow automatisé, voir [Création d’un BAT avancé avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-**Exemples :**  Les workflows automatisés vous aident à gérer des processus de révision de BAT complexes tels que :
+**Exemples :** Les workflows automatisés vous aident à gérer des processus de révision de BAT complexes tels que :
 
 * Lorsque différents groupes ou opérateurs validants doivent consulter le contenu dans un ordre spécifique
 * Lorsqu’il existe des dépendances entre l’activité des utilisateurs lorsqu’ils examinent le contenu

@@ -9,7 +9,7 @@ exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-la semaine du 4 avril 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, voir [Présentation de la version 2.2.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+la semaine du 4 avril 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, consultez la [présentation des versions 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Les panoramas Adobe Workfront sont désormais disponibles.
 
@@ -71,7 +71,7 @@ Pour plus d’informations, voir [Prise en main des panoramas dans Adobe Workfro
 
 Il est désormais plus facile de repérer les erreurs lors de la publication d’une mise à jour. La finalisation d’un commentaire dans l’onglet Mise à jour d’un objet crée désormais une fenêtre contextuelle de 7 secondes qui vous permet d’annuler la publication et de revenir à la modification, avant l’horodatage du système ou l’envoi d’emails et de notifications in-app. Si vous ignorez la fenêtre contextuelle, quittez la page ou patientez 7 secondes pendant l’expiration de la fenêtre, la publication est effectuée normalement.
 
-Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations, consultez la section [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Mise à jour de l’expérience lors de la copie et du déplacement de problèmes
 
@@ -87,7 +87,7 @@ Voici quelques-unes des améliorations apportées à cette nouvelle interface :
 
 Pour plus d’informations sur le déplacement ou la copie de problèmes, consultez les articles suivants :
 
-* [Copie de problèmes](../../../manage-work/issues/manage-issues/copy-issues.md)
+* [Problèmes de copie](../../../manage-work/issues/manage-issues/copy-issues.md)
 * [Déplacer les problèmes](../../../manage-work/issues/manage-issues/move-issues.md)
 
 ## Nouvelle expérience lors de la copie d’un projet
@@ -109,14 +109,14 @@ Nous avons ajouté un nouveau menu Plus dans les listes de projets et les rappor
 * Exporter vers MS Project
 * S&#39;abonner
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d’informations, consultez les articles suivants :
 
-* [Recalculer les calendriers du projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
+* [Recalculer les chronologies de projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [Recalculer les finances du projet](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Modifier les informations dans les champs de formulaire personnalisés](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Joindre un modèle à un projet](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
-* [Exportation d’un projet vers un projet Microsoft](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
-* [Abonnement aux éléments dans Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [Exporter un projet vers un projet Microsoft](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [S’abonner aux éléments dans Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## Conserver les utilisateurs dans le tableau de bord, la liste ou le rapport après la conversion du problème en projet
 
@@ -140,7 +140,7 @@ Les modifications suivantes ont été apportées aux tâches avec un type de dur
 * Les affectations d’affectation individuelles sont conservées lors du remplacement des utilisateurs et des rôles.
 * Les affectations d’affectation individuelles sont conservées sur le rôle lors de la suppression de l’utilisateur. (Supprimée de la version. Désormais, les heures planifiées seront définies sur 0 après la suppression de tous les cessionnaires.)
 
-Pour plus d’informations sur les heures planifiées, voir [Présentation des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
+Pour plus d’informations sur les heures planifiées, consultez la [présentation des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
 
 ## Partage de dossiers uniquement aux cinq premiers niveaux d’une hiérarchie de dossiers
 

@@ -114,7 +114,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    * Dans la vue Tableau :
 
-      * Cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau ;
+      * Cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau.
 
       * Cliquez sur **Maj+Entrée** sur votre clavier depuis n’importe quelle colonne ou ligne du tableau. Une ligne vide est alors ajoutée.
 
@@ -133,7 +133,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!NOTE]
    >
-   >  * Il n’existe aucun champ obligatoire pour les enregistrements. Nous vous recommandons toutefois d’ajouter des informations pour le champ principal d’un enregistrement, car il est utile d’identifier les enregistrements lors de la liaison d’enregistrements. Pour plus d’informations sur les champs principaux, voir [Gestion de la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et [Champ Principal - Aperçu](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’existe aucun champ obligatoire pour les enregistrements. Nous vous recommandons toutefois d’ajouter des informations pour le champ principal d’un enregistrement, car il est utile d’identifier les enregistrements lors de la liaison d’enregistrements. Pour plus d’informations sur les champs principaux, voir [Gestion de la vue de table](/help/quicksilver/planning/views/manage-the-table-view.md) et [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui font référence à d’autres types d’enregistrement ou à des champs calculés sont en lecture seule.
 
@@ -145,10 +145,10 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!TIP]
    >
-   >Vous pouvez accéder au **Détails de l’ouverture** uniquement à partir du champ nom de l’enregistrement lorsque le champ Nom est un champ principal.
+   >Vous ne pouvez accéder à l’icône **Ouvrir les détails** qu’à partir du champ nom de l’enregistrement lorsque le champ Nom est un champ principal.
 
 1. Commencez à modifier les informations de l’enregistrement dans l’aperçu de l’enregistrement. Workfront enregistre automatiquement vos modifications.
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Continuez à modifier l’enregistrement sur la page d’enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Continuez à modifier l’enregistrement sur la page d’enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir l’ajout de nouveaux enregistrements ou de leurs informations lors de leur ajout dans la vue de tableau :
 

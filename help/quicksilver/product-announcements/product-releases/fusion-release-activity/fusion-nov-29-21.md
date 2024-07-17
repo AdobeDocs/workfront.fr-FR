@@ -10,7 +10,7 @@ hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion la semaine du 29 novembre 2021.
 
-Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
 
 ## Services Adobe PDF désormais disponibles dans Workfront Fusion
 
@@ -30,7 +30,7 @@ Avec les modules d’outils Adobe PDF, vous pouvez :
 
 * Générer un PDF à partir des données que vous fournissez
 * Extraction de données d’un PDF
-* Création d’un PDF à partir d’une image, d’un document ou d’un fichier de HTML
+* Créer un PDF à partir d’une image, d’un document ou d’un fichier d’HTML
 * Conversion d’un PDF en image ou document
 * Combiner des fichiers de PDF dans un fichier de PDF plus volumineux
 * Sécurisation d’un fichier de PDF avec un mot de passe ou suppression de la protection par mot de passe d’un PDF

@@ -1,52 +1,52 @@
 ---
 product-area: resource-management;projects
 navigation-topic: resource-planning
-title: Définir la priorité des projets dans le planificateur de ressources
+title: Hiérarchiser des projets dans le planificateur de ressources
 description: Les projets sont répertoriés par ordre de priorité dans le planificateur de ressources, le projet le plus important se trouvant en haut.
 author: Alina
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
 source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 1%
+source-wordcount: '1323'
+ht-degree: 8%
 
 ---
 
-# Définir la priorité des projets dans le planificateur de ressources
+# Hiérarchiser des projets dans le planificateur de ressources
 
 Les projets sont répertoriés par ordre de priorité dans le planificateur de ressources, le projet le plus important se trouvant en haut.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> <p>Pro ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès à la gestion des ressources qui inclut l’accès à l’option Modifier les priorités et les heures du budget dans le planificateur de ressources</p> <p>Modifier l’accès aux données financières, aux projets et aux utilisateurs</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations des projets pour lesquels vous souhaitez budgétiser les informations avec la possibilité de Gérer les finances</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations pour les projets pour lesquels vous souhaitez budgétiser les informations avec la possibilité de Gérer les finances</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Ordre par défaut des projets dans le planificateur de ressources
 
@@ -57,7 +57,7 @@ Par défaut, les projets sont répertoriés dans la vue Projet du planificateur 
 >Les projets sont répertoriés selon les trois critères ci-dessous uniquement la première fois que vous ouvrez le planificateur de ressources. Toutefois, cette priorité par défaut devient automatiquement votre priorité personnalisée et ne peut pas être rétablie à la priorité d’origine chaque fois que vous effectuez l’une des opérations suivantes :
 >
 >* Lorsque vous cliquez sur Enregistrer à tout moment.
->* Lorsque vous modifiez manuellement la priorité de planification du projet. Pour plus d’informations sur la modification manuelle de la priorité de planification du projet, voir la section [Modification manuelle de la priorité de planification des projets](#manually-change-the-project-planning-priority) dans cet article.
+>* Lorsque vous modifiez manuellement la priorité de planification du projet. Pour plus d’informations sur la modification manuelle de la priorité de planification du projet, voir la section [Modification manuelle de la priorité de planification du projet](#manually-change-the-project-planning-priority) de cet article.
 >
 >Une fois que la priorité du projet devient votre priorité personnalisée, les modifications apportées aux informations du projet n’affectent plus l’ordre des projets utilisant ces critères. Ensuite, vous pouvez classer les projets par priorité uniquement manuellement.
 
@@ -85,7 +85,7 @@ En donnant une nouvelle priorité aux projets, vous pouvez les classer par ordre
 
 Pour modifier la priorité de planification du projet :
 
-1. Accédez au **Resource Planner**.
+1. Accédez au **planificateur de ressources**.
 
 1. Cliquez dans le champ à gauche du nom du projet qui contient un numéro, saisissez un numéro pour modifier la Priorité de planification, puis appuyez sur Entrée.\
    ![](assets/mceclip4.png)\
@@ -106,13 +106,13 @@ Pour modifier la priorité de planification du projet :
 >
 >Votre entreprise doit disposer d’un plan d’entreprise ou d’un plan Workfront supérieur pour hiérarchiser les projets dans Portfolio Optimizer.
 >
->Pour plus d’informations sur les plans Workfront, voir [Nos plans](https://www.workfront.com/plans).
+>Pour plus d’informations sur les forfaits Workfront, voir [Nos forfaits](https://www.workfront.com/plans?lang=fr).
 >
->Pour plus d’informations sur la priorité des projets dans Portfolio Optimizer, voir [Hiérarchisation des projets dans Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+>Pour plus d’informations sur la hiérarchisation des projets dans Portfolio Optimizer, voir [Hiérarchisation des projets dans Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-1. Ouvrez le **Resource Planner** dans le **Vue du projet**.
-1. Cliquez sur le bouton **Paramètres** icône .
-1. Activez la variable **Afficher les priorités de Portfolio** pour afficher les priorités du projet en fonction du Portfolio auquel elles sont affectées. La priorité des projets selon leur portefeuille s’affiche en regard de la priorité du planificateur de ressources. Ce paramètre est désactivé par défaut.
+1. Ouvrez le **planificateur de ressources** dans la **vue de projet**.
+1. Cliquez sur l’icône **Paramètres** .
+1. Activez le paramètre **Afficher les priorités de Portfolio** pour afficher les priorités du projet en fonction du Portfolio auquel elles sont affectées. La priorité des projets selon leur portefeuille s’affiche en regard de la priorité du planificateur de ressources. Ce paramètre est désactivé par défaut.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
@@ -122,7 +122,7 @@ Pour modifier la priorité de planification du projet :
 
    Les priorités de portefeuille des projets s’affichent uniquement dans la vue Projet du planificateur de ressources.
 
-1. Cliquez sur **Commande** pour classer les projets en fonction des priorités du portefeuille.
+1. Cliquez sur **Commande** pour classer les projets en fonction des priorités du portfolio.
 
    Si vous avez des projets qui appartiennent à plusieurs portefeuilles, vous pouvez voir plusieurs projets ayant la même priorité de portefeuille dans le planificateur de ressources. Dans ce cas, les projets ayant la même priorité de portefeuille sont répertoriés selon les critères suivants, dans cet ordre :
 
@@ -138,7 +138,7 @@ Pour modifier la priorité de planification du projet :
 
 La priorité de planification des projets affecte les heures disponibles des utilisateurs. Les utilisateurs associés au projet dont la priorité est la plus élevée affichent la disponibilité complète de la colonne Heures disponibles (AVL) pour ce projet, en fonction de leurs plannings.
 
-Les mêmes utilisateurs associés au deuxième projet par ordre de priorité afficheront une valeur Heures disponibles , à savoir la différence entre le montant total des Heures disponibles et ce qui a déjà été budgété pour le premier projet de la colonne Heures budgétaires , etc. Pour plus d’informations sur la planification des ressources dans le planificateur de ressources, voir [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Les mêmes utilisateurs associés au deuxième projet par ordre de priorité afficheront une valeur Heures disponibles , à savoir la différence entre le montant total des Heures disponibles et ce qui a déjà été budgété pour le premier projet de la colonne Heures budgétaires , etc. Pour plus d’informations sur la planification des ressources dans le planificateur de ressources, voir [Ressources budgétaires dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 Si aucune heure n’a été planifiée pour le premier projet (par ordre de priorité) pour un utilisateur, mais que des heures ont été prévues pour le deuxième projet pour le même utilisateur, l’utilisateur affichera la totalité des heures disponibles pour les deux projets.
 

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2848'
 ht-degree: 100%
 
@@ -364,7 +364,7 @@ Pour modifier des tâches dans une liste lors de l’utilisation de l’option d
      </tr> 
      <tr> 
       <td role="rowheader">Supprimer</td> 
-      <td>Pour plus d’informations sur la suppression de tâches, voir <a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">Supprimer des tâches</a>.</td> 
+      <td>Pour plus d’informations sur la suppression de tâches, consultez la section <a href="../../../manage-work/tasks/manage-tasks/delete-tasks.md" class="MCXref xref">Supprimer des tâches</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Alinéa</td> 

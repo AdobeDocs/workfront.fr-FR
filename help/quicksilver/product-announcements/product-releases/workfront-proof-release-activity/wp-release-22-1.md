@@ -1,6 +1,6 @@
 ---
-title: Activité Publication de BAT Workfront :&nbsp;Semaine du 29 novembre 2021
-description: Activité Publication de BAT Workfront :&nbsp;Semaine du 29 novembre 2021
+title: Activité Publication de Workfront Proof :&nbsp;Semaine du 29 novembre 2021
+description: Activité Publication de Workfront Proof :&nbsp;Semaine du 29 novembre 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
@@ -13,14 +13,14 @@ ht-degree: 0%
 
 ---
 
-# Activité Publication de BAT pour Workfront : Semaine du 29 novembre 2021
+# Activité de mise à jour de Workfront Proof : Semaine du 29 novembre 2021
 
-Cette page décrit les modifications apportées au BAT Workfront (application de vérification autonome). Les modifications décrites ici ne s’appliquent pas à la fonctionnalité de vérification de l’application Adobe Workfront.
+Cette page décrit les modifications apportées à Workfront Proof (application de vérification autonome). Les modifications décrites ici ne s’appliquent pas à la fonctionnalité de vérification de l’application Adobe Workfront.
 
-## Nouveau profil d’autorisation de BAT dans le BAT Workfront
+## Nouveau profil d’autorisation de preuve dans Workfront Proof
 
-Nous avons ajouté un nouveau profil d’autorisation de BAT du visiteur dans le BAT Workfront. Ce nouveau profil est similaire au profil observateur existant.
+Nous avons ajouté un nouveau profil d’autorisation de preuve de visiteur dans Workfront Proof. Ce nouveau profil est similaire au profil observateur existant.
 
 Les utilisateurs disposant d’un profil Visiteur peuvent consulter et approuver les bons à tirer partagés avec eux. Cependant, ils ne peuvent pas afficher les contacts ou les groupes comme le peuvent les observateurs.
 
-Pour plus d’informations, voir [Profils d’autorisations de BAT dans le BAT Workfront](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Pour plus d’informations, voir [Profils d’autorisations de BAT dans Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).

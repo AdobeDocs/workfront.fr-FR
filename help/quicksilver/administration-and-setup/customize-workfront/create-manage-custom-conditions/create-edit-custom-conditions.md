@@ -10,8 +10,8 @@ role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
 source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 2%
+source-wordcount: '642'
+ht-degree: 15%
 
 ---
 
@@ -19,42 +19,42 @@ ht-degree: 2%
 
 En tant qu’administrateur Adobe Workfront, vous pouvez créer ou modifier une condition personnalisée pour les projets, les tâches et les problèmes en fonction des besoins de votre entreprise.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td>Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td>Licence Adobe Workfront</td> 
+   <td>Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td>Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td>Configurations du niveau d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Création ou modification d’une condition personnalisée
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Préférences du projet** > **Conditions**.
 
 1. Cliquez sur l’onglet du type d’objet (**Projet**, **Tâche** ou **Problème**) que vous souhaitez associer à la condition.
 
-1. Pour créer une condition, cliquez sur **Ajout d’une nouvelle condition**.
+1. Pour créer une condition, cliquez sur **Ajouter une nouvelle condition**.
 
    Ou
 
-   Pour modifier une condition existante, passez la souris sur la condition à modifier, puis cliquez sur le bouton **Modifier** qui s’affiche à l’extrême droite.
+   Pour modifier une condition existante, survolez la condition à modifier, puis cliquez sur l’icône **Modifier** qui s’affiche à l’extrême droite.
 
    ![](assets/custom-condition-edit-nwe.jpg)
 
@@ -70,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td>Description</td> 
-      <td>(Facultatif) Saisissez une description de l’objectif de la condition pour ceux qui l’utiliseront.</td> 
+      <td>(Facultatif) Saisissez une description de l’objectif de la condition pour les utilisateurs.</td> 
      </tr> 
      <tr> 
       <td>Couleur</td> 
@@ -100,21 +100,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >Vous pouvez normaliser la terminologie et les couleurs des conditions dans les trois types d’objets. Pour ce faire, copiez le nom de la condition et le code hexadécimal de couleur d’un onglet (Projet, Tâche, Problème) dans la condition correspondante sur les deux autres onglets.
 
-1. (Facultatif) Faites glisser ![](assets/move-icon---dots.png) toute condition sur une nouvelle position pour réorganiser la liste.
+1. (Facultatif) Faites glisser ![](assets/move-icon---dots.png) toute condition vers une nouvelle position pour réorganiser la liste.
 
    Cela modifie l’ordre dans lequel les conditions s’affichent dans les projets, tâches et problèmes :
 
    * Lorsqu’un utilisateur modifie un projet
 
-      ![](assets/change-condition-edit-project.png)
+     ![](assets/change-condition-edit-project.png)
 
    * Lorsqu’un utilisateur modifie la condition d’une tâche ou d’un problème dans l’onglet Mises à jour :
 
-      ![](assets/change-condition-update-comment.png)
+     ![](assets/change-condition-update-comment.png)
 
    * Lorsqu’un utilisateur modifie la condition d’une tâche ou d’un problème en mode Liste :
 
-      ![](assets/change-conditions-list-dropdown-only.png)
+     ![](assets/change-conditions-list-dropdown-only.png)
 
 1. Cliquer sur **Enregistrer**.
 

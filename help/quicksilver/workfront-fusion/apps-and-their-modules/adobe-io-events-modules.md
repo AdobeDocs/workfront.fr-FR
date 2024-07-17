@@ -49,7 +49,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-&#42;&#42;Pour plus d’informations sur les licences Adobe Workfront Fusion, voir [Licences Adobe Workfront Fusion](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42; Pour plus d’informations sur les licences Adobe Workfront Fusion, voir [Licences Adobe Workfront Fusion](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Conditions préalables
 
@@ -89,11 +89,11 @@ Pour créer une connexion pour vos modules Événements d’Adobe I/O :
       </tr>
       <tr>
         <td role="rowheader">ID client</td>
-        <td>Saisissez votre ID client d’Adobe. Vous pouvez le trouver dans la section Informations d’identification de la console Adobe Developer.</td>
+        <td>Saisissez votre ID client d’Adobe. Vous pouvez le trouver dans la section Informations d’identification de Adobe Developer Console</td>
       </tr>
       <tr>
         <td role="rowheader">Clé secrète client</td>
-        <td>Saisissez votre secret client Adobe. Vous pouvez le trouver dans la section Informations d’identification de la console Adobe Developer.</td>
+        <td>Saisissez votre secret client Adobe. Vous pouvez le trouver dans la section Informations d’identification de Adobe Developer Console</td>
       </tr>
       </tr>
         <tr>
@@ -106,15 +106,15 @@ Pour créer une connexion pour vos modules Événements d’Adobe I/O :
       </tr>
       <tr>
         <td role="rowheader">Identifiant de l’organisation IMS</td>
-        <td>Saisissez votre ID d’organisation Adobe. Vous pouvez le trouver dans la section Informations d’identification de la console Adobe Developer.</td>
+        <td>Saisissez votre ID d’organisation Adobe. Vous pouvez le trouver dans la section Informations d’identification de Adobe Developer Console</td>
       </tr>
         <tr>
         <td role="rowheader">ID de projet</td>
         <td>Saisissez votre ID de projet. Vous pouvez le trouver dans l’URL d’identification du projet : <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
-        <td role="rowheader">Identifiant de Workspace</td>
-        <td>Pour afficher l’identifiant de l’espace de travail de votre projet, téléchargez les détails du projet à partir de la page d’aperçu du projet dans la console Adobe Developer. </td>
+        <td role="rowheader">WORKSPACE ID</td>
+        <td>Pour afficher l’Workspace ID de votre projet, téléchargez les détails du projet à partir de la page d’aperçu du projet dans Adobe Developer Console. </td>
       </tr>
     </tbody>
     </table>
@@ -141,7 +141,7 @@ Ce module d’action utilise un webhook pour créer une description d’événem
 
 Pour créer un webhook :
 
-1. Cliquez sur **Ajouter** en regard du champ Webhook .
+1. Cliquez sur **Ajouter** en regard du champ Webhook.
 1. Renseignez les champs suivants :
 
    <table>
@@ -242,7 +242,7 @@ Ce module de recherche récupère tous les événements à enregistrer dans un j
 
 #### Effectuer un appel API personnalisé
 
-Ce module d’action effectue un appel API personnalisé à la fonction [!DNL Adobe I/O Events] API
+Ce module d’action effectue un appel API personnalisé à l’API [!DNL Adobe I/O Events].
 
 <table>
   <col/>

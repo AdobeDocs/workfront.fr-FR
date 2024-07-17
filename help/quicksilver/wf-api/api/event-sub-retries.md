@@ -1,20 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Reprises d’abonnement à un événement
-description: Reprises d’abonnement à un événement
+title: Reprises pour les abonnements aux événements
+description: Reprises pour les abonnements aux événements
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '548'
+ht-degree: 1%
 
 ---
 
-# Reprises d’abonnement à un événement
+# Reprises pour les abonnements aux événements
 
 Lors de la mise en oeuvre d’un système de diffusion de messages, quelques avertissements doivent être pris en compte afin de garantir la stabilité, la cohérence et une bonne expérience utilisateur. Un des défauts d&#39;un système de diffusion des messages est de s&#39;assurer que les messages arrivent à destination avec succès et de savoir quoi faire lorsque les messages ne parviennent pas.
 

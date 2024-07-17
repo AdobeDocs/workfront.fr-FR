@@ -9,7 +9,7 @@ exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 Votre administrateur Adobe Workfront permet aux utilisateurs d’afficher ou de modifier des objets lorsqu’ils attribuent des niveaux d’accès. Pour plus d’informations sur l’octroi de l’accès aux objets, voir [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Outre le niveau d’accès qui est accordé aux utilisateurs, vous pouvez leur accorder des autorisations pour afficher ou modifier des objets spécifiques que vous avez créés ou que vous avez accès au partage. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Outre le niveau d’accès qui est accordé aux utilisateurs, vous pouvez leur accorder des autorisations pour afficher ou modifier des objets spécifiques que vous avez créés ou que vous avez accès au partage. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Comment les niveaux d’accès et les autorisations fonctionnent ensemble](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Vous pouvez partager avec d’autres utilisateurs des filtres, des vues et des regroupements auxquels vous avez accès.
 
@@ -34,36 +34,36 @@ Pour plus d’informations sur la création d’un filtre, d’une vue ou d’un
 
 * [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-* [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader"><strong>Forfait Adobe Workfront*</strong></td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Affichage ou accès supérieur à Filtres, Vues, Regroupements</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
+   <td> <p>Affichage ou accès supérieur à Filtres, Vues, Regroupements</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Affichage ou autorisations supérieures avec accès au partage vers une vue, un filtre ou un regroupement</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Affichage ou autorisations supérieures avec accès au partage vers une vue, un filtre ou un regroupement</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Partager un filtre, une vue ou un regroupement
 
@@ -82,7 +82,7 @@ Vous pouvez partager un filtre dans l’interface standard à partir de listes d
 Partagez un filtre à l’aide de l’interface du créateur standard :
 
 1. Accédez à une liste de projets, de tâches ou de problèmes.
-1. Cliquez sur le bouton **Filtrer** icon ![Icône Filtrer](assets/filter-nwepng.png).
+1. Cliquez sur l&#39;icône **Filtrer** ![Icône Filtrer](assets/filter-nwepng.png).
 
    ![Créateur de filtres standard](assets/new-filters-all-filter-types.png)
 
@@ -111,24 +111,24 @@ Partagez un filtre à l’aide de l’interface du créateur standard :
    </tbody>
    </table>
 
-1. Passez la souris sur un filtre que vous avez accès à au moins afficher et partager, puis cliquez sur le bouton **Plus** menu ![Plus de menu](assets/more-icon-spectrum.png), puis cliquez sur **Partager**.
+1. Passez la souris sur un filtre auquel vous avez accès pour au moins afficher et partager, puis cliquez sur le menu **Plus** ![Plus menu](assets/more-icon-spectrum.png), puis sur **Partager**.
 
    ![Plus d’options de menu](assets/new-filters-more-menu-options-with-delete.png)
 
    La boîte Partage des filtres s’affiche.
 
-1. Commencez à saisir les noms des utilisateurs, des équipes, des rôles, des groupes ou des entreprises avec lesquels vous souhaitez partager le contenu dans la variable **Accéder à** champ .
+1. Commencez à saisir les noms des utilisateurs, des équipes, des rôles, des groupes ou des entreprises avec lesquels vous souhaitez partager des données dans le champ **Accédez à** .
 
-   ![Zone de partage des filtres](assets/new-filters-share-filter.png)
+   ![Zone de partage de filtre](assets/new-filters-share-filter.png)
 
-1. (Facultatif) Cliquez sur la flèche pointant vers la droite située en regard du nom d’une entité pour modifier ses autorisations sur le filtre, puis activez l’option **Affichage** ou **Gérer** . **Affichage** est la valeur par défaut.
+1. (Facultatif) Cliquez sur la flèche pointant vers la droite en regard du nom d’une entité pour modifier ses autorisations sur le filtre, puis activez l’option **Afficher** ou **Gérer** . **View** est la valeur par défaut.
 
    ![Autorisations de partage](assets/new-filters-sharing-permissions.png)
 
 1. (Facultatif) Activez ou désactivez les autorisations supplémentaires pour une entité en effectuant l’une des opérations suivantes :
 
-   1. Cliquez sur **Affichage** et désactivez la variable **Partager** . Elle est activée par défaut.
-   1. Cliquez sur **Gérer** et désactivez l’option **Partager** ou le **Supprimer** . Ils sont activés par défaut.
+   1. Cliquez sur **Afficher** et désactivez l’option **Partager** . Cette option est activée par défaut.
+   1. Cliquez sur **Gérer** et désactivez l’option **Partager** ou **Supprimer** . Ils sont activés par défaut.
 
       >[!NOTE]
       >
@@ -144,7 +144,7 @@ Partagez un filtre à l’aide de l’interface du créateur standard :
    >
    >Le partage avec les groupes donne des permissions sur le filtre aux membres du groupe et de tous les sous-groupes.
 
-   Les filtres que vous avez partagés s’affichent dans la variable **Partagé avec moi** du panneau de filtrage pour ces entités.
+   Les filtres que vous avez partagés s’affichent dans la section **Partagés avec moi** du panneau des filtres pour ces entités.
 
    ![Filtres partagés avec moi](assets/new-filters-shared-with-me.png)
 
@@ -153,26 +153,26 @@ Partagez un filtre à l’aide de l’interface du créateur standard :
 Le partage de filtres, de vues et de regroupements dans l’interface héritée est identique.
 
 1. Accédez à une liste d’objets ou à un rapport.
-1. (Conditionnel) Dans une liste, cliquez sur le bouton **Filtrer**, **Affichage**, ou **Regroupement** puis survolez le filtre, l’affichage ou le groupe que vous souhaitez partager avec la souris et cliquez sur l’icône **Plus** icon ![Icône Plus](assets/more-icon.png), puis **Partager**.
+1. (Conditionnel) Dans une liste, cliquez sur l’icône **Filtre**, **Vue** ou **Groupement**, puis survolez le filtre, la vue ou le groupe que vous souhaitez partager, cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis **Partager**.
 
-   Dans un rapport, cliquez sur le bouton **Filtrer**, **Affichage**, ou **Regroupement** menu déroulant, puis sélectionnez le filtre, l’affichage ou le regroupement à partager.
+   Dans un rapport, cliquez sur le menu déroulant **Filtre**, **Affichage** ou **Groupement** , puis sélectionnez le filtre, l’affichage ou le regroupement que vous souhaitez partager.
 
-1. (Conditionnel) Si vous partagez à partir d’un rapport, cliquez sur l’icône **Filtrer**, **Affichage**, ou **Regroupement** menu déroulant, puis cliquez de nouveau sur **Partager le filtre**, **Partager la vue**, ou **Partager le groupement**.\
-   La variable **Accès aux filtres**, **Afficher l’accès**, ou **Accès de groupement** s’affiche.
+1. (Conditionnel) Si vous partagez à partir d’un rapport, cliquez à nouveau sur le menu déroulant **Filtre**, **Vue** ou **Groupement**, puis cliquez sur **Partager le filtre**, **Partager la vue** ou **Partager le regroupement**.\
+   La boîte de dialogue **Accès aux filtres**, **Accès aux vues** ou **Accès aux groupes** s’affiche.
 
    ![Partager le filtre](assets/share-filter-people-box-nwe-350x458.png)
 
 1. Procédez de l’une des manières suivantes, selon avec qui vous souhaitez partager :
 
-   **Pour partager avec des utilisateurs, des équipes, des rôles, des groupes ou des entreprises individuels :** Dans le champ fourni, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager le contenu, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.\
+   **Pour effectuer un partage avec des utilisateurs, équipes, rôles, groupes ou entreprises individuels :** Dans le champ fourni, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle, du groupe ou de la société avec lequel vous souhaitez partager le contenu, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.\
    Répétez ce processus pour partager l’accès avec plusieurs utilisateurs, équipes, rôles, groupes ou entreprises.
 
    >[!TIP]
    >
    >Le partage avec les groupes permet de filtrer, d&#39;afficher ou de regrouper les membres du groupe et de tous les sous-groupes.
 
-   **Pour le partager avec tous les utilisateurs du système :** Cliquez sur le bouton **Paramètres** puis cliquez sur **rendre visible à l’échelle du système ;**.\
-   Pour que cette option soit disponible, votre administrateur doit sélectionner l’option Partager à l’échelle du système . Pour plus d’informations, voir les articles [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) et [Partage de rapports, de tableaux de bord et de calendriers](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   **Pour le partager avec tous les utilisateurs du système :** Cliquez sur l’icône **Paramètres**, puis sur **Rendre ce visible à l’échelle du système**.\
+   Pour que cette option soit disponible, votre administrateur doit sélectionner l’option Partager à l’échelle du système . Pour plus d’informations, voir les articles [ Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) et [ Partager des rapports, des tableaux de bord et des calendriers](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Conditionnel) Si vous partagez avec des utilisateurs, équipes, rôles, groupes ou entreprises individuels, cliquez sur le menu déroulant pour définir le niveau d’accès que vous souhaitez accorder.
 
@@ -192,13 +192,13 @@ Le partage de filtres, de vues et de regroupements dans l’interface héritée 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Partager</strong></td> 
-      <td> <p>Cliquez sur <strong>Paramètres avancés</strong>, puis sélectionnez ou désélectionnez l’option <strong>Partager</strong> selon que vous souhaitez que les destinataires puissent partager avec d'autres personnes ou non.</p> </td> 
+      <td> <p>Cliquez sur <strong>Paramètres avancés</strong>, puis sélectionnez ou désélectionnez l’option <strong>Partager</strong>, selon que vous souhaitez que les destinataires puissent partager avec d’autres personnes.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Cliquer sur **Enregistrer**.
 
-   Les utilisateurs avec lesquels vous avez partagé le filtre, la vue ou le regroupement peuvent y accéder en cliquant sur le bouton **Filtrer**, **Affichage**, ou **Regroupement** menu déroulant ou icône, puis faites défiler l’écran jusqu’au **Partagé avec moi** .
+   Les utilisateurs avec lesquels vous avez partagé le filtre, la vue ou le regroupement peuvent y accéder en cliquant sur le menu déroulant ou l’icône **Filtre**, **Vue** ou **Groupement** et en faisant défiler la page jusqu’à la section **Partagé avec moi**.
 
 

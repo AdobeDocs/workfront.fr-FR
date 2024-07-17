@@ -16,11 +16,11 @@ ht-degree: 14%
 
 # [!DNL Adobe Unified Experience] pour [!DNL Workfront Fusion]
 
-Accès [!DNL Workfront Fusion] through [!DNL Adobe Experience Cloud] vous offre une expérience transparente et unifiée pour gérer l’ensemble de vos [!DNL Adobe] applications. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans plusieurs URL ou identifiants de connexion.
+L’accès à [!DNL Workfront Fusion] à [!DNL Adobe Experience Cloud] offre une expérience unifiée et transparente pour la gestion de toutes vos applications [!DNL Adobe]. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans plusieurs URL ou identifiants de connexion.
 
-Pour une vidéo décrivant la navigation dans [!DNL Fusion] dans le [!DNL Adobe Experience Cloud], voir :
+Pour une vidéo décrivant la navigation dans [!DNL Fusion] dans [!DNL Adobe Experience Cloud], voir :
 
-[[!DNL Fusion] sur le [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+[[!DNL Fusion]  sur le  [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## Conditions d’accès
 
@@ -53,38 +53,38 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront Fusion] administrateur.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur [!DNL Workfront Fusion].
 
 ## Conditions préalables
 
-L’instance de Workfront Fusion de votre entreprise doit être intégrée au [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
+L’instance de Workfront Fusion de votre entreprise doit être intégrée à [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
 
-## Connexion à [!DNL Adobe Experience Cloud]
+## Connectez-vous à [!DNL Adobe Experience Cloud]
 
 1. Ouvrez une fenêtre de navigateur et accédez à <https://experience.adobe.com>.
-1. Dans l’écran de connexion, saisissez votre adresse électronique, puis cliquez sur **[!UICONTROL Continuer]**.
+1. Dans l’écran Se connecter, saisissez votre adresse électronique et cliquez sur **[!UICONTROL Continuer]**.
 
    ![Se connecter à [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 
 ## Accès [!DNL Workfront Fusion]
 
-Une fois connecté à [!DNL Adobe Experience Cloud], vous pouvez afficher l’ensemble des [!DNL Workfront Fusion] organisations et environnements auxquels vous avez accès en cliquant sur le sélecteur d’organisation dans la zone de navigation supérieure. Sélectionnez la variable [!DNL Workfront Fusion] organisation ou environnement dans lequel vous souhaitez travailler.
+Une fois connecté à [!DNL Adobe Experience Cloud], vous pouvez afficher toutes les organisations et tous les environnements [!DNL Workfront Fusion] auxquels vous avez accès en cliquant sur le sélecteur d’organisation dans la zone de navigation supérieure. Sélectionnez l’organisation ou l’environnement [!DNL Workfront Fusion] dans lequel vous souhaitez travailler.
 
-![Affichage [!DNL Workfront Fusion] organisations et environnements](assets/aec-view-all-orgs.png)
+![Afficher [!DNL Workfront Fusion] organisations et environnements](assets/aec-view-all-orgs.png)
 
 >[!NOTE]
 >
 >La première fois que vous vous connectez à [!DNL Adobe Experience Cloud], l’organisation utilise par défaut le premier de la liste alphabétique. La prochaine fois que vous vous connectez, l’organisation utilise par défaut la dernière que vous avez visitée.
 
-[!DNL Workfront Fusion] apparaît dans la liste de [!DNL Adobe Experience Cloud] produits auxquels vous avez accès. Vous pouvez choisir [!DNL Workfront Fusion] dans le menu d’accès rapide du [!DNL Experience Cloud] page d’accueil ou utiliser le sélecteur de produits ![Sélecteur de produits](assets/main-menu-icon.png) pour modifier les applications à tout moment.
+[!DNL Workfront Fusion] apparaît dans la liste des [!DNL Adobe Experience Cloud] produits auxquels vous avez accès. Vous pouvez choisir [!DNL Workfront Fusion] dans le menu d’accès rapide de la page d’accueil de [!DNL Experience Cloud] ou utiliser le sélecteur de produits ![ pour changer d’application à tout moment.](assets/main-menu-icon.png)
 
-![Sélectionner [!DNL Workfront Fusion] pour accéder à l’application](assets/aec-product-switcher.png)
+![Sélectionnez [!DNL Workfront Fusion] pour accéder à l’application](assets/aec-product-switcher.png)
 
 ## Naviguer [!DNL Workfront Fusion]
 
-Utilisez la variable [!UICONTROL Menu Principal] icon ![](assets/main-menu-icon-left-nav.png) sur la gauche de la [!DNL Adobe] pour ouvrir la barre de navigation [!UICONTROL Organisation] et [!UICONTROL Équipe] menus. Si vous êtes un [!DNL Workfront Fusion] votre administrateur, [!UICONTROL Administration] s’affiche également ici.
+Utilisez l’icône [!UICONTROL Menu principal] ![](assets/main-menu-icon-left-nav.png) située à gauche de la barre de navigation [!DNL Adobe] pour ouvrir les menus [!UICONTROL Organisation] et [!UICONTROL Équipe] . Si vous êtes administrateur [!DNL Workfront Fusion], le menu [!UICONTROL Administration] s’affiche également ici.
 
-Pour changer d’équipe, cliquez sur le nom de l’équipe en haut de la page, puis sélectionnez l’équipe. Le sélecteur d’équipe s’affiche uniquement sur les pages spécifiques à une équipe, telles qu’un créateur de scénarios ou le [!UICONTROL Connexions] page.
+Pour changer d’équipe, cliquez sur le nom de l’équipe en haut de la page, puis sélectionnez l’équipe. Le sélecteur d’équipe s’affiche uniquement sur les pages propres à une équipe, telles qu’un créateur de scénarios ou la page [!UICONTROL Connexions].
 
 Pour changer d’organisation, cliquez sur son nom dans le coin supérieur droit de l’écran, puis sélectionnez l’organisation.
 
@@ -96,22 +96,22 @@ Vous pouvez accéder à vos options de profil et de préférence en cliquant sur
 
 Ce menu vous permet d’effectuer les opérations suivantes :
 
-* Choisir **[!UICONTROL Thème sombre]** formatage pour [!DNL Adobe Experience Cloud].
-* Définir **[!UICONTROL Préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences de langue principale et secondaire.
-* Accédez à **[!UICONTROL [!DNL Workfront Fusion]Profil]**. Une fois que vous êtes sur le profil, cliquez sur le **[!UICONTROL Plus]** menu ![](assets/more-icon.png) et sélectionnez **[!UICONTROL Modifier]**. Pour plus d’informations sur le profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
-* **[!UICONTROL Se déconnecter]** de Adobe Experience Cloud.
+* Sélectionnez la mise en forme **[!UICONTROL Thème sombre]** pour [!DNL Adobe Experience Cloud].
+* Définissez les **[!UICONTROL préférences]** pour [!DNL Adobe Experience Cloud], y compris les préférences de langue primaire et secondaire.
+* Accédez à votre **[!UICONTROL [!DNL Workfront Fusion]profil]**. Une fois que vous êtes sur le profil, cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png) et sélectionnez **[!UICONTROL Modifier]**. Pour plus d’informations sur le profil, voir [Configurer mes paramètres](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Déconnexion]** de Adobe Experience Cloud.
 
 
 ## Accès à vos notifications
 
 Vous trouverez vos notifications et annonces dans la zone Notifications de l’interpréteur de commandes unifié.
 
-Pour afficher vos notifications, cliquez sur l’icône Notifications ![Icône Notifications](assets/notifications-icon.png) près du coin supérieur droit de l’écran. Un point rouge sur l’icône Notifications indique que vous avez des notifications ou des annonces non lues.
+Pour afficher vos notifications, cliquez sur l’icône Notifications ![ icône Notifications ](assets/notifications-icon.png) près du coin supérieur droit de l’écran. Un point rouge sur l’icône Notifications indique que vous avez des notifications ou des annonces non lues.
 
-Pour plus d’informations sur la configuration de vos notifications dans Adobe Experience Cloud, voir [Configuration des notifications](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) dans la documentation de l’Adobe.
+Pour plus d’informations sur la configuration de vos notifications dans Adobe Experience Cloud, voir [Configuration de la notification](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) dans la documentation de l’Adobe.
 
 Lors de la configuration, notez les points suivants :
 
-* **Alertes** se rapportent aux scénarios bloqués.
-* **Mises à jour du contenu** reportez-vous aux erreurs et aux avertissements dans les exécutions de scénarios.
+* **Alertes** font référence à des scénarios bloqués.
+* **Les mises à jour du contenu** se rapportent aux erreurs et aux avertissements dans les exécutions de scénarios.
 

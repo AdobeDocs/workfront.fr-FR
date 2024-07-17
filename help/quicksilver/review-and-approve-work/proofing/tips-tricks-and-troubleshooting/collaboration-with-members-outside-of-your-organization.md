@@ -18,13 +18,13 @@ Il existe certaines limites à connaître lors de la communication avec des pers
 
 Il existe trois types de contacts dans un environnement de vérification :
 
-* **Utilisateurs**: Les utilisateurs disposent d’une connexion Workfront Proof dans l’environnement de votre entreprise.
-* **Membres**: Les membres disposent de leur propre connexion Workfront Proof dans l’environnement d’une autre organisation (et non le vôtre). Vous ne pouvez pas convertir les membres en utilisateurs dans votre environnement.
-* **Les invités**: Les clients ne disposent pas de leur propre connexion Workfront Proof dans l’environnement de votre entreprise, mais vous avez ajouté leurs détails à votre compte (réviseurs invités sur les bons à tirer, par exemple). Vous pouvez convertir les invités en utilisateurs.
+* **Utilisateurs** : les utilisateurs disposent d’une connexion Workfront Proof dans l’environnement de votre entreprise.
+* **Membres** : les membres disposent de leur propre connexion Workfront Proof dans l’environnement d’une autre organisation (et non le vôtre). Vous ne pouvez pas convertir les membres en utilisateurs dans votre environnement.
+* **Invités** : les invités n’ont pas leur propre connexion Workfront Proof dans l’environnement de votre entreprise, mais vous avez ajouté leurs détails à votre compte (par exemple, les réviseurs invités sur les bons à tirer). Vous pouvez convertir les invités en utilisateurs.
 
-Comme les membres ne peuvent pas être convertis en utilisateurs, leur capacité à baliser les personnes dans les commentaires de BAT est limitée aux utilisateurs issus de *leur organisation d’origine*.
+Comme les membres ne peuvent pas être convertis en utilisateurs, leur capacité à baliser les personnes dans les commentaires de BAT est limitée aux utilisateurs de *leur organisation d’origine*.
 
-**Exemple :** La Société A invite un utilisateur extérieur à passer en revue un BAT. Cet utilisateur existe déjà dans un environnement de BAT distinct, Société B.
+**Exemple :** La société A invite un utilisateur externe à passer en revue un BAT. Cet utilisateur existe déjà dans un environnement de BAT distinct, Société B.
 
  
 

@@ -40,7 +40,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>  
    <td> 
-   <p>Actuel : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p> 
+   <p>Actuel : aucune exigence de licence [!DNL Workfront Fusion].</p> 
    <p>Ou</p> 
    <p>Hérité : Tout </p> 
    </td>  
@@ -48,9 +48,9 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr>  
    <td role="rowheader">Produit</td>  
    <td> 
-   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul> 
+   <p>Nouveau :</p> <ul><li>Formule [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront] : [!DNL Workfront Fusion] est inclus.</li></ul> 
    <p>Ou</p> 
-   <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actuel : votre organisation doit acheter [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  

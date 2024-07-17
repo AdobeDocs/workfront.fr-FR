@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: 2020.1 Autres améliorations
+title: Autres améliorations (version 2020.1)
 description: Cette page décrit toutes les améliorations apportées aux zones générales de Workfront avec la version 2020.1. Ces améliorations sont actuellement disponibles dans l’environnement Aperçu et seront disponibles dans l’environnement Production à la fin du mois de mars ou au début du mois d’avril 2020.
 author: Luke
 feature: Product Announcements
@@ -10,15 +10,15 @@ exl-id: a716590c-c833-458a-a138-9bc0723e5896
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 2020.1 Autres améliorations
+# Autres améliorations (version 2020.1)
 
 Cette page décrit toutes les améliorations apportées aux zones générales de Workfront avec la version 2020.1. Ces améliorations sont actuellement disponibles dans l’environnement Aperçu et seront disponibles dans l’environnement Production à la fin du mois de mars ou au début du mois d’avril 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.1, voir [Présentation de la version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.1, consultez la [présentation de la version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Modification requise pour ajouter des bons à tirer à la liste autorisée
 
@@ -32,17 +32,17 @@ Si votre pare-feu ou votre serveur de messagerie est configuré pour autoriser l
 
 &#42;.workfront.com
 
-La variable &#42;proofhq.com L’URL est également requise.
+L’URL &#42;proofhq.com est également requise.
 
 Pour plus d’informations sur la mise à jour de votre liste autorisée, voir [Configuration de la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
->Cette mise à jour s’applique uniquement à la vérification dans Workfront ; elle ne s’applique pas lors de l’utilisation de l’application autonome BAT Workfront.
+>Cette mise à jour s’applique uniquement à la correction d’épreuves dans Workfront ; elle ne s’applique pas lors de l’utilisation de l’application autonome Workfront Proof.
 
 ## Comportement des cookies Workfront mis à jour pour maintenir la compatibilité avec Chrome
 
-Pour maintenir la compatibilité avec une mise à jour prochaine de Google Chrome (Chrome v80), nous avons mis à jour la plateforme Workfront afin de nous assurer que les cookies sont correctement envoyés avec les requêtes.
+Pour maintenir la compatibilité avec une mise à jour de Google Chrome (Chrome v80) à venir, nous avons mis à jour la plateforme Workfront afin de nous assurer que les cookies sont correctement envoyés avec les requêtes.
 
 Cette mise à jour de Chrome modifie la valeur par défaut de l’attribut de cookie SameSite. Si vous souhaitez tester le comportement de votre instance Workfront après la mise à jour de Google Chrome, ajustez les indicateurs dans Chrome et activez les options suivantes :
 
@@ -63,4 +63,4 @@ Nous avons supprimé la possibilité de basculer entre le nouvel Portfolio Optim
 
 Pour plus d’informations sur l’optimiseur de portefeuille, voir https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-Pour plus d’informations sur l’obsolescence des outils basés sur des Flashs dans Workfront, voir [Remplacement des outils par Flash dans Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Pour plus d’informations sur l’obsolescence des outils basés sur des Flashs dans Workfront, voir [Remplacement des outils basés sur des Flashs dans Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).

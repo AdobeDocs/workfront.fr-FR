@@ -10,7 +10,7 @@ exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,7 @@ Les résultats mesurent la progression d’un objectif. Sans associer de résult
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -71,14 +71,14 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -138,25 +138,25 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Cliquez sur le menu principal ![](assets/main-menu-icon.png), puis **Objectifs**.
+1. Cliquez sur le menu principal ![](assets/main-menu-icon.png), puis sur **Objectifs**.
 
 1. Dans la **Liste des objectifs**, cliquez sur le nom d’un objectif pour ouvrir la page d’objectif.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
-1. Développez l’objet **Nouvel indicateur de progression** , puis cliquez sur **Créer un résultat**.
+1. Développez le menu déroulant **Nouvel indicateur de progression** , puis cliquez sur **Créer un résultat**.
 
    La boîte de dialogue Nouveau résultat s’affiche.
 
    ![](assets/new-result-box-unshimmed.png)
 
-1. Saisissez un nom pour le résultat dans la variable **Nom du résultat** champ . Champ obligatoire.
-1. (Facultatif) Supprimez votre nom du **Propriétaire du résultat** si vous souhaitez affecter le résultat à un autre utilisateur. Par défaut, vous êtes le propriétaire d’une activité que vous créez.
+1. Saisissez un nom pour le résultat dans le champ **Result name**. Il s’agit d’un champ obligatoire.
+1. (Facultatif) Supprimez votre nom du champ **Result owner** si vous souhaitez affecter le résultat à un autre utilisateur. Par défaut, vous êtes le propriétaire d’une activité que vous créez.
 
    >[!NOTE]
    >
    >Vous ne pouvez pas affecter une équipe, un groupe ou l’entreprise en tant que propriétaire de résultat.
 
-1. Dans le **Comment voulez-vous mesurer votre résultat ?** définissez les informations suivantes :
-   * **Type de valeur**: indique comment mesurer la progression par rapport au résultat. Vous pouvez mesurer la progression numériquement, avec une valeur de pourcentage ou en utilisant un montant en devise.
+1. Dans le **Comment voulez-vous mesurer votre résultat ?** , spécifiez les informations suivantes :
+   * **Type de valeur** : indique comment mesurer la progression du résultat. Vous pouvez mesurer la progression numériquement, avec une valeur de pourcentage ou en utilisant un montant en devise.
 
      Sélectionnez un type de valeur parmi les options répertoriées dans le tableau suivant :
 
@@ -166,8 +166,8 @@ Adding results to goals differs depending on which environment you use.
      | % | Valeur en pourcentage |
      | CN¥,DKK,KR,Mex$, R$, zverify, £, ¥ , € , ₹, ฿, MYR, $ | Valeurs de devise |
 
-   * **Valeur initiale**: valeur du résultat au début, avant que toute progression ne soit enregistrée.
-   * **Valeur cible**: valeur que le résultat vise à obtenir lorsqu’il est considéré comme terminé.
+   * **Valeur initiale** : valeur du résultat au début, avant que toute progression ne soit enregistrée.
+   * **Valeur cible** : valeur que le résultat vise à obtenir lorsqu’il est considéré comme terminé.
 1. Cliquez sur **Créer un résultat**.
 
    Le résultat s&#39;affiche dans la section Indicateurs de progression de la page d&#39;objectif, sous le groupement Résultat .

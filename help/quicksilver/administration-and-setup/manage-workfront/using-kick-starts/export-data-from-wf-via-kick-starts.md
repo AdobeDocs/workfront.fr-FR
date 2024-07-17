@@ -11,8 +11,8 @@ role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1013'
+ht-degree: 13%
 
 ---
 
@@ -45,14 +45,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
+   <p>Nouvelle : standard</p>
    Ou
-   <p>Actuel : formule</p>
+   <p>Actuelle : formule</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p></td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ Il existe deux manières d’exporter des données dans Workfront :
 
 * Exporter des données depuis un rapport ou une liste
 
-  Pour plus d’informations sur l’export de données depuis un rapport ou une liste, voir [Exporter des données](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  Pour plus d&#39;informations sur l&#39;export de données à partir d&#39;un rapport ou d&#39;une liste, voir [Export de données](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * Exporter des données par le biais de démarrages
 
@@ -86,12 +86,12 @@ Le tableau suivant présente les avantages et les inconvénients de chaque méth
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Exportation de données à partir d’un mode Liste</strong> </p> <p>Pour plus d’informations sur l’export de données depuis une liste, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exporter des données</a></p> </td> 
+   <td> <p><strong>Exportation de données à partir d’une vue de liste</strong> </p> <p>Pour plus d'informations sur l'export de données depuis une liste, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export de données</a></p> </td> 
    <td> <p>Oui</p> <p>Les champs natifs Workfront et les champs personnalisés associés aux objets sont exportés.</p> </td> 
    <td> <p>Non</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Exporter des données par le biais de start-ups</strong> </p> </td> 
+   <td> <p><strong>Exportation de données via Kick-Starts</strong> </p> </td> 
    <td> <p>Oui (limité)</p> <p>La plupart des champs natifs Workfront associés aux objets sont exportés, mais certains ne le sont pas. Par exemple, vous ne pouvez pas exporter les champs Planification, Propriétaire du projet ou Parrain du projet par le biais d’une exportation de lancement de projet.</p> <p>Dans un projet auquel est associé un formulaire personnalisé, les données saisies dans les champs du formulaire ne sont pas exportées.</p> <p>Vous pouvez toutefois exporter un formulaire personnalisé. Le fichier obtenu répertorie les champs configurés dans le formulaire, tels que les zones de texte et les boutons radio.</p> </td> 
    <td> <p>Oui</p> <p>L’utilisation du bouton de sélection pour exporter des données Workfront vous permet d’exporter des données liées à plusieurs types d’objets dans une seule exportation. Par exemple, vous pouvez inclure des tâches, des problèmes et des projets dans un seul export.</p> </td> 
   </tr> 
@@ -102,16 +102,16 @@ Le tableau suivant présente les avantages et les inconvénients de chaque méth
 
 Les restrictions suivantes s’appliquent lors de l’exportation de données par démarrage rapide (les données sont exportées au format de fichier Excel) :
 
-* **50 000 lignes :** Le nombre de lignes autorisé dans le fichier.
-* **65 530 liens hypertexte :** Il s’agit d’une limite imposée par Excel aux documents qui contiennent plus de 65 530 liens hypertexte. Une fois exportés, ces documents ne peuvent plus être ouverts. Notez qu’un document Excel ne peut contenir que 200 lignes de données, mais s’il existe plus de 65 530 liens dans le document, celui-ci ne s’ouvre pas.
+* **50 000 lignes :** Nombre de lignes autorisées dans le fichier.
+* **65 530 hyperliens :** Il s’agit d’une limite imposée par Excel pour les documents qui contiennent plus de 65 530 hyperliens. Une fois exportés, ces documents ne peuvent plus être ouverts. Notez qu’un document Excel ne peut contenir que 200 lignes de données, mais s’il existe plus de 65 530 liens dans le document, celui-ci ne s’ouvre pas.
 
 ## Exporter des données par le biais de lancements
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Système** > **Démarrages,** puis cliquez sur **Exporter des données.**
+1. Cliquez sur **System** > **Kick-Starts,**, puis sur **Export Data.**
 
-1. Sélectionnez l’objet à exporter. Par défaut, les objets suivants sont affichés sous **Eléments à inclure**:
+1. Sélectionnez l’objet à exporter. Par défaut, les objets suivants sont affichés sous **Que inclure** :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -137,7 +137,7 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Approbation</p> </td> 
-      <td scope="col" valign="top"> <p>Approbateur d’étape<br>Étape de validation<br>Validation<br>Processus d’approbation<br>Préférences</p> </td> 
+      <td scope="col" valign="top"> <p>Étape Approbateur<br>Étape d’approbation<br>Approbation<br>Processus d’approbation<br>Préférences</p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
@@ -157,12 +157,12 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
      </tr> 
      <tr> 
       <td valign="top"> <p>Equipe</p> </td> 
-      <td valign="top"> Membre de l’équipe<br>Équipe<br>Préférences </td> 
+      <td valign="top"> Membre de l’équipe<br>Team<br>Preferences </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td valign="top"> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
-      <td valign="top"> <p>Utilisateur<br>Préférences</p> </td> 
+      <td valign="top"> <p>User<br>Preferences</p> </td> 
       <td valign="top"> <p> Excel</p> </td> 
      </tr> 
     </tbody> 
@@ -172,9 +172,9 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
 
    Tous les objets répertoriés ici peuvent également être utilisés pour importer des données dans Workfront.
 
-   La seule exception est la **Niveaux d’accès** . La feuille de données des niveaux d’accès incluse dans une exportation est fournie à titre de référence uniquement. Il vous permet d’attribuer un niveau d’accès à un nouveau compte utilisateur par identifiant.
+   La seule exception concerne l’objet **Access Lelevels**. La feuille de données des niveaux d’accès incluse dans une exportation est fournie à titre de référence uniquement. Il vous permet d’attribuer un niveau d’accès à un nouveau compte utilisateur par identifiant.
 
-   Pour plus d’informations sur l’importation de données dans Workfront par le biais de démarrages de session, voir [Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). Voici une liste de tous les objets qui peuvent être exportés par le biais de démarrages :
+   Pour plus d’informations sur l’importation de données dans Workfront par le biais de démarrages de session, voir [Importation de données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). Voici une liste de tous les objets qui peuvent être exportés par le biais de démarrages :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -200,7 +200,7 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
      </tr> 
      <tr> 
       <td scope="col" valign="top">Entreprise</td> 
-      <td scope="col" valign="top"> Société<br>Préférences </td> 
+      <td scope="col" valign="top"> Préférences de la société<br> </td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -225,17 +225,17 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
      </tr> 
      <tr> 
       <td valign="top">Groupe</td> 
-      <td valign="top"> Groupe<br>Préférences  </td> 
+      <td valign="top"> Group<br>Preferences  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Regroupement </td> 
-      <td valign="top"> Regroupement<br>Préférences </td> 
+      <td valign="top"> Préférences de regroupement<br> </td> 
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
       <td valign="top">Heure</td> 
-      <td valign="top"> Heure<br>Préférences </td> 
+      <td valign="top"> Préférences<br> </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -245,12 +245,12 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
      </tr> 
      <tr> 
       <td valign="top">Fonction</td> 
-      <td valign="top"> Rôle de tâche<br>Préférences </td> 
+      <td valign="top"> Préférences du rôle de tâche<br> </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Chemin jalonné</td> 
-      <td valign="top"> Milestone<br>Chemin Milestone<br>Préférences </td> 
+      <td valign="top"> Milestone<br>Milestone Path<br>Preferences </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
@@ -265,22 +265,22 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
      </tr> 
      <tr> 
       <td valign="top">Projet</td> 
-      <td valign="top"> File d’attente<br>Projet<br>Règle de routage<br>Rubrique de la file d’attente<br>Préférences </td> 
+      <td valign="top"> File d’attente<br>Projet<br>Règle de routage<br>Rubrique de file d’attente<br>Préférences </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Estimation de ressources</td> 
-      <td valign="top"> Estimation de ressource<br>Préférences </td> 
+      <td valign="top"> Préférences pour l’estimation des ressources<br> </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Pool de ressources</td> 
-      <td valign="top"> Pool de ressources<br>Préférences </td> 
+      <td valign="top"> Ressource Pool<br>Préférences </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Risque</td> 
-      <td valign="top"> Risque<br>Préférences  </td> 
+      <td valign="top"> Risques<br>Préférences  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -290,17 +290,17 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
      </tr> 
      <tr> 
       <td valign="top">Carte de score</td> 
-      <td valign="top">Questions relatives à la Fiche d’évaluation<br>Option de Fiche d’évaluation<br>Fiche d’évaluation<br>Préférences </td> 
+      <td valign="top">Questions sur la Fiche d’évaluation<br>Option de Fiche d’évaluation<br>Fiche d’évaluation<br>Préférences </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Tâche</td> 
-      <td valign="top"> Tâche<br>Préférences </td> 
+      <td valign="top"> Task<br>Preferences </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Modèle</td> 
-      <td valign="top"> File d’attente<br>Modèle<br>Règle de routage<br>Rubrique de la file d’attente<br>Préférences </td> 
+      <td valign="top"> File d’attente<br>Modèle<br>Règle de routage<br>Rubrique de file d’attente<br>Préférences </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
@@ -310,12 +310,12 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
      </tr> 
      <tr> 
       <td valign="top">Tâche de modèle</td> 
-      <td valign="top"> Tâche du modèle<br>Préférences </td> 
+      <td valign="top"> Tâche de modèle<br>Préférences </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Feuille de temps</td> 
-      <td valign="top"> Profil de feuille de calcul<br>Feuille de calcul<br>Préférences </td> 
+      <td valign="top"> Profil de feuille de temps<br>Frise chronologique<br>Préférences </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
@@ -326,13 +326,13 @@ Les restrictions suivantes s’appliquent lors de l’exportation de données pa
     </tbody> 
    </table>
 
-1. Cliquez sur **Téléchargez.**
+1. Cliquez sur **Télécharger.**
 
-   Le fichier de démarrage rapide exporté est téléchargé sur votre ordinateur sous la forme d’un fichier Excel ou d’un fichier . fichier zip contenant plusieurs fichiers Excel et de propriétés. Chaque fichier Excel est un ensemble de feuilles, où chaque feuille représente un champ associé à l’objet sélectionné. Il existe une **Propriétés** feuille associée à chaque export.
+   Le fichier de démarrage rapide exporté est téléchargé sur votre ordinateur sous la forme d’un fichier Excel ou d’un fichier . fichier zip contenant plusieurs fichiers Excel et de propriétés. Chaque fichier Excel est un ensemble de feuilles, où chaque feuille représente un champ associé à l’objet sélectionné. Une feuille **Properties** est associée à chaque exportation.
 
-   La variable **Tableau de bord** et **Rapport** Les options vous permettent de sélectionner des tableaux de bord et des rapports spécifiques à inclure dans le téléchargement. Vous ne pouvez exporter que les tableaux de bord, qui sont partagés à l’échelle du système.
+   Les options **Tableau de bord** et **Rapport** vous permettent de sélectionner des tableaux de bord et des rapports spécifiques à inclure dans le téléchargement. Vous ne pouvez exporter que les tableaux de bord, qui sont partagés à l’échelle du système.
 
-   Vous ne pouvez pas exporter de rapports de matrice. Pour plus d’informations sur les rapports de matrice, voir [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   Vous ne pouvez pas exporter de rapports de matrice. Pour plus d’informations sur les rapports de matrice, voir [Création d’un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
    Le démarrage rapide ne prend pas en charge les filtres en mode texte. Pour réussir l’exportation, les filtres de création de rapports doivent être basculés en mode standard.
 

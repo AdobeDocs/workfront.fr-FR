@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Webinars de version R1
+title: Webinaires sur la version R1
 description: Ces webinaires portaient sur les fonctionnalités incluses dans la version R1.
 author: Luke
 feature: Product Announcements
@@ -10,17 +10,17 @@ exl-id: 5656710c-873b-4f8c-822f-49858f149892
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Webinars de version R1
+# Webinaires sur la version R1
 
 Ces webinaires portaient sur les fonctionnalités incluses dans la version R1. 
 
 La version R1 est actuellement disponible pour le test dans Aperçu ; la version R1 est disponible dans l’environnement de production le 26 avril 2017.
 
-Pour obtenir des informations plus détaillées sur les fonctionnalités abordées dans les webinaires, voir [Présentation de l’activité de version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) page.
+Pour plus d’informations sur les fonctionnalités abordées dans les webinaires, consultez la page [Présentation de l’activité de version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) .
 
 Les webinaires suivants sont disponibles :
 
@@ -32,7 +32,7 @@ Pour des raisons pratiques, le webinaire est divisé en plusieurs rubriques :
 
 * [Introduction](#introduction)
 * [Projets](#projects)
-* [Gestion des utilisateurs](#user-management)
+* [Gestion utilisateur](#user-management)
 * [Configuration](#configuration)
 * [Mobile et Outlook](#mobile-and-outlook)
 

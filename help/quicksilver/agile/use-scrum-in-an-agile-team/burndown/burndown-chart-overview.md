@@ -2,7 +2,7 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Présentation du graphique en décharge agile
+title: Vue d’ensemble du graphique d’avancement agile
 description: Le graphique de condensation fournit une représentation visuelle de l’avancement des articles dans l’itération ou le projet . Le taux de charge réel est mesuré par rapport au taux de charge idéal pour l’itération ou la chronologie du projet.
 author: Lisa
 feature: Agile
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Présentation du graphique en décharge agile
+# Vue d’ensemble du graphique d’avancement agile
 
 Le graphique en courbes de charge fournit une représentation visuelle de l’évolution des histoires à travers l’itération. Le taux de charge réel est mesuré par rapport au taux de charge idéal pour la chronologie d’itération.
 
-Le graphique de ventilation s’ajuste en fonction du jour sélectionné. Le jour en cours est la valeur par défaut. Lorsqu’un jour précédent est sélectionné, toutes les données du graphique de ventilation et toutes les valeurs de la variable [!UICONTROL état d’achèvement] Les sections situées au-dessus du graphique de ventilation sont recalculées afin de représenter les données telles qu’elles se trouvaient à la fin du jour sélectionné. (Vous pouvez sélectionner les derniers jours ou le jour en cours ; vous ne pouvez pas sélectionner de jours à l’avenir.)
+Le graphique de ventilation s’ajuste en fonction du jour sélectionné. Le jour en cours est la valeur par défaut. Lorsqu’un jour précédent est sélectionné, toutes les données du graphique de ventilation et toutes les valeurs de la section [!UICONTROL état d’achèvement] au-dessus du graphique de ventilation sont recalculées afin de représenter les données telles qu’elles se trouvaient à la fin du jour sélectionné. (Vous pouvez sélectionner les derniers jours ou le jour en cours ; vous ne pouvez pas sélectionner de jours à l’avenir.)
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
@@ -32,11 +32,11 @@ Le graphique de ventilation contient les indicateurs visuels suivants :
  <tbody> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
-   <td> <p>Taux de charge idéal en fonction du moment où l’itération a commencé.</p> <p>Cette ligne ne s’affiche pas si la portée de l’itération ne change jamais (les heures ou les points ne sont jamais ajoutés ou supprimés).</p> <p>Cette ligne s’affiche comme plate lorsque le travail est effectué un jour de congé. Pour plus d’informations, voir <a title="Utilisation du diagramme de Burndown ageur" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Effet des jours de congé sur le graphique de ventilation</a>.</p> </td> 
+   <td> <p>Taux de charge idéal en fonction du moment où l’itération a commencé.</p> <p>Cette ligne ne s’affiche pas si la portée de l’itération ne change jamais (les heures ou les points ne sont jamais ajoutés ou supprimés).</p> <p>Cette ligne s’affiche comme plate lorsque le travail est effectué un jour de congé. Pour plus d’informations, voir <a title="Utilisation du diagramme de Burndown ageur" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Comment les jours de congé affectent le graphique de charge</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
-   <td> <p>Taux de charge idéal en fonction des articles ou des tâches en cours.</p> <p>Le taux de charge idéal actuel (ligne bleue pleine) diffère du taux de charge idéal d’origine (ligne bleue pointillée) lorsque des heures ou des points sont ajoutés ou supprimés de l’itération une fois l’itération commencée.</p> <p>Cette ligne s’affiche comme plate lorsque le travail est effectué un jour de congé.</p> <p>Pour plus d’informations, voir <a title="Utilisation du diagramme de Burndown ageur" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Effet des jours de congé sur le graphique de ventilation</a>.</p> </td> 
+   <td> <p>Taux de charge idéal en fonction des articles ou des tâches en cours.</p> <p>Le taux de charge idéal actuel (ligne bleue pleine) diffère du taux de charge idéal d’origine (ligne bleue pointillée) lorsque des heures ou des points sont ajoutés ou supprimés de l’itération une fois l’itération commencée.</p> <p>Cette ligne s’affiche comme plate lorsque le travail est effectué un jour de congé.</p> <p>Pour plus d’informations, voir <a title="Utilisation du diagramme de Burndown ageur" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Comment les jours de congé affectent le graphique de charge</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
@@ -71,9 +71,9 @@ Le graphique de ventilation contient les indicateurs visuels suivants :
 
 ## Effet des jours de congé sur le graphique de ventilation {#how-days-off-affect-the-burndown-chart}
 
-La planification par défaut définie dans [!DNL Workfront] affecte le graphique de la charge en excluant les jours de congé (week-ends et jours fériés) de la charge. Le graphique de ventilation utilise la planification par défaut pour définir les jours de travail (comme décrit dans la section  [Création d’un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+La planification par défaut définie dans [!DNL Workfront] affecte le graphique de charge en excluant les jours de congé (week-ends et jours fériés) du temps de charge. Le graphique de ventilation utilise la planification par défaut pour définir les jours de travail (comme décrit dans la section  [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
-Les équipes agiles peuvent incorporer des jours non ouvrés spécifiques à l’équipe en définissant un autre planning (comme décrit dans l’article). [Utilisation d’un autre planning d’équipe pour les graphiques de ventilation](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Ce planning alternatif est ensuite repris dans le graphique de répartition de toute itération affectée à l&#39;équipe. La planification alternative affecte uniquement le graphique de ventilation.
+Les équipes agiles peuvent incorporer des jours non ouvrés spécifiques à l’équipe en définissant un autre planning (comme décrit dans l’article [Utiliser un autre planning d’équipe pour les graphiques de condensation](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Ce planning alternatif est ensuite repris dans le graphique de répartition de toute itération affectée à l&#39;équipe. La planification alternative affecte uniquement le graphique de ventilation.
 
 Les jours de congé ne sont pris en compte dans le graphique de ventilation que si :
 
@@ -88,8 +88,8 @@ Les jours de congé ne sont pris en compte dans le graphique de ventilation que 
 * Vous affichez le graphique de charge un jour de congé. (Le jour que vous affichez s’affiche sur le graphique de ventilation.)
 * Vous effectuez le reste du travail pour l’itération un jour de congé.
 
-  Lorsqu’un utilisateur termine la totalité du travail restant pour l’itération un jour de congé, la variable [!UICONTROL Achèvement estimé] affiche la date à laquelle l’itération a été effectuée.
+  Lorsqu’un utilisateur termine le total du travail restant pour l’itération un jour de congé, le champ [!UICONTROL Achèvement estimé] affiche la date à laquelle l’itération a été terminée.
 
-  Lors de la planification de l’itération, si vous définissez la date de fin de l’itération pour un jour non fonctionnel et que le suivi de l’itération se termine à temps, la variable [!UICONTROL Achèvement estimé] est définie pour le dernier jour de travail précédant la date de fin de l’itération que vous définissez (car le travail n’est pas planifié pour être réduit en cendres les jours non ouvrés).
+  Lors de la planification de l’itération, si vous définissez la date de fin de l’itération pour un jour non ouvré et que l’itération est suivie pour se terminer à temps, la date [!UICONTROL Achèvement estimé] est définie pour le dernier jour de travail précédant la date de fin de l’itération que vous avez définie (car le travail n’est pas planifié pour être réduit en cendres les jours non ouvrés).
 
-  La date de fin de l’itération est spécifiée lors de la planification de l’itération, comme décrit dans l’article. [Créer une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  La date de fin de l’itération est spécifiée lorsque l’itération est planifiée, comme décrit dans l’article [Créer une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).

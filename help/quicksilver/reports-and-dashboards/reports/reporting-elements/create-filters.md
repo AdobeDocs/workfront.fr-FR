@@ -9,7 +9,7 @@ exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
 source-wordcount: '2461'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -23,13 +23,13 @@ Vous pouvez appliquer les types de filtres suivants dans Adobe Workfront :
 
 * Filtres rapides dans une liste d’objets pour rechercher un élément à l’aide d’un mot-clé. Il s’agit de filtres temporaires que vous ne pouvez pas enregistrer pour une utilisation ultérieure.
 
-  Pour plus d’informations sur les filtres rapides, voir [Appliquer le filtre rapide à une liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Pour plus d’informations sur les filtres rapides, voir [Application du filtre rapide à une liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 * Filtres permanents que vous pouvez enregistrer et utiliser de nombreuses fois sur plusieurs listes et rapports. Cet article décrit comment créer un filtre permanent ou modifier un filtre existant dans une liste ou un rapport.
 
 * Filtres dans d’autres zones de Workfront, en dehors des listes et des rapports.
 
-  Pour obtenir la liste de tous les filtres dans Workfront et les zones dans lesquelles vous pouvez les appliquer, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Pour obtenir la liste de tous les filtres dans Workfront et les zones dans lesquelles vous pouvez les appliquer, reportez-vous à la section [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Conditions d’accès
 
@@ -47,33 +47,33 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Nouveau : contributeur ou version ultérieure</p>
+   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
 
 Ou
 
-<p>Actuel : requête ou version ultérieure</p>
+<p>Actuelle : demande ou supérieure</p>
 
-<p><b>REMARQUE :</b></p>
+<p><b>REMARQUE :</b></p>
 
 Pour modifier un filtre dans un rapport, vous devez disposer de la licence suivante :
 
-<p>Nouveau : Standard</p>
+<p>Nouvelle : standard</p>
 
 Ou
 
-<p>Actuel : formule</p>
+<p>Actuelle : formule</p>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
    <td> <ul><li><p>Modifier l’accès aux filtres, vues et groupes</p></li></ul>
-    <p><b>REMARQUE :</b></p>
+    <p><b>REMARQUE :</b></p>
    Pour modifier un filtre dans un rapport, vous devez disposer de la configuration de niveau d’accès suivante, en plus de l’accès Modifier aux filtres, aux vues et aux regroupements :
 
-<ul><li><p>Modification de l’accès aux rapports, aux tableaux de bord et aux calendriers</p></li></ul>
+<ul><li><p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p></li></ul>
 
-<p><b>REMARQUE :</b></p> <p> Si vous n’y avez pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été définies pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+<p><b>REMARQUE :</b></p> <p> Si vous n’y avez pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été définies pour votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -119,9 +119,9 @@ Vous pouvez créer des filtres à l’aide des types de créateurs de filtres d�
 <li> <p>Listes </p> </li>
 </ul>
 <ul>
-<li> <p>La liste Projets dans le planificateur de scénarios</p> <p>Le planificateur de scénario nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir <a href="../../../scenario-planner/scenario-planner-overview.md">Présentation du planificateur de scénarios</a>. </p> </li>
+<li> <p>La liste Projets dans le planificateur de scénarios</p> <p>Le planificateur de scénario nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir <a href="../../../scenario-planner/scenario-planner-overview.md">Vue d’ensemble du planificateur de scénarios</a>. </p> </li>
 </ul>
-<p><b>REMARQUE :</b></p> <p>Les créateurs standard pour les filtres ne sont pas disponibles dans les rapports.
+<p><b>REMARQUE :</b></p> <p>Les créateurs standard pour les filtres ne sont pas disponibles dans les rapports.
 </td>
 </tr>
 <tr>
@@ -132,12 +132,12 @@ Vous pouvez créer des filtres à l’aide des types de créateurs de filtres d�
 </tbody>
 </table>
 
-Pour plus d’informations sur les objets Workfront, voir [Présentation des objets dans Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Pour plus d’informations sur les objets Workfront, voir [Comprendre les objets dans Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Tenez compte des points suivants lors de la création de filtres à l’aide des différentes interfaces :
 
 * Le créateur standard se trouve aux mêmes endroits que l’interface de filtrage héritée pour les zones répertoriées dans le tableau ci-dessus.
-* Le créateur standard est l’expérience par défaut pour toutes les zones où il est disponible. Pour passer au créateur de filtres hérité, cliquez sur le **Plus** en regard de [!UICONTROL **Filtres**] et sélectionnez [!UICONTROL **Revenir aux filtres hérités**].
+* Le créateur standard est l’expérience par défaut pour toutes les zones où il est disponible. Pour passer au créateur de filtres hérité, cliquez sur le menu **Plus** en regard de [!UICONTROL **Filtres**] et sélectionnez [!UICONTROL **Revenir aux filtres hérités**].
 
   ![Revenir aux filtres hérités](assets/use-legacy-filters.png)
 
@@ -145,7 +145,7 @@ Tenez compte des points suivants lors de la création de filtres à l’aide des
 
   >[!TIP]
   >
-  >Un filtre &quot;Tous&quot; n’est pas inclus dans le créateur standard, car tous les éléments de liste s’affichent lorsqu’aucun filtre n’est appliqué. Cliquez sur [!UICONTROL **Effacer tout**] en haut à droite du créateur pour effacer les filtres actifs et afficher tous les éléments. If [!UICONTROL **Effacer tout**] est grisée, puis aucun filtre n’est appliqué.
+  >Un filtre &quot;Tous&quot; n’est pas inclus dans le créateur standard, car tous les éléments de liste s’affichent lorsqu’aucun filtre n’est appliqué. Cliquez sur [!UICONTROL **Effacer tout**] en haut à droite du créateur pour effacer les filtres actifs et afficher tous les éléments. Si [!UICONTROL **Effacer tout**] est grisé, aucun filtre n’est appliqué.
 
 * Les créateurs standard et hérités ont une syntaxe légèrement différente lors de la création de filtres à plusieurs instructions qui combinent les opérateurs ET et OU. Par conséquent, ces filtres peuvent s’afficher différemment lorsque vous passez d’un créateur à un autre.
 
@@ -157,7 +157,7 @@ Tenez compte des points suivants lors de la création de filtres à l’aide des
   >
   >      `(A OR B) AND C`
   >
-  >1. Passez au créateur hérité et modifiez le filtre à l’aide de la syntaxe du créateur hérité, comme décrit dans la section . [Création ou modification d’un filtre dans le créateur hérité](#create-filter-in-legacy-builder) dans cet article. La syntaxe du créateur hérité affiche les instructions de filtre comme suit :
+  >1. Passez au créateur hérité et modifiez le filtre à l’aide de la syntaxe du créateur hérité, comme décrit dans la section [Créer ou modifier un filtre dans le créateur hérité](#create-filter-in-legacy-builder) de cet article. La syntaxe du créateur hérité affiche les instructions de filtre comme suit :
   >
   >      `A AND C`
   >      `OR`
@@ -186,7 +186,7 @@ Vous pouvez créer des filtres à l’aide de l’interface du créateur standar
 Créez un filtre à l’aide de l’interface du créateur standard :
 
 1. Accédez à une liste dans laquelle vous souhaitez créer un filtre ou qui contient le filtre que vous souhaitez personnaliser.
-1. Cliquez sur le bouton **Filtrer** icon ![Icône Filtrer](assets/filter-nwepng.png) pour ouvrir l’interface du créateur.
+1. Cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-nwepng.png) pour ouvrir l’interface du créateur.
 
    ![Créateur de filtres standard](assets/new-filters-all-filter-types.png)
 
@@ -218,11 +218,11 @@ Créez un filtre à l’aide de l’interface du créateur standard :
 1. Utilisez l’une des méthodes suivantes :
 
    * Cliquez sur **Nouveau filtre** pour créer un filtre à partir de zéro.
-   * Passez la souris sur un filtre existant que vous êtes autorisé à gérer, puis cliquez sur l’icône **Modifier** icon ![Icône Modifier](assets/edit-icon.png) pour la modifier.
+   * Passez la souris sur un filtre existant que vous êtes autorisé à gérer et cliquez sur l’icône **Modifier** ![Icône Modifier](assets/edit-icon.png) pour le modifier.
 
      Ou
 
-     Passez la souris sur un filtre existant que vous êtes autorisé à afficher, puis cliquez sur l’icône **Plus** menu ![Plus de menu](assets/more-icon-spectrum.png), puis cliquez sur **Dupliquer** pour copier le filtre existant et modifier une copie.
+     Passez la souris sur un filtre existant que vous êtes autorisé à afficher, cliquez sur le menu **Plus** ![Plus de menu](assets/more-icon-spectrum.png), puis sur **Dupliquer** pour copier le filtre existant et modifier une copie.
 
    ![Plus d’options de menu](assets/new-filters-more-menu-options-with-delete.png)
 
@@ -243,15 +243,15 @@ Créez un filtre à l’aide de l’interface du créateur standard :
    </tbody>
    </table>
 
-   ![Inclure si tout ou n’importe quel ou vrai menu déroulant](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
+   ![Inclure si tout ou n’importe quel menu déroulant ou vrai](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Pour plus d’informations sur les opérateurs de filtrage, voir [Présentation des filtres](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur les opérateurs de filtre, voir [Présentation des filtres](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Cliquez sur le menu déroulant des champs pour afficher la liste des champs récemment utilisés et les champs proposés pour les filtrer. Les champs proposés sont actuellement affichés dans la liste que vous filtrez.
 
    Vous pouvez également sélectionner **Parcourir les champs** pour afficher la liste de tous les champs par lesquels vous pouvez filtrer. Les champs de la recherche avancée sont regroupés par catégorie d’objet.
 
-   ![Localisation d’un champ par lequel filtrer](assets/new-filter-search-for-field.png)
+   ![Localisez un champ à filtrer par](assets/new-filter-search-for-field.png)
 
 1. Cliquez sur le menu déroulant des modificateurs pour sélectionner un modificateur. Le modificateur par défaut est &quot;Est égal à&quot;.
 
@@ -267,14 +267,14 @@ Créez un filtre à l’aide de l’interface du créateur standard :
    >
    >Selon le modificateur que vous avez sélectionné, vous pouvez sélectionner plusieurs valeurs.
 
-1. Cliquez sur **Ajouter un filtre** pour sélectionner un autre champ, ajoutez un critère de filtrage à l’instruction de filtre.
-1. (Facultatif) Cliquez sur le **Supprimer** icon ![Icône Supprimer](assets/delete.png) pour supprimer les instructions de filtre existantes.
+1. Cliquez sur **Ajouter un filtre** pour sélectionner un autre champ et ajouter un critère de filtrage à l’instruction de filtre.
+1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) pour supprimer les instructions de filtre existantes.
 
    Ou
 
    Cliquez sur **Effacer tout** pour effacer tous les critères de filtrage.
 
-1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les ensembles est **ET**. Cliquez sur l’opérateur pour le modifier en **OU**.
+1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les ensembles est **AND**. Cliquez sur l’opérateur pour le remplacer par **OR**.
 
    >[!TIP]
    >
@@ -288,9 +288,9 @@ Créez un filtre à l’aide de l’interface du créateur standard :
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
    >Dans ce cas, chaque instruction de filtre est connectée par un ET et les groupes de filtres sont connectés par un OR.
 
-1. (Facultatif) Cliquez sur **Mode texte** pour continuer à créer le filtre en mode texte.
+1. (Facultatif) Cliquez sur **Mode Texte** pour continuer à créer le filtre à l’aide du mode Texte.
 
-   ![Mode Texte](assets/new-filter-select-text-mode.png)
+   ![Sélectionner le mode texte](assets/new-filter-select-text-mode.png)
 
    L’interface du mode texte s’ouvre.
 
@@ -300,7 +300,7 @@ Créez un filtre à l’aide de l’interface du créateur standard :
    >
    >Nous vous recommandons de créer autant de filtres que possible à l’aide de l’interface du créateur standard et uniquement en mode texte lorsque vous devez modifier les filtres pris en charge uniquement en mode texte.
 
-   Pour plus d’informations sur la création d’un filtre à l’aide de l’interface du mode texte, voir [Modification d’un filtre à l’aide du mode texte](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Pour plus d’informations sur la création d’un filtre à l’aide de l’interface du mode texte, voir [Modifier un filtre à l’aide du mode texte](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 1. Cliquez sur **Quitter le mode texte** pour revenir à l’interface du créateur standard.
 
@@ -308,21 +308,21 @@ Créez un filtre à l’aide de l’interface du créateur standard :
    >
    >Certaines instructions de mode texte ne sont pas prises en charge dans le créateur standard ou dans l’interface héritée. La sortie du mode texte lorsque vous avez créé ces types d’instructions peut générer un message d’avertissement.
 
-1. (Facultatif) Cliquez sur **Appliquer** pour appliquer le filtre à la liste et voir les résultats.
+1. (Facultatif) Cliquez sur **Appliquer** pour appliquer le filtre à la liste et afficher les résultats.
 
    Si le filtre ne produit aucun résultat, la liste est vide.
 
-1. Cliquez sur **Enregistrer comme nouveau** pour enregistrer le filtre en vue d’une utilisation ultérieure.
+1. Cliquez sur **Enregistrer comme nouveau** pour enregistrer le filtre en vue d’une utilisation ultérieure.
 
-   ![Nommer et enregistrer le filtre](assets/save-as-untitled-filter-ui-nwe.png)
+   ![Nommez et enregistrez le filtre](assets/save-as-untitled-filter-ui-nwe.png)
 
-1. Sélectionner **Filtre sans titre** et saisissez plutôt le nom du nouveau filtre.
+1. Sélectionnez **Filtre sans titre** et saisissez le nom du nouveau filtre à la place.
 
    >[!TIP]
    >
    >Veillez à nommer le filtre pour pouvoir le retrouver ultérieurement. Si vous ne nommez pas le filtre, il s’appelle Filtre sans titre dans le système.
 
-1. Sélectionnez une icône pour le nouveau filtre dans la **Icône** menu déroulant.
+1. Sélectionnez une icône pour le nouveau filtre dans le menu déroulant **Icône**.
 
    ![Sélectionner une icône pour le filtre](assets/new-filter-select-icon.png)
 
@@ -330,16 +330,16 @@ Créez un filtre à l’aide de l’interface du créateur standard :
 
    >[!TIP]
    >
-   >Cliquer **Annuler** à tout moment vous ramène à la zone de création de filtre.
+   >Cliquez à tout moment sur **Annuler** pour revenir à la zone de création du filtre.
 
-1. Cliquez sur **Enregistrer**. Le filtre est enregistré dans la liste Enregistré et appliqué à la liste des éléments.
-1. (Facultatif) Pour déplacer un filtre vers la liste Favori, passez la souris sur un filtre du tiroir de filtre et cliquez sur l’icône **Favori** icon ![Icône Favori](assets/favorites-icon-small.png).
+1. Cliquez sur **Enregistrer**. Le filtre est enregistré dans la liste Enregistré et appliqué à la liste des éléments.
+1. (Facultatif) Pour déplacer un filtre vers la liste Favori, passez la souris sur un filtre du tiroir de filtre et cliquez sur l’icône **Favori** ![Icône Favori](assets/favorites-icon-small.png).
 
    Ou
 
-   Pointez sur un filtre du tiroir de filtre, puis cliquez sur le menu Plus . ![Plus de menu](assets/more-icon-spectrum.png), puis cliquez sur **Favori**.
+   Passez la souris sur un filtre du tiroir de filtre, cliquez sur le menu Plus ![Plus de menu](assets/more-icon-spectrum.png), puis cliquez sur **Favori**.
 
-1. (Facultatif) Cliquez sur le **Empiler des filtres** pour activer les filtres empilés. Cette option vous permet d’appliquer plusieurs filtres enregistrés. Les règles de filtrage sont appliquées dans l’ordre dans lequel vous les sélectionnez.
+1. (Facultatif) Cliquez sur le bouton **Filtres empilés** pour activer les filtres empilés. Cette option vous permet d’appliquer plusieurs filtres enregistrés. Les règles de filtrage sont appliquées dans l’ordre dans lequel vous les sélectionnez.
 
    >[!TIP]
    >
@@ -347,7 +347,7 @@ Créez un filtre à l’aide de l’interface du créateur standard :
    >
    >Lorsque vous sélectionnez plusieurs filtres, toutes leurs conditions doivent être remplies simultanément pour afficher les résultats correspondants.
 
-   ![Empiler des filtres](assets/new-filter-stack-filters.png)
+   ![ Filtres empilés ](assets/new-filter-stack-filters.png)
 
    Le nombre de filtres que vous avez sélectionnés s’affiche en regard de l’icône de filtre en haut de la liste des éléments.
 
@@ -355,9 +355,9 @@ Créez un filtre à l’aide de l’interface du créateur standard :
 
 1. (Facultatif) Effectuez l’une des opérations suivantes :
 
-   * Partagez le filtre avec d’autres utilisateurs ou rendez-le disponible à l’échelle du système. Pour plus d’informations, voir [Partager un filtre, une vue ou un regroupement](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Partagez le filtre avec d’autres utilisateurs ou rendez-le disponible à l’échelle du système. Pour plus d’informations, voir [Partage d’un filtre, d’une vue ou d’un regroupement](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-   * Supprimez le filtre s&#39;il n&#39;est plus valide ou n&#39;est plus un doublon. Vous ne pouvez supprimer que les filtres que vous possédez. Vous pouvez supprimer les filtres qui ont été partagés avec vous. Pour plus d’informations, voir [Suppression des filtres, des vues et des regroupements](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+   * Supprimez le filtre s&#39;il n&#39;est plus valide ou n&#39;est plus un doublon. Vous ne pouvez supprimer que les filtres que vous possédez. Vous pouvez supprimer les filtres qui ont été partagés avec vous. Pour plus d’informations, voir [Suppression de filtres, de vues et de regroupements](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 ## Création ou modification d’un filtre dans le créateur hérité {#create-filter-in-legacy-builder}
 
@@ -369,30 +369,30 @@ Vous pouvez créer des filtres hérités dans les listes et les rapports comme s
 Quelle que soit la méthode utilisée pour créer des filtres, la création d’un filtre à partir de zéro ou d’un filtre existant est similaire.
 
 1. Accédez à une liste ou à un rapport contenant le filtre que vous souhaitez personnaliser.
-1. Cliquez sur le bouton **Filtrer** icon ![Icône Filtrer](assets/filter-nwepng.png).
+1. Cliquez sur l&#39;icône **Filtrer** ![Icône Filtrer](assets/filter-nwepng.png).
 
    >[!TIP]
    >
    >Le créateur du rapport doit autoriser l&#39;édition des filtres afin d&#39;afficher la liste déroulante Filtre sur un rapport. Le filtre Rapport par défaut est appliqué par défaut à un rapport. Le filtre Rapport par défaut ne peut être personnalisé que lorsque vous modifiez le rapport.
 
-   ![Menu déroulant Filtre](assets/filter-drop-down-expanded-nwe.png)
+   ![Menu déroulant de filtre](assets/filter-drop-down-expanded-nwe.png)
 
 1. Cliquez sur **Nouveau filtre** en haut de la liste des filtres.
 
    Ou
 
-   Pointez sur le filtre à modifier, puis cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png).
+   Pointez sur le filtre à modifier, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
 
    Créateur permettant de personnaliser les lancements du filtre.
 
-1. Effectuez l’une des opérations suivantes :
+1. Effectuez l’une des opérations suivantes :
 
    * Modifiez les règles de filtrage existantes en cliquant sur la règle existante et en sélectionnant une nouvelle option.
-   * Ajoutez une règle de filtrage en cliquant **Ajouter une autre règle de filtre**, commencez à saisir le nom de l’option pour laquelle vous souhaitez ajouter une règle dans la variable **Commencer à saisir le nom du champ** puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
+   * Ajoutez une règle de filtrage en cliquant sur **Ajouter une autre règle de filtre**, commencez à saisir le nom de l’option pour laquelle vous souhaitez ajouter une règle dans la zone **Commencer à saisir le nom du champ**, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
 
-     Les champs associés à l’objet de votre filtre sont répertoriés dans la section **Commencer à saisir le nom du champ** de la boîte.
+     Les champs associés à l’objet de votre filtre sont répertoriés dans la zone **Commencer la saisie du nom du champ**.
 
-   * Cliquez sur **ET** ou **OU** lors de l’ajout d’une règle de filtrage.\
+   * Cliquez sur **AND** ou **OR** lors de l’ajout d’une règle de filtre.\
      Lors de l’ajout de règles de filtrage, utilisez les modificateurs de filtre pour établir la condition de votre filtre. Pour plus d’informations sur les modificateurs de filtre, voir [Modificateurs de filtre et de condition](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
@@ -415,21 +415,21 @@ Quelle que soit la méthode utilisée pour créer des filtres, la création d’
 
    * Supprimez une règle de filtre existante en cliquant sur l’icône &quot;X&quot;.
 
-1. (Facultatif) Cliquez sur **Passer en mode Texte** pour ajouter un filtre à l’aide de l’interface Mode texte .
+1. (Facultatif) Cliquez sur **Passer en mode Texte** pour ajouter un filtre à l’aide de l’interface Mode Texte .
 
-   Pour plus d’informations sur la création d’un filtre à l’aide de l’interface du mode texte, voir [Modification d’un filtre à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Pour plus d’informations sur la création d’un filtre à l’aide de l’interface du mode texte, voir [Modifier un filtre à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 1. Cliquez sur **Enregistrer le filtre** pour créer un filtre ou remplacer celui sélectionné par vos modifications.
 
    Ou
 
-   Cliquez sur **Enregistrer comme nouveau filtre** pour créer un filtre à partir du filtre sélectionné.
+   Cliquez sur **Enregistrer comme nouveau filtre** pour créer un filtre à partir de celui sélectionné.
 
    Le nouveau filtre s&#39;affiche dans la liste des filtres et est automatiquement appliqué à la liste ou au rapport que vous avez sélectionné.
 
 1. (Facultatif) Effectuez l’une des opérations suivantes :
 
    * Partagez les filtres que vous créez avec d’autres utilisateurs ou rendez-les disponibles à l’échelle du système. Pour plus d’informations, voir [Partager un filtre, une vue ou un regroupement](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-   * Supprimer les filtres que vous ne souhaitez plus afficher dans la liste. Pour plus d’informations, voir [Suppression des filtres, des vues et des regroupements](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+   * Supprimer les filtres que vous ne souhaitez plus afficher dans la liste. Pour plus d’informations, voir [Suppression de filtres, de vues et de regroupements](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 

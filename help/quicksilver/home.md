@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Adobe Workfront] documentation'
+title: Documentation '[!DNL Adobe Workfront]'
 description: Documentation pour [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
@@ -10,7 +10,7 @@ ht-degree: 7%
 
 ---
 
-# [!DNL Workfront] documentation
+# Documentation [!DNL Workfront]
 
 Bienvenue sur la page d’accueil du produit et de la documentation technique d’Adobe Workfront. Utilisez les liens Adobe Workfront suivants, les articles d’aide et d’autres ressources pour découvrir comment mettre en oeuvre Adobe Workfront et l’utiliser efficacement dans votre entreprise.
 
@@ -23,14 +23,14 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 * [Vue d’ensemble de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Activité Publication de fusion Adobe Workfront](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
->[!TAB Versions de 2024]
+>[!TAB 2024 versions]
 
 * [Présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
 * [Vue d’ensemble de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Vue d’ensemble de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Activité Publication de fusion Adobe Workfront](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
->[!TAB Bêta]
+>[!TAB Betas]
 
 * [Vue d’ensemble des tableaux de bord de zone de travail](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 * [Intégration de Workfront et Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
@@ -87,16 +87,16 @@ La recherche de documentation peut être plus efficace avec quelques approches s
 
 ### Utiliser la table des matières et la barre de recherche
 
-* **Table des matières**: commencez par la table des matières pour obtenir une vue d’ensemble des rubriques disponibles et réduisez-la à des rubriques spécifiques en développant les sections.
-* **Barre de recherche**: utilisez la barre de recherche pour trouver la documentation. Entrez des termes spécifiques liés à votre problème ou à votre rubrique. Au lieu de termes généraux tels que &quot;gestion de projet&quot;, utilisez &quot;configuration de la chronologie du projet&quot; ou &quot;dépendances des tâches&quot;.
+* **Table des matières** : commencez par la table des matières pour obtenir un aperçu des rubriques disponibles et réduisez-la pour accéder à des rubriques spécifiques en développant les sections.
+* **Barre de recherche** : utilisez la barre de recherche pour trouver la documentation. Entrez des termes spécifiques liés à votre problème ou à votre rubrique. Au lieu de termes généraux tels que &quot;gestion de projet&quot;, utilisez &quot;configuration de la chronologie du projet&quot; ou &quot;dépendances des tâches&quot;.
 
 ![](assets/exl-site-nav.png)
 
 ### Exploration des sections Formation
 
-* **Matériel de formation**: accédez au [Formation Workfront](https://experienceleague.adobe.com/en/browse/workfront) pour une bibliothèque de vidéos et d’articles de formation conçus pour vous aider à mieux comprendre les fonctionnalités et les paramètres de Workfront. Vous pouvez également accéder à des supports de formation payants à l’adresse [learning.adobe.com](https://learning.adobe.com/).
-* **Cours**: Rechercher [cours d&#39;apprentissage structuré](https://experienceleague.adobe.com/home?Solution=Workfront#courses) qui vous guide tout au long de l’utilisation de différentes fonctionnalités Workfront dans une séquence logique.
+* **Matériel de formation** : accédez à la page [Formation Workfront](https://experienceleague.adobe.com/en/browse/workfront) pour accéder à une bibliothèque de vidéos et d’articles de formation conçus pour vous aider à mieux comprendre les fonctionnalités et paramètres de Workfront. Vous pouvez également accéder au matériel de formation payant à l’adresse [learning.adobe.com](https://learning.adobe.com/).
+* **Cours** : trouvez des [ cours d’apprentissage structurés](https://experienceleague.adobe.com/home?Solution=Workfront#courses) qui vous guident tout au long de l’utilisation de différentes fonctionnalités Workfront dans une séquence logique.
 
 ### Trouver des réponses dans les forums de la communauté
 
-* **Questions**: si la documentation ne répond pas à votre question, essayez de publier dans le [Forums de la communauté Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) où d’autres utilisateurs et experts peuvent apporter leur aide.
+* **Poser des questions** : si la documentation ne répond pas à votre question, essayez de publier du contenu dans les [forums de la communauté Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) où d’autres utilisateurs et experts peuvent vous aider.

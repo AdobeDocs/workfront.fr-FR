@@ -11,7 +11,7 @@ exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
 source-git-commit: 0b286e43ed77669329fbee25618394ee5641e428
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -30,13 +30,13 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td> <p>N’importe quelle</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
-   <td role="rowheader">[!DNL Adobe Workfront] license</td>  
-   <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td>  
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td>  
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td>  
   </tr>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>  
    <td> 
-   <p>Actuel : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p> 
+   <p>Actuel : aucune exigence de licence [!DNL Workfront Fusion].</p> 
    <p>Ou</p> 
    <p>Hérité : Tout </p> 
    </td>  
@@ -44,9 +44,9 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr>  
    <td role="rowheader">Produit</td>  
    <td> 
-   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul> 
+   <p>Nouveau :</p> <ul><li>Formule [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront] : [!DNL Workfront Fusion] est inclus.</li></ul> 
    <p>Ou</p> 
-   <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actuel : votre organisation doit acheter [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -62,7 +62,7 @@ Renvoie la longueur de la chaîne de texte (nombre de caractères) ou de la mém
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`length( hello )`
 >
@@ -74,19 +74,19 @@ Convertit en minuscules tous les caractères alphabétiques d’une chaîne de t
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`lower( Hello )`
 >
 >Renvoie : hello
 
-## [!UICONTROL majuscule (texte)]
+## [!UICONTROL capitalize (texte)]
 
 Convertit le premier caractère d’une chaîne de texte en majuscules.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`capitalize( workfront )`
 >
@@ -98,18 +98,18 @@ Met en majuscules la première lettre de chaque mot et toutes les autres lettres
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >`startcase( hello WORLD )`
 >
 >Renvoie : [!UICONTROL Hello World]
 
-## [!UICONTROL ascii (texte); [supprimer les diacritiques])]
+## [!UICONTROL ascii (text; [remove diacritics])]
 
 Supprime tous les caractères non ascii d’une chaîne de texte.
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `ascii(` `Wěošrčkřfžrýoáníté` `)`
 >
@@ -121,23 +121,23 @@ Supprime tous les caractères non ascii d’une chaîne de texte.
 
 
 
-## [!UICONTROL replace (texte;chaîne de recherche; chaîne de remplacement)]
+## [!UICONTROL replace (text;search string; remplacement string)]
 
 Remplace la chaîne de recherche par la nouvelle chaîne.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`replace( Hello World ; Hello ; Hi )`
 >
->Renvoie : [!UICONTROL Bonjour tout le monde]
+>Renvoie : [!UICONTROL Hello World]
 
-Expressions régulières (incluses dans `/.../`) peut être utilisée comme chaîne de recherche avec une combinaison d’indicateurs (comme `g`, `i`, `m`) ajouté :
+Les expressions régulières (incluses dans `/.../`) peuvent être utilisées comme chaîne de recherche avec une combinaison d’indicateurs (tels que `g`, `i`, `m`) ajoutés :
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >![](assets/replace---1-350x31.png)
 >
@@ -146,11 +146,11 @@ Expressions régulières (incluses dans `/.../`) peut être utilisée comme cha�
 La chaîne de remplacement peut inclure les modèles de remplacement spéciaux suivants :
 
 * `$&` Insère la sous-chaîne correspondante.
-* `$n` Lorsque n est un entier positif inférieur à 100, insère la chaîne de sous-correspondance énième parenthèse. Il est indexé à 1.
+* `$n` Lorsque n est un entier positif inférieur à 100, insère la énième chaîne de sous-correspondance entre parenthèses. Il est indexé à 1.
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >![](assets/variable-value-350x63.png)
 >
@@ -176,7 +176,7 @@ Convertit en majuscules tous les caractères alphabétiques d’une chaîne de t
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`upper( Hello )`
 >
@@ -188,7 +188,7 @@ Renvoie une partie d’une chaîne de texte entre la position &quot;début&quot;
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `substring( Hello ; 0 ; 3)`
 >
@@ -204,7 +204,7 @@ Renvoie la position de la première occurrence d’une valeur spécifiée dans u
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `indexOf( Workfront ; o )`
 >
@@ -218,7 +218,7 @@ Renvoie la position de la première occurrence d’une valeur spécifiée dans u
 >
 >   Renvoie : 6
 
-## [!UICONTROL toBinary (valeur)]
+## [!UICONTROL toBinary (value)]
 
 Convertit n’importe quelle valeur en données binaires.
 
@@ -226,7 +226,7 @@ Vous pouvez également spécifier le codage comme second argument pour appliquer
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `toBinary( Workfront )`
 >
@@ -250,18 +250,18 @@ Décode les caractères spéciaux d’une URL en texte.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >`decodeURL( Automate%20your%20workflow )`
 >
 >Renvoie : [!UICONTROL Automatiser votre workflow]
 
 ## [!UICONTROL escapeHTML (text)]
 
-Échappe toutes les balises de HTML dans le texte.
+Permet d’ignorer toutes les balises d’HTML dans le texte.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`escapeHTML( <b>Hello</b> )`
 >
@@ -273,7 +273,7 @@ Permet d’ignorer toutes les balises Markdown dans le texte.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`escapeMarkdown( # Header )`
 >
@@ -281,11 +281,11 @@ Permet d’ignorer toutes les balises Markdown dans le texte.
 
 ## [!UICONTROL stripHTML (texte)]
 
-Supprime toutes les balises de HTML du texte.
+Supprime toutes les balises HTML du texte.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`stripHTML( <b>Hello</b> )`
 >
@@ -297,7 +297,7 @@ Vérifie si le texte contient la chaîne de recherche.
 
 >[!INFO]
 >
->**Exemples :**
+>**Exemples :**
 >
 >* `contains( Hello World ; Hello )`
 >
@@ -307,13 +307,13 @@ Vérifie si le texte contient la chaîne de recherche.
 >
 >   Renvoie : [!UICONTROL false]
 
-## [!UICONTROL split (texte ; séparateur)]
+## [!UICONTROL split (text; separator)]
 
 Divise une chaîne en un tableau de chaînes en la séparant en sous-chaînes.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`split( John, George, Paul ; , )`
 
@@ -323,37 +323,37 @@ Calcule le hachage md5 d&#39;une chaîne.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`md5( Workfront )`
 >
 >Renvoie : `1448bbbeaa7a9b8091d426999f1f666b`
 
-## [!UICONTROL sha1 (texte); [encoding]; [key])]
+## [!UICONTROL sha1 (texte; [encoding]; [key])]
 
 Calcule le hachage sha1 d’une chaîne. Si l’argument clé est spécifié, le hachage HMAC sha1 est renvoyé à la place. Codages pris en charge : &quot;hex&quot; (par défaut), &quot;base64&quot; ou &quot;latin1&quot;.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`sha1( workfront )`
 >
 >Renvoie : b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
-## [!UICONTROL sha256 (texte; [encoding]; [key])]
+## [!UICONTROL sha256 (texte ; [encoding]; [key])]
 
 Calcule le hachage sha256 d’une chaîne. Si l’argument clé est spécifié, le hachage HMAC sha256 est renvoyé à la place. Codages pris en charge : &quot;hex&quot; (par défaut), &quot;base64&quot; ou &quot;latin1&quot;.>
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`sha256( workfront )`
 >
 >Renvoie : ed3d7397eec7b94453035b67ba4468c83ee3bedeb57137f7371f2e0cf5e2bbc
 
-## [!UICONTROL sha512 (texte; [codage de sortie]; [key]; [codage des clés])]
+## [!UICONTROL sha512 (texte ; [codage de sortie] ; [clé] ; [codage de clé])]
 
 Calcule le hachage sha512 d’une chaîne. Si l’argument clé est spécifié, le hachage sha512 HMAC est renvoyé à la place.
 
@@ -367,13 +367,13 @@ Codages de clé pris en charge :
 
 * &quot;[!UICONTROL text]&quot; (par défaut)
 * &quot;[!UICONTROL hex]&quot;
-* &quot;[!UICONTROL base64]&quot; ou &quot;[!UICONTROL binaire]&quot;
+* &quot;[!UICONTROL base64]&quot; ou &quot;[!UICONTROL binary]&quot;
 
-Lors de l’utilisation de[!UICONTROL binaire]Encodage de clé, une clé doit être un tampon, pas une chaîne.
+Lors de l’utilisation de l’encodage de la clé &quot;[!UICONTROL binary]&quot;, une clé doit être un tampon et non une chaîne.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`sha512(workfront)`
 >
@@ -385,7 +385,7 @@ Transforme le texte en base64.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >`base64( workfront )`
 >

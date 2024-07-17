@@ -2,21 +2,21 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Obtention de jetons OAuth2
-description: Obtention de jetons OAuth2
+title: Obtenir des jetons OAuth2
+description: Obtenir des jetons OAuth2
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 4%
+source-wordcount: '253'
+ht-degree: 7%
 
 ---
 
 
-# Obtention de jetons OAuth2
+# Obtenir des jetons OAuth2
 
 ## Obtention de jetons OAuth2
 
@@ -72,7 +72,7 @@ L’URL est configurable et correspond à la valeur de l’URL Point d’entrée
 
  
 
-## réponse
+## Réponse
 
 <table style="table-layout:auto">
  <col>
@@ -114,7 +114,7 @@ client_id=123456
 client_secret=6asdf7a7a9a4af
 ```
 
-## réponse
+## Réponse
 
 ```
 {

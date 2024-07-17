@@ -19,13 +19,13 @@ ht-degree: 69%
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 La condition d’une tâche ou d’un problème est un indicateur qui y est placé pour indiquer comment elle ou il se déroule. Il s’agit d’un statut différent de celui de l’élément de travail, qui indique l’étape actuelle du développement de l’élément.
 
 Vous pouvez définir la condition d’une tâche ou d’un problème automatiquement ou manuellement.
 
-Les valeurs de condition auxquelles nous faisons référence dans cet article sont disponibles par défaut dans Workfront. Votre administrateur Adobe Workfront peut créer des conditions personnalisées pour votre environnement, comme décrit dans la section [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Les valeurs de condition auxquelles nous faisons référence dans cet article sont disponibles par défaut dans Workfront. Votre administrateur Adobe Workfront peut créer des conditions personnalisées pour votre environnement, comme décrit dans la section [Créer ou modifier une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ## Conditions d’accès {#access-requirements}
 
@@ -78,11 +78,11 @@ Les conditions s’affichent sous la forme d’un indicateur associé à des tâ
 
 Vous pouvez localiser la condition des tâches et des problèmes dans les zones suivantes de Workfront :
 
-* <span class="preview">La page Détails , une fois qu’un administrateur de Workfront ou de groupe l’a ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnalisation de la vue Détails à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* <span class="preview"> La page Détails, après qu’un administrateur de Workfront ou de groupe l’a ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnalisation de la vue Détails à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
 
-* <span class="preview">L’en-tête d’une tâche ou d’un problème, après qu’un administrateur de Workfront ou de groupe l’ait ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* <span class="preview">L’en-tête d’une tâche ou d’un problème après qu’un administrateur de Workfront ou de groupe l’a ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
-* Le panneau Résumé, une fois qu’un administrateur de Workfront ou de groupe l’a ajouté à votre modèle de mise en page. Pour plus d’informations, voir [Personnalisation de l’accueil et du résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Le panneau Résumé, une fois qu’un administrateur de Workfront ou de groupe l’a ajouté à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 * Rapports et listes lorsque vous affichez le champ Condition dans une vue ou un groupement.
 
@@ -130,7 +130,7 @@ Pour mettre à jour manuellement la condition d’une tâche ou d’un problème
 
 1. Pour mettre à jour la condition d’une tâche ou d’un problème dans l’en-tête de la tâche ou du problème :
 
-   1. (Conditionnel) Si votre administrateur Workfront ou de groupe a ajouté le champ Condition à l’en-tête de tâche ou de problème de votre modèle de mise en page, cliquez sur le bouton **Condition** dans l’en-tête et sélectionnez l’une des options suivantes :
+   1. (Conditionnel) Si votre administrateur Workfront ou de groupe a ajouté le champ Condition à l’en-tête de la tâche ou du problème de votre modèle de mise en page, cliquez sur le champ **Condition** dans l’en-tête et sélectionnez l’une des options suivantes :
       * Tout est en ordre
       * Certaines inquiétudes
       * Obstacles majeurs

@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 7
+title: Nouveautés de la version 7 de l’API
 description: Collections
 author: Becky
 feature: Workfront API
@@ -9,12 +9,12 @@ role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 40%
+source-wordcount: '498'
+ht-degree: 46%
 
 ---
 
-# Nouveautés de l’API version 7
+# Nouveautés de la version 7 de l’API
 
 ## Nouveaux objets
 
@@ -66,7 +66,7 @@ ht-degree: 40%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Nombre </td> 
+   <td>Count </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -102,7 +102,7 @@ ht-degree: 40%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Recherche </td> 
+   <td>Rechercher </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,7 +226,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications des valeurs possibles 
+<sup>1</sup> Modifications apportées aux valeurs possibles 
 
  
 
@@ -244,7 +244,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 ### AccessRule<sup>1</sup>
 
-<sup>1</sup> Marqué comme pouvant être signalé
+<sup>1</sup> marqué comme pouvant être rapporté
 
  
 
@@ -282,9 +282,9 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Validation de date ajoutée
+<sup>1</sup> Date de validation ajoutée
 
-<sup>2</sup> Indicateur Not_Filterable ajouté
+<sup>2</sup> Ajout de l’indicateur non filtrable
 
  
 
@@ -298,7 +298,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Ajout du champ includeIssues
+<sup>1</sup> Le champ ajouté includeIssues
 
  
 
@@ -310,7 +310,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications des valeurs possibles 
+<sup>1</sup> Modifications apportées aux valeurs possibles 
 
  
 
@@ -353,7 +353,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Changement de la validation PRECISION pour 8 à 9
+<sup>1</sup> Modification du programme de validation PRECISION pour 8 à 9
 
  
 
@@ -459,7 +459,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Type remplacé par double 
+<sup>1</sup> Le type est passé de Int à Double 
 
  
 
@@ -499,7 +499,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
   <tr> 
    <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">}timesheetProfileHourTypes</span> </td> 
    <td> </td> 
    <td>getAvailableActions</td> 
    <td> </td> 

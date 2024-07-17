@@ -2,95 +2,95 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: Connecteur
 navigation-topic: apps-and-their-modules
-title: Modules d'allocadia
-description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent Allocadia et les connecter à plusieurs applications et services tiers.
+title: Modules Allocadia
+description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent l’attribut Allocadia et les connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion
 exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
 source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 0%
+ht-degree: 53%
 
 ---
 
-# [!DNL Allocadia] modules
+# Modules [!DNL Allocadia]
 
-Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Allocadia], ainsi que de la connecter à plusieurs applications et services tiers.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Allocadia] et les connecter à plusieurs applications et services tiers.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
-Pour utiliser [!DNL Allocadia] modules, vous devez disposer d’un [!DNL Allocadia] compte .
+Pour utiliser les modules [!DNL Allocadia], vous devez disposer d&#39;un compte [!DNL Allocadia].
 
-## Connexion [!DNL Allocadia] to [!DNL Workfront Fusion]
+## Connecter [!DNL Allocadia] à [!DNL Workfront Fusion]
 
-Vous pouvez créer une connexion à votre [!DNL Allocadia] compte directement depuis l’intérieur d’une [!DNL Allocadia] module .
+Vous pouvez créer une connexion à votre compte [!DNL Allocadia] directement depuis un module [!DNL Allocadia].
 
-1. Dans n’importe quel [!DNL Allocadia] module, cliquez sur **[!UICONTROL Ajouter]** en regard de [!UICONTROL Connexion] champ .
+1. Dans un module [!DNL Allocadia], cliquez sur **[!UICONTROL Ajouter]** en regard du champ [!UICONTROL Connexion].
 1. Indiquez si vous souhaitez utiliser le serveur Amérique du Nord ou Europe.
 1. Saisissez votre nom d’utilisateur et votre mot de passe.
-1. Cliquez sur **[!UICONTROL Continuer]** pour créer la connexion et revenir au module .
+1. Cliquez sur **[!UICONTROL Continuer]** pour créer la connexion et retourner au module.
 
-## [!DNL Allocadia] modules et leurs champs
+## Modules [!DNL Allocadia] et leurs champs
 
-Lorsque vous configurez [!DNL Allocadia] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL Allocadia] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez des modules [!DNL Allocadia], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Allocadia] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers)
+* [Déclencheurs](#triggers)
 * [Actions](#actions)
 * [Recherches](#searches)
 
-### Triggers
+### Déclencheurs
 
-#### [!UICONTROL Surveiller les enregistrements]
+#### [!UICONTROL Enregistrement de contrôle]
 
 Ce module de déclenchement exécute un scénario lorsque des objets d’un type spécifique sont ajoutés, mis à jour ou les deux. Le module renvoie tous les champs standard associés à l’enregistrement ou aux enregistrements, ainsi que les champs et valeurs personnalisés auxquels la connexion a accès. Vous pouvez mapper ces informations dans les modules suivants du scénario.
 
@@ -101,7 +101,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    td role="rohead"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte Allocadia à [!DNL Workfront Fusion], voir <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connecter l’allocation] à Workfront Fusion</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d’informations sur la connexion de votre compte Allocadia à [!DNL Workfront Fusion], voir <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connecter l’affectation] à Workfront Fusion</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filtre</td> 
@@ -132,7 +132,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 #### [!UICONTROL Appel API personnalisé]
 
-Ce module d’action vous permet d’effectuer un appel authentifié personnalisé vers le [!DNL Allocadia] API. Ainsi, vous pouvez créer une automatisation du flux de données qui ne peut pas être réalisée par l’autre [!DNL Allocadia] modules.
+Ce module d’action vous permet d’effectuer un appel authentifié personnalisé à l’API [!DNL Allocadia]. Ainsi, vous pouvez créer une automatisation du flux de données qui ne peut pas être réalisée par les autres modules [!DNL Allocadia].
 
 L’action est basée sur le type d’entité (type d’objet Allocadia) que vous spécifiez.
 
@@ -144,14 +144,14 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Allocadia] compte à [!DNL Workfront Fusion], voir <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Allocadia] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
    <td>Saisissez un chemin relatif à <code>https://api-na.allocadia.com/{version}</code> ou <code>https://api-eu.allocadia.com/{version}</code>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Méthode [!UICONTROL]</td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
    <td> <p>Sélectionnez la méthode de requête HTTP dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -160,11 +160,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> <p>Par exemple : <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> <p>Par exemple : <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -188,19 +188,19 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    td role="rohead"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Allocadia] compte à [!DNL Workfront Fusion], voir <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Allocadia] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type d’entité]</td> 
-   <td>Sélectionnez le type de [!DNL Allocadia] enregistrement que vous souhaitez que le module lise.</td> 
+   <td>Sélectionnez le type d’enregistrement [!DNL Allocadia] que le module doit lire.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sorties [!UICONTROL]</td> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
    <td> <p>Sélectionnez les champs que vous souhaitez inclure dans la sortie du module. Les champs disponibles dépendent du [!UICONTROL Type d’entité] que vous avez sélectionné.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Saisissez ou mappez l’unique [!DNL Allocadia] Identifiant de l’enregistrement que vous souhaitez que le module lise.</td> 
+   <td>Saisissez ou mappez l’identifiant unique [!DNL Allocadia] de l’enregistrement que vous souhaitez que le module lise.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,7 +219,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    td role="rohead"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Allocadia] compte à [!DNL Workfront Fusion], voir <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Allocadia] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type d’entité]</td> 
@@ -256,14 +256,14 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    td role="rohead"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Allocadia] compte à [!DNL Workfront Fusion], voir <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Allocadia] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type d’entité]</td> 
    <td> <p>Sélectionnez le type d’entité à supprimer.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Élément de ligne]</strong> </p> <p>Saisissez l’identifiant de l’élément de ligne.</p> </li> 
-     <li> <p><strong>[!UICONTROL Choix de colonne]</strong> </p> <p>Sélectionnez le budget à partir duquel vous souhaitez supprimer un enregistrement, puis saisissez l' ID de colonne et l' ID de choix.</p> </li> 
+     <li> <p><strong>[!UICONTROL Choix De Colonne]</strong> </p> <p>Sélectionnez le budget à partir duquel vous souhaitez supprimer un enregistrement, puis saisissez l' ID de colonne et l' ID de choix.</p> </li> 
      <li> <p><strong>[!UICONTROL Balises de prévision]</strong> </p> <p>Sélectionnez le budget duquel vous souhaitez supprimer un enregistrement, puis saisissez l'identifiant de balise.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -286,11 +286,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!UICONTROL Allocadia] à [!DNL Workfront Fusion], voir <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!UICONTROL Allocadia] à [!DNL Workfront Fusion], voir <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type d’entité]</td> 
-   <td>Sélectionnez le type de [!DNL Allocadia] enregistrement que vous souhaitez que le module soit mis à jour. D’autres champs s’affichent en fonction du type d’entité sélectionné.</td> 
+   <td>Sélectionnez le type d’enregistrement [!DNL Allocadia] que le module doit mettre à jour. D’autres champs s’affichent en fonction du type d’entité sélectionné.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Budgets]</td> 
@@ -303,7 +303,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 #### [!UICONTROL Enregistrement de recherche]
 
-Ce module de recherche recherche recherche des enregistrements dans un objet de la section [!DNL Allocadia] qui correspondent à la requête de recherche que vous spécifiez.
+Ce module de recherche recherche des enregistrements d’un objet dans [!DNL Allocadia] qui correspondent à la requête de recherche que vous avez spécifiée.
 
 Vous pouvez mapper ces informations dans les modules suivants du scénario.
 
@@ -317,11 +317,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    td role="rohead"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Allocadia] compte à [!DNL Workfront Fusion], voir <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Allocadia] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Allocadia] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type d’entité]</td> 
-   <td>Sélectionnez le type de [!DNL Allocadia] enregistrement que vous souhaitez que le module recherche. </td> 
+   <td>Sélectionnez le type d’enregistrement [!DNL Allocadia] que le module doit rechercher. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Budgets]</td> 
@@ -333,14 +333,14 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nombre maximal d’enregistrements]</td> 
-   <td> <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
+   <td> <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Critères de recherche]</td> 
-   <td>Sélectionnez le champ à rechercher, sélectionnez l’opération, puis saisissez ou mappez la valeur à rechercher. Vous pouvez ajouter [!DNL AND] ou [!DNL OR] règles pour filtrer davantage votre recherche.</td> 
+   <td role="rowheader">[!UICONTROL Search criteria]</td> 
+   <td>Sélectionnez le champ à rechercher, sélectionnez l’opération, puis saisissez ou mappez la valeur à rechercher. Vous pouvez ajouter des règles [!DNL AND] ou [!DNL OR] pour filtrer davantage votre recherche.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sorties [!UICONTROL]</td> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
    <td> <p>Sélectionnez les champs que vous souhaitez inclure dans la sortie du module. Les champs disponibles dépendent du type d’entité que vous avez sélectionné.</p> </td> 
   </tr> 
  </tbody> 

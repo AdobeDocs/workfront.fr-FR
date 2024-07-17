@@ -2,99 +2,99 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
-keywords: connector
+keywords: Connecteur
 navigation-topic: apps-and-their-modules
-title: Modules Google Forms
-description: Le [!DNL Adobe Workfront Fusion Google Forms] Les modules vous permettent de surveiller, sélectionner, ajouter, mettre à jour ou supprimer des réponses sur Google Forms.
+title: Modules Google Forms
+description: Les modules  [!DNL Adobe Workfront Fusion Google Forms]  vous permettent de surveiller, sélectionner, ajouter, mettre à jour ou supprimer des réponses sur votre Forms Google.
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 0%
+source-wordcount: '1420'
+ht-degree: 19%
 
 ---
 
-# [!DNL Google Forms] modules
+# Modules [!DNL Google Forms]
 
-Le [!DNL Adobe Workfront Fusion] [!DNL Google Forms] Les modules vous permettent de surveiller, sélectionner, ajouter, mettre à jour ou supprimer des réponses sur vos [!DNL Google Forms].
+Les modules [!DNL Adobe Workfront Fusion] [!DNL Google Forms] vous permettent de surveiller, sélectionner, ajouter, mettre à jour ou supprimer des réponses sur votre [!DNL Google Forms].
 
-Pour utiliser [!DNL Google Docs] avec [!DNL Adobe Workfront Fusion], il est nécessaire d’avoir une [!DNL Google] compte . Si vous n’avez pas de [!DNL Google] vous pouvez toutefois en créer un à l’adresse [!DNL Google] Page d’aide du compte.
+Pour utiliser [!DNL Google Docs] avec [!DNL Adobe Workfront Fusion], il est nécessaire d&#39;avoir un compte [!DNL Google]. Si vous n&#39;avez pas encore de compte [!DNL Google], vous pouvez en créer un sur la page d&#39;aide du compte [!DNL Google].
 
-Si vous avez besoin d’instructions sur la création d’un scénario, reportez-vous à la section [Création d’un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
-Pour utiliser [!DNL Google Forms] modules, vous devez disposer d’un [!DNL Google] compte .
+Pour utiliser des modules [!DNL Google Forms], vous devez disposer d’un compte [!DNL Google].
 
 ## Création d’une feuille de calcul à partir du formulaire
 
 Pour travailler avec vos réponses de formulaire, la feuille de calcul de vos réponses doit être créée.
 
 1. Ouvrez votre formulaire.
-1. Accédez au **[!UICONTROL Réponses]** .
-1. Cliquez sur le bouton **[!UICONTROL Créer une feuille de calcul]** icon ![](assets/spreadsheet-icon.png).
+1. Accédez à l’onglet **[!UICONTROL Réponses]** .
+1. Cliquez sur l’icône **[!UICONTROL Créer une feuille de calcul]** ![](assets/spreadsheet-icon.png) .
 
 1. Indiquez si vous souhaitez créer une feuille de calcul ou une feuille de calcul existante.
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-## [!DNL Google Forms] modules et leurs champs
+## Modules [!DNL Google Forms] et leurs champs
 
-Lorsque vous configurez [!DNL Google Forms] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL Google Forms] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez des modules [!DNL Google Forms], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Google Forms] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers)
+* [Déclencheurs](#triggers)
 * [Actions](#actions)
 * [Recherches](#searches)
 
-### Triggers
+### Déclencheurs
 
-#### [!UICONTROL Regarder les réponses]
+#### [!UICONTROL Watch Responses]
 
 Regarde le formulaire pour trouver de nouvelles réponses.
 
@@ -104,7 +104,7 @@ Regarde le formulaire pour trouver de nouvelles réponses.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Google] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Création d’un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Google] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Feuille de calcul]</td> 
@@ -122,9 +122,9 @@ Regarde le formulaire pour trouver de nouvelles réponses.
    <td role="rowheader">[!UICONTROL Value Render Option]</td> 
    <td> <p>Indiquez le mode de rendu des valeurs dans la sortie.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Valeur formatée]</strong> </p> <p>Les valeurs sont calculées et formatées dans la réponse selon le formatage de la cellule. Le formatage est basé sur les paramètres régionaux de la feuille de calcul et non sur ceux de l’utilisateur qui la demande. Par exemple, si <code>A1</code> is <code>1. 23</code> et <code>A2 </code>is <code>=A1</code> et formaté en tant que devise, puis <code>A2</code> renvoie <code>$1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Valeur non formatée]</strong> </p> <p>Les valeurs sont calculées, mais pas formatées dans la réponse. Par exemple, si <code>A1</code> is <code>1. 23</code> et <code>A2 </code>is <code>=A1</code> et formaté en tant que devise, puis <code>A2</code> renvoie le nombre <code>1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Formule]</strong> </p> <p>Les valeurs ne sont pas calculées. La réponse comprend les formules. Par exemple, si <code>A1</code> is <code>1. 23</code> et <code>A2 </code>is <code>=A1</code> et formaté en tant que devise, puis <code>A2</code> renvoie <code>=A1</code>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Valeur formatée]</strong> </p> <p>Les valeurs sont calculées et formatées dans la réponse selon le formatage de la cellule. Le formatage est basé sur les paramètres régionaux de la feuille de calcul et non sur ceux de l’utilisateur qui la demande. Par exemple, si <code>A1</code> est <code>1. 23</code> et <code>A2 </code> est <code>=A1</code> et formaté en tant que devise, alors <code>A2</code> renvoie <code>$1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Valeur non formatée]</strong> </p> <p>Les valeurs sont calculées, mais pas formatées dans la réponse. Par exemple, si <code>A1</code> est <code>1. 23</code> et <code>A2 </code> est <code>=A1</code> et formaté en tant que devise, alors <code>A2</code> renvoie le nombre <code>1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Formule]</strong> </p> <p>Les valeurs ne sont pas calculées. La réponse comprend les formules. Par exemple, si <code>A1</code> est <code>1. 23</code> et <code>A2 </code> est <code>=A1</code> et formaté en tant que devise, alors <code>A2</code> renvoie <code>=A1</code>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -132,19 +132,19 @@ Regarde le formulaire pour trouver de nouvelles réponses.
    <td>Sélectionnez le mode de représentation des dates, heures et durée dans la sortie. Ce champ est ignoré si [!UICONTROL Value Render Option] est défini sur [!UICONTROL Formatted Value].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limite]</td> 
-   <td> <p> Définissez le nombre maximal de réponses qui [!DNL Workfront Fusion] fonctionne avec pendant un cycle.</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p> Définissez le nombre maximal de réponses avec lesquelles [!DNL Workfront Fusion] fonctionne au cours d’un cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Actions
 
-* [[!UICONTROL Ajout d’une réponse]](#add-a-response)
-* [[!UICONTROL Mise à jour d’une réponse]](#update-a-response)
-* [[!UICONTROL Suppression d’une réponse]](#delete-a-response)
+* [[!UICONTROL Ajouter une réponse]](#add-a-response)
+* [[!UICONTROL Mettre à jour une réponse]](#update-a-response)
+* [[!UICONTROL Supprimer une réponse]](#delete-a-response)
 
-#### [!UICONTROL Ajout d’une réponse]
+#### [!UICONTROL Ajouter une réponse]
 
 Ce module ajoute une nouvelle réponse au bas de la feuille de calcul du formulaire.
 
@@ -156,7 +156,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Google] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Création d’un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Google] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Feuille de calcul]</td> 
@@ -175,7 +175,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
    <td> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> Les valeurs saisies par l’utilisateur ne sont pas analysées et sont stockées en l’état. </p> </li> 
-     <li> <p><strong>[!UICONTROL Utilisateur saisi]</strong></p> <p>Les valeurs sont analysées comme si l’utilisateur les avait saisies dans l’interface utilisateur. Les nombres restent des nombres, mais les chaînes peuvent être converties en nombres, dates ou autres formats suivant les mêmes règles que celles appliquées lors de la saisie de texte dans une cellule via le [!DNL Google Sheets] Interface utilisateur.</p> </li> 
+     <li> <p><strong>[!UICONTROL Utilisateur saisi]</strong></p> <p>Les valeurs sont analysées comme si l’utilisateur les avait saisies dans l’interface utilisateur. Les nombres restent des nombres, mais les chaînes peuvent être converties en nombres, dates ou autres formats suivant les mêmes règles que celles appliquées lors de la saisie de texte dans une cellule via l’interface utilisateur de [!DNL Google Sheets].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -189,7 +189,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  </tbody> 
 </table>
 
-#### [!UICONTROL Mise à jour d’une réponse]
+#### [!UICONTROL Mettre à jour une réponse]
 
 Ce module met à jour la réponse sélectionnée.
 
@@ -201,7 +201,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Google] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Création d’un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Google] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Feuille de calcul]</td> 
@@ -224,13 +224,13 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
    <td> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> Les valeurs saisies par l’utilisateur ne sont pas analysées et sont stockées en l’état. </p> </li> 
-     <li> <p><strong>[!UICONTROL Utilisateur saisi]</strong></p> <p>Les valeurs sont analysées comme si l’utilisateur les avait saisies dans l’interface utilisateur. Les nombres restent des nombres, mais les chaînes peuvent être converties en nombres, dates ou autres formats suivant les mêmes règles que celles appliquées lors de la saisie de texte dans une cellule via le [!DNL Google Sheets] Interface utilisateur.</p> </li> 
+     <li> <p><strong>[!UICONTROL Utilisateur saisi]</strong></p> <p>Les valeurs sont analysées comme si l’utilisateur les avait saisies dans l’interface utilisateur. Les nombres restent des nombres, mais les chaînes peuvent être converties en nombres, dates ou autres formats suivant les mêmes règles que celles appliquées lors de la saisie de texte dans une cellule via l’interface utilisateur de [!DNL Google Sheets].</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Suppression d’une réponse]
+#### [!UICONTROL Supprimer une réponse]
 
 Ce module supprime une réponse sélectionnée.
 
@@ -240,7 +240,7 @@ Ce module supprime une réponse sélectionnée.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Google] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Création d’un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Google] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Feuille de calcul]</td> 
@@ -260,7 +260,7 @@ Ce module supprime une réponse sélectionnée.
 ### Recherches
 
 * [[!UICONTROL Réponses de recherche]](#search-responses)
-* [[!UICONTROL Réponses de recherche (avancées)])](#search-responses-advanced)
+* [[!UICONTROL Réponses de recherche (avancées])](#search-responses-advanced)
 
 #### [!UICONTROL Réponses de recherche]
 
@@ -271,7 +271,7 @@ Ce module renvoie des réponses correspondant aux critères donnés.
  <col data-mc-conditions=""> 
  <tbody> 
     <td>Connexion</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Google] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Création d’un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Google] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
     <td>[!UICONTROL Feuille de calcul]</td>
@@ -301,9 +301,9 @@ Ce module renvoie des réponses correspondant aux critères donnés.
    <td role="rowheader">[!UICONTROL Value Render Option]</td> 
    <td> <p>Indiquez le mode de rendu des valeurs dans la sortie.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Valeur formatée]</strong></p> <p>Les valeurs sont calculées et formatées dans la réponse selon le formatage de la cellule. Le formatage est basé sur les paramètres régionaux de la feuille de calcul et non sur ceux de l’utilisateur qui la demande. Par exemple, si <code>A1</code> is <code>1. 23</code> et <code>A2 </code>is <code>=A1</code> et formaté en tant que devise, puis <code>A2</code> renvoie <code>$1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Valeur non formatée]</strong> </p> <p>Les valeurs sont calculées, mais pas formatées dans la réponse. Par exemple, si <code>A1</code> is <code>1. 23</code> et <code>A2 </code>is <code>=A1</code> et formaté en tant que devise, puis <code>A2</code> renvoie le nombre <code>1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Formule]</strong> </p> <p>Les valeurs ne sont pas calculées. La réponse comprend les formules. Par exemple, si <code>A1</code> is <code>1. 23</code> et <code>A2 </code>is <code>=A1</code> et formaté en tant que devise, puis <code>A2</code> renvoie <code>=A1</code>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Valeur formatée]</strong></p> <p>Les valeurs sont calculées et formatées dans la réponse selon le formatage de la cellule. Le formatage est basé sur les paramètres régionaux de la feuille de calcul et non sur ceux de l’utilisateur qui la demande. Par exemple, si <code>A1</code> est <code>1. 23</code> et <code>A2 </code> est <code>=A1</code> et formaté en tant que devise, alors <code>A2</code> renvoie <code>$1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Valeur non formatée]</strong> </p> <p>Les valeurs sont calculées, mais pas formatées dans la réponse. Par exemple, si <code>A1</code> est <code>1. 23</code> et <code>A2 </code> est <code>=A1</code> et formaté en tant que devise, alors <code>A2</code> renvoie le nombre <code>1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Formule]</strong> </p> <p>Les valeurs ne sont pas calculées. La réponse comprend les formules. Par exemple, si <code>A1</code> est <code>1. 23</code> et <code>A2 </code> est <code>=A1</code> et formaté en tant que devise, alors <code>A2</code> renvoie <code>=A1</code>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions="">
@@ -312,14 +312,14 @@ Ce module renvoie des réponses correspondant aux critères donnés.
   </tr> 
   <tr>
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">[!UICONTROL Nombre maximal de réponses renvoyées]</td>
-   <td> <p> Définissez le nombre maximal de réponses qui [!DNL Workfront Fusion] renvoie pendant un cycle.</p> </td> 
+   <td> <p> Définissez le nombre maximal de réponses que [!DNL Workfront Fusion] renvoie au cours d’un cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Réponses de recherche (avancées)]
 
-Ce module effectue une recherche à l’aide de la fonction [[!DNL Google Charts Query Language]](https://developers.google.com/chart/interactive/docs/querylanguage). Ce module ne renvoie pas de numéro de ligne.
+Ce module effectue une recherche à l’aide de [[!DNL Google Charts Query Language]](https://developers.google.com/chart/interactive/docs/querylanguage). Ce module ne renvoie pas de numéro de ligne.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -327,7 +327,7 @@ Ce module effectue une recherche à l’aide de la fonction [[!DNL Google Charts
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Google] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Création d’un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Google] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Feuille de calcul]</td>
@@ -339,11 +339,11 @@ Ce module effectue une recherche à l’aide de la fonction [[!DNL Google Charts
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
-   <td> <p>Définissez la requête à l’aide du <a href="https://developers.google.com/chart/interactive/docs/querylanguage">[!DNL Google Charts Query Language]</a>.</p> <p>Exemple : <code>select * where C = "John"</code> récupère toutes les valeurs de la ligne où la colonne C est "John".</p> </td> 
+   <td> <p>Définissez la requête de recherche à l’aide de <a href="https://developers.google.com/chart/interactive/docs/querylanguage">[!DNL Google Charts Query Language]</a>.</p> <p>Exemple : <code>select * where C = "John"</code> récupère toutes les valeurs de la ligne où la colonne C est "John".</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Nombre maximal de lignes renvoyées]</td>
-   <td> <p> Définissez le nombre maximal de réponses qui [!DNL Workfront Fusion] renvoie pendant un cycle.</p> </td> 
+   <td> <p> Définissez le nombre maximal de réponses que [!DNL Workfront Fusion] renvoie au cours d’un cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

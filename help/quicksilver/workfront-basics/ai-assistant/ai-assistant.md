@@ -1,21 +1,22 @@
 ---
-title: "Assistant IA : index des articles"
+title: "Assistant d’IA : index des articles"
 content-type: reference
 description: Consultez la liste des articles disponibles concernant l’assistant d’IA dans Workfront
 author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 9948943f802e249a25e81ffc6b5b96ab70f8f930
+exl-id: 3f83dd91-d7de-4050-89b7-f53cbc4389a0
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
 # Assistant d’IA : index des articles
 
-Cette section contient les articles suivants :
+Cette section contient les articles suivants :
 
 * [Résumer à l’aide de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
 * [Obtenir de l’aide à partir de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)

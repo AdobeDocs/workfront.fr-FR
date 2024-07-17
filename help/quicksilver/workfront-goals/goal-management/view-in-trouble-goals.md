@@ -9,7 +9,7 @@ exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 6%
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-Les objectifs présentant un progrès par rapport aux objectifs en difficulté risquent de ne pas être atteints et sont représentés par une barre de progression rouge dans les objectifs Adobe Workfront. Vous devez souvent revoir vos objectifs et comprendre pourquoi les progrès sont à la traîne. Pour plus d’informations sur la progression de l’objectif, voir [Présentation de la progression et de la condition des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
+Les objectifs présentant un progrès par rapport aux objectifs en difficulté risquent de ne pas être atteints et sont représentés par une barre de progression rouge dans les objectifs Adobe Workfront. Vous devez souvent revoir vos objectifs et comprendre pourquoi les progrès sont à la traîne. Pour plus d’informations sur la progression de l’objectif, voir [Présentation de la progression et de la condition de l’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -74,18 +74,18 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Recommendations pour empêcher les objectifs d’atteindre l’état En difficulté
 
-Avant que les objectifs n’atteignent une progression de En danger, vous pouvez souvent les surveiller et ajuster leur progression lorsqu’ils atteignent une progression de En danger. Les objectifs qui sont menacés risquent de devenir en difficulté. Pour plus d’informations sur la progression de l’objectif, voir [Présentation de la progression et de la condition des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Avant que les objectifs n’atteignent une progression de En danger, vous pouvez souvent les surveiller et ajuster leur progression lorsqu’ils atteignent une progression de En danger. Les objectifs qui sont menacés risquent de devenir en difficulté. Pour plus d’informations sur la progression de l’objectif, voir [Présentation de la progression et de la condition de l’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Avant que vos objectifs n’atteignent une progression de En problème, nous vous recommandons ce qui suit :
 
@@ -94,11 +94,11 @@ Avant que vos objectifs n’atteignent une progression de En problème, nous vou
 
 ## Révision des objectifs en difficulté dans la liste des objectifs
 
-Vous pouvez consulter les objectifs dans n’importe quelle section des objectifs de Workfront. Pour plus d’informations sur les sections Objectifs de Workfront , voir [Présentation des sections sur les objectifs d’Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Vous pouvez consulter les objectifs dans n’importe quelle section des objectifs de Workfront. Pour plus d’informations sur les sections Objectifs de Workfront, voir [Présentation des sections Objectifs d’Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 Cet article décrit comment passer en revue les objectifs dans la liste des objectifs.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -107,7 +107,7 @@ Cet article décrit comment passer en revue les objectifs dans la liste des obje
 
 1. (Recommandé) Ajustez les filtres suivants pour la zone Liste des objectifs afin de passer en revue les objectifs à risque :
 
-   * Cliquez sur **Société**, puis **Mes équipes**, puis **Mes groupes**, puis **Personal Personal** objectifs dans ce but afin d’afficher les objectifs qui appartiennent à votre organisation, vos équipes, vos groupes, puis vos propres objectifs.
+   * Cliquez sur **Société**, puis sur **Mes équipes**, puis sur **Mes groupes**, puis sur **Objectifs personnels** afin d’afficher les objectifs qui appartiennent à votre organisation, vos équipes, vos groupes et ensuite vos propres objectifs.
 
      >[!TIP]
      >
@@ -116,7 +116,7 @@ Cet article décrit comment passer en revue les objectifs dans la liste des obje
      >
      >Vous ne pouvez pas rechercher des sociétés utilisant ce champ. Seule votre organisation propriétaire de votre instance Workfront est sélectionnée par défaut.
 
-   * Pour chacune des entités organisationnelles sélectionnées ci-dessus, cliquez sur **Nouveau filtre** > **Progression** > **En difficulté** >**Appliquez.**
+   * Pour chacune des entités organisationnelles que vous sélectionnez ci-dessus, cliquez sur **Nouveau filtre** > **Progression** > **En problème** >**Appliquer.**
    * (Facultatif) Sélectionnez la période pour laquelle vous souhaitez afficher les objectifs.
 
      L’indicateur de la barre de progression s’affiche en rouge pour chaque objectif de la liste d’objectifs.
@@ -131,7 +131,7 @@ Cet article décrit comment passer en revue les objectifs dans la liste des obje
 
    Les objectifs en difficulté pour les utilisateurs sélectionnés s’affichent dans la liste d’objectifs.
 
-1. Cliquez sur un nom d’objectif pour ouvrir la page d’objectif, puis cliquez sur **Indicateurs de progression** dans le panneau de gauche. Identifier l’indicateur de progression qui provoque le retard de l’objectif et mettre à jour la progression de l’indicateur en ligne, dans la variable **Progression réelle** de la liste Indicateurs de progression.
+1. Cliquez sur un nom d’objectif pour ouvrir la page d’objectif, puis cliquez sur **Indicateurs de progression** dans le panneau de gauche. Identifiez l&#39;indicateur de progression qui provoque le retard de l&#39;objectif et mettez à jour la progression de l&#39;indicateur en ligne, dans la colonne **Progression réelle** de la liste des indicateurs de progression.
 
    Pour plus d’informations sur la mise à jour des résultats et des activités, voir [Mise à jour de la progression de l’objectif dans les objectifs Adobe Workfront](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 

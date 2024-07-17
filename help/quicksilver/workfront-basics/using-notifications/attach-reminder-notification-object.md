@@ -10,7 +10,7 @@ exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
 source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 17%
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 17%
 
 Vous pouvez associer des notifications de rappel à plusieurs types d’objets différents : Projets, Tâches, Problèmes, Fiches horaires, Modèles, Tâches de modèle et Profils de feuille de temps récurrente.
 
-Avant de pouvoir joindre des notifications de rappel à un objet, une [!DNL Adobe Workfront] L’administrateur doit créer la notification, comme décrit dans la section [Configuration des notifications de rappel](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Avant de pouvoir joindre des notifications de rappel à un objet, un administrateur [!DNL Adobe Workfront] doit créer la notification, comme décrit dans la section [Configuration des notifications de rappel](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
 Les étapes pour joindre des notifications de rappel sont les mêmes, quel que soit le type d’objet auquel vous les joignez.
 
@@ -42,7 +42,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou version ultérieure</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] ou version ultérieure</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur [!DNL Workfront] s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -51,22 +51,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
 ## Joindre des notifications de rappel à un objet
 
 1. Accédez à l&#39;objet auquel vous souhaitez joindre la notification de rappel.
 1. Cliquez sur l’icône Modifier ![](assets/edit-icon.png).
-1. Dans le panneau de gauche du **[!UICONTROL Modifier]** qui s’affiche, cliquez sur **[!UICONTROL Paramètres]**.
+1. Dans le panneau de gauche de la zone **[!UICONTROL Modifier]** qui s’affiche, cliquez sur **[!UICONTROL Paramètres]**.
 
-1. Sous **[!UICONTROL Notification de rappel]**, sélectionnez les notifications à joindre à l’objet.
+1. Sous **[!UICONTROL Notification de rappel]**, sélectionnez les notifications que vous souhaitez joindre à l’objet.
 
    Dans cet exemple, l’objet en cours de modification est une tâche :
 
    ![](assets/reminder-notification-select-one-350x213.png)
 
-   Si la variable [!DNL Workfront] L’administrateur a créé plusieurs notifications de rappel. vous pouvez joindre plusieurs notifications à un seul objet.
+   Si l&#39;administrateur [!DNL Workfront] a créé plusieurs notifications de rappel, vous pouvez joindre plusieurs notifications à un seul objet.
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
-   Si vous avez besoin d’aide pour tester la diffusion d’une notification de rappel, reportez-vous à la section [!DNL Workfront] administrateur.
+   Si vous avez besoin d&#39;aide pour tester la diffusion d&#39;une notification de rappel, consultez votre administrateur [!DNL Workfront].

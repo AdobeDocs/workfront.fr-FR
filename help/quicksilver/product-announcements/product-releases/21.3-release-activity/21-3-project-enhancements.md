@@ -1,6 +1,6 @@
 ---
-title: 21.3 Améliorations apportées au projet
-description: 21.3 Améliorations apportées au projet
+title: Améliorations apportées aux projets (version 21.3)
+description: Améliorations apportées aux projets (version 21.3)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: 1df4ccdb-5b74-414c-a622-b0a5ed30a8c4
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 21.3 Améliorations apportées au projet
+# Améliorations apportées aux projets (version 21.3)
 
 Cette page décrit toutes les améliorations apportées aux projets avec la version 21.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 21 juillet 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.3, voir [Présentation de la version 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.3, consultez la [présentation de la version 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Associer un modèle à un groupe
 
@@ -27,7 +27,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 21
 
 Pour vous aider à rationaliser le processus de création de projet et à identifier plus facilement les groupes qui possèdent les modèles de projet, nous avons ajouté la possibilité d’affecter un groupe à un modèle de projet.
 
-Lorsque vous affectez un groupe à un modèle de projet, tous les projets créés à partir du modèle sont automatiquement associés au groupe du modèle. Pour plus d’informations, voir [Modifier des modèles de projet](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Lorsque vous affectez un groupe à un modèle de projet, tous les projets créés à partir du modèle sont automatiquement associés au groupe du modèle. Pour plus d’informations, voir [Modifier les modèles de projet](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 Vous pouvez également associer un processus de validation de groupe à un modèle et à ses tâches de modèle si le modèle est associé à votre groupe. Pour plus d’informations, voir [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
@@ -52,7 +52,7 @@ Auparavant, les dates de remise étaient calculées uniquement sur la base des p
 
 Maintenant, pour vous assurer que vous disposez toujours d’une date de remise précise pour une tâche avec un prédécesseur multi-projet, vous devez recalculer la chronologie du projet de la tâche qui lui succède. Après avoir recalculé la chronologie, les dates de remise de la tâche calculent en prenant en compte les dépendances entre les projets des tâches.
 
-Pour plus d’informations sur les dates de remise, voir [Présentation de la date de passation des tâches](../../../manage-work/tasks/task-information/handoff-task-date.md).
+Pour plus d’informations sur les dates de remise, consultez la [présentation de la date de remise des tâches](../../../manage-work/tasks/task-information/handoff-task-date.md).
 
 ## Ajout d’articles et de problèmes existants à partir du panneau Scrum
 
@@ -82,7 +82,7 @@ Pour plus d’informations, voir [Ajout d’articles et de problèmes à partir 
 
 Vous pouvez désormais supprimer un article ou un problème directement à partir de votre panorama Kanban en cliquant sur l’icône Plus d’un article ou d’une carte de problème et en sélectionnant Supprimer. Lorsque vous supprimez un article ou un problème, il est déplacé dans la Corbeille pendant 30 jours et ne peut être récupéré que par l’administrateur système.
 
-Pour plus d’informations, voir [Supprimer des articles ou des problèmes du panorama de Kanban](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
+Pour plus d’informations, voir [Suppression d’articles ou de problèmes sur le panorama Kanban](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
 
 ## Mises à jour de l’en-tête et du panorama des cartes agiles
 
@@ -103,7 +103,7 @@ Pour plus d’informations, voir [Présentation des itérations](../../../agile/
 
 Comme nous l’avons indiqué précédemment, nous avons déployé des personnalisations au niveau du groupe pour les préférences de projet, de tâche et de problème dans les phases qui ont précédé le 24 juin 2021. Le déploiement est maintenant terminé et ils sont disponibles en production pour tous les clients.
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d’informations, consultez les articles suivants :
 
 * [Configuration des préférences de projet pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
 * [Configuration des préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
@@ -118,7 +118,7 @@ Vous pouvez désormais utiliser des adresses électroniques externes pour affect
 
 Auparavant, vous pouviez ajouter des utilisateurs externes par adresse électronique uniquement dans Workfront Classic.
 
-Pour plus d’informations, voir [Demande d’approbation de documents](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Pour plus d’informations, voir [Demande d’approbation de document](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
 ## Exporter des informations depuis la section Détails d’un portfolio ou d’un programme
 

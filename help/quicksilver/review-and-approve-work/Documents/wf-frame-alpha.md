@@ -25,7 +25,7 @@ Vous trouverez ici des informations sur la dernière version bêta, ainsi qu’u
 >Cette version bêta est maintenant fermée et nous n&#39;acceptons plus de nouveaux participants.
 
 
-## Mai 2024 : Mises à jour de la version bêta dans Workfront
+## Mai 2024 : Mises à jour de la version Beta dans Workfront
 
 Cette version de mai comprend les fonctionnalités suivantes :  
 
@@ -48,7 +48,7 @@ Dans le cadre de nos efforts pour améliorer la synchronisation des projets entr
 Effectuez facilement le suivi de l’état d’approbation d’un fichier directement à partir de la liste de documents. En un simple clic sur le statut général, accédez à une répartition détaillée de tous les participants impliqués dans le processus de validation, ainsi qu&#39;à leur statut individuel. De plus, rationalisez votre workflow en rappelant d’un seul clic aux approbateurs les plus performants, en veillant à obtenir des réponses opportunes et à une gestion efficace des documents. 
 
 
-## Mars 2024 : Mises à jour de la version bêta dans Frame.io
+## Mars 2024 : Mises à jour de la version Beta dans Frame.io
 
 +++ Développer pour afficher les fonctionnalités publiées en mars 2024
 
@@ -62,7 +62,7 @@ Les éléments de menu permettant d’ajouter une ressource à Workfront ont ét
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Mars 2024 : Mises à jour de la version bêta dans Workfront
+## Mars 2024 : Mises à jour de la version de Beta dans Workfront
 
 Dans cette version bêta, nous avons apporté les améliorations suivantes :
 

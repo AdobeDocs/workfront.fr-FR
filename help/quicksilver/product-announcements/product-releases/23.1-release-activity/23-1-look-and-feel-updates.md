@@ -1,6 +1,6 @@
 ---
-title: Consultation et affichage des mises à jour pendant la période de publication de la version 23.1
-description: Consultation et affichage des mises à jour pendant la période de publication de la version 23.1
+title: Mises à jour de l’expérience utilisateur (version 23.1)
+description: Mises à jour de l’expérience utilisateur (version 23.1)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: e16e54ee-b74d-495a-9e1b-f5c429458772
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# Mises à jour de l’apparence pendant la période de version 23.1
+# Mises à jour de l’expérience utilisateur (version 23.1)
 
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication de la version 23.1. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 23.1, voir [Présentation de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 23.1, consultez la [présentation de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Mise à jour des listes dans la zone Configuration > Interface
 
@@ -43,7 +43,7 @@ Outre une apparence mise à jour, les modifications suivantes sont également di
 * Nous avons supprimé la case à cocher &quot;Est actif&quot; pour éliminer la redondance avec les options de menu Plus sur la page de modèle.
 * Nous avons supprimé la section Commentaire pour éliminer la redondance avec la section Mises à jour .
 
-Pour plus d’informations, voir [Modifier des modèles de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+Pour plus d’informations, voir [Modifier les modèles de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Nouvelle apparence de l’intégration de Workfront for Jira
 
@@ -83,7 +83,7 @@ D’autres informations sur les utilisateurs s’affichent lorsque vous ajoutez 
 
 Désormais, lorsque vous ajoutez un utilisateur aux champs utilisateur répertoriés ci-dessus, en plus du nom et de l’avatar de l’utilisateur, son rôle de Principal et son e-mail s’affichent également. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.
 
-Pour plus d’informations et pour afficher une démonstration vidéo d’une fonctionnalité similaire, voir &quot;Sélection utilisateur intelligente pour les rôles de projet dans les zones Modifier et Détails&quot; dans [22.4 Améliorations apportées aux projets](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Pour plus d’informations et pour afficher une démonstration vidéo d’une fonctionnalité similaire, voir &quot;Sélection intelligente des utilisateurs pour les rôles de projet dans les zones Modifier et Détails&quot; dans [22.4 Améliorations du projet](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Recherche et affichage des mises à jour de la page Notifications
 

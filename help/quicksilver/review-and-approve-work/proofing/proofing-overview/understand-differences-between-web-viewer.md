@@ -2,37 +2,37 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
-title: Présentation des différences entre la visionneuse de test Web et la visionneuse de test de bureau
+title: Vue d’ensemble des différences entre la visionneuse de relecture web et la visionneuse de relecture de bureau
 description: Découvrez les différences entre les visionneuses de test pour ordinateur et web.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 0%
+source-wordcount: '993'
+ht-degree: 14%
 
 ---
 
-# Présentation des différences entre la visionneuse de test Web et la visionneuse de test de bureau
+# Vue d’ensemble des différences entre la visionneuse de relecture web et la visionneuse de relecture de bureau
 
 Adobe Workfront fournit deux visionneuses de vérification :
 
-* **Visionneuse de test Web :** Conçu principalement pour la vérification des fichiers statiques et vidéo. S’exécute dans Google Chrome, Firefox ou Safari.
-* **Visionneuse de vérification de l’appli de bureau :** Conçu pour la vérification des fichiers interactifs, ainsi que pour les fichiers vidéo et statiques. S’exécute en tant qu’application autonome sur votre poste de travail. Pour plus d’informations, voir [Présentation de la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+* **Visionneuse de test Web :** conçue principalement pour la vérification de fichiers statiques et vidéo. S’exécute dans Google Chrome, Firefox ou Safari.
+* **Visionneuse de vérification de l’appli de bureau :** conçue pour la vérification de fichiers interactifs ainsi que de fichiers vidéo et statiques. S’exécute en tant qu’application autonome sur votre poste de travail. Pour plus d’informations, voir [Présentation de la visionneuse de vérification de l’appli de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
-* Si votre entreprise ne peut pas utiliser l’application Visionneuse de vérification de l’appli de bureau pour des raisons de sécurité, votre administrateur Workfront peut configurer votre système afin que vous puissiez consulter le contenu interactif, regroupé dans un fichier d’archive ZIP, dans la visionneuse de vérification de l’application Web. Pour plus d’informations, voir  [Configuration de la vérification de contenu interactif dans la visionneuse de Web Proofing](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Si votre entreprise ne peut pas utiliser l’application Visionneuse de vérification de l’appli de bureau pour des raisons de sécurité, votre administrateur Workfront peut configurer votre système afin que vous puissiez consulter le contenu interactif, regroupé dans un fichier d’archive ZIP, dans la visionneuse de vérification de l’application Web. Pour plus d’informations, voir  [Configurez la vérification de contenu interactif dans la visionneuse de vérification de contenu web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
 La liste suivante peut vous aider à comprendre la visionneuse de vérification que vous pouvez utiliser pour vérifier certains types de contenu :
 
-* **Contenu web interactif - URL**: si vous créez un BAT pour le contenu web à l’aide d’une URL et que vous souhaitez tester le contenu de manière interactive, vous devez utiliser la visionneuse de BAT pour postes de travail.
-* **Contenu web interactif - Fichier ZIP**: si vous créez un BAT pour le contenu web à l’aide d’un fichier ZIP, vous pouvez utiliser soit la visionneuse de BAT Web (avec certaines restrictions), soit la visionneuse de BAT pour ordinateur de bureau. Pour plus d’informations sur les restrictions liées à l’utilisation de la visionneuse de tests de performance web pour le contenu interactif, voir [Configuration de la vérification de contenu interactif dans la visionneuse de Web Proofing](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* **Contenu web interactif - URL** : si vous créez un BAT pour le contenu web à l’aide d’une URL et que vous souhaitez tester le contenu de manière interactive, vous devez utiliser la visionneuse de vérification de l’appli de bureau.
+* **Contenu web interactif - fichier ZIP** : si vous créez un BAT pour le contenu web à l’aide d’un fichier ZIP, vous pouvez utiliser soit la visionneuse de test Web (avec certaines restrictions), soit la visionneuse de vérification de l’appli de bureau. Pour plus d’informations sur les limites liées à l’utilisation de la visionneuse de vérification de l’intégrité web pour le contenu interactif, voir [ Configuration de la vérification de l’intégrité du contenu interactif dans la visionneuse de vérification de l’intégrité web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* **Contenu statique et vidéo**: si vous créez un BAT contenant du contenu statique, vous pouvez utiliser soit la visionneuse de BAT Web, soit la visionneuse de BAT.
+* **Contenu statique et vidéo** : si vous créez un BAT contenant du contenu statique, vous pouvez utiliser la visionneuse de vérification de l’intégrité Web ou la visionneuse de vérification de l’intégrité de bureau.
 
 ## BAT statique
 
-| **Fonctionnalité** | **Visionneuse de test Web** | **Visionneuse de vérification de l’appli de bureau** |
+| **Fonctionnalité** | **Visionneuse de proxy web** | **Visionneuse de vérification de l’appli de bureau** |
 |---|---|---|
 | Ouvrir les bons à tirer statiques | ✓ | ✓&#42; |
 | Affichages uniques, de magazines et continus | ✓ | ✓&#42; |
@@ -43,8 +43,8 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
 | Mode Miniature | ✓ | ✓&#42; |
 | Navigateur de BAT statique | ✓ | ✓&#42; |
 | Recherche de documents | ✓ | ✓&#42; |
-| Publier un commentaire sur plusieurs pages | ✓ (disponible sur toutes les vues) | ✓&#42; (disponible sur toutes les vues) |
-| Raccourcis de BAT statique avancés | ✓ (pour plus d’informations, voir [Raccourcis clavier dans la visionneuse de vérification](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(pour plus d’informations, voir [Raccourcis clavier dans la visionneuse de vérification](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Commentaire Post sur plusieurs pages | ✓ (disponible sur toutes les vues) | ✓&#42; (disponible sur toutes les vues) |
+| Raccourcis de BAT statique avancés | ✓ (pour plus d’informations, voir [Raccourcis clavier dans la visionneuse de correctifs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(pour plus d’informations, voir [Raccourcis clavier dans la visionneuse de vérification de correction](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
 
@@ -52,7 +52,7 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
 
 ## BAT vidéo
 
-| **Fonctionnalité**  | **Visionneuse de test Web** | **Visionneuse de vérification de l’appli de bureau** |
+| **Fonctionnalité**  | **Visionneuse de proxy web** | **Visionneuse de vérification de l’appli de bureau** |
 |---|---|---|
 | BAT vidéo ouvert | ✓ | ✓&#42; |
 | Mise en mémoire tampon | ✓ | ✓&#42; |
@@ -63,7 +63,7 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
 | mode plein écran | ✓ | ✓&#42;  |
 | Commentaires sur la plage | ✓ | ✓&#42;  |
 | BAT vidéo en boucle (les vidéos se terminent et démarrent automatiquement) | ✓ | ✓&#42;  |
-| Raccourcis vidéo avancés | ✓ (pour plus d’informations, voir [Raccourcis clavier dans la visionneuse de vérification](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
+| Raccourcis vidéo avancés | ✓ (pour plus d’informations, voir [Raccourcis clavier dans la visionneuse de correctifs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
 {style="table-layout:auto"}
 
@@ -71,7 +71,7 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
 
 ## BAT interactif
 
-| **Fonctionnalité**  | **Visionneuse de test Web** | **Visionneuse de vérification de l’appli de bureau** |
+| **Fonctionnalité**  | **Visionneuse de proxy web** | **Visionneuse de vérification de l’appli de bureau** |
 |---|---|---|
 | Ouvrir les BAT interactifs créés à partir de contenu regroupé dans un fichier ZIP | ✓ | ✓ (recommandé) |
 | Ouvrir un BAT interactif créé à partir d’une URL | Non pris en charge | ✓ |
@@ -92,7 +92,7 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
   <tr> 
    <th>Fonctionnalité</th> 
    <th>Visionneuse de test Web </th> 
-   <th>Visionneuse de vérification de l’appli de bureau </th> 
+   <th>Visionneuse de relecture de bureau </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -226,7 +226,7 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
 
 ## Décisions
 
-| Fonctionnalité | Visionneuse de test Web | Visionneuse de vérification de l’appli de bureau |
+| Fonctionnalité | Visionneuse de test Web | Visionneuse de relecture de bureau |
 |---|---|---|
 | Prendre des décisions | ✓ | ✓ |
 | Personnalisation des décisions | ✓ | ✓ |
@@ -243,7 +243,7 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
   <tr> 
    <th>Fonctionnalité</th> 
    <th>Visionneuse de test Web </th> 
-   <th>Visionneuse de vérification de l’appli de bureau </th> 
+   <th>Visionneuse de relecture de bureau </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -270,7 +270,7 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
   <tr> 
    <th>Fonctionnalité</th> 
    <th>Visionneuse de test Web </th> 
-   <th>Visionneuse de vérification de l’appli de bureau </th> 
+   <th>Visionneuse de relecture de bureau </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -281,8 +281,8 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
   </tr> 
   <tr> 
    <td>Création d’une version</td> 
-   <td> <p>Disponible uniquement dans le BAT Workfront (prévu pour le futur lors de la vérification dans Workfront)<br></p> </td> 
-   <td>Disponible uniquement dans le BAT Workfront (prévu pour le futur lors de la vérification dans Workfront)</td> 
+   <td> <p>Disponible uniquement dans Workfront Proof (prévu pour le futur lors de la vérification dans Workfront)<br></p> </td> 
+   <td>Disponible uniquement dans Workfront Proof (prévu pour le futur lors de la vérification dans Workfront)</td> 
   </tr> 
   <tr> 
    <td>Vérification des détails du BAT </td> 
@@ -336,21 +336,21 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
   </tr> 
   <tr> 
    <td>Gestion des BAT à partir du même dossier</td> 
-   <td><strong>Disponible uniquement dans Workfront BAT</strong> </td> 
-   <td><strong>Disponible uniquement dans Workfront BAT</strong> </td> 
+   <td><strong>Disponible uniquement dans Workfront Proof</strong> </td> 
+   <td><strong>Disponible uniquement dans Workfront Proof</strong> </td> 
   </tr> 
   <tr> 
    <td>Marques (logos personnalisés)</td> 
    <td>✓</td> 
-   <td> ✓<br>(Logo Workfront sur la page de lancement) </td> 
+   <td> ✓<br> (logo Workfront sur la page de lancement) </td> 
   </tr> 
   <tr> 
-   <td>Liens personnalisés (BAT Workfront uniquement)</td> 
+   <td>Liens personnalisés (Workfront Proof uniquement)</td> 
    <td>Non pris en charge</td> 
    <td> Non pris en charge </td> 
   </tr> 
   <tr> 
-   <td>Intégrations Basecamp (BAT Workfront uniquement) </td> 
+   <td>Intégrations Basecamp (Workfront Proof uniquement) </td> 
    <td>Prévu pour le futur</td> 
    <td>Prévu pour le futur</td> 
   </tr> 
@@ -369,7 +369,7 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
 
 ## Miniviewer
 
-| **Fonctionnalité**  | **Visionneuse de test Web**  | **Visionneuse de vérification de l’appli de bureau** |
+| **Fonctionnalité**  | **Visionneuse de proxy web**  | **Visionneuse de vérification de l’appli de bureau** |
 |---|---|---|
 | Code incorporé | Prévu pour le futur des BAT vidéo statiques et natifs | Non pris en charge  |
 
@@ -384,7 +384,7 @@ La liste suivante peut vous aider à comprendre la visionneuse de vérification 
  <thead> 
   <tr> 
    <th><strong>Fonctionnalité</strong> </th> 
-   <th><strong>Visionneuse de test Web</strong> </th> 
+   <th><strong>Visionneuse de proxy web</strong> </th> 
    <th><strong>Visionneuse de vérification de l’appli de bureau</strong> </th> 
   </tr> 
  </thead> 

@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Publier et partager [!DNL Adobe Workfront Fusion] templates
+title: Publish et partager  [!DNL Adobe Workfront Fusion] modèles
 description: Lorsque vous créez un modèle, celui-ci devient disponible pour tous les membres de l’équipe. Si vous souhaitez partager le modèle avec une personne extérieure à votre équipe, vous devez d’abord le publier.
 author: Becky
 feature: Workfront Fusion
@@ -10,67 +10,67 @@ exl-id: aaa59a1e-aa16-41f5-9f56-ce0615c1b685
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# Publier et partager [!DNL Adobe Workfront Fusion] templates
+# Publish et partager [!DNL Adobe Workfront Fusion] modèles
 
 Lorsque vous créez un modèle, celui-ci devient disponible pour tous les membres de l’équipe. Si vous souhaitez partager le modèle avec une personne extérieure à votre équipe, vous devez d’abord le publier.
 
 Pour plus d’informations sur la création d’un modèle, voir [Création de modèles dans Adobe Workfront Fusion](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
    <td> <p>[!DNL Pro] ou supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
+   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
 Un modèle doit être créé avant d’être partagé.
 
-## Publier une [!DNL Adobe Workfront Fusion] modèle
+## Publish et modèle [!DNL Adobe Workfront Fusion]
 
 1. Dans le panneau de navigation de gauche, cliquez sur **[!UICONTROL Modèles]**.
-1. Cliquez sur le bouton **[!UICONTROL Modèles d’équipe]** .
+1. Cliquez sur l&#39;onglet **[!UICONTROL Modèles d&#39;équipe]** .
 1. Cliquez sur le nom du modèle.
-1. Cliquez sur le bouton **[!UICONTROL Publier]** dans le coin supérieur droit de l’écran.
+1. Cliquez sur le bouton **[!UICONTROL Publish]** dans le coin supérieur droit de l’écran.
 
-## Partager une [!DNL Workfront Fusion] modèle
+## Partager un modèle [!DNL Workfront Fusion]
 
 Après avoir publié un modèle, vous pouvez le partager.
 
@@ -78,13 +78,13 @@ Après avoir publié un modèle, vous pouvez le partager.
 
    >[!NOTE]
    >
-   >Vous pouvez partager ce lien avec toute personne de votre choix. Le modèle reste lui-même dans la variable [!UICONTROL Modèles d’équipe] et n’est pas public.
+   >Vous pouvez partager ce lien avec toute personne de votre choix. Le modèle reste dans l’onglet [!UICONTROL Modèles d’équipe] et n’est pas public.
 
-1. (Conditionnel) Si vous souhaitez que le modèle soit public, envoyez-le à votre administrateur pour approbation en cliquant sur **[!UICONTROL Demande d’approbation]**.
+1. (Conditionnel) Si vous souhaitez que le modèle soit public, envoyez-le à votre administrateur pour approbation en cliquant sur **[!UICONTROL Demander l’approbation]**.
 
    >[!NOTE]
    >
-   >* Une fois le modèle validé, il devient public. [!UICONTROL Modèles publics] sont visibles dans la variable [!UICONTROL Modèles publics] pour tous [!DNL Workfront Fusion] utilisateurs, quelle que soit l’organisation ou l’équipe.
+   >* Une fois le modèle validé, il devient public. Les [!UICONTROL modèles publics] sont visibles dans l’onglet [!UICONTROL Modèles publics] pour tous les utilisateurs de [!DNL Workfront Fusion], quelle que soit l’organisation ou l’équipe.
    >* Votre administrateur n’est pas informé de la réception du modèle à réviser par courrier électronique. Si la validation est urgente, contactez directement l&#39;administrateur.
 
 
@@ -94,14 +94,14 @@ Vous pouvez vérifier l’état de votre page de modèle sous le nom du modèle.
 
 Les statuts suivants sont disponibles :
 
-* **[!UICONTROL Privé]**: Ce modèle est visible uniquement par l’auteur du modèle et son équipe.
-* **[!UICONTROL Publié]**: Ce modèle est visible uniquement par l’auteur du modèle et son équipe. Vous pouvez envoyer les modèles publiés pour approbation et copier un lien partageable.
-* **[!UICONTROL Approuvé]**: Ce modèle est visible par tous les utilisateurs de Workfront Fusion dans la variable [!UICONTROL Modèles publics] . Vous pouvez copier un lien partageable en cliquant sur [!UICONTROL Options] dans le coin supérieur droit de l’écran.
+* **[!UICONTROL Privé]** : ce modèle est visible uniquement pour l’auteur du modèle et son équipe.
+* **[!UICONTROL Publié]** : ce modèle n’est visible que pour l’auteur du modèle et son équipe. Vous pouvez envoyer les modèles publiés pour approbation et copier un lien partageable.
+* **[!UICONTROL Approuvé]** : ce modèle est visible pour tous les utilisateurs de Workfront Fusion dans l’onglet [!UICONTROL Modèles publics]. Vous pouvez copier un lien partageable en cliquant sur [!UICONTROL Options] dans le coin supérieur droit de l’écran.
 
-Vous pouvez également vérifier l’état à partir du [!UICONTROL Modèles d’équipe] . Si un modèle est publié, une icône s’affiche à droite de son nom.
+Vous pouvez également vérifier l’état à partir de l’onglet [!UICONTROL Modèles d’équipe] . Si un modèle est publié, une icône s’affiche à droite de son nom.
 
-* **Icône Oye**: Le modèle est publié, il n’est visible que pour l’équipe et la demande de validation n’a pas été envoyée.
-* **Icône de coche jaune**: Le modèle est publié, il n’est visible que pour l’équipe et la demande de validation a été envoyée.
-* **Icône de coche verte**: Le modèle est publié et public. Il est visible pour tout utilisateur de Workfront Fusion dans la variable [!UICONTROL Modèles publics] . Elle est également toujours visible dans la variable [!UICONTROL Modèles d’équipe] et l’auteur du modèle ou le membre de l’équipe peut toujours le modifier.
+* **Icône OEil** : le modèle est publié, il est visible uniquement pour l’équipe et la demande de validation n’a pas été envoyée.
+* **Icône de coche jaune** : le modèle est publié, il n’est visible que pour l’équipe et la demande de validation a été envoyée.
+* **Icône de coche verte** : le modèle est publié et public. Elle est visible pour tout utilisateur de la fusion Workfront dans l’onglet [!UICONTROL Modèles publics]. Il est également toujours visible dans l’onglet [!UICONTROL  Modèles d’équipe ] et l’auteur du modèle ou le membre de l’équipe peut toujours le modifier.
 
-Les modèles sans icônes ont [!UICONTROL Privé] statut. Elles ne sont pas publiées et ne sont visibles que par l’équipe.
+Les modèles sans icônes ont le statut [!UICONTROL Private]. Elles ne sont pas publiées et ne sont visibles que par l’équipe.

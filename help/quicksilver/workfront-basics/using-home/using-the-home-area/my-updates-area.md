@@ -158,7 +158,7 @@ Vous devez disposer des éléments suivants avant de commencer :
    * Utilisez la barre d’outils Texte enrichi pour mettre en forme le texte, ajouter des liens, des listes, des émoticônes, des guillemets ou des images à votre message.
    * Ajoutez des utilisateurs ou des équipes pour les avertir de votre réponse.
 
-     Une fois la réponse ajoutée, cliquez sur **[!UICONTROL Répondre]** encore une fois.
+     Une fois la réponse ajoutée, cliquez de nouveau sur **[!UICONTROL Répondre]**.
 
      ![](assets/reply-in-the-my-updates-area.png)
 1. (Facultatif) Cliquez sur **[!UICONTROL Épingler la page active]** pour épingler la zone [!UICONTROL Mes mises à jour] dans votre navigation supérieure.

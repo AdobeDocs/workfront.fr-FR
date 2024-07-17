@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: add,users,group,add,another,assign,administrator,remove,user,view,rôles,membres,export,membership,data
 navigation-topic: create-and-manage-groups
-title: Affichage et gestion des appartenances d’un groupe
+title: Consulter et gérer les appartenances à un groupe
 description: En tant qu’administrateur Adobe Workfront, vous pouvez afficher, ajouter, supprimer, exporter, activer et désactiver les membres de n’importe quel groupe que vous gérez. Vous pouvez également modifier leurs profils, ajouter des mises à jour à leurs profils et les affecter en tant qu’administrateurs de groupe supplémentaires au groupe.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
@@ -11,41 +11,41 @@ role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 1%
+source-wordcount: '739'
+ht-degree: 19%
 
 ---
 
-# Affichage et gestion des appartenances d’un groupe
+# Consulter et gérer les appartenances à un groupe
 
 En tant qu’administrateur Adobe Workfront, vous pouvez afficher, ajouter, supprimer, exporter, activer et désactiver les membres de n’importe quel groupe que vous gérez. Vous pouvez également modifier leurs profils, ajouter des mises à jour à leurs profils et les affecter en tant qu’administrateurs de groupe supplémentaires au groupe.
 
-S’il existe des groupes au-dessus de votre groupe, leurs administrateurs peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour les administrateurs de Workfront (pour n’importe quel groupe).
+S’il existe des groupes au-dessus de votre groupe, leurs administrateurs ou administratrices peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Workfront*</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Plan Workfront*</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur de groupe du groupe ou un administrateur Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice de groupe pour le groupe ou un administrateur ou une administratrice de Workfront. Pour plus d’informations, consultez les sections <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à une personne</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si vous devez savoir quel plan ou type de licence vous avez, contactez votre administrateur Workfront.
+&#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
-## Affichage et gestion des appartenances d’un groupe
+## Consulter et gérer les appartenances à un groupe
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
 1. Dans le panneau de gauche, cliquez sur **Groupes**.
 
@@ -71,8 +71,8 @@ Les étapes de cet article doivent être les suivantes :
       <td role="rowheader">Suppression d’un utilisateur du groupe</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur <strong>Supprimer un membre</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
-        <li value="2"> <p>Cliquez sur <strong>Supprimer</strong> dans le message d’avertissement qui s’affiche.</p> <p>Vous pouvez trouver un utilisateur que vous souhaitez supprimer de la liste en cliquant sur <strong>Recherche de personnes et de groupes dans la liste</strong>, saisissez leur nom dans la zone, puis cliquez sur le nom lorsqu’il apparaît.</p> <p><b>NOTE</b>:  
+        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur <strong>Supprimer le membre</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
+        <li value="2"> <p>Cliquez sur <strong>Supprimer</strong> dans le message d’avertissement qui s’affiche.</p> <p>Vous pouvez trouver un utilisateur que vous souhaitez supprimer de la liste en cliquant sur <strong>Rechercher des personnes et des groupes dans la liste</strong>, en saisissant leur nom dans la zone, puis en cliquant sur le nom lorsqu’il s’affiche.</p> <p><b>NOTE</b> :  
           <ul> 
            <li>Si ce groupe est le groupe d’accueil d’un utilisateur que vous souhaitez supprimer, vous devez d’abord attribuer un autre groupe d’accueil dans le profil de l’utilisateur. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">Présentation des groupes d’accueil</a> et <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modification du profil d’un utilisateur</a>.</li> 
            <li>Si le groupe n’a qu’un seul administrateur de groupe et que vous devez le supprimer du groupe, vous devez d’abord affecter un autre administrateur de groupe au groupe.</li> 
@@ -85,20 +85,20 @@ Les étapes de cet article doivent être les suivantes :
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
         <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur <strong>Modifier</strong> <img src="assets/edit-icon.png">.</li> 
-        <li value="2"> <p>Modifiez les informations de profil de l’utilisateur.</p> <p>Pour plus d’informations sur les modifications que vous pouvez apporter, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modification du profil d’un utilisateur</a>.</p> </li> 
+        <li value="2"> <p>Modifiez les informations de profil de l’utilisateur.</p> <p>Pour plus d'informations sur les modifications que vous pouvez apporter, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modification du profil d'un utilisateur</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportation des données d’adhésion des utilisateurs</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur <strong>Exporter</strong> <img src="assets/export.png">.</li> 
-        <li value="2"> <p>Exportez les données sous la forme d’un fichier séparé par des tabulations, Excel ou PDF.</p> <p>Pour plus d’informations sur l’export de données, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exporter des données</a>.</p> </li> 
+        <li value="1">Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur <strong>Export</strong> <img src="assets/export.png">.</li> 
+        <li value="2"> <p>Exportez les données sous la forme d’un fichier délimité par des PDF, Excel ou des tabulations.</p> <p>Pour plus d'informations sur l'export de données, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export de données</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Affichage et modification des rôles de groupe des membres</td> 
-      <td> <p>Le <strong>Rôle du groupe</strong> répertorie le rôle de chaque membre. En tant qu’administrateur de groupe, vous pouvez double-cliquer sur le rôle d’un membre pour le modifier.</p> <p>Pour les membres du groupe qui ne sont pas des administrateurs de groupe, cette colonne n’est pas modifiable.</p> <p>Les administrateurs de groupe se trouvent toujours en haut de la liste.</p> </td> 
+      <td> <p>La colonne <strong>Rôle de groupe</strong> répertorie le rôle de chaque membre. En tant qu’administrateur de groupe, vous pouvez double-cliquer sur le rôle d’un membre pour le modifier.</p> <p>Pour les membres du groupe qui ne sont pas des administrateurs de groupe, cette colonne n’est pas modifiable.</p> <p>Les administrateurs de groupe se trouvent toujours en haut de la liste.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Envoyer un commentaire aux membres du groupe</td> 
@@ -114,7 +114,7 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">Désactivation d’un utilisateur dans Workfront</td> 
-      <td>Sélectionnez un ou plusieurs utilisateurs principaux, puis cliquez sur <strong>Désactiver l’utilisateur</strong><img src="assets/deactivate-user.png"> pour les désactiver dans Workfront.</td> 
+      <td>Sélectionnez un ou plusieurs utilisateurs actifs, puis cliquez sur <strong>Désactiver l’utilisateur</strong><img src="assets/deactivate-user.png"> pour les désactiver dans Workfront.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tri par colonne</td> 

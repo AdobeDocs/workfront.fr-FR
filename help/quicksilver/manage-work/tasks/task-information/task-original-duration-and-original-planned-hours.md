@@ -2,31 +2,31 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Présentation de la tâche Durée initiale et Heures planifiées initiales
+title: Vue d’ensemble de la durée initiale de la tâche et du nombre d’heures prévues à l’origine
 description: Dans le cadre de la planification d’un projet, vous devez déterminer les valeurs des heures planifiées et de la durée (ou de la durée planifiée) de chaque tâche du projet.
 author: Alina
 feature: Work Management
 exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 1%
+source-wordcount: '578'
+ht-degree: 4%
 
 ---
 
-# Présentation de la tâche Durée initiale et Heures planifiées initiales
+# Vue d’ensemble de la durée initiale de la tâche et du nombre d’heures prévues à l’origine
 
 Dans le cadre de la planification d’un projet, vous devez déterminer les valeurs des heures planifiées et de la durée (ou de la durée planifiée) de chaque tâche du projet.
 
-Pour plus d’informations sur les heures planifiées pour les tâches, voir [Présentation des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
+Pour plus d’informations sur les heures planifiées pour les tâches, voir [Aperçu des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
 
-Pour plus d’informations sur la durée d’une tâche, voir [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Pour plus d’informations sur la durée de la tâche, voir [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Vous pouvez voir ces valeurs dans l’onglet Détails de la tâche ou lors de la modification d’une tâche.
 
 Si vous créez une vue pour une liste de tâches ou un rapport de tâches, vous pouvez également voir les champs Heures planifiées d’origine et Durée d’origine pour les tâches.
 
-## Travail requis à l&#39;origine
+## Nombre d’heures prévues à l’origine
 
 Les Heures planifiées initiales d’une tâche représentent le nombre d’Heures planifiées qu’une tâche avait à l’origine avant de devenir une tâche parent. Lorsqu’une tâche devient une tâche parent, les Heures planifiées des tâches enfants sont cumulées à la tâche parent pour indiquer les Heures planifiées du parent.
 
@@ -54,7 +54,7 @@ Par exemple, lorsque deux tâches sont des tâches autonomes, leur durée d’or
 
 Lorsque la première tâche devient le parent de la seconde tâche, les champs Durée d’origine et Heures planifiées d’origine sont renseignés avec les valeurs de la Durée et Heures planifiées de la tâche avant qu’elle ne devienne parent. La Durée d’origine s’affiche en minutes. La Durée et les Heures planifiées de l’enfant deviennent la Durée et les Heures planifiées du parent.
 
-![original_and_scheduled_hours_with_a_parent_task.png](assets/original-and-planned-hours-with-a-parent-task-350x38.png)
+![ original_and_scheduled_hours_with_a_parent_task.png{1](assets/original-and-planned-hours-with-a-parent-task-350x38.png)
 
 Lorsque le parent redevient une tâche autonome, la durée et les heures planifiées reviennent aux valeurs d’origine, tandis que la durée d’origine et les heures planifiées d’origine restent renseignées. Ils ne reviennent pas à zéro.
 

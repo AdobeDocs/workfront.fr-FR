@@ -9,7 +9,7 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
 source-wordcount: '1472'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Pour plus d’informations sur la création manuelle d’une feuille de temps, v
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,9 +39,9 @@ Les étapes de cet article doivent être les suivantes :
   </tr> 
    <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard </p>
+   <td> <p>Nouvelle : standard </p>
  <p>ou</p> 
-<p>Actuel : formule </p> 
+<p>Actuelle : formule </p> 
 </td> 
   </tr> 
   <tr> 
@@ -66,15 +66,15 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 >[!IMPORTANT]
 >
->Pour activer les modifications de profil de la feuille de temps dans les feuilles de temps actuelles, vous devez supprimer les feuilles de temps existantes, puis en générer de nouvelles. Pour obtenir des instructions, voir [Suppression de feuilles de temps dans Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) et [Génération manuelle de feuilles de temps](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Pour activer les modifications de profil de la feuille de temps dans les feuilles de temps actuelles, vous devez supprimer les feuilles de temps existantes, puis en générer de nouvelles. Pour obtenir des instructions, reportez-vous aux sections [Suppression de feuilles de temps dans Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) et [ Génération manuelle de feuilles de temps](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
-1. Si vous créez ou modifiez un profil de feuille de temps à utiliser dans tout le système, cliquez sur **Frise chronologique et heures**.
+1. Si vous créez ou modifiez un profil de feuille de temps à utiliser dans l’ensemble du système, cliquez sur **Frise chronologique et heures**.
 
    Ou
 
-   Si vous créez ou modifiez un profil de feuille de temps pour un groupe, cliquez sur **Groupes**, puis cliquez sur le nom du groupe.
+   Si vous créez ou modifiez un profil de feuille de temps pour un groupe, cliquez sur **Groupes**, puis sur le nom du groupe.
 
 1. Cliquez sur **Profils de feuille de temps**.
 1. Pour créer un profil de feuille de temps, cliquez sur **Nouveau profil**.
@@ -86,14 +86,14 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
    Le profil de feuille de temps nouveau ou existant s’affiche.
 
 
-1. Sur le **Définir les détails** , saisissez une **Nom** et **Description** pour le profil de la feuille de temps et fournissez les informations suivantes :
+1. Sur l’onglet **Définir les détails** , saisissez un **nom** et une **description** pour le profil de la feuille de temps et fournissez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Groupe avec accès Administration</strong> </td> 
+      <td role="rowheader"><strong>Groupe avec accès à l’administration</strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>Si vous créez un profil de feuille de temps au niveau du système, laissez ce champ vide.</p> <p>Tout utilisateur qui peut modifier des comptes d’utilisateurs peut joindre une feuille de temps au niveau du système à d’autres utilisateurs.</p> <p>Seul un administrateur Workfront peut modifier un profil de feuille de temps au niveau du système.</p> </li> 
@@ -101,47 +101,47 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      <ul> 
       <li> <p>Si vous créez un profil de feuille de temps pour un groupe que vous administrez, identifiez-le ici.</p> <p>Cela n’affecte pas le profil de la feuille de temps aux utilisateurs du groupe ; cela permet uniquement aux administrateurs du groupe de modifier le profil de la feuille de temps. Vous attribuerez le profil aux utilisateurs à l’étape 6.</p>
 
-   <p><b>REMARQUE</b>: lorsque des utilisateurs en dehors du groupe associent des profils de feuille de temps à d’autres utilisateurs, ils ne pourront pas afficher ni joindre ce profil de feuille de temps.</p> </li> 
+   <p><b>REMARQUE</b> : lorsque des utilisateurs en dehors du groupe associent des profils de feuille de temps à d’autres utilisateurs, ils ne pourront pas afficher ou joindre ce profil de feuille de temps.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Création de feuilles de temps</strong> </td> 
+      <td role="rowheader"><strong>Créer des feuilles de temps</strong> </td> 
       <td> <p> <p>Spécifiez quand le profil de la feuille de temps doit générer les feuilles de temps. Une feuille de temps peut être définie pour une génération automatique sur une base hebdomadaire, bimensuelle, semestrielle ou mensuelle. Sélectionnez le jour de la semaine où vous souhaitez que la feuille de temps soit générée.</p>
       <p>Une feuille de temps hebdomadaire commence à la date de sa génération. Par exemple, si vous créez des feuilles de temps hebdomadaires tous les jeudis, le premier jour de la semaine sur la feuille de temps est jeudi.</p>
 
 
-   <p><b>REMARQUE</b>: Workfront crée toujours deux feuilles de temps à la fois : la première feuille de temps inclut toujours la date actuelle et la seconde commence à la fin de la première période.</p> </p> </td> 
+   <p><b>REMARQUE</b> : Workfront crée toujours deux feuilles de temps à la fois : la première feuille de temps inclut toujours la date actuelle et la seconde commence à la fin de la période du premier.</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Approbateurs</strong></p> </td> 
-      <td> <p> <p>Les approbateurs sont des utilisateurs qui approuvent la feuille de temps pour les utilisateurs associés à la feuille de temps. Vous pouvez identifier jusqu’à 7 utilisateurs en tant qu’approbateurs sur une feuille de temps. L’identification de plusieurs utilisateurs s’avère utile pour s’assurer qu’un approbateur est disponible lorsqu’une personne est absente du bureau. Tous les approbateurs sont avertis lorsqu’un utilisateur envoie la feuille de temps pour approbation. Un seul utilisateur doit approuver la feuille de temps pour qu’elle soit approuvée.</p> <p>Seuls les utilisateurs disposant de droits d’administration pour la feuille de temps peuvent être définis comme approbateurs. Pour plus d’informations sur les droits d’administration de la feuille de temps, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> <p>Utilisez le menu déroulant pour sélectionner l’approbateur de la feuille de temps (si un approbateur est requis). Vous pouvez sélectionner l’une des options suivantes :</p> 
+      <td> <p> <p>Les approbateurs sont des utilisateurs qui approuvent la feuille de temps pour les utilisateurs associés à la feuille de temps. Vous pouvez identifier jusqu’à 7 utilisateurs en tant qu’approbateurs sur une feuille de temps. L’identification de plusieurs utilisateurs s’avère utile pour s’assurer qu’un approbateur est disponible lorsqu’une personne est absente du bureau. Tous les approbateurs sont avertis lorsqu’un utilisateur envoie la feuille de temps pour approbation. Un seul utilisateur doit approuver la feuille de temps pour qu’elle soit approuvée.</p> <p>Seuls les utilisateurs disposant de droits d’administration pour la feuille de temps peuvent être définis comme approbateurs. Pour plus d'informations sur les droits d'administration de la feuille de temps, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs d'un accès administratif à certaines zones</a>.</p> <p>Utilisez le menu déroulant pour sélectionner l’approbateur de la feuille de temps (si un approbateur est requis). Vous pouvez sélectionner l’une des options suivantes :</p> 
       <ul> 
-      <li><strong>Aucun</strong>: la feuille de temps n’a pas besoin d’être approuvée.</li> 
-      <li><strong>Leur responsable</strong>: il s’agit de l’approbateur par défaut, défini par le système. Dans ce cas, l’utilisateur désigné comme leur responsable valide la feuille de temps lorsqu’elle est soumise à validation.</li> 
-      <li><strong>Personnes spécifiques :</strong> Vous pouvez désigner des utilisateurs spécifiques, par nom, comme approbateurs de feuille de temps. Vous pouvez avoir plusieurs approbateurs sur une feuille de temps. Dans ce cas, une fois que l’un des approbateurs a approuvé la feuille de temps, celle-ci est marquée comme <strong>Fermé</strong> et il disparaît de la liste d’approbations de la feuille de temps de tous les approbateurs restants.</li> 
+      <li><strong>None</strong> : la feuille de temps n’a pas besoin d’être approuvée.</li> 
+      <li><strong>Leur gestionnaire</strong> : il s’agit de l’approbateur par défaut, défini par le système. Dans ce cas, l’utilisateur désigné comme leur responsable valide la feuille de temps lorsqu’elle est soumise à validation.</li> 
+      <li><strong>Personnes spécifiques : </strong> Vous pouvez désigner des utilisateurs spécifiques, par nom, comme approbateurs de feuille de temps. Vous pouvez avoir plusieurs approbateurs sur une feuille de temps. Dans ce cas, une fois que l’un des approbateurs a approuvé la feuille de temps, celle-ci est marquée comme <strong>Fermée</strong> et disparaît de la liste des approbations de la feuille de temps de tous les approbateurs restants.</li> 
        </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Peut modifier l’heure </strong> </td> 
+      <td role="rowheader"><strong> Peut modifier l’heure </strong> </td> 
       <td> <p> <p>Sélectionnez cette option pour permettre aux approbateurs de modifier les heures sur la feuille de temps.
 
-   Cette option fonctionne avec la fonction **Limitation de la modification de la feuille de temps aux propriétaires et aux administrateurs** dans la zone Configuration > Frise chronologique et heures > Préférences . Pour plus d’informations, consultez <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurer les préférences de feuilles de temps et d’heures</a>.
+   Cette option fonctionne avec le paramètre **Limiter la modification de la feuille de temps aux propriétaires et aux administrateurs** dans la zone Configuration > Frise chronologique et heures > Préférences . Pour plus d’informations, consultez <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurer les préférences de feuilles de temps et d’heures</a>.
 
-   Les scénarios suivants existent :
+   Les scénarios suivants sont possibles :
 
    <ul>
-      <li>Lorsque la variable <b>Limitation de la modification de la feuille de temps aux propriétaires et aux administrateurs</b> est activée :</li>
-      <ul><li>Les approbateurs ne peuvent approuver et rejeter que la feuille de temps, que la <b>Peut modifier l’heure</b> est activé ou non. </li>
+      <li>Lorsque l’option <b>Restreindre l’édition de la feuille de temps aux propriétaires et aux administrateurs</b> est activée :</li>
+      <ul><li>Les approbateurs ne peuvent approuver et rejeter que la feuille de temps, que l’option <b>Possibilité de modifier l’heure</b> soit activée ou non. </li>
       <li>Les gestionnaires des propriétaires de feuilles de calcul peuvent uniquement afficher les feuilles de temps de leurs rapports directs.</li></ul>
-      <li>Lorsque la variable <b>Limitation de la modification de la feuille de temps aux propriétaires et aux administrateurs</b> est désactivée :</li>
-    <ul><li>Lorsque la variable <b>Peut modifier l’heure</b> est activée, les approbateurs peuvent envoyer, rouvrir ou fermer la feuille de temps et peuvent modifier l’heure.</li>
-      <li>Lorsque la variable <b>Peut modifier l’heure</b> est désactivée, les approbateurs ne peuvent pas envoyer, rouvrir ou fermer la feuille de temps et ne peuvent pas modifier l’heure. Les approbateurs peuvent uniquement approuver ou rejeter la feuille de temps. </li>
+      <li>Lorsque l'option <b>Restreindre l'édition de la feuille de temps aux propriétaires et aux administrateurs</b> est désactivée :</li>
+    <ul><li>Lorsque l’option <b>Peut modifier l’heure</b> est activée, les approbateurs peuvent envoyer, rouvrir ou fermer la feuille de temps et peuvent modifier l’heure.</li>
+      <li>Lorsque l’option <b> Peut modifier l’heure</b> est désactivée, les approbateurs ne peuvent pas envoyer, rouvrir ou fermer la feuille de temps et ne peuvent pas modifier l’heure. Les approbateurs peuvent uniquement approuver ou rejeter la feuille de temps. </li>
       <li>Les gestionnaires des propriétaires de feuilles de calcul peuvent envoyer, révoquer, rouvrir et modifier les feuilles de temps de leurs rapports directs.</li></ul>
       </ul>
 
    <p>
 
-   <b>REMARQUE</b>: une fois que vous avez soumis une feuille de temps pour approbation, vous ne pouvez plus modifier les heures. Pour renvoyer une feuille de temps envoyée à un état modifiable, rappelez-la ou demandez à l’approbateur de rejeter la feuille de temps. Pour plus d’informations, voir <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Envoyer une feuille de temps pour approbation</a> et<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approbation d’une feuille de temps</a>.</p> </p> </td>
+   <b>REMARQUE</b> : une fois que vous avez envoyé une feuille de temps pour approbation, vous ne pouvez plus modifier les heures. Pour renvoyer une feuille de temps envoyée à un état modifiable, rappelez-la ou demandez à l’approbateur de rejeter la feuille de temps. Pour plus d’informations, voir <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Envoyer une feuille de temps pour approbation</a> et <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approuver une feuille de temps</a>.</p> </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Types d’heure disponibles</strong> </td> 
@@ -155,9 +155,9 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
     </tbody> 
     </table>
 
-1. Cliquez sur le bouton **Affecter des personnes** pour associer le profil de la feuille de temps à des utilisateurs, groupes ou équipes spécifiques (si vous êtes administrateur Workfront). Commencez à saisir le nom de l’utilisateur, du groupe ou de l’équipe, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
+1. Cliquez sur l’onglet **Attribuer les personnes** pour associer le profil de la feuille de temps à des utilisateurs, groupes ou équipes spécifiques (si vous êtes administrateur Workfront). Commencez à saisir le nom de l’utilisateur, du groupe ou de l’équipe, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
 
-   Si vous êtes administrateur de groupe, vous pouvez affecter le profil de feuille de temps aux groupes que vous administrez, mais pas aux équipes. Pour plus d’informations, voir [Limites d’attribution d’un profil de feuille de temps à un administrateur de groupe](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) dans cet article.
+   Si vous êtes administrateur de groupe, vous pouvez affecter le profil de feuille de temps aux groupes que vous administrez, mais pas aux équipes. Pour plus d’informations, voir [Limites pour un administrateur de groupe affectant un profil de feuille de temps](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) dans cet article.
 
    >[!NOTE]
    >
@@ -182,9 +182,9 @@ Pour ces groupes et utilisateurs, vous n’aurez pas accès aux feuilles de temp
 
 De plus, si l’option Administration des utilisateurs (utilisateurs du groupe) est également désactivée dans votre niveau d’accès, vous pouvez affecter le profil de la feuille de temps à un groupe que vous administrez, mais cela affecte uniquement les utilisateurs du groupe que vous avez accès à la modification. Si le groupe contient des utilisateurs que vous n’avez pas accès à la modification, le profil de la feuille de temps ne leur est pas associé avec le reste du groupe.
 
-Pour plus d’informations sur l’option Fiches horaires et heures de votre niveau d’accès, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Pour plus d’informations sur l’option Heures et heures de votre niveau d’accès, voir [Octroi aux utilisateurs d’un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Pour plus d’informations sur l’option Administration des utilisateurs (utilisateurs de groupe) de votre niveau d’accès, voir [Accorder l’accès aux utilisateurs](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Pour plus d’informations sur l’option User Admin (Group Users) dans votre niveau d’accès, voir [Octroi de l’accès aux utilisateurs](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 ## Plusieurs profils de feuille de temps récurrente
 

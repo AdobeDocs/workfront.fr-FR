@@ -12,38 +12,38 @@ ht-degree: 0%
 
 ---
 
-# Prise en main de la fonction [!DNL Scenario Planner]
+# Prise en main du [!DNL Scenario Planner]
 
-Le [!DNL Scenario Planner] nécessite une licence supplémentaire pour la variable [!DNL Adobe Workfront] licence. Pour plus d’informations sur Workfront [!DNL Scenario Planner], voir [Le [!DNL Scenario Planner] aperçu](../scenario-planner/scenario-planner-overview.md).
+[!DNL Scenario Planner] nécessite une licence supplémentaire pour la licence [!DNL Adobe Workfront]. Pour plus d’informations sur Workfront [!DNL Scenario Planner], voir [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
 
-Vous pouvez utiliser la variable [!DNL Adobe Workfront Scenario Planner] élaborer des plans au niveau de l’entreprise qui exposent les résultats stratégiques globaux de votre entreprise. Vous pouvez définir plusieurs initiatives pour un plan et les placer dans divers scénarios afin de trouver la solution optimale pour l’exécution du plan.
+Vous pouvez utiliser le [!DNL Adobe Workfront Scenario Planner] pour créer des plans au niveau de l’entreprise qui exposent les résultats stratégiques globaux de votre entreprise. Vous pouvez définir plusieurs initiatives pour un plan et les placer dans divers scénarios afin de trouver la solution optimale pour l’exécution du plan.
 
-Pour un aperçu général de la variable [!DNL Workfront Scenario Planner], voir [Le [!DNL Scenario Planner] aperçu](../scenario-planner/scenario-planner-overview.md).
+Pour un aperçu général de [!DNL Workfront Scenario Planner], voir [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
 
-## Méthodes d’utilisation de la variable [!DNL Workfront Scenario Planner]
+## Approches d’utilisation de [!DNL Workfront Scenario Planner]
 
-L’utilisation de la variable [!DNL Workfront Scenario Planner]:
+L’utilisation de [!DNL Workfront Scenario Planner] peut se faire de deux façons :
 
-* **Une approche descendante**: En tant qu’administrateur, vous pouvez utiliser la variable [!DNL Workfront Scenario Planner] pour planifier de manière fluide, revoir les scénarios de vos initiatives de haut niveau et recueillir des commentaires pour l’avenir de manière cohérente. Ici, vous pouvez définir le nombre de ressources et le budget dont votre organisation a besoin pour exécuter les initiatives stratégiques pour votre entreprise.
-* **Une approche ascendante**: En tant que responsable de travail, vous pouvez utiliser la variable [!DNL Workfront Scenario Planner] définir les résultats ministériels de l&#39;entreprise. Vous pouvez ici commencer par esquisser les initiatives ministérielles nécessaires pour atteindre ces résultats tout en précisant les ressources et le budget nécessaires pour les atteindre. Quel que soit le budget de votre gestionnaire d’organisation, vous pouvez lui communiquer les besoins de votre ministère en définissant les coûts et les ressources nécessaires à chaque initiative. Une fois cette planification terminée, le gestionnaire de l’organisation évaluera toutes les initiatives, créera et inspectera plusieurs scénarios et décidera de ce qui s’inscrit dans le budget et de ce que vous devez planifier à nouveau.
+* **Une approche descendante** : en tant qu’administrateur, vous pouvez utiliser le [!DNL Workfront Scenario Planner] pour planifier de manière fluide, passer en revue les scénarios de vos initiatives de haut niveau et recueillir des commentaires pour l’avenir de manière cohérente. Ici, vous pouvez définir le nombre de ressources et le budget dont votre organisation a besoin pour exécuter les initiatives stratégiques pour votre entreprise.
+* **Une approche ascendante** : en tant que chef de travail, vous pouvez utiliser le [!DNL Workfront Scenario Planner] pour définir les résultats ministériels de l’entreprise. Vous pouvez ici commencer par esquisser les initiatives ministérielles nécessaires pour atteindre ces résultats tout en précisant les ressources et le budget nécessaires pour les atteindre. Quel que soit le budget de votre gestionnaire d’organisation, vous pouvez lui communiquer les besoins de votre ministère en définissant les coûts et les ressources nécessaires à chaque initiative. Une fois cette planification terminée, le gestionnaire de l’organisation évaluera toutes les initiatives, créera et inspectera plusieurs scénarios et décidera de ce qui s’inscrit dans le budget et de ce que vous devez planifier à nouveau.
 
-## Avantages de l’utilisation de la variable [!DNL Workfront Scenario Planner]
+## Avantages de l’utilisation de la fonction [!DNL Workfront Scenario Planner]
 
 En tant que chef d’entreprise, vous devez planifier l’ensemble d’initiatives adapté à une échelle supérieure, en utilisant une cible plus importante que ne le permettent les tâches quotidiennes. Vous devez indiquer la valeur que ces initiatives de haut niveau apportent à l’organisation, et donner la priorité à vos ressources à l’échelle de l’organisation pour les initiatives appropriées.
 
 Vous devez développer rapidement et facilement des scénarios plausibles, puis déterminer la meilleure voie à suivre pour vous assurer de répondre aux besoins de votre entreprise.
 
-Les avantages de la fonction [!DNL Workfront Scenario Planner] pour vous aider à atteindre ce résultat :
+Voici les avantages de [!DNL Workfront Scenario Planner] pour vous aider à atteindre ce résultat :
 
-* Structure libre et ad hoc : Vous pouvez rapidement créer des scénarios qui définissent les principales initiatives de votre entreprise avec une contribution minimale et de haut niveau pour les ressources nécessaires.
-* Visuel et simple : Vous pouvez rapidement créer un schéma visuel du plan que vous avez l’intention de suivre par votre organisation, qui soit simple et informatif.
-* Mettre les dépendances en surbrillance : Reportez les informations les plus importantes, identifiez les modifications nécessaires et consultez des suggestions sur les changements de personnel ou monétaires que vous devrez peut-être apporter pour accomplir votre stratégie.
-* Déterminez la meilleure marche à suivre : Enregistrez et comparez les scénarios, facilitez la collaboration et le consensus, et engagez votre plan d’exécution.
-* Connectez votre stratégie à votre travail : Importation de projets en tant que nouvelles initiatives pour vos plans.
+* Libre et ad hoc : vous pouvez rapidement créer des scénarios qui définissent les principales initiatives de votre entreprise avec une contribution minimale et de haut niveau pour les ressources nécessaires.
+* Visuel et simple : vous pouvez rapidement créer un schéma visuel du plan que vous prévoyez que votre entreprise suive, simple et informatif.
+* Mettre en évidence les dépendances : recouvrez les informations les plus importantes, identifiez les modifications nécessaires et consultez les suggestions de changements de personnel ou monétaires que vous devrez peut-être apporter pour accomplir votre stratégie.
+* Déterminez le meilleur chemin à suivre : enregistrez et comparez les scénarios, facilitez la collaboration et le consensus, et engagez votre plan d’exécution.
+* Associez votre stratégie à votre travail : importez des projets en tant que nouvelles initiatives pour vos plans.
 
-## Recherchez la variable [!DNL Workfront Scenario Planner] dans Workfront
+## Localisez le [!DNL Workfront Scenario Planner] dans Workfront
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Scénarios]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **[!UICONTROL Scénarios]**.
 
    <!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
 
@@ -51,7 +51,7 @@ Les avantages de la fonction [!DNL Workfront Scenario Planner] pour vous aider �
 
    >[!IMPORTANT]
    >
-   >Le [!DNL Workfront Scenario Planner] contient les plans que vous avez créés. Si vous devez voir le plan d’un autre utilisateur, celui-ci doit partager l’URL de ce plan avec vous.
+   >[!DNL Workfront Scenario Planner] contient les plans que vous avez créés. Si vous devez voir le plan d’un autre utilisateur, celui-ci doit partager l’URL de ce plan avec vous.
 
 1. (Facultatif) Cliquez sur le nom d’un plan pour l’ouvrir et afficher les détails.
 
@@ -59,13 +59,13 @@ Les avantages de la fonction [!DNL Workfront Scenario Planner] pour vous aider �
 
    Cliquez sur **[!UICONTROL Nouveau plan]** pour ajouter un nouveau plan.
 
-   Pour plus d’informations sur la création de plans, voir [Créer et modifier des plans dans le planificateur de scénarios](../scenario-planner/create-and-edit-plans.md).
+   Pour plus d’informations sur la création de plans, voir [Création et modification de plans dans le planificateur de scénarios](../scenario-planner/create-and-edit-plans.md).
 
-## [!DNL Workfront Scenario Planner] objet
+## [!DNL Workfront Scenario Planner] objets
 
-Le tableau ci-dessous décrit la variable [!DNL Workfront Scenario Planner] objets. Votre [!DNL Workfront] L’administrateur peut personnaliser son nom dans votre système en modifiant un modèle de mise en page et en l’affectant à des utilisateurs, des équipes ou des groupes. Pour plus d’informations sur la personnalisation des noms d’objet à l’aide d’un modèle de mise en page, voir [Personnalisation de la terminologie de l’interface utilisateur à l’aide d’un modèle de mise en page](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Le tableau ci-dessous décrit les objets [!DNL Workfront Scenario Planner]. Votre administrateur [!DNL Workfront] peut personnaliser son nom dans votre système en modifiant un modèle de mise en page et en l’affectant à des utilisateurs, des équipes ou des groupes. Pour plus d’informations sur la personnalisation des noms d’objet à l’aide d’un modèle de mise en page, reportez-vous à la section [Personnalisation de la terminologie de l’interface utilisateur à l’aide d’un modèle de mise en page](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
-Pour plus d’informations sur [!DNL Workfront] objet, voir [Présentation des objets dans Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Pour plus d’informations sur les objets [!DNL Workfront], voir [Comprendre les objets dans Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 | Nom de l’objet | Description |
 |---|---|

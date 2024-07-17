@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Présentation du mode de suivi des tâches
+title: Vue d’ensemble du mode de suivi de la tâche
 description: Vous pouvez ajuster le paramètre Mode de tracking d’une tâche lors de la création ou de la modification d’une tâche afin de contrôler comment et à quel moment les indicateurs Etat de progression d’une tâche s’affichent. Adobe Workfront affiche des indicateurs d’état de progression lorsque vous configurez certains paramètres pour le suivi de la progression des tâches.
 author: Alina
 feature: Work Management
@@ -10,11 +10,11 @@ exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
 source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Présentation du mode de suivi des tâches
+# Vue d’ensemble du mode de suivi de la tâche
 
 <!-- Audited: 01/2024 -->
 
@@ -42,10 +42,10 @@ En tant que propriétaire de tâche ou chef de projet, vous pouvez sélectionner
 
 Vous pouvez sélectionner l’une des options suivantes :
 
-* [L’utilisateur doit mettre à jour](#user-must-update)
-* [Heure d’activation de l’hypothèse](#assume-on-time)
+* [L’Utilisateur Doit Mettre À Jour](#user-must-update)
+* [Assume On Time](#assume-on-time)
 * [Ignorer les avertissements tardifs](#ignore-late-warnings)
-* [Fin automatique](#auto-complete)
+* [ ](#auto-complete)
 * [Tâche antérieure](#predecessor)
 
 ### Utilisateur doit mettre à jour {#user-must-update}
@@ -71,7 +71,7 @@ Les exceptions suivantes existent :
 
 >[!IMPORTANT]
 >
->Lorsque vous sélectionnez l’option de fin automatique des tâches, la tâche est terminée lorsque l’heure du projet est recalculée. Si le type de mise à jour du projet est défini sur Automatique ou Automatique et Sur modification, la chronologie du projet est calculée quotidiennement. Pour plus d’informations sur les recalculs de la chronologie sur les projets, voir [Recalculer les calendriers du projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Lorsque vous sélectionnez l’option de fin automatique des tâches, la tâche est terminée lorsque l’heure du projet est recalculée. Si le type de mise à jour du projet est défini sur Automatique ou Automatique et Sur modification, la chronologie du projet est calculée quotidiennement. Pour plus d’informations sur les nouveaux calculs de la chronologie sur les projets, voir [Recalculer la chronologie du projet](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
 >L’heure de la date de fin réelle est minuit du jour où la chronologie est automatiquement calculée. L’heure utilisée pour générer cet horodatage est le fuseau horaire de votre système tel que défini par votre administrateur Workfront dans la section Informations sur le client de la configuration. Pour plus d’informations sur la définition du fuseau horaire de votre système, voir [Configuration des informations de base pour votre système](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 

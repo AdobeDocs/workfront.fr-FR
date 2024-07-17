@@ -1,7 +1,7 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Suppression des filtres, des vues et des regroupements
+title: Supprimer des filtres, des vues et des regroupements
 description: Vous pouvez supprimer un filtre, une vue ou un regroupement des listes et des rapports si vous les avez créés ou s’ils ont été partagés avec vous. Vous ne pouvez pas supprimer les filtres, les vues ou les regroupements par défaut.
 author: Nolan
 feature: Reports and Dashboards
@@ -9,17 +9,17 @@ exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
 source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Suppression des filtres, des vues et des regroupements
+# Supprimer des filtres, des vues et des regroupements
 
 Vous pouvez supprimer un filtre, une vue ou un regroupement des listes et des rapports si vous les avez créés ou s’ils ont été partagés avec vous. Vous ne pouvez pas supprimer les filtres, les vues ou les regroupements par défaut.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,25 +28,25 @@ Vous devez disposer des éléments suivants :
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader"><strong>Forfait Adobe Workfront*</strong></td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Paramétrages du niveau d'accès*</strong></td> 
-   <td> <p>Affichage ou accès supérieur à Filtres, Vues, Groupes</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
+   <td> <p>Affichage ou accès supérieur à Filtres, Vues, Regroupements</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Afficher les autorisations ayant accès au partage sur le filtre, l’affichage ou le regroupement que vous souhaitez supprimer</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Afficher les autorisations ayant accès au partage sur le filtre, l’affichage ou le regroupement que vous souhaitez supprimer</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Suppression d’un filtre à l’aide du créateur standard
 
@@ -54,7 +54,7 @@ Vous pouvez supprimer un filtre qui a été partagé avec vous à partir des lis
 
 Vous pouvez également supprimer des filtres que vous détenez dans les listes de projets, de tâches ou de problèmes à l’aide de l’interface du créateur standard.
 
-Les filtres par défaut du système ne peuvent pas être supprimés.
+Les filtres par défaut du système ne peuvent être ni supprimés, ni supprimés.
 
 ### Points à prendre en compte concernant la suppression ou la suppression de filtres à l’aide du créateur standard
 
@@ -67,23 +67,23 @@ Les scénarios suivants existent lorsque vous supprimez ou supprimez un filtre �
 ### Suppression d’un filtre à l’aide du créateur standard
 
 1. Accédez à une liste de projets, de tâches, de problèmes, de portfolios, de programmes, d’utilisateurs, de modèles ou de groupes.
-1. Cliquez sur le bouton **Filtrer** icon ![Icône Filtrer](assets/filter-nwepng.png).
-1. Placez le pointeur de la souris sur un filtre sous **Partagé avec moi**, cliquez sur le bouton **Plus** menu ![Icône Plus](assets/more-icon-spectrum.png), puis cliquez sur **Supprimer**.
+1. Cliquez sur l&#39;icône **Filtrer** ![Icône Filtrer](assets/filter-nwepng.png).
+1. Passez la souris sur un filtre sous **Partagé avec moi**, cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon-spectrum.png), puis cliquez sur **Supprimer**.
 
    ![Supprimer le filtre](assets/new-filters-more-menu-remove-filter.png)
 
-1. Sélectionner **Supprimer** dans le message de confirmation pour supprimer définitivement le filtre.
+1. Sélectionnez **Supprimer** sur le message de confirmation pour supprimer définitivement le filtre.
 
 ### Suppression d’un filtre à l’aide du créateur standard
 
 1. Accédez à une liste de projets, de tâches, de problèmes, de portfolios, de programmes, d’utilisateurs, de modèles ou de groupes.
-1. Cliquez sur le bouton **Filtrer** icon ![Icône Filtrer](assets/filter-nwepng.png).
-1. Passez la souris sur un filtre que vous êtes autorisé à supprimer, puis cliquez sur l’icône **Plus** menu ![Icône Plus](assets/more-icon-spectrum.png), puis cliquez sur **Supprimer**.
+1. Cliquez sur l&#39;icône **Filtrer** ![Icône Filtrer](assets/filter-nwepng.png).
+1. Passez la souris sur un filtre que vous pouvez supprimer, cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon-spectrum.png), puis sur **Supprimer**.
 
    ![Supprimer le filtre](assets/new-filters-more-menu-options-with-delete.png)
 
-1. (Facultatif) Cliquez sur **Annuler** sur le message de confirmation afin d&#39;éviter la suppression et de revenir à la liste des filtres.
-1. Cliquez sur **Supprimer** sur le message de confirmation pour confirmer la suppression.
+1. (Facultatif) Cliquez sur **Annuler** dans le message de confirmation pour éviter la suppression et revenir à la liste des filtres.
+1. Cliquez sur **Supprimer** dans le message de confirmation pour confirmer la suppression.
 
    Le filtre est supprimé pour vous et tous les utilisateurs qui y avaient des autorisations.
 
@@ -103,15 +103,15 @@ Les scénarios suivants se présentent lorsque vous supprimez un filtre, une vue
 ### Suppression d’un filtre, d’une vue ou d’un regroupement à l’aide du créateur hérité
 
 1. Accédez à une liste d’objets ou à un rapport.
-1. (Conditionnel) Dans une liste, cliquez sur le bouton **Filtrer**, **Affichage** ou **Regroupement** puis survolez le filtre, l’affichage ou le groupe à supprimer, puis cliquez sur l’icône **Plus** icon ![](assets/more-icon.png), puis **Supprimer**. Le filtre, l’affichage ou le regroupement est supprimé.
-1. (Conditionnel) Dans un rapport, cliquez sur le bouton **Regroupement**, **Filtrer** ou **Affichage** menu déroulant, puis sélectionnez **Supprimer le groupement**, **Supprimer le filtre** ou **Supprimer la vue**.
+1. (Conditionnel) Dans une liste, cliquez sur l’icône **Filtre**, **Vue** ou **Groupement**, puis survolez le filtre, la vue ou le groupe que vous souhaitez supprimer, cliquez sur l’icône **Plus** ![](assets/more-icon.png), puis **Supprimer**. Le filtre, l’affichage ou le regroupement est supprimé.
+1. (Conditionnel) Dans un rapport, cliquez sur le menu déroulant **Groupement**, **Filtre** ou **Affichage** et sélectionnez **Supprimer le groupement**, **Supprimer le filtre** ou **Supprimer la vue**.
 
-   Le **Mes regroupements**, **Mes filtres,** ou **Mes vues** s’affiche.
+   La boîte de dialogue **Mes groupes**, **Mes filtres,** ou **Mes vues** s’affiche.
 
    Tous les éléments de rapports que vous pouvez supprimer peuvent être supprimés. Les autres éléments de rapport s’affichent en grisé.
 
-1. Cliquez sur le bouton **x** en regard de tout élément de rapport à supprimer.
-1. (Conditionnel) Cliquez sur **Oui, supprimez-le** si vous avez choisi de supprimer un filtre, une vue ou un groupe que vous avez créé et que vous avez partagé ultérieurement avec d’autres utilisateurs. Cela supprime le filtre, la vue ou le regroupement du système Workfront.
+1. Cliquez sur l’icône **x** en regard de tout élément de rapport à supprimer.
+1. (Conditionnel) Cliquez sur **Oui, supprimez-le** si vous avez choisi de supprimer un filtre, une vue ou un regroupement que vous avez créé et que vous avez partagé ultérieurement avec d’autres utilisateurs. Cela supprime le filtre, la vue ou le regroupement du système Workfront.
 
    >[!TIP]
    >

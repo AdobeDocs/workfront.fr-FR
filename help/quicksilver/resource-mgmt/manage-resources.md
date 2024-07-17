@@ -9,7 +9,7 @@ feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f8b3f4a-acdc-4d15-95f7-c71b85d5a8d3
 source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 100%
 

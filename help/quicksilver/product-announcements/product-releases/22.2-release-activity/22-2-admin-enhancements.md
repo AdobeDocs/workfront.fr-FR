@@ -1,6 +1,6 @@
 ---
-title: 2.2 Améliorations apportées aux administrateurs
-description: 2.2 Améliorations apportées aux administrateurs
+title: Améliorations apportées à l’administration (version 22.2)
+description: Améliorations apportées à l’administration (version 22.2)
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 2.2 Améliorations apportées aux administrateurs
+# Améliorations apportées à l’administration (version 22.2)
 
 Cette page décrit toutes les améliorations apportées par l’administrateur à la version 22.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
 
@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-la semaine du 4 avril 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, voir [Présentation de la version 2.2.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+la semaine du 4 avril 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, consultez la [présentation des versions 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Configuration d’un formulaire personnalisé pour une utilisation avec plusieurs types d’objets
 
@@ -33,12 +33,12 @@ Auparavant, vous pouviez configurer un formulaire personnalisé pour qu’il fon
 
 Cette fonctionnalité fonctionne avec tous les formulaires personnalisés créés précédemment dans votre système Workfront. Par exemple, si vous disposez déjà d’un formulaire personnalisé créé pour le type d’objet Tâche , vous pouvez maintenant configurer le formulaire pour qu’il fonctionne avec d’autres types d’objets, tels que Projet et Problème.
 
-Pour plus d’informations, voir la section [Commencer à créer un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) dans l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations, reportez-vous à la section [Démarrage de la création d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) de l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >
->* Au moment de la version initiale de l’aperçu de cette fonctionnalité, nous avons temporairement désactivé la possibilité de copier un formulaire personnalisé à plusieurs objets. Cette capacité a été activée le 24 mars. Pour plus d’informations sur la copie d’un formulaire personnalisé, voir [Copier un formulaire personnalisé pour en créer un nouveau](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* Dans un champ personnalisé calculé, certains champs que vous référencez peuvent ne pas être compatibles avec les types d’objets configurés pour le formulaire. Notre solution est un caractère générique qui permettra au calcul de produire différentes valeurs, selon l’objet auquel le formulaire est attaché. Nous avons ajouté le joker le 24 mars. Pour plus d’informations sur son utilisation, voir la section [Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) dans l’article [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>* Au moment de la version initiale de l’aperçu de cette fonctionnalité, nous avons temporairement désactivé la possibilité de copier un formulaire personnalisé à plusieurs objets. Cette capacité a été activée le 24 mars. Pour plus d’informations sur la copie d’un formulaire personnalisé, voir [Copier un formulaire personnalisé pour en créer un](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+>* Dans un champ personnalisé calculé, certains champs que vous référencez peuvent ne pas être compatibles avec les types d’objets configurés pour le formulaire. Notre solution est un caractère générique qui permettra au calcul de produire différentes valeurs, selon l’objet auquel le formulaire est attaché. Nous avons ajouté le joker le 24 mars. Pour plus d’informations sur son utilisation, reportez-vous à la section [Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) de l’article [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 >* Pour les sauts de section dans les formulaires personnalisés, nous avons créé un ensemble d’autorisations courantes d’affichage et de modification qui fonctionnent pour tous les types d’objets que vous pouvez configurer pour un formulaire. Dans un scénario, nous avons constaté que l’une de ces autorisations, Modification limitée, pouvait entraîner des erreurs sur un formulaire. Ce problème a été corrigé le 24 mars. Pour plus d’informations sur les sauts de section, voir [Ajout d’un saut de section à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 >
 
@@ -64,7 +64,7 @@ Pour plus d’informations, voir [Ajout ou modification d’un widget de ressour
 
 ## Nouvelles configurations de niveau d’accès par défaut
 
-Pour mieux répondre aux besoins de la plupart des administrateurs qui créent de nouveaux niveaux d’accès, nous avons modifié la configuration par défaut des options &quot;Ajuster vos paramètres&quot; répertoriées ci-dessous. Elles s’affichent lorsque vous cliquez sur l’icône d’engrenage ![](assets/gear-icon-in-access-levels.png) sur un bouton Modifier .
+Pour mieux répondre aux besoins de la plupart des administrateurs qui créent de nouveaux niveaux d’accès, nous avons modifié la configuration par défaut des options &quot;Ajuster vos paramètres&quot; répertoriées ci-dessous. Elles s’affichent lorsque vous cliquez sur l’icône d’engrenage ![](assets/gear-icon-in-access-levels.png) sur un bouton Modifier.
 
 Toutes ces modifications désactivent une option précédemment activée par défaut. Si cela ne correspond pas aux besoins de votre entreprise, vous pouvez les activer lorsque vous configurez un nouveau niveau d’accès, ou ultérieurement.
 
@@ -101,7 +101,7 @@ Pour plus d’informations, voir [Désactivation ou réactivation d’un groupe]
 
 Lorsque vous installez un plan directeur, un message affiche désormais les objets spécifiques (tels que les rôles, les équipes ou les groupes) qui ont été correctement installés avec le plan directeur et les objets qui n’ont pas pu être installés. Vous pouvez également afficher la liste des objets installés sur la page Détails du plan directeur en cliquant sur Afficher les détails en regard d’une installation spécifique dans le tableau de l’historique d’installation.
 
-Pour plus d’informations, voir [Installer un plan directeur](../../../administration-and-setup/blueprints/blueprints-install.md).
+Pour plus d’informations, voir [Installation d’un plan directeur](../../../administration-and-setup/blueprints/blueprints-install.md).
 
 ![](assets/blueprints-installation-history-350x95.png)
 
@@ -111,4 +111,4 @@ Certains plans directeurs ne peuvent être installés que dans l’environnement
 
 Si vous accédez au contenu Aperçu uniquement dans votre environnement de production, sandbox 1 ou sandbox 2, le bouton d’installation n’est pas actif et un message d’avertissement peut s’afficher.
 
-Pour plus d’informations, voir [Installer un plan directeur](../../../administration-and-setup/blueprints/blueprints-install.md).
+Pour plus d’informations, voir [Installation d’un plan directeur](../../../administration-and-setup/blueprints/blueprints-install.md).

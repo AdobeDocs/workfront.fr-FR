@@ -10,7 +10,7 @@ exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
 source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
 source-wordcount: '846'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -67,9 +67,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-    <p>Nouveau : Standard</p>
+    <p>Nouvelle : standard</p>
     <p>ou</p>
-    <p>Actuel : formule</p></td>  
+    <p>Actuelle : formule</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
@@ -77,7 +77,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p> Gestion des autorisations pour le projet</p> </td> 
+   <td> <p> Autorisations de gestion pour le projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,12 +91,12 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 1. Créez une règle d’acheminement, un groupe de rubriques et un formulaire personnalisé, si vous prévoyez de les associer à votre rubrique de file d’attente.\
    Pour plus d’informations sur la création de règles de routage, de groupes de rubriques ou de formulaires personnalisés, reportez-vous aux articles suivants :
 
-   * [Création de règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
-   * [Création de groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Créer des règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+   * [Créer des groupes de sujets](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. Accédez au projet que vous avez choisi d’activer en tant que file d’attente des demandes d’aide et où vous souhaitez créer une rubrique de file d’attente.\
-   Pour plus d’informations sur la désignation d’un projet comme file d’attente de demandes d’aide, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Pour plus d’informations sur la désignation d’un projet comme file d’attente de demandes d’aide, voir [Création d’une file d’attente de demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Vous pouvez organiser les rubriques de file d’attente associées sous un groupe de rubriques. Le demandeur disposera ainsi d’une série de menus déroulants lors de l’exécution d’une requête.
 
@@ -106,9 +106,9 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
    Pour plus d’informations sur la création de groupes de rubriques, voir [Création de groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Cliquez sur **Rubriques de file** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis **Rubriques de file**.
+1. Cliquez sur **Rubriques de la file d’attente** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Rubriques de la file d’attente**.
 1. Cliquez sur **Nouvelle rubrique de file d’attente**.
-1. Sur le **Nouvelle rubrique de file d’attente** saisissez le texte suivant :
+1. Sur le formulaire **New Queue Topic**, saisissez ce qui suit :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -124,21 +124,21 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Ajouter au groupe de rubriques</strong> </td> 
-      <td> S’il n’existe aucun groupe de rubriques sur le projet, le nom du projet est défini par défaut comme groupe de rubriques.<br>Si vous souhaitez créer d’autres groupes de rubriques à partir de cet emplacement, sélectionnez <strong>Création d’un groupe de rubriques</strong> dans le menu déroulant.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_inside_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> S’il n’existe aucun groupe de rubriques sur le projet, le nom du projet est défini par défaut comme groupe de rubriques.<br>Si vous souhaitez créer d’autres groupes de rubriques à partir de cet emplacement, sélectionnez <strong>Créer un groupe de rubriques</strong> dans le menu déroulant.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_inside_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formulaires personnalisés</strong> </td> 
-      <td>Sélectionnez les formulaires personnalisés à associer à la rubrique de la file d’attente. Vous devez créer des formulaires personnalisés pour les problèmes avant de pouvoir les associer aux rubriques de la file d’attente. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</td> 
+      <td>Sélectionnez les formulaires personnalisés à associer à la rubrique de la file d’attente. Vous devez créer des formulaires personnalisés pour les problèmes avant de pouvoir les associer aux rubriques de la file d’attente. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Créer ou modifier un formulaire personnalisé</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approbation par défaut</strong></td> 
-      <td> <p>Associez un processus d’approbation à cette rubrique de file d’attente. Seuls les processus d’approbation des problèmes sont visibles dans ce menu déroulant. Tous les problèmes envoyés à cette file d’attente seront associés à ce processus d’approbation. Votre administrateur Adobe Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer aux rubriques de la file d’attente. <span>Un utilisateur disposant d’un accès administratif aux processus d’approbation peut également créer des processus d’approbation spécifiques à un groupe.</span> Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les tâches</a>.<br></p> 
+      <td> <p>Associez un processus d’approbation à cette rubrique de file d’attente. Seuls les processus d’approbation des problèmes sont visibles dans ce menu déroulant. Tous les problèmes envoyés à cette file d’attente seront associés à ce processus d’approbation. Votre administrateur Adobe Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer aux rubriques de la file d’attente. <span>Un utilisateur disposant d’un accès administratif aux processus d’approbation peut également créer des processus d’approbation spécifiques à un groupe.</span> Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Création d’un processus d’approbation pour les tâches</a>.<br></p> 
        <div> 
-        <p>Important : Si le groupe du projet change, le processus d’approbation spécifique au groupe associé aux problèmes existants devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications du processus d’approbation et de groupe affectent-elles les processus d’approbation affectés ?</a>.</p> 
+        <p>Important : Si le groupe du projet change, le processus d’approbation spécifique au groupe associé aux problèmes existants devient un processus d’approbation à usage unique. Pour plus d’informations sur la manière dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications apportées aux groupes et aux processus d’approbation affectent les processus d’approbation attribués</a>.</p> 
         <p>Tenez compte des points suivants lors de l’ajout de processus d’approbation aux rubriques de la file d’attente : </p> 
         <ul style="list-style-type: circle;"> 
-         <li>Seuls les processus de validation actifs s'affichent dans la liste. </li> 
-         <li> <p>Les processus de validation à l’échelle du système et spécifiques aux groupes s’affichent dans la liste. Un processus de validation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> </li> 
+         <li>Seuls les processus d’approbation actifs sont affichés dans la liste. </li> 
+         <li> <p>Les processus d’approbation à l’échelle du système et du groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -152,11 +152,11 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Types de requête</strong> </td> 
-      <td> <p>Sélectionnez le type de requêtes que cette rubrique de file d’attente stocke. Les options visibles sont définies sur la variable <strong>Détails de la file</strong> de projet. Champ obligatoire. </p>
+      <td> <p>Sélectionnez le type de requêtes que cette rubrique de file d’attente stocke. Les options visibles sont définies dans l’onglet <strong>Détails de la file d’attente</strong> du projet. Il s’agit d’un champ obligatoire. </p>
 
-   <p><b>REMARQUE</b>:
+   <p><b>NOTE</b> :
 
-   Les types s’affichent sous forme de sélection dans la zone Requêtes uniquement si le type de requête est sélectionné dans les pages Détails de la file d’attente et Rubrique de la file d’attente. Pour plus d’informations sur la configuration de la zone Détails de la file d’attente d’un projet, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a>. </p> <p>Choisissez parmi les types suivants :</p>
+   Les types s’affichent sous forme de sélection dans la zone Requêtes uniquement si le type de requête est sélectionné dans les pages Détails de la file d’attente et Rubrique de la file d’attente. Pour plus d’informations sur la configuration de la zone Détails de la file d’attente d’un projet, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requêtes</a>. </p> <p>Choisissez parmi les types suivants :</p>
    <ul>
    <li>Rapport sur les bogues</li>
    <li>Modifier l&#39;ordre</li>
@@ -167,7 +167,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
     </tbody> 
    </table>
 
-   ![Nouvelle zone de rubrique](assets/new-queue-topic-box.png)
+   ![Nouvelle boîte de rubrique de file d’attente](assets/new-queue-topic-box.png)
 
 1. Cliquer sur **Enregistrer**.\
    La rubrique de file d’attente est désormais disponible et est visible dans la zone Demandes de Workfront, après la sélection d’une file d’attente de requêtes et d’un groupe de rubriques.

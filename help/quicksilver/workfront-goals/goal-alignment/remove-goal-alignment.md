@@ -9,7 +9,7 @@ exl-id: a6196356-ca11-4759-9cff-64850a60208e
 source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -19,12 +19,12 @@ Vous pouvez supprimer l’alignement entre deux objectifs s’il n’est plus lo
 
 Pour plus d’informations sur l’alignement des objectifs, consultez les articles suivants :
 
-* [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Aligner les objectifs en les connectant dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Alignement des objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -68,14 +68,14 @@ Vous devez disposer des éléments suivants :
   <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </td>
  </tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -114,12 +114,12 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. Accédez au **Objectifs** dans Workfront et cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.
-1. Dans la page de l’objectif d’un objectif parent, cliquez sur **Indicateurs de progression** dans le panneau de gauche.
+1. Accédez à la zone **Goals** dans Workfront et cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.
+1. Sur la page de l’objectif d’un objectif parent, cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. Dans le **Type : Objectif** regroupement, sélectionnez un objectif, puis cliquez sur le bouton **Déconnecter** icon ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) en haut de la liste.
+1. Dans le regroupement **Type : Objectif** , sélectionnez un objectif, puis cliquez sur l’icône **Déconnecter** ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) en haut de la liste.
 
    La zone Déconnecter s’affiche.
 

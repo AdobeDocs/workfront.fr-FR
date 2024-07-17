@@ -1,23 +1,23 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Nouvelles adresses IP pour les emails Adobe Workfront avec la version 21.1
-description: Afin d’améliorer la diffusion des emails, nous ajoutons de nouvelles adresses IP avec la version de production 21.1 pour les grappes répertoriées ci-dessous. Pour savoir sur quelle grappe se trouve votre instance, accédez à Configuration et gt ; System &gt ; Customer Info.
+title: Nouvelles adresses IP pour les e-mails Adobe Workfront avec la version 21.1
+description: Afin d’améliorer la diffusion des emails, nous ajoutons de nouvelles adresses IP avec la version de production 21.1 pour les grappes répertoriées ci-dessous. Pour savoir sur quelle grappe se trouve l’instance, accédez à Configuration &gt; System &gt; Customer Info.
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Nouvelles adresses IP pour les emails Adobe Workfront avec la version 21.1
+# Nouvelles adresses IP pour les e-mails Adobe Workfront avec la version 21.1
 
 Afin d’améliorer la diffusion des emails, nous ajoutons de nouvelles adresses IP avec la version de production 21.1 pour les grappes répertoriées ci-dessous. Pour savoir sur quelle grappe se trouve l’instance, accédez à Configuration > Système > Informations client.
 
-**Clusters 1, 2, 3 et 5**
+**Clusters 1,2,3 et 5**
 
 Ajoutez les adresses IP suivantes à votre liste autorisée pour vous assurer que vos utilisateurs continuent à recevoir leur courrier électronique :
 

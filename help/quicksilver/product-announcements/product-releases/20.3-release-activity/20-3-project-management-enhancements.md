@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Améliorations de la gestion de projet
+title: Améliorations de la gestion de projets (version 20.3)
 description: Cette page décrit toutes les améliorations apportées à la gestion de projet avec la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# 20.3 Améliorations de la gestion de projet
+# Améliorations de la gestion de projets (version 20.3)
 
 Cette page décrit toutes les améliorations apportées à la gestion de projet avec la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, voir [Présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, consultez la [présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Formatage des champs personnalisés dans les listes
 
@@ -30,7 +30,7 @@ Désormais, lorsque l’administrateur du système crée des champs de formulair
 
 Notez que cette fonctionnalité n’est disponible que dans les listes mises à jour. Pour plus d’informations sur les listes mises à jour, voir [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Pour plus d’informations sur la manière dont un administrateur Workfront crée des champs de texte avec formatage, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations sur la façon dont un administrateur Workfront crée des champs de texte avec formatage, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Mise à jour de l’aspect de plusieurs en-têtes globaux
 
@@ -60,7 +60,7 @@ Outre une apparence actualisée, les améliorations suivantes sont disponibles d
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
-Pour plus d’informations sur la nouvelle boîte de dialogue Modifier le projet, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+Pour plus d’informations sur la nouvelle boîte de dialogue Modifier le projet, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Améliorations du nouveau panneau Résumé et des mises à jour pour la liste des documents
 
@@ -72,7 +72,7 @@ Le nouveau panneau Résumé situé à droite de la liste des documents est déso
 
 Certaines actions sont actuellement indisponibles, mais seront ajoutées dans une version ultérieure. Ces actions incluent le workflow de vérification.
 
-Pour plus d’informations, voir [Présentation du résumé des documents](../../../documents/managing-documents/summary-for-documents.md).
+Pour plus d’informations, voir [Résumé des documents](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Améliorations des détails du document
 
@@ -99,7 +99,7 @@ Pour accorder plus d’autonomie aux administrateurs de votre groupe et permettr
 
 Toutes les préférences de projet peuvent être personnalisées au niveau du groupe, à l’exception des calculs de chronologie et des trimestres personnalisés.
 
-Pour plus d’informations sur les préférences du projet de groupe, voir [Configuration des préférences de projet pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+Pour plus d’informations sur les préférences de projet de groupe, voir [Configuration des préférences de projet pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 ## Nouveau pour les administrateurs : Créer des champs de formulaire personnalisés dans lesquels les utilisateurs peuvent formater du texte
 
@@ -109,7 +109,7 @@ Pour plus d’informations, voir Création d’un formulaire personnalisé dans 
 
 ## Nouveau destiné aux administrateurs : créez un nom interne et un libellé destiné aux utilisateurs pour un champ de formulaire personnalisé.
 
-Pour vous offrir plus de flexibilité en matière d’étiquetage et de réétiquetage des champs de formulaire personnalisé, vous pouvez désormais créer une *name* pour un champ en plus de l’interface utilisateur *label* vous avez utilisé. Vous avez ainsi la possibilité de modifier le libellé du champ que voient vos utilisateurs sans modifier le nom du champ que le système voit.
+Pour vous donner plus de flexibilité en termes d’étiquetage et de réétiquetage des champs de formulaire personnalisé, vous pouvez maintenant créer un *nom* interne pour un champ en plus de l’étiquette *utilisateur* que vous avez utilisée. Vous avez ainsi la possibilité de modifier le libellé du champ que voient vos utilisateurs sans modifier le nom du champ que le système voit.
 
 Auparavant, le libellé s’affichait au-dessus du champ pour les utilisateurs et était utilisé par le système pour identifier le champ. Ainsi, la modification du libellé pour les utilisateurs a fait que le champ ne fonctionnait pas partout où il était utilisé, car le système ne pouvait plus l’identifier.
 

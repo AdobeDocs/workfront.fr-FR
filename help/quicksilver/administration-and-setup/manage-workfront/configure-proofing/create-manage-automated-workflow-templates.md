@@ -11,7 +11,7 @@ exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
 source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
 source-wordcount: '2075'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -45,11 +45,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>Nouveau : Quelconque</p><p>Actuel : Pro ou supérieur</p><p>Hérité : Premium ou Sélectionner</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td> <p>Nouveau : Tous</p><p>Actuel : Pro ou supérieur</p><p>Hérité : Premium ou Sélectionner</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Standard</p><p>Actuel : travail ou plan</p> <p>Hérité : Toutes (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td> <p>Nouvelle : standard</p><p>Actuel : travail ou plan</p> <p>Hérité : Toutes (la vérification doit être activée pour l’utilisateur)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
@@ -67,25 +67,25 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 {{step1-to-proofing}}
 
 1. Cliquez sur **Workflows** dans le panneau de gauche.
-1. Sur le **Workflow** , cliquez sur **Nouveau** > **Nouveau modèle**.
+1. Dans l’onglet **Workflow**, cliquez sur **Nouveau** > **Nouveau modèle**.
 
-1. Dans le **Détails** , renseignez les informations suivantes :
+1. Dans la section **Details** , spécifiez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Nom du modèle</td> 
+      <td role="rowheader">Nom de modèle</td> 
       <td>(Obligatoire) Saisissez le nom du modèle. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Propriétaire du modèle</td> 
+      <td role="rowheader">Personne propriétaire du modèle</td> 
       <td>Vous pouvez sélectionner l’administrateur Workfront ou l’administrateur Workfront Proof qui gérera le modèle.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Groupe de modèles</td> 
-      <td> <p> Si les processus automatisés de votre entreprise sont organisés en groupes, vous pouvez sélectionner le nom du groupe. Voir <a href="#create-automated-workflow-template-groups" class="MCXref xref">Création de groupes de modèles de processus automatisé</a> plus loin dans cet article.</p> </td> 
+      <td> <p> Si les processus automatisés de votre entreprise sont organisés en groupes, vous pouvez sélectionner le nom du groupe. Pour plus d’informations, reportez-vous à la section <a href="#create-automated-workflow-template-groups" class="MCXref xref">Création de groupes de modèles de processus automatisés</a> plus loin dans cet article.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Fuseau horaire du modèle </td> 
@@ -94,14 +94,14 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      <tr> 
       <td role="rowheader">Autoriser</td> 
       <td> <p>Vous pouvez sélectionner les activités d’évaluation que vous souhaitez mettre à la disposition de la personne pour créer des BAT à l’aide du modèle.</p> 
-      <p><b>Avertissement</b>: si vous ne sélectionnez pas les options Ajouter une scène et Ajouter des personnes aux scènes, ni le propriétaire du modèle ni le propriétaire d'un BAT utilisant ce modèle ne pourront ajouter une scène ou partager le BAT. 
+      <p><b>AVERTISSEMENT</b> : si vous ne sélectionnez pas les options Ajouter une scène et Ajouter des personnes aux scènes, ni le propriétaire du modèle, ni le propriétaire d’un BAT utilisant ce modèle ne pourront ajouter une scène ou partager le BAT. 
       </p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Dans le **Phases** , configurez chaque étape du modèle de workflow automatisé.
+1. Dans la section **Étapes** , configurez chaque étape du modèle de workflow automatisé.
 
    Vous pouvez ajouter plusieurs scènes et les créer entre elles.
 
@@ -115,14 +115,14 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader">Activer l’étape</td> 
-      <td> <p>Indiquez si l’étape est activée automatiquement ou manuellement. Pour la première étape, vous pouvez sélectionner <strong>Lors de la création du BAT</strong>, <strong>À une date et une heure spécifiques</strong>, ou <strong>Manuellement</strong>.</p> <p>Les autres options deviennent disponibles lorsque vous ajoutez une seconde étape, car elles vous obligent à sélectionner une étape parent. </p> </td> 
+      <td> <p>Indiquez si l’étape est activée automatiquement ou manuellement. Pour la première étape, vous pouvez sélectionner <strong>Lors de la création du BAT</strong>, <strong>À une date et une heure spécifiques</strong> ou <strong>Manuellement</strong>.</p> <p>Les autres options deviennent disponibles lorsque vous ajoutez une seconde étape, car elles vous obligent à sélectionner une étape parent. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Date limite calculée à partir de</td> 
       <td> <p>Indiquez le mode de calcul du délai :</p> 
        <ul> 
-        <li> <p><strong>Création de BAT</strong>: dans la liste déroulante sous <strong>Date limite (+ jours ouvrables)</strong>, sélectionnez le nombre de jours ouvrables à ajouter à la date de création du BAT pour définir automatiquement une date limite sur le BAT.</p> </li> 
-        <li><strong>Lorsque l’étape démarre</strong>: dans la liste déroulante sous <strong>Date limite (+ jours ouvrables)</strong>, sélectionnez le nombre de jours ouvrés à ajouter à la date d’activation de l’évaluation pour définir automatiquement une échéance sur le BAT.</li> 
+        <li> <p><strong>Création de BAT</strong> : dans la liste déroulante sous <strong>Date limite (+ jours ouvrables)</strong>, sélectionnez le nombre de jours ouvrables à ajouter à la date de création du BAT pour définir automatiquement une date limite sur le BAT.</p> </li> 
+        <li><strong>Lorsque l’étape démarre</strong> : dans la liste déroulante sous <strong>Date limite (+ jours ouvrables)</strong>, sélectionnez le nombre de jours ouvrables à ajouter à la date d’activation de l’étape pour définir automatiquement une date limite sur le BAT.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -139,7 +139,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader">Etape privée</td> 
-      <td>Masque les commentaires et les décisions de aux personnes qui ne sont pas ajoutées à l’étape ou qui ne sont pas administrateurs Workfront. Pour plus d’informations, voir <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Présentation des processus automatisés</a>.</td> 
+      <td>Masque les commentaires et les décisions de aux personnes qui ne sont pas ajoutées à l’étape ou qui ne sont pas administrateurs Workfront. Pour plus d’informations, voir <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Présentation du processus automatisé</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ne pas autoriser la suppression de cette étape</td> 
@@ -150,9 +150,9 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 1. Si les bons à tirer qui utiliseront ce modèle sont toujours envoyés à la même personne dans l’étape, ajoutez-les ici afin que les utilisateurs n’aient pas à les ajouter chaque fois qu’ils créent un bon à tirer.
 
-   Choisir le **Rôle** sur les BAT qui utiliseront ce modèle et le **Alertes par email** vous souhaitez que l’utilisateur reçoive lorsqu’il travaille sur des bons à tirer qui utilisent ce modèle.
+   Sélectionnez le **rôle** de chaque personne sur les bons à tirer qui utiliseront ce modèle et les **alertes par e-mail** que vous souhaitez que l’utilisateur reçoive lorsqu’il travaille sur des bons à tirer qui utilisent ce modèle.
 
-   Pour plus d’informations sur les rôles sur un BAT, voir [Configuration des rôles de vérification par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Pour plus d’informations sur les alertes par email de BAT, voir la section [Configuration des paramètres par défaut d’un BAT pour un utilisateur](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) dans l’article  [Configuration des paramètres de notification électronique dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   Pour plus d’informations sur les rôles sur un BAT, voir [Configuration des rôles de vérification par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Pour plus d’informations sur les alertes par email des BAT, reportez-vous à la section [ Configuration des paramètres par défaut des BAT pour un utilisateur](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) de l’article [ Configuration des paramètres de notification par email dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
    Chaque utilisateur ne peut être ajouté qu’à une seule étape. Vous pouvez ajouter autant d’utilisateurs que vous le souhaitez à une étape.
 
@@ -162,11 +162,11 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 1. Répétez les deux étapes précédentes pour toute autre étape que vous souhaitez ajouter au modèle.
 
-   En haut de la page **Workflow** , vous pouvez voir un diagramme du processus automatisé que vous configurez. Au fur et à mesure que vous continuez à ajouter des scènes, elles apparaissent sur le diagramme avec des lignes indiquant les dépendances entre elles. Vous pouvez cliquer sur une étape du diagramme pour afficher les paramètres de cette étape.
+   Dans la partie supérieure de la section **Workflow**, vous pouvez voir un diagramme du processus automatisé que vous configurez. Au fur et à mesure que vous continuez à ajouter des scènes, elles apparaissent sur le diagramme avec des lignes indiquant les dépendances entre elles. Vous pouvez cliquer sur une étape du diagramme pour afficher les paramètres de cette étape.
 
    Si vous n’avez pas besoin de voir le diagramme, vous pouvez cliquer sur **Masquer le diagramme**.
 
-1. Dans le **Partager le modèle avec** , cliquez sur une option (si le modèle n’est pas déjà partagé avec l’ensemble de l’organisation) pour spécifier qui pourra l’utiliser.
+1. Dans la section **Partager le modèle avec** , cliquez sur une option (si le modèle n’est pas déjà partagé avec l’ensemble de l’organisation) pour spécifier qui pourra l’utiliser.
 
    Par défaut, les nouveaux modèles de workflow automatisé sont partagés avec tous les membres de votre entreprise.
 
@@ -179,24 +179,24 @@ En tant qu’administrateur Workfront Proof, vous pouvez modifier un modèle de 
 {{step1-to-proofing}}
 
 1. Cliquez sur **Workflows** dans le panneau de gauche.
-1. Dans le **Modèles de workflow** qui s’affiche, cliquez sur le modèle à modifier.
-1. Dans le **Détails** , renseignez les informations suivantes :
+1. Dans la liste **Modèles de workflow** qui s&#39;affiche, cliquez sur le modèle que vous souhaitez modifier.
+1. Dans la section **Details** , spécifiez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Nom du modèle</td> 
+      <td role="rowheader">Nom de modèle</td> 
       <td>(Obligatoire) Saisissez le nom du modèle. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Propriétaire du modèle</td> 
+      <td role="rowheader">Personne propriétaire du modèle</td> 
       <td>Vous pouvez sélectionner l’administrateur Workfront ou l’administrateur Workfront Proof qui gérera le modèle.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Groupe de modèles</td> 
-      <td> <p> Si les processus automatisés de votre entreprise sont organisés en groupes, vous pouvez sélectionner le nom du groupe. Voir <a href="#create-automated-workflow-template-groups" class="MCXref xref">Création de groupes de modèles de processus automatisé</a> plus loin dans cet article.</p> </td> 
+      <td> <p> Si les processus automatisés de votre entreprise sont organisés en groupes, vous pouvez sélectionner le nom du groupe. Pour plus d’informations, reportez-vous à la section <a href="#create-automated-workflow-template-groups" class="MCXref xref">Création de groupes de modèles de processus automatisés</a> plus loin dans cet article.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fuseau horaire du modèle </td> 
@@ -204,12 +204,12 @@ En tant qu’administrateur Workfront Proof, vous pouvez modifier un modèle de 
      </tr> 
      <tr> 
       <td role="rowheader">Autoriser</td> 
-      <td> <p>Sélectionnez les activités d'évaluation que vous souhaitez mettre à la disposition de ceux qui créent des BAT à l'aide du modèle. </p> <p><b>Avertissement</b>: si vous ne sélectionnez pas les options Ajouter une scène et Ajouter des personnes aux scènes, ni le propriétaire du modèle ni le propriétaire d'un BAT utilisant ce modèle ne pourront ajouter une scène ou partager le BAT.</p> </td> 
+      <td> <p>Sélectionnez les activités d'évaluation que vous souhaitez mettre à la disposition de ceux qui créent des BAT à l'aide du modèle. </p> <p><b>AVERTISSEMENT</b> : si vous ne sélectionnez pas les options Ajouter une scène et Ajouter des personnes aux scènes, ni le propriétaire du modèle, ni le propriétaire d’un BAT utilisant ce modèle ne pourront ajouter une scène ou partager le BAT.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Dans le **Workflow** , modifiez le nom d’une étape et développez ses paramètres. ![](assets/arrow-button.png) pour apporter les modifications nécessaires :
+1. Dans la section **Workflow** , modifiez le nom d’une étape et développez ses paramètres ![](assets/arrow-button.png) pour apporter les modifications nécessaires :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -219,13 +219,13 @@ En tant qu’administrateur Workfront Proof, vous pouvez modifier un modèle de 
       <td role="rowheader">Date limite calculée à partir de</td> 
       <td> <p>Indiquez le mode de calcul du délai :</p> 
        <ul> 
-        <li> <p><strong>Date limite calculée à partir de la création du BAT</strong>: dans la variable <strong>Définition de la date limite d’évaluation</strong> dans la liste déroulante, sélectionnez le nombre de jours ouvrés à ajouter à la date de création du BAT pour définir automatiquement une date limite sur le BAT.</p> </li> 
-        <li><strong>Date limite calculée à partir de l’activation de l’étape</strong>: dans la variable <strong>Définition de la date limite d’évaluation</strong> dans la liste déroulante, sélectionnez le nombre de jours ouvrés à ajouter à la date d’activation de l’évaluation afin de définir automatiquement une échéance sur le BAT.</li> 
+        <li> <p><strong>Date limite calculée à partir de la création du BAT</strong> : dans la liste déroulante <strong>Définir la date limite de l’évaluation</strong>, sélectionnez le nombre de jours ouvrables à ajouter à la date de création du BAT pour définir automatiquement une date limite sur le BAT.</p> </li> 
+        <li><strong>Date limite calculée à partir de l’activation de l’étape</strong> : dans la liste déroulante <strong>Définir la date limite de l’étape</strong>, sélectionnez le nombre de jours ouvrables à ajouter à la date d’activation de l’étape pour définir automatiquement une date limite sur le BAT.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Activer l’étape</td> 
-      <td> <p>Indiquez si l’étape est activée automatiquement ou manuellement. Pour la première étape, vous pouvez sélectionner <strong>Lors de la création du BAT</strong>, <strong>À une date et une heure spécifiques</strong>, ou <strong>Manuellement</strong>.</p> <p>Les autres options deviennent disponibles lorsque vous ajoutez une seconde étape, car elles vous obligent à sélectionner une étape parent. </p> </td> 
+      <td> <p>Indiquez si l’étape est activée automatiquement ou manuellement. Pour la première étape, vous pouvez sélectionner <strong>Lors de la création du BAT</strong>, <strong>À une date et une heure spécifiques</strong> ou <strong>Manuellement</strong>.</p> <p>Les autres options deviennent disponibles lorsque vous ajoutez une seconde étape, car elles vous obligent à sélectionner une étape parent. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verrouiller l’étape</td> 
@@ -237,7 +237,7 @@ En tant qu’administrateur Workfront Proof, vous pouvez modifier un modèle de 
      </tr> 
      <tr> 
       <td role="rowheader">Privacy</td> 
-      <td>Masque dans le compte les commentaires et les décisions de pour les personnes qui ne sont pas ajoutées à l’étape ou qui ne sont pas des superviseurs et au-dessus. Pour plus d’informations, voir <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Présentation des processus automatisés</a>.</td> 
+      <td>Masque dans le compte les commentaires et les décisions de pour les personnes qui ne sont pas ajoutées à l’étape ou qui ne sont pas des superviseurs et au-dessus. Pour plus d’informations, voir <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Présentation du processus automatisé</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Suppression d’étapes</td> 
@@ -245,18 +245,18 @@ En tant qu’administrateur Workfront Proof, vous pouvez modifier un modèle de 
      </tr> 
      <tr> 
       <td role="rowheader">Plus <img src="assets/more-icon.png"></td> 
-      <td>Ajoutez des réviseurs à l’étape ou supprimez l’étape.<p>Si chacun de vos bons à tirer est envoyé à la même personne au cours d’une étape spécifique, vous pouvez spécifier son nom ici afin de ne pas avoir à les ajouter chaque fois que vous créez un bon à tirer. Saisissez et sélectionnez le nom d’un utilisateur que vous souhaitez ajouter à l’étape, puis ajoutez-lui la valeur <strong>Rôle</strong> sur le BAT et <strong>Alertes par email</strong> paramètres que vous souhaitez pour l’utilisateur. Pour plus d’informations sur la vérification des rôles, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configuration des rôles de vérification par défaut</a>. Pour plus d’informations sur les alertes par email de BAT, voir la section <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Configuration des paramètres par défaut d’un BAT pour un utilisateur</a> dans l’article <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configuration des paramètres de notification électronique dans Workfront Proof</a>.</p><p>Vous pouvez ajouter autant d’utilisateurs que vous le souhaitez à une étape.</p><p>Conseil : Vous pouvez faire glisser et déposer les noms des réviseurs entre les étapes du diagramme des étapes. Les étapes disponibles sont mises en surbrillance en bleu.</p></td> 
+      <td>Ajoutez des réviseurs à l’étape ou supprimez l’étape.<p>Si chacun de vos bons à tirer est envoyé à la même personne au cours d’une étape spécifique, vous pouvez spécifier son nom ici afin de ne pas avoir à les ajouter chaque fois que vous créez un bon à tirer. Saisissez et sélectionnez le nom d’un utilisateur que vous souhaitez ajouter à l’étape, puis ajoutez son <strong>rôle</strong> sur le BAT et les paramètres <strong>Alertes par email</strong> que vous souhaitez pour l’utilisateur. Pour plus d’informations sur les rôles de vérification, voir <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configuration des rôles de vérification par défaut</a>. Pour plus d’informations sur les alertes par email des BAT, reportez-vous à la section <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref"> Configuration des paramètres par défaut des BAT pour un utilisateur</a> de l’article <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref"> Configuration des paramètres de notification par email dans Workfront Proof</a>.</p><p>Vous pouvez ajouter autant d’utilisateurs que vous le souhaitez à une étape.</p><p>Conseil : Vous pouvez faire glisser et déposer les noms des réviseurs entre les étapes du diagramme des étapes. Les étapes disponibles sont mises en surbrillance en bleu.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Répétez l’étape pour toutes les autres étapes à ajouter au modèle.
 
-   En haut de la page **Workflow** , vous pouvez voir un diagramme du processus automatisé que vous configurez. Au fur et à mesure que vous continuez à ajouter des scènes, elles apparaissent sur le diagramme avec des lignes indiquant les dépendances entre elles. Vous pouvez cliquer sur une étape du diagramme pour afficher les paramètres de cette étape.
+   Dans la partie supérieure de la section **Workflow**, vous pouvez voir un diagramme du processus automatisé que vous configurez. Au fur et à mesure que vous continuez à ajouter des scènes, elles apparaissent sur le diagramme avec des lignes indiquant les dépendances entre elles. Vous pouvez cliquer sur une étape du diagramme pour afficher les paramètres de cette étape.
 
    Si vous n’avez pas besoin de voir le diagramme, vous pouvez cliquer sur **Masquer le diagramme**.
 
-1. Dans le **Partagé avec** si vous souhaitez supprimer un utilisateur, cliquez sur Plus ![](assets/more-icon.png) à droite, puis cliquez sur **Supprimer**.
+1. Dans la section **Partagé avec** , si vous souhaitez supprimer un utilisateur, cliquez sur le bouton Plus ![](assets/more-icon.png) à droite, puis cliquez sur **Supprimer**.
 
 ## Création de groupes de modèles de processus automatisé {#create-automated-workflow-template-groups}
 
@@ -267,7 +267,7 @@ Pour créer un groupe de modèles de processus automatisé :
 {{step1-to-proofing}}
 
 1. Cliquez sur **Workflows** dans le panneau de gauche.
-1. Sur le **Workflow** , cliquez sur **Nouveau** > **Nouveau groupe de modèles**.
+1. Dans l’onglet **Workflow**, cliquez sur **Nouveau** > **Nouveau groupe de modèles**.
 1. Saisissez un nom explicite pour le nouveau groupe de modèles, puis appuyez sur **Entrée**.
 
 Vous pouvez déplacer les modèles entre les groupes en les faisant glisser et en les déposant.
@@ -277,7 +277,7 @@ Vous pouvez déplacer les modèles entre les groupes en les faisant glisser et e
 {{step1-to-proofing}}
 
 1. Dans le panneau de gauche de Workfront Proof, cliquez sur **Workflows**.
-1. Sur le **Workflows** qui s’affiche, effectuez l’une des opérations suivantes :
+1. Sur la page **Workflows** qui s’affiche, effectuez l’une des opérations suivantes :
 
    * Ajouter un nouveau modèle
    * Ajouter un nouveau groupe de modèles

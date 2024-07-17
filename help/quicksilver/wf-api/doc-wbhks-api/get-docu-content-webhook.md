@@ -2,7 +2,7 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Obtention de contenu de document via Webhooks
+title: Obtenir le contenu d’un document par le biais de webhooks
 description: Renvoie les octets bruts d’un document
 author: Becky
 feature: Workfront API, Digital Content and Documents
@@ -11,11 +11,11 @@ exl-id: 0f0b5af7-f276-4856-852c-e976fa491f83
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 9%
+ht-degree: 30%
 
 ---
 
-# Obtention de contenu de document via Webhooks
+# Obtenir le contenu d’un document par le biais de webhooks
 
 Renvoie les octets bruts d’un document
 
@@ -42,8 +42,8 @@ GET /download
  </tbody> 
 </table>
 
-## réponse
+## Réponse
 
 octets bruts du document.
 
-**Exemple**:  `https://www.acme.com/api/download?id=123456`
+**Exemple** :  `https://www.acme.com/api/download?id=123456`

@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: 2020.1 Améliorations de la gestion des ressources
+title: Améliorations de la gestion des ressources (version 2020.1)
 description: Cette page décrit toutes les améliorations apportées aux fonctionnalités de gestion des ressources avec la version 2020.1. Ces améliorations sont actuellement disponibles dans l’environnement Aperçu et seront disponibles dans l’environnement Production à la fin du mois de mars ou au début du mois d’avril 2020.
 author: Luke
 feature: Product Announcements
@@ -10,15 +10,15 @@ exl-id: d4d96040-f316-4dc2-9422-b9ef82e6b2e4
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 2020.1 Améliorations de la gestion des ressources
+# Améliorations de la gestion des ressources (version 2020.1)
 
 Cette page décrit toutes les améliorations apportées aux fonctionnalités de gestion des ressources avec la version 2020.1. Ces améliorations sont actuellement disponibles dans l’environnement Aperçu et seront disponibles dans l’environnement Production à la fin du mois de mars ou au début du mois d’avril 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.1, voir [Présentation de la version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.1, consultez la [présentation de la version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Afficher les heures planifiées quotidiennes pour les projets, les tâches et les éléments inaccessibles dans la zone de travail affectée de l’équilibreur de charge de travail
 
@@ -46,7 +46,7 @@ Pour faciliter l’affichage des heures réelles dans le planificateur de ressou
 
 Vous pouvez toujours afficher les heures réelles lors de l’affichage du planificateur de ressources dans la vue utilisateur à l’aide de la fonction Personnaliser la vue .
 
-Pour plus d’informations sur la navigation dans le planificateur de ressources, voir [Présentation de la navigation de Resource Planner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Pour plus d’informations sur la navigation dans le planificateur de ressources, consultez la [présentation de la navigation du planificateur de ressources](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Amélioration de la navigation dans l’équilibreur de charge
 

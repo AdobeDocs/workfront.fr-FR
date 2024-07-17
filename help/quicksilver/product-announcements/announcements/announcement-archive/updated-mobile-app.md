@@ -2,19 +2,19 @@
 product-previous: mobile
 content-type: reference
 navigation-topic: announcements
-title: Mise à jour de l’application mobile pour iOS et Android (début août 2017)
+title: Mise à jour de l’application mobile pour iOS et Android (début août 2017)
 description: L’application mobile Adobe Workfront doit être mise à jour dans les boutiques Apple App et Google Play au début du mois d’août 2017.
 author: Luke
 feature: Product Announcements
 exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
 source-git-commit: f05b462ff596ccc19215ca684802a9820a98211a
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 6%
 
 ---
 
-# Mise à jour de l’application mobile pour iOS et Android (début août 2017)
+# Mise à jour de l’application mobile pour iOS et Android (début août 2017)
 
 L’application mobile Adobe Workfront doit être mise à jour dans les boutiques Apple App et Google Play au début du mois d’août 2017. 
 
@@ -42,7 +42,7 @@ Avant cette mise à jour, vous pouviez uniquement consigner les heures général
 
 * Projets
 * Tâches
-* Événements
+* Problèmes
 * Documents 
 
 Avant cette mise à jour, vous ne pouviez afficher que les informations relatives aux formulaires personnalisés sur le périphérique mobile. 
@@ -55,4 +55,4 @@ Pour plus d’informations sur la modification de formulaires personnalisés sur
 
 Avant cette mise à jour, vous pouviez effectuer des approbations de projet, de tâche, d’émission et de document à l’aide de l’application mobile. Vous aurez besoin d’une licence Bon à tirer (BAT) pour approuver les bons à tirer de documents sur l’application mobile. 
 
-Pour plus d’informations sur la vérification dans Workfront, voir [Vérification](../../../review-and-approve-work/proofing/proofing.md) . 
+Pour plus d’informations sur la vérification dans Workfront, consultez la section [Vérification](../../../review-and-approve-work/proofing/proofing.md) . 

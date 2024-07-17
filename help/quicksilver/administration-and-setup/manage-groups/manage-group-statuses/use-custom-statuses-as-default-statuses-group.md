@@ -3,52 +3,52 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Utiliser un état personnalisé comme état par défaut pour un groupe
-description: En tant qu’administrateur de groupe, vous pouvez configurer un état personnalisé comme état par défaut pour un groupe ou un sous-groupe que vous gérez. Cela s’avère utile lorsque le système doit attribuer automatiquement un état Workfront à un projet, une tâche ou un problème. Un projet, une tâche ou un problème affiche toujours l’état personnalisé que vous définissez comme état par défaut au lieu d’afficher l’état Workfront auquel il correspond.
+description: En tant qu’administrateur de groupe, vous pouvez configurer un état personnalisé comme état par défaut pour un groupe ou un sous-groupe que vous gérez. Cela s’avère utile lorsque le système doit attribuer automatiquement un état Workfront à un projet, à une tâche ou à un problème. Un projet, une tâche ou un problème affiche toujours l’état personnalisé que vous définissez comme état par défaut au lieu d’afficher l’état Workfront auquel il correspond.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 0%
+source-wordcount: '728'
+ht-degree: 16%
 
 ---
 
 # Utiliser un état personnalisé comme état par défaut pour un groupe
 
-En tant qu’administrateur de groupe, vous pouvez configurer un état personnalisé comme état par défaut pour un groupe ou un sous-groupe que vous gérez. Cela s’avère utile lorsque le système doit attribuer automatiquement un état Workfront à un projet, une tâche ou un problème. Un projet, une tâche ou un problème affiche toujours l’état personnalisé que vous définissez comme état par défaut au lieu d’afficher l’état Workfront auquel il correspond.
+En tant qu’administrateur de groupe, vous pouvez configurer un état personnalisé comme état par défaut pour un groupe ou un sous-groupe que vous gérez. Cela s’avère utile lorsque le système doit attribuer automatiquement un état Workfront à un projet, à une tâche ou à un problème. Un projet, une tâche ou un problème affiche toujours l’état personnalisé que vous définissez comme état par défaut au lieu d’afficher l’état Workfront auquel il correspond.
 
 L’état que vous configurez peut être tout état personnalisé créé pour le groupe, hérité d’un groupe situé au-dessus du groupe ou hérité au niveau du système.
 
-S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs de Workfront (pour n’importe quel groupe).
+S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
 
 >[!INFO]
 >
->**Exemple :** Vous pouvez créer un état personnalisé nommé Terminé et le définir comme un état par défaut associé à l’état Workfront Terminé.
+>**Exemple :** Vous pouvez créer un état personnalisé appelé Terminé et le définir comme état par défaut associé à l’état Workfront Terminé.
 >
 >Ensuite, pour les tâches définies pour passer à l’état Terminé lorsqu’elles atteignent 100 %, l’état s’affiche comme Terminé au lieu de Terminé.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Workfront*</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Plan Workfront*</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur de groupe du groupe ou un administrateur Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice de groupe pour le groupe ou un administrateur ou une administratrice de Workfront. Pour plus d’informations, consultez les sections <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à une personne</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si vous devez savoir quel plan ou type de licence vous avez, contactez votre administrateur Workfront.
+&#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
 ## Statuts des problèmes
 
@@ -56,13 +56,13 @@ Si l’état personnalisé est un état de problème, les quatre types de probl�
 
 ![](assets/all-4-issue-types-enabled.png)
 
-## Définition d’un état personnalisé comme état par défaut pour un groupe
+## Définir un état personnalisé comme état par défaut pour un groupe
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
-1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png), puis cliquez sur le nom du groupe dans lequel vous souhaitez créer ou personnaliser des états.
-1. Dans le panneau de gauche, cliquez sur **Statuts** ![](assets/gear-icon-settings.png).
-1. Ouvrez le **Projet**, **Tâches** ou **Problèmes** selon le type d’état que vous souhaitez définir comme état par défaut.
-1. Cliquez sur **Définition des états par défaut** près du coin supérieur droit.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png), puis sur le nom du groupe dans lequel vous souhaitez créer ou personnaliser des états.
+1. Dans le panneau de gauche, cliquez sur **États** ![](assets/gear-icon-settings.png).
+1. Ouvrez l’onglet **Projet**, **Tâches** ou **Problèmes**, selon le type d’état que vous souhaitez définir comme état par défaut.
+1. Cliquez sur **Définir les états par défaut** près du coin supérieur droit.
 1. Dans la liste déroulante qui s’affiche, en regard de l’état dans lequel vous souhaitez définir l’état par défaut, sélectionnez l’état par défaut à définir.
 1. Cliquer sur **Enregistrer**.
 
@@ -77,8 +77,8 @@ Si l’état personnalisé est un état de problème, les quatre types de probl�
    >Si vous affectez le projet à un autre groupe, l’état du projet se recharge et peut changer.
 
    1. Accédez au projet dans lequel vous souhaitez utiliser l’état personnalisé.
-   1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis cliquez sur **Modifier**.
-   1. Dans le **Modifier le projet** qui s’affiche, dans la **Groupe** champ sous **Association de projets**, sélectionnez le groupe auquel l’état personnalisé est associé.
+   1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Modifier**.
+   1. Dans la zone **Edit Project** (Modifier le projet) qui s’affiche, dans le champ **Group** sous **Project association**, sélectionnez le groupe auquel l’état personnalisé est associé.
 
    1. Cliquez sur **Enregistrer les modifications**.
 
@@ -88,7 +88,7 @@ Lorsqu’un administrateur Workfront configure un état personnalisé comme éta
 
 De même, lorsqu’un administrateur de groupe définit un état personnalisé comme état par défaut, les nouveaux sous-groupes créés directement sous le groupe héritent de cette configuration.
 
-Pour plus d’informations, voir [Comment les groupes héritent des états](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+Pour plus d’informations, consultez la section [Héritage de statuts par les groupes](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
 ## Lorsqu’un état par défaut est masqué
 

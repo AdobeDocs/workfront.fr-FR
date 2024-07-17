@@ -9,7 +9,7 @@ exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Vous devez revoir régulièrement vos objectifs et mettre à jour leurs progrès
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -72,14 +72,14 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -99,9 +99,9 @@ Tenez compte des points suivants lors de la mise à jour de la progression par r
 
   Consultez également les articles suivants :
 
-   * Pour plus d’informations sur l’ajout d’activités à des objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   * Pour plus d’informations sur l’ajout d’activités aux objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
    * Pour plus d’informations sur l’ajout de résultats aux objectifs, voir [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * Pour plus d’informations sur la façon dont les objectifs de Workfront calculent la progression d’un objectif, voir [Présentation de la progression et de la condition des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Pour plus d’informations sur la façon dont les objectifs de Workfront calculent la progression sur un objectif, voir [Présentation de la progression et de la condition de l’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * Vous devez créer des objectifs et les activer avant de pouvoir mettre à jour leur progression.
 
@@ -245,7 +245,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 Pour mettre à jour les progrès réalisés par rapport aux objectifs :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -268,7 +268,7 @@ Pour mettre à jour les progrès réalisés par rapport aux objectifs :
    >    En retour, les progrès des objectifs pour enfants et les progrès des projets stimulent la progression de l&#39;objectif sélectionné.
 
 
-1. Pour mettre à jour la progression d’un résultat ou d’une activité, cliquez sur la valeur indiquée dans la variable **Progression réelle** du résultat ou de l&#39;activité, saisissez un nombre afin de mettre à jour sa valeur, puis appuyez sur Entrée.
+1. Pour mettre à jour la progression d’un résultat ou d’une activité, cliquez sur la valeur dans la colonne **Progression réelle** du résultat ou de l’activité et saisissez un nombre pour mettre à jour sa valeur, puis appuyez sur Entrée.
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 

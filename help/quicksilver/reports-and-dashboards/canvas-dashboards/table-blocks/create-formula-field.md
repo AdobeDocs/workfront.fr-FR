@@ -17,12 +17,12 @@ Le créateur de champs du Canevas de création de rapports vous permet de créer
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, reportez-vous à la section [Présentation du canevas de rapports bêta : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Créer un champ de formule
 
-1. Créez ou accédez à un bloc de tableau, comme décrit dans la section [Ajouter ou modifier un bloc de tableau dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. Dans l’en-tête du tableau du rapport, cliquez sur le **Modifier** icon ![](assets/edit-icon.png).
+1. Créez ou accédez à un bloc de tableau, comme décrit dans [Ajouter ou modifier un bloc de tableau dans le canevas de création de rapports](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. Dans l’en-tête du tableau du rapport, cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) .
 
    ![](assets/edit-icon-table-header-350x71.png)
 
@@ -30,14 +30,14 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
    >
    >Si vous venez de créer le tableau et n’avez encore ajouté aucun champ, cliquez sur le bouton Editer situé au centre du tableau.
 
-1. Cliquez sur **Nouveau +** en haut de la page **Champs** dans le panneau de droite.
-1. Dans la nouvelle page qui s’ouvre, cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png) en regard du nom du champ dans le coin supérieur gauche pour modifier le nom du champ de formule.
-1. Glisser **Fonctions** ou **Champs** du panneau de gauche au créateur de champs au centre pour les ajouter à votre champ de formule.
+1. Cliquez sur **Nouveau +** en haut de la liste **Champs** dans le panneau de droite.
+1. Dans la nouvelle page qui s’ouvre, cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) en regard du nom du champ dans le coin supérieur gauche pour modifier le nom du champ de formule.
+1. Faites glisser **Fonctions** ou **Champs** depuis le panneau de gauche vers le créateur de champs au centre pour les ajouter à votre champ de formule.
 
 
    >[!TIP]
    >
-   >Lorsque vous créez votre champ de formule, la variable **Aperçu du champ** à droite affiche des exemples du champ obtenu.
+   >Lorsque vous créez votre champ de formule, l’ **aperçu du champ** à droite affiche des exemples du champ obtenu.
 
    Chaque fonction contient un certain nombre de rectangles en pointillés vides qui seront utilisés comme arguments dans le calcul d’un résultat. Elles peuvent être renseignées en saisissant du texte ou des nombres statiques, en faisant glisser et en déposant un champ à partir du panneau de gauche (à l’aide de la valeur du champ dans le calcul), ou en faisant glisser une autre fonction (créant une fonction imbriquée). Fonctions possibles :
 
@@ -67,4 +67,4 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 
    {style="table-layout:auto"}
 
-1. Cliquez sur le bouton **Revenir** flèche dans le coin supérieur gauche de l’écran pour revenir à votre tableau.
+1. Cliquez sur la flèche **Revenir en arrière** dans le coin supérieur gauche de l’écran pour revenir à votre tableau.

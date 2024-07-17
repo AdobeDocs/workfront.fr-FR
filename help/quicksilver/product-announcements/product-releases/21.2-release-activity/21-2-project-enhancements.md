@@ -2,7 +2,7 @@
 content-type: release-notes
 keywords: notes,trimestriel,mise à jour,version
 navigation-topic: 2021-2-release-activity
-title: 21.2 Améliorations apportées au projet
+title: Améliorations apportées aux projets (version 21.2)
 description: Cette page décrit toutes les améliorations apportées aux projets avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, reportez-vous à la présentation de la version 21.2.
 author: Luke
 feature: Product Announcements
@@ -11,13 +11,13 @@ exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1650'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 21.2 Améliorations apportées au projet
+# Améliorations apportées aux projets (version 21.2)
 
-Cette page décrit toutes les améliorations apportées aux projets avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, voir [Présentation de la version 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Cette page décrit toutes les améliorations apportées aux projets avec la version 21.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 10 mai 2021. Pour obtenir la liste de toutes les modifications disponibles avec la version 21.2, consultez la [présentation de la version 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Nouvelle interface pour la création et l&#39;édition des tâches récurrentes
 
@@ -29,7 +29,7 @@ Dans le cadre de la reconception des boîtes de dialogue Nouvelle tâche et Modi
 
 Pour plus d’informations, voir [Créer des tâches récurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes de planification de la nouvelle expérience Workfront, Partie 2 : Planifier un projet](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) parcours d’apprentissage sur Workfront One.
+Cette fonctionnalité est désormais incluse dans les [fondamentaux du planificateur pour la nouvelle expérience Workfront, Partie 2 : Planifier un projet](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) parcours d’apprentissage sur Workfront One.
 
 ## Nouveaux boutons disponibles dans l’en-tête Projets
 
@@ -39,7 +39,7 @@ Cette fonctionnalité est désormais incluse dans la variable [Principes de plan
 
 Pour vous permettre de filtrer rapidement la liste des projets sur la page Projets , deux nouveaux boutons dans l’en-tête vous permettent d’appliquer rapidement le filtre Projets actifs ou Projets personnels .
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes de planification de la nouvelle expérience Workfront, partie 1 : créer un projet](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) parcours d’apprentissage sur Workfront One.
+Cette fonctionnalité est désormais incluse dans les [fondamentaux du planificateur pour la nouvelle expérience Workfront, Partie 1 : créer un chemin d’apprentissage de projet](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) sur Workfront One.
 
 ## Déplacement ou suppression d’un article ou d’un problème dans le panneau de défilement
 
@@ -51,7 +51,7 @@ Vous pouvez désormais déplacer un article ou un problème hors de votre panora
 
 Vous avez également la possibilité de supprimer un article ou un problème directement à partir du panneau de résumé en cliquant sur l’icône Plus d’une carte et en sélectionnant Supprimer. Lorsque vous supprimez un article ou un problème, il est déplacé dans la Corbeille pendant 30 jours et ne peut être récupéré que par l’administrateur système.
 
-Pour plus d’informations, voir [Gestion des articles et des problèmes sur le panorama Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
+Pour plus d’informations, voir [Gestion des articles et des problèmes sur le Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
 
 ## Nouvelle boîte de dialogue Modifier le problème
 
@@ -80,7 +80,7 @@ Avant cette amélioration, ces boutons se trouvaient dans le coin supérieur dro
 
 Pour plus d’informations sur la modification de projets ou de tâches, voir les articles suivants :
 
-* [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md)
+* [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md)
 * [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
 ![](assets/pasted-image-4-5-2021-0-350x278.png)
@@ -115,13 +115,13 @@ Pour plus d’informations sur la conversion de problèmes, voir [Présentation 
 
 Lorsque vous affectez un groupe à un portfolio, un programme ou une équipe, il est plus facile de s’assurer que vous disposez du groupe approprié. Vous pouvez cliquer sur l’icône d’information située en regard du nom du groupe pour afficher une info-bulle contenant la hiérarchie des groupes au-dessus, ainsi que les administrateurs du groupe. En fonction des détails configurés pour le groupe, le chef d’entreprise et la description du groupe peuvent également s’afficher.
 
-Il s’agit de la même fonctionnalité qui a été publiée récemment pour vous aider à identifier un groupe que vous devez affecter à un projet, comme expliqué dans la section [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+Il s’agit de la même fonctionnalité qui a été récemment publiée pour vous aider à identifier un groupe que vous devez affecter à un projet, comme expliqué dans la section [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d’informations, consultez les articles suivants :
 
-* [Création d’un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+* [Créer un portefeuille](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 * [Créer un programme](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
-* [Création d’une équipe](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
+* [Créer une équipe](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 
 ## La mise en forme de texte dans les champs personnalisés s’affiche désormais dans toutes les listes et tous les rapports Workfront Classic.
 
@@ -135,7 +135,7 @@ Auparavant, dans Workfront Classic, le formatage de texte était visible uniquem
 
 Pour plus d’informations sur le formatage du texte dans un champ personnalisé, voir [Création d’un formulaire personnalisé](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
-Pour plus d’informations sur l’affichage des informations dans les listes, voir [Prise en main des listes](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
+Pour plus d&#39;informations sur l&#39;affichage des informations dans les listes, voir [Prise en main des listes](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
 
 ## Nouvelle boîte de dialogue Modifier la tâche
 
@@ -198,5 +198,5 @@ Pour vous offrir une expérience cohérente sur tous les objets, nous avons modi
 
 Avant cette modification, la désactivation du paramètre empêchait les utilisateurs de supprimer des tâches ou des problèmes, et non des projets.
 
-Pour plus d’informations, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Pour plus d’informations, voir [Configuration de la tâche à l’échelle du système et des préférences de problème](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

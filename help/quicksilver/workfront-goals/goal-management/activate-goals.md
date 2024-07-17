@@ -9,7 +9,7 @@ exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -28,7 +28,7 @@ Pour plus d’informations sur la création d’un objectif, voir [Création d�
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -79,14 +79,14 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Conditions préalables
@@ -105,11 +105,11 @@ Effectuez au moins l’une des opérations suivantes pour activer un objectif :
 
 * Connexion d’un projet à l’objectif
 
-  Pour plus d’informations, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+  Pour plus d’informations, voir [Ajout de projets à des objectifs dans les objectifs Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
 
 * Aligner un autre objectif sur l’objectif que vous souhaitez activer
 
-  Pour plus d’informations, voir [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Pour plus d’informations, voir [Aligner les objectifs en les connectant dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Activer des objectifs
 
@@ -117,7 +117,7 @@ Vous pouvez activer les objectifs que vous avez créés ou un objectif pour lequ
 
 1. Accédez à un objectif que vous souhaitez activer. La page d’objectif s’ouvre.
 
-1. Cliquez sur le bouton **Plus** menu ![](../goal-management/assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Activer**.
+1. Cliquez sur le menu **Plus** ![](../goal-management/assets/more-icon.png) situé à droite du nom de l’objectif, puis cliquez sur **Activer**.
 
    ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 

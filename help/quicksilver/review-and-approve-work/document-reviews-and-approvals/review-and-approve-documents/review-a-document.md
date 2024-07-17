@@ -69,7 +69,7 @@ Add once functionality is added
 
    Cliquez sur **Télécharger** pour télécharger une copie locale du document sur votre périphérique.
 
-1. (Facultatif) Une fois que vous avez examiné le document, vous pouvez laisser un commentaire au demandeur dans le **Mises à jour** . Pour plus d’informations sur les commentaires, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Une fois que vous avez examiné le document, vous pouvez laisser un commentaire pour le demandeur dans la section **Mises à jour** du document. Pour plus d&#39;informations sur les commentaires, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Pour enregistrer que vous avez terminé votre révision, cliquez sur **Terminer la révision**.
 
 ## Examinez un document à partir du volet Résumé du document
@@ -80,7 +80,7 @@ Add once functionality is added
 
 1. Sélectionnez la version du document que vous souhaitez réviser dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
 
-1. Passez la souris sur l’aperçu du document dans la **Détails** dans la partie supérieure du volet Résumé du document. Ensuite, vous pouvez effectuer l’une des opérations suivantes :
+1. Passez la souris sur l’aperçu du document dans la section **Details** en haut du volet Résumé du document. Ensuite, vous pouvez effectuer l’une des opérations suivantes :
 
    Cliquez sur **Aperçu** pour ouvrir une version en lecture seule du document dans une nouvelle fenêtre.
 
@@ -88,7 +88,7 @@ Add once functionality is added
 
    Cliquez sur **Télécharger** pour télécharger une copie locale du document sur votre périphérique.
 
-1. (Facultatif) Une fois que vous avez examiné le document, vous pouvez laisser un commentaire au demandeur dans le **Mises à jour** . Pour plus d’informations sur les commentaires, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Une fois que vous avez examiné le document, vous pouvez laisser un commentaire pour le demandeur dans la section **Mises à jour** du document. Pour plus d&#39;informations sur les commentaires, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facultatif) Vous pouvez également prévisualiser ou télécharger une version spécifique du document en faisant défiler l’écran jusqu’au **Versions** du volet Résumé du document, puis cliquez sur l’icône Plus ![](../assets/more-icon.png) en regard de la version que vous souhaitez réviser et sélectionner **Télécharger** ou **Aperçu**.
+1. (Facultatif) Vous pouvez également prévisualiser ou télécharger une version spécifique du document en faisant défiler la page jusqu’à la section **Versions** du volet Résumé du document, puis en cliquant sur l’icône Plus ![](../assets/more-icon.png) en regard de la version que vous souhaitez consulter et en sélectionnant **Télécharger** ou **Aperçu**.
 1. Pour enregistrer que vous avez terminé votre révision, cliquez sur **Terminer la révision**.

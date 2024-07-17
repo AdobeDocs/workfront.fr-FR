@@ -9,17 +9,17 @@ exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 16%
+ht-degree: 30%
 
 ---
 
 # Gérer le pourcentage d’attribution des utilisateurs et utilisatrices ou des rôles sur les tâches
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour toutes les clientes et tous les clients ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Le pourcentage d’allocation représente la durée pendant laquelle une ressource affectée est planifiée pour travailler sur une tâche au cours d’une journée. Il s’agit du pourcentage d’une journée de travail (selon le planning de l’utilisateur ou du projet) au cours de laquelle une ressource est allouée tout au long de la tâche.
 
@@ -41,15 +41,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou plus élevé</p> </td> 
+   <td> <p>Travail ou supérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux tâches</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Accès en modification aux tâches</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Attribuer ou des autorisations supérieures à la tâche</p> <p>Modifier les autorisations pour mettre à jour le pourcentage d’allocation dans la zone Modifier la tâche</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations Contribute ou supérieures pour la tâche</p> <p>Modifier les autorisations pour mettre à jour le pourcentage d’allocation dans la zone Modifier la tâche</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 * Par défaut, les utilisateurs se voient attribuer un pourcentage égal de temps aux tâches auxquelles ils sont affectés.
 * Vous pouvez modifier manuellement le pourcentage d’allocation pour les utilisateurs et les rôles de tâche affectés aux tâches uniquement lorsque le type de durée de la tâche est Basé sur le travail calculé ou l’effort.
 
-  Pour plus d’informations, voir [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Pour plus d’informations, voir [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * Vous ne pouvez pas modifier l’allocation de pourcentage pour les équipes affectées à des tâches.
 * Vous ne pouvez pas modifier l’allocation en pourcentage pour les utilisateurs et les rôles de tâche affectés aux problèmes.
@@ -69,13 +69,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Modification de l’allocation de pourcentage d’utilisateur ou de rôle pour une tâche
 
 1. Accédez à une tâche pour laquelle vous modifiez l’affectation de pourcentage des ressources.
-1. Cliquez sur le bouton **Plus** menu ![](assets/qs-more-icon-on-an-object.png) en regard du nom de la tâche, puis cliquez sur **Modifier**.
+1. Cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png) en regard du nom de la tâche, puis cliquez sur **Modifier**.
 
    Ou
 
-   Cliquez sur le bouton **Affectations** dans l’en-tête de la tâche, puis cliquez sur **Avancé**.
+   Cliquez sur la zone **Affectations** dans l’en-tête de la tâche, puis cliquez sur **Avancé**.
 
-1. Assurez-vous que la variable **Type de durée** de la tâche est l’une des suivantes :
+1. Assurez-vous que le **type de durée** de la tâche est l’un des suivants :
 
    * Calcul de travail
    * Piloté par l&#39;effort
@@ -85,7 +85,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >* Pour le type Durée d’affectation calculée , Workfront utilise la formule suivante pour calculer le pourcentage d’affectation de chaque personne désignée : `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* Pour le type Durée simple , vous pouvez estimer les heures affectées à chaque ressource, et non le pourcentage d’allocation.
 
-1. Cliquez sur **Affectations**, puis modifiez la variable **Allocations** pour chaque responsable de tâche.
+1. Cliquez sur **Affectations**, puis modifiez les **Allocations** pour chaque personne désignée pour la tâche.
 
    Vous pouvez uniquement modifier le pourcentage d’attribution pour les affectations d’utilisateurs et de rôles de tâche.
 
@@ -94,7 +94,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    Exemple d’image dans l’environnement de production :
    ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
-   <span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
-   ![Modifier le pourcentage d’affectation](assets/advanced-assignments-allocation-percentage.png)
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Modifier le pourcentage d’allocation](assets/advanced-assignments-allocation-percentage.png)
 
 1. Cliquer sur **Enregistrer**.

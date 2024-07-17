@@ -2,23 +2,23 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Téléchargement de documents et de BAT depuis le [!DNL Adobe Workfront plugin] au [!DNL Creative Cloud]
-description: Téléchargement de documents et de BAT depuis le [!DNL Adobe Workfront plugin] au [!DNL Creative Cloud]
+title: Charger des documents et des épreuves à partir du  [!DNL Adobe Workfront plugin]  sur  [!DNL Creative Cloud]
+description: Charger des documents et des épreuves à partir du  [!DNL Adobe Workfront plugin]  sur  [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 67952bf88a782595e13e559bfbc14ce1c622d432
+exl-id: 88870441-8895-477c-9409-f2c33654545a
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
+# Télécharger des documents et des bons à tirer de [!DNL Adobe Workfront plugin] vers le [!DNL Creative Cloud]
 
-# Téléchargement de documents et de BAT depuis le [!DNL Adobe Workfront plugin] au [!DNL Creative Cloud]
-
-Vous pouvez télécharger vos projets sous la forme de documents pour un examen et une approbation rapides ou simplement les stocker dans [!DNL Adobe Workfront].
+Vous pouvez télécharger vos projets sous forme de documents pour une révision et une approbation rapides ou simplement pour les stocker dans [!DNL Adobe Workfront].
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Cette section décrit les limites connues des documents dans [!DNL Workfront for
 
 ### Les nouvelles versions de document n’acceptent qu’un seul fichier pour le chargement
 
-Parce que [!DNL Workfront] Les documents ne peuvent pas contenir plusieurs fichiers. Certains paramètres doivent être désactivés pour télécharger de nouvelles versions de documents vers Workfront.
+Étant donné que les documents [!DNL Workfront] ne peuvent pas contenir plusieurs fichiers, certains paramètres doivent être désactivés pour télécharger de nouvelles versions de documents vers Workfront.
 
 >[!NOTE]
 >
@@ -39,9 +39,9 @@ Parce que [!DNL Workfront] Les documents ne peuvent pas contenir plusieurs fichi
 
 
 
-Pour rétablir un fichier unique dans [!DNL InDesign]:
+Pour restaurer votre commutateur en un seul fichier dans [!DNL InDesign] :
 
-1. Ouvrez le **Définition des paramètres d’exportation de fichier** de la boîte de dialogue
+1. Ouvrez la boîte de dialogue **Définir les paramètres du fichier d’exportation** .
 
    ![](assets/file-export-settings.png)
 
@@ -51,19 +51,19 @@ Pour rétablir un fichier unique dans [!DNL InDesign]:
     <tr>
     <td><strong>PDF et PDF-PRINT</strong>
     </td>
-    <td>Désélectionner <strong>Création de fichiers de PDF distincts</strong>.
+    <td>Désélectionnez <strong>Créer des fichiers de PDF distincts</strong>.
     </td>
     </tr>
     <tr>
     <td><strong>EPS</strong>
     </td>
-    <td>Sélectionner <strong>Plages</strong> et saisissez un numéro de page unique. 
+    <td>Sélectionnez <strong>Plages</strong> et saisissez un numéro de page unique. 
     <p>
-    <strong>Remarque</strong>: Si vous souhaitez télécharger le document complet, vous devez créer un BAT. 
+    <strong>Remarque</strong> : si vous souhaitez télécharger le document complet, vous devez créer un BAT. 
     </td>
     </tr>
     <tr>
-    <td><strong>L'EPUB et l'EPUB</strong>
+    <td><strong>EPUB et EPUB-FIXED</strong>
     </td>
     <td>Aucun ajustement n’est nécessaire.
     </td>
@@ -77,17 +77,17 @@ Pour rétablir un fichier unique dans [!DNL InDesign]:
     <tr>
     <td><strong>JPG</strong>
     </td>
-    <td>Sélectionner <strong>Plages</strong> et saisissez un numéro de page unique. 
+    <td>Sélectionnez <strong>Plages</strong> et saisissez un numéro de page unique. 
     <p>
-    <strong>Remarque</strong>: Si vous souhaitez télécharger le document complet, vous devez créer un BAT. 
+    <strong>Remarque</strong> : si vous souhaitez télécharger le document complet, vous devez créer un BAT. 
     </td>
     </tr>
     <tr>
     <td><strong>PNG</strong>
     </td>
-    <td>Sélectionner <strong>Plages</strong> et saisissez un numéro de page unique. 
+    <td>Sélectionnez <strong>Plages</strong> et saisissez un numéro de page unique. 
     <p>
-    <strong>Remarque</strong>: Si vous souhaitez télécharger le document complet, vous devez créer un BAT. 
+    <strong>Remarque</strong> : si vous souhaitez télécharger le document complet, vous devez créer un BAT. 
     </td>
     </tr>
     <tr>

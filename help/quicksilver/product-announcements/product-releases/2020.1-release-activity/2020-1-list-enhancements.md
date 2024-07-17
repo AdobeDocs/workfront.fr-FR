@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: Améliorations de la liste 2020.1
+title: Améliorations des listes (version 2020.1)
 description: Cette page décrit toutes les améliorations apportées aux listes avec la version 2020.1. Ces améliorations sont actuellement disponibles dans l’environnement Aperçu et seront disponibles dans l’environnement Production à la fin du mois de mars ou au début du mois d’avril 2020.
 author: Luke
 feature: Product Announcements
@@ -10,15 +10,15 @@ exl-id: efe05da7-ec25-4fbd-a7f9-645364d3e2a8
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Améliorations de la liste 2020.1
+# Améliorations des listes (version 2020.1)
 
 Cette page décrit toutes les améliorations apportées aux listes avec la version 2020.1. Ces améliorations sont actuellement disponibles dans l’environnement Aperçu et seront disponibles dans l’environnement Production à la fin du mois de mars ou au début du mois d’avril 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.1, voir [Présentation de la version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.1, consultez la [présentation de la version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Nouveau mode d’enregistrement lors des modifications dans une liste de tâches : mode Planning
 
@@ -30,7 +30,7 @@ Tenez compte des avantages suivants lorsque vous utilisez le mode Planification 
 * L’envoi de chaque modification est plus rapide que lors de l’utilisation des modes d’enregistrement automatique ou manuel.
 * Vous pouvez annuler vos modifications avant de les enregistrer.
 
-Pour plus d’informations sur l’enregistrement des modifications dans une liste de tâches, voir la section &quot;Modifier les tâches à l’aide du paramètre de planification de la chronologie&quot; de l’article. [Editer les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Pour plus d’informations sur l’enregistrement des modifications dans une liste de tâches, voir la section &quot;Modifier les tâches à l’aide du paramètre de planification de la chronologie&quot; dans l’article [Modifier les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 ## Mise à jour de l’aspect des nouvelles listes
 
@@ -54,7 +54,7 @@ Voici quelques mises à jour :
 
 Vous pouvez maintenant voir plus clairement la différenciation entre plusieurs couches de regroupements dans des listes avec un nouveau jeu de couleurs. Les résultats du groupement sont également décrits plus clairement dans un cadre distinct. Cette modification a été appliquée à toutes les nouvelles listes.
 
-Pour plus d’informations sur la création et la personnalisation de regroupements, voir [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Pour plus d’informations sur la création et la personnalisation des groupements, voir [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Mettre en surbrillance les éléments correspondants dans les listes lors de l’utilisation des filtres rapides
 
@@ -66,7 +66,7 @@ Pour plus d’informations sur l’utilisation des filtres rapides, voir [Prise 
 
 Vous pouvez désormais utiliser un niveau d’accès pour limiter la possibilité pour les utilisateurs de modifier les contrôles Filtrer, Afficher et Groupement sur les listes et les rapports. Cela s’avère utile si vous disposez de champs personnalisés que vous souhaitez afficher uniquement pour les utilisateurs à un certain niveau d’accès.
 
-Pour plus d’informations, voir [Accorder l’accès aux filtres, vues et regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+Pour plus d’informations, voir [Accorder l’accès aux filtres, aux vues et aux regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 ## Nouveau menu dans la zone Mises à jour
 
@@ -76,13 +76,13 @@ Utilisez le menu Plus lors d’une mise à jour pour :
 * Copier le lien direct vers un thread de mise à jour ou une seule mise à jour
 * Supprimer une mise à jour
 
-Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations, consultez la section [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Nouvelle barre de progression dans la zone Mises à jour
 
 La barre de progression du pourcentage de progression dans la zone des mises à jour a un nouvel aspect. Cliquez et faites glisser pour mettre à jour le pourcentage, ou double-cliquez pour saisir manuellement le nombre.
 
-Pour plus d’informations, voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations, consultez la section [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Afficher les en-têtes de colonne des listes et des rapports en cas de phrase
 

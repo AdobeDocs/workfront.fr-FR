@@ -26,12 +26,12 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Plan Workfront</a>*</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences héritées</a>*</td> 
-   <td> <p>Vous devez être un administrateur Workfront. Pour plus d’informations sur les administrateurs Workfront, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur Workfront. Pour plus d’informations sur les administrateurs de Workfront, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès d’administration complet à un utilisateur</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,7 +42,7 @@ Vous devez disposer des éléments suivants :
 
 1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 1. Dans le panneau de gauche, cliquez sur **Système** > **Informations sur le client**.
-1. Dans le **Informations de base** , rechercher **Quota de stockage**. Ici, vous pouvez afficher le volume de stockage que vous utilisez actuellement, ainsi que le volume total de stockage inclus dans votre forfait Workfront.
+1. Dans la section **Informations de base**, recherchez **Quota de stockage**. Ici, vous pouvez afficher le volume de stockage que vous utilisez actuellement, ainsi que le volume total de stockage inclus dans votre forfait Workfront.
 
 Le quota de stockage est actualisé quotidiennement pour afficher le nombre le plus récent.
 

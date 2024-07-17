@@ -11,7 +11,7 @@ exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
 source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 7%
+ht-degree: 42%
 
 ---
 
@@ -25,7 +25,7 @@ En tant qu’administrateur Adobe Workfront, vous pouvez créer des statuts pers
 
 >[!NOTE]
 >
->Les administrateurs de groupe peuvent également créer leurs propres états de groupe, à utiliser uniquement par leurs groupes. Pour plus d’informations, voir [Création ou modification d’un état de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>Les administrateurs de groupe peuvent également créer leurs propres états de groupe, à utiliser uniquement par leurs groupes. Pour plus d’informations, voir [Création ou modification de l’état d’un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
 ## Conditions d’accès
 
@@ -44,14 +44,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-     <p>Nouveau : Standard</p>
+     <p>Nouvelle : standard</p>
      <p>ou</p>
-     <p>Actuel : formule</p>
+     <p>Actuelle : formule</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p>  </td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,13 +64,13 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 Vous pouvez ajouter un état personnalisé à utiliser par l’ensemble de votre organisation ou par un seul groupe.
 
-Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation, vous pouvez le configurer afin que tous les groupes du système puissent l’utiliser sans le modifier. Vous pouvez également le configurer afin que les administrateurs de groupe puissent le modifier pour leurs groupes, comme expliqué à la section [Création ou modification d’un état de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation, vous pouvez le configurer afin que tous les groupes du système puissent l’utiliser sans le modifier. Vous pouvez également le configurer afin que les administrateurs de groupe puissent le modifier pour leurs groupes, comme expliqué dans la section [Créer ou modifier un état de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]** ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
 
-1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **Statuts**.
+1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **États**.
 
-1. (Conditionnel) Si vous créez ou modifiez un état pour l’utiliser à l’échelle du système, assurez-vous que **États du système** est sélectionné dans la zone située dans le coin supérieur droit.
+1. (Conditionnel) Si vous créez ou modifiez un état pour l’utiliser à l’échelle du système, assurez-vous que l’option **États du système** est sélectionnée dans la zone située dans le coin supérieur droit.
 
    ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
@@ -80,13 +80,13 @@ Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche**, ou **Problèmes**) que vous souhaitez associer à l’état .
+1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche** ou **Problèmes**) que vous souhaitez associer au statut.
 
 1. Si vous créez un état, cliquez sur **Ajouter un nouvel état**.
 
    Ou
 
-   Si vous modifiez un état existant, passez la souris dessus, puis cliquez sur le bouton **Modifier** qui s’affiche à l’extrême droite.
+   Si vous modifiez un état existant, passez la souris dessus, puis cliquez sur l’icône **Modifier** qui s’affiche à l’extrême droite.
 
    ![](assets/custom-status-edit.png)
 
@@ -98,27 +98,27 @@ Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation
     <tbody> 
      <tr> 
       <td role="rowheader">Nom du statut</td> 
-      <td> <p>Saisissez le nom de l’état. Champ obligatoire.</p> <p>Lorsque vous créez un nom d’état, sachez que d’autres utilisateurs du système peuvent créer un état portant le même nom. Il est recommandé d’utiliser un nom unique afin d’éviter toute confusion lors de la sélection d’états dans Workfront.</p> </td> 
+      <td> <p>Saisissez un nom pour ce modèle... Il s’agit d’un champ obligatoire.</p> <p>Lorsque vous créez un nom de statut, tenez compte du faut que d’autres personnes du système peuvent créer un statut homographe. Il est recommandé d’utiliser un nom unique afin d’éviter toute confusion lors de la sélection de statuts dans Workfront.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
-      <td>(Facultatif) Saisissez une description de l’état. Cela communique son but à ceux qui l'utilisent.</td> 
+      <td>(Facultatif) Fournissez une description du statut. Les personnes qui l’utilisent seront ainsi informées de sa finalité.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Couleur</td> 
-      <td> <p>Personnalisez la couleur de l’état en cliquant sur le champ de couleur et en sélectionnant une couleur dans le panneau d’échantillon. Vous pouvez également saisir un nombre hexadécimal dans le champ.</p> <p>La couleur d’état s’affiche dans le coin supérieur droit de Workfront lorsqu’un utilisateur affiche l’objet.</p> <img src="assets/status-color.png" style="width: 350;height: 211;"> </p> </td> 
+      <td> <p>Personnalisez la couleur du statut en cliquant sur le champ de couleur et en sélectionnant une couleur dans le panneau d’échantillon. Vous pouvez également saisir un nombre hexadécimal dans le champ.</p> <p>La couleur de statut s’affiche dans le coin supérieur droit de Workfront lorsqu’une personne affiche l’objet.</p> <img src="assets/status-color.png" style="width: 350;height: 211;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Équivaut à</td> 
-      <td> <p>Sélectionnez l’une des options de la liste qui décrit le mieux la fonction de l’état. Par exemple, si le nom de l’état est Terminé, l’option à laquelle il correspond doit être Terminé.</p> <p>Chaque état doit correspondre à l’une de ces options, car cela détermine le fonctionnement de l’état.</p> <p>Cette option ne peut pas être modifiée une fois l’état créé.</p> </td> 
+      <td> <p>Sélectionnez l’une des options de la liste qui décrit le mieux la fonction du statut. Par exemple, si le nom du statut est Terminé, l’option à laquelle il correspond doit être Terminé.</p> <p>Chaque statut doit correspondre à l’une de ces options, car cela détermine le fonctionnement du statut.</p> <p>Cette option ne peut pas être modifiée une fois le statut créé.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Clé</td> 
-      <td> <p>Si vous créez un état, saisissez un code ou une abréviation pour le statut ou utilisez celui généré pour vous. Cette clé doit être unique dans Workfront, car elle peut être utilisée à des fins de création de rapports. Si vous essayez de spécifier une clé déjà utilisée dans le système, le champ devient rouge.</p> <p>Il peut s’avérer utile d’utiliser une abréviation reconnaissable par ceux qui l’utiliseront.</p> <p>Cette option ne peut pas être modifiée une fois l’état créé.</p> <p>Vous ne pouvez pas modifier le code clé des états Planification, Actuel et Terminé. Ceci est important si vous créez un rapport en mode texte.</p> </td> 
+      <td> <p>Si vous créez un statut, saisissez un code ou une abréviation pour le statut ou utilisez celui généré pour vous. Cette clé doit être unique dans Workfront, car elle peut être utilisée à des fins de création de rapports. Si vous essayez de spécifier une clé déjà utilisée dans le système, le champ devient rouge.</p> <p>Il peut s’avérer utile d’utiliser une abréviation reconnaissable par les personnes qui l’utiliseront.</p> <p>Cette option ne peut pas être modifiée une fois le statut créé.</p> <p>Vous ne pouvez pas modifier le code clé des statuts Planification, En cours et Terminé. Tenez-en compte lorsque vous créez un rapport en mode texte.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Masquer l’état</td> 
-      <td> <p>(Statuts des projets et des tâches uniquement)</p> <p>Activez cette option si vous souhaitez que l’état soit masqué aux utilisateurs. Lorsque cette option est désactivée (paramètre par défaut), tous les utilisateurs du système peuvent utiliser l’état .</p> <p>Vous pouvez masquer l’état d’un problème en désactivant cette option pour les 4 types de problèmes (rapport de bogues, ordre de modification, problème, requête).</p> </td> 
+      <td role="rowheader">Masquer le statut</td> 
+      <td> <p>(Statuts des projets et des tâches uniquement)</p> <p>Activez cette option si vous souhaitez que l’état soit masqué aux utilisateurs et utilisatrices. Lorsque cette option est désactivée (paramètre par défaut), tous les utilisateurs du système peuvent utiliser l’état .</p> <p>Vous pouvez masquer l’état d’un problème en désactivant cette option pour les 4 types de problèmes (rapport de bogues, ordre de modification, problème, requête).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verrouiller pour tous les groupes</td> 
@@ -134,7 +134,7 @@ Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation
        <li>Un utilisateur commence à modifier un processus d’approbation qui utilise l’état déverrouillé. Un message avertit l’utilisateur de l’état déverrouillé afin qu’il puisse déterminer s’il est préférable de le reverrouiller ou de le remplacer.</li>
        <li>Un processus d’approbation au niveau du système avec un état déverrouillé est associé à un objet et l’état a été supprimé pour le groupe affecté à l’objet. Lorsqu’un membre du groupe accède à la section Validations de l’objet, un message explique que le processus d’approbation ne peut pas être lancé pour l’objet.</li>
        </ul>
-       <p>Pour plus d’informations sur le verrouillage des états, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">États au niveau du système verrouillés et déverrouillés</a>.</p>
+       <p>Pour plus d’informations sur les états de verrouillage, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">États verrouillés et déverrouillés au niveau du système</a>.</p>
        </div>
       </td>
      </tr> 
@@ -143,6 +143,6 @@ Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation
 
 1. Cliquer sur **Enregistrer**.
 
-   Pour plus d’informations sur la définition de ce statut comme statut par défaut, voir [Utilisation d’états personnalisés comme états par défaut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   Pour obtenir des instructions sur la façon de faire de cet état un état par défaut, voir [Utilisation d’états personnalisés comme états par défaut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
 Pour plus d’informations sur la réorganisation des états d’un groupe, voir [Réorganiser les états au niveau du système et du groupe](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

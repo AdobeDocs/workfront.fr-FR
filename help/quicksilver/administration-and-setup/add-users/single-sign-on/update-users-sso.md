@@ -11,7 +11,7 @@ exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
 source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -44,11 +44,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p><p>Ou</p><p>Actuel : formule</p></td> 
+   <td><p>Nouvelle : standard</p><p>Ou</p><p>Actuelle : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p>  </td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,18 +95,18 @@ Vous pouvez commencer à préparer votre fichier d’importation en créant un r
    ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Enregistrez le rapport.
-1. Cliquez sur **Exporter** dans la partie supérieure du rapport et exportez le rapport vers Excel.
+1. Cliquez sur **Exporter** en haut du rapport et exportez le rapport vers Excel.
 1. Ouvrez le fichier Excel exporté et ajoutez vos noms d’utilisateur SSO pour chaque utilisateur du rapport dans la colonne Nom d’utilisateur SSO.
 
    >[!IMPORTANT]
    >
    >Les noms d’utilisateur SSO sont sensibles à la casse.
 
-1. Supprimez toutes les colonnes du fichier Excel, à l’exception des colonnes **ID** et la variable **Nom d’utilisateur SSO** colonnes.
+1. Supprimez toutes les colonnes du fichier Excel, à l’exception des colonnes **ID** et **SSO Username** .
 
 1. Supprimez les en-têtes de colonne et assurez-vous qu’il n’y a aucune ligne vide en haut du rapport.
 
-   Le fichier que vous utilisez pour mettre à jour vos utilisateurs Workfront avec les noms d’utilisateur SSO **must** contenir uniquement 2 colonnes, dans cet ordre :
+   Le fichier que vous utilisez pour mettre à jour vos utilisateurs Workfront avec les noms d’utilisateur SSO **must** ne contient que 2 colonnes, dans cet ordre :
 
    * La première colonne doit afficher l’ID utilisateur Workfront (le GUID utilisateur tel qu’il est défini dans Workfront).
    * La deuxième colonne doit contenir le nom d’utilisateur de l’authentification unique, tel qu’il s’affiche dans votre système d’authentification unique.
@@ -120,9 +120,9 @@ Vous pouvez commencer à préparer votre fichier d’importation en créant un r
 
 Le processus de mise à jour des utilisateurs pour SSO permet d’ajouter le champ Nom d’utilisateur de SSO à vos utilisateurs Workfront s’il n’y en a pas, ou de mettre à jour la valeur de ce champ si une valeur est déjà associée aux utilisateurs.
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur, **Système** puis sélectionnez **Mise à jour des utilisateurs pour la connexion unique**.
+1. Cliquez sur **Système** , puis sélectionnez **Mettre à jour les utilisateurs pour SSO**.
 
 1. Cliquez sur **Choisir un fichier** pour rechercher le fichier que vous avez préparé.
 
@@ -132,11 +132,11 @@ Le processus de mise à jour des utilisateurs pour SSO permet d’ajouter le cha
 
    Cela insère les informations d’identification SSO à Workfront, ce qui permet à tous les utilisateurs de se connecter à Workfront à l’aide de leurs informations d’identification SSO.
 
-   La variable **Autoriser uniquement `<SSO Configuration>` Authentification** est activé pour tous les utilisateurs inclus dans le fichier CSV. Cela garantit que les utilisateurs doivent se connecter via SSO.
+   Le paramètre **Autoriser uniquement l’authentification `<SSO Configuration>`** est activé pour tous les utilisateurs inclus dans le fichier CSV. Cela garantit que les utilisateurs doivent se connecter via SSO.
 
 ## Vérification de l’authentification unique par rapport aux noms d’utilisateur Workfront de vos utilisateurs
 
-Pour obtenir des instructions sur la création d’un rapport utilisateur contenant des informations sur le nom d’utilisateur SSO, voir [Préparation du fichier d’importation](#prepare-the-import-file).
+Pour obtenir des instructions sur la création d’un rapport utilisateur contenant des informations de nom d’utilisateur SSO, voir [Préparation du fichier d’importation](#prepare-the-import-file).
 
 1. Exécutez un rapport utilisateur contenant des informations de nom d’utilisateur SSO.
 
@@ -147,4 +147,4 @@ Pour obtenir des instructions sur la création d’un rapport utilisateur conten
 
    ![](assets/users-with-sso-field-updated.png)
 
-   Pour plus d’informations sur la mise à jour de vos utilisateurs pour SSO, voir [Mise à jour de vos utilisateurs pour la SSO](#update-your-users-for-sso).
+   Pour plus d’informations sur la mise à jour de vos utilisateurs pour SSO, voir [Mise à jour de vos utilisateurs pour SSO](#update-your-users-for-sso).

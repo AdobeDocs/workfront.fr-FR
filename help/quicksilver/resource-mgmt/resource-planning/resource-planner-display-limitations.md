@@ -2,19 +2,19 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: Limites d’affichage de Resource Planner
+title: Limites d’affichage du planificateur de ressources
 description: Pour améliorer les performances, Adobe Workfront limite la quantité d’informations que vous pouvez afficher ainsi que la quantité d’informations que vous pouvez exporter à partir du planificateur de ressources.
 author: Alina
 feature: Resource Management
 exl-id: 12f56f11-59fb-4318-b43a-5ac695ca1e7e
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
 
-# Limites d’affichage de Resource Planner
+# Limites d’affichage du planificateur de ressources
 
 Pour améliorer les performances, Adobe Workfront limite la quantité d’informations que vous pouvez afficher ainsi que la quantité d’informations que vous pouvez exporter à partir du planificateur de ressources.
 
@@ -26,20 +26,20 @@ Nous recommandons ce qui suit pour optimiser les performances lors de l’affich
 
 * Utilisez des filtres pour réduire la quantité d’informations que vous affichez dans le planificateur de ressources et n’afficher que les informations qui vous concernent.
 * Utilisez toutes vos options d’exportation pour réduire la quantité d’informations que vous exportez simultanément et pour vous assurer que vous n’exportez que des informations pertinentes.\
-   Pour plus d’informations sur l’utilisation des filtres et l’exportation d’options dans le planificateur de ressources, voir [Filtrage des informations dans le planificateur de ressources](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  Pour plus d’informations sur l’utilisation des filtres et les options d’exportation dans le planificateur de ressources, voir [Filtrer les informations dans le planificateur de ressources](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
-   Pour plus d’informations sur l’exportation d’informations à partir du planificateur de ressources, voir [Exporter des informations à partir du planificateur de ressources](../../resource-mgmt/resource-planning/export-resource-planner.md).
+  Pour plus d’informations sur l’exportation d’informations à partir du planificateur de ressources, voir [Exporter des informations à partir du planificateur de ressources](../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 La quantité d’informations que vous pouvez afficher ou exporter dépend de la vue appliquée et de l’environnement utilisé pour accéder au planificateur de ressources.
 
-## Limites de la vue Projet
+## Limites de la vue de projet
 
 Tenez compte des points suivants lorsque vous appliquez la vue Projet au planificateur de ressources :
 
 * Vous ne pouvez afficher que les projets que vous avez accès à la gestion.
 * Vous pouvez développer chaque projet pour afficher les rôles qui lui sont associés, ainsi que chaque rôle pour afficher les utilisateurs qui lui sont associés.
 
-   Vous pouvez afficher jusqu’à 300 projets lorsque vous faites défiler la liste jusqu’au bas de la liste, sauf s’il existe plus de 30 000 lignes de projets, de rôles et d’utilisateurs. Vous recevez ensuite un message d’avertissement vous informant que vous avez atteint la limite de 30 000 lignes.
+  Vous pouvez afficher jusqu’à 300 projets lorsque vous faites défiler la liste jusqu’au bas de la liste, sauf s’il existe plus de 30 000 lignes de projets, de rôles et d’utilisateurs. Vous recevez ensuite un message d’avertissement vous informant que vous avez atteint la limite de 30 000 lignes.
 
 * Vous pouvez afficher trois ou quatre périodes à la fois, selon la taille de votre écran.
 
@@ -59,7 +59,7 @@ Tenez compte des points suivants lorsque vous appliquez la vue Rôle au planific
 * Vous pouvez voir jusqu’à 300 rôles lorsque vous faites défiler la liste vers le bas, sauf s’il existe plus de 30 000 lignes de rôles, de projets et d’utilisateurs. Vous recevez ensuite un message d’avertissement vous informant que vous avez atteint la limite de 30 000 lignes pour ce que vous pouvez afficher à l’écran.
 * Vous pouvez développer chaque rôle pour afficher une liste de projets et chaque projet pour afficher une liste des utilisateurs pouvant remplir ces rôles sur les projets.
 
-   20 projets s’affichent par défaut et vous pouvez utiliser l’option Charger plus pour afficher d’autres projets ou faire défiler l’écran sous chaque projet pour charger plus d’utilisateurs.
+  20 projets s’affichent par défaut et vous pouvez utiliser l’option Charger plus pour afficher d’autres projets ou faire défiler l’écran sous chaque projet pour charger plus d’utilisateurs.
 
 * Vous pouvez afficher trois ou quatre périodes, selon la taille de votre écran.
 
@@ -76,15 +76,15 @@ Tenez compte des points suivants lorsque vous appliquez la vue Utilisateur au pl
 * Vous pouvez afficher tous les utilisateurs répondant aux critères suivants :
 
    * Vous avez accès à la vue
-   * Sont principaux
+   * Sont actives
    * Vous êtes connecté au moins une fois.
 
 * Vous pouvez développer chaque utilisateur pour afficher les projets qui lui sont associés, et chaque projet pour afficher les rôles qui lui sont associés.\
-   Les 50 premiers projets et rôles s’affichent par défaut. Vous pouvez utiliser l’option Charger plus pour afficher d’autres projets ou rôles.
+  Les 50 premiers projets et rôles s’affichent par défaut. Vous pouvez utiliser l’option Charger plus pour afficher d’autres projets ou rôles.
 
-   >[!NOTE]
-   >
-   >Si vous avez filtré la liste des utilisateurs par projet, seuls les utilisateurs associés aux projets filtrés peuvent être développés, ainsi que des informations sur l’heure.
+  >[!NOTE]
+  >
+  >Si vous avez filtré la liste des utilisateurs par projet, seuls les utilisateurs associés aux projets filtrés peuvent être développés, ainsi que des informations sur l’heure.
 
 * Vous pouvez voir jusqu’à 2 000 utilisateurs dans l’interface web. Workfront affiche un message d’avertissement lorsque vous atteignez cette limite.
 * Vous pouvez afficher trois ou quatre périodes, selon la taille de votre écran.

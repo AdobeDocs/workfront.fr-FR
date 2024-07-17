@@ -19,7 +19,7 @@ ht-degree: 14%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-Vous pouvez configurer un projet pour permettre aux utilisateurs d’ajouter des problèmes au projet par courrier électronique. Vous pouvez autoriser l’envoi de problèmes par courrier électronique dans un projet uniquement si le projet est désigné comme une file d’attente de requêtes. Pour plus d’informations sur la création d’un projet de file d’attente des demandes, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Vous pouvez configurer un projet pour permettre aux utilisateurs d’ajouter des problèmes au projet par courrier électronique. Vous pouvez autoriser l’envoi de problèmes par courrier électronique dans un projet uniquement si le projet est désigné comme une file d’attente de requêtes. Pour plus d’informations sur la création d’un projet de file d’attente des demandes, voir [Création d’une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Conditions d’accès
 
@@ -80,12 +80,12 @@ Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
 >Nous recommandons que le projet que vous configurez pour recevoir des requêtes par courrier électronique ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
 
 1. Accédez au projet que vous souhaitez activer pour recevoir les problèmes par email.
-1. Cliquez sur **Détails de la file** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus** en premier.
-1. Dans le **Type de file d’attente** zone, sélectionnez **Publish en tant que file d’attente de demande d’aide**.
+1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche. Vous devrez peut-être d’abord cliquer sur **Afficher plus** .
+1. Dans la zone **Queue Type**, sélectionnez **Publish as Help Request Queue**.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Paramètres de la file d’attente des emails** puis sélectionnez **Activer l’entrée de demande par courrier électronique**.
+1. Faites défiler l’écran jusqu’à la zone **Paramètres de la file d’attente des emails**, puis sélectionnez **Activer la prise de demande par courrier électronique**.
 
-1. Saisissez le début de l’adresse électronique dans la zone **Adresse électronique de réception** de la boîte.
+1. Saisissez le début de l’adresse électronique dans la zone **Adresse électronique de réception**.
 
    Vous devez créer une adresse électronique unique. Nous vous recommandons d’utiliser le nom de votre société dans votre adresse électronique de prise en charge.
 
@@ -98,7 +98,7 @@ Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
 
-1. (Facultatif) Sélectionnez le **Transférer tous les problèmes qui ne peuvent pas être envoyés par courrier électronique**, puis saisissez une adresse électronique de transfert dans la zone ci-dessous.
+1. (Facultatif) Sélectionnez **Transférer tous les problèmes qui ne peuvent pas être envoyés par courrier électronique**, puis saisissez une adresse électronique de transfert dans la zone ci-dessous.
 
    Cette adresse électronique reçoit des informations sur les courriers électroniques qui n’ont pas pu être envoyés au projet.
 

@@ -30,7 +30,7 @@ hide: yes
 
 Vous pouvez afficher les enregistrements et leurs champs dans une vue de calendrier, à partir de la page de type enregistrement.
 
-Pour plus d’informations sur les vues de la planification Adobe Workfront et leur gestion, voir [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+Pour plus d’informations sur les vues de planification Adobe Workfront et sur la façon de les gérer, voir [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -88,7 +88,7 @@ Pour plus d’informations sur les vues de la planification Adobe Workfront et l
  </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Gestion de la vue Calendrier {#manage-a-calendar-view}
 
@@ -108,7 +108,7 @@ Tenez compte des points suivants :
 Pour gérer une vue de calendrier :
 
 1. Accédez à la page de type enregistrement pour laquelle vous souhaitez afficher le calendrier.
-1. Créez une vue Calendrier, comme décrit dans l’article [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Créez une vue Calendrier, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/calendar-view-example.png)
 
@@ -117,7 +117,7 @@ Pour gérer une vue de calendrier :
 1. Pour parcourir le calendrier, effectuez l’une des opérations suivantes :
 
    * Cliquez sur les icônes de gauche et de droite ou utilisez le défilement horizontal pour passer d’un calendrier à l’autre.
-   * Cliquez sur **Aujourd&#39;hui** pour centrer le calendrier sur la date du jour.
+   * Cliquez sur **Aujourd’hui** pour centrer le calendrier sur la date d’aujourd’hui.
    * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 
       * Mois

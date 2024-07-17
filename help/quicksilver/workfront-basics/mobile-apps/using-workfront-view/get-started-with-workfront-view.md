@@ -1,31 +1,31 @@
 ---
 product-previous: mobile
 navigation-topic: use-workfront-view
-title: Prise en main de la vue Adobe Workfront
-description: Vous pouvez effectuer le suivi de la progression de vos projets lorsque vous êtes en déplacement en utilisant la variable [!DNL Adobe Workfront] Afficher l’application mobile.
+title: Prise en main d’Adobe Workfront View
+description: Vous pouvez suivre l’avancement de vos projets lorsque vous êtes en déplacement à l’aide de l’application mobile  [!DNL Adobe Workfront] View mobile app.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 0%
+source-wordcount: '295'
+ht-degree: 9%
 
 ---
 
-# Prise en main d’ [!DNL Adobe Workfront View]
+# Prise en main de [!DNL Adobe Workfront View]
 
-Vous pouvez effectuer le suivi de la progression de vos projets lorsque vous êtes en déplacement en utilisant la variable [!DNL Adobe Workfront View] application mobile.
+Vous pouvez suivre la progression de vos projets lorsque vous êtes en déplacement à l’aide de l’application mobile [!DNL Adobe Workfront View].
 
-[!DNL Workfront View] est un outil de création de rapports. Vous ne pouvez pas apporter de modifications ou terminer le travail à l’aide de la variable [!DNL Workfront View] application. Vous pouvez uniquement afficher l’état de vos projets. Il est destiné aux responsables de projet ou de Portfolio, ainsi qu’aux autres parties prenantes du projet, de se connecter à une interface de haut niveau pour surveiller leurs projets.
+[!DNL Workfront View] est un outil de reporting. Vous ne pouvez pas apporter de modifications ou effectuer le travail à l’aide de l’application [!DNL Workfront View]. Vous pouvez uniquement afficher l’état de vos projets. Il est destiné aux responsables de projet ou de Portfolio, ainsi qu’aux autres parties prenantes du projet, de se connecter à une interface de haut niveau pour surveiller leurs projets.
 
-Si vous devez terminer le travail, vous devez utiliser la variable [!DNL Workfront] application mobile disponible sur [!DNL iOS] et [!DNL Android] téléphones.
+Si vous devez terminer le travail, vous devez utiliser l&#39;application mobile [!DNL Workfront] disponible sur les téléphones [!DNL iOS] et [!DNL Android].
 
 ## Périphériques pris en charge et niveaux d’accès
 
-Le [!DNL Workfront View] L’application est prise en charge uniquement pour [!DNL iPads].
+L’application [!DNL Workfront View] est prise en charge uniquement pour [!DNL iPads].
 
-Vous devez disposer de l’accès suivant dans [!DNL Workfront] pour accéder aux informations dans [!DNL Workfront View] et suivez les étapes décrites dans cet article :
+Vous devez disposer de l’accès suivant dans [!DNL Workfront] pour accéder aux informations dans [!DNL Workfront View] et effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,42 +34,42 @@ Vous devez disposer de l’accès suivant dans [!DNL Workfront] pour accéder au
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou version ultérieure</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
+   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Utilisateurs avec [!UICONTROL Demandeur] et [!UICONTROL Externe] Les licences ne peuvent pas accéder [!DNL Workfront] en utilisant la variable [!DNL Workfront View] application mobile.
+Les utilisateurs disposant de licences [!UICONTROL Requestor] et [!UICONTROL External] ne peuvent pas accéder à [!DNL Workfront] à l&#39;aide de l&#39;application mobile [!DNL Workfront View].
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
-## Téléchargez la [!DNL Workfront View] app
+## Téléchargez l’application [!DNL Workfront View]
 
-Vous devez disposer d’un [!DNL Apple Cloud] afin de pouvoir installer des applications sur un [!DNL iPad].
+Vous devez disposer d’un compte [!DNL Apple Cloud] pour pouvoir installer des applications sur un [!DNL iPad].
 
 1. Accédez à App Store sur votre [!DNL iPad].
-1. Rechercher **[!UICONTROL Vue Workfront]**, puis appuyez dessus lorsqu’il apparaît dans la liste.
-1. Appuyez sur le bouton [!UICONTROL téléchargement depuis le cloud] pour installer l’application, puis suivez les étapes pour terminer l’installation.
-1. Appuyer **[!UICONTROL Ouvrir]** pour ouvrir l’application.
+1. Recherchez **[!UICONTROL Vue Workfront]**, puis appuyez dessus lorsqu’il apparaît dans la liste.
+1. Appuyez sur l’icône [!UICONTROL télécharger à partir du cloud] pour installer l’application, puis suivez les étapes pour terminer l’installation.
+1. Appuyez sur **[!UICONTROL Ouvrir]** pour ouvrir l’application.
 
 ## Connectez-vous à [!DNL Workfront View]
 
-1. Accédez au **[!DNL Workfront View]** sur votre [!DNL iPad].\
+1. Accédez à l’application **[!DNL Workfront View]** sur votre [!DNL iPad].\
    ![workfront_view_app_Adobe.png](assets/workfront-view-app-adobe-350x261.png)
 
-1. (Facultatif) Appuyez sur **[!UICONTROL Essayer la démonstration]** pour faire une brève démonstration de l’application.\
-   La démonstration présente des exemples de projets, et non les projets de votre [!DNL Workfront] système.\
+1. (Facultatif) Appuyez sur **[!UICONTROL Essayez la démonstration]** pour faire une brève démonstration de l’application.\
+   La démonstration présente des exemples de projets, et non les projets de votre système [!DNL Workfront].\
    ![[!DNL workfront_view_demo].jpg](assets/workfront-view-demo-350x256.jpg)
 
-1. Spécifiez votre **[!UICONTROL [!DNL Workfront]Nom d’utilisateur]**.
-1. Spécifiez votre **[!UICONTROL [!DNL Workfront]Mot de passe]**.
-1. Spécifiez la variable **[!UICONTROL [!DNL Workfront]URL]** de votre société.
+1. Spécifiez votre **[!UICONTROL [!DNL Workfront]nom d’utilisateur]**.
+1. Indiquez votre **[!UICONTROL [!DNL Workfront]mot de passe]**.
+1. Spécifiez l’ **[!UICONTROL [!DNL Workfront]URL]** de votre société.
 
    L’URL doit être au format suivant : `yourCompanyDomain.my.workfront.com`
 
-1. Appuyer **[!UICONTROL CONNEXION]**.
+1. Appuyez sur **[!UICONTROL LOG IN]**.

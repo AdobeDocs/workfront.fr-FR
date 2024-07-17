@@ -46,19 +46,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Ajout d’une carte ad hoc avec des détails complets
 
-Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront].
+Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Adobe Workfront].
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe] Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe] Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
 1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Ajouter une carte] > [!UICONTROL Nouvelle carte]**.
 
-   La variable [!UICONTROL Détails de la carte] s’affiche.
+   La zone [!UICONTROL Card Details] s’affiche.
 
    >[!NOTE]
    >
-   >Si vous cliquez en dehors du champ Nom , la carte ad hoc est automatiquement enregistrée comme &quot;Sans titre&quot; au bas de la colonne la plus à gauche. Pour quitter sans enregistrer la carte, cliquez sur [!UICONTROL **Annuler**] sans cliquer ailleurs dans le [!UICONTROL Détails de la carte] de la boîte.
+   >Si vous cliquez en dehors du champ Nom , la carte ad hoc est automatiquement enregistrée comme &quot;Sans titre&quot; au bas de la colonne la plus à gauche. Pour quitter sans enregistrer la carte, vous devez cliquer sur [!UICONTROL **Annuler**] sans cliquer ailleurs dans la zone [!UICONTROL Détails de la carte].
 
-1. Dans le **[!UICONTROL Détails de la carte]** ajoutez les informations suivantes :
+1. Dans la zone **[!UICONTROL Card Details]**, ajoutez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -74,11 +74,11 @@ Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Column]</strong> </td> 
-      <td>Sélectionnez la colonne de la carte. Si vous laissez le champ <strong>[!UICONTROL Column]</strong> , la carte est placée dans la première colonne à gauche du panorama.</td>
+      <td>Sélectionnez la colonne de la carte. Si vous laissez le champ <strong>[!UICONTROL Column]</strong> vide, la carte est placée dans la première colonne à gauche du panorama.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
-      <td>Sélectionnez un statut pour la carte. Cliquez sur <strong>[!UICONTROL Mark Complete]</strong> en haut de la carte, l’état devient automatiquement [!UICONTROL Terminé].</td> 
+      <td>Sélectionnez un statut pour la carte. Si vous cliquez sur <strong>[!UICONTROL Marquer comme terminé]</strong> en haut de la carte, l’état devient automatiquement [!UICONTROL Terminé].</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Échéance]</strong></td> 
@@ -98,7 +98,7 @@ Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Connection]</strong> </td>
-      <td>Vous pouvez connecter une carte ad hoc à une [!DNL Workfront] tâche ou problème. Pour plus d’informations, voir "Convertir une carte ad hoc en carte connectée" dans l’article . <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Utilisation de cartes connectées sur les panoramas</a>.</td>
+      <td>Vous pouvez connecter une carte ad hoc à une tâche ou à un problème [!DNL Workfront]. Pour plus d’informations, voir "Convertir une carte ad hoc en carte connectée" dans l’article <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Utiliser des cartes connectées sur les panoramas</a>.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Liste de contrôle]</strong> </td> 
@@ -106,9 +106,9 @@ Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Cliquez dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme. (Les images ne sont pas disponibles dans les commentaires sur les cartes ad hoc.) Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur n’a pas à être membre du panorama.</p><p><strong>REMARQUE :</strong> Actuellement, les utilisateurs balisés dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par courrier électronique.
+      <td><p>Cliquez dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme. (Les images ne sont pas disponibles dans les commentaires sur les cartes ad hoc.) Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur n’a pas à être membre du panorama.</p><p><strong>REMARQUE :</strong> À l’heure actuelle, les utilisateurs balisés dans des commentaires sur des cartes ad hoc ne reçoivent pas de notification par courrier électronique.
       </p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
-      <p>Pour plus d’informations sur les commentaires, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
+      <p>Pour plus d'informations sur les commentaires, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -126,14 +126,14 @@ Une carte ad hoc n’est pas connectée à une tâche dans [!DNL Adobe Workfront
 Vous pouvez ajouter des cartes ad hoc avec un titre uniquement pour remplir rapidement votre panorama.
 
 1. Accédez au panorama auquel vous souhaitez ajouter des cartes.
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** icon ![Ajouter une carte](assets/addicon-spectrum.png) dans la colonne où vous souhaitez ajouter la carte.
+1. Cliquez sur l&#39;icône **[!UICONTROL Ajouter]** ![Ajouter une carte](assets/addicon-spectrum.png) dans la colonne où vous souhaitez ajouter la carte.
 1. Saisissez le nom de la carte et appuyez sur Entrée.
 
    Une autre carte est automatiquement ajoutée sous la nouvelle carte.
 
 1. Continuez à saisir les noms de carte pour ajouter d’autres cartes.
 1. Pour arrêter l’ajout de cartes, cliquez en dehors de la colonne.
-1. Pour ajouter d’autres détails, vous devez modifier la carte. Pour plus d’informations, voir [Modifier une carte existante](#edit-an-existing-card) dans cet article.
+1. Pour ajouter d’autres détails, vous devez modifier la carte. Pour plus d’informations, voir [Modification d’une carte existante](#edit-an-existing-card) dans cet article.
 
 ## Modifier une carte existante {#edit-an-existing-card}
 
@@ -145,6 +145,6 @@ Vous pouvez ajouter des cartes ad hoc avec un titre uniquement pour remplir rapi
 
    Cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Menu Plus]](assets/more-icon-spectrum.png) sur la carte et sélectionnez **[!UICONTROL Modifier]**.
 
-1. Dans le [!UICONTROL Détails de la carte] , mettez à jour les informations selon les besoins, puis cliquez sur **[!UICONTROL Fermer]** pour revenir au panorama.
+1. Dans la zone [!UICONTROL  Card Details], mettez à jour les informations selon les besoins, puis cliquez sur **[!UICONTROL Close]** (Fermer) pour revenir au panorama.
 
    Si des politiques de colonne sont activées pour la mise à jour des valeurs de champ, la modification du statut de la carte déplace automatiquement la carte dans la colonne correspondante. Pour plus d’informations, voir « Définir des paramètres et des politiques de colonne » dans l’article [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 3%
+ht-degree: 18%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 3%
 
 Lorsque vous affichez la liste des formulaires personnalisés de votre entreprise, ainsi que les champs et widgets personnalisés qui y ont été ajoutés, vous pouvez utiliser les options de la barre d’outils pour modifier leurs propriétés, limiter avec qui ils sont partagés, les copier et les supprimer. Vous pouvez également afficher d’autres informations dans les colonnes qui s’affichent, comme les types d’objet auxquels chaque formulaire personnalisé est associé.
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Les étapes de cet article doivent être les suivantes :
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs de Workfront accordent cet accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroi aux utilisateurs un accès administratif à certaines zones</a>.</p> </td> 
+   <td> <p>Accès administratif aux formulaires personnalisés</p> <p>Pour plus d’informations sur la manière dont les administrateurs et administratrices de Workfront accordent cet accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroyer aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,20 +45,20 @@ Les étapes de cet article doivent être les suivantes :
 
 ## Liste et modification de formulaires personnalisés et d’éléments ajoutés à des formulaires personnalisés
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Forms personnalisée**.
+1. Cliquez sur **Formulaires personnalisés**.
 
-   Avec la variable **Forms** sélectionné, tous les formulaires personnalisés de votre organisation sont répertoriés, ainsi que leurs descriptions, les types d’objets qui leur sont associés, le nom des utilisateurs qui les ont créés et s’ils sont actifs ou non dans le système.
+   L’onglet **Forms** étant sélectionné, tous les formulaires personnalisés de votre entreprise sont répertoriés, ainsi que leurs descriptions, les types d’objets qui leur sont associés, les noms des utilisateurs qui les ont créés et s’ils sont actifs ou non dans le système.
 
    Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un formulaire personnalisé dans la liste, reportez-vous aux articles suivants :
 
-   * [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-   * [Partage d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+   * [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Partager un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
    * [Copier un formulaire personnalisé pour en créer un nouveau](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
    * [Suppression ou désactivation d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
-1. Cliquez sur le bouton **Champs** .
+1. Cliquez sur l’onglet **Champs** .
 
    Cet onglet répertorie les champs et widgets personnalisés que les utilisateurs de votre système ont ajoutés aux formulaires personnalisés, ainsi que des informations sur le type de chaque élément, des instructions et des détails sur celui-ci, et une liste des formulaires personnalisés qui le contiennent.
 
@@ -79,7 +79,7 @@ Les étapes de cet article doivent être les suivantes :
    * [Configuration du partage pour les champs et widgets personnalisés](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Supprimer un champ personnalisé ou un widget du système](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
-1. Sélectionnez la variable **Sections** , puis assurez-vous que la variable **Groupe de paramètres** est sélectionné en tant que **Affichage** pour la liste.
+1. Sélectionnez l’onglet **Sections**, puis assurez-vous que **Groupe de paramètres** est sélectionné comme **Vue** pour la liste.
 
    Tous les sauts de section s’affichent dans cette vue, ainsi qu’une liste de formulaires personnalisés contenant chaque saut de section.
 

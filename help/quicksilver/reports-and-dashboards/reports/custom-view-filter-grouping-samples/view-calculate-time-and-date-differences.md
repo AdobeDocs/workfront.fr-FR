@@ -10,7 +10,7 @@ exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
 source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 8%
+ht-degree: 23%
 
 ---
 
@@ -47,17 +47,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : </p><ul><li><p>Contributeur à la modification d’une vue </p></li><li>
-   <p>Standard pour modifier un rapport</p></li></ul><p>Ou</p><p>Actuel :</p><ul><li><p>Demande de modification d’une vue </p></li><li>
-   <p>Prévoir de modifier un rapport</p> </li><ul></td> 
+   <td> <p>Nouveau : </p><ul><li><p>Contributeur à la modification d’une vue </p></li><li>
+   <p>Standard pour modifier un rapport</p></li></ul><p>Ou</p><p>Actuel :</p><ul><li><p>Demander la modification d’une vue </p></li><li>
+   <p>Prévoir la modification d’un rapport</p> </li><ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour la modification d’un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> </td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> </td> 
   </tr>  
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations d’un rapport</p>  </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,16 +73,16 @@ Vous pouvez, par exemple, calculer la différence entre la date de fin planifié
 ![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Accédez à une liste de tâches.
-1. Dans la **Affichage** menu déroulant, cliquez sur **Nouvelle vue**.
+1. Dans le menu déroulant **Vue**, cliquez sur **Nouvelle vue**.
 
-1. Cliquez sur **Ajouter une colonne** et commencez à saisir &quot;Date d’achèvement prévue&quot; dans la variable **Afficher dans cette colonne** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. Cliquez sur **Ajouter la colonne** et commencez à saisir &quot;Date d’achèvement planifiée&quot; dans le champ **Afficher dans cette colonne** , puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-1. Cliquez sur **Ajouter une colonne** et commencez à saisir &quot;Date d’achèvement réelle&quot; dans le champ **Afficher dans cette colonne** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. Cliquez sur **Ajouter la colonne** et commencez à saisir &quot;Date d’achèvement réelle&quot; dans le champ **Afficher dans cette colonne** , puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-1. Cliquez sur **Ajouter une colonne**, puis cliquez sur **Passer en mode Texte**.
+1. Cliquez sur **Ajouter une colonne**, puis sur **Passer en mode Texte**.
 
 1. Pointez sur la zone de mode de texte, puis cliquez sur **Cliquer pour modifier le texte**.
-1. Supprimez le texte que vous trouvez dans la **Mode texte** et remplacez-le par le code suivant :
+1. Supprimez le texte que vous trouvez dans la zone **Text Mode** et remplacez-le par le code suivant :
 
    ```
     displayname=Planned-Actual Completion Date
@@ -93,7 +93,7 @@ Vous pouvez, par exemple, calculer la différence entre la date de fin planifié
     valueformat=HTML
    ```
 
-1. Cliquez sur **Enregistrer**, puis **Enregistrer la vue**.
+1. Cliquez sur **Enregistrer**, puis sur **Enregistrer la vue**.
 
 ## Calcul de la différence entre l’heure et la date du champ sur un objet et d’un autre champ sur un objet parent
 
@@ -103,16 +103,16 @@ Vous pouvez, par exemple, calculer la différence entre la date d’achèvement 
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Accédez à une liste de tâches.
-1. Dans la **Affichage** menu déroulant, cliquez sur **Nouvelle vue**.
+1. Dans le menu déroulant **Vue**, cliquez sur **Nouvelle vue**.
 
-1. Cliquez sur **Ajouter une colonne** et commencez à saisir &quot;Date d’achèvement prévue du projet&quot; ou &quot;Date d’achèvement parente&quot; dans le champ **Afficher dans cette colonne** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. Cliquez sur **Ajouter la colonne** et commencez à saisir &quot;Date d’achèvement prévue du projet&quot; ou &quot;Date d’achèvement parente&quot; dans le champ **Afficher dans cette colonne** , puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-1. Cliquez sur **Ajouter une colonne** et commencez à saisir &quot;Date d’achèvement prévue&quot; dans la variable **Afficher dans cette colonne** puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. Cliquez sur **Ajouter la colonne** et commencez à saisir &quot;Date d’achèvement planifiée&quot; dans le champ **Afficher dans cette colonne** , puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-1. Cliquez sur **Ajouter une colonne**, puis cliquez sur **Passer en mode Texte**.
+1. Cliquez sur **Ajouter une colonne**, puis sur **Passer en mode Texte**.
 
 1. Pointez sur la zone de mode de texte, puis cliquez sur **Cliquer pour modifier le texte**.
-1. Supprimez le texte que vous trouvez dans la **Mode texte** et remplacez-le par l’un des codes suivants :
+1. Supprimez le texte que vous trouvez dans la zone **Text Mode** et remplacez-le par l’un des codes suivants :
 
    * Pour afficher la différence entre la date d’achèvement planifiée du projet et celle de la tâche :
 
@@ -131,4 +131,4 @@ Vous pouvez, par exemple, calculer la différence entre la date d’achèvement 
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Cliquez sur **Enregistrer**, puis **Enregistrer la vue**.
+1. Cliquez sur **Enregistrer**, puis sur **Enregistrer la vue**.

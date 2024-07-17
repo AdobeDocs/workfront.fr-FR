@@ -1,6 +1,6 @@
 ---
-title: 2.2.1 Améliorations de la vérification
-description: 2.2.1 Améliorations de la vérification
+title: Améliorations de la relecture (version 22.1)
+description: Améliorations de la relecture (version 22.1)
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
@@ -9,11 +9,11 @@ exl-id: c76c2dba-1497-414a-8979-712f093efd73
 source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 2.2.1 Améliorations de la vérification
+# Améliorations de la relecture (version 22.1)
 
 Cette page décrit toutes les améliorations de la mise à jour de la version 22.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
 
@@ -25,7 +25,7 @@ in January 2022
 
 la semaine du 17 janvier 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, voir [Présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, consultez la [présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Amélioration des fonctionnalités de vérification pour les réviseurs et les demandeurs
 
@@ -47,7 +47,7 @@ Tous les utilisateurs bénéficient également d’une meilleure connectivité e
 
 Pour plus d’informations, voir
 
-* [Rôles de BAT - Aperçu](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [Présentation des rôles de BAT](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 *  
 
 ## Améliorations de la signature électronique pour les bons à tirer
@@ -56,11 +56,11 @@ Nous avons facilité la signature électronique des bons à tirer pour les utili
 
 >[!IMPORTANT]
 >
->Pour signer électroniquement un BAT avec des informations d’identification SSO, vous devez configurer l’authentification unique dans le Bon à tirer Workfront. Pour plus d’informations sur l’activation de la fonction SSO, voir [Configuration de l’authentification unique pour les utilisateurs du BAT Workfront](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Pour signer électroniquement un BAT avec des informations d’identification SSO, vous devez configurer la connexion unique dans Workfront Proof. Pour plus d’informations sur l’activation de la connexion unique, voir [Configuration de la connexion unique pour les utilisateurs de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
-Auparavant, les utilisateurs devaient utiliser les informations d’identification du bon à tirer Workfront, qui sont différentes de leurs informations d’identification Workfront.
+Auparavant, les utilisateurs devaient utiliser les informations d’identification Workfront Proof, qui sont différentes de leurs informations d’identification Workfront.
 
-Pour plus d’informations, voir [Présentation de la sécurité des BAT](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+Pour plus d’informations, voir [Présentation de la sécurité du BAT](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
 
 ## Mise à niveau de la visionneuse de bureau
 

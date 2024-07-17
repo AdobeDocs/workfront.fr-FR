@@ -9,8 +9,8 @@ role: Developer
 exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 6%
+source-wordcount: '122'
+ht-degree: 13%
 
 ---
 
@@ -32,11 +32,11 @@ Pour inclure l’une des options suivantes, saisissez l’entier correspondant. 
 
 *Toutes les valeurs sont des puissances de 2.
 
-Exemples:
+Exemples :
 
-* Pour effacer la progression lorsque vous copiez le problème, saisissez une `options` valeur de `4`.
+* Pour effacer la progression lorsque vous copiez le problème, saisissez une valeur `options` de `4`.
 
-* Pour effacer la progression et les documents, saisissez une `options` valeur de `132`.
+* Pour effacer à la fois la progression et les documents, saisissez une valeur `options` de `132`.
 
   Effacer la progression = 4
 

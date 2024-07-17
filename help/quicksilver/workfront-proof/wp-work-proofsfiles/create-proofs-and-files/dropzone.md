@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: e66142fa-3b0d-4821-9aa5-040c62f00d62
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Si vous disposez du forfait Enterprise, vous pouvez utiliser la zone de dépôt pour envoyer de nouveaux BAT et de nouvelles versions de BAT à votre compte sans avoir à vous connecter à votre compte.
 
-Lorsque vous soumettez un BAT via la zone de dépôt, il apparaît dans la page Zone de dépôt de votre [!DNL Workfront Proof] compte . De là, vous pouvez l’acheminer vers votre workflow.
+Lorsque vous envoyez un BAT via la zone de dépôt, il apparaît dans la page Zone de dépôt de votre compte [!DNL Workfront Proof]. De là, vous pouvez l’acheminer vers votre workflow.
 
 ## Envoi d’un nouveau BAT via l’URL de zone de dépôt
 
-1. Dans votre navigateur, accédez à l’URL de zone de dépôt unique, comme décrit dans la section [Configuration de la zone de dépôt dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
-1. Entrez votre adresse e-mail.
-1. Cliquez sur **[!UICONTROL Sélection d’un fichier]** ou **[!UICONTROL Capture d’une page web]** et sélectionnez le fichier ou la page web à télécharger.
+1. Dans votre navigateur, accédez à l’URL de zone de dépôt unique, comme décrit dans [Configuration de la zone de dépôt dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
+1. Entrez votre adresse électronique.
+1. Cliquez sur **[!UICONTROL Sélectionner un fichier]** ou **[!UICONTROL Capturer une page web]** et sélectionnez le fichier ou la page web à télécharger.
 
 1. Saisissez le code de sécurité, puis cliquez sur **[!UICONTROL Suivant]**.\
    Une barre de progression vous indique la progression du téléchargement.\
@@ -41,20 +41,20 @@ Lorsque vous soumettez un BAT via la zone de dépôt, il apparaît dans la page 
 
    * Lorsque vous téléchargez un fichier pour la première fois dans la zone de dépôt, le BAT s’affiche sous la forme d’un Brouillon.
    * Une fois l’envoi terminé, le BAT apparaît dans votre zone de dépôt comme Envoyé.
-   * Une fois que le BAT a été activé et déverrouillé, il apparaît dans votre zone de dépôt comme Principal.
+   * Une fois que le BAT a été activé et déverrouillé, il s’affiche dans votre zone de dépôt comme actif.
    * Si le BAT est verrouillé, il s’affiche dans votre zone de dépôt comme verrouillé.
 
 ## Envoi d’une nouvelle version d’un BAT existant via l’URL de zone de dépôt
 
-1. Dans votre navigateur, accédez à l’URL de zone de dépôt unique, comme décrit dans la section [Configuration de la zone de dépôt dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
-1. Entrez votre adresse e-mail.
+1. Dans votre navigateur, accédez à l’URL de zone de dépôt unique, comme décrit dans [Configuration de la zone de dépôt dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
+1. Entrez votre adresse électronique.
 1. Cochez la case pour indiquer que vous téléchargez une nouvelle version d&#39;un BAT existant.\
    Pour plus d’informations sur la création d’une version d’un BAT, voir .
-1. Cliquez sur **[!UICONTROL Sélection d’un fichier]** ou **[!UICONTROL Capture d’une page web]** et sélectionnez le fichier ou la page web à télécharger.
+1. Cliquez sur **[!UICONTROL Sélectionner un fichier]** ou **[!UICONTROL Capturer une page web]** et sélectionnez le fichier ou la page web à télécharger.
 
 1. Saisissez le code de sécurité, puis cliquez sur **[!UICONTROL Suivant]**.\
    Une barre de progression vous indique la progression du téléchargement.\
-   Le bon à tirer Workfront vous envoie un courrier électronique de validation.
+   Workfront Proof vous envoie un courrier électronique de validation.
 
 1. Cliquez sur le lien contenu dans l&#39;email.\
    L’e-mail ouvre la fenêtre Zone de dépôt dans votre navigateur. Le lien contenu dans l&#39;email de notification est valable pendant 24 heures.
@@ -62,7 +62,7 @@ Lorsque vous soumettez un BAT via la zone de dépôt, il apparaît dans la page 
    Dans l&#39;écran suivant, vous pourrez ajouter des détails de BAT.\
    Cette section s’affiche uniquement si elle a été activée dans les paramètres de zone de dépôt.
 
-1. Saisissez les détails, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez les détails, cliquez sur **[!UICONTROL Suivant]**.
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ Lorsque vous soumettez un BAT via la zone de dépôt, il apparaît dans la page 
 
    * Lorsque vous téléchargez un fichier pour la première fois dans la zone de dépôt, le BAT s’affiche sous la forme d’un Brouillon.
    * Une fois l’envoi terminé, le BAT apparaît dans votre zone de dépôt comme Envoyé.
-   * Une fois que le BAT a été activé et déverrouillé, il apparaît dans votre zone de dépôt comme Principal.
+   * Une fois que le BAT a été activé et déverrouillé, il s’affiche dans votre zone de dépôt comme actif.
    * Si le BAT est verrouillé, il s’affiche dans votre zone de dépôt comme verrouillé.
 
 ## Envoi d’un bon à tirer à la zone de dépôt
@@ -101,10 +101,10 @@ Pour activer le BAT :
 1. Accédez au menu déroulant à droite du BAT et cliquez sur **[!UICONTROL Activer]**.
 1. Une fois le BAT activé/déverrouillé :
 
-   * Le statut du BAT passe à Principal.
+   * L’état du BAT passe à Actif.
    * Toute personne ajoutée au BAT recevra un email de notification l’informant qu’elle dispose d’un nouveau BAT à vérifier. (Aucun email n’est envoyé tant que le BAT n’a pas été activé/déverrouillé.)
    * Le BAT peut être traité normalement.
-   * Si l&#39;émetteur s&#39;ajoute également explicitement au BAT, il ne recevra pas d&#39;email New BAT. Pour plus d’informations, voir [Nouvel email de BAT](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+   * Si l&#39;émetteur s&#39;ajoute également explicitement au BAT, il ne recevra pas d&#39;email New BAT. Pour plus d’informations, voir [New BAT email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 ## Gestion de votre zone de dépôt
 
@@ -120,6 +120,6 @@ La page Zone de dépôt facilite la gestion des envois vers votre zone de dépô
 * Développer/réduire le résumé du BAT (8)
 * Sélectionner un BAT (9)
 
-Les options de mise en page, de tri et de filtrage sont les mêmes que dans la variable [!DNL Views] listes. Voir [Gestion des éléments sur la page Vues dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) pour plus d’informations.
+Les options de mise en page, de tri et de filtrage des pages sont les mêmes que dans les listes [!DNL Views]. Pour plus d’informations, voir [Gestion des éléments sur la page des vues dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 ![New_Dropzone_design__Feb_2013_.jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)

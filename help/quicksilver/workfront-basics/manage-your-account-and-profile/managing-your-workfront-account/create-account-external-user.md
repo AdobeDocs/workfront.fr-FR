@@ -1,36 +1,37 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Créer un compte [!DNL Adobe Workfront] en tant qu’utilisateur externe
+title: Créer un compte  [!DNL Adobe Workfront]  en tant qu'utilisateur externe
 description: Vous pouvez être invité à effectuer des tâches dans Workfront, même si vous n’êtes pas membre d’une organisation dans Workfront. Pour ce faire, créez plus facilement un compte dans Workfront.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: a7416559941f826c119438aadc0fb9a04d46d20b
+exl-id: cfe6d7ab-e4c5-41e6-aa93-23133ac543a0
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
 
 ---
 
-# Créez un compte dans [!DNL Adobe Workfront] en tant qu’utilisateur externe
+# Création d’un compte dans [!DNL Adobe Workfront] en tant qu’utilisateur externe
 
-Vous pouvez être invité à afficher ou approuver des éléments dans [!DNL Workfront] même si vous n’êtes pas membre d’un [!DNL Workfront] organisation. Par exemple, vous pouvez être invité à réviser ou approuver des documents. Vous pouvez afficher ou approuver ces éléments plus facilement en créant un compte dans [!DNL Workfront].
+Vous pouvez être invité à afficher ou approuver des éléments dans [!DNL Workfront] même si vous n’êtes pas membre d’une organisation [!DNL Workfront]. Par exemple, vous pouvez être invité à réviser ou approuver des documents. Vous pouvez afficher ou approuver ces éléments plus facilement en créant un compte dans [!DNL Workfront].
 
-Lorsqu’un utilisateur se connecte à [!DNL Workfront] demande que vous examiniez ou approuviez un document, <!--or shares a Workfront object such as a report or Board with you, -->vous recevez un email. Cliquez sur le lien contenu dans le courrier électronique pour accéder directement à l’élément qui a été partagé avec vous.
+Lorsqu&#39;un utilisateur de [!DNL Workfront] vous demande de réviser ou d&#39;approuver un document, <!--or shares a Workfront object such as a report or Board with you, -->vous recevez un courrier électronique. Cliquez sur le lien contenu dans le courrier électronique pour accéder directement à l’élément qui a été partagé avec vous.
 
-Création d’un compte dans [!DNL Workfront] vous permet d’afficher tous les éléments partagés avec vous ou demandés. Sans compte, vous ne pouvez accéder à ces éléments que par le biais de liens d’e-mail individuels.
+La création d’un compte dans [!DNL Workfront] vous permet d’afficher tous les éléments partagés avec vous ou demandés. Sans compte, vous ne pouvez accéder à ces éléments que par le biais de liens d’e-mail individuels.
 
 ## Créer un compte
 
 Vous pouvez créer un compte lors de l’affichage d’une ressource qui a été partagée avec vous.
 
-1. Sur la page Ressource, cliquez sur **Finalisation de la configuration du compte** dans l’en-tête du document.
+1. Sur la page Ressource, cliquez sur **Terminer la configuration du compte** dans l’en-tête du document.
 
-1. Renseignez les **Password** .
+1. Renseignez la section **Mot de passe** .
 
-   Pour plus d’informations, voir [Password](#password).
+   Pour plus d’informations, voir [Mot de passe](#password).
 
-1. (Facultatif) Renseignez la variable **Profil** .
+1. (Facultatif) Renseignez la section **Profil** .
 
    Pour plus d’informations, voir [Profil](#profile).
 

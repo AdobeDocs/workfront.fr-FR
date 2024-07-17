@@ -1,5 +1,5 @@
 ---
-title: Partage des autorisations financières sur un objet
+title: Partager les autorisations financières sur un objet
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Votre administrateur Adobe Workfront peut vous accorder l’accès à l’affichage ou à la modification de données financières lors de l’attribution de votre niveau d’accès. Pour plus d’informations, voir Octroi de l’accès aux données financières.
@@ -8,22 +8,22 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 3%
+source-wordcount: '566'
+ht-degree: 23%
 
 ---
 
-# Partage des autorisations financières sur un objet
+# Partager les autorisations financières sur un objet
 
 {{highlighted-preview}}
 
-Votre administrateur Adobe Workfront peut vous accorder l’accès à l’affichage ou à la modification de données financières lors de l’attribution de votre niveau d’accès. Pour plus d’informations, voir [Accorder l&#39;accès aux données financières](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Votre administrateur Adobe Workfront peut vous accorder l’accès à l’affichage ou à la modification de données financières lors de l’attribution de votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Outre le niveau d’accès que les utilisateurs reçoivent, vous pouvez leur accorder des autorisations d’ Affichage ou de Gestion des finances pour des projets, tâches ou problèmes spécifiques que vous avez accès au partage.
 
-Pour plus d’informations sur ce que les utilisateurs de chaque niveau d’accès peuvent faire avec les données financières, voir la section [Données financières](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) dans l’article [Fonctionnalités disponibles pour chaque type d’objet](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Pour plus d’informations sur ce que les utilisateurs de chaque niveau d’accès peuvent faire avec les données financières, reportez-vous à la section [Données financières](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) de l’article [Fonctionnalité disponible pour chaque type d’objet](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
 <!--drafted for P&P:
 
@@ -61,62 +61,62 @@ Vous devez disposer des éléments suivants pour partager des informations de do
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage ou accès supérieur à Projets, tâches, problèmes et données financières</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Affichage ou accès supérieur à Projets, tâches, problèmes et données financières</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage des autorisations ou des autorisations supérieures pour les projets, les tâches et les problèmes qui incluent au moins les autorisations Afficher les autorisations Finance</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Affichage des autorisations ou des autorisations supérieures pour les projets, les tâches et les problèmes qui incluent au moins les autorisations Afficher les autorisations Finance</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Partage d’un objet et octroi d’autorisations financières
 
 Tenez compte des points suivants lors de l’octroi d’autorisations financières aux objets :
 
-* Vous pouvez accorder des autorisations financières à des projets, tâches, problèmes, <span class="preview">et cartes de taux</span>.
-* Les autorisations peuvent être héritées : si vous disposez des autorisations Afficher le financement pour un projet, vous héritez automatiquement des autorisations Afficher le financement pour les tâches et les problèmes du projet.
+* Vous pouvez accorder des autorisations financières à des projets, des tâches, des problèmes, des <span class="preview"> et des cartes de taux </span>.
+* Les autorisations peuvent être héritées : si vous disposez des autorisations View Finance pour un projet, vous héritez automatiquement des autorisations View Finance pour les tâches et les problèmes du projet.
 
 Pour accorder des autorisations financières à un objet :
 
 1. Accédez à une tâche, à un projet ou à un problème que vous souhaitez partager avec d’autres personnes.
-1. Près du nom de l’objet, cliquez sur le menu Plus ![](assets/more-icon.png), puis cliquez sur **Partage**.
+1. Près du nom de l’objet, cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Partage**.
 
-1. Dans le **Give `<Object name>` accès à** commencez à saisir le nom d’un utilisateur, d’une équipe, d’un rôle, d’un groupe ou d’une société avec lequel vous souhaitez partager l’objet.
+1. Dans le champ **Accorder l’accès à `<Object name>`, commencez à saisir le nom d’un utilisateur, d’une équipe, d’un rôle, d’un groupe ou d’une société avec laquelle vous souhaitez partager l’objet.**
 
    >[!TIP]
    >
-   >Vous pouvez partager un objet uniquement avec des utilisateurs, équipes, rôles ou entreprises principaux.
+   >Vous pouvez partager un objet uniquement avec des utilisateurs, des équipes, des rôles ou des entreprises actifs.
 
 1. Si un menu déroulant s’affiche à droite du nom que vous avez sélectionné, cliquez sur l’une des options suivantes disponibles :
 
-   * **L&#39;afficher**
-   * **Y contribuer**
-   * **Le gérer**
+   * **Afficher**
+   * **Contribute to it**
+   * **Gérer**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. Dans le même menu déroulant, cliquez sur **Paramètres avancés**, puis effectuez l’une des opérations suivantes :
 
-   * Si vous avez sélectionné l’une des trois options de l’étape précédente, veillez à **Afficher Finance** est sélectionnée.
-   * Si vous avez sélectionné **Gérer les finances** à l’étape précédente, veillez à **Gérer les finances** est sélectionnée.
+   * Si vous avez sélectionné l’une des trois options de l’étape précédente, assurez-vous que l’option **Afficher la finance** est sélectionnée.
+   * Si vous avez sélectionné **Gérer les finances** à l’étape précédente, assurez-vous que l’option **Gérer les finances** est sélectionnée.
 
 1. Cliquer sur **Enregistrer**.
 
 ## Autorisation financière pour tous les niveaux de partage
 
-Le tableau suivant affiche les autorisations financières obtenues par les utilisateurs lorsque vous leur accordez des autorisations Afficher, Contribuer ou Gérer sur des objets : 
+Le tableau suivant affiche les autorisations financières obtenues par les utilisateurs lorsque vous leur accordez des autorisations Afficher, Contribute ou Gérer sur des objets : 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -127,7 +127,7 @@ Le tableau suivant affiche les autorisations financières obtenues par les utili
   <tr> 
    <th><strong>Actions</strong> </th> 
    <th><strong>Gérer</strong> </th> 
-   <th><strong>Contribuer</strong> </th> 
+   <th><strong>Contribute</strong> </th> 
    <th><strong>Afficher</strong> </th> 
   </tr> 
  </thead> 
@@ -157,7 +157,7 @@ Le tableau suivant affiche les autorisations financières obtenues par les utili
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Gestion des cartes de taux</span></td> 
+   <td><span class="preview">Gérer les cartes tarifaires</span></td> 
    <td>✓</td> 
    <td> <p> </p> </td> 
    <td> </td> 
@@ -169,7 +169,7 @@ Le tableau suivant affiche les autorisations financières obtenues par les utili
    <td> ✓</td> 
   </tr>
   <tr> 
-   <td>Affichage des informations par coût dans les outils de planification des ressources</td> 
+   <td>Afficher des informations par coût dans les outils de planification des ressources</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -191,4 +191,4 @@ Le tableau suivant affiche les autorisations financières obtenues par les utili
 
 &#42;Nécessite un accès supplémentaire à la gestion des ressources.
 
-Pour plus d’informations sur l’accès à Resource Management, voir [Accorder l’accès à la gestion des ressources](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Pour plus d’informations sur l’accès à Resource Management, voir [Accorder l’accès à Resource Management](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).

@@ -1,5 +1,5 @@
 ---
-title: Partage d’un document
+title: Partager un document
 content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
@@ -9,12 +9,12 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 4%
+source-wordcount: '616'
+ht-degree: 10%
 
 ---
 
-# Partage d’un document
+# Partager un document
 
 Votre administrateur Adobe Workfront permet aux utilisateurs d’afficher ou de modifier des documents lorsqu’ils attribuent des niveaux d’accès, comme expliqué dans la section [Accorder l’accès aux documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -42,19 +42,19 @@ Outre les considérations ci-dessous, reportez-vous également à la section [Pr
 
 * Vous pouvez également partager un document publiquement ou à l’échelle du système.
 
-   >[!CAUTION]
-   >
-   >Nous vous recommandons d’être prudent lors du partage d’un objet contenant des informations confidentielles avec des utilisateurs externes. Cela leur permet d’afficher des informations sans être un utilisateur Workfront ou un membre de votre entreprise.
+  >[!CAUTION]
+  >
+  >Nous vous recommandons d’être prudent lors du partage d’un objet contenant des informations confidentielles avec des utilisateurs externes. Cela leur permet d’afficher des informations sans être un utilisateur Workfront ou un membre de votre entreprise.
 
 * Vous pouvez partager un document avec une personne qui ne dispose pas d’un compte Workfront en ajoutant son adresse électronique dans le champ Accorder l’accès au document .
 * Lorsque vous partagez un document, les utilisateurs ont le même accès à toutes les versions de document et à tous les BAT de document.\
-   Pour plus d’informations sur la vérification dans Workfront, voir [Vérification](../../review-and-approve-work/proofing/proofing.md) .
+  Pour plus d’informations sur la vérification dans Workfront, consultez la section [Vérification](../../review-and-approve-work/proofing/proofing.md) .
 
 * Vous pouvez hériter des autorisations de documents des objets auxquels ils sont associés. Votre administrateur Workfront peut restreindre l’héritage des autorisations pour les documents de votre niveau d’accès.
 
-   Pour plus d’informations sur la restriction des autorisations héritées sur les documents, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Pour plus d’informations sur la limitation des autorisations héritées sur les documents, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-   Vous pouvez supprimer manuellement les autorisations héritées sur les documents. Pour plus d’informations, voir [Suppression des autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+  Vous pouvez supprimer manuellement les autorisations héritées sur les documents. Pour plus d’informations, voir [Suppression des autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * Un document joint hérite uniquement des autorisations de l’objet auquel il a été joint. Si vous créez un dossier sur l’objet et que vous déplacez le document dans le dossier, il hérite des autorisations du dossier. Cependant, si vous créez un dossier sur un objet parent ou grand-parent et que vous déplacez le document dans ce dossier, il n’hérite pas des autorisations de ce dossier.
 
@@ -90,7 +90,7 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Télécharger</td> 
+   <td scope="row">Téléchargement</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -135,7 +135,7 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Chargement d’une nouvelle version</td> 
+   <td scope="row">Charger une nouvelle version</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -145,27 +145,27 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Afficher le ou les documents</td> 
+   <td scope="row">Afficher le(s) document(s)</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Aperçu</td> 
+   <td scope="row">Prévisualiser</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Épreuve**</td> 
+   <td scope="row">Bon à tirer**</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Créer une épreuve**</td> 
+   <td scope="row">Générer un bon à tirer**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Supprimer l'épreuve**</td> 
+   <td scope="row">Supprimer le bon à tirer**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -175,12 +175,12 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Partager sur le système*</td> 
+   <td scope="row">Partager à l’échelle du système*</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Partager les documents publiquement*</td> 
+   <td scope="row">Partager des documents publiquement*</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -200,12 +200,12 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Lien (avec intégration)</td> 
+   <td scope="row">Lier (avec intégration)</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Dissocier (avec intégration)</td> 
+   <td scope="row">Annuler le lien (avec intégration)</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -214,4 +214,4 @@ Le tableau suivant indique les autorisations que vous pouvez accorder aux utilis
 
 &#42; L’action est partagée par les documents et les dossiers de document.
 
-&#42;&#42; Pour pouvoir BAT de documents, une licence de vérification distincte doit être associée à votre compte Workfront. Contactez votre gestionnaire de compte au sujet de l’acquisition d’une licence de vérification. Pour plus d’informations sur la vérification dans Workfront, voir [Vérification](../../review-and-approve-work/proofing/proofing.md).
+&#42;&#42; Une licence de vérification distincte doit être associée à votre compte Workfront pour pouvoir BAT de documents. Contactez votre gestionnaire de compte au sujet de l’acquisition d’une licence de vérification. Pour plus d’informations sur la vérification dans Workfront, voir [Vérification](../../review-and-approve-work/proofing/proofing.md).

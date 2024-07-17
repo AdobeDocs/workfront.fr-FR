@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -42,7 +42,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td> <p>Licence Adobe Workfront*</p> </td> 
    <td> <p>Licence actuelle : formule </p> 
    Ou
-   <p>Nouvelle licence : Standard </p>
+   <p>Nouvelle licence : standard </p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -56,24 +56,24 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Comprendre le processus de suppression de projets
 
-* [Restrictions relatives à la suppression de projets](#limitations-for-deleting-projects)
+* [Limites de suppression de projets](#limitations-for-deleting-projects)
 * [Impact de la suppression de projets](#the-impact-of-deleting-projects)
 
 ### Restrictions relatives à la suppression de projets  {#limitations-for-deleting-projects}
 
 * Les éléments supprimés restent dans la Corbeille pendant 30 jours et ne peuvent être récupérés que par l’administrateur de Workfront.
 
-  Pour plus d’informations sur la restauration d’objets, voir l’article [Restauration des éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Pour plus d’informations sur la restauration d’objets, voir l’article [Restaurer les éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 * Si le projet comporte des tâches ou des problèmes avec les heures enregistrées, l’administrateur de Workfront ou de groupe doit autoriser la suppression de ces tâches en configurant les préférences de tâche et de problème dans votre instance Workfront pour que vous puissiez supprimer le projet qui contient les tâches.
 
-  Pour plus d’informations sur l’activation de la suppression de tâches, de problèmes ou de projets pour lesquels des heures sont enregistrées, voir la section &quot;Suppression&quot; dans [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Pour plus d’informations sur l’activation de la suppression de tâches, de problèmes ou de projets pour lesquels des heures sont consignées, consultez la section &quot;Suppression&quot; de la section [Configuration de la tâche à l’échelle du système et des préférences d’émission](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -109,7 +109,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * Les heures restent sur la feuille de temps comme heure générale.
    * Les heures sont supprimées et seront restaurées si le projet est un jour restauré.
 
-  Pour plus d’informations sur la configuration des préférences de suppression pour les heures de connexion aux problèmes, voir [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Pour plus d’informations sur la configuration des préférences de suppression pour les heures de connexion aux problèmes, voir [ Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * Si le projet que vous supprimez est lié à une initiative dans le planificateur de scénario Workfront :
 
@@ -117,9 +117,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * Si le projet que vous supprimez est lié à la seule initiative publiée d’un plan, l’indication que le plan a été publié est également supprimée.
    * Si vous récupérez un projet supprimé, le projet est récupéré, mais son lien avec l’initiative n’est pas restauré et la zone du planificateur de scénario ne s’affiche plus dans les détails du projet.
 
-     Le planificateur de scénario nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+     Le planificateur de scénario nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
-     Pour plus d’informations sur les projets liés aux initiatives dans le planificateur de scénario, voir [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
+     Pour plus d’informations sur les projets liés aux initiatives dans le planificateur de scénario, voir [Mise à jour ou création de projets en publiant des initiatives dans le planificateur de scénario](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 * Si le projet est également une activité pour un objectif dans les objectifs de Workfront :
 
@@ -127,25 +127,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Si vous récupérez le projet supprimé, le projet est également restauré en tant qu’activité de l’objectif.
 
-     Cela nécessite une licence supplémentaire. Pour plus d’informations sur les objectifs de Workfront, voir [Présentation des objectifs d’Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     Cela nécessite une licence supplémentaire. Pour plus d’informations sur les objectifs Workfront, voir [Présentation des objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     Pour plus d’informations sur l’association de projets à des objectifs, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     Pour plus d’informations sur l’association de projets à des objectifs, voir [Ajout de projets à des objectifs dans les objectifs Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Supprimer un projet dans une liste
 
 Vous pouvez supprimer des projets d’une liste de projets.
 
 1. Accédez à une liste de projets ou à un rapport de projet.
-1. Sélectionnez le ou les projets que vous souhaitez supprimer, puis cliquez sur le bouton **Supprimer** icon ![](assets/delete-icon.png) en haut de la liste.
+1. Sélectionnez le ou les projets que vous souhaitez supprimer, puis cliquez sur l’icône **Supprimer** ![](assets/delete-icon.png) en haut de la liste.
 
-1. Cliquez sur **Oui, la supprimer** pour confirmer la suppression.
+1. Cliquez sur **Oui, Supprimer** pour confirmer la suppression.
 
    Les projets sont supprimés et stockés dans la Corbeille pendant 30 jours. Votre administrateur Workfront peut alors restaurer les projets supprimés de la Corbeille.
 
 ## Suppression d’un projet au niveau du projet
 
 1. Accédez au projet que vous souhaitez supprimer.
-1. Cliquez sur le bouton **Plus** icon ![](assets/qs-more-menu.png) à droite du nom du projet, puis cliquez sur **Supprimer le projet**.
+1. Cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) à droite du nom du projet, puis cliquez sur **Supprimer le projet**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 
@@ -155,4 +155,4 @@ Vous pouvez supprimer des projets d’une liste de projets.
 
 ## Restauration des projets supprimés
 
-Un administrateur système ou de groupe peut restaurer les projets dans les 30 jours suivant leur suppression, comme décrit dans l’article . [Restauration des éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Un administrateur système ou de groupe peut restaurer les projets dans les 30 jours qui suivent leur suppression, comme décrit dans l’article [Restaurer les éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

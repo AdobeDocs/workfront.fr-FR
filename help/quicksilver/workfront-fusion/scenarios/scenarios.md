@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 93%
+source-wordcount: '140'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,6 @@ Cette section contient les articles suivants :
 * [Vue d’ensemble d’[!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-overview.md)
 * [Créez un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)
 * [L’éditeur de scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)
-* [Paramètres de scénario de base dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/basic-scenario-settings.md)
 * [Le panneau des paramètres de scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)
 * [Détails du scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md)
 * [Flux d’exécution du scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md)
@@ -44,5 +43,5 @@ Cette section contient les articles suivants :
 * [Exemple de scénario [!DNL Adobe Workfront Fusion] : connecter l’adresse e-mail, l’[!UICONTROL analyseur de texte] et  [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Restaurer une version de scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Copier des modules ou des scénarios dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-* [Mise à jour d’un module vers une nouvelle version d’une [!DNL Adobe Workfront Fusion] scenario](../../workfront-fusion/scenarios/update-module-to-new-version.md)
+* [Mise à jour d’un module vers une nouvelle version dans un scénario  [!DNL Adobe Workfront Fusion] ](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Afficher et gérer les scénarios verrouillés dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)

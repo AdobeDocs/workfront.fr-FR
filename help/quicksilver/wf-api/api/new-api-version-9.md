@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 9
+title: Nouveautés de la version 9 de l’API
 description: Il s’agit d’une liste des ressources nouvelles de la version 9 de l’API. Pour obtenir la liste des mises à jour apportées aux ressources de la version 9, veuillez consulter Mises à jour de l’API version 9 .
 author: Becky
 feature: Workfront API
@@ -9,16 +9,16 @@ role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 16%
+source-wordcount: '179'
+ht-degree: 26%
 
 ---
 
-# Nouveautés de l’API version 9
+# Nouveautés de la version 9 de l’API
 
 ## Nouvelles ressources
 
-Cette liste répertorie les ressources qui sont nouvelles de la version 9 de l’API. Pour obtenir la liste des mises à jour apportées aux ressources de la version 9, consultez la page [Mises à jour de l’API version 9](../../wf-api/api/new-api-version-9-updates.md)
+Voici une liste des ressources qui sont nouvelles de la version 9 de l’API. Pour obtenir la liste des mises à jour apportées aux ressources de la version 9, consultez la page [Mises à jour de l’API version 9](../../wf-api/api/new-api-version-9-updates.md)
 
 ### AccessLevel
 
@@ -140,4 +140,4 @@ Cette liste répertorie les ressources qui sont nouvelles de la version 9 de l�
 
  
 
-Cette liste a été divisée en deux moitiés. Pour afficher la seconde moitié, voir [Nouveautés de l’API version 9 (suite)](../../wf-api/api/new-api-version-9-continue.md). Pour afficher la liste des mises à jour de la version 9, consultez la page [Mises à jour de l’API version 9](../../wf-api/api/new-api-version-9-updates.md)
+Cette liste a été divisée en deux moitiés. Pour consulter la seconde moitié, reportez-vous à la section [Nouveautés de l’API version 9 (suite)](../../wf-api/api/new-api-version-9-continue.md). Pour afficher la liste des mises à jour de la version 9, consultez la page [Mises à jour de l’API version 9](../../wf-api/api/new-api-version-9-updates.md)

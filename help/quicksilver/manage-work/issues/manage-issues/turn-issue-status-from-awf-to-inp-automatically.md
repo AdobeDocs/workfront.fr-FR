@@ -21,13 +21,13 @@ Pour que ce changement d’état automatique se produise, les éléments suivant
 
 * Le problème doit être saisi par le biais d’une file d’attente de requêtes.
 
-  Pour plus d’informations sur la création de files d’attente, voir la section [Création et gestion des files d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) . Pour plus d’informations sur la création de requêtes, voir [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Pour plus d’informations sur la création de files d’attente de requêtes, voir la section [Créer et gérer des files d’attente de requêtes](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) . Pour plus d’informations sur la création de requêtes, voir [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * Les détails de la file d’attente dans la file d’attente des demandes doivent avoir les paramètres suivants :
-   * **Lorsqu’une personne émet une demande, elle accorde automatiquement** est défini sur **Accès aux contributions**
-   * **Modifier l’état** est sélectionné sous Paramètres avancés.
+   * **Lorsqu’une personne fait une demande, l’attribution automatique** est définie sur **Accès Contribute**
+   * **Modifier l’état** est sélectionné sous Paramètres avancés
 
-  ![Détails de la file d’attente : attribuez l’accès au contributeur et l’état de modification est sélectionné.](assets/queuedetails-contributeaccess-changestatus.png)
+  ![ Les détails de la file d’attente donnent accès à Contribute et l’état de modification est sélectionné.](assets/queuedetails-contributeaccess-changestatus.png)
 
   >[!IMPORTANT]
   >

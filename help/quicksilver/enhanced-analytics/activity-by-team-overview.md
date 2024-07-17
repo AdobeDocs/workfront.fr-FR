@@ -1,5 +1,5 @@
 ---
-title: Visualisation de l’activité par équipe dans les analyses améliorées
+title: Afficher la visualisation d’activité par équipe dans Analytique améliorée
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
@@ -10,11 +10,11 @@ exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Visualisation de l’activité par équipe dans les analyses améliorées
+# Afficher la visualisation d’activité par équipe dans Analytique améliorée
 
 <!-- Audited: 12/2023 -->
 
@@ -27,29 +27,29 @@ La visualisation Activité par équipe présente les activités qui se produisen
 
 ![](assets/activity-by-team-350x113.png){width="700"}
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Workfront</a></td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Workfront</a></td> 
    <td> <p>Professionnel ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a></td> 
    <td>
-      <p>Nouveau :</p> 
+      <p>Nouveau :</p> 
          <ul><li>Clair ou plus élevé</li></ul>
-      <p>Actuel :</p>
+      <p>Actuel :</p>
          <ul><li>Révision ou version ultérieure</li></ul>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Affichage de l’accès aux projets</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
@@ -59,37 +59,37 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
-Pour connaître les conditions préalables à l’utilisation d’Analytics amélioré, reportez-vous à la section &quot;Conditions préalables&quot; de la section [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
+Pour connaître les conditions préalables à l’utilisation d’Analytics amélioré, reportez-vous à la section &quot;Conditions préalables&quot; dans la [présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Présentation de la visualisation de l’activité par équipe
 
 Les différentes activités s’affichent dans différentes couleurs pour résumer des événements spécifiques sur la période filtrée :
 
-* **Utilisateurs connectés**: les zones violettes indiquent que les membres de l’équipe d’accueil se sont connectés ce jour-là. Une ombre plus sombre indique un nombre plus élevé de personnes se connectant.
+* **Les utilisateurs connectés** : des zones violettes indiquent que les membres de l’équipe d’accueil se sont connectés ce jour-là. Une nuance plus sombre indique un nombre plus élevé de personnes se connectant.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Modification de l’état de la tâche**: des cases roses montrent que les membres de l’équipe d’accueil ont modifié l’état d’une tâche ce jour-là. Une nuance plus foncée indique un nombre plus élevé de statuts de tâche changeant.
+* **Changement d’état de la tâche** : les zones roses montrent que les membres de l’équipe d’accueil ont modifié l’état d’une tâche ce jour-là. Une nuance plus foncée indique un nombre plus élevé de changements de statut d’une tâche.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Tâches terminées**: les cases bleues indiquent que les membres de l’équipe d’accueil ont effectué une tâche ce jour-là. Une nuance plus foncée indique un nombre plus élevé de tâches en cours d’exécution.
+* **Tâches terminées** : les cases bleues indiquent que les membres de l’équipe d’accueil ont effectué une tâche ce jour-là. Une nuance plus foncée indique un nombre plus élevé de tâches terminées.
 
   ![](assets/project-activity-tasks-completed.png)
 
 Le survol d’une zone indique le nombre exact de fois où l’action a été effectuée au cours d’un jour donné. Vous pouvez sélectionner une équipe pour afficher la ventilation de ces activités par personne au sein de l’équipe d’accueil.
 
-L’affichage de ces informations vous permet de déterminer les éléments suivants :
+Ces informations vous aident à déterminer :
 
 * Activités se déroulant au sein d’une équipe d’accueil et à quelle fréquence.
 * Ce que les équipes domestiques sont surchargées ou utilisent plus le système.
-* Si la répartition du travail est appropriée pour l’équipe d’accueil.
+* Si la répartition du travail est appropriée pour l’équipe domestique.
 
-Pour savoir comment obtenir les meilleures données pour cette visualisation, voir [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
+Pour savoir comment obtenir les meilleures données pour cette visualisation, consultez la [présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualisation de l’activité par équipe
 
@@ -138,8 +138,8 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    ![](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’icône Exporter . ![](assets/export.png) dans le coin supérieur droit de la visualisation, sélectionnez le format d’exportation :
+1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’icône Exporter ![](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’exportation :
 
    * **Graphique (PNG)**
-   * **Tableau de données (XSLX)**
+   * **Table de données (XSLX)**
 

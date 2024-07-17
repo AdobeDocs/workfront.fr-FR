@@ -9,7 +9,7 @@ exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
 source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
 source-wordcount: '1220'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 Vous pouvez personnaliser l&#39;onglet Détails de vos rapports en ajoutant une mise en forme spéciale ou conditionnelle à la vue de vos rapports.
 
-Pour plus d’informations sur la création de rapports, voir l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Pour plus d’informations sur la création de rapports, consultez l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 En mettant en forme de manière conditionnelle les colonnes dans la vue du rapport, vous pouvez configurer des règles qui affectent la manière dont le rapport s’affiche. Lorsque ces conditions ou règles sont remplies, la mise en forme spéciale est appliquée.
 
@@ -51,7 +51,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
-   <td> <p>Nouveau :</p> 
+   <td> <p>Nouveau :</p> 
    <ul><li>Standard pour les vues de rapport</li>
   <li> Contributeur ou version ultérieure pour les vues de liste</li></ul>
 
@@ -66,7 +66,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Gestion des autorisations pour un affichage</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport pour créer ou modifier une vue dans un rapport</p> <p>Autorisations de gestion d’une vue</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,10 +91,10 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 
    Cliquez sur **Nouveau rapport**, puis sélectionnez un type d’objet pour créer un nouveau rapport.
 
-1. (Conditionnel) Si vous modifiez un rapport existant, cliquez sur **Actions de rapport**, puis cliquez sur **Modifier**.
+1. (Conditionnel) Si vous modifiez un rapport existant, cliquez sur **Actions de rapport**, puis sur **Modifier**.
 
-1. Dans le **Colonnes (affichage)** , cliquez pour sélectionner une colonne existante, ou cliquez sur **Ajouter une colonne** pour créer une colonne.
-1. Dans le **Afficher dans cette colonne** dans le coin supérieur gauche du créateur de rapports, sélectionnez le champ à afficher dans la nouvelle colonne.
+1. Dans l&#39;onglet **Colonnes (vues)**, cliquez pour sélectionner une colonne existante, ou cliquez sur **Ajouter une colonne** pour créer une colonne.
+1. Dans le champ **Afficher dans cette colonne** situé dans le coin supérieur gauche du créateur de rapports, sélectionnez le champ à afficher dans la nouvelle colonne.
 1. Cliquez sur **Options avancées**.
 
 1. Indiquez les informations suivantes :
@@ -126,10 +126,10 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
    </note>
    -->
 
-1. Dans le **Lorsque :** , définissez une instruction de condition pour la colonne .
+1. Dans la section **When the:** , définissez une instruction de condition pour la colonne.
 
    Par exemple : &quot;lorsque le pourcentage de tâche terminé est égal à (sensible à la casse) 50.&quot;
-1. Dans le **Afficher le champ comme suit :** indiquez à quoi ressemble ce champ lorsque la condition définie ci-dessus est remplie.
+1. Dans la section **Afficher le champ comme ceci:** , spécifiez à quoi ressemble ce champ lorsque la condition définie ci-dessus est remplie.
 
    Indiquez les informations suivantes :
 
@@ -159,7 +159,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Afficher le texte</strong></td> 
-      <td> <p>Sélectionnez cette option pour afficher un libellé personnalisé pour cette colonne, au lieu de sa valeur réelle. Spécifiez le texte à afficher à la place de la valeur dans le champ fourni.</p> <p><b>IMPORTANT</b></p> <p>Sélection <strong>Afficher le texte</strong> désactive la possibilité de modifier en ligne le texte de cette colonne.<br>De plus, vous ne pouvez pas modifier la valeur d’une colonne Predecessor, car elle contient une logique intégrée.</p> </td> 
+      <td> <p>Sélectionnez cette option pour afficher un libellé personnalisé pour cette colonne, au lieu de sa valeur réelle. Spécifiez le texte à afficher à la place de la valeur dans le champ fourni.</p> <p><b>IMPORTANT</b></p> <p>La sélection de l’option <strong>Afficher le texte</strong> désactive la possibilité de modifier en ligne le texte de cette colonne.<br>De plus, vous ne pouvez pas modifier la valeur d’une colonne Predecessor, car elle contient une logique intégrée.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Appliquer à toute la ligne</strong></td> 

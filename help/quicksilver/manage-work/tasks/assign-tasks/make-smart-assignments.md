@@ -21,7 +21,7 @@ ht-degree: 75%
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Tirez parti des affectations intelligentes pour identifier la personne idéale à la réalisation du travail.
 
@@ -80,15 +80,15 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    <div class="preview">
    Une ou plusieurs des sections suivantes contenant des suggestions d’affectation dynamique s’affichent :
 
-   * **Affectations proposées**: s’affiche pour les tâches. <!--remove the note when we go to production with smarter assignments-->
+   * **Affectations proposées** : s’affiche pour les tâches. <!--remove the note when we go to production with smarter assignments-->
 
      >[!TIP]
      >
-     >   L’en-tête de liste s’affiche. **Voici quelques recommandations :** au lieu de **Affectations proposées** dans l’environnement de production.
+     >   L’en-tête de liste affiche **Voici quelques recommandations** au lieu de **Affectations proposées** dans l’environnement de production.
      >
-   * **Utilisateurs et équipes**: s’affiche pour les tâches et les problèmes.
-   * **Rôles de tâche**: s’affiche pour les tâches et les problèmes.
-   * **Rôles de tâche de carte de taux**: s’affiche pour les tâches. Pour plus d’informations, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
+   * **Utilisateurs et équipes** : s’affiche pour les tâches et les problèmes.
+   * **Rôles de tâche** : s’affiche pour les tâches et les problèmes.
+   * **Taux des rôles de tâche de carte** : s’affiche pour les tâches. Pour plus d’informations, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
    </div>
 
    <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
@@ -96,8 +96,8 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
 
    Pour les tâches, les affectations intelligentes s’affichent dans les sections suivantes, selon la phase du calcul de l’algorithme qui a identifié les affectations :
 
-   * **Affectations proposées**: affectations identifiées dans la première phase du calcul de l’algorithme de l’affectation dynamique de tâche. <span class="preview">Cette section n’est pas disponible pour les problèmes.</span>
-   * <span class="preview">**Utilisateurs et équipes**, **Rôles de tâche**, ou **Rôles de tâche de carte de taux**: affectations identifiées dans la seconde phase du calcul de l’algorithme de l’affectation dynamique de tâche. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * **Affectations proposées** : Affectations identifiées dans la première phase du calcul de l’algorithme de l’affectation dynamique de tâche. <span class="preview">Cette section n&#39;est pas disponible pour les problèmes.</span>
+   * <span class="preview">**Utilisateurs et équipes**, **Rôles de tâche** ou **Taux des rôles de tâche de carte** : Affectations identifiées dans la seconde phase du calcul de l’algorithme de l’affectation dynamique de tâche. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 

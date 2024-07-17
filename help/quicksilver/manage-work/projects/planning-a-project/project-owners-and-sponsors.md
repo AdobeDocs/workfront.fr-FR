@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects;user-management
 navigation-topic: plan-a-project
-title: Présentation des propriétaires et des sponsors de projet
+title: Vue d’ensemble des personnes propriétaires et sponsors du projet
 description: Vous pouvez désigner un propriétaire de projet et un parrain de projet pour un projet.
 author: Alina
 feature: Work Management
@@ -10,11 +10,11 @@ exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
 source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Présentation des propriétaires et des sponsors de projet
+# Vue d’ensemble des personnes propriétaires et sponsors du projet
 
 <!-- Audited: 1/2024 -->
 
@@ -24,7 +24,7 @@ Le propriétaire du projet est la personne responsable de la fin du projet à te
 
 Le parrain du projet est une partie prenante importante du projet qui a des ressources investies dans le projet. L’achèvement du projet bénéficie généralement au parrain du projet.
 
-Pour plus d’informations sur la mise à jour du propriétaire ou du parrain d’un projet, voir [Mettre à jour les propriétaires et les sponsors de projet](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
+Pour plus d’informations sur la mise à jour du propriétaire ou du parrain d’un projet, voir [Mise à jour des propriétaires et des sponsors de projet](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
 
 ## Propriétaires de projet
 
@@ -36,7 +36,7 @@ Les éléments suivants sont possibles à l’aide du champ Propriétaire du pro
 
 * Vous ne pouvez désigner qu’un seul utilisateur comme propriétaire de projet.
 * Vous pouvez désigner les propriétaires de projet comme approbateurs horaires du projet.
-* Vous pouvez désigner le propriétaire du projet comme approbateur générique lors de la définition des processus d’approbation de projet, de tâche ou d’émission. Pour plus d’informations sur les validations, voir [Modifier un processus de validation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* Vous pouvez désigner le propriétaire du projet comme approbateur générique lors de la définition des processus d’approbation de projet, de tâche ou d’émission. Pour plus d&#39;informations sur les validations, voir [Modification d&#39;un processus d&#39;approbation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
   >[!IMPORTANT]
   >
@@ -46,7 +46,7 @@ Les éléments suivants sont possibles à l’aide du champ Propriétaire du pro
 
 * Vous pouvez activer certaines notifications qui ne sont diffusées qu’au propriétaire du projet.
 
-  Pour plus d’informations sur les notifications électroniques, voir la section [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) dans l’article [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Pour plus d’informations sur les notifications par e-mail, reportez-vous à la section [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) dans l’article [ Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * Vous pouvez afficher le champ Propriétaire du projet dans un rapport ou une liste.
 
@@ -58,7 +58,7 @@ Les éléments suivants sont possibles à l’aide du champ Propriétaire du pro
   ownerID=$$USER.ID
   ```
 
-Pour plus d’informations sur la création de rapports, voir l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Pour plus d’informations sur la création de rapports, consultez l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -80,10 +80,10 @@ Vous pouvez désigner n’importe quel utilisateur du système comme responsable
 
 Tenez compte de ce qui suit lors de l’affectation d’un sponsor de projet :
 
-* Le parrain du projet n’a aucun accès supplémentaire au projet, mais il est ajouté aux notifications par e-mail du projet. Pour plus d’informations sur les notifications, voir l’article [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* Le parrain du projet n’a aucun accès supplémentaire au projet, mais il est ajouté aux notifications par e-mail du projet. Pour plus d’informations sur les notifications, reportez-vous à l’article [Configuration des notifications d’événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * Vous ne pouvez désigner qu’un seul responsable de projet.
-* Vous pouvez désigner le parrain du projet comme approbateur générique lors de la définition des processus d’approbation de projet, de tâche ou d’émission. Pour plus d’informations sur les validations, voir [Modifier un processus de validation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* Vous pouvez désigner le parrain du projet comme approbateur générique lors de la définition des processus d’approbation de projet, de tâche ou d’émission. Pour plus d&#39;informations sur les validations, voir [Modification d&#39;un processus d&#39;approbation](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
   >[!IMPORTANT]
   >
@@ -101,7 +101,7 @@ Tenez compte de ce qui suit lors de l’affectation d’un sponsor de projet :
 
    
 
-  Pour plus d’informations sur la création de rapports, voir l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Pour plus d’informations sur la création de rapports, consultez l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -1,20 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Champs de ressource d’abonnement à un événement
-description: Champs de ressource d’abonnement à un événement
+title: Champs de ressources de l’abonnement à un événement
+description: Champs de ressources de l’abonnement à un événement
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 10%
+source-wordcount: '711'
+ht-degree: 13%
 
 ---
 
-# Champs de ressource d’abonnement à un événement
+# Champs de ressources de l’abonnement à un événement
 
 Les champs de ressource d’abonnement à un événement représentent des déclencheurs pour les événements qui entraînent l’envoi d’un message sortant vers un point de terminaison configuré par un abonnement à un événement. Lorsqu’un champ de ressource est modifié, un événement UPDATE est déclenché.
 
@@ -28,7 +28,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <th>Ressource</th> 
    <th>objCode</th> 
-   <th>Champ</th> 
+   <th>champ</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -447,7 +447,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td><span>DocumentVersion</span> </td> 
    <td><span>DOCV</span> </td> 
-   <td><span>ID d’accesseur</span> </td> 
+   <td><span>ID d’accès</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -482,12 +482,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>entryByID</span> </td> 
+   <td><span>informatiquesByID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>poste</span> </td> 
+   <td><span>ext</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -527,7 +527,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofApprovalStatusID</span> </td> 
+   <td><span>BATApprovalStatusID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -537,42 +537,42 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofDeadlineDate</span> </td> 
+   <td><span>BATDeadlineDate</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofDecision</span> </td> 
+   <td><span>BATDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofID</span> </td> 
+   <td><span>BATID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofName</span> </td> 
+   <td><span>BATName</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofOwnerID</span> </td> 
+   <td><span>BATOwnerID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofPages</span> </td> 
+   <td><span>BATPages</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofProgress</span> </td> 
+   <td><span>BATProgress</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofStageID</span> </td> 
+   <td><span>BATStageID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -770,7 +770,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>Champ</td> 
+   <td>champ</td> 
    <td>CHAMP</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1782,7 +1782,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td><span>ProofApproval</span> </td> 
    <td><span>PRFAPL</span> </td> 
-   <td><span>ID d’accesseur</span> </td> 
+   <td><span>ID d’accès</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1827,7 +1827,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofCreationDate</span> </td> 
+   <td><span>BATCreationDate</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -2797,4 +2797,4 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
  </tbody> 
 </table>
 
-&#42;Une valeur parameterValue est une valeur de champ personnalisée associée à diverses ressources (ou objets) Workfront. Un message sortant d’abonnement à un événement comprend une liste complète de paramètreValues (champs personnalisés) renseignées.
+&#42;Une valeur parameterValue est une valeur de champ personnalisée associée à diverses ressources Workfront (ou objets). Un message sortant d’abonnement à un événement comprend une liste complète de paramètreValues (champs personnalisés) renseignées.

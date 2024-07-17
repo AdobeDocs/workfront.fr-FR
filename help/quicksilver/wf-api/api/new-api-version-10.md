@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 10
+title: Nouveautés de la version 10 de l’API
 description: Ressources mises à jour
 author: Becky
 feature: Workfront API
@@ -9,12 +9,12 @@ role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 35%
+source-wordcount: '487'
+ht-degree: 42%
 
 ---
 
-# Nouveautés de l’API version 10
+# Nouveautés de la version 10 de l’API
 
 * [Nouvelles ressources](#new-resources)
 * [Ressources mises à jour](#updated-resources)
@@ -39,7 +39,7 @@ ht-degree: 35%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | AJOUTER |
 |   |   |   |   |   |   | COUNT  |
-|   |   |   |   |   |   | SUPPRIMER  |
+|   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | MODIFIER  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RAPPORT  |
@@ -54,7 +54,7 @@ ht-degree: 35%
 | ID |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RAPPORT  |
-|   |   |   |   |   |   | SEARCH  |
+|   |   |   |   |   |   | RECHERCHE  |
 
 {style="table-layout:auto"}
 
@@ -64,11 +64,11 @@ ht-degree: 35%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | AJOUTER |
 |   |   |   |   |   |   | COUNT |
-|   |   |   |   |   |   | SUPPRIMER  |
+|   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | MODIFIER  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | RAPPORT  |
-|   |   |   |   |   |   | SEARCH  |
+|   |   |   |   |   |   | RECHERCHE  |
 
 {style="table-layout:auto"}
 
@@ -91,7 +91,7 @@ ht-degree: 35%
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | customerID | client |   |   |   |   | AJOUTER |
-| edTime | user |   |   |   |   | COUNT |
+| edTime | utilisateur |   |   |   |   | COUNT |
 | firstDayOfWeek |   |   |   |   |   | SUPPRIMER |
 | ID |   |   |   |   |   | MODIFIER |
 | showPTO |   |   |   |   |   | GET |
@@ -134,7 +134,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-`<sup>1</sup>`validateur ajouté LESS_THAN_EQUAL
+`<sup>1</sup>` validateur ajouté LESS_THAN_EQUAL
 
 ### BudgetedHour
 
@@ -228,7 +228,7 @@ Frais
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Type remplacé de null à boolean
+<sup>1</sup> Le type est passé de null à boolean
 
 ### PortalSection
 
@@ -274,7 +274,7 @@ Frais
 
 {style="table-layout:auto"}
 
-<sup>1</sup>DEVISE DU validateur ajouté
+<sup>1</sup>MONNAIE DU validateur ajoutée
 
 ### Tâche
 
@@ -288,7 +288,7 @@ Frais
 
  
 
-### Équipe
+### Equipe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -330,7 +330,7 @@ Frais
 
 {style="table-layout:auto"}
 
-<sup>1</sup> modifications apportées aux valeurs possibles
+<sup>1</sup> change les valeurs possibles
 
 ### l’utilisateur ou de l’utilisatrice
 
@@ -348,7 +348,7 @@ Frais
 
 {style="table-layout:auto"}
 
-<sup>1</sup> modifications apportées aux valeurs possibles
+<sup>1</sup> change les valeurs possibles
 
 ### Travail
 
@@ -360,7 +360,7 @@ Frais
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Type remplacé de null à boolean
+<sup>1</sup> Le type est passé de null à boolean
 
 ## Ressources supprimées {#removed-resources}
 
@@ -370,7 +370,7 @@ Frais
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | AJOUTER  |
 | recordsHours |   |   |   |   |   | COUNT  |
-| ID |   |   |   |   |   | SUPPRIMER  |
+| ID |   |   |   |   |   | DELETE  |
 | scheduledBudgetedHours |   |   |   |   |   | MODIFIER  |
 | projectID |   |   |   |   |   | GET  |
 | roleID |   |   |   |   |   | RAPPORT  |

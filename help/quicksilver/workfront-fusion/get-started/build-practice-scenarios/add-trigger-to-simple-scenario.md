@@ -6,10 +6,11 @@ title: Ajouter un module de déclenchement à un scénario de base
 description: Découvrez comment ajouter un module de déclenchement pour permettre au scénario de rechercher périodiquement de nouvelles requêtes et de les convertir en projets.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ea3f932e02ad8a9416747d4b9aefe89d087dd414
+exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
+source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -21,11 +22,11 @@ Les modules d’interrogation vérifient le service à un intervalle de temps d�
 
 Dans cet exemple, vous allez ajouter un module de déclenchement qui s’exécute toutes les 15 minutes et lance un scénario si des demandes ont été envoyées à une file d’attente spécifique. Le scénario convertit ensuite ces requêtes dans un projet.
 
-Cet exemple modifie le scénario créé dans [Création d’un scénario de base](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
+Cet exemple modifie le scénario créé dans [Créer un scénario de base](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
 
 ## Conditions préalables
 
-Vous devez créer le scénario décrit dans la section [Création d’un scénario de base](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) avant de suivre cette procédure.
+Vous devez créer le scénario décrit dans [Créer un scénario de base](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) avant de suivre cette procédure.
 
 ## Ajouter et configurer le module déclencheur
 
@@ -37,15 +38,15 @@ Vous devez créer le scénario décrit dans la section [Création d’un scénar
    Le module est supprimé, laissant un espace réservé vide.
 
 1. Cliquez sur le module vierge, puis sélectionnez **Adobe Workfront** dans la liste des applications.
-1. Sélectionner **Surveiller les enregistrements**.
+1. Sélectionnez **Surveiller l’enregistrement**.
 1. Assurez-vous que le module utilise la même connexion que le reste des modules dans le scénario.
 1. Dans le champ Filtre , sélectionnez **Nouveaux enregistrements uniquement**.
-1. Dans la zone Outputs, sélectionnez `ID`, `Name`, et `Project ID`.
+1. Dans la zone Outputs, sélectionnez `ID`, `Name` et `Project ID`.
 1. Cliquez sur **OK** pour enregistrer les paramètres du module.
 
    Une fenêtre Choisir où commencer s’affiche.
 
-1. Sélectionner **Désormais**.
+1. Sélectionnez **Désormais sur**.
 
 ### Planification du module de déclenchement
 
@@ -69,17 +70,17 @@ Le premier module ayant été remplacé, le deuxième module doit être mappé a
 ### Tester et activer
 
 1. Accédez à l’environnement Workfront auquel Fusion se connecte et ajoutez un problème.
-1. Cliquez sur **[!UICONTROL Exécuter une seule fois]** dans le coin inférieur gauche de l’éditeur de scénarios.
+1. Cliquez sur **[!UICONTROL Exécuter une seule fois]** dans le coin inférieur gauche de l’éditeur de scénario.
 1. Examinez la sortie pour vous assurer que le scénario s’est exécuté comme prévu.
-1. Lorsque vous êtes satisfait que le scénario fonctionne comme prévu, cliquez sur le bouton **Planification** basculez le curseur dans le coin inférieur gauche de l’écran sur **Activé**.
+1. Lorsque vous êtes satisfait que le scénario fonctionne comme prévu, cliquez sur le bouton **Planification** situé dans le coin inférieur gauche de l’écran pour activer **On**.
 
    Cela active le scénario.
 1. Dans [!DNL Workfront Fusion], cliquez sur **[!UICONTROL Enregistrer]** près du coin inférieur gauche pour enregistrer la progression sur le scénario.
 
    >[!IMPORTANT]
    >
-   >Enregistrez souvent lorsque vous affinez et testez un scénario.
+   >Enregistrez à intervalles réguliers lorsque vous affinez et testez un scénario.
 
 ## Ressources
 
-* Pour plus d’informations sur les webhooks, voir [Déclencheurs instantanés (webhooks) dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).
+* Pour plus d’informations sur les webhooks, voir [Instant Triggers (webhooks) dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).

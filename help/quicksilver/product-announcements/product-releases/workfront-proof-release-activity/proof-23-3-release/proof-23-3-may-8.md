@@ -11,11 +11,11 @@ exl-id: 22fb9fd0-eb03-4390-9285-43b95b7925ed
 source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Activité de mise à jour du Bon à tirer 23.3 d’Adobe Workfront : semaine du 8 mai 2023
+# Activité Version de l’épreuve Adobe Workfront 23.3 : semaine du 8 mai 2023
 
 Cette page décrit toutes les améliorations apportées à la version 23.3 d’Adobe Workfront BAT à l’environnement d’aperçu le 8 mai 2023.
 

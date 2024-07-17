@@ -8,7 +8,7 @@ feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
 source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1396'
 ht-degree: 100%
 

@@ -10,7 +10,7 @@ exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
 source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -68,17 +68,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouveau : Standard</p>
+   <td><p>Nouvelle : standard</p>
        <p>ou</p>
-       <p>Actuel : formule </p> </td>
+       <p>Actuelle : formule </p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Modifier l’accès aux tâches et aux projets</p> </td> 
+   <td> <p>Accès en modification aux tâches et aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations pour les tâches et le projet</p> </td> 
+   <td> <p>Autorisations de gestion sur les tâches et le projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,15 +94,15 @@ Vous pouvez indiquer des types de retard sur les tâches lorsque vous définisse
 ### Définition des types de balises dans la section Prédécesseurs d’une tâche {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Accédez à une tâche pour laquelle vous souhaitez définir le prédécesseur et le Type de log.
-1. Cliquez sur **Prédécesseurs** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis **Prédécesseurs**.
+1. Cliquez sur **Prédécesseurs** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Prédécesseurs**.
 1. Cliquez sur **Ajouter un prédécesseur**.
-1. (Facultatif) Si vous souhaitez ajouter un prédécesseur de plusieurs projets, remplacez la variable **Projet parent** par un autre projet.
+1. (Facultatif) Si vous souhaitez ajouter un prédécesseur de plusieurs projets, remplacez le nom **Projet parent** par un autre projet.
 1. Commencez à saisir le nom de la tâche de prédécesseur, puis sélectionnez-la lorsqu’elle apparaît dans la liste.
-1. Sélectionnez la variable **Type de dépendance**.
+1. Sélectionnez le **Type de dépendance**.
 
-   Pour plus d’informations sur les types de dépendance de prédécesseur, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Pour plus d’informations sur les types de dépendance de prédécesseur, voir [Présentation des types de dépendance de tâche](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Spécifiez un **Étiquette** quantité utilisant une valeur numérique. Vous pouvez indiquer des nombres négatifs pour indiquer un décalage négatif.
+1. Spécifiez un montant **Lag** à l’aide d’une valeur numérique. Vous pouvez indiquer des nombres négatifs pour indiquer un décalage négatif.
 1. Sélectionnez l’une des options suivantes pour identifier le type de retard que vous souhaitez indiquer pour votre prédécesseur :
 
    * **Days**
@@ -111,30 +111,30 @@ Vous pouvez indiquer des types de retard sur les tâches lorsque vous définisse
    * **Jour de la semaine**
    * **Jour de la semaine (non nul)**
 
-     Pour plus d’informations sur ces types de balises et sur leur mode de calcul, consultez la section . [Types de balise](#lag-types) dans cet article.
+     Pour plus d’informations sur ces types de balises et leur mode de calcul, consultez la section [Types de balises](#lag-types) de cet article.
 
 1. Cliquer sur **Enregistrer**.
 
 ### Définition des types de balises dans une liste de tâches  {#indicate-lag-types-in-a-task-list}
 
-1. Dans la liste des tâches, sélectionnez l’option **Standard** vue.
+1. Accédez à une liste de tâches et sélectionnez la vue **Standard**.
 
-1. Cliquez dans le **Prédécesseurs** correspondant à la tâche pour laquelle vous souhaitez spécifier un prédécesseur et un montant de retard.
+1. Cliquez dans la colonne **Prédécesseurs** correspondant à la tâche pour laquelle vous souhaitez spécifier un prédécesseur et un montant de retard.
 1. Renseignez les champs suivants sans espaces :
 
    * le nombre de tâches à indiquer comme prédécesseur de la tâche sélectionnée.
    * abréviation du type de dépendance à indiquer entre les tâches
 
-     Pour plus d’informations sur les abréviations des types de dépendance, voir [Présentation des types de dépendances des tâches](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Pour plus d’informations sur les abréviations pour les types de dépendance, voir [Présentation des types de dépendance de tâche](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * soit un **+** pour un décalage positif ou une **-** pour un décalage négatif
+   * soit un **+** pour un indicateur positif, soit un **-** pour un indicateur négatif
 
    * la quantité de retard ;
    * abréviation du type de balise que vous souhaitez utiliser
 
-     Pour plus d’informations sur les abréviations des types de balises, voir la section . [Types de balise](#lag-types) dans cet article.
+     Pour plus d’informations sur les abréviations des types de balises, consultez la section [Types de balises](#lag-types) de cet article.
 
-   Par exemple, pour indiquer qu’une tâche a un prédécesseur et un décalage positif de 2 jours, vous devez saisir `1fs+2d` dans la colonne Prédécesseurs .
+   Par exemple, pour indiquer qu’une tâche a un prédécesseur et un décalage positif de 2 jours, vous devez renseigner `1fs+2d` dans la colonne Prédécesseurs .
 
 1. Appuyez sur Entrée du clavier pour enregistrer les modifications apportées à votre tâche.
 

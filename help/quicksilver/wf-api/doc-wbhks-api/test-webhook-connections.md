@@ -2,21 +2,21 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Test des connexions Webhook
-description: Test des connexions Webhook
+title: Tester les connexions Webhook
+description: Tester les connexions Webhook
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 0%
+source-wordcount: '806'
+ht-degree: 1%
 
 ---
 
 
-# Test des connexions Webhook
+# Tester les connexions Webhook
 
 Pour vérifier que l’implémentation de webhook de votre document fonctionne correctement, exécutez les tests manuels décrits dans cette section. Ces étapes passent par l’interface web d’Adobe Workfront et atteignent indirectement les points de terminaison de votre implémentation de webhook.
 
@@ -41,7 +41,7 @@ Teste l’URL d’authentification et l’URL du point de terminaison du jeton p
 1. (Services OAuth uniquement) Une fois l’étape précédente terminée, la page d’authentification OAuth2 de votre service s’affiche dans une fenêtre contextuelle. (Remarque : vous pouvez être invité à vous connecter d’abord à votre service.) Sur la page d’authentification, accordez à Workfront l’accès au compte de l’utilisateur en cliquant sur le bouton Approbation ou Autoriser .
 1. Vérifiez que votre service a été ajouté à la liste déroulante Ajouter des documents . Si vous ne le voyez pas initialement, essayez d’actualiser votre navigateur.
 
-**Test 2 : lier un document à Workfront Tests les points de terminaison suivants : /files, /metadata**
+**Test 2 : liez un document dans Workfront Tests les points de terminaison suivants : /files, /metadata**
 
 1. Dans Workfront, accédez à la page Documents principale en cliquant sur le lien Documents dans la barre de navigation supérieure.
 1. Sélectionnez votre service Document Webhook sous Ajouter des documents.
@@ -57,7 +57,7 @@ Teste les points de terminaison suivants : /metadata (en particulier viewLink)
 1. Sélectionnez le document et cliquez sur le lien Ouvrir .
 1. Vérifiez que le document s’ouvre dans un nouvel onglet.
 
-**Test 4 : Accédez à un document dans le système de gestion de contenu (avec connexion).**
+**Test 4 : Accédez à un document dans le système de gestion de contenu (avec connexion)**
 
 Teste les points de terminaison suivants : /metadata (en particulier viewLink)
 
@@ -84,7 +84,7 @@ Teste les points de terminaison suivants : /search
 1. Dans le modal, effectuez une recherche.
 1. Vérifiez que les résultats de la recherche sont corrects.
 
-**Test 7 : envoyer le document de Workfront vers le système de gestion de contenu**
+**Test 7 : envoyer un document de Workfront vers le système de gestion de contenu**
 
 Teste les points de terminaison suivants : /files, /uploadInit, /upload
 
@@ -95,7 +95,7 @@ Teste les points de terminaison suivants : /files, /uploadInit, /upload
 1. Accédez au dossier de destination de votre choix et cliquez sur le bouton Enregistrer .
 1. Vérifiez que le document est téléchargé au bon emplacement dans le système de gestion de contenu.
 
-**Test 8 : Affichage des miniatures dans Workfront**
+**Test 8 : Afficher les miniatures dans Workfront**
 
 Teste les points de terminaison suivants : /thumbnail
 
@@ -103,7 +103,7 @@ Teste les points de terminaison suivants : /thumbnail
 1. Sélectionnez le document dans la liste.
 1. Vérifiez que la miniature s’affiche dans le panneau de droite.
 
-**Test 9 : Obtention des octets de contenu**
+**Test 9 : obtenir les octets de contenu**
 
 Teste les points de terminaison suivants : /download
 

@@ -10,8 +10,8 @@ role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 8%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Si un objet tel qu’un projet, un problème ou une tâche contient du texte enrichi, il est stocké et accessible en tant que valeur de paramètre via l’API Workfront.
 
-La demande d’informations textuelles à partir d’un objet de projet contenant du texte enrichi peut être effectuée à l’aide du champ . **parameterValues**.
+La demande d’informations textuelles à partir d’un objet de projet contenant du texte enrichi peut être effectuée à l’aide du champ **parameterValues**.
 
 Par exemple, une requête HTTP simple peut ressembler à ce qui suit :
 
 `https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*`
 
-Si cet exemple de projet contenait un formulaire personnalisé avec 3 champs personnalisés : champ calque, texte de paragraphe et 1 enrichi. Ensuite, la requête ci-dessus renvoie une réponse qui ressemble à ce qui suit, où le champ &quot;rich 1&quot; est un champ de paramètre de texte enrichi et la valeur de texte est &quot;**Hello** *Monde !*&quot;:
+Si cet exemple de projet contenait un formulaire personnalisé avec 3 champs personnalisés : champ calque, texte de paragraphe et 1 enrichi. Ensuite, la requête ci-dessus renvoie une réponse qui ressemble à ce qui suit, où le champ &quot;rich 1&quot; est un champ de paramètre de texte enrichi et la valeur de texte est &quot;**Hello** *World!*&quot; :
 
 ```
 {

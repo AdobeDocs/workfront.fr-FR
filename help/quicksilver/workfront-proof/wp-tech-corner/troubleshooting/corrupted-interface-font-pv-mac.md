@@ -3,23 +3,23 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Dépannage - police d’interface corrompue dans la visionneuse de vérification sur Mac
+title: Dépanner - Police d’interface corrompue dans la visionneuse de relecture sur Mac
 description: Polices de l’interface corrompues dans la visionneuse de vérification sur Mac
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 0%
+source-wordcount: '660'
+ht-degree: 2%
 
 ---
 
-# Dépannage - police d’interface corrompue dans la visionneuse de vérification sur Mac
+# Dépanner - Police d’interface corrompue dans la visionneuse de relecture sur Mac
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Si vous constatez que la visionneuse de vérification ne dispose pas d’une police d’interface correcte, cela peut être dû à des problèmes liés aux polices sur votre ordinateur Mac. Pour résoudre le problème, essayez les solutions suivantes :
 
@@ -47,7 +47,7 @@ La deuxième étape consiste à effacer le cache des polices et il existe plusie
 
 La première consiste simplement à redémarrer en mode sans danger en maintenant la touche Maj enfoncée immédiatement lorsque vous entendez les chimpanzés de démarrage. Lorsque ce mode se charge, une barre de progression s’affiche, pendant laquelle le système exécute diverses vérifications et routines de maintenance, dont l’une consiste à effacer le cache des polices.
 
-La deuxième méthode consiste à utiliser le terminal, ce qui peut être effectué en exécutant la commande suivante à partir d’un compte d’administration : *sudo atsutil database -remove*
+La seconde méthode consiste à utiliser le terminal, ce qui peut être effectué en exécutant la commande suivante à partir d’un compte d’administration : *sudo atsutil database -remove*
 
 >[!NOTE]
 >
@@ -55,23 +55,23 @@ La deuxième méthode consiste à utiliser le terminal, ce qui peut être effect
 
 Une autre approche consiste à utiliser un utilitaire de mise en cache des polices, tel que FontNuke, et à effacer le cache avec son aide.
 
-De nombreux studios de prépresse, d’illustration et de conception utilisent également le logiciel Universal Type Server pour gérer les licences et la distribution des polices. Parfois, un problème peut se produire avec le cache de polices du serveur de type universel, ce qui peut entraîner l’apparition de la variable [!DNL Workfront Proof] annotations à disparaître.
+De nombreux studios de prépresse, d’illustration et de conception utilisent également le logiciel Universal Type Server pour gérer les licences et la distribution des polices. Parfois, un problème peut se produire avec le cache de polices du serveur de type universel, ce qui peut entraîner la disparition des annotations [!DNL Workfront Proof].
 
 Pour corriger, effacez le cache de polices du serveur de type universel et redémarrez le serveur de type universel.
 
-## Correction [!DNL Flash] conflit de polices
+## Correction d’un conflit de police [!DNL Flash]
 
-Il se peut que vous n’ayez pas accès à cette fonctionnalité, car elle est prise en charge par [!DNL Flash], qui a été abandonné dans la plupart des environnements.
+Vous n’avez peut-être pas accès à cette fonctionnalité, car elle est prise en charge par [!DNL Flash], qui a été abandonné dans la plupart des environnements.
 
-La visionneuse de vérification héritée est basée sur [!DNL Flash Player] et parfois, lorsque le texte est manquant dans la visionneuse de vérification, il est possible qu’il y ait un conflit de police entre OS X et [!DNL Flash Player]. Procédez comme suit :
+La visionneuse de vérification héritée est basée sur [!DNL Flash Player] et, parfois, lorsque le texte est manquant dans la visionneuse de vérification, il est possible qu’il y ait un conflit de police entre OS X et [!DNL Flash Player]. Procédez comme suit :
 
-1. Ouvrez le Finder et ouvrez le **[!UICONTROL Aller]** .
-1. Appuyez sur la touche Option ( ⌥ Alt) pour ouvrir la [!UICONTROL Bibliothèque] dans la liste déroulante.
-1. Tout en maintenant la touche Option enfoncée, cliquez sur le bouton [!UICONTROL Bibliothèque] dossier.
-1. Après la [!UICONTROL Bibliothèque] s’ouvre, accédez à [!UICONTROL Polices] dossier situé dans .
-1. Déplacez toutes les polices situées dans la fonction [!UICONTROL Polices] dans un autre dossier, peut-être sur votre bureau (ne créez pas un autre dossier dans le dossier Polices ).
+1. Ouvrez le Finder et ouvrez l’onglet **[!UICONTROL Go]** .
+1. Appuyez sur la touche Option ( ⌥ Alt) pour ouvrir le dossier [!UICONTROL Library] dans la liste déroulante.
+1. Tout en maintenant la clé Option enfoncée, cliquez sur le dossier [!UICONTROL Library] (Bibliothèque).
+1. Une fois le dossier [!UICONTROL Library] ouvert, accédez au dossier [!UICONTROL Fonts] situé dans.
+1. Déplacez toutes les polices situées dans le dossier [!UICONTROL Fonts] dans un autre dossier, peut-être sur votre bureau (ne créez pas un autre dossier dans le dossier Polices).
 1. Cette action masque toutes vos polices personnalisées. Les polices système standard doivent toujours être enregistrées à leur emplacement distinct.
-1. Quitter et redémarrer [!DNL Safari].
+1. Quittez et redémarrez [!DNL Safari].
 1. rouvrez le BAT.
 
 Vous devriez voir vos polices maintenant. Si vous n’avez pas besoin des polices que vous avez supprimées de votre répertoire personnel, vous pouvez les supprimer en toute sécurité. Sinon, passez-les par lots, copiez-les à nouveau dans votre dossier Library/Fonts (Bibliothèque/Polices) et voyez lequel est à l’origine du problème.

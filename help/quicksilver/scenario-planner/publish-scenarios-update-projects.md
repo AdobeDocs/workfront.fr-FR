@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 100%
 

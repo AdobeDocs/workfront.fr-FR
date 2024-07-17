@@ -1,6 +1,6 @@
 ---
-title: 22.1 Améliorations apportées à Mobile
-description: 22.1 Améliorations apportées à Mobile
+title: Améliorations apportées à l’application mobile (version 22.1)
+description: Améliorations apportées à l’application mobile (version 22.1)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,11 +9,11 @@ exl-id: dc7dc0c2-768b-4331-acea-b9978574d948
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
-# 22.1 Améliorations apportées à Mobile
+# Améliorations apportées à l’application mobile (version 22.1)
 
 Cette page décrit toutes les améliorations apportées à Mobile avec la version 22.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
 
@@ -25,7 +25,7 @@ in January 2022
 
 la semaine du 17 janvier 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, voir [Présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, consultez la [présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Améliorations des fonctionnalités de BAT dans les applications mobiles
 
@@ -41,4 +41,4 @@ Dans l’application mobile Adobe Workfront, vous pouvez désormais :
 
 L’article suivant est mis à jour lorsque l’application est publiée dans les boutiques d’applications :
 
-[Vérifier et prendre des décisions sur les bons à tirer dans l’application mobile Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+[Examiner les épreuves et prendre des décisions à leur sujet dans l’application mobile Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: Créer un dossier lié à Experience Manager Assets ou aux Assets Essentials
+title: Créer un dossier lié à Experience Manager Assets ou Assets Essentials
 description: Vous pouvez créer un dossier lié à Experience Manager Assets ou aux Assets Essentials dans Workfront.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
@@ -10,28 +10,28 @@ exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
 source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Créer un dossier lié à Experience Manager Assets ou aux Assets Essentials
+# Créer un dossier lié à Experience Manager Assets ou Assets Essentials
 
 Vous pouvez créer un dossier lié à Experience Manager Assets ou aux Assets Essentials dans Workfront. Comme le dossier est lié, toute ressource ajoutée au dossier s’affichera automatiquement dans Workfront et Experience Manager. Vous n’avez pas à envoyer manuellement la ressource si elle se trouve dans un dossier lié.
 
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td><strong>Formule Adobe Workfront*</strong>
+   <td><strong>Formules Adobe Workfront*</strong>
    </td>
-   <td>Tous
+   <td>N’importe quelle
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Adobe Workfront*</strong>
+   <td><strong>Licences Adobe Workfront*</strong>
    </td>
    <td>Plan
    </td>
@@ -39,7 +39,7 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td><strong>Produit</strong>
    </td>
-   <td>Vous devez disposer d’Experience Manager Assets as a Cloud Service ou d’Assets Essentials, et vous devez être ajouté au produit en tant qu’utilisateur.
+   <td>Vous devez disposer d’Assets Essentials as a Cloud Service Experience Manager Assets et vous ajouter au produit en tant qu’utilisateur.
    </td>
   </tr>
   <tr>
@@ -49,22 +49,22 @@ Vous devez disposer des éléments suivants :
    </td>
   </tr>
   <tr>
-   <td><strong>Paramétrages du niveau d'accès</strong>
+   <td><strong> Configurations de niveau d’accès</strong>
    </td>
-   <td>Pour configurer une intégration de Experience Manager, vous devez être un administrateur Workfront. Une fois configuré, les utilisateurs disposant d’une licence Plan peuvent configurer des dossiers liés sur des projets individuels.
+   <td>Pour configurer une intégration d’Experience Manager, vous devez être un administrateur Workfront. Une fois configuré, les utilisateurs disposant d’une licence Plan peuvent configurer des dossiers liés sur des projets individuels.
    </td>
   </tr>
 </table>
 
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 
 ## Conditions préalables
 
-Avant de commencer,
+Avant de commencer
 
-* Votre administrateur Workfront doit configurer une intégration de Experience Manager. Pour plus d’informations, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Votre administrateur Workfront doit configurer une intégration d’Experience Manager. Pour plus d’informations, voir [Configuration de l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configuration de l’intégration Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Création d’un dossier lié
@@ -78,11 +78,11 @@ Pour créer un dossier lié :
 
 
 1. Accédez au projet dans lequel vous souhaitez placer le dossier.
-1. Sélectionner **Ajouter**, puis accédez à l’ intégration Experience Manager configurée par votre administrateur.
+1. Sélectionnez **Ajouter nouveau**, puis accédez à l’intégration Experience Manager configurée par votre administrateur.
 
    >[!NOTE]
    >
    >L’administrateur de Workfront peut choisir n’importe quel nom pour cette intégration. Il se peut donc qu’il ne mentionne pas spécifiquement Experience Manager Assets ou les Assets Essentials.
 
-1. Sélectionner **Créer un dossier lié**. Le système crée automatiquement un dossier dans Experience Manager en fonction de l’emplacement spécifié lors de la configuration de l’intégration.
-   ![créer un dossier lié ;](assets/linked-folder.png)
+1. Sélectionnez **Créer un dossier lié**. Le système crée automatiquement un dossier dans Experience Manager en fonction de l’emplacement spécifié lors de la configuration de l’intégration.
+   ![créer un dossier lié](assets/linked-folder.png)

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de version 2018.3 bêta 4
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 bêta 4. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 30 août 2018. Il sera disponible dans l’environnement de production en novembre 2018.
+title: Activité Version 2018.3, version bêta 4
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 de Beta 4. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 30 août 2018. Il sera disponible dans l’environnement de production en novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,30 +10,30 @@ exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Activité de version 2018.3 bêta 4
+# Activité Version 2018.3, version bêta 4
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 bêta 4. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 30 août 2018. Il sera disponible dans l’environnement de production en novembre 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 de Beta 4. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 30 août 2018. Il sera disponible dans l’environnement de production en novembre 2018.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2018.3, voir  [Présentation de l’activité de la version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2018.3, voir  [Présentation de l’activité de version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La version 2018.3 bêta 4 contient des améliorations à la fois pour les administrateurs de Workfront et pour les autres utilisateurs :
+La version 2018.3 de Beta 4 contient des améliorations tant pour les administrateurs de Workfront que pour d’autres utilisateurs :
 
 **Pour les administrateurs**
 
 * [Mise à jour de la structure de création de rapports dans le profil utilisateur en tant qu’administrateur de groupe](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
-**Pour tous les utilisateurs**
+**Pour Tous Les Utilisateurs**
 
 * [Exporter plus d’informations à partir du planificateur de ressources](#export-more-information-from-the-resource-planner)
-* [Améliorations de la liste des tâches](#task-list-improvements) Retiré de la version
-* [Améliorations de la liste des projets](#project-list-improvements)
-* [Modification de la liste des tâches en mode d’édition du diagramme de Gantt](#editing-the-task-list-in-gantt-chart-edit-mode) Retiré de la version
-* [Couleurs de l’outil de mesure](#measurement-tool-colors)
-* [Bons à tirer ouverts dans un nouvel onglet](#proofs-open-in-a-new-tab)  Retiré de la version
+* [Améliorations de la liste des tâches](#task-list-improvements) supprimées de la version
+* [Améliorations de la liste de projets](#project-list-improvements)
+* [Modification de la liste des tâches en mode d’édition du diagramme de Gantt](#editing-the-task-list-in-gantt-chart-edit-mode) supprimé de la version
+* [Couleurs d’outils de mesure](#measurement-tool-colors)
+* [Bons à tirer ouverts dans un nouvel onglet](#proofs-open-in-a-new-tab) supprimé de la version
 
 * [Améliorations du résumé d’impression](#print-summary-enhancements)
 * [Durée de connexion en jours dans l’application mobile Workfront](#log-time-in-days-in-the-workfront-mobile-app)
@@ -52,7 +52,7 @@ Vous pouvez désormais exporter des informations jusqu’à 52 semaines, 36 mois
 
 Auparavant, vous pouviez uniquement exporter jusqu’à 4 semaines, mois ou trimestres à la fois.
 
-Pour plus d’informations, voir [Exporter des informations à partir du planificateur de ressources](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Pour plus d’informations, voir [Export information from the Resource Planner](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Améliorations de la liste des tâches {#task-list-improvements}
 
@@ -82,7 +82,7 @@ Les fonctionnalités suivantes ont été modifiées dans les listes de tâches :
 
 Pour plus d’informations sur l’utilisation des listes, voir [Prise en main des listes dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Pour plus d’informations sur l’assemblage de tâches dans le diagramme de Gantt, voir [Créer des relations de prédécesseur en attachant des tâches](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+Pour plus d’informations sur l’assemblage de tâches dans le diagramme de Gantt, voir [Créer des relations de prédécesseur en associant des tâches](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
 
 ## Améliorations de la liste des projets {#project-list-improvements}
 
@@ -112,7 +112,7 @@ Bien que vous puissiez voir comment vos modifications affectent la chronologie d
 
 Auparavant, vous ne pouviez pas effectuer ces actions sur les tâches lorsqu’elles s’affichaient en mode d’édition du diagramme de Gantt. Vous pouviez apporter ces modifications dans une liste de tâches qui ne s’affichait pas dans le diagramme de Gantt, mais qui étaient immédiates.
 
-Pour plus d’informations sur la modification des tâches dans le diagramme de Gantt, voir [Mise à jour des informations dans le diagramme de Gantt de la liste des tâches](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Pour plus d’informations sur la modification des tâches dans le diagramme de Gantt, voir [Mise à jour d’informations dans le diagramme de Gantt de la liste des tâches](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Couleurs de l’outil de mesure {#measurement-tool-colors}
 
@@ -128,11 +128,11 @@ Auparavant, l’outil de mesure s’affichait uniquement en bleu, ce qui rendait
 >
 >* Cette fonctionnalité a été supprimée de l’environnement Aperçu et ne sera pas incluse dans la version 2018.3.
 
-Lorsque vous ouvrez un BAT n’importe où dans Workfront ou Workfront BAT, la visionneuse de BAT se lance désormais dans un nouvel onglet du navigateur et la cible d’action passe à cet onglet. Vous pouvez travailler dans plusieurs onglets de navigateur, vérifier les bons à tirer et continuer votre travail sur les projets, les tâches et les problèmes dans Workfront ou Workfront BAT.
+Lorsque vous ouvrez un BAT n’importe où dans Workfront ou Workfront Proof, la visionneuse de vérification se lance désormais dans un nouvel onglet du navigateur et la cible d’action passe à cet onglet. Vous pouvez travailler dans plusieurs onglets de navigateur, vérifier les bons à tirer et continuer votre travail sur les projets, les tâches et les problèmes dans Workfront ou Workfront Proof.
 
-Auparavant, la visionneuse de vérification vidéo était lancée dans un cadre au-dessus de l’onglet de navigateur Workfront ou Workfront BAT actuel, ce qui rendait cet onglet inaccessible jusqu’à la fermeture de la visionneuse de vérification.
+Auparavant, la visionneuse de vérification vidéo était lancée dans un cadre au-dessus de l’onglet actuel du navigateur Workfront ou Workfront Proof, ce qui la rendait inaccessible jusqu’à ce que vous fermiez la visionneuse de vérification.
 
-Pour plus d’informations, voir .
+Pour plus d’informations, poursuivez votre lecture.
 
 ## Améliorations du résumé d’impression {#print-summary-enhancements}
 
@@ -150,7 +150,7 @@ Les améliorations suivantes sont désormais disponibles sur la page de résumé
 
   Auparavant, les étapes n’étaient pas incluses.
 
-Pour plus d’informations, voir [Imprimer un résumé du BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Pour plus d’informations, voir [Imprimer un résumé de BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ## Durée de connexion en jours dans l’application mobile Workfront {#log-time-in-days-in-the-workfront-mobile-app}
 
@@ -160,4 +160,4 @@ Auparavant, vous pouviez consigner le temps en utilisant uniquement les heures d
 
 Pour plus d’informations sur la durée de connexion à l’application mobile, voir . 
 
-Cette fonctionnalité est immédiatement disponible pour les tests avec l’application Android Beta. 
+Cette fonctionnalité est immédiatement disponible pour les tests avec l’application Beta Android. 

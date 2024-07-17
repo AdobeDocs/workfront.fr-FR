@@ -92,13 +92,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 
 ## Partage des autorisations sur une vue <!--internally-->
 
-Vous pouvez partager les vues que vous avez créées ou les vues auxquelles vous êtes autorisé à accéder <!--with users or groups in Workfront-->.
+Vous pouvez partager les vues que vous avez créées ou celles que vous disposez des autorisations de gestion pour <!--with users or groups in Workfront-->.
 
 >[!NOTE]
 >
@@ -120,10 +120,10 @@ Vous pouvez partager les vues que vous avez créées ou les vues auxquelles vous
 
 1. (Facultatif) Sélectionnez l’une des options suivantes pour partager la vue :
 
-   * **Seules les personnes invitées peuvent accéder à**: vous devez spécifier les utilisateurs ou les groupes avec lesquels vous souhaitez partager la vue. Il s’agit de l’option par défaut.
-   * **Tout le monde dans l’espace de travail peut afficher**: tous les utilisateurs disposant d’autorisations d’affichage ou supérieures sur les espaces de travail peuvent accéder à la vue.
+   * **Seules les personnes invitées peuvent accéder à** : vous devez spécifier les utilisateurs ou les groupes avec lesquels vous souhaitez partager la vue. Il s’agit de l’option par défaut.
+   * **Tous les utilisateurs de l’espace de travail peuvent afficher** : tous les utilisateurs disposant d’autorisations d’affichage ou supérieures sur les espaces de travail peuvent accéder à la vue.
 
-1. Dans le **Accorder l’accès à la vue à** , commencez à saisir le nom d’un utilisateur ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.  <!--***********replace screen shot below when public sharing is released***********-->
+1. Dans le champ **Accorder l’accès à la vue** , commencez à saisir le nom d’un utilisateur ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -141,7 +141,7 @@ Vous pouvez partager les vues que vous avez créées ou les vues auxquelles vous
 
    >[!TIP]
    >
-   >   Les vues partagées avec vous ont un indicateur de personnes ![](assets/view-shared-with-others-people-icon.png) en regard de l’icône d’affichage. Les vues sans l’indicateur Personnes sont les vues que vous avez créées.
+   >   Les vues partagées avec vous comportent un indicateur de personnes ![](assets/view-shared-with-others-people-icon.png) en regard de l’icône d’affichage. Les vues sans l’indicateur Personnes sont les vues que vous avez créées.
 
 
 
@@ -190,7 +190,7 @@ To share a view publicly in Workfront Planning:
 {{step1-to-planning}}
 
 1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage, puis cliquez sur une carte de type enregistrement. La page du type d’enregistrement s’affiche.
-1. Pointez sur le nom de l’onglet de la vue à partir de laquelle vous souhaitez supprimer le partage, puis cliquez sur le **Plus** menu ![](assets/more-menu.png), puis cliquez sur **Partager**.
+1. Passez la souris sur le nom de l’onglet de la vue à partir de laquelle vous souhaitez supprimer le partage et cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Partager**.
 1. Recherchez la personne ou le groupe que vous souhaitez supprimer, puis cliquez sur **Supprimer** dans le menu déroulant des autorisations situé à droite du nom de la personne ou du groupe.
 1. Cliquez sur **Enregistrer**.
 La ou les personnes appartenant au groupe supprimé n’ont plus accès à la vue. Les utilisateurs qui ont été supprimés de l’accès ne reçoivent aucune notification leur indiquant qu’ils ont perdu cet accès.

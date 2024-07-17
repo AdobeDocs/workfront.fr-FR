@@ -8,7 +8,7 @@ exl-id: c1484bec-e38a-44a2-aa0c-ec92ad10185d
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations de projet apportées à la version du quatrième trimestre 2023 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production avec la version 23.10.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2023, voir [Présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2023, consultez la [présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Nouvelles approbations de documents
 
@@ -28,9 +28,9 @@ Dans cette version, le processus d’approbation a été simplifié pour la cré
 * Amélioration du processus d’ajout d’un approbateur ou d’un réviseur externe
 * Amélioration de l’expérience d’approbation et de révision pour les approbateurs et les réviseurs externes
 
-Pour plus d’informations sur l’utilisation des nouvelles validations de document, voir [Nouvelle présentation des approbations de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Pour plus d’informations sur l’utilisation des nouvelles approbations de document, consultez la [nouvelle présentation des approbations de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3424867){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3424867){target=_blank}
 
 ## Mise à jour de la conception lors de l’ajout d’un nouveau problème à un projet
 
@@ -50,7 +50,7 @@ Sur les pages qui n’ont pas été modernisées, un petit nombre de champs de f
 
 Pour plus d’informations, voir [Modifier les informations dans les champs de formulaire personnalisés](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3422678/){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
 ## Définition des heures planifiées sur les tâches récurrentes enfants avec le type Durée simple sans attribution
 

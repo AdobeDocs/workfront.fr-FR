@@ -10,11 +10,11 @@ exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
 source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Configuration et utilisation des applications OAuth 2 personnalisées de votre entreprise à l’aide du flux PKCE
+# Configurer et utiliser les applications OAuth2 personnalisées de votre organisation à l’aide du flux PKCE
 
 PKCE est un flux d’autorisation sécurisé qui fonctionne bien avec les applications d’actualisation dynamique telles que les applications mobiles, mais qui est utile pour tous les clients OAuth2. Au lieu d’un secret client statique, PKCE utilise une chaîne générée dynamiquement, éliminant ainsi le risque de fuite d’un secret client.
 
@@ -22,21 +22,21 @@ PKCE est un flux d’autorisation sécurisé qui fonctionne bien avec les applic
 
 Un flux PKCE comprend les étapes suivantes. Les étapes de cette section sont présentées à titre d’information uniquement. Pour effectuer ces procédures, reportez-vous aux autres sections de cet article.
 
-1. Le client crée la variable `code_challenge` en transformant la variable `code_verifier` using `S256` cryptage.
+1. Le client crée le `code_challenge` en transformant le `code_verifier` à l’aide du chiffrement `S256`.
 
-1. Le client redirige le navigateur vers la page de connexion OAuth2, ainsi que le `code_challenge`. Vous devez enregistrer votre application (client) afin qu’OAuth2 puisse accepter la demande d’autorisation. Après l’enregistrement, votre application peut rediriger le navigateur vers OAuth2.
+1. Le client redirige le navigateur vers la page de connexion OAuth2, ainsi que le `code_challenge` généré. Vous devez enregistrer votre application (client) afin qu’OAuth2 puisse accepter la demande d’autorisation. Après l’enregistrement, votre application peut rediriger le navigateur vers OAuth2.
 
 1. Le serveur d’autorisation OAuth2 redirige l’invite d’authentification vers l’utilisateur.
 
 1. L’utilisateur s’authentifie à l’aide de l’une des options de connexion configurées. Une page de consentement répertoriant les autorisations qu’OAuth2 accordera à l’application peut s’afficher.
 
-1. OAuth2 redirige vers votre application avec une `authorization code`.
+1. OAuth2 redirige vers votre application avec un `authorization code`.
 
-1. Votre application envoie ce code, ainsi que la variable `code_verifier`, à OAuth2.
+1. Votre application envoie ce code, ainsi que le `code_verifier`, à OAuth2.
 
-1. Le serveur d’autorisation OAuth2 transforme la variable `code_verifier` en utilisant la variable `code_challenge_method` à partir de la demande d’autorisation initiale et vérifie le résultat par rapport à la variable `code_challenge`. Si la valeur des deux chaînes correspond, le serveur a vérifié que les requêtes provenaient du même client et émet une `access token`.
+1. OAuth2 Authorization Server transforme l’ `code_verifier` à l’aide de l’ `code_challenge_method` à partir de la demande d’autorisation initiale et vérifie le résultat par rapport à l’ `code_challenge`. Si la valeur des deux chaînes correspond, le serveur a vérifié que les demandes provenaient du même client et va émettre un `access token`.
 
-1. OAuth2 renvoie la variable `access token`, et éventuellement une `refresh token`.
+1. OAuth2 renvoie le `access token` et éventuellement un `refresh token`.
 
 1. Votre application peut désormais utiliser ces jetons pour appeler le serveur de ressources, tel qu’une API au nom de l’utilisateur.
 
@@ -47,7 +47,7 @@ Un flux PKCE comprend les étapes suivantes. Les étapes de cette section sont p
 
 Avant de pouvoir implémenter l’autorisation, vous devez enregistrer votre application dans OAuth2 en créant une intégration d’application à partir de Workfront.
 
-Pour plus d’informations sur la création de l’application OAuth2, voir [Créer une application web OAuth2 mono-page à l’aide de PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Pour plus d’informations sur la création de l’application OAuth2, voir [Création d’une application web OAuth2 sur une seule page à l’aide de PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) dans [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Pour plus d’informations sur la création de l’application OAuth2, voir [Cr�
 
 ## Création de la clé de bon à tirer pour l’Exchange de code
 
-Tout comme le flux de code d’autorisation standard, votre application commence par rediriger le navigateur de l’utilisateur vers votre serveur d’autorisation. `/authorize` point de terminaison . Cependant, dans ce cas, vous devez également relever un défi en matière de code.
+Tout comme le flux de code d’autorisation standard, votre application commence par rediriger le navigateur de l’utilisateur vers le point de terminaison `/authorize` de votre serveur d’autorisation. Cependant, dans ce cas, vous devez également relever un défi en matière de code.
 
 Votre première étape consiste à générer un vérificateur de code et un défi à relever.
 
@@ -86,7 +86,7 @@ Le code de générateur PKCE crée une sortie similaire à ce qui suit :
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >```
 >{
@@ -95,7 +95,7 @@ Le code de générateur PKCE crée une sortie similaire à ce qui suit :
 >}
 >```
 
-Votre application enregistre la variable `code_verifier` pour plus tard, et envoie la variable `code_challenge` ainsi que la demande d’autorisation auprès de votre serveur d’autorisation `/authorize` URL.
+Votre application enregistre le `code_verifier` pour plus tard et envoie le `code_challenge` avec la demande d’autorisation à l’URL `/authorize` de votre serveur d’autorisation.
 
 ## Demande de code d’autorisation
 
@@ -103,7 +103,7 @@ Si vous utilisez le serveur d’autorisation personnalisé par défaut, l’URL 
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >
 >```
@@ -113,26 +113,26 @@ Si vous utilisez le serveur d’autorisation personnalisé par défaut, l’URL 
 
 Notez les paramètres transmis :
 
-* `client_id` correspond à l’identifiant du client de l’application OAuth2 que vous avez créée dans lors de la configuration de l’application.
+* `client_id` correspond à l’identifiant du client de l’application OAuth2 que vous avez créée dans lors de la configuration de l’application.
 
   Pour plus d’informations, voir Création d’une application web OAuth2 mono-page à l’aide de PKCE dans Création d’applications OAuth2 pour les intégrations Workfront.
 
-* `response_type` is `code`, car l’application utilise le type d’octroi Code d’autorisation .
+* `response_type` est `code`, car l’application utilise le type d’octroi Code d’autorisation .
 
-* `redirect_uri` est l’emplacement de rappel vers lequel l’agent utilisateur est dirigé, ainsi que la variable `code`. Celui-ci doit correspondre à l’une des URL de redirection que vous avez spécifiées lors de la création de votre application OAuth2.
+* `redirect_uri` est l’emplacement de rappel vers lequel l’agent utilisateur est dirigé, ainsi que le `code`. Celui-ci doit correspondre à l’une des URL de redirection que vous avez spécifiées lors de la création de votre application OAuth2.
 
-* `code_challenge_method` est la méthode de hachage utilisée pour générer le défi, qui est toujours `S256` pour les applications Workfront Oauth2 qui utilisent PKCE.
+* `code_challenge_method` est la méthode de hachage utilisée pour générer le défi, qui est toujours `S256` pour les applications Workfront Oauth2 qui utilisent PKCE.
 
-* `code_challenge` est le défi de code utilisé pour PKCE.
+* `code_challenge` est le défi de code utilisé pour PKCE.
 
 
 ## Exchange du code des jetons
 
-Pour exchange du code d’autorisation d’un jeton d’accès, transmettez-le à votre serveur d’autorisation. `/token` le point de terminaison avec la variable `code_verifier`.
+Pour exchange du code d’autorisation d’un jeton d’accès, transmettez-le au point de terminaison `/token` de votre serveur d’autorisation avec le `code_verifier`.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >```
 >/token \\
@@ -148,22 +148,22 @@ Pour exchange du code d’autorisation d’un jeton d’accès, transmettez-le �
 
 Notez les paramètres transmis :
 
-* `grant_type` is `authorization_code`, car l’application utilise le type d’octroi Code d’autorisation .
+* `grant_type` est `authorization_code`, car l’application utilise le type d’octroi Code d’autorisation .
 
-* `redirect_uri` doit correspondre à l’URI utilisé pour obtenir le code d’autorisation.
+* `redirect_uri` doit correspondre à l’URI utilisé pour obtenir le code d’autorisation.
 
-* `code` est le code d’autorisation que vous avez reçu du point de terminaison /authorized .
+* `code` est le code d’autorisation que vous avez reçu du point de terminaison /authorized.
 
-* `code_verifier` est le vérificateur de code PKCE que votre application a généré dans [Création de la clé de bon à tirer pour l’Exchange de code](#Create).
+* `code_verifier` est le vérificateur de code PKCE que votre application a généré dans [Création de la clé de bon à tirer pour l’Exchange de code](#Create).
 
-* `client_id` identifie votre client et doit correspondre à la valeur pré-enregistrée dans OAuth2.
+* `client_id` identifie votre client et doit correspondre à la valeur pré-enregistrée dans OAuth2.
 
 
 Si le code est toujours valide et que le vérificateur de code correspond, votre application reçoit un jeton d’accès.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >```
 >{
@@ -181,7 +181,7 @@ Vous pouvez valider votre jeton d’accès avec un appel API similaire à ce qui
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >```
 >/attask/api/<api version>/proj/search \\
@@ -194,7 +194,7 @@ Pour demander un jeton d’actualisation, vous pouvez effectuer un appel POST à
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >```
 >/token \\

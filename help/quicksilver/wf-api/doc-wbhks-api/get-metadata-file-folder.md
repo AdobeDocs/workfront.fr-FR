@@ -2,21 +2,21 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Obtention de métadonnées pour un fichier ou un dossier
-description: Obtention de métadonnées pour un fichier ou un dossier
+title: Obtenir les métadonnées d’un fichier ou d’un dossier
+description: Obtenir les métadonnées d’un fichier ou d’un dossier
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '268'
+ht-degree: 10%
 
 ---
 
 
-# Obtention de métadonnées pour un fichier ou un dossier
+# Obtenir les métadonnées d’un fichier ou d’un dossier
 
 Renvoie les métadonnées du fichier ou du dossier spécifié.
 
@@ -46,7 +46,7 @@ GET /metadata?id=[ID de document ou de dossier]
 
  
 
-## réponse
+## Réponse
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,7 +109,7 @@ GET /metadata?id=[ID de document ou de dossier]
 </table>
 
 **Exemple :** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title:"My Document",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>size: "32554694"<br>}</pre>
+<pre>{<br>title:"My Document",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.21Z",<br>size: "32554694"<br>}</pre>
 
 >[!NOTE]
 >

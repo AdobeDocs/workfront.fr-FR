@@ -1,6 +1,6 @@
 ---
-title: "Architecture : index de l’article"
-description: Les articles suivants décrivent comment configurer l’architecture d’Adobe Workfront Planning. Dans le cadre de cette configuration, vous découvrez comment créer des espaces de travail, des types d’enregistrement et des champs personnalisés pour mapper les workflows que vous souhaitez gérer dans la planification Workfront.
+title: '« Architecture : index des articles »'
+description: Les articles suivants décrivent comment configurer l’architecture d’Adobe Workfront Planning. Dans le cadre de cette configuration, vous découvrez comment créer des espaces de travail, des types d’enregistrements et des champs personnalisés pour mapper les workflows que vous souhaitez gérer dans Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
@@ -8,7 +8,7 @@ exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
 source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 15%
+ht-degree: 98%
 
 ---
 
@@ -30,18 +30,18 @@ hide: yes
 
 {{planning-important-intro}}
 
-En tant que chef des opérations marketing, vous pouvez utiliser la planification Adobe Workfront pour organiser le travail au cours du cycle de vie marketing pour toutes vos équipes.
+En tant que personne responsable des opérations marketing, vous pouvez utiliser Adobe Workfront Planning pour organiser le travail de toutes vos équipes au cours du cycle de vie marketing.
 
-Avec Workfront Planning, vous pouvez personnaliser entièrement vos workflows, depuis le choix des types d’objets (ou des types d’enregistrements) utilisés par votre entreprise jusqu’à la configuration de la manière dont ces objets se connectent les uns aux autres.
+Avec Workfront Planning, vous pouvez personnaliser entièrement vos workflows, du choix des types d’objets (ou des types d’enregistrements) utilisés par votre entreprise à la configuration de la connexion entre ces objets.
 
-En outre, Workfront Planning peut lier les types d’objets d’autres systèmes, créant ainsi une structure cohérente pour tous vos processus.
+En outre, Workfront Planning peut créer un lien à des types d’objets d’autres systèmes, créant ainsi un cadre cohérent pour tous vos processus.
 
-Les articles présentés dans les sections suivantes décrivent comment configurer les espaces de travail de la planification Adobe Workfront, définir les types d’enregistrement qui sont les blocs de construction de ces espaces de travail et commencer à utiliser ses fonctionnalités :
+Les articles présentés dans les sections suivantes décrivent comment configurer les espaces de travail Adobe Workfront Planning, définir les types d’enregistrements qui sont les blocs de construction de ces espaces de travail et commencer à utiliser ses fonctionnalités :
 
 * [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Types d’enregistrement - Aperçu](/help/quicksilver/planning/architecture/overview-of-record-types.md)
-* [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md)
 * [Modifier des types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Exemple de connexion de types d’enregistrements et d’enregistrements](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)

@@ -13,7 +13,7 @@ exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
 source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur les sujets liés aux niveaux d’accès, consulte
  <tbody> 
   <tr> 
    <td><p><strong>Licences</strong></p></td> 
-   <td> <p>La licence associée à un niveau d’accès détermine comment le niveau d’accès peut être configuré.</p> <p>Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences</a>.</p> <p><strong>Conseil</strong>: vous pouvez voir quel niveau d’accès et quelle licence sont attribués à chaque utilisateur en affichant une liste d’utilisateurs ou un rapport. Pour obtenir des instructions, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Liste des niveaux d’accès et des licences de vos utilisateurs</a>.</p> </td> 
+   <td> <p>La licence associée à un niveau d’accès détermine comment le niveau d’accès peut être configuré.</p> <p>Pour plus d’informations, consultez <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences</a>.</p> <p><strong>Conseil</strong> : Vous pouvez voir quel niveau d’accès et quelle licence sont attribués à chaque utilisateur en affichant une liste d’utilisateurs ou un rapport. Pour obtenir des instructions, reportez-vous à la section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Liste des niveaux d’accès et des licences de vos utilisateurs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Niveaux d’accès intégrés</strong></td> 
@@ -54,11 +54,11 @@ Pour plus d’informations sur les sujets liés aux niveaux d’accès, consulte
   </tr> 
   <tr> 
    <td><strong>Attribution de niveaux d’accès</strong></td> 
-   <td> <p>Pour obtenir des instructions sur l’affectation d’un niveau d’accès à un utilisateur, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modification du profil d’un utilisateur</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur l'affectation d'un niveau d'accès à un utilisateur, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modification du profil d'un utilisateur</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Niveaux d’accès Standard, Clair, Contributeur</td> 
-   <td> <p>Si ces niveaux d’accès s’affichent dans votre environnement au lieu de Planifier, Travailler, Réviser ou Demander, votre organisation utilise le nouveau modèle de niveau d’accès. Pour plus d’informations sur le nouveau modèle, voir <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Nouveaux niveaux d’accès - Aperçu</a>.</p> </td> 
+   <td> <p>Si ces niveaux d’accès s’affichent dans votre environnement au lieu de Planifier, Travailler, Réviser ou Demander, votre organisation utilise le nouveau modèle de niveau d’accès. Pour plus d’informations sur le nouveau modèle, consultez la <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">présentation des nouveaux niveaux d’accès</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

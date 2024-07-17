@@ -1,5 +1,5 @@
 ---
-title: A propos de la disposition Adobe Workfront par défaut
+title: À propos de la disposition Adobe Workfront par défaut
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
@@ -12,19 +12,19 @@ exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
 source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 6%
+ht-degree: 25%
 
 ---
 
-# A propos de la disposition Adobe Workfront par défaut
+# À propos de la disposition Adobe Workfront par défaut
 
-La disposition par défaut est la disposition du menu principal. ![](assets/main-menu-icon.png), le panneau de gauche, ainsi que les vues, les regroupements et les filtres avant qu’un administrateur Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
+La disposition par défaut correspond à la disposition du menu principal ![](assets/main-menu-icon.png), du panneau de gauche et des vues, des regroupements et des filtres avant qu’un administrateur Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
 
-Pour plus d’informations sur la manière dont un administrateur Workfront peut modifier la disposition par défaut d’un utilisateur en lui affectant un modèle de disposition, voir [Affecter des utilisateurs à un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier la mise en page par défaut d’un utilisateur en lui affectant un modèle de mise en page, voir [ Affecter des utilisateurs à un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >
->Les utilisateurs peuvent modifier leur propre mise en page en modifiant leurs préférences de profil utilisateur. Pour plus d’informations, voir [Préférences](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) dans [Configurer mes paramètres](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>Les utilisateurs peuvent modifier leur propre mise en page en modifiant leurs préférences de profil utilisateur. Pour plus d’informations, voir la section [Préférences](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) dans [Configuration de mes paramètres](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## Mises en page par défaut pour chaque niveau d’accès
 
@@ -45,20 +45,20 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
   <tr> 
    <th>Zone</th> 
    <th> Éléments du panneau de gauche </th> 
-   <th> <p>Administrateur système</p> </th> 
+   <th> <p>Administrateur ou administratrice système</p> </th> 
    <th> <p>Planificateur</p> </th> 
    <th>Employé</th> 
    <th>Réviseur</th> 
    <th>Demandeur</th> 
-   <th>Utilisateur externe</th> 
+   <th>Utilisateur ou utilisatrice externe</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td rowspan="2"><strong>Projets</strong> </td> 
    <td><strong>Projets</strong> </td> 
-   <td>✔ <br>(Zone d’entrée par défaut)</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>(Zone d’entrée par défaut)</td> 
+   <td>✔ <br> (zone d’entrée par défaut)</td> 
+   <td><span style="font-weight: 400;"> ✔</span> <br> (zone d’entrée par défaut)</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -93,7 +93,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Calendriers</strong> </td> 
+   <td><strong>Calendars</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
@@ -102,7 +102,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>Personnes</strong> (renommé en <strong>Équipes</strong> pour les utilisateurs disposant d’une licence de travail)</td> 
+   <td rowspan="5"><strong>Personnes</strong> (renommé <strong>Équipes</strong> pour les utilisateurs disposant d’une licence de travail)</td> 
    <td><strong>Équipes</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -131,7 +131,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    </tr>
   --> 
   <tr> 
-   <td><strong>Planification</strong> </td> 
+   <td><strong>Planning</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -164,8 +164,8 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td>✔ <br>(Zone d’entrée par défaut)</td> 
-   <td>✔ <br>(Zone d’entrée par défaut)</td> 
+   <td>✔ <br> (zone d’entrée par défaut)</td> 
+   <td>✔ <br> (zone d’entrée par défaut)</td> 
   </tr> 
   <tr> 
    <td><strong>Toutes les requêtes</strong> </td> 
@@ -187,7 +187,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Fiches d’heure que j’approuve</strong> </td> 
+   <td><strong>Fiches horaires que j’approuve</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 

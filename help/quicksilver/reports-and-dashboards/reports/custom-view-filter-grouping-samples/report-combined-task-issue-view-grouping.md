@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Rapport : Tâche combinée et publication Afficher et Regroupement'
+title: "Rapport : tâche combinée et publication Afficher et Regroupement"
 description: Ce rapport d’élément de travail présente les tâches et les problèmes sur lesquels les utilisateurs ont accepté de travailler dans un rapport. Il est préférable d’utiliser un regroupement personnalisé.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 27%
 
 ---
 
-# Rapport : Tâche combinée et publication Affichage et regroupement
+# Rapport : combinaison de la vue des tâches et des problèmes et regroupement
 
 Ce rapport d’élément de travail présente les tâches et les problèmes sur lesquels les utilisateurs ont accepté de travailler dans un rapport. Il est préférable d’utiliser un regroupement personnalisé.
 
-Ce rapport utilise `sharecol=true` dans la vue pour combiner plusieurs champs sous le même en-tête de colonne. Pour plus d’informations sur la variable `sharecol` balise, voir [Afficher : fusionner les informations de plusieurs colonnes dans une seule colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Ce rapport utilise `sharecol=true` dans la vue pour combiner plusieurs champs sous le même en-tête de colonne. Pour plus d’informations sur la balise `sharecol`, voir [Affichage : fusionner les informations de plusieurs colonnes dans une colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
@@ -26,49 +26,49 @@ Ce rapport utilise `sharecol=true` dans la vue pour combiner plusieurs champs so
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Création d’un rapport avec une tâche combinée et publication Affichage et Regroupement
 
 Pour créer un rapport avec cette vue :
 
-1. Dans la **Menu Principal** ![](assets/main-menu-icon.png), cliquez sur **Rapports**.
+1. Dans le **menu principal** ![](assets/main-menu-icon.png), cliquez sur **Rapports**.
 
 1. Cliquez sur **Nouveau rapport** et sélectionnez l’objet **Élément de travail** dans le menu déroulant.
 
-1. Dans le **Aperçu des colonnes** , cliquez sur l’en-tête de la seule colonne affichée.
+1. Dans la zone **Aperçu des colonnes**, cliquez sur l’en-tête de la seule colonne affichée.
 1. Cliquez sur **Passer en mode Texte**.
-1. Placez le pointeur de la souris sur la zone de mode de texte, puis cliquez sur **Cliquer pour modifier le texte**.
-1. Supprimez le texte que vous trouvez dans la **Mode texte** et remplacez-le par le code suivant :
+1. Placez le pointeur de la souris sur la zone de mode Texte, puis cliquez sur **Cliquez pour modifier le texte**.
+1. Supprimez le texte que vous trouvez dans la zone **Text Mode** et remplacez-le par le code suivant :
 
    ```
    column.0.description=Task or Issue 
@@ -259,7 +259,7 @@ Pour créer un rapport avec cette vue :
    column.15.width=1
    ```
 
-1. (Facultatif) Cliquez sur **Groupements** pour ajouter un groupement au rapport.
+1. (Facultatif) Cliquez sur **Groupings** pour ajouter un groupement au rapport.
 1. (Facultatif) Si vous ajoutez un groupement, cliquez sur **Passer en mode Texte**.
 1. (Facultatif) Remplacez le texte à l’intérieur de la zone de mode de texte de groupement par le code suivant :
 

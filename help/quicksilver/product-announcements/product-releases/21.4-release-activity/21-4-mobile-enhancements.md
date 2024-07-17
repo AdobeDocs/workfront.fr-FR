@@ -1,6 +1,6 @@
 ---
-title: 21.4 Améliorations apportées à Mobile
-description: 21.4 Améliorations apportées à Mobile
+title: Améliorations apportées à l’application mobile (version 21.4)
+description: Améliorations apportées à l’application mobile (version 21.4)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: cbc013eb-aecc-405b-91b8-ce45f2ea10dc
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# 21.4 Améliorations apportées à Mobile
+# Améliorations apportées à l’application mobile (version 21.4)
 
 Cette page décrit toutes les améliorations apportées à Mobile avec la version 21.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 4 octobre 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, voir [Présentation de la version 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, reportez-vous à la [21.4 Release Overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Vérifier et approuver les bons à tirer dans l’application mobile
 
@@ -30,7 +30,7 @@ L’application mobile Adobe Workfront affiche désormais toutes les validations
 Les articles suivants seront mis à jour lorsque l’application sera publiée dans les boutiques d’applications :
 
 * [Adobe Workfront pour iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-* [Adobe Workfront pour Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [Adobe Workfront pour Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
 ## Créer une requête à partir de la zone d’accueil de l’application mobile
 
@@ -43,4 +43,4 @@ Vous pouvez désormais créer une requête à partir de la zone d’accueil dans
 Les articles suivants seront mis à jour lorsque l’application sera publiée dans les boutiques d’applications :
 
 * [Adobe Workfront pour iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-* [Adobe Workfront pour Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [Adobe Workfront pour Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)

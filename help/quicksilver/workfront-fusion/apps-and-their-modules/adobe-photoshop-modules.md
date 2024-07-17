@@ -18,7 +18,7 @@ ht-degree: 24%
 
 # Modules [!DNL Adobe Photoshop]
 
-Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Photoshop], ainsi que de la connecter à plusieurs applications et services tiers.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Photoshop] et les connecter à plusieurs applications et services tiers.
 
 
 Si vous avez besoin d’instructions sur la création d’un scénario, voir [Création d’un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
@@ -62,13 +62,13 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
-&#42;&#42;Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Pour plus d’informations sur les [!DNL Adobe Workfront Fusion] licences, voir [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Conditions préalables
 
-Avant d’utiliser la variable [!DNL Adobe Photoshop] , vous devez vous assurer que les conditions préalables suivantes sont remplies :
+Avant de pouvoir utiliser le connecteur [!DNL Adobe Photoshop], vous devez vous assurer que les conditions préalables suivantes sont remplies :
 
-* Vous devez disposer d’un [!DNL Adobe Photoshop] compte .
+* Vous devez avoir un compte [!DNL Adobe Photoshop] actif.
 
 ## Créer une connexion à [!DNL Adobe Photoshop]
 
@@ -96,11 +96,11 @@ Pour créer une connexion pour vos modules [!DNL Adobe Photoshop] :
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Saisissez votre [!DNL Adobe] [!UICONTROL Client Secret]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
+        <td>Entrez votre [0} [!UICONTROL Client Secret]. [!DNL Adobe] Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL ID du compte technique]</td>
-        <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID du compte technique]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
+        <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID de compte technique]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL ID d’organisation]</td>
@@ -109,11 +109,11 @@ Pour créer une connexion pour vos modules [!DNL Adobe Photoshop] :
         <tr>
         <td role="rowheader">[!UICONTROL Clé privée]</td>
         <td>
-          <p>Saisissez la clé privée générée lors de la création de vos informations d’identification dans la variable [!DNL Adobe Developer Console]. </p>
+          <p>Entrez la clé privée qui a été générée lors de la création de vos informations d’identification dans le [!DNL Adobe Developer Console]. </p>
           <p>Pour extraire votre clé privée ou votre certificat :</p>
           <ol>
             <li value="1">
-              <p>Cliquez sur <b>[!UICONTROL Extraction]</b>.</p>
+              <p>Cliquez sur <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
               <p>Sélectionnez le type de fichier que vous extrayez.</p>
@@ -125,7 +125,7 @@ Pour créer une connexion pour vos modules [!DNL Adobe Photoshop] :
               <p>Saisissez le mot de passe du fichier.</p>
             </li>
             <li value="5">
-              <p>Cliquez sur <b>Enregistrer</b> pour extraire le fichier et revenir à la configuration de la connexion.</p>
+              <p>Cliquez sur <b>Enregistrer</b> pour extraire le fichier et revenir à la configuration de la connexion[!UICONTROL ].</p>
             </li>
           </ol>
         </td>
@@ -158,7 +158,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 Ce module d’action crée un PSD avec des calques facultatifs et génère des rendus ou des enregistrements en tant que PSD.
 
-Pour les champs liés à ce module, voir [Création d’un PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) dans la documentation Adobe Photoshop.
+Pour les champs liés à ce module, voir [Création d&#39;un PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) dans la documentation Adobe Photoshop.
 
 #### Modifier des calques de texte
 
@@ -198,7 +198,7 @@ Ce module d’action modifie les calques de texte sur un fichier Photoshop.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Calques]</td>
-   <td> <p>Pour plus d’informations sur les options de calque, voir <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text">Modifier le calque de texte</a> dans la documentation Adobe Photoshop.</p>  </td>     </tr>
+   <td> <p>Pour plus d’informations sur les options de calque, voir <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text">Modification de la couche de texte</a> dans la documentation Adobe Photoshop.</p>  </td>     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Stockage du fichier de sortie]</td>
       <td>
@@ -277,7 +277,7 @@ Ce module d’action exécute un flou de profondeur sur le fichier sélectionné
     <tr>
       <td role="rowheader">[!UICONTROL Autres champs]</td>
       <td>
-        <p>Pour plus d’informations sur les autres options de flou de profondeur, voir <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">Exécuter le flou de profondeur </a>dans la documentation de l’API Adobe Photoshop.</p>
+        <p>Pour plus d’informations sur les autres options de flou de profondeur, voir <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">Execute Depth Blur </a> dans la documentation de l’API Adobe Photoshop.</p>
       </td>
     </tr>
     <tr>

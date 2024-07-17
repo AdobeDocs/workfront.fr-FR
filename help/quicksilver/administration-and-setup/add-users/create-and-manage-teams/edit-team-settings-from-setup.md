@@ -1,6 +1,6 @@
 ---
 title: Modification des paramètres d’une équipe à partir de la zone Configuration
-description: En tant qu’administrateur Adobe Workfront, vous pouvez modifier les paramètres d’une équipe dans la zone Configuration . Vous pouvez ajouter des utilisateurs à une équipe, définir le modèle de mise en page d’une équipe et définir comment l’état est enregistré lorsque les tâches sont terminées par une équipe.
+description: En tant qu’administrateur Adobe Workfront, vous pouvez modifier les paramètres d’une équipe dans la zone Configuration . Vous pouvez ajouter des utilisateurs à une équipe, définir le modèle de mise en page d’une équipe et définir comment l’état est enregistré lorsqu’une équipe termine les tâches.
 author: Caroline, Courtney
 feature: System Setup and Administration
 role: Admin
@@ -8,49 +8,48 @@ exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
 source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
 # Modification des paramètres d’une équipe à partir de la zone Configuration
 
-En tant qu’administrateur Adobe Workfront, vous pouvez modifier les paramètres d’une équipe dans la zone Configuration . Vous pouvez ajouter des utilisateurs à une équipe, définir le modèle de mise en page d’une équipe et définir comment l’état est enregistré lorsque les tâches sont terminées par une équipe.
+En tant qu’administrateur Adobe Workfront, vous pouvez modifier les paramètres d’une équipe dans la zone Configuration . Vous pouvez ajouter des utilisateurs à une équipe, définir le modèle de mise en page d’une équipe et définir comment l’état est enregistré lorsqu’une équipe termine les tâches.
 
 Pour plus d’informations sur les équipes, voir [Présentation des équipes](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 >[!NOTE]
 >
 >* Un administrateur de groupe peut modifier les paramètres d’une équipe pour un groupe qu’il administre. Pour plus d’informations, voir [Création et modification des équipes d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* Un utilisateur disposant d’une licence Plan peut modifier les paramètres d’une équipe dans la zone Personnes. Pour plus d’informations, voir [Modification des paramètres de l’équipe](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
+>* Un utilisateur disposant d’une licence Plan peut modifier les paramètres d’une équipe dans la zone Personnes. Pour plus d’informations, voir [Modifier les paramètres de l’équipe](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 >
 
+## Conditions d’accès
 
-## Exigences d’accès
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Modification des paramètres d’une équipe
+## Modifier les paramètres d’une équipe
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Équipes** dans le panneau de gauche.
 1. Sélectionnez une équipe, puis cliquez sur **Modifier** ![](assets/edit-icon.png).
@@ -71,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       </tr>
      <tr> 
       <td role="rowheader">Groupe</td> 
-      <td> <p>Associez l’équipe à un groupe. Commencez à saisir le nom du groupe, puis sélectionnez-le lorsqu’il s’affiche.</p> <p><b>REMARQUE</b>: Lorsqu’une équipe est affectée à un groupe ou à un sous-groupe, les administrateurs de groupe de ce groupe ou de ce sous-groupe peuvent gérer l’équipe sans en être membre. Les administrateurs de groupe peuvent accéder à la zone Équipes dans le menu principal et cliquer sur la flèche Changer d’équipe . <img src="assets/switch-team-icon.png" alt="Icône Changer l’équipe"> pour répertorier toutes les équipes affectées aux groupes qu’elles gèrent.</p> <p>Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe en pointant dessus et en cliquant sur l’icône d’information. <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus de celui-ci et ses administrateurs.</p> </td> 
+      <td> <p>Associez l’équipe à un groupe. Commencez à saisir le nom du groupe, puis sélectionnez-le lorsqu’il s’affiche.</p> <p><b>REMARQUE</b> : lorsqu’une équipe est affectée à un groupe ou à un sous-groupe, les administrateurs de groupe de ce groupe ou de ce sous-groupe peuvent gérer l’équipe sans en être membre. Les administrateurs de groupe peuvent accéder à la zone Équipes dans le menu principal et cliquer sur la flèche Changer d’équipe <img src="assets/switch-team-icon.png" alt="Icône Changer l’équipe"> pour répertorier toutes les équipes affectées aux groupes qu’ils gèrent.</p> <p>Vous pouvez vous assurer que vous associez le groupe de droite à l’équipe en pointant dessus et en cliquant sur l’icône d’information <img src="assets/info-icon.png"> qui s’affiche à côté. Cette option permet d’afficher une infobulle contenant des informations sur le groupe, telles que la hiérarchie des groupes qui le précèdent et ses administrateurs et administratrices.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Propriétaire</td> 
@@ -80,7 +79,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      <tr> 
       <td role="rowheader">Membres d'équipe</td> 
       <td> <p>Ajoutez des membres de l’équipe et . Commencez à saisir le nom d’un utilisateur, puis sélectionnez-le lorsqu’il s’affiche. Répétez cette procédure pour ajouter plusieurs utilisateurs à l’équipe.</p> 
-      <p><b>CONSEIL</b>: Vous pouvez ajouter n’importe quel nombre d’utilisateurs à une équipe. Cependant, nous vous recommandons de ne pas ajouter un nombre trop important dans une seule équipe, car la gestion du travail de l'équipe risque de devenir trop complexe.</p> </td> 
+      <p><b>TIP</b> : vous pouvez ajouter un nombre indéfini d’utilisateurs à une équipe. Cependant, nous vous recommandons de ne pas ajouter un nombre trop important dans une seule équipe, car la gestion du travail de l'équipe risque de devenir trop complexe.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
@@ -96,7 +95,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Travailler sur ce projet</td> 
-      <td> <p>Définissez le bouton Travailler dessus sur un bouton Démarrer . Lorsqu’un utilisateur clique sur Démarrer, l’état de l’élément est automatiquement mis à jour.</p> <p>Pour plus d’informations sur la configuration du bouton Démarrer , voir <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacez le bouton Travailler dessus par un bouton Démarrer</a>.</p> </td> 
+      <td> <p>Définissez le bouton Travailler dessus sur un bouton Démarrer . Lorsqu’un utilisateur clique sur Démarrer, l’état de l’élément est automatiquement mis à jour.</p> <p>Pour plus d’informations sur la configuration du bouton Démarrer, voir <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacer le bouton Travailler dessus par un bouton Démarrer</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bouton Terminé</td> 

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Version finale bêta 2018.3
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de la version bêta 2018.3. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 10 octobre 2018. Il sera disponible dans l’environnement de production en novembre 2018.
+title: Version 2018.3, version bêta finale
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de Beta 2018.3. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 10 octobre 2018. Il sera disponible dans l’environnement de production en novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,28 +10,28 @@ exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Version finale bêta 2018.3
+# Version 2018.3, version bêta finale
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de la version bêta 2018.3. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 10 octobre 2018. Il sera disponible dans l’environnement de production en novembre 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de Beta 2018.3. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 10 octobre 2018. Il sera disponible dans l’environnement de production en novembre 2018.
 
 >[!NOTE]
 >
 > Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2018.3, voir  [Présentation de l’activité de la version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2018.3, voir  [Présentation de l’activité de version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La version finale de la version bêta 2018.3 contient les améliorations suivantes :
+La version finale de Beta 2018.3 contient les améliorations suivantes :
 
 * [Synchronisation bidirectionnelle entre le calendrier d’accueil et le calendrier Outlook](#two-way-sync-between-home-calendar-and-outlook-calendar)
 * [Mises à jour pour l’ajout de nouvelles tâches à la page d’accueil](#updates-for-adding-new-tasks-in-home)
-* [Outils de balisage de vérification désormais développés par défaut](#proofing-markup-tools-now-expanded-by-default)
-* [Intégration du document Microsoft OneDrive](#microsoft-onedrive-document-integration)
-* [Intégration de Workfront pour Microsoft Teams](#workfront-for-microsoft-teams-integration)
-* [Mise à jour de l’intégration de Workfront pour Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
+* [Outils de balisage de vérification de vérification désormais développés par défaut](#proofing-markup-tools-now-expanded-by-default)
+* [Microsoft OneDrive Document Integration](#microsoft-onedrive-document-integration)
+* [Workfront pour l’intégration de Microsofts Teams](#workfront-for-microsoft-teams-integration)
+* [Mise à jour de Workfront pour l’intégration Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Améliorations des applications mobiles Workfront](#workfront-mobile-app-improvements)
 
 ## Synchronisation bidirectionnelle entre le calendrier d’accueil et le calendrier Outlook {#two-way-sync-between-home-calendar-and-outlook-calendar}
@@ -40,14 +40,14 @@ Lorsque vous configurez votre calendrier d’accueil pour qu’il se synchronise
 
 Auparavant, vous pouviez uniquement synchroniser les éléments de votre calendrier Outlook avec votre calendrier d’accueil.
 
-Pour plus d’informations sur la configuration de votre calendrier d’accueil pour la synchronisation avec Outlook, voir [Configuration des paramètres de la vue Calendrier d’accueil](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+Pour plus d’informations sur la configuration de votre calendrier d’accueil pour la synchronisation avec Outlook, voir [Configuration des paramètres de la vue de votre calendrier d’accueil](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
 ## Mises à jour pour l’ajout de nouvelles tâches à la page d’accueil {#updates-for-adding-new-tasks-in-home}
 
 * Vous pouvez maintenant mettre à jour la date d’achèvement planifiée sur une tâche personnelle.
 * Vous pouvez désormais affecter des équipes et des rôles aux requêtes et aux tâches de projet créées dans la page d’accueil.
 
-Pour plus d’informations sur les mises à jour ci-dessus, voir  [Création d’éléments de travail à partir de la zone Accueil](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Pour plus d’informations sur les mises à jour ci-dessus, voir  [Créez des tâches à partir de la zone d’accueil](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Outils de balisage de vérification désormais développés par défaut {#proofing-markup-tools-now-expanded-by-default}
 
@@ -55,7 +55,7 @@ Désormais, lorsque vous ouvrez un BAT dans la visionneuse de vérification, les
 
 Auparavant, vous deviez cliquer sur pour développer ces outils dans un menu vertical.
 
-Pour plus d’informations, voir  [Configuration des paramètres de la visionneuse de vérification](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Pour plus d’informations, voir  [ Configurez les paramètres de la visionneuse de vérification ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 ## Intégration du document Microsoft OneDrive {#microsoft-onedrive-document-integration}
 
@@ -86,7 +86,7 @@ L’intégration est proposée gratuitement à tous les clients qui bénéficien
 
 >[!NOTE]
 >
-> Certaines zones de l’intégration décrites dans la vidéo suivante ont été modifiées. Pour obtenir les informations les plus récentes sur Workfront pour les Microsofts Teams, voir la section [[!DNL Adobe Workfront for Microsoft Teams]: index de l’article](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) .
+> Certaines zones de l’intégration décrites dans la vidéo suivante ont été modifiées. Pour obtenir les informations les plus récentes sur Workfront pour les Microsofts Teams, reportez-vous à la section [[!DNL Adobe Workfront for Microsoft Teams] : index d’article](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) .
 
 ## Mise à jour de l’intégration de Workfront pour Adobe Creative Cloud {#updated-workfront-for-adobe-creative-cloud-integration}
 
@@ -104,7 +104,7 @@ L’intégration est proposée gratuitement à tous les clients qui bénéficien
 
 ## Améliorations des applications mobiles Workfront {#workfront-mobile-app-improvements}
 
-Les nouvelles fonctionnalités suivantes seront disponibles dans les boutiques d’applications iOS et Android au moment de la version de production 2018.3 :
+Les nouvelles fonctionnalités suivantes seront publiées dans les boutiques d’applications iOS et Android au moment de la version de production 2018.3 :
 
 * Première expérience utilisateur
 

@@ -1,19 +1,19 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Désinstallation de Workfront pour Adobe Experience Manager Enhanced Connector
+title: Désinstallation du connecteur amélioré de Workfront for Adobe Experience Manager
 description: Vous devez désinstaller Workfront avec le connecteur amélioré Adobe Experience Manager vers la dernière intégration native connectant Workfront et Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
 source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 0%
+source-wordcount: '261'
+ht-degree: 3%
 
 ---
 
-# Désinstallation de Workfront avec Adobe Experience Manager Enhanced Connector
+# Désinstaller Workfront avec le connecteur amélioré d’Adobe Experience Manager
 
 Vous devez désinstaller Workfront avec le connecteur amélioré Adobe Experience Manager vers la dernière intégration native connectant Workfront et Adobe Experience Manager Assets as a Cloud Service.
 
@@ -23,7 +23,7 @@ Vous devez désinstaller Workfront avec le connecteur amélioré Adobe Experienc
 
 ## Désinstaller le connecteur amélioré
 
-1. Accédez à votre référentiel as a Cloud Service AEM et clonez-le à partir de Cloud Manager.
+1. Accédez à votre référentiel AEM as a Cloud Service et clonez-le à partir de Cloud Manager.
 
 1. Ouvrez votre référentiel git cloné dans l’IDE de votre choix.
 
@@ -104,4 +104,4 @@ Vous devez désinstaller Workfront avec le connecteur amélioré Adobe Experienc
 
 1. Validez les modifications et envoyez le code vers le référentiel Cloud Manager.
 
-1. Exécutez le pipeline Cloud Manager pour déployer les modifications sur votre instance Cloud Services.
+1. Exécutez le pipeline Cloud Manager pour déployer les modifications sur votre instance Cloud Service.

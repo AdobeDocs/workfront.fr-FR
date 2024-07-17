@@ -10,7 +10,7 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 source-git-commit: 50e52f27f1f3f6f5b601b50303aba409559d8ca8
 workflow-type: tm+mt
 source-wordcount: '2070'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 8%
 
 <!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles dans l’ensemble. Il est disponible uniquement dans l’environnement Aperçu pour tous les clients ou dans l’environnement Production pour les clients qui ont activé les versions rapides.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour toutes les clientes et tous les clients ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation de versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Vous pouvez affecter des tâches aux utilisateurs, aux rôles de tâche ou aux équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 
 >[!TIP]
 >
->Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous pouvez affecter uniquement les utilisateurs, les rôles de tâche et les équipes actifs.
+>Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous pouvez affecter uniquement les utilisateurs et utilisatrices, fonctions et équipes actifs.
 >
->Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, ils restent affectés à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
+>Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
 >
->* Réaffectez la tâche aux ressources actives.
->* Associez les utilisateurs d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
+>* Réaffectez l’élément de travail aux ressources actives.
+>* Associez les personnes d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 >
 
 Le nombre d’utilisateurs affectés à une tâche et le planning de la tâche Propriétaire peuvent modifier les dates planifiées d’une tâche, ce qui entraîne la modification de la chronologie du projet. Pour plus d’informations sur l’impact de l’affectation de plusieurs utilisateurs à une tâche, voir [Présentation de la modification des affectations de tâche](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
@@ -41,13 +41,13 @@ Le nombre d’utilisateurs affectés à une tâche et le planning de la tâche P
 En plus de cet article, nous vous recommandons de lire les articles suivants pour plus d’informations sur l’affectation de tâches :
 
 * [Présentation de la modification des affectations de tâche](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
-* [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [Rendre des affectations intelligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [Création d’affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Modification de plusieurs affectations d’utilisateurs dans une liste de tâches](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+* [Présentation des affectations dynamiques](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
+* [Effectuer des affectations dynamiques](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Modifier plusieurs affectations d’utilisateurs dans une liste de tâches](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Planification d’une présentation de projet](../../../manage-work/projects/planning-a-project/plan-project.md)
-* [Présentation de la date d’achèvement planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
+* [Présentation de la tâche Date d’achèvement prévue](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [Définition de la date d’achèvement prévue du projet](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
 * [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
@@ -100,7 +100,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou plus élevé</p> </td> 
+   <td> <p>Travail ou supérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
@@ -110,7 +110,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Attribution ou autorisations supérieures à des tâches</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations Contribute ou supérieures pour les tâches</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,7 +126,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 * Les utilisateurs peuvent avoir plusieurs rôles de tâche associés à leur profil. Pour plus d’informations sur l’association d’utilisateurs à des rôles de tâche, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Si vous affectez plusieurs utilisateurs à une tâche ou à un problème, le premier utilisateur que vous sélectionnez est désigné automatiquement comme propriétaire de la tâche ou du problème.
-Pour plus d’informations sur la modification de cette option, voir les informations sur l’option Créer un Principal dans l’article . [Création d’affectations avancées](create-advanced-assignments.md).
+Pour plus d’informations sur la modification de ce paramètre, voir les informations sur l’option Créer un Principal dans l’article [Créer des affectations avancées](create-advanced-assignments.md).
 
 * Une équipe ne peut pas être une personne désignée par Principal pour une tâche ou un problème. Seul un utilisateur ou un rôle de tâche peut être désigné comme Principal sur une tâche ou un problème.
 
@@ -174,7 +174,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Attribuer une seule tâche
 
 1. Accédez à une tâche que vous souhaitez affecter.
-1. Cliquez sur **Attribuer à** dans le **Affectations** champ dans l’en-tête de la tâche
+1. Cliquez sur **Attribuer à** dans le champ **Affectations** dans l’en-tête de la tâche.
 
    Ou
 
@@ -183,7 +183,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    Dans l’environnement de production :
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Dans l’environnement Aperçu :</span>
+   <span class="preview">Dans l’environnement de prévisualisation :</span>
    ![Affectations](assets/assignments-box-in-task-header.png)
 
 1. Utilisez l’une des méthodes suivantes :
@@ -193,14 +193,14 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
      >[!TIP]
      >
-     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les personnes doivent être associées à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
      >
      >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
      ><span class="preview">Lors de l’ajout d’une affectation de rôle de tâche, vous pouvez rechercher le rôle ou l’emplacement de la tâche. Sélectionnez un rôle dans la liste Rôles de tâche pour utiliser le taux de facturation par défaut pour l’affectation ou sélectionnez un rôle de tâche Carte de taux pour utiliser le taux de facturation dans la carte de taux. Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Conditionnel) Cliquez sur l’un des noms de la section <span class="preview">**Affectations proposées**, **Utilisateurs et équipes**, ou **Rôles de tâche**, ou **Rôles de carte de taux**</span> répertorie lorsqu’elles s’affichent. Pour plus d’informations, voir [Présentation des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Conditionnel) Cliquez sur l’un des noms dans les listes <span class="preview">**Affectations proposées**, **Utilisateur et équipes**, **Rôles de tâche** ou **Rôles de carte de taux**</span> lors de leur affichage. Consultez [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) pour en savoir plus.
 
      Vous pouvez commencer à saisir le nom d’un utilisateur, d’une équipe ou d’un rôle de tâche à affecter à la tâche, puis le sélectionner lorsqu’il s’affiche dans la liste.
 
@@ -209,7 +209,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      Pour plus d’informations sur la façon d’effectuer des affectations avancées, voir [Création d’affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. Cliquer sur **Enregistrer**.
-1. (Facultatif et conditionnel) Cliquez sur le bouton **Icône X** en regard du nom de l’affectation dans le panneau de droite de la tâche pour supprimer une affectation, si vous avez cliqué sur **Avancé**.
+1. (Facultatif et conditionnel) Cliquez sur l’icône **X** en regard du nom de l’affectation dans le panneau droit de la tâche pour supprimer une affectation, si vous avez cliqué sur **Avancé**.
 
 ## Attribuer une tâche dans une liste
 
@@ -219,14 +219,14 @@ Selon le champ visible dans la vue, vous pouvez affecter les entités suivantes 
 
 | champ | Entités affectées |
 |---|---|
-| **Attribuer à** | Attribuer un utilisateur |
-| **Attribué** | Attribuer un utilisateur |
+| **Attribuer À** | Attribuer un utilisateur |
+| **Affecté** | Attribuer un utilisateur |
 | **Affectations** | Affectation d’utilisateurs, de rôles de tâche ou d’équipes |
 
 Pour affecter des tâches dans une liste :
 
 1. Accédez à la liste des tâches auxquelles les champs Affecté à, Affecté ou Affectation sont affichés dans la vue.
-1. (Facultatif) Cliquez sur le **Enregistrement automatique** et sélectionnez l’une des options suivantes :
+1. (Facultatif) Cliquez sur le menu déroulant **Enregistrement automatique** et sélectionnez l’une des options suivantes :
 
    | Option | Description des options |
    |---|---| 
@@ -234,23 +234,23 @@ Pour affecter des tâches dans une liste :
    | Enregistrement manuel | Vous devez enregistrer vos modifications manuellement. Vous pouvez annuler vos modifications avant de les enregistrer. |
    | Planification chronologique | Vous devez enregistrer vos modifications manuellement. Vous pouvez annuler vos modifications avant de les enregistrer. L’enregistrement de vos modifications et de toutes les dépendances du projet est plus rapide que lors de la sélection de l’enregistrement manuel. |
 
-   Pour plus d’informations sur l’enregistrement des tâches lorsque vous les modifiez dans une liste, voir [Editer les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+   Pour plus d’informations sur l’enregistrement des tâches lorsque vous les modifiez dans une liste, voir [Modifier les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 1. Pour affecter des tâches, effectuez l’une des opérations suivantes :
 
-   * Cliquez dans le **Affecté à** ou **Attribué** et commencez à saisir le nom d’un utilisateur actif que vous souhaitez affecter à la tâche, puis cliquez dessus lorsqu’il s’affiche dans la liste.
-   * Cliquez dans le **Affectations** et commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe actif à affecter à la tâche, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   * Cliquez dans les champs **Affecté à** ou **Affecté** et commencez à saisir le nom d’un utilisateur actif que vous souhaitez affecter à la tâche, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   * Cliquez dans le champ **Affectations** et commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe actif à affecter à la tâche, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
      >[!TIP]
      >
-     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+     >Lors de l’ajout d’une affectation d’utilisateur, notez l’avatar, le rôle de Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les personnes doivent être associées à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
      >
      >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
      ><span class="preview">Lors de l’ajout d’une affectation de rôle de tâche, vous pouvez rechercher le rôle ou l’emplacement de la tâche. Sélectionnez le rôle de tâche système/par défaut pour utiliser le taux de facturation par défaut pour l’affectation ou sélectionnez un rôle de tâche Carte de taux pour utiliser le taux de facturation dans la carte de taux. Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-1. (Conditionnel) Lorsqu’elle est visible dans la variable **Affectations** , cliquez sur le champ **Personnes** dans le coin supérieur droit de la zone Affectations pour ouvrir la **Affectations avancées** et créer des affectations avancées.
+1. (Conditionnel) Lorsqu’il est visible dans le champ **Affectations**, cliquez sur l’icône **Personnes** dans le coin supérieur droit de la zone Affectations pour ouvrir la zone **Affectations avancées** et créer des affectations avancées.
 
    <!--
    there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
@@ -267,7 +267,7 @@ Pour affecter des tâches dans une liste :
 ## Affectation de plusieurs tâches à un utilisateur
 
 1. Accédez à la liste des tâches que vous souhaitez affecter en bloc.
-1. (Conditionnel) Assurez-vous que la variable **Enregistrement automatique** est sélectionnée si vous vous trouvez dans la liste des tâches d’un projet.
+1. (Conditionnel) Assurez-vous que l’option **Enregistrement automatique** est sélectionnée si vous vous trouvez dans la liste des tâches d’un projet.
 
    >[!IMPORTANT]
    >
@@ -276,36 +276,36 @@ Pour affecter des tâches dans une liste :
 1. Sélectionnez plusieurs tâches dans la liste des tâches.
 1. Cliquez sur **Modifier**.
 
-   La variable **Modifier les tâches** s’ouvre.
+   La boîte de dialogue **Modifier les tâches** s’ouvre.
 
-1. Dans le **Affectations** , sélectionnez la zone **Cessionnaire** puis commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe que vous souhaitez affecter à toutes les tâches.
+1. Dans la zone **Affectations**, sélectionnez la zone **Assignation**, puis commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe que vous souhaitez affecter à toutes les tâches.
 
    >[!IMPORTANT]
    >
    >Si l’une des tâches est déjà affectée, les ressources que vous indiquez ici sont ajoutées aux tâches au lieu de remplacer les ressources existantes sur les tâches.
 
-1. (Facultatif) Sélectionnez le bouton radio dans le **Propriétaire de la tâche** pour indiquer la ressource qui est la personne désignée principale ou le propriétaire de la tâche, lorsque vous affectez plusieurs ressources à la tâche. Cette option n’est pas disponible pour les équipes.
-1. (Conditionnel) Spécifiez la variable **% d’affectation** pour chaque ressource affectée à la tâche si toutes les tâches sélectionnées ont un type de durée d’affectation pilotée par l’effort ou calculée. Cela indique le temps que ces ressources doivent consacrer à l’exécution de la tâche. Cette option n’est disponible que pour les utilisateurs et les rôles de tâche.
+1. (Facultatif) Sélectionnez le bouton radio dans la colonne **Propriétaire de la tâche** pour indiquer quelle ressource est la personne désignée principale ou le propriétaire de la tâche, lorsque vous affectez plusieurs ressources à la tâche. Cette option n’est pas disponible pour les équipes.
+1. (Conditionnel) Spécifiez l’ **affectation %** pour chaque ressource affectée à la tâche si toutes les tâches que vous avez sélectionnées ont un type de durée d’affectation pilotée par l’effort ou calculée. Cela indique le temps que ces ressources doivent consacrer à l’exécution de la tâche. Cette option n’est disponible que pour les utilisateurs et les rôles de tâche.
 
    Ou
 
-   Indiquez le nombre de **Heures** pour chaque ressource affectée à la tâche si toutes les tâches que vous avez sélectionnées ont un type de durée simple. Le total de toutes les heures pour toutes les ressources doit être égal au nombre d’ Heures planifiées pour la tâche.
+   Spécifiez la valeur **Heures** pour chaque ressource affectée à la tâche si toutes les tâches que vous avez sélectionnées ont un type de durée simple. Le total de toutes les heures pour toutes les ressources doit être égal au nombre d’ Heures planifiées pour la tâche.
 
    >[!IMPORTANT]
    >
    >Vous ne pouvez pas spécifier le pourcentage d’allocation ou le nombre d’heures par ressource si les tâches que vous avez sélectionnées ont des types de durée différents ou si les tâches que vous avez sélectionnées ont des types de durée différents.
 
-   Pour plus d’informations sur le type de durée sur les tâches, voir [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Pour plus d’informations sur le type de durée sur les tâches, voir [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Facultatif) Sélectionnez un rôle que l’utilisateur doit remplir dans la tâche à partir de la fonction **Choisir un rôle** dans le menu déroulant **Le rôle du cessionnaire** lorsque vous affectez des utilisateurs à des tâches. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle de Principal de l’utilisateur.
+1. (Facultatif) Sélectionnez un rôle que l’utilisateur doit remplir pour la tâche dans le menu déroulant **Choisir un rôle** de la colonne **Rôle du cessionnaire** lorsque vous affectez des utilisateurs à des tâches. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle de Principal de l’utilisateur.
 
 1. (Facultatif) Si vous souhaitez supprimer des personnes désignées existantes de toutes les tâches, effectuez l’une des opérations suivantes :
 
-   1. Commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe à supprimer de la tâche, puis sélectionnez-le lorsqu’il apparaît dans la liste et cliquez sur **Supprimer le cessionnaire** pour supprimer d’autres personnes désignées.
+   1. Commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe que vous souhaitez supprimer de la tâche, puis sélectionnez-le lorsqu’il apparaît dans la liste et cliquez sur **Supprimer le cessionnaire** pour supprimer d’autres cessionnaires.
    1. Cliquez sur **Supprimer tous les cessionnaires existants** pour supprimer tous les cessionnaires de toutes les tâches sélectionnées.
 
 1. Cliquez sur **Enregistrer les modifications**.
-1. (Facultatif et conditionnel) Lorsque les champs Affectés à ou Affectations s’affichent dans la liste des tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur l’icône **Icône X** en regard du nom d’une personne désignée pour la supprimer de la tâche.
+1. (Facultatif et conditionnel) Lorsque les champs Affectés à ou Affectations s’affichent dans votre liste de tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur l’ **icône X** en regard du nom d’une personne désignée pour la supprimer de la tâche.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

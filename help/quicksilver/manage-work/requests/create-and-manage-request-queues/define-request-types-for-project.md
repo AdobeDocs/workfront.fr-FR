@@ -1,54 +1,54 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: Définition des types de requête pour un projet
+title: Définir les types de demandes pour un projet
 description: Vous pouvez organiser le type de problèmes ou de requêtes connectés dans Adobe Workfront par types de requêtes.
 author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
 source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 2%
+source-wordcount: '428'
+ht-degree: 27%
 
 ---
 
-# Définition des types de requête pour un projet
+# Définir les types de demandes pour un projet
 
 Vous pouvez organiser le type de problèmes ou de requêtes connectés dans Adobe Workfront par types de requêtes.
 
 Cette organisation est utile pour des raisons de création de rapports et pour aider les utilisateurs à comprendre le type de travail inattendu qui peut se produire pendant la durée de vie d’un projet.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Adobe Workfront</a>*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Adobe Workfront</a>*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Présentation des licences</a>*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations de gestion d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Conditions préalables
 
@@ -60,17 +60,17 @@ Avant de commencer, vous devez effectuer les opérations suivantes :
 
 ## Considérations sur les types de requête
 
-* Vous pouvez spécifier le type de problèmes ou de requêtes pouvant être consignés dans un projet lorsque vous configurez la variable **Détails de la file** zone du projet.
+* Vous pouvez spécifier le type de problèmes ou de requêtes pouvant être consignés dans un projet lorsque vous configurez la zone **Détails de la file d’attente** pour le projet.
 * Vous n’avez pas besoin d’activer le projet pour qu’il devienne une file d’attente de requêtes afin de pouvoir définir des types de requêtes pour un projet. Les problèmes consignés pour un projet peuvent être étiquetés avec un type de requête différent.
-* Si vous ajoutez des rubriques de file d’attente à votre projet, vous devez définir des types de requêtes sur chaque rubrique de file d’attente pour l’afficher lors de l’ajout d’un nouveau problème ou d’une nouvelle requête. Pour plus d’informations, voir [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Si vous ajoutez des rubriques de file d’attente à votre projet, vous devez définir des types de requêtes sur chaque rubrique de file d’attente pour l’afficher lors de l’ajout d’un nouveau problème ou d’une nouvelle requête. Pour plus d’informations, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Définition du problème ou des types de requête pour un projet
 
 1. Cliquez sur **Projets** dans le menu principal. ![](assets/main-menu-icon.png)
 
 1. Cliquez sur le nom du projet pour l’ouvrir.
-1. Dans le panneau de gauche, cliquez sur **Détails de la file**.
-1. Dans le **Propriétés de la file d’attente** , sélectionnez **Types de requête** vous voulez le projet.
+1. Dans le panneau de gauche, cliquez sur **Détails de la file d’attente**.
+1. Dans la section **Propriétés de la file d’attente**, sélectionnez les **types de requête** que vous souhaitez pour le projet.
 
    >[!NOTE]
    >

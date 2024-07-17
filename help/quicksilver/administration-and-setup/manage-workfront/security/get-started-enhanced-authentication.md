@@ -19,7 +19,7 @@ ht-degree: 7%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront modifie la gestion système des utilisateurs et des mots de passe. Ces modifications seront appliquées par phases, appelées **Authentification améliorée** expérience. L’authentification améliorée offre aux utilisateurs une expérience de connexion plus cohérente et plus sécurisée pour tous les produits et services Workfront.
+Adobe Workfront modifie la gestion système des utilisateurs et des mots de passe. Ces modifications se déploieront dans une version par étapes appelée **Authentification améliorée** . L’authentification améliorée offre aux utilisateurs une expérience de connexion plus cohérente et plus sécurisée pour tous les produits et services Workfront.
 
 Le tableau suivant fournit des détails sur les fonctionnalités actuelles et futures :
 
@@ -76,7 +76,7 @@ Le tableau suivant fournit des détails sur les fonctionnalités actuelles et fu
    <td> <p>Non planifié</p> <p>Cette fonctionnalité n’est pas une bonne pratique de sécurité</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Exigences en matière de stratégie de mot de passe</strong> </p> </td> 
+   <td colspan="3"> <p><strong> Exigences en matière de stratégie de mot de passe </strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 

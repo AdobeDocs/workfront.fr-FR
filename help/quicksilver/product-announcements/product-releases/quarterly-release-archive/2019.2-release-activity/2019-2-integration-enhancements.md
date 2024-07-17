@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: 2019.2 Améliorations de l’intégration et des applications mobiles
+title: Améliorations apportées à l’application mobile et à l’intégration (version 2019.2)
 description: Cette page décrit toutes les améliorations apportées à l’intégration et à Mobile avec la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
@@ -10,15 +10,15 @@ exl-id: ad2ca56c-27cf-4238-84dc-08ce575d2bec
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 2019.2 Améliorations de l’intégration et des applications mobiles
+# Améliorations apportées à l’application mobile et à l’intégration (version 2019.2)
 
 Cette page décrit toutes les améliorations apportées à l’intégration et à Mobile avec la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2019.2, voir [Aperçu de l’activité de version 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2019.2, consultez la [présentation de l’activité de version 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Workfront pour les améliorations de Microsofts Teams
 

@@ -18,7 +18,7 @@ ht-degree: 3%
 
 Cette page décrit toutes les améliorations apportées à l’intégration et aux appareils mobiles avec la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, voir [Présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, consultez la [présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Workfront Fusion 2.0 est là !
 
@@ -52,5 +52,5 @@ Commandes Pin
 
 Vous pouvez utiliser la fonction d’épingle pour accéder aux commandes enregistrées de l’assistant virtuel, ainsi qu’aux broches de votre navigateur web.
 
-**Remarque : L’assistant virtuel mobile est obsolète depuis avril 2024.**
+**Remarque : l’assistant virtuel mobile est obsolète depuis avril 2024.**
 

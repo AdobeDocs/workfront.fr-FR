@@ -1,6 +1,6 @@
 ---
-title: 22.4 Améliorations apportées aux projets
-description: 22.4 Améliorations apportées aux projets
+title: Améliorations apportées aux projets (version 22.4)
+description: Améliorations apportées aux projets (version 22.4)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,21 +9,21 @@ exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
-# 22.4 Améliorations apportées aux projets
+# Améliorations apportées aux projets (version 22.4)
 
 Cette page décrit toutes les améliorations apportées aux projets avec la version 22.4 de l’environnement Aperçu. Ces améliorations seront disponibles la semaine du 3 octobre 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, voir [Présentation de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, consultez la [présentation de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Les détails du prédécesseur sont désormais disponibles.
 
 Pour afficher les détails des prédécesseurs d’une tâche, vous pouvez maintenant passer la souris sur le numéro du prédécesseur dans la colonne Prédécesseurs . La zone Détails affiche la tâche et le projet prédécesseur référencés, les dates de début et de fin prévues pour la tâche précédente et le nombre de prédécesseurs et de successeurs de la tâche précédente. Vous pouvez développer les détails du projet pour afficher plus d’informations sur le projet. Des informations supplémentaires sont incluses pour les prédécesseurs sur plusieurs projets.
 
-Pour plus d’informations, voir [Créer une relation de prédécesseur sur la liste des tâches](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+Pour plus d’informations, voir [Création d’une relation de prédécesseur sur la liste des tâches](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 ## Affecter plusieurs équipes à une tâche ou à un problème
 
@@ -33,7 +33,7 @@ Pour vous offrir une plus grande flexibilité dans la gestion des tâches et des
 >
 >Cette fonctionnalité n’est actuellement pas disponible dans l’équilibreur de charge de travail de la zone Équipes.
 
-Pour plus d’informations, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) et [Attribuer des problèmes](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
+Pour plus d’informations, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) et [Affecter des problèmes](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
 ## Sélection intelligente d’utilisateurs pour les rôles de projet dans les zones Modifier et Détails
 
@@ -47,11 +47,11 @@ Nous avons amélioré l’affichage des utilisateurs lorsque vous les ajoutez au
 
 Désormais, lorsque vous ajoutez un utilisateur à l’un de ces champs dans les zones Modifier ou Détails, en plus de son nom et de son avatar, son Rôle de Principal et son email s’affichent également. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.
 
-Pour plus d’informations, voir [Modifier des projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+Pour plus d’informations, voir [Modifier les projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 REMARQUE : D’autres champs utilisateur pour les projets, les tâches et les problèmes seront mis à jour avec cette fonctionnalité dans les prochaines versions.
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## Les champs de date calculée sont toujours enregistrés en fonction du temps universel coordonné (UTC).
 
@@ -77,11 +77,11 @@ Sur la base de vos commentaires, nous avons introduit les améliorations suivant
 
 * Utilisez le filtre rapide pour localiser facilement des éléments dans la liste de champs et de formulaires personnalisés modernisés. Profitez également d’une apparence améliorée lors de la gestion de vos formulaires et champs.
 
-  Pour plus d’informations sur le filtre rapide, voir [Appliquer le filtre rapide à une liste](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Pour plus d’informations sur le filtre rapide, voir [Application du filtre rapide à une liste](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
-## Version bêta publique : nouvelle expérience de filtrage pour les projets, les tâches et les problèmes
+## Beta public : nouvelle expérience de filtrage pour les projets, les tâches et les problèmes
 
 Le filtrage dans les listes de projets, de tâches et de problèmes a été repensé afin de vous aider à créer et partager rapidement des filtres. Les fonctionnalités incluent :
 
@@ -113,7 +113,7 @@ Le mode Texte reste disponible pour l’édition avancée de filtres, et les adm
 
 ### Nous voulons vos commentaires !
 
-Avec cette version bêta publique, les utilisateurs ont la possibilité d’envoyer leurs commentaires directement à l’équipe qui travaille sur l’expérience de filtrage en cliquant sur le bouton de commentaire. Nous sommes impatients d’avoir de vos nouvelles et de celles de vos utilisateurs sur la nouvelle expérience de filtrage en version bêta publique. Si votre équipe souhaite rencontrer directement un produit afin de fournir des commentaires supplémentaires, n’hésitez pas à programmer une réunion ici : https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Grâce à cette Beta publique, les utilisateurs ont la possibilité d’envoyer leurs commentaires directement à l’équipe qui travaille sur l’expérience des filtres en cliquant sur le bouton de commentaire. Nous sommes impatients d’avoir de vos nouvelles et de celles de vos utilisateurs sur la nouvelle expérience de filtrage en version bêta publique. Si votre équipe souhaite rencontrer directement un produit afin de fournir des commentaires supplémentaires, n’hésitez pas à programmer une réunion ici : https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Quelle sera la suite ?
 
@@ -130,4 +130,4 @@ Nous voulons vous offrir une valeur itérative, de sorte que nous continuerons �
 
 Pour plus d’informations, voir [Présentation des filtres](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) et [Création ou modification de filtres dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412391/)
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412391/)

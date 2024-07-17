@@ -18,49 +18,49 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Si vous quittez le bureau pendant une longue période, vous pouvez déléguer la propriété de vos bons à tirer à un autre utilisateur de votre compte.
 
 >[!NOTE]
 >
->Cette fonction n’est disponible que dans [!DNL Workfront Proof].
+>Cette fonction est disponible uniquement dans [!DNL Workfront Proof].
 
 Pour désigner la propriété temporaire de vos bons à tirer :
 
-1. Within [!DNL Workfront Proof], accédez à **[!UICONTROL Paramètres personnels]**.\
+1. Dans [!DNL Workfront Proof], accédez à **[!UICONTROL Personal settings]**.\
    ![personal-settings.png](assets/personal-settings-350x83.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Absence du bureau]** . Les paramètres suivants sont disponibles :
+1. Cliquez sur l’onglet **[!UICONTROL Absence du bureau]** . Les paramètres suivants sont disponibles :
 
-   * **[!UICONTROL Déléguer vos BAT à]** un autre utilisateur de votre compte.
-   * Activez et désactivez la variable **[!UICONTROL Absence du bureau]** en cochant ou décochant la case.
+   * **[!UICONTROL Déléguez vos BAT à]** un autre utilisateur de votre compte.
+   * Activez et désactivez la fonction **[!UICONTROL Absence du bureau]** en cochant ou en décochant la case.
    * Sélectionnez la **[!UICONTROL Date de début]**.
 
-      Si la variable **[!UICONTROL Commencer immédiatement]** est sélectionnée, la propriété des BAT est déléguée à l’utilisateur sélectionné immédiatement après l’activation de la fonction.
+     Si l’option **[!UICONTROL Démarrer immédiatement]** est sélectionnée, la propriété des bons à tirer est déléguée à l’utilisateur sélectionné immédiatement après l’activation de la fonction.
 
-      Si une date et une heure de début spécifiques sont définies, la fonction est activée le jour et l’heure sélectionnés.
+     Si une date et une heure de début spécifiques sont définies, la fonction est activée le jour et l’heure sélectionnés.
 
    * Sélectionnez la **[!UICONTROL Date de fin]**.
 
-      Si aucune date de fin n’est sélectionnée, la propriété des bons à tirer est déléguée jusqu’à ce que la fonction soit désactivée manuellement.
+     Si aucune date de fin n’est sélectionnée, la propriété des bons à tirer est déléguée jusqu’à ce que la fonction soit désactivée manuellement.
 
-      Si une date et une heure de fin spécifiques sont définies, la fonction est désactivée le jour et l’heure sélectionnés.
+     Si une date et une heure de fin spécifiques sont définies, la fonction est désactivée le jour et l’heure sélectionnés.
 
-      ![out-of-office-options.png](assets/out-of-office-options-350x234.png)
+     ![out-of-office-options.png](assets/out-of-office-options-350x234.png)
 
-1. Lorsque les bons à tirer sont délégués, le propriétaire délégué s’affiche dans la **[!UICONTROL Détails]** de la page des détails du BAT. La note de délégation de propriété apparaît dans la **[!UICONTROL Activité]** de la page des détails du BAT.
+1. Lorsque les bons à tirer sont délégués, le propriétaire délégué s’affiche dans la section **[!UICONTROL Détails]** de la page des détails du BAT. La note de délégation de propriété apparaît dans la section **[!UICONTROL Activité]** de la page des détails du BAT.
 
    ![activity-section-delegate.png](assets/activity-section-delegated-350x318.png)
 
-   Un [!UICONTROL Absence du bureau] la notification s’affiche également dans le compte du propriétaire du BAT d’origine au moment de l’activation de la fonctionnalité. Cela sert de rappel au propriétaire d’origine et lui permet également de mettre fin immédiatement à la délégation ou d’accéder à [!UICONTROL Paramètres personnels] pour l’ajuster.
+   Une notification [!UICONTROL Out of Office] s’affiche également dans le compte du propriétaire du BAT d’origine au moment de l’activation de la fonctionnalité. Cela sert de rappel au propriétaire d’origine et lui permet également de mettre fin immédiatement à la délégation ou d’accéder à [!UICONTROL Paramètres personnels] pour l’ajuster.
 
    ![notification-on-account.png](assets/notification-on-account-350x15.png)
 
-   Lorsque le propriétaire d’origine reprend la propriété de vos bons à tirer, le propriétaire délégué disparaît de la propriété [!UICONTROL Détails] de la page des détails du BAT et de la section [!UICONTROL Absence du bureau] la notification n&#39;est plus affichée dans le compte du propriétaire du BAT d&#39;origine. Une note indiquant que la propriété du BAT a été rétablie apparaît dans la variable [!UICONTROL Activité] de la page des détails du BAT.
+   Lorsque le propriétaire d’origine reprend la propriété de vos BAT, le propriétaire délégué disparaît de la section [!UICONTROL Détails] de la page des détails du BAT et la notification [!UICONTROL Absence du bureau] n’est plus affichée dans le compte du propriétaire du BAT d’origine. Une note indiquant que la propriété du BAT a été rétablie apparaît dans la section [!UICONTROL Activité] de la page des détails du BAT.
 
    >[!NOTE]
    >
    >Le propriétaire délégué reste dans le workflow de BAT, sauf si vous le supprimez manuellement.
 
-   ![[!UICONTROL activité-section-reprise].png](assets/activity-section-taken-back-350x99.png)
+   ![[!UICONTROL activity-section-take-back].png](assets/activity-section-taken-back-350x99.png)

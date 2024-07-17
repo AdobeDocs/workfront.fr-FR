@@ -69,13 +69,13 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 ## Créer et configurer l’accès pour une section dans un formulaire personnalisé
 
 1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans la section [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Ajoutez des champs et des widgets personnalisés au formulaire, comme décrit dans la section [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+1. Ajoutez des champs et des widgets personnalisés au formulaire, comme décrit dans [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-1. Lors de la création ou de la modification du formulaire personnalisé, sur la page **Ajouter un champ** , cliquez sur **Saut de section**.
+1. Lors de la création ou de la modification du formulaire personnalisé, dans l’onglet **Ajouter un champ**, cliquez sur **Saut de section**.
 
    ![](assets/click-section-break.jpg)
 
-1. Sur le **Paramètres des champs** , configurez les options de votre choix pour la section :
+1. Dans l’onglet **Paramètres du champ**, configurez les options de la section :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,7 +93,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader"><p>Ajouter une logique</p></td> 
-      <td><p>Utilisez la logique d’affichage pour spécifier si la section doit s’afficher sur le formulaire, en fonction des sélections que les utilisateurs font dans des champs personnalisés à choix multiples lorsqu’ils remplissent le formulaire.</p><p><strong>REMARQUE :</strong> Si la logique d’affichage est appliquée à tous les champs individuels sous un saut de section et qu’ils sont tous masqués en raison de la logique, la section entière est masquée sur le formulaire personnalisé. Cela se produit même si la logique d’affichage n’est pas appliquée au saut de section.</p><p>Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé</a>.</p></td> 
+      <td><p>Utilisez la logique d’affichage pour spécifier si la section doit s’afficher sur le formulaire, en fonction des sélections que les utilisateurs font dans des champs personnalisés à choix multiples lorsqu’ils remplissent le formulaire.</p><p><strong>REMARQUE :</strong> Si la logique d’affichage de tous les champs individuels d’un saut de section est appliquée à tous et qu’ils sont tous masqués en raison de la logique, la section entière est masquée sur le formulaire personnalisé. Cela se produit même si la logique d’affichage n’est pas appliquée au saut de section.</p><p>Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Accorder l’accès</p> </td> 

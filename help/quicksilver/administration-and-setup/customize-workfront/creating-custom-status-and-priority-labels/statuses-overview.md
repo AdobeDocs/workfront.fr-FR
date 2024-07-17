@@ -41,8 +41,8 @@ La modification de l’état d’un projet, d’une tâche ou d’un problème e
 
 Adobe Workfront est fourni avec 9 états de projet, 3 états de tâche et 10 états de problème. Pour plus d’informations à ce sujet, consultez les articles suivants :
 
-* [Accéder à la liste des états des projets système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-* [Accéder à la liste des états des tâches système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
+* [Accédez à la liste des états du projet système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+* [Accédez à la liste des états des tâches système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
 * [Accéder à la liste des statuts des problèmes système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
 ## Statuts personnalisés
@@ -51,4 +51,4 @@ Outre les états par défaut fournis avec Workfront, un administrateur Workfront
 
 ## Statuts des groupes
 
-Les administrateurs de groupe peuvent créer des états personnalisés au niveau du groupe pour répondre aux besoins de leurs groupes. Pour plus d’informations, voir [Gestion des états d’un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+Les administrateurs de groupe peuvent créer des états personnalisés au niveau du groupe pour répondre aux besoins de leurs groupes. Pour plus d’informations, voir [Gestion des états de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).

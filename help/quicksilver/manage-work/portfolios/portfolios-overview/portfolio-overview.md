@@ -26,16 +26,16 @@ Vous pouvez utiliser Portfolios et programmes pour organiser des projets. Grâce
 
 Pour créer et gérer des portefeuilles, vous devez disposer des accès suivants :
 
-* [!UICONTROL Modifier] accès aux Portfolios de votre niveau d’accès pour créer et gérer des Portfolios
+* [!UICONTROL Modifier] l’accès aux Portfolios de votre niveau d’accès pour créer et gérer des Portfolios
 * [!UICONTROL Gérer] autorisations sur un Portfolio pour pouvoir le modifier
-* [!UICONTROL Affichage] autorisations sur un Portfolio pour pouvoir l’afficher
+* [!UICONTROL Autorisations d’affichage] sur un Portfolio pour pouvoir le voir
 
 Pour plus d’informations sur l’accès aux Portfolios, voir [Présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-Pour plus d’informations sur les autorisations pour Portfolio, voir [Partage d’un portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+Pour plus d’informations sur les autorisations d’accès aux Portfolios, voir [Partage d’un portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
-Pour plus d’informations sur l’utilisation des programmes, voir [Créer un programme](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
+Pour plus d’informations sur l’utilisation des programmes, voir [Création d’un programme](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
-## [!DNL Adobe Workfront] méthodologie du portefeuille
+## Méthodologie de portefeuille [!DNL Adobe Workfront]
 
 Dans [!DNL Workfront], vous pouvez ajouter des projets à des portefeuilles pour créer et organiser vos portefeuilles.
 
@@ -43,12 +43,12 @@ Nous vous recommandons de suivre les étapes suivantes pour une organisation eff
 
 1. Créez une analyse de cas pour un projet et associez-la à un Portfolio.
 1. Associez des groupes de ressources aux projets au fur et à mesure de la création de leur analyse de cas.
-1. Obtenez la variable [!UICONTROL Analyse de cas] approuvé par votre gestionnaire de Portfolios.
-1. Gérez les performances de vos projets dans le portefeuille de la [!UICONTROL Portfolio Optimizer].
+1. Obtenez l’ [!UICONTROL analyse de cas] approuvée par votre gestionnaire de Portfolios.
+1. Gérez les performances de vos projets dans le portefeuille dans [!UICONTROL Portfolio Optimizer].
 
 Pour créer des portfolios efficaces qui apportent de la valeur à votre entreprise, vous devez commencer par une demande de projet dans laquelle vous définissez l’analyse de cas pour chaque projet qui est ultérieurement ajouté au portefeuille.
 
-La variable [!UICONTROL Analyse de cas] contient les informations suivantes :
+Le [!UICONTROL Business Case] contient les informations suivantes :
 
 * Informations générales sur le projet (description, affectations de Portfolio et de programme, propriétaire et parrain du projet)
 * Objectifs du projet
@@ -57,12 +57,12 @@ La variable [!UICONTROL Analyse de cas] contient les informations suivantes :
 * Un score d&#39;alignement
 * Une évaluation des risques
 
-Pour plus d’informations sur la variable [!UICONTROL Analyse de cas], voir [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Pour plus d’informations sur l’[!UICONTROL analyse de cas], voir [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Ces éléments clés sont utilisés dans la variable [!UICONTROL optimiseur de portefeuille] et la variable [!UICONTROL planificateur de capacité] pour faciliter la gestion de la sélection de projets.
+Ces éléments clés sont utilisés dans l’ [!UICONTROL optimiseur de portefeuille] et le [!UICONTROL  planificateur de capacité] pour faciliter la gestion de la sélection de projets.
 
 Les Portfolios sont généralement configurés pour correspondre aux pools de ressources. Les programmes d’un Portfolio s’alignent également sur un pool de ressources. Cette corrélation permet de s’assurer que toute planification des ressources est conforme à l’objectif du Portfolio, car les projets du même Portfolio sont généralement en concurrence pour les mêmes ressources.
 
 Les responsables de Portfolio peuvent effectuer le suivi des performances financières au sein du portefeuille à l’aide du tableau de bord du Portfolio. Ce tableau de bord s’affiche dans l’en-tête du Portfolio.
 
-Pour plus d’informations sur les champs financiers d’un Portfolio, voir la section [Présentation des champs financiers dans Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) dans [Portfolio Optimizer - Aperçu](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Pour plus d’informations sur les champs financiers d’un Portfolio, consultez la section [Présentation des champs financiers dans Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) de la [présentation de Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).

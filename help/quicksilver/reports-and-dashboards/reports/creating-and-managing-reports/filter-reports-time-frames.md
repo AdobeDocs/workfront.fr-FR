@@ -1,66 +1,66 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Filtrage des rapports par périodes
+title: Filtrer des rapports par périodes
 description: Vous pouvez filtrer un rapport selon la période d’une date existant sur un objet. Vous pouvez, par exemple, filtrer un rapport d’heure pour une période donnée de la saisie des heures.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 4%
+source-wordcount: '1059'
+ht-degree: 14%
 
 ---
 
-# Filtrage des rapports par périodes
+# Filtrer des rapports par périodes
 
 Vous pouvez filtrer un rapport selon la période d’une date existant sur un objet. Vous pouvez, par exemple, filtrer un rapport d’heure pour une période donnée de la saisie des heures.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Conditions préalables
 
 Le rapport doit être créé avant de filtrer ses résultats.
 
-Pour plus d’informations sur la création de rapports, voir [Créer un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Pour plus d&#39;informations sur la création de rapports, voir [Création d&#39;un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Filtrage d’un rapport selon la période d’une date {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png), puis cliquez sur **Reporting**.
+1. Cliquez sur l&#39;icône **Menu principal** ![](assets/main-menu-icon.png), puis sur **Reporting**.
 
-1. Cliquez sur **Nouveau rapport**, puis sélectionnez le type de rapport souhaité.\
-   Par exemple, sélectionnez **Rapport d’heure**.
+1. Cliquez sur **Nouveau rapport**, puis sélectionnez le type de rapport de votre choix.\
+   Par exemple, sélectionnez **Rapport horaire**.
 
-1. Sélectionnez la **Filtres** .
-1. Cliquez sur **Ajouter une règle de filtre**, puis sélectionnez **Date d’entrée horaire**.\
+1. Sélectionnez l’onglet **Filtres** .
+1. Cliquez sur **Ajouter une règle de filtre**, puis sélectionnez **Date d’entrée de l’heure**.\
    ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Dans le menu déroulant suivant, sélectionnez l’une des options suivantes :
@@ -117,7 +117,7 @@ Adobe Workfront comporte des modificateurs de période intégrés que vous pouve
 
 Ces modificateurs sont disponibles pour n’importe quel champ de date d’un filtre ou d’une invite dans n’importe quel rapport. 
 
-Pour plus d’informations sur le filtrage d’un rapport selon une période associée à une date, voir  [Filtrage d’un rapport selon la période d’une date](#filter-a-report-by-the-time-frame-of-a-date).
+Pour plus d’informations sur le filtrage d’un rapport selon une période associée à une date, voir  [Filtrez un rapport selon la période d&#39;une date](#filter-a-report-by-the-time-frame-of-a-date).
 
 Par exemple, si vous créez un rapport d’heure et souhaitez afficher les heures entrées dans une période spécifique, vous pouvez choisir parmi les options de filtre de période intégrée suivantes :
 
@@ -181,7 +181,7 @@ Par exemple, si vous créez un rapport d’heure et souhaitez afficher les heure
   </tr> 
   <tr> 
    <td role="rowheader">Année dernière</td> 
-   <td> <p>Affiche les heures pour lesquelles la date d’entrée est une date de la dernière année, où la dernière année commence le 1er janvier et se termine le 31 décembre de l’année précédant l’année en cours.</p> <p>Remarque : Il n’existe pas de période intégrée pour l’exercice financier. Vous pouvez créer un rapport et filtrer les informations par date à l’aide d’un modificateur personnalisé pour la période de l’année fiscale, tel qu’il est défini dans votre organisation. Si vous souhaitez choisir une période pour un exercice fiscal sur place, vous devez utiliser une invite au lieu d’un filtre. </p> </td> 
+   <td> <p>Affiche les heures pour lesquelles la date d’entrée est une date de la dernière année, où la dernière année commence le 1er janvier et se termine le 31 décembre de l’année précédant l’année en cours.</p> <p>Remarque : Il n’existe pas de période intégrée pour l’exercice. Vous pouvez créer un rapport et filtrer les informations par date à l’aide d’un modificateur personnalisé pour la période de l’année fiscale, tel qu’il est défini dans votre organisation. Si vous souhaitez choisir une période pour un exercice fiscal sur place, vous devez utiliser une invite au lieu d’un filtre. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -10,21 +10,21 @@ exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
 # Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT
 
-Pour intégrer Workfront et permettre à votre application cliente de communiquer avec Workfront au nom de l’utilisateur, vous devez :
+Pour intégrer Workfront et permettre à votre application cliente de communiquer avec Workfront au nom de l’utilisateur ou de l’utilisatrice, vous devez :
 
-* Création d’une application OAuth2
+* Créer une application OAuth2
 * Création d’un certificat de clé publique
 * Création d’un jeton Web JSON (JWT)
 
-## Création d’une application OAuth2
+## Créer une application OAuth2
 
-Pour plus d’informations sur la création de l’application OAuth2, voir [Créer une application OAuth2 à l’aide de l’authentification du serveur (flux JWT)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Pour plus d’informations sur la création de l’application OAuth2, voir [Création d’une application OAuth2 à l’aide de l’authentification du serveur (flux JWT)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) dans [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -38,14 +38,14 @@ Le jeton doit être signé à l’aide de la clé privée d’un certificat de s
 
 L’algorithme utilisé est RS256 (Signature RSA avec SHA-256). Il s’agit d’un algorithme asymétrique qui utilise une paire de clés publique/privée. Le fournisseur d’identité dispose d’une clé privée (secrète) utilisée pour générer la signature, et le consommateur du JWT obtient une clé publique pour valider la signature.
 
-Pour générer la clé publique, procédez comme suit : **one** de ce qui suit.
+Pour générer la clé publique, effectuez **une** des opérations suivantes.
 
-* Ouvrez votre terminal MacOS/Linux et exécutez la commande suivante, puis chargez `certificate_pub.crt` en utilisant la variable **Ajouter une clé publique** dans la configuration de l’application OAuth2 dans Workfront.
+* Ouvrez votre terminal MacOS/Linux et exécutez la commande suivante, puis chargez `certificate_pub.crt` à l’aide du bouton **Ajouter la clé publique** dans la configuration de l’application OAuth2 dans Workfront.
 
   <!-- [Copy](javascript:void(0);) -->
   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
-* Utilisez la variable **Génération d’une paire de clés publique/privée** dans la configuration de l’application OAuth2 dans Workfront pour générer la RSA.
+* Utilisez le bouton **Générer une paire de clés publique/privée** dans la configuration de l’application OAuth2 dans Workfront pour générer la RSA.
 
 ## Création d’un jeton Web JSON
 

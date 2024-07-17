@@ -11,7 +11,7 @@ exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -46,13 +46,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Nouveau : Standard
+   <td>Nouvelle : standard
    <p>ou</p>
-   <p>Actuel : formule</p></td> 
+   <p>Actuelle : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p></td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,8 +65,8 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Niveaux d’accès** dans le panneau de gauche.
-1. Sélectionnez le niveau d’accès à copier et personnaliser, puis cliquez sur **Copier**.
+1. Cliquez sur **Accéder aux niveaux** dans le panneau de gauche.
+1. Sélectionnez le niveau d’accès que vous souhaitez copier et personnaliser, puis cliquez sur **Copier**.
 
    Ou
 
@@ -80,7 +80,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
     <tbody> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>Saisissez le nom de votre niveau d’accès. </p> <p>Si vous venez de copier un niveau d’accès pour en créer un nouveau, le nom par défaut est Nom du niveau d’accès (copie), où Nom du niveau d’accès est le niveau d’accès que vous avez copié.</p> <p><strong>Conseil</strong>: nous vous recommandons d’inclure le nom d’origine du niveau d’accès dans le nom de la copie. Par exemple, dans la société ACME, une copie du niveau d’accès standard peut être nommée ACME Standard.</p> </td> 
+      <td> <p>Saisissez le nom de votre niveau d’accès. </p> <p>Si vous venez de copier un niveau d’accès pour en créer un nouveau, le nom par défaut est Nom du niveau d’accès (copie), où Nom du niveau d’accès est le niveau d’accès que vous avez copié.</p> <p><strong>Conseil</strong> : Nous vous recommandons d’inclure le nom d’origine du niveau d’accès dans le nom de la copie. Par exemple, dans la société ACME, une copie du niveau d’accès standard peut être nommée ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description </td> 
@@ -93,7 +93,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
     </tbody> 
    </table>
 
-1. (Conditionnel) Si **Standard** ou **Planifier** est sélectionné dans la variable **Type de licence** , faites défiler jusqu’à la section **Autoriser l’accès administratif pour** et sélectionnez les autorisations d’accès administrateur pour ceux qui auront ce niveau d’accès.
+1. (Conditionnel) Si **Standard** ou **Plan** est sélectionné dans la zone **Type de licence**, faites défiler l’écran jusqu’à la section **Autoriser l’accès administratif pour** et sélectionnez les autorisations d’accès administratif pour ceux qui auront ce niveau d’accès.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -122,7 +122,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
         <li>Dépenses sur les projets, tâches ou problèmes qu'ils gèrent</li>
         <li>Leurs propres dépenses</li>
         <li>Les dépenses de leurs subordonnés</li>
-       </ul><p><b>REMARQUE</b>: cela ne permet pas à l’utilisateur de créer de nouveaux types de dépenses.</p></td> 
+       </ul><p><b>REMARQUE</b> : cela ne permet pas à l’utilisateur de créer de nouveaux types de dépenses.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fonctions</td> 
@@ -130,9 +130,9 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
        <ul> 
         <li>Affichage et modification des rôles de tâche existants</li> 
         <li>Ajout de nouveaux rôles de tâche</li> 
-        <li>Modifier la facturation des rôles et les taux de coûts</li> 
+        <li>Modifier les taux de facturation et de coûts du rôle</li> 
        </ul> 
-       <p>Pour obtenir des informations importantes sur l’accès aux données financières disponibles pour un utilisateur standard ou de type planificateur disposant d’un accès administratif aux rôles de tâche, voir <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Utilisateurs standard ou planificateurs ayant un accès administratif aux rôles de tâche</a>.</p>
+       <p>Pour obtenir des informations importantes sur l’accès aux données financières disponibles pour un utilisateur Standard ou Planificateur disposant d’un accès administratif aux rôles de tâche, voir <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Utilisateurs standard ou de planificateur disposant d’un accès administratif aux rôles de tâche</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -156,7 +156,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
     </tbody> 
    </table>
 
-1. Cliquez sur **Définition de restrictions supplémentaires**, puis définissez l’une des restrictions suivantes pour le niveau d’accès.
+1. Cliquez sur **Définir des restrictions supplémentaires**, puis définissez l’une des restrictions suivantes pour le niveau d’accès.
 
    >[!IMPORTANT]
    >
@@ -168,7 +168,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
     <tbody> 
      <tr> 
       <td role="rowheader">Ne jamais donner accès au projet complet en cas d'affectation à une tâche ou un événement</td> 
-      <td> Permet d’empêcher les utilisateurs affectés à des tâches ou des problèmes d’obtenir des autorisations pour le projet parent, même si les autorisations du projet le permettent.<p>Pour plus d’informations sur la configuration des autorisations sur un projet, voir la section <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> dans l’article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modification de projets</a>.</p></td> 
+      <td> Permet d’empêcher les utilisateurs affectés à des tâches ou des problèmes d’obtenir des autorisations pour le projet parent, même si les autorisations du projet le permettent.<p>Pour plus d’informations sur la configuration des autorisations sur un projet, reportez-vous à la section <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> de l’article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifier les projets</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Ne jamais hériter l'accès aux documents depuis des projets, des tâches, des événements, etc...</td> 
@@ -176,15 +176,15 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader">Afficher uniquement les mises à jour dans lesquelles ils ont été inclus dans la conversation</td> 
-      <td> Permet aux utilisateurs de n’afficher que les commentaires pour lesquels leur nom ou le nom de leur équipe a été inclus. <p> <p><b>REMARQUE</b>: cela empêche les utilisateurs de s’abonner aux éléments dans Workfront. Pour plus d’informations sur l’abonnement aux éléments, voir <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonnement aux éléments dans Adobe Workfront</a>.</p> </p> </td> 
+      <td> Permet aux utilisateurs de n’afficher que les commentaires pour lesquels leur nom ou le nom de leur équipe a été inclus. <p> <p><b>REMARQUE</b> : cela empêche les utilisateurs de s’inscrire aux éléments dans Workfront. Pour plus d’informations sur l’abonnement aux éléments, voir <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonnement aux éléments dans Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ne jamais autoriser les utilisateurs à supprimer les commentaires </td> 
-      <td> Empêche les utilisateurs de supprimer les commentaires qu’ils font sur les éléments.  <p><b>REMARQUE</b>: personne ne peut supprimer les commentaires des autres utilisateurs.</p> </td> 
+      <td> Empêche les utilisateurs de supprimer les commentaires qu’ils font sur les éléments.  <p><b>REMARQUE</b> : personne ne peut supprimer les commentaires des autres utilisateurs.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Afficher uniquement les entreprises, les groupes et les équipes auxquels ils appartiennent</td> 
-      <td>Permet aux utilisateurs d’afficher et de partager des éléments uniquement avec les entreprises, les groupes et les équipes auxquels ils appartiennent.<p><strong>REMARQUE</strong>: les utilisateurs disposant de licences du demandeur ne peuvent pas afficher les sociétés auxquelles ils n’appartiennent pas, même si cette option est sélectionnée.</td> 
+      <td>Permet aux utilisateurs d’afficher et de partager des éléments uniquement avec les entreprises, les groupes et les équipes auxquels ils appartiennent.<p><strong>REMARQUE</strong> : les utilisateurs disposant de licences du demandeur ne peuvent pas afficher les sociétés auxquelles ils n’appartiennent pas, même si cette option est sélectionnée.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ne jamais autoriser que les heures prévues ou les heures réelles soient visibles</td> 
@@ -192,27 +192,27 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader">Ne jamais autoriser les utilisateurs à supprimer les annonces</td> 
-      <td>Empêche les utilisateurs de supprimer des annonces dans le Centre d’annonces. Pour plus d’informations, voir <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Envoyer des annonces</a>.</td> 
+      <td>Empêche les utilisateurs de supprimer des annonces dans le Centre d’annonces. Pour plus d’informations, voir <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Envoi d’annonces</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Conditionnel et facultatif) Si votre système Workfront est configuré pour les utilisateurs appartenant à plusieurs entreprises, limitez la visibilité aux autres utilisateurs en fonction de la société à laquelle ils appartiennent dans la section . **Les personnes d’autres entreprises ne doivent afficher que les utilisateurs issus de**.
+1. (Conditionnel et facultatif) Si votre système Workfront est configuré pour les utilisateurs appartenant à plusieurs sociétés, limitez la visibilité aux autres utilisateurs en fonction de la société à laquelle ils appartiennent dans la section **Les personnes d’autres sociétés ne doivent afficher que les utilisateurs de**.
 
-   Vous pouvez empêcher les utilisateurs d’afficher uniquement les utilisateurs de leur propre société ou de la société que vous avez désignée comme principale société. L’entreprise principale représente généralement votre compte Workfront où la plupart de vos utilisateurs travaillent. Pour plus d’informations sur la société principale, voir [Création et modification d’entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Vous pouvez empêcher les utilisateurs d’afficher uniquement les utilisateurs de leur propre société ou de la société que vous avez désignée comme principale société. L’entreprise principale représente généralement votre compte Workfront où la plupart de vos utilisateurs travaillent. Pour plus d&#39;informations sur l&#39;entreprise principale, voir [Création et modification d&#39;entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >
    >Si deux utilisateurs appartiennent à deux sociétés différentes, mais qu’ils peuvent tous deux voir les utilisateurs de la société principale, ils peuvent voir la zone Mises à jour associée à la société principale.
 
-1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et zones du niveau d’accès sur lequel vous travaillez, continuez avec l’un des articles répertoriés dans la section [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), par exemple [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Accorder l&#39;accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et zones du niveau d’accès sur lequel vous travaillez, passez à l’un des articles répertoriés dans [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), tels que [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Cliquer sur **Enregistrer**.
 
    Une fois le niveau d’accès créé, vous pouvez l’affecter à un utilisateur (sauf s’il s’agit d’un niveau d’accès Administrateur système).
 
    Pour plus d’informations, voir [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Pour plus d’informations sur la manière dont un administrateur d’Adobe affecte un niveau d’accès Administrateur système à un utilisateur, voir [Octroi d’un accès administratif complet à un utilisateur](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Pour plus d’informations sur la manière dont un administrateur d’Adobe affecte un niveau d’accès Administrateur système à un utilisateur, voir [Octroi d’un accès d’administration complet à un utilisateur](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Utilisateurs standard ou planificateurs ayant un accès administratif aux rôles de tâche {#planner-users}
 
@@ -220,4 +220,4 @@ Si vous accordez à un utilisateur Standard ou Planificateur l’accès administ
 
 Par la suite, si vous désactivez l’accès administratif aux rôles de tâche pour l’utilisateur, les rôles de tâche sont toujours visibles par l’utilisateur, car le paramètre Modifier les taux de facturation et de coût du rôle est toujours activé.
 
-Si cela se produit et que vous devez supprimer l’accès de l’utilisateur à l’affichage des rôles de tâche, vous devez désactiver le paramètre d’autorisation Modifier la facturation et les taux de coût du rôle de l’utilisateur. Pour obtenir des instructions, voir [Accorder l&#39;accès aux données financières](grant-access-financial.md).
+Si cela se produit et que vous devez supprimer l’accès de l’utilisateur à l’affichage des rôles de tâche, vous devez désactiver le paramètre d’autorisation Modifier la facturation et les taux de coût du rôle de l’utilisateur. Pour obtenir des instructions, voir [Accorder l’accès aux données financières](grant-access-financial.md).

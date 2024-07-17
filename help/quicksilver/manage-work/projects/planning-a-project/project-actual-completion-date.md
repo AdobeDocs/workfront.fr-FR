@@ -31,7 +31,7 @@ La date d’achèvement réelle d’un projet est définie comme suit :
 * En mettant manuellement à jour l’état du projet : si le mode d’achèvement du projet est défini sur Manuel et que vous modifiez manuellement l’état du projet sur Terminé, la date d’achèvement réel du projet est mise à jour à la date et à l’heure de la dernière tâche terminée.
 * Automatiquement, lorsque la dernière tâche du projet se termine : si le mode d’achèvement du projet est défini sur Automatique et que vous marquez la dernière tâche comme Terminée ou mettez à jour la date d’achèvement réelle de la dernière tâche, la date d’achèvement réelle du projet est également mise à jour avec cette date.
 
-  Pour plus d’informations sur la définition du mode d’exécution d’un projet, voir l’article . [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Pour plus d’informations sur la définition du mode d’exécution d’un projet, reportez-vous à l’article [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!NOTE]
   >
@@ -52,4 +52,4 @@ La date d’achèvement réelle se trouve dans les zones suivantes de Workfront 
 * Zone Projet, Tâche et Mises à jour du problème en tant que mise à jour du système.
 * Listes ou rapports de projet, de tâche ou de problème.
 
-Pour plus d’informations sur la création de rapports, voir l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Pour plus d’informations sur la création de rapports, consultez l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

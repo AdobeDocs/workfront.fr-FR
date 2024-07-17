@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Final
+title: Version R1 finale
 description: Activité Version 2018.3
 author: Luke
 feature: Product Announcements
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# R1 Final
+# Version R1 finale
 
-La fonctionnalité suivante n’est actuellement pas disponible dans la version bêta ou d’aperçu, mais est actuellement disponible dans l’environnement de production dans R1 :
+La fonctionnalité suivante n’est actuellement pas disponible dans Aperçu ou Beta, mais est actuellement disponible dans l’environnement de production dans R1 :
 
 ## Décisions d’approbation pour les bons à tirer de la zone de travail My Work Area (Workfront)
 
 Désormais, lorsqu’un utilisateur vous ajoute à un BAT et lui accorde le rôle d’approbateur ou de réviseur et d’approbateur (soit à partir de l’application BATHQ autonome, soit à l’aide d’un workflow automatisé dans Workfront ), la demande de validation s’affiche dans l’onglet Approbations de votre zone de travail Mes tâches. Vous pouvez ensuite afficher le BAT et prendre une décision d’approbation sur le BAT directement depuis Workfront.
 
-Pour plus d’informations sur l’ajout d’utilisateurs à un BAT à l’aide d’Automated Workflow, voir [Partage d’un BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Partage d’un BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+Pour plus d’informations sur l’ajout d’utilisateurs à un BAT à l’aide du processus automatisé, voir [Partage d’un BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) dans [Partage d’un BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-Pour plus d’informations sur la façon de prendre des décisions d’approbation à partir de la zone Mon travail, voir [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Pour plus d’informations sur la façon de prendre des décisions d’approbation dans la zone Mon travail, voir [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) dans [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Rapport sur les approbations de la vérification dans la zone de travail Mes (Workfront)
 
@@ -38,9 +38,9 @@ Les rapports de validation des BAT contiennent les informations suivantes :
 * ID de l&#39;épreuve
 * Date de création du BAT
 
-Vous accédez à cette validation lors de la création d&#39;un rapport basé sur un objet, comme décrit dans la section [Création d’un rapport personnalisé](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Vous accédez à cette approbation lors de la création d’un rapport basé sur un objet, comme décrit dans la section [Créer un rapport personnalisé](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Pour plus d’informations sur le rapport d’objet Approbations de BAT, voir [Présentation des objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) dans [Présentation des objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Pour plus d’informations sur le rapport d’objet Approbations de BAT, reportez-vous à la section [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) de la section [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Générer automatiquement une nouvelle version d’un BAT de document à l’aide de la fonction glisser-déposer (Workfront)
 
@@ -50,7 +50,7 @@ Auparavant, lorsque vous ajoutiez une nouvelle version du document, le BAT n’�
 
 Lorsque vous utilisez le menu Plus de documents pour charger une nouvelle version, un BAT n’est pas généré automatiquement.
 
-Pour plus d’informations, voir la section
+Pour plus d’informations, voir  dans
 
 ## Activation de l’accès direct à BAT par tous les utilisateurs de la vérification de performance à partir de l’interface de Workfront (Workfront)
 
@@ -58,7 +58,7 @@ Vous pouvez maintenant permettre à tous les utilisateurs de la vérification de
 
 Cette option n’est pas activée par défaut. Pour activer cette option, contactez le support technique de Workfront et demandez cet accès pour tous les utilisateurs de vérification de performance de votre système.
 
-Pour plus d’informations, voir [Accès au BAT Workfront à partir d’Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) in  [Accès au BAT Workfront à partir d’Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Pour plus d’informations, voir [Accès à Workfront Proof à partir d’Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) dans  [Accédez à Workfront Proof à partir d’Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 Avant cette modification, seul l’administrateur de Workfront pouvait accéder directement au site BAT depuis l’interface de Workfront.
 
@@ -76,9 +76,9 @@ Workfront désactive désormais toutes les communications par courrier électron
 
 Pour plus d’informations, voir les informations suivantes :
 
-* [Environnement Adobe Workfront Preview Sandbox](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) in [Environnement Adobe Workfront Preview Sandbox](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+* [L’environnement Sandbox d’aperçu Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) dans [L’environnement Sandbox d’aperçu Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-* &quot;Réception d’emails à partir de l’environnement de test d’actualisation personnalisée&quot; dans [Environnement Sandbox d’actualisation personnalisée d’Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* &quot;Réception d’emails à partir de l’environnement de test d’actualisation personnalisée&quot; dans [L’environnement de test d’actualisation personnalisée Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## Outlook pour Office 365 (Workfront)
 
@@ -119,15 +119,15 @@ Les comptes ProofHQ Premium intégrés à Workfront voient maintenant les améli
 
 Vous pouvez désormais inclure les informations supplémentaires suivantes dans les vues personnalisées :
 
-* **Données au niveau des destinataires**\
+* **Données au niveau du destinataire**\
   Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux données au niveau du destinataire : Rôle, Position, Alertes par e-mail, Mon délai, Date d’ajout au bon à tirer et Recherche de destinataire.\
-  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **Données de vérification**\
   Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux données de vérification : Nombre de commentaires (toutes versions), Taille sur disque, Type de BAT, Nombre de fichiers par version, Données de pièce jointe du commentaire (taille sur le disque, nom de fichier) et Filtrage par sous-dossier.\
-  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-* **Données d’étape liées aux workflows automatisés**\
+  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+* **Données de niveau intermédiaire liées aux workflows automatisés**\
   Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives à des étapes individuelles des processus automatisés : état SOCD, échéances d’évaluation, nom d’étape actif, nom d’étape suivant, nom d’étape et modèle.\
-  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Améliorations des rapports de vérification (anciennement Analytics) (ProofHQ)
 
@@ -149,4 +149,4 @@ Les fonctionnalités publiées sur BATHQ seront d’abord disponibles pour le te
 
 Ce nouveau workflow de publication de la fonctionnalité Aperçu avant production vous permettra d’être mieux préparé aux futures mises à jour de votre environnement de production BATHQ.
 
-Pour plus d’informations sur l’environnement d’aperçu de BATHQ, voir [Aperçu de l’environnement de test Sandbox - BAT Workfront](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+Pour plus d’informations sur l’environnement d’aperçu de BATHQ, voir [Aperçu de l’environnement de test Sandbox - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).

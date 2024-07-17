@@ -1,7 +1,7 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
-title: Gérer l’équipe de projet
+title: Gérer l’équipe d’un projet
 description: L’équipe de projet est composée des utilisateurs associés au projet. Les membres de l’équipe de projet s’affichent dans la section Personnes du projet.
 author: Alina
 feature: Work Management, Projects
@@ -10,15 +10,15 @@ exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
 source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Gérer l’équipe de projet
+# Gérer l’équipe d’un projet
 
 L’équipe de projet est composée des utilisateurs associés au projet. Les membres de l’équipe de projet s’affichent dans la section Personnes du projet.
 
-## Exigences d’accès
+## Conditions d’accès
 
 <!--drafted for P&P:
 <table style="table-layout:auto"> 
@@ -50,38 +50,38 @@ L’équipe de projet est composée des utilisateurs associés au projet. Les me
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux projets</p> <p>Affichage ou accès supérieur aux utilisateurs</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage ou autorisations supérieures du projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Affichage ou autorisations supérieures du projet</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Ajout d’utilisateurs à une équipe de projet
 
-Lorsque vous ajoutez des utilisateurs à l’équipe du projet, ils disposent des autorisations de vue sur le projet, ainsi que sur les tâches, problèmes et documents du projet. Pour plus d’informations, voir l’article [Présentation de l’équipe de projet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Lorsque vous ajoutez des utilisateurs à l’équipe du projet, ils disposent des autorisations de vue sur le projet, ainsi que sur les tâches, problèmes et documents du projet. Pour plus d’informations, consultez l’article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md) (Présentation de l’équipe de projet).
 
 >[!TIP]
 >
@@ -89,7 +89,7 @@ Lorsque vous ajoutez des utilisateurs à l’équipe du projet, ils disposent de
 
 Vous pouvez ajouter des utilisateurs à l’équipe de projet de la manière suivante :
 
-* [Ajout automatique d’utilisateurs à une équipe de projet](#automatically-add-users-to-a-project-team)
+* [Ajouter automatiquement des utilisateurs à une équipe de projet](#automatically-add-users-to-a-project-team)
 * [Ajout manuel d’utilisateurs à une équipe de projet](#manually-add-users-to-a-project-team)
 
 ### Ajout automatique d’utilisateurs à une équipe de projet {#automatically-add-users-to-a-project-team}
@@ -121,24 +121,24 @@ Pour plus d’informations sur les notifications qui peuvent être activées pou
 
 1. Accédez au projet auquel vous souhaitez ajouter des utilisateurs.
 
-1. Cliquez sur **Personnes** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus** en premier.
+1. Cliquez sur **Personnes** dans le panneau de gauche. Vous devrez peut-être d’abord cliquer sur **Afficher plus** .
 
-1. Cliquez sur **Ajout d’utilisateurs**.
+1. Cliquez sur **Ajouter des utilisateurs**.
 
    La boîte de dialogue Ajouter des utilisateurs à l’équipe de projet s’affiche.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. Dans le **Ajout d’utilisateurs** , commencez à saisir le nom d’un utilisateur Workfront actif que vous souhaitez ajouter à l’équipe du projet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans la zone **Ajouter des utilisateurs**, commencez à saisir le nom d’un utilisateur Workfront actif que vous souhaitez ajouter à l’équipe de projet, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
    Répétez cette étape pour ajouter plusieurs utilisateurs à l’équipe du projet. Les utilisateurs doivent appartenir au groupe associé au projet.
 
    >[!TIP]
    >
    >* Vous ne pouvez pas ajouter d’utilisateurs en ajoutant leurs équipes, groupes, entreprises ou rôles de tâche.
-   >* À mesure que vous ajoutez des utilisateurs, notez l’avatar, le rôle de Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   >* À mesure que vous ajoutez des utilisateurs, notez l’avatar, le rôle de Principal de l’utilisateur et son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques. Les personnes doivent être associées à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
    >
-   >  Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. Cliquez sur **Ajouter**.
@@ -153,4 +153,4 @@ Si vous supprimez un utilisateur de l’équipe de projet et qu’il est affect�
 
 Les utilisateurs affectés à des tâches et des problèmes terminés restent affectés même après les avoir supprimés de l’équipe de projet.
 
-Pour plus d’informations sur la suppression d’utilisateurs de l’équipe de projet, voir [Suppression des utilisateurs des projets](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+Pour plus d’informations sur la suppression des utilisateurs de l’équipe de projet, voir [Suppression des utilisateurs des projets](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).

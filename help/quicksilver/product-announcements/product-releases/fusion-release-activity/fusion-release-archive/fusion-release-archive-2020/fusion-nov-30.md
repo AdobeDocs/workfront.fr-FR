@@ -14,7 +14,7 @@ hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion la semaine du 30 novembre 2020.
 
-Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
 
 ## Limite de taux pour les webhooks Workfront Fusion 2.0.
 
@@ -32,7 +32,7 @@ Nous avons introduit une nouvelle barrière de performance pour Workfront Fusion
 
 Auparavant, les demandes webhook n’étaient pas limitées.
 
-Pour plus d’informations, voir [Protections des performances d’Adobe Workfront Fusion](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
+Pour plus d’informations, voir [Barrières de sécurité des performances d’Adobe Workfront Fusion](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
 
 ## Ajout d’un formulaire personnalisé à un objet Workfront dans Workfront Fusion 2.0
 
@@ -40,7 +40,7 @@ Pour que vous puissiez ajouter des formulaires personnalisés à des objets : Wo
 
 Auparavant, il n’était pas possible d’utiliser un module Workfront Fusion 2.0 pour ajouter un formulaire personnalisé à un objet dans Workfront.
 
-Pour plus d’informations sur Workfront > Divers. Module d’action, voir [Modules Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Pour plus d’informations sur Workfront > Divers. Module Action, voir [Modules Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

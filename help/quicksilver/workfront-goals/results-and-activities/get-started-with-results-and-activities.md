@@ -10,7 +10,7 @@ exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '859'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Votre entreprise doit disposer des éléments suivants pour utiliser les fonctio
 
      Ou
 
-     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans).
+     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans?lang=fr).
 
 * Pour le plan actuel et la structure de licence :
 
@@ -76,7 +76,7 @@ Tenez compte des points suivants lorsque vous utilisez les résultats :
    * Nombre
    * Pourcentage
 
-Pour plus d’informations sur les résultats, consultez la liste des similitudes entre les résultats et les activités dans la section . [Similarités entre les résultats, les activités et les projets](#similarities-between-results-activities-and-projects) dans cet article.
+Pour plus d’informations sur les résultats, consultez la liste des similitudes entre les résultats et les activités dans la section [Similarités entre les résultats, les activités et les projets](#similarities-between-results-activities-and-projects) de cet article.
 
 ## Présentation des activités
 
@@ -86,7 +86,7 @@ This will have additional types in the future - add another section for types?
 
 Les activités, comme les résultats, sont spécifiques et mesurables, et incluent généralement un indicateur de pourcentage complet. En tant que propriétaire de l’objectif, vous pouvez également posséder les activités associées à l’objectif. Une activité sur votre objectif peut également être affectée à un autre utilisateur.
 
-Pour plus d’informations sur l’ajout d’activités à des objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+Pour plus d’informations sur l’ajout d’activités aux objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 Tenez compte des points suivants lorsque vous associez des activités à vos objectifs :
 
@@ -115,15 +115,15 @@ Tenez compte des points suivants lorsque vous associez des activités à vos obj
 -->
 <!--drafted for goal redesign: For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
-Pour plus d’informations sur les résultats et les activités, consultez la liste des similitudes entre les résultats et les activités dans la section . [Similarités entre les résultats, les activités et les projets](#similarities-between-results-activities-and-projects) dans cet article.
+Pour plus d’informations sur les résultats et les activités, consultez la liste des similitudes entre les résultats et les activités dans la section [Similarités entre les résultats, les activités et les projets](#similarities-between-results-activities-and-projects) de cet article.
 
 ## Similarités entre les résultats, les activités et les projets {#similarities-between-results-activities-and-projects}
 
 Les résultats, les activités et les projets sont des indicateurs de progression des objectifs.
 
-Il existe des différences dans la manière dont vous gérez les projets par rapport à la manière dont vous gérez les résultats et les activités. Pour plus d’informations sur l’ajout de projets à des objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Pour plus d’informations sur les projets liés aux objectifs, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Il existe des différences dans la manière dont vous gérez les projets par rapport à la manière dont vous gérez les résultats et les activités. Pour plus d’informations sur l’ajout de projets aux objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Pour plus d’informations sur les projets liés aux objectifs, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-Outre les résultats, les activités et les projets, vous pouvez associer des objectifs enfants à un objectif. Les objectifs pour les enfants sont également un type d’indicateur de progression pour un objectif. Pour plus d’informations, voir [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md). La progression des indicateurs de progression de l&#39;objectif pour enfants détermine également la progression de l&#39;objectif parent.
+Outre les résultats, les activités et les projets, vous pouvez associer des objectifs enfants à un objectif. Les objectifs pour les enfants sont également un type d’indicateur de progression pour un objectif. Pour plus d’informations, voir [Aligner les objectifs en les connectant dans les objectifs Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md). La progression des indicateurs de progression de l&#39;objectif pour enfants détermine également la progression de l&#39;objectif parent.
 
 Le tableau suivant affiche les similitudes et les différences entre les résultats, les activités et les projets, comme indicateurs d’objectif :
 

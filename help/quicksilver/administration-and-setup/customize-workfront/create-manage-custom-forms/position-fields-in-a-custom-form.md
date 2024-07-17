@@ -50,8 +50,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 ## Positionner des champs personnalisés et des widgets dans un formulaire personnalisé
 
-1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans la section [Création ou modification d’un formulaire personnalisé avec le créateur de formulaires hérité](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Ajoutez des champs et des widgets personnalisés au formulaire, comme décrit dans la section [Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+1. Commencez à créer ou modifier un formulaire personnalisé, comme décrit dans [Créer ou modifier un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Ajoutez des champs et des widgets personnalisés au formulaire, comme décrit dans la section [Ajouter un champ personnalisé à un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 1. (Facultatif) Pour positionner des champs et des widgets personnalisés sur la même ligne, faites-les glisser l’un à côté de l’autre jusqu’à ce qu’une ligne s’affiche entre eux.
 
@@ -66,7 +66,7 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 >[!NOTE]
 >
->* Vous pouvez utiliser la variable **Aperçu** dans le coin inférieur droit pour avoir une idée de l’affichage des champs et widgets personnalisés dans le formulaire.
+>* Vous pouvez utiliser le bouton **Aperçu** dans le coin inférieur droit pour avoir une idée de la façon dont les champs personnalisés et les widgets s’afficheront dans le formulaire.
 >* Les champs de texte descriptif ne peuvent pas partager de ligne.
 >* Les champs personnalisés et les widgets peuvent ne pas toujours s’afficher de la même manière dans le formulaire, selon l’espace disponible à l’écran lors de sa visualisation. Par exemple, le troisième champ d’une ligne de champs peut être renvoyé à la ligne suivante de champs si l’espace horizontal est limité.
 
@@ -74,9 +74,9 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 1. Cliquez sur **Appliquer**.
 1. Si vous souhaitez continuer à créer votre formulaire personnalisé d’une autre manière, consultez les articles suivants :
 
-   * [Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
+   * [Ajouter un champ personnalisé à un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
    * [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé avec le créateur de formulaires hérité](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [Ajouter des données calculées dans un formulaire personnalisé avec le créateur de formulaires hérité](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Ajout d’un saut de section à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [Ajouter un saut de section à un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
    * [Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé avec le créateur de formulaires hérité](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Prévisualiser et remplir un formulaire personnalisé avec le créateur de formulaires hérité](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

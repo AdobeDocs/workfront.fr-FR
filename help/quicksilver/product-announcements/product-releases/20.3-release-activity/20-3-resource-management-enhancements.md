@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Améliorations de la gestion des ressources
+title: Améliorations de la gestion des ressources (version 20.3)
 description: Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# 20.3 Améliorations de la gestion des ressources
+# Améliorations de la gestion des ressources (version 20.3)
 
 Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, voir [Présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, consultez la [présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Inclure les heures provenant des problèmes de la zone de travail affectée de l’équilibreur de charge de travail
 
@@ -62,8 +62,8 @@ Pour plus d’informations sur la navigation dans l’équilibreur de charge de 
 
 ## Fonctionnalités de l’équilibreur de charge de travail précédemment communiquées comme version 20.2
 
-* [Ajuster l’affectation quotidienne et hebdomadaire dans l’équilibreur de charge de travail](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
-* [Mise à jour des heures planifiées de la tâche dans l’équilibreur de charge](#update-task-planned-hours-in-the-workload-balancer)
+* [Ajuster l’allocation quotidienne et hebdomadaire dans l’équilibreur de charge de travail](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
+* [Mettre à jour les heures planifiées de la tâche dans l’équilibreur de charge de travail](#update-task-planned-hours-in-the-workload-balancer)
 * [Une méthode plus pratique pour mettre à jour les allocations dans l’équilibreur de charge de travail](#a-more-convenient-way-to-update-allocations-in-the-workload-balancer)
 
 ### Ajuster l’affectation quotidienne et hebdomadaire dans l’équilibreur de charge de travail {#adjust-daily-and-weekly-allocation-in-the-workload-balancer}

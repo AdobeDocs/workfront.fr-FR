@@ -1,6 +1,6 @@
 ---
-title: 2.2.1 Améliorations des requêtes
-description: 2.2.1 Améliorations des requêtes
+title: Améliorations des requêtes (version 22.1)
+description: Améliorations des requêtes (version 22.1)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,11 +9,11 @@ exl-id: be6da26d-1d80-4946-8222-cd164b2b633f
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 2.2.1 Améliorations des requêtes
+# Améliorations des requêtes (version 22.1)
 
 Cette page décrit toutes les améliorations apportées aux requêtes à l’aide de la version 22.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
 
@@ -25,7 +25,7 @@ in January 2022
 
 la semaine du 17 janvier 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, voir [Présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, consultez la [présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Amélioration de l’interface pour les utilisateurs qui n’ont pas accès à la création de requêtes
 
@@ -35,7 +35,7 @@ Avant cette amélioration, le bouton Nouvelle requête ne s’affichait pas dans
 
 Pour plus d’informations sur la création de requêtes, voir [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-## Copie et envoi de requêtes
+## Copier et soumettre les demandes
 
 Pour optimiser votre processus d’envoi de requêtes, nous proposons une nouvelle fonctionnalité qui vous permet de copier une requête existante et de l’envoyer en tant que nouvelle requête. Cela s’avère utile lorsque vous soumettez fréquemment des requêtes similaires. Dans ce cas, vous pouvez réutiliser une requête existante, apporter quelques modifications, puis l’envoyer en tant que nouvelle requête.
 
@@ -45,7 +45,7 @@ Grâce à cette modification, les utilisateurs qui peuvent afficher les requête
 >
 >Vous ne pouvez pas copier et soumettre à nouveau les problèmes qui ont été envoyés à une file d’attente de requêtes sans rubrique de file d’attente avant que cette fonctionnalité ne soit publiée.
 
-Pour plus d’informations, voir [Copie et envoi de requêtes](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour plus d’informations, voir [Copier et envoyer des requêtes](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Mise à jour de l’expérience du panneau Résumé dans la section Envoyé de la zone Demandes
 
@@ -55,6 +55,6 @@ Pour plus d’informations, voir [Copie et envoi de requêtes](../../../manage-w
 
 Pour améliorer la visibilité et l’interaction avec le panneau Résumé, nous avons ajouté un libellé à l’icône Ouvrir le résumé dans la section Envoyé de la zone Demandes . Le libellé est désormais dynamique et se met à jour selon que le panneau est ouvert ou fermé.
 
-Lors de l’ouverture du panneau Résumé sans sélectionner au préalable une requête, une image plus conviviale s’affiche désormais pour indiquer clairement à l’utilisateur de sélectionner un élément avant d’ouvrir le panneau. Pour plus d’informations, voir [Recherche des requêtes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Lors de l’ouverture du panneau Résumé sans sélectionner au préalable une requête, une image plus conviviale s’affiche désormais pour indiquer clairement à l’utilisateur de sélectionner un élément avant d’ouvrir le panneau. Pour plus d’informations, voir [Localisation des requêtes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 Avec cette modification, le panneau Résumé pour les tâches, les problèmes et les documents a également été mis à jour. Pour plus d’informations sur le panneau Résumé, voir [Aperçu du résumé](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).

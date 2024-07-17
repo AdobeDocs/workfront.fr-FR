@@ -3,22 +3,22 @@ content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: "FAQ : vérification dans Adobe Workfront - migration des États-Unis vers la région EMEA"
-description: Adobe Workfront contacte directement toutes les organisations concernées par la migration du Workfront BAT US vers la zone EMEA.
+description: Adobe Workfront contacte directement toutes les organisations concernées par la migration de Workfront Proof aux États-Unis vers la zone EMEA.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
 source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Questions fréquentes : vérification dans Adobe Workfront - migration des États-Unis vers la région EMEA
+# Questions fréquentes : relecture dans Adobe Workfront - Migration des États-Unis vers la zone EMEA
 
 ## Comment savoir si cette modification affecte mon organisation ? 
 
-Adobe Workfront contacte directement toutes les organisations concernées par la migration du Workfront BAT US vers la zone EMEA.
+Adobe Workfront contacte directement toutes les organisations concernées par la migration de Workfront Proof aux États-Unis vers la zone EMEA.
 
 ## Dois-je faire quoi que ce soit pour préparer la migration ?
 
@@ -33,7 +33,7 @@ Une fois la migration des comptes terminée, nous allons commencer à déplacer 
 
 Une fois la migration terminée, vous et vos utilisateurs ne pourrez accéder aux fichiers et aux bons à tirer qu’à partir du centre de données EMEA. 
 
-## Qu’adviendra-t-il de l’URL que j’utilise pour accéder au Bon à tirer Workfront ?
+## Qu’adviendra-t-il de l’URL que j’utilise pour accéder à Workfront Proof ?
 
 Pour rendre la migration possible, l’URL que vous utilisez pour accéder au système doit passer de proofhq.com à proofhq.eu. Quiconque utilise l’ancienne proofhq.com URL après la migration recevra un message fournissant le nouveau lien de connexion :
 

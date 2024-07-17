@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Présentation du projet Date de début prévue
-description: Présentation du projet Date de début prévue
+title: Vue d’ensemble de la date de début prévue du projet
+description: Vue d’ensemble de la date de début prévue du projet
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -11,11 +11,11 @@ exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Présentation du projet Date de début prévue
+# Vue d’ensemble de la date de début prévue du projet
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -37,7 +37,7 @@ Vous devez définir manuellement la date de début planifiée d’un projet lors
 >
 >Lorsque vous définissez manuellement la date de début planifiée d’un projet, Workfront calcule automatiquement la date de fin planifiée du projet en fonction de la durée de toutes les tâches.
 
-Pour plus d’informations sur la définition de la date de début prévue du projet, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+Pour plus d’informations sur la définition de la date de début planifiée du projet, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted below, to keep this as an overview article)</p>
@@ -68,13 +68,13 @@ La Date de début planifiée d’un projet est automatiquement définie lorsque 
 
   La date de début planifiée correspond à la date de début du projet dans le projet Microsoft.
 
-  Pour plus d’informations sur l’importation d’un projet à partir d’un projet Microsoft, voir [Importation d’un projet à partir d’un projet Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Pour plus d’informations sur l’importation d’un projet à partir du projet Microsoft, voir [Importation d’un projet à partir du projet Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * importez-le à l’aide de Workfront Kick-Starts, lorsque vous êtes administrateur de Workfront.
 
   La Date de début planifiée correspond toujours à l’heure et à la date de votre ordinateur, sauf si vous spécifiez une autre valeur dans le champ setScheduleStartDate de la feuille Projet du fichier de démarrage rapide.
 
-  Pour plus d’informations sur l’importation de données à l’aide de lancements, voir [Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Pour plus d’informations sur l’importation de données à l’aide de démarrage rapide, voir [Importation de données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
   Pour plus d’informations sur l’importation de projets à l’aide de lancements, voir [Scénario de démarrage : préparation simple de l’importation de projets et de tâches](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
@@ -97,7 +97,7 @@ La Date de début planifiée d’un projet est automatiquement définie lorsque 
 
 Vous pouvez indiquer la Date de début planifiée d&#39;une tâche ou laisser Workfront la choisir pour la calculer selon certains critères.
 
-Pour plus d’informations sur la date de début planifiée d’une tâche, voir [Présentation de la tâche Date de début planifiée](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Pour plus d’informations sur la date de début planifiée d’une tâche, voir [Présentation de la date de début planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -11,11 +11,11 @@ exl-id: 57985404-554e-4289-b871-b02d3427aa5c
 source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Dictionnaire de données de lac de données Workfront
+# Dictionnaire de données du lac de données Workfront
 
 Cette page contient des informations sur la structure et le contenu des données du lac de données Workfront.
 
@@ -27,15 +27,15 @@ Cette page contient des informations sur la structure et le contenu des données
 
 Il existe plusieurs types de tableau que vous pouvez utiliser pour afficher vos données Workfront de manière à en tirer le meilleur parti.
 
-* **Tableau actuel**
+* **Table actuelle**
 
   Le tableau actuel reflète les données de la même manière qu’il existe dans Workfront, chaque objet et son état actuel. Il est toutefois possible de naviguer avec une latence beaucoup plus faible que dans Workfront.
 
-* **Table d&#39;événements**
+* **Table d’événements**
 
   Le tableau Événement effectue le suivi de chaque enregistrement de modification dans Workfront : c’est-à-dire, chaque fois qu’un objet change d’état, un enregistrement est créé qui indique le moment où la modification a eu lieu, qui a apporté la modification et ce qui a été modifié. Par conséquent, ce tableau est utile pour les comparaisons de temps en temps. Ce tableau ne contient que les données des trois dernières années.
 
-* **Table d&#39;historique quotidien**
+* **Table d&#39;historique quotidienne**
 
   Le tableau Historique quotidien offre une version abrégée du tableau Événement, dans la mesure où il indique l’état de chaque objet sur une base quotidienne plutôt que lors de chaque événement. Ce tableau est donc utile pour l’analyse des tendances.
 
@@ -55,10 +55,10 @@ Les objets de Workfront (et, par conséquent, de votre lac de données) sont dé
 
 Un certain nombre d’objets date fournissent des informations sur le moment où des événements spécifiques se produisent.
 
-* `DL_LOAD_TIMESTAMP`: cette date est utilisée à des fins de référence interne et reflète le moment où les données ont été chargées dans la table Actuel, Événement ou Historique quotidien. Cette date ne doit pas être utilisée pour l’analyse des données et doit être supprimée pendant la phase bêta du lac de données Workfront.
-* `CALENDAR_DATE`: cette date n’est présente que dans le tableau Historique quotidien . Ce tableau fournit un enregistrement de l’apparence des données à 11h59 UTC pour chaque date spécifiée dans `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: cette date est présente dans les tables Historique des événements et Historique quotidien, et enregistre exactement lorsqu’un enregistrement a été modifié. _to_ valeur de la ligne actuelle.
-* `END_EFFECTIVE_TIMESTAMP`: cette date est présente dans les tables Historique des événements et Historique quotidien, et enregistre exactement lorsqu’un enregistrement a été modifié. _de_ valeur de la ligne actuelle par rapport à une valeur d’une autre ligne. Pour autoriser entre les requêtes sur `BEGIN_EFFECTIVE_TIMESTAMP` et `END_EFFECTIVE_TIMESTAMP` cette valeur n’est jamais nulle, même s’il n’y a pas de nouvelle valeur. Dans le cas où un enregistrement est toujours valide (c’est-à-dire que la valeur n’a pas changé), `END_EFFECTIVE_TIMESTAMP` a une valeur de 2300-01-01.
+* `DL_LOAD_TIMESTAMP` : Cette date est utilisée à des fins de référence interne et reflète le moment où les données ont été chargées dans la table Actuel, Événement ou Historique quotidien. Cette date ne doit pas être utilisée pour l’analyse des données et doit être supprimée pendant la phase bêta du lac de données Workfront.
+* `CALENDAR_DATE` : cette date n’est présente que dans la table Historique quotidien. Ce tableau fournit un enregistrement de l’apparence des données à 11:59 UTC pour chaque date spécifiée dans `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP` : cette date est présente dans les tables Event (Événement) et Daily History (Historique quotidien) et enregistre exactement lorsqu’un enregistrement a changé _en_ la valeur qu’il possède dans la ligne actuelle.
+* `END_EFFECTIVE_TIMESTAMP` : cette date est présente dans les tables Historique quotidien et Événement et enregistre exactement lorsqu’un enregistrement a changé _de_ la valeur de la ligne en cours à une valeur d’une autre ligne. Pour permettre entre les requêtes sur `BEGIN_EFFECTIVE_TIMESTAMP` et `END_EFFECTIVE_TIMESTAMP`, cette valeur n’est jamais nulle, même s’il n’y a pas de nouvelle valeur. Dans le cas où un enregistrement est toujours valide (c’est-à-dire que la valeur n’a pas changé), `END_EFFECTIVE_TIMESTAMP` aura une valeur de 2300-01-01.
 
 ## Table de terminologie
 
@@ -93,7 +93,7 @@ Le tableau suivant établit la corrélation entre les noms d’objet dans Workfr
     <td>Document</td>
     <td>Document</td>
     <td>DOCU | Document</td>
-    <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br><br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
+    <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br><br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -149,14 +149,14 @@ Le tableau suivant établit la corrélation entre les noms d’objet dans Workfr
     <td>TâcheOp</td>
     <td>Problème, requête</td>
     <td>OPTASK | Problème</td>
-    <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT<br><br>OPTASKS_CUSTOM_VALUE_CURRENT<br>OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>OPTASKS_CUSTOM_VALUE_EVENT</td>
+    <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT<br><br>OPTASKS_CUSTOM_VALUE_CURRENT<br>OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>OPTASKS_CUSTOM_VALUE_EVENT_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Portfolio</td>
     <td>Portfolio</td>
     <td>PORT | Portfolio</td>
-    <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br><br>PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
+    <td>PORTFOLIOS_CURRENT<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br><br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -170,7 +170,7 @@ Le tableau suivant établit la corrélation entre les noms d’objet dans Workfr
     <td>Projet</td>
     <td>Projet</td>
     <td>PROJ | Projet</td>
-    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
+    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -212,7 +212,7 @@ Le tableau suivant établit la corrélation entre les noms d’objet dans Workfr
     <td>l’utilisateur ou de l’utilisatrice</td>
     <td>l’utilisateur ou de l’utilisatrice</td>
     <td>UTILISATEUR | Utilisateur</td>
-    <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT<br><br>USERS_CUSTOM_VALUE_CURRENT<br>USERS_CUSTOM_VALUE_DAILY_HISTORY<br>USERS_CUSTOM_VALUE_EVENT</td>
+    <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT<br><br>USERS_CUSTOM_VALUE_CURRENT<br>USERS_CUSTOM_VALUE_DAILY_HISTORY<br>USERS_CUSTOM_VALUE_EVENT_EVENT</td>
     <td></td>
   </tr>
 </tbody>

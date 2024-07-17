@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
-title: Améliorations du projet 2019.3
+title: Améliorations des projets (version 2019.3)
 description: Cette page décrit toutes les modifications apportées au projet avec la version 2019.3. Elle a été rendue disponible dans l’environnement de production dans la semaine du 19 août 2019.
 author: Luke
 feature: Product Announcements
@@ -10,27 +10,27 @@ exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1369'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Améliorations du projet 2019.3
+# Améliorations des projets (version 2019.3)
 
 Cette page décrit toutes les modifications apportées au projet avec la version 2019.3. Elle a été rendue disponible dans l’environnement de production dans la semaine du 19 août 2019.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2019.3, voir [Présentation de l’activité de la version 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées en 2019.3, consultez la [présentation de l’activité de version 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Modifier le type d’affichage d’un champ dans un formulaire personnalisé
 
 Vous pouvez désormais modifier le type d’affichage d’un champ dans un formulaire personnalisé.
 
-Par exemple, si vous avez créé un champ Cases à cocher, vous pouvez le changer en Champ déroulant ou Champ Boutons radio. Ces trois types d’affichage de champ sont interchangeables.
+Par exemple, si vous avez créé un champ de cases à cocher, vous pouvez le transformer en champ de liste déroulante ou en champ de boutons radio. Ces trois types d’affichage de champ sont interchangeables.
 
 Si vous avez créé un champ de texte d’une seule ligne, vous pouvez également le remplacer par un champ de texte de paragraphe. Ces deux types d’affichage de champ sont interchangeables.
 
 Auparavant, pour modifier le type d’affichage d’un champ personnalisé, vous deviez créer un nouveau champ et supprimer l’ancien champ. Il fallait pour cela transférer des données, ce qui prenait souvent du temps.
 
-Pour plus d’informations, voir [Création ou modification d’un formulaire personnalisé](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) dans l’article [Création ou modification d’un formulaire personnalisé](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+Pour plus d’informations, voir [Créer ou modifier un formulaire personnalisé](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) dans l’article [Créer ou modifier un formulaire personnalisé](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Pour plus d’informations sur l’affichage des éléments dans une liste, voir
 
 Vous pouvez maintenant modifier le diagramme de Gantt de la liste des tâches lorsque l’enregistrement automatique est activé ou non. Vous ne pouvez pas annuler les modifications lorsque le bouton activer/désactiver est activé. Dans ce cas, les modifications que vous apportez au projet sont enregistrées automatiquement.
 
-Pour plus d’informations sur la modification du diagramme de Gantt de la liste des tâches, voir [Mise à jour des informations dans le diagramme de Gantt de la liste des tâches](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Pour plus d’informations sur la modification du diagramme de Gantt de la liste des tâches, voir [Mise à jour d’informations dans le diagramme de Gantt de la liste des tâches](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Suppression de l’onglet Problèmes du panorama Kanban
 
@@ -96,7 +96,7 @@ Nous supprimons l’onglet Problèmes du panorama Kanban de la version de produc
 Nous supprimons les onglets Documents and Issues de la page Agile iteration details :
 
 * **Documents :** Tous les documents stockés dans l’onglet Documents doivent être déplacés avant la version de production. Si vous ne parvenez pas à déplacer vos documents, vous n’y aurez plus accès.
-* **Problèmes :** Cet onglet se trouve généralement sous le menu déroulant Plus . Vous pouvez toujours accéder au sous-onglet Problèmes à partir de l’onglet Éléments de travail de l’itération.
+* **Problèmes :** Cet onglet se trouve généralement sous le menu déroulant Plus. Vous pouvez toujours accéder au sous-onglet Problèmes à partir de l’onglet Éléments de travail de l’itération.
 
 ## Envisager ou ignorer le délai d’expiration de l’utilisateur pour les dates de la tâche
 
@@ -106,7 +106,7 @@ Vous pouvez prendre cette décision au niveau du système, en tant qu’administ
 
 Avant cette modification, le temps de pause du cessionnaire Principal ajustait toujours les dates planifiées de la tâche, si la contrainte de tâche permettait de modifier les dates.
 
-Pour plus d’informations sur le paramètre de délai de désactivation au niveau du système, voir [Configuration des préférences de projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Pour plus d’informations sur le paramètre de délai de désactivation de l’utilisateur au niveau du système, voir [Configuration des préférences du projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Pour plus d’informations sur le paramètre de délai de désactivation au niveau du projet, voir [Modification de projets](../../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -159,7 +159,7 @@ Si l’objet fait partie d’un projet, votre commentaire sur le document s’af
 
 Auparavant, les commentaires de mise à jour s’affichaient uniquement dans l’onglet Mises à jour du document.
 
-Pour plus d’informations, voir la section [Mise à jour du travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) dans l’article [Mise à jour du travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations, reportez-vous à la section [Mise à jour du travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) de l’article [Mise à jour du travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ Lorsque vous affectez un utilisateur à une tâche ou à un problème, vous pouv
 
 Pour plus d’informations sur l’affectation de tâches, voir [Affecter des tâches](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-Pour plus d’informations sur les heures de pause, voir [Configuration du temps libre](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+Pour plus d&#39;informations sur les heures de congé, voir [Configuration de l&#39;heure personnelle](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 >[!NOTE]
 >

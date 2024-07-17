@@ -1,5 +1,5 @@
 ---
-title: Visualisation de l’activité de projet dans les analyses améliorées
+title: Afficher la visualisation d’activité des projets dans Analytique améliorée
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
@@ -10,11 +10,11 @@ exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Visualisation de l’activité de projet dans les analyses améliorées
+# Afficher la visualisation d’activité des projets dans Analytique améliorée
 
 <!-- Audited: 12/2023 -->
 
@@ -23,30 +23,30 @@ La visualisation de l’activité de projet affiche une vue globale des activit�
 >[!NOTE]
 >
 >La visualisation Activité par équipe se comporte de la même manière que cette visualisation, mais la visualisation Activité par équipe affiche l’activité de l’équipe d’accueil pour tous les projets.\
->Pour plus d’informations sur la visualisation de l’activité par équipe, voir [Visualisation de l’activité par équipe dans les analyses améliorées](../enhanced-analytics/activity-by-team-overview.md).
+>Pour plus d’informations sur la visualisation de l’activité par équipe, voir [Visualisation de l’activité par équipe dans Analyses améliorées](../enhanced-analytics/activity-by-team-overview.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Workfront</a></td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Workfront</a></td> 
    <td> <p>Professionnel ou supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a></td> 
-   <td>   <p>Nouveau :</p> 
+   <td>   <p>Nouveau :</p> 
    <ul><li>Clair ou plus élevé</li></ul>
-   <p>Actuel :</p>
+   <p>Actuel :</p>
    <ul><li>Révision ou version ultérieure</li></ul>
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
    <td> <p>Affichage de l’accès aux projets</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
@@ -56,37 +56,37 @@ Vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
-Pour connaître les conditions préalables à l’utilisation d’Analytics amélioré, reportez-vous à la section &quot;Conditions préalables&quot; de la section [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
+Pour connaître les conditions préalables à l’utilisation d’Analytics amélioré, reportez-vous à la section &quot;Conditions préalables&quot; dans la [présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Présentation de la visualisation de l’activité de projet
 
 Les activités du projet s’affichent de différentes couleurs pour résumer des événements spécifiques d’un projet sur une période donnée :
 
-* **Utilisateurs connectés**: les zones violettes indiquent que les personnes affectées au projet se sont connectées ce jour-là. Une ombre plus sombre indique un nombre plus élevé de personnes se connectant.
+* **Les utilisateurs connectés** : des zones violettes indiquent que les personnes affectées au projet se sont connectées ce jour-là. Une nuance plus sombre indique un nombre plus élevé de personnes se connectant.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Modification de l’état de la tâche**: des zones roses montrent que des personnes ont modifié l’état d’une tâche pour le projet ce jour-là. Une nuance plus foncée indique un nombre plus élevé de statuts de tâche changeant.
+* **Changement d’état de la tâche** : les zones roses montrent que des personnes ont modifié l’état d’une tâche pour le projet ce jour-là. Une nuance plus foncée indique un nombre plus élevé de changements de statut d’une tâche.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Tâches terminées**: les zones bleues indiquent que les personnes ont effectué une tâche pour le projet. Une nuance plus foncée indique un nombre plus élevé de tâches en cours d’exécution.
+* **Tâches terminées** : les cases bleues indiquent que les personnes ont terminé une tâche pour le projet. Une nuance plus foncée indique un nombre plus élevé de tâches terminées.
 
   ![](assets/project-activity-tasks-completed.png)
 
 Le survol d’une zone indique le nombre exact de fois où l’action a été effectuée au cours d’un jour donné. Vous pouvez sélectionner un projet pour afficher la ventilation de ces activités par chaque contributeur individuel du projet.
 
-L’affichage de ces informations vous permet de déterminer les éléments suivants :
+Ces informations vous aident à déterminer :
 
 * L’activité sur un projet spécifique.
-* Activité d’un projet par rapport à d’autres projets.
-* Quels utilisateurs travaillent sur un projet et à quelle fréquence ?
+* L’activité d’un projet par rapport à d’autres projets.
+* Quelles personnes travaillent sur un projet et à quelle fréquence.
 
-Pour savoir comment obtenir les meilleures données pour cette visualisation, voir [Présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
+Pour savoir comment obtenir les meilleures données pour cette visualisation, consultez la [présentation des analyses améliorées](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualisation de l’activité Projet
 
@@ -113,9 +113,9 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Facultatif) Pour modifier le mode de tri des projets, cliquez sur le bouton **Tri par** , puis sélectionnez une nouvelle option de tri :
+1. (Facultatif) Pour modifier le mode de tri des projets, cliquez sur le menu **Trier par** , puis sélectionnez une nouvelle option de tri :
 
-   * **A à Z**
+   * **A - Z**
    * **Z - A**
    * **Date d’achèvement prévue**
    * **Date de début planifiée**
@@ -136,8 +136,8 @@ Pour savoir comment obtenir les meilleures données pour cette visualisation, vo
 
    ![](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Facultatif) Pour exporter les données de visualisation, cliquez sur le bouton **Icône Exporter** ![](assets/export.png) dans le coin supérieur droit de la visualisation, sélectionnez le format d’exportation :
+1. (Facultatif) Pour exporter les données de visualisation, cliquez sur l’icône **Exporter** ![](assets/export.png) dans le coin supérieur droit de la visualisation, puis sélectionnez le format d’exportation :
 
    * **Graphique (PNG)**
-   * **Tableau de données (XSLX)**
+   * **Table de données (XSLX)**
 

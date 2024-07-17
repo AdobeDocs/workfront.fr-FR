@@ -3,19 +3,19 @@ content-type: overview
 product-area: templates
 keywords: overwrite,field,overwrite
 navigation-topic: templates-navigation-topic
-title: Présentation de l’association d’un modèle à un projet
+title: Vue d’ensemble d’un modèle joint à un projet
 description: Lorsque vous joignez un modèle à un projet existant, vous modifiez certaines informations du projet en fonction de celles du modèle. Certaines informations sur le projet restent inchangées.
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 5%
+source-wordcount: '1258'
+ht-degree: 9%
 
 ---
 
-# Présentation de l’association d’un modèle à un projet
+# Vue d’ensemble d’un modèle joint à un projet
 
 Lorsque vous joignez un modèle à un projet existant, vous modifiez certaines informations du projet en fonction de celles du modèle. Certaines informations sur le projet restent inchangées.
 
@@ -25,10 +25,10 @@ Pour plus d’informations sur la façon de joindre un modèle à un projet, voi
 
 Tenez compte des points suivants lors de l’ajout de modèles à des projets :
 
-* Vous ne pouvez joindre que des modèles principaux aux projets.
-* Vous pouvez joindre un modèle à un projet lorsque celui-ci a le statut Terminé, Mort ou En attente d’approbation, uniquement lorsque votre administrateur Adobe Workfront ou un administrateur de groupe a activé cette fonctionnalité dans la zone Préférences du projet. Pour plus d’informations sur la définition des préférences de projet, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Vous ne pouvez joindre que des modèles actifs aux projets.
+* Vous pouvez joindre un modèle à un projet lorsque celui-ci a le statut Terminé, Mort ou En attente d’approbation, uniquement lorsque votre administrateur Adobe Workfront ou un administrateur de groupe a activé cette fonctionnalité dans la zone Préférences du projet. Pour plus d’informations sur la définition des préférences de projet, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * À moins que vous n’excluiez des tâches de modèle spécifiques dans le processus de pièce jointe, toutes les tâches de modèle sont ajoutées au projet existant.
-* La plupart des paramètres de modèle sont ajoutés au projet. Certains paramètres de projet sont conservés. Pour plus d’informations, voir la section [Comprendre les modifications apportées aux champs de projet lors de l’association d’un modèle](#understand-changes-to-project-fields-when-attaching-a-template) dans cet article.
+* La plupart des paramètres de modèle sont ajoutés au projet. Certains paramètres de projet sont conservés. Pour plus d’informations, reportez-vous à la section [Comprendre les modifications apportées aux champs du projet lors de l’association d’un modèle](#understand-changes-to-project-fields-when-attaching-a-template) à cet article.
 
 ## Comprendre les modifications apportées aux champs de projet lors de l’association d’un modèle {#understand-changes-to-project-fields-when-attaching-a-template}
 
@@ -48,7 +48,7 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
  <col> 
  <tbody> 
   <tr> 
-   <td>Champ</td> 
+   <td>champ</td> 
    <td>Que se passe-t-il dans le processus d’association d’un modèle, par défaut ?</td> 
    <td>Possibilité de gérer les mises à jour des champs dans le processus des pièces jointes </td> 
   </tr> 
@@ -134,7 +134,7 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
   </tr> 
   <tr> 
    <td>Forms personnalisée</td> 
-   <td>Ajout au projet, en plus des formulaires qui se trouvent déjà sur le projet</td> 
+   <td>Ajout au projet, en plus des formulaires déjà présents sur le projet</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -188,7 +188,7 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Planification</td> 
+   <td>Planning</td> 
    <td>Les informations du projet sont conservées.</td> 
    <td> </td> 
   </tr> 
@@ -233,17 +233,17 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Effort de travail</td> 
+   <td>Effort professionnel</td> 
    <td>Les informations du projet sont conservées.</td> 
    <td> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>Autoriser les utilisateurs à ajouter des problèmes en ligne</span> </td> 
-   <td><span>Les informations du projet sont conservées.</span> </td> 
+   <td><span>Les informations du projet sont conservées</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Tous les paramètres</td> 
+   <td>Paramètres</td> 
    <td>Les paramètres du modèle remplacent ceux du projet.</td> 
    <td> </td> 
   </tr> 
@@ -264,7 +264,7 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
   </tr> 
   <tr> 
    <td>Processus d'approbation</td> 
-   <td>Transféré à partir d’un modèle</td> 
+   <td>Transféré à partir du modèle</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -288,8 +288,8 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
     <ul> 
      <li> <p>Coûts fixes</p> <p>Lorsque l'option est sélectionnée, le coût fixe du projet mis à jour est calculé à l'aide de la formule suivante :</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
      <li> <p>Revenus fixes</p> <p>Lorsque cette option est sélectionnée, les recettes fixes du projet mises à jour sont calculées à l’aide de la formule suivante :</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
-     <li> <p>Type de coût pour les tâches</p> <p>Transféré à partir d’un modèle</p> </li> 
-     <li> <p>Type de revenu pour les tâches</p> <p>Transféré à partir d’un modèle</p> </li> 
+     <li> <p>Type de coût pour les tâches</p> <p>Transféré à partir du modèle</p> </li> 
+     <li> <p>Type de chiffre d’affaires pour les tâches</p> <p>Transféré à partir du modèle</p> </li> 
     </ul> <p>Si ce champ est désélectionné pendant le processus de pièce jointe, les événements suivants se produisent :</p> 
     <ul> 
      <li> <p>Le coût fixe et les recettes fixes du projet sont conservés.</p> </li> 
@@ -304,22 +304,22 @@ Le tableau suivant décrit la valeur par défaut des champs de projet lorsque vo
   </tr> 
   <tr> 
    <td>Détails de la file d’attente, groupes de rubriques, rubriques de la file d’attente, règles de routage</td> 
-   <td> <p>Transféré à partir d’un modèle</p> <p>Si vous sélectionnez la variable <strong>Configuration des propriétés et des problèmes de la file d’attente</strong> pendant le processus de pièce jointe, les détails de la file d’attente du modèle remplacent ceux du projet. Dans ce cas, les règles de routage, les rubriques de file d’attente et les groupes de rubriques du modèle sont ajoutés à ceux du projet. <br>Si le projet est configuré en tant que file d’attente des demandes et que le modèle que vous joignez au projet n’est pas configuré en tant que file d’attente des demandes, les informations de la file d’attente du projet sont supprimées si vous laissez la variable <strong>Configuration des propriétés et des problèmes de la file d’attente</strong> case cochée. <br>Si vous désélectionnez l’option <strong>Propriétés de la file d’attente et configuration des problèmes</strong> , tous les paramètres de configuration de la file d’attente du projet sont conservés et aucun paramètre de configuration de la file d’attente du modèle n’est joint.</p> </td> 
+   <td> <p>Transféré à partir du modèle</p> <p>Si vous sélectionnez l’option <strong> Queue Properties &amp; Issues Setup</strong> pendant le processus de pièce jointe, les détails de la file d’attente du modèle remplacent ceux du projet. Dans ce cas, les règles de routage, les rubriques de file d’attente et les groupes de rubriques du modèle sont ajoutés à ceux du projet. <br>Si le projet est configuré en tant que file d’attente des demandes et que le modèle que vous joignez au projet n’est pas configuré en tant que file d’attente des demandes, les informations de la file d’attente du projet sont supprimées si vous laissez la case <strong>Configuration des propriétés et des problèmes de la file d’attente</strong> cochée. <br>Si vous désélectionnez la case <strong>Propriétés de la file d’attente et configuration des problèmes</strong>, tous les paramètres Configuration de la file d’attente du projet sont conservés et aucun paramètre Configuration de la file d’attente du modèle n’est joint.</p> </td> 
    <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Contraintes de tâche</td> 
-   <td> <p>Transféré à partir d’un modèle </p> <p>Si cette option est désélectionnée pendant le processus de pièce jointe, les contraintes de tâche sont définies sur Dès que possible ou Aussi Tard que possible, selon le paramètre Planifier à partir du projet . </p> </td> 
+   <td> <p>Transféré à partir du modèle </p> <p>Si cette option est désélectionnée pendant le processus de pièce jointe, les contraintes de tâche sont définies sur Dès que possible ou Aussi Tard que possible, selon le paramètre Planifier à partir du projet . </p> </td> 
    <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
   </tr> 
   <tr> 
    <td>Tâches antérieures</td> 
-   <td> <p>Transféré à partir d’un modèle</p> <p>Si cette option est désélectionnée pendant le processus de pièce jointe, toutes les connexions de prédécesseur entre les tâches du modèle sont supprimées.</p> </td> 
+   <td> <p>Transféré à partir du modèle</p> <p>Si cette option est désélectionnée pendant le processus de pièce jointe, toutes les connexions de prédécesseur entre les tâches du modèle sont supprimées.</p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td>Options de partage</td> 
-   <td> <p>Si cette option est désélectionnée pendant le processus de pièce jointe, les autorisations de projet restent inchangées.</p> <p>Si cette option est sélectionnée pendant le processus de pièce jointe, les autorisations de modèle sont ajoutées ou remplacées par celles du projet. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Si l’utilisateur A dispose de l’autorisation Afficher sur le projet, mais qu’il dispose de l’autorisation Gérer sur le modèle, après avoir joint le modèle, l’utilisateur A aura accès à l’option Gérer .</p> </td> 
+   <td> <p>Si cette option est désélectionnée pendant le processus de pièce jointe, les autorisations de projet restent inchangées.</p> <p>Si cette option est sélectionnée pendant le processus de pièce jointe, les autorisations de modèle sont ajoutées ou remplacées par celles du projet. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Si l’utilisateur A dispose de l’autorisation Afficher sur le projet, mais qu’il dispose de l’autorisation Gérer sur le modèle, après avoir joint le modèle, l’utilisateur A aura accès à Gérer le projet.</p> </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

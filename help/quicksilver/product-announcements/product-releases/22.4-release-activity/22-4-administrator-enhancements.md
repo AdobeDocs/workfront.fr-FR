@@ -1,6 +1,6 @@
 ---
-title: 22.4 Améliorations apportées aux administrateurs
-description: 22.4 Améliorations apportées aux administrateurs
+title: Améliorations apportées à l’administration (version 22.4)
+description: Améliorations apportées à l’administration (version 22.4)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# 22.4 Améliorations apportées aux administrateurs
+# Améliorations apportées à l’administration (version 22.4)
 
 Cette page décrit toutes les améliorations apportées par l’administrateur à la version 22.4 de l’environnement Aperçu. Ces améliorations seront disponibles la semaine du 3 octobre 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, voir [Présentation de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, consultez la [présentation de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Utiliser des états déverrouillés dans un processus de validation
 
@@ -41,9 +41,9 @@ L’icône Plan directeur apparaît dans le menu principal lorsque :
 
 Les modèles de mise en page existants incluent automatiquement l’icône Plan directeur, et les administrateurs peuvent supprimer l’icône des modèles de mise en page pour limiter la visibilité du catalogue de plans directeurs. Les nouveaux modèles de mise en page créés après la version 22.4 incluront l’icône Plan directeur dans la liste des éléments actifs.
 
-Pour plus d’informations, voir [Configurer l’accès aux plans directeurs](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
+Pour plus d’informations, voir [Configuration de l’accès aux plans directeurs](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## Personnalisation de l’en-tête du problème
 
@@ -63,9 +63,9 @@ Avant cette version, seuls les en-têtes de projet et de tâche pouvaient être 
 
 
 
-Pour plus d’informations, voir [Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Pour plus d’informations, consultez la section [Personnaliser les en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## Personnalisation de l’en-tête de tâche
 
@@ -83,7 +83,7 @@ Avant cette version, seuls les en-têtes de projet pouvaient être personnalisé
 
 Pour plus d’informations, voir [Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## Inclusion anticipée des dernières fonctionnalités sur les panoramas
 
@@ -91,9 +91,9 @@ Nous sommes ravis d’ouvrir de nouvelles fonctionnalités de panoramas pour l�
 
 Seul un administrateur Workfront peut souscrire aux premières fonctionnalités. Lorsque l’administrateur choisit de se connecter aux nouvelles fonctionnalités, tous les utilisateurs de l’entreprise y sont inscrits et les fonctionnalités supplémentaires sont activées dans votre environnement Workfront de production.
 
-Pour plus d’informations, voir [Inclusion anticipée des fonctionnalités pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Pour plus d’informations, reportez-vous à la section [Fonctionnalité d’opt-in anticipée pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## L’éditeur de calcul de champ de formulaire personnalisé affiche les informations d’erreur
 
@@ -103,9 +103,9 @@ Pour plus d’informations, voir [Inclusion anticipée des fonctionnalités pour
 
 La modification des calculs pour les champs personnalisés est désormais plus facile avec des informations d’erreur utiles indiquées directement dans le calcul. Lorsque vous créez un champ calculé dans un formulaire personnalisé, les erreurs sont surlignées en rose. Lorsque vous passez le curseur sur la partie mise en surbrillance, une info-bulle s’affiche pour décrire le problème.
 
-Pour plus d’informations, voir [Ajout de données calculées à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Pour plus d’informations, voir [Ajouter des données calculées à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## Migration vers l’Adobe d’une expérience unifiée
 
@@ -121,6 +121,6 @@ L’expérience unifiée Adobe comprend :
 
 * Navigation avec options pour les pages Workfront, les préférences Adobe Experience Cloud et votre profil Workfront
 
-Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}

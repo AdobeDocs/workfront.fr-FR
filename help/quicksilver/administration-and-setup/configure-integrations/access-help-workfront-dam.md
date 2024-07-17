@@ -1,5 +1,5 @@
 ---
-title: Accès à l’aide de [!UICONTROL Workfront] DAM
+title: Accès à l’aide de la gestion des actifs numériques [!UICONTROL Workfront]
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
@@ -18,8 +18,8 @@ ht-degree: 0%
 
 [!UICONTROL [!DNL Adobe Workfront] DAM] est un système natif de gestion des ressources numériques (DAM) dans [!DNL Workfront] qui vous permet de stocker, d’organiser, de rechercher, de récupérer et de partager des fichiers numériques.
 
-Vous pouvez accéder à la documentation d’assistance pour [!UICONTROL [!DNL Workfront] DAM]  aux emplacements suivants :
+Vous pouvez accéder à la documentation d’assistance pour [!UICONTROL [!DNL Workfront] DAM] aux emplacements suivants :
 
-* Si vous utilisez l’instance autonome [!UICONTROL Gestion des actifs numériques Workfront] (en dehors de la [!DNL Workfront] ), voir [!DNL Webdam] Site d’aide.
-* Si vous utilisez [!UICONTROL [!DNL Workfront] DAM] fonctionnalité de la principale [!DNL Workfront] application, voir [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] dans [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-* REMARQUE : Si vous devez envoyer une demande de fonctionnalité ou consigner un problème, contactez [!DNL Workfront] l’assistance clientèle par téléphone, par e-mail ou par [!DNL Workfront] Site d’aide. Pour plus d’informations, voir [Contacter le service clientèle](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+* Si vous utilisez l’application [!UICONTROL Workfront DAM] autonome (en dehors de l’application [!DNL Workfront] principale), consultez le site d’aide [!DNL Webdam].
+* Si vous utilisez la fonctionnalité [!UICONTROL [!DNL Workfront] DAM] dans l’application [!DNL Workfront] principale, voir [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] dans  [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* REMARQUE : Si vous devez envoyer une demande de fonctionnalité ou consigner un problème, contactez le service clientèle [!DNL Workfront] par téléphone, par e-mail ou sur le site d’aide [!DNL Workfront]. Pour plus d’informations, voir [Contacter le service clientèle](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

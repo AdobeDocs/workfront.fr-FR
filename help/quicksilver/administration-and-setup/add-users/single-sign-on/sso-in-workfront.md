@@ -12,7 +12,7 @@ exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
 source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ Les solutions fédérées permettent aux utilisateurs de se connecter à toutes 
 
 Lors de l’utilisation d’une solution d’authentification unique, Workfront établit une connexion à votre serveur sur le port spécifié.
 
-Si votre pare-feu ou votre serveur de messagerie est configuré pour autoriser l’accès uniquement à des fournisseurs spécifiques, vous devez ajouter certaines adresses IP Workfront à votre liste autorisée de pare-feu. Pour plus d’informations, voir [Configuration de la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Si votre pare-feu ou votre serveur de messagerie est configuré pour autoriser l’accès uniquement à des fournisseurs spécifiques, vous devez ajouter certaines adresses IP Workfront à votre liste autorisée de pare-feu. Pour plus d’informations, voir [Configurer la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Configuration de l’authentification unique
 

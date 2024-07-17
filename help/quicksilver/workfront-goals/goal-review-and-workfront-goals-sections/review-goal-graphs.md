@@ -9,7 +9,7 @@ exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -76,14 +76,14 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Types de graphiques dans les objectifs Workfront
 
@@ -99,7 +99,7 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou Objectifs
     <ul> 
      <li>Nombre total d’objectifs pour la période sélectionnée. Les objectifs ayant un statut quelconque sont pris en compte. </li> 
      <li>L’état d’avancement des objectifs avec l’état Actif et Fermé.</li> 
-    </ul> <p>Pour plus d’informations sur la façon dont les objectifs de Workfront calculent l’état de progression, voir <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Présentation de la progression et de la condition des objectifs dans les objectifs Adobe Workfront</a>.</p> </td> 
+    </ul> <p>Pour plus d’informations sur la façon dont les objectifs Workfront calculent l’état de progression, voir <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Présentation de la progression et de la condition de l’objectif dans les objectifs Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Graphique de progression des objectifs</td> 
@@ -114,7 +114,7 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou Objectifs
 
 ## Vérification de la progression de l’objectif dans les graphiques
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -134,7 +134,7 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou Objectifs
 
 1. (Facultatif) Sélectionnez le type d’informations à afficher en mettant à jour les filtres dans le coin supérieur droit de la section Graphiques.
 
-   Pour plus d’informations sur les objectifs de filtrage, voir [Filtrage des informations dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   Pour plus d’informations sur le filtrage des objectifs, voir [Filtrage des informations dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    >[!TIP]
    >
@@ -171,14 +171,14 @@ Les graphiques suivants sont disponibles dans la section Graphiques ou Objectifs
 
 1. Passez le curseur de la souris sur un noeud week dans le graphique de progression de l’objectif et passez en revue les éléments suivants :
 
-   * **Date de la semaine**: mois, jour et année de la semaine sélectionnée.
-   * **Progression**: moyenne du pourcentage réel d’achèvement de tous les objectifs pour la semaine sélectionnée.
-   * **Ligne de base**: moyenne du pourcentage attendu de tous les objectifs pour la semaine sélectionnée.
+   * **Date de semaine** : mois, jour et année de la semaine sélectionnée.
+   * **Progression** : moyenne du pourcentage réel de tous les objectifs pour la semaine sélectionnée.
+   * **Baseline** : moyenne du pourcentage attendu de tous les objectifs pour la semaine sélectionnée.
 
-1. (Facultatif) Cliquez sur **Progression** au bas du graphique de progression pour supprimer la ligne de progression globale réelle
+1. (Facultatif) Cliquez sur **Progression** au bas du graphique de progression pour supprimer la ligne de progression globale réelle.
 
    Ou
 
-   Cliquez sur **Ligne de base** au bas du graphique de progression pour supprimer la progression attendue du graphique.
+   Cliquez sur **Baseline** au bas du graphique de progression pour supprimer la progression attendue du graphique.
 
  

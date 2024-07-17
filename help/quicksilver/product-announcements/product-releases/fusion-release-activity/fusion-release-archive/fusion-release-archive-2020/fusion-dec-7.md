@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 7 décembre 2020.
 
-Pour obtenir la liste de toutes les modifications récentes, voir [Activité Publication de fusion Adobe Workfront](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la section [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de la fusion Workfront.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
 
 ## Connecteur et modules Jira Server désormais disponibles
 
@@ -38,7 +38,7 @@ Un nouveau connecteur Jira Server est désormais disponible pour Workfront Fusio
 
 Auparavant, les modules Jira n’étaient disponibles que pour Jira Cloud.
 
-Pour plus d’informations sur les modules Jira disponibles, voir [Modules logiciels Jira](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+Pour plus d’informations sur les modules Jira disponibles, voir [Jira Software modules](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

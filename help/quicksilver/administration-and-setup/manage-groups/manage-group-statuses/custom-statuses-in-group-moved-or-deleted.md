@@ -10,7 +10,7 @@ role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,6 @@ Si l’un des statuts du groupe supprimé était également utilisé par le grou
 >* Le nom de la version Groupe B de l’état remplace celui de la version Groupe A.
 >* Si l’état a été appliqué à un objet par une personne du groupe A avant la suppression de ce groupe, le nom de l’état sur l’objet est mis à jour par rapport au nom du statut utilisé par le groupe B.
 >
->Pour plus d’informations sur la clé d’un état, voir le tableau de cet article sous [Création ou modification d’un état personnalisé](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [Création ou modification d’un état pour un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create).
+>Pour plus d’informations sur la clé d’un état, reportez-vous au tableau de cet article sous [Créer ou modifier un état personnalisé](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [Créer ou modifier un état pour un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create).
 >
->Pour plus d’informations sur la suppression d’un groupe, voir [Suppression d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
+>Pour plus d&#39;informations sur la suppression d&#39;un groupe, voir [Suppression d&#39;un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).

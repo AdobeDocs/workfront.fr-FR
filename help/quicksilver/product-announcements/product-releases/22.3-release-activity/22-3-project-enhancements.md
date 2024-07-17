@@ -9,13 +9,13 @@ exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1562'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 22.3 Améliorations apportées aux projets
+# Améliorations apportées aux projets (version 22.3)
 
-Cette page décrit toutes les améliorations apportées aux projets avec la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, voir [Présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Cette page décrit toutes les améliorations apportées aux projets avec la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, consultez la [présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Délégation de travail en absence du bureau
 
@@ -39,7 +39,7 @@ Voici quelques-unes des fonctionnalités que nous avons ajoutées avec cette mis
 >Seuls les utilisateurs disposant d’une licence de révision ou supérieure peuvent déléguer leur travail à d’autres utilisateurs. Le travail peut être délégué à n’importe quel utilisateur, quel que soit son niveau d’accès. Les utilisateurs délégués reçoivent les mêmes autorisations que les personnes désignées sur les éléments délégués. Si ces autorisations sont inférieures à la configuration du niveau d’accès d’un utilisateur, il se peut que les utilisateurs délégués ne puissent pas exécuter certaines des activités sur les tâches et problèmes qui leur sont délégués.
 
 
-Pour plus d’informations, voir [Présentation de la tâche déléguée et du problème](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
+Pour plus d’informations, voir [Délégation de tâche et présentation des problèmes](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 ## Nouvelle expérience lors de la conversion d’un problème en tâche
 
@@ -54,7 +54,7 @@ Cette mise à jour inclut :
 * Les formulaires personnalisés par défaut définis dans la zone Paramètres des tâches du projet de destination ont été ajoutés à la nouvelle tâche.
 
 
-Pour plus d’informations, voir [Convertir un problème en tâche dans Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+Pour plus d’informations, voir [Convertir un problème en une tâche dans Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
 
 ## Nouvelle expérience lors de la conversion d’un problème en projet sans modèle
 
@@ -68,13 +68,13 @@ Pour plus d’informations, voir [Convertir un problème en projet dans Adobe Wo
 
 Nous avons amélioré le balisage des utilisateurs dans le flux de mise à jour lorsque vous créez une mise à jour ou que vous répondez à une mise à jour existante. Désormais, lorsque vous marquez un utilisateur pour l’inclure dans une mise à jour, en plus de son nom et de son avatar, nous affichons également son rôle de Principal et son email. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.
 
-Pour plus d’informations, voir [Balisage des autres sur les mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Pour plus d’informations, consultez [Baliser d’autres personnes sur les mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Nouvelle syntaxe pour les calculs dans les champs personnalisés
 
 Pour vous préparer aux améliorations à venir qui vous aideront à ajouter des calculs aux formulaires personnalisés, nous avons normalisé la syntaxe des champs référencés que vous ajoutez à un calcul. Il est facile d’utiliser cette nouvelle syntaxe car le système la saisit pour vous lorsque vous commencez à saisir le nom d’un champ, puis vous la sélectionnez.
 
-Pour plus d’informations, voir la section &quot;Créer le calcul pour votre champ personnalisé calculé&quot; dans la section [article Ajout de données calculées à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Pour plus d’informations, voir la section &quot;Créer le calcul pour votre champ personnalisé calculé&quot; dans l’ [ article Ajout de données calculées à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Conserver des informations précises lorsque deux utilisateurs ayant un rôle commun sont impliqués dans un processus d’approbation
 
@@ -84,7 +84,7 @@ Certains processus d’approbation nécessitent l’approbation de deux rôles d
 
 Avant cette modification, les deux approbations étaient enregistrées pour le deuxième utilisateur, car il partageait l’un des rôles d’approbation avec le premier approbateur. Dans ce cas, le second approbateur remplaçait les informations du premier approbateur.
 
-Pour plus d’informations sur les processus d’approbation dans Workfront, voir [Présentation du processus de validation](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Pour plus d’informations sur les processus d’approbation dans Workfront, consultez la [présentation des processus d’approbation](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
 ## Les heures d’affectation ne seront plus supprimées lors de la modification des affectations.
 
@@ -104,7 +104,7 @@ Les modifications suivantes ont été apportées aux tâches avec un type de dur
 * Les affectations d’affectation individuelles sont conservées sur le rôle lors de la suppression de l’utilisateur. (Supprimée de la version. Désormais, les heures planifiées seront définies sur 0 après la suppression de tous les cessionnaires.)
 
 
-Pour plus d’informations sur les heures planifiées, voir [Présentation des heures planifiées](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
+Pour plus d’informations sur les heures planifiées, consultez la [présentation des heures planifiées](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
 
 ## Améliorations des panoramas
 
@@ -141,11 +141,11 @@ Chaque dossier au sixième niveau ou au-dessous hérite de ses configurations de
 
 Pour plus d’informations sur le partage de dossiers, voir [Partage d’un dossier de document de niveau supérieur](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-## Campagnes Workfront (bêta) : une nouvelle façon de gérer votre travail
+## Campagnes Workfront (Beta) : une nouvelle façon de gérer votre travail
 
 >[!NOTE]
 >
->Cette fonctionnalité devrait être supprimée de l’aperçu le 9 janvier 2023. Pour plus d’informations, voir [Page de présentation de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>Cette fonctionnalité devrait être supprimée de l’aperçu le 9 janvier 2023. Pour plus d&#39;informations, consultez la [page de présentation des versions 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 
 * Un nouvel objet Workfront appelé Campaign
 
-* Nouvelle zone Campagnes (bêta) dans le menu principal
+* Nouvelle zone Campagnes (Beta) dans le menu principal
 
 * Liste des campagnes dans la zone Campagnes
 
@@ -176,7 +176,7 @@ Les fonctionnalités suivantes sont incluses dans cette version :
 
 * Possibilité de renommer l’objet Campaign à partir du modèle de mise en page
 
-  Les administrateurs système et groupe Workfront peuvent ajouter la zone Campagnes (bêta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour tous les utilisateurs affectés au modèle. Une fois disponible, n’importe qui dans Workfront peut créer une campagne.
+  Les administrateurs système et groupe Workfront peuvent ajouter la zone Campagnes (Beta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour tous les utilisateurs affectés au modèle. Une fois disponible, n’importe qui dans Workfront peut créer une campagne.
 
 
 

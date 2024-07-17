@@ -2,27 +2,27 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: Connecteur
 navigation-topic: http-modules
 title: HTTP &gt; Make a Client Certificate Authorization module
-description: Ceci [!DNL Adobe Workfront Fusion] vous permet de configurer une requête HTTP avec l’autorisation du certificat client HTTP et de l’envoyer à un serveur. La réponse HTTP reçue est alors contenue dans le lot de sortie.
+description: Ce module  [!DNL Adobe Workfront Fusion]  permet de configurer une requête HTTP avec l'autorisation du certificat client HTTP et de l'envoyer à un serveur. La réponse HTTP reçue est alors contenue dans le lot de sortie.
 author: Becky
 feature: Workfront Fusion
 exl-id: c0b0057f-3db0-4c10-a274-ebaec1a5b87b
 source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
-# HTTP >[!UICONTROL Lancer une demande d’autorisation de certificat client] module
+# Module HTTP >[!UICONTROL Effectuer une demande d’autorisation de certificat client]
 
 >[!NOTE]
 >
->Adobe Workfront Fusion nécessite une [!DNL Adobe Workfront Fusion] en plus d’une licence Adobe Workfront.
+>Adobe Workfront Fusion nécessite une licence [!DNL Adobe Workfront Fusion] en plus d’une licence Adobe Workfront.
 
-Ceci [!DNL Adobe Workfront Fusion] vous permet de configurer une requête HTTP avec l’autorisation du certificat client HTTP et de l’envoyer à un serveur. La réponse HTTP reçue est alors contenue dans le lot de sortie.
+Ce module [!DNL Adobe Workfront Fusion] vous permet de configurer une requête HTTP avec l’autorisation du certificat client HTTP et de l’envoyer à un serveur. La réponse HTTP reçue est alors contenue dans le lot de sortie.
 
 >[!NOTE]
 >
@@ -30,50 +30,50 @@ Ceci [!DNL Adobe Workfront Fusion] vous permet de configurer une requête HTTP a
 >
 >Pour plus d’informations, voir [Module Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL HTTP] >[!UICONTROL Lancer une demande d’autorisation de certificat client] configuration du module
+## [!UICONTROL HTTP] >[!UICONTROL Effectuer une demande d’autorisation de certificat client] configuration de module
 
-Lorsque vous configurez la variable [!UICONTROL HTTP] >[!UICONTROL Lancer une demande d’autorisation de certificat client] module, [!DNL Adobe Workfront Fusion] affiche les champs répertoriés ci-dessous. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez le module [!UICONTROL HTTP] >[!UICONTROL Effectuer une demande d’autorisation de certificat client], [!DNL Adobe Workfront Fusion] affiche les champs répertoriés ci-dessous. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
 <img src="assets/map-toggle-350x74.png" style="width: 350;height: 74;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 
@@ -83,7 +83,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Credentials]</td> 
-   <td> <p>Sélectionnez la clé contenant vos informations d’authentification de certificat client, ou cliquez sur <strong>[!UICONTROL Ajouter]</strong> pour ajouter vos informations d’identification à une nouvelle clé. </p> <p>Remarque : vous pouvez ajouter d’autres informations d’identification pour basculer facilement entre chaque connexion.</p> </td> 
+   <td> <p>Sélectionnez la clé contenant vos informations d’authentification de certificat client ou cliquez sur <strong>[!UICONTROL Ajouter]</strong> pour ajouter vos informations d’identification à une nouvelle clé. </p> <p>Remarque : vous pouvez ajouter d’autres informations d’identification pour basculer facilement entre chaque connexion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Évaluer tous les états comme des erreurs (à l’exception de 2xx et 3xx )] </td> 
@@ -94,7 +94,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
    <td> <p>Saisissez l’URL à laquelle vous souhaitez envoyer une requête, par exemple un point de terminaison API, un site web, etc.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Méthode [!UICONTROL]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
    <td> <p>Sélectionnez la méthode de requête HTTP dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir <a href="../../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -110,9 +110,9 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
    <td> <p>Le corps HTTP est l’octet de données transmis dans un message de transaction HTTP immédiatement après les en-têtes s’il y a un élément à utiliser.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>Le type de corps brut est généralement adapté à la plupart des requêtes de corps HTTP, même dans les cas où la documentation du développeur ne spécifie aucune donnée à envoyer.</p> <p>Spécifiez un formulaire d’analyse des données dans le champ [!UICONTROL Type de contenu] .</p> <p>Malgré le type de contenu sélectionné, le module saisit les données dans n’importe quel format requis par la documentation destinée aux développeurs.</p> </li> 
-     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Ce type de corps est destiné aux données [!UICONTROL POST] qui utilisent <code>application/x-www-form-urlencoded</code>.</p> <p>Pour <code>[!UICONTROL application/x-www-form-urlencoded]</code>, le corps du message HTTP envoyé au serveur est essentiellement une chaîne de requête. Les clés et les valeurs sont codées dans des paires clé-valeur séparées par <code>&amp;</code> et avec un <code>=</code> entre la clé et la valeur. </p> <p>Pour les données binaires, utilisez <code>[!UICONTROL multipart/form-data]</code> au lieu de .</p> 
+     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]{1</strong> </p> <p>Ce type de corps est destiné aux données [!UICONTROL POST] utilisant <code>application/x-www-form-urlencoded</code>.</p> <p>Pour <code>[!UICONTROL application/x-www-form-urlencoded]</code>, le corps du message HTTP envoyé au serveur est essentiellement une chaîne de requête. Les clés et les valeurs sont codées en paires clé-valeur séparées par <code>&amp;</code> et avec une <code>=</code> entre la clé et la valeur. </p> <p>Pour les données binaires, utilisez <code>[!UICONTROL multipart/form-data]</code> à la place.</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
-       <span class="autonumber"><span><b>Exemple : </b></span></span> 
+       <span class="autonumber"><span><b>Exemple : </b></span></span> 
        <p>Exemple du format de requête HTTP obtenu :</p> 
        <p><code>field1=value1&amp;field2=value2</code> </p> 
       </div> </li> 
@@ -153,15 +153,15 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Désactivation de la sérialisation de plusieurs mêmes clés de chaîne de requête en tant que tableaux]</p> </td> 
-   <td> <p>Par défaut, [!DNL Workfront Fusion] gère plusieurs valeurs pour la même clé de paramètre de chaîne de requête d’URL que les tableaux. Par exemple : <code>www.test.com?foo=bar&amp;foo=baz</code> sera converti en <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Activez cette option pour désactiver cette fonction. </p> </td> 
+   <td> <p>Par défaut, [!DNL Workfront Fusion] gère plusieurs valeurs pour la même clé de paramètre de chaîne de requête d’URL que les tableaux. Par exemple, <code>www.test.com?foo=bar&amp;foo=baz</code> sera converti en <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Activez cette option pour désactiver cette fonction. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Demander du contenu compressé]</td> 
-   <td> <p> Activez cette option pour demander une version compressée du site web.</p> <p>Ajoute un <code>[!UICONTROL Accept-Encoding]</code> pour demander du contenu compressé.</p> </td> 
+   <td> <p> Activez cette option pour demander une version compressée du site web.</p> <p>Ajoute un en-tête <code>[!UICONTROL Accept-Encoding]</code> pour demander du contenu compressé.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Utiliser TLS Mutuel]</td> 
-   <td> <p>Activez cette option pour utiliser le protocole TLS mutuel dans la requête HTTP.</p> <p>Pour plus d’informations sur le protocole TLS mutuel, voir <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">Utilisation de TLS mutuel dans les modules HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Activez cette option pour utiliser le protocole TLS mutuel dans la requête HTTP.</p> <p>Pour plus d’informations sur Mutual TLS, voir <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">Utilisation de Mutual TLS dans les modules HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

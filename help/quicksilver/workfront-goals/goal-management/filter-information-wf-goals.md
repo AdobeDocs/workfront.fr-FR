@@ -9,7 +9,7 @@ exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -70,14 +70,14 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Présentation des filtres dans les objectifs Workfront
 
@@ -91,7 +91,7 @@ Vous pouvez localiser et filtrer les objectifs dans les sections suivantes de la
 * Graphiques
 * Alignement des objectifs
 
-Pour plus d’informations sur les sections de la zone Objectifs , voir [Présentation des sections sur les objectifs d’Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Pour plus d’informations sur les sections de la zone Objectifs, voir [Présentation des sections Objectifs d’Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 >[!IMPORTANT]
 >
@@ -101,7 +101,7 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans les obje
 
 * Vous pouvez créer et appliquer un filtre sans l’enregistrer, ou enregistrer un filtre pour le réutiliser ultérieurement.
 
-  Les scénarios suivants existent :
+  Les scénarios suivants sont possibles :
 
    * Lorsque vous enregistrez un filtre, il devient le filtre par défaut pour vous chaque fois que vous vous connectez aux objectifs Workfront.
    * Lorsque vous appliquez un filtre sans l’enregistrer, vous pouvez revenir aux listes d’origine en actualisant votre page.
@@ -123,15 +123,15 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
 
 1. Accédez aux objectifs de Workfront.
 
-   Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Accès et ouverture d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   Pour plus d’informations sur l’accès aux objectifs Workfront, voir [Accès et ouverture des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    Par défaut, la section Liste des objectifs s’affiche.
 
-1. Cliquez sur **Filtrer** dans le coin supérieur droit de la liste.
+1. Cliquez sur **Filtre** dans le coin supérieur droit de la liste.
 
    ![](assets/filter-icon-and-label.png)
 
-   Par défaut, Workfront applique la variable **Tous** qui affiche tous les objectifs de votre système.
+   Par défaut, Workfront applique le filtre **Tous** qui affiche tous les objectifs de votre système.
 
    >[!TIP]
    >
@@ -173,9 +173,9 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
       </tbody> 
      </table>
 
-   * Passez la souris sur le nom d’un filtre, puis cliquez sur l’icône **Modifier** icon ![](assets/edit-icon.png) en regard de son nom pour le personnaliser et ajouter des noms spécifiques d’utilisateurs, d’équipes, de groupes ou du nom de votre organisation, puis sélectionnez-le lorsqu’ils apparaissent dans la liste.
+   * Pointez sur le nom d’un filtre, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) en regard de son nom pour le personnaliser et ajouter des noms spécifiques d’utilisateurs, d’équipes, de groupes ou du nom de votre organisation, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
-   * Cliquez sur **Nouveau filtre** pour créer un nouveau filtre, sélectionnez parmi les options suivantes pour personnaliser le nouveau filtre :
+   * Cliquez sur **Nouveau filtre** pour créer un nouveau filtre, puis sélectionnez l’une des options suivantes pour personnaliser le nouveau filtre :
 
      <table style="table-layout:auto"> 
       <col> 
@@ -208,18 +208,18 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
         <td role="rowheader">Propriétaire</td> 
         <td> <p>Commencez à saisir le nom d’un propriétaire, puis sélectionnez-le lorsqu’il apparaît dans la liste. </p> <p>Vous pouvez saisir les noms des utilisateurs, des équipes, des groupes ou le nom de votre organisation ou sélectionner des options prédéfinies. </p> <p>Les options de filtre prédéfinies suivantes se rapportent toujours à l’utilisateur actuellement connecté : </p> 
          <ul> 
-          <li> <p><strong>Me</strong>: affiche les objectifs dont vous êtes le propriétaire.</p> </li> 
-          <li> <p><strong>Mon équipe d’accueil</strong> et <strong>Toutes mes équipes</strong>: affiche les objectifs pour lesquels votre équipe d’accueil ou l’une de vos équipes est désignée comme propriétaire. </p> <p>Conseil : Aucun objectif ne s’affiche lorsque vous n’êtes affecté à aucune équipe. </p> </li> 
-          <li> <p><strong>Mon groupe d’accueil</strong> et <strong>Tous mes groupes</strong>: affiche les objectifs pour lesquels votre groupe d’accueil ou l’un de vos groupes est désigné comme propriétaire.</p> </li> 
+          <li> <p><strong>Moi</strong> : affiche les objectifs dont vous êtes le propriétaire.</p> </li> 
+          <li> <p><strong>Mon équipe d’accueil</strong> et <strong>Toutes mes équipes</strong> : affiche les objectifs où votre équipe d’accueil ou l’une de vos équipes est désignée comme propriétaire. </p> <p>Conseil : Aucun objectif ne s’affiche lorsque vous n’êtes affecté à aucune équipe. </p> </li> 
+          <li> <p><strong>Mon groupe d’accueil</strong> et <strong>Tous mes groupes</strong> : affiche les objectifs pour lesquels votre groupe d’accueil ou l’un de vos groupes sont désignés comme propriétaire.</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
 1. (Facultatif) Cliquez sur **Réinitialiser** dans le coin inférieur droit de la zone de filtrage pour effacer tous les champs que vous avez sélectionnés et commencer à créer le filtre à partir de zéro.
-1. (Facultatif) Cliquez sur **Appliquer** pour appliquer le filtre sans enregistrer.
+1. (Facultatif) Cliquez sur **Appliquer** pour appliquer le filtre sans l’enregistrer.
 
-   Le filtre s’affiche dans la variable **Non enregistré** du créateur de filtres en tant que **Nouveau filtre**.
+   Le filtre s’affiche dans la zone **Non enregistré** du créateur de filtres sous la forme **Nouveau filtre**.
 
    Vous ne pouvez pas renommer un filtre non enregistré.
 
@@ -229,26 +229,26 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
    >
    >Vous ne pouvez avoir qu’un seul nouveau filtre non enregistré à la fois.
 
-1. Cliquez sur **Enregistrer** pour enregistrer le filtre afin de l’utiliser ultérieurement, ajoutez un nom pour le filtre dans la variable **Ajouter un nom de filtre** champ et clic **Terminé**.
+1. Cliquez sur **Enregistrer** pour enregistrer le filtre afin de l’utiliser ultérieurement, puis ajoutez un nom pour le filtre dans le champ **Ajouter le nom du filtre** et cliquez sur **Terminé**.
 
-   Le filtre de la variable **Enregistré** du créateur de filtres. Vous pouvez utiliser ce filtre à l’avenir.
+   Cela enregistre le filtre dans la section **Enregistré** du créateur de filtres. Vous pouvez utiliser ce filtre à l’avenir.
 
    Le dernier filtre enregistré et appliqué s’affiche par défaut lors de la prochaine connexion à Workfront.
 
-1. (Facultatif) Cliquez sur le **flèche pointant vers la gauche** en regard de **Nouveau filtre** pour quitter le créateur de filtres et revenir à la liste des filtres.
-1. (Facultatif) Pointez sur le nom d’un filtre personnalisé, puis cliquez sur le bouton **Plus** , puis cliquez sur **Supprimer**, puis **Supprimer**. Cela supprime le filtre et vous ne pouvez pas le récupérer.
+1. (Facultatif) Cliquez sur la **flèche vers la gauche** en regard de **Nouveau filtre** pour quitter le créateur de filtres et revenir à la liste des filtres.
+1. (Facultatif) Passez la souris sur le nom d’un filtre personnalisé, cliquez sur le menu **Plus** , puis sur **Supprimer** et **Supprimer**. Cela supprime le filtre et vous ne pouvez pas le récupérer.
 
    >[!TIP]
    >
    >Vous ne pouvez supprimer aucun des filtres prédéfinis.
 
-1. Cliquez sur le bouton **Icône X** dans le coin supérieur droit du créateur de filtres pour fermer le créateur de filtres.
+1. Cliquez sur l’icône **X** dans le coin supérieur droit du créateur de filtres pour fermer le créateur de filtres.
 
    Le nom du filtre actuellement appliqué s’affiche à droite de l’icône Filtrer, dans le coin supérieur droit de la liste des objectifs.
 
    La liste des objectifs est filtrée selon vos critères de filtrage.
 
-1. (Facultatif et conditionnel) Lors de l’affichage des objectifs dans la section Alignement de l’objectif , cliquez sur **Montrez-les** si vous souhaitez afficher les objectifs filtrés.
+1. (Facultatif et conditionnel) Lors de l’affichage des objectifs dans la section Alignement de l’objectif , cliquez sur **Afficher les objectifs** si vous souhaitez afficher les objectifs filtrés.
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
@@ -257,6 +257,6 @@ Vous pouvez créer un filtre à partir de zéro ou modifier l’un des filtres i
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
-1. (facultatif et conditionnel) Cliquez sur **Réappliquer le filtre** pour appliquer le filtre et omettre les éléments affichés à l&#39;étape précédente.
+1. (Facultatif et conditionnel) Cliquez sur **Réappliquer le filtre** pour appliquer le filtre et omettre les éléments que vous avez affichés à l’étape précédente.
 
 

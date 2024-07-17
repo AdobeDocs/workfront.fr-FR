@@ -38,7 +38,7 @@ Les commandes de l’utilisateur et l’exécution de ces commandes par l’IA f
 
 * Par défaut, l’assistant d’IA est disponible pour les administrateurs Workfront.
 
-* L’administrateur Workfront doit activer l’assistant d’IA pour tous les autres utilisateurs. Pour plus d’informations, voir [Activation ou désactivation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* L’administrateur Workfront doit activer l’assistant d’IA pour tous les autres utilisateurs. Pour plus d’informations, voir [Activation ou désactivation de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 * L’assistant d’IA fonctionne dans le contexte de chaque page. Les requêtes que vous envoyez pour l’assistant d’IA doivent référencer la fonctionnalité disponible dans la page que vous avez ouverte.
 
@@ -72,15 +72,15 @@ Pour le moment, vous pouvez utiliser l’assistant d’IA pour effectuer les act
 
 ## Accès à l’assistant d’IA
 
-1. Connectez-vous à Workfront, puis accédez au **Planification** zone.
+1. Connectez-vous à Workfront, puis accédez à la zone **Planning**.
 
-1. Cliquez sur un **carte de l&#39;espace de travail**.
+1. Cliquez sur une carte **espace de travail**.
 
-1. (Facultatif) Cliquez sur un **carte de type d’enregistrement**.
+1. (Facultatif) Cliquez sur une **carte de type enregistrement**.
 
-1. (Facultatif) Cliquez sur un **record** pour ouvrir le **Détails** page.
+1. (Facultatif) Cliquez sur un **enregistrement** pour ouvrir la page **Détails** de l’enregistrement.
 
-1. Cliquez sur le bouton **Icône Assistant IA** dans le coin supérieur droit de l’écran, dans la barre de navigation globale.
+1. Cliquez sur l’icône **Assistant IA** dans le coin supérieur droit de l’écran dans la barre de navigation globale.
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

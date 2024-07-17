@@ -10,8 +10,8 @@ role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
 source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '451'
+ht-degree: 26%
 
 ---
 
@@ -21,44 +21,44 @@ Vous pouvez configurer une liste autorisée IP Adobe Workfront qui limite l’ac
 
 Ces adresses IP ou plages d’adresses doivent être fournies par votre administrateur réseau.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>Entreprise</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un administrateur Workfront.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Autres listes autorisées
 
-Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée. Cela permet d’établir une communication entre votre environnement et les serveurs Adobe Workfront. Pour plus d’informations à ce sujet, voir [Configuration de la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée. Cela permet d’établir une communication entre votre environnement et les serveurs Adobe Workfront. Pour plus d’informations à ce sujet, voir [Configuration de la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-En outre, si votre entreprise utilise le forfait Enterprise, vous pouvez configurer la liste autorisée de messagerie de Workfront pour contrôler quels domaines de messagerie sont autorisés à accepter les courriers électroniques de Workfront et quels domaines de messagerie peuvent se trouver dans l’adresse électronique que les utilisateurs spécifient dans leur profil utilisateur Workfront. Pour plus d’informations, voir [Configuration de votre liste autorisée de messagerie](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+En outre, si votre entreprise utilise le forfait Enterprise, vous pouvez configurer la liste autorisée de messagerie de Workfront pour contrôler quels domaines de messagerie sont autorisés à accepter les courriers électroniques de Workfront et quels domaines de messagerie peuvent se trouver dans l’adresse électronique que les utilisateurs spécifient dans leur profil utilisateur Workfront. Pour plus d’informations, voir [Configurer votre liste autorisée d’e-mails](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
 ## Ajout d’adresses IP à la liste autorisée
 
-Une fois que vous avez ajouté des adresses IP à la liste autorisée Workfront, seules ces adresses IP peuvent être utilisées pour accéder à Workfront. Les utilisateurs qui tentent d’accéder à Workfront à partir d’une autre adresse IP reçoivent un message d’erreur indiquant que leur adresse IP est bloquée.
+Une fois que vous avez ajouté des adresses IP à la liste autorisée Workfront, seules ces adresses IP peuvent être utilisées pour accéder à Workfront. Les utilisateurs qui tentent d’accéder à Workfront depuis une autre adresse IP reçoivent un message d’erreur indiquant que leur adresse IP est bloquée.
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Système** > **Informations sur le client.**
+1. Cliquez sur **System** > **Customer Info.**
 
-1. Dans le **LISTE AUTORISÉE IP** , sélectionnez **Activez la liste autorisée IP.**
+1. Dans la section **liste autorisée IP**, sélectionnez **Activer la liste autorisée IP.**
 
    Cette option est désactivée par défaut.
 
@@ -70,9 +70,9 @@ Une fois que vous avez ajouté des adresses IP à la liste autorisée Workfront,
 
    L’adresse IP que vous utilisez pour accéder à Workfront doit être ajoutée à la liste autorisée avant l’activation de la liste autorisée.
 
-1. Cliquez sur **Ajouter une plage d’adresses IP,** indiquez ensuite l’adresse IP ou la plage d’adresses IP auxquelles vous souhaitez pouvoir accéder à Workfront.
+1. Cliquez sur **Ajouter une plage d’adresses IP,** , puis spécifiez l’adresse IP ou la plage d’adresses IP que vous souhaitez pouvoir accéder à Workfront.
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres adresses IP ou plages d’adresses.
 
    Vous pouvez ajouter jusqu’à 45 adresses ou plages.
 
-1. Cliquer sur **Enregistrer.**
+1. Cliquez sur **Enregistrer.**

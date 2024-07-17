@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
-title: Présentation de l’activité de la version 2019.3
+title: Vue d’ensemble de l’activité Version 2019.3
 description: Cette page fournit des informations sur les fonctionnalités incluses dans la version 2019.3. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de production au cours de la semaine du 19 août 2019. Pour connaître les dates et heures spécifiques auxquelles la version a été publiée, consultez le site d’approbation de Workfront.
 author: Luke
 feature: Product Announcements
@@ -10,11 +10,11 @@ exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Présentation de l’activité de la version 2019.3
+# Vue d’ensemble de l’activité Version 2019.3
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version 2019.3. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de production au cours de la semaine du 19 août 2019.
 
@@ -22,7 +22,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  To download this page in PDF&nbsp;format, go  <a href="https://documentation.my.workfront.com/library/a/1c7547fc-9d72-400e-84ed-3382bca498f4" target="_blank">here</a>. </MadCap:conditionalText>
 -->
 
-Pour consulter la liste des améliorations apportées à la version 2019.3, voir [Versions de produit](../../../../product-announcements/product-releases/product-releases.md).
+Pour afficher la liste des améliorations publiées après la version 2019.3, reportez-vous à la section [Versions du produit](../../../../product-announcements/product-releases/product-releases.md).
 
 ## Améliorations pour tous les utilisateurs
 
@@ -152,7 +152,7 @@ La version 2019.3 contient les améliorations suivantes :
 
   Afin de rendre l’application mobile Workfront plus sécurisée pour vous et votre entreprise, les utilisateurs seront déconnectés automatiquement après 8 minutes d’inactivité.
 
-* [Filtrage par projets inactifs dans l’application mobile](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [Filtrage par projets inactifs dans l’application mobile](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [Filtrer par projets inactifs dans l’application mobile](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [Filtrer par projets inactifs dans l’application mobile](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   Nous avons ajouté l’option de filtrage Projets en échec sous l’onglet Projets de l’application mobile.
 
@@ -198,7 +198,7 @@ Plusieurs nouvelles améliorations ont été apportées à l’aspect afin d’a
 
 Cette section décrit les modifications apportées pendant la période de publication de la version 2019.3 qui sera publiée dans l’environnement de production avant la version 2019.3 générale.
 
-* [Modifier le type d’affichage d’un champ dans un formulaire personnalisé](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
+* [Modifier le type d&#39;affichage d&#39;un champ dans un formulaire personnalisé](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -210,7 +210,7 @@ Cette section décrit les modifications apportées pendant la période de public
 
   Vous pouvez désormais modifier le type d’affichage d’un champ dans un formulaire personnalisé.
 
-  Par exemple, si vous avez créé un champ Cases à cocher, vous pouvez le changer en Champ déroulant ou Champ Boutons radio. Ces trois types d’affichage de champ sont interchangeables.
+  Par exemple, si vous avez créé un champ de cases à cocher, vous pouvez le transformer en champ de liste déroulante ou en champ de boutons radio. Ces trois types d’affichage de champ sont interchangeables.
 
 * [Créer des calendriers et des rapports de temps d’expiration](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#create)
 
@@ -357,11 +357,11 @@ Pour plus d’informations sur les mises à jour de maintenance effectuées lors
 
 ## Annonces
 
-* [La nouvelle version bêta de l’expérience Workfront est désormais disponible dans Aperçu.](#the-new-workfront-experience-beta-now-available-in-preview)
+* [La nouvelle version bêta de l’expérience Workfront est désormais disponible dans Aperçu](#the-new-workfront-experience-beta-now-available-in-preview)
 * [Bibliothèque Workfront désormais disponible](#workfront-library-now-available)
 * [L’API version 3 n’est plus prise en charge](#api-version-3-no-longer-supported)
-* [La prise en charge de TLS 1.0 et 1.1 prend fin.](#tls-1-0-and-1-1-support-is-ending)
-* [Suppression de la demande de Flash](#flash-application-removal)
+* [ La prise en charge de TLS 1.0 et 1.1 se termine](#tls-1-0-and-1-1-support-is-ending)
+* [Suppression de l’application de Flash](#flash-application-removal)
 * [Diverses options de connexion unique à supprimer](#various-single-sign-on-options-to-be-removed)
 * [Webinaire Feuille de route du produit Q3](#q3-product-roadmap-webinar)
 
@@ -375,7 +375,7 @@ La bibliothèque Workfront est un hub de contenu numérique d’entreprise que v
 
 ### L’API version 3 n’est plus prise en charge {#api-version-3-no-longer-supported}
 
-La prise en charge de l’API version 3 a pris fin en novembre 2018. Pour plus d’informations sur la planification de la prise en charge des versions de l’API Workfront, voir [Contrôle de version des API et planification de la prise en charge](../../../../wf-api/api/api-version-support-schedule.md)
+La prise en charge de l’API version 3 a pris fin en novembre 2018. Pour plus d’informations sur la planification de la prise en charge des versions de l’API Workfront, voir [Contrôle de version des API et planning de prise en charge](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -403,7 +403,7 @@ TLS 1.2 to be required in Workfront
 
 Toutes les fonctionnalités reposant sur la technologie de Flash ont été supprimées de Workfront depuis la version 2018.3 et remplacées par une nouvelle solution.
 
-Pour plus d’informations sur les outils de Flash hérités et leurs remplacements, voir [Remplacement des outils par Flash dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Pour plus d’informations sur les outils de Flash hérités et leurs remplacements, voir [Remplacement des outils basés sur le Flash dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ Voici la chronologie de suppression pour ces options d’authentification unique
 
 ### Webinaire Feuille de route du produit Q3 {#q3-product-roadmap-webinar}
 
-En savoir plus sur ce qui doit se passer pendant la [Webinaire Feuille de route Q3](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) le 1er août à 9 heures. MST.
+En savoir plus sur ce qui se passera lors du [webinaire sur la carte routière Q3](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) le 1er août à 9h00. MST.

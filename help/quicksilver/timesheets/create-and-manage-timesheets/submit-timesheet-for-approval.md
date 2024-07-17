@@ -1,7 +1,7 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Envoyer une feuille de temps pour approbation
+title: Soumettre une feuille de temps pour approbation
 description: L’envoi de votre feuille de temps pour approbation offre une visibilité sur vos heures de travail à votre responsable. Les approbateurs peuvent vérifier que tout le temps enregistré a été alloué dans les zones appropriées et qu’un nombre suffisant d’heures a été enregistré pour la période.
 author: Alina
 feature: Timesheets
@@ -9,68 +9,68 @@ exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Envoyer une feuille de temps pour approbation
+# Soumettre une feuille de temps pour approbation
 
 L’envoi de votre feuille de temps pour approbation offre une visibilité sur vos heures de travail à votre responsable. Les approbateurs peuvent vérifier que tout le temps enregistré a été alloué dans les zones appropriées et qu’un nombre suffisant d’heures a été enregistré pour la période.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Afficher l’accès ou une version ultérieure à Tâches et problèmes</p> <p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Accès en affichage ou autorisations supérieures pour les tâches et problèmes</p> <p>Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage ou autorisations supérieures pour les tâches et les problèmes</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Affichage ou autorisations supérieures pour les tâches et les problèmes</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## Envoyer une feuille de temps pour approbation
+## Soumettre une feuille de temps pour approbation
 
 * [Envoyer une feuille de temps pour approbation](#submit-a-timesheet-for-approval)
 * [Afficher l’état d’une feuille de temps envoyée](#view-the-status-of-a-submitted-timesheet)
 
-### Envoyer une feuille de temps pour approbation
+### Soumettre une feuille de temps pour approbation
 
-Après la définition de l’approbateur de la feuille de temps (comme décrit dans la section [Désignation des approbateurs de feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) dans l’article [Approbation d’une feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), la variable **Fermer** au bas de la feuille de temps se transforme en **Envoyer pour approbation** bouton .
+Une fois qu’un approbateur de feuille de temps est défini (comme décrit dans la section [Désigner les approbateurs de feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) de l’article [Approuver une feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), le bouton **Fermer** au bas de la feuille de temps se transforme en bouton **Soumettre pour approbation**.
 
 Pour soumettre une feuille de temps à validation :
 
 1. Accédez à une feuille de temps qui a été configurée pour avoir un approbateur.
-1. Temps de journalisation, comme décrit dans la section [Temps de connexion](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Cliquez sur **Envoyer pour approbation** pour lancer le processus d’approbation de la feuille de temps.
+1. Temps du journal, comme décrit dans [Temps du journal](../../timesheets/create-and-manage-timesheets/log-time.md).
+1. Cliquez sur **Soumettre pour approbation** pour lancer le processus d’approbation de la feuille de temps.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   La variable **Envoyer pour approbation** est remplacé par le bouton **Approuver**, **Rejeter**, et **Rappeler** des boutons. L’état de la feuille de temps passe à **Envoyé**.
+   Le bouton **Submit for Approval** (Envoyer pour approbation) est remplacé par les boutons **Approve**, **Reject** et **Recall**. L’état de la feuille de temps passe à **Submitted**.
 
-   Lorsque votre feuille de temps est soumise à validation, l’approbateur voit la feuille de temps indiquée dans la variable **Approbations** sur la zone **Accueil** page. Les événements suivants peuvent se produire :
+   Lorsque votre feuille de temps est soumise à approbation, l’approbateur voit la feuille de temps répertoriée dans la zone **Approbations** de la page **Accueil**. Les événements suivants peuvent se produire :
 
-   * S’ils l’approuvent, la variable **Rappeler** modification du bouton **rouvrir** et que l’état de la feuille de temps soit mis à jour vers **Ouvrir**.
-   * S’ils le rejettent, la variable **Envoyer pour approbation** remplace le bouton **Rappeler** et que l’état de la feuille de temps soit mis à jour vers **Rejetés**.
+   * S’ils l’approuvent, le bouton **Rappeler** se transforme en **Rouvrir** et l’état de la feuille de temps est mis à jour en **Ouvrir**.
+   * S’ils le rejettent, le bouton **Submit for Approval** (Envoyer pour approbation) remplace le bouton **Rappeler** et l’état de la feuille de temps est mis à jour vers **Rejected** (Refusé).
 
-1. (Facultatif) Cliquez sur **Rappeler** si vous devez rouvrir la feuille de temps et mettre à jour votre heure. Pour plus d’informations, voir [Rappel d’une feuille de temps](#recall-a-timesheet) dans cet article.
+1. (Facultatif) Cliquez sur **Rappeler** si vous devez rouvrir la feuille de temps et mettre à jour votre heure. Pour plus d’informations, reportez-vous à la section [Rappeler une feuille de temps](#recall-a-timesheet) de cet article.
 
 ### Afficher l’état d’une feuille de temps envoyée {#view-the-status-of-a-submitted-timesheet}
 
@@ -82,18 +82,18 @@ Sans ces notifications, vous pouvez en savoir plus sur l’état de vos feuilles
 
 Pour afficher l’état d’une feuille de temps :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
-1. Cliquez sur **Feuilles de temps**. La variable **Tous** est sélectionné par défaut.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur **Feuilles de temps**. Le filtre **Tous** est sélectionné par défaut.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Facultatif) Pour mettre à jour le filtre dans la liste des feuilles de temps, effectuez l’une des opérations suivantes :
 
-   * Sélectionner **Mes approbations de la feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez
+   * Sélectionnez **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez.
 
      Ou
 
-     Sélectionner **Mes feuilles de calcul** pour afficher uniquement vos feuilles de temps.
+     Sélectionnez **Mes feuilles de calcul** pour n’afficher que vos feuilles de calcul.
 
      Cela applique les filtres Mes approbations de feuille de temps ou Ma feuille de temps à la liste des feuilles de temps.
 
@@ -107,11 +107,11 @@ Pour afficher l’état d’une feuille de temps :
    >
    >   
    >   
-   >   * [Personnalisation des filtres, des vues et des groupes à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Conditionnel) Si vous avez sélectionné **Mes feuilles de calcul**, assurez-vous que la variable **Standard** s’applique et notez que la variable **État** colonne .
+1. (Conditionnel) Si vous avez sélectionné **Mes feuilles de calcul**, assurez-vous que la vue **Standard** est appliquée et notez la colonne **État**.
 
    Les feuilles de calcul peuvent avoir les états suivants :
 
@@ -121,15 +121,15 @@ Pour afficher l’état d’une feuille de temps :
     <tbody> 
      <tr> 
       <td role="rowheader">Ouvertes</td> 
-      <td> <p>Votre feuille de temps est actuellement ouverte et vous pouvez consigner l’heure. </p> <p>Une feuille de temps rappelée s’affiche avec l’état Ouvrir. Pour plus d’informations, voir <a href="#recall-a-timesheet" class="MCXref xref">Rappel d’une feuille de temps</a> dans cet article. </p> </td> 
+      <td> <p>Votre feuille de temps est actuellement ouverte et vous pouvez consigner l’heure. </p> <p>Une feuille de temps rappelée s’affiche avec l’état Ouvrir. Pour plus d’informations, reportez-vous à la section <a href="#recall-a-timesheet" class="MCXref xref">Rappeler une feuille de temps</a> de cet article. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Soumis</td> 
-      <td>Vous avez soumis votre feuille de temps pour approbation, mais elle n’a pas encore été approuvée. Vous pouvez vous souvenir d’une feuille de temps envoyée pour continuer à la modifier. Pour plus d’informations, voir <a href="#recall-a-timesheet" class="MCXref xref">Rappel d’une feuille de temps</a> dans cet article. </td> 
+      <td>Vous avez soumis votre feuille de temps pour approbation, mais elle n’a pas encore été approuvée. Vous pouvez vous souvenir d’une feuille de temps envoyée pour continuer à la modifier. Pour plus d’informations, reportez-vous à la section <a href="#recall-a-timesheet" class="MCXref xref">Rappeler une feuille de temps</a> de cet article. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fermé</td> 
-      <td> <p>Les scénarios suivants existent :</p> 
+      <td> <p>Les scénarios suivants sont possibles :</p> 
        <ul> 
         <li> <p>Si la feuille de temps n’a pas d’approbateur, vous avez gagné du temps et l’avez fermée.</p> </li> 
         <li> <p>Si la feuille de temps comporte un approbateur, vous l’avez envoyée pour approbation et elle a été approuvée.</p> </li> 
@@ -148,10 +148,10 @@ Vous pouvez vous souvenir d’une feuille de temps qui a déjà été soumise à
 
 Pour rappeler une feuille de temps :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **Feuilles de temps**.
-1. Cliquez sur **Mes feuilles de calcul** dans le coin supérieur droit de l’écran ou sélectionnez **Mes feuilles de calcul** de la **Filtrer** ![](assets/filter-nwepng.png) menu déroulant.
+1. Cliquez sur **Mes feuilles de calcul** dans le coin supérieur droit de l’écran ou sélectionnez **Mes feuilles de calcul** dans le menu déroulant **Filtre** ![](assets/filter-nwepng.png) .
 1. Cliquez sur la période d’une feuille de temps dont l’état est **Envoyé**.
 1. Cliquez sur **Rappeler**.
 

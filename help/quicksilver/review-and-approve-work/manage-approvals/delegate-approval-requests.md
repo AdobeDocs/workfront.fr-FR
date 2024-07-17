@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Déléguer la demande d’approbation
+title: Déléguer une demande d’approbation
 description: Déléguer des demandes d’approbation permet d’affecter un autre utilisateur à l’approbation de vos demandes pendant une période donnée, par exemple si vous êtes absent du bureau en vacances.
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -9,13 +9,13 @@ exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
 workflow-type: tm+mt
 source-wordcount: '1257'
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
-# Déléguer la demande d’approbation
+# Déléguer une demande d’approbation
 
-Vous pouvez déléguer temporairement la tâche à laquelle vous êtes affecté lorsque vous êtes absent du bureau. Vous pouvez déléguer des tâches et des affectations d’émission ou déléguer des demandes d’approbation. Cet article décrit comment déléguer des demandes d’approbation. Pour plus d’informations sur la délégation des affectations de tâche et de problème, voir [Gérer la délégation des tâches et des problèmes](../../manage-work/delegate-work/how-to-delegate-work.md).
+Vous pouvez déléguer temporairement la tâche à laquelle vous êtes affecté lorsque vous êtes absent du bureau. Vous pouvez déléguer des tâches et des affectations d’émission ou déléguer des demandes d’approbation. Cet article décrit comment déléguer des demandes d’approbation. Pour plus d’informations sur la délégation des tâches et des affectations de problèmes, voir [Gérer la délégation de tâche et de problème](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 Vous pouvez déléguer les types d’approbations suivants, quelle que soit la manière dont l’approbation vous a été attribuée (directement à vous, à une équipe dont vous faites partie ou à votre rôle de tâche) :
 
@@ -27,15 +27,15 @@ Vous ne pouvez pas déléguer les validations de feuille de temps, de document o
 
 >[!NOTE]
 >
->Pour garantir qu’aucune incohérence ne se produise avec les dates que vous programmez pour que vos approbations soient déléguées, nous vous recommandons de faire correspondre le fuseau horaire de votre profil utilisateur à celui de votre planning. Pour plus d’informations, voir les articles suivants :
+>Pour garantir qu’aucune incohérence ne se produise avec les dates que vous programmez pour que vos approbations soient déléguées, nous vous recommandons de faire correspondre le fuseau horaire de votre profil utilisateur à celui de votre planning. Pour plus d’informations, consultez les articles suivants :
 >
->* [Création d’un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
->* [Modification du profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+>* [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+>* [Modifier le profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,12 +44,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td> <p>Révision ou supérieur</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,10 +66,10 @@ Au cours de la période de validation désignée, l’utilisateur à qui vous d�
 
   >[!NOTE]
   >
-  > L’administrateur Adobe Workfront peut empêcher les utilisateurs d’accéder à certains types d’objets. Lorsqu’un utilisateur n’a pas accès à un type d’objet et qu’une approbation de ce type est déléguée à l’utilisateur, celui-ci ne dispose pas de l’accès Affichage à l’objet. Cependant, l’utilisateur peut toujours approuver ou rejeter les demandes d’approbation de la **Accueil** , comme décrit dans la section [Valider le travail](../../review-and-approve-work/manage-approvals/approving-work.md).\
-  Par exemple, l’utilisateur A appartient au groupe A. L’administrateur de Workfront a restreint les droits d’accès au groupe A afin que les utilisateurs de ce groupe ne puissent pas afficher les tâches dans Workfront. Si une demande d’approbation de tâche est déléguée à l’utilisateur A, l’utilisateur A ne peut pas afficher la tâche à laquelle elle est associée. Cependant, l’utilisateur A peut approuver ou rejeter la demande de validation à partir de la page d’accueil.
+  > L’administrateur Adobe Workfront peut empêcher les utilisateurs d’accéder à certains types d’objets. Lorsqu’un utilisateur n’a pas accès à un type d’objet et qu’une approbation de ce type est déléguée à l’utilisateur, celui-ci ne dispose pas de l’accès Affichage à l’objet. Cependant, l’utilisateur peut toujours approuver ou rejeter les demandes d’approbation de la page **Accueil**, comme décrit dans [Valider le travail](../../review-and-approve-work/manage-approvals/approving-work.md).\
+  >Par exemple, l’utilisateur A appartient au groupe A. L’administrateur de Workfront a restreint les droits d’accès au groupe A afin que les utilisateurs de ce groupe ne puissent pas afficher les tâches dans Workfront. Si une demande d’approbation de tâche est déléguée à l’utilisateur A, l’utilisateur A ne peut pas afficher la tâche à laquelle elle est associée. Cependant, l’utilisateur A peut approuver ou rejeter la demande de validation à partir de la page d’accueil.
 
-  Pour plus d’informations sur la manière dont l’administrateur de Workfront peut restreindre l’accès aux types d’objets dans Configuration, voir  [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+  Pour plus d’informations sur la manière dont l’administrateur de Workfront peut restreindre l’accès aux types d’objets dans Configuration, voir  [Créez ou modifiez des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
 Une fois la délégation d’approbation arrêtée ou annulée, l’utilisateur désigné comme approbateur :
 
@@ -80,7 +80,7 @@ Une fois la délégation d’approbation arrêtée ou annulée, l’utilisateur 
 ## Déléguer les demandes d’approbation dans la zone Accueil
 
 * [Déléguer vos approbations à un autre utilisateur](#delegate-your-approvals-to-another-user)
-* [Mettre à jour ou arrêter une délégation d’approbation](#update-or-stop-an-approval-delegation)
+* [Mettre à jour ou arrêter une délégation d&#39;approbation](#update-or-stop-an-approval-delegation)
 * [Afficher les validations déléguées](#view-delegated-approvals)
 
 ### Déléguer vos approbations à un autre utilisateur {#delegate-your-approvals-to-another-user}
@@ -103,65 +103,65 @@ Tenez compte des points suivants lors de la délégation des approbations :
 
 Pour déléguer des approbations à un autre utilisateur :
 
-1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
-   Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
    >
-   * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
+   >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
 
    Ou
 
-   Cliquez sur le bouton **Menu Principal** icon > **votre nom** > **Heure de désactivation** dans le panneau de gauche.
+   Cliquez sur l’icône **Menu principal** > **votre nom** > **Heure désactivée** dans le panneau de gauche.
 
-1. (Facultatif et conditionnel) Dans la zone Accueil, cliquez sur le bouton **Filtrer** , puis cliquez sur **Approbations**.
+1. (Facultatif et conditionnel) Dans la zone Accueil, cliquez sur le menu déroulant **Filtre**, puis cliquez sur **Approbations**.
 
 1. (Conditionnel) Cliquez sur **Déléguer mes approbations**
 
    Ou
 
-   Si votre administrateur système ou de groupe a activé la délégation de tâche et de problème, cliquez sur **Déléguer**, puis cliquez sur **Déléguer les approbations**.
+   Si votre administrateur système ou groupe a activé la délégation de tâche et de problème, cliquez sur **Déléguer**, puis sur **Déléguer les approbations**.
 
    ![](assets/delegate-approvals-nwe.png)
 
 1. Indiquez les informations suivantes dans la section Déléguer mes approbations :
 
-   * **Nom**: commencez à saisir le nom de l’utilisateur à qui vous souhaitez déléguer les approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
-   * **Date de début**: sélectionnez la date de début du transfert des validations. Le transfert commence à 00:00 à la date que vous sélectionnez.\
+   * **Nom** : commencez à saisir le nom de l’utilisateur auquel vous souhaitez déléguer les approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
+   * **Date de début** : sélectionnez la date de début du transfert des approbations. Le transfert commence à 00:00 à la date que vous sélectionnez.\
      La Date de début doit être la date actuelle ou ultérieure.
-   * **Date de fin**:effectuez l’une des opérations suivantes :
+   * **Date de fin** : effectuez l’une des opérations suivantes :
 
       * Sélectionnez la date à laquelle les validations doivent cesser d&#39;être transférées. Le transfert se termine à 23 h 59 à la date que vous sélectionnez.
-      * Sélectionner **Aucune date de fin** configurer Workfront pour déléguer les approbations indéfiniment.
+      * Sélectionnez **No end date** pour configurer Workfront afin de déléguer les approbations indéfiniment.
 
 1. Cliquer sur **Enregistrer**.
 
 ### Mettre à jour ou arrêter une délégation d’approbation {#update-or-stop-an-approval-delegation}
 
-1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
-   Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
    >
-   * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
+   >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
 
-1. Cliquez sur le bouton **Filtrer** , puis cliquez sur **Approbations**.
+1. Cliquez sur le menu déroulant **Filtre**, puis sur **Approbations**.
 
 1. (Conditionnel) Cliquez sur **Modifier la délégation**
 
    Ou
 
-   Si l’administrateur système ou de groupe a activé la tâche et la délégation des problèmes, cliquez sur **Modifier la délégation**, puis cliquez sur **Déléguer les approbations**.
+   Si l’administrateur de votre système ou de votre groupe a activé la tâche et émis la délégation, cliquez sur **Modifier la délégation**, puis sur **Déléguer les approbations**.
 
 1. (Conditionnel) Effectuez l’une des opérations suivantes :
 
-   * Pour mettre à jour la délégation de validation existante : modifiez les informations affichées, puis cliquez sur **Enregistrer**.
+   * Pour mettre à jour la délégation d&#39;approbation existante : modifiez les informations affichées, puis cliquez sur **Enregistrer**.
 
-   * Pour arrêter la délégation existante : cliquez sur **Arrêter la délégation**, puis cliquez sur **Arrêter la délégation** pour confirmer.
+   * Pour arrêter la délégation existante : cliquez sur **Arrêter la délégation**, puis sur **Arrêter la délégation** pour confirmer.
 
      ![](assets/stop-delegation-nwe.png)
 
@@ -175,16 +175,16 @@ Vous ne pouvez afficher que les types de délégations de validation suivants da
 
 Pour afficher les validations déléguées :
 
-1. Cliquez sur le bouton **Accueil** icon ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+1. Cliquez sur l’icône **Accueil** ![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
-   Votre administrateur Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
+   >Votre administrateur ou administratrice Workfront peut apporter les modifications suivantes à l’icône Accueil de votre environnement :
    >
-   * Remplacez-le par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
-   * Remplacez la page qui lui est liée par une autre page. Dans ce cas, cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis cliquez sur **Accueil**.
+   >* La remplacer par une image personnalisée pour illustrer votre entreprise. Dans ce cas, l’icône sera différente de celle présentée dans cet article.
+   >* Remplacer la page à laquelle elle est liée par une autre page. Dans ce cas, cliquez sur **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de la page, puis sur **Accueil**.
 
-1. Cliquez sur le bouton **Filtrer** , puis cliquez sur **Approbations**.\
+1. Cliquez sur le menu déroulant **Filtre**, puis sur **Approbations**.\
    Par défaut, toutes les validations sont répertoriées dans la liste, y compris les validations qui vous ont été attribuées et les validations qui vous ont été déléguées.
 
    ![](assets/delegated-to-me-nwe-350x93.png)

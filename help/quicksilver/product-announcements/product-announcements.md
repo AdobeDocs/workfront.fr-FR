@@ -9,7 +9,7 @@ exl-id: 47325ca8-653b-47c9-b84e-e10f1a57cf6f
 source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 3%
+ht-degree: 34%
 
 ---
 
@@ -19,4 +19,4 @@ Cette section contient les sous-sections suivantes qui décrivent les prochaines
 
 * [Versions de produit](../product-announcements/product-releases/product-releases.md)
 * [Annonces](../product-announcements/announcements/announcements.md)
-* [Programmes bêta](../product-announcements/betas/betas.md)
+* [Programmes en version bêta](../product-announcements/betas/betas.md)

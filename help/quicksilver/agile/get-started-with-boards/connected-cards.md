@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader">Autorisations d’objet</td>
    <td><p>Autorisations d’affichage ou supérieures à une tâche ou à un problème Workfront</p>
-   <p><strong>Remarque :</strong> Les utilisateurs disposant des autorisations d’affichage pour une tâche ou un problème ne peuvent pas agir sur les cartes qui y sont connectées, y compris déplacer la carte vers une autre colonne du panorama. Les utilisateurs de l’affichage peuvent uniquement ouvrir la carte pour afficher ses propriétés et ouvrir la tâche ou le problème connecté. Pour demander un accès supplémentaire, ouvrez la tâche ou l’émission et demandez-y l’accès.</td>
+   <p><strong>Remarque : </strong> Les utilisateurs disposant des autorisations d’affichage pour une tâche ou un problème ne peuvent pas agir sur les cartes qui y sont connectées, y compris déplacer la carte vers une autre colonne du panorama. Les utilisateurs de l’affichage peuvent uniquement ouvrir la carte pour afficher ses propriétés et ouvrir la tâche ou le problème connecté. Pour demander un accès supplémentaire, ouvrez la tâche ou l’émission et demandez-y l’accès.</td>
   </tr>
  </tbody> 
 </table>
@@ -167,7 +167,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>Cliquez dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme. Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur ou l’utilisatrice ne doit pas nécessairement être membre du panorama. Les utilisateurs et utilisatrices tagués sur des cartes connectées recevront des notifications par e-mail.</p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
-      <p>Pour plus d’informations sur les commentaires, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
+      <p>Pour plus d'informations sur les commentaires, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 

@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Retraitement des documents pour la vérification - Aperçu
+title: Vue d’ensemble du retraitement des documents pour la relecture
 description: Lorsque vous envoyez un document (DOCX, PDF, XLSX, AI) à des fins de vérification, Adobe Workfront le retraite afin qu’il puisse s’afficher dans la visionneuse de vérification sans l’application logicielle que vous avez utilisée pour le créer.
 author: Courtney
 feature: Digital Content and Documents
@@ -9,11 +9,11 @@ exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
 source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Retraitement des documents pour la vérification - Aperçu
+# Vue d’ensemble du retraitement des documents pour la relecture
 
 Lorsque vous envoyez un document (DOCX, PDF, XLSX, AI) à des fins de vérification, Adobe Workfront le retraite afin qu’il puisse s’afficher dans la visionneuse de vérification sans l’application logicielle que vous avez utilisée pour le créer. 
 
@@ -53,5 +53,5 @@ Normalement, le traitement prend quelques secondes par page. Cependant, divers f
 Les fichiers envoyés suivent certaines ou toutes les étapes suivantes :
 
 1. **Envoi**. Lorsque vous téléchargez un document sur le système, vous utilisez la page New BAT ou une interface de programmation d’application (API). 
-1. **File d’attente**. Lors de périodes de trafic importantes, Workfront peut avoir besoin de mettre en file d’attente les envois pour éviter de surcharger le système. La plupart des bons à tirer ne passent que quelques secondes dans une file d&#39;attente. 
-1. **Traitement.** Les fichiers atteignent les machines de traitement en fonction du type de contenu. Nous utilisons différents outils pour traiter les BAT vidéo, les captures web, les images statiques et les documents. Les envois de conteneurs ZIP (Rich Media Container) et de capture web interactive ne nécessitent pas de traitement.
+1. **Queue**. Lors de périodes de trafic importantes, Workfront peut avoir besoin de mettre en file d’attente les envois pour éviter de surcharger le système. La plupart des bons à tirer ne passent que quelques secondes dans une file d&#39;attente. 
+1. **Traitement.** Les fichiers atteignent les machines de traitement selon le type de contenu. Nous utilisons différents outils pour traiter les BAT vidéo, les captures web, les images statiques et les documents. Les envois de conteneurs ZIP (Rich Media Container) et de capture web interactive ne nécessitent pas de traitement.

@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Définition de la date d’achèvement prévue du projet
+title: Définir la date d’achèvement prévue du projet
 description: La date d’achèvement prévue d’un projet est la date à laquelle le projet est défini pour se terminer.
 author: Alina
 feature: Work Management, Projects
@@ -11,19 +11,19 @@ exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
-# Définition de la date d’achèvement prévue du projet
+# Définir la date d’achèvement prévue du projet
 
 La date d’achèvement prévue d’un projet est la date à laquelle le projet est défini pour se terminer.
 
-Les dates de début planifié et de fin planifiée d’un projet dépendent des dates des tâches du projet. Cet article décrit comment définir manuellement ou automatiquement la date d’achèvement planifiée d’un projet. Pour plus d’informations sur la date d’exécution planifiée d’une tâche, voir [Présentation de la date d’achèvement planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Les dates de début planifié et de fin planifiée d’un projet dépendent des dates des tâches du projet. Cet article décrit comment définir manuellement ou automatiquement la date d’achèvement planifiée d’un projet. Pour plus d’informations sur la date d’achèvement planifiée d’une tâche, voir [Présentation de la date d’achèvement planifiée de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 La date d’achèvement planifiée d’un projet peut être définie manuellement ou automatiquement, selon que vous planifiez le projet à partir de la date de début ou de fin.
 
-## Exigences d’accès
+## Conditions d’accès
 
 <!--drafted for P&P:
 
@@ -56,34 +56,34 @@ La date d’achèvement planifiée d’un projet peut être définie manuellemen
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Autorisations de gestion pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Définition manuelle de la date d’achèvement planifiée d’un projet
 
@@ -96,20 +96,20 @@ Vous devez définir manuellement la date d’achèvement prévue d’un projet l
 
 Pour planifier un projet à partir de la date d’achèvement :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Projets**.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Projets**.
 
-1. Cliquez sur **Nouveau projet** then **Nouveau projet**.
+1. Cliquez sur **Nouveau projet** puis sur **Nouveau projet**.
 
-   Pour plus d’informations sur la création de projets, voir l’article [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
+   Pour plus d’informations sur la création de projets, consultez l’article [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Sélectionner **Détails du projet** dans le panneau de gauche, puis cliquez sur le bouton **Modifier le projet** dans le coin supérieur droit.
+1. Sélectionnez **Détails du projet** dans le panneau de gauche, puis cliquez sur l’icône **Modifier le projet** dans le coin supérieur droit.
 
-1. Dans le **Mode Planification** champ, sélectionnez **Date d’achèvement**.
+1. Dans le champ **Mode de planification**, sélectionnez **Date d’achèvement**.
 
-1. Spécifiez la variable **Date d’achèvement prévue** du projet.
+1. Spécifiez la **date d’achèvement planifiée** du projet.
 1. Cliquez sur **Enregistrer les modifications**.
 
-   Lorsque vous commencez à ajouter des tâches à votre projet, la variable **Date de début planifiée** du projet calcule en fonction de la durée totale de toutes les tâches. 
+   Lorsque vous commencez à ajouter des tâches à votre projet, la **Date de début planifiée** du projet calcule la durée totale de toutes les tâches. 
 
 ## Définition automatique de la date d’achèvement planifiée d’un projet
 
@@ -117,22 +117,22 @@ La date d’achèvement prévue d’un projet est automatiquement calculée par 
 
 Pour planifier un projet à partir de la date de début :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Projets**.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Projets**.
 
-1. Cliquez sur **Nouveau projet** then **Nouveau projet**.
+1. Cliquez sur **Nouveau projet** puis sur **Nouveau projet**.
 
-   Pour plus d’informations sur la création de projets, voir l’article [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
+   Pour plus d’informations sur la création de projets, consultez l’article [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Sélectionner **Détails du projet** dans le panneau de gauche, puis cliquez sur le bouton **Modifier le projet** dans le coin supérieur droit.
+1. Sélectionnez **Détails du projet** dans le panneau de gauche, puis cliquez sur l’icône **Modifier le projet** dans le coin supérieur droit.
 
-1. Dans le **Mode Planification** champ, sélectionnez **Date de début**.
+1. Dans le champ **Mode de planification**, sélectionnez **Date de début**.
 
-1. Spécifiez la variable **Date de début planifiée** du projet.
+1. Spécifiez la **date de début planifiée** du projet.
 1. Cliquez sur **Enregistrer les modifications**.
 
-   Lorsque vous commencez à ajouter des tâches à votre projet, la variable **Date d’achèvement prévue** du projet calcule en fonction de la durée totale de toutes les tâches. 
+   Lorsque vous commencez à ajouter des tâches à votre projet, la **Date d’achèvement planifiée** du projet calcule la durée totale de toutes les tâches. 
 
-   Pour plus d’informations sur la durée de la tâche, voir l’article [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Pour plus d’informations sur la durée de la tâche, consultez l’article [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    La date d’achèvement prévue du projet correspond, dans ce cas, à la date d’achèvement prévu de la dernière tâche du projet.
 

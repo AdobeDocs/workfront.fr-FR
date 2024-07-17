@@ -5,22 +5,22 @@ product-area: workfront-integrations;documents
 keywords: Connecteur
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive pour les modules métier
-description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft OneDrive for Business], ainsi que de la connecter à plusieurs applications et services tiers.
+description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent  [!DNL Microsoft OneDrive for Business] et les connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion
 exl-id: b7175cb9-aade-49b7-a28b-25fc9805a078
 source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
 # Modules [!DNL Microsoft OneDrive for Business]
 
-Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft OneDrive for Business], ainsi que de la connecter à plusieurs applications et services tiers.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft OneDrive for Business] et les connecter à plusieurs applications et services tiers.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -45,7 +45,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td>
    <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
@@ -65,15 +65,15 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 ## Conditions préalables
 
-Pour utiliser [!DNL Microsoft OneDrive for Business] avec [!DNL Adobe Workfront Fusion], vous aurez besoin d’un [!DNL Microsoft] compte .
+Pour utiliser [!DNL Microsoft OneDrive for Business] avec [!DNL Adobe Workfront Fusion], vous aurez besoin d&#39;un compte [!DNL Microsoft].
 
-Pour obtenir des instructions sur la connexion à [!DNL OneDrive for Business] compte à [!DNL Workfront Fusion], voir [Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Pour plus d’informations sur la connexion de votre compte [!DNL OneDrive for Business] à [!DNL Workfront Fusion], voir [Création d’une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 
 
-## Connexion de la variable [!DNL Microsoft OneDrive for Business] service à [!DNL Workfront Fusion]
+## Connexion du service [!DNL Microsoft OneDrive for Business] à [!DNL Workfront Fusion]
 
-Pour obtenir des instructions sur la connexion à [!DNL Microsoft OneDrive for Business] compte à [!UICONTROL Workfront Fusion], voir [Créer une connexion à [!UICONTROL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Pour plus d’informations sur la connexion de votre compte [!DNL Microsoft OneDrive for Business] à [!UICONTROL Workfront Fusion], voir [Création d’une connexion à [!UICONTROL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 ### Déclencheurs
 
 * [[!UICONTROL Fichiers de contrôle]](#watch-files)
-* [[!UICONTROL Surveiller les dossiers]](#watch-folders)
+* [[!UICONTROL Dossiers de contrôle]](#watch-folders)
 
 #### [!UICONTROL Fichiers de contrôle]
 
@@ -107,7 +107,7 @@ Ce module de déclenchement s’active lorsqu’un nouveau fichier est ajouté o
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Office 365] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créez un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Drive ID]</p> </td> 
@@ -123,12 +123,12 @@ Ce module de déclenchement s’active lorsqu’un nouveau fichier est ajouté o
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nombre maximal de lignes renvoyées]</td> 
-   <td> <p> Définissez le nombre maximal de résultats qui [!DNL Workfront Fusion] fonctionnera avec pendant un cycle.</p> </td> 
+   <td> <p> Définissez le nombre maximal de résultats que [!DNL Workfront Fusion] utilisera au cours d’un cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Surveiller les dossiers]
+#### [!UICONTROL Dossiers de contrôle]
 
 Ce module de déclenchement s’active lorsqu’un nouveau dossier est ajouté au dossier contrôlé.
 
@@ -138,7 +138,7 @@ Ce module de déclenchement s’active lorsqu’un nouveau dossier est ajouté a
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Office 365] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créez un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Drive ID]</p> </td> 
@@ -154,21 +154,21 @@ Ce module de déclenchement s’active lorsqu’un nouveau dossier est ajouté a
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nombre maximal de lignes renvoyées]</td> 
-   <td> <p> Définissez le nombre maximal de résultats qui [!DNL Workfront Fusion] fonctionnera avec pendant un cycle.</p> </td> 
+   <td> <p> Définissez le nombre maximal de résultats que [!DNL Workfront Fusion] utilisera au cours d’un cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Actions
 
-* [[!UICONTROL Chargement d’un fichier]](#upload-a-file)
-* [[!UICONTROL Suppression d’un fichier]](#delete-a-file)
-* [[!UICONTROL Obtention d’un fichier]](#get-a-file)
-* [[!UICONTROL Création d’un dossier]](#create-a-folder)
-* [[!UICONTROL Suppression d’un dossier]](#delete-a-folder)
-* [[!UICONTROL Obtention d’un lien de partage]](#get-a-sharing-link)
+* [[!UICONTROL Télécharger un fichier]](#upload-a-file)
+* [[!UICONTROL Supprimer un fichier]](#delete-a-file)
+* [[!UICONTROL Obtenir un fichier]](#get-a-file)
+* [[!UICONTROL Créer un dossier]](#create-a-folder)
+* [[!UICONTROL Supprimer un dossier]](#delete-a-folder)
+* [[!UICONTROL Obtenir un lien de partage]](#get-a-sharing-link)
 
-#### [!UICONTROL Chargement d’un fichier]
+#### [!UICONTROL Télécharger un fichier]
 
 Ce module d’action charge un fichier binaire ou texte dans un dossier spécifié.
 
@@ -179,7 +179,7 @@ Ce module d’action charge un fichier binaire ou texte dans un dossier spécifi
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Office 365] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créez un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ Ce module d’action charge un fichier binaire ou texte dans un dossier spécifi
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Fichier source]</p> </td> 
+   <td> <p>[!UICONTROL Source File]</p> </td> 
    <td> <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom et les données du fichier source.</p> </td> 
    <td> </td> 
   </tr> 
@@ -210,7 +210,7 @@ Ce module d’action charge un fichier binaire ou texte dans un dossier spécifi
  </tbody> 
 </table>
 
-#### [!UICONTROL Suppression d’un fichier]
+#### [!UICONTROL Supprimer un fichier]
 
 Ce module d’action déplace le fichier spécifié vers la corbeille.
 
@@ -221,7 +221,7 @@ Ce module d’action déplace le fichier spécifié vers la corbeille.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Office 365] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créez un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -237,7 +237,7 @@ Ce module d’action déplace le fichier spécifié vers la corbeille.
  </tbody> 
 </table>
 
-#### [!UICONTROL Obtention d’un fichier]
+#### [!UICONTROL Obtenir un fichier]
 
 Ce module d’action récupère le fichier avec l’identifiant donné.
 
@@ -248,7 +248,7 @@ Ce module d’action récupère le fichier avec l’identifiant donné.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Office 365] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créez un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -264,7 +264,7 @@ Ce module d’action récupère le fichier avec l’identifiant donné.
  </tbody> 
 </table>
 
-#### [!UICONTROL Création d’un dossier]
+#### [!UICONTROL Créer un dossier]
 
 Crée un dossier à l’intérieur du dossier parent spécifié.
 
@@ -275,11 +275,11 @@ Crée un dossier à l’intérieur du dossier parent spécifié.
  <tbody> 
   <tr> 
    <td><strong>[!UICONTROL Connection]</strong> </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Office 365] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créez un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL Drive ID]</strong> </td> 
+   <td><strong>[!UICONTROL ID de lecteur]</strong> </td> 
    <td> <p>Sélectionnez le lecteur sur lequel vous souhaitez créer un dossier.</p> </td> 
    <td> </td> 
   </tr> 
@@ -289,14 +289,14 @@ Crée un dossier à l’intérieur du dossier parent spécifié.
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL Nom du dossier]</strong> </td> 
+   <td><strong>[!UICONTROL Nom de dossier]</strong> </td> 
    <td>Saisissez ou mappez un nom pour le nouveau dossier.</td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Suppression d’un dossier]
+#### [!UICONTROL Supprimer un dossier]
 
 <table style="table-layout:auto"> 
  <col> 
@@ -305,7 +305,7 @@ Crée un dossier à l’intérieur du dossier parent spécifié.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Office 365] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créez un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -321,7 +321,7 @@ Crée un dossier à l’intérieur du dossier parent spécifié.
  </tbody> 
 </table>
 
-#### [!UICONTROL Obtention d’un lien de partage]
+#### [!UICONTROL Obtenir un lien de partage]
 
 Ce module récupère un lien que vous pouvez partager pour donner accès au fichier spécifié.
 
@@ -332,7 +332,7 @@ Ce module récupère un lien que vous pouvez partager pour donner accès au fich
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Office 365] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connectez l’application ou le service Web du module à [!DNL Workfront Fusion]</a> dans l’article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créez un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connexion de l'application du module ou du service Web à [!DNL Workfront Fusion]</a> dans l'article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 

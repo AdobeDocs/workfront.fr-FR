@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
-title: Types et limites de taille de fichier de vérification pris en charge - Aperçu
+title: Vue d’ensemble des types de fichiers et des limites de taille pris en charge pour la relecture
 description: Vous pouvez partager et revoir différents types de fichiers avec vos réviseurs, même s’ils ne disposent pas du logiciel utilisé pour créer les fichiers (tels que Photoshop ou Illustrator) installés sur leurs ordinateurs. Les types de fichiers statiques, vidéo, audio, web et interactifs peuvent être capturés jusqu’à 4 Go.
 author: Courtney
 feature: Digital Content and Documents
@@ -10,11 +10,11 @@ exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
 source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Types et limites de taille de fichier de vérification pris en charge - Aperçu
+# Vue d’ensemble des types de fichiers et des limites de taille pris en charge pour la relecture
 
 <!--Audited: 12/2023-->
 
@@ -65,7 +65,7 @@ Workfront présente les limites suivantes :
 * CLP - Presse-papiers Windows
 * CMP - PISTE compressée
 * CMW - Wavelet (LEAD) compressé
-* CMX - Corel Presentation Exchange
+* CMX - Exchange de présentation Corel
 * CR2 - Canon Raw
 * CRW - Canon Raw
 * CUR - Curseur Windows
@@ -90,7 +90,7 @@ Workfront présente les limites suivantes :
 * FLC - Animation flique
 * FPX - Kodak FlashPix
 * GBR - GIF Gerber - CompuServe
-* GIF : format d’échange graphique (GIF animé dans la nouvelle visionneuse de BAT Workfront uniquement)
+* GIF : format d’échange graphique (GIF animé dans la nouvelle visionneuse Workfront Proof uniquement)
 * GIF HDP - Windows HD Photo
 * ICO - Icône Windows
 * IFF - Format de fichier d’échange
@@ -239,7 +239,7 @@ Workfront présente les limites suivantes :
 
 ## Captures Web
 
-Vous pouvez créer des BAT de page web statiques. Pour plus d’informations, voir [Créer un BAT statique pour un site web ou tout autre contenu web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) et [Création d’un BAT de site web statique à l’aide d’un BAT Workfront](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+Vous pouvez créer des BAT de page web statiques. Pour plus d’informations, voir [Création d’un BAT statique pour un site web ou un autre contenu web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) et [Création d’un BAT de site web statique à l’aide de Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
 ## Fichiers Zip
 
@@ -247,7 +247,7 @@ Pour des raisons de sécurité, nous ne prenons pas en charge ni n’extrayons d
 
 Vous ne pouvez envoyer des fichiers zip que s’ils contiennent un projet interactif complet et si les fonctionnalités interactives sont activées pour votre compte (forfaits Premium).
 
-Pour plus d’informations, voir [BAT de contenu interactif - Aperçu](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+Pour plus d’informations, voir [Présentation des BAT de contenu interactif](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 ## Fichiers InDesign et Quark
 

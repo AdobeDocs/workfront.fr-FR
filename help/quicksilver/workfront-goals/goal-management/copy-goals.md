@@ -9,7 +9,7 @@ exl-id: 690a6030-ee29-4e50-869f-cd014050b364
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez copier des objectifs dans les objectifs Adobe Workfront pour créer 
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -71,18 +71,18 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Observations relatives à la copie des objectifs
 
-Vous devez avoir accès à Modifier les objectifs dans votre niveau d’accès avant de pouvoir copier les objectifs. Pour plus d’informations sur l’octroi de l’accès aux Objectifs, voir [Accorder l’accès aux objectifs Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Vous devez avoir accès à Modifier les objectifs dans votre niveau d’accès avant de pouvoir copier les objectifs. Pour plus d’informations sur l’octroi de l’accès aux objectifs, voir [Accorder l’accès aux objectifs Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 Voici quelques-unes des raisons pour lesquelles vous souhaitez copier un objectif existant :
 
@@ -92,7 +92,7 @@ Voici quelques-unes des raisons pour lesquelles vous souhaitez copier un objecti
 
 >[!TIP]
 >
->Vous pouvez copier un objectif dans n’importe quel état. Pour plus d’informations sur les états d’objectif, voir [Présentation de l’état des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
+>Vous pouvez copier un objectif dans n’importe quel état. Pour plus d’informations sur les états d’objectif, consultez la [présentation de l’état de l’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
 
 Tenez compte des points suivants lors de la copie d’objectifs :
 
@@ -105,7 +105,7 @@ Tenez compte des points suivants lors de la copie d’objectifs :
 
 * Vous ne pouvez pas copier les activités d’un objectif lorsque vous copiez ce dernier.
 
-## Copie d’objectifs
+## Copier des objectifs
 
 <!--
 Copying goals differs depending on what environment you use. 
@@ -178,25 +178,25 @@ To copy goals in the Production environment:
 -->
 
 
-1. Accédez à un objectif et cliquez sur le bouton **Plus** menu ![](assets/more-icon.png), puis cliquez sur **Copier l’objectif**.
+1. Accédez à un objectif et cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Copier l’objectif**.
 
    ![](assets/copy-goal-box-unshimmed.png)
 
 1. Mettez à jour les informations suivantes pour l’objectif copié :
-   * **Nom de l’objectif**: nom du nouvel objectif. Le nom par défaut de l’objectif copié est &quot;Copie de &lt;original goal=&quot;&quot;>&quot;.
-   * **Période**: période pendant laquelle vous souhaitez atteindre l’objectif. Sélectionnez une période dans le menu déroulant.
+   * **Nom de l’objectif** : nom du nouvel objectif. Le nom par défaut de l’objectif copié est &quot;Copie de &lt;goal d’origine>&quot;.
+   * **Période** : période pendant laquelle vous souhaitez atteindre l’objectif. Sélectionnez une période dans le menu déroulant.
 
      Ou
 
-     Sélectionner **Activation des dates personnalisées** pour spécifier des dates personnalisées pour le **Début** et **Dates de fin**. Le paramètre Activer les dates personnalisées est désactivé par défaut.
+     Sélectionnez **Activer les dates personnalisées** pour spécifier des dates personnalisées pour les **dates de début** et **dates de fin** de l’objectif. Le paramètre Activer les dates personnalisées est désactivé par défaut.
 
      >[!TIP]
      >
      >   La désélection de l’option Activer les dates personnalisées rétablit la période de l’objectif d’origine.
 
-      * **Propriétaire de l’objectif**: propriétaire de l’objectif. Il peut s’agir d’un utilisateur, d’une équipe, d’un groupe ou d’une société. Le ou la propriétaire de l’objectif initial est désigné par défaut.
-      * **Description**: informations supplémentaires sur l’objectif.
-      * **Copie de résultats**: sélectionnez cette option si vous souhaitez transférer les résultats de l’objectif actuel vers l’objectif copié. Cela duplique les résultats d’origine et les joint à l’objectif copié. Les résultats de l’objectif copié ont les mêmes propriétaire, noms et valeurs mesurées que les résultats de l’objectif initial.
+      * **Propriétaire de l’objectif** : propriétaire de l’objectif. Il peut s’agir d’un utilisateur, d’une équipe, d’un groupe ou d’une société. Le ou la propriétaire de l’objectif initial est désigné par défaut.
+      * **Description** : informations supplémentaires sur l’objectif.
+      * **Copier les résultats** : sélectionnez cette option si vous souhaitez transférer les résultats de l’objectif actuel vers l’objectif copié. Cela duplique les résultats d’origine et les joint à l’objectif copié. Les résultats de l’objectif copié ont les mêmes propriétaire, noms et valeurs mesurées que les résultats de l’objectif initial.
 
         >[!NOTE]
         >
@@ -211,9 +211,9 @@ To copy goals in the Production environment:
    >
    >Si vous n’avez pas copié les résultats de l’objectif d’origine, vous devez d’abord associer le nouvel objectif à un indicateur de progression avant de pouvoir l’activer et commencer à travailler à son accomplissement.
    >Pour plus d’informations sur l’association des objectifs aux indicateurs de progression, voir les articles suivants :
-   >* [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-results-to-goals.md)
-   >* [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
-   >* [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md)
+   >* [Ajouter des résultats aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-results-to-goals.md)
+   >* [Ajouter des activités aux objectifs dans les objectifs Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
+   >* [Aligner les objectifs en les connectant dans les objectifs Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md)
    >
    >Pour plus d’informations sur l’activation des objectifs, voir [Activation des objectifs](../goal-management/activate-goals.md).
 

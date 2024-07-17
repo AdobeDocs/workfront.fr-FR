@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: Éléments de modification en ligne dans une liste dans [!DNL Adobe Workfront]
+title: Éléments de modification en ligne dans une liste dans  [!DNL Adobe Workfront]
 description: Vous pouvez modifier des objets intégrés lorsqu’ils s’affichent dans une liste ou un rapport. Lorsque vous modifiez les informations sur les objets affichés dans une liste ou un rapport, l’objet est immédiatement mis à jour.
 feature: Get Started with Workfront
 author: Lisa
@@ -9,11 +9,11 @@ exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
 source-git-commit: f0912e4ef29d682ae3e6dd0e543b8e77fb7f29b6
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Éléments de modification en ligne dans une liste dans [!DNL Adobe Workfront]
+# Éléments d’édition en ligne dans une liste dans [!DNL Adobe Workfront]
 
 Vous pouvez modifier des objets intégrés lorsqu’ils s’affichent dans une liste ou un rapport. Lorsque vous modifiez les informations sur les objets affichés dans une liste ou un rapport, l’objet est immédiatement mis à jour.
 
@@ -21,13 +21,13 @@ Lorsque vous modifiez en ligne un champ contenu dans un formulaire personnalisé
 
 Pour plus d’informations sur les listes, voir [Prise en main des listes dans [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Bien que la plupart des objets affichés dans les listes ou les rapports soient modifiables en ligne dans [!DNL Adobe Workfront], il existe certaines limites, notamment :
+Bien que la plupart des objets affichés dans les listes ou les rapports soient modifiables en ligne dans [!DNL Adobe Workfront], certaines restrictions s’appliquent, notamment :
 
-* Vous ne pouvez pas modifier les champs calculés ou [!DNL Workfront] champs natifs qui sont des calculs.
+* Vous ne pouvez pas modifier des champs calculés ou des champs [!DNL Workfront] intégrés qui sont des calculs.
 * Vous ne pouvez modifier que les champs associés directement aux objets de la liste. Vous ne pouvez pas modifier des champs appartenant à des objets associés aux objets de la liste.\
    Par exemple, vous pouvez modifier l’état d’une tâche dans un rapport Tâche , mais vous ne pouvez pas modifier le nom du projet auquel la tâche est associée dans le même rapport. Vous ne pouvez modifier le nom du projet que dans un rapport Projet .
 * Vous ne pouvez pas insérer de champs de modification lorsque la vue d’une liste n’affiche pas la devise par défaut.\
-   Pour plus d’informations sur l’affichage de la devise par défaut, voir la section [Modifier des rapports avec des devises uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) dans l’article [Créer des rapports de données financières avec des taux d’exchange uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+   Pour plus d’informations sur l’affichage de la devise par défaut, reportez-vous à la section [Modification de rapports avec des devises uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) de l’article [ Créer des rapports de données financières avec des taux d’exchange uniques](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 * Vous ne pouvez pas modifier les indicateurs et les icônes affichés dans une liste.
 * Vous ne pouvez pas insérer des champs de rapport de modification issus d’autres rapports.
 
@@ -45,11 +45,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou version ultérieure</p> </td> 
+   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
-   <td> <p>Accès [!UICONTROL Modifier] à la zone dans laquelle se trouve la liste</p> <p>Par exemple, pour intégrer des tâches de modification dans un projet, vous avez besoin de l’accès [!UICONTROL Modifier] aux projets.</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès.<br>Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Accès [!UICONTROL Modifier] à la zone dans laquelle se trouve la liste</p> <p>Par exemple, pour intégrer des tâches de modification dans un projet, vous avez besoin de l’accès [!UICONTROL Modifier] aux projets.</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur [!DNL Workfront] s’il définit des restrictions supplémentaires à votre niveau d’accès.<br>Pour plus d'informations sur la façon dont un administrateur [!DNL Workfront] peut modifier votre niveau d'accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d'accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -58,7 +58,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
 ## Modifier les objets en ligne
 
@@ -74,9 +74,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >   
    >   
-   >   * **Pagination**: cliquez sur les flèches vers l’arrière et vers l’avant pour naviguer entre les pages.\
-   >     Situé dans le coin inférieur droit de la liste, l’objet [!UICONTROL pagination] reste attractive lorsque vous faites défiler la liste.
-   >   * **Filtre rapide**: cliquez sur l’icône de filtre ou tapez Alt+F pour ouvrir le filtre rapide, puis saisissez du texte pour n’afficher que les éléments qui contiennent le texte saisi.\
+   >   * **Pagination** : cliquez sur les flèches vers l’arrière et vers l’avant pour naviguer entre les pages.\
+   >     Située dans le coin inférieur droit de la liste, la zone [!UICONTROL pagination] reste attractive lorsque vous faites défiler la liste.
+   >   * **Filtre rapide** : cliquez sur l’icône de filtre ou tapez Alt+F pour ouvrir le filtre rapide, puis saisissez du texte pour afficher uniquement les éléments qui contiennent le texte entré.\
    >     Le filtre rapide se trouve dans la barre d’outils de la liste. Pour plus d’informations, voir [Appliquer le filtre rapide à une liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 
@@ -89,12 +89,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >[!NOTE]
    >
    >Si un champ personnalisé a été configuré pour autoriser le formatage, vous pouvez mettre du texte en gras, en italique ou souligné lorsque vous modifiez le champ en ligne dans une liste mise à jour.\
-   >Pour plus d’informations sur la configuration du formatage d’un champ personnalisé, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).\
-   >Pour plus d’informations sur les listes mises à jour, reportez-vous à la section &quot;Différence entre les listes mises à jour et héritées&quot; de l’article. [Prise en main des listes dans [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   >Pour plus d’informations sur la configuration de la mise en forme pour un champ personnalisé, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).\
+   >Pour plus d’informations sur les listes mises à jour, voir la section &quot;La différence entre les listes mises à jour et héritées&quot; dans l’article [Prise en main des listes dans [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-1. Presse [!UICONTROL Onglet] pour passer à la cellule modifiable suivante.
+1. Appuyez sur [!UICONTROL Tab] pour passer à la cellule modifiable suivante.
 1. (Conditionnel) Si vous ne parvenez pas à enregistrer vos modifications et que la cellule est indiquée en rouge, cliquez dans le champ pour examiner le message de validation qui s’affiche en regard de la cellule et effectuer les mises à jour appropriées.
 
    Cela se produit généralement lorsque le mauvais format est utilisé ou qu’un champ obligatoire a été laissé vide.
 
-1. Une fois les cellules modifiées, appuyez sur [!UICONTROL Entrée] pour enregistrer vos modifications.
+1. Après avoir modifié toutes les cellules, appuyez sur [!UICONTROL Entrée] pour enregistrer vos modifications.

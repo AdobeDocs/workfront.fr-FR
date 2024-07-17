@@ -6,7 +6,7 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
 source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 Vous pouvez maintenant spécifier une échéance pour les utilisateurs et utilisatrices ou les équipes affectés à la révision ou à l’approbation d’un document. Les réviseurs et réviseuses et les approbateurs et approbatrices reçoivent des notifications par e-mail 72 heures, puis 24 heures avant l’échéance spécifiée. L’échéance est également répercutée dans le widget Approbations de la nouvelle zone d’accueil.
 
-Pour plus d’informations, voir [Créer une demande de révision ou d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Pour plus d’informations, voir [Créer une demande d’approbation ou de révision de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ## Créer et utiliser des modèles d’approbation
 
@@ -45,7 +45,7 @@ Vous pouvez maintenant créer des modèles d’approbation dans la zone Configur
 
 Vous pouvez appliquer des modèles d’approbation à partir de la zone Documents lors de la création d’un processus d’approbation pour un document.
 
-Pour plus d’informations, voir [Créer un modèle d’approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Pour plus d’informations, consultez [Créer un modèle d’approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ## Afficher les informations relatives à toutes vos approbations au même endroit
 

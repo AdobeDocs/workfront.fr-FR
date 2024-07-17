@@ -1,6 +1,6 @@
 ---
-title: 21.1 Améliorations apportées à Mobile
-description: 21.1 Améliorations apportées à Mobile
+title: Améliorations apportées à l’application mobile (version 21.1)
+description: Améliorations apportées à l’application mobile (version 21.1)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 21.1 Améliorations apportées à Mobile
+# Améliorations apportées à l’application mobile (version 21.1)
 
 Cette page décrit toutes les améliorations apportées à Mobile avec la version 21.1. Ces améliorations seront disponibles dans les boutiques mobiles la semaine du 15 février 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.1, voir [Présentation de la version 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.1, consultez la [présentation de la version 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Nouveaux chemins de navigation dans l’application Adobe Workfront
 

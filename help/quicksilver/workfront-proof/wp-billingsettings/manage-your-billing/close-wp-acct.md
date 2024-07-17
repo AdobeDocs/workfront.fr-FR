@@ -2,23 +2,23 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Fermez vos [!DNL Workfront] Compte BAT
+title: Fermez votre compte BAT [!DNL Workfront]
 description: Une fois les étapes de cette section effectuées, votre compte sera fermé immédiatement. Toutes les données de votre compte seront supprimées et ne pourront pas être restaurées.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: df19f99b-974d-47ad-87ba-79775cb08a4d
 source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 1%
+source-wordcount: '180'
+ht-degree: 0%
 
 ---
 
-# Fermez vos [!DNL Workfront Proof] account
+# Fermez votre compte [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Une fois les étapes de cette section effectuées, votre compte sera fermé immédiatement. Toutes les données de votre compte seront supprimées et ne pourront pas être restaurées.
 
@@ -26,9 +26,9 @@ Nous essayons continuellement d&#39;améliorer notre produit. Si vous souhaitez 
 
 Vous pouvez nous contacter à l’adresse [!DNL support@proofhq.com] avec vos commentaires ; tous les commentaires sont les bienvenus.
 
-1. Ouvrez le [!UICONTROL Facturation] dans votre compte en ouvrant la [!UICONTROL Paramètres] menu et choix **[!UICONTROL Facturation]** (1).
+1. Ouvrez la page [!UICONTROL Facturation] de votre compte en ouvrant le menu [!UICONTROL Paramètres] et en choisissant **[!UICONTROL Facturation]** (1).
 
-   Pour plus d’informations sur la page Facturation, voir [Le [!DNL Workfront] Page de facturation du BAT](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Pour plus d’informations sur la page Facturation, voir [La [!DNL Workfront] page de facturation du BAT](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
    ![](assets/upgradesdowngrades-billing-settings-350x168.png)
 

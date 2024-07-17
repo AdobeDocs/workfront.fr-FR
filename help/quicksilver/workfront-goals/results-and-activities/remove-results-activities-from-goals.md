@@ -10,7 +10,7 @@ exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -24,8 +24,8 @@ Vous pouvez supprimer les résultats, les activités et les projets des objectif
 Pour plus d’informations sur la création d’objectifs et l’ajout de résultats et d’activités à ces objectifs, consultez les articles suivants :
 
 * [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-* [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Ajouter des activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Ajouter des résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Modifier des résultats et des activités dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 Les objectifs peuvent également être alignés sur les objectifs parents, en devenant des objectifs enfants. Les objectifs pour les enfants sont également des indicateurs de progression des objectifs parents.
@@ -34,7 +34,7 @@ Vous pouvez supprimer l’alignement entre les objectifs en supprimant la connex
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -85,14 +85,14 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -105,7 +105,7 @@ Un objectif doit être associé aux résultats, aux activités ou aux projets.
 * Lorsque vous supprimez le résultat ou l’activité d’un objectif, la progression du résultat supprimé ou de l’activité affecte la progression globale de l’objectif.
 * Vous ne pouvez pas supprimer un projet d’un objectif, mais vous pouvez le déconnecter de l’objectif. En déconnectant le projet de l’objectif, le pourcentage de réalisation du projet n’affecte plus la progression de l’objectif.
 
-  Pour plus d’informations sur la manière dont les projets affectent la progression des objectifs, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Pour plus d’informations sur la façon dont les projets affectent la progression des objectifs, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * Vous ne pouvez pas supprimer un résultat ou une activité d’un objectif et vous ne pouvez pas déconnecter un objectif ou un projet enfant, s’il s’agit du dernier indicateur de progression de l’objectif.
 * Si un projet est supprimé de la zone Projets et qu’il s’agit du dernier indicateur de progression d’un objectif, l’objectif devient inactif.
@@ -141,7 +141,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Objectifs**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -153,7 +153,7 @@ How you delete results and activities differs depending on the environment you u
 
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 
-1. Sélectionnez un résultat ou une activité, puis cliquez sur le bouton **Supprimer** icon ![](assets/delete-icon.png) en haut de la liste.
+1. Sélectionnez un résultat ou une activité, puis cliquez sur l’icône **Supprimer** ![](assets/delete-icon.png) en haut de la liste.
 
 1. Cliquez sur **Supprimer** pour confirmer la suppression. Le résultat ou l&#39;activité est supprimé et ne peut pas être récupéré. Le pourcentage de fin de l’objectif est mis à jour pour exclure l’activité ou le résultat supprimé.
 
@@ -186,7 +186,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Cliquez sur le bouton **Menu Principal** dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** dans le coin supérieur droit, puis sur **Objectifs**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -197,7 +197,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 
    Cela ouvre la page d’objectif.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
-1. Sélectionnez un projet, puis cliquez sur le bouton **Déconnecter** icon ![](assets/disconnect-icon.png) en haut de la liste.
+1. Sélectionnez un projet, puis cliquez sur l’icône **Déconnecter** ![](assets/disconnect-icon.png) en haut de la liste.
 1. Cliquez sur **Déconnecter** pour confirmer.
 
    Le projet n’est plus connecté à l’objectif. Le pourcentage d’achèvement de l’objectif se met à jour pour exclure le projet déconnecté.

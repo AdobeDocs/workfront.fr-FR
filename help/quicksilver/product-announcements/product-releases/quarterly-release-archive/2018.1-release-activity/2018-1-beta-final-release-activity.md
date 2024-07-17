@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version finale de la version 2018.1 bêta
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de la version bêta 2018.1. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 31 janvier 2018. Il sera disponible dans l’environnement de production en mars 2018.
+title: Activité Version 2018.1, version bêta finale
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de Beta 2018.1. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 31 janvier 2018. Il sera disponible dans l’environnement de production en mars 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,32 +10,32 @@ exl-id: 35bd3604-5452-4b46-afb1-78bc2fbb48ec
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Activité Version finale de la version 2018.1 bêta
+# Activité Version 2018.1, version bêta finale
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de la version bêta 2018.1. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 31 janvier 2018. Il sera disponible dans l’environnement de production en mars 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version finale de Beta 2018.1. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 31 janvier 2018. Il sera disponible dans l’environnement de production en mars 2018.
 
 >[!IMPORTANT]
 >
 > Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2018.1, voir  [Présentation de l’activité de la version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2018.1, voir  [Présentation de l’activité de version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La version finale de la version bêta 2018.1 contient des améliorations pour les administrateurs de Workfront et d’autres utilisateurs :
+La version finale de Beta 2018.1 contient des améliorations pour les administrateurs de Workfront et d’autres utilisateurs :
 
 **Pour les administrateurs**
 
 * [Configurer la disponibilité des ressources et les affectations d’utilisateurs à calculer en fonction du calendrier d’utilisation](#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule)
 
-**Pour tous les utilisateurs**
+**Pour Tous Les Utilisateurs**
 
-* [Améliorations apportées à Mobile](#mobile-enhancements)
+* [ Améliorations apportées à l’appareil mobile](#mobile-enhancements)
 * [Intégration Jira](#jira-integration)
-* [Mise à jour de la vérification des noms des visionneuses](#update-to-proofing-viewer-names)
-* [Modification de la cadence de synchronisation lors de la synchronisation à partir de l’environnement de production de test pour la prévisualisation](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
+* [Mise à jour vers la vérification des noms des visionneuses](#update-to-proofing-viewer-names)
+* [Modification de la cadence de synchronisation lors de la synchronisation à partir de l’environnement de production de test pour l’aperçu](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
 * [Message d’avertissement s’affiche lorsque la limite de 2 000 éléments est atteinte dans le planificateur de ressources](#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner)
 
 ## Améliorations apportées à Mobile {#mobile-enhancements}
@@ -59,7 +59,7 @@ Vous pouvez configurer les éléments suivants via cette intégration :
 
 Le module complémentaire Workfront sera disponible pour les versions On-Premise et On-Demand de Jira. Le module complémentaire est gratuit et sera disponible au téléchargement sur l’Atlassian Marketplace début mars 2018.
 
-Pour plus d’informations sur le module complémentaire Workfront pour Jira, y compris un lien de téléchargement, voir [Utilisation de Workfront avec Jira.](https://support.workfront.com/hc/en-us/sections/115001130053)
+Pour plus d’informations sur le module complémentaire Workfront pour Jira, y compris un lien pour le télécharger, voir [Utilisation de Workfront avec Jira.](https://support.workfront.com/hc/en-us/sections/115001130053)
 
 ## Mise à jour de la vérification des noms des visionneuses {#update-to-proofing-viewer-names}
 
@@ -67,12 +67,12 @@ Les noms de la visionneuse de vérification d’HTML5 et des visionneuses de vé
 
 | **Nom précédent** | **Nom mis à jour** |
 |---|---|
-| Visionneuse de vérification HTML5 | Nouvelle visionneuse de vérification |
+| Visionneuse de vérification d’HTML5 | Nouvelle visionneuse de vérification |
 | Visionneuse de vérification de Flash | Visionneuse de vérification héritée |
 
 {style="table-layout:auto"}
 
- Pour plus d’informations sur l’utilisation de la nouvelle visionneuse de vérification, voir [Vérification des BAT dans la visionneuse de vérification.](https://support.workfront.com/hc/en-us/sections/115000275214)
+ Pour plus d’informations sur l’utilisation de la nouvelle visionneuse de vérification, voir [Vérification des bons à tirer dans la visionneuse de vérification.](https://support.workfront.com/hc/en-us/sections/115000275214)
 
 ## Configurer la disponibilité des ressources et les affectations d’utilisateurs à calculer en fonction du calendrier d’utilisation {#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule}
 
@@ -101,11 +101,11 @@ Pour plus d’informations, voir &quot;Configuration de la manière dont Workfro
 >
 >Cette modification entrera en vigueur le 11 février 2018.
 
-Les données de l’environnement de production de BAT Workfront sont désormais synchronisées dans l’environnement de prévisualisation de BAT Workfront chaque semaine.
+Les données de l’environnement de production Workfront Proof sont désormais synchronisées dans l’environnement de prévisualisation Workfront Proof chaque semaine.
 
-Avant cette modification, les données étaient synchronisées chaque mois de l’environnement de production de BAT Workfront vers l’environnement de prévisualisation, tandis que les données de l’environnement de production Workfront étaient synchronisées chaque semaine dans l’environnement de prévisualisation Workfront. Cette incohérence provoquait des erreurs de synchronisation lors de l’utilisation de la fonctionnalité de vérification dans l’environnement Workfront Preview. 
+Avant cette modification, les données étaient synchronisées chaque mois de l’environnement de production Workfront Proof vers l’environnement de prévisualisation, tandis que les données de l’environnement de production Workfront étaient synchronisées chaque semaine dans l’environnement de prévisualisation Workfront. Cette incohérence provoquait des erreurs de synchronisation lors de l’utilisation de la fonctionnalité de vérification dans l’environnement Workfront Preview. 
 
-Pour plus d’informations, voir [Aperçu de l’environnement de test Sandbox - BAT Workfront](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
+Pour plus d’informations, voir [Aperçu de l’environnement de test Sandbox - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
 
 ## Message d’avertissement s’affiche lorsque la limite de 2 000 éléments est atteinte dans le planificateur de ressources {#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner}
 
@@ -117,7 +117,7 @@ Pour plus d’informations, voir [Aperçu de l’environnement de test Sandbox -
 
 Lorsque le planificateur de ressources tente de charger plus de 2 000 éléments, une notification s’affiche pour vous alerter que seulement 2 000 éléments peuvent être affichés.
 
-Pour plus d’informations sur ces limites et leur impact sur le planificateur de ressources, voir [Limites d’affichage de Resource Planner](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+Pour plus d’informations sur ces limites et leur impact sur le planificateur de ressources, voir [Limites d’affichage du planificateur de ressources](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our beta program for the Resource Planner performance, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a>.</p>

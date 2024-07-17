@@ -45,7 +45,7 @@ Pour obtenir la liste des API d’Adobe disponibles, voir [API d’Adobe](https:
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licence</td>
       <td>
-   <p>Exigences de licence Fusion actuelle : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence Fusion actuelles : aucune exigence de licence [!DNL Workfront Fusion].</p>
    <p>Ou</p>
    <p>Exigences de licence Fusion héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
    </td>
@@ -53,9 +53,9 @@ Pour obtenir la liste des API d’Adobe disponibles, voir [API d’Adobe](https:
     <tr>
       <td role="rowheader">Produit</td>
       <td>
-   <p>Nouveau plan Workfront : si vous disposez de l’option [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Nouveau forfait Workfront : si vous disposez du forfait [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Formule Workfront actuelle : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Formule Workfront actuelle : votre organisation doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td>
     </tr>
   </tbody>
@@ -72,7 +72,7 @@ Pour obtenir la liste des API d’Adobe disponibles, voir [API d’Adobe](https:
      Ou
    * Ajouter l’API à un projet existant.
 
-  Pour plus d’informations sur la création ou l’ajout d’une API à un projet sur Adobe Developer Console, voir [Création d’un projet](https://developer.adobe.com/dep/guides/dev-console/create-project/) dans la documentation de l’Adobe.
+  Pour plus d’informations sur la création ou l’ajout d’une API à un projet sur Adobe Developer Console, voir [Création d’un projet](https://developer.adobe.com/dep/guides/dev-console/create-project/) dans la documentation Adobe.
 
 ## Création d’une connexion
 
@@ -84,7 +84,7 @@ Vous pouvez créer des connexions distinctes à des projets distincts, mais vous
 >
 >Avec le connecteur Adobe Authenticator, vous avez le choix entre établir une connexion OAuth serveur à serveur ou une connexion à un compte de service (JWT). Adobe a abandonné les informations d’identification JWT, qui cesseront de fonctionner après le 1er janvier 2025. **Nous vous recommandons donc vivement de créer des connexions OAuth.**
 >
->Pour plus d’informations sur ces types de connexions, voir [Authentification serveur à serveur](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) dans la documentation de l’Adobe
+>Pour plus d’informations sur ces types de connexions, voir [Authentification serveur à serveur](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) dans la documentation Adobe
 
 Pour créer une connexion :
 
@@ -115,7 +115,7 @@ Pour créer une connexion :
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Saisissez votre [!DNL Adobe] Secret du client. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] de l’[!DNL Adobe Developer Console].
+        <td>Saisissez votre secret client [!DNL Adobe]. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] de l’[!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">Portées [!UICONTROL]</td>
@@ -123,11 +123,11 @@ Pour créer une connexion :
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID du compte technique]</td>
-        <td>Saisissez votre [!DNL Adobe] Identifiant du compte technique. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] de l’[!DNL Adobe Developer Console].
+        <td>Saisissez votre ID de compte technique [!DNL Adobe]. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] de l’[!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID d’organisation]</td>
-        <td>Si vous avez sélectionné une connexion JWT, saisissez votre [!DNL Adobe] ID d’organisation. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] de l’[!DNL Adobe Developer Console].
+        <td>Si vous avez sélectionné une connexion JWT, saisissez votre ID d’organisation [!DNL Adobe]. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] de l’[!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Portées des métadonnées]</td>
@@ -136,11 +136,11 @@ Pour créer une connexion :
       <tr>
         <td role="rowheader">[!UICONTROL Clé privée]</td>
         <td>
-          <p>Si vous avez sélectionné une connexion JWT, saisissez la clé privée générée lors de la création de vos informations d’identification dans la variable [!DNL Adobe Developer Console]. </p>
+          <p>Si vous avez sélectionné une connexion JWT, saisissez la clé privée générée lors de la création de vos informations d’identification dans le [!DNL Adobe Developer Console]. </p>
           <p>Pour extraire votre clé privée ou votre certificat :</p>
           <ol>
             <li value="1">
-              <p>Cliquez sur <b>[!UICONTROL Extraction]</b>.</p>
+              <p>Cliquez sur <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
               <p>Sélectionnez le type de fichier que vous extrayez.</p>

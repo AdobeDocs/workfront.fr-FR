@@ -2,116 +2,116 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 'Exemple de scénario de fusion Adobe Workfront : Connexion de l’e-mail, de l’analyseur de texte et des feuilles de calcul Google'
+title: "Exemple de scénario de fusion Adobe Workfront : connexion d’un courrier électronique, d’un analyseur de texte et de feuilles de calcul Google"
 description: Ce scénario vous permet de créer un journal de tous les emails et de les baliser pour effectuer d’autres actions dans une feuille de calcul. Il capture le corps d’un email dans deux tableaux distincts dans une feuille de calcul à l’aide d’expressions régulières (Regex) comme modèles de recherche. Le premier modèle recherche une expression et le second recherche la même expression et une adresse électronique.
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 0%
+source-wordcount: '1209'
+ht-degree: 9%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] exemple de scénario : Connecter un email, [!UICONTROL Analyse de texte], et [!DNL Google Sheets]
+# [!DNL Adobe Workfront Fusion] exemple de scénario : Connectez un email, [!UICONTROL analyseur de texte] et [!DNL Google Sheets]
 
 Ce scénario vous permet de créer un journal de tous les emails et de les baliser pour effectuer d’autres actions dans une feuille de calcul. Il capture le corps d’un email dans deux tableaux distincts dans une feuille de calcul à l’aide d’expressions régulières (Regex) comme modèles de recherche. Le premier modèle recherche une expression et le second recherche la même expression et une adresse électronique.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
    <td> <p>[!DNL Pro] ou supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Exigences de licence actuelles : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences actuelles du produit : Si vous disposez de [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences de produit héritées : Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
-Ce tutoriel nécessite des connaissances de base sur les expressions régulières. Pour en savoir plus sur Regex, rendez-vous sur [https://regexone.com](https://regexone.com/).
+Ce tutoriel nécessite des connaissances de base sur les expressions régulières. Pour en savoir plus sur Regex, consultez le site [https://regexone.com](https://regexone.com/).
 
 Ajouter le premier module et le configurer
 
-1. Recherchez Email et choisissez **[!UICONTROL Regarder les emails]** comme déclencheur.
+1. Recherchez Email et sélectionnez **[!UICONTROL Watch emails]** comme déclencheur.
 
    >[!NOTE]
    >
-   >Lorsque vous vous connectez à un [!DNL Google] compte utilisant l’Emodule mail, vous pouvez également utiliser une [!DNL Gmail] module .
+   >Bien que vous puissiez connecter un compte [!DNL Google] à l&#39;aide du module Email, vous pouvez également utiliser un module [!DNL Gmail].
 
-1. Connectez-vous à [!DNL Google] compte ou tout autre client de messagerie IMAP (tel que [!DNL Outlook]).
-1. Une fois connecté, sélectionnez un Dossier dont vous souhaitez consulter les emails entrants, par exemple [!UICONTROL Boîte de réception].
-1. Sous [!UICONTROL Critères], choisissez **[!UICONTROL Tous les emails]** (ou réduisez-la pour lire ou non les courriers électroniques).
+1. Connectez un compte [!DNL Google] ou tout autre client de messagerie IMAP (tel que [!DNL Outlook]).
+1. Une fois connecté, sélectionnez un dossier dont vous souhaitez consulter les courriers électroniques entrants, par exemple [!UICONTROL Boîte de réception].
+1. Sous [!UICONTROL Critère], sélectionnez **[!UICONTROL Tous les emails]** (ou réduisez-le pour lire ou non les emails).
 
    Vous pouvez également choisir de marquer les emails récupérés comme lus ou non lus.
 
-1. Définissez la variable [!UICONTROL Nombre maximal de résultats] à 1.
+1. Définissez le [!UICONTROL nombre maximal de résultats] sur 1.
 
    ![](assets/save-max-as-1-350x304.png)
 
    Vous pouvez le modifier en fonction du volume de messages que vous recevez. Cependant, il est recommandé de définir une valeur basse et d’exécuter le scénario plus souvent.
 
-1. Cliquez sur **[!UICONTROL Afficher les paramètres avancés]** en bas.
+1. Cliquez sur **[!UICONTROL Afficher les paramètres avancés]** en bas de la page.
 
    ![](assets/show-adv-settings-350x332.png)
 
-1. Filtrage des emails par [!UICONTROL Adresse expéditeur], [!UICONTROL Objet] et [!UICONTROL Expression].
+1. Filtrez les emails par [!UICONTROL Adresse de l&#39;expéditeur], [!UICONTROL Objet] et [!UICONTROL Expression].
 
-   Vous pouvez ainsi ne consulter que les emails pertinents. Dans cet exemple, nous avons ajouté uniquement un filtre Objet et laissé les 2 autres vides.
+   Vous avez ainsi la possibilité de ne consulter que les emails pertinents. Dans cet exemple, nous avons ajouté uniquement un filtre Objet et laissé les 2 autres vides.
 
    >[!NOTE]
    >
-   >Nous allons ajouter un routeur pour rechercher des expressions dans un email à l’aide de la fonction [!UICONTROL Modèle de correspondance] itérateur et une expression régulière (Regex) comme modèle de recherche. Cela nous permet également de créer un scénario multi-utilitaire.
+   >Nous allons ajouter un routeur pour rechercher des expressions dans un email à l’aide de l’itérateur [!UICONTROL Modèle de correspondance] et d’une Expression régulière (Regex) comme modèle de recherche. Cela nous permet également de créer un scénario multi-utilitaire.
 
-1. Une fois la configuration terminée, et lorsque vous êtes invité à indiquer où commencer à regarder vos emails, cliquez sur **[!DNL From now on]**.
+1. Une fois la configuration terminée, et lorsque vous êtes invité à spécifier où commencer à regarder vos emails, cliquez sur **[!DNL From now on]**.
 
    ![](assets/from-now-on-350x236.png)
 
-1. Passez à la [Rechercher [!UICONTROL Contrôle de flux] et ajoutez une [!UICONTROL Routeur]](#search-for-flow-control-and-add-a-router)
+1. Continuez à [Rechercher le [!UICONTROL contrôle de flux] et ajoutez un [!UICONTROL routeur]](#search-for-flow-control-and-add-a-router)
 
-## Rechercher [!UICONTROL Contrôle de flux] et ajoutez une [!UICONTROL Routeur]
+## Recherchez [!UICONTROL Contrôle de flux] et ajoutez un [!UICONTROL routeur]
 
 1. Ajoutez un routeur après tout module pour fractionner ou dupliquer les données avant de les envoyer au module suivant.
 
-   Ici, nous avons utilisé une [!UICONTROL Routeur] pour envoyer le texte du corps de l’email à 2 tables distinctes dans une [!DNL Google Sheet].
+   Ici, nous avons utilisé un [!UICONTROL routeur] pour envoyer le texte du corps de l&#39;email à 2 tables distinctes dans un [!DNL Google Sheet].
 
    ![](assets/search-for-flow-control-350x220.png)
 
-## Utilisez la variable [!UICONTROL Analyse de texte] Module
+## Utilisation du module [!UICONTROL analyseur de texte]
 
-1. Ajouter un [!UICONTROL Modèle de correspondance] transformateur pour rechercher une expression dans un email.
+1. Ajoutez un transformateur [!UICONTROL Correspondance avec le modèle] pour rechercher une expression dans un email.
 
-   Nous rechercherons l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; dans tous les emails entrants pour capturer le texte du corps et le nom de l’expéditeur de ceux qui correspondent à cette expression.
+   Nous allons rechercher l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; dans tous les emails entrants pour capturer le texte du corps et le nom de l’expéditeur de ceux qui correspondent à cette expression.
 
    1. Ecrivez le modèle en tant qu’expression régulière :
 
@@ -123,15 +123,15 @@ Ajouter le premier module et le configurer
 
       La multiligne est utile si votre texte contient plusieurs lignes et si vous devez rechercher le modèle dans chaque ligne. Pour ce tutoriel, nous devons rechercher le modèle dans tout le texte du corps de l’email. Par conséquent, nous ne le vérifierons pas.
 
-   1. Dans le [!UICONTROL Texte] , cliquez sur l’attribut **Contenu texte** dans la liste.
+   1. Dans le champ [!UICONTROL Texte] , cliquez sur l’attribut **Contenu texte** dans la liste.
 
       ![](assets/text-content-350x264.png)
 
       Il s’agit de l’attribut qui stocke le texte dans le corps de l’email dans lequel nous allons rechercher le modèle.
 
-1. Ajouter un autre [!UICONTROL Modèle de correspondance] qui recherche la même expression et une adresse électronique.
+1. Ajoutez un autre [!UICONTROL Modèle de correspondance] qui recherche la même expression et une adresse électronique.
 
-   Cela s’avère particulièrement utile si vous disposez de comptes clients avec plusieurs utilisateurs. Pour gagner du temps, vous pouvez cloner la variable [!UICONTROL Analyse de texte] que vous venez de créer et de le lier au routeur.
+   Cela s’avère particulièrement utile si vous disposez de comptes clients avec plusieurs utilisateurs. Pour gagner du temps, vous pouvez cloner le module [!UICONTROL analyseur de texte] que vous venez de créer et le lier au routeur.
 
    ![](assets/clone.png)
 
@@ -156,23 +156,23 @@ Ajouter le premier module et le configurer
      ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4}
 Le modèle ci-dessus couvre les formats les plus courants dans lesquels un numéro de téléphone est écrit.
 
-   Pour tester vos modèles, nous vous recommandons d’utiliser [[!DNL https://regex101.com]](https://regex101.com/) avec [!DNL javascript] comme le Flavor.
+   Pour tester vos modèles, nous vous recommandons d’utiliser [[!DNL https://regex101.com]](https://regex101.com/) avec [!DNL javascript] comme Flavor.
 
    Le reste de la configuration reste le même que précédemment.
 
-## Ajoutez la variable [!DNL Google Sheets] modules
+## Ajout des modules [!DNL Google Sheets]
 
 Pour [!DNL Sheets], nous devons d’abord créer une feuille de calcul avec les en-têtes requis.
 
 1. Créez une feuille de calcul contenant les colonnes sous lesquelles vous souhaitez capturer les données utilisateur. (N’hésitez pas à utiliser un fichier existant également).
 
-   Par exemple, créez-en un appelé &quot;Email Data: Prendre en charge le ticket&quot; avec pour colonnes Nom de l’expéditeur, Email de l’expéditeur et Contenu de l’email. Nommez la feuille de calcul &quot;contient : module d’analyseur de texte.&quot;
+   Par exemple, créez un champ appelé &quot;Email Data: Support Ticket&quot; (Données de messagerie : assistance technique) avec les colonnes Nom de l’expéditeur, Email de l’expéditeur et Contenu de l’email. Nommez la feuille de calcul &quot;contient : module d’analyseur de texte&quot;.
 
-1. Ajoutez la variable [!UICONTROL Google Sheets] module avec **[!UICONTROL Ajouter une ligne]** comme action.
+1. Ajoutez le module [!UICONTROL Google Sheets] avec **[!UICONTROL Ajouter une ligne]** comme action.
 
    ![](assets/add-a-row-350x174.png)
 
-1. Connectez-vous à [!DNL Google] (si ce n’est déjà fait). Sélectionnez le Fichier que vous avez créé précédemment, puis choisissez la feuille de calcul dans laquelle vous capturez les données.
+1. Connectez votre compte [!DNL Google] (si ce n&#39;est déjà fait). Sélectionnez le Fichier que vous avez créé précédemment, puis choisissez la feuille de calcul dans laquelle vous capturez les données.
 
    Votre configuration doit se présenter comme suit :
 
@@ -182,29 +182,29 @@ Pour [!DNL Sheets], nous devons d’abord créer une feuille de calcul avec les 
 
    ![](assets/map-attributes-350x282.png)
 
-1. Cloner le module que vous venez de créer et le lier à la seconde [!UICONTROL Analyse de texte] module .
+1. Cloner le module que vous venez de créer et le lier au deuxième module [!UICONTROL Analyseur de texte].
 
    1. Dans la feuille de calcul, dupliquez la feuille de calcul que vous avez créée précédemment et nommez-la.
 
-      Par exemple, nommez-le &quot;contient : module d’analyseur de texte et courrier électronique.&quot;
+      Par exemple, nommez-le &quot;contient : module d’analyseur de texte et courrier électronique&quot;.
 
    1. Ajoutez une autre colonne pour stocker l’adresse électronique que le corps de l’email contient.
 
       Par exemple, nommez-le &quot;Adresse électronique partagée&quot;.
 
-   1. Cliquez sur le cloné [!DNL Google Sheets] pour configurer la configuration.
+   1. Cliquez sur le module [!DNL Google Sheets] cloné pour configurer la configuration.
    1. Remplacez la feuille de calcul par la nouvelle que vous venez de créer.
-   1. Faites correspondre la sortie de la [!UICONTROL Modèle de correspondance] module (1 $) à la colonne dans laquelle vous souhaitez stocker l’adresse électronique (adresse électronique partagée).
+   1. Faites correspondre la sortie du module [!UICONTROL Correspondance avec le modèle] (1 $) à la colonne dans laquelle vous souhaitez stocker l’adresse électronique (adresse électronique partagée).
 
       ![](assets/map-the-output.png)
 
       ![](assets/sender-name-350x411.png)
 
-   1. Cliquez sur **[!UICONTROL OK]**, enregistrez le scénario, puis effectuez-le pour une exécution de test.
+   1. Cliquez sur **[!UICONTROL OK]**, enregistrez le scénario et préparez-le pour une exécution de test.
 
       Vous devrez envoyer deux emails distincts à l’adresse email connectée comme suit :
 
-      * Contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; (et aucune adresse électronique)
+      * Contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; (sans adresse électronique)
 
         ![](assets/text-parser-module-350x103.png)
 
@@ -212,7 +212,7 @@ Pour [!DNL Sheets], nous devons d’abord créer une feuille de calcul avec les 
 
         ![](assets/above-phrase-and-email-350x106.png)
 
-        Si votre configuration ne comporte aucune erreur, vous verrez que la première feuille de calcul capture tous les emails contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; tandis que la seconde feuille de calcul capture uniquement les feuilles contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; et une adresse électronique. Reportez-vous aux captures d’écran ci-dessous.
+        S’il n’y a aucune erreur dans votre configuration, vous verrez que la première feuille de calcul capture tous les emails contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot;, tandis que la deuxième feuille de calcul capture uniquement ceux contenant l’expression &quot;[!UICONTROL module d’analyseur de texte]&quot; et une adresse électronique. Reportez-vous aux captures d’écran ci-dessous.
 
         Feuille de calcul 1 :
 
@@ -225,6 +225,6 @@ Pour [!DNL Sheets], nous devons d’abord créer une feuille de calcul avec les 
 ## Ressources
 
 * [Exercices gratuits](https://regexone.com/) pour en savoir plus sur les expressions régulières
-* [En savoir plus sur la correspondance des numéros de téléphone](https://regexone.com/problem/matching_phone_numbers) Utilisation de Regex
-* [En savoir plus sur la correspondance des emails](https://regexone.com/problem/matching_emails) Utilisation de Regex
+* [En savoir plus sur la correspondance des numéros de téléphone](https://regexone.com/problem/matching_phone_numbers) à l’aide de Regex
+* [En savoir plus sur la correspondance des emails](https://regexone.com/problem/matching_emails) à l’aide de Regex
 * [Test de vos expressions régulières](https://regex101.com/)

@@ -1,8 +1,8 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Doublons renvoyés lors d’une grande recherche paginée
-description: Doublons renvoyés lors d’une grande recherche paginée
+title: Doublons renvoyés lors d’une recherche paginée de grande envergure
+description: Doublons renvoyés lors d’une recherche paginée de grande envergure
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,12 +10,12 @@ exl-id: 0359d6ba-b219-4d11-9f6f-cec2ff9ee058
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
 
-# Doublons renvoyés lors d’une grande recherche paginée
+# Doublons renvoyés lors d’une recherche paginée de grande envergure
 
 ## Problème
 

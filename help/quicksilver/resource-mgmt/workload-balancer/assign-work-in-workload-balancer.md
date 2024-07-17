@@ -1,7 +1,7 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Présentation de l’affectation de travail dans l’équilibreur de charge de travail
+title: Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail
 description: En tant que gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail Adobe Workfront pour afficher les tâches qui n’ont pas encore été affectées aux utilisateurs et leur affecter ces éléments.
 author: Lisa
 feature: Resource Management
@@ -9,22 +9,22 @@ exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Présentation de l’affectation de travail dans l’équilibreur de charge de travail
+# Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail
 
 En tant que gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail Adobe Workfront pour afficher les tâches qui n’ont pas encore été affectées aux utilisateurs et leur affecter ces éléments.
 
-Pour obtenir des informations générales sur l’équilibreur de charge de travail, voir [Présentation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Pour obtenir des informations générales sur l’équilibreur de charge de travail, consultez la [présentation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Vous pouvez affecter des tâches (tâches et problèmes) aux utilisateurs dans d’autres zones de Workfront. Cependant, en utilisant l’équilibreur de charge de travail, vous pouvez facilement comprendre la disponibilité des utilisateurs et voir clairement tous les autres éléments auxquels ils sont affectés avant de leur assigner plus de travail.
 
 Pour plus d’informations sur l’affectation de tâches dans d’autres zones de Workfront, reportez-vous aux articles suivants :
 
 * [Affecter des tâches](../../manage-work/tasks/assign-tasks/assign-tasks.md)
-* [Attribuer des problèmes](../../manage-work/issues/manage-issues/assign-issues.md)
+* [Attribuer les problèmes](../../manage-work/issues/manage-issues/assign-issues.md)
 
 ## Disponibilité des utilisateurs dans l’équilibreur de charge de travail
 
@@ -41,18 +41,18 @@ Workfront utilise les informations suivantes pour calculer la capacité de l’u
 
      Cela calcule la disponibilité quotidienne et hebdomadaire de l’utilisateur. Toutes les exceptions de planification sur le planning sélectionné sont répercutées dans la capacité de l’utilisateur dans l’équilibreur de charge de travail.
 
-  Pour plus d’informations, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Pour plus d’informations, voir [Configurer les préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  Pour plus d’informations sur les plannings, voir [Création d’un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  Pour plus d’informations sur les plannings, voir [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 * Le temps de congé de l’utilisateur. Cela indique les jours que l’utilisateur prévoit de décoller.
 
-  Pour plus d’informations, voir [Configuration du temps libre](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  Pour plus d’informations, voir [Configuration de l’heure personnelle](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-* Temps de travail de l’utilisateur. Cela indique le pourcentage de temps de l’éditeur de texte enrichi que l’utilisateur est disponible pour effectuer des tâches réelles liées au projet, sans compter les frais généraux. Définissez la valeur Durée du travail sur 1 pour indiquer que l’utilisateur est disponible pour le travail lié au projet et qu’il dispose de son équivalent à temps plein.
+* Temps de travail de l’utilisateur. Cela indique le pourcentage de temps de l’éditeur de texte enrichi que l’utilisateur est disponible pour effectuer des tâches réelles liées au projet, sans compter les frais généraux. Définissez la valeur Temps de travail sur 1 pour indiquer que la personne est disponible pour effectuer le travail lié au projet pendant la totalité de son équivalent temps plein.
 
 
-## Affecter un travail dans l’équilibreur de charge
+## Affecter du travail dans l’équilibreur de charge
 
 Vous pouvez affecter des tâches qui n’ont pas encore été affectées à un utilisateur ou réaffecter des éléments qui ont été affectés à des utilisateurs dans l’équilibreur de charge de travail.
 
@@ -62,26 +62,26 @@ Vous pouvez affecter le travail dans l’équilibreur de charge de travail de la
 
   Vous pouvez effectuer des affectations avancées lors de l’attribution manuelle d’éléments, une par une.
 
-  Pour plus d’informations, voir [Affectation manuelle du travail à l’aide de l’équilibreur de charge](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  Pour plus d’informations, voir [Attribuer manuellement le travail à l’aide de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 * Un élément à la fois, en faisant glisser et en déposant des tâches sur l’utilisateur qui doit être affecté.
 
-  Pour plus d’informations, voir [Affectez un travail à l’équilibreur de charge de travail en le faisant glisser et en le déposant](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+  Pour plus d’informations, voir [Attribuer le travail à l’équilibreur de charge de travail en le faisant glisser et en le déposant](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 * Plusieurs éléments à la fois, à l’aide de l’option Affectations en bloc . Vous pouvez définir des règles en fonction desquelles les éléments sont affectés à plusieurs utilisateurs à la fois.
 
-  Pour plus d’informations, voir [Affectation du travail en masse à l’aide de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Pour plus d’informations, voir [Affecter du travail en masse à l’aide de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-Pour plus d’informations sur l’annulation de l’affectation d’une tâche, voir [Annulation de l’affectation du travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+Pour plus d’informations sur l’annulation de l’affectation du travail, voir [Annulation de l’affectation du travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
 ## Zones d’affectation dans l’équilibreur de charge de travail
 
-Vous pouvez affecter du travail aux utilisateurs à l’aide de l’équilibreur de charge de travail dans la zone Ressource, au niveau du projet ou au niveau de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Vous pouvez affecter du travail aux utilisateurs à l’aide de l’équilibreur de charge de travail dans la zone Ressource, au niveau du projet ou au niveau de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 L’équilibreur de charge de travail comporte deux zones où vous pouvez afficher les tâches :
 
-* **Travail non attribué**: affiche les éléments qui ne sont pas affectés aux utilisateurs.
-* **Travail assigné**: affiche les éléments affectés aux utilisateurs.
+* **Travail non attribué** : affiche les éléments qui ne sont pas affectés aux utilisateurs.
+* **Travail attribué** : affiche les éléments affectés aux utilisateurs.
 
 Le tableau suivant décrit les éléments qui s’affichent dans chaque zone en fonction de leurs affectations :
 
@@ -105,7 +105,7 @@ Le tableau suivant décrit les éléments qui s’affichent dans chaque zone en 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Équipe</td> 
+   <td>Equipe</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
@@ -142,9 +142,9 @@ Le tableau suivant décrit les éléments qui s’affichent dans chaque zone en 
  </tbody> 
 </table>
 
-&#42;Lorsqu’un élément de travail est attribué à un utilisateur et à un rôle, il s’affiche dans la zone de travail Non affecté uniquement lorsque le rôle est la personne désignée par Principal.
+&#42;Lorsqu’un élément de travail est attribué à un utilisateur et à un rôle, il s’affiche dans la zone Travail non attribué uniquement lorsque le rôle est le cessionnaire Principal.
 
-&#42;&#42;Lorsqu’un élément de travail est attribué à un utilisateur et à une autre entité, il s’affiche dans la zone de travail Affecté uniquement lorsque l’utilisateur est la personne désignée par Principal.
+&#42;&#42;Lorsqu’un élément de travail est assigné à un utilisateur et à une autre entité, il s’affiche dans la zone Travail attribué uniquement lorsque l’utilisateur est la personne désignée par Principal.
 
 Pour plus d’informations sur les zones Non assignées et Affectées de l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 

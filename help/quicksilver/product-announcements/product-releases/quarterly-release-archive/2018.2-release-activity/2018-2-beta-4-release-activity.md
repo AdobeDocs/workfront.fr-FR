@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de version 2018.2 bêta 4
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.2 bêta 4. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 17 mai 2018. Il sera disponible dans l’environnement de production en juillet 2018.
+title: Activité Version 2018.2, version bêta 4
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.2 de Beta 4. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 17 mai 2018. Il sera disponible dans l’environnement de production en juillet 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 ---
 
-# Activité de version 2018.2 bêta 4
+# Activité Version 2018.2, version bêta 4
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.2 bêta 4. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 17 mai 2018. Il sera disponible dans l’environnement de production en juillet 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.2 de Beta 4. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 17 mai 2018. Il sera disponible dans l’environnement de production en juillet 2018.
 
 >[!IMPORTANT]
 >
 > Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir  [Présentation de l’activité de la version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir  [Présentation de l’activité de version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La version 2018.2 bêta 4 contient les améliorations apportées aux administrateurs de Workfront et aux autres utilisateurs :
+La version 2018.2 de Beta 4 contient les améliorations apportées aux administrateurs Workfront et aux autres utilisateurs :
 
 **Pour les administrateurs**
 
 * [Paramètre système : informations de session dans les pages externes](#system-setting-session-information-in-external-pages)
 
-**Pour tous les utilisateurs**
+**Pour Tous Les Utilisateurs**
 
-* [Améliorations des limites de travail en cours sur le conseil de Kanban](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
-* [Interface améliorée pour la configuration des états d’une équipe agile](#improved-interface-for-configuring-statuses-for-an-agile-team)
-* [Mise à jour de la liste de travail (panneau de gauche) dans la zone d’accueil](#updated-work-list-left-panel-in-the-home-area)
+* [Améliorations des limites de travail en cours sur la carte Kanban](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
+* [Interface améliorée pour la configuration des états pour une équipe agile](#improved-interface-for-configuring-statuses-for-an-agile-team)
+* [Liste de travail mise à jour (panneau de gauche) dans la zone d’accueil](#updated-work-list-left-panel-in-the-home-area)
 * [Nouvelle visionneuse de vérification de l’appli de bureau pour le contenu interactif (multimédia enrichi)](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
-* [Exportation de la vue utilisateur dans le planificateur de ressources](#export-the-user-view-in-the-resource-planner)
+* [Exporter la vue utilisateur dans le planificateur de ressources](#export-the-user-view-in-the-resource-planner)
 * [Prise en charge des pilotes d’équipe Google](#support-for-google-team-drives)
 * [Nouvelle limite d’exportation pour le diagramme de Gantt](#new-export-limit-for-the-gantt-chart)
-* [L’option Coller à partir du Presse-papiers s’affiche maintenant sous forme de coche lors de l’utilisation d’Internet Explorer ou de Safari.](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
-* [Nouvel environnement bêta pour Android avec nouvelles fonctionnalités](#new-beta-environment-for-android-along-with-new-features)
+* [ L’option Coller à partir du Presse-papiers s’affiche maintenant sous forme de codé lors de l’utilisation d’Internet Explorer ou de Safari ](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
+* [Nouvel environnement Beta pour Android avec de nouvelles fonctionnalités](#new-beta-environment-for-android-along-with-new-features)
 * [Exemples de filtres pour les messages d’abonnement à un événement](#examples-of-filters-for-event-subscriptions-messages)
 
 ## Améliorations des limites de travail en cours sur le conseil de Kanban {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
@@ -51,7 +51,7 @@ Vous pouvez maintenant configurer les limites de travail en cours pour chaque co
 
 Avant cette modification, vous ne pouviez configurer qu&#39;une seule limite de travaux en cours qui s&#39;appliquait à toutes les colonnes du panorama Kanban. 
 
-Pour plus d’informations, voir la section  [Configuration de la limite de travail en cours (WIP)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) dans l’article  [Configurer Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Pour plus d’informations, voir la section  [ Configurez la limite de travail en cours ](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) dans l’article  [Configurez Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ### Mettre à jour la limite de travail en cours directement à partir du conseil de Kanban
 
@@ -59,7 +59,7 @@ Désormais, les membres de l’équipe disposant des droits d’édition de l’
 
 Avant cette modification, vous ne pouviez mettre à jour la limite de travail en cours que depuis la zone Paramètres de l’équipe .
 
-Pour plus d’informations, voir dans l’article .
+Pour plus d’informations, voir  dans l’article .
 
 ## Interface améliorée pour la configuration des états d’une équipe agile {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -71,7 +71,7 @@ Mise à jour de l’interface de configuration des statuts d’une équipe agile
 Pour plus d’informations, voir les articles suivants :
 
 * [Configurer Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
-* [Configuration de Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
+* [Configurer Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
 ## Mise à jour de la liste de travail (panneau de gauche) dans la zone d’accueil {#updated-work-list-left-panel-in-the-home-area}
 
@@ -81,7 +81,7 @@ La liste de tâches de la zone Accueil contient les améliorations suivantes :
 
   Les éléments affichés en dehors de la zone Accueil sont toujours affichés comme Non lus dans la zone Accueil.
 
-  Pour plus d’informations, voir [Afficher des éléments dans la liste des tâches de la zone Accueil](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Pour plus d’informations, voir [Afficher les éléments dans la liste de travail dans la zone d’accueil](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Les problèmes sont désormais identifiés par une icône de problème qui s’affiche en regard du problème.
 * Les validations sont désormais distinguées par type de validation, le type de validation étant affiché. Les types d’approbation possibles sont Tâche, Projet, Problème, Accès, Document, Frise chronologique et Bon à tirer.
@@ -102,20 +102,20 @@ La liste de tâches de la zone Accueil contient les améliorations suivantes :
 
   Ce nombre n’est pas disponible pour le groupement Terminé.
 
-  Pour plus d’informations, voir [Afficher des éléments dans la liste des tâches de la zone Accueil](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Pour plus d’informations, voir [Afficher les éléments dans la liste de travail dans la zone d’accueil](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Redimensionnez la liste des tâches par glisser-déplacer. Vous pouvez redimensionner la liste de travail pour qu’elle consume jusqu’à la moitié de l’écran. La taille que vous définissez est conservée la prochaine fois que vous accédez à Accueil.
 
   Avant cette modification, la taille de la liste de tâches ne pouvait pas être modifiée.
 
-* Pour les requêtes, l’avatar de l’utilisateur qui a effectué la requête s’affiche désormais, avec le texte &quot;[Approver_name] Je voudrais votre approbation.&quot;
+* Pour les requêtes, l’avatar de l’utilisateur qui a effectué la requête s’affiche désormais, avec le texte &quot;[nom_approbateur]&quot; pour votre approbation.
 * Lors de la création d’une tâche personnelle, le bouton &quot;À faire&quot; est désormais intitulé &quot;Personnel&quot;.
 
-  Pour plus d’informations, voir [Création d’éléments de travail à partir de la zone Accueil](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) dans l’article [Création d’éléments de travail à partir de la zone Accueil](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  Pour plus d’informations, voir [Créer des tâches à partir de la zone d’accueil](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) dans l’article [Créer des tâches à partir de la zone d’accueil](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 * Les éléments en retard sont indiqués comme en retard uniquement après une heure au-delà de la date d’achèvement planifiée.
 
-Pour plus d’informations sur la zone d’accueil, voir [Utilisation de la zone Accueil](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Pour plus d’informations sur la zone d’accueil, voir [Utilisation de la zone d’accueil](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Nouvelle visionneuse de vérification de l’appli de bureau pour le contenu interactif (multimédia enrichi) {#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content}
 
@@ -137,15 +137,15 @@ La visionneuse de vérification de l’appli de bureau comprend les amélioratio
 
 Pour plus d’informations sur le téléchargement, l’installation et l’utilisation de la visionneuse de vérification de l’appli de bureau, voir .
 
-Pour plus d’informations sur les différences de fonctionnalités entre la visionneuse de vérification de l’appli de bureau et les visionneuses de vérification de l’appli de bureau basées sur un navigateur, voir [Présentation des différences entre la visionneuse de test Web et la visionneuse de test de bureau](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Pour plus d’informations sur les différences de fonctionnalités entre la visionneuse de vérification de l’appli de bureau et les visionneuses de vérification de l’appli de bureau basées sur un navigateur, voir [Différences entre la visionneuse de vérification de l’appli de bureau et la présentation de la visionneuse de vérification de l’appli de bureau](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 ## Exportation de la vue utilisateur dans le planificateur de ressources {#export-the-user-view-in-the-resource-planner}
 
 Nous avions temporairement désactivé l’exportation des données à partir du planificateur de ressources lors de son affichage dans la vue utilisateur afin de résoudre certains problèmes de performances. Avec cette version, nous réactivons l’exportation des données lors de l’affichage du planificateur de ressources dans la vue utilisateur.
 
-Pour plus d’informations sur l’exportation des données du planificateur de ressources vers Excel, voir la section &quot;Option d’exportation&quot; dans [Présentation de la navigation de Resource Planner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Pour plus d’informations sur l’exportation des données du planificateur de ressources vers Excel, consultez la section &quot;Option d’exportation&quot; dans la [présentation de la navigation du planificateur de ressources](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Pour participer à notre programme bêta actuel pour le planificateur de ressources, voir [Performances du planificateur de ressources bêta.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+Pour participer à notre programme bêta actuel pour le planificateur de ressources, voir [Resource Planner Performance Beta.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
 
 ## Paramètre système : informations de session dans les pages externes {#system-setting-session-information-in-external-pages}
 
@@ -169,7 +169,7 @@ Vous pouvez désormais exporter jusqu’à 500 tâches dans le diagramme de Gant
 
 Auparavant, vous pouviez uniquement exporter jusqu’à 250 tâches.
 
-Pour plus d’informations, voir [Exportation du diagramme de Gantt vers PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+Pour plus d’informations, voir [Export du diagramme de Gantt vers PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
 ## L’option Coller à partir du Presse-papiers s’affiche maintenant sous forme de coche lors de l’utilisation d’Internet Explorer ou de Safari. {#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari}
 
@@ -177,9 +177,9 @@ L’option Coller à partir du Presse-papiers s’affiche désormais sous forme 
 
 Avant cette modification, cette option ne s’affichait pas dans Internet Explorer ou Safari. 
 
-Pour plus d’informations sur le collage d’images à partir du Presse-papiers, voir [Coller des images à partir du Presse-papiers](../../../../documents/managing-documents/paste-image-clipboard.md).
+Pour plus d’informations sur le collage d’images à partir du Presse-papiers, voir [Collage d’images à partir du Presse-papiers](../../../../documents/managing-documents/paste-image-clipboard.md).
 
-## Nouvel environnement bêta pour Android avec nouvelles fonctionnalités {#new-beta-environment-for-android-along-with-new-features}
+## Nouvel environnement Beta pour Android avec de nouvelles fonctionnalités {#new-beta-environment-for-android-along-with-new-features}
 
 Vous pouvez désormais découvrir les fonctionnalités les plus récentes sur lesquelles notre équipe travaille pour l’application mobile avant qu’elles ne soient publiées au grand public en vous inscrivant pour devenir un testeur bêta. Cet environnement est actuellement pris en charge pour l’application mobile Workfront uniquement pour les téléphones Android.
 
@@ -215,4 +215,4 @@ Les améliorations suivantes sont désormais disponibles sur la version bêta de
 
 ## Exemples de filtres pour les messages d’abonnement à un événement {#examples-of-filters-for-event-subscriptions-messages}
 
-Pour démontrer comment filtrer les abonnements à des événements afin de ne recevoir que les messages relatifs à votre organisation, vous pouvez désormais utiliser des fragments de code pour filtrer le flux des événements qui se rapportent à vos points de terminaison. Pour en savoir plus sur l’affichage des exemples de filtrage, voir [Filtrage des messages d’abonnement d’événement](../../../../wf-api/api/filter-event-sub-messages.md).
+Pour démontrer comment filtrer les abonnements à des événements afin de ne recevoir que les messages relatifs à votre organisation, vous pouvez désormais utiliser des fragments de code pour filtrer le flux des événements qui se rapportent à vos points de terminaison. Pour en savoir plus sur l&#39;affichage des exemples de filtrage, voir [Filtrage des messages d&#39;abonnement d&#39;événement](../../../../wf-api/api/filter-event-sub-messages.md).

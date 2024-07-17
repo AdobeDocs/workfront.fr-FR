@@ -82,7 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation de Workbench](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation de Workbench](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Remarques sur les miniatures d’enregistrements
 
@@ -124,9 +124,9 @@ Vous pouvez ajouter une miniature de la manière suivante :
    >
    >   Le champ principal est le champ qui s’affiche dans la première colonne d’une vue de tableau. Le champ principal est toujours gelé et ne peut pas être masqué ni déplacé. L’option Miniature n’est pas disponible dans le menu Plus lorsque le champ principal est un champ de formule.
 
-   La variable **Télécharger** s’ouvre par défaut dans la fonction **Miniature d’enregistrement** de la boîte.
+   L’onglet **Télécharger** s’ouvre par défaut dans la zone **Miniature des enregistrements**.
 
-   Pour plus d’informations sur le téléchargement de la miniature, voir la section [Ajout d’une miniature à un enregistrement à partir de la page de détails](#add-a-thumbnail-to-a-record-from-the-details-page) dans cet article, en commençant par l’étape 6. <!--see if this is accurate-->
+   Pour plus d’informations sur le téléchargement de la miniature, reportez-vous à la section [Ajout d’une miniature à un enregistrement à partir de la page de détails](#add-a-thumbnail-to-a-record-from-the-details-page) de cet article, en commençant par l’étape 6. <!--see if this is accurate-->
 
 <!--
    ![](assets/record-thumbnail-box-for-upload.png) 
@@ -164,12 +164,12 @@ Vous pouvez ajouter une miniature de la manière suivante :
 1. Dans n’importe quelle vue, cliquez sur un enregistrement pour l’ouvrir.
 
    La zone d’aperçu des détails s’affiche.
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit.
 
    La page de détails de l’enregistrement s’ouvre.
-1. Pointez sur l’image ou l’icône de la miniature. ![](assets/record-thumbnail-icon-on-details-page.png), puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) > **Modifier la miniature**.
+1. Passez la souris sur l’image miniature ou l’icône ![](assets/record-thumbnail-icon-on-details-page.png), puis cliquez sur le menu **Plus** ![](assets/more-menu.png) > **Modifier la miniature**.
 
-   La variable **Télécharger** s’ouvre par défaut dans la fonction **Miniature d’enregistrement** de la boîte.
+   L’onglet **Télécharger** s’ouvre par défaut dans la zone **Miniature des enregistrements**.
 
    ![](assets/record-thumbnail-box-for-upload.png)
 
@@ -179,23 +179,23 @@ Vous pouvez ajouter une miniature de la manière suivante :
 
    Cliquez sur **Parcourir les images**, puis recherchez un fichier image à ajouter. Le fichier doit être enregistré sur votre ordinateur.
 
-1. (Facultatif) Une fois l’image chargée dans la variable **Miniature d’enregistrement** , utilisez l’outil de dimensionnement pour recadrer et redimensionner l’image.
-1. (Facultatif) Cliquez sur le **Charger une nouvelle image** icon ![](assets/upload-new-image-icon.png) pour charger une autre image.
-1. (Facultatif) Cliquez sur le **Galerie** , puis cliquez sur une image. La galerie d’images ne peut pas être modifiée.
+1. (Facultatif) Une fois l’image téléchargée dans la zone **Record thumbnail**, utilisez l’outil de dimensionnement pour recadrer et redimensionner l’image.
+1. (Facultatif) Cliquez sur l&#39;icône **Télécharger une nouvelle image** ![](assets/upload-new-image-icon.png) pour télécharger une autre image.
+1. (Facultatif) Cliquez sur l’onglet **Galerie** , puis sur une image. La galerie d’images ne peut pas être modifiée.
 
    ![](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Facultatif) Pour supprimer la miniature avant son enregistrement, cliquez sur le bouton **Supprimer** icon ![](assets/remove-image-icon.png) à droite de l’image.
+1. (Facultatif) Pour supprimer la miniature avant qu’elle ne soit enregistrée, cliquez sur l’icône **Supprimer** ![](assets/remove-image-icon.png) située à droite de l’image.
 
 1. Cliquez sur **Utiliser l’image** pour ajouter l’image en tant que miniature.
-Cela ferme la fenêtre **Miniature d’enregistrement** de la boîte.
+Cela ferme la boîte **Record thumbnail**.
 La miniature s’affiche dans les zones de la planification Workfront où s’affiche l’enregistrement.
 
    >[!TIP]
    >
    >   Vous devez activer le champ Miniature dans la vue Tableau pour afficher les miniatures dans cette vue. Elle est désactivée par défaut.
 
-1. (Facultatif) Pour supprimer la miniature après son enregistrement, cliquez sur un enregistrement dans n’importe quelle vue pour ouvrir la page de détails, puis survolez l’image miniature avec la souris et cliquez sur l’icône **Plus** menu ![](assets/more-menu.png)> **Supprimer** icon ![](assets/remove-image-icon.png). L’image miniature est supprimée.
+1. (Facultatif) Pour supprimer la miniature après son enregistrement, cliquez sur un enregistrement dans n’importe quelle vue pour ouvrir la page de détails, puis survolez l’image miniature avec la souris et cliquez sur l’icône **Plus** ![](assets/more-menu.png)> **Supprimer** ![](assets/remove-image-icon.png) . L’image miniature est supprimée.
 
 
 

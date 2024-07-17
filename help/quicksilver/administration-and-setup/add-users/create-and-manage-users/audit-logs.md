@@ -11,7 +11,7 @@ exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '1464'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -65,20 +65,20 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit :
 ## Types de journaux d’audit et actions qui les déclenchent
 
 * [Niveau d’accès](#access-level)
-* [Société](#company)
+* [Entreprise](#company)
 * [Condition](#condition)
 * [Champ personnalisé](#custom-field)
 * [Formulaires personnalisés](#custom-forms)
 * [Section personnalisée](#custom-section)
-* [Taux de change](#exchange-rate)
+* [Taux d’Exchange](#exchange-rate)
 * [Groupe](#group)
 * [Rôles de tâche](#job-roles)
 * [Tentative de connexion](#login-attempt)
 * [Priorité](#priority)
-* [Préférence du projet](#project-preference)
+* [Préférences du projet](#project-preference)
 * [Gravité](#severity)
-* [État](#status)
-* [Tâches et problèmes](#tasks-issues-preferences)
+* [Statut](#status)
+* [Préférences Tâches et problèmes](#tasks-issues-preferences)
 * [l’utilisateur ou de l’utilisatrice](#user)
 
 ### Niveau d’accès {#access-level}
@@ -192,22 +192,22 @@ Le système génère une entrée de journal d’audit Section personnalisée lor
 * Modification du nom ou de la description d’une section personnalisée
 * Suppression d’une section personnalisée
 
-Pour plus d’informations sur les sections personnalisées des formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations sur les sections personnalisées dans les formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ### Taux de change {#exchange-rate}
 
-Le système génère une entrée de journal d’audit de taux de change lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit de taux d’Exchange lorsqu’un utilisateur effectue l’une des actions suivantes :
 
-* Crée un taux de change
-* Change un taux de change :
+* Crée un taux d&#39;exchange
+* Change un taux d’exchange :
 
    * Ajoute une devise
    * Modification du taux de la devise
    * Définit la devise comme devise de base (par défaut) pour tous les projets et rapports du système.
 
-* Supprime un taux de change
+* Supprime un taux d&#39;exchange
 
-Pour plus d’informations sur la configuration des taux de change, voir [Configurer les taux de change](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Pour plus d&#39;informations sur la configuration des taux d&#39;exchange, voir [Configuration des taux d&#39;exchange](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### Groupe {#group}
 
@@ -248,7 +248,7 @@ Les journaux de tentative de connexion ne sont pas enregistrés lorsqu’un admi
 
 >[!NOTE]
 >
->Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Si vous avez besoin d’informations supplémentaires, contactez votre administrateur réseau ou informatique.
+>Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 
 ### Priorité {#priority}
 
@@ -265,7 +265,7 @@ Le système génère une entrée de journal d’audit de priorité lorsqu’un u
 
 * Supprime une priorité
 
-Pour plus d’informations sur la configuration des priorités, voir [Créer et personnaliser des priorités](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Pour plus d’informations sur la configuration des priorités, voir [Création et personnalisation des priorités](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Préférence du projet {#project-preference}
 
@@ -281,7 +281,7 @@ Le système génère une entrée de journal d’audit Préférences du projet lo
 
 * Supprime un trimestre personnalisé
 
-Pour plus d’informations sur les préférences du projet, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Pour plus d’informations sur les préférences du projet, voir [Configuration des préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ### Gravité {#severity}
 
@@ -298,7 +298,7 @@ Le système génère une entrée de journal d’audit de gravité lorsqu’un ut
 
 * Supprime une gravité de problème
 
-Pour plus d’informations sur la configuration des rôles de tâche, voir [Création ou personnalisation des gravité de problème](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Pour plus d’informations sur la configuration des rôles de tâche, voir [Création ou personnalisation de la gravité des problèmes](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 ### Statut {#status}
 
@@ -341,7 +341,7 @@ Le système génère une entrée de journal d’audit utilisateur lorsqu’un ut
 
   >[!NOTE]
   >
-  >Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Si vous avez besoin d’informations supplémentaires, contactez votre administrateur réseau ou informatique.
+  >Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 
 * Suppression d’un utilisateur
 * Modification du niveau d’accès, de la société, de l’équipe ou du groupe d’un utilisateur

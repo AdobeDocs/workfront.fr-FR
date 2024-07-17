@@ -1,7 +1,7 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
-title: Bon à tirer d’une ressource liée avec le connecteur amélioré
+title: Relire une ressource liée avec le connecteur amélioré
 description: Après avoir lié une ressource de Experience Manager Assets, vous pouvez créer un BAT et affecter des utilisateurs à la révision et à l’ajout de commentaires à la ressource.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
@@ -9,52 +9,52 @@ exl-id: d72ac84f-1865-4122-bc77-d8200a4d0f69
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
-# Bon à tirer d’une ressource liée avec le connecteur amélioré
+# Relire une ressource liée avec le connecteur amélioré
 
 Après avoir lié une ressource de Experience Manager Assets, vous pouvez créer un BAT et affecter des utilisateurs à la révision et à l’ajout de commentaires à la ressource. Les bons à tirer créés à partir de ressources liées sont pris en compte dans votre quota de stockage de BAT.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p> Tous</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p> N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licences Adobe Workfront*</td> 
-   <td> <p>Travail ou plus élevé</p> </td> 
+   <td role="rowheader">Licences Adobe Workfront*</td> 
+   <td> <p>Travail ou supérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>Vous devez disposer de Experience Manager Assets Essentials.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Accès en modification aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Accès ou version ultérieure</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Accès ou version ultérieure</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Conditions préalables
 
 Avant de commencer, vous devez
 
-* Installation de Workfront for Experience Manager Enhanced Connector
+* Installation de Workfront pour Experience Manager Enhanced Connector
 
 ## Créer un BAT
 
@@ -62,12 +62,12 @@ Vous pouvez créer des BAT statiques, vidéo ou interactifs.
 
 Pour créer un BAT :
 
-1. Accédez au projet, à la tâche ou au problème pour lequel vous souhaitez obtenir le BAT, puis cliquez sur le bouton **Documents** .
-1. Passez la souris sur le document, puis cliquez sur l’icône **Créer un bon à tirer** lien qui apparaît sous le nom du document.
+1. Accédez au projet, à la tâche ou à l’emplacement où vous souhaitez obtenir le BAT, puis cliquez sur la section **Documents** .
+1. Passez la souris sur le document, puis cliquez sur le lien **Créer un bon à tirer** qui apparaît sous le nom du document.
 
    >[!NOTE]
    >
-   >Si vous avez **Générer automatiquement des bons à tirer lors du téléchargement de documents** activé dans votre profil utilisateur, le système crée automatiquement un BAT simple.
+   >Si **Générer automatiquement des bons à tirer lors du téléchargement de documents** est activé dans votre profil utilisateur, le système crée automatiquement un bon à tirer simple.
 
 1. Sélectionnez l’une des options suivantes :
 
@@ -77,7 +77,7 @@ Pour créer un BAT :
     <tbody> 
      <tr> 
       <td role="rowheader">Bon à tirer simple</td> 
-      <td>Cette option crée un BAT sans workflow associé et applique les paramètres de BAT par défaut. Vous pouvez mettre à jour les paramètres de BAT par défaut ou ajouter un workflow après avoir créé le BAT. Pour plus d’informations sur les paramètres du BAT, voir <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Modification des paramètres du BAT</a>.</td> 
+      <td>Cette option crée un BAT sans workflow associé et applique les paramètres de BAT par défaut. Vous pouvez mettre à jour les paramètres de BAT par défaut ou ajouter un workflow après avoir créé le BAT. Pour plus d’informations sur les paramètres du BAT, voir <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Modifier les paramètres du BAT</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bon à tirer avancé</td> 
@@ -98,9 +98,9 @@ Une fois que vous avez créé un BAT, vous pouvez faire des choses comme
 * Mettre à jour les validants et les échéances
 * Modifier le workflow
 
-Pour plus d’informations sur la gestion d’un BAT existant, voir [Gestion des bons à tirer dans Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
+Pour plus d’informations sur la gestion d’un BAT existant, voir [Gestion des BAT dans Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
 
-## Vérification d’un BAT
+## Vérifier une épreuve
 
 Les réviseurs affectés peuvent effectuer des opérations telles que
 

@@ -10,8 +10,8 @@ role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
 source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 2%
+source-wordcount: '909'
+ht-degree: 19%
 
 ---
 
@@ -19,56 +19,56 @@ ht-degree: 2%
 
 En tant qu’administrateur Adobe Workfront, vous pouvez déterminer les paramètres globaux des processus d’approbation dans Workfront. Ces paramètres ont un impact sur tous les processus d’approbation des tâches de votre système.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Vous devez être un administrateur système ou disposer d’une licence Plan avec un accès administratif aux processus d’approbation.</p> <p><b>REMARQUE</b>: Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Vous devez être un administrateur système ou disposer d’une licence Plan avec un accès administratif aux processus d’approbation.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Configuration des paramètres d’approbation globaux
 
 1. Connectez-vous à Workfront en tant qu’administrateur Workfront .
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Traitements** > **Approbations** .
+1. Cliquez sur **Processes** > **Approvals** .
 
-1. Cliquez sur le bouton **Paramètres** icon ![](assets/gear-icon-settings.png) en regard de **Approbations** nom de la zone.
+1. Cliquez sur l’icône **Paramètres** ![](assets/gear-icon-settings.png) en regard du nom de la zone **Approbations** .
 
-1. Dans le **Paramètres d’approbation** qui s’affiche, indiquez les informations suivantes :
+1. Dans la zone **Approval Settings** (Paramètres d’approbation) qui s’affiche, spécifiez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Ajouter &lt;number&gt; Jours jusqu’à la date d’achèvement prévue pour s’adapter aux processus d’approbation</td> 
+      <td role="rowheader">Ajoutez &lt;nombre&gt; jours à la date d’achèvement prévue pour s’adapter aux processus d’approbation.</td> 
       <td> <p>Spécifiez le nombre de minutes, heures, jours, semaines ou mois à ajouter à la date d’achèvement prévue de la tâche qui doit être approuvée. Sélectionnez l’option "Temps écoulé" (minutes, heures, jours ou semaines) pour ajouter une heure incluant les week-ends, jours fériés et heures non travaillées qui ont été désignés dans le calendrier de travail du système.</p> 
-      <p>Par exemple, si une tâche est affectée le vendredi et a une durée de 3 jours écoulés, la date d’achèvement de la tâche est définie pour le lundi (en supposant que le samedi et le dimanche soient un week-end). Si la tâche a une durée de 3 jours (non écoulée), la date de fin de la tâche est définie pour le mercredi.</p>
-      <p><b>REMARQUE</b>: L’activation de l’ajout de temps supplémentaire pour s’adapter à la validation des tâches aura une incidence sur la chronologie de la tâche et de celle du projet.</p></td> 
+      <p>Par exemple, si une tâche est affectée le vendredi et a une durée de 3 jours écoulés, la date d’achèvement de la tâche est définie pour le lundi (en supposant que le samedi et le dimanche soient un week-end). Si la tâche a une durée de 3 jours (non écoulés), la date d’achèvement de la tâche est définie pour le mercredi.</p>
+      <p><b>REMARQUE</b> : l’activation de l’ajout de temps supplémentaire pour s’adapter à l’approbation des tâches affecte le calendrier de la tâche et celui du projet.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">L’approbateur ne doit pas appartenir à l’équipe du projet (pour les processus d’approbation qui incluent un rôle).</td> 
       <td> <p>Sélectionnez cette option si aucun approbateur n’est nécessaire pour faire partie de l’équipe du projet lorsqu’un processus d’approbation inclut un rôle. Lorsque vous attribuez la décision d’approbation à un rôle de tâche, seuls les utilisateurs auxquels un rôle est associé dans le projet voient l’approbation. Si vous activez ce paramètre, tout utilisateur disposant de ce rôle de tâche reçoit la demande d’approbation, qu’il fasse ou non partie de l’équipe de projet. Pour plus d’informations sur la modification du rôle de projet d’un utilisateur, voir <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gérer l’équipe de projet</a>. </p> 
-      <p><b>CONSEIL</b>: Lorsque vous affectez une approbation à un rôle et à une option <b>L’approbateur ne doit pas appartenir à l’équipe du projet (pour les processus d’approbation qui incluent un rôle).</b> est désactivé, mais aucun rôle de l’équipe de projet ne correspond au rôle lors de l’approbation ; l’approbation est réaffectée au propriétaire du projet. </p> </td> 
+      <p><b>TIP</b> : lorsque vous affectez une approbation à un rôle et que l’option <b>Approbateur non requis pour faire partie de l’équipe de projet (pour les processus d’approbation qui incluent un rôle)</b> est désactivée, mais qu’aucun rôle ne correspond au rôle sur l’approbation, l’approbation est réaffectée au propriétaire du projet. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Désactiver la délégation d'approbation</td> 
@@ -87,15 +87,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      <tr> 
       <td role="rowheader">Autoriser les utilisateurs à rappeler les demandes récemment créées en attente d'approbation</td> 
       <td> <p>Sélectionnez cette option pour configurer si les utilisateurs peuvent rappeler un problème ou une demande en attente d’approbation pour leur premier état. Vous pouvez associer le premier état d’un problème ou d’une demande à un processus d’approbation en configurant les files d’attente de demandes. </p> 
-      <p>Pour plus d’informations sur les files d’attente de requêtes, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a>.</p> 
+      <p>Pour plus d’informations sur les files d’attente de requête, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a>.</p> 
       <p>Utilisez l’une des méthodes suivantes :</p> 
        <ul> 
        <li>Sélectionnez cette option pour permettre aux utilisateurs de rappeler une approbation pour le premier état d’un problème ou d’une demande. Dans ce cas, il peut voir un bouton Rappeler&lt; sur un nouveau problème ou une demande en attente d’approbation. Lorsqu’ils choisissent de rappeler le problème, ils reçoivent un avertissement indiquant que le problème sera également supprimé. Le problème est supprimé après qu'ils aient confirmé qu'ils le rappelaient. </li> 
        <li> <p>Désélectionnez cette option pour empêcher les utilisateurs de rappeler un problème ou une demande dont le premier état est en attente d’approbation. Ils ne peuvent pas voir de bouton Rappel&lt; sur le nouveau problème ou la nouvelle demande et la validation doit être accordée. Il s’agit de l’option par défaut.</p> 
-       <p>Pour plus d’informations sur la révision des éléments en attente d’approbation, voir <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">Afficher les approbations </a>.</p> </li> 
+       <p>Pour plus d’informations sur la révision des éléments en attente d’approbation, voir <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">Affichage des approbations </a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Cliquez sur **Enregistrez les modifications.**
+1. Cliquez sur **Enregistrer les modifications.**

@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice avec l’authentification améliorée
-description: Lorsque l’authentification améliorée (eAuth) est activée pour votre [!DNL Workfront] Un environnement, une [!DNL Workfront] L’administrateur ne peut pas réinitialiser les informations de connexion d’un autre utilisateur. Cela diffère de [!DNL Workfront] environnements sans eAuth ou environnements pour lesquels l’authentification unique (SSO) est activée.
+description: Lorsque l’authentification améliorée (eAuth) est activée pour votre environnement  [!DNL Workfront] un administrateur  [!DNL Workfront] ne peut pas réinitialiser les informations de connexion d’un autre utilisateur. Cela diffère des environnements  [!DNL Workfront] sans eAuth ou des environnements pour lesquels l’authentification unique (SSO) est activée.
 author: Lisa
 feature: Get Started with Workfront
 hide: true
@@ -19,7 +19,7 @@ ht-degree: 26%
 
 <!--This article has been hidden by request-->
 
-Lorsque l’authentification améliorée (eAuth) est activée pour votre [!DNL Workfront] Un environnement, une [!DNL Workfront] L’administrateur ne peut pas réinitialiser les informations de connexion d’un autre utilisateur. Cela diffère de [!DNL Workfront] environnements sans eAuth ou environnements pour lesquels l’authentification unique (SSO) est activée.
+Lorsque l’authentification améliorée (eAuth) est activée pour votre environnement [!DNL Workfront], un administrateur [!DNL Workfront] ne peut pas réinitialiser les informations de connexion d’un autre utilisateur. Cela diffère des environnements [!DNL Workfront] sans eAuth ou des environnements pour lesquels l’authentification unique (SSO) est activée.
 
 ## Conditions d’accès
 
@@ -48,17 +48,17 @@ Pour connaître la formule, le type de licence ou l’accès dont vous disposez,
 
 ## Réinitialisation du mot de passe d’un utilisateur dans un environnement compatible eAuth
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Workfront], puis cliquez sur **[!UICONTROL Utilisateurs]** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Workfront], puis cliquez sur **[!UICONTROL Utilisateurs]** ![](assets/users-icon-in-main-menu.png).
 
    ![](assets/main-menu-options-350x481.png)
 
-1. Sélectionnez la variable **[!UICONTROL Utilisateur]** qui nécessite la réinitialisation du mot de passe.
+1. Sélectionnez l’ **[!UICONTROL utilisateur]** qui nécessite la réinitialisation du mot de passe.
    ![](assets/100520classicnweselectuser-350x105.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Plus] button** qui s’affiche une fois que vous avez choisi le **[!UICONTROL Utilisateur]** et sélectionnez la variable **[!UICONTROL Envoyer un e-mail de mot de passe oublié]** dans le menu déroulant.
+1. Cliquez sur le bouton **[!UICONTROL Plus]** qui s’affiche une fois que vous avez choisi l’**[!UICONTROL utilisateur]** de votre choix et sélectionnez l’option **[!UICONTROL Envoyer le courriel avec mot de passe oublié]** dans le menu déroulant.
 
    ![](assets/100520classicnwesendemail-350x134.png)
 
-Après avoir sélectionné **[!UICONTROL Envoyer un e-mail de mot de passe oublié]** , un courrier électronique est envoyé à l’utilisateur sélectionné. Il contient des instructions lui permettant de modifier son propre mot de passe.
+Après avoir sélectionné l’option **[!UICONTROL Envoyer le courrier électronique avec mot de passe oublié]**, un courrier électronique est envoyé à l’utilisateur sélectionné. Celui-ci contient des instructions lui permettant de modifier son propre mot de passe.
 
 ![](assets/pwresetemail-resized-350x461.png)

@@ -54,13 +54,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront Fusion] administrateur.
+*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur [!DNL Workfront Fusion].
 
 ## Naviguer [!DNL Workfront Fusion]
 
-La variable [!UICONTROL Organisation] et [!UICONTROL Équipe] Les menus se trouvent dans le panneau de navigation de gauche de Fusion. Si vous êtes un [!DNL Workfront Fusion] votre administrateur, [!UICONTROL Administration] s’affiche également ici.
+Les menus [!UICONTROL Organisation] et [!UICONTROL Équipe] se trouvent dans le panneau de navigation de gauche de Fusion. Si vous êtes administrateur [!DNL Workfront Fusion], le menu [!UICONTROL Administration] s’affiche également ici.
 
-Pour changer d’équipe, cliquez sur le nom de l’équipe en haut de la page, puis sélectionnez l’équipe. Le sélecteur d’équipe s’affiche uniquement sur les pages spécifiques à une équipe, telles qu’un créateur de scénarios ou le [!UICONTROL Connexions] page.
+Pour changer d’équipe, cliquez sur le nom de l’équipe en haut de la page, puis sélectionnez l’équipe. Le sélecteur d’équipe s’affiche uniquement sur les pages propres à une équipe, telles qu’un créateur de scénarios ou la page [!UICONTROL Connexions].
 
 Pour changer d’organisation, cliquez sur son nom dans le coin supérieur droit de l’écran, puis sélectionnez l’organisation.
 
@@ -70,11 +70,11 @@ Vous pouvez accéder à vos options de profil et de préférence en cliquant sur
 
 Sous votre profil, vous pouvez afficher les onglets suivants :
 
-* **[!UICONTROL Organisations]**: affichez les organisations Fusion auxquelles vous appartenez.
-* **[!UICONTROL Options du fuseau horaire]**: ici, vous pouvez définir les fuseaux horaires utilisés dans l’interface utilisateur de Fusion et les fuseaux horaires utilisés pour des scénarios individuels.
-* **[!UICONTROL API]**: ici, vous pouvez copier des jetons d’API existants ou en créer de nouveaux.
+* **[!UICONTROL Organisations]** : affichez les organisations Fusion auxquelles vous appartenez.
+* **[!UICONTROL Options de fuseau horaire]** : ici, vous pouvez définir les fuseaux horaires utilisés dans l’interface utilisateur de Fusion, ainsi que les fuseaux horaires utilisés pour des scénarios individuels.
+* **[!UICONTROL API]** : ici, vous pouvez copier des jetons d’API existants ou en créer de nouveaux.
 
 
 ## Accès à vos notifications
 
-Pour afficher vos notifications, cliquez sur l’icône Notifications ![Icône Notifications](assets/notifications-icon.png) près du coin supérieur droit de l’écran. Un point rouge sur l’icône Notifications indique que vous avez des notifications ou des annonces non lues.
+Pour afficher vos notifications, cliquez sur l’icône Notifications ![ icône Notifications ](assets/notifications-icon.png) près du coin supérieur droit de l’écran. Un point rouge sur l’icône Notifications indique que vous avez des notifications ou des annonces non lues.

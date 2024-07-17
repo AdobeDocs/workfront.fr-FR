@@ -1,6 +1,6 @@
 ---
-title: 2.2.3 Améliorations de l’intégration
-description: 2.2.3 Améliorations de l’intégration
+title: Améliorations de l’intégration (version 22.3)
+description: Améliorations de l’intégration (version 22.3)
 author: Luke
 draft: false
 feature: Product Announcements
@@ -9,13 +9,13 @@ exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 2.2.3 Améliorations de l’intégration
+# Améliorations de l’intégration (version 22.3)
 
-Cette page décrit toutes les améliorations apportées à l’intégration avec la version 22.3 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production en janvier 2022, semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, voir [Présentation de la version 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Cette page décrit toutes les améliorations apportées à l’intégration avec la version 22.3 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production en janvier 2022, semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, consultez la [présentation de la version 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Intégration d’Adobe Workfront for Experience Manager Assets
 
@@ -34,9 +34,9 @@ Pour utiliser cette intégration, Workfront et Adobe Experience Manager Assets o
 
 Pour plus d’informations sur la configuration de l’intégration, voir
 
-* [Configuration de l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 
-* [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+* [Configurer l’intégration d’Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 
 
 Pour plus d’informations sur l’utilisation de l’intégration, voir Adobe Workfront for Experience Manager Assets Essentials.

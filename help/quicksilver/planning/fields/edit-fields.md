@@ -138,7 +138,7 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 
    La page du type d’enregistrement s’affiche.
 
-1. (Conditionnel) Cliquez sur l’onglet d’un **Vue Tableau**.
+1. (Conditionnel) Cliquez sur l’onglet d’une **vue Tableau**.
 
    Tous les enregistrements existants associés au type d’enregistrement s’affichent dans les lignes de la vue du tableau.
 1. Pointez sur l’en-tête de colonne d’un champ à modifier, cliquez sur la flèche pointant vers le bas située après le nom du champ, puis cliquez sur **Modifier un champ**.
@@ -149,7 +149,7 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Mettre à jour les informations sur le champ et cliquer sur **Enregistrer**. <!--insert screen shot when finalized-->
+1. Mettez à jour les informations sur le champ et cliquez sur **Enregistrer**. <!--insert screen shot when finalized-->
 
    >[!TIP]
    >

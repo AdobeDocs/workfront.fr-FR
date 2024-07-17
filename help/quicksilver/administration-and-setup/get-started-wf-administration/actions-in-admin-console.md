@@ -31,7 +31,7 @@ Si votre entreprise a été intégrée à Adobe Business Platform, vos utilisate
 >
 >Nous vous recommandons d’ajouter des utilisateurs qui ne sont pas administrateurs système directement dans Workfront. Il est possible d’ajouter des utilisateurs dans Adobe Admin Console, mais de les ajouter dans Workfront permet de définir leur niveau d’accès lors de leur création, ce qui peut vous faire gagner du temps.
 
-Pour plus d’informations sur la création d’administrateurs système Workfront, voir [Gestion des administrateurs système dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Pour obtenir des instructions sur la création des administrateurs système Workfront, voir [Gestion des administrateurs système dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 <!--
 <table style="table-layout:auto"> 
@@ -161,7 +161,7 @@ Pour plus d’informations sur la création d’administrateurs système Workfro
 
 ## Renouvellement du certificat SAML
 
-Pour obtenir des instructions sur le renouvellement du certificat SAML sur Adobe Admin Console, reportez-vous à la section &quot;La signature numérique dans la réponse SAML n’a pas été validée..&quot; dans [Federated ID de dépannage](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+Pour obtenir des instructions sur le renouvellement du certificat SAML sur Adobe Admin Console, reportez-vous à la section &quot;La signature numérique dans la réponse SAML n’a pas été validée..&quot; dans [Federated ID de dépannage](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
@@ -187,8 +187,8 @@ Comme Adobe Business Platform contrôle l’authentification unique (SSO) pour l
 
 * [Configuration d’Adobe Workfront avec SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 * [Configuration d’Adobe Workfront avec SAML 2.0 à l’aide d’ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-* [Désactivation de l’authentification unique dans Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+* [Désactiver l’authentification unique dans Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
 * [Mise à jour des métadonnées SAML 2.0 dans votre fournisseur d’identité](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [Mise à jour des utilisateurs pour l’authentification unique](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [Configuration des stratégies de mot de passe pour l’authentification](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [Configuration des préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [Mettre à jour les utilisateurs pour l’authentification unique](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+* [ Configuration des stratégies de mot de passe pour l’authentification ](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [ Configuration des préférences de sécurité système ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)

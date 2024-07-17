@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Mises à jour de l’API version 9
+title: Mises à jour de la version 9 de l’API
 description: Ressources mises à jour
 author: Becky
 feature: Workfront API
@@ -9,16 +9,16 @@ role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 36%
+source-wordcount: '257'
+ht-degree: 43%
 
 ---
 
-# Mises à jour de l’API version 9
+# Mises à jour de la version 9 de l’API
 
 ## Ressources mises à jour
 
-Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Adobe Workfront. Pour afficher les ressources nouvelles de la version 9, vous pouvez accéder à [Nouveautés de l’API version 9](../../wf-api/api/new-api-version-9.md) et [Nouveautés de l’API version 9 (suite)](../../wf-api/api/new-api-version-9-continue.md). Les modifications apportées à une ressource sont indiquées de la manière suivante :
+Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Adobe Workfront. Pour afficher les ressources qui sont nouvelles de la version 9, vous pouvez consulter les sections [Nouveautés de l’API version 9](../../wf-api/api/new-api-version-9.md) et [Nouveautés de l’API version 9 (suite)](../../wf-api/api/new-api-version-9-continue.md). Les modifications apportées à une ressource sont indiquées de la manière suivante :
 
 * Les ajouts sont simplement répertoriés
 * Les suppressions sont indiquées par un texte barré.
@@ -141,7 +141,7 @@ Affectation
 
 {style="table-layout:auto"}
 
-### Équipe
+### Equipe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|

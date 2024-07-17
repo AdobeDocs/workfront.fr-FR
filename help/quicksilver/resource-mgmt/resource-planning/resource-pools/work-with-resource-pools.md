@@ -1,7 +1,7 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Présentation des pools de ressources
+title: Vue d’ensemble des pools de ressources
 description: En tant que gestionnaire de ressources, vous pouvez gérer vos ressources en ajoutant des utilisateurs aux pools de ressources.
 author: Alina
 feature: Resource Management
@@ -9,11 +9,11 @@ exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Présentation des pools de ressources
+# Vue d’ensemble des pools de ressources
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.) </p>
@@ -23,14 +23,14 @@ En tant que gestionnaire de ressources, vous pouvez gérer vos ressources en ajo
 
 Une gestion efficace des ressources ne peut pas se produire sans renseigner vos groupes de ressources avec des utilisateurs et les associer à des projets. Il s’agit d’un prérequis pour l’utilisation de la fonctionnalité de planification des ressources.
 
-Pour plus d’informations sur les conditions préalables requises pour pouvoir commencer à utiliser la planification des ressources, voir la section &quot;Conditions préalables requises pour travailler dans le planificateur de ressources&quot; dans [Présentation de Resource Planner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur les conditions préalables requises pour pouvoir commencer à utiliser la planification des ressources, consultez la section &quot;Conditions préalables requises pour travailler dans le planificateur de ressources&quot; dans la [présentation du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Pour plus d’informations sur la création et la gestion des pools de ressources, consultez les articles suivants :
 
-* [Création de pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [Association des pools de ressources aux projets et aux modèles](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [Association des pools de ressources aux utilisateurs](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
-* [Suppression des utilisateurs des pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
+* [Créer des pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [ Association des pools de ressources aux projets et aux modèles](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [Associer des pools de ressources aux utilisateurs](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [Supprimer des utilisateurs et des utilisatrices de pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -78,15 +78,15 @@ If you still don't have access, ask your Workfront administrator if they set add
 
 Il existe plusieurs façons de structurer vos pools de ressources.
 
-Nous recommandons les approches suivantes :
+Nous vous recommandons les approches suivantes :
 
 * Tous les utilisateurs du même pool de ressources peuvent appartenir à la même équipe.
 
-   Par exemple, si vous souhaitez que tous les utilisateurs d’une équipe marketing soient disponibles pour un projet, vous souhaitez un pool de ressources marketing dans lequel vous ajoutez tous les utilisateurs de cette équipe. Vous pouvez ensuite associer le pool de ressources marketing aux projets auxquels les membres de cette équipe sont affectés.
+  Par exemple, si vous souhaitez que tous les utilisateurs d’une équipe marketing soient disponibles pour un projet, vous souhaitez un pool de ressources marketing dans lequel vous ajoutez tous les utilisateurs de cette équipe. Vous pouvez ensuite associer le pool de ressources marketing aux projets auxquels les membres de cette équipe sont affectés.
 
 * Vous pouvez demander à tous les utilisateurs du même pool de ressources de remplir des rôles similaires, en particulier si les rôles sont en forte demande et doivent être budgétés séparément.
 
-   Par exemple, vous pouvez disposer de ressources externes qui fonctionnent comme des consultants et que vous souhaitez voir disponibles pour un projet de temps à autre. Vous pouvez créer un pool de ressources pour les consultants que vous pouvez joindre à vos projets, dans lequel vous pouvez placer les deux utilisateurs qui sont des consultants internes ou externes.
+  Par exemple, vous pouvez disposer de ressources externes qui fonctionnent comme des consultants et que vous souhaitez voir disponibles pour un projet de temps à autre. Vous pouvez créer un pool de ressources pour les consultants que vous pouvez joindre à vos projets, dans lequel vous pouvez placer les deux utilisateurs qui sont des consultants internes ou externes.
 
 * Vous pouvez également créer des groupes de ressources par département ou centre de coûts.
 * Il est déconseillé d’ajouter tous les utilisateurs du système à un pool de ressources si vous disposez d’un grand nombre d’utilisateurs ou si vous gérez des ressources pour un grand nombre de projets à la fois.

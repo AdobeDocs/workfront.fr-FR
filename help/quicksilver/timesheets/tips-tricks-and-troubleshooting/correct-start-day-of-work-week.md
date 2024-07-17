@@ -2,23 +2,23 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: Correction du jour de début de la semaine de travail pour les feuilles de temps
+title: Corriger le jour de début de la semaine de travail pour les feuilles de temps
 description: Le jour de début de la semaine sur ma feuille de temps ne correspond pas au jour de début de la semaine configuré sur mon profil de feuille de temps.
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
 source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 0%
+source-wordcount: '293'
+ht-degree: 7%
 
 ---
 
-# Correction du jour de début de la semaine de travail pour les feuilles de temps
+# Corriger le jour de début de la semaine de travail pour les feuilles de temps
 
 ## Problème
 
-Le jour de début de la semaine sur ma feuille de temps ne correspond pas au jour de début de la semaine configuré sur mon profil de feuille de temps (comme décrit dans la section [Création, modification et affectation de profils de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).).
+Le jour de début de la semaine sur ma feuille de temps ne correspond pas au jour de début de la semaine configuré sur mon profil de feuille de temps (comme décrit dans la section [Créer, modifier et attribuer des profils de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)).
 
 ## Solution
 
@@ -32,9 +32,9 @@ Le changement de paramètres régionaux n’a aucune incidence sur le jour de d�
 
 Vous trouverez ci-dessous les instructions relatives à la modification de la langue et des paramètres régionaux pour divers navigateurs pris en charge par Workfront.
 
-* **Chrome :** Copiez et collez le lien suivant dans votre navigateur Chrome : `chrome://settings/languages` puis allez dans Langues.
-* **Firefox:**Copiez et collez le lien suivant dans votre navigateur Firefox : `about:preferences#content` puis allez dans Langues.
+* **Chrome :** Copiez et collez le lien suivant dans votre navigateur Chrome : `chrome://settings/languages` puis accédez à Langues.
+* **Firefox :**Copiez et collez le lien suivant dans votre navigateur Firefox : `about:preferences#content`, puis accédez à Langues.
 * **IE 11 :** Outils -> Options Internet -> Général -> Langues
-* **Safari :** Malheureusement, Safari ne permet pas de modifier les langues de navigation web sans modifier la langue de l’ensemble de votre système d’exploitation. Il est probablement plus facile d’installer un autre navigateur comme Chrome ou Firefox.
+* **Safari :** Malheureusement, Safari ne permet pas de modifier les langues de navigation web sans modifier la langue de votre système d’exploitation. Il est probablement plus facile d’installer un autre navigateur comme Chrome ou Firefox.
 
  

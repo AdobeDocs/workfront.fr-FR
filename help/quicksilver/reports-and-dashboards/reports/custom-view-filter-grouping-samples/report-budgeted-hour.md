@@ -10,11 +10,11 @@ exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
 source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 1%
+ht-degree: 16%
 
 ---
 
-# Rapport : Heure budgétisée
+# Rapport : heure budgétée
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
@@ -28,46 +28,46 @@ Lorsque vous souhaitez partager des informations sur l’heure budgétée avec d
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Création d’un rapport Heure planifiée
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Rapports**.
+1. Cliquez sur le **menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Rapports**.
 
-1. Cliquez sur **Nouveau Rapport > Heure budgétée**.
+1. Cliquez sur **Nouveau rapport > Heure budgétée**.
 
    La vue par défaut est appliquée au rapport.
 
-1. (Facultatif) Pour faciliter la lecture du rapport, cliquez sur le bouton **Heures budgétées** colonne, puis **Passer en mode Texte**, puis modifiez la variable
+1. (Facultatif) Pour faciliter la lecture du rapport, cliquez sur la colonne **Heures budgétaires**, puis **Basculer vers le mode Texte**, puis modifiez la variable
 
    ```
    valuefield
@@ -83,20 +83,20 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
    Cela arrondit le nombre d’heures budgétisées à un certain nombre de décimales que vous spécifiez.
 
-   Pour plus d’informations sur la manière d’arrondir un nombre dans Workfront, voir l’article [Présentation des expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Pour plus d’informations sur la manière d’arrondir un nombre dans Workfront, consultez l’article [Présentation des expressions de données calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. (Facultatif) Cliquez sur **Ajouter une colonne** pour ajouter des colonnes supplémentaires.
 1. (Facultatif) Pour faciliter la lecture du rapport, il est recommandé d&#39;y ajouter un groupement. Nous proposons le regroupement suivant :
 
-   Cliquez sur le bouton **Groupements** , puis effectuez une ou plusieurs des opérations suivantes :
+   Cliquez sur l’onglet **Groupings** , puis effectuez une ou plusieurs des opérations suivantes :
 
-   1. Cliquez sur **Ajouter un groupement** et commencez à saisir &quot;Nom du projet&quot;, puis sélectionnez-le lorsqu’il apparaît dans la liste.
+   1. Cliquez sur **Ajouter un groupement** et commencez à saisir &quot;Nom du projet&quot;, puis sélectionnez-le lorsqu’il apparaît dans la liste.
    1. Cliquez sur **Ajouter un groupement** et commencez à saisir &quot;Nom du rôle de la tâche&quot;, puis sélectionnez-le lorsqu’il apparaît dans la liste.
-   1. Cliquez sur **Ajouter un groupement** et commencez à taper **Date d’affectation**, sélectionnez-le lorsqu’il apparaît dans la liste, puis sélectionnez la période de regroupement à partir du **Regrouper les dates par** champ .
+   1. Cliquez sur **Ajouter un regroupement** et commencez à saisir **Date d’affectation**, sélectionnez-la lorsqu’elle apparaît dans la liste, puis sélectionnez la période par laquelle vous souhaitez regrouper dans le champ **Dates de groupe par**.
 
-1. (Facultatif) Cliquez sur **Filtres** pour ajouter des filtres au rapport.
-1. (Facultatif) Cliquez sur **Graphique** pour ajouter un graphique au rapport.
-1. Cliquez sur **Enregistrer + Fermer**.
+1. (Facultatif) Cliquez sur **Filtres** pour ajouter des filtres au rapport.
+1. (Facultatif) Cliquez sur **Graphique** pour ajouter un graphique au rapport.
+1. Cliquez sur **Enregistrer + Fermer**.
 
 ## Révision du rapport Heure budgétisée
 

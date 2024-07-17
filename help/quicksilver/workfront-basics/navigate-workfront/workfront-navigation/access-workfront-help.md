@@ -1,23 +1,23 @@
 ---
 navigation-topic: workfront-navigation
-title: Accès à l’aide d’Adobe Workfront
+title: Accéder à l’aide d’Adobe Workfront
 description: Workfront propose un large éventail de contenus pour vous aider à trouver des réponses à vos questions sur les fonctionnalités des différents produits proposés par Workfront.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 1%
+source-wordcount: '156'
+ht-degree: 14%
 
 ---
 
-# Accès [!DNL Adobe Workfront] help
+# Accès à l’aide [!DNL Adobe Workfront]
 
-[!DNL Workfront] propose un large éventail de contenus pour vous aider à trouver des réponses à vos questions sur les fonctionnalités des différents produits proposés par [!DNL Workfront].
+[!DNL Workfront] offre un large éventail de contenus pour vous aider à trouver des réponses aux questions que vous pouvez vous poser sur les fonctionnalités des différents produits proposés par [!DNL Workfront].
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,30 +26,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur [!DNL Workfront].
 
-## Accédez au [!DNL Adobe Workfront] documentation sur l’Experience League
+## Accédez à la documentation [!DNL Adobe Workfront] sur Experience League
 
-1. Accédez au [[!DNL Adobe Workfront] page de documentation sur [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
+1. Accédez à la [[!DNL Adobe Workfront] page de documentation sur [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
 
-Outre la recherche de la documentation d’aide, vous pouvez accéder aux [!DNL Workfront] ressources de l’Experience League :
+Outre la recherche de la documentation d’aide, vous pouvez également accéder aux ressources [!DNL Workfront] suivantes à partir de l’Experience League :
 
-* Tutorials Workfront : Pour plus d’informations, voir [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
+* Tutorials Workfront : pour plus d’informations, voir [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
 
-* [!UICONTROL Laboratoire d’innovation]: Pour plus d’informations, voir [Le [!UICONTROL Laboratoire d’innovation]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
-* [!UICONTROL [!DNL Workfront] Communauté]: Pour plus d’informations, voir [Le [!UICONTROL [!DNL Adobe Workfront] Communauté]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+* [!UICONTROL Laboratoire d’innovation] : pour plus d’informations, voir [Le [!UICONTROL Laboratoire d’innovation]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+* [!UICONTROL [!DNL Workfront] Communauté] : pour plus d’informations, voir [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
-## Accès à l’aide depuis l’intérieur [!DNL Workfront]
+## Accès à l’aide depuis [!DNL Workfront]
 
 {{step1-click-main-menu}}
 

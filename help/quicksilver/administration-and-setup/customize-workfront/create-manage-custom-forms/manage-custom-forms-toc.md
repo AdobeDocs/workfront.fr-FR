@@ -18,7 +18,7 @@ ht-degree: 65%
 # Gérer les formulaires et les champs personnalisés
 
 * [Partager un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [Accès à un champ personnalisé partagé que vous souhaitez utiliser](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+* [Accès pour un champ personnalisé partagé que vous souhaitez utiliser](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
 * [Réactivation ou désactivation d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 * [Référencer des formulaires personnalisés dans les rapports](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
 * [Afficher les rapports qui utilisent un champ ou un widget personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)

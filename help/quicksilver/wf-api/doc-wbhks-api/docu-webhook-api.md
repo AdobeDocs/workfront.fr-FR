@@ -2,21 +2,21 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: API Document Webhooks
-description: API Document Webhooks
+title: API Document Webhooks
+description: API Document Webhooks
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3646'
+source-wordcount: '3620'
 ht-degree: 3%
 
 ---
 
 
-# API Document Webhooks
+# API Document Webhooks
 
 Les webhooks de document Adobe Workfront définissent un ensemble de points de terminaison d’API par le biais desquels Workfront effectue des appels d’API autorisés à un fournisseur de document externe. Cela permet à tous les utilisateurs de créer un module externe middleware pour n’importe quel fournisseur de stockage de documents.
 
@@ -108,7 +108,7 @@ l&#39;accès pour agir en leur nom. Ce processus de prise en main ne se produit 
 1. L’utilisateur commence à connecter l’intégration webhook à son compte. Pour ce faire, cliquez sur la liste déroulante &quot;Ajouter un document&quot; > &quot;Ajouter un service&quot; > Nom de l’intégration personnalisée.
 1. Workfront navigue dans l’URL d’authentification de l’utilisateur, ce qui peut l’inviter à se connecter au fournisseur de documents externe. Cette page est hébergée par le fournisseur webhook ou le système externe de gestion des documents. Dans ce cas, Workfront ajoute un paramètre &quot;state&quot; à l’URL d’authentification. Cette valeur doit être retransmise à Workfront en ajoutant la même valeur à l’URI de retour Workfront à l’étape ci-dessous.
 1. Une fois connecté au système externe (ou si l’utilisateur est déjà connecté), il est dirigé vers une page &quot;Authentification&quot;, ce qui explique que Workfront demande l’accès pour effectuer un ensemble d’actions pour le compte de l’utilisateur.
-1. Si l’utilisateur clique sur le bouton &quot;Autoriser&quot;, le navigateur effectue une redirection vers l’ URI de redirection Workfront , en ajoutant &quot;code=`<code>`&quot; à la chaîne de requête. Selon la spécification OAuth2, ce jeton est de courte durée. La chaîne de requête doit également comporter le paramètre &quot;state=&quot;`<sent_by_workfront>`&quot;.
+1. Si l’utilisateur clique sur le bouton &quot;Autoriser&quot;, le navigateur effectue une redirection vers l’ URI de redirection Workfront , en ajoutant &quot;code=`<code>`&quot; à la chaîne de requête. Selon la spécification OAuth2, ce jeton est de courte durée. La chaîne de requête doit également comporter le paramètre &quot;state=`<sent_by_workfront>`&quot; suivant.
 1. Workfront traite cette requête et effectue un appel API vers l’URL du point de terminaison du jeton avec le code d’autorisation.
 1. L’URL Token Endpoint renvoie un jeton d’actualisation et un jeton d’accès.
 1. Workfront stocke ces jetons et fournit entièrement l’intégration de webhook pour cet utilisateur.
@@ -362,7 +362,7 @@ GET /metadata?id=[ID de document ou de dossier]
  </tbody> 
 </table>
 
-**Exemple :** `https://www.acme.com/api/metadata?id=12345`
+**Exemple :** `https://www.acme.com/api/metadata?id=12345`
 
 **Réponse**
 
@@ -405,7 +405,7 @@ L’API Document Webhooks ne prend actuellement pas en charge la pagination.
 
 JSON contenant une liste de fichiers et de dossiers. Les métadonnées de chaque élément sont les mêmes que celles renvoyées par le point de terminaison /metadata .
 
-**Exemple :** `https://www.acme.com/api/files?parentId=123456`
+**Exemple :** `https://www.acme.com/api/files?parentId=123456`
 
 **Réponse**
 
@@ -473,7 +473,7 @@ L’API Document Webhooks ne prend actuellement pas en charge la pagination.
 
 JSON contenant une liste de métadonnées pour les fichiers et les dossiers correspondant à la requête. Ce qui constitue une &quot;correspondance&quot; est déterminé par le fournisseur webhook. Idéalement, il doit effectuer une recherche de texte intégral. Une recherche basée sur un nom de fichier fonctionne également.
 
-**Exemple :** `https://www.acme.com/api/search?query=test-query`
+**Exemple :** `https://www.acme.com/api/search?query=test-query`
 
 **Réponse**
 
@@ -517,9 +517,9 @@ GET /download
 
 octets bruts du document.
 
-**Exemple :** `https://www.acme.com/api/download?id=123456`
+**Exemple :** `https://www.acme.com/api/download?id=123456`
 
-### Obtention d’une miniature pour un document
+### Obtenir une vignette pour un document
 
 Renvoie les octets de miniature bruts d’un document.
 
@@ -542,7 +542,7 @@ GET /thumbnail
 
 Octets de miniature bruts.
 
-**Exemple :** `https://www.acme.com/api/thumbnail?id=123456`
+**Exemple :** `https://www.acme.com/api/thumbnail?id=123456`
 
 ### Chargement d’un fichier - Partie 1 de 2
 
@@ -591,11 +591,11 @@ POST /uploadInit
 
 Métadonnées du fichier, telles que définies par le point de terminaison /metadata .
 
-**Exemple :** `https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b`
+**Exemple :** `https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b`
 
 **Réponse**
 
-`[file_metadata]` inclut le nouvel ID de document utilisé par le fournisseur de documents.
+`[file_metadata]` comprend le nouvel ID de document utilisé par le fournisseur de documents.
 
 ### Chargement d’un fichier - Partie 2 de 2
 
@@ -737,7 +737,7 @@ POST /createFolder
 
 Métadonnées du dossier nouvellement créé, telles que définies par le point de terminaison /metadata .
 
-**Exemple :** `POST https://www.acme.com/api/createFolder`
+**Exemple :** `POST https://www.acme.com/api/createFolder`
 
 ```
 -------------------------------
@@ -819,11 +819,11 @@ PUT /rename
 
  
 
-réponse
+Réponse
 
 Chaîne JSON indiquant la réussite ou l’échec, comme indiqué dans la section Gestion des erreurs ci-dessous.
 
-**Exemple:**
+**Exemple :**
 
 `PUT https://www.acme.com/api/rename`
 

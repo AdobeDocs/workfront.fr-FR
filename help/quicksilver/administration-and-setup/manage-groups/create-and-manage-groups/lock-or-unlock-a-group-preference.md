@@ -11,7 +11,7 @@ exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -41,43 +41,44 @@ Pour plus d’informations sur la façon dont un administrateur Workfront peut v
 >* Si vous déplacez un groupe sous un groupe avec une préférence déverrouillée, le groupe déplacé n’est pas affecté par cette préférence.
 >
 >  Si la préférence du groupe déplacé est verrouillée au moment du déplacement, elle l’est toujours, mais l’administrateur du groupe peut la déverrouiller maintenant car elle est déverrouillée pour le groupe parent.
+>
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Workfront*</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Plan Workfront*</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur de groupe du groupe ou un administrateur Workfront. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice de groupe pour le groupe ou un administrateur ou une administratrice de Workfront. Pour plus d’informations, consultez les sections <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a> et <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à une personne</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si vous devez savoir quel plan ou type de licence vous avez, contactez votre administrateur Workfront.
+&#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
-## Verrouillage ou déverrouillage d’un projet de groupe, d’une tâche ou d’une préférence d’émission
+## Verrouillage ou déverrouillage d’un projet de groupe, d’une tâche ou d’une préférence de problème
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
 1. Dans le panneau de gauche, cliquez sur **Groupes**.
 1. Cliquez sur le nom du groupe dans lequel vous souhaitez verrouiller ou déverrouiller une préférence de projet.
-1. Dans le panneau de gauche, cliquez sur **Préférences du projet** ou **Tâches et préférences relatives aux problèmes**.
+1. Dans le panneau de gauche, cliquez sur **Préférences du projet** ou **Préférences des tâches et des problèmes**.
 
 1. Sur la page qui s’affiche, effectuez l’une des opérations suivantes pour une préférence déverrouillée au niveau du système ou pour un groupe situé au-dessus de votre groupe :
 
-   * Si vous souhaitez que les administrateurs des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la. ![](assets/unlock-toggle-button.png).
-   * Si vous souhaitez que tous les groupes situés sous le vôtre utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée. ![](assets/lock-toggle-button.png).
+   * Si vous souhaitez que les administrateurs de groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![](assets/unlock-toggle-button.png).
+   * Si vous souhaitez que tous les groupes situés sous le vôtre utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée ![](assets/lock-toggle-button.png).
 
-      >[!IMPORTANT]
-      >
-      >Il est important de communiquer avec les administrateurs et les utilisateurs des groupes situés sous les vôtres pour vous assurer que tous les besoins sont pris en compte dans la configuration d’une préférence verrouillée. Lorsque vous la verrouillez, votre configuration pour elle est héritée par tous les sous-groupes ci-dessous. Et si la préférence a été déverrouillée pendant une période quelconque, votre configuration remplace celles que les administrateurs de groupe dans les sous-groupes inférieurs ont pu faire.
+     >[!IMPORTANT]
+     >
+     >Il est important de communiquer avec les administrateurs et les utilisateurs des groupes situés sous les vôtres pour vous assurer que tous les besoins sont pris en compte dans la configuration d’une préférence verrouillée. Lorsque vous la verrouillez, votre configuration pour elle est héritée par tous les sous-groupes ci-dessous. Et si la préférence a été déverrouillée pendant une période quelconque, votre configuration remplace celles que les administrateurs de groupe dans les sous-groupes inférieurs ont pu faire.
 
 1. Cliquer sur **Enregistrer**.

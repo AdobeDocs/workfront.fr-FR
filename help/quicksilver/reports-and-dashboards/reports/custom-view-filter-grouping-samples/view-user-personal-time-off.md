@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Affichage : user personal time off"
-description: "Affichage : user personal time off"
+title: "Vue : temps libre de l’utilisateur"
+description: "Vue : temps libre de l’utilisateur"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 4%
+ht-degree: 51%
 
 ---
 
-# Afficher : temps libre de l’utilisateur
+# Vue : congés personnels d’utilisateur ou d’utilisatrice
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
@@ -22,48 +22,48 @@ ht-degree: 4%
 
 Vous pouvez créer un rapport Heure de désactivation pour capturer les informations de désactivation des utilisateurs.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Demande de modification d’une vue </p>
-   <p>Prévoir de modifier un rapport</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Demander la modification d’une vue </p>
+   <p>Prévoir la modification d’un rapport</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour la modification d’un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> <p><b>NOTE</b>
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Affichage du temps d’arrêt personnel de l’utilisateur
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Rapports > Nouveau rapport**.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Rapports > Nouveau rapport**.
 
 1. Dans le menu déroulant, sélectionnez **Time Off**.
 1. Cliquez sur **Enregistrer + Fermer**.
 
    Le rapport affiche par défaut les champs suivants dans la vue :
 
-   | Utilisateur ou utilisatrice | Nom de l’utilisateur qui a indiqué le délai de pause dans son profil. |
+   | l’utilisateur ou de l’utilisatrice | Nom de l’utilisateur qui a indiqué le délai de pause dans son profil. |
    |---|---|
    | Date de début | Date de début de la période de temps que l’utilisateur a indiquée. |
    | Date de fin | Date de fin de la période de temps que l’utilisateur a indiquée. |
@@ -77,7 +77,7 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
    * Filtres
    * Graphique
 
-   Pour plus d’informations sur la création de rapports, voir l’article [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Pour plus d’informations sur la création de rapports, reportez-vous à l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    >[!TIP]
    >

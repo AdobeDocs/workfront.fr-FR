@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de version 2018.3 bêta 5
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 bêta 5. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 21 septembre 2018. Il sera disponible dans l’environnement de production en novembre 2018.
+title: Activité Version 2018.3, version bêta 5
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 de Beta 5. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 21 septembre 2018. Il sera disponible dans l’environnement de production en novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,36 +14,36 @@ ht-degree: 0%
 
 ---
 
-# Activité de version 2018.3 bêta 5
+# Activité Version 2018.3, version bêta 5
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 bêta 5. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 21 septembre 2018. Il sera disponible dans l’environnement de production en novembre 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 de Beta 5. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 21 septembre 2018. Il sera disponible dans l’environnement de production en novembre 2018.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2018.3, voir  [Présentation de l’activité de la version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2018.3, voir  [Présentation de l’activité de version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La version 2018.3 bêta 5 contient des améliorations pour tous les utilisateurs :
+La version 2018.3 de Beta 5 contient des améliorations pour tous les utilisateurs :
 
 * [Suivi des approbations que vous avez envoyées dans la zone d’accueil](#track-approvals-you-ve-submitted-in-the-home-area)
 * [Remplacement des outils basés sur des Flashs dans Workfront](#replacement-of-flash-based-tools-in-workfront)
 * [Autorisation des utilisateurs de la licence de travail à accéder au sous-onglet Planification d’un projet](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
-* [Amélioration des filtres dans le planificateur de ressources](#improved-filters-in-the-resource-planner)
+* [Filtres améliorés dans le planificateur de ressources](#improved-filters-in-the-resource-planner)
 * [Afficher les heures réelles dans le planificateur de ressources](#view-actual-hours-in-the-resource-planner)
-* [Données du planificateur de ressources dans l’exportation de cas d’entreprise](#resource-planner-data-in-the-business-case-export)
-* [Activation du remplacement du taux de facturation au niveau de l’entreprise](#enable-company-level-billing-rate-override)
+* [Données du planificateur de ressources dans l’exportation de l’analyse de cas ](#resource-planner-data-in-the-business-case-export)
+* [Activer le remplacement du taux de facturation au niveau de l’entreprise](#enable-company-level-billing-rate-override)
 * [Approbations simplifiées basées sur les rôles](#simplified-role-based-approvals)
-* [Rapport d’utilisation : renseigne les heures budgétisées à partir de la nouvelle zone de budget des ressources](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
-* [Rapport d’utilisation : affichage des heures budgétaires par utilisateur sur un projet](#utilization-report-view-budgeted-hours-by-user-on-a-project)
-* [Fichiers de SWF non pris en charge dans la visionneuse de vérification](#swf-files-no-longer-supported-in-the-proofing-viewer)
-* [Actions plus rapidement accessibles dans la liste des commentaires de la visionneuse de vérification](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
-* [Amélioration du partage des BAT dans la visionneuse de BAT](#proof-sharing-improvement-in-the-proofing-viewer)
+* [Rapport d’utilisation : Remplit les heures budgétées à partir de la nouvelle zone de budget des ressources](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
+* [Rapport d’utilisation : afficher les heures budgétées par utilisateur sur un projet](#utilization-report-view-budgeted-hours-by-user-on-a-project)
+* [ Fichiers SWF non pris en charge dans la visionneuse de vérification ](#swf-files-no-longer-supported-in-the-proofing-viewer)
+* [Actions plus rapidement accessibles dans la liste de commentaires de la visionneuse de vérification](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
+* [Amélioration du partage de BAT dans la visionneuse de BAT](#proof-sharing-improvement-in-the-proofing-viewer)
 * [Améliorations de la liste de commentaires dans la visionneuse de vérification](#comments-list-enhancements-in-the-proofing-viewer)
-* [Bons à tirer pour le zoom et le panoramique dans la visionneuse de vérification](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
-* [Arrière-plan plus clair dans la visionneuse de correctifs](#lighter-background-in-the-proofing-viewer)
+* [Bons à tirer pour zoomer et panoramique dans la visionneuse de vérification](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
+* [Arrière-plan plus clair dans la visionneuse de vérification](#lighter-background-in-the-proofing-viewer)
 * [Meilleure visibilité lorsqu’un commentaire a été modifié dans la visionneuse de vérification](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer)
-* [Afficher le nombre de commentaires associés à une action dans la liste des commentaires de la visionneuse de vérification](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
-* [Définition de l’étape lors de l’ajout d’utilisateurs à un BAT dans la visionneuse de vérification](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
+* [Afficher le nombre de commentaires associés à une action dans la liste de commentaires dans la visionneuse de vérification](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
+* [Spécifier l’étape lors de l’ajout d’utilisateurs à un bon à tirer dans la visionneuse de correctifs](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
 * [Ouverture du site Web associé à partir d’un BAT de site Web interactif ou statique](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
 * [Améliorations du résumé d’impression](#print-summary-enhancements)
-* [Amélioration du temps de chargement des BAT](#improved-proof-loading-time)
+* [Amélioration du temps de chargement des bons à tirer](#improved-proof-loading-time)
 * [Nouvelle apparence de l’onglet Mises à jour dans l’application mobile Workfront](#new-look-and-feel-of-the-updates-tab-in-the-workfront-mobile-app)
 
 ## Suivi des approbations que vous avez envoyées dans la zone d’accueil {#track-approvals-you-ve-submitted-in-the-home-area}
@@ -59,13 +59,13 @@ Depuis l’accueil, vous pouvez :
 
   Auparavant, vous pouviez interagir avec les validations envoyées uniquement dans la zone Mon travail . 
 
-Pour plus d’informations, voir [Gérer les validations](../../../../review-and-approve-work/manage-approvals/manage-approvals.md). 
+Pour plus d’informations, voir [Gestion des approbations](../../../../review-and-approve-work/manage-approvals/manage-approvals.md). 
 
 ## Remplacement des outils basés sur des Flashs dans Workfront {#replacement-of-flash-based-tools-in-workfront}
 
 Toutes les fonctionnalités reposant sur la technologie Flash doivent être supprimées de Workfront avec la version 2018.3 et remplacées par une nouvelle solution.
 
-Pour plus d’informations sur toutes les zones affectées par la suppression de ces fonctionnalités et pour comprendre quels outils les remplaceront, voir [Remplacement des outils par Flash dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Pour plus d’informations sur toutes les zones affectées par la suppression de ces fonctionnalités et pour comprendre quels outils les remplaceront, voir [Remplacement des outils basés sur le Flash dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ## Autorisation des utilisateurs de la licence de travail à accéder au sous-onglet Planification d’un projet {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -93,7 +93,7 @@ Vous pouvez afficher les heures réelles dans la vue utilisateur du planificateu
 
 Avant cette amélioration, les Heures réelles n’étaient pas visibles dans le planificateur de ressources.
 
-Pour plus d’informations sur l’affichage des informations sur l’heure dans le planificateur de ressources, voir [Présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur l’affichage des informations sur l’heure dans le planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Données du planificateur de ressources dans l’exportation de cas d’entreprise {#resource-planner-data-in-the-business-case-export}
 
@@ -101,7 +101,7 @@ Lorsque vous exportez le Business Case vers un PDF, les informations financière
 
 Auparavant, le fichier exporté reflétait les informations dans la zone Estimations des ressources héritées et dans le Gestionnaire de capacités. 
 
-Pour plus d’informations sur l’export de l’Analyse de cas, voir la section [Création d’une analyse de cas pour un projet](../../../../manage-work/projects/define-a-business-case/create-business-case.md) dans [Création d’une analyse de cas pour un projet](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Pour plus d’informations sur l’exportation de l’analyse de cas, reportez-vous à la section [Création d’une analyse de cas pour un projet](../../../../manage-work/projects/define-a-business-case/create-business-case.md) dans la section [Création d’une analyse de cas pour un projet](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Activation du remplacement du taux de facturation au niveau de l’entreprise {#enable-company-level-billing-rate-override}
 
@@ -111,7 +111,7 @@ Si vous activez ce paramètre, les taux de facturation au niveau de l’entrepri
 
 Auparavant, vous ne pouviez pas appliquer des modifications de taux de facturation au niveau de l’entreprise à un projet, à moins que vous n’ayez supprimé l’entreprise du projet, puis l’ayez réjointe.
 
-Pour plus d’informations, voir [Remplacer les taux de facturation au niveau du projet par les taux de facturation au niveau de l’entreprise](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md). 
+Pour plus d’informations, voir [Remplacement des taux de facturation au niveau du projet par des taux de facturation au niveau de l’entreprise](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md). 
 
 ## Approbations simplifiées basées sur les rôles {#simplified-role-based-approvals}
 
@@ -119,7 +119,7 @@ Les approbations basées sur les rôles fonctionnent désormais plus simplement 
 
 Auparavant, vous deviez affecter des utilisateurs à l’équipe de projet, vous assurer qu’ils avaient le rôle correct dans leur profil utilisateur et sélectionner ce rôle dans le créateur d’équipes hérité.
 
-Pour plus d’informations, voir la section [Présentation de l’équipe de projet](../../../../manage-work/projects/planning-a-project/project-team-overview.md) dans l’article [Présentation de l’équipe de projet](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Pour plus d’informations, reportez-vous à la section [Présentation de l’équipe de projet](../../../../manage-work/projects/planning-a-project/project-team-overview.md) de l’article [Présentation de l’équipe de projet](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Rapport d’utilisation : renseigne les heures budgétisées à partir de la nouvelle zone de budget des ressources {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -131,7 +131,7 @@ Les heures budgétisées du rapport d’utilisation sont désormais renseignées
 
 Avant cette modification, des informations de la zone des estimations de ressources héritées ont été utilisées.
 
-Pour plus d’informations, voir  [Présentation du rapport Utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) dans l’article  [Présentation du rapport Utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Pour plus d’informations, voir  [Présentation du rapport d’utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) dans l’article  [Présentation du rapport d’utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Rapport d’utilisation : affichage des heures budgétaires par utilisateur sur un projet {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,13 +143,13 @@ Le rapport Utilisation d’un projet affiche désormais les heures budgétées p
 
 Avant cette modification, le rapport Utilisation affichait Heures budgétées uniquement par rôle de tâche. 
 
-Pour plus d’informations, voir  [Présentation du rapport Utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) dans l’article  [Présentation du rapport Utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Pour plus d’informations, voir  [Présentation du rapport d’utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) dans l’article  [Présentation du rapport d’utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Fichiers de SWF non pris en charge dans la visionneuse de vérification {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
 En raison de problèmes de sécurité liés à Adobe Flash, la visionneuse de BAT ne prend plus en charge les bons à tirer créés à partir de fichiers de SWF. Si vous ouvrez un BAT créé précédemment pour un fichier de SWF, un message s’affiche lorsque le contenu du BAT s’affichait précédemment dans la visionneuse de BAT. Vous pouvez voir tous les commentaires sur le BAT. Vous pouvez également télécharger des commentaires et le fichier de SWF d’origine.
 
-Pour plus d’informations, voir [Types et limites de taille de fichier de vérification pris en charge - Aperçu](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) dans l’article [Types et limites de taille de fichier de vérification pris en charge - Aperçu](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
+Pour plus d’informations, reportez-vous à la section [Présentation des types de fichiers de vérification et des limites de taille pris en charge](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) dans l’article [  Présentation des types de fichiers de vérification et des limites de taille pris en charge](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
 
 ## Actions plus rapidement accessibles dans la liste des commentaires de la visionneuse de vérification {#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer}
 
@@ -157,7 +157,7 @@ Vous pouvez désormais ajouter ou modifier plus rapidement l’action d’un com
 
 Auparavant, vous deviez ouvrir le commentaire, ouvrir un menu déroulant, ouvrir un sous-menu, puis cliquer sur l’action de votre choix.
 
-Pour plus d’informations, voir [Utilisation d’actions sur les commentaires du BAT](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+Pour plus d’informations, voir [Utilisation d’actions sur les commentaires de BAT](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
 ## Amélioration du partage des BAT dans la visionneuse de BAT {#proof-sharing-improvement-in-the-proofing-viewer}
 
@@ -165,7 +165,7 @@ Lorsque vous envoyez une URL à partir de la visionneuse de vérification, les o
 
 Auparavant, ces options fournissaient les mêmes fonctionnalités que maintenant, mais leur organisation était incohérente par rapport aux options correspondantes dans la liste Documents.
 
-Pour plus d’informations, voir la section  [Partage de l’URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) dans l’article  [Partage d’un BAT à partir de la visionneuse de vérification](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Pour plus d’informations, voir la section  [Partager l’URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) dans l’article  [Partagez un BAT à partir de la visionneuse de vérification](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Améliorations de la liste de commentaires dans la visionneuse de vérification {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -175,7 +175,7 @@ Les améliorations suivantes sont désormais disponibles dans la liste Commentai
 
   Auparavant, l’arrière-plan complet du panneau Commentaires était blanc.
 
-  Pour plus d’informations, voir .
+  Pour plus d’informations, poursuivez votre lecture.
 
 * Les réponses à un commentaire sont maintenant mises en retrait sous le commentaire. Cela facilite la distinction entre les réponses et le commentaire d’origine ci-dessus.
 
@@ -215,7 +215,7 @@ Lorsque vous ajoutez un validant à un BAT disposant d&#39;un workflow automatis
 
 Auparavant, lorsque vous ajoutiez des réviseurs à un BAT à partir de la visionneuse de vérification, Workfront les plaçait dans l’étape actuellement active.
 
-Pour plus d’informations, voir [Partager un BAT en y ajoutant des utilisateurs](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in [Partage d’un BAT à partir de la visionneuse de vérification](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Pour plus d’informations, voir [Partager un BAT en y ajoutant des utilisateurs](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) dans [Partager un BAT à partir de la visionneuse de correctifs](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Ouverture du site Web associé à partir d’un BAT de site Web interactif ou statique {#opening-the-associated-website-from-an-interactive-or-static-website-proof}
 
@@ -242,7 +242,7 @@ Les améliorations suivantes sont désormais disponibles sur la page Résumé de
 * Si le BAT est une capture web, toute page contenant des commentaires affiche la résolution à laquelle la page web a été capturée. Cela s’avère utile, par exemple, si le BAT contient des pages capturées pour des appareils mobiles et les mêmes pages capturées pour des ordinateurs portables et de bureau.
 * Désormais, lorsque vous filtrez les commentaires dans la page Résumé pour l’impression par action, auteur ou état non résolu, votre filtre s’applique aux bons à tirer que vous exportez sous forme de fichiers PDF ou Excel, et pas seulement aux bons à tirer imprimés.
 
-Pour plus d’informations, voir [Imprimer un résumé du BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Pour plus d’informations, voir [Imprimer un résumé de BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ## Amélioration du temps de chargement des BAT {#improved-proof-loading-time}
 
@@ -254,4 +254,4 @@ Pour plus d’informations sur l’ouverture de BAT, voir .
 
 L’aspect de l’onglet Mises à jour de l’application mobile est maintenant mis à jour. Cette amélioration est actuellement disponible uniquement dans l’application bêta Workfront pour Android.
 
-Pour plus d’informations sur la gestion des mises à jour et des commentaires dans l’application mobile Workfront, reportez-vous à la section dans .
+Pour plus d’informations sur la gestion des mises à jour et des commentaires dans l’application mobile Workfront, consultez la section  dans .

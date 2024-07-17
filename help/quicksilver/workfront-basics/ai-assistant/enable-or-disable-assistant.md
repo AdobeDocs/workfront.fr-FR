@@ -57,9 +57,9 @@ L’assistant AI est activé par défaut.
 Pour désactiver l’assistant d’IA pour un niveau d’accès donné :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]** ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
-1. Sélectionner **Niveaux d’accès** dans le volet de navigation de gauche.
+1. Sélectionnez **Niveaux d’accès** dans le volet de navigation de gauche.
 1. Sélectionnez le niveau d’accès pour lequel vous souhaitez désactiver l’assistant d’IA.
-1. Dans la fenêtre Modifier le niveau d’accès , faites défiler la page vers le bas de la fenêtre et cliquez sur **Définissez d’autres restrictions...**.
-1. Dans la zone Définir des restrictions supplémentaires , activez l’option . **Désactivation de l’assistant Workfront AI**.
+1. Dans la fenêtre Modifier le niveau d’accès , faites défiler la page jusqu’au bas de la fenêtre et cliquez sur **Définir des restrictions supplémentaires..**.
+1. Dans la zone Définir des restrictions supplémentaires, activez l’option **Désactiver l’assistant Workfront AI**.
 1. Cliquer sur **Enregistrer**.
 1. Répétez les étapes 3 à 6 pour chaque niveau d’accès pour lequel vous souhaitez désactiver l’assistant d’IA.

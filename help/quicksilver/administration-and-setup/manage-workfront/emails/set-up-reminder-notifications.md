@@ -20,7 +20,7 @@ En tant qu’administrateur Workfront, vous pouvez créer des notifications de r
 
 Les notifications de rappel génèrent des emails envoyés aux utilisateurs selon des critères spécifiés. Les notifications de rappel rappellent aux utilisateurs qu’une action doit être effectuée pour une tâche, un problème, un projet ou une feuille de temps.
 
-Après avoir créé les notifications de rappel, les utilisateurs peuvent les associer manuellement aux tâches, telles que les projets, les tâches, les problèmes et les feuilles de temps. Pour plus d’informations, voir [Joindre une notification de rappel à un objet](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
+Après avoir créé les notifications de rappel, les utilisateurs peuvent les associer manuellement aux tâches, telles que les projets, les tâches, les problèmes et les feuilles de temps. Pour plus d&#39;informations, voir [Joindre une notification de rappel à un objet](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -59,7 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations sur les informations contenues dans ce tableau, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

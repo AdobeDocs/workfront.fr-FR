@@ -24,7 +24,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >
 >Version d’aperçu : 11 avril 2024 ; Production pour tous les clients : avec la version 24.4 (11 avril 2024)
 
-Pour vous offrir une expérience cohérente dans l’ensemble de l’application, nous avons ajouté la nouvelle expérience de commentaire aux itérations. Pour plus d’informations, voir [Mise à jour de la section - Aperçu](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Pour vous offrir une expérience cohérente dans l’ensemble de l’application, nous avons ajouté la nouvelle expérience de commentaire aux itérations. Pour plus d’informations, consultez la [présentation de la mise à jour de section](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Suppression de l’accès à la zone de commentaires héritée.
 

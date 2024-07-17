@@ -10,23 +10,23 @@ exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
 source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
 # Vue d’ensemble des tableaux de bord de zone de travail
 
-Les tableaux de bord de canevas vous permettent de visualiser facilement vos données Adobe Workfront en ajoutant différents types de rapports sur un canevas personnalisable. Pour obtenir des instructions de base sur l’utilisation des tableaux de bord de zone de travail, commencez par l’article . [Prise en main des tableaux de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). Autrement, reportez-vous à l’index de l’article ci-dessous pour plus d’informations sur un sujet spécifique.
+Les tableaux de bord de canevas vous permettent de visualiser facilement vos données Adobe Workfront en ajoutant différents types de rapports sur un canevas personnalisable. Pour obtenir des instructions de base sur l’utilisation des tableaux de bord Canvas, commencez par l’article [Prise en main des tableaux de bord Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). Autrement, reportez-vous à l’index de l’article ci-dessous pour plus d’informations sur un sujet spécifique.
 
 ## Tableaux de bord de canevas : index de l’article
 
-Cette section contient les articles suivants :
+Cette section contient les articles suivants :
 
 * [Gestion des tableaux de bord de canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
    * [Prise en main des tableaux de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
    * [Ajout, suppression ou organisation de rapports dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
    * [Partage d’un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [Types de rapports du tableau de bord du canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+* [Types de rapports Tableau de bord du canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
    * [Ajout d’un rapport existant à un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
    * [Création d’un rapport sur les indicateurs de performance clés dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
    * [Créer un rapport de graphique dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)

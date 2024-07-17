@@ -1,6 +1,6 @@
 ---
-title: 21.4 Améliorations des rapports
-description: 21.4 Améliorations des rapports
+title: Améliorations des rapports (version 21.4)
+description: Améliorations des rapports (version 21.4)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: db33cee1-45d3-4641-9afa-790de92654c5
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 21.4 Améliorations des rapports
+# Améliorations des rapports (version 21.4)
 
 Cette page décrit toutes les améliorations apportées à la création de rapports avec la version 21.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 4 octobre 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, voir [Présentation de la version 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, reportez-vous à la [21.4 Release Overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Nouvelle apparence du champ Affectations dans les listes et rapports mis à jour
 
@@ -38,7 +38,7 @@ Pour correspondre à l’aspect moderne d’autres zones de la nouvelle expérie
 * Une nouvelle icône Accès restreint
 * Autres changements de conception mineurs
 
-Pour plus d’informations sur les affectations dans les listes, voir [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md) ou [Attribuer des problèmes](../../../manage-work/issues/manage-issues/assign-issues.md).
+Pour plus d’informations sur les affectations dans les listes, voir [Affecter des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md) ou [Affecter des problèmes](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -58,6 +58,6 @@ Pour correspondre à l’aspect moderne d’autres zones de la nouvelle expérie
 * Lorsque vous cliquez sur un champ de saisie anticipée, le menu des suggestions s’affiche maintenant avant de saisir du texte.
 * Le menu de suggestions est plus réactif à la longueur des valeurs. Ces valeurs sont désormais tronquées à la fin lorsque la limite de caractères est atteinte et non au milieu de la valeur.
 
-Pour plus d’informations sur les listes mises à jour, voir [Différence entre les listes mises à jour et héritées](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) dans l’article [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Pour plus d’informations sur les listes mises à jour, voir la section [Différence entre les listes mises à jour et héritées](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) de l’article [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)

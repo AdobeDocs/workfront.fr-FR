@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: convert-issues
-title: Présentation de la résolution et des objets résolvables
+title: Vue d’ensemble des objets de résolution et des objets résolvables
 description: Un objet résolvable est un problème dont la résolution est liée à un objet résolvable. Un objet de résolution est un projet, une tâche ou un autre problème.
 author: Alina
 feature: Work Management
@@ -10,11 +10,11 @@ exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '1743'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Présentation de la résolution et des objets résolvables
+# Vue d’ensemble des objets de résolution et des objets résolvables
 
 Un objet résolvable est un problème dont la résolution est liée à un objet résolvable. Un objet de résolution est un projet, une tâche ou un autre problème.
 
@@ -34,7 +34,7 @@ Vous pouvez choisir de conserver l’objet résolvable pendant sa conversion en 
 >
 >Les objets résolvables sont toujours des problèmes dont la résolution et l’état peuvent dépendre de la résolution et de l’état de l’objet de résolution auquel ils sont associés. La résolution d’objets peut être un problème, une tâche ou un projet.
 
-Pour plus d’informations sur la configuration des préférences pour la gestion des objets résolvables, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Pour plus d’informations sur la configuration des préférences pour la gestion des objets résolvables, voir [Configuration de la tâche à l’échelle du système et des préférences de problème](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -76,15 +76,15 @@ The default status of the issue is controlled by the status of the project or ta
 
 Selon la manière dont l’administrateur de Workfront ou de groupe a configuré les préférences de problème au niveau du système ou du groupe, vous pouvez peut-être gérer l’objet résolvable lors de la conversion d’un problème en projet ou en tâche.
 
-Les scénarios suivants existent :
+Les scénarios suivants sont possibles :
 
-* Si l’administrateur de Workfront ou de groupe dispose de la variable **Conserver le problème d’origine et lier sa résolution à la tâche** et la variable **Conserver le problème d’origine et lier sa résolution au projet** sélectionné et le **Autoriser la modification de ces paramètres lors de la conversion** si cette option n’est pas sélectionnée, vous ne pourrez pas modifier ces paramètres lorsque vous convertissez des problèmes en tâches ou en projets.\
+* Si l’administrateur de Workfront ou de groupe a le paramètre **Conserver le problème d’origine et lier sa résolution à la tâche** et le paramètre **Conserver le problème d’origine et lier sa résolution au projet** sélectionné et l’option **Autoriser la modification de ces paramètres pendant la conversion** désélectionnée, vous ne pourrez pas modifier ces paramètres pendant que vous convertissez des problèmes en tâches ou en projets.\
   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Si l’administrateur de Workfront ou de groupe dispose de la variable **Conserver le problème d’origine et lier sa résolution à la tâche** et la variable **Conserver le problème d’origine et lier sa résolution au projet** soit sélectionnée, soit désélectionnée et la variable **Autoriser la modification de ces paramètres lors de la conversion** sélectionné, vous pourrez modifier ces paramètres pendant la conversion des problèmes en tâches ou projets.\
+* Si l’administrateur de Workfront ou de groupe a le paramètre **Conserver le problème d’origine et lier sa résolution à la tâche** et le paramètre **Conserver le problème d’origine et lier sa résolution au projet** sélectionné ou non et **Autoriser la modification de ces paramètres pendant la conversion** sélectionné, vous pourrez modifier ces paramètres pendant que vous convertissez des problèmes en tâches ou projets.\
   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
-Pour plus d’informations sur la conversion de problèmes en tâches et projets, voir [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Pour plus d’informations sur la conversion de problèmes en tâches et projets, voir [Présentation de la conversion de problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -115,7 +115,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## Synchroniser l’état de l’objet résolvable avec celui de l’objet résolvable {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
-* [Synchronisation des états lorsque l’objet de résolution est un problème](#synchronize-statuses-when-the-resolving-object-is-an-issue)
+* [Synchroniser les états lorsque l’objet de résolution est un problème](#synchronize-statuses-when-the-resolving-object-is-an-issue)
 * [Synchronisation des états lorsque l’objet de résolution est une tâche ou un projet](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
 
 ### Synchronisation des états lorsque l’objet de résolution est un problème {#synchronize-statuses-when-the-resolving-object-is-an-issue}
@@ -126,7 +126,7 @@ Si un problème est lié manuellement à un autre problème, l’état du second
 
 Lorsqu’un problème est l’objet résolvable d’une tâche ou d’un projet, les modifications dans l’état des tâches et des projets déclenchent des modifications dans l’état du problème. Dans ce cas, les états par défaut sont déclenchés différemment des états personnalisés.
 
-* [Synchronisation de l’état par défaut de l’objet résolu avec l’état par défaut de l’objet résolvable](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
+* [Synchroniser l’état par défaut de l’objet de résolution avec l’état par défaut de l’objet résolvable](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Synchroniser l’état personnalisé de l’objet résolu avec l’état personnalisé de l’objet résolvable](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
 
 #### Synchronisation de l’état par défaut de l’objet résolu avec l’état par défaut de l’objet résolvable {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
@@ -169,7 +169,8 @@ Lorsque vous définissez l’état de la tâche ou du projet sur un état person
 
 Vous pouvez créer des états personnalisés avec la même clé pour les problèmes et les projets ou tâches. Lorsque le projet ou la tâche (en tant qu’objet de résolution) est défini sur l’état personnalisé, la modification se répercute également sur l’état du problème. La clé d’état doit être la même pour le problème et les états du projet ou de la tâche.
 
-Par exemple, créez un état personnalisé de projet nommé &quot;Lancé&quot; avec le code à trois lettres &quot;LCD&quot; qui correspond à &quot;Actuel&quot;. Créez également un état personnalisé de problème nommé &quot;Projet lancé&quot;, avec également le code de lettre &quot;LCD&quot; qui correspond à &quot;En cours&quot;. Lorsque vous marquez le projet comme &quot;Lancé&quot;, le problème change automatiquement le statut en &quot;Lancé du projet&quot;. Si l’état &quot;Mise à jour automatique du problème résolvable lorsque l’état du paramètre Resolving Object changes&quot; n’était pas activé, le statut du problème passerait à &quot;En cours&quot; (état par défaut).
+Par exemple, créez un état personnalisé de projet nommé &quot;Lancé&quot; avec le code à trois lettres &quot;LCD&quot; qui correspond à &quot;Actuel&quot;. Créez également un état personnalisé de problème nommé &quot;Projet lancé&quot;, avec également le code de lettre &quot;LCD&quot; qui correspond à &quot;En cours&quot;. Lorsque vous marquez le projet comme &quot;Lancé&quot;, le problème change automatiquement le statut en &quot;Lancé du projet&quot;. Si la variable
+Mettre automatiquement à jour l’état Résolution des problèmes lorsque le paramètre &quot;Modifications de l’objet résolu&quot; n’était pas activé, l’état du problème passait plutôt à &quot;En cours&quot; (état par défaut).
 
 Pour plus d’informations sur la création d’un état personnalisé, voir [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -187,9 +188,9 @@ Si le problème et est résolu par un autre problème, le pourcentage de réussi
 L’emplacement de l’objet de résolution est identique pour les tâches et les projets.
 
 1. Accédez à un projet ou à une tâche que vous avez créé en convertissant un problème au projet ou à la tâche.
-1. Cliquez sur le bouton **Détails du projet** ou le **Détails de la tâche** et cliquez pour la développer.
-1. Cliquez sur **Présentation**.
-1. Dans la partie inférieure de l’onglet, localisez sur **Cela résout** field : le problème qui est l’objet résolvable du projet ou la tâche est répertorié dans ce champ.
+1. Cliquez sur l’icône **Détails du projet** ou **Détails de la tâche** et cliquez pour le développer.
+1. Cliquez sur **Aperçu**.
+1. Au bas de l’onglet, localisez le champ **This Resolves** : le problème qui est l’objet résolvable du projet ou la tâche est répertorié dans ce champ.
 
    >[!NOTE]
    >
@@ -197,7 +198,7 @@ L’emplacement de l’objet de résolution est identique pour les tâches et le
 
 ## Identifier un problème avec un objet de résolution dans une liste
 
-Dans une liste de problèmes, vous pouvez identifier les problèmes étiquetés comme résolution d’objets à l’aide des icônes d’état en localisant cette icône dans la variable **Icônes d’état** ou **Indicateurs** colonnes :
+Dans une liste de problèmes, vous pouvez identifier les problèmes qui sont étiquetés comme résolution d’objets via les icônes d’état en localisant cette icône dans les colonnes **Icônes d’état** ou **Indicateurs** :
 
 ![](assets/ro1.png)
 
@@ -213,51 +214,51 @@ Le tableau suivant indique les champs que vous pouvez afficher et dans quelles v
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Champ dans la vue</strong> </th> 
+   <th><strong>Champ en vue</strong> </th> 
    <th><strong>Mode Problème</strong> </th> 
-   <th><strong>Vue Tâche</strong> </th> 
+   <th><strong>Vue de la tâche</strong> </th> 
    <th><strong>Vue du projet</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Comporte des résolvables</strong>: affiche une <strong>True</strong> si des problèmes résolvables sont associés au projet ou à la tâche, et qu’un <strong>False</strong> dans le cas contraire.</td> 
+   <td><strong>Has Resolvables</strong> : affiche une valeur <strong>True</strong> si le projet ou la tâche est associé à des problèmes résolvables, et une valeur <strong>False</strong> dans le cas contraire.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Nom original du problème, Date d’entrée originale du problème, Nom de l’auteur</strong>: affiche le nom et la date d’entrée du problème d’origine, ainsi que le nom de l’utilisateur qui a créé le problème dans une vue personnalisée en mode texte.<br>Pour plus d’informations sur la création d’une vue personnalisée de mode texte pour un projet, un rapport de tâche ou une liste afin d’afficher des informations sur le problème d’origine, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Afficher : affiche les informations de problème d’origine sur les listes de tâches et de projets</a>.<br></td> 
+   <td><strong>Nom du problème original, Date d’entrée du problème original, Nom de l’auteur</strong> : affiche le nom et la date d’entrée du problème d’origine, ainsi que le nom de l’utilisateur qui a créé le problème dans une vue personnalisée en mode texte.<br>Pour plus d’informations sur la création d’une vue personnalisée de mode texte pour un projet, un rapport de tâche ou une liste afin d’afficher des informations sur le problème d’origine, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Affichage : afficher les informations du problème d’origine sur les listes de tâches et de projets</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Resolvables :</strong> Affiche une liste de tous les objets résolvables dans une vue personnalisée de mode texte pour un projet, un rapport de tâche ou une liste.</p> <p>Pour plus d’informations sur la création de cette vue, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Affichage : objets résolvables dans un rapport de tâche ou de projet</a></p> </td> 
+   <td> <p><strong>Résolvables : </strong> affiche une liste de tous les objets résolvables dans une vue personnalisée de mode texte pour un projet, un rapport de tâche ou une liste.</p> <p>Pour plus d’informations sur la création de cette vue, voir <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Affichage : objets résolvables dans une tâche ou un rapport de projet</a></p> </td> 
    <td> </td> 
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Émetteur de problème converti</strong>: affiche des informations sur l’utilisateur qui a initialement consigné le problème qui a été converti ultérieurement en tâche. </td> 
+   <td><strong>Émetteur de problème converti</strong> : affiche des informations sur l’utilisateur qui a initialement consigné le problème qui a été converti ultérieurement à la tâche. </td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Résoudre le projet</strong>: affiche des informations sur le projet de résolution qui a été converti à partir du problème d’origine ou désigné manuellement comme objet de résolution d’un problème.</td> 
+   <td><strong>Résoudre le projet</strong> : affiche des informations sur le projet de résolution qui a été converti à partir du problème d’origine ou désigné manuellement comme objet de résolution d’un problème.</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Résoudre la tâche</strong>: affiche des informations sur la tâche de résolution qui a été convertie à partir du problème d’origine ou désignée manuellement comme objet de résolution d’un problème.</td> 
+   <td><strong>Résoudre la tâche</strong> : affiche des informations sur la tâche de résolution qui a été convertie à partir du problème d’origine ou désignée manuellement comme objet de résolution d’un problème.</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Résoudre le problème</strong>: affiche des informations sur la résolution du problème qui a été désignée manuellement comme objet de résolution d’un problème.</td> 
+   <td><strong>Résoudre un problème</strong> : affiche des informations sur le problème de résolution qui a été désigné manuellement comme objet de résolution d’un problème.</td> 
    <td> ✓</td> 
    <td> </td> 
    <td> </td> 

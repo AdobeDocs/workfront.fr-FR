@@ -18,7 +18,7 @@ ht-degree: 51%
 # Adobe Workfront pour Experience Manager Assets et Assets Essentials : index des articles
 
 * [Vue d’ensemble des intégrations d’Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [Lier des ressources et des dossiers à partir de Experience Manager Assets ou d’Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [ Lier des ressources et des dossiers à partir de Experience Manager Assets ou d’Assets Essentials ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
 * [Afficher les métadonnées mappées pour Experience Manager Assets ou Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
 * [Envoyer un document à Experience Manager Assets ou aux Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
 * [BAT d’une ressource liée pour Experience Manager Assets ou les Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)

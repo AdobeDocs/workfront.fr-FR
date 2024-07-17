@@ -13,11 +13,11 @@ exl-id: 3c6d000d-dfeb-4b4a-91bf-7ea346c1ce70
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Activité Publication de fusion Workfront : Semaine du 19 septembre 2022
+# Activité Version de Workfront Fusion : semaine du 19 septembre 2022
 
 ## Connecteur et modules Adobe Journey Optimizer désormais disponibles
 

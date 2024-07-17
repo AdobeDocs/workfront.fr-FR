@@ -11,7 +11,7 @@ exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -27,12 +27,12 @@ En reliant les projets aux objectifs, vous pouvez lier la planification stratég
 
 >[!IMPORTANT]
 >
->Les objectifs au niveau du projet créés dans la zone Analyse de cas d’un projet ne sont pas liés aux objectifs stratégiques créés dans les objectifs Workfront. Pour plus d’informations sur les objectifs du projet Business Case, voir [Créer des objectifs de Business Case](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>Les objectifs au niveau du projet créés dans la zone Analyse de cas d’un projet ne sont pas liés aux objectifs stratégiques créés dans les objectifs Workfront. Pour plus d’informations sur les objectifs du projet Business Case, voir [Créer des objectifs de projet Business Case](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -83,14 +83,14 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Observations relatives à la connexion des projets aux objectifs
 
@@ -125,17 +125,17 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Ajout de projets aux objectifs
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png) (Version préliminaire pour Shell : ou cliquez sur le bouton **Menu Principal** ![](assets/three-line-main-menu-icon.png) dans le coin supérieur gauche, s’il est disponible.) , puis **Objectifs**.
+1. Cliquez sur le **menu principal** ![](assets/main-menu-icon.png) (brouillon pour Shell : ou cliquez sur le **menu principal** ![](assets/three-line-main-menu-icon.png) dans le coin supérieur gauche, s&#39;il est disponible.) , puis sur **Objectifs**.
 1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir la page d’objectif.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
-1. Dans la **Nouvel indicateur de progression** menu déroulant, cliquez sur **Ajouter un projet existant**.
+1. Dans le menu déroulant **Nouvel indicateur de progression**, cliquez sur **Ajouter un projet existant**.
 
    La zone Ajouter des projets à l’objectif s’affiche.
-1. (Facultatif) Mettez à jour la variable **Affichage**, **Filtrer**, ou **Regroupement** en cliquant sur les icônes correspondantes dans le coin supérieur droit de la liste pour modifier l’affichage de la liste des projets.
-1. (Facultatif) Cliquez sur le **Rechercher** icon ![](assets/search-icon.png) et commencez à saisir le nom d’un projet pour le trouver rapidement dans la liste.
+1. (Facultatif) Mettez à jour la **vue**, le **filtre** ou le **regroupement** en cliquant sur les icônes respectives dans le coin supérieur droit de la liste pour modifier la façon dont la liste des projets s’affiche.
+1. (Facultatif) Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png) et commencez à saisir le nom d’un projet pour le trouver rapidement dans la liste.
 1. Sélectionnez les projets à ajouter à l’objectif, puis cliquez sur **Ajouter**.
 
-   Les projets sélectionnés sont ajoutés à l’objectif et s’affichent dans la section Indicateurs de progression de la page d’objectif, sous la balise **Projet** regroupement.
+   Les projets sélectionnés sont ajoutés à l’objectif et s’affichent dans la section Indicateurs de progression de la page d’objectif, sous le regroupement **Projet** .
 
    Une fois l’objectif activé, la progression de l’objectif est automatiquement mise à jour lorsque la progression d’un projet est mise à jour. Pour plus d’informations sur l’activation d’un objectif, voir [Activation des objectifs dans les objectifs Adobe Workfront](../goal-management/activate-goals.md).
 

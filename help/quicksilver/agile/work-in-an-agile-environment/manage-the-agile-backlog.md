@@ -9,7 +9,7 @@ exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 4%
 
 Les tâches suivantes peuvent être affectées à une équipe agile et ajoutées au journal de l’équipe en tant qu’articles, en fonction de la méthodologie agile utilisée par l’équipe :
 
-* **[!UICONTROL Scrum agile équipes]:** Les tâches et les problèmes peuvent être attribués à l’équipe agile et ajoutés au journal.
-* **[!UICONTROL équipes agiles de Kanban]:** Les tâches peuvent être affectées à l’équipe agile et ajoutées au journal en souffrance. Les utilisateurs peuvent afficher le journal en souffrance directement à partir du tableau de bord agile, comme décrit dans la section [[!UICONTROL Ajouter le journal des travaux] sur le panorama de Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). L’équipe utilise ce journal pour prioriser et gérer sa file d’attente de travail.
+* **[!UICONTROL Équipes agiles de Scrum] :** les tâches et les problèmes peuvent être affectés à l’équipe agile et ajoutés au journal en souffrance.
+* **[!UICONTROL Équipes agiles Kanban] :** Les tâches peuvent être affectées à l’équipe agile et ajoutées au journal en souffrance. Les utilisateurs peuvent afficher le journal en souffrance directement à partir du tableau de bord agile, comme décrit dans la section [[!UICONTROL Ajout du journal] au tableau Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). L’équipe utilise ce journal pour prioriser et gérer sa file d’attente de travail.
 
-Les tâches ou les problèmes peuvent être affectés à l’équipe (et par la suite ajoutés au journal de l’équipe) depuis n’importe quel emplacement dans [!DNL Adobe Workfront]. Par exemple, une seule équipe peut se voir affecter des affectations de travail à partir de plusieurs projets.
+Des tâches ou des problèmes peuvent être affectés à l’équipe (et par la suite ajoutés au journal de l’équipe) à partir de n’importe quel emplacement dans [!DNL Adobe Workfront]. Par exemple, une seule équipe peut se voir affecter des affectations de travail à partir de plusieurs projets.
 
 >[!NOTE]
 >
@@ -43,12 +43,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
-   <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations du niveau d’accès</strong></td> 
-   <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Worker] ou version ultérieure</p> </td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Worker] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -64,7 +64,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 ## Créer et gérer des articles en souffrance
 
 * [Réorganiser les articles](#reorder-stories)
-* [[!UICONTROL Ventiler] contes](#break-down-stories)
+* [[!UICONTROL Ventiler] articles](#break-down-stories)
 * [Modifier des articles](#edit-stories)
 
 ### Réorganiser les articles {#reorder-stories}
@@ -72,14 +72,14 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 Vous pouvez réorganiser les articles dans la liste de journal en souffrance à l’aide de la méthode glisser-déposer.
 
 1. Accédez au journal agile dans lequel vous souhaitez réorganiser les articles.
-1. Dans le **[!UICONTROL Affichage]** , sélectionnez la variable **[!UICONTROL Backlog]** affichage ou affichage personnalisé qui contient la variable **[!UICONTROL Commande]** colonne .
+1. Dans le menu déroulant **[!UICONTROL Affichage]**, sélectionnez la vue **[!UICONTROL Backlog]** ou une vue personnalisée contenant la colonne **[!UICONTROL Ordre]**.
 
    >[!NOTE]
    >
    >Si une équipe agile est affectée à une tâche ou un problème et que le projet n’est pas dans un état correspondant à Actuel, il ne s’affiche pas dans le journal des travaux en souffrance. Toutefois, elles n’affectent pas le nombre de dossiers dans la colonne Ordre.
 
 1. Sélectionnez un ou plusieurs articles, puis faites-les glisser dans l’ordre dans lequel vous souhaitez qu’ils apparaissent dans le journal.\
-   ![Glisser-déposer des éléments en souffrance](assets/agile-backlog-drag-and-drop.png)
+   ![Faire glisser et déposer des éléments de journal en souffrance](assets/agile-backlog-drag-and-drop.png)
 
 ### Ventiler les histoires {#break-down-stories}
 
@@ -96,17 +96,17 @@ Comme les articles dans un journal en souffrance varient en taille, les utilisat
 Pour raconter une histoire :
 
 1. Accédez au journal contenant l’article que vous souhaitez ventiler.
-1. Sélectionnez l’article à ventiler, puis cliquez sur **[!UICONTROL Histoire de ventilation]**.\
-   La variable [!UICONTROL Histoire de ventilation] s’affiche.\
-   ![Boîte de dialogue Répartition de l’article](assets/backlog-breakdown-dialog.png)
+1. Sélectionnez l’article que vous souhaitez ventiler, puis cliquez sur **[!UICONTROL Article de ventilation]**.\
+   La boîte de dialogue [!UICONTROL Histoire de ventilation] s’affiche.\
+   ![Boîte de dialogue d’article de ventilation](assets/backlog-breakdown-dialog.png)
 
 1. Indiquez un nom et une estimation pour l’article, puis indiquez si l’article est prêt.
-1. Cliquez sur **[!UICONTROL Ajout d’un article]** pour créer une autre histoire à partir de l&#39;histoire originale.
+1. Cliquez sur **[!UICONTROL Ajouter un article]** pour créer un autre article à partir de l’article d’origine.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
 ### Modifier des articles {#edit-stories}
 
-Vous pouvez modifier des articles directement à partir du [!UICONTROL Histoires] ou [!UICONTROL Problèmes] onglets sur le journal en souffrance, comme vous le feriez pour modifier en bloc les tâches ou problèmes d’un projet, comme décrit dans la section [Modifier les tâches en bloc](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [Modifier les tâches](../../manage-work/tasks/manage-tasks/edit-tasks.md), et [Modification des problèmes](../../manage-work/issues/manage-issues/edit-issues.md).
+Vous pouvez modifier des articles directement à partir des onglets [!UICONTROL Articles] ou [!UICONTROL Problèmes] dans le journal car vous modifiez en masse des tâches ou des problèmes dans un projet, comme décrit dans la section [Modifier les tâches en bloc](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) dans [Modifier les tâches](../../manage-work/tasks/manage-tasks/edit-tasks.md) et [Modifier les problèmes](../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Créer de nouveaux articles sur le journal en souffrance {#create-new-stories-on-the-backlog}
 
@@ -121,18 +121,18 @@ Lorsque vous créez un article dans le journal, il est créé en tant que tâche
 
 Pour créer un article à partir du journal :
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Équipes]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Équipes]**.
 
-1. (Facultatif) Cliquez sur le **[!UICONTROL Equipe de commutation]** icon ![Icône Changer l’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche et sélectionnez-la lorsqu’elle s’affiche.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant, ou recherchez une équipe dans la barre de recherche et sélectionnez-la lorsqu’elle s’affiche.
 
-1. Sélectionner **[!UICONTROL Backlog]** dans le panneau de gauche.
+1. Sélectionnez **[!UICONTROL Backlog]** dans le panneau de gauche.
 1. Effectuez l’une des opérations suivantes, selon que vous souhaitez créer une tâche ou un problème :
 
-   * **Pour créer une tâche :** Cliquez sur **[!UICONTROL Histoires]**.
+   * **Pour créer une tâche :** Cliquez sur **[!UICONTROL Stories]**.
 
    * **Pour créer un problème :** Cliquez sur **[!UICONTROL Problèmes]**.
 
-1. Cliquez sur **[!UICONTROL New Story]** ou **[!UICONTROL Nouveau problème]**.
+1. Cliquez sur **[!UICONTROL New Story]** ou **[!UICONTROL New Issue]** (Nouveau numéro).
 
 1. Indiquez les informations suivantes :
 
@@ -165,7 +165,7 @@ Pour créer un article à partir du journal :
       <td>(Facultatif) Commencez à saisir le nom de la tâche parent à laquelle cet article est subordonné, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Forms personnalisé]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
       <td> (Facultatif) Sélectionnez les formulaires personnalisés à ajouter à cet article.</td>
      </tr>
     </tbody>
@@ -200,16 +200,16 @@ Pour affecter une tâche ou un problème à une équipe agile :
 ### Déplacer des articles du journal vers un panorama ou une itération
 
 1. Accédez au journal de l’équipe agile.
-1. Sélectionnez les articles à déplacer sur un panorama d’itération ou Kanban, puis cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Déplacer vers]**.\
-   Si vous déplacez l’histoire vers une [!UICONTROL Kanban] panorama, [!UICONTROL Déplacer l&#39;histoire vers le Kanban] Panorama s’affiche.\
-   Si vous déplacez l’histoire vers une itération, la variable [!UICONTROL Déplacer l’article vers une itération] s’affiche.\
+1. Sélectionnez les articles que vous souhaitez déplacer vers un panorama d’itération ou Kanban, puis cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Déplacer vers]**.\
+   Si vous déplacez l’histoire vers un panorama [!UICONTROL Kanban], le panorama [!UICONTROL Déplacer l’article vers le panorama Kanban] s’affiche.\
+   Si vous déplacez l’article vers une itération, la boîte de dialogue [!UICONTROL Déplacer l’article vers une itération] s’affiche.\
    ![Boîte de dialogue Déplacer l’article](assets/agile-backlog-addtoiteration.png)
 
 1. Effectuez l’une des opérations suivantes :
 
-   * **Pour les équipes Scrum :** Dans le **[!UICONTROL Sélectionner une itération]** sélectionnez l’itération dans laquelle vous souhaitez déplacer les articles.
+   * **Pour les équipes de déploiement :** Dans le champ **[!UICONTROL Sélectionner une itération]** , sélectionnez l’itération dans laquelle vous souhaitez déplacer les articles.
 
-   * **Pour les équipes de Kanban :** Dans le **[!UICONTROL Sélectionner le panorama Kanban]** champ, sélectionnez votre équipe [!UICONTROL Kanban] panorama. (Les équipes de Kanban ne peuvent avoir qu’une seule [!UICONTROL Kanban] panorama.)
+   * **Pour les équipes de Kanban :** Dans le champ **[!UICONTROL Sélectionner le panorama de Kanban]**, sélectionnez le panorama [!UICONTROL Kanban] de votre équipe. (Les équipes de Kanban ne peuvent avoir qu’un seul panorama [!UICONTROL Kanban].)
 
 1. Cliquez sur **[!UICONTROL Déplacer l’article]**.
 
@@ -217,10 +217,10 @@ Pour affecter une tâche ou un problème à une équipe agile :
 
 Si vous décidez que votre équipe n&#39;est pas encore prête à travailler sur une histoire, vous pouvez la réorganiser en retard.
 
-Pour plus d’informations, voir [Déplacer une histoire agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+Pour plus d’informations, voir [Déplacer un article agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
 ### Exporter des articles depuis le journal en souffrance {#export-stories-from-the-backlog}
 
 Vous pouvez exporter un ou plusieurs articles (y compris des tâches et des problèmes) directement à partir du journal.
 
-Vous exportez des articles du journal de la même manière que vous exportez d’autres données dans [!DNL Workfront], comme décrit dans [Exporter des données](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Vous exportez des articles du journal de la même manière que vous exportez d’autres données dans [!DNL Workfront], comme décrit dans la section [Exporter des données](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).

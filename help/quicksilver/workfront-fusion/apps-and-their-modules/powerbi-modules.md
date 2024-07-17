@@ -3,17 +3,17 @@ filename: powerbi-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: Connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Power BI
-description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
+description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion et une licence Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2398'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
@@ -23,49 +23,49 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Workfront Fusion] n’est pas une source de données. while [!DNL Workfront Fusion] peut créer et utiliser des sources de données, mais ne stocke pas vos données.
+>[!DNL Workfront Fusion] n’est pas une source de données. Bien que [!DNL Workfront Fusion] puisse créer et utiliser des sources de données, il ne stocke pas vos données.
 
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
    <td> <p>[!DNL Pro] ou supérieur</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
    <td> <p>[!DNL Plan], [!DNL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
-&#42;&#42;Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42; Pour plus d’informations sur les [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## [!DNL Power BI] modules et leurs champs
+## Modules [!DNL Power BI] et leurs champs
 
 Lorsque vous configurez [!DNL Power BI], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de cela, des champs supplémentaires peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
@@ -75,7 +75,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 ### Tableaux de bord
 
-#### [!UICONTROL Tableaux de bord de liste]
+#### [!UICONTROL Liste des tableaux de bord]
 
 Ce module de recherche récupère une liste de tableaux de bord.
 
@@ -85,7 +85,7 @@ Ce module de recherche récupère une liste de tableaux de bord.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID de groupe]  </td>
@@ -94,15 +94,15 @@ Ce module de recherche récupère une liste de tableaux de bord.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limite]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p>
+        <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Mosaïques du tableau de bord de liste]
+#### [!UICONTROL Liste des mosaïques de tableau de bord]
 
 Ce module de recherche récupère une liste de mosaïques de tableau de bord.
 
@@ -112,7 +112,7 @@ Ce module de recherche récupère une liste de mosaïques de tableau de bord.
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Saisissez un ID de tableau de bord]</td>
@@ -131,15 +131,15 @@ Ce module de recherche récupère une liste de mosaïques de tableau de bord.
     <td>Sélectionnez ou mappez l’identifiant du groupe propriétaire des tableaux de bord contenant les mosaïques que vous souhaitez répertorier.</td>
   </tr>
   <tr>
-    <td role="rowheader">[!UICONTROL Limite]  </td>
+    <td role="rowheader">[!UICONTROL Limit]  </td>
     <td>
-      <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p>
+      <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p>
     </td>
   </tr>
 </tbody>
 </table>
 
-#### [!UICONTROL Obtention d’un tableau de bord]
+#### [!UICONTROL Obtenir un tableau de bord]
 
 Ce module d’action récupère les métadonnées d’un tableau de bord spécifié.
 
@@ -149,7 +149,7 @@ Ce module d’action récupère les métadonnées d’un tableau de bord spécif
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Saisissez un ID de tableau de bord]</td>
@@ -170,7 +170,7 @@ Ce module d’action récupère les métadonnées d’un tableau de bord spécif
   </tbody>
 </table>
 
-#### [!UICONTROL Obtention d’une mosaïque de tableau de bord]
+#### [!UICONTROL Obtenir une mosaïque de tableau de bord]
 
 Ce module d’action récupère les métadonnées d’une mosaïque de tableau de bord spécifiée.
 
@@ -180,7 +180,7 @@ Ce module d’action récupère les métadonnées d’une mosaïque de tableau d
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Saisissez un ID de tableau de bord]</td>
@@ -196,7 +196,7 @@ Ce module d’action récupère les métadonnées d’une mosaïque de tableau d
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID de mosaïque]</td>
-      <td>Saisissez ou mappez l’identifiant de la variable [!DNL Power BI] pour laquelle vous souhaitez récupérer les détails.</td>
+      <td>Saisissez ou mappez l’identifiant de la mosaïque [!DNL Power BI] pour laquelle vous souhaitez récupérer les détails.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID de groupe]  </td>
@@ -205,7 +205,7 @@ Ce module d’action récupère les métadonnées d’une mosaïque de tableau d
   </tbody>
 </table>
 
-#### [!UICONTROL Création d’un tableau de bord]
+#### [!UICONTROL Créer un tableau de bord]
 
 Ce module d’action crée un tableau de bord.
 
@@ -215,7 +215,7 @@ Ce module d’action crée un tableau de bord.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
@@ -230,7 +230,7 @@ Ce module d’action crée un tableau de bord.
 
 ### Rapports
 
-#### [!UICONTROL Rapports de liste]
+#### [!UICONTROL Liste des rapports]
 
 Ce module de recherche récupère une liste de rapports.
 
@@ -240,7 +240,7 @@ Ce module de recherche récupère une liste de rapports.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID de groupe]  </td>
@@ -249,15 +249,15 @@ Ce module de recherche récupère une liste de rapports.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limite]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p>
+        <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Obtention d’un rapport]
+#### [!UICONTROL Obtenir un rapport]
 
 Ce module d’action récupère les métadonnées d’un rapport spécifié.
 
@@ -267,7 +267,7 @@ Ce module d’action récupère les métadonnées d’un rapport spécifié.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Entrez un identifiant de rapport]</td>
@@ -298,7 +298,7 @@ Ce module d’action copie un rapport existant.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Entrez un identifiant de rapport]</td>
@@ -323,7 +323,7 @@ Ce module d’action copie un rapport existant.
   </tbody>
 </table>
 
-#### [!UICONTROL Suppression d’un rapport]
+#### [!UICONTROL Supprimer un rapport]
 
 Ce module d’action supprime un rapport.
 
@@ -333,7 +333,7 @@ Ce module d’action supprime un rapport.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Entrez un identifiant de rapport]</td>
@@ -356,7 +356,7 @@ Ce module d’action supprime un rapport.
 
 ### Jeu de données
 
-#### [!UICONTROL Jeux de données de liste]
+#### [!UICONTROL Liste des jeux de données]
 
 Ce module de recherche récupère une liste de jeux de données.
 
@@ -366,14 +366,14 @@ Ce module de recherche récupère une liste de jeux de données.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID de groupe]  </td>
       <td>Sélectionnez ou mappez l’identifiant du groupe propriétaire du rapport pour lequel vous souhaitez récupérer les métadonnées.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limite]</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
       <td>
         <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit [agir] au cours de chaque cycle d’exécution de scénario.</p>
       </td>
@@ -381,7 +381,7 @@ Ce module de recherche récupère une liste de jeux de données.
   </tbody>
 </table>
 
-#### [!UICONTROL Obtention d’un jeu de données]
+#### [!UICONTROL Obtenir un jeu de données]
 
 Ce module d’action récupère les métadonnées d’un jeu de données spécifié.
 
@@ -391,7 +391,7 @@ Ce module d’action récupère les métadonnées d’un jeu de données spécif
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Entrez un identifiant de rapport]</td>
@@ -412,7 +412,7 @@ Ce module d’action récupère les métadonnées d’un jeu de données spécif
   </tbody>
 </table>
 
-#### [!UICONTROL Création d’un jeu de données]
+#### [!UICONTROL Créer un jeu de données]
 
 Ce module d’action crée un jeu de données.
 
@@ -422,7 +422,7 @@ Ce module d’action crée un jeu de données.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
@@ -438,10 +438,10 @@ Ce module d’action crée un jeu de données.
         <p>Sélectionnez ou mappez le mode par défaut du jeu de données :</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL As Azure]</b>: un jeu de données avec une connexion en direct à [!DNL Azure Analysis Service]</p>
+            <p><b>[!UICONTROL Comme Azure]</b> : jeu de données avec une connexion en direct à [!DNL Azure Analysis Service]</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Comme sur Prem]</b>: un jeu de données avec une connexion en direct à [!DNL On-premise Analysis] Service</p>
+            <p><b>[!UICONTROL Comme sur Prem]</b> : un jeu de données avec une connexion en direct au service [!DNL On-premise Analysis]</p>
           </li>
           <li>
             <p><b>[!DNL Push]</b>: un jeu de données qui permet un accès programmatique pour transférer des données dans [!DNL Power BI]</p>
@@ -457,7 +457,7 @@ Ce module d’action crée un jeu de données.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Tableaux]</td>
-      <td>Ajoutez des tableaux au jeu de données. Pour les champs, voir <a href="#Table" class="MCXref_0">Champs de tableau</a></td>
+      <td>Ajoutez des tableaux au jeu de données. Pour les champs, voir <a href="#Table" class="MCXref_0">Champs de table</a></td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Data sources]</td>
@@ -503,7 +503,7 @@ Ce module d’action crée un jeu de données.
             <p>Saisissez (map) un nom de colonne.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Data Type]</b>
+            <p><b>[!UICONTROL Type de données]</b>
             </p>
             <p>Sélectionnez ou mappez le type de données :</p>
             <ul>
@@ -522,7 +522,7 @@ Ce module d’action crée un jeu de données.
             </ul>
           </li>
           <li>
-            <p><b>[!UICONTROL Format String]</b>
+            <p><b>[!UICONTROL Chaîne de format]</b>
             </p>
             <p>Saisissez (map) la chaîne de format.</p>
           </li>
@@ -583,7 +583,7 @@ Ce module d’action crée un jeu de données.
   </tbody>
 </table>
 
-#### [!UICONTROL Ajout ou suppression de lignes dans un tableau de jeu de données]
+#### [!UICONTROL Ajout ou suppression de lignes dans une table de jeux de données]
 
 Ce module d’action ajoute ou supprime des lignes d’une table de jeux de données push spécifiée.
 
@@ -593,7 +593,7 @@ Ce module d’action ajoute ou supprime des lignes d’une table de jeux de donn
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Entrer un tableau]</td>
@@ -638,7 +638,7 @@ Ce module d’action ajoute ou supprime des lignes d’une table de jeux de donn
             <p>Saisissez ou mappez le nom de la clé.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Field Type]</b>
+            <p><b>[!UICONTROL Type de champ]</b>
             </p>
             <p>Sélectionnez ou mappez le type de champ :</p>
             <ul>
@@ -676,7 +676,7 @@ Ce module d’action actualise un jeu de données spécifié.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Entrer un jeu de données]</td>
@@ -726,7 +726,7 @@ Ce module d’action supprime un jeu de données.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Entrez un identifiant de rapport]</td>
@@ -759,18 +759,18 @@ Ce module de déclenchement lance un scénario lorsqu’une application est mise
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limite]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p>
+        <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Lister des applications]
+#### [!UICONTROL Liste des applications]
 
 Ce module de recherche récupère une liste de toutes les applications installées.
 
@@ -780,18 +780,18 @@ Ce module de recherche récupère une liste de toutes les applications installé
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limite]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p>
+        <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Liste des rapports de l’application]
+#### [!UICONTROL  Liste des rapports de l’application ]
 
 Ce module de recherche récupère une liste de tous les rapports de l’application spécifiée.
 
@@ -801,16 +801,16 @@ Ce module de recherche récupère une liste de tous les rapports de l’applicat
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID d’application]</td>
       <td>Sélectionnez ou mappez l’identifiant de l’application à partir de laquelle vous souhaitez répertorier les rapports.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limite]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p>
+        <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p>
       </td>
     </tr>
   </tbody>
@@ -826,22 +826,22 @@ Ce module de recherche récupère une liste de tableaux de bord à partir d’un
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID d’application]</td>
       <td>Sélectionnez ou mappez l’identifiant de l’application à partir de laquelle vous souhaitez répertorier les tableaux de bord.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limite]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p>
+        <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Obtention d’une application]
+#### [!UICONTROL Obtenir une application]
 
 Ce module d’action récupère les métadonnées d’une application spécifiée.
 
@@ -851,7 +851,7 @@ Ce module d’action récupère les métadonnées d’une application spécifié
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID d’application]  </td>
@@ -862,7 +862,7 @@ Ce module d’action récupère les métadonnées d’une application spécifié
   </tbody>
 </table>
 
-#### [!UICONTROL Obtention du rapport d’une application]
+#### [!UICONTROL Obtenir le rapport d’une application]
 
 Ce module d’action récupère les métadonnées du rapport d’une application spécifiée.
 
@@ -872,7 +872,7 @@ Ce module d’action récupère les métadonnées du rapport d’une application
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID d’application]  </td>
@@ -889,7 +889,7 @@ Ce module d’action récupère les métadonnées du rapport d’une application
   </tbody>
 </table>
 
-#### [!UICONTROL Obtention du tableau de bord d’une application]
+#### [!UICONTROL Obtenir le tableau de bord d’une application]
 
 Ce module d’action récupère les métadonnées du tableau de bord d’une application spécifiée.
 
@@ -899,7 +899,7 @@ Ce module d’action récupère les métadonnées du tableau de bord d’une app
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID d’application]  </td>
@@ -918,9 +918,9 @@ Ce module d’action récupère les métadonnées du tableau de bord d’une app
 
 ### Autre
 
-#### [!UICONTROL Lancer un appel API]
+#### [!UICONTROL Effectuer un appel API]
 
-Ce module d’action effectue un appel API à la fonction [!DNL Power BI] API.
+Ce module d’action effectue un appel API vers l’API [!DNL Power BI].
 
 <table style="table-layout:auto"> 
   <col/>
@@ -928,19 +928,19 @@ Ce module d’action effectue un appel API à la fonction [!DNL Power BI] API.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Power BI] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Power BI] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à l'Adobe [!DNL Workfront Fusion] - Instructions de base</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Saisissez un chemin relatif à <code>https://api.powerbi.com</code>. Exemple: <code>/v1.0/myorg/datasets</code>.</p>
+        <p>Saisissez un chemin relatif à <code>https://api.powerbi.com</code>. Exemple : <code>/v1.0/myorg/datasets</code>.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>Méthode [!UICONTROL]</p>
+        <p>[!UICONTROL Method]</p>
       </td>
       <td>
         <p>Sélectionnez la méthode de requête [!UICONTROL HTTP] dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir Méthodes de requête [!UICONTROL HTTP] .</p>
@@ -957,12 +957,12 @@ Ce module d’action effectue un appel API à la fonction [!DNL Power BI] API.
     <tr>
       <td role="rowheader">[!UICONTROL Query String]  </td>
       <td>
-        <p>Saisissez la chaîne de requête de requête de requête.</p>
+        <p>Saisissez la chaîne de requête.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note:  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

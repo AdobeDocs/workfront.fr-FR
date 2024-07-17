@@ -7,7 +7,7 @@ exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
 source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -36,29 +36,29 @@ Une règle de filtre comporte 3 composants :
  </tbody> 
 </table>
 
-**Exemple :** Si vous souhaitez limiter les résultats dans votre rapport afin d’afficher uniquement les projets appartenant à Jane Doe, vous pouvez créer une règle de filtrage avec le champ &quot;Propriétaire du projet&quot;, l’opérateur &quot;Égal à&quot; et la valeur &quot;Jane Doe&quot;.
+**Exemple :** Si vous souhaitez limiter les résultats de votre rapport afin d’afficher uniquement les projets appartenant à Jane Doe, vous pouvez créer une règle de filtrage avec le champ &quot;Propriétaire du projet&quot;, l’opérateur &quot;Égal à&quot; et la valeur &quot;Jane Doe&quot;.
 
 Vous pouvez également afficher uniquement les projets auxquels un propriétaire de projet est affecté, avec le champ &quot;Propriétaire du projet&quot; et l’opérateur &quot;N’est pas vierge&quot;.
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, voir [Version bêta du canevas de création de rapports : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, reportez-vous à la section [Présentation du canevas de rapports bêta : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configuration des règles de filtrage pour un tableau
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Reporting**.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Création de rapports**.
 
 1. Cliquez sur **Nouveau rapport**.
 
    Ou
 
-   Accédez à un rapport existant, puis cliquez sur le bouton **Menu Plus** icon ![](assets/more-icon.png) dans l’en-tête du rapport, puis sélectionnez **Modifier**.
+   Accédez à un rapport existant, cliquez sur l&#39;icône **Plus de menu** ![](assets/more-icon.png) dans l&#39;en-tête du rapport, puis sélectionnez **Modifier**.
 
 1. Pour regrouper des lignes sur un nouveau tableau, faites glisser ou double-cliquez sur un bloc de tableau sur la zone de travail.
 
    Ou
 
-   Pour regrouper des lignes sur un tableau existant, cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png) dans l’en-tête du tableau.
+   Pour regrouper des lignes sur une table existante, cliquez sur l&#39;icône **Modifier** ![](assets/edit-icon.png) dans l&#39;en-tête du tableau.
 
 1. Dans le panneau de droite, localisez le champ selon lequel vous souhaitez filtrer votre tableau, puis faites-le glisser vers la section Filtre .
 
@@ -71,35 +71,35 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Égal à</strong> </td> 
+      <td role="rowheader"><strong>Égal À</strong> </td> 
       <td> <p>Cela ne renvoie qu’une correspondance exacte de la valeur recherchée.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Différent de</strong> </td> 
+      <td role="rowheader"><strong>Not Equal To</strong> </td> 
       <td> <p>Cela renvoie uniquement les résultats qui ne correspondent pas exactement à la valeur recherchée.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Est vierge</strong> </td> 
+      <td role="rowheader"><strong>Est vide</strong> </td> 
       <td> <p>Le champ existe pour l’objet mais il n’a pas encore reçu de valeur.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>N’est pas vierge</strong> </td> 
+      <td role="rowheader"><strong>N’est pas vide</strong> </td> 
       <td> <p>Le champ pour lequel vous filtrez existe et a reçu une valeur.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Less Than</strong> </td> 
+      <td role="rowheader"><strong>Est Inférieur À</strong> </td> 
       <td> <p>Cela permet de rechercher tous les résultats dont la valeur est inférieure à ce qui est entré, sans inclure la valeur saisie.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Less Than Or Equal To</strong> </td> 
+      <td role="rowheader"><strong>Est Inférieur Ou Égal À</strong> </td> 
       <td> <p>Cela permet de rechercher tous les résultats dont la valeur est inférieure ou égale à la valeur saisie.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Greater Than</strong> </td> 
+      <td role="rowheader"><strong>Est Supérieur À</strong> </td> 
       <td> <p>Cela permet de rechercher tous les résultats dont la valeur est supérieure à la valeur saisie, sans inclure la valeur saisie.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Greater Than Or Equal To</strong> </td> 
+      <td role="rowheader"><strong>Est Supérieur Ou Égal À</strong> </td> 
       <td> <p>Cela permet de rechercher tous les résultats avec des valeurs supérieures ou égales à la valeur saisie.</p> </td> 
      </tr> 
      <tr> 
@@ -121,13 +121,13 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 
    >[!NOTE]
    >
-   >Les valeurs saisies ici sont **not** sensible à la casse.
+   >Les valeurs saisies ici sont **non** sensibles à la casse.
 
 1. (Facultatif) Pour ajouter une autre règle de filtre à votre jeu de règles, procédez comme suit :
 
-   1. Faites glisser un autre champ vers le **Déposer pour ajouter une autre règle** dans la section Filtres sous votre autre règle.
+   1. Faites glisser un autre champ vers la zone **Déposez pour ajouter une autre règle** dans la section Filtres sous votre autre règle.
    1. Répétez les étapes 4 à 6.
-   1. Dans la liste déroulante des opérateurs située à gauche de la nouvelle règle, sélectionnez **ET** ou **OU**.
+   1. Dans la liste déroulante des opérateurs située à gauche de la nouvelle règle, sélectionnez **AND** ou **OR**.
 
       <table style="table-layout:auto"> 
        <col> 
@@ -141,7 +141,7 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
         </tr> 
         <tr> 
          <td role="rowheader"> <p>OU</p> </td> 
-         <td> <p>Lorsque vous joignez des règles de filtrage ou un jeu de règles à l’opérateur OU, vous indiquez que vous souhaitez <strong>au moins</strong> une règle (ou un jeu de règles) à ce niveau pour être atteint.</p> </td> 
+         <td> <p>Lorsque vous associez des règles de filtrage ou un jeu de règles à l’opérateur OU, vous indiquez que vous souhaitez <strong>au moins</strong> qu’une règle, ou un jeu de règles, soit à ce niveau soit respectée.</p> </td> 
         </tr> 
        </tbody> 
       </table>
@@ -152,6 +152,6 @@ Avant de commencer, vous devez vous inscrire à la version bêta du canevas de c
 
 1. (Conditionnel) Pour ajouter un jeu de règles de filtrage supplémentaire, procédez comme suit :
 
-   1. Faites glisser le champ à ajouter au **Ajouter un jeu de règles** sous vos autres jeux de règles de filtrage.
+   1. Faites glisser le champ que vous souhaitez ajouter à la zone **Ajouter un jeu de règles** sous vos autres jeux de règles de filtre.
    1. Répétez les étapes 4 à 7.
-   1. Dans la liste déroulante des opérateurs située à gauche du nouveau jeu de règles, sélectionnez **ET** ou **OU**. Ces opérateurs fonctionnent de la même manière que ceux répertoriés à l’étape 7, mais s’appliquent à l’ensemble des ensembles de règles, par opposition aux règles individuelles d’un ensemble.****
+   1. Dans la liste déroulante des opérateurs située à gauche du nouveau jeu de règles, sélectionnez **AND** ou **OR**. Ces opérateurs fonctionnent de la même manière que ceux répertoriés à l’étape 7, mais s’appliquent à l’ensemble des ensembles de règles, par opposition aux règles individuelles d’un ensemble.****

@@ -8,7 +8,7 @@ exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
 source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
 source-wordcount: '1240'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 Vous pouvez utiliser une fiche d’évaluation pour mesurer l’alignement d’un projet avec les critères précédemment définis d’un portfolio. Une fiche d&#39;évaluation reflète souvent la mission, les valeurs et les objectifs stratégiques d&#39;une organisation.
 
-Pour plus d’informations sur les Fiches d’évaluation et sur la manière d’en créer une, voir [Création d’une Fiche d’évaluation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Pour plus d’informations sur les Fiches d’évaluation et sur la façon d’en créer une, voir [Création d’une Fiche d’évaluation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ## Conditions d’accès
 
@@ -40,9 +40,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouveau : Standard</p>
+   <p>Nouvelle : standard</p>
    <p>ou</p>
-   <p>Actuel : formule</p></td>  
+   <p>Actuelle : formule</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
@@ -50,7 +50,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td><p>Gestion des autorisations d’un projet</p> <p>Affichage ou autorisations supérieures d’un portfolio</p> </td> 
+   <td><p>Autorisations de gestion d’un projet</p> <p>Affichage ou autorisations supérieures d’un portfolio</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +68,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 En règle générale, un chef de projet complète les informations de la fiche d’évaluation afin de produire une valeur d’alignement comprise entre 0 et 100 pour le projet. La valeur produite est ensuite utilisée lorsque le gestionnaire de portefeuille passe en revue les projets dans l’optimiseur de portefeuille pour les comparer.
 
-Pour plus d’informations sur l’optimisation du portfolio, voir [Portfolio Optimizer - Aperçu](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Pour plus d’informations sur l’optimisation du portefeuille, consultez la [présentation de Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ### Application d’une fiche d’évaluation à un projet
 
@@ -78,28 +78,28 @@ Pour plus d’informations sur les autorisations de projet, voir [Partage d’un
 
 Vous pouvez ajouter des fiches d’évaluation à un projet dans le cadre de la création de l’analyse de performances du projet.
 
-Pour plus d’informations sur la création d’un dossier d’affaires, voir [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Pour plus d’informations sur la création d’un dossier d’affaires, voir [Création d’un dossier d’affaires pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-L’administrateur ou l’administrateur de groupe Adobe Workfront doit activer la section Fiche d’évaluation dans la zone Analyse de cas de vos projets avant de pouvoir accéder aux Fiches d’évaluation à partir de l’Analyse de cas. Pour plus d’informations sur la configuration des préférences de projet et l’activation des zones de l’analyse de cas, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+L’administrateur ou l’administrateur de groupe Adobe Workfront doit activer la section Fiche d’évaluation dans la zone Analyse de cas de vos projets avant de pouvoir accéder aux Fiches d’évaluation à partir de l’Analyse de cas. Pour plus d’informations sur la configuration des préférences de projet et l’activation des zones de l’analyse de cas, voir [ Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Pour appliquer une fiche d’évaluation à un projet :
 
 1. Accédez à un projet auquel vous souhaitez appliquer une fiche d’évaluation.
-1. Cliquez sur **Analyse de cas** dans le panneau de gauche.
-1. Recherchez le **Fiche d’évaluation** de l’Analyse de cas.\
-   Vous devez créer une Fiche d’évaluation avant la **Fiche d’évaluation** s’affiche sur l’Analyse de cas.
+1. Cliquez sur **Business Case** dans le panneau de gauche.
+1. Recherchez la section **Fiche d’évaluation** de l’Analyse de cas.\
+   Vous devez créer une Fiche d’évaluation avant que la section **Fiche d’évaluation** ne s’affiche sur l’Analyse de cas.
 
-   Pour plus d’informations sur la création d’une fiche d’évaluation, voir [Création d’une Fiche d’évaluation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+   Pour plus d’informations sur la création d’une fiche d’évaluation, voir [Création d’une fiche d’évaluation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 1. Sélectionnez une fiche d’évaluation dans le menu déroulant.
 
-   ![Nouvelle Fiche d’évaluation](assets/new-scorecard.png)
+   ![Nouvelle fiche d’évaluation](assets/new-scorecard.png)
 
 1. Saisissez une réponse pour toutes les questions de la fiche d’évaluation.
 
    Workfront applique un score à chaque question à laquelle la réponse est donnée et calcule un score global du projet en fonction du score individuel de chaque question.
 
-   Pour plus d’informations sur la génération du score d’alignement global du projet, voir [Génération d’un score d’alignement pour un projet](#generate-an-alignment-score-for-a-project).
+   Pour plus d’informations sur la génération du score d’alignement global du projet, voir [Générer un score d’alignement pour un projet](#generate-an-alignment-score-for-a-project).
 
 1. Cliquez sur **Enregistrer** pour enregistrer la fiche d’évaluation et noter le projet.
 
@@ -122,7 +122,7 @@ Pour appliquer une fiche d’évaluation à un projet :
 
 ## Génération d’un score d’alignement
 
-* [Génération d’un score d’alignement pour un projet](#generate-an-alignment-score-for-a-project)
+* [Générer un score d’alignement pour un projet](#generate-an-alignment-score-for-a-project)
 * [Génération d’un score d’alignement pour un portfolio](#generate-an-alignment-score-for-a-portfolio)
 
 ### Génération d’un score d’alignement pour un projet {#generate-an-alignment-score-for-a-project}
@@ -135,7 +135,7 @@ Une fois la fiche d’évaluation terminée, Workfront calcule le score d’alig
 
 `Project Alignment Score = The sum of the question points from the scorecard met at a given time / The sum of the possible points on the scorecard`
 
-Pour plus d’informations, voir [Création d’une Fiche d’évaluation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Pour plus d’informations, voir [Création d’une fiche d’évaluation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Génération d’un score d’alignement pour un portfolio {#generate-an-alignment-score-for-a-portfolio}
 
@@ -158,13 +158,13 @@ Vous pouvez afficher le score d’alignement d’un projet au niveau du projet o
 
 ### Affichage de la note d’alignement sur un projet
 
-Si vous disposez des droits de contribution au projet, vous pouvez afficher le score d’alignement d’un projet au niveau du projet.
+Vous pouvez afficher le score d’alignement d’un projet au niveau du projet si vous disposez des droits Contribute sur le projet.
 
 1. Accédez au projet dont vous souhaitez afficher la note d’alignement.
-1. Cliquez sur **Analyse de cas** dans le panneau de gauche.
-1. Accédez au **Résumé des cas d’affaires** sur le côté droit de l’écran.
+1. Cliquez sur **Business Case** dans le panneau de gauche.
+1. Accédez au **Business Case Summary** sur le côté droit de votre écran.
 
-   La note d’alignement se trouve dans le résumé de l’analyse de cas, dans la variable **Aligné** .
+   La note d’alignement se trouve dans le résumé de l’analyse de cas, dans la valeur **Aligné** .
 
    ![Score d’alignement sur un projet](assets/alignment-score-on-a-project.png)
 
@@ -172,9 +172,9 @@ Si vous disposez des droits de contribution au projet, vous pouvez afficher le s
 
 Si vous avez accès à la fonction Gérer , vous pouvez afficher le score d’alignement d’un projet ou d’un portfolio dans Portfolio Optimizer.
 
-Pour plus d’informations sur les informations affichées dans Portfolio Optimizer, voir [Portfolio Optimizer - Aperçu](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Pour plus d’informations sur les informations affichées dans Portfolio Optimizer, consultez la [présentation de Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* [Recherchez la note d’alignement du projet dans Portfolio Optimizer.](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
+* [Localisez la note d’alignement du projet dans Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Recherchez la note d’alignement du portfolio dans Portfolio Optimizer.](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
   ![Score d’alignement dans Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
@@ -184,11 +184,11 @@ Pour plus d’informations sur les informations affichées dans Portfolio Optimi
 {{step1-to-portfolios}}
 
 1. Cliquez sur le nom d’un portfolio.
-1. Cliquez sur **Optimisation des Portfolios** dans le panneau de gauche.
+1. Cliquez sur **Portfolio Optimization** dans le panneau de gauche.
 
    Portfolio Optimizer s’affiche.
 
-   Le score d’alignement d’un projet s’affiche en pourcentage dans la variable **Alignement** de Portfolio Optimizer.
+   Le score d’alignement d’un projet s’affiche sous forme de pourcentage dans la colonne **Alignement** de Portfolio Optimizer.
 
    Il s’agit du score d’alignement du projet en fonction de la fiche d’évaluation associée au projet.
 
@@ -197,12 +197,12 @@ Pour plus d’informations sur les informations affichées dans Portfolio Optimi
 {{step1-to-portfolios}}
 
 1. Cliquez sur le nom d’un portfolio.
-1. Cliquez sur **Optimisation des Portfolios** dans le panneau de gauche.
-1. Dans la partie supérieure de Portfolio Optimizer, recherchez le **Aligné** , ainsi que la variable **Alignement** la jauge, qui indique le score d’alignement du portfolio.
+1. Cliquez sur **Portfolio Optimization** dans le panneau de gauche.
+1. Dans la partie supérieure de Portfolio Optimizer, recherchez la valeur **Aligné** , ainsi que la jauge **Alignement** , qui indiquent le score d’alignement du portfolio.
 
    Il s’agit du score d’alignement du portfolio.
 
-   Pour plus d’informations sur la génération du score d’alignement d’un portfolio, voir [Génération d’un score d’alignement pour un portfolio](#generate-an-alignment-score-for-a-portfolio).
+   Pour plus d’informations sur la manière dont le score d’alignement d’un portfolio est généré, voir [Générer un score d’alignement pour un portfolio](#generate-an-alignment-score-for-a-portfolio).
 
 ## Vue d’ensemble du score de l’optimiseur de portfolio
 
@@ -210,10 +210,10 @@ Il existe une différence entre le score d’alignement et le score d’optimisa
 
 Le score d’alignement d’un projet est calculé en fonction des points obtenus après avoir rempli la fiche d’évaluation. Ce score est ensuite utilisé pour déterminer le score d’alignement du portfolio. Le score d&#39;alignement s&#39;affiche en pourcentage.
 
-Le score d’alignement d’un projet s’affiche dans la **Alignement** de Portfolio Optimizer.
+Le score d’alignement d’un projet s’affiche dans la colonne **Alignement** de Portfolio Optimizer.
 
-Le score d’optimisation de portefeuille est un classement calculé automatiquement dans Portfolio Optimizer selon lequel les projets peuvent être classés par priorité. Le score d’optimisation de portefeuille s’affiche sous forme d’icône d’indicateur accompagnée d’un nombre et s’affiche dans la variable **Score** de Portfolio Optimizer. Un score Portfolio Optimizer n’est généré que lorsque toutes les sections de l’analyse de cas sont terminées, à l’exception des objectifs.
+Le score d’optimisation de portefeuille est un classement calculé automatiquement dans Portfolio Optimizer selon lequel les projets peuvent être classés par priorité. Le score d’optimisation de portefeuille s’affiche sous la forme d’une icône d’indicateur accompagnée d’un nombre et s’affiche dans la colonne **Score** de Portfolio Optimizer. Un score Portfolio Optimizer n’est généré que lorsque toutes les sections de l’analyse de cas sont terminées, à l’exception des objectifs.
 
 Pour plus d’informations sur la création d’une analyse de cas pour un projet, voir [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Pour plus d’informations sur le calcul du score d’optimisation de portefeuille d’un projet, voir [Score Portfolio Optimizer - Aperçu](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+Pour plus d’informations sur le calcul du score d’optimisation de portefeuille d’un projet, voir [Présentation de la note d’optimisation de Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).

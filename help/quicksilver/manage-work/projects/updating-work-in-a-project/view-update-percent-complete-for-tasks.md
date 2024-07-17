@@ -86,9 +86,9 @@ Vous pouvez mettre à jour le pourcentage terminé d’une tâche dans l’une d
 
   Pour plus d’informations, consultez la [Vue d’ensemble du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-* **Accueil**: vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche ou d’un problème à partir du panneau Résumé dans la zone Accueil ou à partir du widget Mon travail.
+* **Accueil** : vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche ou d’un problème à partir du panneau Résumé dans la zone Accueil, ou à partir du widget Mon travail.
 
-Pour plus d’informations, voir  [Prise en main de la nouvelle Accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations, voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Remarques concernant la mise à jour du pourcentage terminé d’une tâche
 
@@ -113,7 +113,7 @@ Pour plus d’informations, voir  [Prise en main de la nouvelle Accueil](/help/q
    >  Le champ Pourcentage terminé s’affiche toujours en haut du panneau Résumé.
 
 
-1. Cliquez dans le **Pourcentage terminé** et saisissez un nombre compris entre 0 et 100.
+1. Cliquez dans le champ **Pourcentage terminé** et saisissez un nombre compris entre 0 et 100.
 
    Ou
 

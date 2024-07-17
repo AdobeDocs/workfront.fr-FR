@@ -13,11 +13,11 @@ exl-id: e1519f60-7e6d-4f8e-8ad1-7c3cb1143a7f
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Activité Publication de fusion Workfront : Semaine du 3 octobre 2022
+# Activité Version de Workfront Fusion : semaine du 3 octobre 2022
 
 ## Nouveaux opérateurs et fonctionnalités disponibles pour les filtres d’événements dans Workfront > Module Evénements de contrôle
 
@@ -26,7 +26,7 @@ Pour plus de flexibilité et de précision lors de la création de filtres d’�
 Nous avons ajouté de nouveaux opérateurs au filtre d’événement. Vous pouvez désormais utiliser l’une des méthodes suivantes :
 
 * Est égal à
-* Non égal à
+* N’est pas égal à
 * Supérieur à
 * Inférieur à
 

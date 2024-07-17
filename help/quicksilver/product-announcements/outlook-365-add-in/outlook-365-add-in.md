@@ -8,15 +8,15 @@ description: Les articles suivants sont disponibles dans cette section.
 author: Luke
 source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 0%
+source-wordcount: '26'
+ht-degree: 46%
 
 ---
 
 
 # Module complémentaire Outlook 365
 
-Cette section contient les articles suivants :
+Cette section contient les articles suivants :
 
-* [Le Complément Outlook 365 Est Désormais Disponible](../../product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
+* [Disponibilité du module complémentaire Outlook 365](../../product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
 

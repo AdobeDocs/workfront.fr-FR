@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: Connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Microsoft SQL Server
-description: Vous pouvez utiliser [!DNL Adobe Workfront Fusion] pour vous connecter à Microsoft SQL Server.
+description: Vous pouvez utiliser  [!DNL Adobe Workfront Fusion]  pour vous connecter à Microsoft SQL Server.
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
 source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
 # Modules [!DNL Microsoft SQL Server]
 
-Vous pouvez utiliser [!DNL Adobe Workfront Fusion] pour se connecter à [!UICONTROL Microsoft SQL Server].
+Vous pouvez utiliser [!DNL Adobe Workfront Fusion] pour vous connecter à [!UICONTROL Microsoft SQL Server].
 
 ## Conditions d’accès
 
@@ -41,7 +41,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td>
    <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
@@ -61,9 +61,9 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 
 
-## Connexion de la variable [!DNL Microsoft SQL Server] service à [!DNL Workfront Fusion]
+## Connexion du service [!DNL Microsoft SQL Server] à [!DNL Workfront Fusion]
 
-Pour obtenir des instructions sur la connexion à [!DNL Microsoft SQL Server] compte à [!UICONTROL Workfront Fusion], voir [Créer une connexion à [!UICONTROL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Pour plus d’informations sur la connexion de votre compte [!DNL Microsoft SQL Server] à [!UICONTROL Workfront Fusion], voir [Création d’une connexion à [!UICONTROL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -71,21 +71,21 @@ Pour obtenir des instructions sur la connexion à [!DNL Microsoft SQL Server] co
 >
 >Par exemple, si un utilisateur dispose d’autorisations &quot;Lecture de tableau&quot; accordées via le connecteur Excel, puis crée une connexion dans le connecteur Outlook pour lire les emails, l’écran de consentement des autorisations affiche à la fois l’autorisation &quot;Lecture de tableau&quot; déjà accordée et l’autorisation &quot;Ecriture d’email&quot; nouvellement requise.
 
-## Utilisation [!DNL Microsoft SQL Server] modules
+## Utilisation de [!DNL Microsoft SQL Server] modules
 
-Vous pouvez exécuter votre logique personnalisée directement sur votre serveur de base de données par le biais de procédures stockées. [!DNL Adobe Workfront Fusion] charge dynamiquement l’interface des paramètres d’entrée/de sortie et du jeu d’enregistrements afin que chaque paramètre ou valeur puisse être mappé individuellement. Avant de commencer à configurer votre scénario, assurez-vous que le compte que vous utilisez pour vous connecter à votre base de données dispose d’un accès en lecture à `INFORMATION_SCHEMA.ROUTINES` et `INFORMATION_SCHEMA.PARAMETERS` vues.
+Vous pouvez exécuter votre logique personnalisée directement sur votre serveur de base de données par le biais de procédures stockées. [!DNL Adobe Workfront Fusion] charge dynamiquement l’interface des paramètres d’entrée/de sortie et du jeu d’enregistrements afin que chaque paramètre ou valeur puisse être mappé individuellement. Avant de commencer à configurer votre scénario, assurez-vous que le compte que vous utilisez pour vous connecter à votre base de données dispose d’un accès en lecture aux vues `INFORMATION_SCHEMA.ROUTINES` et `INFORMATION_SCHEMA.PARAMETERS`.
 
-When [!DNL Fusion] établit la connexion à la variable [!DNL SQL server] destination, la variable [!DNL Fusion] L’utilisateur identifie l’hôte (le nom de domaine ou l’adresse IP où le serveur est hébergé) et le port. [!DNL Fusion] peut se connecter à n’importe quel hôte et port disponibles.
+Lorsque [!DNL Fusion] établit la connexion à la destination [!DNL SQL server], l’utilisateur [!DNL Fusion] identifie l’hôte (nom de domaine ou adresse IP où le serveur est hébergé) et le port. [!DNL Fusion] peut se connecter à n’importe quel hôte et port disponibles.
 
-Pour plus d’informations sur les adresses IP spécifiques utilisées par [!DNL Workfront Fusion], voir [Adresses IP pour l’accès [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+Pour plus d&#39;informations sur les adresses IP spécifiques utilisées par [!DNL Workfront Fusion], voir [ Adresses IP pour l&#39;accès  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 
-Pour en savoir plus sur la création d’une procédure stockée, voir la section [!DNL Microsoft SQL Server] la documentation.
+Pour en savoir plus sur la création d’une procédure stockée, consultez la documentation [!DNL Microsoft SQL Server].
 
 >[!NOTE]
 >
 >[!DNL Workfront Fusion] ne prend pas en charge plusieurs jeux d’enregistrements. Seul le premier est traité.
 
-## Erreur de dépannage [!UICONTROL ER_LOCK_WAIT_TIMEOUT : le délai d’attente de verrouillage a été dépassé ; essayez de redémarrer la transaction.]
+## Erreur de dépannage [!UICONTROL ER_LOCK_WAIT_TIMEOUT : délai d’attente de verrouillage dépassé ; essayez de redémarrer la transaction]
 
 Cette erreur se produit lorsque vous modifiez les mêmes données à l’aide de plusieurs modules. Il est dû à des transactions SQL.
 
@@ -97,6 +97,6 @@ Si un autre module tente d&#39;accéder aux mêmes données, il doit attendre qu
 
 Activez la validation automatique. La validation automatique termine (valide) chaque transaction immédiatement après la fin de l’exécution du module.
 
-1. Cliquez sur le bouton [!UICONTROL Paramètres du scénario] icon ![](assets/scenario-settings-icon.png)au bas de l’écran.
-1. Cliquez sur le bouton **[!UICONTROL Validation automatique]** .
+1. Cliquez sur l’icône [!UICONTROL Paramètres du scénario] ![](assets/scenario-settings-icon.png) en bas de l’écran.
+1. Cochez la case **[!UICONTROL Validation automatique]** .
 1. Cliquez sur **[!UICONTROL OK]** pour enregistrer les paramètres du scénario.

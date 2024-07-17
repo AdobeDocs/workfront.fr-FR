@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 11
+title: Nouveautés de la version 11 de l’API
 description: ReportableBudgedHour a été ajouté à l’API Adobe Workfront en tant que ressource pour la création de rapports. Il comprend des champs de référence, des champs principaux et des champs par défaut absents de la fonction BudgetedHour.
 author: Becky
 feature: Workfront API
@@ -9,14 +9,14 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '3600'
-ht-degree: 2%
+source-wordcount: '3573'
+ht-degree: 12%
 
 ---
 
-# Nouveautés de l’API version 11
+# Nouveautés de la version 11 de l’API
 
-* [Ajout de ressources](#added-resources)
+* [Ressources ajoutées](#added-resources)
 * [Ressources supprimées](#removed-resources)
 * [Ressources modifiées](#modified-resources)
 
@@ -187,8 +187,8 @@ ReportableBudgedHour a été ajouté à l’API Adobe Workfront en tant que ress
    <td> 
     <ul> 
      <li> <p style="font-weight: bold;">projet</p> <p>Projet auquel un ReportableBudgetedHour est associé.</p> </li> 
-     <li> <p style="font-weight: bold;">rôle</p> <p>Rôle de tâche auquel est associé un ReportableBudgetedHour.</p> </li> 
-     <li> <p style="font-weight: bold;">user</p> <p>Utilisateur auquel est associé un ReportableBudgetedHour.</p> </li> 
+     <li> <p style="font-weight: bold;">Rôle</p> <p>Rôle de tâche auquel est associé un ReportableBudgetedHour.</p> </li> 
+     <li> <p style="font-weight: bold;">utilisateur</p> <p>Utilisateur auquel est associé un ReportableBudgetedHour.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -240,7 +240,7 @@ Aucune ressource n’a été supprimée pour l’API v11.
      <li><a href="#approval" class="MCXref xref">Approbation</a> </li> 
      <li><a href="#approvalpath" class="MCXref xref">ApprovalPath</a> </li> 
      <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
-     <li><a href="#assignment" class="MCXref xref">Affectation</a> </li> 
+     <li><a href="#assignment" class="MCXref xref">Attribution</a> </li> 
      <li><a href="#baselinetask" class="MCXref xref">BaselineTask</a> </li> 
      <li><a href="#category" class="MCXref xref">Catégorie</a> </li> 
      <li><a href="#company" class="MCXref xref">Entreprise</a> </li> 
@@ -253,10 +253,10 @@ Aucune ressource n’a été supprimée pour l’API v11.
      <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
      <li><a href="#document" class="MCXref xref">Document</a> </li> 
      <li><a href="#iteration" class="MCXref xref">Itération</a> </li> 
-     <li><a href="#layout-template" class="MCXref xref">Modèles de mise en page</a> </li> 
+     <li><a href="#layout-template" class="MCXref xref">Modèle de mise en page</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">MilestonePath</a> </li> 
-     <li><a href="#note" class="MCXref xref">Note</a> </li> 
-     <li><a href="#optask" class="MCXref xref">TâcheOp</a> </li> 
+     <li><a href="#note" class="MCXref xref">Remarque</a> </li> 
+     <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
      <li><a href="#parameter" class="MCXref xref">Paramètre</a> </li> 
      <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
      <li><a href="#program" class="MCXref xref">Programme</a> </li> 
@@ -277,7 +277,7 @@ Aucune ressource n’a été supprimée pour l’API v11.
      <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Feuille de temps</a> </li> 
-     <li><a href="#update" class="MCXref xref">Mettre à jour</a> </li> <!--
+     <li><a href="#update" class="MCXref xref">Mise à jour</a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
@@ -311,7 +311,7 @@ Un objet AccessLevelPermissions représente un ensemble d’autorisations. Cet e
 
 ### AccessRequest {#accessrequest}
 
-Si un utilisateur n’a pas accès à un objet Workfront dont il a besoin, il peut demander l’accès à cet objet. L’objet AccessRequest représente cette requête.
+Si un utilisateur ou une utilisatrice n’a pas accès à un objet Workfront dont il ou elle a besoin, il ou elle peut demander l’accès à cet objet. L’objet AccessRequest représente cette demande.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -329,7 +329,7 @@ Si un utilisateur n’a pas accès à un objet Workfront dont il a besoin, il pe
 
 ### AccessRule {#accessrule}
 
-Un objet AccessRule représente un jeu de règles dans les niveaux d’accès personnalisés qui détermine comment les utilisateurs peuvent partager les projets qu’ils créent.
+Un objet AccessRule représente un jeu de règles dans les niveaux d’accès personnalisés qui détermine comment les utilisateurs et les utilisatrices peuvent partager les projets qu’ils ou elles créent.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -349,7 +349,7 @@ Un objet AccessRule représente un jeu de règles dans les niveaux d’accès pe
 
 ### Approbation {#approval}
 
-Un élément de travail donné, tel qu’une tâche, un document ou une feuille de temps, peut exiger qu’un superviseur ou un autre utilisateur signe l’élément de travail. Un objet Approval représente l’action de déconnexion d’un élément de travail.
+Un élément de travail donné, tel qu’une tâche, un document ou une feuille de temps, peut exiger qu’un superviseur ou une superviseuse, ou un autre utilisateur ou une autre utilisatrice, valide l’élément de travail. Un objet Approval représente l’action de validation d’un élément de travail.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -464,7 +464,7 @@ Un objet d’affectation représente la connexion entre un élément de travail 
 
 ### BaselineTask {#baselinetask}
 
-Les lignes de base sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Ils stockent des informations clés sur le projet, telles que les dates clés, l’avancement, les coûts et les valeurs de recettes. Lorsque vous créez une ligne de base, les informations de tâche sont également capturées sur les tâches de base de cette ligne de base.
+Les références sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés, la progression, et les valeurs de coût et de revenu. Lorsque vous créez une référence, les informations de tâche sont également capturées sur les tâches de base de cette référence.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -647,7 +647,7 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
 
 ### Document {#document}
 
-Un objet Document représente un fichier (tel que du matériel écrit, des images ou d’autres formes d’informations).
+Un objet Document représente un fichier (tel qu’un support écrit, des images ou d’autres formes d’informations).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -766,7 +766,7 @@ Un objet Remarque est un commentaire ou une mise à jour effectué sur un objet 
 
 ### TâcheOp {#optask}
 
-Un objet OpTask est généralement appelé Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Modifier les commandes, les requêtes et les bogues sont également des problèmes.
+Un objet OpTask est généralement appelé un Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Les ordres de modification, les demandes et les bogues sont également des problèmes.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -832,7 +832,7 @@ Un objet de paramètre est un champ personnalisé.
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Ajout de la valeur possible TYAH (Typeforward).</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Ce champ a été ajouté et fait référence au code d’objet d’un objet référencé. Les codes d’objet de tous les objets se trouvent dans la variable <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">Explorateur d’API</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Ce champ a été ajouté et fait référence au code d’objet d’un objet référencé. Les codes d’objet pour tous les objets se trouvent dans l’ <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -885,7 +885,7 @@ Un objet de programme est un sous-ensemble d’un portfolio, où des projets sim
 
 ### Projet {#project}
 
-Les projets sont des éléments de travail dans Workfront et sont une composante essentielle de la façon dont Workfront aide les personnes à travailler. Un objet Projet représente un groupe de tâches avec un objectif commun et spécifique.
+Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Project représente un groupe de tâches avec un objectif commun et spécifique.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1044,7 +1044,7 @@ Un objet ScheduledReport représente un rapport qui a été configuré pour êtr
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>pageSize</p> <p style="font-weight: normal;">Ajout des valeurs possibles suivantes :</p> 
+     <li style="font-weight: bold;"> <p>pageSize</p> <p style="font-weight: normal;">Ajout des valeurs possibles suivantes :</p> 
       <ul> 
        <li style="font-weight: normal;">A2</li> 
        <li style="font-weight: normal;">A1</li> 
@@ -1075,7 +1075,7 @@ Un objet ScoreCardQuestion représente une question qui a été ajoutée à une 
 
 ### Tâche {#task}
 
-Un objet Task représente un élément de travail qui doit être exécuté comme une étape vers l’atteinte d’un objectif final (achèvement d’un projet).
+Un objet Task représente un élément de travail qui doit être exécuté en tant qu’étape vers la réalisation d’un objectif final (achèvement d’un projet).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1122,7 +1122,7 @@ Un objet Task représente un élément de travail qui doit être exécuté comme
  </tbody> 
 </table>
 
-### Équipe {#team}
+### Equipe {#team}
 
 Un objet Équipe est un ensemble d’utilisateurs pouvant être affectés à un élément de travail.
 
@@ -1199,7 +1199,7 @@ Un objet Template représente un modèle pour un projet. Les projets peuvent êt
 
 ### TemplateTask {#templatetask}
 
-Un objet TemplateTask représente une tâche qui fait partie d’un modèle. Les tâches du modèle deviennent des tâches dans le projet où le modèle est utilisé.
+Un objet TemplateTask représente une tâche qui fait partie d’un modèle. Les tâches de modèle deviennent des tâches dans le projet où le modèle est utilisé.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1243,7 +1243,7 @@ Un objet de feuille de temps représente une feuille de temps virtuelle qui perm
 
 ### Mettre à jour {#update}
 
-Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir les utilisateurs informés de l’état actuel. Un objet Update représente l’une de ces mises à jour. Les mises à jour peuvent être saisies par les utilisateurs ou créées par le système Workfront.
+Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir les utilisateurs et utilisatrices informés du statut actuel. Un objet Update représente l’une de ces mises à jour. Les mises à jour peuvent être saisies par les utilisateurs et utilisatrices ou créées par le système Workfront.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1332,7 +1332,7 @@ Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir
 
 ### Travail  {#work}
 
-Un objet de travail est une interface commune dont Task et OpTask héritent tous deux et partagent le code commun entre les deux.
+Un objet Work est une interface commune dont Task et OpTask héritent tous deux, et partage le code commun entre les deux.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 

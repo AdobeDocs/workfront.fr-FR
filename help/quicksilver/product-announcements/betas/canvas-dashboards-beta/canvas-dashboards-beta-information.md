@@ -18,10 +18,10 @@ ht-degree: 18%
 
 Les tableaux de bord de canevas sont une fonctionnalité en cours de développement qui vous permet de visualiser facilement vos données Adobe Workfront en ajoutant différents types de rapports sur un canevas personnalisable. Veuillez noter que, bien que nous vous soyez reconnaissant de votre participation durant notre phase de test bêta, certaines parties de la fonctionnalité peuvent ne pas être complètes ou fonctionner comme prévu. Veuillez envoyer vos commentaires concernant votre expérience en suivant les instructions de la section [Fournir des commentaires](#provide-feedback) ci-dessous.
 
-Pour obtenir des informations de base sur l’utilisation des tableaux de bord de zone de travail, voir [Prise en main des tableaux de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-Pour obtenir la liste de tous les tableaux de bord de zone de travail, voir [Tableaux de bord de canevas - Aperçu](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Pour obtenir des informations de base sur l’utilisation des tableaux de bord Canvas, voir [Prise en main des tableaux de bord Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Pour obtenir la liste de tous les tableaux de bord Canvas, consultez la [présentation des tableaux de bord Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Planification bêta :**
+**Planification Beta :**
 
 * Date de début de la version bêta fermée - TBA
 * Date de début de la version bêta ouverte - TBA
@@ -35,7 +35,7 @@ Pour vous inscrire à la version bêta :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 
-1. Cliquez sur le bouton **Rejoindre la version bêta des tableaux de bord du canevas** bouton bêta dans le coin supérieur droit de la page.
+1. Cliquez sur le bouton bêta **Rejoindre les tableaux de bord de la zone de travail bêta** dans le coin supérieur droit de la page.
 
    >[!NOTE]
    >
@@ -49,9 +49,9 @@ Les commentaires sont appréciés au fur et à mesure que nous développons cet 
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 
-1. Dans le panneau de gauche, cliquez sur **Tableaux de bord de canevas**.
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord de la zone de travail**.
 
-1. Cliquez sur le bouton **Envoyer un commentaire** dans le coin inférieur droit de la page, puis saisissez vos commentaires dans le formulaire qui s’affiche et cliquez sur **Envoyer**.
+1. Cliquez sur le bouton **Envoyer des commentaires** dans le coin inférieur droit de la page, puis saisissez vos commentaires dans le formulaire qui s’affiche et cliquez sur **Envoyer**.
 
 ## Fonctionnalités planifiées
 

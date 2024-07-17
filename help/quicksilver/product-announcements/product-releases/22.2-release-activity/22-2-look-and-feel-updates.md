@@ -1,6 +1,6 @@
 ---
-title: Mises à jour de l’apparence pendant la période de la version 22.2
-description: Mises à jour de l’apparence pendant la période de la version 22.2
+title: Mises à jour de l’expérience utilisateur (version 22.2)
+description: Mises à jour de l’expérience utilisateur (version 22.2)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: 00113f7e-2f69-445d-847e-14fd464241de
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Mises à jour de l’apparence pendant la période de la version 22.2
+# Mises à jour de l’expérience utilisateur (version 22.2)
 
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication de la version 22.2. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, voir [Présentation de la version 2.2.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, consultez la [présentation des versions 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Page Approbations mises à jour
 
@@ -35,7 +35,7 @@ Les pages d’approbation des zones suivantes présentent désormais un aspect m
 
 >[!NOTE]
 >
-Version d’aperçu : 24 février 2022 ; version de production estimée : déploiement par phases commençant le 9 mars, avec disponibilité pour tous les clients d’ici le 18 mars 2022.
+>Version d’aperçu : 24 février 2022 ; version de production estimée : déploiement par phases commençant le 9 mars, avec disponibilité pour tous les clients d’ici le 18 mars 2022.
 
 Nous avons amélioré les performances de la zone de documents dans Workfront. La page Documents se charge désormais beaucoup plus rapidement.
 
@@ -55,7 +55,7 @@ Les barres d’outils des listes et rapports suivants ont désormais une apparen
 
 >[!NOTE]
 >
-La barre d’outils de ces mêmes rapports dans les tableaux de bord a également été mise à jour en production avec la [Mise à jour de maintenance](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) le 3 mars 2022.
+>La barre d’outils pour ces mêmes rapports dans les tableaux de bord a également été mise à jour en production avec la [mise à jour de maintenance](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) hebdomadaire le 3 mars 2022.
 
 * Rapports sur les projets
 * Rapports de tâches

@@ -1,7 +1,7 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Présentation du mode texte
+title: Vue d’ensemble du mode texte
 description: Vous pouvez créer un rapport ou une liste dans Adobe Workfront à l'aide de l'interface standard ou du mode texte lors de la création des éléments qui composent le rapport ou la liste.
 author: Nolan
 feature: Reports and Dashboards
@@ -9,11 +9,11 @@ exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Présentation du mode texte
+# Vue d’ensemble du mode texte
 
 <!--Audited: 12/2023-->
 
@@ -63,8 +63,8 @@ L’interface Mode standard affiche des champs permettant de mapper les élémen
 
 Pour plus d’informations sur l’interface du mode standard et pour savoir comment créer un rapport ou une liste, voir :
 
-* [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-* [Éléments de reporting : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Créez un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* [Éléments de rapport : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## Interface du mode Texte
 
@@ -74,7 +74,7 @@ Pour plus d’informations sur l’interface du mode standard et pour savoir com
 
 Le mode Texte permet de créer des vues, filtres, regroupements et invites plus complexes en vous permettant d’utiliser des champs qui ne sont pas disponibles dans l’interface de mode standard. En mode texte Workfront, il existe un ensemble d’instructions codées qui indiquent les objets que vous souhaitez afficher dans un rapport ou une liste.
 
-Pour obtenir la liste complète de tous nos champs à déclarer, voir la section [Explorateur d’API](../../../wf-api/general/api-explorer.md).
+Pour obtenir la liste complète de tous nos champs à rapporter, consultez l’ [API Explorer](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
@@ -90,19 +90,19 @@ Pour plus d’informations sur l’utilisation du mode texte dans les vues, les 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see what articles these sections are linked to and edit those articles to link to the individual ones)</p>
 -->
 
-* [Modification d’une vue en mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* [Modification d’un filtre à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [Mode d’édition de texte dans un groupement](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+* [Modifier une vue en mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [Modifier un filtre en mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [Modifier le mode texte dans un regroupement](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 Les invites personnalisées ne peuvent être modifiées qu&#39;en mode texte. Vous ne pouvez accéder aux invites qu’à partir d’un rapport.
 
-Pour plus d’informations sur l’accès à l’interface du mode texte pour les invites personnalisées, voir [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Pour plus d’informations sur l’accès à l’interface du mode texte pour les invites personnalisées, voir [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Raisons courantes d’utiliser le mode Texte {#common-reasons-to-use-text-mode}
 
 En dehors de la création d’invites personnalisées qui ne peuvent être configurées qu’en mode texte, nous vous recommandons d’utiliser le créateur de rapports pour créer vos vues, filtres et regroupements. Cependant, dans certains cas, vous pouvez utiliser le mode texte pour améliorer vos rapports et listes.
 
-Pour plus d’informations sur les utilisations courantes du mode texte, voir [Présentation des utilisations courantes du mode Texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Pour plus d’informations sur les utilisations courantes du mode texte, voir [Présentation des utilisations courantes du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 
 <!--

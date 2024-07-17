@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Présentation de l’état et de la progression du BAT
+title: Vue d’ensemble des statuts et de la progression de la relecture
 description: Vous pouvez afficher des informations sur l’avancement d’un BAT tout au long du processus de révision et un résumé global de l’état de décision du BAT dans la zone Documents .
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 4%
 
 ---
 
-# Présentation de l’état et de la progression du BAT
+# Vue d’ensemble des statuts et de la progression de la relecture
 
 Vous pouvez afficher des informations sur l’avancement d’un BAT tout au long du processus de révision et un résumé global de l’état de décision du BAT dans la zone Documents .
 
@@ -28,7 +28,7 @@ La progression de la preuve indique le travail effectué sur un BAT depuis le mo
  <col> 
  <thead> 
   <tr> 
-   <td> <p><strong>Icône Progression</strong> </p> </td> 
+   <td> <p><strong>Icône de progression</strong> </p> </td> 
    <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
  </thead> 
@@ -38,26 +38,26 @@ La progression de la preuve indique le travail effectué sur un BAT depuis le mo
    <td> <p>Le BAT a été envoyé aux destinataires affectés.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Ouvert</strong> </p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Ayant ouvert</strong> </p> </td> 
    <td> <p>Tous les destinataires attribués ouvrent la page des détails du BAT ou du BAT.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Commentaires</strong> </p> </td> 
-   <td> <p>Tous les destinataires assignés font au moins un commentaire sur le BAT.</p> <p>Si aucun opérateur validant n'est affecté au BAT, la variable <strong>C</strong> n’apparaît pas dans la barre de progression.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Commentaires effectués</strong> </p> </td> 
+   <td> <p>Tous les destinataires assignés font au moins un commentaire sur le BAT.</p> <p>Si aucun opérateur validant n'est affecté au BAT, l'icône <strong>C</strong> n'apparaît pas dans la barre de progression.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Décision prise</strong> </p> </td> 
-   <td> <p>Tous les approbateurs affectés prennent une décision sur le BAT, Tous les approbateurs affectés prennent une décision sur le BAT, sauf si le créateur du BAT indique qu’une seule décision est nécessaire.</p> <p>Si aucun approbateur (décideur) n’est désigné pour le BAT, la variable <strong>D</strong> n’apparaît pas dans la barre de progression. </p> </td> 
+   <td> <p>Tous les approbateurs affectés prennent une décision sur le BAT, Tous les approbateurs affectés prennent une décision sur le BAT, sauf si le créateur du BAT indique qu’une seule décision est nécessaire.</p> <p>Si aucun approbateur (décideur) n’est désigné pour le BAT, l’icône <strong>D</strong> n’apparaît pas dans la barre de progression. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Les icônes de progression peuvent apparaître dans les couleurs suivantes pour indiquer certaines informations sur la progression du BAT :
 
-* **Vert**: Terminé.
-* **Blanc**: Non terminé.
-* **Orange**: non terminé et délai inférieur à 24 heures.
-* **Rouge**: Ne pas terminer et dépasser la date limite.
+* **Vert** : Terminé.
+* **Blanc** : non terminé.
+* **Orange** : incomplet et délai inférieur à 24 heures.
+* **Rouge** : non terminé et dépassé l’échéance.
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -93,7 +93,7 @@ Les icônes de progression peuvent apparaître dans les couleurs suivantes pour 
 
 ## Aperçu de l’état du BAT
 
-Le statut du BAT affiche le statut des décisions requises pour le BAT. Le statut du BAT dépend du participant au &quot;pire cas&quot;. Par exemple, supposons qu’il y ait trois décisions sur le BAT : deux ont le statut de **Acceptée** et l’un a le statut de **Rejetés**. La décision &quot;la pire des situations&quot; de **Rejetés** sur-règlemente les autres décisions et le statut global du BAT est affiché comme **Rejetés**. 
+Le statut du BAT affiche le statut des décisions requises pour le BAT. Le statut du BAT dépend du participant au &quot;pire cas&quot;. Par exemple, supposons qu’il y ait trois décisions sur le BAT : deux ont le statut **Accepted** et l’un a le statut **Refusé**. La décision &quot;pire cas&quot; de **Refusé** annule les autres décisions et l’état global du BAT est affiché comme **Refusé**. 
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 

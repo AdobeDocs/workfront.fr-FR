@@ -11,7 +11,7 @@ exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
 source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '1441'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 3%
 
 Si davantage de travail doit être fait pour résoudre un problème après l’envoi du problème, vous pouvez convertir le problème en projet ou en tâche.
 
-Pour plus d’informations sur la conversion de problèmes en tâches, voir [Convertir un problème en tâche dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+Pour plus d’informations sur la conversion de problèmes en tâches, voir [Conversion d’un problème en tâche dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-Pour plus d’informations sur la conversion de problèmes en projets, voir [Convertir un problème en projet dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Pour plus d’informations sur la conversion de problèmes en projets, voir [Conversion d’un problème en projet dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Considérations relatives à la conversion de problèmes
 
 * Lors de la conversion de problèmes en tâches ou projets, la plupart des informations de la publication sont transférées vers la tâche ou le projet, sauf indication contraire dans cet article.
-* L’administrateur ou l’administrateur de groupe Workfront a déjà défini les préférences pour ce qui arrive à un problème, sa résolution et l’accès de son contact de Principal lorsqu’il est converti en projet ou en tâche, comme indiqué dans la section [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* L’administrateur ou l’administrateur de groupe Workfront a déjà défini les préférences pour ce qui arrive à un problème, sa résolution et l’accès de son contact de Principal lorsqu’il est converti en projet ou tâche, comme indiqué dans la section [Configuration de la tâche à l’échelle du système et des préférences de problème](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront supprime les approbations associées aux problèmes lors de la conversion.
 * Workfront remplace l’objet de résolution du problème lorsque vous le convertissez en tâche ou projet. La nouvelle tâche ou le nouveau problème devient le nouvel objet de résolution du problème après la conversion.
-* Tenez compte des points suivants :
+* Tenez compte des points suivants :
 
    * Pendant la conversion, vous serez peut-être invité à conserver le problème et sa résolution liés au projet ou à la tâche que vous créez.
    * Si vous conservez le problème, l’état et le pourcentage d’achèvement du projet ou de la tâche mettent automatiquement à jour l’état et le pourcentage d’achèvement du problème lorsque des modifications se produisent sur le projet, la tâche ou le problème, ou lorsque Workfront recalcule la chronologie.
@@ -38,20 +38,20 @@ Pour plus d’informations sur la conversion de problèmes en projets, voir [Con
 
 * Lors de la conversion d’un problème, les autorisations liées aux problèmes d’origine ne sont pas transférées vers l’objet converti (tâche ou projet).
 
-* Lors de la conversion d’un problème en projet à l’aide d’un modèle, la plupart des informations du modèle sont transférées vers le nouveau projet. Cependant, certaines informations provenant du problème peuvent également être transférées vers le nouveau projet. Pour plus d’informations, voir [Présentation des champs du projet lors de la conversion d’un problème en projet à l’aide d’un modèle](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) dans cet article.
+* Lors de la conversion d’un problème en projet à l’aide d’un modèle, la plupart des informations du modèle sont transférées vers le nouveau projet. Cependant, certaines informations provenant du problème peuvent également être transférées vers le nouveau projet. Pour plus d’informations, reportez-vous à la section [Présentation des champs de projet lors de la conversion d’un problème en projet à l’aide d’un modèle](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) de cet article.
 * Lors de la conversion d’un problème, tous les documents ou leurs informations ne sont pas déplacés vers le nouvel objet vers lequel le problème est converti. Les éléments suivants sont inclus lorsque vous convertissez un problème auquel sont associés des documents ou des liens vers des documents :
 
    * Document
    * Le document est lié à des services tiers, tels que Google Drive ou SharePoint.
    * Versions
-   * Les bons à tirer ne sont inclus que lorsque l’option **Conserver le problème d’origine et lier sa résolution à cette tâche** n’est pas sélectionnée.
+   * Les bons à tirer sont inclus uniquement lorsque l’option **Conserver le problème d’origine et lier sa résolution à cette tâche** est désélectionnée.
    * Les approbations de documents ne sont pas incluses lorsque vous convertissez un problème en raison duquel des documents et des liens de documents sont joints.
 
 * Si vous avez décidé de conserver le problème dans la conversion et que des documents y sont joints, le document et ses versions sont copiés dans le projet ou la tâche. Les BAT et les validations de document ne sont pas copiés dans le projet ou la tâche.
 * Si vous avez décidé de ne pas conserver le problème dans la conversion et que des documents sont joints, le document, ses versions et les bons à tirer sont transférés vers le projet ou la tâche. Les validations de document ne seront pas transférées vers le projet ou la tâche.
 * Si des documents et des dossiers sont liés à la question d’origine de services tiers, tels que Google Drive, que vous gardiez le problème ou non pendant la conversion, ces liens seront copiés dans le nouvel objet.
 * Les commentaires de problème sont également copiés dans la tâche ou le projet converti à partir du problème, mais les utilisateurs balisés ne seront pas transférés.
-* Si vous souhaitez transférer des informations de formulaire personnalisées du problème vers le projet ou la tâche vers lequel vous le convertissez, assurez-vous que vous disposez d’un formulaire personnalisé de projet ou de tâche qui comprend les mêmes champs que ceux que vous souhaitez transférer du problème. Pour plus d’informations, voir [Transfert de données de formulaire personnalisées lors de la conversion d’un objet](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+* Si vous souhaitez transférer des informations de formulaire personnalisées du problème vers le projet ou la tâche vers lequel vous le convertissez, assurez-vous que vous disposez d’un formulaire personnalisé de projet ou de tâche qui comprend les mêmes champs que ceux que vous souhaitez transférer du problème. Pour plus d’informations, voir [Transfert de données de formulaire personnalisé lors de la conversion d’un objet](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 ## Présentation des champs du projet lors de la conversion d’un problème en projet à l’aide d’un modèle {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
@@ -73,7 +73,7 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
   </tr> 
   <tr> 
    <td>Statut</td> 
-   <td>État par défaut sélectionné pour le groupe sur le modèle. Si le modèle n’est pas associé au groupe, l’état du projet est défini sur l’état par défaut défini par l’administrateur Workfront dans la zone Préférences du projet de la section Configuration. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configuration des préférences de projet à l’échelle du système</a>.</td> 
+   <td>État par défaut sélectionné pour le groupe sur le modèle. Si le modèle n’est pas associé au groupe, l’état du projet est défini sur l’état par défaut défini par l’administrateur Workfront dans la zone Préférences du projet de la section Configuration. Pour plus d’informations, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences du projet à l’échelle du système</a>.</td> 
   </tr> 
   <tr> 
    <td>Priorité</td> 
@@ -91,7 +91,7 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
   </tr> 
   <tr> 
    <td>Statut du projet</td> 
-   <td>Correspond à la préférence par défaut au niveau du système, déterminée par l’administrateur Workfront dans la zone Configuration . Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Définir une condition personnalisée comme condition par défaut pour les projets</a></td> 
+   <td>Correspond à la préférence par défaut au niveau du système, déterminée par l’administrateur Workfront dans la zone Configuration . Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Définition d’une condition personnalisée comme condition par défaut pour les projets</a></td> 
   </tr> 
   <tr> 
    <td>Planifier à partir de</td> 
@@ -101,8 +101,8 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
    <td>Dates de projets</td> 
    <td> 
     <ul> 
-     <li> <p><b>Date de début planifiée</b>: le temps de travail le plus proche basé sur l’heure de travail du planning du modèle doit être présélectionné, en fonction du fuseau horaire du planning du modèle. Ce champ est désactivé si le champ Planifier à partir de est défini sur À partir de la fin. </p> </li> 
-     <li> <p><b>Date d’achèvement prévue</b>: le temps de travail le plus proche basé sur l’heure de travail du planning du modèle doit être présélectionné, en fonction du fuseau horaire du planning du modèle. Ce champ est désactivé si le champ Planifier à partir du est défini sur À partir du début. </p> </li> 
+     <li> <p><b>Date de début planifiée</b> : le temps de travail le plus proche selon l’heure de travail du planning du modèle doit être présélectionné, selon le fuseau horaire du planning du modèle. Ce champ est désactivé si le champ Planifier à partir de est défini sur À partir de la fin. </p> </li> 
+     <li> <p><b>Date d’achèvement prévue</b> : le temps de travail le plus proche basé sur l’heure de travail du planning du modèle doit être présélectionné, selon le fuseau horaire du planning du modèle. Ce champ est désactivé si le champ Planifier à partir du est défini sur À partir du début. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -115,7 +115,7 @@ Le tableau suivant répertorie les informations sur le projet et indique s’il 
   </tr> 
   <tr> 
    <td>Groupe</td> 
-   <td><p> Les scénarios suivants existent :</p>
+   <td><p> Les scénarios suivants sont possibles :</p>
      <ul><li>Si un groupe est spécifié pendant la conversion, il devient le groupe du projet.</li>
      <li>Si vous effectuez une conversion vers un projet à l’aide d’un modèle et qu’un groupe est présent sur le modèle, et que vous ne spécifiez pas de groupe pendant la conversion, le groupe du modèle devient le groupe du nouveau projet.</li>
       <li> S’il n’y a aucun groupe sur le modèle et que vous ne spécifiez pas de groupe pendant la conversion, le groupe du projet du problème d’origine devient le groupe du nouveau projet.</li> </ul>

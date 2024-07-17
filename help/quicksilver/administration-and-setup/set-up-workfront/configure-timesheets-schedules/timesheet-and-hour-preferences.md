@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Configuration des préférences de feuille de temps et d’heure
-description: Comme [!DNL Adobe Workfront] administrateur, vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans [!DNL Workfront] afin de définir les éléments que les feuilles de temps peuvent préremplir et les éléments auxquels les utilisateurs peuvent se connecter.
+description: En tant qu'administrateur  [!DNL Adobe Workfront] , vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans  [!DNL Workfront]  afin de définir les éléments avec lesquels les feuilles de temps peuvent être préremplies et les éléments vers lesquels les utilisateurs peuvent consigner le temps.
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
 source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
 source-wordcount: '1409'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Comme [!DNL Adobe Workfront] administrateur, vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans [!DNL Workfront] afin de définir les éléments que les feuilles de temps peuvent préremplir et les éléments auxquels les utilisateurs peuvent se connecter.
+En tant qu’administrateur [!DNL Adobe Workfront], vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans [!DNL Workfront] afin de définir les éléments avec lesquels les feuilles de temps peuvent être préremplies et les éléments vers lesquels les utilisateurs peuvent consigner le temps.
 
 >[!IMPORTANT]
 >
@@ -31,15 +31,15 @@ Comme [!DNL Adobe Workfront] administrateur, vous pouvez spécifier des préfér
 >* Éléments épinglés dans la feuille de temps
 >* Éléments que vous recherchez et ajoutez manuellement à la feuille de temps. Par défaut, les éléments ajoutés manuellement sont épinglés.
 >
->Pour plus d’informations, voir [Temps de connexion](../../../timesheets/create-and-manage-timesheets/log-time.md) et [Présentation de la feuille de temps](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
+>Pour plus d’informations, reportez-vous aux sections [Durée du journal](../../../timesheets/create-and-manage-timesheets/log-time.md) et [Présentation de la feuille de temps](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
 
 
 Toutes les modifications que vous apportez aux feuilles de temps ont un impact sur toutes les feuilles de temps créées ultérieurement.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,23 +47,23 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Quelconque</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td><p>Actuel :[!UICONTROL Plan]</p>
    Ou
-   <p>Nouveau : Standard</p>
+   <p>Nouvelle : standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p>  </td>
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront].</p>  </td>
 </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Définition des préférences de feuille de temps et d’heure
 
@@ -73,13 +73,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    La page Fiches horaires et préférences Heures s’affiche.
 
-1. (Facultatif) Dans la variable **Préférences des Fiches horaires et heures système** , commencez à saisir le nom d’un groupe, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+1. (Facultatif) Dans la zone de recherche **System Timesheets and Hours Preferences**, commencez à saisir le nom d’un groupe, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
    ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
-   La page Préférences de la feuille de temps et des heures se met à jour avec les préférences du groupe que vous avez sélectionné. Les préférences au niveau du système doivent être déverrouillées pour pouvoir modifier les préférences au niveau du groupe. Pour plus d’informations, voir la section [Déverrouiller les préférences de feuille de temps et d’heure pour les groupes ;](#unlock-timesheet-and-hour-preferences-for-groups) dans cet article.
+   La page Préférences de la feuille de temps et des heures se met à jour avec les préférences du groupe que vous avez sélectionné. Les préférences au niveau du système doivent être déverrouillées pour pouvoir modifier les préférences au niveau du groupe. Pour plus d’informations, reportez-vous à la section [Déverrouiller les préférences de feuille de temps et d’heure pour les groupes](#unlock-timesheet-and-hour-preferences-for-groups) de cet article.
 
-1. Dans le **[!UICONTROL Préférences générales]** , configurez l’une des options suivantes :
+1. Dans la section **[!UICONTROL Préférences générales]** , configurez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -91,13 +91,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
        <ul> 
         <li>Tous les projets, tâches et problèmes pour lesquels ils ont accès au temps de journalisation</li> 
         <li>Leur feuille de temps comme heure générale</li> 
-       </ul> <p>Cela s’avère utile lorsque les utilisateurs prévoient de quitter le bureau et qu’ils souhaitent enregistrer ce temps au préalable.</p> <p><b>REMARQUE</b>:</p> 
+       </ul> <p>Cela s’avère utile lorsque les utilisateurs prévoient de quitter le bureau et qu’ils souhaitent enregistrer ce temps au préalable.</p> <p><b>NOTE</b> :</p> 
        <p>Vous ne pouvez pas empêcher les utilisateurs de se connecter à des tâches ou des problèmes qui sont fermés ou annulés. Vous pouvez uniquement empêcher les utilisateurs de se connecter à des projets complets ou inactifs. Nous vous recommandons d’utiliser des filtres dans les listes de tâches et de problèmes pour exclure de la visibilité pour les utilisateurs ceux qui ont été terminés ou annulés.</p> </td> 
      </tr>
 
    <tr> 
       <td role="rowheader">[!UICONTROL Affecter manuellement des rôles de tâche aux entrées d’heure]</td> 
-      <td> <p>Permet aux utilisateurs de sélectionner manuellement n’importe quel rôle de tâche attribué dans leur profil utilisateur ou affecté à l’objet.</p> <p><b>IMPORTANT</b>:  
+      <td> <p>Permet aux utilisateurs de sélectionner manuellement n’importe quel rôle de tâche attribué dans leur profil utilisateur ou affecté à l’objet.</p> <p><b>IMPORTANT</b> :  
         <ul> 
          <li>Si vous désactivez ce paramètre après avoir affecté des rôles de tâche aux entrées d’heure, les utilisateurs doivent ajuster les heures enregistrées sous différents rôles dans l’onglet [!UICONTROL Hours] du projet, de la tâche ou du problème.</li> 
          <li>Si un rôle de tâche n’est pas attribué à l’utilisateur dans son profil et qu’une tâche est affectée en tant que [!UICONTROL Propriétaire de la tâche] dans la boîte de dialogue [!UICONTROL Affectations avancées], ce rôle de tâche s’affiche lorsque l’utilisateur connecte l’heure de la tâche.</li> 
@@ -105,7 +105,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Restreindre la modification de la feuille de temps aux propriétaires et aux administrateurs]</td> 
-      <td> <p>Restreindre la modification aux propriétaires de la feuille de temps et [!DNL Workfront] administrateurs. Lorsque cette option est désactivée, les feuilles de temps peuvent également être modifiées en :</p> 
+      <td> <p>Limitez la modification aux propriétaires de la feuille de temps et aux administrateurs [!DNL Workfront]. Lorsque cette option est désactivée, les feuilles de temps peuvent également être modifiées en :</p> 
        <ul> 
         <li> <p>Utilisateurs disposant d’un accès administratif aux feuilles de temps et aux heures dans leur niveau d’accès</p> </li> 
         <li> <p>Approbateurs de la feuille de temps si l’option "Modifications des heures" est activée sur la feuille de temps</p> </li> 
@@ -114,12 +114,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Restreindre la modification d’heure aux propriétaires et administrateurs]</td> 
-      <td>Restreindre la modification à l’utilisateur qui saisit les heures et [!DNL Workfront] administrateurs. Ce paramètre s’applique à l’onglet [!UICONTROL Hours] d’un projet ou d’un rapport Hours.</td> 
+      <td>Limitez la modification à l’utilisateur qui saisit les heures et [!DNL Workfront] administrateurs. Ce paramètre s’applique à l’onglet [!UICONTROL Hours] d’un projet ou d’un rapport Hours.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Dans le **[!UICONTROL Où les utilisateurs peuvent consigner l’heure]** , configurez l’une des options suivantes :
+1. Dans la section **[!UICONTROL Où les utilisateurs peuvent se connecter]** , configurez l’une des options suivantes :
 
    <table style="table-layout:auto">
     <tr>
@@ -136,14 +136,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     </tr>
    </table>
 
-1. Dans le **[!UICONTROL Préremplissage des feuilles de temps]** , configurez l’une des options suivantes :
+1. Dans la section **[!UICONTROL Préremplir les feuilles de temps]** , configurez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Travail compris dans] &lt;number of="" weeks=""&gt; [!UICONTROL de la plage de travail de la feuille de temps]</td> 
+      <td role="rowheader">[!UICONTROL Travail compris dans un délai de] &lt;nombre de semaines&gt; [!UICONTROL de la période de travail de la feuille de temps]</td> 
       <td> <p>Définit le nombre de semaines avant et après la période de la feuille de temps qui contient les dates des tâches et les problèmes affectés à l’utilisateur.</p> 
       <p>Le paramètre par défaut est de 1 semaine et vous pouvez l’étendre à 4 semaines.</p> 
       <p>Cela signifie que la feuille de temps est prérenseignée avec des tâches et des problèmes dont les dates se situent entre quatre semaines avant la période de la feuille de temps, jusqu’à quatre semaines après la période de la feuille de temps, si vous sélectionnez 4 semaines pour la période. </p> </td> 
@@ -163,7 +163,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     </tbody> 
    </table>
 
-1. Dans le **[!UICONTROL Projets, tâches et problèmes supprimés]** , spécifiez les informations suivantes :
+1. Dans la section **[!UICONTROL Projets, tâches et problèmes supprimés]**, spécifiez les éléments suivants :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -173,16 +173,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td role="rowheader"> Lors de la suppression de projets</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Conserver l’heure enregistrée déjà ajoutée aux feuilles de temps en tant qu’heure générale]</strong>: si ce projet est restauré à une date ultérieure, l’heure reste sur la feuille de temps.</li> 
-        <li><strong>[!UICONTROL Supprimer toute heure enregistrée]</strong>: si ce projet est restauré par la suite, l’heure déjà enregistrée est restaurée dans le projet.</li> 
+        <li><strong>[!UICONTROL Conserver l’heure enregistrée déjà ajoutée aux feuilles de temps en tant qu’heure générale]</strong> : si ce projet est restauré ultérieurement, l’heure est conservée dans la feuille de temps.</li> 
+        <li><strong>[!UICONTROL Supprimer toute heure enregistrée]</strong> : si ce projet est restauré par la suite, l’heure déjà enregistrée est restaurée dans le projet.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lors de la suppression de tâches ou de problèmes</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Déplacer toute heure enregistrée vers le projet]</strong> où réside la tâche ou le problème : si cette tâche ou ce problème est restauré par la suite, le temps reste sur le projet.<br></li> 
-        <li> <p><strong>[!UICONTROL Supprimer toute heure enregistrée]</strong>: si cette tâche ou ce problème est restauré par la suite, l’heure consignée est restaurée à la tâche ou au problème.</p> <p>Pour plus d’informations sur ces options, voir <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configurer l’effet] sur les heures lorsqu’un objet est supprimé et restauré</a>.</p> </li> 
+        <li><strong>[!UICONTROL Déplacez toute heure enregistrée vers le projet]</strong> où se trouve la tâche ou le problème : si cette tâche ou ce problème est restauré ultérieurement, l’heure reste sur le projet.<br></li> 
+        <li> <p><strong>[!UICONTROL Supprimer toute heure enregistrée]</strong> : si cette tâche ou ce problème est restauré par la suite, l’heure consignée est restaurée à la tâche ou au problème.</p> <p>Pour plus d’informations sur ces options, voir <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configurer l’effet] sur les heures où un objet est supprimé et restauré</a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -196,22 +196,22 @@ Les groupes de votre entreprise peuvent avoir besoin de feuilles de temps ou de 
 
 Lorsqu’une préférence est déverrouillée et qu’un administrateur de groupe la modifie, elle affecte les propriétaires de feuilles de temps si le groupe est leur groupe d’accueil.
 
-Pour plus d’informations sur la façon dont un administrateur de groupe configure les préférences de feuille de temps et d’heure pour un groupe, voir [Configuration des préférences de feuille de temps et d’heure pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Pour plus d’informations sur la façon dont un administrateur de groupe configure les préférences de feuille de temps et d’heure pour un groupe, voir [ Configuration des préférences de feuille de temps et d’heure pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 >[!NOTE]
 >
->Après une [!DNL Workfront] l’administrateur déverrouille une préférence au niveau du système. tout administrateur de groupe peut la configurer, puis la verrouiller pour s’assurer que tous les membres de leur groupe et les sous-groupes ci-dessous utilisent la même configuration. Cela est parallèle à la capacité qu’a une [!DNL Workfront] l’administrateur doit configurer et verrouiller une préférence pour tous les utilisateurs du système. Pour plus d’informations, voir [Verrouillage ou déverrouillage d’une feuille de temps et d’une préférence d’heure de groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+>Une fois qu’un administrateur [!DNL Workfront] a déverrouillé une préférence au niveau du système, tout administrateur de groupe peut la configurer, puis la verrouiller pour s’assurer que tous les membres de leur groupe et les sous-groupes ci-dessous utilisent la même configuration. Cela est parallèle à la possibilité qu’un administrateur [!DNL Workfront] doit configurer et verrouiller une préférence pour tous les utilisateurs du système. Pour plus d’informations, voir [Verrouiller ou déverrouiller une feuille de temps et une préférence d’heure de groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 Pour déverrouiller une préférence de projet afin que les groupes puissent la configurer :
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Fiches horaires et heures]**, puis cliquez sur **[!UICONTROL Préférences]**.
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Fiches horaires et heures]**, puis sur **[!UICONTROL Préférences]**.
 
-1. Effectuez l’une des opérations suivantes :
+1. Effectuez l’une des opérations suivantes :
 
-   * Si vous souhaitez que les administrateurs de groupes puissent configurer une préférence pour leurs groupes, cliquez sur le bouton **déverrouiller** basculer ![](assets/unlock-toggle-button.png) pour le déverrouiller.
-   * Si vous souhaitez que tous les groupes utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée. ![](assets/locked-preference-toggle.png) (il s’agit de la valeur par défaut).
+   * Si vous souhaitez que les administrateurs de groupes puissent configurer une préférence pour leurs groupes, cliquez sur le bouton **déverrouiller** ![](assets/unlock-toggle-button.png) pour le déverrouiller.
+   * Si vous souhaitez que tous les groupes utilisent votre configuration pour une préférence, assurez-vous que le bouton bascule est verrouillé ![](assets/locked-preference-toggle.png) (il s’agit de la valeur par défaut).
 
      >[!IMPORTANT]
      >

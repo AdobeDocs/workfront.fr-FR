@@ -1,7 +1,7 @@
 ---
 product-area: projects;templates
 navigation-topic: plan-a-project
-title: Désignation des gestionnaires de ressources pour un projet ou un modèle
+title: Désigner des personnes gestionnaires de ressources pour un projet ou un modèle
 description: Vous pouvez désigner des gestionnaires de ressources pour un projet afin d’indiquer qui est responsable de la gestion des ressources sur le projet.
 author: Alina
 feature: Work Management
@@ -9,11 +9,11 @@ exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
-# Désignation des gestionnaires de ressources pour un projet ou un modèle
+# Désigner des personnes gestionnaires de ressources pour un projet ou un modèle
 
 <!--
 <p This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler - January 2023/p>
@@ -37,7 +37,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
 -->
 
-## Exigences d’accès
+## Conditions d’accès
 
 <!--drafted for P&P:
 
@@ -74,25 +74,25 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux projets et aux modèles</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -100,12 +100,12 @@ Si vous n’avez toujours pas accès à , demandez à votre administrateur Workf
 
 <p><b>NOTE</b>
 
-Les utilisateurs ajoutés en tant que responsables de ressources à un projet ou à un modèle obtiennent immédiatement les autorisations Gérer sur le projet ou le modèle.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td>
+Les utilisateurs ajoutés en tant que responsables de ressources à un projet ou à un modèle obtiennent immédiatement les autorisations Gérer sur le projet ou le modèle.</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Considérations sur les gestionnaires de ressources
 
@@ -146,11 +146,11 @@ Les utilisateurs ajoutés en tant que responsables de ressources à un projet ou
 
 ## Désignation des gestionnaires de ressources pour un projet
 
-1. Effectuez l’une des opérations suivantes :
+1. Effectuez l’une des opérations suivantes :
 
-   * Pour ajouter des gestionnaires de ressources à un seul projet, accédez au projet auquel vous souhaitez désigner un ou plusieurs gestionnaires de ressources, puis cliquez sur le bouton **Plus de menu** en regard du nom du projet, puis **Modifier .**
+   * Pour ajouter des gestionnaires de ressources à un seul projet, accédez au projet où vous souhaitez désigner un ou plusieurs gestionnaires de ressources, puis cliquez sur le **menu Plus** en regard du nom du projet, puis **Modifier .**
 
-   * Pour ajouter simultanément des gestionnaires de ressources à plusieurs projets, accédez à une liste de projets, sélectionnez les projets auxquels vous souhaitez désigner un ou plusieurs gestionnaires de ressources, puis cliquez sur **Modifier**.
+   * Pour ajouter simultanément des gestionnaires de ressources à plusieurs projets, accédez à une liste de projets, sélectionnez les projets pour lesquels vous souhaitez désigner un ou plusieurs gestionnaires de ressources, puis cliquez sur **Modifier**.
 
      Les gestionnaires de ressources existants ne sont pas supprimés des projets en cours de modification ; les utilisateurs que vous ajoutez de cette manière sont ajoutés en tant que gestionnaires de ressources sur le projet en plus des gestionnaires de ressources existants.
 
@@ -158,7 +158,7 @@ Les utilisateurs ajoutés en tant que responsables de ressources à un projet ou
 
      Pour plus d’informations sur la création d’un projet, voir [Création d’un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Dans le **Présentation** dans la boîte de dialogue Modifier le projet , cliquez sur dans la **Resource Manager** champ .
+1. Dans la section **Overview** de la boîte de dialogue Edit Project, cliquez sur le champ **Resource Manager** .
 1. Commencez à saisir le nom de l’utilisateur que vous souhaitez ajouter en tant que gestionnaire de ressources pour le projet, puis cliquez sur le nom lorsqu’il apparaît dans la liste.
 
    Répétez cette étape pour ajouter plusieurs gestionnaires de ressources pour le projet.
@@ -167,21 +167,21 @@ Les utilisateurs ajoutés en tant que responsables de ressources à un projet ou
 
 ## Désignation des gestionnaires de ressources pour un modèle
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
 1. Cliquez sur **Modèles**.
 
-1. Effectuez l’une des opérations suivantes :
+1. Effectuez l’une des opérations suivantes :
 
-   * Pour ajouter des gestionnaires de ressources à un seul modèle, accédez au modèle dans lequel vous souhaitez désigner un ou plusieurs gestionnaires de ressources, puis cliquez sur le bouton **Plus de menu** en regard du nom du modèle, puis **Modifier .**
+   * Pour ajouter des gestionnaires de ressources à un modèle unique, accédez au modèle dans lequel vous souhaitez désigner un ou plusieurs gestionnaires de ressources, puis cliquez sur le **menu Plus** en regard du nom du modèle, puis **Modifier .**
 
-   * Pour ajouter simultanément des gestionnaires de ressources à plusieurs modèles, accédez à une liste de modèles et sélectionnez les modèles auxquels vous souhaitez désigner un ou plusieurs gestionnaires de ressources, puis cliquez sur **Modifier**.
+   * Pour ajouter simultanément des gestionnaires de ressources à plusieurs modèles, accédez à une liste de modèles et sélectionnez les modèles pour lesquels vous souhaitez désigner un ou plusieurs gestionnaires de ressources, puis cliquez sur **Modifier**.
 
      Les gestionnaires de ressources existants ne sont pas supprimés des modèles que vous modifiez ; les utilisateurs que vous ajoutez de cette manière sont ajoutés en tant que gestionnaires de ressources sur le modèle en plus des gestionnaires de ressources existants.
 
-   * Pour ajouter des gestionnaires de ressources à un nouveau modèle, cliquez sur **Nouveau modèle**,puis cliquez sur le bouton **Plus de menu** en regard du nom du modèle, puis **Modifier .**
+   * Pour ajouter des gestionnaires de ressources à un nouveau modèle, cliquez sur **Nouveau modèle**, puis sur le **menu supplémentaire** en regard du nom du modèle, puis sur **Modifier .**
 
-1. Dans le **Présentation** , cliquez sur dans la section **Resource Manager** champ .
+1. Dans la section **Overview** , cliquez sur le champ **Resource Manager** .
 1. Commencez à saisir le nom de l’utilisateur que vous souhaitez ajouter en tant que gestionnaire de ressources pour le modèle, puis cliquez sur le nom lorsqu’il apparaît dans la liste.
 
    Répétez cette étape pour ajouter plusieurs gestionnaires de ressources au modèle.

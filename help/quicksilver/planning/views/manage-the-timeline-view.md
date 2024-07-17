@@ -92,7 +92,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Gérer une vue chronologique {#manage-a-timeline-view}
@@ -292,7 +292,7 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer la nature e
 1. (Conditionnel et le cas échéant) Si vous avez ajouté un regroupement à la vue chronologique, sélectionnez l’une des options suivantes pour définir la couleur du regroupement dans la section **Définir la couleur du regroupement** :
 
    * **Par défaut (gris)** : la couleur des regroupements est définie sur gris. Il s’agit du paramètre par défaut.
-   * **Valeurs de champ**: la couleur des groupements correspond à la couleur du champ par lequel vous effectuez un groupement.
+   * **Valeurs de champ** : la couleur des groupements correspond à la couleur du champ par lequel vous effectuez un groupement.
 
      >[!NOTE]
      >

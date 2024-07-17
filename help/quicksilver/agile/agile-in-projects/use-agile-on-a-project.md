@@ -16,4 +16,4 @@ ht-degree: 0%
 
 # Utilisation d’Agile sur un projet
 
-Vous pouvez tirer parti de fonctionnalités agiles pour votre projet sans les défis administratifs qui accompagnent généralement les pratiques agiles (comme la gestion du retard d’une équipe, la création d’itérations, etc.). Pour plus d’informations, voir [Gestion d’un projet dans le [!UICONTROL Agile] Affichage](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Vous pouvez tirer parti de fonctionnalités agiles pour votre projet sans les défis administratifs qui accompagnent généralement les pratiques agiles (comme la gestion du retard d’une équipe, la création d’itérations, etc.). Pour plus d’informations, voir [Gestion d’un projet dans la [!UICONTROL vue Agile]](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

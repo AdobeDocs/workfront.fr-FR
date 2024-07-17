@@ -1,6 +1,6 @@
 ---
-title: 21.3 Améliorations de la gestion des ressources
-description: 21.3 Améliorations de la gestion des ressources
+title: Améliorations de la gestion des ressources (version 21.3)
+description: Améliorations de la gestion des ressources (version 21.3)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: d665f71d-3d17-4c5b-93a3-93b11a81af19
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 21.3 Améliorations de la gestion des ressources
+# Améliorations de la gestion des ressources (version 21.3)
 
 Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 21.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 21 juillet 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.3, voir [Présentation de la version 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.3, consultez la [présentation de la version 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Désactivation des rôles qui ne sont plus utilisés
 

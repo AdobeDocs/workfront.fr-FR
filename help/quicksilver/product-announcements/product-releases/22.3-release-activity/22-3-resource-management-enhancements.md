@@ -9,13 +9,13 @@ exl-id: 4be185e7-12b1-49af-973e-c6eb3e134d38
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 22.3 Améliorations de la gestion des ressources
+# Améliorations de la gestion des ressources (version 22.3)
 
-Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, voir [Présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, consultez la [présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Préférences de tri et améliorations de la convivialité dans l’équilibreur de charge de travail
 

@@ -2,15 +2,15 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Vue d’ensemble des heures, de l’éditeur de texte enrichi et des coûts dans les vues Projet et Rôle du planificateur de ressources
-description: Vue d’ensemble des heures, de l’éditeur de texte enrichi et des coûts dans les vues Projet et Rôle du planificateur de ressources
+title: Vue d’ensemble des informations sur les heures, ETP et les coûts dans les vues Projet et Rôle du planificateur de ressources
+description: Vue d’ensemble des informations sur les heures, ETP et les coûts dans les vues Projet et Rôle du planificateur de ressources
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2973'
-ht-degree: 0%
+source-wordcount: '2977'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Le budget de vos ressources pour le travail qu’elles doivent accomplir sur un projet est la fonction principale du planificateur de ressources. Vous pouvez afficher le temps disponible de vos ressources et allouer leur temps aux projets auxquels elles sont affectées.
 
-Pour plus d’informations sur la planification des ressources dans le planificateur de ressources, voir [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+Pour plus d’informations sur la planification des ressources dans le planificateur de ressources, voir [Ressources budgétaires dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
 
 Cet article décrit quelques-uns des concepts clés que vous devez connaître avant de commencer à budgéter vos ressources dans le planificateur de ressources.
 
@@ -36,33 +36,34 @@ Tenez compte des points suivants lors de la planification des ressources à l’
 
 * Vous pouvez budgétiser l’allocation de vos ressources en spécifiant un montant d’heures, d’éditeur de texte enrichi ou de coûts que vos ressources peuvent utiliser pour terminer le travail sur les projets. Lorsque vous budgétez le temps ou le coût d’une ressource, les heures disponibles, l’éditeur de texte enrichi ou le coût de la ressource diminuent selon le montant budgété. Par conséquent, le montant des heures, de l’éditeur de texte enrichi ou des coûts disponibles pour les projets qui suivent le projet pour lequel vous avez établi un budget diminue pour ces utilisateurs et rôles sur ces projets.
 
-   >[!IMPORTANT]
-   >
-   >Vous pouvez répartir vos ressources sur une période de 15 ans. Si vous planifiez des ressources pour un projet d’une durée supérieure à 15 ans, les informations de budget peuvent ne pas être exactes.
+  >[!IMPORTANT]
+  >
+  >Vous pouvez répartir vos ressources sur une période de 15 ans. Si vous planifiez des ressources pour un projet d’une durée supérieure à 15 ans, les informations de budget peuvent ne pas être exactes.
 
 * Vous pouvez budgéttiser les heures, l’éditeur de texte enrichi ou le coût de vos ressources pour toute période affichée dans le planificateur de ressources, indépendamment de la chronologie du projet. Par exemple, si vous souhaitez indiquer que vos ressources ne seront peut-être pas disponibles dans la chronologie du projet (où elles sont associées aux Heures planifiées), mais qu’elles pourront être disponibles à une autre période, vous pouvez le faire en les budgétisant pour les périodes où les Heures planifiées sont nulles, si c’est le moment où elles deviennent disponibles pour le travail. Vous pouvez modifier manuellement la chronologie du projet pour qu’elle corresponde à la disponibilité de la ressource après cette opération.
 
-   >[!NOTE]
-   >
-   >Nous vous recommandons de budgétiser manuellement vos heures, votre EPT ou le coût des rôles de tâche ou d’abord celui des utilisateurs. Vous ne pouvez utiliser les options automatiques pour budgéter le temps de vos projets et ressources que lorsque vous êtes certain que le montant des heures planifiées, de l’éditeur de texte enrichi ou du coût doit toujours correspondre à vos heures, à votre ETR ou à votre coût budgété.\
-   >Pour plus d’informations sur l’utilisation des options automatiques de budget dans le planificateur de ressources, voir la section &quot;Budget du projet et des rôles automatiquement&quot; de l’article. [Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  >[!NOTE]
+  >
+  >Nous vous recommandons de budgétiser manuellement vos heures, votre EPT ou le coût des rôles de tâche ou d’abord celui des utilisateurs. Vous ne pouvez utiliser les options automatiques pour budgéter le temps de vos projets et ressources que lorsque vous êtes certain que le montant des heures planifiées, de l’éditeur de texte enrichi ou du coût doit toujours correspondre à vos heures, à votre ETR ou à votre coût budgété.\
+  >Pour plus d’informations sur l’utilisation des options automatiques pour la budgétisation dans le planificateur de ressources, consultez la section &quot;Budget project and ôles automatiquement&quot; de l’article [Révision de la disponibilité et de l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 * Le budget de l’éditeur de texte enrichi ou des coûts est identique à celui des heures de budget, où Adobe Workfront utilise l’éditeur de texte enrichi et les valeurs des coûts au lieu des heures pour les ressources que vous budgétez.
 
-   Pour plus d’informations sur la façon dont les coûts sont calculés dans le planificateur de ressources, voir [Calcul des coûts dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+  Pour plus d’informations sur la façon dont les coûts sont calculés dans le planificateur de ressources, voir [Calculer les coûts dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
-* L’affectation du budget pour vos ressources dans le planificateur de ressources se fait comme suit :
+* L’affectation du budget pour vos ressources dans le planificateur de ressources se fait de la manière suivante :
 
    * Manuellement
 
-      Ou
+     Ou
 
-   * Automatiquement, en utilisant les options de projet et de rôle dans la variable **Afficher par projet** et **Afficher par rôle** vues.
-   Pour plus d’informations, voir [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   * Automatiquement, en utilisant les options de projet et de rôle dans les vues **Afficher par projet** et **Afficher par rôle**.
+
+  Pour plus d’informations, voir [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * Lorsqu’un utilisateur modifie des rôles de tâche, est supprimé, désactivé ou supprimé d’un pool de ressources, les heures budgétisées pour le rôle ne changent pas et elles sont redistribuées aux utilisateurs restants dans le rôle . Si aucun utilisateur n’est plus associé au rôle de tâche, le nombre d’heures budgétisées pour le rôle devient zéro.
 
-Pour plus d’informations sur le projet et les options de rôle, voir la section [Comprendre les valeurs des heures, de l’ETR et du coût dans le planificateur de ressources](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) dans cet article.
+Pour plus d’informations sur les options de projet et de rôle, consultez la section [Comprendre les valeurs Hours, FTE et Cost dans le planificateur de ressources](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) de cet article.
 
 ## Comprendre les valeurs des heures, de l’ETR et du coût dans le planificateur de ressources {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
 
@@ -72,27 +73,27 @@ Pour plus d’informations sur le projet et les options de rôle, voir la sectio
 
 Avant de budgéter vos ressources et de mettre à jour les informations sur les heures budgétisées dans le planificateur de ressources, vous devez connaître les concepts suivants :
 
-* **Heures planifiées, ETR ou Coût**: Le travail qui doit être effectué tel que défini sur les tâches et les problèmes.
-* **Heures, ETR ou coût disponibles**: La durée pendant laquelle les utilisateurs ou les rôles de tâche sont disponibles pour travailler, selon les plannings associés aux utilisateurs.
+* **Heures planifiées, ETR ou Coût** : le travail qui doit être effectué selon la définition des tâches et des problèmes.
+* **Heures disponibles, ETR ou Coût** : durée pendant laquelle les utilisateurs ou les rôles de tâche sont disponibles pour travailler, selon les plannings associés aux utilisateurs.
 
 Ces informations s’affichent dans le planificateur de ressources pour chaque ressource (utilisateur ou rôle) et pour chaque projet.
 
-Pour plus d’informations sur ce qui s’affiche dans les vues Projet et Rôle du projet, consultez l’article . [Présentation de la navigation de Resource Planner](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Pour plus d’informations sur ce qui s’affiche dans les vues Projet et Rôle du projet, reportez-vous à l’article [Présentation de la navigation du planificateur de ressource](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Pour plus d’informations sur la façon dont les coûts sont calculés dans le planificateur de ressources, reportez-vous à l’article [Calcul des coûts dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Pour plus d’informations sur la façon dont les coûts sont calculés dans le planificateur de ressources, consultez l’article [Calculer les coûts dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 >[!NOTE]
 >
 >Le budget par coût est identique au budget par heure ou ETR, mais vous devez comprendre comment Workfront calcule le coût pour le planificateur de ressources.
 >
->Pour plus d’informations sur le mode de calcul des coûts dans le planificateur de ressources, consultez l’article [Calcul des coûts dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+>Pour plus d’informations sur le mode de calcul des coûts dans le planificateur de ressources, consultez l’article [Calculer les coûts dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 Les tableaux suivants affichent les informations d’allocation et de disponibilité qui s’affichent dans le planificateur de ressources lors de l’application de la vue Projet ou Rôle. Vous pouvez afficher ces informations par heures, heure d’été ou coût :
 
-* [La colonne AVL (Disponible)](#the-avl-available-column)
+* [Colonne AVL (disponible)](#the-avl-available-column)
 * [Colonne PLN (planifiée)](#the-pln-planned-column)
-* [La colonne BDG (Budget)](#the-bdg-budgeted-column)
-* [Colonne VAR (variance)](#the-var-variance-column)
+* [Colonne BDG (budgétée)](#the-bdg-budgeted-column)
+* [Colonne VAR (variation)](#the-var-variance-column)
 * [La colonne NET](#the-net-column)
 
 ### La colonne AVL (Disponible) {#the-avl-available-column}
@@ -111,15 +112,15 @@ Les tableaux suivants affichent les informations d’allocation et de disponibil
   </tr> 
   <tr> 
    <td>Rôle</td> 
-   <td> <p>Le total des heures, des EFS ou des coûts pour lesquels tous les utilisateurs associés à ce rôle sont disponibles pour travailler selon leur horaire et leur <strong>Pourcentage de disponibilité de l’éditeur de texte enrichi</strong> pour ce rôle spécifique, pour la période sélectionnée. </p> <p>Tenez compte des points suivants : </p> 
+   <td> <p>Le total des heures, des EFS ou des coûts pour lesquels tous les utilisateurs associés à ce rôle sont disponibles pour travailler selon leur planning et leur <strong>Pourcentage de disponibilité de l’éditeur de texte enrichi</strong> pour ce rôle spécifique, pour la période sélectionnée. </p> <p>Tenez compte des points suivants : </p> 
     <ul> 
      <li>Si aucun utilisateur n’est associé à un rôle de tâche, la valeur de la fonction Heures disponibles pour le rôle de tâche est zéro. </li> 
-     <li>Si un utilisateur est associé à un rôle de tâche Principal, mais que la variable <strong>Pourcentage de disponibilité de l’éditeur de texte enrichi</strong> pour le rôle est 0 %, la valeur du rôle de tâche Heures disponibles est zéro.</li> 
-     <li>Si l’utilisateur est associé à d’autres rôles et à la variable <strong>Pourcentage de disponibilité de l’éditeur de texte enrichi</strong> pour les rôles dont la valeur est de 0 %, les autres rôles ne sont pas répertoriés dans le planificateur de ressources et l’utilisateur ne s’affiche que sous son rôle Principal.</li> 
-    </ul> <p>Pour plus d’informations sur la variable <strong>Pourcentage de disponibilité de l’éditeur de texte enrichi</strong> pour un rôle de tâche, voir l’article <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modification du profil d’un utilisateur</a>.</p> <p>Pour plus d’informations sur le mode de calcul de la disponibilité du rôle de tâche dans le planificateur de ressources, voir la section "Calcul des heures disponibles et de l’ETR pour un rôle de tâche dans le planificateur de ressources" de l’article . <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Présentation du calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans le planificateur de ressources</a>.</p> </td> 
+     <li>Si un utilisateur est associé à un rôle de tâche par Principal, mais que le <strong>pourcentage de disponibilité de l’éditeur de texte enrichi</strong> pour le rôle est de 0 %, la valeur du rôle de tâche Heures disponibles est zéro.</li> 
+     <li>Si l’utilisateur est associé aux autres rôles et que le <strong>pourcentage de disponibilité de l’éditeur de texte enrichi</strong> pour les rôles est de 0 %, les autres rôles ne sont pas répertoriés dans le planificateur de ressources et l’utilisateur s’affiche uniquement sous son rôle de Principal.</li> 
+    </ul> <p>Pour plus d’informations sur le <strong>pourcentage de disponibilité de l’éditeur de texte enrichi</strong> pour un rôle de tâche, consultez l’article <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modification du profil d’un utilisateur</a>.</p> <p>Pour plus d’informations sur le mode de calcul de la disponibilité des rôles de tâche dans le planificateur de ressources, voir la section "Calcul des heures disponibles et de l’éditeur de texte enrichi pour un rôle de tâche dans le planificateur de ressources" de l’article <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Présentation du calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans le planificateur de ressources</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur</td> 
+   <td>l’utilisateur ou de l’utilisatrice</td> 
    <td> <p>Heures, EPT ou coût que l’utilisateur peut utiliser selon son planning pour la période sélectionnée. Ce nombre soustrait les heures associées aux éléments suivants :</p> 
     <ul> 
      <li>exceptions de planification</li> 
@@ -127,12 +128,12 @@ Les tableaux suivants affichent les informations d’allocation et de disponibil
      <li>heures budgétisées pour d’autres projets. </li> 
     </ul> <p>La modification des heures disponibles, de l’éditeur de texte enrichi ou du coût pour un utilisateur s’effectue comme suit : </p> 
     <ul> 
-     <li>la façon dont leur planification et leur ETR sont calculés en fonction des préférences de gestion des ressources au niveau du système.<br><p>Pour plus d’informations sur le calcul de la disponibilité des utilisateurs et des rôles de tâche, consultez l’article . <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Présentation du calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans le planificateur de ressources</a>.</p>
+     <li>la façon dont leur planification et leur ETR sont calculés en fonction des préférences de gestion des ressources au niveau du système.<br><p>Pour plus d’informations sur le calcul de la disponibilité des utilisateurs et des rôles de travail, consultez l’article <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Présentation du calcul des heures et de l’ETR pour les utilisateurs et les rôles dans le planificateur de ressources </a>.</p>
      Pour plus d’informations sur la configuration des préférences de gestion des ressources dans Workfront, voir <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configuration des préférences de gestion des ressources</a></li> 
     </ul> 
     <ul> 
-     <li>la valeur <strong>Priorité de la planification des projets</strong>, si l’utilisateur a un budget prévu pour le travail.<br>Pour plus d’informations sur la façon dont la priorité de planification des projets affecte les heures disponibles d’un utilisateur, voir <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Présentation de la navigation de Resource Planner </a>. </li> 
-    </ul> <p>Si l’utilisateur est programmé pour la désactivation, les heures disponibles, l’éditeur de texte enrichi ou le coût des jours suivant la date de désactivation sont de zéro. <br>Pour plus d’informations sur la désactivation des utilisateurs, voir l’article <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactivation ou réactivation d’un utilisateur</a>.</p> </td> 
+     <li>la <strong>priorité de planification de projet</strong>, si l’utilisateur a un budget de travail.<br>Pour plus d’informations sur la façon dont la priorité de planification des projets affecte les heures disponibles d’un utilisateur, consultez la <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref"> présentation de la navigation du planificateur de ressources </a>. </li> 
+    </ul> <p>Si l’utilisateur est programmé pour la désactivation, les heures disponibles, l’éditeur de texte enrichi ou le coût des jours suivant la date de désactivation sont de zéro. <br>Pour plus d’informations sur la désactivation des utilisateurs, consultez l’article <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactivation ou réactivation d’un utilisateur</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -151,17 +152,17 @@ Les tableaux suivants affichent les informations d’allocation et de disponibil
   </tr> 
   <tr> 
    <td>Projet</td> 
-   <td> <p>Total des heures planifiées, des EPT ou des coûts de tous les rôles ou utilisateurs de tâche répertoriés sous le projet, y compris dans la variable <strong>Aucun rôle</strong> ou <strong>Aucun utilisateur</strong> , pour la période sélectionnée, comme affiché dans l’onglet Détails du projet du projet. </p> <p><b>NOTE</b>
+   <td> <p>Le total des heures planifiées, des EPT ou des coûts de tous les rôles de tâche ou utilisateurs répertoriés sous le projet, y compris dans les sections <strong>Aucun rôle</strong> ou <strong>Aucun utilisateur</strong>, pour la période sélectionnée, et comme affiché dans l’onglet Détails du projet du projet. </p> <p><b>NOTE</b>
 
-Les ajustements manuels des allocations quotidiennes des utilisateurs peuvent modifier la valeur Heures planifiées hebdomadaires, mensuelles ou trimestrielles dans le planificateur de ressources. Vous pouvez ajuster manuellement les affectations quotidiennes des utilisateurs pour les tâches et les problèmes à l’aide de l’équilibreur de charge de travail. Pour plus d’informations, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestion des affectations utilisateur dans l’équilibreur de charge de travail</a>.</p> </td>
+Des ajustements manuels des allocations quotidiennes des utilisateurs pourraient modifier la valeur Heures planifiées hebdomadaires, mensuelles ou trimestrielles dans le planificateur de ressources. Vous pouvez ajuster manuellement les affectations quotidiennes des utilisateurs pour les tâches et les problèmes à l’aide de l’équilibreur de charge de travail. Pour plus d’informations, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail</a>.</p> </td>
 </tr> 
   <tr> 
    <td>Rôle</td> 
-   <td> <p>Total des heures planifiées de toutes les tâches affectées au rôle, pendant la période sélectionnée. </p> <p>Le <strong>Aucun rôle</strong> La section affiche les heures planifiées associées aux tâches qui ne sont pas affectées et affectées aux équipes (dont les heures sont répertoriées dans la <strong>Aucun utilisateur</strong> ) ou affectées à des utilisateurs qui ne sont pas associés à un rôle de tâche. </p> </td> 
+   <td> <p>Total des heures planifiées de toutes les tâches affectées au rôle, pendant la période sélectionnée. </p> <p>La section <strong>Aucun rôle</strong> affichera les heures planifiées associées aux tâches non affectées, affectées à des équipes (dont les heures sont répertoriées dans la section <strong>Aucun utilisateur</strong>) ou affectées à des utilisateurs qui ne sont pas associés à un rôle de tâche. </p> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur</td> 
-   <td> <p>Heures planifiées de toutes les tâches affectées à l’utilisateur dans un rôle spécifique, pendant la période sélectionnée. </p> <p>Le <strong>Aucun utilisateur</strong> La section affiche les heures planifiées associées aux tâches non affectées ou affectées à des équipes. </p> </td> 
+   <td>l’utilisateur ou de l’utilisatrice</td> 
+   <td> <p>Heures planifiées de toutes les tâches affectées à l’utilisateur dans un rôle spécifique, pendant la période sélectionnée. </p> <p>La section <strong>Aucun utilisateur</strong> affichera les heures planifiées associées aux tâches non affectées ou affectées à des équipes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,13 +171,13 @@ Tenez compte des points suivants lors de l’affichage des heures planifiées :
 
 * Bien que vous ne puissiez pas voir les informations sur l’affectation des tâches dans le planificateur de ressources dans les vues Projet et Rôle , le montant des heures planifiées provient des heures planifiées sur les tâches des projets.
 * Les Heures planifiées sont répartie de manière égale sur chaque jour au cours de la Durée des tâches, pour chaque ressource qui leur est affectée. La durée de la tâche est basée sur les dates de début et de fin planifiées de la tâche et inclut chaque jour calendaire de cette période.\
-   Workfront prend en compte le planning de l’utilisateur ou du projet lors de la distribution des heures planifiées aux utilisateurs ou aux projets. Dans ce cas, les heures planifiées sont réparties de manière égale sur chaque jour au cours de la durée des tâches, à l’exception des week-ends, jours de congé et des exceptions de planification.\
-   Si, par exemple, vous affichez le planificateur de ressources par semaine et que vous avez des tâches qui s’étendent sur plusieurs semaines sur des projets, le nombre d’heures planifiées par semaine dépend du nombre de jours de cette semaine qui font partie de la durée de la tâche. Cela fonctionne de la même manière lors de l’affichage du planificateur de ressources par mois ou par trimestre et lorsque les tâches s’étendent sur plusieurs mois ou trimestres.\
-   Les jours du week-end, les exceptions de planification et les jours de congé sont exclus de cette distribution.
+  Workfront prend en compte le planning de l’utilisateur ou du projet lors de la distribution des heures planifiées aux utilisateurs ou aux projets. Dans ce cas, les heures planifiées sont réparties de manière égale sur chaque jour au cours de la durée des tâches, à l’exception des week-ends, jours de congé et des exceptions de planification.\
+  Si, par exemple, vous affichez le planificateur de ressources par semaine et que vous avez des tâches qui s’étendent sur plusieurs semaines sur des projets, le nombre d’heures planifiées par semaine dépend du nombre de jours de cette semaine qui font partie de la durée de la tâche. Cela fonctionne de la même manière lors de l’affichage du planificateur de ressources par mois ou par trimestre et lorsque les tâches s’étendent sur plusieurs mois ou trimestres.\
+  Les jours du week-end, les exceptions de planification et les jours de congé sont exclus de cette distribution.
 * Les catégories de tâches suivantes sont incluses dans le calcul des Heures planifiées pour chaque ressource :
 
    * tâches affectées aux utilisateurs dans les groupes de ressources, les rôles de tâche ou les équipes du projet\
-      Si des tâches sont affectées à des équipes, leur allocation apparaît sous **Aucun rôle** et **Aucun utilisateur** sections. Vous pouvez voir les Heures planifiées associées aux équipes, mais vous ne pouvez pas budgéter les heures, car aucun rôle ni utilisateur n’est associé aux tâches.
+     Si des tâches sont affectées à des équipes, leur attribution apparaît sous les sections **Aucun rôle** et **Aucun utilisateur** . Vous pouvez voir les Heures planifiées associées aux équipes, mais vous ne pouvez pas budgéter les heures, car aucun rôle ni utilisateur n’est associé aux tâches.
 
    * tâches non affectées
 
@@ -184,9 +185,9 @@ Tenez compte des points suivants lors de l’affichage des heures planifiées :
 
    * tâches parentes
    * tâches affectées à des utilisateurs sans pool de ressources
-   * problèmes, lorsque la variable **Inclure les heures des problèmes** est désactivé.
+   * problèmes, lorsque le paramètre **Inclure les heures à partir des problèmes** est désactivé.
 
-* Les heures planifiées ne s’affichent pas dans le planificateur de ressources si la durée de la tâche est nulle.
+* Les heures planifiées ne s’affichent pas dans le planificateur de ressources si la durée de la tâche est zéro.
 * Les heures planifiées associées aux utilisateurs désactivés ne s’affichent pas.
 
 ### La colonne BDG (Budget) {#the-bdg-budgeted-column}
@@ -208,7 +209,7 @@ Tenez compte des points suivants lors de l’affichage des heures planifiées :
    <td> <p>Entrée manuelle permettant d’estimer le nombre d’heures que vous consacrez au budget d’un rôle, pour une période sélectionnée. </p> <p>Si aucun utilisateur n’est associé au rôle de tâche, vous ne pouvez pas estimer les heures budgétisées pour le rôle de tâche. </p> <p>Dans la vue Rôle, les heures que vous allouez au rôle sont réparties dans les projets répertoriés sous le rôle . Le montant des heures planifiées de chaque projet détermine la manière dont les heures budgétées sont réparties dans les projets. Les heures budgétisées sont réparties dans les projets avec des valeurs d’heures planifiées plus élevées.</p> <p>Dans la vue Projet, les heures que vous allouez au rôle ne sont pas distribuées aux projets ni aux utilisateurs associés au rôle. </p> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur</td> 
+   <td>l’utilisateur ou de l’utilisatrice</td> 
    <td> <p>Entrée manuelle permettant d’estimer le nombre d’heures que vous consacrez au budget d’un utilisateur, pour une période sélectionnée. </p> <p> <p><b>REMARQUE</b>   Vous pouvez estimer les heures budgétées pour les utilisateurs qui ne sont pas affectés à des tâches, mais qui sont associés à un pool de ressources sur un projet, car ces utilisateurs apparaissent également dans le planificateur de ressources. Toutefois, leurs heures planifiées doivent être nulles si elles ne sont pas affectées à des tâches. </p> </p> </td> 
   </tr> 
  </tbody> 
@@ -224,20 +225,20 @@ Tenez compte des points suivants lorsque vous utilisez des heures budgétées :
 
 * Vous ne pouvez budgéter les ressources que si vous disposez des autorisations Modifier de gestion des ressources et des données financières et Gérer les finances sur les projets.
 
-   Pour plus d’informations sur l’accès nécessaire à la budgétisation des ressources, voir l’article [Accès aux ressources de budget nécessaires dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Pour plus d’informations sur l’accès aux ressources de budget, consultez l’article [Accès aux ressources de budget dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Par défaut, les Heures budgétisées du planificateur de ressources sont nulles pour toutes les ressources et pour tous les projets.
-* Vous pouvez estimer manuellement les heures budgétisées pour les utilisateurs et les rôles, ou vous pouvez utiliser l’un des liens du projet ou du rôle de tâche. **Plus** pour les mettre à jour en fonction du nombre d’heures planifiées.\
-   Pour plus d’informations sur les options de projet et de rôle, voir la section [Vue d’ensemble des heures, de l’éditeur de texte enrichi et des coûts dans les vues Projet et Rôle du planificateur de ressources](#Budget) dans cet article.
+* Vous pouvez estimer manuellement les heures budgétées pour les utilisateurs et les rôles, ou vous pouvez utiliser l’un des liens des menus Projet ou Rôle de tâche **Plus** pour les mettre à jour en fonction du nombre d’heures planifiées.\
+  Pour plus d’informations sur les options de projet et de rôle, reportez-vous à la section [Présentation des heures, de l’éditeur de texte enrichi et des informations de coût dans les vues Projet et Rôle du planificateur de ressources](#Budget) de cet article.
 
 * La plus petite période pendant laquelle vous pouvez budgéter les heures, l’éditeur de texte enrichi ou le coût est une semaine. Vous ne pouvez pas budgéter les heures, l’éditeur de texte enrichi ou le coût d’une journée.
-* Les Heures budgétisées sont répartie de manière égale sur chaque journée au sein de la Durée des tâches, pour chaque ressource qui leur est affectée. La durée de la tâche est basée sur les dates de début et de fin planifiées de la tâche et inclut chaque jour calendaire de cette période.\
-   Workfront prend en compte le planning de l’utilisateur ou du projet lors de la distribution des heures budgétaires aux utilisateurs ou aux projets. Dans ce cas, les Heures budgétées sont réparties de manière égale chaque jour dans la Durée des tâches, à l’exception des week-ends, mais aussi des exceptions de délai et de planification.\
-   Si, par exemple, vous affichez le planificateur de ressources par semaine et que vous avez des tâches qui s’étendent sur plusieurs semaines, le nombre d’heures budgétisées par semaine dépend du nombre de jours de cette semaine qui font partie de la durée de la tâche. Les jours du week-end sont exclus de cette distribution. Cela fonctionne de la même manière lors de l’affichage du planificateur de ressources par mois ou par trimestre et lorsque les tâches s’étendent sur plusieurs mois ou trimestres.
+* Les Heures budgétisées sont réparties de manière égale sur chaque jour au sein de la Durée des tâches, pour chaque ressource qui leur est affectée. La durée de la tâche est basée sur les dates de début et de fin planifiées de la tâche et inclut chaque jour calendaire de cette période.\
+  Workfront prend en compte le planning de l’utilisateur ou du projet lors de la distribution des heures budgétaires aux utilisateurs ou aux projets. Dans ce cas, les Heures budgétées sont réparties de manière égale chaque jour dans la Durée des tâches, à l’exception des week-ends, mais aussi des exceptions de délai et de planification.\
+  Si, par exemple, vous affichez le planificateur de ressources par semaine et que vous avez des tâches qui s’étendent sur plusieurs semaines, le nombre d’heures budgétisées par semaine dépend du nombre de jours de cette semaine qui font partie de la durée de la tâche. Les jours du week-end sont exclus de cette distribution. Cela fonctionne de la même manière lors de l’affichage du planificateur de ressources par mois ou par trimestre et lorsque les tâches s’étendent sur plusieurs mois ou trimestres.
 
 * Vous pouvez créer des rapports sur les heures budgétisées en sélectionnant Heure budgétée comme objet de rapport pour un nouveau rapport.\
-   Pour plus d’informations sur les objets sur lesquels vous pouvez créer des rapports dans Workfront, reportez-vous à la section &quot;Rapport sur les objets&quot; de l’article . [Présentation des objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
-   Pour plus d’informations sur la création d’un rapport Heure budgétaire, reportez-vous à l’article [Rapport : Heure budgétée](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+  Pour plus d’informations sur les objets sur lesquels vous pouvez créer des rapports dans Workfront, reportez-vous à la section &quot;Rapport sur les objets&quot; dans l’article [Comprendre les objets dans Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+  Pour plus d’informations sur la création d’un rapport Heure budgétaire, reportez-vous à l’article [Rapport : Heure budgétaire](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * Les heures précédemment budgétées pour les utilisateurs qui ont été ultérieurement désactivés ne s’affichent pas.
 
@@ -260,8 +261,8 @@ Tenez compte des points suivants lorsque vous utilisez des heures budgétées :
    <td> <p>L’écart Heure, ETR ou Coût indique si vous disposez de suffisamment d’heures, d’ETR ou de coûts budgétés pour que le rôle puisse accomplir les heures planifiées qui lui sont affectées. </p> <p>L’heure du rôle, l’ETR ou l’écart de coût sont calculés à l’aide de la formule suivante :</p> <p><code>Role Hour, FTE, or Cost Variance = Role Budgeted Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur</td> 
-   <td> <p>L’écart Heures, EPT ou Coût indique si vous disposez de suffisamment d’heures budgétisées pour que l’utilisateur puisse accomplir les heures planifiées qui lui sont affectées. </p> <p>L’écart des heures utilisateur, de l’éditeur de texte enrichi ou de coût est calculé à l’aide de la formule suivante :</p> <p><code>User Hours, FTE, or Cost Variance = User Budgeted Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td>l’utilisateur ou de l’utilisatrice</td> 
+   <td> <p>L’écart Heures, EPT ou Coût indique si vous disposez de suffisamment d’heures budgétaires pour que l’utilisateur puisse accomplir les heures planifiées qui lui sont affectées. </p> <p>L’écart des heures utilisateur, de l’éditeur de texte enrichi ou de coût est calculé à l’aide de la formule suivante :</p> <p><code>User Hours, FTE, or Cost Variance = User Budgeted Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -292,7 +293,7 @@ Tenez compte des points suivants lorsque vous utilisez des heures budgétées :
 
 <p><b>CONSEIL</b></p>        
   <p>Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la section Afficher les éléments sélectionnés .</p>
-  <p>Pour plus d’informations, voir <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.</a> </p> 
+  <p>Pour plus d’informations, voir <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Révision de la disponibilité et de l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront</a> </p> 
       </li> 
      </ul> 
     </div> </td> 
@@ -304,22 +305,22 @@ Tenez compte des points suivants lorsque vous utilisez des heures budgétées :
      <p>Le rôle Heures nettes, ETR ou Coût peut afficher l’une des options suivantes : </p> 
      <ul> 
       <li> <p>Différence entre le temps ou le coût disponible et le temps ou le coût budgété du rôle :</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>La différence entre l’heure ou le coût disponible et l’heure ou le coût planifié du rôle, lorsque les valeurs Utiliser le planifié (PLN) dans le paramètre de calcul NET sont activées :</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>CONSEIL</b> <span>
+      <li> <p><span>La différence entre le temps ou le coût disponible et le temps ou le coût planifié pour le rôle, lorsque les valeurs Utiliser planifié (PLN) dans le paramètre de calculs NET sont activées :</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>CONSEIL</b> <span>
 
-Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la section Afficher les éléments sélectionnés .</span> </p> <p><span>Pour plus d’informations, voir </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.</a> </p> </li>
+Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la section Afficher les éléments sélectionnés.</span> </p> <p><span>Pour plus d’informations, voir </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Révision de la disponibilité et de l’allocation des ressources à l’aide du planificateur de ressources Adobe Workfront</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
   <tr> 
-   <td>Utilisateur</td> 
+   <td>l’utilisateur ou de l’utilisatrice</td> 
    <td> 
     <div> 
      <p>L’utilisateur Heures réseau, ETR ou Coût peut afficher l’une des options suivantes : </p> 
      <ul> 
       <li> <p>La différence entre l'heure ou le coût disponible et l'heure ou le coût budgété pour l'utilisateur :</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>La différence entre l’heure ou le coût disponible et l’heure ou le coût planifié de l’utilisateur, lorsque le paramètre Utiliser les valeurs planifiées (PLN) dans les calculs NET est activé :</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>CONSEIL</b> <span>
+      <li> <p><span>La différence entre l'heure ou le coût disponible et l'heure ou le coût planifié de l'utilisateur, lorsque les valeurs Utiliser planifié (PLN) dans le paramètre de calcul NET sont activées :</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>CONSEIL</b> <span>
 
-Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la section Afficher les éléments sélectionnés .</span> </p> <p><span>Pour plus d’informations, voir </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Vérifiez la disponibilité et l’affectation des ressources à l’aide du planificateur de ressources Adobe Workfront.</a> </p> </li>
+Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la section Afficher les éléments sélectionnés.</span> </p> <p><span>Pour plus d’informations, voir </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Révision de la disponibilité et de l’allocation des ressources à l’aide du planificateur de ressources Adobe Workfront</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -328,7 +329,7 @@ Cette option est appliquée uniquement lorsque vous personnalisez la vue dans la
 
 >[!NOTE]
 >
->**Lorsque les heures NETTES, ETR ou Coût s’affichent en rouge, il n’y a pas suffisamment de temps ou de budget disponible pour couvrir l’une ou l’autre des périodes budgétées.** ou le temps ou le coût planifié associé au travail. Dans ce cas, les ressources sont surchargées.
+>**Lorsque les heures NETTES, ETR ou Coût s&#39;affichent en rouge, il n&#39;y a pas assez de temps ou de budget disponible pour couvrir soit le budget**, soit l&#39;heure planifiée ou le coût associé au travail. Dans ce cas, les ressources sont surchargées.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

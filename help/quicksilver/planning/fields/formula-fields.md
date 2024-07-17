@@ -1,6 +1,6 @@
 ---
-title: Champs de formule - Aperçu
-description: Dans Adobe Workfront Planning, vous pouvez créer des champs de formule qui utilisent des fonctions et des champs existants pour calculer une nouvelle valeur personnalisée.
+title: Vue d’ensemble des champs de formule
+description: Dans Adobe Workfront Planning, vous pouvez créer des champs de formule qui utilisent des fonctions et des champs existants pour calculer une nouvelle valeur personnalisée.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
@@ -8,11 +8,11 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 15%
+ht-degree: 86%
 
 ---
 
-# Champs de formule - Aperçu
+# Vue d’ensemble des champs de formule
 
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 Vous pouvez créer des champs personnalisés dans la Planification Adobe Workfront en vous référant à des champs existants et en les reliant dans un champ de type Formule .
 
-Les champs de formule génèrent une nouvelle valeur en utilisant les valeurs existantes d&#39;autres champs d&#39;un type d&#39;enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
+Les champs Formule génèrent une nouvelle valeur en utilisant les valeurs existantes d’autres champs d’un type d’enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
 
 Pour plus d’informations, reportez-vous à la section &quot;Formule&quot; de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -56,7 +56,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -76,18 +76,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour la planification de Workforce</p>  
+   <td> <p>Il n’existe pas de contrôle d’accès pour Workfront Planning.</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Gestion des autorisations d’un espace de travail</a> </p>  
-   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
+   <td> <p>Gérer les autorisations d’un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Votre administrateur ou administratrice Workfront ou de groupes doit ajouter la zone Planning dans votre modèle de disposition. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
 </td>
   </tr>
 
@@ -99,18 +99,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <p>Legacy plan: Enterprise</p>-->
 
 
-## Observations relatives aux champs de formule
+## Considérations relatives aux champs de formule
 
-* Les champs de formule font référence à des champs qui appartiennent au même type d&#39;enregistrement. Vous ne pouvez pas référencer des champs d’autres types d’enregistrement lors de la création d’un champ de formule. <!--is this still accurate??-->
+* Les champs de formule font référence à des champs qui appartiennent au même type d&#39;enregistrement. Vous ne pouvez pas référencer des champs d’autres types d’enregistrements lors de la création d’un champ de formule. <!--is this still accurate??-->
 * Une fois enregistré, vous ne pouvez pas modifier le type de champ d&#39;un champ Formule.
-* Vous pouvez mettre à jour le calcul d&#39;un champ de formule après son enregistrement, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
-* Vous devez ajouter les champs que vous référencez dans les formules comme ils s’affichent dans l’interface de planification de Workfront.
+* Vous pouvez mettre à jour le calcul d’un champ de formule après l’avoir enregistré, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
+* Vous devez ajouter les champs que vous référencez dans les formules tel qu’ils s’affichent dans l’interface de Workfront Planning.
 
 ## Formules prises en charge
 
-Les champs de formule de planification Adobe Workfront prennent en charge toutes les expressions des champs calculés Workfront. Pour plus d’informations, voir [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Les champs de formule Adobe Workfront Planning prennent en charge toutes les expressions des champs calculés Workfront. Pour plus d’informations, voir [Vue d’ensemble des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-En outre, nous prenons en charge les expressions suivantes pour les champs de formule de planification Workfront :
+Nous prenons également en charge les expressions suivantes pour les champs de formule Workfront Planning :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,7 +125,7 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
 
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
-   <td> <p>Renvoie une chaîne concaténée par délimiteur.</p> <p>L’expression est formatée comme suit :
+   <td> <p>Renvoie une chaîne concaténée par délimiteur.</p> <p>L’expression est mise en forme comme suit :
 
 <code>ARRAYJOIN(délimiteur,tableau)</code>
 </p>
@@ -133,14 +133,14 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
-   <td> <p>Renvoie un tableau avec des valeurs uniques.</p> <p>L’expression est formatée comme suit :
+   <td> <p>Renvoie un tableau avec des valeurs uniques.</p> <p>L’expression est mise en forme comme suit :
 
-<code>ARRAYUNIQUE(array)</code>
+<code>ARRAYUNIQUE(tableau)</code>
 </p>
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>Renvoie l’identifiant d’un enregistrement. Chaque enregistrement possède un identifiant unique.</p> <p>L’expression est formatée comme suit :
+   <td> <p>Renvoie l’ID d’un enregistrement. Chaque enregistrement possède un ID unique.</p> <p>L’expression est mise en forme comme suit :
 
 <code>{ID}</code>
 </p>
@@ -148,15 +148,15 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
 
 <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
-   <td> <p>Définit le fuseau horaire d’une date et d’une heure sur un fuseau horaire spécifique.</p> <p>L’expression est formatée comme suit :
+   <td> <p>Définit le fuseau horaire d’une date et d’une heure sur un fuseau horaire spécifique.</p> <p>L’expression est mise en forme comme suit :
 
-<code>SETTIMEZONE(date,&#39;Amérique/Los_Angeles&#39;)</code>
+<code>SETTIMEZONE(date, « Amérique/Los_Angeles »)</code>
 </p>
    </td></tr>
 
 <tr> 
-   <td><strong>WEEKOFAN</strong> </td> 
-   <td> <p>Renvoie le numéro de la semaine dans une année. Vous pouvez éventuellement indiquer le jour de début de la semaine (utilisez 1 pour dimanche ou 2 pour lundi). Si cette option est omise, les semaines commencent le dimanche, par défaut.</p> <p>L’expression est formatée comme suit :
+   <td><strong>WEEKOFYEAR</strong> </td> 
+   <td> <p>Renvoie le numéro de la semaine dans une année. Vous pouvez éventuellement indiquer le jour de début de la semaine (utilisez 1 pour dimanche ou 2 pour lundi). Si cette option est omise, les semaines commencent le dimanche, par défaut.</p> <p>L’expression est mise en forme comme suit :
 
 <code>WEEKOFYEAR(date,2)</code>
 ou

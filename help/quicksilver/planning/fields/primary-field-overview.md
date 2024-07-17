@@ -4,7 +4,8 @@ description: En mode Tableau d’un type d’enregistrement dans Adobe Workfront
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
+source-git-commit: 9a9a756e2b7e30ce3c0139e5e166b65c7e64bffd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 11%
@@ -27,7 +28,7 @@ Par défaut, le champ Nom est le champ principal. Vous pouvez toutefois désigne
 
 ![](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-Pour plus d’informations sur la désignation d’un champ comme champ principal, voir [Gestion de la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+Pour plus d’informations sur la désignation d’un champ comme champ principal, voir [Gestion de la vue de table](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Présentation des champs principaux
 

@@ -1,6 +1,6 @@
 ---
 title: Supprimer des champs
-description: Dans Adobe Workfront Planning, vous pouvez supprimer les champs personnalisés qui ne sont plus pertinents.
+description: Adobe Workfront Planning vous permet de supprimer les champs personnalisés qui ne sont plus pertinents.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
@@ -8,7 +8,7 @@ exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 8%
+ht-degree: 86%
 
 ---
 
@@ -29,20 +29,20 @@ recommendations: noDisplay, noCatalog
 
 {{planning-important-intro}}
 
-Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour stocker des informations sur les enregistrements.
+Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour stocker des informations sur les enregistrements.
 
-Pour plus d’informations sur la création de champs personnalisés dans Workfront Planning, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+Pour plus d’informations sur la création de champs personnalisés dans Workfront Planning, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-Vous pouvez supprimer les champs de planification Workfront qui ne sont plus pertinents.
+Vous pouvez supprimer les champs Workfront Planning qui ne sont plus pertinents.
 
-## Remarques concernant la suppression des champs de planification Workfront :
+## Remarques concernant la suppression de champs Workfront Planning :
 
-* Vous ne pouvez supprimer un champ que dans la vue de tableau de type enregistrement.
+* Vous ne pouvez supprimer un champ que dans la vue Tableau du type d’enregistrement.
 * Vous ne pouvez pas supprimer le champ principal d’un enregistrement.
 * Toutes les informations stockées dans le champ sont supprimées et ne peuvent pas être récupérées.
-* Lorsque vous supprimez un champ d’enregistrement lié, tous les champs de recherche liés sont également supprimés du type d’enregistrement à partir duquel vous créez un lien. Les champs d’enregistrement liés des types d’enregistrement auxquels vous créez un lien ne sont pas supprimés.
+* Lorsque vous supprimez un champ d’enregistrement lié, tous les champs de recherche liés sont également supprimés du type d’enregistrement à partir duquel le lien a été établi. Les champs d’enregistrement liés des types d’enregistrement que vous connectez ne sont pas supprimés.
 
-  Pour plus d’informations, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Pour plus d’informations, consultez la section [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
@@ -63,7 +63,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -83,18 +83,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Workfront</p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Votre administrateur ou administratrice Workfront ou de groupes doit ajouter la zone Planning dans votre modèle de disposition. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Gestion des autorisations d’un espace de travail</a> </p>  
-   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
+   <td> <p>Gérer les autorisations d’un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
  </tbody>
@@ -115,13 +115,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’espace de travail dont vous souhaitez supprimer les champs d’enregistrement.
 
-   L’espace de travail s’ouvre et les types d’enregistrement s’affichent.
+   L’espace de travail et les types d’enregistrement s’affichent.
 
 1. Cliquez sur la carte d’un type d’enregistrement.
 
-1. (Conditionnel) Si ce n’est pas déjà fait, cliquez sur l’onglet d’un **Vue Tableau** sur la page de type enregistrement.
+1. (Conditionnel) Si cette option n’est pas déjà sélectionnée, cliquez sur l’onglet d’une **vue Tableau** sur la page de type enregistrement.
 
-   Tous les enregistrements existants associés au type d&#39;enregistrement s&#39;affichent dans les lignes du mode Tableau.
+   Tous les enregistrements existants associés au type d’enregistrement s’affichent dans les lignes de la vue du tableau.
 
 1. Recherchez le champ à supprimer dans les en-têtes de colonne, survolez l’en-tête de colonne avec la souris, puis cliquez sur la flèche pointant vers le bas située après le nom du champ.
 
@@ -131,6 +131,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    <!--insert screen shot when finalized-->
 
-1. Cliquez sur **Supprimer** pour confirmer.
+1. Cliquez sur **Supprimer** pour confirmer l’opération.
 
-   Le champ est supprimé, ne peut pas être récupéré et ne peut plus être associé à aucun enregistrement.
+   Le champ est supprimé de manière irréversible et ne peut plus être associé à aucun enregistrement.

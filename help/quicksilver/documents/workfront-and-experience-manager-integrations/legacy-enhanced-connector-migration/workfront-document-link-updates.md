@@ -31,8 +31,8 @@ Vous pouvez utiliser l’API pour migrer les dossiers et documents liés vers Ad
 
 1. Créez un lien vers un nouveau document ou dossier de document dans Workfront, en pointant vers la ressource à son nouvel emplacement via son nouvel ID externe.
 
-   1. **Documents**: ajoutez une nouvelle version du document existant avec le nouveau fournisseur de documents externe.
-   1. **Dossiers**: créez un dossier portant le même nom au même endroit.
+   1. **Documents** : ajoutez une nouvelle version du document existant avec le nouveau fournisseur de documents externe.
+   1. **Dossiers** : créez un dossier au même endroit avec le même nom.
 
 >[!CAUTION]
 >
@@ -45,11 +45,11 @@ Vous pouvez utiliser l’API pour migrer les dossiers et documents liés vers Ad
 
 ## Informations sur l’API
 
-Pour plus d’informations sur les API Workfront de cette section, voir [Documentation destinée aux développeurs : documents](https://developer.workfront.com/documents.html).
+Pour plus d’informations sur les API Workfront dans cette section, voir [Documentation développeur : documents](https://developer.workfront.com/documents.html).
 
 ### Recherche de tous les documents
 
-Tout rechercher **Documents (DOCU)** Associé à **Fournisseur de documents** de **providerType** avec **documentProviderID**.
+Recherchez tous les **documents (DOCU)** liés à **Fournisseur de documents** de **providerType** avec **documentProviderID**.
 
 ```
 Http Method: GET
@@ -57,11 +57,11 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&currentVersion:externalIntegrationType={providerType}
 ```
 
-[Référence des DOCS de l’API](https://developer.workfront.com/documents.html#get-/docu/search)
+[Référence DOCS API](https://developer.workfront.com/documents.html#get-/docu/search)
 
 ### Recherche de tous les dossiers
 
-Tout rechercher **Dossiers de document (DOCFDR)** Lié au fournisseur de document de **providerType** avec **documentProviderID**.
+Recherchez tous les **dossiers de document (DOCFDR)** liés au fournisseur de document **providerType** avec **documentProviderID**.
 
 ```
 Http Method: GET
@@ -73,7 +73,7 @@ Documentation d’API : (points de fin de dossier de document non actuellement c
 
 ### Lier des documents
 
-Lien **Documents (DOCU)** de **Fournisseur de documents externe** de **providerType** avec **documentProviderID**.
+Liez **Documents (DOCU)** de **External Document Provider** de **providerType** avec **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ Documentation API : (points de terminaison de lien interne non actuellement couv
 
 ### Lier des dossiers
 
-Lien **Dossiers de document (DOCFDR)** de **Fournisseur de documents externe** de **providerType** avec **documentProviderID**.
+Liez **Document Folders (DOCFDR)** de **External Document Provider** de **providerType** avec **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -116,23 +116,23 @@ Documentation API : (points de terminaison de lien interne non actuellement couv
 
 ## Termes importants
 
-* **Document**: ressource numérique dans Workfront
+* **Document** : ressource numérique dans Workfront
 
-* **Document Folder**: conteneur pour les ressources numériques dans Workfront
+* **Dossier de document** : conteneur pour les ressources numériques dans Workfront
 
-* **Document ID**: identifiant interne Workfront d’une ressource numérique
+* **ID de document** : ID interne Workfront pour une ressource numérique
 
-* **Document Folder ID**: identifiant interne Workfront pour un dossier de ressources numériques
+* **ID de dossier de document** : ID interne Workfront pour un dossier de ressources numériques
 
-* **ID de fournisseur de documents**: identifiant associé à des fournisseurs de documents spécifiques
+* **ID de fournisseur de document** : ID associé à des fournisseurs de documents spécifiques
 
 >[!IMPORTANT]
 >
 > Pour tout type de fournisseur de document donné, un client peut avoir plusieurs instances connectées. Par exemple, plusieurs référentiels d’AEM peuvent être liés. Ou plusieurs instances Google Drive liées. L’ID de fournisseur de document indique l’instance spécifique du type de connexion que nous voulons remplacer ou changer.
 
-* **Type de fournisseur de stockage de documents (également &quot;Type d’intégration externe&quot;)**: type d’intégration du fournisseur de stockage de documents prise en charge par Workfront. Soit par le biais d’une intégration dédiée, soit par une &quot;intégration personnalisée&quot;.
+* **Type de fournisseur de stockage de documents (également &quot;Type d’intégration externe&quot;)** : type d’intégration de fournisseur de stockage de documents prise en charge par Workfront. Soit par le biais d’une intégration dédiée, soit par une &quot;intégration personnalisée&quot;.
 
-* **Types de fournisseurs de stockage de documents actuels (providerType)**:
+* **Types de fournisseurs de stockage de documents actuels (providerType)** :
 
   ```
   ATTASK
@@ -152,17 +152,17 @@ Documentation API : (points de terminaison de lien interne non actuellement couv
   MOCK
   ```
 
-* **Document lié**: ressource numérique hébergée dans un fournisseur externe de stockage de documents. Workfront aura son propre &quot;ID de document&quot; interne pour la ressource, mais les octets sont stockés en externe. Pour faciliter cette opération, Workfront stocke également un &quot;ID de document externe&quot; afin de faciliter la localisation de la ressource référencée en externe dans le référentiel ou le magasin distant.
+* **Linked Document** : ressource numérique hébergée dans un fournisseur externe de stockage de documents. Workfront aura son propre &quot;ID de document&quot; interne pour la ressource, mais les octets sont stockés en externe. Pour faciliter cette opération, Workfront stocke également un &quot;ID de document externe&quot; afin de faciliter la localisation de la ressource référencée en externe dans le référentiel ou le magasin distant.
 
-* **Linked Document Folder**: conteneur pour les ressources numériques hébergées dans un fournisseur externe de stockage de documents. Workfront aura son propre &quot;ID de dossier de document&quot; interne pour la ressource, mais les octets sont stockés en externe. Pour faciliter cette opération, Workfront stocke également un &quot;ID de document externe&quot; afin de faciliter la localisation de la ressource référencée en externe dans le référentiel ou le magasin distant.
+* **Linked Document Folder** : conteneur pour les ressources numériques hébergées dans un fournisseur de stockage de documents externe. Workfront aura son propre &quot;ID de dossier de document&quot; interne pour la ressource, mais les octets sont stockés en externe. Pour faciliter cette opération, Workfront stocke également un &quot;ID de document externe&quot; afin de faciliter la localisation de la ressource référencée en externe dans le référentiel ou le magasin distant.
 
-* **ID de document externe**: identifiant attribué lorsque les ressources sont stockées en dehors de Workfront. Workfront mappe son identifiant interne à l&#39;identifiant utilisé pour localiser la ressource dans le système externe, via ce champ &quot;identifiant document externe&quot;. Par conséquent, lors de la liaison du document ou du dossier à partir d’un nouveau magasin externe, un nouvel identifiant de document externe doit être composé, dans le format approprié, pour que le fournisseur de documents externe identifie le document dans le nouveau référentiel ou magasin.
+* **ID de document externe** : ID attribué lorsque des ressources sont stockées en dehors de Workfront. Workfront mappe son identifiant interne à l&#39;identifiant utilisé pour localiser la ressource dans le système externe, via ce champ &quot;identifiant document externe&quot;. Par conséquent, lors de la liaison du document ou du dossier à partir d’un nouveau magasin externe, un nouvel identifiant de document externe doit être composé, dans le format approprié, pour que le fournisseur de documents externe identifie le document dans le nouveau référentiel ou magasin.
 
   >[!NOTE]
   >
   > Workfront ne dispose pas encore d’une norme pour les identifiants de document externe. Une nouvelle spécification est en cours d’utilisation pour les ID d’AEM, mais pour les autres ID, l’ID de document externe peut prendre différentes formes selon le type de fournisseur.
 
 
-* **Type d’objet**: il s’agit d’un terme d’API uniquement aux fins de ce document. C’est un type d’objet générique dans Workfront avec lequel vous souhaitez interagir. Dans ce cas, vous interagissez avec des documents et des dossiers de type &quot;DOCU&quot; et &quot;DOCFDR&quot; respectivement.
+* **Type d’objet** : il s’agit d’un terme d’API uniquement aux fins de ce document. C’est un type d’objet générique dans Workfront avec lequel vous souhaitez interagir. Dans ce cas, vous interagissez avec des documents et des dossiers de type &quot;DOCU&quot; et &quot;DOCFDR&quot; respectivement.
 
-* **Identifiant d’objet**: identifiant Workfront interne de l’objet générique avec lequel vous souhaitez interagir. Vous interagissez avec des documents et des dossiers, ce qui correspond respectivement à l’ID de document ou à l’ID de dossier de document.
+* **Object ID** : identifiant Workfront interne de l’objet générique avec lequel vous souhaitez interagir. Vous interagissez avec des documents et des dossiers, ce qui correspond respectivement à l’ID de document ou à l’ID de dossier de document.

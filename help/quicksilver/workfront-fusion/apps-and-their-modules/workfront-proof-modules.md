@@ -2,78 +2,78 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
-keywords: connector
+keywords: Connecteur
 navigation-topic: apps-and-their-modules
-title: Modules Workfront BAT
-description: Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Workfront Proof], ainsi que de la connecter à plusieurs applications et services tiers.
+title: Modules d’épreuve de Workfront
+description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent  [!DNL Workfront Proof] et les connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
 source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '3099'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
-# [!DNL Workfront Proof] modules
+# Modules [!DNL Workfront Proof]
 
-Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Workfront Proof], ainsi que de la connecter à plusieurs applications et services tiers.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Workfront Proof] et les connecter à plusieurs applications et services tiers.
 
-Cela s’avère utile si vous devez exécuter des tâches actuellement non prises en charge dans la vérification [!DNL Workfront] ou [!DNL Workfront Proof], comme la mise à jour des BAT en fonction de certains événements et la recherche des destinataires d’un BAT.
+Cela s’avère utile si vous devez exécuter des tâches actuellement non prises en charge dans la vérification dans [!DNL Workfront] ou dans [!DNL Workfront Proof], telles que la mise à jour des bons à tirer en fonction de certains événements et la recherche des destinataires d’un BAT.
 
-La variable [!DNL Workfront Proof] Le connecteur ne compte pas par rapport au nombre d’applications actives disponibles pour votre organisation. Tous les scénarios, même s’ils utilisent uniquement la variable [!DNL Workfront Proof] , ne comptez pas par rapport au nombre total de scénarios de votre entreprise.
+Le connecteur [!DNL Workfront Proof] n’est pas pris en compte dans le nombre d’applications actives disponibles pour votre organisation. Tous les scénarios, même s’ils utilisent uniquement l’application [!DNL Workfront Proof], ne sont pas pris en compte dans le nombre total de scénarios de votre entreprise.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, voir [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail, [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail]</p>
+   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Connexion [!DNL Workfront Proof] to [!DNL Workfront Fusion]
+## Connecter [!DNL Workfront Proof] à [!DNL Workfront Fusion]
 
-Vous pouvez créer une connexion à votre [!DNL Workfront Proof] compte directement depuis l’intérieur d’un [!DNL Workfront Fusion] module .
+Vous pouvez créer une connexion à votre compte [!DNL Workfront Proof] directement à partir de l’intérieur d’un module [!DNL Workfront Fusion].
 
-1. Dans n’importe quel [!DNL Workfront Fusion] module, cliquez sur [!UICONTROL **Ajouter**] en regard de [!UICONTROL Connexion] field
+1. Dans un module [!DNL Workfront Fusion], cliquez sur [!UICONTROL **Ajouter**] en regard du champ [!UICONTROL Connexion]
 
-2. Renseignez les champs suivants :
+2. Renseignez les champs suivants :
 
    <table style="table-layout:auto"> 
         <col/>
@@ -81,7 +81,7 @@ Vous pouvez créer une connexion à votre [!DNL Workfront Proof] compte directem
         <tbody>
             <tr>
                 <td role="rowheader">
-                    <p role="rowheader">[!UICONTROL Nom de la connexion]</p>
+                    <p role="rowheader">[!UICONTROL Connection name]</p>
                 </td>
                 <td>Saisissez un nom pour la connexion.</td>
             </tr>
@@ -95,15 +95,15 @@ Vous pouvez créer une connexion à votre [!DNL Workfront Proof] compte directem
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Email / Nom d’utilisateur]</td>
-                <td>Saisissez le nom d’utilisateur de votre [!DNL Workfront Proof] compte .</td>
+                <td>Saisissez le nom d’utilisateur de votre compte [!DNL Workfront Proof].</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Password]</td>
-                <td>Saisissez le mot de passe de votre [!DNL Workfront Proof] compte .</td>
+                <td>Saisissez le mot de passe de votre compte [!DNL Workfront Proof].</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL ID de tenant]</td>
-                <td><strong>Remarque</strong>: les clients qui n’utilisent pas BYOK doivent laisser ce champ vide. <p>Saisissez l’identifiant du client pour ce compte. Si vous avez besoin d’aide pour trouver votre ID de tenant, contactez le service clientèle de Workfront.</p></td>
+                <td><strong>Remarque</strong> : les clients qui n’utilisent pas BYOK doivent laisser ce champ vide. <p>Saisissez l’identifiant du client pour ce compte. Si vous avez besoin d’aide pour trouver votre ID de tenant, contactez le service clientèle de Workfront.</p></td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Domain Extension]</td>
@@ -119,25 +119,25 @@ Vous pouvez créer une connexion à votre [!DNL Workfront Proof] compte directem
 
 3. Cliquez sur [!UICONTROL **Continuer**] pour enregistrer la connexion et revenir au module
 
-## [!DNL Workfront Proof] modules et leurs champs
+## Modules [!DNL Workfront Proof] et leurs champs
 
-Lorsque vous configurez [!DNL Workfront Proof] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL Workfront Proof] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez des modules [!DNL Workfront Proof], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Workfront Proof] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers)
+* [Déclencheurs](#triggers)
 * [Actions](#actions)
 * [Recherches](#searches)
 
-### Triggers
+### Déclencheurs
 
 * [Bons à tirer](#watch-proofs)
 * [Rechercher le résumé du PDF](#watch-for-pdf-summary)
-* [[!UICONTROL Activité de contrôle de preuve]](#watch-proof-activity)
+* [[!UICONTROL  {Surveiller l’activité du BAT]](#watch-proof-activity)
 
-#### [!UICONTROL Bons à tirer]
+#### [!UICONTROL Surveiller Les Bons À Tirer]
 
 Ce module de déclenchement planifié exécute un scénario lorsqu’une personne crée ou prend une décision sur un BAT.
 
@@ -155,19 +155,19 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type d’enregistrement</td> 
-   <td>Sélectionnez le type de [!DNL Workfront Proof] enregistrement que vous souhaitez que le module regarde.</td> 
+   <td>Sélectionnez le type d’enregistrement [!DNL Workfront Proof] que le module doit surveiller.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Sorties</td> 
-   <td> <p>Sélectionnez les informations que vous souhaitez inclure dans le lot de sortie pour ce module.</p> </td> 
+   <td> <p>Sélectionnez les informations à inclure dans le lot de sortie pour ce module.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Limite</td> 
-   <td> <p>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
+   <td> <p>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -188,24 +188,24 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
    <td>Vous pouvez sélectionner un webhook existant ou en créer un nouveau. Pour plus d’informations, voir <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Déclencheurs instantanés (webhooks) dans [!DNL Adobe Workfront Fusion]</a>. </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Limite]</td> 
-   <td>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</td> 
+   <td>[!UICONTROL Limit]</td> 
+   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Activité de contrôle de preuve]
+#### [!UICONTROL  {Surveiller l’activité du BAT]
 
 Ce module de déclenchement exécute un scénario lorsqu’une activité spécifiée se produit sur un BAT.
 
-Le module renvoie tous les champs standard associés au BAT, ainsi que les champs personnalisés et les valeurs auxquels la connexion a accès. Il crée également un nouvel abonnement d’événement pour les résumés de PDF et génère le contenu à partir de la `pdf_url` envoyé dans la payload. Vous pouvez mapper ces informations dans les modules suivants du scénario.
+Le module renvoie tous les champs standard associés au BAT, ainsi que les champs personnalisés et les valeurs auxquels la connexion a accès. Il crée également un nouvel abonnement d’événement pour les résumés de PDF et génère le contenu de l’attribut `pdf_url` envoyé dans la payload. Vous pouvez mapper ces informations dans les modules suivants du scénario.
 
 Lors de la configuration de ce module, les champs suivants s’affichent.
 
@@ -215,15 +215,15 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Type d’activité]</td> 
    <td>Indiquez si vous souhaitez regarder une nouvelle décision (y compris les modifications d’état [!UICONTROL BAT]) ou les modifications d’état global du BAT uniquement.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Limite]</td> 
-   <td>Saisissez ou mappez le nombre maximum d'enregistrements que le module doit renvoyer pour chaque cycle d'exécution de scénario.</td> 
+   <td>[!UICONTROL Limit]</td> 
+   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -254,11 +254,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL BAT Type]</td> 
-   <td> <p>Indiquez si vous souhaitez que le BAT créé dispose d’un workflow de base ou d’un [!UICONTROL Processus automatisé].</p> <p>Renseignez ensuite les champs qui s'affichent pour le type de BAT que vous avez choisi. Par exemple, si vous avez sélectionné [!UICONTROL Processus automatisé], renseignez la variable <strong>[!UICONTROL Étapes de workflow]</strong> pour configurer les étapes.</p></td> 
+   <td> <p>Indiquez si vous souhaitez que le BAT créé dispose d’un workflow de base ou d’un [!UICONTROL Processus automatisé].</p> <p>Renseignez ensuite les champs qui s'affichent pour le type de BAT que vous avez choisi. Par exemple, si vous avez sélectionné [!UICONTROL Processus automatisé], remplissez le champ <strong>[!UICONTROL Étapes de processus]</strong> pour configurer les étapes.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Autoriser le téléchargement du fichier d’origine]</td> 
@@ -274,7 +274,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL Créer une version de BAT]</td> 
-   <td>Sélectionnez cette option si vous souhaitez que le module crée une nouvelle version d'un BAT existant. Ensuite, dans la variable <strong>[!UICONTROL ID de bon à tirer existant]</strong> champ qui affiche, mappe ou saisit l’identifiant unique du BAT.</td> 
+   <td>Sélectionnez cette option si vous souhaitez que le module crée une nouvelle version d'un BAT existant. Ensuite, dans le champ <strong>[!UICONTROL Existant Proof ID]</strong> qui affiche, mappe ou saisit l’identifiant unique du BAT.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Étiquette de lien personnalisé]</td> 
@@ -291,7 +291,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
      <li><strong>1</strong> - Tous les nouveaux commentaires et réponses</li>
      <li><strong>2</strong> - Réponses à mes commentaires</li>
      <li><strong>3</strong> - Résumé quotidien</li>
-     <li><strong>4</strong> - Synthèse horaire</li>
+     <li><strong>4</strong> - Résumé horaire</li>
      <li><strong>5</strong> - Décisions uniquement</li>
      <li><strong>9</strong> - Désactivé</li>
     </ul></td> 
@@ -325,7 +325,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
    <td>Indiquez si vous souhaitez que le BAT créé soit masqué ou affiche l’URL de l’équipe.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Hash de fichier] <span style="font-weight: normal;">ou</span> [!UICONTROL Hachages de fichier]</td> 
+   <td>[!UICONTROL Hachage de fichier] <span style="font-weight: normal;"> ou </span> [!UICONTROL Hachages de fichier]</td> 
    <td>Ajoutez l'identifiant du ou des fichiers à partir desquels vous souhaitez créer un BAT ou des BAT.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -358,11 +358,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Nécessite une connexion]</td> 
-   <td> <p>Indiquez si vous souhaitez que le BAT créé requiert une connexion. </p> <p>Il s’agit du même paramètre que le paramètre [!UICONTROL Connexion requise] expliqué dans la section <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configuration des paramètres de BAT] dans [!DNL Workfront Proof]</a></p> </td> 
+   <td> <p>Indiquez si vous souhaitez que le BAT créé requiert une connexion. </p> <p>Il s’agit du même paramètre que le paramètre [!UICONTROL Connexion requise] expliqué dans <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configuration des paramètres de BAT] dans [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Resolution ID]</td> 
-   <td>Saisissez l'identifiant de la résolution que vous souhaitez utiliser pour votre BAT. Pour obtenir la liste des ID de résolution, voir [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">Documentation de l’API</a>.</td> 
+   <td>Saisissez l'identifiant de la résolution que vous souhaitez utiliser pour votre BAT. Pour obtenir la liste des ID de résolution, consultez la [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">documentation de l’API</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
@@ -373,7 +373,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
    <td>Pour chaque élément, choisissez si vous souhaitez l’afficher dans le BAT.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL ID Workspace]</td> 
+   <td>[!UICONTROL Workspace ID]</td> 
    <td>Saisissez l'identifiant de l'espace de travail dans lequel vous souhaitez créer le BAT. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -389,7 +389,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 #### [!UICONTROL Appel API personnalisé]
 
-Ce module d’action vous permet d’effectuer un appel authentifié personnalisé vers le [!DNL Workfront Proof] API. Ainsi, vous pouvez créer une automatisation du flux de données qui ne peut pas être réalisée par l’autre [!DNL Workfront Proof] modules.
+Ce module d’action vous permet d’effectuer un appel authentifié personnalisé à l’API [!DNL Workfront Proof]. Ainsi, vous pouvez créer une automatisation du flux de données qui ne peut pas être réalisée par les autres modules [!DNL Workfront Proof].
 
 Le module renvoie le code d’état, les en-têtes et le corps. Vous pouvez mapper ces informations dans les modules suivants du scénario.
 
@@ -401,15 +401,15 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Méthode [!UICONTROL]</td> 
-   <td>Définissez l’action de l’appel API. Pour connaître les actions disponibles, voir <a href="https://api.proofhq.com/">Documentation de l’API de test</a>.</td> 
+   <td>[!UICONTROL Method]</td> 
+   <td>Définissez l’action de l’appel API. Pour connaître les actions disponibles, reportez-vous à la <a href="https://api.proofhq.com/">documentation de l’API Proof</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -419,7 +419,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >![](assets/wfp-api-module-example-350x586.png)
 
@@ -441,7 +441,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL BAT ID]</td> 
@@ -452,7 +452,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 #### [!UICONTROL Lire un enregistrement]
 
-Ce module d’action lit les données à partir d’un seul BAT dans [!DNL Workfront Proof].
+Ce module d’action lit les données d’un seul BAT dans [!DNL Workfront Proof].
 
 Vous indiquez l’identifiant du BAT et les informations que vous souhaitez obtenir du BAT.
 
@@ -468,19 +468,19 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type]</td> 
    <td>Indiquez si vous souhaitez lire un BAT, des commentaires de BAT ou des réviseurs de BAT.</td> 
   </tr> 
   <tr> 
-   <td>Sorties [!UICONTROL]</td> 
-   <td> <p>Sélectionnez les informations que vous souhaitez inclure dans le lot de sortie pour ce module.</p> </td> 
+   <td>[!UICONTROL Outputs]</td> 
+   <td> <p>Sélectionnez les informations à inclure dans le lot de sortie pour ce module.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td>Saisissez ou mappez l’unique [!DNL Workfront Proof] Identifiant de l’enregistrement que vous souhaitez que le module lise.</td> 
+   <td>Saisissez ou mappez l’identifiant unique [!DNL Workfront Proof] de l’enregistrement que vous souhaitez que le module lise.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -503,11 +503,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL BAT ID]</td> 
-   <td> <p>Saisissez l’unique [!DNL Workfront Proof] Identifiant du BAT pour lequel vous souhaitez demander un résumé pour le PDF.</p> </td> 
+   <td> <p>Saisissez l'identifiant unique [!DNL Workfront Proof] du BAT pour lequel vous souhaitez demander un résumé pour le PDF.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL URL de rappel]</td> 
@@ -518,12 +518,12 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 ##### Erreur possible
 
-* **Erreur**: &quot;[!UICONTROL Vous n’avez pas le droit d’effectuer cette requête. La scène doit contenir au moins un destinataire.]&quot;
-* **Solution**: assurez-vous que vous n’êtes pas le seul attribué aux étapes du workflow. Un autre utilisateur doit être affecté aux étapes du workflow.
+* **Error** : &quot;[!UICONTROL Vous n’avez pas le privilège d’effectuer cette requête. La scène doit contenir au moins un destinataire.]&quot;
+* **Solution** : assurez-vous que vous n’êtes pas le seul attribué aux étapes du workflow. Un autre utilisateur doit être affecté aux étapes du workflow.
 
 #### [!UICONTROL Mettre à jour le BAT]
 
-Ce module d’action met à jour un BAT existant dans [!DNL Workfront Proof].
+Ce module d&#39;action met à jour un BAT existant dans [!DNL Workfront Proof].
 
 Vous spécifiez l’identifiant du BAT et le type d’enregistrement, ainsi que les champs que vous souhaitez inclure dans la sortie.
 
@@ -539,7 +539,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL BAT ID]</td> 
@@ -599,7 +599,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL Nécessite une connexion]</td> 
-   <td> <p>Indiquez si vous souhaitez que le BAT créé requiert une connexion. </p> <p>Il s’agit du même paramètre que le paramètre [!UICONTROL Connexion requise] expliqué dans la section <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configuration des paramètres de BAT] dans [!DNL Workfront Proof]</a></p> </td> 
+   <td> <p>Indiquez si vous souhaitez que le BAT créé requiert une connexion. </p> <p>Il s’agit du même paramètre que le paramètre [!UICONTROL Connexion requise] expliqué dans <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configuration des paramètres de BAT] dans [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Afficher les versions comme]</td> 
@@ -614,7 +614,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 #### [!UICONTROL Télécharger le fichier]
 
-Ce module d’action télécharge un fichier à utiliser avec le [!UICONTROL Créer un bon à tirer] module dans [!DNL Workfront Proof].
+Ce module d’action charge un fichier à utiliser avec le module [!UICONTROL Créer un bon à tirer] dans [!DNL Workfront Proof].
 
 Le module renvoie un identifiant de hachage pour le fichier chargé. Vous pouvez mapper ces informations dans les modules suivants du scénario.
 
@@ -626,10 +626,10 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Fichier source]</td> 
+   <td>[!UICONTROL Source file]</td> 
    <td> <p>Sélectionnez un fichier source à partir d’un module précédent ou mappez le nom et les données du fichier source.</p> </td> 
   </tr> 
  </tbody> 
@@ -638,11 +638,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 ### Recherches
 
 * [[!UICONTROL Rechercher]](#search)
-* [[!UICONTROL Liste des modèles de workflow]](#list-workflow-templates)
+* [[!UICONTROL  Liste des modèles de workflow ]](#list-workflow-templates)
 
 #### [!UICONTROL Rechercher]
 
-Ce module de recherche recherche recherche des enregistrements dans un objet de la section [!DNL Workfront Proof] qui correspondent à la requête de recherche que vous spécifiez.
+Ce module de recherche recherche des enregistrements d’un objet dans [!DNL Workfront Proof] qui correspondent à la requête de recherche que vous avez spécifiée.
 
 Le module renvoie l’identifiant du BAT s’il recherche un BAT. Ou elle renvoie les identifiants utilisateur, emails, noms, positions et alias de messagerie des destinataires, s&#39;il recherche des destinataires. Vous pouvez associer ces informations dans les modules suivants du scénario.
 
@@ -656,19 +656,19 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Rechercher</td> 
    <td> <p>Voir[!UICONTROL ]sélectionnez le type d’enregistrement que le module doit rechercher.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Preuve]</strong> </p> <p>Saisissez le Nom du BAT du BAT que vous souhaitez rechercher.</p> </li> 
+     <li> <p><strong>[!UICONTROL Bon À Tirer]</strong> </p> <p>Saisissez le Nom du BAT du BAT que vous souhaitez rechercher.</p> </li> 
      <li> <p><strong>[!UICONTROL Destinataire]</strong> </p> <p>Saisissez l'adresse email du destinataire que vous souhaitez rechercher.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Result Set]</td> 
-   <td>Indiquez si le module recherche <strong>[!UICONTROL Tous Les Enregistrements Correspondants]</strong> ou uniquement <strong>[!UICONTROL Premier enregistrement correspondant]</strong>.</td> 
+   <td>Indiquez si le module recherchera <strong>[!UICONTROL Tous les enregistrements correspondants]</strong> ou uniquement l’ <strong>[!UICONTROL Premier enregistrement correspondant]</strong>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Trier Par]</td> 
@@ -681,7 +681,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  </tbody> 
 </table>
 
-#### [!UICONTROL Liste des modèles de workflow]
+#### [!UICONTROL  Liste des modèles de workflow ]
 
 Ce module de recherche répertorie tous les modèles de workflow disponibles.
 
@@ -691,14 +691,14 @@ Ce module de recherche répertorie tous les modèles de workflow disponibles.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Workfront Proof] compte à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Workfront Proof] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
-   <td>Sorties [!UICONTROL]</td> 
-   <td> <p>Sélectionnez les informations que vous souhaitez inclure dans le lot de sortie pour ce module.</p> </td> 
+   <td>[!UICONTROL Outputs]</td> 
+   <td> <p>Sélectionnez les informations à inclure dans le lot de sortie pour ce module.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Limite]</td> 
+   <td>[!UICONTROL Limit]</td> 
    <td> <p>Saisissez ou mappez le nombre maximal de modèles que le module doit renvoyer pour chaque cycle d'exécution de scénario.</p> </td> 
   </tr> 
  </tbody> 

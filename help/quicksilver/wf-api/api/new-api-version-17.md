@@ -1,22 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 17
-description: Adobe Workfront a publié l’API version 17 le 6 avril 2022. L’API version 17 comprend les modifications suivantes à partir de la version 15.
+title: Nouveautés de la version 17 de l’API
+description: Adobe Workfront a publié la version 17 de l’API le jeudi 6 avril 2022. La version 17 de l’API comprend les modifications suivantes par rapport à la version 15.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 3%
+source-wordcount: '1353'
+ht-degree: 32%
 
 ---
 
-# Nouveautés de l’API version 17
+# Nouveautés de la version 17 de l’API
 
-Adobe Workfront a publié l’API version 17 le 12 octobre 2023. L’API version 17 comprend les modifications suivantes à partir de la version 16.
+Adobe Workfront a publié la version 17 de l’API le vendredi 12 octobre 2023. La version 17 de l’API comprend les modifications suivantes par rapport à la version 16.
 
 ## Ressources ajoutées
 
@@ -161,7 +161,7 @@ Un objet ExternalDocument est un document ou une autre ressource numérique qui 
       <td>
         <ul>
           <li><p><b>client</b></p></li>
-          <li><p><b>user</b></p></li>
+          <li><p><b>utilisateur</b></p></li>
         </ul>
       </td>
     </tr>
@@ -179,7 +179,7 @@ Un objet ExternalDocument est un document ou une autre ressource numérique qui 
 
 ## Ressources supprimées
 
-Aucune ressource n’a été supprimée pour l’API version 17.
+Aucune ressource n’a été supprimée pour la version 17 de l’API.
 
 ## Ressources modifiées
 
@@ -201,9 +201,9 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 -->
 
-### Ligne de base (BLIN)
+### Baseline (BLIN)
 
-Les lignes de base sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Ils stockent des informations clés sur le projet, telles que les dates clés, l’avancement, les coûts et les valeurs de recettes.
+Les références sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés, la progression, et les valeurs de coût et de revenu.
 
 L’objet Baseline a supprimé l’indicateur **INLINE_EDITABLE**.
 
@@ -297,7 +297,7 @@ Un objet DocumentVersion représente une version spécifique d’un fichier (com
 
 ### ExchangeRate (EXRATE)
 
-Un objet ExchangeRate représente un taux de change de devise configuré dans Workfront. Les objets ExchangeRate ne sont pas dynamiques.
+Un objet ExchangeRate représente un taux d’exchange de devise configuré dans Workfront. Les objets ExchangeRate ne sont pas dynamiques.
 
 <table>
   <col/>
@@ -317,7 +317,7 @@ Un objet ExchangeRate représente un taux de change de devise configuré dans Wo
       <td>
         <ul>
           <li><p><b>getCustomerCurrencies</b></p></li>
-          <p>Ajout de .</p>
+          <p>Ajouté.</p>
        </ul>
       </td>
     </tr>
@@ -328,7 +328,7 @@ Un objet ExchangeRate représente un taux de change de devise configuré dans Wo
 
 Les dépenses représentent les frais non liés au travail qui pourraient être engagés pendant la durée de vie d&#39;un projet.
 
-L’objet Frais a supprimé l’indicateur **INLINE_EDITABLE**.
+L’objet Expense a supprimé l’indicateur **INLINE_EDITABLE**.
 
 ### Groupe (GROUP)
 
@@ -357,7 +357,7 @@ Un objet Group représente un ensemble d’utilisateurs et d’équipes. Les gro
 
 Un objet Hour représente une heure consignée par un utilisateur sur une feuille de temps.
 
-L’objet Heure a supprimé l’indicateur **INLINE_EDITABLE**.
+L’objet Hour a supprimé l’indicateur **INLINE_EDITABLE**.
 
 ### Itération (ITRN)
 
@@ -368,7 +368,7 @@ L’objet Itération a supprimé l’indicateur **INLINE_EDITABLE**.
 
 ### JournalEntry (JRNLE)
 
-L’objet JournalEntry peut être configuré pour consigner des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être consigné dans le cadre de l’objet d’entrée de journal, une entrée de journal correspondante est créée chaque fois que ce champ est modifié.
+L’objet JournalEntry peut être configuré pour consigner des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être consigné dans le cadre de l’objet d’entrée du journal, une entrée du journal correspondante est créée chaque fois que ce champ est modifié.
 
 <table>
   <col/>
@@ -381,7 +381,7 @@ L’objet JournalEntry peut être configuré pour consigner des informations sur
           <li>
             <p><b>changeType</b>
             </p>
-            <p>Ajout des valeurs possibles suivantes :</p>
+            <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>Ajout de l’approbateur (AAA)</li>
               <li>Ajout d’un réviseur (AAR)</li>
@@ -395,7 +395,7 @@ L’objet JournalEntry peut être configuré pour consigner des informations sur
               <li>Réviseur modifié (ARC)</li>
               <li>Révision terminée (RDC)</li>
               <li>Révision révoquée (RDR)</li>
-              <li>Publier (PUB)</li>
+              <li>Publish (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -436,15 +436,15 @@ Un objet LinkedFolder représente un dossier lié à un fournisseur de documents
 
 ### OpTask / Problème (OPTASK)
 
-Un objet OpTask est généralement appelé Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Modifier les commandes, les requêtes et les bogues sont également des problèmes.
+Un objet OpTask est généralement appelé un Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Les ordres de modification, les demandes et les bogues sont également des problèmes.
 
-L’objet Problème a supprimé l’indicateur **INLINE_EDITABLE**.
+L’objet Issue a supprimé l’indicateur **INLINE_EDITABLE**.
 
-### Projet (PROJ)
+### Project (PROJ)
 
-Les projets sont des éléments de travail dans Workfront et sont une composante essentielle de la façon dont Workfront aide les personnes à travailler. Un objet Projet représente un groupe de tâches avec un objectif commun et spécifique.
+Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Project représente un groupe de tâches avec un objectif commun et spécifique.
 
-L’objet Projet a supprimé l’indicateur **INLINE_EDITABLE**.
+L’objet Project a supprimé l’indicateur **INLINE_EDITABLE**.
 
 ### ProjectUser (PRTU)
 
@@ -461,7 +461,7 @@ Un objet ProjectUser représente un utilisateur associé à un projet spécifiqu
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajout de .</p>
+            <p>Ajouté.</p>
           </li>
         </ul>
       </td>
@@ -473,7 +473,7 @@ Un objet ProjectUser représente un utilisateur associé à un projet spécifiqu
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajout de .</p>
+            <p>Ajouté.</p>
           </li>
         </ul>
       </td>
@@ -493,7 +493,7 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 Un objet Rate représente un taux de facturation dans Workfront.
 
-L’objet Rate a supprimé l’indicateur. **INLINE_EDITABLE**.
+L’objet Rate a supprimé l’indicateur **INLINE_EDITABLE**.
 
 <table>
   <col/>
@@ -508,7 +508,7 @@ L’objet Rate a supprimé l’indicateur. **INLINE_EDITABLE**.
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>La variable <b>setRatesForRole</b> L’action a été modifiée pour ajouter les champs suivants :
+        <p>L'action <b>setRatesForRole</b> a été modifiée pour ajouter les champs suivants :
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>
@@ -523,7 +523,7 @@ L’objet Rate a supprimé l’indicateur. **INLINE_EDITABLE**.
 
 Un objet Risk représente un événement possible qui peut empêcher la fin d’un projet à temps ou dans les limites du budget. Lors de la phase de planification, des risques sont ajoutés aux projets pour identifier les obstacles potentiels avant l’approbation des travaux.
 
-L&#39;objet Risk a retiré l&#39;indicateur **INLINE_EDITABLE**.
+L’objet Risk a supprimé l’indicateur **INLINE_EDITABLE**.
 
 ### Rôle/Rôle de tâche (RÔLE)
 
@@ -548,9 +548,9 @@ Un objet Rôle (rôle de tâche) représente une capacité fonctionnelle ou un e
  </tbody>
 </table>
 
-### Tâche (TÂCHE)
+### Task (TASK)
 
-Un objet Task représente un élément de travail qui doit être exécuté comme une étape vers l’atteinte d’un objectif final (achèvement d’un projet).
+Un objet Task représente un élément de travail qui doit être exécuté en tant qu’étape vers la réalisation d’un objectif final (achèvement d’un projet).
 
 L’objet Task a supprimé l’indicateur **INLINE_EDITABLE**.
 
@@ -592,7 +592,7 @@ Un objet TeamMember est un utilisateur associé à une équipe spécifique.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajout de .</p>
+            <p>Ajouté.</p>
           </li>
         </ul>
       </td>
@@ -604,7 +604,7 @@ Un objet TeamMember est un utilisateur associé à une équipe spécifique.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajout de .</p>
+            <p>Ajouté.</p>
           </li>
         </ul>
       </td>
@@ -625,7 +625,7 @@ Un objet TeamMember est un utilisateur associé à une équipe spécifique.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajout de .</p>
+            <p>Ajouté.</p>
           </li>
         </ul>
       </td>
@@ -637,7 +637,7 @@ Un objet TeamMember est un utilisateur associé à une équipe spécifique.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajout de .</p>
+            <p>Ajouté.</p>
           </li>
         </ul>
       </td>
@@ -645,9 +645,9 @@ Un objet TeamMember est un utilisateur associé à une équipe spécifique.
  </tbody>
 </table>
 
-### Feuille de calcul (TSHET)
+### Timesheet (TSHET)
 
-Un objet de feuille de temps représente une feuille de temps virtuelle qui permet aux utilisateurs de saisir les heures réelles travaillées pour les tâches, les projets et les types d’heures de surcharge.
+Un objet Timesheet représente une feuille de temps virtuelle qui permet aux utilisateurs et utilisatrices de saisir les heures effectives travaillées pour les heures de tâches, projets et types de frais.
 
 <table>
   <col/>
@@ -668,9 +668,9 @@ Un objet de feuille de temps représente une feuille de temps virtuelle qui perm
  </tbody>
 </table>
 
-### Mise à jour (MISE À JOUR)
+### Update (UPDATE)
 
-Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir les utilisateurs informés de l’état actuel. Un objet Update représente l’une de ces mises à jour. Les mises à jour peuvent être saisies par les utilisateurs ou créées par le système Workfront.
+Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir les utilisateurs et utilisatrices informés du statut actuel. Un objet Update représente l’une de ces mises à jour. Les mises à jour peuvent être saisies par les utilisateurs et utilisatrices ou créées par le système Workfront.
 
 <table>
   <col/>
@@ -757,7 +757,7 @@ L’objet User a supprimé l’indicateur **INLINE_EDITABLE**.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajout de .</p>
+            <p>Ajouté.</p>
           </li>
         </ul>
       </td>
@@ -769,7 +769,7 @@ L’objet User a supprimé l’indicateur **INLINE_EDITABLE**.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajout de .</p>
+            <p>Ajouté.</p>
           </li>
         </ul>
       </td>
@@ -805,9 +805,9 @@ Un objet UserNote est une notification.
               <li>Document approuvé (ADA)</li>
               <li>Document approuvé avec modifications (ADC)</li>
               <li>Travail sur les documents nécessaires (ADN)</li>
-              <li>(Utilisateur) a marqué (document) comme approuvé. Votre approbation n’est plus nécessaire. (AAN)</li>
-              <li>(Utilisateur) a marqué (document) comme approuvé avec les modifications. Votre approbation n’est plus nécessaire. (ACN)</li>
-              <li>(Utilisateur) a marqué (document) comme le travail nécessaire. Votre approbation n’est plus nécessaire. (AWN)</li>
+              <li>(Utilisateur) a marqué (document) comme approuvé. Votre approbation n'est plus nécessaire. (AAN)</li>
+              <li>(Utilisateur) a marqué (document) comme approuvé avec les modifications. Votre approbation n'est plus nécessaire. (ACN)</li>
+              <li>(Utilisateur) a marqué (document) comme le travail nécessaire. Votre approbation n'est plus nécessaire. (AWN)</li>
               <li>Le document a besoin de votre révision maintenant plutôt que de votre approbation (AAC).</li>
               <li>Le document a besoin de votre approbation maintenant plutôt que d'une révision (ADN).</li>
               <li>Document révisé (RDC)</li>
@@ -834,7 +834,7 @@ Un objet UserNote est une notification.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajout de .</p>
+            <p>Ajouté.</p>
           </li>
         </ul>
       </td>
@@ -846,7 +846,7 @@ Un objet UserNote est une notification.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajout de .</p>
+            <p>Ajouté.</p>
           </li>
         </ul>
       </td>

@@ -92,7 +92,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Gérer une vue de tableau {#manage-a-table-view}
 
@@ -163,7 +163,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau
 
    Le champ devient un champ principal, ce qui signifie qu’il s’affiche comme la première colonne de la vue de tableau. Le champ principal précédent est déplacé dans la seconde colonne.
 
-   Les champs de Principal deviennent le titre et s’affichent dans la zone d’en-tête de la page de l’enregistrement, et partout où les enregistrements s’affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et dans toutes les vues. Pour plus d’informations sur les champs principaux, voir [Champ Principal - Aperçu](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre et s’affichent dans la zone d’en-tête de la page de l’enregistrement, et partout où les enregistrements s’affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et dans toutes les vues. Pour plus d’informations sur les champs principaux, voir [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez et faites glisser les lignes de séparation des colonnes et déposez-les à l’emplacement souhaité pour augmenter la largeur des colonnes.
 
@@ -218,7 +218,7 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d
 
    Pour plus d’informations, consultez la section [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Facultatif) Sélectionnez un ou plusieurs enregistrements dans une ligne, puis faites glisser et déposez le **handle** icon ![](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
+1. (Facultatif) Sélectionnez un ou plusieurs enregistrements d’une ligne, puis faites glisser l’icône **handle** ![](assets/handle-icon.png) vers la gauche de l’enregistrement pour réorganiser les lignes.
 
    >[!NOTE]
    >
@@ -261,9 +261,9 @@ Pour ajouter un filtre à une vue de tableau, procédez comme suit :
 1. Sélectionnez une vue de tableau, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
 1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
 
-   * **Sélection d’un champ** que vous souhaitez filtrer <!-- the tip below might change-->
+   * **Sélectionnez un champ** que vous souhaitez filtrer par <!-- the tip below might change-->
 
-   * **Sélection d’une option** (ou un modificateur de filtre) pour définir le type de condition que le champ doit remplir
+   * **Sélectionnez une option** (ou un modificateur de filtre) pour définir le type de condition que le champ doit remplir.
 
      Le tableau ci-dessous présente les modificateurs disponibles pour chaque type de champ.
 
@@ -393,7 +393,7 @@ Pour ajouter un regroupement, procédez comme suit :
    Cliquez sur **Effacer tout** pour supprimer tous les champs.
 
 1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
-1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin d’un groupement pour ajouter de nouveaux enregistrements, actualisez votre page afin d’ajouter le nouvel enregistrement au groupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin d’un groupe pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Appliquer un tri {#sort-information}
 
@@ -433,13 +433,13 @@ Pour trier les enregistrements <!--ungrouped (add this when sorting for grouping
 
    Pointez sur le nom d’une colonne dans la vue de tableau, cliquez sur la flèche vers le bas située à droite du nom de l’en-tête de colonne, puis cliquez sur **Trier sur la base de ce champ**. Le champ est ajouté en tant que sélection de tri dans l’icône Tri située dans le coin supérieur droit de la vue de tableau.
 
-1. (Conditionnel) Dans la variable **Tri des enregistrements par** , cliquez sur l’un des champs proposés ou cliquez sur **Choisir un champ différent** et recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. (Conditionnel) Dans la zone **Trier les enregistrements par**, cliquez sur l’un des champs suggérés, ou cliquez sur **Choisir un champ différent** et recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    Le tri est appliqué automatiquement à la vue de tableau et les enregistrements s’affichent selon les critères de tri que vous avez spécifiés
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour trier en fonction de champs supplémentaires.
+1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour trier par champs supplémentaires.
 
    Le nombre de champs spécifiés pour le tri s’affiche à gauche de l’icône Tri dans le coin supérieur droit de la barre d’outils. Vous ne pouvez sélectionner que les champs qui s’affichent dans les colonnes de la vue de tableau.
 

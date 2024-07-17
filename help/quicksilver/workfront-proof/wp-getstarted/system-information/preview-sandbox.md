@@ -3,25 +3,25 @@ content-type: overview;how-to-procedural
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
-title: Aperçu de l’environnement de test des environnements de test - [!DNL Workfront Proof]
-description: L’environnement de test Aperçu est un environnement de test qui sert de réplique à votre environnement en ligne et qui est actualisé chaque week-end par [!DNL Workfront Proof].
+title: Aperçu de l’environnement de test Sandbox - [!DNL Workfront Proof]
+description: L’environnement de test Aperçu est un environnement de test qui sert de réplique à votre environnement en ligne et qui est actualisé chaque week-end par  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cdf269c6-39b1-477a-b9ea-03edf2de77f0
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 0%
+source-wordcount: '434'
+ht-degree: 5%
 
 ---
 
-# Aperçu de l’environnement de test des environnements de test - [!DNL Workfront Proof]
+# Aperçu de l’environnement de test Sandbox - [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-L’environnement de test Aperçu est un environnement de test qui sert de réplique à votre environnement en ligne et qui est actualisé chaque week-end par [!DNL Workfront Proof].
+L’environnement de test Aperçu Sandbox est un environnement de test qui sert de réplique de votre environnement en ligne et qui est actualisé chaque week-end par [!DNL Workfront Proof].
 
 ## Présentation de l’aperçu de l’environnement de test
 
@@ -33,35 +33,35 @@ L’environnement de test Aperçu contient vos données de production réelles. 
 
 ## Accès à l’environnement de test d’aperçu
 
-Par défaut, en tant qu’administrateur système, vous avez accès à l’environnement Preview Sandbox . Si vous ne pouvez pas accéder à l’environnement Preview Sandbox comme décrit dans cette section, contactez votre [!DNL Workfront] ou de notre équipe d’assistance.
+Par défaut, en tant qu’administrateur système, vous avez accès à l’environnement Preview Sandbox . Si vous ne pouvez pas accéder à l’environnement Preview Sandbox comme décrit dans cette section, contactez votre administrateur [!DNL Workfront] ou notre équipe d’assistance.
 
-* [Accès à l’environnement de test d’aperçu autonome [!DNL Workfront Proof] Client](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [Accès à l’environnement de test d’aperçu en tant que [!DNL Workfront]+[!DNL Workfront Proof] Client](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
+* [Accès à l’environnement de test d’aperçu en tant que client autonome [!DNL Workfront Proof] ](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
+* [Accès à Preview Sandbox as a [!DNL Workfront]+[!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
-### Accès à l’environnement de test d’aperçu autonome [!DNL Workfront Proof] Client
+### Accès à l’environnement de test d’aperçu en tant que client [!DNL Workfront Proof] autonome
 
-1. Accédez à cette URL :  `https://preview.proofhq.com`.
+1. Accédez à cette URL : `https://preview.proofhq.com`.
 1. Connectez-vous à l’aide de vos informations d’identification de prévisualisation.\
    Vos informations d’identification d’aperçu doivent être identiques à celles de vos informations d’identification de production, sauf si vous les avez modifiées dans Production après l’actualisation de l’aperçu. Les connexions ne sont synchronisées que lorsqu’une actualisation a lieu chaque week-end. Elles ne se synchronisent pas automatiquement.
 
-### Accès à l’environnement de test d’aperçu en tant que [!DNL Workfront+Workfront] Client du BAT
+### Accès à l’environnement de test d’aperçu en tant que client de BAT [!DNL Workfront+Workfront]
 
-En tant qu’administrateur système, vous pouvez accéder au [!DNL Workfront Proof] Aperçu de l’environnement de test via [!DNL Workfront] .
+En tant qu’administrateur système, vous pouvez accéder à l’environnement de test de prévisualisation [!DNL Workfront Proof] via l’interface [!DNL Workfront].
 
-Pour accéder au [!DNL Workfront Proof] Aperçu d’un environnement de test :
+Pour accéder à l’environnement de test de prévisualisation [!DNL Workfront Proof] :
 
-1. Connectez-vous à [!DNL Workfront] environnement.
+1. Connectez-vous à votre environnement [!DNL Workfront].
 1. Cliquez sur **[!UICONTROL Configuration]** dans la barre de navigation globale.
-1. Cliquez sur **[!UICONTROL Système]** >**[!UICONTROL Préférences]**.
+1. Cliquez sur **[!UICONTROL Système]** > **[!UICONTROL Préférences]**.
 
-1. Dans le **[!UICONTROL Environnements de test]** , cliquez sur **[!UICONTROL Aperçu des environnements de test]**.
+1. Dans la section **[!UICONTROL Test Environments]**, cliquez sur **[!UICONTROL Sandbox Preview]**.
 
 1. Connectez-vous à l’aide de vos informations d’identification d’aperçu.\
    Vos informations d’identification d’aperçu doivent être identiques à celles de vos informations d’identification de production, sauf si vous les avez modifiées dans Production après l’actualisation de l’aperçu. Les connexions ne sont synchronisées que lorsqu’une actualisation se produit. Elles ne se synchronisent pas automatiquement.
-1. Cliquez sur le bouton [!DNL Workfront Proof] dans la barre de navigation globale.\
-   ![proof_access_proofhq.png](assets/proof-access-proofhq-350x39.png)\
-   Le [!DNL Workfront Proof] L’environnement de prévisualisation s’affiche.
+1. Cliquez sur l’icône [!DNL Workfront Proof] dans la barre de navigation globale.\
+   ![BAT_access_proofhq.png](assets/proof-access-proofhq-350x39.png)\
+   L’environnement de prévisualisation [!DNL Workfront Proof] s’affiche.
 
 ## Réception d’emails à partir de l’environnement de test de prévisualisation
 
-Les notifications électroniques ne sont jamais déclenchées à partir de la variable [!DNL Workfront Proof] Environnement de prévisualisation.
+Les notifications électroniques ne sont jamais déclenchées à partir de l’environnement d’aperçu [!DNL Workfront Proof].

@@ -10,12 +10,12 @@ role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 2%
 
 ---
 
-# Modifications de l’API Core : réponses de recherche d’état
+# Modifications principales de l’API : réponses à la recherche de statuts
 
 Des modifications ont été apportées à la manière dont Workfront stocke les objets d’état. Ces modifications n’affectent pas la manière dont les demandes de recherche d’état sont effectuées, mais affectent la réponse renvoyée par les demandes d’API qui incluent une recherche d’objets d’état en renvoyant une liste incomplète d’états de groupe.
 
@@ -29,7 +29,7 @@ Afin de récupérer de manière fiable la liste complète des statuts disponible
 
 Pour l’état du groupe de projets :
 
->**Exemple:**
+>**Exemple :**
 
 ```
 /attask/api/<VERSION>/CSTEM/projectGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
@@ -37,7 +37,7 @@ Pour l’état du groupe de projets :
 
 Pour l’état du groupe de tâches :
 
->**Exemple:**
+>**Exemple :**
 
 ```
 /attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
@@ -45,17 +45,17 @@ Pour l’état du groupe de tâches :
 
 Pour le statut du groupe de problèmes :
 
->**Exemple:**
+>**Exemple :**
 
 ```
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Ces trois points de terminaison acceptent la variable **includeHidden=true** pour récupérer les états masqués de projet/tâche/problème d’un groupe donné. La modélisation de vos requêtes de recherche d’état après ces exemples de bonnes pratiques garantit que toutes les informations d’état de groupe sont incluses avec chaque réponse.
+Ces trois points de terminaison acceptent le paramètre **includeHidden=true** afin de récupérer les états de projet/tâche/problème masqués d&#39;un groupe donné. La modélisation de vos requêtes de recherche d’état après ces exemples de bonnes pratiques garantit que toutes les informations d’état de groupe sont incluses avec chaque réponse.
 
-Voici un exemple de requête de recherche d’état envoyée à un groupe de tâches qui inclut un état verrouillé au niveau du système **Custom_1** et un état déverrouillé **Custom_2**:
+Voici un exemple de requête de recherche d’état effectuée vers un groupe de tâches qui inclut un état verrouillé au niveau du système **Custom_1** et un état déverrouillé **Custom_2** :
 
->**Exemple:**
+>**Exemple :**
 
 ```
 /attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d286d000004fc8f53942de697a868
@@ -116,7 +116,7 @@ Dans le système hérité, une requête de recherche d’état copierait tous le
 
 Par exemple, cette requête (qui ne suit pas les bonnes pratiques actuellement recommandées) :
 
->**Exemple:**
+>**Exemple :**
 
 ```
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK
@@ -177,7 +177,7 @@ Si vous ne parvenez pas à utiliser les bonnes pratiques mises à jour pour effe
 
 Voici un exemple de ce que cette structure de requête obsolète renvoie une fois que le système hérité a été mis à jour :
 
->**Exemple:**
+>**Exemple :**
 
 ```
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK

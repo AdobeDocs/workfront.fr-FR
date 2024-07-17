@@ -9,7 +9,7 @@ exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
 source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication du quatrième trimestre 2023.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version du quatrième trimestre 2023, voir [Présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version du quatrième trimestre 2023, consultez la [présentation de la version du quatrième trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Mises à jour de l’apparence pour le modèle de courrier électronique d’approbation de documents
 
@@ -33,9 +33,9 @@ Le modèle de courrier électronique pour les notifications d’approbation de d
 >
 >Aperçu de la version : 12 octobre 2023 ; Production pour une version rapide : avec la version 24.2 (15 février 2024) ; Production pour une version trimestrielle : avec la version 24.4 (avril 2024)
 
-Pour plus de clarté sur les réglages manuels ou le contournement dans l’équilibreur de charge de travail, les affectations horaires ajustées manuellement affichent désormais une icône en forme de crayon.
+Pour plus de clarté sur les ajustements manuels ou les contours dans l’équilibreur de charge de travail, les allocations horaires ajustées manuellement affichent désormais une icône en forme de crayon.
 
-Pour plus d’informations, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Pour plus d’informations, voir [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Nouvelles mises à jour de l’apparence pour les onglets dans la zone Configurer les notifications
 
@@ -55,4 +55,4 @@ Pour plus d’informations, voir [Configuration des notifications d’événemen
 
 Les écrans Nouveau rôle de tâche et Modifier le rôle de tâche ont été mis à jour afin d’offrir une conception plus moderne et cohérente avec d’autres zones de Workfront.
 
-Pour plus d’informations, voir [Création et gestion des rôles de tâche](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Pour plus d’informations, voir [Créer et gérer les fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

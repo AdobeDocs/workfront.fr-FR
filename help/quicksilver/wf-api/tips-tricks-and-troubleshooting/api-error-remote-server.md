@@ -9,8 +9,8 @@ role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 0%
+source-wordcount: '93'
+ht-degree: 2%
 
 ---
 
@@ -31,4 +31,4 @@ Cette erreur se produit lorsque vous essayez d’importer, via l’API, un champ
 
 Ajoutez le formulaire personnalisé approprié à la rubrique File d’attente.
 
-Pour en savoir plus sur les rubriques de la file d’attente, voir [Création de rubriques de file d’attente](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Pour en savoir plus sur les rubriques de la file d’attente, voir [Création de rubriques de la file d’attente](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

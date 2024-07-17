@@ -87,7 +87,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Vous pouvez taguer d’autres personnes sur des mises à jour des manières suivantes :
 
-* **Automatiquement**: lorsqu’un utilisateur lance un thread, ajoute un commentaire ou ajoute une réponse, il est automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la zone de commentaire.
+* **Automatiquement** : lorsqu’un utilisateur lance un thread, ajoute un commentaire ou ajoute une réponse, il est automatiquement balisé et ajouté à la zone Baliser les personnes ou les équipes de la boîte de commentaires.
 * **Manuellement** : lorsque vous ajoutez manuellement un utilisateur ou une utilisatrice à la zone Taguer des personnes de la zone de commentaire.
 
 Vous pouvez également supprimer des utilisateurs et utilisatrices balisés par erreur lorsque vous modifiez ou répondez à un commentaire.

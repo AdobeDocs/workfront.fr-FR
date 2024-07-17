@@ -3,37 +3,37 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
-title: Disposition de page dans l’onglet Vues du BAT Workfront
+title: Disposition de la page de l’onglet Vues dans l’épreuve Workfront
 description: Vous pouvez ajuster la mise en page dans l’onglet Vues .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 1%
+source-wordcount: '213'
+ht-degree: 5%
 
 ---
 
-# Disposition de page dans l’onglet Vues de la [!DNL Workfront Proof]
+# Mise en page sur l’onglet Vues de [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Vous pouvez ajuster la mise en page sur la page [!UICONTROL Vues] . Les options de mise en page suivantes sont disponibles :
+Vous pouvez ajuster la mise en page dans l’onglet [!UICONTROL Vues]. Les options de mise en page suivantes sont disponibles :
 
 ## Liste
 
 * Affiche le nom du BAT ou du fichier ainsi que les colonnes de vue standard
-* La variable [!UICONTROL actions de BAT] se trouve à droite de la ligne (1).
+* Le menu [!UICONTROL BAT actions] se trouve à droite de la ligne (1).
 
   ![Page_views_-_list_view.png](assets/page-views---list-view-350x164.png)
 
 ## Liste de miniatures
 
 * Affiche l’icône image/fichier du BAT, le nom du BAT ou du fichier avec les colonnes d’affichage standard.
-* La variable [!UICONTROL actions de BAT] se trouve à droite de la ligne (1).
+* Le menu [!UICONTROL BAT actions] se trouve à droite de la ligne (1).
 * Il s’agit de la vue standard par défaut.
 
   ![Page_views_-_thumbnails_list_view.png](assets/page-views---thumbnails-list-view-350x164.png)
@@ -41,7 +41,7 @@ Vous pouvez ajuster la mise en page sur la page [!UICONTROL Vues] . Les options 
 ## Miniatures
 
 * Affiche uniquement l’icône image/fichier du BAT et le nom du BAT/fichier.
-* La variable [!UICONTROL actions de BAT] se trouve dans le coin supérieur droit de chaque BAT (1).
+* Le menu [!UICONTROL BAT actions] se trouve dans le coin supérieur droit de chaque BAT (1)
 
   ![Page_views_-_thumbnails_view.png](assets/page-views---thumbnails-view-350x156.png)
 

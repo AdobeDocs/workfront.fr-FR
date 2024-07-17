@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ## Créer une demande de révision ou d’approbation à partir du résumé du document
 
-1. Accédez au projet, à la tâche ou au problème qui contient le fichier Frame.io connecté, puis sélectionnez **Documents**.
+1. Accédez au projet, à la tâche ou au problème qui contient Frame.io connecté, puis sélectionnez **Documents**.
 
    >[!TIP]
    >
@@ -61,9 +61,9 @@ You must have the following access to perform the steps in this article:
 
 1. Cliquez sur la ressource connectée Frame.io dont vous avez besoin pour ouvrir le panneau Résumé du document .
 
-1. (Facultatif) Dans la variable **Version** dans le menu déroulant, sélectionnez la version de la ressource pour laquelle vous souhaitez créer une approbation. La dernière version est sélectionnée par défaut.
+1. (Facultatif) Dans le menu déroulant **Version**, sélectionnez la version de la ressource pour laquelle vous souhaitez créer une approbation. La dernière version est sélectionnée par défaut.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Approbations** , puis cliquez sur **Ajouter**.
+1. Faites défiler l’écran jusqu’à la section **Approbations**, puis cliquez sur **Ajouter**.
 
 ![](assets/doc-summary-add-approvers.png)
 
@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 
 ## Créer une demande de révision ou d’approbation à partir de la page Détails du document
 
-1. Passez la souris sur le document, puis cliquez sur **Détails du document**.
+1. Passez la souris sur le document, puis cliquez sur **Document Details**.
    ![](assets/doc-details.png)
 
 1. Près du nom du document, sélectionnez la version du document pour laquelle vous souhaitez créer une approbation. La dernière version est sélectionnée par défaut.

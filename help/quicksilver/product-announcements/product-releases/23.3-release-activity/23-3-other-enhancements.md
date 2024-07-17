@@ -1,6 +1,6 @@
 ---
-title: 23.3 Autres améliorations
-description: 23.3 Autres améliorations
+title: Autres améliorations (version 23.3)
+description: Autres améliorations (version 23.3)
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,15 +8,15 @@ exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
-# 23.3 Autres améliorations
+# Autres améliorations (version 23.3)
 
 Cette page décrit toutes les autres améliorations apportées à la version 23.3. Ces améliorations ont été apportées à l’environnement de production avec la version 23.3 des 20 et 21 juillet 2023.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.3, voir [Présentation de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version 23.3, voir l’article [Vue d’ensemble de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Nouvelle expérience d’accueil
 
@@ -32,21 +32,21 @@ La nouvelle page d’accueil sera l’expérience par défaut pour tous les util
 
 Pour plus d’informations, voir [Prise en main de la nouvelle page d’accueil dans Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3420969/){target=_blank}
+[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
-## Nouvelle expérience de commentaire pour des objets supplémentaires
+## Nouvelle expérience de commentaires d’objets supplémentaires
 
-La nouvelle expérience de commentaire sera disponible pour les objets suivants, peu après la version 23.3 de Production : tâches de modèle, modèles, feuilles de temps, équipes, utilisateurs, programmes, portefeuilles.
+La nouvelle expérience de commentaires sera disponible pour les objets suivants, peu après la mise en production de la version 23.3 : tâches de modèle, modèles, feuilles de temps, équipes, utilisateurs ou utilisatrices, programmes, portfolios.
 
 Il s’agit de la seule expérience de commentaire pour ces objets, car l’expérience de commentaire héritée est supprimée.
 
-Pour plus d’informations, voir [Nouvelle activité de mise à jour d’une expérience de commentaire](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Pour plus d’informations, voir [Nouvelle activité de mise à jour d’expérience de commentaires](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
-## Nouvelle expérience de commentaires bêta pour les projets, tâches et problèmes
+## Nouvelle expérience de commentaires Beta pour les projets, les tâches et les problèmes
 
-La nouvelle expérience de commentaires bêta est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, l’expérience de commentaires bêta n’était disponible que pour les problèmes et les objectifs.
+La nouvelle expérience de commentaires en version bêta est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, l’expérience de commentaires en version bêta n’était disponible que pour les problèmes et les objectifs.
 
-Pour plus d’informations sur les fonctionnalités actuellement disponibles dans le commentaire d’une expérience bêta, voir [Nouvelle activité de commentaires sur la version bêta de l’expérience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Pour plus d’informations sur les fonctionnalités actuellement disponibles dans l’expérience de commentaires Beta, voir [Nouvelle activité de commentaires sur la version bêta d’expérience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Les profils sans avatars affichent désormais les initiales de l’utilisateur.
 

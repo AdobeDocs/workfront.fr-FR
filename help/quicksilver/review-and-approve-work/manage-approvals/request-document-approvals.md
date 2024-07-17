@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Demande d’approbation de documents
+title: Demander l’approbation de documents
 description: Vous pouvez demander l’approbation d’un document dans Adobe Workfront à des gestionnaires ou à d’autres utilisateurs. Vous pouvez également demander l’approbation de documents à des personnes n’ayant pas de compte Workfront si votre administrateur Workfront a activé cette fonctionnalité, comme décrit dans Configuration des préférences de sécurité du système.
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -9,51 +9,51 @@ exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 0%
+ht-degree: 36%
 
 ---
 
-# Demande d’approbation de documents
+# Demander l’approbation de documents
 
 Vous pouvez demander l’approbation d’un document dans Adobe Workfront à des gestionnaires ou à d’autres utilisateurs. Vous pouvez également demander l’approbation de documents à des personnes sans compte Workfront si votre administrateur Workfront a activé cette fonctionnalité, comme décrit dans la section [Configuration des préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Affichage ou accès supérieur à Projets, Tâches, Problèmes, Modèles, Portfolios, Programmes, Rapports, Tableaux de bord et Calendriers, Documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Affichage ou accès supérieur pour Projets, Tâches, Problèmes, Modèles, Portfolios, Programmes, Rapports, Tableaux de bord, Calendriers et Documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer l'accès à l'objet associé à l'accès ou à la validation de la demande </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer l’accès à l’objet associé à la demande d’accès ou d’approbation </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Demande d’approbation de document
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le résumé, puis commencez à saisir le texte **Ajouter un approbateur** zone de texte. Vous pouvez ajouter des utilisateurs Workfront par nom ou des utilisateurs externes par courrier électronique.
+1. Faites défiler l’écran jusqu’à la section **Validations** du résumé, puis commencez à saisir le texte **Ajouter un approbateur** . Vous pouvez ajouter des utilisateurs Workfront par nom ou des utilisateurs externes par courrier électronique.
 
-1. Si votre administrateur Adobe Workfront a activé la possibilité de collaborer avec des personnes qui n’utilisent pas Workfront, comme décrit à la section [Configuration des préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), vous pouvez saisir leurs adresses électroniques pour les inclure.
+1. Si votre administrateur Adobe Workfront a activé la possibilité de collaborer avec des personnes qui n’utilisent pas Workfront, comme décrit dans la section [Configuration des préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), vous pouvez saisir leurs adresses électroniques pour les inclure.
 
    Vous ne pouvez pas demander l’approbation d’équipes ou de groupes.
 
@@ -66,7 +66,7 @@ Les décisions d’approbation de document ne sont pas automatiquement réinitia
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans la section Résumé, cliquez sur l’icône Plus, puis sur Resubmit.
+1. Faites défiler l’écran jusqu’à la section **Validations** du résumé, cliquez sur l’icône Plus, puis sur Resubmit.
 
    ![](assets/nwe-resubmit-approval-350x149.png)
 
@@ -75,7 +75,7 @@ Les décisions d’approbation de document ne sont pas automatiquement réinitia
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le résumé, puis cliquez sur le bouton **Plus** en ligne avec le nom de l’approbateur et sélectionnez **Supprimer**.
+1. Faites défiler l’écran jusqu’à la section **Validations** du résumé, puis cliquez sur le menu **Plus** en ligne avec le nom de l’approbateur et sélectionnez **Supprimer**.
 
    La demande de validation est supprimée et l’approbateur reçoit une notification indiquant que sa validation n’est plus nécessaire. Leur accès au partage lié à l’approbation est également supprimé.
 
@@ -86,6 +86,6 @@ Vous pouvez envoyer un message pour rappeler à un approbateur que vous attendez
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 
-1. Faites défiler l’écran vers le bas jusqu’à **Approbations** dans le résumé, puis cliquez sur le bouton **Plus** en ligne avec le nom de l’approbateur et sélectionnez **Rappel**.
+1. Faites défiler l’écran jusqu’à la section **Validations** du résumé, puis cliquez sur le menu **Plus** en ligne avec le nom de l’approbateur et sélectionnez **Remind**.
 
    L&#39;approbateur reçoit une notification l&#39;informant que la validation est toujours en attente. Si cela est activé, il peut également recevoir un rappel par courrier électronique.

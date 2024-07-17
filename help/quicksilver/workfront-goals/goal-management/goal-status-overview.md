@@ -24,7 +24,7 @@ Votre entreprise doit disposer des éléments suivants pour utiliser les fonctio
 
      Ou
 
-     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans).
+     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans?lang=fr).
 
 * Pour le plan actuel et la structure de licence :
 
@@ -51,7 +51,7 @@ Les statuts des objectifs indiquent si un objectif est actif et enregistre actue
 * Certaines actions que vous effectuez sur un objectif mettent également à jour son état. Pour plus d’informations sur la mise à jour des états d’objectif, reportez-vous aux articles suivants :
 
    * [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-   * [Activation des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
+   * [Activer les objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
    * [Suppression et désactivation d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
    * [Fermer et rouvrir desobjectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
@@ -102,7 +102,7 @@ Les objectifs peuvent avoir l’un des états suivants dans les objectifs Workfr
 
 * Vous pouvez désactiver un objectif actif lorsque le propriétaire a arrêté de l’utiliser temporairement ou définitivement. Vous pouvez le conserver pour des informations historiques. Cela met à jour l’état de l’objectif en Inactif.
 
-  Pour plus d’informations sur la désactivation des objectifs, reportez-vous à la section &quot;Désactivation des objectifs&quot; de l’article. [Suppression et désactivation d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
+  Pour plus d’informations sur la désactivation des objectifs, reportez-vous à la section &quot;Désactivation des objectifs&quot; de l’article [Suppression et désactivation des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
 
 * Vous ne pouvez pas désactiver un objectif brouillon ou fermé.
 * Vous pouvez réactiver un objectif inactif et continuer à travailler dessus.

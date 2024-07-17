@@ -3,15 +3,15 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
-title: Le tableau de bord dans [!DNL Workfront Proof]
-description: Le tableau de bord est la première page qui s’affiche lorsque vous vous connectez à votre [!DNL Workfront Proof] compte . Il résume l’activité dans votre [!DNL Workfront Proof] compte et fournit des liens rapides vers d’autres sections et fonctions dans [!DNL Workfront Proof].
+title: Tableau de bord dans [!DNL Workfront Proof]
+description: Le tableau de bord est la première page qui s’affiche lorsque vous vous connectez à votre compte  [!DNL Workfront Proof] . Il résume l’activité dans votre compte  [!DNL Workfront Proof] et fournit des liens rapides vers d’autres sections et fonctions dans [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 2%
+source-wordcount: '973'
+ht-degree: 3%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Le tableau de bord est la première page qui s’affiche lorsque vous vous connectez à votre [!DNL Workfront Proof] compte . Il résume l’activité dans votre [!DNL Workfront Proof] compte et fournit des liens rapides vers d’autres sections et fonctions dans [!DNL Workfront Proof].
+Le tableau de bord est la première page qui s’affiche lorsque vous vous connectez à votre compte [!DNL Workfront Proof]. Il résume l’activité de votre compte [!DNL Workfront Proof] et fournit des liens rapides vers d’autres sections et fonctions dans [!DNL Workfront Proof].
 
 Le tableau de bord contient les éléments suivants :
 
@@ -43,9 +43,9 @@ Le tableau de bord contient les éléments suivants :
 
 ![](assets/dashboard-350x495.png)
 
-Vous pouvez personnaliser votre compte pour afficher le logo, les couleurs, les liens personnalisés, etc. de votre propre entreprise. Pour plus d’informations, voir [Marque [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
+Vous pouvez personnaliser votre compte pour afficher le logo, les couleurs, les liens personnalisés, etc. de votre propre entreprise. Pour plus d’informations, voir [Marque du  [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)&quot;.
 
-Si vous ne marquez pas votre compte, la variable [!DNL Workfront Proof] Le logo et les couleurs standard s’affichent.
+Si vous ne marquez pas votre compte, le logo [!DNL Workfront Proof] et les couleurs standard s&#39;affichent.
 
 ## Menu En-tête
 
@@ -86,9 +86,9 @@ Cliquez ici pour vous déconnecter de votre compte.
 
 Pour ouvrir le menu Nouveau ,
 
-1. Cliquez sur la flèche de liste déroulante (7).
+1. Cliquez sur la flèche déroulante (7).
 
-   Le **[!UICONTROL Nouveau]** propose les options suivantes :
+   Le menu **[!UICONTROL New]** propose les options suivantes :
 
    * Nouveau Bon à tirer (8)
    * Télécharger le fichier (9)
@@ -105,12 +105,12 @@ Le menu Tableau de bord contient les menus suivants :
 
 * Modifier les balises
 * Déplacer vers
-* Autres actions
+* Plus d&#39;actions
 * Supprimer
 
 ## Modifier les balises
 
-Le [!UICONTROL Modifier les balises] (1) permet :
+Le menu [!UICONTROL Modifier les balises] (1) vous permet :
 
 * Application d’une balise à un ou plusieurs éléments
 * Créer de nouvelles balises
@@ -120,17 +120,17 @@ Le [!UICONTROL Modifier les balises] (1) permet :
 
 ## Déplacer vers
 
-Cette fonction vous permet de déplacer des BAT et des fichiers dans l’un de vos dossiers. Pour ce faire :
+Cette fonction vous permet de déplacer des BAT et des fichiers dans l’un de vos dossiers. Pour ce faire :
 
 1. Cochez la case correspondant au ou aux éléments concernés.
-1. Cliquez sur **[!UICONTROL Déplacer vers]** (3) et choisissez le dossier visé (4).
+1. Cliquez sur **[!UICONTROL Déplacer vers]** (3) et sélectionnez le dossier approprié (4).
 1. Cliquez sur **[!UICONTROL Enregistrer]** (5).
 
    ![](assets/move-to-350x297.png)
 
-### Autres actions
+### Plus d&#39;actions
 
-Dans le [!UICONTROL Autres actions] (6) vous pouvez effectuer les actions suivantes :
+Dans le menu [!UICONTROL Autres actions] (6), vous pouvez effectuer les actions suivantes :
 
 * Verrouiller (BAT uniquement)
 * Activer
@@ -172,9 +172,9 @@ La barre latérale contient des liens vers les pages suivantes :
 
 La barre latérale est décrite plus en détail sur la page d’aide de la barre latérale.
 
-### [!UICONTROL Bienvenue] section
+### Section [!UICONTROL Bienvenue]
 
-Le [!UICONTROL Bienvenue] comporte les liens utiles suivants :
+La section [!UICONTROL Bienvenue] comporte les liens utiles suivants :
 
 * Regardez nos films de démonstration (1)
 * Pages d’aide (2)
@@ -188,16 +188,16 @@ Le [!UICONTROL Bienvenue] comporte les liens utiles suivants :
 Dans cette section, vous trouverez des liens rapides vers :
 
 * Création d’un BAT Chargement d’un fichier
-* Création d’un dossier
+* Créer un dossier
 * Ajouter un nouvel utilisateur
 * Modifier votre mot de passe
 
 La section d’aperçu affiche également des informations préfiltrées. Ces éléments sont les suivants :
 
-* Bons à tirer à gérer : nombre total de principaux BAT que vous possédez et que vous avez délégués
-* Bons à tirer en attente de décision : nombre total de principaux bons à tirer nécessitant vos décisions
+* Bons à tirer à gérer : nombre total de bons à tirer actifs que vous possédez et que vous avez délégués
+* Bons à tirer en attente de décision : nombre total de bons à tirer actifs nécessitant vos décisions
 
-   ![](assets/dashboard-overview-350x169.png)
+  ![](assets/dashboard-overview-350x169.png)
 
 Vous pouvez voir immédiatement combien de bons à tirer nécessitent une action immédiate de votre part ou de la part de vos réviseurs :
 
@@ -212,9 +212,9 @@ Vous pouvez voir immédiatement combien de bons à tirer nécessitent une action
 
 ### Éléments récemment consultés
 
-Le [!UICONTROL Éléments récemment consultés] vous présente les éléments auxquels vous avez récemment accédé. Cela inclut les éléments que vous possédez, les éléments que vous disposez des autorisations à afficher selon vos autorisations de profil et les éléments qui ont été partagés avec vous. Cette section comprend uniquement les éléments que vous avez vous-même ouverts (via l’ [!DNL Workfront Proof] Visionneuse ou via la page Détails du BAT).
+La section [!UICONTROL Éléments récemment consultés] vous présente les éléments auxquels vous avez récemment accédé. Cela inclut les éléments que vous possédez, les éléments que vous disposez des autorisations à afficher selon vos autorisations de profil et les éléments qui ont été partagés avec vous. Cette section comprend uniquement les éléments que vous avez vous-même ouverts (via la visionneuse [!DNL Workfront Proof] ou via la page Détails du bon à tirer).
 
-Le [!UICONTROL Éléments récemment consultés] La section vous présente les informations suivantes sur les bons à tirer et les fichiers récents :
+La section [!UICONTROL Éléments récemment consultés] présente les informations suivantes sur les bons à tirer et les fichiers récents :
 
 * Nom
 * Progression
@@ -230,12 +230,12 @@ Voir Dispositions de pages pour connaître les différentes options de mise en p
 
 >[!NOTE]
 >
->En cliquant sur le nom du BAT dans [!UICONTROL Éléments récemment consultés] vous emmènera directement au BAT dans la visionneuse de BAT.
+>Cliquez sur le nom du BAT dans la section [!UICONTROL Éléments récemment consultés] pour accéder directement au BAT dans la visionneuse de BAT.
 
 Pour accéder à la page Détails du BAT :
 
-1. Cliquez sur le bouton **[!UICONTROL Actions]** (1) disponible à droite du nom du BAT.
-1. Sélectionner **[!UICONTROL Afficher les détails du BAT]** (2) dans le menu.
+1. Cliquez sur le menu **[!UICONTROL Actions]** (1) disponible à droite du nom du BAT.
+1. Sélectionnez **[!UICONTROL Afficher les détails du BAT]** (2) dans le menu.
 
 ![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
@@ -251,11 +251,11 @@ Vous pouvez également accéder à la page Détails d’un élément en cliquant
 
 >[!NOTE]
 >
->En cliquant sur le nom du BAT dans la [!UICONTROL Activité récente] ouvre le BAT dans la visionneuse de BAT.
+>Cliquez sur le nom du BAT dans la section [!UICONTROL Activité récente] pour ouvrir le BAT dans la visionneuse de BAT.
 
 Pour accéder à la page Détails du BAT de ce BAT :
 
-1. Cliquez sur le bouton **[!UICONTROL Actions]** (1).
-1. Sélectionner **[!UICONTROL Afficher les détails du BAT]** (2) dans le menu déroulant.
+1. Cliquez sur le menu **[!UICONTROL Actions]** (1).
+1. Sélectionnez **[!UICONTROL Afficher les détails du BAT]** (2) dans le menu déroulant.
 
    ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

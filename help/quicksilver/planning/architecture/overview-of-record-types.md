@@ -1,6 +1,6 @@
 ---
 title: Types d’enregistrement - Aperçu
-description: Les types d’enregistrement sont les blocs de construction d’un espace de travail Adobe Workfront Planning.
+description: Les types d’enregistrement sont les blocs de construction d’un espace de travail Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
@@ -8,7 +8,7 @@ exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 0%
+ht-degree: 77%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Contrairement à Workfront où les types d’objets sont prédéfinis, dans Adobe Workfront Planning, vous pouvez créer vos propres types d’objets. Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
+Contrairement à Workfront où les types d’objets sont prédéfinis, Adobe Workfront Planning vous permet de créer vos propres types d’objets. Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
 
-Les types d’objets de la planification Workfront sont appelés &quot;types d’enregistrement&quot; et existent uniquement lorsque les utilisateurs les créent. Les types d’enregistrement sont les blocs de création d’un espace de travail de planification Workfront. Pour plus d’informations sur les espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+Les types d’objets de la planification Workfront sont appelés &quot;types d’enregistrement&quot; et existent uniquement lorsque les utilisateurs les créent. Les types d’enregistrement sont les blocs de création d’un espace de travail Workfront Planning. Pour plus d’informations sur les espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-## Présentation du type d’enregistrement
+## Vue d’ensemble des types d’enregistrement
 
-Dans la planification Workfront, vous pouvez créer des types d’enregistrements personnalisés qui répondent aux besoins de votre entreprise.
+Dans Workfront Planning, vous pouvez créer des types d’enregistrements personnalisés qui répondent aux besoins de votre entreprise.
 
 Pour plus d’informations sur la création de types d’enregistrement, voir [Création de types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-* Lorsque vous créez un espace de travail à partir d’un modèle, les types d’enregistrement sont créés dans les sections suivantes de l’espace de travail :
+* Lorsque vous créez un espace de travail à partir d’un modèle, les types d’enregistrement sont créés dans les sections suivantes de l’espace de travail :
 
-   * **Types d’enregistrement opérationnels**: types d’enregistrements qui représentent des plans stratégiques, des initiatives ou des travaux planifiés. Par exemple, Campaign, Activity, Tactique, Opportunity sont des types d&#39;enregistrements opérationnels.
-   * **Taxonomies**: types d’enregistrements qui capturent des attributs sur un type d’enregistrement opérationnel. Par exemple, Région, Adresse, Audience sont des taxonomies.
+   * **Types d’enregistrements opérationnels** : types d’enregistrements qui représentent des plans stratégiques, des initiatives ou des travaux planifiés. Par exemple, Campaign, Activity, Tactique, Opportunity sont des types d&#39;enregistrements opérationnels.
+   * **Taxonomies** : types d’enregistrements qui capturent des attributs sur un type d’enregistrement opérationnel. Par exemple, Région, Adresse, Audience sont des taxonomies.
 
 * Lorsque vous créez un type d’enregistrement dans un espace de travail que vous avez entièrement créé, vous pouvez le placer dans n’importe quelle section que vous créez dans l’espace de travail.
-* Lorsque vous créez un type d’enregistrement, seuls vous et ceux que vous autorisez à accéder à l’espace de travail pouvez afficher le type d’enregistrement.
+* Lorsque vous créez un type d’enregistrement, seuls vous et les personnes que vous autorisez à accéder à l’espace de travail pouvez afficher le type d’enregistrement.
 * Vous devez créer un espace de travail avant de pouvoir créer des types d’enregistrement pour l’espace de travail.
-* Un espace de travail peut contenir un total de 1 000 types d’enregistrement, quel que soit le nombre de sections de l’espace de travail. Cela inclut les types d’enregistrements que vous créez de A à Z ou qui sont créés lors de l’utilisation d’un modèle.
+* Un espace de travail peut contenir un total de 1 000 types d’enregistrement, quel que soit le nombre de sections de l’espace de travail. Cela inclut les types d’enregistrements que vous créez de A à Z ou qui sont créés lors de l’utilisation d’un modèle.
 
 
 <!--

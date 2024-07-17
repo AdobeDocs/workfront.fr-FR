@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
-title: Processus de vérification de base dans [!DNL Workfront Proof]
+title: Processus de vérification de base dans  [!DNL Workfront Proof]
 description: Cet exemple explique le workflow de base entre un concepteur ou un chef de projet et un ou plusieurs réviseurs, tels qu’un client.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Cet exemple explique le workflow de base entre un concepteur ou un chef de projet et un ou plusieurs réviseurs, tels qu’un client.
 
@@ -29,10 +29,10 @@ Cet exemple explique le workflow de base entre un concepteur ou un chef de proje
 
 * **Nouvel email de BAT** - Le client reçoit un email contenant un lien vers le BAT.
 
-* **Vérification d’un BAT** - Le client examine le BAT, ajoute des commentaires et prend une décision. (Voir [Vérifier les bons à tirer dans [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) et [Prendre une décision sur un BAT dans la visionneuse de vérification](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).)
+* **Vérification d’un BAT** - Le client examine le BAT, ajoute des commentaires et prend une décision. (Voir [Réviser les BAT dans  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) et [Prendre une décision sur un BAT dans la visionneuse de vérification](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).)
 
-* **Alerte par e-mail** : le concepteur ou le chef de projet reçoit un courrier électronique contenant un résumé de la révision du client, en fonction des alertes par courrier électronique qu’il a définies. (Voir [Configuration des paramètres de notification électronique dans [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).)
+* **Alerte par e-mail** : le concepteur ou le chef de projet reçoit un e-mail avec un résumé de la révision du client, en fonction des alertes par e-mail qu’il a définies. (Voir [Configuration des paramètres de notification électronique dans [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).)
 
-* **Nouvelle version** (si nécessaire) - Le concepteur ou le chef de projet modifie le fichier et le télécharge vers [!DNL Workfront Proof] comme une nouvelle version. (Voir .)
+* **Nouvelle version** (si nécessaire) - Le concepteur ou le chef de projet modifie le fichier et le télécharge vers [!DNL Workfront Proof] en tant que nouvelle version. (Voir .)
 
 Vous pouvez répéter ce processus jusqu’à ce que le BAT soit approuvé.

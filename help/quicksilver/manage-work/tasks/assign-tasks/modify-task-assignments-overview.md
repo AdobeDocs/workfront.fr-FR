@@ -2,7 +2,7 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Présentation de la modification des affectations de tâche
+title: Vue d’ensemble de la modification des affectations de tâches
 description: Vous pouvez affecter des tâches à des utilisateurs, à des équipes ou à des rôles de tâche, ou en annuler l’affectation. Vous pouvez affecter plusieurs ressources simultanément ou une seule ressource. Vous pouvez affecter une tâche à la fois ou plusieurs tâches en bloc.
 author: Alina
 feature: Work Management
@@ -10,22 +10,22 @@ exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
 source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Présentation de la modification des affectations de tâche
+# Vue d’ensemble de la modification des affectations de tâches
 
 Vous pouvez affecter des tâches à des utilisateurs, à des équipes ou à des rôles de tâche, ou en annuler l’affectation. Vous pouvez affecter plusieurs ressources simultanément ou une seule ressource. Vous pouvez affecter une tâche à la fois ou plusieurs tâches en bloc.
 
 >[!TIP]
 >
->Vous pouvez affecter plusieurs utilisateurs, rôles de tâche ou équipes. Vous pouvez affecter uniquement les utilisateurs, les rôles de tâche et les équipes actifs.
+>Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous pouvez affecter uniquement les utilisateurs et utilisatrices, fonctions et équipes actifs.
 >
->Si un utilisateur, un rôle de tâche ou une équipe a été affecté avant d’être désactivé, ils restent affectés à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
+>Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
 >
->* Réaffectez la tâche aux ressources actives.
->* Associez les utilisateurs d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
+>* Réaffectez l’élément de travail aux ressources actives.
+>* Associez les personnes d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 >
 
 Cet article contient des informations générales sur l’impact de la modification des affectations de tâche. Pour plus d’informations sur l’affectation de tâches, consultez les articles suivants :
@@ -35,7 +35,7 @@ Cet article contient des informations générales sur l’impact de la modificat
 * Pour plus d’informations sur la modification des affectations sur plusieurs tâches dans la zone Planification, voir &quot;Modification de plusieurs affectations d’utilisateurs à des tâches dans les zones Planification&quot;.
 * Pour plus d’informations sur l’affectation de tâches à l’aide de l’équilibreur de charge de travail, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Certaines informations de cet article s’appliquent également aux affectations à des problèmes. Pour plus d’informations sur l’attribution des problèmes et des considérations supplémentaires, voir [Présentation de la modification des affectations de problème](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Certaines informations de cet article s’appliquent également aux affectations à des problèmes. Pour plus d’informations sur l’affectation des problèmes et des considérations supplémentaires, voir [Présentation de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 ## Quand modifier les affectations d’utilisateurs sur les tâches
 
@@ -67,7 +67,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
 ## L’impact de la suppression des personnes désignées sur les heures de tâche et les pourcentages d’attribution
 
-La suppression d’utilisateurs peut affecter les heures de tâche et les pourcentages d’attribution. L’effet de la suppression d’un utilisateur sur la tâche dépend du type de durée sélectionné pour la tâche. Pour plus d’informations sur le type de durée, voir [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+La suppression d’utilisateurs peut affecter les heures de tâche et les pourcentages d’attribution. L’effet de la suppression d’un utilisateur sur la tâche dépend du type de durée sélectionné pour la tâche. Pour plus d’informations sur le type de durée, voir [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Lorsque vous supprimez un utilisateur d’une tâche avec les types de durée suivants :
 
@@ -77,7 +77,7 @@ Lorsque vous supprimez un utilisateur d’une tâche avec les types de durée su
   >
   >Cela peut avoir une incidence négative sur le plan du projet, car cela modifie le nombre total d’heures planifiées pour la tâche et le projet.
 
-* **Effort Motivé :** Le pourcentage d’attribution ne change pas pour les autres utilisateurs.
+* **Effort Driven :** Le pourcentage d’attribution ne change pas pour les autres utilisateurs.
 * **Attribution calculée :** Les pourcentages d’attribution des autres utilisateurs sont ajustés de sorte que le total soit égal à 100 %.
 * **Travail calculé :** Le pourcentage d’attribution ne change pas pour les autres utilisateurs.
 
@@ -85,7 +85,7 @@ Lorsque vous supprimez un utilisateur d’une tâche avec les types de durée su
 
 Vous pouvez supprimer des affectations d’une tâche à la fois ou vous pouvez supprimer des affectations de plusieurs tâches en bloc.
 
-Pour plus d’informations sur la suppression d’affectations de tâches en bloc, voir [Modification de plusieurs affectations d’utilisateurs dans une liste de tâches](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+Pour plus d’informations sur la suppression des affectations des tâches en bloc, voir [Modification de plusieurs affectations d’utilisateurs dans une liste de tâches](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 Tenez compte des points suivants lors de la suppression d’affectations de tâches :
 

@@ -2,19 +2,19 @@
 content-type: faq
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
-title: FAQ - Visionneuse de vérification de l’appli de bureau
+title: Questions fréquentes - Visionneuse de relecture de bureau
 description: Non. La visionneuse de vérification de l’affichage de l’appli de bureau est spécialement conçue pour la vérification de l’affichage des sites web en temps réel et pour la vérification du contenu web interactif, tel que les bannières publicitaires.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 0%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
-# FAQ - Visionneuse de vérification de l’appli de bureau
+# Questions fréquentes - Visionneuse de relecture de bureau
 
 ## Mon entreprise ne prouve pas le contenu interactif. Dois-je encore installer la visionneuse de vérification de l’appli de bureau ?
 
@@ -22,7 +22,7 @@ Non. La visionneuse de vérification de l’affichage de l’appli de bureau est
 
 Cependant, dans votre entreprise, notez qu’il peut également être utilisé pour la vérification de tout autre type de contenu statique et vidéo pris en charge. 
 
-Pour plus d’informations, voir [Présentation des différences entre la visionneuse de test Web et la visionneuse de test de bureau](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
+Pour plus d’informations, voir [Différences entre la visionneuse de test Web et la visionneuse de test de bureau](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
 
 ## Mon entreprise ne permet pas aux utilisateurs d’installer des applications. Existe-t-il un moyen de contourner ce problème avec la visionneuse de vérification de l’appli de bureau ?
 
@@ -34,13 +34,13 @@ Oui. Vous pouvez utiliser la nouvelle visionneuse de Web Proofing pour créer un
 
 Pour plus d’informations, voir
 
-## Comment installer Desktop Viewer sur mon système local ?
+## Comment installer la visionneuse de bureau sur mon système local ?
 
 Ouvrez un BAT interactif et téléchargez l’application directement à partir de l’écran de lancement.
 
 ![](assets/mceclip0-350x114.png) 
 
-## Les nouvelles versions de Desktop Viewer nécessitent-elles que je réinstalle ?
+## Les nouvelles versions de Desktop Viewer nécessitent-elles que je les réinstalle ?
 
 Non. Les mises à jour de Desktop Viewer sont automatisées et ne nécessitent rien de votre part ni de vos utilisateurs finaux.
 

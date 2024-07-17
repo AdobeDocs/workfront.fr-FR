@@ -6,7 +6,7 @@ description: .
 source-git-commit: b326ae3023b32ace7b1f5d4584de20cab89cdbe5
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 * [Administration et configuration](administration-and-setup/administration-and-setup.md)
 * [Principes de base d’Adobe Workfront](workfront-basics/workfront-basics.md)
 * [Personnes, équipes et groupes](people-teams-and-groups/people-teams-and-groups.md)
-* [Gestion des ressources](resource-mgmt/manage-resources.md)
+* [Gérer les ressources](resource-mgmt/manage-resources.md)
 * [Agile](agile/agile.md)
 * [Gérer le travail](manage-work/manage-work.md)
 * [Réviser et approuver le travail](review-and-approve-work/review-and-approve-work.md)

@@ -49,7 +49,7 @@ Pour ce faire :
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Facultatif) Désélectionnez l’option **Titre** bascule dans le **Apparence d’enregistrement** pour afficher uniquement l’image miniature de l’enregistrement dans les champs connectés. Si cette option est activée, les enregistrements affichent la miniature et le titre. Le bouton bascule est activé par défaut.
+1. (Facultatif) Désélectionnez la bascule **Titre** dans la section **Apparence d’enregistrement** pour afficher uniquement l’image miniature de l’enregistrement dans les champs connectés. Si cette option est activée, les enregistrements affichent la miniature et le titre. Le bouton bascule est activé par défaut.
 1. (Conditionnel) Si vous avez sélectionné l’option **Sélectionner des champs de recherche** à l’étape précédente, dans la liste des champs associés au type d’enregistrement **Product**, cliquez sur l’icône **+** du champ **Budget**, puis sur **Ajouter des champs**. Un champ nommé **Budget (de Informations sur le produit)**, qui est le nom du champ lié, est créé. Toutes les informations relatives au budget du produit s’affichent dans ce champ pour les enregistrements de campagne.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
@@ -58,13 +58,13 @@ Pour ce faire :
    >
    >    Si vous souhaitez afficher le budget de tous les produits sélectionnés sous la forme d’un nombre total, sélectionnez **SUM** dans le menu déroulant situé à droite du nom du champ. Lorsque les utilisateurs et les utilisatrices sélectionnent plusieurs produits dans le champ d’enregistrement lié **Informations sur le produit**, le champ **Budget (de Informations sur le produit)** ajoute toutes leurs valeurs Budget et affiche le total. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Si vous sélectionnez **Aucun**, au lieu de **SUM**, les budgets individuels des produits sélectionnés s’affichent séparés par des virgules.
+   > Si vous sélectionnez **Aucun**, au lieu de **SOMME**, les budgets individuels des produits sélectionnés s’affichent séparés par des virgules.
 
    Les champs suivants sont créés :
 
    * Dans la vue de tableau d’enregistrement Campaign et dans la page d’enregistrement Campaign d’une campagne :
 
-      * **Informations sur les produits** (le champ enregistrement associé) : affiche le nom ou les noms des Produits lors de leur ajout.
+      * **Informations sur le produit** (champ d’enregistrement lié) : affiche le ou les noms des produits lorsque vous les ajoutez.
       * **Budget (de Informations sur le produit)** (le champ lié) : affiche les budgets des produits sélectionnés dans le champ Informations sur le produit.
 
    * Dans la vue de tableau d’enregistrement Product et dans la page d’enregistrement Product d’un produit :
@@ -79,7 +79,7 @@ Pour ce faire :
 
 1. Dans la vue de tableau de type d’enregistrement **Campaign**, créez une campagne en ajoutant une nouvelle ligne au tableau de la page de type d’enregistrement Campaign.
 
-1. Double-cliquez dans le **Informations sur les produits** de la nouvelle campagne.
+1. Double-cliquez dans la colonne **Informations sur le produit** de la nouvelle campagne.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -97,7 +97,7 @@ Pour ce faire :
 
    Ou
 
-   Sélectionnez les enregistrements de produit que vous souhaitez connecter aux enregistrements Campaign, puis cliquez sur **Connexion d’objets**.
+   Sélectionnez les enregistrements de produit que vous souhaitez connecter aux enregistrements Campaign, puis cliquez sur **Connecter les objets**.
 
    >[!TIP]
    >
@@ -158,7 +158,7 @@ Pour ce faire :
 
    * Dans la vue de tableau d’enregistrement Campaign et dans la page d’enregistrement Campaign :
 
-      * **Informations sur le projet** (le champ d’objet lié) : affiche le nom ou les noms des projets.
+      * **Informations sur le projet** (champ d’objet lié) : affiche le ou les noms des projets.
       * **Revenus prévus (de Informations sur le projet)** (le champ lié) : affiche les revenus prévus des projets sélectionnés dans le champ Informations sur le projet.
 
    >[!TIP]
@@ -185,7 +185,7 @@ Pour ce faire :
 
    Ou
 
-   Sélectionnez les enregistrements de projet que vous souhaitez connecter aux enregistrements Campaign, puis cliquez sur **Connexion d’objets**.
+   Sélectionnez les enregistrements de projet que vous souhaitez connecter aux enregistrements Campaign, puis cliquez sur **Connecter les objets**.
 
    >[!TIP]
    >
@@ -209,8 +209,8 @@ Pour ce faire :
 1. (Facultatif) Mettez à jour les informations sur le projet dans Workfront, si vous êtes autorisé à le faire.
 
 1. (Facultatif) Dans la vue de tableau Campaign, pointez sur l’en-tête du champ **Informations sur le projet**, cliquez sur la flèche pointant vers le bas, puis sur **Modifier les champs de recherche.**
-1. Cliquez sur le bouton **+** de tous les champs de projet que vous souhaitez ajouter à l’enregistrement de planification Workfront du projet dans la variable **Champs non sélectionnés** .
-1. Cliquez sur le bouton **-** pour tous les champs de projet que vous souhaitez supprimer de l’enregistrement de planification de projet Workfront dans la variable **Champs sélectionnés** .
+1. Cliquez sur l’icône **+** pour les champs de projet que vous souhaitez ajouter à l’enregistrement de planification Workfront du projet dans la section **Champs non sélectionnés** .
+1. Cliquez sur l’icône **-** pour tous les champs de projet que vous souhaitez supprimer de l’enregistrement Planification de projet Workfront dans la section **Champs sélectionnés** .
 1. Cliquer sur **Enregistrer**.
 
    Des champs liés supplémentaires sont ajoutés au type d’enregistrement Campaign.

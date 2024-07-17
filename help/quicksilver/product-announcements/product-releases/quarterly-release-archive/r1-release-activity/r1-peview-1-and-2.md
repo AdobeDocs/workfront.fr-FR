@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Aperçu 1 et 2
+title: Version R1 de l’environnement d’aperçu, 1 et 2
 description: Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec les versions R1.1 et R1.2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 19 janvier 2017.
 author: Luke
 feature: Product Announcements
@@ -10,23 +10,23 @@ exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# R1 Aperçu 1 et 2
+# Version R1 de l’environnement d’aperçu, 1 et 2
 
 Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec les versions R1.1 et R1.2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 19 janvier 2017.
 
-Pour obtenir la liste de toutes les modifications apportées à R1, voir [Présentation de l’activité de version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Pour obtenir la liste de toutes les modifications apportées à R1, consultez la [présentation de l’activité de version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Restauration de projets, de tâches et de problèmes à partir de la corbeille 
 
 Les administrateurs de Workfront peuvent désormais restaurer des projets, des tâches et des problèmes qui ont été supprimés au cours des 30 derniers jours. Toutes les informations associées au projet, à la tâche ou au problème sont restaurées, y compris les documents et les données personnalisées.
 
-De nouvelles options sont également disponibles pour configurer ce qui arrive aux heures enregistrées par rapport à un projet, une tâche ou un problème qui est supprimé. Pour plus d’informations, voir [Configurer l’effet sur les heures lorsqu’un objet est supprimé et restauré](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+De nouvelles options sont également disponibles pour configurer ce qui arrive aux heures enregistrées par rapport à un projet, une tâche ou un problème qui est supprimé. Pour plus d&#39;informations, voir [Configuration de l&#39;effet sur les heures lorsqu&#39;un objet est supprimé et restauré](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
-Pour plus d’informations sur la restauration d’objets dans Workfront, voir [Restauration des éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Pour plus d’informations sur la restauration d’objets dans Workfront, voir [Restaurer les éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 Pour plus d’informations sur l’affichage des projets, tâches et problèmes récemment restaurés, voir [Afficher l’élément restauré](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
@@ -38,20 +38,20 @@ Avant cette modification, les informations sur les étapes de validation n’ét
 
 Sur les projets, les informations de validation s’affichent dans l’en-tête en regard du titre du projet. Pour les tâches et les problèmes, les informations de validation s’affichent dans le panneau de droite.
 
-Pour plus d’informations, voir [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Pour plus d’informations, voir [Approbation du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) dans  [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Configurer les objets à mettre à jour en attente d’approbation
 
 Lorsqu’un projet, une tâche ou un problème est en attente d’approbation, vous pouvez maintenant configurer si les utilisateurs peuvent :
 
 * Modifiez le formulaire personnalisé d’un projet, d’une tâche ou d’un problème en attente d’approbation.\
-  Pour plus d’informations sur la configuration des projets, tâches et problèmes à modifier lors de l’approbation en attente, voir [Configuration des paramètres d’approbation globaux](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+  Pour plus d’informations sur la configuration des projets, tâches et problèmes à modifier lors de l’approbation en attente, voir [Configuration des paramètres d’approbation globale](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 
 * Ajoutez des problèmes à un projet en attente d’approbation.\
-  Pour plus d’informations sur la configuration des projets pour permettre aux utilisateurs d’ajouter des problèmes lorsque le projet est en attente d’approbation, voir [Configuration des préférences de projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Pour plus d’informations sur la configuration des projets pour permettre aux utilisateurs d’ajouter des problèmes lorsque le projet est en attente d’approbation, voir [ Configuration des préférences du projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Modifiez les tâches et les problèmes dans un projet en attente d’approbation.\
-  Pour plus d’informations sur la configuration des projets pour permettre aux utilisateurs de modifier les tâches et les problèmes lorsque le projet est en attente d’approbation, voir [Configuration des préférences de projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Pour plus d’informations sur la configuration des projets pour permettre aux utilisateurs de modifier des tâches et des problèmes lorsque le projet est en attente d’approbation, voir [Configuration des préférences du projet à l’échelle du système](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Avant cette modification, les projets, tâches et problèmes en attente d’approbation ne pouvaient pas être modifiés ; en outre, les problèmes ne pouvaient pas être ajoutés aux projets en attente d’approbation, et les tâches et problèmes ne pouvaient pas être modifiés dans les projets en attente d’approbation.
 
@@ -69,7 +69,7 @@ La fonctionnalité a changé lors de la modification en masse des paramètres de
 
 Avant cette modification, les paramètres de notification électronique que vous avez sélectionnés étaient enregistrés et tous les autres paramètres de notification inchangés étaient désélectionnés lorsque vous avez enregistré vos modifications. 
 
-Pour plus d’informations, voir &quot;Modification des paramètres de notification utilisateur en bloc&quot; dans [Modifier vos propres notifications électroniques](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations, voir &quot;Modification des paramètres de notification utilisateur en bloc&quot; dans [Modification de vos propres notifications électroniques](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Mise à jour de l’aspect de plusieurs notifications par courrier électronique
 
@@ -83,7 +83,7 @@ L’aspect des notifications par e-mail suivantes a été mis à jour avec une n
 * En attente d’approbation (projet, tâche, problèmes)
 * Changement d’état sur les projets, tâches, problèmes
 
-N’oubliez pas de mettre à jour l’adresse électronique associée à votre compte pour pouvoir tester cette fonctionnalité, car l’environnement de test Aperçu permet d’effacer les adresses électroniques de tous les utilisateurs.    Pour plus d’informations sur les notifications électroniques, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  
+N’oubliez pas de mettre à jour l’adresse électronique associée à votre compte pour pouvoir tester cette fonctionnalité, car l’environnement de test Aperçu permet d’effacer les adresses électroniques de tous les utilisateurs.    Pour plus d’informations sur les notifications par e-mail, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  
 
 ## Nouvelles options de résumé des emails pour plusieurs zones de notifications
 
@@ -101,7 +101,7 @@ Pour plus d’informations, voir [Notifications Adobe Workfront](../../../../wor
 
 Lorsque vous rendez un groupe public, vous pouvez désormais l’ajouter à des utilisateurs sans être propriétaire d’un groupe. Vous devez disposer d’un accès d’administration utilisateur pour pouvoir modifier les utilisateurs.
 
-Pour plus d’informations sur la publication d’un groupe, voir la section [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) dans [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Pour plus d’informations sur la façon de rendre un groupe public, consultez la section [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) dans [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ## Partage de l’URL d’un objet dans l’application mobile 
 

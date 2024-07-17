@@ -25,7 +25,7 @@ Adobe Workfront étant un produit Adobe, vous pouvez y accéder via Adobe Admin 
 
 Tous les clients Workfront finiront par être déplacés vers Adobe Admin Console. Une fois que votre entreprise a migré vers Adobe Admin Console, l’authentification Workfront est gérée par la console. La préparation et la réalisation de cette démarche au plus tôt préparent le terrain pour une gestion efficace du travail et positionnent votre entreprise pour une innovation plus rapide à l’avenir.
 
-Pour un aperçu de Adobe Admin Console, reportez-vous à la section [Présentation du Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
+Pour obtenir un aperçu de Adobe Admin Console, reportez-vous à la section [Présentation de l’Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
 
 ## Liste de contrôle de migration
 
@@ -45,7 +45,7 @@ Pour vous assurer que votre organisation peut migrer vers Adobe Admin Console, v
    >
    >Soyez prêt à discuter avec le support Workfront et votre équipe informatique des préférences d’authentification telles que l’authentification unique (SSO) ou non.
 
-   Pour obtenir des instructions, reportez-vous à la section Identity Management du [Guide de déploiement de Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   Pour obtenir des instructions, reportez-vous à la section Identity Management du [Guide de déploiement pour Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Conditionnel) Si vous utilisez l’authentification unique, connectez le nouveau Adobe Admin Console à votre fournisseur d’authentification unique existant.
 
@@ -59,9 +59,9 @@ Pour vous assurer que votre organisation peut migrer vers Adobe Admin Console, v
 
    1. Supprimez les courriers électroniques en double de Workfront.
 
-      Pour obtenir des instructions, voir [Mettre à jour les adresses électroniques des utilisateurs existants dans votre instance Workfront](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [Prévention des doublons d’utilisateurs](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+      Pour obtenir des instructions, reportez-vous à la section [Mise à jour des adresses électroniques des utilisateurs existants dans votre instance Workfront](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) dans [Empêcher la duplication des utilisateurs](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
 
-      En cas de doublon d’adresses électroniques dans votre entreprise, l’utilisateur est représenté par l’adresse électronique avec la plus récente `lastLoginDate` sera déplacé vers l’organisation Adobe Admin Console. Tous les autres utilisateurs disposant de cette adresse électronique seront désactivés.
+      En cas de doublon d’adresses électroniques dans votre organisation, l’utilisateur représenté par l’adresse électronique avec le `lastLoginDate` le plus récent sera déplacé vers l’organisation Adobe Admin Console. Tous les autres utilisateurs disposant de cette adresse électronique seront désactivés.
 
       >[!NOTE]
       >
@@ -77,7 +77,7 @@ Pour vous assurer que votre organisation peut migrer vers Adobe Admin Console, v
 
 1. (Facultatif) Mettez à jour toutes les intégrations personnalisées pour utiliser OAuth2.
 
-   Pour obtenir des instructions sur la configuration des intégrations OAuth2, voir [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+   Pour plus d’informations sur la configuration des intégrations OAuth2, voir [Création d’applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
    >[!NOTE]
    >

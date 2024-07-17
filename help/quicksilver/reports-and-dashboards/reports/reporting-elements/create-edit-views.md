@@ -9,7 +9,7 @@ exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
 source-wordcount: '1788'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour créer une vue dans un rapport</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour créer une vue dans un rapport</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
@@ -56,26 +56,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Le processus de création ou de personnalisation d’une vue varie selon que vous créez ou personnalisez une vue standard ou une vue agile.
 
-* [Création ou personnalisation d’une vue standard](#create-or-customize-a-standard-view)
+* [Créer ou personnaliser une vue standard](#create-or-customize-a-standard-view)
 * [Création ou personnalisation d’une vue agile](#create-or-customize-an-agile-view)
 
 ### Création ou personnalisation d’une vue standard {#create-or-customize-a-standard-view}
 
 Vous pouvez créer une vue standard ou personnaliser une vue standard existante que vous avez créée précédemment.
 
-1. Cliquez sur le bouton **Affichage** menu déroulant sur toute liste dans laquelle vous souhaitez créer ou personnaliser une vue.
+1. Cliquez sur le menu déroulant **Afficher** dans n’importe quelle liste où vous souhaitez créer ou personnaliser une vue.
 1. (Facultatif) Pour personnaliser une vue existante, sélectionnez la vue standard que vous souhaitez personnaliser.\
    Les vues standard sont disponibles sur tout type de liste dans Workfront, tel qu’un rapport, une liste de projets ou une liste de tâches.
-1. Cliquez sur le bouton **Affichage** , puis cliquez sur **Vue Personnaliser** ou **Nouvelle vue**.\
-   La variable **Vue Personnaliser** s’affiche.
+1. Cliquez sur le menu déroulant **Affichage**, puis sur **Personnaliser la vue** ou **Nouvelle vue**.\
+   La boîte de dialogue **Personnaliser la vue** s’affiche.
 
-1. Dans le **Aperçu des colonnes** , effectuez l’une des opérations suivantes :
+1. Dans la section **Aperçu des colonnes**, effectuez l’une des opérations suivantes :
 
    * Modifiez la valeur d’une colonne en cliquant sur le titre de la colonne, puis en sélectionnant un nouveau champ.
-   * Ajoutez une colonne en cliquant **Ajouter une colonne**, commencez à saisir le nom de la colonne à ajouter, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
+   * Ajoutez une colonne en cliquant sur **Ajouter une colonne**, commencez à saisir le nom de la colonne à ajouter, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
    * Ajustez l’ordre d’affichage des colonnes en faisant glisser le titre de la colonne vers un nouvel emplacement.
 
-      * (Facultatif) Dans la variable **Paramètres des colonnes** , cliquez sur la zone **Résumer cette colonne par** , puis sélectionnez l’une des options disponibles pour résumer les informations. Lorsque vous sélectionnez cette option, les informations contenues dans votre colonne sont agrégées dans les regroupements du rapport.\
+      * (Facultatif) Dans la zone **Paramètres de colonne**, cliquez sur la liste déroulante **Résumer cette colonne par** , puis sélectionnez l’une des options disponibles pour résumer les informations. Lorsque vous sélectionnez cette option, les informations contenues dans votre colonne sont agrégées dans les regroupements du rapport.\
         Pour les champs de date, vous pouvez résumer les valeurs par les options suivantes :
 
          * Maximum
@@ -99,7 +99,7 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
         >   
         >
 
-        Pour plus d’informations sur l’utilisation de regroupements dans un rapport, reportez-vous à l’article [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Pour plus d’informations sur l’utilisation des groupements dans un rapport, consultez l’article [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facultatif) Cliquez sur **Options avancées** pour spécifier les informations suivantes pour la colonne :
 
@@ -121,12 +121,12 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Règles de la colonne</strong></td> 
-           <td><p>Cliquez sur <strong>Ajouter une règle pour cette colonne</strong> pour définir une règle pour la colonne. Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte pour l’affichage des champs correspondant à cette règle. Cliquez sur <strong>Ajouter une règle</strong> après avoir défini la règle.</p></td> 
+           <td><p>Cliquez sur <strong>Ajouter une règle pour cette colonne</strong> pour définir une règle pour la colonne. Après avoir ajouté une règle, vous pouvez définir des styles de champ et de texte pour l’affichage des champs correspondant à cette règle. Cliquez sur <strong>Ajouter une règle</strong> une fois la définition de la règle terminée.</p></td> 
           </tr> 
          </tbody> 
         </table>
 
-        Pour plus d’informations sur le formatage conditionnel des vues dans les rapports, voir l’article [Utilisation de la mise en forme conditionnelle en mode Texte](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Pour plus d’informations sur le formatage conditionnel des vues dans les rapports, consultez l’article [Utilisation de la mise en forme conditionnelle en mode Texte](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Conditionnel) Si vous avez cliqué sur **Options avancées**, cliquez sur **Terminé**.
 
@@ -136,7 +136,7 @@ Vous pouvez créer une vue standard ou personnaliser une vue standard existante 
 
    >[!TIP]
    >
-   >La variable **Enregistrer comme nouvelle vue** est la seule option disponible lorsque vous personnalisez une vue Workfront intégrée.
+   >**Enregistrer comme nouvelle vue** est la seule option disponible lorsque vous personnalisez une vue Workfront intégrée.
 
    Votre accès détermine le mode d’enregistrement de la vue. Si vous avez créé la vue d’origine, vous pouvez enregistrer les modifications ; dans le cas contraire, vous êtes invité à enregistrer une version. Gardez à l’esprit que les modifications que vous apportez à la vue affectent les utilisateurs avec lesquels la vue a été partagée.
 
@@ -148,7 +148,7 @@ Vous pouvez créer une vue Agile ou personnaliser une vue Agile existante que vo
 >
 >Les vues agiles sont disponibles uniquement lors de l’affichage d’un projet.
 
-Pour plus d’informations sur les vues Agile, voir l’article [Gestion d’un projet en mode Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Pour plus d’informations sur les vues Agile, consultez l’article [Gestion d’un projet dans la vue Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 >[!NOTE]
 >
@@ -157,24 +157,24 @@ Pour plus d’informations sur les vues Agile, voir l’article [Gestion d’un 
 Pour créer ou personnaliser une vue Agile :
 
 1. Accédez à la liste des tâches d’un projet.
-1. Cliquez sur le bouton **board** icon ![Icône Panorama](assets/board-icon-for-agile-view.png), puis cliquez sur **Utiliser la version agile héritée** sur le panorama.
+1. Cliquez sur l’icône **Panorama** ![Icône Panorama](assets/board-icon-for-agile-view.png), puis sur **Utiliser la version héritée de l’agile** dans la vue panoramique.
 
 1. (Conditionnel) Pour personnaliser une vue Agile existante :
 
-   1. Cliquez sur le bouton **Affichage** dans le menu déroulant, puis sélectionnez la vue agile à personnaliser.\
+   1. Cliquez sur le menu déroulant **Afficher** , puis sélectionnez la vue agile que vous souhaitez personnaliser.\
       Vous ne pouvez pas personnaliser la vue Agile par défaut.
 
-   1. Cliquez sur le bouton **Affichage** menu déroulant, puis cliquez de nouveau sur **Vue Personnaliser**.\
+   1. Cliquez à nouveau sur le menu déroulant **Afficher**, puis sur **Personnaliser la vue**.\
       ![](assets/view-agile-customize.png)
 
 1. (Conditionnel) Pour créer une vue agile, cliquez sur **Nouvelle vue**.\
-   La variable **Personnalisation de l’affichage agile** s’affiche.
+   La boîte de dialogue **Personnaliser la vue agile** s’affiche.
 
-1. Dans le **Personnalisation de l’affichage agile** , indiquez un nom pour la vue agile.\
+1. Dans la boîte de dialogue **Personnaliser la vue agile**, spécifiez un nom pour la vue agile.\
    Nous vous recommandons d’inclure le mot &quot;Agile&quot; dans le nom de votre vue afin que les utilisateurs sachent qu’il s’agit d’une vue agile.\
-   Ce nom s’affiche dans la **Affichage** lors de la sélection d’une vue.
+   Ce nom s’affiche dans le menu déroulant **Affichage** lors de la sélection d’une vue.
 
-1. Définissez les colonnes d’état à afficher sur le panorama des articles dans la vue agile. Il s’agit des états des tâches définis par l’administrateur de Workfront, comme décrit dans la section [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. Définissez les colonnes d’état à afficher sur le panorama des articles dans la vue agile. Il s’agit des états des tâches définis par l’administrateur Workfront, comme décrit dans la section [Créer ou modifier un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
    Seuls les états système peuvent être utilisés sur la carte Agile. Si un état est disponible uniquement pour un groupe individuel dont vous êtes membre, il n’est pas disponible sur le tableau de bord agile. En outre, les tâches dont l’état est disponible uniquement pour un groupe personnalisé ne sont pas visibles lors de l’affichage du projet dans une vue Agile.
 
@@ -186,16 +186,16 @@ Pour créer ou personnaliser une vue Agile :
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Réorganiser les colonnes d’état :</strong> </td> 
+      <td role="rowheader"><strong>Réorganiser les colonnes d’état : </strong> </td> 
       <td> Faites glisser une colonne d’état dans l’ordre dans lequel elle doit apparaître.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Supprimer les colonnes d’état :</strong> </td> 
-      <td>Cliquez sur l’icône (x) dans la colonne à supprimer.<br>Vous ne pouvez pas supprimer l’état "Nouveau", à moins qu’un état personnalisé n’ait été ajouté à la vue et que l’état personnalisé corresponde à "Nouveau".<br>Pour plus d’informations sur la création d’un état personnalisé, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Création ou modification d’un état</a>.</td> 
+      <td role="rowheader"><strong> Supprimer les colonnes d’état : </strong> </td> 
+      <td>Cliquez sur l’icône (x) dans la colonne à supprimer.<br>Vous ne pouvez pas supprimer l’état "Nouveau" à moins qu’un état personnalisé n’ait été ajouté à la vue et que l’état personnalisé corresponde à "Nouveau".<br>Pour plus d’informations sur la création d’un état personnalisé, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Création ou modification d’un état</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Ajouter des colonnes d’état :</strong> </td> 
-      <td> <p>Cliquez sur le bouton <strong>Plus</strong> puis sélectionnez l’état que vous souhaitez ajouter.<br>Tous les statuts système par défaut s’affichent, ainsi que tous les statuts personnalisés qui ont été partagés avec vous.<br>Vous pouvez configurer jusqu’à 10 états à afficher.</p></td> 
+      <td> <p>Cliquez sur l'icône <strong>Plus</strong> , puis sélectionnez l'état que vous souhaitez ajouter.<br>Tous les états système par défaut sont affichés, ainsi que tous les états personnalisés qui ont été partagés avec vous.<br>Vous pouvez configurer jusqu’à 10 états à afficher.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -204,7 +204,7 @@ Pour créer ou personnaliser une vue Agile :
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
        -->
 
-1. Dans le **Associer la couleur de la carte à** , sélectionnez l’une des options suivantes :
+1. Dans la zone **Associer la couleur de la carte à**, sélectionnez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -215,15 +215,15 @@ Pour créer ou personnaliser une vue Agile :
       <td>Toutes les sous-tâches correspondent à la couleur de la tâche parent, de sorte que les couleurs de tous les articles d’un couloir donné soient les mêmes.<br>Les couleurs sont attribuées de manière aléatoire aux tâches lorsqu’elles sont créées si la tâche ne comporte aucune sous-tâche ou n’a pas de tâche parent.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Free Form :</strong> </td> 
-      <td> Toutes les cartes sont affichées en bleu par défaut jusqu’à ce qu’un utilisateur modifie manuellement la couleur, comme décrit dans l’article. <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Catégorisation des articles par couleur sur le panneau de défilement</a>. </td> 
+      <td role="rowheader"><strong>Formulaire gratuit :</strong> </td> 
+      <td> Toutes les cartes s’affichent en bleu par défaut jusqu’à ce qu’un utilisateur modifie manuellement la couleur, comme décrit dans l’article <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Catégoriser les articles par couleur sur le Scrum board</a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priorité :</strong> </td> 
       <td> <p> Les couleurs sont associées à la priorité de l’article, comme suit :</p> 
        <ul> 
         <li>Élevé = Rouge</li> 
-        <li>Moyen = Jaune</li> 
+        <li>Medium = jaune</li> 
         <li>Faible = Vert<br>Si votre administrateur Workfront a configuré des priorités personnalisées pour votre système Workfront, la priorité la plus élevée est le rouge, la seconde la jaune et les autres le vert.</li> 
        </ul> </td> 
      </tr> 
@@ -234,7 +234,7 @@ Pour créer ou personnaliser une vue Agile :
     </tbody> 
    </table>
 
-1. Dans le **Agile** , dans la section **Champs supplémentaires** zone, cliquez sur **Ajouter un champ**, puis sélectionnez le champ à ajouter aux cartes d’articles. (Il s’agit des mêmes champs que ceux que vous pouvez ajouter lors de la création d’une vue ou de la création de colonnes pour un rapport.)\
+1. Dans la section **Agile**, dans la zone **Additional Fields**, cliquez sur **Ajouter un champ**, puis sélectionnez le champ à ajouter aux cartes de narration. (Il s’agit des mêmes champs que ceux que vous pouvez ajouter lors de la création d’une vue ou de la création de colonnes pour un rapport.)\
    Répétez cette procédure pour ajouter jusqu’à trois champs supplémentaires aux fiches d’article.\
    Lorsque vous ajoutez des champs aux cartes d’articles, ils sont en lecture seule et s’affichent uniquement lorsque le champ est renseigné.
 
@@ -253,4 +253,4 @@ Pour créer ou personnaliser une vue Agile :
 1. Cliquer sur **Enregistrer**.\
    Votre accès détermine le mode d’enregistrement de la vue. Si vous avez créé la vue d’origine, vous pouvez enregistrer les modifications ; dans le cas contraire, vous êtes invité à enregistrer une version. Gardez à l’esprit que les modifications que vous apportez à la vue affectent les utilisateurs avec lesquels la vue a été partagée.
 
-1. (Facultatif) Cliquez sur le **Liste** pour revenir à la liste des tâches.
+1. (Facultatif) Cliquez sur l’icône **Liste** pour revenir à la liste des tâches.

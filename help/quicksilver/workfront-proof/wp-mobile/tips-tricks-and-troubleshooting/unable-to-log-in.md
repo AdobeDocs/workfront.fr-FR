@@ -1,35 +1,36 @@
 ---
-title: Impossible de se connecter au [!DNL Workfront Proof] Application mobile
-description: Résolution des problèmes de connexion à l’application mobile Workfront BAT.
+title: Impossible de se connecter à l’application mobile  [!DNL Workfront Proof]
+description: Dépannage de la connexion à l’application mobile Workfront Proof.
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Impossible de se connecter au [!DNL Workfront Proof] Application mobile
+# Impossible de se connecter à l’application mobile [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problème
 
-Lors de la tentative de connexion à la variable [!DNL Workfront Proof] L’application mobile renvoyée :
+Lorsque vous essayez de vous connecter à l’application mobile [!DNL Workfront Proof], elle renvoie :
 
 &quot;Votre nom d’utilisateur ou mot de passe est incorrect. Veuillez réessayer.&quot;
 
-Ce problème se produit lorsque vous lancez la [!DNL Workfront Proof] Application mobile seule car elle tente de se connecter à une application autonome [!DNL Workfront Proof] système, et non celui intégré à Workfront.
+Ce problème se produit lorsque vous lancez l’application mobile [!DNL Workfront Proof] car elle tente de se connecter à un système [!DNL Workfront Proof] autonome, et non à un système intégré à Workfront.
 
 ## Solution
 
-Lors de l’utilisation des deux [!DNL Workfront] &amp; [!DNL Workfront Proof],
+Lors de l’utilisation des [!DNL Workfront] et [!DNL Workfront Proof],
 
-1. Assurez-vous que la variable [!DNL Workfront] Application mobile et [!DNL Workfront Proof] Les applications mobiles sont installées sur votre appareil.
-1. Connectez-vous au [!DNL Workfront] Application mobile et accédez au document à prouver.
+1. Assurez-vous que l’application mobile [!DNL Workfront] et l’application mobile [!DNL Workfront Proof] sont installées sur votre appareil.
+1. Connectez-vous à l&#39;application mobile [!DNL Workfront] et accédez au document à tester.
 1. Cliquez sur l’icône à trois points dans le coin supérieur droit de l’écran, puis cliquez sur **[!UICONTROL Vérification]**.
-La variable [!DNL Workfront Proof] L’application mobile lance automatiquement la connexion.
+L’application mobile [!DNL Workfront Proof] démarre automatiquement vous connecte.
 Vous pouvez désormais utiliser la vérification dans le document.

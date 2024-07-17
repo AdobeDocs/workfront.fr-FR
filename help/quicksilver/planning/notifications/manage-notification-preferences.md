@@ -8,7 +8,7 @@ exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
 source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 9%
+ht-degree: 25%
 
 ---
 
@@ -22,7 +22,7 @@ Lorsqu’une personne vous ajoute à un commentaire sur la page d’enregistreme
 >
 >Votre entreprise doit être un client Adobe Unified Experience pour pouvoir recevoir des notifications de Workfront Planning.
 >
->Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Conditions d’accès
 
@@ -40,10 +40,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <p> Produit</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Pour recevoir des notifications in-app de la planification Workfront et gérer les préférences de notification, l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p>
+   <p>Pour recevoir des notifications in-app de la planification Workfront et gérer les préférences de notification, l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Accord Adobe Workfront</p></td>
    <td>
 <p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
    </td>
@@ -63,19 +63,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès dans la planification Workfront. </p>  
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès dans Workfront Planning. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Affichage ou autorisations supérieures à un espace de travail</a> </p>  
-   <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
+   <td> <p>Autorisations d’affichage ou supérieures pour un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> <p>L’administrateur de Workfront ou de groupe doit ajouter la zone Planning dans votre modèle de mise en page. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès</a>. </p>  
+   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td> <p>Votre administrateur ou administratrice Workfront ou de groupes doit ajouter la zone Planning dans votre modèle de disposition. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -84,15 +84,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 ## Gestion des préférences de notification
 
 1. Connectez-vous à Workfront à l’aide de vos informations d’identification Adobe Experience Cloud.
-1. Cliquez sur le bouton **menu du compte** icon ![](assets/account-menu-icon-on-experience-cloud.png) dans le coin supérieur droit de l’écran, puis cliquez sur **Préférences**.
-1. Sous , **Notifications** , cliquez sur **Workfront**, puis suivez les étapes de l’article suivant pour gérer vos préférences de notification pour Workfront Planning :
-   [Préférences de compte et notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+1. Cliquez sur l’icône **menu du compte** ![](assets/account-menu-icon-on-experience-cloud.png) dans le coin supérieur droit de l’écran, puis cliquez sur **Préférences**.
+1. Dans la section **Notifications** , cliquez sur **Workfront**, puis suivez les étapes de l’article suivant pour gérer vos préférences de notification pour la planification Workfront :
+   [ Préférences de compte et notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Pour plus d’informations sur les notifications Workfront Planning, consultez également les articles suivants :
 
-* Pour plus d’informations sur les commentaires sur les enregistrements, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
+* Pour plus d’informations sur les commentaires sur les enregistrements, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
 * Pour plus d’informations sur les notifications in-app de Workfront Planning, voir [Gestion des notifications in-app pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Pour plus d’informations sur les notifications électroniques de Workfront Planning, voir [Gestion des notifications par e-mail pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+* Pour plus d’informations sur les notifications par e-mail de Workfront Planning, voir [Gestion des notifications par e-mail pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
 
 

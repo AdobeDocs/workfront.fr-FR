@@ -2,7 +2,7 @@
 content-type: faq
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
-title: Questions fréquentes
+title: Questions fréquentes sur les tâches
 description: Par défaut, un demandeur/assignateur de tâche ne reçoit pas de notifications par email pour les modifications apportées aux tâches qu’il affecte à d’autres utilisateurs. Le nombre de notifications sur ces tâches serait énorme pour une personne qui assigne régulièrement un grand nombre de tâches.
 author: Alina
 feature: Work Management
@@ -10,11 +10,11 @@ exl-id: 6463efdd-02e0-42e1-8fe6-18a88f74db7b
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Questions fréquentes
+# Questions fréquentes sur les tâches
 
 ## L’utilisateur qui affecte des tâches à d’autres utilisateurs reçoit-il des notifications sur les modifications ou mises à jour des tâches qu’il affecte ?
 

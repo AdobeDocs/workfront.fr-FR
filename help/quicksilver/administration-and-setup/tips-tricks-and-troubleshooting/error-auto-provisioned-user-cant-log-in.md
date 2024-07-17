@@ -12,7 +12,7 @@ exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
 source-git-commit: 477f65efb09e8566dd0af88adfbe88135d6c6ae9
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 9%
+ht-degree: 30%
 
 ---
 
@@ -41,12 +41,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un [!DNL Workfront] administrateur. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices</a>.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,9 +57,9 @@ Créez un niveau d’accès de base avec une licence Request :
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Niveaux d’accès]**.
 
-1. Cliquez sur **[!UICONTROL Nouveau niveau d’accès]**.
+1. Cliquez sur **[!UICONTROL New Access Level]**.
 1. Saisissez un **[!UICONTROL Nom]**.
-1. Dans le **[!UICONTROL Type de licence]** , sélectionnez Demander.
+1. Dans le menu déroulant **[!UICONTROL Type de licence]**, sélectionnez Demander.
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
 Après avoir créé un niveau d’accès avec une licence de demande, demandez à l’utilisateur de se connecter avec ses informations d’identification SSO.

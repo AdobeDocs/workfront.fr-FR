@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Objectifs de Workfront avec la version 20.3 - 14 août 2020
+title: Objectifs Workfront avec la version 20.3 - 14 août 2020
 description: Les objectifs de Workfront sont disponibles avec la version 20.3 de production uniquement dans la nouvelle expérience Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Goals
@@ -10,11 +10,11 @@ exl-id: a25cf5e7-72b9-432c-ab72-1a620475ce74
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Objectifs de Workfront avec la version 20.3 - 14 août 2020
+# Objectifs Workfront avec la version 20.3 - 14 août 2020
 
 Les objectifs de Workfront sont disponibles avec la version 20.3 de production uniquement dans la nouvelle expérience Adobe Workfront.
 
@@ -42,4 +42,4 @@ Grâce aux objectifs de Workfront, vous pouvez définir et gérer facilement des
 * Quels sont les progrès de mes indicateurs clés de performance par rapport à mes objectifs ?
 * Quel travail est en danger, derrière ou sur la bonne voie pour atteindre mes objectifs ?
 
-Pour plus d’informations sur les objectifs de Workfront, voir [Présentation des objectifs d’Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+Pour plus d’informations sur les objectifs Workfront, voir [Présentation des objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).

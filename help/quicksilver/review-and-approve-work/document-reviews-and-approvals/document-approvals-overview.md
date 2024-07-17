@@ -47,9 +47,9 @@ Si vous souhaitez que la nouvelle approbation de documents soit activée dans vo
 
 ## Utilisation de la nouvelle approbation de documents
 
-Pour les utilisateurs qui souhaitent créer ou gérer des validations de document, reportez-vous aux articles répertoriés dans la section [Configuration et gestion des validations de ressources et de documents : index des articles](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Pour les utilisateurs qui souhaitent créer ou gérer des approbations de documents, reportez-vous aux articles répertoriés dans [ Configuration et gestion des approbations de ressources et de documents : article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Pour les utilisateurs qui souhaitent consulter ou approuver des documents pour lesquels ils ont reçu une demande, reportez-vous aux articles répertoriés dans la section [Approbation et révision de documents : index de l’article](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Pour les utilisateurs qui souhaitent réviser ou approuver des documents pour lesquels ils ont reçu une demande, reportez-vous aux articles répertoriés dans [Approuver et réviser des documents : article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

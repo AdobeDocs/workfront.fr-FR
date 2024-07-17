@@ -1,6 +1,6 @@
 ---
-title: Gérer l’utilisation de la fonction  [!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] Applications
-description: Gérer l’utilisation de la fonction  [!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] Applications
+title: Gérer l’utilisation du module externe  [!DNL Adobe Workfront] pour les applications  [!DNL Creative Cloud]
+description: Gérer l’utilisation du module externe  [!DNL Adobe Workfront] pour les applications  [!DNL Creative Cloud]
 author: Courtney
 draft: Probably
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Gérer l’utilisation de la fonction  [!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] Applications
+# Gérer l’utilisation du module externe [!DNL Adobe Workfront] pour les applications [!DNL Creative Cloud]
 
-* [Recherchez votre travail à l’aide de la fonction [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
-* [Affichez les informations sur les éléments de travail à l’aide du [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
-* [Mettez à jour votre travail à l’aide de la fonction [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
-* [Marquez les tâches terminées à l’aide de la fonction [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
-* [Temps de connexion à l’aide de la variable [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-* [Affichage et gestion [!DNL Adobe Workfront] notifications de [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+* [Recherchez votre travail à l’aide du module externe  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
+* [Affichage des informations sur les éléments de travail à l’aide du module externe  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
+* [Mettez à jour votre travail à l’aide du module externe  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
+* [Marquer les tâches terminées à l’aide du module externe  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
+* [Temps de connexion à l’aide du module externe  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+* [Afficher et gérer les  [!DNL Adobe Workfront] notifications de [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)

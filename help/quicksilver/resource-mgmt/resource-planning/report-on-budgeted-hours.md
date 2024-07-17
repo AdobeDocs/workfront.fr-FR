@@ -1,7 +1,7 @@
 ---
 product-area: resource-management;reporting
 navigation-topic: resource-planning
-title: Rapport sur les heures planifiées de la planification des ressources
+title: Effectuer un rapport des heures budgétées du planificateur de ressources
 description: Vous pouvez budgétiser des ressources sur vos projets à l’aide du planificateur de ressources. Pour plus d’informations sur la planification de vos ressources à l’aide du planificateur de ressources Adobe Workfront, consultez l’article Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle .
 author: Alina
 feature: Resource Management
@@ -9,13 +9,13 @@ exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Rapport sur les heures planifiées de la planification des ressources
+# Effectuer un rapport des heures budgétées du planificateur de ressources
 
-Vous pouvez budgétiser des ressources sur vos projets à l’aide du planificateur de ressources. Pour plus d’informations sur la planification de vos ressources à l’aide du planificateur de ressources Adobe Workfront, consultez l’article . [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Vous pouvez budgétiser des ressources sur vos projets à l’aide du planificateur de ressources. Pour plus d’informations sur la planification de vos ressources à l’aide du planificateur de ressources Adobe Workfront, reportez-vous à l’article [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 Les ressources de budget signifient que vous définissez (ou budgétisez) un certain nombre d&#39;heures pendant lesquelles les ressources d&#39;un projet doivent terminer leur travail sur le projet. Pour partager les informations sur l’heure budgétée que vous saisissez dans le planificateur de ressources avec d’autres utilisateurs qui n’ont peut-être pas accès au planificateur de ressources, vous pouvez créer un rapport Heure planifiée . Pour plus d’informations, voir [Rapport : Heure budgétée](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 

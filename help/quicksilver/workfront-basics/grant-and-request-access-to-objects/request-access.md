@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Demande d’accès aux objets
+title: Demander l’accès aux objets
 description: La visibilité des objets dans Adobe Workfront dépend de l’accès à ce type d’objet et des autorisations accordées à celui-ci.
 author: Alina
 feature: Get Started with Workfront
@@ -9,27 +9,27 @@ exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
 source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
 source-wordcount: '1429'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Demande d’accès aux objets
+# Demander l’accès aux objets
 
 La visibilité des objets dans Adobe Workfront dépend de l’accès à ce type d’objet et des autorisations accordées à celui-ci.
 
 >[!NOTE]
 >
->Cet article décrit comment vous pouvez demander des autorisations pour tous les objets, à l’exception des plans du planificateur de scénario Adobe Workfront. Pour plus d’informations sur la demande d’accès aux plans, voir [Demande d’accès à un plan dans le planificateur de scénarios](../../scenario-planner/request-access-to-plan.md). Cela nécessite une licence supplémentaire.
+>Cet article décrit comment vous pouvez demander des autorisations pour tous les objets, à l’exception des plans du planificateur de scénario Adobe Workfront. Pour plus d’informations sur la demande d’accès aux plans, voir [Demande d’accès à un plan dans le planificateur de scénario](../../scenario-planner/request-access-to-plan.md). Cela nécessite une licence supplémentaire.
 
-Votre administrateur Workfront configure votre accès à un type d’objet de votre niveau d’accès. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Votre administrateur Workfront configure votre accès à un type d’objet de votre niveau d’accès. Pour plus d’informations, voir [Comment les niveaux d’accès et les autorisations fonctionnent ensemble](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Si vous avez besoin d’autorisations pour des objets spécifiques dans Workfront, vous pouvez demander l’accès à ces objets. Plutôt que d’envoyer un courrier électronique à l’administrateur Workfront ou au propriétaire de l’objet pour expliquer vos besoins, vous pouvez demander un accès (ou des autorisations) supplémentaire dans Workfront.
 
 Vous pouvez demander un accès initial aux objets si quelqu’un partage avec vous un lien vers l’objet ou vous pouvez demander un accès supplémentaire aux objets que vous affichez au moins.
 
-Par exemple, vous disposez peut-être des autorisations Afficher pour un projet, mais vous devez ajouter des tâches à ce projet. Dans ce cas, vous pouvez demander des autorisations de contribution au projet.
+Par exemple, vous disposez peut-être des autorisations Afficher pour un projet, mais vous devez ajouter des tâches à ce projet. Dans ce cas, vous pouvez demander des autorisations Contribute au projet.
 
-## Exigences d’accès
+## Conditions d’accès
 
 <!--drafted for P&P:
 
@@ -66,29 +66,29 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou plus élevé</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Travail ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Afficher l’accès ou une version ultérieure aux objets pour lesquels vous demandez des autorisations</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Présentation des règles de partage standard
 
 Les règles de partage standard suivantes prennent effet automatiquement, car elles sont configurées en tant qu’options par défaut dans votre système Workfront.
 
-* Les utilisateurs affectés à une tâche ou à un problème disposent d’un accès Contribution .
+* Les utilisateurs affectés à une tâche ou à un problème ont accès à Contribute.
 * Les gestionnaires de projet, de Portfolio et de programme disposent de l’accès Gérer sur les objets qu’ils détiennent.
 * Les utilisateurs inclus dans une conversation disposent d’un accès en vue sur l’objet sur lequel la conversation se produit.
 * Les utilisateurs affectés en tant qu’approbateurs disposent d’un accès en mode sur l’objet en attente d’approbation.
@@ -99,7 +99,7 @@ Les règles de partage standard suivantes prennent effet automatiquement, car el
 
 Vous pouvez demander un accès initial aux objets auxquels vous n’avez actuellement pas accès ou demander un accès supplémentaire aux objets auxquels vous n’avez qu’un accès limité.
 
-* [Demande d’accès initial](#request-initial-access)
+* [ Demander l’accès initial](#request-initial-access)
 * [Demande d’accès supplémentaire](#request-additional-access)
 
 ### Demande d’accès initial  {#request-initial-access}
@@ -108,16 +108,16 @@ Si vous n’avez pas encore accès à un objet et que vous accédez à cet objet
 
 Pour demander l’accès initial à un objet :
 
-1. Cliquez sur **Demande d’accès**.\
-   La variable **Demande d’accès** s’affiche.
+1. Cliquez sur **Demander l’accès**.\
+   La boîte de dialogue **Demander l’accès** s’affiche.
 
 1. (Conditionnel) Si plusieurs utilisateurs disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche déroulante s’affiche en regard du nom de l’utilisateur.
 1. Sélectionnez dans la liste déroulante l’utilisateur qui doit recevoir votre demande d’accès.\
    Seuls 10 utilisateurs sont affichés dans la liste déroulante. La liste est triée par ordre alphabétique.\
-   Pour plus d’informations sur l’ordre des utilisateurs répertoriés dans ce menu déroulant, voir  [Hiérarchie des menus déroulants &quot;Demander l’accès&quot; et &quot;Demander plus d’accès&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Pour plus d’informations sur l’ordre des utilisateurs répertoriés dans ce menu déroulant, voir [Hiérarchie des menus déroulants &quot;Demander l’accès&quot; et &quot;Demander plus d’accès&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Dans la liste déroulante, sélectionnez le type d’accès que vous demandez.
-1. (Facultatif) Dans la variable **P.S.** , indiquez une note à l’utilisateur concernant les raisons pour lesquelles vous avez besoin d’un accès supplémentaire.
+1. (Facultatif) Dans le champ **P.S.**, indiquez une note à l’utilisateur concernant les raisons pour lesquelles vous avez besoin d’un accès supplémentaire.
 
    ![](assets/request-access-dialog-350x314.png)
 
@@ -132,23 +132,23 @@ Pour demander un accès supplémentaire à un objet auquel vous avez déjà un a
 
 1. Accédez à l’objet pour lequel vous souhaitez demander un accès supplémentaire.
 
-1. Cliquez sur le bouton **Plus** à droite du nom du projet, puis cliquez sur **Demander plus d’accès**.
+1. Cliquez sur le menu **Plus** à droite du nom du projet, puis sur **Demander plus d’accès**.
 
    ![](assets/request-access-in-project-350x201.png)
 
 1. (Conditionnel) Si plusieurs utilisateurs disposent de l’accès approprié pour vous accorder un accès supplémentaire, une flèche déroulante s’affiche en regard du nom de l’utilisateur.
 1. Sélectionnez dans la liste déroulante l’utilisateur qui doit recevoir votre demande d’accès.\
    Seuls 10 utilisateurs sont affichés dans la liste déroulante. La liste est triée par ordre alphabétique.\
-   Pour plus d’informations sur l’ordre des utilisateurs répertoriés dans ce menu déroulant, voir  [Hiérarchie des menus déroulants &quot;Demander l’accès&quot; et &quot;Demander plus d’accès&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Pour plus d’informations sur l’ordre des utilisateurs répertoriés dans ce menu déroulant, voir [Hiérarchie des menus déroulants &quot;Demander l’accès&quot; et &quot;Demander plus d’accès&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Dans la liste déroulante, sélectionnez le niveau d’accès que vous demandez.
-1. (Facultatif) Dans la variable **P.S.** , indiquez une note expliquant pourquoi vous avez besoin d’un accès supplémentaire.
-1. Cliquez sur **Demande d’accès**.\
+1. (Facultatif) Dans le champ **P.S.**, indiquez une note expliquant pourquoi vous avez besoin d’un accès supplémentaire.
+1. Cliquez sur **Demander l’accès**.\
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hiérarchie des menus déroulants &quot;Demander l’accès&quot; et &quot;Demander plus d’accès&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
-* [Présentation de la hiérarchie des utilisateurs répertoriés dans les menus déroulants Demander l’accès et Demander plus d’accès](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
+* [Comprendre la hiérarchie des utilisateurs répertoriés dans les menus déroulants Demander l’accès et Demander plus d’accès](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
 * [Comprendre le propriétaire d’un objet](#understand-the-owner-of-an-object)
 
 ### Présentation de la hiérarchie des utilisateurs répertoriés dans les menus déroulants Demander l’accès et Demander plus d’accès {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
@@ -159,7 +159,7 @@ Workfront affiche jusqu’à 10 utilisateurs dans les listes &quot;Demander l’
 
 L’ordre des utilisateurs dans les menus déroulants &quot;Demander l’accès&quot; ou &quot;Demander plus d’accès&quot; est dicté par les règles suivantes :
 
-* Le premier utilisateur de la liste est l’objet &quot;propriétaire&quot;, comme décrit dans la section [Comprendre le propriétaire d’un objet](#understand-the-owner-of-an-object).
+* Le premier utilisateur de la liste est l’objet &quot;propriétaire&quot;, comme décrit dans [Comprendre le propriétaire d’un objet](#understand-the-owner-of-an-object).
 * Ensuite, la liste est remplie avec les utilisateurs avec lesquels l’objet est partagé individuellement. Ils sont répertoriés par ordre alphabétique.
 * La liste est ensuite complétée par des utilisateurs qui obtiennent l’accès requis en partageant avec leurs équipes, groupes ou entreprises. Ils sont répertoriés par ordre alphabétique.
 * Si la liste est vide, les administrateurs Workfront sont ajoutés afin qu’il y ait toujours quelqu’un à qui demander l’accès. Ils sont répertoriés par ordre alphabétique.
@@ -212,12 +212,12 @@ Le propriétaire d’un objet est défini comme suit :
    <td>Le propriétaire d’un filtre, d’une vue ou d’un regroupement est le créateur. </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><span>Formules</span> </td> 
-   <td> <p><span>Le propriétaire est le créateur du plan.</span> </p> <p>Cela nécessite une licence supplémentaire. </p> <p><span>Pour plus d’informations sur le planificateur de scénario Workfront, voir</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Présentation du planificateur de scénarios</a>.</p> </td> 
+   <td><span>Plans</span> </td> 
+   <td> <p><span>Le propriétaire est le créateur du plan.</span> </p> <p>Cela nécessite une licence supplémentaire. </p> <p><span>Pour plus d’informations sur le planificateur de scénario Workfront, voir </span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Présentation du planificateur de scénario</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Objectifs</td> 
-   <td> <p>Le propriétaire est l’utilisateur désigné comme propriétaire. Il se peut qu'ils ne soient pas la même personne que le créateur du but. </p> <p>Cela nécessite une licence supplémentaire. </p> <p>Pour plus d’informations sur les objectifs de Workfront, voir <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Présentation des objectifs d’Adobe Workfront</a>. </p> </td> 
+   <td> <p>Le propriétaire est l’utilisateur désigné comme propriétaire. Il se peut qu'ils ne soient pas la même personne que le créateur du but. </p> <p>Cela nécessite une licence supplémentaire. </p> <p>Pour plus d’informations sur les objectifs Workfront, voir <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Présentation des objectifs Adobe Workfront</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

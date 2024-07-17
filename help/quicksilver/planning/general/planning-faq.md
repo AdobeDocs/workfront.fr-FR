@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Cet article contient la liste des questions les plus courantes concernant la planification Adobe Workfront.
 
-Pour plus d’informations sur la planification Workfront, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+Pour plus d’informations sur la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Qu’est-ce que la planification Workfront ?
 
@@ -30,15 +30,15 @@ Anciennement appelé Project Manager, la planification Workfront est une nouvell
 
 Le module de planification de Workfront est l’une des trois fonctionnalités Workfront distinctes mais connectées qui, ensemble, créent un système d’enregistrement marketing. Les trois fonctionnalités sont les suivantes :
 
-* **Planification**: nouvelles fonctionnalités avancées incluses dans la planification Workfront.
+* **Planification** : nouvelles fonctionnalités avancées incluses dans la planification Workfront.
 
-* **Workflow**: les fonctionnalités de gestion de travail collaboratif que vous utilisez aujourd’hui dans Workfront (gestion de projet, gestion des ressources, etc.)
+* **Workflow** : les fonctionnalités de gestion de travail collaboratif que vous utilisez aujourd’hui dans Workfront (gestion de projet, gestion de ressources, etc.)
 
-* **Automatisation et intégration**: fonctionnalités complètes d’intégration et d’automatisation optimisées par Workfront Fusion.
+* **Automatisation et intégration** : fonctionnalités complètes d’intégration et d’automatisation optimisées par Workfront Fusion.
 
 ## Quand Workfront Planning sera-t-il publié ?
 
-La dernière version de Workfront Planning mise à disposition est prévue pour le 28 août 2024. Pour obtenir des informations à jour sur les fonctionnalités actuellement publiées, voir [Activité de mise à jour en cours de la planification Adobe Workfront](/help/quicksilver/planning/general/release-activity.md).
+La dernière version de Workfront Planning mise à disposition est prévue pour le 28 août 2024. Pour obtenir des informations à jour sur les fonctionnalités actuellement mises à jour, reportez-vous à la section [Activité de mise à jour en cours de la planification Adobe Workfront](/help/quicksilver/planning/general/release-activity.md).
 
 ## Que se passe-t-il une fois la phase de planification de Workfront terminée ?
 
@@ -50,7 +50,7 @@ Cette fonctionnalité sera bientôt disponible.
 
 ## Devons-nous migrer vers IMS ?
 
-Oui. Les clients qui souhaitent acheter Workfront Planning devront migrer vers Adobe Unified Experience/Adobe Business Platform. Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Oui. Les clients qui souhaitent acheter Workfront Planning devront migrer vers Adobe Unified Experience/Adobe Business Platform. Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Pouvez-vous fournir des exemples d’espaces de travail différents ?
 
@@ -68,7 +68,7 @@ Depuis juin 2024, les espaces de travail ne peuvent plus se connecter les uns au
 
 ## Le nombre d’espaces de travail autorisés dans une organisation est-il limité ?
 
-Vous pouvez avoir jusqu’à 1 000 espaces de travail dans l’instance Workfront de votre entreprise. Pour plus d’informations sur les limites, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+Vous pouvez avoir jusqu’à 1 000 espaces de travail dans l’instance Workfront de votre entreprise. Pour plus d’informations sur les limites, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Les objets actuels du système Workfront peuvent-ils être disponibles dans Planification ou doivent-ils être créés manuellement ?
 
@@ -125,7 +125,7 @@ Pas pendant l’étape d’accès anticipé.
 
 ## Avez-vous un ERD documenté et disponible à partager pour le modèle de planification et les types d’enregistrement ?
 
-Nous n’avons pas encore d’outil de gestion des actifs numériques, mais nous disposons d’une documentation détaillée qui vous guide tout au long des détails liés à la planification Workfront. Pour plus d’informations, voir [Planification Adobe Workfront : index des articles](/help/quicksilver/planning/planning-information.md).
+Nous n’avons pas encore d’outil de gestion des actifs numériques, mais nous disposons d’une documentation détaillée qui vous guide tout au long des détails liés à la planification Workfront. Pour plus d’informations, voir [Adobe Workfront Planning : index d’article](/help/quicksilver/planning/planning-information.md).
 
 ## Comment les tarifs de Workfront Planning sont-ils structurés : s’agit-il d’une redevance annuelle ponctuelle ? Ou sommes-nous facturés par utilisateur ?
 
@@ -187,7 +187,7 @@ Les vues sont partagées séparément des espaces de travail. Vous devez partage
 
 ## Pouvez-vous personnaliser les autorisations au-delà de ce qu’est la base ? Actuellement, avec d’autres objets Workfront, vous pouvez personnaliser les autorisations Contribute/Manage/View .
 
-Pas pour le moment. Pour plus d’informations sur ce que chaque autorisation autorise, voir [Présentation du partage des autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Pas pour le moment. Pour plus d’informations sur ce que chaque autorisation autorise, voir [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Actuellement, nous ne disposons que d’autorisations d’espace de travail et d’affichage, mais pas d’autorisations de type d’enregistrement ni d’autorisations de niveau enregistrement individuel. Les types d’enregistrement et les enregistrements héritent des autorisations de l’espace de travail auquel ils appartiennent.
 

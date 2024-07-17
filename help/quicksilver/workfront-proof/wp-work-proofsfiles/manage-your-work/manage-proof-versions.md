@@ -2,14 +2,14 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Gestion des versions de BAT dans [!DNL Workfront Proof]
+title: Gestion des versions de BAT dans  [!DNL Workfront Proof]
 description: Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer un énorme défi. [!DNL Workfront Proof] simplifie ce processus en vous permettant de créer et de comparer plusieurs versions d’un BAT.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer un énorme défi. [!DNL Workfront Proof] simplifie ce processus en vous permettant de créer et de comparer plusieurs versions d’un BAT.
 
@@ -28,27 +28,27 @@ Les autorisations sont spécifiques à une version. Vous pouvez donc accorder à
 
 Pour créer une nouvelle version d’un BAT, vous devez disposer des droits d’édition sur le BAT.
 
-Veuillez consulter [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) pour obtenir plus d’informations sur qui dispose de droits de modification sur un BAT. Voir pour en savoir plus sur la création de versions.
+Pour plus d’informations sur qui dispose des droits de modification sur un BAT, voir [Gérer les rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) . Voir pour en savoir plus sur la création de versions.
 
 ## Affichage des versions de BAT dans la visionneuse de vérification
 
 Le nom complet de la version que vous affichez s’affiche en haut à gauche de la visionneuse de vérification. Toutes les autres versions du BAT s’afficheront sous forme de numéros de version uniquement.
 
-1. Ouvrez un BAT dans la visionneuse de vérification, comme décrit dans la section [Ouverture d’un bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md).
+1. Ouvrez un BAT dans la visionneuse de vérification, comme décrit dans la section [Ouverture d’un BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md).
 1. Dans la visionneuse de BAT, cliquez sur le numéro de version situé à droite du nom du BAT.
 1. Pour afficher l’autre version, cliquez sur son nom dans le menu qui s’affiche lorsque vous cliquez sur le numéro de version.
-1. Pour comparer deux versions, cliquez sur le bouton **[!UICONTROL Comparaison de BAT]** icône .\
+1. Pour comparer deux versions, cliquez sur l&#39;icône **[!UICONTROL Comparer les bons à tirer]** .\
    ![Compare_Proofs_button.png](assets/compare-proofs-button.png)\
    S’il existe plusieurs versions du BAT, vous pouvez sélectionner les deux versions que vous souhaitez comparer en cliquant sur le numéro de version approprié dans chaque côté de l’écran partagé du mode de comparaison.
 
-Pour plus d’informations sur la révision des BAT dans une visionneuse de BAT, voir [Vérification d’un BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+Pour plus d’informations sur la vérification des BAT dans une visionneuse de BAT, voir [Vérification d’un BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
 
 ## Accès aux versions de BAT via la page Détails du BAT
 
 Vous pouvez accéder à toutes les versions d&#39;un BAT à partir de la page Détails du BAT .
 
 1. Ouvrez la page Détails du BAT pour un BAT, comme décrit dans la section [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Cliquez sur l’onglet correspondant aux onglets de version en haut de la page, puis cliquez sur **[!UICONTROL Accéder au BAT]** pour ouvrir la version souhaitée dans la visionneuse de vérification.\
+1. Cliquez sur l’onglet correspondant aux onglets de version en haut de la page, puis cliquez sur **[!UICONTROL Aller à BAT]** pour ouvrir la version souhaitée dans la visionneuse de vérification.\
    ![Version_tabs_on_Proof_Details_page.png](assets/version-tabs-on-proof-details-page-350x205.png)
 
 ## Liaison de versions de BAT
@@ -58,16 +58,16 @@ Si votre BAT comporte plusieurs versions, la version précédente du BAT est gé
 Si vous souhaitez modifier le BAT parent (version précédente) en un autre BAT dans votre compte, ou connecter un seul BAT à un autre BAT dans votre compte (en tant que nouvelle version de l’autre BAT), vous pouvez le faire facilement en procédant comme suit :
 
 1. Ouvrez la page Détails du BAT pour un BAT, comme décrit dans la section [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Modification de la version précédente]**.
+1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Modifier la version précédente]**.
 
-1. Dans le **[!UICONTROL Modification de la version précédente]** s’affiche, sélectionnez le BAT que vous souhaitez définir comme BAT parent (version précédente).\
+1. Dans la zone **[!UICONTROL Modifier la version précédente]** qui s&#39;affiche, sélectionnez le BAT que vous souhaitez définir comme BAT parent (version précédente).\
    Si vous avez besoin d’aide pour trouver le BAT dans la liste, vous pouvez trier les colonnes en cliquant sur l’en-tête de colonne.
 
-1. Cliquez sur **[!UICONTROL Modification de la version précédente]** en bas de la boîte pour connecter les versions.
+1. Cliquez sur **[!UICONTROL Modifier la version précédente]** en bas de la boîte pour connecter les versions.
 
 >[!NOTE]
 >
->Lorsque vous connectez un BAT à un autre BAT dans votre compte (en tant que nouvelle version), [!DNL Workfront Proof] verrouille le BAT qui est désormais la version précédente.
+>Lorsque vous connectez un BAT à un autre BAT de votre compte (en tant que nouvelle version), [!DNL Workfront Proof] verrouille le BAT qui est désormais la version précédente.
 
 ## Suppression de liens vers des versions de BAT
 

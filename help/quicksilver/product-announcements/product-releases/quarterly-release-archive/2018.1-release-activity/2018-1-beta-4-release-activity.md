@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de version 2018.1 bêta 4
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.1 bêta 4. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 24 janvier 2018. Il sera disponible dans l’environnement de production en mars 2018.
+title: Activité Version 2018.1, version bêta 4
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.1 de Beta 4. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 24 janvier 2018. Il sera disponible dans l’environnement de production en mars 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,52 +10,52 @@ exl-id: 8e016f12-bc72-475c-a8cc-38ded4351f88
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '2435'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Activité de version 2018.1 bêta 4
+# Activité Version 2018.1, version bêta 4
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.1 bêta 4. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 24 janvier 2018. Il sera disponible dans l’environnement de production en mars 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.1 de Beta 4. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 24 janvier 2018. Il sera disponible dans l’environnement de production en mars 2018.
 
 >[!IMPORTANT]
 >
 > Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2018.1, voir  [Présentation de l’activité de la version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2018.1, voir  [Présentation de l’activité de version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La version 2018.1 bêta 4 contient des améliorations pour les administrateurs de Workfront et d’autres utilisateurs :
+La version 2018.1 de Beta 4 contient des améliorations pour les administrateurs de Workfront et d’autres utilisateurs :
 
 **Pour les administrateurs**
 
 * [Planifications gérées par les administrateurs de groupe](#schedules-managed-by-group-administrators)
 
-**Pour tous les utilisateurs**
+**Pour Tous Les Utilisateurs**
 
-* [Améliorations de la vérification dans Workfront](#proofing-improvements-within-workfront)
-* [Création de BAT dans le BAT Workfront - Expérience utilisateur améliorée et fonctionnalité supplémentaire](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
-* [Améliorations de la vérification dans Workfront et Workfront BAT](#proofing-improvements-within-workfront-and-workfront-proof)
-* [Mise à jour de l’aspect et du ressenti avec l’intégration Basecamp dans Workfront Proof](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
-* [Coller des images dans Workfront à partir du Presse-papiers](#paste-images-to-workfront-from-the-clipboard)
-* [Améliorations des rapports d’utilisation](#utilization-report-improvements)
-* [Suppression de l’objet Resource Budget Hour de Workfront](#remove-the-resource-budgeted-hour-object-from-workfront)
+* [ Améliorations de la vérification dans Workfront](#proofing-improvements-within-workfront)
+* [Création de BAT dans Workfront Proof - Expérience utilisateur améliorée et fonctionnalité supplémentaire](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
+* [ Améliorations de la vérification dans Workfront et Workfront Proof](#proofing-improvements-within-workfront-and-workfront-proof)
+* [Mise à jour de l’intégration Look and Feed avec Basecamp dans Workfront Proof](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
+* [Coller des images vers Workfront à partir du Presse-papiers](#paste-images-to-workfront-from-the-clipboard)
+* [Améliorations du rapport d’utilisation](#utilization-report-improvements)
+* [Supprimer l’objet Resource Budget Hour de Workfront](#remove-the-resource-budgeted-hour-object-from-workfront)
 * [Statistiques d’utilisation des rapports](#report-usage-statistics)
 * [Mises à jour du graphique Gantt](#gantt-chart-updates)
-* [Nouvel Portfolio Optimizer](#new-portfolio-optimizer)
-* [Option d’ajustement de date du budget dans le planificateur de ressources](#budget-date-adjustment-option-in-the-resource-planner)
+* [New Portfolio Optimizer](#new-portfolio-optimizer)
+* [Option d’ajustement de date de budget dans le planificateur de ressources](#budget-date-adjustment-option-in-the-resource-planner)
 * [Planification des ressources : restreindre les affectations aux utilisateurs en fonction de l’appartenance à un groupe](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
-* [Planification des ressources : autorisation des affectations aux utilisateurs, quel que soit leur rôle](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
+* [Planification des ressources : autoriser les affectations aux utilisateurs, quel que soit leur rôle](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
 * [Prise en charge d’Emoji](#emoji-support)
 
 ## Améliorations de la vérification dans Workfront {#proofing-improvements-within-workfront}
 
 Les améliorations suivantes ont été apportées à la liste de documents dans Workfront : 
 
-* [Affichage de la progression du BAT à partir de la liste des documents](#view-proof-progress-from-the-document-list)
-* [Nouvelle option pour afficher le résumé d’impression à partir de la liste des documents](#new-option-to-view-the-print-summary-from-the-document-list)
-* [Mise à jour de l’aspect pour la génération ou l’ouverture du BAT à partir de la liste de documents](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
-* [Divers liens supprimés des documents de la liste de documents](#various-links-removed-from-documents-on-the-document-list)
-* [Affichage des noms de fichier sur les bons à tirer combinés](#view-file-names-on-combined-proofs)
+* [Afficher la progression du BAT à partir de la liste de documents](#view-proof-progress-from-the-document-list)
+* [Nouvelle option pour afficher le résumé d’impression à partir de la liste de documents](#new-option-to-view-the-print-summary-from-the-document-list)
+* [ Représentation mise à jour de la génération ou de l’ouverture du BAT à partir de la liste de documents ](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
+* [Divers liens supprimés des documents dans la liste de documents](#various-links-removed-from-documents-on-the-document-list)
+* [Afficher les noms de fichier sur les bons à tirer combinés](#view-file-names-on-combined-proofs)
 * [Affichage de l’étape active actuelle d’un bon à tirer à partir de la liste de documents](#view-the-current-active-stage-of-a-proof-from-the-document-list)
 
 ### Affichage de la progression du BAT à partir de la liste des documents {#view-proof-progress-from-the-document-list}
@@ -64,7 +64,7 @@ Les indicateurs de progression du BAT s’affichent désormais pour tous les BAT
 
 Avant cette modification, vous deviez sélectionner un BAT dans la liste des documents pour afficher la progression du BAT dans le panneau de droite. 
 
-Pour plus d’informations, voir [Présentation de l’état et de la progression du BAT](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+Pour plus d’informations, voir [Proof progress and status overview](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
 
 ### Nouvelle option pour afficher le résumé d’impression à partir de la liste des documents {#new-option-to-view-the-print-summary-from-the-document-list}
 
@@ -72,7 +72,7 @@ Vous pouvez désormais afficher la synthèse d’impression d’un BAT directeme
 
 Avant cette modification, vous ne pouviez afficher le résumé imprimé qu’à partir de la visionneuse de vérification. 
 
-Pour plus d’informations sur l’affichage de la synthèse d’impression à partir de la liste de documents, voir [Imprimer un résumé du BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Pour plus d’informations sur l’affichage de la synthèse d’impression à partir de la liste de documents, voir [Imprimer une synthèse de BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
 
 ### Mise à jour de l’aspect pour la génération ou l’ouverture du BAT à partir de la liste de documents {#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list}
 
@@ -123,9 +123,9 @@ Désormais, lorsque vous sélectionnez un BAT dans la liste des documents, les �
 
 Pour plus d’informations, voir [Affichage des étapes actives sur un BAT](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
 
-## Création de BAT dans le BAT Workfront - Expérience utilisateur améliorée et fonctionnalité supplémentaire {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
+## Création de BAT dans Workfront Proof - Expérience utilisateur améliorée et fonctionnalité supplémentaire {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
 
-Outre une meilleure expérience utilisateur lors de la création de BAT dans Workfront, les fonctionnalités supplémentaires suivantes sont désormais disponibles :
+Outre une meilleure expérience utilisateur lors de la création de BAT dans Workfront Proof, les fonctionnalités supplémentaires suivantes sont désormais disponibles :
 
 * Fusionnez plusieurs images en un seul BAT.
 * Les sites web de BAT de plusieurs résolutions (plusieurs résolutions peuvent être créées sous la forme de BAT individuels ou combinées en un seul BAT).
@@ -137,16 +137,16 @@ Outre une meilleure expérience utilisateur lors de la création de BAT dans Wor
 
 >[!NOTE]
 >
->Cette nouvelle page de création de BAT dans le BAT Workfront correspond désormais à la page de création de BAT récemment mise à disposition lors de la création de BAT dans Workfront. 
+>Cette nouvelle page de création de BAT dans Workfront Proof correspond désormais à la page de création de BAT récemment mise à disposition lors de la création de BAT dans Workfront. 
 
-Pour plus d’informations, voir  [Générer un bon à tirer dans le bon à tirer Workfront](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Pour plus d’informations, voir  [Générer des bons à tirer dans Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
-## Améliorations de la vérification dans Workfront et Workfront BAT {#proofing-improvements-within-workfront-and-workfront-proof}
+## Améliorations de la vérification dans Workfront et Workfront Proof {#proofing-improvements-within-workfront-and-workfront-proof}
 
-Les modifications suivantes s’appliquent lors de l’ajout de documents à Workfront et à Workfront BAT :
+Les modifications suivantes s’appliquent lors de l’ajout de documents à Workfront et à Workfront Proof :
 
 * [Redimensionner la liste des commentaires lors de la révision des bons à tirer](#resize-the-comment-list-when-reviewing-proofs)
-* [Les Hyperliens Sont Actifs Lors De La Révision De Bons À Tirer Statiques](#hyperlinks-are-active-when-reviewing-static-proofs)
+* [Les Hyperliens Sont Actifs Lors De La Vérification De Bons À Tirer Statiques](#hyperlinks-are-active-when-reviewing-static-proofs)
 * [Améliorations de l’ajout de bons à tirer](#improvements-when-adding-proofs)
 
 ### Redimensionner la liste des commentaires lors de la révision des bons à tirer {#resize-the-comment-list-when-reviewing-proofs}
@@ -190,7 +190,7 @@ Les améliorations suivantes sont disponibles lors de l’ajout de documents à 
 
 ## Mise à jour de l’aspect et du ressenti avec l’intégration Basecamp dans Workfront Proof {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
 
-L’aspect de l’intégration Basecamp avec Workfront BAT est désormais mis à jour. La fonctionnalité reste la même.
+L’aspect de l’intégration de Basecamp à Workfront Proof est désormais mis à jour. La fonctionnalité reste la même.
 
 ## Coller des images dans Workfront à partir du Presse-papiers {#paste-images-to-workfront-from-the-clipboard}
 
@@ -235,7 +235,7 @@ Pour résoudre les problèmes de performances, le champ Resource Budget Hour a �
 
 Pour rappel, les heures budgétées de la ressource sont les heures que vous estimez prévues pour vos ressources ou vos projets dans le planificateur de ressources. Pour l’instant, vous ne pouvez plus générer de rapports sur ce champ dans l’application web ni via l’API. Le champ sera rétabli dans une version ultérieure, une fois les problèmes de performances résolus.
 
-Pour plus d’informations sur la planification des heures dans le planificateur de ressources, voir [Présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+Pour plus d’informations sur la planification des heures dans le planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
 
 ## Statistiques d’utilisation des rapports {#report-usage-statistics}
 
@@ -256,7 +256,7 @@ Pour plus d’informations sur l’utilisation des rapports, voir [Affichage de 
 
 En tant qu’administrateur de groupe, vous pouvez créer et modifier des plannings associés aux groupes que vous administrez, ainsi que leurs sous-groupes. Avant cette modification, seuls les administrateurs Workfront pouvaient créer et modifier des plannings.
 
-Pour plus d’informations sur la gestion des plannings, voir [Création d’un planning](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+Pour plus d’informations sur la gestion des plannings, voir [Créer un planning](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 ## Mises à jour du graphique Gantt {#gantt-chart-updates}
 
@@ -269,19 +269,19 @@ Le diagramme de Gantt est maintenant modifiable. Le diagramme de Gantt vous perm
 
 Avant cette modification, vous pouviez uniquement supprimer les relations de prédécesseur dans le diagramme de Gantt et vous pouviez modifier les tâches uniquement dans la liste des tâches.
 
-Pour plus d’informations sur le graphique Gantt, voir [Mise à jour des informations dans le diagramme de Gantt de la liste des tâches](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+Pour plus d’informations sur le graphique Gantt, voir [Mise à jour d’informations dans la liste des tâches Graphique Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ## Nouvel Portfolio Optimizer {#new-portfolio-optimizer}
 
 La zone Portfolio Optimizer de Workfront est désormais mise à jour avec un nouvel aspect. La fonctionnalité n’a pas été modifiée.
 
-Pour plus d’informations sur Portfolio Optimizer, voir [Portfolio Optimizer - Aperçu](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+Pour plus d’informations sur Portfolio Optimizer, consultez la [présentation de Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## Option d’ajustement de date du budget dans le planificateur de ressources {#budget-date-adjustment-option-in-the-resource-planner}
 
 Nous avons ajouté une option permettant une visibilité rapide des délais sans conflit de budget. Une fois que vous avez vu le moment où les périodes sans conflit de budget se produisent, vous pouvez déplacer manuellement vos Heures budgétées vers ces heures. Les dates budgétisées des heures seront également ajustées. Avant cette mise à jour, il n’était pas possible d’afficher les conflits de budget pour un projet en un coup d’oeil.
 
-Pour plus d’informations sur l’ajustement des dates budgétées dans le planificateur de ressources, voir la section &quot;Ajustement des dates de budget&quot; dans la section [Présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+Pour plus d’informations sur l’ajustement des dates budgétées dans le planificateur de ressources, consultez la section &quot;Ajustement des dates de budget&quot; dans la [présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 
 ## Planification des ressources : restreindre les affectations aux utilisateurs en fonction de l’appartenance à un groupe {#resource-scheduling-restrict-assignments-to-users-based-on-group-membership}
 

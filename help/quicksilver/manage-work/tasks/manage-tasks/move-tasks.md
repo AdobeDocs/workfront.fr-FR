@@ -9,7 +9,7 @@ exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez déplacer des tâches dans Adobe Workfront entre les objets suivants
 Vous pouvez déplacer une tâche au niveau de la tâche ou déplacer une tâche à partir d’une liste de tâches.
 Vous pouvez déplacer une seule tâche ou plusieurs tâches à la fois depuis une liste de tâches.
 
-## Exigences d’accès
+## Conditions d’accès
 
 Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
 
@@ -34,29 +34,29 @@ Vous devez disposer des droits d’accès suivants pour effectuer les actions d�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licences Adobe Workfront*</td> 
-   <td> <p>Nouveau plan : Standard </p> 
+   <td role="rowheader">Licences Adobe Workfront*</td> 
+   <td> <p>Nouvelle formule : standard </p> 
  <p>ou</p>  
 <p>Plan actuel : travail ou plus élevé </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux tâches et aux projets</p> <p><b>NOTE</b>
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Accès en modification aux tâches et aux projets</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations pour les tâches</p> <p>Attribuer ou des autorisations supérieures au projet avec possibilité d’ajouter des tâches</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gestion des autorisations pour les tâches</p> <p>Autorisations Contribute ou supérieures pour le projet avec possibilité d’ajouter des tâches</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Observations relatives au déplacement des tâches
 
@@ -79,14 +79,14 @@ Par défaut, les éléments suivants ne se déplacent pas avec la tâche :
 ## Déplacer des tâches dans une liste
 
 1. Accédez au projet qui contient la ou les tâches que vous souhaitez déplacer.
-1. Cliquez sur **Tâche** dans le panneau de gauche pour afficher la liste des tâches.
-1. Cliquez sur le bouton **Mode Plan** icon ![](assets/plan-mode-icon.png) et assurez-vous que la variable **Enregistrement automatique** Le bouton bascule est activé, puis sélectionnez la ou les tâches que vous souhaitez déplacer.
+1. Cliquez sur **Tâches** dans le panneau de gauche pour afficher la liste des tâches.
+1. Cliquez sur l’icône **Mode Plan** ![](assets/plan-mode-icon.png) et assurez-vous que le bouton d’activation/désactivation **Enregistrement automatique** est activé, puis sélectionnez la ou les tâches que vous souhaitez déplacer.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez pas déplacer des tâches lorsque la variable **Enregistrement automatique** La bascule est désactivée.
+   >Vous ne pouvez pas déplacer des tâches lorsque le bouton **Enregistrement automatique** est désactivé.
 
 1. (Facultatif et conditionnel) Si vous souhaitez déplacer les tâches sélectionnées dans le même projet, cliquez sur les tâches que vous avez sélectionnées, faites-les glisser et déposez-les là où vous souhaitez les déplacer dans le projet.
 
@@ -94,15 +94,15 @@ Par défaut, les éléments suivants ne se déplacent pas avec la tâche :
 
 1. (Conditionnel) Sélectionnez la ou les tâches à déplacer, puis effectuez l’une des opérations suivantes :
 
-   * Cliquez sur le bouton **Plus** menu ![](assets/qs-more-menu.png) en haut de la liste des tâches, puis cliquez sur **Déplacer vers**.
+   * Cliquez sur le menu **Plus** ![](assets/qs-more-menu.png) en haut de la liste des tâches, puis cliquez sur **Déplacer vers**.
    * Cliquez avec le bouton droit sur les tâches sélectionnées, puis cliquez sur **Déplacer vers**.
-   * Lorsque vous sélectionnez une tâche, cliquez sur le bouton **Plus** menu ![](assets/more-icon-task-list.png) en regard du nom de la tâche dans la liste, puis cliquez sur **Déplacer vers**.
+   * Lors de la sélection d’une tâche, cliquez sur le menu **Plus** ![](assets/more-icon-task-list.png) en regard du nom de la tâche dans la liste, puis cliquez sur **Déplacer vers**.
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
    La zone Déplacer la tâche s’affiche.
 
-1. Passez à la tâche, comme décrit dans la section . [Déplacer une tâche au niveau de la tâche](#move-a-task-at-the-task-level) dans cet article, en commençant par l’étape 4.
+1. Passez à la tâche, comme décrit dans la section [Déplacer une tâche au niveau de la tâche](#move-a-task-at-the-task-level) de cet article, en commençant par l’étape 4.
 
    <!--
    is this still accurate?!
@@ -114,11 +114,11 @@ En plus de déplacer des tâches d’une liste de tâches, vous pouvez égalemen
 
 1. Recherchez une tâche dans votre système Workfront en la recherchant.
 1. Cliquez sur le nom de la tâche pour l’ouvrir.
-1. Cliquez sur le bouton **Plus** menu déroulant ![](assets/qs-more-menu.png) en regard du nom de la tâche, puis cliquez sur **Déplacer vers**. La zone Déplacer la tâche s’affiche.
+1. Cliquez sur le menu déroulant **Plus** ![](assets/qs-more-menu.png) en regard du nom de la tâche, puis cliquez sur **Déplacer vers**. La zone Déplacer la tâche s’affiche.
 
    ![](assets/move-task-at-task-level-nwe-350x222.png)
 
-1. (Facultatif) Mettez à jour la variable **Task Name**. La tâche se déplace avec le nouveau nom au nouvel emplacement. Workfront n’enregistre pas le nom d’origine de la tâche.
+1. (Facultatif) Mettez à jour le **nom de la tâche**. La tâche se déplace avec le nouveau nom au nouvel emplacement. Workfront n’enregistre pas le nom d’origine de la tâche.
 
    >[!TIP]
    >
@@ -127,7 +127,7 @@ En plus de déplacer des tâches d’une liste de tâches, vous pouvez égalemen
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
-1. Saisissez le nom du **Projet de destination** où vous souhaitez que la tâche se déplace dans la **Sélectionner le projet de destination** champ .
+1. Saisissez le nom du **projet de destination** où vous souhaitez que la tâche se déplace dans le champ **Sélectionner le projet de destination**.
 
    Si vous souhaitez déplacer la tâche dans le même projet, saisissez le nom du projet actif.
 
@@ -137,20 +137,20 @@ En plus de déplacer des tâches d’une liste de tâches, vous pouvez égalemen
    >* Vous pouvez également commencer à saisir le numéro de référence ou saisir l’ID du projet. Cela peut vous aider à distinguer les projets portant des noms identiques.
    >* Seuls 100 projets s’affichent dans la liste.
 
-1. (Conditionnel) Cliquez sur **Demande d’accès** pour demander l’accès au projet, si vous n’avez pas accès au projet sélectionné.
+1. (Conditionnel) Cliquez sur **Demander l’accès** pour demander l’accès au projet, si vous n’avez pas accès au projet sélectionné.
 1. (Conditionnel) Continuez à déplacer la tâche vers le projet de destination sélectionné sans demander l’accès si vous avez accès à l’une des tâches du projet de destination.
 
    ![](assets/move-task-request-access-from-project-nwe-350x120.png)
 
    >[!TIP]
    >
-   >Des messages similaires s’affichent si le projet sélectionné est en attente d’approbation, terminé ou mort, lorsque l’administrateur de Workfront empêche l’ajout de tâches à ces projets. Pour plus d’informations, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Des messages similaires s’affichent si le projet sélectionné est en attente d’approbation, terminé ou mort, lorsque l’administrateur de Workfront empêche l’ajout de tâches à ces projets. Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Facultatif) Cliquez sur **Options** dans le panneau de gauche
+1. (Facultatif) Cliquez sur **Options** dans le panneau de gauche.
 
    Ou
 
-   Faites défiler l’écran vers le bas jusqu’à **Options** dans la zone Déplacer la tâche , puis désélectionnez l’un des éléments répertoriés dans le tableau ci-dessous pour les supprimer des tâches déplacées. Toutes les options sont sélectionnées par défaut.
+   Faites défiler l’écran jusqu’à la section **Options** de la zone Déplacer la tâche, puis désélectionnez l’un des éléments répertoriés dans le tableau ci-dessous pour les supprimer des tâches déplacées. Toutes les options sont sélectionnées par défaut.
 
    >[!IMPORTANT]
    >
@@ -179,7 +179,7 @@ En plus de déplacer des tâches d’une liste de tâches, vous pouvez égalemen
       <li> Commencer Au Plus Tard</li>
       </ul>
 
-   Pour plus d’informations sur les contraintes de tâche et sur la manière dont les contraintes de tâche ou les dates de projet peuvent être affectées, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Présentation de la contrainte de tâche</a> et recherchez une contrainte spécifique.</p> </td>
+   Pour plus d’informations sur les contraintes de tâche et sur la manière dont les contraintes de tâche ou les dates de projet peuvent être affectées, consultez la <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">présentation de la contrainte de tâche</a> et recherchez une contrainte spécifique.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Affectations</td> 
@@ -204,7 +204,7 @@ En plus de déplacer des tâches d’une liste de tâches, vous pouvez égalemen
      <tr> 
       <td role="rowheader">Documents</td> 
       <td> <p>Les documents joints à la tâche ne sont pas transférés vers la tâche déplacée. Cela inclut les versions, les bons à tirer et les documents liés.</p> <p>Cela ne comprend pas les approbations de documents. Les validations de document ne peuvent jamais être déplacées lorsqu’une tâche est déplacée.</p> 
-      <b>REMARQUE</b>
+      <b>NOTE</b>
 
    Si vous choisissez de ne pas déplacer les documents avec la tâche, les documents seront supprimés et placés dans la Corbeille pendant 30 jours. Un administrateur peut les restaurer et ils seront restaurés lors de la tâche déplacée.
 
@@ -229,11 +229,11 @@ En plus de déplacer des tâches d’une liste de tâches, vous pouvez égalemen
 
 
 
-1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche
+1. (Facultatif) Cliquez sur **Sélectionner le parent** dans le panneau de gauche.
 
    Ou
 
-   Faites défiler l’écran jusqu’à **Sélectionner le parent** , puis sélectionnez la tâche dans le projet de destination que vous souhaitez devenir le parent de la tâche déplacée.
+   Accédez à la section **Sélectionner le parent** , puis sélectionnez la tâche dans le projet de destination que vous souhaitez devenir le parent de la tâche déplacée.
 
    >[!TIP]
    >
@@ -242,17 +242,17 @@ En plus de déplacer des tâches d’une liste de tâches, vous pouvez égalemen
    Sélectionnez un parent en effectuant l’une des opérations suivantes :
 
    * Dans la liste des tâches, sélectionnez l’un des parents du plan de projet.
-   * Cliquez sur l’icône de recherche ![Icône Rechercher](assets/search-icon.png) et recherchez une tâche parente par nom.
+   * Cliquez sur l’icône de recherche ![Icône de recherche](assets/search-icon.png) et recherchez une tâche parente par nom.
 
    La tâche s’affiche dans la liste.
 
-   ![Sélectionner une tâche parente lors du déplacement d’une tâche avec une fonctionnalité de recherche ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Sélectionner la tâche parente lors du déplacement d’une tâche avec la fonctionnalité de recherche ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Sélectionnez le bouton radio du parent une fois que vous l’avez trouvé.
 
    Si vous ne sélectionnez pas de tâche parent, les tâches sont déplacées en tant que tâches principales plutôt que sous-tâches et elles sont placées à la fin de la liste des tâches sur le projet de destination.
 
-1. Cliquez sur **Tâche de déplacement**
+1. Cliquez sur **Déplacer la tâche**
 
    Ou
 

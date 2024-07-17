@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Calcul du coût budgété
+title: Calculer le coût budgété
 description: Calculer la progression du projet de suivi des coûts budgété avec un rapport d’utilisation"
 author: Alina
 feature: Work Management
@@ -10,11 +10,11 @@ exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Calcul du coût budgété
+# Calculer le coût budgété
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -31,27 +31,27 @@ Vous ne pouvez pas modifier manuellement le coût budgété d’un projet. Adobe
 
 `Budgeted Cost = Resource Planner Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the project`
 
-* Le **Coût de la main-d’oeuvre budgété du planificateur de ressources** dans le calcul ci-dessus, vous trouverez le coût associé aux rôles de tâche dans le projet.
+* Le **coût de la main-d’oeuvre budgétisé du planificateur de ressources** dans le calcul ci-dessus est le coût associé aux rôles de tâche dans le projet.
 
-   Vous pouvez effectuer le suivi du Coût de la main-d’oeuvre budgété d’un projet dans la zone Budget des ressources de l’Analyse de cas ou du planificateur de ressources.
+  Vous pouvez effectuer le suivi du Coût de la main-d’oeuvre budgété d’un projet dans la zone Budget des ressources de l’Analyse de cas ou du planificateur de ressources.
 
-   >[!TIP]
-   >
-   >  Le Coût de la main-d’oeuvre budgété d’un projet dans l’Analyse de cas affiche le Coût de la main-d’oeuvre budgété du planificateur de ressources dans les rapports et les listes.
+  >[!TIP]
+  >
+  >  Le Coût de la main-d’oeuvre budgété d’un projet dans l’Analyse de cas affiche le Coût de la main-d’oeuvre budgété du planificateur de ressources dans les rapports et les listes.
 
-   Pour plus d’informations sur les coûts de main-d’oeuvre budgétés, voir l’article [Présentation de l’option Coût de la main-d’oeuvre budgétisé et heures budgétisées pour les projets](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+  Pour plus d’informations sur les coûts de main-d’oeuvre budgétés, consultez l’article [Comprendre le coût de la main-d’oeuvre budgété et les heures budgétées pour les projets](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
-* Le **Coût des dépenses budgétisées** dans le calcul ci-dessus se trouve le Coût planifié associé aux dépenses du projet, telles qu&#39;elles sont calculées dans la zone Dépenses de l&#39;Analyse de cas ou dans l&#39;onglet Dépenses du projet.\
-   Pour plus d’informations sur les dépenses relatives à un projet, consultez l’article [Gestion des dépenses de projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+* Le **Coût des dépenses budgétisées** dans le calcul ci-dessus est le Coût planifié associé aux dépenses du projet, car elles sont calculées dans la zone Dépenses de l&#39;Analyse de cas ou dans l&#39;onglet Dépenses du projet.\
+  Pour plus d’informations sur les dépenses liées à un projet, consultez l’article [Gérer les dépenses liées au projet](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* Le **Coût fixe** dans le calcul ci-dessus est le montant fixe associé au coût du projet, tel que défini dans la section Finances de la section Détails du projet.\
-   Pour plus d’informations sur le sous-onglet Finance d’un projet, consultez l’article [Gestion des informations dans la zone Finance du projet](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+* Le **Coût fixe** dans le calcul ci-dessus est le montant fixe associé au coût du projet, tel que défini dans la zone Finances de la section Détails du projet.\
+  Pour plus d’informations sur le sous-onglet Finance d’un projet, consultez l’article [Gérer les informations dans la zone Finance du projet](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
 >[!NOTE]
 >
 >Workfront calcule toutes les informations de coût à l’aide de la devise du projet. Si vous définissez des Heures budgétées pour vos ressources dans le planificateur de ressources, l’option permettant de modifier la devise du projet est désactivée.
 >
->Pour plus d’informations sur la modification de la devise d’un projet, consultez l’article . [Modification de la devise du projet](../../../manage-work/projects/project-finances/change-project-currency.md).
+>Pour plus d’informations sur la modification de la devise d’un projet, consultez l’article [Modification de la devise du projet](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Localisation du coût budgété d’un projet
 
@@ -71,13 +71,13 @@ Le Coût budgété tel qu&#39;il est reflété dans la zone Budget des ressource
     </tr> 
     <tr> 
      <td>Coûts</td> 
-     <td> <p>Portfolio Optimizer</p> <p>Conseil : Le total de toutes les valeurs de l’option Coût budgété du projet correspond à l’option Coût budgété du portefeuille.</p> </td> 
+     <td> <p>Portfolio Optimizer</p> <p>Conseil : Le total de toutes les valeurs Coût planifié du projet correspond au Coût budgété du portefeuille.</p> </td> 
     </tr> 
     <tr> 
      <td>Coût budgété du projet</td> 
      <td> <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>Rapport Projet</p> <p>Rapport Projet (données financières)</p> <p>Rapport Tâches</p> <p>Rapport sur les problèmes</p> <p>Rapport Heure budgétisée</p> <p>Pour plus d’informations sur la création d’un rapport, reportez-vous à l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Création d’un rapport personnalisé</a>.</p> </td> 
+      --> <p>Rapport Projet</p> <p>Rapport Projet (données financières)</p> <p>Rapport Tâches</p> <p>Rapport sur les problèmes</p> <p>Rapport Heure budgétisée</p> <p>Pour plus d’informations sur la création d’un rapport, consultez l’article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Créer un rapport personnalisé</a>.</p> </td> 
     </tr> 
    </tbody> 
   </table>

@@ -2,20 +2,20 @@
 filename: filter-event-sub-messages
 content-type: api
 navigation-topic: api-navigation-topic
-title: Filtrage des messages d’abonnement d’événement
-description: Filtrage des messages d’abonnement d’événement
+title: Filtrer les messages d’abonnement aux événements
+description: Filtrer les messages d’abonnement aux événements
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
 
-# Filtrage des messages d’abonnement d’événement
+# Filtrer les messages d’abonnement aux événements
 
 Vous pouvez créer des composants de traitement intermédiaires qui peuvent vous aider à filtrer et à traiter uniquement les messages d’abonnement aux événements dont votre entreprise a besoin.
 
@@ -25,13 +25,13 @@ Pour en savoir plus sur les abonnements aux événements, voir [API d’abonneme
 
 Cette section contient des fragments de code de filtrage que vous pouvez implémenter pour réduire le chargement des messages d’abonnement aux événements.  Pour illustrer les différences dans la syntaxe des différentes langues, ces fragments de code illustrent le même ensemble de filtres écrits dans les langues suivantes :
 
-Vous pouvez consulter des exemples de filtrage sur la page [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), où vous pouvez voir les différences de syntaxe pour chaque langue et les moyens d’interaction avec le SDK AWS. Ces exemples sont écrits sous la forme de Lambdas AWS, qui est une méthode courante pour utiliser les composants de filtrage et de traitement intermédiaires.
+Vous pouvez afficher des exemples de filtrage sur [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), où vous pouvez voir les différences de syntaxe pour chaque langue et les moyens d’interaction avec le SDK AWS. Ces exemples sont écrits sous la forme d’AWS Lambdas, qui est une méthode courante pour utiliser les composants de filtrage et de traitement intermédiaires.
 
 Les fragments de code suivants sont prêts pour le déploiement et peuvent être utilisés comme point de départ pour vous aider à écrire vos propres filtres et composants de traitement plus complexes.
 
 ### Java
 
-L’exemple suivant en Java montre comment filtrer les payloads du projet en fonction de l’ID de groupe du projet, comme indiqué dans la section [ProjectGroupFiltering.java :](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
+L’exemple suivant en Java montre comment filtrer les charges utiles du projet en fonction de l’ID de groupe du projet, comme indiqué dans [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
 
 1. Définissez l’identifiant de groupe que vous recherchez et créez-le en tant que constante statique.
 
@@ -61,11 +61,11 @@ L’exemple suivant en Java montre comment filtrer les payloads du projet en fon
    }
    ```
 
-   Pour en savoir plus sur le format newState, voir [Format du message sortant pour les abonnements aux événements](../../wf-api/api/message-format-event-subs.md).
+   Pour en savoir plus sur le format newState, voir [Format du message sortant pour les abonnements à des événements](../../wf-api/api/message-format-event-subs.md).
 
 3. Après avoir analysé la carte &quot;newState&quot; du message, assurez-vous que l’ID de groupe de l’objet correspond à l’ID de groupe que vous avez identifié à l’étape 1.
 
-4. (Conditionnel) Si les identifiants **ne pas** , déposez le message afin qu’une réponse vide soit renvoyée.
+4. (Conditionnel) Si les identifiants **ne correspondent pas**, déposez le message afin qu’une réponse vide soit renvoyée.
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -111,13 +111,13 @@ L’exemple suivant en Java montre comment filtrer les payloads du projet en fon
 
    L’objectif de la transmission de la responsabilité de diffusion du message à une autre Lambda est d’éviter un délai d’expiration de la demande de diffusion provenant du service d’abonnement à un événement. Actuellement, le délai d’expiration autorisé pour la diffusion est défini sur cinq secondes. Si le filtre prend plus de temps que prévu par le paramètre, vous pouvez traiter la requête, mais le service d’abonnement à un événement expire et tombe dans une boucle de reprise jusqu’à ce qu’il reçoive une réponse de 200 niveaux dans le délai d’expiration.
 
-   Pour en savoir plus sur la gestion de la diffusion des messages, voir [Amélioration de la diffusion des messages tout en tenant compte des dépassements de délai](#improving-message-delivery-while-accommodating-timeouts).
+   Pour en savoir plus sur la gestion de la diffusion des messages, voir [Amélioration de la diffusion des messages lors de la gestion des dépassements de délai](#improving-message-delivery-while-accommodating-timeouts).
 
 ### Python
 
 La principale différence entre les exemples Java et Python réside dans le fait que dans l’exemple Java, le message d’abonnement à l’événement est reçu comme premier paramètre, et dans l’exemple Python, le premier paramètre est un &quot;événement&quot; de proxy Lambda, qui contient le message d’abonnement à l’événement ainsi que des informations sur la demande de proxy AWS Lambda.
 
-L’exemple suivant en Python montre comment filtrer les charges utiles du projet en fonction de l’ID de groupe du projet, comme indiqué dans la section  [projectGroupFiltering.py :](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
+L’exemple suivant en Python montre comment filtrer les charges utiles du projet en fonction de l’ID de groupe du projet, comme indiqué dans [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
 
 1. Définissez l’identifiant de groupe que vous recherchez et créez-le en tant que constante statique.
 
@@ -147,7 +147,7 @@ L’exemple suivant en Python montre comment filtrer les charges utiles du proje
    new_state = json.loads(event_subscription_message['newState'])
    ```
 
-   Pour en savoir plus sur le format newState, voir [Format du message sortant pour les abonnements aux événements](../../wf-api/api/message-format-event-subs.md).
+   Pour en savoir plus sur le format newState, voir [Format du message sortant pour les abonnements à des événements](../../wf-api/api/message-format-event-subs.md).
 
 1. Après avoir analysé la carte &quot;newState&quot; du message, assurez-vous que l’ID de groupe de l’objet correspond à l’ID de groupe que vous avez identifié à l’étape 1.
 
@@ -188,7 +188,7 @@ L’exemple suivant en Python montre comment filtrer les charges utiles du proje
 
 L’exemple Node.js de filtrage des ID de groupe de projets est similaire aux exemples Java et Python. Comme pour l’exemple Python, le premier paramètre est un événement proxy Lambda et le second est le contexte Lambda.
 
-L’exemple suivant dans Node.js montre comment filtrer les payloads du projet en fonction de l’ID de groupe du projet, comme indiqué dans la section  [projectGroupFiltering.js :](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
+L’exemple suivant dans Node.js montre comment filtrer les payloads du projet en fonction de l’ID de groupe du projet, comme indiqué dans [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
 
 1. Définissez l’identifiant de groupe que vous recherchez et créez-le en tant que constante statique.
 
@@ -218,7 +218,7 @@ L’exemple suivant dans Node.js montre comment filtrer les payloads du projet e
    let projectGroupId = eventSubscriptionMessage.newState.groupID; 
    ```
 
-   Pour en savoir plus sur le format newState, voir [Format du message sortant pour les abonnements aux événements](../../wf-api/api/message-format-event-subs.md).
+   Pour en savoir plus sur le format newState, voir [Format du message sortant pour les abonnements à des événements](../../wf-api/api/message-format-event-subs.md).
 
 4. (Conditionnel) Si les identifiants ne correspondent pas, déposez le message afin qu’une réponse vide soit renvoyée.\
    L’exemple suivant présente les ID de groupe correspondants :
@@ -261,24 +261,24 @@ L’exemple suivant dans Node.js montre comment filtrer les payloads du projet e
 
    Le SDK AWS est utilisé pour appeler un autre Lambda, chargé de diffuser le message filtré vers le point de terminaison souhaité.\
    L’objectif de la transmission de la responsabilité de diffusion du message à une autre Lambda est d’éviter un délai d’expiration de la demande de diffusion provenant du service d’abonnement à un événement. Actuellement, le délai d’expiration de la diffusion est défini sur cinq secondes. Si le filtre prend plus de temps que prévu par le paramètre, vous pouvez traiter la requête, mais le service d’abonnement à un événement expire et tombe dans une boucle de reprise jusqu’à ce qu’il reçoive une réponse de 200 niveaux dans le délai d’expiration.\
-   Pour en savoir plus sur la gestion de la diffusion des messages, voir [Amélioration de la diffusion des messages tout en tenant compte des dépassements de délai](#improving-message-delivery-while-accommodating-timeouts).
+   Pour en savoir plus sur la gestion de la diffusion des messages, voir [Amélioration de la diffusion des messages lors de la gestion des dépassements de délai](#improving-message-delivery-while-accommodating-timeouts).
 
 ## Amélioration de la diffusion des messages tout en tenant compte des dépassements de délai
 
-Le service d’abonnement à un événement a un délai d’expiration strict de **cinq secondes** pour toutes les demandes de diffusion. Dans le cas où la diffusion d’un message dépasse l’heure autorisée, le service d’abonnement à un événement lance un cycle de reprise pour ce message.
+Le service d’abonnement à un événement a un délai d’attente strict de **cinq secondes** pour toutes les demandes de diffusion. Dans le cas où la diffusion d’un message dépasse l’heure autorisée, le service d’abonnement à un événement lance un cycle de reprise pour ce message.
 
-Par exemple, vous créez un filtre d’identifiant de groupe de projets similaire à l’un des exemples trouvés dans la section [Filtrage des messages d’événement](#filtering-event-messages) et vous incluez une recherche de base de données pour déterminer si le message est nécessaire. Il est possible que la recherche dans la base de données, ainsi que le temps nécessaire au traitement requis et au démarrage à froid de Lambda, puisse prendre plus de cinq secondes, ce qui provoquerait une nouvelle tentative de remise du message par le service d’abonnement à un événement.
+Par exemple, vous créez un filtre d’identifiant de groupe de projets similaire à l’un des exemples trouvés dans [Filtrage des messages d’événement](#filtering-event-messages) et vous incluez une recherche de base de données pour déterminer si le message est nécessaire. Il est possible que la recherche dans la base de données, ainsi que le temps nécessaire au traitement requis et au démarrage à froid de Lambda, puisse prendre plus de cinq secondes, ce qui provoquerait une nouvelle tentative de remise du message par le service d’abonnement à un événement.
 
-Vous pouvez éviter une nouvelle tentative en séparant les parties chronophages du processus de la logique responsable de déterminer si le message est un message que vous souhaitez traiter et diffuser. Ce faisant, vous pouvez accepter le message et renvoyer une réponse de 200 niveaux au service d’abonnement aux événements, tout en continuant de manière asynchrone à traiter ou filtrer le message en arrière-plan (voir l’étape 5 dans [Java](#java) par exemple).
+Vous pouvez éviter une nouvelle tentative en séparant les parties chronophages du processus de la logique responsable de déterminer si le message est un message que vous souhaitez traiter et diffuser. Ce faisant, vous pouvez accepter le message et renvoyer une réponse de 200 niveaux au service d’abonnement à l’événement, tout en continuant de manière asynchrone à traiter ou filtrer le message en arrière-plan (voir l’étape 5 dans [Java](#java) pour obtenir un exemple).
 
 
 Même si le traitement ou le filtrage ne dépasse pas le délai de cinq secondes, il est toujours avantageux de séparer le premier point de contact du filtrage ou du traitement des messages des autres étapes de traitement ou de diffusion côté client. Ainsi, la remise du message à la destination à partir du service d’abonnement à un événement a un impact minimal sur le temps et les performances pour les deux parties.
 
-Pour en savoir plus sur le mécanisme de reprise, voir [Reprises d’abonnement à un événement](../../wf-api/api/event-sub-retries.md).
+Pour en savoir plus sur le mécanisme de nouvelle tentative, voir [Reprises d&#39;abonnement à un événement](../../wf-api/api/event-sub-retries.md).
 
 ## Mise en oeuvre de filtres hébergés dans l’architecture sans cloud
 
-Si vous ne parvenez pas à utiliser une architecture cloud pour le filtrage des abonnements aux événements, vous pouvez toujours utiliser les exemples de la section [Filtrage des messages d’événement](#filtering-event-messages) comme feuilles de route de la mise en oeuvre de vos propres filtres hébergés ou composants de traitement.
+Si vous ne parvenez pas à utiliser une architecture cloud pour le filtrage des abonnements aux événements, vous pouvez continuer à utiliser les exemples de la section [Filtrage des messages d’événement](#filtering-event-messages) comme feuilles de route pour la mise en oeuvre de vos propres filtres hébergés ou composants de traitement.
 
 ### Ajustement d’exemples de filtrage pour les services autonomes
 
@@ -330,6 +330,6 @@ En recherchant des ressources, vous vous assurez que vos systèmes d’intégrat
 
 ### Mise en oeuvre d’un traitement asynchrone dans la diffusion de messages
 
-Tous les exemples de la [Filtrage des messages d’événement](#filtering-event-messages) transfère la responsabilité de diffuser des messages filtrés à un autre AWS Lambda. Cela permet d’éviter de dépasser le délai d’attente de cinq secondes dans la demande de diffusion, qui est appliquée par le service d’abonnement à un événement qui émet la demande.
+Tous les exemples de la section [Filtrage des messages d’événement](#filtering-event-messages) transmettent la responsabilité de diffuser des messages filtrés à un autre Lambda AWS. Cela permet d’éviter de dépasser le délai d’attente de cinq secondes dans la demande de diffusion, qui est appliquée par le service d’abonnement à un événement qui émet la demande.
 
 Dans une architecture sans nuage, vous devrez peut-être mettre en oeuvre un mécanisme de traitement asynchrone similaire à la manière dont le SDK AWS permet des appels asynchrones à d’autres lambdas AWS. La plupart des langages de programmation modernes disposent de bibliothèques tierces ou principales qui gèrent le traitement asynchrone, ce qui vous permet d’exploiter le style asynchrone de traitement implémenté dans nos exemples.

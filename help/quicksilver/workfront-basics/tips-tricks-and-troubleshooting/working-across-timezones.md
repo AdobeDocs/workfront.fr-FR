@@ -6,7 +6,7 @@ description: Il peut être utile de comprendre comment  [!DNL Adobe Workfront]  
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 100%
 

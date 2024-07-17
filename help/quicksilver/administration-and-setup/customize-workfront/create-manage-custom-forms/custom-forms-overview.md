@@ -80,6 +80,6 @@ Les utilisateurs peuvent joindre des formulaires personnalisés aux types d’ob
 
 Pour plus d’informations sur l’association de formulaires personnalisés à des objets, voir [Ajout d’un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-Pour plus d’informations sur les formulaires personnalisés lors de la conversion d’un objet, voir [Transfert de données de formulaire personnalisées lors de la conversion d’un objet](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+Pour plus d’informations sur ce qu’il advient des formulaires personnalisés lors de la conversion d’un objet, voir [Transfert de données de formulaire personnalisé lors de la conversion d’un objet](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 

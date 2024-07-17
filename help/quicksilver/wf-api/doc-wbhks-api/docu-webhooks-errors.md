@@ -2,20 +2,20 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Gestion des erreurs des webhooks de document
-description: Gestion des erreurs des webhooks de document
+title: Gestion des erreurs de Document Webhooks
+description: Gestion des erreurs de Document Webhooks
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 6e0f3be7-5321-44bd-a404-d5bef1462d82
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 0%
+source-wordcount: '122'
+ht-degree: 9%
 
 ---
 
-# Gestion des erreurs des webhooks de document
+# Gestion des erreurs de Document Webhooks
 
 Des problèmes peuvent survenir lors du traitement des demandes d’API. Cela doit être géré de manière cohérente sur tous les points de terminaison de l’API. Lorsqu’une erreur se produit, le fournisseur webhook doit inclure un code d’erreur dans l’en-tête de la réponse. Les codes d’erreur incluent :
 

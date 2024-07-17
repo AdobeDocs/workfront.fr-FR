@@ -11,7 +11,7 @@ exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
 source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -226,11 +226,11 @@ Ce tableau répertorie les activités d’administration disponibles pour :
  </tbody> 
 </table>
 
-&#42; Au niveau d&#39;accès de l&#39;administrateur du groupe, **Modifier** doit être sélectionné pour la variable **Utilisateurs** avec **Administration des utilisateurs (utilisateurs de groupe)** sélectionné sous **Ajuster vos paramètres** ![](assets/gear-icon-in-access-levels.png). Pour plus d’informations, voir la section [Configurer l’accès des utilisateurs à la modification des utilisateurs à l’aide d’un niveau d’accès personnalisé](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) dans l’article [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; Au niveau d’accès de l’administrateur du groupe, **Modifier** doit être sélectionné pour le paramètre **Utilisateurs**, avec **Administrateur utilisateur (Utilisateurs de groupe)** sélectionné sous **** ![](assets/gear-icon-in-access-levels.png) pour affiner vos paramètres. Pour plus d’informations, reportez-vous à la section [Configuration de l’accès des utilisateurs à la modification des utilisateurs à l’aide d’un niveau d’accès personnalisé](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) de l’article [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-&#42;&#42; Au niveau d’accès de l’administrateur du groupe, l’accès à cette action doit être activé. Pour plus d’informations, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+&#42;&#42; Au niveau d’accès de l’administrateur de groupe, l’accès à cette action doit être activé. Pour plus d’informations, voir [Accorder aux utilisateurs et aux utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Les activités suivantes font partie des Contrôles d’entreprise avancés et ne sont pas disponibles pour le forfait Sélectionner . Seules les organisations ayant acheté les plans Prime ou Ultimate peuvent accéder à ces fonctionnalités.  Voir [Page de tarification et de conditionnement d’Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) pour plus d’informations sur les plans. (Pour les organisations qui utilisent les plans hérités, le tableau ci-dessus montre les activités pour les administrateurs de groupes et de sous-groupes.)
+&#42;&#42;&#42; Les activités suivantes font partie des Contrôles d’entreprise avancés et ne sont pas disponibles pour le forfait Sélectionner . Seules les organisations ayant acheté les plans Prime ou Ultimate peuvent accéder à ces fonctionnalités.  Pour plus d’informations sur les plans, consultez la [page de tarification et de package Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) . (Pour les organisations qui utilisent les plans hérités, le tableau ci-dessus montre les activités pour les administrateurs de groupes et de sous-groupes.)
 
 * Configuration des préférences de projet, de tâche et de problème au niveau du groupe
 * Configuration des préférences de feuille de temps et d’heure au niveau du groupe

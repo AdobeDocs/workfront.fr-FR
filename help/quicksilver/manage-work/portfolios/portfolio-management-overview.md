@@ -11,15 +11,15 @@ exl-id: 89f572a8-f585-4eee-a346-9e3188496c6d
 source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 14%
+ht-degree: 54%
 
 ---
 
 # Gestion du portefeuille
 
-Cette section contient les sous-sections suivantes :
+Cette section contient les sous-sections suivantes :
 
 * [Portefeuilles](../../manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
-* [Création et gestion de portefeuilles](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
-* [Création et gestion des programmes](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+* [Créer et gérer des portfolios](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+* [Créer et gérer des programmes](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
 * [Gestion des projets dans [!UICONTROL Portfolio Optimizer]](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)

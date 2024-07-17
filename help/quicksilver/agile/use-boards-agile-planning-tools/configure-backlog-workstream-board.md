@@ -2,7 +2,7 @@
 filename: configure-backlog-workstream-board.md
 content-type: reference
 navigation-topic: boards
-title: Configuration du journal en souffrance sur un panorama de flux de travail
+title: Configurer la liste d’attente sur un panorama de flux de travail
 description: Vous pouvez choisir d’afficher une colonne de journal sur un panorama dans un flux de travail et de définir une requête pour les cartes qui sont extraites dans le journal du panorama depuis la liste des cartes du flux de travail.
 author: Lisa
 feature: Agile
@@ -10,11 +10,11 @@ exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Configuration du journal en souffrance sur un panorama de flux de travail
+# Configurer la liste d’attente sur un panorama de flux de travail
 
 >[!IMPORTANT]
 >
@@ -26,11 +26,11 @@ Vous pouvez choisir d’afficher une colonne de journal sur un panorama dans un 
 >
 >Si vous ajoutez une nouvelle carte dans la colonne des logs d&#39;attente qui ne correspond pas aux critères de requête, la carte disparaîtra du journal lors de l&#39;actualisation du panorama et elle ne sera disponible que dans la liste des cartes. Vous pouvez à tout moment modifier la requête pour ajuster les cartes qui apparaissent dans la colonne de journal.
 
-La colonne et la requête du journal en souffrance ne sont pas disponibles sur les panoramas autonomes. Pour plus d’informations sur l’ajout d’une colonne d’entrée à un panorama autonome, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+La colonne et la requête du journal en souffrance ne sont pas disponibles sur les panoramas autonomes. Pour plus d’informations sur l’ajout d’une colonne d’entrée à un panorama autonome, voir [Ajout d’une colonne d’entrée à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,30 +39,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
-## Configuration du journal en souffrance sur un panorama de flux de travail
+## Configurer la liste d’attente sur un panorama de flux de travail
 
 {{step1-to-boards}}
 
-1. Ouvrez le workflow dans lequel vous souhaitez travailler. Pour ouvrir un workflow, cliquez sur [!UICONTROL **Afficher le flux de travail**].
+1. Ouvrez le workflow dans lequel vous souhaitez travailler. Pour ouvrir un workflow, cliquez sur [!UICONTROL **Afficher le workflow**].
 1. Cliquez sur n’importe quel panorama du processus pour l’ouvrir.
-1. Cliquez sur [!UICONTROL **Configurer**] à droite du panorama pour ouvrir le panneau Configurer .
-1. Activer [!UICONTROL **Inclure une colonne de journal sur ce panorama**].
+1. Cliquez sur [!UICONTROL **Configurer**] à droite du panorama pour ouvrir le panneau Configurer.
+1. Activez [!UICONTROL **Inclure une colonne de journal sur ce panorama**].
 
    La colonne &quot;journal des travaux&quot; est ajoutée à gauche du panorama. Il reste vide jusqu’à ce que vous lui appliquiez une requête.
 
-1. Développer [!UICONTROL **Requête de journal**].
+1. Développez [!UICONTROL **Requête Backlog**].
 
    >[!NOTE]
    >
@@ -85,9 +85,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. (Facultatif) Cliquez sur [!UICONTROL **Ajouter une condition**] pour ajouter une autre condition à la requête.
 
-   ![Requête de liste d’attente](assets/backlog-query-wrkstrm-board.png)
+   ![Requête de backlog](assets/backlog-query-wrkstrm-board.png)
 
-1. (Facultatif) Cliquez sur [!UICONTROL **Créer un groupe**] pour ajouter un groupe de conditions liées à la première condition avec un opérateur OU.
+1. (Facultatif) Cliquez sur [!UICONTROL **Make group**] pour ajouter un groupe de conditions connectées à la première condition avec un opérateur OU.
 1. Cliquez sur [!UICONTROL **Enregistrer la requête**].
 
    La requête est appliquée et les cartes répondant aux critères apparaissent dans la colonne des logs d&#39;attente.

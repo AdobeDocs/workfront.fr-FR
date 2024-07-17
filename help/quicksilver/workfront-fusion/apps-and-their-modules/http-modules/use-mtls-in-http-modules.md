@@ -12,7 +12,7 @@ exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
 source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->Adobe Workfront Fusion nécessite une [!DNL Adobe Workfront Fusion] en plus d’une licence Adobe Workfront.
+>Adobe Workfront Fusion nécessite une licence [!DNL Adobe Workfront Fusion] en plus d’une licence Adobe Workfront.
 
 ## Présentation de TLS mutuel
 
@@ -30,13 +30,13 @@ TLS mutuel permet à cette confirmation d’identité de se dérouler dans les d
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
->* **TLS**: lorsqu’une personne tape &quot;MyGreatBank.com&quot; dans un navigateur, elle veut s’assurer qu’elle se rend à Ma Grande Banque, et non sur un site web qui risque d’abuser ou de vendre ses informations bancaires. Ils veulent aussi s&#39;assurer que les informations de leur compte bancaire sont cryptées.
+>* **TLS** : lorsqu’une personne tape &quot;MyGreatBank.com&quot; dans un navigateur, elle veut s’assurer qu’elle se rend sur My Great Bank, et non sur un site web qui risque d’abuser ou de vendre ses informations bancaires. Ils veulent aussi s&#39;assurer que les informations de leur compte bancaire sont cryptées.
 >
->   Lorsque le navigateur (le client) se connecte à MyGreatBank.com (le serveur), TLS nécessite un certificat de MyGreatBank.com pour vérifier son identité. Le certificat est fourni par une autorité de certification, telle que [!DNL DigiCert] ou [!DNL Thawte]. Comme le navigateur fait confiance à l’autorité de certification, il autorise la connexion.
+>   Lorsque le navigateur (le client) se connecte à MyGreatBank.com (le serveur), TLS nécessite un certificat de MyGreatBank.com pour vérifier son identité. Le certificat est fourni par une autorité de certification telle que [!DNL DigiCert] ou [!DNL Thawte]. Comme le navigateur fait confiance à l’autorité de certification, il autorise la connexion.
 >
->* **TLS mutuel**: MySoftware.com est un client logiciel qui nécessite des informations de l’API MyGreatBank.com. MyGreatBank permet uniquement aux clients de confiance de se connecter à leurs serveurs. Ainsi, en plus du protocole TLS standard qui vérifie l’identité de MyGreatBank.com, le processus d’autorité de certification TLS/certificate vérifie également la demande de MySoftware.com.
+>* **TLS mutuel** : MySoftware.com est un client logiciel qui a besoin d’informations de l’API MyGreatBank.com. MyGreatBank permet uniquement aux clients de confiance de se connecter à leurs serveurs. Ainsi, en plus du protocole TLS standard qui vérifie l’identité de MyGreatBank.com, le processus d’autorité de certification TLS/certificate vérifie également la demande de MySoftware.com.
 
 ## Conditions d’accès
 
@@ -59,7 +59,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td>
    <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
@@ -73,16 +73,16 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
-&#42;&#42;Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42; Pour plus d’informations sur les [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Fournissez les [!DNL Workfront Fusion] certificat public
+## Fournir votre certificat public [!DNL Workfront Fusion]
 
 
-Lorsque vous vous connectez à un service Web avec une requête HTTP, le service Web requiert généralement une [!DNL Workfront Fusion] certificat public pour vérification. Cela permet au service Web de comparer le certificat présenté dans la requête HTTP à celui du fichier, afin de s’assurer que le certificat se trouve sur la liste autorisée du service Web.
+Lorsque vous vous connectez à un service Web avec une requête HTTP, le service Web requiert généralement un certificat public [!DNL Workfront Fusion] pour vérification. Cela permet au service Web de comparer le certificat présenté dans la requête HTTP à celui du fichier, afin de s’assurer que le certificat se trouve sur la liste autorisée du service Web.
 
-Pour obtenir des instructions sur le téléchargement de la variable [!DNL Adobe Workfront Fusion] certificat public à un service web, consultez la documentation du service web.
+Pour obtenir des instructions sur le téléchargement du certificat public [!DNL Adobe Workfront Fusion] vers un service Web, consultez la documentation du service Web.
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Vous pouvez utiliser les liens suivants pour télécharger les certificats publi
 
 >[!IMPORTANT]
 >
->* Ces [!DNL Workfront Fusion] les certificats publics expirent le 7 mai 2025. Une fois le vôtre arrivé à expiration, vous devrez charger un nouveau certificat vers le service Web. Nous vous recommandons :
+>* Ces [!DNL Workfront Fusion] certificats publics expirent le 7 mai 2025. Une fois le vôtre arrivé à expiration, vous devrez charger un nouveau certificat vers le service Web. Nous vous recommandons :
 >
 >   * Notez la date d’expiration et définissez un rappel pour que vous puissiez télécharger le certificat vers votre service Web.
 >   * Mettez cette page en signet pour trouver facilement les nouveaux certificats.
@@ -122,16 +122,16 @@ Vous pouvez utiliser les liens suivants pour télécharger les certificats publi
 
    -->
 
-## Activation du protocole TLS mutuel dans [!DNL Workfront Fusion] Modules HTTP
+## Activation du protocole TLS mutuel dans les modules HTTP [!DNL Workfront Fusion]
 
-Tous [!DNL Workfront Fusion] [!UICONTROL HTTP] Les modules de requête ont la possibilité d’activer le protocole TLS mutuel.
+Tous les modules de requête [!DNL Workfront Fusion] [!UICONTROL HTTP] ont la possibilité d’activer le protocole TLS mutuel.
 
-Pour activer le protocole TLS mutuel dans une [!UICONTROL HTTP] module de requête :
+Pour activer le protocole TLS mutuel dans un module de requête [!UICONTROL HTTP] :
 
-1. Ajoutez un [!UICONTROL HTTP] demandez le module à votre scénario.
+1. Ajoutez un module de requête [!UICONTROL HTTP] à votre scénario.
 1. Commencez à configurer le module.
 
-   Pour obtenir des instructions sur la configuration d’un [!UICONTROL HTTP] module de requête, voir l’article approprié sous [[!UICONTROL HTTP] modules](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+   Pour plus d’informations sur la configuration d’un module de requête [!UICONTROL HTTP], reportez-vous à l’article approprié sous [[!UICONTROL modules HTTP]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
-1. Activer **[!UICONTROL Afficher les paramètres avancés]** près du bas du module.
-1. Activer **[!UICONTROL Utilisation de TLS mutuel]**.
+1. Activez l’option **[!UICONTROL Afficher les paramètres avancés]** près du bas du module.
+1. Activez **[!UICONTROL Utiliser TLS Mutuel]**.

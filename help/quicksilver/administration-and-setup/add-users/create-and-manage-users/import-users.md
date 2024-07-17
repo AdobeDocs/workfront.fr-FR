@@ -1,5 +1,5 @@
 ---
-title: Importer des utilisateurs
+title: Importer des utilisateurs et utilisatrices
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -11,11 +11,11 @@ exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
 source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
-# Importer des utilisateurs
+# Importer des utilisateurs et utilisatrices
 
 <!--
 
@@ -33,28 +33,28 @@ Vous pouvez importer des utilisateurs à l’aide d’un fichier d’importation
 
 Avant de créer un utilisateur, assurez-vous d’abord d’avoir créé tous les objets que vous souhaitez associer à l’utilisateur. Par exemple, si vous n’avez pas créé de planning, vous ne pouvez pas en attribuer un au nouvel utilisateur, et le champ que vous utilisez pour associer un planning au nouvel utilisateur n’apparaît pas dans l’écran Nouvel utilisateur.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Quelconque</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez disposer de l’une des options suivantes :</p> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>. </p> </li> 
-     <li> <p><b>Utilisateurs</b> paramètre de votre niveau d’accès configuré sur <b>Modifier</b> accès, avec <b>Créer</b> et au moins l’une des deux <b>Administration des utilisateurs</b> options activées sous <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>de ces deux options, si Utilisateur <b>Administration (utilisateurs de groupe)</b> est activé, vous devez être administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> <p>Pour plus d’informations sur la variable <b>Utilisateurs</b> paramétrer un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</p> </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont l’utilisateur est membre.</p> <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,17 +62,17 @@ Les étapes de cet article doivent être les suivantes :
 
 ## Utiliser un fichier d’importation de feuille de calcul pour importer des utilisateurs
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs et utilisatrices** ![](assets/users-icon-in-main-menu.png).
 
-1. Cliquez sur le bouton **Nouvel utilisateur** flèche déroulante, puis cliquez sur **Importer des utilisateurs**.
+1. Cliquez sur la flèche de liste déroulante **Nouvel utilisateur**, puis sur **Importer des utilisateurs**.
 
-1. Dans le **Importer des utilisateurs** qui s’affiche, téléchargez le fichier d’exemple, puis mettez à jour le fichier d’exemple afin d’inclure les informations personnelles de votre propre utilisateur.
+1. Dans la zone **Importer des utilisateurs** qui s’affiche, téléchargez le fichier d’exemple, puis mettez à jour le fichier d’exemple afin d’inclure les informations personnelles de votre propre utilisateur.
 
    Chaque ligne comprend les champs suivants :
 
    * **Prénom**
    * **Nom**
-   * **Adresse électronique**
+   * **Adresse de courriel**
 
      Les adresses électroniques doivent être uniques.
 
@@ -91,10 +91,10 @@ Les étapes de cet article doivent être les suivantes :
    ![import-new-users.png](assets/importing-new-users.png)
 
 1. Enregistrez le fichier à un emplacement de votre poste de travail.
-1. Cliquez sur **Choisir un fichier** dans le **Importer des utilisateurs** de la boîte.
+1. Cliquez sur **Choose File** dans la zone **Import Users**.
 
 1. Accédez au fichier que vous avez enregistré et sélectionnez-le.
-1. (Facultatif) Sélectionnez le **Envoyer un courrier électronique d’invitation à cet utilisateur** pour envoyer une invitation par courrier électronique à l’utilisateur, l’informant qu’un compte Workfront a été créé et lui demandant de définir son mot de passe.
+1. (Facultatif) Sélectionnez l’option **Envoyer un courrier électronique d’invitation à cet utilisateur** pour envoyer une invitation par courrier électronique à l’utilisateur, lui indiquant qu’un compte Workfront a été créé et lui demandant de définir son mot de passe.
 
    Désélectionnez cette option pour définir le mot de passe de l’utilisateur.
 

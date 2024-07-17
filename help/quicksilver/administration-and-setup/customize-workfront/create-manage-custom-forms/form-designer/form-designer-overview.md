@@ -43,7 +43,7 @@ Avec le nouveau créateur de formulaires, nous avons ajouté ces possibilités 
   >
   >La section Par défaut n’est pas visible dans les objets lorsque le formulaire est joint à l’objet.
 
-* **Utilisation d’un champ de recherche externe**: ce type de champ appelle une API externe et renvoie les valeurs sous forme d’options dans un champ de liste déroulante.
+* **Utiliser un champ de recherche externe** : ce type de champ appelle une API externe et renvoie des valeurs sous forme d’options dans un champ de liste déroulante.
 
 ## Fonctionnalité supprimée du créateur de formulaires
 

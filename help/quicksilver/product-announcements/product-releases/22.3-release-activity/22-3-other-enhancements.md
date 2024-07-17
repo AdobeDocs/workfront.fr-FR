@@ -9,13 +9,13 @@ exl-id: 88d4c34e-9a3a-489d-ac97-2d81903104d8
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 22.3 Autres améliorations
+# Autres améliorations (version 22.3)
 
-Cette page décrit toutes les autres améliorations apportées à la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, voir [Présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Cette page décrit toutes les autres améliorations apportées à la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, consultez la [présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Feuilles de temps mises à jour
 
@@ -39,7 +39,7 @@ Avec la mise à jour actuelle, nous avons également abandonné les fonctionnali
 * &quot;Ajoutez des dépenses à partir d’une feuille de temps. &quot;La préférence a été supprimée de la zone Préférences de la feuille de temps et des heures de la configuration et vous ne pouvez plus consigner les dépenses à partir de la feuille de temps. Vous pouvez toujours consigner les dépenses à partir des pages de la tâche et du projet.
 
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d’informations, consultez les articles suivants :
 
 * [Présentation de la disposition de la feuille de calcul](/help/quicksilver/timesheets/timesheets/timesheet-layout.md)
 

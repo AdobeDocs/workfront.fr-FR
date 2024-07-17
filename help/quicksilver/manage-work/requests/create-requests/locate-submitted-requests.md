@@ -1,7 +1,7 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Recherche des requêtes envoyées
+title: Localiser les demandes envoyées
 description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouvez localiser les requêtes que vous ou une autre personne avez envoyées ou les requêtes que vous n’avez jamais envoyées et que vous avez enregistrées en tant que brouillons.
 author: Alina
 feature: Requests
@@ -10,61 +10,61 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 1%
+source-wordcount: '870'
+ht-degree: 14%
 
 ---
 
-# Recherche des requêtes envoyées
+# Localiser les demandes envoyées
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Vous pouvez localiser les types de requêtes suivants que vous ou une autre personne avez soumises, ou les requêtes que vous avez commencées mais que vous n’avez jamais terminé d’envoyer. Vous pouvez localiser ces requêtes dans les zones suivantes d’Adobe Workfront :
 
-* **Section envoyée**: Toutes les requêtes que vous ou une autre personne avez envoyées et que vous avez accès à au moins Afficher.
-* **Section Brouillon** : Toutes les demandes que vous avez commencées mais que vous n’avez jamais terminées et que vous n’avez jamais soumises. Pour plus d’informations sur les brouillons de requêtes, voir [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* **Section envoyée** : toutes les demandes que vous ou une autre personne avez envoyées et que vous avez accès à au moins Afficher.
+* **Version préliminaire de la section** : toutes les demandes que vous avez démarrées mais que vous n’avez jamais terminées et que vous n’avez jamais soumises. Pour plus d’informations sur les brouillons de requêtes, voir [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
   >Vous pouvez uniquement afficher vos propres brouillons de requêtes.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Présentation des licences Adobe Workfront*</td> 
    <td> <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux problèmes</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage des autorisations sur les requêtes ou plus</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Affichage des autorisations sur les requêtes ou plus</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## Recherche des requêtes envoyées
+## Localiser les demandes envoyées
 
 Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
-1. Cliquez sur **Envoyé** dans le panneau de gauche pour afficher toutes les requêtes envoyées.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur **Submitted** dans le panneau de gauche pour afficher toutes les requêtes envoyées.
 
    Vous pouvez afficher jusqu’à 2 000 requêtes, qui peuvent s’afficher sur plusieurs pages.
 
@@ -116,17 +116,17 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées 
    >
    >Lorsque vous quittez la liste Demandes envoyées, l’option de tri sélectionnée est conservée.
 
-1. (Facultatif) Sélectionnez une requête dans la liste, puis cliquez sur le bouton **Résumé ouvert** icon ![](assets/open-summary-with-text-nwe.png) pour ouvrir le panneau Résumé et afficher des informations supplémentaires sur la requête, ajoutez des commentaires, des documents ou affectez-les. Pour plus d’informations sur le panneau Résumé, voir [Aperçu du résumé](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Facultatif) Sélectionnez une requête dans la liste, puis cliquez sur l’icône **Ouvrir le résumé** ![](assets/open-summary-with-text-nwe.png) pour ouvrir le panneau Résumé et afficher des informations supplémentaires sur la requête, ajouter des commentaires, des documents ou l’affecter. Pour plus d’informations sur le panneau Résumé, voir [Aperçu du résumé](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Si le panneau Résumé est déjà ouvert, l’icône Ouvrir le résumé devient Fermer le résumé.
 
-1. (Facultatif et conditionnel) Cliquez sur le bouton **X** dans l’angle supérieur droit ou l’icône **Fermer le résumé** icon ![](assets/close-summary-with-text-nwe.png) pour fermer le panneau Résumé.
+1. (Facultatif et conditionnel) Cliquez sur l’icône **X** dans le coin supérieur droit ou sur l’icône **Fermer le résumé** ![](assets/close-summary-with-text-nwe.png) pour fermer le panneau Résumé.
 
    Si un problème a été converti en tâche ou projet et que le problème a été supprimé dans le processus de conversion, le panneau Résumé est vide. Pour plus d’informations sur la conversion de problèmes, voir [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Dans la **Icône Filtrer** ![](assets/filter-nwepng.png) en haut à droite de la liste, sélectionnez l’un des filtres répertoriés dans le tableau ci-dessous.
+1. Dans l&#39;icône **Filtrer** ![](assets/filter-nwepng.png) en haut à droite de la liste, sélectionnez l&#39;un des filtres répertoriés dans le tableau ci-dessous.
 
    >[!TIP]
    >
@@ -141,7 +141,7 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées 
       <td>Toutes les demandes envoyées, quel que soit leur état ou qui les a envoyées.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Ouvrir</td> 
+      <td role="rowheader">Ouvertes</td> 
       <td> <p>Toutes les demandes envoyées qui sont actuellement ouvertes, indépendamment de la personne qui les a envoyées. Seules les demandes que vous disposez au moins des autorisations nécessaires pour afficher cette page s’affichent si vous ne les avez pas envoyées vous-même. </p> <p>Les requêtes sans date de fin réelle ou dont l’objet de résolution ne comporte pas de date de fin réelle sont répertoriées dans le sous-onglet Ouvrir.</p> <p><b>CONSEIL</b>
 
    Les requêtes dont l’état n’est pas égal à Fermé sont considérées comme ouvertes.</p> </td>
@@ -152,14 +152,14 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées 
      </tr> 
      <tr> 
       <td role="rowheader">Mes requêtes ouvertes</td> 
-      <td> <p>Les demandes que vous avez envoyées sont toujours ouvertes. </p> <p>Les requêtes sans date de fin réelle ou dont l’objet de résolution ne comporte pas de date de fin réelle sont répertoriées dans le sous-onglet Mes requêtes ouvertes . </p> <p><b>CONSEIL</b>
+      <td> <p>Les demandes que vous avez envoyées sont toujours ouvertes. </p> <p>Les requêtes sans date de fin réelle ou dont l’objet de résolution ne comporte pas de date de fin réelle sont répertoriées dans le sous-onglet Mes requêtes d’ouverture . </p> <p><b>CONSEIL</b>
 
    Les requêtes qui ne sont pas dans un état qui correspond à Fermé sont considérées comme ouvertes.</p> </td>
    </tr> 
     </tbody> 
    </table>
 
-1. (Facultatif) Cliquez sur le **Page Filtrer** icon ![](assets/search-icon.png) en haut de la liste pour rechercher une requête par nom. La liste est mise à jour avec les résultats correspondant à vos critères de recherche.
+1. (Facultatif) Cliquez sur l’icône **Filtrer la page** ![](assets/search-icon.png) en haut de la liste pour rechercher une requête par nom. La liste est mise à jour avec les résultats correspondant à vos critères de recherche.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -184,7 +184,7 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées 
    </ul></li>
    -->
 
-1. Cliquez sur **Brouillons** pour visualiser toutes les demandes en préparation. Workfront enregistre un nombre illimité de brouillons pour chaque file d’attente de demandes dans ce dossier. Lorsque vous saisissez une nouvelle requête pour une rubrique de file d’attente qui comporte déjà un brouillon, vous êtes invité à utiliser un brouillon existant. Pour plus d’informations, voir [Création de requêtes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+1. Cliquez sur **Brouillons** pour afficher toutes les demandes en version préliminaire. Workfront enregistre un nombre illimité de brouillons pour chaque file d’attente de demandes dans ce dossier. Lorsque vous saisissez une nouvelle requête pour une rubrique de file d’attente qui comporte déjà un brouillon, vous êtes invité à utiliser un brouillon existant. Pour plus d’informations, voir [Création de requêtes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
  
 

@@ -2,7 +2,7 @@
 filename: _delegate-work
 content-type: reference
 navigation-topic: projects-navigation-topic
-title: Déléguer le travail
+title: Déléguer un travail
 description: Les articles de cette section contiennent des informations sur la manière dont vous pouvez déléguer le travail lorsque vous êtes temporairement absent du bureau.
 author: Alina
 feature: Work Management
@@ -11,13 +11,13 @@ exl-id: e449366e-3bfa-4710-a597-91de404112d4
 source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
-# Déléguer le travail
+# Déléguer un travail
 
 Les articles de cette section contiennent des informations sur la manière dont vous pouvez déléguer le travail lorsque vous êtes temporairement absent du bureau.
 
-* [Présentation de la délégation des tâches et des problèmes](../../manage-work/delegate-work/delegate-work-overview.md)
+* [Délégation des tâches et problèmes - Aperçu](../../manage-work/delegate-work/delegate-work-overview.md)
 * [Gérer la délégation des tâches et des problèmes](../../manage-work/delegate-work/how-to-delegate-work.md)

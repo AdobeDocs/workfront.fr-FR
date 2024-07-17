@@ -13,7 +13,7 @@ exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
 source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 0%
 
 Vous pouvez intégrer Workfront à votre solution d’authentification unique d’entreprise existante. Cette configuration est facile à configurer et à gérer. Elle est disponible pour les clients OnDemand et OnPremise Enterprise.
 
-Cette section contient les articles suivants :
+Cette section contient les articles suivants :
 
 * [Présentation de l’authentification unique dans Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-* [Mise à jour des utilisateurs pour l’authentification unique](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+* [Mettre à jour les utilisateurs pour l’authentification unique](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
 * [Configuration d’Adobe Workfront avec SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 * [Mise à jour des métadonnées SAML 2.0 dans votre fournisseur d’identité](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
 * [Configuration d’Adobe Workfront avec SAML 2.0 à l’aide d’ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)

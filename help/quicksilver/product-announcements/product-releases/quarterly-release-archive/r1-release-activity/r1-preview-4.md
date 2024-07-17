@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Preview 4
+title: Version R1 de l’environnement d’aperçu, 4
 description: Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version R1.4. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 15 février 2017.
 author: Luke
 feature: Product Announcements
@@ -10,15 +10,15 @@ exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# R1 Preview 4
+# Version R1 de l’environnement d’aperçu, 4
 
 Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version R1.4. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 15 février 2017.
 
-Pour obtenir la liste de toutes les modifications apportées à R1, voir [Version Workfront R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
+Pour obtenir la liste de toutes les modifications apportées à R1, voir [La version Workfront R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
 
 ## Approbations mises à jour de projets, de tâches et de problèmes
 
@@ -36,14 +36,14 @@ Lors de la création de processus d’approbation pour les approbations de proje
 
 * Mise à jour de l’aspect.
 
-Pour plus d’informations sur la création de processus de validation, voir [Créer un processus d’approbation pour les tâches](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Pour plus d’informations sur la création de processus d’approbation, voir [Créer un processus d’approbation pour les éléments de travail](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 Lors de l’association d’un processus d’approbation à un projet, une tâche ou un problème, les améliorations et modifications suivantes sont désormais disponibles :
 
 * Mise à jour de l’aspect.
 * Le diagramme des validations s’affiche dans l’onglet Validations. Il affiche une représentation visuelle des étapes de validation précédentes, actuelles et futures.
 
-Pour plus d’informations sur l’association des validations aux projets, tâches et problèmes, voir [Associer un processus d’approbation nouveau ou existant au travail](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Pour plus d’informations sur l’association des approbations aux projets, tâches et problèmes, voir [Associer un processus d’approbation nouveau ou existant au travail](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Modification directe de l’état d’un projet à partir de la page du projet
 
@@ -67,7 +67,7 @@ Pour plus d’informations sur la planification de la désactivation des utilisa
 
 L’option de remise Résumé quotidien est désormais disponible dans la zone &quot;Action requise&quot; de vos paramètres de notifications.
 
-Pour plus d’informations, voir [Modifier vos propres notifications électroniques](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations, consultez [Modifier vos propres notifications par e-mail](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 N’oubliez pas de mettre à jour l’adresse électronique associée à votre compte pour pouvoir tester cette fonctionnalité. Cela est nécessaire, car l’environnement de test Aperçu efface les adresses électroniques de tous les utilisateurs.
 
@@ -77,12 +77,12 @@ Les améliorations suivantes ont été ajoutées lors de la restauration de proj
 
 * Vous recevez désormais une notification par courrier électronique après la restauration d’un objet.\
   En tant qu’administrateur Workfront, vous recevez désormais une notification par courrier électronique après la restauration d’un projet, d’une tâche ou d’un problème qui a été supprimé précédemment. La notification par courrier électronique vous informe de l’état du processus de restauration.\
-  Pour plus d’informations sur la restauration d’objets dans Workfront, voir [Restauration des éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Pour plus d’informations sur la restauration d’objets dans Workfront, voir [Restaurer les éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 * Lorsque l’objet est restauré, la suppression et la restauration de l’objet sont désormais enregistrées dans le flux de mise à jour de l’objet lui-même et dans le flux de mise à jour de l’objet parent.\
   Auparavant, seule la suppression était enregistrée dans le flux de mise à jour de l’objet parent.\
   Par exemple, lorsque la tâche est restaurée, un message est ajouté dans le flux de mise à jour du projet et de la tâche elle-même, indiquant que la tâche a été restaurée. (Les suppressions et les restaurations ne sont pas enregistrées sur les sous-tâches. Les informations concernant les suppressions et les restaurations des sous-tâches ne sont disponibles que sur les tâches parentes.)\
-  Pour plus d’informations, voir [Restauration des éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Pour plus d’informations, voir [Restaurer les éléments supprimés](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
  
 
@@ -92,7 +92,7 @@ Il existe une nouvelle interface pour la gestion des groupes et des sous-groupes
 
 Les champs Propriétaires de groupe et Membres du groupe sont désormais combinés en un seul champ, avec une liste des membres du groupe répertoriés ci-dessous. De plus, vous pouvez filtrer la liste des membres du groupe et modifier s’ils sont propriétaires ou membres. 
 
-Pour plus d’informations sur l’ajout de sous-groupes aux groupes et la désignation d’utilisateurs en tant que membres ou propriétaires de groupes, voir [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) et [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
+Pour plus d’informations sur l’ajout de sous-groupes aux groupes et la désignation d’utilisateurs en tant que membres ou propriétaires de groupes, voir [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) et [Création d’un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
  
 

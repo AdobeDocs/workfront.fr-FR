@@ -10,13 +10,13 @@ role: Developer
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 5%
+source-wordcount: '96'
+ht-degree: 9%
 
 ---
 
 
-# Obtenir la liste des éléments du contenu du dossier
+# Obtenir la liste des éléments du contenu d’un dossier
 
 Répertorie les métadonnées des fichiers et des dossiers d’un dossier donné.
 
@@ -33,7 +33,7 @@ GET /files
 | offset  |  Décalage de page, utilisé conjointement avec &quot;max&quot;. |
 
 
-## réponse
+## Réponse
 
 JSON contenant une liste de fichiers et de dossiers. Les métadonnées de chaque élément sont les mêmes que celles renvoyées par le point de terminaison /metadata .
 

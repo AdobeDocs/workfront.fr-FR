@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: workfront-dam-within-workfront
-title: Types de rôle de licence Adobe Workfront par rapport aux types de rôle DAM Adobe Workfront
+title: Types de rôles de licence Adobe Workfront et types de rôles de gestion des ressources numériques Adobe Workfront
 description: Les administrateurs d’Adobe Workfront utilisent les niveaux d’accès pour déterminer ce que les utilisateurs peuvent faire dans une application.
 author: Courtney
 feature: Digital Content and Documents
@@ -10,11 +10,11 @@ exl-id: dcca0158-dc31-4aba-bd87-90ccc64e77cb
 source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# Types de rôle de licence Adobe Workfront par rapport aux types de rôle DAM Adobe Workfront
+# Types de rôles de licence Adobe Workfront et types de rôles de gestion des ressources numériques Adobe Workfront
 
 Les administrateurs d’Adobe Workfront utilisent les niveaux d’accès pour déterminer ce que les utilisateurs peuvent faire dans une application.
 
@@ -35,7 +35,7 @@ Vous utilisez les licences pour déterminer ce qu’un utilisateur peut voir et 
 * Demande
 * Externe
 
-Voir [Présentation des licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) pour obtenir une description des différents types de licence dans Workfront.
+Voir [Présentation des licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) pour une description des différents types de licences dans Workfront.
 
 ## Types de rôle DAM Workfront
 
@@ -45,7 +45,7 @@ Les types de rôle fonctionnent avec les groupes lors de la définition des droi
 
 Quatre types de rôles distincts sont disponibles dans la gestion des actifs numériques Workfront :
 
-### Brand Portal
+### Brand Portal
 
 Les utilisateurs disposant de ce type de rôle n’ont accès qu’au portail Brand Connect de la gestion des ressources numériques. Sur le portail, les utilisateurs peuvent afficher et télécharger les ressources auxquelles ils sont autorisés à accéder.
 

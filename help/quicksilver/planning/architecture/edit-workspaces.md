@@ -91,18 +91,18 @@ Pour plus d’informations sur les conditions d’accès, voir [Conditions d’a
 {{step1-to-planning}}
 
 1. Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail.
-1. Cliquez dans le nom de l’espace de travail dans l’en-tête du nouvel espace de travail pour le renommer, puis appuyez sur **Entrée**.
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) à droite du nom de l’espace de travail dans l’en-tête, puis cliquez sur **Modifier**.
+1. Cliquez à l’intérieur du nom de l’espace de travail dans l’en-tête du nouvel espace de travail pour le renommer, puis appuyez sur **Entrée**.
+1. Cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom de l’espace de travail dans l’en-tête, puis cliquez sur **Modifier**.
 
    ![](assets/edit-workspace-box.png)
 
-   Mettez à jour les informations suivantes dans la variable **Modifier l’espace de travail** box :
+   Mettez à jour les informations suivantes dans la zone **Modifier l’espace de travail** :
 
    * Ajoutez un nom pour l’espace de travail. <!--did they add a label for this field?-->
-   * **Description**: ajoutez des informations sur l’espace de travail.
+   * **Description** : ajoutez des informations sur l’espace de travail.
    * Sélectionnez une icône à associer à l’espace de travail.
 
-1. Cliquez sur **Enregistrer** pour fermer la boîte de dialogue Modifier l’espace de travail et appliquer vos modifications.
+1. Cliquez sur **Enregistrer** pour fermer la boîte Modifier l’espace de travail et appliquer vos modifications.
 
 1. (Facultatif) Pour ajouter une section d’espace de travail, effectuez l’une des opérations suivantes :
 
@@ -125,11 +125,11 @@ Pour plus d’informations sur les conditions d’accès, voir [Conditions d’a
 
    Pour plus d’informations, voir [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Facultatif) Passez la souris sur une carte de type enregistrement, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier l’aspect d’un type d’enregistrement.
+1. (Facultatif) Pointez sur une carte de type enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Modifier** pour modifier l’aspect d’un type d’enregistrement.
 
    Pour plus d’informations, voir [Modification des types d’enregistrement](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Facultatif) Passez la souris sur une carte de type enregistrement, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Supprimer** pour supprimer un type d’enregistrement.
+1. (Facultatif) Pointez sur une carte de type enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit, puis cliquez sur **Supprimer** pour supprimer un type d’enregistrement.
 
    Pour plus d’informations, voir [Suppression des types d’enregistrement](/help/quicksilver/planning/architecture/delete-record-types.md).
 

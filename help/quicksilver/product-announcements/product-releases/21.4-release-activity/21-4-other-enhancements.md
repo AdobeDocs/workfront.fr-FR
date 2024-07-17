@@ -1,6 +1,6 @@
 ---
-title: 21.4 Autres améliorations
-description: 21.4 Autres améliorations
+title: Autres améliorations (version 21.4)
+description: Autres améliorations (version 21.4)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: 7afff4ec-a296-483c-819f-84932b6da4d8
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# 21.4 Autres améliorations
+# Autres améliorations (version 21.4)
 
 Cette page décrit toutes les autres améliorations apportées à la version 21.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 4 octobre 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, voir [Présentation de la version 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, reportez-vous à la [21.4 Release Overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Nouveaux raccourcis clavier pour la mise en retrait et la mise en retrait dans les listes
 

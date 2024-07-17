@@ -11,7 +11,7 @@ exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -43,11 +43,11 @@ Vous pouvez réactiver un utilisateur à tout moment.
 >
 >La désactivation d’un utilisateur dans Workfront supprime les licences de l’utilisateur pour Workfront et la vérification dynamique des balises. En outre, l’utilisateur ne peut plus se voir attribuer une tâche. Lorsqu’un utilisateur est désactivé, sa licence Workfront et sa licence de vérification peuvent être utilisées par un autre utilisateur. Toutes les autres informations du profil de l’utilisateur désactivé restent inchangées.
 >
->Pour plus d’informations sur l’impact de la suppression et de la désactivation des utilisateurs, voir [Suppression d’utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>Pour plus d’informations sur l’impact de la suppression et de la désactivation des utilisateurs, voir [Suppression des utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 ## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,14 +59,14 @@ Les étapes de cet article doivent être les suivantes :
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>  <p>Nouveau : Standard </p> <p>Ou </p><p>Actuel : formule </p>   </td> 
+   <td>  <p>Nouvelle : standard </p> <p>Ou </p><p>Actuelle : formule </p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez disposer de l’une des options suivantes :</p> 
+   <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>. </p> </li> 
-     <li> <p><b>Utilisateurs</b> paramètre de votre niveau d’accès configuré sur <b>Modifier</b> accès, avec <b>Créer</b> et au moins l’une des deux <b>Administration des utilisateurs</b> options activées sous <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>de ces deux options, si Utilisateur <b>Administration (utilisateurs de groupe)</b> est activé, vous devez être administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> <p>Pour plus d’informations sur la variable <b>Utilisateurs</b> paramétrer un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs</a>.</p> </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont l’utilisateur est membre.</p> <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Les étapes de cet article doivent être les suivantes :
 
 Avant de désactiver un administrateur Workfront ou un utilisateur sous licence Standard ou Plan, vous devez associer ses objets et activités à un autre utilisateur.
 
-Pour plus d’informations, voir [À propos de la désactivation des administrateurs Workfront et de la planification des utilisateurs de licences](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
+Pour plus d’informations, voir [À propos de la désactivation des administrateurs Workfront et de la planification des utilisateurs de licence](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
 
 ## Désactiver un utilisateur ou une utilisatrice
 
@@ -90,9 +90,9 @@ Lors de la désactivation d’un utilisateur, tenez compte des points suivants :
 
 Pour désactiver un utilisateur :
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
 
-1. Sélectionnez un utilisateur, cliquez sur le bouton **Plus** icon ![](assets/more-icon.png), puis cliquez sur **Désactiver**.
+1. Sélectionnez un utilisateur, cliquez sur l&#39;icône **Plus** ![](assets/more-icon.png), puis sur **Désactiver**.
 
 1. Cliquez sur **Désactiver** dans la zone qui s’affiche.
 
@@ -104,7 +104,7 @@ Les administrateurs de Workfront et les utilisateurs de la licence Plan peuvent 
 
 Pour planifier la désactivation d’un utilisateur :
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
 
 1. Sélectionnez le nom de l’utilisateur.
 
@@ -113,10 +113,10 @@ Pour planifier la désactivation d’un utilisateur :
    (Facultatif) Sélectionnez plusieurs utilisateurs pour les planifier en vue de leur désactivation en bloc.
 
 1. Cliquez sur l’icône Modifier ![](assets/edit-icon.png).
-1. Dans la zone Modifier l’utilisateur qui s’affiche, cliquez sur **Planification des ressources** pour aller dans cette zone.
-1. Activez la variable **Planifier la désactivation** .
+1. Dans la zone Edit User qui s’affiche, cliquez sur **Resource Planning** pour accéder à cette zone.
+1. Activez l’option **Planifier la désactivation** .
 
-1. Dans le calendrier qui s’affiche, indiquez la date et l’heure du **Date planifiée de désactivation**.
+1. Dans le calendrier qui s’affiche, indiquez la date et l’heure de la **Date de désactivation planifiée**.
 
    >[!NOTE]
    >
@@ -131,11 +131,11 @@ Nous vous recommandons de créer un rapport pour les utilisateurs que vous avez 
 
 ## Réactiver un utilisateur
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Utilisateurs** ![](assets/users-icon-in-main-menu.png).
 
-1. Sélectionnez un utilisateur, cliquez sur l’icône Plus ![](assets/more-icon.png), puis cliquez sur **Activer**.
+1. Sélectionnez un utilisateur, cliquez sur l’icône Plus ![](assets/more-icon.png), puis sur **Activer**.
 
-1. Attribuer une nouvelle **Niveau d’accès** dans le menu déroulant, puis cliquez sur **Réactiver**.
+1. Attribuez un nouveau **niveau d&#39;accès** dans le menu déroulant, puis cliquez sur **Réactiver**.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -145,8 +145,8 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 Les utilisateurs désactivés perdent leur rôle de vérification par défaut et leur licence de BAT (si vous utilisez un forfait hérité Workfront Premium). Si vous choisissez de réactiver l’utilisateur, vous devez :
 
-* Réaffectez la licence (si vous utilisez un forfait hérité Workfront Premium). Pour plus d’informations sur les plans de vérification Workfront, voir [Accès aux fonctionnalités de vérification dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Vérifiez qu’ils disposent du rôle de BAT correct. Les utilisateurs de BAT réactivés se voient attribuer le rôle de BAT par défaut spécifié pour les nouveaux utilisateurs. Voir [Configuration des rôles de vérification par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) pour plus d’informations.
+* Réaffectez la licence (si vous utilisez un forfait hérité Workfront Premium). Pour plus d’informations sur les plans de vérification de Workfront, voir [Accès aux fonctionnalités de vérification dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* Vérifiez qu’ils disposent du rôle de BAT correct. Les utilisateurs de BAT réactivés se voient attribuer le rôle de BAT par défaut spécifié pour les nouveaux utilisateurs. Pour plus d’informations, voir [Configuration des rôles de vérification par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) .
 
 ## À propos de la désactivation des administrateurs Workfront et des utilisateurs de licences Standard ou Plan
 
@@ -171,4 +171,4 @@ Lorsque vous planifiez la désactivation d’un utilisateur, il n’apparaît pl
 
 Le planificateur de ressources prend en compte tous les rôles de tâche des utilisateurs et les dates d’achèvement planifiées des tâches et calcule les ressources en conséquence.
 
-Pour plus d’informations sur le planificateur de ressources, voir [Présentation de Resource Planner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur le planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).

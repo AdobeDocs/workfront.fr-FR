@@ -20,7 +20,7 @@ ht-degree: 31%
 
 # Webhooks dans [!DNL Adobe Workfront Fusion]
 
-[!DNL Adobe Workfront Fusion] nécessite une [!DNL Adobe Workfront Fusion] en plus d’une licence Adobe Workfront.
+[!DNL Adobe Workfront Fusion] nécessite une licence [!DNL Adobe Workfront Fusion] en plus d’une licence Adobe Workfront.
 
 Cette section contient les articles suivants :
 

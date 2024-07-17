@@ -1,6 +1,6 @@
 ---
-title: 23.3 Améliorations de la vérification
-description: 23.3 Améliorations de la vérification
+title: Améliorations de la relecture (version 23.3)
+description: Améliorations de la relecture (version 23.3)
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,11 +8,11 @@ exl-id: ae82359b-563a-47bd-aefa-973da5daaf79
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# Activité de mise à jour du Bon à tirer 23.3 d’Adobe Workfront : semaine du 17 juillet 2023
+# Activité Version de l’épreuve Adobe Workfront 23.3 : semaine du 17 juillet 2023
 
 Cette page décrit toutes les améliorations apportées à la version 23.3 d’Adobe Workfront BAT à l’environnement d’aperçu le 22 juillet 2023.
 

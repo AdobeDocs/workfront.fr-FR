@@ -77,7 +77,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <td>Produit</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Pour connecter les enregistrements de planification Adobe Workfront à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe d’une expérience unifiée pour Workfront</a>.</p>
+   <p>Pour connecter les enregistrements de planification Adobe Workfront à Experience Manager Assets, vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Accord Adobe Workfront</p></td>
@@ -203,7 +203,7 @@ Pour lier des enregistrements à d’autres enregistrements ou objets, vous deve
 
    >[!TIP]
    >
-   >    Vous pouvez ouvrir la page d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le champ connecté (s’il existe déjà des enregistrements connectés), ou cliquer sur **Connexion d’enregistrements** (si le champ est vide) pour ajouter des enregistrements de l’enregistrement connecté ou du type d’objet.
+   >    Vous pouvez ouvrir la page d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le champ connecté (s’il existe déjà des enregistrements connectés), ou cliquer sur **Connecter des enregistrements** (si le champ est vide) pour ajouter des enregistrements de l’enregistrement ou du type d’objet connecté.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -385,7 +385,7 @@ Après avoir créé une connexion entre un type d’enregistrement et Adobe Exp
    * Date de création
    * Date de modification
 
-1. (Facultatif) Pour ouvrir la page d’enregistrement des ressources Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous liez, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre contextuelle, puis cliquez sur le bouton **Ouvrir dans AEM** icon ![](assets/open-asset-icon.png) pour ouvrir la ressource.
+1. (Facultatif) Pour ouvrir la page d’enregistrement des ressources Experience Manager dans Experience Manager, accédez à la page de type d’enregistrement de l’enregistrement à partir duquel vous liez, cliquez sur le nom d’une ressource dans le champ d’enregistrement lié pour ouvrir la fenêtre contextuelle, puis cliquez sur l’icône **Ouvrir dans AEM** ![](assets/open-asset-icon.png) pour ouvrir la ressource.
 
    Cette opération ouvre la ressource Experience Manager dans Adobe Experience Manager Assets.
 

@@ -9,8 +9,8 @@ role: Admin
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
 source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 7%
+source-wordcount: '325'
+ht-degree: 16%
 
 ---
 
@@ -22,30 +22,30 @@ ht-degree: 7%
 
 Vous pouvez utiliser l’option Diagnostics pour déclencher manuellement des processus automatisés, tels que des scripts temporels, des recalculs ou des notifications par courrier électronique.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Formule Adobe Workfront</a> </td> 
-   <td>Tous</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Adobe Workfront</a> </td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences</a> </td> 
-   <td> <p>Plan </p>Vous devez être un administrateur Workfront. Pour plus d’informations sur les administrateurs Workfront, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès administratif complet à un utilisateur</a>.</td> 
+   <td> <p>Plan </p>Vous devez être un administrateur Workfront. Pour plus d’informations sur les administrateurs de Workfront, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroi d’un accès d’administration complet à un utilisateur</a>.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Utiliser des diagnostics pour déclencher des processus automatisés
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
-1. Développer **Système**, puis cliquez sur **Diagnostics**.
+1. Développez **Système**, puis cliquez sur **Diagnostics**.
 1. Sélectionnez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
@@ -54,11 +54,11 @@ Les étapes de cet article doivent être les suivantes :
     <tbody> 
      <tr> 
       <td role="rowheader">Envoyer des notifications de retard</td> 
-      <td> <p>Envoie manuellement les notifications de rappel automatique pour les tâches en retard et les problèmes. </p> <p>Pour plus d’informations sur la configuration des rappels automatiques, voir <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Configuration de rappels automatiques</a>.</p> </td> 
+      <td> <p>Envoie manuellement les notifications de rappel automatique pour les tâches en retard et les problèmes. </p> <p>Pour plus d’informations sur la configuration des rappels automatiques, voir <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Configuration des rappels automatiques</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Envoyer des notifications précoces</td> 
-      <td> <p>Envoie manuellement les notifications de rappel automatique pour les tâches et les problèmes qui approchent les dates d’échéance.</p> <p>Pour plus d’informations sur la configuration des rappels automatiques, voir <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Configuration de rappels automatiques</a>.</p> </td> 
+      <td> <p>Envoie manuellement les notifications de rappel automatique pour les tâches et les problèmes qui approchent les dates d’échéance.</p> <p>Pour plus d’informations sur la configuration des rappels automatiques, voir <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Configuration des rappels automatiques</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Envoyer des notifications de rappel</td> 
@@ -72,11 +72,11 @@ Les étapes de cet article doivent être les suivantes :
      </tr> 
      <tr> 
       <td role="rowheader">Recalculer les chronologies</td> 
-      <td> <p>Recalcule la chronologie de tous les projets Workfront qui sont à l’état Actuel. </p> <p>Pour plus d’informations sur le calcul automatique ou manuel de la chronologie des projets, projet par projet, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculer les calendriers du projet</a>.</p> </td> 
+      <td> <p>Recalcule la chronologie de tous les projets Workfront qui sont à l’état Actuel. </p> <p>Pour plus d’informations sur le calcul automatique ou manuel de la chronologie des projets, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculer la chronologie des projets</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Rétablir les rapports clients par défaut</td> 
-      <td>Restaure les rapports par défaut qui ont été initialement fournis avec Workfront, de sorte qu’ils soient visibles dans la variable <strong>Rapports</strong> pour tous les utilisateurs.</td> 
+      <td>Restaure les rapports par défaut qui ont été initialement fournis avec Workfront, de sorte qu’ils soient visibles dans la section <strong>Rapports</strong> pour tous les utilisateurs.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Générer des feuilles de temps</td> 

@@ -24,7 +24,7 @@ Votre entreprise doit disposer des éléments suivants pour utiliser les fonctio
 
      Ou
 
-     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans).
+     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans?lang=fr).
 
 * Pour le plan actuel et la structure de licence :
 
@@ -47,7 +47,7 @@ Vous trouverez ci-dessous un bref aperçu des sections des objectifs de Workfron
 
 * [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Mise à jour de la progression de l’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [Filtrage des informations dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
+* [Filtrer les informations dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
 
 ## Liste d’objectifs
@@ -76,7 +76,7 @@ Utilisez la liste des objectifs pour effectuer les opérations suivantes :
 
 Vous pouvez utiliser la section Graphiques pour obtenir une vue d’ensemble de l’intégrité des objectifs qui vous appartiennent ou qui appartiennent à votre organisation. Vous pouvez afficher les informations d’avancement des objectifs dans n’importe quel état à partir de n’importe quelle période dans cette section.
 
-Pour plus d’informations sur l’utilisation de la section Graphiques, voir [Consultez des graphiques pour comprendre les tendances de progression des objectifs dans les objectifs Adobe Workfront.](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+Pour plus d’informations sur l’utilisation de la section Graphiques, reportez-vous à la section [Révision de graphiques pour comprendre les tendances de progression des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
 ![](assets/graphs-section-unshimmed.png)
 
@@ -90,11 +90,11 @@ Utilisez la section Graphiques pour effectuer les opérations suivantes :
 
 Si vos objectifs sont harmonisés, utilisez la section Alignement des objectifs pour afficher et revoir tous les objectifs de votre organisation, ainsi que leur alignement les uns par rapport aux autres. Les objectifs alignés s’affichent ici sur les cartes connectées afin d’illustrer l’alignement entre eux. Les objectifs parents s’affichent en premier, et les objectifs enfants sont empilés derrière eux. Vous pouvez afficher les objectifs dans n’importe quel état et à n’importe quelle période de cette section.
 
-Pour plus d’informations sur la navigation dans la section Alignement des objectifs pour gérer les objectifs, voir [Accédez à la section Alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+Pour plus d’informations sur la navigation dans la section Alignement des objectifs pour gérer les objectifs, voir [Navigation dans la section Alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 Pour plus d’informations sur l’alignement des objectifs, consultez les articles suivants :
 
-* [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Aligner les objectifs en les connectant dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Alignement des objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ![](assets/goal-alignment-section-unshimmed.png)

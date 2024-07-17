@@ -3,7 +3,7 @@ content-type: overview
 product-area: documents
 keywords: BAT,permission
 navigation-topic: proofing-overview
-title: Aperçu du profil d’autorisation de preuve
+title: Vue d’ensemble du profil d’autorisation d’épreuve
 description: Les profils d’autorisation de BAT déterminent les autorisations globales dont disposent les utilisateurs sur tous les bons à tirer de votre compte. Les profils d’autorisation de BAT sont attribués aux utilisateurs dans leur profil utilisateur. Les profils d’autorisation de BAT diffèrent des rôles de BAT.
 author: Courtney
 feature: Digital Content and Documents
@@ -11,21 +11,21 @@ exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
 source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Aperçu du profil d’autorisation de preuve
+# Vue d’ensemble du profil d’autorisation d’épreuve
 
 <!--Audited: 12/2023-->
 
 Les profils d’autorisation de BAT déterminent les autorisations globales dont disposent les utilisateurs sur tous les bons à tirer de votre compte. Les profils d’autorisation de BAT sont attribués aux utilisateurs dans leur profil utilisateur.
 
-Les profils d’autorisation de BAT diffèrent des rôles de BAT. Pour plus d’informations sur les rôles de BAT, voir [Rôles de BAT - Aperçu](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Les profils d’autorisation de BAT diffèrent des rôles de BAT. Pour plus d’informations sur les rôles de BAT, consultez la [présentation des rôles de BAT](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
->Si vous êtes administrateur, vous pouvez créer des profils personnalisés pour les utilisateurs de votre entreprise. Pour plus d’informations, voir [Configuration de profils personnalisés dans le bon à tirer Workfront](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+>Si vous êtes administrateur, vous pouvez créer des profils personnalisés pour les utilisateurs de votre entreprise. Pour plus d’informations, voir [Configuration de profils personnalisés dans Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -50,9 +50,9 @@ Le tableau suivant affiche les autorisations disponibles pour chaque profil d’
    </td>
    <td colspan="4" ><strong>Éléments propres</strong>
    </td>
-   <td colspan="3" ><strong>Autres éléments d’utilisateur</strong>
+   <td colspan="3" ><strong>Autres éléments d’utilisateurs</strong>
    </td>
-   <td><strong>Administration</strong>
+   <td><strong>Admin</strong>
    </td>
   </tr>
   <tr>
@@ -60,19 +60,19 @@ Le tableau suivant affiche les autorisations disponibles pour chaque profil d’
    </td>
    <td><strong>Ajouter</strong>
    </td>
-   <td><strong>Affichage</strong>
+   <td><strong>Afficher</strong>
    </td>
    <td><strong>Modifier</strong>
    </td>
    <td><strong>Supprimer</strong>
    </td>
-   <td><strong>Affichage</strong>
+   <td><strong>Afficher</strong>
    </td>
    <td><strong>Modifier</strong>
    </td>
    <td><strong>Supprimer</strong>
    </td>
-   <td><strong>Modification et suppression</strong>
+   <td><strong>Modifier et supprimer</strong>
    </td>
   </tr>
   <tr>
@@ -175,7 +175,7 @@ Les administrateurs ont accès aux [Paramètres du compte](https://support.workf
  </tbody> 
 </table>
 
-&#42;Disponible uniquement dans le produit autonome Bon à tirer de Workfront.
+&#42;Disponible uniquement dans le produit autonome Workfront Proof.
 
 ### Superviseur
 

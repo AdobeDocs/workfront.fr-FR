@@ -1,25 +1,25 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Déconnexion de [!DNL Adobe Workfront]
-description: Pour des raisons de sécurité, il est important de se déconnecter de [!DNL Adobe Workfront] régulièrement. Par défaut, [!DNL Workfront] déconnecte automatiquement les utilisateurs après 8 heures d’inactivité.
+title: Se déconnecter de  [!DNL Adobe Workfront]
+description: Pour des raisons de sécurité, il est important de se déconnecter régulièrement de  [!DNL Adobe Workfront] . Par défaut,  [!DNL Workfront]  déconnecte automatiquement les utilisateurs après 8 heures d’inactivité.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
 source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 0%
+source-wordcount: '216'
+ht-degree: 17%
 
 ---
 
 # Déconnexion de [!DNL Adobe Workfront]
 
-Pour des raisons de sécurité, il est important de se déconnecter de [!DNL Adobe Workfront] régulièrement. Par défaut, [!DNL Workfront] déconnecte automatiquement les utilisateurs après 8 heures d’inactivité.
+Pour des raisons de sécurité, il est important de se déconnecter régulièrement de [!DNL Adobe Workfront]. Par défaut, [!DNL Workfront] déconnecte automatiquement les utilisateurs après 8 heures d’inactivité.
 
 >[!NOTE]
 >
->Normalement, une [!DNL Workfront] L’administrateur peut modifier ce délai pour qu’il atteigne entre 15 minutes et 7 jours d’inactivité, comme expliqué dans la section [Configuration des préférences de sécurité système](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), mais cette fonctionnalité n’est actuellement pas disponible. Nous travaillons à des améliorations de l’authentification qui permettront une déconnexion automatique après une période d’inactivité spécifiée.
+>En règle générale, un administrateur [!DNL Workfront] peut modifier ce temps entre 15 minutes et 7 jours d’inactivité, comme expliqué dans la section [Configuration des préférences de sécurité du système](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), mais cette fonctionnalité est actuellement indisponible. Nous travaillons à des améliorations de l’authentification qui permettront une déconnexion automatique après une période d’inactivité spécifiée.
 
 <!--
 ><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -29,13 +29,13 @@ Pour des raisons de sécurité, il est important de se déconnecter de [!DNL Ado
 
 >[!IMPORTANT]
 >
->La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à [!DNL Adobe Experience Cloud].
+>La procédure décrite sur cette page s’applique uniquement aux entreprises qui ne sont pas encore intégrées à [!DNL Adobe Experience Cloud].
 >
-> Si votre entreprise a été intégrée à [!DNL Adobe Experience Cloud], vous vous déconnectez en cliquant sur l’image de votre profil dans le volet de navigation supérieur et en sélectionnant [!UICONTROL **Se déconnecter**] dans le menu. Pour plus d’informations, voir [[!DNL Adobe Unified Experience] pour [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+> Si votre organisation a été intégrée à [!DNL Adobe Experience Cloud], vous vous déconnectez en cliquant sur l’image de votre profil dans le volet de navigation supérieur et en sélectionnant [!UICONTROL **Se déconnecter**] dans le menu. Pour plus d’informations, voir [[!DNL Adobe Unified Experience] pour [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,19 +44,19 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur [!DNL Workfront].
 
-## Déconnectez-vous de votre [!DNL Workfront] account
+## Fermez votre session [!DNL Workfront]
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Déconnexion]** ![](assets/logout-icon.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Déconnexion]** ![](assets/logout-icon.png).
 1. Vous revenez alors à la page de connexion dans laquelle vous pouvez saisir à nouveau votre nom d’utilisateur et votre mot de passe.

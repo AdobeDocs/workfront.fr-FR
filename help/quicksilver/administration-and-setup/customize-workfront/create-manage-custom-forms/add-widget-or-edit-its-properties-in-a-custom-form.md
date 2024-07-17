@@ -65,15 +65,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 ## Ajout ou modification d’un widget de ressource dans un formulaire personnalisé
 
-1. Commencez à travailler sur un formulaire personnalisé, comme décrit dans la section [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Avec la variable **Ajouter un champ** ouvrez l’onglet , effectuez l’une des opérations suivantes :
+1. Commencez à travailler sur un formulaire personnalisé, comme décrit dans [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Une fois l’onglet **Ajouter un champ** ouvert, effectuez l’une des opérations suivantes :
 
-   * Si vous ajoutez un nouveau widget, sélectionnez **Image**, **PDF**, ou **Vidéo** pour l’ajouter au bas du formulaire, ou faites-le glisser là où vous le souhaitez sur le formulaire.
+   * Si vous ajoutez un nouveau widget, sélectionnez **Image**, **PDF** ou **Vidéo** pour l’ajouter au bas du formulaire, ou faites-le glisser là où vous le souhaitez sur le formulaire.
 
      ![](assets/add-widget.png)
 
 
-   * Si vous souhaitez ajouter un widget déjà ajouté à un autre formulaire personnalisé, cliquez sur **Bibliothèque de champs**, puis cliquez sur le nom du widget dans la liste qui s’affiche. Pour plus d’informations, voir [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   * Si vous souhaitez ajouter un widget qui a déjà été ajouté à un autre formulaire personnalisé, cliquez sur **Bibliothèque de champs**, puis sur le nom du widget dans la liste qui s’affiche. Pour plus d’informations, voir [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    * Si vous modifiez un widget déjà ajouté au formulaire personnalisé, sélectionnez-le.
 
@@ -89,12 +89,12 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget.</p> <p>Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> <p><b>IMPORTANT</b>: bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans le widget. Si vous le faites, le système ne reconnaîtra plus le widget là où il peut maintenant être référencé dans d’autres zones de Workfront. </p> <p>Chaque nom de widget doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un déjà créé pour un autre formulaire personnalisé. </p> </td> 
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget.</p> <p>Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> <p><b>IMPORTANT</b> : bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans le widget. Si vous le faites, le système ne reconnaîtra plus le widget là où il peut maintenant être référencé dans d’autres zones de Workfront. </p> <p>Chaque nom de widget doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un déjà créé pour un autre formulaire personnalisé. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoire) Saisissez ou collez l’URL du widget où il est stocké sur Internet.</p> 
-       <p><strong>Important</strong>: l’URL de doit être une URL publique. </p>
+       <p><strong>Important</strong> : L’URL de doit être une URL publique. </p>
       <p>Si vous ajoutez un widget vidéo, vous pouvez le faire en ajoutant ce qui suit dans la zone URL :</p> 
       <ul> 
       <li> <p>Lien YouTube ou Vimeo</p> </li> 
@@ -130,8 +130,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 ## Ajout d’un fichier XD à un formulaire personnalisé
 
-1. Commencez à travailler sur un formulaire personnalisé, comme décrit dans la section [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Avec la variable **Ajouter un champ** ouvrir, sélectionnez **Adobe XD**.
+1. Commencez à travailler sur un formulaire personnalisé, comme décrit dans [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. L&#39;onglet **Ajouter un champ** étant ouvert, sélectionnez **Adobe XD**.
 1. Saisissez ou modifiez l’une des propriétés suivantes pour le widget :
 
    <table style="table-layout:auto"> 
@@ -144,7 +144,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget.</p> <p>Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> <p><b>IMPORTANT</b>: bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans le widget. Si vous le faites, le système ne reconnaîtra plus le widget là où il peut maintenant être référencé dans d’autres zones de Workfront. </p> <p>Chaque nom de widget doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un déjà créé pour un autre formulaire personnalisé. </p> </td> 
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget.</p> <p>Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> <p><b>IMPORTANT</b> : bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs aurez commencé à utiliser le formulaire personnalisé dans le widget. Si vous le faites, le système ne reconnaîtra plus le widget là où il peut maintenant être référencé dans d’autres zones de Workfront. </p> <p>Chaque nom de widget doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un déjà créé pour un autre formulaire personnalisé. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 

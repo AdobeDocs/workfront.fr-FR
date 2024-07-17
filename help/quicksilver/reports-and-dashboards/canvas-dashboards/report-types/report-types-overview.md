@@ -6,10 +6,11 @@ description: Il existe plusieurs rapports que vous pouvez ajouter à un tableau 
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -27,7 +28,7 @@ Pour obtenir des informations générales sur l’ajout et la disposition de rap
 
 ## Types de rapports du tableau de bord du canevas : index de l’article
 
-Cette section contient les articles suivants :
+Cette section contient les articles suivants :
 
 * [Ajout d’un rapport existant à un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
 * [Création d’un rapport sur les indicateurs de performance clés dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)

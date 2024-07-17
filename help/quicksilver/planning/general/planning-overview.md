@@ -32,7 +32,7 @@ ht-degree: 83%
 >
 >Le représentant du compte vous aurait informé si vous faisiez partie de cette étape.
 >
->Pour obtenir la liste complète de toutes les sections et articles qui documentent la planification Workfront, voir [Planification Adobe Workfront : index des articles](/help/quicksilver/planning/planning-information.md).
+>Pour obtenir la liste complète de toutes les sections et tous les articles qui documentent la planification Workfront, voir [Adobe Workfront Planning : article index](/help/quicksilver/planning/planning-information.md).
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
@@ -59,7 +59,7 @@ Voici quelques-unes des principales fonctionnalités :
 
 Le tableau suivant illustre les principales fonctionnalités qui seront disponibles dans Workfront Planning, ainsi qu’une chronologie de leur disponibilité. La liste n’inclut pas toutes les fonctionnalités.
 
-Pour plus d’informations sur les nouvelles fonctionnalités et leur date de publication, voir [Activité de mise à jour en cours de la planification Adobe Workfront](/help/quicksilver/planning/general/release-activity.md).
+Pour plus d’informations sur les nouvelles fonctionnalités et leur date de publication, voir [Adobe Workfront Planning - Activité de mise à jour en cours](/help/quicksilver/planning/general/release-activity.md).
 
 | Fonctionnalité | Disponible maintenant | Disponible bientôt | En cours de développement |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -132,7 +132,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   Dans Workfront Planning, vous pouvez créer tous les types d’enregistrements qui correspondent aux workflows de votre organisation. Vous pouvez ensuite définir la manière dont les types d’enregistrements sont associés les uns aux autres ou aux dépendances des formulaires.
 
-  Pour plus d’informations, voir [Types d’enregistrement - Aperçu](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+  Pour plus d’informations, voir [Présentation des types d’enregistrements](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 * **Enregistrement** : instance d’un type d’enregistrement.
 
@@ -194,7 +194,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
    * Dernière modification par
    * Date de dernière modification
 
-* **Types d’enregistrement liés**, **Enregistrements liés**, et **Champs d’enregistrement liés** ou **Types d’enregistrement connectés**, **Enregistrements connectés**, et **Champs connectés**: vous pouvez créer une connexion entre les entités suivantes dans Workfront Planning :
+* **Types d’enregistrements liés**, **Enregistrements liés** et **Champs d’enregistrement liés** ou **Types d’enregistrements connectés**, **Enregistrements connectés** et **Champs connectés** : vous pouvez créer une connexion entre les entités suivantes dans la planification Workfront :
 
    * Deux types d’enregistrement.
    * Un type d’enregistrement et un type d’objet de projet, de programme, de portfolio, d’entreprise ou de groupe Workfront.
@@ -296,16 +296,16 @@ Pour localiser Workfront Planning :
    ![](assets/planning-landing-page-admin.png)
 
 1. (Conditionnel et facultatif) Si vous êtes administrateur Workfront, cliquez sur l’un des onglets suivants :
-   * **Mes espaces de travail**: affiche les espaces de travail que vous avez créés.
-   * **Autres espaces de travail**: affiche tous les autres espaces de travail du système, y compris ceux partagés avec vous.
+   * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés.
+   * **Autres espaces de travail** : affiche tous les autres espaces de travail du système, y compris ceux partagés avec vous.
 
-   Pour tous les autres utilisateurs, tous les espaces de travail qu’ils ont créés ou qu’ils partagent avec eux s’affichent dans la variable **Espaces de travail** zone.
+   Pour tous les autres utilisateurs, tous les espaces de travail qu’ils ont créés ou qu’ils ont partagés avec eux s’affichent dans la zone **Espaces de travail**.
 
 1. (Facultatif et recommandé) Passez à certaines des actions suivantes pour créer votre structure de travail :
 
    1. Créez un espace de travail entièrement ou à l’aide d’un modèle. Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. Ajoutez des sections au nouvel espace de travail. Pour plus d’informations, voir [Modification des espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   1. Ajoutez des sections au nouvel espace de travail. Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. Renommez les sections existantes dans le nouvel espace de travail.
    1. Ajoutez des types d’enregistrement au nouvel espace de travail. Pour plus d’informations, voir [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
@@ -328,5 +328,5 @@ Pour localiser Workfront Planning :
 
 Nous publions régulièrement de nouvelles fonctionnalités dans Workfront Planning.
 
-Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité de mise à jour en cours de la planification Adobe Workfront](/help/quicksilver/planning/general/release-activity.md)
+Pour obtenir une liste à jour des fonctionnalités publiées, voir [Adobe Workfront Planning de l’activité de mise à jour en cours](/help/quicksilver/planning/general/release-activity.md)
 

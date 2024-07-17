@@ -1,6 +1,6 @@
 ---
-title: Consultation et affichage des mises à jour pendant la période de publication de la version 22.4
-description: Consultation et affichage des mises à jour pendant la période de publication de la version 22.4
+title: Mises à jour de l’expérience utilisateur (version 22.4)
+description: Mises à jour de l’expérience utilisateur (version 22.4)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: e5c347ef-aa14-4607-bf30-11b2812ff40d
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Mises à jour de l’apparence pendant la période de publication de la version 22.4
+# Mises à jour de l’expérience utilisateur (version 22.4)
 
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication de la version 22.4. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, voir [Présentation de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, consultez la [présentation de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Découvrez et ressentez les mises à jour de la page des licences
 

@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Comment les groupes héritent des états
+title: Héritage de statuts par les groupes
 description: 'Lorsque vous répertoriez les états disponibles pour un groupe, les éléments suivants s’affichent :'
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
@@ -10,16 +10,16 @@ role: Admin
 exl-id: 3937fd72-fa54-4777-9ec4-1f097df7a2ee
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 1%
 
 ---
 
-# Comment les groupes héritent des états
+# Héritage de statuts par les groupes
 
 Lorsque vous répertoriez les états disponibles pour un groupe, les éléments suivants s’affichent :
 
-* Statuts personnalisés créés pour le groupe, comme expliqué dans la section [Création ou modification d’un état de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+* États personnalisés créés pour le groupe, comme expliqué dans la section [Créer ou modifier un état de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 * Les états hérités du système et des niveaux supérieurs de la hiérarchie des groupes, comme expliqué dans cet article.
 
 ## Hériter des statuts
@@ -48,14 +48,14 @@ Le tableau ci-dessous explique chacune de ces circonstances.
      <b>EXEMPLE :</b></span></span> 
      <p>Supposons qu’un groupe appelé Marketing comporte deux sous-groupes appelés Communications marketing et Valorisation de marque.</p> 
      <p>Un administrateur de groupe du groupe Marketing crée un état personnalisé appelé Discovery.</p> 
-     <p>Par la suite, vous créez un sous-groupe sous le groupe Marketing et vous l’appelez Publicité.</p> 
-     <p>Votre sous-groupe hérite de l’état Discovery car vous avez créé le groupe après que l’autre administrateur a créé l’état Discovery déverrouillé.</p> 
+     <p>Par la suite, vous créez un sous-groupe sous le groupe Marketing et vous l’appelez Advertising.</p> 
+     <p>Votre sous-groupe hérite de l’état Découverte car vous avez créé le groupe après que l’autre administrateur a créé l’état Découverte déverrouillée.</p> 
      <p>Comme les sous-groupes Communications marketing et Valorisation de marque existaient déjà sous le groupe Marketing lorsque cela s’est produit, ils n’héritent pas de l’état Découverte déverrouillée.</p> 
     </div> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Lorsqu’un administrateur verrouille un état à un niveau supérieur</td> 
-   <td> <p>Lorsqu’un administrateur Workfront verrouille un état au niveau du système, votre groupe l’hérite avec tous les autres groupes du système.</p> <p>De même, lorsqu’un administrateur verrouille l’état d’un groupe situé au-dessus de votre groupe, celui-ci l’hérite avec tous les autres sous-groupes situés au-dessous du groupe supérieur.</p> <p><b>REMARQUE</b>: Par la suite, si un administrateur déverrouille l’un de ces états au niveau du système ou dans un groupe situé au-dessus de votre groupe, votre groupe conserve l’état qu’il a hérité précédemment. Il s’agit maintenant d’une version distincte de l’état et vous pouvez la personnaliser uniquement pour votre groupe.</p> 
+   <td> <p>Lorsqu’un administrateur Workfront verrouille un état au niveau du système, votre groupe l’hérite avec tous les autres groupes du système.</p> <p>De même, lorsqu’un administrateur verrouille l’état d’un groupe situé au-dessus de votre groupe, celui-ci l’hérite avec tous les autres sous-groupes situés en-dessous du groupe supérieur.</p> <p><b>REMARQUE</b> : par la suite, si un administrateur déverrouille l’un de ces états au niveau du système ou dans un groupe situé au-dessus de votre groupe, votre groupe conserve l’état qu’il a hérité précédemment. Il s’agit maintenant d’une version distincte de l’état et vous pouvez la personnaliser uniquement pour votre groupe.</p> 
     <p><b>EXEMPLE :</b></p>
     <p>L’administrateur du groupe marketing verrouille l’état Discovery mentionné ci-dessus pour s’assurer que les trois sous-groupes le possèdent.</p> 
     <p>Avec votre groupe Advertising, les groupes Communications marketing et Valorisation de marque ont désormais le statut Découverte . Ils l’héritaient lorsqu’il était verrouillé dans le groupe marketing situé au-dessus d’eux.</p> 
@@ -67,7 +67,7 @@ Le tableau ci-dessous explique chacune de ces circonstances.
    <td> <p>Lorsqu’un administrateur supprime un groupe et choisit le vôtre de prendre sa place dans le système, votre groupe hérite des statuts personnalisés du groupe supprimé s’il n’existe pas déjà dans votre groupe.</p> 
    <p><b>EXEMPLE : </b></p>
      <p>Un groupe appelé Messagerie doit fusionner avec votre groupe Advertising. Par conséquent, un administrateur Workfront supprime le groupe Messagerie et choisit votre groupe pour le remplacer.</p> 
-     <p>Le groupe de messagerie avait un statut unique appelé In Process. Votre groupe Advertising peut désormais utiliser ce statut.</p> 
+     <p>Le groupe de messagerie avait un statut unique appelé In Process. Ce statut est désormais disponible pour votre groupe Advertising.</p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -79,10 +79,10 @@ Lorsque vous créez un groupe de niveau supérieur, il hérite des configuration
 
 * Configurations d’état par défaut
 
-   Pour plus d’informations à ce sujet, voir [Utilisation d’états personnalisés comme états par défaut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+  Pour plus d’informations à ce sujet, voir [Utilisation d’états personnalisés comme états par défaut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
 * Paramétrages de l’ordre d’affichage des états
 
-   Pour plus d’informations à ce sujet, voir [Réorganiser les états au niveau du système et du groupe](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+  Pour plus d’informations à ce sujet, voir [Réorganiser les états au niveau du système et du groupe](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
 
 Si quelqu’un modifie ces configurations après la création de votre groupe, ses états ne sont pas affectés.

@@ -3,7 +3,7 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront pour Android
-description: La variable [!DNL Adobe Workfront] vous permet d’accéder à votre travail sur n’importe quel appareil Android. Vous pouvez installer et utiliser la variable [!DNL Workfront] application mobile sur téléphones et tablettes exécutant Android 5.0 ou version ultérieure.
+description: L’application  [!DNL Adobe Workfront]  vous permet d’accéder à votre travail sur n’importe quel appareil Android. Vous pouvez installer et utiliser l’application mobile  [!DNL Workfront] sur les téléphones et tablettes exécutant Android 5.0 ou version ultérieure.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
@@ -16,13 +16,13 @@ ht-degree: 3%
 
 # [!DNL Adobe Workfront] pour [!DNL Android]
 
-La variable [!DNL Adobe Workfront] vous permet d’accéder à votre travail sur n’importe quelle [!DNL Android] appareil. Vous pouvez installer et utiliser la variable [!DNL Workfront] application mobile sur téléphones et tablettes en cours d’exécution [!DNL Android] 5.0 ou version ultérieure.
+L’application [!DNL Adobe Workfront] vous permet d’accéder à votre travail sur n’importe quel appareil [!DNL Android]. Vous pouvez installer et utiliser l’application mobile [!DNL Workfront] sur les téléphones et tablettes exécutant [!DNL Android] 5.0 ou version ultérieure.
 
-Pour plus d’informations sur la connexion à l’application mobile, voir la section [Connectez-vous au [!DNL Workfront] application mobile](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) dans l’article [Connexion à [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Pour plus d’informations sur la connexion à l’application mobile, reportez-vous à la section [Connexion à l’application mobile  [!DNL Workfront] 2} de l’article [Connexion à [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)
 
 ## [!UICONTROL Accueil]
 
-La variable [!UICONTROL Accueil] vous permet de travailler directement sur les tâches, les problèmes et les validations qui vous sont assignés. Dans la [!UICONTROL Accueil] de l’application, vous pouvez :
+La zone [!UICONTROL Accueil] vous permet de travailler directement sur les tâches, les problèmes et les approbations qui vous sont assignés. Dans la zone [!UICONTROL Accueil] de l’application, vous pouvez :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,21 +48,21 @@ La variable [!UICONTROL Accueil] vous permet de travailler directement sur les t
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [[!UICONTROL Accueil] widgets de zone](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) et [[!UICONTROL Mon travail] dans l’application mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Pour plus d’informations, voir les sections [[!UICONTROL Widgets de zone d’accueil]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) et [[!UICONTROL Mon travail] dans l’application mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![Zone d’accueil](assets/mobile-home-area.png)
 
 ## [!UICONTROL Panoramas]
 
-La variable [!UICONTROL Panoramas] vous permet d’accéder à votre [!DNL Workfront] panoramas.
+La zone [!UICONTROL Panoramas] vous permet d’accéder à vos [!DNL Workfront] panoramas.
 
-![Zone des panoramas](assets/mobile-all-boards-displayed.png)
+![Surface de panoramas](assets/mobile-all-boards-displayed.png)
 
 Pour plus d’informations, voir [[!DNL Adobe Workfront] [!UICONTROL Panoramas] pour mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL Projets]
 
-La variable [!UICONTROL Projets] vous permet d’interagir avec et de gérer les projets que vous possédez et les projets sur lesquels vous vous trouvez. Dans la [!UICONTROL projects] de l’application, vous pouvez :
+La zone [!UICONTROL Projets] vous permet d’interagir et de gérer les projets que vous possédez et les projets sur lesquels vous vous trouvez. Dans la zone [!UICONTROL projects] de l’application, vous pouvez :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,11 +87,11 @@ La variable [!UICONTROL Projets] vous permet d’interagir avec et de gérer les
  </tbody> 
 </table>
 
-![Zone Projets](assets/mobile-projects-area.png)
+![Zone de projets](assets/mobile-projects-area.png)
 
 ## [!UICONTROL Approbations]
 
-La variable [!UICONTROL Approbations] vous permet d’afficher et d’approuver les approbations qui vous ont été attribuées ou qui vous ont été déléguées. Dans la [!UICONTROL validations] , vous pouvez approuver :
+La zone [!UICONTROL Approbations] vous permet de visualiser et d’approuver les approbations qui vous ont été attribuées ou qui vous ont été déléguées. Dans la zone [!UICONTROL approbations], vous pouvez approuver :
 
 <table style="table-layout:auto">
  <col>
@@ -113,24 +113,24 @@ La variable [!UICONTROL Approbations] vous permet d’afficher et d’approuver 
  </tbody>
 </table>
 
-Pour plus d’informations sur les validations, voir [Validations dans la variable [!DNL Adobe Workfront] application mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Pour plus d’informations sur les approbations, voir [Validations dans l’ [!DNL Adobe Workfront] application mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Pour plus d’informations sur la validation et la validation des BAT, voir [Examiner et prendre des décisions sur les bons à tirer dans la [!DNL Adobe Workfront] application mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Pour plus d&#39;informations sur l&#39;examen et l&#39;approbation des bons à tirer, voir [Vérification et prise de décisions sur les bons à tirer dans l&#39; [!DNL Adobe Workfront] application mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
-![Liste des approbations dans les applications mobiles](assets/mobile-approvals-adobe-350x574.png)
+![Liste des approbations dans l’application mobile](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL Notifications]
 
-La variable [!UICONTROL Notifications] vous permet d’afficher des notifications in-app et d’y répondre pour votre travail.
+La zone [!UICONTROL Notifications] vous permet d’afficher les notifications in-app et de répondre à ces notifications pour votre travail.
 
 >[!NOTE]
 >Les hyperliens ne sont pas disponibles dans les notifications de mise à jour, sauf si l’intégralité du contenu d’une note est un lien hypertexte sans texte d’affichage.
 
-![Zone Notifications](assets/mobile-notifications-area.png)
+![Zone de notifications](assets/mobile-notifications-area.png)
 
 ## [!UICONTROL Demandes]
 
-La variable [!UICONTROL Demandes] vous permet d’afficher les détails sur les requêtes. Dans la [!UICONTROL Demandes] de l’application, vous pouvez :
+La zone [!UICONTROL Requêtes] vous permet d’afficher des détails sur les requêtes. Dans la zone [!UICONTROL Demandes] de l’application, vous pouvez :
 
 <table style="table-layout:auto">
  <col>
@@ -158,31 +158,31 @@ La variable [!UICONTROL Demandes] vous permet d’afficher les détails sur les 
 
 ## [!UICONTROL Feuilles de temps]
 
-La variable [!UICONTROL timesheets] vous permet d’afficher des détails sur vos feuilles de temps. Dans la zone Fiches horaires de l’application, vous pouvez :
+La zone [!UICONTROL timesheets] vous permet d’afficher des détails sur vos feuilles de temps. Dans la zone Fiches horaires de l’application, vous pouvez :
 
-* Post dans le [!UICONTROL Mises à jour] area
+* Post dans la zone [!UICONTROL Mises à jour]
 * Ajuster les types d’heures
 * Modification de l’heure à laquelle vous êtes connecté
 * Entrer des commentaires sur votre feuille de temps
 * Fermer la feuille de temps
 
-![Zone de feuilles de calcul](assets/mobile-timesheets-area.png)
+![Zone de feuilles de calcul ](assets/mobile-timesheets-area.png)
 
 ## [!UICONTROL Favoris]
 
-Vous pouvez accéder aux éléments existants à partir du [!UICONTROL Favoris] et ajoutez de nouveaux éléments au menu Favoris .
+Vous pouvez accéder aux éléments existants à partir du menu [!UICONTROL Favoris] et ajouter de nouveaux éléments au menu Favoris.
 
 ![Zone Favoris](assets/mobile-favorites-area.png)
 
 ## [!UICONTROL Contacts]
 
-La variable [!UICONTROL Contacts] vous permet d’afficher les coordonnées de tous les utilisateurs de votre société.
+La zone [!UICONTROL Contacts] vous permet de consulter les coordonnées de tous les utilisateurs de votre entreprise.
 
 ![Zone de contacts](assets/mobile-contacts-area.png)
 
 ## [!UICONTROL Configuration]
 
-La variable [!UICONTROL Configuration] permet d’effectuer les opérations suivantes :
+La zone [!UICONTROL Configuration] vous permet d’effectuer les opérations suivantes :
 
 * Gestion des paramètres
 * Afficher les équipes affectées

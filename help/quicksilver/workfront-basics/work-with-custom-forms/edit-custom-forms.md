@@ -2,55 +2,55 @@
 product-area: projects;user-management
 keywords: edit,forms,rich,text,special,format,fields,custom,information,customize,object
 navigation-topic: work-with-custom-forms
-title: Modifier les informations dans les champs de formulaire personnalisés
+title: Modifier les informations dans les champs des formulaires personnalisés
 description: Vous pouvez modifier les informations d’un formulaire personnalisé une fois le formulaire joint à un objet. Pour plus d’informations sur l’ajout de formulaires personnalisés à des objets, voir Ajout d’un formulaire personnalisé à un objet.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 0%
+source-wordcount: '1034'
+ht-degree: 8%
 
 ---
 
-# Modifier les informations dans les champs de formulaire personnalisés
+# Modifier les informations dans les champs des formulaires personnalisés
 
 Vous pouvez modifier les informations d’un formulaire personnalisé une fois le formulaire joint à un objet. Pour plus d’informations sur l’ajout de formulaires personnalisés à des objets, voir [Ajout d’un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Formule Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>Forfait Adobe Workfront*</p> </td> 
    <td>Equipe ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Licences Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>Licences Adobe Workfront*</p> </td> 
    <td> <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Modifier l’accès à l’objet pour lequel vous souhaitez modifier le formulaire personnalisé</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> <p>Modifier l’accès à l’objet pour lequel vous souhaitez modifier le formulaire personnalisé</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice de Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Autorisations d’objet</p> </td> 
    <td> 
     <ul> 
-     <li> <p>Contribuez à l’objet pour lequel vous souhaitez modifier le formulaire personnalisé avec des autorisations supérieures.</p> </li> 
+     <li> <p>Autorisations Contribute ou supérieures sur l’objet pour lequel vous souhaitez modifier le formulaire personnalisé</p> </li> 
      <li>Afficher les autorisations sur les champs que vous souhaitez modifier. Pour plus d’informations sur le partage des autorisations pour les champs personnalisés, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configuration du partage pour les champs et widgets personnalisés</a>.</li> 
      <li> <p>Modifier les autorisations pour les sections du formulaire où se trouvent les champs que vous souhaitez modifier</p> </li> 
-    </ul> <p>Pour plus d’informations sur la demande d’accès supplémentaire aux objets, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+    </ul> <p>Pour plus d'informations sur la demande d'accès supplémentaire aux objets, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d'accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Conditions préalables
 
@@ -69,7 +69,7 @@ La modification des informations d’un formulaire personnalisé associé à un 
    Par exemple, lorsque vous modifiez des informations sur un formulaire personnalisé de projet, cliquez sur **Détails du projet**.
 
 1. Accédez au formulaire personnalisé. Lorsqu’un formulaire personnalisé est associé à l’objet, son nom s’affiche sous la forme d’une zone dans la section Détails.
-1. Si nécessaire, cliquez sur la flèche ![](assets/expand-arrow-right.png) à gauche du nom du formulaire personnalisé pour le développer.
+1. Si nécessaire, cliquez sur la flèche ![](assets/expand-arrow-right.png) située à gauche du nom du formulaire personnalisé pour le développer.
 1. Dans le coin supérieur droit de la page, cliquez sur l’icône Modifier ![](assets/edit-icon.png).
 1. Commencez à saisir des informations dans les champs auxquels vous avez accès.
 
@@ -77,7 +77,7 @@ La modification des informations d’un formulaire personnalisé associé à un 
 
    Ou
 
-   Si aucune information n’a encore été saisie sur le formulaire, cliquez sur **Ajouter+** pour tout champ auquel vous avez accès et commencez à saisir des informations.
+   Si aucune information n’a encore été saisie sur le formulaire, cliquez sur **Ajouter+** pour n’importe quel champ auquel vous avez accès et commencez à saisir des informations.
 
    ![](assets/plus-add-to-edit-info-350x180.png)
 
@@ -101,16 +101,16 @@ La modification des informations d’un formulaire personnalisé associé à un 
    >
    >![](assets/nwe-required-custom-field.png)
 
-   Lorsqu’une personne modifie des données dans un autre objet référencé par des champs personnalisés calculés de votre objet, les modifications ne sont pas répercutées automatiquement dans votre objet. Pour plus d’informations sur la mise à jour manuelle de tous les champs personnalisés calculés de votre objet, voir [Recalculer tous les champs personnalisés calculés d’un objet](#recalculate-all-calculated-custom-fields-for-an-object) dans cet article.
+   Lorsqu’une personne modifie des données dans un autre objet référencé par des champs personnalisés calculés de votre objet, les modifications ne sont pas répercutées automatiquement dans votre objet. Pour plus d&#39;informations sur la mise à jour manuelle de tous les champs personnalisés calculés dans votre objet, voir [Recalculer tous les champs personnalisés calculés pour un objet](#recalculate-all-calculated-custom-fields-for-an-object) dans cet article.
 
    Lorsque des champs dépendants de la page sont modifiés, les champs calculés du formulaire personnalisé sont recalculés dynamiquement en temps réel. Vous pouvez voir la nouvelle valeur du champ calculé sans enregistrer le formulaire, mais elle n’est pas appliquée au formulaire et à l’objet tant que vous n’avez pas enregistré les modifications. Cela s’applique aux champs calculés sur les formulaires par défaut et aux formulaires personnalisés.
 
-   Vous pouvez également mettre à jour manuellement tous les champs personnalisés calculés d’un objet lorsque vous modifiez l’objet en masse avec d’autres objets d’une liste. Pour obtenir des instructions, voir [Recalculer tous les champs personnalisés calculés de plusieurs objets dans une liste lors de la modification des objets](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) dans cet article.
+   Vous pouvez également mettre à jour manuellement tous les champs personnalisés calculés d’un objet lorsque vous modifiez l’objet en masse avec d’autres objets d’une liste. Pour plus d&#39;informations, reportez-vous à la section [Recalculer tous les champs personnalisés calculés pour plusieurs objets dans une liste lors de la modification des objets](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) de cet article.
 
 ## Recalculer tous les champs personnalisés calculés d’un objet  {#recalculate-all-calculated-custom-fields-for-an-object}
 
 1. Accédez à la page principale de l’objet dont vous souhaitez recalculer les champs personnalisés.
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite du nom de l’objet, puis cliquez sur **Recalculer les expressions**.
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) situé à droite du nom de l’objet, puis cliquez sur **Recalculer les expressions**.
 
    Cela recalcule tous les champs personnalisés du formulaire de l’objet.
 
@@ -124,8 +124,8 @@ Vous pouvez recalculer manuellement les champs personnalisés de plusieurs objet
 
 1. Accédez à la liste des objets qui contiennent des formulaires personnalisés avec des champs calculés.
 1. Sélectionnez les objets dont vous souhaitez mettre à jour les champs personnalisés calculés.
-1. Cliquez sur le bouton **Icône Modifier**.
-1. Cliquez sur **Forms personnalisée** dans le menu de gauche, puis sélectionnez **Recalculer des expressions personnalisées**.
+1. Cliquez sur l’icône **Modifier**.
+1. Cliquez sur **Forms personnalisée** dans le menu de gauche, puis sélectionnez **Recalculer les expressions personnalisées**.
 1. Cliquez sur **Enregistrer** **Modifications**.
 
    Workfront calcule tous les champs personnalisés pour tous les objets sélectionnés.
@@ -137,7 +137,7 @@ Vous pouvez recalculer manuellement les champs personnalisés de plusieurs objet
 >Pour recalculer les expressions personnalisées en bloc à partir d’une liste de projets :
 >
 >1. Accédez à une liste de projets ou à un rapport et sélectionnez un ou plusieurs projets.
->1. Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png), puis cliquez sur **Recalculer des expressions personnalisées**.
+>1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis sur **Recalculer les expressions personnalisées**.
 >
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >

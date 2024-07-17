@@ -9,7 +9,7 @@ exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez mettre à jour les informations relatives à des objectifs individue
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -80,14 +80,14 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Mise à jour des objectifs dans la section Détails des objectifs
 
@@ -180,11 +180,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Cliquez sur le nom d’un objectif dans la liste des objectifs, puis sur le nom d’un objectif.
 
-   Cela ouvre la fenêtre **Détails de l’objectif** sur la gauche.
+   Cela ouvre la section **Détails de l’objectif** sur la gauche.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Cliquez sur le bouton **Icône Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit, puis cliquez sur **Tout modifier** ou **Présentation**
+1. Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit, puis sur **Modifier tout** ou **Aperçu**
 
    Ou
 
@@ -196,14 +196,14 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Mettez à jour ou consultez les champs suivants :
 
-   * **Description**: ajoutez ou mettez à jour des informations sur l’objectif.
-   * **Progression**: indique le pourcentage de l’objectif atteint jusqu’à présent. Vous ne pouvez pas mettre à jour manuellement la progression d’un objectif. Le progrès de l&#39;objectif est le calcul de tous les indicateurs de progrès.
-   * **Condition**: indique si l’objectif est nouveau et n’a pas encore été mis à jour, s’il est sur la cible d’être terminé à temps ou s’il est en retard. Vous ne pouvez pas mettre à jour la condition d’un objectif. La condition de l’objectif est automatiquement calculée par Worfront.\
+   * **Description** : ajoutez ou mettez à jour des informations sur l’objectif.
+   * **Progression** : indique le pourcentage de l’objectif atteint jusqu’à présent. Vous ne pouvez pas mettre à jour manuellement la progression d’un objectif. Le progrès de l&#39;objectif est le calcul de tous les indicateurs de progrès.
+   * **Condition** : indique si l’objectif est nouveau et n’a pas encore été mis à jour, s’il doit être terminé à temps sur la cible ou s’il est en retard. Vous ne pouvez pas mettre à jour la condition d’un objectif. La condition de l’objectif est automatiquement calculée par Worfront.\
      Pour plus d’informations sur la condition et la progression de l’objectif, voir
-     [Présentation de la progression et de la condition des objectifs dans les objectifs Adobe Workfront](../goal-management/calculate-goal-progress.md).
-   * **État**: vous ne pouvez pas mettre à jour manuellement l’état d’un objectif. Pour plus d’informations, voir [Présentation de l’état des objectifs dans les objectifs Adobe Workfront](../goal-management/goal-status-overview.md).
-   * **Propriétaire de l’objectif**: cliquez sur pour mettre à jour le nom du propriétaire de l’objectif. Commencez à saisir le nom d’un utilisateur, d’une équipe, d’un groupe ou du nom de votre organisation, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Vous ne pouvez avoir qu&#39;un seul propriétaire pour un objectif.
-   * **Objectif parent**: commencez à saisir le nom d’un objectif que vous souhaitez définir comme parent de l’objectif que vous avez sélectionné. La progression de l’objectif sélectionné met automatiquement à jour la progression de l’objectif parent.
+     [Présentation de la progression et de la condition de l’objectif dans les objectifs Adobe Workfront](../goal-management/calculate-goal-progress.md).
+   * **Status** : vous ne pouvez pas mettre à jour manuellement l’état d’un objectif. Pour plus d’informations, voir [Présentation de l’état des objectifs dans les objectifs Adobe Workfront](../goal-management/goal-status-overview.md).
+   * **Propriétaire de l’objectif** : cliquez pour mettre à jour le nom du propriétaire de l’objectif. Commencez à saisir le nom d’un utilisateur, d’une équipe, d’un groupe ou du nom de votre organisation, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Vous ne pouvez avoir qu&#39;un seul propriétaire pour un objectif.
+   * **Objectif parent** : commencez à saisir le nom d’un objectif que vous souhaitez définir comme parent de l’objectif que vous avez sélectionné. La progression de l’objectif sélectionné met automatiquement à jour la progression de l’objectif parent.
 
      >[!TIP]
      >
@@ -214,9 +214,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
      >      
      >Vous devez mettre à jour ces informations sur l’objectif parent lui-même.
 
-   * **Période**: cliquez sur pour mettre à jour la période de l’objectif.\
+   * **Période** : cliquez pour mettre à jour la période de l’objectif.\
      Ou\
-     Sélectionner **Activation des dates personnalisées** pour spécifier des dates pour le **Début** et **Dates de fin**.
-   * **Notes de fermeture**: ce champ n’est visible que pour les objectifs dont l’état est Fermé. Les objectifs fermés ne peuvent pas être modifiés. La réouverture d’un objectif fermé supprime définitivement les notes de fin.
+     Sélectionnez **Activer les dates personnalisées** pour spécifier des dates pour les **dates de début** et **dates de fin** de l’objectif.
+   * **Notes de fermeture** : ce champ n’est visible que pour les objectifs dont l’état est Fermé. Les objectifs fermés ne peuvent pas être modifiés. La réouverture d’un objectif fermé supprime définitivement les notes de fin.
 
 

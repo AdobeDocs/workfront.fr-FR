@@ -23,7 +23,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 [Présentation des calendriers et des outils marketing pour la planification des campagnes de bout en bout](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) le 28 mars 2024, pour en savoir plus sur les nouvelles fonctionnalités du produit conçues pour vous permettre de gérer et de visualiser les cycles de vie opérationnels de bout en bout.
 
-Vous pouvez également [Affichage d’un fichier de PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} avec les mises en évidence de la version 24.4.
+Vous pouvez également [afficher un fichier de PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} avec les mises en évidence de la version 24.4.
 
 <span class="preview">Les fonctionnalités hors cycle (celles qui sont publiées en production avant la date de version du deuxième trimestre 2024) sont surlignées en jaune.</span>
 

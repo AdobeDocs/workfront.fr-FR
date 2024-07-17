@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # Référencer des formulaires personnalisés dans un rapport
 
-Pour plus d’informations sur la référence à des formulaires personnalisés dans un rapport, voir [Référencer un formulaire personnalisé dans un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).
+Pour plus d’informations sur le référencement de formulaires personnalisés dans un rapport, voir [Référence d’un formulaire personnalisé dans un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).

@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 9 (suite)
+title: Nouveautés de la version 9 de l’API (suite)
 description: Cette liste est la deuxième moitié d'une liste plus grande. La première moitié se trouve dans la section Nouveautés de l’API version 9. Vous trouverez la liste des mises à jour de la version 9 dans Mises à jour de l’API version 9.
 author: Becky
 feature: Workfront API
@@ -9,14 +9,14 @@ role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 20%
+source-wordcount: '153'
+ht-degree: 33%
 
 ---
 
-# Nouveautés de l’API version 9 (suite)
+# Nouveautés de la version 9 de l’API (suite)
 
-Cette liste est la deuxième moitié d&#39;une liste plus grande. La première moitié peut se trouver à l’adresse [Nouveautés de l’API version 9](../../wf-api/api/new-api-version-9.md). Vous trouverez la liste des mises à jour de la version 9 à l’adresse [Mises à jour de l’API version 9](../../wf-api/api/new-api-version-9-updates.md).
+Cette liste est la deuxième moitié d&#39;une liste plus grande. La première moitié se trouve à l’adresse [Nouveautés de l’API version 9](../../wf-api/api/new-api-version-9.md). Vous trouverez la liste des mises à jour de la version 9 à l’adresse [Mises à jour de l’API version 9](../../wf-api/api/new-api-version-9-updates.md).
 
 ## PortalSection
 

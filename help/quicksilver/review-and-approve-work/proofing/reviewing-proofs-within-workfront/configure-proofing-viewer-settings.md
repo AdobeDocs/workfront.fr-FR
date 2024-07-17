@@ -1,19 +1,19 @@
 ---
 product-area: documents;setup
 navigation-topic: review-a-proof
-title: Configuration des paramètres de la visionneuse de vérification
+title: Configurer les paramètres de la visionneuse de relecture
 description: Vous pouvez configurer les paramètres de la visionneuse de vérification de l’intégrité du web et de la visionneuse de vérification de l’intégrité du bureau.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 0%
+source-wordcount: '1406'
+ht-degree: 4%
 
 ---
 
-# Configuration des paramètres de la visionneuse de vérification
+# Configurer les paramètres de la visionneuse de relecture
 
 Vous pouvez configurer les paramètres suivants pour la visionneuse de vérification de l’intégrité Web et la visionneuse de vérification de l’intégrité du bureau :
 
@@ -40,20 +40,20 @@ Vous pouvez configurer les paramètres suivants pour la visionneuse de vérifica
 * Que se passe-t-il lorsque vous cliquez sur un lien défini pour s’ouvrir dans un nouvel onglet ou une nouvelle fenêtre du navigateur ?
 * Effacez les données du cache pouvant être enregistrées avec le BAT que vous affichez afin de permettre l’affichage dans la visionneuse de contenu tel que des fenêtres contextuelles (qui peuvent être bloquées par les données du cache du navigateur).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
@@ -61,46 +61,46 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>Manager ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Accès en modification aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront BAT.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
 
-## Configuration des paramètres de la visionneuse de vérification
+## Configurer les paramètres de la visionneuse de relecture
 
 Pour configurer les paramètres de la visionneuse de vérification :
 
 1. Ouvrez la visionneuse de test Web ou la visionneuse de test de bureau de l’une des manières suivantes :
 
-   * Si vous utilisez le BAT dans Adobe Workfront, accédez à une liste de documents contenant un BAT à afficher, survolez le document avec la souris, puis cliquez sur **BAT ouvert**.
-   * Si vous utilisez le Bon à tirer Workfront, cliquez sur le bouton **Accéder à Bon à tirer** Icône du BAT dans le tableau de bord ou une liste d’affichages ![](assets/go-to-proof-blue-icon.png).
+   * Si vous utilisez le BAT dans Adobe Workfront, accédez à une liste de documents contenant un BAT que vous souhaitez afficher, survolez le document avec la souris, puis cliquez sur **Ouvrir le BAT**.
+   * Si vous utilisez Workfront Proof, cliquez sur l’icône **Atteindre le bon à tirer** pour le BAT dans le tableau de bord ou une liste de vues ![](assets/go-to-proof-blue-icon.png).
 
-1. Si la barre d’outils gauche ne s’affiche pas, cliquez sur le bouton **Menu** , située dans le coin supérieur gauche de la visionneuse de BAT Web.
+1. Si la barre d’outils de gauche ne s’affiche pas, cliquez sur l’icône **Menu** située dans le coin supérieur gauche de la visionneuse de Web Proofing.
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Dans la barre d’outils de gauche, cliquez sur le bouton **Paramètres** icon ![](assets/settings-icon-in-pv.png).
+1. Dans la barre d’outils de gauche, cliquez sur l’icône **Paramètres** ![](assets/settings-icon-in-pv.png) .
 
-1. Configurez l’une des options suivantes : **Paramètres** qui s’affichent.
+1. Configurez les **paramètres** suivants qui s’affichent.
 
    Les paramètres disponibles peuvent varier en fonction du type de BAT ouvert.
 
-   * **Afficher les balises** (toujours disponible dans la visionneuse de BAT et la visionneuse de BAT) : il s’agit des marques de commentaire que les réviseurs ajoutent aux bons à tirer lorsqu’ils utilisent les outils de balisage. Si vous les désactivez, vous pouvez toujours les voir lorsque vous cliquez sur un commentaire dans la liste de commentaires.
+   * **Afficher les annotations** (toujours disponibles dans la visionneuse de tests de performance web et la visionneuse de tests de performance de bureau) : il s’agit des marques de commentaire que les réviseurs ajoutent aux bons à tirer lorsqu’ils utilisent les outils de balisage. Si vous les désactivez, vous pouvez toujours les voir lorsque vous cliquez sur un commentaire dans la liste de commentaires.
 
      Ce paramètre affecte tous les bons à tirer que vous ouvrez.
 
-   * **Afficher les pin** (toujours disponible dans la visionneuse de vérification de l’intégrité web et la visionneuse de vérification de l’intégrité de l’appli de bureau) : il s’agit des pin-Ping numérotés que les réviseurs ajoutent aux bons à tirer lorsqu’ils utilisent les outils de balisage. Ils indiquent où et dans quel ordre le validant a ajouté des commentaires. Si vous les désactivez, vous pouvez toujours les voir lorsque vous cliquez sur un commentaire dans la liste de commentaires.
+   * **Afficher les pin(s)** (toujours disponible dans la visionneuse d’épreuves Web et la visionneuse d’épreuves de bureau) : il s’agit des pin’s numérotés que les réviseurs ajoutent aux BAT lorsqu’ils utilisent les outils de balisage. Ils indiquent où et dans quel ordre le validant a ajouté des commentaires. Si vous les désactivez, vous pouvez toujours les voir lorsque vous cliquez sur un commentaire dans la liste de commentaires.
 
      Ce paramètre affecte tous les bons à tirer que vous ouvrez.
 
-   * **Utilisation d’outils de balisage étendus** (toujours disponible dans la visionneuse de vérification de l’intégrité web et la visionneuse de vérification de l’intégrité du bureau) : par défaut, les options de l’outil de balisage s’affichent en haut de la visionneuse de vérification de l’intégrité. Vous pouvez les configurer pour qu’ils s’affichent dans un menu vertical qui s’ouvre uniquement lorsque vous cliquez dessus.
+   * **Utilisez des outils de balisage développés** (toujours disponibles dans la visionneuse de vérification de l’orthographe web et la visionneuse de vérification de l’orthographe sur ordinateur) : par défaut, les options de l’outil de balisage s’affichent en haut de la visionneuse de vérification. Vous pouvez les configurer pour qu’ils s’affichent dans un menu vertical qui s’ouvre uniquement lorsque vous cliquez dessus.
 
      Ce paramètre est appliqué à tous les bons à tirer que vous ouvrez.
 
-   * **M’envoyer des notifications par e-mail sur** (toujours disponible dans la visionneuse de vérification de l’intégrité Web et la visionneuse de vérification de l’intégrité de l’appli de bureau) : cliquez sur l’une des options ci-dessous. Ce paramètre affecte uniquement le bon à tirer ouvert. Pour plus d’informations, voir [Présentation des notifications pour les commentaires de BAT et les décisions](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **Envoyez-moi des notifications par e-mail à propos de** (toujours disponible dans la visionneuse de test Web et la visionneuse de test de l’appli de bureau) : cliquez sur l’une des options ci-dessous. Ce paramètre affecte uniquement le bon à tirer ouvert. Pour plus d’informations, voir [Notifications pour les commentaires de BAT et la présentation des décisions](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
      <table style="table-layout:auto"> 
       <col> 
@@ -112,7 +112,7 @@ Pour configurer les paramètres de la visionneuse de vérification :
        </tr> 
        <tr> 
         <td role="rowheader">Réponses à mes commentaires</td> 
-        <td>Un email n'est envoyé au validant que si quelqu'un répond explicitement à son commentaire (cela exclut ses propres réponses sur ses propres commentaires). Cela signifie que si quelqu'un sur le BAT fait un nouveau commentaire, le validant n'en est pas informé.<p>Ce paramètre est recommandé pour vos clients sur le BAT afin qu’ils ne soient pas informés des autres commentaires sur le BAT et qu’ils ne soient informés que des réponses à leurs propres commentaires.</p><p>Bien que les réviseurs avec ce paramètre d’alerte par e-mail ne soient pas informés des autres nouveaux commentaires, ils peuvent toujours afficher tous les commentaires sur le BAT dans la visionneuse de vérification.</p><p>Pour plus d’informations sur les commentaires, voir <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Afficher et répondre aux commentaires du BAT</a>.</p></td> 
+        <td>Un email n'est envoyé au validant que si quelqu'un répond explicitement à son commentaire (cela exclut ses propres réponses sur ses propres commentaires). Cela signifie que si quelqu'un sur le BAT fait un nouveau commentaire, le validant n'en est pas informé.<p>Ce paramètre est recommandé pour vos clients sur le BAT afin qu’ils ne soient pas informés des autres commentaires sur le BAT et qu’ils ne soient informés que des réponses à leurs propres commentaires.</p><p>Bien que les réviseurs avec ce paramètre d’alerte par e-mail ne soient pas informés des autres nouveaux commentaires, ils peuvent toujours afficher tous les commentaires sur le BAT dans la visionneuse de vérification.</p><p>Pour plus d’informations sur les commentaires, voir <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Affichage et réponse aux commentaires du BAT</a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Décisions</td> 
@@ -168,7 +168,7 @@ Pour configurer les paramètres de la visionneuse de vérification :
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>   
      -->
 
-   * **Effacer le cache**: efface les données du cache du navigateur qui peuvent être enregistrées avec un BAT interactif que vous affichez. Cela permet à un contenu tel que des fenêtres contextuelles (qui peuvent être bloquées par les données du cache du navigateur) de s’afficher dans la visionneuse de vérification de l’appli de bureau.
+   * **Effacer le cache** : efface les données du cache du navigateur qui peuvent être enregistrées avec un BAT interactif que vous affichez. Cela permet à un contenu tel que des fenêtres contextuelles (qui peuvent être bloquées par les données du cache du navigateur) de s’afficher dans la visionneuse de vérification de l’appli de bureau.
 
      Les données effacées comprennent le cache HTTP (par exemple les images à réutiliser après l’actualisation de la page suivante) et le cache de données de stockage Web (comme les cookies et les données qui identifient les utilisateurs).
 

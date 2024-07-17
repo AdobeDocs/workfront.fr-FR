@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Partage d’un BAT à partir de la visionneuse de vérification
+title: Partager une épreuve à partir de la visionneuse de relecture
 description: Vous pouvez partager un BAT à partir de la visionneuse de vérification si le partage est activé par le propriétaire ou le créateur du BAT.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 0%
+source-wordcount: '1501'
+ht-degree: 4%
 
 ---
 
-# Partage d’un BAT à partir de la visionneuse de vérification
+# Partager une épreuve à partir de la visionneuse de relecture
 
 Vous pouvez partager un BAT à partir de la visionneuse de vérification si le partage est activé par le propriétaire ou le créateur du BAT.
 
@@ -21,64 +21,64 @@ Vous pouvez partager un BAT à partir de la visionneuse de vérification si le p
 >
 >Le paramètre Autoriser le partage du BAT via une URL publique ou le code incorporé doit être activé.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionner ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
    <td>Manager ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Accès en modification aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront BAT.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
 
 ## Partage de l’URL
 
-Vous pouvez partager un BAT via une URL si le propriétaire a configuré le BAT pour le partage. Les propriétaires de BAT peuvent mettre à jour les paramètres de partage à tout moment. Pour plus d’informations, voir [Modification des paramètres du BAT](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+Vous pouvez partager un BAT via une URL si le propriétaire a configuré le BAT pour le partage. Les propriétaires de BAT peuvent mettre à jour les paramètres de partage à tout moment. Pour plus d’informations, voir [Modifier les paramètres du BAT](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
-1. Si le menu de l’icône de gauche n’est pas affiché, cliquez sur le bouton **Menu** dans le coin supérieur gauche de la visionneuse de vérification.
+1. Si le menu de l’icône de gauche n’est pas affiché, cliquez sur l’icône **Menu** dans le coin supérieur gauche de la visionneuse de vérification.
 
    ![](assets/menu-icon-in-proofing-viewer-350x188.png)
 
-1. Dans le menu d’icône de gauche de la visionneuse de vérification, cliquez sur le bouton **Partager** icône .
+1. Dans le menu d’icône de gauche de la visionneuse de vérification, cliquez sur l’icône **Partager** .
 
    ![Share_btn_in_viewer.png](assets/share-btn-in-viewer.png)
 
-1. Dans le **Partager le BAT** options qui s’affichent, veillez à **Obtenir un lien partageable** est sélectionnée.
+1. Dans les options **Partager le BAT** qui s&#39;affichent, assurez-vous que l&#39;option **Obtenir le lien partageable** est sélectionnée.
 
 1.  Effectuez l’une des opérations suivantes :
 
    * Pour copier le lien dans le presse-papiers, cliquez sur **Copier le lien**.
 
-      Vous pouvez désormais diffuser le lien par le biais d&#39;un outil tiers, tel qu&#39;une messagerie instantanée ou une application de messagerie.
+     Vous pouvez désormais diffuser le lien par le biais d&#39;un outil tiers, tel qu&#39;une messagerie instantanée ou une application de messagerie.
 
    * Pour envoyer le lien directement par courrier électronique à partir d’Adobe Workfront, procédez comme suit :
 
-      1. Dans le **Ou lien de courrier électronique vers** , commencez à taper et sélectionnez le nom de votre destinataire. Vous pouvez également spécifier l’adresse électronique d’un utilisateur externe avec lequel vous souhaitez effectuer un partage.
+      1. Dans le champ **Ou lien d&#39;email vers** , commencez à saisir le nom de votre destinataire et sélectionnez-le. Vous pouvez également spécifier l’adresse électronique d’un utilisateur externe avec lequel vous souhaitez effectuer un partage.
 
          >[!NOTE]
          >
          >Si vous voyez un email d’alias lors du partage d’un BAT, ne créez pas un nouvel utilisateur invité en saisissant l’email d’origine s’il existe un email d’alias correspondant.
 
-      1. Sélectionnez l’une des options suivantes :
+      1. Sélectionnez l’une des options suivantes :
 
          <table style="table-layout:auto">
           <col>
@@ -86,7 +86,7 @@ Vous pouvez partager un BAT via une URL si le propriétaire a configuré le BAT 
           <tbody>
            <tr>
             <td role="rowheader">Envoyer le lien public</td>
-            <td><p>Inclut un bouton dans la notification électronique qui dirige les utilisateurs vers le BAT dans la visionneuse de vérification qu’ils utilisent et leur accorde l’accès en mode Vue.</p><p>If <strong>Abonnez-vous au BAT via une URL publique ou un code intégré</strong> est désactivée pour le BAT, les utilisateurs peuvent se connecter à l’aide de leurs identifiants de connexion Workfront pour ajouter des commentaires au BAT. Si elle est activée, toute personne fournissant son adresse électronique et son nom (aucun mot de passe requis) peut signer et ajouter des commentaires au BAT.</p></td>
+            <td><p>Inclut un bouton dans la notification électronique qui dirige les utilisateurs vers le BAT dans la visionneuse de vérification qu’ils utilisent et leur accorde l’accès en mode Vue.</p><p>Si <strong>S’abonner au BAT par le biais d’une URL publique ou du code incorporé</strong> est désactivé pour le BAT, les utilisateurs peuvent se connecter à l’aide de leurs informations d’identification de connexion Workfront pour ajouter des commentaires au BAT. Si elle est activée, toute personne fournissant son adresse électronique et son nom (aucun mot de passe requis) peut signer et ajouter des commentaires au BAT.</p></td>
            </tr>
            <tr>
             <td role="rowheader">Envoyer le lien de téléchargement</td>
@@ -111,11 +111,11 @@ Vous pouvez partager un BAT via un code incorporé si le propriétaire du BAT l�
 
 Pour partager un BAT via le code incorporé :
 
-1. Dans la barre d’outils située à gauche de la visionneuse de vérification, cliquez sur le bouton **Partager** icône .
+1. Dans la barre d’outils située à gauche de la visionneuse de vérification, cliquez sur l’icône **Partager** .
 
    ![Share_btn_in_viewer__1_.png](assets/share-btn-in-viewer--1-.png)
 
-1. Dans le **Partager le BAT** options qui s’affichent, cliquez sur **Obtention du code incorporé**, puis cliquez sur **Copier**.
+1. Dans les options **Partager le BAT** qui s’affichent, cliquez sur **Obtenir le code incorporé**, puis sur **Copier**.
 
 ## Partager un BAT en y ajoutant des utilisateurs
 
@@ -125,33 +125,33 @@ Vous pouvez ajouter des utilisateurs à un BAT lors de la révision d’un BAT s
 * Autorisations de gestionnaire et vous êtes le créateur ou le propriétaire du BAT.
 * Autorisations de gestionnaire avec le rôle de BAT de l’auteur ou du modérateur
 
-Si le BAT comporte un workflow automatisé, vous pouvez ajouter l’utilisateur à une étape individuelle. Pour plus d’informations, voir [Présentation des processus automatisés](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Si le BAT comporte un workflow automatisé, vous pouvez ajouter l’utilisateur à une étape individuelle. Pour plus d’informations, voir [Présentation du processus automatisé](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 Par défaut, les utilisateurs que vous ajoutez au BAT :
 
 * Recevez une notification par email avec un lien vers le BAT.
-* peuvent prendre des décisions d’approbation sur le BAT à partir de la zone Accueil ou Mon travail, comme décrit dans la section [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Peut prendre des décisions d’approbation sur le BAT depuis la zone Accueil ou Mon travail, comme décrit dans la section [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * Pour pouvoir passer en revue le BAT, il n’est pas nécessaire d’activer la vérification.
 
-Lorsque le processus automatisé est activé et que vous ajoutez un utilisateur au BAT pour lequel la vérification n’est pas activée dans Workfront, une nouvelle étape est créée dans le processus automatisé. L’utilisateur que vous ajoutez est automatiquement ajouté à cette nouvelle étape lorsqu’il visualise le BAT pour la première fois. Pour plus d’informations, voir [Présentation des processus automatisés](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Lorsque le processus automatisé est activé et que vous ajoutez un utilisateur au BAT pour lequel la vérification n’est pas activée dans Workfront, une nouvelle étape est créée dans le processus automatisé. L’utilisateur que vous ajoutez est automatiquement ajouté à cette nouvelle étape lorsqu’il visualise le BAT pour la première fois. Pour plus d’informations, voir [Présentation du processus automatisé](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 Pour partager un BAT avec des utilisateurs individuels :
 
-1. Dans la barre d’outils située à gauche de la visionneuse de vérification, cliquez sur le bouton **Partager** icône .
+1. Dans la barre d’outils située à gauche de la visionneuse de vérification, cliquez sur l’icône **Partager** .
 
    ![Share_btn_in_viewer__2_.png](assets/share-btn-in-viewer--2-.png)
 
-1. Cliquez sur **Ajouter des destinataires** dans la liste à gauche.
-1. Sous **Nouveaux destinataires de BAT**, commencez à saisir le nom d’un utilisateur avec lequel vous souhaitez partager le BAT, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Cliquez sur **Ajouter des destinataires** dans la liste de gauche.
+1. Sous **Nouveaux destinataires de BAT**, commencez à saisir le nom d’un utilisateur avec lequel vous souhaitez partager le BAT, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 1. (Facultatif) Modifiez toutes les options de réviseur à droite du nom de la personne :
 
-   * **Rôle BAT**: Pour plus d’informations, voir [Gestion des rôles de BAT dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   * **Rôle BAT** : pour plus d’informations, voir [Gestion des rôles BAT dans Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-   * **Évaluation**: (Disponible uniquement si le BAT comporte un workflow automatisé). Pour plus d’informations, voir  [Présentation des étapes de workflow automatisées](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+   * **Stage** : (disponible uniquement si le BAT possède un workflow automatisé). Pour plus d’informations, voir  [Présentation des étapes de workflow automatisées](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 
-   * **Alertes par email**: sélectionnez l’une des options suivantes pour indiquer comment la personne sera informée de l’activité sur le BAT.
+   * **Alertes par e-mail** : sélectionnez l’une des options suivantes pour indiquer comment la personne sera informée de l’activité sur le BAT.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -161,7 +161,7 @@ Pour partager un BAT avec des utilisateurs individuels :
        </tr> 
        <tr> 
         <td role="rowheader">Réponses à mes commentaires</td> 
-        <td>Un email n'est envoyé au validant que si quelqu'un répond explicitement à son commentaire (cela exclut ses propres réponses sur ses propres commentaires). Cela signifie que si quelqu'un sur le BAT fait un nouveau commentaire, le validant n'en est pas informé.<p>Ce paramètre est recommandé pour vos clients sur le BAT afin qu’ils ne soient pas informés des autres commentaires sur le BAT et qu’ils ne soient informés que des réponses à leurs propres commentaires.</p><p>Bien que les réviseurs avec ce paramètre d’alerte par e-mail ne soient pas informés des autres nouveaux commentaires, ils peuvent toujours afficher tous les commentaires sur le BAT dans la visionneuse de vérification.</p><p>Pour plus d’informations sur les commentaires, voir <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Afficher et répondre aux commentaires du BAT</a>.</p></td> 
+        <td>Un email n'est envoyé au validant que si quelqu'un répond explicitement à son commentaire (cela exclut ses propres réponses sur ses propres commentaires). Cela signifie que si quelqu'un sur le BAT fait un nouveau commentaire, le validant n'en est pas informé.<p>Ce paramètre est recommandé pour vos clients sur le BAT afin qu’ils ne soient pas informés des autres commentaires sur le BAT et qu’ils ne soient informés que des réponses à leurs propres commentaires.</p><p>Bien que les réviseurs avec ce paramètre d’alerte par e-mail ne soient pas informés des autres nouveaux commentaires, ils peuvent toujours afficher tous les commentaires sur le BAT dans la visionneuse de vérification.</p><p>Pour plus d’informations sur les commentaires, voir <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Affichage et réponse aux commentaires du BAT</a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Décisions</td> 
@@ -181,12 +181,12 @@ Pour partager un BAT avec des utilisateurs individuels :
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">Aucun email</td> 
-        <td>Workfront n’envoie aucune alerte par courrier électronique.<br>Cela s’avère utile pour une personne qui n’est ajoutée à un BAT qu’à titre de référence et qui n’a pas besoin d’être informée des modifications.<p>La valeur par défaut du système est Résumé quotidien (également appelé Non défini). Si vous, ou vos réviseurs, n’effectuez aucune autre modification, tous vos BAT disposent de ce paramètre.</p></td> 
+        <td>Workfront n’envoie aucune alerte par courrier électronique.<br>Cela s’avère utile pour une personne qui n’est ajoutée à un BAT qu’à titre de référence et qui n’a pas besoin d’être informée des modifications.<p>La valeur par défaut du système est Résumé quotidien (également appelé Non défini). Si vous ou vos réviseurs n’effectuez aucune autre modification, tous vos BAT disposent de ce paramètre.</p></td> 
        </tr> 
       </tbody> 
      </table>
 
 1. (Facultatif) Répétez les deux étapes précédentes pour ajouter plusieurs utilisateurs au BAT. 
-1. (Facultatif) Définissez une **Deadline** pour les opérateurs validants (disponible uniquement si le BAT ne dispose pas d&#39;un workflow automatisé).
-1. (Facultatif) Sélectionnez **Envoyer une notification électronique aux nouveaux destinataires** pour leur faire savoir que vous les avez ajoutées au BAT.
-1. Lorsque vous avez terminé d’ajouter des utilisateurs au BAT, cliquez sur **C&#39;est fait.**
+1. (Facultatif) Définissez un **délai** pour les réviseurs (disponible uniquement si le BAT ne comporte pas de workflow automatisé).
+1. (Facultatif) Sélectionnez **Envoyer une notification électronique aux nouveaux destinataires** pour leur faire savoir que vous les avez ajoutés au BAT.
+1. Lorsque vous avez terminé d’ajouter des utilisateurs au BAT, cliquez sur **Terminé.**

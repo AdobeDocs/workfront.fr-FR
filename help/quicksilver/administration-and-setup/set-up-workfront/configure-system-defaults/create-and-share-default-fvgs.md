@@ -11,7 +11,7 @@ exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -25,9 +25,9 @@ Vous pouvez créer des filtres, des vues et des regroupements par défaut, puis 
 
 Lorsque vous créez des filtres, des vues et des regroupements par défaut comme décrit dans cet article, les utilisateurs avec qui vous les partagez peuvent les exploiter lors de l’affichage de leurs listes. Les utilisateurs peuvent créer leurs propres filtres, vues et regroupements en fonction de ceux que vous créez, mais ils ne peuvent pas modifier directement ceux que vous créez.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,15 +35,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Quelconque</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Vous devez être un [!DNL Workfront] administrateur.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez [!DNL Workfront] s’ils définissent des restrictions supplémentaires au niveau de votre accès. Pour plus d’informations sur la manière dont une [!DNL Workfront] l’administrateur peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront].</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,13 +58,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    * Cliquez sur **[!UICONTROL Interface] >** **[!UICONTROL Vues]**.
 
-   * Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Groupements]**.
+   * Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**.
 
-1. Si vous créez un filtre, une vue ou un regroupement, cliquez sur **[!UICONTROL Ajouter un filtre]**, **[!UICONTROL Ajouter une vue]**, ou **[!UICONTROL Ajouter un groupement]**, puis sélectionnez le type d’objet auquel vous souhaitez associer le nouveau filtre, la nouvelle vue ou le nouveau regroupement.
+1. Si vous créez un filtre, une vue ou un groupement, cliquez sur **[!UICONTROL Ajouter un filtre]**, **[!UICONTROL Ajouter une vue]** ou **[!UICONTROL Ajouter un groupement]**, puis sélectionnez le type d&#39;objet auquel vous souhaitez associer le nouveau filtre, la nouvelle vue ou le nouveau regroupement.
 
    Ou
 
-   Si vous modifiez un filtre, une vue ou un regroupement existant, sélectionnez-le, puis cliquez sur le bouton **[!UICONTROL Modifier]** icon ![Icône Modifier](assets/edit-icon.png).
+   Si vous modifiez un filtre, une vue ou un groupement existant, sélectionnez-le, puis cliquez sur l’icône **[!UICONTROL Modifier]** ![Icône Modifier](assets/edit-icon.png).
 
 1. Configurez le filtre, l’affichage ou le regroupement.
 
@@ -76,7 +76,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** près du coin inférieur gauche.
 
-Vous pouvez rendre le filtre, l’affichage ou le regroupement disponibles pour les utilisateurs de votre système. Pour plus d’informations sur le partage de filtres, vues ou groupes avec d’autres utilisateurs, consultez la section . [Mettre les filtres, les vues ou les groupes à la disposition des utilisateurs](#make-filters-views-or-groupings-available-to-users) dans cet article.
+Vous pouvez rendre le filtre, l’affichage ou le regroupement disponibles pour les utilisateurs de votre système. Pour plus d’informations sur le partage de filtres, vues ou regroupements avec d’autres utilisateurs, consultez la section [ Mise à disposition de filtres, vues ou regroupements pour les utilisateurs](#make-filters-views-or-groupings-available-to-users) de cet article.
 
 
 ## Afficher ou masquer les filtres, les vues ou les regroupements disponibles à partir du modèle de mise en page
@@ -89,9 +89,9 @@ Vous pouvez choisir d’afficher ou de masquer des filtres, des vues ou des grou
 
 Pour afficher ou masquer les filtres, les vues ou les regroupements disponibles à partir du modèle de mise en page :
 
-1. Cliquez sur **[!UICONTROL Interface]**, puis cliquez sur l’une des options suivantes : **[!UICONTROL Filtres]**, **[!UICONTROL Vues]**, ou **[!UICONTROL Groupements]**.
+1. Cliquez sur **[!UICONTROL Interface]**, puis sur l’une des options suivantes : **[!UICONTROL Filtres]**, **[!UICONTROL Vues]** ou **[!UICONTROL Groupes]**.
 
-1. (Conditionnel) Sélectionnez le filtre, l’affichage ou le regroupement que vous souhaitez rendre disponible aux utilisateurs, puis cliquez sur **[!UICONTROL Activation à l’échelle du système]**.
+1. (Conditionnel) Sélectionnez le filtre, l’affichage ou le regroupement que vous souhaitez rendre disponible pour les utilisateurs, puis cliquez sur **[!UICONTROL Activer à l’échelle du système]**.
 
    ![](assets/enable-system-wide-fvg.png)
 
@@ -104,14 +104,14 @@ Pour afficher ou masquer les filtres, les vues ou les regroupements disponibles 
 
 ## Mettre les filtres, vues ou groupes à la disposition de tous les utilisateurs {#make-filters-views-or-groupings-available-to-users}
 
-Ces étapes expliquent comment rendre des filtres, des vues et des regroupements disponibles à partir de la variable [!UICONTROL Partager] dans la boîte de dialogue [!UICONTROL Interface] area dans [!UICONTROL Configuration]. Ce paramètre fonctionne comme un commutateur activé/désactivé pour l’ensemble du système, y compris le modèle de mise en page.
+Ces étapes expliquent comment rendre des filtres, des vues et des regroupements disponibles à partir de la boîte de dialogue [!UICONTROL Partager] dans la zone [!UICONTROL Interface] de [!UICONTROL Configuration]. Ce paramètre fonctionne comme un commutateur activé/désactivé pour l’ensemble du système, y compris le modèle de mise en page.
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Interface]**, puis cliquez sur l’une des options suivantes : **[!UICONTROL Filtres]**, **[!UICONTROL Vues]**, ou **[!UICONTROL Groupements]**.
+1. Cliquez sur **[!UICONTROL Interface]**, puis sur l’une des options suivantes : **[!UICONTROL Filtres]**, **[!UICONTROL Vues]** ou **[!UICONTROL Groupes]**.
 
-1. Sélectionnez le filtre, l’affichage ou le regroupement que vous souhaitez mettre à la disposition des utilisateurs, puis cliquez sur le bouton **[!UICONTROL Partager]** icon ![Icône Partager](assets/share-icon.png) pour ouvrir le [!UICONTROL Accès aux filtres], [!UICONTROL Afficher l’accès], ou [!UICONTROL Accès de groupement] formulaire.
-1. (Conditionnel) Pour mettre le filtre, l’affichage ou le regroupement à la disposition de tous les utilisateurs du système, cliquez sur le bouton **[!UICONTROL Gear]** menu déroulant ![](assets/gear-menu-for-sharing-items.png), puis cliquez sur **[!UICONTROL rendre visible à l’échelle du système ;]**. Tous les utilisateurs du système peuvent désormais afficher le filtre, l’affichage ou le regroupement.
+1. Sélectionnez le filtre, l’affichage ou le regroupement que vous souhaitez mettre à la disposition des utilisateurs, puis cliquez sur l’icône **[!UICONTROL Partager]** ![Icône Partager](assets/share-icon.png) pour ouvrir le formulaire [!UICONTROL Accès aux filtres], [!UICONTROL Accès aux vues] ou [!UICONTROL Accès aux groupes].
+1. (Conditionnel) Pour rendre le filtre, l’affichage ou le regroupement disponible pour tous les utilisateurs du système, cliquez sur le menu déroulant **[!UICONTROL Gear]** ![](assets/gear-menu-for-sharing-items.png), puis cliquez sur **[!UICONTROL Rendre ce filtre visible à l’échelle du système]**. Tous les utilisateurs du système peuvent désormais afficher le filtre, l’affichage ou le regroupement.
 
    Ou
 
@@ -133,9 +133,9 @@ Ces étapes expliquent comment rendre des filtres, des vues et des regroupements
 
    * Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Vues]**
 
-   * Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Groupements]**
+   * Cliquez sur **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**
 
-1. Sélectionnez un ou plusieurs éléments de la liste, puis cliquez sur le bouton **[!UICONTROL Supprimer]** icon ![Icône Supprimer](assets/delete.png).
+1. Sélectionnez un ou plusieurs éléments dans la liste, puis cliquez sur l’icône **[!UICONTROL Supprimer]** ![Icône Supprimer](assets/delete.png).
 1. Consultez l’un des articles suivants pour plus d’informations sur la configuration d’un filtre, d’une vue ou d’un regroupement.
 
    * [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)

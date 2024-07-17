@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 2020.2 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 mai 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.2, voir [Présentation de la version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.2, consultez la [présentation de la version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 Les personnes sont une ressource de niveau 1. Avec l’équilibreur de charge de travail, vous pouvez les protéger contre le épuisement et leur permettre de faire de leur mieux, tout en les alignant sur les stratégies d’entreprise clés. Présentation d’une expérience de planification repensée qui vous permet de visualiser et de gérer les charges de travail et la demande des personnes dans la même vue. L’interface utilisateur fournit une cartographie visuelle claire de la surutilisation et de la sous-utilisation et est transparente pour toutes les parties prenantes. Les gestionnaires de personnes peuvent utiliser ces informations comme entrée et, à partir du même écran, rééquilibrer l’effort par le biais de la chronologie, qui est ensuite répercutée dans le reste de la plateforme Workfront.
 
@@ -64,7 +64,7 @@ Pour plus d’informations sur le filtrage dans l’équilibreur de charge de tr
 
 Pour vous aider à prendre des décisions d’affectation correctes, un nouveau paramètre vous permet désormais d’afficher la différence d’heures entre les heures qu’un utilisateur est disponible pour travailler selon son planning et les heures qu’il a déjà été affecté au travail (les heures restantes). Le nouveau paramètre est désormais disponible dans l’équilibreur de charge de travail.
 
-Pour plus d’informations sur l’affichage des informations dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou si vous utilisez Adobe Workfront Classic, voir [Navigation dans l’équilibreur de charge de travail](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+Pour plus d’informations sur l’affichage des informations dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou si vous utilisez Adobe Workfront Classic, voir [Navigation dans l’équilibreur de charge de travail](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **Disponible dans ces environnements :**
 
@@ -76,7 +76,7 @@ Pour vous aider à comprendre l’impact des tâches sur la charge de travail de
 
 Avant cette modification, ce paramètre ne mettait à jour que les informations de la zone Travail affecté de l’équilibreur.
 
-Pour plus d’informations sur la navigation dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou si vous utilisez Adobe Workfront Classic, voir [Navigation dans l’équilibreur de charge de travail](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+Pour plus d’informations sur la navigation dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou si vous utilisez Adobe Workfront Classic, voir [Navigation dans l’équilibreur de charge de travail](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **Disponible dans ces environnements :**
 
@@ -90,14 +90,14 @@ Pour simplifier votre expérience, une boîte Paramètres affiche désormais des
 * Regrouper par projet
 * Affichez les heures affectées ou les heures restantes pour vos tâches et projets.
 
-Pour plus d’informations sur l’affichage des informations dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou si vous utilisez Adobe Workfront Classic, voir [Navigation dans l’équilibreur de charge de travail](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+Pour plus d’informations sur l’affichage des informations dans l’équilibreur de charge de travail, voir [Navigation dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou si vous utilisez Adobe Workfront Classic, voir [Navigation dans l’équilibreur de charge de travail](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
 **Disponible dans ces environnements :**
 
 * Adobe Workfront Classic
 * Nouvelle expérience Adobe Workfront
 
-## Partage de l’équilibreur de charge de travail avec un lien
+## Partager l’équilibreur de charge de travail avec un lien
 
 Vous pouvez maintenant partager la charge de travail de vos employés avec les cadres afin qu&#39;ils puissent avoir un contexte sur vos besoins en personnel. Pour ce faire, vous pouvez maintenant partager l’équilibreur de charge de travail en partageant une URL unique avec l’équilibreur de charge de travail avec n’importe qui d’autre.
 
@@ -133,7 +133,7 @@ Pour plus d’informations sur le déplacement des tâches, voir [Déplacer les 
 
 Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (ou si vous utilisez Adobe Workfront Classic, voir [Copier et dupliquer des tâches](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
 
-Pour une présentation de toutes les contraintes de tâche, voir [Présentation de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou si vous utilisez Adobe Workfront Classic, voir [Présentation de la contrainte de tâche](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Pour obtenir un aperçu de toutes les contraintes de tâche, consultez la [présentation de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou si vous utilisez Adobe Workfront Classic, consultez la [présentation de la contrainte de tâche](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
 **Disponible dans ces environnements :**
 
@@ -144,7 +144,7 @@ Pour une présentation de toutes les contraintes de tâche, voir [Présentation 
 
 Pour éviter toute perte de données lorsque vous mettez à jour les informations de la page Détails sur un objet ou des tâches dans une liste de tâches au niveau du projet lors de l’enregistrement manuel des modifications, un message d’avertissement s’affiche maintenant pour vous informer que vous avez enregistré des modifications avant de tenter de modifier les informations dans l’en-tête. Les seules actions autorisées avant d’enregistrer vos modifications sont l’abonnement ou l’ajout de l’objet à vos favoris.
 
-Pour plus d’informations sur la modification des tâches dans une liste, voir [Editer les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+Pour plus d’informations sur l’édition de tâches dans une liste, voir [Modifier les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 
 **Disponible dans ces environnements :**
 
@@ -161,7 +161,7 @@ Les états personnalisés peuvent désormais être utilisés dans les processus 
 * Créez un processus d’approbation à usage unique pour un objet (projet, tâche ou problème) et basez-le sur les états associés au groupe travaillant sur cet objet. Cela inclut tous les états personnalisés associés au groupe.
 * Créez un processus d’approbation globale et rendez-le disponible uniquement pour le groupe ou pour toutes les personnes du système.
 
-Pour les utilisateurs disposant d’un accès administratif aux processus de validation, des informations sur la configuration des processus de validation sont disponibles dans [Créer un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (ou si vous utilisez Adobe Workfront Classic, voir [Création de processus de validation](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Pour les utilisateurs disposant d’un accès administratif aux processus d’approbation, des informations sur la configuration des processus d’approbation sont disponibles dans la section [Création d’un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (ou si vous utilisez Adobe Workfront Classic, reportez-vous à la section [Création de processus d’approbation](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
 Pour les utilisateurs, des informations sur l’association des processus d’approbation aux tâches sont disponibles dans [Associer un processus d’approbation nouveau ou existant au travail](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (ou si vous utilisez Adobe Workfront Classic, voir [Association d’un processus d’approbation nouveau ou existant à un travail](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 

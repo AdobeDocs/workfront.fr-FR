@@ -1,6 +1,6 @@
 ---
-title: 23.2 Autres améliorations
-description: 23.2 Autres améliorations
+title: Autres améliorations (version 23.2)
+description: Autres améliorations (version 23.2)
 author: Courtney
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# 23.2 Autres améliorations
+# Autres améliorations (version 23.2)
 
-Cette page décrit toutes les autres améliorations apportées à la version 23.2 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version 23.2.
+Cette page décrit toutes les autres améliorations apportées à la version 23.2 de l’environnement Aperçu. Ces améliorations seront mises à disposition dans l’environnement de production avec la version 23.2.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.2, voir [Présentation de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version 23.2, voir l’article [Vue d’ensemble de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Nouveaux modules externes Workfront for Creative Cloud
 
@@ -26,9 +26,9 @@ Nous avons ajouté les modifications suivantes aux modules externes Workfront fo
 * Le module externe vous avertit désormais lorsqu’une tâche possède un prédécesseur
 * Le coréen est désormais une langue prise en charge
 
-## Nouvelle expérience de commentaires pour les problèmes bêta
+## Nouvelle expérience de commentaires pour les problèmes Beta
 
-Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets.
+Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets.
 
 Cette nouvelle expérience finira par unifier les commentaires dans Adobe Workfront et au-delà, dans Adobe Experience Cloud.
 
@@ -52,16 +52,16 @@ D’autres fonctionnalités seront ajoutées dans les prochaines versions, car c
 
 Pour plus d’informations sur les offres de la nouvelle expérience de commentaire, voir [Nouvelle expérience de commentaire](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3416962/){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Exportation des tableaux de bord en tant que PDF unique ou fichiers de PDF multiples dans Adobe Workfront pour XD
 
 Dans le module externe Adobe Workfront for XD, vous pouvez désormais choisir d’exporter vos tableaux de bord sous la forme d’un seul fichier de PDF ou de plusieurs fichiers de PDF.
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d’informations, consultez les articles suivants :
 
-* [Télécharger [!DNL XD] panoramas d’art en tant que documents [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [Télécharger [!DNL XD] panoramas d’art en tant que bons à tirer [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [Télécharger [!DNL XD] des panoramas d&#39;art en tant que documents vers [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [Télécharger les  [!DNL XD] panoramas d&#39;art en tant que bons à tirer vers [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
 ## Nouveaux clients Net à intégrer pour Adobe Unified Experience
 
@@ -75,9 +75,9 @@ L’expérience unifiée Adobe comprend :
 * Sélecteur d’organisation à déplacer entre les organisations et les environnements Workfront
 * Navigation avec options pour les pages Workfront, les préférences Adobe Experience Cloud et votre profil Workfront
 
-Pour plus d’informations, voir [Adobe d’une expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## La visionneuse de vérification s’ouvre dans un nouvel onglet pour les utilisateurs de l’expérience unifiée.
 

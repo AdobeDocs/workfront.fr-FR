@@ -38,7 +38,7 @@ Actuellement, les utilisateurs ne peuvent pas voir le widget dans les zones suiv
 * La zone Modifier de l’objet, s’il ne présente pas l’apparence de la nouvelle expérience Adobe Workfront (par exemple, la zone Modifier les dépenses)
 * &#x200B; l’application mobile Workfront
 
-Pour plus d’informations sur l’ajout de widgets à des formulaires personnalisés, voir [Ajout ou modification d’une image ou d’un autre widget de ressource dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Pour plus d’informations sur l’ajout de widgets aux formulaires personnalisés, voir [Ajout ou modification d’une image ou d’un autre widget de ressource dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Associer un formulaire personnalisé à plusieurs types d’objets
 
@@ -56,7 +56,7 @@ Cela s’avère particulièrement utile lorsque vous convertissez un problème o
 
 >[!INFO]
 >
->**Exemple :**
+>**Exemple :**
 >
 >Quelqu’un envoie une demande informatique interne (problème) et fournit des détails sur ce qui est nécessaire dans un formulaire personnalisé joint.
 >
@@ -94,15 +94,15 @@ Pour plus d’informations, voir [Ajout d’un saut de section à un formulaire 
 
 ### Compatibilité des champs personnalisés calculés
 
-Dans un formulaire personnalisé à plusieurs objets, si un champ calculé fait référence à des champs pouvant être utilisés avec tous les types d’objets associés au formulaire (tels que {name}, {description}, et {entryDate}, disponibles pour plusieurs types d’objets), les données se calculent correctement, quel que soit l’objet auquel vous les joignez.
+Dans un formulaire personnalisé à plusieurs objets, si un champ calculé fait référence à des champs pouvant être utilisés avec tous les types d’objets associés au formulaire (tels que {name}, {description} et {entryDate}, disponibles pour plusieurs types d’objets), les données se calculent correctement, quel que soit l’objet auquel vous le joignez.
 
-Par exemple, si vous disposez d’un formulaire avec plusieurs objets pour les projets et les problèmes et que vous ajoutez un champ calculé contenant la variable {name} , le champ affiche le nom du projet lorsque vous ajoutez le formulaire à un projet, et le nom de la tâche que vous ajoutez au formulaire à une tâche.
+Par exemple, si vous disposez d’un formulaire multi-objet pour les projets et les problèmes et que vous ajoutez un champ calculé contenant l’expression {name}, le champ affiche le nom du projet lorsque vous ajoutez le formulaire à un projet et le nom de la tâche vous permettant d’ajouter le formulaire à une tâche.
 
 Cependant, si un champ calculé du formulaire fait référence à un champ non compatible avec tous les types d’objets du formulaire, un message vous invite à effectuer des ajustements.
 
 >[!INFO]
 >
->**Exemple :** Dans un formulaire personnalisé associé au type d’objet Tâche , vous créez un champ personnalisé calculé qui référence le champ intégré Affecté à : Nom afin qu’il puisse afficher le nom de la personne désignée principale responsable chaque fois que le formulaire est joint à une tâche :
+>**Exemple :** Dans un formulaire personnalisé associé au type d’objet Tâche, vous créez un champ personnalisé calculé qui référence le champ intégré Affecté à : Nom afin qu’il puisse afficher le nom du responsable principal chaque fois que le formulaire est joint à une tâche :
 >
 >```
 >Assigned To: Name{assignedTo}.{name}
@@ -113,9 +113,9 @@ Cependant, si un champ calculé du formulaire fait référence à un champ non c
 Dans ce cas, vous pouvez effectuer l’une des opérations suivantes :
 
 * Supprimez l’un des deux éléments incompatibles du formulaire personnalisé : le type d’objet ou le champ référencé.
-* Conserver les deux éléments et utiliser la variable de filtre de caractères génériques `$$OBJCODE` comme condition dans une expression IF pour créer deux versions différentes du champ En charge . Cela permet au champ de fonctionner correctement, quel que soit le type d’objet auquel le formulaire est associé.
+* Conservez les deux éléments et utilisez la variable de filtre de caractères génériques `$$OBJCODE` comme condition dans une expression IF pour créer deux versions différentes du champ En charge . Cela permet au champ de fonctionner correctement, quel que soit le type d’objet auquel le formulaire est associé.
 
-  En reprenant l’exemple ci-dessus, bien qu’il n’existe pas de champ Affecté à : nom intégré pour les projets, il existe un champ Propriétaire intégré (qui renseigne automatiquement le nom de la personne qui a créé le projet, sauf si quelqu’un modifie manuellement ce champ). Ainsi, dans votre champ personnalisé En charge , vous pouvez utiliser `$$OBJCODE` comme illustré ci-dessous pour faire référence au champ Propriétaire lorsque le formulaire personnalisé est joint à un projet, et au champ Affecté à : Nom lorsque le formulaire est joint à une tâche :
+  En reprenant l’exemple ci-dessus, bien qu’il n’existe pas de champ Affecté à : nom intégré pour les projets, il existe un champ Propriétaire intégré (qui renseigne automatiquement le nom de la personne qui a créé le projet, sauf si quelqu’un modifie manuellement ce champ). Ainsi, dans votre champ personnalisé En charge , vous pouvez utiliser `$$OBJCODE` comme illustré ci-dessous pour référencer le champ Propriétaire lorsque le formulaire personnalisé est joint à un projet, et le champ Affecté à : Nom lorsque le formulaire est joint à une tâche :
 
   ```
   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
@@ -127,7 +127,7 @@ Dans ce cas, vous pouvez effectuer l’une des opérations suivantes :
 
 Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, voir [Ajout de données calculées à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Pour plus d’informations sur les variables telles que `$$OBJCODE`, voir [Présentation des variables de filtre de caractères génériques](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Pour plus d’informations sur les variables telles que `$$OBJCODE`, voir [Présentation des variables de filtre générique](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Attention à la suppression d’un type d’objet d’un formulaire personnalisé
 

@@ -10,7 +10,7 @@ exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -20,7 +20,7 @@ Les activités mesurent la progression d’un objectif. Sans associer de résult
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -71,14 +71,14 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -90,7 +90,7 @@ Pour plus d’informations sur la création d’objectifs, voir [Création d’o
 >
 >Un objectif ne peut pas comporter plus de 1 000 activités, résultats ou objectifs alignés.
 
-Pour plus d’informations sur les activités, voir [Prise en main des résultats et des activités dans les objectifs d’Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+Pour plus d’informations sur les activités, voir [Prise en main des résultats et des activités dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
 ## Ajout d’une activité à un objectif
 
@@ -145,7 +145,7 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Cliquez sur le bouton **Menu Principal** ![](assets/main-menu-icon.png), puis **Objectifs**.
+1. Cliquez sur le **menu principal** ![](assets/main-menu-icon.png), puis sur **Objectifs**.
 1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Dans le menu déroulant Nouvel indicateur de progression , cliquez sur **Créer une activité**.
@@ -154,8 +154,8 @@ Adding activities to goals differs depending on which environment you use.
 
    ![](assets/new-activity-box-unshimmed.png)
 
-1. Saisissez un nom pour l’activité dans le champ Nom de l’activité . Champ obligatoire.
-1. (Facultatif) Supprimez votre nom du **Propriétaire de l’activité** si vous souhaitez affecter l’activité à un autre utilisateur. Par défaut, vous êtes le propriétaire d’une activité que vous créez.
+1. Saisissez un nom pour l’activité dans le champ Nom de l’activité . Il s’agit d’un champ obligatoire.
+1. (Facultatif) Supprimez votre nom du champ **Propriétaire de l’activité** si vous souhaitez affecter l’activité à un autre utilisateur. Par défaut, vous êtes le propriétaire d’une activité que vous créez.
 
    >[!NOTE]
    >

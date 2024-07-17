@@ -75,7 +75,7 @@ L’automatisation du travail exige un traitement rapide, c’est pourquoi [!DNL
 
 ## Exécutions incomplètes
 
-* Les exécutions incomplètes sont limitées à une taille totale. **500 Mo**. Si la limite de 500 Mo est atteinte, aucune autre exécution incomplète ne sera stockée.
+* Les exécutions incomplètes sont limitées à une taille totale de **500 Mo**. Si la limite de 500 Mo est atteinte, aucune autre exécution incomplète ne sera stockée.
 
 ## Reprises
 

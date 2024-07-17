@@ -1,5 +1,5 @@
 ---
-title: Présentation de Portfolio Management
+title: Vue d’ensemble de la gestion de portfolio
 product-area: portfolios
 navigation-topic: portfolios-overview
 description: La gestion des Portfolios de Portfolio ou de projet (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets afin d’atteindre des objectifs commerciaux spécifiques. Un portfolio est un ensemble de projets avec des objectifs commerciaux communs.
@@ -9,11 +9,11 @@ exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
 source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Présentation de Portfolio Management
+# Vue d’ensemble de la gestion de portfolio
 
 <!--Audited: 12/2023-->
 
@@ -34,11 +34,11 @@ En règle générale, les utilisateurs de PPM suivent les étapes suivantes pour
 1. Évaluer la disponibilité de la ressource pour réaliser les projets sélectionnés.
 1. Examinez et évaluez l&#39;état d&#39;avancement des projets dans le portefeuille, et effectuez des ajustements si nécessaire.
 
-## Présentation de la variable [!DNL Adobe Workfront] Processus PPM
+## Présentation du processus PPM [!DNL Adobe Workfront]
 
-Vous pouvez hiérarchiser vos projets et vous assurer qu’ils correspondent aux objectifs et aux exigences de votre entreprise à l’aide des outils de gestion des Portfolios de la section [!DNL Workfront].
+Vous pouvez hiérarchiser vos projets et vous assurer qu’ils correspondent aux objectifs et aux exigences de votre entreprise à l’aide des outils de gestion de Portfolio de [!DNL Workfront].
 
-Le diagramme suivant illustre la présentation générale du processus PPM dans [!DNL Workfront]:
+Le diagramme suivant illustre la présentation générale du processus PPM dans [!DNL Workfront] :
 
 ![](assets/pm1-350x88.png)
 
@@ -53,13 +53,13 @@ Le diagramme suivant illustre la présentation générale du processus PPM dans 
 
 La gestion de Portfolio de projet commence par une demande de projet. Au cours de cette phase, un propriétaire de projet crée une demande de projet et l’envoie pour examen à un comité exécutif ou au responsable de Portfolio. C’est à ce moment-là qu’ils terminent l’analyse de cas du projet, puis l’envoient pour approbation.
 
-Pour plus d’informations sur la création d’un cas d’entreprise et d’une demande de projet, voir [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Pour plus d’informations sur la création d’un dossier d’affaires et d’une demande de projet, voir [Création d’un dossier d’affaires pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ### Révision du projet {#project-review}
 
 Une fois la demande de projet envoyée, le responsable de Portfolio ou une équipe exécutive la examine et décide s’il convient de l’approuver. S’ils approuvent le projet, le projet est sélectionné pour un Portfolio de projet d’entreprise.
 
-Pour plus d’informations sur les portefeuilles, voir [Présentation des Portfolios dans [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Pour plus d’informations sur l’approbation d’un cas d’entreprise, voir [Approbation d’une analyse de cas](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Pour plus d’informations sur les portefeuilles, consultez la [présentation des Portfolios dans [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Pour plus d’informations sur l’approbation d’un cas d’entreprise, voir [Approuver un cas d’entreprise](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Optimisation du portefeuille {#portfolio-optimization}
 
@@ -69,21 +69,21 @@ Pour plus d’informations sur l’optimisation du portfolio, voir [Optimisation
 
 ### Planification des ressources {#resource-planning}
 
-En plus d’optimiser les performances du portefeuille et de hiérarchiser les projets, le Gestionnaire de ressources veille à ce que les ressources appropriées soient allouées aux projets. Ils évaluent la disponibilité et l’affectation des ressources à l’aide des outils de gestion des ressources disponibles dans [!DNL Workfront].
+En plus d’optimiser les performances du portefeuille et de hiérarchiser les projets, le Gestionnaire de ressources veille à ce que les ressources appropriées soient allouées aux projets. Ils évaluent la disponibilité et l’allocation des ressources à l’aide des outils de gestion des ressources disponibles dans [!DNL Workfront].
 
 Selon la disponibilité des ressources, le gestionnaire de Portfolios peut avoir besoin de reclasser les projets par priorité.
 
-Pour plus d’informations sur la gestion des ressources, voir [Gestion des ressources](../../../resource-mgmt/manage-resources.md) .
+Pour plus d’informations sur la gestion des ressources, voir la section [Gérer les ressources](../../../resource-mgmt/manage-resources.md) .
 
 ### Exécution du projet {#project-execution}
 
-Après avoir reçu l’approbation du projet de la part du Gestionnaire de Portfolios et la validation des ressources du Gestionnaire de ressources, en tant que Propriétaire du projet, vous pouvez placer le projet dans l’état de [!UICONTROL Actuel] et vos utilisateurs peuvent commencer le travail pour terminer le projet. Nous vous recommandons de capturer une ligne de base du projet au cours de cette phase, afin d’obtenir un point de référence pour le projet, dans son état d’origine.
+Après avoir reçu l’approbation du projet de la part du gestionnaire de Portfolios et la validation des ressources à partir du gestionnaire de ressources, en tant que propriétaire du projet, vous pouvez placer le projet dans l’état [!UICONTROL Actuel] et vos utilisateurs peuvent commencer le travail pour terminer le projet. Nous vous recommandons de capturer une ligne de base du projet au cours de cette phase, afin d’obtenir un point de référence pour le projet, dans son état d’origine.
 
-Pour plus d’informations sur la gestion de projets dans [!DNL Workfront], voir [Gestion des projets : index des articles](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
-Pour plus d’informations sur la création de lignes de base sur des projets, voir [Création de lignes de base de projet](../../../manage-work/projects/create-projects/create-baselines.md).
+Pour plus d’informations sur la gestion des projets dans [!DNL Workfront], voir [Gestion des projets : index de l’article](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Pour plus d’informations sur la création de lignes de base sur les projets, voir [Création de lignes de base de projet](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Postmortem du projet {#project-postmortem}
 
 Une fois les projets du portefeuille terminés, vous pouvez passer en revue le succès de chaque projet en créant une ligne de base et en la comparant à la ligne de base d’origine.
 
-Pour plus d’informations sur la création de lignes de base sur des projets, voir [Création de lignes de base de projet](../../../manage-work/projects/create-projects/create-baselines.md).
+Pour plus d’informations sur la création de lignes de base sur les projets, voir [Création de lignes de base de projet](../../../manage-work/projects/create-projects/create-baselines.md).

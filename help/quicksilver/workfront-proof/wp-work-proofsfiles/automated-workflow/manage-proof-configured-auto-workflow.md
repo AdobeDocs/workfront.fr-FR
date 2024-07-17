@@ -2,14 +2,14 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Gérer un BAT configuré avec un workflow automatisé dans [!DNL Workfront Proof]
+title: Gérer un BAT configuré avec un workflow automatisé dans  [!DNL Workfront Proof]
 description: Vous pouvez facilement suivre la progression de vos BAT de workflow automatisé dans la section Processus de la page Détails du BAT. Vous pouvez visualiser le travail réalisé à chaque étape et modifier, ajouter, démarrer et verrouiller les étapes sur votre BAT.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Vous pouvez facilement suivre la progression de vos BAT de workflow automatisé dans la section Processus de la section [!UICONTROL Détails du BAT] page. Vous pouvez visualiser le travail réalisé à chaque étape et modifier, ajouter, démarrer et verrouiller les étapes sur votre BAT.
+Vous pouvez facilement suivre la progression de vos BAT de workflow automatisé dans la section Processus de la page [!UICONTROL Détails du bon à tirer] . Vous pouvez visualiser le travail réalisé à chaque étape et modifier, ajouter, démarrer et verrouiller les étapes sur votre BAT.
 
 ## Affichage d’un processus automatisé
 
@@ -62,11 +62,11 @@ Pour afficher en détail toutes les étapes de votre processus automatisé :
 
    Vous pouvez masquer les détails de chaque étape en cliquant sur l’icône moins (6).
 
-![View_all_phases_in_detail.png](assets/view-all-stages-in-detail-350x370.png)
+![View_all_stage_in_detail.png](assets/view-all-stages-in-detail-350x370.png)
 
 ## Utilisation du diagramme de processus automatisé
 
-Le diagramme de votre [!UICONTROL Workflow] s’affiche en haut de la section Workflow .
+Le diagramme de votre [!UICONTROL workflow] automatisé s’affiche en haut de la section Workflow.
 
 Pour masquer le diagramme
 
@@ -76,39 +76,39 @@ Pour masquer le diagramme
 
 Les étapes du diagramme sont marquées comme suit :
 
-![dot.png](assets/dot.png)- une étape principale
+![dot.png](assets/dot.png) : étape active
 
-![gris_dot.png](assets/grey-dot.png)- une étape inactive\
+![(gris_dot.png](assets/grey-dot.png) : étape inactive\
 ![sbw-key-icon.png](assets/sbw-key-icon.png)  - une scène privée
 
 ![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)  - une scène verrouillée
 
 Les lignes entre les scènes représentent les dépendances entre les scènes. Les lignes menant aux scènes inactives sont pointillées jusqu’à ce que l’étape soit activée.
 
-Pointez sur une étape du diagramme pour connaître la progression de l’étape. Si la scène n’est pas principale et que vous disposez des droits d’édition sur la scène, vous pouvez démarrer la scène à partir de la fenêtre contextuelle à l’aide de la fonction [!UICONTROL Etape de démarrage] bouton . De même, l’option Verrouiller une principale scène s’affiche.
+Pointez sur une étape du diagramme pour connaître la progression de l’étape. Si l’étape n’est pas active et que vous disposez des droits d’édition sur l’étape, vous pourrez démarrer l’étape à partir de la fenêtre contextuelle à l’aide du bouton [!UICONTROL Démarrer l’étape] . De même, l’option Verrouiller une étape active s’affiche.
 
-Pour en savoir plus sur la barre de progression, voir  [Afficher l’état et l’état d’avancement d’un BAT dans [!DNL Workfront] Bon à tirer](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+Pour en savoir plus sur la barre de progression, voir  [Affichez la progression et l’état d’un bon à tirer dans  [!DNL Workfront] BAT](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ![Diagram_-_stage_summary.png](assets/diagram---stage-summary-350x214.png)
 
 ## Ajouter une nouvelle étape
 
-Vous pouvez ajouter une nouvelle étape à votre processus automatisé à partir de la [!UICONTROL Détails du BAT] page.
+Vous pouvez ajouter une nouvelle étape à votre workflow automatisé à partir de la page [!UICONTROL Détails du bon à tirer] .
 
 1. Cliquez sur le bouton **[!UICONTROL Nouvelle étape]** (1).
 
-![Ajout_a_new_stage_1.png](assets/adding-a-new-stage-1-350x218.png)
+![Ajouter_a_new_stage_1.png](assets/adding-a-new-stage-1-350x218.png)
 
-Dans le **Nouvelle étape** qui s’affiche, vous pouvez renseigner les détails et les paramètres de l’étape.
+Dans la zone **Nouvelle étape** qui s’affiche, vous pouvez renseigner les détails et les paramètres de l’étape.
 
-![Ajout_a_new_stage_2.png](assets/adding-a-new-stage-2-350x332.png)
+![Ajouter_a_new_stage_2.png](assets/adding-a-new-stage-2-350x332.png)
 
 ## Gestion des paramètres d’évaluation
 
 Dans les détails de la page, vous pouvez modifier les paramètres de chaque étape (si vous disposez des droits de modification) :
 
 * Modifier, ajouter ou supprimer l’échéance de l’étape (1)
-* Verrouiller la scène (2) : cette option apparaît si la scène est principale ; pour les scènes inactives, l’option Démarrer l’étape s’affiche.
+* Verrouiller l’étape (2) : cette option s’affiche si l’étape est active ; pour les étapes inactives, l’option Démarrer l’étape s’affiche.
 * Modification des paramètres par modification en ligne (3)
 * Activer ou désactiver une seule décision requise sur l’étape (4)
 * Modification de la confidentialité de l’étape (5)
@@ -121,7 +121,7 @@ Vous pouvez également déplacer les réviseurs d’une étape à l’autre en l
 
 ## Options d’évaluation
 
-Le [!UICONTROL Actions] (1) pour chaque étape comporte les options suivantes :
+Le menu [!UICONTROL Actions] (1) pour chaque étape comporte les options suivantes :
 
 * Envoyer un message à tous (2) : vous pouvez envoyer un email de rappel à tous les opérateurs validants sur l&#39;étape
 * Partager (3) : vous pouvez ajouter de nouveaux réviseurs à l’étape

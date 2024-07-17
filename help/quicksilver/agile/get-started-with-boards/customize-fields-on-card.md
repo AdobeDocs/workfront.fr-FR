@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
-title: Personnalisation des champs affichés sur une carte
+title: Personnaliser les champs affichés sur une carte
 description: Vous pouvez personnaliser les champs qui s’affichent sur une carte en désactivant un champ afin qu’il ne s’affiche pas dans le mode Carte complète ou condensé, ou en masquant un champ dans le mode Carte condensée.
 author: Lisa
 feature: Agile
@@ -9,11 +9,11 @@ exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
 source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Personnalisation des champs affichés sur une carte
+# Personnaliser les champs affichés sur une carte
 
 Par défaut, tous les champs disponibles sont affichés sur une carte, à la fois dans l’affichage complet lorsque la carte est ouverte et dans l’affichage condensé de la carte sur le panorama. Vous pouvez personnaliser les champs affichés en procédant comme suit :
 
@@ -30,9 +30,9 @@ Vous pouvez également afficher les champs personnalisés qui ont été créés 
 >
 >Toutes les personnalisations de champ que vous effectuez s’appliquent uniquement au panorama dans lequel vous travaillez.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,31 +41,31 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr>
    </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
 ## Configuration des cartes {#configure-cards}
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
 1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
-1. Cliquez sur [!UICONTROL **Configurer**] à droite du panorama pour ouvrir le panneau Configurer .
-1. Développer [!UICONTROL **Cartes**].
+1. Cliquez sur [!UICONTROL **Configurer**] à droite du panorama pour ouvrir le panneau Configurer.
+1. Développez [!UICONTROL **Cartes**].
 
    La plupart des champs et des sections sont activés par défaut.
 
 1. Désactivez un champ ou une section pour le désactiver en mode Carte.
-1. Cliquez sur l’icône Masquer . ![Icône Masquer](assets/eye-hide-icon.png) en regard d’un champ ou d’une section pour le masquer sur l’affichage condensé.
-1. Pour afficher tous les champs et sections des deux modes, cliquez sur [!UICONTROL **Restaurer tous les champs par défaut**].
-1. Cliquez sur [!UICONTROL **Masquer la configuration**] pour fermer le panneau Configurer .
+1. Cliquez sur l’icône Masquer ![Icône Masquer](assets/eye-hide-icon.png) en regard d’un champ ou d’une section pour le masquer sur l’affichage condensé.
+1. Pour afficher tous les champs et sections des deux vues, cliquez sur [!UICONTROL **Restaurer tous les champs par défaut**].
+1. Cliquez sur [!UICONTROL **Masquer la configuration**] pour fermer le panneau Configurer.
 
 ## Ajout de champs personnalisés aux cartes
 
@@ -73,27 +73,27 @@ Les champs personnalisés sont disponibles sur les cartes connectées. Elles ne 
 
 Les données des champs personnalisés sont modifiables sur la carte, bien que certains éléments personnalisés puissent uniquement être disponibles pour modification sur le champ d’origine et non sur la carte.
 
-1. Accédez à un panorama, puis cliquez sur [!UICONTROL **Configurer**] pour ouvrir le panneau Configurer .
-1. Développer [!UICONTROL **Cartes**].
-1. Sous [!UICONTROL Champs de carte], cliquez sur [!UICONTROL **Ajouter un champ personnalisé**].
-1. Sélectionner [!UICONTROL **Tâche**] ou [!UICONTROL **Problème**].
+1. Accédez à un panorama et cliquez sur [!UICONTROL **Configurer**] pour ouvrir le panneau Configurer.
+1. Développez [!UICONTROL **Cartes**].
+1. Sous [!UICONTROL Card Fields], cliquez sur [!UICONTROL **Ajouter un champ personnalisé**].
+1. Sélectionnez [!UICONTROL **Tâche**] ou [!UICONTROL **Problème**].
 
    Les catégories de champs disponibles pour les tâches ou les problèmes apparaissent. Développez une catégorie pour afficher tous les champs. Vous pouvez également rechercher un champ.
 
-   ![Recherche d’un champ personnalisé](assets/boards-search-for-custom-field.png)
+   ![Rechercher un champ personnalisé](assets/boards-search-for-custom-field.png)
 
    >[!NOTE]
    >
    >Les types de champs suivants ne peuvent pas être ajoutés aux cartes : Adobe XD, Image, PDF, Vidéo.
 
 1. Sélectionnez le nom du champ.
-1. (Facultatif) Cliquez sur le bouton **[!UICONTROL Valeur du champ]** pour remplacer ce champ personnalisé par un autre.
-1. (Facultatif) Modifiez la variable **[!UICONTROL Libellé du champ]** au nom du champ que vous souhaitez voir apparaître sur les cartes.
-1. Une fois les modifications effectuées, cliquez sur [!UICONTROL **Champ Enregistrer**].
+1. (Facultatif) Cliquez dans le champ **[!UICONTROL Valeur du champ]** pour remplacer ce champ personnalisé par un autre.
+1. (Facultatif) Remplacez le **[!UICONTROL libellé du champ]** par le nom du champ que vous souhaitez afficher sur les cartes.
+1. Lorsque vous avez terminé d’apporter des modifications, cliquez sur [!UICONTROL **Enregistrer le champ**].
 
-   ![Valeur et libellé de champ personnalisés](assets/save-custom-field-value-label.png)
+   ![Valeur de champ personnalisé et libellé](assets/save-custom-field-value-label.png)
 
-   Le champ personnalisé est ajouté à la liste des champs disponibles et est activé par défaut. Vous pouvez désactiver le champ personnalisé en suivant les étapes de la section [Configuration des cartes](customize-fields-on-card.md#configure-cards) ci-dessus, modifiez le champ ou supprimez-le de toutes les cartes.
+   Le champ personnalisé est ajouté à la liste des champs disponibles et est activé par défaut. Vous pouvez désactiver le champ personnalisé en suivant les étapes de la section [Configurer les cartes](customize-fields-on-card.md#configure-cards) ci-dessus, modifier le champ ou le supprimer de toutes les cartes.
 
 >[!NOTE]
 >
@@ -103,14 +103,14 @@ Les données des champs personnalisés sont modifiables sur la carte, bien que c
 
 Vous devez activer un paramètre de configuration pour afficher les cartes archivées sur un panorama.
 
-1. Accédez à un panorama, puis cliquez sur [!UICONTROL **Configurer**] pour ouvrir le panneau Configurer .
-1. Développer [!UICONTROL **Cartes**].
-1. Activer [!UICONTROL **Afficher les cartes archivées sur le panorama**].
+1. Accédez à un panorama et cliquez sur [!UICONTROL **Configurer**] pour ouvrir le panneau Configurer.
+1. Développez [!UICONTROL **Cartes**].
+1. Activez [!UICONTROL **Afficher les cartes archivées sur le panorama**].
 
    Vous pouvez désormais filtrer le panorama pour afficher toutes les cartes qui ont été archivées. Pour plus d’informations, voir [Filtrage et recherche dans un panorama](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-1. Cliquez sur [!UICONTROL **Masquer la configuration**] pour fermer le panneau Configurer .
+1. Cliquez sur [!UICONTROL **Masquer la configuration**] pour fermer le panneau Configurer.
 
-## Configuration des abandons de carte
+## Configurer le détachement des vignettes
 
-Pour supprimer automatiquement des cartes du panorama après un certain temps, voir [Configuration des abandons de carte](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Pour supprimer automatiquement les cartes du panorama après un certain temps, voir [Configuration de l’abandon de carte](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

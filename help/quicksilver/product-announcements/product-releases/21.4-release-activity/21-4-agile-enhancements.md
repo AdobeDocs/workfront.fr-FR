@@ -1,6 +1,6 @@
 ---
-title: 21.4 Améliorations rapides
-description: 21.4 Améliorations rapides
+title: Améliorations apportées à la méthode agile (version 21.4)
+description: Améliorations apportées à la méthode agile (version 21.4)
 author: Luke
 draft: Probably
 feature: Product Announcements, Agile
@@ -8,15 +8,15 @@ exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 21.4 Améliorations rapides
+# Améliorations apportées à la méthode agile (version 21.4)
 
 Cette page décrit toutes les améliorations apportées à la version 21.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 4 octobre 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, voir [Présentation de la version 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, reportez-vous à la [21.4 Release Overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Affectations d’utilisateurs sur les panoramas Kanban et Scrum
 
@@ -25,7 +25,7 @@ Nous avons mis à jour les fiches d&#39;information sur les panoramas Kanban et 
 Pour plus d’informations, voir
 
 * [Affecter des utilisateurs à un article sur le panorama Kanban](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
-* [Affectation d’utilisateurs à un article sur le panorama Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
+* [Assigner des utilisateurs et utilisatrices à une story sur le panorama Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 
 ## Configurer l’application des dates lors de l’ajout d’éléments de travail à une itération Scrum
 
@@ -41,7 +41,7 @@ Pour plus d’informations, voir [Configuration de Scrum](../../../agile/get-sta
 >
 >Cette fonctionnalité a été ajoutée à l’environnement Aperçu le 16 septembre 2021.
 
-Dans le cadre de la version 21.3, nous avons apporté des améliorations à l’en-tête de carte agile et aux tableaux de bord (voir [Mises à jour de l’en-tête et du panorama des cartes agiles](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Ces mises à jour s’appliquaient aux itérations ainsi qu’à la vue agile des projets.
+Dans le cadre de la version 21.3, nous avons apporté des améliorations à l’en-tête de carte agile et aux panoramas d’histoires (voir la section [ En-tête de carte agile et mises à jour du panorama d’histoires](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Ces mises à jour s’appliquaient aux itérations ainsi qu’à la vue agile des projets.
 
 Avec la version 21.4, ces améliorations ont été apportées à l’affichage agile des projets. Aucune modification n’est apportée aux itérations agiles.
 
@@ -56,5 +56,5 @@ Voici les modifications qui sont annulées concernant l’affichage agile sur le
 
 Vous pouvez maintenant créer un article ou un problème directement à partir du panorama de Kanban. Cela facilite l’ajout rapide d’un nouvel article sans avoir à accéder à un projet, un rapport ou un tableau de bord pour créer une tâche.
 
-Pour plus d’informations, voir [Ajout d’articles et de problèmes sur le forum Kanban](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
+Pour plus d’informations, voir [Ajout d’articles et de problèmes sur le panorama Kanban](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
 

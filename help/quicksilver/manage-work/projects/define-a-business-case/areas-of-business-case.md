@@ -1,27 +1,27 @@
 ---
 content-type: overview
 navigation-topic: business-case-and-scorecards
-title: Présentation des domaines de l’analyse de cas
+title: Vue d’ensemble des domaines de l’analyse de rentabilité
 description: Cet article décrit les domaines de l’analyse de cas d’un projet.
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 2%
+source-wordcount: '1605'
+ht-degree: 4%
 
 ---
 
-# Présentation des domaines de l’analyse de cas
+# Vue d’ensemble des domaines de l’analyse de rentabilité
 
 Cet article décrit les domaines de l’analyse de cas d’un projet.
 
-Pour plus d’informations sur la création d’une analyse de cas pour un projet, voir [Création d’une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Pour plus d’informations sur la création d’un dossier de recherche pour un projet, voir [Création d’un dossier de recherche pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 L’administrateur ou l’administrateur de groupe Adobe Workfront doit activer toutes les sections de l’Analyse de cas avant qu’elles ne soient visibles sur le projet, à l’exception de la section Informations sur le projet . La section Informations sur le projet est activée par défaut.
 
-Pour plus d’informations sur l’activation des zones de l’analyse de cas, reportez-vous à la section &quot;Analyses de cas&quot; de la section  [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Pour plus d’informations sur l’activation des zones de l’analyse de cas, reportez-vous à la section &quot;Analyses de cas&quot; de la section  [ Configurez les préférences du projet à l’échelle du système ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Voici les domaines de l’analyse de cas d’un projet :
 
@@ -36,38 +36,38 @@ Voici les domaines de l’analyse de cas d’un projet :
 
 ## Informations sur le projet
 
-Le **Informations sur le projet** de l’Analyse de cas n’est pas configurable par l’administrateur Workfront. Tous les projets comportent une zone Informations sur le projet dans l’Analyse de cas. 
+La zone **Informations sur le projet** de l’analyse de cas n’est pas configurable par l’administrateur Workfront. Tous les projets comportent une zone Informations sur le projet dans l’Analyse de cas. 
 
 La section Informations sur le projet de l’Analyse de cas inclut les informations de base d’un projet, avant même que le projet n’ait réellement commencé.
 
 Envisagez de modifier les champs suivants :
 
-* **Description**: Spécifiez une description pour votre projet.
+* **Description** : décrivez votre projet.
 * **Propriétaire du projet**
 
-   Par défaut, l’utilisateur qui crée le projet est également le propriétaire du projet. Vous pouvez modifier ce champ et indiquer un autre utilisateur principal comme propriétaire du projet.
+  Par défaut, l’utilisateur qui crée le projet est également le propriétaire du projet. Vous pouvez modifier ce champ et indiquer un autre utilisateur actif comme propriétaire du projet.
 
 * **Sponsor du projet**
 
-   Envisagez d’ajouter une autre personne que le propriétaire du projet en tant que parrain du projet. Le parrain reçoit l&#39;approbation de l&#39;Analyse de cas. 
+  Envisagez d’ajouter une autre personne que le propriétaire du projet en tant que parrain du projet. Le parrain reçoit l&#39;approbation de l&#39;Analyse de cas. 
 
-* **Portfolio**: Spécifiez un Portfolio pour le projet. Vous devez créer le Portfolio et le placer dans l’état de **Principal** avant de pouvoir sélectionner dans ce menu déroulant.
+* **Portfolio** : spécifiez un Portfolio pour le projet. Vous devez créer le Portfolio et le placer dans l’état **Actif** avant de pouvoir le sélectionner dans ce menu déroulant.
 
-   Pour plus d’informations sur les portefeuilles, voir [Présentation des Portfolios dans Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Pour plus d’informations sur les portefeuilles, consultez la [présentation des Portfolios dans Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-   Pour plus d’informations sur la création de Portfolios, voir [Création d’un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  Pour plus d’informations sur la création de Portfolios, voir [Création d’un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-* **Avantage planifié**: Estimez les avantages financiers prévus pour votre organisation une fois ce projet terminé. Il peut s’agir de n’importe quelle devise et il doit s’agir d’une valeur positive. Par exemple, 10 000 $.
-* **État**: Par défaut, l’état d’une requête de projet est défini sur **Idée**.
+* **Avantage planifié** : estimez l’avantage financier prévu pour votre organisation une fois ce projet terminé. Il peut s’agir de n’importe quelle devise et il doit s’agir d’une valeur positive. Par exemple, 10 000 $.
+* **Status** : par défaut, l’état d’une requête de projet est défini sur **Idée**.
 
-   Si vous définissez le statut sur autre chose que Idée ou Planification, la variable **Envoyer** disparaît de la zone Résumé de l’analyse de cas et vous ne pouvez plus soumettre l’analyse de cas pour approbation. 
+  Si vous définissez le statut sur autre chose que Idée ou Planification, le bouton **Envoyer** disparaît de la zone Résumé de l’analyse de cas opérationnelle et vous ne pouvez plus soumettre l’analyse de cas pour approbation. 
 
-* **Date de début fixe**: Indiquez la date de début du projet.
-* **Date de fin fixe**: Indiquez la date de fin du projet.
+* **Date de début fixe** : indiquez une date de début du projet.
+* **Date de fin fixe** : spécifiez une date de fin du projet.
 
-   >[!NOTE]
-   >
-   >Les dates de début et de fin fixes de l’analyse de cas n’ont aucune incidence sur les dates de début et de fin planifiées du projet. Elles représentent les dates demandées par le créateur du projet pour lesquelles le projet se développerait idéalement. Au lieu de cela, les dates de début et de fin planifiées du projet indiquent la chronologie planifiée du projet, basée sur les tâches du projet.
+  >[!NOTE]
+  >
+  >Les dates de début et de fin fixes de l’analyse de cas n’ont aucune incidence sur les dates de début et de fin planifiées du projet. Elles représentent les dates demandées par le créateur du projet pour lesquelles le projet se développerait idéalement. Au lieu de cela, les dates de début et de fin planifiées du projet indiquent la chronologie planifiée du projet, basée sur les tâches du projet.
 
 ## Objectifs
 
@@ -78,7 +78,8 @@ Les objectifs définissent les objectifs du projet. Cette zone est activée par 
 -->
 
 >[!TIP]
-Vous pouvez créer des objectifs stratégiques pour votre organisation qui ne sont pas liés à l’analyse de cas individuelle d’un projet. Vous devez avoir accès aux objectifs Adobe Workfront pour pouvoir créer des objectifs stratégiques. Vous pouvez ensuite les connecter à des projets en dehors de leurs analyses de cas. Pour plus d’informations sur la création d’objectifs à l’aide des objectifs Workfront, voir [Présentation des objectifs d’Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>
+>Vous pouvez créer des objectifs stratégiques pour votre organisation qui ne sont pas liés à l’analyse de cas individuelle d’un projet. Vous devez avoir accès aux objectifs Adobe Workfront pour pouvoir créer des objectifs stratégiques. Vous pouvez ensuite les connecter à des projets en dehors de leurs analyses de cas. Pour plus d’informations sur la création d’objectifs à l’aide des objectifs Workfront, voir [Présentation des objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 La définition des objectifs est facultative pour que le projet reçoive un score dans Portfolio Optimizer. Cette section est la seule section facultative de l’Analyse de cas. Toutes les autres sections de l’analyse de cas doivent être terminées avant que le projet ne soit noté dans Portfolio Optimizer. Vous pouvez indiquer un niveau de priorité pour un objectif au fur et à mesure de sa création.
 
@@ -95,9 +96,9 @@ Les dépenses affectent les champs suivants du projet :
 * Coût budgété
 * Valeur nette
 
-Pour plus d’informations sur les coûts budgétés et les valeurs nettes, voir [Présentation des champs financiers Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Pour plus d’informations sur les coûts budgétaires et les valeurs nettes, voir [Présentation des champs financiers de Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-Pour plus d’informations sur les dépenses, voir  [Gestion des dépenses de projet](../../../manage-work/projects/project-finances/manage-project-expenses.md) .
+Pour plus d’informations sur les dépenses, voir  [Gérer les dépenses de projet](../../../manage-work/projects/project-finances/manage-project-expenses.md) .
 
 Votre administrateur Workfront peut configurer des types de dépenses personnalisés.
 
@@ -112,7 +113,7 @@ Vous pouvez effectuer les actions suivantes dans la zone Ressource/Budget de l�
 
 Les heures budgétisées pour les ressources du projet s’affichent dans la zone Ressource/Budget de l’analyse de cas, générant le Coût de la main-d’oeuvre budgétisé du projet. Cette zone de l’Analyse de cas est activée par défaut.
 
-Pour plus d’informations sur la planification des ressources du projet dans l’Analyse de cas, voir [Ressources budgétaires dans l’analyse de cas](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+Pour plus d’informations sur la planification des ressources pour le projet dans l’Analyse de cas, voir [Ressources budgétaires dans l’Analyse de cas](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
@@ -122,52 +123,53 @@ Tenez compte des points suivants lors de l’affichage de la section Ressource/B
 
    * Le planificateur de ressources
 
-      Pour plus d’informations, voir [Budget des ressources dans l’analyse de cas à l’aide du planificateur de ressources](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+     Pour plus d’informations, voir [Ressources de budget dans l’analyse de cas à l’aide du planificateur de ressources](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
    * Le planificateur de scénario , si votre société a acheté une licence supplémentaire pour le planificateur de scénario d’Adobe
 
-      Pour plus d’informations, voir [Budget des ressources dans l’analyse de cas à l’aide du planificateur de scénario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+     Pour plus d’informations, voir [Ressources budgétaires dans l’analyse de cas à l’aide du planificateur de scénario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-      Le planificateur de scénario n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
+     Le planificateur de scénarios n’est disponible que dans la nouvelle expérience Adobe Workfront et nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
 * Les informations affichées ici s’affichent également dans le planificateur de ressources au niveau du système ou dans le planificateur de scénario. 
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in&nbsp;NWE&nbsp;only)<br></p>
   -->
 
 * Une fois vos ressources budgétisées, le coût de la main-d’oeuvre Budget du projet s’affiche dans la zone Budget des ressources si les rôles sont associés aux taux de coût par heure. Le Coût de la main-d’oeuvre budgété s’affiche dans la devise du projet.
 
-   >[!IMPORTANT]
-   Le coût de la main-d’oeuvre budgété est le coût associé aux rôles sur le projet, et non aux utilisateurs. La somme de tous les coûts de main-d’oeuvre budgétés pour les utilisateurs peut ou non correspondre au coût de main-d’oeuvre budgété du rôle de travail associé aux utilisateurs. 
+  >[!IMPORTANT]
+  >
+  >Le coût de la main-d’oeuvre budgété est le coût associé aux rôles sur le projet, et non aux utilisateurs. La somme de tous les coûts de main-d’oeuvre budgétés pour les utilisateurs peut ou non correspondre au coût de main-d’oeuvre budgété du rôle de travail associé aux utilisateurs. 
 
-   Pour plus d’informations sur le coût de la main-d’oeuvre budgétisée, voir [Présentation des champs financiers Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+  Pour plus d’informations sur le coût de la main-d’oeuvre budgété, voir [Présentation des champs financiers de Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-   Pour plus d’informations sur la création de rôles de tâche et l’association de taux de coût par heure avec ces rôles, voir [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Pour plus d’informations sur la création de rôles de tâche et l’association des taux de coût par heure avec eux, voir [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ## Risques
 
 Les risques sont des facteurs qui peuvent empêcher un projet de se terminer à temps ou sur le budget. La définition de ces facteurs est importante pour le responsable de Portfolio ou le parrain de projet afin de prendre une décision éclairée sur l’approbation du projet. Cette zone est activée par défaut dans l’Analyse de cas, mais l’administrateur de Workfront peut choisir de ne pas l’afficher.
 
-Vous pouvez associer un coût potentiel aux risques que vous définissez au cas où ils se produiraient. Le coût des risques sur un projet affecte la valeur nette du projet. 
+Vous pouvez associer un coût potentiel aux risques que vous définissez en cas de besoin. Le coût des risques sur un projet affecte la valeur nette du projet. 
 
-Pour plus d’informations sur la valeur nette du projet, voir [Présentation des champs financiers Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Pour plus d’informations sur le projet Net Value, voir [Présentation des champs financiers de Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
 Pour plus d’informations sur la création de risques, voir  [Créer et modifier des risques sur les projets](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 Votre administrateur Workfront peut configurer des types de risque personnalisés.
 
-Pour plus d’informations sur la création et la modification des types de risque personnalisés, voir [Modifier et créer des types de risque](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+Pour plus d’informations sur la création et la modification des types de risque personnalisés, voir [Modification et création de types de risque](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
 ## Carte de score
 
 Les Fiches d’évaluation mesurent l’alignement du projet. Cette zone est activée par défaut dans l’Analyse de cas, mais l’administrateur de Workfront peut choisir de ne pas l’afficher.
 
-Pour plus d’informations sur l’application d’une fiche d’évaluation à un projet et la génération d’un score d’alignement, voir [Application d’une fiche d’évaluation à un projet et génération d’une note d’alignement](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+Pour plus d’informations sur l’application d’une fiche d’évaluation à un projet et la génération d’un score d’alignement, voir [Application d’une fiche d’évaluation à un projet et génération d’un score d’alignement](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Pour appliquer une fiche d’évaluation, votre administrateur Workfront doit en créer une. Le **Fiche d’évaluation** ne s’affiche pas, sauf si une fiche d’évaluation est créée.
+Pour appliquer une fiche d’évaluation, votre administrateur Workfront doit en créer une. La zone **Fiche d’évaluation** de l’Analyse de cas ne s’affiche pas, sauf si une Fiche d’évaluation est créée.
 
-Pour plus d’informations sur la création d’une fiche d’évaluation, voir  [Création d’une Fiche d’évaluation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Pour plus d’informations sur la création d’une fiche d’évaluation, voir  [Créez une fiche d’évaluation](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ## Formulaires personnalisés
 
@@ -177,15 +179,15 @@ Pour plus d’informations sur l’activation des zones de l’analyse de cas, v
 
 Pour appliquer un formulaire personnalisé, votre administrateur Workfront doit d’abord créer un formulaire personnalisé.
 
-Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
+Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
 
 Vous pouvez utiliser des formulaires personnalisés pour collecter des informations supplémentaires qui ne s’affichent pas dans les autres champs de l’Analyse de cas.
 
-Pour plus d’informations sur l’application d’un formulaire personnalisé, voir [Association d’un formulaire personnalisé à un dossier d’affaires](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md).
+Pour plus d’informations sur l’application d’un formulaire personnalisé, voir [Joindre un formulaire personnalisé à un cas d’entreprise](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md).
 
 ## Récapitulatif du business case
 
-* [Présentation de la synthèse des analyses de cas](#overview-of-the-business-case-summary)
+* [Présentation du résumé de l’analyse de cas ](#overview-of-the-business-case-summary)
 * [Exporter l’analyse de cas](#export-the-business-case)
 
 ### Présentation de la synthèse des analyses de cas {#overview-of-the-business-case-summary}
@@ -203,7 +205,7 @@ Les champs suivants s’affichent dans le récapitulatif des cas d’entreprise 
 * Les avantages prévus
 * Score d’alignement
 
-Pour plus d’informations sur ces champs, voir [Présentation des champs financiers Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Pour plus d’informations sur ces champs, voir [Présentation des champs financiers de Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
 ### Exporter l’analyse de cas {#export-the-business-case}
 
@@ -213,7 +215,7 @@ Pour plus d’informations sur ces champs, voir [Présentation des champs financ
 
 Vous pouvez exporter le Business Case vers un fichier de PDF, au cas où vous auriez besoin de l’imprimer ou de le joindre à un email dans un format plus condensé. 
 
-Pour plus d’informations, voir [Exporter l’analyse de cas d’un projet](../../../manage-work/projects/define-a-business-case/export-business-case.md).
+Pour plus d’informations, voir [Export the Business Case of a project](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

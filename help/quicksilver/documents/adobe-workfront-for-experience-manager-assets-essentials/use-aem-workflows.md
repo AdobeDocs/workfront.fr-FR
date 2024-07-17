@@ -7,7 +7,7 @@ author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
 source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 100%
 

@@ -6,22 +6,23 @@ title: Vidéos sur les bases de Fusion
 description: Vidéos sur les bases de Fusion
 author: Becky
 feature: Workfront Fusion
-source-git-commit: b27577fbc57e1efc23f57e2f03ae75d7af2409d1
+exl-id: 7ba95790-1255-4a3e-ba7b-8dc73001b583
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Présentation vidéo d’Adobe Workfront Fusion
+# Vues d’ensemble en vidéo d’Adobe Workfront Fusion
 
 Ces vidéos vous aideront à vous familiariser avec certaines fonctionnalités d’Adobe Workfront Fusion.
 
 ## Principes de base
 
-* [Présentation des webhooks](https://video.tv.adobe.com/v/3427025/){target=_blank}
-* [Hébergements Web intermédiaires](https://video.tv.adobe.com/v/3427030/){target=_blank}
-* [Entrepôts de données](https://video.tv.adobe.com/v/3427029/){target=_blank}
+* [Intro to Webhooks](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [Webhooks intermédiaires](https://video.tv.adobe.com/v/3427030/){target=_blank}
+* [Magasins de données](https://video.tv.adobe.com/v/3427029/){target=_blank}
 * [Outil de développement de fusion](https://video.tv.adobe.com/v/3427031/){target=_blank}
 * [Synchronisation des dossiers](https://video.tv.adobe.com/v/3427033/){target=_blank}
 
@@ -31,12 +32,3 @@ Ces vidéos vous aideront à vous familiariser avec certaines fonctionnalités d
 * [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 * [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 * [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
-
-
-
-
-
-
-
-
-

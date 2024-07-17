@@ -33,7 +33,7 @@ ht-degree: 48%
 
 Cet article répertorie les fonctionnalités qui ont été publiées sur Workfront Planing en 2024.
 
-Le programme de planification Workfront a commencé le 22 mai 2023. Pour obtenir la liste de toutes les fonctionnalités publiées en 2023, voir [Archives de l’activité de planification Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Le programme de planification Workfront a commencé le 22 mai 2023. Pour obtenir la liste de toutes les fonctionnalités publiées en 2023, consultez les [archives de l’activité de planification Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 
 Les fonctionnalités publiées sont répertoriées par ordre de publication, avec la version la plus récente en premier. Les clients qui participent au programme de planification Workfront peuvent accéder à toutes les fonctionnalités de leurs environnements de production.
 
@@ -82,7 +82,7 @@ Si le champ de recherche contient plusieurs valeurs, tenez compte des points sui
 Pour plus d’informations, consultez les articles suivants :
 
 * [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
-* [Gestion de la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+* [Gérer la vue de table](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
 ## Semaine du mardi 24 juin 2024
@@ -95,7 +95,7 @@ L’assistant AI fonctionne dans le contexte de la page sélectionnée et avec v
 
 L’assistant d’IA est actuellement en version bêta et il est disponible pour certains clients. Contactez le représentant de votre compte pour savoir si vous pouvez participer à cette phase.
 
-Pour plus d’informations, voir [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+Pour plus d’informations, reportez-vous à la section [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Nouvelle zone de recherche lorsque vous sélectionnez un espace de travail ou un type d’enregistrement
 
@@ -149,7 +149,7 @@ Cette mise à jour comprend les améliorations suivantes :
 
 Pour plus d’informations, voir les articles suivants :
 
-* [Liste des modèles d&#39;espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md)
+* [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md)
 
 * [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md)
 
@@ -169,9 +169,9 @@ Nous avons mis à jour l’expérience afin d’ajouter une miniature ou une ima
 
 Pour plus d’informations, consultez les articles suivants :
 
-* [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 
-* [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+* [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ### Mettez à jour le titre de l’enregistrement dans la page Détails
 
@@ -327,7 +327,7 @@ Version de production : vendredi 30 mai 2024
 
 Prévisualisation : à déterminer
 
-Nous avons mis à jour l’aspect de l’icône pour la zone Planification dans le menu principal. Pour plus d’informations, voir [Présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+Nous avons mis à jour l’aspect de l’icône pour la zone Planification dans le menu principal. Pour plus d’informations, voir [Présentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Changement du nom du programme de planification Workfront
 
@@ -466,7 +466,7 @@ Aperçu : Pour annuler la détermination
 
 Si vous êtes un client Adobe Unified Experience (Expérience unifiée) et qu’une personne vous ajoute à un commentaire sur la page d’enregistrement, vous recevez une notification in-app et par e-mail à propos du commentaire. Vous pouvez gérer vos préférences de notification dans la zone Préférences de votre profil Adobe Experience Cloud. Pour plus d’informations, voir [Préférences de compte et notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
-Pour plus d’informations sur les notifications de planification Workfront, voir [Notifications Adobe Workfront Planning : index des articles](/help/quicksilver/planning/notifications/notifications-information.md).
+Pour plus d’informations sur les notifications de planification Workfront, voir [Notifications Adobe Workfront Planning : Index de l’article](/help/quicksilver/planning/notifications/notifications-information.md).
 
 
 ## Semaine du lundi 29 avril 2029
@@ -479,7 +479,7 @@ Prévisualisation : à déterminer
 
 Lorsqu’un utilisateur met à jour les informations d’un enregistrement dans la vue de tableau, d’autres utilisateurs peuvent afficher les informations mises à jour dans la zone de détails de l’enregistrement (dans une vue) ou dans une page en temps réel. Cela permet à tous les utilisateurs d’afficher les informations mises à jour en même temps, en synchronisation avec le moment où les modifications se produisent.
 
-Pour plus d’informations sur la modification d’enregistrements, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+Pour plus d&#39;informations sur la modification des enregistrements, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 ### Mises à jour en temps réel dans la vue Calendrier après modification des enregistrements
 
@@ -503,9 +503,9 @@ Lorsque vous modifiez un espace de travail ou un type d’enregistrement, vous p
 
 Pour plus d’informations, consultez les articles suivants :
 
-* [Modification des espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md)
+* [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md)
 
-* [Modification des types d’enregistrement](/help/quicksilver/planning/architecture/edit-record-types.md).
+* [Modifier les types d’enregistrement](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 ## Semaine du mardi 8 avril 2024
 

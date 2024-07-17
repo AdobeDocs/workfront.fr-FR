@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Présentation des heures planifiées
+title: Vue d’ensemble du nombre d’heures prévues
 description: Les Heures planifiées associées à une tâche, à une publication ou à un projet représentent le temps nécessaire aux utilisateurs affectés pour terminer la tâche, la publication ou le projet.
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Présentation des heures planifiées
+# Vue d’ensemble du nombre d’heures prévues
 
 <!-- Audited: 01/2024 -->
 
@@ -28,7 +28,7 @@ Les Heures planifiées associées à une tâche, à une publication ou à un pro
 * Si vous souhaitez utiliser les outils de gestion des ressources dans Workfront, vous devez définir la valeur des heures planifiées pour les tâches et les problèmes.
 * Vous ne pouvez modifier la valeur des heures planifiées sur les tâches que pour certains types de durée.
 
-  Pour plus d’informations sur la modification des heures planifiées sur les tâches par rapport au type de durée des tâches, consultez la section [Mise à jour des heures planifiées de la tâche en fonction du type de durée](#update-task-planned-hours-based-on-duration-type) dans cet article.
+  Pour plus d’informations sur la modification des heures planifiées sur les tâches par rapport au type de durée des tâches, consultez la section [Mise à jour des heures planifiées de la tâche en fonction du type de durée](#update-task-planned-hours-based-on-duration-type) de cet article.
 
 * Vous pouvez, à tout moment, modifier la valeur des Heures planifiées pour les problèmes.
 * Vous ne pouvez pas modifier la valeur des Heures planifiées des projets ou des tâches parentes, car il s’agit d’un total calculé de toutes les Heures planifiées de toutes leurs tâches et sous-tâches.
@@ -44,7 +44,7 @@ Cette section décrit les différences entre la tâche et les heures planifiées
 
 Les Heures planifiées d’une tâche indiquent la durée estimée du travail réel sur la tâche. Par défaut, Workfront répartit uniformément le nombre total d’heures planifiées pour chaque jour pendant la durée de chaque tâche. Le nombre quotidien d’heures planifiées devient l’affectation quotidienne de la tâche. Si la tâche est affectée à plusieurs ressources, chaque ressource se voit attribuer par défaut un nombre égal d&#39;heures quotidiennes.
 
-A l’aide de l’équilibreur de charge de travail, vous pouvez modifier les allocations quotidiennes des utilisateurs affectés aux tâches. Cela peut également mettre à jour les heures planifiées de la tâche lorsque le type de durée de la tâche est simple. Pour plus d’informations, voir la section &quot;Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur&quot; de l’article [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+A l’aide de l’équilibreur de charge de travail, vous pouvez modifier les allocations quotidiennes des utilisateurs affectés aux tâches. Cela peut également mettre à jour les heures planifiées de la tâche lorsque le type de durée de la tâche est simple. Pour plus d’informations, voir la section &quot;Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur&quot; dans l’article [Gérer les affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Lorsqu’une tâche contient des sous-tâches, les Heures planifiées de la tâche parent sont la somme de toutes les Heures planifiées de toutes les sous-tâches. Vous ne pouvez pas mettre à jour les Heures planifiées d’une tâche parent.
 
@@ -59,11 +59,11 @@ Vous ne pouvez pas modifier le nombre d’heures planifiées sur un projet. Les 
 
 Le fait que des problèmes soient inclus dans le calcul des heures planifiées dépend de l’emplacement du projet dans lequel vous affichez les heures planifiées. Vous pouvez afficher les heures planifiées du projet aux emplacements suivants dans un projet :
 
-* **Détails du projet et zone Modifier le projet**: seules les heures planifiées pour les tâches du projet sont prises en compte. Les heures planifiées pour les problèmes du projet ne sont pas prises en compte lors de l’affichage du nombre total d’heures planifiées pour le projet dans la section Détails du projet ou dans la zone Modifier le projet .
+* **Section Détails du projet et boîte Modifier le projet** : seules les heures planifiées des tâches du projet sont prises en compte. Les heures planifiées pour les problèmes du projet ne sont pas prises en compte lors de l’affichage du nombre total d’heures planifiées pour le projet dans la section Détails du projet ou dans la zone Modifier le projet .
 
-* **L’équilibreur de charge de travail**: seules les heures planifiées associées aux tâches visibles dans l’équilibreur de charge de travail s’affichent dans l’équilibreur de charge de travail pour les projets. Les affectations quotidiennes de l’utilisateur peuvent modifier les heures planifiées quotidiennes du projet dans l’équilibreur de charge de travail.
-* **Section Utilisation**: les heures planifiées associées aux utilisateurs affectés aux tâches et les problèmes du projet sont prises en compte lors de l’affichage du nombre total d’heures planifiées du projet dans la section Utilisation .
-* **Panneau Attribution des rôles** dans la liste des tâches : les heures planifiées pour les tâches et les problèmes du projet affectés à un rôle de tâche ou à un utilisateur associé à un rôle de tâche s’affichent dans cette zone. Les heures planifiées associées aux tâches et aux problèmes qui ne sont pas affectés ou affectés aux équipes ne s’affichent pas dans cette zone. Pour plus d’informations, voir [Affichage des heures planifiées du projet dans le panneau Attribution des rôles](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
+* **L’équilibreur de charge de travail** : seules les heures planifiées associées aux tâches visibles dans l’équilibreur de charge de travail s’affichent dans l’équilibreur de charge de travail pour les projets. Les affectations quotidiennes de l’utilisateur peuvent modifier les heures planifiées quotidiennes du projet dans l’équilibreur de charge de travail.
+* **Section d’utilisation** : les heures planifiées associées aux utilisateurs affectés aux tâches et aux problèmes du projet sont prises en compte lors de l’affichage du nombre total d’heures planifiées pour le projet dans la section Utilisation .
+* **Panneau Affectation de rôle** dans la liste des tâches : les heures planifiées pour les tâches et les problèmes du projet affectés à un rôle de tâche ou à un utilisateur associé à un rôle de tâche s’affichent dans cette zone. Les heures planifiées associées aux tâches et aux problèmes qui ne sont pas affectés ou affectés aux équipes ne s’affichent pas dans cette zone. Pour plus d’informations, voir [Affichage des heures planifiées du projet dans le panneau Attribution des rôles](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 
 ## Répartition des heures planifiées sur la durée d’une tâche
 
@@ -84,36 +84,36 @@ Le nombre d’heures planifiées affichées provient des tâches du projet ou es
 Vous pouvez localiser Heures planifiées dans les zones suivantes de Workfront :
 
 * [Section Détails d’un projet, d’une tâche ou d’un problème](#the-details-section-of-a-project-task-or-issue)
-* [Zone Modifier la tâche ou Modifier le problème](#the-edit-task-or-edit-issue-box)
+* [La zone Modifier la tâche ou Modifier le problème](#the-edit-task-or-edit-issue-box)
 * [Rapports](#reports)
-* [L’équilibreur de charge de travail](#the-workload-balancer)
+* [L’équilibreur De Charge De Travail](#the-workload-balancer)
 * [Le planificateur de ressources](#the-resource-planner)
-* [Rapport Utilisation](#the-utilization-report)
+* [Rapport d’utilisation](#the-utilization-report)
 * [Panneau Attribution des rôles](#the-role-allocation-panel)
 
 ### Section Détails d’un projet, d’une tâche ou d’un problème {#the-details-section-of-a-project-task-or-issue}
 
-![Heures planifiées dans la section Détails](assets/planned-hours-on-details-for-project.png)
+![Section Heures planifiées sur les détails](assets/planned-hours-on-details-for-project.png)
 
 Les Heures planifiées de la section Détails d’une tâche, d’un problème ou d’un projet sont le nombre total d’Heures planifiées associées à l’élément.
 
-Pour plus d’informations sur les heures planifiées du projet, voir [Heures planifiées des tâches par rapport aux heures planifiées des projets](#planned-hours-on-tasks-vs-planned-hours-on-projects) dans cet article.
+Pour plus d’informations sur les heures planifiées du projet, reportez-vous à la section [Heures planifiées pour les tâches par rapport aux heures planifiées pour les projets](#planned-hours-on-tasks-vs-planned-hours-on-projects) de cet article.
 
 ### Zone Modifier la tâche ou Modifier le problème {#the-edit-task-or-edit-issue-box}
 
-![Modifier la tâche](assets/planned-hours-on-edit-task-box-nwe.png)
+![Boîte de dialogue Modifier la tâche](assets/planned-hours-on-edit-task-box-nwe.png)
 
 Les Heures planifiées dans la zone Modifier d’une tâche ou d’un problème correspondent au total des Heures planifiées de l’élément correspondant.
 
-Pour plus d’informations sur les heures planifiées du projet, voir [Heures planifiées des tâches par rapport aux heures planifiées des projets](#planned-hours-on-tasks-vs-planned-hours-on-projects) dans cet article.
+Pour plus d’informations sur les heures planifiées du projet, reportez-vous à la section [Heures planifiées pour les tâches par rapport aux heures planifiées pour les projets](#planned-hours-on-tasks-vs-planned-hours-on-projects) de cet article.
 
-Pour les tâches, vous pouvez modifier le montant des heures planifiées uniquement pour certains types de durée. Pour plus d’informations, voir [Mise à jour des heures planifiées de la tâche en fonction du type de durée](#update-task-planned-hours-based-on-duration-type) dans cet article.
+Pour les tâches, vous pouvez modifier le montant des heures planifiées uniquement pour certains types de durée. Pour plus d’informations, reportez-vous à la section [Mise à jour des heures planifiées de la tâche en fonction du type de durée](#update-task-planned-hours-based-on-duration-type) de cet article.
 
 Vous pouvez afficher l’affectation individuelle des heures planifiées pour chaque utilisateur ou rôle de tâche affecté à la tâche ou au problème dans la zone Affectations .
 
 ### Rapports {#reports}
 
-![Rapport Heures planifiées](assets/planned-hours-on-task-report.png)
+![Heures planifiées sur le rapport](assets/planned-hours-on-task-report.png)
 
 Vous pouvez ajouter le champ Heures planifiées dans les rapports de projet, de tâche et d’émission.
 
@@ -144,9 +144,9 @@ The daily hour amount represents one of the following:
   For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 -->
 
-### L’équilibreur de charge de travail {#the-workload-balancer}
+### Équilibreur de charge de travail {#the-workload-balancer}
 
-![Heures planifiées dans l’équilibreur de charge](assets/planned-hours-on-wb-expanded-with-pti-info.png)
+![Heures planifiées dans l’équilibreur de charge de travail](assets/planned-hours-on-wb-expanded-with-pti-info.png)
 
 Les heures planifiées suivantes pour les tâches, problèmes et projets s’affichent dans l’équilibreur de charge de travail à droite de la tâche, du problème ou du nom du projet :
 
@@ -164,7 +164,7 @@ Le nombre d’heures planifiées par jour représente l’une des heures suivant
 * le montant par défaut réparti uniformément par Workfront pour chaque jour de la durée des tâches, des problèmes ou du projet ;
 * l’affectation quotidienne ajustée gérée par les gestionnaires de ressources
 
-  Pour plus d’informations sur l’ajustement des allocations quotidiennes dans l’équilibreur de charge de travail, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Pour plus d’informations sur l’ajustement des affectations quotidiennes dans l’équilibreur de charge de travail, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### Le planificateur de ressources {#the-resource-planner}
 
@@ -178,14 +178,14 @@ Vous pouvez afficher les affectations hebdomadaires des heures planifiées pour 
 >
 >Les ajustements quotidiens de l’équilibreur de charge de travail influent sur les affectations hebdomadaires pour les tâches et les problèmes du planificateur de ressources.
 
-Le nombre d’heures planifiées pour chaque objet varie en fonction de la vue que vous appliquez au planificateur de ressources. Pour plus d’informations, voir [Vue d’ensemble des heures, de l’éditeur de texte enrichi et des coûts dans les vues Projet et Rôle du planificateur de ressources](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Le nombre d’heures planifiées pour chaque objet varie en fonction de la vue que vous appliquez au planificateur de ressources. Pour plus d’informations, voir [Aperçu des heures, de l’ETR et des informations de coût dans les vues Projet et Rôle du planificateur de ressources](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 Le nombre d’heures planifiées par semaine pour les tâches et les problèmes représente l’un des éléments suivants :
 
 * le montant hebdomadaire par défaut réparti uniformément par Workfront pour chaque jour de la durée des tâches ou des problèmes ;
 * l’affectation hebdomadaire ajustée gérée par les gestionnaires de ressources dans l’équilibreur de charge de travail ;
 
-  Pour plus d’informations sur l’ajustement des allocations quotidiennes dans l’équilibreur de charge de travail, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Pour plus d’informations sur l’ajustement des affectations quotidiennes dans l’équilibreur de charge de travail, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Le montant hebdomadaire des projets, des utilisateurs et des rôles dépend du nombre hebdomadaire d’heures planifiées pour les tâches et les problèmes qui y sont associés.
 
@@ -202,7 +202,7 @@ Vous pouvez afficher les types d’heures planifiées suivants dans le rapport U
 * le nombre total d’heures planifiées de toutes les affectations du projet pour la durée de vie globale des projets inclus ;
 * le total des heures planifiées de toutes les affectations uniquement pour la période spécifiée (vous pouvez spécifier une semaine ou un mois spécifique).
 
-  Lorsque l’affectation quotidienne de l’utilisateur pour les heures a été ajustée à l’aide de l’équilibreur de charge de travail, les heures planifiées d’une période spécifique peuvent être affectées si les dates sélectionnées dans le rapport Utilisation contiennent seulement une partie de la durée d’une tâche ou d’un problème. Pour plus d’informations sur l’ajustement des allocations quotidiennes pour les utilisateurs, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Lorsque l’affectation quotidienne de l’utilisateur pour les heures a été ajustée à l’aide de l’équilibreur de charge de travail, les heures planifiées d’une période spécifique peuvent être affectées si les dates sélectionnées dans le rapport Utilisation contiennent seulement une partie de la durée d’une tâche ou d’un problème. Pour plus d’informations sur l’ajustement des allocations quotidiennes pour les utilisateurs, voir [Gestion des allocations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Pour plus d’informations, voir [Affichage des informations sur l’utilisation des ressources](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
@@ -212,38 +212,38 @@ Dans le panneau Affectation du rôle, les heures planifiées représentent le no
 
 >[!TIP]
 >
-Notez que les heures planifiées associées aux utilisateurs ne s’affichent pas dans le panneau Attribution des rôles .
+>Notez que les heures planifiées associées aux utilisateurs ne s’affichent pas dans le panneau Attribution des rôles .
 
-Pour plus d’informations, voir [Afficher l’affectation des rôles pour les projets et les initiatives dans l’équilibreur de charge de travail](../../../scenario-planner/show-role-allocation-workload-balancer.md).
+Pour plus d’informations, voir [Afficher l’attribution des rôles pour les projets et les initiatives dans l’équilibreur de charge de travail](../../../scenario-planner/show-role-allocation-workload-balancer.md).
 
 ## Mise à jour des heures planifiées de la tâche en fonction du type de durée {#update-task-planned-hours-based-on-duration-type}
 
 Vous ne pouvez mettre à jour le total des heures planifiées sur les tâches lors de l’édition des tâches que si les tâches ont un certain type de durée.
 
-Les scénarios suivants existent :
+Les scénarios suivants sont possibles :
 
 * Vous ne pouvez modifier les heures planifiées pour les tâches que lorsque vous utilisez les types d’affectation calculée ou de durée simple lors de la modification d’une tâche.
 
-  Pour plus d’informations sur le type de durée d’affectation calculée, voir [Présentation du type de durée : Attribution calculée](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).
+  Pour plus d’informations sur le type de durée d’affectation calculée, voir [Présentation du type de durée : affectation calculée](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).
 
-  Pour plus d’informations sur le type de durée simple, voir [Présentation du type de durée : simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+  Pour plus d’informations sur le type de durée simple, voir [Présentation du type de durée : Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
-* Vous ne pouvez mettre à jour les heures planifiées de la tâche dans l’équilibreur de charge de travail que pour les tâches de type Durée simple lorsque vous gérez les affectations des utilisateurs aux tâches. Pour plus d’informations sur la gestion des affectations d’utilisateurs dans l’équilibreur de charge de travail, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* Vous ne pouvez mettre à jour les heures planifiées de la tâche dans l’équilibreur de charge de travail que pour les tâches de type Durée simple lorsque vous gérez les affectations des utilisateurs aux tâches. Pour plus d’informations sur la gestion des affectations utilisateur dans l’équilibreur de charge de travail, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 * Vous ne pouvez pas modifier les heures planifiées pour les tâches avec un type de durée de travail piloté par l’effort ou de travail calculé. Dans ce cas, Workfront détermine les heures planifiées en fonction de la durée de la tâche. Toutefois, dans ce cas, les heures planifiées sont toujours égales à la durée (en heures) et elles ne sont pas affectées par l’allocation de pourcentage des ressources affectées.
 
   Pour plus d’informations sur le type de durée pilotée par l’effort, voir [Présentation du type de durée : piloté par l’effort](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
-  Pour plus d’informations sur le type de durée de travail calculée, voir [Présentation du type de durée : travail calculé](../../../manage-work/tasks/taskdurtn/calculated-work.md).
+  Pour plus d’informations sur le type de durée de travail calculé, consultez la [présentation du type de durée : travail calculé](../../../manage-work/tasks/taskdurtn/calculated-work.md).
 
-## Mettre à jour les heures planifiées de la tâche lors de la gestion des affectations utilisateur
+## Mettre à jour le nombre d’heures prévues de la tâche lors de la gestion des affectations des personnes
 
 Vous pouvez mettre à jour les heures planifiées pour les tâches lorsque vous mettez manuellement à jour les affectations de rôles d’utilisateur ou de tâche en tâches. Cela n’est possible que si les tâches ont un type de durée simple.
 
-Pour plus d’informations, voir [Présentation du type de durée : simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+Pour plus d’informations, voir [Présentation du type de durée : Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
 Vous pouvez mettre à jour l’affectation globale des utilisateurs et des rôles affectés à la tâche, ou les affectations quotidiennes de l’utilisateur lors de l’utilisation de l’équilibreur de charge de travail.
 
-Pour plus d’informations sur la gestion de l’affectation globale des rôles utilisateur et de tâche pour les tâches, voir [Gestion des heures d’affectation des utilisateurs et des rôles pour les tâches](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
+Pour plus d’informations sur la gestion de l’affectation globale des rôles utilisateur et de tâche pour les tâches, voir [Gestion des heures d’affectation des utilisateurs et des rôles sur les tâches](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 Pour plus d’informations sur la gestion des affectations quotidiennes pour les tâches, voir [Gestion des affectations utilisateur dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -257,16 +257,16 @@ Les scénarios suivants se produisent lors de la mise à jour manuelle des affec
 
 >[!NOTE]
 >
-Par exemple, si une tâche comporte 10 heures planifiées et que vous avez deux cessionnaires, chacun se voit attribuer 5 heures, par défaut.
+>Par exemple, si une tâche comporte 10 heures planifiées et que vous avez deux cessionnaires, chacun se voit attribuer 5 heures, par défaut.
 >
-* Si vous ne mettez pas à jour l’affectation individuelle de l’utilisateur ou les allocations quotidiennes à l’aide de l’équilibreur de charge de travail et que vous supprimez tous les ou n’importe lequel des cessionnaires de la tâche, la tâche Heures planifiées reste de 10 heures.
-* Si vous définissez manuellement les affectations des affectations sur 4 et 6 heures, respectivement, et que vous supprimez l’utilisateur affecté à 6 heures ainsi que son rôle de tâche, la tâche Heures planifiées passe à 4 heures. Si vous supprimez également l’utilisateur qui a été affecté à 4 heures, mais que vous conservez le rôle de tâche associé à l’utilisateur supprimé, les Heures planifiées de la tâche restent 4 heures. Si vous supprimez le dernier utilisateur qui a été affecté à 4 heures ainsi que son rôle de tâche et que la tâche reste non affectée, la tâche Heures planifiées passe à 0.
+>* Si vous ne mettez pas à jour l’affectation individuelle de l’utilisateur ou les allocations quotidiennes à l’aide de l’équilibreur de charge de travail et que vous supprimez tous les ou n’importe lequel des cessionnaires de la tâche, la tâche Heures planifiées reste de 10 heures.
+>* Si vous définissez manuellement les affectations des affectations sur 4 et 6 heures, respectivement, et que vous supprimez l’utilisateur affecté à 6 heures ainsi que son rôle de tâche, la tâche Heures planifiées passe à 4 heures. Si vous supprimez également l’utilisateur qui a été affecté à 4 heures, mais que vous conservez le rôle de tâche associé à l’utilisateur supprimé, les Heures planifiées de la tâche restent 4 heures. Si vous supprimez le dernier utilisateur qui a été affecté à 4 heures ainsi que son rôle de tâche et que la tâche reste non affectée, la tâche Heures planifiées passe à 0.
 
 ## Mise à jour automatique des heures planifiées de la tâche à l’aide de l’effort de travail
 
 Lorsque vous utilisez l’effort de travail pour estimer l’effort nécessaire à la réalisation d’une tâche, le nombre d’heures planifiées pour les tâches est automatiquement mis à jour. Cela n’est possible que pour les tâches avec un type de durée simple.
 
-Pour plus d’informations sur l’utilisation de l’effort de travail pour estimer l’effort de tâche, voir [Présentation de l’effort de travail](../../../manage-work/tasks/task-information/work-effort.md).
+Pour plus d’informations sur l’utilisation de l’effort de travail pour estimer l’effort de tâche, consultez la [présentation de l’effort de travail](../../../manage-work/tasks/task-information/work-effort.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this issue has the explanation of how Planned Hours should work - from Vazgen and Anna: https://hub.workfront.com/issue/6217dced00730b7034c4b808339a35ce/</p>

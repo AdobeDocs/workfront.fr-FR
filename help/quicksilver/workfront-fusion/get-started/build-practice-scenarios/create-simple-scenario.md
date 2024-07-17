@@ -2,22 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Créez un scénario de base dans [!DNL Adobe Workfront Fusion]
-description: Découvrez comment créer un scénario d’automatisation simple avec Adobe Workfront Fusion. Les scénarios d’automatisation automatisent les processus Workfront, notamment la manipulation et la transformation des données. Cet exemple vous guide tout au long du processus de création d’un scénario qui recherche une [!DNL Workfront] dans Workfront et la convertit en projet.
+title: Création d’un scénario de base dans [!DNL Adobe Workfront Fusion]
+description: Découvrez comment créer un scénario d’automatisation simple avec Adobe Workfront Fusion. Les scénarios d’automatisation automatisent les processus Workfront, notamment la manipulation et la transformation des données. Cet exemple vous guide tout au long du processus de création d’un scénario qui recherche une tâche  [!DNL Workfront] dans Workfront et la convertit en projet.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 91d3dcde8eda416286c6781f6eef85404fd382c2
+exl-id: 06fa7e15-b8dc-4fe1-9703-c160d580ef79
+source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 0%
+ht-degree: 33%
 
 ---
 
-# Créez un scénario de base dans [!DNL Adobe Workfront Fusion]
+# Création d’un scénario de base dans [!DNL Adobe Workfront Fusion]
 
-Le rôle de [!DNL Adobe Workfront Fusion] est d’automatiser vos processus afin que vous puissiez vous concentrer sur de nouvelles tâches plutôt que de répéter les mêmes tâches encore et encore. Il fonctionne en liant les actions dans et entre les applications et les services pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
+[!DNL Adobe Workfront Fusion] vise à automatiser vos processus afin que vous puissiez vous concentrer sur de nouvelles tâches, plutôt que de répéter les mêmes tâches encore et encore. L’application fonctionne en reliant les actions au sein et entre les applications et les services, pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
 
-Cet exemple vous guide tout au long du processus de création d’un scénario qui recherche une [!DNL Workfront] dans Workfront et la convertit en projet.
+Cet exemple vous guide tout au long du processus de création d’un scénario qui recherche une tâche [!DNL Workfront] dans Workfront et la convertit en projet.
 
 <!--# Access requirements
 
@@ -59,11 +60,11 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 -->
 
-## Création d’un scénario d’entraînement
+## Créer un scénario de test
 
 ### Commencer à créer le scénario
 
-1. Dans le **Scénarios** zone, cliquez sur **Création d’un scénario**.
+1. Dans la zone **Scénarios**, cliquez sur **Créer un nouveau scénario**.
 
    <!--To locate the Scenarios area, see navigation article-->
 
@@ -71,8 +72,8 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    <!--picture?-->
 
-1. Sélectionnez la variable **[!UICONTROL Nouveau scénario]** nom de l’espace réservé dans le coin supérieur gauche, puis saisissez un nom.
-1. Passez à la [Ajouter et configurer le premier module](#add-and-configure-the-first-module) ci-dessous
+1. Sélectionnez le nom d’espace réservé **[!UICONTROL Nouveau scénario]** dans le coin supérieur gauche, puis saisissez un nom.
+1. Passez à l’étape [Ajouter et configurer le premier module](#add-and-configure-the-first-module) ci-dessous.
 
 ### Ajouter et configurer le premier module
 
@@ -80,87 +81,87 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    Une liste d’applications s’affiche à droite du module.
 
-1. Sélectionner **[!DNL Adobe Workfront]**. Si elle n’est pas visible, cliquez sur la barre de recherche située en bas de la liste, saisissez &quot;Workfront&quot;, puis sélectionnez-la lorsqu’elle apparaît dans la liste.
+1. Sélectionnez **[!DNL Adobe Workfront]**. Si elle n’est pas visible, cliquez sur la barre de recherche située en bas de la liste, saisissez &quot;Workfront&quot;, puis sélectionnez-la lorsqu’elle apparaît dans la liste.
 
-   La liste change pour afficher toutes les [!DNL Workfront] modules utilisables.
+   La liste change pour afficher tous les modules [!DNL Workfront] que vous pouvez utiliser.
 
-1. Cliquez sur le bouton **[!UICONTROL Rechercher]** module .
+1. Cliquez sur le module **[!UICONTROL Recherche]** .
 
    La fenêtre de configuration du module s’ouvre.
 
-1. Dans le [!UICONTROL Connexion] , sélectionnez votre connexion Workfront.
+1. Dans la zone [!UICONTROL Connexion], sélectionnez votre connexion Workfront.
 
-   Si vous ne disposez pas d’une connexion Workfront, voir [Créer une connexion à [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/connections/connect-to-fusion-general.md)
-1. Dans le [!UICONTROL Type d’enregistrement] , sélectionnez **[!UICONTROL Tâche]**. Le module est ainsi configuré pour effectuer uniquement des recherches dans les tâches.
+   Si vous ne disposez pas d’une connexion Workfront, voir [Création d’une connexion à [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/connections/connect-to-fusion-general.md)
+1. Dans la zone [!UICONTROL Record Type], sélectionnez **[!UICONTROL Task]**. Le module est ainsi configuré pour effectuer uniquement des recherches dans les tâches.
 
-   Vous pouvez trouver **[!UICONTROL Tâche]** dans la liste si vous commencez à saisir le mot &quot;[!UICONTROL tâche].&quot;
+   Vous pouvez trouver **[!UICONTROL Tâche]** dans la liste si vous commencez à saisir le mot &quot;[!UICONTROL tâche]&quot;.
 
-1. Dans le **[!UICONTROL Jeu de résultats]** , sélectionnez **[!UICONTROL Premier enregistrement correspondant]**.
+1. Dans la zone **[!UICONTROL Result Set]**, sélectionnez **[!UICONTROL First Matching Record]**.
 
    Cela définit le module pour renvoyer uniquement le premier enregistrement qui répond aux critères.
-1. Dans le **[!UICONTROL Critères de recherche]** , configurez les critères pour renvoyer la tâche spécifique.
+1. Dans la zone **[!UICONTROL Critères de recherche]**, configurez les critères pour renvoyer la tâche spécifique.
 
-   1. Dans la première zone sous [!UICONTROL Critères de recherche], sélectionnez le champ à inclure dans votre recherche. Pour cet exemple, sélectionnez **[!UICONTROL Nom]**.
+   1. Dans la première zone sous [!UICONTROL Critères de recherche], sélectionnez le champ que vous souhaitez inclure dans votre recherche. Pour cet exemple, sélectionnez **[!UICONTROL Nom]**.
 
-      Vous pouvez trouver **[!UICONTROL Nom]** dans la liste si vous commencez à saisir le mot &quot;[!UICONTROL name].&quot;
-   1. Pour l’opérateur, cliquez sur la flèche déroulante en regard de **Existe** et modifiez-le en [!UICONTROL **Contient (non-respect de la casse)**].
+      **[!UICONTROL Name]** est disponible dans la liste si vous commencez à saisir le mot &quot;[!UICONTROL name]&quot;.
+   1. Pour l’opérateur, cliquez sur la flèche de liste déroulante en regard de **Exist** et remplacez-la par [!UICONTROL **Contains (insensible à la casse)**].
 
       Cela permet au module de rechercher des projets dont le nom contient les mots de votre choix, même si vous ne saisissez pas l’intégralité du nom, ou si vous saisissez le nom avec une casse incorrecte (toutes les majuscules, par exemple).
-   1. Dans le dernier champ sous [!UICONTROL Critères de recherche], saisissez un mot ou une expression dont vous savez qu’il se trouve dans le nom de la tâche que vous recherchez.
+   1. Dans le dernier champ sous [!UICONTROL Critères de recherche], saisissez un mot ou une expression qui figure dans le nom de la tâche que vous recherchez.
 
-1. Dans le **[!UICONTROL Sorties]** sélectionnez les champs que le module doit générer. Dans cet exemple, sélectionnez l’option **[!UICONTROL ID]** et **[!UICONTROL Nom]** des champs.
+1. Dans la liste **[!UICONTROL Sorties]**, sélectionnez les champs que le module doit générer. Pour cet exemple, sélectionnez les champs **[!UICONTROL ID]** et **[!UICONTROL Nom]**.
 
    >[!TIP]
    >
-   >Vous pouvez utiliser **Cmd+F** ([!DNL Mac] OS) ou **Ctrl+F** ([!DNL Windows] Système d’exploitation) pour trouver rapidement un champ.
+   >Utilisez les raccourcis clavier **Cmd+F** ([!DNL Mac]OS) ou **Ctrl+F** (système d’exploitation [!DNL Windows]) pour trouver rapidement un champ.
 
 1. Cliquez sur **[!UICONTROL OK]** pour enregistrer la configuration du module.
 
-1. Cliquez avec le bouton droit sur le module, puis cliquez sur **[!UICONTROL Renommer]**, puis saisissez un nom qui décrit ce que le module doit faire (par exemple &quot;Rechercher une tâche&quot;), puis cliquez sur **[!UICONTROL OK]**.
+1. Cliquez avec le bouton droit sur le module, cliquez sur **[!UICONTROL Renommer]**, puis saisissez un nom qui décrit ce que vous souhaitez que le module fasse (par exemple &quot;Rechercher une tâche&quot;), puis cliquez sur **[!UICONTROL OK]**.
 
-   Le nom apparaît juste en dessous du module. En dessous : [!DNL Workfront Fusion] inclut une brève description du type d’action effectuée par le module.
+   Le nom apparaît juste en dessous du module. En dessous du nom, [!DNL Workfront Fusion] présente une brève description du type d’action effectuée par le module.
 
    ![](assets/module-renamed-wf.png)
 
-1. Passez à la [Ajouter et configurer le deuxième module](#add-and-configure-the-second-module).
+1. Passez à l’étape [Ajouter et configurer le deuxième module](#add-and-configure-the-second-module).
 
 ## Ajouter et configurer le deuxième module
 
-1. Pointez sur le cercle partiel à droite du module, puis cliquez sur **[!UICONTROL Ajouter un autre module]**.
-1. Sélectionner [!DNL Adobe Workfront] dans la liste des applications, puis choisissez le module **[!UICONTROL Conversion, objet]**.
-1. Dans le [!UICONTROL Connexion] , sélectionnez la même connexion Workfront que celle utilisée dans le module précédent .
-1. Dans le **[!UICONTROL Type d’enregistrement]** champ, sélectionnez **[!UICONTROL Tâche]**, car le module convertit une tâche.
-1. Dans le **[!UICONTROL Convertir en]** champ, sélectionnez **Projet**.
+1. Passez la souris sur le cercle partiel situé à droite du du module, puis cliquez sur **[!UICONTROL Ajouter un autre module]**.
+1. Sélectionnez [!DNL Adobe Workfront] dans la liste des applications, puis choisissez le module **[!UICONTROL Convert object]**.
+1. Dans le champ [!UICONTROL Connexion] , sélectionnez la même connexion Workfront que celle utilisée dans le module précédent .
+1. Dans le champ **[!UICONTROL Type d&#39;enregistrement]**, sélectionnez **[!UICONTROL Tâche]**, car le module convertit une tâche.
+1. Dans le champ **[!UICONTROL Convertir en]**, sélectionnez **Projet**.
 1. En regard du champ ID de la tâche, cliquez sur le bouton bascule de la carte pour l’activer.
 
    Le bouton bascule devient bleu lorsqu’il est activé. Cela vous permet de mapper l’identifiant de tâche du module précédent.
 
-   ![Bascule des cartes](assets/map-toggle.png)
-1. Cliquez sur le bouton **[!UICONTROL Task ID]** champ .
+   ![Bascule de carte](assets/map-toggle.png)
+1. Cliquez sur le champ **[!UICONTROL Task ID]** .
 
    Un panneau s’ouvre. Il vous permet de sélectionner l’identifiant de la tâche à convertir en projet. Comme vous avez activé le mappage, le panneau inclut la sortie de tous les modules précédents. Vous avez sélectionné ID en tant que sortie du module précédent. Il est donc désormais disponible dans le panneau.
 
-   Ce panneau s’appelle le panneau de mappage. Pour plus d’informations sur le panneau de mappage, voir [Mise en correspondance des informations d’un module avec un autre](/help/quicksilver/workfront-fusion/mapping/map-information-between-modules.md).
-1. Sélectionner **ID** dans le panneau de mappage.
+   Ce panneau s’appelle le panneau de mappage. Pour plus d’informations sur le panneau de mappage, voir [Mappage des informations d’un module vers un autre](/help/quicksilver/workfront-fusion/mapping/map-information-between-modules.md).
+1. Sélectionnez **ID** dans le panneau de mappage.
 
    Un bloc ID apparaît dans le champ ID. Il indique le nombre du module à partir duquel il est mappé et le champ qui est mappé.
 
-   ![ID de mappage](assets/map-id.png)
+   ![ID de carte](assets/map-id.png)
 
-1. Cliquez sur le bouton **ID de modèle** , commencez à saisir le nom du modèle Workfront à utiliser pour ce projet, puis sélectionnez-le lorsqu’il apparaît dans la liste.
+1. Cliquez sur le champ **ID de modèle**, commencez à saisir le nom du modèle Workfront que vous souhaitez utiliser pour ce projet, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 1. Cliquez sur **[!UICONTROL OK]** pour enregistrer la configuration du module.
 
-1. Cliquez avec le bouton droit sur le module, puis cliquez sur **[!UICONTROL Renommer]**, puis saisissez un nom qui décrit ce que le module doit faire (par exemple &quot;Convertir en projet&quot;), puis cliquez sur **[!UICONTROL OK]**.
+1. Cliquez avec le bouton droit sur le module, cliquez sur **[!UICONTROL Renommer]**, puis saisissez un nom qui décrit ce que vous souhaitez que le module fasse (par exemple &quot;Convertir en projet&quot;), puis cliquez sur **[!UICONTROL OK]**.
 
 1. Passez à [Test du scénario](#test-the-scenario).
 
-## Test du scénario
+## Tester le scénario
 
-Avant d’activer votre scénario, il est important de le tester en l’exécutant au moins une fois et en affichant les résultats. Vous pouvez ainsi comprendre le flux des données dans le scénario et rechercher les erreurs.
+Avant d’activer votre scénario, il est important de le tester en l’exécutant au moins une fois et en consultant les résultats. Vous pouvez ainsi comprendre le flux des données dans le scénario et rechercher les erreurs.
 
 Pour ce scénario, un test réussi permet de localiser la nouvelle tâche et de la convertir en projet.
 
-1. Cliquez sur **[!UICONTROL Exécuter une seule fois]** dans le coin inférieur gauche de l’éditeur de scénarios.
+1. Cliquez sur **[!UICONTROL Exécuter une seule fois]** dans le coin inférieur gauche de l’éditeur de scénario.
 1. Une fois le scénario en cours d’exécution terminé, cliquez sur la bulle au-dessus du premier module pour afficher des informations sur le lot de données traité par le module, y compris les données extraites de la tâche renvoyée par le module.
 
 1. Cliquez sur la bulle d’inspection d’exécution au-dessus du deuxième module pour voir l’entrée (la tâche) et la sortie (le projet converti).
@@ -174,39 +175,38 @@ Pour ce scénario, un test réussi permet de localiser la nouvelle tâche et de 
 
    >[!IMPORTANT]
    >
-   >Enregistrez souvent lorsque vous affinez et testez un scénario.
+   >Enregistrez à intervalles réguliers lorsque vous affinez et testez un scénario.
 
 >[!TIP]
 >
->Nous recommandons la pratique facultative mais utile d’ajouter des notes sur chaque module.
+>Nous recommandons d’ajouter des notes sur chaque module pour indiquer ses objectifs.
 >
->1. Cliquez avec le bouton droit sur un [!DNL Workfront] module, puis cliquez sur **[!UICONTROL Ajouter une note]**.
->1. Dans la note qui s’affiche, saisissez un aperçu du module.
+>1. Cliquez avec le bouton droit sur un module [!DNL Workfront], puis cliquez sur **[!UICONTROL Ajouter une note]**.
+>1. Dans la note qui s’affiche, saisissez une description générale du module.
 >
 >    Vous pouvez ajouter plusieurs notes pour un module.
 >
->1. Fermez la **[!UICONTROL Remarques]** zone.
+>1. Fermez la zone **[!UICONTROL Remarques]**.
 >
->     Après avoir ajouté une note à un scénario, un point orange s’affiche sur la page **[!UICONTROL Remarques]** icon ![](assets/notes-icon-w-dot.png) au bas de l’éditeur de scénario.
+>     Après avoir ajouté une note à un scénario, un point orange s’affiche sur l’icône **[!UICONTROL Remarques]** ![](assets/notes-icon-w-dot.png) au bas de l’éditeur de scénario.
 >
->1. Cliquez sur le bouton **[!UICONTROL Remarques]** icon ![](assets/notes-icon-w-dot.png) pour afficher vos notes.
+>1. Cliquez sur l’icône **[!UICONTROL Remarques]** ![](assets/notes-icon-w-dot.png) pour afficher vos notes.
 >
 
-## Activation du scénario
+## Activer le scénario
 
 La dernière étape de la création d’un scénario consiste à l’activer.
 
-Comme ce scénario recherche une tâche spécifique, il n’est pas nécessaire de l’activer. L’activation d’un scénario entraîne son exécution selon un planning ou lorsqu’une action spécifique se produit dans une application. Une fois que vous avez activé un scénario, celui-ci s’exécute par défaut toutes les 15 minutes. Vous pouvez modifier ce paramètre en définissant quand et à quelle fréquence il doit s’exécuter.
+Comme ce scénario recherche une tâche spécifique, il n’est pas nécessaire de l’activer. L’activation d’un scénario entraîne son exécution selon un planning ou lorsqu’une action spécifique se produit dans une application. Une fois que vous avez activé un scénario, celui-ci s’exécute par défaut toutes les 15 minutes. Vous pouvez modifier ce paramètre en définissant le moment et la fréquence d’exécution.
 
-Pour plus d’informations sur l’activation de scénarios, voir [Activez ou désactivez un scénario dans [!UICONTROL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+Pour plus d’informations sur l’activation de scénarios, voir [Activer ou désactiver un scénario dans [!UICONTROL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
-Pour plus d’informations sur les plannings, voir [Planification d’un scénario dans [!UICONTROL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/scenarios/schedule-a-scenario.md).
+Pour plus d’informations sur les plannings, voir [Planifier un scénario dans [!UICONTROL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/scenarios/schedule-a-scenario.md).
 
 ## Étapes suivantes
 
-* [Ajout d’un module de déclenchement](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md) pour permettre au scénario de rechercher périodiquement de nouvelles requêtes et de les convertir en projets.
+* [Ajoutez un module de déclenchement](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md) pour permettre au scénario de rechercher régulièrement de nouvelles requêtes et de les convertir en projets.
 * Ajoutez un webhook pour permettre au scénario de s’exécuter chaque fois qu’une requête est saisie.
 * Ajoutez un filtre pour vous assurer que seules certaines requêtes sont converties en projets.
 * Ajoutez une fonction qui personnalise le nom du nouveau projet.
 * Ajoutez une gestion des erreurs pour vous assurer que le scénario est résilient face aux erreurs.
-

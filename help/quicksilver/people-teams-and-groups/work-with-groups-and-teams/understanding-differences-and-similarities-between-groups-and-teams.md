@@ -2,7 +2,7 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
-title: Groupes par rapport aux équipes dans Adobe Workfront
+title: Groupes et équipes dans Adobe Workfront
 description: Les groupes et les équipes sont des groupes d’utilisateurs dans Adobe Workfront.
 author: Lisa
 feature: People Teams and Groups
@@ -10,7 +10,7 @@ exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -50,7 +50,7 @@ Le tableau suivant illustre les différences et les similitudes entre les groupe
 | Seul un administrateur Workfront peut créer | ✓ |  |
 | Partage d’objets | ✓ | ✓ |
 | Affecter une tâche |  | ✓ |
-| Attribuer un problème |  | ✓ |
+| Affecter un problème |  | ✓ |
 | Associer à un projet | ✓ |  |
 | Désigner en tant qu’approbateur dans un processus d’approbation |  | ✓ |
 | Déclencheur de notifications pour tous les membres à la fois |  | ✓ |
@@ -67,5 +67,5 @@ Le tableau suivant illustre les différences et les similitudes entre les groupe
 | Attribuer des modèles de mise en page | ✓ | ✓ |
 | Tout utilisateur disposant d’une licence Plan peut l’affecter à un autre utilisateur. |  | ✓ |
 | Personnalisation des états | ✓ |  |
-| Personnalisez le [!UICONTROL Terminé] button |  | ✓ |
+| Personnaliser le bouton [!UICONTROL Terminé] |  | ✓ |
 | Suivi des licences | ✓ |  |

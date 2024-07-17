@@ -3,13 +3,13 @@ filename: change-date-format-chrome
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Modifier le format des dates dans [!DNL Adobe Workfront]
-description: Pour modifier le format de date des dates dans [!DNL Adobe Workfront] vous devez modifier les paramètres de langue dans votre navigateur.
+description: Pour modifier le format de date des dates dans  [!DNL Adobe Workfront] vous devez modifier les paramètres de langue dans votre navigateur.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
 source-git-commit: e9a96b6952ca3f128cc723df68787f40c8dcf604
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -17,35 +17,35 @@ ht-degree: 0%
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
-Vous pouvez modifier le format de date des dates dans [!DNL Adobe Workfront], par exemple [!UICONTROL Date d’achèvement prévue], [!UICONTROL Date d’achèvement réelle], ou [!UICONTROL Date d’achèvement prévue].
+Vous pouvez modifier le format de date des dates dans [!DNL Adobe Workfront], par exemple [!UICONTROL Date d’achèvement planifiée], [!UICONTROL Date d’achèvement réelle] ou [!UICONTROL Date d’achèvement prévue].
 
-Par exemple, vous pouvez modifier le format d’une date à partir de _JJ/MM/AAAA_ to _MM/JJ/AAAA_ ou vice versa.
-Vous pouvez également modifier le format de date à partir de _MM/JJ/AA_ to _Lun JJ, AAAA_.
+Par exemple, vous pouvez remplacer le format de date _JJ/MM/AAAA_ par _MM/JJ/AAAA_ ou inversement.
+Vous pouvez également remplacer le format de date _MM/JJ/AA_ par _Lun JJ, AAAA_.
 
 Vous pouvez modifier les formats de date dans Workfront comme suit, selon les modifications que vous souhaitez afficher et l’endroit où vous souhaitez les voir.
 
-* Pour modifier tous les formats de date de toutes les pages de [!DNL Workfront] selon votre emplacement et votre langue, vous devez modifier les paramètres de langue dans votre navigateur.
+* Pour modifier tous les formats de date pour toutes les pages de [!DNL Workfront] en fonction de votre emplacement et de votre langue, vous devez modifier les paramètres de langue dans votre navigateur.
 
   Par exemple, si la langue par défaut de votre navigateur est définie sur *[!UICONTROL Anglais (États-Unis)]*, les dates s’affichent dans les formats suivants :
 
    * MM/JJ/AAAA
    * Lun JJ, AAAA
 
-  Pour modifier les paramètres de langue dans [!DNL Chrome] Pour tout autre navigateur, vous devez modifier les paramètres de ce navigateur. Les étapes de modification des paramètres d’un navigateur varient d’un navigateur à l’autre. Reportez-vous au [!UICONTROL Aide], [!UICONTROL Préférences], ou [!UICONTROL Paramètres] pour savoir comment modifier ses paramètres.
+  Pour modifier les paramètres de langue dans [!DNL Chrome] ou tout autre navigateur, vous devez modifier les paramètres de ce navigateur. Les étapes de modification des paramètres d’un navigateur varient d’un navigateur à l’autre. Reportez-vous aux zones [!UICONTROL Aide], [!UICONTROL Préférences] ou [!UICONTROL Paramètres] de votre navigateur pour savoir comment modifier ses paramètres.
 
-* Pour modifier le format des dates uniquement dans les rapports et les vues, vous devez mettre à jour la variable [!UICONTROL Format du champ] dans le [!UICONTROL Options avancées] d’une colonne, lors de la création du rapport ou de l’affichage. Cela ne modifie pas le format de date en fonction de l’emplacement ou de la langue. Il modifie le format des dates dans le contexte du même emplacement ou de la même langue.
+* Pour modifier le format des dates uniquement dans les rapports et vues, vous devez mettre à jour le paramètre [!UICONTROL Format du champ] dans la zone [!UICONTROL Options avancées] d’une colonne, lors de la création du rapport ou de la vue. Cela ne modifie pas le format de date en fonction de l’emplacement ou de la langue. Il modifie le format des dates dans le contexte du même emplacement ou de la même langue.
 
   ![](assets/field-format-in-advanced-options-of-a-view-highlighted.png)
 
-  Pour plus d’informations, voir [Création d’un rapport personnalisé](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Pour plus d’informations, consultez [Créer un rapport personnalisé](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Pour modifier le format des dates dans toutes les notifications électroniques sortantes pour l’ensemble de l’entreprise, vous devez mettre à jour la variable [!UICONTROL Paramètres régionaux de l’email par défaut] dans le [!UICONTROL Informations sur le client] area dans [!UICONTROL Configuration].
+* Pour modifier le format des dates dans toutes les notifications électroniques sortantes pour l’ensemble de votre organisation, vous devez mettre à jour le paramètre [!UICONTROL Paramètres régionaux par défaut de l’e-mail] dans la zone [!UICONTROL Informations sur le client] de [!UICONTROL Configuration].
 
   ![](assets/default-email-locale-field.png)
 
   Pour plus d’informations, voir [Configuration des informations de base pour votre système](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-* Pour modifier le format de toutes les dates dans toutes les notifications électroniques sortantes pour un seul utilisateur, vous devez mettre à jour la variable [!UICONTROL Paramètres régionaux des emails] dans le [!UICONTROL Modifier la personne] lors de la modification du profil d’un utilisateur.
+* Pour modifier le format de toutes les dates dans toutes les notifications électroniques sortantes pour un seul utilisateur, vous devez mettre à jour le paramètre [!UICONTROL Paramètre régional du courrier électronique] dans la zone [!UICONTROL Modifier la personne], lors de la modification du profil d’un utilisateur.
 
   ![](assets/email-locale-for-user-profile-highlighted.png)
 

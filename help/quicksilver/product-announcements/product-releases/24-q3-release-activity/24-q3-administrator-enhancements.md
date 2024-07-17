@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Cette page décrit toutes les améliorations apportées à l’administrateur à la version du troisième trimestre 2024 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, consultez la [présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Les règles de fonctionnement sont désormais disponibles.
 
@@ -46,7 +46,7 @@ Avec la version 24.7, le concepteur de formulaires sera disponible en général 
 
 Après cette version, vous n’aurez plus la possibilité de revenir à l’ancien créateur de formulaires.
 
-Pour plus d’informations sur le concepteur de formulaire et une démonstration vidéo, voir [note de mise à jour de la version bêta de form designer](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+Pour plus d’informations sur le concepteur de formulaire et une démonstration vidéo, consultez la [note de mise à jour bêta du concepteur de formulaire](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Déplacement d’objets entre les environnements Workfront avec promotion de l’environnement
 
@@ -58,7 +58,7 @@ La promotion d’environnement vous permet de déplacer des objets d’un enviro
 
 Auparavant, les objets devaient être configurés dans les environnements de production indépendamment des environnements de test ou d’aperçu.
 
-Pour plus d’informations sur la promotion de l’environnement, voir [Présentation du déplacement d’objets entre les environnements Workfront (promotion d’environnement)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+Pour plus d’informations sur la promotion de l’environnement, voir [Présentation des objets de déplacement entre les environnements Workfront (promotion de l’environnement)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -75,7 +75,7 @@ Pour plus d’informations sur la promotion de l’environnement, voir [Présent
 
 Vous pouvez désormais partager des formulaires personnalisés et des champs personnalisés dans le nouveau concepteur de formulaires. Cela permet une plus grande collaboration entre les utilisateurs sur les formulaires personnalisés.
 
-Pour plus d’informations, voir [Partage d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) et [Configuration du partage de champs et de widgets personnalisés avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
+Pour plus d’informations, voir [Partage d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) et [Configuration du partage de champs et de widgets personnalisés avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 ## Ajout d’un nouveau champ personnalisé à partir de la zone Champs
 
@@ -87,7 +87,7 @@ Vous pouvez désormais ajouter un nouveau champ ou widget personnalisé directem
 
 Cette fonctionnalité est disponible avec le concepteur de formulaire personnalisé et le créateur de formulaire personnalisé hérité.
 
-Pour plus d’informations, voir [Ajouter ou modifier un champ personnalisé, un saut de section ou un widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
+Pour plus d’informations, voir [Ajout ou modification d’un champ personnalisé, d’un saut de section ou d’un widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
 ## Type de champ déroulant à sélection multiple disponible sur le concepteur de formulaires
 

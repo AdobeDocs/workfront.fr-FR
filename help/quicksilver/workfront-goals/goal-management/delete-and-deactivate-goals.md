@@ -9,7 +9,7 @@ exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ Lorsque vous commencez à travailler sur un objectif qui n’a plus d’importan
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -70,14 +70,14 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Désactivation des objectifs
 
@@ -97,7 +97,7 @@ Gardez à l’esprit les éléments suivants lors de la désactivation des objec
   >Vous ne pouvez pas désactiver les objectifs à l’état En création .
 
 * Workfront arrête de calculer la progression des objectifs désactivés.
-* Les objectifs inactifs ne s’affichent plus ou ne sont plus pris en compte dans la section Graphiques des objectifs Workfront. Pour plus d’informations sur les graphiques des objectifs de Workfront, voir [Consultez des graphiques pour comprendre les tendances de progression des objectifs dans les objectifs Adobe Workfront.](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* Les objectifs inactifs ne s’affichent plus ou ne sont plus pris en compte dans la section Graphiques des objectifs Workfront. Pour plus d’informations sur les graphiques des objectifs de Workfront, voir [Révision des graphiques pour comprendre les tendances de progression des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -132,7 +132,7 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Objectifs**.
 
    La liste des objectifs s’affiche.
 
@@ -149,7 +149,7 @@ Deactivating goals differs depending on which environment you use.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Désactiver**.
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) situé à droite du nom de l’objectif, puis cliquez sur **Désactiver**.
 
 1. L’objectif est désactivé et son état devient inactif.
 
@@ -157,7 +157,7 @@ Deactivating goals differs depending on which environment you use.
 
 Vous pouvez supprimer des objectifs qui ne sont plus ou qui peuvent ne jamais être pertinents.
 
-* [Remarques concernant la suppression d’objectifs](#considerations-when-deleting-goals)
+* [Considérations relatives à la suppression d’objectifs](#considerations-when-deleting-goals)
 * [Supprimer des objectifs](#delete-goals)
 
 ### Remarques concernant la suppression d’objectifs {#considerations-when-deleting-goals}
@@ -189,14 +189,14 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Objectifs**.
 
    La liste des objectifs s’affiche.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Cliquez sur le nom d’un objectif. Cela ouvre la page d’objectif.
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Supprimer l’objectif**, puis **Supprimer**.
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) situé à droite du nom de l’objectif, puis cliquez sur **Supprimer l’objectif**, puis sur **Supprimer**.
 
    L’objectif, ses activités et ses résultats sont également supprimés et ne peuvent pas être récupérés. Les projets associés aux objectifs ou aux objectifs enfants ne sont pas supprimés.
 

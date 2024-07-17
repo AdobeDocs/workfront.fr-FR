@@ -2,20 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Génération d’un module à l’aide d’AI
+title: Générer un module à l’aide de l’AI
 description: Vous pouvez saisir une invite de texte pour créer un module HTTP configuré à l’invite.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
+exl-id: 899641a0-a104-4be9-b423-34a32e985b53
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Génération d’un module à l’aide d’AI
+# Générer un module à l’aide de l’AI
 
 <!--DO NOT DELETE - linked through CSH-->
 
@@ -51,14 +52,14 @@ Fusion AI peut actuellement générer des modules qui se connectent aux applicat
 
 ## Génération d’un module
 
-1. Ajoutez un module et sélectionnez **Génération avec l’IA** dans la liste des applications.
+1. Ajoutez un module et sélectionnez **Générer avec l’IA** dans la liste des applications.
 
    Ou
 
-   Cliquez avec le bouton droit sur une zone vide de l’éditeur de scénarios, puis sélectionnez **Génération avec l’IA**.
+   Cliquez avec le bouton droit de la souris sur une zone vide de l’éditeur de scénarios, puis sélectionnez **Générer avec l’IA**.
 1. Saisissez une invite de texte dans la zone.
 
-   Pour obtenir des conseils sur les invites, voir [Conseils pour créer des invites de texte](#tips-for-creating-text-prompts) dans cet article.
+   Pour obtenir des conseils sur les invites, reportez-vous à la section [Conseils pour créer des invites de texte](#tips-for-creating-text-prompts) de cet article.
 1. Ajoutez votre jeton API pour l’application dans le module .
 1. Vérifiez le module pour vous assurer qu’il semble être configuré pour l’application et l’action appropriées.
 1. (Conditionnel) Si le module n’est pas joint à votre scénario, faites-le glisser sur sa place.
@@ -74,21 +75,18 @@ Les invites de texte doivent inclure au minimum les informations suivantes :
 
 >[!INFO]
 >
->**Exemples**:
+>**Exemples** :
 >
 >* `Retrieve a list of my calendars from Google Calendar`
 >
->   Cela inclut l’application `Google Calendar` et l’action `Retrieve a list of my calendars`.
+>   Cela inclut l&#39;application `Google Calendar` et l&#39;action `Retrieve a list of my calendars`.
 >
 >* `Retrieve popular songs from Spotify`
 >
->   Cela inclut l’application `Spotify` et l’action `Retrieve popular songs`.
+>   Cela inclut l&#39;application `Spotify` et l&#39;action `Retrieve popular songs`.
 
 Tenez compte des points suivants lors de la création d’invites de texte :
 
 * Comme chaque module Fusion effectue une seule action, votre invite de texte doit décrire une action spécifique.
 * Utilisez un langage direct et simple.
 * Vérifiez et testez votre module. S’il ne fonctionne pas comme prévu, affinez votre invite et réessayez.
-
-
-

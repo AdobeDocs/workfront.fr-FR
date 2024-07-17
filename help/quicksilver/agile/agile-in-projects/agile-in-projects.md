@@ -11,12 +11,12 @@ exl-id: ef718507-26fc-464c-83b6-78c10cc0ccb3
 source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '28'
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
 # Agile dans les projets
 
-Cette section contient les articles suivants :
+Cette section contient les articles suivants :
 
 * [Utilisation d’Agile sur un projet](../../agile/agile-in-projects/use-agile-on-a-project.md)

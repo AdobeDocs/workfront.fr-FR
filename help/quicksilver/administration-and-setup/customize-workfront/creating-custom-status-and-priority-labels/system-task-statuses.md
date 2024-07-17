@@ -11,7 +11,7 @@ role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Les états de tâche suivants sont fournis avec votre instance Workfront :
  <col> 
  <thead> 
   <tr> 
-   <th>État des tâches système</th> 
+   <th>Statut de la tâche système</th> 
    <th>Lorsque cet état se produit</th> 
    <th>Actions qui se produisent lorsqu’une tâche est dans cet état</th> 
   </tr> 
@@ -51,7 +51,7 @@ Les états de tâche suivants sont fournis avec votre instance Workfront :
   <tr> 
    <td>Terminé (état requis)</td> 
    <td> <p>Vous pouvez marquer manuellement la fin d’une tâche lorsque celle-ci est terminée.</p> <p>Lorsque le mode de suivi d’une tâche est défini sur Terminé automatiquement, la tâche est automatiquement marquée Terminée lorsqu’elle atteint la Date d’achèvement planifiée.</p> </td> 
-   <td> <p>Lorsqu’une tâche est terminée, le pourcentage d’achèvement de la tâche est marqué comme 100 %. La tâche est supprimée de la liste de travail de la personne désignée dans la zone Accueil une fois qu’elle est terminée.</p> <p>Lorsque vous marquez une tâche comme terminée, la tâche affiche une valeur pour la Date de fin réelle.</p> <p><b>REMARQUE</b>: Si la tâche présente des problèmes incomplets et que vous définissez l’état de la tâche sur Terminé, l’état passe automatiquement à Terminé - Problèmes en attente.</p> </td> 
+   <td> <p>Lorsqu’une tâche est terminée, le pourcentage d’achèvement de la tâche est marqué comme 100 %. La tâche est supprimée de la liste de travail de la personne désignée dans la zone Accueil une fois qu’elle est terminée.</p> <p>Lorsque vous marquez une tâche comme terminée, la tâche affiche une valeur pour la Date de fin réelle.</p> <p><b>REMARQUE</b> : si la tâche présente des problèmes incomplets et que vous définissez l’état de la tâche sur Terminé, l’état passe automatiquement à Terminé - Problèmes en attente.</p> </td> 
   </tr> 
  </tbody> 
 </table>

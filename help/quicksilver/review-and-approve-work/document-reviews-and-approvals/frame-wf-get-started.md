@@ -24,7 +24,7 @@ Pour plus d’informations sur Frame.io, voir [Prise en main de Frame.io](https:
 
 L’administrateur de Workfront active l’intégration entre Workfront et Frame.io en configurant le compte Frame.io par défaut dans la zone Configuration, puis en désignant les utilisateurs de Frame.io dans Workfront. Cela permet au coordinateur de planifier et de lancer des travaux à l’aide de projets Workfront et de workflows de révision et d’approbation officiels.
 
-### Configuration du compte Frame.io par défaut [!BADGE Bientôt disponible]{type=Informative}
+### Configurez le compte Frame.io par défaut [!BADGE Prochainement]{type=Informative}
 
 Les administrateurs de Workfront lancent l’intégration de Workfront et de Frame.io en ajoutant un compte Frame.io par défaut dans la zone Configuration de Workfront. Une fois le compte Frame.io par défaut configuré, tous les projets créés dans Workfront ont un projet miroir créé dans Frame.io.
 
@@ -50,7 +50,7 @@ Lorsqu’un utilisateur est marqué comme utilisateur Frame.io dans Workfront et
 * Ils peuvent envoyer des ressources de Frame.io à Workfront pour révision et approbation formelles.
 * Ils peuvent afficher des informations dans le dossier de synchronisation unidirectionnelle à partir de Workfront. [!BADGE Bientôt disponible]{type=Informative}
 
-Pour plus d’informations, voir [Configurez la variable [!DNL Workfront] et [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+Pour plus d&#39;informations, voir [Configuration de l&#39; [!DNL Workfront] et [!DNL Frame.io] intégration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ![](assets/Frame-enabled-user.png)
 
@@ -59,10 +59,10 @@ Pour plus d’informations, voir [Configurez la variable [!DNL Workfront] et [!D
 
 Une fois que le compte Frame.io par défaut est ajouté et que les utilisateurs de Frame.io sont désignés, les coordinateurs de projet peuvent créer des projets Workfront connectés à Frame.io. Lorsque vous créez un projet connecté, vous pouvez :
 
-* **Affecter des utilisateurs de Frame.io à des tâches**: les utilisateurs activés pour Frame.io sont avertis par e-mail lorsqu’ils sont affectés à une tâche Workfront, ce qui indique qu’il reste du travail à faire.
-* **Partage du projet avec les utilisateurs de Frame.io**: lorsqu’un projet est partagé avec des utilisateurs activés pour Frame.io, ils ont accès au projet à l’intérieur de Workfront et de Frame.io.
-* **Partage de contenu créatif avec Frame.io**: les coordinateurs de projet peuvent envoyer des instructions et du matériel de Workfront directement à l’utilisateur créatif de Frame.io à l’aide d’un dossier de projet de synchronisation unidirectionnelle. [!BADGE Bientôt disponible]{type=Informative}
-* **Suivi de la progression de la tâche**: les créatifs peuvent envoyer des ressources terminées et marquer les tâches comme terminées, le tout sans quitter Frame.io.
+* **Affecter des utilisateurs de Frame.io à des tâches** : les utilisateurs activés pour Frame.io sont avertis par e-mail lorsqu’ils sont affectés à une tâche Workfront, ce qui indique qu’il reste du travail à faire.
+* **Partager le projet avec les utilisateurs de Frame.io** : lorsqu’un projet est partagé avec des utilisateurs activés pour Frame.io, ils ont accès au projet à l’intérieur de Workfront et de Frame.io.
+* **Partager des ressources créatives avec Frame.io** : les coordinateurs de projet peuvent envoyer des instructions et du matériel de Workfront directement à l’utilisateur créatif de Frame.io à l’aide d’un dossier de projet de synchronisation unidirectionnel. [!BADGE Bientôt disponible]{type=Informative}
+* **Suivi de la progression de la tâche** : les créatifs peuvent envoyer des ressources terminées et marquer les tâches comme terminées, le tout sans quitter Frame.io.
 
 Pour plus d’informations, voir [Création d’un projet connecté à Frame.io](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md).
 
@@ -77,9 +77,9 @@ Lorsqu’un élément créatif est ajouté à un projet connecté, il peut effec
 * Réaliser des examens par les pairs informels
 * Envoi de ressources terminées à Workfront pour révision et approbation formelles
 * Modifier l’état d’une tâche ou la marquer comme terminée
-* Charger de nouvelles versions, puis les soumettre à nouveau pour approbation <!--do they have to send to frame.io again?-->
+* Chargez de nouvelles versions, puis soumettez-les à nouveau pour approbation <!--do they have to send to frame.io again?-->
 
-Pour plus d’informations sur Frame.io, voir [J&#39;ai été invité à collaborer à un projet.](https://support.frame.io/fr/articles/11125-j-ai-ete-invite-a-collaborer-sur-un-projet).
+Pour plus d’informations sur Frame.io, voir [J’ai été invité à collaborer sur un projet](https://support.frame.io/fr/articles/11125-j-ai-ete-invite-a-collaborer-sur-un-projet).
 
 ## Révision et approbation de ressources
 
@@ -93,19 +93,19 @@ Les coordinateurs de projet peuvent créer une révision et des validations uniq
 
 Les coordinateurs de projet ont la possibilité d’affecter des réviseurs, des approbateurs ou une combinaison des deux :
 
-* **Réviseurs** peuvent ajouter des commentaires et marquer des ressources. Une fois la révision terminée, ils peuvent la marquer comme terminée. Le fait de marquer la révision comme terminée n’est pas nécessaire pour que la ressource aille de l’avant dans le processus d’approbation.
-* **Approbateurs** peuvent ajouter des commentaires et marquer des ressources. Ils doivent prendre la décision de faire avancer le processus d’approbation.
+* **Les réviseurs** peuvent ajouter des commentaires et marquer des ressources. Une fois la révision terminée, ils peuvent la marquer comme terminée. Le fait de marquer la révision comme terminée n’est pas nécessaire pour que la ressource aille de l’avant dans le processus d’approbation.
+* **Les approbateurs** peuvent ajouter des commentaires et marquer des ressources. Ils doivent prendre la décision de faire avancer le processus d’approbation.
 
 
 #### Créer un workflow de révision et d’approbation
 
 Les validants et les validants peuvent être ajoutés à un workflow de validation à usage unique ou à un modèle de validation réutilisable :
 
-* **Validations à usage unique**: dans le projet ou la tâche où réside la ressource, le coordinateur de projet peut affecter les réviseurs et les approbateurs et définir une date limite d’achèvement. Les validants et les approbateurs sont rappelés par email 72 et 24 heures avant le délai ainsi que le délai lui-même.
+* **Approbations à usage unique** : dans le projet ou la tâche où réside la ressource, le coordinateur de projet peut affecter des réviseurs et des approbateurs et définir une date limite d’achèvement. Les validants et les approbateurs sont rappelés par email 72 et 24 heures avant le délai ainsi que le délai lui-même.
 
   Pour plus d’informations, voir * [Création d’une demande de révision ou d’approbation pour une ressource Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
-* **Modèles de validation**: dans la zone Configuration de Workfront , les coordinateurs de projet peuvent créer des modèles d’approbation fiables. Dans un modèle, les utilisateurs peuvent ajouter des validants et des approbateurs et spécifier un délai d’achèvement. Lorsque le modèle de validation est appliqué à une ressource, la date limite est calculée à partir de la période spécifiée.
+* **Modèles d’approbation** : dans la zone Configuration de Workfront, les coordinateurs de projet peuvent créer des modèles d’approbation fiables. Dans un modèle, les utilisateurs peuvent ajouter des validants et des approbateurs et spécifier un délai d’achèvement. Lorsque le modèle de validation est appliqué à une ressource, la date limite est calculée à partir de la période spécifiée.
 
   Une fois créé, un modèle peut être appliqué aux ressources envoyées à partir de Frame.io pour lancer le processus de révision et d’approbation formel dans Workfront.
 
@@ -135,13 +135,13 @@ Tous les commentaires effectués dans la visionneuse Frame.io sont également en
 
 Une fois toute l’activité de révision terminée, les approbateurs doivent prendre l’une des décisions suivantes :
 
-* **Approuver**: la ressource n’a pas besoin de modifications et est prête à être utilisée.
-* **Approuver avec des modifications**: la ressource doit être modifiée et prête à être utilisée une fois qu’elle a été créée. Aucune validation supplémentaire n’est requise.
-* **Travail nécessaire**: la ressource nécessite des modifications et n’est pas prête à être utilisée. Une fois les modifications spécifiées effectuées, la ressource doit être chargée sous la forme d’une nouvelle version et passer par un autre cycle de validations. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
+* **Approve** : la ressource n’a pas besoin de modifications et est prête à être utilisée.
+* **Approuver avec les modifications** : la ressource nécessite des modifications et est prête à être utilisée une fois qu’elle a été effectuée. Aucune validation supplémentaire n’est requise.
+* **Travail nécessaire** : la ressource nécessite des modifications et n’est pas prête à être utilisée. Une fois les modifications spécifiées effectuées, la ressource doit être chargée sous la forme d’une nouvelle version et passer par un autre cycle de validations. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Les réviseurs peuvent marquer la fin de leur révision dans la visionneuse Frame.io, mais cela n’est pas nécessaire pour que la ressource puisse avancer dans le processus d’approbation.
 
-Pour plus d’informations sur les décisions dans Workfront, voir [Présentation de l’état de décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Pour plus d’informations sur les décisions dans Workfront, consultez la [présentation de l’état de décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![](assets/frame-viewer-and-decision.png)
 
@@ -155,5 +155,5 @@ Reviewer/approver needs to go through email to get to frame vier
 
 Les coordinateurs de projet peuvent suivre la progression de toutes les validations en cours dans la zone d’accueil de Workfront avec le widget suivant :
 
-* **Toutes les validations**: affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des listes de vues des approbations en attente et en retard.
+* **Toutes les approbations** : affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des listes de vues des approbations en attente et en retard.
   ![](assets/all-approvals.png)

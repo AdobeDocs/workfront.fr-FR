@@ -10,7 +10,7 @@ exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
 source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -30,13 +30,13 @@ Vous pouvez créer des instructions &quot;IF&quot; pour les éléments Workfront
 * Regroupements
 * Champs personnalisés calculés
 
-Pour plus d’informations sur la création d’instructions &quot;IF&quot;, voir [Présentation des instructions &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Pour plus d’informations sur la création d’instructions &quot;IF&quot;, voir [&quot;IF&quot; statement overview](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Les exemples de ce guide illustrent l’utilisation des opérateurs de condition dans les champs personnalisés calculés. Vous pouvez également les utiliser dans des colonnes ou des regroupements personnalisés calculés en respectant la syntaxe correcte des champs personnalisés calculés dans les rapports.
 
 Pour plus d’informations sur la différence de syntaxe entre les champs personnalisés calculés et les données personnalisées calculées dans les rapports, voir [Champs personnalisés calculés par rapport aux colonnes calculées](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
-Reportez-vous à l’ explorateur d’API pour trouver les champs que vous souhaitez référencer dans vos expressions personnalisées calculées. Pour plus d’informations sur l’explorateur d’API, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
+Reportez-vous à l’ explorateur d’API pour trouver les champs que vous souhaitez référencer dans vos expressions personnalisées calculées. Pour plus d’informations sur l’explorateur d’API, voir [API Explorer](../../../wf-api/general/api-explorer.md).
 
 Vous pouvez utiliser les modificateurs de condition suivants dans Workfront :
 
@@ -70,12 +70,12 @@ Vous pouvez utiliser les modificateurs de condition suivants dans Workfront :
   <tr> 
    <td>Inférieur à </td> 
    <td>&lt; </td> 
-   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est inférieur au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
+   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque  le premier champ de votre instruction est inférieur au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Inférieur ou égal à </td> 
    <td>&lt;= </td> 
-   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque le premier champ de votre instruction est inférieur ou égal au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
+   <td>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque  le premier champ de votre instruction est inférieur ou égal au second champ. <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui compare la date de fin planifiée à la date de fin prévue d’une tâche : </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>Does not </td> 
@@ -95,12 +95,12 @@ Vous pouvez utiliser les modificateurs de condition suivants dans Workfront :
   <tr> 
    <td>Ou </td> 
    <td>|| </td> 
-   <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque l’expression trouve la première ou la seconde valeur de votre instruction. </p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui marque les projets dont les états Actuel ou Planification sont "Actif" : </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
+   <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque l'expression  trouve la première ou la seconde valeur de votre instruction. </p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui marque les projets dont les états Actuel ou Planification sont "Actif" : </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> Et </td> 
    <td>&amp; </td> 
-   <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque l’expression trouve un élément qui répond simultanément à deux conditions. </p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui recherche les projets qui sont à l’état actuel et qui ont une condition de risque et les marque comme "médiation nécessaire". </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
+   <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque l'expression  trouve un élément qui remplit deux conditions en même temps. </p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction "IF" qui recherche les projets qui sont à l’état actuel et qui ont une condition de risque et les marque comme "médiation nécessaire". </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

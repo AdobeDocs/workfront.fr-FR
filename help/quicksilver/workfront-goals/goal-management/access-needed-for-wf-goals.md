@@ -10,7 +10,7 @@ exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
 source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -21,9 +21,9 @@ Votre administrateur Adobe Workfront doit s’assurer que toutes les conditions 
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* Votre entreprise doit acheter la licence appropriée pour les objectifs Workfront. Pour plus d’informations, voir la section [Obtention de l’accès de l’organisation aux objectifs Workfront](#obtain-workfront-goals-organization-access) dans cet article.
+* Votre entreprise doit acheter la licence appropriée pour les objectifs Workfront. Pour plus d’informations, reportez-vous à la section [Obtention de l’accès à l’organisation Workfront Goals](#obtain-workfront-goals-organization-access) de cet article.
 
-* Attribuez-vous le type de licence Workfront approprié. Pour plus d’informations sur l’attribution des types de licence et des niveaux d’accès, voir la section [Mise à jour des types de licence et des paramètres de niveau d’accès](#update-license-types-and-access-level-settings) dans cet article.
+* Attribuez-vous le type de licence Workfront approprié. Pour plus d’informations sur l’attribution des types de licence et des niveaux d’accès, reportez-vous à la section [Mise à jour des types de licence et des paramètres de niveau d’accès](#update-license-types-and-access-level-settings) de cet article.
 
 >[!NOTE]
 >
@@ -37,11 +37,11 @@ Votre administrateur Adobe Workfront doit s’assurer que toutes les conditions 
   >
   >Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal.
 
-  Pour plus d’informations, voir la section [Ajout d’objectifs Workfront à un modèle de mise en page](#add-workfront-goals-to-a-layout-template) dans cet article.
+  Pour plus d’informations, reportez-vous à la section [Ajout d’objectifs Workfront à un modèle de mise en page](#add-workfront-goals-to-a-layout-template) de cet article.
 
 * Si vous devez modifier des objectifs que vous n’avez pas vous-même créés, l’auteur de l’objectif doit partager les objectifs avec vous et vous accorder les autorisations de Gestion .
 
-  Pour plus d’informations, voir la section [Partage d’objectifs individuels avec d’autres utilisateurs](#share-individual-goals-with-other-users) dans cet article.
+  Pour plus d’informations, reportez-vous à la section [Partage d’objectifs individuels avec d’autres utilisateurs](#share-individual-goals-with-other-users) de cet article.
 
 ## Obtention de l’accès de l’organisation aux objectifs Workfront {#obtain-workfront-goals-organization-access}
 
@@ -57,7 +57,7 @@ Selon le plan Workfront actuellement utilisé par votre entreprise, les scénari
 
   Une fois la licence supplémentaire achetée, Workfront active Workfront Goals pour votre compte. Pour plus d’informations sur l’achat d’une licence pour les objectifs Workfront, contactez votre gestionnaire de compte Workfront.
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Mise à jour des types de licence et des paramètres de niveau d’accès  {#update-license-types-and-access-level-settings}
 
@@ -82,7 +82,7 @@ En tant qu’administrateur de Workfront, vous pouvez vérifier le nombre de lic
 
 >[!NOTE]
 >
->Workfront vous permet d’attribuer d’autres licences Workfront Goals que vous avez achetées. Cependant, lorsque vous attribuez plus de licences que ce que votre contrat avec les objectifs de Workfront autorise, un gestionnaire de compte Workfront vous contactera pour vous informer que vous avez dépassé votre numéro contractuel.
+>Workfront vous permet d’attribuer plus de licences Objectifs Workfront que votre contrat ne le permet. Cependant, lorsque vous attribuez plus de licences que ce que votre contrat Objectifs Workfront prévoit, une personne gestionnaire de compte Workfront vous contactera pour vous informer que vous avez dépassé le quota de votre contrat.
 
 ## Ajout d’objectifs Workfront à un modèle de mise en page {#add-workfront-goals-to-a-layout-template}
 
@@ -97,10 +97,10 @@ Votre administrateur Workfront ou votre administrateur de groupe peut également
 
 Pour plus d’informations sur la mise à jour du modèle de mise en page, reportez-vous aux articles suivants :
 
-* [Création et gestion des modèles de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
-* [Personnalisation du menu principal à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-* [Personnalisation des pages épinglées à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-* [Personnaliser la landing page à l&#39;aide d&#39;un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+* [ Créez et gérez des modèles de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
+* [Personnaliser le menu principal à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+* [Personnaliser les pages épinglées à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [Personnaliser la page de destination à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
 * [Affecter des utilisateurs à un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
 ## Partage d’objectifs individuels avec d’autres utilisateurs {#share-individual-goals-with-other-users}
@@ -109,4 +109,4 @@ Par défaut, tous les utilisateurs qui ont au moins l’accès Afficher aux obje
 
 Tout utilisateur disposant d’un accès Modifier aux objectifs peut créer des objectifs et obtenir automatiquement l’accès Gérer aux objectifs qu’il crée. S’ils doivent modifier les objectifs d’autres utilisateurs, une personne disposant des autorisations Gérer pour ces objectifs doit partager avec eux les objectifs qu’ils n’ont pas créés.
 
-Pour plus d’informations sur le partage d’objectifs avec les utilisateurs et leur donner les autorisations Gérer , voir [Partage d’un objectif dans les objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+Pour plus d’informations sur le partage des objectifs avec les utilisateurs et sur la gestion des autorisations, voir [Partage d’un objectif dans les objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).

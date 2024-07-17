@@ -1,6 +1,6 @@
 ---
-title: 23.2 Améliorations apportées au projet
-description: 23.2 Améliorations apportées au projet
+title: Améliorations des projets (version 23.2)
+description: Améliorations des projets (version 23.2)
 author: Courtney
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# 23.2 Améliorations apportées au projet
+# Améliorations des projets (version 23.2)
 
-Cette page décrit toutes les améliorations apportées aux projets avec la version 23.2 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version 23.2.
+Cette page décrit toutes les améliorations apportées aux projets avec la version 23.2 de l’environnement Aperçu. Ces améliorations seront mises à disposition dans l’environnement de production avec la version 23.2.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.2, voir [Présentation de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version 23.2, voir l’article [Vue d’ensemble de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Nouvelle expérience lors de la modification de projets en bloc
 
@@ -41,15 +41,15 @@ Outre l’aspect mis à jour de l’interface, les modifications suivantes sont 
 
 Pour plus d’informations, voir [Modification de projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3416587/){target=_blank}
+[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Amélioration de l’expérience de filtrage généralement disponible dans Adobe Workfront
 
-Une mise à niveau de l’expérience de filtrage a été publiée en version bêta publique sur les listes de projets, de tâches et de problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés. (Pour consulter toutes ces listes, voir la section [Notes de mise à jour sur les mises à jour de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) L’expérience améliorée de filtrage sera disponible dans l’ensemble et deviendra le créateur de filtres standard dans Aperçu le 2 mars 2023. Un déploiement par étapes dans Production commencera également le 2 mars, avec la disponibilité de tous les clients dans la version 23.2.
+Une mise à niveau de l’expérience de filtrage a été publiée en version bêta publique sur les listes de projets, de tâches et de problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés. (Pour consulter toutes ces listes, reportez-vous à la [note de mise à jour sur les mises à jour de l’apparence 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) L’expérience améliorée de filtrage sera disponible dans l’ensemble et deviendra le créateur de filtres standard dans Aperçu le 2 mars 2023. Un déploiement par étapes dans Production commencera également le 2 mars, avec la disponibilité de tous les clients dans la version 23.2.
 
 Vous pouvez toujours accéder aux filtres hérités sur les listes en les activant dans le panneau des filtres. À l’avenir, les filtres hérités seront abandonnés des listes, mais ils resteront disponibles dans les rapports, car le créateur de filtres standard n’est pas disponible dans les rapports.
 
-Pour plus d’informations sur les filtres améliorés et une démonstration vidéo, voir [notes de mise à jour sur les filtres publics bêta](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Pour plus d’informations sur les filtres améliorés et une démonstration vidéo, consultez la [note de mise à jour bêta publique des filtres](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 Pour plus d’informations, voir [Création ou modification de filtres dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
@@ -63,4 +63,4 @@ Vous avez désormais la possibilité de copier les heures budgétées dans la zo
 
 Pour plus d’informations, voir [Copier un projet](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3415713/){target=_blank}
+[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3415713/){target=_blank}

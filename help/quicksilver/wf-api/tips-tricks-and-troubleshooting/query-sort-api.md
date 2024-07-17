@@ -1,8 +1,8 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Tri des résultats des requêtes dans l’API
-description: Tri des résultats des requêtes dans l’API
+title: Trier les résultats d’une requête dans l’API
+description: Trier les résultats d’une requête dans l’API
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,14 +10,14 @@ exl-id: f001adb8-6295-4646-b9f1-78244a8c44a6
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
 
-# Tri des résultats des requêtes dans l’API
+# Trier les résultats d’une requête dans l’API
 
-Vous pouvez trier vos résultats selon n’importe quel champ si vous ajoutez les éléments suivants à votre appel API :
+Vous pouvez trier vos résultats selon n’importe quel champ si vous ajoutez les éléments suivants à votre appel API :
 
 ```
 &entryDate_Sort=asc

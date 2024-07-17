@@ -11,7 +11,7 @@ exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
 source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -25,12 +25,12 @@ Cette section décrit comment organiser votre travail en tâches plus importante
 
 De plus, vous pouvez utiliser le diagramme de Gantt pour définir une chronologie de votre travail ou déléguer votre travail à d’autres personnes lorsqu’il n’est pas disponible pour le terminer.
 
-Cette section contient les sous-sections suivantes :
+Cette section contient les sous-sections suivantes :
 
-* [Projets : index des articles](../manage-work/projects/projects-overview.md)
+* [Projets : index d’article](../manage-work/projects/projects-overview.md)
 * [Tâches : index de l’article](../manage-work/tasks/tasks-overview.md)
 * [Événements](../manage-work/issues/issues-overview.md)
 * [Le diagramme de Gantt](../manage-work/gantt-chart/the-gantt-chart.md)
-* [Gestion des Portfolios](../manage-work/portfolios/portfolio-management-overview.md)
+* [Gestion de Portfolio](../manage-work/portfolios/portfolio-management-overview.md)
 * [Demandes](../manage-work/requests/requests-overview.md)
-* [Déléguer le travail](../manage-work/delegate-work/delegate-work.md)
+* [Déléguer un travail](../manage-work/delegate-work/delegate-work.md)

@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Preview 3
+title: Version R1 de l’environnement d’aperçu, 3
 description: Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version R1.3. La fonctionnalité de cette page a été rendue disponible dans l’environnement Aperçu le 1er février 2017.
 author: Luke
 feature: Product Announcements
@@ -10,15 +10,15 @@ exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1347'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# R1 Preview 3
+# Version R1 de l’environnement d’aperçu, 3
 
 Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version R1.3. La fonctionnalité de cette page a été rendue disponible dans l’environnement Aperçu le 1er février 2017.
 
-Pour obtenir la liste de toutes les modifications apportées à R1, voir [Présentation de l’activité de version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Pour obtenir la liste de toutes les modifications apportées à R1, consultez la [présentation de l’activité de version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Méthode améliorée de liaison de fichiers externes
 
@@ -28,7 +28,7 @@ En outre, l’autorisation d’un fournisseur de documents avant de lier pour la
 
 Avant ces modifications, l’option permettant de lier des fichiers à partir d’une source externe se trouvait dans la boîte de dialogue Ajouter des documents de la zone Documents. Avant de lier pour la première fois un document à partir d’une source externe, l’utilisateur liant le document devait autoriser ce fournisseur de documents dans la zone Configuration .
 
-Pour plus d’informations, voir  [Liaison de documents à partir d’applications externes](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Pour plus d’informations, voir  [Lier des documents à partir d’applications externes](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Mise À Jour De L’Équipe Travaillant Sur Le Calendrier
 
@@ -120,7 +120,7 @@ Les zones suivantes n’affichent pas le nom mis à jour des objets :
 * Applications mobiles
 * Module complémentaire Outlook
 
-Pour plus d’informations sur la personnalisation de la terminologie Workfront à l’aide d’un modèle de mise en page, reportez-vous à la section Personnalisation de la terminologie dans Création et gestion des modèles de mise en page et à la section Comprendre les implications de la personnalisation des noms d’objet dans la section [Présentation des objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Pour plus d’informations sur la personnalisation de la terminologie Workfront à l’aide d’un modèle de mise en page, reportez-vous à la section Personnalisation de la terminologie dans &quot;Création et gestion des modèles de mise en page&quot; et à la section &quot;Comprendre les implications de la personnalisation des noms d’objet&quot; dans la section [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Inclure les dates de début et de fin d’approbation dans les rapports
 
@@ -133,7 +133,7 @@ Ces champs vous permettent de savoir quand le chemin d’approbation actuel ou l
 
 Pour plus d’informations sur ces champs, voir [Glossaire de la terminologie Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-Pour plus d’informations sur les chemins d’approbation, leur création et leur déclenchement, ainsi que sur la fonction qu’ils jouent dans les processus d’approbation, voir [Créer un processus d’approbation pour les tâches](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Pour plus d’informations sur les chemins d’approbation, la manière dont ils sont créés et déclenchés, ainsi que la fonction qu’ils servent dans les processus d’approbation, voir [Création d’un processus d’approbation pour les tâches](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 Les champs suivants ont été supprimés de Workfront et ne peuvent plus être inclus dans les rapports (ces champs fournissaient des informations sur le projet plutôt que des informations sur les validations elles-mêmes, et ont souvent été mal utilisés) :
 
@@ -145,7 +145,7 @@ Les champs suivants ont été supprimés de Workfront et ne peuvent plus être i
 
 L’option de remise Résumé quotidien a été ajoutée à la zone &quot;Demandes que j’ai faites&quot; de vos paramètres de notifications.
 
-Pour plus d’informations, voir [Modifier vos propres notifications électroniques](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations, consultez [Modifier vos propres notifications par e-mail](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 N’oubliez pas de mettre à jour l’adresse électronique associée à votre compte pour pouvoir tester cette fonctionnalité. Cela est nécessaire, car l’environnement de test Aperçu efface les adresses électroniques de tous les utilisateurs.
 
@@ -153,7 +153,7 @@ N’oubliez pas de mettre à jour l’adresse électronique associée à votre c
 
 L’aspect de la notification pour &quot;Approbation de document&quot; a été mis à jour avec une nouvelle interface utilisateur :
 
-Pour plus d’informations sur les notifications électroniques, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Pour plus d’informations sur les notifications par e-mail, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 N’oubliez pas de mettre à jour l’adresse électronique associée à votre compte pour pouvoir tester cette fonctionnalité. Cela est nécessaire, car l’environnement de test Aperçu efface les adresses électroniques de tous les utilisateurs.
 
@@ -166,4 +166,4 @@ La vue Milestone disponible lors de l’affichage d’une liste de projets ou d�
 
 Avant cette modification, pour modifier les dates ou afficher le pourcentage terminé, vous deviez accéder à la tâche individuelle.
 
-Pour plus d’informations, voir [Utilisation de la vue Milestone](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+Pour plus d’informations, voir [Utiliser la vue jalonnée](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).

@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Présentation de la contrainte de tâche : Ne Pas Commencer Plus Tard Que'''
+title: "Présentation de la contrainte de tâche : ne pas commencer plus tard que"
 description: Start No Later Than (SNLT) est une contrainte de tâche qui planifie le démarrage d’une tâche avant la date que vous spécifiez.
 author: Alina
 feature: Work Management
@@ -10,20 +10,20 @@ exl-id: 86139ce6-c6b1-4ac4-a5cb-fd4aa899a025
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Présentation de la contrainte de tâche : Ne pas démarrer plus tard que
+# Vue d’ensemble des contraintes de tâches : Commencer Au Plus Tard
 
 Start No Later Than (SNLT) est une contrainte de tâche qui planifie le démarrage d’une tâche avant la date que vous spécifiez.
 
 Tenez compte des points suivants lorsque vous utilisez la contrainte SNLT :
 
 * Vous devez utiliser la contrainte Démarrer au plus tard lorsque le projet est planifié à partir de la date d’achèvement. Dans ce cas, vous pouvez fournir une contrainte souple sur une tâche avant qu’elle ne force d’autres tâches dépendantes à s’afficher comme En danger.
-* La contrainte par défaut Démarrer le plus tard est si un projet utilise un mode de planification de Planifier à partir de la date de fin et que la valeur par défaut système ou groupe de la date de début d’une tâche est Aujourd’hui. Pour plus d’informations sur l’emplacement où définir la contrainte par défaut pour une nouvelle tâche, reportez-vous à la section [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* La contrainte par défaut Démarrer le plus tard est si un projet utilise un mode de planification de Planifier à partir de la date de fin et que la valeur par défaut système ou groupe de la date de début d’une tâche est Aujourd’hui. Pour plus d’informations sur l’emplacement où définir la contrainte par défaut pour une nouvelle tâche, reportez-vous à la section [Configuration de la tâche à l’échelle du système et préférences de publication](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Lorsque vous utilisez la contrainte SNLT avec un projet Planifier à partir de la date de début , Adobe Workfront planifie la tâche comme s’il s’agissait d’une tâche Dès que possible.
-* Lorsque vous déplacez ou copiez une tâche avec une contrainte SNLT vers un autre projet, la contrainte de la tâche ou des dates du projet peut changer en fonction des dates de contrainte et des dates de début et de fin du projet. Les scénarios suivants existent :
+* Lorsque vous déplacez ou copiez une tâche avec une contrainte SNLT vers un autre projet, la contrainte de la tâche ou des dates du projet peut changer en fonction des dates de contrainte et des dates de début et de fin du projet. Les scénarios suivants sont possibles :
 
    * Lorsque le projet de destination est planifié à partir du début :
 
@@ -34,13 +34,14 @@ Tenez compte des points suivants lorsque vous utilisez la contrainte SNLT :
 
          * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement du projet, la contrainte de la tâche passe à Aussi tard que possible.
          * Lorsque la date de contrainte de la tâche est antérieure à la date de début planifiée du projet, la date de début planifiée du projet change pour correspondre à la date de contrainte de début de la tâche.
+
       * Quelle que soit la planification du projet, lorsque la date de contrainte de la tâche se trouve dans les dates de début et de fin du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
 
-   Pour plus d’informations sur le déplacement des tâches, voir [Déplacer les tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+  Pour plus d’informations sur le déplacement de tâches, consultez la section [Déplacer les tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-   Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mise à jour de la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

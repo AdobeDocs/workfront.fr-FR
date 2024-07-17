@@ -13,15 +13,15 @@ exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
 source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
 # Modules [!DNL Microsoft Word Template]
 
-Dans un [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft Word Templates], ainsi que de la connecter à plusieurs applications et services tiers.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Microsoft Word Templates] et les connecter à plusieurs applications et services tiers.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créez un scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -43,7 +43,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
@@ -66,13 +66,13 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 ## Conditions préalables
 
-Pour utiliser [!DNL Miscrosoft Word Templates] avec [!DNL Adobe Workfront Fusion], une [!DNL Office 365] compte . Vous pouvez en créer un à l’adresse www.office.com.
+Pour utiliser [!DNL Miscrosoft Word Templates] avec [!DNL Adobe Workfront Fusion], il est nécessaire d&#39;avoir un compte [!DNL Office 365]. Vous pouvez en créer un à l’adresse www.office.com.
 
 
 
-## Connexion de la variable [!DNL Office] service à [!DNL Workfront Fusion]
+## Connexion du service [!DNL Office] à [!DNL Workfront Fusion]
 
-Pour obtenir des instructions sur la connexion à [!DNL Office] compte à [!UICONTROL Workfront Fusion], voir [Créer une connexion à [!UICONTROL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Pour plus d’informations sur la connexion de votre compte [!DNL Office] à [!UICONTROL Workfront Fusion], voir [Création d’une connexion à [!UICONTROL Adobe Workfront Fusion] - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -80,11 +80,11 @@ Pour obtenir des instructions sur la connexion à [!DNL Office] compte à [!UICO
 >
 >Par exemple, si un utilisateur dispose d’autorisations &quot;Lecture de tableau&quot; accordées via le connecteur Excel, puis crée une connexion dans le connecteur Outlook pour lire les emails, l’écran de consentement des autorisations affiche à la fois l’autorisation &quot;Lecture de tableau&quot; déjà accordée et l’autorisation &quot;Ecriture d’email&quot; nouvellement requise.
 
-## Utilisation [!DNL Microsoft Word Templates] modules
+## Utilisation de [!DNL Microsoft Word Templates] modules
 
-Vous pouvez utiliser une [!DNL Microsoft Word Template] pour fusionner les données de plusieurs services web en un [!DNL Microsoft Word] document.
+Vous pouvez utiliser un module [!DNL Microsoft Word Template] pour fusionner des données de plusieurs services Web dans un document [!DNL Microsoft Word].
 
-Par exemple, vous pouvez utiliser [!DNL Microsoft Word] modèle :
+Par exemple, vous pouvez utiliser ce modèle [!DNL Microsoft Word] :
 
 ![](assets/word-template-before-filled-350x62.png)
 
@@ -94,7 +94,7 @@ Pour créer ce document :
 
 ## À propos des balises de valeur
 
-A [!DNL Microsoft Word] modèle est normal [!DNL Microsoft Word] document (fichier .docx) avec des balises spéciales dans son texte qui déterminent où et comment fusionner ou remplir des données. Il existe trois types de balises :
+Un modèle [!DNL Microsoft Word] est un document [!DNL Microsoft Word] normal (fichier .docx) avec des balises spéciales dans son texte qui déterminent où et comment fusionner ou remplir des données. Il existe trois types de balises :
 
 * [Balise de valeur simple](#simple-value-tag)
 * [Balise de condition](#condition-tag)
@@ -102,17 +102,17 @@ A [!DNL Microsoft Word] modèle est normal [!DNL Microsoft Word] document (fichi
 
 ### Balise de valeur simple {#simple-value-tag}
 
-Une balise de valeur simple est simplement remplacée par une valeur correspondante. Le nom de la balise correspond au [!UICONTROL Clé] la valeur du champ, qui est placée à l’intérieur d’accolades doubles ; par exemple,
+Une balise de valeur simple est simplement remplacée par une valeur correspondante. Le nom de la balise correspond à la valeur du champ [!UICONTROL Clé], qui est placée à l’intérieur d’accolades doubles ; par exemple,
 
 
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
-**Exemple :** Pour créer un document qui indique &quot;Bonjour, Piotr !&quot;, vous pouvez utiliser un [!DNL Microsoft Word Template] pour créer le modèle suivant :
+**Exemple :** Pour créer un document qui indique &quot;Bonjour, Pierrot !&quot;, vous pouvez utiliser un module [!DNL Microsoft Word Template] pour créer le modèle suivant :
 
-<pre>&gt; Bonjour &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
+<pre>&gt; Bonjour {{name}} !</pre>
 
 Pour ce faire, vous devez configurer le module comme suit :
 
@@ -122,8 +122,8 @@ Pour ce faire, vous devez configurer le module comme suit :
 
 Vous pouvez utiliser une balise de condition pour renvoyer à la ligne le texte qui doit être rendu uniquement lorsque certaines conditions sont remplies. Pour renvoyer le texte à la ligne, placez-le entre les balises de condition d’ouverture et de fermeture, telles que &quot;hasPhone&quot; si la condition indique si les données incluent ou non un numéro de téléphone. Le nom d’une balise d’ouverture est précédé d’un signe de hachage #, le nom d’une balise de fermeture est précédé d’une barre oblique /, comme illustré dans l’exemple ci-dessous.
 
-**Exemple :** Pour produire un document qui comprend le numéro de téléphone d’un client si les données d’entrée incluent un numéro de téléphone, mais pas d’adresse électronique, vous pouvez utiliser une [!DNL Microsoft Word Template] et créez le modèle suivant :
-<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;Téléphone : &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone}</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;Courriel : &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail}</pre>Pour ce faire, vous devez configurer le module comme suit :
+**Exemple :** Pour produire un document qui comprend le numéro de téléphone d’un client si les données d’entrée incluent un numéro de téléphone, mais aucune adresse électronique, vous pouvez utiliser un module [!DNL Microsoft Word Template] et créer le modèle suivant :
+<pre>&gt; {{#hasPhone}}Phone : {{phone}} {/hasPhone}}</pre><pre>&gt; {{#hasEmail}}E-mail : {{email}} {/hasEmail}}</pre>Pour ce faire, vous devez configurer le module comme suit :
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -139,9 +139,9 @@ Vous pouvez utiliser une balise de boucle, également appelée balise de section
 
 #### Balise de boucle avec remplissage d’un module de document {#loop-tag-with-fill-out-a-document-module}
 
-**Exemple :** Pour produire un document qui répertorie le nom et le numéro de téléphone de chaque contact dans une liste de clients, vous pouvez utiliser une [!DNL Microsoft Word Template] et créez le modèle suivant :
+**Exemple :** Pour produire un document qui répertorie le nom et le numéro de téléphone de chaque contact dans une liste de clients, vous pouvez utiliser un module [!DNL Microsoft Word Template] et créer le modèle suivant :
 
-<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact}</pre>
+<pre>&gt; {{#contact}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}</pre>
 
 Pour ce faire, vous devez configurer le module comme suit :
 
@@ -195,11 +195,11 @@ Ce module du transformateur permet de remplir un document avec les données que 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Délimiteur de début du texte remplacé]</td> 
-   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer au début du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrée <code>[[</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer au début du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrez <code>[[</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Délimiteur de fin du texte remplacé]</p> </td> 
-   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer la fin du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrée <code>]]</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer la fin du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrez <code>]]</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -218,9 +218,9 @@ Ce module du transformateur permet de remplir un document avec les données que 
    <td> <p>Il doit s’agir d’un tableau de collections dans lequel :</p> 
     <ul> 
      <li>Chaque collection correspond à une entrée de données et contient un élément . <code>entry</code></li> 
-     <li>Élément <code>entry </code>contient une collection de <code>key </code>et <code>value</code></li> 
-     <li>Élément <code>key </code>contient le nom de la balise.</li> 
-     <li>item <code>value </code>contient la valeur de la balise.</li> 
+     <li>L'élément <code>entry </code> contient une collection du <code>key </code>et <code>value</code></li> 
+     <li>L’élément <code>key </code> contient le nom de la balise.</li> 
+     <li>item <code>value </code> contient la valeur de la balise</li> 
     </ul> 
     <p>Pour ajouter une entrée :</p>
     <ol> 
@@ -241,7 +241,7 @@ Ce module du transformateur permet de remplir un document avec les données que 
 
 Ce module d’agrégation est utile si vos entrées de données sont des lots distincts. Avec ce module, vous pouvez facilement configurer la structure requise pour le champ Valeur et mapper les éléments à chaque élément de valeur. Contrairement au module Remplir un document , le champ Valeurs du module Remplir un document avec un lot de données n’autorise qu’une seule entrée contenant des variables.
 
-Vous pouvez également utiliser ce module si vos entrées de données sont fournies sous la forme d’un tableau, en utilisant la variable *Itérateur* pour transformer le contenu du tableau en une série de lots.
+Vous pouvez également utiliser ce module si vos entrées de données sont fournies sous forme de tableau, en utilisant le module *Itérateur* pour transformer le contenu du tableau en une série de lots.
 
 Les valeurs réelles sont créées et renseignées pour chaque lot entrant. Le modèle est généré une fois tous les lots d’entrée traités.
 
@@ -252,16 +252,16 @@ Ce module d&#39;agrégation est particulièrement utile pour créer des listes o
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Module source]</td> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
    <td>Sélectionnez le module qui est la source de votre texte.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Délimiteur de début du texte remplacé]</td> 
-   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer au début du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrée <code>[[</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer au début du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrez <code>[[</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Délimiteur de fin du texte remplacé]</p> </td> 
-   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer la fin du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrée <code>]]</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Saisissez le ou les caractères que vous souhaitez marquer la fin du texte remplacé. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>Entrez <code>]]</code> si vous souhaitez remplacer un texte similaire à celui-ci : <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Groupe [!UICONTROL par]</td> 
@@ -288,9 +288,9 @@ Ce module d&#39;agrégation est particulièrement utile pour créer des listes o
    <td> <p>Il doit s’agir d’un tableau de collections dans lequel :</p> 
     <ul> 
      <li>Chaque collection correspond à une entrée de données et contient un élément . <code>entry</code></li> 
-     <li>Élément <code>entry </code>contient une collection de <code>key </code>et <code>value</code></li> 
-     <li>Élément <code>key </code>contient le nom de la balise.</li> 
-     <li>item <code>value </code>contient la valeur de la balise.</li> 
+     <li>L'élément <code>entry </code> contient une collection du <code>key </code>et <code>value</code></li> 
+     <li>L’élément <code>key </code> contient le nom de la balise.</li> 
+     <li>item <code>value </code> contient la valeur de la balise</li> 
     </ul> 
     <p>Pour ajouter une entrée :</p>
     <ol> 

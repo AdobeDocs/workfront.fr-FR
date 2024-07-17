@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Utilisation de bons à tirer et de fichiers dans [!DNL Workfront Proof]
-description: Utilisation de bons à tirer et de fichiers dans [!DNL Workfront Proof].
+title: Utilisation de bons à tirer et de fichiers dans  [!DNL Workfront Proof]
+description: Utilisation des bons à tirer et des fichiers dans  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 0%
+ht-degree: 40%
 
 ---
 
@@ -20,20 +20,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../review-and-approve-work/proofing/proofing.md).
 
-Cette section contient les sous-sections suivantes :
+Cette section contient les sous-sections suivantes :
 
-* [Processus automatisé dans [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [Fonctionnalités de base de [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
-* [Créer des bons à tirer et des fichiers](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
+* [Processus automatisé dans  [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [Fonctionnalités de base de  [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [Créer des épreuves et des fichiers](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [Gérer votre travail](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [Organiser votre travail](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
-* [Vérification des bons à tirer dans la visionneuse de vérification de l’appli de bureau](../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
+* [Vérifier des épreuves dans la visionneuse de relecture de bureau](../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/review-proofs-in-the-lpv.md" class="MCXref xref" xrefformat="{para}">Review proofs in the Legacy Proofing Viewer</a> </li>
   -->
 
-* [Vérifier les bons à tirer dans la visionneuse de tests de sécurité Web](../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-* [[!UICONTROL Partage de BAT et de fichiers]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
+* [Vérifier des épreuves dans la visionneuse de relecture web](../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
+* [[!UICONTROL Partager les bons à tirer et les fichiers]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)

@@ -11,7 +11,7 @@ exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
 source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-En tant qu’administrateur d’Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’un utilisateur clique sur l’icône Détails . ![](assets/project-details-icon.png) dans le panneau de gauche lors de l’affichage d’une tâche, d’un problème, d’un document, d’un programme ou d’un portfolio.
+En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’un utilisateur clique sur l’icône Détails ![](assets/project-details-icon.png) dans le panneau de gauche lors de l’affichage d’une tâche, d’un problème, d’un document, d’un programme ou d’un portfolio.
 
 <!--
 or billing record
@@ -27,11 +27,11 @@ or billing record
 
 Vous pouvez également modifier l’ordre des informations dans lequel ces informations apparaissent. Par exemple, pour toutes les tâches que vos utilisateurs voient, vous pouvez déplacer les informations Forms personnalisées en haut de la vue Détails pour toutes les tâches que vos utilisateurs voient.
 
-Pour plus d’informations sur la création de modèles de mise en page, voir [Création et gestion des modèles de mise en page](../use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations sur la création de modèles de disposition, voir [Créer et gérer des modèles de disposition](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Pour plus d’informations sur les modèles de disposition pour les groupes, voir [Créer et modifier des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs pour que les modifications que vous avez apportées soient visibles par d’autres utilisateurs. Pour plus d’informations sur l’attribution d’un modèle de mise en page aux utilisateurs, voir [Affecter des utilisateurs à un modèle de mise en page](../use-layout-templates/assign-users-to-layout-template.md).
+Après avoir configuré un modèle de disposition, vous devez l’attribuer à des utilisateurs et utilisatricess pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de disposition à des utilisateurs et utilisatrices, voir [Attribuer un modèle de disposition à des utilisateurs et utilisatrices](../use-layout-templates/assign-users-to-layout-template.md).
 
 Les modifications apportées à la vue Détails d’un objet déterminent également la disponibilité et l’ordre des champs visibles par les utilisateurs dans les zones suivantes :
 
@@ -51,7 +51,7 @@ Les modifications apportées à la vue Détails d’un objet déterminent égale
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Résumé ![](assets/summary-panel-icon.png) pour obtenir la liste des tâches et des problèmes
+* Panneau de résumé ![](assets/summary-panel-icon.png) pour les listes de tâches et de problèmes
 
   ![](assets/summary-area.png)
 
@@ -63,50 +63,50 @@ Les modifications apportées à la vue Détails d’un objet déterminent égale
 
   ![Convertir le problème en zone de tâche](assets/convert-issue-to-task-box.png)
 
-Pour plus d’informations sur les modèles de mise en page pour les groupes, voir [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Pour plus d’informations sur les modèles de disposition pour les groupes, voir [Créer et modifier des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur système.
-Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.</p> <p><b>REMARQUE</b>: si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.
+Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Personnaliser ce que voient les utilisateurs dans la vue Détails
 
-1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Création et gestion des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow-12x12.png) under **Personnalisation des éléments affichés par les utilisateurs**, puis cliquez sur **Projet**, **Tâche**, **Problème**, **Programme**, ou **Portfolio.**
+1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Cliquez sur la flèche vers le bas ![](assets/dropdown-arrow-12x12.png) sous **Personnaliser ce que les utilisateurs voient**, puis cliquez sur **Projet**, **Tâche**, **Problème**, **Programme** ou **Portfolio.**
 <!--
 , or billing record
 -->
 
-1. Dans le **Détails** pour personnaliser ce que voient les utilisateurs dans la vue Détails, effectuez l’une des opérations suivantes :
+1. Dans la section **Détails** , effectuez l’une des opérations suivantes pour personnaliser ce que les utilisateurs voient dans la vue Détails :
 
-   * Faites glisser des en-têtes de section ![](assets/move-icon---dots.png) pour modifier leur ordre.
-   * Activez ou désactivez des options sous **Présentation** et **Forms personnalisée** pour les afficher ou les masquer.
+   * Faites glisser les en-têtes de section ![](assets/move-icon---dots.png) pour modifier leur ordre.
+   * Activez ou désactivez des options sous **Aperçu** et **Forms personnalisé** pour les afficher ou les masquer.
 
      Si vous masquez tous les champs de l’une de ces sections, la section entière est masquée.
 
      Tous les champs sont activés par défaut.
 
-1. Poursuivez la personnalisation du modèle de mise en page.
+1. Poursuivez la personnalisation du modèle de disposition.
 
    Ou
 

@@ -9,7 +9,7 @@ exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
@@ -70,14 +70,14 @@ Vous devez disposer des éléments suivants :
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Observations relatives au partage des objectifs
 
@@ -118,7 +118,7 @@ Vous devez disposer des éléments suivants :
 
 ## Partager un objectif
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Vous devez disposer des éléments suivants :
 
 1. Cliquez sur le nom d’un objectif dans la liste. La page d’objectif s’ouvre.
 
-1. Cliquez sur le bouton **Icône Plus** en regard du nom de l’objectif, puis cliquez sur **Partager**.
+1. Cliquez sur l’icône **Plus** en regard du nom de l’objectif, puis cliquez sur **Partager**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -137,8 +137,8 @@ Vous devez disposer des éléments suivants :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Sélectionnez la variable **Gestion à l’échelle du système** pour accorder les autorisations Manage à toutes les personnes du système ayant l’accès Modifier aux objectifs à leur niveau d’accès. Cette option est désélectionnée par défaut pour tous les nouveaux objectifs.
-   * Commencez à saisir le nom d’un utilisateur auquel vous souhaitez accorder les autorisations de gestion dans la variable **Accédez à Gérer pour** de la boîte. Sélectionnez le nom qui apparaîtra dans la liste.
+   * Sélectionnez le paramètre **Gérer à l’échelle du système** pour accorder les autorisations de gestion à toutes les personnes du système ayant l’accès à Modifier les objectifs dans leur niveau d’accès. Cette option est désélectionnée par défaut pour tous les nouveaux objectifs.
+   * Commencez à saisir le nom d’un utilisateur auquel vous souhaitez attribuer des autorisations de gestion dans la zone **Autoriser l’accès à**. Sélectionnez le nom qui apparaîtra dans la liste.
 
      >[!TIP]
      >
@@ -234,8 +234,8 @@ Le tableau suivant répertorie les autorisations que vous pouvez accorder lors d
 
 **Vous devez avoir accès aux autorisations Afficher les projets et Afficher les projets ajoutés ou que vous souhaitez ajouter à l’objectif pour les afficher.
 
-Pour plus d’informations sur le niveau d’accès au projet, voir [Accorder l’accès aux projets](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Pour plus d’informations sur le niveau d’accès aux projets, voir [Accorder l’accès aux projets](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Pour plus d’informations sur les autorisations de projet, voir [Partage d’un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Pour plus d’informations sur les autorisations de projet, voir [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
  

@@ -1,5 +1,5 @@
 ---
-title: Présentation des limites du projet
+title: Vue d’ensemble des limites du projet
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
@@ -9,12 +9,12 @@ feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
 source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 0%
+source-wordcount: '412'
+ht-degree: 1%
 
 ---
 
-# Présentation des limites du projet
+# Vue d’ensemble des limites du projet
 
 Adobe Workfront a des limites quant au nombre d’objets pouvant être associés à un projet. Des limites de projet sont en place pour améliorer les performances du produit et améliorer votre expérience avec Workfront.
 
@@ -53,7 +53,7 @@ Voici quelques exemples de dépendances de tâches pouvant influencer ou empêch
   </tr> 
   <tr> 
    <td role="rowheader"><p>Calculs chronologiques</p></td> 
-   <td>Workfront n’effectue pas de calculs de chronologie automatique pour les projets qui n’ont pas été mis à jour dans 6 mois et ne reprendront pas avant qu’une mise à jour ne soit effectuée.<p>Pour les projets qui n’ont pas été mis à jour depuis 3 mois, Workfront effectue des calculs de chronologie chaque semaine plutôt que la nuit.</p><p>Pour plus d’informations sur le calcul de la chronologie du projet, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculer les calendriers du projet</a>. </p></td> 
+   <td>Workfront n’effectue pas de calculs de chronologie automatique pour les projets qui n’ont pas été mis à jour dans 6 mois et ne reprendront pas avant qu’une mise à jour ne soit effectuée.<p>Pour les projets qui n’ont pas été mis à jour depuis 3 mois, Workfront effectue des calculs de chronologie chaque semaine plutôt que la nuit.</p><p>Pour plus d’informations sur le calcul de la chronologie du projet, voir <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculer la chronologie du projet</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>

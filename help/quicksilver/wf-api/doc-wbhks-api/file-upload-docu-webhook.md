@@ -2,27 +2,27 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Chargement de fichiers via les webhooks de document
-description: Chargement de fichiers via les webhooks de document
+title: Téléchargement de fichiers via Document Webhooks
+description: Téléchargement de fichiers via Document Webhooks
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 3%
+source-wordcount: '264'
+ht-degree: 8%
 
 ---
 
 
-# Chargement de fichiers via les webhooks de document
+# Téléchargement de fichiers via Document Webhooks
 
 Le téléchargement d’un fichier vers un fournisseur de stockage de documents est un processus en deux étapes qui nécessite deux points de terminaison d’API distincts. Adobe Workfront commence le processus de chargement en appelant /uploadInit . Ce point de terminaison renvoie un ID de document qui est ensuite transmis à /upload lors du téléchargement des octets de document. Selon le système de stockage de documents sous-jacent, il peut être nécessaire de créer un document de longueur zéro, puis de mettre à jour le contenu du document ultérieurement.
 
 Ajouté à la version 1.1 de cette spécification, l’ID de document et l’ID de version de document peuvent être utilisés pour récupérer des informations supplémentaires auprès de Workfront.
 
-**Exemple :** Si le système Document Management souhaite obtenir des informations supplémentaires sur le document, le code de mise en oeuvre webhook peut utiliser l’ID de document pour récupérer ces informations à l’aide de l’API RESTful de Workfront. En règle générale, ces informations peuvent provenir de champs de données personnalisés sur le document et contiennent une tâche, un problème ou un projet.
+**Exemple :** Si le système de gestion des documents souhaite obtenir des informations supplémentaires sur le document, le code de mise en oeuvre webhook peut utiliser l’ID de document pour récupérer ces informations à l’aide de l’API RESTful de Workfront. En règle générale, ces informations peuvent provenir de champs de données personnalisés sur le document et contiennent une tâche, un problème ou un projet.
 
 ## Méthode du POST
 
@@ -61,11 +61,11 @@ POST /uploadInit
  </tbody> 
 </table>
 
-## réponse
+## Réponse
 
 Métadonnées du fichier, telles que définies par le point de terminaison /metadata . Cela inclut l’ID de document utilisé par le fournisseur.
 
-**Exemple:**
+**Exemple :**
 
 ```
 https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b

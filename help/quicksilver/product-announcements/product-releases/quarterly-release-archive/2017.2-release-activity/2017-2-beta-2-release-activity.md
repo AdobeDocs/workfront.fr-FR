@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de version 2017.2 bêta 2
-description: Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 bêta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 24 mai 2017. Il sera disponible dans l’environnement de production entre fin juillet et début août 2017.
+title: Activité Version 2017.2, version bêta 2
+description: Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 de Beta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 24 mai 2017. Il sera disponible dans l’environnement de production entre fin juillet et début août 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,33 +10,33 @@ exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Activité de version 2017.2 bêta 2
+# Activité Version 2017.2, version bêta 2
 
-Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 bêta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 24 mai 2017. Il sera disponible dans l’environnement de production entre fin juillet et début août 2017.
+Cette page décrit toutes les modifications disponibles dans l’environnement Aperçu avec la version 2017.2 de Beta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 24 mai 2017. Il sera disponible dans l’environnement de production entre fin juillet et début août 2017.
 
 >[!IMPORTANT]
 >
 >Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2017.2, voir [Présentation de l’activité de la version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées en 2017.2, consultez la [présentation de l’activité de version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-La version 2017.2 bêta 2 contient des améliorations à la fois pour les administrateurs de Workfront et pour les autres utilisateurs :
+La version 2017.2 de Beta 2 contient des améliorations tant pour les administrateurs de Workfront que pour d’autres utilisateurs :
 
 **Pour les administrateurs :**
 
 * [Amélioration de l’API : abonnements aux événements](#api-enhancement-event-subscriptions)
 
-**Pour tous les utilisateurs :**
+**Pour Tous Les Utilisateurs :**
 
-* [Abonnement à des projets](#subscribe-to-projects)
+* [S’abonner aux projets](#subscribe-to-projects)
 * [Se désabonner des éléments du courrier électronique](#unsubscribe-from-items-from-email)
 * [Configuration de l’affichage des jalons sur le diagramme de Gantt](#configure-how-milestones-are-displayed-on-the-gantt-chart)
 * [Modèles de groupes de ressources](#resource-pools-templates)
-* [Affichage des versions des documents protégés dans Workfront](#view-versions-of-proofed-documents-within-workfront)
+* [ Afficher les versions des documents protégés dans Workfront](#view-versions-of-proofed-documents-within-workfront)
 * [Nouvel objet Requester dans le rapport d’approbation de BAT](#new-requester-object-in-proof-approval-report)
 
 ## Amélioration de l’API : abonnements aux événements {#api-enhancement-event-subscriptions}
@@ -55,11 +55,11 @@ Pour plus d’informations sur l’abonnement aux éléments, voir [Abonnement a
 
 Vous pouvez vous désabonner des éléments à l’aide du lien &quot;Se désabonner&quot; dans l’email d’abonnement. Auparavant, vous ne pouviez vous désabonner que d’un élément de l’interface de Workfront.
 
-Pour plus d’informations sur la désinscription aux e-mails d’abonnement, voir la section &quot;Désinscription de la notification par e-mail&quot; dans [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md) 
+Pour plus d’informations sur la désinscription aux e-mails d’abonnement, voir la section &quot;Désinscription des notifications par e-mail&quot; dans [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md) 
 
 ## Configuration de l’affichage des jalons sur le diagramme de Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORRECTION **: cette fonctionnalité n’est actuellement pas dans l’environnement de prévisualisation Sandbox. Il devrait être publié à une date ultérieure, au cours du mois de juin 2017.*
+***CORRECTION **: cette fonctionnalité n’est actuellement pas dans l’environnement Preview Sandbox. Il devrait être publié à une date ultérieure, au cours du mois de juin 2017.*
 
 Deux options sont désormais disponibles pour afficher les informations de jalon dans un graphique Gantt. Vous pouvez configurer l’un des indicateurs de jalon suivants, ou les deux :
 
@@ -73,7 +73,7 @@ Deux options sont désormais disponibles pour afficher les informations de jalon
 
 Avant cette modification, il n’existait qu’une seule option permettant aux jalons de s’afficher sur un graphique de Gantt, appelé &quot;Jalons&quot;. Cette option a activé l’icône représentant un jalon et la ligne de jalon. Ces indicateurs n’ont pas pu être séparés. Les deux options sont désormais disponibles sur tous les graphiques Gantt, y compris toutes les listes de projets et tous les rapports. 
 
-Pour plus d’informations sur la configuration de l’affichage des informations dans le diagramme de Gantt, voir [Configuration de l’affichage des informations sur le diagramme de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+Pour plus d’informations sur la configuration de l’affichage des informations dans le diagramme de Gantt, voir [Configuration de l’affichage des informations dans le diagramme de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 ## Modèles de groupes de ressources {#resource-pools-templates}
 
@@ -96,7 +96,7 @@ Les utilisateurs disposant d’une licence de vérification peuvent effectuer l�
 * Ouvrir un BAT sur une version précédente d’un document révisé
 * Afficher les détails du BAT sur une version précédente d’un document révisé
 
-Pour plus d’informations, voir [Gestion des versions de document](../../../../documents/managing-documents/manage-document-versions.md) in [Gestion des versions de document](../../../../documents/managing-documents/manage-document-versions.md).
+Pour plus d’informations, voir [Gestion des versions de document](../../../../documents/managing-documents/manage-document-versions.md) dans [Gestion des versions de document](../../../../documents/managing-documents/manage-document-versions.md).
 
 ## Nouvel objet Requester dans le rapport d’approbation de BAT {#new-requester-object-in-proof-approval-report}
 
@@ -108,6 +108,6 @@ Le nouvel objet Requester du rapport Approbation de BAT contient tous les champs
 >
 > Ces informations ne sont disponibles dans le rapport qu’à partir du moment où cette fonctionnalité a été introduite pour la première fois dans les environnements de prévisualisation ou de production respectifs ; les informations contenues dans les rapports concernant l’objet Requester avant l’introduction de cette fonctionnalité ne sont pas disponibles.
 
-Vous accédez à l’objet Requester lors de la création d’un rapport d’approbation de BAT, comme décrit dans la section [Création d’un rapport personnalisé](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Vous accédez à l’objet Requester lors de la création d’un rapport d’approbation de BAT, comme décrit dans la section [Créer un rapport personnalisé](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Pour plus d’informations sur le rapport d’objet Approbations de BAT, voir [Présentation des objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) dans [Présentation des objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Pour plus d’informations sur le rapport d’objet Approbations de BAT, reportez-vous à la section [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) de la section [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

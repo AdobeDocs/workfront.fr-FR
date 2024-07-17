@@ -65,9 +65,9 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 Le format d’une règle de fonctionnement est &quot;SI la condition définie est remplie, l’utilisateur ne peut pas effectuer d’action sur l’objet et le message s’affiche&quot;.
 
-La syntaxe des propriétés et autres fonctions d’une règle de fonctionnement est la même que celle d’un champ calculé d’un formulaire personnalisé. Pour plus d’informations sur la syntaxe, voir [Ajouter des champs calculés avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+La syntaxe des propriétés et autres fonctions d’une règle de fonctionnement est la même que celle d’un champ calculé d’un formulaire personnalisé. Pour plus d’informations sur la syntaxe, voir [Ajout de champs calculés avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Pour plus d’informations sur les instructions IF, voir [Présentation des instructions &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) et [Opérateurs de condition dans les champs personnalisés calculés](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Pour plus d’informations sur les instructions IF, voir [&quot;IF&quot; statement overview](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) et [Opérateurs de condition dans les champs personnalisés calculés](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Pour plus d’informations sur les caractères génériques basés sur l’utilisateur, voir [Utilisation de caractères génériques basés sur l’utilisateur pour généraliser des rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -77,8 +77,8 @@ Un caractère générique API est également disponible dans les règles de fonc
 
 Voici quelques scénarios de règles de fonctionnement simples :
 
-* Les utilisateurs ne peuvent pas ajouter de nouvelles dépenses pendant la dernière semaine de février. Cette formule pourrait être formulée comme suit : `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Les utilisateurs ne peuvent pas modifier un projet dont l’état est Terminé. Cette formule pourrait être formulée comme suit : `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Les utilisateurs ne peuvent pas ajouter de nouvelles dépenses pendant la dernière semaine de février. Cette formule peut être indiquée comme suit : `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Les utilisateurs ne peuvent pas modifier un projet dont l’état est Terminé. Cette formule peut être indiquée comme suit : `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 Un scénario avec des instructions IF imbriquées est le suivant :
 
@@ -98,24 +98,24 @@ IF(
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Règles de fonctionnement** dans le panneau de gauche.
+1. Cliquez sur **Règles métier** dans le panneau de gauche.
 1. Cliquez sur **Nouvelle règle de fonctionnement**.
 1. Sélectionnez le type d’objet auquel affecter la règle de fonctionnement, puis cliquez sur **Continuer**.
 
-   ![Sélection d’un objet](assets/object-for-business-rule2.png)
+   ![Sélectionner un objet](assets/object-for-business-rule2.png)
 
 1. Saisissez le **Nom** pour la règle de fonctionnement.
-1. Dans le **Est actif** , choisissez si la règle doit être active lors de son enregistrement.
+1. Dans le champ **Est actif** , indiquez si la règle doit être active lorsque vous l’enregistrez.
 
    Si vous sélectionnez **Non**, la règle est enregistrée comme inactive et vous pouvez l’activer ultérieurement.
 
-1. Sélectionnez une **Déclencheur** pour la règle de fonctionnement. Les options sont les suivantes :
+1. Sélectionnez un **Déclencheur** pour la règle de fonctionnement. Les options sont les suivantes :
 
-   * **A la création de l’objet :** La règle est appliquée lorsqu’un utilisateur tente de créer un objet.
-   * **Lors de la modification de l’objet :** La règle est appliquée lorsqu’un utilisateur tente de modifier un objet.
+   * **Lors de la création de l’objet :** La règle est appliquée lorsqu’un utilisateur tente de créer un objet.
+   * **Lors de la modification d’objet :** La règle est appliquée lorsqu’un utilisateur tente de modifier un objet.
    * **Lors de la suppression d’objet :** La règle est appliquée lorsqu’un utilisateur tente de supprimer un objet.
 
-1. (Facultatif) Saisissez un **Description** de la règle de fonctionnement et ce qui se produit lorsqu’elle est appliquée.
+1. (Facultatif) Saisissez une **Description** de la règle de fonctionnement et ce qui se passe lorsqu’elle est appliquée.
 1. Créez la formule dans l’éditeur de formule, au centre de la boîte de dialogue des règles de fonctionnement.
 
    Le format d’une règle de fonctionnement est &quot;SI la condition définie est remplie, l’utilisateur ne peut pas effectuer d’action sur l’objet et le message s’affiche&quot;.
@@ -131,7 +131,7 @@ IF(
 
    Cet exemple est une règle de fonctionnement pour les dépenses. Si le mois en cours est le mois de juin, les utilisateurs ne sont pas autorisés à créer de nouvelles dépenses et le message l’explique.
 
-   Pour consulter d’autres exemples de règles de fonctionnement, voir [Scénarios de règles de fonctionnement](#scenarios-for-business-rules) dans cet article.
+   Pour obtenir d’autres exemples de règles de fonctionnement, reportez-vous à la section [Scénarios pour les règles de fonctionnement](#scenarios-for-business-rules) de cet article.
 
 1. (Facultatif) Utilisez la formule **Expressions** et **Champs** dans le panneau de droite pour faciliter la création de la règle.
 
@@ -152,5 +152,5 @@ Lorsqu’une règle de fonctionnement est inactive, le champ Est active de la li
 Pour activer une règle de fonctionnement :
 
 1. Sélectionnez la règle de fonctionnement dans la liste des règles et cliquez sur l&#39;icône Modifier .
-1. Sélectionner **Oui** pour **Est actif** dans la boîte de dialogue des règles de fonctionnement.
+1. Sélectionnez **Oui** pour **Est actif** dans la boîte de dialogue de règle de fonctionnement.
 1. Cliquer sur **Enregistrer**.

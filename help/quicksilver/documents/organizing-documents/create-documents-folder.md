@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: organize-documents
-title: Création de dossiers de document
+title: Créer des dossiers de documents
 description: Les documents peuvent être organisés en dossiers. Vous pouvez créer des dossiers personnels dans votre zone Documents personnels.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 1%
+source-wordcount: '305'
+ht-degree: 31%
 
 ---
 
-# Création de dossiers de document
+# Créer des dossiers de documents
 
 Les documents peuvent être organisés en dossiers. Vous pouvez créer des dossiers personnels dans votre zone Documents personnels.
 
@@ -21,30 +21,30 @@ Les documents peuvent être organisés en dossiers. Vous pouvez créer des dossi
 >
 >L’organisation des documents crée simplement des liens entre les documents et les objets auxquels vous les associez. Il ne les déplace pas dans le système.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Accès en modification aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Afficher les dossiers
 
@@ -70,11 +70,11 @@ Créez des dossiers pour mieux organiser vos documents. Vous pouvez créer jusqu
 
    Une fois l’objet Workfront ouvert, cliquez sur **Documents** dans le panneau de gauche.
 
-1. Pour créer un dossier de niveau supérieur, assurez-vous que rien n’est sélectionné, puis cliquez sur **Ajouter** > **Dossier**.
+1. Pour créer un dossier de niveau supérieur, assurez-vous que rien n’est sélectionné, puis cliquez sur **Ajouter nouveau** > **Dossier**.
 
    Ou
 
-   Pour créer un sous-dossier, sélectionnez le dossier dans lequel vous souhaitez créer le sous-dossier, puis cliquez sur **Ajouter** > **Dossier**.
+   Pour créer un sous-dossier, sélectionnez le dossier dans lequel vous souhaitez créer le sous-dossier, puis cliquez sur **Ajouter nouveau** > **Dossier**.
 
 ## Partage de dossiers
 

@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Fonctionnalités disponibles dans l’aperçu en 2016
+title: Fonctionnalités disponibles dans l’environnement d’aperçu en 2016
 description: Les fonctionnalités suivantes ont été rendues disponibles dans l’environnement Aperçu en 2016. Ces fonctionnalités doivent être publiées dans l’environnement de production avec la version R1.
 author: Luke
 feature: Product Announcements
@@ -10,11 +10,11 @@ exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Fonctionnalités disponibles dans l’aperçu en 2016
+# Fonctionnalités disponibles dans l’environnement d’aperçu en 2016
 
 Les fonctionnalités suivantes ont été rendues disponibles dans l’environnement Aperçu en 2016. Ces fonctionnalités doivent être publiées dans l’environnement de production avec la version R1.
 
@@ -44,7 +44,8 @@ L’ombrage de l’affectation des utilisateurs sur la chronologie de planificat
 
 Auparavant, l’ombrage d’affectation s’affichait par défaut et ne pouvait pas être désactivé.
 
-Pour plus d’informations sur la manière d’activer les options d’affectation des utilisateurs, voir &quot;Gestion des affectations des utilisateurs dans les zones de planification&quot;.
+Pour plus d’informations sur l’activation des options d’affectation des utilisateurs, voir
+&quot;Gestion des affectations utilisateur dans les zones de planification&quot;.
 
 ## Modèle de mise en page Détermine si le calendrier nouveau ou hérité s’affiche dans la zone de travail Mon travail
 
@@ -58,11 +59,11 @@ Lors de l’utilisation du calendrier hérité dans la zone Mon travail, seule l
 
 Pour configurer Workfront de manière à afficher le nouveau calendrier dans la zone Mon travail lorsqu’un modèle de mise en page est appliqué, configurez le modèle de mise en page de sorte qu’il affiche la date d’achèvement planifiée pour les tâches et les problèmes, puis attribuez ce modèle de mise en page aux utilisateurs appropriés.
 
-Pour plus d’informations sur la configuration du modèle de mise en page, voir [Création et gestion des modèles de mise en page](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Création et gestion des modèles de mise en page](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations sur la configuration du modèle de mise en page, voir [Créer et gérer des modèles de mise en page](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) dans [Créer et gérer des modèles de mise en page](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-## Outlook 365 bêta
+## Outlook 365 Beta
 
-**Bêta : À déterminer ; Disponibilité publique : à déterminer**
+**Beta : À déterminer ; Disponibilité publique : à déterminer**
 
 Vous pouvez utiliser Workfront depuis Outlook pour Office 365, comme décrit dans les sections suivantes :
 
@@ -77,7 +78,7 @@ Vous pouvez modifier l’ordre des colonnes dans n’importe quelle liste en fai
 
 Cela s’avère particulièrement utile lorsque vous affichez simultanément le diagramme de Gantt et le mode Liste, et que la colonne que vous souhaitez afficher ne s’affiche pas sur le côté gauche de la page. 
 
-Pour plus d’informations, voir [Modification de la largeur et de l’ordre des colonnes](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+Pour plus d’informations, voir [ Modifier la largeur et l’ordre des colonnes](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 
 ## Représentation mise à jour de la liste des tableaux de bord
 
@@ -87,7 +88,7 @@ Pour plus d’informations sur les tableaux de bord, voir [Création d’un tabl
 
 ## Contrôle de l’accès à Forms personnalisé
 
-**Aperçu d’un environnement de test : 23 janvier 2016**
+**Aperçu de l’environnement de test : 23 janvier 2016**
 
 Vous pouvez désormais contrôler qui a accès à un formulaire personnalisé en accordant l’accès à des utilisateurs, équipes, rôles, groupes ou entreprises individuels. 
 
@@ -97,6 +98,6 @@ Pour plus d’informations, voir [Création ou modification d’un formulaire pe
 
 ## Intégration à Adobe Creative Cloud
 
-**Module complémentaire à télécharger : avril 2016**
+**Module complémentaire disponible pour téléchargement : avril 2016**
 
 L’extension Workfront pour Adobe Creative Cloud est conçue pour vous permettre d’enregistrer et d’exporter des ressources que vous créez dans le Creative Cloud vers Workfront, ce qui accélère le processus d’approbation et de révision.

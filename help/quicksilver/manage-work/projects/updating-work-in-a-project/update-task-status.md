@@ -9,7 +9,7 @@ exl-id: e1efc676-e110-486e-91dc-f521421575e8
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 1%
+ht-degree: 15%
 
 ---
 
@@ -21,46 +21,46 @@ Les états par défaut sont Nouveau, En cours et Terminé. Votre administrateur 
 
 Vous pouvez mettre à jour manuellement les états des tâches ou laisser Workfront les mettre à jour automatiquement lorsque certaines actions ont lieu.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour mettre à jour manuellement les tâches :
+Vous devez disposer des accès suivants pour mettre à jour manuellement des tâches :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td> <p>Quelconque</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : Standard</p> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Nouvelle : standard</p> 
    Ou
-   <p>Actuel : travail ou plus élevé</p>
+   <p>Actuellement : Travail ou licence supérieure</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès</td> 
-   <td> <p>Modifier l’accès aux tâches</p>  </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Accès en modification aux tâches</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations pour la tâche</p> </td> 
+   <td> <p>Autorisations de gestion pour la tâche</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront. Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Observations relatives à la mise à jour de l’état des tâches
 
 * Lorsque vous marquez une tâche comme terminée, le pourcentage d’achèvement de la tâche passe à 100 %.
-* Les scénarios suivants existent pour les tâches parentes :
+* Les scénarios suivants existent pour les tâches parent :
    * Vous ne pouvez pas mettre à jour l’état d’une tâche parente sur Terminé lorsque le mode d’achèvement du résumé du projet est défini sur Automatique et que les sous-tâches ne sont pas terminées.
    * Vous pouvez mettre à jour l’état d’une tâche parente sur Terminé lorsque le mode d’achèvement du résumé du projet est défini sur Manuel et que les sous-tâches sont terminées ou incomplètes.
 
-  Pour plus d’informations, voir [Modification de projets](../manage-projects/edit-projects.md).
+  Pour plus d’informations, consultez la section [Modifier les projets](../manage-projects/edit-projects.md).
 
 ## Mise à jour manuelle de l’état de la tâche
 
@@ -75,8 +75,8 @@ Vous pouvez mettre à jour l’état de la tâche dans les zones suivantes de Wo
 Pour mettre à jour manuellement l’état de la tâche dans l’en-tête de la tâche :
 
 1. Accédez à une tâche pour laquelle vous souhaitez mettre à jour l&#39;état.
-1. Cliquez sur le bouton **État** dans l’en-tête de la tâche et sélectionnez un nouvel état.
-1. Pour fournir une indication visuelle de la fin de la tâche, faites glisser ou double-cliquez sur la bulle sous **Pourcentage terminé** dans l’en-tête de la tâche
+1. Cliquez sur le champ **Status** dans l’en-tête de la tâche et sélectionnez un nouvel état.
+1. Pour fournir une indication visuelle de la fin de la tâche, faites glisser ou double-cliquez sur la bulle sous **Pourcentage terminé** dans l’en-tête de la tâche.
 
    Ou
 
@@ -86,12 +86,12 @@ Pour mettre à jour manuellement l’état de la tâche dans l’en-tête de la 
 
 1. (Facultatif) Pour fournir des informations supplémentaires sur la mise à jour, effectuez l’une des opérations suivantes :
 
-   * Pour ajouter une note à propos de la mise à jour, accédez au **Mises à jour** et cliquez sur **Nouveau commentaire**, puis saisissez une note.
+   * Pour ajouter une note sur la mise à jour, accédez à la section **Mises à jour** et cliquez sur **Nouveau commentaire**, puis saisissez une note.
 
      ![](assets/add-update-to-task.png)
 
-   * Pour avertir certains utilisateurs de la mise à jour, saisissez leurs noms dans le champ **Balisage de personnes ou d’équipes** qui apparaît lorsque vous saisissez un commentaire. Pour plus d’informations, voir [Balisage des autres sur les mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Pour mettre à jour la date de validation de la tâche, cliquez sur **Détails de la tâche**, puis modifiez la variable **Date de validation** champ . Pour plus d’informations, voir [Modifier les tâches](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Pour avertir certains utilisateurs de la mise à jour, saisissez leurs noms dans le champ **Baliser les personnes ou les équipes** qui s’affiche lorsque vous saisissez un commentaire. Pour plus d’informations, consultez [Baliser d’autres personnes sur les mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Pour mettre à jour la date de validation de la tâche, cliquez sur **Détails de la tâche**, puis modifiez le champ **Date de validation**. Pour plus d’informations, voir [Modifier les tâches](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
 
    >[!IMPORTANT]
@@ -142,9 +142,9 @@ Workfront met automatiquement à jour l’état existant d’une tâche vers un 
    <td>En cours</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Cliquez sur le bouton Démarrer la tâche pour accepter de travailler sur une tâche qui vous est assignée.</span> </td> 
-   <td><span>Nouveau</span> </td> 
-   <td> <p>Tout état associé au bouton Démarrer la tâche dans les paramètres de votre équipe d’accueil.</p> <p>Pour plus d’informations sur le remplacement du bouton Travailler dessus par un bouton Démarrer la tâche, voir <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacez le bouton Travailler dessus par un bouton Démarrer</a></span>.</p> <p>Conseil : <span>Cliquer</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Bouton Annuler</span>après avoir cliqué sur Démarrer la tâche, l’état devient Nouveau. </p> </td> 
+   <td><span>Cliquez sur le bouton Démarrer la tâche pour accepter de travailler sur une tâche qui vous a été attribuée</span> </td> 
+   <td><span>New</span> </td> 
+   <td> <p>Tout état associé au bouton Démarrer la tâche dans les paramètres de votre équipe d’accueil.</p> <p>Pour plus d’informations sur le remplacement du bouton Work On It par un bouton Start Task, voir <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Remplacer le bouton Work On It par un bouton Start</a></span>.</p> <p>Conseil : <span>En cliquant sur</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">le bouton Annuler</span> après avoir cliqué sur Démarrer la tâche rétablit l’état sur Nouveau. </p> </td> 
   </tr> 
  </tbody> 
 </table>

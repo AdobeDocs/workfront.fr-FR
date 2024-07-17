@@ -1,5 +1,5 @@
 ---
-title: Questions fréquentes sur l’administrateur
+title: Questions fréquentes pour les administrateurs et administratrices
 user-type: administrator
 content-type: faq;reference
 product-area: system-administration
@@ -12,15 +12,15 @@ exl-id: 9b230142-de71-4577-8e67-35e8a6b9b932
 source-git-commit: 210690d230f7e791aa5887098181f3d0bd1cc75e
 workflow-type: tm+mt
 source-wordcount: '26'
-ht-degree: 0%
+ht-degree: 30%
 
 ---
 
-# Questions fréquentes sur l’administrateur
+# Questions fréquentes pour les administrateurs et administratrices
 
 Les articles suivants de la FAQ sont disponibles pour les administrateurs :
 
-* [Stratégie de prise en charge d’AtTask OnPremise](../../administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
+* [Politique de prise en charge d’AtTask OnPremise](../../administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
 
   <!--
   <li Migrating to another cluster</a> </li>

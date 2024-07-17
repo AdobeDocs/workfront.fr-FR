@@ -1,6 +1,6 @@
 ---
-title: 20.4 Améliorations de la gestion de projet
-description: 20.4 Améliorations de la gestion de projet
+title: Améliorations de la gestion de projets (version 20.4)
+description: Améliorations de la gestion de projets (version 20.4)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 20.4 Améliorations de la gestion de projet
+# Améliorations de la gestion de projets (version 20.4)
 
 Cette page décrit toutes les améliorations apportées à la gestion de projet avec la version 20.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production durant la semaine du 9 novembre 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 20.4, voir [Présentation de la version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 20.4, consultez la [présentation de la version 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Nouveau pour les administrateurs : contrôle du partage d’un champ personnalisé
 
@@ -27,7 +27,7 @@ Jusqu’à présent, lorsque vous avez créé un champ personnalisé, il était 
 
 En outre, pour que cette expérience vous soit familière, nous avons conçu l’interface utilisateur afin que cette fonctionnalité soit similaire aux autres zones d’objet partageant sur Workfront.
 
-Pour plus d’informations, voir [Configuration du partage pour les champs et widgets personnalisés](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Pour plus d’informations, voir [Configuration du partage pour les champs personnalisés et les widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 ## Nouveau pour les administrateurs : partage de formulaires personnalisés normalisé
 
@@ -53,7 +53,7 @@ Pour simplifier la création d&#39;une itération, nous avons ajouté un nouveau
 
 Vous pouvez toujours créer une itération sur la balise de journal comme auparavant.
 
-Pour plus d’informations, voir [Créer une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+Pour plus d’informations, voir [Création d’une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
 
 ## Nouvelle section Mesures disponible dans les projets
 
@@ -65,7 +65,7 @@ Pour gagner du temps et améliorer la compréhension de l’intégrité globale 
 
 Vous pouvez effectuer des sélections dans les graphiques pour voir les différents aspects des tâches et problèmes d’un projet, puis cliquer sur certains éléments pour afficher les informations sur la tâche.
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes de planification, troisième partie du parcours d&#39;apprentissage](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans les [Principes de planification, Partie 3 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) sur Workfront One.
 
 ## Nouveau destiné aux administrateurs : Affectation d’un chef d’entreprise à un groupe
 
@@ -73,9 +73,9 @@ Pour vous aider à mieux organiser et définir vos groupes, nous avons ajouté l
 
 Le nouveau champ Business Leader peut être utilisé dans les filtres de rapports, les vues et les regroupements. Par exemple, vous pouvez filtrer selon un certain chef d’entreprise afin de n’afficher que les groupes pour lesquels cette personne est affectée à ce rôle.
 
-Pour plus d’informations, voir [Présentation des chefs d’entreprise](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
+Pour plus d’informations, voir [Présentation du chef de l’entreprise](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes fondamentaux de l’administrateur, partie 1 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans les [fondamentaux de l’administrateur, parcours d’apprentissage Partie 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
 
 ## Nouveautés pour les administrateurs : Association de portefeuilles, de programmes et d’entreprises à des groupes
 
@@ -83,9 +83,9 @@ Lorsque les administrateurs Workfront créent ou modifient un portfolio, un prog
 
 Par exemple, vous pouvez répertorier tous les portefeuilles de votre entreprise dans un rapport et consulter la colonne Groupe pour voir sur lesquels votre groupe travaille.
 
-Pour plus d’informations, reportez-vous à la section &quot;A propos de l’association d’un groupe à un objet&quot; de l’article [Présentation des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Pour plus d’informations, voir la section &quot;A propos de l’association d’un groupe à un objet&quot; dans l’article [Présentation des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes fondamentaux de l’administrateur, partie 1 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans les [fondamentaux de l’administrateur, parcours d’apprentissage Partie 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
 
 ## Nouveau destiné aux administrateurs : les administrateurs d’un groupe affecté à une entreprise peuvent gérer l’entreprise.
 
@@ -93,19 +93,19 @@ Nous avons facilité la gestion par un administrateur de groupe d’une entrepri
 
 Pour plus d’informations, voir [Création et modification d’entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-Pour plus d’informations sur l’accès administratif aux entreprises, voir [Octroi aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Pour plus d&#39;informations sur l&#39;accès administratif aux entreprises, voir [Octroi aux utilisateurs d&#39;un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes fondamentaux de l’administrateur, partie 1 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans les [fondamentaux de l’administrateur, parcours d’apprentissage Partie 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
 
-## Remplacez le bouton Travailler dessus par un bouton Démarrer
+## Remplacer le bouton Travailler sur ce projet par un bouton Démarrer
 
 Pour vous aider à capturer la date et l’heure du début réel du travail sur un élément de travail, les utilisateurs peuvent remplacer le bouton Travailler dessus par un bouton Début qui met automatiquement à jour l’état et la Date de début réelle de l’élément de travail.
 
 Mise à jour le 24 septembre : après avoir cliqué sur Démarrer la tâche ou Démarrer le problème, vous avez désormais la possibilité de rétablir votre choix et d’indiquer que vous ne serez peut-être pas prêt à commencer à travailler sur une tâche en cliquant sur Annuler. L’élément de travail revient à l’état Nouveau et la Date de validation et la Date de début réelle sont supprimées. L’option Annuler s’affiche pendant une très courte période et est effacée une fois que vous avez quitté la page ou que vous l’avez actualisée.
 
-Pour plus d’informations sur la configuration de cette option, voir [Remplacez le bouton Travailler dessus par un bouton Démarrer](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Pour plus d&#39;informations sur la configuration de cette option, voir le bouton [Remplacer le travail dessus par un bouton Démarrer](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Parcours d’apprentissage des principes de base du traitement](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) et la variable [Principes fondamentaux de l’administrateur, partie 1 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans le [chemin d’apprentissage des fondamentaux du traitement](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) et dans les [fondamentaux de l’administrateur, chemin d’apprentissage de la partie 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
 
 ## Autorisation de plusieurs brouillons pour une rubrique de file d’attente
 
@@ -113,7 +113,7 @@ Pour vous donner plus de liberté lors de l’utilisation de requêtes, il n’e
 
 Avant cette amélioration, Workfront n’enregistrait qu’un seul brouillon pour chaque rubrique de file d’attente de votre file d’attente de requêtes.
 
-Pour plus d’informations sur l’envoi de requêtes, voir &quot; [Création et envoi de requêtes Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Pour plus d’informations sur l’envoi de requêtes, voir &quot; [Création et envoi de requêtes Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)&quot;.
 
 ## Affectation d’un groupe à une équipe
 
@@ -123,7 +123,7 @@ Lorsque vous affectez une équipe à un groupe, ses administrateurs de groupe pe
 
 Pour plus d’informations, voir [Création d’une équipe](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Principes fondamentaux de l’administrateur, partie 1 du parcours d’apprentissage](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
+Cette fonctionnalité est désormais incluse dans les [fondamentaux de l’administrateur, parcours d’apprentissage Partie 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) sur Workfront One.
 
 ## Les nouveaux champs vous permettent de créer des rapports sur les données d’un groupe de niveau supérieur et de tous ses sous-groupes.
 

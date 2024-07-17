@@ -3,85 +3,85 @@ filename: aem-assets-modules
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: connector
+keywords: Connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Adobe Experience Manager Assets
-description: Avec la variable [!DNL Adobe Experience Manager Assets] connecteur pour [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] créer, charger et mettre à jour des ressources, ainsi que copier ou déplacer des dossiers et des ressources.
+description: Avec le connecteur  [!DNL Adobe Experience Manager Assets] pour le compte  [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] , créez, téléchargez et mettez à jour des ressources, et copiez ou déplacez des dossiers et des ressources.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
-# [!DNL Adobe Experience Manager Assets] modules
+# Modules [!DNL Adobe Experience Manager Assets]
 
-Avec la variable [!DNL Adobe Experience Manager Assets] connecteur pour [!DNL Adobe Workfront Fusion], vous pouvez démarrer un scénario en fonction des événements de votre [!DNL Adobe Experience Manager Assets] créer, charger et mettre à jour des ressources, ainsi que copier ou déplacer des dossiers et des ressources.
+Avec le connecteur [!DNL Adobe Experience Manager Assets] pour [!DNL Adobe Workfront Fusion], vous pouvez démarrer un scénario basé sur les événements de votre compte [!DNL Adobe Experience Manager Assets], créer, charger et mettre à jour des ressources, et copier ou déplacer des dossiers et des ressources.
 
 Pour une présentation du connecteur Adobe Experience Manager Assets, voir :
 
 * [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelles : non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p>
+   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation et l’intégration du travail] </p>
+   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Conditions requises du produit actuel : si vous disposez de l’[!UICONTROL Select] ou de l’[!UICONTROL Prime] [!DNL Adobe Workfront] Planifiez, votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans l’[!UICONTROL Ultimate] [!DNL Workfront] planifiez.</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur [!DNL Adobe Workfront Fusion] licences, voir [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
-* Vous devez disposer d’un [!DNL Adobe Experience Manager Assets] pour utiliser ces modules.
-* Vous devez configurer [!UICONTROL Serveur à serveur] dans le flux [!DNL Adobe Developer console].
+* Vous devez disposer d’un compte [!DNL Adobe Experience Manager Assets] pour utiliser ces modules.
+* Vous devez configurer le flux [!UICONTROL Serveur à serveur] dans [!DNL Adobe Developer console].
 
-  Pour obtenir des instructions sur la configuration [!UICONTROL Serveur à serveur] dans le flux [!DNL Adobe Developer console], voir [Génération de jetons d’accès pour les API côté serveur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+  Pour plus d&#39;informations sur la configuration du flux [!UICONTROL serveur à serveur] dans [!DNL Adobe Developer console], voir [ Génération de jetons d&#39;accès pour les API côté serveur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
-## Connexion [!DNL Adobe Experience Manager Assets] to [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
+## Connecter [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
-Pour créer une connexion pour votre [!DNL Adobe Experience Manager Assets] modules :
+Pour créer une connexion pour vos modules [!DNL Adobe Experience Manager Assets] :
 
-1. Cliquez sur [!UICONTROL Ajouter] en regard de [!UICONTROL Connexion] de la boîte.
+1. Cliquez sur [!UICONTROL Ajouter] en regard de la zone [!UICONTROL Connexion].
 
 2. Sélectionnez le type de connexion que vous créez :
 
    * **[!DNL AEM Assets as a Cloud Service]**
 
-     Cette configuration nécessite des informations de la part de la fonction [!DNL Adobe Admin Console].
+     Cette configuration nécessite des informations de la [!DNL Adobe Admin Console].
 
    * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
@@ -91,7 +91,7 @@ Pour créer une connexion pour votre [!DNL Adobe Experience Manager Assets] modu
 
    Pour [!DNL AEM Assets as a Cloud Service], voir [Configuration de la connexion pour [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   Pour [!UICONTROL AEM Assets de base] ([!DNL Adobe Managed Services]), voir [Configuration de la connexion pour [!UICONTROL AEM Assets de base]](#configure-the-connection-for-aem-assets-basic).
+   Pour [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), voir [ Configuration de la connexion pour [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
 4. Cliquez sur **[!UICONTROL Continuer]** pour enregistrer la connexion et revenir au module.
 
@@ -100,9 +100,9 @@ Pour créer une connexion pour votre [!DNL Adobe Experience Manager Assets] modu
 
 >[!NOTE]
 >
->Les informations de ces champs sont générées dans le cadre de la configuration [!UICONTROL Serveur à serveur] flux sur le [!DNL Adobe Developer Console]. Vous pouvez trouver ces valeurs dans le fichier JSON des informations d’identification du service généré dans le cadre de cette configuration.
+>Les informations de ces champs sont générées dans le cadre de la configuration du flux [!UICONTROL Serveur à serveur] sur [!DNL Adobe Developer Console]. Vous pouvez trouver ces valeurs dans le fichier JSON des informations d’identification du service généré dans le cadre de cette configuration.
 >
->Pour obtenir des instructions sur la configuration [!UICONTROL Serveur à serveur] flux sur le [!UICONTROL Console Adobe Developer], voir [Génération de jetons d’accès pour les API côté serveur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>Pour obtenir des instructions sur la configuration du flux [!UICONTROL serveur à serveur] sur [!UICONTROL Adobe Developer Console], voir [Génération de jetons d’accès pour les API côté serveur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
 
 <table style="table-layout:auto"> 
@@ -110,17 +110,17 @@ Pour créer une connexion pour votre [!DNL Adobe Experience Manager Assets] modu
           <col/>
           <tbody>
               <tr>
-                  <td role="rowheader">[!UICONTROL Nom de la connexion]</td>
+                  <td role="rowheader">[!UICONTROL Connection name]</td>
                   <td>
                       <p>Saisissez le nom de cette connexion.</p>
                   </td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL URL de l’instance sans barre oblique]</td>
-                  <td>Saisissez l’URL de votre [!DNL Adobe Experience Manager] instance. Ne pas inclure de barre oblique <code>/</code> à la fin de l’URL.</td>
+                  <td>Saisissez l’URL de votre instance [!DNL Adobe Experience Manager]. N’incluez pas de barre oblique <code>/</code> à la fin de l’URL.</td>
               </tr>
               <tr>
-                  <td role="rowheader">[!UICONTROL ID client]</td>
+                  <td role="rowheader">[!UICONTROL Client ID]</td>
                   <td>Saisissez l’identifiant du client généré dans la configuration [!UICONTROL Server-to-server] .</td>
               </tr>
               <tr>
@@ -154,32 +154,32 @@ Pour créer une connexion pour votre [!DNL Adobe Experience Manager Assets] modu
         <col />
         <tbody>
             <tr>
-                <td role="rowheader">[!UICONTROL Nom de la connexion]</td>
+                <td role="rowheader">[!UICONTROL Connection name]</td>
                 <td>
                     <p>Saisissez le nom de cette connexion.</p>
                 </td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL URL de l’instance sans barre oblique]</td>
-                <td>Saisissez l’URL de votre [!DNL Adobe Experience Manager] instance. Ne pas inclure de barre oblique <code>/</code> à la fin de l’URL.</td>
+                <td>Saisissez l’URL de votre instance [!DNL Adobe Experience Manager]. N’incluez pas de barre oblique <code>/</code> à la fin de l’URL.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Username]</td>
-                <td>Saisissez le nom d’utilisateur de la variable [!DNL AEM Assets] compte utilisé par cette connexion.</td>
+                <td>Saisissez le nom d’utilisateur du compte [!DNL AEM Assets] utilisé par cette connexion.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Password]</td>
-                <td>Saisissez le mot de passe du champ [!DNL AEM Assets] compte utilisé par cette connexion.</td>
+                <td>Saisissez le mot de passe du compte [!DNL AEM Assets] utilisé par cette connexion.</td>
             </tr>
         </tbody>
     </table>
 
 
-## [!DNL Adobe Experience Manager Assets] modules et leurs champs
+## Modules [!DNL Adobe Experience Manager Assets] et leurs champs
 
-Lorsque vous configurez [!DNL Adobe Experience Manager Essentials] modules, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces [!DNL Adobe Experience Manager Essentials] peut s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez des modules [!DNL Adobe Experience Manager Essentials], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Adobe Experience Manager Essentials] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mappage des informations d’un module à un autre dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -193,7 +193,7 @@ Ce module d’action copie un dossier ou une ressource vers un autre emplacement
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Adobe Experience Manager Assets] compte à [!DNL Workfront Fusion], voir <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type d’enregistrement]</td> 
@@ -209,7 +209,7 @@ Ce module d’action copie un dossier ou une ressource vers un autre emplacement
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nom du dossier copié] / [!UICONTROL ressource]</td> 
-   <td>Saisissez le nom du nouveau dossier ou de la nouvelle ressource. Nom du dossier qui s’affiche dans [!DNL Adobe Experience Manager Assets] est identique au nom original. Le nom saisi ici apparaît dans l’URL du nouveau dossier ou de la nouvelle ressource.</td> 
+   <td>Saisissez le nom du nouveau dossier ou de la nouvelle ressource. Le nom du dossier qui s’affiche dans [!DNL Adobe Experience Manager Assets] est identique au nom d’origine. Le nom saisi ici apparaît dans l’URL du nouveau dossier ou de la nouvelle ressource.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Copier les enfants]</td> 
@@ -222,7 +222,7 @@ Ce module d’action copie un dossier ou une ressource vers un autre emplacement
  </tbody> 
 </table>
 
-### [!UICONTROL Création d’un enregistrement]
+### [!UICONTROL Créer un enregistrement]
 
 Ce module d’action crée un dossier ou un commentaire de ressource.
 
@@ -232,18 +232,18 @@ Ce module d’action crée un dossier ou un commentaire de ressource.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Adobe Experience Manager Assets] compte à [!DNL Workfront Fusion], voir <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Type d’objet]</td> 
+   <td role="rowheader">[!UICONTROL Object type]</td> 
    <td> <p>Indiquez si vous souhaitez créer un dossier ou un commentaire sur une ressource.</p> 
     <ul> 
-     <li> <p>[!UICONTROL Folder]</p> <p>Renseignez les champs suivants :</p> 
+     <li> <p>[!UICONTROL Folder]</p> <p>Renseignez les champs suivants :</p> 
       <ul> 
        <li> <p>[!UICONTROL Name]</p> <p>Saisissez le nom du dossier. Ce nom apparaît dans le chemin d’accès au fichier. Il ne doit donc pas contenir d’espaces ni d’autres caractères. </p> </li> 
        <li> <p>[!UICONTROL Title]</p> <p>Saisissez le titre du dossier, qui peut s’afficher à la place du nom.</p> </li> 
       </ul> </li> 
-     <li> <p>[!UICONTROL Commentaires sur la ressource]</p> <p>Renseignez les champs suivants :</p> 
+     <li> <p>[!UICONTROL Commentaires sur la ressource]</p> <p>Renseignez les champs suivants :</p> 
       <ul> 
        <li> <p>[!UICONTROL Sélection de ressources]</p> <p>Sélectionnez ou mappez l’identifiant de la ressource à laquelle vous souhaitez ajouter un commentaire.</p> </li> 
        <li> <p>[!UICONTROL Comment]</p> <p>Saisissez le texte du commentaire.</p> </li> 
@@ -253,7 +253,7 @@ Ce module d’action crée un dossier ou un commentaire de ressource.
  </tbody> 
 </table>
 
-### [!UICONTROL Suppression d’un enregistrement]
+### [!UICONTROL Supprimer un enregistrement]
 
 Ce module d’action supprime un dossier, une ressource ou un rendu.
 
@@ -263,7 +263,7 @@ Ce module d’action supprime un dossier, une ressource ou un rendu.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Adobe Experience Manager Assets] compte à [!DNL Workfront Fusion], voir <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type d’enregistrement]</td> 
@@ -277,7 +277,7 @@ Ce module d’action supprime un dossier, une ressource ou un rendu.
  </tbody> 
 </table>
 
-### [!UICONTROL Obtention d’une liste de dossiers]
+### [!UICONTROL Obtenir une liste de dossiers]
 
 Ce module d’action récupère une représentation d’un dossier existant et de ses entités enfants (dossiers ou ressources).
 
@@ -287,7 +287,7 @@ Ce module d’action récupère une représentation d’un dossier existant et d
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Adobe Experience Manager Assets] compte à [!DNL Workfront Fusion], voir <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -296,9 +296,9 @@ Ce module d’action récupère une représentation d’un dossier existant et d
  </tbody> 
 </table>
 
-### [!UICONTROL Effectuer un appel API personnalisé]
+### [!UICONTROL Effectuer un appel d’API personnalisé]
 
-Ce module d’action effectue un appel API personnalisé à la fonction [!DNL Adobe Experience Manager Assets] API.
+Ce module d’action effectue un appel API personnalisé à l’API [!DNL Adobe Experience Manager Assets].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -306,14 +306,14 @@ Ce module d’action effectue un appel API personnalisé à la fonction [!DNL Ad
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Adobe Experience Manager Assets] compte à [!DNL Workfront Fusion], voir <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Entrez un chemin relatif à votre [!DNL Adobe Experience Manager] URL de base.</p> </td> 
+   <td> <p>Saisissez un chemin relatif à l’URL de base [!DNL Adobe Experience Manager].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Méthode [!UICONTROL]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
    <td> <p>Sélectionnez la méthode de requête HTTP dont vous avez besoin pour configurer l’appel API. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Méthodes de requête HTTP dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -326,7 +326,7 @@ Ce module d’action effectue un appel API personnalisé à la fonction [!DNL Ad
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -344,7 +344,7 @@ Ce module d’action déplace la ressource ou le dossier à l’emplacement indi
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Adobe Experience Manager Assets] compte à [!DNL Workfront Fusion], voir <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type d’enregistrement]</td> 
@@ -360,7 +360,7 @@ Ce module d’action déplace la ressource ou le dossier à l’emplacement indi
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Nom du dossier déplacé] / [!UICONTROL ressource]</td> 
-   <td>Saisissez un nouveau nom pour le dossier ou la ressource déplacé. Nom du dossier qui s’affiche dans [!DNL Adobe Experience Manager Assets] est identique au nom original. Le nom saisi ici apparaît dans l’URL du dossier ou de la ressource déplacé.</td> 
+   <td>Saisissez un nouveau nom pour le dossier ou la ressource déplacé. Le nom du dossier qui s’affiche dans [!DNL Adobe Experience Manager Assets] est identique au nom d’origine. Le nom saisi ici apparaît dans l’URL du dossier ou de la ressource déplacé.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Remplacer]</td> 
@@ -379,7 +379,7 @@ Ce module d’action met à jour un enregistrement existant.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Adobe Experience Manager Assets] compte à [!DNL Workfront Fusion], voir <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type d’enregistrement]</td> 
@@ -400,9 +400,9 @@ Ce module d’action met à jour un enregistrement existant.
  </tbody> 
 </table>
 
-### [!UICONTROL Chargement d’une ressource]
+### [!UICONTROL Télécharger une ressource]
 
-Ce module d’action charge une ressource dans votre [!DNL Adobe Experience Manager Assets] compte .
+Ce module d’action télécharge une ressource vers votre compte [!DNL Adobe Experience Manager Assets].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -410,14 +410,14 @@ Ce module d’action charge une ressource dans votre [!DNL Adobe Experience Mana
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion à [!DNL Adobe Experience Manager Assets] compte à [!DNL Workfront Fusion], voir <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] to [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
+   <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion], reportez-vous à la section <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connexion [!DNL Adobe Experience Manager Assets] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Destination]</td> 
    <td> <p>Sélectionnez le dossier dans lequel vous souhaitez charger une ressource.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fichier source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td>Saisissez ou mappez le nom et les données du fichier source.</td> 
   </tr> 
  </tbody> 

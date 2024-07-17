@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Pourcentage du projet - Aperçu complet
+title: Vue d’ensemble du pourcentage terminé du projet
 description: La valeur Pourcentage d’achèvement d’un projet est calculée en fonction de la durée planifiée ou des heures planifiées des tâches du projet. Votre administrateur Adobe Workfront ou un administrateur de groupe définit la valeur qui est prise en compte lors du calcul du pourcentage d’achèvement dans votre système lors de la configuration des informations dans la zone Préférences du projet. Pour plus d’informations sur la configuration des préférences du projet, voir Configuration des préférences du projet à l’échelle du système.
 author: Alina
 feature: Work Management
@@ -10,17 +10,17 @@ exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
 source-git-commit: 816fd70642ffb7b24095602ce160421aa947e2a6
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Pourcentage du projet - Aperçu complet
+# Vue d’ensemble du pourcentage terminé du projet
 
 <!-- Audited 01/2024 -->
 
 La valeur Pourcentage d’achèvement d’un projet est calculée en fonction de la durée ou des heures planifiées des tâches du projet. Votre administrateur Adobe Workfront ou un administrateur de groupe définit la valeur qui est prise en compte lors du calcul du pourcentage d’achèvement dans votre système lors de la configuration des informations dans la zone Préférences du projet.
 
-Pour plus d’informations sur la configuration des préférences du projet, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Pour plus d’informations sur la configuration des préférences de projet, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Le pourcentage d’achèvement d’une tâche mère est basé sur la durée ou les heures planifiées de chacune de ses sous-tâches.
 

@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Mettre à jour les propriétaires et les sponsors de projet
+title: Mettre à jour les personnes propriétaires et sponsors des projets
 description: Lorsque vous créez un projet dans Adobe Workfront, vous êtes automatiquement défini comme propriétaire du projet. Vous pouvez mettre à jour ce champ avec un autre utilisateur. Vous pouvez également mettre à jour le champ Sponsor de projet d’un projet.
 author: Alina
 feature: Work Management
@@ -9,15 +9,15 @@ exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
 source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
-# Mettre à jour les propriétaires et les sponsors de projet
+# Mettre à jour les personnes propriétaires et sponsors des projets
 
 Lorsque vous créez un projet dans Adobe Workfront, vous êtes automatiquement défini comme propriétaire du projet. Vous pouvez mettre à jour ce champ avec un autre utilisateur. Vous pouvez également mettre à jour le champ Sponsor de projet d’un projet.
 
-Pour plus d’informations sur les propriétaires et les sponsors de projets, voir [Présentation des propriétaires et des sponsors de projet](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
+Pour plus d’informations sur les propriétaires et les sponsors de projets, voir [Présentation des propriétaires et des sponsors de projets](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
 >[!TIP]
 >
@@ -27,7 +27,7 @@ Pour plus d’informations sur les propriétaires et les sponsors de projets, vo
 >
 >Pour plus d’informations sur la modification de modèles, voir [Modifier des modèles de projet](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
 <!--drafted for P&P:
 
@@ -60,34 +60,34 @@ Pour plus d’informations sur les propriétaires et les sponsors de projets, vo
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> <p>  </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Modification des autorisations d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Modification des autorisations d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Mise à jour du propriétaire d’un projet
 
@@ -95,13 +95,13 @@ Lorsque vous ajoutez un utilisateur en tant que propriétaire de projet, Workfro
 
 1. Accédez au projet que vous souhaitez mettre à jour.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur le bouton **Modifier** icon ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur  **Présentation**.
+1. Cliquez sur l’icône **Modifier** ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Aperçu**.
 
-1. Indiquez le nom d’un utilisateur pour la variable **Propriétaire du projet** champ .
+1. Indiquez le nom d’un utilisateur pour le champ **Propriétaire du projet**.
 
    Seuls les utilisateurs actifs peuvent être spécifiés en tant que propriétaires de projet.
 
-1. Cliquez sur  **Enregistrer les modifications**.
+1. Cliquez sur **Enregistrer les modifications**.
 
    Le propriétaire du projet se met à jour dans l’en-tête du projet et dans la zone Détails du projet.
 
@@ -117,13 +117,13 @@ Lorsque vous ajoutez un utilisateur en tant que responsable de projet d’un pro
 
 1. Accédez au projet que vous souhaitez mettre à jour.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Cliquez sur le bouton **Modifier** icon ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur  **Présentation**.
+1. Cliquez sur l’icône **Modifier** ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis cliquez sur **Aperçu**.
 
-1. Indiquez le nom d’un utilisateur pour la variable **Sponsor de projet** champ .
+1. Indiquez le nom d’un utilisateur pour le champ **Project Sponsor**.
 
    Seuls les utilisateurs actifs peuvent être spécifiés en tant que parrains de projet.
 
-1. Cliquez sur  **Enregistrer les modifications**.
+1. Cliquez sur **Enregistrer les modifications**.
 
    Le parrain du projet est mis à jour dans la zone Détails du projet.
 

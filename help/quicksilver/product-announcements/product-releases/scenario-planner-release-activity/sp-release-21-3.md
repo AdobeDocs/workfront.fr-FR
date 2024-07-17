@@ -1,18 +1,18 @@
 ---
-title: Planificateur de scénario Adobe Workfront avec la version 21.3
-description: Planificateur de scénario Adobe Workfront avec la version 21.3
+title: Planificateur de scénarios Adobe Workfront avec la version 21.3
+description: Planificateur de scénarios Adobe Workfront avec la version 21.3
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 70e1b54b-2bf9-498a-8a77-9b220543e385
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 0%
+source-wordcount: '320'
+ht-degree: 11%
 
 ---
 
-# Planificateur de scénario Adobe Workfront avec la version 21.3
+# Planificateur de scénarios Adobe Workfront avec la version 21.3
 
 Le planificateur de scénario Adobe Workfront est disponible uniquement avec la nouvelle expérience Adobe Workfront.
 
@@ -28,7 +28,7 @@ Pour donner aux utilisateurs du planificateur de scénario Adobe Workfront une s
 
 Cette option est disponible uniquement dans la nouvelle expérience Adobe Workfront pour les clients qui ont acheté une licence pour le planificateur de scénario Adobe Workfront.
 
-Pour plus d’informations, voir [Budget des ressources dans l’analyse de cas à l’aide du planificateur de scénario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+Pour plus d’informations, voir [Ressources budgétaires dans l’analyse de cas à l’aide du planificateur de scénario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Création de pin’s et de landing pages pour le planificateur de scénario et les objectifs dans un modèle de mise en page
 
@@ -40,8 +40,8 @@ Afin d’assurer la cohérence lors de l’accès à toutes les zones d’Adobe 
 
 Avant cette amélioration, vous pouviez ajouter le planificateur de scénario et la zone Objectifs uniquement au menu principal à l’aide d’un modèle de mise en page.
 
-Pour plus d’informations, voir les articles suivants :
+Pour plus d’informations, voir les articles suivants :
 
-* [Personnaliser la landing page à l&#39;aide d&#39;un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+* [Personnaliser la page de destination à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
 * [Personnalisation des pages épinglées à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 

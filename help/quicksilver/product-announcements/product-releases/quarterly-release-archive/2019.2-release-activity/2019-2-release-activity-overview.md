@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Présentation de l’activité de la version 2019.2
+title: Vue d’ensemble de l’activité Version 2019.2
 description: Cette page fournit des informations sur les fonctionnalités incluses dans la version 2019.2. Pour télécharger ce contenu au format PDF, cliquez ici.
 author: Luke
 feature: Product Announcements
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 ---
 
-# Présentation de l’activité de la version 2019.2
+# Vue d’ensemble de l’activité Version 2019.2
 
-Cette page fournit des informations sur les fonctionnalités incluses dans la version 2019.2. Pour télécharger ce contenu au format PDF, accédez à [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Cette page fournit des informations sur les fonctionnalités incluses dans la version 2019.2. Pour télécharger ce contenu au format PDF, rendez-vous [ici](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 >
 >* *Environnement de production Workfront pour les grappes 2, 4 et 6 - 23 mai*
 >* *Environnement de production Workfront pour les grappes 1, 3 et 5 - 24 mai*
->* *Environnement de production de bons à tirer Workfront - 21 mai*
+>* *Environnement de production Workfront Proof - 21 mai*
 
 La version 2019.2 contient des améliorations pour les administrateurs système et d’autres utilisateurs.
 
@@ -88,13 +88,13 @@ La version 2019.2 contient des améliorations pour les administrateurs système 
 
   Vous pouvez désormais configurer des formulaires personnalisés et des processus d’approbation par défaut à joindre aux tâches lorsque vous ajoutez des tâches à un projet.
 
-* [Recherche De Groupes Plus Rapide Lors De La Personnalisation Des Statuts](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
+* [Recherche De Groupes Plus Rapide Lors De La Personnalisation Des États](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
 
   Le menu déroulant de l’onglet Statuts de la zone Configuration est désormais un menu de type .
 
 ### Améliorations de l’intégration
 
-* [Mise à jour de l’intégration de Workfront pour Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
+* [Mise à jour de Workfront pour l’intégration Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
 
   L’extension Workfront for Adobe Creative Cloud inclut désormais l’intégration à la bibliothèque Workfront.
 
@@ -126,16 +126,16 @@ La version 2019.2 contient des améliorations pour les administrateurs système 
 
 * Si des objets ne sont plus utilisés, vous pouvez les désactiver pour les masquer des listes afin d’empêcher les utilisateurs de les associer à d’autres objets.
 
-* [Recherche De Groupes Plus Rapide Lors De La Personnalisation Des Statuts](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
+* [Recherche De Groupes Plus Rapide Lors De La Personnalisation Des États](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
 
   Le menu déroulant de l’onglet Statuts de la zone Configuration est désormais un menu de type .
 
 
 ## Annonces
 
-* [Bibliothèque Workfront désormais disponible](#workfront-library-now-available)
-* [API version 3 n’est plus prise en charge](#api-version-3-no-longer-supported)
-* [La prise en charge de TLS se termine](#tls-support-is-ending)
+* [Bibliothèque Workfront Maintenant Disponible](#workfront-library-now-available)
+* [ L’API version 3 n’est plus prise en charge](#api-version-3-no-longer-supported)
+* [La Prise En Charge TLS Se Termine](#tls-support-is-ending)
 * [Retrait de l’application de Flash](#flash-application-removal)
 * [Diverses options de connexion unique à supprimer](#various-single-sign-on-options-to-be-removed)
 
@@ -145,19 +145,19 @@ La bibliothèque Workfront est un hub de contenu numérique d’entreprise que v
 
 ### API version 3 n’est plus prise en charge {#api-version-3-no-longer-supported}
 
-La prise en charge de l’API version 3 a pris fin en novembre 2018. Pour plus d’informations sur la planification de la prise en charge des versions de l’API Workfront, voir [Contrôle de version des API et planification de la prise en charge](../../../../wf-api/api/api-version-support-schedule.md).
+La prise en charge de l’API version 3 a pris fin en novembre 2018. Pour plus d’informations sur la planification de la prise en charge des versions de l’API Workfront, voir [Contrôle de version des API et planning de prise en charge](../../../../wf-api/api/api-version-support-schedule.md).
 
 ### La prise en charge de TLS se termine {#tls-support-is-ending}
 
 Pour garantir une sécurité optimale, Workfront exige que toutes les intégrations et le trafic web utilisant TLS 1.0 ou version antérieure soient mis à niveau pour utiliser TLS 1.1 ou version ultérieure. Cette modification est déjà en vigueur dans l’environnement Aperçu .
 
-Pour plus d’informations, voir [TLS 1.2 requis dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
+Pour plus d’informations, voir [TLS 1.2 à utiliser dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
 ### Retrait de l’application de Flash {#flash-application-removal}
 
 Toutes les fonctionnalités reposant sur la technologie de Flash ont été supprimées de Workfront depuis la version 2018.3 et remplacées par une nouvelle solution.
 
-Pour plus d’informations sur les outils de Flash hérités et leurs remplacements, voir [Remplacement des outils par Flash dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Pour plus d’informations sur les outils de Flash hérités et leur remplacement, voir [Remplacement des outils basés sur le Flash dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### Diverses options de connexion unique à supprimer {#various-single-sign-on-options-to-be-removed}
 
@@ -195,7 +195,7 @@ Le séminaire sur la feuille de route des produits du 2e trimestre 2019 a été 
 
 Rejoignez l’équipe de gestion de produits Workfront pour en savoir plus sur notre vision des produits, la feuille de route 2019 et la manière de s’impliquer.
 
-Pour afficher l’enregistrement du webinaire, voir [Webinaire Feuille de route du produit du 2e trimestre 2019](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
+Pour afficher l’enregistrement du webinaire, reportez-vous au [webinaire sur la feuille de route du produit du 2e trimestre 2019](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
 
 ### Webinaire Feuille de route du produit Workfront - 1er trimestre 2019
 

@@ -9,7 +9,7 @@ exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
 source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 Si vous contributeur individuel avez un objectif personnel, vous pouvez l’aligner sur les objectifs de votre équipe afin d’afficher efficacement la progression de votre propre objectif dans le contexte plus large de la stratégie de votre organisation.
 
-Lorsque tous les membres de votre organisation ont leurs objectifs alignés sur les objectifs de votre organisation, ils peuvent clairement voir comment leurs contributions individuelles et les efforts de leur équipe aident à avancer vers des priorités plus importantes au niveau de l’entreprise. Pour plus d’informations sur les bonnes pratiques d’alignement des objectifs, voir [Alignement des objectifs - Aperçu dans les objectifs d’Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
+Lorsque tous les membres de votre organisation ont leurs objectifs alignés sur les objectifs de votre organisation, ils peuvent clairement voir comment leurs contributions individuelles et les efforts de leur équipe aident à avancer vers des priorités plus importantes au niveau de l’entreprise. Pour plus d’informations sur les bonnes pratiques d’alignement des objectifs, consultez la [présentation de l’alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
 
 Il existe deux approches pour connecter les objectifs dans les objectifs Adobe Workfront :
 
@@ -29,11 +29,11 @@ Il existe deux approches pour connecter les objectifs dans les objectifs Adobe W
 >
 >Un objectif peut avoir un total de 1000 indicateurs de progrès.
 
-Cet article décrit comment aligner des objectifs en les connectant les uns aux autres. Pour plus d’informations sur l’alignement des objectifs en convertissant les résultats et les activités en objectifs, voir [Alignement des objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+Cet article décrit comment aligner des objectifs en les connectant les uns aux autres. Pour plus d’informations sur l’alignement des objectifs en convertissant les résultats et les activités en objectifs, voir [Aligner les objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -79,14 +79,14 @@ Vous devez disposer des éléments suivants :
    </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Alignement des objectifs en les connectant les uns aux autres
 
@@ -138,13 +138,13 @@ Aligning goals by connecting them differs depending on what environment you use.
 
 1. Cliquez sur **Détails de l’objectif** dans le panneau de gauche.
 
-1. Dans le **Informations sur l’objectif parent** zone, cliquez sur **Ajouter** dans le **Objectif parent** champ s’il n’y a pas d’objectif parent,
+1. Dans la zone **Informations sur l&#39;objectif parent**, cliquez sur **Ajouter** dans le champ **Objectif parent** s&#39;il n&#39;y a pas d&#39;objectif parent,
 
    Ou
 
    Cliquez sur le nom de l’objectif parent pour en choisir un autre.
 
-1. Commencez à saisir le nom d’un objectif existant dans la variable **Objectif parent** puis sélectionnez-la lorsqu’elle apparaît dans la liste. Seuls les objectifs issus de périodes identiques ou futures s’affichent dans la liste.
+1. Commencez à saisir le nom d’un objectif existant dans le champ **Objectif parent**, puis sélectionnez-le lorsqu’il apparaît dans la liste. Seuls les objectifs issus de périodes identiques ou futures s’affichent dans la liste.
 
 1. Cliquez sur **Enregistrer les modifications**.
 
@@ -154,11 +154,11 @@ L’objectif enfant s’affiche dans la section Indicateurs de progression de l�
 
    ![](assets/goal-1-and-2-aligned-cards-350x427.png)
 
-1. (Facultatif) Pour afficher les objectifs dans la section Alignement des objectifs , accédez à la zone Objectifs de Workfront, puis cliquez sur le bouton **Alignement des objectifs** dans le panneau de gauche. Pour plus d’informations sur la section Alignement de l’objectif, voir [Accédez à la section Alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. (Facultatif) Pour afficher les objectifs dans la section Alignement de l’objectif , accédez à la zone Objectifs de Workfront, puis cliquez sur la section **Alignement de l’objectif** dans le panneau de gauche. Pour plus d’informations sur la section Alignement des objectifs, voir [Navigation dans la section Alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 1. (Facultatif) Ajoutez des activités et des résultats à l’un ou l’autre des objectifs pour indiquer leur progression. Pour plus d’informations sur l’ajout d’activités et de résultats, consultez les articles suivants :
 
-   * [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [Ajouter des activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 1. (Facultatif) Supprimez l’alignement entre deux objectifs lorsque vous considérez que n’est plus pertinent pour la stratégie globale de votre entreprise. Pour plus d’informations sur la suppression de l’alignement entre les objectifs, voir [Suppression de l’alignement d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/remove-goal-alignment.md).

@@ -1,6 +1,6 @@
 ---
-title: Consultation et affichage des mises à jour pendant la période de la version 23.3
-description: Consultation et affichage des mises à jour pendant la période de la version 23.3
+title: Mises à jour de l’expérience utilisateur (version 23.3)
+description: Mises à jour de l’expérience utilisateur (version 23.3)
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,15 +8,15 @@ exl-id: 86287956-445b-4d1c-9f62-1d5c8d58ee89
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Consultation et affichage des mises à jour pendant la période de la version 23.3
+# Mises à jour de l’expérience utilisateur (version 23.3)
 
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication de la version 23.3. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 23.3, voir [Présentation de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 23.3, consultez la [présentation de la version 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Améliorations de l’interface pour les listes de requêtes
 
@@ -31,7 +31,7 @@ Les améliorations sont les suivantes :
 * il existe désormais un indicateur de chargement lors du chargement de la page ;
 * l’icône Copier est persistante et accompagnée de texte et elle devient désactivée lorsqu’aucune requête n’est sélectionnée.
 
-Pour plus d’informations, voir [Copie et envoi de requêtes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). La documentation sera mise à jour après la mise à jour de la fonctionnalité.
+Pour plus d’informations, voir [Copier et envoyer des requêtes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). La documentation sera mise à jour après la mise à jour de la fonctionnalité.
 
 ## Mise à jour de la conception lors de l’ajout d’un nouveau problème à un projet
 

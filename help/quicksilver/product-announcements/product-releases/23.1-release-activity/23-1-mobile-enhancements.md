@@ -1,6 +1,6 @@
 ---
-title: 23.1 Améliorations apportées à Mobile
-description: 23.1 Améliorations apportées à Mobile
+title: Améliorations apportées à l’application mobile (version 23.1)
+description: Améliorations apportées à l’application mobile (version 23.1)
 author: Courtney
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: 5fb7236c-c1fa-4a9a-9b4e-67a28dbaf6d2
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 23.1 Améliorations apportées à Mobile
+# Améliorations apportées à l’application mobile (version 23.1)
 
 Cette page décrit toutes les améliorations apportées à Mobile avec la version 23.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 16 janvier 2023.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 23.1, voir [Présentation de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 23.1, consultez la [présentation de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Les panoramas sont désormais disponibles dans l’application mobile.
 
@@ -39,5 +39,5 @@ Toutes les modifications apportées aux colonnes et aux cartes dans l’applicat
 
 Les articles suivants seront mis à jour lorsque l’application sera publiée dans les boutiques d’applications :
 
-* [Adobe Workfront pour Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-* [Adobe Workfront pour iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [Adobe Workfront pour Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [Adobe Workfront pour iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de version 2018.2 bêta 3
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.2 bêta 3. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 19 avril 2018. Il sera disponible dans l'environnement de production en juin 2018.
+title: Activité Version 2018.2, version bêta 3
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.2 de Beta 3. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 19 avril 2018. Il sera disponible dans l'environnement de production en juin 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,21 +10,21 @@ exl-id: 239a4e7e-e9db-4cf0-a703-8888e00f0d83
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Activité de version 2018.2 bêta 3
+# Activité Version 2018.2, version bêta 3
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.2 bêta 3. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 19 avril 2018. Il sera disponible dans l&#39;environnement de production en juin 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.2 de Beta 3. Cette fonctionnalité a été rendue disponible dans l’environnement Aperçu le 19 avril 2018. Il sera disponible dans l&#39;environnement de production en juin 2018.
 
 >[!IMPORTANT]
 >
 > Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir  [Présentation de l’activité de la version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir  [Présentation de l’activité de version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La version 2018.2 bêta 3 contient les améliorations suivantes :
+La version 2018.2 de Beta 3 contient les améliorations suivantes :
 
 * [Gestion des licences dans votre système](#manage-licenses-in-your-system)
 * [Définir des indicateurs pour les articles sur la carte Kanban](#set-flags-for-stories-on-the-kanban-board)
@@ -47,7 +47,7 @@ Les indicateurs fournissent une indication visuelle du moment où un article est
 
 Pour plus d’informations sur l’utilisation des indicateurs sur le panorama Kanban, voir &quot;Utilisation des indicateurs sur les articles&quot; dans l’article .
 
-Pour plus d’informations sur l’inclusion d’indicateurs dans les rapports de tâches, voir [Glossaire de la terminologie Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
+Pour plus d’informations sur l’inclusion d’indicateurs dans les rapports de tâche, voir le [Glossaire de la terminologie Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
 
 ## Modifier directement les champs sur une carte d’article agile {#edit-fields-directly-on-an-agile-story-card}
 
@@ -66,4 +66,4 @@ Nous avons introduit un changement dans la manière dont les recherches sont eff
 
 Avant cette modification, la recherche simultanée de plusieurs mots pouvait contenir tous les mots de l’expression. 
 
-Pour plus d’informations sur la recherche, voir [Rechercher dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Pour plus d’informations sur la recherche, voir [Recherche dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).

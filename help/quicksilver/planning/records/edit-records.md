@@ -205,13 +205,13 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
    Ou
 
-   Dans la vue Tableau, cliquez sur le **Ouvrir les détails** icon ![](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
+   Dans la vue de tableau, cliquez sur l&#39;icône **Ouvrir les détails** ![](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
 
    ![](assets/details-box.png)
 
-1. (Facultatif) Cliquez sur le **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cela met à jour le champ qui s’affiche comme titre de l’enregistrement.
+1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cela met à jour le champ qui s’affiche comme titre de l’enregistrement.
 
-   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue de tableau. Pour plus d’informations, voir [Champ Principal - Aperçu](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue de tableau. Pour plus d’informations, voir [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 
@@ -228,7 +228,7 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
    Workfront enregistre automatiquement vos modifications.
 
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) de cet article.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) de cet article.
 
 ### Modifier un enregistrement à partir de la page de l’enregistrement
 
@@ -244,7 +244,7 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Dans n’importe quelle vue, accédez à l’aperçu de l’enregistrement, comme décrit dans la section [Modification d’un enregistrement à partir de l’aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view) dans cet article, puis cliquez sur le bouton **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
+   * Dans n’importe quelle vue, accédez à l’aperçu de l’enregistrement, comme décrit dans la section [Modifier un enregistrement de l’aperçu de l’enregistrement dans une vue](#edit-a-record-from-the-records-preview-in-a-view) de cet article, puis cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    * Dans la vue de **Tableau**, pointez sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** ![](assets/more-menu.png), puis sur **Afficher**.
 
@@ -254,7 +254,7 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 
      ![](assets/details-page.png)
 
-1. (Facultatif) Cliquez sur le **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cela met à jour le champ qui s’affiche comme titre de l’enregistrement.
+1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cela met à jour le champ qui s’affiche comme titre de l’enregistrement.
 
    Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue de tableau. Pour plus d’informations, voir [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -267,15 +267,15 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
    >  * Champs liés créés par la connexion de types d’enregistrement Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification et Formule
 
-1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement
+1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement.
 
    Ou
 
-   Passez la souris sur l’image de couverture existante, puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) > **Télécharger** pour ajouter une nouvelle image de couverture pour l’enregistrement.
+   Passez la souris sur l’image de couverture existante, puis cliquez sur le menu **Plus** ![](assets/more-menu.png) > **Télécharger** pour ajouter une nouvelle image de couverture pour l’enregistrement.
 
    Pour plus d’informations, voir [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Facultatif) Passez la souris sur une miniature existante, ou le **icône de miniature** ![](assets/record-thumbnail-icon-on-details-page.png), puis cliquez sur le bouton **Plus** menu ![](assets/more-menu.png) > **Modifier la miniature** pour ajouter une miniature pour l’enregistrement.
+1. (Facultatif) Passez la souris sur une miniature existante ou sur l’icône **miniature** ![](assets/record-thumbnail-icon-on-details-page.png), puis cliquez sur le menu **Plus** ![](assets/more-menu.png) > **Modifier la miniature** pour ajouter une miniature pour l’enregistrement.
 
    Pour plus d’informations, voir [Ajout d’une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 

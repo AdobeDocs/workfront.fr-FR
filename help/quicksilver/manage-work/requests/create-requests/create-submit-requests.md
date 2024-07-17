@@ -9,7 +9,7 @@ exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
 source-wordcount: '2338'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 4%
 Les tâches planifiées sont représentées dans Adobe Workfront par des projets et des tâches. Cependant, vous pouvez travailler dans un environnement où des tâches imprévues, sous la forme de demandes, peuvent intervenir à tout moment. Workfront fournit un workflow pour s’adapter à ce type d’environnement grâce à l’utilisation des files d’attente de demandes.
 
 Après avoir créé une requête dans une file d’attente des requêtes, vous pouvez soit l’affecter à terminer, soit la convertir en tâche ou en projet.\
-Pour plus d’informations sur la conversion de problèmes en tâche ou projet, reportez-vous à l’article [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Pour plus d’informations sur la conversion de problèmes en tâche ou projet, consultez l’article [Présentation de la conversion de problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 Vous pouvez créer une requête de la manière suivante :
 
 * À partir de zéro, comme décrit dans cet article.
 * Versions préliminaires. Pour plus d’informations, voir [Création de requêtes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
-* À partir d’une requête existante, en copiant et en envoyant une copie. Pour plus d’informations, voir [Copie et envoi de requêtes](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+* À partir d’une requête existante, en copiant et en envoyant une copie. Pour plus d’informations, voir [Copier et envoyer des requêtes](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Conditions d’accès
 
@@ -52,9 +52,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouveau : contributeur ou version ultérieure</p>
+   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
    Ou
-   <p>Actuel : requête ou version ultérieure</p>
+   <p>Actuelle : demande ou supérieure</p>
     </td> 
   </tr> 
   <tr> 
@@ -72,22 +72,22 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 Un administrateur Workfront doit créer des files d’attente de demande et les mettre à la disposition des utilisateurs avant de pouvoir utiliser cette fonctionnalité. Un utilisateur disposant d’une licence de planificateur et disposant des autorisations Modifier les projets et Gérer pour un projet spécifique peut également créer des files d’attente de demande.
 
-Pour plus d’informations sur la création de files d’attente de requêtes, voir l’article [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Pour plus d’informations sur la création de files d’attente de requêtes, reportez-vous à l’article [Création d’une file d’attente de requêtes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Un administrateur Workfront doit créer les composants suivants d’une file d’attente de requêtes :
 
 * Projet à l’état actuel, publié en tant que file d’attente de demande d’aide.
 * Rubriques de la file d’attente.\
-  Pour plus d’informations, voir l’article [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+  Pour plus d’informations, voir l’article [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 * Règles de routage.\
-  Pour plus d’informations, voir l’article [Création de règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+  Pour plus d’informations, voir l’article [Créer des règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 * (Facultatif) Groupes de rubriques.\
-  Pour plus d’informations, voir l’article [Création de groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+  Pour plus d’informations, voir l’article [Créer des groupes de sujets](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Facultatif) Demandez un formulaire personnalisé.\
-  Pour plus d’informations, voir l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Pour plus d’informations, voir l’article [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * (Facultatif) Processus de demande d’approbation.\
   Pour plus d’informations, voir l’article [Créer un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -106,7 +106,7 @@ Vous pouvez continuer à soumettre la demande ou compléter autant d’informati
 >* Si la structure d’une file d’attente de requêtes change, vous ne pouvez plus accéder aux brouillons existants. Par exemple, si une rubrique de file d’attente est supprimée ou qu’un groupe de rubriques est ajouté, les brouillons enregistrés ne sont plus accessibles.
 >
 
-Pour plus d’informations sur la création de requêtes à partir de brouillons existants, voir [Création de requêtes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Pour plus d’informations sur la suppression des brouillons de requêtes, voir également [Suppression d’un brouillon de requête](../../../manage-work/requests/create-requests/delete-request-draft.md).
+Pour plus d’informations sur la création de requêtes à partir de brouillons existants, voir [Création de requêtes à partir de brouillons](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Pour plus d’informations sur la suppression des brouillons de requête, voir aussi [Suppression d’un brouillon de requête](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
 Pour créer une requête dans l’application web Workfront :
 
@@ -117,16 +117,16 @@ Pour créer une requête dans l’application web Workfront :
    </MadCap:conditionalText>
    -->
 
-1. Cliquez sur  **Demandes**, puis cliquez sur **Nouvelle requête** dans le coin supérieur droit de la page.
+1. Cliquez sur **Requêtes**, puis sur **Nouvelle requête** dans le coin supérieur droit de la page.
 
    >[!TIP]
    >
    >* Vous pouvez accéder à l’option Nouvelle requête à partir de n’importe quelle section de la zone Demandes .
    >* L’option Nouvelle requête est grisée lorsque vous n’avez pas accès à la création de problèmes.
 
-1. (Conditionnel) Cliquez dans le **Type de requête** et effectuez l’une des opérations suivantes :
+1. (Conditionnel) Cliquez dans le champ **Type de requête** et effectuez l’une des opérations suivantes :
 
-   * Dans la **Chemins récents** , sélectionnez un chemin que vous avez récemment utilisé pour ouvrir une file d’attente de requêtes. Un chemin d’accès inclut la file d’attente des demandes, les groupes de rubriques et la rubrique de la file d’attente que vous avez récemment envoyée. Les trois derniers chemins s’affichent par défaut.
+   * Dans la section **Chemins récents** , sélectionnez un chemin que vous avez récemment utilisé pour ouvrir une file d’attente de requêtes. Un chemin d’accès inclut la file d’attente des demandes, les groupes de rubriques et la rubrique de la file d’attente que vous avez récemment envoyée. Les trois derniers chemins s’affichent par défaut.
 
      >[!NOTE]
      >
@@ -134,7 +134,7 @@ Pour créer une requête dans l’application web Workfront :
 
      ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
-   * Dans la **Files d’attente de demandes** , sélectionnez une file d’attente de requêtes.
+   * Dans la section **Files d’attente de demandes** , sélectionnez une file d’attente de demandes.
    * Saisissez un mot-clé appartenant à un chemin d’accès précédemment utilisé pour rechercher une file d’attente de requêtes.
 
      Par exemple, si vous disposez d’une file d’attente de demandes nommée &quot;Service d’assistance&quot; avec un groupe de rubriques nommé &quot;Emplacement&quot; et une rubrique de file d’attente nommée &quot;À distance&quot;, vous pouvez saisir &quot;à distance&quot; et toutes les files d’attente de demandes contenant &quot;à distance&quot; dans n’importe quel élément de leur chemin d’accès s’affichent.
@@ -170,9 +170,9 @@ Pour créer une requête dans l’application web Workfront :
    >* Le nom de la file d’attente des demandes est le nom du projet qui a été publié en tant que file d’attente des demandes d’aide.
    >* La description du projet configuré comme la file d’attente de demandes sélectionnée s’affiche à droite du nom de la file d’attente de demandes.
    >   
-   >Pour plus d’informations sur la publication d’un projet en tant que file d’attente des demandes d’aide, consultez l’article . [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >Pour plus d’informations sur la publication d’un projet en tant que file d’attente des demandes d’aide, reportez-vous à l’article [Création d’une file d’attente de demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Dans le **Nouvelle requête** formulaire, effectuez l’une des opérations suivantes :
+1. Dans le formulaire **Nouvelle requête**, effectuez l’une des opérations suivantes :
 
    * (Conditionnel) Sélectionnez un brouillon disponible dans le message de notification affiché sous le champ Type de demande .
 
@@ -197,13 +197,13 @@ Pour créer une requête dans l’application web Workfront :
    >
 
    Vous pouvez intégrer jusqu’à 10 niveaux de groupes de rubriques dans votre file d’attente de requêtes.\
-   Pour plus d’informations sur la création de groupes de rubriques, voir l’article [Création de groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Pour plus d’informations sur la création de rubriques de file d’attente, voir l’article [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Pour plus d’informations sur la création de groupes de rubriques, consultez l’article [Créer des groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Pour plus d’informations sur la création de rubriques de file d’attente, consultez l’article [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    >[!TIP]
    >
    >Si vous avez sélectionné un brouillon ou un chemin précédent, les groupes de rubriques et les rubriques de la file d’attente sont déjà sélectionnés. Vous pouvez en sélectionner un autre, si nécessaire.
 
-1. Selon les champs activés par l’administrateur Workfront dans la variable **Nouveaux champs de problème** de la **Détails de la file** sous-onglet du projet, vous pouvez trouver l’un des champs suivants lorsque vous envoyez une nouvelle demande :
+1. Selon les champs activés par l’administrateur Workfront dans la section **New Issue Fields** du sous-onglet **Queue Details** du projet, vous pouvez trouver l’un des champs suivants lorsque vous envoyez une nouvelle requête :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -249,16 +249,16 @@ Pour créer une requête dans l’application web Workfront :
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>Affectations</strong> </td> 
-      <td> <p><span>Indiquez le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe actif auquel la requête doit être affectée.</span> </p> <p>Vous ne pouvez spécifier qu’une seule équipe.</p>
+      <td> <p><span>Indiquez le nom d’un utilisateur actif, d’un rôle de tâche ou d’une équipe à laquelle la requête doit être affectée.</span> </p> <p>Vous ne pouvez spécifier qu’une seule équipe.</p>
 
    <p> Selon la configuration de la file d’attente des demandes, vous pouvez n’affecter qu’un ou deux types de ressources à la demande, au lieu des trois (par exemple, vous pouvez uniquement affecter la demande aux utilisateurs).</p>
 
    <p>Si une règle de routage est également associée à la file d’attente des demandes et qu’elle achemine automatiquement la demande vers un autre type de ressource (par exemple, une équipe), votre demande est affectée à la fois à l’entité que vous spécifiez manuellement lors de l’envoi de la demande (utilisateurs) et à la ressource spécifiée dans la règle de routage (l’équipe). </p>
 
-   <p> Pour plus d’informations, voir les articles suivants :</p> 
+   <p> Pour plus d’informations, consultez les articles suivants :</p> 
       <ul> 
-      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requête</a> </p> </li> 
-      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Création de règles de routage</a> <br> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente de requête</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Créer des règles de routage</a> <br> </p> </li> 
       </ul> </p>
 
    <p><span>Nous vous recommandons d’utiliser des règles de routage pour vos files d’attente de requêtes afin qu’elles puissent être automatiquement acheminées vers les ressources appropriées.</span> </p> </td> 
@@ -295,23 +295,23 @@ Pour créer une requête dans l’application web Workfront :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur **Envoyer** si vous êtes prêt à envoyer la demande. La demande est enregistrée dans la section Envoyé . Selon la règle de routage de la file d’attente des requêtes, cette requête peut être acheminée vers un projet différent de celui désigné comme file d’attente des requêtes. Pour plus d’informations sur les règles de routage, voir [Création de règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Cliquez sur **Submit** si vous êtes prêt à envoyer la demande. La demande est enregistrée dans la section Envoyé . Selon la règle de routage de la file d’attente des requêtes, cette requête peut être acheminée vers un projet différent de celui désigné comme file d’attente des requêtes. Pour plus d’informations sur les règles de routage, voir [Création de règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Ou
 
-     Cliquez sur **Fermer** si vous n’êtes pas tout à fait prêt à le soumettre et que vous pourriez revenir et le terminer plus tard. Votre demande est enregistrée dans la section Brouillons et vous sera disponible la prochaine fois que vous soumettrez une demande pour cette file d’attente de demandes.
+     Cliquez sur **Fermer** si vous n’êtes pas tout à fait prêt à l’envoyer et que vous pouvez y revenir et le terminer ultérieurement. Votre demande est enregistrée dans la section Brouillons et vous sera disponible la prochaine fois que vous soumettrez une demande pour cette file d’attente de demandes.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    Lorsque vous envoyez la demande, le brouillon est automatiquement supprimé et ne peut pas être restauré.
 
-   Pour plus d’informations sur le traitement des requêtes entrantes, voir l’article [Gérer les requêtes de travail et d’équipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   Pour plus d’informations sur le traitement des requêtes entrantes, consultez l’article [Gérer les requêtes de travail et d’équipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   Pour plus d’informations sur la localisation des requêtes envoyées ou en version préliminaire, voir également [Recherche des requêtes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   Pour plus d’informations sur la localisation des requêtes envoyées ou en version préliminaire, voir également [Localisation des requêtes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Création de requêtes en dehors de Workfront
 
-Vous pouvez partager un lien direct vers une file d’attente de requêtes lorsque vous soumettez une nouvelle requête et l’incorporer dans d’autres applications. Les utilisateurs qui accèdent à ce lien à partir du Web ou d’autres applications doivent également être connectés avec un compte Workfront actif pour pouvoir accéder à cette file d’attente et lui envoyer des requêtes. Pour plus d’informations, voir [Partage d’un lien vers une file d’attente de requêtes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Vous pouvez partager un lien direct vers une file d’attente de requêtes lorsque vous soumettez une nouvelle requête et l’incorporer dans d’autres applications. Les utilisateurs qui accèdent à ce lien à partir du Web ou d’autres applications doivent également être connectés avec un compte Workfront actif pour pouvoir accéder à cette file d’attente et lui envoyer des requêtes. Pour plus d’informations, voir [Partage d’un lien vers une file d’attente de demandes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Créer des requêtes par courrier électronique dans Workfront
 
@@ -321,15 +321,15 @@ Le texte du corps de l’email est ajouté comme description de la requête.
 
 >[!NOTE]
 >
->La mise en forme du HTML est supprimée lorsque la requête entre dans Workfront, mais les signatures et le contenu de fil de réponse existant ne sont pas supprimés et apparaissent dans la description de la requête.
+>La mise en forme des HTMLS est supprimée lorsque la requête entre dans Workfront, mais les signatures et le contenu de thread de réponse existant ne sont pas supprimés et apparaissent dans la description de la requête.
 
-Pour plus d’informations sur la manière d’activer une file d’attente de requêtes pour recevoir des requêtes par courrier électronique, voir [Autorisation des utilisateurs à envoyer par courrier électronique un problème dans un projet de file d’attente des demandes](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Pour plus d’informations sur la façon d’activer une file d’attente de requêtes pour recevoir des requêtes par courrier électronique, voir [Autoriser les utilisateurs à envoyer un problème par courrier électronique dans un projet de file d’attente de requêtes](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 ## Création de requêtes à l’aide du client Outlook
 
 Vous pouvez envoyer des requêtes à l’aide du client Outlook. Vous pouvez créer une requête ou convertir un email en requête.
 
-Pour plus d’informations sur l’envoi de requêtes à l’aide du client Outlook, consultez l’article . [Création d’une requête Adobe Workfront à partir d’un courrier électronique Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
+Pour plus d’informations sur l’envoi de requêtes à l’aide du client Outlook, reportez-vous à l’article [Création d’une requête Adobe Workfront à partir d’un courrier électronique Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Création de requêtes à l’aide de l’application mobile Workfront
 
@@ -345,11 +345,11 @@ Pour plus d’informations sur l’envoi de requêtes par le biais de l’applic
 Vous pouvez envoyer des requêtes à l’aide de n’importe quelle application intégrée à Workfront :
 
 * Vous pouvez créer une intégration personnalisée entre Workfront et une autre application qui vous permet d’envoyer des requêtes à Workfront à partir de l’autre application.\
-  Pour plus d’informations sur les intégrations Workfront personnalisées, reportez-vous à l’article [Intégrations Adobe Workfront](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
+  Pour plus d’informations sur les intégrations Workfront personnalisées, consultez l’article [Intégrations Adobe Workfront](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
 * Vous pouvez envoyer des requêtes de Salesforce si vous avez installé l’application Workfront pour Salesforce.\
-  Pour plus d’informations sur l’envoi de requêtes de Salesforce à l’aide de notre application Workfront pour Salesforce, consultez l’article . [Envoi de requêtes Adobe Workfront à partir d’objets Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+  Pour plus d’informations sur l’envoi de requêtes de Salesforce à l’aide de notre application Workfront pour Salesforce, reportez-vous à l’article [Envoi de requêtes Adobe Workfront à partir d’objets Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Localiser les demandes envoyées
 
-Pour plus d’informations sur la localisation des requêtes envoyées ou en version préliminaire, voir [Recherche des requêtes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Pour plus d’informations sur la localisation des requêtes envoyées ou en version préliminaire, voir [Localisation des requêtes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

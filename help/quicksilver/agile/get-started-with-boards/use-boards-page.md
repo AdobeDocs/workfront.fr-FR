@@ -2,14 +2,14 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Utiliser le tableau de bord des panoramas
-description: La variable [!UICONTROL panoramas] le tableau de bord affiche la liste des panoramas auxquels vous avez accès, y compris ceux que vous avez créés et auxquels vous avez été ajouté.
+description: Le tableau de bord [!UICONTROL Panoramas] affiche la liste des panoramas auxquels vous avez accès, y compris ceux que vous avez créés et auxquels vous avez été ajouté.
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
 source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 5%
+ht-degree: 24%
 
 ---
 
@@ -31,7 +31,7 @@ Sur le tableau de bord, vous pouvez effectuer les opérations suivantes pour les
 * Recherche d’un panorama ou d’un workflow
 * Suppression d’un panorama ou d’un workflow
 
-Pour plus d’informations sur la création d’un panorama ou la modification d’un panorama existant, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md). Pour plus d’informations sur la création d’un nouveau flux de travail, voir [Gestion des workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Pour plus d’informations sur la création d’un panorama ou la modification d’un panorama existant, voir [Création ou modification d’un panorama](../../agile/get-started-with-boards/create-edit-board.md). Pour plus d’informations sur la création d’un nouveau flux de travail, voir [Gestion des flux de travail](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Conditions d’accès
 
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td> 
    <p>Nouveau : [!UICONTROL Contributeur] ou version ultérieure</p> 
    <p>ou</p>
-   <p>Actuel : [!UICONTROL Request] ou version ultérieure</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
    </td> 
   </tr> 
  </tbody> 
@@ -67,32 +67,32 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 Vous pouvez filtrer le tableau de bord des panoramas pour afficher tous les panoramas ou flux de travail actifs, archivés ou actifs.
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Cliquez sur [!UICONTROL **Filtrer**] dans la zone Panoramas ou Workflows, puis sélectionnez **[!UICONTROL Tous]**, **[!UICONTROL Actif]**, ou **[!UICONTROL Archivé]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), sélectionnez l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
+1. Cliquez sur [!UICONTROL **Filtrer**] dans la zone Panoramas ou Flux de travail, puis sélectionnez **[!UICONTROL Tous]**, **[!UICONTROL Actif]** ou **[!UICONTROL Archivé]**.
 
-   Lorsqu&#39;un filtre autre que le filtre par défaut est appliqué sur le tableau de bord, un indicateur s&#39;affiche sur l&#39;icône de filtre. ![Filtre appliqué au tableau de bord](assets/boards-filterapplied-30x30.png).
+   Lorsqu’un filtre autre que le filtre par défaut est appliqué sur le tableau de bord, un indicateur s’affiche sur l’icône de filtre ![Filtre appliqué au tableau de bord](assets/boards-filterapplied-30x30.png).
 
 ## Trier les tableaux
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Pour trier la liste des panoramas, cliquez sur [!UICONTROL **Tri**]. L’option de tri par défaut de la page est de **[!UICONTROL Date de modification]**. Vous pouvez également trier la page par panorama. **[!UICONTROL Nom]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), sélectionnez l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
+1. Pour trier la liste des panoramas, cliquez sur [!UICONTROL **Trier**]. L’option de tri par défaut de la page est de **[!UICONTROL Date de modification]**. Vous pouvez également trier la page par panorama **[!UICONTROL Nom]**.
 
-   Sélectionner **[!UICONTROL Ordre inverse]** pour trier les panoramas dans l’ordre inverse de la date de modification ou du nom. Lorsque la flèche de l’icône de tri pointe vers le haut, l’ordre inverse est appliqué. Lorsque la flèche pointe vers le bas, l’ordre standard est appliqué.
+   Sélectionnez **[!UICONTROL Ordre inverse]** pour trier les panoramas dans l’ordre inverse de la date de modification ou du nom. Lorsque la flèche de l’icône de tri pointe vers le haut, l’ordre inverse est appliqué. Lorsque la flèche pointe vers le bas, l’ordre standard est appliqué.
 
-   Lorsqu&#39;un tri autre que le tri par défaut est appliqué sur le tableau de bord, un indicateur s&#39;affiche sur l&#39;icône de tri. ![Tri appliqué](assets/sort-applied-boards.png).
+   Lorsqu’un tri autre que le tri par défaut est appliqué sur le tableau de bord, un indicateur s’affiche sur l’icône de tri ![Tri appliqué](assets/sort-applied-boards.png).
 
 ## Recherche d’un panorama ou d’un workflow
 
 Vous pouvez rechercher un panorama spécifique dans la zone Panoramas ou rechercher un workflow spécifique dans la zone Flux de travail .
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), sélectionnez l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
 1. Cliquez sur [!UICONTROL **Rechercher**] et saisissez un terme de recherche. Ensuite, appuyez sur Entrée.
 
    Tous les panoramas ou flux de travail contenant le terme recherché dans le titre s’affichent.
 
    Cliquez sur le X pour effacer la recherche.
 
-   ![Recherche de panoramas dans le tableau de bord](assets/boards-searchbox.png)
+   ![Recherche de panoramas sur le tableau de bord](assets/boards-searchbox.png)
 
 ## Archivage d’un panorama ou d’un workflow
 
@@ -104,20 +104,20 @@ L’archivage d’un panorama ou d’un workflow l’envoie vers l’archive et 
 >
 >Lorsque vous archivez un workflow, tous ses panoramas sont archivés.
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![Plus de menu](assets/more-icon-spectrum.png) sur le panorama ou le flux de travail, puis sélectionnez **[!UICONTROL Archiver]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), sélectionnez l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]** ![Plus de menu](assets/more-icon-spectrum.png) sur le panorama ou le flux de travail, puis sélectionnez **[!UICONTROL Archiver]**.
 
-   Dans un flux de travail, le menu se trouve à droite, en regard de l’option [!UICONTROL **Afficher le flux de travail**] bouton .
+   Sur un flux de travail, le menu se trouve à droite, en regard du bouton [!UICONTROL **Afficher le flux de travail**] .
 
-   Un [!UICONTROL Archiver] icon ![Archiver](assets/archive-icon-spectrum-25x20.png) s’affiche sur le panorama ou le flux de travail. Vous ne pouvez pas modifier un panorama ou un workflow archivé.
+   Une icône [!UICONTROL Archiver] ![Archiver](assets/archive-icon-spectrum-25x20.png) s’affiche sur le panorama ou le flux de travail. Vous ne pouvez pas modifier un panorama ou un workflow archivé.
 
-   Les éléments archivés sont masqués dans le tableau de bord des panoramas, sauf si vous appliquez un filtre pour les afficher. Pour plus d’informations, voir [[!UICONTROL Panneaux de filtre]](#filter-boards) dans cet article.
+   Les éléments archivés sont masqués dans le tableau de bord des panoramas, sauf si vous appliquez un filtre pour les afficher. Pour plus d’informations, reportez-vous à la section [[!UICONTROL Panneaux de filtre]](#filter-boards) de cet article.
 
-1. Pour restaurer un panorama ou un flux de travail archivé, cliquez sur le bouton **[!UICONTROL Plus]** menu ![Icône Plus de menu](assets/more-icon-spectrum.png) sur le panorama ou le workflow, puis sélectionnez **[!UICONTROL Restaurer]**.
+1. Pour restaurer un panorama ou un flux de travail archivé, cliquez sur le menu **[!UICONTROL Plus]** ![Icône Plus de menu](assets/more-icon-spectrum.png) sur le panorama ou le flux de travail et sélectionnez **[!UICONTROL Restaurer]**.
 
 ## Suppression d’un panorama ou d’un workflow
 
-Lorsque vous supprimez un panorama, il est définitivement supprimé de [!DNL Workfront] et ne peuvent pas être restaurés. Toutes les cartes du panorama sont également supprimées avec le panorama.
+Lorsque vous supprimez un panorama, il est définitivement supprimé de [!DNL Workfront] et ne peut pas être restauré. Toutes les cartes du panorama sont également supprimées avec le panorama.
 
 La suppression d’un workflow supprime également tous les panoramas du workflow.
 
@@ -125,12 +125,12 @@ La suppression d’un workflow supprime également tous les panoramas du workflo
 >
 >Vous ne pouvez supprimer que les panoramas et les flux de travail que vous avez créés, et non les panoramas et les flux de travail auxquels vous avez été ajouté.
 
-1. Cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur le bouton **[!UICONTROL Menu Principal]** icon ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
-1. Cliquez sur le bouton **[!UICONTROL Plus]** menu ![[!UICONTROL Plus de menu]](assets/more-icon-spectrum.png) sur le panorama ou le flux de travail, puis sélectionnez **[!UICONTROL Supprimer]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), sélectionnez l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Panoramas]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Plus de menu]](assets/more-icon-spectrum.png) sur le panorama ou le workflow, puis sélectionnez **[!UICONTROL Supprimer]**.
 
-   Dans un flux de travail, le menu se trouve à droite, en regard de l’option [!UICONTROL **Afficher le flux de travail**] bouton .
+   Sur un flux de travail, le menu se trouve à droite, en regard du bouton [!UICONTROL **Afficher le flux de travail**] .
 
-1. Cliquez sur **[!UICONTROL Supprimer un panorama]** ou [!UICONTROL **Suppression du flux de travail**] sur le message de confirmation.
+1. Cliquez sur **[!UICONTROL Supprimer le panorama]** ou [!UICONTROL **Supprimer le workflow**] dans le message de confirmation.
 
 <!-- ## Move a board to a workstream
 

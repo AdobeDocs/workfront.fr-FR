@@ -11,38 +11,38 @@ exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
 source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# [!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] Applications
+# Module externe [!DNL Adobe Workfront] pour les applications [!DNL Creative Cloud]
 
 <!--Audited: 12/2023-->
 
-Vous pouvez utiliser la variable [!DNL Adobe Workfront] pour [!DNL Creative Cloud] plug-in to
+Vous pouvez utiliser le module externe [!DNL Adobe Workfront] pour [!DNL Creative Cloud] vers
 
 * Enregistrer des heures
 * Lancement des processus de révision et d’approbation
-* Chargement de fichiers
+* Charger des fichiers
 * Affichage des projets et des tâches
 * et plus
 
-[Affichez un aperçu vidéo des fonctionnalités disponibles dans la [!DNL Adobe Workfront] pour [!DNL Creative Cloud] plugin](https://video.tv.adobe.com/v/3418801/){target=_blank}.
+[Affichez un aperçu vidéo de la fonctionnalité disponible dans le  [!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] .](https://video.tv.adobe.com/v/3418801/){target=_blank}
 
 ## Installation et utilisation du module externe
 
-La variable [!DNL Adobe Workfront] pour [!DNL Creative Cloud] Le module externe est disponible dans les applications de Creative Cloud suivantes :
+Le module externe [!DNL Adobe Workfront] pour [!DNL Creative Cloud] est disponible dans les applications de Creative Cloud suivantes :
 
 {{cc-app-list}}
 
 Pour plus d’informations sur l’utilisation et l’installation du module externe, voir les ressources suivantes :
 
-* [Installez le [!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
-* [Gérer l’utilisation de la fonction [!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
-* [Téléchargement de documents et de BAT avec le [!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [Tutoriel vidéo : Utilisation [!DNL Adobe Workfront] plugins pour [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
-* [Tutoriel vidéo : création et gestion de packages, déploiement de mises à jour et résolution des erreurs d’installation](https://www.youtube.com/watch?v=zzvXNLIBzrc)
+* [Installez le module externe [!DNL Adobe Workfront] pour les applications  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+* [Gérer l’utilisation du module externe  [!DNL Adobe Workfront] pour les applications  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+* [Télécharger des documents et des bons à tirer avec le module externe  [!DNL Adobe Workfront] pour les applications  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+* [Tutoriel vidéo : utiliser [!DNL Adobe Workfront] plugins for [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [Tutoriel vidéo : création et gestion de modules, déploiement de mises à jour et résolution des erreurs d’installation](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]
 >

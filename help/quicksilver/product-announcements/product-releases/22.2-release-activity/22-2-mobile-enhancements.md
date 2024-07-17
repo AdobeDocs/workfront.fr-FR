@@ -1,6 +1,6 @@
 ---
-title: 22.2 Améliorations apportées aux appareils mobiles
-description: 22.2 Améliorations apportées aux appareils mobiles
+title: Améliorations apportées à l’application mobile (version 22.2)
+description: Améliorations apportées à l’application mobile (version 22.2)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,11 +9,11 @@ exl-id: 72761545-9781-4a66-8672-2ff6a15cce9f
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# 22.2 Améliorations apportées aux appareils mobiles
+# Améliorations apportées à l’application mobile (version 22.2)
 
 Cette page décrit toutes les améliorations apportées à Mobile avec la version 22.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
 
@@ -25,7 +25,7 @@ in January 2022
 
 la semaine du 4 avril 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, voir [Présentation de la version 2.2.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, consultez la [présentation des versions 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Dessins et commentaires sur les documents de BAT dans l’application mobile
 
@@ -39,4 +39,4 @@ Vous pouvez également répondre aux commentaires que d&#39;autres ont fait sur 
 
 L’article suivant est mis à jour lorsque l’application est publiée dans les boutiques d’applications :
 
-[Vérifier et prendre des décisions sur les bons à tirer dans l’application mobile Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+[Examiner les épreuves et prendre des décisions à leur sujet dans l’application mobile Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)

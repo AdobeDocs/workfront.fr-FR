@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: Présentation des expressions de données calculées
+title: Vue d’ensemble des expressions de données calculées
 description: Vous pouvez utiliser des expressions de données pour définir des champs de données personnalisés calculés dans Adobe Workfront. Les expressions calculées connectent des champs Workfront existants dans des instructions qui génèrent un nouveau champ.
 author: Nolan
 feature: Reports and Dashboards
@@ -10,11 +10,11 @@ exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
 source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Présentation des expressions de données calculées
+# Vue d’ensemble des expressions de données calculées
 
 <!--Audited: 12/2023-->
 
@@ -83,17 +83,17 @@ Pour plus d’informations sur la syntaxe que vous devez utiliser dans une colon
 
 Les listes ci-dessous définissent les expressions disponibles que vous pouvez utiliser lorsque vous créez l’un des trois types différents de champs personnalisés calculés dans Workfront :
 
-* [Champs personnalisés calculés par date et heure](#date-time-calculated-custom-fields)
-* [Champs personnalisés calculés mathématiques](#mathematical-calculated-custom-fields)
+* [ Champs personnalisés calculés par date et heure](#date-time-calculated-custom-fields)
+* [ Champs personnalisés mathématiques calculés ](#mathematical-calculated-custom-fields)
 * [Champs personnalisés calculés par le texte](#text-calculated-custom-fields)
 
-Vous pouvez utiliser les expressions répertoriées ci-dessous pour créer des colonnes calculées personnalisées. Cependant, vous devez utiliser la syntaxe correcte pour une colonne personnalisée calculée, comme décrit dans la section .  [Syntaxe des champs personnalisés calculés par rapport aux colonnes personnalisées calculées](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) dans cet article.
+Vous pouvez utiliser les expressions répertoriées ci-dessous pour créer des colonnes calculées personnalisées. Cependant, vous devez utiliser la syntaxe correcte pour une colonne personnalisée calculée, comme décrit dans la section [Syntaxe des champs personnalisés calculés par rapport aux colonnes personnalisées calculées](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) de cet article.
 
 ### Champs personnalisés calculés par date et heure {#date-time-calculated-custom-fields}
 
 >[!NOTE]
 >
->Si vous créez un calcul de date et heure qui n’inclut pas de partie horaire ou qui utilise les caractères génériques $$TODAY ou $$NOW, le système utilise la date selon le fuseau horaire universel coordonné (UTC), et non selon votre fuseau horaire local. Cela peut entraîner un résultat de date inattendu.
+>Si vous créez un calcul de date et heure qui n’inclut pas de partie « heure » ou qui utilise les caractères génériques $$TODAY ou $$NOW, le système utilise la date selon le temps universel coordonné (UTC), et non selon votre fuseau horaire local. Cela peut entraîner un résultat de date inattendu.
 
 Vous pouvez créer un champ personnalisé calculé par date ou heure à l’aide des expressions suivantes :
 
@@ -109,13 +109,13 @@ Vous pouvez créer un champ personnalisé calculé par date ou heure à l’aide
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>Ajoute le nombre de jours à la date. La valeur number peut inclure des jours partiels. Par exemple, la version 1.5 ajoute un jour et demi à la date.</p> <p>L’expression est formatée comme suit :</p>
+   <td> <p>Ajoute le nombre de jours à la date. La valeur number peut inclure des jours partiels. Par exemple, la version 1.5 ajoute un jour et demi à la date.</p> <p>L’expression est mise en forme comme suit :</p>
 
 <p><code>ADDDAYS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDWEEKDAYS</strong> </td> 
-   <td> <p>Ajoute le nombre de jours de la semaine à la date. Cette expression ajoute uniquement des entiers entiers à la date, en arrondissant à la base. </p> <p>L’expression est formatée comme suit :</p>
+   <td> <p>Ajoute le nombre de jours de la semaine à la date. Cette expression ajoute uniquement des entiers entiers à la date, en arrondissant à la base. </p> <p>L’expression est mise en forme comme suit :</p>
 
 <p><code>ADDWEEKDAYS(date, number)</code></p> </td> 
   </tr> 
@@ -145,7 +145,7 @@ Vous pouvez créer un champ personnalisé calculé par date ou heure à l’aide
   </tr> 
   <tr> 
    <td><strong>DATEDIFF</strong> </td> 
-   <td> <p>Renvoie le nombre de jours entre deux dates, en tenant compte des jours de début et de fin de la période sélectionnée ainsi que des horodatages de ces jours. Par exemple, si l’heure de début de la date est 15 heures, le jour de début n’est pas compté comme une journée complète.</p> <p>L’expression est formatée comme suit :</p>
+   <td> <p>Renvoie le nombre de jours entre deux dates, en tenant compte des jours de début et de fin de la période sélectionnée ainsi que des horodatages de ces jours. Par exemple, si l’heure de début de la date est 15 heures, le jour de début n’est pas compté comme une journée complète.</p> <p>L’expression est mise en forme comme suit :</p>
 
 <p><code>DATEDIFF(date1, date2)</code></p> </td> 
   </tr> 
@@ -169,7 +169,7 @@ Vous pouvez créer un champ personnalisé calculé par date ou heure à l’aide
   </tr> 
   <tr> 
    <td><strong>DAYSINSPLITWEEK</strong> </td> 
-   <td> <p>Renvoie le nombre total de jours de la semaine entre la date et la fin de la semaine, ou la fin du mois, selon ce qui survient en premier. Dans cet exemple, la date est la date d’entrée d’un objet de travail.</p> <p>L’expression est formatée comme suit :</p>
+   <td> <p>Renvoie le nombre total de jours de la semaine entre la date et la fin de la semaine, ou la fin du mois, selon ce qui survient en premier. Dans cet exemple, la date est la date d’entrée d’un objet de travail.</p> <p>L’expression est mise en forme comme suit :</p>
 
 <p><code>DAYSINSPLITWEEK({entryDate})</code></p> </td> 
   </tr> 
@@ -204,26 +204,26 @@ Vous pouvez créer un champ personnalisé calculé par date ou heure à l’aide
 <p><code>MINUTE({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>MOIS</strong> </td> 
+   <td><strong>MONTH</strong> </td> 
    <td> <p>Renvoie le mois de la date sous la forme d'un nombre compris entre 1 et 12, au format suivant. Dans cet exemple, la date est la date d’entrée d’un objet de travail.</p>
 
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SECONDE</strong> </td> 
+   <td><strong>SECOND</strong> </td> 
    <td> <p>Renvoie la seconde de la date sous la forme d'un nombre compris entre 0 et 60, au format suivant. Dans cet exemple, la date est la date d’entrée d’un objet de travail.</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>WEEKDAYDIFF</strong> </td> 
-   <td> <p>Renvoie le nombre de jours de la semaine entre deux dates, en tenant compte des jours de début et de fin de la période sélectionnée, ainsi que des horodatages de ces jours. Par exemple, si l’heure de début de la date est 15 heures, le jour de début n’est pas compté comme une journée complète.</p> <p>L’expression est formatée comme suit :</p>
+   <td> <p>Renvoie le nombre de jours de la semaine entre deux dates, en tenant compte des jours de début et de fin de la période sélectionnée, ainsi que des horodatages de ces jours. Par exemple, si l’heure de début de la date est 15 heures, le jour de début n’est pas compté comme une journée complète.</p> <p>L’expression est mise en forme comme suit :</p>
 
 <p><code>WEEKDAYDIFF(date2, date1)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>WORKMINUTESDIFF</strong> </td> 
-   <td> <p>Renvoie le nombre de minutes planifiées entre les dates selon le planning par défaut.</p> <p>L’expression est formatée comme suit :</p>
+   <td> <p>Renvoie le nombre de minutes planifiées entre les dates selon le planning par défaut.</p> <p>L’expression est mise en forme comme suit :</p>
 
 <p><code>WORKMINUTESDIFF(date1, date2)</code></p> </td> 
   </tr> 
@@ -305,11 +305,11 @@ Vous pouvez créer un champ personnalisé calculé qui utilise certaines des exp
 <p><code>MIN(item1, item2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>NOMBRE</strong> </td> 
+   <td><strong>NUMBER</strong> </td> 
    <td>Convertit une chaîne en nombre et se présente comme suit :<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>PUISSANCE</strong> </td> 
+   <td><strong>POWER</strong> </td> 
    <td>Renvoie un nombre élevé à une puissance et est formaté comme suit :
 
 <p><code>POWER(number, power)</code></p></td> 
@@ -349,7 +349,7 @@ Vous pouvez créer un champ personnalisé calculé qui utilise certaines des exp
 <p><code>SQRT({numberOfChildren})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SOUS</strong> </td> 
+   <td><strong>SUB</strong> </td> 
    <td>Enlève tous les nombres dans l’ordre indiqué et est formaté comme suit :
 
 <p><code>SUB(number1, number2, ...)</code></p></td> 
@@ -378,10 +378,10 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>CAS</strong> </td> 
+   <td><strong>CASE</strong> </td> 
    <td> <p>Utilisé avec d’autres expressions pour choisir une valeur dans une liste, en fonction d’un numéro d’index. </p>
    <p>Un numéro d’index est un champ ou une fonction qui renvoie une valeur numérique (généralement comprise dans une plage connue).</p> 
-   <p>L’expression est formatée comme suit :</p>
+   <p>L’expression est mise en forme comme suit :</p>
    <p><code>CASE(indexNumber, value1, value2, ...)</code></p>
 
 <p>Par exemple, l’expression suivante renvoie le nom du jour de la semaine, où 1=dimanche, 2=lundi, etc., dans une colonne calculée :</p>
@@ -402,14 +402,14 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>CONTIENT</strong> </td> 
+   <td><strong>CONTAINS</strong> </td> 
    <td>Renvoie "true" si la chaîne findText se trouve dans la chaîne insideText et est formatée comme suit :
 
 <p><code>CONTAINS(findText, withinText)</code></p></td> 
   </tr> 
   <tr> 
    <td><strong>ENCODEURL</strong> </td> 
-   <td>Échappe tous les caractères spéciaux de la chaîne afin qu’ils puissent être inclus dans un argument URL.<p>L’expression est formatée comme suit :</p>
+   <td>Échappe tous les caractères spéciaux de la chaîne afin qu’ils puissent être inclus dans un argument URL.<p>L’expression est mise en forme comme suit :</p>
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
@@ -417,7 +417,7 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
    <td><strong>IF</strong> </td> 
    <td> <p>Evalue une condition que vous spécifiez et renvoie la valeur de trueExpression si elle est vraie, ou la valeur de falseExpression si elle est fausse.</p>
 
-<p>L’expression est formatée comme suit :</p>
+<p>L’expression est mise en forme comme suit :</p>
 
 <p><code>IF(condition, trueExpression, falseExpression)</code></p>
 
@@ -434,12 +434,12 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>Pour plus d’informations sur la création d’instructions "IF", voir <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">Présentation des instructions "IF"</a>.</p> </td> 
+<p>Pour plus d’informations sur la création d’instructions "IF", voir <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">"IF" statement overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
    <td> <p>Permet de rechercher une valeur spécifique dans une chaîne de valeurs possibles. Si la valeur que vous recherchez est égale à l’une des valeurs fournies, l’expression renvoie trueExpression ; dans le cas contraire, elle renvoie falseExpression.</p> 
-   <p>L’expression est formatée comme suit :</p>
+   <p>L’expression est mise en forme comme suit :</p>
 
 <p><code>IFIN(value, value1, value2,..., trueExpression, falseExpression)</code></p>
 
@@ -453,18 +453,18 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
   </tr> 
   <tr> 
    <td><strong>IN</strong> </td> 
-   <td> <p>Renvoie true si la valeur est égale à l’une des valeurs fournies ; dans le cas contraire, l’expression renvoie false.</p> <p>L’expression est formatée comme suit :
+   <td> <p>Renvoie true si la valeur est égale à l’une des valeurs fournies ; dans le cas contraire, l’expression renvoie false.</p> <p>L’expression est mise en forme comme suit :
 
 </p><p><code>IN(value, value1[, value2...])</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>ISBLANK</strong> </td> 
-   <td> <p>Renvoie true si la valeur est nulle ou vide ; dans le cas contraire, l’expression renvoie false.</p> <p>L’expression est formatée comme suit :
+   <td> <p>Renvoie true si la valeur est nulle ou vide ; dans le cas contraire, l’expression renvoie false.</p> <p>L’expression est mise en forme comme suit :
 
 </p><p><code>ISBLANK(value)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>GAUCHE</strong> </td> 
+   <td><strong>LEFT</strong> </td> 
    <td> <p>Renvoie un nombre spécifié de caractères à partir du côté gauche d’une chaîne et est formaté comme suit :</p>
 
 <p><code>LEFT(string, length)</code></p> </td> 
@@ -482,20 +482,20 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>REMPLACER</strong> </td> 
-   <td> <p>Remplace toutes les occurrences de string2 par string3 dans string1.</p> <p>L’expression est formatée comme suit :</p>
+   <td><strong>REPLACE</strong> </td> 
+   <td> <p>Remplace toutes les occurrences de string2 par string3 dans string1.</p> <p>L’expression est mise en forme comme suit :</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DROITE</strong> </td> 
+   <td><strong>RIGHT</strong> </td> 
    <td> <p>Renvoie un nombre spécifié de caractères à partir du côté droit d’une chaîne et est formaté comme suit :</p>
 
 <p><code>RIGHT(string, length)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>RECHERCHE</strong> </td> 
-   <td> <p>Renvoie l’index de la première occurrence de findText dans la chaîne insideText, en commençant à la position de départ donnée, ou -1 si le texte est introuvable.</p> <p>L’expression est formatée comme suit :</p>
+   <td><strong>SEARCH</strong> </td> 
+   <td> <p>Renvoie l’index de la première occurrence de findText dans la chaîne insideText, en commençant à la position de départ donnée, ou -1 si le texte est introuvable.</p> <p>L’expression est mise en forme comme suit :</p>
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 

@@ -2,8 +2,8 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: "Activité Publication de BAT Workfront : Semaine du 17 mai 2021"
-description: Cette page décrit les modifications apportées au BAT Workfront (application de vérification autonome). Les modifications décrites ici ne s’appliquent pas à la fonctionnalité de vérification de l’application Adobe Workfront.
+title: "Activité Publication de Workfront Proof : semaine du 17 mai 2021"
+description: Cette page décrit les modifications apportées à Workfront Proof (application de vérification autonome). Les modifications décrites ici ne s’appliquent pas à la fonctionnalité de vérification de l’application Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Activité Publication de BAT pour Workfront : Semaine du 17 mai 2021
+# Activité Publication de Workfront Proof : semaine du 17 mai 2021
 
-Cette page décrit les modifications apportées au BAT Workfront (application de vérification autonome). Les modifications décrites ici ne s’appliquent pas à la fonctionnalité de vérification de l’application Adobe Workfront.
+Cette page décrit les modifications apportées à Workfront Proof (application de vérification autonome). Les modifications décrites ici ne s’appliquent pas à la fonctionnalité de vérification de l’application Adobe Workfront.
 
-## Les menus de profil utilisateur dans le Bon à tirer Workfront utilisent désormais des champs de caractères avancés pour rechercher les utilisateurs.
+## Les menus de profil utilisateur dans Workfront Proof utilisent désormais des champs de saisie anticipée pour rechercher des utilisateurs.
 
 >[!NOTE]
 >

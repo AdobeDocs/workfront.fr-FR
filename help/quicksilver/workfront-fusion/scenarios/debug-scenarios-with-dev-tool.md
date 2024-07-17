@@ -48,7 +48,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <td>
    <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
@@ -73,11 +73,11 @@ L’accès au Devtool varie selon que vous utilisez ou non Fusion dans l’[!DNL
 * [Accéder au Devtool dans l’ [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [Accéder au Devtool dans l’expérience  [!DNL Fusion]  classique](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Accédez à l’outil Devtool dans le [!DNL Adobe Unified Experience] ou la nouvelle expérience Fusion
+### Accédez à l’outil Devtool dans [!DNL Adobe Unified Experience] ou à la nouvelle expérience Fusion
 
 Si vous utilisez Fusion dans le Shell unifié de l’Adobe ou que vous avez mis à jour vers la nouvelle expérience de fusion, vous pouvez accéder à l’outil de développement à partir de l’éditeur de scénarios.
 
-1. Cliquez sur le bouton **Outils d’assistance** ![Outils d’assistance](assets/debugger-icon.png) en bas de l’écran.
+1. Cliquez sur l’icône **Helper tools** ![Helper tools](assets/debugger-icon.png) près du bas de l’écran.
 
 Ou :
 

@@ -2,86 +2,86 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: Ajout d’un BAT à un projet Basecamp Classic
-description: Une fois que vous avez configuré votre [!DNL Basecamp Classic] intégration, vous pouvez commencer à ajouter des bons à tirer aux projets dans votre [!DNL Basecamp Classic] compte .
+title: Ajouter une épreuve à un projet Basecamp Classic
+description: Après avoir configuré votre intégration  [!DNL Basecamp Classic] , vous pouvez commencer à ajouter des bons à tirer aux projets dans votre compte  [!DNL Basecamp Classic] .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 0%
+source-wordcount: '661'
+ht-degree: 1%
 
 ---
 
-# Ajouter un bon à tirer à un [!DNL Basecamp Classic] Projet
+# Ajout d’un BAT à un projet [!DNL Basecamp Classic]
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Une fois que vous avez configuré votre [!DNL Basecamp Classic] intégration, vous pouvez commencer à ajouter des bons à tirer aux projets dans votre [!DNL Basecamp Classic] compte .
+Après avoir configuré votre intégration [!DNL Basecamp Classic], vous pouvez commencer à ajouter des bons à tirer aux projets dans votre compte [!DNL Basecamp Classic].
 
-Après avoir ajouté un BAT à un [!DNL Basecamp Classic] , vos réviseurs recevront une notification électronique contenant un lien pour afficher le BAT dans [!DNL Workfront Proof] et un lien pour ouvrir le message dans leur [!DNL Basecamp Classic] compte .
+Après avoir ajouté un BAT à un projet [!DNL Basecamp Classic], vos réviseurs recevront une notification par e-mail qui contiendra un lien pour afficher le BAT dans [!DNL Workfront Proof] et un lien pour ouvrir le message dans leur compte [!DNL Basecamp Classic].
 
-Une fois le message ouvert, ils pourront commenter et prendre des décisions sur le BAT depuis leur [!DNL Basecamp] compte .
+Une fois le message ouvert, ils pourront commenter et prendre des décisions sur le BAT depuis leur compte [!DNL Basecamp].
 
 Pour plus d’informations, voir [Vérification d’un bon à tirer dans [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
 
-## Ajout d’un nouveau Bon à tirer à un [!DNL Basecamp Classic] Projet
+## Ajout d’un nouveau BAT à un projet [!DNL Basecamp Classic]
 
 >[!NOTE]
 >
->Avant d’ajouter un BAT à [!DNL Basecamp Classic], vous devez vous assurer que la variable [!DNL Basecamp] l’intégration est activée et que vous disposez des [!DNL Basecamp] compte sélectionné dans vos paramètres personnels (comme vous pouvez l’intégrer à plusieurs [!DNL [!DNL Basecamp]], mais uniquement ajouter des bons à tirer à un [!DNL Basecamp] à la fois). Pour plus d’informations sur vos paramètres, voir [Paramètres personnels.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
+>Avant d’ajouter un BAT à [!DNL Basecamp Classic], vous devez vous assurer que votre intégration [!DNL Basecamp] est activée et que le compte [!DNL Basecamp] approprié est sélectionné dans vos paramètres personnels (car vous pouvez intégrer avec plusieurs comptes [!DNL [!DNL Basecamp]], mais uniquement ajouter des BAT à un compte [!DNL Basecamp] à la fois). Pour plus d’informations sur vos paramètres, voir [Paramètres personnels.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
-1. Créez un BAT, comme décrit dans la section [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
-1. Si vous souhaitez notifier vos réviseurs par courrier électronique, assurez-vous que la variable **[!UICONTROL Notifier les personnes par courrier]** est sélectionnée.\
-   Notez que votre [!DNL Basecamp] les opérateurs validants recevront un [!DNL Basecamp] message.
+1. Créez un BAT, comme décrit dans la section [Générer des BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+1. Si vous souhaitez en informer vos réviseurs par e-mail, assurez-vous que l&#39;option **[!UICONTROL Notifier les personnes par e-mail]** est sélectionnée.\
+   Notez que vos réviseurs [!DNL Basecamp] recevront un message [!DNL Basecamp] supplémentaire.
 
-1. Dans le **[!UICONTROL Organisation]** , cliquez sur **[!UICONTROL Ajouter un BAT à un [!DNL Basecamp] project]**.
+1. Dans la section **[!UICONTROL Organiser]** , cliquez sur **[!UICONTROL Ajouter un BAT à un [!DNL Basecamp] projet]**.
 
-1. Dans le **[!UICONTROL Ajouter à[!DNL Basecamp]]** s’affiche, cliquez sur **[!UICONTROL Actualiser les données]** pour synchroniser avec [!DNL Basecamp Classic].
+1. Dans la zone **[!UICONTROL Ajouter à[!DNL Basecamp]]** qui s&#39;affiche, cliquez sur **[!UICONTROL Actualiser les données]** pour les synchroniser avec [!DNL Basecamp Classic].
 
-1. Indiquez si vous souhaitez que ce BAT soit privé dans [!DNL Basecamp] (option non disponible dans Nouveau) [!DNL Basecamp]).
-1. Sélectionnez votre [!DNL Basecamp Classic] projet.
+1. Indiquez si vous souhaitez que ce BAT soit privé dans [!DNL Basecamp] (option non disponible dans New [!DNL Basecamp]).
+1. Sélectionnez votre projet [!DNL Basecamp Classic].
 1. Sélectionnez votre [!UICONTROL [!DNL Basecamp Classic] Catégorie de messages].
-1. Sous **[!UICONTROL Personnes impliquées dans le projet]**, cochez les cases correspondant aux opérateurs validants dans votre [!DNL Basecamp Classic] compte que vous souhaitez ajouter au BAT.\
-   Les réviseurs apparaissent dans leur alerte par défaut de rôle/courrier électronique. Les opérateurs validants sélectionnés recevront un message dans [!DNL Basecamp] pour ce BAT et également une notification électronique de [!DNL Workfront Proof].
+1. Sous **[!UICONTROL Personnes sur le projet]**, cochez les cases correspondant aux réviseurs dans votre compte [!DNL Basecamp Classic] que vous souhaitez ajouter au BAT.\
+   Les réviseurs apparaissent dans leur alerte par défaut de rôle/courrier électronique. Les réviseurs sélectionnés recevront un message dans [!DNL Basecamp] pour ce BAT, ainsi qu’une notification par e-mail de [!DNL Workfront Proof].
 
-1. Si les paramètres par défaut des réviseurs ont été modifiés, vous devez actualiser la variable [!DNL Basecamp] Les données avant les nouveaux paramètres par défaut seront utilisées. Pour actualiser la variable [!DNL Basecamp] Cliquez sur le &quot;[!UICONTROL actualiser]&quot; sur le lien [!DNL Basecamp] dans [!DNL Workfront Proof]. Insérez votre propre nom si vous souhaitez également recevoir le message dans [!DNL Basecamp].
+1. Si les valeurs par défaut des réviseurs ont été modifiées, vous devez actualiser les données [!DNL Basecamp] avant que les nouvelles valeurs par défaut ne soient utilisées. Pour actualiser les données [!DNL Basecamp], cliquez sur le lien &quot;[!UICONTROL refresh]&quot; dans la fenêtre contextuelle [!DNL Basecamp] de [!DNL Workfront Proof]. Insérez votre propre nom si vous souhaitez également recevoir le message dans [!DNL Basecamp].
 1. Cliquez sur **[!UICONTROL OK]**.
-1. Appliquez tous les autres paramètres dont vous avez besoin pour votre BAT (normalement), puis cliquez sur **[!UICONTROL Enregistrer]** pour envoyer votre bon à tirer.
+1. Appliquez tous les autres paramètres dont vous avez besoin pour votre BAT (normalement) et cliquez sur **[!UICONTROL Enregistrer]** pour envoyer votre BAT.
 
-## Ajout d’un BAT existant à un [!DNL Basecamp Classic] Projet
+## Ajout d’un BAT existant à un projet [!DNL Basecamp Classic]
 
-1. Dans [!DNL Workfront Proof], accédez au [!UICONTROL Détails du BAT] , comme décrit dans la section  [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Dans le **[!UICONTROL Workflow]** , ouvrez la section **[!UICONTROL Autres options de partage]** .
+1. Dans [!DNL Workfront Proof], accédez à la page [!UICONTROL Détails du bon à tirer], comme décrit dans la section [Gérer les détails du bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Dans la section **[!UICONTROL Workflow]** , ouvrez la section **[!UICONTROL Plus d&#39;options de partage]** .
 
-1. Assurez-vous de **[!UICONTROL URL du BAT]** et **[!UICONTROL Code incorporé]** sont définis sur **[!UICONTROL Activer]**.
+1. Assurez-vous que **[!UICONTROL BAT URL]** et **[!UICONTROL Code incorporé]** sont définis sur **[!UICONTROL Activer]**.
 
-1. Cliquez sur **[!UICONTROL Ajouter un BAT à un [!DNL Basecamp] project]**.
-1. Dans le [!UICONTROL Ajouter à [!DNL Basecamp]] qui s’affiche, procédez comme suit :
+1. Cliquez sur **[!UICONTROL Ajouter un BAT à un [!DNL Basecamp] projet]**.
+1. Dans la zone [!UICONTROL Ajouter à [!DNL Basecamp]] qui s&#39;affiche, procédez comme suit :
 
-   1. Cliquez sur **[!UICONTROL Actualiser les données]** pour synchroniser avec [!DNL Basecamp Classic] avant de poursuivre.
-   1. Indiquez si vous souhaitez que ce BAT soit [!UICONTROL Privé] in [!DNL Basecamp] (option non disponible dans Nouveau) [!DNL Basecamp]).
-   1. Sélectionnez votre [!DNL Basecamp Classic] projet.
+   1. Cliquez sur **[!UICONTROL Actualiser les données]** pour les synchroniser avec [!DNL Basecamp Classic] avant de continuer.
+   1. Indiquez si vous souhaitez que ce BAT soit [!UICONTROL Privé] dans [!DNL Basecamp] (option non disponible dans New [!DNL Basecamp]).
+   1. Sélectionnez votre projet [!DNL Basecamp Classic].
    1. Sélectionnez votre [!UICONTROL [!DNL Basecamp Classic] Catégorie de messages].
-   1. Sous **[!UICONTROL Personnes impliquées dans le projet]**, cochez les cases correspondant aux opérateurs validants dans votre [!DNL Basecamp Classic] compte que vous souhaitez ajouter au BAT.
-   1. Les réviseurs apparaissent dans leur alerte par défaut de rôle/courrier électronique. Les opérateurs validants sélectionnés reçoivent un message dans [!DNL Basecamp] pour ce BAT et également une notification électronique de [!DNL Workfront Proof].
+   1. Sous **[!UICONTROL Personnes sur le projet]**, cochez les cases correspondant aux réviseurs dans votre compte [!DNL Basecamp Classic] que vous souhaitez ajouter au BAT.
+   1. Les réviseurs apparaissent dans leur alerte par défaut de rôle/courrier électronique. Les réviseurs sélectionnés reçoivent un message dans [!DNL Basecamp] pour ce BAT, ainsi qu’une notification par e-mail de [!DNL Workfront Proof].
 
       >[!NOTE]
       >
-      > Si les paramètres par défaut des réviseurs ont été modifiés, vous devez actualiser la variable [!DNL Basecamp] Les données avant les nouveaux paramètres par défaut seront utilisées. Pour actualiser la variable [!DNL Basecamp] Cliquez sur le &quot;[!UICONTROL actualiser]&quot; sur le lien [!DNL Basecamp] dans [!DNL Workfront Proof]. Insérez votre propre nom si vous souhaitez également recevoir le message dans [!DNL Basecamp].
+      > Si les valeurs par défaut des réviseurs ont été modifiées, vous devez actualiser les données [!DNL Basecamp] avant que les nouvelles valeurs par défaut ne soient utilisées. Pour actualiser les données [!DNL Basecamp], cliquez sur le lien &quot;[!UICONTROL refresh]&quot; dans la fenêtre contextuelle [!DNL Basecamp] de [!DNL Workfront Proof]. Insérez votre propre nom si vous souhaitez également recevoir le message dans [!DNL Basecamp].
 
 1. Cliquez sur **[!UICONTROL OK]**.
 
-Après avoir ajouté le BAT à votre [!DNL Basecamp Classic] d’autres options s’affichent dans le [!UICONTROL Autres options de partage] de la section [!UICONTROL Détails du BAT] (pour plus d’informations sur cette page, voir [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). Vous pourrez :
+Après avoir ajouté le BAT à votre projet [!DNL Basecamp Classic], d’autres options s’affichent dans la section [!UICONTROL Plus d’options de partage] de la page [!UICONTROL Détails du BAT] (pour plus d’informations sur cette page, voir [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). Vous pourrez :
 
-* Modifiez la variable [!DNL Basecamp Classic] détails du projet.
+* Modifiez les détails du projet [!DNL Basecamp Classic].
 * Accédez au message dans [!DNL Basecamp Classic] en cliquant sur l’URL du projet au bas de la zone (l’URL inclut un identifiant pour ce BAT).
 
 >[!NOTE]
 >
-> Si vous n’avez pas de [!DNL Basecamp Classic] session ouverte dans une autre fenêtre du navigateur, vous devez vous connecter à [!DNL Basecamp Classic] avant de pouvoir voir le message dans [!DNL Basecamp].
+> Si aucune session [!DNL Basecamp Classic] n’est ouverte dans une autre fenêtre du navigateur, vous devez vous connecter à votre compte [!DNL Basecamp Classic] avant de pouvoir voir le message dans [!DNL Basecamp].
 
 Voir aussi [Vérification d’un bon à tirer dans [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).

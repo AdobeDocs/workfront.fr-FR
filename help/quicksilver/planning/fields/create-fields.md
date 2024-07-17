@@ -135,7 +135,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >
    >    Certains champs peuvent être masqués. Cliquez sur Champs et activez le bouton d’activation/désactivation des champs à afficher en tant que colonnes dans la vue Tableau.
 
-1. Cliquez sur le bouton **+** dans le coin supérieur droit de la vue du tableau
+1. Cliquez sur l’icône **+** dans le coin supérieur droit de la vue de tableau.
 
    Ou
 
@@ -219,7 +219,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 1. Cliquez sur **Ajouter un choix** pour ajouter autant de choix que nécessaire. Le nombre de choix que vous pouvez ajouter à un champ à sélection multiple n’est pas limité.
 1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option
    **Trier les choix dans l’ordre alphabétique** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (Facultatif) Pour supprimer un choix, cliquez sur le bouton **x** à droite de celle-ci.
+1. (Facultatif) Pour supprimer un choix, cliquez sur l’icône **x** située à droite.
 1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleur et personnaliser la couleur de chaque option.
 1. Cliquez sur **Créer**.
 
@@ -241,7 +241,7 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
 1. Cliquez sur **Ajouter un choix** pour ajouter autant de choix que nécessaire. Le nombre de choix que vous pouvez ajouter à un champ à sélection unique n’est pas limité.
 1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option **Trier les choix dans l’ordre alphabétique** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (Facultatif) Pour supprimer un choix, cliquez sur le bouton **x** à droite de celle-ci.
+1. (Facultatif) Pour supprimer un choix, cliquez sur l’icône **x** située à droite.
 1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleur et personnaliser la couleur de chaque option.
 1. Cliquez sur **Créer**.
 
@@ -289,7 +289,7 @@ Les types de champs Nombre capturent des informations au format numérique.
 
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
-   * **Précision**: nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
+   * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
    * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les nombres négatifs dans ce champ. Cette option est désélectionnée par défaut.
 
    >[!NOTE]
@@ -311,7 +311,7 @@ Les types de champs Pourcentage capturent des informations au format numérique,
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
-   * **Précision**: nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
+   * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
    * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les valeurs en pourcentage négatives dans ce champ. Cette option est désélectionnée par défaut.
 
    >[!NOTE]
@@ -334,7 +334,7 @@ Les types de champs Devise capturent des informations au format numérique, pré
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
    * **Devise** : type de devise que vous souhaitez afficher dans ce champ. Il s’agit d’une liste de devises selon l’Organisation internationale de normalisation (ISO).
-   * **Précision**: nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
+   * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
    * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les valeurs de devise négatives dans ce champ. Cette option est désélectionnée par défaut.
 
    >[!NOTE]
@@ -380,7 +380,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs Formule](/help/qui
 
    ![](assets/description-of-formula-expression.png)
 
-   Pour plus d’informations sur les expressions prises en charge, voir [Champs de formule - Aperçu](/help/quicksilver/planning/fields/formula-fields.md).
+   Pour plus d’informations sur les expressions prises en charge, voir [Présentation des champs de formule](/help/quicksilver/planning/fields/formula-fields.md).
 
 1. Ajoutez les noms des champs tels qu’ils s’affichent dans la Planification Workfront pour les référencer dans une formule.
 
@@ -397,7 +397,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs Formule](/help/qui
 
 ### Personnes
 
-Vous pouvez utiliser le type de champ Personnes pour ajouter une <!--, job role, or team--> d’un utilisateur ou d’une utilisatrice à un enregistrement. Il s’agit d’un champ de type anticipé que vous pouvez ajouter uniquement aux utilisateurs.<!--, roles, or teams--> qui existent déjà dans votre instance Workfront.
+Vous pouvez utiliser le type de champ Personnes pour ajouter une <!--, job role, or team--> d’un utilisateur ou d’une utilisatrice à un enregistrement. Il s’agit d’un champ de type anticipé, et vous pouvez ajouter uniquement les utilisateurs<!--, roles, or teams--> qui existent déjà dans votre instance Workfront.
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Personnes**.
 

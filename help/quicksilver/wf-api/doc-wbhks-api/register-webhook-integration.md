@@ -2,25 +2,25 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Enregistrement d’une intégration Webhook
-description: Enregistrement d’une intégration Webhook
+title: Enregistrer une intégration de webhook
+description: Enregistrer une intégration de webhook
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 11%
+source-wordcount: '336'
+ht-degree: 14%
 
 ---
 
 
-# Enregistrement d’une intégration Webhook
+# Enregistrer une intégration de webhook
 
 Les administrateurs Adobe Workfront peuvent ajouter une intégration webhook personnalisée pour leur entreprise en accédant à Configuration > Documents > Intégrations personnalisées dans Workfront. Sur la page Intégration personnalisée de Configuration, les administrateurs peuvent afficher une liste des intégrations Webhook de document existantes. Depuis cette page, les intégrations peuvent être ajoutées, modifiées, activées et désactivées.
 
-Pour ajouter une intégration, cliquez sur **Ajout d’une intégration personnalisée**.
+Pour ajouter une intégration, cliquez sur **Ajouter une intégration personnalisée**.
 
 ![](assets/webhooks-integration-350x230.png)
 

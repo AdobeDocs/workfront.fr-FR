@@ -6,19 +6,19 @@ description: Lors de l’utilisation de l’action Document moveToFolder, une er
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+exl-id: 811efabc-e101-4de5-a800-a1447654dc3e
+source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
-
 
 # L’action déplacement de document vers le dossier ne fonctionne pas.
 
 ## Problème
 
-Lors de l’utilisation de la propriété `moveToFolder` , une erreur 422 est renvoyée.
+Lors de l’utilisation de l’action `moveToFolder` de l’objet Document, une erreur 422 est renvoyée.
 
 Ou
 

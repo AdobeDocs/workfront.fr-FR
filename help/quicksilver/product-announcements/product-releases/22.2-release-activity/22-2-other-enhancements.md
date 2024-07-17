@@ -1,6 +1,6 @@
 ---
-title: 2.2 Autres améliorations
-description: 2.2 Autres améliorations
+title: Autres améliorations (version 22.2)
+description: Autres améliorations (version 22.2)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,11 +9,11 @@ exl-id: 0f4e08bb-20f1-49f5-ad8a-fb0c42c0e2be
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 2.2 Autres améliorations
+# Autres améliorations (version 22.2)
 
 Cette page décrit toutes les autres améliorations apportées à la version 22.2 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
 
@@ -25,7 +25,7 @@ in January 2022
 
 la semaine du 4 avril 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, voir [Présentation de la version 2.2.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, consultez la [présentation des versions 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Améliorations apportées à la barre de navigation supérieure
 

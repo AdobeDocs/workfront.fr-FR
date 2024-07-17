@@ -13,11 +13,11 @@ exl-id: 4f1fd5cc-24c0-43a3-8453-78c929cf401a
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Activité Publication de fusion Workfront : Semaine du 26 septembre 2022
+# Activité Version de Workfront Fusion : semaine du 26 septembre 2022
 
 ## Connecteur et modules GitLab désormais disponibles
 

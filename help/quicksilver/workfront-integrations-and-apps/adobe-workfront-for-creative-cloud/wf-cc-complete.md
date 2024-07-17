@@ -1,7 +1,7 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Marquer les tâches terminées à l’aide du module externe Adobe Workfront
+title: Marquer des éléments de travail comme terminés à l’aide du plug-in Adobe Workfront
 description: Vous pouvez rester dans les applications Adobe Creative Cloud et effectuer facilement votre travail dans Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -9,19 +9,19 @@ exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
 source-git-commit: 38b1b69dd76bef9fb116519dd6c45adc053e0d3f
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Marquez les tâches terminées à l’aide de la fonction [!DNL Adobe Workfront] plugin
+# Marquer les tâches terminées à l’aide du module externe [!DNL Adobe Workfront]
 
-Vous pouvez rester dans ce qui suit : [!DNL Adobe Creative Cloud] applications et effectuez facilement vos tâches dans [!DNL Adobe Workfront] avec le module externe :
+Vous pouvez rester dans les applications [!DNL Adobe Creative Cloud] suivantes et effectuer facilement votre travail dans [!DNL Adobe Workfront] avec le module externe :
 
 {{cc-app-list}}
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,16 +37,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> --> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Vous devez disposer d’un [!DNL Adobe Creative Cloud] en plus d’une [!DNL Workfront] licence.</td> 
+   <td>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>[!UICONTROL Modifier] permet d’accéder à l’objet que vous souhaitez terminer.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>[!UICONTROL Modifier] permet d’accéder à l’objet que vous souhaitez terminer.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre [!DNL Workfront] administrateur.
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
 ## Conditions préalables
 
@@ -54,19 +54,19 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 
 ## Terminer une tâche
 
-1. Cliquez sur le bouton **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de tâches]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
+1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Dans la **[!UICONTROL Liste de tâches]**, sélectionnez la tâche ou le problème que vous souhaitez marquer comme terminé.
-1. Cliquez sur **[!UICONTROL Terminé]**.  Si vous êtes le seul utilisateur affecté à cette tâche ou ce problème, l’élément est marqué. [!UICONTROL Terminer] ou [!UICONTROL Résolu] in [!DNL Workfront].
-1. (Conditionnel) Si plusieurs utilisateurs sont affectés à cette tâche ou à ce problème, cliquez sur [!UICONTROL Terminé] ouvre une liste déroulante. Vous pouvez alors :
+1. Dans la **[!UICONTROL liste de travail]**, sélectionnez la tâche ou le problème que vous souhaitez marquer comme terminé.
+1. Cliquez sur **[!UICONTROL Terminé]**.  Si vous êtes le seul utilisateur affecté à cette tâche ou ce problème, cela marque l’élément [!UICONTROL Complete] ou [!UICONTROL Resolved] dans [!DNL Workfront].
+1. (Conditionnel) Si plusieurs utilisateurs sont affectés à cette tâche ou à ce problème, cliquez sur [!UICONTROL Terminé] pour ouvrir une liste déroulante. Vous pouvez alors :
 
-   Cliquez sur **[!UICONTROL C&#39;est fait de ma part.]** si d’autres utilisateurs doivent également effectuer leur travail pour que la tâche ou le problème soit terminé.
+   Cliquez sur **[!UICONTROL Terminé avec ma partie]** si d’autres utilisateurs doivent également effectuer leur travail pour que la tâche ou le problème soit terminé.
 
    Ou
 
-   Cliquez sur **[!UICONTROL Terminer]** (pour les tâches) ou **[!UICONTROL Résolu]** (pour les problèmes) si aucun autre travail n’est nécessaire sur la tâche ou le problème. Ceci marque l’élément [!UICONTROL Terminer] ou [!UICONTROL Résolu] in [!DNL Workfront].
+   Cliquez sur **[!UICONTROL Terminé]** (pour les tâches) ou **[!UICONTROL Résolu]** (pour les problèmes) si aucun travail supplémentaire n’est nécessaire sur la tâche ou le problème. Ceci marque l’élément [!UICONTROL Complete] ou [!UICONTROL Resolved] dans [!DNL Workfront].
 
    >[!NOTE]
    >

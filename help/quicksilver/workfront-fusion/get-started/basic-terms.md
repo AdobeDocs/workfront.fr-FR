@@ -4,22 +4,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Termes de base d’Adobe Workfront Fusion
-description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion en plus d’une licence Adobe Workfront.
+description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion et une licence Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
 source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Termes de base [!DNL Adobe Workfront Fusion]
+# Termes de base dans [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] nécessite une [!DNL Adobe Workfront Fusion] en plus d’une [!UICONTROL Adobe Workfront] licence.
+>[!DNL Adobe Workfront Fusion] nécessite une licence [!DNL Adobe Workfront Fusion] en plus d’une licence [!UICONTROL Adobe Workfront].
 
 
 <table style="table-layout:auto">
@@ -32,11 +32,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Agrégateur]</p> </td> 
-   <td> <p>Type de module qui fusionne plusieurs lots (plusieurs tableaux de données) en un seul lot. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/aggregator-module.md" class="MCXref xref">Module [!UICONTROL Agrégateur] dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Type de module qui fusionne plusieurs lots (plusieurs tableaux de données) en un seul lot. Pour plus d’informations, voir le module <a href="../../workfront-fusion/modules/aggregator-module.md" class="MCXref xref">[!UICONTROL Agrégateur] dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Clé API</td> 
-   <td>Code unique qui identifie l’utilisateur, le développeur ou le programme qui appelle l’API d’un logiciel, utilisé pour l’authentification. Depuis [!DNL Adobe Workfront Fusion] Les modules fonctionnent en connectant les API, les clés d’API sont parfois nécessaires. Les clés d’API sont distribuées par l’application qui en a besoin. Par exemple, si vous avez besoin d’une clé API pour [!DNL ActiveCampaign], vous pouvez la demander via votre [!DNL ActiveCampaign] compte .</td> 
+   <td>Code unique qui identifie l’utilisateur, le développeur ou le programme qui appelle l’API d’un logiciel, utilisé pour l’authentification. Comme [!DNL Adobe Workfront Fusion] modules fonctionnent en connectant des API, des clés d’API sont parfois nécessaires. Les clés d’API sont distribuées par l’application qui en a besoin. Par exemple, si vous avez besoin d’une clé API pour [!DNL ActiveCampaign], vous pouvez la demander via votre compte [!DNL ActiveCampaign].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Application ou service</td> 
@@ -56,7 +56,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Cycle</p> </td> 
-   <td> <p>Un cycle fait référence à deux phases de l’exécution du scénario : opération et validation. Le scénario peut comprendre un ou plusieurs cycles. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Exécution, cycles et phases d’un scénario [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Un cycle fait référence à deux phases de l’exécution du scénario : opération et validation. Le scénario peut comprendre un ou plusieurs cycles. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Exécution de scénario, cycles et phases dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Entrepôt de données</p> </td> 
@@ -68,7 +68,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Filtre</p> </td> 
-   <td> <p>Fonctionnalités supplémentaires pouvant être appliquées entre deux modules. Un filtre vous permet ensuite de ne travailler qu’avec des lots qui correspondent à certains critères. Vous pouvez appliquer différents filtres. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Ajouter un filtre à un scénario dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Fonctionnalités supplémentaires pouvant être appliquées entre deux modules. Un filtre vous permet ensuite de ne travailler qu’avec des lots qui correspondent à certains critères. Vous pouvez appliquer différents filtres. Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Ajout d’un filtre à un scénario dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>ID</p> </td> 
@@ -80,7 +80,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Iterator]</p> </td> 
-   <td> <p>Type de module qui vous permet de prendre un lot de données (un tableau de données) et de les diviser en plusieurs lots distincts. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">Module [!UICONTROL Iterator] dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Type de module qui vous permet de prendre un lot de données (un tableau de données) et de les diviser en plusieurs lots distincts. Pour plus d’informations, voir le module <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">[!UICONTROL Iterator] dans [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Module</p> </td> 
@@ -96,11 +96,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Routeur]</p> </td> 
-   <td>Permet de dupliquer des données ou d’ajouter de nouvelles routes à un scénario. Vous pouvez ainsi réacheminer les données et gérer différents groupes de données séparément. Pour plus d’informations, voir <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">Module [!UICONTROL Routeur] dans [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td>Permet de dupliquer des données ou d’ajouter de nouvelles routes à un scénario. Vous pouvez ainsi réacheminer les données et gérer différents groupes de données séparément. Pour plus d’informations, voir le module <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">[!UICONTROL Router] dans [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Scénario</p> </td> 
-   <td> <p>Série d’étapes automatisées créée par l’utilisateur, chacune représentée et exécutée par un module. L’objectif d’un scénario est de déplacer et de manipuler des données.</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Créer un scénario dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Série d’étapes automatisées créée par l’utilisateur, chacune représentée et exécutée par un module. L’objectif d’un scénario est de déplacer et de manipuler des données.</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> Pour plus d’informations, voir <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Création d’un scénario dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transactions</p> </td> 
@@ -112,7 +112,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Webhook</p> </td> 
-   <td> <p>Type spécial de déclencheur qui vous permet d’exécuter un scénario immédiatement après la disponibilité d’un nouveau lot. Pour plus d’informations, voir <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Triggers instantanés (webhooks) dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Type spécial de déclencheur qui vous permet d’exécuter un scénario immédiatement après la disponibilité d’un nouveau lot. Pour plus d’informations, voir <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Déclencheurs instantanés (webhooks) dans [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

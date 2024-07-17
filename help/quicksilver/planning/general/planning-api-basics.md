@@ -28,12 +28,12 @@ Les objets sont manipulés en envoyant une requête HTTP à leur URI unique. L�
 
 Les méthodes HTTP standard correspondent aux opérations suivantes :
 
-* **GET** - Récupère un objet par identifiant, recherche tous les objets par une requête.
+* **GET** - Récupère un objet par identifiant, recherche tous les objets par une requête
 * **POST** - Insère un nouvel objet.
 * **PUT** - Modifiie un objet existant.
 * **DELETE** - Supprime un objet.
 
-Pour plus d’informations et d’exemples sur chaque opération, voir [Documentation destinée aux développeurs de l’API de planification Workfront](https://developer.adobe.com/wf-planning/).
+Pour plus d’informations et d’exemples sur chaque opération, consultez la [documentation destinée aux développeurs de l’API de planification Workfront](https://developer.adobe.com/wf-planning/).
 
 ### Types de champ et modificateurs de recherche utilisés avec eux
 
@@ -329,9 +329,9 @@ Corps de la requête :
 
 ### Limites de requête et réponses paginées
 
-Par défaut, les demandes d’API de planification renvoient 500 résultats, à partir du début de la liste. Pour contourner la limitation par défaut du nombre de résultats, vous pouvez utiliser la variable `limit` dans vos requêtes et définissez-la sur un autre nombre, jusqu’à 2 000 résultats.
+Par défaut, les demandes d’API de planification renvoient 500 résultats, à partir du début de la liste. Pour contourner la limitation par défaut du nombre de résultats, vous pouvez utiliser le paramètre `limit` dans vos requêtes et le définir sur un nombre différent, jusqu’à 2 000 résultats.
 
-Nous vous recommandons d’utiliser des réponses paginées pour les jeux de données volumineux en ajoutant la variable `offset` à vos requêtes. Les réponses paginées vous permettent de spécifier l’emplacement du premier résultat qui doit être renvoyé.
+Nous vous recommandons d’utiliser des réponses paginées pour les jeux de données volumineux en ajoutant le paramètre `offset` à vos requêtes. Les réponses paginées vous permettent de spécifier l’emplacement du premier résultat qui doit être renvoyé.
 
 Par exemple, si vous souhaitez renvoyer les résultats 2001-4000, vous pouvez utiliser la requête suivante. Cet exemple renvoie les 2 000 enregistrements qui sont en état actif, à partir du résultat 2001st :
 
@@ -354,7 +354,7 @@ Corps de la requête :
 
 Pour vous assurer que vos résultats sont correctement paginés, utilisez un paramètre de tri. Cela permet de renvoyer les résultats dans le même ordre, de sorte que la pagination ne se répète pas ou n’ignore pas les résultats.
 
-Pour plus d’informations sur le tri, voir [Tri des résultats des requêtes dans l’API](#sorting-query-results-in-the-api) dans cet article.
+Pour plus d’informations sur le tri, voir [Tri des résultats de requête dans l’API](#sorting-query-results-in-the-api) de cet article.
 
 
 

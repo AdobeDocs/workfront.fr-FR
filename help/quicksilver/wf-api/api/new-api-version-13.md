@@ -1,26 +1,26 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de l’API version 13
-description: Adobe Workfront a publié l’API version 13 le 22 avril 2021. L’API version 13 comprend les modifications suivantes à partir de la version 12.
+title: Nouveautés de la version 13 de l’API
+description: Adobe Workfront a publié la version 13 de l’API le vendredi 22 avril 2021. La version 13 de l’API comprend les modifications suivantes par rapport à la version 12.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 2%
+source-wordcount: '1072'
+ht-degree: 24%
 
 ---
 
-# Nouveautés de l’API version 13
+# Nouveautés de la version 13 de l’API
 
-Adobe Workfront a publié l’API version 13 le 22 avril 2021. L’API version 13 comprend les modifications suivantes à partir de la version 12.
+Adobe Workfront a publié la version 13 de l’API le vendredi 22 avril 2021. La version 13 de l’API comprend les modifications suivantes par rapport à la version 12.
 
 ## Ressources ajoutées
 
-Aucune ressource n’a été ajoutée pour l’API version 13.
+Aucune ressource n’a été ajoutée pour la version 13 de l’API.
 
 ## Ressources supprimées
 
@@ -46,7 +46,7 @@ Les ressources suivantes ont été modifiées pour l’API version 13.
      <li> <p><a href="#journalentry" class="MCXref xref">JournalEntry</a> </p> </li> 
      <li> <p><a href="#layouttemplate" class="MCXref xref">LayoutTemplate</a> </p> </li> 
      <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
-     <li> <p><a href="#optask" class="MCXref xref">TâcheOp</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -89,7 +89,7 @@ Pour plus d’informations sur les niveaux d’accès, voir [Fonctionnement des 
 
 Un objet BreadCrumb représente un élément dans la hiérarchie parent/enfant d’un élément de travail Workfront. Les chemins de navigation indiquent comment un élément de travail s’intègre à la plus grande structure de Portfolios, de projets, de projets et de tâches.
 
-Pour plus d’informations sur les chemins de navigation, voir [Présentation du chemin de navigation dans la nouvelle expérience Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Pour plus d’informations sur les chemins de navigation, consultez la [présentation des chemins de navigation dans la nouvelle expérience Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -99,7 +99,7 @@ Pour plus d’informations sur les chemins de navigation, voir [Présentation du
    <td> <p>Champs directs</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>Les codes d’objet se trouvent dans la variable <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">Explorateur d’API</a>.</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>Les codes d’objet se trouvent dans l’ <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -166,7 +166,7 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
 
 Un objet DocumentVersion représente une version spécifique d’un fichier (comme du matériel écrit, des images ou d’autres formes d’informations).
 
-Pour plus d’informations sur les versions de document, voir [Télécharger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
+Pour plus d’informations sur les versions de document, voir [Téléchargement d’une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -182,7 +182,7 @@ Pour plus d’informations sur les versions de document, voir [Télécharger une
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p><b>proofID</b> </p> <p>Ajout de l’indicateur NOT_FILTERABLE</p> </li> 
+     <li> <p><b>BATID</b> </p> <p>Ajout de l’indicateur NOT_FILTERABLE</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -210,7 +210,7 @@ Pour plus d’informations sur les groupes, voir [Groupes par rapport aux équip
 
 ### JournalEntry {#journalentry}
 
-L’objet JournalEntry peut être configuré pour consigner des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être consigné dans le cadre de l’objet d’entrée de journal, une entrée de journal correspondante est créée chaque fois que ce champ est modifié.
+L’objet JournalEntry peut être configuré pour consigner des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être consigné dans le cadre de l’objet d’entrée du journal, une entrée du journal correspondante est créée chaque fois que ce champ est modifié.
 
 La ressource JournalEntry a ajouté l’indicateur REPORTABLE.
 
@@ -241,7 +241,7 @@ La ressource JournalEntry a ajouté l’indicateur REPORTABLE.
 
 Les administrateurs d’Adobe Workfront ou les administrateurs de groupe peuvent créer des modèles pour personnaliser les éléments de mise en page dans Adobe Workfront. L’objet LayoutTemplate est spécifique à Adobe Workfront Classic.
 
-Pour l’objet qui représente les modèles de mise en page dans la nouvelle expérience Adobe Workfront, voir [UITemplate](#uitemplate)
+Pour l’objet qui représente les modèles de mise en page dans la nouvelle expérience Adobe Workfront, reportez-vous à la section [UEMemplate](#uitemplate)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -261,7 +261,7 @@ Pour l’objet qui représente les modèles de mise en page dans la nouvelle exp
 
 Un objet LinkedFolder représente un dossier lié à un fournisseur de documents externe, tel que Google Drive ou Dropbox.
 
-Pour plus d’informations sur les dossiers liés, voir [Liaison de documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Pour plus d’informations sur les dossiers liés, reportez-vous à la section [Lier des documents à partir d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -282,7 +282,7 @@ Pour plus d’informations sur les dossiers liés, voir [Liaison de documents à
 
 ### TâcheOp {#optask}
 
-Un objet OpTask est généralement appelé Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Modifier les commandes, les requêtes et les bogues sont également des problèmes.
+Un objet OpTask est généralement appelé un Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Les ordres de modification, les demandes et les bogues sont également des problèmes.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -300,7 +300,7 @@ Un objet OpTask est généralement appelé Problème. Un problème est un élém
 
 ### Projet {#project}
 
-Les projets sont des éléments de travail dans Workfront et sont une composante essentielle de la façon dont Workfront aide les personnes à travailler. Un objet Projet représente un groupe de tâches avec un objectif commun et spécifique.
+Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Project représente un groupe de tâches avec un objectif commun et spécifique.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -352,7 +352,7 @@ Pour plus d’informations sur les files d’attente de requête, voir [Créatio
    <td role="rowheader">Champs directs</td> 
    <td> 
     <ul> 
-     <li> <p><b>documentPosition</b> </p> <p>Ajout de . Les valeurs possibles sont les suivantes :</p> 
+     <li> <p><b>documentPosition</b> </p> <p>Ajouté. Les valeurs possibles sont les suivantes :</p> 
       <ul> 
        <li> <p>0 (après les formulaires personnalisés)</p> </li> 
        <li> <p>1 (Avant les formulaires personnalisés)</p> </li> 
@@ -364,7 +364,7 @@ Pour plus d’informations sur les files d’attente de requête, voir [Créatio
 
 ### Tâche {#task}
 
-Un objet Task représente un élément de travail qui doit être exécuté comme une étape vers l’atteinte d’un objectif final (achèvement d’un projet).
+Un objet Task représente un élément de travail qui doit être exécuté en tant qu’étape vers la réalisation d’un objectif final (achèvement d’un projet).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -380,7 +380,7 @@ Un objet Task représente un élément de travail qui doit être exécuté comme
  </tbody> 
 </table>
 
-### Équipe {#team}
+### Equipe {#team}
 
 Un objet Équipe est un ensemble d’utilisateurs pouvant être affectés à un élément de travail.
 
@@ -514,7 +514,7 @@ L’objet UserDelegation a ajouté l’indicateur REPORTABLE.
 
 ### Travail  {#work}
 
-Un objet de travail est une interface commune dont Task et OpTask héritent tous deux et partagent le code commun entre les deux.
+Un objet Work est une interface commune dont Task et OpTask héritent tous deux, et partage le code commun entre les deux.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 

@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Langues prises en charge dans Adobe Workfront
+title: Langues prises en charge dans Adobe Workfront
 description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe Workfront et les e-mails provenant de Workfront, en ajustant les préférences linguistiques de votre navigateur et votre langue par défaut dans Workfront.
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 4%
 
 ---
 
-# Langues prises en charge dans Adobe Workfront
+# Langues prises en charge dans Adobe Workfront
 
 Vous pouvez modifier la langue dans laquelle vous affichez Adobe Workfront et les e-mails provenant de Workfront, en ajustant les préférences linguistiques de votre navigateur et votre langue par défaut dans Workfront.
 
@@ -36,7 +36,7 @@ La langue utilisée pour afficher Workfront dans votre navigateur est contrôlé
 
 Pour afficher les courriers électroniques sortants dans l’une des langues prises en charge, modifiez les paramètres Paramètres régionaux des courriers électroniques utilisateur ou Informations client dans Workfront.\
 Pour modifier les paramètres Informations sur le client, vous devez être un administrateur Workfront.\
-Pour plus d’informations sur la modification des informations sur le client et des paramètres régionaux des courriers électroniques utilisateur, voir [Modification des paramètres régionaux de Workfront et de l’adresse électronique de l’utilisateur](#change-the-workfront-and-user-locales).
+Pour plus d’informations sur la modification des informations sur le client et des paramètres régionaux de messagerie de l’utilisateur, voir [Modification des paramètres régionaux de Workfront et de messagerie de l’utilisateur](#change-the-workfront-and-user-locales).
 
 Vous pouvez souscrire à un tiers pour que l’interface Workfront et les emails sortants de Workfront soient traduits dans d’autres langues. Ces traductions ne sont pas prises en charge par Workfront et les langues autres que celles répertoriées ci-dessus ne sont pas prises en charge.
 
@@ -47,23 +47,22 @@ Vous pouvez souscrire à un tiers pour que l’interface Workfront et les emails
 >* Lorsque vous utilisez une langue non prise en charge, l’interface s’affiche en anglais.
 >* Le menu Aide, ainsi que le contenu d’aide accessible à partir de ce menu, s’affiche en anglais.
 >* Le texte saisi par l’utilisateur reste dans la langue d’origine saisie. Cela peut inclure, sans s’y limiter :
-   >
-   >   * Noms de projet
-   >   * Noms de tâche
-   >   * Noms des problèmes
-   >   * Noms de Portfolio
-   >   * Noms de programme
-   >   * Noms de validation
-   >   * Descriptions
-   >   * Noms de formulaire personnalisés
-   >   * Noms des types d’heure
-   >   * Types de dépenses
-   >   * Jalons
-   >   * Onglets personnalisés
-   >   * Statuts
-   >   * Noms des rapports
 >
-
+>   * Noms de projet
+>   * Noms de tâche
+>   * Noms des problèmes
+>   * Noms de Portfolio
+>   * Noms de programme
+>   * Noms de validation
+>   * Descriptions
+>   * Noms de formulaire personnalisés
+>   * Noms des types d’heure
+>   * Types de dépenses
+>   * Jalons
+>   * Onglets personnalisés
+>   * Statuts
+>   * Noms des rapports
+>
 
 ## Incohérences de langue prises en charge lors de l’utilisation de la vérification
 
@@ -77,12 +76,12 @@ Les langues suivantes ne sont pas prises en charge dans l’outil de vérificati
 
 Votre entreprise doit acheter une licence de vérification afin d’accéder à la visionneuse de vérification de l’intégrité Web.
 
-Pour plus d’informations sur la vérification, voir [Vérification](../review-and-approve-work/proofing/proofing.md).
+Pour plus d&#39;informations sur la vérification, voir [Vérification](../review-and-approve-work/proofing/proofing.md).
 
 Lorsque vous affichez Workfront dans une langue qui n’est pas prise en charge par l’outil de vérification de l’orthographe, la visionneuse de vérification de l’orthographe Web s’affiche en anglais.
 
-Si vous utilisez Workfront BAT (l’outil de vérification de l’intégrité autonome) dans une langue qui n’est pas prise en charge dans Workfront, la visionneuse de vérification de l’intégrité Web dans Workfront s’affiche en anglais.\
-Pour plus d’informations sur les langues prises en charge dans le Bon à tirer de Workfront, voir [Paramètres de langue dans le bon à tirer Workfront](../workfront-proof/wp-getstarted/system-information/language-settings.md).
+Si vous utilisez Workfront Proof (l’outil de vérification autonome) dans une langue qui n’est pas prise en charge dans Workfront, la visionneuse de vérification de l’intégrité Web de Workfront s’affiche en anglais.\
+Pour plus d’informations sur les langues prises en charge dans Workfront Proof, voir [Paramètres de langue dans Workfront Proof](../workfront-proof/wp-getstarted/system-information/language-settings.md).
 
 ## Langue prise en charge dans Adobe Workfront Fusion
 
@@ -92,7 +91,7 @@ Actuellement, Workfront Fusion ne prend en charge que l’anglais.
 * Workfront Fusion ne prend pas en charge l’utilisation de caractères de texte autres que l’anglais dans les champs saisis par l’utilisateur.
 
 Votre entreprise doit acheter une licence Workfront Fusion pour pouvoir accéder à Workfront Fusion.\
-Pour plus d’informations sur Workfront Fusion, voir [Présentation d’Adobe Workfront Fusion](../workfront-fusion/get-started/workfront-fusion-overview.md).
+Pour plus d’informations sur Workfront Fusion, consultez la [présentation d’Adobe Workfront Fusion](../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 ## Modifier la langue
 
@@ -103,7 +102,7 @@ Vous pouvez modifier la langue dans laquelle vous affichez Workfront et la langu
 
 Pour afficher toutes les traductions disponibles pour la langue de votre choix, le paramètre régional Workfront et le paramètre régional du navigateur doivent être définis sur la même langue.
 
-* [Modification de la langue du navigateur](#change-the-browser-language)
+* [Modifier la langue du navigateur](#change-the-browser-language)
 * [Modification des paramètres régionaux de Workfront et de l’adresse électronique de l’utilisateur](#change-the-workfront-and-user-locales)
 
 ### Modification de la langue du navigateur {#change-the-browser-language}
@@ -117,21 +116,21 @@ Consultez le menu &quot;Aide&quot; de votre navigateur pour obtenir des informat
 
 ### Modification des paramètres régionaux de Workfront et de l’adresse électronique de l’utilisateur {#change-the-workfront-and-user-locales}
 
-* [Modification des paramètres régionaux de l’e-mail Workfront par défaut](#change-the-workfront-locale)
+* [Modifier le paramètre régional de l’e-mail Workfront par défaut](#change-the-workfront-locale)
 * [Modifier les paramètres régionaux de l’adresse électronique de l’utilisateur](#change-the-user-locale)
 
-### Modification des paramètres régionaux de l’e-mail Workfront par défaut {#change-the-workfront-locale}
+### Modification des paramètres régionaux de l’email Workfront par défaut {#change-the-workfront-locale}
 
 Lorsque vous modifiez le paramètre régional d’e-mail Workfront par défaut, vous modifiez le format de langue, de date et de nombre utilisé dans les messages sortants pour tous les utilisateurs de Workfront. Ces paramètres deviennent la valeur par défaut de chaque nouvel utilisateur que vous créez.
 
 Pour modifier les paramètres régionaux de l’e-mail Workfront par défaut :
 
 1. Connectez-vous à Workfront en tant qu’administrateur Workfront.
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Système** > **Informations sur le client.**
+1. Cliquez sur **System** > **Customer Info.**
 
-1. Dans le **Informations de base** , cliquez sur le bouton **Paramètres régionaux de l’e-mail par défaut** liste déroulante pour sélectionner la langue dans laquelle vous souhaitez que les emails Workfront s’affichent.
+1. Dans la section **Informations de base**, cliquez sur la liste déroulante **Paramètres régionaux de l’e-mail par défaut** pour sélectionner la langue dans laquelle vous souhaitez que les e-mails Workfront s’affichent.
 
 1. Cliquer sur **Enregistrer**.
 
@@ -141,10 +140,10 @@ Lorsque vous modifiez les paramètres régionaux de l’email de l’utilisateur
 
 Pour modifier les paramètres régionaux de l’adresse électronique de l’utilisateur :
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur votre image de profil utilisateur.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur l’image de votre profil utilisateur.
 
-1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis cliquez sur **Modifier**.
+1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Modifier**.
 
-1. Dans le **Préférences** , cliquez sur le bouton **Paramètres régionaux des emails** liste déroulante pour sélectionner la langue dans laquelle vous souhaitez que les emails Workfront s’affichent.
+1. Dans la section **Préférences**, cliquez sur la liste déroulante **Paramètre régional de l’email** pour sélectionner la langue dans laquelle vous souhaitez que les emails Workfront s’affichent.
 
 1. Cliquez sur **Enregistrer les modifications**.

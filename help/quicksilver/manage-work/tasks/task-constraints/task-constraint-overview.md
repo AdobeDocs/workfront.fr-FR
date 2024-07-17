@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-constraints
-title: Présentation de la contrainte de tâche
+title: Vue d’ensemble des contraintes de tâches
 description: Les contraintes de tâche déterminent à quel moment une tâche doit commencer et se terminer sur un projet.
 author: Alina
 feature: Work Management
@@ -10,11 +10,11 @@ exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
-# Présentation de la contrainte de tâche
+# Vue d’ensemble des contraintes de tâches
 
 <!-- Audited: 12/2023 -->
 
@@ -61,12 +61,12 @@ Le tableau suivant affiche chaque contrainte et son abréviation. Les abréviati
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Présentation de la contrainte de tâche : heure disponible la plus tôt</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Présentation de la contrainte de tâche : Temps disponible le plus tôt</a> </p> </td> 
    <td scope="col"> <p>PHD</p> </td> 
  <td scope="col"> <p>Planifie une tâche pour qu’elle commence le plus tôt possible après avoir pris en compte les relations de prédécesseur.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Présentation de la contrainte de tâche : Dernière heure disponible</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Présentation de la contrainte de tâche : heure disponible la plus récente</a> </p> </td> 
    <td scope="col"> <p>DHD</p> </td> 
    <td scope="col"> <p>Planifie une tâche pour qu’elle commence au moment le plus récent disponible après avoir pris en compte les relations entre le prédécesseur et le successeur dans le projet.</p> </td>
   </tr> 
@@ -84,22 +84,22 @@ Le tableau suivant affiche chaque contrainte et son abréviation. Les abréviati
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Présentation de la contrainte de tâche : Terminer au plus tôt</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Présentation de la contrainte de tâche : ne pas terminer avant </a> </p> </td> 
    <td scope="col"> <p>FPTô</p> </td>
    <td scope="col"> <p>Planifie une tâche à terminer après la date que vous spécifiez.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Présentation de la contrainte de tâche : Terminer au plus tard</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Présentation de la contrainte de tâche : Terminer au plus tard </a> </p> </td> 
    <td scope="col"> <p>FPTr</p> </td> 
    <td scope="col"> <p>Planifie une tâche à terminer avant la date que vous spécifiez.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Présentation de la contrainte de tâche : Doit démarrer sur</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Présentation de la contrainte de tâche : Doit démarrer le </a> </p> </td> 
    <td scope="col"> <p>FC</p> </td> 
    <td scope="col"> <p>Planifie une tâche pour qu’elle commence exactement à une date spécifique.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Présentation de la contrainte de tâche : Doit se terminer sur</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Présentation de la contrainte de tâche : Doit Se Terminer Sur</a> </p> </td> 
    <td scope="col"> <p>FF</p> </td> 
    <td scope="col"> <p>Planifie une tâche pour qu’elle se termine à une date spécifique.</p> </td>
   </tr> 
@@ -117,13 +117,13 @@ Lorsque vous créez des tâches, une contrainte de tâche est automatiquement s�
 
 Workfront utilise deux variables pour décider quelle contrainte de tâche est sélectionnée par défaut pour une nouvelle tâche :
 
-* La variable **Planification du projet à partir de** sur le projet.
+* Le champ **Planification du projet à partir de** sur le projet.
 
   Pour plus d’informations sur le champ Planifier le projet à partir de , voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* La variable **Date de début** la préférence configurée par votre administrateur Workfront ou de groupe dans la variable **Tâches et problèmes** area of **Configuration**.
+* La préférence **Date de début** configurée par votre administrateur Workfront ou de groupe dans la zone **Tâches et problèmes** de **Configuration**.
 
-  Pour plus d’informations sur les préférences de tâches et de problèmes, voir [Nouvelles valeurs par défaut des tâches](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) dans [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Pour plus d’informations sur les préférences Tâches et problèmes, consultez la section [Nouvelles valeurs par défaut de la tâche](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) dans [ Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Le tableau suivant affiche la contrainte de tâche par défaut lors du choix de différentes variables pour votre projet et vos nouvelles tâches :
 
@@ -131,5 +131,5 @@ Le tableau suivant affiche la contrainte de tâche par défaut lors du choix de 
 |---|---|---|
 | Date de début | En fonction de la date prévue de projet | Aussi Tôt Que Possible |
 | Date de début | Aujourd’hui | Commencer Au Plus Tôt |
-| Date d&#39;achèvement | En fonction de la date prévue de projet | Aussi tard que possible |
+| Date d&#39;achèvement | En fonction de la date prévue de projet | Le plus tard possible |
 | Date d&#39;achèvement | Aujourd’hui | Commencer Au Plus Tard |

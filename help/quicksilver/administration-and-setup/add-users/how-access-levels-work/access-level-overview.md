@@ -13,7 +13,7 @@ exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
 source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ En tant qu’administrateur Adobe Workfront, vous attribuez un niveau d’accès
 
 Workfront dispose de 5 nouveaux niveaux d’accès intégrés :
 
-* Administrateur système
+* Administrateur ou administratrice système
 * Standard
 * Léger
 * Contributeur
@@ -46,7 +46,8 @@ Selon le niveau d’accès, jusqu’à 3 autorisations sont disponibles pour la 
         <td>Les utilisateurs peuvent examiner et partager l’objet Workfront</td>
     </tr>
     <tr>
-        <td>Pas d'accès</td>
+        <td>Pas d’accès
+</td>
         <td>Les utilisateurs ne peuvent pas accéder à l’objet Workfront</td>
     </tr>
 </table>
@@ -65,7 +66,7 @@ Les utilisateurs disposant du niveau d’accès Administrateur système peuvent 
 
 Ils ont également accès à la zone Configuration complète, dans laquelle ils peuvent modifier n’importe quel paramètre au niveau du système, et ils peuvent accéder à toutes les zones du menu principal.
 
-Pour plus d’informations, voir [Octroi d’un accès administratif complet à un utilisateur](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Pour plus d’informations, voir [Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ### Niveau d’accès standard
 
@@ -83,11 +84,11 @@ Pour plus d’informations, voir [Octroi d’un accès administratif complet à 
 >
 >Vous pouvez créer une version personnalisée du niveau d’accès standard intégré et ajuster la quantité d’accès qu’il permet aux différents types d’objets Workfront. Pour plus d’informations sur la création d’un niveau d’accès personnalisé, voir [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-#### **Détails de l’accès**
+#### **Accéder aux détails**
 
 Voici les paramètres d’accès les plus élevés disponibles pour les objets de niveau d’accès standard :
 
-| Type d’objet Workfront | Accès interdit | Accès aux vues | Modifier l’accès |
+| Type d’objet Workfront | Pas d’accès | Accès aux vues | Modifier l’accès |
 |---|---|---|---|
 | Projets |   |   | ✓ |
 | Tâches |   |   | ✓ |
@@ -129,7 +130,7 @@ Utilisateurs avec le niveau d’accès Clair :
 >
 >Vous pouvez créer une version personnalisée du niveau d’accès intégré à Light et ajuster la quantité d’accès qu’il permet aux différents types d’objets Workfront. Pour plus d’informations sur la création d’un niveau d’accès personnalisé, voir [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-#### **Détails de l’accès**
+#### **Accéder aux détails**
 
 Voici les paramètres d’accès les plus élevés disponibles pour les objets de niveau d’accès Clair :
 
@@ -141,7 +142,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
  <thead> 
   <tr> 
    <th>Type d’objet Workfront</th> 
-   <th>Accès interdit</th> 
+   <th>Pas d’accès</th> 
    <th>Accès aux vues</th> 
    <th>Modifier l’accès</th> 
   </tr> 
@@ -266,17 +267,17 @@ Utilisateurs disposant de ce niveau d’accès intégré :
 * Peut approuver des projets, des tâches et des problèmes
 * Peuvent examiner l’état des problèmes qu’ils ont envoyés.
 * Peut être affecté à des tâches, mais ne peut pas les terminer
-* Ne peuvent accéder aux requêtes que depuis le menu principal. Pour plus d’informations sur les files d’attente de requêtes, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Ne peuvent accéder aux requêtes que depuis le menu principal. Pour plus d’informations sur les files d’attente de requête, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
 >
 >Vous pouvez créer une version personnalisée du niveau d’accès intégré du contributeur et ajuster la quantité d’accès qu’il permet pour les différents types d’objets Workfront. Pour plus d’informations sur la création d’un niveau d’accès personnalisé, voir [Création ou modification de niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-#### **Détails de l’accès**
+#### **Accéder aux détails**
 
 Voici les paramètres d’accès les plus élevés disponibles pour les objets du niveau d’accès Contributeur :
 
-| Type d’objet Workfront | Accès interdit | Accès aux vues | Modifier l’accès |
+| Type d’objet Workfront | Pas d’accès | Accès aux vues | Modifier l’accès |
 |---|---|---|---|
 | Projet |   | ✓ |   |
 | Tâche |   | ✓ |   |
@@ -314,13 +315,13 @@ Vous ne pouvez pas modifier ce niveau d&#39;accès.
 
 >[!IMPORTANT]
 >
->L’option Utilisateur externe n’est disponible que si l’option &quot;Collaborer avec des personnes sans compte Workfront à l’aide de leur adresse électronique&quot; est activée dans la zone Préférences système de la section Configuration. Pour plus d’informations, voir [Configuration des préférences de sécurité système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>L’option Utilisateur externe n’est disponible que si l’option &quot;Collaborer avec des personnes sans compte Workfront à l’aide de leur adresse électronique&quot; est activée dans la zone Préférences système de la section Configuration. Pour plus d’informations, voir [Configuration des préférences de sécurité du système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-#### **Détails de l’accès**
+#### **Accéder aux détails**
 
 Voici les paramètres d’accès les plus élevés disponibles pour les objets du niveau d’accès Utilisateur externe .
 
-| Type d’objet Workfront | Accès interdit | Accès aux vues | Modifier l’accès |
+| Type d’objet Workfront | Pas d’accès | Accès aux vues | Modifier l’accès |
 |---|---|---|---|
 | Projet | ✓ |   |   |
 | Tâche | ✓ |   |   |
@@ -393,14 +394,14 @@ Les utilisateurs accèdent à des objets individuels lorsque d’autres utilisat
 
 Un utilisateur peut accorder au destinataire l’une des autorisations suivantes à l’objet individuel :
 
-* **Affichage**: ce niveau d&#39;autorisation permet au destinataire de partager l&#39;objet de l&#39;une des manières suivantes :
+* **Vue** : ce niveau d’autorisation permet au destinataire de partager l’objet de l’une des manières suivantes :
 
    * à l’échelle du système afin que tous les utilisateurs puissent le voir (non disponible pour tous les objets) ;
    * Avec les utilisateurs externes qui n’ont pas de licence Workfront (non disponible pour tous les objets)
    * Avec une adresse électronique (disponible uniquement pour les documents et les calendriers)
 
-* **Contribution**: (non disponible pour tous les objets)
-* **Gérer**: lorsque quelqu’un partage un objet, les droits du destinataire sur l’objet sont déterminés par une combinaison du niveau d’accès du destinataire et des autorisations accordées par le responsable du partage. Le niveau d’accès le plus bas disponible dans cette combinaison détermine ce que le destinataire peut faire avec l’objet.
+* **Contribute** : (non disponible pour tous les objets)
+* **Gérer** : lorsque quelqu’un partage un objet, les droits du destinataire sur l’objet sont déterminés par une combinaison du niveau d’accès du destinataire et des autorisations sur l’objet qui ont été accordées par le responsable du partage. Le niveau d’accès le plus bas disponible dans cette combinaison détermine ce que le destinataire peut faire avec l’objet.
 
 ### Exemples de scénarios
 

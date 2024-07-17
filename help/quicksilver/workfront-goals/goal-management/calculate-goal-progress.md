@@ -23,7 +23,7 @@ Votre entreprise doit disposer des éléments suivants pour utiliser les fonctio
 
      Ou
 
-     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans).
+     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans?lang=fr).
 
 * Pour le plan actuel et la structure de licence :
 
@@ -32,7 +32,7 @@ Votre entreprise doit disposer des éléments suivants pour utiliser les fonctio
 
 Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
 
-Pour plus d’informations sur l’accès aux objectifs de Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Pour plus d’informations sur l’accès aux objectifs Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront calcule automatiquement la progression de l’objectif en fonction de la progression de ses indicateurs de progression.
 
@@ -72,11 +72,11 @@ Les éléments suivants sont considérés comme des indicateurs de progression p
 
 * Activités
 
-  Pour plus d’informations sur l’ajout d’activités comprenant des projets à des objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Pour plus d’informations sur l’ajout d’activités comprenant des projets aux objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Objectifs pour les enfants
 
-  Pour plus d’informations sur les objectifs parents et enfants, voir [Alignement des objectifs en les connectant aux objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Pour plus d’informations sur les objectifs parents et enfants, voir [Aligner les objectifs en les connectant dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
   Workfront Goals calcule le pourcentage réel de réalisation à l’aide de la formule suivante :
 
@@ -150,14 +150,14 @@ Le tableau ci-dessous répertorie les libellés de condition d’objectif et les
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>À risque</span> </p> </td> 
+   <td> <p><span>En danger</span> </p> </td> 
    <td>L'objectif est à la traîne, mais il pourrait encore être possible de le réaliser à temps. </td> 
    <td>70 à 89,99 %</td> 
    <td>Jaune</td>
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risque_icon_condition.png"></td> 
   </tr> 
   <tr> 
-   <td> <p><span>En difficulté</span> </p> </td> 
+   <td> <p><span>En problème</span> </p> </td> 
    <td> <p>Il est très probable que l’objectif ne sera pas atteint à temps. </p> </td> 
    <td>0 à 69,99 %</td> 
    <td>Rouge</td> 

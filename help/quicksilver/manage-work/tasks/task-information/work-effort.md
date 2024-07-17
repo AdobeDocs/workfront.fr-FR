@@ -10,7 +10,7 @@ exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
 source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
 source-wordcount: '1505'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ En tant que chef de projet, vous pouvez décider comment estimer la quantité de
     <ul> 
      <li>Il s’agit de la méthode par défaut. </li> 
      <li>Vous pouvez mettre à jour manuellement les heures planifiées uniquement pour les tâches avec un type de durée d’affectation calculée ou simple. </li> 
-    </ul> <p>Pour plus d’informations sur les heures planifiées, voir <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Présentation des heures planifiées</a>. </p> </td> 
+    </ul> <p>Pour plus d’informations sur le nombre d’heures prévues, voir <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Vue d’ensemble du nombre d’heures prévues</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Effort de travail </td> 
@@ -73,9 +73,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Actuel : formule </p>
+   <td> <p>Actuelle : formule </p>
    Ou
-   <p>Nouveau : Standard </p>
+   <p>Nouvelle : standard </p>
     </td> 
   </tr> 
   <tr> 
@@ -95,37 +95,37 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Observations relatives à l’utilisation des efforts de travail
 
-* Lorsque les tâches du projet comportent 0 heure planifiée et que vous activez le paramètre Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche sur le projet, le niveau par défaut de l’effort de travail associé est Moyen. Les heures planifiées sont automatiquement mises à jour pour les tâches de type Durée simple . Pour plus d’informations, voir la section  [Niveaux de travail](#levels-of-work-effort) dans cet article.
-* Lorsque les tâches du projet comportent des heures planifiées supérieures à 0 et que vous activez le paramètre Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche sur le projet, le niveau de l’effort de travail est mis à jour en fonction du nombre d’heures planifiées sans modifier le nombre d’heures planifiées pour les tâches de type Durée simple. Pour plus d’informations, voir la section [Comment Workfront calcule l’effort de travail en fonction des heures planifiées](#how-workfront-calculates-work-effort-based-on-planned-hours) dans cet article.
-* Lorsque les tâches du projet comportent 0 heure planifiée et que vous activez le paramètre Utiliser l’effort de travail pour calculer automatiquement le nombre d’heures planifiées de la tâche sur le projet, puis mettez à jour le niveau de l’effort de travail de Moyen à Petit ou Grand, les heures planifiées sont également mises à jour. Pour plus d’informations, voir la section [Comment Workfront calcule les heures planifiées en fonction des efforts de travail](#how-workfront-calculates-planned-hours-based-on-work-effort) dans cet article.
+* Lorsque les tâches du projet comportent 0 heure planifiée et que vous activez le paramètre Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche sur le projet, le niveau par défaut de l’effort de travail associé est Medium. Les heures planifiées sont automatiquement mises à jour pour les tâches de type Durée simple . Pour plus d’informations, reportez-vous à la section [Niveaux d’effort de travail](#levels-of-work-effort) de cet article.
+* Lorsque les tâches du projet comportent des heures planifiées supérieures à 0 et que vous activez le paramètre Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche sur le projet, le niveau de l’effort de travail est mis à jour en fonction du nombre d’heures planifiées sans modifier le nombre d’heures planifiées pour les tâches de type Durée simple. Pour plus d’informations, reportez-vous à la section [Comment Workfront calcule l’effort de travail en fonction des heures planifiées](#how-workfront-calculates-work-effort-based-on-planned-hours) de cet article.
+* Lorsque les tâches du projet comportent 0 heure planifiée et que vous activez le paramètre Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche sur le projet, puis mettez à jour le niveau de l’effort de travail de Medium vers Petit ou Grand, les heures planifiées sont également mises à jour. Pour plus d’informations, reportez-vous à la section [Comment Workfront calcule les heures planifiées en fonction de l’effort de travail](#how-workfront-calculates-planned-hours-based-on-work-effort) de cet article.
 * Lorsque vous insérez des tâches de modification et modifiez simultanément les champs Heures planifiées et Effort de travail pour la tâche, les Heures planifiées sont mises à jour avec la valeur que vous indiquez, tandis que la valeur Effort de travail est calculée en fonction de vos Heures planifiées mises à jour.
-* Lorsque vous mettez à jour la valeur Effort de travail d’une tâche, la Durée ne se calcule plus automatiquement en fonction des Heures planifiées. Pour plus d’informations sur le calcul de la durée pour les tâches Durée simple, voir [Présentation du type de durée : simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+* Lorsque vous mettez à jour la valeur Effort de travail d’une tâche, la Durée ne se calcule plus automatiquement en fonction des Heures planifiées. Pour plus d’informations sur la façon dont la durée calcule pour les tâches de durée simple, voir [Présentation du type de durée : Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 * Lorsque vous changez le type de durée d’une tâche de Simple à n’importe quel autre type, le champ Effort de travail est masqué sur la tâche. Les heures prévues restent inchangées.
 * Vous ne pouvez pas mettre à jour le niveau Effort de travail sur une tâche parente. Le niveau de l’effort de travail d’une tâche mère est automatiquement calculé en fonction du nombre d’heures planifiées pour les tâches, qui est un cumul de toutes les tâches enfants. Pour plus d’informations sur les tâches parentes, voir [Création de sous-tâches](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 ## Activation de l’utilisation de l’effort de travail au lieu des heures planifiées
 
-1. Accédez à un projet et cliquez sur le bouton **Plus** menu ![](assets/more-icon.png), puis cliquez sur **Modifier**.
-1. Cliquez sur **Paramètres de tâche**, puis sélectionnez l’option **Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche**. Cette option est désélectionnée par défaut.
+1. Accédez à un projet et cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Modifier**.
+1. Cliquez sur **Paramètres de tâche**, puis sélectionnez l’option **Utiliser l’effort de travail pour calculer automatiquement la tâche Heures planifiées**. Cette option est désélectionnée par défaut.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
 
-   Pour plus d’informations sur l’activation de l’utilisation de l’effort de travail sur un projet, voir la section &quot;Paramètres des tâches&quot; dans la section [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md) article.
+   Pour plus d’informations sur l’activation de l’effort de travail sur un projet, consultez la section &quot;Paramètres des tâches&quot; de l’article [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md) .
 
-1. Cliquez sur **Tâche** dans le panneau de gauche , cliquez sur le nom d’une tâche pour y accéder.
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png), puis cliquez sur **Modifier**. Assurez-vous que la tâche possède un type de durée simple.
+1. Cliquez sur **Tâches** dans le panneau de gauche, puis cliquez sur le nom d’une tâche pour y accéder.
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis sur **Modifier**. Assurez-vous que la tâche possède un type de durée simple.
 
    >[!TIP]
    >
    >Vous pouvez également mettre à jour l’effort de travail d’une tâche dans la section Détails de la tâche .
 
-1. Dans le **Présentation** , cliquez sur le menu déroulant Effort de travail pour corriger la quantité d’effort nécessaire pour terminer la tâche.
+1. Dans la zone **Overview**, cliquez sur le menu déroulant Work Effort (Effort de travail) pour corriger le volume d’effort nécessaire pour terminer la tâche.
 
    ![](assets/work-effort-on-edit-task-page-350x239.png)
 
    Pour plus d’informations sur la mise à jour du champ Effort de travail sur une tâche, consultez les articles suivants :
 
-   * La section &quot;Aperçu&quot; de la variable [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md) article
+   * La section &quot;Aperçu&quot; de l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
    * [Gérer les informations des tâches dans la zone Vue d’ensemble des détails de la tâche](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Niveaux de travail {#levels-of-work-effort}
@@ -136,7 +136,7 @@ Lors de la configuration du niveau d’effort de travail, vous devez vous poser 
 
 Le tableau suivant illustre les niveaux possibles de l’effort de travail et leurs pourcentages correspondants par défaut. En tant que chef de projet, vous pouvez mettre à jour les pourcentages en fonction des besoins de votre entreprise. Vous procédez comme suit lorsque vous modifiez un projet. Pour plus d’informations sur la modification de projets, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-En tant qu’administrateur Workfront, vous définissez les heures types par jour de travail dans la zone Préférences du projet de la section Configuration. Il s’agit de la durée journalière considérée comme temps de travail. Pour plus d’informations sur la configuration des préférences de projet pour votre instance de Workfront, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+En tant qu’administrateur Workfront, vous définissez les heures types par jour de travail dans la zone Préférences du projet de la section Configuration. Il s’agit de la durée journalière considérée comme temps de travail. Pour plus d’informations sur la configuration des préférences du projet pour votre instance de Workfront, voir [ Configuration des préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 >[!NOTE]
 >
@@ -156,7 +156,7 @@ En tant qu’administrateur Workfront, vous définissez les heures types par jou
   </tr> 
   <tr> 
    <td>Moyen</td> 
-   <td> <p>Un niveau d’effort moyen pour terminer une tâche est défini sur 50 % des heures types par jour de travail. Cela signifie qu’une tâche affectée à ce niveau d’effort de travail devrait prendre plus de 2 heures et moins de 6 heures en une seule journée. <code>(0.50*80=4)</code> </p> <p>Remarque : Lorsque le paramètre Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche est activé sur le projet, il s’agit du paramètre par défaut pour une tâche, si la tâche avait 0 heure planifiée avant l’activation de ce paramètre. La tâche Heures planifiées passe alors à 4 heures. </p> </td> 
+   <td> <p>Un niveau Medium d’effort pour terminer une tâche est défini sur 50 % des heures types par jour de travail. Cela signifie qu’une tâche affectée à ce niveau d’effort de travail devrait prendre plus de 2 heures et moins de 6 heures en une seule journée. <code>(0.50*80=4)</code> </p> <p>Remarque : Lorsque le paramètre Utiliser l’effort de travail pour calculer automatiquement les heures planifiées de la tâche est activé sur le projet, il s’agit du paramètre par défaut pour une tâche, si la tâche avait 0 heure planifiée avant l’activation de ce paramètre. La tâche Heures planifiées passe alors à 4 heures. </p> </td> 
   </tr> 
   <tr> 
    <td>Grande</td> 
@@ -173,7 +173,7 @@ Lorsque vous activez le paramètre Utiliser l’effort de travail pour calculer 
 Task Planned Hours = Number of days in task Duration * Work Effort percentage * Typical hours per work day
 ```
 
-Par exemple, une tâche avec une durée de 3 jours et un effort de travail de moyenne comporte 12 heures planifiées :
+Par exemple, une tâche avec une durée de 3 jours et un effort de travail de Medium comporte 12 heures planifiées :
 
 ```
 Planned Hours = 3*4=12
@@ -195,7 +195,7 @@ Workfront utilise la formule suivante pour mettre à jour le niveau de l’effor
 Work Effort level = Task Planned Hours / Duration / Typical hours per work day
 ```
 
-Par exemple, si vous avez une tâche avec une durée de 2 jours et que vous mettez à jour les heures planifiées de 8 à 20 heures, l’effort de travail de la tâche est mis à jour de Moyen à Grand :
+Par exemple, si vous avez une tâche avec une durée de 2 jours et que vous mettez à jour les Heures planifiées de 8 à 20 heures, l’effort de travail de la tâche est mis à jour de Medium vers Large :
 
 ```
 Work Effort level = 20 / 2 / 8 = 125 % = Large

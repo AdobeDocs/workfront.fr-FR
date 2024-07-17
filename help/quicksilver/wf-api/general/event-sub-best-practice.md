@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: Bonnes pratiques relatives à l’abonnement aux événements
-description: Bonnes pratiques relatives à l’abonnement aux événements
+title: Bonnes pratiques en matière d’abonnement aux événements
+description: Bonnes pratiques en matière d’abonnement aux événements
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,14 +10,14 @@ exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Bonnes pratiques relatives à l’abonnement aux événements
+# Bonnes pratiques en matière d’abonnement aux événements
 
-Les messages d’abonnement à un événement Adobe Workfront sont automatiquement envoyés depuis Workfront une fois que vous avez correctement configuré votre service et créé un abonnement à un événement pour déclencher ces diffusions de messages. Pour en savoir plus sur la configuration correcte des abonnements à un événement, voir [Exigences de diffusion de l’abonnement à un événement](../../wf-api/general/setup-event-sub-endpoint.md).
+Les messages d’abonnement à un événement Adobe Workfront sont automatiquement envoyés depuis Workfront une fois que vous avez correctement configuré votre service et créé un abonnement à un événement pour déclencher ces diffusions de messages. Pour en savoir plus sur la configuration correcte des abonnements à un événement, voir [Conditions de diffusion d’un abonnement à un événement](../../wf-api/general/setup-event-sub-endpoint.md).
 
 
 Vous trouverez ci-dessous quelques bonnes pratiques pour vous aider à créer efficacement des abonnements à un événement.
@@ -32,7 +32,7 @@ N’incluez pas de champs de corps supplémentaires dans la requête, car cela e
 
 ## Terminer le test dans la période de grâce
 
-Essayez d’effectuer tous les tests d’abonnement pendant la période de grâce de 100 messages. Pour en savoir plus sur cette période de grâce, voir [Questions fréquentes - Abonnements à un événement](../../wf-api/general/event-subs-faq.md).
+Essayez d’effectuer tous les tests d’abonnement pendant la période de grâce de 100 messages. Pour en savoir plus sur cette période de grâce, consultez la [FAQ - Abonnements à des événements](../../wf-api/general/event-subs-faq.md).
 
 ## Respectez les exigences de diffusion des messages d’abonnement à un événement standard.
 
@@ -46,8 +46,8 @@ Pour recevoir les payloads d’abonnement aux événements par le biais de votre
 
 Pour créer, interroger ou supprimer un abonnement à un événement, votre utilisateur Workfront a besoin des éléments suivants :
 
-* Un niveau d’accès à **Administrateur système**
-Pour en savoir plus, voir [Octroi d’un accès administratif complet à un utilisateur](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) ou [Octroi aux utilisateurs un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Un niveau d’accès de **Administrateur système**
+Pour en savoir plus, voir [Octroi à un utilisateur d’un accès administratif complet](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) ou [Octroi aux utilisateurs d’un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Une clé API
 

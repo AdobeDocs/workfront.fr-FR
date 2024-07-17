@@ -21,7 +21,7 @@ Lorsque vous déplacez ou copiez une tâche ou un problème vers un autre projet
 
 * Si un état de la tâche ou du problème possède la même clé qu’un état utilisé par le groupe du projet de destination, l’état de la tâche ou du problème reste le même.
 
-   Si le libellé de ces deux états ne correspond pas, l’état de la tâche ou du problème hérite du libellé de l’état utilisé par le groupe du projet de destination.
+  Si le libellé de ces deux états ne correspond pas, l’état de la tâche ou du problème hérite du libellé de l’état utilisé par le groupe du projet de destination.
 
 * Si un état de la tâche ou du problème n’a pas le même état que l’état équivalent dans le groupe du projet de destination, l’état de la tâche ou du problème passe à l’état par défaut équivalent dans le groupe du projet de destination.
 

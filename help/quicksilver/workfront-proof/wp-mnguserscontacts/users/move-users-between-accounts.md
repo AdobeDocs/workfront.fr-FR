@@ -2,34 +2,34 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: Déplacement d’utilisateurs entre plusieurs comptes à l’aide de [!DNL Workfront Proof]
-description: Si vous êtes un [!DNL Workfront Proof] et que vous disposez d’un ou de plusieurs comptes satellites connectés à votre compte principal, vous pouvez déplacer les utilisateurs entre tous ces comptes.
+title: Déplacer des utilisateurs entre les comptes à l’aide de  [!DNL Workfront Proof]
+description: Si vous êtes administrateur  [!DNL Workfront Proof] et qu'un ou plusieurs comptes satellites sont connectés à votre compte principal, vous pouvez déplacer les utilisateurs entre tous ces comptes.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
-# Déplacement d’utilisateurs entre plusieurs comptes à l’aide de [!DNL Workfront Proof]
+# Déplacer des utilisateurs entre des comptes à l’aide de [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome. [!DNL Workfront Proof]. Pour plus d’informations sur la vérification à l’intérieur [!DNL Adobe Workfront], voir [Vérification](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Si vous êtes un [!DNL Workfront] Administrateur BAT et compte un ou plusieurs comptes satellites connectés à votre compte principal, vous pouvez déplacer les utilisateurs entre tous ces comptes.
+Si vous êtes administrateur de BAT [!DNL Workfront] et qu&#39;un ou plusieurs comptes satellites sont connectés à votre compte principal, vous pouvez déplacer les utilisateurs entre tous ces comptes.
 
 ## Déplacement d’utilisateurs entre des comptes connectés
 
 1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres du compte]**.
 
-1. Ouvrez le **[!UICONTROL Utilisateurs]** .
-1. Cliquez sur le bouton **[!UICONTROL Déplacer l’utilisateur]** (1). ![Move_user2.png](assets/move-user2-350x95.png)
+1. Ouvrez l’onglet **[!UICONTROL Utilisateurs]** .
+1. Cliquez sur l’icône **[!UICONTROL Déplacer l’utilisateur]** (1). ![Move_user2.png](assets/move-user2-350x95.png)
 
-1. Dans la zone Déplacer l’utilisateur qui s’affiche, confirmez l’utilisateur que vous souhaitez déplacer (1).
+1. Dans la zone Déplacer l’utilisateur qui s’affiche, confirmez l’utilisateur à déplacer (1).
 1. Sélectionnez un compte de destination dans la liste des comptes connectés (2).
 1. Attribuez l’autorisation de profil (3) que cet utilisateur doit posséder sur le nouveau compte.
 1. Sélectionnez un utilisateur (4) qui doit prendre en charge les éléments qui ne seront pas déplacés.
@@ -80,7 +80,7 @@ Les groupes devront être recréés par l’utilisateur déplacé sur son nouvea
 
 ### Vues personnalisées
 
-Les vues personnalisées personnelles devront être recréées par l’utilisateur déplacé sur son nouveau compte. Pour plus d’informations, voir [Création et gestion des vues personnalisées dans [!DNL Workfront Proof] Bon à tirer](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Les vues personnalisées personnelles devront être recréées par l’utilisateur déplacé sur son nouveau compte. Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans [!DNL Workfront Proof] Bon à tirer](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ### Champs personnalisés
 

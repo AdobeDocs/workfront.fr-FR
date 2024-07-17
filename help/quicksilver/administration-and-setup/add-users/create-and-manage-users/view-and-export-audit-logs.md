@@ -1,5 +1,5 @@
 ---
-title: Affichage et exportation des journaux d’audit
+title: Afficher et exporter les journaux d’audit
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -10,12 +10,12 @@ role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 0%
+source-wordcount: '325'
+ht-degree: 21%
 
 ---
 
-# Affichage et exportation des journaux d’audit
+# Afficher et exporter les journaux d’audit
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
@@ -27,31 +27,31 @@ Les journaux d’audit répertorient les modifications utilisateur déclenchées
 
 Pour plus d’informations sur tous les types de journaux d’audit et sur leur génération, voir [Journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Les étapes de cet article doivent être les suivantes :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
-   <td>Tous</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Plan </p> <p>Vous devez être un administrateur Workfront.</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Plan </p> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Afficher les journaux d’audit
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
 1. Dans le panneau de gauche, cliquez sur **Système > Journaux d’audit**.
-1. Dans le **Type de journal** , sélectionnez le type de journal d’audit à afficher.
+1. Dans le menu déroulant **Type de journal**, sélectionnez le type de journal d’audit à afficher.
 
    **Tous les types de journaux** est sélectionné par défaut.
 
@@ -70,18 +70,18 @@ Les étapes de cet article doivent être les suivantes :
 
 ## Exportation des journaux d’audit
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
 1. Dans le panneau de gauche, cliquez sur **Système > Journaux d’audit**.
 
-1. Dans le **Type de journal** , sélectionnez un journal d’audit.
+1. Dans le menu déroulant **Type de journal**, sélectionnez un journal d’audit.
 
    **Tous les types de journaux** est sélectionné par défaut.
 
-1. Définissez l’un des filtres disponibles, puis cliquez sur **Appliquer**.
+1. Définissez les filtres disponibles, puis cliquez sur **Appliquer**.
 
    >[!IMPORTANT]
    >
    >Vous ne pouvez pas exporter plus de 50 000 logs à la fois. Workfront exporte les journaux en fonction des filtres que vous définissez, et non du nombre de journaux affichés sur la page. Vous pouvez afficher le nombre total de journaux filtrés dans le coin inférieur droit de la page.
 
-1. Cliquez sur **Exporter**.
+1. Cliquez sur **Export**.

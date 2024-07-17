@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de version 2018.3 bêta 2
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 bêta 2. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 1er août 2018. Les améliorations de la vérification avec la version bêta 2 seront disponibles dans l’environnement Aperçu le mercredi 18 juillet. Il sera disponible dans l’environnement de production en novembre 2018.
+title: Activité Version 2018.3, version bêta 2
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 de Beta 2. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 1er août 2018. Les améliorations de la vérification avec Beta 2 seront disponibles dans l’environnement Aperçu le mercredi 18 juillet. Il sera disponible dans l’environnement de production en novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,34 +10,34 @@ exl-id: 97945661-e97d-43c8-b564-624c4388de2f
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Activité de version 2018.3 bêta 2
+# Activité Version 2018.3, version bêta 2
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 bêta 2. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 1er août 2018. Les améliorations de la vérification avec la version bêta 2 seront disponibles dans l’environnement Aperçu le mercredi 18 juillet. Il sera disponible dans l’environnement de production en novembre 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2018.3 de Beta 2. Cette fonctionnalité sera disponible dans l’environnement Aperçu le 1er août 2018. Les améliorations de la vérification avec Beta 2 seront disponibles dans l’environnement Aperçu le mercredi 18 juillet. Il sera disponible dans l’environnement de production en novembre 2018.
 
 >[!NOTE]
 >
 > Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2018.3, voir  [Présentation de l’activité de la version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version 2018.3, voir  [Présentation de l’activité de version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La version 2018.3 bêta 2 contient des améliorations à la fois pour les administrateurs de Workfront et pour les autres utilisateurs :
+La version 2018.3 de Beta 2 contient des améliorations tant pour les administrateurs de Workfront que pour d’autres utilisateurs :
 
 **Pour les administrateurs**
 
 * [Mettre à jour l’adresse électronique dans le profil utilisateur en tant qu’administrateur de groupe](#update-the-email-address-in-the-user-profile-as-a-group-administrator)
 
-**Pour tous les utilisateurs**
+**Pour Tous Les Utilisateurs**
 
-* [Afficher les approbations qui m’ont été déléguées dans la zone d’accueil](#view-approvals-delegated-to-me-in-the-home-area)
+* [Afficher les approbations déléguées à moi dans la zone d’accueil](#view-approvals-delegated-to-me-in-the-home-area)
 * [Exporter des données pour une période donnée dans le planificateur de ressources](#export-data-for-a-given-period-in-the-resource-planner)
-* [Les totaux quotidiens s’affichent maintenant en rouge lorsque l’utilisateur est suralloué.](#daily-totals-now-display-in-red-when-the-user-is-overallocated)
-* [Les tâches et les problèmes sont masqués dans la chronologie de planification lorsque celle-ci est réduite](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
+* [Les totaux quotidiens s’affichent maintenant en rouge lorsque l’utilisateur est suralloué](#daily-totals-now-display-in-red-when-the-user-is-overallocated)
+* [Les tâches et les problèmes sont masqués dans la chronologie de planification lorsqu’ils sont minimisés](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
 * [Filtrage des commentaires et réponses par utilisateur dans la visionneuse de vérification](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
-* [Commentaire sur une plage de images dans un bon à tirer vidéo](#comment-on-a-range-of-footage-in-a-video-proof)
+* [Commentaire sur une plage de vidéos dans un bon à tirer vidéo](#comment-on-a-range-of-footage-in-a-video-proof)
 * [Nouvel outil polyligne pour le balisage des commentaires dans la visionneuse de vérification](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
 * [Suppression de Flashs pour le partage de rapports, de calendriers et de documents](#flash-removal-for-report-calendar-and-document-sharing)
 
@@ -63,7 +63,7 @@ Une nouvelle fenêtre s’affiche maintenant lors de l’export des informations
 
 Avant cette amélioration, vous ne pouviez exporter que les informations affichées à l’écran.
 
-Pour plus d’informations sur l’exportation de données à partir du planificateur de ressources, voir [Présentation de la navigation de Resource Planner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) dans l’article [Présentation de la navigation de Resource Planner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Pour plus d’informations sur l’exportation de données à partir du planificateur de ressources, consultez la [présentation de la navigation du planificateur de ressources](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) dans l’article [ ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Les totaux quotidiens s’affichent maintenant en rouge lorsque l’utilisateur est suralloué. {#daily-totals-now-display-in-red-when-the-user-is-overallocated}
 
@@ -81,7 +81,7 @@ Lorsque vous réduisez les tâches et les problèmes de votre chronologie de pla
 
 Auparavant, lors de la réduction des tâches et des problèmes, les tâches et les problèmes restaient dans la chronologie de planification des utilisateurs et des rôles, mais s’affichaient dans une vue compressée.
 
-Pour plus d’informations sur la réduction des tâches et des problèmes dans la chronologie de la planification, voir &quot;Prise en main de la planification des ressources&quot;.
+Pour plus d’informations sur la réduction des tâches et des problèmes dans la chronologie de planification, voir  &quot;Prise en main de la planification des ressources&quot;.
 
 ## Filtrage des commentaires et réponses par utilisateur dans la visionneuse de vérification {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 

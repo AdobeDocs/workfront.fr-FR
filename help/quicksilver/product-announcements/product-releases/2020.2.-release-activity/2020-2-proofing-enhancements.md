@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: 2020.2 Améliorations de la vérification
+title: Améliorations de la relecture (version 2020.2)
 description: Cette page décrit toutes les améliorations de la vérification des performances apportées à la version 2020.2 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 mai 2020.
 author: Luke
 feature: Product Announcements, Workfront Proof
@@ -10,15 +10,15 @@ exl-id: 021c6e0c-3593-40f7-8eeb-7e016001893e
 source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 2020.2 Améliorations de la vérification
+# Améliorations de la relecture (version 2020.2)
 
 Cette page décrit toutes les améliorations de la vérification des performances apportées à la version 2020.2 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 mai 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.2, voir [Présentation de la version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.2, consultez la [présentation de la version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Le domaine de vérification passe de proofhq.com à workfront.com.
 
@@ -30,11 +30,11 @@ Si votre pare-feu ou votre serveur de messagerie est configuré pour autoriser l
 
 &#42;.workfront.com
 
-La variable &#42;proofhq.com L’URL est également requise.
+L’URL &#42;proofhq.com est également requise.
 
 Pour plus d’informations sur la mise à jour de votre liste autorisée, voir [Configuration de la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-Cette mise à jour s’applique uniquement à la vérification dans Workfront ; elle ne s’applique pas lors de l’utilisation de l’application autonome BAT Workfront.
+Cette mise à jour s’applique uniquement à la correction d’épreuves dans Workfront ; elle ne s’applique pas lors de l’utilisation de l’application autonome Workfront Proof.
 
 ## Les commentaires de vérification des invités apparaissent dans la zone Mises à jour .
 

@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Version finale de la version bêta 2017.2
+title: Activité Version 2017.2, version bêta finale
 description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2017.2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 28 juin 2017. Il sera disponible dans l’environnement de production le 26 juillet 2017.
 author: Luke
 feature: Product Announcements
@@ -10,11 +10,11 @@ exl-id: 768e9aad-d7e7-4a3c-9f93-926cf588ddc7
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '2314'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Version finale de la version bêta 2017.2
+# Activité Version 2017.2, version bêta finale
 
 Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement Aperçu avec la version 2017.2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement Aperçu le 28 juin 2017. Il sera disponible dans l’environnement de production le 26 juillet 2017.
 
@@ -22,38 +22,38 @@ Cette page décrit toutes les modifications les plus récentes disponibles dans 
 >
 >Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2017.2, voir [Présentation de l’activité de la version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées en 2017.2, consultez la [présentation de l’activité de version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-La version finale de la version bêta 2017.2 contient des améliorations à la fois pour les administrateurs de Workfront et pour les autres utilisateurs :
+La version finale de Beta 2017.2 contient des améliorations à la fois pour les administrateurs de Workfront et pour d’autres utilisateurs :
 
 **Pour les administrateurs :**
 
 * [Déterminer la disponibilité de la visionneuse de vérification vidéo HTML5 (ProofHQ et Workfront)](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
 * [Prise en charge des certificats SHA-256 pour SAML 2.0](#support-sha-256-certificates-for-saml-2-0)
-* [Type anticipé des attributs de mappage](#type-ahead-for-mapping-attributes)
+* [Type-Ahead pour les attributs de mappage](#type-ahead-for-mapping-attributes)
 * [Amélioration de l’API : accès aux affectations des utilisateurs](#api-enhancement-access-user-allocations)
 
-**Pour tous les utilisateurs :**
+**Pour Tous Les Utilisateurs :**
 
 * [Planificateur de ressources](#resource-planner)
 * [Nouvelle zone de planification dans un projet (créateur d’équipes)](#new-scheduling-area-in-a-project-team-builder)
 * [Planification des ressources : afficher moins d’éléments par défaut](#resource-scheduling-show-fewer-items-by-default)
-* [Planification des ressources : affichez l’indicateur de dépôt et la surallocation lors du glissement de tâches et de problèmes](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
+* [Planification des ressources : afficher l’indicateur de dépôt et la surallocation lors du glissement de tâches et de problèmes](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
 * [Planification des ressources : les affectations des utilisateurs ne sont plus arrondies à la demi-heure la plus proche](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
-* [Exporter le rapport Utilisation au format TSV et PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
-* [Version finale de la version bêta 2017.2](#user-calendar-enhancements-in-the-my-work-area%22)
-* [Version finale de la version bêta 2017.2](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
-* [Affichage d’une décision de preuve dans la zone de travail Mon travail (Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
-* [Affichage des bons à tirer pour les médias riches dans des résolutions de paramètres prédéfinis (BATHQ et Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
-* [Afficher l’URL des sous-pages dans les commentaires sur les bons à tirer du contenu multimédia enrichi (BATHQ et Workfront)](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
+* [Exporter le rapport d’utilisation au format TSV et PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
+* [Version finale de Beta 2017.2](#user-calendar-enhancements-in-the-my-work-area%22)
+* [Version finale de Beta 2017.2](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
+* [Affichage d’une décision de BAT dans la zone de travail Mon travail (Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
+* [ Afficher les bons à tirer pour les médias riches dans les résolutions de paramètres prédéfinis (BATHQ et Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
+* [Afficher l’URL vers les sous-pages dans les commentaires sur les bons à tirer de médias riches (ProofHQ et Workfront)](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
 * [Créer des vues personnalisées basées sur des vues standard existantes (ProofHQ)](#create-custom-views-based-on-existing-standard-views-proofhq)
-* [Filtrage de la zone de création de rapports (ProofHQ)](#filter-the-reporting-area-proofhq)
-* [Affichage des valeurs minimales et maximales dans les rapports (ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
+* [Filtrer la zone de création de rapports (ProofHQ)](#filter-the-reporting-area-proofhq)
+* [Afficher les valeurs minimale et maximale dans les rapports (ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
 * [Notification In-App pour approbation de BAT](#in-app-notification-for-proof-approval)
-* [Améliorations des périphériques mobiles](#mobile-improvements)
+* [Améliorations mobiles](#mobile-improvements)
 * [Barre oblique ajoutée au filtre des instructions pour les valeurs de champ contenant des virgules](#slash-added-to-filter-statements-for-field-values-that-contain-commas)
-* [Taux de facturation multiples](#multiple-billing-rates)
-* [Nouveau champ d’heure budgété des ressources](#new-resource-budgeted-hour-field)
+* [Plusieurs taux de facturation](#multiple-billing-rates)
+* [ Nouveau Champ D’Heure Budgété De Ressource ](#new-resource-budgeted-hour-field)
 * [Afficher le rôle de la tâche utilisateur dans la zone &quot;Affectée à&quot; de la page Détails pour les tâches et les problèmes](#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues)
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Vous pouvez désormais exporter le rapport d’utilisation d’un projet aux for
 
 Avant cette modification, vous ne pouviez exporter le rapport d’utilisation qu’au format XLSX.
 
-Pour plus d’informations sur l’exportation du rapport Utilisation, voir [Présentation du rapport Utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Présentation du rapport Utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Pour plus d’informations sur l’exportation du rapport d’utilisation, voir [Présentation du rapport d’utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) dans [Présentation du rapport d’utilisation des ressources](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Affichage d’une décision de preuve dans la zone de travail Mon travail (Workfront) {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -131,7 +131,7 @@ Désormais, lorsque vous affichez les validations de vérification dans l’ongl
 
 Avant cette modification, rien n’indiquait qu’une décision avait déjà été prise sur le BAT et le BAT restait dans l’onglet Mes approbations jusqu’à ce que vous actualisiez le navigateur.
 
-Pour plus d’informations, voir [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Pour plus d’informations, voir [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) dans [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Affichage des bons à tirer pour les médias riches dans des résolutions de paramètres prédéfinis (BATHQ et Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -155,7 +155,7 @@ Pour plus d’informations, voir
 
 ## Déterminer la disponibilité de la visionneuse de vérification vidéo HTML5 (ProofHQ et Workfront) {#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront}
 
-En tant qu’administrateur Workfront dans BATHQ, vous pouvez déterminer si les utilisateurs de votre entreprise ont accès à la nouvelle visionneuse de vérification de performance HTML5 pour les bons à tirer vidéo.
+En tant qu’administrateur Workfront dans BATHQ, vous pouvez déterminer si les utilisateurs de votre entreprise ont accès à la nouvelle visionneuse de vérification de l’HTML5 pour obtenir des bons à tirer.
 
 Pour plus d’informations sur la configuration de cette option dans Workfront, voir .
 
@@ -165,19 +165,19 @@ Vous pouvez désormais créer une vue personnalisée basée sur une vue standard
 
 Avant cette modification, pour créer une vue personnalisée, vous deviez créer la vue à partir de zéro. 
 
-Pour plus d’informations, voir [Création d’une vue personnalisée](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) in [Créer et gérer des vues personnalisées dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Pour plus d’informations, voir [Création d’une vue personnalisée](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) dans [Création et gestion des vues personnalisées dans le BAT Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Filtrage de la zone de création de rapports (ProofHQ) {#filter-the-reporting-area-proofhq}
 
 Par défaut, les données affichées dans l’onglet Rapports incluent toutes les informations de votre système BATHQ. Vous pouvez désormais utiliser des filtres pour afficher uniquement les informations pertinentes à vos besoins. 
 
-Pour plus d’informations, voir [Filtrage des rapports](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in  [Exécution de rapports dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Pour plus d’informations, voir [Filtrage des rapports](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) dans  [Exécuter des rapports dans Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Affichage des valeurs minimales et maximales dans les rapports (ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 Vous pouvez désormais configurer l’affichage des valeurs minimale et maximale dans le graphique lors de l’affichage des rapports.
 
-Pour plus d’informations, voir [Affichage des rapports](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [Exécution de rapports dans le BAT Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Pour plus d’informations, voir [Affichage des rapports](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) dans  [Exécuter des rapports dans Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Prise en charge des certificats SHA-256 pour SAML 2.0 {#support-sha-256-certificates-for-saml-2-0}
 
@@ -203,7 +203,7 @@ SAML 1.1 ne prend pas en charge le mappage des attributs.
 >
 > L&#39;application mobile est libérée indépendamment de l&#39;application Workfront principale. Les fonctionnalités décrites dans cette section ont été publiées au début du mois d’août.
 
-Les fonctionnalités suivantes ont été ajoutées sur les applications mobiles, pour les plateformes Android et iOS :
+Les nouvelles fonctionnalités suivantes s’affichent sur les applications mobiles, pour les plateformes Android et iOS :
 
 * Envoi de requêtes depuis l’application mobile
 * Nouvelle entrée de la feuille de temps sur l’application mobile
@@ -212,7 +212,7 @@ Les fonctionnalités suivantes ont été ajoutées sur les applications mobiles,
 
 Il y aura un programme bêta public pour certaines de ces fonctionnalités pour la plateforme Android.
 
-Pour plus d’informations sur le programme bêta à venir pour mobile, voir  [&quot;Betas&quot;](https://support.workfront.com/hc/en-us/sections/115000743248) page.
+Pour plus d’informations sur le programme bêta à venir pour mobile, voir  Page [&quot;Betas&quot;](https://support.workfront.com/hc/en-us/sections/115000743248).
 
 Pour plus d’informations sur l’utilisation de l’application mobile Workfront, voir .  
 
@@ -221,7 +221,7 @@ Pour plus d’informations sur l’utilisation de l’application mobile Workfro
 Lors de la création d’un filtre en mode texte et du filtrage des valeurs de champ contenant des virgules, vous devez ajouter une barre oblique (&quot;/&quot;) avant la virgule qui sépare les valeurs, afin de vous assurer que la valeur est lue comme une option de filtre. Cela s’applique uniquement aux types de champ suivants :
 
 * Liste déroulante
-* Boutons radio
+* Cases d’option
 * Cases à cocher
 
 Avant cette modification, vous ne pouviez pas filtrer les champs contenant des virgules.
@@ -248,17 +248,17 @@ Avec cette version, nous proposons la première phase du planificateur de ressou
 * Ecart horaire (entre les heures budgétisées et les heures planifiées)
 * Différence Heure nette (entre les Heures disponibles et les Heures budgétisées)
 
-Pour plus d’informations sur l’utilisation du planificateur de ressources, voir [Présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur l’utilisation du planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Nouveau champ d’heure budgété des ressources {#new-resource-budgeted-hour-field}
 
 Pour prendre en charge la nouvelle fonctionnalité de planification et le planificateur de ressources, un nouveau champ a été ajouté au créateur de rapports, qui vous permet de créer des rapports sur les heures budgétaires de la ressource. Ce champ capture le nombre d’heures prévu pour une ressource dans un projet. Ce champ n’est pas disponible lors de la planification des ressources à l’aide de la fonctionnalité de planification des ressources héritée.
 
-Pour plus d’informations sur l’utilisation des heures planifiées dans le planificateur de ressources, voir [Présentation de Resource Planner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur l’utilisation des heures budgétées dans le planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Notification In-App pour approbation de BAT {#in-app-notification-for-proof-approval}
 
-Lorsque vous êtes désigné comme approbateur pour un BAT, vous recevez une notification in-app sur l’approbation du BAT en attendant votre décision. La notification affiche le texte suivant : `<User name>` veut que tu approuves ce BAT&quot;. Si les informations utilisateur ne sont pas disponibles, la notification passe à &quot;Ce BAT nécessite votre approbation&quot;.
+Lorsque vous êtes désigné comme approbateur pour un BAT, vous recevez une notification in-app sur l’approbation du BAT en attendant votre décision. La notification affiche le texte suivant : `<User name>` souhaite que vous approuviez ce BAT&quot;. Si les informations utilisateur ne sont pas disponibles, la notification passe à &quot;Ce BAT nécessite votre approbation&quot;.
 
 Avant cette amélioration, la seule indication visuelle selon laquelle vous étiez désigné comme approbateur sur un BAT était une nouvelle demande de BAT dans votre zone Mon travail.
 

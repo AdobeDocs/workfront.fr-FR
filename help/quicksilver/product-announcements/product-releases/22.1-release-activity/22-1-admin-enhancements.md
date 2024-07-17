@@ -1,6 +1,6 @@
 ---
-title: 2.1 Améliorations apportées aux administrateurs
-description: 2.1 Améliorations apportées aux administrateurs
+title: Améliorations apportées à l’administration (version 22.1)
+description: Améliorations apportées à l’administration (version 22.1)
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
@@ -9,11 +9,11 @@ exl-id: 63ff1334-aebe-4df4-a855-10011707808b
 source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
 source-wordcount: '1505'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 2.1 Améliorations apportées aux administrateurs
+# Améliorations apportées à l’administration (version 22.1)
 
 Cette page décrit toutes les améliorations apportées par l’administrateur à la version 22.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
 
@@ -25,7 +25,7 @@ in January 2022
 
 la semaine du 17 janvier 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, voir [Présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, consultez la [présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Téléchargements de documents connectés dans la zone Mises à jour
 
@@ -35,7 +35,7 @@ Pour aider vos utilisateurs à effectuer le suivi des téléchargements de docum
 >
 >Nous vous recommandons de tester cette fonctionnalité dans l’aperçu d’un nouveau document téléchargé.
 
-Pour plus d’informations sur la façon dont Workfront consigne les mises à jour automatiques des objets, voir [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Pour plus d’informations sur la façon dont Workfront consigne les mises à jour automatiques sur les objets, voir [ Mises à jour trackées par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 ## Accorder l’accès aux équipes à l’aide des niveaux d’accès
 
@@ -108,7 +108,7 @@ Pour plus d’informations, voir [Gestion des appartenances à une entreprise](.
 
 Nous continuons à faciliter la création d’un champ calculé dans un formulaire personnalisé. Désormais, lorsque vous cliquez sur Maximiser pour ouvrir le nouvel éditeur de calcul, vous pouvez rechercher et sélectionner les expressions et les champs dont vous avez besoin.
 
-Pour plus d’informations, voir [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Pour plus d’informations, voir [Ajouter des données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Les groupes peuvent configurer leurs propres préférences de feuille de temps et d’heure.
 
@@ -120,9 +120,9 @@ Dans une grande entreprise, certains groupes peuvent avoir besoin de configurer 
 
 Cette fonctionnalité a également été ajoutée récemment pour les préférences de projet et de tâche et de problème.
 
-Pour plus d’informations sur la façon dont un administrateur Workfront déverrouille une feuille de temps et des préférences d’heure, consultez la section . [Déverrouiller les préférences de feuille de temps et d’heure pour les groupes ;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) dans l’article [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Pour plus d’informations sur la façon dont un administrateur Workfront déverrouille une feuille de temps et des préférences d’heure, reportez-vous à la section [ Déverrouiller les préférences d’heure et d’heure pour les groupes](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) de l’article [ Configuration des préférences d’heure et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Pour plus d’informations sur la façon dont un administrateur de groupe configure une tâche déverrouillée et les préférences de problème pour un groupe, voir [Configuration des préférences de feuille de temps et d’heure pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Pour plus d’informations sur la façon dont un administrateur de groupe configure une tâche déverrouillée et émet des préférences pour un groupe, voir [ Configuration des préférences de feuille de temps et d’heure pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Sélectionner plusieurs notifications que vous souhaitez déverrouiller ou reverrouiller pour les groupes
 
@@ -130,7 +130,7 @@ Déverrouiller ou reverrouiller les notifications électroniques pour les groupe
 
 Auparavant, vous deviez déverrouiller et reverrouiller les notifications une par une. Workfront comporte actuellement 95 notifications, donc cela a pris un certain temps si vous deviez le faire pour toutes ou plusieurs d’entre elles.
 
-Pour plus d’informations, voir [Déverrouiller ou verrouiller la configuration des notifications d’événement pour tous les groupes](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+Pour plus d’informations, voir [Déverrouiller ou verrouiller la configuration des notifications d’événements pour tous les groupes](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
 ## Pour les administrateurs de groupe : il est plus facile de sélectionner un groupe de remplacement lorsque vous supprimez un groupe.
 
@@ -145,7 +145,7 @@ Pour plus d’informations, voir [Suppression d’un groupe](../../../administra
 
 Il est désormais plus facile de créer des champs calculés complexes dans un formulaire personnalisé. Cliquez sur le nouveau bouton Maximiser pour ouvrir une grande fenêtre d’édition afin de créer votre calcul. Lorsque vous avez terminé, cliquez sur Réduire pour continuer à travailler sur votre formulaire personnalisé.
 
-Pour plus d’informations, voir [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Pour plus d’informations, voir [Ajouter des données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Ajout de formulaires personnalisés à des groupes
 
@@ -171,4 +171,4 @@ Pour plus d’informations, voir [Création d’applications OAuth2 pour les int
 
 Dans la zone Entreprises de la configuration, de nouveaux messages de confirmation et de légères modifications de la formulation facilitent la gestion des adhésions aux entreprises. Par exemple, le nom de section &quot;Personnes&quot; dans le panneau de gauche est désormais &quot;Membres de la société&quot;.
 
-Pour plus d’informations sur la gestion des adhésions aux entreprises, voir [Gestion des appartenances à une entreprise](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Pour plus d’informations sur la gestion des appartenances à une entreprise, voir [Gestion des appartenances à une entreprise](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).

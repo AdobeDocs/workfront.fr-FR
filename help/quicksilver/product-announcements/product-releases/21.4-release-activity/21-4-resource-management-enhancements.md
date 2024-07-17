@@ -1,6 +1,6 @@
 ---
-title: 21.4 Améliorations de la gestion des ressources
-description: 21.4 Améliorations de la gestion des ressources
+title: Améliorations de la gestion des ressources (version 21.4)
+description: Améliorations de la gestion des ressources (version 21.4)
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,15 +9,15 @@ exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 21.4 Améliorations de la gestion des ressources
+# Améliorations de la gestion des ressources (version 21.4)
 
 Cette page décrit toutes les améliorations apportées à la gestion des ressources avec la version 21.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 4 octobre 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, voir [Présentation de la version 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, reportez-vous à la [21.4 Release Overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Effectuez des affectations rapides dans l’équilibreur de charge de travail
 
@@ -25,7 +25,7 @@ Vous pouvez désormais équilibrer efficacement les ressources de l’équilibre
 
 Avant cette amélioration, vous ne pouviez affecter des éléments qu’en cliquant sur le menu Plus d’une tâche ou d’un problème, puis en utilisant l’option Attribuer . Désormais, les Heures planifiées allouées à l’utilisateur sont mises à jour en temps réel tout en faisant glisser les tâches.
 
-Pour plus d’informations sur l’affectation d’éléments de travail dans l’équilibreur de charge de travail, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Pour plus d’informations sur l’affectation des tâches dans l’équilibreur de charge de travail, voir [Présentation de l’affectation des tâches dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Nouvelle option par défaut pour l’équilibreur de charge de travail
 
@@ -48,5 +48,5 @@ Pour plus d’informations, voir [Gestion des filtres dans l’équilibreur de c
 
 >[!NOTE]
 >
->Avec les mises à jour des filtres, nous avons éliminé le **Toutes les tâches** et **Éléments de travail de ce projet** filtres intégrés dans l’équilibreur de charge de travail d’un projet.
+>Avec les mises à jour des filtres, nous avons éliminé les filtres intégrés **Toutes les tâches** et **Les tâches de ce projet** dans l’équilibreur de charge de travail d’un projet.
 

@@ -1,6 +1,6 @@
 ---
-title: 21.3 Améliorations apportées aux administrateurs
-description: 21.3 Améliorations apportées aux administrateurs
+title: Améliorations apportées à l’administration (version 21.3)
+description: Améliorations apportées à l’administration (version 21.3)
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
@@ -9,15 +9,15 @@ exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
 source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# 21.3 Améliorations apportées aux administrateurs
+# Améliorations apportées à l’administration (version 21.3)
 
 Cette page décrit toutes les améliorations apportées par l’administrateur à la version 21.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 21 juillet 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.3, voir [Présentation de la version 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.3, consultez la [présentation de la version 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Plans directeurs disponibles en production avec la version 21.3
 
@@ -27,7 +27,7 @@ Les plans directeurs fournissent des éléments de base pour vous aider à crée
 
 Pour plus d’informations, voir [Présentation des plans directeurs](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Cette fonctionnalité est désormais incluse dans la variable [Modèles de projet dans la nouvelle expérience Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) parcours d’apprentissage sur Workfront One.
+Cette fonctionnalité est désormais incluse dans les [modèles de projet dans le nouveau parcours d’apprentissage de l’expérience Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) sur Workfront One.
 
 ## Nouveautés pour les administrateurs de groupe : créer et gérer des états pour un groupe à n’importe quel niveau.
 
@@ -43,13 +43,13 @@ Les administrateurs Workfront peuvent également effectuer ces opérations (pour
 
 Auparavant, cette fonctionnalité n’était disponible que pour les groupes de niveau supérieur.
 
-Pour plus d’informations, voir [Gestion des états d’un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+Pour plus d’informations, voir [Gestion des états de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
 ## Nouveau pour les administrateurs : création d’un formulaire personnalisé d’enregistrement de facturation
 
 Vous pouvez désormais améliorer la manière dont les utilisateurs capturent les informations de facturation en créant un formulaire personnalisé d’enregistrement de facturation. Les utilisateurs peuvent joindre le formulaire personnalisé à un enregistrement de facturation, le remplir et exécuter des rapports incluant les informations contenues dans le formulaire.
 
-Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 Pour plus d’informations sur l’association d’un formulaire personnalisé d’enregistrement de facturation à un projet, voir [Ajout d’un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

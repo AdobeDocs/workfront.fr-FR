@@ -2,20 +2,20 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-title: Gestion des informations dans la zone Aperçu du projet
-description: Gestion des informations dans la zone Aperçu du projet
+title: Gérer les informations dans la zone de vue d’ensemble du projet
+description: Gérer les informations dans la zone de vue d’ensemble du projet
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
 source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 4%
+source-wordcount: '1449'
+ht-degree: 28%
 
 ---
 
-# Gestion des informations dans la zone Aperçu du projet
+# Gérer les informations dans la zone de vue d’ensemble du projet
 
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -23,69 +23,69 @@ ht-degree: 4%
 
 Vous pouvez afficher ou modifier les informations d’un projet en accédant à la zone Aperçu de la section Détails du projet . Il existe un nombre limité de champs que vous pouvez afficher ou modifier dans cette zone. Pour plus d’informations sur la modification de toutes les informations d’un projet, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Tous</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront*</p> </td> 
-   <td> <p>Révision ou version ultérieure</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Licence Adobe Workfront*</p> </td> 
+   <td> <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
    <td> <p>Affichage de l’accès ou d’une version ultérieure à la console Projets </p>
 
-<p>Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+<p>Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Afficher l’accès au projet pour afficher des informations limitées sur le projet</p> 
-   <p>Gérer l’accès au projet pour modifier les informations le concernant</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <p>Gérer l’accès au projet pour modifier les informations le concernant</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Accès à la section Aperçu
 
 1. Accédez au projet dont vous souhaitez afficher la section Aperçu .
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. La variable **Présentation** doit s’afficher en premier dans le cadre des détails du projet et doit être développé par défaut.
+1. La section **Aperçu** doit s’afficher en premier dans les détails du projet et doit être développée par défaut.
 
    Ou
 
-   Cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Présentation**. La zone Aperçu s’ouvre alors pour modification.
+   Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Aperçu**. La zone Aperçu s’ouvre alors pour modification.
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur Workfront a configuré votre modèle de mise en page, la section Aperçu peut ne pas être répertoriée en premier, auquel cas elle est réduite. Pour plus d’informations, voir [Personnalisation de la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la manière dont votre administrateur Workfront a configuré votre modèle de mise en page, la section Aperçu peut ne pas être répertoriée en premier, auquel cas elle est réduite. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Conditionnel) S’il existe un champ spécifique qui doit être mis à jour sur un projet, mais qui ne s’affiche pas dans cette section, cliquez sur la **Plus de menu** ![](assets/more-icon.png) en regard du nom du projet, puis **Modifier** pour afficher d’autres champs de projet.
+1. (Conditionnel) S’il existe un champ spécifique qui doit être mis à jour sur un projet, mais qui ne s’affiche pas dans cette section, cliquez sur le **menu supplémentaire** ![](assets/more-icon.png) en regard du nom du projet, puis sur **Modifier** pour afficher d’autres champs du projet.
 
    Pour plus d’informations sur la modification de projets, voir [Modification de projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Modifiez ou consultez les champs du tableau ci-dessous qui s’affichent dans le **Présentation** .\
-   Pour modifier un champ disponible, cliquez ou cliquez sur **+Ajouter** pour ajouter des informations à un champ vide.
+1. Modifiez ou consultez les champs du tableau ci-dessous qui s’affichent dans la section **Aperçu** .\
+   Pour modifier un champ qui peut être modifié, cliquez sur le champ ou cliquez sur **+Ajouter** pour ajouter des informations à un champ vide.
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur Workfront a configuré votre modèle de mise en page, il se peut que tous les champs ne s’affichent pas. Pour plus d’informations, voir [Personnalisation de la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la manière dont votre administrateur Workfront a configuré votre modèle de mise en page, il se peut que tous les champs ne s’affichent pas. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
     <tr> 
-      <td role="rowheader"><b>Champ</b></td> 
+      <td role="rowheader"><b>champ</b></td> 
       <td><b>Description</b> </td> 
      </tr>
      <tr> 
@@ -106,7 +106,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Type de condition</td> 
-      <td>Détermine si le gestionnaire définit la condition du projet ou si Workfront le fait. Pour plus d’informations sur la condition du projet, voir l’article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation de la condition et du type de condition du projet</a>.</td> 
+      <td>Détermine si le gestionnaire définit la condition du projet ou si Workfront le fait. Pour plus d’informations sur la condition de projet, consultez l’article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation de la condition et du type de condition du projet</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mode horaire</td> 
@@ -130,10 +130,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Groupe</td> 
-      <td> <p>Groupe associé au projet.</p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en pointant dessus et en cliquant sur l’icône d’information. <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus de celui-ci et ses administrateurs.</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
-      Par défaut, l’un des groupes suivants est automatiquement associé à un projet lors de sa création, sauf si vous spécifiez un autre groupe :
+      <td> <p>Groupe associé au projet.</p> <p>Vous pouvez vous assurer que vous sélectionnez le bon groupe en le survolant et en cliquant sur l’icône d’information <img src="assets/info-icon.png"> qui s’affiche en regard. Cette option permet d’afficher une infobulle contenant des informations sur le groupe, telles que la hiérarchie des groupes qui le précèdent et ses administrateurs et administratrices.</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+      Par défaut, l’un des groupes suivants est automatiquement associé à un projet lors de sa création, à moins que vous ne spécifiiez un groupe différent :
         <ul> 
-         <li> <p><span>Lorsque le projet est créé à partir de la zone Projets , le groupe d’accueil du créateur du projet est associé au projet.</span> </p> </li> 
+         <li> <p><span>Lorsque le projet est créé à partir de la zone Projets, le groupe d’accueil du créateur du projet est associé au projet.</span> </p> </li> 
          <li> <p><span>Lorsque le projet est créé à partir de la page principale d’un groupe dans la zone Configuration, ce groupe est automatiquement associé au projet.</span> </p> </li> 
         </ul> </p> </td> 
      </tr> 
@@ -147,27 +147,27 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Sponsor du projet</td> 
-      <td> <p>Voici la Principale partie prenante du projet. Il s'agit généralement d'un cadre supérieur qui supervise et soutient le projet, ou c'est la personne responsable du budget.</p> </td> 
+      <td> <p>Il s’agit de la principale partie prenante du projet. Il s'agit généralement d'un cadre supérieur qui supervise et soutient le projet, ou c'est la personne responsable du budget.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gestionnaire des ressources</td> 
-      <td> <p>Il s’agit de la personne qui peut gérer les ressources utilisateur dans le projet. </p> <p>Pour plus d’informations sur les gestionnaires de ressources, reportez-vous à l’article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Désignation des gestionnaires de ressources pour un projet ou un modèle </a>.</p> </td> 
+      <td> <p>Il s’agit de la personne qui peut gérer les ressources utilisateur dans le projet. </p> <p>Pour plus d’informations sur les gestionnaires de ressources, reportez-vous à l’article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Désigner les gestionnaires de ressources pour un projet ou un modèle </a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >Lors de la mise à jour des champs Propriétaire du projet, Parrain du projet et Gestionnaire de ressources, notez l’avatar, le rôle Principal de l’utilisateur ou son adresse électronique pour faire la distinction entre les utilisateurs portant des noms identiques.
+   >Lors de la mise à jour des champs Propriétaire du projet, Sponsor du projet et Gestionnaire des ressources, remarquez l’avatar, le rôle principal de la personne ou son adresse e-mail afin de distinguer les personnes dont les noms sont identiques.
    >
-   >Les utilisateurs doivent être associés à au moins un rôle de tâche pour l’afficher à mesure que vous les ajoutez.
+   >Les personnes doivent être associées à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
    > 
-   >Pour que les utilisateurs puissent afficher les courriers électroniques de leurs utilisateurs, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. Consultez les champs suivants de la section Aperçu . Vous ne pouvez pas modifier les champs suivants :
 
-   | Champ | Description |
+   | champ | Description |
    |---|---|
    | Numéro de référence | Il s’agit d’un champ généré automatiquement qui a toujours une valeur unique pour chaque projet. |
    | Date de début prévisionnelle | Il s’agit de la date &quot;en temps réel&quot; du début du travail en fonction des travaux terminés et du travail restant. |
@@ -190,7 +190,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><b>Champ</b></td> 
+      <td role="rowheader"><b>champ</b></td> 
       <td><b>Description</b> </td> 
      </tr>
      <tr> 
@@ -198,29 +198,29 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td><span>Durée de l’initiative correspondante lorsque le projet est lié à une initiative. Ce champ n’est pas modifiable.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Date de la dernière publication</span> </td> 
+      <td role="rowheader"><span>Date de dernière publication</span> </td> 
       <td><span>Date à laquelle le projet a été publié pour la dernière fois à partir d’une initiative correspondante.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Date de début de l'initiative</span> </td> 
+      <td role="rowheader"><span>Date de début de l’initiative</span> </td> 
       <td><span>Premier jour du mois de début de l’initiative, lorsque le projet est lié à une initiative.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Date de fin de l'initiative</span> </td> 
-      <td><span>Dernier jour du mois de fin de l’initiative, lorsque le projet est lié à une initiative. </span> </td> 
+      <td role="rowheader"><span>Date de fin de l’initiative</span> </td> 
+      <td><span> Dernier jour du mois de fin de l’initiative, lorsque le projet est lié à une initiative. </span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>Rôles de tâche d’initiative dans les ETR et les Heures</span> </td> 
       <td> <p>Informations sur les rôles d’emploi associés et leur attribution de temps pour l’initiative. Cela inclut :</p> 
        <ul> 
         <li>Nom du rôle de tâche</li> 
-        <li>Nombre d’ETR</li> 
-        <li> <p>Nombre d’heures pour tous les ETR</p> <p>Vous pouvez estimer le nombre de rôles d’emploi nécessaires à votre plan ou à votre initiative à l’aide d’heures ou d’EPT. </p> <p>Pour plus d’informations, voir <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créer et modifier des plans dans le planificateur de scénarios</a>. </p> </li> 
-       </ul> <p>Conseil : <span>Si le nombre de rôles d’emploi est différent pour chaque mois de l’initiative, ce champ affiche le nombre maximal de rôles requis pour l’initiative. Par exemple, si vous avez besoin d’un consultant pour janvier et d’un consultant pour février, la colonne affiche 2ETR et le nombre d’heures correspondant pour 2 ETR pour tous les mois.</span> </p> </td> 
+        <li>Nombre d’ETP</li> 
+        <li> <p>Nombre d’heures pour tous les ETR</p> <p>Vous pouvez estimer le nombre de fonctions nécessaires à votre plan ou à votre initiative à l’aide d’heures ou d’EPT. </p> <p>Pour plus d’informations, voir <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créer et modifier des plans dans le planificateur de scénarios</a>. </p> </li> 
+       </ul> <p>Conseil : <span>Si le nombre de rôles de tâche est différent pour chaque mois de l’initiative, ce champ affiche le nombre maximal de rôles nécessaires à l’initiative. Par exemple, si vous avez besoin d’un consultant pour janvier et d’un consultant pour février, la colonne affiche 2ETR et le nombre d’heures correspondant pour 2 ETR pour tous les mois.</span> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Pour plus d’informations sur la liaison de projets à des initiatives, voir [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
+   Pour plus d’informations sur la liaison de projets à des initiatives, voir [Mise à jour ou création de projets en publiant des initiatives dans le planificateur de scénario](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 1. Cliquez sur **Enregistrer les modifications**.

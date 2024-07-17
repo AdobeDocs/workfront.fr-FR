@@ -1,35 +1,35 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Panoramas Adobe Workfront pour mobiles
-description: Dans le [!DNL Workfront] application mobile, vous pouvez voir tous les panoramas que vous avez créés ou auxquels vous avez été ajouté dans la version pour ordinateur de bureau de [!DNL Workfront].
+title: Panoramas Adobe Workfront pour mobile
+description: Dans l’application mobile  [!DNL Workfront] , vous pouvez voir tous les panoramas que vous avez créés ou auxquels vous avez été ajouté dans la version de bureau de [!DNL Workfront].
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
 source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# [!DNL Adobe Workfront] [!UICONTROL Panoramas] pour mobile
+# [!UICONTROL Panoramas] [!DNL Adobe Workfront] pour mobile
 
-[!DNL Adobe Workfront] [!UICONTROL Panoramas] sont des outils flexibles qui permettent la collaboration des équipes en permettant l’accès à un panorama partagé contenant des colonnes et des cartes. Pour plus d’informations sur les panoramas, voir [Présentation des panoramas](/help/quicksilver/agile/boards-overview.md).
+[!DNL Adobe Workfront] [!UICONTROL Les panoramas] sont des outils flexibles qui permettent une collaboration entre les équipes en permettant l’accès à un panorama partagé qui contient des colonnes et des cartes. Pour plus d’informations sur les panoramas, consultez la [présentation des panoramas](/help/quicksilver/agile/boards-overview.md).
 
-Dans le [!DNL Workfront] application mobile, vous pouvez voir tous les panoramas que vous avez créés ou auxquels vous avez été ajouté dans la version pour ordinateur de bureau de [!DNL Workfront]. Vous ne pouvez pas créer de panorama dans l’application mobile.
+Dans l’application mobile [!DNL Workfront], vous pouvez voir tous les panoramas que vous avez créés ou auxquels vous avez été ajouté dans la version de bureau de [!DNL Workfront]. Vous ne pouvez pas créer de panorama dans l’application mobile.
 
 Toute modification apportée aux colonnes et aux cartes du panorama dans l’application est également répercutée dans la version de bureau du panorama.
 
-Pour fournir des commentaires sur les panoramas mobiles, sélectionnez l’option **[!UICONTROL Envoyer]** ![Envoyer des commentaires](assets/mobile-send-feedback-icon.png) en haut d’un panorama et suivez les invites.
+Pour fournir des commentaires sur les panoramas mobiles, cliquez sur l&#39;icône **[!UICONTROL Envoyer]** ![ ](assets/mobile-send-feedback-icon.png) en haut de n&#39;importe quel panorama et suivez les invites.
 
 >[!NOTE]
 >
->Actuellement, l’application mobile prend en charge tous les types de panoramas. **Sauf** Panneaux de processus d’itération.
+>Actuellement, l’application mobile prend en charge tous les types de panoramas **à l’exception de** panoramas de processus d’itération.
 
 ## Affichage et filtrage de la liste des panoramas
 
-1. Sélectionner [!UICONTROL **Panoramas**] sur la page d’accueil pour afficher la liste de tous les panoramas que vous avez créés ou auxquels vous avez été ajouté dans la version pour ordinateur de bureau de [!DNL Workfront].
+1. Sélectionnez [!UICONTROL **Panoramas**] sur la page d’accueil pour afficher la liste de tous les panoramas que vous avez créés ou auxquels vous avez été ajouté dans la version de bureau de [!DNL Workfront].
 
    ![Liste des panoramas](assets/mobile-all-boards-displayed.png)
 
@@ -38,9 +38,9 @@ Pour fournir des commentaires sur les panoramas mobiles, sélectionnez l’optio
 
    * Dans la section Filtre , sélectionnez [!UICONTROL **Archivé**] pour afficher les panoramas archivés dans la liste. Seuls les panoramas actifs sont affichés par défaut.
    * Dans la section Tri , sélectionnez [!UICONTROL **Date de modification**] ou [!UICONTROL **Nom**].
-   * Dans la section Ordre, sélectionnez [!UICONTROL **ascendant**] ou [!UICONTROL **Descendant**] pour définir l’ordre de tri.
+   * Dans la section Ordre, sélectionnez [!UICONTROL **ascendant**] ou [!UICONTROL **descendant**] pour définir l’ordre de tri.
 
-1. Sélectionner [!UICONTROL **Appliquer**] ou ![Icône Appliquer](assets/mobile-apply-icon-checkmark.png) pour appliquer les filtres et revenir à la liste des panoramas.
+1. Sélectionnez [!UICONTROL **Appliquer**] ou ![Appliquer l’icône](assets/mobile-apply-icon-checkmark.png) pour appliquer les filtres et revenir à la liste des panoramas.
 
    Vous pouvez accéder à ces options à tout moment pour les modifier ou revenir aux paramètres par défaut.
 
@@ -56,13 +56,13 @@ Lorsque vous ouvrez un panorama, ses colonnes et ses cartes s’affichent. Faite
 
 Sélectionnez une carte et maintenez-la enfoncée pour la déplacer vers une autre colonne.
 
-Si le panorama contient une colonne d’entrée, elle apparaît comme la colonne la plus à gauche. Les cartes de la colonne d’entrée ne peuvent pas être modifiées tant que vous ne les déplacez pas dans d’autres colonnes de la carte. Vous pouvez sélectionner une carte pour ouvrir la tâche ou le problème. Les filtres de colonne d’entrée sont contrôlés dans la version de bureau du panorama. Pour plus d’informations, voir [Ajout d’une colonne d’ingestion à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Si le panorama contient une colonne d’entrée, elle apparaît comme la colonne la plus à gauche. Les cartes de la colonne d’entrée ne peuvent pas être modifiées tant que vous ne les déplacez pas dans d’autres colonnes de la carte. Vous pouvez sélectionner une carte pour ouvrir la tâche ou le problème. Les filtres de colonne d’entrée sont contrôlés dans la version de bureau du panorama. Pour plus d’informations, voir [Ajouter une colonne de saisie à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Utilisation de cartes connectées
 
-Une carte connectée est connectée à une tâche existante ou un problème dans [!DNL Workfront]. Dans l’application mobile, une carte connectée est désignée avec la variable ![Icône de carte connectée](assets/mobile-boards-connected-card-icon.png) Icône Dans l’image ci-dessous, la deuxième carte est une carte connectée.
+Une carte connectée est connectée à une tâche ou un problème existant dans [!DNL Workfront]. Dans l’application mobile, une carte connectée est désignée par l’icône ![Icône de carte connectée](assets/mobile-boards-connected-card-icon.png) . Dans l’image ci-dessous, la deuxième carte est une carte connectée.
 
-Lorsque l’un des détails suivants est mis à jour pour la carte à un emplacement donné, il est automatiquement mis à jour à l’autre emplacement :
+Lorsque l’un des détails suivants est mis à jour pour la carte à un emplacement, il est automatiquement mis à jour à l’autre emplacement :
 
 * [!UICONTROL Nom]
 * [!UICONTROL Description]
@@ -79,7 +79,7 @@ Par exemple, si vous mettez à jour le nom d’une carte connectée sur un panor
    >
    >Vous pouvez sélectionner une autre balise sur la carte, mais vous ne pouvez pas en créer de nouvelles dans l’application mobile.
 
-1. (Facultatif) Pour supprimer une carte, sélectionnez l’option [!UICONTROL **Plus**] menu ![Plus de menu](assets/more-icon-spectrum.png) sur la carte et choisissez [!UICONTROL **Supprimer**]. Sélectionnez ensuite [!UICONTROL **Supprimer**] sur le message de confirmation.
+1. (Facultatif) Pour supprimer une carte, sélectionnez le menu [!UICONTROL **Plus**] ![Plus menu](assets/more-icon-spectrum.png) sur la carte et choisissez [!UICONTROL **Supprimer**]. Sélectionnez ensuite [!UICONTROL **Supprimer**] sur le message de confirmation.
 
 ## Utilisation de cartes ad hoc
 
@@ -95,44 +95,44 @@ Une carte ad hoc n’est pas connectée à une tâche ou à un problème Workfro
 
 1. (Facultatif) Pour ajouter une nouvelle carte ad hoc, sélectionnez [!UICONTROL **Nouvelle carte**] dans la colonne où vous souhaitez ajouter la carte, puis saisissez le nom de la carte. Pour ajouter des détails, sélectionnez la carte que vous venez d’ajouter.
 
-1. (Facultatif) Pour copier une carte, sélectionnez l’option [!UICONTROL **Plus**] menu ![Plus de menu](assets/more-icon-spectrum.png) sur la carte et choisissez [!UICONTROL **Copier**].
+1. (Facultatif) Pour copier une carte, sélectionnez le menu [!UICONTROL **Plus**] ![Plus menu](assets/more-icon-spectrum.png) sur la carte et choisissez [!UICONTROL **Copier**].
 
-1. (Facultatif) Pour supprimer une carte, sélectionnez l’option [!UICONTROL **Plus**] menu ![Plus de menu](assets/more-icon-spectrum.png) sur la carte et choisissez [!UICONTROL **Supprimer**]. Sélectionnez ensuite [!UICONTROL **Supprimer**] sur le message de confirmation.
+1. (Facultatif) Pour supprimer une carte, sélectionnez le menu [!UICONTROL **Plus**] ![Plus menu](assets/more-icon-spectrum.png) sur la carte et choisissez [!UICONTROL **Supprimer**]. Sélectionnez ensuite [!UICONTROL **Supprimer**] sur le message de confirmation.
 
-## Gérer les éléments de liste de contrôle sur les cartes
+## Gérer les éléments de la liste de contrôle sur des cartes
 
 Les éléments de liste de contrôle sont disponibles sur les cartes ad hoc et connectées.
 
 1. Pour ajouter un élément de liste de contrôle, ouvrez la carte et sélectionnez [!UICONTROL **Nouvel élément de liste de contrôle**]. Saisissez le nom de l’élément de liste de contrôle. Le compteur sur la carte est mis à jour.
-1. (Facultatif) Pour copier un élément de liste de contrôle, ouvrez la carte, sélectionnez l’option [!UICONTROL **Plus**] menu ![Plus de menu](assets/more-icon-spectrum.png) sur l’élément, puis choisissez [!UICONTROL **Copier**]. Une copie de l’élément est ajoutée au bas de la liste.
-1. (Facultatif) Pour supprimer un élément de liste de contrôle, ouvrez la carte, sélectionnez l’option [!UICONTROL **Plus**] menu ![Plus de menu](assets/more-icon-spectrum.png) sur l’élément, puis choisissez [!UICONTROL **Supprimer**].
+1. (Facultatif) Pour copier un élément de liste de contrôle, ouvrez la carte, sélectionnez le menu [!UICONTROL **Plus**] ![Plus menu](assets/more-icon-spectrum.png) sur l’élément, puis choisissez [!UICONTROL **Copier**]. Une copie de l’élément est ajoutée au bas de la liste.
+1. (Facultatif) Pour supprimer un élément de liste de contrôle, ouvrez la carte, sélectionnez le menu [!UICONTROL **Plus**] ![Plus menu](assets/more-icon-spectrum.png) sur l’élément, puis choisissez [!UICONTROL **Supprimer**].
 1. Pour remplir un élément de liste de contrôle, ouvrez la carte et cochez la case en regard du nom de l’élément.
 L’élément est marqué comme terminé, le compteur sur la carte se met à jour pour afficher le nombre d’éléments de liste de contrôle terminés.
 
-## Filtrage et recherche dans un panorama
+## Filtrer et rechercher dans un panorama
 
 Vous pouvez filtrer un panorama pour afficher les cartes qui lui sont affectées ou rechercher une carte spécifique dans le panorama.
 
-Lorsque des filtres sont appliqués, un indicateur s’affiche sur le panorama. ![Filtre appliqué au panorama](assets/active-filter-mobile-boards.png). Sélectionnez l’icône de filtre et choisissez [!UICONTROL **Effacer tout**] pour supprimer tous les filtres du panorama.
+Lorsque des filtres sont appliqués, un indicateur s’affiche sur le panorama ![Filtre appliqué au panorama](assets/active-filter-mobile-boards.png). Sélectionnez l’icône de filtre et choisissez [!UICONTROL **Effacer tout**] pour supprimer tous les filtres du panorama.
 
 ### Filtrage d’un panorama par personne désignée
 
-1. Sélectionner l’icône de filtrage et de recherche ![Filtrage et recherche](assets/filter-search-icon-mobile-boards.png).
-1. Sélectionner [!UICONTROL **Membres**] et choisissez la ou les personnes dont vous souhaitez voir les cartes. Vous pouvez également afficher les cartes non affectées.
-1. Sélectionner [!UICONTROL **Terminé**] ou ![Icône Terminé](assets/mobile-apply-icon-checkmark.png).
+1. Sélectionnez l’icône de filtrage et de recherche ![Filtrer et rechercher](assets/filter-search-icon-mobile-boards.png).
+1. Sélectionnez [!UICONTROL **Membres**] et choisissez la ou les personnes dont vous souhaitez afficher les cartes. Vous pouvez également afficher les cartes non affectées.
+1. Sélectionnez [!UICONTROL **Terminé**] ou ![Icône Terminé](assets/mobile-apply-icon-checkmark.png).
 
 ### Filtrage d’un panorama par balises ([!DNL iOS] uniquement)
 
-1. Sélectionner l’icône de filtrage et de recherche ![Filtrage et recherche](assets/filter-search-icon-mobile-boards.png).
-1. Sélectionner [!UICONTROL **Balises**] et sélectionnez les balises à afficher.
-1. Sélectionner [!UICONTROL **Terminé**].
+1. Sélectionnez l’icône de filtrage et de recherche ![Filtrer et rechercher](assets/filter-search-icon-mobile-boards.png).
+1. Sélectionnez [!UICONTROL **Balises**] et choisissez les balises que vous souhaitez afficher.
+1. Sélectionnez [!UICONTROL **Done**].
 
 ### Recherche dans un panorama
 
-1. Sélectionner l’icône de filtrage et de recherche ![Filtrage et recherche](assets/filter-search-icon-mobile-boards.png).
+1. Sélectionnez l’icône de filtrage et de recherche ![Filtrer et rechercher](assets/filter-search-icon-mobile-boards.png).
 1. Saisissez un terme de recherche dans la zone et sélectionnez [!UICONTROL **Terminé**] ou ![Icône Terminé](assets/mobile-apply-icon-checkmark.png).
 
    Toutes les cartes qui contiennent le terme recherché dans le titre s’affichent.
 Sélectionnez le X pour effacer la recherche.
 
-   ![Recherche de carte](assets/mobile-search-for-card.png)
+   ![Rechercher une carte](assets/mobile-search-for-card.png)

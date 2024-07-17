@@ -2,23 +2,23 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
-title: La durée projetée ne correspond pas à la durée planifiée
-description: '"Vous recevez le message d’erreur suivant : "La durée projetée d’une tâche/d’un problème est passée à 0 et ne correspond pas à la durée planifiée.""'
+title: La durée prévisionnelle ne correspond pas à la durée prévue.
+description: '"Vous recevez le message d’erreur suivant : "La durée projetée d’une tâche/problème est passée à 0 et ne correspond pas à la durée planifiée.""'
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 0%
+source-wordcount: '225'
+ht-degree: 7%
 
 ---
 
-# La durée projetée ne correspond pas à la durée planifiée
+# La durée prévisionnelle ne correspond pas à la durée prévue.
 
 ## Problème
 
-Vous recevez le message d’erreur suivant : &quot;La durée projetée d’une tâche/d’un problème est passée à 0 et ne correspond pas à la durée planifiée.&quot;
+Vous recevez le message d’erreur suivant : &quot;La durée projetée d’une tâche/problème est passée à 0 et ne correspond pas à la durée planifiée.&quot;
 
 ## Cause
 
@@ -32,8 +32,8 @@ Dans la plupart des cas, en fonction du type de durée et de la contrainte de t�
 
 Voici les meilleures choses à vérifier dans ces cas avec des liens vers leurs articles annexes :
 
-* Date d’achèvement prévue : [Présentation de la date d’achèvement prévue pour les projets, tâches et problèmes](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
+* Date d’achèvement prévue : [Présentation de la date d’achèvement prévue pour les projets, les tâches et les problèmes](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
 * Contrainte de tâche : [Présentation de la contrainte de tâche](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
-* Type de durée : [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+* Type de durée : [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 
 Si le type Date d’achèvement prévue, Contrainte de tâche ou Durée fonctionne comme prévu, contactez l’assistance pour un dépannage plus détaillé.

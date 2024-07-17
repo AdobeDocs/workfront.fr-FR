@@ -2,21 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Présentation de la boucle de dépendance de tâche
+title: Vue d’ensemble de la boucle de dépendance des tâches
 description: Lorsque vous ajoutez des relations de prédécesseur à des tâches, vous risquez de rencontrer des boucles de dépendance. Pour plus d’informations sur les prédécesseurs, voir Présentation des prédécesseurs de tâches.
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 0%
+source-wordcount: '253'
+ht-degree: 5%
 
 ---
 
 # Présentation de la boucle de dépendance de tâche
 
-Lorsque vous ajoutez des relations de prédécesseur à des tâches, vous risquez de rencontrer des boucles de dépendance. Pour plus d’informations sur les prédécesseurs, voir [Présentation des prédécesseurs de tâches](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Lorsque vous ajoutez des relations de prédécesseur à des tâches, vous risquez de rencontrer des boucles de dépendance. Pour plus d’informations sur les tâches antérieures, voir [Vue d’ensemble des tâches antérieures](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Présentation de la boucle de dépendance
 

@@ -9,7 +9,7 @@ exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
@@ -21,36 +21,36 @@ Vous pouvez lier manuellement la résolution d’un problème à la résolution 
 >
 >Lorsque vous liez la résolution d’un problème à la résolution d’un autre objet, vous ne pouvez plus modifier manuellement l’état du problème d’origine.
 
-Pour plus d’informations sur la résolution et la résolution d’objets, voir [Présentation de la résolution et des objets résolvables](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Pour plus d’informations sur la résolution et la résolution d’objets, voir [Présentation de la résolution et de la résolution d’objets résolvables](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Quelconque </p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes, tâches et projets</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux problèmes, tâches et projets</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’accès au problème lié à un autre problème, tâche ou projet</p> <p>Afficher ou des autorisations supérieures au problème, à la tâche ou au projet que vous ajoutez au problème existant</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’accès au problème lié à un autre problème, tâche ou projet</p> <p>Afficher ou des autorisations supérieures au problème, à la tâche ou au projet que vous ajoutez au problème existant</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Conditions préalables
 
@@ -63,11 +63,11 @@ Avant de commencer, vous devez :
 ## Lier la résolution d’un problème à la résolution d’un autre problème, d’une autre tâche ou d’un autre projet
 
 1. Accédez à un problème dont vous souhaitez lier la résolution à un autre problème ou à la résolution d’une tâche ou d’un projet.
-1. Cliquez sur le bouton **Détails du problème** dans le panneau de gauche, puis développez l’objet **Présentation** zone.
+1. Cliquez sur **Détails du problème** dans le panneau de gauche, puis développez la zone **Aperçu**.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Cliquez sur le bouton **Résolu par** et effectuez une sélection parmi les types d’objets de résolution suivants :
+1. Cliquez sur le champ **Résolu par** et sélectionnez l’un des types d’objets de résolution suivants :
 
    * **Projet**
    * **Tâche**
@@ -76,10 +76,10 @@ Avant de commencer, vous devez :
    Selon l’objet sélectionné, les champs suivants s’affichent :
 
    * **Résolution du projet**
-   * **Résoudre une tâche**
-   * **Résolution d’un problème**
+   * **Résoudre La Tâche**
+   * **Résolution Du Problème**
 
-1. Commencez à saisir le nom d’un projet, d’une tâche ou d’un problème spécifique dans la variable **Résolution du projet**, **Tâche**, ou **Problème** puis cliquez dessus lorsqu’il apparaît dans la liste.
+1. Commencez à saisir le nom d’un projet, d’une tâche ou d’un problème spécifique dans le champ **Résoudre le projet**, **Tâche** ou **Problème** , puis cliquez dessus lorsqu’il apparaît dans la liste.
 
    >[!NOTE]
    >

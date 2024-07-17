@@ -919,7 +919,7 @@ _Vide_
 C&#39;est un processus en trois étapes.
 
 1. Création d’une carte de traduction (analogue à la phase de préparation de l’installation)
-1. Modifiez la carte de traduction générée, en définissant la variable `action` et `targetId` des champs pour tout objet qu’ils souhaitent remplacer. L’action doit être `OVERWRITING`, et la variable `targetId` doit être l’uuid de l’objet qui doit être remplacé
+1. Modifiez la carte de traduction générée, en définissant les champs `action` et `targetId` pour tout objet qu’ils souhaitent remplacer. L’action doit être `OVERWRITING` et `targetId` doit être l’uuid de l’objet qui doit être remplacé.
 1. Exécutez l’installation.
 
 * [Étape 1 - Création d’une carte de traduction](#step-1---create-a-translation-map)
@@ -940,7 +940,7 @@ Aucun
 
 #### Réponse
 
-Une carte de traduction, avec une `202 - OK` status
+Une carte de traduction, avec un état `202 - OK`
 
 ```json
 {
@@ -1017,13 +1017,13 @@ Une carte de traduction, avec une `202 - OK` status
 
 Il n’existe aucun point de terminaison pour cette étape.
 
-1. Dans la carte de traduction renvoyée dans [Étape 1 - Création d’une carte de traduction](#step-1---create-a-translation-map), examinez la liste des objets qui seront installés.
+1. Dans la carte de traduction renvoyée dans [Etape 1 - Créer une carte de traduction](#step-1---create-a-translation-map), examinez la liste des objets qui seront installés.
 1. Mettez à jour le champ d’action sur chaque objet pour l’action d’installation souhaitée.
-1. Validation de la variable `targetId` sur chaque objet. Si l’action définie est `USEEXISTING` ou `OVERWRITING`, la variable `targetId` doit être défini sur l’UUID de l’objet cible dans l’environnement de destination. Pour toute autre action, le targetId doit être une chaîne vide.
+1. Validez le `targetId` sur chaque objet. Si l’action définie est `USEEXISTING` ou `OVERWRITING`, `targetId` doit être défini sur l’UUID de l’objet cible dans l’environnement de destination. Pour toute autre action, le targetId doit être une chaîne vide.
 
    >[!NOTE]
    >
-   >La variable `targetId` est déjà renseignée si une collision a été détectée.
+   >`targetId` est déjà renseigné si une collision a été détectée.
 
 ### **Étape 3 - Installation**
 
@@ -1035,7 +1035,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### Corps
 
-Il s’agit d’un objet avec un seul champ. `translationMap`, qui doit être égal à la carte de traduction modifiée de [Étape 2 - Modification de la carte de traduction](#step-2---modify-the-translation-map).
+Il s’agit d’un objet avec un seul champ `translationMap`, qui doit être égal à la carte de traduction modifiée de [Etape 2 - Modifier la carte de traduction](#step-2---modify-the-translation-map).
 
 ```json
 {
@@ -1114,7 +1114,7 @@ Il s’agit d’un objet avec un seul champ. `translationMap`, qui doit être é
 
 #### Réponse
 
-La réponse comprend la variable `{uuid of the created installation}` et un `202 - ACCEPTED` statut.
+La réponse inclut l’état `{uuid of the created installation}` et un état `202 - ACCEPTED`.
 
 Exemple : `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 

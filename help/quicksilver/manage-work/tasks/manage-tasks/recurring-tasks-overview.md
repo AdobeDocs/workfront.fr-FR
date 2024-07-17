@@ -3,20 +3,20 @@ content-type: overview
 product-area: projects
 keywords: recurrent,reoccur,récurrent
 navigation-topic: manage-tasks
-title: Présentation des tâches récurrentes
-description: Présentation des tâches récurrentes
+title: Vue d’ensemble des tâches récurrentes
+description: Vue d’ensemble des tâches récurrentes
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
 source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 3%
+source-wordcount: '688'
+ht-degree: 7%
 
 ---
 
-# Présentation des tâches récurrentes
+# Vue d’ensemble des tâches récurrentes
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,7 +75,7 @@ Le tableau suivant indique si les modifications apportées au déclencheur paren
 
 | Champs mis à jour sur la tâche parent | Mises à jour du transfert vers les enfants non modifiés ou les enfants sans progression enregistrés |
 |---|---|
-| Fréquence de récurrence* | ✔ |
+| Fréquence de périodicité* | ✔ |
 | Affectations | ✔ |
 | Nom | ✔ |
 | Description | ✔ |
@@ -96,7 +96,7 @@ Le tableau suivant indique si les modifications apportées au déclencheur paren
 &#42; Les scénarios suivants existent lorsque vous mettez à jour la Fréquence de périodicité d’une tâche parent :
 
 * Si vous modifiez la Fréquence de périodicité sur une tâche parente existante, les sous-tâches existantes sont supprimées et remplacées par de nouvelles sous-tâches qui suivent la nouvelle fréquence de périodicité si elles n’affichent aucune progression et si vous ne les avez pas mises à jour manuellement.
-* Si vous modifiez la Fréquence de périodicité sur une tâche parente existante, les sous-tâches qui affichent la progression ne sont pas supprimées. Ces tâches sont considérées comme distinctes de la périodicité actuelle.
+* Si vous modifiez la Fréquence de périodicité sur une tâche parente existante, les sous-tâches qui affichent la progression ne sont pas supprimées. À ce stade, ces tâches sont considérées comme distinctes de la périodicité.
 
 &#42;&#42; Les affectations effectuées sur la tâche parent sont appliquées à toutes les sous-tâches de la périodicité. Toute modification apportée à l’affectation sur la tâche parente remplace toute affectation individuelle sur la sous-tâche. Si la tâche affiche la progression, l’affectation ne change pas.
 

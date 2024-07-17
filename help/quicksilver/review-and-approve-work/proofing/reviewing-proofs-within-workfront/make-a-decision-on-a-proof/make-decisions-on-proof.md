@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Prendre une décision sur un BAT dans la visionneuse de vérification
+title: Prendre une décision sur une épreuve dans la visionneuse de relecture
 description: Vous pouvez prendre une décision sur un BAT directement dans la visionneuse de vérification.
 author: Courtney
 feature: Digital Content and Documents
@@ -9,55 +9,55 @@ exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
-# Prendre une décision sur un BAT dans la visionneuse de vérification
+# Prendre une décision sur une épreuve dans la visionneuse de relecture
 
 Vous pouvez prendre une décision sur un BAT directement dans la visionneuse de vérification.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Sélectionner ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
    <td>Manager ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Rôle BAT</td> 
+   <td role="rowheader">Rôle de BAT</td> 
    <td>Approbateur, réviseur et approbateur, auteur, modérateur</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d’accès aux objets </a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Accès en modification aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront BAT.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
 
-## Prendre une décision sur un BAT dans la visionneuse de vérification
+## Prendre une décision sur une épreuve dans la visionneuse de relecture
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-1. Recherchez le BAT dont vous avez besoin, puis cliquez sur **BAT ouvert**.
+1. Recherchez le BAT dont vous avez besoin, puis cliquez sur **Ouvrir le BAT**.
 
-1. Cliquez sur **Prendre une décision** dans le centre supérieur de la visionneuse de vérification.
+1. Cliquez sur **Prendre une décision** au centre supérieur de la visionneuse de vérification.
 
-1. Dans le **Décision du BAT** qui s’affiche, cliquez sur l’une des décisions suivantes :
+1. Dans la zone **BAT Decision** qui s’affiche, cliquez sur l’une des décisions suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,13 +81,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
      </tr> 
      <tr> 
       <td role="rowheader">Décision personnalisée</td> 
-      <td> <p>Sur les plans Select et Premium, l’administrateur Workfront ou l’administrateur Workfront BAT peut renommer, réorganiser et masquer les décisions. Pour plus d’informations, voir <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configuration des options de décision d’approbation dans le BAT Workfront</a>.</p> </td> 
+      <td> <p>Sur les plans Select et Premium, l’administrateur Workfront ou l’administrateur Workfront Proof peut renommer, réorganiser et masquer les décisions. Pour plus d’informations, voir <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configuration des options de décision d’approbation dans Workfront Proof</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Conditionnel) Si l’administrateur Adobe Workfront ou l’administrateur du Bon à tirer de Workfront a ajouté une section Raisons , sélectionnez les raisons applicables à votre décision. Pour plus d’informations sur la façon dont les administrateurs peuvent configurer des motifs de décision, voir  [Configuration des options de décision d’approbation dans le BAT Workfront](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
-1. (Facultatif) Sélectionnez **M&#39;envoyer une confirmation par email** pour recevoir une confirmation par email de votre décision.
+1. (Conditionnel) Si l’administrateur Adobe Workfront ou l’administrateur Workfront Proof a ajouté une section Raisons , sélectionnez les raisons applicables à votre décision. Pour plus d’informations sur la façon dont les administrateurs peuvent configurer des motifs de décision, voir  [Configurez les options de décision d’approbation dans Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+1. (Facultatif) Sélectionnez **Envoyer une confirmation par courrier électronique** pour recevoir une confirmation par courrier électronique de votre décision.
 1. Cliquez sur **Prendre une décision**.
 
 <!--

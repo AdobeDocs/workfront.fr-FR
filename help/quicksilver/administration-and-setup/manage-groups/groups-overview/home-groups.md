@@ -1,5 +1,5 @@
 ---
-title: Présentation des groupes d’accueil
+title: Vue d’ensemble des groupes résidentiels
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
@@ -11,11 +11,11 @@ exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Présentation des groupes d’accueil
+# Vue d’ensemble des groupes résidentiels
 
 Un groupe d’accueil est attribué dans le profil de l’utilisateur. Tous les utilisateurs doivent disposer d’un groupe d’accueil. Un utilisateur peut appartenir à plusieurs groupes, mais il ne peut avoir qu’un seul groupe d’accueil. Pour plus d’informations sur les groupes, voir [Présentation des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
@@ -31,11 +31,9 @@ Lors de la création de groupes d’accueil, considérez la manière dont votre 
 >[!NOTE]
 >
 >Si vous devez réorganiser vos groupes d’accueil en entités organisationnelles, vous devez utiliser la commande>
->1. Créez un groupe, en suivant la procédure décrite à la section [Création d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
->1. Réaffectez le nouveau groupe en tant que groupe d’accueil de l’utilisateur, comme expliqué à la section [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-
+>1. Créez le groupe, comme expliqué dans la section [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+>1. Réaffectez le nouveau groupe en tant que groupe d’accueil de l’utilisateur, comme expliqué dans la section [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 >
-
 
 ## Gestion des modèles de mise en page
 
@@ -43,7 +41,7 @@ Lorsque vous attribuez un modèle de mise en page à un groupe, tous les utilisa
 
 Si un modèle de mise en page est affecté à un groupe d’accueil, il n’est visible que par les utilisateurs affectés à ce groupe.
 
-Pour plus d’informations, voir [Création et gestion des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) in [Création et gestion des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) dans [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Gestion des licences
 

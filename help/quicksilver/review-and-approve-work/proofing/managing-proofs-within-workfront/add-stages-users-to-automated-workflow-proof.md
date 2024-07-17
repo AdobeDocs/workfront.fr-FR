@@ -1,55 +1,55 @@
 ---
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
-title: Ajout d’étapes et d’utilisateurs à un workflow automatisé sur un BAT
+title: Ajouter des étapes et des utilisateurs et utilisatrices à un workflow automatisé sur une épreuve
 description: Si vous êtes le propriétaire du BAT, vous pouvez ajouter des étapes à un workflow automatisé existant.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 45839f8a-31b2-43a3-a9ea-5437df8cc6b4
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 4%
+source-wordcount: '317'
+ht-degree: 30%
 
 ---
 
-# Ajout d’étapes et d’utilisateurs à un workflow automatisé sur un BAT
+# Ajouter des étapes et des utilisateurs et utilisatrices à un workflow automatisé sur une épreuve
 
 Si vous êtes le propriétaire du BAT, vous pouvez ajouter des étapes à un workflow automatisé existant.
 
-## Exigences d’accès
+## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou version ultérieure</p> <p>ou</p> <p>Plan hérité : Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Travail ou plan</p> <p>Plan hérité : N’importe quel (la vérification doit être activée pour l’utilisateur)</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
    <td>Manager ou version ultérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Paramétrages du niveau d'accès*</td> 
-   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur Workfront s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td> <p>Accès en modification aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront BAT.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
 
 ## Ajout d’étapes et d’utilisateurs à un processus automatisé
 
-1. Dans la liste des documents, passez la souris sur le document, puis cliquez sur **Workflow de vérification** lorsqu’elle s’affiche.
-1. Dans le coin supérieur droit d’Adobe Workfront, cliquez sur **Nouvelle étape**.
+1. Dans la liste des documents, placez le pointeur de la souris sur le document, puis cliquez sur **Processus de vérification** lorsqu’il s’affiche.
+1. Près du coin supérieur droit d’Adobe Workfront, cliquez sur **Nouvelle étape**.
 1. Indiquez les informations suivantes :
 
    <table style="table-layout:auto"> 
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>Ajoutez un nom pour votre scène.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Échéance</strong> </td> 
+      <td role="rowheader"><strong>Deadline</strong> </td> 
       <td>Choisissez une date d'échéance.</td> 
      </tr> 
      <tr> 
@@ -69,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>Choisissez quand l’étape doit s’activer.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Options de date d'échéance</strong> </td> 
+      <td role="rowheader"><strong> Options de date limite</strong> </td> 
       <td>Sélectionnez le mode de déclenchement de l’échéance.</td> 
      </tr> 
      <tr> 
@@ -77,15 +77,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>Choisissez si la scène doit être verrouillée.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Décisionnaire principal</strong> </td> 
-      <td>Indiquez le Principal décideur.</td> 
+      <td role="rowheader"><strong>Décideur de Principal</strong> </td> 
+      <td>Indiquez le décideur principal.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Décision</strong> </td> 
       <td>Choisissez si une seule décision est requise. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Confidentialité</strong> </td> 
+      <td role="rowheader"><strong>Privacy</strong> </td> 
       <td>Choisissez si la scène est privée.</td> 
      </tr> 
      <tr> 
@@ -95,6 +95,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     </tbody> 
    </table>
 
-1. Cliquez sur **Ajout d’une étape**.
+1. Cliquez sur **Ajouter une étape**.
 1. (Facultatif) Répétez les étapes 3 et 4 jusqu’à ce que vous soyez satisfait de votre workflow.
 1. Cliquez sur **Terminé**.

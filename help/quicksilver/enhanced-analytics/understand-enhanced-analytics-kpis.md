@@ -1,5 +1,5 @@
 ---
-title: Présentation des indicateurs clés de performance d’analyse améliorés
+title: Comprendre les KPI d’Analytique améliorée
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
@@ -10,16 +10,16 @@ exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
 source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Présentation des indicateurs clés de performance d’analyse améliorés
+# Comprendre les KPI d’Analytique améliorée
 
 >[!IMPORTANT]
 >
 >Un plan d’entreprise ou une version ultérieure est requis pour utiliser cette fonctionnalité.\
->Pour plus d’informations sur les différents plans disponibles, voir [Formules Adobe Workfront](https://www.workfront.com/plans).
+>Pour plus d’informations sur les différents plans disponibles, voir [Formules Adobe Workfront](https://www.workfront.com/plans?lang=fr).
 
 Dans la partie supérieure de l’écran de la zone Analyses améliorées, quatre indicateurs de performances clés (IPC) s’affichent. Ces mesures vous permettent de déterminer rapidement le temps nécessaire à la réalisation des projets, leur taille et le nombre de projets terminés au cours d’une période donnée. Ces chiffres ne sont pas limités au nombre maximal de 50 projets qui s’affiche pour les visualisations de cette page. Au lieu de cela, ces données sont basées sur tous les projets qui s’appliquent à des filtres définis. Ces chiffres s’ajustent si vous modifiez la période sélectionnée ou l’un des filtres.
 

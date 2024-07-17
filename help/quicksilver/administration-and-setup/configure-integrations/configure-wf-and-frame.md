@@ -1,21 +1,21 @@
 ---
-title: Configurez la variable [!DNL Workfront] et [!DNL Frame.io] integration
+title: Configuration de l'intégration  [!DNL Workfront] et [!DNL Frame.io]
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Comme [!DNL Adobe Workfront] administrateur, vous pouvez intégrer [!DNL Workfront] avec [!DNL Frame.io] et fournir à votre entreprise un moyen transparent de passer en revue et d’approuver les ressources.
+description: En tant qu'administrateur  [!DNL Adobe Workfront] , vous pouvez intégrer  [!DNL Workfront]  à  [!DNL Frame.io]  et offrir à votre entreprise un moyen transparent de passer en revue et d'approuver les ressources.
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-source-git-commit: 089173acb8fecd920ca096c5bf9c6ee61910c20b
+exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
+source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 4%
+ht-degree: 23%
 
 ---
 
-
-# Configurez la variable [!DNL Workfront] et [!DNL Frame.io] integration
+# Configuration de l’intégration [!DNL Workfront] et [!DNL Frame.io]
 
 L’administrateur de Workfront active l’intégration entre Workfront et Frame.io en configurant le compte Frame.io par défaut dans la zone Configuration, puis en désignant les utilisateurs de Frame.io dans Workfront. Cela permet au coordinateur de projet de planifier et de lancer des travaux à l’aide de projets Workfront et de workflows de révision et d’approbation.
 
@@ -24,29 +24,29 @@ L’administrateur de Workfront active l’intégration entre Workfront et Frame
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les organisations qui ont été intégrées au [!DNL Adobe Admin Console].
+>Cette fonctionnalité est disponible uniquement pour les entreprises qui ont été intégrées à [!DNL Adobe Admin Console].
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td>Plan <strong>[!DNL Adobe Workfront]</strong>
    </td>
    <td>N’importe quelle
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licences</strong>
+   <td>Licences <strong>[!DNL Adobe Workfront]</strong>
    </td>
-   <td>Actuel : formule [!UICONTROL] <br>
-   Nouveau : [!UICONTROL Standard]
+   <td>Actuel : [!UICONTROL Plan] <br>
+ Nouveau : [!UICONTROL Standard]
    </td>
   </tr>
 
 <tr>
-   <td><strong>Paramétrages du niveau d'accès</strong>
+   <td><strong> Configurations de niveau d’accès</strong>
    </td>
-   <td>Vous devez être un [!DNL Workfront] administrateur.
+   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront].
    </td>
   </tr>
 
@@ -55,9 +55,9 @@ Vous devez disposer des éléments suivants :
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-## Configuration d’une valeur par défaut [!DNL Frame.io] account [!BADGE Bientôt disponible]{type=Informative}
+## Configurer un compte [!DNL Frame.io] par défaut [!BADGE Bientôt disponible]{type=Informative}
 
-Une fois la valeur par défaut [!DNL Frame.io] est configuré, tout projet créé dans [!DNL Workfront] Créez un projet miroir dans Frame.io.
+Une fois qu’un compte [!DNL Frame.io] par défaut est configuré, tous les projets créés dans [!DNL Workfront] ont un projet miroir créé dans Frame.io.
 
 >[!IMPORTANT]
 >
@@ -73,10 +73,10 @@ Pour configurer un seul compte Frame.io avec un groupe Workfront :
 
 1. Dans le panneau de gauche, cliquez sur **Groupes**.
 1. Sélectionnez un groupe existant ou cliquez sur **Créer un groupe**.
-1. Dans le panneau de gauche, cliquez sur **Connexion à Frame.io**.
-1. Saisissez le jeton développeur de l’API.
+1. Dans le panneau de gauche, cliquez sur **Se connecter à Frame.io**.
+1. Saisissez le jeton de développement d’API.
 1. Cliquez sur **Lancer la connexion**.
-1. (Conditionnel) Si vous êtes administrateur de plusieurs comptes Frame.io, sélectionnez le compte à utiliser.
+1. (Le cas échéant) Si vous êtes administrateur ou administratrice de plusieurs comptes Frame.io, sélectionnez le compte à utiliser.
 
 ## Activation de Frame.io
 
@@ -96,11 +96,10 @@ Pour activer les utilisateurs de Frame.io :
 
 {{step-1-to-users}}
 
-1. Sélectionnez un ou plusieurs utilisateurs, puis cliquez sur le bouton **Modifier** icon ![](assets/edit-icon.png).
+1. Sélectionnez un ou plusieurs utilisateurs, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
 1. Dans la section Accès , cochez la case Ajouter aux projets dans Frame.io , puis sélectionnez **Oui** dans le menu déroulant.
    ![](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >
    >Si cette case n’est pas cochée, l’utilisateur conserve l’accès aux affectations antérieures et est ajouté aux projets Frame.io à partir de maintenant.<!-- If the user is deactivated, they lose all access to previous assignments and are removed from the Frame.io account.-->
-

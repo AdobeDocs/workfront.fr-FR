@@ -18,4 +18,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Les informations contenues dans cet article ont été déplacées. Veuillez consulter [Configuration requise pour le navigateur Adobe Workfront](../../workfront-basics/workfront-browser-requirements.md).
+>Les informations contenues dans cet article ont été déplacées. Voir [Configuration requise du navigateur Adobe Workfront](../../workfront-basics/workfront-browser-requirements.md).

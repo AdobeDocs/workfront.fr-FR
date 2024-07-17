@@ -77,7 +77,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Dans Workfront, affichez les autorisations d’un projet, d’un portfolio ou d’un programme ou davantage d’autorisations</a> </p> 
+   <td> <p>Dans Workfront, affichez ou autorisations supérieures à un projet, un portfolio ou un programme</a> </p> 
    <p>Dans Workfront Planning, Contribute ou autorisations supérieures à un espace de travail</a> </p>  
    <p>Les administrateurs système disposent d’autorisations pour tous les espaces de travail de planification Workfront, y compris ceux qu’ils n’ont pas créés.</p>
 </td>
@@ -117,7 +117,7 @@ Pour plus d’informations, consultez les [Conditions d’accès dans la documen
 1. Cliquez sur le nom d’un objet Workfront dans le champ d’enregistrement connecté.
 La page des objets s’ouvre dans Workfront.
 
-1. Cliquez sur **Planification** dans le panneau de gauche.
+1. Cliquez sur **Planning** dans le panneau de gauche.
 
    >[!NOTE]
    >
@@ -135,13 +135,13 @@ La page des objets s’ouvre dans Workfront.
 
 1. Cliquez sur une carte d’enregistrement pour afficher plus d’informations sur l’enregistrement. La zone d’aperçu des enregistrements s’affiche.
 1. (Facultatif) Commencez à modifier les champs dans la zone d’aperçu de l’enregistrement. Vos modifications sont enregistrées automatiquement.
-1. (Facultatif) Cliquez sur le **Ouvrir dans un nouvel onglet** icon ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page des détails de l’enregistrement. La page de détails de l’enregistrement s’ouvre dans Workfront Planning.
-1. Pointez sur une carte d’enregistrement, puis cliquez sur l’icône de déconnexion d’enregistrement. **-**, puis cliquez sur **Déconnecter**.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page de détails de l’enregistrement. La page de détails de l’enregistrement s’ouvre dans Workfront Planning.
+1. Pointez sur une carte d’enregistrement, puis cliquez sur l’icône de déconnexion d’enregistrement **-**, puis cliquez sur **Déconnecter**.
 Les événements suivants se produisent :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
    * L’objet Workfront est également supprimé du champ connecté de l’enregistrement de Workfront Planning.
    * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont également supprimées.
-1. Cliquez sur **Connexion** pour connecter d’autres enregistrements.
+1. Cliquez sur **Se connecter** pour connecter d&#39;autres enregistrements.
 
    >[!NOTE]
    >

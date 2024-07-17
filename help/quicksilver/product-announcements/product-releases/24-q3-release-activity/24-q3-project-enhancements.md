@@ -16,7 +16,7 @@ ht-degree: 45%
 
 Cette page décrit toutes les améliorations de projet apportées à la version du troisième trimestre 2024 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, voir [Présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2024, consultez la [présentation de la version du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## Modifiez la tâche et publiez la condition et la date de validation dans la section d’en-tête ou de détails.
@@ -29,8 +29,8 @@ Pour faciliter la mise à jour des tâches et des problèmes, nous avons mainten
 
 Pour plus d’informations sur la mise à jour de la date de validation et de la condition, voir les articles suivants :
 
-* [Mise à jour de la condition pour les tâches et les problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
-* [Mise à jour de la date de validation sur les tâches et les problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+* [Mettre à jour la condition pour les tâches et les problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Mettre à jour la date de validation sur les tâches et les problèmes](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 [Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 

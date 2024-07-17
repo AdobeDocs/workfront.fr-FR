@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Améliorations du projet 2019.1
+title: Améliorations des projets (version 2019.1)
 description: Cette page décrit toutes les améliorations de projet incluses dans la version 2019.1. Cette fonctionnalité est actuellement disponible dans l’environnement Aperçu . Elle sera mise à disposition dans l’environnement de production de .
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ---
 
-# Améliorations du projet 2019.1
+# Améliorations des projets (version 2019.1)
 
 Cette page décrit toutes les améliorations de projet incluses dans la version 2019.1. Cette fonctionnalité est actuellement disponible dans l’environnement Aperçu . Elle sera mise à disposition dans l’environnement de production de .
 
@@ -26,23 +26,23 @@ Pour obtenir la liste de toutes les modifications apportées à la version 2019.
 
 **Pour les administrateurs**
 
-* [Restaurer des modèles à partir de la corbeille](#restore-templates-from-the-recycle-bin)
+* [Restaurer des modèles à partir de la Corbeille](#restore-templates-from-the-recycle-bin)
 * [Afficher les horodatages des champs de date à l’accueil](#show-timestamps-for-date-fields-in-home)
 * [Tous les types de durée disponibles sous Préférences de projet](#all-duration-types-available-under-project-preferences)
 
 **Pour tous les utilisateurs**
 
 * [Améliorations rapides](#agile-improvements)
-* [Ajout de tâches et de problèmes d’une liste à une itération](#add-tasks-and-issues-from-a-list-to-an-iteration)
-* [Nouvelles tailles de papier pour l’exportation du graphique Gantt](#new-paper-sizes-for-gantt-chart-export)
+* [Ajouter des tâches et des problèmes d’une liste à une itération](#add-tasks-and-issues-from-a-list-to-an-iteration)
+* [Nouvelles tailles de papier pour l’exportation de diagramme de Gantt](#new-paper-sizes-for-gantt-chart-export)
 * [Suppression de l’accès aux boîtes de dialogue dans le diagramme de Gantt en mode d’édition](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [Affichage des informations sur les tâches dans le diagramme de Gantt de liste de projets dans un programme ou un Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [ Afficher les informations sur la tâche dans le diagramme de Gantt de liste de projets dans un programme ou un Portfolio ](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
 * [Accès au diagramme de Gantt de la liste des tâches sur les modèles](#access-the-task-list-gantt-chart-on-templates)
-* [Modification du nom de la vue Projet sur le diagramme de Gantt](#renamed-the-project-view-on-the-gantt-chart)
-* [Scénarios d’hypothèses dans le diagramme de Gantt de la liste des tâches](#what-if-scenarios-in-the-task-list-gantt-chart)
+* [Modification du nom de la vue du projet sur le diagramme de Gantt](#renamed-the-project-view-on-the-gantt-chart)
+* [Scénarios d’hypothèses dans le diagramme de Gantt de liste de tâches](#what-if-scenarios-in-the-task-list-gantt-chart)
 * [Améliorations de la liste des tâches](#task-list-improvements)
-* [Afficher les listes en plein écran](#display-lists-in-full-screen)
-* [Nouvelles listes dans d’autres zones](#new-lists-in-additional-areas)
+* [Listes d’affichage en plein écran](#display-lists-in-full-screen)
+* [Nouvelles listes dans des zones supplémentaires](#new-lists-in-additional-areas)
 * [Envoyer un rapport distribué au format XLSX](#send-a-delivered-report-in-xlsx-format)
 * [Exporter les journaux d’audit](#export-audit-logs)
 
@@ -128,7 +128,7 @@ Pour plus d’informations sur la planification des rapports pour la remise, voi
 
 ## Améliorations de la liste des tâches {#task-list-improvements}
 
-[mettre à jour la version 18.3 bêta 4 où elle a été supprimée de]
+[Mettez à jour la version 18.3 de Beta 4 où ceci a été supprimé de]
 
 Les listes de tâches nouvellement repensées ont été réactivées, après une brève suppression au cours de la version 18.3 bêta 4. Nous avons également ajouté les fonctionnalités supplémentaires suivantes aux listes de tâches qui ne faisaient pas partie de la version d’origine :
 

@@ -2,7 +2,7 @@
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
-title: Présentation des vues dans Adobe Workfront
+title: Vue d’ensemble des vues dans Adobe Workfront
 description: Vous pouvez personnaliser le type d’informations que vous affichez dans une liste ou un rapport en gérant l’affichage de la liste ou du rapport. Vous pouvez afficher les objets et leurs attributs dans une vue.
 author: Nolan
 feature: Reports and Dashboards
@@ -10,11 +10,11 @@ exl-id: 18016417-e24d-4797-9422-00915db47bb9
 source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Présentation des vues dans Adobe Workfront
+# Vue d’ensemble des vues dans Adobe Workfront
 
 <!--Audited: 01/2024-->
 
@@ -25,10 +25,10 @@ Vous pouvez personnaliser le type d’informations que vous affichez dans une li
 * Vous pouvez personnaliser des vues existantes. Tous les utilisateurs qui peuvent afficher les vues peuvent également voir vos modifications.
 * L’administrateur d’Adobe Workfront doit vous accorder l’accès aux filtres, vues et groupes de modification pour pouvoir créer des vues.
 
-  Pour plus d’informations sur l’octroi de l’accès, voir [Accorder l’accès aux filtres, vues et regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Pour plus d’informations sur l’octroi de l’accès, voir [Octroi de l’accès aux filtres, vues et regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Le niveau d’autorisation d’une vue détermine le mode d’enregistrement d’une vue. Si vous avez créé la vue à l’origine, vous pouvez enregistrer les modifications, sinon vous êtes invité à enregistrer une version de la vue. Si vous apportez des modifications à une vue que vous avez partagée avec d’autres, cela les impacte également.
-* Vous pouvez personnaliser une vue qui a été partagée avec vous uniquement si l’utilisateur qui l’a partagée vous a accordé l’accès Gérer . Pour plus d’informations sur le partage d’une vue, voir [Partager un filtre, une vue ou un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Vous pouvez personnaliser une vue qui a été partagée avec vous uniquement si l’utilisateur qui l’a partagée vous a accordé l’accès Gérer . Pour plus d&#39;informations sur le partage d&#39;une vue, voir [Partage d&#39;un filtre, d&#39;une vue ou d&#39;un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 Vous pouvez personnaliser des vues existantes, créer des vues d’après des vues existantes ou créer des vues de toutes pièces.
 
@@ -39,7 +39,7 @@ Vous trouverez ci-dessous les types de vues que vous pouvez appliquer dans les l
 <table style="table-layout:auto">
     <tr>
         <td><strong>Vues standard</strong></td>
-        <td>Vous pouvez les appliquer à n’importe quelle liste ou rapport d’objets. Les vues standard sont hautement personnalisables. Vous pouvez personnaliser et partager une vue standard avec d’autres utilisateurs. Pour plus d’informations, voir <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Création ou modification de vues dans Adobe Workfront</a>.</td>
+        <td>Vous pouvez les appliquer à n’importe quelle liste ou rapport d’objets. Les vues standard sont hautement personnalisables. Vous pouvez personnaliser et partager une vue standard avec d’autres utilisateurs. Pour plus d’informations, voir <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Créer ou modifier des vues dans Adobe Workfront</a>.</td>
     </tr>
     <tr>
         <td><strong>Vue agile</strong></td>
@@ -53,14 +53,14 @@ Vous trouverez ci-dessous les types de vues que vous pouvez appliquer dans les l
 
 <!--NOTE FOR MAYBE LATER: consider adding calendar and board views, or Milestone view (not customizable) to this list of views (above)?! -->
 
-## Partage d’une vue
+## Partager une vue
 
-Pour plus d’informations sur le partage d’une vue, voir [Partager un filtre, une vue ou un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Pour plus d&#39;informations sur le partage d&#39;une vue, voir [Partage d&#39;un filtre, d&#39;une vue ou d&#39;un regroupement](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Suppression d’une vue
 
 La possibilité de supprimer une vue fonctionne différemment selon que vous avez initialement créé la vue ou que la vue a été partagée avec vous. Vous ne pouvez pas supprimer une vue par défaut.
 
-Pour plus d’informations, voir [Suppression des filtres, des vues et des regroupements](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+Pour plus d’informations, voir [Suppression de filtres, de vues et de regroupements](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 

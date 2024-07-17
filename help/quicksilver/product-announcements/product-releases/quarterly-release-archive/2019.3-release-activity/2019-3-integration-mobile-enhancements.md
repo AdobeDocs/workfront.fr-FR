@@ -2,7 +2,7 @@
 product-previous: mobile
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
-title: 2019.3 Améliorations de l’intégration et des mobiles
+title: Améliorations apportées à l’application mobile et à l’intégration (version 2019.3)
 description: Cette page décrit toutes les modifications apportées à l’intégration et aux améliorations apportées aux appareils mobiles avec la version 2019.3. Il a été rendu disponible dans l’environnement de production dans la semaine du 19 août 2019.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
@@ -11,23 +11,23 @@ exl-id: 15e03405-63ff-48ea-b873-cf44f1f46282
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 2019.3 Améliorations de l’intégration et des mobiles
+# Améliorations apportées à l’application mobile et à l’intégration (version 2019.3)
 
 Cette page décrit toutes les modifications apportées à l’intégration et aux améliorations apportées aux appareils mobiles avec la version 2019.3. Il a été rendu disponible dans l’environnement de production dans la semaine du 19 août 2019.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2019.3, voir [Présentation de l’activité de la version 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées en 2019.3, consultez la [présentation de l’activité de version 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Prise en charge des éléments partagés dans l’intégration de MS OneDrive
 
 Vous pouvez maintenant lier vos fichiers et dossiers OneDrive partagés aux objets Workfront. À l’inverse, vous pouvez charger des fichiers dans Workfront vers des dossiers partagés dans OneDrive.
 
-Pour plus d’informations, voir les sections [Liaison d’un document externe à Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Lier un ou plusieurs dossiers externes](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder), et [Mise à jour et liaison d’un document de Workfront à un fournisseur cloud externe](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) dans l’article [Liaison de documents à partir d’applications externes](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Pour plus d’informations, reportez-vous aux sections [Lier un document externe vers Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Lier un ou plusieurs dossiers externes](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder) et [Mettre à jour et lier un document de Workfront à un fournisseur cloud externe](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) dans l’article [  Lier des documents à partir d’applications externes](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Pour plus d’informations, voir la section [Liaison d’un document externe à Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) dans l’article [Liaison de documents à partir d’applications externes](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Pour plus d’informations, reportez-vous à la section [Lier un document externe à Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) de l’article [Lier des documents d’applications externes](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Spécification de domaine requise pour toutes les connexions Workfront
 
@@ -39,9 +39,9 @@ Cette modification peut avoir une incidence sur les connexions utilisateur et le
 
   Si le domaine de votre société n’est pas inclus dans l’URL de Workfront, un nouveau champ Domaine s’affiche désormais dans l’écran de connexion, en plus des champs Nom d’utilisateur et Mot de passe .
 
-  Pour la plupart des clients, aucune modification n’est requise, car les informations de domaine sont déjà incluses dans l’URL Workfront. Par exemple, &quot;*domain*.my.workfront.com.&quot;
+  Pour la plupart des clients, aucune modification n’est requise, car les informations de domaine sont déjà incluses dans l’URL Workfront. Par exemple, &quot;*domain*.my.workfront.com&quot;.
 
-* **Intégrations d’API**
+* **Intégrations API**
 
   Si un code d’API est envoyé à une adresse qui n’inclut pas votre nom de domaine, il ne fonctionnera plus.
 
@@ -55,13 +55,13 @@ Vous pouvez désormais convertir des tâches et des problèmes individuels en pr
 
 En fonction de votre appareil, vous pouvez choisir de vous connecter à l’application mobile Workfront à l’aide de la technologie d’empreinte digitale ou d’identification faciale. Lorsque vous vous connectez à l’application mobile, vous serez invité à vous connecter à l’aide de la méthode d’authentification prise en charge par votre téléphone.
 
-Pour plus d’informations sur la gestion de cette fonctionnalité, voir [Adobe Workfront pour iOS](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) ou [Adobe Workfront pour Android](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Pour plus d’informations sur la gestion de cette fonctionnalité, voir [Adobe Workfront for iOS](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) ou [Adobe Workfront for Android](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 ## Nouveau paramètre pour déconnecter automatiquement les utilisateurs sur mobile
 
 Afin de rendre l’application mobile Workfront plus sécurisée pour vous et votre entreprise, les utilisateurs seront automatiquement déconnectés après 15 jours d’inactivité. Les administrateurs de Workfront peuvent personnaliser cette limite de temps dans l’application web sous Configuration > Système > Préférences.
 
-Pour plus d’informations, voir [Configuration des préférences de sécurité système](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Pour plus d’informations, voir [Configuration des préférences de sécurité du système](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## L’application mobile nécessite un domaine lors de la connexion
 
@@ -85,7 +85,7 @@ Vous pouvez désormais supprimer des objets tels que des tâches, des problèmes
 
 >[!NOTE]
 >
->Cette fonctionnalité sera disponible dans les boutiques d’applications pour iOS et Android au cours de la semaine du 19 août 2019.
+>Cette fonctionnalité sera disponible dans les boutiques d’applications d’iOS et d’Android au cours de la semaine du 19 août 2019.
 
 Nous avons ajouté l’option de filtrage Projets en échec sous l’onglet Projets de l’application mobile.
 

@@ -1,6 +1,6 @@
 ---
-title: 21.4 Améliorations apportées aux administrateurs
-description: 21.4 Améliorations apportées aux administrateurs
+title: Améliorations apportées à l’administration (version 21.4)
+description: Améliorations apportées à l’administration (version 21.4)
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
@@ -9,23 +9,23 @@ exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1891'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 21.4 Améliorations apportées aux administrateurs
+# Améliorations apportées à l’administration (version 21.4)
 
 Cette page décrit toutes les améliorations apportées par l’administrateur à la version 21.4 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 4 octobre 2021.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, voir [Présentation de la version 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 21.4, reportez-vous à la [21.4 Release Overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Pour les administrateurs : voir les groupes associés à un processus d’approbation
 
 Pour vous aider à déterminer les groupes qui sont associés aux processus de validation de votre système, nous avons ajouté une colonne Nom de groupe à la vue Standard sur la page Validations de la configuration. Vous pouvez désormais afficher ces informations sans avoir à créer une vue personnalisée.
 
-Pour plus d’informations sur les processus d’approbation, voir [Présentation du processus de validation](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Pour plus d’informations sur les processus d’approbation, voir [Présentation des processus d’approbation](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-Pour plus d’informations sur la gestion des processus d’approbation de groupe, voir [Processus de validation au niveau du groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+Pour plus d’informations sur la gestion des processus d’approbation de groupe, voir [Processus d’approbation au niveau du groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 ## Nouveau pour les administrateurs : les groupes peuvent configurer leurs propres préférences de feuille de temps et d’heure.
 
@@ -37,9 +37,9 @@ Dans une grande entreprise, certains groupes peuvent avoir besoin de configurer 
 
 Cette fonctionnalité a également été ajoutée récemment pour les préférences de projet et de tâche et de problème.
 
-Pour plus d’informations sur la façon dont un administrateur Workfront déverrouille une feuille de temps et des préférences d’heure, consultez la section . [Déverrouiller les préférences de feuille de temps et d’heure pour les groupes ;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) dans l’article [Configuration des préférences de feuille de temps et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Pour plus d’informations sur la façon dont un administrateur Workfront déverrouille une feuille de temps et des préférences d’heure, reportez-vous à la section [ Déverrouiller les préférences d’heure et d’heure pour les groupes](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) de l’article [ Configuration des préférences d’heure et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Pour plus d’informations sur la façon dont un administrateur de groupe configure une tâche déverrouillée et les préférences de problème pour un groupe, voir [Configuration des préférences de feuille de temps et d’heure pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Pour plus d’informations sur la façon dont un administrateur de groupe configure une tâche déverrouillée et émet des préférences pour un groupe, voir [ Configuration des préférences de feuille de temps et d’heure pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Nouveau pour les administrateurs de Workfront : Configuration de modèles de mise en page pour les utilisateurs configurés automatiquement dans la nouvelle expérience Workfront
 
@@ -51,7 +51,7 @@ Pour plus d’informations sur le mappage des attributs utilisateur, voir [Mappa
 
 Il est maintenant facile de déterminer à quels groupes vos utilisateurs appartiennent. Dans un rapport ou une vue qui répertorie les utilisateurs, vous pouvez créer une colonne à l’aide du nouveau champ Autres groupes . Ce champ répertorie les groupes auxquels chaque utilisateur est membre.
 
-Pour plus d’informations sur l’utilisation des rapports et des vues, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) et [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Pour plus d’informations sur l’utilisation des rapports et des vues, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) et [Aperçu des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## La page de détails des plans directeurs affiche désormais une image.
 
@@ -79,7 +79,7 @@ Pour plus d’informations, voir [Configuration d’un plan directeur](../../../
 
 Nous continuons à faciliter la gestion de vos groupes et de leurs objets associés au même endroit. Vous pouvez désormais afficher et utiliser les éléments récemment supprimés et restaurés d’un groupe dans la zone Groupes . Cela vous évite d’avoir à accéder à la zone Récemment supprimés ou Récemment restaurés dans Configuration pour gérer ces éléments. Et il conserve la liste des éléments de groupe avec lesquels vous travaillez séparément des autres éléments supprimés et restaurés dans le système.
 
-Pour plus d’informations, voir [Afficher et gérer les éléments récemment supprimés d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) et [Affichage et gestion des éléments récemment restaurés d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+Pour plus d’informations, voir [Affichage et gestion des éléments récemment supprimés d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) et [Affichage et gestion des éléments récemment restaurés d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
 
 ## Nouveautés pour les administrateurs de groupe : les préférences de groupe affectent désormais les modèles de groupe.
 
@@ -102,13 +102,13 @@ Auparavant, les modèles de projet et les tâches de modèle de projet héritaie
 
 Si vous créez une tâche de modèle ou de modèle sans groupe (par exemple, à partir de la page Modèles principale), les paramètres ci-dessus sont hérités des préférences de projet et de tâche au niveau du système. Cependant, si vous attribuez par la suite un groupe à la tâche de modèle ou de modèle, les préférences du groupe ne l’affectent pas.
 
-Pour plus d’informations, voir la section Comment les préférences s’appliquent aux modèles et aux tâches de modèle dans l’article [Créer et modifier des modèles de projet de groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+Pour plus d’informations, voir la section Comment les préférences s’appliquent aux modèles et aux tâches de modèle dans l’article [Créer et modifier les modèles de projet d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 ## Nouveau pour les administrateurs : découvrez les formulaires personnalisés qui utilisent un champ personnalisé.
 
 Il est désormais plus facile de modifier un champ personnalisé dans un formulaire personnalisé. En un seul clic dans le formulaire personnalisé, vous pouvez découvrir d’autres formulaires personnalisés qui utilisent également le champ . Il est important d’évaluer si ces formulaires devront être ajustés afin de continuer à fonctionner correctement après avoir apporté la modification.
 
-Pour plus d’informations, voir [Afficher tous les formulaires personnalisés qui utilisent un champ ou un widget personnalisé spécifique](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
+Pour plus d’informations, voir [Affichage de tous les formulaires personnalisés qui utilisent un champ ou un widget personnalisé spécifique](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
 
 ## Nouveau pour les administrateurs de groupe : Verrouillage et déverrouillage des préférences de projet, de tâche et de problème pour un groupe
 
@@ -118,7 +118,7 @@ Vous pouvez maintenant vous assurer que tous les membres des sous-groupes situé
 
   Inversement, vous pouvez déverrouiller une préférence pour votre groupe. Cela permet aux administrateurs de sous-groupes de le configurer pour répondre aux besoins uniques de leurs utilisateurs en termes de projet, de tâche ou de processus de publication.
 
-  Pour plus d’informations, voir [Verrouillage ou déverrouillage d’un projet, d’une tâche ou d’une préférence d’émission pour les sous-groupes](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  Pour plus d’informations, voir [Verrouillage ou déverrouillage d’un projet, d’une tâche ou de préférences d’émission pour les sous-groupes](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 * Si vous êtes administrateur Workfront, il n’est pas nécessaire d’accéder à la zone Groupes pour configurer les préférences d’un sous-groupe. Dans la zone principale Préférences du projet, Préférences des tâches et des problèmes ou Préférences des heures et des heures, vous pouvez utiliser la zone de recherche située en haut de la page pour trouver le sous-groupe et configurer ses préférences.
 
@@ -132,7 +132,7 @@ Vous pouvez maintenant vous assurer que tous les membres des sous-groupes situé
 
 Nous continuons à faciliter la gestion de vos groupes et de leurs objets associés au même endroit. Vous pouvez désormais afficher et utiliser les modèles d’un groupe à partir de la zone Groupes de la section Configuration. Cela vous évite d’avoir à accéder à la zone Modèles pour gérer les modèles d’un groupe. Et il conserve la liste des modèles de groupe sur lesquels vous travaillez séparément des autres dans tout le système.
 
-Pour plus d’informations, voir [Créer et modifier des modèles de projet de groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+Pour plus d’informations, voir [Création et modification de modèles de projet d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 ## Saisie et enregistrement des informations dans un formulaire personnalisé joint à la fois
 
@@ -162,7 +162,7 @@ Les administrateurs Workfront peuvent également effectuer ces opérations (pour
 
 Auparavant, cette fonctionnalité n’était disponible que pour les groupes de niveau supérieur.
 
-Pour plus d’informations, voir [Gestion des états d’un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+Pour plus d’informations, voir [Gestion des états de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
 ## Nouveau pour les administrateurs de Workfront : migrez vous-même les modèles de mise en page de Workfront Classic vers la nouvelle expérience Workfront
 

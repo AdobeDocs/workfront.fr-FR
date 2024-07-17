@@ -11,8 +11,8 @@ role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 1%
+source-wordcount: '1495'
+ht-degree: 6%
 
 ---
 
@@ -20,26 +20,26 @@ ht-degree: 1%
 
 Cet article explique ce qui se passe lorsqu’un processus de validation est déjà associé à des tâches, des problèmes, des projets, des modèles ou des tâches de modèle, et qu’un administrateur Workfront (ou un utilisateur ayant un accès administratif aux processus de validation) effectue l’une des opérations suivantes :
 
-* Modifie le processus d’approbation (au niveau du groupe) d’un groupe à un autre.
-* Modifie le groupe associé au projet.
-* Modifie le processus d’approbation du niveau du groupe au niveau du système.
-* Modifie le processus d’approbation du niveau du système au niveau du groupe.
+* Modification du processus d’approbation (au niveau du groupe) d’un groupe à un autre
+* Modifie le groupe associé au projet
+* Modification du processus d’approbation au niveau du groupe au niveau du système
+* Modification du processus d’approbation du niveau du système au niveau du groupe
 
 L’article décrit également ce qui se passe lors du déplacement ou de la copie de tâches ou de problèmes associés à un processus d’approbation au niveau du groupe entre deux projets de différents groupes.
 
-Pour plus d’informations sur les trois types de processus d’approbation que vous pouvez utiliser dans Workfront, voir [Présentation du processus de validation](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Pour plus d’informations sur les 3 types de processus d’approbation que vous pouvez utiliser dans Workfront, voir [Présentation du processus d’approbation](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
 >[!NOTE]
 >
->Si le projet, ou ses tâches ou problèmes sont déjà associés à un processus d’approbation au niveau du groupe à l’aide d’états personnalisés au niveau du groupe, la modification du groupe peut créer un conflit entre les états d’approbation du groupe précédent et ceux existant au niveau du système.
+>Si le projet, ses tâches ou ses problèmes sont déjà associés à un processus d’approbation au niveau du groupe à l’aide de statuts personnalisés au niveau du groupe, le changement de groupe peut créer un conflit entre les statuts d’approbation du groupe précédent et ceux existant au niveau du système.
 >
 >Par exemple, si un processus d’approbation contient deux chemins d’accès, l’un pour un état au niveau du système et l’autre pour un état au niveau du groupe qui correspond au même état au niveau du système, la modification du groupe du projet d’origine entraîne des difficultés pour Workfront à comprendre l’état spécifique du groupe qui peut ne pas exister sur le second groupe. Dans ce cas, une erreur se produira.
 >
 >Envisagez de supprimer les processus d’approbation au niveau du groupe sur le projet, ou ses tâches ou problèmes avant de mettre à jour le groupe du projet.
 >
->Pour plus d’informations sur la création de processus d’approbation au niveau du groupe, voir [Processus de validation au niveau du groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+>Pour plus d’informations sur la création de processus d’approbation au niveau du groupe, voir [Processus d’approbation au niveau du groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 >
->Pour plus d’informations sur la création d’un état personnalisé au niveau du groupe, voir [Création ou modification d’un état de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
+>Pour plus d’informations sur la création d’un statut personnalisé au niveau du groupe, voir [Créer ou modifier un statut de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
 ## Modification du processus d’approbation d’un groupe d’un groupe à un autre
 
@@ -124,7 +124,7 @@ Lorsqu’une personne modifie le groupe associé à un projet en un autre groupe
   <tr> 
    <td>Zone Tâches de la zone Modifier le projet ou Modifier le modèle</td> 
    <td>Tâche</td> 
-   <td> <p>Le champ Processus d’approbation par défaut de la tâche est réinitialisé sur S.O.</p> <p>Par défaut, aucun processus de validation n’est associé à de nouvelles tâches sur le projet.</p> </td> 
+   <td> <p>Le champ Processus d’approbation par défaut de la tâche est réinitialisé sur S.O.</p> <p>Par défaut, aucun processus de validation n’est associé aux nouvelles tâches du projet.</p> </td> 
   </tr> 
   <tr> 
    <td>Section Détails de la file d’attente d’un projet ou d’un modèle</td> 
@@ -226,7 +226,7 @@ Lorsqu’une personne modifie la disponibilité d’un processus d’approbation
   </tr> 
   <tr> 
    <td>Tâche, projet, problème, modèle ou tâche de modèle qui appartient à un groupe autre que le groupe du processus de validation</td> 
-   <td> <p>Projets</p> <p>Tâches</p> <p>Événements</p> </td> 
+   <td> <p>Projets</p> <p>Tâches</p> <p>Problèmes</p> </td> 
    <td>Devient un processus d’approbation à usage unique</td> 
   </tr> 
   <tr> 
@@ -236,18 +236,18 @@ Lorsqu’une personne modifie la disponibilité d’un processus d’approbation
   </tr> 
   <tr> 
    <td>Section Détails de la file d’attente pour un projet ou un modèle qui appartient à un groupe autre que le groupe du processus d’approbation</td> 
-   <td>Événements</td> 
+   <td>Problèmes</td> 
    <td> <p>Le champ Approbation par défaut est réinitialisé sur S.O.</p> <p>Par défaut, aucun processus de validation n’est associé à de nouveaux problèmes ou demandes sur le projet.</p> </td> 
   </tr> 
   <tr> 
    <td>Section Rubrique de file d’attente pour un projet ou un modèle qui appartient à un groupe autre que le groupe du processus d’approbation</td> 
-   <td>Événements</td> 
+   <td>Problèmes</td> 
    <td> <p>Le champ Approbation par défaut est réinitialisé sur S.O.</p> <p>Par défaut, aucun processus de validation n’est associé à de nouveaux problèmes ou demandes sur le projet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Déplacement ou copie d’une tâche ou d’un problème vers un projet avec un groupe différent de celui du processus d’approbation
+## Déplacer ou copier une tâche ou un problème vers un projet avec un groupe différent de celui du processus d’approbation
 
 Le déplacement ou la copie d’une tâche ou d’un problème d’un projet à un autre peut affecter les processus d’approbation existants sur la tâche ou le problème selon les groupes des deux projets. Le tableau suivant illustre les scénarios qui peuvent exister :
 

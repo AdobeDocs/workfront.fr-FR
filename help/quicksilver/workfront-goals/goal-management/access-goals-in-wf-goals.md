@@ -9,7 +9,7 @@ exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -75,18 +75,18 @@ Pour effectuer les activités décrites dans cet article, vous devez disposer de
     </div> </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
+   <td role="rowheader"><p>Modèle de disposition</p></td>
    <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
  </tbody> 
 </table>
 
-*Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Accès aux objectifs Workfront
 
-1. Cliquez sur le bouton **Menu Principal** icon ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Objectifs**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -154,13 +154,13 @@ To access an individual goal in the Production environment:
 
 Pour accéder à un objectif individuel :
 
-1. Cliquez sur le bouton **Menu Principal** dans le coin supérieur droit de Workfront, puis cliquez sur **Objectifs** .
+1. Cliquez sur l’icône **Menu principal** dans le coin supérieur droit de Workfront, puis cliquez sur **Objectifs** .
 La liste des objectifs s’affiche par défaut.
    ![](assets/goal-list-unshimmed.png)
 1. Cliquez sur le nom d’un objectif dans la liste.
 La page de l’objectif s’affiche.
    ![](assets/goal-page-unshimmed.png)
-1. Cliquez sur le bouton **Plus** menu ![](assets/more-icon.png) à droite du nom de l’objectif pour modifier ou partager l’objectif.
-1. Cliquez sur **Détails de l’objectif** dans le panneau de gauche pour modifier des informations sur l’objectif. Pour plus d’informations, voir [Mise à jour des objectifs dans la section Détails des objectifs d’Adobe Workfront](../goal-management/update-goals-in-goal-details-panel.md).
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) situé à droite du nom de l’objectif pour modifier ou partager l’objectif.
+1. Cliquez sur **Détails de l’objectif** dans le panneau de gauche pour modifier les informations sur l’objectif. Pour plus d’informations, voir [Mise à jour des objectifs dans la section Détails de l’objectif dans les objectifs Adobe Workfront](../goal-management/update-goals-in-goal-details-panel.md).
 
 

@@ -2,7 +2,7 @@
 product-previous: mobile
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: 2020.1 Améliorations mobiles
+title: Améliorations apportées à l’application mobile (version 2020.1)
 description: Cette page décrit toutes les améliorations apportées à Mobile avec la version 2020.1.
 author: Luke
 feature: Product Announcements
@@ -11,15 +11,15 @@ exl-id: 8ae95f1e-5241-465d-8cf1-2d4353077b6a
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 2020.1 Améliorations mobiles
+# Améliorations apportées à l’application mobile (version 2020.1)
 
 Cette page décrit toutes les améliorations apportées à Mobile avec la version 2020.1.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.1, voir [Présentation de la version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.1, consultez la [présentation de la version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Expérience transparente entre l’application mobile et le web
 
@@ -31,4 +31,4 @@ Pour en savoir plus sur la personnalisation du panneau de gauche, voir [Personna
 
 Utilisez le nouveau bouton J’aime de l’onglet Mises à jour pour aimer une mise à jour.
 
-Pour plus d’informations, voir [Adobe Workfront pour iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) et [Adobe Workfront pour Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Pour plus d’informations, voir [Adobe Workfront for iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) et [Adobe Workfront for Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).

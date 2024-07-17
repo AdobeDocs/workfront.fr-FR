@@ -10,7 +10,7 @@ exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
 source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 12%
+ht-degree: 27%
 
 ---
 
@@ -38,15 +38,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau :<ul><li>Contributeur à la modification d’une vue</li><li>Standard pour modifier un rapport</li></ul></p><p>Ou</p>Actuel :<ul><li>Demande de modification d’une vue</li><li>Prévoir de modifier un rapport</li></ul></p> </td> 
+   <td> <p>Nouveau :<ul><li>Contributeur à la modification d’une vue</li><li>Standard pour modifier un rapport</li></ul></p><p>Ou</p>Actuel :<ul><li>Demander la modification d’une vue</li><li>Prévoir la modification d’un rapport</li></ul></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour la modification d’un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> </td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> </td> 
   </tr>  
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gestion des autorisations d’un rapport</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,12 +59,12 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 >[!IMPORTANT]
 >
->Si vous modifiez manuellement la largeur d’une colonne comme décrit dans la section [Modifier temporairement la largeur et l’ordre des colonnes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) dans l’article [Modification de la largeur et de l’ordre des colonnes](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) après avoir modifié la largeur de la colonne de manière permanente, celle-ci est conservée en fonction de votre redimensionnement manuel. Dans ce cas, la largeur de la colonne mise à jour selon les étapes suivantes est écrasée. Vous pouvez afficher la colonne en fonction de la largeur définie dans les étapes suivantes après avoir vidé le cache ou vous être connecté à partir d’un autre navigateur.
+>Si vous modifiez manuellement la largeur d’une colonne comme décrit dans la section [Modifier temporairement la largeur et l’ordre des colonnes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) de l’article [Modifier la largeur et l’ordre des colonnes](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) après avoir modifié définitivement la largeur de la colonne, la largeur de la colonne est conservée en fonction de votre redimensionnement manuel. Dans ce cas, la largeur de la colonne mise à jour selon les étapes suivantes est écrasée. Vous pouvez afficher la colonne en fonction de la largeur définie dans les étapes suivantes après avoir vidé le cache ou vous être connecté à partir d’un autre navigateur.
 >
->Pour plus d’informations sur la personnalisation de la largeur des colonnes lors de l’utilisation de l’interface du mode Texte, voir les définitions &quot;largeur&quot; et &quot;étirement&quot; dans la section [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+>Pour plus d’informations sur la personnalisation de la largeur des colonnes lors de l’utilisation de l’interface du mode Texte, voir les définitions &quot;largeur&quot; et &quot;extension&quot; dans le [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Accédez à une liste d’objets.
-1. Dans la **Affichage** menu déroulant, cliquez sur **Nouvelle vue**.
+1. Dans le menu déroulant **Vue**, cliquez sur **Nouvelle vue**.
 
 1. Cliquez sur **Ajouter une colonne** pour ajouter une nouvelle colonne.
 
@@ -81,8 +81,8 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
    usewidths=true
    ```
 
-   Pour le **width** ligne, spécifiez un nombre (en pixels) représentant la largeur de la colonne à afficher dans la vue.
+   Pour la ligne **width**, spécifiez tout nombre (en pixels) représentant la largeur de la colonne à afficher dans la vue.
 
-1. Cliquez sur **Enregistrer**, puis **Enregistrer la vue**.
+1. Cliquez sur **Enregistrer**, puis sur **Enregistrer la vue**.
 
 

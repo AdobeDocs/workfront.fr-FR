@@ -48,15 +48,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 ## Aperçu et fin de la création d’un formulaire personnalisé
 
-1. Commencer à créer et configurer un formulaire personnalisé, comme décrit dans les articles [Création ou modification d’un formulaire personnalisé avec le créateur de formulaires hérité](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Ajout d’un champ personnalisé à un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé à l’aide de l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md), etc.
+1. Commencez à créer et configurer un formulaire personnalisé, comme décrit dans les articles [Créer ou modifier un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Ajouter un champ personnalisé à un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md), etc.
 
-1. (Facultatif) Cliquez sur **Aperçu** pour voir à quoi ressemblera le formulaire lors de son utilisation, puis cliquez sur **Aperçu de la fin** pour revenir à la modification du formulaire.
+1. (Facultatif) Cliquez sur **Aperçu** pour voir à quoi ressemblera le formulaire lors de son utilisation, puis cliquez sur **Terminer l’aperçu** pour revenir à la modification du formulaire.
 
-1. Cliquez sur **Enregistrer + Fermer** pour enregistrer vos modifications.
+1. Cliquez sur **Enregistrer+Fermer** pour enregistrer vos modifications.
 
    Ou
 
-   Si vous ne souhaitez pas conserver vos modifications dans le formulaire, cliquez sur **Annuler**, puis cliquez sur **Aller de l’avant et fermer**.
+   Si vous ne souhaitez pas conserver vos modifications dans le formulaire, cliquez sur **Annuler**, puis sur **Aller de l’avant et fermer**.
 
    >[!NOTE]
    >

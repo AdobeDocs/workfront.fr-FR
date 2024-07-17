@@ -13,11 +13,11 @@ exl-id: 06b5d602-e656-40e8-a397-c39eaadc924a
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Activité Publication de fusion Workfront : semaine du 14 novembre 2022
+# Activité Version de Workfront Fusion : semaine du 14 novembre 2022
 
 **Connecteur et modules Microsoft Power BI désormais disponibles**
 
@@ -31,4 +31,4 @@ Avec les modules de Power BI Microsoft, vous pouvez :
 * Ajout ou suppression de lignes dans un tableau de jeu de données
 * Lancer un appel API personnalisé à l’API Microsoft Power BI
 
-Pour plus d’informations, voir [Modules Power BI Microsoft](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).
+Pour plus d’informations, voir [Microsoft Power BI modules](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).

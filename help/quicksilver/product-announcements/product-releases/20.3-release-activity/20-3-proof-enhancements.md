@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Améliorations apportées aux bons à tirer
+title: Améliorations de l’épreuve (version 20.3)
 description: Cette page décrit toutes les améliorations du BAT apportées à la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 author: Luke
 feature: Product Announcements, Workfront Proof
@@ -10,15 +10,15 @@ exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 20.3 Améliorations apportées aux bons à tirer
+# Améliorations de l’épreuve (version 20.3)
 
 Cette page décrit toutes les améliorations du BAT apportées à la version 20.3 de l’environnement de production. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 10 août 2020.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, voir [Présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 20.3, consultez la [présentation de la version 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Amélioration de la visibilité entre l’onglet Mises à jour et les commentaires Bon à tirer
 
@@ -31,7 +31,7 @@ Les améliorations suivantes sont disponibles dans la zone Documents :
 * Lorsqu’un commentaire de BAT s’affiche dans l’onglet Mise à jour , un nouveau bouton Répondre dans le Bon à tirer s’affiche et vous permet d’accéder à la visionneuse de BAT pour répondre.
 * Lorsqu’un commentaire de BAT est balisé avec une action dans la visionneuse de BAT, l’action s’affiche dans l’onglet Mettre à jour .
 
-Pour plus d’informations, voir [Ajouter une mise à jour à un document](../../../documents/managing-documents/add-update-documents.md).
+Pour plus d’informations, voir [Ajout d’une mise à jour à un document](../../../documents/managing-documents/add-update-documents.md).
 
 ## Mise à jour des champs personnalisés de vérification des détails du document
 
@@ -39,7 +39,7 @@ Pour plus d’informations, voir [Ajouter une mise à jour à un document](../..
 >
 >Cette fonctionnalité est disponible uniquement dans la nouvelle expérience Adobe Workfront
 
-Pour rationaliser le processus de vérification, vous pouvez désormais afficher et modifier les champs personnalisés configurés dans le Bon à tirer Workfront sur la page Détails du document de Workfront si vous êtes inclus dans le workflow de BAT.
+Pour rationaliser le processus de vérification, vous pouvez désormais afficher et modifier les champs personnalisés configurés dans Workfront Proof sur la page Détails du document de Workfront si vous êtes inclus dans le workflow de BAT.
 
 Auparavant, vous ne pouviez afficher que les champs personnalisés dans la visionneuse de vérification.
 

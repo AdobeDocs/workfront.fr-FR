@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Variables mathématiques dans [!DNL Adobe Workfront Fusion]
-description: Les variables mathématiques suivantes sont disponibles dans la variable [!DNL Adobe Workfront Fusion mapping] du panneau.
+description: Les variables mathématiques suivantes sont disponibles dans le panneau  [!DNL Adobe Workfront Fusion mapping] .
 author: Becky
 feature: Workfront Fusion
 exl-id: 2fb561d2-0780-4fd6-87b3-5360a02df177
 source-git-commit: c325e16ba0cde4cd48fc3e40358a9ea9ed310659
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 32%
+ht-degree: 40%
 
 ---
 
@@ -32,13 +32,13 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td> <p>N’importe quelle</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
-   <td role="rowheader">[!DNL Adobe Workfront] license</td>  
-   <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td>  
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td>  
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td>  
   </tr>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>  
    <td> 
-   <p>Actuel : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p> 
+   <p>Actuel : aucune exigence de licence [!DNL Workfront Fusion].</p> 
    <p>Ou</p> 
    <p>Hérité : Tout </p> 
    </td>  
@@ -46,9 +46,9 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr>  
    <td role="rowheader">Produit</td>  
    <td> 
-   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul> 
+   <p>Nouveau :</p> <ul><li>Formule [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront] : [!DNL Workfront Fusion] est inclus.</li></ul> 
    <p>Ou</p> 
-   <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actuel : votre organisation doit acheter [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -64,9 +64,9 @@ Représente le symbole mathématique $\pi$.
 
 ## [!UICONTROL random]
 
-Renvoie un nombre pseudo-aléatoire à virgule flottante dans la plage [`0`,`1`] (inclus) `0`, mais pas `1`).
+Renvoie un nombre pseudo-aléatoire à virgule flottante dans la plage [`0`,`1`] (y compris `0`, mais pas `1`).
 
-Utilisez la formule suivante pour générer un nombre pseudo-aléatoire entier dans la plage [`min`,`max`] (y compris les deux `min` et `max`) :
+Utilisez la formule suivante pour générer un nombre pseudo-aléatoire entier dans la plage [`min`,`max`] (y compris `min` et `max`) :
 
 ![](assets/math-variable-random-350x61.png)
 

@@ -2,27 +2,27 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '''Présentation du type de durée : Travail calculé"'
-description: Le travail calculé est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour obtenir des informations générales sur les types de durée dans Workfront, consultez Présentation de la durée de la tâche et du type de durée.
+title: "Présentation du type de durée : travail calculé"
+description: Le travail calculé est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir Vue d’ensemble de la durée de la tâche et du type de durée.
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 1%
+source-wordcount: '564'
+ht-degree: 18%
 
 ---
 
-# Présentation du type de durée : Travail calculé
+# Vue d’ensemble du type de durée : calcul de travail
 
-Le travail calculé est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour obtenir des informations générales sur les types de durée dans Workfront, voir [Présentation de la durée et du type de durée de la tâche](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Le travail calculé est un type de durée que vous pouvez définir pour une tâche dans Adobe Workfront. Pour des informations générales sur les types de durée dans Workfront, voir [Vue d’ensemble de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Présentation du type de durée de travail calculé
 
 Le travail calculé détermine la quantité de travail (heures planifiées) nécessaire pour que la tâche soit terminée. Nous vous recommandons d’utiliser le type Durée du travail calculé lorsque les ressources affectées à la tâche sont allouées pour toute la durée de la tâche.
 
-Votre administrateur Workfront ou un administrateur de groupe peut définir le type de durée par défaut de votre système ou groupe comme travail calculé. Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences des problèmes dans le cadre de vos préférences de projet au niveau du système ou du groupe, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Votre administrateur Workfront ou un administrateur de groupe peut définir le type de durée par défaut de votre système ou groupe comme travail calculé.Dans ce cas, toutes les nouvelles tâches seront créées avec ce type de durée. Pour plus d’informations sur la modification de votre tâche et les préférences de problème dans le cadre de vos préférences de projet à l’échelle du système ou du groupe, voir [Configurer les préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 À mesure que des ressources sont ajoutées à une tâche, un chef de projet peut s’attendre à une augmentation de l’effort prévu. Pour illustrer cela, une réunion de planification d&#39;une heure avec trois ressources représente trois heures de travail au total, et une réunion de planification d&#39;une heure avec dix ressources représente dix heures de travail requises. Cela suppose que chaque ressource est affectée à la tâche avec une allocation de 100 %.
 
@@ -30,13 +30,13 @@ Votre administrateur Workfront ou un administrateur de groupe peut définir le t
 
 Lorsque vous utilisez le type Durée de travail calculée sur une tâche, Workfront calcule la quantité de travail pour chaque tâche à l’aide des deux formules suivantes. Les formules diffèrent selon le pourcentage de temps consacré à chaque ressource et le nombre de ressources affectées à chaque tâche :
 
-* Formule simplifiée : En supposant qu&#39;une ressource soit affectée à la tâche et qu&#39;elle soit affectée à la tâche pour 100 % de son temps disponible, la valeur Travail requis pour chaque tâche est calculée à l&#39;aide de la formule suivante :
+* Formule simplifiée : en supposant qu’une ressource soit affectée à la tâche et qu’elle soit affectée à la tâche pour 100 % de son temps disponible, la valeur Travail requis pour chaque tâche est calculée à l’aide de la formule suivante :
 
 ```
 Work Required (Planned Hours) = (Duration of the task in hours) x (The number of resources assigned to the task)
 ```
 
-* Formule complexe : Si vous attribuez à chaque ressource différentes affectations, la formule prend en compte ces affectations et tient compte de ces variations :
+* Formule complexe : si vous attribuez chaque ressource avec différentes affectations, la formule prend en compte ces affectations et tient compte de ces variations :
 
 ```
 Work Required (Planned Hours) = SUM[(Duration of the task in hours) x (Percent allocated towards tasks for each resource)]
@@ -54,9 +54,9 @@ Dans l’exemple suivant, la mesure Heures par jour de travail standard est déf
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Nombre de cessionnaires (répartis à 100 %)</strong> </p> </th> 
+   <th> <p><strong>Nombre de cessionnaires (chacun 100 % alloué)</strong> </p> </th> 
    <th> <p><strong>Durée</strong> </p> </th> 
-   <th> <p><strong>Heures prévues</strong> </p> </th> 
+   <th> <p><strong>Nombre d’heures prévues</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -84,7 +84,7 @@ Dans ce cas, chaque personne désignée est 100 % affectée à la tâche de trav
 
 ## Modifier le type de durée d’une tâche en travail calculé
 
-Pour plus d’informations sur la modification du type de durée d’une tâche, voir [Mise à jour du type de durée d’une tâche](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Pour plus d’informations sur la modification du type de durée d’une tâche, voir [Mettre à jour le type de durée d’une tâche](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

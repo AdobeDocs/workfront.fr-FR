@@ -3,19 +3,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Modèles Adobe Workfront Fusion - Aperçu
-description: La fonction Modèles de fusion Workfront vous permet de créer et d’utiliser des modèles existants comme point de départ pour vos [!DNL Workfront Fusion] scénarios.
+description: La fonction Modèles de fusion Workfront vous permet de créer et d’utiliser des modèles existants comme point de départ pour vos scénarios  [!DNL Workfront Fusion] .
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ebc1853906e56b95601c1fe202ddc19d147fa7c2
+exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] présentation des modèles
+# [!DNL Adobe Workfront Fusion] - Aperçu des modèles
 
-[!DNL Workfront Fusion] la fonction modèles vous permet de créer et d’utiliser des modèles existants comme point de départ pour vos [!DNL Workfront Fusion] scénarios. Les modèles représentent des cas d’utilisation courants que vous pouvez configurer et modifier pour répondre aux besoins de votre entreprise et à des cas d’utilisation spécifiques.
+La fonction [!DNL Workfront Fusion] de modèles vous permet de créer et d’utiliser des modèles existants comme point de départ pour vos scénarios [!DNL Workfront Fusion]. Les modèles représentent des cas d’utilisation courants que vous pouvez configurer et modifier pour répondre aux besoins de votre entreprise et à des cas d’utilisation spécifiques.
 
 Pour obtenir la liste des modèles Fusion actuellement disponibles, voir [Modèles de fusion Adobe Workfront actuellement disponibles](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
 
@@ -32,13 +33,13 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td> <p>N’importe quelle</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
-   <td role="rowheader">[!DNL Adobe Workfront] license</td>  
-   <td> <p>Nouveau : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Travail] ou version ultérieure</p> </td>  
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td>  
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td>  
   </tr>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>  
    <td> 
-   <p>Actuel : Non [!DNL Workfront Fusion] conditions requises pour obtenir une licence.</p> 
+   <p>Actuel : aucune exigence de licence [!DNL Workfront Fusion].</p> 
    <p>Ou</p> 
    <p>Hérité : Tout </p> 
    </td>  
@@ -46,9 +47,9 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr>  
    <td role="rowheader">Produit</td>  
    <td> 
-   <p>Nouveau :</p> <ul><li>[!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] Plan : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan : [!DNL Workfront Fusion] est inclus.</li></ul> 
+   <p>Nouveau :</p> <ul><li>Formule [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront] : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront] : [!DNL Workfront Fusion] est inclus.</li></ul> 
    <p>Ou</p> 
-   <p>Actuel : votre entreprise doit acheter [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actuel : votre organisation doit acheter [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -79,6 +80,6 @@ Dans la zone Modèles , vous pouvez afficher les modèles disponibles, les appli
 
    Un diagramme du modèle s’affiche.
 
-1. Pour créer un scénario à partir du modèle, cliquez sur **Créer un scénario à partir d’un modèle** dans le coin inférieur gauche.
+1. Pour commencer à créer un scénario à partir du modèle, cliquez sur **Créer un scénario à partir du modèle** dans le coin inférieur gauche.
 
-Pour plus d’informations sur la création d’un scénario à partir d’un modèle, voir [Création de scénarios avec [!DNL Adobe Workfront Fusion] templates](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
+Pour plus d’informations sur la création d’un scénario à partir d’un modèle, voir [Création de scénarios avec [!DNL Adobe Workfront Fusion] modèles](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).

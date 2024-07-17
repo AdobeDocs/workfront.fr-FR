@@ -9,13 +9,13 @@ role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 0%
+source-wordcount: '603'
+ht-degree: 2%
 
 ---
 
 
-# Ajout d’options de vérification avancées lors de la création d’un BAT via l’API Adobe Workfront
+# Ajouter des options de relecture avancées lors de la création d’une épreuve via l’API Adobe Workfront
 
 Lors de la création d’un BAT dans l’API Workfront, vous pouvez ajouter des options de vérification avancées.
 
@@ -31,7 +31,7 @@ Cette section décrit comment créer un BAT avec des options de vérification av
 
 L’API ProofHQ inclut diverses actions qui ne sont pas disponibles pour les bons à tirer dans l’API Workfront. En utilisant ces actions, vous pouvez modifier ou configurer le BAT avec plus de précision que ne l’est l’API Workfront.
 
-Pour un aperçu de l’API ProofHQ, reportez-vous à la section [Présentation de PoofHQ](../../proofhq-api/general/overview.md). Vous pouvez également consulter la section [Documentation de ProofHQ](https://api.proofhq.com/home.html).
+Pour un aperçu de l’API ProofHQ, consultez la [présentation de PoofHQ](../../proofhq-api/general/overview.md). Vous pouvez également vous reporter à la [documentation ProofHQ](https://api.proofhq.com/home.html).
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ Pour un aperçu de l’API ProofHQ, reportez-vous à la section [Présentation d
 
 ### Créer un BAT avec des options de vérification avancées
 
-1. Créez un BAT à l’aide de la fonction `Document createProof` dans l’API Workfront.
+1. Créez un BAT à l’aide de l’action `Document createProof` dans l’API Workfront.
 
    >[!NOTE]
    >
-   Lors de la création du BAT, définissez `{}` comme valeur de la variable `advancedProofingOptions` .
+   >Lors de la création du BAT, définissez `{}` comme valeur du paramètre `advancedProofingOptions`.
 
 1. Une fois le BAT créé, utilisez l’API ProofHQ pour ajouter toutes les options avancées.
 
@@ -53,15 +53,15 @@ Pour un aperçu de l’API ProofHQ, reportez-vous à la section [Présentation d
 
 Cette section présente des exemples de mises à jour que vous pouvez effectuer avec l’API ProofHQ.
 
-**Exemples:**
+**Exemples :**
 
-* [Un Bon à tirer peut être téléchargé, comporte un message et est partagé publiquement.](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
-* [Mettre à jour une étape afin qu’elle ne soit pas privée, pas obligatoire et ne nécessite qu’une seule validation](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
+* [Un bon à tirer peut être téléchargé, comporte un message et est partagé publiquement](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [Mettre à jour une étape de sorte qu’elle ne soit pas privée, pas obligatoire et ne nécessite qu’une seule approbation](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
 * [Ajouter deux destinataires à un BAT sans décideur principal](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**Un Bon à tirer peut être téléchargé, comporte un message et est partagé publiquement.**
+**Un bon à tirer peut être téléchargé, comporte un message et est partagé publiquement**
 
-La documentation de ce point de terminaison se trouve sur la page [API updateProofHQ](https://api.proofhq.com/home/proofs/updateproof.html) page.
+La documentation de ce point de terminaison est disponible sur la page [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) .
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -83,9 +83,9 @@ La documentation de ce point de terminaison se trouve sur la page [API updatePro
 </soapenv:Envelope>
 ```
 
-**Mettre à jour une étape afin qu’elle ne soit pas privée, pas obligatoire et ne nécessite qu’une seule validation**
+**Mettre à jour une étape de sorte qu’elle ne soit pas privée, pas obligatoire et ne nécessite qu’une seule approbation**
 
-La documentation de ce point de terminaison se trouve sur la page [API ProofHQ updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) page.
+La documentation de ce point de terminaison se trouve sur la page [API ProofHQ updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) .
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -110,7 +110,7 @@ La documentation de ce point de terminaison se trouve sur la page [API ProofHQ u
 
 **Ajouter deux destinataires à un BAT sans décideur principal**
 
-La documentation de ce point de terminaison se trouve sur la page [API ProofHQ addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) page.
+La documentation de ce point de terminaison est disponible sur la page [API ProofHQ addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) .
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -149,19 +149,19 @@ Cette section décrit comment créer un BAT avec des options de vérification av
 
 ### Créer un BAT avec des options de vérification avancées
 
-Vous pouvez créer des bons à tirer à l’aide de l’API Workfront à l’aide du `Document createProof` action. Cette action accepte la variable `advancedProofingOptions` qui possède le type de valeur `string`. Pour inclure des options de vérification avancées dans votre `createProof` , vous devez saisir les options dans la variable `advancedProofingOptions` au format JSON.
+Vous pouvez créer des bons à tirer via l’API Workfront à l’aide de l’action `Document createProof`. Cette action accepte le paramètre `advancedProofingOptions`, qui a le type de valeur `string`. Pour inclure des options de vérification avancées dans votre action `createProof`, vous devez saisir les options dans le paramètre `advancedProofingOptions` au format JSON.
 
 >[!NOTE]
 >
-Il peut être difficile de prévoir les champs à inclure dans votre fichier JSON advancedProofingOptions. Vous pouvez examiner les données réseau de votre entreprise tout en utilisant la vérification avancée dans Workfront et baser votre code JSON sur les champs et les valeurs couramment utilisés par votre entreprise.
+>Il peut être difficile de prévoir les champs à inclure dans votre fichier JSON advancedProofingOptions. Vous pouvez examiner les données réseau de votre entreprise tout en utilisant la vérification avancée dans Workfront et baser votre code JSON sur les champs et les valeurs couramment utilisés par votre entreprise.
 >
-Comme ces champs peuvent être difficiles à prédire, nous vous recommandons de créer un BAT à l’aide de l’API Workfront, puis de le mettre à jour à l’aide de l’API ProofHQ. Pour plus d’informations, voir [Créer un BAT à l’aide des API Workfront et ProofHQ (recommandé)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) dans cet article
+>Comme ces champs peuvent être difficiles à prédire, nous vous recommandons de créer un BAT à l’aide de l’API Workfront, puis de le mettre à jour à l’aide de l’API ProofHQ. Pour plus d’informations, voir [Création d’un BAT à l’aide des API Workfront et ProofHQ (recommandé)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) dans cet article
 
 ### Exemple
 
-Cet exemple présente les champs et la mise en forme que vous pouvez utiliser lors de la création de votre fichier JSON pour le `advancedProofingOptions` . Votre `advancedProofingOptions` Le fichier JSON peut comporter plus ou moins de champs que celui illustré ici.
+Cet exemple présente les champs et la mise en forme que vous pouvez utiliser lors de la création de votre JSON pour le paramètre `advancedProofingOptions`. Votre fichier JSON `advancedProofingOptions` peut comporter plus ou moins de champs qu’illustré ici.
 
-**Exemple:**
+**Exemple :**
 
 <!-- [Copy](javascript:void(0);) -->
 

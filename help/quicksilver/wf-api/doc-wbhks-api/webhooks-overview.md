@@ -2,8 +2,8 @@
 content-type: api;overview
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Présentation des webhooks
-description: Présentation des webhooks
+title: Vue d’ensemble des webhooks
+description: Vue d’ensemble des webhooks
 author: Becky
 feature: Workfront API
 role: Developer
@@ -11,12 +11,12 @@ exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Présentation des webhooks
+# Vue d’ensemble des webhooks
 
 Les webhooks de document Adobe Workfront définissent un ensemble de points de terminaison d’API par le biais desquels Workfront effectue des appels d’API autorisés à un fournisseur de document externe. Cela permet à tous les utilisateurs de créer un module externe middleware pour n’importe quel fournisseur de stockage de documents.
 
@@ -32,7 +32,7 @@ L’expérience utilisateur des intégrations basées sur webhook est similaire 
 
 **Implémentation de référence**
 
-Pour accélérer le développement d’une nouvelle implémentation de webhooks, Workfront fournit des exemples d’implémentation de référence. Ces exemples se trouvent à l’adresse [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Les exemples sont basés sur Java et permettent à Workfront de connecter des documents sur un système de fichiers réseau. 
+Pour accélérer le développement d’une nouvelle implémentation de webhooks, Workfront fournit des exemples d’implémentation de référence. Ces exemples se trouvent à l&#39;adresse [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Les exemples sont basés sur Java et permettent à Workfront de connecter des documents sur un système de fichiers réseau. 
 
 >[!NOTE]
 >
