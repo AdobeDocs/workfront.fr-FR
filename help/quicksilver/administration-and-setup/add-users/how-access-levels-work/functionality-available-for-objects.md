@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
+source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1601'
 ht-degree: 100%
 
 ---
@@ -133,7 +133,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence standard peuve
 | Supprimer | ✓&#42; |   |   |   |
 | Partager | ✓&#42; |   |   |   |
 | Partager sur le système | ✓&#42; |   |   |   |
-| Afficher | ✓&#42; | ✓&#42; |   |   |
+| Afficher | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifier les détails | ✓ |   |   |   |
 | Joindre des formulaires personnalisés | ✓ |   |   |   |
 | Modifier les champs personnalisés | ✓ |   |   |   |
@@ -157,7 +157,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 | Supprimer | ✓&#42; |   |   |   |
 | Partager | ✓&#42; |   |   |   |
 | Partager sur le système | ✓&#42; |   |   |   |
-| Afficher | ✓&#42; | ✓&#42; |   |   |
+| Afficher | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifier les détails | ✓ |   |   |   |
 | Joindre des formulaires personnalisés | ✓ |   |   |   |
 | Modifier les champs personnalisés | ✓ |   |   |   |

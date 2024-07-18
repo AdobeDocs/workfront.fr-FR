@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
+source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 100%
 
 ---
@@ -63,15 +63,17 @@ Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou 
         <td>Portefeuilles</td>
         <td>Modifier</td>
         <td>Afficher</td>
-        <td>Pas d’accès</td>
-        <td>Pas d’accès</td>
+        <td>Afficher</td>
+        <td>Pas d’accès
+</td>
     </tr>
     <tr>
         <td>Programmes</td>
         <td>Modifier</td>
         <td>Afficher</td>
-        <td>Pas d’accès</td>
-        <td>Pas d’accès</td>
+        <td>Afficher</td>
+        <td>Pas d’accès
+</td>
     </tr>
     <tr>
         <td>Rapports, tableaux de bord et calendriers</td>

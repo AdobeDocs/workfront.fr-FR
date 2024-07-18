@@ -6,9 +6,9 @@ description: Ce scénario d’intégration associe un projet  [!DNL Adobe Workfr
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '810'
 ht-degree: 6%
 
 ---
@@ -99,7 +99,7 @@ Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!D
    </tbody> 
   </table>
 
-  Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer ou modifier un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Modèles de projet représentant les campagnes et autres projets nécessitant un financement, configurés avec une rubrique de file d’attente [!UICONTROL Demande de budget]. La rubrique de file d’attente [!UICONTROL Requête budgétaire] est affectée à l’utilisation du formulaire personnalisé [!UICONTROL Requête budgétaire].
 * Formulaire **[!UICONTROL résumé de campagne]** pour l’objet de projet.
@@ -141,7 +141,7 @@ Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!D
    </tbody> 
   </table>
 
-  Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer ou modifier un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configuration [!DNL Anaplan] attendue
 

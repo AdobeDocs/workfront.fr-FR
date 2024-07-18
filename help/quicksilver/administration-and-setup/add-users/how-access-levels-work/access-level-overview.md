@@ -10,10 +10,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 11%
+source-wordcount: '1745'
+ht-degree: 10%
 
 ---
 
@@ -282,8 +282,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Projet |   | ✓ |   |
 | Tâche |   | ✓ |   |
 | Problème |   |   | ✓ |
-| Portefeuilles | ✓ |   |   |
-| Programmes | ✓ |   |   |
+| Portefeuilles |   | ✓ |   |
+| Programmes |   | ✓ |   |
 | Rapports (y compris les tableaux de bord et les rapports de calendrier) |   | ✓ (onglet Détails uniquement) |   |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Document |   |   | ✓ |
@@ -298,6 +298,13 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Objectifs |   |   | ✓ |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>À compter de la version 24.7, les contributeurs disposent par défaut d’un accès en vue aux programmes et aux Portfolios.
+>
+> 
+>Les contributeurs intégrés avant la version 24.7 continueront par défaut à ne pas avoir accès aux programmes et aux Portfolios. Vous pouvez mettre à jour leur accès pour afficher manuellement, si nécessaire.
 
 ### Niveau d’accès des utilisateurs externes
 
