@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 8%
+source-wordcount: '869'
+ht-degree: 7%
 
 ---
 
@@ -102,8 +102,6 @@ Pour plus d’informations, reportez-vous à la section [Fonctionnalité d’opt
 >Cette fonctionnalité a été introduite pour la première fois dans l’environnement Aperçu au cours de la période de publication de la version 22.3. Il est publié en production avec la version 22.4.
 
 La modification des calculs pour les champs personnalisés est désormais plus facile avec des informations d’erreur utiles indiquées directement dans le calcul. Lorsque vous créez un champ calculé dans un formulaire personnalisé, les erreurs sont surlignées en rose. Lorsque vous passez le curseur sur la partie mise en surbrillance, une info-bulle s’affiche pour décrire le problème.
-
-Pour plus d’informations, voir [Ajouter des données calculées à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 [Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 

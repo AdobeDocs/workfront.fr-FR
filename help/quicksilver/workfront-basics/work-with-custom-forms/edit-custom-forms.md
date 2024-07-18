@@ -7,10 +7,10 @@ description: Vous pouvez modifier les informations d’un formulaire personnalis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 8%
+source-wordcount: '1036'
+ht-degree: 9%
 
 ---
 
@@ -43,7 +43,7 @@ Vous devez disposer des éléments suivants :
    <td> 
     <ul> 
      <li> <p>Autorisations Contribute ou supérieures sur l’objet pour lequel vous souhaitez modifier le formulaire personnalisé</p> </li> 
-     <li>Afficher les autorisations sur les champs que vous souhaitez modifier. Pour plus d’informations sur le partage des autorisations pour les champs personnalisés, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configuration du partage pour les champs et widgets personnalisés</a>.</li> 
+     <li>Afficher les autorisations sur les champs que vous souhaitez modifier. Pour plus d’informations sur le partage des autorisations pour les champs personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Configuration du partage pour les champs et widgets personnalisés</a>.</li> 
      <li> <p>Modifier les autorisations pour les sections du formulaire où se trouvent les champs que vous souhaitez modifier</p> </li> 
     </ul> <p>Pour plus d'informations sur la demande d'accès supplémentaire aux objets, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demande d'accès aux objets </a>.</p> </td> 
   </tr> 
@@ -54,7 +54,7 @@ Vous devez disposer des éléments suivants :
 
 ## Conditions préalables
 
-* L’administrateur Workfront ou l’utilisateur Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Création ou modification d’un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* L’administrateur Workfront ou l’utilisateur Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Concevoir un formulaire à l’aide du créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Des formulaires personnalisés doivent être associés à un objet.
 
   Pour plus d’informations sur l’application de formulaires personnalisés à un objet, voir [Ajout d’un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -91,7 +91,7 @@ La modification des informations d’un formulaire personnalisé associé à un 
    * Vous ne pouvez mettre en forme les champs de texte (gras, italique ou souligné) que si l’utilisateur qui a créé le formulaire les a configurés en tant que champ de texte avec un type de champ Formatage . Les champs de texte d’une seule ligne et les champs de texte de paragraphe ne peuvent pas être formatés.
    * Vous ne pouvez mettre à jour l’heure dans un type de champ Date que si l’utilisateur qui a créé le formulaire l’a incluse lors de la création du champ.
 
-   Pour plus d’informations sur tous les types de champ, voir [Création ou modification d’un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Pour plus d’informations sur tous les types de champ, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Enregistrer les modifications**.
 

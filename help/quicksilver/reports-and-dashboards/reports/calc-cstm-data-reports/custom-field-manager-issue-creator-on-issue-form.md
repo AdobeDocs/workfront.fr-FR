@@ -7,10 +7,10 @@ description: A l’aide d’un champ personnalisé calculé, vous pouvez affiche
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
@@ -61,8 +61,8 @@ Les étapes suivantes montrent comment créer un champ calculé pour un formulai
 
    Pour plus d’informations sur la création d’un formulaire personnalisé et l’ajout de champs calculés à ce dernier, reportez-vous aux articles suivants :
 
-   * [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-   * [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Concevoir un formulaire avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
 1. Copiez et collez le code de mode texte suivant dans le champ **Calcul** du formulaire personnalisé :
 

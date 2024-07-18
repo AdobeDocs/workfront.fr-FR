@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
 workflow-type: tm+mt
-source-wordcount: '7474'
+source-wordcount: '7473'
 ht-degree: 99%
 
 ---
@@ -321,7 +321,7 @@ Lorsque plusieurs projets sont sélectionnés pour être modifiés en bloc, les 
 Pour plus d’informations sur l’accès aux formulaires personnalisés, voir les articles suivants :
 
 * [Partager un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [Ajouter un saut de section à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+* [Organisation et prévisualisation d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
 
 Pour modifier les informations sur les formulaires personnalisés lors de la modification d’un projet :
 
@@ -334,7 +334,7 @@ Pour modifier les informations sur les formulaires personnalisés lors de la mod
 
    >[!NOTE]
    >
-   >Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs apparaissent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un projet.
+   >Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs apparaissent dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à un projet.
 
 
 1. (Le cas échéant) Si vous avez joint un formulaire personnalisé au projet, modifiez tous les champs du formulaire. Vous devez spécifier tous les champs obligatoires avant de pouvoir enregistrer le projet.
@@ -556,7 +556,7 @@ Pour plus d’informations sur la manière dont ces paramètres affectent la cr�
    * Lorsque vous sélectionnez plusieurs projets dans le même groupe, les processus d’approbation des tâches au niveau du système et du groupe s’affichent dans ce champ.
    * Lorsque vous sélectionnez plusieurs projets dans différents groupes, seuls les processus d’approbation des tâches au niveau du système s’affichent dans ce champ.
 
-1. Dans la zone **Formulaires personnalisés de tâche par défaut**, sélectionnez le ou les formulaires personnalisés à associer à toutes les nouvelles tâches lorsque vous les ajoutez au projet. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer et modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
+1. Dans la zone **Formulaires personnalisés de tâche par défaut**, sélectionnez le ou les formulaires personnalisés à associer à toutes les nouvelles tâches lorsque vous les ajoutez au projet. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez associer jusqu’à dix formulaires personnalisés à une tâche.
 1. (Facultatif) Sélectionnez **Utiliser l’option Effort de travail pour calculer automatiquement les heures planifiées de la tâche** pour activer la gestion de l’effort de tâche en utilisant l’effort de travail au lieu du nombre d’heures prévues.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

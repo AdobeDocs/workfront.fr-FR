@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 3%
+source-wordcount: '1452'
+ht-degree: 1%
 
 ---
 
@@ -57,8 +57,6 @@ Pour plus d’informations, voir [Configuration d’un plan directeur](../../../
 
 La zone Forms personnalisée a une nouvelle apparence qui la met à jour avec de nombreux autres domaines de la nouvelle expérience Workfront.
 
-Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 ## De nombreuses améliorations ont été apportées à la création de champs personnalisés calculés
 
 La création de champs personnalisés calculés est désormais beaucoup plus facile avec ces ajouts dans le nouvel éditeur de calcul :
@@ -70,8 +68,6 @@ La création de champs personnalisés calculés est désormais beaucoup plus fac
 * Vous pouvez prévisualiser le résultat de votre calcul à l’aide d’un objet existant, sans quitter l’éditeur de calcul.
 
 En outre, dans le texte personnalisable &quot;Instructions&quot;, vous pouvez pointer sur un champ personnalisé calculé pour afficher ou masquer la formule du champ. Cela s’avère utile si vous pensez que les utilisateurs qui remplissent le formulaire personnalisé n’auront pas besoin de ces informations.
-
-Pour plus d’informations sur la création d’un champ personnalisé calculé, voir [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Affichage des informations du journal d’audit sur les états et les entreprises
 
@@ -108,8 +104,6 @@ Pour plus d’informations, voir [Gestion des appartenances à une entreprise](.
 
 Nous continuons à faciliter la création d’un champ calculé dans un formulaire personnalisé. Désormais, lorsque vous cliquez sur Maximiser pour ouvrir le nouvel éditeur de calcul, vous pouvez rechercher et sélectionner les expressions et les champs dont vous avez besoin.
 
-Pour plus d’informations, voir [Ajouter des données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
 ## Les groupes peuvent configurer leurs propres préférences de feuille de temps et d’heure.
 
 >[!NOTE]
@@ -144,8 +138,6 @@ Pour plus d’informations, voir [Suppression d’un groupe](../../../administra
 ## Zone plus grande pour la création de champs calculés
 
 Il est désormais plus facile de créer des champs calculés complexes dans un formulaire personnalisé. Cliquez sur le nouveau bouton Maximiser pour ouvrir une grande fenêtre d’édition afin de créer votre calcul. Lorsque vous avez terminé, cliquez sur Réduire pour continuer à travailler sur votre formulaire personnalisé.
-
-Pour plus d’informations, voir [Ajouter des données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Ajout de formulaires personnalisés à des groupes
 

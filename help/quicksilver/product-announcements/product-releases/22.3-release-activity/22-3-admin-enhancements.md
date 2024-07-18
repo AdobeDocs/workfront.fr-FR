@@ -6,10 +6,10 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 6%
+source-wordcount: '767'
+ht-degree: 5%
 
 ---
 
@@ -54,8 +54,6 @@ Pour plus d’informations, consultez les articles suivants :
 
 Nous vous aidons à rendre les formulaires personnalisés plus visuels et informatifs grâce aux nouveaux widgets de ressources que vous pouvez ajouter, tels que les images et les vidéos. Vous pouvez maintenant ajouter un lien vers un fichier de PDF à un formulaire personnalisé. Lorsque le formulaire est joint à un objet, les utilisateurs qui l’utilisent peuvent afficher et interagir avec le PDF depuis le formulaire.
 
-Pour plus d’informations, voir [Ajout ou modification d’une image ou d’un autre widget de ressource dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## L’éditeur de calcul de champ de formulaire personnalisé affiche les informations d’erreur
 
 >[!NOTE]
@@ -63,8 +61,6 @@ Pour plus d’informations, voir [Ajout ou modification d’une image ou d’un 
 >Cette fonctionnalité est temporairement indisponible. Cette page sera mise à jour lorsque la fonctionnalité sera disponible.
 
 La modification des calculs pour les champs personnalisés est désormais plus facile avec des informations d’erreur utiles indiquées directement dans le calcul. Lorsque vous créez un champ calculé dans un formulaire personnalisé, les erreurs sont surlignées en rose. Lorsque vous passez le curseur sur la partie mise en surbrillance, une info-bulle s’affiche pour décrire le problème.
-
-Pour plus d’informations, voir [Ajouter des données calculées à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Personnalisation de l’en-tête du projet
 
@@ -111,6 +107,4 @@ Pour plus d’informations, voir [Désactivation ou réactivation d’un groupe]
 Vous pouvez désormais offrir un nouveau mode d’information, d’intérêt visuel et de créativité à un formulaire personnalisé en ajoutant une vidéo. Lorsque le formulaire est joint à un objet, les utilisateurs qui travaillent avec l’objet peuvent lire la vidéo à tout moment.
 
 Auparavant, vous pouviez uniquement ajouter des champs textuels et des images à un formulaire personnalisé.
-
-Pour plus d’informations, voir [Ajout ou modification d’une image ou d’un widget de ressource vidéo dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 

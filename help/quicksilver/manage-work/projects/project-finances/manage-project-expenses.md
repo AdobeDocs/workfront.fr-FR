@@ -6,9 +6,9 @@ description: Le processus de création et de gestion des dépenses est le même 
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '580'
 ht-degree: 20%
 
 ---
@@ -74,7 +74,7 @@ La boîte de dialogue **Ajouter une dépense** s’affiche.
    * **Facturable :** Sélectionnez cette option si vous souhaitez facturer cette dépense. Il est important de classer une dépense comme facturable lors de la création d&#39;enregistrements de facturation.
    * **Remboursable :** Sélectionnez cette option si la dépense doit être remboursée. Vous pouvez alors marquer la dépense comme remboursée une fois la dépense remboursée.
 
-1. Sélectionnez un **formulaire personnalisé** et spécifiez toutes les informations supplémentaires requises. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à une dépense. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, reportez-vous à l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Sélectionnez un **formulaire personnalisé** et spécifiez toutes les informations supplémentaires requises. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à une dépense. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Enregistrer les modifications**.
 

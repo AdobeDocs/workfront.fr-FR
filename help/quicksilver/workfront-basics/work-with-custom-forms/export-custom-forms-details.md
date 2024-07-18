@@ -5,10 +5,10 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 1670edf153e57152e51adcfbda052eb74541d931
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -72,7 +72,7 @@ Avant de commencer, vous devez disposer des éléments suivants :
 
    disposer des droits d’accès appropriés pour joindre un formulaire personnalisé et modifier les informations contenues dans le formulaire.
 
-Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer ou modifier un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Pour plus d’informations sur l’association de formulaires à des objets, voir [Ajout d’un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -102,7 +102,7 @@ L’export d’informations depuis la section Détails d’un objet est identiqu
    >   * Lorsque votre administrateur de groupe ou Workfront désélectionne tous les champs de la zone Overview et que des formulaires personnalisés sont associés à l’objet, la section Overview ne s’affiche pas.
    >   * Lorsque votre administrateur de groupe ou Workfront désélectionne tous les champs de la zone Overview et qu’aucun formulaire personnalisé n’est associé à l’objet, le menu déroulant Export n’est pas visible.
    >   * Si aucun formulaire personnalisé n’est associé à l’objet, vous pouvez exporter uniquement la zone Overview .
-   >   * Les champs personnalisés qui se trouvent derrière la logique et ne sont pas visibles sur le formulaire ne sont pas exportés. Pour plus d’informations sur l’ajout d’une logique à un formulaire personnalisé, voir [Ajout d’une logique d’affichage et saut de la logique à un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
+   >   * Les champs personnalisés qui se trouvent derrière la logique et ne sont pas visibles sur le formulaire ne sont pas exportés. Pour plus d’informations sur l’ajout d’une logique à un formulaire personnalisé, voir [Ajout d’une logique d’affichage et saut de la logique à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
    >   
    >
 

@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1521'
 ht-degree: 1%
 
 ---
@@ -173,6 +173,4 @@ Pour plus d’informations, consultez les articles suivants :
 ## Nouveau pour les administrateurs : plus d’options de formatage de texte disponibles dans les champs de formulaire personnalisé
 
 Lorsque les utilisateurs saisissent des champs de formulaire personnalisé qui autorisent le formatage, ils peuvent désormais organiser le texte à l’aide de puces, de numérotation, d’hyperliens et de guillemets de bloc, en plus du gras, de l’italique et du soulignement.
-
-Pour plus d’informations, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

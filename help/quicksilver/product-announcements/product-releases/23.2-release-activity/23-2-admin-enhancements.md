@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 33%
@@ -41,7 +41,7 @@ Avec le nouveau concepteur de formulaires, nous avons ajouté la possibilité d�
 
 * **Modifier la taille du texte descriptif** : vous pouvez désormais choisir des petites, moyennes ou grandes tailles pour les champs de texte descriptif. Vous pouvez également les utiliser sur la même ligne avec d’autres champs. <span style="color: #ff0000;"> La modification de la taille du texte descriptif a été temporairement retardée, mais sera bientôt disponible.</span></li>
 
-Pour plus d’informations, voir [Présentation du concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+Pour plus d’informations, voir [Présentation des formulaires personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 [Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3416586/){target=_blank}
 

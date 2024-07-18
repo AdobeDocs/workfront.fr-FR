@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 2%
 
 ---
@@ -29,8 +29,6 @@ Par exemple, si vous avez créé un champ de cases à cocher, vous pouvez le tra
 Si vous avez créé un champ de texte d’une seule ligne, vous pouvez également le remplacer par un champ de texte de paragraphe. Ces deux types d’affichage de champ sont interchangeables.
 
 Auparavant, pour modifier le type d’affichage d’un champ personnalisé, vous deviez créer un nouveau champ et supprimer l’ancien champ. Il fallait pour cela transférer des données, ce qui prenait souvent du temps.
-
-Pour plus d’informations, voir [Créer ou modifier un formulaire personnalisé](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) dans l’article [Créer ou modifier un formulaire personnalisé](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ Pour plus d&#39;informations sur les heures de congé, voir [Configuration de l&
 Nous avons créé un nouveau type de champ dans le créateur de formulaires personnalisé appelé Typeforward. Ce champ vous permet d’ajouter des champs qui représentent des objets à vos formulaires personnalisés. Actuellement, l’objet User est activé avec Typeforward, et d’autres objets sont à venir.
 
 Auparavant, les administrateurs devaient gérer manuellement les utilisateurs en tant qu’options individuelles dans les menus déroulants de formulaire personnalisés.
-
-Pour plus d’informations, voir [Création ou modification d’un formulaire personnalisé](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >

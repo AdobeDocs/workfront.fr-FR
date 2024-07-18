@@ -2,10 +2,10 @@
 title: Ajouter une logique d’affichage et une logique de saut à un formulaire personnalisé
 description: Ajouter une logique d’affichage et une logique de saut à un formulaire personnalisé
 draft: Probably
-source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 10%
+source-wordcount: '1475'
+ht-degree: 8%
 
 ---
 
@@ -38,7 +38,6 @@ Les types de champ à choix multiples sont Liste déroulante, Cases à cocher et
   Cela serait particulièrement utile si vous ajoutez de nombreux autres champs concernant les logos, les mises à jour de site web et les brochures que cet utilisateur n&#39;a pas besoin de voir.
 Vous pouvez appliquer une règle de logique de saut uniquement à un champ personnalisé, et non à un widget ou à une section.
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Conditions d’accès
 

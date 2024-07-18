@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 5%
+source-wordcount: '334'
+ht-degree: 2%
 
 ---
 
@@ -48,8 +48,3 @@ Pour plus d’informations, voir [Gestion des états de groupe](../../../adminis
 ## Nouveau pour les administrateurs : création d’un formulaire personnalisé d’enregistrement de facturation
 
 Vous pouvez désormais améliorer la manière dont les utilisateurs capturent les informations de facturation en créant un formulaire personnalisé d’enregistrement de facturation. Les utilisateurs peuvent joindre le formulaire personnalisé à un enregistrement de facturation, le remplir et exécuter des rapports incluant les informations contenues dans le formulaire.
-
-Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-Pour plus d’informations sur l’association d’un formulaire personnalisé d’enregistrement de facturation à un projet, voir [Ajout d’un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-

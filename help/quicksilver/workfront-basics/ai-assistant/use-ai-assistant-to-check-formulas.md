@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ Pour réviser une expression de champ calculé non valide :
 >
 >Nous vous recommandons de tester le champ calculé pour vous assurer qu’il récupère le résultat attendu.
 
-Pour plus d’informations sur les champs calculés dans Workfront, voir [Ajout de données calculées à un formulaire personnalisé avec l’ancien créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Pour plus d’informations sur les champs calculés dans Workfront, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).

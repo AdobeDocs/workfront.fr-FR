@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1538'
 ht-degree: 1%
 
 ---
@@ -73,8 +73,6 @@ Pour plus d’informations, consultez [Baliser d’autres personnes sur les mise
 ## Nouvelle syntaxe pour les calculs dans les champs personnalisés
 
 Pour vous préparer aux améliorations à venir qui vous aideront à ajouter des calculs aux formulaires personnalisés, nous avons normalisé la syntaxe des champs référencés que vous ajoutez à un calcul. Il est facile d’utiliser cette nouvelle syntaxe car le système la saisit pour vous lorsque vous commencez à saisir le nom d’un champ, puis vous la sélectionnez.
-
-Pour plus d’informations, voir la section &quot;Créer le calcul pour votre champ personnalisé calculé&quot; dans l’ [ article Ajout de données calculées à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Conserver des informations précises lorsque deux utilisateurs ayant un rôle commun sont impliqués dans un processus d’approbation
 

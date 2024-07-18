@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 19%
+source-wordcount: '366'
+ht-degree: 28%
 
 ---
 
@@ -29,10 +29,11 @@ Par exemple, vous pouvez joindre à un projet un formulaire personnalisé appel�
 
 ## Comment créer un formulaire personnalisé
 
-Il existe deux options pour créer un formulaire personnalisé dans [!DNL Workfront]. Vous pouvez utiliser le créateur de formulaires personnalisés hérité ou le nouveau concepteur de formulaires :
+Le concepteur de formulaire dispose d’un espace de travail de style zone de travail qui vous permet d’afficher simultanément les paramètres des champs, de la zone de travail et des champs. Il vous permet également de faire glisser des champs dans les sections lors de la conception de votre formulaire.
 
-* [Créateur de formulaires personnalisés hérité](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+Pour plus d’informations, voir [Concevoir un formulaire à l’aide du créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+![Exemple de créateur de formulaires](assets/form-designer-example.png)
 
 ## Champs et widgets personnalisés
 
@@ -42,15 +43,17 @@ Dans un formulaire personnalisé, vous pouvez créer des champs supplémentaires
 
 Vous pouvez ajouter les types de champs personnalisés suivants à un formulaire personnalisé dans Workfront :
 
-* Champ de texte d’une seule ligne ou texte d’une seule ligne dans le concepteur de formulaire
-* Champ de texte de paragraphe ou texte de paragraphe dans le concepteur de formulaire
-* Champ de texte avec mise en forme ou Texte avec mise en forme dans le concepteur de formulaires
+* Texte sur une seule ligne
+* Paragraphe de texte
+* Texte avec formatage
 * Menu déroulant
-* Recherche externe : disponible uniquement dans le concepteur de formulaires
+* Menu déroulant multi-sélection
+* Recherche externe
+* Champ natif
 * Frappe continue
 * Calculé
-* Date ou champ de date dans le concepteur de formulaire
-* Cases à cocher
+* Champ de date
+* Groupe Case à cocher
 * Cases d’option
 * Texte descriptif
 * Saut de section
@@ -58,6 +61,10 @@ Vous pouvez ajouter les types de champs personnalisés suivants à un formulaire
 * Image
 * PDF
 * Vidéo
+
+>[!NOTE]
+>
+>Pour effectuer le suivi des modifications de champ dans les flux de mise à jour, accédez à Configuration > Interface > Mettre à jour les flux. Pour plus d’informations, consultez [Configurer les mises à jour système](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 ## Objets auxquels les utilisateurs peuvent joindre un formulaire personnalisé
 
@@ -81,5 +88,4 @@ Les utilisateurs peuvent joindre des formulaires personnalisés aux types d’ob
 Pour plus d’informations sur l’association de formulaires personnalisés à des objets, voir [Ajout d’un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 Pour plus d’informations sur ce qu’il advient des formulaires personnalisés lors de la conversion d’un objet, voir [Transfert de données de formulaire personnalisé lors de la conversion d’un objet](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
-
 

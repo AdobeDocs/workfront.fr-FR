@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 99%
+source-wordcount: '1116'
+ht-degree: 97%
 
 ---
 
@@ -216,7 +216,7 @@ Les informations sont mappées à sens unique uniquement, de [!DNL Workfront] à
 Vous pouvez mapper le même champ [!DNL Workfront] sur divers [!DNL Workfront DAM], mais vous ne pouvez pas utiliser le même champ [!DNL Workfront DAM] pour plusieurs champs [!DNL Workfront].
 
 Si vous devez configurer plusieurs champs [!DNL Workfront] à exporter vers un champ [!DNL Workfront DAM], créez tout d’abord un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés d’un objet. Mappez ensuite le champ [!DNL Workfront] calculé sur un champ [!DNL Workfront DAM].\
-Pour plus d’informations sur les champs personnalisés calculés, voir [Ajouter des données calculées à un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Pour plus d’informations sur les champs personnalisés calculés, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Le mappage affecte tous les documents chargés par un utilisateur ou une utilisatrice de [!DNL Workfront] sur [!UICONTROL Workfront] DAM.
 

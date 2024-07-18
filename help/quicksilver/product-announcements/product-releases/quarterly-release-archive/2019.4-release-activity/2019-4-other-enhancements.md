@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '587'
 ht-degree: 4%
 
 ---
@@ -58,7 +58,6 @@ Pour obtenir la liste de toutes les modifications apportées en 2019.4, consulte
      <strong> Types d’objet supplémentaires disponibles pour les champs de type devant dans un formulaire personnalisé</strong> 
      <p>Désormais, lorsque vous créez un champ personnalisé Type, vous pouvez associer les types d’objet suivants au champ : Utilisateur, Société, Groupe, Rôle de tâche, Portfolio, Programme, Projet et Modèle.</p> 
      <p>Auparavant, vous pouviez uniquement associer le type d’objet Utilisateur à un champ personnalisé Type.</p> 
-     <p>Pour plus d’informations, reportez-vous à la section <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Création ou modification d’un formulaire personnalisé</a> de l’article <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Création ou modification d’un formulaire personnalisé</a>.</p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -75,7 +74,6 @@ Pour obtenir la liste de toutes les modifications apportées en 2019.4, consulte
      <p>Par exemple, si vous avez créé un champ de cases à cocher, vous pouvez le transformer en champ de liste déroulante ou en champ de boutons radio. Ces trois types d’affichage de champ sont interchangeables.</p> 
      <p>Si vous avez créé un champ de texte d’une seule ligne, vous pouvez également le remplacer par un champ de texte de paragraphe. Ces deux types d’affichage de champ sont interchangeables.</p> 
      <p>Auparavant, pour modifier le type d’affichage d’un champ personnalisé, vous deviez créer un nouveau champ et supprimer l’ancien champ. Il fallait pour cela transférer des données, ce qui prenait souvent du temps.</p> 
-     <p>Pour plus d’informations, voir <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Créer ou modifier un formulaire personnalisé</a> dans l’article <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Créer ou modifier un formulaire personnalisé</a></p> 
     </div> </td> 
   </tr> 
   <tr> 

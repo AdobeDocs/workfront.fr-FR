@@ -6,7 +6,7 @@ description: Vue d’ensemble des utilisations courantes du mode texte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 6%
@@ -58,9 +58,9 @@ Vous pouvez utiliser le mode texte lorsque vous souhaitez effectuer les opérati
 
 Vous pouvez utiliser le mode Texte pour ajouter un champ personnalisé calculé à un formulaire personnalisé.
 
-Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, voir [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Pour plus d’informations sur la création d’un champ personnalisé calculé en mode texte, voir [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Pour plus d’informations sur la création d’un champ personnalisé calculé en mode texte, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Par exemple, vous pouvez ajouter un champ personnalisé calculé qui affiche un horodatage du moment où un élément a été marqué comme En cours. Vous pouvez utiliser ce calcul pour d’autres états.
 

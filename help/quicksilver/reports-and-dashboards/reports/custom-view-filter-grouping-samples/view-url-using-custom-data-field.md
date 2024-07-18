@@ -7,9 +7,9 @@ description: Vous pouvez afficher un lien vers une URL personnalisée interne à
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 21%
 
 ---
@@ -60,7 +60,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 
 ## Créer le champ personnalisé calculé par &quot;URL personnalisée&quot;
 
-Pour plus d’informations sur la création d’un champ personnalisé calculé, consultez l’article [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Pour plus d’informations sur la création d’un champ personnalisé calculé, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Si vous avez accès à la création d’un formulaire personnalisé, vous pouvez créer un champ personnalisé calculé pour les tâches appelées &quot;URL personnalisée&quot;. Ce champ est directement lié au sous-onglet **Aperçu** de l’onglet **Détails de la tâche**.
 
