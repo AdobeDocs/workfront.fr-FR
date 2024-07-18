@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '948'
 ht-degree: 5%
 
 ---
@@ -73,7 +73,6 @@ Sur la base de vos commentaires, nous avons introduit les améliorations suivant
 
 * Ajoutez un fichier Adobe XD pour rendre un formulaire personnalisé plus visuel et informatif. Lorsque le formulaire est joint à un objet, les utilisateurs qui l’utilisent peuvent afficher et interagir avec le fichier XD depuis le formulaire.
 
-  Pour plus d’informations, voir [Ajout ou modification d’une image ou d’un autre widget de ressource dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Utilisez le filtre rapide pour localiser facilement des éléments dans la liste de champs et de formulaires personnalisés modernisés. Profitez également d’une apparence améliorée lors de la gestion de vos formulaires et champs.
 

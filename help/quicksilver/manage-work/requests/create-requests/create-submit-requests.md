@@ -6,9 +6,9 @@ description: Les tâches planifiées sont représentées dans Adobe Workfront pa
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2339'
 ht-degree: 5%
 
 ---
@@ -87,7 +87,7 @@ Un administrateur Workfront doit créer les composants suivants d’une file d�
   Pour plus d’informations, voir l’article [Créer des groupes de sujets](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Facultatif) Demandez un formulaire personnalisé.\
-  Pour plus d’informations, voir l’article [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Pour plus d’informations, consultez l’article [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * (Facultatif) Processus de demande d’approbation.\
   Pour plus d’informations, voir l’article [Créer un processus d’approbation pour les tâches](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

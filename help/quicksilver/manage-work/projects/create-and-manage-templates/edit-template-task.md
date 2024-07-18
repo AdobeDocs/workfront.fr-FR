@@ -7,10 +7,10 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2384'
-ht-degree: 30%
+source-wordcount: '2385'
+ht-degree: 29%
 
 ---
 
@@ -350,7 +350,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à joindre autom
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Sélectionnez le ou les formulaires personnalisés à associer à la tâche de modèle. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer et modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche de modèle. Les formulaires sont automatiquement ajoutés aux tâches créées à partir du modèle.
+1. Sélectionnez le ou les formulaires personnalisés à associer à la tâche de modèle. Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche de modèle. Les formulaires sont automatiquement ajoutés aux tâches créées à partir du modèle.
 1. (Conditionnel et facultatif) Si vous avez joint un formulaire personnalisé à la tâche de modèle, modifiez les champs du formulaire. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer la tâche de modèle.
 
    >[!NOTE]

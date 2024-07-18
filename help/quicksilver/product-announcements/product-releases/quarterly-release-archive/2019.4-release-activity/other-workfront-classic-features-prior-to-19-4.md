@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 16%
+source-wordcount: '354'
+ht-degree: 17%
 
 ---
 
@@ -45,7 +45,6 @@ Pour plus d’informations sur la période de publication et toutes les fonction
      <p>Par exemple, si vous avez créé un champ de cases à cocher, vous pouvez le transformer en champ de liste déroulante ou en champ de boutons radio. Ces trois types d’affichage de champ sont interchangeables.</p> 
      <p>Si vous avez créé un champ de texte d’une seule ligne, vous pouvez également le remplacer par un champ de texte de paragraphe. Ces deux types d’affichage de champ sont interchangeables.</p> 
      <p>Auparavant, pour modifier le type d’affichage d’un champ personnalisé, vous deviez créer un nouveau champ et supprimer l’ancien champ. Il fallait pour cela transférer des données, ce qui prenait souvent du temps.</p> 
-     <p>Pour plus d’informations, voir <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Créer ou modifier un formulaire personnalisé</a> dans l’article <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Créer ou modifier un formulaire personnalisé</a></p> 
      <div class="workfront_plans"> 
       <p><strong>Disponible dans ces environnements :</strong> </p> 
       <ul> 

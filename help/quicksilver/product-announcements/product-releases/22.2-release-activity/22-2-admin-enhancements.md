@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,11 @@ Auparavant, vous pouviez configurer un formulaire personnalisé pour qu’il fon
 
 Cette fonctionnalité fonctionne avec tous les formulaires personnalisés créés précédemment dans votre système Workfront. Par exemple, si vous disposez déjà d’un formulaire personnalisé créé pour le type d’objet Tâche , vous pouvez maintenant configurer le formulaire pour qu’il fonctionne avec d’autres types d’objets, tels que Projet et Problème.
 
-Pour plus d’informations, reportez-vous à la section [Démarrage de la création d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) de l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 >[!NOTE]
 >
->* Au moment de la version initiale de l’aperçu de cette fonctionnalité, nous avons temporairement désactivé la possibilité de copier un formulaire personnalisé à plusieurs objets. Cette capacité a été activée le 24 mars. Pour plus d’informations sur la copie d’un formulaire personnalisé, voir [Copier un formulaire personnalisé pour en créer un](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* Dans un champ personnalisé calculé, certains champs que vous référencez peuvent ne pas être compatibles avec les types d’objets configurés pour le formulaire. Notre solution est un caractère générique qui permettra au calcul de produire différentes valeurs, selon l’objet auquel le formulaire est attaché. Nous avons ajouté le joker le 24 mars. Pour plus d’informations sur son utilisation, reportez-vous à la section [Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) de l’article [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* Pour les sauts de section dans les formulaires personnalisés, nous avons créé un ensemble d’autorisations courantes d’affichage et de modification qui fonctionnent pour tous les types d’objets que vous pouvez configurer pour un formulaire. Dans un scénario, nous avons constaté que l’une de ces autorisations, Modification limitée, pouvait entraîner des erreurs sur un formulaire. Ce problème a été corrigé le 24 mars. Pour plus d’informations sur les sauts de section, voir [Ajout d’un saut de section à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* Au moment de la version initiale de l’aperçu de cette fonctionnalité, nous avons temporairement désactivé la possibilité de copier un formulaire personnalisé à plusieurs objets. Cette capacité a été activée le 24 mars.
+>* Dans un champ personnalisé calculé, certains champs que vous référencez peuvent ne pas être compatibles avec les types d’objets configurés pour le formulaire. Notre solution est un caractère générique qui permettra au calcul de produire différentes valeurs, selon l’objet auquel le formulaire est attaché. Nous avons ajouté le joker le 24 mars.
+>* Pour les sauts de section dans les formulaires personnalisés, nous avons créé un ensemble d’autorisations courantes d’affichage et de modification qui fonctionnent pour tous les types d’objets que vous pouvez configurer pour un formulaire. Dans un scénario, nous avons constaté que l’une de ces autorisations, Modification limitée, pouvait entraîner des erreurs sur un formulaire. Ce problème a été corrigé le 24 mars.
 >
 
 ## Le catalogue des plans directeurs est disponible pour tous les utilisateurs et les administrateurs peuvent autoriser les demandes.
@@ -60,7 +58,6 @@ Auparavant, les formulaires personnalisés étaient entièrement basés sur du t
 >
 >Dans les nouvelles zones d’expérience Adobe Workfront qui n’ont pas encore été modernisées, comme la zone qui s’affiche lorsque vous modifiez des éléments en masse, les images de formulaire personnalisées ne s’affichent pas. Ils s’afficheront au fur et à mesure que nous continuons à mettre à jour ces zones.
 
-Pour plus d’informations, voir [Ajout ou modification d’un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Nouvelles configurations de niveau d’accès par défaut
 

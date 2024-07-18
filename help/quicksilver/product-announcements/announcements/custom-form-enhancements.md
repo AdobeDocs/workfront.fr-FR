@@ -4,9 +4,9 @@ description: Les améliorations significatives suivantes ont été apportées à
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,6 @@ Actuellement, les utilisateurs ne peuvent pas voir le widget dans les zones suiv
 * La zone Modifier de l’objet, s’il ne présente pas l’apparence de la nouvelle expérience Adobe Workfront (par exemple, la zone Modifier les dépenses)
 * &#x200B; l’application mobile Workfront
 
-Pour plus d’informations sur l’ajout de widgets aux formulaires personnalisés, voir [Ajout ou modification d’une image ou d’un autre widget de ressource dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## Associer un formulaire personnalisé à plusieurs types d’objets
 
 Vous pouvez associer plusieurs types d’objet à n’importe quel nouveau formulaire personnalisé :
@@ -68,8 +66,6 @@ Cela s’avère particulièrement utile lorsque vous convertissez un problème o
 >
 >Lorsque la conversion a lieu, le formulaire personnalisé doit déjà être associé au type d’objet que vous convertissez.
 
-Pour plus d’informations sur l’ajout d’un widget de ressource à un formulaire personnalisé, voir [Ajout ou modification d’une image ou d’un autre widget de ressource dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 Tenez compte des points suivants lorsque vous créez ou modifiez un formulaire personnalisé à plusieurs objets :
 
 * [Options d’autorisation pour les sauts de section](#permission-options-for-section-breaks)
@@ -89,8 +85,6 @@ L’ensemble des autorisations de coupure de section disponibles pour tous les a
 Dans un formulaire personnalisé associé aux types d’objets de ces deux groupes, le système utilise un jeu commun d’autorisations de saut de section qui fonctionne pour tous les types d’objets. En particulier, au lieu d’utiliser l’option d’autorisation Modification limitée , ce jeu commun remplace l’option d’autorisation Modifier par l’option d’autorisation Modification limitée . L’option Modifier est compatible avec tous les types d’objets.
 
 Lorsque vous associez un type d’objet qui utilise des options d’autorisation différentes des autres types d’objet déjà présents sur un formulaire personnalisé, un message s’affiche et vous permet de passer à l’ensemble commun d’options d’autorisation sera utilisé pour le formulaire. Cette modification s’applique à tous les champs, même s’ils ne sont pas sous un saut de section.
-
-Pour plus d’informations, voir [Ajout d’un saut de section à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 
 ### Compatibilité des champs personnalisés calculés
 
@@ -125,7 +119,6 @@ Dans ce cas, vous pouvez effectuer l’une des opérations suivantes :
 >
 >  Si vous ajoutez un type d’objet devant un nom de champ, il fait référence à l’objet parent de l’objet. Vous ne pouvez donc pas utiliser `{project}.{name}` avec un projet, mais vous pouvez l’utiliser avec une tâche.
 
-Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, voir [Ajout de données calculées à un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 Pour plus d’informations sur les variables telles que `$$OBJCODE`, voir [Présentation des variables de filtre générique](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 

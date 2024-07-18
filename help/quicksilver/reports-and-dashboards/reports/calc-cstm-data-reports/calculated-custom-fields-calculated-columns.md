@@ -7,9 +7,9 @@ description: Pour regrouper plusieurs champs dans Adobe Workfront et afficher ce
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '815'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 Pour regrouper plusieurs champs dans Adobe Workfront et afficher cette valeur agrégée dans un nouveau champ, vous pouvez créer les éléments suivants :
 
 * Un champ personnalisé calculé dans un formulaire personnalisé\
-  Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, reportez-vous à la section [Ajout d’un champ calculé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) de l’article [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Pour plus d’informations sur l’ajout d’un champ personnalisé calculé à un formulaire personnalisé, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * Une colonne calculée dans une vue\
   Pour plus d’informations sur l’utilisation des calculs dans une vue, reportez-vous à la section [Utiliser le mode texte dans les vues](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) de l’article [Présentation des utilisations courantes du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

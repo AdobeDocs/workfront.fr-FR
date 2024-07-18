@@ -4,9 +4,11 @@ description: Lorsque vous affichez la liste des formulaires personnalisés de vo
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+hidefromtoc: true
+hide: true
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '545'
 ht-degree: 18%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 18%
 
 Lorsque vous affichez la liste des formulaires personnalisés de votre entreprise, ainsi que les champs et widgets personnalisés qui y ont été ajoutés, vous pouvez utiliser les options de la barre d’outils pour modifier leurs propriétés, limiter avec qui ils sont partagés, les copier et les supprimer. Vous pouvez également afficher d’autres informations dans les colonnes qui s’affichent, comme les types d’objet auxquels chaque formulaire personnalisé est associé.
 
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Ajouter un champ personnalisé à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) et [Ajouter ou modifier un widget de ressource dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Conditions d’accès
 
@@ -53,9 +55,9 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
    Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un formulaire personnalisé dans la liste, reportez-vous aux articles suivants :
 
-   * [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Concevoir un formulaire avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Partager un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-   * [Copier un formulaire personnalisé pour en créer un nouveau](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+   * [Copier un formulaire personnalisé pour en créer un nouveau](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Suppression ou désactivation d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. Cliquez sur l’onglet **Champs** .
@@ -76,12 +78,12 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un élément dans la liste, reportez-vous aux articles suivants :
 
    * [Ajouter ou modifier un champ personnalisé, un saut de section ou un widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-   * [Configuration du partage pour les champs et widgets personnalisés](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+   * [Configuration du partage de champs et de widgets personnalisés dans un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [Supprimer un champ personnalisé ou un widget du système](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. Sélectionnez l’onglet **Sections**, puis assurez-vous que **Groupe de paramètres** est sélectionné comme **Vue** pour la liste.
 
    Tous les sauts de section s’affichent dans cette vue, ainsi qu’une liste de formulaires personnalisés contenant chaque saut de section.
 
-   Pour plus d’informations sur la modification d’une section personnalisée que vous sélectionnez dans la liste, voir [Ajout d’un saut de section à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+   Pour plus d’informations sur la modification d’une section personnalisée que vous sélectionnez dans la liste, voir [Organisation et aperçu d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 

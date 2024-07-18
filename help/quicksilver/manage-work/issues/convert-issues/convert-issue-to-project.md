@@ -6,9 +6,9 @@ description: Convertir un problème en projet dans Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1957'
 ht-degree: 9%
 
 ---
@@ -129,7 +129,7 @@ Vous pouvez convertir un problème en projet vierge.
      >[!TIP]
      >
      >* Si un formulaire personnalisé à plusieurs objets associé au problème est configuré pour être utilisé avec les problèmes et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois sur le problème et sur les formulaires personnalisés du projet.
-     >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est associé au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous avertit d’effectuer des ajustements. Pour plus d’informations, reportez-vous à la section &quot;Champs personnalisés calculés dans les formulaires personnalisés à plusieurs objets&quot; dans la section [Ajout de données calculées à un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+     >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est associé au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous avertit d’effectuer des ajustements. Pour plus d’informations, reportez-vous à la section &quot;Champs personnalisés calculés dans les formulaires personnalisés à plusieurs objets&quot; dans la section [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 1. Cliquez sur [!UICONTROL **Convertir en projet**].
 
@@ -237,7 +237,7 @@ Vous pouvez convertir un problème en projet à l’aide d’un modèle.
         >[!TIP]
         >
         >* Si un formulaire personnalisé à plusieurs objets associé au problème est configuré pour être utilisé avec les problèmes et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois sur le problème et sur les formulaires personnalisés du projet.
-        >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est associé au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous avertit d’effectuer des ajustements. Pour plus d’informations, reportez-vous à la section &quot;Champs personnalisés calculés dans les formulaires personnalisés à plusieurs objets&quot; dans la section [Ajout de données calculées à un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+        >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est associé au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous avertit d’effectuer des ajustements. Pour plus d’informations, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
         >* Si un formulaire personnalisé associé au modèle contient un champ personnalisé qui se trouve également dans un formulaire personnalisé associé au problème, la valeur de champ du problème est utilisée pour le nouveau projet. Cependant, si le champ personnalisé est vide sur le problème, la valeur du modèle est utilisée.
 
 1. (Facultatif) Définissez d’autres &#x200B; de détails du projet (propriétaire du projet, dates du projet) et tâches, le cas échéant.

@@ -6,7 +6,7 @@ description: En tant que gestionnaire de ressources, vous pouvez affecter du tra
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 95%
@@ -16,8 +16,6 @@ ht-degree: 95%
 # Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail
 
 <!-- Audited: 01/2024 -->
-
-{{highlighted-preview}}
 
 En tant que gestionnaire de ressources, vous pouvez affecter du travail aux utilisateurs et utilisatrices et gérer leurs affectations quotidiennes, hebdomadaires ou mensuelles à partir de l’équilibreur de charge de travail afin de vous assurer qu’un nombre d’heures adapté à leurs plannings disponibles leur est alloué.
 
@@ -117,14 +115,14 @@ Tenez compte des points suivants lors de la localisation d’allocations quotidi
 
 * Deux utilisateurs et utilisatrices dans des fuseaux horaires ou avec des plannings différents de ceux des utilisateurs et utilisatrices affectés peuvent faire apparaître des allocations différentes à celles de deux utilisateurs et utilisatrices affichant les mêmes éléments de travail.
 
-* Lorsqu’un utilisateur a programmé des congés, le jour ou la partie de la journée s’affiche en arrière-plan gris, <span class="preview"> et une icône d’avion indique l’heure</span>. Si l’administrateur ou l’administratrice de Workfront a activé le paramètre Congés de l&#39;utilisateur dans la zone Configuration afin de prendre en compte les congés de l’utilisateur ou l’utilisatrice, les heures allouées sont déplacées vers le jour disponible suivant dans la chronologie. Si le paramètre est désactivé, les heures allouées restent sur le jour désigné de congés et l’utilisateur ou l’utilisatrice s’affiche comme étant surchargé. Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Lorsqu’un utilisateur a programmé des congés, le jour ou la partie de la journée s’affiche en arrière-plan gris et une icône d’avion indique le moment du congé. Si l’administrateur ou l’administratrice de Workfront a activé le paramètre Congés de l&#39;utilisateur dans la zone Configuration afin de prendre en compte les congés de l’utilisateur ou l’utilisatrice, les heures allouées sont déplacées vers le jour disponible suivant dans la chronologie. Si le paramètre est désactivé, les heures allouées restent sur le jour désigné de congés et l’utilisateur ou l’utilisatrice s’affiche comme étant surchargé. Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >Si les congés ont été marqué après l’affectation de l’utilisateur ou de l’utilisatrice à un élément de travail, vous devez recalculer la chronologie du projet pour afficher l’allocation déplacée. Pour plus d’informations, voir [Recalculer les chronologies des projets](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-   * <span class="preview">Lorsque plusieurs utilisateurs sont affectés à une tâche et que la personne désignée principale a programmé un congé, la chronologie est décalée (si les dates ne sont pas fixes) et les heures planifiées de tous les cessionnaires sont redistribuées pendant toute la nouvelle durée de la tâche. Si la tâche comporte des dates fixes, la chronologie n&#39;est pas modifiée en raison d&#39;un temps de pause et les heures sont réaffectées parmi les jours restants.</span>
-   * <span class="preview">Si les affectations sont effectuées manuellement, les heures planifiées ne sont pas redistribuées après le moment de congé.</span>
+   * Lorsque plusieurs utilisateurs sont affectés à une tâche et que le cessionnaire principal a programmé un congé, la chronologie est décalée (si les dates ne sont pas fixes) et les heures planifiées de tous les cessionnaires sont redistribuées sur la nouvelle durée de la tâche. Si la tâche comporte des dates fixes, la chronologie n’est pas modifiée en raison d’un temps de congé et les heures sont réaffectées parmi les jours restants.
+   * Si les affectations sont effectuées manuellement, les heures planifiées ne sont pas redistribuées après le congé.
 
 * Si plusieurs utilisateurs et utilisatrices sont affectés à la tâche, le nombre d’heures prévues est réparti uniformément entre chaque utilisateur et utilisatrice en premier, puis uniformément entre chaque jour pendant la durée de la tâche. Cette répartition devient l’allocation de chaque utilisateur et utilisatrice sur la tâche.
 

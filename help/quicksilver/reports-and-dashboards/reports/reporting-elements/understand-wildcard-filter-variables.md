@@ -7,9 +7,9 @@ description: En utilisant des caractères génériques dans des filtres, vous po
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 100%
 
 ---
@@ -222,7 +222,6 @@ Vous pouvez choisir parmi les caractères génériques suivants basés sur un ob
      <p>La variable $$OBJCODE fait référence au type d’un objet. </p> 
      <p>Dans un formulaire personnalisé, lorsque les types d’objets sélectionnés du formulaire sont incompatibles avec un champ référencé dans un champ personnalisé calculé, vous pouvez utiliser ce caractère générique pour éviter la création de formulaires en double pour ces types d’objets.</p> 
      <p>Dans le champ personnalisé calculé, vous devez inclure le caractère générique dans une expression IF afin que le calcul puisse générer des valeurs différentes pour chacun des types d’objets de votre formulaire. </p> 
-     <p>Pour plus d’informations et pour consulter un exemple, rendez-vous dans la section <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets</a> de l’article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Ajouter des données calculées à un formulaire personnalisé</a>.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

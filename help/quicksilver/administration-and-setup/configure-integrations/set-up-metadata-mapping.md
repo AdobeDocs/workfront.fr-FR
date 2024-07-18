@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 23%
+source-wordcount: '615'
+ht-degree: 20%
 
 ---
 
@@ -58,7 +58,7 @@ Lorsqu’un utilisateur envoie un document de [!DNL Workfront] vers une applicat
 
 Vous pouvez mapper le même champ [!DNL Workfront] à différents champs de métadonnées dans [!DNL Workfront DAM], mais vous ne pouvez pas utiliser un champ de métadonnées dans l’une de ces applications pour plusieurs champs de métadonnées [!DNL Workfront].
 
-Pour configurer plusieurs champs [!DNL Workfront] à exporter vers un champ de métadonnées dans une application [!DNL Workfront], créez d’abord un champ personnalisé calculé dans [!DNL Workfront] afin d’afficher tous les champs personnalisés individuels d’un objet. Associez ensuite le champ [!DNL Workfront] calculé à un champ de métadonnées dans l’application [!DNL Workfront]. Pour plus d’informations sur les champs personnalisés calculés, voir [Ajouter des données calculées à un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Pour configurer plusieurs champs [!DNL Workfront] à exporter vers un champ de métadonnées dans une application [!DNL Workfront], créez d’abord un champ personnalisé calculé dans [!DNL Workfront] afin d’afficher tous les champs personnalisés individuels d’un objet. Associez ensuite le champ [!DNL Workfront] calculé à un champ de métadonnées dans l’application [!DNL Workfront]. Pour plus d’informations sur les champs personnalisés calculés, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Avant de pouvoir mapper des champs pour le processus de mappage des métadonnées, vous devez activer l’application dans [!DNL Workfront]. Pour plus d’informations, voir [Configuration des intégrations de documents](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 

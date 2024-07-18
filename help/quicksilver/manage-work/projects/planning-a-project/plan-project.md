@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1396'
-ht-degree: 100%
+source-wordcount: '1397'
+ht-degree: 98%
 
 ---
 
@@ -85,7 +85,7 @@ Posez-vous les questions suivantes :
   Pour plus d’informations sur la définition des mises à jour à suivre dans Workfront, consultez l’article [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * Existe-t-il des informations pour lesquelles vous devez effectuer un suivi, mais qui n’ont pas de champ dédié dans Workfront pour les stocker ? Si tel est le cas, créez un formulaire personnalisé pour les projets ou les tâches dans lesquels vous pouvez stocker ces informations.\
-  Pour plus d’informations sur la création de formulaires personnalisés, voir l’article [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Existe-t-il des points de contrôle d’approbation qui doivent être accordés avant que le travail sur un projet puisse continuer ? Si oui, créez des processus d’approbation pour les projets ou les tâches que vous pouvez utiliser lors de la création de votre projet.\
   Pour plus d’informations sur les processus d’approbation, voir l’article [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

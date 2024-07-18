@@ -7,9 +7,9 @@ description: Les rapports fournissent une visibilité sur ce qui se passe avec l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '3294'
+source-wordcount: '3295'
 ht-degree: 1%
 
 ---
@@ -323,7 +323,7 @@ Les termes suivants sont utilisés en référence aux rapports Workfront :
   </tr> 
   <tr> 
    <td>Champs</td> 
-   <td> <p>Fait référence aux attributs de vos objets. Par exemple, "État" est un champ pour les projets, les tâches ou les problèmes. "Gestionnaire de Portfolios" est un champ destiné à l’objet de Portfolio.</p> <p>Vous pouvez également avoir des champs personnalisés que vous créez vous-même et ajoutez à des formulaires personnalisés.<br>Pour plus d’informations sur la création de formulaires personnalisés, reportez-vous à l’article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p> </td> 
+   <td> <p>Fait référence aux attributs de vos objets. Par exemple, "État" est un champ pour les projets, les tâches ou les problèmes. "Gestionnaire de Portfolios" est un champ destiné à l’objet de Portfolio.</p> <p>Vous pouvez également avoir des champs personnalisés que vous créez vous-même et ajoutez à des formulaires personnalisés.<br>Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Concevoir un formulaire avec le concepteur de formulaires</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Nom de champ </td> 

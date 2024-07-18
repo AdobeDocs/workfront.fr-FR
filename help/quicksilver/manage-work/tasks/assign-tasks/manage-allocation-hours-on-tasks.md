@@ -6,20 +6,14 @@ description: Lors de l’affectation d’utilisateurs ou de rôles à une tâche
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 28%
+source-wordcount: '582'
+ht-degree: 24%
 
 ---
 
 # Gérer les heures d’attribution des utilisateurs et utilisatrices ou des rôles sur les tâches
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour toutes les clientes et tous les clients ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Lors de l’affectation d’utilisateurs ou de rôles à une tâche, ils sont affectés à un certain nombre d’heures pour terminer la tâche. Vous pouvez modifier manuellement le nombre d’heures alloué à chaque utilisateur ou rôle de tâche lorsqu’il est affecté à une tâche, lorsque le type de durée de la tâche est Simple.
 
@@ -82,10 +76,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Assurez-vous que le **type de durée** de la tâche est **Simple**.
 1. Modifiez les **Allocations** pour chaque personne désignée pour la tâche. Il s’agit d’affectations globales pour chaque affectation à cette tâche, pour toute la durée de la tâche. Cela peut également mettre à jour les heures planifiées globales de la tâche.
 
-   Exemple d’image dans l’environnement de production :
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
-
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![Modifier les attributions](assets/advanced-assignments-duration-type-allocations.png)
 
 1. Cliquer sur **Enregistrer**.

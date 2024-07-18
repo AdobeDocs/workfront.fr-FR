@@ -7,20 +7,14 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 23%
+source-wordcount: '1168'
+ht-degree: 20%
 
 ---
 
 # Créer des affectations avancées
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour toutes les clientes et tous les clients ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Vous pouvez gérer les affectations de tâche ou de problème à l’aide d’affectations avancées.
 
@@ -97,10 +91,6 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 
 1. Cliquez sur **Avancé**.
 
-   Exemple d’image dans l’environnement de production :
-   ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![Cliquez sur Avancé](assets/assignments-box-in-task-header.png)
 
 1. Dans le champ **Rechercher des personnes, des rôles et des équipes**, commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
@@ -159,10 +149,6 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 
    * **Rôle du cessionnaire :** Sélectionnez le rôle que l’utilisateur doit utiliser lors de la réalisation de cette affectation.  Le rôle de Principal de l’utilisateur s’affiche par défaut. Cliquez dans la zone Rôle du cessionnaire pour sélectionner un autre rôle.  Lorsque vous affectez d’abord la tâche ou le problème à un rôle, puis ajoutez un utilisateur qui peut remplir ce rôle comme seconde affectation, la liste des utilisateurs suggérés est filtrée pour les utilisateurs qui peuvent remplir les rôles déjà affectés à la tâche et au problème.
 
-     Exemple d’image dans l’environnement de production :
-     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
-
-     <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
      ![Rôle du cessionnaire](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -181,14 +167,6 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 
    * **Heures planifiées** : lorsque le type de durée est Attribution calculée ou Simple, mettez à jour le nombre d’heures planifiées. Par conséquent, les pourcentages d’attribution ou les heures pour chaque ressource sont répartis uniformément. Workfront calcule les Heures planifiées lorsque le Type de durée est Basé sur le travail calculé ou l’effort. Pour plus d’informations, voir [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-     Exemple d’image dans l’environnement de production :
-     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-     <div class="preview">
-
-     Exemple d’image dans l’environnement Aperçu :
      ![Affectations avancées](assets/advanced-assignments-duration-type-allocations.png)
-
-     </div>
 
 1. Cliquer sur **Enregistrer**.

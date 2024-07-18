@@ -6,9 +6,9 @@ description: Votr profil  [!DNL Adobe Workfront]  contient des informations vous
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 99%
 
 ---
@@ -523,7 +523,7 @@ Pour joindre un formulaire personnalisé au profil d’une personne, vous devez 
 
 Toutes les personnes peuvent voir les formulaires personnalisés qui ont été associés à leurs profils.
 
-L’administration de [!DNL Workfront] doit configurer des formulaires personnalisés pour l’objet utilisateur ou utilisatrice afin que vous puissiez joindre un formulaire personnalisé au profil de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la création de formulaires personnalisés, consultez la section [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+L’administration de [!DNL Workfront] doit configurer des formulaires personnalisés pour l’objet utilisateur ou utilisatrice afin que vous puissiez joindre un formulaire personnalisé au profil de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Commentaires]
 

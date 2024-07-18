@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2758'
 ht-degree: 12%
 
 ---
@@ -71,8 +71,6 @@ Avant d’effectuer les actions décrites dans cet article, vous devez vous assu
   Pour savoir comment ajouter des champs dont Workfront doit effectuer le suivi, voir [Configuration des mises à jour du système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 * Pour tous les champs personnalisés sur lesquels vous souhaitez générer des rapports, le paramètre **Afficher les modifications de champ dans les flux de mise à jour** est activé.
-
-  Pour savoir comment activer ce paramètre pour un champ personnalisé, voir [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Rapport d’entrée de journal - Aperçu
 

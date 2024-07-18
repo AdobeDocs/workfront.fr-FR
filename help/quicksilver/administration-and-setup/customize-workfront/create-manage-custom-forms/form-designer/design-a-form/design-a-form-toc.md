@@ -1,5 +1,5 @@
 ---
-title: Concevoir un formulaire
+title: "Conception d’un formulaire : index de l’article"
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,17 +10,20 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 091edfd8-8b69-4a56-9dae-ec73828a3f64
-source-git-commit: b28e4515f2c391cc315eec4740a91919ae9218d9
+source-git-commit: 78b24eef63dabcd5f5dcb53e217ced00da915eff
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 82%
+source-wordcount: '91'
+ht-degree: 45%
 
 ---
 
-# Concevoir un formulaire
+# Conception d’un formulaire : index de l’article
+
+Cette section contient les articles suivants :
 
 * [Concevoir un formulaire avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
-* [Concevoir un formulaire à partir d’une copie avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
-* [Ajouter des champs calculés avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
-* [Ajouter une logique d’affichage et une logique de saut avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
-* [Organiser et prévisualiser un formulaire avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+* [Conception d’un formulaire à partir d’une copie](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+* [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+* [Ajouter une logique d’affichage et ignorer la logique dans un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+* [Exemples de champs de recherche externe dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+* [Organisation et prévisualisation d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)

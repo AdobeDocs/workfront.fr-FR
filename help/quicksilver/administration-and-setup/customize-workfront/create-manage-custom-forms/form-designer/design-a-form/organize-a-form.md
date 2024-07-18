@@ -1,5 +1,5 @@
 ---
-title: Organiser et prévisualiser un formulaire avec le créateur de formulaires
+title: Organisation et prévisualisation d’un formulaire
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 88%
+source-wordcount: '1277'
+ht-degree: 87%
 
 ---
 
-# Organiser et prévisualiser un formulaire avec le créateur de formulaires
+# Organisation et prévisualisation d’un formulaire
 
 Vous pouvez organiser un formulaire personnalisé avec le créateur de formulaires et le prévisualiser pour vérifier qu’il est correctement configuré.
 
@@ -79,10 +79,6 @@ Pour plus d’informations sur les autorisations sur les objets, voir [Vue d’e
       <td role="rowheader">Description</td> 
       <td>Saisissez du texte si vous souhaitez expliquer aux utilisateurs et utilisatrices à quoi sert la section. Celui-ci s’affiche sous le libellé de la section sur le formulaire personnalisé.</td> 
      </tr> 
-     <!--<tr> 
-      <td role="rowheader">Add Logic</td> 
-      <td>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
-     </tr> -->
      <tr> 
       <td role="rowheader"> <p>Accorder l’accès</p> </td> 
       <td> <p> Sélectionnez les autorisations dont les utilisateurs et les utilisatrices ont besoin sur un objet où le formulaire personnalisé est joint afin d’afficher cette section et de modifier ses valeurs de champ. 
@@ -149,19 +145,10 @@ Dans un formulaire personnalisé avec un saut de section configuré et l’autor
 
 1. Pour positionner un champ personnalisé et un widget sur la même ligne, faites glisser l’un à côté de l’autre jusqu’à ce qu’une ligne s’affiche entre eux.
 
-<!--
-Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
-   You can drag multiple items. Press the following keys while you select the items, then drag the items together to the new row:
-   * Mac: Command+Shift [Courtney, double-check these commands]
-   * Windows: Ctrl+Shift
-
-   When you drop the custom field or widget, a gray box displays around the two items to indicate that they share a row.
--->
-
->[!NOTE]
->
->* Vous pouvez utiliser le bouton **Prévisualiser** dans le coin supérieur droit pour avoir un aperçu de la façon dont les champs personnalisés et les widgets s’affichent dans le formulaire.
->* Les champs personnalisés et les widgets peuvent ne pas toujours s’afficher de la même manière dans le formulaire, selon l’espace disponible à l’écran lors de sa visualisation. Par exemple, le troisième champ d’une ligne de champs peut être renvoyé à la ligne suivante de champs si l’espace horizontal est limité.
+   >[!NOTE]
+   >
+   >* Vous pouvez utiliser le bouton **Prévisualiser** dans le coin supérieur droit pour avoir un aperçu de la façon dont les champs personnalisés et les widgets s’affichent dans le formulaire.
+   >* Les champs personnalisés et les widgets peuvent ne pas toujours s’afficher de la même manière dans le formulaire, selon l’espace disponible à l’écran lors de sa visualisation. Par exemple, le troisième champ d’une ligne de champs peut être renvoyé à la ligne suivante de champs si l’espace horizontal est limité.
 
 1. (Facultatif) Pour positionner un champ personnalisé ou un widget au-dessus ou en dessous d’un autre, faites-le glisser au-dessus ou en dessous jusqu’à ce qu’une ligne bleue horizontale apparaisse entre les éléments.
 

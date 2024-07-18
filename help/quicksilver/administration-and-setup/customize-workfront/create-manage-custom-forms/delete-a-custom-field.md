@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '552'
 ht-degree: 15%
 
 ---
@@ -75,8 +75,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
    1. Ajoutez les champs personnalisés au nouveau formulaire à supprimer du formulaire personnalisé d’origine.
 
-      * Si vous utilisez le créateur de formulaires personnalisé, voir [Réutilisation d’un champ ou d’un widget personnalisé dans un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
-      * Si vous utilisez le concepteur de formulaire, reportez-vous à la section [Ajout de champs nouveaux ou existants à votre formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+      Pour plus d’informations, reportez-vous à la section [Ajout de champs nouveaux ou existants à votre formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) dans [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    1. Enregistrez le nouveau formulaire personnalisé.
 

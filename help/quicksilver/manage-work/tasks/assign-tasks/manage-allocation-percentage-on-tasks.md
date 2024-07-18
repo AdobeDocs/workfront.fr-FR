@@ -6,20 +6,14 @@ description: Le pourcentage d’allocation représente la durée pendant laquell
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 30%
+source-wordcount: '487'
+ht-degree: 25%
 
 ---
 
 # Gérer le pourcentage d’attribution des utilisateurs et utilisatrices ou des rôles sur les tâches
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour toutes les clientes et tous les clients ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Le pourcentage d’allocation représente la durée pendant laquelle une ressource affectée est planifiée pour travailler sur une tâche au cours d’une journée. Il s’agit du pourcentage d’une journée de travail (selon le planning de l’utilisateur ou du projet) au cours de laquelle une ressource est allouée tout au long de la tâche.
 
@@ -91,10 +85,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Vous ne pouvez pas modifier le pourcentage d’affectation d’une équipe affectée à une tâche.
 
-   Exemple d’image dans l’environnement de production :
-   ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![Modifier le pourcentage d’allocation](assets/advanced-assignments-allocation-percentage.png)
 
 1. Cliquer sur **Enregistrer**.

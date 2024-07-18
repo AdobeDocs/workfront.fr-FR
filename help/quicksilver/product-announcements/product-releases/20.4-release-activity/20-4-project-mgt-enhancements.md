@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1474'
 ht-degree: 1%
 
 ---
@@ -26,8 +26,6 @@ Pour vous donner un meilleur contrôle sur les personnes qui peuvent modifier, s
 Jusqu’à présent, lorsque vous avez créé un champ personnalisé, il était modifiable par tous les membres du système. Il s’agit toujours de l’état par défaut d’un champ personnalisé, mais vous pouvez désormais limiter le partage d’un champ personnalisé à certains utilisateurs, rôles, équipes, groupes et entreprises. Et vous pouvez déterminer si vos destinataires peuvent gérer ou afficher uniquement le champ personnalisé.
 
 En outre, pour que cette expérience vous soit familière, nous avons conçu l’interface utilisateur afin que cette fonctionnalité soit similaire aux autres zones d’objet partageant sur Workfront.
-
-Pour plus d’informations, voir [Configuration du partage pour les champs personnalisés et les widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 ## Nouveau pour les administrateurs : partage de formulaires personnalisés normalisé
 

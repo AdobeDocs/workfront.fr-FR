@@ -7,22 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 18%
+source-wordcount: '1468'
+ht-degree: 16%
 
 ---
 
 # Attribuer les problèmes
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour toutes les clientes et tous les clients ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Vous pouvez affecter des problèmes aux utilisateurs, aux rôles et aux équipes afin d’indiquer qui est responsable de l’exécution des problèmes. Pour obtenir des informations générales sur l’affectation des problèmes, consultez [Présentation de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -126,11 +120,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
    * Commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe que vous souhaitez affecter, puis cliquez dessus lorsqu’il apparaît dans la liste.
 
-     Exemple d’image dans l’environnement de production :
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-     <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-     <span class="preview">![Recherche d’affectations](assets/smart-assignments-issue-header.png)</span>
+     ![Recherche d’affectations](assets/smart-assignments-issue-header.png)
 
    * (Conditionnel) Cliquez sur l’un des noms, rôles ou équipes dans les listes disponibles.
    * Cliquez sur **Me l&#39;affecter** pour l&#39;affecter à vous-même.
@@ -177,10 +167,6 @@ Pour affecter des problèmes dans une liste :
 
    * Cliquez dans le champ **Affectations** et commencez à saisir le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe active que vous souhaitez affecter au problème, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
-     Exemple d’image dans l’environnement de production :
-     ![](assets/assignments-field-task-list-nwe.png)
-
-     <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
      ![Champ Affectations](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]

@@ -1,5 +1,5 @@
 ---
-title: Ajouter une logique d’affichage et une logique de saut avec le créateur de formulaires
+title: Ajouter une logique d’affichage et ignorer la logique dans un formulaire
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 100%
+source-wordcount: '1268'
+ht-degree: 98%
 
 ---
 
-# Ajouter une logique d’affichage et une logique de saut avec le créateur de formulaires
+# Ajouter une logique d’affichage et ignorer la logique dans un formulaire
 
 Vous pouvez choisir quelles sections d’un formulaire personnalisé doivent être affichées ou ignorées en fonction des choix que fait la personne qui le remplit.
 

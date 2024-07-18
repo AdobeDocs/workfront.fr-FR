@@ -6,9 +6,9 @@ description: Si vous devez travailler davantage pour résoudre un problème une 
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1041'
 ht-degree: 12%
 
 ---
@@ -109,7 +109,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >[!TIP]
    >
    >* Si un formulaire personnalisé contenant plusieurs objets associés au problème est configuré pour être utilisé avec les problèmes et les tâches, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois sur le problème et sur les formulaires personnalisés de la tâche.
-   >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est associé au problème ainsi qu’à la tâche, le problème et la tâche doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous avertit d’effectuer des ajustements. Pour plus d’informations, reportez-vous à la section &quot;Champs personnalisés calculés dans les formulaires personnalisés à plusieurs objets&quot; dans la section [Ajout de données calculées à un formulaire personnalisé avec l’ancien créateur de formulaires](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Si un formulaire personnalisé à plusieurs objets avec un champ calculé est associé au problème ainsi qu’à la tâche, le problème et la tâche doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous avertit d’effectuer des ajustements. Pour plus d’informations, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
    >* Si le projet de destination comporte des formulaires par défaut définis dans le champ Task Default Custom Forms lors de la modification du projet, ces formulaires de tâche sont également ajoutés à la nouvelle tâche. Tous les champs personnalisés communs au problème d’origine et les champs des formulaires de tâches par défaut sont préremplis avec les informations des champs de problème.
 
 

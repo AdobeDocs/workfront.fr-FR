@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1208'
 ht-degree: 21%
 
 ---
@@ -89,7 +89,7 @@ Avant d’ajouter un utilisateur, rassemblez les informations sur l’utilisateu
 * Dans quelle équipe d’accueil cet utilisateur doit-il se trouver ? La personne doit-elle faire partie de plusieurs équipes ? Pour plus d’informations sur les équipes, voir [Présentation des équipes](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Quelles informations personnalisées devez-vous associer à cet utilisateur ?
 
-  Si des informations sur les utilisateurs sont capturées dans des champs personnalisés que vous avez créés, un formulaire personnalisé doit être prêt lors de la création d’un utilisateur. Pour plus d’informations sur les formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Si des informations sur les utilisateurs sont capturées dans des champs personnalisés que vous avez créés, un formulaire personnalisé doit être prêt lors de la création d’un utilisateur. Pour plus d’informations sur les formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Création d’un utilisateur à partir de zéro
 

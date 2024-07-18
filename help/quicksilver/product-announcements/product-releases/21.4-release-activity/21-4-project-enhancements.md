@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '911'
 ht-degree: 3%
 
 ---
@@ -96,6 +96,4 @@ L’affichage et la sélection des options de cases à cocher et de boutons radi
 Cela dépend de la position des champs dans le formulaire personnalisé. Si vous placez un autre champ dans la même ligne avec la case à cocher ou le champ de bouton radio, les options peuvent n’avoir qu’un espace horizontal suffisant pour s’afficher dans une seule colonne.
 
 Pour plus d’informations sur le remplissage d’un formulaire personnalisé, voir [Modifier les informations dans les champs de formulaire personnalisés](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
-
-Pour plus d’informations sur la création d’une case à cocher ou d’un champ de bouton radio dans un formulaire personnalisé, reportez-vous aux sections [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) et [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) de l’article [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

@@ -6,9 +6,9 @@ description: Un rapport Calendrier est un rapport dynamique qui fournit une repr
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '695'
 ht-degree: 13%
 
 ---
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Conditions préalables
 
-1. Vous devez avoir des champs de date personnalisés et une valeur dans le champ disponible dans votre instance [!DNL Workfront]. Si vous ne disposez pas d’un formulaire personnalisé configuré avec des dates personnalisées, suivez les instructions des deux premières sections de [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Vous devez avoir des champs de date personnalisés et une valeur dans le champ disponible dans votre instance [!DNL Workfront]. Si vous n’avez pas configuré de formulaire personnalisé avec des dates personnalisées, suivez les instructions de la section [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 1. Joignez le formulaire personnalisé à un projet, à une tâche ou à un problème que vous prévoyez d’ajouter au calendrier, puis spécifiez une date. Pour plus d’informations, voir [Ajout d’un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Configurer le groupe d’éléments

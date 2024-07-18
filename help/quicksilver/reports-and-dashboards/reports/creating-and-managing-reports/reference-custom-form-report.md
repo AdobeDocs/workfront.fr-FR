@@ -6,9 +6,9 @@ description: Vous pouvez référencer les formulaires personnalisés d’un obje
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 13%
 
 ---
@@ -52,7 +52,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Le formulaire personnalisé doit exister avant de pouvoir le référencer dans un rapport.
 
-Pour plus d’informations sur la création de formulaires personnalisés, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Référence au contenu des formulaires personnalisés
 
@@ -61,7 +61,7 @@ Vous pouvez référencer des champs dans des formulaires personnalisés. Après 
 >[!NOTE]
 >
 >Pour les champs comportant plusieurs options, toutes les options sont disponibles dans les Filtres et invites du rapport, y compris celles qui sont masquées.\
->Pour plus d’informations sur le masquage de choix à partir d’un champ personnalisé avec plusieurs options, reportez-vous à l’article [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+>Pour plus d’informations sur le masquage de choix à partir d’un champ personnalisé avec plusieurs options, consultez l’article [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Lors de la création du rapport, il vous suffit d’utiliser le type d’objet du formulaire comme source du champ et d’utiliser le nom du champ personnalisé comme nom du champ.
 

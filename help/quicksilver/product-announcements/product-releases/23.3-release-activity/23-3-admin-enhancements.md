@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 17%
@@ -44,4 +44,4 @@ En outre, lorsque vous ouvrez un formulaire personnalisé dans la version bêta 
 
 La modification d’une logique existante et l’ajout d’une nouvelle logique à un formulaire personnalisé ne sont pas encore disponibles en version bêta du concepteur de formulaire, mais sont prévues pour l’avenir.
 
-Pour plus d’informations, voir [Présentation du concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+Pour plus d’informations, voir [Présentation des formulaires personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

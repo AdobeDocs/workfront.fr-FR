@@ -5,9 +5,9 @@ description: Vous pouvez utiliser l’ Analyse de cas pour demander un projet et
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '831'
 ht-degree: 12%
 
 ---
@@ -106,7 +106,7 @@ Tenez compte des points suivants lorsque vous demandez un projet par le biais d�
 
    Les Forms personnalisées doivent être créées avant de pouvoir être associées aux projets.
 
-   Pour plus d’informations sur le Forms personnalisé, consultez l’article [Créer ou modifier un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Pour plus d’informations sur le Forms personnalisé, consultez l’article [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Submit**.
 

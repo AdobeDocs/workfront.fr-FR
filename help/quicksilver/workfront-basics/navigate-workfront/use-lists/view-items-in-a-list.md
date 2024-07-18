@@ -5,10 +5,10 @@ description: Vous pouvez afficher des listes d’objets dans  [!DNL Adobe Workfr
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 3%
+source-wordcount: '2398'
+ht-degree: 4%
 
 ---
 
@@ -628,7 +628,7 @@ Le tableau suivant présente certaines des différences entre les listes hérit�
   </tr> 
   <tr> 
    <td>Vous ne pouvez pas insérer des champs personnalisés avec la mise en forme de texte enrichi.</td> 
-   <td> <p>Le texte des champs personnalisés avec mise en forme peut être configuré pour autoriser le gras, l’italique, le soulignement, les puces, la numérotation, les liens hypertexte et les guillemets de bloc.</p> <p>Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Création ou modification d’un formulaire personnalisé</a>.</p> </td> 
+   <td> <p>Le texte des champs personnalisés avec mise en forme peut être configuré pour autoriser le gras, l’italique, le soulignement, les puces, la numérotation, les liens hypertexte et les guillemets de bloc.</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Concevoir un formulaire à l’aide du créateur de formulaire</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>La mise en forme conditionnelle peut modifier la couleur du texte des liens dans une liste.</td> 

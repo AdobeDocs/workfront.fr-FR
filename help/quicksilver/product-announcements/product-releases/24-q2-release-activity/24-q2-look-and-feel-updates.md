@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 100%
+source-wordcount: '238'
+ht-degree: 95%
 
 ---
 
@@ -34,4 +34,4 @@ Les modèles d’-mail permettant d’ajouter une personne approbatrice à une r
 
 Nous avons mis à jour les onglets Formulaires, Champs et Sections dans la zone Configuration > Formulaires personnalisés afin de les rendre plus modernes et cohérents avec les autres zones de Workfront. Vous pouvez désormais accéder aux trois zones à partir du menu de navigation de gauche. Les filtres, les vues et les regroupements sont toujours disponibles pour les listes. Cette mise à jour s’applique aux formulaires personnalisés, aux champs et aux sections créés dans le nouveau et l’ancien créateur de formulaires.
 
-Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) et [Créer ou modifier un formulaire personnalisé avec le créateur de formulaire hérité](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Pour plus d’informations, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

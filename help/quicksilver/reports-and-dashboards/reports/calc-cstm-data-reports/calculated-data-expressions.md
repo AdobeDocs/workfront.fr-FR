@@ -7,9 +7,9 @@ description: Vous pouvez utiliser des expressions de données pour définir des 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2165'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,7 @@ Vous pouvez utiliser des expressions de données calculées dans :
 
 * Un champ personnalisé calculé sur un formulaire personnalisé
 
-  Pour plus d’informations sur la création de champs personnalisés calculés sur des formulaires personnalisés dans Workfront, voir [Ajout de données calculées à un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Pour plus d’informations sur la création de champs personnalisés calculés sur des formulaires personnalisés dans Workfront, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * Une colonne personnalisée calculée dans un rapport ou une liste lorsque vous utilisez le mode texte
 

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 20
 Désormais, lorsque l’administrateur du système crée des champs de formulaires personnalisés configurés pour le formatage, vous pouvez mettre en forme le texte dans les champs où vous les utilisez le plus : dans les listes dans Workfront. Au lieu d’entrer dans la zone Détails pour mettre en forme le texte dans le formulaire personnalisé, vous pouvez cliquer sur un champ d’une liste et y appliquer les styles Gras, Italique et Souligné.
 
 Notez que cette fonctionnalité n’est disponible que dans les listes mises à jour. Pour plus d’informations sur les listes mises à jour, voir [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
-
-Pour plus d’informations sur la façon dont un administrateur Workfront crée des champs de texte avec formatage, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Mise à jour de l’aspect de plusieurs en-têtes globaux
 
@@ -113,5 +111,4 @@ Pour vous donner plus de flexibilité en termes d’étiquetage et de réétique
 
 Auparavant, le libellé s’affichait au-dessus du champ pour les utilisateurs et était utilisé par le système pour identifier le champ. Ainsi, la modification du libellé pour les utilisateurs a fait que le champ ne fonctionnait pas partout où il était utilisé, car le système ne pouvait plus l’identifier.
 
-Pour plus d’informations, voir [Création ou modification d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: ab7877c048ea87180dd518c978b258d266e0f95c
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '756'
 ht-degree: 27%
 
 ---
@@ -73,7 +73,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
      </tr>
      <tr> 
       <td role="rowheader">Section Forms personnalisée</td> 
-      <td> <p>Si des champs que vous souhaitez ajouter à votre société ne sont pas disponibles dans Workfront, vous pouvez créer un formulaire personnalisé et l’associer à votre société. Vous pouvez joindre ce formulaire à votre entreprise en le sélectionnant dans le menu déroulant. Seules les entreprises actives sont répertoriées dans le menu déroulant. Pour plus d’informations sur la création d’un Forms personnalisé, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" data-mc-variable-override="">Création ou modification d’un formulaire personnalisé</a>. </p> </td> 
+      <td> <p>Si des champs que vous souhaitez ajouter à votre société ne sont pas disponibles dans Workfront, vous pouvez créer un formulaire personnalisé et l’associer à votre société. Vous pouvez joindre ce formulaire à votre entreprise en le sélectionnant dans le menu déroulant. Seules les entreprises actives sont répertoriées dans le menu déroulant. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Concevoir un formulaire avec le concepteur de formulaires</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>

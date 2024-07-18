@@ -6,9 +6,9 @@ description: Ce scénario d’intégration partage les détails relatifs aux dé
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '922'
 ht-degree: 5%
 
 ---
@@ -73,7 +73,7 @@ Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!D
   | [!UICONTROL Date de dernière transmission] | Date |
   | [!UICONTROL Notes d’intégration] | Zone de texte |
 
-  Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer ou modifier un formulaire personnalisé](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configuration [!DNL Anaplan] attendue
 
