@@ -6,14 +6,16 @@ description: Tirez parti des affectations intelligentes pour identifier la perso
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 75%
+source-wordcount: '547'
+ht-degree: 76%
 
 ---
 
 # Créer des affectations intelligentes
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -27,13 +29,13 @@ Tirez parti des affectations intelligentes pour identifier la personne idéale �
 
 Les affectations intelligentes sont des suggestions destinées aux utilisateurs et utilisatrices, aux rôles ou aux équipes qu’Adobe Workfront vous présente lorsque vous affectez des éléments de travail à des ressources. Workfront base ses suggestions sur un algorithme qui détermine la ressource la plus appropriée pour la tâche.
 
-<span class="preview">Il existe deux algorithmes distincts dans Workfront qui calculent les affectations intelligentes qui fonctionnent différemment pour les tâches et pour les problèmes. </span>
+Il existe deux algorithmes distincts dans Workfront qui calculent les affectations intelligentes qui fonctionnent différemment pour les tâches et pour les problèmes.
 
 Pour plus d’informations sur les critères utilisés pour déterminer les affectations intelligentes, voir [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer des affectations intelligentes
 
@@ -71,35 +75,25 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    * Tâche, liste de problèmes ou rapport
    * En-tête de tâche ou de problème
    * Panneau Résumé de la tâche ou du problème
-   * <span class="preview">Boîte de dialogue Nouvelle tâche ou Nouveau problème lorsque vous ajoutez une nouvelle tâche ou un problème à un projet</span>.
+   * Une boîte de dialogue Nouvelle tâche ou Nouveau problème lorsque vous ajoutez une nouvelle tâche ou un problème à un projet.
    * Champ Affectations pour un élément de la zone Accueil
    * Tâche ou problème dans l’équilibreur de charge de travail
 
 1. Placez le curseur dans le champ Affectations et attendez deux secondes.
 
-   <div class="preview">
-   Une ou plusieurs des sections suivantes contenant des suggestions d’affectation dynamique s’affichent :
+   Pour les problèmes, les affectations intelligentes s’affichent dans les sections suivantes :
 
-   * **Affectations proposées** : s’affiche pour les tâches. <!--remove the note when we go to production with smarter assignments-->
+   * **Utilisateurs et équipes**
+   * **Fonctions**
 
-     >[!TIP]
-     >
-     >   L’en-tête de liste affiche **Voici quelques recommandations** au lieu de **Affectations proposées** dans l’environnement de production.
-     >
-   * **Utilisateurs et équipes** : s’affiche pour les tâches et les problèmes.
-   * **Rôles de tâche** : s’affiche pour les tâches et les problèmes.
-   * **Taux des rôles de tâche de carte** : s’affiche pour les tâches. Pour plus d’informations, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
-   </div>
-
-   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
-
+   ![](assets/smart-assignments-issue-header.png)
 
    Pour les tâches, les affectations intelligentes s’affichent dans les sections suivantes, selon la phase du calcul de l’algorithme qui a identifié les affectations :
 
-   * **Affectations proposées** : Affectations identifiées dans la première phase du calcul de l’algorithme de l’affectation dynamique de tâche. <span class="preview">Cette section n&#39;est pas disponible pour les problèmes.</span>
-   * <span class="preview">**Utilisateurs et équipes**, **Rôles de tâche** ou **Taux des rôles de tâche de carte** : Affectations identifiées dans la seconde phase du calcul de l’algorithme de l’affectation dynamique de tâche. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * **Affectations proposées** : affiche les affectations identifiées dans la première phase de l’algorithme d’affectation dynamique de tâche.
+   * **Utilisateurs et équipes**, **Rôles de tâche** ou <span class="preview">**Taux des rôles de tâche de carte**</span> : Affectations identifiées dans la seconde phase du calcul de l’algorithme de l’affectation dynamique de tâche.
 
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    Consultez [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) pour en savoir plus.
 

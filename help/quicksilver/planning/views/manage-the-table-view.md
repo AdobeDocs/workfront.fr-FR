@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 79%
+source-wordcount: '2598'
+ht-degree: 78%
 
 ---
 
@@ -93,6 +93,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 *Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Modifier des enregistrements à l’aide de la vue de tableau
+
+Vous ne pouvez modifier les informations d’enregistrement que dans la vue de tableau.
+
+Pour plus d’informations sur la modification des enregistrements dans la vue de table, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 ## Gérer une vue de tableau {#manage-a-table-view}
 

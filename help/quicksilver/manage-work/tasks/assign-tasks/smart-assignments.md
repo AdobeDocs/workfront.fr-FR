@@ -7,10 +7,10 @@ description: Lors de la gestion des affectations de tâches et de problèmes, vo
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 95%
+source-wordcount: '1269'
+ht-degree: 90%
 
 ---
 
@@ -49,13 +49,13 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">Liste de tâches ou un rapport dans la colonne Affectations </span>
+* Une liste de tâches ou un rapport dans la colonne Affectations
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">En-tête de tâche dans le champ Affectations</span>
+* Un en-tête de tâche dans le champ Affectations
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * En-tête de problème dans le champ Affectations
 
@@ -63,24 +63,24 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
 * Panneau Résumé de la tâche ou du problème dans la zone Affectations
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">Champ Affectations de la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet</span>
+* Champ Affectations de la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet.
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* Le champ Affectations d’un élément répertorié dans la zone Accueil lorsque vous ouvrez une tâche ou un problème
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * Équilibreur de charge de travail dans la zone Affecté à lorsque vous affectez une tâche ou un problème
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Critères des affectations intelligentes
-
-<div class="preview">
 
 Les affectations intelligentes diffèrent selon qu’il s’agit de tâches ou de problèmes.
 
@@ -134,17 +134,16 @@ Si la première étape des affectations intelligentes de tâche n’a trouvé au
 
 Pour plus d’informations, voir la section [Critères d’affectation intelligente pour les tâches et les problèmes](#smart-assignments-criteria-for-tasks-and-issues) de cet article.
 
-Les affectations identifiées au cours de cette phase sont répertoriées dans les sections **Utilisateurs et équipes**, **Affectations de rôles de tâche** et **Taux des rôles de carte** du champ Affectations. Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Les affectations identifiées au cours de cette phase sont répertoriées dans les sections **Utilisateurs et équipes**, **Affectations de rôles de tâche** et <span class="preview">**Taux des rôles de carte**</span> du champ Affectations. <span class="preview">Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Critères d’affectation intelligente pour les tâches et les problèmes
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview">Les critères suivants s’appliquent aux tâches uniquement lorsque la première phase du calcul d’affectation intelligente de tâche n’a trouvé aucune correspondance. Pour plus d’informations, voir la section [Première phase de calcul de l’affectation intelligente pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) de cet article. Par défaut, les critères suivants s’appliquent toujours aux problèmes. </span>
+>Les critères suivants s’appliquent aux tâches uniquement lorsque la première phase du calcul d’affectation dynamique de tâche n’a trouvé aucune correspondance. Pour plus d’informations, voir la section [Première phase de calcul de l’affectation intelligente pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) de cet article. Par défaut, les critères suivants s’appliquent toujours aux problèmes.
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 Les personnes sont recommandées dans la liste déroulante Affectations intelligentes en fonction d’une combinaison des critères suivants (répertoriés dans l’ordre du plus important au moins important) :
 
