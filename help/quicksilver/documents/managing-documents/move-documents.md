@@ -6,10 +6,10 @@ description: Un utilisateur disposant de droits de gestion sur un document peut 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 44%
+source-wordcount: '266'
+ht-degree: 43%
 
 ---
 
@@ -26,6 +26,8 @@ Lorsque vous déplacez un document, l’un des éléments suivants est égalemen
 * Approbation de documents
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -54,6 +56,8 @@ Vous devez disposer des éléments suivants :
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Déplacer un document
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
@@ -66,4 +70,4 @@ Vous devez disposer des éléments suivants :
 
 1. Cliquez sur **Terminer**.
 
-Vous pouvez également déplacer un document à partir de la page Détails du document . Pour plus d’informations, voir dans l’article .
+Vous pouvez également déplacer un document à partir de la page Détails du document .

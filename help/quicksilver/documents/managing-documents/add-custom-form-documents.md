@@ -6,10 +6,10 @@ description: Vous pouvez ajouter un formulaire personnalisé à un document ou �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 48%
+source-wordcount: '330'
+ht-degree: 47%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 48%
 Vous pouvez ajouter un formulaire personnalisé à un document ou à une version de document pour capturer des informations ou des métadonnées supplémentaires spécifiques à vos ressources.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -45,6 +47,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Conditions préalables
 

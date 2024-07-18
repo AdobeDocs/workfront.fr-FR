@@ -7,9 +7,9 @@ description: Vous pouvez créer un dossier lié à Experience Manager Assets ou 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 14%
 
 ---
@@ -20,6 +20,8 @@ Vous pouvez créer un dossier lié à Experience Manager Assets ou aux Assets Es
 
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -59,6 +61,7 @@ Vous devez disposer des éléments suivants :
 
 * Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
 
 ## Conditions préalables
 
@@ -74,8 +77,6 @@ Le dossier lié est créé à l’emplacement spécifié par l’administrateur 
 Le nom du dossier lié est automatiquement créé en fonction du Portfolio, du programme, du projet auquel il est associé et ne peut pas être modifié. Si le projet n’est associé à aucun Portfolio ou programme, le dossier lié affiche le nom du projet et sa date de création.
 
 Pour créer un dossier lié :
-
-
 
 1. Accédez au projet dans lequel vous souhaitez placer le dossier.
 1. Sélectionnez **Ajouter nouveau**, puis accédez à l’intégration Experience Manager configurée par votre administrateur.

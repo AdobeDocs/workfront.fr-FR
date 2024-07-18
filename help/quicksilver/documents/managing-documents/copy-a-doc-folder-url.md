@@ -6,10 +6,10 @@ description: Vous pouvez copier un lien pour n’importe quel dossier de documen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 47%
+source-wordcount: '249'
+ht-degree: 45%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 47%
 Vous pouvez copier un lien direct pour tout dossier de document contenu dans l’un des objets [!DNL Workfront] suivants : [!UICONTROL Program], [!UICONTROL Portfolio], [!UICONTROL Projet], [!UICONTROL Tâche] ou [!UICONTROL Problème]. Vous ne pouvez pas copier de lien pour les dossiers contenus dans la zone [!UICONTROL Documents] du menu principal, car ces dossiers sont directement liés à votre profil utilisateur et ne peuvent pas être partagés avec d’autres personnes.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -42,6 +44,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Copier et partager un lien vers un dossier de documents
 

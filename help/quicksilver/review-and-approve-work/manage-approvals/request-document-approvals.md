@@ -6,10 +6,10 @@ description: Vous pouvez demander l’approbation d’un document dans Adobe Wor
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 9a32fcc876efd5d5250b515c1c285f5375615510
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 36%
+source-wordcount: '580'
+ht-degree: 32%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 36%
 Vous pouvez demander l’approbation d’un document dans Adobe Workfront à des gestionnaires ou à d’autres utilisateurs. Vous pouvez également demander l’approbation de documents à des personnes sans compte Workfront si votre administrateur Workfront a activé cette fonctionnalité, comme décrit dans la section [Configuration des préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -44,7 +46,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
++++
 
 ## Demande d’approbation de document
 

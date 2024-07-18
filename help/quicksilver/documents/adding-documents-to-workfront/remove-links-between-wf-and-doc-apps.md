@@ -6,9 +6,9 @@ description: Lors du premier chargement d’un document à partir d’un service
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 23%
 
 ---
@@ -22,6 +22,8 @@ Pour plus d’informations sur la liaison de services de document externes à Wo
 Étant donné que le service de document est celui qui autorise les liens vers Workfront, il n’est pas possible pour Workfront de supprimer l’autorisation accordée par le service de document. Vous devez supprimer l’autorisation de dans l’application Document Service ou appeler notre équipe d’assistance pour supprimer ce lien de nos serveurs.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -45,6 +47,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Suppression du lien entre Workfront et Dropbox
 

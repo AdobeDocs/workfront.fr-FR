@@ -7,10 +7,10 @@ description: Vous pouvez afficher une vue en temps réel des métadonnées mapp�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 49%
+source-wordcount: '375'
+ht-degree: 47%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 49%
 Vous pouvez afficher une vue en temps réel des métadonnées mappées dans le panneau Détails du document et Résumé pour les documents . Les champs de métadonnées sont d’abord mappés lorsque vous envoyez une ressource de Workfront vers Experience Manager Assets ou des Assets Essentials. Si votre administrateur Workfront a activé la synchronisation des métadonnées d’objet, les champs restent à jour s’ils sont modifiés dans l’une ou l’autre des applications.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -62,6 +64,7 @@ Pour plus d’informations sur la demande d’un accès supplémentaire, consult
 
 * Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
 
 ## Conditions préalables
 
@@ -77,6 +80,7 @@ Pour ouvrir le panneau Métadonnées dans Détails du document :
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Passez la souris sur le document dont vous avez besoin, puis sélectionnez **Document Details**.
 1. Recherchez et développez la section **Metadata** .
+
    >[!NOTE]
    >
    >Vous ne pouvez pas modifier les champs de cette section. Ils sont en lecture seule.
@@ -91,6 +95,7 @@ Pour ouvrir le panneau Métadonnées dans le panneau Résumé :
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 1. Recherchez le document dont vous avez besoin.
 1. Cliquez sur l&#39;**icône de résumé** ![icône de résumé](assets/summary-panel-icon.png), puis développez la section **Métadonnées** .
+
    >[!NOTE]
    >
    >Vous ne pouvez pas modifier les champs de cette section. Ils sont en lecture seule.

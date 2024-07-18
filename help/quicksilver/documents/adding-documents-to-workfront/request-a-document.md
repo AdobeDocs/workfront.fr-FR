@@ -6,10 +6,10 @@ description: Vous pouvez demander un document sur n’importe quel objet prenant
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 21%
+source-wordcount: '407'
+ht-degree: 20%
 
 ---
 
@@ -18,6 +18,9 @@ ht-degree: 21%
 Vous pouvez demander un document sur n’importe quel objet prenant en charge les documents.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 
 Vous devez disposer des éléments suivants :
 
@@ -41,6 +44,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Demande d’un document
 

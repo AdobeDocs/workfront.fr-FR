@@ -6,9 +6,9 @@ description: Les documents peuvent être organisés en dossiers. Vous pouvez cr�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 31%
 
 ---
@@ -22,6 +22,8 @@ Les documents peuvent être organisés en dossiers. Vous pouvez créer des dossi
 >L’organisation des documents crée simplement des liens entre les documents et les objets auxquels vous les associez. Il ne les déplace pas dans le système.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -46,15 +48,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Afficher les dossiers
 
 Vous pouvez afficher les dossiers en mode Miniature, Standard ou Liste. Pour modifier la vue, utilisez les options de vue dans le coin supérieur droit.
 
-1. Cliquez sur **Documents** dans le menu principal. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   Ou
+Ou
 
-   Une fois l’objet Workfront ouvert, cliquez sur **Documents** dans le panneau de gauche.
+Une fois l’objet Workfront ouvert, cliquez sur **Documents** dans le panneau de gauche.
 
 1. Cliquez sur les options d’affichage au-dessus du panneau de droite pour modifier l’affichage des documents.
 
@@ -64,11 +68,11 @@ Vous pouvez afficher les dossiers en mode Miniature, Standard ou Liste. Pour mod
 
 Créez des dossiers pour mieux organiser vos documents. Vous pouvez créer jusqu’à 2 000 dossiers sur un objet et jusqu’à 50 sous-dossiers dans chaque dossier. Les sous-dossiers sont comptabilisés au maximum de 2 000 dossiers.
 
-1. Cliquez sur **Documents** dans le menu principal. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   Ou
+Ou
 
-   Une fois l’objet Workfront ouvert, cliquez sur **Documents** dans le panneau de gauche.
+Une fois l’objet Workfront ouvert, cliquez sur **Documents** dans le panneau de gauche.
 
 1. Pour créer un dossier de niveau supérieur, assurez-vous que rien n’est sélectionné, puis cliquez sur **Ajouter nouveau** > **Dossier**.
 

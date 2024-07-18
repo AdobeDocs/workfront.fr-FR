@@ -6,10 +6,10 @@ description: Vous pouvez ajouter d’autres approbateurs à la validation d’un
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 64%
+source-wordcount: '337'
+ht-degree: 57%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 64%
 Vous pouvez ajouter d’autres approbateurs à la validation d’un document directement depuis la zone Accueil .
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -44,7 +46,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
++++
 
 ## Ajouter des approbateurs et approbatrices supplémentaires aux approbations de documents soumises
 

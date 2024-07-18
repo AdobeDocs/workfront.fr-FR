@@ -6,9 +6,9 @@ description: Vous pouvez ajouter une nouvelle version d’un document que vous a
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '401'
 ht-degree: 26%
 
 ---
@@ -24,6 +24,8 @@ Si le document contient un BAT et que vous souhaitez créer une nouvelle version
 Pour plus d’informations sur l’ajout d’une nouvelle version d’un document lié à Workfront à partir d’une application externe, voir [Ajout d’une nouvelle version d’un document lié](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) dans [Lier des documents provenant d’applications externes](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -53,6 +55,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Utilisez le glisser-déposer pour ajouter une nouvelle version.
 

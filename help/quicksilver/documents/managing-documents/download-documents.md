@@ -6,10 +6,10 @@ description: Vous pouvez télécharger des documents depuis Adobe Workfront indi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 44%
+source-wordcount: '286'
+ht-degree: 42%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 44%
 Vous pouvez télécharger des documents depuis Adobe Workfront individuellement ou en bloc. Les documents peuvent être téléchargés à partir de n’importe quelle zone contenant des documents dans Workfront. 
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Téléchargement d’un document individuel
 

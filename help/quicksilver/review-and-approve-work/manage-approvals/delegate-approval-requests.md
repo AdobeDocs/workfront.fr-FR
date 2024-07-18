@@ -6,9 +6,9 @@ description: Déléguer des demandes d’approbation permet d’affecter un autr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1262'
 ht-degree: 21%
 
 ---
@@ -35,6 +35,8 @@ Vous ne pouvez pas déléguer les validations de feuille de temps, de document o
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur Workfront.
+Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur Workfront.
+
++++
 
 ## Comprendre l’accès des utilisateurs pour les approbations déléguées
 
@@ -79,9 +83,7 @@ Une fois la délégation d’approbation arrêtée ou annulée, l’utilisateur 
 
 ## Déléguer les demandes d’approbation dans la zone Accueil
 
-* [Déléguer vos approbations à un autre utilisateur](#delegate-your-approvals-to-another-user)
-* [Mettre à jour ou arrêter une délégation d&#39;approbation](#update-or-stop-an-approval-delegation)
-* [Afficher les validations déléguées](#view-delegated-approvals)
+Vous pouvez déléguer des demandes de validation depuis la zone Accueil .
 
 ### Déléguer vos approbations à un autre utilisateur {#delegate-your-approvals-to-another-user}
 

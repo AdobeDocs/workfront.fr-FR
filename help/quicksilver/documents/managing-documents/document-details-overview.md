@@ -7,10 +7,10 @@ description: La page Détails du document vous permet d’afficher, de communiqu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ La page Détails du document vous permet d’afficher, de communiquer et de gér
 
 ## Ouvrez la page Détails du document .
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Documents**.
+{{step1-to-documents}}
 
 1. Passez la souris sur le document, puis cliquez sur **Document Details**.
 

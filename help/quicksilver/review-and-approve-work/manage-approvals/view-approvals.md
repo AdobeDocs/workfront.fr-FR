@@ -6,10 +6,10 @@ description: Les processus de validation permettent de créer des validations à
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 22%
+source-wordcount: '854'
+ht-degree: 21%
 
 ---
 
@@ -22,6 +22,8 @@ Pour plus d&#39;informations sur la création de processus d&#39;approbation, vo
 Pour plus d&#39;informations sur l&#39;association des approbations avec le travail dans Workfront, voir [Associer un processus d&#39;approbation nouveau ou existant au travail](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -48,7 +50,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
++++
 
 ## Localisation des approbations dans Adobe Workfront
 
@@ -111,16 +115,13 @@ Vous pouvez consulter l’état d’approbation d’un objet dans les sections s
  </tbody> 
 </table>
 
-* [Utilisez la zone Mises à jour pour afficher un état d’approbation](#use-the-updates-area-to-view-an-approval-status)
-* [Utiliser la zone Validations pour afficher l’état de validation](#use-the-approvals-area-to-view-an-approval-status)
-
 ### Utilisez la zone Mises à jour pour afficher le statut de la validation. {#use-the-updates-area-to-view-an-approval-status}
 
 Lorsqu’une approbation est lancée sur un projet, une tâche ou un problème, un état s’affiche dans l’onglet **Mises à jour** de l’objet, indiquant le statut de la validation. Un nouvel état s’affiche chaque fois que l’objet passe par le processus d’approbation. Cela inclut les événements suivants :
 
 * Un processus d’approbation est lancé sur un objet. Le processus d’approbation est lancé lorsque l’état est modifié.
 * L’objet est rejeté.
-* L’objet est approuvé. 
+* L’objet est approuvé.
 
 >[!TIP]
 >

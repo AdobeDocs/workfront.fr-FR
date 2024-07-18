@@ -6,10 +6,10 @@ description: Vous pouvez prévisualiser un document à partir de la zone Documen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 53%
+source-wordcount: '202'
+ht-degree: 50%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 53%
 Vous pouvez prévisualiser un document à partir de la zone Documents. Cela s’avère particulièrement utile pour les images.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -47,6 +49,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Aperçu d’un document
 

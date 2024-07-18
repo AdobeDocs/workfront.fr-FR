@@ -6,10 +6,10 @@ description: Vous pouvez afficher ou télécharger dans Adobe Workfront une ress
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: 3b063899c5c7992aad71d1eb8c8fafff7fda84c3
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 45%
+source-wordcount: '277'
+ht-degree: 44%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 45%
 Vous pouvez afficher ou télécharger dans Adobe Workfront une ressource liée à partir de Experience Manager Assets ou d’Assets Essentials.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -49,6 +51,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Conditions préalables
 

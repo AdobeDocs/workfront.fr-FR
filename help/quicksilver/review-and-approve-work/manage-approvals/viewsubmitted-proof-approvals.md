@@ -6,10 +6,10 @@ description: Les validations de vérification s’affichent dans la zone d’acc
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 57%
+source-wordcount: '356'
+ht-degree: 51%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 57%
 Les validations de vérification s’affichent dans la zone d’accueil uniquement si votre environnement Adobe Workfront est intégré à un compte Workfront Proof Premium. Si vous ne pouvez pas utiliser le correctif comme décrit ici, contactez votre administrateur Workfront.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -44,7 +46,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+
++++
 
 ## Afficher des approbations d’épreuves soumises
 

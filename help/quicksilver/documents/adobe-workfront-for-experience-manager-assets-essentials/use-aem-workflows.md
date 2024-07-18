@@ -6,10 +6,10 @@ description: Utiliser les workflows dans l’intégration d’Experience Manage
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 100%
+source-wordcount: '1053'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,8 @@ Un workflow est un ensemble d’actions qui connectent Workfront à Adobe Exper
 
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -62,6 +64,8 @@ Pour plus d’informations sur la demande d’accès supplémentaire, voir <stro
    </td>
   </tr>
 </table>
+
++++
 
 ## Conditions préalables
 
@@ -145,7 +149,6 @@ Toutes les valeurs du workflow peuvent être consultées aux emplacements suivan
 >Les dossiers liés étant créés lors de la création du projet, la modification du workflow des dossiers liés sur un projet existant est inefficace. La modification de ces valeurs lors de la création d’un projet fonctionne comme prévu.
 
 Pour modifier le workflow des dossiers liés :
-
 
 1. Activez ou désactivez l’option **[!UICONTROL Créer un dossier lié]**. Si vous l’activez, vous pouvez ensuite modifier la configuration des dossiers liés.
 

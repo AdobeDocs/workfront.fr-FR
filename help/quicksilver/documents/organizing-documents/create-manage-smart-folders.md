@@ -6,9 +6,9 @@ description: Les dossiers intelligents sont utilisés pour gérer des documents 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '564'
 ht-degree: 18%
 
 ---
@@ -20,6 +20,8 @@ Les dossiers intelligents sont utilisés pour gérer des documents en dehors d�
 Deux dossiers intelligents sont disponibles par défaut la première fois que vous accédez à la zone Documents : Tous les documents et Récents. Vous pouvez modifier, renommer ou copier des dossiers dynamiques par défaut, mais vous ne pouvez pas les supprimer. Vous pouvez créer des dossiers intelligents supplémentaires pour répondre à d’autres besoins en matière de gestion des ressources.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,6 +45,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Affichage de dossiers intelligents 
 
@@ -88,7 +92,7 @@ Vous pouvez afficher les dossiers en mode Miniature, Standard ou Liste. Pour mod
 
 1. Apportez vos modifications, puis cliquez sur **Enregistrer le dossier**.
 
-## Suppression d’un dossier dynamique 
+## Suppression d’un dossier dynamique
 
 1. Accédez à la zone **Documents** contenant le dossier dynamique que vous souhaitez supprimer.
 1. Dans la colonne **Dossiers**, cliquez sur la flèche de liste déroulante en regard du dossier dynamique à supprimer.

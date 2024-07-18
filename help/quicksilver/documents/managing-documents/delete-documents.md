@@ -6,10 +6,10 @@ description: Vous pouvez supprimer les documents que vous téléchargez. Si vous
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 49%
+source-wordcount: '234'
+ht-degree: 47%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 49%
 Vous pouvez supprimer les documents que vous téléchargez. Si vous avez l’autorisation de gérer l’accès à des documents spécifiques, vous pouvez également les supprimer.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -45,6 +47,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 Pour supprimer un document :
 

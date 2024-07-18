@@ -6,10 +6,10 @@ description: Vous pouvez ajouter un fichier image à Adobe Workfront en le copia
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 399c56757839a670a39b942d6b57992bd4f94cdc
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 28%
+source-wordcount: '374'
+ht-degree: 27%
 
 ---
 
@@ -27,6 +27,8 @@ Cette fonctionnalité est spécifique au navigateur, comme suit :
 * **Safari :** Cette fonctionnalité n’est pas prise en charge.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -56,6 +58,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Coller à partir du Presse-papiers
 
