@@ -105,14 +105,14 @@ Un modèle [!DNL Microsoft Word] est un document [!DNL Microsoft Word] normal (f
 Une balise de valeur simple est simplement remplacée par une valeur correspondante. Le nom de la balise correspond à la valeur du champ [!UICONTROL Clé], qui est placée à l’intérieur d’accolades doubles ; par exemple,
 
 
-<pre>{{name}}</pre>
+<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
 
 
 .
 
 **Exemple :** Pour créer un document qui indique &quot;Bonjour, Pierrot !&quot;, vous pouvez utiliser un module [!DNL Microsoft Word Template] pour créer le modèle suivant :
 
-<pre>&gt; Bonjour {{name}} !</pre>
+<pre>&gt; Bonjour &lbrace;&lbrace;name&rbrace;&rbrace; !</pre>
 
 Pour ce faire, vous devez configurer le module comme suit :
 
@@ -123,7 +123,7 @@ Pour ce faire, vous devez configurer le module comme suit :
 Vous pouvez utiliser une balise de condition pour renvoyer à la ligne le texte qui doit être rendu uniquement lorsque certaines conditions sont remplies. Pour renvoyer le texte à la ligne, placez-le entre les balises de condition d’ouverture et de fermeture, telles que &quot;hasPhone&quot; si la condition indique si les données incluent ou non un numéro de téléphone. Le nom d’une balise d’ouverture est précédé d’un signe de hachage #, le nom d’une balise de fermeture est précédé d’une barre oblique /, comme illustré dans l’exemple ci-dessous.
 
 **Exemple :** Pour produire un document qui comprend le numéro de téléphone d’un client si les données d’entrée incluent un numéro de téléphone, mais aucune adresse électronique, vous pouvez utiliser un module [!DNL Microsoft Word Template] et créer le modèle suivant :
-<pre>&gt; {{#hasPhone}}Phone : {{phone}} {/hasPhone}}</pre><pre>&gt; {{#hasEmail}}E-mail : {{email}} {/hasEmail}}</pre>Pour ce faire, vous devez configurer le module comme suit :
+<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;Phone : &lbrace;&lbrace;phone&rbrace;&rbrace; {/hasPhone}}</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;E-mail : &lbrace;&lbrace;email&rbrace;&rbrace; {/hasEmail}}</pre>Pour ce faire, vous devez configurer le module comme suit :
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -141,7 +141,7 @@ Vous pouvez utiliser une balise de boucle, également appelée balise de section
 
 **Exemple :** Pour produire un document qui répertorie le nom et le numéro de téléphone de chaque contact dans une liste de clients, vous pouvez utiliser un module [!DNL Microsoft Word Template] et créer le modèle suivant :
 
-<pre>&gt; {{#contact}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}</pre>
+<pre>&gt; &lbrace;&lbrace;#contact}</pre><pre>&gt;     {{name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; {{/contact}</pre>
 
 Pour ce faire, vous devez configurer le module comme suit :
 
