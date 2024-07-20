@@ -1,19 +1,19 @@
 ---
-title: Conseils, astuces et dépannage pour les approbations
+title: "Conseils, astuces et dépannage pour les validations : index de l’article"
 description: Conseils, astuces et dépannage pour les approbations
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 6dab28d7-48d3-4568-87ef-384992555da1
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 75%
+source-wordcount: '36'
+ht-degree: 33%
 
 ---
 
-# Conseils, astuces et dépannage pour les approbations
+# Conseils, astuces et dépannage pour les validations : index des articles
 
 Cette section contient les articles suivants :
 

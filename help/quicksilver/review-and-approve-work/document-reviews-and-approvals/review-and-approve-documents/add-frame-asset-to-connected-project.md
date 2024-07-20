@@ -6,10 +6,10 @@ description: Les créateurs et créatrices peuvent ajouter des ressources qui do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
+source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 93%
+source-wordcount: '309'
+ht-degree: 90%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 93%
 Les créateurs et créatrices peuvent ajouter des ressources qui doivent être examinées sur Frame.io et les envoyer à Workfront pour révision et approbation formelles.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -52,6 +54,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 Pour plus de détails sur les informations dans ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 

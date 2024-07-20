@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: Gérer les épreuves dans Adobe Workfront
+title: "Gérer les bons à tirer dans Adobe Workfront : index de l'article"
 description: Découvrez comment gérer les bons à tirer dans Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: dcd049e4-2e9f-49b9-adac-8b8e67187a3b
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 46%
+source-wordcount: '45'
+ht-degree: 20%
 
 ---
 
-# Gérer les épreuves dans Adobe Workfront
+# Gestion des BAT dans Adobe Workfront : index de l’article
 
 Cette section contient les articles suivants :
 

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14298'
 ht-degree: 94%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 94%
    * Relecture {#proofing}
       * [Relecture : index des articles](review-and-approve-work/proofing/proofing.md)
       * Vue d’ensemble de la relecture {#proofing-overview}
-         * [Vue d’ensemble de la relecture](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [Présentation du contrôle d’accès : index de l’article](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Vue d’ensemble du profil d’autorisation d’épreuve](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [Vue d’ensemble des rôles d’épreuve](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [Vue d’ensemble du workflow automatisé](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1836,7 +1836,7 @@ ht-degree: 94%
          * [Vue d’ensemble des statuts et de la progression de la relecture](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Vue d’ensemble des différences entre la visionneuse de relecture web et la visionneuse de relecture de bureau](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * Créer des épreuves {#create-proofs}
-         * [Créer des épreuves](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+         * [Créer des bons à tirer : index de l&#39;article](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Configurer les valeurs par défaut personnelles de relecture](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Créer une épreuve de plusieurs pages](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Créer une épreuve interactive pour un site web ou un autre contenu web](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1846,9 +1846,9 @@ ht-degree: 94%
          * [Créer une épreuve avancée avec un workflow de base](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [Créer une épreuve avancée avec un workflow automatisé](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
       * Gérer les épreuves dans Adobe Workfront {#manage-proofs-in-workfront}
-         * [Gérer les épreuves dans Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * [Gestion des BAT dans Adobe Workfront : index de l’article](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * Gérer les épreuves {#manage-proofs}
-            * [Gérer les épreuves](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [Gérer les bons à tirer : index de l&#39;article](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [Modifier les paramètres des épreuves](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Imprimer un résumé des épreuves dans Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
             * [Supprimer une épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1857,27 +1857,27 @@ ht-degree: 94%
             * [Utiliser le rapport d’approbation de l’épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Accéder à l’épreuve Workfront à partir d’Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * Gérer les versions des épreuves {#manage-proof-versions}
-            * [Gérer les versions des BAT](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [Gestion des versions de BAT : index de l’article](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Créer une version d’une épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Afficher les versions des épreuves](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [Consulter et gérer les détails des versions des épreuves](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [Télécharger les versions des épreuves](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
          * Gérer les réviseurs et réviseuses des épreuves {#manage-proof-reviewers}
-            * [Gérer les réviseurs et réviseuses des épreuves](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+            * [Gérer les réviseurs du BAT : index de l&#39;article](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [Configurer les paramètres d’accès et d’abonnement d’une épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Partager une épreuve dans Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [Envoyer des e-mails aux réviseurs et réviseuses d’une épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
          * Gérer les notifications des épreuves {#manage-proof-notifications}
-            * [Gérer les notifications des épreuves](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+            * [Gérer les notifications de BAT : index de l&#39;article](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [Gérer les notifications pour les commentaires et les décisions concernant les épreuves](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * Gérer les échéances des épreuves {#manage-proof-deadlines}
-            * [Gérer les échéances des épreuves](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+            * [Gérer les délais du BAT : index de l&#39;article](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [Fixer une échéance pour une épreuve de base existante](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [Ajouter, modifier ou supprimer une échéance pour une étape](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [Fixer des échéances individuelles pour les réviseurs et réviseuses](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [Supprimer les échéances individuelles pour les réviseurs et réviseuses](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * Gérer les épreuves automatisées {#manage-automated-proofs}
-            * [Gérer les épreuves automatisées](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [Gestion des BAT automatisés : index des articles](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [Afficher les étapes de workflow automatisé sur une épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [Afficher les étapes actives sur une épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [Créer ou modifier un workflow automatisé pour une épreuve existante](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1885,16 +1885,16 @@ ht-degree: 94%
             * [Convertir un workflow de base en workflow automatisé sur une épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [Ajouter des étapes et des utilisateurs et utilisatrices à un workflow automatisé sur une épreuve](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
       * Utiliser la visionneuse de relecture de bureau {#use-the-desktop-proofing-viewer}
-         * [Utiliser la visionneuse de relecture de bureau](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [Utilisation de la visionneuse de vérification de l’appli de bureau : index de l’article](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [Installer la visionneuse de relecture de bureau](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [Mettre à jour la visionneuse de relecture de bureau](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [Ouvrir des épreuves dans la visionneuse de relecture de bureau](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Réviser du contenu non interactif dans la visionneuse de relecture de bureau](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [Questions fréquentes - Visionneuse de relecture de bureau](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * Réviser des épreuves dans Adobe Workfront {#review-proofs-in-workfront}
-         * [Réviser des épreuves dans Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * [Vérification des bons à tirer dans Adobe Workfront : index de l’article](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * Réviser une épreuve {#review-a-proof}
-            * [Vérifier une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [Vérification d’un BAT : index de l’article](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Afficher le contenu d’une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Mesurer une zone à l’intérieur d’une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [Modifier l’unité de mesure de la chronologie dans une épreuve vidéo](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1911,7 +1911,7 @@ ht-degree: 94%
             * [Modifier la résolution de l’épreuve interactive dans la visionneuse de relecture](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Configurer les paramètres de la visionneuse de relecture](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
          * Commenter sur une épreuve {#comment-on-a-proof}
-            * [Commenter sur des épreuves](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+            * [Commentaire sur les BAT : index de l&#39;article](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Commenter sur une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [Afficher et répondre à des commentaires d’épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
             * [Rechercher, filtrer et trier des commentaires d’épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1921,12 +1921,12 @@ ht-degree: 94%
             * [Utiliser des actions sur des commentaires d’épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [Baliser des utilisateurs et utilisatrices pour partager une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
          * Prendre une décision sur une épreuve {#make-decision-on-proof}
-            * [Prendre une décision sur une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+            * [Prendre une décision sur un BAT : index de l’article](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [Approuver une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [Prendre une décision sur une épreuve dans la visionneuse de relecture](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [Modifier une décision existante sur une épreuve](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Conseils, astuces et dépannage pour la relecture dans Adobe Workfront {#ttt-proofing-in-workfront}
-         * [Conseils, astuces et dépannage pour la relecture dans Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+         * [Conseils, astuces et dépannage pour la vérification dans Adobe Workfront : index de l’article](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Liste des utilisateurs et utilisatrices disposant d’une licence de relecture dans Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [Modifier le champ du profil d’autorisation d’épreuve en bloc](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Désactiver le partage d’épreuve via une URL publique ou un code intégré](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1934,7 +1934,7 @@ ht-degree: 94%
          * [Le nom du document a changé après le chargement et contient un caractère non valide](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Bon à tirer d’un PowerPoint avec une vidéo incorporée](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * Conseils, astuces et dépannage pour les approbations {#ttt-approvals}
-      * [Conseils, astuces et dépannage pour les approbations](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Conseils, astuces et dépannage pour les validations : index des articles](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Afficher le nombre de décisions relatives aux épreuves et aux documents pour tous les utilisateurs et utilisatrices](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Feuilles de temps {#timesheets}
    * [Feuilles de temps : index des articles](timesheets/timesheets-all.md)

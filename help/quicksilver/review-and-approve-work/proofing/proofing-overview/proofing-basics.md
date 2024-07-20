@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: Vue d’ensemble de la relecture
+title: "Présentation de la vérification : index de l’article"
 description: Vue d’ensemble du profil d’autorisation d’épreuve
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: d15819af-7860-489c-b722-0dbaf6d71e69
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 30%
+source-wordcount: '70'
+ht-degree: 22%
 
 ---
 
-# Vue d’ensemble de la relecture
+# Présentation du contrôle d’accès : index de l’article
 
 * [Aperçu du profil d’autorisation de BAT](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
 * [Présentation des rôles de BAT](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)

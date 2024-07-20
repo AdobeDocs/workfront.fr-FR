@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Commentaire sur l'aperçu d'un BAT
+title: "Commentaire sur un aperçu du BAT : index de l'article"
 description: Commenter sur une épreuve
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 526d4f65-54c1-480c-ab7b-f207b74cafbf
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 28%
+source-wordcount: '53'
+ht-degree: 18%
 
 ---
 
-# Commenter sur une épreuve
+# Commentaire sur un BAT : index de l&#39;article
 
 * [Commentaire sur un BAT](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
 * [Afficher et répondre aux commentaires du BAT](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)

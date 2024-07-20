@@ -6,16 +6,14 @@ description: Vous pouvez créer des modèles d’approbation afin d’optimiser 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
+source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 93%
+source-wordcount: '226'
+ht-degree: 88%
 
 ---
 
 # Créer un modèle d’approbation pour les ressources et les documents
-
-<span class="preview">Les informations sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation de sandbox.</span>
 
 Dans la zone Configuration de Workfront, les personnes disposant d’une licence standard peuvent créer des modèles d’approbation réutilisables. Une fois créés, les modèles d’approbation peuvent être appliqués aux ressources dans la zone Documents d’un projet, d’une tâche ou d’un problème.
 
@@ -24,6 +22,8 @@ Dans la zone Configuration de Workfront, les personnes disposant d’une licence
 >Le contenu de cet article fait référence à la fonctionnalité d’approbation de document mise à jour, disponible uniquement pour des comptes spécifiques. Pour plus d’informations sur les processus d’approbation standard, reportez-vous aux articles répertoriés dans la section [Approbations de travail](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -46,6 +46,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer un modèle d’approbation
 

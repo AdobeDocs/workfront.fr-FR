@@ -6,7 +6,7 @@ title: "Créer une demande de révision ou d’approbation pour une ressource Fr
 description: Vous pouvez créer une demande de révision ou d’approbation pour les ressources connectées à Frame.io.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 30%
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 1. Faites défiler l’écran jusqu’à la section **Approbations**, puis cliquez sur **Ajouter**.
 
-![](assets/doc-summary-add-approvers.png)
+   ![](assets/doc-summary-add-approvers.png)
 
 1. (Facultatif) Définissez une date limite de validation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date limite spécifiée.
 
