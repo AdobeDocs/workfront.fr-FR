@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
+source-git-commit: f9ef12c5a91391dea4d25ceaa1cf648ae4baebf6
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 41%
+source-wordcount: '1813'
+ht-degree: 45%
 
 ---
 
@@ -61,7 +61,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> Des règles métier sont désormais disponibles</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In production ]{type=Informative}
                         <p>Les administrateurs peuvent désormais ajouter des règles de fonctionnement dans la zone Configuration de Workfront.</p>
                         <p>Une règle de fonctionnement vous permet d’appliquer la validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles sont créées à l’aide d’une formule similaire aux champs calculés dans les formulaires personnalisés.</p>
                     </td>
@@ -79,6 +79,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Concepteur de formulaire personnalisé généralement disponible dans Adobe Workfront</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Avec la version 24.7, le concepteur de formulaires sera disponible en général et deviendra l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront. Lorsque vous créez un formulaire personnalisé ou ouvrez un formulaire existant, l’espace de travail du concepteur de formulaire dans le style de zone de travail s’affiche.</p>
                         <p>Après cette version, vous n’aurez plus la possibilité de revenir à l’ancien créateur de formulaires.</p>
                     </td>
@@ -127,6 +128,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> Ajoutez un nouveau champ personnalisé à partir de la zone Champs</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Vous pouvez désormais ajouter un nouveau champ ou widget personnalisé directement à partir de la zone Champs de Workfront, sans ouvrir de formulaire personnalisé pour créer le champ. Vous pouvez ainsi créer rapidement des champs personnalisés réutilisables.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -221,7 +223,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations de Workfront pour Experience Manager Assets et les Assets Essentials</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In production ]{type=Informative}
                         <p>Nous avons apporté les améliorations suivantes aux intégrations Workfront pour Experience Manager Assets et Assets Essentials :</p>
                         <ul>
                             <li><p>L’intégration prend désormais en charge GCP en tant que fournisseur de services cloud. AWS et Azure étaient auparavant pris en charge.</p></li>
@@ -261,7 +263,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifiez la tâche et publiez la Date et la condition de validation de la tâche à partir de l’en-tête ou de la section Détails</a></p>
-                        [!BADGE en production pour version rapide ]{type=Positif}
+                        [!BADGE In production ]{type=Informative}
                         <p>Pour faciliter la mise à jour des tâches et des problèmes, nous avons maintenant ajouté les champs Date de validation et Condition en tant qu’options à ajouter à la section En-têtes de tâche et de problème et Détails dans un modèle de mise en page. Les utilisateurs peuvent désormais mettre à jour ces champs à partir de l’en-tête ou de la section Détails d’une page lorsqu’ils sont affectés au modèle de mise en page modifié.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -281,7 +283,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations plus pertinentes ajoutées au workflow Nouvelle tâche</a></p>
-                        <p>[!BADGE en production pour version rapide ]{type=Positif}</p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet et dans une liste de tâches de projet.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -301,7 +303,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p>
-                        <p>[!BADGE en production pour version rapide ]{type=Positif}</p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -340,12 +342,13 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> Mises à jour de sécurité pour la visionneuse de vérification de l’appli de bureau </a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>La mise à jour de sécurité de Workfront Proof Desktop Proofing Viewer 2.1.35 fournit des correctifs de bogues de sécurité pour les vulnérabilités identifiées dans les versions précédentes.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : juillet 2024</p>
+                                <p>Version d’aperçu : vendredi 4 juillet 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Production pour tous les clients : 4 juillet 2024</span></p>
@@ -375,6 +378,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Le temps de pause se reflète désormais dans l’équilibreur de charge de travail</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Pour régler facilement le travail lorsque le responsable principal d’une tâche a programmé un congé, l’équilibreur de charge de travail réalloue désormais les heures aux utilisateurs principaux et secondaires lorsque la chronologie du projet est recalculée.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -423,6 +427,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience désormais disponible pour plus d’organisations Workfront</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Pour permettre aux entreprises d’accéder aux avantages de l’expérience unifiée Adobe, nous avons commencé à la mettre à la disposition des clients Workfront existants. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -440,6 +445,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Bouton d’aide supprimé de la barre de navigation principale</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Pour unifier l’expérience pour les utilisateurs qui ne sont pas sur un Shell unifié, le bouton Aide de la barre de navigation principale a été supprimé. Ce bouton, qui n’est pas présent pour les utilisateurs de Shell unifié, est lié à la documentation de Workfront et a été redondant avec un bouton d’aide similaire disponible pour tous les utilisateurs dans le menu principal.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -456,7 +462,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Amélioration de l’expérience de l’interface utilisateur pour les utilisateurs disposant d’un accès limité aux objets</a></p>
-                        [!BADGE en production pour version rapide ]{type=Positif}
+                        [!BADGE In production ]{type=Informative}
                         <p>Lorsqu’un utilisateur n’a pas accès à un objet, il voit "Aucun accès" partout où ce nom s’affiche dans Workfront. Cette expérience améliorée s’applique également à l’API Workfront.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
