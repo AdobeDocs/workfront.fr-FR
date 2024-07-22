@@ -6,10 +6,10 @@ description: Pour installer l’application avant qu’elle ne soit disponible d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
+source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 3%
+source-wordcount: '1026'
+ht-degree: 4%
 
 ---
 
@@ -197,3 +197,39 @@ Par exemple, *yourDomain.my.workfront.com*.
 
    Les utilisateurs de [!UICONTROL Salesforce] peuvent utiliser l’application [!DNL Workfront] une fois que vous avez ajouté la section [!DNL Workfront] à leurs mises en page [!UICONTROL Opportunity] ou [!UICONTROL Account].\
    Pour plus d&#39;informations sur la configuration de la section [!DNL Workfront] pour les utilisateurs, voir [Configuration de la section  [!DNL Adobe Workfront] pour les  [!DNL Salesforce] utilisateurs](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+
+## Configuration des autorisations pour l’intégration Workfront for Salesforce
+
+### Autorisations pour `workfront_business`
+
+1. Accédez à **Configuration** > **Sécurité** > **URL de confiance**.
+1. Sélectionnez `workfront_business` dans la liste.
+1. Cliquez sur **Modifier**.
+1. Sous Directives CSP , vérifiez les options suivantes :
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (contenu iframe)
+   * img-src (images)
+   * media-src (audio et vidéo)
+   * style-src (feuilles de style)
+
+1. Cliquer sur **Enregistrer**.
+
+
+### Autorisations pour workfront_session
+
+1. Accédez à **Configuration** > **Sécurité** > **URL de confiance**.
+1. Sélectionnez `workfront_session` dans la liste.
+1. Cliquez sur **Modifier**.
+1. Sous Directives CSP , vérifiez les options suivantes :
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (contenu iframe)
+   * img-src (images)
+   * media-src (audio et vidéo)
+   * style-src (feuilles de style)
+
+1. Cliquer sur **Enregistrer**.
+
