@@ -6,10 +6,10 @@ description: Vous pouvez supprimer des initiatives sur un plan que vous avez cr�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 10%
+source-wordcount: '505'
+ht-degree: 11%
 
 ---
 
@@ -96,9 +96,9 @@ Une liste des plans s’affiche.
 
 ### Suppression d’initiatives en bloc {#delete-initiatives-in-bulk}
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png), puis sur [!UICONTROL Scénarios].
+{{step1-to-scenario-planner}}
 
-   Une liste des plans s’affiche.
+Une liste des plans s’affiche.
 
 1. Cliquez sur le nom d’un plan pour l’ouvrir, puis localisez l’initiative que vous souhaitez supprimer.
 1. Sélectionnez les cases à gauche des initiatives que vous souhaitez supprimer, puis cliquez sur **[!UICONTROL Supprimer]** dans le menu qui s’affiche au bas du plan, puis cliquez sur **[!UICONTROL Oui, supprimez-les]**.

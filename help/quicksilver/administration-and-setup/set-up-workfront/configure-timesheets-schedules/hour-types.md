@@ -5,18 +5,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Gérer les types d’heures
 description: Vous pouvez associer des types d’heures à vos entrées d’heures. Les types d’heures sont des libellés que vous utilisez pour définir vos entrées d’heure.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 96%
+source-wordcount: '754'
+ht-degree: 93%
 
 ---
 
 # Gérer les types d’heures
+
+<!--Audited: 07/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
@@ -45,7 +47,7 @@ Il existe deux jeux de types d’heures :
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,15 +58,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p>
+   <p>Actuelle : [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront].</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Niveau d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront].</p> <p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Types d’heures intégrés
 
@@ -85,7 +92,7 @@ En tant qu’administrateur ou administratrice [!DNL Workfront], vous pouvez cr�
 
 Pour créer de nouveaux types d’heures :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe] Workfront, puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Feuille de temps et heures]** > **[!UICONTROL Types d’heures]**.
 
@@ -131,7 +138,7 @@ La désactivation des types d’heures masque les types d’heures dans toutes l
 
 Pour désactiver un type d’heure, procédez comme suit :
 
-1. Cliquez sur **[!UICONTROL Configuration]** près du coin supérieur droit d’[!DNL Adobe Workfront] dans la barre de navigation globale.
+{{step-1-to-setup}}
 
 1. Développer les **[!UICONTROL Préférences en matière de feuille de temps et d’heures]**, puis cliquez sur **[!UICONTROL Types d’heure]**.
 

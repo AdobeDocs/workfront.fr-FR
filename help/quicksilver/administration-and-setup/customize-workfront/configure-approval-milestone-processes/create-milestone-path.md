@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 20%
+source-wordcount: '516'
+ht-degree: 18%
 
 ---
 
 # Créer un chemin jalonné
+
+<!--Audited: 07/2024-->
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -62,7 +64,7 @@ Pour plus d’informations sur la manière d’associer un chemin de jalon à un
 
 ## Créer un chemin jalonné
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Traitements** > **Chemins Milestone**.
 1. Cliquez sur **New Milestone Path.**
