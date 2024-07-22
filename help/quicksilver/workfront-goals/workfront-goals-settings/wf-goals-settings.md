@@ -8,31 +8,31 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '137'
 ht-degree: 18%
 
 ---
 
 # Paramètres d’Objectifs Adobe Workfront
 
-Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
-
-* Pour le nouveau plan et la nouvelle structure de licence :
-
-   * Un plan ultime
-
-     Ou
-
-     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans?lang=fr).
-
-* Pour le plan actuel et la structure de licence :
-
-   * A Pro ou version ultérieure
-   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
-
-Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
+>[!IMPORTANT]
+>
+>Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
+>
+>* Pour le nouveau plan et la nouvelle structure de licence :
+>
+>   * Formule Workfront ultime
+>    
+>* Pour le plan actuel et la structure de licence :
+>
+>   * Formule Workfront Pro ou ultérieure
+>   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
+>
+>Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
+> 
+>Pour plus d’informations sur l’accès aux objectifs Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Pour plus d’informations sur l’accès aux objectifs Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 

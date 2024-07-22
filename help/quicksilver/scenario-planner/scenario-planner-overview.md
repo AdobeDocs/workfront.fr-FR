@@ -7,10 +7,10 @@ description: Le planificateur de scénario nécessite une licence distincte en p
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 9%
+source-wordcount: '565'
+ht-degree: 8%
 
 ---
 
@@ -18,12 +18,16 @@ ht-degree: 9%
 
 <!-- Audited: 1/2024 -->
 
-[!DNL Scenario Planner] nécessite une licence distincte en plus de la licence [!DNL Adobe Workfront].
-Pour plus d’informations sur l’accès nécessaire pour utiliser [!DNL Workfront Scenario Planner], voir [Accès nécessaire pour utiliser le [!DNL Scenario Planner]](access-needed-to-use-sp.md).
+[!DNL Workfront Scenario Planner] sert à accélérer l’exécution des plans au niveau de l’organisation et à vous aider à prendre des décisions cruciales qui favorisent la diffusion de résultats prévisibles et escomptés pour votre entreprise.
+
+Vous devez avoir le plan [!DNL Workfront] suivant pour accéder à [!DNL Workfront Scenario Planner] :
+
+* Pour le nouveau plan Workfront : un plan [!UICONTROL Ultimate].
+* Pour le plan actuel [!DNL Workfront] : vous devez disposer d&#39;un plan d&#39;entreprise ou d&#39;un plan supérieur, en plus de l&#39;achat d&#39;une licence [!DNL Scenario Planner].
+
+Pour plus d’informations sur l’accès nécessaire à l’utilisation de [!DNL Workfront Scenario Planner], voir [Accès requis pour utiliser le [!DNL Scenario Planner]](access-needed-to-use-sp.md).
 
 ## Vue d’ensemble d’[!DNL Scenario Planner]
-
-[!DNL Workfront Scenario Planner] sert à accélérer l’exécution des plans au niveau de l’organisation et à vous aider à prendre des décisions cruciales qui favorisent la diffusion de résultats prévisibles et escomptés pour votre entreprise.
 
 En utilisant le [!DNL Workfront Scenario Planner], vous pouvez créer des plans au niveau de l’entreprise qui décrivent les résultats stratégiques globaux de votre entreprise. Vous pouvez définir plusieurs initiatives pour un plan et les placer dans divers scénarios afin de trouver la solution optimale pour l’exécution du plan.
 

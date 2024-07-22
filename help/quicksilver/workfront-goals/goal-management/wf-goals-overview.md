@@ -7,31 +7,29 @@ description: Les objectifs de Workfront vous aident à définir, communiquer et 
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
 
 # Vue d’ensemble d’Objectifs Adobe Workfront
 
-Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
-
-* Pour le nouveau plan et la nouvelle structure de licence :
-
-   * Un plan ultime
-
-     Ou
-
-     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans?lang=fr).
-
-* Pour le plan actuel et la structure de licence :
-
-   * A Pro ou version ultérieure
-   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
-
-Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
+>[!IMPORTANT]
+>
+>Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
+>
+>* Pour le nouveau plan et la nouvelle structure de licence :
+>
+>   * Formule Workfront ultime
+>    
+>* Pour le plan actuel et la structure de licence :
+>
+>   * Formule Workfront Pro ou ultérieure
+>   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
+>
+>Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
 
 
 Les objectifs de Workfront vous aident à définir, communiquer et atteindre des résultats stratégiques en connectant la stratégie à l’exécution et à la diffusion professionnelles. Vous pouvez concentrer les efforts de chacun sur ce qui importe vraiment, rendre les progrès mesurables et permettre aux équipes d&#39;atteindre des résultats extraordinaires. Les gens peuvent faire de leur mieux en sachant que leurs contributions ont un impact significatif.

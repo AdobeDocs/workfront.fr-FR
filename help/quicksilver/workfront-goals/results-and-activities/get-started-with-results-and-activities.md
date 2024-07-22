@@ -7,31 +7,31 @@ description: Vous devez ajouter des résultats, des activités ou des objectifs 
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '853'
 ht-degree: 6%
 
 ---
 
 # Prise en main des résultats et des activités dans Objectifs Adobe Workfront
 
-Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
-
-* Pour le nouveau plan et la nouvelle structure de licence :
-
-   * Un plan ultime
-
-     Ou
-
-     Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. Pour plus d’informations, voir [Formule Adobe Workfront](https://www.workfront.com/plans?lang=fr).
-
-* Pour le plan actuel et la structure de licence :
-
-   * A Pro ou version ultérieure
-   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
-
-Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
+>[!IMPORTANT]
+>
+>Votre entreprise doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
+>
+>* Pour le nouveau plan et la nouvelle structure de licence :
+>
+>   * Formule Workfront ultime
+>    
+>* Pour le plan actuel et la structure de licence :
+>
+>   * Formule Workfront Pro ou ultérieure
+>   * Une licence Adobe Workfront Goals en plus d’une licence Workfront.
+>
+>Contactez votre gestionnaire de compte Workfront pour en savoir plus sur une licence Workfront Goals.
+> 
+>Pour plus d’informations sur l’accès aux objectifs Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Lorsque vous créez un objectif, celui-ci a l’état Brouillon. Pour plus d’informations sur la création d’objectifs, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 

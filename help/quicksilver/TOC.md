@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: 18cda76ad78f07e5349d90421ea55e88084459b2
 workflow-type: tm+mt
 source-wordcount: '14298'
 ht-degree: 94%
@@ -1316,7 +1316,7 @@ ht-degree: 94%
          * [Définir le mode de suivi des tâches](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
          * [Mettre à jour le délai de nivellement de la tâche](manage-work/tasks/task-information/task-leveling-delay.md)
          * [Mettre à jour le type de coût de la tâche](manage-work/tasks/task-information/update-task-cost-type.md)
-         * [Faire la différence entre les dates prévisionnelles et les dates estimées](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+         * [Présentation des dates prévues et estimées](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [Vue d’ensemble de la durée initiale de la tâche et du nombre d’heures prévues à l’origine](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Différence entre la durée prévue et la durée des tâches](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Créer des tâches {#create-tasks}

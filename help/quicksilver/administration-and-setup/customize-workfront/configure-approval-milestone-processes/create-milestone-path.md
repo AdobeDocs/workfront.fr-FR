@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: En tant qu’administrateur Adobe Workfront, vous pouvez créer des chemins de jalon qui peuvent ensuite être appliqués à n’importe quel projet du système. Les modifications apportées aux chemins d’accès aux jalons dans cette zone affectent l’ensemble du système Workfront.
-author: Alina, Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 20%

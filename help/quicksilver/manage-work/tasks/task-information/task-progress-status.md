@@ -7,7 +7,7 @@ description: Adobe Workfront détermine l’état d’avancement d’une tâche 
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 70d173ca3781d8d143a66ce7e963dcaf66bece19
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Les critères suivants déterminent l’état d’avancement d’une tâche :
   </tr> 
   <tr> 
    <td> <p><strong>Derrière </strong> </p> </td> 
-   <td> <p>Une tâche est considérée comme <strong>Derrière</strong> lorsque la date d’achèvement estimée est supérieure ou égale à la date d’achèvement planifiée et inférieure à la date d’achèvement prévue.</p> <p>La date de fin prévue est une vue en temps réel du moment où la tâche sera terminée en fonction de la progression précédente. Bien que la tâche ait été lancée tardivement, elle n’est pas encore considérée comme en retard, car les dates d’achèvement prévues et prévues sont toujours à l’avenir et la tâche peut encore être terminée à temps.</p> <p>Remarque : Les états de progression <strong>Derrière </strong> et <strong>À risque</strong> sont presque identiques. Cependant, <strong>Au risque</strong> indique qu’il existe des contraintes de tâche forcées (Doit se terminer, Doit commencer, dates fixes) sur l’une ou les deux dates planifiées. S’il n’y a aucune contrainte sur la tâche, les Dates projetées sont les mêmes que les Dates estimées et reflètent le calcul système de la Date de fin en fonction de la progression actuelle de la tâche. La tâche n’est pas encore considérée en retard, car les dates de fin prévues et prévues sont toujours à l’avenir et la tâche peut encore être terminée à temps.<br>Pour plus d’informations sur les dates prévues et estimées, voir <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Différence entre les dates projetées et estimées </a>.</p> </td> 
+   <td> <p>Une tâche est considérée comme <strong>Derrière</strong> lorsque la date d’achèvement estimée est supérieure ou égale à la date d’achèvement planifiée et inférieure à la date d’achèvement prévue.</p> <p>La date de fin prévue est une vue en temps réel du moment où la tâche sera terminée en fonction de la progression précédente. Bien que la tâche ait été lancée tardivement, elle n’est pas encore considérée comme en retard, car les dates d’achèvement prévues et prévues sont toujours à l’avenir et la tâche peut encore être terminée à temps.</p> <p>Remarque : Les états de progression <strong>Derrière </strong> et <strong>À risque</strong> sont presque identiques. Cependant, <strong>Au risque</strong> indique qu’il existe des contraintes de tâche forcées (Doit se terminer, Doit commencer, dates fixes) sur l’une ou les deux dates planifiées. S’il n’y a aucune contrainte sur la tâche, les Dates projetées sont les mêmes que les Dates estimées et reflètent le calcul système de la Date de fin en fonction de la progression actuelle de la tâche. La tâche n’est pas encore considérée en retard, car les dates de fin prévues et prévues sont toujours à l’avenir et la tâche peut encore être terminée à temps.<br>Pour plus d’informations sur les dates prévues et estimées, consultez la <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Présentation des dates projetées et estimées </a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>En retard</strong> </p> </td> 

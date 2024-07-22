@@ -7,33 +7,24 @@ description: Le planificateur de scénarios nécessite une licence distincte d�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
 
 # Accès nécessaire pour utiliser le [!DNL Scenario Planner]
 
-[!DNL Scenario Planner] nécessite une licence supplémentaire. Pour plus d’informations sur [!DNL Workfront Scenario Planner], voir [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
+<!--Audited: 04/2024-->
+
+[!DNL Scenario Planner] a des exigences de licence supplémentaires. Pour plus d’informations sur [!DNL Workfront Scenario Planner], voir [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
 Sans accès ou autorisations corrects, vous ne pourrez peut-être pas afficher la zone [!UICONTROL Scénarios] de[!DNL  Adobe Workfront] ni gérer les plans ou les initiatives pour votre organisation. La gestion des plans et des initiatives comprend la création, la modification et la suppression.
-
->[!IMPORTANT]
->
->Lors de l’accès à [!UICONTROL Scénarios], vous pouvez uniquement afficher et gérer les plans que vous avez créés. Si vous souhaitez permettre à d’autres utilisateurs d’afficher ou de gérer les plans que vous avez créés, vous devez effectuer les opérations suivantes :
->
->* Envoyer un lien vers votre plan à d’autres utilisateurs
->* Partager le plan avec d’autres utilisateurs
->
->  Pour plus d’informations sur le partage d’un plan, voir [Partager un plan dans le  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
->
->Lorsqu’un utilisateur est désactivé, ses plans n’ont pas de propriétaire et ne sont pas accessibles, sauf s’ils ont été partagés précédemment avec un lien.
 
 ## Accès nécessaire pour afficher et utiliser le [!DNL Adobe Workfront Scenario Planner]
 
@@ -43,13 +34,7 @@ Vous devez vous assurer que toutes les conditions suivantes sont remplies avant 
 
    Selon que vous utilisez le nouveau plan Workfront ou le plan actuel, votre entreprise doit disposer de l’une des options suivantes :
 
-   * Pour les nouveaux plans, votre organisation doit disposer de l’une des options suivantes :
-
-      * Formule [!UICONTROL Ultimate] [!DNL Workfront]. Le planificateur de scénario est inclus dans le plan final.
-
-        Ou
-
-      * Le plan [!UICONTROL Select] ou [!UICONTROL Prime] [!DNL Workfront], en plus d&#39;acheter une licence [!DNL Scenario Planner] distincte.
+   * Pour les nouveaux plans, votre organisation doit avoir le plan [!UICONTROL Ultimate] [!DNL Workfront]. Le planificateur de scénario est inclus uniquement dans le plan [!UICONTROL Ultimate].
 
    * Pour les plans Workfront actuels, votre organisation doit disposer des deux éléments suivants :
 
@@ -133,7 +118,20 @@ Votre administrateur [!DNL Workfront] doit vous attribuer l’accès suivant afi
 
 Les niveaux d’accès fonctionnent ensemble avec les autorisations dans [!DNL Workfront] pour vous donner une visibilité sur les plans et initiatives que vous n’avez pas créés. Outre le niveau d’accès correct pour accéder à [!DNL Scenario Planner], vous devez également disposer des autorisations correctes pour le plan que vous souhaitez afficher ou gérer, si vous n’êtes pas le créateur de ces plans.
 
-Par défaut, vous n’avez accès qu’aux plans que vous avez créés. Pour afficher les plans créés par d’autres utilisateurs, ils doivent partager leurs plans avec vous. Pour plus d’informations sur le partage de plans, voir [Partager un plan dans le  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+Tous les utilisateurs, y compris les administrateurs système, n’ont accès qu’aux plans qu’ils ont créés.
 
-Si un utilisateur partage un lien vers un plan sans le partager, vous pouvez demander des autorisations sur le plan. Pour plus d’informations sur la demande d’autorisations pour les plans, voir [Demande d’accès à un plan dans le  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+Pour afficher les plans créés par d’autres utilisateurs, ils doivent partager leurs plans avec vous de la manière suivante :
+
+* Partager le plan avec vous
+
+  Pour plus d’informations sur le partage de plans, voir [Partager un plan dans le  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+
+* Envoyer un lien vers un plan qu’il a créé
+
+  Si un utilisateur partage un lien vers un plan sans le partager, vous pouvez demander des autorisations sur le plan. Pour plus d’informations sur la demande d’autorisations pour les plans, voir [Demande d’accès à un plan dans le  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+
+>[!NOTE]
+>
+>Lorsqu’un utilisateur est désactivé, ses plans n’ont pas de propriétaire et ne sont pas accessibles, sauf s’ils ont été partagés précédemment avec un lien.
+
 

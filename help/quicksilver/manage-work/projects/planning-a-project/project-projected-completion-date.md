@@ -7,10 +7,10 @@ description: La date de fin prévue est un indicateur calculé en temps réel du
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 9%
+source-wordcount: '873'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Les sections suivantes décrivent comment la date d’achèvement prévue est d�
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
    <p>Nouveau : 
    <ul><li><p>Contributeur ou version ultérieure pour afficher la date d’achèvement prévue dans un rapport</p></li> <li><p>Une licence standard pour créer un rapport</p></li> </ul>
@@ -47,7 +47,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td role="rowheader">Niveau d’accès</td> 
    <td> <p>Accès en affichage ou supérieur pour les projets</p> <p>Pour créer un rapport, vous devez disposer des droits d’édition sur les rapports, tableaux de bord et calendriers.</p> <p>Vous devez disposer d’un accès en édition aux options Filtres, Vues et Groupements pour créer un rapport ou modifier le mode Liste.</p>  </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Pour plus d’informations sur les informations contenues dans ce tableau, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Comment Adobe Workfront détermine la date d’achèvement prévue
 
@@ -85,7 +87,7 @@ Les critères utilisés pour déterminer la date de fin prévue diffèrent selon
   >Lorsque le prédécesseur d’une tâche comporte une date de fin réelle, les tâches dépendantes reçoivent une date de fin prévue, comme décrit dans le scénario suivant :
   >
   >
-  >Si le projet comporte les tâches A, B et C, et que la tâche B est le successeur de la tâche A, la tâche C succède à la tâche B et une date d’achèvement réelle est ajoutée à la tâche A, la date d’achèvement prévue est automatiquement recalculée pour la tâche B (à condition que le **Type de mise à jour** du projet soit défini sur Automatique et En changement), mais elle ne sera pas recalculée pour la tâche C actuellement. Date d’achèvement sélectionnée pour les tâches d’un niveau supérieur ou inférieur par rapport à la tâche mise à jour, pour des raisons de performances. 
+  >Si le projet comporte les tâches A, B et C, et que la tâche B est le successeur de la tâche A, la tâche C succède à la tâche B et une date d’achèvement réelle est ajoutée à la tâche A, la date d’achèvement prévue est automatiquement recalculée pour la tâche B (à condition que le **Type de mise à jour** du projet soit défini sur Automatique et En changement), mais elle ne sera pas recalculée pour la tâche C actuellement. Date d’achèvement sélectionnée pour les tâches d’un niveau supérieur ou inférieur par rapport à la tâche mise à jour, pour des raisons de performances.
 
 * **Problèmes :** Le problème La date d’achèvement prévue est initialement définie pour correspondre à la date d’achèvement prévu du problème.
 
@@ -119,9 +121,9 @@ Pour créer un rapport de problème qui inclut la date de fin prévue :
 1. Sélectionnez l’onglet **Colonnes (vue)** .
 1. Cliquez sur **Ajouter la colonne** et commencez à saisir **Date d’achèvement prévue** dans le champ **Afficher dans cette colonne :** .
 
-1. Sélectionnez-le lorsqu’il apparaît dans la liste, sous l’objet **Problème** . 
+1. Sélectionnez-le lorsqu’il apparaît dans la liste, sous l’objet **Problème** .
 1. Cliquez sur **Enregistrer + Fermer**.
 
-   La colonne **Date d’achèvement prévue** du rapport est renseignée. 
+   La colonne **Date d’achèvement prévue** du rapport est renseignée.
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

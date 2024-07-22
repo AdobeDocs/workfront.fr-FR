@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -23,7 +23,7 @@ Des restrictions de licence et de partage s’appliquent à l’utilisation d’
 
 ## Conditions d’accès
 
-Pour utiliser Adobe Workfront Planning, vous devez disposer des paramètres suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto">
  <col>
@@ -87,6 +87,8 @@ Pour utiliser Adobe Workfront Planning, vous devez disposer des paramètres su
 </table>
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Partager la zone Planning du menu principal avec d’autres personnes
