@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
+source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1154'
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ Nous comprenons que les intégrations intégrées (natives) disponibles peuvent 
      <li>Recevez [!DNL Workfront] notifications dans [!DNL Slack] </li> 
      <li>Gestion des approbations dans [!DNL Slack] </li> 
      <li>Créer [!DNL Workfront] tâches et problèmes à partir de [!DNL Slack] </li> 
-     <li>Commentaires Post sur un projet ou une tâche depuis [!DNL Slack]</li> 
+     <li>Publier des commentaires sur un projet ou une tâche depuis [!DNL Slack]</li> 
     </ul> <p>Pour plus d'informations, voir <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
@@ -306,9 +306,9 @@ Pour plus d’informations, voir [Présentation des intégrations Adobe Workfron
 
 [!DNL Workfront] a de nombreuses intégrations de partenaires pour enrichir votre expérience [!DNL Workfront].
 
-Parmi les exemples d’offres de partenaire existantes, citons les intégrations avec [!DNL Salesforce.com], [!DNL Oracle Responsys] et [!DNL Microsoft Visual Studio].
+Workfront comporte de nombreuses intégrations de partenaires qui enrichissent votre expérience Workfront. Parmi les exemples d’offres de partenaire existantes, citons les intégrations avec Claravine, RWS Group, etc.
 
-Pour plus d’informations sur ces intégrations et d’autres intégrations de partenaires, voir le [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Pour plus d’informations sur ces intégrations et d’autres intégrations de partenaires, voir le [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
 
 ## API [!DNL Workfront]
 
