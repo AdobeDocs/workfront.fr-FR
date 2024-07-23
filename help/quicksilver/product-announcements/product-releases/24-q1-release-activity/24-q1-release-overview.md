@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 34%
+source-wordcount: '1631'
+ht-degree: 33%
 
 ---
 
@@ -348,7 +348,8 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p><p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p>
+                        [!BADGE en production pour version rapide ]{type=Positif}<p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -360,7 +361,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                                 <p>Production pour une version rapide : avec la version 24.3 (mars 2024)</p>
                             </li>
                             <li>
-                                <p>Production pour tous les clients : avec la version 24.4 (avril 2024)</p>
+                                <p>Production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
                             </li>
                         </ul>
                     </td>

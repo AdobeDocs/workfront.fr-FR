@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1830'
 ht-degree: 44%
 
 ---
@@ -58,7 +58,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> Des règles métier sont désormais disponibles</a></p>
                         [!BADGE In production ]{type=Informative}
@@ -74,6 +74,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
+                        <p><i>Uniquement disponible pour les organisations utilisant le nouveau plan Ultimate.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -278,13 +279,12 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Cette fonctionnalité a été temporairement supprimée de la production pour les clients qui ne sont pas sur le calendrier de publication rapide.</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations plus pertinentes ajoutées au workflow Nouvelle tâche</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE en production pour version rapide ]{type=Positif}
                         <p>Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet et dans une liste de tâches de projet.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -296,16 +296,15 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Cette fonctionnalité a été temporairement supprimée de la production pour les clients qui ne sont pas dans le calendrier de publication rapide.</span>&lt;/
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE en production pour version rapide ]{type=Positif}
                         <p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -317,7 +316,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
+                                <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
                             </li>
                         </ul>
                     </td>
