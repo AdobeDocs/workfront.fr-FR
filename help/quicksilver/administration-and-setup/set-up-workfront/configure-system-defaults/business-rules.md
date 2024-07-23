@@ -7,7 +7,8 @@ description: Vous pouvez indiquer si vous souhaitez recevoir de nouvelles foncti
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
+source-git-commit: 7f747a61c22a8927b0cd58c3c85e79143e432b98
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 4%
@@ -75,7 +76,7 @@ Un caractère générique API est également disponible dans les règles de fonc
 
 Voici quelques scénarios de règles de fonctionnement simples :
 
-* Les utilisateurs ne peuvent pas ajouter de nouvelles dépenses pendant la dernière semaine de février. Cette formule peut être indiquée comme suit : `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Les utilisateurs ne peuvent pas ajouter de nouvelles dépenses pendant la dernière semaine de février. Cette formule peut être indiquée comme suit : `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
 * Les utilisateurs ne peuvent pas modifier un projet dont l’état est Terminé. Cette formule peut être indiquée comme suit : `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 Un scénario avec des instructions IF imbriquées est le suivant :
