@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 97%
+source-wordcount: '1087'
+ht-degree: 95%
 
 ---
 
@@ -100,7 +100,7 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
 
   Pour les formules actuelles, une formule [!UICONTROL Pro] [!DNL Workfront] ou supérieure est nécessaire pour utiliser cette fonctionnalité. Pour les nouvelles formules, cette fonctionnalité est disponible avec toutes les formules. Pour plus d’informations sur les différentes formules disponibles, voir [Formules Workfront](https://www.workfront.com/plans?lang=fr).
 
-En outre, vous pouvez améliorer votre expérience de document [!DNL Workfront] avec un système de gestion des ressources numériques (DAM) natif ou avec des intégrations de gestion des ressources numériques tierces. L’équipe d’aministration doit activer ces fonctionnalités pour que les personnes puissent lier le service à leur compte [!DNL Workfront]. Pour plus d’informations sur la gestion des ressources numériques Workfront, voir [Gérer des documents avec  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+En outre, vous pouvez améliorer votre expérience de document [!DNL Workfront] avec des intégrations DAM tierces. Les administrateurs doivent activer ces fonctionnalités pour que les utilisateurs puissent lier le service à leur compte [!DNL Workfront].
 
 ## Configurer des intégrations pour gérer des documents
 
@@ -197,8 +197,6 @@ Une fois l’intégration de document personnalisé créée, vous pouvez la rend
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer l’intégration.
 
 ## Utiliser les intégrations de documents
-
-Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices peuvent utiliser [!DNL Workfront DAM], voir [Gérer des documents avec  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices peuvent utiliser la relecture, voir [Créer des épreuves](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 

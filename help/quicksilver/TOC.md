@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 238a1d8e7e1dd80f74a60b2b31301f082e377332
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '14320'
+source-wordcount: '14277'
 ht-degree: 94%
 
 ---
@@ -792,7 +792,6 @@ ht-degree: 94%
       * [Créer des applications OAuth2 pour les intégrations Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Afficher et gérer des applications OAuth2 personnalisées](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Configurer l’intégration de JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-      * [Obtenir de l’aide pour la gestion des ressources numériques Adobe Workfront](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
    * Plans directeurs {#blueprints}
       * [Plans directeurs](administration-and-setup/blueprints/blueprints.md)
       * [Vue d’ensemble des plans directeurs](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1132,12 +1131,6 @@ ht-degree: 94%
       * [Organiser les documents](documents/organizing-documents/organize-documents.md)
       * [Créer des dossiers de documents](documents/organizing-documents/create-documents-folder.md)
       * [Créer et gérer des dossiers intelligents](documents/organizing-documents/create-manage-smart-folders.md)
-   * Gestion des ressources numériques Workfront dans Adobe Workfront {#wf-dam-within-workfront}
-      * [Gestion des ressources numériques Workfront dans Adobe Workfront](documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-      * [Activer la gestion des ressources numériques Adobe Workfront](documents/workfront-dam-within-workfront/enable-wf-dam.md)
-      * [Gérer des documents avec la gestion des ressources numériques Adobe Workfront](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-      * [Types de rôles de licence Adobe Workfront et types de rôles de gestion des ressources numériques Adobe Workfront](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Obtenir de l’aide pour la gestion des ressources numériques Adobe Workfront](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Intégrations de Workfront et d’Experience Manager Assets {#wf-aem-integrations}
       * [Intégrations de Workfront et d’Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Connecteur amélioré Workfront pour Experience Manager {#wf-aem-enhanced-connector}
