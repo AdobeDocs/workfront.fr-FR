@@ -6,9 +6,9 @@ description: Gérer les commentaires sur plusieurs versions ou révisions d’un
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1734'
 ht-degree: 4%
 
 ---
@@ -31,6 +31,8 @@ Tenez compte des informations suivantes lorsque vous créez une version d’un B
 >Si un BAT est créé dans Adobe Workfront, toutes les nouvelles versions créées pour ce BAT doivent également être créées dans Workfront. Vous ne pouvez pas créer de version d’un BAT dans Workfront Proof si ce BAT a été créé dans Workfront.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -58,6 +60,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Création d’une version d’un BAT dans Workfront
 
@@ -228,7 +232,7 @@ Si un objet/message personnalisé était inclus dans la version précédente du 
 
   >[!NOTE]
   >
-  > Ceci n’est pas affecté par un objet/message personnalisé par défaut enregistré dans vos paramètres personnels.
+  >Ceci n’est pas affecté par un objet/message personnalisé par défaut enregistré dans vos paramètres personnels.
 
 Si un objet et un message par défaut sont enregistrés dans vos paramètres personnels, cela aura un impact sur le message affiché par défaut sur la page Nouvelle version :
 

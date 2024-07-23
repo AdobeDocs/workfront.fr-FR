@@ -6,10 +6,10 @@ description: Si vous êtes le propriétaire du BAT, vous pouvez ajouter des éta
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 45839f8a-31b2-43a3-a9ea-5437df8cc6b4
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 30%
+source-wordcount: '328'
+ht-degree: 29%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 30%
 Si vous êtes le propriétaire du BAT, vous pouvez ajouter des étapes à un workflow automatisé existant.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Ajout d’étapes et d’utilisateurs à un processus automatisé
 

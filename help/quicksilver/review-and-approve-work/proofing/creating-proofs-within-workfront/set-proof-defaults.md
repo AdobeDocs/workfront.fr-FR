@@ -6,9 +6,9 @@ description: Vous pouvez définir des paramètres par défaut de BAT personnels 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '537'
 ht-degree: 6%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 6%
 Vous pouvez définir des paramètres par défaut de BAT personnels qui s’appliquent aux BAT que vous créez. Ces valeurs par défaut sont appliquées chaque fois que vous générez un nouveau BAT ou téléchargez une nouvelle version de BAT dans Workfront.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -42,9 +44,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
 
++++
+
 ## Configurer les valeurs par défaut personnelles de relecture
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Vérification**.
+{{step1-to-proofing}}
 
 1. Dans le coin supérieur droit, cliquez sur votre avatar, puis sélectionnez **Paramètres personnels**.
 1. Sélectionnez l&#39;onglet **Valeurs par défaut de la vérification** , puis spécifiez les informations suivantes :

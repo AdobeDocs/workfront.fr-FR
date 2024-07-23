@@ -6,10 +6,10 @@ description: Vous pouvez utiliser le rapport d’approbation de BAT pour affiche
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 27%
+source-wordcount: '296'
+ht-degree: 28%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 27%
 Vous pouvez utiliser le rapport d’approbation de BAT pour afficher des informations sur les bons à tirer dans votre environnement.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -46,9 +48,12 @@ Vous devez disposer des éléments suivants :
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Utiliser le rapport d’approbation de l’épreuve
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Rapports**.
+{{step1-to-reports}}
+
 1. Cliquez sur **Nouveau rapport**, puis faites défiler l’écran pour sélectionner **Approbation de BAT**.
 
    ![](assets/proof-approval-report.png)

@@ -6,10 +6,10 @@ description: Vous pouvez générer un nouveau BAT interactif ou une nouvelle ver
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 22%
+source-wordcount: '559'
+ht-degree: 21%
 
 ---
 
@@ -24,6 +24,8 @@ Dans un BAT interactif, les réviseurs peuvent naviguer et interagir comme ils l
 >Assurez-vous que le site web ou le contenu interactif est accessible aux personnes qui vont le consulter. Ils ne peuvent y accéder que s&#39;ils peuvent également y accéder sur Internet.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -51,6 +53,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Créer une épreuve interactive pour un site web ou un autre contenu web
 

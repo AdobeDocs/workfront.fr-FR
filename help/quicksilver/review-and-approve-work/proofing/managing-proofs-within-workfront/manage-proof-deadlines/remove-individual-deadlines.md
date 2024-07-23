@@ -7,10 +7,10 @@ description: Vous pouvez supprimer une échéance pour l’étape sur laquelle s
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 80daeadb-5780-4f83-b757-54146a4dcd6e
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 27%
+source-wordcount: '217'
+ht-degree: 26%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 27%
 Vous pouvez supprimer une échéance pour l’étape sur laquelle se trouve le réviseur.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -50,6 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Supprimer les échéances individuelles pour les réviseurs et réviseuses
 

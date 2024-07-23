@@ -7,10 +7,10 @@ description: Vous pouvez définir des échéances différentes pour différents 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8da49c52-295b-402e-b8cb-f4d1cff57aba
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 21%
+source-wordcount: '276'
+ht-degree: 20%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 21%
 Vous pouvez définir des échéances différentes pour différents opérateurs validants sur un BAT que vous avez déjà créé. Pour ce faire, vous devez créer une étape distincte pour chaque réviseur pour lequel vous souhaitez définir une échéance individuelle.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -50,6 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Fixer des échéances individuelles pour les réviseurs et réviseuses
 

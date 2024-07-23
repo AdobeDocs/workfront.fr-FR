@@ -7,10 +7,10 @@ description: Vous pouvez définir une seule date limite pour un BAT de base une 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 38%
+source-wordcount: '229'
+ht-degree: 36%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 38%
 Vous pouvez définir une seule date limite pour un BAT de base une fois qu’il a été créé.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -50,6 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Fixer une échéance pour une épreuve de base existante
 

@@ -6,10 +6,10 @@ description: Vous pouvez afficher l’activité qui s’est produite sur le BAT.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 74907330-4507-4ea6-ac28-8a760723f46b
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 30%
+source-wordcount: '233'
+ht-degree: 28%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 30%
 Vous pouvez afficher l’activité qui s’est produite sur le BAT. L’activité comprend les modifications récentes apportées au BAT, notamment la date et la description de l’activité, ainsi que l’utilisateur qui a effectué l’action.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Afficher l’activité d’une épreuve dans Adobe Workfront
 

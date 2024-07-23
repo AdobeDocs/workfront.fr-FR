@@ -6,10 +6,10 @@ description: Vous pouvez générer un nouveau BAT statique ou une nouvelle versi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 16%
+source-wordcount: '776'
+ht-degree: 15%
 
 ---
 
@@ -20,6 +20,8 @@ Vous pouvez générer un nouveau BAT statique ou une nouvelle version d’un BAT
 Tenez compte des points suivants lors de la création de BAT statiques pour un site web ou un autre contenu web :
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -47,6 +49,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Créer une épreuve statique pour un site web ou un autre contenu web
 

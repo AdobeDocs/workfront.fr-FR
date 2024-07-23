@@ -6,10 +6,10 @@ description: Un BAT est automatiquement archivé lorsqu’il n’est pas ouvert 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 15%
+source-wordcount: '209'
+ht-degree: 14%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 15%
 Un BAT est automatiquement archivé lorsqu’il n’est pas ouvert pendant 60 jours consécutifs. Les bons à tirer archivés s’affichent toujours dans la liste des documents de la même manière qu’avant l’archivage du BAT.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -38,6 +40,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42; Pour connaître le plan ou l&#39;accès au BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Restaurer une épreuve archivée
 

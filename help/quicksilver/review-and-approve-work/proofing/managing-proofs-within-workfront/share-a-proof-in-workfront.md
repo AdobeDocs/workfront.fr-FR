@@ -6,9 +6,9 @@ description: Vous pouvez partager un document révisé dans Adobe Workfront en p
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1233'
 ht-degree: 5%
 
 ---
@@ -24,6 +24,8 @@ Si vous partagez le BAT, comme expliqué dans cet article, votre destinataire a 
 >Vous pouvez également partager un BAT depuis la visionneuse de vérification. Pour plus d&#39;informations, voir [Partage d&#39;un BAT à partir de la visionneuse de tests](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -55,6 +57,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Partage d’un lien de BAT
 

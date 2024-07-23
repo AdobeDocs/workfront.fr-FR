@@ -6,9 +6,9 @@ description: Vous pouvez facilement suivre la progression d’un BAT configuré 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '537'
 ht-degree: 10%
 
 ---
@@ -20,6 +20,8 @@ Vous pouvez facilement suivre la progression d’un BAT configuré avec un workf
 Pour plus d’informations sur l’ajout d’étapes et d’utilisateurs à un BAT avec un workflow automatisé, voir [Ajout d’étapes et d’utilisateurs à un workflow automatisé sur un BAT](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -47,6 +49,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Affichage du diagramme Processus automatisé
 

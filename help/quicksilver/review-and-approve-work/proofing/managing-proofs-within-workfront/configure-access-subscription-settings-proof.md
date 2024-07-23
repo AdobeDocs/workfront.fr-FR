@@ -6,9 +6,9 @@ description: Vous pouvez configurer certains paramètres d’accès et d’abonn
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '960'
 ht-degree: 9%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 9%
 Vous pouvez configurer certains paramètres d’accès et d’abonnement pour des bons à tirer individuels, par exemple s’il est nécessaire d’obliger les utilisateurs à se connecter et s’il est possible d’autoriser les utilisateurs à s’abonner au BAT. Vous pouvez configurer les paramètres d’accès et d’abonnement pour un BAT pendant que vous le créez ou vous pouvez les configurer pour un BAT qui existe déjà dans Workfront.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Configurer les paramètres d’accès et d’abonnement lors de la création d’un BAT
 

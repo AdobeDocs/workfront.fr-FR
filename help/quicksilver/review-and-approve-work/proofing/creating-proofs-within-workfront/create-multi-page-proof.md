@@ -6,10 +6,10 @@ description: Vous pouvez combiner plusieurs fichiers en un seul BAT multi-page. 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 12%
+source-wordcount: '704'
+ht-degree: 11%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 12%
 Vous pouvez combiner plusieurs fichiers en un seul BAT multi-page. Les réviseurs peuvent utiliser les outils de navigation de la visionneuse de vérification pour parcourir les pages dans un BAT multipage.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, la licence ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Créer une épreuve de plusieurs pages
 

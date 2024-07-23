@@ -7,10 +7,10 @@ description: Vous pouvez accéder rapidement à votre compte Workfront Proof dir
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 4%
+source-wordcount: '260'
+ht-degree: 5%
 
 ---
 
@@ -34,11 +34,11 @@ Si vous ne pouvez pas accéder à Workfront Proof comme décrit dans cette secti
 
 ## Accès à Workfront Proof à partir de Workfront {#access-workfront-proof-from-workfront}
 
-Par défaut, seuls les utilisateurs disposant de droits d’administration dans Workfront peuvent accéder à Workfront Proof comme décrit dans cette section. 
+Par défaut, seuls les utilisateurs disposant de droits d’administration dans Workfront peuvent accéder à Workfront Proof comme décrit dans cette section.
 
-1. Cliquez sur Vérification ![](assets/proofing-main-menu.png) dans le menu principal ![](assets/main-menu-icon.png).
+{{step1-to-proofing}}
 
-   Vous êtes automatiquement connecté à votre compte Workfront Proof Premium.
+Vous êtes automatiquement connecté à votre compte Workfront Proof Premium.
 
 Pour plus d’informations sur les fonctionnalités disponibles une fois connecté à votre compte Workfront Proof Premium, consultez le [site d’aide de Workfront](https://support.workfront.com).
 

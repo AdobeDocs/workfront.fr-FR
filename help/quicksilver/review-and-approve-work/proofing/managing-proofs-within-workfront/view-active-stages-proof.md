@@ -6,10 +6,10 @@ description: Vous pouvez afficher les étapes actives actuelles sur un BAT conte
 author: Courtney
 feature: Digital Content and Documents
 exl-id: db32ca28-d475-4050-b04f-c7c82f79918a
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 34%
+source-wordcount: '188'
+ht-degree: 32%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 34%
 Vous pouvez afficher les étapes actives actuelles sur un BAT contenant un workflow automatisé.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Afficher les étapes actives sur une épreuve
 

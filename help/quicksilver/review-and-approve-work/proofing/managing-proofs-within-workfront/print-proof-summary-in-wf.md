@@ -6,9 +6,9 @@ description: Vous pouvez imprimer un résumé du BAT, l’enregistrer en tant qu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '758'
 ht-degree: 11%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 11%
 Vous pouvez imprimer un résumé du BAT, l’enregistrer en tant que PDF ou l’exporter en tant que fichier XLS ou PDF optimisé pour Adobe Reader.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Imprimer un résumé du BAT ou l’enregistrer en tant que fichier PDF
 

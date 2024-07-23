@@ -6,9 +6,9 @@ description: Vous pouvez générer un BAT pour le contenu interactif hors site w
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '486'
 ht-degree: 24%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 24%
 Vous pouvez générer un BAT pour le contenu interactif hors site web stocké dans un fichier ZIP. Parmi les exemples de ce type de contenu web, citons les publicités avec diffusion vidéo ou audio en continu, les animations d’HTML, les bannières interactives.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Créer une épreuve pour le contenu interactif dans un fichier ZIP
 
