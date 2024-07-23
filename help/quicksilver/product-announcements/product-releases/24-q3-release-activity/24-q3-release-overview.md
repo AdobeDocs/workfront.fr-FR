@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: f9ef12c5a91391dea4d25ceaa1cf648ae4baebf6
+source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 45%
+source-wordcount: '1849'
+ht-degree: 44%
 
 ---
 
@@ -278,6 +278,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
+                        <p><span class="preview">Cette fonctionnalité a été temporairement supprimée de la production pour les clients qui ne sont pas sur le calendrier de publication rapide.</span></p>
                     </td>
                  </tr>
                    <tr>
@@ -298,6 +299,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
+                        <p><span class="preview">Cette fonctionnalité a été temporairement supprimée de la production pour les clients qui ne sont pas dans le calendrier de publication rapide.</span>&lt;/
                     </td>
                  </tr>
                  <tr>
