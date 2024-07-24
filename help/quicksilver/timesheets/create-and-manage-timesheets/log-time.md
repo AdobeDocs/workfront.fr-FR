@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3553'
-ht-degree: 97%
+source-wordcount: '3775'
+ht-degree: 91%
 
 ---
 
@@ -473,3 +473,36 @@ Pour plus d’informations, consultez [Utiliser des cartes connectées sur les p
 
 Vous pouvez consigner les heures à partir de l’application mobile Workfront.
 Pour plus d’informations, consultez [Adobe Workfront pour Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) ou [Adobe Workfront pour iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+
+## Modification des heures de connexion dans les listes et les rapports
+
+Vous pouvez modifier les heures enregistrées dans les zones suivantes :
+
+* Toutes les zones où vous avez ajouté des heures, y compris les feuilles de temps ouvertes
+* Listes d’heures et rapports.
+
+Vous pouvez modifier les éléments suivants d’une entrée d’heure lorsque vous modifiez une entrée d’heure dans une liste ou un rapport :
+
+* Nombre d&#39;heures
+* Type d’heure
+* Rôle de tâche associé à l’entrée d’heure
+
+Selon le type d’entrées d’heure que vous modifiez, les champs suivants peuvent être modifiés :
+
+* Lorsque vous modifiez les heures spécifiques au projet :
+
+   * Vous pouvez modifier le nombre d’heures.
+   * Vous pouvez modifier le type d’heure uniquement en types spécifiques au projet.
+   * Vous ne pouvez modifier l’affectation du rôle de tâche d’heure que si elle a été activée dans Configuration. Pour plus d’informations, voir [Configuration des préférences de feuille de temps et d’heure](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+
+* Lorsque vous modifiez les heures générales :
+
+   * Vous pouvez modifier le nombre d’heures.
+   * Vous ne pouvez modifier le type d’heure que sur les types généraux.
+   * Vous ne pouvez pas modifier l’affectation des rôles de tâche d’heure, car les heures générales ne peuvent pas être associées aux rôles.
+
+* Lorsque vous modifiez un mélange d’heures générales et d’heures spécifiques au projet, en bloc :
+
+   * Vous pouvez modifier le nombre d’heures.
+   * Vous ne pouvez pas modifier le type d’heure, car les types d’heure généraux ne peuvent pas être modifiés en types spécifiques au projet et les types d’heure spécifiques au projet ne peuvent pas être modifiés en types généraux.
+   * Vous ne pouvez pas modifier l’affectation des rôles de tâche, car les heures générales ne peuvent pas être associées aux rôles.

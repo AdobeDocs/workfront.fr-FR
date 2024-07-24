@@ -7,14 +7,16 @@ description: Lors de la gestion des affectations de tâches et de problèmes, vo
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 90%
+source-wordcount: '1247'
+ht-degree: 82%
 
 ---
 
 # Vue d’ensemble des affectations intelligentes
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -22,7 +24,7 @@ ht-degree: 90%
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Pour plus d’informations sur la version actuelle, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Lors de la gestion des tâches et des affectations de problèmes, vous pouvez utiliser des affectations intelligentes pour identifier la meilleure ressource pour effectuer le travail. Les affectations intelligentes sont des suggestions qu’Adobe Workfront vous présente lorsque vous affectez des tâches à des ressources en fonction d’un algorithme qui détermine la ressource la plus appropriée pour la tâche. Les affectations intelligentes peuvent être des personnes, des rôles de tâche ou des équipes.
 
@@ -36,10 +38,10 @@ Cet article contient des informations générales sur les affectations intellige
 
 Tenez compte des points suivants lorsque vous utilisez des affectations intelligentes :
 
-* L’algorithme fonctionne indépendamment pour les tâches et les problèmes. Cela signifie que la liste des personnes suggérées pour les problèmes peut différer de celle des personnes suggérées pour une tâche, car Workfront crée les listes en fonction de critères relatifs aux problèmes et aux tâches séparément.
-* Les affectations intelligentes ne recommandent pas les rôles ou les équipes de travail. Il s’agit plutôt de suggestions de personnes qui sont les mieux à même d’effectuer une tâche ou un problème.
-* Les affectations suggérées sont toujours des personnes actives.
-* La personne répertoriée en premier doit correspondre le mieux à la tâche.
+* <span class="preview">L’algorithme fonctionne indépendamment pour les tâches et les problèmes. Cela signifie que la liste des utilisateurs suggérés pour les problèmes peut différer de celle des utilisateurs suggérés pour une tâche, car Workfront crée les listes en fonction de critères relatifs aux problèmes et aux tâches séparément. </span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* Les affectations suggérées sont toujours des utilisateurs, des rôles de tâche ou des équipes actifs.
+* La ressource répertoriée en premier doit correspondre le mieux à la tâche.
 
 ## Rechercher les suggestions d’affectation intelligente
 
@@ -51,11 +53,11 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
 * Une liste de tâches ou un rapport dans la colonne Affectations
 
-  ![](assets/smart-assignments-task-list.png)
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * Un en-tête de tâche dans le champ Affectations
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * En-tête de problème dans le champ Affectations
 
@@ -67,7 +69,7 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
 * Champ Affectations de la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet.
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,7 +79,7 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
 * Équilibreur de charge de travail dans la zone Affecté à lorsque vous affectez une tâche ou un problème
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Critères des affectations intelligentes
@@ -86,11 +88,13 @@ Les affectations intelligentes diffèrent selon qu’il s’agit de tâches ou d
 
 ### Critères d’affectation intelligente des tâches
 
-Le calcul des affectations intelligentes de tâche fonctionne en deux phases qui utilisent deux algorithmes différents.
+Le calcul des affectations intelligentes de tâche fonctionne en <span class="preview">deux phases qui utilisent deux algorithmes différents.</span>
 
-Selon l’algorithme utilisé par l’affectation intelligente, les affectations sont répertoriées sous deux sections distinctes dans le champ Affectations. Pour plus d’informations, voir [Créer des affectations intelligentes](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+<span class="preview">Selon l’algorithme qui trouve l’affectation dynamique, les affectations sont répertoriées sous deux sections distinctes dans le champ Affectations.</span> Pour plus d’informations, voir [Effectuer des affectations dynamiques](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### Première phase de calcul des affectations intelligentes pour les tâches
 
@@ -127,6 +131,8 @@ Le calcul du score de similarité et l’ordre dans lequel les affectations sont
 * Les affectations identifiées dans cette phase sont répertoriées dans la section    **Affectations proposées** du champ Affectations pour les tâches.
 
 * S’il n’existe aucune correspondance utilisant ce calcul, la deuxième phase des affectations intelligentes commence, qui est calculée à l’aide d’un autre algorithme.
+
+</div>
 
 #### Deuxième phase de calcul de l’affectation intelligente pour les tâches
 

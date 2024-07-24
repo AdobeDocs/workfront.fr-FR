@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, consultez la [présentation du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Pour plus d’informations sur la version actuelle, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Vous pouvez affecter des tâches aux utilisateurs, aux rôles de tâche ou aux équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 
@@ -55,6 +55,8 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
 * [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Conditions d’accès
+
+<!-- Audited: 07/2024-->
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
@@ -164,7 +166,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">Lors de l’ajout d’une affectation de rôle de tâche, vous pouvez rechercher le rôle ou l’emplacement de la tâche. Sélectionnez un rôle dans la liste Rôles de tâche pour utiliser le taux de facturation par défaut pour l’affectation ou sélectionnez un rôle de tâche Carte de taux pour utiliser le taux de facturation dans la carte de taux. Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Conditionnel) Cliquez sur l’un des noms dans les listes **Affectations proposées**, **Utilisateur et équipes**, **Rôles de tâche** ou <span class="preview">**Rôles de carte de taux**</span> lors de leur affichage. Consultez [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) pour en savoir plus.
+   * (Conditionnel) Cliquez sur l’un des noms dans les listes <span class="preview">**Affectations proposées**</span>, **Utilisateur et équipes**, **Rôles de tâche** ou <span class="preview">**Rôles de carte de taux**</span> lors de leur affichage. Consultez [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md) pour en savoir plus.
 
      Vous pouvez commencer à saisir le nom d’un utilisateur, d’une équipe ou d’un rôle de tâche à affecter à la tâche, puis le sélectionner lorsqu’il s’affiche dans la liste.
 

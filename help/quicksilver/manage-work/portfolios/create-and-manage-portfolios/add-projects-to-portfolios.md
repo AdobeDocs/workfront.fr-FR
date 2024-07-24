@@ -6,9 +6,9 @@ description: Nous vous recommandons d’ajouter des projets aux portefeuilles lo
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 7%
 
 ---
@@ -33,8 +33,9 @@ Tenez compte des points suivants lors de l’ajout de projets à des portefeuill
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td> <p>Nouveau : Tous</p>
+   <p>Actuel :[!UICONTROL Entreprise] ou version ultérieure</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -42,12 +43,12 @@ Tenez compte des points suivants lors de l’ajout de projets à des portefeuill
    <p>Actuel :[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Accès à [!UICONTROL Affichage] à Portfolio ou à une version ultérieure</p> <p>Accès à [!UICONTROL Modifier] dans Projets</p> </td> 
+   <td role="rowheader">Niveau d’accès</td> 
+   <td> <p>Portfolios d’accès [!UICONTROL Modifier]</p> <p>Accès à [!UICONTROL Modifier] dans Projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Afficher] pour le portfolio</p> <p>Autorisations [!UICONTROL Gérer] pour les projets</p>  </td> 
+   <td> <p>Autorisations [!UICONTROL Gérer] pour le portfolio</p> <p>Autorisations [!UICONTROL Gérer] pour les projets</p>  </td> 
   </tr> 
  </tbody> 
 </table>

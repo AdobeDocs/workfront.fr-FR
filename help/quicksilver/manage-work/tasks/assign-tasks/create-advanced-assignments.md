@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 15%
+source-wordcount: '1171'
+ht-degree: 19%
 
 ---
 
 # Créer des affectations avancées
+
+<!-- Audited: 07/2024-->
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour toutes les clientes et tous les clients ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Pour plus d’informations sur la version actuelle, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Vous pouvez gérer les affectations de tâche ou de problème à l’aide d’affectations avancées.
 
@@ -92,7 +100,7 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
 
 1. Cliquez sur **Avancé**.
 
-   ![Cliquez sur Avancé](assets/assignments-box-in-task-header.png)
+   <span class="preview">![Cliquez sur Avancé](assets/assignments-box-in-task-header.png)</span>
 
 1. Dans le champ **Rechercher des personnes, des rôles et des équipes**, commencez à saisir le nom d’un utilisateur, d’un rôle ou d’une équipe, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
@@ -138,15 +146,10 @@ En outre, vous pouvez effectuer des affectations avancées dans les zones suivan
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * Après avoir modifié manuellement les affectations d’affectation sur les tâches, les Heures planifiées des tâches peuvent se mettre à jour en conséquence. Pour plus d’informations, voir la section &quot;Mise à jour des heures planifiées de la tâche lors de la gestion des affectations utilisateur&quot; dans l’article [Aperçu des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * Vous ne pouvez pas modifier manuellement les affectations d’affectation en cas de problème.
      >   * Vous ne pouvez pas modifier manuellement les affectations des équipes affectées à des tâches.
-     >   
-     >
 
    * **Rôle du cessionnaire :** Sélectionnez le rôle que l’utilisateur doit utiliser lors de la réalisation de cette affectation.  Le rôle de Principal de l’utilisateur s’affiche par défaut. Cliquez dans la zone Rôle du cessionnaire pour sélectionner un autre rôle.  Lorsque vous affectez d’abord la tâche ou le problème à un rôle, puis ajoutez un utilisateur qui peut remplir ce rôle comme seconde affectation, la liste des utilisateurs suggérés est filtrée pour les utilisateurs qui peuvent remplir les rôles déjà affectés à la tâche et au problème.
 

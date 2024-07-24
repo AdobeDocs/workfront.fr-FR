@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 93%
+source-wordcount: '759'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,9 @@ Il existe deux jeux de types d’heures :
   >
   >Si vous activez des types d’heures spécifiques à un projet dans votre système [!DNL Workfront], au moins un type d’heure spécifique au projet doit être activé sur chaque projet de votre système. Vous ne pouvez pas activer de type d’heure spécifique au projet au niveau du système et ne disposez pas de types d’heures spécifiques au projet au niveau du projet.
 
-* **Types d’heures générales** : les heures générales ne peuvent pas être associées à un projet, une tâche ou un problème et sont consignées directement dans une feuille de temps. Pour plus d’informations sur la consignation des heures, voir [Consigner les heures](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Types d’heure généraux** : les heures générales ne peuvent pas être associées à un projet, une tâche ou un problème et sont connectées directement à une feuille de temps.
+
+Pour plus d’informations sur les heures de journalisation et leur association aux types d’heures, voir [Temps du journal](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Conditions d’accès
 

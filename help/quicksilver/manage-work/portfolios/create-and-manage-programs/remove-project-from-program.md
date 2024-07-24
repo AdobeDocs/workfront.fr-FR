@@ -6,10 +6,10 @@ description: Lorsque cela n’est plus nécessaire, vous pouvez supprimer un pro
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 36%
+source-wordcount: '228'
+ht-degree: 11%
 
 ---
 
@@ -25,34 +25,35 @@ Vous pouvez supprimer un projet d’un programme en effectuant l’une des opér
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!UICONTROL Business] ou niveau supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td><p>Nouvelle : standard</p> 
+   <p>Actuelle : [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès à [!UICONTROL Modifier] à Portfolio, Programmes et Projets</p> <p>Pour supprimer des projets, vous devez disposer de l’accès à [!UICONTROL Supprimer] aux projets.</p> <p><b> NOTE</b>
-
-Si vous ne disposez toujours pas d’un accès, demandez à votre équipe d’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires pour votre niveau d’accès. Pour plus d’informations sur la manière dont l’équipe d’administration [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
+   <td role="rowheader">Niveau d’accès</td> 
+   <td> <p>Accès à [!UICONTROL Modifier] à Portfolio, Programmes et Projets</p> <p>Pour supprimer des projets, vous devez disposer de l’accès à [!UICONTROL Supprimer] aux projets.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations [!UICONTROL Gérer] pour le portefeuille, le programme et le projet</p> <p>Pour pouvoir supprimer le projet, vous devez disposer des autorisations [!UICONTROL Supprimer]. </p> <p>Une fois que vous avez créé un programme, vous disposez par défaut des autorisations [!UICONTROL Gérer].</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations [!UICONTROL Gérer] pour le portefeuille, le programme et le projet</p> <p>Pour pouvoir supprimer le projet, vous devez disposer des autorisations [!UICONTROL Supprimer]. </p> <p>Une fois que vous avez créé un programme, vous disposez par défaut des autorisations [!UICONTROL Gérer].</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+
++++
 
 ## Suppression d’un projet d’un programme
 

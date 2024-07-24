@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des programmes existants à un portfolio. Comme
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 34%
+source-wordcount: '262'
+ht-degree: 33%
 
 ---
 
@@ -27,7 +27,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!UICONTROL Business] ou niveau supérieur</p> </td> 
+   <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 

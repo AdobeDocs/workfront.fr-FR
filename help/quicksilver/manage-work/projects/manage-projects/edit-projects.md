@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '7473'
-ht-degree: 99%
+source-wordcount: '7513'
+ht-degree: 98%
 
 ---
 
@@ -242,11 +242,17 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Indiquez le portfolio auquel le projet appartient. Vous devez d’abord créer un portfolio pour l’afficher dans la liste déroulante. Seuls les portfolios actifs peuvent être associés à un projet. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.</td> 
+         <td>Indiquez le portfolio auquel le projet appartient. Vous devez d’abord créer un portfolio pour l’afficher dans la liste déroulante. Seuls les portfolios actifs peuvent être associés à un projet. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.
+         <p><b>NOTE</b></p>
+         <p>Vous devez disposer des autorisations de gestion sur le portfolio pour pouvoir l’ajouter ou la supprimer au projet.</p>
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programme</strong></td> 
-         <td> <p>Si vous avez sélectionné un portfolio pour le projet, indiquez un programme pour le projet. Certains portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme pour qu’il apparaisse dans cette liste déroulante. Seuls les programmes actifs peuvent être associés à un projet. </p> <p>Pour plus d’informations sur la création de programmes, voir <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p> </td> 
+         <td> <p>Si vous avez sélectionné un portfolio pour le projet, indiquez un programme pour le projet. Certains portfolios peuvent ne pas avoir de programmes. Vous devez d’abord créer un programme pour qu’il apparaisse dans cette liste déroulante. Seuls les programmes actifs peuvent être associés à un projet. </p> <p>Pour plus d’informations sur la création de programmes, voir <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Créer un programme</a>.</p> 
+      <p><b>NOTE</b></p>
+         <p>Pour pouvoir l’ajouter ou la supprimer au projet, vous devez disposer des autorisations de gestion du programme.</p>   
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Groupe</strong></td> 
