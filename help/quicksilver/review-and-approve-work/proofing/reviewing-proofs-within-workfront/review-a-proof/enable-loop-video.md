@@ -6,10 +6,10 @@ description: Vous pouvez configurer la vidéo pour qu’elle soit en boucle cont
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 944c4d15-e868-4481-9d35-318a319dc375
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 37%
+source-wordcount: '209'
+ht-degree: 35%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 37%
 Vous pouvez configurer la vidéo pour qu’elle soit en boucle continue (la lecture de la vidéo recommence une fois qu’elle est terminée). 
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Activer une boucle dans une épreuve vidéo
 

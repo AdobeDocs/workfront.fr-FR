@@ -6,9 +6,9 @@ description: Vous pouvez marquer les commentaires résolus une fois qu’ils ont
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '366'
 ht-degree: 21%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 21%
 Vous pouvez marquer les commentaires résolus une fois qu’ils ont été adressés. Vous pouvez rouvrir un commentaire que vous ou un autre réviseur avez résolu.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -49,6 +51,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Résoudre un commentaire
 

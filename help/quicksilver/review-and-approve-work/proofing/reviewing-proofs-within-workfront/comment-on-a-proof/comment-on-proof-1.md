@@ -6,9 +6,9 @@ description: Les commentaires vous permettent de fournir des commentaires sur le
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '787'
 ht-degree: 8%
 
 ---
@@ -23,6 +23,8 @@ Lors du balisage des utilisateurs dans des commentaires sur un BAT, les utilisat
 * Si vous avez été ajouté au BAT en tant qu’utilisateur externe et que vous êtes membre d’un autre environnement avec un compte de BAT différent, vous pouvez baliser uniquement ces utilisateurs de votre environnement d’origine. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -55,6 +57,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
 
++++
+
 ## Commenter sur une épreuve
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
@@ -78,17 +82,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Draw a freehand</strong> </td> 
+      <td role="rowheader"><strong>Tracer une ligne à main levée</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>Permet d’ajouter une ligne à main levée sur la zone sélectionnée.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw a line</strong> </td> 
+      <td role="rowheader"><strong>Tracer une ligne</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>Permet de tracer une ligne sur la zone sélectionnée.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw et flèche</strong> </td> 
+      <td role="rowheader"><strong>Dessiner une flèche</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
       <td>Permet d’ajouter une flèche à la zone sélectionnée.</td> 
      </tr> 
@@ -98,7 +102,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>Met la zone sélectionnée en surbrillance.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw a rectangle</strong> </td> 
+      <td role="rowheader"><strong>Dessiner un rectangle</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>Permet de tracer un rectangle autour d'une zone.</td> 
      </tr> 

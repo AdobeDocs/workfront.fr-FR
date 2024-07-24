@@ -6,10 +6,10 @@ description: Tant que le BAT est actif (non verrouillé ou archivé), vous pouve
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 07825eeb-9dbd-4ad8-9dca-d3b5345012f8
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 34%
+source-wordcount: '236'
+ht-degree: 33%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 34%
 Tant que le BAT est actif (non verrouillé ou archivé), vous pouvez modifier votre décision à tout moment. 
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -49,6 +51,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Modifier une décision existante sur une épreuve
 

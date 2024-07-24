@@ -6,9 +6,9 @@ description: Vous pouvez rechercher, filtrer et trier les commentaires de BAT po
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '862'
 ht-degree: 9%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 9%
 Vous pouvez rechercher, filtrer et trier les commentaires de BAT pour parcourir facilement les commentaires sur le contenu.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Recherche dans la liste des commentaires
 

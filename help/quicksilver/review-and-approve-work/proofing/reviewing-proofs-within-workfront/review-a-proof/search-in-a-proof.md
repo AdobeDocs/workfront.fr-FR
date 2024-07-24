@@ -6,10 +6,10 @@ description: Découvrez comment localiser rapidement le texte dans un BAT.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 26%
+source-wordcount: '230'
+ht-degree: 25%
 
 ---
 
@@ -26,6 +26,8 @@ Vous pouvez rapidement localiser le texte dans un BAT créé pour les types de d
 >Il est possible que les BAT créés avant le 26 avril 2017 ne puissent pas faire l’objet de recherches.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -53,6 +55,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Rechercher du contenu dans une épreuve
 

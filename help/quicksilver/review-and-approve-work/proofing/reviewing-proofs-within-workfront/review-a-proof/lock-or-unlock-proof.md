@@ -6,10 +6,10 @@ description: Vous pouvez verrouiller et déverrouiller manuellement un BAT à to
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: a90c11699a8c057248ec226a4b25fb7d526ab16a
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 15%
+source-wordcount: '382'
+ht-degree: 14%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 15%
 Vous pouvez verrouiller et déverrouiller manuellement un BAT à tout moment dans le processus de révision.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Verrouillage d’un bon à tirer
 

@@ -7,16 +7,18 @@ description: Découvrez comment modifier le profil d’autorisation de BAT en bl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 33%
+source-wordcount: '256'
+ht-degree: 27%
 
 ---
 
 # Modifier le champ du profil d’autorisation d’épreuve en bloc
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,9 +47,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
 
++++
+
 ## Modifier le champ du profil d’autorisation d’épreuve en bloc
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs et utilisatrices** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Triez vos utilisateurs par **Niveau d’accès**. Nous vous recommandons de modifier par lot par niveau d’accès pour vous assurer que le champ **Profil d’autorisation de BAT** s’affiche.
 

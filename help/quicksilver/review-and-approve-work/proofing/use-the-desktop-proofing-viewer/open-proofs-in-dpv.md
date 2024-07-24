@@ -6,10 +6,10 @@ description: Si vous ne pouvez pas ouvrir un BAT comme décrit ci-dessous, conta
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
+source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 20%
+source-wordcount: '252'
+ht-degree: 19%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 20%
 Si vous ne pouvez pas ouvrir un BAT comme décrit ci-dessous, contactez votre administrateur Adobe Workfront ou votre administrateur Workfront Proof.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,6 +45,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 {{latest-version}}
 

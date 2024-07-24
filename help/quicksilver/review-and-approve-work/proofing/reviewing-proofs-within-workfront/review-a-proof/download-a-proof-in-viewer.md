@@ -6,10 +6,10 @@ description: Vous pouvez télécharger des fichiers à partir d’un BAT existan
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 34%
+source-wordcount: '240'
+ht-degree: 32%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 34%
 Vous pouvez télécharger des fichiers à partir d’un BAT existant. Les commentaires et autres informations associés au BAT ne sont pas inclus dans le téléchargement.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Télécharger une épreuve dans la visionneuse de relecture
 

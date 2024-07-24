@@ -6,10 +6,10 @@ description: Vous pouvez mesurer une zone dans un bon à tirer.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 23%
+source-wordcount: '331'
+ht-degree: 22%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 23%
 Vous pouvez mesurer une zone dans un bon à tirer.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Mesurer une zone à l’intérieur d’une épreuve
 

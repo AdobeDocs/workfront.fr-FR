@@ -6,10 +6,10 @@ description: Vous pouvez ajuster l’unité de mesure utilisée dans la chronolo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 28%
+source-wordcount: '321'
+ht-degree: 27%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 28%
 Vous pouvez ajuster l’unité de mesure utilisée dans la chronologie vidéo. Vous pouvez afficher la chronologie dans l’heure, l’image ou le code temporel.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Modifier l’unité de mesure de la chronologie
 
