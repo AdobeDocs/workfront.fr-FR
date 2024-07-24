@@ -9,7 +9,7 @@ description: Avec les modules Adobe Photoshop, vous pouvez lancer un scénario d
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 1de5018a13f1fbe4383ce9655bc3fe29612b1411
+source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
 workflow-type: tm+mt
 source-wordcount: '3966'
 ht-degree: 18%
@@ -25,9 +25,9 @@ Si vous avez besoin d’instructions sur la création d’un scénario, voir [Cr
 
 Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-+++**Développez pour afficher les exigences d’accès à la fonctionnalité de cet article.**
-
 ## Conditions d’accès
+
++++**Développez pour afficher les exigences d’accès à la fonctionnalité de cet article.**
 
 Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
