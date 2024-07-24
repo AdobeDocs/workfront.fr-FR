@@ -7,7 +7,7 @@ description: Lors de la gestion des affectations de tâches et de problèmes, vo
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 82%
@@ -51,13 +51,13 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
   ![](assets/smart-assignments-issue-list.png)
 
-* Une liste de tâches ou un rapport dans la colonne Affectations
+* <span class="preview">Une liste de tâches ou un rapport dans la colonne Affectations</span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* Un en-tête de tâche dans le champ Affectations
+* <span class="preview">En-tête de tâche dans le champ Affectations</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * En-tête de problème dans le champ Affectations
 
@@ -67,9 +67,9 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* Champ Affectations de la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet.
+* <span class="preview">Champ Affectations de la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ Vous pouvez afficher des affectations intelligentes dans les zones suivantes où
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* Équilibreur de charge de travail dans la zone Affecté à lorsque vous affectez une tâche ou un problème
+* <span class="preview">Équilibreur de charge de travail dans la zone Affecté à lorsque vous affectez une tâche ou un problème</span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Critères des affectations intelligentes
