@@ -6,16 +6,25 @@ description: Découvrez comment afficher le contenu dans un BAT.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 14%
+source-wordcount: '897'
+ht-degree: 13%
 
 ---
 
 # Afficher le contenu d’une épreuve
 
+Vous pouvez utiliser la visionneuse de vérification pour afficher et marquer les fichiers dans Workfront.
+
+>[!NOTE]
+>
+>Si votre instance Workfront se trouve sur l’expérience unifiée, la visionneuse de vérification s’ouvre dans un nouvel onglet.
+
+
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,6 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Modifier l&#39;affichage de votre BAT
 

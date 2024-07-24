@@ -6,9 +6,9 @@ description: Certaines fonctionnalités sont différentes entre [!DNL Workfront]
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ Ce tableau décrit certaines fonctionnalités qui diffèrent entre les deux exp�
 | Un &quot;sélecteur d’organisation&quot; vous permet de vous déplacer entre [!DNL Workfront] organisations et environnements. | Le &quot;sélecteur d’organisation&quot; n’est pas disponible |
 | La navigation comprend une zone de navigation de niveau supérieur pour les produits [!DNL Adobe], les notifications [!DNL Adobe], l’aide et votre profil utilisateur, en plus de la barre de navigation [!DNL Workfront] | La navigation comprend uniquement la barre de navigation [!DNL Workfront] |
 | L’aide est accessible à partir du [!UICONTROL menu principal] et de la zone de navigation supérieure. | L&#39;aide est accessible à partir de la barre de navigation [!UICONTROL Main Menu] et [!DNL Workfront] |
+| La visionneuse de vérification s’ouvre dans un nouvel onglet. | La visionneuse de vérification s’ouvre dans Workfront |
 
 {style="table-layout:auto"}
 
