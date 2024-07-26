@@ -6,9 +6,9 @@ description: Vous pouvez supprimer des tâches qui peuvent être des doublons ou
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 463fc65db6adb5cae6ecffb2e165155c89a63d6d
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 15%
 
 ---
@@ -118,7 +118,7 @@ Selon la manière dont votre administrateur Workfront configure les préférence
    1. (Conditionnel) Lorsque le bouton d’activation/désactivation **Autosave** est activé :
 
       1. Sélectionnez les tâches à supprimer, puis cliquez sur **Plus**
-      1. Cliquez sur **Supprimer**, puis sur **Oui, Supprimer** pour confirmer la suppression.
+      1. Cliquez sur **Supprimer**, puis sur **Supprimer** pour confirmer la suppression.
 
          Les tâches sont supprimées.
 
@@ -149,7 +149,7 @@ Selon la manière dont votre administrateur Workfront configure les préférence
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Cliquez sur **Supprimer la tâche**.
-1. Si la suppression est autorisée, cliquez sur **Oui, supprimez-la**.
+1. Si la suppression est autorisée, cliquez sur **Supprimer**.
 
    Votre administrateur Workfront ou votre administrateur de groupe peut ne pas autoriser la suppression des tâches pour lesquelles des heures sont enregistrées.
 
