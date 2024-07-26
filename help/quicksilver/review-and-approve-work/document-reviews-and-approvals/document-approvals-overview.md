@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des réviseurs et réviseuses ou des approbateu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
+source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 59%
+source-wordcount: '589'
+ht-degree: 57%
 
 ---
 
@@ -23,7 +23,7 @@ Les nouvelles approbations de documents consistent en une reconception complète
 
 ## Principales différences par rapport aux validations de documents héritées et à la vérification de l’identité
 
-**Vérification**
+**Différences de la vérification**
 
 * Les boutons de décision d’approbation de document ne sont pas disponibles dans la visionneuse de vérification. Les décisions peuvent être prises dans le document Summary (Résumé), dans les widgets d’accueil de Workfront ou dans la page Détails du document.
 * Les participants à la validation du document s’affichent dans le résumé du document, et non dans l’onglet du workflow de vérification.
@@ -34,13 +34,17 @@ Les nouvelles approbations de documents consistent en une reconception complète
    * Approbations en attente
    * Approbations en retard
 
-**Approbations de documents héritées**
+**Différences avec les approbations de documents héritées**
 
-* Vous pouvez ajouter des réviseurs en plus des approbateurs.
-* Vous pouvez désigner une équipe Workfront entière comme réviseurs ou approbateurs.
-* Vous pouvez définir un délai pour la révision ou l’approbation.
-* Vous pouvez créer et relancer des modèles de validation.
-* Vous pouvez afficher plusieurs indicateurs de performances clés pour vos approbations dans les widgets d’accueil de Workfront.
+Avec de nouvelles validations de document, vous pouvez :
+
+* Ajouter des réviseurs en plus des approbateurs
+* Désigner une équipe Workfront entière comme réviseurs ou approbateurs
+* Définir une date limite pour la révision ou l’approbation
+* Créer et reprendre des modèles de validation
+* Utilisation de nouvelles versions pour
+* Affichage de plusieurs indicateurs de performances clés pour vos approbations dans les widgets d’accueil de Workfront
+* Utilisation des tableaux de bord de canevas pour afficher les détails des rapports sur les nouvelles approbations de documents
 
 ## Utilisation de la nouvelle approbation de documents
 
