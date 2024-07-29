@@ -6,10 +6,10 @@ description: Vous pouvez lier les  [!DNL Jira] problèmes aux  [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 8%
+source-wordcount: '1229'
+ht-degree: 7%
 
 ---
 
@@ -136,18 +136,24 @@ Pour plus d’informations sur la mise à jour des éléments liés, voir [Mise 
 Pour lier manuellement des problèmes [!DNL Jira] à des éléments [!DNL Workfront] :
 
 1. (Conditionnel) Connectez-vous à [!DNL Workfront] et recherchez un problème ou une tâche que vous souhaitez lier au problème [!DNL Jira].
-1. (Conditionnel) Dans la barre d’adresse de l’élément, copiez l’ **URL** de l’élément dans Workfront.
+1. (Conditionnel) Dans la zone [!UICONTROL Details], copiez le **[!UICONTROL numéro de référence]** de l’élément dans Workfront.
 
    Ou
 
-   Dans la zone [!UICONTROL Details], copiez le **[!UICONTROL numéro de référence]** de l’élément dans Workfront.
+   Dans la barre d’adresse de l’élément, copiez l’**URL** de l’élément dans Workfront.
+
+   >[!IMPORTANT]
+   >
+   >Si votre organisation a été intégrée à l’expérience unifiée Adobe, vous devez utiliser le **numéro de référence** pour lier les éléments Workfront à Jira. (L’option URL est disponible mais renvoie une erreur si vous l’utilisez.) Pour plus d’informations sur l’expérience unifiée, voir [Adobe de l’expérience unifiée pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+   >
+   >Pour les organisations qui ne font pas partie de l’expérience unifiée Adobe, il n’est pas recommandé d’utiliser l’option URL car les URL peuvent changer.
 
    >[!NOTE]
    >
    >Vous devez disposer d’une licence [!DNL Workfront] pour vous connecter à [!DNL Workfront]. Dans le cas contraire, un utilisateur [!DNL Workfront] doit vous fournir ces informations.
 
 1. Dans [!DNL Jira], accédez à un problème que vous souhaitez lier manuellement à l’élément [!DNL Workfront].
-1. Dans le panneau de droite [!DNL Workfront], collez l’ **URL** ou le **[!UICONTROL numéro de référence]** de l’élément [!DNL Workfront] auquel vous souhaitez créer un lien.
+1. Dans le panneau de droite [!DNL Workfront], collez le **[!UICONTROL numéro de référence]** ou l’ **URL** de l’élément [!DNL Workfront] que vous souhaitez lui associer.
 
 1. Cliquez sur **[!UICONTROL Lien]**.
 
