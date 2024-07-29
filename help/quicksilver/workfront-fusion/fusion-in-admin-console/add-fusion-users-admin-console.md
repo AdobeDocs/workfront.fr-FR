@@ -8,9 +8,9 @@ description: Vous pouvez ajouter un utilisateur à Adobe Admin Console et l’af
 author: Becky
 feature: Workfront Fusion
 exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: b7ceec2750ded516cae20d12b991b8fec94c6029
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '638'
 ht-degree: 18%
 
 ---
@@ -143,6 +143,6 @@ Pour obtenir des instructions, reportez-vous à la section [Affichage ou modific
 
 ## Affectez un utilisateur existant dans le [!DNL Adobe Admin Console] à [!DNL Workfront Fusion]
 
-1. Commencez à modifier l’utilisateur comme décrit dans la section &quot;Modifier les détails de l’utilisateur&quot; de l’article [Gérer les utilisateurs individuellement](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) de la documentation [!DNL Adobe Admin Console].
+Vous pouvez ajouter un utilisateur existant à une équipe dans Fusion. Cela est géré dans Fusion.
 
-1. Ajoutez **[!DNL Adobe Workfront Fusion]** aux produits affectés à l’utilisateur.
+Pour obtenir des instructions, reportez-vous à la section [Ajout d’un utilisateur à une équipe](/help/quicksilver/workfront-fusion/organizations/add-user-to-an-organization.md#add-a-user-to-a-team) de l’article Ajout d’un utilisateur à une organisation ou à une équipe dans Adobe Workfront Fusion.
