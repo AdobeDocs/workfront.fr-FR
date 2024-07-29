@@ -6,10 +6,10 @@ description: Vous pouvez télécharger vos projets sous la forme de documents po
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: '291'
+ht-degree: 22%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 23%
 Vous pouvez télécharger vos projets sous forme de documents pour une révision et une approbation rapides ou simplement pour les stocker dans [!DNL Adobe Workfront].
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -49,6 +51,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+
++++
 
 ## Conditions préalables
 

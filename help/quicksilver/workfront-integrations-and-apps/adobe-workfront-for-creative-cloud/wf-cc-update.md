@@ -6,10 +6,10 @@ description: Vous pouvez mettre à jour votre travail à l’aide du module exte
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 23%
+source-wordcount: '218'
+ht-degree: 22%
 
 ---
 
@@ -19,8 +19,9 @@ Vous pouvez mettre à jour votre travail à partir de l’une des applications [
 
 {{cc-app-list}}
 
-
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -51,11 +52,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
++++
+
 ## Conditions préalables
 
 {{cc-install-prereq}}
 
-## Post et mise à jour
+## Publier une mise à jour
 
 Vous pouvez mettre à jour votre travail à partir des zones suivantes du module externe :
 

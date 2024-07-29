@@ -6,9 +6,9 @@ description: Vous pouvez charger vos tableaux d’art en tant que bons à tirer 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '672'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 3%
 Vous pouvez télécharger vos tableaux d’art en tant que bons à tirer directement vers [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -49,6 +51,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+
++++
 
 ## Conditions préalables
 

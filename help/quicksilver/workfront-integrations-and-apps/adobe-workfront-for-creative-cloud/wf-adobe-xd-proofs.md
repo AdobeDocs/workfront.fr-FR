@@ -6,9 +6,9 @@ description: Vous pouvez télécharger vos tableaux de bord en tant que bons à 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d5255968a96452d9501a285408f67be7da10d933
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1018'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 4%
 Vous pouvez télécharger vos plans de travail en tant que bons à tirer directement vers [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -49,6 +51,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour savoir quel plan, rôle ou profil d’autorisation de BAT vous avez, contactez votre administrateur [!DNL Workfront] ou [!DNL Workfront Proof].
+
++++
 
 ## Conditions préalables
 

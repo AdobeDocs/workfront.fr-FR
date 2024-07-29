@@ -6,10 +6,10 @@ description: Vous pouvez télécharger vos panoramas d’art en tant que documen
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 24%
+source-wordcount: '292'
+ht-degree: 23%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 24%
 Vous pouvez télécharger vos projets sous forme de documents pour une révision et une approbation rapides ou simplement pour les stocker dans [!DNL Adobe Workfront].
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -49,6 +51,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+
++++
 
 ## Conditions préalables
 

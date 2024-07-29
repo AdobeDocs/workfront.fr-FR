@@ -6,9 +6,9 @@ description: Vous pouvez télécharger vos panoramas d’art en tant que documen
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
-source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '665'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 Vous pouvez télécharger vos tableaux d’art en tant que bons à tirer directement vers [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -49,6 +51,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour savoir quel plan, rôle ou profil d’autorisation de BAT vous avez, contactez votre administrateur [!DNL Workfront] ou [!DNL Workfront Proof].
+
++++
 
 ## Conditions préalables
 

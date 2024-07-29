@@ -6,10 +6,10 @@ description: Vous pouvez recevoir des notifications dans Adobe Creative Cloud à
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 5%
+source-wordcount: '321'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,9 @@ Les notifications sont disponibles dans les applications Adobe Creative Cloud su
 
 ## Conditions d’accès
 
-&lt;Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,6 +51,8 @@ Les notifications sont disponibles dans les applications Adobe Creative Cloud su
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+
++++
 
 ## Conditions préalables
 

@@ -6,10 +6,10 @@ description: Vous pouvez afficher des informations sur les projets, les tâches,
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 14%
+source-wordcount: '571'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +20,8 @@ Vous pouvez afficher des informations sur les projets, les tâches, les problèm
 {{cc-app-list}}
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -53,6 +55,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+
++++
 
 ## Conditions préalables
 

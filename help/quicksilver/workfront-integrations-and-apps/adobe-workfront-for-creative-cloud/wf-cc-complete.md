@@ -6,9 +6,9 @@ description: Vous pouvez rester dans les applications Adobe Creative Cloud et ef
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 38b1b69dd76bef9fb116519dd6c45adc053e0d3f
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '283'
 ht-degree: 19%
 
 ---
@@ -20,6 +20,8 @@ Vous pouvez rester dans les applications [!DNL Adobe Creative Cloud] suivantes e
 {{cc-app-list}}
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -47,6 +49,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+
++++
 
 ## Conditions préalables
 

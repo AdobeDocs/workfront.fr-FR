@@ -6,9 +6,9 @@ description: Recherchez le travail qui vous est assigné dans Adobe Workfront sa
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '395'
 ht-degree: 10%
 
 ---
@@ -20,6 +20,8 @@ Recherchez le travail qui vous a été assigné dans [!DNL Adobe Workfront] sans
 {{cc-app-list}}
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,6 +45,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+
++++
 
 ## Conditions préalables
 
