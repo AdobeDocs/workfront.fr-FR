@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 62%
+source-wordcount: '2510'
+ht-degree: 61%
 
 ---
 
@@ -47,7 +47,7 @@ Pour un exemple de connexion de types d&#39;enregistrements et d&#39;enregistrem
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
 <table style="table-layout:auto">
  <col>
@@ -102,6 +102,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 *Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -115,6 +117,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 
 ## Remarques concernant la connexion des types d’enregistrements
+
+<!--move this to the Connect record types overview article (new)-->
 
 * Vous pouvez connecter les entités suivantes dans Adobe Workfront Planning :
 

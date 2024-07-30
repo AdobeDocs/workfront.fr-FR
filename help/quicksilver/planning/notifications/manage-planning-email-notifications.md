@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 27%
+source-wordcount: '296'
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ Pour plus d’informations sur le balisage des autres dans un commentaire d’en
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
 <table style="table-layout:auto">
  <col>
@@ -82,6 +82,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody>
 </table>
 
++++
 
 ## Gestion des notifications par courrier électronique
 

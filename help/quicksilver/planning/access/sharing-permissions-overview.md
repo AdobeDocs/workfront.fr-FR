@@ -6,7 +6,7 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 65%
@@ -41,14 +41,14 @@ Vous pouvez partager les objets suivants :
 
 * Vues
 
-  Vous devez accorder aux utilisateurs, y compris aux administrateurs système, des autorisations d’accès aux vues séparément de leurs autorisations d’accès aux espaces de travail. Pour plus d’informations, voir [Partage de vues](/help/quicksilver/planning/access/share-views.md).
+   * Vous devez accorder aux utilisateurs, y compris aux administrateurs système, des autorisations d’accès aux vues séparément de leurs autorisations d’accès aux espaces de travail. Pour plus d’informations, voir [Partage de vues](/help/quicksilver/planning/access/share-views.md).
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+     <!--move the link above to the end of this section-->
 
 Vous pouvez partager un espace de travail ou une vue avec les entités suivantes :
 
 * Utilisateurs
 * Groupes
-
-<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 
 ## Considérations sur le partage d’objets dans Adobe Workfront Planning
 
@@ -60,6 +60,14 @@ Vous pouvez partager un espace de travail ou une vue avec les entités suivantes
 * Vous pouvez partager un lien vers un espace de travail ou vers une vue avec d’autres personnes.
 
   Les personnes qui reçoivent le lien doivent être des personnes actives et se connecter à Workfront pour pouvoir accéder à l’espace de travail ou à la page du type d’enregistrement affiché dans la vue sélectionnée.
+
+  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
+    The following scenarios exist:
+        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
+        * Users who receive the link to a view can access the view in the following ways: 
+        
+            * Must be active users and log in to Workfront
+            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
 
 ## Partager des autorisations pour les objets Adobe Workfront Planning
 

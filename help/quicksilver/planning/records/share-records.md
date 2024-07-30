@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,7 @@ Cet article décrit comment copier un lien vers une page d’enregistrement à p
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
 <table style="table-layout:auto">
  <col>
@@ -87,9 +87,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </tbody>
 </table>
 
-
-
-
++++
 
 
 <!--Maybe enable this at GA - but Workfront Planning is not supposed to have Access controls in the Workfront Access Level: 

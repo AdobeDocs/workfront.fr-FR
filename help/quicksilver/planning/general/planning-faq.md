@@ -4,10 +4,10 @@ description: En tant que personne responsable des opérations marketing, vous po
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 2%
+source-wordcount: '1672'
+ht-degree: 3%
 
 ---
 
@@ -145,7 +145,12 @@ Oui. Bientôt, nous pourrons générer des rapports sur les informations de plan
 
 ## Pouvons-nous également extraire des données de planification à l’aide de l’API ?
 
-Oui. Une API de planification est déjà disponible, ainsi qu&#39;un connecteur Fusion. Pour plus d’informations, voir [Modules de planification Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). La documentation de l’API de planification Workfront sera bientôt disponible.
+Oui. Une API de planification est déjà disponible, ainsi qu&#39;un connecteur Fusion.
+
+Pour plus d’informations, voir les articles suivants :
+
+* [Modules Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Principes de base des API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md)
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -197,4 +202,9 @@ Non.
 
 ## Existe-t-il des API personnalisables pour utiliser notre propre gestion des ressources numériques au lieu de la gestion des ressources numériques d’Adobe ?
 
-Une API de planification est déjà disponible, ainsi qu&#39;un connecteur Fusion. Pour plus d’informations, voir [Modules de planification Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). La documentation de l’API de planification Workfront sera bientôt disponible. Vous pouvez utiliser l’API pour créer des intégrations personnalisées.
+Oui. L’API publique de planification Workfront est disponible, ainsi qu’un connecteur Fusion. Vous pouvez utiliser l’API pour créer des intégrations personnalisées.
+
+Pour plus d’informations, voir les articles suivants :
+
+* [Modules Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Principes de base des API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md)

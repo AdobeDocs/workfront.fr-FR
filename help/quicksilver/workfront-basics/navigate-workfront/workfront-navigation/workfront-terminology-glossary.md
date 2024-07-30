@@ -6,9 +6,9 @@ description: Le glossaire  [!DNL Adobe Workfront] répertorie les termes couramm
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '20310'
+source-wordcount: '20384'
 ht-degree: 1%
 
 ---
@@ -303,7 +303,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
   <tr> 
    <td>[!UICONTROL Date d’achèvement du budget]</td> 
    <td> <p>Il s’agit d’un champ obsolète. Toutes les informations que ce champ peut afficher sont liées à une fonctionnalité que [!DNL Workfront] a supprimée. Ce champ ne peut pas être mis à jour. </p>
-   <p> Ce champ est toujours visible dans les listes et rapports [!UICONTROL Projet] et [!UICONTROL Tâches] .</p>  </td> 
+   <p> Ce champ est toujours visible dans les listes et les rapports [!UICONTROL Projet].</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Coût budgété]</td>
@@ -443,7 +443,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Work
    <td>[!UICONTROL Date de début budgétée]</td> 
   <td> <p>Il s’agit d’un champ obsolète. Toutes les informations que ce champ peut afficher sont liées à une fonctionnalité que [!DNL Workfront] a supprimée. Ce champ ne peut pas être mis à jour.</p>
   <p>Ces zones ont été supprimées de [!DNL Workfront]. </p> 
-  <p>Le champ est toujours visible dans les listes et rapports [!UICONTROL Projet] et [!UICONTROL Tâche] .</p>
+  <p>Le champ est toujours visible dans les listes et les rapports [!UICONTROL Projet].</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1540,6 +1540,19 @@ Les entrées d’heure peuvent avoir l’un des états suivants dans Workfront :
   <tr> 
    <td>[!UICONTROL Coût planifié]</td> 
    <td> <p>Total du [!UICONTROL Coût planifié de la main-d’oeuvre] et du [!UICONTROL Coût planifié des dépenses] du projet. Cela n’inclut pas le coût du risque planifié [!UICONTROL] sur le projet.  </p> </td> 
+  </tr>
+
+
+
+<tr> 
+   <td>[!UICONTROL Alignement des dates planifiées]</td> 
+   <td> <p>Il s’agit d’un indicateur automatique selon lequel Workfront attribue des projets, des tâches et des problèmes à afficher lorsqu’un élément sera terminé par rapport à sa date d’achèvement planifiée. </p>
+   <p>Voici les valeurs possibles pour l’indicateur d’alignement de la date planifiée : </p>
+<ul>
+<li>Sera terminé à la date d'achèvement prévisionnelle</li>
+<li>Sera terminé avant la date d'achèvement prévisionnelle</li>
+<li>Sera terminé après la date d'achèvement prévisionnelle</li></ul>
+<p>L’alignement des dates prévues est visible dans les listes et rapports des projets, des tâches et des problèmes. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Durée planifiée]</td> 
@@ -2417,7 +2430,7 @@ Vous devez utiliser la ligne de code <code>[!UICONTROL usewidths=true]</code> su
    <td>Définir les propriétaires et les parties prenantes pour gérer la portée, l’exécution et les approbations du problème, de la tâche, du projet, du programme ou du portefeuille désigné.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL contrat SLA de gestion du travail]</td> 
+   <td>[!UICONTROL SLA de gestion du travail]</td> 
    <td>Mesure quantifiable acceptée par toutes les parties prenantes.</td> 
   </tr> 
   <tr> 
