@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1046'
 ht-degree: 11%
 
 ---
@@ -21,11 +21,13 @@ Un champ Recherche externe dans un formulaire personnalisé appelle une API exte
 
 Cet article fournit des exemples d’utilisation du champ Recherche externe pour appeler la même instance de Workfront ou une API publique. Vous pouvez également utiliser la recherche externe pour communiquer avec un système externe tel que Jira, Salesforce ou ServiceNow.
 
-Les champs de recherche externe sont disponibles uniquement dans le nouveau concepteur de formulaire, et non dans l’ancien créateur de formulaires. Pour plus d’informations sur l’ajout d’un champ de recherche externe à un formulaire personnalisé et des définitions supplémentaires des composants de recherche externe, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations sur l’ajout d’un champ de recherche externe à un formulaire personnalisé et des définitions supplémentaires des composants de recherche externe, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configuration d’un champ de recherche externe pour la même instance de Workfront
 
 Vous pouvez utiliser la recherche externe pour importer les données de votre instance Workfront dans le formulaire personnalisé.
+
+### Utilisation de valeurs de champ Workfront natives dans la recherche externe
 
 Cet exemple montre comment appeler l’API Workfront et importer les données du champ existant &quot;Requête d’état&quot; dans votre champ Recherche externe .
 
@@ -69,6 +71,43 @@ Cet exemple montre comment appeler l’API Workfront et importer les données du
    ![Formulaire personnalisé avec champ de recherche externe](assets/external-lookup-project-status-example1.png)
 
    ![Options de recherche externe basées sur l’état](assets/external-lookup-project-status-example2.png)
+
+### Utilisation de valeurs de champ personnalisées dans la recherche externe
+
+Cet exemple vous montre comment appeler l’API Workfront et importer les données d’un champ personnalisé dans votre champ Recherche externe . L’exemple de champ personnalisé est appelé &quot;Couleurs personnalisées&quot;.
+
+1. Ouvrez le formulaire personnalisé.
+1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites-le glisser vers une section de la zone de travail.
+1. Saisissez les **Libellé** et **Nom** pour le champ.
+1. Sélectionnez le **Format** correspondant au champ.
+1. Saisissez l’appel d’URL d’API dans le champ **URL de l’API de base** .
+
+   **Exemple**
+   `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
+
+1. Examinez les **dépendances** pour connaître les champs référencés par ce champ de recherche dans l’API.
+
+   Un champ de dépendance peut être n’importe quel champ personnalisé ou natif existant dans la page de détails de l’objet.
+
+1. Sélectionnez la **méthode HTTP**.
+
+   Il s’agira probablement de **Get**.
+
+1. Saisissez le **chemin JSON** pour obtenir les résultats de votre appel API.
+
+   **Exemple**
+   `$.data[*].parameterValues.["DE:Combo Colors"]`
+
+   * &quot;parameterValues&quot; fait référence à tout champ personnalisé dans Workfront pour l’objet que vous utilisez.
+   * Pour cet exemple, &quot;DE:Combo Colors&quot; est le champ personnalisé spécifique contenant les valeurs que vous souhaitez récupérer.
+
+   >[!NOTE]
+   >
+   >Les informations **Header** ne sont pas requises pour un appel vers la même instance Workfront.
+
+1. Cliquez sur **Appliquer**.
+
+   Lorsque le formulaire personnalisé est ajouté à un objet Workfront, toutes les valeurs du champ &quot;Couleurs de la boîte de dialogue&quot; apparaissent dans la liste déroulante du champ Recherche externe .
 
 ## Configuration d’un champ de recherche externe pour une API publique
 
