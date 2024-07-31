@@ -6,10 +6,10 @@ description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe Wo
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
+source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 4%
+source-wordcount: '1022'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ Workfront prend en charge les langues suivantes :
 * Chinois - simplifié (zh-CN)
 * Chinois - traditionnel (zh-TW)
 
-La langue utilisée pour afficher Workfront dans votre navigateur est contrôlée par les paramètres de langue de votre navigateur. Veillez à sélectionner la langue de votre navigateur qui figure dans la liste des langues prises en charge.
+La langue utilisée pour afficher Workfront dans votre navigateur est contrôlée par les paramètres de langue de votre navigateur si votre entreprise n’est pas sur IMS, ou par la langue de votre profil Adobe Experience Cloud si votre organisation n’est pas sur IMS. Dans les deux cas, veillez à sélectionner une langue répertoriée dans la liste des langues prises en charge.
 
 Pour afficher les courriers électroniques sortants dans l’une des langues prises en charge, modifiez les paramètres Paramètres régionaux des courriers électroniques utilisateur ou Informations client dans Workfront.\
 Pour modifier les paramètres Informations sur le client, vous devez être un administrateur Workfront.\
@@ -97,22 +97,34 @@ Pour plus d’informations sur Workfront Fusion, consultez la [présentation d�
 
 Vous pouvez modifier la langue dans laquelle vous affichez Workfront et la langue des emails sortants en modifiant les paramètres suivants :
 
-* La langue de votre navigateur
+* La langue de votre navigateur (pour les utilisateurs ne disposant pas d’IMS)
+* La langue principale et secondaire de votre profil AEM (pour les utilisateurs sur IMS)
 * Les paramètres Informations client et Paramètres régionaux des courriers électroniques utilisateur de votre compte Workfront.
 
 Pour afficher toutes les traductions disponibles pour la langue de votre choix, le paramètre régional Workfront et le paramètre régional du navigateur doivent être définis sur la même langue.
 
-* [Modifier la langue du navigateur](#change-the-browser-language)
+* [Modification de la langue du navigateur](#change-the-browser-language)
+* [Modification de la langue Adobe Experience Cloud](#change-the-adobe-experience-cloud-language)
 * [Modification des paramètres régionaux de Workfront et de l’adresse électronique de l’utilisateur](#change-the-workfront-and-user-locales)
 
 ### Modification de la langue du navigateur {#change-the-browser-language}
 
-Lorsque vous modifiez la langue du navigateur, votre interface Workfront s’affiche dans cette langue.\
+Si votre entreprise n’utilise pas IMS, lorsque vous modifiez la langue du navigateur, votre interface Workfront s’affiche dans cette langue.\
 Pour plus d’informations sur les langues prises en charge par Workfront, voir [Langues prises en charge dans Adobe Workfront](#supported-languages).
 
 La langue du navigateur doit être modifiée pour chaque utilisateur.
 
 Consultez le menu &quot;Aide&quot; de votre navigateur pour obtenir des informations spécifiques sur la modification de la langue de votre navigateur.
+
+## Modification de la langue Adobe Experience Cloud
+
+Si votre organisation se trouve sur IMS, la langue de votre profil Adobe Experience Cloud détermine la langue qui s’affiche dans Workfront.
+
+1. Cliquez sur l’image de votre profil à l’extrémité droite de la barre d’outils de Adobe Experience Cloud, puis cliquez sur **Préférences**. La barre d’outils Adobe Experience Cloud se trouve directement au-dessus de la barre d’outils Workfront principale.
+
+1. Sous **Profil** sous votre nom et votre adresse électronique, cliquez sur le nom de la langue actuellement sélectionnée.
+
+1. Sélectionnez vos langues préférées dans les listes déroulantes **Première langue** et **Deuxième langue**. La première langue est votre choix de langue par défaut, tandis que la seconde langue s’affiche uniquement si la première langue n’est pas prise en charge par une application spécifique.
 
 ### Modification des paramètres régionaux de Workfront et de l’adresse électronique de l’utilisateur {#change-the-workfront-and-user-locales}
 

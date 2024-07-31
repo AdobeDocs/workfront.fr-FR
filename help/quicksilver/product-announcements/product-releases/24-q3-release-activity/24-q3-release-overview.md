@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 44%
+source-wordcount: '1835'
+ht-degree: 43%
 
 ---
 
@@ -75,6 +75,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                             </li>
                         </ul>
                         <p><i>Uniquement disponible pour les organisations utilisant le nouveau plan Ultimate.</i></p>
+                        <p><span class="preview">Cette fonctionnalité est temporairement indisponible.</span></p>
                     </td>
                 </tr>
                 <tr>
