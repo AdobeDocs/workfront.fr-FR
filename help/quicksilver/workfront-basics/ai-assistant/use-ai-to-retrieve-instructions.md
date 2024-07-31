@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 32f2c7227ba5851f5a9de85bd350fe9093a5fc8f
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Par exemple, si vous demandez à l’assistant d’IA &quot;Comment créer une f
 Pour obtenir des informations ou des instructions à partir de la documentation de Workfront à l’aide de l’assistant d’IA :
 
 1. Cliquez sur l’icône **Assistant IA** ![Icône Assistant IA](assets/ai-assistant-icon.png) près du coin supérieur droit de l’écran.
-1. Dans le panneau de l’assistant d’IA, saisissez votre invite dans la zone de texte située au bas du panneau.
+1. Dans le panneau Assistant d’IA, saisissez votre invite dans la zone de texte située en bas du panneau.
 
    L’assistant d’IA peut prendre quelques instants pour localiser les informations, selon la taille ou la complexité de l’invite. Nous vous recommandons des invites simples.
 
