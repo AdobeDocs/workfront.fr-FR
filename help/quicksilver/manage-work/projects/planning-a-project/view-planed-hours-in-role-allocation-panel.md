@@ -6,10 +6,10 @@ description: Vous pouvez afficher l’attribution des rôles pour tous les rôle
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -114,10 +114,9 @@ Vous devez disposer des éléments suivants :
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Consultez les informations suivantes dans le panneau **Affectation de rôle** :
-|Field | Description|
-|—|—|
-| **Rôle de tâche** |Rôles de tâche affectés aux tâches et problèmes du projet. Il peut s’agir de rôles de tâche affectés directement à des tâches et des problèmes ou de rôles de tâche associés à des utilisateurs affectés à des tâches et des problèmes du projet.  |
-| **Heures planifiées** |Nombre total d’heures planifiées provenant de tâches et de problèmes affectés à des rôles de tâche ou d’utilisateurs associés à un rôle de tâche sur le projet.  |
 
-
+   | champ | Description |
+   |---|---|
+   | **Rôle de tâche** | Rôles de tâche affectés aux tâches et problèmes du projet. Il peut s’agir de rôles de tâche affectés directement à des tâches et des problèmes ou de rôles de tâche associés à des utilisateurs affectés à des tâches et des problèmes du projet. |
+   | **Nombre d’heures prévues** | Nombre total d’heures planifiées provenant de tâches et de problèmes affectés à des rôles de tâche ou d’utilisateurs associés à un rôle de tâche sur le projet. |
 
