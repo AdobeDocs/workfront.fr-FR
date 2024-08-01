@@ -6,16 +6,16 @@ description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe Wo
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 3%
 
 ---
 
 # Langues prises en charge dans Adobe Workfront
 
-Vous pouvez modifier la langue dans laquelle vous affichez Adobe Workfront et les e-mails provenant de Workfront, en ajustant les préférences linguistiques de votre navigateur et votre langue par défaut dans Workfront.
+Vous pouvez modifier la langue dans laquelle vous affichez Adobe Workfront et les e-mails provenant de Workfront, en ajustant les préférences linguistiques de votre navigateur (si ce n’est sur IMS) ou vos préférences linguistiques de profil Adobe Experience Cloud (si vous utilisez IMS) et votre paramètre régional de messagerie par défaut dans Workfront.
 
 La terminologie Workfront est mise à jour pour les langues prises en charge à chaque mise à jour de Workfront.
 

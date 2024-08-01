@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 66%
+source-wordcount: '761'
+ht-degree: 60%
 
 ---
 
@@ -154,3 +154,11 @@ Pour plus d’informations sur les mises à jour de maintenance effectuées lors
 ### Mises à jour de formation
 
 Découvrez les dernières mises à jour apportées aux programmes de formation, aux parcours de formation, aux vidéos et aux guides de chaque version de produit Adobe Workfront. Pour plus d’informations, reportez-vous à la section « Nouveautés » de la [page Tutoriels Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=fr).
+
+### Fonctionnalité bientôt supprimée de Workfront
+
+Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
+
+#### Obsolescence de l’expérience d’accueil héritée avec la version 24.10
+
+Nous abandonnerons officiellement l’expérience héritée d’accueil avec la version 24.10. Nous vous recommandons de commencer à utiliser la nouvelle page d’accueil, qui continuera à être enrichie de fonctionnalités supplémentaires avant l’obsolescence. D’autres informations sur la transition, notamment sur ce que les utilisateurs et les administrateurs peuvent faire pour se préparer, seront disponibles.
