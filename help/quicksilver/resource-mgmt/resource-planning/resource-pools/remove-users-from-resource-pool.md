@@ -6,7 +6,7 @@ description: Bien qu’il n’existe aucune limite au nombre d’utilisateurs po
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
+source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 21%
@@ -75,7 +75,7 @@ Ou\
    Commencez à saisir le nom d’une entreprise, d’un rôle de tâche, d’une équipe ou d’un groupe si vous souhaitez supprimer tous les utilisateurs associés à ces entités.
 
    <span class="preview">Exemple d’image dans l’environnement de prévisualisation :<span>
-   <span class="preview">![Supprimer des utilisateurs du pool de ressources](assets/remove-users-from-resource-pool.png)<span>
+   ![Supprimer des utilisateurs du pool de ressources](assets/remove-users-from-resource-pool.png)
 
    Exemple d’image dans l’environnement de production :
    ![Recherche dans le pool de ressources](assets/search-inside-new-resource-pool-350x314.png)
