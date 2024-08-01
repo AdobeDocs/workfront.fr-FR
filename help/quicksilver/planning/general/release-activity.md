@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '5528'
-ht-degree: 48%
+source-wordcount: '5654'
+ht-degree: 47%
 
 ---
 
@@ -39,24 +39,12 @@ Les fonctionnalités publiées sont répertoriées par ordre de publication, ave
 
 La planification Workfront a été temporairement supprimée des environnements Aperçu et Sandbox depuis janvier 2024. Toutes les fonctionnalités documentées dans ces articles sont actuellement disponibles dans Production.
 
-## Semaine du mardi 29 juillet 2024
-
-### L’API publique de planification Adobe Workfront est désormais disponible.
-
-Production : 30 juillet 2024
-
-Prévisualisation : à déterminer
-
-L’API publique de planification Adobe Workfront est désormais disponible.
-
-Pour plus d’informations, reportez-vous à la section [Principes de base de l’API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md).
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -71,6 +59,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## Semaine du mardi 29 juillet 2024
+
+### L’API publique de planification Adobe Workfront est désormais disponible.
+
+Production : 30 juillet 2024
+
+Prévisualisation : à déterminer
+
+L’API publique de planification Adobe Workfront est désormais disponible.
+
+Pour plus d’informations, reportez-vous à la section [Principes de base de l’API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md).
+
+### Insérer et dupliquer des enregistrements dans la vue de tableau
+
+Production : vendredi 1 août 2024
+Prévisualisation : à déterminer
+
+Les fonctionnalités suivantes ont été ajoutées lors de l’utilisation d’enregistrements dans la vue de tableau :
+
+* Dupliquer des enregistrements : vous pouvez créer rapidement un enregistrement en dupliquant un enregistrement existant.  Un enregistrement identique est créé. Cette fonctionnalité est disponible uniquement dans la vue Tableau.
+
+* Vous pouvez insérer un nouvel enregistrement au-dessus ou en dessous d’un enregistrement existant dans la vue de tableau. Avant cette amélioration, vous n’ajoutiez des enregistrements qu’au bas de la vue de tableau.
+
+Vous pouvez exécuter les nouvelles fonctionnalités dans les zones suivantes :
+
+* Le menu Plus d’un enregistrement
+
+* La nouvelle barre d’outils qui a été ajoutée au bas de la page d’enregistrement dans la vue de tableau
+
+Pour plus d’informations, voir [Création d’enregistrements](/help/quicksilver/planning/records/create-records.md)
+
 
 ## Semaine du mardi 8 juillet 2024
 

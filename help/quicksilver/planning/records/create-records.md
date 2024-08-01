@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 64%
+source-wordcount: '930'
+ht-degree: 57%
 
 ---
 
@@ -22,8 +22,9 @@ Dans Adobe Workfront Planning, un enregistrement est une instance d’un type 
 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
-* Créer manuellement ces types d’enregistrement
-* Créez des enregistrements en copiant et en collant des informations à partir d’une liste externe.
+* Ajoutez-les à partir de la page de type enregistrement.
+* Copier et coller une liste d&#39;enregistrements d&#39;une liste externe
+* Les dupliquer
 
 Cet article décrit comment créer des enregistrements. Pour plus d’informations sur la gestion des enregistrements dans les vues de tableau ou de chronologie, consultez les articles suivants :
 
@@ -95,7 +96,7 @@ Cet article décrit comment créer des enregistrements. Pour plus d’informatio
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Créer des enregistrements en les ajoutant manuellement à un type d’enregistrement <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Créez des enregistrements en les ajoutant à un type d&#39;enregistrement <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 Vous pouvez créer des enregistrements dans la vue de tableau d’une page de type d’enregistrement.
 
@@ -118,7 +119,8 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
       * Cliquez sur **Nouvel enregistrement** dans la dernière ligne du tableau.
 
-      * Cliquez sur **Maj+Entrée** sur votre clavier depuis n’importe quelle colonne ou ligne du tableau. Une ligne vide est alors ajoutée.
+      * Cliquez sur **Maj+Entrée** sur votre clavier depuis n’importe quelle colonne ou ligne du tableau. Une ligne vide est alors ajoutée sous l’enregistrement à partir duquel vous commencez.
+      * Passez la souris sur le champ principal d’un enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du champ, puis cliquez sur **Insérer un enregistrement au-dessus** ou **Insérer un enregistrement en dessous**.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -179,7 +181,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## Créer des enregistrements en copiant et collant des informations à partir d’une liste externe
+## Créer des enregistrements en les copiant et en les collant depuis une liste externe
 
 1. Commencez à créer des enregistrements dans la vue Tableau, comme décrit dans la section [Créer des enregistrements en les ajoutant manuellement à un type d’enregistrement](#create-records-by-manually-adding-them-to-a-record-type) dans cet article.
 
@@ -207,3 +209,8 @@ You can import records from other applications by linking them to existing recor
 
    * Les lignes contiennent les nouveaux enregistrements.
    * Les colonnes renseignent les informations des champs des enregistrements.
+
+
+## Créer des enregistrements en les dupliquant
+
+Pour plus d&#39;informations sur la duplication d&#39;enregistrements, voir [Duplication d&#39;enregistrements](/help/quicksilver/planning/records/copy-or-duplicate-records.md).

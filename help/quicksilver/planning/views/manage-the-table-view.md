@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
-ht-degree: 78%
+source-wordcount: '2630'
+ht-degree: 75%
 
 ---
 
@@ -135,9 +135,8 @@ L’ajout de colonnes à une vue est identique à l’ajout de champs à un type
 
 Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue de tableau.
 
-1. Accédez à une page d’un type d’enregistrement et sélectionnez une vue de **Tableau** dans le menu déroulant de la vue.
+1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue de table, ou cliquez sur **+ Afficher** pour ajouter une nouvelle vue, puis sélectionnez **Tableau**.
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Commencez à ajouter des champs (ou des colonnes), comme décrit dans l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
    Les colonnes que vous ajoutez sont visibles par toutes les personnes qui accèdent au type d’enregistrement et sont ajoutées en tant que nouveaux champs sur la page de l’enregistrement.
@@ -213,9 +212,8 @@ Les lignes d’une vue de tableau affichent des enregistrements individuels du t
 
 Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d’enregistrement.
 
-1. Accédez à une page du type d’enregistrement et sélectionnez une vue de **Tableau** dans le menu déroulant de la vue.
+1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue de table, ou cliquez sur **+ Afficher** pour ajouter une nouvelle vue, puis sélectionnez **Tableau**.
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Commencez à ajouter des enregistrements (ou des lignes), comme décrit dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
    Les enregistrements que vous ajoutez dans la vue de tableau sont immédiatement enregistrés et visibles par toutes les personnes disposant d’autorisations d’affichage ou supérieures à l’espace de travail.
@@ -229,13 +227,8 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d
    >[!NOTE]
    >
    >Vous ne pouvez pas réorganiser les lignes si vous appliquez au moins un tri à la vue de tableau.
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >Les modifications apportées à l’ordre des lignes sont visibles par tous les utilisateurs qui accèdent au type d’enregistrement.
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -243,7 +236,9 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d
 
 Les filtres permettent de réduire la quantité d’informations affichées à l’écran.
 
-Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue de tableau :<!-- this list is almost identical to the one for the table view - update both-->
+Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue Tableau :
+
+<!-- this list is almost identical to the one for the table view - update both-->
 
 * Les filtres que vous créez pour la vue de tableau fonctionnent indépendamment des filtres de la vue de chronologie lorsqu’ils sont appliqués au même type d’enregistrement.
 
