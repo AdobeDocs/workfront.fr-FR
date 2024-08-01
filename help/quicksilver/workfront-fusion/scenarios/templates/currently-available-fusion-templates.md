@@ -7,10 +7,10 @@ description: Les modèles publics suivants sont actuellement disponibles dans Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 97%
+source-wordcount: '1257'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,12 @@ Ces modèles automatisent les processus et les workflows Workfront.
 ### [!BADGE Nouveau !]{type=Informative}
 
 Ce modèle de fusion crée une liste de contrôle standard pour toutes les cartes qui entrent ponctuellement une colonne spécifique sur un panorama spécifique.
+
+### [!BADGE Nouveau !]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+Ce scénario est déclenché par un nouveau projet en cours de création. Avec ce scénario, vous pouvez créer un panorama nommé en fonction du projet, renommer ou créer des colonnes en fonction de vos besoins, créer des balises personnalisées et associer un filtre de colonne d’entrée au projet d’origine.  Des milliers de modifications supplémentaires peuvent être apportées, mais à partir de là, vous verrez les possibilités de créer un point de départ pour la normalisation du conseil d’administration de votre organisation.
 
 ### Workfront - Création de projet à partir d’un fichier CSV
 
