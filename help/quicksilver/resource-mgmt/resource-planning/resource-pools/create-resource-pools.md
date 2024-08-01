@@ -6,9 +6,9 @@ description: Les pools de ressources sont des ensembles d’utilisateurs qui vou
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 16%
 
 ---
@@ -93,14 +93,14 @@ Vous devez disposer des éléments suivants :
     </tbody>
    </table>
 
-1. (Facultatif) Utilisez le lien **Annuler** pour supprimer les utilisateurs ajoutés par le biais d’un groupe, d’une équipe, d’une entreprise ou d’un rôle de tâche. <span class="preview">(La fonction Annuler est temporairement indisponible dans l’environnement Aperçu.)</span>
+1. (Facultatif) Utilisez le lien **Annuler** pour supprimer les utilisateurs ajoutés par le biais d’un groupe, d’une équipe, d’une entreprise ou d’un rôle de tâche.
 
    >[!NOTE]
    >
    >Le nombre d’utilisateurs pouvant être inclus dans un pool de ressources n’est pas limité. Cependant, nous vous recommandons de ne pas ajouter trop d’utilisateurs à un pool de ressources, car la gestion des ressources pourrait devenir un défi dans le cas contraire. La liste des utilisateurs n’affiche que les 2 000 premiers utilisateurs du pool de ressources, et ils sont répertoriés par ordre alphabétique.
 
    <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-   <span class="preview">![Utilisateurs ajoutés au pool de ressources](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![Utilisateurs ajoutés au pool de ressources](assets/users-in-resource-pool2.png)</span>
 
    Exemple d’image dans l’environnement de production :
    ![Utilisateurs ajoutés au pool de ressources](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
