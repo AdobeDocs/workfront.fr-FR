@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: business rules
 title: Création et modification de règles de fonctionnement
-description: Vous pouvez indiquer si vous souhaitez recevoir de nouvelles fonctionnalités Workfront sur une base mensuelle ou trimestrielle.
+description: Une règle de fonctionnement vous permet d’appliquer la validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles métier permettent d’améliorer la qualité des données et l’efficacité opérationnelle en empêchant les actions susceptibles de compromettre l’intégrité des données.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: cbfd30bb64be6a70b27a34068b93d566515434be
+source-git-commit: 49126ecec4a90c32139b49ee3dc37ce6671bb1d1
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1083'
 ht-degree: 4%
 
 ---

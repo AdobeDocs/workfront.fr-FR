@@ -2,14 +2,14 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: Associer des pools de ressources à des utilisateurs et utilisatrices
-description: Associer des pools de ressources à des utilisateurs et utilisatrices
-author: Alina
+description: Vous devez créer un pool de ressources avant de pouvoir l’associer à des utilisateurs. Vous pouvez associer des utilisateurs à des pools de ressources lors de la création de vos pools de ressources.
+author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 34%
+source-wordcount: '512'
+ht-degree: 32%
 
 ---
 

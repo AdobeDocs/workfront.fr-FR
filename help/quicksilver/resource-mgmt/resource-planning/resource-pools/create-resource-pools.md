@@ -2,22 +2,26 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: Créer des pools de ressources
-description: Les pools de ressources sont des ensembles d’utilisateurs qui vous aident à gérer plus facilement les ressources dans Adobe Workfront. Pour plus d’informations sur les pools de ressources, voir Présentation des pools de ressources .
-author: Alina
+description: Les pools de ressources sont des ensembles d’utilisateurs qui vous aident à gérer plus facilement les ressources dans Adobe Workfront.
+author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 18%
+source-wordcount: '612'
+ht-degree: 16%
 
 ---
 
 # Créer des pools de ressources
 
+{{highlighted-preview}}
+
 Les pools de ressources sont des ensembles d’utilisateurs qui vous aident à gérer plus facilement les ressources dans Adobe Workfront. Pour plus d’informations sur les pools de ressources, consultez la [présentation des pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -46,16 +50,19 @@ Vous devez disposer des éléments suivants :
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Création d’un pool de ressources {#create-a-resource-pool}
 
-1. Connectez-vous en tant qu’utilisateur ayant accès à la modification des pools de ressources.\
-   Pour plus d’informations, voir [Création d’un pool de ressources](#create-a-resource-pool).
+{{step1-to-resourcing}}
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+1. Cliquez sur **Pools de ressources** dans le panneau de gauche.
 
-1. Cliquez sur **Ressource**.
-1. Cliquez sur **Pools de ressources** dans le panneau de gauche.\
-   ![resource_pools_tab.png](assets/resource-pools-tab-350x198.png)
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   <span class="preview">![Pools de ressources](assets/list-of-resource-pools.png)</span>
+
+   Exemple d’image dans l’environnement de production :
+   ![Pools de ressources](assets/resource-pools-tab-350x198.png)
 
 1. Cliquez sur **Nouveau pool de ressources**.
 1. Indiquez les informations suivantes :
@@ -80,19 +87,24 @@ Vous devez disposer des éléments suivants :
          <li><strong>Groups</strong> : tous les membres du groupe sont ajoutés au pool de ressources.</li>
          <li><strong>Rôles</strong> : tous les utilisateurs associés à ce rôle sont ajoutés au pool de ressources.</li>
          <li><strong>Entreprises</strong> : tous les utilisateurs de l’entreprise sont ajoutés au pool de ressources.</li>
-        </ul><p>Conseil : Vous pouvez uniquement ajouter des utilisateurs actifs, des équipes, des <span>rôles,</span> ou des entreprises.</p><p>Remarque : Si un utilisateur devient membre d’un groupe, d’une équipe, d’une entreprise ou est associé à un rôle de tâche une fois que le groupe, l’équipe, la société ou le rôle de tâche ont été ajoutés au pool de ressources, le nouveau membre n’est pas automatiquement ajouté au pool de ressources. <br>Si un utilisateur appartient à l’équipe, au groupe, à la société et au rôle de travail que vous ajoutez, en même temps, l’utilisateur n’est ajouté qu’une seule fois au pool de ressources.<br> Les utilisateurs qui sont désactivés après avoir été ajoutés au pool de ressources apparaissent grisés dans la liste des utilisateurs et sont marqués comme étant désactivés.</p></p></td>
+        </ul><p>Conseil : Vous pouvez uniquement ajouter des utilisateurs actifs, des équipes, des <span>rôles,</span> ou des entreprises.</p><br>Vous devrez peut-être faire défiler la page vers le bas de la boîte de dialogue pour afficher tous les utilisateurs dans le pool de ressources.
+        <p>Remarque : Si un utilisateur devient membre d’un groupe, d’une équipe, d’une entreprise ou est associé à un rôle de tâche une fois que le groupe, l’équipe, la société ou le rôle de tâche ont été ajoutés au pool de ressources, le nouveau membre n’est pas automatiquement ajouté au pool de ressources. <br>Si un utilisateur appartient à l’équipe, au groupe, à la société et au rôle de travail que vous ajoutez, en même temps, l’utilisateur n’est ajouté qu’une seule fois au pool de ressources.<br> Les utilisateurs qui sont désactivés après avoir été ajoutés au pool de ressources apparaissent grisés dans la liste des utilisateurs et sont marqués comme étant désactivés.</p></p></td>
      </tr>
     </tbody>
    </table>
 
-1. (Facultatif) Utilisez le lien **Annuler** pour supprimer les utilisateurs ajoutés par le biais d’un groupe, d’une équipe, d’une entreprise ou d’un rôle de tâche.
+1. (Facultatif) Utilisez le lien **Annuler** pour supprimer les utilisateurs ajoutés par le biais d’un groupe, d’une équipe, d’une entreprise ou d’un rôle de tâche. <span class="preview">(La fonction Annuler est temporairement indisponible dans l’environnement Aperçu.)</span>
 
    >[!NOTE]
    >
    >Le nombre d’utilisateurs pouvant être inclus dans un pool de ressources n’est pas limité. Cependant, nous vous recommandons de ne pas ajouter trop d’utilisateurs à un pool de ressources, car la gestion des ressources pourrait devenir un défi dans le cas contraire. La liste des utilisateurs n’affiche que les 2 000 premiers utilisateurs du pool de ressources, et ils sont répertoriés par ordre alphabétique.
 
-   ![Resource_pools_NEW___UNDO_button_for_équipes_groups_etc.png](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   <span class="preview">![Utilisateurs ajoutés au pool de ressources](assets/users-in-resource-pool.png)</span>
 
-1. (Facultatif) Cliquez sur l’icône X située à droite du nom d’un utilisateur pour le supprimer. Pour plus d’informations sur la suppression des utilisateurs d’un pool de ressources, voir [Suppression des utilisateurs des pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
+   Exemple d’image dans l’environnement de production :
+   ![Utilisateurs ajoutés au pool de ressources](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+
+1. (Facultatif) Cliquez sur l’icône X située à droite du nom d’un utilisateur pour le supprimer. Pour plus d’informations sur la suppression des utilisateurs d’un pool de ressources, voir [Suppression des utilisateurs des pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
 1. (Facultatif) Utilisez l’option **Rechercher** pour trouver un utilisateur dans le pool de ressources.
 1. Cliquez sur **Créer**.

@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: Supprimer des utilisateurs et des utilisatrices de pools de ressources
 description: Bien qu’il n’existe aucune limite au nombre d’utilisateurs pouvant appartenir à un pool de ressources, la liste des utilisateurs n’affiche que les 2 000 premiers utilisateurs, classés par ordre alphabétique.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 25%
+source-wordcount: '401'
+ht-degree: 21%
 
 ---
 
 # Supprimer des utilisateurs et des utilisatrices de pools de ressources
+
+{{highlighted-preview}}
 
 Bien qu’il n’existe aucune limite au nombre d’utilisateurs pouvant appartenir à un pool de ressources, la liste des utilisateurs n’affiche que les 2 000 premiers utilisateurs, classés par ordre alphabétique.
 
@@ -22,6 +24,8 @@ Nous vous recommandons de supprimer les utilisateurs qui ont été désactivés 
 Pour plus d’informations sur les pools de ressources, consultez la [présentation des pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -51,23 +55,30 @@ Vous devez disposer des éléments suivants :
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Suppression d’utilisateurs d’un pool de ressources
 
 Vous pouvez supprimer des utilisateurs d’un pool de ressources lorsque ces utilisateurs ne sont plus nécessaires dans ce pool.
 
 Pour supprimer un utilisateur d’un pool de ressources :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Cliquez sur **Ressource**.
 1. Cliquez sur **Pools de ressources** dans le panneau de gauche.
-1. Sélectionnez un pool de ressources et cliquez sur **Modifier.**Or\
+1. Sélectionnez un pool de ressources et cliquez sur **Modifier**.
+Ou\
    Cliquez sur le nom d’un pool de ressources.
 
 1. Commencez à saisir le nom d’un utilisateur que vous souhaitez supprimer dans le champ **Rechercher dans ce pool de ressources**.\
    Ou\
-   Commencez à saisir le nom d’une entreprise, d’un rôle de tâche, d’une équipe ou d’un groupe si vous souhaitez supprimer tous les utilisateurs associés à ces entités.\
-   ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x314.png)
+   Commencez à saisir le nom d’une entreprise, d’un rôle de tâche, d’une équipe ou d’un groupe si vous souhaitez supprimer tous les utilisateurs associés à ces entités.
+
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :<span>
+   <span class="preview">![Supprimer des utilisateurs du pool de ressources](assets/remove-users-from-resource-pool.png)<span>
+
+   Exemple d’image dans l’environnement de production :
+   ![Recherche dans le pool de ressources](assets/search-inside-new-resource-pool-350x314.png)
 
 1. Cliquez sur l’icône &quot;x&quot; au niveau de l’utilisateur pour supprimer un utilisateur du pool de ressources. Ils sont supprimés de toutes les listes dans lesquelles ils apparaissent.\
    Ou\
