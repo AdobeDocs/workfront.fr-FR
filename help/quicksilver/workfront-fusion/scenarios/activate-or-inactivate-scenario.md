@@ -7,7 +7,7 @@ description: Cet article explique pourquoi les scénarios actifs ou désactivés
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 41%
@@ -76,6 +76,6 @@ Vous devez créer un scénario avant de pouvoir l’activer.
 ## Activez ou désactivez un scénario :
 
 1. Cliquez sur **[!UICONTROL Scénarios]** ![](assets/scenarios-icon.png) dans le panneau de gauche, puis cliquez sur le scénario pour l’ouvrir.
-1. Dans le coin supérieur droit de la fenêtre, cliquez sur le bouton d’activation/de désactivation **[!UICONTROL .]**
+1. Dans le coin inférieur gauche de la fenêtre, cliquez sur le bouton d’activation/de désactivation **[!UICONTROL .]**
 
    ![](assets/on-off-switch.jpg)
