@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eac37369a79303c1477d95aeb9f560aa0089da75
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '1994'
-ht-degree: 81%
+source-wordcount: '2001'
+ht-degree: 80%
 
 ---
 
@@ -87,6 +87,7 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Mettre à jour la disposition de la page de l’enregistrement | ✓ |                                 |                  |
 | Partager des espaces de travail | ✓ | |  |
 | Partager des vues | ✓ | |  |
+| Partage des vues publiquement avec des ressources externes | ✓ | |  |
 | Dupliquer les vues | ✓ | |  |
 | Soumettre des demandes |                               |                                  | ✓ |
 | Document créatif |                               |                                  | ✓ |

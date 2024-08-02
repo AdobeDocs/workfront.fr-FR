@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 58%
+source-wordcount: '1020'
+ht-degree: 39%
 
 ---
 
@@ -28,10 +28,8 @@ Lorsque vous partagez une vue, vous autorisez d’autres personnes à accéder �
 
 Vous pouvez partager une vue avec les entités suivantes :
 
-* Utilisateurs de Workfront
-* Groupes Workfront
-<!--* Publicly, with users outside Workfront
--->
+* En interne, avec les utilisateurs et les groupes Workfront
+* Avec les utilisateurs en dehors de Workfront
 
 ## Conditions d’accès
 
@@ -96,9 +94,21 @@ Vous pouvez partager une vue avec les entités suivantes :
 
 +++
 
-## Partage des autorisations sur une vue <!--internally-->
+## Remarques concernant le partage des vues
 
-Vous pouvez partager les vues que vous avez créées ou celles que vous disposez des autorisations de gestion pour <!--with users or groups in Workfront-->.
+* Vous pouvez accorder des autorisations d’affichage ou de gestion à une vue aux utilisateurs Workfront internes.
+
+* Les utilisateurs disposant des autorisations de gestion peuvent modifier les paramètres d’affichage, les partager, les dupliquer ou les supprimer.
+
+* Vous pouvez partager des vues avec des personnes en dehors de votre entreprise à l’aide d’un lien public.
+
+* Lorsque vous partagez une vue publiquement, le lien est accessible à toute personne en dehors de votre société pendant une période limitée, indiquée par la date d’expiration. Aucune connexion n’est requise pour afficher la vue de table partagée.
+
+* Les personnes en dehors de votre organisation qui ont accès à une vue ne peuvent pas créer d’autres vues, modifier la vue partagée, ajouter, supprimer ou modifier des informations d’enregistrement dans le tableau.
+
+## Partage des autorisations sur une vue en interne
+
+Vous pouvez partager des vues que vous avez créées ou des vues auxquelles vous disposez des autorisations de gestion avec des utilisateurs ou des groupes dans Workfront.
 
 >[!NOTE]
 >
@@ -116,14 +126,14 @@ Vous pouvez partager les vues que vous avez créées ou celles que vous disposez
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   <!--The Internal sharing tab should be selected by default.-->
+   L&#39;onglet **Partage interne** doit être sélectionné par défaut.
 
-1. (Facultatif) Sélectionnez l’une des options suivantes pour partager la vue :
+1. (Facultatif) Dans la zone **Qui a accès à**, sélectionnez l’une des options suivantes :
 
    * **Seules les personnes invitées peuvent accéder à** : vous devez spécifier les utilisateurs ou les groupes avec lesquels vous souhaitez partager la vue. Il s’agit de l’option par défaut.
    * **Tous les utilisateurs de l’espace de travail peuvent afficher** : tous les utilisateurs disposant d’autorisations d’affichage ou supérieures sur les espaces de travail peuvent accéder à la vue.
 
-1. Dans le champ **Accorder l’accès à la vue** , commencez à saisir le nom d’un utilisateur ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.  <!--***********replace screen shot below when public sharing is released***********-->
+1. Dans le champ **Accorder l’accès à la vue à**, commencez à saisir le nom d’une personne ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -143,45 +153,41 @@ Vous pouvez partager les vues que vous avez créées ou celles que vous disposez
    >
    >   Les vues partagées avec vous comportent un indicateur de personnes ![](assets/view-shared-with-others-people-icon.png) en regard de l’icône d’affichage. Les vues sans l’indicateur Personnes sont les vues que vous avez créées.
 
-<!--
-## Share permissions to a view publicly
+## Partage des autorisations sur une vue publique
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles vous disposez des autorisations de gestion avec des personnes qui ne disposent pas d’une licence Workfront et qui peuvent être externes à votre entreprise.
 
-Consider the following when publicly sharing a Workfront Planning view: 
-
-* You can share a public link to a record type page that displays in the view you are sharing.
-* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
-* The shared public link must have an expiration date after which the link is no longer accessible. 
-
-To share a view publicly in Workfront Planning: 
+Pour partager une vue publiquement dans Workfront Planning :
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
+1. Ouvrez l’espace de travail dont vous souhaitez partager la vue, puis cliquez sur une carte de type d’enregistrement.
 
-   This opens the record type page.
+   La page du type d’enregistrement s’affiche.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. Dans l’onglet Vue, pointez la souris sur la vue que vous souhaitez partager et cliquez sur le menu **Plus** ![](assets/more-menu.png) à droite du nom de la vue, puis sur **Partager**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Click **Public sharing**.
+1. Cliquez sur **Partage public**.
 
-1. Enable the **Create public link** setting.
+   ![](assets/public-sharing-tab-for-views.png)
 
-   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+1. Activez le paramètre **Créer un lien public** .
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+   Un lien devient disponible. C&#39;est un lien public. Une fois partagé, toute personne disposant du lien, y compris les personnes extérieures à votre entreprise, peut accéder à la page de type d’enregistrement et afficher les enregistrements et les champs sur la page.
 
-1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
+1. Cliquez sur l’icône **Copier le lien** ![](assets/copy-link-view.png) pour copier le lien dans le presse-papiers.
 
-1. Click **Save**.
+1. Saisissez manuellement une date ou utilisez le calendrier dans le champ **Date d’expiration du lien** pour sélectionner une date d’expiration pour le lien public. La page vue de l’enregistrement ne sera pas accessible après la date sélectionnée.
 
-1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+1. Cliquer sur **Enregistrer**.
 
--->
+   L’icône d’affichage se met à jour pour indiquer que la vue est partagée publiquement.
 
+   ![](assets/public-shared-view-icon-highlighted.png)
+
+1. (Facultatif) Collez le lien que vous avez copié dans un email, un message de conversation, un document ou dans un commentaire Workfront pour le partager avec d’autres personnes.
 
 ## Supprimer des autorisations d’une vue
 
@@ -189,26 +195,16 @@ To share a view publicly in Workfront Planning:
 
 1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage, puis cliquez sur une carte de type enregistrement. La page du type d’enregistrement s’affiche.
 1. Passez la souris sur le nom de l’onglet de la vue à partir de laquelle vous souhaitez supprimer le partage et cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Partager**.
-1. Recherchez la personne ou le groupe que vous souhaitez supprimer, puis cliquez sur **Supprimer** dans le menu déroulant des autorisations situé à droite du nom de la personne ou du groupe.
-1. Cliquez sur **Enregistrer**.
-La ou les personnes appartenant au groupe supprimé n’ont plus accès à la vue. Les utilisateurs qui ont été supprimés de l’accès ne reçoivent aucune notification leur indiquant qu’ils ont perdu cet accès.
+1. Pour supprimer le partage interne d’une vue, procédez comme suit :
 
-<!--Replace the above instructions with the following when public sharing is released: 
+   1. Assurez-vous que l’onglet **Partage interne** est sélectionné.
+   1. Recherchez l’utilisateur ou le groupe à supprimer, développez le menu déroulant des autorisations situé à droite du nom de l’utilisateur ou du groupe, puis cliquez sur **Supprimer**.
 
-{{step1-to-planning}}
+1. Pour supprimer le partage public d’une vue, procédez comme suit :
 
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
-1. To remove the internal sharing of a view, do the following: 
+   1. Cliquez sur l&#39;onglet **Partage public** .
+   1. Désélectionnez l’option **Créer un lien public** .
 
-   1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
+1. Cliquer sur **Enregistrer**.
 
-1. To remove the public sharing of a view, do the following: 
-
-   1. Click the **Public sharing** tab.
-   1. Deselect the **Create public link** option. 
-
-1. Click **Save**.
-   
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->
+   Les personnes n’ont plus accès à la vue. Les utilisateurs qui ont été supprimés de la vue ne reçoivent aucune notification leur indiquant qu’ils ne disposent plus de cet accès.
