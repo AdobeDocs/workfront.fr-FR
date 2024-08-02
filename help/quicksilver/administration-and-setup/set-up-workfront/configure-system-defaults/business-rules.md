@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 49126ecec4a90c32139b49ee3dc37ce6671bb1d1
+source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1078'
 ht-degree: 4%
 
 ---
 
 # Création et modification de règles de fonctionnement
-
->[!IMPORTANT]
->
->Les règles de fonctionnement sont temporairement indisponibles.
 
 Une règle de fonctionnement vous permet d’appliquer la validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles métier permettent d’améliorer la qualité des données et l’efficacité opérationnelle en empêchant les actions susceptibles de compromettre l’intégrité des données.
 
