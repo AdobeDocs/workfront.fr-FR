@@ -6,9 +6,9 @@ description: Le module complémentaire  [!DNL Adobe Workfront] [!DNL Outlook] vo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '684'
 ht-degree: 5%
 
 ---
@@ -140,12 +140,13 @@ Vous pouvez obtenir le module complémentaire Workfront pour Outlook à partir d
 ## Connectez-vous à [!DNL Workfront] depuis [!DNL Outlook]
 
 1. Dans [!DNL Outlook], sélectionnez un message électronique, puis cliquez sur l’icône **[!DNL Workfront]** dans l’en-tête de l’email.
-1. Suivez les invites pour vous connecter à [!DNL Workfront] à l’aide de l’authentification améliorée, d’OAuth 2.0 ou de l’URL SAML (Security Assertion Markup Language).
+1. Sur la page de connexion, cliquez sur **Se connecter à Workfront**.
+1. Suivez les invites pour vous connecter à [!DNL Workfront] à l’aide d’OAuth 2.0. <!--Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.-->
 
-   Avant que les utilisateurs puissent se connecter au module complémentaire [!DNL Workfront] à l’aide de SAML, un administrateur [!DNL Workfront] doit d’abord activer les modules complémentaires [!DNL Office 365] pour s’authentifier à l’aide d’une solution SAML 2.0. Pour plus d’informations, reportez-vous à la section [Configuration [!DNL Adobe Workfront] avec SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) de l’article [Configuration [!DNL Adobe Workfront] avec SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+   <!--Before users can log in to the [!DNL Workfront] add-in using SAML, a [!DNL Workfront] administrator must first enable [!DNL Office 365] add-ins to authenticate using a SAML 2.0 solution. For more information, see the section [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in the article [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).-->
 
    >[!NOTE]
    >
-   >* Lorsque vous êtes invité à saisir le domaine de votre compte [!DNL Workfront], saisissez-le au format suivant : *yourCompany&#39;sDomain.my.workfront.com*. Le domaine de votre société correspond généralement au nom de votre société.
-   >* L’authentification améliorée n’est pas disponible tant qu’un administrateur [!DNL Workfront] ne l’a pas activée pour cette intégration.
+   >* Si vous êtes invité à saisir le domaine de votre compte [!DNL Workfront], saisissez-le au format suivant : *yourCompany&#39;sDomain.my.workfront.com*. Le domaine de votre société correspond généralement au nom de votre société.
 
+<!--ADDITIONAL BULLET REMOVED FROM NOTE BOX: Enhanced Authentication is not available until a Workfront administrator enables it for this integration.-->
