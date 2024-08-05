@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
+source-git-commit: 45890d5d9346baebe0984d581828c778d98eec5a
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1603'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 | Ajouter un document | ✓ | ✓ |   |   |
 | Ajouter un problème | ✓ | ✓ |   |   |
 | Ajouter des tâches | ✓ |   |   |   |
-| Envoyer des mises à jour/commentaires | ✓ | ✓ |   |   |
+| Envoyer des mises à jour/commentaires | ✓ | ✓ | ✓ |   |
 | Modifier le statut | ✓ |   |   |   |
 | Consigner les heures | ✓ | ✓ |   |   |
 | Modifier les affectations | ✓ |   |   |   |
@@ -89,7 +89,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 | Modifier des finances | ✓ |   |   |   |
 | Ajouter/modifier des dépenses | ✓ |   |   |   |
 | Afficher Finance | ✓ | ✓ |   |   |
-| Ajouter des mises à jour / commentaires | ✓ | ✓ |   |   |
+| Ajouter des mises à jour / commentaires | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
