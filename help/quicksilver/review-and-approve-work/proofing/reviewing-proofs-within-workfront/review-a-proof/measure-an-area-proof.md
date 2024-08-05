@@ -6,10 +6,10 @@ description: Vous pouvez mesurer une zone dans un bon à tirer.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 22%
+source-wordcount: '353'
+ht-degree: 21%
 
 ---
 
@@ -80,3 +80,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. (Facultatif) Si vous avez besoin que la zone de mesure ait une taille exacte, saisissez les valeurs **Selection size**.
 1. (Facultatif) Si vous devez mesurer un certain pourcentage dans une zone, cochez la case calculer le pourcentage. Une nouvelle boîte s’affiche, vous permettant de l’ajuster.\
    ![](assets/calculate-percentage-350x230.png)
+
+1. Cliquez sur l’icône **Mesurer une zone** en haut de la visionneuse de vérification pour ignorer l’outil lorsque vous avez terminé.
+
+   ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)

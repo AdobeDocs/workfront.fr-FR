@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 19%
+source-wordcount: '306'
+ht-degree: 18%
 
 ---
 
@@ -22,6 +22,8 @@ Les utilisateurs de la vérification dans Adobe Workfront peuvent recevoir des n
 Pour plus d’informations sur la configuration des paramètres de notification envoyés à partir de Workfront Proof, voir [Configuration des paramètres de notification électronique dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Configuration des paramètres par défaut de notification par email du BAT
 
