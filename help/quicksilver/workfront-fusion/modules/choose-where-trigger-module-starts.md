@@ -7,10 +7,10 @@ description: Certains modules de déclenchement vous permettent de sélectionner
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 34%
+source-wordcount: '386'
+ht-degree: 33%
 
 ---
 
@@ -23,6 +23,8 @@ Vous pouvez également indiquer si vous souhaitez récupérer tous les lots ou u
 Pour plus d’informations sur les modules de déclenchement, consultez la section [Déclencher des modules](../../workfront-fusion/modules/module-types.md#triggers) dans l’article [Types de modules](../../workfront-fusion/modules/module-types.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
@@ -60,6 +62,8 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
 Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
 Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ## Choix de l’emplacement de démarrage d’un module de déclenchement
 

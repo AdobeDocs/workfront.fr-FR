@@ -8,16 +8,18 @@ description: Ce document décrit le comportement de  [!DNL Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: d09174b874ff59676a28881de02ae4e7196d0f80
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 22%
+source-wordcount: '652'
+ht-degree: 21%
 
 ---
 
 # Contrainte de type dans [!DNL Adobe Workfront Fusion]
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
@@ -55,6 +57,8 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
 Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
 
 Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ### Contrainte de type
 
