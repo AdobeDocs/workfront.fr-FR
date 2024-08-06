@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 990b27821fcf5ae4f3ec954ddd3b58ed1b140319
+source-git-commit: b2c5990c1ec1656c44c0621e854adf54b6bc19a3
 workflow-type: tm+mt
-source-wordcount: '6252'
-ht-degree: 95%
+source-wordcount: '5529'
+ht-degree: 91%
 
 ---
 
@@ -114,7 +114,9 @@ Le **libellé** est disponible pour la plupart des champs. Il s’agit d’un li
 >
 >Évitez d’utiliser des caractères spéciaux dans ce libellé. Ils ne s’affichent pas correctement dans les rapports.
 
-Un **nom** est requis pour chaque champ. Ce nom est la manière dont le système identifie le champ. Lorsque vous configurez le champ ou le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.
+Un **nom** est requis pour chaque champ. Il s’agit de la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à différentes zones dans Workfront, telles que les rapports, l’accueil et les interactions avec l’API. Lorsque vous configurez le champ ou le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.
+
+Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un déjà créé pour un autre formulaire personnalisé.
 
 >[!NOTE]
 >
@@ -193,7 +195,7 @@ Pour ajouter un champ de texte :
     </tr>
     <tr>
     <td>Étiquette</td>
-    <td><p>Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.<p>
+    <td><p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.<p>
     <p>IMPORTANT : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p></td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
@@ -310,7 +312,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </tr>
     <tr> 
      <td role="rowheader">Étiquette</td> 
-     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Ils ne s’affichent pas correctement dans les rapports.</p> </td> 
+     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
      <td><ul>
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
@@ -320,13 +322,8 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
      </tr> 
      <tr> 
     <td role="rowheader">Nom</td> 
-     <td> <p>(Obligatoire) Ce nom est la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à différentes zones dans Workfront, telles que les rapports, l’accueil et les interactions avec l’API.</p> <p>Lorsque vous configurez le champ personnalisé pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> 
-    <p><b>IMPORTANT</b> :   
-     <ul> 
-    <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom si vous ou d’autres personnes utilisez le formulaire personnalisé dans Workfront. Dans le cas contraire, le système ne reconnaîtra plus le champ personnalisé lorsqu’il sera référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous changez ensuite son nom, Workfront ne le reconnaîtra pas dans le rapport et il cessera de fonctionner correctement, à moins que vous ne l’ajoutiez à nouveau au rapport en utilisant le nouveau nom.</p> </li>
-    <li> <p>Nous vous recommandons de ne pas saisir un nom qui est déjà utilisé pour des champs Workfront intégrés.</p> </li>
-     <li><p>Nous vous recommandons de ne pas utiliser le caractère « point » dans le nom du champ personnalisé, afin d’éviter les erreurs lors de l’utilisation du champ dans différentes zones de Workfront.</p></li>
-     </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un déjà créé pour un autre formulaire personnalisé. Pour plus d’informations, consultez la section <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> de cet article.</p> </td>
+     <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> 
+    <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td>
      <td><ul>
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
@@ -463,7 +460,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
     </tr>
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Ils ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
        <td><ul>
     <li>Frappe continue</li>
     <li>Champ de date</li>
@@ -471,14 +468,9 @@ Pour ajouter des champs de saisie semi-automatique et de date :
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom est la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à différentes zones dans Workfront, telles que les rapports, l’accueil et les interactions avec l’API.</p> <p>Lorsque vous configurez le champ personnalisé pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> 
-      <p><b>IMPORTANT</b> :   
-      <ul> 
-      <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom si vous ou d’autres personnes utilisez le formulaire personnalisé dans Workfront. Dans le cas contraire, le système ne reconnaîtra plus le champ personnalisé lorsqu’il sera référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous changez ensuite son nom, Workfront ne le reconnaîtra pas dans le rapport et il cessera de fonctionner correctement, à moins que vous ne l’ajoutiez à nouveau au rapport en utilisant le nouveau nom.</p> </li>
-      <li> <p>Nous vous recommandons de ne pas saisir un nom qui est déjà utilisé pour des champs Workfront intégrés.</p> </li>
-      <li><p>Nous vous recommandons de ne pas utiliser le caractère « point » dans le nom du champ personnalisé, afin d’éviter les erreurs lors de l’utilisation du champ dans différentes zones de Workfront.</p></li>
-      </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un déjà créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
-         <td><ul>
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> 
+      <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td>
+    <td><ul>
     <li>Frappe continue</li>
     <li>Champ de date</li>
     </ul></td>
@@ -578,17 +570,12 @@ Pour ajouter une recherche externe :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Ils ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le champ personnalisé.</p> <p>Lorsque vous configurez le champ personnalisé pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> 
-      <p><b>IMPORTANT</b> :   
-      <ul> 
-      <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom si vous ou d’autres personnes utilisez le formulaire personnalisé dans Workfront. Dans le cas contraire, le système ne reconnaîtra plus le champ personnalisé lorsqu’il sera référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous changez ensuite son nom, Workfront ne le reconnaîtra pas dans le rapport et il cessera de fonctionner correctement, à moins que vous ne l’ajoutiez à nouveau au rapport en utilisant le nouveau nom.</p> </li>
-      <li> <p>Nous vous recommandons de ne pas saisir un nom qui est déjà utilisé pour des champs Workfront intégrés.</p> </li>
-      <li><p>Nous vous recommandons de ne pas utiliser le caractère « point » dans le nom du champ personnalisé, afin d’éviter les erreurs lors de l’utilisation du champ dans différentes zones de Workfront.</p></li>
-      </ul> <p>Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un déjà créé pour un autre formulaire personnalisé. Pour plus d’informations, voir <a href="#Add" class="MCXref xref">Ajouter un champ personnalisé à un formulaire personnalisé</a> dans cet article.</p> </td>
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> 
+      <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructions</td> 
       <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les personnes remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône en forme de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.</p> </td> 
@@ -705,11 +692,11 @@ Pour ajouter des images, des fichiers PDF ou des vidéos :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Ils ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget.</p> <p>Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> <p><b>IMPORTANT</b> : bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs et utilisatrices aurez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le widget là où il peut maintenant être référencé dans d’autres zones de Workfront. </p> <p>Chaque nom de widget doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un déjà créé pour un autre formulaire personnalisé. </p> </td> 
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p> <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -824,16 +811,12 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Ils ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le champ.</p><p> Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
-      <p><b>IMPORTANT</b> :
-      <ul> 
-      <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom si vous ou d’autres personnes utilisez le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ alors qu’il pourrait être référencé dans d’autres zones de Workfront.</p> </li>
-      <li> <p>Chaque nom de champ doit être unique dans l’instance Workfront de votre entreprise. Vous pouvez ainsi en réutiliser un déjà créé pour un autre formulaire personnalisé.</p> </li>
-      <li><p>Nous vous recommandons de ne pas utiliser le caractère « point » dans le nom du champ personnalisé, afin d’éviter les erreurs lors de l’utilisation du champ dans différentes zones de Workfront.</p></td> 
+      <td role="rowheader">Nom</td>
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
+      <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
@@ -874,16 +857,12 @@ Pour ajouter un fichier Adobe XD :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Ils ne s’affichent pas correctement dans les rapports.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>IMPORTANT</b> : évitez d’utiliser des caractères spéciaux dans cette étiquette. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
       <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
-    <p><b>IMPORTANT</b> :   
-      <ul> 
-      <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom si vous ou d’autres personnes utilisez le formulaire personnalisé dans Workfront. Dans le cas contraire, le système ne reconnaîtra plus le champ personnalisé lorsqu’il sera référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous changez ensuite son nom, Workfront ne le reconnaîtra pas dans le rapport et il cessera de fonctionner correctement, à moins que vous ne l’ajoutiez à nouveau au rapport en utilisant le nouveau nom.</p> </li>
-      <li> <p>Nous vous recommandons de ne pas saisir un nom qui est déjà utilisé pour des champs Workfront intégrés.</p> </li>
-      <li><p>Nous vous recommandons de ne pas utiliser le caractère « point » dans le nom du champ personnalisé, afin d’éviter les erreurs lors de l’utilisation du champ dans différentes zones de Workfront.</p></td> 
+    <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
