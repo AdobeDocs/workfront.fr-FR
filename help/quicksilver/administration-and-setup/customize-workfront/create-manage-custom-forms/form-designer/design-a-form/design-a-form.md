@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
+source-git-commit: 990b27821fcf5ae4f3ec954ddd3b58ed1b140319
 workflow-type: tm+mt
-source-wordcount: '6090'
-ht-degree: 97%
+source-wordcount: '6252'
+ht-degree: 95%
 
 ---
 
@@ -53,10 +53,6 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 1. Cliquez sur **Formulaires personnalisés** dans le panneau de gauche.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Cliquez sur **Nouveau formulaire personnalisé**.
 1. Sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 
@@ -76,6 +72,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 1. Vous pouvez ensuite commencer à ajouter des champs à votre formulaire personnalisé. Reportez-vous aux sections suivantes :
    * [Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Remarques sur les noms et les libellés des champs](#notes-on-field-names-and-labels)
    * [Ajouter des champs de texte](#add-text-fields)
    * [Ajouter des champs calculés](#add-calculated-fields)
    * [Ajout de boutons radio, de groupes de cases à cocher et de listes déroulantes](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -89,7 +86,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 Vous pouvez utiliser des champs nouveaux ou existants lors de la conception de votre formulaire personnalisé.
 
-## Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé
+### Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé
 
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
@@ -107,7 +104,40 @@ Vous pouvez utiliser des champs nouveaux ou existants lors de la conception de v
 
    ou
 
-   Cliquez sur **Enregistrer et fermer**.
+   Cliquez sur **Enregistrer et Fermer**.
+
+### Remarques sur les noms et les libellés des champs {#notes-on-field-names-and-labels}
+
+Le **libellé** est disponible pour la plupart des champs. Il s’agit d’un libellé descriptif qui s’affiche au-dessus du champ ou du widget sur le formulaire personnalisé. Vous pouvez modifier le libellé à tout moment.
+
+>[!NOTE]
+>
+>Évitez d’utiliser des caractères spéciaux dans ce libellé. Ils ne s’affichent pas correctement dans les rapports.
+
+Un **nom** est requis pour chaque champ. Ce nom est la manière dont le système identifie le champ. Lorsque vous configurez le champ ou le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.
+
+>[!NOTE]
+>
+>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom si vous ou d’autres personnes utilisez le formulaire personnalisé dans Workfront. Dans le cas contraire, le système ne reconnaîtra plus le champ personnalisé lorsqu’il sera référencé dans d’autres zones de Workfront.
+>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous changez ensuite son nom, Workfront ne le reconnaîtra pas dans le rapport et il cessera de fonctionner correctement, à moins que vous ne l’ajoutiez à nouveau au rapport en utilisant le nouveau nom.
+>
+>Nous vous recommandons de ne pas saisir un nom qui est déjà utilisé pour des champs Workfront intégrés.
+>
+>Nous vous recommandons de ne pas utiliser le caractère « point » dans le nom du champ personnalisé, afin d’éviter les erreurs lors de l’utilisation du champ dans différentes zones de Workfront.
+
+Les caractères spéciaux suivants ne sont pas pris en charge dans les libellés et noms de champ personnalisés.
+
+* \t
+* \n
+* \r
+* \f
+* `[`
+* `]`
+* (
+* )
+* :
+* `{`
+* `}`
 
 ### Ajouter des champs de texte
 
@@ -158,13 +188,13 @@ Pour ajouter un champ de texte :
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe de texte</li>
     <li>Texte avec formatage</li>
-    <li>Texte descriptif - Bientôt disponible</li>
+    <li>Texte descriptif</li>
     </ul></td>
     </tr>
     <tr>
     <td>Étiquette</td>
     <td><p>Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.<p>
-    <p>IMPORTANT : évitez d’utiliser des caractères spéciaux dans ce libellé. Ils ne s’affichent pas correctement dans les rapports.</p></td>
+    <p>IMPORTANT : évitez d’utiliser des caractères spéciaux dans ce libellé. Elles ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p></td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe de texte</li>
@@ -174,11 +204,7 @@ Pour ajouter un champ de texte :
     <tr>
      <td>Nom</td>
     <td><p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la liberté de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
-    <p><b>IMPORTANT</b> :   
-      <ul> 
-      <li>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom si vous ou d’autres personnes utilisez le formulaire personnalisé dans Workfront. Dans le cas contraire, le système ne reconnaîtra plus le champ personnalisé lorsqu’il sera référencé dans d’autres zones de Workfront. <p>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous changez ensuite son nom, Workfront ne le reconnaîtra pas dans le rapport et il cessera de fonctionner correctement, à moins que vous ne l’ajoutiez à nouveau au rapport en utilisant le nouveau nom.</p> </li>
-      <li> <p>Nous vous recommandons de ne pas saisir un nom qui est déjà utilisé pour des champs Workfront intégrés.</p> </li>
-      <li><p>Nous vous recommandons de ne pas utiliser le caractère « point » dans le nom du champ personnalisé, afin d’éviter les erreurs lors de l’utilisation du champ dans différentes zones de Workfront.</p></li>
+    <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés de champ</a>.</p>
     </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
@@ -189,7 +215,7 @@ Pour ajouter un champ de texte :
     </tr>
     <tr>
     <td>Instructions</td>
-    <td>Saisissez toute information supplémentaire concernant le widget. Lorsque vous remplissez le formulaire personnalisé, pointez sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.<img src="assets/instructions-form-designer.png">
+    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque vous remplissez le formulaire personnalisé, pointez sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.<img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
