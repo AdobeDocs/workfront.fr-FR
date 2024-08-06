@@ -7,7 +7,7 @@ description: Le jour de début de la semaine sur ma feuille de temps ne correspo
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 7%
@@ -22,7 +22,7 @@ Le jour de début de la semaine sur ma feuille de temps ne correspond pas au jou
 
 ## Solution
 
-Le jour de début de la semaine d’une feuille de temps dans Adobe Workfront utilise la langue et les paramètres régionaux de votre navigateur pour déterminer le jour de la semaine. Pour cette raison, vous devez mettre à jour les paramètres de langue et de paramètres régionaux de votre navigateur. 
+Le jour de début de la semaine d’une feuille de temps dans Adobe Workfront utilise la langue et les paramètres régionaux de votre navigateur pour déterminer le jour de la semaine. Pour cette raison, vous devez mettre à jour les paramètres de langue et de paramètres régionaux de votre navigateur.
 
 Par exemple, avec la langue du navigateur définie sur Anglais et le paramètre régional défini sur Etats-Unis, la semaine commence le dimanche. Sinon, la langue du navigateur est l’anglais et la langue est le Royaume-Uni. Le jour de début est le lundi.
 
@@ -37,4 +37,4 @@ Vous trouverez ci-dessous les instructions relatives à la modification de la la
 * **IE 11 :** Outils -> Options Internet -> Général -> Langues
 * **Safari :** Malheureusement, Safari ne permet pas de modifier les langues de navigation web sans modifier la langue de votre système d’exploitation. Il est probablement plus facile d’installer un autre navigateur comme Chrome ou Firefox.
 
- 
+

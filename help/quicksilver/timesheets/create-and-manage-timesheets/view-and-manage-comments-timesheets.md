@@ -6,10 +6,10 @@ description: Vous pouvez faire des commentaires sur les feuilles de temps, sur l
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 100%
+source-wordcount: '848'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ Vous pouvez faire des commentaires sur les éléments suivants dans la feuille d
 * Sur un élément individuel, comme une tâche ou un problème
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -42,7 +44,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Configuration du niveau d’accès</td> 
-   <td> <p>Accès en affichage ou autorisations supérieures pour les tâches et problèmes</p> </td> 
+   <td> <p>Affichage ou accès supérieur aux tâches et aux problèmes</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -53,6 +55,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Afficher les saisies d’heures sur une feuille de temps {#view-hour-entry-comments-on-a-timesheet}
 
 Vous pouvez configurer les commentaires effectués sur les saisies d’heures individuelles à afficher dans la feuille de temps. L’option d’affichage et de masquage des commentaires n’a aucune incidence sur les commentaires effectués sur la feuille de temps globale ou sur les commentaires effectués sur des éléments individuels. Pour plus d’informations, voir [Ajouter des commentaires à une feuille de temps](#make-comments-on-a-timesheet).
@@ -61,9 +65,10 @@ Par défaut, les commentaires sont masqués la première fois que vous accédez 
 
 Pour afficher les commentaires sur une feuille de temps :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Cliquez sur **Feuilles de temps**.
+La zone **Fiches horaires** s’ouvre.
+
 1. Ouvrez la feuille de temps dans laquelle afficher les commentaires.
 1. Cliquez sur **Afficher les commentaires** dans le coin supérieur droit de la feuille de temps.
 Les commentaires s’affichent sous l’élément pour lequel la saisies d’heures et le commentaire ont été consignés.

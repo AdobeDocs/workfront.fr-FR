@@ -4,7 +4,7 @@ description: Une façon d’indiquer comment les types d’enregistrements indiv
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 36%
@@ -13,9 +13,11 @@ ht-degree: 36%
 
 
 <!--update metadata at GA-->
-<!--add to TOC and mini TOC when live-->
+<!--add mini TOC when live, already added to big TOC to get the link-->
 
 # Connexion aux types d’enregistrement - Aperçu
+
+<!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 
 Vous pouvez indiquer que les types d’enregistrement individuels sont liés les uns aux autres ou aux objets d’autres applications en les connectant.
 

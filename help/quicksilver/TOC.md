@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 68aa3f1fb0d754bb913dbf8ea4e1e64660fd0cda
+source-git-commit: fa6028c04930e2daae7d139ec3863d694484a788
 workflow-type: tm+mt
-source-wordcount: '14290'
+source-wordcount: '14294'
 ht-degree: 94%
 
 ---
@@ -2047,6 +2047,7 @@ ht-degree: 94%
       * [Créer des espaces de travail](planning/architecture/create-workspaces.md)
       * [Types d’enregistrement - Aperçu](planning/architecture/overview-of-record-types.md)
       * [Créer des types d’enregistrements](planning/architecture/create-record-types.md)
+      * [Connexion aux types d’enregistrement - Aperçu](planning/architecture/connect-record-types-overview.md)
       * [Connecter des types d’enregistrements](planning/architecture/connect-record-types.md)
       * [Modifier des types d’enregistrements](planning/architecture/edit-record-types.md)
       * [Supprimer des espaces de travail](planning/architecture/delete-workspaces.md)

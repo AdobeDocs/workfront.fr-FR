@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 52%
+source-wordcount: '846'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 52%
 
 {{planning-important-intro}}
 
-Vous pouvez partager ou supprimer des autorisations sur un espace de travail ou une vue dans Adobe Workfront Planning.
+Vous pouvez partager ou supprimer des autorisations sur un espace de travail ou une vue Adobe Workfront Planning.
 
 Cet article décrit les niveaux d’autorisation pour les objets Workfront Planning.
 
@@ -38,11 +38,16 @@ Vous pouvez partager les objets suivants :
 * Espaces de travail
 
    * Vous pouvez partager des espaces de travail avec des personnes de votre entreprise.
-   * Lorsque vous partagez un espace de travail, tous les types d’enregistrements, les enregistrements et les champs associés aux espaces de travail sont également partagés. Les vues ne sont pas partagées.
+   * Lorsque vous partagez un espace de travail, tous les types d’enregistrement, enregistrements et champs associés aux espaces de travail sont également partagés.
+
+     Lorsque vous partagez un espace de travail, les vues ne sont pas partagées. Les vues sont partagées séparément.
 
 * Vues
 
    * Vous devez accorder aux utilisateurs, y compris aux administrateurs système, des autorisations d’accès aux vues séparément de leurs autorisations d’accès aux espaces de travail.
+   * Lorsque vous partagez une vue, tous les éléments de vue sont partagés, y compris les filtres, le regroupement, le tri ou les paramètres.
+
+     Lorsque vous partagez une vue, les enregistrements visibles dans la vue ne sont pas partagés. Les enregistrements doivent être partagés par les espaces de travail de partage.
    * Vous pouvez partager une vue publiquement avec des personnes en dehors de votre entreprise lorsque vous générez un lien public pour une vue. Les personnes qui accèdent à la page d’enregistrement à partir d’un lien public peuvent afficher tous les enregistrements et leurs champs, y compris les enregistrements et les champs connectés.
 
   Pour plus d’informations, voir [Partage de vues](/help/quicksilver/planning/access/share-views.md).
@@ -124,7 +129,7 @@ Voici les niveaux d’autorisation des enregistrements :
 
 |        | Gérer | Contribuer | Afficher |
 |--------|--------|------------|-------|
-| Créer | ✓ |            |       |
+| Créer | ✓ | ✓ |       |
 | Supprimer | ✓ | ✓ |       |
 | Modifier | ✓ | ✓ |       |
 | Afficher | ✓ | ✓ | ✓ |

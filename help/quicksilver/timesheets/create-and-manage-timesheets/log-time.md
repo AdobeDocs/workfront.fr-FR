@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3775'
-ht-degree: 91%
+source-wordcount: '3856'
+ht-degree: 89%
 
 ---
 
@@ -47,12 +47,9 @@ Pour effectuer les étapes décrites dans cet article et consigner les heures sp
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : 
-   <ul><li>Light ou supérieur pour consigner les heures générales dans une feuille de temps</li>
-   <li>Standard pour consigner les heures liées à un projet, à une tâche ou à un problème</li></ul>
-
-
-<p>Actuel : 
+   <td> <p>Nouveau : </p>
+   <p>Clair ou plus pour consigner les heures sur un projet, une tâche, un problème ou les Heures générales sur une feuille de temps</p>
+   <p>Actuel : 
    <ul><li>Révision ou supérieur pour consigner les heures générales dans une feuille de temps</li>
    <li>Travail ou supérieur pour consigner les heures liées à un projet, à une tâche ou à un problème</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ Pour plus d’informations, consultez [Adobe Workfront pour Android](/help/quic
 
 ## Modification des heures de connexion dans les listes et les rapports
 
+>[!CAUTION]
+>
+>* Vous ne pouvez pas modifier les entrées d’heure appartenant à une feuille de temps fermée. Vous devez d’abord rouvrir la feuille de temps, puis modifier les informations de saisie de l’heure.
+>* Lorsque vous modifiez le type d’heure d’un type qui ne compte pas comme recettes à un autre type qui compte comme recettes, des modifications sont également apportées aux finances du projet. La modification des types Heure d’un type qui comptabilise comme recettes à un type qui ne compte pas comme recettes met également à jour les finances du projet.
+>
+>Pour plus d’informations, voir [Gestion des types d’heures](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+>
 Vous pouvez modifier les heures enregistrées dans les zones suivantes :
 
 * Toutes les zones où vous avez ajouté des heures, y compris les feuilles de temps ouvertes

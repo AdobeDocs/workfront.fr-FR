@@ -6,18 +6,22 @@ description: L’envoi de votre feuille de temps pour approbation offre une visi
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 19%
+source-wordcount: '860'
+ht-degree: 14%
 
 ---
 
 # Soumettre une feuille de temps pour approbation
 
+<!--Audited: 8/2024-->
+
 L’envoi de votre feuille de temps pour approbation offre une visibilité sur vos heures de travail à votre responsable. Les approbateurs peuvent vérifier que tout le temps enregistré a été alloué dans les zones appropriées et qu’un nombre suffisant d’heures a été enregistré pour la période.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -26,25 +30,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Révision ou supérieur</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouveau : Léger ou supérieur </p>
+   <p>Actuel : révision ou supérieur </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en affichage ou autorisations supérieures pour les tâches et problèmes</p> <p>Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Affichage ou accès supérieur aux tâches et aux problèmes </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage ou autorisations supérieures pour les tâches et les problèmes</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Affichage ou autorisations supérieures de la feuille de temps</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Soumettre une feuille de temps pour approbation
 
@@ -53,22 +60,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ### Soumettre une feuille de temps pour approbation
 
-Une fois qu’un approbateur de feuille de temps est défini (comme décrit dans la section [Désigner les approbateurs de feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) de l’article [Approuver une feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), le bouton **Fermer** au bas de la feuille de temps se transforme en bouton **Soumettre pour approbation**.
+Une fois qu’un approbateur de feuille de temps est défini (comme décrit dans la section [Désigner les approbateurs de feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) de l’article [Approuver une feuille de temps](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), le bouton **Fermer** au bas de la feuille de temps se transforme en bouton **Soumettre à approbation**.
 
 Pour soumettre une feuille de temps à validation :
 
 1. Accédez à une feuille de temps qui a été configurée pour avoir un approbateur.
 1. Temps du journal, comme décrit dans [Temps du journal](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Cliquez sur **Soumettre pour approbation** pour lancer le processus d’approbation de la feuille de temps.
+1. Cliquez sur **Soumettre à approbation** pour lancer le processus d’approbation de la feuille de temps.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   Le bouton **Submit for Approval** (Envoyer pour approbation) est remplacé par les boutons **Approve**, **Reject** et **Recall**. L’état de la feuille de temps passe à **Submitted**.
+   Le bouton **Soumettre pour approbation** est remplacé par les boutons **Approuver**, **Rejeter** et **Rappeler**. L’état de la feuille de temps passe à **Submitted**.
 
    Lorsque votre feuille de temps est soumise à approbation, l’approbateur voit la feuille de temps répertoriée dans la zone **Approbations** de la page **Accueil**. Les événements suivants peuvent se produire :
 
    * S’ils l’approuvent, le bouton **Rappeler** se transforme en **Rouvrir** et l’état de la feuille de temps est mis à jour en **Ouvrir**.
-   * S’ils le rejettent, le bouton **Submit for Approval** (Envoyer pour approbation) remplace le bouton **Rappeler** et l’état de la feuille de temps est mis à jour vers **Rejected** (Refusé).
+   * S’ils le rejettent, le bouton **Soumettre pour approbation** remplace le bouton **Rappeler** et l’état de la feuille de temps est mis à jour vers **Refusé**.
 
 1. (Facultatif) Cliquez sur **Rappeler** si vous devez rouvrir la feuille de temps et mettre à jour votre heure. Pour plus d’informations, reportez-vous à la section [Rappeler une feuille de temps](#recall-a-timesheet) de cet article.
 
@@ -120,7 +127,7 @@ Pour afficher l’état d’une feuille de temps :
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Ouvertes</td> 
+      <td role="rowheader">Ouvrir</td> 
       <td> <p>Votre feuille de temps est actuellement ouverte et vous pouvez consigner l’heure. </p> <p>Une feuille de temps rappelée s’affiche avec l’état Ouvrir. Pour plus d’informations, reportez-vous à la section <a href="#recall-a-timesheet" class="MCXref xref">Rappeler une feuille de temps</a> de cet article. </p> </td> 
      </tr> 
      <tr> 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 39%
+source-wordcount: '1117'
+ht-degree: 35%
 
 ---
 
@@ -20,10 +20,14 @@ ht-degree: 39%
 
 Vous pouvez partager une vue avec d’autres personnes pour travailler en collaboration lors de l’utilisation d’enregistrements dans Adobe Workfront Planning.
 
-L’octroi d’autorisations à un espace de travail ne donne pas à d’autres personnes les autorisations d’accès aux vues sur les pages de type enregistrement. Vous devez accorder des autorisations pour des vues individuelles dans une page de type d’enregistrement afin de les partager avec d’autres personnes.
+>[!IMPORTANT]
+>
+>* L’octroi d’autorisations à un espace de travail ne donne pas à d’autres personnes les autorisations d’accès aux vues sur les pages de type enregistrement. Vous devez accorder des autorisations pour des vues individuelles dans une page de type d’enregistrement afin de les partager avec d’autres personnes.
 
-
-Lorsque vous partagez une vue, vous autorisez d’autres personnes à accéder à tous les éléments de la vue. Par exemple, lorsque vous leur accordez les autorisations Gérer pour une vue, ils peuvent modifier l’aspect du regroupement, du filtre, du tri ou de la barre.
+>
+>* L’octroi d’autorisations à une vue ne modifie pas les autorisations d’affichage des enregistrements. Les autorisations d’enregistrement sont accordées par le partage des espaces de travail.
+>
+>* Lorsque vous partagez une vue, vous autorisez d’autres personnes à accéder à tous les éléments de la vue. Par exemple, lorsque vous leur accordez les autorisations Gérer pour une vue, ils peuvent modifier l’aspect du regroupement, du filtre, du tri ou de la barre.
 
 
 Vous pouvez partager une vue avec les entités suivantes :
@@ -79,6 +83,7 @@ Vous pouvez partager une vue avec les entités suivantes :
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
    <td> <p>Autorisations de gestion d’une vue</p>  
+   <p>Seuls les utilisateurs disposant des autorisations Manage (Gérer) pour un espace de travail peuvent partager une vue publiquement.</p>
 </td>
   </tr>
 
@@ -102,9 +107,9 @@ Vous pouvez partager une vue avec les entités suivantes :
 
 * Vous pouvez partager des vues avec des personnes en dehors de votre entreprise à l’aide d’un lien public.
 
-* Lorsque vous partagez une vue publiquement, le lien est accessible à toute personne en dehors de votre société pendant une période limitée, indiquée par la date d’expiration. Aucune connexion n’est requise pour afficher la vue de table partagée.
+* Lorsque vous partagez une vue publiquement, le lien est accessible à toute personne en dehors de votre société pendant une période limitée, indiquée par la date d’expiration. Aucune connexion n’est requise pour afficher la vue partagée.
 
-* Les personnes en dehors de votre organisation qui ont accès à une vue ne peuvent pas créer d’autres vues, modifier la vue partagée, ajouter, supprimer ou modifier des informations d’enregistrement dans le tableau.
+* Les personnes en dehors de votre organisation qui ont accès à une vue ne peuvent pas créer d’autres vues, modifier la vue partagée, ajouter, supprimer ou modifier des informations d’enregistrement dans la vue.
 
 ## Partage des autorisations sur une vue en interne
 
@@ -146,16 +151,25 @@ Vous pouvez partager des vues que vous avez créées ou des vues auxquelles vous
      Les administrateurs système reçoivent toujours les autorisations Gérer pour les vues partagées avec eux.
 
 1. Cliquez sur **Copier le lien** pour copier un lien vers la vue dans le presse-papiers.
-1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à la page du type d’enregistrement et l’afficher dans la vue sélectionnée.
 1. Cliquer sur **Enregistrer**.
 
-   >[!TIP]
-   >
-   >   Les vues partagées avec vous comportent un indicateur de personnes ![](assets/view-shared-with-others-people-icon.png) en regard de l’icône d’affichage. Les vues sans l’indicateur Personnes sont les vues que vous avez créées.
+   La vue se met à jour avec une icône de personnes ![](assets/view-shared-with-others-people-icon.png) pour indiquer que la vue est désormais partagée avec d’autres utilisateurs.
+
+   >>
+   [!TIP]
+   >>
+   Les vues sans personne ou icône globale sont des vues que vous avez créées et que vous ne partagez pas avec d’autres personnes. Les vues non partagées ne sont visibles que par vous.
+
+1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à la page du type d’enregistrement et l’afficher dans la vue sélectionnée.
 
 ## Partage des autorisations sur une vue publique
 
 Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles vous disposez des autorisations de gestion avec des personnes qui ne disposent pas d’une licence Workfront et qui peuvent être externes à votre entreprise.
+
+>[!IMPORTANT]
+>
+Seuls les utilisateurs disposant des autorisations Gérer pour un espace de travail peuvent partager publiquement les vues de l’espace de travail.
+
 
 Pour partager une vue publiquement dans Workfront Planning :
 
@@ -183,9 +197,13 @@ Pour partager une vue publiquement dans Workfront Planning :
 
 1. Cliquer sur **Enregistrer**.
 
-   L’icône d’affichage se met à jour pour indiquer que la vue est partagée publiquement.
+   La vue se met à jour avec une icône globale ![](assets/public-shared-view-icon-highlighted.png) pour indiquer que la vue est partagée publiquement.
 
-   ![](assets/public-shared-view-icon-highlighted.png)
+   >>
+   [!TIP]
+   >
+   >Les vues sans personne ou icône globale sont des vues que vous avez créées et que vous ne partagez pas avec d’autres personnes. Les vues non partagées ne sont visibles que par vous.
+
 
 1. (Facultatif) Collez le lien que vous avez copié dans un email, un message de conversation, un document ou dans un commentaire Workfront pour le partager avec d’autres personnes.
 
