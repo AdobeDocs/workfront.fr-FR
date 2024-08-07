@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 77f67ca4b0a4d29fb1f97d7e3e05abaf38aa4ab3
+source-git-commit: f77416c9560a21f8607b46a8e4fd2a00b4b3b328
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '229'
 ht-degree: 96%
 
 ---
@@ -43,7 +43,7 @@ Cette section contient les articles suivants :
 * [[!DNL Adobe Creative Cloud Libraries] modules](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
 * [Modules [!DNL Adobe Experience Manager Assets]](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [Adobe I/O des modules d’événements](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
-<!--* [[!DNL Adobe Journey Optimizer] modules](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md) -->
+* [Modules [!DNL Adobe Journey Optimizer]](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Modules Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
 * [Modules Adobe Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
