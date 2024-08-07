@@ -6,10 +6,10 @@ description: Le processus d’approbation des feuilles de temps permet aux gesti
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 8%
+source-wordcount: '540'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +42,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
    <td> <p>Nouvelle : standard</p>
-   <p>Actuelle : formule </p> </td> 
+   <p>Actuelle : formule </p> 
+   <tr> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Accès administratif aux feuilles de calcul et aux heures </p> </td> 
+  </tr>
+
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Désignation des approbateurs de feuille de temps
 
-En règle générale, les feuilles de temps sont approuvées par les gestionnaires fonctionnels ou par le personnel des ressources humaines. (Les feuilles de temps ne sont pas normalement approuvées par les chefs de projet.)
+En règle générale, les feuilles de temps sont approuvées par les gestionnaires fonctionnels ou par le personnel des ressources humaines. Les feuilles de temps ne sont généralement pas approuvées par les chefs de projet. Les chefs de projet peuvent approuver le temps de connexion aux projets, mais les chefs d’équipe ou de ressources humaines doivent approuver les feuilles de temps.
 
 Un approbateur de feuille de temps est défini lors de la création du profil de feuille de temps. Vous devez disposer d’une licence Plan pour être désigné comme approbateur.
 

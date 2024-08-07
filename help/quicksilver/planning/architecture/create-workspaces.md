@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 64%
+source-wordcount: '723'
+ht-degree: 56%
 
 ---
 
@@ -98,6 +98,15 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 ## Considérations relatives aux espaces de travail
 
 * Vous pouvez créer des espaces de travail pour des entités organisationnelles spécifiques au sein de votre entreprise, afin de correspondre au fonctionnement unique de chaque entité.
+* Selon votre licence Workfront, les espaces de travail s’affichent dans les onglets suivants de la zone Planification :
+
+   * Pour les administrateurs système, les espaces de travail s’affichent dans les onglets suivants :
+
+      * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+      * **Autres espaces de travail** : affiche tous les autres espaces de travail du système, y compris ceux partagés avec vous. &lt;!—Remplacer par : autres espaces de travail : affiche tous les autres espaces de travail du système. >
+
+   * Pour tous les autres utilisateurs, les espaces de travail qu’ils ont créés et les espaces de travail que d’autres utilisateurs ont partagés avec eux s’affichent dans la zone Espaces de travail .
+
 * Les types d’enregistrements contenus dans un espace de travail doivent correspondre au cycle de vie du travail d’une entité organisationnelle.
 * Lorsque vous créez un espace de travail, vous seul êtes autorisé à y accéder et à le gérer. Vous devez le partager avec d’autres utilisateurs et utilisatrices afin qu’ils ou elles puissent collaborer avec vous dans le même espace. Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md). Les administrateurs et administratrices système peuvent gérer tous les espaces de travail, même ceux qu’ils ou elles n’ont pas créés.
 * Vous pouvez disposer des éléments suivants :
@@ -144,6 +153,7 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
    * Espace de travail vide **Workspace sans titre** où vous pouvez commencer à ajouter manuellement des types d’enregistrement lorsque vous créez un espace de travail à partir de zéro.
    * Espace de travail nommé d’après le modèle que vous avez sélectionné et rempli avec des exemples de types d’enregistrement. Vous pouvez personnaliser davantage les types d’enregistrement et l’espace de travail.
 
+   Pour les administrateurs Workfront, le nouvel espace de travail s’affiche sur l’onglet **Mes espaces de travail** . <!--replace this with: Workspaces I'm on tab-->
 1. Cliquez à l’intérieur du nom de l’espace de travail dans l’en-tête du nouvel espace de travail pour le renommer, puis appuyez sur Entrée.
 
 1. (Facultatif et le cas échéant) Si vous avez créé l’espace de travail à partir d’un modèle, cliquez dans le nom des sections **Types d’enregistrements opérationnels** ou **Taxonomies**.
