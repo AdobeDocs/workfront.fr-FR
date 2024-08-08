@@ -1,25 +1,25 @@
 ---
-title: Exemples de champs de recherche externe dans un formulaire personnalisé
+title: Exemples de champ de recherche externe dans un formulaire personnalisé
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Un champ Recherche externe dans un formulaire personnalisé appelle une API externe et renvoie des valeurs sous forme d’options dans un champ déroulant. Cet article fournit des exemples d’utilisation du champ Recherche externe pour appeler la même instance de Workfront ou une API publique.
+description: Un champ de recherche externe dans un formulaire personnalisé appelle une API externe et renvoie les valeurs sous forme d’options dans un champ déroulant. Cet article fournit des exemples d’utilisation du champ de recherche externe pour appeler la même instance de Workfront ou une API publique.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 11%
+source-wordcount: '1237'
+ht-degree: 8%
 
 ---
 
 # Exemples de champs de recherche externe dans un formulaire personnalisé
 
-Un champ Recherche externe dans un formulaire personnalisé appelle une API externe et renvoie des valeurs sous forme d’options dans un champ déroulant. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante.
+Un champ de recherche externe dans un formulaire personnalisé appelle une API externe et renvoie les valeurs sous forme d’options dans un champ déroulant. Les utilisateurs qui utilisent l’objet auquel le formulaire personnalisé est joint peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante.
 
-Cet article fournit des exemples d’utilisation du champ Recherche externe pour appeler la même instance de Workfront ou une API publique. Vous pouvez également utiliser la recherche externe pour communiquer avec un système externe tel que Jira, Salesforce ou ServiceNow.
+Cet article fournit des exemples d’utilisation du champ de recherche externe pour appeler la même instance de Workfront ou une API publique. Vous pouvez également utiliser la recherche externe pour communiquer avec un système externe tel que Jira, Salesforce ou ServiceNow.
 
 Pour plus d’informations sur l’ajout d’un champ de recherche externe à un formulaire personnalisé et des définitions supplémentaires des composants de recherche externe, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -29,7 +29,7 @@ Vous pouvez utiliser la recherche externe pour importer les données de votre in
 
 ### Utilisation de valeurs de champ Workfront natives dans la recherche externe
 
-Cet exemple montre comment appeler l’API Workfront et importer les données du champ existant &quot;Requête d’état&quot; dans votre champ Recherche externe .
+Cet exemple montre comment appeler l’API Workfront et importer les données du champ existant &quot;Requête d’état&quot; dans votre champ de recherche externe.
 
 1. Ouvrez le formulaire personnalisé.
 1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites-le glisser vers une section de la zone de travail.
@@ -74,7 +74,7 @@ Cet exemple montre comment appeler l’API Workfront et importer les données du
 
 ### Utilisation de valeurs de champ personnalisées dans la recherche externe
 
-Cet exemple vous montre comment appeler l’API Workfront et importer les données d’un champ personnalisé dans votre champ Recherche externe . L’exemple de champ personnalisé est appelé &quot;Couleurs personnalisées&quot;.
+Cet exemple vous montre comment appeler l’API Workfront et importer les données d’un champ personnalisé dans votre champ de recherche externe. L’exemple de champ personnalisé est appelé &quot;Couleurs personnalisées&quot;.
 
 1. Ouvrez le formulaire personnalisé.
 1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites-le glisser vers une section de la zone de travail.
@@ -107,7 +107,7 @@ Cet exemple vous montre comment appeler l’API Workfront et importer les donné
 
 1. Cliquez sur **Appliquer**.
 
-   Lorsque le formulaire personnalisé est ajouté à un objet Workfront, toutes les valeurs du champ &quot;Couleurs de la boîte de dialogue&quot; apparaissent dans la liste déroulante du champ Recherche externe .
+   Lorsque le formulaire personnalisé est ajouté à un objet Workfront, toutes les valeurs du champ &quot;Couleurs de la boîte de dialogue&quot; apparaissent dans la liste déroulante du champ de recherche externe.
 
 ## Configuration d’un champ de recherche externe pour une API publique
 
@@ -131,7 +131,7 @@ Liste de tous les pays : <https://api.first.org/data/v1/countries>
    Permet à l’utilisateur de rechercher un pays dans une région : <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
 
    * Les régions disponibles sont définies dans un champ personnalisé distinct dans Workfront.
-   * Lorsque l’utilisateur sélectionne une région sur le formulaire, le champ Recherche externe affiche uniquement les pays de cette région (le pays dans lequel la région est définie dans l’API). L’utilisateur peut également rechercher un pays dans la région sélectionnée.
+   * Lorsque l’utilisateur sélectionne une région sur le formulaire, le champ de recherche externe affiche uniquement les pays de cette région (le pays dans lequel la région est définie dans l’API). L’utilisateur peut également rechercher un pays dans la région sélectionnée.
 
 1. Examinez les **dépendances** pour connaître les champs référencés par ce champ de recherche dans l’API.
 
@@ -167,3 +167,23 @@ Liste de tous les pays : <https://api.first.org/data/v1/countries>
    ![Formulaire personnalisé avec champ de recherche externe](assets/external-lookup-countries-example1.png)
 
    ![Options de recherche externe pour un pays en fonction de la région](assets/external-lookup-countries-example2.png)
+
+## Cas d’utilisation supplémentaires pour les champs de recherche externes
+
+Il existe de nombreux autres cas d’utilisation pour la création d’une recherche externe.
+
+**Cas d’utilisation :** Remplacez les champs de type caractère , car ils peuvent entraîner des problèmes dans la création de rapports.
+**Solution :** Utilisez un appel API pour accéder aux objets existants dans le système.
+
+Exemple d’URL d’API de base pour les modèles, pour remplacer un champ de type :
+`$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
+
+**Cas d’utilisation :** Créez des champs de liste déroulante avec plus de fonctionnalités (par exemple, il y a un retour automatique à la ligne dans le champ de recherche externe).
+**Solution :** Utilisez un appel API pour les objets existants dans le système, ou créez un objet et utilisez un appel API pour cet objet.
+
+**Cas d’utilisation :** définissez un moyen pour que les utilisateurs conservent leurs propres champs en dehors de la zone de formulaires personnalisée. Configurez le champ Recherche externe et vous pouvez donner aux utilisateurs les objets qui composent le champ. Cette option est adaptée aux équipes et aux champs de maintenance élevés.
+**Solution :** Créez un objet et utilisez un appel API vers cet objet.
+
+**Cas pratique :** intégration à des objets en dehors de Workfront. Par exemple, l’accès à un autre système pour obtenir le nom de chaque utilisateur, plutôt que d’être limité dans un champ de saisie anticipée.
+**Solution :** Automatisation webhook/Fusion pour se connecter à d’autres systèmes.
+

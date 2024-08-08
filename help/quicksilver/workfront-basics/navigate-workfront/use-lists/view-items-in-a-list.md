@@ -5,18 +5,14 @@ description: Vous pouvez afficher des listes d’objets dans  [!DNL Adobe Workfr
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2388'
 ht-degree: 4%
 
 ---
 
 # Prise en main des listes dans [!DNL Adobe Workfront]
-
-<!--
-{{highlighted-preview}}
--->
 
 Vous pouvez afficher des listes d’objets dans [!DNL Adobe Workfront] pour obtenir des informations à leur sujet, telles que leurs dates de début et d’échéance, les utilisateurs qui leur sont affectés et d’autres objets qui leur sont associés.
 
@@ -208,12 +204,10 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
     </ul> </td> 
   </tr>
   <tr> 
-   <td class="preview">Liste des formulaires personnalisés</td> 
+   <td>Liste des formulaires personnalisés</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>[!UICONTROL Configuration] &gt;[!UICONTROL Forms personnalisée]</p>
-     <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>REMARQUE</b> : pour le moment, cette option n’est disponible que dans l’environnement Aperçu.</p> </li> 
+     <li>[!UICONTROL Configuration] &gt;[!UICONTROL Forms personnalisée] </li> 
     </ul> </td> 
   </tr> 
   <tr> 

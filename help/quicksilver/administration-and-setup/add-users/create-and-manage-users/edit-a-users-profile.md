@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '3297'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -238,7 +238,7 @@ L’équipe principale est importante lors de l’attribution d’un modèle de 
      </tr> 
      <tr> 
       <td role="rowheader">Formulaires personnalisés</td> 
-      <td><p>Associez un formulaire personnalisé existant à cette personne. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à un utilisateur ou une utilisatrice. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Les champs que vous n’avez pas le droit de modifier ne s’affichent pas dans un formulaire personnalisé individuel.</p> <p><strong>Note :</strong> les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe et les champs natifs de Workfront ne sont disponibles que lorsque vous ouvrez l’enregistrement de la personne sur la page de détails, et non dans la boîte de dialogue Modifier la personne. (Dans la liste des personnes, cliquez sur un nom pour ouvrir les détails.)</p> <p>Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Concevoir un formulaire avec le concepteur de formulaires</a>.</p></td> 
+      <td><p>Associez un formulaire personnalisé existant à cette personne. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à un utilisateur ou une utilisatrice. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Les champs que vous n’avez pas le droit de modifier ne s’affichent pas dans un formulaire personnalisé individuel.</p> <p><strong>Remarque :</strong> Les fonctionnalités de formulaire personnalisées avancées telles que les champs de recherche externes et les champs natifs de Workfront ne sont disponibles que lorsque vous ouvrez l’enregistrement de l’utilisateur sur la page de détails, et non dans la boîte de dialogue Modifier l’utilisateur. (Dans la liste des personnes, cliquez sur un nom pour ouvrir les détails.)</p> <p>Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Concevoir un formulaire avec le concepteur de formulaires</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Commentaire</td> 

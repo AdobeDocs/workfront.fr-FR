@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b2c5990c1ec1656c44c0621e854adf54b6bc19a3
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '5529'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -551,7 +551,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
 
 Un champ de recherche externe appelle une API externe et renvoie les valeurs sous forme d’options dans un champ déroulant. Les utilisateurs et utilisatrices qui travaillent avec l’objet auquel le formulaire personnalisé est joint peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante. Le champ de recherche externe est également disponible dans les listes et les rapports.
 
-Pour des exemples d’utilisation du champ de recherche externe afin d’appeler la même instance de Workfront ou une API publique, voir [Exemples de champs de recherche externe dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Pour des exemples d’utilisation du champ de recherche externe pour appeler la même instance de Workfront ou une API publique, voir [Exemples du champ de recherche externe dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
