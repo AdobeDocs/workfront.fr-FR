@@ -1,17 +1,17 @@
 ---
-title: Créer des rapports directs
+title: Création de rapports directs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Vous pouvez désigner des utilisateurs comme rapports directs à un autre utilisateur. Vous pouvez ainsi créer un organigramme qui affiche la structure de gestion de votre entreprise.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 50%
+source-wordcount: '261'
+ht-degree: 47%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 50%
 Vous pouvez désigner des utilisateurs comme rapports directs à un autre utilisateur. Vous pouvez ainsi créer un organigramme qui affiche la structure de gestion de votre entreprise. Pour plus d’informations, voir [Affichage de l’organigramme](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -46,6 +48,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  </tbody> 
 </table>
 
++++
+
 ## Créer des rapports directs
 
 1. Commencez à modifier un utilisateur comme décrit dans [Modification du profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
@@ -54,6 +58,5 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    Ce champ ne peut pas être vide.
 
 1. Dans le champ **Rapports directs**, spécifiez les utilisateurs qui signalent l’utilisateur que vous modifiez.
-
 1. (Facultatif) Dans le champ **Rapports à**, indiquez le nom de l’utilisateur auquel cet utilisateur se rapporte.
 1. Cliquez sur **Enregistrer les modifications**.

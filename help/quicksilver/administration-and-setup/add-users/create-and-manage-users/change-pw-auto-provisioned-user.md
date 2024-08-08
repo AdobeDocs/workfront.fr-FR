@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Modifier le mot de passe d’un utilisateur ou d’une utilisatrice ayant un profil auto-alloué
-description: Souvent, lorsqu’un nouvel utilisateur tente de modifier son mot de passe temporaire, il saisit son adresse électronique et reçoit une erreur pour un nom d’utilisateur incorrect. Ils doivent saisir leur nom d’utilisateur attribué par le système, qui est leur identifiant global unique (GUID). Comme un GUID est difficile à mémoriser et à utiliser, nous vous recommandons de remplacer le nom d’utilisateur d’un nouvel utilisateur par son adresse électronique Workfront, puis de lui permettre de modifier son mot de passe.
-author: Caroline
+title: Modification du mot de passe d’un utilisateur muni d’un profil d’approvisionnement automatique
+description: Nous vous recommandons de remplacer le nom d’utilisateur d’un nouvel utilisateur par son adresse électronique Workfront, puis de lui permettre de modifier son mot de passe.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '487'
 ht-degree: 20%
 
 ---
@@ -41,6 +41,8 @@ Comme les noms d’utilisateur du GUID peuvent être difficiles à utiliser, nou
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Modifier le mot de passe d’un utilisateur ou d’une utilisatrice ayant un profil auto-alloué
 

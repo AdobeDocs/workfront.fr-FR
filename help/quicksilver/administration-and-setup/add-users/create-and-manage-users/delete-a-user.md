@@ -1,5 +1,5 @@
 ---
-title: Supprimer des utilisateurs et utilisatrices
+title: Supprimer utilisateurs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 17%
+source-wordcount: '807'
+ht-degree: 15%
 
 ---
 
@@ -34,6 +34,8 @@ Lorsqu’un utilisateur quitte votre entreprise, vous pouvez le supprimer d’Ad
 -->
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -59,6 +61,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Suppression ou désactivation d’un utilisateur
 
@@ -118,9 +122,8 @@ Vous pouvez supprimer définitivement des utilisateurs un par un ou supprimer pl
 
 ## Suppression d’un ou plusieurs utilisateurs
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step-1-to-users}}
 
-1. Cliquez sur **Users**.
 1. Sélectionnez au moins un utilisateur à supprimer, cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Supprimer**.
 1. Dans la zone qui s’affiche, cliquez sur **Supprimer** pour confirmer la suppression.
 

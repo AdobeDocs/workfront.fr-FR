@@ -1,17 +1,17 @@
 ---
-title: Importer des utilisateurs et utilisatrices
+title: Importer des utilisateurs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Vous pouvez importer des utilisateurs sur le site Adobe Workfront en synchronisant les utilisateurs à partir d’un service d’annuaire réseau (Active Directory ou un autre annuaire LDAP, par exemple) ou importer des utilisateurs à l’aide d’un fichier d’importation de feuille de calcul.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 27%
+source-wordcount: '490'
+ht-degree: 24%
 
 ---
 
@@ -34,6 +34,8 @@ Vous pouvez importer des utilisateurs à l’aide d’un fichier d’importation
 Avant de créer un utilisateur, assurez-vous d’abord d’avoir créé tous les objets que vous souhaitez associer à l’utilisateur. Par exemple, si vous n’avez pas créé de planning, vous ne pouvez pas en attribuer un au nouvel utilisateur, et le champ que vous utilisez pour associer un planning au nouvel utilisateur n’apparaît pas dans l’écran Nouvel utilisateur.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -60,9 +62,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  </tbody> 
 </table>
 
++++
+
 ## Utiliser un fichier d’importation de feuille de calcul pour importer des utilisateurs
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs et utilisatrices** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Cliquez sur la flèche de liste déroulante **Nouvel utilisateur**, puis sur **Importer des utilisateurs**.
 

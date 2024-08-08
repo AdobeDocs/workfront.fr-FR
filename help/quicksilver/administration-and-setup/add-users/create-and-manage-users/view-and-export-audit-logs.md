@@ -1,17 +1,17 @@
 ---
-title: Afficher et exporter les journaux d’audit
+title: Affichage et exportation des journaux d’audit
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Vous pouvez afficher tous les journaux d’audit du système ou ceux qui répondent à certains critères de filtrage. Vous pouvez également exporter les journaux d’audit. Les journaux d’audit répertorient les modifications utilisateur déclenchées dans le système au cours des 90 derniers jours.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 21%
+source-wordcount: '306'
+ht-degree: 11%
 
 ---
 
@@ -28,6 +28,8 @@ Les journaux d’audit répertorient les modifications utilisateur déclenchées
 Pour plus d’informations sur tous les types de journaux d’audit et sur leur génération, voir [Journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -46,9 +48,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  </tbody> 
 </table>
 
++++
+
 ## Afficher les journaux d’audit
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Système > Journaux d’audit**.
 1. Dans le menu déroulant **Type de journal**, sélectionnez le type de journal d’audit à afficher.
@@ -70,7 +74,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 ## Exportation des journaux d’audit
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Système > Journaux d’audit**.
 

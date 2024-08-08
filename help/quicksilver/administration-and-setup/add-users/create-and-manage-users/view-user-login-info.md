@@ -1,17 +1,17 @@
 ---
-title: Afficher les informations de connexion de l’utilisateur ou de l’utilisatrice
+title: Affichage des informations de connexion de l’utilisateur
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Vous pouvez déterminer la fréquence à laquelle les utilisateurs se connectent à Workfront, ainsi que la dernière fois où ils se sont connectés, en indiquant que vous souhaitez inclure ces informations dans la vue d’une liste d’utilisateurs ou dans un rapport destiné aux utilisateurs.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 22%
+source-wordcount: '582'
+ht-degree: 21%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 22%
 Vous pouvez déterminer la fréquence à laquelle les utilisateurs se connectent à Adobe Workfront, ainsi que la dernière fois qu’ils se sont connectés, en indiquant que vous souhaitez inclure ces informations dans la vue d’une liste d’utilisateurs ou dans un rapport destiné aux utilisateurs.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Comment Workfront enregistre les informations de connexion
 

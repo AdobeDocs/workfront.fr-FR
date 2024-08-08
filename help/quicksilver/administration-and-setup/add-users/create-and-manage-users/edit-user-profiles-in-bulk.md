@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Modifier en masse des profils d’utilisateurs et d’utilisatrices
+title: Modification des profils utilisateur en bloc
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez modifier les comptes des utilisateurs et des utilisatrices en masse.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '2246'
-ht-degree: 98%
+source-wordcount: '2242'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,8 @@ Vous pouvez modifier les comptes des utilisateurs et utilisatrices en masse. Lor
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -63,9 +65,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  </tbody> 
 </table>
 
++++
+
 ## Modifier des comptes d’utilisateurs et d’utilisatrices en masse
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs et utilisatrices** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Sélectionnez plusieurs personnes, puis cliquez sur l’icône Modifier ![](assets/edit-icon.png).
 
