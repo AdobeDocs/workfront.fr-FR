@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 60%
+source-wordcount: '835'
+ht-degree: 57%
 
 ---
 
@@ -35,6 +35,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
 ## Améliorations Adobe Workfront
 
 * [Améliorations des projets](#project-enhancements)
+* [Améliorations de l’intégration](#integration-enhancements)
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations des projets
@@ -95,6 +96,42 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                 </tr>
            </tbody>
         </table>
+
+### Améliorations de l’intégration
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de version</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations de l’expérience de connexion à l’intégration Outlook</a></p>
+                        <p>L’expérience de connexion à l’intégration d’Outlook a été rationalisée afin que tous les clients voient le même bouton pour se connecter à Workfront qu’ils soient activés ou non sur IMS. Les étapes de connexion suivantes restent différentes pour les instances IMS et non IMS, mais la page initiale est la même pour tous les utilisateurs.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : mercredi 6 août 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production pour toute la clientèle : mercredi 6 août 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 
 ### Autres améliorations
 
