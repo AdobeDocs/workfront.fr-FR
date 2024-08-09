@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Configurer la liste autorisée de votre pare-feu
+title: Configuration de la Liste autorisée de votre pare-feu
 description: Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée. Cela ouvre la communication entre votre environnement et les serveurs Adobe Workfront et permet à vos utilisateurs et utilisatrices d’envoyer des messages depuis Workfront et d’utiliser la SSO avec Active Directory ou LDAP.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 97%
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,8 @@ Les adresses IP que vous devez ajouter à votre liste autorisée sur votre pare
 
 Pour localiser le cluster de votre entreprise :
 
-1. En tant qu’administrateur ou administratrice Workfront, cliquez sur l’icône **Menu principal** ![Menu principal](assets/main-menu-icon.png), puis sur **Configuration**.
+{{step-1-to-setup}}
+
 1. Dans la navigation de gauche, cliquez sur **Système**, puis sélectionnez **Infos client**.
 1. Recherchez le champ **Configuration du cluster** dans le coin supérieur droit de la page. Le cluster de votre entreprise est répertorié ici.
 

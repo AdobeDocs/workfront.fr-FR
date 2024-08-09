@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
-title: Configurer les emplacements
+title: Configuration des emplacements
 description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer les emplacements par défaut disponibles à affecter aux rôles de tâche dans les cartes de taux.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 30%
+source-wordcount: '232'
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 30%
 Les cartes de taux permettent à votre entreprise de gérer facilement les taux de facturation des projets. Pour plus d’informations, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). En tant qu&#39;administrateur [!DNL Adobe] [!DNL Workfront], vous pouvez configurer les emplacements par défaut disponibles à affecter aux rôles de tâche dans les cartes de taux. Cela permet de s’assurer que les cartes de taux reflètent exactement les taux du marché dans chaque emplacement.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -44,6 +46,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configurer des emplacements pour l’ensemble de l’organisation
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
-title: Configuration de nouveaux calculs de chronologie pour les projets
+title: Configuration de calculs de chronologie pour les projets
 description: Recalculer les chronologies permet aux gestionnaires de voir comment les forces en dehors du projet affectent la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévues pour le projet.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '443'
 ht-degree: 13%
 
 ---
@@ -24,6 +24,8 @@ En tant qu&#39;administrateur [!DNL Adobe Workfront], vous pouvez recalculer man
 Cet article décrit comment, en tant qu&#39;administrateur [!DNL Workfront], vous pouvez déterminer comment et à quel moment [!DNL Workfront] calcule automatiquement les chronologies de projet en configurant les préférences du projet dans la zone [!UICONTROL Configuration].
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -46,11 +48,13 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  </tbody> 
 </table>
 
++++
+
 ## Configurer des recalculs automatiques
 
 En tant qu&#39;administrateur [!DNL Adobe Workfront], vous pouvez configurer lorsque [!DNL Workfront] recalcule automatiquement les chronologies du projet. [!DNL Workfront] peut recalculer les calendriers du projet chaque nuit ou lorsque la portée du projet change, ou les deux.
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit ou sur l’icône [!UICONTROL **Menu principal**] ![](assets/lines-main-menu.png) dans le coin supérieur gauche de [!DNL Workfront], le cas échéant, puis cliquez sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Projets].**
 

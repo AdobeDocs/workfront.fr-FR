@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Personnalisation des types de problèmes par défaut
+title: Personnalisation des types de problème par défaut
 description: Vous pouvez personnaliser les étiquettes pour chaque type de problème par défaut afin de mieux correspondre à la terminologie utilisée dans votre entreprise. Les types de problème sont utiles pour personnaliser les états de problème et créer des files d’attente de requête.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 18%
+source-wordcount: '449'
+ht-degree: 15%
 
 ---
 
@@ -25,6 +25,8 @@ Les types de problèmes sont utiles dans les cas suivants :
 Vous pouvez personnaliser les étiquettes pour chaque type de problème par défaut afin de mieux correspondre à la terminologie utilisée dans votre entreprise.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -46,6 +48,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Types de problèmes par défaut
 
@@ -70,7 +74,7 @@ Tenez compte des points suivants concernant la personnalisation des types de pro
 
 Pour personnaliser un type de problème :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL États]**.
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 4%
@@ -74,7 +74,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Travailler dessus</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL Accès]](#access)
 
@@ -118,7 +118,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Lors de la conversion d’un problème en tâche]</td> 
+    <td role="rowheader" [!UICONTROL>Lors de la conversion d’un problème en tâche]</td> 
     <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion, d’un problème à l’autre :</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Conserver le problème d’origine et lier sa résolution à la tâche]</strong> : lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à [!UICONTROL Fermé] une fois la tâche terminée. Si cette option est désélectionnée, le problème est supprimé.</p> <p><b>NOTE</b> :  <p>Les utilisateurs n’ayant pas accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème lorsqu’ils le convertissent, quel que soit l’état de ce paramètre. Pour plus d’informations sur l’accès et les autorisations pour les problèmes, voir :</p> 

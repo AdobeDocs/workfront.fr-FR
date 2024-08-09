@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Création de types de dépenses personnalisés
+title: Créer des types de dépenses personnalisés
 description: En tant qu'administrateur  [!DNL Adobe Workfront] , vous pouvez créer des types de dépenses personnalisés pour définir et suivre les dépenses associées à vos tâches et projets. Les dépenses sont des coûts hors travail qui peuvent être associés à des tâches ou à des projets.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 17%
 
 ---
@@ -24,6 +24,8 @@ En tant qu&#39;administrateur [!DNL Adobe Workfront], vous pouvez créer des typ
 Vous pouvez modifier ou supprimer les types de dépenses que vous créez. Vous ne pouvez pas supprimer ni modifier les types de dépenses [!DNL Workfront] intégrés.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -46,6 +48,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Types de dépenses par défaut
 
 Les types de dépenses qui se trouvent par défaut dans [!DNL Workfront] ne peuvent pas être supprimés ou modifiés comme suit :
@@ -59,7 +63,8 @@ Les types de dépenses qui se trouvent par défaut dans [!DNL Workfront] ne peuv
 
 ## Création de types de dépenses personnalisés
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Cliquez sur **[!UICONTROL Types de dépenses]**.
 1. Cliquez sur **[!UICONTROL Nouveau type de dépense]**.
 1. Dans la zone **[!UICONTROL New Depense Type]** qui s’affiche, spécifiez les informations suivantes :
@@ -101,7 +106,8 @@ Les types de dépenses qui se trouvent par défaut dans [!DNL Workfront] ne peuv
 
 ## Modification des types de dépenses personnalisés
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Cliquez sur **[!UICONTROL Types de dépenses]**.
 1. Sélectionnez le type de dépense à modifier, puis cliquez sur **[!UICONTROL Modifier]**.
 

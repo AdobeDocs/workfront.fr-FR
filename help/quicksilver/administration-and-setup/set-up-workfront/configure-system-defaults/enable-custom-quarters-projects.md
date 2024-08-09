@@ -4,14 +4,14 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Activation des trimestres personnalisés pour les projets
 description: À des fins de création de rapports, vous pouvez créer des trimestres personnalisés si les trimestres de votre entreprise sont basés sur des critères spécifiques autres que des dates calendaires (par exemple, jours ouvrables ou jours d’achats).
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 27%
+source-wordcount: '284'
+ht-degree: 22%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 27%
 Vous pouvez configurer jusqu’à huit trimestres personnalisés pour votre système [!DNL Adobe Workfront].
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -44,9 +46,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Configuration de quartiers personnalisés pour votre système [!DNL Workfront]
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Projets].**
 

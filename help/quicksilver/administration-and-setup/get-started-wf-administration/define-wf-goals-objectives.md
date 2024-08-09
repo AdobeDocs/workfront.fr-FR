@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
-title: Vue d’ensemble de la définition des objectifs pour votre implémentation d’Adobe Workfront
+title: Présentation de la définition des objectifs pour votre mise en oeuvre Adobe Workfront
 description: Lors de l’implémentation d’Adobe Workfront, il est important d’identifier les principes de vos critères de réussite. Nous vous recommandons de commencer par documenter vos processus, structure organisationnelle et workflows actuels, puis de définir vos objectifs généraux en fonction de l’intégration de Workfront à votre organisation.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

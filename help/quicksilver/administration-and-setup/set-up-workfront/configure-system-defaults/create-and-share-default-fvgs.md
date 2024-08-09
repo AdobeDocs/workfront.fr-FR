@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Créer, modifier et partager des filtres, vues et groupes par défaut
+title: Création, modification et partage des filtres, vues et groupes par défaut
 description: Vous pouvez créer des filtres, des vues et des regroupements par défaut, puis les rendre disponibles pour les utilisateurs de votre entreprise.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '831'
 ht-degree: 8%
 
 ---
@@ -26,6 +26,8 @@ Vous pouvez créer des filtres, des vues et des regroupements par défaut, puis 
 Lorsque vous créez des filtres, des vues et des regroupements par défaut comme décrit dans cet article, les utilisateurs avec qui vous les partagez peuvent les exploiter lors de l’affichage de leurs listes. Les utilisateurs peuvent créer leurs propres filtres, vues et regroupements en fonction de ceux que vous créez, mais ils ne peuvent pas modifier directement ceux que vous créez.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -47,6 +49,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Créer des filtres, des vues ou des regroupements par défaut
 

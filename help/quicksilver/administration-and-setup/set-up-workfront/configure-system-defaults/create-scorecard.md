@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Créer une carte de performance
+title: Création d’une Fiche d’évaluation
 description: Une fiche d’évaluation mesure si un projet s’aligne sur les critères précédemment établis d’un portefeuille. Une fiche d’évaluation reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation. Les gestionnaires de Portfolios définissent généralement les questions et les réponses de la fiche d’évaluation afin de s’assurer qu’elles sont pertinentes et utiles lors de la définition des priorités et de la sélection du projet. Un administrateur  [!DNL Adobe Workfront] crée les fiches d’évaluation en fonction des recommandations des gestionnaires de portefeuille.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 

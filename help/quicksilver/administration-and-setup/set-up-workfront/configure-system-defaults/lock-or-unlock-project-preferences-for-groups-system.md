@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 15%
+source-wordcount: '549'
+ht-degree: 13%
 
 ---
 
@@ -22,6 +22,8 @@ Les groupes de votre entreprise peuvent avoir besoin d’une préférence de pro
 Lorsqu’une préférence est déverrouillée et que l’administrateur du groupe la modifie, les projets associés au groupe obtiennent la configuration correspondant à cette préférence à partir du paramètre au niveau du groupe plutôt que du paramètre au niveau du système.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -44,6 +46,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## A propos des préférences verrouillées et déverrouillées
 
 Le verrouillage d’un projet, d’une tâche ou d’une préférence d’émission que vous avez configurée au niveau du système garantit que chacun utilise le même paramètre pour cette préférence. Bien que vous puissiez toujours reconfigurer une préférence que vous verrouillez, les administrateurs de groupe ne peuvent pas la reconfigurer pour leurs groupes.
@@ -60,7 +64,7 @@ Pour plus d’informations sur le verrouillage ou le déverrouillage d’un proj
 
 ## Déverrouiller une préférence de projet afin que les groupes puissent la configurer ;
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Préférences du projet]**, puis sur **[!UICONTROL Projets]**.
 

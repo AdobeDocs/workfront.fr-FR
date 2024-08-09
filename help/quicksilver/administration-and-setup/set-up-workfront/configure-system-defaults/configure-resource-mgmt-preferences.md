@@ -4,14 +4,14 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configuration des préférences de gestion des ressources
 description: En tant qu'administrateur  [!DNL Adobe Workfront] , vous pouvez configurer les préférences de gestion des ressources pour votre système. Ces préférences de gestion des ressources déterminent le mode de calcul de la disponibilité ou de la capacité de l’utilisateur et de l’éditeur de texte enrichi pour les outils de planification et de planification de la ressource  [!DNL Workfront] .
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 12%
+source-wordcount: '711'
+ht-degree: 10%
 
 ---
 
@@ -54,6 +54,8 @@ En tant qu&#39;administrateur [!DNL Adobe Workfront], vous pouvez configurer les
 </table>
 -->
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -77,6 +79,8 @@ Si vous ne disposez toujours pas d’un accès, demandez à votre équipe d’ad
  </tbody> 
 </table>
 
++++
+
 ## Informations prises en compte lors du calcul de la capacité d’un utilisateur
 
 Lors du calcul de la capacité d’un utilisateur, Workfront prend en compte les informations suivantes :
@@ -97,7 +101,8 @@ Pour plus d’informations sur la planification et la planification des ressourc
 >
 >Puisqu’il s’agit d’un paramètre global, cette sélection affecte tous les calculs pour l’ensemble du système, pour tous les utilisateurs, dans tous les outils de gestion des ressources.
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Cliquez sur **[!UICONTROL Resource Management]**.
 1. Sélectionnez l’une des méthodes suivantes pour calculer la disponibilité des utilisateurs dans [!DNL Workfront] :
 

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
-title: Configurer les types de requêtes
+title: Configuration des types de requête
 description: Lorsque vous travaillez sur un projet, vous pouvez découvrir que des événements inattendus se produisent. Vous pouvez consigner ces événements inattendus comme des problèmes pour un projet ou une tâche spécifique. Vous pouvez également envoyer des requêtes, qui sont enregistrées en tant que problèmes sur un projet désigné comme file d’attente de requêtes. Les problèmes et les requêtes sont considérés comme interchangeables dans Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 19%
+source-wordcount: '484'
+ht-degree: 16%
 
 ---
 
@@ -22,6 +22,8 @@ Lorsque vous travaillez sur un projet, vous pouvez découvrir que des événemen
 Pour plus d’informations sur la création de problèmes dans [!DNL Workfront], voir [Création de problèmes](../../../manage-work/issues/manage-issues/create-issues.md). Pour plus d’informations sur la création de requêtes dans [!DNL Workfront], voir [Créer et envoyer [!DNL Adobe Workfront] requêtes](../../../manage-work/requests/create-requests/create-submit-requests.md). Pour plus d’informations sur l’association des types de requête aux projets, voir [Définition des types de requête pour un projet](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,6 +45,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 <!--
 THIS IS DRAFTED IN FLARE
@@ -77,7 +81,7 @@ En tant qu’administrateur [!DNL Workfront], vous pouvez configurer les noms de
 
 Pour personnaliser les noms des types de requêtes :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL États]**.
 

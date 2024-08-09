@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
-title: Configuration des paramètres système par défaut
+title: Configuration des valeurs par défaut du système
 description: En tant qu'administrateur  [!DNL Adobe Workfront] , vous pouvez configurer les paramètres par défaut du système, tels que les préférences de tous les projets que vos utilisateurs créent.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 23%

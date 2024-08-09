@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Configuration des préférences de projet à l’échelle du système
+title: Configuration des préférences du projet à l’échelle du système
 description: En tant qu'administrateur  [!DNL Adobe Workfront] , vous pouvez configurer les préférences par défaut pour tous les projets créés dans tout le système. Ces préférences ont un impact sur le projet, la tâche et le comportement du problème.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '2561'
 ht-degree: 4%

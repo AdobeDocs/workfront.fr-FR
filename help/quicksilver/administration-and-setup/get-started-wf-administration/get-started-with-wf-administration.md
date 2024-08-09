@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: "Prise en main de l’administration Adobe Workfront : index des articles"
+title: "Prise en main de l’administration Adobe Workfront : index de l’article"
 description: Dans cette section, vous trouverez des informations et des instructions sur la première configuration d’Adobe Workfront, ainsi que des informations dont vous aurez besoin en tant qu’administrateur Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 5%

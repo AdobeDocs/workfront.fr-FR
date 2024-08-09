@@ -5,13 +5,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Vue d’ensemble du pare-feu
 description: Comme Adobe Workfront communique avec le réseau de votre entreprise, le pare-feu de votre entreprise doit être configuré pour autoriser cette communication. Les pare-feu sont des mesures de sécurité très efficaces qui isolent le réseau d’une entreprise d’Internet. Ils garantissent que seules les données et le trafic réseau sélectionnés peuvent entrer ou sortir du réseau de l’entreprise. Le pare-feu autorise ou bloque les données en fonction du site qui envoie ou reçoit les données. En tant qu’administrateur ou administratrice d’Adobe Workfront, vous devez vous assurer que les données envoyées vers ou à partir de Workfront sont autorisées par le pare-feu de votre entreprise.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '726'
 ht-degree: 98%
 
 ---
@@ -98,7 +98,7 @@ Fournissez les informations suivantes à votre administrateur ou administratrice
 
 ### Afficher le cluster et le plan Workfront de votre entreprise {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]** ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Système** dans le panneau de gauche.
 1. Pour afficher le cluster, sélectionnez **Infos client**.
