@@ -2,18 +2,18 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Configuration et gestion des validations de ressources et de documents : index de l’article"
+title: "Configurer et gérer les validations de ressources et de documents : index de l’article"
 description: Cette section contient des articles sur la gestion des approbations de ressources et de documents dans Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
+exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
+source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 24%
+source-wordcount: '98'
+ht-degree: 22%
 
 ---
-
 
 # Configuration et gestion des validations de ressources et de documents : index des articles
 
@@ -25,3 +25,4 @@ Cette section contient les articles suivants :
 * [Suppression des approbateurs ou des réviseurs d’un actif ou d’un document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [Créer un modèle d’approbation pour les ressources et les documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 * [Ajouter une ressource Frame.io à un projet Workfront connecté](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+* [Utiliser ensemble les nouvelles validations de documents et la vérification](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
