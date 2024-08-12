@@ -9,7 +9,7 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion pour au
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
+source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
 workflow-type: tm+mt
 source-wordcount: '6280'
 ht-degree: 98%
@@ -145,12 +145,12 @@ Lorsque vous configurez des modules [!DNL Workfront], [!DNL Workfront Fusion] af
 
 Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
+
+![](assets/map-toggle-350x74.png)
 >[!NOTE]
 >
 >* Si vous ne voyez pas les champs les plus à jour dans un module Workfront, cela peut être dû à des problèmes de cache. Patientez une heure et réessayez.
 >* Les codes d’état HTTP 429 d’Adobe Workfront ne doivent pas provoquer de désactivations, mais déclencher une pause d’exécution courte dans le scénario.
-
-![](assets/map-toggle-350x74.png)
 
 * [Déclencheurs](#triggers)
 * [Actions](#actions)
