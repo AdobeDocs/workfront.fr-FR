@@ -9,10 +9,10 @@ description: Vous pouvez utiliser le connecteur Adobe Workfront Fusion pour au
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
+source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
 workflow-type: tm+mt
-source-wordcount: '6259'
-ht-degree: 99%
+source-wordcount: '6280'
+ht-degree: 98%
 
 ---
 
@@ -147,7 +147,8 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 >[!NOTE]
 >
->Si vous ne voyez pas les champs les plus à jour dans un module Workfront, cela peut être dû à des problèmes de cache. Patientez une heure et réessayez.
+>* Si vous ne voyez pas les champs les plus à jour dans un module Workfront, cela peut être dû à des problèmes de cache. Patientez une heure et réessayez.
+>* Les codes d’état HTTP 429 d’Adobe Workfront ne doivent pas provoquer de désactivations, mais déclencher une pause d’exécution courte dans le scénario.
 
 ![](assets/map-toggle-350x74.png)
 
