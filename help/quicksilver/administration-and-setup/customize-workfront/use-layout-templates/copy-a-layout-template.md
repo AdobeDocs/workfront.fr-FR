@@ -1,5 +1,5 @@
 ---
-title: Copier un modèle de disposition
+title: Copier un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 51%
+source-wordcount: '343'
+ht-degree: 46%
 
 ---
 
@@ -24,6 +24,8 @@ Pour plus d’informations sur les modèles de mise en page, voir [Créer et gé
 Pour plus d’informations sur les modèles de disposition pour les groupes, voir [Créer et modifier des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -47,9 +49,11 @@ Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p
  </tbody> 
 </table>
 
++++
+
 ## Copier un modèle de disposition
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Interface** > **Modèles de mise en page**.
 

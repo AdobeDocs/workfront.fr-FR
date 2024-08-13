@@ -1,5 +1,5 @@
 ---
-title: Personnalisation des pages épinglées à l’aide d’un modèle de mise en page
+title: Personnalisation de pages épinglées à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '485'
 ht-degree: 34%
 
 ---
@@ -30,6 +30,8 @@ Pour plus d’informations sur les modèles de disposition pour les groupes, voi
 Après avoir configuré un modèle de disposition, vous devez l’attribuer à des utilisateurs et utilisatricess pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de disposition à des utilisateurs et utilisatrices, voir [Attribuer un modèle de disposition à des utilisateurs et utilisatrices](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -52,6 +54,8 @@ Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Epinglage de pages à l’aide d’un modèle de mise en page
 

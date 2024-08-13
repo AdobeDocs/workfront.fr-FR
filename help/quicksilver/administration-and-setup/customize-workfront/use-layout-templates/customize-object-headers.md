@@ -1,5 +1,5 @@
 ---
-title: Personnaliser les en-têtes d’objet avec un modèle de disposition
+title: Personnalisation des en-têtes d’objet à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 29%
+source-wordcount: '523'
+ht-degree: 27%
 
 ---
 
@@ -32,6 +32,8 @@ Pour plus d’informations sur les modèles de disposition pour les groupes, voi
 Après avoir configuré un modèle de disposition, vous devez l’attribuer à des utilisateurs et utilisatricess pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de disposition à des utilisateurs et utilisatrices, voir [Attribuer un modèle de disposition à des utilisateurs et utilisatrices](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -59,6 +61,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir [Créer ou modifier les niveaux d’accès personnalisés](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+
++++
 
 ## Personnalisation des en-têtes d’objet
 

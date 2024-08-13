@@ -1,5 +1,5 @@
 ---
-title: Personnaliser l’accueil et le résumé à l’aide d’un modèle de disposition
+title: Personnalisation de l’accueil et du résumé à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 22%
+source-wordcount: '1006'
+ht-degree: 21%
 
 ---
 
@@ -36,6 +36,8 @@ Après avoir configuré un modèle de disposition, vous devez l’attribuer à d
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personnaliser l’accueil et le résumé à l’aide d’un modèle de disposition
 

@@ -1,5 +1,5 @@
 ---
-title: Personnaliser la landing page à l'aide d'un modèle de mise en page
+title: Personnalisation de la page d’entrée à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 48%
+source-wordcount: '387'
+ht-degree: 46%
 
 ---
 
@@ -30,6 +30,8 @@ Après avoir configuré un modèle de disposition, vous devez l’attribuer à d
 >Lorsque Requêtes est défini comme page d’entrée, les utilisateurs contributeurs ou demandeurs affectés au modèle de mise en page voient la page d’accueil comme page d’entrée à la place. Il est recommandé de choisir une page d’entrée autre que Requêtes pour les modèles de mise en page destinés aux utilisateurs contributeurs ou demandeurs.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -52,6 +54,8 @@ Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personnaliser la page de destination
 

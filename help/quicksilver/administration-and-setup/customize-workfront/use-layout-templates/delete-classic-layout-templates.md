@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 70%
+source-wordcount: '292'
+ht-degree: 68%
 
 ---
 
@@ -22,6 +22,8 @@ Les modèles de disposition de l’expérience Workfront classique ne sont plus 
 Vous pouvez résoudre ces incohérences en supprimant les modèles de mise en page Classic. Comme elles ne sont pas disponibles dans l’interface de Workfront, utilisez l’API Workfront pour les supprimer.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,6 +45,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Supprimer les modèles de disposition classiques à l’aide d’un appel API
 

@@ -1,5 +1,5 @@
 ---
-title: Personnaliser la nouvelle page d’accueil à l’aide d’un modèle de disposition
+title: Personnalisation de la nouvelle page d’accueil à l’aide d’un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 97%
+source-wordcount: '840'
+ht-degree: 95%
 
 ---
 
@@ -41,6 +41,8 @@ Après avoir configuré un modèle de disposition, vous devez l’attribuer à d
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -62,6 +64,8 @@ Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personnaliser la nouvelle page d’accueil à l’aide d’un modèle de disposition
 

@@ -1,5 +1,5 @@
 ---
-title: Accorder un accès administratif à un modèle de mise en page
+title: Octroi d’un accès administratif pour un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '440'
 ht-degree: 21%
 
 ---
@@ -26,6 +26,8 @@ Pour plus d’informations sur les modèles de mise en page, voir [Créer et gé
 Pour plus d’informations sur les modèles de disposition pour les groupes, voir [Créer et modifier des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -47,6 +49,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Accorder un accès administratif à un modèle de mise en page
 

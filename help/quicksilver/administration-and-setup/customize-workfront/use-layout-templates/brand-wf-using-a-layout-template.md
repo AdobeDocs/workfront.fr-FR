@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 26%
+source-wordcount: '573'
+ht-degree: 25%
 
 ---
 
@@ -36,6 +36,8 @@ Pour plus d’informations sur les modèles de disposition pour les groupes, voi
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Marque Adobe Workfront avec un modèle de mise en page
 

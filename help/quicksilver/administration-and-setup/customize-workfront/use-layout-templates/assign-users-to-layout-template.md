@@ -1,5 +1,5 @@
 ---
-title: Affecter des utilisateurs à un modèle de mise en page
+title: Affectation d’utilisateurs à un modèle de mise en page
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '944'
 ht-degree: 13%
 
 ---
@@ -30,6 +30,8 @@ Pour plus d’informations sur les modèles de mise en page, voir [Modèles de m
 Pour plus d’informations sur les modèles de disposition pour les groupes, voir [Créer et modifier des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -52,6 +54,8 @@ Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Attribuer un modèle de mise en page aux utilisateurs
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1037'
 ht-degree: 16%
 
 ---
@@ -35,6 +35,8 @@ Après avoir configuré un modèle de disposition, vous devez l’attribuer à d
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -55,6 +57,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personnalisez le panneau de gauche pour une zone de [!DNL Workfront] :
 

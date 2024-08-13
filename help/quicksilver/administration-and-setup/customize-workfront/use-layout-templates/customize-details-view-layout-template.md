@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 31%
 
 ---
@@ -67,6 +67,8 @@ Pour plus d’informations sur les modèles de disposition pour les groupes, voi
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -88,6 +90,8 @@ Pour les exécuter pour un groupe, vous devez être un responsable de ce groupe.
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personnaliser ce que voient les utilisateurs dans la vue Détails
 
