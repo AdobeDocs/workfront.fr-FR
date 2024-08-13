@@ -2,14 +2,14 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Modifier des programmes
-description: Vous pouvez modifier les informations sur les programmes que vous avez créés ou que d’autres utilisateurs ont créés s’ils les ont partagés avec vous.
+description: Vous pouvez modifier les informations sur les programmes que vous avez créés ou que d’autres utilisateurs ont créés s’ils les ont partagés avec vous. Cet article décrit comment rechercher, rechercher et modifier un programme, si vous êtes autorisé à le faire.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 16%
+source-wordcount: '1074'
+ht-degree: 15%
 
 ---
 
@@ -174,7 +174,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
-1. Ajoutez un commentaire dans le champ **[!UICONTROL Post et mettez à jour le programme]** .
+1. Ajoutez un commentaire dans le champ **[!UICONTROL Publier une mise à jour du programme]** .
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Personnes]** pour ajouter un utilisateur ou une équipe au commentaire.
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Verrouiller]** pour verrouiller le commentaire et le rendre privé uniquement pour les utilisateurs de votre entreprise.
 

@@ -1,15 +1,15 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: Créer un programme
-description: Un programme représente un ensemble de projets qui partagent une stratégie, un objectif ou un objectif commun qui transcende les limites du projet. Les programmes ne peuvent pas exister en dehors d'un portfolio.
+title: Création d’un programme
+description: Un programme représente un ensemble de projets qui partagent une stratégie, un objectif ou un objectif commun qui transcende les limites du projet. Les programmes sont une subdivisions de portefeuilles et ils ne peuvent exister en dehors d'un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille. Vous pouvez créer des programmes pour organiser vos portefeuilles lorsqu’ils deviennent trop volumineux.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 11%
+source-wordcount: '1143'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,12 @@ ht-degree: 11%
 
 <!-- Audited: 1/2024 -->
 
-Un programme représente un ensemble de projets qui partagent une stratégie, un objectif ou un objectif commun qui transcende les limites du projet. Les programmes ne peuvent pas exister en dehors d&#39;un portfolio.
+Un programme représente un ensemble de projets qui partagent une stratégie, un objectif ou un objectif commun qui transcende les limites du projet.
+Les programmes sont une subdivisions de portefeuilles et ils ne peuvent exister en dehors d&#39;un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille.
+
+Vous pouvez créer des programmes pour organiser vos portefeuilles lorsqu’ils deviennent trop volumineux.
+
+Par exemple, vous pouvez disposer d’un Portfolio Année fiscale marketing 2024 qui contient tous les projets de votre division marketing. Vous pouvez envisager d’organiser davantage vos projets en trimestres budgétaires et d’ajouter des programmes du 1er au 4 trimestre 2024 dans le Portfolio de l’exercice 2024.
 
 ## Conditions d’accès
 

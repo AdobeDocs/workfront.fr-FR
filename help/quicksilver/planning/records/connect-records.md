@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2507'
-ht-degree: 77%
+source-wordcount: '2495'
+ht-degree: 72%
 
 ---
 
@@ -156,7 +156,6 @@ Pour plus d’informations, consultez les [Conditions d’accès dans la documen
 
    * À partir d’un enregistrement de planification dans Workfront Planning
 
-
 ## Conditions préalables pour lier des enregistrements
 
 Pour lier des enregistrements à d’autres enregistrements ou objets, vous devez disposer des éléments suivants :
@@ -181,7 +180,7 @@ Pour lier des enregistrements à d’autres enregistrements ou objets, vous deve
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 1. Cliquez sur la vignette d’un type d’enregistrement pour ouvrir la page du type d’enregistrement.
-1. Sélectionnez une vue **Tableau** dans le menu déroulant **Vue** dans le coin supérieur droit de la page du type d’enregistrement.
+1. Cliquez sur le nom d&#39;une vue **Table** pour l&#39;ouvrir.
 1. (Facultatif) Ajoutez des enregistrements au type d’enregistrement que vous avez sélectionné en ajoutant une nouvelle ligne au tableau. Pour plus d’informations, consultez la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 1. (Le cas échéant) Une fois que vous avez connecté le type d’enregistrement sélectionné à un autre type d’enregistrement, accédez à la colonne de l’enregistrement lié et double-cliquez sur la cellule correspondant à l’enregistrement que vous souhaitez lier à d’autres enregistrements.
 
@@ -191,9 +190,18 @@ Pour lier des enregistrements à d’autres enregistrements ou objets, vous deve
 
    * Cliquez sur le nom d’un enregistrement connecté dans la liste pour l’ajouter à l’enregistrement sélectionné. L’enregistrement est ajouté automatiquement.
    * Commencez à saisir le nom d’un enregistrement et cliquez dessus lorsqu’il s’affiche dans la liste. L’enregistrement est ajouté automatiquement.
-   * Cliquez sur **Afficher tout** pour afficher tous les enregistrements.
 
-1. (Le cas échéant) Si vous avez cliqué sur **Tout sélectionner** à l’étape précédente, la boîte de dialogue **Connecter des objets** s’affiche.
+   <!--1. (Optional) If you cannot find a record to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records by connecting them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+   >[!TIP]
+   >
+   >    Vous pouvez ouvrir la page d’un enregistrement en cliquant sur le nom de l’enregistrement dans la vue, recherchez le champ d’enregistrement lié et double-cliquez sur le champ (s’il existe déjà des enregistrements connectés), ou cliquez sur **Connecter des enregistrements** (si le champ est vide) pour ajouter des enregistrements de l’enregistrement ou du type d’objet connecté.
+   >
+   >![](assets/connect-records-from-record-page-field.png)
+
+1. (Facultatif) Cliquez sur **Afficher tout** pour afficher tous les enregistrements.
+
+1. (Conditionnel) Si vous avez cliqué sur **Afficher tout** à l’étape précédente, la zone **Connecter des objets** s’affiche.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -201,17 +209,11 @@ Pour lier des enregistrements à d’autres enregistrements ou objets, vous deve
 
    Ou
 
-   Sélectionnez le nom d’un ou de plusieurs enregistrements dans la boîte de dialogue, puis cliquez sur **Connecter des objets** dans le coin supérieur droit de la zone Connecter des objets.
-
-   >[!TIP]
-   >
-   >    Vous pouvez ouvrir la page d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur le champ connecté (s’il existe déjà des enregistrements connectés), ou cliquer sur **Connecter des enregistrements** (si le champ est vide) pour ajouter des enregistrements de l’enregistrement ou du type d’objet connecté.
-   >
-   >![](assets/connect-records-from-record-page-field.png)
+   Sélectionnez le nom d&#39;un ou plusieurs enregistrements dans la zone, puis cliquez sur **Connecter des objets**.
 
    Les éléments suivants sont ajoutés :
 
-   * Les enregistrements liés s’affichent dans le champ d’enregistrement lié de l’enregistrement que vous avez sélectionné à l’étape 6. <!--accurate?-->
+   * Les enregistrements liés s&#39;affichent dans le champ enregistrement lié de l&#39;enregistrement que vous avez sélectionné à l&#39;étape précédente.
    * Les champs liés sont renseignés avec les informations des enregistrements liés, si vous avez ajouté des champs de recherche liés lorsque vous avez connecté les types d’enregistrements.
 
    La mise à jour des enregistrements liés met à jour automatiquement les champs liés pour les enregistrements à partir desquels vous effectuez la liaison. Vous ne pouvez pas modifier manuellement les champs liés.
@@ -259,7 +261,12 @@ Une fois que vous avez créé une connexion entre un type d’enregistrement et 
 
    * Cliquez sur un objet dans la liste pour l’ajouter à l’enregistrement sélectionné. Les objets sont répertoriés par ordre alphabétique. L’objet est ajouté automatiquement.
    * Commencez à saisir le nom d’un objet et cliquez dessus lorsqu’il s’affiche dans la liste. L’objet est ajouté automatiquement.
-   * Cliquez sur **Afficher tout** pour afficher tous les objets sur lesquels vous disposez au moins des autorisations d’affichage.
+
+   >[!TIP]
+   >
+   >Vous pouvez ouvrir la page d’un enregistrement à partir de la vue, double-cliquer sur le champ d’enregistrement lié ou cliquer sur **Se connecter** dans le champ pour ajouter des objets du type d’objet connecté.
+
+1. (Facultatif) Cliquez sur **Afficher tout** pour afficher tous les objets que vous avez au moins les autorisations d’afficher.
 
 1. (Conditionnel) Si vous avez cliqué sur **Afficher tout** à l’étape précédente, la zone **Connecter des objets** s’affiche.
 
@@ -269,7 +276,7 @@ Une fois que vous avez créé une connexion entre un type d’enregistrement et 
 
    Ou
 
-   Sélectionnez le nom d’un ou de plusieurs objets dans la zone, puis cliquez sur **Connecter des objets** dans le coin supérieur droit de la zone Connecter des objets.
+   Sélectionnez le nom d&#39;un ou plusieurs objets dans la zone, puis cliquez sur **Connecter des objets**.
 
    >[!IMPORTANT]
    >
@@ -281,10 +288,6 @@ Une fois que vous avez créé une connexion entre un type d’enregistrement et 
 
    * Les objets Workfront sélectionnés sont ajoutés au champ d’enregistrement lié.
    * Si vous les avez ajoutés lorsque vous avez connecté le type d’enregistrement à Workfront, les champs liés (ou les champs de recherche) des objets Workfront sont automatiquement renseignés avec les informations de Workfront.
-
-   >[!TIP]
-   >
-   >Vous pouvez ouvrir la page d’un enregistrement, rechercher le champ d’enregistrement lié et cliquer sur l’icône **+** dans le champ pour ajouter des objets du type d’objet connecté.
 
    Pour plus d’informations sur la connexion des types d’enregistrement à des objets à partir d’une autre application, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 

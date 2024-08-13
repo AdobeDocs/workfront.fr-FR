@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Modifier les tâches
-description: Vous pouvez modifier les informations sur les tâches que vous avez créées ou sur lesquelles vous disposez des autorisations de contribution ou de gestion.
+title: Modifier tâches
+description: Vous pouvez modifier les informations sur les tâches que vous avez créées ou sur lesquelles vous disposez des autorisations Contribute ou Manage . Cet article décrit comment rechercher, rechercher et modifier une tâche, si vous êtes autorisé à le faire.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '3663'
-ht-degree: 90%
+source-wordcount: '3684'
+ht-degree: 89%
 
 ---
 

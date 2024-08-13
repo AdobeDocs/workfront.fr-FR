@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1383'
 ht-degree: 8%
 
 ---
@@ -61,7 +61,7 @@ Lors de la mise à jour de la Durée des tâches dans une liste, vous pouvez uti
 | Heures | H |
 | JoursIl s’agit du paramètre par défaut. | Dés |
 | Semaines | S |
-| Mois | M |
+| Mois | T, MO |
 | Minutes écoulées | ME |
 | Heures écoulées | EH |
 | Jours écoulés | ED |

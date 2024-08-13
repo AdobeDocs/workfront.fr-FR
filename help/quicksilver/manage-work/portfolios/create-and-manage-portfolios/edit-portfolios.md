@@ -1,15 +1,15 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Modifier les portfolios
-description: Vous pouvez modifier des informations sur les portefeuilles que vous avez créés ou que d’autres utilisateurs ont créés s’ils les ont partagés avec vous.
+title: Modifier les portefeuilles
+description: Vous pouvez modifier des informations sur les portefeuilles que vous avez créés ou que d’autres utilisateurs ont créés s’ils les ont partagés avec vous. Cet article décrit comment rechercher, rechercher et modifier un portfolio, si vous êtes autorisé à le faire.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 13%
+source-wordcount: '1018'
+ht-degree: 12%
 
 ---
 
