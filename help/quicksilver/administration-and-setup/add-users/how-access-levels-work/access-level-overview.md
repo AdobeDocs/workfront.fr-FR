@@ -1,16 +1,16 @@
 ---
-title: Vue d’ensemble des nouveaux niveaux d’accès
+title: Présentation des nouveaux niveaux d’accès
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,standard,light,contributor
 navigation-topic: access-levels
 description: Chaque utilisateur doit disposer d’un niveau d’accès pour se connecter et travailler dans Workfront. Vous utilisez le niveau d’accès pour contrôler ce qu’un utilisateur peut voir et faire avec certains objets et zones Workfront.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1745'
 ht-degree: 10%

@@ -1,17 +1,17 @@
 ---
-title: Accorder l’accès à Objectifs Adobe Workfront
+title: Accorder l’accès aux objectifs Adobe Workfront
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur aux objectifs Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 18%
+source-wordcount: '335'
+ht-degree: 16%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 18%
 En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur aux objectifs Adobe Workfront, comme expliqué dans la [présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Pour accorder aux utilisateurs l’accès aux objectifs de Workfront, vous devez disposer des éléments suivants :
 
@@ -49,6 +51,8 @@ Pour accorder aux utilisateurs l’accès aux objectifs de Workfront, vous devez
 &#42;Pour connaître votre plan, votre type de licence ou votre niveau d’accès, contactez votre administrateur Workfront.
 
 Pour plus d’informations sur l’accès aux objectifs Workfront, voir [Conditions requises pour utiliser les objectifs Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
++++
 
 ## Accorder à l’utilisateur l’accès aux objectifs Workfront à l’aide d’un niveau d’accès personnalisé
 

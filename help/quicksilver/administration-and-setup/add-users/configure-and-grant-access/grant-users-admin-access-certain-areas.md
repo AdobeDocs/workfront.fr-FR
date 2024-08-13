@@ -1,14 +1,14 @@
 ---
 title: Octroi aux utilisateurs un accès administratif à certaines zones
 description: En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour accorder aux utilisateurs un accès administratif de licence Plan à certaines zones du système.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 13%
+source-wordcount: '843'
+ht-degree: 11%
 
 ---
 
@@ -23,6 +23,8 @@ En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’
 >Cela diffère de l’accès administratif complet à Workfront pour un utilisateur, qui est expliqué dans la section [Octroi d’un accès administratif complet à un utilisateur](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md). &#x200B;
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,13 +47,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Octroi aux utilisateurs du forfait un accès administratif à certaines zones de Workfront
 
 >[!IMPORTANT]
 >
 >Nous vous recommandons vivement de ne pas modifier les niveaux d’accès intégrés afin que vous puissiez y faire référence après avoir configuré vos utilisateurs. Pour personnaliser un niveau d&#39;accès, copiez le niveau d&#39;accès par défaut et modifiez la copie. (Vous pouvez le faire pour chaque niveau d’accès, à l’exception de l’administrateur système et de l’utilisateur externe.)
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Niveaux d’accès**.
 1. Cliquez sur le nom du niveau d’accès que vous souhaitez utiliser pour accorder aux utilisateurs un accès administratif à certaines zones de Workfront.

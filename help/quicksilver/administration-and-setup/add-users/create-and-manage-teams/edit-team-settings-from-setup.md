@@ -1,14 +1,14 @@
 ---
-title: Modification des paramètres d’une équipe à partir de la zone Configuration
+title: Modification des paramètres d’une équipe depuis la zone de configuration
 description: En tant qu’administrateur Adobe Workfront, vous pouvez modifier les paramètres d’une équipe dans la zone Configuration . Vous pouvez ajouter des utilisateurs à une équipe, définir le modèle de mise en page d’une équipe et définir comment l’état est enregistré lorsqu’une équipe termine les tâches.
-author: Caroline, Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 20%
+source-wordcount: '617'
+ht-degree: 18%
 
 ---
 
@@ -25,6 +25,8 @@ Pour plus d’informations sur les équipes, voir [Présentation des équipes](.
 >
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -47,9 +49,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Modifier les paramètres d’une équipe
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Équipes** dans le panneau de gauche.
 1. Sélectionnez une équipe, puis cliquez sur **Modifier** ![](assets/edit-icon.png).
@@ -65,7 +69,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>Saisissez le nom de l’équipe.</td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader">Est actif </td> 
+       <td role="rowheader">En activité </td> 
        <td>Cette option est activée par défaut pour les nouvelles équipes et les équipes existantes. Désactivez-la pour désactiver l’équipe. Pour plus d’informations, voir <a href="../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md" class="MCXref xref">Désactivation d’une équipe</a> </td> 
       </tr>
      <tr> 

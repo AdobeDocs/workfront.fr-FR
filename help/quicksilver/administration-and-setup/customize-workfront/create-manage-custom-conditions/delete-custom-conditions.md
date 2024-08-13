@@ -1,23 +1,27 @@
 ---
-title: Supprimer une condition personnalisée
+title: Suppression d’une condition personnalisée
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Vous pouvez supprimer une condition personnalisée.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 36%
+source-wordcount: '275'
+ht-degree: 28%
 
 ---
 
 # Supprimer une condition personnalisée
 
+Vous pouvez supprimer une condition personnalisée si elle n’est plus nécessaire.
+
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -40,9 +44,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Supprimer une condition personnalisée
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Préférences du projet** > **Conditions**.
 

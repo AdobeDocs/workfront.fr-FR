@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;dashboards;calendars
 navigation-topic: configure-access-to-workfront
 description: En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur aux rapports, tableaux de bord et calendriers dans Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 776bb223-3481-4ea9-8049-276b2dec95c5
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '612'
 ht-degree: 11%
 
 ---
@@ -29,6 +29,8 @@ Cet accès inclut également l’accès aux pages externes. Pour plus d’inform
 >Pour plus d’informations sur les autorisations que les utilisateurs peuvent accorder sur un rapport, un tableau de bord ou un calendrier lorsqu’ils le partagent, voir [Partage de rapports, de tableaux de bord et de calendriers](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -50,6 +52,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configurer l’accès des utilisateurs aux rapports, aux tableaux de bord et aux calendriers à l’aide d’un niveau d’accès personnalisé
 

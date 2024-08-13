@@ -1,17 +1,17 @@
 ---
-title: Définir une condition personnalisée comme condition par défaut pour les tâches et les problèmes
+title: Définition d’une condition personnalisée comme valeur par défaut pour les tâches et les problèmes
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Lorsqu’un utilisateur clique sur Travailler dessus ou ajoute un commentaire de mise à jour à une nouvelle tâche à laquelle il a été affecté (sans définir manuellement une condition pour la tâche), Adobe Workfront affiche la condition par défaut pour les tâches, qui est configurée dans Configuration. Il en va de même pour les problèmes.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 21%
+source-wordcount: '403'
+ht-degree: 18%
 
 ---
 
@@ -22,6 +22,8 @@ Lorsqu’un utilisateur clique sur Travailler dessus ou ajoute un commentaire de
 Workfront utilise la condition intégrée Going Smoothly comme condition par défaut pour les tâches et, séparément, pour les problèmes. En tant qu’administrateur Workfront, vous pouvez définir la condition par défaut de ces deux types d’objets sur une condition personnalisée que vous avez créée.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -44,9 +46,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Définissez une condition personnalisée comme condition par défaut pour les tâches ou pour les problèmes :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Préférences du projet** > **Conditions**.
 

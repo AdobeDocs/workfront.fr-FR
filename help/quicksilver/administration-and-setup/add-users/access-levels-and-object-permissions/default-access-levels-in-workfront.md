@@ -6,11 +6,11 @@ keywords: accès,modèle,entonnoir,diagramme,niveaux,autorisations
 navigation-topic: access-levels
 title: Niveaux d’accès intégrés
 description: Chacun des six niveaux d’accès intégrés actuels est conçu pour un type particulier d’utilisateur, y compris l’administrateur système, le planificateur, le responsable de traitement, le réviseur, le demandeur et l’utilisateur externe. Ces niveaux d’accès vous permettent de contrôler ce que les utilisateurs peuvent modifier et afficher dans le système. Si vous avez besoin d’un niveau d’accès personnalisé, vous pouvez copier un niveau d’accès intégré et le modifier en fonction de la quantité d’accès que vous souhaitez lui permettre pour les différents types d’objets Workfront.
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 13%

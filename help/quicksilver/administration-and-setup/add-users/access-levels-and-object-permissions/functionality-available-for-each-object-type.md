@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration
 keywords: accès,modèle,entonnoir,diagramme,niveaux,autorisations
 navigation-topic: access-levels
-title: Fonctionnalités disponibles pour chaque type d’objet pour différents niveaux d’accès
+title: Fonctionnalité disponible pour chaque type d’objet pour divers niveaux d’accès
 description: Les tableaux suivants répertorient les fonctionnalités disponibles pour chaque type d’objet dans les différents niveaux d’accès.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1891'
 ht-degree: 74%
 
 ---
@@ -519,7 +519,7 @@ Seuls les utilisateurs disposant d&#39;une licence Plan peuvent avoir un accès 
 |---|---|---|---|---|---|
 | Modifier les priorités et les heures budgétées dans le Planificateur | ✓&#42; |   |   |   |   |
 | Créer, modifier et supprimer des pools de ressources&#42;&#42; | ✓&#42; |   |   |   |   |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
+| Mise à jour des heures planifiées dans l’équilibreur de charge de travail&#42;&#42;&#42; | ✓* |   |   |   |   |
 | Afficher les priorités du projet dans le planificateur de ressources | ✓&#42; |   |   |   |   |
 | Afficher l’affectation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Afficher les groupes de ressources | ✓&#42; | ✓&#42; | ✓&#42; |   |   |

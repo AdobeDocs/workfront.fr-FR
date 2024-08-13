@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: En tant qu’administrateur Adobe Workfront, vous pouvez créer ou modifier une condition personnalisée pour les projets, les tâches et les problèmes en fonction des besoins de votre entreprise.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 15%
+source-wordcount: '638'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 15%
 En tant qu’administrateur Adobe Workfront, vous pouvez créer ou modifier une condition personnalisée pour les projets, les tâches et les problèmes en fonction des besoins de votre entreprise.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -42,9 +44,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Création ou modification d’une condition personnalisée
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Préférences du projet** > **Conditions**.
 

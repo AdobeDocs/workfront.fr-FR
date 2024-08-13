@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Configuration des préférences de feuille de temps et d’heure
+title: Configuration des préférences de feuille de temps et heure
 description: En tant qu'administrateur  [!DNL Adobe Workfront] , vous pouvez spécifier des préférences pour les feuilles de temps et les heures dans  [!DNL Workfront]  afin de définir les éléments avec lesquels les feuilles de temps peuvent être préremplies et les éléments vers lesquels les utilisateurs peuvent consigner le temps.
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1420'
 ht-degree: 3%
 
 ---
@@ -33,11 +33,11 @@ En tant qu’administrateur [!DNL Adobe Workfront], vous pouvez spécifier des p
 >
 >Pour plus d’informations, reportez-vous aux sections [Durée du journal](../../../timesheets/create-and-manage-timesheets/log-time.md) et [Présentation de la feuille de temps](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
-
-
 Toutes les modifications que vous apportez aux feuilles de temps ont un impact sur toutes les feuilles de temps créées ultérieurement.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -64,6 +64,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Définition des préférences de feuille de temps et d’heure
 

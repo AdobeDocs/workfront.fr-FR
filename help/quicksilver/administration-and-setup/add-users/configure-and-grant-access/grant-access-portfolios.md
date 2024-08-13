@@ -1,17 +1,17 @@
 ---
-title: Accorder l’accès aux portfolios
+title: Accorder l’accès aux Portfolios
 user-type: administrator
 product-area: system-administration;portfolios
 navigation-topic: configure-access-to-workfront
 description: En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur aux portefeuilles dans Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 17%
+source-wordcount: '453'
+ht-degree: 16%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 17%
 En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur aux portefeuilles, comme expliqué dans la [présentation des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -41,6 +43,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configuration de l’accès des utilisateurs aux portefeuilles à l’aide d’un niveau d’accès personnalisé
 

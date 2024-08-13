@@ -1,17 +1,17 @@
 ---
-title: Modifier l’ordre d’affichage des conditions
+title: Modification de l’ordre d’affichage des conditions
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Vous pouvez modifier l’ordre d’affichage des conditions lorsqu’un utilisateur modifie un projet ou la condition d’une tâche ou d’un problème.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 45%
+source-wordcount: '187'
+ht-degree: 37%
 
 ---
 
@@ -28,6 +28,8 @@ Vous pouvez modifier l’ordre dans lequel les conditions s’affichent dans les
   ![](assets/change-conditions-list-dropdown-only.png)
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -50,9 +52,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Modifier l’ordre d’affichage des conditions
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Préférences du projet** > **Conditions**.
 

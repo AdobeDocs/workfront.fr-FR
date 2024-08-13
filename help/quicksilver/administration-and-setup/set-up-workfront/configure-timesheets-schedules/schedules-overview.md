@@ -4,13 +4,13 @@ content-type: overview
 product-area: system-administration;timesheets
 keywords: user,schedule
 navigation-topic: configure-timesheets-and-schedules
-title: Vue d’ensemble des plannings
+title: Présentation des planifications
 description: Vous pouvez définir votre semaine de travail à l’aide de plannings. Vous pouvez associer un planning à un utilisateur ou à un projet. Cela permet à  [!DNL Adobe Workfront] de calculer la chronologie et la disponibilité de l’utilisateur. Pour plus d’informations, voir Création d’un planning.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%

@@ -5,14 +5,14 @@ product-area: system-administration
 navigation-topic: access-levels
 title: Accès aux objets et aux zones par type de licence
 description: Le tableau ci-dessous indique le niveau d’accès le plus élevé (Modifier ou Afficher) que chacune des licences Adobe Workfront autorise pour les objets et les zones de Workfront.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 

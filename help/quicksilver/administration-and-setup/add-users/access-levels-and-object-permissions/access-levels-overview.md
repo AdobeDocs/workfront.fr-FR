@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user
 navigation-topic: access-levels
 description: Chaque utilisateur doit disposer d’un niveau d’accès pour se connecter et travailler dans Workfront. Vous utilisez le niveau d’accès pour contrôler ce qu’un utilisateur peut voir et faire avec certains objets et zones Workfront. Chacun des six niveaux d’accès intégrés est associé à l’une des cinq licences Workfront, qui sont Plan, Travail, Révision, Demande et Externe.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 3%

@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Désactivation de l’authentification unique dans Adobe Workfront
 description: Vous pouvez désactiver l’authentification unique dans Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d661da6-dc7b-4dea-a56c-28e296acd980
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 56%
+source-wordcount: '161'
+ht-degree: 48%
 
 ---
 
@@ -23,6 +23,8 @@ Après avoir désactivé l’authentification unique (SSO) dans Adobe Workfront,
 
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,9 +47,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Désactiver l’authentification unique
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Système** > **Authentification unique (SSO)**.
 

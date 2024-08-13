@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
-title: Configurer Adobe Workfront avec SAML 2.0 à l’aide d’ADFS
+title: Configuration d’Adobe Workfront avec SAML 2.0 avec ADFS
 description: Vous pouvez activer l’authentification vers Workfront avec SAML 2.0.
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 13%
+source-wordcount: '878'
+ht-degree: 11%
 
 ---
 
@@ -24,6 +24,8 @@ En tant qu’administrateur Adobe Workfront, vous pouvez intégrer Workfront à 
 Ce guide se concentre sur la configuration d’ADFS sans mise en service automatique ni mappages d’attributs. Nous vous recommandons de terminer la configuration et de la tester avant de configurer toute configuration automatique.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -46,6 +48,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Activation de l’authentification vers Workfront avec SAML 2.0
 
 Pour activer l’authentification à l’application web Workfront et à l’application mobile Workfront avec SAML 2.0, renseignez les sections suivantes :
@@ -57,7 +61,8 @@ Pour activer l’authentification à l’application web Workfront et à l’app
 
 ### Récupération du fichier de métadonnées SSO Workfront {#retrieve-the-workfront-sso-metadata-file}
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Dans le panneau de gauche, cliquez sur **Système** > **Connexion unique (SSO)**.
 1. Dans le menu déroulant **Type**, cliquez sur **SAML 2.0** pour afficher des informations et des options supplémentaires.
 1. Copiez l’URL qui s’affiche après **URL de métadonnées**.

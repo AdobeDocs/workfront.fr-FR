@@ -1,17 +1,17 @@
 ---
-title: Accorder l’accès aux filtres, vues et regroupements
+title: Accorder l’accès aux filtres, aux vues et aux groupes
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 description: En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur aux contrôles de filtrage, d’affichage et de regroupement pour les listes et les rapports.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 24%
+source-wordcount: '422'
+ht-degree: 23%
 
 ---
 
@@ -22,6 +22,8 @@ En tant qu&#39;administrateur Adobe Workfront, vous pouvez utiliser un niveau d&
 Pour plus d’informations sur les contrôles de filtrage, d’affichage et de regroupement, voir [Éléments de reporting : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,6 +45,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configurer l’accès des utilisateurs aux filtres, aux vues et aux regroupements à l’aide d’un niveau d’accès personnalisé
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: single-sign-on-in-workfront
-title: Mettre à jour les utilisateurs et utilisatrices pour l’authentification unique
+title: Mise à jour des utilisateurs pour l’authentification unique
 description: Vous pouvez mettre à jour les utilisateurs pour l’authentification unique dans Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '802'
 ht-degree: 8%
 
 ---
@@ -120,9 +120,9 @@ Vous pouvez commencer à préparer votre fichier d’importation en créant un r
 
 Le processus de mise à jour des utilisateurs pour SSO permet d’ajouter le champ Nom d’utilisateur de SSO à vos utilisateurs Workfront s’il n’y en a pas, ou de mettre à jour la valeur de ce champ si une valeur est déjà associée aux utilisateurs.
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Cliquez sur **Système** , puis sélectionnez **Mettre à jour les utilisateurs pour SSO**.
+1. Cliquez sur **Système**, puis sélectionnez **Mettre à jour les utilisateurs pour SSO**.
 
 1. Cliquez sur **Choisir un fichier** pour rechercher le fichier que vous avez préparé.
 

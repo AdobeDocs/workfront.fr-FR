@@ -1,14 +1,14 @@
 ---
 title: Octroi d’un accès administratif complet à un utilisateur
 description: Vous pouvez accorder aux utilisateurs un accès d’administration complet à Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 14%
+source-wordcount: '1579'
+ht-degree: 13%
 
 ---
 
@@ -34,6 +34,8 @@ En tant qu’administrateur Adobe Workfront, vous pouvez créer un autre adminis
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Octroi d’un accès administrateur système complet à un utilisateur unique
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs et utilisatrices** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Cliquez sur le nom de l’utilisateur auquel vous souhaitez accorder des droits d’administrateur.
 1. Cliquez sur le menu Plus ![](assets/more-icon.png), puis sur **Modifier**.

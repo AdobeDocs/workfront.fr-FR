@@ -1,17 +1,17 @@
 ---
-title: Définir une condition personnalisée comme condition par défaut pour les projets
+title: Définition d’une condition personnalisée comme valeur par défaut pour les projets
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Si le type de condition d’un projet est défini sur État de progression au lieu de Manuel, Adobe Workfront affiche automatiquement l’une des trois conditions par défaut intégrées au projet (Sur la cible, À risque ou En danger) au fur et à mesure de sa progression, comme expliqué dans Aperçu de la condition et du type de condition du projet.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 25%
+source-wordcount: '348'
+ht-degree: 20%
 
 ---
 
@@ -24,6 +24,8 @@ Si le type de condition d’un projet est défini sur État de progression au li
 Vous pouvez définir vos conditions personnalisées comme conditions par défaut au lieu d’utiliser ces trois conditions par défaut intégrées. Par exemple, vous pouvez modifier la condition Par défaut Sur la cible pour qu’elle s’affiche comme Tracking Well dans tous les projets.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -46,9 +48,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Définissez une condition personnalisée comme condition par défaut pour tous les projets :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Préférences du projet** > **Conditions**.
 

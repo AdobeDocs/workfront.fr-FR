@@ -1,14 +1,14 @@
 ---
-title: Accorder l’accès au planificateur de scénarios
+title: Accorder l’accès au planificateur de scénario
 description: En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un niveau d’accès pour définir l’accès d’un utilisateur au planificateur de scénarios.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 17%
+source-wordcount: '697'
+ht-degree: 16%
 
 ---
 
@@ -19,6 +19,8 @@ En tant qu’administrateur d’Adobe Workfront, vous pouvez utiliser un niveau 
 Outre l’accès au planificateur de scénarios, un utilisateur disposant d’un niveau d’accès administrateur non système doit également avoir accès aux données financières afin de voir toutes les informations financières contenues dans un plan, telles que les budgets, les coûts et les taux de rôle de travail. Pour plus d’informations, voir [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -50,6 +52,8 @@ Vous devez disposer des éléments suivants :
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+
++++
 
 ## Configurer l’accès des utilisateurs au planificateur de scénarios à l’aide d’un niveau d’accès personnalisé
 

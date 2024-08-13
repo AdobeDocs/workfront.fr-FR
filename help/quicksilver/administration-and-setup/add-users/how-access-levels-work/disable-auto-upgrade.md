@@ -1,19 +1,19 @@
 ---
-title: Désactiver l’option de mise à niveau automatique pour les utilisateurs et utilisatrices non payants du nouveau forfait de licence
+title: Désactivation de l’option de mise à niveau automatique pour les utilisateurs non payés du nouveau plan de licence
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,standard,light,contributor
 navigation-topic: access-levels
 description: Chaque utilisateur doit disposer d’un niveau d’accès pour se connecter et travailler dans Workfront. Vous utilisez le niveau d’accès pour contrôler ce qu’un utilisateur peut voir et faire avec certains objets et zones Workfront.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 31%
+source-wordcount: '216'
+ht-degree: 24%
 
 ---
 
@@ -28,6 +28,8 @@ Vous pouvez désactiver l’option de mise à niveau automatique dans la zone de
 >Une fois désactivé, tout utilisateur non payant qui passe en revue le nombre de décisions autorisé ne sera pas automatiquement mis à niveau.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -51,6 +53,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Désactivation des mises à niveau automatiques pour les utilisateurs non payants
 

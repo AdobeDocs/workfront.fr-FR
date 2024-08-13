@@ -1,5 +1,5 @@
 ---
-title: Conditions d’accès préalables dans la documentation Workfront
+title: Conditions d’accès requises dans la documentation Workfront
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user
@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 

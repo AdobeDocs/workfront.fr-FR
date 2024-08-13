@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: accès,modèle,entonnoir,diagramme,niveaux,autorisations
 navigation-topic: access-levels
 description: L’administrateur Adobe Workfront détermine le niveau d’accès que chaque utilisateur doit avoir. Ce niveau d’accès définit ce que les utilisateurs peuvent voir et faire avec les types d’objets et les zones du système.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 2%

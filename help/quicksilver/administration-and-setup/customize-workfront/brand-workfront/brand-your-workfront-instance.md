@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: En tant qu’administrateur de Workfront, vous pouvez attribuer une marque à Workfront avec des logos dans l’écran de connexion, la zone de navigation supérieure et le menu principal. Vous pouvez également modifier l’image d’arrière-plan et la couleur de l’écran de connexion.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 14%
+source-wordcount: '912'
+ht-degree: 12%
 
 ---
 
@@ -57,6 +57,8 @@ Vous pouvez également modifier l’image d’arrière-plan et la couleur de l�
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -78,9 +80,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Marque l’écran de connexion
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Système** > **Marque**.
 
