@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 56%
+source-wordcount: '521'
+ht-degree: 52%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 56%
 Dans Adobe Workfront Planning, les espaces de travail sont des emplacements centralisés permettant aux équipes de planifier le travail.
 
 Un espace de travail est une collection de types d’enregistrements utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Vous pouvez entièrement personnaliser les espaces de travail dans Adobe Workfront Planning.
+
+Pour obtenir des informations générales sur les espaces de travail, consultez la [présentation des espaces de travail](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## Conditions d’accès
 
@@ -95,27 +97,6 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Considérations relatives aux espaces de travail
-
-* Vous pouvez créer des espaces de travail pour des entités organisationnelles spécifiques au sein de votre entreprise, afin de correspondre au fonctionnement unique de chaque entité.
-* Selon votre licence Workfront, les espaces de travail s’affichent dans les onglets suivants de la zone Planification :
-
-   * Pour les administrateurs système, les espaces de travail s’affichent dans les onglets suivants :
-
-      * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Autres espaces de travail** : affiche tous les autres espaces de travail du système, y compris ceux partagés avec vous. &lt;!—Remplacer par : autres espaces de travail : affiche tous les autres espaces de travail du système. >
-
-   * Pour tous les autres utilisateurs, les espaces de travail qu’ils ont créés et les espaces de travail que d’autres utilisateurs ont partagés avec eux s’affichent dans la zone Espaces de travail .
-
-* Les types d’enregistrements contenus dans un espace de travail doivent correspondre au cycle de vie du travail d’une entité organisationnelle.
-* Lorsque vous créez un espace de travail, vous seul êtes autorisé à y accéder et à le gérer. Vous devez le partager avec d’autres utilisateurs et utilisatrices afin qu’ils ou elles puissent collaborer avec vous dans le même espace. Pour plus d’informations, voir [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md). Les administrateurs et administratrices système peuvent gérer tous les espaces de travail, même ceux qu’ils ou elles n’ont pas créés.
-* Vous pouvez disposer des éléments suivants :
-
-   * Jusqu’à 50 sections dans un espace de travail.
-   * Jusqu’à 1 000 types d’enregistrements de toutes les sections dans un espace de travail. Tous les types d’enregistrements sont propres à chaque espace de travail. <!--this might change-->
-   * Jusqu’à 1 000 espaces de travail dans l’instance Workfront de votre entreprise.
-
-
 ## Créer un espace de travail
 
 Vous pouvez créer un espace de travail et y ajouter des types d’enregistrement afin d’organiser vos objets dans la planification Workfront. Pour plus d’informations sur la modification d’un espace de travail, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
@@ -153,7 +134,7 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
    * Espace de travail vide **Workspace sans titre** où vous pouvez commencer à ajouter manuellement des types d’enregistrement lorsque vous créez un espace de travail à partir de zéro.
    * Espace de travail nommé d’après le modèle que vous avez sélectionné et rempli avec des exemples de types d’enregistrement. Vous pouvez personnaliser davantage les types d’enregistrement et l’espace de travail.
 
-   Pour les administrateurs Workfront, le nouvel espace de travail s’affiche sur l’onglet **Mes espaces de travail** . <!--replace this with: Workspaces I'm on tab-->
+   Pour les administrateurs Workfront, le nouvel espace de travail s’affiche sur l’onglet **Mes espaces de travail** . <!--replace this with: **Workspaces I'm on** tab-->
 1. Cliquez à l’intérieur du nom de l’espace de travail dans l’en-tête du nouvel espace de travail pour le renommer, puis appuyez sur Entrée.
 
 1. (Facultatif et le cas échéant) Si vous avez créé l’espace de travail à partir d’un modèle, cliquez dans le nom des sections **Types d’enregistrements opérationnels** ou **Taxonomies**.

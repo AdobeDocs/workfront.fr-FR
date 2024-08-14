@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 85%
+source-wordcount: '1888'
+ht-degree: 84%
 
 ---
 
@@ -128,7 +128,7 @@ Pour gérer une vue chronologique, procédez comme suit :
 
 1. Pour parcourir la chronologie, effectuez l’une des opérations suivantes :
 
-   * Cliquez sur les icônes gauche et droite ou utilisez le défilement horizontal pour avancer ou reculer dans la chronologie.
+   * Cliquez sur les icônes gauche et droite ou utilisez le défilement horizontal pour passer d’un plan à l’autre dans la chronologie. L’actualisation de la page préserve la période sélectionnée.
    * Cliquez sur **Aujourd’hui** pour centrer la chronologie sur la date d’aujourd’hui.
    * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 

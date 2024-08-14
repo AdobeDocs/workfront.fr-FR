@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 98%
+source-wordcount: '185'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ En outre, Workfront Planning peut créer un lien à des types d’objets d’au
 
 Les articles présentés dans les sections suivantes décrivent comment configurer les espaces de travail Adobe Workfront Planning, définir les types d’enregistrements qui sont les blocs de construction de ces espaces de travail et commencer à utiliser ses fonctionnalités :
 
+* [Présentation des espaces de travail](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Types d’enregistrement - Aperçu](/help/quicksilver/planning/architecture/overview-of-record-types.md)

@@ -1,13 +1,13 @@
 ---
-title: Connexion aux types d’enregistrement - Aperçu
+title: Présentation des types d’enregistrement de connexion
 description: Une façon d’indiquer comment les types d’enregistrements individuels sont associés les uns aux autres consiste à les connecter. En outre, vous pouvez connecter les types d’enregistrements Adobe Workfront Planning aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et utilisatrices et de garder leur attention sur une seule application.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 36%
+source-wordcount: '1086'
+ht-degree: 31%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Vous pouvez indiquer que les types d’enregistrement individuels sont liés les uns aux autres ou aux objets d’autres applications en les connectant.
 
-Cet article présente la manière dont les types d’enregistrement se connectent et décrit les types de connexions que vous pouvez établir entre les types d’enregistrement et d’objet.
+Cet article présente un aperçu des connexions de type enregistrement et décrit les types de connexions que vous pouvez établir entre les types d’enregistrement et d’objet.
 
 Pour plus d’informations sur la connexion des types d’enregistrement, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -29,9 +29,9 @@ Pour plus d’informations sur la connexion des types d’enregistrement, voir [
 
 * Vous pouvez connecter les entités suivantes dans Adobe Workfront Planning :
 
-   * Deux types d’enregistrements
+   * Deux types d’enregistrement.
 
-     Les types d’enregistrements doivent appartenir au même espace de travail.
+     Par défaut, vous pouvez connecter deux types d’enregistrement à partir du même espace de travail. Vous pouvez également configurer des types d’enregistrement pour vous connecter à des types d’enregistrement à partir d’autres espaces de travail.
    * Type d’enregistrement et type d’objet d’une autre application.
 
 * Vous pouvez connecter les types d’enregistrement de Workfront Planning aux types d’objets suivants à partir des applications suivantes :
@@ -70,38 +70,51 @@ Pour plus d’informations sur la connexion des types d’enregistrement, voir [
       * La planification des champs d’enregistrement n’est pas accessible à partir des objets Workfront.
       * La planification des champs d’enregistrement est accessible à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
 
-   * **Lorsque vous ajoutez des champs liés (ou de recherche) à partir de l’enregistrement ou de l’objet auquel vous vous connectez** : un champ lié (ou de recherche) avec des informations de l’enregistrement auquel vous vous connectez s’affiche sur l’enregistrement à partir duquel vous vous connectez.
+   * **Lorsque vous ajoutez des champs liés (ou de recherche) à partir de l’enregistrement ou de l’objet auquel vous vous connectez** : en plus de la création d’un champ d’enregistrement lié, vous pouvez également vous connecter à des champs de l’enregistrement ou du type d’objet connecté qui sont appelés champs de recherche. Un champ lié (ou de recherche) contenant des informations de l’enregistrement auquel vous vous connectez s’affiche sur l’enregistrement à partir duquel vous vous connectez.
 
      Vous pouvez connecter des champs d’autres types d’enregistrement ou d’objets d’une autre application au type d’enregistrement de Workfront Planning.
 
      Les champs liés sont en lecture seule et affichent automatiquement les informations des enregistrements ou des objets connectés lorsque vous connectez les enregistrements ou les objets.
 
+     Vous pouvez vous référer aux champs de recherche d’autres types d’enregistrement ou d’objets dans des formules, des filtres ou des regroupements.
+
      Par exemple, si vous connectez le type d’enregistrement « Campagne » à un projet Workfront et que vous choisissez d’intégrer le champ Date d’achèvement prévue du projet à l’enregistrement Workfront Planning, un champ lié nommé Date d’achèvement prévue (du projet) est automatiquement créé pour la campagne. Vous ne pouvez pas modifier manuellement ce champ lié. Le champ Date d’achèvement prévue (du projet) affiche la date d’achèvement prévue des projets liés.
 
      >[!IMPORTANT]
      >
-     >Toute personne disposant d’autorisations d’affichage ou supérieures sur l’espace de travail peut afficher les informations dans les champs liés, indépendamment de ses autorisations ou de son niveau d’accès dans l’application des types d’objets liés.
+     >Toutes les personnes disposant d’autorisations de vue ou supérieures sur l’espace de travail peuvent afficher les informations dans les champs de recherche, indépendamment de leurs autorisations ou de leur niveau d’accès dans l’application des types d’objets liés <!--or their permissions in other workspaces-->.
+
+<!--see the commented out text above for the release of cross-workspace connections-->
 
 * Les champs d’enregistrement liés sont précédés d’une icône de relation ![](assets/relationship-field-icon.png).
 
   Les champs liés sont précédés d’une icône qui identifie le type de champ. Par exemple, les champs liés (ou recherche) sont précédés d’icônes indiquant qu’un champ est un nombre, un paragraphe ou une date.
 
-* Les champs de recherche sont précédés d’une icône qui indique le type d’information affiché dans le champ.
 
 ## Types de connexion
 
 Après avoir établi une connexion entre deux types d’enregistrements ou entre un type d’enregistrement et d’objet à partir d’une autre application, vous pouvez ajouter des enregistrements dans les champs d’enregistrement connectés.
 
-Selon le nombre d’enregistrements que vous pouvez ajouter à une connexion, voici les types de connexions parmi lesquels vous pouvez choisir lors de la connexion des types d’enregistrements :
+Selon le nombre d’enregistrements que vous pouvez ajouter à un champ d’enregistrement connecté, voici les types de connexions parmi lesquels vous pouvez choisir lors de la connexion des types d’enregistrement :
 
-* [Un à plusieurs](#one-to-many-connection-type)
-* [Un à un](#many-to-one-connection-type)
-* [Beaucoup à un](#many-to-one-connection-type)
-* [Beaucoup à plusieurs](#many-to-many-connection-type)
+* [Un-à-multiple](#one-to-many-connection-type)
+* [Un-à-un](#many-to-one-connection-type)
+* [Multiple-à-un](#many-to-one-connection-type)
+* [Multiple-à-multiple](#many-to-many-connection-type)
+
+>[!WARNING]
+>
+>Ces options ne sont pas disponibles lors de la connexion des éléments suivants :
+>* Deux enregistrements provenant de différents espaces de travail
+>
+>* Type d’enregistrement et AEM ressources
+
 
 <!-- add screen shots for each type of connection below-->
 
 ### Type de connexion un-à-multiple
+
+![](assets/one-to-many-connection-picker.png)
 
 Lorsque vous sélectionnez le type de connexion un-à-multiple entre les types d’enregistrement, vous pouvez ensuite connecter un enregistrement à plusieurs enregistrements auxquels vous vous connectez.
 
@@ -111,6 +124,8 @@ Lorsque vous sélectionnez ce type de connexion, vous ne pouvez le changer plus 
 
 ### Type de connexion un-à-un
 
+![](assets/one-to-one-connection-picker.png)
+
 Lorsque vous sélectionnez le type de connexion un-à-un entre les types d’enregistrement, vous pouvez ensuite connecter un enregistrement à un autre enregistrement auquel vous vous connectez.
 
 Par exemple, si vous connectez des campagnes à des projets, vous pouvez connecter une campagne à un seul projet. Un projet ne peut être connecté qu’à une seule campagne.
@@ -118,6 +133,8 @@ Par exemple, si vous connectez des campagnes à des projets, vous pouvez connect
 Lorsque vous sélectionnez ce type de connexion, vous pouvez le modifier ultérieurement en tout autre type de connexion.
 
 ### Type de connexion multiple-à-un
+
+![](assets/many-to-one-connection-picker.png)
 
 Lorsque vous sélectionnez le type de connexion multiple-à-un entre les types d’enregistrement, vous pouvez ensuite connecter plusieurs enregistrements avec un seul enregistrement auquel vous vous connectez.
 
@@ -127,8 +144,11 @@ Lorsque vous sélectionnez ce type de connexion, vous ne pouvez le changer plus 
 
 ### Type de connexion multiple-à-multiple
 
+![](assets/many-to-many-connection-picker.png)
+
 Lorsque vous sélectionnez le type de connexion multiple-à-multiple entre les types d’enregistrement, vous pouvez ensuite connecter de nombreux enregistrements à plusieurs enregistrements auxquels vous vous connectez.
 
 Par exemple, si vous connectez des campagnes à des projets, vous pouvez connecter plusieurs campagnes à plusieurs projets. Vous pouvez également connecter plusieurs projets à plusieurs campagnes.
 
 Lorsque vous sélectionnez ce type de connexion, vous ne pouvez pas le modifier après l’avoir enregistré.
+

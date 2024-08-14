@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 66%
+source-wordcount: '415'
+ht-degree: 62%
 
 ---
 
@@ -136,11 +136,11 @@ Pour plus d’informations sur les types d’enregistrement, voir [Présentation
    L’espace de travail et les types d’enregistrement s’affichent.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Passez la souris sur la carte de type enregistrement, cliquez sur le menu Plus, puis **Supprimer**.
+   * Passez la souris sur la carte de type enregistrement, cliquez sur le menu **Plus** , puis **Supprimer**.
    * Cliquez sur la carte du type d’enregistrement que vous souhaitez supprimer, puis, dans la page du type d’enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom du type d’enregistrement, puis cliquez sur **Supprimer**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
 1. Saisissez **delete** dans la boîte de confirmation, puis cliquez sur **Supprimer définitivement**. Ceci n’est pas sensible à la casse.
 
-   Le type d’enregistrement sélectionné, ainsi que leurs champs, enregistrements associés et vues, sont supprimés.
+   Le type d’enregistrement sélectionné, ainsi que leurs champs, enregistrements associés et vues, sont supprimés et ne peuvent pas être récupérés.

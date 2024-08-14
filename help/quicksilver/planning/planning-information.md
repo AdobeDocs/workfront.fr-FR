@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 37%
+source-wordcount: '535'
+ht-degree: 33%
 
 ---
 
@@ -40,15 +40,16 @@ Les articles des sections répertoriées ci-dessous décrivent comment configure
 >
 >La documentation référencée dans les sections ci-dessous sera disponible une fois les fonctionnalités publiées dans l’environnement de production.
 
-## Vue d’ensemble générale d’Adobe Workfront Planning
+## Informations générales sur la planification Adobe Workfront
 
-Accédez aux articles suivants pour une vue d’ensemble du nouveau Workfront Planning :
+Accédez aux articles suivants pour obtenir des informations générales sur la nouvelle planification de Workfront :
 
 <!--update the video when we have something better, especially after early access - remove it-->
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Vue d’ensemble d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md) : une vue d’ensemble de haut niveau d’Adobe Workfront Planning, y compris la terminologie et les concepts propres à cette solution. Nous vous recommandons de commencer votre parcours avec Workfront Planning ici.
+* [Présentation des limites des objets de planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md) : liste des limites du nombre d’objets que vous pouvez créer dans Workfront Planning.
 * [Activité de mise à jour en cours d’Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md) : liste de toutes les fonctionnalités publiées depuis le lancement du programme de planification Adobe Workfront, le 22 mai 2023, avec les dates de publication exactes et un bref aperçu de chaque fonctionnalité.
 * [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l’assistant de planification Workfront AI, vous pouvez rechercher des enregistrements, ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et laisser l’assistant effectuer le travail à votre place.
 
@@ -76,7 +77,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
    * Créer, modifier et supprimer des espaces de travail
    * Créer, modifier et supprimer des types d’enregistrement
    * Connexion de types d’enregistrement et d’exemples de connexion de types d’enregistrement
-   * Modèle Workspace
+   * Modèles Workspace
 
 * [Fields : article index](/help/quicksilver/planning/fields/fields-information.md) contient les informations suivantes :
 

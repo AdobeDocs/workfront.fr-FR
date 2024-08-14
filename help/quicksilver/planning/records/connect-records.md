@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 72%
@@ -147,7 +147,6 @@ Pour plus d’informations, consultez les [Conditions d’accès dans la documen
 * Toute personne ayant accès à Workfront Planning et disposant d’autorisations d’affichage ou supérieures à l’espace de travail peut voir les connexions que vous effectuez entre des enregistrements ou entre des enregistrements et des objets d’autres applications. Elles peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
 * Vous pouvez afficher et modifier les connexions de toutes les autres personnes, si vous disposez d’autorisations de gestion pour l’espace de travail dans lequel se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement à un ou plusieurs objets à partir d’une autre application.
-
 * Vous pouvez connecter des objets de Workfront à des enregistrements Workfront Planning dans les zones suivantes :
    * À partir d’un enregistrement de planification dans la planification Workfront.
    * Dans la section Planification d’un objet Workfront.

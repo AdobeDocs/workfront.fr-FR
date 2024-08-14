@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 31%
+source-wordcount: '157'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,9 @@ Consultez les articles suivants :
 * [Vue d’ensemble d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Principes de base des API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md)
+* [Présentation des limites des objets de la planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md)
 * [Activité de mise à jour en cours de la planification Adobe Workfront](/help/quicksilver/planning/general/release-activity.md)
 * [Archives de l’activité de planification Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+
 
 
