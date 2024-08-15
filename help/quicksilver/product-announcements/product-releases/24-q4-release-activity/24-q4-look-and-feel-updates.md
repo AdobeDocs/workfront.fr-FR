@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '388'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Pour plus d’informations, voir [Configuration des préférences système](/hel
 
 >[!NOTE]
 >
->Aperçu de la version : 1er août 2024 ; Production pour une version rapide : avec la version 24.8 (août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+>Aperçu de la version : 1er août 2024 ; Production pour une version rapide : avec la version 24.8 (15 août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
 
 Les messages de confirmation de suppression et de désactivation de l’utilisateur visibles par les utilisateurs lors de la suppression ou de la désactivation d’un utilisateur ont été mis à jour afin d’obtenir une conception plus moderne et cohérente avec d’autres zones de Workfront.
 
@@ -42,7 +42,7 @@ Pour plus d&#39;informations sur la suppression et la désactivation des utilisa
 
 >[!NOTE]
 >
->Aperçu de la version : 1er août 2024 ; Production pour une version rapide : avec la version 24.8 (août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+>Aperçu de la version : 1er août 2024 ; Production pour une version rapide : avec la version 24.8 (15 août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
 
 Nous avons mis à jour la page des groupes de ressources avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -62,8 +62,8 @@ Pour plus d&#39;informations sur la suppression d&#39;une tâche, voir [Suppress
 
 >[!NOTE]
 >
->Aperçu de la version : 17 juillet 2024 ; Production pour une version rapide : avec la version 24.8 (août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+>Aperçu de la version : 17 juillet 2024 ; Production pour une version rapide : avec la version 24.8 (15 août 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
 
 Nous avons mis à jour la page Notification (accessible en cliquant sur l’icône de notification dans la barre d’outils principale, puis en cliquant sur Toutes les notifications) avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
-Pour plus d’informations, voir [Créer et gérer les fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Pour plus d’informations, voir [Affichage et gestion des notifications in-app](/help/quicksilver/workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 57%
+source-wordcount: '1072'
+ht-degree: 47%
 
 ---
 
@@ -34,9 +34,49 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
 
 ## Améliorations Adobe Workfront
 
+* [Améliorations de l’administrateur]
 * [Améliorations des projets](#project-enhancements)
 * [Améliorations de l’intégration](#integration-enhancements)
 * [Autres améliorations](#other-enhancements)
+
+### Améliorations d’administration
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Fonctionnalité</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Dates de version</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Le bouton Disposition sur le concepteur de formulaire personnalisé accepte deux ou trois colonnes</a></p>
+                        <p>Un bouton "Disposition" sur le concepteur de formulaire personnalisé vous permet de choisir parmi une zone de travail de deux ou trois colonnes. Le concepteur de formulaire d’origine utilise trois colonnes et les paramètres de champ s’affichent dans la colonne à l’extrême droite. Si vous sélectionnez deux colonnes, les paramètres du champ s’affichent en regard de la bibliothèque de champs dans la colonne située à l’extrême gauche.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : mardi 12 août 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.9 (septembre 2024)</p>
+                            </li>
+                            <li>
+                                <p>Version de production pour tous les clients : à déterminer</p>
+                            </li>
+                        </ul>
+                        <p><i>Cette fonctionnalité fait partie d’une version par étapes et sera disponible pour un nombre limité de clients en septembre.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Améliorations des projets
 
@@ -77,7 +117,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p>
-                        [!BADGE en production pour version rapide ]{type=Positif}
+                        [!BADGE In production ]{type=Informative}
                         <p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -154,7 +194,29 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Assistant d’Adobe d’IA disponible dans Workfront</a></p>
+                        <p>Afin de vous faciliter la tâche, nous avons ajouté l’assistant AI d’Adobe à Workfront. L’assistant IA peut vous aider en procédant comme suit :</p>
+                        <ul>
+                            <li>Résumer les éléments de travail et les documents, ce qui vous permet d’acquérir rapidement une compréhension générale des tâches, des projets et des ressources.</li>
+                            <li>Fournissant des informations à partir de la documentation Experience League, en apportant des instructions et du matériel de référence dans Workfront, tout en liant à une documentation plus détaillée.</li>
+                            <li>Créer et affiner des formules pour des champs de formulaire personnalisés calculés, générer des formules à partir d’invites de texte ou rechercher des erreurs dans des formules existantes.</li>
+                            </ul>
+                            <p>Votre administrateur Workfront peut activer ou désactiver l’assistant d’IA pour votre entreprise. L’assistant d’IA est disponible pour les instances avec des plans Select, Prime et Ultimate.</p>
+                        </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : jeudi 28 août 2024</p>
+                            </li>
+                            <li>
+                                <p class="preview">Version de production : jeudi 28 août 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                            
            </tbody>
         </table>
 
