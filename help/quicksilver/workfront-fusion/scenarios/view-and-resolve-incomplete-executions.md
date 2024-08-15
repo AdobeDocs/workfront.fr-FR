@@ -7,7 +7,7 @@ description: Le dossier [!UICONTROL  Exécutions incomplètes] stocke les exécu
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 25%
@@ -65,9 +65,13 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 ## Affichage des exécutions incomplètes
 
-Si un module rencontre une erreur lors de son fonctionnement, une nouvelle exécution incomplète est ajoutée au dossier Exécutions incomplètes . Chaque exécution incomplète contient le plan directeur du scénario et tous les lots pouvant être mappés dans le module en échec. La liste des exécutions incomplètes peut être ouverte en cliquant sur l’onglet [!UICONTROL  Exécutions incomplètes] de la page des détails du scénario :
+Si un module rencontre une erreur lors de son fonctionnement, une nouvelle exécution incomplète est ajoutée au dossier Exécutions incomplètes . Chaque exécution incomplète contient le plan directeur du scénario et tous les lots pouvant être mappés dans le module en échec. Vous pouvez ouvrir la liste des exécutions incomplètes en cliquant sur l’onglet [!UICONTROL Exécutions incomplètes] de la page des détails du scénario.
+
+<!--
 
 ![](assets/incomplete-executions-tab-350x102.png)
+
+-->
 
 Pour plus d’informations, voir [Erreurs résultant en exécutions incomplètes](#errors-resulting-into-incomplete-executions).
 

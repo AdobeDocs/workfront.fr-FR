@@ -7,7 +7,7 @@ description: Cet article décrit les paramètres disponibles dans le panneau [!U
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 11%
@@ -132,10 +132,7 @@ La définition de davantage de cycles peut s’avérer utile lorsque vous souhai
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->Le [!UICONTROL nombre maximal de fichiers renvoyés] dans le module [!UICONTROL Dropbox] >[!UICONTROL fichiers de contrôle] est défini sur `10`.
->
->![](assets/max-number-cycles-10-350x175.png)
->
+>Le [!UICONTROL nombre maximal de fichiers renvoyés] dans le module [!UICONTROL Workfront] >[!UICONTROL Surveiller les enregistrements] est défini sur `10`.
 >Si 100 demandes sont envoyées à [!DNL Workfront] et que le champ [!UICONTROL Limit] est défini sur 10, 90 fichiers sont laissés sans traitement après l’exécution d’un scénario. Les 10 fichiers suivants sont traités lors de la prochaine exécution du scénario planifiée.
 >
 >### Le nombre maximal de cycles est défini sur 10.

@@ -7,10 +7,10 @@ description: Détails du scénario dans  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 96%
 
 ---
 
@@ -74,6 +74,10 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
      <tr> 
       <td role="rowheader">[!UICONTROL Modules diagram] </td> 
       <td>Cet onglet affiche la représentation visuelle du scénario. Le diagramme est le même que celui de l’éditeur de scénario.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Rapports] (onglet) </td> 
+      <td> <p>Ouvrez cet onglet pour afficher un graphique du nombre d’opérations effectuées par ce scénario au cours des 30 derniers jours.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL History] (onglet) </td> 

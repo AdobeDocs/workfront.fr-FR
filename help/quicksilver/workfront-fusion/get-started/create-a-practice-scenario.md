@@ -7,7 +7,7 @@ description: Cet article décrit comment créer un scénario d’intégration av
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '2139'
 ht-degree: 39%
@@ -120,7 +120,7 @@ La création d’un scénario se compose de plusieurs tâches principales :
    L’éditeur de scénario s’affiche avec un module vide au centre, l’application [!DNL Google Sheets] que vous avez préchargée et certaines options dans la barre d’outils en bas.
 
 <!--
-   ![](assets/scenario-editor-350x235.png)
+   ![](assets/scenario-editor.png)
 -->
 
 Lorsque vous créez un scénario, il est préférable de commencer par lui donner un nom.
