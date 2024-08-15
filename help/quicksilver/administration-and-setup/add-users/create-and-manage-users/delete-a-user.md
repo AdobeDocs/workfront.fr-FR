@@ -8,14 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 15%
+source-wordcount: '875'
+ht-degree: 17%
 
 ---
 
 # Supprimer des utilisateurs et utilisatrices
+
+>[!IMPORTANT]
+>
+>La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Business Platform. Si vous avez été intégré à Adobe Business Platform, vous devez supprimer des utilisateurs dans Adobe Admin Console.
+>
+>Pour obtenir une liste des procédures qui diffèrent selon que votre organisation a été intégrée à Adobe Business Platform, voir [Différences d’administration en fonction de la plateforme (Adobe Workfront Fusion/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Lorsqu’un utilisateur quitte votre entreprise, vous pouvez le supprimer d’Adobe Workfront.
 

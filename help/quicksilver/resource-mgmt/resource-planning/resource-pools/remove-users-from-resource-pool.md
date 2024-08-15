@@ -6,7 +6,7 @@ description: Bien qu’il n’existe aucune limite au nombre d’utilisateurs po
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 21%
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 # Supprimer des utilisateurs et des utilisatrices de pools de ressources
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 Bien qu’il n’existe aucune limite au nombre d’utilisateurs pouvant appartenir à un pool de ressources, la liste des utilisateurs n’affiche que les 2 000 premiers utilisateurs, classés par ordre alphabétique.
 
@@ -75,6 +75,7 @@ Ou\
    Commencez à saisir le nom d’une entreprise, d’un rôle de tâche, d’une équipe ou d’un groupe si vous souhaitez supprimer tous les utilisateurs associés à ces entités.
 
    <span class="preview">Exemple d’image dans l’environnement de prévisualisation :<span>
+
    ![Supprimer des utilisateurs du pool de ressources](assets/remove-users-from-resource-pool.png)
 
    Exemple d’image dans l’environnement de production :

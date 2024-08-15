@@ -6,7 +6,7 @@ description: Les pools de ressources sont des ensembles d’utilisateurs qui vou
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 16%
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # Créer des pools de ressources
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 Les pools de ressources sont des ensembles d’utilisateurs qui vous aident à gérer plus facilement les ressources dans Adobe Workfront. Pour plus d’informations sur les pools de ressources, consultez la [présentation des pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
