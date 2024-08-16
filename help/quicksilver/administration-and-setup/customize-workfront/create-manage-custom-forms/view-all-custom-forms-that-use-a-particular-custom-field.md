@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Afficher tous les formulaires personnalisés qui utilisent un champ ou un widget personnalisé spécifique
+title: Afficher toutes les Forms personnalisées qui utilisent un champ ou un widget personnalisé spécifique
 description: Vous pouvez déterminer les formulaires personnalisés qui utilisent un champ ou un widget personnalisé que vous souhaitez modifier ou supprimer. Il est important d’évaluer si ces formulaires personnalisés devront être ajustés pour continuer à fonctionner correctement ou pour rester utiles après avoir modifié ou supprimé le champ ou le widget.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 27%
+source-wordcount: '283'
+ht-degree: 26%
 
 ---
 
@@ -22,6 +22,8 @@ Vous pouvez déterminer les formulaires personnalisés qui utilisent un champ ou
 Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -48,6 +50,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Déterminer quels formulaires personnalisés utilisent un champ ou un widget personnalisé spécifique
 

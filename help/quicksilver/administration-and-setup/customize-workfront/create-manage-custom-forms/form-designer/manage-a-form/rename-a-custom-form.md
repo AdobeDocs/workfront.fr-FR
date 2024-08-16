@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 95%
+source-wordcount: '205'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 95%
 Vous pouvez renommer un formulaire personnalisé à tout moment après sa création dans le créateur de formulaire.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -46,6 +48,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Renommer un formulaire personnalisé avec le créateur de formulaires
 

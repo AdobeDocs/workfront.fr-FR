@@ -1,5 +1,5 @@
 ---
-title: Ajouter une logique d’affichage et ignorer la logique dans un formulaire
+title: Ajouter la logique d’affichage et ignorer la logique à un formulaire
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ Vous pouvez choisir quelles sections d’un formulaire personnalisé doivent êt
 >La logique s’applique uniquement à un formulaire et ne peut pas être basée sur des sélections d’un autre formulaire.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -50,6 +52,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Icônes Logique d’affichage et Logique de saut
 

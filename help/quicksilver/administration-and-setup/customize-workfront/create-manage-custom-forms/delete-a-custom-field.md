@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Supprimer un champ personnalisé ou un widget du système
+title: Suppression d’un champ ou d’un widget personnalisé du système
 description: Pour améliorer les performances du système et faciliter l’utilisation des formulaires pour les utilisateurs, vous pouvez supprimer des champs et des widgets personnalisés de votre système lorsqu’ils ne sont plus utilisés.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 15%
+source-wordcount: '563'
+ht-degree: 13%
 
 ---
 
@@ -28,6 +28,8 @@ Pour améliorer les performances du système et faciliter l’utilisation des fo
 >Ou, pour une solution de contournement, vous pouvez utiliser pour éviter de perdre des données dans les champs qui ne sont plus utilisés, voir [Supprimer un champ personnalisé sans perdre les données que les utilisateurs ont entrées](#remove-a-custom-field-without-losing-data-that-users-have-entered) dans cet article.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -54,6 +56,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Supprimer un champ personnalisé ou un widget du système
 

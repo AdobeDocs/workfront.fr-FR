@@ -1,5 +1,5 @@
 ---
-title: Désactiver ou réactiver un formulaire personnalisé
+title: Désactivation ou réactivation d’un formulaire personnalisé
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 17%
+source-wordcount: '367'
+ht-degree: 14%
 
 ---
 
@@ -24,6 +24,8 @@ Vous pouvez réactiver ou désactiver un formulaire personnalisé. Nous vous rec
 >Si un formulaire personnalisé est désactivé mais fait toujours partie d’une rubrique de file d’attente ou d’une définition de file d’attente de requêtes, il sera joint à de nouvelles requêtes. Si vous ne souhaitez pas que le formulaire figure dans les requêtes, vous devez le supprimer manuellement de la file d’attente des requêtes.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -50,6 +52,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Désactivation d’un formulaire personnalisé
 
