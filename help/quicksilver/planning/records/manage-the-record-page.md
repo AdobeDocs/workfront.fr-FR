@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 14%
+source-wordcount: '1054'
+ht-degree: 13%
 
 ---
 
@@ -145,11 +145,11 @@ Pour ajouter une section à un aperçu d’enregistrement ou à une page :
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
-   La page de l’enregistrement s’ouvre.
+   La page d’enregistrement s’ouvre. <!--The Details tab opens by default. -->
 
    ![](assets/details-page.png)
 
-1. Dans l’aperçu de l’enregistrement ou la page, passez la souris sur l’espace blanc situé à gauche des champs, puis cliquez sur l’icône **Ajouter une section** ![](assets/add-section-icon.png) pour ajouter une section.
+1. Dans la page ou l’aperçu de l’enregistrement <!--**Details** tab of the-->, passez la souris sur l’espace blanc situé à gauche des champs, puis cliquez sur l’icône **Ajouter une section** ![](assets/add-section-icon.png) pour ajouter une section.
 1. Cliquez dans le nom de la section et remplacez **Section sans titre** par un nom, puis cliquez sur Entrée. Les champs affichés sous la section font automatiquement partie de la nouvelle section.
 1. Commencez à faire glisser des champs vers la nouvelle section, comme décrit dans la section [Réorganiser les champs dans la page de prévisualisation des enregistrements ou de détails](#rearrange-fields-in-the-record-preview-or-details-page) de cet article.
 
@@ -182,7 +182,13 @@ Par défaut, toutes les sections sont développées.
 
    Toutes les modifications apportées aux sections et à l’ordre des champs sont enregistrées automatiquement.
 
-## Réorganiser les champs dans la page de prévisualisation des enregistrements ou de détails
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## Réorganiser les champs dans l’aperçu ou la page de l’enregistrement
 
 {{step1-to-planning}}
 

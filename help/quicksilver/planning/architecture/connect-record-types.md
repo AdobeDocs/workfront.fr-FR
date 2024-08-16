@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 61%
@@ -39,7 +39,7 @@ Cet article décrit comment vous pouvez connecter deux types d’enregistrement 
 
 Après avoir établi la connexion entre les enregistrements ou les types d’objets, vous pouvez connecter des enregistrements individuels les uns aux autres et afficher les champs de l’enregistrement ou des types d’objets liés sur un enregistrement Workfront Planning.
 
-<!-- uncomment out for the release close to GA: For general information about connection types, see [Connection record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 Pour plus d’informations sur la connexion d’un enregistrement Adobe Workfront Planning à un objet à partir d’une autre application, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
@@ -240,7 +240,7 @@ Pour un exemple de connexion de types d&#39;enregistrements et d&#39;enregistrem
         * Many to one
         * Many to many
         
-        For information about connection types, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+        For information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
    * **Sélectionner les champs de recherche** : sélectionnez cette option pour ajouter les champs du type d’enregistrement sélectionné. Les champs de recherche sont des champs associés au type d’enregistrement ou d’objet vers lequel vous établissez un lien. La création d’un lien affiche les informations de l’enregistrement ou de l’objet vers lequel vous établissez un lien dans l’enregistrement à partir duquel vous établissez un lien. Cette option est sélectionnée par défaut.
 
      >[!TIP]

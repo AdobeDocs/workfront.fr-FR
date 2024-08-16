@@ -1,10 +1,10 @@
 ---
-title: Présentation des types d’enregistrement de connexion
+title: Présentation des types d’enregistrement connectés
 description: Une façon d’indiquer comment les types d’enregistrements individuels sont associés les uns aux autres consiste à les connecter. En outre, vous pouvez connecter les types d’enregistrements Adobe Workfront Planning aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et utilisatrices et de garder leur attention sur une seule application.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 31%
@@ -15,7 +15,7 @@ ht-degree: 31%
 <!--update metadata at GA-->
 <!--add mini TOC when live, already added to big TOC to get the link-->
 
-# Connexion aux types d’enregistrement - Aperçu
+# Types d’enregistrement connectés - Aperçu
 
 <!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 

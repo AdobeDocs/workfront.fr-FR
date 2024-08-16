@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '1836'
-ht-degree: 78%
+source-wordcount: '1855'
+ht-degree: 77%
 
 ---
 
@@ -103,6 +103,9 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Accès aux enregistrements de planification à partir d’objets Workfront | ✓ |                                  |                 |
 | Connexion d’enregistrements de planification à partir d’objets Workfront | ✓ |                                  |                 |
 | API publique de planification Workfront | ✓ |                                  |                 |
+| Assistant d’IA pour la planification Workfront* | ✓ |                                  |                 |
+
+*L’assistant d’IA a été temporairement supprimé et reviendra ultérieurement.
 
 ## Activer Adobe Workfront Planning pour les utilisateurs et utilisatrices de votre instance Workfront
 

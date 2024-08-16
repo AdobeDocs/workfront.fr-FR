@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 9%
+source-wordcount: '663'
+ht-degree: 8%
 
 ---
 
@@ -97,7 +97,9 @@ Pour plus d’informations, consultez les [Conditions d’accès dans la documen
 
 ## Points à prendre en compte concernant la section Planification des objets Workfront
 
-* Tout d’abord, vous devez connecter les types d’enregistrements aux types d’objets Workfront et les enregistrements aux objets Workfront pour les afficher dans Workfront.
+* Les types d’enregistrement de la planification Workfront doivent être connectés aux types d’objets Workfront.
+
+* Au moins un enregistrement doit être connecté à un objet Workfront pour pouvoir afficher les enregistrements dans Workfront.
 
   Pour plus d’informations, voir les articles suivants :
 

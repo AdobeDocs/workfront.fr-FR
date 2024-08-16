@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ec3c9668154cdfdd509d37e9621af717f1363d15
 workflow-type: tm+mt
-source-wordcount: '2495'
-ht-degree: 72%
+source-wordcount: '2292'
+ht-degree: 71%
 
 ---
 
@@ -31,6 +31,8 @@ hide: yes
 {{planning-important-intro}}
 
 Vous pouvez connecter des enregistrements d’Adobe Workfront Planning les uns aux autres ou aux objets d’autres applications.
+
+Cet article décrit comment connecter des enregistrements. Pour plus d’informations sur la connexion des enregistrements, voir [Présentation des enregistrements connectés](/help/quicksilver/planning/records/connected-records-overview.md).
 
 Vous devez d’abord connecter deux types d’enregistrement l’un à l’autre, ou un type d’enregistrement à un type d’objet à partir d’une autre application. Cela crée des champs d’enregistrement liés. Vous pouvez ensuite connecter des enregistrements les uns aux autres ou des enregistrements à d’autres objets à partir d’autres applications à l’aide des champs d’enregistrement liés.
 
@@ -131,33 +133,9 @@ Pour plus d’informations, consultez les [Conditions d’accès dans la documen
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Remarques concernant la connexion des enregistrements
+## Prérequis pour la connexion des enregistrements
 
-* Une fois que vous avez connecté les types d’enregistrement, les types d’enregistrement connectés s’affichent sous forme de champs d’enregistrement liés dans les tableaux des types d’enregistrement à partir desquels ils sont liés et sur les pages des enregistrements.
-* Vous pouvez parcourir et ajouter des enregistrements et des objets de l’enregistrement et des types d’objets liés à partir des champs d’enregistrement liés.
-* Vous pouvez ajouter des champs (champs de recherche) des types d&#39;enregistrements liés dans la table du type d&#39;enregistrement à partir duquel vous effectuez la liaison.
-
-  Vous pouvez ajouter des champs (champs de recherche) des types d’enregistrement que vous associez dans la table du type d’enregistrement auquel vous associez.
-
-  Par exemple, si vous liez le type d’enregistrement Produit du type d’enregistrement Campagne , vous pouvez afficher les champs Produit pour les campagnes, ainsi que les champs Campagne pour les produits.
-* Vous ne pouvez pas mettre à jour manuellement les valeurs des champs de recherche dans les enregistrements à partir desquels vous créez une liaison.
-
-  Les valeurs des champs de recherche des enregistrements liés renseignent l’enregistrement de planification Workfront à partir duquel vous créez une liaison automatique à partir de l’enregistrement ou de l’objet d’origine.
-
-* Toute personne ayant accès à Workfront Planning et disposant d’autorisations d’affichage ou supérieures à l’espace de travail peut voir les connexions que vous effectuez entre des enregistrements ou entre des enregistrements et des objets d’autres applications. Elles peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
-* Vous pouvez afficher et modifier les connexions de toutes les autres personnes, si vous disposez d’autorisations de gestion pour l’espace de travail dans lequel se trouvent les enregistrements connectés.
-* Vous pouvez connecter un enregistrement à un ou plusieurs objets à partir d’une autre application.
-* Vous pouvez connecter des objets de Workfront à des enregistrements Workfront Planning dans les zones suivantes :
-   * À partir d’un enregistrement de planification dans la planification Workfront.
-   * Dans la section Planification d’un objet Workfront.
-
-* Vous pouvez connecter les enregistrements de planification Workfront à Experience Manager Assets dans les zones suivantes :
-
-   * À partir d’un enregistrement de planification dans Workfront Planning
-
-## Conditions préalables pour lier des enregistrements
-
-Pour lier des enregistrements à d’autres enregistrements ou objets, vous devez disposer des éléments suivants :
+Pour connecter des enregistrements à d&#39;autres enregistrements ou objets, vous devez disposer des éléments suivants :
 
 * Au moins un espace de travail, un type d’enregistrement et un enregistrement
 
@@ -171,7 +149,15 @@ Pour lier des enregistrements à d’autres enregistrements ou objets, vous deve
 
 ## Connexion d’enregistrements à partir de Workfront Planning
 
-### Connecter des enregistrements Adobe Workfront Planning
+Vous pouvez connecter des enregistrements de Workfront Planning dans les zones suivantes :
+
+* À partir d’un enregistrement Planning dans Workfront Planning dans les champs connectés en mode Tableau.
+* À partir d’un enregistrement Planning dans Workfront Planning dans l’aperçu de l’enregistrement ou la page dans les champs d’enregistrement connectés.
+  <!--
+  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
+  * From a Planning record in the record's preview or page on the Connections tab.  -->
+
+### Connecter les enregistrements de planification Adobe Workfront à partir de la vue de table ou de la page d’enregistrement <!--Details tab of the-->
 
 {{step1-to-planning}}
 
@@ -232,7 +218,7 @@ Pour lier des enregistrements à d’autres enregistrements ou objets, vous deve
 
    Notez que le champ d’enregistrement lié **Campagne** affiche les noms des campagnes auxquelles vous avez lié des produits dans la page du type d’enregistrement Produit. La mise à jour des informations de l’enregistrement Campagne met automatiquement à jour le champ d’enregistrement lié à celui-ci pour le type d’enregistrement Produit.
 
-### Connecter des enregistrements Adobe Workfront Planning aux objets Workfront
+### Connecter des enregistrements de planification Adobe Workfront à des objets Workfront depuis la vue de table ou la page d’enregistrement <!--Details tab of the-->
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -311,7 +297,7 @@ Une fois que vous avez créé une connexion entre un type d’enregistrement et 
    Cela permet d’ajouter ou de supprimer des champs liés dans les enregistrements Workfront Planning. Les informations associées aux champs supprimés restent dans Workfront.
 
 
-### Connecter des enregistrements Workfront Planning à des objets Adobe Experience Manager
+### Connecter des enregistrements de planification Workfront à des objets Adobe Experience Manager à partir de la vue de table ou de la page d’enregistrement <!--Details tab of the-->
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -327,6 +313,7 @@ Après avoir créé une connexion entre un type d’enregistrement et Adobe Exp
 >
 >La planification des enregistrements et de leurs champs est accessible à partir de Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
 
+Pour connecter des enregistrements à des ressources AEM :
 
 {{step1-to-planning}}
 
@@ -403,12 +390,41 @@ Après avoir créé une connexion entre un type d’enregistrement et Adobe Exp
 
    Cela permet d’ajouter ou de supprimer des champs liés des enregistrements. Les informations associées aux champs supprimés restent dans Adobe Experience Assets.
 
+<!--
+### Connect Workfront Planning records from the Connections tab of the record page
+
+1. Go to any view of a record type that has been connected to other record types or object types from other applications. 
+1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
+1. Click the name of a record. 
+
+    The preview page opens. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
+1. Click the **Connections** tab in the record's preview or page. 
+
+    ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+    All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
+
+1. (Conditional) If there are records or objects connected to the selected record, click **Connect** to add more records or objects of the same type. 
+    The Connect button does not display if there are no records currently connected to the selected record. 
+1. Follow the steps describes in the previous sections to connect records from Workfront Planning or objects from Workfront or AEM Assets. 
+    The records and objects are added immediately.
+1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon to disconnect it from the selected record. 
+
+    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+
+    The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
+
+-->
+
 ## Connexion d’enregistrements à partir d’objets Workfront
 
 Vous devez disposer des éléments suivants pour connecter les enregistrements Workfront Planning des objets Workfront :
 
-* Connexions entre les types d’enregistrement et les types d’objets Workforce.
+* Connexions entre les types d’enregistrements et les types d’objets Workforce qui sont établis dans Workfront Planning.
 * Au moins une connexion entre un enregistrement et un objet Workfront.
-* L’administrateur de Workfront ou de groupe doit ajouter la section Planification aux types d’objets Workfront qui peuvent se connecter à des types d’enregistrements Planification .
+* L’administrateur de Workfront ou de groupe doit ajouter la section Planification aux types d’objets Workfront qui peuvent se connecter à la section Planification des types d’enregistrements dans votre modèle de mise en page.
 
 Pour plus d’informations, voir [Gestion des enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
