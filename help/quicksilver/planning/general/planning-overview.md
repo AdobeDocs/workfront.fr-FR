@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1874'
 ht-degree: 77%
 
 ---
@@ -89,8 +89,9 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Partager des vues | ✓ | |  |
 | Partage des vues publiquement avec des ressources externes | ✓ | |  |
 | Dupliquer les vues | ✓ | |  |
-| Soumettre des demandes |                               |                                  | ✓ |
-| Document créatif |                               |                                  | ✓ |
+| Soumettre des demandes |                               | ✓ |                 |
+| Exportation des détails de l’enregistrement vers Word |                               | ✓ |                 |
+| Exportation des détails des enregistrements vers PDF |                               |                                  | ✓ |
 | Personnaliser la couleur et l’icône d’un enregistrement | ✓ |                                  |                 |
 | Apporter des commentaires aux enregistrements | ✓ |                                  |                 |
 | Réception de notifications in-app | ✓ |                                  |                 |
@@ -104,8 +105,9 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Connexion d’enregistrements de planification à partir d’objets Workfront | ✓ |                                  |                 |
 | API publique de planification Workfront | ✓ |                                  |                 |
 | Assistant d’IA pour la planification Workfront* | ✓ |                                  |                 |
+| Reporting sur les informations de planification Workfront (tableau de bord du canevas) |                               | ✓ |                 |
 
-*L’assistant d’IA a été temporairement supprimé et reviendra ultérieurement.
+*L’assistant d’IA a été temporairement supprimé et sera disponible ultérieurement.
 
 ## Activer Adobe Workfront Planning pour les utilisateurs et utilisatrices de votre instance Workfront
 

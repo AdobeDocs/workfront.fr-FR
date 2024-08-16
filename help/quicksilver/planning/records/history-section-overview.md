@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 93%
+source-wordcount: '462'
+ht-degree: 90%
 
 ---
 
@@ -42,8 +42,7 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
 1. Cliquez sur une carte de type enregistrement.
 La page de type enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
-1. Choisissez une vue de tableau dans le menu déroulant **Affichage**.
-1. Cliquez sur le nom d’un enregistrement dans la vue de tableau.
+1. Dans n’importe quelle vue, cliquez sur le nom d’un enregistrement.
 
    La page de l’enregistrement s’ouvre. La zone Commentaires s’ouvre par défaut dans le panneau de droite.
 1. Cliquez sur l’icône **Afficher l’historique** ![](assets/show-history-icon.png). Toutes les modifications apportées aux champs de l’enregistrement s’affichent dans le panneau de droite, en commençant par la plus récente.
