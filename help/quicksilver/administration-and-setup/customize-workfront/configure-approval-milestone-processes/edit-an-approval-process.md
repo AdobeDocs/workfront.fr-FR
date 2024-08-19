@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-title: Modifier un processus d’approbation
+title: Modification d’un processus d’approbation
 description: Si vous êtes administrateur d’Adobe Workfront ou si vous disposez d’un accès administratif aux processus d’approbation, vous pouvez afficher et modifier tous les processus d’approbation du système.
 author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 9%
+source-wordcount: '1950'
+ht-degree: 8%
 
 ---
 
@@ -34,6 +34,8 @@ Pour plus d&#39;informations sur la création de processus d&#39;approbation, vo
 >* Ajouter un approbateur supplémentaire avant l’étape en cours
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -58,9 +60,12 @@ Vous devez disposer des éléments suivants :
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Modifier un processus de validation existant
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. (Conditionnel) Si vous modifiez un processus d’approbation au niveau du système, cliquez sur **Traitements** > **Approbations** dans le panneau de gauche.
 
    Ou
@@ -92,7 +97,7 @@ Vous devez disposer des éléments suivants :
       <td>Saisissez une description du processus de validation. Cela s’affiche dans la section <b>Validations</b> de la zone <b>Configuration</b> en regard du nom du processus d’approbation.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Est actif</td> 
+      <td role="rowheader">En activité</td> 
       <td> <p>Laissez cette option activée si vous souhaitez que d’autres utilisateurs puissent joindre le processus d’approbation aux projets, tâches et problèmes qu’ils créent. </p> <p>Cette option est activée par défaut.</p> <p>Conseil : Le fait de marquer un processus d’approbation comme inactif s’avère utile lorsque votre entreprise n’a plus besoin de l’utiliser, mais que vous souhaitez conserver des informations historiques sur son utilisation.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

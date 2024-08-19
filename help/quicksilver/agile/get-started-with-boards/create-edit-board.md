@@ -6,10 +6,10 @@ description: Dans le tableau de bord [!UICONTROL Panoramas], vous pouvez créer 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 94%
+source-wordcount: '824'
+ht-degree: 91%
 
 ---
 
@@ -74,7 +74,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
       >[!NOTE]
       >
-      >La limite de carte pour les panoramas dynamiques est de 700 tâches et de 700 problèmes, pour un total de 1 400 cartes. Un nombre élevé de cartes sur le panorama peut affecter les performances du panorama.
+      >La limite de carte pour les panoramas dynamiques est de 700 tâches et de 700 problèmes, pour un total de 1 400 cartes. Un nombre élevé de cartes sur le panorama peut affecter les performances du panorama. Toutes les cartes archivées, qu’elles soient masquées ou visibles, sont comptabilisées dans cette limite.
 
    1. (Facultatif) Sélectionnez [!UICONTROL **Ne pas archiver les cartes terminées**] pour afficher les tâches et les problèmes terminés sur le panorama sous la forme de cartes visibles dans la colonne Terminé. Lorsque cette option n’est pas sélectionnée, les cartes terminées au moment de la création du panorama sont importées sous la forme de cartes archivées.
 

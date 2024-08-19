@@ -4,14 +4,14 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Utilisation d’états personnalisés comme états par défaut
 description: Lorsqu’un état personnalisé est défini comme état par défaut, le nouvel état par défaut est utilisé dans l’ensemble du système de différentes manières. La manière dont il est utilisé dépend de sa définition comme état par défaut au niveau du système ou comme état par défaut au niveau du groupe.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 10%
+source-wordcount: '830'
+ht-degree: 9%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 10%
 Lorsqu’un état personnalisé est défini comme état par défaut, le nouvel état par défaut est utilisé dans l’ensemble du système de différentes manières. La manière dont il est utilisé dépend de sa définition comme état par défaut au niveau du système ou comme état par défaut au niveau du groupe.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -41,6 +43,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Statuts personnalisés au niveau du système par défaut
 
@@ -76,7 +80,8 @@ Si l’état personnalisé est un état de problème, les quatre types de probl�
 
 ## Définir un état personnalisé comme état par défaut
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **États**.
 1. (Conditionnel) Si vous définissez un état par défaut pour un groupe, commencez à saisir le nom du groupe dans le menu dans le coin supérieur droit, puis sélectionnez-le lorsqu’il s’affiche.
 1. Ouvrez l’onglet **Projet**, **Tâches** ou **Problèmes**, selon le type d’état que vous souhaitez définir comme état par défaut.

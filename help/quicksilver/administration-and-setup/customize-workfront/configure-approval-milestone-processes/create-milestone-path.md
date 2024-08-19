@@ -1,5 +1,5 @@
 ---
-title: Créer un chemin jalonné
+title: Création d’un chemin Milestone
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -80,7 +80,7 @@ Pour plus d’informations sur la manière d’associer un chemin de jalon à un
       <td>Saisissez une description pour définir le chemin du jalon.</td>
     </tr>
     <tr>
-       <td>Est actif</td>
+       <td>En activité</td>
       <td>Cochez cette case si vous souhaitez que le chemin du jalon soit actif. D’autres utilisateurs peuvent trouver ce chemin et le joindre à des projets lors de la création ou de la modification de projets. Les chemins de jalon inactifs ne peuvent pas être associés aux projets. Cette option est activée par défaut.</td>
     </tr>
     <tr>

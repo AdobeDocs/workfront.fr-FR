@@ -1,18 +1,18 @@
 ---
-title: Accéder à la liste des statuts des problèmes système
+title: Accès à la liste des états de problème système
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Vous pouvez utiliser l’état d’un problème pour montrer aux utilisateurs du système à quel stade de développement un problème se trouve à un moment donné.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 5%
+source-wordcount: '1467'
+ht-degree: 4%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 5%
 Vous pouvez utiliser l’état d’un problème pour montrer aux utilisateurs du système à quel stade de développement un problème se trouve à un moment donné.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,13 +45,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Accès aux statuts des problèmes
 
 Vous pouvez accéder aux états des problèmes au niveau du système et les modifier. Vous pouvez modifier des informations sur les états système par défaut ou créer de nouveaux états personnalisés. Pour plus d’informations sur la création d’états personnalisés ou la modification des états du système, voir [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 Pour accéder aux états de problème au niveau du système :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Préférences du projet** > **États**.
 

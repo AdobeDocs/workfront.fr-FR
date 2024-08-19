@@ -1,19 +1,19 @@
 ---
-title: Processus d’approbation et chemins de jalon
+title: Processus d’approbation et chemins d’jalon
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: Vous pouvez créer un processus d’approbation que les utilisateurs peuvent joindre à un élément de travail, un document ou un BAT. Vous pouvez également créer des chemins de jalon qui peuvent être appliqués à n’importe quel projet du système.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 25%
+ht-degree: 19%
 
 ---
 

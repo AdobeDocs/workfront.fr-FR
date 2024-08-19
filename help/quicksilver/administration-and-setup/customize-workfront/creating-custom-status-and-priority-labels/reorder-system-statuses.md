@@ -4,14 +4,14 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Réorganiser les états au niveau du système et du groupe
 description: En tant qu’administrateur Workfront, vous pouvez modifier l’ordre du projet, de la tâche et des états des problèmes pour tous les membres du système ou pour un seul groupe.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 19%
+source-wordcount: '516'
+ht-degree: 16%
 
 ---
 
@@ -35,6 +35,8 @@ En tant qu’administrateur Workfront, vous pouvez modifier l’ordre du projet,
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 </table>
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
+
++++
 
 ## Ordre par défaut des états
 
@@ -108,7 +112,7 @@ Par défaut, les états s’affichent dans l’ordre suivant :
 
 ## Réorganiser les états pour les tâches et les projets à l’échelle du système ou pour un groupe
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Préférences du projet > Statuts**.
 1. (Conditionnel) Si vous réorganisez les états d’un groupe, commencez à saisir le nom du groupe dans la zone située dans le coin supérieur droit, puis cliquez sur le nom lorsqu’il s’affiche.

@@ -1,5 +1,5 @@
 ---
-title: Créer un processus d’approbation pour les tâches
+title: Création d’un processus d’approbation pour les éléments de travail
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '2174'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Créer un processus d’approbation pour les tâches
+# Créer un processus d’approbation pour les éléments de travail
 
 <!-- Audited: 12/2023 -->
 
@@ -105,7 +105,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
       <td><p>Saisissez une description du processus de validation. Cela s’affiche dans la section <b>Validations</b> de la zone <b>Configuration</b> en regard du nom du processus d’approbation.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Est actif</td> 
+      <td role="rowheader">En activité</td> 
       <td> <p>Laissez cette option activée si vous souhaitez que d’autres utilisateurs puissent joindre le processus d’approbation aux projets, tâches et problèmes qu’ils créent. </p> <p>Cette option est activée par défaut.</p> <p> Conseil : Le fait de marquer un processus d’approbation comme inactif s’avère utile lorsque votre entreprise n’a plus besoin de l’utiliser, mais que vous souhaitez conserver des informations historiques sur son utilisation.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

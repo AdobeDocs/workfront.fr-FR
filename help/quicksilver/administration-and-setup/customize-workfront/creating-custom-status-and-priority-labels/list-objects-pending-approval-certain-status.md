@@ -2,27 +2,27 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Liste des objets dont le traitement de validation est en attente avec un certain état
+title: Liste des objets avec un processus d’approbation en attente utilisant un certain état
 description: Si vous essayez de supprimer un état, un message d’erreur peut vous indiquer qu’il ne peut pas être supprimé car il est utilisé dans les processus d’approbation en attente sur les objets de votre système. Si vous souhaitez rechercher et consulter ces objets afin de décider ce que vous devez faire, vous pouvez exécuter un rapport qui les répertorie.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# Liste des objets dont le traitement de validation est en attente avec un certain état
+# Liste des objets dont le processus de validation est en attente avec un certain état
 
 Si vous essayez de supprimer un état, un message d’erreur peut vous indiquer qu’il ne peut pas être supprimé, car il se trouve dans au moins un processus d’approbation en attente de votre système. Vous pouvez exécuter un rapport pour répertorier les objets dans un processus d’approbation en attente, puis décider de ce que vous devez faire pour chacun d’eux.
 
 ## En mode standard
 
-1. Accédez à la zone **Reporting** dans la barre de navigation globale, puis sélectionnez l’onglet **Rapports** .
-1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Rapports**.
+{{step1-to-reports}}
+
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Rapport de projet**, **Rapport de tâche** ou **Rapport de problème**.
 1. Ouvrez l’onglet **Filtres** .
 1. Cliquez sur **Ajouter une règle de filtre**, puis procédez comme suit pour configurer la règle :
@@ -42,7 +42,8 @@ Si vous essayez de supprimer un état, un message d’erreur peut vous indiquer 
 
 ## En mode Texte
 
-1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Rapports**.
+{{step1-to-reports}}
+
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Rapport de projet**, **Rapport de tâche** ou **Rapport de problème**.
 1. Ouvrez l’onglet **Filtres** .
 1. Sélectionnez **Passer en mode Texte**.

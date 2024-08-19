@@ -1,5 +1,5 @@
 ---
-title: Créer ou modifier un statut
+title: Création ou modification d’un état
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 42%
+source-wordcount: '955'
+ht-degree: 39%
 
 ---
 
@@ -66,7 +66,7 @@ Vous pouvez ajouter un état personnalisé à utiliser par l’ensemble de votre
 
 Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation, vous pouvez le configurer afin que tous les groupes du système puissent l’utiliser sans le modifier. Vous pouvez également le configurer afin que les administrateurs de groupe puissent le modifier pour leurs groupes, comme expliqué dans la section [Créer ou modifier un état de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]** ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **États**.
 

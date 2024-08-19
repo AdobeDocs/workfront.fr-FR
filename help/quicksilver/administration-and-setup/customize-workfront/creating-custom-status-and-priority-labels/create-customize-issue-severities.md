@@ -4,18 +4,18 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Vos utilisateurs peuvent utiliser des statistiques pour définir la gravité d’un problème. Vous pouvez personnaliser l’une des cinq gravité par défaut d’Adobe Workfront ou créer une nouvelle gravité pour vos utilisateurs.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 18%
+source-wordcount: '588'
+ht-degree: 17%
 
 ---
 
-# Création ou personnalisation des gravité de problème
+# Créer ou personnaliser les gravités des problèmes
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -30,6 +30,8 @@ Vos utilisateurs peuvent utiliser des statistiques pour définir la gravité d�
 >Les tâches et les projets n’ont pas de gravité.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -51,6 +53,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Séparations des problèmes intégrés
 
@@ -85,7 +89,7 @@ Workfront comporte cinq ruptures de problème intégrées :
 
 En tant qu’administrateur de Workfront, vous pouvez créer et modifier des statistiques de problèmes en fonction des besoins de vos utilisateurs.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **Gravités**.
 

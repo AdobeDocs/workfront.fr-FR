@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Statuts des tâches du système
+title: États des tâches du système
 description: Les trois états de tâches système intégrés dans Workfront sont obligatoires, ce qui signifie que vous pouvez les déverrouiller, les renommer et les réorganiser, mais vous ne pouvez pas les masquer ni les supprimer. Vous pouvez également ajouter de nouveaux états de tâches système pour répondre aux besoins de votre entreprise. La modification de l’état d’une tâche est généralement un processus manuel, mais parfois l’état d’une tâche est modifié automatiquement, en fonction d’autres facteurs qui se produisent dans le système.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

@@ -1,18 +1,18 @@
 ---
-title: Accéder à la liste des états des projets système
+title: Accès à la liste des états du projet système
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Les utilisateurs peuvent spécifier l’état d’un projet afin que d’autres utilisateurs puissent afficher l’état actuel du développement du projet à un moment donné.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 21%
+source-wordcount: '388'
+ht-degree: 18%
 
 ---
 
@@ -27,6 +27,8 @@ Vous pouvez également ajouter des états de projet personnalisés pour répondr
 En tant qu’administrateur Workfront, vous configurez l’état par défaut de tous les nouveaux projets du système. Pour obtenir des instructions, voir [Configuration des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -49,13 +51,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Accès aux statuts du projet
 
 En tant qu’administrateur Workfront, vous pouvez accéder à la liste des états de projet au niveau du système.
 
 Pour plus d’informations sur la modification de l’état d’un système et la création d’états personnalisés, voir [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Préférences du projet** > **États**.
 

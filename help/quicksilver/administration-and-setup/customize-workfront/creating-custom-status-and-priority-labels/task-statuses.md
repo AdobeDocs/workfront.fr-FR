@@ -1,18 +1,18 @@
 ---
-title: Accéder à la liste des états des tâches système
+title: Accès à la liste des états des tâches système
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Vous pouvez utiliser l’état d’une tâche pour montrer aux utilisateurs à quel stade de développement une tâche se trouve à un moment donné.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 28%
+source-wordcount: '303'
+ht-degree: 23%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 28%
 Vous pouvez utiliser l’état d’une tâche pour montrer aux utilisateurs à quel stade de développement une tâche se trouve à un moment donné.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,11 +45,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Accéder aux états des tâches
 
 Pour plus d’informations sur la modification des états du système ou la création de nouveaux états personnalisés, voir [Créer ou modifier un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Préférences du projet** > **États**.
 

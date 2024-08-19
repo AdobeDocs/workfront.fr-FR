@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Statuts verrouillés et déverrouillés au niveau du système
+title: États au niveau du système verrouillés et déverrouillés
 description: Le verrouillage des états personnalisés permet de s’assurer que les personnes de votre entreprise utilisent les mêmes processus dans leur flux de travail. Lorsqu’un état est verrouillé, il est disponible pour tous les utilisateurs du système. Bien que vous puissiez le modifier ou le supprimer, les administrateurs de groupe ne peuvent pas le faire pour leurs groupes. Inversement, le déverrouillage des états personnalisés offre aux administrateurs de groupe plus de flexibilité pour gérer les workflows uniques utilisés dans leurs groupes. Ils peuvent modifier les attributs d’un état déverrouillé ou le supprimer pour leurs groupes.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c70a10a920d32ad00a2e833b331c92a598902d21
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
