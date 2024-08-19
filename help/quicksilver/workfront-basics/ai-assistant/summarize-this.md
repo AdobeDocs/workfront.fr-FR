@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 2%
+source-wordcount: '234'
+ht-degree: 19%
 
 ---
 
@@ -32,6 +32,31 @@ L’assistant d’IA peut résumer les objets suivants :
 >La fonctionnalité de résumé de l’assistant d’IA diffère du panneau Résumé.
 >
 >Pour plus d’informations sur le panneau Résumé dans Workfront, reportez-vous à la section [Aperçu du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+## Conditions d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td><p>Nouveau : Tous</p>
+       <p>ou</p>
+       <p>Actuel : non disponible</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouvelle : standard</p>
+       <p>ou</p>
+       <p>Actuel : non disponible</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Résumer un objet
 

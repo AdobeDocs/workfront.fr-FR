@@ -7,24 +7,51 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 0%
+source-wordcount: '298'
+ht-degree: 13%
 
 ---
 
-# Révision des formules de champ calculé à l’aide de l’assistant AI
+# Génération ou révision de formules de champ calculé à l’aide de l’assistant AI
 
-Vous pouvez utiliser l’assistant d’intelligence artificielle pour résoudre les erreurs de vos expressions personnalisées non valides dans les champs calculés.
+Vous pouvez utiliser l’assistant d’IA pour générer des formules en fonction d’une invite que vous fournissez. Vous pouvez également résoudre les erreurs de vos expressions personnalisées non valides dans les champs calculés.
+
+## Conditions d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td><p>Nouveau : Prime ou Ultimate</p>
+       <p>ou</p>
+       <p>Actuel : non disponible</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td><p>Nouvelle : standard</p>
+       <p>ou</p>
+       <p>Actuel : non disponible</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Générer une expression de champ calculé
+
+## Modification d’une expression de champ calculée
 
 Lorsque vous créez le champ calculé dans le créateur de formulaires personnalisé, un message d’erreur s’affiche sous le champ si la formule n’est pas valide.
 
 ![Erreur d’expression non valide](assets/invalid-expression.png)
 
 L’assistant d’IA peut vous aider à réviser votre formule en une expression de champ calculé valide.
-
-## Modification d’une expression de champ calculée
 
 Pour réviser une expression de champ calculé non valide :
 

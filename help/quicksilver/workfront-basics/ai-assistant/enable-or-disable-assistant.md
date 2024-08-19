@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
+source-git-commit: 592041f8d53004a6261fd743ea65ea323624df69
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 29%
+source-wordcount: '265'
+ht-degree: 32%
 
 ---
 
@@ -27,19 +27,25 @@ ht-degree: 29%
 
 En tant qu’administrateur Workfront, vous pouvez contrôler quels utilisateurs de votre entreprise ont activé l’assistant d’IA. Cette opération est gérée par le biais des niveaux d’accès.
 
+## Conditions d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td><p>Nouveau : Tous</p>
+       <p>ou</p>
+       <p>Actuel : non disponible</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td><p>Nouvelle : standard</p>
        <p>ou</p>
-       <p>Actuelle : formule</p></td>
+       <p>Actuel : non disponible</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
