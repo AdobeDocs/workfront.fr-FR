@@ -6,9 +6,9 @@ description: Vous pouvez imprimer un résumé du BAT, l’enregistrer en tant qu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 11%
 
 ---
@@ -56,7 +56,8 @@ Vous pouvez imprimer un résumé du BAT directement à partir de la liste des do
 
 >[!NOTE]
 >
->Vous ne pouvez pas imprimer simultanément plusieurs résumés de BAT à partir de la liste de documents.
+>* Les résumés de plus de 1 Go ne sont pas pris en charge.
+>* Vous ne pouvez pas imprimer simultanément plusieurs résumés de BAT à partir de la liste de documents.
 
 1. Dans la liste des documents qui contient le BAT, passez la souris sur la ligne contenant le document, puis cliquez sur **Print Summary**.
 
