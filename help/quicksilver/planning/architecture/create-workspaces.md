@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 52%
+source-wordcount: '538'
+ht-degree: 51%
 
 ---
 
@@ -134,7 +134,10 @@ Vous pouvez créer un espace de travail et y ajouter des types d’enregistremen
    * Espace de travail vide **Workspace sans titre** où vous pouvez commencer à ajouter manuellement des types d’enregistrement lorsque vous créez un espace de travail à partir de zéro.
    * Espace de travail nommé d’après le modèle que vous avez sélectionné et rempli avec des exemples de types d’enregistrement. Vous pouvez personnaliser davantage les types d’enregistrement et l’espace de travail.
 
-   Pour les administrateurs Workfront, le nouvel espace de travail s’affiche sur l’onglet **Mes espaces de travail** . <!--replace this with: **Workspaces I'm on** tab-->
+   Pour les administrateurs de Workfront, le nouvel espace de travail s’affiche sur l’onglet **Espaces de travail sur** .
+
+   Pour tous les autres utilisateurs qui peuvent créer des espaces de travail, le nouvel espace de travail s’affiche dans la zone **Espaces de travail**.
+
 1. Cliquez à l’intérieur du nom de l’espace de travail dans l’en-tête du nouvel espace de travail pour le renommer, puis appuyez sur Entrée.
 
 1. (Facultatif et le cas échéant) Si vous avez créé l’espace de travail à partir d’un modèle, cliquez dans le nom des sections **Types d’enregistrements opérationnels** ou **Taxonomies**.

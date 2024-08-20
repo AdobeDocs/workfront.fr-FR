@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1874'
-ht-degree: 77%
+source-wordcount: '1880'
+ht-degree: 76%
 
 ---
 
@@ -78,11 +78,11 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Trier les enregistrements dans la vue chronologique |                               | ✓ |                  |
 | Trier les regroupements dans la vue de tableau |                               | ✓ |                  |
 | Trier les regroupements dans la vue chronologique |                               | ✓ |                  |
-| Connecter des espaces de travail |                               | ✓ |                  |
 | Rechercher des enregistrements dans la vue de tableau | ✓ |   |
 | Rechercher des enregistrements dans la vue chronologique | ✓ |   |
 | Connecter les enregistrements Workfront Planning aux projets, programmes, portfolios, entreprises et groupes Workfront | ✓ |                                 |                  |
 | Connecter les enregistrements Workfront Planning aux ressources Adobe Experience Manager | ✓ |                                  |                 |
+| Connexion d’enregistrements de planification à partir de différents espaces de travail | ✓ |                                  |                 |
 | Page de l’enregistrement avec des informations détaillées | ✓ |                                  |                  |
 | Mettre à jour la disposition de la page de l’enregistrement | ✓ |                                 |                  |
 | Partager des espaces de travail | ✓ | |  |
@@ -282,10 +282,10 @@ Pour localiser Workfront Planning :
 
 
 1. (Conditionnel et facultatif) Si vous êtes administrateur Workfront, cliquez sur l’un des onglets suivants :
-   * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-   * **Autres espaces de travail** : affiche tous les autres espaces de travail du système, y compris ceux partagés avec vous. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+   * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
+   * **Autres espaces de travail** : affiche tous les autres espaces de travail du système.
 
-   Pour tous les autres utilisateurs, tous les espaces de travail qu’ils ont créés ou qu’ils ont partagés avec eux s’affichent dans la zone **Espaces de travail**.
+   Pour tous les autres utilisateurs, les deux espaces de travail qu’ils ont créés ou qu’ils ont partagés avec eux s’affichent dans la zone **Espaces de travail**.
 
 1. (Facultatif et recommandé) Passez à certaines des actions suivantes pour créer votre structure de travail :
 

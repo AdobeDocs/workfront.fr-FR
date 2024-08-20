@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2281'
 ht-degree: 71%
 
 ---
@@ -428,7 +428,6 @@ Pour connecter des enregistrements à des ressources AEM :
 Vous devez disposer des éléments suivants pour connecter les enregistrements Workfront Planning des objets Workfront :
 
 * Connexions entre les types d’enregistrements et les types d’objets Workforce qui sont établis dans Workfront Planning.
-* Au moins une connexion entre un enregistrement et un objet Workfront.
 * L’administrateur de Workfront ou de groupe doit ajouter la section Planification aux types d’objets Workfront qui peuvent se connecter à la section Planification des types d’enregistrements dans votre modèle de mise en page.
 
 Pour plus d’informations, voir [Gestion des enregistrements dans la section Planification des objets Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

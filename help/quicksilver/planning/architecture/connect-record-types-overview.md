@@ -4,10 +4,10 @@ description: Une façon d’indiquer comment les types d’enregistrements indiv
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 31%
+source-wordcount: '818'
+ht-degree: 39%
 
 ---
 
@@ -27,11 +27,18 @@ Pour plus d’informations sur la connexion des types d’enregistrement, voir [
 
 ## Remarques concernant la connexion des types d’enregistrements
 
+La planification Workfront comprend deux étapes de connexion :
+
+1. Tout d’abord, vous devez établir une connexion entre deux types d’enregistrement ou un type d’enregistrement et un type d’objet à partir d’une autre application. Pour plus d’informations sur la connexion des types d’enregistrement, voir [Connexion des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+1. Deuxièmement, vous pouvez connecter des enregistrements individuels d’un type avec des enregistrements d’un autre type une fois les deux types d’enregistrements connectés. Pour plus d&#39;informations sur la connexion des enregistrements, voir [Connexion des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+
+Tenez compte des points suivants concernant la connexion des types d’enregistrement :
+
 * Vous pouvez connecter les entités suivantes dans Adobe Workfront Planning :
 
    * Deux types d’enregistrement.
 
-     Par défaut, vous pouvez connecter deux types d’enregistrement à partir du même espace de travail. Vous pouvez également configurer des types d’enregistrement pour vous connecter à des types d’enregistrement à partir d’autres espaces de travail.
+     Par défaut, vous pouvez connecter deux types d’enregistrement à partir du même espace de travail. Vous pouvez également configurer des types d’enregistrement pour vous connecter à des types d’enregistrement à partir d’autres espaces de travail. Pour plus d’informations, voir [Modification des types d’enregistrement](/help/quicksilver/planning/architecture/edit-record-types.md).
    * Type d’enregistrement et type d’objet d’une autre application.
 
 * Vous pouvez connecter les types d’enregistrement de Workfront Planning aux types d’objets suivants à partir des applications suivantes :
@@ -82,73 +89,79 @@ Pour plus d’informations sur la connexion des types d’enregistrement, voir [
 
      >[!IMPORTANT]
      >
-     >Toutes les personnes disposant d’autorisations de vue ou supérieures sur l’espace de travail peuvent afficher les informations dans les champs de recherche, indépendamment de leurs autorisations ou de leur niveau d’accès dans l’application des types d’objets liés <!--or their permissions in other workspaces-->.
+     >Toute personne disposant d’autorisations de vue ou supérieures sur l’espace de travail peut afficher les informations dans les champs de recherche, indépendamment de ses autorisations ou de son niveau d’accès dans l’application des types d’objets liés ou de ses autorisations dans d’autres espaces de travail.
 
-<!--see the commented out text above for the release of cross-workspace connections-->
+     Les champs d’enregistrement liés sont précédés d’une icône de relation ![](assets/relationship-field-icon.png).
 
-* Les champs d’enregistrement liés sont précédés d’une icône de relation ![](assets/relationship-field-icon.png).
+     Les champs liés sont précédés d’une icône qui identifie le type de champ. Par exemple, les champs liés (ou recherche) sont précédés d’icônes indiquant qu’un champ est un nombre, un paragraphe ou une date.
 
-  Les champs liés sont précédés d’une icône qui identifie le type de champ. Par exemple, les champs liés (ou recherche) sont précédés d’icônes indiquant qu’un champ est un nombre, un paragraphe ou une date.
+<!--## Connection types
 
+After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
 
-## Types de connexion
+Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
 
-Après avoir établi une connexion entre deux types d’enregistrements ou entre un type d’enregistrement et d’objet à partir d’une autre application, vous pouvez ajouter des enregistrements dans les champs d’enregistrement connectés.
-
-Selon le nombre d’enregistrements que vous pouvez ajouter à un champ d’enregistrement connecté, voici les types de connexions parmi lesquels vous pouvez choisir lors de la connexion des types d’enregistrement :
-
-* [Un-à-multiple](#one-to-many-connection-type)
-* [Un-à-un](#many-to-one-connection-type)
-* [Multiple-à-un](#many-to-one-connection-type)
-* [Multiple-à-multiple](#many-to-many-connection-type)
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->Ces options ne sont pas disponibles lors de la connexion des éléments suivants :
->* Deux enregistrements provenant de différents espaces de travail
+>These options are not available when connecting the following: 
+>* Two records from different workspaces
 >
->* Type d’enregistrement et AEM ressources
+>* A record type and AEM assets
 
-
-<!-- add screen shots for each type of connection below-->
-
-### Type de connexion un-à-multiple
-
-![](assets/one-to-many-connection-picker.png)
-
-Lorsque vous sélectionnez le type de connexion un-à-multiple entre les types d’enregistrement, vous pouvez ensuite connecter un enregistrement à plusieurs enregistrements auxquels vous vous connectez.
-
-Par exemple, si vous connectez des campagnes à des projets, vous pouvez connecter une campagne à plusieurs projets. Mais un projet ne peut être connecté qu&#39;à une seule campagne.
-
-Lorsque vous sélectionnez ce type de connexion, vous ne pouvez le changer plus tard que pour un type de connexion multiple-à-multiple.
-
-### Type de connexion un-à-un
-
-![](assets/one-to-one-connection-picker.png)
-
-Lorsque vous sélectionnez le type de connexion un-à-un entre les types d’enregistrement, vous pouvez ensuite connecter un enregistrement à un autre enregistrement auquel vous vous connectez.
-
-Par exemple, si vous connectez des campagnes à des projets, vous pouvez connecter une campagne à un seul projet. Un projet ne peut être connecté qu’à une seule campagne.
-
-Lorsque vous sélectionnez ce type de connexion, vous pouvez le modifier ultérieurement en tout autre type de connexion.
-
-### Type de connexion multiple-à-un
-
-![](assets/many-to-one-connection-picker.png)
-
-Lorsque vous sélectionnez le type de connexion multiple-à-un entre les types d’enregistrement, vous pouvez ensuite connecter plusieurs enregistrements avec un seul enregistrement auquel vous vous connectez.
-
-Par exemple, si vous connectez des campagnes à des projets, vous pouvez connecter plusieurs campagnes à un seul projet. Un projet peut être connecté à plusieurs opérations.
-
-Lorsque vous sélectionnez ce type de connexion, vous ne pouvez le changer plus tard que pour un type de connexion multiple-à-multiple.
-
-### Type de connexion multiple-à-multiple
+### Many-to-many connection type
 
 ![](assets/many-to-many-connection-picker.png)
 
-Lorsque vous sélectionnez le type de connexion multiple-à-multiple entre les types d’enregistrement, vous pouvez ensuite connecter de nombreux enregistrements à plusieurs enregistrements auxquels vous vous connectez.
+When you select the many-to-many connection type between record types, you can later connect many records with multiple records you're connecting to. 
 
-Par exemple, si vous connectez des campagnes à des projets, vous pouvez connecter plusieurs campagnes à plusieurs projets. Vous pouvez également connecter plusieurs projets à plusieurs campagnes.
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect several campaigns with multiple projects. You can also connect the same projects you are connecting to the campaigns to more than one campaign. 
 
-Lorsque vous sélectionnez ce type de connexion, vous ne pouvez pas le modifier après l’avoir enregistré.
+A real-life example of a many-to-many relationship type is the relationship between customers and products: customers can purchase multiple products; and those products can also be purchased by many other customers. 
+
+When you select this connection type, you cannot change the connection type after you save it. 
+
+### One-to-many connection type
+
+![](assets/one-to-many-connection-picker.png)
+
+When you select the one-to-many connection type between record types, you can later connect one record with multiple records you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with multiple projects. But one of the projects you're connecting to the campaigns can be connected only to one campaign at a time. 
+
+A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type. 
+ 
+### Many-to-one connection type
+
+![](assets/many-to-one-connection-picker.png)
+
+When you select the many-to-one connection type between record types, you can later connect many records with only one record you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+
+A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type.
+
+### One-to-one connection type
+
+![](assets/one-to-one-connection-picker.png)
+
+When you select the one-to-one connection type between record types, you can later connect one record with one other record that you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+
+A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+
+When you select this connection type, you can later change it to any other connection type. 
+
+-->
+
+
 

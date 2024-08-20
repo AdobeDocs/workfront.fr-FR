@@ -4,9 +4,9 @@ description: Un espace de travail est une collection de types d’enregistrement
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 23%
 
 ---
@@ -40,8 +40,8 @@ Un espace de travail est un ensemble de types d’enregistrement utilisés par u
 
    * Pour les administrateurs système, les espaces de travail s’affichent dans les onglets suivants :
 
-      * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés. <!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Autres espaces de travail** : affiche tous les autres espaces de travail du système, y compris ceux partagés avec vous. <!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
+      * **Autres espaces de travail** : affiche tous les autres espaces de travail du système.
 
    * Pour tous les autres utilisateurs, les espaces de travail qu’ils ont créés et les espaces de travail que d’autres utilisateurs ont partagés avec eux s’affichent dans la zone Espaces de travail .
 
@@ -55,6 +55,7 @@ Un espace de travail est un ensemble de types d’enregistrement utilisés par u
   Les administrateurs et administratrices système peuvent gérer tous les espaces de travail, même ceux qu’ils ou elles n’ont pas créés.
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * Le nombre d’objets Workspace que vous pouvez créer dans votre instance de planification Workfront est limité. Pour plus d’informations, reportez-vous à la section [Présentation des limitations d’objets Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 55%
+source-wordcount: '628'
+ht-degree: 38%
 
 ---
 
@@ -35,8 +35,6 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
-
-<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
 
 <table style="table-layout:auto">
  <col>
@@ -79,7 +77,8 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
 <tr>
    <td role="rowheader"><p>Autorisations</p></td>
    <td> <p>Gérer les autorisations d’un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
+   <p>Seuls les administrateurs système peuvent activer la connexion des types d’enregistrement à partir d’autres espaces de travail.</p>
 </td>
   </tr>
 <tr>
@@ -115,60 +114,34 @@ Ou
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-   <!--replace everything below with the commented out text below-->
+1. Dans la zone **Edit record type** , l’onglet **Apparence** s’ouvre par défaut.
 
-1. Dans la zone **Edit record type** , mettez à jour les informations suivantes :
+   ![](assets/edit-record-type-box-appearance-tab.png)
 
-   * Modifiez le nom du type d’enregistrement, si nécessaire. <!--did they add a field label for this? -->
+   Mettez à jour les informations suivantes dans l’onglet **Apparence** :
+
+   * Modifiez le nom du type d’enregistrement, si nécessaire. <!--did they add a field label for this?-->
    * **Description** : modifiez ou ajoutez une description pour le type d’enregistrement avec plus d’informations à son sujet.
    * Editez la couleur et la forme de l&#39;icône associée au type d&#39;enregistrement. Procédez comme suit :
-      * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. L’option Gris est sélectionnée par défaut.
+      * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône de type d’enregistrement.
       * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
-     ![](assets/update-record-type-box.png)
-
-1. Cliquer sur **Enregistrer**.
-1. (Facultatif) Cliquez sur la carte de type d’enregistrement dans la zone de l’espace de travail pour ouvrir la page du type d’enregistrement.
-1. Cliquez sur le menu **Plus** situé à droite du nom du type d’enregistrement, puis sur **Modifier** pour mettre à jour les informations sur le type d’enregistrement.
-
-   >[!TIP]
-   >
-   >   Vous pouvez renommer le type d’enregistrement dans l’en-tête .
-
-   ![](assets/more-menu-options-from-record-type-page.png)
-
-   <!--check this screen shot - not sure this is valid ???-->
-
-1. (Facultatif) Pour modifier un autre type d’enregistrement, développez la flèche pointant vers le bas située à droite d’un nom de type d’enregistrement, recherchez un type d’enregistrement, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
-
-<!--*******************For GA - replace the above with this:
-
-1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
-
-    * Edit the record type name, if needed. (*****did they add a field label for this?******)
-    * **Description**: Edit or add a description for the record type with more information about it. 
-    * Edit the color and shape of the icon associated with the record type. Do the following: 
-        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
-
-        ![](assets/update-record-type-box.png)
-
-1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
-
-   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
-   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
-   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+1. (Conditionnel) Si vous êtes administrateur système, cliquez sur l’onglet **Paramètres avancés** dans la zone **Modifier le type d’enregistrement**.
 
    ![](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+1. (Conditionnel) En tant qu’administrateur système, mettez à jour les informations suivantes dans l’onglet **Paramètres avancés** :
 
+   * **Se connecter à partir d’autres espaces de travail** : sélectionnez cette option pour permettre aux utilisateurs de se connecter à ce type d’enregistrement à partir d’autres espaces de travail. Cette option est désélectionnée par défaut.
+   * **System wide** : sélectionnez cette option pour permettre aux utilisateurs de se connecter à cet enregistrement à partir de tous les espaces de travail du système.
+   * **Espaces de travail spécifiques** : sélectionnez cette option pour restreindre les espaces de travail à partir desquels les utilisateurs peuvent se connecter à ce type d’enregistrement, puis développez le menu déroulant et sélectionnez les espaces de travail à partir desquels les utilisateurs doivent se connecter à ce type d’enregistrement. Vous pouvez commencer à saisir le nom d’un espace de travail et le sélectionner lorsqu’il s’affiche dans la liste.
 
-1. Click **Save**.
-1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+1. Cliquer sur **Enregistrer**.
 
-1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+   La carte de type d’enregistrement sur l’espace de travail affiche une icône de connectivité ![](assets/connect-from-other-workspaces-icon.png) dans le coin supérieur droit pour indiquer que l’enregistrement est désormais accessible à partir d’autres espaces de travail.
+
+1. (Facultatif) Cliquez sur la carte de type d’enregistrement dans la zone de l’espace de travail pour ouvrir la page du type d’enregistrement, puis renommez le type d’enregistrement dans l’en-tête.
+
+1. (Facultatif) Pour modifier un autre type d’enregistrement, dans la page de type d’enregistrement, développez la flèche pointant vers le bas située à droite d’un nom de type d’enregistrement, recherchez un type d’enregistrement, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 
    ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
-
-   -->

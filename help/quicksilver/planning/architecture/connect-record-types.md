@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '2507'
-ht-degree: 61%
+source-wordcount: '2007'
+ht-degree: 57%
 
 ---
 
@@ -39,7 +39,7 @@ Cet article décrit comment vous pouvez connecter deux types d’enregistrement 
 
 Après avoir établi la connexion entre les enregistrements ou les types d’objets, vous pouvez connecter des enregistrements individuels les uns aux autres et afficher les champs de l’enregistrement ou des types d’objets liés sur un enregistrement Workfront Planning.
 
-<!-- uncomment out for the release close to GA: For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+Pour des informations générales sur les types de connexions, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 Pour plus d’informations sur la connexion d’un enregistrement Adobe Workfront Planning à un objet à partir d’une autre application, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
@@ -111,71 +111,7 @@ Pour un exemple de connexion de types d&#39;enregistrements et d&#39;enregistrem
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
-
-## Remarques concernant la connexion des types d’enregistrements
-
-<!--DELETE THE CONTENT BELOW WHEN YOU MAKE "CONNECT RECORD TYPE OVERVIEW" ARTICLE PUBLIC-->
-
-* Vous pouvez connecter les entités suivantes dans Adobe Workfront Planning :
-
-   * Deux types d’enregistrements
-
-     Les types d’enregistrements doivent appartenir au même espace de travail.
-   * Type d’enregistrement et type d’objet d’une autre application.
-
-* Vous pouvez connecter les types d’enregistrement de Workfront Planning aux types d’objets suivants à partir des applications suivantes :
-
-   * Adobe Workfront :
-
-      * Projets
-      * Portefeuilles
-      * Programmes
-      * Entreprises
-      * Groupes
-
-   * Adobe Experience Manager Assets :
-
-      * Images
-      * Dossiers
-
-     >[!IMPORTANT]
-     >
-     >Vous devez disposer d’une licence Adobe Experience Manager Assets et l’instance Workfront de votre organisation doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour connecter les enregistrements Workfront Planning à Adobe Experience Manager Assets.
-     >
-     >Si vous avez des questions relatives à l’intégration à Adobe Admin Console, voir les [questions fréquentes Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
-
-* Après avoir créé des enregistrements individuels pour un type d’enregistrement, vous pouvez sélectionner les enregistrements à connecter dans le champ de type d’enregistrement lié. Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
-
-* Lorsque vous connectez un type d’enregistrement à un autre type d’enregistrement ou à un type d’objet provenant d’une autre application, les scénarios suivants se présentent :
-
-   * **Lorsque vous reliez deux types d’enregistrements** : un champ d’enregistrement lié est créé dans le type d’enregistrement à partir duquel vous établissez la connexion. Un champ d’enregistrement lié similaire est créé sur le type d’enregistrement auquel vous vous connectez.
-
-     Par exemple, si vous connectez le type d’enregistrement « Campagne » au type d’enregistrement « Produit », un champ d’enregistrement lié que vous nommez « Produit lié » est créé dans le type d’enregistrement « Campagne » et un type d’enregistrement lié automatiquement nommé « Campagne » est créé dans le type d’enregistrement « Produit ».
-
-   * **Lorsque vous connectez un type d&#39;enregistrement à un type d&#39;objet à partir d&#39;une autre application** :
-
-      * Un champ d’enregistrement lié est créé sur le type d’enregistrement à partir duquel vous vous connectez. Aucun champ d’enregistrement lié n’est automatiquement créé sur le type d’objet de l’autre application.
-
-      * La planification des champs d’enregistrement n’est pas accessible à partir des objets Workfront.
-      * La planification des champs d’enregistrement est accessible à partir des ressources Experience Manager lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, voir [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=fr).
-
-   * **Lorsque vous ajoutez des champs liés (ou de recherche) de l’enregistrement ou de l’objet auquel vous vous connectez** : vous pouvez connecter des champs de l’objet de l’autre application au type d’enregistrement de la planification Workfront. Les champs liés sont en lecture seule et affichent automatiquement les informations des enregistrements ou des objets connectés lorsque vous connectez les enregistrements ou les objets.
-
-     Par exemple, si vous connectez le type d’enregistrement « Campagne » à un projet Workfront et que vous choisissez d’intégrer le champ Date d’achèvement prévue du projet à l’enregistrement Workfront Planning, un champ lié nommé Date d’achèvement prévue (du projet) est automatiquement créé pour la campagne. Vous ne pouvez pas modifier manuellement ce champ lié. Le champ Date d’achèvement prévue (du projet) affiche la date d’achèvement prévue des projets liés.
-
-     >[!IMPORTANT]
-     >
-     >    Toute personne disposant d’autorisations d’affichage ou supérieures sur l’espace de travail peut afficher les informations dans les champs liés, indépendamment de ses autorisations ou de son niveau d’accès dans l’application des types d’objets liés.
-
-* Les champs d’enregistrement liés sont précédés d’une icône de relation ![](assets/relationship-field-icon.png).
-
-  Les champs liés sont précédés d’une icône qui identifie le type de champ. Par exemple, les champs liés (ou recherche) sont précédés d’icônes indiquant qu’un champ est un nombre, un paragraphe ou une date.
 
 
 ## Connecter des types d’enregistrements
@@ -204,15 +140,17 @@ Pour un exemple de connexion de types d&#39;enregistrements et d&#39;enregistrem
 
      >[!TIP]
      >
-     >Seuls les types d’enregistrements de l’espace de travail sélectionné sont disponibles pour une connexion.
      > 
      >Si vous n’avez pas d’autres types d’enregistrements dans l’espace de travail sélectionné, la section de l’espace de travail ne s’affiche pas.
 
      <!--remove the first sentence in the tip above at GA-->
 
-     <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
-        [!TIP]
-         If there are no record types that are configured to connect from other workspace, the workspace section does not display.-->
+      * Type d’enregistrement d’un autre espace de travail configuré pour se connecter à partir d’autres espaces de travail. Pour plus d’informations, voir [Modification des types d’enregistrement](/help/quicksilver/planning/architecture/edit-record-types.md).
+
+     >[!TIP]
+     >
+     >Si aucun type d’enregistrement n’est configuré pour se connecter à partir d’un autre espace de travail, la section espace de travail ne s’affiche pas.
+
 
    * Un **projet, un portfolio, un programme, une entreprise** ou un **groupe** depuis la section **Types d’objets Workfront**.
 

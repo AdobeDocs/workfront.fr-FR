@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 74%
+source-wordcount: '360'
+ht-degree: 58%
 
 ---
 
@@ -101,27 +101,16 @@ Avant de supprimer un espace de travail, nous vous recommandons de créer à nou
 
 {{step1-to-planning}}
 
-1. (Conditionnel) Si vous êtes administrateur Workfront, cliquez sur **Mes espaces de travail** pour accéder aux espaces de travail que vous avez créés, ou sur **Autres espaces de travail** pour accéder aux espaces de travail partagés avec vous. <!--change it to Workspaces I'm on-->
+1. (Conditionnel) Si vous êtes administrateur Workfront, cliquez sur **Espaces de travail sur** pour accéder aux espaces de travail que vous avez créés, ou sur **Autres espaces de travail** pour accéder aux espaces de travail partagés avec vous.
 
-1. Cliquez sur la carte de l’espace de travail que vous souhaitez supprimer.
+1. (Facultatif) Cliquez sur **Tout afficher** pour afficher des espaces de travail supplémentaires. Le lien **Tout afficher** s’affiche uniquement lorsque vous avez plus de deux lignes de cartes d’espace de travail.
+1. (Facultatif) Cliquez sur **Afficher moins** pour limiter le nombre d’espaces de travail qui s’affichent à l’écran.
+1. Pour supprimer un espace de travail, effectuez l’une des opérations suivantes :
 
-   La page Workspace s’affiche.
-
-<!--***********Replace the steps from the next below till the "Type "delete" in the space ... " (but keep this last step)*******
-
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To delete a workspace, do one of the following:
-
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Delete**.
-
-   ![](assets/permanently-delete-workspace-confirmation.png)
-   -->
-
-1. Cliquez sur le menu **Plus** ![](assets/more-menu.png) en regard du nom de l’espace de travail, puis sur **Supprimer**.
+   * Passez la souris sur la carte de l’espace de travail, puis cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit de la carte.
+Ou
+   * Cliquez sur une carte d’espace de travail pour ouvrir l’espace de travail, puis cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom de l’espace de travail.
+1. Cliquez sur **Supprimer**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
