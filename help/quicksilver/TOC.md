@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
 source-wordcount: '14334'
 ht-degree: 93%
@@ -406,13 +406,13 @@ ht-degree: 93%
             * [Webinaires sur la version R1](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
    * Annonces {#announcements}
       * [Annonces](product-announcements/announcements/announcements.md)
-      * [Améliorations des formulaires personnalisés](product-announcements/announcements/custom-form-enhancements.md)
       * [Planning des fonctionnalités obsolètes](product-announcements/announcements/feature-removal-timeline.md)
       * [Questions fréquentes sur les fenêtres de maintenance](product-announcements/announcements/maintenance-window-faq.md)
       * [Modification requise pour ajouter des épreuves à votre liste autorisée](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Se désabonner des messages du Centre des annonces dans la nouvelle expérience Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Archive des annonces {#announcement-archive}
          * [Archive des annonces](product-announcements/announcements/announcement-archive/announcement-archive.md)
+         * [Améliorations des formulaires personnalisés](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [Mise à jour de l’application mobile pour iOS et Android (début août 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [TLS 1.2 requis dans Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Disponibilité du module complémentaire Outlook 365](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)

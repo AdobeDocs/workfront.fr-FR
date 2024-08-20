@@ -1,15 +1,15 @@
 ---
 navigation-topic: notifications
-title: Personnaliser les objets des e-mails pour les notifications d’événement
+title: Personnalisation des objets de courrier électronique pour les notifications d’événement
 description: Vous pouvez personnaliser la ligne d’objet des e-mails déclenchés par les notifications d’événement.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,8 @@ Certaines notifications d’événement ont plusieurs lignes d’objet, ce qui s
 >
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -58,9 +60,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Personnaliser les lignes d’objet des e-mails pour les notifications d’événement {#customize-email-subject-lines-for-event-notifications}
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **E-mail** > **Notifications**.
 

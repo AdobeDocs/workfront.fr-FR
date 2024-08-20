@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup;user-management
 navigation-topic: configure-proofing-functionality
-title: Configurer l’accès d’un utilisateur ou d’une utilisatrice à la relecture
+title: Configuration de l’accès à la vérification d’un utilisateur
 description: En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, vous pouvez configurer l’accès d’un utilisateur à la création et à l’affichage de BAT dans Workfront et Workfront Proof.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 5%
+source-wordcount: '1240'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,8 @@ En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, v
 Pour plus d’informations sur la fonctionnalité de vérification de base et la fonctionnalité de vérification intégrée, voir [Accès aux fonctionnalités de vérification de performance dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -46,6 +48,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Activation et désactivation de la vérification pour un utilisateur (plans hérités uniquement) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 Si votre entreprise utilise un abonnement Workfront Select ou Premium hérité, en tant qu’administrateur Workfront, vous pouvez activer et désactiver la fonctionnalité de vérification pour l’utilisateur.
@@ -63,7 +67,8 @@ Bien que vous puissiez activer un utilisateur en tant qu’utilisateur de vérif
 
 Le profil d’autorisation que vous sélectionnez est attribué aux utilisateurs pour chaque BAT existant au sein de votre organisation.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Utilisateurs et utilisatrices** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
+
 1. Sélectionnez un ou plusieurs utilisateurs, puis cliquez sur **Modifier**.
 
 1. Dans la section **Accès** , cliquez sur l’une des options d’autorisation Workfront Proof suivantes dans le menu déroulant **Profil d’autorisation de BAT** :

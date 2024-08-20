@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configurer les paramètres d’épreuve par défaut
+title: Configuration des paramètres de BAT par défaut
 description: Ces paramètres vous permettent de définir des valeurs par défaut qui s’appliquent à tous les nouveaux BAT créés par vos utilisateurs. Cependant, les utilisateurs peuvent remplacer la plupart de ces paramètres lors de la création d’un BAT.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '557'
 ht-degree: 15%
 
 ---
@@ -53,7 +53,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Configuration des nouveaux paramètres par défaut du BAT
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration**.
+{{step-1-to-setup}}
+
 1. Dans le panneau de gauche, cliquez sur **Bons à tirer** > **Paramètres de BAT**.
 1. Dans la section **New BAT defaul1} , configurez les paramètres suivants :**
 
@@ -113,7 +114,8 @@ Les utilisateurs peuvent utiliser des décisions de BAT pour indiquer le statut 
 
 Pour configurer les décisions du BAT :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration**.
+{{step-1-to-setup}}
+
 1. Dans le panneau de gauche, cliquez sur **Bons à tirer** > **Paramètres de BAT**.
 1. Dans la section **Decisions** , vous pouvez
 

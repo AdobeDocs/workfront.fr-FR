@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '579'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 5%
 En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, vous pouvez configurer les comptes d’utilisateurs avec lesquels les bons à tirer peuvent être partagés, déterminer si les utilisateurs peuvent voir toutes les versions d’un bon à tirer et déterminer le moment auquel les utilisateurs ont accès aux éléments partagés.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -44,9 +46,11 @@ Vous devez disposer des éléments suivants :
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Configuration du partage avec d’autres comptes
 
-1. Dans Workfront, cliquez sur le menu principal ![](assets/main-menu-icon.png), puis sur Vérification ![](assets/proofing-in-main-menu.png) pour accéder à Workfront Proof.
+{{step1-to-proofing}}
 
 1. Cliquez sur **Paramètres** > **Paramètres du compte**, puis sur l’onglet **Paramètres** .
 
@@ -57,7 +61,7 @@ Vous devez disposer des éléments suivants :
 
 ## Configurer la visibilité de toutes les versions d’un BAT partagé
 
-1. Dans Workfront, cliquez sur le menu principal ![](assets/main-menu-icon.png), puis sur Vérification ![](assets/proofing-in-main-menu.png) pour accéder à Workfront Proof.
+{{step1-to-proofing}}
 
 1. Cliquez sur **Paramètres** > **Paramètres du compte**, puis sur l’onglet **Paramètres** .
 
@@ -75,7 +79,7 @@ Vous pouvez spécifier le moment où les bons à tirer avec un workflow automati
 
 Pour configurer lorsque les bons à tirer avec un workflow automatisé sont visibles par les utilisateurs :
 
-1. Dans Workfront, cliquez sur le menu principal ![](assets/main-menu-icon.png), puis sur Vérification ![](assets/proofing-in-main-menu.png) pour accéder à Workfront Proof.
+{{step1-to-proofing}}
 
 1. Cliquez sur **Paramètres** > **Paramètres du compte**, puis sur l’onglet **Paramètres** .
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 13%
 
 ---
@@ -21,7 +21,7 @@ Pour améliorer les performances du système et faciliter l’utilisation des fo
 
 >[!CAUTION]
 >
->La suppression d’un champ personnalisé supprime également toutes les données personnalisées que les utilisateurs ont saisies dans le champ lors du remplissage de formulaires personnalisés associés à des objets. Les données supprimées ne peuvent pas être récupérées.
+>La suppression d’un champ personnalisé supprime également toutes les données personnalisées que les utilisateurs ont saisies dans le champ lors du remplissage de formulaires personnalisés associés à des objets. Les données supprimées ne peuvent pas être récupérées. En outre, il n’existe aucun système de notification pour avertir les personnes qui utilisent le formulaire personnalisé qu’il a été supprimé.
 >
 >Vous pouvez afficher tous les formulaires et rapports personnalisés qui utilisent un champ personnalisé que vous souhaitez supprimer afin d’évaluer les répercussions possibles. Pour plus d’informations, voir [Afficher tous les formulaires personnalisés qui utilisent un champ ou un widget personnalisé spécifique](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) et [Afficher tous les rapports qui utilisent un champ ou un widget personnalisé spécifique](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >

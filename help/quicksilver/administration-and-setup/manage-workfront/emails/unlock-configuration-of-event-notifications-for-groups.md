@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Déverrouiller ou verrouiller la configuration des notifications d’événement pour tous les groupes
+title: Déverrouillage ou verrouillage de la configuration des notifications d’événement pour tous les groupes
 description: Si vous faites partie de l’équipe d’administration Adobe Workfront, vous pouvez déverrouiller ou reverrouiller la possibilité pour l’équipe d’administration de groupe de configurer une notification d’événement pour les groupes de niveau supérieur qu’elle gère. La configuration d’une notification d’événement consiste à l’activer ou la désactiver.
 author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 100%
+source-wordcount: '544'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,8 @@ Lorsqu’une personne de l’équipe d’administration configure une notificati
 >
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -52,13 +54,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Déverrouiller ou reverrouiller la possibilité de configurer une notification d’événement
 
 >[!IMPORTANT]
 >
 >Lorsque vous reverrouillez une notification, tous les groupes du système héritent de la notification telle que vous l’avez définie. Cela remplace toute modification que l’équipe d’administion de groupe peut avoir apportée à ses groupes. Il est donc préférable de la consulter d’abord.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **E-mail** > **Notifications**.
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configuration des paramètres du BAT pour votre organisation
+title: Configuration des paramètres de BAT pour votre organisation
 description: En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, vous pouvez personnaliser les paramètres de BAT par défaut de votre entreprise. Ces paramètres comprennent les options de partage par défaut, la valorisation de marque, etc.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1221'
 ht-degree: 3%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 3%
 En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, vous pouvez personnaliser les paramètres de BAT par défaut de votre entreprise. Ces paramètres comprennent les options de partage par défaut, la valorisation de marque, etc.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants :
 
@@ -44,6 +46,8 @@ Vous devez disposer des éléments suivants :
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Configuration des actions
 
 Pour plus d’informations sur l’utilisation des actions dans la visionneuse de vérification, voir [Utilisation d’actions sur les commentaires de BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
@@ -56,7 +60,7 @@ Vous pouvez configurer des actions pour votre organisation comme suit :
 
 ### Ajouter ou renommer une action {#add-or-rename-an-action}
 
-1. Dans Workfront, cliquez sur le menu principal ![](assets/main-menu-icon.png), puis sur Vérification ![](assets/proofing-in-main-menu.png) pour accéder à Workfront Proof.
+{{step1-to-proofing}}
 
 1. Cliquez sur **Paramètres** > **Paramètres du compte** dans le coin supérieur droit de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres** .
 
@@ -73,7 +77,7 @@ Vous pouvez configurer des actions pour votre organisation comme suit :
 
 ### Désactivation ou réactivation d’une action {#deactivate-or-reactivate-an-action}
 
-1. Dans Workfront, cliquez sur le menu principal ![](assets/main-menu-icon.png), puis sur Vérification ![](assets/proofing-in-main-menu.png) pour accéder à Workfront Proof.
+{{step1-to-proofing}}
 
 1. Cliquez sur **Paramètres** > **Paramètres du compte** dans le coin supérieur droit de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres** .
 
@@ -82,7 +86,7 @@ Vous pouvez configurer des actions pour votre organisation comme suit :
 
 ### Réorganiser les actions {#reorder-actions}
 
-1. Dans Workfront, cliquez sur le menu principal ![](assets/main-menu-icon.png), puis sur Vérification ![](assets/proofing-in-main-menu.png) pour accéder à Workfront Proof.
+{{step1-to-proofing}}
 
 1. Cliquez sur **Paramètres** > **Paramètres du compte** dans le coin supérieur droit de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres** .
 
@@ -98,7 +102,7 @@ Pour plus d’informations sur la façon dont les utilisateurs peuvent sélectio
 
 Pour ajouter un appareil personnalisé :
 
-1. Dans Workfront, cliquez sur le menu principal ![](assets/main-menu-icon.png), puis sur Vérification ![](assets/proofing-in-main-menu.png) pour accéder à Workfront Proof.
+{{step1-to-proofing}}
 
 1. Cliquez sur **Paramètres** > **Paramètres du compte** dans le coin supérieur droit de l’interface de Workfront Proof, puis cliquez sur l’onglet **Paramètres** .
 

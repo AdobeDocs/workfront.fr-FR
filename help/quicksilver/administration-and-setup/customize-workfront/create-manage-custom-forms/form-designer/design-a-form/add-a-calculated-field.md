@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
 source-wordcount: '2319'
 ht-degree: 12%
@@ -239,7 +239,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         **Champs personnalisés calculés dans des formulaires personnalisés à plusieurs objets**
 
-        Dans un formulaire personnalisé à plusieurs objets, les types d’objets sélectionnés doivent être compatibles avec au moins un champ référencé dans les champs personnalisés calculés du formulaire. Les champs non compatibles avec l’objet s’affichent sous la forme N/A.
+        Dans un formulaire personnalisé à plusieurs objets, les types d’objet sélectionnés doivent être compatibles avec au moins un champ référencé dans les champs personnalisés calculés du formulaire. Les champs non compatibles avec l’objet s’affichent sous la forme N/A.
 
         Pour vous assurer que le champ calculé affiche un résultat correct pour tous les types d’objets, vous devez utiliser `$$OBJCODE` pour définir un calcul pour chaque type d’objet.
 

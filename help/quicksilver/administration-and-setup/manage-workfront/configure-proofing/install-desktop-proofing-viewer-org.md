@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Installation de la visionneuse de vérification de l’appli de bureau pour votre entreprise
+title: Installation de la visionneuse de vérification de l’appli de bureau pour votre organisation
 description: La visionneuse de vérification de l’appli de bureau, conçue principalement pour la vérification du contenu interactif, est une application qui doit être installée sur l’ordinateur local de chaque utilisateur. En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, vous pouvez effectuer cette installation.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
-source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 18%
+source-wordcount: '569'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 18%
 La visionneuse de vérification de l’appli de bureau, conçue principalement pour la vérification du contenu interactif, est une application qui doit être installée sur l’ordinateur local de chaque utilisateur. En tant qu’administrateur Adobe Workfront ou administrateur Workfront Proof, vous pouvez effectuer cette installation.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -45,6 +47,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configuration requise
 

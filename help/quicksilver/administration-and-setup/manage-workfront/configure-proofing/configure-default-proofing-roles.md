@@ -8,18 +8,20 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 35%
+source-wordcount: '550'
+ht-degree: 34%
 
 ---
 
-# Configuration des rôles de vérification par défaut
+# Configurer des rôles de relecture par défaut
 
 En tant qu’administrateur Adobe Workfront, vous pouvez configurer les rôles de vérification par défaut pour les utilisateurs et les utilisateurs invités ayant accès aux BAT créés dans Workfront. Toute personne qui ajoute des utilisateurs à un BAT peut ajuster ces rôles pour eux.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -44,11 +46,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## Configuration des rôles de vérification par défaut
++++
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+## Configurer des rôles de relecture par défaut
 
-   <!--
+{{step-1-to-setup}}
+
+<!--
    <li In the left panel, click Proofs Proof roles.
    -->
 

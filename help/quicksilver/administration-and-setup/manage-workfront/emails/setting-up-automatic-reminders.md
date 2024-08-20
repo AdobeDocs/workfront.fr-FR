@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Mettre en place des rappels automatiques
-description: Mettre en place des rappels automatiques
+description: Vous pouvez configurer des rappels automatiques pour déclencher des notifications par e-mail lorsque toutes les tâches ou tous les problèmes sont dus, en retard ou près de la date d’achèvement prévue.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 93%
 
 ---
 
@@ -35,6 +35,8 @@ Un rappel automatique peut être envoyé à une ou plusieurs des personnes desti
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -56,11 +58,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Mettre en place des rappels automatiques
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Cliquez sur **E-mail** > **Rappels automatiques**.
+1. Cliquez sur **Email** > **Reminders automatiques**.
 
 1. Dans la zone **Envoyer une notification tardive à**, sélectionnez l’une des options suivantes :
 
@@ -85,7 +89,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
         <td>(Dans la zone <b>Envoyer un rappel d’échéance à</b>.) Sélectionnez cette option si vous souhaitez que la personne affectée à une tâche ou à un problème reçoive une notification sur son élément de travail approchant la date d’échéance.</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. Sélectionnez l’heure d’envoi du rappel automatique en sélectionnant la durée avant ou après la date d’échéance de l’élément de travail.
 

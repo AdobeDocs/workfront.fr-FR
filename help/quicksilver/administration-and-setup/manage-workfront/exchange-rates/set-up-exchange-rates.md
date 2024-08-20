@@ -2,15 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
-title: Configurer les taux de change
+title: Configuration des taux d’Exchange
 description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer des taux d’exchange de devise dans Workfront.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 22%
+source-wordcount: '556'
+ht-degree: 19%
 
 ---
 
@@ -41,6 +42,8 @@ La manière dont vous configurez les taux d’exchange affecte la possibilité p
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -62,9 +65,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Configurer les taux de change
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Préférences du projet** > **Taux d’Exchange.**
 

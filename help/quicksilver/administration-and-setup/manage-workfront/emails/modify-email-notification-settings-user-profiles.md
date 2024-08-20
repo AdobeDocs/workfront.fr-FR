@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration
 keywords: modifier,e-mail,notification,paramètres,bloc,modifier en bloc,configurer,multiple,utilisateurs, utilisatrices
 navigation-topic: emails-administration
-title: Modifier les paramètres de notification par e-mail de plusieurs personnes
+title: Modification des paramètres de notification électronique de plusieurs utilisateurs
 description: Cet article fournit à l’équipe d’administration de Workfront ou de groupe des informations sur la façon dont elle peut mettre à jour les notifications par e-mail d’autres personnes.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 

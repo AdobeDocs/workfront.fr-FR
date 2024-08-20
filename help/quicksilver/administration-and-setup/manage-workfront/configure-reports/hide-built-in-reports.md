@@ -6,10 +6,11 @@ title: Masquage des rapports natifs
 description: Adobe Workfront contient une liste complète de rapports intégrés par défaut auxquels les utilisateurs peuvent accéder et afficher. En tant qu’administrateur Workfront, vous pouvez modifier le niveau d’accès d’un utilisateur pour masquer les rapports natifs afin que les utilisateurs n’y aient pas accès.
 feature: System Setup and Administration
 role: Admin
+author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '214'
 ht-degree: 34%
 
 ---
@@ -19,6 +20,8 @@ ht-degree: 34%
 Adobe Workfront contient une liste complète de rapports intégrés par défaut auxquels les utilisateurs peuvent accéder et afficher. En tant qu’administrateur Workfront, vous pouvez modifier le niveau d’accès d’un utilisateur pour masquer les rapports natifs afin que les utilisateurs n’y aient pas accès.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -41,9 +44,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Masquage des rapports natifs
 
-1. Dans le **menu principal** ![](assets/main-menu-icon.png), cliquez sur **Configuration**.
+{{step-1-to-setup}}
+
 1. Cliquez sur **Niveaux d’accès**.
 1. Sélectionnez le niveau d&#39;accès pour lequel vous souhaitez masquer les rapports intégrés, puis cliquez sur **Modifier**.
 1. Pour l’objet **Reports**, cliquez sur l’icône **Settings** en regard du niveau d’accès le plus élevé disponible, puis désélectionnez **Afficher les rapports intégrés**.

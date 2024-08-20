@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: '« Notifications par e-mail : index des articles »'
+title: "Notifications par e-mail : Index de l’article"
 description: En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez configurer les notifications d’événement, les notifications de rappel et les modèles d’e-mail destinés à vos utilisateurs et utilisatrices.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 

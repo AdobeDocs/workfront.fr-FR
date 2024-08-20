@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Création et gestion de modèles de processus automatisés
+title: Création et gestion de modèles de workflow automatisés
 description: En tant qu’administrateur Adobe Workfront, si le processus d’examen du contenu de votre entreprise est souvent répété ou si le contenu est souvent examiné par les mêmes personnes, vous pouvez créer des modèles de workflow automatisé qui contiennent les réviseurs avec les rôles de BAT et les paramètres de notification que vous spécifiez. Un modèle de workflow automatisé peut être simple avec un ou deux réviseurs ou complexe avec de nombreuses étapes et dépendances.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 3%

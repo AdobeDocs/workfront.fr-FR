@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configuration des paramètres par défaut de notification par email du BAT
+title: Configuration des paramètres par défaut de notification électronique de BAT
 description: Les utilisateurs de la vérification dans Adobe Workfront peuvent recevoir des notifications par e-mail de Workfront et de Workfront Proof lorsque des commentaires ou des décisions sont effectués sur un BAT. Si les utilisateurs reçoivent déjà des notifications par e-mail de Workfront Proof, nous vous recommandons de désactiver les notifications envoyées depuis Workfront pour éviter les courriers électroniques de notification en double.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 18%
+source-wordcount: '291'
+ht-degree: 14%
 
 ---
 
@@ -54,7 +54,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 Pour configurer les paramètres de notification électronique du BAT envoyés depuis Workfront :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Développez **Email**, puis cliquez sur **Révision et approbation**.
 
