@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: f77416c9560a21f8607b46a8e4fd2a00b4b3b328
+source-git-commit: 352eaa63638504d0114803fbca640a8eb2745d57
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '230'
 ht-degree: 96%
 
 ---
@@ -64,6 +64,7 @@ Cette section contient les articles suivants :
 * [[!DNL Datadog] modules](../../workfront-fusion/apps-and-their-modules/datadog-modules.md)
 * [Modules de stockage de données](../../workfront-fusion/apps-and-their-modules/data-store-modules.md)
 * [[!DNL DocuSign] modules](../../workfront-fusion/apps-and-their-modules/docusign-modules.md)
+* [Modules [!DNL Draft.js]](../../workfront-fusion/apps-and-their-modules/draft-js-modules.md)
 * [Modules [!DNL Dropbox]](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
 * [Modules e-mail](../../workfront-fusion/apps-and-their-modules/email-modules.md)
 * [[!UICONTROL Encryptor]](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md)
