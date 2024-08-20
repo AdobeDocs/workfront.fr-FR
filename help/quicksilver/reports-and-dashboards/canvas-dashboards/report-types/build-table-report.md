@@ -6,14 +6,18 @@ description: Un rapport de tableau qui affiche vos données sous la forme d’un
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 27%
+source-wordcount: '191'
+ht-degree: 23%
 
 ---
 
 # Créer un rapport de tableau dans un tableau de bord de zone de travail
+
+>[!IMPORTANT]
+>
+>Cette page décrit des fonctionnalités qui ne sont disponibles que pour les utilisateurs inscrits dans la version bêta des tableaux de bord de canevas fermés. Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Un rapport de tableau qui affiche vos données sous la forme d’un tableau configurable peut être ajouté à un tableau de bord de zone de travail.
 

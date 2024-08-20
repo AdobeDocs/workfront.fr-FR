@@ -7,10 +7,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 18%
+source-wordcount: '432'
+ht-degree: 17%
 
 ---
 
@@ -21,11 +21,9 @@ Les tableaux de bord de canevas sont une fonctionnalité en cours de développem
 Pour obtenir des informations de base sur l’utilisation des tableaux de bord Canvas, voir [Prise en main des tableaux de bord Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 Pour obtenir la liste de tous les tableaux de bord Canvas, consultez la [présentation des tableaux de bord Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Planification Beta :**
+**État de Beta**
 
-* Date de début de la version bêta fermée - TBA
-* Date de début de la version bêta ouverte - TBA
-* Date de publication prévue - TBA
+Les tableaux de bord de la zone de travail sont actuellement dans une phase de test bêta fermée et ne sont donc disponibles que sur invitation de clients spécifiques.
 
 ## Participer à la version bêta
 

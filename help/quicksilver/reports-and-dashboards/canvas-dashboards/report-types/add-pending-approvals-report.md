@@ -6,14 +6,18 @@ description: Un rapport d’approbation en attente contenant des données concer
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 25%
+source-wordcount: '200'
+ht-degree: 22%
 
 ---
 
 # Ajout d’un rapport d’approbations en attente à un tableau de bord Zone de travail
+
+>[!IMPORTANT]
+>
+>Cette page décrit des fonctionnalités qui ne sont disponibles que pour les utilisateurs inscrits dans la version bêta des tableaux de bord de canevas fermés. Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Un rapport d’approbation en attente contenant des données concernant vos décisions de validation en attente et antérieures peut être ajouté à un tableau de bord de zone de travail.
 

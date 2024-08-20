@@ -7,14 +7,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 3%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 
 # Types de rapports du tableau de bord du canevas
+
+>[!IMPORTANT]
+>
+>Cette page décrit des fonctionnalités qui ne sont disponibles que pour les utilisateurs inscrits dans la version bêta des tableaux de bord de canevas fermés. Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Il existe plusieurs rapports que vous pouvez ajouter à un tableau de bord Zone de travail qui visualisent vos données Workfront de différentes manières. Les types de rapports suivants peuvent être ajoutés à un tableau de bord Zone de travail :
 

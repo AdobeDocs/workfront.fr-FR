@@ -6,14 +6,18 @@ description: Les rapports créés à l’aide de l’outil Rapports Adobe Workfr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 26%
+source-wordcount: '196'
+ht-degree: 22%
 
 ---
 
 # Ajout d’un rapport existant à un tableau de bord Zone de travail
+
+>[!IMPORTANT]
+>
+>Cette page décrit des fonctionnalités qui ne sont disponibles que pour les utilisateurs inscrits dans la version bêta des tableaux de bord de canevas fermés. Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Les rapports créés à l’aide de l’outil Rapports Adobe Workfront peuvent être ajoutés à un tableau de bord Zone de travail. Pour plus d’informations sur la création de rapports, voir [Prise en main des rapports](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
