@@ -1,16 +1,16 @@
 ---
-title: "Principes de base des API de planification Adobe Workfront"
+title: Principes de base des API de planification Adobe Workfront
 description: L’objectif de l’API de planification d’Adobe Workfront est de simplifier la création d’intégrations avec la planification en introduisant une architecture REST-ful qui fonctionne sur HTTP. Ce document suppose que vous connaissez les réponses REST et JSON et décrit l’approche adoptée par l’API de planification.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
+exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
+source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 12%
 
 ---
-
 
 # Principes de base des API de planification Adobe Workfront
 
@@ -98,13 +98,13 @@ Workfront Planning prend en charge les modificateurs de recherche suivants :
         <td>$greaterThanOrEqual </td>
         <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
         <td>Renvoie les enregistrements dont la valeur de champ est supérieure ou égale au filtre  </td>
-        <td><ul><li>10</li><li>20</li><ul><li>25</li> </td>
+        <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
     </tr>
     <tr>
         <td>$lessThan </td>
         <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
         <td>Renvoie les enregistrements dont la valeur de champ est inférieure au filtre  </td>
-        <td><ul><li>5</li><li>9</li><ul> </td>
+        <td><ul><li>5</li><li>9</li></td></ul> 
     </tr>
     <tr>
         <td>$lessThanOrEqual </td>
@@ -355,6 +355,3 @@ Corps de la requête :
 Pour vous assurer que vos résultats sont correctement paginés, utilisez un paramètre de tri. Cela permet de renvoyer les résultats dans le même ordre, de sorte que la pagination ne se répète pas ou n’ignore pas les résultats.
 
 Pour plus d’informations sur le tri, voir [Tri des résultats de requête dans l’API](#sorting-query-results-in-the-api) de cet article.
-
-
-
