@@ -7,10 +7,10 @@ description: Cet article décrit les paramètres disponibles dans le panneau [!U
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 11%
+source-wordcount: '1206'
+ht-degree: 10%
 
 ---
 
@@ -70,7 +70,30 @@ Cette option détermine le déroulement de [!DNL Adobe Workfront Fusion] en cas 
 
 ## [!UICONTROL Traitement séquentiel]
 
-Cette option détermine le mode de fonctionnement de [!DNL Workfront Fusion] en cas d’erreur et si l’exécution d’un scénario est déplacée vers l’instance [Afficher et résoudre les exécutions incomplètes dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Si l’option [!UICONTROL Traitement séquentiel] est activée, Workfront Fusion arrête le traitement complet de la séquence de tâches jusqu’à ce que toutes les exécutions incomplètes soient résolues. Si l’option [!UICONTROL Traitement séquentiel] est désactivée, l’exécution du scénario se poursuit selon son planning, accompagnée de tentatives répétées d’exécution incomplète.
+Cette option force toutes les exécutions dans l’ordre. Elle est principalement adaptée aux webhooks et aux exécutions incomplètes.
+
+Lorsque le traitement séquentiel est activé, les exécutions parallèles du scénario sont désactivées.
+
+### Instant Webhooks
+
+Si un déclencheur webhook est configuré comme `instant` et que &quot;le traitement séquentiel&quot; est activé, toutes les payloads de webhook instantanées seront mises en file d’attente et traitées dans l’ordre dans lequel elles arrivent. Cela peut s’avérer utile lors du traitement d’événements à partir de systèmes externes dans un ordre exact.
+
+>[!NOTE]
+>
+>Il y aura des retards de traitement automatique lorsque chaque charge utile sera traitée avant le prochain démarrage.
+
+### Exécutions incomplètes
+
+Si l’option &quot;Exécutions incomplètes&quot; est également activée, si une erreur se produit lors de l’exécution d’un scénario, le scénario est suspendu. L’une des actions suivantes se produit alors :
+
+* Si l’option de traitement séquentiel est **activée**, Workfront Fusion arrête le traitement de la séquence préexistante jusqu’à ce que toutes les exécutions incomplètes soient résolues.
+* Si l’option de traitement séquentiel est **désactivée**, l’exécution du scénario se poursuit conformément à son planning, accompagnée de tentatives répétées d’exécution incomplète.
+
+Pour plus d’informations sur les exécutions incomplètes, voir [Affichage et résolution des exécutions incomplètes dans Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+
+<!--
+
+This option determines how [!DNL Workfront Fusion] proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the [!UICONTROL Sequential processing] option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the [!UICONTROL Sequential processing] option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.-->
 
 >[!NOTE]
 >
