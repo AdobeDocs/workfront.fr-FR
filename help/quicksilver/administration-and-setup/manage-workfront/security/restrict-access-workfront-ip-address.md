@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: security
 title: Limitation de l’accès à Adobe Workfront par adresse IP
 description: Vous pouvez configurer une liste autorisée IP Adobe Workfront qui limite l’accès à Workfront à 45 adresses IP ou plages d’adresses IP que vous spécifiez. Cela fournit une couche supplémentaire de sécurité pour l’application Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 26%
+source-wordcount: '447'
+ht-degree: 23%
 
 ---
 
@@ -22,6 +22,8 @@ Vous pouvez configurer une liste autorisée IP Adobe Workfront qui limite l’ac
 Ces adresses IP ou plages d’adresses doivent être fournies par votre administrateur réseau.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -44,6 +46,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  </tbody> 
 </table>
 
++++
+
 ## Autres listes autorisées
 
 Si votre pare-feu ou serveur de messagerie est configuré pour autoriser l’accès à certains fournisseurs uniquement, vous devez ajouter certaines adresses IP à sa liste autorisée. Cela permet d’établir une communication entre votre environnement et les serveurs Adobe Workfront. Pour plus d’informations à ce sujet, voir [Configuration de la liste autorisée de votre pare-feu](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
@@ -54,7 +58,7 @@ En outre, si votre entreprise utilise le forfait Enterprise, vous pouvez configu
 
 Une fois que vous avez ajouté des adresses IP à la liste autorisée Workfront, seules ces adresses IP peuvent être utilisées pour accéder à Workfront. Les utilisateurs qui tentent d’accéder à Workfront depuis une autre adresse IP reçoivent un message d’erreur indiquant que leur adresse IP est bloquée.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **System** > **Customer Info.**
 

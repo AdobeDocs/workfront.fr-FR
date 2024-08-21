@@ -3,24 +3,26 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Scénario de démarrage : entreprise, groupe, rôle et préparation du lancement de l’utilisateur"
+title: "Scénario de démarrage : société, groupe, rôle et préparation du lancement de l’utilisateur"
 description: Lorsque vous commencez à implémenter Adobe Workfront, plutôt que de saisir manuellement des données, vous pouvez importer la liste de vos clients, les services internes, les rôles de tâche et les informations sur les utilisateurs.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 11%
 
 ---
 
-# Scénario de démarrage : société, groupe, rôle et utilisateur - Démarrage de la préparation
+# Scénario de démarrage : entreprise, groupe, rôle et utilisateur Préparation de lancement
 
 Lorsque vous commencez à implémenter Adobe Workfront, plutôt que de saisir manuellement des données, vous pouvez importer la liste de vos clients, les services internes, les rôles de tâche et les informations sur les utilisateurs.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,9 +45,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Éléments que vous pouvez importer
 
-Le tableau suivant affiche les sociétés, groupes et rôles à importer :
+Le tableau suivant répertorie les entreprises, les groupes et les rôles à importer :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +71,7 @@ Le tableau suivant affiche les sociétés, groupes et rôles à importer :
  </tbody> 
 </table>
 
-Les noms des rôles doivent être uniques, les rôles de tâche existants ne peuvent pas être importés.
+Les noms des rôles doivent être uniques. Les rôles de tâche existants ne peuvent pas être importés.
 
 Les tableaux suivants présentent les utilisateurs à importer et plusieurs attributs utilisateur pour chacun d’eux :
 
@@ -157,7 +161,7 @@ Les tableaux suivants présentent les utilisateurs à importer et plusieurs attr
 
 ## Téléchargement d’un modèle de démarrage rapide
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **System** > **Kick-Starts** > **Import Data.**
 
@@ -299,4 +303,4 @@ Les tableaux suivants présentent les utilisateurs à importer et plusieurs attr
 1. Renseignez d’autres informations sur l’utilisateur, si nécessaire, puis enregistrez le fichier.
 1. Importez le fichier Excel.
 
-   Suivez les instructions de la section **Importation de fichiers de démarrage de ick** de cet article.
+   Suivez les instructions fournies dans [Importer des données dans Adobe Workfront à l’aide d’un modèle Kickstart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

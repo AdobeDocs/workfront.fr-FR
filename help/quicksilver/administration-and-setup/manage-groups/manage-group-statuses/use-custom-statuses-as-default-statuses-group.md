@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Utiliser un état personnalisé comme état par défaut pour un groupe
-description: En tant qu’administrateur de groupe, vous pouvez configurer un état personnalisé comme état par défaut pour un groupe ou un sous-groupe que vous gérez. Cela s’avère utile lorsque le système doit attribuer automatiquement un état Workfront à un projet, à une tâche ou à un problème. Un projet, une tâche ou un problème affiche toujours l’état personnalisé que vous définissez comme état par défaut au lieu d’afficher l’état Workfront auquel il correspond.
-author: Caroline
+title: Utilisation d’un état personnalisé comme état par défaut pour un groupe
+description: En tant qu’administrateur de groupe, vous pouvez configurer un état personnalisé comme état par défaut pour un groupe ou un sous-groupe que vous gérez.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 16%
+source-wordcount: '678'
+ht-degree: 15%
 
 ---
 
@@ -30,6 +30,8 @@ S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’
 >Ensuite, pour les tâches définies pour passer à l’état Terminé lorsqu’elles atteignent 100 %, l’état s’affiche comme Terminé au lieu de Terminé.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -50,6 +52,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Statuts des problèmes
 
 Si l’état personnalisé est un état de problème, les quatre types de problème doivent être activés pour celui-ci (rapport de bogue, ordre de modification, problème et requête). Par exemple, dans l’état ci-dessous, l’état Réouvert ne peut pas être utilisé comme état par défaut, car le type de problème Modifier l’ordre n’est pas sélectionné :
@@ -58,7 +62,8 @@ Si l’état personnalisé est un état de problème, les quatre types de probl�
 
 ## Définir un état personnalisé comme état par défaut pour un groupe
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png), puis sur le nom du groupe dans lequel vous souhaitez créer ou personnaliser des états.
 1. Dans le panneau de gauche, cliquez sur **États** ![](assets/gear-icon-settings.png).
 1. Ouvrez l’onglet **Projet**, **Tâches** ou **Problèmes**, selon le type d’état que vous souhaitez définir comme état par défaut.

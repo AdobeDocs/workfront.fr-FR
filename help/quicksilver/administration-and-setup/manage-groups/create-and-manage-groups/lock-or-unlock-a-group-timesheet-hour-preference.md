@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Verrouillage ou déverrouillage d’une feuille de temps et d’une préférence d’heure de groupe
+title: Verrouillage ou déverrouillage d’une feuille de temps et d’heure de groupe
 description: Si vous êtes administrateur de groupe, vous pouvez configurer, puis verrouiller une préférence de feuille de temps et d’heure pour votre groupe après qu’un administrateur Workfront l’ait déverrouillée au niveau du système.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 13%
+source-wordcount: '625'
+ht-degree: 11%
 
 ---
 
@@ -43,9 +43,10 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 >* Si vous déplacez un groupe sous un groupe avec une préférence déverrouillée, le groupe déplacé n’est pas affecté par cette préférence.
 >
 >  Si la préférence du groupe déplacé est verrouillée au moment du déplacement, elle l’est toujours, mais l’administrateur du groupe peut la déverrouiller maintenant car elle est déverrouillée pour le groupe parent.
->
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -66,13 +67,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Verrouillage ou déverrouillage d’une feuille de temps et d’une préférence d’heure de groupe
 
 >[!TIP]
 >
 >Si vous êtes administrateur de Workfront, vous pouvez ignorer les étapes 1 à 4 en accédant à Configuration > Frise chronologique et heures > Préférences, puis en recherchant le nom du groupe dans la zone située en haut de la page.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes**.
 1. Cliquez sur le nom du groupe dans lequel vous souhaitez verrouiller ou déverrouiller une feuille de temps et une préférence d’heures.

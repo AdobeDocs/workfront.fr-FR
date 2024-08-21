@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: Empêcher les doublons d’utilisateurs et d’utilisatrices
+title: Empêcher les utilisateurs en double
 description: Lors de la création d’un nouvel utilisateur dans Adobe Workfront, vous ne pouvez plus utiliser d’adresse électronique déjà utilisée par un autre utilisateur, même si l’adresse électronique varie selon le cas (par exemple, JohnDoe@example.com et johndoe@example.com). En outre, pour préparer les futures améliorations de l’authentification, assurez-vous que tous les utilisateurs disposent d’adresses électroniques uniques dans une instance Workfront.
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 13%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 13%
 Lors de la création d’un nouvel utilisateur dans Adobe Workfront, vous ne pouvez plus utiliser d’adresse électronique déjà utilisée par un autre utilisateur, même si l’adresse électronique varie selon le cas (par exemple, JohnDoe@example.com et johndoe@example.com). En outre, pour préparer les futures améliorations de l’authentification, assurez-vous que tous les utilisateurs disposent d’adresses électroniques uniques dans une instance Workfront.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -42,6 +44,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Créer des utilisateurs avec des adresses électroniques uniques
 
 À partir de la version 2019.4, lors de la création d’un nouvel utilisateur dans Workfront, vous ne pouvez plus utiliser d’adresse électronique déjà utilisée par un autre utilisateur, même si l’adresse électronique varie selon le cas. Par exemple, vous ne pouvez pas créer un utilisateur avec l’adresse électronique JohnDoe@example.com si un autre utilisateur a l’adresse électronique johndoe@example.com.
@@ -53,7 +57,7 @@ Pour corriger les adresses électroniques en double dans une instance Workfront 
 
 1. Examinez les utilisateurs en double et décidez quel utilisateur n’est plus nécessaire.
 
-   1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit de Workfront, puis sur **Utilisateurs**. ![](assets/users-icon-in-main-menu.png)
+   {{step-1-to-users}}
 
    1. Dans le menu **Filter**, sélectionnez **All**.
 

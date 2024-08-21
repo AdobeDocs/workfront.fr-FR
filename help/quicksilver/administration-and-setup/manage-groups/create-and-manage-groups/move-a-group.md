@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-groups
-title: Déplacer un groupe
+title: Déplacement d’un groupe
 description: Vous pouvez déplacer un groupe sous un autre groupe géré.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 34%
+source-wordcount: '263'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 34%
 Vous pouvez déplacer un groupe sous un autre groupe géré.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -40,6 +42,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Déplacer un groupe sous un autre groupe
 
 >[!NOTE]
@@ -50,7 +54,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 >
 >Pour plus d’informations sur les états d’un groupe, voir [Création ou modification d’un état](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) et [Création ou modification d’un état d’un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 

@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Création et gestion des profils de feuille de temps d’un groupe
 description: Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher et utiliser les profils de feuille de temps pour lesquels les administrateurs du groupe, ou l’un de ses sous-groupes, ont un accès administratif.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 32%
+source-wordcount: '408'
+ht-degree: 29%
 
 ---
 
@@ -26,6 +26,8 @@ Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouv
 S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -50,6 +52,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
++++
+
 ## Création et modification de profils de feuille de temps au niveau du groupe
 
 Vous pouvez créer et modifier des profils de feuille de temps à utiliser dans un groupe que vous gérez. Pour obtenir des instructions, voir [Créer, modifier et affecter des profils de feuille de temps](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
@@ -66,7 +70,8 @@ Pour plus d’informations sur la suppression des feuilles de temps de groupe, v
 
 ## Exportation de profils de feuille de temps au niveau du groupe
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Cliquez sur **Groups**.
 
    Dans la liste qui s’affiche, vous pouvez voir les groupes que vous gérez, ainsi que les sous-groupes qu’ils possèdent. Les administrateurs Adobe Workfront peuvent voir tous les groupes.

@@ -2,19 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Voir l’élément restauré
+title: Afficher les éléments restaurés
 description: En tant qu’administrateur Adobe Workfront ou utilisateur disposant d’une licence Plan, vous pouvez afficher les projets, tâches, problèmes et documents qui ont été restaurés au cours des 7 derniers jours.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 21%
+source-wordcount: '192'
+ht-degree: 13%
 
 ---
 
-# Voir l’élément restauré
+# Afficher les éléments restaurés
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -25,6 +26,8 @@ En tant qu’administrateur Adobe Workfront ou utilisateur disposant d’une lic
 Pour plus d’informations sur la restauration d’un projet, d’une tâche, d’un problème ou d’un document après sa suppression, voir [Restaurer les éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -45,9 +48,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour connaître le plan ou le type de licence dont vous disposez, contactez votre administrateur Workfront.
 
++++
+
 ## Afficher les éléments qui ont été récemment supprimés
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Développez **Corbeille**, puis cliquez sur **Récemment restauré**.
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Configurer l’effet sur les heures lorsqu’un objet est supprimé et restauré
+title: Configuration de l’effet sur les heures lorsqu’un objet est supprimé et restauré
 description: Vous pouvez configurer ce qui arrive aux heures lorsque quelqu’un supprime un projet, une tâche ou un problème sur lequel les heures sont consignées. L’option choisie détermine également ce qui se passe aux heures si le projet, la tâche ou le problème est restauré ultérieurement. (Pour plus d’informations sur la restauration d’éléments dans Workfront, voir Restaurer des éléments supprimés.)
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 21%
+source-wordcount: '408'
+ht-degree: 17%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 21%
 Vous pouvez configurer ce qui arrive aux heures lorsque quelqu’un supprime un projet, une tâche ou un problème sur lequel les heures sont consignées. L’option choisie détermine également ce qui se passe aux heures si le projet, la tâche ou le problème est restauré ultérieurement. (Pour plus d’informations sur la restauration d’éléments dans Workfront, voir [Restauration des éléments supprimés](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -41,9 +43,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Configuration de la gestion des heures lorsqu’un élément est supprimé et restauré
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Développez **Fiches horaires et heures**, puis cliquez sur **Préférences**.
 

@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 19%
+source-wordcount: '551'
+ht-degree: 16%
 
 ---
 
@@ -31,6 +31,8 @@ Pour plus d’informations sur la façon dont un administrateur Workfront déver
 Pour plus d’informations sur le paramètre de notification par défaut d’un événement, voir [Types de notification d’événement](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -51,10 +53,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Affichage et configuration des notifications d’événement d’un groupe
 
-1. (Conditionnel et facultatif) Si vous êtes administrateur Workfront et que vous vous trouvez déjà sur la page Notifications par e-mail (Configuration > Email > Notifications), vous pouvez effectuer les opérations suivantes, puis passer à l’étape 6 : Supprimer **Notifications d’événement système** dans la zone située au-dessus de la liste, commencer à saisir le nom du groupe dans la zone, puis cliquer dessus lorsqu’il apparaît.
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+>[!TIP]
+>
+>Si vous êtes administrateur Workfront et que vous vous trouvez déjà sur la page Notifications par e-mail (Configuration > Email > Notifications), vous pouvez effectuer les opérations suivantes, puis passer à l’étape 6 : Supprimer **Notifications d’événement système** dans la zone située au-dessus de la liste, commencer à saisir le nom du groupe dans la zone, puis cliquer dessus lorsqu’il apparaît.
+
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 

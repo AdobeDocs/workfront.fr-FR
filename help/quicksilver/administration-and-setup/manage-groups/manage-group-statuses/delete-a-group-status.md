@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Supprimer le statut d’un groupe
+title: Suppression d’un état de groupe
 description: En tant qu’administrateur de groupe, vous pouvez supprimer l’état d’un groupe que vous gérez s’il n’est pas configuré comme obligatoire ou verrouillé au niveau du système ou pour un groupe supérieur dans la hiérarchie.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 21%
+source-wordcount: '569'
+ht-degree: 18%
 
 ---
 
@@ -29,6 +29,8 @@ S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’
 >* États dont l’état est en attente de validation pour au moins un objet associé au groupe ou à l’un de ses sous-groupes.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -49,9 +51,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Supprimer le statut d’un groupe
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes**.
 1. Cliquez sur le nom du groupe de niveau supérieur.

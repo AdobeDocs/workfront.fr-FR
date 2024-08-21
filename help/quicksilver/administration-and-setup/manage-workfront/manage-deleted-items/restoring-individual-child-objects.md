@@ -2,19 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Restauration d’objets enfants individuels
+title: Restaurer des objets enfant individuels
 description: Ce document décrit comment obtenir de l’aide pour récupérer des objets enfants individuels qui ont été supprimés de vos environnements de production ou de prévisualisation Adobe Workfront moins de 30 jours auparavant.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Restauration d’objets enfants individuels
+# Restaurer des objets enfants individuels
 
 Ce document décrit comment obtenir de l’aide pour récupérer des objets enfants individuels qui ont été supprimés de vos environnements de production ou de prévisualisation Adobe Workfront moins de 30 jours auparavant.
 

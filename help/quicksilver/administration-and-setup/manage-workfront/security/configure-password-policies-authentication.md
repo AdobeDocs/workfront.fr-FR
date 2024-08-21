@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: Configuration des stratégies de mot de passe pour l’authentification
+title: Configurer des politiques de mot de passe pour l’authentification
 description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer les options de stratégie de mot de passe pour personnaliser l’expérience d’authentification de votre système Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 15%
+source-wordcount: '705'
+ht-degree: 12%
 
 ---
 
-# Configuration des stratégies de mot de passe pour l’authentification
+# Configurer des politiques de mot de passe pour l’authentification
 
 {{important-admin-console-onboard}}
 
@@ -26,6 +26,8 @@ Nous vous recommandons de configurer les préférences d’authentification lors
 Amélioration des fonctionnalités de gestion des mots de passe bientôt ou déjà disponibles pour votre entreprise. Utilisez l’une des sections suivantes, selon que votre entreprise a accès ou non à la nouvelle expérience d’authentification.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -48,13 +50,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Configurer l’authentification (disponible pour tous les clients) {#configure-authentication-available-for-all-customers}
 
 Les options d’authentification s’affichent pour tous les clients. Les fonctionnalités améliorées de gestion des mots de passe vont bientôt être disponibles ou le seront peut-être déjà pour votre organisation, comme décrit dans la section [Configurer l’authentification améliorée)](#configure-enhanced-authentication-coming-soon) de cet article.
 
 Pour configurer les préférences d’authentification :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Système** > **Authentification**.
 
@@ -97,7 +101,7 @@ Cette section décrit l’expérience d’authentification améliorée, qui n’
 
 Pour configurer les préférences d’authentification améliorées :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Système** > **Authentification améliorée**.
 1. Dans la zone **Longueur du mot de passe**, saisissez le nombre minimum de caractères requis pour un mot de passe valide.

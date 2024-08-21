@@ -3,22 +3,22 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Projet de scénario simple Kickstart et préparation de l’import de tâches
+title: "Scénario de démarrage : préparation simple de l’importation de projet et de tâche"
 description: Décrit en détail les paramètres et les contrôles disponibles pour un projet de base et l’import de tâches à l’aide de la méthode Kickstart.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 99%
+source-wordcount: '1475'
+ht-degree: 95%
 
 ---
 
 # Scénario Kickstart : préparation simple de l’import de projets et de tâches
 
-Décrit en détail les paramètres et les contrôles disponibles pour un projet de base et l’import de tâches à l’aide de la méthode Kickstart.
+Décrit en détail les paramètres et les contrôles disponibles pour un projet de base et l’importation de tâches à l’aide de la méthode de démarrage rapide.
 
 ## Scénario
 

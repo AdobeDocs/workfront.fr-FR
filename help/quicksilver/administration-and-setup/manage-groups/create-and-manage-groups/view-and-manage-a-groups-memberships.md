@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: add,users,group,add,another,assign,administrator,remove,user,view,rôles,membres,export,membership,data
 navigation-topic: create-and-manage-groups
-title: Consulter et gérer les appartenances à un groupe
+title: Affichage et gestion des adhésions d’un groupe
 description: En tant qu’administrateur Adobe Workfront, vous pouvez afficher, ajouter, supprimer, exporter, activer et désactiver les membres de n’importe quel groupe que vous gérez. Vous pouvez également modifier leurs profils, ajouter des mises à jour à leurs profils et les affecter en tant qu’administrateurs de groupe supplémentaires au groupe.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 19%
+source-wordcount: '735'
+ht-degree: 16%
 
 ---
 
@@ -23,6 +23,8 @@ En tant qu’administrateur Adobe Workfront, vous pouvez afficher, ajouter, supp
 S’il existe des groupes au-dessus de votre groupe, leurs administrateurs ou administratrices peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -43,9 +45,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Consulter et gérer les appartenances à un groupe
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes**.
 

@@ -1,14 +1,14 @@
 ---
-title: Afficher le nombre de licences attribuées et utilisées dans un groupe
+title: Affichage du nombre de licences attribuées et utilisées dans un groupe
 description: En tant qu’administrateur d’Adobe Workfront, vous pouvez consulter le nombre des différents types de licences actuellement utilisés dans votre groupe et dans ses sous-groupes. Cela s’avère utile lorsque vous devez évaluer la redistribution des licences.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 23%
+source-wordcount: '482'
+ht-degree: 20%
 
 ---
 
@@ -23,6 +23,8 @@ S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’
 >La licence d’un utilisateur n’est comptabilisée dans un groupe particulier que si le groupe est le groupe d’accueil de l’utilisateur.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -43,9 +45,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Afficher le nombre de licences utilisées dans un groupe
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 

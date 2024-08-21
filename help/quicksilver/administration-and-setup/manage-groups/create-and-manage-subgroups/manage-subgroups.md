@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: manage,subgroup,edit
 navigation-topic: create-and-manage-subgroups
-title: Gérer un sous-groupe
+title: Gestion d’un sous-groupe
 description: En tant qu’administrateur de groupe d’un sous-groupe, vous pouvez créer, déplacer, afficher, modifier, copier, renommer, exporter et supprimer le sous-groupe. Vous pouvez également faire d’un sous-groupe un groupe de niveau supérieur en le supprimant de son groupe parent.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 16%
+source-wordcount: '1253'
+ht-degree: 13%
 
 ---
 
@@ -27,6 +27,8 @@ S’il existe des groupes au-dessus de votre groupe, leurs administrateurs ou ad
 Pour plus d’informations sur les sous-groupes, voir [Présentation des sous-groupes](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -47,9 +49,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Créer, déplacer, afficher, modifier, copier, renommer, exporter ou supprimer un sous-groupe
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 
@@ -125,9 +129,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 >
 >Dans Workfront, ce service marketing est représenté par un groupe appelé Marketing, avec 3 sous-groupes appelés Marketing des champs, Marketing des produits et Marketing numérique. Pour répertorier les projets appartenant à l’ensemble du service marketing (les 4 groupes), vous pouvez créer un filtre pour la zone Projets avec la règle de filtrage suivante :
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >Vous pouvez également utiliser le champ Nom du parent supérieur pour identifier les données associées à un groupe de niveau supérieur, mais uniquement dans les vues, et non dans les filtres ou les groupes.
 
@@ -141,7 +143,7 @@ Vous pouvez faire d’un sous-groupe un groupe de niveau supérieur en le suppri
 >
 >Pour plus d’informations sur la désactivation et la réactivation des groupes, reportez-vous aux sections [Affichage et gestion des détails d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view) et [Affichage et gestion des détails d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive) dans l’article [Affichage et gestion des détails d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 
@@ -159,8 +161,6 @@ Tenez compte de ce qui suit lorsque vous copiez un sous-groupe.
 
 * Si un sous-groupe que vous copiez possède ses propres sous-groupes, ils sont inclus dans la copie et leurs noms sont formatés comme suit :
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * Tout sous-groupe appartenant à un groupe public est également public, de sorte que tout utilisateur disposant d’un accès utilisateur d’édition, au sein ou en dehors du groupe, peut ajouter des utilisateurs au sous-groupe.

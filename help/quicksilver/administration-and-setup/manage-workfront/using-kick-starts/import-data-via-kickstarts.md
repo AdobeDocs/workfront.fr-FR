@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide
+title: Importation de données dans Workfront à l’aide d’un modèle de démarrage rapide
 description: Les débuts sont des classeurs Excel spécialement formatés que vous pouvez renseigner avec les données à importer dans Workfront. Adobe Workfront fournit un modèle de démarrage rapide que vous pouvez utiliser pour ce faire, comme expliqué dans la rubrique Importateur de données de démarrage rapide.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2753'
 ht-degree: 8%
 
 ---
 
-# Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide
+# Importation de données dans Workfront à l’aide d’un modèle de démarrage rapide
 
 <!--Audited: 12/2023-->
 

@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: manage,group,edit,
 navigation-topic: create-and-manage-groups
-title: Gérer un groupe
+title: Gestion d’un groupe
 description: En tant qu’administrateur de groupe, vous pouvez gérer un groupe que vous administrez à partir de la zone Groupes dans Configuration. S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 11%
+source-wordcount: '1315'
+ht-degree: 9%
 
 ---
 
@@ -29,6 +29,8 @@ En tant qu’administrateur de groupe, vous pouvez gérer un groupe que vous adm
 >Lorsque vous êtes affecté en tant qu’administrateur d’un groupe, vous héritez du rôle d’administrateur de groupe pour tous les sous-groupes qui se trouvent en dessous. Les seuls utilisateurs pouvant gérer un sous-groupe sont les administrateurs de groupe pour le groupe supérieur et les administrateurs de groupe affectés au sous-groupe.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -48,6 +50,8 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 </table>
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
+
++++
 
 ## Gestion des appartenances à un groupe
 
@@ -71,7 +75,7 @@ Pour obtenir des instructions, reportez-vous à la section [Affichage et gestion
 
 Sans quitter la page principale d’un groupe que vous affichez, vous pouvez rapidement modifier, copier ou supprimer le groupe.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Groups**.
 

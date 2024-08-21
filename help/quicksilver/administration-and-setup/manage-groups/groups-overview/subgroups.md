@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-title: Vue d’ensemble des sous-groupes
+title: Présentation des sous-groupes
 description: Vous pouvez créer jusqu’à 14 niveaux de sous-groupes dans un seul groupe. À l’un de ces niveaux, vous pouvez créer un nombre illimité de sous-groupes parallèles.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%

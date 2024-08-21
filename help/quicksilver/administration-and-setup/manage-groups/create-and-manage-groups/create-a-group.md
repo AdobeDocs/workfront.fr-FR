@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: create,group,subgroup,new
 navigation-topic: create-and-manage-groups
-title: Créer un groupe
+title: Création d’un groupe
 description: En tant qu’administrateur Adobe Workfront, vous pouvez créer des groupes pour organiser les utilisateurs et les projets et attribuer des droits d’accès dans Workfront.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 10%
+source-wordcount: '1658'
+ht-degree: 8%
 
 ---
 
@@ -29,6 +29,8 @@ Chaque sous-groupe a besoin d’au moins un administrateur de groupe. Les admini
 Si vous êtes administrateur de groupe ou administrateur Workfront, vous pouvez également créer des sous-groupes sous un groupe. Pour obtenir des instructions, voir [Création d’un sous-groupe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -49,13 +51,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Création d’un groupe de niveau supérieur à partir de zéro
 
 Ces étapes expliquent comment créer un nouveau groupe à partir de zéro. Pour plus d’informations sur la création d’un groupe ou d’un sous-groupe en copiant un groupe existant, voir [Création d’un groupe de niveau supérieur en copiant un groupe ou sous-groupe existant](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) dans cet article.
 
 Pour créer un groupe de niveau supérieur, vous devez être un administrateur Workfront.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 
@@ -81,7 +85,7 @@ Pour créer un groupe de niveau supérieur, vous devez être un administrateur W
       <td>Saisissez une description pour le groupe. Vous pouvez saisir jusqu’à 512 caractères.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Est actif</td> 
+      <td role="rowheader">En activité</td> 
       <td> <p>(Activé par défaut) Active le groupe dans votre instance Workfront.</p> <p>Dans des champs de type anticipé comme celui illustré ci-dessous, lorsque des utilisateurs ordinaires recherchent un groupe pour le joindre à un objet ou pour le partager avec lui, seuls les groupes actifs s’affichent dans la liste.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Pour rationaliser cette opération pour vos utilisateurs, vous pouvez désactiver l’option Est active pour les groupes qui ne sont pas actuellement utilisés.</p> <p>Vous pouvez facilement afficher, filtrer et regrouper la liste Groupes en fonction de l’état actif ou inactif à l’aide de ce champ. Pour plus d’informations sur l’utilisation des vues, des filtres et des regroupements dans des listes, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Éléments de reporting : filtres, vues et regroupements</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -127,7 +131,7 @@ Gardez les éléments suivants à l’esprit lorsque vous souhaitez effectuer ce
 
 Pour créer un groupe de niveau supérieur en copiant un groupe ou un sous-groupe :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 
@@ -151,7 +155,7 @@ Pour créer un groupe de niveau supérieur en copiant un groupe ou un sous-group
       <td>Saisissez une description pour le groupe. Vous pouvez saisir jusqu’à 512 caractères.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Est actif</td> 
+      <td role="rowheader">En activité</td> 
       <td> <p>(Activé par défaut) Active le groupe dans votre instance Workfront.</p> <p>Dans des champs de type anticipé comme celui illustré ci-dessous, lorsque des utilisateurs ordinaires recherchent un groupe pour le joindre à un objet ou pour le partager avec lui, seuls les groupes actifs s’affichent dans la liste.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Pour rationaliser cette opération pour vos utilisateurs, vous pouvez désactiver l’option Est active pour les groupes qui ne sont pas actuellement utilisés.</p> <p>Vous pouvez facilement afficher, filtrer et regrouper la liste Groupes en fonction de l’état actif ou inactif à l’aide de ce champ. Pour plus d’informations sur l’utilisation des vues, des filtres et des regroupements dans des listes, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Éléments de reporting : filtres, vues et regroupements</a>.</p>  </td> 
      </tr> 
      <tr> 

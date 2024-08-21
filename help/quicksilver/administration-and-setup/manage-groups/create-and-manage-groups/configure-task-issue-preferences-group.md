@@ -5,14 +5,14 @@ product-area: system-administration;user-management;setup
 keywords: group,preferences,task,issue,unlock
 navigation-topic: create-and-manage-groups
 description: Si des groupes de votre entreprise doivent configurer une tâche ou une préférence d’émission indépendamment de la façon dont elle est configurée au niveau du système, un administrateur Adobe Workfront peut déverrouiller la préférence. Ensuite, en tant qu’administrateur de groupe, vous pouvez configurer les préférences de votre groupe, ce qui aura une incidence sur toutes les tâches ou tous les problèmes associés à votre groupe.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 9%
+source-wordcount: '1891'
+ht-degree: 8%
 
 ---
 
@@ -39,6 +39,8 @@ Pour plus d’informations sur la façon dont l’administrateur Workfront déve
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
@@ -58,13 +60,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Configuration des préférences de tâche déverrouillée et de problème pour un groupe de niveau supérieur
 
 >[!TIP]
 >
 >Si vous êtes administrateur de Workfront, vous pouvez ignorer les étapes 1 à 4 en accédant à Configuration > Préférences du projet > Tâches et problèmes, puis en recherchant le nom du groupe dans la zone située en haut de la page.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 

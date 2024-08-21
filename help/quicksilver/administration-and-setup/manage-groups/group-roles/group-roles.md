@@ -3,17 +3,17 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: Rôles dans les groupes
-description: L’administrateur Workfront accorde aux groupes l’accès aux zones Workfront dans lesquelles ils doivent travailler et communiquer. Chaque groupe peut ensuite conserver ses informations Workfront telles que les utilisateurs, les modèles et les formulaires personnalisés, ainsi que les projets, séparément de celles des autres services. Au moins un administrateur de groupe est requis pour chaque groupe. Jusqu’à 14 niveaux de sous-groupes peuvent exister sous un seul groupe.
-author: Caroline
+title: Rôles de groupe
+description: L’administrateur Workfront accorde aux groupes l’accès aux zones Workfront dans lesquelles ils doivent travailler et communiquer. Chaque groupe peut ensuite conserver ses informations Workfront telles que les utilisateurs, les modèles et les formulaires personnalisés, ainsi que les projets, séparément de celles des autres services.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 16%
+source-wordcount: '70'
+ht-degree: 18%
 
 ---
 

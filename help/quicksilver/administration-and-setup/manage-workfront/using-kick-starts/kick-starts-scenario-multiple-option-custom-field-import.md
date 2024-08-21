@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: "Scénario de démarrage : Importer des champs personnalisés à plusieurs options dans Workfront"
+title: "Scénario de démarrage : importation de champs personnalisés à plusieurs options dans Workfront"
 description: Vous pouvez importer des champs personnalisés avec plusieurs options dans Adobe Workfront à l’aide de la fonctionnalité de démarrage rapide.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2096'
 ht-degree: 1%
 
 ---
@@ -51,8 +51,9 @@ Si vous maîtrisez bien la structure et les objets de la base de données Workfr
 
 Pour exporter des données existantes à partir de Workfront :
 
-1. Cliquez sur **Menu principal > Configuration** dans le coin supérieur droit de l’interface de Workfront.
-1. Développez le menu **System** à gauche, puis cliquez sur **Export Data (Kick-Starts)**.
+{{step-1-to-setup}}
+
+1. Développez **System** dans le menu de gauche, puis cliquez sur **Export Data (Kick-Starts)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ Pour exporter des données existantes à partir de Workfront :
 
 Après avoir analysé les informations sur les champs personnalisés existants de votre système, vous pouvez télécharger un nouveau modèle de démarrage rapide pour votre importation.
 
-1. Cliquez sur **Menu principal > Configuration** dans le coin supérieur droit de l’interface de Workfront.
+{{step-1-to-setup}}
 
-1. Développez le menu **System** à gauche.
+1. Développez **Système** dans le menu de gauche.
 
 1. Cliquez sur **Importer des données (Démarrages)**.
 
@@ -129,9 +130,6 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
    >Pour plus d’informations sur les noms des objets dans la base de données Workfront, voir l’ [explorateur d’API](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. Assurez-vous que les informations suivantes sont correctement formatées :
@@ -245,7 +243,9 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
 Après avoir suivi les étapes décrites dans les sections précédentes, procédez comme suit pour charger les nouveaux champs et formulaires dans Workfront :
 
-1. Cliquez sur **Importer des données** **(Démarrages) **sous le menu **Menu principal > Configuration > Système** .
+{{step-1-to-setup}}
+
+1. Cliquez sur **Système > Importer des données (Démarrages)**.
 
 1. Cliquez sur **Choisir un fichier** sous la section **Charger des données avec la feuille de calcul de démarrage rapide**.
 

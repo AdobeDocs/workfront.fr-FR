@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: Gérer les clés API
+title: Gestion des clés d’API
 description: Afin de minimiser les vulnérabilités de sécurité de l’API, les administrateurs et administratrices d’Adobe Workfront peuvent gérer les clés API utilisées pour permettre aux applications d’accéder à Workfront pour le compte d’un utilisateur ou d’une utilisatrice.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 100%
+source-wordcount: '1322'
+ht-degree: 98%
 
 ---
 
@@ -35,6 +35,8 @@ Voici quelques exemples d’applications qui utilisent l’API Workfront :
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Clés API Workfront
 
 Chaque utilisateur et utilisatrice de Workfront dispose d’une clé API unique. Cette clé est générée par utilisateur ou utilisatrice au moment où la personne accède à une intégration qui utilise l’API Workfront (telle que l’application mobile Workfront ou une intégration de document).
@@ -74,7 +78,7 @@ Vous pouvez générer, réinitialiser ou supprimer la clé API de votre compte d
 >
 >Vous pouvez également générer une clé API via l’API. Pour plus d’informations, voir la section [API d’abonnement aux événements](../../../wf-api/general/event-subs-api.md) dans [API d’abonnement aux événements](../../../wf-api/general/event-subs-api.md).
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Système >** **Infos client**.
 1. (Le cas échéant) Effectuez l’une des actions suivantes :
@@ -98,7 +102,7 @@ Vous pouvez générer et gérer des clés API pour les utilisateurs et utilisatr
 
 1. (Le cas échéant) Si votre entreprise utilise la gestion des accès par authentification unique (SSO), désactivez temporairement l’option exigeant l’authentification SSO.
 
-   1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
 
    1. Développez **Système**, puis cliquez sur **Authentification unique (SSO)**.
    1. Dans le champ **Type**, sélectionnez le type de SSO utilisé par votre entreprise.
@@ -115,7 +119,7 @@ Vous pouvez générer et gérer des clés API pour les utilisateurs et utilisatr
 
 1. (Le cas échéant) Activez l’option exigeant l’authentification SSO si vous l’avez désactivée à l’étape 1.
 
-   1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
 
    1. Développez **Système**, puis cliquez sur **Authentification unique (SSO)**.
 
@@ -126,7 +130,7 @@ Vous pouvez générer et gérer des clés API pour les utilisateurs et utilisatr
 
 Vous pouvez configurer l’expiration des clés API pour tous les utilisateurs et toutes les utilisatrices de votre système. À l’expiration de la clé API d’un utilisateur ou d’une utilisatrice, celui-ci ou celle-ci doit se reconnecter à toutes les applications qui utilisent l’API Workfront pour accéder à Workfront. Vous pouvez modifier la fréquence d’expiration des clés API. Vous pouvez également configurer l’expiration des clés API à l’expiration du mot de passe d’un utilisateur ou d’une utilisatrice.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Système** > **Infos client**.
 1. Dans la zone **Paramètres de la clé API**, dans la liste déroulante **Après leur création**, **les clés API expirent dans**, sélectionnez le délai d’expiration souhaité des clés API.
@@ -151,9 +155,9 @@ Si une violation de sécurité spécifique vous préoccupe concernant votre syst
 >
 >La suppression des clés API pour l’ensemble des utilisateurs et utilisatrices invalide TOUTES les clés API pour l’ensemble des utilisateurs et utilisatrices du système. Cette action provoquera l’échec de toutes vos intégrations dans Workfront jusqu’à ce que vous génériez une nouvelle clé API dans Workfront et que vous mettiez à jour toutes vos intégrations.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Développez **Système**, puis cliquez sur **Infos client.**
+1. Développez **Système**, puis cliquez sur **Infos client**.
 
 1. Dans la zone **Paramètres de clé API**, cliquez sur **Supprimer toutes les clés API**, puis sur **Tout** **supprimer**.
 

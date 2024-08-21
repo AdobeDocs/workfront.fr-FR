@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
-title: Créer un sous-groupe
+title: Création d’un sous-groupe
 description: Vous pouvez créer un sous-groupe sous un groupe afin d’organiser les utilisateurs et les projets et d’attribuer des droits d’accès dans Adobe Workfront. En règle générale, les administrateurs de groupe gèrent les groupes et les sous-groupes. Ils peuvent utiliser la page Groupes pour gérer leurs groupes et sous-groupes au même endroit.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 16%
+source-wordcount: '879'
+ht-degree: 14%
 
 ---
 
@@ -24,6 +24,8 @@ S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’
 Cependant, en règle générale, les administrateurs de groupe gèrent les groupes et les sous-groupes. Ils peuvent utiliser la page Groupes pour gérer leurs groupes et sous-groupes au même endroit. Pour plus d’informations sur le fonctionnement des groupes et des sous-groupes dans Workfront, voir [Présentation des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md) et [Présentation des sous-groupes](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -44,9 +46,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour savoir votre plan ou type de licence, contactez l’administration de Workfront.
 
++++
+
 ## Ajouter un sous-groupe
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **Groups**.
 
@@ -70,7 +74,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
       <td>Saisissez une description pour le sous-groupe. Vous pouvez saisir jusqu’à 512 caractères.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Est actif</td> 
+      <td role="rowheader">En activité</td> 
       <td> <p>(Activé par défaut) Active le groupe dans votre instance Workfront.</p> <p>Dans des champs de type anticipé comme celui illustré ci-dessous, lorsque des utilisateurs ordinaires recherchent un groupe pour le joindre à un objet ou pour le partager avec lui, seuls les groupes actifs s’affichent dans la liste.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Pour rationaliser cette opération pour vos utilisateurs, vous pouvez désactiver l’option Est active pour les groupes qui ne sont pas actuellement utilisés.</p> <p>Vous pouvez facilement afficher, filtrer et regrouper la liste Groupes en fonction de l’état actif ou inactif à l’aide de ce champ. Pour plus d’informations sur l’utilisation des vues, des filtres et des regroupements dans des listes, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Éléments de reporting : filtres, vues et regroupements</a>.</p>  </td> 
      </tr> 
      <tr> 

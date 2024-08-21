@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Statuts de groupe verrouillés et déverrouillés
-description: Le verrouillage des statuts personnalisés d’un groupe permet de s’assurer que les membres du groupe et ses sous-groupes utilisent les mêmes processus dans leur flux de travail. Lorsqu’un état de groupe est verrouillé, il est disponible pour tous les utilisateurs du groupe et dans les groupes inférieurs. Bien que vous (ou un administrateur Workfront) puissiez modifier ou supprimer un état que vous verrouillez, les administrateurs des sous-groupes ci-dessous ne peuvent pas le faire pour ces groupes. À l’inverse, le déverrouillage des états personnalisés d’un groupe offre plus de flexibilité aux administrateurs des sous-groupes inférieurs pour gérer leurs workflows. Ils peuvent modifier les attributs d’un état déverrouillé ou le supprimer pour leurs groupes.
-author: Caroline
+title: États de groupe verrouillés et déverrouillés
+description: Le verrouillage des statuts personnalisés d’un groupe permet de s’assurer que les membres du groupe et ses sous-groupes utilisent les mêmes processus dans leur flux de travail. Lorsqu’un état de groupe est verrouillé, il est disponible pour tous les utilisateurs du groupe et dans les groupes inférieurs.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: d67de32fcbe4706cf8a1fc6f5bb8ec9d08b07119
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 8%
+source-wordcount: '286'
+ht-degree: 10%
 
 ---
 

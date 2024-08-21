@@ -1,17 +1,17 @@
 ---
-title: Vue d’ensemble des groupes résidentiels
+title: Présentation des groupes d’accueil
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: Un groupe d’accueil est attribué dans le profil de l’utilisateur. Tous les utilisateurs doivent disposer d’un groupe d’accueil. Un utilisateur peut appartenir à plusieurs groupes, mais il ne peut avoir qu’un seul groupe d’accueil. Bien que tout groupe existant dans le système puisse être affecté en tant que groupe d’accueil d’un utilisateur, nous vous recommandons de créer et d’affecter de nouveaux groupes représentant des entités organisationnelles plus importantes. Lors de la création de groupes d’accueil, considérez la manière dont votre entreprise divise vos utilisateurs Adobe Workfront.
-author: Caroline
+description: Un groupe d’accueil est attribué dans le profil de l’utilisateur. Tous les utilisateurs doivent disposer d’un groupe d’accueil.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 1%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 

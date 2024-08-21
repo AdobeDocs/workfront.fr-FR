@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Importateur de données Kick-Starts
+title: Importateur de données de démarrage rapide
 description: Les lancements permettent aux administrateurs d’Adobe Workfront d’importer des données provenant de sources de données externes dans Workfront et d’exporter des données existantes dans Workfront afin de les utiliser dans d’autres systèmes.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ded3e49-41b2-4ad8-951c-e9ddbb0a9276
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 

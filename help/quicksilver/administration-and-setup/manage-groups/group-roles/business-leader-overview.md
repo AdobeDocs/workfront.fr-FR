@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
-title: Vue d’ensemble de la personne responsable commerciale
+title: Présentation des chefs d’entreprise
 description: Dans un groupe, le chef d’entreprise est la personne qui prend les décisions pour le groupe concernant les objectifs, les stratégies, le budget, l’embauche, etc. Par exemple, dans une organisation qui dispose d’un directeur du marketing, cette personne sera probablement le chef d’entreprise du marketing.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
