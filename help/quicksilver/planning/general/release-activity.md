@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '6116'
 ht-degree: 44%
@@ -75,6 +75,24 @@ La planification Workfront a été temporairement supprimée des environnements 
 
 <!--
 
+### Break down connected records in the timeline view
+
+Production: <date> 
+
+Preview: To be determined 
+
+As a Timeline view manager, you can now view the relationships between connected records by breaking down records into visual hierarchies in the timeline view.  
+
+For example, when you are viewing Campaigns in the timeline view which are linked to Products, and Products have associations with Projects, you can now break down the campaigns visually by Products first, and further break down Products by Projects.  
+
+This allows you to seamlessly navigate through multiple levels of relationships, all within the same timeline view.  
+
+This is not an actual hierarchy (no object is higher than another). It is a visual hierarchy that displays connected record types in one timeline view.  
+
+You can display up to 5 levels of record types in the same timeline for one record.  
+
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+
 ### New Connections tab in the record details area
 
 Production: <date> 
@@ -121,7 +139,7 @@ Production: August 28, 2024
 
 Preview: To be determined 
 
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with canvas dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
 ### Define format for formula field values
 
@@ -840,15 +858,15 @@ Vous pouvez désormais accéder à l’aperçu avec les détails de l’enregist
 
 Dans l’aperçu de l’enregistrement, vous pouvez ouvrir la page d’enregistrement dans un nouvel onglet du navigateur.
 
-Pour plus d’informations, consultez la section [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
+Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-### L’import de types d’enregistrements au format Excel est temporairement désactivé.
+### L’importation Excel du type d’enregistrement est temporairement supprimée.
 
 Production : 21 mars 2024
 
 Prévisualisation : à déterminer
 
-L’import de types d’enregistrement au format Excel ou CSV est temporairement désactivé. Cette fonctionnalité sera disponible ultérieurement.
+Cette opération supprime temporairement l’importation des types d’enregistrement à l’aide d’un fichier Excel ou CSV. Cette fonctionnalité sera disponible ultérieurement.
 
 ## Semaine du 11 mars 2024
 

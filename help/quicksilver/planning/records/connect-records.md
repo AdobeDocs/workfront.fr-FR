@@ -1,14 +1,14 @@
 ---
-title: Connecter des enregistrements
+title: Connexion d’enregistrements
 description: Après avoir créé des connexions entre les types d’enregistrement, vous pouvez connecter des enregistrements individuels les uns aux autres.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2281'
-ht-degree: 71%
+source-wordcount: '2287'
+ht-degree: 67%
 
 ---
 
@@ -151,11 +151,11 @@ Pour connecter des enregistrements à d&#39;autres enregistrements ou objets, vo
 
 Vous pouvez connecter des enregistrements de Workfront Planning dans les zones suivantes :
 
-* À partir d’un enregistrement Planning dans Workfront Planning dans les champs connectés en mode Tableau.
+* À partir d’un enregistrement Planning dans Workfront Planning dans les champs d’enregistrement connectés dans la vue de tableau.
 * À partir d’un enregistrement Planning dans Workfront Planning dans l’aperçu de l’enregistrement ou la page dans les champs d’enregistrement connectés.
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+  * From a Planning record in the record's preview or page on the Connections tab.-->
 
 ### Connecter les enregistrements de planification Adobe Workfront à partir de la vue de table ou de la page d’enregistrement <!--Details tab of the-->
 
@@ -211,7 +211,7 @@ Vous pouvez connecter des enregistrements de Workfront Planning dans les zones s
    >
    >* Les termes « champs liés » et « champs de recherche » désignent le même concept.
    >
-   >* Si vous avez activé le paramètre **Autoriser plusieurs enregistrements** lorsque vous connectez les types d’enregistrements, les valeurs des champs des multiples objets sélectionnés sont affichées séparées par des virgules ou sont agrégées selon l’agrégateur que vous avez choisi.
+   >* Lorsque vous choisissez de connecter plusieurs enregistrements lorsque vous connectez les types d&#39;enregistrements, les valeurs des champs de plusieurs objets sont affichées séparées par des virgules ou sont agrégées selon l&#39;agrégateur que vous avez choisi.
 
 1. (Facultatif) Fermez la page du type enregistrement et accédez à l’espace de travail que vous avez sélectionné.
 1. Cliquez sur la carte correspondant au type d’enregistrement que vous avez lié.
@@ -286,7 +286,7 @@ Une fois que vous avez créé une connexion entre un type d’enregistrement et 
 
    >[!TIP]
    >
-   >* Lorsque vous activez le paramètre Autoriser plusieurs enregistrements, les valeurs des champs de recherche sont affichées séparées par des virgules ou sont agrégées selon l’agrégateur que vous avez choisi.
+   >* Lorsque vous choisissez de connecter plusieurs enregistrements lors de la connexion des types d&#39;enregistrements, les valeurs des champs de recherche sont affichées séparées par des virgules ou sont agrégées en fonction de l&#39;agrégateur que vous avez choisi.
    >
    >* Un champ d’enregistrement lié n’est pas créé pour les objets Workfront liés dans Workfront.
 
@@ -360,7 +360,7 @@ Pour connecter des enregistrements à des ressources AEM :
 
      >[!TIP]
      >
-     >* Si vous avez activé le paramètre Autoriser plusieurs enregistrements, les valeurs de plusieurs objets sont séparées par des virgules ou agrégées selon l’agrégateur choisi.
+     >* Lorsque vous choisissez de connecter plusieurs enregistrements lors de la connexion des types d&#39;enregistrements, les valeurs de plusieurs objets s&#39;affichent séparés par des virgules ou agrégés selon l&#39;agrégateur que vous choisissez.
      >
      >* Un champ d’enregistrement lié aux enregistrements liés de Workfront Planning n’est pas créé pour les ressources de Experience Manager liées dans l’application Experience Manager Assets.
 
@@ -408,6 +408,12 @@ Pour connecter des enregistrements à des ressources AEM :
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 

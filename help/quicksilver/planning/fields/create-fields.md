@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3361'
 ht-degree: 82%
 
 ---
@@ -43,9 +43,9 @@ Vous pouvez créer des champs de la manière suivante dans la planification Work
 
 * À partir de zéro
 * En connectant des types d’enregistrements
-* En important des types d’enregistrement à l’aide d’un fichier Excel ou CSV
 * En créant un type d’enregistrement
 * En créant un espace de travail à partir d’un modèle
+  <!--* By importing record types using an Excel or CSV file-->
 
 Pour plus d’informations sur les champs de planification Workfront, voir [Présentation des champs](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -401,7 +401,13 @@ Pour plus d’informations, voir [Vue d’ensemble des champs Formule](/help/qui
     * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
     * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
     * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    
+        >[!TIP]
+        >
+        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+
     * **Date**: The result of the formula field displays as a date. 
+
 
         A preview of what the result will look like displays under the **Format** field. 
 
@@ -545,9 +551,9 @@ Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une 
 
 Pour plus d’informations sur la connexion des types d’enregistrement Workfront Planning, consultez la section [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-## Créer des champs en important des types d’enregistrement à l’aide d’un fichier Excel ou CSV
+<!--## Create fields by importing record types using an Excel or CSV file
 
-Pour plus d’informations, consultez la section [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## Créer des champs en créant un type d’enregistrement
 

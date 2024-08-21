@@ -1,14 +1,14 @@
 ---
 title: Créer des enregistrements
-description: Lors de l’utilisation d’Adobe Workfront Planning, un enregistrement est une instance d’un type d’enregistrement.
+description: Lors de l’utilisation d’Adobe Workfront Planning, un enregistrement est une instance d’un type d’enregistrement. Vous pouvez créer des enregistrements uniques pour chaque type d’enregistrement dans le calendrier Workfront en les ajoutant manuellement à la vue de tableau, en les important à partir d’une liste, en les dupliquant ou en les créant lorsque vous les connectez à d’autres enregistrements.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 57%
+source-wordcount: '971'
+ht-degree: 53%
 
 ---
 
@@ -22,10 +22,10 @@ Dans Adobe Workfront Planning, un enregistrement est une instance d’un type 
 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
-* Ajoutez-les à partir de la page de type enregistrement.
+* Ajoutez-les à partir de la page de type enregistrement dans la vue de tableau.
 * Copier et coller une liste d&#39;enregistrements d&#39;une liste externe
 * Les dupliquer
-  <!--* Add them as you connect them from other records-->
+  <!--* Create them as you connect them from other records-->
 
 Cet article décrit comment créer des enregistrements. Pour plus d’informations sur la gestion des enregistrements dans les vues de tableau ou de chronologie, consultez les articles suivants :
 
@@ -92,10 +92,13 @@ Cet article décrit comment créer des enregistrements. Pour plus d’informatio
 
 +++
 
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+<!--For the release of in-context record creation - add this to the table above for permissions and access:
+
+* Manage permissions to the workspace you want to add records to. 
+* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
+* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
+
 
 ## Créez des enregistrements en les ajoutant à un type d&#39;enregistrement <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
@@ -219,12 +222,17 @@ Pour plus d&#39;informations sur la duplication d&#39;enregistrements, voir [Dup
 
 ## Create records as you connect them
 
-You can create records as you connect them from other records. 
+You can create records or Workfront objects as you connect them from other records. 
 
-You must have the following before you can add new records by connecting them from existing records:
+You must have the following before you can add new records or Workfront objects by connecting them from existing records:
 
 * Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+
+>[!NOTE]
+>
+>Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
 
 To create records as you are connecting them from other records: 
 

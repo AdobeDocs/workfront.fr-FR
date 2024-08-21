@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 81%
+source-wordcount: '407'
+ht-degree: 60%
 
 ---
 
@@ -40,7 +40,13 @@ Vous pouvez supprimer les champs Workfront Planning qui ne sont plus pertinents
 * Vous ne pouvez supprimer un champ que dans la vue Tableau du type d’enregistrement.
 * Vous ne pouvez pas supprimer le champ principal d’un enregistrement.
 * Toutes les informations stockées dans le champ sont supprimées et ne peuvent pas être récupérées.
-* Lorsque vous supprimez un champ d’enregistrement lié, tous les champs de recherche liés sont également supprimés du type d’enregistrement à partir duquel le lien a été établi. Les champs d’enregistrement liés des types d’enregistrement que vous connectez ne sont pas supprimés.
+* Lorsque vous supprimez un champ d’enregistrement connecté, tous les champs de recherche connectés sont également supprimés du type d’enregistrement duquel vous vous connectez. Les champs d’enregistrement connectés des types d’enregistrement auxquels vous vous connectez sont également supprimés de l’enregistrement auquel vous vous connectez.
+
+  Par exemple, lorsque vous connectez des campagnes à un autre type d’enregistrement appelé produit et que vous supprimez le champ Produit connecté et le champ de recherche État du produit de la campagne, les éléments suivants sont supprimés :
+
+   * Le champ Produit connecté de l&#39;opération
+   * Champ de recherche de l’état du produit de la campagne
+   * Le champ Campaign connecté du produit.
 
   Pour plus d’informations, consultez la section [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 

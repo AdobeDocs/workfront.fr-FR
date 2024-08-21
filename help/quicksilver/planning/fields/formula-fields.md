@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 82%
+source-wordcount: '462'
+ht-degree: 71%
 
 ---
 
@@ -106,10 +106,12 @@ Pour plus d’informations, reportez-vous à la section &quot;Formule&quot; de l
 
 ## Considérations relatives aux champs de formule
 
-* Les champs de formule font référence à des champs qui appartiennent au même type d&#39;enregistrement. Vous ne pouvez pas référencer des champs d’autres types d’enregistrements lors de la création d’un champ de formule. <!--is this still accurate??-->
+* Les champs de formule font référence à des champs qui appartiennent au même type d&#39;enregistrement.
+* Vous ne pouvez référencer des champs provenant d’autres types d’enregistrement que lorsque vous associez un autre type d’enregistrement à celui pour lequel vous créez un champ de formule.
 * Une fois enregistré, vous ne pouvez pas modifier le type de champ d&#39;un champ Formule.
 * Vous pouvez mettre à jour le calcul d’un champ de formule après l’avoir enregistré, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
 * Vous devez ajouter les champs que vous référencez dans les formules tel qu’ils s’affichent dans l’interface de Workfront Planning.
+* Vous pouvez référencer uniquement les champs qui s’affichent dans la vue de tableau d’un type d’enregistrement ou sur la page des détails de l’enregistrement.
 <!--* You can format the result of a formula calculation by choosing from the following options:
 
    * Text

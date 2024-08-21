@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f713e8fa72c98b6df2509e71acd7080d4df46a3a
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 81%
+source-wordcount: '810'
+ht-degree: 75%
 
 ---
 
@@ -102,11 +102,11 @@ Pour plus d’informations sur les types d’enregistrement, voir [Présentation
 
         Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Lorsque vous les importez à l’aide d’un fichier Excel ou CSV.
+     <!--* When you import them using an Excel or CSV file. 
 
-        >[!IMPORTANT]
-        >
-        >Cette fonctionnalité est temporairement désactivée depuis le 21 mars 2024. Elle sera activée à une date ultérieure.
+            >[!IMPORTANT]
+            >
+            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
 
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
@@ -145,7 +145,9 @@ Pour plus d’informations sur les types d’enregistrements inclus dans chaque 
    Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. (Facultatif) Cliquez sur **Ajouter une section** pour ajouter une section à l’espace de travail.
 1. Cliquez sur **Ajouter un type d’enregistrement**.
-1. (Conditionnel) Lorsque la création de types d’enregistrements en important un fichier Excel ou CSV est activée, cliquez sur **À partir de zéro**. Sinon, la zone **Ajouter un type d’enregistrement** s’ouvre.
+
+   La zone Ajouter un type d’enregistrement s’affiche.
+   <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -171,9 +173,7 @@ La description du type d’enregistrement s’affiche sur la carte.
 
    La page du type d’enregistrement s’affiche par défaut dans la vue de tableau. Les colonnes du tableau sont des champs associés au nouveau type d’enregistrement. Chaque ligne est un enregistrement unique que vous devez ajouter.
 
-   >[!TIP]
-   >
-   >    Si vous importez un type d’enregistrement à partir d’un fichier Excel ou CSV, les enregistrements sont également importés.
+   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    Par défaut, les champs suivants s&#39;affichent dans les colonnes de vue de tableau d’un type d’enregistrement opérationnel :
 
@@ -207,86 +207,69 @@ La description du type d’enregistrement s’affiche sur la carte.
    * [Modifier des types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Créer des types d’enregistrements en important un fichier Excel ou CSV
+<!--
+## Create record types by importing an Excel or CSV file
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est temporairement désactivée depuis le 21 mars 2024. Elle sera activée à une date ultérieure.
+>This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
 
-Tenez compte des points suivants lors de l’import de types d’enregistrements à l’aide d’un fichier Excel ou CSV :
+Consider the following when importing record types using an Excel or CSV file: 
 
-* Chaque feuille du fichier Excel devient un type d’enregistrement.
-* Les colonnes de chaque feuille deviennent les champs associés à chaque type d’enregistrement.
-* Les champs sont uniques pour leurs types d’enregistrements respectifs.
-* Chaque ligne de chaque feuille devient un enregistrement unique associé à son type d’enregistrement respectif.
-* Chaque feuille du fichier Excel ne doit pas dépasser les limites suivantes :
-   * 50 000 lignes
-   * 500 colonnes
-* Le fichier Excel ne doit pas faire plus de 5 Mo.
-* Les feuilles vides ne sont pas prises en charge.
+* Each sheet of the Excel file becomes a record type. 
+* The columns of each sheet become the fields associated with each record type. 
+* Fields are unique for their respective record types. 
+* Each row in each sheet becomes a unique record associated with its respective record type. 
+* Each sheet of the Excel file should not exceed the following: 
+    * 50,000 rows
+    * 500 columns
+* The Excel file should not be larger than 5MB.
+* Empty sheets are not supported. 
 
-Pour importer des types d’enregistrements à l’aide d’un fichier Excel :
+To import record types using an Excel file: 
 
 {{step1-to-planning}}
 
-1. Cliquez sur l&#39;espace de travail dans lequel vous souhaitez créer des types d&#39;enregistrements,
+1. Click the workspace where you want to create record types, 
 
-   Ou
+    Or
 
-   Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
-1. Cliquez sur **Ajouter un type d’enregistrement**.
-1. Cliquez sur **Excel/CSV**.
-1. Faites glisser et déposez un fichier Excel ou CSV précédemment enregistré sur votre ordinateur, ou cliquez sur **Sélectionner un fichier CSV ou Excel** pour en rechercher un.
-1. Cliquez sur **Examiner vos données**.
-
-   La zone Prévisualiser et modifier s’affiche avec les informations suivantes :
-
-   * Les noms des feuilles ou des types d’enregistrements futurs s’affichent dans le panneau de gauche. Workfront Planning sélectionne par défaut une icône et une couleur pour chaque nouveau type d’enregistrement.
-   * La première feuille ou le premier type d’enregistrement est sélectionné et les noms des champs qui lui sont associés s’affichent sous forme d’en-têtes de colonne. Le type de chaque champ est sélectionné par défaut.
-   * Chaque ligne représente un nouvel enregistrement. Seuls les 10 premiers enregistrements s&#39;affichent dans la zone Prévisualiser et modifier.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (Facultatif) Cliquez sur le nom de chaque feuille dans le panneau de gauche pour vérifier les informations qu’elle contient.
-
-   >[!NOTE]
-   >
-   >    Les feuilles vides ne sont pas prises en charge et sont grisées.
-
-
-1. (Facultatif) Cliquez sur le menu déroulant **Sélectionner les feuilles à importer** et désélectionnez les feuilles que vous ne souhaitez pas importer.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   Les feuilles que vous désélectionnez s’affichent avec un arrière-plan gris.
-
-1. Cliquez sur **Importer** lorsque vous êtes prêt à importer votre fichier.
-
-   Les informations suivantes sont importées dans Workfront Planning :
-
-   * Nouveaux types d’enregistrements
-   * Nouveaux champs associés à chaque type d’enregistrement
-   * Nouveaux enregistrements associés à chaque type d’enregistrement
-
-   Vous pouvez commencer à gérer les champs et les enregistrements sur les pages des types d’enregistrements.
-
-   Toute personne ayant accès à Workfront Planning peut désormais afficher et modifier les types d’enregistrements importés et leurs informations. <!--this will change with permissions-->
-
-<!--## Connect record types with object types from another application
-
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
-
-For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+1. Click **Add record type**. 
+1. Click **Excel/CSV**.
+1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
+1. Click **Review your data**.
     
-You can import the following objects from the following applications: 
+    The Preview and edit box displays with the following information: 
 
-* From Workfront:
+    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
+    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
+    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
 
-    * Projects
-    * Portfolios
-    * Programs
-    * Company
-    * Group
+    ![](assets/preview-and-edit-box.png)
 
-For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
--->
+1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+
+    >[!NOTE]
+    >
+    >    Sheets that are empty are not supported and are dimmed. 
+
+
+1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+
+    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+
+    Sheets you deselected display with a gray background. 
+
+1. Click **Import** when you are ready to import your file. 
+
+    The following information imports in to Workfront Planning:
+
+    * New record types
+    * New fields associated with each record type
+    * New records associated with each record type
+
+    You can start managing fields and records on the record types pages. 
+    
+    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+

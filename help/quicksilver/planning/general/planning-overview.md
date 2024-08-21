@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '1880'
 ht-degree: 76%
@@ -61,12 +61,12 @@ Le tableau suivant illustre les principales fonctionnalités qui seront disponib
 
 Pour plus d’informations sur les nouvelles fonctionnalités et leur date de publication, voir [Adobe Workfront Planning - Activité de mise à jour en cours](/help/quicksilver/planning/general/release-activity.md).
 
-| Fonctionnalité | Disponible maintenant | Disponible bientôt | En cours de développement |
+| Fonctionnalité | Disponible maintenant | Prochainement | En cours de développement |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | Créer des espaces de travail | ✓ |                                  |                  |
 | Créer des types d’enregistrements | ✓ |                                  |                  |
 | Créer des champs personnalisés d’enregistrement | ✓ |                                  |                  |
-| Importer des types d’enregistrements et des champs à l’aide d’un fichier Excel ou CSV* | ✓ |                                  |                  |
+| Importation de types d’enregistrement et de champs à l’aide d’un fichier Excel ou CSV |                              | ✓ |                  |
 | Lier des enregistrements | ✓ |                                  |                  |
 | Afficher les enregistrements dans un tableau | ✓ |                                  |                  |
 | Afficher les enregistrements dans une chronologie | ✓ |                                  |                  |
