@@ -2,17 +2,19 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Créer une demande de révision ou d’approbation pour une ressource Frame.io"
+title: Création d’une demande de révision ou d’approbation pour une ressource Frame.io
 description: Vous pouvez créer une demande de révision ou d’approbation pour les ressources connectées à Frame.io.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
+hide: true
+hidefromtoc: true
+exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 30%
 
 ---
-
 
 # Création d’une demande de révision ou d’approbation pour une ressource Frame.io
 
