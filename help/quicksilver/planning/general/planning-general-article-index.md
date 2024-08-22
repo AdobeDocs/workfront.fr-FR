@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 30%
+source-wordcount: '163'
+ht-degree: 29%
 
 ---
 
@@ -24,6 +24,7 @@ Consultez les articles suivants :
 * [Présentation des limites des objets de la planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md)
 * [Activité de mise à jour en cours de la planification Adobe Workfront](/help/quicksilver/planning/general/release-activity.md)
 * [Archives de l’activité de planification Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Présentation des limites des objets de la planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md)
 
 
 

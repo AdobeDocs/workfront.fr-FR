@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 76%
+source-wordcount: '1900'
+ht-degree: 73%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 76%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
-
-<!-- remove the references to closed beta from the entire article-->
-
-<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
 
 >[!IMPORTANT]
 >
@@ -34,7 +30,6 @@ ht-degree: 76%
 >
 >Pour obtenir la liste complète de toutes les sections et tous les articles qui documentent la planification Workfront, voir [Adobe Workfront Planning : article index](/help/quicksilver/planning/planning-information.md).
 
-<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Présentation d’Adobe Workfront Planning
 
@@ -56,6 +51,8 @@ Voici quelques-unes des principales fonctionnalités :
 * Liez-les à des types d’objets d’autres systèmes, créant ainsi un cadre cohérent pour tous vos processus.
 
 ## Fonctionnalités Adobe Workfront Planning actuellement disponibles
+
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
 
 Le tableau suivant illustre les principales fonctionnalités qui seront disponibles dans Workfront Planning, ainsi qu’une chronologie de leur disponibilité. La liste n’inclut pas toutes les fonctionnalités.
 
@@ -90,7 +87,7 @@ Pour plus d’informations sur les nouvelles fonctionnalités et leur date de pu
 | Partage des vues publiquement avec des ressources externes | ✓ | |  |
 | Dupliquer les vues | ✓ | |  |
 | Soumettre des demandes |                               | ✓ |                 |
-| Exportation des détails de l’enregistrement vers Word |                               | ✓ |                 |
+| Exportation des détails de l’enregistrement vers Word | ✓ |                                  |                 |
 | Exportation des détails des enregistrements vers PDF |                               |                                  | ✓ |
 | Personnaliser la couleur et l’icône d’un enregistrement | ✓ |                                  |                 |
 | Apporter des commentaires aux enregistrements | ✓ |                                  |                 |
@@ -203,9 +200,9 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
    * Dernière modification par
    * Date de dernière modification
 
-* **Types d’enregistrements liés**, **Enregistrements liés** et **Champs d’enregistrement liés** ou **Types d’enregistrements connectés**, **Enregistrements connectés** et **Champs connectés** : vous pouvez créer une connexion entre les entités suivantes dans la planification Workfront :
+* **Types d’enregistrements connectés**, **Enregistrements connectés** et **Champs connectés** : vous pouvez créer une connexion entre les entités suivantes dans la planification Workfront :
 
-   * Deux types d’enregistrement.
+   * Deux types d’enregistrement de la planification Workfront.
    * Un type d’enregistrement et un type d’objet de projet, de programme, de portfolio, d’entreprise ou de groupe Workfront.
    * Un type d’enregistrement et une ressource ou un dossier Adobe Experience Manager.
 
@@ -224,7 +221,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   >[!TIP]
   >
-  > Vous ne pouvez pas ajouter les types de champ suivants comme champs de recherche :
+  > Vous ne pouvez pas ajouter les types de champ suivants en tant que champs de recherche à partir de l’enregistrement ou des types d’objet connectés :
   >
   >* Personnes
   >* Créé par
@@ -246,11 +243,11 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   Voici les types de vue que vous pouvez appliquer à la page de type enregistrement :
 
-   * **Vue Tableau** : affiche les enregistrements et leurs champs au format d’un tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs d’enregistrement. Il s’agit de la vue par défaut.
+   * **Vue Tableau** : affiche les enregistrements et leurs champs, y compris les champs connectés et de recherche, dans un format de tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs d’enregistrement. Il s’agit de la vue par défaut.
 
      ![](assets/table-view-example.png)
 
-   * **Mode Chronologie** : affiche les enregistrements comportant au moins deux champs de type Date dans une ligne de temps chronologique.
+   * **Mode Chronologie** : affiche les enregistrements comportant au moins deux champs de type Date dans une chronologie chronologique. Vous pouvez afficher jusqu’à 5 types d’enregistrements connectés et leurs enregistrements dans la vue de chronologie.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -279,7 +276,6 @@ Pour localiser Workfront Planning :
    >[!TIP]
    >
    >    Votre administrateur Workfront peut ajouter la zone Planning à l&#39;option Sélectionner une page d&#39;entrée de votre modèle de mise en page afin que vous puissiez ouvrir la Planification dès que vous vous connectez à Workfront. Pour plus d’informations, voir [Personnaliser la landing page à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
-
 
 1. (Conditionnel et facultatif) Si vous êtes administrateur Workfront, cliquez sur l’un des onglets suivants :
    * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.

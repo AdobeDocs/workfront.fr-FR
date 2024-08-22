@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '14341'
+source-wordcount: '14345'
 ht-degree: 93%
 
 ---
@@ -2043,10 +2043,10 @@ ht-degree: 93%
       * [Adobe Workfront Planning - Informations générales : index des articles](planning/general/planning-general-article-index.md)
       * [Vue d’ensemble d’Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Principes de base des API de planification Adobe Workfront](planning/general/planning-api-basics.md)
-      * [Présentation des limites des objets de la planification Adobe Workfront](planning/general/limitations-overview.md)
       * [Présentation de l’assistant de planification Adobe Workfront AI](planning/general/planning-ai-assistant-overview.md)
       * [Activité de mise à jour en cours de la planification Adobe Workfront](planning/general/release-activity.md)
       * [Archives de l’activité de planification Adobe Workfront pour 2023](planning/general/release-activity-archives-2023.md)
+      * [Présentation des limites des objets de la planification Adobe Workfront](planning/general/limitations-overview.md)
    * Architecture de planification Adobe Workfront {#adobe-workfront-planning-architecture}
       * [Architecture : index des articles](planning/architecture/architecture-information.md)
       * [Présentation des espaces de travail](planning/architecture/workspaces-overview.md)
@@ -2091,6 +2091,7 @@ ht-degree: 93%
       * [Ajout d’une image de couverture à un enregistrement](planning/records/add-a-cover-image-to-a-record.md)
       * [Gestion de la mise en page de la page d’enregistrement](planning/records/manage-the-record-page.md)
       * [Gestion des enregistrements dans la section Planification des objets Adobe Workfront](planning/records/manage-records-in-planning-section.md)
+      * [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md)
    * Vues de planification Adobe Workfront {#adobe-workfront-planning-views}
       * [Vues : index des articles](planning/views/views-information.md)
       * [Gérer les vues d’enregistrement](planning/views/manage-record-views.md)
