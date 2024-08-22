@@ -6,9 +6,9 @@ description: Vous pouvez partager ou supprimer des autorisations pour un objet q
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1182'
 ht-degree: 3%
 
 ---
@@ -140,7 +140,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Rendre ceci visible sur tout le système.</strong></td> 
-   <td> <p>L’objet peut être trouvé dans les recherches et consulté par toute personne disposant d’un compte Workfront.</p> </td> 
+   <td> <p>L’objet peut être trouvé dans les recherches et affiché par les utilisateurs disposant d’un compte Workfront.</p><p><b>Remarque&gt;/b&gt; : Les utilisateurs disposant de licences de contributeur ou de demandeur ne peuvent pas voir les projets, même si ce paramètre est activé. </td> 
   </tr> 
  </tbody> 
 </table>
