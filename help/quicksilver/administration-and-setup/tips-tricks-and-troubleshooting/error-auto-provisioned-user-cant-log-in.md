@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Erreur : l’utilisateur avec provisionnement automatique ne peut pas se connecter"
-description: Si un utilisateur disposant des privilèges d’accès automatique tente de se connecter pour la première fois et reçoit une erreur indiquant que le système ne lui affecte pas de niveau d’accès, cela peut être dû au fait que votre système ne dispose pas des niveaux d’accès associés à la licence Request. La mise en service automatique utilise le type de demande de licence afin que vous puissiez résoudre ce problème en créant un niveau d’accès associé à une demande de licence.
-author: Caroline
+title: "Erreur : l’utilisateur à configuration automatique ne peut pas se connecter"
+description: Si un utilisateur disposant des privilèges d’accès automatique tente de se connecter pour la première fois et reçoit une erreur indiquant que le système ne lui affecte pas de niveau d’accès, cela peut être dû au fait que votre système ne dispose pas des niveaux d’accès associés à la licence Request.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
-source-git-commit: 477f65efb09e8566dd0af88adfbe88135d6c6ae9
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 30%
+source-wordcount: '219'
+ht-degree: 23%
 
 ---
 
@@ -30,6 +30,8 @@ Par défaut, la mise en service automatique utilise le type de licence Request .
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -42,14 +44,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nouvelle : standard</p>
+   <p>ou</p>
+   <p>Actuelle : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices</a>.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Solution
 

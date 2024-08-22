@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Erreur : les utilisateurs SSO ne peuvent pas se connecter à  [!DNL Adobe Workfront] en raison de diverses erreurs"
-description: Lorsque vous recevez une erreur de connexion concernant l’authentification unique fédérée, votre combinaison nom d’utilisateur/mot de passe ou votre accès à l’instance  [!DNL Workfront], the problem might be that your [!DNL Workfront] utilise l’authentification unique et que vous essayez de vous connecter à l’aide d’une URL incorrecte. Assurez-vous que vous vous connectez à l’aide de l’URL correcte sans rien après ".com".
-author: Caroline
+description: Lorsque vous recevez une erreur de connexion concernant l’authentification unique fédérée, votre combinaison nom d’utilisateur/mot de passe ou votre accès à l’instance  [!DNL Workfront], the problem might be that your [!DNL Workfront] utilise l’authentification unique et que vous essayez de vous connecter à l’aide d’une URL incorrecte.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 92936761-cda3-41ab-88b1-ec1cac3900d4
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '166'
 ht-degree: 1%
 
 ---

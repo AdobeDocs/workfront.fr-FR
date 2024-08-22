@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '''Message d''erreur : il y a un léger problème. Ce champ est utilisé dans une configuration multiforme"'
+title: "Message d’erreur : il y a un léger problème. Ce champ est utilisé dans une configuration multiforme"
 description: Lorsque vous modifiez un calcul dans un champ personnalisé calculé sur un formulaire personnalisé et qu’un message d’erreur vous indique que le champ est utilisé dans une configuration multiforme, vous devez remplacer le champ par un nouveau champ contenant le calcul que vous souhaitez utiliser.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Cet article explique comment trouver l’objet puis résoudre le problème de l�
 
 ## Recherche de l’objet auquel les formulaires personnalisés sont joints {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Utilisateurs]** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Forms personnalisée]** > **[!UICONTROL Champs]**.
 1. Appliquez la vue **[!UICONTROL Liste de champs]** pour trouver le champ calculé que vous essayez de modifier et notez tous les formulaires personnalisés sur lesquels il est utilisé (par exemple, formulaire 1, formulaire 2, formulaire 3) .

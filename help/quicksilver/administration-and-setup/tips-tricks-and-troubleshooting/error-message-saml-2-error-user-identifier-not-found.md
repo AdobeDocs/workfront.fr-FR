@@ -5,14 +5,14 @@ product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Message d’erreur : Erreur SAML 2.0 : Identifiant utilisateur introuvable"
 description: Vous ne pouvez pas établir une connexion réussie à ADFS.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 34%
+source-wordcount: '215'
+ht-degree: 28%
 
 ---
 
@@ -30,9 +30,13 @@ Vous ne pouvez pas établir une connexion réussie à ADFS.
 
 ## Cause :
 
-Les revendications sur le serveur ADFS sont incorrectes
+Les revendications sur le serveur ADFS sont incorrectes.
 
 ## Conditions d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -46,14 +50,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nouvelle : standard</p>
+   <p>ou</p>
+   <p>Actuelle : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices</a>.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Solution
 

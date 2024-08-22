@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Message d’erreur : Échec de l’authentification SAML 2.0 : identifiant utilisateur introuvable'
-description: Lorsque vous utilisez SAML 2.0, l’erreur "Échec de l’authentification SAML 2.0 - Identifiant utilisateur introuvable" signifie qu’un UID ou un ID NAME n’est pas transmis des règles de demande ADFS. Dans ADFS, la Trust Party doit avoir une règle de réclamation qui transmet un UID ou une valeur d’ID NAME. Lorsque vous exécutez un  [!DNL Workfront] test de connexion, cela doit s’afficher en cas de réussite.
-author: Caroline
+title: "Message d’erreur : Échec de l’authentification SAML 2.0 : identifiant utilisateur introuvable"
+description: Lorsque vous utilisez SAML 2.0, l’erreur "Échec de l’authentification SAML 2.0 - Identifiant utilisateur introuvable" signifie qu’un UID ou un ID NAME n’est pas transmis des règles de demande ADFS.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9467cdff-7965-49ba-ac13-ed79c496a725
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 25%
+source-wordcount: '260'
+ht-degree: 23%
 
 ---
 
@@ -24,11 +24,15 @@ Cette erreur s’affiche lorsque j’utilise SAML 2.0 : &quot;Échec de l’auth
 
 ## Cause
 
-Cela se produit lorsqu’un **UID** ou **ID NAME** n’est pas transmis par les **règles de demande ADFS**.
+Cela se produit lorsqu’un **UID** ou un **ID NAME** n’est pas transmis par les ****   des   règles de demande ADFS.
 
-Dans ADFS, le **Relying Party Trust** doit avoir une **règle de réclamation** qui transmet soit une valeur **UID** ou une valeur **NAME ID**. Lorsque vous exécutez une **[!DNL Workfront]Test Connection**, elle doit l’afficher en cas de réussite.
+Dans ADFS, le **Relying Party Trust** doit avoir une **règle de réclamation** qui transmet soit une valeur **UID** soit une valeur **NAME ID**. Lorsque vous exécutez une **[!DNL Workfront]Test Connection**, elle doit l’afficher en cas de réussite.
 
 ## Conditions d’accès
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -42,14 +46,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nouvelle : standard</p>
+   <p>ou</p>
+   <p>Actuelle : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices</a>.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Solution
 

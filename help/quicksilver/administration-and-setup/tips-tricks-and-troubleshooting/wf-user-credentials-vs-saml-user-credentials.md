@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Informations d’identification de l’utilisateur Adobe Workfront par rapport aux informations d’identification de l’utilisateur  [!DNL SAML]
-description: Après la création de l’utilisateur, vous pouvez modifier l’utilisateur et activer l’option "Autoriser uniquement l’authentification SAML 2.0" afin que son utilisateur et son mot de passe soient contrôlés par le système SAML. Lorsque cette option est activée, l’utilisateur n’est autorisé à se connecter que par SAML. Lorsqu’ils accèdent à l’URL  [!DNL Workfront] , ils sont automatiquement redirigés vers le système SAML et invités à saisir leur nom d’utilisateur et leur mot de passe SAML.
-author: Caroline
+title: Informations d’identification d’utilisateur Adobe Workfront et informations d’identification d’utilisateur SAML
+description: Après la création de l’utilisateur, vous pouvez modifier l’utilisateur et activer l’option "Autoriser uniquement l’authentification SAML 2.0" afin que son utilisateur et son mot de passe soient contrôlés par le système SAML. Lorsque cette option est activée, l’utilisateur n’est autorisé à se connecter que par SAML.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: faa55b09-10c3-48e6-8b39-33f9feb0a335
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---

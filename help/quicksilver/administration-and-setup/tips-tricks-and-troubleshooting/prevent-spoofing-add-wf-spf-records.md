@@ -5,14 +5,14 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Empêcher l’usurpation et ajouter des enregistrements  [!DNL Adobe Workfront] SPF
 description: Si les utilisateurs ne reçoivent pas de  [!DNL Adobe Workfront] notifications par e-mail, vous devez ajouter des  [!DNL Workfront] enregistrements SPF à votre pare-feu. Vous devez collaborer avec votre équipe informatique pour ajouter des enregistrements SPF.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 25%
+source-wordcount: '293'
+ht-degree: 20%
 
 ---
 
@@ -26,6 +26,10 @@ Si les utilisateurs ne reçoivent pas [!DNL Adobe Workfront] notifications élec
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -36,14 +40,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nouvelle : standard</p>
+   <p>ou</p>
+   <p>Actuelle : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices</a>.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Solution
 

@@ -3,30 +3,32 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Exporter les données historiques depuis Adobe Workfront : avantages et inconvénients"
+title: "Exporter des données historiques d’Adobe Workfront : avantages et inconvénients"
 description: Cet article explique les avantages et inconvénients de 4 options que vous pouvez utiliser pour exporter des données historiques à partir de Workfront.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
 
 # Exporter les données historiques de [!DNL Adobe Workfron]t : avantages et inconvénients
 
-Cet article explique les avantages et inconvénients de 4 options que vous pouvez utiliser pour exporter des données historiques à partir de [!DNL Workfront].
+Cet article explique les avantages et inconvénients de quatre options que vous pouvez utiliser pour exporter des données historiques à partir de [!DNL Workfront].
 
 ## Utilisation de l’un de nos partenaires
 
-[!DNL AtAppStore], un partenaire certifié [!DNL Workfront], dispose d’une application conviviale qui vous permet de télécharger vos données. Cette application comprend également une visionneuse qui vous permet d’afficher facilement vos données.
+[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) dispose d’une application conviviale (leur [solution d’instantané de Workfront](https://store.atappstore.com/product/workfront-snapshot/)) qui vous permet de télécharger vos données vous-même. Une visionneuse facultative (leur solution [Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/)) vous permet d’afficher facilement vos données hors ligne.
 
-* **Avantages :** Tous vos [!DNL Workfront] objets sont exportés, y compris les champs personnalisés. L’interface de la visionneuse est facile à utiliser et à lire. Elle est facilement importable dans une base de données [!DNL MS Access].
+* **Avantages :** Tous vos objets [!DNL Workfront] principaux sont exportés, y compris les champs personnalisés et les notes, qui sont tous ensuite stockés dans une base de données [!DNL MS Access] facilement accessible. L’interface de la visionneuse est facile à utiliser et à lire. L’extraction de documents est également disponible séparément en tant que service. La sortie est organisée en une structure de dossiers logique qui mappe chaque document (et éventuellement, ses versions précédentes).
 
-* **Inconvénients :** Les documents ne sont pas exportés. Vous devrez les télécharger séparément. Pour plus d&#39;informations, voir [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](https://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
+* **Inconvénients :** Il existe une limitation technique de 2 Go de données, mais AtAppStore vous permet d’acheter uniquement ce dont vous avez besoin.
+
+* **Coûts :** Pour plus d’informations, rendez-vous sur [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
 ## Demandez un fichier de vidage de données [!DNL Postgres] à notre équipe Base de données
 
@@ -35,6 +37,7 @@ Votre gestionnaire de compte peut envoyer une demande à notre équipe de base d
 * **Avantages** : vous obtenez l’intégralité de la charge de données, y compris des champs personnalisés, ainsi que des documents stockés dans le système.
 
 * **Inconvénients** : Le fichier de la base de données est difficile à lire : il n’est pas possible de lire ce fichier, sauf si vous le chargez dans une base de données [!DNL Postgres] et rétablissez les relations entre les tables. Les documents sont stockés sur un serveur de fichiers distinct et doivent être extraits séparément à l’aide d’un processus distinct de l’équipe AOS. Ce faisant, les documents n’ont aucune organisation et ils sont tous référencés par leur GUID.
+
 * **Coût** : un coût est associé à ce téléchargement, selon le temps nécessaire à l’équipe pour créer le fichier. Pour plus d’informations ou pour lancer ce processus, contactez AEM/CAE.
 
 ## Exporter via [!UICONTROL Kick-Starts]
