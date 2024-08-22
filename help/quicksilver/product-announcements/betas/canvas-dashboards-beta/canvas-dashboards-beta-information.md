@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '440'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,7 @@ Pour obtenir la liste de tous les tableaux de bord Canvas, consultez la [présen
 
 **État de Beta**
 
-Les tableaux de bord de la zone de travail sont actuellement dans une phase de test bêta fermée et ne sont donc disponibles que sur invitation de clients spécifiques.
+Les tableaux de bord de la zone de travail sont actuellement en phase de test bêta publique et font donc l’objet de modifications fréquentes. Voir ci-dessous pour obtenir des instructions sur la façon de s’inscrire à la version bêta.
 
 ## Participer à la version bêta
 

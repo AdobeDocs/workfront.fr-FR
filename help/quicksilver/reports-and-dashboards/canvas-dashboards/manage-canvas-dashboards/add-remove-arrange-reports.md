@@ -6,9 +6,9 @@ description: Une fois que vous avez créé un tableau de bord Zone de travail, v
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '570'
 ht-degree: 24%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->Cette page décrit des fonctionnalités qui ne sont disponibles que pour les utilisateurs inscrits dans la version bêta des tableaux de bord de canevas fermés. Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
+>Cette page décrit les fonctionnalités disponibles dans le cadre de la version bêta des tableaux de bord du canevas . Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Une fois que vous avez créé un tableau de bord Zone de travail, vous pouvez y ajouter des rapports qui afficheront les données Adobe Workfront dans différents formats. Ces rapports peuvent être déplacés et redimensionnés sur la zone de travail à votre convenance. Pour plus d’informations sur la création d’un tableau de bord de canevas, voir [Prise en main des tableaux de bord de canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

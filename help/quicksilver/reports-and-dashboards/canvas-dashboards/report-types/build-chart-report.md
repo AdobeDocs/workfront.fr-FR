@@ -6,9 +6,9 @@ description: Vous pouvez ajouter à un tableau de bord de zone de travail un rap
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '196'
 ht-degree: 22%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->Cette page décrit des fonctionnalités qui ne sont disponibles que pour les utilisateurs inscrits dans la version bêta des tableaux de bord de canevas fermés. Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
+>Cette page décrit les fonctionnalités disponibles dans le cadre de la version bêta des tableaux de bord du canevas . Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Vous pouvez ajouter à un tableau de bord de zone de travail un rapport sous forme de graphique à barres, de colonnes, de lignes ou de secteurs qui présente vos données sous forme de graphique à barres.
 

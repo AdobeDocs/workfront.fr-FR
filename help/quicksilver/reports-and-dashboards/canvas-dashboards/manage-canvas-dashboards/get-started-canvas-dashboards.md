@@ -6,9 +6,9 @@ description: Instructions de base pour l’utilisation des tableaux de bord de l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '608'
 ht-degree: 10%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->Cette page décrit des fonctionnalités qui ne sont disponibles que pour les utilisateurs inscrits dans la version bêta des tableaux de bord de canevas fermés. Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
+>Cette page décrit les fonctionnalités disponibles dans le cadre de la version bêta des tableaux de bord du canevas . Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Les tableaux de bord de canevas vous permettent de visualiser facilement vos données Adobe Workfront en ajoutant différents types de rapports sur un canevas personnalisable. Cette page fournit des instructions de base pour l’utilisation des tableaux de bord du canevas, notamment pour accéder à votre liste de tableaux de bord du canevas, ainsi que pour créer et modifier ces tableaux.
 

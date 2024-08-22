@@ -6,10 +6,10 @@ description: Un rapport d’indicateurs de performance clés qui affiche clairem
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 23%
+source-wordcount: '186'
+ht-degree: 24%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->Cette page décrit des fonctionnalités qui ne sont disponibles que pour les utilisateurs inscrits dans la version bêta des tableaux de bord de canevas fermés. Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
+>Cette page décrit les fonctionnalités disponibles dans le cadre de la version bêta des tableaux de bord du canevas . Pour en savoir plus, consultez la section [Informations bêta sur les tableaux de bord du canevas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
 
 Un rapport d’indicateurs de performance clés qui affiche clairement un seul indicateur de performance clé agrégé peut être ajouté à un tableau de bord de la zone de travail.
 
