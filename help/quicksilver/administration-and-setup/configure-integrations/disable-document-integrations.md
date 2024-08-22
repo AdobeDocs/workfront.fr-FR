@@ -6,11 +6,12 @@ navigation-topic: administrator-integrations
 description: En tant qu’administrateur de  [!DNL anAdobe] [!DNL Workfront], vous pouvez désactiver la connexion entre Workfront et tous les fournisseurs de documents tiers.
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
+author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 30%
+source-wordcount: '297'
+ht-degree: 19%
 
 ---
 
@@ -21,6 +22,8 @@ En tant qu&#39;administrateur [!DNL Adobe] [!DNL Workfront], vous pouvez désact
 Lorsque vous désactivez la connexion entre [!DNL Workfront] et un fournisseur de documents, les liens vers les documents disparaissent de [!DNL Workfront]. Les utilisateurs ne peuvent plus voir les documents liés, ils ne peuvent pas apporter de modifications aux documents par le biais des liens [!DNL Workfront] et ils ne peuvent pas ajouter d’autres documents à ce fournisseur.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
@@ -45,12 +48,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 &#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
++++
+
 ## Désactivation des intégrations de fournisseurs cloud
 
 Pour désactiver les intégrations de documents pour [!UICONTROL Workfront DAM], [!DNL Box], [!DNL Dropbox], [!DNL Google Drive], [!DNL Microsoft OneDrive], [!DNL WebDAM] :
 
 1. Connectez-vous à [!DNL Workfront] en tant qu’administrateur [!DNL Workfront].
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Fournisseurs cloud]**.
 
@@ -62,7 +68,8 @@ Pour désactiver les intégrations de documents pour [!UICONTROL Workfront DAM],
 ## Désactivation de l’intégration [!DNL SharePoint]
 
 1. Connectez-vous à [!DNL Workfront] en tant qu’administrateur [!DNL Workfront].
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Développez **[!UICONTROL Documents]**, puis cliquez sur **[!UICONTROL [!DNL SharePoint]Intégration]**.
 1. Sélectionnez l&#39;intégration [!DNL SharePoint] que vous souhaitez désactiver.
@@ -72,7 +79,8 @@ Pour désactiver les intégrations de documents pour [!UICONTROL Workfront DAM],
 ## Désactivation des intégrations personnalisées
 
 1. Connectez-vous à [!DNL Workfront] en tant qu’administrateur.
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Intégration personnalisée]**.
 1. Sélectionnez l’intégration personnalisée que vous souhaitez désactiver.

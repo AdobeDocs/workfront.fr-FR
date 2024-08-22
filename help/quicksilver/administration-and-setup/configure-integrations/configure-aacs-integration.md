@@ -1,15 +1,15 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Configurer l’intégration d’[!UICONTROL Experience Manager Assets as a Cloud Service]
+title: Configuration de l’intégration [!UICONTROL Experience Manager Assets as a Cloud Service]
 description: Vous pouvez connecter votre travail à votre contenu dans  [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 98%
+source-wordcount: '1687'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les entreprises qui ont été intégrées à [!DNL Adobe Admin Console].
+>Cette fonctionnalité est disponible uniquement pour les organisations qui ont été intégrées à [!DNL Adobe Admin Console].
 
 Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manager Assets] :
 
@@ -39,38 +39,37 @@ Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manag
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table>
   <tr>
-   <td>Plan <strong>[!DNL Adobe Workfront]</strong>
+   <td>[!DNL Adobe Workfront] plan
    </td>
    <td>N’importe quelle
    </td>
   </tr>
   <tr>
-   <td>Licences <strong>[!DNL Adobe Workfront]</strong>
+   <td>[!DNL Adobe Workfront] licence
    </td>
-   <td>Actuel : [!UICONTROL Plan] <br>
- Nouveau : [!UICONTROL Standard]
-   </td>
+   <td><p>Actuelle : [!UICONTROL Plan]</p>
+   <p>Nouvelle : [!UICONTROL Standard]</p></td>
   </tr>
   <tr>
-   <td>Licence <strong>[!DNL Experience Manager]</strong>
+   <td>[!DNL Experience Manager] licence
    </td>
    <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>Produit</strong>
+   <td>Produit
    </td>
    <td>Vous devez avoir [!DNL Experience Manager Assets as a Cloud Service], et vous devez être ajouté au produit en tant qu’utilisateur ou utilisatrice.
    </td>
   </tr>
   <tr>
-   <td>Configurations des niveau d’accès*
+   <td>Configurations du niveau d’accès
    </td>
-   <td>Vous devez être un administrateur ou une administratrice de [!DNL Workfront].
+   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront].
    </td>
   </tr>
 </table>
@@ -78,7 +77,6 @@ Vous devez disposer des éléments suivants :
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Conditions préalables
 

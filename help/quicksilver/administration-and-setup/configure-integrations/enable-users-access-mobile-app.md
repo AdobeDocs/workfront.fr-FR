@@ -1,18 +1,18 @@
 ---
-title: Permettre aux utilisateurs et utilisatrices d’accéder à l’application mobile
+title: Activation de l’accès des utilisateurs à l’application mobile
 product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Vous pouvez activer ou désactiver l'accès à l'application mobile  [!DNL Adobe Workfront] .
-author: Lisa
+author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 54%
+source-wordcount: '209'
+ht-degree: 45%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 54%
 Vous pouvez activer ou désactiver l&#39;accès à l&#39;application mobile [!DNL Adobe Workfront].
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -43,9 +45,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
++++
+
 ## Permettre aux utilisateurs et utilisatrices d’accéder à l’application mobile
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Configuration],** dans le coin supérieur droit de la page.
 

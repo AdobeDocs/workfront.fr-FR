@@ -5,14 +5,14 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Actions à entreprendre après l’installation d’un plan directeur
 description: Cet article décrit ce que vous devez faire après avoir installé un plan directeur dans  [!DNL Adobe Workfront]  pour déployer entièrement le plan directeur vers les utilisateurs de votre système.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 

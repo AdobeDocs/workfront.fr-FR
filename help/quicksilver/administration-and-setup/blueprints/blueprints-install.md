@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Installer un plan directeur
+title: Installation d’un plan directeur
 description: Vous pouvez installer un plan directeur dans votre environnement de production ou un environnement Sandbox.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 6%
+source-wordcount: '487'
+ht-degree: 10%
 
 ---
 
@@ -22,6 +22,8 @@ Vous pouvez installer un plan directeur dans votre environnement de production o
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -29,19 +31,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p> N’importe quelle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe de la licence [!DNL Workfront]</strong></td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td>
+   <p>Nouvelle : standard</p>
+   <p>ou</p>
+   <p>Actuelle : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès</strong></td> 
-   <td> <p>[!UICONTROL Administrateur système]</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Où installer un plan directeur ? {#where-should-i-install-a-blueprint}
 
@@ -73,7 +82,8 @@ Vous pouvez installer votre package dans l’un des environnements suivants :
 
 ## Installation du plan directeur
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe] Workfront, puis cliquez sur **[!UICONTROL Blueprints]**.
+{{step1-to-blueprints}}
+
 1. Recherchez le plan directeur que vous souhaitez installer. Vous pouvez filtrer par cas d’utilisation, niveau de maturité, état d’installation et saisir le texte sur le côté droit.
 1. (Facultatif) Cliquez sur **[!UICONTROL Details]** pour découvrir le fonctionnement du plan directeur.
 1. Cliquez sur **[!UICONTROL Installer]**.

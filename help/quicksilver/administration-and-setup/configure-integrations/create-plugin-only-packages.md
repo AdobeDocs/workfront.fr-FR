@@ -6,8 +6,9 @@ navigation-topic: administrator-integrations
 description: Un administrateur Adobe Admin Console peut créer un module externe léger. En distribuant ces modules préconfigurés, les administrateurs peuvent s’assurer que les utilisateurs disposent de ces modules sans demander à l’utilisateur de rechercher le module externe lui-même. Nous vous recommandons d’utiliser ces modules externes légers pour distribuer les modules externes Adobe Workfront for Creative Cloud aux utilisateurs de votre entreprise.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 4%

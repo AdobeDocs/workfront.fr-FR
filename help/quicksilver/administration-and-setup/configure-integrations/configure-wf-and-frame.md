@@ -1,5 +1,5 @@
 ---
-title: Configuration de l'intégration  [!DNL Workfront] et [!DNL Frame.io]
+title: Configuration de l’intégration  [!DNL Workfront] et [!DNL Frame.io]
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 23%
+source-wordcount: '428'
+ht-degree: 25%
 
 ---
 
@@ -26,25 +26,23 @@ L’administrateur de Workfront active l’intégration entre Workfront et Frame
 >
 >Cette fonctionnalité est disponible uniquement pour les entreprises qui ont été intégrées à [!DNL Adobe Admin Console].
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table>
   <tr>
-   <td>Plan <strong>[!DNL Adobe Workfront]</strong>
-   </td>
-   <td>N’importe quelle
-   </td>
+   <td>[!DNL Adobe Workfront] plan</td>
+   <td>N’importe quelle</td>
   </tr>
   <tr>
-   <td>Licences <strong>[!DNL Adobe Workfront]</strong>
+   <td>[!DNL Adobe Workfront] licences
    </td>
-   <td>Actuel : [!UICONTROL Plan] <br>
- Nouveau : [!UICONTROL Standard]
-   </td>
+   <td><p>Actuelle : [!UICONTROL Plan]</p>
+   <p>Nouvelle : [!UICONTROL Standard]</p></td>
   </tr>
-
-<tr>
-   <td><strong> Configurations de niveau d’accès</strong>
+  <tr>
+   <td>Configurations du niveau d’accès
    </td>
    <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront].
    </td>
@@ -54,6 +52,7 @@ Vous devez disposer des éléments suivants :
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Configurer un compte [!DNL Frame.io] par défaut [!BADGE Bientôt disponible]{type=Informative}
 

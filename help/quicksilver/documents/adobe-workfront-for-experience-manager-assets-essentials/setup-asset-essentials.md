@@ -1,15 +1,15 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Configurer l’intégration d’Experience Manager Assets Essentials
+title: Configuration de l’intégration Experience Manager Assets Essentials
 description: Connectez votre travail à votre contenu dans Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 15%
+source-wordcount: '626'
+ht-degree: 17%
 
 ---
 
@@ -27,48 +27,51 @@ Connectez votre travail à votre contenu dans Experience Manager Assets Essentia
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table>
   <tr>
-   <td><strong>Formules Adobe Workfront*</strong>
+   <td>[!DNL Adobe Workfront] plan
    </td>
    <td>N’importe quelle
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Adobe Workfront*</strong>
+   <td>[!DNL Adobe Workfront] licence
    </td>
-   <td>Plan
+   <td><p>Actuelle : [!UICONTROL Plan]</p>
+   <p>Nouvelle : [!UICONTROL Standard]</p></td>
+  </tr>
+  <tr>
+   <td>[!DNL Experience Manager] licence
+   </td>
+   <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>Licence Experience Manager</strong>
-   </td>
-   <td>Standard
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Produit</strong>
+   <td>Produit
    </td>
    <td>Vous devez disposer de Experience Manager Assets Essentials et vous devez être ajouté au produit en tant qu’utilisateur dans l’Admin Console.
    </td>
   </tr>
   <tr>
-   <td><strong> Configurations de niveau d’accès</strong>
+   <td>Configurations du niveau d’accès
    </td>
-   <td>Vous devez être un administrateur Workfront. Pour plus d’informations sur les administrateurs de Workfront, voir <strong>Octroi d’un accès d’administration complet à un utilisateur</strong>.
+   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront].
    </td>
   </tr>
 </table>
 
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
-
++++
 
 ## Configuration de l’intégration
 
-1. Cliquez sur l’icône **Menu principal** dans le coin supérieur droit d’Adobe Workfront, puis sur **Configuration**.
+{{step-1-to-setup}}
+
 1. Sélectionnez **Documents** ![icône de documents](assets/document-icon.png) dans le panneau de gauche, puis sélectionnez **Intégration Experience Manager**.
 1. Sélectionnez **Ajouter une intégration Experience Manager**.
 1. Indiquez les informations suivantes :
@@ -126,20 +129,21 @@ Look for essentials article
 For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
-+++
-
 
 ### Ressources
 
 Les métadonnées sont mises en correspondance lorsqu’une ressource est envoyée de Workfront pour la première fois. Les documents contenant des champs intégrés ou personnalisés sont automatiquement associés aux champs spécifiés lors de la première envoi d’une ressource à Experience Manager Assets Essentials.
 
 1. Dans la colonne **Champ Workfront** , choisissez un champ Workfront intégré ou personnalisé.
+
    >[!NOTE]
    >
    >Vous pouvez mapper un champ Workfront unique à plusieurs champs Experience Manager Assets. Vous ne pouvez pas mapper plusieurs champs Workfront à un seul champ Experience Manager Assets.
+
 1. Dans le champ **Experience Manager**, choisissez un champ Experience Manager Assets.
 
    Pour mapper un champ Workfront à une balise Experience Manager Assets, sélectionnez `xcm:keywords`.
+
 1. Répétez les étapes 1 et 2 si nécessaire.
    ![activer les métadonnées](assets/metadata-assets-essentials.png)
 1. Cliquez sur **Enregistrer** ou passez à la section [Configurer les dossiers liés (facultatif)](#set-up-linked-folders-optional) de cet article.

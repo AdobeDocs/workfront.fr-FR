@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Configurer un plan directeur
+title: Configuration d’un plan directeur
 description: Vous pouvez configurer les détails du modèle de projet ou de la structure organisationnelle avant d’installer le plan directeur.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 2%
+source-wordcount: '1856'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,8 @@ Vous pouvez configurer les détails d’un plan directeur avant de l’installer
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -28,19 +30,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>N’importe quelle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe de la licence [!DNL Workfront]</strong></td>
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td>
+   <p>Nouvelle : standard</p>
+   <p>ou</p>
+   <p>Actuelle : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès</strong></td>
-   <td> <p>[!UICONTROL Administrateur système]</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configuration d’un plan directeur de modèle de projet
 

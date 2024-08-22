@@ -1,17 +1,17 @@
 ---
-title: Configurer le mappage des métadonnées
+title: Configuration du mappage des métadonnées
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Les métadonnées sont des informations descriptives associées à un document. Vous pouvez configurer  [!DNL Adobe Workfront]  pour inclure des métadonnées avec des documents envoyés aux applications  [!DNL Workfront] .
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 20%
+source-wordcount: '600'
+ht-degree: 16%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 20%
 Les métadonnées sont des informations descriptives associées à un document. Vous pouvez configurer [!DNL Adobe Workfront] pour inclure des métadonnées avec des documents envoyés aux applications [!DNL Workfront].
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -41,6 +43,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## À propos des métadonnées [!DNL Workfront]
 
@@ -64,7 +68,7 @@ Avant de pouvoir mapper des champs pour le processus de mappage des métadonnée
 
 ## Configurer [!DNL Workfront] pour envoyer des métadonnées
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Mappage des métadonnées]**.
 
@@ -82,7 +86,8 @@ Avant de pouvoir mapper des champs pour le processus de mappage des métadonnée
 ## Supprimer les champs mappés
 
 1. Connectez-vous à [!DNL Workfront] en tant qu’administrateur.
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’[!DNL Adobe Workfront], puis sur **[!UICONTROL Configuration]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Documents]** > **[!UICONTROL Mappage des métadonnées]**.
 
