@@ -4,10 +4,10 @@ description: Après avoir créé des connexions entre les types d’enregistreme
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 30%
+source-wordcount: '464'
+ht-degree: 29%
 
 ---
 
@@ -40,23 +40,17 @@ Pour plus d’informations sur la connexion des enregistrements entre eux ou à 
 
 * Toute personne ayant accès à Workfront Planning et disposant d’autorisations d’affichage ou supérieures à l’espace de travail peut voir les connexions que vous effectuez entre des enregistrements ou entre des enregistrements et des objets d’autres applications. Elles peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
 * Vous pouvez afficher et modifier les connexions de toutes les autres personnes, si vous disposez d’autorisations de gestion pour l’espace de travail dans lequel se trouvent les enregistrements connectés.
-* Vous pouvez connecter un enregistrement à un ou plusieurs objets à partir d’une autre application. <!--For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+* Vous pouvez connecter un enregistrement à un ou plusieurs objets à partir d’une autre application. Pour plus d’informations, reportez-vous à la section &quot;Types de connexions&quot; de l’article [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Zones où connecter les enregistrements
 
 Vous pouvez connecter des enregistrements à d’autres enregistrements ou à des objets d’une autre application dans les zones suivantes :
 
-* Vous pouvez connecter des enregistrements de Workfront Planning à des objets Workfront dans les zones suivantes :
-   * À partir d’un enregistrement Planning dans Workfront Planning dans les champs connectés en mode Tableau.
-   * À partir d’un enregistrement Planning dans Workfront Planning dans l’aperçu de l’enregistrement ou la page dans les champs d’enregistrement connectés.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+* Vous pouvez connecter des enregistrements de la planification Workfront à des objets Workfront ou Experience Manager Assets dans les zones suivantes d’un enregistrement de la planification :
 
-* Vous pouvez connecter les enregistrements de planification Workfront à Experience Manager Assets dans les zones suivantes :
-
-   * À partir d’un enregistrement Planning dans la vue Tableau de Workfront.
-  <!--* From a Planning record in the Connections tab on the record's preview or page.  -->
+   * Les champs d’enregistrement connectés dans la vue table d’un type d’enregistrement dans Planning.
+   * Prévisualisation ou page de l’enregistrement dans les champs d’enregistrement connectés dans l’onglet Détails .
+   * Aperçu ou page de l’enregistrement dans l’onglet Connexions .
 
 * Vous pouvez connecter des objets Workfront à des enregistrements Workfront Planning dans les zones suivantes :
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 81%
+source-wordcount: '2636'
+ht-degree: 60%
 
 ---
 
@@ -34,71 +34,76 @@ Pour plus d’informations sur les vues d’enregistrement, consultez la section
 
 ## Conditions d’accès
 
+<!--Updated for GA-->
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Produit</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
-   <td>
-<p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
-   <td>
-<p>N’importe quelle</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
-   <td>
-   <p>Nouvelle : standard</p>
-   Ou
-   <p>Actuelle : formule </p> 
-  </td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
-   <td> Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Autorisations de gestion d’une vue</p>  
-   <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p> 
-</td>
-  </tr>
- </tbody>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produits</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td> 
+<p>L’un des projets Workfront suivants est prévu :</p> 
+<ul><li>Sélectionner</li> 
+<li>Principal</li> 
+<li>Final</li></ul> 
+<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
+   <td> 
+<p>N’importe quelle </p> 
+<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
+   <td> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td> <ul><li><p>Tout, pour afficher les informations de la planification Workfront</p></li>
+   <li><p>Standard, pour créer des espaces de travail</p></li></ul>
+   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
+   <td>   <p>Autorisations de gestion d’une vue</p>  
+   <p>Affichage d’autorisations ou d’autorisations supérieures sur une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Modèle de disposition</p></td> 
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> </td> 
+  </tr> 
+</tbody> 
 </table>
 
-*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
-<!--EDIT PERMISSIONS AND ACCESS AND REPLACE THE table above with the following table at Planning GA release: 
-## Access requirements
-
-You must have the following to be able to access Workfront Planning: 
+<!--OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -109,74 +114,54 @@ You must have the following to be able to access Workfront Planning:
     <tr>
 <tr>
 <td>
-   <p> Products</p> </td>
+   <p> Product</p> </td>
    <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Any of the following new Workfront plans:</p>
-<ul><li>Select</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning is not available for legacy Workfront plans</p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
-   <td>
-<p>Any of the following Workfront Planning plans:</p>
-<ul><li>Planning</li>
-<li>Planning Plus</li>
-</ul>
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-
   </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <ul><li><p>Any, to view Workfront Planning information</p></li>
-   <li><p>Standard, to create workspaces</p></li></ul>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
+  
   <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Manage permissions to a view</p>  
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings</p>
-  </td>
+</td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-*********ensure that the link ^^^^^^^^above^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************
-
--->
-
++++
 
 ## Gérer une vue chronologique {#manage-a-timeline-view}
 
@@ -249,7 +234,11 @@ Pour gérer une vue chronologique, procédez comme suit :
    * [Filtres](#add-filters)
    * [Regroupement ](#add-grouping)
    * [Paramètres](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
+
+1. (Facultatif) Cliquez sur **Ventilation** pour afficher les enregistrements connectés dans la chronologie.
+
+   Pour plus d’informations, reportez-vous à la section [Utilisation de la fonction de ventilation pour afficher les enregistrements connectés dans la vue de chronologie](#break-down-connected-records-in-the-timeline-view)
 
 ### Ajouter des filtres
 
@@ -329,7 +318,6 @@ Pour ajouter un regroupement dans la vue chronologique :
 
 1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
 1. (Facultatif) Cliquez sur **Paramètres**, puis sur **Couleur** pour attribuer des couleurs aux regroupements. Pour plus d’informations, consultez la section [Modifier les paramètres de la vue chronologique](#edit-the-timeline-view-settings) de cet article.
-   <!--1. (Optional) Click **Breakdown** to display connected records on the timeline. For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view)-->
 
 <!-- 
 
@@ -419,60 +407,54 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer la nature e
 
    Les enregistrements s’affichent en vue chronologique avec les spécifications que vous avez sélectionnées.
 
-<!--
-### Use the Breakdown feature to display connected records in the timeline view
+### Utilisez la fonction Ventilation pour afficher les enregistrements connectés dans la vue de chronologie.
 
-You can display connected records in a record's timeline view by using the Breakdown feature. Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. 
+Vous pouvez afficher les enregistrements connectés dans la vue de chronologie d’un enregistrement à l’aide de la fonction Ventilation . La ventilation des enregistrements selon leur connexion vous permet d’afficher les chronologies des autres enregistrements connectés et de comprendre comment ils peuvent affecter les performances et les échéances de vos enregistrements.
 
-#### Considerations when using the Breakdown feature
+#### Remarques concernant l’utilisation de la fonction de ventilation
 
-* You can display connected records or objects under the records of the selected record type in the timeline view. 
-* You can display the following in the timeline view, using the Breakdown feature:
-    * Workfront Planning records connected to the selected record type. 
-    * Workfront (*************or AEM Assets*************)  object types connected to the selected record type.
-    * Workfront Planning records or objects from other application that are connected to records connected to the selected record type. 
-    
-        For example, you might connect campaigns to portfolios. In addition, you might connect  another record type, products, with projects, as well as with campaigns. When you build the campaign timeline view, you can break down the campaigns by portfolios, products, and projects. 
+* Vous pouvez afficher les enregistrements ou les objets connectés sous les enregistrements du type d’enregistrement sélectionné dans la vue de la chronologie.
+* Vous pouvez afficher les éléments suivants dans la vue de chronologie à l’aide de la fonction Ventilation :
+   * Enregistrements Workfront Planning connectés au type d&#39;enregistrement sélectionné.
+   * Types d’objets Workfront (************* ou AEM Assets *************) connectés au type d’enregistrement sélectionné.
+   * Workfront Planning enregistre ou objets d&#39;une autre application connectés à des enregistrements connectés au type d&#39;enregistrement sélectionné.
 
-* You cannot display object types that are connected only to Workfront objects in Workfront, but are not connected to a Workfront Planning record type. You can only display object or record types that are connected in Workfront Planning. 
+     Par exemple, vous pouvez connecter des campagnes à des portefeuilles. En outre, vous pouvez connecter un autre type d’enregistrement, &quot;produits&quot;, aux projets, ainsi qu’aux campagnes. Lorsque vous créez la vue de chronologie de campagne, vous pouvez ventiler les campagnes par portfolios, produits et projets.
 
-    For example, tasks, are connected to projects in Workfront. Using the Breakdown feature, you can display projects that are connected to campaigns in Planning, but not tasks connected to projects in Workfront. 
+* Vous ne pouvez pas afficher les types d’objets qui ne sont connectés qu’aux objets Workfront dans Workfront, mais qui ne sont pas connectés à un type d’enregistrement Workfront Planning. Vous pouvez uniquement afficher les types d’objets ou d’enregistrements connectés dans Workfront Planning.
 
-    If you want to display both portfolios and projects in the timeline view of a Workfront Planning record type, both the portfolios and the projects must be connected to the Planning record or to a record connected to the Planning record whose timeline view you are managing.
-* You can only display record types that are associated with at least two date fields. 
-* The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
-* The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
-* There is a limit of 5 record types that you can include in a record's breakdown. 
+  Par exemple, les tâches sont connectées aux projets dans Workfront. La fonction Ventilation vous permet d’afficher les projets connectés aux campagnes dans Planification , mais pas les tâches liées aux projets dans Workfront.
 
+  Si vous souhaitez afficher à la fois les portefeuilles et les projets dans la vue chronologique d’un type d’enregistrement de planification Workfront, les portefeuilles et les projets doivent être connectés à l’enregistrement de planification ou à un enregistrement connecté à l’enregistrement de planification dont vous gérez la vue chronologique.
+* Vous ne pouvez afficher que les types d’enregistrement associés à au moins deux champs de date.
+* Les champs de date pour les types d’enregistrement que vous souhaitez afficher dans la vue de chronologie doivent être visibles dans la vue de tableau du type d’enregistrement sélectionné, sous forme de champs de recherche.
+* Les dates de début et de fin des types d’enregistrement que vous souhaitez afficher dans la vue de chronologie doivent être classées par ordre chronologique. Par exemple, si un enregistrement a une date de début le 31 janvier et une date de fin le 1er janvier, il ne s’affiche pas dans la vue de la chronologie. Pour plus d’informations, reportez-vous à la section [Gestion d’une vue de chronologie](#manage-a-timeline-view) de cet article.
+* Il existe une limite de 5 types d’enregistrement que vous pouvez inclure dans la ventilation d’un enregistrement.
 
-#### Break down connected records in the timeline view
+#### Ventiler les enregistrements connectés dans la vue de chronologie
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Breakdown**.
-1. Expand the **Select a linked record type** box and select a connected record type. (**************add new screen shot***************)
+1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. (Conditionnel) Si vous affichez la vue de la chronologie en mode standard, cliquez sur **Ventilation**.
+1. Développez la zone **Sélectionner un type d’enregistrement lié** et sélectionnez un type d’enregistrement connecté. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-    ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![](assets/breakdown-picker-and-button-on-timeline.png)
 
-    >[!TIP]
-    >
-    >    If you do not have any connected records, or if the connected records do not have at least two date fields, the **Select a linked record type** box is not available.
+   >[!TIP]
+   >
+   >    Si vous ne disposez d’aucun enregistrement connecté ou si les enregistrements connectés ne possèdent pas au moins deux champs de date, la zone **Sélectionner un type d’enregistrement lié** n’est pas disponible.
 
-1. Choose a **Start date** and an **End date field**.
+1. Choisissez une **Date de début** et un **Champ de date de fin**.
 
-    >[!TIP]
-    >
-    >    The Start and End dates must be sequential. If the End date is before the Start date, no records will display in the timeline. 
+   >[!TIP]
+   >
+   >    Les dates de Début et de Fin doivent être séquentielles. Si la date de fin est antérieure à la date de début, aucun enregistrement ne s’affiche dans la chronologie.
 
-    A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
+   Une flèche pointant vers la droite s’affiche sur la barre de l’enregistrement sélectionné dans la chronologie, si ces derniers sont connectés à d’autres enregistrements.
+1. Cliquez sur la flèche pointant vers la droite pour développer un type d’enregistrement et afficher les connexions.
 
-    ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
+   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
-
-1. (Optional) Repeat the steps above to add more connected records. 
-
-    >[!TIP]
-    >
-    >    You can add up to 5 connected records in a timeline using the Breakdown feature. 
+1. (Facultatif) Répétez les étapes ci-dessus pour ajouter d’autres enregistrements connectés.
 
 
--->
+

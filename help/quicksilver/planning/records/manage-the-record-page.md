@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 13%
+source-wordcount: '1356'
+ht-degree: 9%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Gestion de la mise en page de la page d’enregistrement
 
@@ -36,7 +36,11 @@ Pour plus d’informations, voir les articles suivants :
 
 ## Conditions d’accès
 
+<!--Updated for GA-->
+
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
+
+Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
  <col>
@@ -47,51 +51,65 @@ Pour plus d’informations, voir les articles suivants :
     <tr>
 <tr>
 <td>
-   <p> Produit</p> </td>
+   <p> Produits</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Planification d’Adobe Workfront<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <tr>
+   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td>
    <td>
-<p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
+<p>L’un des projets Workfront suivants est prévu :</p>
+<ul><li>Sélectionner</li>
+<li>Principal</li>
+<li>Final</li></ul>
+<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
+
+<tr>
+   <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td>
    <td>
 <p>N’importe quelle</p>
+<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
+   <td>
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p>
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td>
    <td>
-   <p>Nouvelle : standard</p>
-   Ou
-   <p>Actuelle : formule</p> 
+   <p>Standard</p>
+   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle d’accès pour Adobe Workfront Planning</p>  
+  <tr>
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Gérer les autorisations d’un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
-</td>
+   <td role="rowheader"><p>Autorisations d’objet</p></td>
+   <td>
+   <p>Gérer les autorisations d’un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Votre administrateur ou administratrice Workfront ou de groupes doit ajouter la zone Planning dans votre modèle de disposition. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
+   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page comprenant la zone Planification du menu principal et la zone Planification des projets, portefeuilles et programmes. </p> Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Présentation des accès</a>. </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -145,11 +163,11 @@ Pour ajouter une section à un aperçu d’enregistrement ou à une page :
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
-   La page d’enregistrement s’ouvre. <!--The Details tab opens by default. -->
+   La page d’enregistrement s’ouvre. L’onglet Détails s’ouvre par défaut.
 
    ![](assets/details-page.png)
 
-1. Dans la page ou l’aperçu de l’enregistrement <!--**Details** tab of the-->, passez la souris sur l’espace blanc situé à gauche des champs, puis cliquez sur l’icône **Ajouter une section** ![](assets/add-section-icon.png) pour ajouter une section.
+1. Dans l’onglet **Détails** de l’aperçu de l’enregistrement ou de la page, passez la souris sur l’espace blanc situé à gauche des champs, puis cliquez sur l’icône **Ajouter une section** ![](assets/add-section-icon.png) pour ajouter une section.
 1. Cliquez dans le nom de la section et remplacez **Section sans titre** par un nom, puis cliquez sur Entrée. Les champs affichés sous la section font automatiquement partie de la nouvelle section.
 1. Commencez à faire glisser des champs vers la nouvelle section, comme décrit dans la section [Réorganiser les champs dans la page de prévisualisation des enregistrements ou de détails](#rearrange-fields-in-the-record-preview-or-details-page) de cet article.
 
@@ -182,11 +200,23 @@ Par défaut, toutes les sections sont développées.
 
    Toutes les modifications apportées aux sections et à l’ordre des champs sont enregistrées automatiquement.
 
-<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+1. (Facultatif) Cliquez sur l’icône **Exporter** ![](assets/export-icon-in-record-details-page.png) pour exporter l’onglet Détails vers un fichier Word. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
-      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+1. (Facultatif) Cliquez sur l’onglet **Connexions** en regard de l’onglet **Détails** . Vous devrez peut-être cliquer sur **Plus** avant de cliquer sur l’onglet **Connexions** .
 
-      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+   Tous les enregistrements ou objets connectés à l’enregistrement sélectionné s’affichent sous les noms du type d’enregistrement ou de l’application à laquelle ils appartiennent.
+
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+1. (Facultatif) Sélectionnez le paramètre **Afficher tous les enregistrements** dans le coin supérieur droit de l’onglet Connexions. Tous les types d’enregistrements connectés s’affichent, y compris ceux qui n’ont encore aucun enregistrement connecté. Par défaut, la bascule est désélectionnée et les types d’enregistrements sans enregistrement connecté sont masqués.
+
+1. (Facultatif) Cliquez sur **Se connecter** pour ajouter d’autres enregistrements aux types d’enregistrements connectés. Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+
+1. (Facultatif) Pointez sur une carte d’enregistrement, puis cliquez sur l’icône de déconnexion d’enregistrement **-**, puis cliquez sur **Déconnecter**. <!--this is copied to the Manage the Planning page in Workfront article; update in both articles-->
+Les événements suivants se produisent :
+   * L’enregistrement n’est plus connecté à l’objet Workfront.
+   * L’objet Workfront est également supprimé du champ connecté de l’enregistrement de Workfront Planning.
+   * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont également supprimées.
 
 ## Réorganiser les champs dans l’aperçu ou la page de l’enregistrement
 

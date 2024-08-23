@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 73%
+source-wordcount: '1909'
+ht-degree: 72%
 
 ---
 
@@ -22,14 +22,13 @@ ht-degree: 73%
 >
 >Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, Workfront Planning est à un stade d’accès anticipé, ouvert à un nombre limité de clients.
+>Vous devez être un client Workfront et votre entreprise doit acheter un plan de planification Adobe Workfront, en plus d’un plan Workfront, pour pouvoir accéder aux fonctionnalités de la planification du service. <!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
+>Pour plus d’informations sur l’obtention de l’accès à Workfront Planning, voir [Présentation des accès](/help/quicksilver/planning/access/access-overview.md).
 >
->Vous devez être une cliente ou un client Workfront pour utiliser ces fonctionnalités.
->
->Le représentant du compte vous aurait informé si vous faisiez partie de cette étape.
->
->Pour obtenir la liste complète de toutes les sections et tous les articles qui documentent la planification Workfront, voir [Adobe Workfront Planning : article index](/help/quicksilver/planning/planning-information.md).
 
+Cet article contient des informations générales sur la planification Workfront.
+
+Pour obtenir la liste complète des articles qui contiennent de la documentation pour la planification Workfront, voir [Adobe Workfront Planning : article index](/help/quicksilver/planning/planning-information.md).
 
 ## Présentation d’Adobe Workfront Planning
 
@@ -52,11 +51,16 @@ Voici quelques-unes des principales fonctionnalités :
 
 ## Fonctionnalités Adobe Workfront Planning actuellement disponibles
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
 
 Le tableau suivant illustre les principales fonctionnalités qui seront disponibles dans Workfront Planning, ainsi qu’une chronologie de leur disponibilité. La liste n’inclut pas toutes les fonctionnalités.
 
+<!--at GA: update the link below to the new place for release notes-->
+
 Pour plus d’informations sur les nouvelles fonctionnalités et leur date de publication, voir [Adobe Workfront Planning - Activité de mise à jour en cours](/help/quicksilver/planning/general/release-activity.md).
+
+<!-- at GA: remove the table below, and instead make a bullet list with the available features in Planning-->
+
 
 | Fonctionnalité | Disponible maintenant | Prochainement | En cours de développement |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
