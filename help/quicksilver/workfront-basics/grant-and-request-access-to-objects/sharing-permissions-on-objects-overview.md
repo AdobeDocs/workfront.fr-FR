@@ -6,10 +6,10 @@ description: Vous pouvez partager ou supprimer des autorisations pour un objet q
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
+source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 3%
+source-wordcount: '1181'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez partager ou supprimer des autorisations pour un objet que vous avez 
 
 >[!NOTE]
 >
->Un administrateur Workfront peut ajouter ou supprimer des autorisations à n’importe quel élément du système, pour tous les utilisateurs, sans en être le propriétaire.
+>Une équipe d’administration Workfront peut ajouter ou supprimer des autorisations à tous les éléments du système, pour toutes les personnes, sans être la personne propriétaire de ces éléments.
 
 ## Objets que vous pouvez partager dans Workfront
 
@@ -62,11 +62,11 @@ Vous pouvez partager les objets suivants dans Workfront avec d’autres utilisat
 
 * **Plans** : pour plus d’informations, voir [Partager un plan dans le planificateur de scénarios](../../scenario-planner/share-a-plan.md).
 
-  Cela nécessite une licence supplémentaire.
+  Cette fonction nécessite une licence supplémentaire.
 
 * **Objectifs** : pour plus d’informations, voir [Partager un objectif dans les objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
-  Cela nécessite une licence supplémentaire.
+  Cette fonction nécessite une licence supplémentaire.
 
 ## Observations relatives au partage d’objets
 
@@ -85,7 +85,7 @@ Vous pouvez partager les objets suivants dans Workfront avec d’autres utilisat
   >Vous ne pouvez partager un plan ou un objectif qu’avec d’autres utilisateurs actifs. Cela nécessite des licences supplémentaires.
   >
   >
-  >Pour plus d’informations, voir :
+  >Pour plus d’informations, voir ce qui suit :
   >
   >* [Partager un plan dans le planificateur de scénarios](../../scenario-planner/share-a-plan.md)
   >* [Partager un objectif dans les objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
@@ -130,7 +130,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
    <td> <p>Vous pouvez effectuer les actions suivantes sur l’objet :</p> 
     <ul> 
      <li>Toutes les actions incluses avec les autorisations Afficher et Contribute</li> 
-     <li>Supprimer</li> 
+     <li>Le supprimer</li> 
      <li>Gérer les informations financières dans celle-ci</li> 
     </ul> </td> 
   </tr> 
@@ -140,7 +140,7 @@ Le tableau suivant illustre le niveau des autorisations que vous pouvez sélecti
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Rendre ceci visible sur tout le système.</strong></td> 
-   <td> <p>L’objet peut être trouvé dans les recherches et affiché par les utilisateurs disposant d’un compte Workfront.</p><p><b>Remarque&gt;/b&gt; : Les utilisateurs disposant de licences de contributeur ou de demandeur ne peuvent pas voir les projets, même si ce paramètre est activé. </td> 
+   <td> <p>L’objet peut être trouvé dans les recherches et affiché par les utilisateurs disposant d’un compte Workfront.</p><p><b>Remarque</b> : Les utilisateurs disposant de licences de contributeur ou de demandeur ne peuvent pas voir les projets, même si ce paramètre est activé. </td> 
   </tr> 
  </tbody> 
 </table>
