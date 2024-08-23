@@ -2,16 +2,16 @@
 content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
-title: Créer des demandes
+title: Créer des requêtes
 description: Les requêtes et les problèmes sont interchangeables dans Adobe Workfront. Vous pouvez créer des requêtes en envoyant une requête dans Workfront, en envoyant une requête dans une autre application ou par courrier électronique dans un projet configuré comme une file d’attente de requêtes.
-author: Alina
+author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 

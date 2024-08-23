@@ -1,15 +1,15 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: Fournir un accès aux files d’attente des demandes
+title: Accéder aux files d’attente de demande
 description: Lorsque vous accordez l’accès à une file d’attente de demandes, vous déterminez qui, au sein de votre organisation, peut afficher la file d’attente de demandes dans la zone Demandes d’Adobe Workfront.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 17%
+source-wordcount: '519'
+ht-degree: 15%
 
 ---
 
@@ -23,32 +23,39 @@ Cela s’avère utile dans les organisations qui invitent des parties prenantes 
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> 
+   <p>Nouvelle licence : standard </p>
+   Ou
+   <p>Licence actuelle : plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Modifier l’accès aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p> Autorisations de gestion pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p> Autorisations de gestion pour le projet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 

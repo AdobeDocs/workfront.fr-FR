@@ -1,14 +1,14 @@
 ---
-title: Partager un lien vers une file d’attente des demandes
-description: Partager un lien vers une file d’attente des demandes
-author: Alina
+title: Partage d’un lien vers une file d’attente de requêtes
+description: Vous pouvez partager un lien vers une file d’attente de demandes, un groupe de rubriques ou une rubrique de file d’attente lorsque vous envoyez la demande.
+author: Lisa
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 39%
+source-wordcount: '295'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,8 @@ Vous pouvez partager un lien vers une file d’attente de demandes, un groupe de
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -29,21 +31,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
+   Ou
+   <p>Actuelle : demande ou supérieure</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice de Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Modifier l’accès aux problèmes</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Partager un lien vers une file d’attente des demandes
 

@@ -1,15 +1,15 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Permettre aux utilisateurs et utilisatrices d’envoyer par e-mail un problème dans un projet de la file d’attente des demandes
-description: Permettre aux utilisateurs et utilisatrices d’envoyer par e-mail un problème dans un projet de la file d’attente des demandes
-author: Alina
+title: Activation de l’envoi par courrier électronique d’un problème dans un projet de file d’attente de requêtes
+description: Vous pouvez configurer un projet pour permettre aux utilisateurs d’ajouter des problèmes au projet par courrier électronique.
+author: LIsa
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 14%
+source-wordcount: '799'
+ht-degree: 10%
 
 ---
 
@@ -19,41 +19,39 @@ ht-degree: 14%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-Vous pouvez configurer un projet pour permettre aux utilisateurs d’ajouter des problèmes au projet par courrier électronique. Vous pouvez autoriser l’envoi de problèmes par courrier électronique dans un projet uniquement si le projet est désigné comme une file d’attente de requêtes. Pour plus d’informations sur la création d’un projet de file d’attente des demandes, voir [Création d’une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Vous pouvez configurer un projet pour permettre aux utilisateurs d’ajouter des problèmes au projet par courrier électronique. Vous ne pouvez autoriser l’envoi des problèmes par courrier électronique dans un projet que si le projet est désigné comme une file d’attente de requêtes. Pour plus d’informations sur la création d’un projet de file d’attente des demandes, voir [Création d’une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
+   Ou
+   <p>Actuelle : demande ou supérieure</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>To configure the request queue, you must have Manage permissions to the project.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.<br></p> </td> 
-   </tr>
-  --> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Modifier l’accès aux problèmes</p>  </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -80,7 +78,7 @@ Ces conditions doivent être remplies avant d’activer cette fonctionnalité :
 >Nous recommandons que le projet que vous configurez pour recevoir des requêtes par courrier électronique ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
 
 1. Accédez au projet que vous souhaitez activer pour recevoir les problèmes par email.
-1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche. Vous devrez peut-être d’abord cliquer sur **Afficher plus** .
+1. Cliquez sur Détails de la file d’attente dans le panneau de gauche. **** Vous devrez peut-être d’abord cliquer sur **Afficher plus** .
 1. Dans la zone **Queue Type**, sélectionnez **Publish as Help Request Queue**.
 
 1. Faites défiler l’écran jusqu’à la zone **Paramètres de la file d’attente des emails**, puis sélectionnez **Activer la prise de demande par courrier électronique**.

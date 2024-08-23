@@ -2,18 +2,18 @@
 content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
-title: Créer et gérer des files d’attente des demandes
+title: Création et gestion des files d’attente de requête
 description: Vous pouvez créer des files d’attente de requêtes dans Adobe Workfront pour capturer le travail non planifié de votre entreprise. Les articles suivants décrivent comment configurer des projets pour qu’ils fonctionnent comme des files d’attente de requêtes.
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 27%
+ht-degree: 34%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 27%
 
 Cette section contient les articles suivants :
 
-* [Créer une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 * [Définition des types de requête pour un projet](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
 * [Accéder aux files d’attente de demandes](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
-* [Créer des groupes de sujets](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+* [Créer des groupes de rubriques](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
 * [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 * [Créer des règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 

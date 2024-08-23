@@ -2,16 +2,16 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Créer des règles de routage
-description: Les règles de routage contrôlent ce qu’Adobe Workfront fait avec les problèmes lorsqu’elles sont envoyées à une file d’attente de requêtes. Pour plus d’informations sur la création de files d’attente de requête, voir Création d’une file d’attente de requête.
-author: Alina
+description: Les règles de routage contrôlent ce qu’Adobe Workfront fait des problèmes lorsqu’ils sont soumis à une file d’attente des demandes. Pour plus d’informations sur la création de files d’attente des demandes, voir Créer une file d’attente des demandes.
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 12%
 
 <!-- Audited: 12/2023 -->
 
-Les règles de routage contrôlent ce qu’Adobe Workfront fait avec les problèmes lorsqu’ils sont envoyés vers une file d’attente de demandes. Pour plus d’informations sur la création de files d’attente de requête, voir [Création d’une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Les règles de routage contrôlent ce qu’Adobe Workfront fait des problèmes lorsqu’ils sont soumis à une file d’attente des demandes. Pour plus d’informations sur la création de files d’attente des demandes, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Les règles de routage envoient des problèmes à des utilisateurs spécifiques ou à des rôles de tâche les mieux équipés pour résoudre le problème ou la requête envoyée. Les règles de routage sont généralement associées aux rubriques de la file d’attente, qui sont utilisées pour contrôler la règle de routage qui sera appliquée au problème ou à la requête.
+Les règles de routage envoient les problèmes aux personnes ou aux fonctions spécifiques les mieux équipées pour résoudre la demande ou le problème soumis. Les règles de routage sont généralement associées à des rubriques de file d’attente, qui sont utilisées pour contrôler la règle de routage qui sera appliquée au problème ou à la demande.
 
 ## Conditions d’accès
 
@@ -75,12 +75,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <p>Actuelle : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations du niveau d’accès</td>
    <td> <p>Modifier l’accès aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p> Autorisations de gestion pour le projet</p> </td> 
+   <td> <p> Autorisations de gestion pour le projet</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -89,12 +89,12 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 +++
 
-## Création d’une règle de routage
+## Créer une règle de routage
 
-1. Accédez au projet dans lequel vous souhaitez ajouter les règles de routage pour vos requêtes.
-1. Cliquez sur **Règles de routage** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Règles de routage**.
+1. Accédez au projet dans lequel vous souhaitez ajouter les règles de routage pour vos demandes.
+1. Cliquez sur Règles de routage dans le panneau de gauche. **** Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Règles de routage**.
 1. Cliquez sur **Nouvelle règle de routage** pour ajouter la nouvelle règle.
-1. Saisissez les informations suivantes pour la règle de routage :
+1. Saisissez les informations suivantes pour la règle de routage :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,7 +104,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Nom</strong> </td> 
-      <td>Nom de la règle de routage. Vous pouvez voir la règle de routage si vous avez accès à ces informations sur le projet.</td> 
+      <td>Le nom de la règle de routage. Vous pouvez voir la règle de routage si vous avez accès à cette information sur le projet.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
@@ -112,37 +112,37 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Cessionnaire par défaut*</strong> </td> 
-      <td>Ajoutez un utilisateur actif ou un rôle de tâche actif auquel les nouveaux problèmes doivent être affectés. Vous ne pouvez avoir qu’une seule personne désignée par défaut dans ce champ. </td> 
+      <td>Ajoutez une personne active ou une fonction active à qui les nouveaux problèmes doivent être attribués. Ce champ ne peut contenir qu’une seule personne cessionnaire par défaut. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Équipe par défaut*</strong> </td> 
-      <td>Ajoutez une équipe active à laquelle le nouveau problème doit être affecté. Vous ne pouvez avoir qu’une seule équipe par défaut dans ce champ.
+      <td>Ajouter une équipe active à laquelle le nouveau problème doit être attribué. Ce champ ne peut contenir qu’une seule équipe par défaut.
 
    <p><b>NOTE</b></p>
 
-   Une fois le problème envoyé, vous pouvez modifier ses affectations et affecter d’autres utilisateurs, rôles ou équipes. Pour plus d’informations, voir <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Affecter des problèmes</a>.
+   Une fois le problème soumis, vous pouvez modifier ses affectations et affecter d’autres personnes, fonctions ou équipes. Pour plus d’informations, voir <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Attribuer des problèmes</a>.
 
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Itinéraire vers le projet</strong> </td> 
-      <td>Il s’agit du projet sur lequel le problème est ajouté.</td> 
+      <td role="rowheader"><strong>Transmettre au projet</strong> </td> 
+      <td>Il s’agit du projet dans lequel le problème est ajouté.</td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >*Si un utilisateur, un rôle de tâche ou une équipe sont désactivés après qu’ils ont été associés à une règle de routage, les demandes continuent à leur être acheminées. Vous devez régulièrement dresser un inventaire de toutes les règles de routage et remplacer les affectations désactivées par les affectations actives.
+   >* Si une personne, une fonction ou une équipe est désactivée après avoir été associée à une règle de routage, les demandes continuent de lui être transmises. Vous devez périodiquement faire l’inventaire de toutes les règles de routage et remplacer les affectations désactivées par des affectations actives.
 
-   Lorsque vous acheminez un problème vers un projet, les utilisateurs disposant d’autorisations sur le problème reçoivent les autorisations définies sur ce projet. Pour plus d’informations sur la définition des autorisations sur les projets, voir [Partage d’un projet dans Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   Lorsque vous transmettez un problème vers un projet, les personnes ayant des autorisations sur le problème reçoivent les autorisations définies pour ce projet. Pour plus d’informations sur la définition des autorisations sur les projets, voir [Partager un projet dans Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![Nouvelle zone de règle de routage](assets/new-routing-rule-box.png)
+   ![Zone Nouvelle règle de routage](assets/new-routing-rule-box.png)
 
 1. Cliquer sur **Enregistrer**.
 
-   Ce processus définit uniquement la règle de routage. Pour vous assurer que le problème est acheminé lorsqu’il est envoyé vers la file d’attente des demandes, vous devez sélectionner la règle de routage sur l’onglet **Détails de la file d’attente** sous **Itinéraire par défaut**.
+   Ce processus ne définit que la règle de routage. Pour garantir que le problème est acheminé lorsqu’il est soumise à la file d’attente des demandes, vous devez sélectionner la règle de routage dans l’onglet **Détails de la file d’attente** sous **Route par défaut**.
 
-   Pour plus d’informations sur l’ajout d’un itinéraire par défaut à une file d’attente de requêtes, voir [Création d’une file d’attente de requêtes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Pour plus d’informations sur l’ajout d’une route par défaut à une file d’attente des demandes, voir [Créer une file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-   Si vous souhaitez associer plusieurs règles de routage à la file d’attente des demandes, vous devez créer plusieurs rubriques de file d’attente et associer chacune d’elles à une règle de routage distincte. Pour plus d’informations sur la création d’une rubrique de file d’attente, voir [Création de rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Si vous souhaitez associer plusieurs règles de routage à la file d’attente, vous devez créer plusieurs rubriques de file d’attente et associer chacune d’elles à une règle de routage distincte. Pour plus d’informations sur la création d’une rubrique de file d’attente, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

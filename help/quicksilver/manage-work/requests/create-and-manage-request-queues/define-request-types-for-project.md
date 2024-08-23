@@ -1,15 +1,15 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: Définir les types de demandes pour un projet
+title: Définition des types de requête pour un projet
 description: Vous pouvez organiser le type de problèmes ou de requêtes connectés dans Adobe Workfront par types de requêtes.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 27%
+source-wordcount: '376'
+ht-degree: 22%
 
 ---
 
@@ -21,6 +21,8 @@ Cette organisation est utile pour des raisons de création de rapports et pour a
 
 ## Conditions d’accès
 
++++
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,30 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans?lang=fr" target="_blank">Formule Adobe Workfront</a>*</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Présentation des licences</a>*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+    <p>Nouvelle : standard</p>
+    <p>ou</p>
+    <p>Actuelle : formule</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Modifier l’accès aux projets</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion d’un projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations de gestion d’un projet</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables
 
@@ -66,7 +71,7 @@ Avant de commencer, vous devez effectuer les opérations suivantes :
 
 ## Définition du problème ou des types de requête pour un projet
 
-1. Cliquez sur **Projets** dans le menu principal. ![](assets/main-menu-icon.png)
+{{step1-to-projects}}
 
 1. Cliquez sur le nom du projet pour l’ouvrir.
 1. Dans le panneau de gauche, cliquez sur **Détails de la file d’attente**.
@@ -76,10 +81,10 @@ Avant de commencer, vous devez effectuer les opérations suivantes :
    >
    >Vous devez avoir sélectionné au moins un type de requête. Vous pouvez sélectionner plusieurs types de requête.
 
-   Choisissez parmi les types suivants :
+   Choisissez parmi les types suivants :
 
    * Rapport sur les bogues
-   * Modifier l&#39;ordre
+   * Modifier l’ordre
    * Problème
    * Demande
 

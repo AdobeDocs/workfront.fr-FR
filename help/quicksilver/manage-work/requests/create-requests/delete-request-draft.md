@@ -1,15 +1,15 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Supprimer un brouillon de demande
+title: Suppression d’un brouillon de requête
 description: Vous pouvez supprimer les brouillons de requêtes au fur et à mesure de leur création, en les ignorant.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 37%
+source-wordcount: '255'
+ht-degree: 36%
 
 ---
 
@@ -26,6 +26,8 @@ Vous pouvez supprimer les requêtes en brouillon après leur enregistrement en t
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -33,21 +35,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
+   Ou
+   <p>Actuelle : demande ou supérieure</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice de Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Modifier l’accès aux problèmes</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Conditions préalables à la suppression des brouillons de requêtes
 
@@ -55,17 +62,18 @@ Vous devez effectuer les opérations suivantes avant de pouvoir supprimer un bro
 
 * Commencez à créer une requête. Cette opération enregistre automatiquement la demande en tant que brouillon dans la section Brouillons .
 
-  Pour plus d’informations sur la création de requêtes, voir [Création et envoi de requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Pour plus d’informations sur la création de demandes, consultez la section [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Supprimer un brouillon de demande
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
-1. Cliquez sur **Requêtes**, puis sur **Brouillons** dans le panneau de gauche.
+{{step1-to-requests}}
+
+1. Sélectionnez **Brouillons** dans le panneau de gauche.
 
    Tous les brouillons de toutes les files d’attente de requête s’affichent dans cette liste.
 
 1. (Facultatif) Cliquez sur **Filtrer par type de requête** dans le coin supérieur droit de la liste des brouillons, puis sélectionnez la file d’attente de requêtes contenant les brouillons que vous souhaitez afficher.
 1. Sélectionnez un brouillon dans la liste, puis cliquez sur **Supprimer** en haut de la liste.
-1. Cliquez sur **Oui, supprimez-le**.
+1. Cliquez sur **Oui, supprimer**.
 
    Le brouillon est supprimé et ne peut pas être récupéré.

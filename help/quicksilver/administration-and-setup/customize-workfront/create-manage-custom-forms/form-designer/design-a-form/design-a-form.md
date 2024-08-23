@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 1a2f6e95b5b229f9b749290fcb1767ff794ddd6d
 workflow-type: tm+mt
-source-wordcount: '5540'
-ht-degree: 90%
+source-wordcount: '5546'
+ht-degree: 91%
 
 ---
 
@@ -221,7 +221,8 @@ Pour ajouter un champ de texte :
     </tr>
     <tr>
     <td>Instructions</td>
-    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque vous remplissez le formulaire personnalisé, pointez sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici.<img src="assets/instructions-form-designer.png">
+    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque vous remplissez le formulaire personnalisé, pointez sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici
+    <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
@@ -243,7 +244,7 @@ Pour ajouter un champ de texte :
     </ul></td>
     </tr>
     <tr>
-    <td>Type d'affichage</td>
+    <td>Type d’affichage</td>
     <td>Basculer entre les champs de texte d’une seule ligne et d’un paragraphe.</td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
@@ -286,13 +287,13 @@ Vous pouvez ajouter des boutons radio, des groupes de cases à cocher, des liste
 * **Cases d’option** : les personnes ne peuvent effectuer qu’une seule sélection.
 * **Groupe Case à cocher** : permet aux personnes d’effectuer plusieurs sélections.
 * **Liste déroulante** : fournit une liste de choix de liste déroulante.
-* **Liste déroulante à sélection multiple** : permet aux utilisateurs de sélectionner plusieurs choix dans une liste déroulante.
+* **Menu déroulant multi-sélection** : permet aux utilisateurs et utilisatrices de sélectionner plusieurs choix dans une liste déroulante.
 
 +++
 
 >[!NOTE]
 >
->Les champs qui autorisent plusieurs sélections, tels que le groupe de cases à cocher et la liste déroulante à sélection multiple, sont difficiles à associer et à associer dans les rapports. Pour simplifier la création de graphiques et de regroupements dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple, un champ de texte d’une seule ligne).
+>Les champs qui autorisent plusieurs sélections, tels que Groupe Case à cocher et Menu déroulant multi-sélection, sont difficiles à représenter sous forme de graphiques et à regrouper dans les rapports. Pour simplifier la création de graphiques et de regroupements dans les rapports, vous pouvez créer des champs distincts pour chaque choix (par exemple, un champ de texte d’une seule ligne).
 
 Pour ajouter des boutons radio, des groupes de cases à cocher et des listes déroulantes :
 
@@ -303,7 +304,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
    * Menu déroulant
    * Menu déroulant multi-sélection
 
-   ![Faites glisser un champ sur la zone de travail](assets/drag-field-to-section-041524.png)
+   ![Faire glisser un champ sur la zone de travail](assets/drag-field-to-section-041524.png)
 
 1. Dans la partie droite de l’écran, configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
 
@@ -363,8 +364,8 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </ul></td>
     </tr> 
     <tr> 
-     <td role="rowheader">Type d'affichage</td> 
-    <td>Basculez entre les cases d'option, les groupes Case à cocher, les listes déroulantes ou les listes déroulantes à sélection multiple pour le champ.</td> 
+     <td role="rowheader">Type d’affichage</td> 
+    <td>Basculez entre les cases d’option, les groupes Case à cocher, les listes déroulantes ou les listes déroulantes à sélection multiple pour le champ.</td> 
     <td><ul>
     <li>Cases d’option</li>
     <li>Groupe Case à cocher</li>
@@ -490,14 +491,14 @@ Pour ajouter des champs de saisie semi-automatique et de date :
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Afficher l'heure</td> 
+      <td role="rowheader">Afficher l’heure</td> 
       <td>Sélectionnez cette option si vous souhaitez afficher l’heure et la date dans le champ.</td> 
          <td><ul>
     <li>Champ de date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Type d'objet référencé</td> 
+      <td role="rowheader">Type d’objet référencé</td> 
       <td> <p>Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur Appliquer ou sur Enregistrer+Fermer, vous ne pouvez pas modifier le type d’objet du champ.</p> <p><b>NOTE</b> :   
         <ul> 
          <li>Si votre équipe d’administration Workfront a personnalisé le nom des portfolios, programmes ou projets dans l’interface d’utilisation Workfront, le nom Workfront par défaut de l’objet s’affiche dans cette liste déroulante et non dans le nom personnalisé. Contactez votre équipe d’administration Workfront si vous avez besoin d’aide.<br></li> 
@@ -553,20 +554,20 @@ Pour ajouter des champs de saisie semi-automatique et de date :
 
 ### Ajouter des champs de recherche externes
 
-Un champ de recherche externe appelle une API externe et renvoie les valeurs sous forme d’options dans un champ déroulant. Les utilisateurs et utilisatrices qui travaillent avec l’objet auquel le formulaire personnalisé est joint peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante. Le champ de recherche externe est également disponible dans les listes et les rapports.
+Un champ de recherche externe appelle une API externe et renvoie les valeurs sous forme d’options dans un champ déroulant. Les personnes qui travaillent avec l’objet auquel le formulaire personnalisé est attaché peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante. Le champ de recherche externe est également disponible dans les listes et les rapports.
 
 Pour des exemples d’utilisation du champ de recherche externe pour appeler la même instance de Workfront ou une API publique, voir [Exemples du champ de recherche externe dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
->* Les champs de recherche externes de formulaires personnalisés ne sont actuellement pas pris en charge dans les tableaux de bord. Vous ne pouvez pas modifier la valeur du champ en ligne et elle peut ne pas s’afficher correctement dans un tableau de bord. (Les champs de recherche externes sont pris en charge dans les tableaux de bord de la zone de travail.)
+>* Les champs de recherche externes de formulaires personnalisés ne sont actuellement pas pris en charge dans les tableaux de bord. Vous ne pouvez pas modifier la valeur du champ en ligne et elle peut ne pas s’afficher correctement dans un tableau de bord. (Les champs de recherche externes sont pris en charge dans les tableaux de bord de zone de travail.)
 >* Les champs de recherche externes ne sont pas pris en charge dans le module externe Outlook.
 >* Les champs de recherche externes sont disponibles dans les listes, sauf si le champ dépend d’un autre champ.
 
 Pour ajouter une recherche externe :
 
 1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites-le glisser vers une section de la zone de travail.
-1. Dans la partie droite de l&#39;écran, configurez les options du champ personnalisé :
+1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -672,9 +673,9 @@ The Workfront Mobile app -->
 
 +++ **Développez pour afficher les descriptions des champs disponibles.**
 
-* **Image** : permet aux utilisateurs d’ajouter des fichiers image.
+* **Image** : permet aux utilisateurs et utilisatrices d’ajouter des fichiers image.
 * **PDF** : permet aux utilisateurs et utilisatrices d’ajouter des fichiers PDF.
-* **Vidéos** : permet aux utilisateurs d’ajouter des fichiers vidéo.
+* **Vidéos** : permet aux utilisateurs et utilisatrices d’ajouter des fichiers vidéo.
 
 +++
 
@@ -765,7 +766,7 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
 
 | Nom du champ | Projet | Tâche | Problème | Modèle | Tâche de modèle | Portfolio | Programme | Groupe |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Date d&#39;achèvement effective | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Date d’achèvement effective | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Durée effective | ✓ |   |   |   |   |   |   |   |
 | Heures effectives | ✓ |   | ✓ |   |   |   |   |   |
 | Date de début effective | ✓ | ✓ | ✓ |   |   |   |   |   |
@@ -783,14 +784,14 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
 | Date de dernière mise à jour | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nom | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Propriétaire | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Date d&#39;achèvement prévue | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Date d’achèvement prévue | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Durée prévue | ✓ |   |   | ✓ |   |   |   |   |
 | Heures prévues | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
 | Date de début prévue | ✓ |   |   |   |   |   |   |   |
 | Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
 | Priorité | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Programme | ✓ |   |   | ✓ |   |   |   |   |
-| Date d&#39;achèvement prévisionnelle | ✓ | ✓ |   |   |   |   |   |   |
+| Date d’achèvement prévisionnelle | ✓ | ✓ |   |   |   |   |   |   |
 | Durée prévisionnelle en minutes |   | ✓ |   |   |   |   |   |   |
 | Date de début prévisionnelle | ✓ | ✓ |   |   |   |   |   |   |
 | Numéro de référence | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
@@ -798,7 +799,7 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
 | Gravité |   |   | ✓ |   |   |   |   |   |
 | Sponsor | ✓ |   |   | ✓ |   |   |   |   |
 | Statut | ✓ | ✓ |   |   |   |   |   |   |
-| Points de l&#39;histoire |   | ✓ |   |   |   |   |   |   |
+| Points de l’histoire |   | ✓ |   |   |   |   |   |   |
 | Modèle | ✓ |   |   |   |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
@@ -807,7 +808,7 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
 +++
 
 1. Dans la partie gauche de l’écran, trouvez **Champ natif** et faites-le glisser vers une section de la zone de travail.
-1. Dans la partie droite de l&#39;écran, configurez les options du champ personnalisé :
+1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -902,4 +903,4 @@ Pour ajouter un fichier Adobe XD :
 
 ## Organiser et prévisualiser un formulaire avec le créateur de formulaires
 
-Pour plus d’informations sur l’organisation et la prévisualisation de votre formulaire, voir [Organiser et prévisualiser un formulaire avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Pour plus d’informations sur l’organisation d’un formulaire personnalisé avec des sauts de section et sur l’affichage d’un aperçu du formulaire, voir [Organisation et aperçu d’un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).

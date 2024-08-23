@@ -1,17 +1,17 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Localiser les demandes envoyées
+title: Localisation des requêtes envoyées
 description: Découvrez les zones d’Adobe Workfront dans lesquelles vous pouvez localiser les requêtes que vous ou une autre personne avez envoyées ou les requêtes que vous n’avez jamais envoyées et que vous avez enregistrées en tant que brouillons.
-author: Alina
+author: Lisa
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 14%
+source-wordcount: '825'
+ht-degree: 10%
 
 ---
 
@@ -30,40 +30,46 @@ Vous pouvez localiser les types de requêtes suivants que vous ou une autre pers
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> <p>N’importe quelle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Présentation des licences Adobe Workfront*</td> 
-   <td> <p>Requête ou supérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
+   Ou
+   <p>Actuelle : demande ou supérieure</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux problèmes</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
-  <tr> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td><p>Modifier l’accès aux problèmes</p></td> 
+  </tr>
+  <tr>
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage des autorisations sur les requêtes ou plus</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td><p>Affichage des autorisations ou supérieures sur les requêtes</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Localiser les demandes envoyées
 
 Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées :
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-requests}}
+
 1. Cliquez sur **Submitted** dans le panneau de gauche pour afficher toutes les requêtes envoyées.
 
    Vous pouvez afficher jusqu’à 2 000 requêtes, qui peuvent s’afficher sur plusieurs pages.
@@ -141,7 +147,7 @@ Pour localiser les requêtes que vous ou d’autres utilisateurs avez envoyées 
       <td>Toutes les demandes envoyées, quel que soit leur état ou qui les a envoyées.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Ouvertes</td> 
+      <td role="rowheader">Ouvrir</td> 
       <td> <p>Toutes les demandes envoyées qui sont actuellement ouvertes, indépendamment de la personne qui les a envoyées. Seules les demandes que vous disposez au moins des autorisations nécessaires pour afficher cette page s’affichent si vous ne les avez pas envoyées vous-même. </p> <p>Les requêtes sans date de fin réelle ou dont l’objet de résolution ne comporte pas de date de fin réelle sont répertoriées dans le sous-onglet Ouvrir.</p> <p><b>CONSEIL</b>
 
    Les requêtes dont l’état n’est pas égal à Fermé sont considérées comme ouvertes.</p> </td>

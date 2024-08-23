@@ -1,15 +1,15 @@
 ---
-title: Copier et soumettre les demandes
+title: Copie et envoi de requêtes
 description: Lorsque vous envoyez fréquemment des requêtes similaires, vous pouvez copier une requête envoyée existante. Dans ce cas, vous pouvez copier une requête existante, y apporter des modifications minimales et la soumettre à nouveau en tant que nouvelle requête.
-author: Alina
+author: Lisa
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 10%
+source-wordcount: '1461'
+ht-degree: 29%
 
 ---
 
@@ -21,35 +21,6 @@ Lorsque vous envoyez fréquemment des requêtes similaires, vous pouvez copier u
 
 ## Conditions d’accès
 
-<!--drafted - replace table with P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current license: Contributor or higher</p> 
-   Or
-   <p>Legacy license: Request or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Access to add requests to a request queue</p> <p>View or higher permissions on the existing request</p> <p>For information on setting up a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -79,6 +50,42 @@ Si vous n’y avez pas accès, demandez à votre administrateur ou administratri
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td> <p>N’importe quelle </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure</p>
+   Ou
+   <p>Actuelle : demande ou supérieure</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td> <p>Modifier l’accès aux problèmes</p>  </td> 
+  </tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td><p>Accès à l’ajout de requêtes à une file d’attente de requêtes</p> <p>Afficher ou des autorisations supérieures sur la requête existante</p> <p>Pour plus d’informations sur la configuration d’une file d’attente de requêtes, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Création d’une file d’attente de requêtes</a>. </p> </td> 
+  <tr>
+  </tr>
+ </tbody> 
+</table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Conditions préalables
 
 Vous devez disposer d’une demande que vous ou une personne de votre organisation avez déjà envoyée pour pouvoir la copier et la soumettre à nouveau. Si la demande appartient à une autre personne, vous devez avoir au moins accès à l’option Afficher pour pouvoir la copier et l’envoyer comme nouveau.
@@ -92,7 +99,7 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
 
   Pour plus d’informations, consultez les articles suivants :
 
-   * [Créer une file d’attente de requête](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   * [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * Vous pouvez mettre à jour la copie de la requête d’origine avant de la soumettre à nouveau en tant que nouvelle requête.
@@ -105,12 +112,12 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
      >
      >Si la rubrique de la file d’attente était la seule dans la file d’attente des demandes, vous pouvez toujours copier et envoyer la demande. Elle sera enregistrée dans la file d’attente des demandes elle-même.
 
-   * La file d’attente des demandes n’est plus publiée en tant que file d’attente des demandes d’aide. Pour plus d’informations, voir [Création d’une file d’attente de requêtes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * La file d’attente des demandes n’est plus publiée en tant que file d’attente des demandes d’aide. Pour plus d’informations, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    * Si la file d’attente des demandes ne comporte pas de rubrique de file d’attente et que la demande d’origine a été envoyée avant janvier 2022.
 
    * L’état du projet associé à la file d’attente des demandes n’est plus actuel.
 
-* Vous pouvez copier et envoyer une copie d’une requête convertie si la requête a été conservée dans le processus de conversion. Pour plus d’informations, voir [Présentation des problèmes de conversion dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+* Vous pouvez copier et envoyer une copie d’une requête convertie si la requête a été conservée dans le processus de conversion. Pour plus d’informations, voir [Vue d’ensemble de la conversion des problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
   >[!TIP]
   >
@@ -118,7 +125,8 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
 
 ## Copier et soumettre les demandes
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Requêtes**.
+{{step1-to-requests}}
+
 1. (Conditionnel) Si la section Envoyé ne s’affiche pas par défaut, cliquez sur **Envoyé** dans le panneau de gauche.
 
    >[!TIP]
@@ -174,7 +182,7 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priorité</strong> </td> 
-      <td> <p>Indiquez la priorité de votre requête. La priorité doit définir la vitesse à laquelle vous pensez que cette requête doit être résolue. Les options par défaut sont les suivantes :</p> 
+      <td> <p>Indiquez la priorité de votre requête. La priorité doit définir la vitesse à laquelle vous estimez que cette demande doit être résolue. Les options par défaut sont les suivantes :</p> 
        <ul> 
         <li>Aucun</li> 
         <li>Faible</li> 
@@ -185,7 +193,7 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Gravité</strong> </td> 
-      <td> <p>Spécifiez la gravité de votre requête. La gravité doit définir l’impact de cette requête sur votre travail s’il n’est pas résolu à temps. Les options par défaut sont les suivantes :</p> 
+      <td> <p>Spécifiez la gravité de votre requête. La gravité doit définir l’impact de cette demande sur votre travail si elle n’est pas résolue à temps. Les options par défaut sont les suivantes :</p> 
        <ul> 
         <li>Décoratif</li> 
         <li>Cause de la confusion</li> 
@@ -195,26 +203,26 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
        </ul> <p>Votre administrateur Workfront peut modifier les noms des statistiques.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Contact Principal</strong> </td> 
-      <td>Le contact par Principal d’une requête vous est transmis par défaut, dans la mesure où vous êtes la personne qui répond à toutes les questions relatives à la requête. Cependant, vous pouvez modifier ce paramètre pour n’importe quel autre utilisateur Workfront.</td> 
+      <td role="rowheader"><strong>Contact principal</strong> </td> 
+      <td>Le contact principal d’une demande vous est attribué par défaut, car vous êtes la personne de référence pour répondre à toute question relative à la demande. Cependant, vous pouvez l’attribuer à tout autre utilisateur ou toute autre utilisatrice de Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>Affectations</strong></span> </td> 
       <td> <p>Indiquez le nom d’un utilisateur, d’un rôle de tâche ou d’une équipe actif auquel la requête doit être affectée. </p> <p> Vous pouvez spécifier plusieurs utilisateurs, rôles de tâche ou équipes. </p> <p>Selon la configuration de la file d’attente des demandes, vous pouvez n’affecter la requête qu’à un ou deux types de ressources, au lieu des trois. </p> <p>Nous vous recommandons d’utiliser des règles de routage pour vos files d’attente de requêtes afin qu’elles puissent être automatiquement acheminées vers les ressources appropriées. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">En fonction de la configuration de la file d’attente des demandes, il se peut que vous ne puissiez affecter qu’un seul type de ressource à la demande (par exemple, les utilisateurs). Si une règle de routage est également associée à la file d’attente des demandes et qu’elle achemine automatiquement la demande vers un autre type de ressource (par exemple, une équipe), votre demande est affectée à la fois à l’entité que vous spécifiez manuellement lors de l’envoi de la demande (utilisateurs) et à la ressource spécifiée dans la règle de routage (l’équipe).</p> <p style="font-weight: normal;">Pour plus d’informations, consultez les articles suivants :</p> 
+      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">En fonction de la configuration de la file d’attente des demandes, il se peut que vous ne puissiez affecter qu’un seul type de ressource à la demande (par exemple, les utilisateurs). Si une règle de transmission est également associée à la file d’attente des demandes et qu’elle achemine automatiquement la demande vers un autre type de ressource (par exemple, une équipe), votre demande est affectée à la fois à l’entité que vous avez spécifiée manuellement lors de la soumission de la demande (les personnes) et à la ressource spécifiée dans la règle de transmission (l’équipe).</p> <p style="font-weight: normal;">Pour plus d’informations, consultez les articles suivants :</p> 
         <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente de requête</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Créer des règles de routage</a> <br> </p> </li> 
+         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente des demandes</a> </p> </li> 
+         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Créer des règles de transmission</a> <br> </p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Nombre d’heures prévues</strong> </td> 
-      <td> <p>Estimez le nombre d’heures nécessaire à l’exécution de cette requête.</p> </td> 
+      <td> <p>Estimer le nombre d’heures nécessaires à la réalisation de cette demande.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Date de début planifiée</strong> </td> 
+      <td role="rowheader"><strong>Date de début prévue</strong> </td> 
       <td> <p>Date à laquelle le travail sur cette requête doit commencer.</p> </td> 
      </tr> 
      <tr> 
@@ -223,13 +231,13 @@ Vous devez disposer d’une demande que vous ou une personne de votre organisati
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Statut</strong> </td> 
-      <td>L’état par défaut d’une nouvelle requête est "Nouveau". Votre administrateur Workfront a peut-être modifié le nom de cet état. Vous pouvez également modifier l’état pour autre chose à partir de ce menu déroulant.</td> 
+      <td>Le statut par défaut d’une nouvelle demande est « Nouveau ». Votre administrateur Workfront a peut-être modifié le nom de cet état. Vous pouvez également modifier le statut à partir de ce menu déroulant.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Documents</strong> </td> 
       <td> <p>Ajoutez des documents à votre requête. Les documents joints à la requête d’origine ne sont pas transférés vers la requête copiée.</p> <p><b>CONSEIL</b>
 
-   Selon la configuration de la file d’attente des demandes, la section Documents peut s’afficher avant ou après les champs personnalisés.</p> <p> </p> </td>
+   En fonction de la configuration de la file d’attente des demandes, la section Documents peut s’afficher avant ou après les champs personnalisés.</p> <p> </p> </td>
    </tr> 
     </tbody> 
    </table>
