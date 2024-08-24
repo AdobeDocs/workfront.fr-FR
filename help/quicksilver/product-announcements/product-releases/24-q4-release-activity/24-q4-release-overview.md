@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 46%
+source-wordcount: '1127'
+ht-degree: 47%
 
 ---
 
@@ -106,7 +106,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                                 <p>Version d’aperçu : mercredi 6 août 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production pour toute la clientèle : mercredi 6 août 2024</span></p>
+                                <p><span class="preview">Version de production pour tous les clients : 6 août 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -133,7 +133,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations plus pertinentes ajoutées au workflow Nouvelle tâche</a></p>
-                        [!BADGE en production pour version rapide ]{type=Positif}
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet et dans une liste de tâches de projet.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -142,7 +142,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                                 <p>Version d’aperçu : 13 février 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
@@ -162,7 +162,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                                 <p>Version d’aperçu : 21 décembre 2023</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
@@ -200,7 +200,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                                 <p>Version d’aperçu : vendredi 29 août 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production pour toute la clientèle : vendredi 29 août 2024</span></p>
+                                <p><span class="preview">Version de production pour tous les clients : 29 août 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -281,7 +281,7 @@ Pour plus d’informations sur les nouveautés et les mises à jour, consultez l
 
 Pour plus d’informations sur les versions d’API, consultez [Contrôle de version des API et planification de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Mises à jour de maintenance pour Workfront 
+### Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du quatrième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
 
@@ -295,4 +295,4 @@ Les fonctionnalités suivantes seront bientôt supprimées de Workfront :
 
 #### Obsolescence de l’expérience d’accueil héritée avec la version 24.10
 
-Nous abandonnerons officiellement l’expérience héritée d’accueil avec la version 24.10. Nous vous recommandons de commencer à utiliser la nouvelle page d’accueil, qui continuera à être enrichie de fonctionnalités supplémentaires avant l’obsolescence. D’autres informations sur la transition, notamment sur ce que les utilisateurs et les administrateurs peuvent faire pour se préparer, seront disponibles.
+Nous abandonnerons officiellement l’expérience héritée d’accueil avec la version 24.10. Nous vous recommandons de commencer à utiliser la nouvelle page d’accueil, qui continuera à être enrichie de fonctionnalités supplémentaires avant l’obsolescence. Pour plus d’informations sur la transition, y compris des conseils sur ce que les utilisateurs et les administrateurs peuvent faire pour se préparer, consultez le [Guide d’obsolescence de la page d’accueil héritée](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).

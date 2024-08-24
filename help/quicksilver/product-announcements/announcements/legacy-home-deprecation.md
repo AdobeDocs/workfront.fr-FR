@@ -5,9 +5,9 @@ title: Guide d’obsolescence de la page d’accueil
 description: Cette page contient des informations sur l’obsolescence prochaine de la page d’accueil héritée.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ La communauté Adobe Workfront, nous avons des nouvelles, nous allons bientôt a
 
 ![](assets/legacy-home-worklist-view.png)
 
-Cette page sera abandonnée lors de la version 24.10 (prévue le 17 octobre 2024). Vous devrez alors passer à la nouvelle expérience d’accueil. Si vous avez utilisé la page d’accueil héritée pour gérer votre travail, ne vous inquiétez pas ! En plus d&#39;améliorer continuellement notre nouvelle page d&#39;accueil, nous avons été occupés à créer une expérience de gestion du travail rationalisée appelée Mes priorités.
+Cette page sera abandonnée lors de la version 24.10 (prévue le 17 octobre 2024). Vous devrez alors passer à la nouvelle expérience d’accueil. Si vous avez utilisé la page d’accueil héritée pour gérer votre travail, ne vous inquiétez pas ! En plus d&#39;améliorer continuellement notre nouvelle page d&#39;accueil, nous avons été occupés à bâtir une expérience de gestion du travail rationalisée appelée Priorités.
 Pourtant, nous savons qu&#39;un changement comme celui-ci peut être perturbateur, et nous voulons aider votre transition de toutes les manières possibles. Cette page contient des informations sur ce qui va changer exactement, des conseils sur la préparation de la transition et quelques réponses aux questions fréquentes.
 
 ## Informations sur l’obsolescence
@@ -35,7 +35,7 @@ Pourtant, nous savons qu&#39;un changement comme celui-ci peut être perturbateu
 
 * Nouvelle page d’accueil est déjà disponible en tant que remplacement. Voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) pour plus d’informations sur l’utilisation de la nouvelle page d’accueil. Il peut être personnalisé par les utilisateurs au moyen d’options de personnalisation et par les administrateurs au moyen de modèles de mise en page.
 
-* Mes priorités sont en cours d’élaboration et constitueront un autre élément de l’expérience rationalisée de gestion du travail dans Adobe Workfront.
+* Les priorités sont en cours d’élaboration et constitueront un autre élément de l’expérience rationalisée de gestion du travail dans Adobe Workfront.
 
 ## Préparation de l’obsolescence
 
@@ -57,7 +57,7 @@ Cela donnera dès que possible à vos utilisateurs le temps de s’adapter à la
 
 ### Suivez l’expérience d’accueil au fur et à mesure de son développement
 
-Nous vous recommandons également de rester à jour avec les dernières notes de mise à jour (voir [Versions de produit](/help/quicksilver/product-announcements/product-releases/product-releases.md)) pour en savoir plus sur les modifications apportées à l’expérience d’accueil à mesure que nous nous rapprochons de l’obsolescence. En outre, continuez à lire la section Mes priorités pour mieux comprendre notre vision de l’avenir de la gestion du travail dans Adobe Workfront (informations supplémentaires à venir).
+Nous vous recommandons également de rester à jour avec les dernières notes de mise à jour (voir [Versions de produit](/help/quicksilver/product-announcements/product-releases/product-releases.md)) pour en savoir plus sur les modifications apportées à l’expérience d’accueil à mesure que nous nous rapprochons de l’obsolescence. En outre, continuez à lire les rubriques Priorités pour mieux comprendre notre vision de l’avenir de la gestion du travail dans Adobe Workfront (informations supplémentaires à venir).
 
 ### Demander de l’aide
 
@@ -70,7 +70,7 @@ Si vous rencontrez des problèmes pendant la transition, contactez votre gestion
 Non, il sera complètement supprimé de l’application.
 +++
 
-+++ Toutes les fonctions de la page d’accueil héritée sont-elles disponibles dans la nouvelle page d’accueil (ou, à terme, dans Mes priorités) ?
++++ Toutes les fonctions de la page d’accueil héritée sont-elles disponibles dans la nouvelle page d’accueil (ou, à terme, dans les priorités) ?
 
 Presque, à l’exception de :
 
@@ -78,7 +78,7 @@ Presque, à l’exception de :
 
 * L’affichage des horodatages pour les dates d’échéance des objets n’est actuellement pas disponible.
 
-* L’affichage de la date de validation dans le flux de mise à jour n’est actuellement pas disponible. Cependant, il existe une solution de contournement : afficher la date de validation dans la personnalisation de l’en-tête par le biais de modèles de mise en page.
+* L’affichage de la date de validation dans le flux de mise à jour n’est actuellement pas disponible. Cependant, il existe une solution de contournement : afficher la date de validation dans l’en-tête via la personnalisation du modèle de mise en page.
 +++
 
 +++Comment réguler les widgets auxquels les utilisateurs ont accès dans un nouvel accueil ?
@@ -102,5 +102,5 @@ Les champs personnalisés peuvent être affichés dans la nouvelle page d’accu
 
 +++Puis-je envoyer des commentaires ?
 
-Oui ! Pour ce faire, cliquez sur le bouton **Laisser un commentaire** dans l’application sur votre nouvelle page d’accueil, sur la page Mes priorités à venir ou sur le [forum Workfront Ideas](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+Oui ! Pour ce faire, cliquez sur le bouton **Laisser un commentaire** dans l’application sur votre nouvelle page d’accueil, sur la page Priorités à venir ou sur le [forum Workfront Ideas](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 +++
