@@ -12,7 +12,7 @@ exl-id: 658f97cd-0500-421d-9c89-26041ca59655
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 <!-- Audited: 12/2023 -->
 
-Si vous faites partie de l’équipe d’administration d’Adobe Workfront ou si vous disposez d’un niveau d’accès Planificationbvous permettant de modifier les paramètres d’autres personnes, vous pouvez configurer les paramètres de notification pour plusieurs personnes à la fois. Cela inclut la spécification des notifications reçues par les personnes au fur et à mesure des événements, ou dans un e-mail de synthèse quotidienne, comme décrit dans les [notifications Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md). Pour plus d’informations sur le niveau d’accès requis pour modifier les personnes, voir [Accorder l’accès aux personnes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Si vous faites partie de l’équipe d’administration d’Adobe Workfront ou si vous disposez d’un niveau d’accès Planificationbvous permettant de modifier les paramètres d’autres personnes, vous pouvez configurer les paramètres de notification pour plusieurs personnes à la fois. Cela inclut la spécification des notifications reçues par les personnes au fur et à mesure des événements, ou dans un e-mail de synthèse quotidienne, comme décrit dans les notifications Adobe Workfront. [](../../../workfront-basics/using-notifications/wf-notifications.md) Pour plus d’informations sur le niveau d’accès requis pour modifier les personnes, voir [Accorder l’accès aux personnes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 Vous pouvez également configurer des notifications par e-mail pour une personne à la fois, y compris votre propre profil. Pour plus d’informations, consultez [Modifier vos propres notifications par e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 

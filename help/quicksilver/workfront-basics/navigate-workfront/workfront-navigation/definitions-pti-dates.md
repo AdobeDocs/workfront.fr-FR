@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Présentation des dates de projet, de tâche et de problème dans [!DNL Workfront]
-description: Cet article fournit des définitions des dates les plus courantes associées aux projets, tâches et problèmes dans [!DNL Adobe Workfront].
+title: Vue d’ensemble des dates de projet, de tâche et de problèmes dans  [!DNL Workfront]
+description: Cet article fournit des définitions des dates les plus courantes associées aux projets, aux tâches et aux problèmes dans  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
 source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 4%
+ht-degree: 51%
 
 ---
 
-# Présentation des dates de projet, de tâche et de problème dans [!DNL Workfront]
+# Vue d’ensemble des dates du projet, de la tâche et du problème dans [!DNL Workfront]
 
 <!-- Audited: 05/2024 -->
 
@@ -21,52 +21,52 @@ ht-degree: 4%
 
 <!-- there are dates below that need definition - ask Product-->
 
-Cet article fournit des définitions des dates les plus courantes associées aux projets, tâches et problèmes dans [!DNL Adobe Workfront]. Les images incluses ici sont des exemples d’affichage des dates dans Workfront et ne sont pas exhaustives. D’autres zones affichent les dates. Toutes les dates sont également visibles dans les listes et rapports de projet, de tâche et d’émission.
+Cet article fournit des définitions des dates les plus courantes associées aux projets, aux tâches et aux problèmes dans . [!DNL Adobe Workfront] Les images incluses ici sont des exemples de l’affichage des dates dans Workfront et ne sont pas exhaustives. D’autres zones affichent les dates. Toutes les dates sont également visibles dans les rapports et les listes de projets, de tâches et de problèmes.
 
-Pour plus d’informations sur les rapports et les listes, reportez-vous aux articles suivants :
+Pour plus d’informations sur les rapports et les listes, voir les articles suivants :
 
-* [Prise en main des listes dans [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
+* [Commencer avec les listes dans  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [Prise en main des rapports](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
 Pour plus d’informations sur les champs de projet, de tâche et de problème, consultez le [Glossaire de [!DNL Adobe Workfront] terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 
-## [!UICONTROL Date de début réelle]
+## [!UICONTROL Date de début effective]
 
-La [!UICONTROL Date de début réelle] est la date à laquelle un utilisateur commence réellement à travailler sur un projet, une tâche ou un problème. La [!UICONTROL Date de début réelle] est vide lors de la création du projet, de la tâche ou du problème.
+La date de début effective est la date à laquelle un utilisateur ou une utilisatrice commence réellement à travailler sur un projet, une tâche ou un problème.  Le champ [!UICONTROL Date de début effective] est vide lors de la création du projet, de la tâche ou du problème.
 
-Vous pouvez indiquer manuellement le moment où le travail a commencé sur une tâche ou un problème, ou la [!UICONTROL Date de début réelle] se remplit automatiquement lorsque la tâche ou l’état du problème passe de [!UICONTROL New] à [!UICONTROL En cours] ou [!UICONTROL Terminé]. La [!UICONTROL Date de début réelle] d’un projet correspond à la date de début de la première tâche du projet.
+Vous pouvez indiquer manuellement quand le travail a commencé sur une tâche ou un problème, ou la date de début effective se remplit automatiquement lorsque le statut de la tâche ou du problème passe de Nouveau à En cours ou Terminé.  La [!UICONTROL date de début effective] d’un projet coïncide avec la date de début de la première tâche du projet.
 
 >[!TIP]
 >
->La [!UICONTROL Date de début réelle] peut ne pas correspondre à une [!UICONTROL Date de début planifiée] d’un projet, d’une tâche ou d’un problème, car l’utilisateur peut commencer à travailler plus tard ou avant la date prévue.
+>La [!UICONTROL date de début effective] peut ne pas correspondre à la [!UICONTROL date de début prévue] d’un projet, d’une tâche ou d’un problème, car l’utilisateur ou l’utilisatrice peut commencer le travail plus tard ou plus tôt que la date prévue.
 
-Pour plus d’informations, voir [Présentation du projet [!UICONTROL Date de début réelle]](../../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+Pour plus d’informations, voir [Vue d’ensemble de la [!UICONTROL date de début effective]](../../../manage-work/projects/planning-a-project/project-actual-start-date.md) du projet.
 
 >[!NOTE]
 >
->La tâche [!UICONTROL Doit démarrer le ] ou les contraintes de dates fixes affectent la [!UICONTROL Date de début planifiée] d’une tâche, et non la [!UICONTROL Date de début réelle]. Cette opération met à jour la [!UICONTROL Date de début planifiée] vers une date que vous spécifiez. La [!UICONTROL Date de début réelle] est mise à jour indépendamment de la [!UICONTROL  Date de début planifiée], comme décrit ci-dessus.
+>La tâche Il faut commencer le ou les contraintes Dates fixes affectent la date de début prévue d’une tâche, et non la date de début effective.  Cette opération met à jour la date de début prévue à la date que vous avez spécifiée.  La [!UICONTROL date de début effective] est mise à jour indépendamment de la [!UICONTROL date de début prévue], comme décrit ci-dessus.
 
 ![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
 ![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
-## [!UICONTROL Date d’achèvement réelle]
+## [!UICONTROL Date d’achèvement effective]
 
-La [!UICONTROL date d’achèvement réelle] est la date à laquelle un utilisateur termine réellement un projet, une tâche ou un problème. La [!UICONTROL Date d’achèvement réelle] est vide lors de la création du projet, de la tâche ou du problème.
+La [!UICONTROL date d’achèvement effective] est la date à laquelle un utilisateur ou une utilisatrice termine réellement un projet, une tâche ou un problème. La zone [!UICONTROL Date d’achèvement effective] est vide lors de la création du projet, de la tâche ou du problème.
 
-Vous pouvez indiquer manuellement le moment où le travail se termine sur une tâche ou un problème, ou la [!UICONTROL Date d’achèvement réelle] se remplit automatiquement lorsque l’un des événements suivants se produit :
+Vous pouvez indiquer manuellement quand une tâche ou un problème se termine, ou la [!UICONTROL date d’achèvement effective] se remplit automatiquement lorsque l’une des situations suivantes se produit :
 
-* Le statut du projet, de la tâche ou du problème passe à [!UICONTROL Complete], [!UICONTROL Closed] ou [!UICONTROL Resolved].
-* Le pourcentage de réalisation de la tâche ou du projet est de 100 %.
+* Le statut du projet, de la tâche ou du problème passe à [!UICONTROL Terminé], [!UICONTROL Fermé], ou [!UICONTROL Résolu].
+* Le pourcentage terminé de la tâche ou du projet est de 100 %.
 
-La [!UICONTROL Date d’achèvement réelle] d’un projet correspond à la date à laquelle vous avez terminé la dernière tâche du projet.
+La [!UICONTROL date d’achèvement effective] d’un projet correspond à la date à laquelle vous avez effectué la dernière tâche sur le projet.
 
 >[!TIP]
 >
->La [!UICONTROL Date d’achèvement réelle] peut ne pas correspondre à la [!UICONTROL  Date d’achèvement planifiée].
+>La [!UICONTROL date d’achèvement effective] peut ne pas correspondre à la [!UICONTROL date d’achèvement prévue].
 
-Pour plus d’informations, voir [Présentation du projet [!UICONTROL Date d’achèvement réelle]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+Pour plus d’informations, voir [Vue d’ensemble de la [!UICONTROL date d’achèvement effective]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md) du projet.
 
 ![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
@@ -96,13 +96,13 @@ Il s’agit d’un champ obsolète pour les projets. Toutes les informations que
 
 Le champ est visible dans les listes et rapports du projet.
 
-## [!UICONTROL Date de validation]
+## [!UICONTROL Date d’engagement]
 
-La [!UICONTROL Date de validation] est la date à laquelle un utilisateur affecté à une tâche ou à un problème s’engage à terminer la tâche ou le problème. Ceci est différent de la [!UICONTROL Date d’achèvement prévue], car il s’agit d’une estimation plus réaliste de la date d’achèvement donnée uniquement par l’utilisateur responsable du travail. Pour plus d’informations, voir [[!UICONTROL Présentation de la date de validation]](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+La date d’engagement est la date à laquelle une personne affectée à une tâche ou à un problème s’engage à terminer la tâche ou le problème.  Elle est différente de la [!UICONTROL date d’achèvement prévue], car il s’agit d’une estimation plus réaliste de la date d’achèvement donnée uniquement par la personne en charge du travail. Pour plus d’informations, voir Vue d’ensemble de la [[!UICONTROL date d’engagement]](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 >[!NOTE]
 >
->La modification de la [!UICONTROL date de validation] affecte la [!UICONTROL date d’achèvement prévue] mais pas la [!UICONTROL  date d’achèvement prévue] d’une tâche ou d’un problème. Le chef de projet peut utiliser les modifications qu’une personne désignée apporte à la [!UICONTROL Date de validation] pour mettre à jour la [!UICONTROL  date d’achèvement prévue] d’une tâche ou d’un problème.
+>La modification de la date d’engagement affecte la date d’achèvement prévisionnelle mais pas la date d’achèvement prévue d’une tâche ou d’un problème.  La ou le gestionnaire de projet peut utiliser les modifications apportées par une personne assignée à la [!UICONTROL date d’engagement] pour mettre à jour la [!UICONTROL date d’achèvement prévue] d’une tâche ou d’un problème.
 
 <!--## Completion Pending Date-->
 
@@ -124,7 +124,7 @@ Les contraintes de tâche suivantes mettent à jour le champ Date de contrainte 
 
 La Date de contrainte est visible dans une liste de tâches ou un rapport.
 
-## Date d&#39;entrée de l&#39;événement converti
+## Date d’entrée de l’événement converti
 
 Date à laquelle le problème qui a été converti dans le projet ou la tâche a été créé.
 
@@ -150,7 +150,7 @@ Pour plus d’informations, reportez-vous à la section [Date d’achèvement pl
 
 [!UICONTROL Date d’entrée] est la date de création d’un projet, d’une tâche ou d’un problème dans [!DNL Workfront].
 
-La [!UICONTROL date d’entrée] n’a aucune incidence sur la chronologie des projets, tâches ou problèmes, mais elle est importante à des fins de suivi et de création de rapports. [!DNL Workfront] génère automatiquement la [!UICONTROL Date d’entrée] lorsque l’objet est créé et vous ne pouvez pas le modifier manuellement.
+La date d’entrée n’a pas d’effet sur le calendrier des projets, des tâches ou des problèmes, mais elle est importante pour le suivi et la création de rapports.  [!DNL Workfront] génère automatiquement la [!UICONTROL date d’entrée] lors de la création de l’objet et vous ne pouvez pas la modifier manuellement.
 
 ![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
@@ -218,9 +218,9 @@ Date de la dernière mise à jour du projet, de la tâche ou du problème. Une m
 
 La date de la dernière mise à jour est visible dans les listes et rapports des projets, des tâches et des problèmes.
 
-## [!UICONTROL Date d’entrée de l’heure]
+## [!UICONTROL Date d’entrée des heures]
 
-Lorsque vous enregistrez le temps pour les projets, les tâches et les problèmes afin d’indiquer le temps réel (en heures) que vous passez à travailler sur le projet, la tâche ou le problème, le temps que vous connectez devient les [!UICONTROL Heures réelles] du projet, de la tâche ou du problème.
+Lorsque vous consignez des heures pour des projets, des tâches et des problèmes afin d’indiquer le temps réel (en heures) que vous avez passé à travailler sur le projet, la tâche ou le problème, le temps que vous consignez devient les [!UICONTROL heures effectives] du projet, de la tâche ou du problème.
 
 La date pour laquelle vous enregistrez l’heure est le champ [!UICONTROL Date d’entrée de l’heure] sur l’entrée d’heure.
 
@@ -236,21 +236,21 @@ Pour plus d’informations sur la façon de consigner l’heure dans Workfront, 
 
 >[!TIP]
 >
->Il est recommandé de disposer du temps de connexion sur les tâches et les problèmes de travail, plutôt que sur les tâches ou les projets parents. La durée de connexion aux tâches de travail est cumulée aux tâches parentes et le projet est [!UICONTROL Heures réelles] pour les tâches parentes et le projet. Les problèmes liés à l’heure de connexion sont cumulés au projet en tant que [!UICONTROL Heures réelles] pour le projet.
+>Nous recommandons de consigner le temps passé sur des tâches et des problèmes de travail, plutôt que sur des tâches ou des projets parent. Le temps consigné sur les tâches de travail est répercuté sur les tâches parent et le projet en tant qu’Heures effectives pour les tâches parent et le projet.  Le temps consigné sur les problèmes est répercuté sur le projet en tant qu’[!UICONTROL Heures effectives] pour le projet.
 
 ## [!UICONTROL Date d’achèvement prévue]
 
-La date [!UICONTROL Date d’achèvement planifiée] ou la date [!UICONTROL Échéance le] est la date à laquelle un projet, une tâche ou un problème est prévu.
+La [!UICONTROL date d’achèvement prévue] ou la [!UICONTROL date d’échéance] est la date à laquelle il est prévu qu’un projet, une tâche ou un problème soit terminé(e).
 
-Selon la [!UICONTROL contrainte de tâche], vous ne pourrez peut-être pas modifier la [!UICONTROL  date d’achèvement prévue] d’une tâche. Selon le [!UICONTROL mode de planification] du projet, vous ne pourrez peut-être pas modifier la [!UICONTROL  date d’achèvement prévue] d’un projet.
+En fonction de la contrainte de tâche, il se peut que vous ne puissiez pas modifier la date d’achèvement prévue d’une tâche.  En fonction du [!UICONTROL mode de planification] du projet, il se peut que vous ne puissiez pas modifier la [!UICONTROL date d’achèvement prévue] d’un projet.
 
-La [!UICONTROL  date d’achèvement prévue] s’affiche comme date d’échéance dans certaines zones de [!DNL Workfront].
+La [!UICONTROL date d’achèvement prévue] s’affiche comme la date d’échéance dans certaines zones de [!DNL Workfront].
 
 Pour plus d’informations, consultez les articles suivants :
 
-* [Présentation de la tâche [!UICONTROL Date d’achèvement planifiée]](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
-* [Définition du projet [!UICONTROL Date d’achèvement prévue]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
-* [Présentation du problème [!UICONTROL Date d’achèvement planifiée]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
+* [Vue d’ensemble de la [!UICONTROL date d’achèvement prévue] de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
+* [Définir la [!UICONTROL date d’achèvement prévue] du projet](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
+* [Vue d’ensemble de la [!UICONTROL date d’achèvement prévue] du problème](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
 ![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
@@ -269,41 +269,41 @@ Voici les valeurs possibles pour l’indicateur d’alignement de la date planif
 
 L’alignement des dates prévues est visible dans les listes et rapports des projets, des tâches et des problèmes.
 
-## [!UICONTROL Date de début planifiée]
+## [!UICONTROL Date de début prévue]
 
-La [!UICONTROL Date de début planifiée] est la date de début prévue d’un projet, d’une tâche ou d’un problème.
+La [!UICONTROL date de début prévue] est la date à laquelle un projet, une tâche ou un problème doit commencer.
 
-Selon la [!UICONTROL contrainte de tâche], vous ne pourrez peut-être pas modifier la [!UICONTROL  date de début planifiée] d’une tâche. Selon le [!UICONTROL mode de planification] du projet, vous ne pourrez peut-être pas modifier la [!UICONTROL  date de début planifiée] d’un projet.
+En fonction de la contrainte de tâche, il se peut que vous ne puissiez pas modifier la date de début prévue d’une tâche.  En fonction du [!UICONTROL mode de planification] du projet, il se peut que vous ne puissiez pas modifier la [!UICONTROL date de début prévue] d’un projet.
 
-Pour plus d’informations, voir [Présentation du projet [!UICONTROL Date de début planifiée]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
+Pour plus d’informations, voir [Vue d’ensemble de la [!UICONTROL date de début prévue du projet]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
 ![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
-## [!UICONTROL Date d’achèvement prévue]
+## [!UICONTROL Date d’achèvement prévisionnelle]
 
-La [!UICONTROL date d’achèvement prévue] est un indicateur calculé en temps réel du moment où le projet, la tâche ou le problème sera terminé. Lorsque le projet, la tâche ou le problème est marqué comme terminé, la [!UICONTROL date d’achèvement prévue] change à la date de [!UICONTROL  date d’achèvement réelle].
+La date d’achèvement prévisionnelle est un indicateur calculé en temps réel de la date d’achèvement du projet, de la tâche ou du problème.  Lorsque le projet, la tâche ou le problème est marqué comme étant terminé, la [!UICONTROL date d’achèvement prévisionnelle] devient la [!UICONTROL date d’achèvement effective].
 
-Si tout se passe bien et comme prévu, la [!UICONTROL date d’achèvement prévue] doit correspondre à la [!UICONTROL  date d’achèvement prévue]. Sinon, en raison des retards sur les tâches précédentes, la [!UICONTROL date d’achèvement prévue] peut devenir différente de la [!UICONTROL  date d’achèvement prévue].
+Si tout se passe bien et comme prévu, la date d’achèvement prévisionnelle devrait correspondre à la date d’achèvement prévue.  Sinon, en raison des retards des tâches précédentes, la [!UICONTROL date d’achèvement prévisionnelle] peut être différente de la [!UICONTROL date d’achèvement prévue].
 
-Pour plus d’informations, voir [Présentation de la [!UICONTROL date d’achèvement prévue] pour les projets, les tâches et les problèmes](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Pour plus d’informations, voir [Vue d’ensemble de la [!UICONTROL date d’achèvement prévisionnelle] pour les projets, les tâches et les problèmes](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
 ![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
-## [!UICONTROL Date de début prévue]
+## [!UICONTROL Date de début prévisionnelle]
 
-La [!UICONTROL date de début prévue] est une date en temps réel du début du projet, de la tâche ou du problème et prend en compte tous les délais. Il s’agit d’une date de début plus précise pour le projet, la tâche ou le problème que la [!UICONTROL date de début planifiée]. La [!UICONTROL Date de début planifiée] ne prend pas en compte les délais ou les dates antérieures.
+La date de début prévisionnelle est une date en temps réel à laquelle le projet, la tâche ou le problème est lancé et qui tient compte de tous les retards.  Il s’agit d’une date de début plus précise pour le projet, la tâche ou le problème que la date de début prévue.  La [!UICONTROL date de début prévue] ne tient pas compte des retards ou des dates passées.
 
-Lorsque vous planifiez un projet pour la première fois, la [!UICONTROL Date de début planifiée] et la [!UICONTROL  Date de début prévue] des tâches et du projet sont identiques. Comme des retards peuvent se produire ou que des tâches peuvent être terminées plus tôt, la [!UICONTROL date de début prévue] peut devenir différente de la [!UICONTROL  date de début prévue].
+Lorsque vous planifiez un projet pour la première fois, la [!UICONTROL date de début prévue] et la [!UICONTROL date de début prévisionnelle] des tâches et du projet sont identiques. Comme des retards peuvent survenir ou que des tâches peuvent être achevées plus tôt, la [!UICONTROL date de début prévisionnelle] peut devenir différente de la [!UICONTROL date de début prévue].
 
-Pour une tâche, une [!UICONTROL Date de début prévue] peut également différer de sa [!UICONTROL Date de début planifiée] lorsque l’un de ses prédécesseurs est en retard sur la planification.
+Pour une tâche, une [!UICONTROL date de début prévisionnelle] peut également différer de sa [!UICONTROL date de début prévue] lorsque l’une de ses tâches antérieures est en retard sur le calendrier.
 
 >[!TIP]
 >
->Vous pouvez afficher la [!UICONTROL date de début prévue] d’un problème uniquement dans une liste ou un rapport.
+>Vous pouvez afficher la [!UICONTROL date de début prévisionnelle] d’un problème uniquement dans une liste ou un rapport.
 
-Pour plus d’informations, voir [Présentation du projet [!UICONTROL Date de début prévue]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
+Pour plus d’informations, voir [Vue d’ensemble de la [!UICONTROL date de début prévisionnelle]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md) du projet.
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 

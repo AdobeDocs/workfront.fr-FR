@@ -1,6 +1,6 @@
 ---
-title:  Améliorations du projet au deuxième trimestre 2024
-description:  Améliorations du projet au deuxième trimestre 2024
+title: Améliorations du projet au deuxième trimestre 2024
+description: Améliorations du projet au deuxième trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ ht-degree: 86%
 
 ---
 
-#  Améliorations du projet au deuxième trimestre 2024
+# Améliorations du projet au deuxième trimestre 2024
 
 Cette page décrit toutes les améliorations apportées aux projets dans l’environnement de prévisualisation par la version du deuxième trimestre 2024. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
 

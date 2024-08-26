@@ -1,6 +1,6 @@
 ---
 title: Rapport sur la zone Mises à jour
-description: Le rapport Entrée de journal répertorie les mises à jour système de la zone Mises à jour des projets, tâches, problèmes et autres objets qui n’étaient auparavant disponibles que par le biais de l’API Adobe Workfront. Bien qu’il s’agisse d’un rapport avancé destiné à des cas d’utilisation spécifiques, le format plus digestible facilite la création de rapports sur l’activité de projet et les mises à jour système dans Workfront.
+description: Le rapport Entrée du journal présente les mises à jour du système à partir de la zone Mises à jour des projets, tâches, problèmes et autres objets qui n’étaient auparavant disponibles que par le biais de l’API Adobe Workfront. Bien qu’il s’agisse d’un rapport avancé destiné à des cas d’utilisation spécifiques, le format plus digeste vous permet de créer plus facilement un rapport sur l’activité du projet et des mises à jour du système dans Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
@@ -8,25 +8,25 @@ exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
 source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
 source-wordcount: '2742'
-ht-degree: 12%
+ht-degree: 99%
 
 ---
 
 # Rapport sur la zone Mises à jour
 
-Le rapport Entrée de journal répertorie les mises à jour système de la zone Mises à jour des projets, tâches, problèmes et autres objets qui n’étaient auparavant disponibles que par le biais de l’API Adobe Workfront. Bien qu’il s’agisse d’un rapport avancé destiné à des cas d’utilisation spécifiques, le format plus digestible facilite la création de rapports sur l’activité de projet et les mises à jour système dans Workfront.
+Le rapport Entrée du journal présente les mises à jour du système à partir de la zone Mises à jour des projets, tâches, problèmes et autres objets qui n’étaient auparavant disponibles que par le biais de l’API Adobe Workfront. Bien qu’il s’agisse d’un rapport avancé destiné à des cas d’utilisation spécifiques, le format plus digeste vous permet de créer plus facilement un rapport sur l’activité du projet et des mises à jour du système dans Workfront.
 
 >[!TIP]
 >
->Le rapport Entrée de journal contient uniquement des mises à jour système de la zone Mises à jour des objets. Pour signaler les commentaires laissés dans la zone Mises à jour, vous devez utiliser le rapport Remarque .\
->Pour plus d’informations sur le rapport Remarque, voir [Afficher toutes les mises à jour dans un rapport Remarque](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). ‍
+>Le rapport Entrée du journal ne contient que les mises à jour du système issues de la zone d’objets Mises à jour. Pour créer un rapport sur les commentaires laissés dans la zone Mises à jour, vous devez utiliser le rapport de notes.\
+>Pour plus d’informations sur le rapport de notes, voir [Afficher toutes les mises à jour dans un rapport de notes](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md).
 
-Le rapport Entrée de journal peut afficher :
+Le rapport Entrée du journal peut afficher les éléments suivants :
 
 * Nombre de changements de statut qui se sont produits
 * Lorsqu’une tâche a été supprimée ou un problème a été supprimé.
-* Modification des valeurs de champs personnalisés importants au cours du cycle de vie d’un projet
-* Quelles dates importantes ont changé au cours du cycle de vie d’un projet ?
+* La manière dont les valeurs des champs personnalisés importants ont changé au cours du cycle de vie d’un projet.
+* Les dates importantes qui ont changé au cours d’un projet.
 * Si la personne propriétaire d’un projet a changé.
 
 ## Conditions d’accès
@@ -49,11 +49,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> </td> 
+   <td> <p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p> <p>Accès en modification aux filtres, aux vues et aux regroupements</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Afficher les autorisations pour les objets qui contiennent les entrées de journal que vous affichez dans le rapport</p> <p>Une fois le rapport créé, vous obtiendrez les autorisations de gestion .</p> </td> 
+   <td> <p>Autorisations d’affichage pour les objets contenant les entrées du journal affichées dans le rapport</p> <p>Vous obtiendrez les autorisations de gestion du rapport après l’avoir créé.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,23 +64,23 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 ## Conditions préalables
 
-Avant d’effectuer les actions décrites dans cet article, vous devez vous assurer des éléments suivants :
+Avant de pouvoir effectuer les actions décrites dans cet article, vous devez vous assurer des points suivants :
 
-* Tous les champs (y compris les champs personnalisés) sur lesquels vous souhaitez créer des rapports sont suivis dans Workfront. Vous pouvez uniquement générer des rapports sur les données de la zone Mises à jour qui est suivie.
+* Tous les champs (y compris les champs personnalisés) sur lesquels vous souhaitez créer des rapports sont suivis dans Workfront. Vous ne pouvez créer un rapport que sur les données de la zone Mises à jour qui est suivie.
 
-  Pour savoir comment ajouter des champs dont Workfront doit effectuer le suivi, voir [Configuration des mises à jour du système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Pour savoir comment ajouter les champs que vous voulez que Workfront suive, voir [Configurer les mises à jour système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-## Rapport d’entrée de journal - Aperçu
+## Vue d’ensemble du rapport Entrée du journal
 
-Comme le système de requêtes de saisie du journal est mis à jour, il peut renvoyer un nombre important de résultats. C’est pourquoi il est recommandé de filtrer des objets spécifiques (projets, programmes, portefeuilles, groupes, etc.) lors de la création du rapport.
+Comme le rapport Entrée du journal interroge les mises à jour système, un nombre important de résultats peut être renvoyé. Par conséquent, nous vous recommandons de filtrer des objets spécifiques (projets, programmes, portfolios, groupes, etc.) lors de la création du rapport.
 
-Pour en savoir plus sur les différents types d’objets dans Workfront, voir [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Pour en savoir plus sur les différents types d’objets dans Workfront, voir [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
->Le rapport Entrée de journal renvoyant une telle quantité de données, l’exportation et la remise de rapports planifiés ne sont pas prises en charge.
+>Compte tenu de la quantité de données renvoyées par le rapport Entrée du journal, l’export et la diffusion des rapports planifiés ne sont pas pris en charge.
 
-La vue par défaut de ce rapport contient les colonnes suivantes :
+La vue par défaut de ce rapport contient les colonnes suivantes :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,12 +93,12 @@ La vue par défaut de ce rapport contient les colonnes suivantes :
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Nom du champ</strong> </td> 
-   <td> <p><span style="font-weight: normal;">Nom du champ affecté. Selon la configuration du rapport, cette colonne peut contenir État, ID de propriétaire, Nom de la tâche, Date d’achèvement prévue ou d’autres champs.</span> </p> <p><span style="font-weight: normal;">Lorsque </span> <strong>DE</strong> :<span style="font-weight: normal;"> s’affiche dans cette colonne, cela indique que le champ répertorié est un champ personnalisé.</span></p> </td> 
+   <td><strong>Nom de champ</strong> </td> 
+   <td> <p><span style="font-weight: normal;">Nom du champ concerné. Selon la façon dont vous avez configuré le rapport, cette colonne peut contenir le statut, l’identifiant de la personne propriétaire, le nom de la tâche, la date d’achèvement prévue ou d’autres champs.</span> </p> <p><span style="font-weight: normal;">Lorsque</span> <strong>DE</strong>:<span style="font-weight: normal;"> s’affiche dans cette colonne, cela indique que le champ répertorié est un champ personnalisé.</span></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Type de changement</strong> </td> 
-   <td> <p>Type de modification apportée au champ concerné. Selon les règles de filtrage que vous configurez et les actions entreprises par les utilisateurs, les éléments suivants peuvent apparaître dans ce champ :</p> 
+   <td><strong>Modifier le type</strong> </td> 
+   <td> <p>Type de modification apportée au champ affecté. En fonction des règles de filtrage que vous avez définies et des actions entreprises par les utilisateurs et utilisatrices, les éléments suivants peuvent apparaître dans ce champ :</p> 
     <ul> 
      <li> <p>Ajouter</p> </li> 
      <li> <p>Audit</p> </li> 
@@ -109,27 +109,27 @@ La vue par défaut de ce rapport contient les colonnes suivantes :
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Top ObjCode</strong> </td> 
-   <td> <p>Objet parent le plus élevé de la hiérarchie.</p> </td> 
+   <td><strong>Code objet supérieur</strong> </td> 
+   <td> <p>Objet parent le plus élevé dans la hiérarchie.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Portée</strong> </td> 
-   <td> <p>Le type d’objet qui a été modifié.</p> </td> 
+   <td> <p>Type d’objet qui a été modifié.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Date d’entrée</strong> </td> 
-   <td> <p>Date à laquelle le champ a été modifié.</p> </td> 
+   <td> <p>Date de modification du champ.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Modifié par nom</strong> </td> 
-   <td> <p>L’utilisateur qui a modifié le champ.</p> </td> 
+   <td><strong>Nom de l’éditeur ou éditrice</strong> </td> 
+   <td> <p>Utilisateur ou utilisatrice qui a modifié le champ.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour organiser les informations de ce rapport, vous pouvez utiliser le regroupement intégré appelé Projet. Le regroupement Projet vous donne un regroupement principal Nom du projet et un regroupement secondaire Date d’entrée. Vous pouvez appliquer ce groupement existant lors de la création du rapport ou l&#39;appliquer lors de la consultation du rapport.
+Pour organiser les informations dans ce rapport, vous pouvez utiliser le regroupement intégré appelé Projet. Le regroupement Projet vous donne un regroupement primaire de noms de projet et un regroupement secondaire de dates d’entrée. Vous pouvez appliquer ce regroupement existant lors de la création ou de la la visualisation du rapport.
 
-Pour savoir comment configurer les vues, les filtres et les regroupements que vous souhaitez pour votre rapport, reportez-vous à la section correspondante :
+Pour savoir comment configurer les vues, les filtres et les regroupements que vous souhaitez intégrer à votre rapport, voir la section correspondante :
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -138,25 +138,25 @@ Pour savoir comment configurer les vues, les filtres et les regroupements que vo
 </div>
 -->
 
-* [Voir les modifications d’état qui se sont produites](#see-what-status-changes-occurred)
-* [Voir à quel moment une tâche ou un problème a été supprimé](#see-when-a-task-or-issue-was-deleted)
-* [Découvrez comment les champs personnalisés ont changé au cours du cycle de vie d’un projet](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
-* [ Afficher la modification de la date d’achèvement planifiée au cours du cycle de vie d’un projet ](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
-* [Vérification de la modification du propriétaire d’un projet](#see-if-the-owner-of-a-project-changed)
+* [Voir les modifications de statut effectuées](#see-what-status-changes-occurred)
+* [Voir quand la suppression d’une tâche ou d’un problème est survenue](#see-when-a-task-or-issue-was-deleted)
+* [Voir les modifications apportées aux champs personnalisés du cycle de vie d’un projet](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
+* [Voir les modifications apportées à la date d’achèvement prévue au cours du cycle de vie d’un projet](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
+* [Voir si la personne propriétaire d’un projet a changé](#see-if-the-owner-of-a-project-changed)
 
-## Afficher les modifications d’état {#see-what-status-changes-occurred}
+## Voir les modifications de statut effectuées {#see-what-status-changes-occurred}
 
-Vous pouvez configurer le rapport Entrée de journal pour qu’il affiche :
+Vous pouvez configurer le rapport d’entrée du journal de manière à ce qu’il affiche les éléments suivants :
 
-* Nombre de modifications d’état apportées à un projet, à une tâche ou à un problème
+* Combien de modifications de statut ont été effectuées pour un projet, une tâche ou un problème.
 
-* Quel était l’état précédent avant la modification ?
-* Qui a modifié l’état
-* Lorsque le changement d’état a eu lieu
+* Quel était le statut précédent avant la modification ?
+* Qui a modifié le statut ?
+* Date de modification du statut
 
-Si vous souhaitez afficher l’intégrité d’un projet, vous pouvez également configurer le rapport afin d’afficher les mêmes informations à l’aide du champ **Condition** du projet.
+Si vous souhaitez connaître l’état de santé d’un projet, vous pouvez également configurer le rapport pour qu’il affiche ces mêmes informations à l’aide du champ **Condition** du projet.
 
-Ces informations peuvent être utilisées pour faciliter les audits et pour illustrer la planification effectuée par vous-même et votre organisation.
+Ces informations peuvent servir à faciliter les audits et illustrer la qualité de votre planification et de celle de votre organisation.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
@@ -164,17 +164,17 @@ Ces informations peuvent être utilisées pour faciliter les audits et pour illu
 
 >[!TIP]
 >
->Si vous souhaitez comparer la différence en jours entre les modifications de condition, vous pouvez utiliser l’analyse améliorée.\
->Pour en savoir plus sur l’analyse améliorée, consultez la [présentation de l’analyse améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>Si vous souhaitez comparer la différence en jours entre les modifications de condition, vous pouvez utiliser l’Analytique améliorée.\
+>Pour en savoir plus sur l’Analytique améliorée, voir [Vue d’ensemble de l’Analytique améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
-   Le créateur de rapports se charge.
+   Le Report Builder se charge.
 
-1. Dans l&#39;onglet **Colonnes (vues)** , ajoutez les colonnes suivantes :
+1. Dans l’onglet **Colonnes (Vue)**, ajoutez les colonnes suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -188,34 +188,34 @@ Ces informations peuvent être utilisées pour faciliter les audits et pour illu
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nom de champ</p> </td> 
-      <td> <p>Nom du champ affecté. Dans ce cas, <strong>status</strong> doit s’afficher dans cette colonne.</p> </td> 
+      <td> <p>Nom du champ concerné. Dans ce cas, le <strong>statut</strong> doit s’afficher dans cette colonne.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Modifier le type</p> </td> 
-      <td> <p>Le type de modification apportée au champ concerné, par exemple <strong>Ajouter</strong>, <strong>Supprimer</strong> ou <strong>Modifier</strong>.</p> </td> 
+      <td> <p>Le type de modification apportée au champ affecté, tel qu’<strong>Ajouter</strong>, <strong>Supprimer</strong>, ou <strong>Modifier</strong>.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Modifié par nom</p> </td> 
-      <td> <p>Nom de l’utilisateur qui a mis à jour l’état.</p> </td> 
+      <td> <p style="font-weight: bold;">Nom de l’éditeur ou éditrice</p> </td> 
+      <td> <p>Nom de l’utilisateur ou de l’utilisatrice qui a mis à jour le statut.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Date d’entrée</p> </td> 
-      <td> <p>Date à laquelle l’état a été modifié.</p> </td> 
+      <td> <p>Date de modification du statut.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Ancienne valeur du texte</p> </td> 
-      <td> <p>Clé du statut précédent. Voici les clés d’état des états du projet par défaut :</p> 
+      <td> <p>Clé du statut précédent. Voici les clés de statut des statuts par défaut du projet :</p> 
        <ul> 
-        <li> <p> <strong>CUR</strong> : actuel</p> </li> 
-        <li> <p><strong>DED</strong> : Mort</p> </li> 
-        <li> <p><strong>ONH</strong> : En attente</p> </li> 
-        <li> <p><strong>PLN</strong> : planification</p> </li> 
-        <li> <p><strong>CPL</strong> : Terminé</p> </li> 
-        <li> <p><strong>REQ</strong> : demandé</p> </li> 
-        <li> <p><strong>APR</strong> : Approuvé</p> </li> 
-        <li> <p><strong>REJ</strong> : rejeté</p> </li> 
-        <li> <p><strong>IDA</strong> : Idée</p> </li> 
-       </ul> <p>Si votre organisation a configuré des états personnalisés, d’autres clés d’état peuvent apparaître dans cette colonne. Pour savoir quel état personnalisé est associé à une clé d’état, contactez votre administrateur Workfront ou votre administrateur de groupe.</p> </td> 
+        <li> <p> <strong>CUR</strong> : actuel</p> </li> 
+        <li> <p><strong>DED</strong> : inactif</p> </li> 
+        <li> <p><strong>ONH</strong> : en attente</p> </li> 
+        <li> <p><strong>PLN</strong> : en planification</p> </li> 
+        <li> <p><strong>CPL</strong> : terminé</p> </li> 
+        <li> <p><strong>REQ</strong> : demandé</p> </li> 
+        <li> <p><strong>APR</strong> : approuvé</p> </li> 
+        <li> <p><strong>REJ</strong> : rejeté</p> </li> 
+        <li> <p><strong>IDA</strong> : idée</p> </li> 
+       </ul> <p>Si votre organisation a défini des statuts personnalisés, d’autres clés de statut peuvent apparaître dans cette colonne. Pour savoir quel statut personnalisé est lié à une clé de statut, contactez votre équipe d’administration Workfront ou votre administrateur ou administratrice de groupes.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nouvelle valeur de texte</p> </td> 
@@ -223,36 +223,36 @@ Ces informations peuvent être utilisées pour faciliter les audits et pour illu
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Code objet supérieur</p> </td> 
-      <td> <p>Objet parent le plus élevé pour le champ dont l’état a été modifié.</p> </td> 
+      <td> <p>Objet parent du plus haut niveau du champ dont le statut a été modifié.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Étendue</p> </td> 
-      <td> <p>Type d’objet dont l’état a changé.</p> </td> 
+      <td> <p>Type d’objet dont le statut a été modifié.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nom du problème<br>(facultatif)</p> </td> 
-      <td> <p>Nom du problème qui a été modifié.</p> </td> 
+      <td> <p>Nom du problème dont le statut a été modifié.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nom de la tâche<br>(facultatif)</p> </td> 
-      <td> <p>Nom de la tâche qui a changé d’état.</p> </td> 
+      <td> <p style="font-weight: bold;">Nom de la tâche<br> (facultatif)</p> </td> 
+      <td> <p>Nom de la tâche dont le statut a été modifié.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Pour plus d’informations sur l’ajout de colonnes, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Pour plus d’informations sur l’ajout de colonnes, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtre**, puis ajoutez la règle de filtre **Nom du champ** > **Égal** > **état**.
+1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtrage**, puis ajoutez la règle de filtrage **Nom du champ** > **Égal à** > **Statut**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
-   >Pour créer des rapports sur les modifications de condition, vous pouvez à la place ajouter la règle de filtre **Nom du champ** > **Égal** > **Condition**.
+   >Pour générer un rapport sur les changements de conditions, vous pouvez plutôt ajouter la règle de filtrage suivante : **Nom du champ** > **Égal à** > **Condition**.
 
-   Pour plus d’informations sur l’ajout de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. (Facultatif) Pour cibler davantage le rapport et réduire les temps de chargement, ajoutez une invite.
+1. (Facultatif) Pour limiter le thème du rapport et réduire les temps de chargement, ajoutez une invite.
 
    Ou
 
@@ -260,35 +260,35 @@ Ces informations peuvent être utilisées pour faciliter les audits et pour illu
 
    >[!IMPORTANT]
    >
-   >La création d’une règle de filtrage qui utilise le modificateur **Contains** peut en fait augmenter les temps de chargement. Pour cette raison, nous vous recommandons d’utiliser un modificateur différent comme **Equal** lorsque cela est possible pour filtrer un projet spécifique ou un identifiant d’objet de niveau supérieur.
+   >La création d’une règle de filtrage utilisant le modificateur Contient peut entraîner une augmentation des temps de chargement. **** Pour cette raison, nous vous recommandons d’utiliser un modificateur différent, tel qu’**Égal à**, lorsque cela est possible pour filtrer un projet spécifique ou un identifiant d’objet de niveau supérieur.
 
-   Pour savoir comment ajouter une invite, voir [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Pour savoir comment ajouter une invite, voir [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Dans l&#39;onglet **Groupings**, cliquez sur **Appliquer un groupement existant**, puis sélectionnez **Projet**.
+1. Dans l’onglet **Regroupements**, cliquez sur **Appliquer un regroupement existant** et sélectionnez **Projet**.
 
-   Pour plus d’informations sur l’ajout de groupements, consultez la [présentation des groupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Pour plus d’informations sur l’ajout de regroupements, voir [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Cliquez sur **Enregistrer + Fermer**.
 
    Votre nouveau rapport se charge.
 
-## Afficher le moment où une tâche ou un problème a été supprimé {#see-when-a-task-or-issue-was-deleted}
+## Voir quand une tâche ou un problème a été supprimé {#see-when-a-task-or-issue-was-deleted}
 
-Vous pouvez configurer le rapport Entrée de journal pour qu’il affiche :
+Vous pouvez configurer le rapport d’entrée du journal de manière à ce qu’il affiche les éléments suivants :
 
-* Tâches ou problèmes supprimés
-* Qui a supprimé une tâche ou un problème
+* Les tâches ou problèmes qui ont fait l’objet d’une suppression.
+* Les personnes qui ont supprimé une tâche ou un problème.
 
-Pour savoir quand une tâche ou un problème a été supprimé :
+Pour savoir quand la suppression d’une tâche ou d’un problème est survenue :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
-   Le créateur de rapports se charge.
+   Le Report Builder se charge.
 
-1. Dans l&#39;onglet **Colonnes (vues)** , ajoutez les colonnes suivantes :
+1. Dans l’onglet **Colonnes (Vue)**, ajoutez les colonnes suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -306,36 +306,36 @@ Pour savoir quand une tâche ou un problème a été supprimé :
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Modifier le type</p> </td> 
-      <td> <p>Le type de changement qui s’est produit. La modification <strong>Supprimer</strong> s’affiche dans cette colonne.</p> </td> 
+      <td> <p>Type de modification qui a été réalisée. La modification <strong>Supprimer</strong> s’affiche dans cette colonne.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Date d’entrée</p> </td> 
-      <td> <p>Date à laquelle la tâche ou le problème a été supprimé.</p> </td> 
+      <td> <p>Date de la suppression de la tâche ou du problème.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Modifié par nom</p> </td> 
-      <td> <p>Nom de l’utilisateur qui a supprimé la tâche ou le problème.</p> </td> 
+      <td> <p style="font-weight: bold;">Nom de l’éditeur ou éditrice</p> </td> 
+      <td> <p>Nom de l’utilisateur ou de l’utilisatrice qui a supprimé la tâche ou le problème.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nom du projet</p> </td> 
-      <td> <p>Nom du projet pour lequel des tâches ou des problèmes ont été supprimés.</p> </td> 
+      <td> <p>Nom du projet dont les tâches ou les problèmes ont fait l’objet d’une suppression.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Pour plus d’informations sur l’ajout de colonnes, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Pour plus d’informations sur l’ajout de colonnes, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Dans l&#39;onglet **Filtres**, cliquez sur **Ajouter une règle de filtre**, puis ajoutez les filtres suivants :
+1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtrage**, puis ajoutez les filtres suivants :
 
-   * **Type de modification** > **Égal** > **Supprimer**
-   * **ID de projet** > **Égal** > **`<project>`**
+   * **Type de modification** > **Égal à** > **Supprimer**
+   * **Identifiant du projet** > **Égal à** > **`<project>`**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
-   Pour plus d’informations sur l’ajout de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. (Facultatif) Pour cibler davantage le rapport et réduire les temps de chargement, ajoutez une invite.
+1. (Facultatif) Pour limiter le thème du rapport et réduire les temps de chargement, ajoutez une invite.
 
    Ou
 
@@ -343,36 +343,36 @@ Pour savoir quand une tâche ou un problème a été supprimé :
 
    >[!IMPORTANT]
    >
-   >La création d’une règle de filtrage qui utilise le modificateur **Contains** peut en fait augmenter les temps de chargement. Pour cette raison, nous vous recommandons d’utiliser un modificateur différent comme **Equal** lorsque cela est possible pour filtrer un projet spécifique ou un identifiant d’objet de niveau supérieur.
+   >La création d’une règle de filtrage utilisant le modificateur Contient peut entraîner une augmentation des temps de chargement. **** Pour cette raison, nous vous recommandons d’utiliser un modificateur différent, tel qu’**Égal à**, lorsque cela est possible pour filtrer un projet spécifique ou un identifiant d’objet de niveau supérieur.
 
-   Pour savoir comment ajouter une invite, voir [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Pour savoir comment ajouter une invite, voir [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. (Facultatif) Dans l’onglet **Groupings**, cliquez sur **Appliquer un groupement existant**, puis sélectionnez **Projet**.
+1. (Facultatif) Dans l’onglet **Regroupements**, cliquez sur le menu **Appliquer un regroupement existant** et sélectionnez **Projet**.
 
-   Pour plus d’informations sur l’ajout de groupements, consultez la [présentation des groupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Pour plus d’informations sur l’ajout de regroupements, voir [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Cliquez sur **Enregistrer + Fermer**.
 
    Votre nouveau rapport se charge.
 
-## Découvrez comment les champs personnalisés ont changé au cours du cycle de vie d’un projet {#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle}
+## Découvrir comment des champs personnalisés ont évolué au cours du cycle de vie d’un projet {#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle}
 
-Vous pouvez effectuer le suivi des modifications importantes apportées aux champs au cours du projet. Pour ce faire, vous pouvez configurer l’entrée du journal pour effectuer le suivi :
+Vous pouvez suivre les modifications importantes des champs au cours du projet. Pour ce faire, vous pouvez configurer l’entrée du journal pour suivre :
 
-* Si certains champs personnalisés ont été ajoutés, mis à jour ou modifiés
-* Lorsque ces modifications se sont produites
-* Qui a apporté les modifications
+* si certains champs personnalisés ont été ajoutés, mis à jour ou modifiés ;
+* quand ces modifications ont été effectuées ;
+* qui a effectué les modifications.
 
-Pour découvrir comment les champs personnalisés ont changé au cours du cycle de vie d’un projet :
+Pour découvrir comment des champs personnalisés ont évolué au cours du cycle de vie d’un projet :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
-   Le créateur de rapports se charge.
+   Le Report Builder se charge.
 
-1. Dans l&#39;onglet **Colonnes (vues)** , ajoutez les colonnes suivantes :
+1. Dans l’onglet **Colonnes (Vue)**, ajoutez les colonnes suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -386,64 +386,64 @@ Pour découvrir comment les champs personnalisés ont changé au cours du cycle 
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nom de champ</p> </td> 
-      <td> <p>Nom du champ personnalisé affecté.</p> <p><span style="font-weight: normal;">Lorsque </span> <strong>DE</strong> :<span style="font-weight: normal;"> s’affiche dans cette colonne, cela indique que le champ répertorié est un champ personnalisé.</span></p> </td> 
+      <td> <p>Nom du champ personnalisé affecté.</p> <p><span style="font-weight: normal;">Lorsque</span> <strong>DE</strong>:<span style="font-weight: normal;"> s’affiche dans cette colonne, cela indique que le champ répertorié est un champ personnalisé.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Modifier le type</p> </td> 
-      <td> <p>Le type de modification apportée au champ concerné, par exemple <strong>Ajouter</strong>, <strong>Supprimer</strong> ou <strong>Modifier</strong>.</p> </td> 
+      <td> <p>Le type de modification apportée au champ affecté, tel qu’<strong>Ajouter</strong>, <strong>Supprimer</strong>, ou <strong>Modifier</strong>.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Modifié par nom</p> </td> 
-      <td> <p>Nom de l’utilisateur qui a mis à jour le champ personnalisé.</p> </td> 
+      <td> <p style="font-weight: bold;">Nom de l’éditeur ou éditrice</p> </td> 
+      <td> <p>Nom de l’utilisateur ou de l’utilisatrice qui a mis à jour le champ personnalisé.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Date d’entrée</p> </td> 
-      <td> <p>Date à laquelle la valeur du champ personnalisé a changé.</p> <p>Vous devez trier par ce champ dans l’ordre décroissant.</p> </td> 
+      <td> <p>Date à laquelle la valeur du champ personnalisé a été modifiée.</p> <p>Nous vous recommandons de trier ce champ par ordre décroissant.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Ancienne valeur numérique</p> </td> 
-      <td> <p>La valeur du nombre précédent dans le champ personnalisé.</p> </td> 
+      <td> <p>Valeur numérique précédente du champ personnalisé.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nouvelle valeur numérique</p> </td> 
-      <td> <p>La valeur du nombre actuel dans le champ personnalisé.</p> </td> 
+      <td> <p>Valeur numérique actuelle du champ personnalisé.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Ancienne valeur de la date</p> </td> 
-      <td> <p>La valeur de date précédente dans le champ personnalisé.</p> </td> 
+      <td> <p>Valeur de date précédente du champ personnalisé.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nouvelle valeur de date</p> </td> 
-      <td> <p>La valeur de date actuelle dans le champ personnalisé.</p> </td> 
+      <td> <p>Valeur de date actuelle du champ personnalisé.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Ancienne valeur du texte</p> </td> 
-      <td> <p>La valeur de texte précédente dans le champ personnalisé.</p> </td> 
+      <td> <p>Valeur de texte précédente du champ personnalisé.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nouvelle valeur de texte</p> </td> 
-      <td> <p>La valeur de texte actuelle dans le champ personnalisé.</p> <p>Si le champ personnalisé est un champ de type caractère, la colonne <strong>Nouvelle valeur de texte</strong> affiche l’identifiant de l’objet.</p> </td> 
+      <td> <p>Valeur de texte actuelle du champ personnalisé.</p> <p>Si le champ personnalisé est un champ de saisie semi-automatique, la colonne <strong>Nouvelle valeur de texte</strong> affiche l’ID de l’objet.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Pour plus d’informations sur l’ajout de colonnes, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Pour plus d’informations sur l’ajout de colonnes, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Dans l&#39;onglet **Filtres**, cliquez sur **Ajouter une règle de filtre**, puis ajoutez les filtres suivants :
+1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtrage**, puis ajoutez les filtres suivants :
 
-   * **Nom du champ d’entrée de journal** > **Contient** > **DE**
+   * **Nom du champ de l’entrée du journal** > **Contient** > **DE**
 
      >[!TIP]
      >
-     >Pour limiter ce rapport à des champs personnalisés spécifiques, ajoutez la règle de filtrage **Nom du champ d’entrée du journal** > **Égal** > **`<custom field>`**.
+     >Pour limiter ce rapport à des champs personnalisés spécifiques, ajoutez la règle de filtrage **Nom du champ de l’entrée du journal** > **Égal à** > **`<custom field>`**.
 
-   * **ID de projet** > **Égal** > **`<project>`**
+   * **Identifiant du projet** > **Égal à** > **`<project>`**
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
-   Pour plus d’informations sur l’ajout de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. (Facultatif) Pour cibler davantage le rapport et réduire les temps de chargement, ajoutez une invite.
+1. (Facultatif) Pour limiter le thème du rapport et réduire les temps de chargement, ajoutez une invite.
 
    Ou
 
@@ -451,30 +451,30 @@ Pour découvrir comment les champs personnalisés ont changé au cours du cycle 
 
    >[!IMPORTANT]
    >
-   >La création d’une règle de filtrage qui utilise le modificateur **Contains** peut en fait augmenter les temps de chargement. Pour cette raison, nous vous recommandons d’utiliser un modificateur différent comme **Equal** lorsque cela est possible pour filtrer un projet spécifique ou un identifiant d’objet de niveau supérieur.
+   >La création d’une règle de filtrage utilisant le modificateur Contient peut entraîner une augmentation des temps de chargement. **** Pour cette raison, nous vous recommandons d’utiliser un modificateur différent, tel qu’**Égal à**, lorsque cela est possible pour filtrer un projet spécifique ou un identifiant d’objet de niveau supérieur.
 
-   Pour savoir comment ajouter une invite, voir [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Pour savoir comment ajouter une invite, voir [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Dans l&#39;onglet **Groupings**, cliquez sur **Appliquer un groupement existant**, puis sélectionnez **Projet**.
+1. Dans l’onglet **Regroupements**, cliquez sur **Appliquer un regroupement existant** et sélectionnez **Projet**.
 
-   Pour plus d’informations sur l’ajout de groupements, consultez la [présentation des groupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Pour plus d’informations sur l’ajout de regroupements, voir [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Cliquez sur **Enregistrer + Fermer**.
 
    Votre nouveau rapport se charge.
 
-## Afficher la modification de la date d’achèvement prévue au cours du cycle de vie d’un projet {#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle}
+## Découvrir comment la date d’achèvement prévue a évolué au cours du cycle de vie d’un projet {#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle}
 
-Vous pouvez configurer le rapport Entrée de journal pour qu’il indique à quelle fréquence la date d’achèvement planifiée change au cours de la vie d’un projet.
+Vous pouvez configurer le rapport d’entrée du journal pour montrer à quelle fréquence la date d’achèvement prévue change au cours de la vie d’un projet.
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
-   Le créateur de rapports se charge.
+   Le Report Builder se charge.
 
-1. Dans l&#39;onglet **Colonnes (vues)** , ajoutez les colonnes suivantes :
+1. Dans l’onglet **Colonnes (Vue)**, ajoutez les colonnes suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -488,63 +488,63 @@ Vous pouvez configurer le rapport Entrée de journal pour qu’il indique à que
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nom de champ</p> </td> 
-      <td> <p>Nom du champ affecté.</p> <p><span style="font-weight: normal;">Lorsque </span> <strong>DE</strong> :<span style="font-weight: normal;"> s’affiche dans cette colonne, cela indique que le champ répertorié est un champ personnalisé.</span></p> </td> 
+      <td> <p>Nom du champ concerné.</p> <p><span style="font-weight: normal;">Lorsque</span> <strong>DE</strong>:<span style="font-weight: normal;"> s’affiche dans cette colonne, cela indique que le champ répertorié est un champ personnalisé.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Modifier le type</p> </td> 
-      <td>Type de modification qui s’est produite, par exemple <strong>Add</strong>, <strong>Delete</strong> ou <strong>Edit</strong>.</td> 
+      <td>Type de changement qui s’est produit, tel que <strong>Ajouter</strong>, <strong>Supprimer</strong>, ou <strong>Modifier</strong>.</td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Modifié par nom</p> </td> 
-      <td> <p>Nom de l’utilisateur qui a mis à jour la date d’achèvement prévue du projet.</p> </td> 
+      <td> <p style="font-weight: bold;">Nom de l’éditeur ou éditrice</p> </td> 
+      <td> <p>Nom de l’utilisateur ou de l’utilisatrice qui a mis à jour la date d’achèvement prévue du projet.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Date d’entrée</p> </td> 
-      <td> <p>Date à laquelle la date d’achèvement prévue du projet a été modifiée.</p> <p>Vous devez trier par ce champ dans l’ordre décroissant.</p> </td> 
+      <td> <p>Date à laquelle la date d’achèvement prévue du projet a été modifiée.</p> <p>Nous vous recommandons de trier ce champ par ordre décroissant.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Code objet supérieur</p> </td> 
-      <td> <p>Objet parent le plus élevé pour le champ dont la date de fin planifiée a été modifiée.</p> </td> 
+      <td> <p>Objet parent du plus haut niveau du champ dont la date d’achèvement prévue a été modifiée.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Étendue</p> </td> 
-      <td> <p>Objet dont la date de fin planifiée a été modifiée.</p> </td> 
+      <td> <p>Objet dont la date d’achèvement prévue a été modifiée.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Ancienne valeur de la date</p> </td> 
-      <td> <p>Valeur précédente de la date d’achèvement planifiée.</p> </td> 
+      <td> <p>Valeur précédente de la date d’achèvement prévue.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nouvelle valeur de date</p> </td> 
-      <td> <p>Valeur actuelle de la date d’achèvement planifiée.</p> </td> 
+      <td> <p>Valeur actuelle de la date d’achèvement prévue.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nom du projet</p> <p>(Facultatif)</p> </td> 
-      <td> <p>Nom du projet pour lequel la date d’achèvement planifiée a été modifiée.</p> </td> 
+      <td> <p>Nom du projet dont la date d’achèvement prévue a été modifiée.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nom de la tâche</p> <p>(Facultatif)</p> </td> 
-      <td> <p>Nom des tâches du projet pour lesquelles la date d’achèvement planifiée a été modifiée.</p> </td> 
+      <td> <p>Nom des tâches du projet dont la date d’achèvement prévue a été modifiée.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nom de l'événement</p> <p>(Facultatif)</p> </td> 
-      <td>Nom des problèmes du projet pour lesquels la date d’achèvement planifiée a été modifiée.</td> 
+      <td> <p style="font-weight: bold;">Nom de l’événement</p> <p>(Facultatif)</p> </td> 
+      <td>Nom des problèmes du projet dont la date d’achèvement prévue a été modifiée.</td> 
      </tr> 
     </tbody> 
    </table>
 
-   Pour plus d’informations sur l’ajout de colonnes, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Pour plus d’informations sur l’ajout de colonnes, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Dans l&#39;onglet **Filtres**, cliquez sur **Ajouter une règle de filtre**, puis ajoutez ce qui suit :
+1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtrage**, puis ajoutez ce qui suit :
 
-   * **Nom du champ** > **Égal** > **Date**
-   * **ID de projet** > **Égal** > **`<project>`**
+   * **Nom du champ** > **Égal à** > **Date**
+   * **Identifiant du projet** > **Égal à** > **`<project>`**
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   Pour plus d’informations sur l’ajout de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. (Facultatif) Pour cibler davantage le rapport et réduire les temps de chargement, ajoutez une invite.
+1. (Facultatif) Pour limiter le thème du rapport et réduire les temps de chargement, ajoutez une invite.
 
    Ou
 
@@ -552,30 +552,30 @@ Vous pouvez configurer le rapport Entrée de journal pour qu’il indique à que
 
    >[!IMPORTANT]
    >
-   >La création d’une règle de filtrage qui utilise le modificateur **Contains** peut en fait augmenter les temps de chargement. Pour cette raison, nous vous recommandons d’utiliser un modificateur différent comme **Equal** lorsque cela est possible pour filtrer un projet spécifique ou un identifiant d’objet de niveau supérieur.
+   >La création d’une règle de filtrage utilisant le modificateur Contient peut entraîner une augmentation des temps de chargement. **** Pour cette raison, nous vous recommandons d’utiliser un modificateur différent, tel qu’**Égal à**, lorsque cela est possible pour filtrer un projet spécifique ou un identifiant d’objet de niveau supérieur.
 
-   Pour savoir comment ajouter une invite, voir [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Pour savoir comment ajouter une invite, voir [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Dans l&#39;onglet **Groupings**, cliquez sur **Appliquer un groupement existant**, puis sélectionnez **Projet**.
+1. Dans l’onglet **Regroupements**, cliquez sur **Appliquer un regroupement existant** et sélectionnez **Projet**.
 
-   Pour plus d’informations sur l’ajout de groupements, consultez la [présentation des groupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Pour plus d’informations sur l’ajout de regroupements, voir [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Cliquez sur **Enregistrer + Fermer**.
 
    Votre nouveau rapport se charge.
 
-## Vérification de la modification du propriétaire d’un projet {#see-if-the-owner-of-a-project-changed}
+## Voir si la personne propriétaire d’un projet a changé {#see-if-the-owner-of-a-project-changed}
 
-Vous pouvez configurer le rapport Entrée de journal pour qu’il indique le nombre de fois où le propriétaire du projet (ou le responsable de projet) change au cours de la vie d’un projet.
+Vous pouvez configurer le rapport d’entrée du journal pour montrer combien de fois la personne propriétaire du projet, ou la personne chargée de la gestion du projet, change au cours de la vie d’un projet.
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
-   Le créateur de rapports se charge.
+   Le Report Builder se charge.
 
-1. Dans l&#39;onglet **Colonnes (vues)** , ajoutez les colonnes suivantes :
+1. Dans l’onglet **Colonnes (Vue)**, ajoutez les colonnes suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -589,51 +589,51 @@ Vous pouvez configurer le rapport Entrée de journal pour qu’il indique le nom
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nom de champ</p> </td> 
-      <td>Nom du champ affecté. <strong>ownerID</strong> s’affiche dans cette colonne.</td> 
+      <td>Nom du champ concerné. La valeur <strong>ownerID</strong> s’affiche dans cette colonne.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Modifier le type</p> </td> 
-      <td> <p>Type de modification qui s’est produite, par exemple <strong>Add</strong>, <strong>Delete</strong> ou <strong>Edit</strong>.</p> </td> 
+      <td> <p>Type de changement qui s’est produit, tel que <strong>Ajouter</strong>, <strong>Supprimer</strong>, ou <strong>Modifier</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Code objet supérieur</p> </td> 
-      <td> <p>Objet parent le plus élevé du projet auquel le propriétaire du projet a été mis à jour.</p> </td> 
+      <td> <p>Objet parent de plus haut niveau du projet dont la personne propriétaire a été mise à jour.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Date d’entrée</p> </td> 
-      <td>Date à laquelle le propriétaire du projet a été modifié.<br>Vous devez trier ce champ par ordre décroissant.</td> 
+      <td>Date à laquelle la personne propriétaire du projet a été modifiée.<br>Vous devez trier ce champ par ordre décroissant.</td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Modifié par nom</p> </td> 
-      <td> <p>Nom de l’utilisateur qui a mis à jour le propriétaire du projet.</p> </td> 
+      <td> <p style="font-weight: bold;">Nom de l’éditeur ou éditrice</p> </td> 
+      <td> <p>Nom de l’utilisateur ou de l’utilisatrice qui a mis à jour la personne propriétaire du projet.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Infos supplémentaires 1</p> </td> 
-      <td> <p>Propriétaire actuel du projet.</p> </td> 
+      <td> <p>Personne propriétaire actuelle du projet.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Infos supplémentaires 2</p> </td> 
-      <td> <p>Propriétaire précédent du projet sur le projet.</p> </td> 
+      <td> <p>Précédente personne propriétaire du projet.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nom du projet</p> </td> 
-      <td> <p>Le champ Propriétaire du projet a été mis à jour.</p> </td> 
+      <td> <p>Projet dont le champ Personne propriétaire a été mis à jour.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Pour plus d’informations sur l’ajout de colonnes, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Pour plus d’informations sur l’ajout de colonnes, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Dans l&#39;onglet **Filtres**, cliquez sur **Ajouter une règle de filtre**, puis ajoutez ce qui suit :
+1. Dans l’onglet **Filtres**, cliquez sur **Ajouter une règle de filtrage**, puis ajoutez ce qui suit :
 
-   * **Nom du champ** > **Égal** > **propriétaireID**
-   * **ID de projet** > **Égal** > **`<project name>`**
+   * **Nom du champ** > **Égal à** > **ownerID**
+   * **Identifiant du projet** > **Égal à** > **`<project name>`**
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 
-   Pour plus d’informations sur l’ajout de filtres, voir [Présentation des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Pour plus d’informations sur l’ajout de filtres, voir [Vue d’ensemble des filtres](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. (Facultatif) Pour cibler davantage le rapport et réduire les temps de chargement, ajoutez une invite.
+1. (Facultatif) Pour limiter le thème du rapport et réduire les temps de chargement, ajoutez une invite.
 
    Ou
 
@@ -641,13 +641,13 @@ Vous pouvez configurer le rapport Entrée de journal pour qu’il indique le nom
 
    >[!IMPORTANT]
    >
-   >La création d’une règle de filtrage qui utilise le modificateur **Contains** peut en fait augmenter les temps de chargement. Pour cette raison, nous vous recommandons d’utiliser un modificateur différent comme **Equal** lorsque cela est possible pour filtrer un projet spécifique ou un identifiant d’objet de niveau supérieur.
+   >La création d’une règle de filtrage utilisant le modificateur Contient peut entraîner une augmentation des temps de chargement. **** Pour cette raison, nous vous recommandons d’utiliser un modificateur différent, tel qu’**Égal à**, lorsque cela est possible pour filtrer un projet spécifique ou un identifiant d’objet de niveau supérieur.
 
-   Pour savoir comment ajouter une invite, voir [Ajout d’une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Pour savoir comment ajouter une invite, voir [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. (Facultatif) Dans l’onglet **Groupings**, cliquez sur **Appliquer un groupement existant**, puis sélectionnez **Projet**.
+1. (Facultatif) Dans l’onglet **Regroupements**, cliquez sur le menu **Appliquer un regroupement existant** et sélectionnez **Projet**.
 
-   Pour plus d’informations sur l’ajout de groupements, consultez la [présentation des groupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Pour plus d’informations sur l’ajout de regroupements, voir [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Cliquez sur **Enregistrer + Fermer**.
 

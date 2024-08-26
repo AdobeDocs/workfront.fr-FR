@@ -13,7 +13,7 @@ exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
 source-git-commit: 352eaa63638504d0114803fbca640a8eb2745d57
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ Cette section contient les articles suivants :
 * [Adobe I/O des modules d’événements](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
 * [Modules [!DNL Adobe Journey Optimizer]](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Modules Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
-* [Modules Adobe Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Modules Adobe Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Photoshop] modules](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
 * [[!DNL Adobe Target] modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)

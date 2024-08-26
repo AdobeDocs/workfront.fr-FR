@@ -36,7 +36,7 @@ En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez cr�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -155,8 +155,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
       <li><b>Entreprise</b> : entreprise de l’utilisateur ou de l’utilisatrice. Les personnes ne peuvent être associées qu’à une seule entreprise. Vous devez créer une entreprise avant de pouvoir l’associer à une personne. Seules les entreprises actives sont affichées dans la liste. Pour plus d’informations sur la création d’entreprises, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Créer et modifier des entreprises</a>.</li> 
       <li><b>Rend compte à :</b> si vous avez spécifié une entreprise pour l’utilisateur ou l’utilisatrice, vous pouvez également indiquer la personne responsable direct de l’utilisateur ou de l’utilisatrice dans ce champ. Un utilisateur ou une utilisatrice ne peut avoir qu’une seule personne responsable. Ce champ ne s’affiche pas si l’utilisateur ou l’utilisatrice n’est pas d’abord associé à une entreprise. </li> 
       <li><b>Personnes subordonnées :</b> si vous avez spécifié une entreprise pour l’utilisateur ou l’utilisatrice, vous pouvez également indiquer les personnes subordonnées de l’utilisateur ou de l’utilisatrice. Un utilisateur ou une utilisatrice peut avoir plusieurs personnes subordonnées. Ce champ ne s’affiche pas si l’utilisateur ou l’utilisatrice n’est pas d’abord associé à une entreprise.</li> 
-      <li><b>Équipe principale</b> : spécifiez l’équipe principale de l’utilisateur ou de l’utilisatrice. Les personnes ne peuvent avoir qu’une seule équipe principale.
-L’équipe principale est importante lors de l’attribution d’un modèle de disposition ou de la définition du bouton Travailler sur ce projet pour les tâches et les problèmes affectés à l’utilisateur ou à l’utilisatrice. </li> 
+      <li><b>Équipe principale</b> : spécifiez l’équipe principale de l’utilisateur ou de l’utilisatrice. Les personnes ne peuvent avoir qu’une seule équipe principale. L’équipe principale est importante lors de l’attribution d’un modèle de disposition ou de la définition du bouton Travailler sur ce projet pour les tâches et les problèmes affectés à l’utilisateur ou à l’utilisatrice. </li> 
       <li><b>Autres équipes</b> : les utilisateurs et utilisatrices peuvent appartenir à plusieurs équipes. Un utilisateur ou une utilisatrice peut afficher les tâches affectées à l’une de ses équipes dans sa zone d’accueil. </li> 
       <li> <p><b>Groupe principal :</b> sélectionnez un groupe approprié pour affecter l’utilisateur ou l’utilisatrice. La personne peut ainsi accéder aux objets partagés avec le groupe. Vous pouvez également partager des modèles de disposition avec le groupe principal de l’utilisateur ou de l’utilisatrice.</p> <p>Il s’agit d’un champ obligatoire. Chaque personne doit être associée à un groupe principal. Si vous n’en sélectionnez pas un, votre groupe est désigné comme groupe principal de la nouvelle personne.</p> <p><b>NOTE</b> :</p> 
       <p> Vous ne pouvez affecter un groupe à une personne que si l’une des conditions suivantes est remplie :</p>
@@ -217,7 +216,6 @@ L’équipe principale est importante lors de l’attribution d’un modèle de 
    Les exceptions de planning, les congés éventuels et la valeur du temps de travail peuvent affecter la disponibilité de la personne.
 
    Workfront calcule la disponibilité d’une personne en fonction des préférences de gestion des ressources dans votre zone de configuration.
-
 
    Si les préférences de gestion des ressources au niveau du système sont définies sur le planning de la personne, la valeur que vous spécifiez ici est ignorée et la personne est considérée comme étant disponible selon ce qui est spécifié dans son planning.
 

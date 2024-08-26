@@ -11,7 +11,7 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ Vous devez également ouvrir certains ports pour que les e-mails soient cryptés
 
 Si votre entreprise dispose de la formule Entreprise, vous pouvez également configurer deux listes autorisées Workfront :
 
-* **Liste autorisée d’e-mails** : vous permet de contrôler où les utilisateurs et les utilisatrices peuvent envoyer par e-mail des données stockées dans Workfront. Pour plus d’informations, voir [Configurer votre liste autorisée d’e-mails](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **Liste autorisée d’e-mails : vous permet de contrôler où les utilisateurs et les utilisatrices peuvent envoyer par e-mail des données stockées dans Workfront.** Pour plus d’informations, voir [Configurer votre liste autorisée d’e-mails](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 * **Liste autorisée d’adresses IP** : limite l’accès à Workfront à 45 adresses IP ou plages d’adresses IP que vous spécifiez, fournissant ainsi une couche de sécurité supplémentaire pour l’application Workfront. Pour plus d’informations, voir [Limiter l’accès à Adobe Workfront en fonction de l’adresse IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Localiser votre cluster Workfront
@@ -62,7 +62,7 @@ Pour localiser le cluster de votre entreprise :
 {{step-1-to-setup}}
 
 1. Dans la navigation de gauche, cliquez sur **Système**, puis sélectionnez **Infos client**.
-1. Recherchez le champ **Configuration du cluster** dans le coin supérieur droit de la page. Le cluster de votre entreprise est répertorié ici.
+1. Recherchez le champ Configuration du cluster dans le coin supérieur droit de la page. **** Le cluster de votre entreprise est répertorié ici.
 
    CL01 fait référence au cluster 1, CL02 au cluster 2, etc.
 
@@ -206,7 +206,7 @@ Si votre environnement de production se trouve sur le cluster 6, ajoutez les ad
     </ul> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Pour utiliser le service de messagerie Mailgun</td> 
+   <td role="rowheader">Pour utiliser le service de messagerie Mailgun</td> 
    <td> 
     <ul> 
      <li>143.55.228.56 </li> 
@@ -482,7 +482,7 @@ Si votre entreprise utilise le filtrage réseau sortant, ajoutez les domaines su
 * https://cdn.pendo.io/
 * *.static.workfront.com
 
-  Il s’agit d’un domaine statique qui étend tous les domaines suivants. Vous pouvez ajouter des domaines individuels si vous préférez :
+  Il s’agit d’un domaine statique qui englobe tous les domaines suivants. Vous pouvez ajouter des domaines individuels si vous préférez :
 
    * mfe.static.workfront.com
    * mfe-c.static.workfront.com

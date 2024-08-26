@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
-title: Scénarios dans  [!DNL Adobe]  Workfront Fusion
+title: Scénarios dans [!DNL Adobe]  Workfront Fusion
 description: Adobe Workfront Fusion nécessite une licence Adobe Workfront Fusion et une licence Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
@@ -12,7 +12,7 @@ exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
 source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -43,5 +43,5 @@ Cette section contient les articles suivants :
 * [Exemple de scénario [!DNL Adobe Workfront Fusion] : connecter l’adresse e-mail, l’[!UICONTROL analyseur de texte] et  [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Restaurer une version de scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Copier des modules ou des scénarios dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-* [Mise à jour d’un module vers une nouvelle version dans un scénario  [!DNL Adobe Workfront Fusion] ](../../workfront-fusion/scenarios/update-module-to-new-version.md)
+* [Mettre à jour un module vers une nouvelle version dans un scenario  [!DNL Adobe Workfront Fusion] ](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Afficher et gérer les scénarios verrouillés dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)

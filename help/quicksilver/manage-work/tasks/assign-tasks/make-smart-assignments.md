@@ -9,7 +9,7 @@ exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
 source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 76%
+ht-degree: 80%
 
 ---
 
@@ -79,7 +79,7 @@ Les affectations intelligentes sont disponibles dans la plupart des emplacements
    * Champ Affectations pour un élément de la zone Accueil
    * Tâche ou problème dans l’équilibreur de charge de travail
 
-1. Placez le curseur dans le champ Affectations et attendez deux secondes.
+1. Placez le curseur dans le champ d’affectation et attendez deux secondes.
 
    Pour les problèmes, les affectations intelligentes s’affichent dans les sections suivantes :
 

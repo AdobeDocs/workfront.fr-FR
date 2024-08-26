@@ -11,7 +11,7 @@ exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '5201'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Les tableaux suivants répertorient toutes les notifications d’événements Ad
 
 >[!NOTE]
 >
->Les notifications dont la valeur est &quot;Actif&quot; dans la colonne État par défaut sont actives par défaut pour les notifications instantanées et quotidiennes, sauf indication contraire.
+>Sauf indication contraire, les notifications dont la valeur dans la colonne État par défaut est « Actif » sont actives par défaut pour les notifications instantanées et quotidiennes.
 
 ## Action nécessaire
 
@@ -46,7 +46,7 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using
  <col> 
  <thead> 
   <tr> 
-   <th>Type d'objet</th> 
+   <th>Type d’objet</th> 
    <th>Événement</th> 
    <th>Destinataire</th> 
    <th>Description</th> 
@@ -56,7 +56,7 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using
  <tbody> 
   <tr> 
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
-   <td> <p>Demande d'accès</p> </td> 
+   <td> <p>Demande d’accès</p> </td> 
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td> <p>Quelqu’un me demande un accès</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -84,28 +84,28 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Événement en attente d'approbation</p> </td> 
+   <td> <p>Événement en attente d’approbation</p> </td> 
    <td> <p>Approbateurs</p> </td> 
-   <td> <p>Je dois approuver un problème.</p> <p>Les utilisateurs et les utilisatrices qui reçoivent une notification par e-mail pour cet événement varient selon que le paramètre « L’approbateur ou l’approbatrice ne doit pas nécessairement faire partie de l’équipe du projet (pour les processus d’approbation incluant un rôle » est activé ou désactivé (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres d’approbation globaux</a>). </p> <p>Si cette option est activée</strong>, une notification par e-mail est envoyée à tous les utilisateurs et à toutes les utilisatrices du système ayant la fonction « Approbateur ou approbatrice ».</p> <p>Si cette option est désactivée</strong>, seules les personnes membres de l’équipe du projet ayant la fonction « Approbateur ou approbatrice » reçoivent une notification par e-mail.</p> <p>Une notification est envoyée si le projet est au statut Planification ou Actuel. </p> </td> 
+   <td> <p>Je dois approuver un problème.</p> <p>Les utilisateurs et les utilisatrices qui reçoivent une notification par e-mail pour cet événement varient selon que le paramètre « L’approbateur ou l’approbatrice ne doit pas nécessairement faire partie de l’équipe du projet (pour les processus d’approbation incluant un rôle)» est activé ou désactivé comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres d’approbation globaux</a>. </p> <p>Si cette option est activée</strong>, une notification par e-mail est envoyée à tous les utilisateurs et à toutes les utilisatrices du système ayant la fonction « Approbateur ou approbatrice ».</p> <p>Si cette option est désactivée</strong>, seules les personnes membres de l’équipe du projet ayant la fonction « Approbateur ou approbatrice » reçoivent une notification par e-mail.</p> <p>Une notification est envoyée si le projet est au statut Planification ou Actuel. </p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Événement en attente d'approbation</p> </td> 
+   <td> <p>Événement en attente d’approbation</p> </td> 
    <td> <p>Approbateur ou approbatrice délégué</p> </td> 
-   <td> <p>Je dois passer en revue une approbation de problème qui m'a été déléguée.</p> <p>Lorsqu’une personne délègue l’approbation d’un problème à un autre utilisateur ou une autre utilisatrice, cet utilisateur ou cette utilisatrice en est informé. </p> <p>Une notification n’est envoyée que lorsque le projet est au statut Actuel.</p> </td> 
+   <td> <p>J’ai besoin de vérifier l’approbation d’un problème qui m’a été déléguée.</p> <p>Lorsqu’une personne délègue l’approbation d’un problème à un autre utilisateur ou une autre utilisatrice, cet utilisateur ou cette utilisatrice en est informé. </p> <p>Une notification n’est envoyée que lorsque le projet est au statut Actuel.</p> </td> 
    <td> <p>Actif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>Projet en attente d'approbation</p> </td> 
+   <td> <p>Projet en attente d’approbation</p> </td> 
    <td> <p>Approbateurs</p> </td> 
    <td> <p>Je dois approuver un projet.</p> <p>Les utilisateurs et les utilisatrices qui reçoivent une notification par e-mail pour cet événement varient selon que le paramètre « L’approbateur ou l’approbatrice ne doit pas nécessairement faire partie de l’équipe de projet (pour les processus d’approbation incluant un rôle) » est activé ou désactivé (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres d’approbation globaux</a>).</p> <p>Si cette option est activée</strong>, une notification par e-mail est envoyée à tous les utilisateurs et à toutes les utilisatrices du système ayant la fonction « Approbateur ou approbatrice ».</p> <p>Si cette option est désactivée</strong>, seules les personnes membres de l’équipe du projet ayant la fonction « Approbateur ou approbatrice » reçoivent une notification par e-mail.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td>Projet</td> 
-   <td>Projet en attente d'approbation</td> 
+   <td>Projet en attente d’approbation</td> 
    <td>Approbateur ou approbatrice délégué</td> 
    <td> <p>J’ai besoin de vérifier une approbation de projet qui m’a été déléguée.</p> </td> 
    <td> Actif</td> 
@@ -119,14 +119,14 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Tâche en attente d'approbation</p> </td> 
+   <td> <p>Tâche en attente d’approbation</p> </td> 
    <td> <p>Approbateurs</p> </td> 
    <td> <p>Je dois approuver une tâche.</p> <p>Les utilisateurs et les utilisatrices qui reçoivent une notification par e-mail pour cet événement varient selon que le paramètre « L’approbateur ou l’approbatrice ne doit pas nécessairement faire partie de l’équipe de projet (pour les processus d’approbation incluent un rôle) » est activé ou désactivé (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres d’approbation globaux</a>). </p> <p>Si cette option est activée</strong>, une notification par e-mail est envoyée à tous les utilisateurs et à toutes les utilisatrices du système ayant la fonction « Approbateur ou approbatrice ».</p> <p>Si cette option est désactivée</strong>, seules les personnes membres de l’équipe du projet ayant la fonction « Approbateur ou approbatrice » reçoivent une notification par e-mail.</p> <p>Une notification n’est envoyée que si le statut du projet est Actuel au moment de la demande.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Tâche en attente d'approbation</p> </td> 
+   <td> <p>Tâche en attente d’approbation</p> </td> 
    <td> <p>Approbateur ou approbatrice délégué</p> </td> 
    <td> <p>J’ai besoin de vérifier une approbation de tâche qui m’a été déléguée.</p> <p>Lorsqu’une personne délègue l’approbation d’un problème à un autre utilisateur ou une autre utilisatrice, cet utilisateur ou cette utilisatrice en est informé. </p> <p>Une notification n’est envoyée que si le statut du projet est Actuel au moment de la demande.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -181,7 +181,7 @@ Voir aussi [Notifications : demandes que j’ai effectuées](../../../workfront
  <col> 
  <thead> 
   <tr> 
-   <th>Type d'objet</th> 
+   <th>Type d’objet</th> 
    <th>Événement</th> 
    <th>Destinataire</th> 
    <th>Description</th> 
@@ -285,7 +285,7 @@ Voir aussi [Notifications : communication](../../../workfront-basics/using-noti
  <col> 
  <thead> 
   <tr> 
-   <th>Type d'objet</th> 
+   <th>Type d’objet</th> 
    <th>Événement</th> 
    <th>Destinataire</th> 
    <th>Description</th> 
@@ -317,7 +317,7 @@ Voir aussi [Notifications : communication](../../../workfront-basics/using-noti
   <tr> 
    <td> <p>Equipe</p> </td> 
    <td> <p>Mise à jour dirigée</p> </td> 
-   <td> <p>Membres d'équipe</p> </td> 
+   <td> <p>Membres d’équipe</p> </td> 
    <td> <p>Une personne inclut mon équipe dans une mise à jour dirigée.</p> <p>Une mise à jour dirigée réside dans le fait qu’une personne inclut spécifiquement un autre utilisateur ou une autre utilisatrice dans une mise à jour, comme décrit dans <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Taguer d’autres personnes sur les mises à jour</a>.</p> <p>Dans ce cas, tout membre de l’équipe inclus dans la mise à jour dirigée reçoit une notification par e-mail concernant la mise à jour.</p> <p>La notification par e-mail n’est envoyée qu’aux utilisateurs et utilisatrices disposant de droits d’accès à l’objet de la mise à jour.</p> <p>Si la personne qui envoie la mise à jour dirigée est un membre de l’équipe en cours d’inclusion, la personne qui envoie la mise à jour ne reçoit pas de notification par e-mail.</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
@@ -369,7 +369,7 @@ Voir aussi [Notifications : informations d’approbation](../../../workfront-ba
  <col> 
  <thead> 
   <tr> 
-   <th>Type d'objet</th> 
+   <th>Type d’objet</th> 
    <th>Événement</th> 
    <th>Destinataire</th> 
    <th>Description</th> 
@@ -379,35 +379,35 @@ Voir aussi [Notifications : informations d’approbation](../../../workfront-ba
  <tbody> 
   <tr> 
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
-   <td> <p>Délégation d'approbation</p> </td> 
+   <td> <p>Délégation d’approbation</p> </td> 
    <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
    <td> <p>J’ai reçu une délégation en tant que personne approbatrice.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Changement de statut de l'approbation d'événement déléguée</p> </td> 
+   <td> <p>Changement de statut de l’approbation d’événement déléguée</p> </td> 
    <td> <p>Utilisateur ou utilisatrice ayant délégué l’approbation</p> </td> 
    <td> <p>Une demande d’approbation de problème déléguée a été remplie. </p> <p>Lorsque vous déléguez l’approbation d’un problème à une autre personne, vous recevez une notification par e-mail une fois cette approbation terminée (qu’elle approuve ou rejette l’approbation du problème). </p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>Changement de statut de l'approbation de projet déléguée</p> </td> 
+   <td> <p>Changement de statut de l’approbation de projet déléguée</p> </td> 
    <td> <p>Utilisateur ou utilisatrice ayant délégué l’approbation</p> </td> 
    <td> <p>Une demande d’approbation de projet déléguée a été remplie.</p> <p>Lorsque vous déléguez l’approbation d’un projet à une autre personne, vous recevez une notification par e-mail une fois cette approbation terminée (qu’elle approuve ou rejette l’approbation du projet).</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Changement de statut de l'approbation de tâche déléguée</p> </td> 
+   <td> <p>Changement de statut de l’approbation de tâche déléguée</p> </td> 
    <td> <p>Utilisateur ou utilisatrice ayant délégué l’approbation</p> </td> 
    <td> <p>Une demande d’approbation de tâche déléguée a été remplie.</p> <p>Lorsque vous déléguez l’approbation d’une tâche à une autre personne, vous recevez une notification par e-mail une fois cette approbation terminée (qu’elle approuve ou rejette l’approbation de la tâche).</p> </td> 
    <td> <p>Actif (quotidien uniquement)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Annuler l'approbation du document pour l'approbateur</p> </td> 
+   <td> <p>Annuler l’approbation du document pour l’approbateur</p> </td> 
    <td> <p>Utilisateur ou utilisatrice ayant délégué l’approbation</p> </td> 
    <td> <p>Une demande d’approbation de document a été annulée.</p> <p>L’approbateur ou l’approbatrice du document reçoit une notification par e-mail lorsque la demande d’approbation du document est annulée.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
@@ -433,7 +433,7 @@ Voir aussi [Notifications : informations sur le travail qui m’a été affect�
  <col> 
  <thead> 
   <tr> 
-   <th>Type d'objet</th> 
+   <th>Type d’objet</th> 
    <th>Événement</th> 
    <th>Destinataire</th> 
    <th>Description</th> 
@@ -478,7 +478,7 @@ Voir aussi [Notifications : informations sur le travail qui m’a été affect�
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>La date d'achèvement planifiée pour l'événement a changé</p> </td> 
+   <td> <p>La date d’achèvement planifiée pour l’événement a changé</p> </td> 
    <td> <p>Utilisateur ou utilisatrice auquel le problème est affecté</p> </td> 
    <td> <p>La date d’échéance d’un problème qui m’a été affecté est modifiée.</p> <p>La personne cessionnaire du problème reçoit une notification par e-mail lorsque la date d’achèvement prévue est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la date d’achèvement prévue est également la personne cessionnaire.</p> <p>Une notification n’est envoyée que si le statut du projet est autre que Planification.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -513,7 +513,7 @@ Voir aussi [Notifications : informations sur le travail qui m’a été affect�
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>La date d'achèvement prévue pour la tâche a changé</p> </td> 
+   <td> <p>La date d’achèvement prévue pour la tâche a changé</p> </td> 
    <td> <p>Utilisateur ou utilisatrice auquel la tâche est affectée</p> </td> 
    <td> <p>La date d’échéance d’une tâche qui m’a été affectée est modifiée.</p> <p>La personne cessionnaire de la tâche reçoit une notification par e-mail lorsque la date d’achèvement prévue de la tâche est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la date d’achèvement prévue est également la personne cessionnaire de la tâche.</p> <p>Une notification n’est envoyée que si le statut du projet est autre que Planification.</p> <p>Aucune notification n’est envoyée concernant les tâches personnelles.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -544,7 +544,7 @@ Voir aussi [Notifications : informations sur les projets auxquels je participe]
  <col> 
  <thead> 
   <tr> 
-   <th>Type d'objet</th> 
+   <th>Type d’objet</th> 
    <th>Événement</th> 
    <th>Destinataire</th> 
    <th>Description</th> 
@@ -636,7 +636,7 @@ Voir aussi [Notifications : informations sur les projets dont je suis propriét
  <col> 
  <thead> 
   <tr> 
-   <th>Type d'objet</th> 
+   <th>Type d’objet</th> 
    <th>Événement</th> 
    <th>Destinataire</th> 
    <th>Description</th> 
@@ -660,7 +660,7 @@ Voir aussi [Notifications : informations sur les projets dont je suis propriét
   </tr> 
   <tr> 
    <td> <p>Problème</p> </td> 
-   <td> <p>Modification de la date d'engagement pour l'événement</p> </td> 
+   <td> <p>Modification de la date d’engagement pour l’événement</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
    <td> <p>La date d’engagement d’un problème sur l’un de mes projets est modifiée.</p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsque la date d’engagement d’un problème sur le projet change, sauf si la personne qui modifie la date d’engagement est la même que la personne propriétaire du projet.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -695,7 +695,7 @@ Voir aussi [Notifications : informations sur les projets dont je suis propriét
   </tr> 
   <tr> 
    <td> <p>Tâche</p> </td> 
-   <td> <p>Modification de la date d'engagement pour la tâche</p> </td> 
+   <td> <p>Modification de la date d’engagement pour la tâche</p> </td> 
    <td> <p>Propriétaire du projet</p> </td> 
    <td> <p>La date d’engagement pour une tâche d’un de mes projets est modifiée.</p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsque la date d’engagement d’une tâche sur le projet est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la date d’engagement est également la personne propriétaire du projet.</p> </td> 
    <td> <p>Actif</p> </td> 
@@ -735,7 +735,7 @@ Voir aussi [Notifications : informations sur les projets que je sponsorise](../
  <col> 
  <thead> 
   <tr> 
-   <th>Type d'objet</th> 
+   <th>Type d’objet</th> 
    <th>Événement</th> 
    <th>Destinataire</th> 
    <th>Description</th> 
@@ -820,7 +820,7 @@ Voir aussi [Notifications : informations diverses](../../../workfront-basics/us
  <col> 
  <thead> 
   <tr> 
-   <th>Type d'objet</th> 
+   <th>Type d’objet</th> 
    <th>Événement</th> 
    <th>Destinataire</th> 
    <th>Description</th> 
@@ -830,7 +830,7 @@ Voir aussi [Notifications : informations diverses](../../../workfront-basics/us
  <tbody> 
   <tr> 
    <td>Annonce</td> 
-   <td> <p>L'annonce a été ajoutée</p> </td> 
+   <td> <p>L’annonce a été ajoutée</p> </td> 
    <td> <p></p> </td> 
    <td> <p>Un message est envoyé au Centre des annonces.</p> </td> 
    <td> <p>Actif (instantané uniquement)</p> </td> 
@@ -844,7 +844,7 @@ Voir aussi [Notifications : informations diverses](../../../workfront-basics/us
   </tr> 
   <tr> 
    <td> </td> 
-   <td> <p>Notification d'erreur</p> </td> 
+   <td> <p>Notification d’erreur</p> </td> 
    <td> <p></p> </td> 
    <td> <p>Une erreur a été détectée et requiert votre attention</p> <p>Une notification par e-mail est générée une fois que Workfront a tenté de se connecter à un compte POP sans y parvenir. Après 25 tentatives, Workfront désactive la connexion au compte POP afin de préserver les ressources et envoie une notification. </p> <p>La notification est envoyée par e-mail à la personne propriétaire du projet, si l’e-mail POP est associé à une file d’attente des demandes, ou à l’équipe d’administration Workfront, si le compte POP est associé à la fonction « Courrier entrant » dans la configuration de la messagerie.
    </p> </td> 
@@ -921,7 +921,7 @@ Voir aussi [Notifications : informations diverses](../../../workfront-basics/us
 
 Voir aussi [Notifications : délégation](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
-| Type d&#39;objet | Événement | Destinataire | Description | État par défaut |
+| Type d’objet | Événement | Destinataire | Description | État par défaut |
 |------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|
 | Tâches et événements | Délégation des tâches et des problèmes | Cessionnaire | Je délègue mes tâches et problèmes (confirmation). | Actif (instantané uniquement) |
 | Tâches et événements | Arrêter la délégation des tâches et des problèmes | Cessionnaire | J’arrête de déléguer mes tâches et problèmes (confirmation). | Actif (instantané uniquement) |

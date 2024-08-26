@@ -1,10 +1,10 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: group,preferences,task,groups,issue,unlock
+keywords: groupe,préférences,tâche,groupes,problème,déverrouiller
 navigation-topic: create-and-manage-groups
 title: Configuration des préférences de feuille de temps et d’heure pour un groupe
-description: Au niveau du système, un administrateur Adobe Workfront peut déverrouiller les sections timesheet and hour preferences General Preferences et Pre-Renseignate timesheets with. Cela permet aux administrateurs de groupes de configurer les options de ces sections indépendamment pour leurs propres groupes.
+description: Au niveau du système, l’équipe d’administration Adobe Workfront peut déverrouiller les sections de préférences de feuilles de temps et d’heures Préférences générales et Préremplir les feuilles de temps. Cela permet aux administrateurs et administratrices de groupes de configurer les options de ces sections séparément pour leurs propres groupes.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -12,13 +12,13 @@ exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
 source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 8%
+ht-degree: 99%
 
 ---
 
-# Configuration des préférences de feuille de temps et d’heure pour un groupe
+# Configurer les préférences de feuilles de temps et d’heures pour un groupe
 
-Un administrateur Adobe Workfront peut déverrouiller les sections suivantes des préférences de feuille de temps et d’heure au niveau du système afin que les administrateurs de groupe puissent les configurer indépendamment pour leurs propres groupes :
+Un administrateur ou une administratrice Adobe Workfront peut déverrouiller les sections suivantes des préférences de feuilles de temps et d’heures au niveau du système, afin que les administrateurs et administratrices de groupes puissent les configurer séparément pour leurs propres groupes :
 
 * Préférences générales
 * L’endroit où les utilisateurs et utilisatrices peuvent enregistrer les heures
@@ -26,21 +26,21 @@ Un administrateur Adobe Workfront peut déverrouiller les sections suivantes des
 
 S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
 
-Les sections suivantes de la page des préférences Frise chronologique et Heures ne peuvent être configurées qu’au niveau du système et ne peuvent pas être déverrouillées pour les groupes :
+Les sections suivantes de la page Préférences de feuilles de temps et d’heures sont configurables uniquement au niveau du système et ne peuvent pas être déverrouillées pour les groupes :
 
 * Projets, tâches et problèmes supprimés
 
-Pour plus d’informations sur la façon dont un administrateur Workfront déverrouille une feuille de temps et des préférences d’heure, reportez-vous à la section [ Déverrouiller les préférences d’heure et d’heure pour les groupes](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) de l’article [ Configuration des préférences d’heure et d’heure](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Pour plus d’informations sur la manière dont un administrateur ou une administratrice Workfront déverrouille une préférence de feuilles de temps et d’heures, voir [Déverrouiller les préférences de feuilles de temps et d’heures pour les groupes](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) dans l’article [Configurer les préférences de feuilles de temps et d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 >[!TIP]
 >
->Une configuration au niveau du groupe est également possible pour les préférences du projet, ainsi que pour les préférences de tâche et de problème. Pour plus d’informations, voir [Configuration des préférences de projet pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) et [Configuration des préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>La configuration au niveau du groupe est également possible pour les préférences de projets et pour les préférences de tâches et de problèmes. Pour plus d’informations, voir [Configurer les préférences de projets pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) et [Configurer les préférences de tâches et de problèmes pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,127 +63,127 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 ## Préférences des groupes en matière de feuilles de temps et d’heures
 
-Tenez compte des informations suivantes sur la configuration d’une feuille de temps ou d’une préférence d’heure déverrouillée pour un groupe :
+Tenez compte des informations suivantes concernant la configuration d’une préférence de feuilles de temps ou d’heures déverrouillée pour un groupe :
 
-* Si vous êtes administrateur de groupe et que vous configurez une préférence de feuille de temps ou d’heure pour votre groupe, cela affecte les personnes qui utilisent le groupe comme groupe d’accueil.
-* En règle générale, une préférence déverrouillée reste déverrouillée indéfiniment. Si l’administrateur Workfront le reverrouille, le paramètre système prend à nouveau effet et les paramètres de la préférence accordée par les administrateurs du groupe sont perdus.
-* Une feuille de temps hérite des préférences de feuille de temps et d’heure configurées pour le groupe d’accueil du propriétaire de la feuille de temps.
+* Si vous êtes administrateur ou administratrice de groupes et que vous configurez une préférence de feuilles de temps ou d’heures pour votre groupe, cela affecte les personnes qui utilisent ce groupe comme groupe principal.
+* En règle générale, une préférence déverrouillée reste déverrouillée indéfiniment. Si l’administrateur ou l’administratrice Workfront la verrouille à nouveau, le paramètre système prend à nouveau effet et les paramètres de la préférence définie par les administrateurs et administratrices de groupes sont perdus.
+* Une feuille de temps hérite des préférences de feuilles de temps et d’heures configurées pour le groupe principal de la personne propriétaire de la feuille de temps.
 
   <!--
   Add example here?
   -->
 
-* Une fois qu’un administrateur Workfront a déverrouillé une préférence au niveau du système et que vous l’avez configurée pour votre groupe, vous pouvez la verrouiller pour vous assurer que tous les membres des groupes situés sous le vôtre utilisent la même configuration. Cela est parallèle à la possibilité qu’un administrateur de Workfront a de configurer et de verrouiller une préférence pour tous les utilisateurs du système. Pour plus d’informations, voir [Verrouiller ou déverrouiller une feuille de temps et une préférence d’heure de groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Une fois qu’un administrateur ou une administratrice Workfront a déverrouillé une préférence au niveau du système et que vous l’avez configurée pour votre groupe, vous pouvez la verrouiller pour vous assurer que toutes les personnes membres des groupes situés sous le vôtre utilisent la même configuration. Cette fonction est similaire à la capacité qu’a un administrateur ou une administratrice Workfront de configurer et de verrouiller une préférence pour toutes les personnes utilisant le système. Pour plus d’informations, consultez la section [Verrouiller ou déverrouiller une préférence de feuilles de temps et d’heures pour les groupes](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
-## Configuration d’une feuille de temps ou d’une préférence horaire déverrouillée pour un groupe
+## Configurer une préférence de feuilles de temps ou d’heures déverrouillée pour un groupe
 
 >[!TIP]
 >
->Si vous êtes administrateur de Workfront, vous pouvez ignorer les étapes 1 à 4 en accédant à Configuration > Frise chronologique et heures > Préférences, puis en recherchant le nom du groupe dans la zone située en haut de la page.
+>Si vous êtes un administrateur ou une administratrice Workfront, vous pouvez ignorer les étapes 1 à 4 en accédant à Configuration > Feuilles de temps et heures > Préférences, puis en recherchant le nom du groupe dans la zone située en haut de la page.
 
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 
-1. Cliquez sur le nom du groupe dont vous souhaitez configurer les préférences de feuille de temps ou d’heure.
-1. Dans le panneau de gauche, cliquez sur **Fiches horaires et heures**.
+1. Cliquez sur le nom du groupe pour lequel vous souhaitez configurer les préférences de feuilles de temps ou d’heures.
+1. Dans le panneau de gauche, cliquez sur **Feuilles de temps et heures**.
 
-1. Sur la page qui s’affiche, dans la section **Préférences générales** , configurez l’une des options suivantes :
+1. Sur la page qui s’affiche, dans la section **Préférences générales**, configurez l’une des options suivantes :
 
    >[!TIP]
    >
-   >Si vous passez la souris sur une préférence et qu’une info-bulle s’affiche pour vous indiquer qu’elle est verrouillée, vous pouvez demander à votre administrateur Workfront de la déverrouiller pour tous les groupes de l’organisation.
+   >Si vous passez la souris sur une préférence et qu’une info-bulle s’affiche pour vous indiquer qu’elle est verrouillée, vous pouvez demander à votre administrateur ou à votre administratrice Workfront de la déverrouiller pour tous les groupes de l’organisation.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Durée de journalisation des dates futures</td> 
-      <td> <p>Permet aux utilisateurs de se connecter à l’heure des dates futures dans l’ensemble du système dans :</p> 
+      <td role="rowheader">Enregistrer le temps pour les dates futures</td> 
+      <td> <p>Permet aux utilisateurs et utilisatrices de consigner le temps pour des dates futures dans l’ensemble du système pour les éléments suivants :</p> 
        <ul> 
-       <li>Tous les projets, tâches et problèmes pour lesquels ils ont accès à la durée du journal, quel que soit le groupe du projet.</li> 
-       <li>Leur feuille de temps comme heure générale</li>
+       <li>Tous les projets, tâches et problèmes pour lesquels ils ont accès pour consigner le temps, quel que soit le groupe du projet.</li> 
+       <li>Leurs feuilles de temps comme temps général.</li>
        </ul> 
-       <p>Cela s’avère utile lorsque les utilisateurs prévoient de quitter le bureau et qu’ils souhaitent enregistrer ce temps au préalable.</p> 
-       <p><b>REMARQUE</b> : vous ne pouvez pas empêcher les utilisateurs de se connecter sur des tâches ou des problèmes qui sont fermés ou annulés. Vous pouvez uniquement empêcher les utilisateurs de se connecter à des projets complets ou inactifs. Nous vous recommandons d’utiliser des filtres dans les listes de tâches et de problèmes pour exclure de la visibilité pour les utilisateurs ceux qui ont été terminés ou annulés.</p> </td> 
+       <p>Cette fonction est utile lorsque les utilisateurs et utilisatrices prévoient de s’absenter du bureau et souhaitent consigner ce temps à l’avance.</p> 
+       <p><b>NOTE : vous ne pouvez pas empêcher les utilisateurs et utilisatrices de consigner du temps sur des tâches et des problèmes qui sont fermés ou annulés. </b> Vous pouvez uniquement les empêcher de consigner du temps sur des projets terminés ou obsolètes. Nous vous recommandons d’utiliser des filtres dans les listes de tâches et de problèmes afin de masquer les tâches terminées ou annulées aux utilisateurs et utilisatrices.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ajouter des dépenses à partir d’une feuille de temps</td> 
-      <td> <p>Permet aux utilisateurs d’enregistrer le temps et les dépenses dans la feuille de temps.</p> 
-      <p>Lorsque cette préférence est activée pour un groupe et que le groupe est défini comme groupe d’accueil pour certains utilisateurs, une icône de dépense s’affiche en regard des projets et tâches de la feuille de temps de ces utilisateurs. Les utilisateurs peuvent cliquer sur cette icône pour ajouter ou modifier des dépenses pour le projet ou la tâche.</p>
+      <td> <p>Permet aux personnes d’enregistrer à la fois les heures et les dépenses dans la feuille de temps.</p> 
+      <p>Lorsque cette préférence est activée pour un groupe et que ce dernier est défini comme groupe principal pour certaines personnes, une icône de dépense s’affiche à côté des projets et des tâches sur les feuilles de temps de ces personnes. Les personnes peuvent cliquer sur cette icône pour ajouter ou modifier des dépenses pour le projet ou la tâche.</p>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Affecter manuellement des rôles de tâche aux entrées d’heure</td> 
-      <td> <p>Permet aux utilisateurs de sélectionner manuellement n’importe quel rôle de tâche attribué dans leur profil utilisateur ou affecté à l’objet.</p> <p><b>IMPORTANT</b> :  
+      <td role="rowheader">Attribuer manuellement des fonctions aux entrées d’heures</td> 
+      <td> <p>Permettez aux utilisateurs et utilisatrices de sélectionner manuellement toute fonction attribuée à leur profil d’utilisateur ou d’utilisatrice, ou à l’objet.</p> <p><b>IMPORTANT</b> :  
         <ul> 
-         <li>Si vous désactivez ce paramètre après avoir affecté des rôles de tâche aux entrées d’heure, les utilisateurs doivent ajuster les heures consignées sous différents rôles dans l’onglet Heures du projet, de la tâche ou du problème.</li> 
-         <li>Si un rôle de tâche n’est pas attribué à l’utilisateur dans son profil et qu’une tâche est affectée en tant que propriétaire de la tâche dans la boîte de dialogue Affectations avancées , ce rôle de tâche s’affiche lorsque l’utilisateur consigne l’heure sur la tâche.</li> 
+         <li>Si vous désactivez ce paramètre après avoir attribué des fonctions aux entrées d’heures, les personnes doivent ajuster les heures consignées sous différents rôles dans l’onglet Heures du projet, de la tâche ou du problème.</li> 
+         <li>Si la personne n’a pas de fonction attribuée dans son profil et qu’une tâche lui est attribuée en tant que propriétaire de la tâche dans la boîte de dialogue Affectations avancées, cette fonction apparaît lorsque la personne consigne des heures pour la tâche.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Limitation de la modification de la feuille de temps aux propriétaires et aux administrateurs</td> 
-      <td> <p>Restreindre la modification aux propriétaires de feuilles de temps, quel que soit le groupe du projet et les administrateurs Workfront. Lorsque cette option est désactivée, les feuilles de temps peuvent également être modifiées en :</p> 
+      <td role="rowheader">Limiter la modification des feuilles de temps aux personnes propriétaires et aux administrateurs et administratrices</td> 
+      <td> <p>Limitez la modification aux personnes propriétaires des feuilles de temps, indépendamment du groupe du projet et des administrateurs et administratrices Workfront. Lorsque cette option est désactivée, les feuilles de temps peuvent également être modifiées par les personnes suivantes :</p> 
        <ul> 
-        <li> <p>Utilisateurs disposant d’un accès administratif aux feuilles de temps et aux heures dans leur niveau d’accès</p> </li> 
-        <li> <p>Approbateurs de la feuille de temps si l’option "Modifications des heures" est activée sur la feuille de temps</p> </li> 
-        <li> <p>Le gestionnaire du propriétaire de la feuille de temps</p> </li> 
+        <li> <p>Les personnes ayant un accès administratif aux feuilles de temps et aux heures dans leur niveau d’accès.</p> </li> 
+        <li> <p>Les personnes approbatrices de la feuille de temps si l’option « Peut modifier les heures » est activée sur la feuille de temps.</p> </li> 
+        <li> <p>La personne responsable de la personne propriétaire de la feuille de temps.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Limitation de la modification des heures aux propriétaires et aux administrateurs</td> 
-      <td>Restreindre la modification à l’utilisateur qui saisit les heures et les administrateurs Workfront. Ce paramètre s’applique à l’onglet Heures dans un projet ou dans un rapport Heures .</td> 
+      <td role="rowheader">Limiter la modification des heures aux personnes propriétaires et aux administrateurs et administratrices</td> 
+      <td>Limitez la modification à la personne qui a saisi les heures et aux administrateurs et administratrices Workfront. Ce paramètre s’applique à l’onglet Heures d’un projet ou d’un rapport d’heures.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Dans la section **Où les utilisateurs peuvent se connecter** , configurez l’une des options suivantes :
+1. Dans la section **L’endroit où les utilisateurs et utilisatrices peuvent enregistrer les heures**, configurez l’une des options suivantes :
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader">Durée de connexion directe aux projets</td> 
-      <td>Permet aux utilisateurs de se connecter au projet (à la fois dans l’onglet Mises à jour et dans la feuille de temps). Si vous souhaitez empêcher vos utilisateurs d’enregistrer le temps au niveau du projet, laissez cette option décochée.</td>
+      <td role="rowheader">Consigner les heures directement sur les projets</td> 
+      <td>Permet aux personnes de consigner les heures sur le projet (à la fois sur l’onglet Mises à jour et sur la feuille de temps). Si vous souhaitez empêcher vos utilisateurs et utilisatrices de consigner des heures au niveau du projet, ne cochez pas cette option.</td>
      </tr>
      <tr>
-      <td role="rowheader">Temps de connexion aux projets terminés</td>
-      <td>Permet aux utilisateurs d’enregistrer du temps sur un projet marqué comme terminé. Si cette option est désactivée, les utilisateurs ne peuvent pas enregistrer le temps de travail qu’ils ont terminé sur les projets dont l’état est Terminé.</td>
+      <td role="rowheader">Consigner les heures sur les projets déjà terminés</td>
+      <td>Permet aux personnes de consigner les heures sur un projet qui a été marqué comme terminé. Si cette option est désactivée, les personnes ne peuvent pas consigner d’heures pour le travail qu’elles ont effectué sur des projets dont le statut est Terminé.</td>
      </tr>
      <tr>
-      <td role="rowheader">Temps de connexion aux projets morts</td> 
-      <td>Lorsque cette option est activée, les utilisateurs peuvent ouvrir une session d’heures sur des projets dont l’état est Mort.</td>
+      <td role="rowheader">Consigner les heures sur les projets obsolètes</td> 
+      <td>Lorsque cette option est activée, les personnes peuvent consigner des heures sur des projets dont le statut est Immobilisé.</td>
      </tr>
     </tbody>
    </table>
 
    >[!NOTE]
    >
-   >Cette préférence est appliquée en fonction de la configuration des préférences du groupe d’accueil de l’utilisateur. Si ces paramètres sont activés dans les préférences du groupe d’accueil de l’utilisateur, celui-ci pourra consigner directement le temps passé sur les projets, y compris les projets terminés ou morts, que les préférences du groupe du projet le permettent ou non.
+   >Cette préférence est appliquée en fonction de la configuration des préférences du groupe principal de la personne. Si ces paramètres sont activés dans les préférences du groupe principal de la personne, celle-ci pourra consigner directement les heures sur les projets, y compris les projets terminés ou obsolètes, que les préférences du groupe de projet l’y autorisent ou non.
 
-1. Dans la section **Préremplir les feuilles de temps** , configurez l’une des options suivantes :
+1. Dans la section **Préremplir les feuilles de temps**, configurez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Travail qui se trouve dans la &lt;nombre de semaines&gt; de la période de travail de la feuille de temps</td> 
-      <td> <p>Définit le nombre de semaines avant et après la période de la feuille de temps qui contient les dates des tâches et les problèmes affectés à l’utilisateur. Le paramètre par défaut est de 1 semaine et vous pouvez l’étendre à 4 semaines. Cela signifie que la feuille de temps est prérenseignée avec des tâches et des problèmes dont les dates se situent entre quatre semaines avant la période de la feuille de temps, jusqu’à quatre semaines après la période de la feuille de temps, si vous sélectionnez 4 semaines pour la période. </p> </td> 
+      <td role="rowheader">Travail compris dans &lt;nombre de semaines&gt; dans la plage de travail de la feuille de temps</td> 
+      <td> <p>Définit le nombre de semaines avant et après la période de la feuille de temps qui contient les dates des tâches et des problèmes affectés à la personne. Le paramètre par défaut est de 1 semaine, et vous pouvez étendre cette plage jusqu’à 4 semaines. Cela signifie que la feuille de temps est remplie automatiquement avec les tâches et les problèmes dont les dates se situent entre quatre semaines avant la période de la feuille de temps et quatre semaines après la période de la feuille de temps, si vous sélectionnez 4 semaines pour votre plage. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tâches et problèmes terminés</td> 
-      <td>Si plusieurs ressources sont généralement affectées à une seule tâche, nous vous recommandons ce paramètre. Cela signifie que lorsqu’une ressource enregistre le temps par rapport à la tâche et la marque comme terminée, les autres ressources affectées à la tâche peuvent toujours trouver la tâche ou le problème dans leur feuille de temps, pour enregistrer leurs heures.</td> 
+      <td>Si plusieurs ressources sont généralement affectées à une seule tâche, nous recommandons ce paramètre. Cela signifie que lorsqu’une ressource consigne des heures sur la tâche et la marque comme terminée, les autres ressources affectées à la tâche peuvent toujours trouver la tâche ou le problème dans leur feuille de temps, afin de consigner leurs heures.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tâches et problèmes ayant des dates planifiées dans la période de la feuille de temps</td> 
-      <td> <p>Lorsqu’elle est sélectionnée, la feuille de temps inclut des tâches et des problèmes dont la date de début planifiée ou la date de fin est comprise dans la plage de dates de la feuille de temps.</p> </td> 
+      <td role="rowheader">Tâches et problèmes ayant des dates prévues dans la période de la feuille de temps</td> 
+      <td> <p>Lorsque cette option est sélectionnée, la feuille de temps inclut les tâches et les problèmes dont la date de début ou d’achèvement prévisionnelle se situe dans la période de la feuille de temps.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> Tâches dont les dates projetées se trouvent dans la période de la feuille de temps</td> 
-      <td> <p>Lorsqu’elle est sélectionnée, la feuille de temps inclut des tâches dont la date de début prévue ou la date de fin correspond à la période du projet, même si la date planifiée de l’émission ou de la tâche ne figure pas dans la plage de dates de la feuille de temps.</p> </td> 
+      <td role="rowheader"> Tâches ayant des dates prévisionnelles dans la période de la feuille de temps</td> 
+      <td> <p>Lorsque cette option est sélectionnée, la feuille de temps inclut les tâches dont la date de début ou de fin prévisionnelle s’inscrit dans la période du projet, même si la date prévue du problème ou de la tâche se situe en dehors de la période de la feuille de temps.</p> </td> 
      </tr> 
     </tbody> 
    </table>

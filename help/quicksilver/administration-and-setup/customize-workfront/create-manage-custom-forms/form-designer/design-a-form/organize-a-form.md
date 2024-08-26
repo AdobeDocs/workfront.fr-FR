@@ -11,7 +11,7 @@ exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
 source-wordcount: '1284'
-ht-degree: 87%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez organiser un formulaire personnalisé avec le créateur de formulair
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,13 +110,13 @@ Pour plus d’informations sur les autorisations sur les objets, voir [Vue d’e
        <p><b>REMARQUE</b> :  
        <ul> 
        <li> <p>Les utilisateurs et utilisatrices ne disposant pas des autorisations que vous indiquez ici ne peuvent pas voir les champs personnalisés et les widgets de la section. </p> <p>C’est également le cas si vous affichez les valeurs des champs dans les rapports ou si vous les utilisez dans les champs calculés des rapports en mode texte.</p> </li> 
-       <li><p>Pour les formulaires personnalisés de demande/publication : si l’accès Affichage est nécessaire pour voir les champs dans le saut de section, mais qu’un accès administrateur est nécessaire pour modifier les champs, la section et tous ses champs ne seront pas visibles par les non-administrateurs lorsqu’ils rempliront le formulaire. Une fois la requête créée, les utilisateurs disposant de l’accès Affichage peuvent afficher les champs de la section .</p></li>
+       <li><p>Pour les formulaires personnalisés de demande/problème : si l’accès Affichage est nécessaire pour voir les champs dans le saut de section, mais qu’un accès administrateur est nécessaire pour modifier les champs, la section et tous ses champs ne seront pas visibles par les personnes ne disposant pas de droits d’administration lorsqu’elles rempliront le formulaire. Une fois la demande créée, les personnes disposant de l’accès Affichage peuvent afficher les champs de la section.</p></li>
        <li> <p>L’association de plusieurs types d’objets à votre formulaire peut modifier les autorisations d’affichage et de modification disponibles au cours de ces étapes. Pour plus d’informations, consultez la section <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Comment plusieurs types d’objets peuvent affecter les autorisations de saut de section dans un formulaire personnalisé</a> de cet article.</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><p>Ajouter une logique</p></td> 
-      <td><p>Utilisez la logique d’affichage pour spécifier si la section doit s’afficher sur le formulaire, en fonction des sélections que les utilisateurs font dans des champs personnalisés à choix multiples lorsqu’ils remplissent le formulaire.</p><p><strong>REMARQUE :</strong> Si la logique d’affichage de tous les champs individuels d’un saut de section est appliquée à tous et qu’ils sont tous masqués en raison de la logique, la section entière est masquée sur le formulaire personnalisé. Cela se produit même si la logique d’affichage n’est pas appliquée au saut de section.</p><p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Ajouter une logique d’affichage et de saut à l’aide du créateur de formulaire</a>.</p></td> 
+      <td><p>Utilisez la logique d’affichage pour indiquer si la section doit s’afficher sur le formulaire, en fonction des sélections effectuées par les utilisateurs et utilisatrices dans les champs personnalisés à choix multiples lorsqu’ils remplissent le formulaire.</p><p><strong>NOTE :</strong> si tous les champs individuels d’un saut de section sont soumis à une logique d’affichage et qu’ils sont tous masqués à la suite de cette logique, la section entière sera masquée dans le formulaire personnalisé. Cela se produit même si la logique d’affichage n’est pas appliquée au saut de section.</p><p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Ajouter une logique d’affichage et de saut à l’aide du créateur de formulaire</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

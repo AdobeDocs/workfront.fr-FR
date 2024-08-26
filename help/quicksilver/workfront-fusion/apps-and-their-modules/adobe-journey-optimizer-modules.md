@@ -5,31 +5,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Modules Adobe Journey Optimizer
-description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent  [!DNL Adobe Journey Optimizer] et les connecter à plusieurs applications et services tiers.
+description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent  [!DNL Adobe Journey Optimizer], et les connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 source-git-commit: a2b9722f3964fccab6e30f2cd79e5ac63f736ba4
 workflow-type: tm+mt
 source-wordcount: '3673'
-ht-degree: 25%
+ht-degree: 29%
 
 ---
 
 # Modules [!DNL Adobe Journey Optimizer]
 
-Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Journey Optimizer] et les connecter à plusieurs applications et services tiers. Les modules [!DNL Adobe Journey Optimizer] vous permettent de créer, lire, mettre à jour ou supprimer des enregistrements, ou d’effectuer un appel API personnalisé vers l’API [!DNL Adobe Journey Optimizer].
+Dans un scénario , vous pouvez automatiser les workflows qui utilisent , ainsi que de le connecter à plusieurs applications et services tiers. [!DNL Adobe Workfront Fusion][!DNL Adobe Journey Optimizer] Les modules [!DNL Adobe Journey Optimizer] vous permettent de créer, lire, mettre à jour ou supprimer des enregistrements, ou d’effectuer un appel API personnalisé vers l’API [!DNL Adobe Journey Optimizer].
 
 
-Si vous avez besoin d’instructions sur la création d’un scénario, voir [Création d’un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Pour plus d’informations sur les modules, consultez [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table>
   <col/>
@@ -50,7 +50,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>
       <td>
-   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigences de licence actuelle: aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
    <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
@@ -58,9 +58,9 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
     <tr>
       <td role="rowheader">Produit</td>
       <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait  [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter  et  pour utiliser les fonctionnalités décrites dans cet article. [!DNL Adobe Workfront][!DNL Adobe Workfront Fusion][!DNL Adobe Workfront]. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td>
     </tr>
   </tbody>
@@ -75,9 +75,9 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
 
 ## Conditions préalables
 
-Avant de pouvoir utiliser le connecteur [!DNL Adobe Journey Optimizer], vous devez vous assurer que les conditions préalables suivantes sont remplies :
+Avant d’utiliser le connecteur [!DNL Adobe Journey Optimizer], vous devez vous assurer que les conditions préalables suivantes sont remplies :
 
-* Vous devez avoir un compte [!DNL Adobe Journey Optimizer] actif.
+* Vous devez disposer d’un compte [!DNL Adobe Journey Optimizer].
 
 ## Création d’une connexion à Adobe Journey Optimizer
 
@@ -113,11 +113,11 @@ Vous pouvez créer une connexion dans n’importe quel module Adobe Journey Opti
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Entrez votre [0} [!UICONTROL Client Secret]. [!DNL Adobe] Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
+        <td>Saisissez votre [!UICONTROL Client Secret] [!DNL Adobe]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL ID d’organisation]</td>
-        <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID d’organisation]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL Organization ID]</td>
+        <td>Saisissez votre [!UICONTROL Organization ID] [!DNL Adobe]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Sandbox Name]</td>
@@ -129,7 +129,7 @@ Vous pouvez créer une connexion dans n’importe quel module Adobe Journey Opti
 
 ## Modules [!DNL Adobe Journey Optimizer] et leurs champs
 
-Lorsque vous configurez des modules [!DNL Adobe Journey Optimizer], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Adobe Journey Optimizer] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez des [!DNL Adobe Journey Optimizer]modules ,[!DNL Workfront Fusion]  affiche les champs répertoriés ci-dessous. Des champs  supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. [!DNL Adobe Journey Optimizer] Un titre en gras dans un module indique un champ obligatoire.
 
 Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -1218,7 +1218,7 @@ Ce module de recherche répertorie les tâches d’exportation et d’importatio
       <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Ordre par]</td> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
       <td>Indiquez si vous souhaitez classer les résultats par date de création ou de modification.</td>
   </tr> 
     <tr> 
@@ -1251,7 +1251,7 @@ Ce module de recherche répertorie tous les modules de votre organisation. Vous 
       <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Ordre par]</td> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
       <td>Indiquez si vous souhaitez classer les résultats par date de création ou de modification.</td>
   </tr> 
     <tr> 
@@ -1278,7 +1278,7 @@ Ce module de recherche répertorie toutes les configurations de limitation ou de
    <td>Indiquez si vous récupérez un modèle de contenu ou un fragment de contenu.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Ordre par]</td> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
    <td>Saisissez ou mappez le nom du paramètre selon lequel vous souhaitez trier cette liste. Ajoutez <code>-</code> ou <code>+</code> pour trier par ordre croissant ou décroissant. Si aucun signe n’est spécifié, la liste est triée de manière descendante.</td> 
   </tr> 
   <tr> 
@@ -1286,7 +1286,7 @@ Ce module de recherche répertorie toutes les configurations de limitation ou de
    <td>Ce champ est utilisé pour la pagination. Saisissez ou mappez les critères de la page suivante par rapport à la propriété spécifiée dans le champ Classer par .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Ordre par]</td> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
    <td>Saisissez ou mappez le nom du paramètre selon lequel vous souhaitez trier cette liste. Ajoutez <code>-</code> ou <code>+</code> pour trier par ordre croissant ou décroissant. Si aucun signe n’est spécifié, la liste est triée de manière descendante.</td> 
   </tr> 
   <tr> 

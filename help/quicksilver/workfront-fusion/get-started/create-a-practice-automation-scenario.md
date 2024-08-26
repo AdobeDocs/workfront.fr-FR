@@ -10,7 +10,7 @@ exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
 source-git-commit: 8769ed5844e340e007f844370791e93393696819
 workflow-type: tm+mt
 source-wordcount: '1536'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -29,7 +29,7 @@ For more information on functionality available with each Workfront Fusion licen
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
   <tbody>  
@@ -122,13 +122,13 @@ Maintenant, vous devez établir une connexion authentifiée à votre compte [!DN
    1. Connectez-vous à [!DNL Workfront].
    1. Examiner la demande d’accès de [!DNL Workfront Fusion], puis cliquez sur **[!UICONTROL Autoriser l’accès]**.
 
-   Si vous avez besoin d’aide, reportez-vous à la section [Présentation des connexions](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Si vous avez besoin d’aide, voir [Vue d’ensemble des connexions](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ### 3. Configurer le premier module
 
 Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Workfront], vous pouvez spécifier un projet [!DNL Workfront] auquel vous avez accès et les données que vous souhaitez que le premier module soit traité.
 
-1. Dans la zone [!UICONTROL Type d’enregistrement], sélectionnez **[!UICONTROL Projet]**. Le module est ainsi configuré pour rechercher uniquement les projets.
+1. Dans la zone Type d’enregistrement, sélectionnez Projet. **** Le module est ainsi configuré pour rechercher uniquement les projets.
 
    >[!TIP]
    >
@@ -148,7 +148,7 @@ Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Workfront],
    ![](assets/search-name.png)
 +++
 
-1. Dans la liste **[!UICONTROL Sorties]**, sélectionnez les champs que le module doit générer. Pour cet exemple, sélectionnez les champs **[!UICONTROL ID]** et **[!UICONTROL Nom]**.
+1. Dans la liste Sorties, sélectionnez les champs que le module doit générer. **** Pour cet exemple, sélectionnez les champs **[!UICONTROL ID]** et **[!UICONTROL Nom]**.
 
    >[!TIP]
    >
@@ -182,14 +182,14 @@ Après avoir connecté [!DNL Workfront Fusion] à votre compte [!DNL Workfront],
    >
    >Commencez à saisir le mot « projet » pour trouver **[!UICONTROL Projet]** dans la liste.
 
-1. Cliquez sur le champ **[!UICONTROL ID d’enregistrement parent]**. Ce champ nécessite l’ID Workfront du projet pour lequel vous souhaitez obtenir les tâches.
+1. Cliquez sur le champ ID d’enregistrement parent. **** Ce champ nécessite l’ID Workfront du projet pour lequel vous souhaitez obtenir les tâches.
 
    Cliquez sur le champ pour ouvrir la liste des variables que vous pouvez utiliser dans le champ **[!UICONTROL ID d’enregistrement parent]** pour identifier le projet dans Workfront.
 
    ![](assets/list-of-available-variables-wf-350x368.png)
 
 1. Clic sur la variable **[!UICONTROL ID]** pour l’ajouter au champ **[!UICONTROL ID d’enregistrement parent]**. Cela permet d’utiliser l’ID renvoyé par le premier module comme identifiant du projet avec lequel vous souhaitez travailler dans le deuxième module, ce qui garantit que les tâches renvoyées appartiendront à ce projet.
-1. Dans le champ **[!UICONTROL Collections]**, sélectionnez **[!UICONTROL Tâche]**. Cela indique que le module doit renvoyer les tâches associées au projet sélectionné.
+1. Dans le champ Collections, sélectionnez Tâche. ******** Cela indique que le module doit renvoyer les tâches associées au projet sélectionné.
 1. Dans le champ **[!UICONTROL Outputs]** , sélectionnez **[!UICONTROL Id]** et **[!UICONTROL Name]**.
 1. Cliquez sur **[!UICONTROL OK]**.
 

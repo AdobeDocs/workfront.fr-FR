@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: emails-administration
 title: Configuration de modèles de courrier électronique
-description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer des modèles d’email pour prendre en charge les notifications de rappel.
+description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez configurer des modèles d’e-mail pour prendre en charge les notifications de rappel.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
@@ -11,18 +11,18 @@ exl-id: 2ebc3be5-2734-4012-9277-86176c070137
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 8%
+ht-degree: 99%
 
 ---
 
 # Configurer des modèles d’e-mail
 
-En tant qu’administrateur Adobe Workfront, vous pouvez configurer des modèles d’email pour prendre en charge les notifications de rappel.
+En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez configurer des modèles d’e-mail pour prendre en charge les notifications de rappel.
 
-Les modèles d’email contiennent le message envoyé aux utilisateurs lorsqu’une notification de rappel est lancée.\
-Sans modèle d&#39;email, la notification de rappel sera diffusée en tant que contenu vide dans le corps de l&#39;email.
+Les modèles d’e-mail contiennent le message envoyé aux personnes lorsqu’une notification de rappel est initiée.\
+Sans modèle d’e-mail, la notification de rappel sera délivrée sous la forme d’un contenu vide dans le corps de l’e-mail.
 
-Les modèles de courrier électronique peuvent être associés à des notifications de rappel pour les problèmes, les tâches, les projets et les feuilles de temps. Lors de la création de modèles de courrier électronique, votre administrateur Workfront peut fournir du contenu pour le courrier électronique et un objet.
+Des modèles d’e-mail peuvent être associés à des notifications de rappel pour les problèmes, les tâches, les projets et les feuilles de temps. Lors de la création de modèles d’e-mail, votre administrateur ou administratrice Workfront peut fournir le contenu de l’e-mail et une ligne d’objet.
 
 ## Conditions d’accès
 
@@ -55,17 +55,17 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 +++
 
-## Création d’un modèle de courrier électronique {#create-an-email-template}
+## Créer un modèle d’e-mail {#create-an-email-template}
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Email** > **Notifications**> **Modèles d’e-mail**.
+1. Dans le panneau de gauche, cliquez sur **E-mail** > **Notifications** > **Modèles d’e-mail**.
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
-1. Cliquez sur **Nouveau modèle de courrier électronique**.
+1. Cliquez sur **Nouveau modèle d’e-mail**.
 
-1. Dans la zone **Nouveau modèle de courrier électronique**, spécifiez les informations suivantes :
+1. Dans la zone **Nouveau modèle d’e-mail**, spécifiez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -73,53 +73,53 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td>Ajoutez un titre pour le modèle d’email. Il s’agit d’un champ obligatoire.</td> 
+      <td>Ajoutez un titre au modèle d’e-mail. Il s’agit d’un champ obligatoire.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Type d’objet</td> 
-      <td>Indiquez le type d’objet auquel vous souhaitez associer le modèle. Choisissez l’un des objets suivants :
+      <td>Spécifiez le type d’objet auquel vous souhaitez associer le modèle. Choisissez parmi les objets suivants :
       <ul>
       <li>Projet</li>
       <li>Tâche</li>
       <li>Problème</li>
       <li>Feuille de temps</li> </ul>
 
-   Il s’agit d’un champ obligatoire, défini par défaut sur Projet.</td>
+   Il s’agit d’un champ obligatoire et il est défini par défaut sur Projet.</td>
    </tr>
      <tr> 
       <td role="rowheader">Description</td> 
-      <td>Ajoutez des informations supplémentaires sur le modèle d’email, son objectif et l’audience prévue.</td> 
+      <td>Ajoutez des informations supplémentaires sur le modèle d’e-mail, son objectif et l’audience visée.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Objet </td> 
-      <td>Ajoutez le texte qui s'affiche dans la ligne Objet de l'email, lors de l'envoi du message électronique généré par le modèle. Il s’agit d’un champ obligatoire.</td> 
+      <td>Ajoutez le texte qui s’affiche dans la ligne Objet de l’e-mail, lorsque le message généré par le modèle est envoyé. Il s’agit d’un champ obligatoire.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Corps </td> 
-      <td> <p>Ajoutez le texte du contenu de l'email.</p> <p>Vous pouvez utiliser la mise en forme des HTMLS pour le contenu de l'email, comme décrit dans la section <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Ajouter une mise en forme des HTMLS à un modèle d'email</a> de cet article.</p> </td> 
+      <td> <p>Ajoutez le texte du contenu du message de l’e-mail.</p> <p>Vous pouvez utiliser le formatage HTML pour le contenu de l’e-mail, comme décrit dans la section <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Ajouter un formatage HTML à un modèle d’e-mail</a> de cet article.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Cliquer sur **Enregistrer**.
 
-## Ajouter un formatage d’HTML à un modèle d’email {#add-html-formatting-to-an-email-template}
+## Ajouter un formatage HTML à un modèle d’e-mail {#add-html-formatting-to-an-email-template}
 
-Vous pouvez ajouter des balises d’HTML aux modèles de courrier électronique pour produire des notifications personnalisées.\
-Commencez à créer le modèle d’email comme décrit dans [Créer un modèle d’email](#create-a-new-email-template).
+Vous pouvez ajouter des balises HTML aux modèles d’e-mail pour produire des notifications personnalisées.\
+Commencez à créer le modèle d’e-mail comme décrit dans [Créer un modèle d’e-mail](#create-a-new-email-template).
 
-La mise en forme des HTMLS peut enrichir vos modèles d&#39;email, comme illustré dans les sections suivantes.
+Le formatage HTML peut enrichir vos modèles d’e-mail, comme le montrent les sections suivantes.
 
-* [Lien vers des objets Workfront](#link-to-workfront-objects)
-* [Lien vers des champs personnalisés avec HTML](#link-to-custom-fields-with-html)
-* [Exemples d’HTML d’email](#html-email-examples)
+* [Lier à des objets Workfront](#link-to-workfront-objects)
+* [Lier à des champs personnalisés avec HTML](#link-to-custom-fields-with-html)
+* [Exemples d’e-mail HTML](#html-email-examples)
 
-### Lien vers des objets Workfront {#link-to-workfront-objects}
+### Lier à des objets Workfront {#link-to-workfront-objects}
 
-Vous pouvez inclure des liens vers les champs Workfront à l’aide du caractère générique `$$` pour indiquer au générateur de messagerie de rechercher des valeurs de la base de données associée à un objet spécifique.
+Vous pouvez inclure des liens vers des champs Workfront en utilisant le caractère générique `$$` pour indiquer au générateur d’e-mails de rechercher les valeurs de la base de données associées à un objet spécifique.
 
-Par exemple, le corps de l’email pour une notification alertant la personne désignée de la tâche sur le point de démarrer peut suivre cette structure :
+Par exemple, le corps de l’e-mail d’une notification avertissant la personne cessionnaire de la tâche qu’elle est sur le point de commencer peut avoir cette structure :
 
 ```html
 <html>
@@ -141,29 +141,29 @@ Par exemple, le corps de l’email pour une notification alertant la personne d�
 </html>
 ```
 
-Pour obtenir la valeur &quot;caractère générique&quot; d’un objet, effectuez l’une des opérations suivantes :
+Pour obtenir la valeur « caractère générique » d’un objet, effectuez l’une des opérations suivantes :
 
-* Reportez-vous à l’ explorateur d’API et sélectionnez les noms de vos objets dans l’onglet Champs de n’importe quel objet. Pour plus d’informations sur l’API Explorer, voir [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
+* Reportez-vous à l’explorateur d’API et sélectionnez les noms de vos objets dans l’onglet Champs de n’importe quel objet. Pour plus d’informations sur l’explorateur d’API, voir [Explorateur d’API](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Utilisez la valeur `valuefield` que vous trouvez dans une vue en mode texte d’un rapport. Pour plus d’informations sur les valeurs du mode texte, voir [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Utilisez la valeur `valuefield` que vous trouvez à l’intérieur de la vue en mode texte d’un rapport. Pour plus d’informations sur les valeurs du mode texte, voir [Vue d’ensemble du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-La valeur `heading` peut être le nom de l’objet, tel que vous souhaitez qu’il apparaisse dans le corps de l’email.
+La valeur `heading` peut être le nom de l’objet, tel qu’il doit apparaître dans le corps de l’e-mail.
 
-### Lien vers des champs personnalisés avec HTML {#link-to-custom-fields-with-html}
+### Lier à des champs personnalisés avec HTML {#link-to-custom-fields-with-html}
 
-Vous pouvez inclure des liens vers des utilisateurs et des champs personnalisés à l’aide du caractère générique `$$` pour indiquer au générateur de messagerie de rechercher les valeurs de la base de données associée à l’objet. Ils doivent être présents de chaque côté de la référence d’attribut de la base de données.
+Vous pouvez inclure des liens vers des utilisateurs et utilisatrices et des champs personnalisés en utilisant le caractère générique `$$` pour indiquer au générateur d’e-mails de rechercher des valeurs dans la base de données associée à l’objet. Ils doivent être présents des deux côtés de la référence de l’attribut de la base de données.
 
-Par exemple, l’ajout du texte suivant en tant qu’HTML ajouterait le prénom de l’utilisateur affecté à la notification de rappel associée à une tâche :
+Par exemple, en ajoutant le texte suivant en HTML, le prénom de la personne cessionnaire sera ajouté à la notification de rappel associée à une tâche :
 
 `assignedTo:firstName`
 
-Pour ajouter des champs personnalisés utilisant la même mise en forme, vous pouvez ajouter les éléments suivants dans votre notification électronique :
+Pour ajouter des champs personnalisés en utilisant le même formatage, vous pouvez ajouter ce qui suit dans votre notification par e-mail :
 
 `DE:Custom Field As It Appears in Workfront`
 
-Par exemple, il s’agit d’un modèle d’email qui comprend une référence à un champ personnalisé nommé Date de diffusion et qui suppose que le champ Date de diffusion appartient à une tâche.
+Par exemple, il s’agit d’un modèle d’e-mail qui inclut une référence à un champ personnalisé nommé Date de diffusion et qui suppose que le champ Date de diffusion appartient à une tâche.
 
-Remplacez `<your domain>` par le domaine Workfront de votre entreprise, sans les crochets :
+Remplacez `<your domain>` par le domaine Workfront de votre entreprise, sans les crochets :
 
 ```html
 <html>
@@ -193,26 +193,26 @@ Remplacez `<your domain>` par le domaine Workfront de votre entreprise, sans les
 
 >[!NOTE]
 >
->Si le champ appartient à un projet, remplacez la tâche par le projet :
+>Si le champ appartient à un projet, remplacez tâche par projet :
 >
 >`DE:Project:Delivery Date`
 
-### Exemples d’HTML d’email {#html-email-examples}
+### Exemples d’e-mail HTML {#html-email-examples}
 
-* [Notification de rappel de projet tardif (exemple)](#late-project-reminder-notification-example)
-* [Rappel Tâche ou problème sur le point de démarrer (exemple)](#task-or-issue-about-to-start-reminder-example)
+* [Notification de rappel de projet en retard (exemple)](#late-project-reminder-notification-example)
+* [Rappel de tâche ou problème sur le point de commencer (exemple)](#task-or-issue-about-to-start-reminder-example)
 
-#### Notification de rappel de projet tardif (exemple) {#late-project-reminder-notification-example}
+#### Notification de rappel de projet en retard (exemple) {#late-project-reminder-notification-example}
 
-Pour modifier un modèle d’email en vue d’un rappel de projet tardif, tenez compte de ces informations pour les champs Objet et Contenu .
+Pour modifier un modèle d’e-mail pour un rappel de projet en retard, tenez compte de ces informations pour les champs Objet et Contenu.
 
 Remplacez `<your domain>` par le domaine Workfront de votre entreprise, sans les crochets.
 
-**Objet :**
+**Objet :**
 
-Un Projet Que Vous Gérer Est Devenu En Retard
+Un projet que vous gérez a pris du retard.
 
-**Contenu :**
+**Contenu :**
 
 ```html
 <html>
@@ -232,25 +232,25 @@ Un Projet Que Vous Gérer Est Devenu En Retard
 </html>
 ```
 
-Vous obtenez alors un email similaire à ce qui suit :
+Cela produit un e-mail similaire à ce qui suit :
 
 ![](assets/project-became-late-email.png)
 
-#### Rappel Tâche ou problème sur le point de commencer {#task-or-issue-about-to-start-reminder-example}
+#### Rappel de tâche ou problème sur le point de commencer {#task-or-issue-about-to-start-reminder-example}
 
 Vous pouvez également créer une notification de rappel pour une tâche ou un problème à venir.
 
-Le code suivant peut être inclus dans un modèle d’email à utiliser pour les notifications de tâche et de rappel envoyées un nombre indéfini de jours avant la date prévue de début de la tâche ou du problème.
+Le code suivant peut être inclus dans un modèle d’e-mail à utiliser pour les notifications de rappel de tâches et de problèmes qui sont envoyées un nombre quelconque de jours avant la date de début prévue de la tâche ou du problème.
 
 Remplacez `<your domain>` par le domaine Workfront de votre entreprise, sans les crochets.
 
-Pour l’utiliser pour un message électronique de problème, remplacez la valeur `/task/view.` du lien vers l’élément de travail par `/issue/view`.
+Pour l’utiliser pour un e-mail concernant un problème, remplacez la valeur `/task/view.` dans le lien vers l’élément de travail par `/issue/view`.
 
-**Objet :**
+**Objet :**
 
 `$$name$$ to start on $$plannedStartDate$$`
 
-**Contenu :**
+**Contenu :**
 
 ```html
 <html>
@@ -289,4 +289,4 @@ Pour l’utiliser pour un message électronique de problème, remplacez la valeu
 
 ![email_template_delivered.png](assets/email-template-delivered.png)
 
-Une fois un modèle d’email créé, les utilisateurs peuvent l’associer aux notifications de rappel, comme décrit dans la section [Configuration des notifications de rappel](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Après avoir créé un modèle d’e-mail, les utilisateurs et utilisatrices peuvent l’associer à des notifications de rappel, comme décrit dans [Configurer les notifications de rappel](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

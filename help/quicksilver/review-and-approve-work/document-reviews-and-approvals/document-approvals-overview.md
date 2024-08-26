@@ -9,7 +9,7 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 57%
+ht-degree: 60%
 
 ---
 
@@ -27,7 +27,7 @@ Les nouvelles approbations de documents consistent en une reconception complète
 
 * Les boutons de décision d’approbation de document ne sont pas disponibles dans la visionneuse de vérification. Les décisions peuvent être prises dans le document Summary (Résumé), dans les widgets d’accueil de Workfront ou dans la page Détails du document.
 * Les participants à la validation du document s’affichent dans le résumé du document, et non dans l’onglet du workflow de vérification.
-* Les nouvelles approbations de document ne sont pas prises en charge dans l’outil de création de rapports actuel. Le widget Toutes les approbations disponible dans les nouveaux tableaux de bord d’accueil et de canevas fournit les détails suivants sur les nouvelles approbations de document :
+* Les nouvelles approbations de document ne sont pas prises en charge dans l’outil de création de rapports actuel. Le widget Toutes les approbations disponible dans les nouveaux tableaux de bord d’accueil et de zone de travail fournit les détails suivants sur la nouvelle approbation de documents :
 
    * Approbations par décision
    * Temps moyen d’approbation

@@ -3,7 +3,7 @@ title: "Gestion des Forms et des champs personnalisés : index de l’article"
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Vous pouvez gérer des formulaires personnalisés dans la zone Configuration .
+description: Vous pouvez gérer les formulaires personnalisés dans la zone Configuration.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -11,7 +11,7 @@ exl-id: b15e5a75-1675-48d2-9c88-e7def24ac550
 source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 51%
+ht-degree: 66%
 
 ---
 

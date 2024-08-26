@@ -2,24 +2,24 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Gérer le pourcentage d’attribution des utilisateurs et utilisatrices ou des rôles sur les tâches
-description: Le pourcentage d’allocation représente la durée pendant laquelle une ressource affectée est planifiée pour travailler sur une tâche au cours d’une journée. Il s’agit du pourcentage d’une journée de travail (selon le planning de l’utilisateur ou du projet) au cours de laquelle une ressource est allouée tout au long de la tâche.
+description: La durée quotidienne prévue pour qu’une ressource dédiée travaille sur une tâche est exprimée par le pourcentage d’affectation. Il s’agit du pourcentage d’une journée de travail (selon le planning de l’utilisateur ou de l’utilisatrice ou du projet) auquel une ressource est affectée pendant toute la durée de la tâche.
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 10%
+ht-degree: 98%
 
 ---
 
 # Gérer le pourcentage d’attribution des utilisateurs et utilisatrices ou des rôles sur les tâches
 
-Le pourcentage d’allocation représente la durée pendant laquelle une ressource affectée est planifiée pour travailler sur une tâche au cours d’une journée. Il s’agit du pourcentage d’une journée de travail (selon le planning de l’utilisateur ou du projet) au cours de laquelle une ressource est allouée tout au long de la tâche.
+La durée quotidienne prévue pour qu’une ressource dédiée travaille sur une tâche est exprimée par le pourcentage d’affectation. Il s’agit du pourcentage d’une journée de travail (selon le planning de l’utilisateur ou de l’utilisatrice ou du projet) auquel une ressource est affectée pendant toute la durée de la tâche.
 
 >[!NOTE]
 >
->Lorsque les utilisateurs sont affectés au travail, leur disponibilité en fonction de leurs plannings affecte les Dates prévues et prévues des tâches et des problèmes. Pour plus d’informations sur les plannings, voir [Création d’un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Lors de l’affectation d’utilisateurs et utilisatrices au travail, leur disponibilité en fonction de leurs plannings affecte les Dates prévues et prévisionnelles des tâches et des problèmes. Pour plus d’informations sur les plannings, voir [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## Conditions d’accès
 
@@ -44,7 +44,7 @@ Le pourcentage d’allocation représente la durée pendant laquelle une ressour
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Contribute ou supérieures pour la tâche</p> <p>Modifier les autorisations pour mettre à jour le pourcentage d’allocation dans la zone Modifier la tâche</p>  </td> 
+   <td> <p>Autorisations de contribution ou de niveau supérieur pour une tâche</p> <p>Autorisations de modification pour mettre à jour le pourcentage d’affectation dans la zone de modification de la tâche</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,41 +53,41 @@ Le pourcentage d’allocation représente la durée pendant laquelle une ressour
 
 +++
 
-## Considérations relatives à la modification des allocations de pourcentage pour les tâches
+## Considérations relatives à la modification des pourcentages d’affectation pour les tâches
 
-* Par défaut, les utilisateurs se voient attribuer un pourcentage égal de temps aux tâches auxquelles ils sont affectés.
-* Vous pouvez modifier manuellement le pourcentage d’allocation pour les utilisateurs et les rôles de tâche affectés aux tâches uniquement lorsque le type de durée de la tâche est Basé sur le travail calculé ou l’effort.
+* Par défaut, les personnes se voient attribuer un pourcentage égal de temps aux tâches auxquelles elles sont affectées.
+* Vous pouvez modifier manuellement le pourcentage d’affectation pour les utilisateurs et utilisatrices et les fonctions affectés aux tâches uniquement lorsque le type de durée de la tâche est soit « Calcul de travail », soit « Piloté par l’effort ».
 
-  Pour plus d’informations, voir [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Pour plus d’informations, voir [Vue d’ensemble de la durée de tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-* Vous ne pouvez pas modifier l’allocation de pourcentage pour les équipes affectées à des tâches.
-* Vous ne pouvez pas modifier l’allocation en pourcentage pour les utilisateurs et les rôles de tâche affectés aux problèmes.
+* Vous ne pouvez pas modifier l’affectation de pourcentage pour les équipes affectées à des tâches.
+* Vous ne pouvez pas modifier l’affectation de pourcentage pour les utilisateurs et utilisatrices et les fonctions affectés aux problèmes.
 
-## Modification de l’allocation de pourcentage d’utilisateur ou de rôle pour une tâche
+## Modifier l’affectation de pourcentage de l’utilisateur ou de l’utilisatrice ou l’affectation de rôle pour une tâche
 
-1. Accédez à une tâche pour laquelle vous modifiez l’affectation de pourcentage des ressources.
-1. Cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png) en regard du nom de la tâche, puis cliquez sur **Modifier**.
+1. Accédez à une tâche dont vous souhaitez modifier l’affectation de pourcentage des ressources.
+1. Cliquez sur le menu **Plus** ![](assets/qs-more-icon-on-an-object.png) à côté du nom de la tâche, puis cliquez sur **Modifier**.
 
    Ou
 
-   Cliquez sur la zone **Affectations** dans l’en-tête de la tâche, puis cliquez sur **Avancé**.
+   Cliquez sur la zone des **affectations** dans l’en-tête de la tâche, puis cliquez sur **Avancé**.
 
-1. Assurez-vous que le **type de durée** de la tâche est l’un des suivants :
+1. Assurez-vous que le **type de durée** de la tâche est l’un des suivants :
 
    * Calcul de travail
-   * Piloté par l&#39;effort
+   * Piloté par l’effort
 
    >[!TIP]
    >
-   >* Pour le type Durée d’affectation calculée , Workfront utilise la formule suivante pour calculer le pourcentage d’affectation de chaque personne désignée : `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
-   >* Pour le type Durée simple , vous pouvez estimer les heures affectées à chaque ressource, et non le pourcentage d’allocation.
+   >* Pour le type de durée « Calcul d’affectation », Workfront utilise la formule suivante pour calculer le pourcentage d’affectation de chaque personne cessionnaire : `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
+   >* Pour le type de durée « Simple », vous pouvez estimer les heures affectées à chaque ressource et non le pourcentage d’affectation.
 
-1. Cliquez sur **Affectations**, puis modifiez les **Allocations** pour chaque personne désignée pour la tâche.
+1. Cliquez sur **Affectations**, puis modifiez les **Attributions** pour chaque personne cessionnaire de la tâche.
 
-   Vous pouvez uniquement modifier le pourcentage d’attribution pour les affectations d’utilisateurs et de rôles de tâche.
+   Vous ne pouvez modifier le pourcentage d’affectation que pour les affectations d’utilisateurs et d’utilisatrices et pour les affectations de fonctions.
 
    Vous ne pouvez pas modifier le pourcentage d’affectation d’une équipe affectée à une tâche.
 
-   ![Modifier le pourcentage d’allocation](assets/advanced-assignments-allocation-percentage.png)
+   ![Modifier le pourcentage d’affectation](assets/advanced-assignments-allocation-percentage.png)
 
 1. Cliquer sur **Enregistrer**.

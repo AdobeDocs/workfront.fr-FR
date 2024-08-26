@@ -12,7 +12,7 @@ exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
 source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '963'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ Pour déterminer si votre entreprise est sur Adobe Unified Experience, examine
 
 1. Sélectionnez l’onglet **Adobe**.
 
-1. (Facultatif et conditionnel) Si votre entreprise a configuré le mappage d’attributs dans l’expérience Classic et que vous souhaitez le copier dans Adobe Unified Experience, cliquez sur **Migrer les mappages**. Vous pouvez ensuite ignorer, supprimer ou modifier ces mappages.
+1. (Facultatif et conditionnel) Si votre entreprise a configuré le mappage d’attributs dans l’expérience Classic et que vous souhaitez le copier dans Adobe Unified Experience, cliquez sur Migrer les mappages. **** Vous pouvez ensuite ignorer, supprimer ou modifier ces mappages.
 
    >[!NOTE]
    >

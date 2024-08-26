@@ -10,7 +10,7 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
 source-wordcount: '3684'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -145,7 +145,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
       * [Gérer les finances des tâches dans la section Détails de la tâche](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Facultatif) S’il n’existe aucun formulaire personnalisé joint à la tâche, commencez à saisir le nom d’un formulaire dans le champ **Ajouter un formulaire personnalisé** puis sélectionnez-le lorsqu’il s’affiche dans la liste, puis cliquez sur **Enregistrer les modifications**.
-   1. (Facultatif) Cliquez sur l’icône **Exporter** ![](assets/export.png) pour exporter les informations de vue d’ensemble et de formulaires personnalisés vers un fichier PDF, puis cliquez sur **Exporter**. Sélectionnez l’une des options suivantes :
+   1. (Facultatif) Cliquez sur l’icône Exporter  pour exporter les informations de vue d’ensemble et de formulaires personnalisés vers un fichier PDF, puis cliquez sur Exporter. ****![](assets/export.png)**** Sélectionnez l’une des options suivantes :
 
       * Sélectionner tout (s’affiche uniquement lorsqu’au moins un formulaire personnalisé est joint)
       * Vue d’ensemble
@@ -343,7 +343,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
    >* Réaffectez l’élément de travail aux ressources actives.
    >* Associez les personnes d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 
-1. (Facultatif) Indiquez si une personne cessionnaire est la personne cessionnaire principale de la tâche en sélectionnant la case d’option **Propriétaire** en regard de son nom. Une équipe ne peut pas être le cessionnaire principal d’une tâche.
+1. (Facultatif) Indiquez si une personne cessionnaire est la personne cessionnaire principale de la tâche en sélectionnant la case d’option Propriétaire en regard de son nom. **** Une équipe ne peut pas être le cessionnaire principal d’une tâche.
 1. (Conditionnel et le cas échéant) Mettez à jour les champs suivants :
 
    <table style="table-layout:auto"> 
@@ -359,9 +359,9 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
       <li> <p> La durée totale de la tâche. </p> </li> 
        </ul> <p>Votre administrateur Workfront ou un administrateur de groupe sélectionne le paramètre Type de durée par défaut pour les tâches de votre système ou de votre groupe. Pour plus d’informations sur la définition des paramètres par défaut d’un projet, consultez la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences des projets à l’échelle du système</a>. </p> <p>Les types de durée vous permettent de définir des affectations de ressources cohérentes en fonction des besoins de la tâche. Pour plus d’informations sur le type de durée d’une tâche, consultez la section <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée et du type de durée des tâches</a>. </p> <p>Sélectionnez l’une des options suivantes : </p> 
        <ul> 
-      <li> <p>Calcul d'affectation </p> </li> 
+      <li> <p>Calcul d’affectation </p> </li> 
       <li> <p> Calcul de travail </p> </li> 
-      <li> <p>Piloté par l'effort </p> </li> 
+      <li> <p>Piloté par l’effort </p> </li> 
       <li> <p>Simple</p> </li> 
        </ul> </td> 
      </tr> 
@@ -458,7 +458,7 @@ Vous pouvez modifier une tâche à l’aide des zones Modifier la tâche ou Dét
    </tr> 
    <tr> 
    <td role="rowheader">Allocation</td> 
-   <td> <p>Si la contrainte de tâche est Calculée de travail ou Piloté par l’effort, spécifiez l’<strong>affectation en %</strong> (pourcentage d’affectation) pour chaque personne assignée. Il s’agit de la durée du planning que la personne assignée peut consacrer à cette tâche. La modification du pourcentage d’affectation d’une personne assignée modifie le nombre d’heures prévues d’une tâche. </p> <p>Lorsque la contrainte de tâche est simple, vous pouvez spécifier les éléments suivants :</p> 
+   <td> <p>Si la contrainte de tâche est Calculée de travail ou Piloté par l’effort, spécifiez l’affectation en % (pourcentage d’affectation) pour chaque personne assignée. <strong></strong> Il s’agit de la durée du planning que la personne assignée peut consacrer à cette tâche. La modification du pourcentage d’affectation d’une personne assignée modifie le nombre d’heures prévues d’une tâche. </p> <p>Lorsque la contrainte de tâche est simple, vous pouvez spécifier les éléments suivants :</p> 
       <ul> 
       <li> <p>Nombre d’heures d’affectation de chaque personne assignée.</p> </li> 
       <li> <p>Nombre d’heures prévues de la tâche</p> </li> 
@@ -573,8 +573,8 @@ Vous pouvez définir des formulaires personnalisés par défaut à joindre autom
       <td> <p>Indiquez le délai de nivellement en heures. </p> <p> Pour plus d’informations sur le nivellement des retards, consultez la section <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Mettre à jour le délai de nivellement des tâches</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Processus d'approbation</td> 
-      <td> <p>Sélectionnez un processus d’approbation à associer à la tâche. Votre administrateur ou administratrice Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer à des tâches. Toute personne disposant d’un accès administratif aux processus d’approbation peut également créer des processus d’approbation spécifiques à un groupe. </p> <p>Pour plus d’informations sur la création de processus d’approbation, consultez la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md">Créer un processus d’approbation pour les éléments de travail</a>. Tenez compte des éléments suivants lorsque vous ajoutez des processus d’approbation : </p> 
+      <td role="rowheader">Processus d’approbation</td> 
+      <td> <p>Sélectionnez un processus d’approbation à associer à la tâche. Votre administrateur ou administratrice Workfront doit définir des processus d’approbation au niveau du système avant de pouvoir les associer à des tâches. Toute personne disposant d’un accès administratif aux processus d’approbation peut également créer des processus d’approbation spécifiques à un groupe. </p> <p>Pour plus d’informations sur la création de processus d’approbation, consultez la section Créer un processus d’approbation pour les éléments de travail. <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md"></a> Tenez compte des éléments suivants lorsque vous ajoutez des processus d’approbation : </p> 
        <ul>
 
    <li> <p>Seuls les processus d’approbation actifs sont affichés dans la liste. </p> </li>
@@ -615,12 +615,12 @@ Votre administrateur ou administratrice système ou de groupe peut personnaliser
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-Par défaut, les champs suivants sont inclus dans l’en-tête de la tâche :
+Par défaut, les champs suivants sont inclus dans l’en-tête de la tâche :
 
 * Nom de la tâche
 * Pourcentage d’achèvement
 * Affectations
-* Date d&#39;achèvement prévue
+* Date d’achèvement prévue
 
   >[!CAUTION]
   >

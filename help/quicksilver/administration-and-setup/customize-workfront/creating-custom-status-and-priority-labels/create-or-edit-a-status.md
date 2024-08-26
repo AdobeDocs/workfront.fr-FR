@@ -3,7 +3,7 @@ title: Création ou modification d’un état
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-description: En tant qu’administrateur Adobe Workfront, vous pouvez créer des statuts personnalisés pour les projets, les tâches et les problèmes.
+description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des statuts personnalisés pour les projets, les tâches et les problèmes.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
 source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '955'
-ht-degree: 39%
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 39%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
-En tant qu’administrateur Adobe Workfront, vous pouvez créer des statuts personnalisés pour les projets, les tâches et les problèmes. Il peut s’agir d’utilisateurs sur l’ensemble du système Workfront ou de groupes ou sous-groupes spécifiques. Pour plus d’informations sur les états, voir [Présentation des états](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des statuts personnalisés pour les projets, les tâches et les problèmes. Ils peuvent être pour les utilisateurs et utilisatrices de l’ensemble du système Workfront ou pour des groupes ou sous-groupes spécifiques. Pour plus d’informations sur les statuts, voir [Vue d’ensemble des statuts](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 >[!NOTE]
 >
->Les administrateurs de groupe peuvent également créer leurs propres états de groupe, à utiliser uniquement par leurs groupes. Pour plus d’informations, voir [Création ou modification de l’état d’un groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>Les administrateurs et administratrices de groupes peuvent également créer leurs propres statuts de groupe, à l’usage exclusif de leurs groupes. Pour plus d’informations, voir [Créer ou modifier un statut de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
 ## Conditions d’accès
 
@@ -60,37 +60,37 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 +++
 
-## Création ou modification d’un état personnalisé
+## Créer ou modifier un statut personnalisé
 
-Vous pouvez ajouter un état personnalisé à utiliser par l’ensemble de votre organisation ou par un seul groupe.
+Vous pouvez ajouter un statut personnalisé qui sera utilisé par l’ensemble de votre organisation ou par un seul groupe.
 
-Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation, vous pouvez le configurer afin que tous les groupes du système puissent l’utiliser sans le modifier. Vous pouvez également le configurer afin que les administrateurs de groupe puissent le modifier pour leurs groupes, comme expliqué dans la section [Créer ou modifier un état de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisation, vous pouvez le configurer de manière à ce que tous les groupes du système puissent l’utiliser sans le modifier. Vous pouvez également le configurer de manière à ce que les administrateurs et administratrices de groupes puissent le modifier pour leurs groupes, comme expliqué dans [Créer ou modifier un statut de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Préférences du projet** > **États**.
+1. Dans le panneau de gauche, cliquez sur **Préférences du projet**> **Statuts**.
 
-1. (Conditionnel) Si vous créez ou modifiez un état pour l’utiliser à l’échelle du système, assurez-vous que l’option **États du système** est sélectionnée dans la zone située dans le coin supérieur droit.
+1. (Le cas échéant) Si vous créez ou modifiez un statut destiné à être utilisé à l’échelle du système, assurez-vous que l’option **Statuts du système** est sélectionnée dans la zone située dans le coin supérieur droit.
 
    ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    Ou
 
-   Si l’état d’un groupe ou d’un sous-groupe est défini, commencez à saisir le nom du groupe dans le coin supérieur droit, puis sélectionnez-le lorsqu’il s’affiche.
+   Si le statut est pour un groupe ou un sous-groupe, commencez à saisir le nom du groupe dans le coin supérieur droit, puis sélectionnez-le lorsqu’il apparaît.
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche** ou **Problèmes**) que vous souhaitez associer au statut.
 
-1. Si vous créez un état, cliquez sur **Ajouter un nouvel état**.
+1. Si vous créez un statut, cliquez sur **Ajouter un nouveau statut**.
 
    Ou
 
-   Si vous modifiez un état existant, passez la souris dessus, puis cliquez sur l’icône **Modifier** qui s’affiche à l’extrême droite.
+   Si vous modifiez un statut existant, survolez-le, puis cliquez sur l’icône **Modifier** qui s’affiche complètement à droite.
 
    ![](assets/custom-status-edit.png)
 
-1. Configurez le statut à l’aide des options suivantes :
+1. Configurez le statut à l’aide des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -98,7 +98,7 @@ Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation
     <tbody> 
      <tr> 
       <td role="rowheader">Nom du statut</td> 
-      <td> <p>Saisissez un nom pour ce modèle... Il s’agit d’un champ obligatoire.</p> <p>Lorsque vous créez un nom de statut, tenez compte du faut que d’autres personnes du système peuvent créer un statut homographe. Il est recommandé d’utiliser un nom unique afin d’éviter toute confusion lors de la sélection de statuts dans Workfront.</p> </td> 
+      <td> <p>Saisissez un nom pour ce modèle. Il s’agit d’un champ obligatoire.</p> <p>Lorsque vous créez un nom de statut, tenez compte du faut que d’autres personnes du système peuvent créer un statut homographe. Il est recommandé d’utiliser un nom unique afin d’éviter toute confusion lors de la sélection de statuts dans Workfront.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
@@ -118,23 +118,23 @@ Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation
      </tr> 
      <tr> 
       <td role="rowheader">Masquer le statut</td> 
-      <td> <p>(Statuts des projets et des tâches uniquement)</p> <p>Activez cette option si vous souhaitez que l’état soit masqué aux utilisateurs et utilisatrices. Lorsque cette option est désactivée (paramètre par défaut), tous les utilisateurs du système peuvent utiliser l’état .</p> <p>Vous pouvez masquer l’état d’un problème en désactivant cette option pour les 4 types de problèmes (rapport de bogues, ordre de modification, problème, requête).</p> </td> 
+      <td> <p>(Statuts des projets et des tâches uniquement)</p> <p>Activez cette option si vous souhaitez que l’état soit masqué aux utilisateurs et utilisatrices. Lorsque cette option est désactivée (paramètre par défaut), l’ensemble des utilisateurs et utilisatrices du système peuvent utiliser le statut.</p> <p>Vous pouvez masquer le statut d’un problème en désactivant cette option pour les 4 types de problèmes (rapport de bug, ordre de modification, problème, demande).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verrouiller pour tous les groupes</td> 
       <td>
-       <p>Lorsqu’un état est verrouillé, les utilisateurs du système peuvent le voir et l’utiliser, et les administrateurs de groupe ne peuvent pas le personnaliser pour leurs groupes.</p> 
-       <p>Lorsqu’un état est déverrouillé, les administrateurs de groupe peuvent le personnaliser pour leurs groupes individuels.</p>
+       <p>Lorsqu’un statut est verrouillé, les personnes de l’ensemble du système peuvent le voir et l’utiliser et les administrateurs et administratrices de groupe ne peuvent pas le personnaliser pour leurs groupes.</p> 
+       <p>Lorsqu’un statut est déverrouillé, les administrateurs et administratrices de groupes peuvent le personnaliser pour leurs groupes individuels.</p>
 
    <div>
-       <p>Vous pouvez utiliser les états verrouillés et déverrouillés dans un processus d’approbation du système. Si vous créez un processus d’approbation du système avec l’état déverrouillé, les utilisateurs de tout le système peuvent associer le processus d’approbation à n’importe quel projet, tâche ou problème du système.</p>
-       <p> Dans les scénarios suivants, des messages d’avertissement s’affichent pour vous aider, ainsi que vos utilisateurs, à comprendre les résultats du déverrouillage d’un état :</p>
+       <p>Vous pouvez utiliser les statuts verrouillés et déverrouillés dans le cadre d’un processus d’approbation de système. Si vous créez un processus d’approbation de système avec un statut déverrouillé, les utilisateurs et utilisatrices dans tout le système peuvent associer le processus d’approbation à n’importe quel objet (projet, tâche ou problème) du système.</p>
+       <p> Dans les scénarios suivants, des messages d’avertissement s’affichent pour vous aider, vous et vos utilisateurs et utilisatrices, à comprendre les conséquences du déverrouillage d’un statut :</p>
        <ul>
-       <li>Un administrateur déverrouille un état au niveau du système utilisé dans un processus d’approbation. Un message avertit que l’état de déverrouillage de leurs groupes est susceptible d’être supprimé, ce qui empêcherait les membres de ces groupes d’utiliser correctement ce processus d’approbation pour les objets qui leur sont assignés.</li>
-       <li>Un utilisateur commence à modifier un processus d’approbation qui utilise l’état déverrouillé. Un message avertit l’utilisateur de l’état déverrouillé afin qu’il puisse déterminer s’il est préférable de le reverrouiller ou de le remplacer.</li>
-       <li>Un processus d’approbation au niveau du système avec un état déverrouillé est associé à un objet et l’état a été supprimé pour le groupe affecté à l’objet. Lorsqu’un membre du groupe accède à la section Validations de l’objet, un message explique que le processus d’approbation ne peut pas être lancé pour l’objet.</li>
+       <li>Un administrateur ou une administratrice déverrouille un statut au niveau du système utilisé dans un processus d’approbation. Un message l’avertit que le statut de déverrouillage de ses groupes est susceptible d’être supprimé, ce qui empêcherait les personnes membres de ces groupes d’utiliser correctement ce processus d’approbation pour les objets qui leur sont affectés.</li>
+       <li>Une personne commence à modifier un processus d’approbation qui utilise le statut déverrouillé. Un message l’avertit du statut déverrouillé afin qu’elle puisse déterminer s’il est préférable de le reverrouiller ou de le remplacer.</li>
+       <li>Un processus d’approbation au niveau du système avec un statut déverrouillé est associé à un objet et le statut a été supprimé pour le groupe affecté à l’objet. Lorsqu’une personne membre du groupe accède à la section Approbations de l’objet, un message explique que le processus d’approbation ne peut pas être lancé pour l’objet.</li>
        </ul>
-       <p>Pour plus d’informations sur les états de verrouillage, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">États verrouillés et déverrouillés au niveau du système</a>.</p>
+       <p>Pour plus d’informations sur le verrouillage des statuts, voir <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Statuts verrouillés et déverrouillés au niveau du système</a>.</p>
        </div>
       </td>
      </tr> 
@@ -143,6 +143,6 @@ Lorsque vous créez un état personnalisé pour l’ensemble de l’organisation
 
 1. Cliquer sur **Enregistrer**.
 
-   Pour obtenir des instructions sur la façon de faire de cet état un état par défaut, voir [Utilisation d’états personnalisés comme états par défaut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   Pour plus d’informations sur la définition de ce statut comme statut par défaut, voir [Utiliser des statuts personnalisés comme statuts par défaut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
-Pour plus d’informations sur la réorganisation des états d’un groupe, voir [Réorganiser les états au niveau du système et du groupe](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Pour plus d’informations sur la réorganisation des statuts de groupes, voir [Réorganiser les statuts de groupes et à l’échelle du système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

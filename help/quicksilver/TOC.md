@@ -6,7 +6,7 @@ feature-set: Workfront
 source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
 source-wordcount: '14299'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 93%
          * [Autres améliorations apportées au délai de publication du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [Mises à jour de l’expérience utilisateur (4e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
       * Version du 3e trimestre 2024 {#release-24-q3}
-         * [Présentation de la version 2024 du troisième trimestre](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
-         * [Améliorations de l’administrateur du troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
-         * [Améliorations de la gestion financière au 3e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
+         * [Vue d’ensemble de la version du 3e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+         * [Améliorations apportées à l’administration (3e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
+         * [Améliorations apportées à la gestion financière (3e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
          * [Améliorations de l’intégration 2024 au troisième trimestre](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md)
-         * [Améliorations du projet 2024 Q3](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
+         * [Améliorations apportées aux projets (3e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [Améliorations de la vérification au troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md)
-         * [Améliorations de la gestion des ressources au troisième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
-         * [Autres améliorations au cours de la période de publication du troisième trimestre 2024](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
+         * [Améliorations de la gestion des ressources (3e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
+         * [Autres améliorations au cours de la période de la version du 3e trimestre 2024](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [Mises à jour de l’apparence et de la convivialité au cours de la période de la version du 3e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * Version du 2e trimestre 2024 {#release-24-q2}
-         * [Version 2024 - Aperçu](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
+         * [Vue d’ensemble de la version du 2e trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [Améliorations apportées à l’administration (2e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [Améliorations apportées à la gestion des documents (2e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
          * [Améliorations apportées à la page d’accueil (2e trimestre 2024)](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
@@ -76,8 +76,8 @@ ht-degree: 93%
          * [Améliorations apportées à l’application mobile (version 23.3)](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
          * [Autres améliorations (version 23.3)](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Mises à jour de l’expérience utilisateur (version 23.3)](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
-      * Version 23.3 {#release-23-2}
-         * [Vue d’ensemble de la version 23.3](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+      * Version 23.2 {#release-23-2}
+         * [Vue d’ensemble de la version 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [Améliorations apportées à l’administration (version 23.2)](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [Améliorations apportées à la méthode agile (version 23.2)](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [Améliorations de la gestion de projets (version 23.2)](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -171,7 +171,7 @@ ht-degree: 93%
          * [Améliorations apportées à l’application mobile (version 21.1)](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [Autres améliorations (version 21.1)](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Activité Version d’Adobe Workfront Fusion {#fusion-release}
-         * [Activité Publication de fusion Adobe Workfront](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Activité Version d’Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 5 août 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 29 juillet 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
          * [Activité Version de Workfront Fusion : semaine du mardi 22 juillet 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
@@ -562,7 +562,7 @@ ht-degree: 93%
          * [Accorder l’accès à la gestion des ressources](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Accorder l’accès aux Objectifs Workfront](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * Authentification unique dans Workfront {#sso}
-         * [Authentification unique : index de l’article](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+         * [Authentification unique : index des articles](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Vue d’ensemble de l’authentification unique](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [Mettre à jour les utilisateurs et utilisatrices pour l’authentification unique](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [Configurer Workfront avec SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
@@ -869,7 +869,7 @@ ht-degree: 93%
       * [Vue d’ensemble des objets [!DNL Adobe Workfront]](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [Comprendre la navigation pour un utilisateur ou une utilisatrice de licence de travail](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Comprendre la navigation pour un utilisateur ou une utilisatrice de licence de révision](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
-      * [Présentation des dates de projet, de tâche et de publication dans Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+      * [Vue d’ensemble des dates des projets, tâches et problèmes dans Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Accueil {#home}
       * [Page d’accueil](workfront-basics/using-home/home.md)
       * Nouvel accueil {#new-home}
@@ -895,10 +895,10 @@ ht-degree: 93%
    * Assistant IA {#ai-assistant}
       * [Assistant IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [Présentation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
-      * [Résumer à l’aide de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
-      * [Obtenir de l’aide à partir de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
-      * [Révision des formules de champ calculé à l’aide de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
-      * [Activation ou désactivation de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
+      * [Résumer à l’aide de l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
+      * [Obtenir de l’aide à partir de l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+      * [Vérifier des formules de champ calculé à l’aide de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [Activer ou désactiver l’assistant IA.](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * Mettre à jour des éléments de travail et afficher les mises à jour {#update-work-items-view-updates}
       * [Mettre à jour des éléments de travail et afficher les mises à jour : index des articles](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Vue d’ensemble de la section des mises à jour](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -966,7 +966,7 @@ ht-degree: 93%
          * [Se déconnecter d’Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
          * [Réinitialiser le mot de passe d’un utilisateur ou d’une utilisatrice avec l’authentification améliorée](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [Recevoir des invitations par e-mail et créer un mot de passe pour Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-         * [Créer un compte dans  [!DNL Adobe Workfront]  en tant qu’utilisateur ou utilisatrice externe](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+         * [Créer un compte dans [!DNL Adobe Workfront] en tant qu’utilisateur ou utilisatrice externe](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [Réinitialiser votre mot de passe](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * Applications mobiles {#mobile-apps}
       * [Applications mobiles](workfront-basics/mobile-apps/mobile-apps.md)
@@ -1090,7 +1090,7 @@ ht-degree: 93%
          * [Assigner des utilisateurs et utilisatrices à une story sur le panorama Scrum](agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
          * [Classer les stories par couleur sur le panorama Scrum](agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md)
          * [Modifier l’ordre des stories sur le panorama Scrum](agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
-         * [Filtrer par utilisateur ou utilisatrice sur le panorama Scrum ](agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
+         * [Filtrer par utilisateur ou utilisatrice sur le panorama Scrum](agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
          * [Ajouter des stories et des problèmes à partir du panorama Scrum](agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
          * [Gérer les stories et les problèmes sur le panorama Scrum](agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
          * [Mettre à jour le statut des stories et des sous-tâches sur le panorama Scrum](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
@@ -1155,7 +1155,7 @@ ht-degree: 93%
          * [Créer un dossier lié à Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Dissocier ou supprimer des ressources et des dossiers d’Experience Manager Assets ou Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Utiliser les workflows dans l’intégration d’Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
-         * [Utilisation de Workfront Fusion pour convertir un problème Workfront en projet qui comprend des workflows Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
+         * [Utiliser Workfront Fusion pour convertir un problème Workfront en projet qui comprend des workflows Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Dépanner l’intégration d’Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migrer à partir des connecteurs hérité ou amélioré {#migrate-from-legacy-enhanced-connectors}
       * [Migrer à partir des connecteurs hérité ou amélioré](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
@@ -1511,20 +1511,20 @@ ht-degree: 93%
       * [Nom d’utilisateur ou d’utilisatrice déjà en cours d’utilisation](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Rapports {#reporting}
    * [Rapports et tableaux de bord : index des articles](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * Tableaux de bord de canevas {#canvas-dashboards}
+   * Tableaux de bord de zones de travail {#canvas-dashboards}
       * [Tableaux de bord Zone de travail.](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-      * Gérer les tableaux de bord de canevas {#manage-canvas-dashboards}
-         * [Gestion des tableaux de bord de canevas](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
-         * [Prise en main des tableaux de bord de zone de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-         * [Ajout, suppression ou organisation de rapports dans un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
-         * [Partage d’un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-      * Types de rapports Tableau de bord du canevas {#report-types}
-         * [Types de rapports du tableau de bord du canevas](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
-         * [Ajout d’un rapport existant à un tableau de bord Zone de travail](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-         * [Création d’un rapport sur les indicateurs de performance clés dans un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [Créer un rapport de graphique dans un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [Créer un rapport de tableau dans un tableau de bord de zone de travail](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [Ajout d’un rapport d’approbations en attente à un tableau de bord Zone de travail](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+      * Gérer les tableaux de bord de zones de travail {#manage-canvas-dashboards}
+         * [Gérer les tableaux de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Commencer avec les tableaux de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [Ajouter, supprimer ou organiser des rapports dans un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [Partager un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * Types de rapports du tableau de bord de zones de travail {#report-types}
+         * [Vue d’ensemble des types de rapports du tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [Ajouter un rapport existant à un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [Créer un rapport de KPI dans un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Créer un rapport de graphique dans un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Créer un rapport de tableau dans un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Ajouter un rapport d’approbations en attente à un tableau de bord de zones de travail](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * Rapports {#reports}
       * [Rapports](reports-and-dashboards/reports/reports-overview.md)
       * Concepts de base de la création de rapports (reporting) {#report-basics}
@@ -1733,7 +1733,7 @@ ht-degree: 93%
    * Lac de données Workfront {#data-lake}
       * [Vue d’ensemble du lac de données Workfront](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Créer un compte de lecteur](reports-and-dashboards/data-lake/create-a-reader-account.md)
-      * [Établissement d’une connexion au lac de données Workfront](reports-and-dashboards/data-lake/share-data-externally.md)
+      * [Établir une connexion au lac de données Workfront](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Dictionnaire de données du lac de données Workfront](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Exemples de requêtes de lac de données Workfront de base](reports-and-dashboards/data-lake/basic-query-examples.md)
 * Gérer les ressources {#manage-resources}
@@ -1929,7 +1929,7 @@ ht-degree: 93%
          * [Désactiver le partage d’épreuve via une URL publique ou un code intégré](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Questions fréquentes : relecture dans Adobe Workfront - Migration des États-Unis vers la zone EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [Le nom du document a changé après le chargement et contient un caractère non valide](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
-         * [Bon à tirer d’un PowerPoint avec une vidéo incorporée](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+         * [Relire un PowerPoint avec une vidéo incorporée](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * Conseils, astuces et dépannage pour les approbations {#ttt-approvals}
       * [Conseils, astuces et dépannage pour les validations : index des articles](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Afficher le nombre de décisions relatives aux épreuves et aux documents pour tous les utilisateurs et utilisatrices](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2031,21 +2031,21 @@ ht-degree: 93%
       * [Personnaliser la terminologie d’Objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Partager un objectif dans Objectifs Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Activer les notifications d’Objectifs Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Planification Adobe Workfront {#adobe-workfront-planning}
+* Adobe Workfront Planning {#adobe-workfront-planning}
    * [Adobe Workfront Planning : index des articles](planning/planning-information.md)
-   * Informations générales de la planification Adobe Workfront {#adobe-workfront-planning-general-information}
-      * [Adobe Workfront Planning - Informations générales : index des articles](planning/general/planning-general-article-index.md)
+   * Informations générales sur Adobe Workfront Planning {#adobe-workfront-planning-general-information}
+      * [Informations sur Adobe Workfront Planning : index des articles](planning/general/planning-general-article-index.md)
       * [Vue d’ensemble d’Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Principes de base des API de planification Adobe Workfront](planning/general/planning-api-basics.md)
       * [Présentation de l’assistant de planification Adobe Workfront AI](planning/general/planning-ai-assistant-overview.md)
       * [Activité de mise à jour en cours de la planification Adobe Workfront](planning/general/release-activity.md)
       * [Archives de l’activité de planification Adobe Workfront pour 2023](planning/general/release-activity-archives-2023.md)
       * [Présentation des limites des objets de la planification Adobe Workfront](planning/general/limitations-overview.md)
-   * Architecture de planification Adobe Workfront {#adobe-workfront-planning-architecture}
+   * Architecture d’Adobe Workfront Planning {#adobe-workfront-planning-architecture}
       * [Architecture : index des articles](planning/architecture/architecture-information.md)
       * [Présentation des espaces de travail](planning/architecture/workspaces-overview.md)
       * [Créer des espaces de travail](planning/architecture/create-workspaces.md)
-      * [Types d’enregistrement - Aperçu](planning/architecture/overview-of-record-types.md)
+      * [Vue d’ensemble des types d’enregistrement](planning/architecture/overview-of-record-types.md)
       * [Créer des types d’enregistrements](planning/architecture/create-record-types.md)
       * [Connexion aux types d’enregistrement - Aperçu](planning/architecture/connect-record-types-overview.md)
       * [Connecter des types d’enregistrements](planning/architecture/connect-record-types.md)
@@ -2055,7 +2055,7 @@ ht-degree: 93%
       * [Supprimer des types d’enregistrements](planning/architecture/delete-record-types.md)
       * [Exemple de connexion de types d’enregistrements et d’enregistrements](planning/architecture/example-connect-record-types-and-records.md)
       * [Liste des modèles d’espace de travail](planning/architecture/workspace-templates.md)
-   * Champs de planification Adobe Workfront {#adobe-workfront-planning-fields}
+   * Champs d’Adobe Workfront Planning {#adobe-workfront-planning-fields}
       * [Champs : index des articles](planning/fields/fields-information.md)
       * [Vue d’ensemble des champs](planning/fields/fields-overview.md)
       * [Créer des champs](planning/fields/create-fields.md)
@@ -2063,14 +2063,14 @@ ht-degree: 93%
       * [Supprimer des champs](planning/fields/delete-fields.md)
       * [Vue d’ensemble des champs de formule](planning/fields/formula-fields.md)
       * [Champ Principal - Aperçu](planning/fields/primary-field-overview.md)
-   * Accès à la planification Adobe Workfront {#adobe-workfront-planning-access}
-      * [Informations d’accès à la planification Adobe Workfront : index des articles](planning/access/access-information.md)
+   * Accès à Adobe Workfront Planning {#adobe-workfront-planning-access}
+      * [Informations sur l’accès à Adobe Workfront Planning : index des articles](planning/access/access-information.md)
       * [Vue d’ensemble des accès](planning/access/access-overview.md)
       * [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
       * [Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Partager des espaces de travail](planning/access/share-workspaces.md)
       * [Partager des vues](planning/access/share-views.md)
-   * Enregistrements de planification Adobe Workfront {#adobe-workfront-planning-records}
+   * Enregistrements d’Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Enregistrements : index des articles](planning/records/records-information.md)
       * [Créer des enregistrements](planning/records/create-records.md)
       * [Présentation des enregistrements connectés](planning/records/connected-records-overview.md)
@@ -2082,21 +2082,21 @@ ht-degree: 93%
       * [Gérer les commentaires d’enregistrement](planning/records/manage-record-comments.md)
       * [Vue d’ensemble de la section Historique](planning/records/history-section-overview.md)
       * [Ajouter une miniature à un enregistrement](planning/records/add-thumbnails-to-records.md)
-      * [Ajout d’une image de couverture à un enregistrement](planning/records/add-a-cover-image-to-a-record.md)
-      * [Gestion de la mise en page de la page d’enregistrement](planning/records/manage-the-record-page.md)
-      * [Gestion des enregistrements dans la section Planification des objets Adobe Workfront](planning/records/manage-records-in-planning-section.md)
+      * [Ajouter une image de couverture à un enregistrement](planning/records/add-a-cover-image-to-a-record.md)
+      * [Gérer la mise en page de la page d’enregistrement](planning/records/manage-the-record-page.md)
+      * [Gérer des enregistrements dans la section Planning des objets Adobe Workfront](planning/records/manage-records-in-planning-section.md)
       * [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md)
-   * Vues de planification Adobe Workfront {#adobe-workfront-planning-views}
+   * Vues d’Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Vues : index des articles](planning/views/views-information.md)
       * [Gérer les vues d’enregistrement](planning/views/manage-record-views.md)
       * [Gérer la vue de tableau](planning/views/manage-the-table-view.md)
       * [Gérer la vue chronologique](planning/views/manage-the-timeline-view.md)
       * [Gérer la vue de calendrier](planning/views/manage-the-calendar-view.md)
-   * Notifications de la planification Adobe Workfront {#adobe-workfront-planning-notifications}
-      * [Notifications Adobe Workfront Planning : index des articles](planning/notifications/notifications-information.md)
-      * [Gestion des préférences de notification Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)
-      * [Gestion des notifications électroniques d’Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
-      * [Gestion des notifications in-app de la planification Adobe Workfront](planning/notifications/manage-planning-in-app-notifications.md)
+   * Notifications d’Adobe Workfront Planning {#adobe-workfront-planning-notifications}
+      * [Notifications d’Adobe Workfront Planning : index des articles](planning/notifications/notifications-information.md)
+      * [Gérer les préférences de notification d’Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)
+      * [Gérer les notifications par e-mail d’Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
+      * [Gérer les notifications in-app d’Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Modèle de tableau d’accès à Fusion](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
@@ -2105,13 +2105,13 @@ ht-degree: 93%
       * [Vue d’ensemble d’Adobe Workfront Fusion](workfront-fusion/get-started/workfront-fusion-overview.md)
       * [Parcourir la nouvelle expérience dans Workfront Fusion](workfront-fusion/get-started/new-fusion-ui.md)
       * [Termes de base d’Adobe Workfront Fusion](workfront-fusion/get-started/basic-terms.md)
-      * Créer des scénarios pratiques {#practice-scenarios-in-workfront-fusion}
-         * [Création de scénarios d’pratique](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
-         * [Création d’un scénario de base dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
-         * [Ajout d’un module de déclenchement à un scénario de base dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
-         * [Utilisez une fonction pour mettre à jour un projet dans un scénario simple dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-         * [Ajout d’un filtre à un scénario de base dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
-         * [Ajout d’un webhook à un scénario de base dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
+      * Créer des scénarios de test {#practice-scenarios-in-workfront-fusion}
+         * [Créer de scénarios de test](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
+         * [Créer un scénario de base dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+         * [Ajouter un module déclencheur à un scénario de base dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+         * [Utiliser une fonction pour mettre à jour un projet dans un scénario simple dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+         * [Ajouter un filtre à un scénario de base dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+         * [Ajouter un webhook à un scénario de base dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Créer un scénario d’automatisation pratique dans Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Créer un scénario d’intégration pratique dans Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
       * [Assistant IA dans Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
@@ -2133,7 +2133,7 @@ ht-degree: 93%
       * [Différences d’administration en fonction de la plateforme (Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
    * Connexions dans Adobe Workfront Fusion {#connections-in-fusion}
       * [Connexions dans Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
-      * [Présentation des connexions](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+      * [Vue d’ensemble des connexions](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Créer des connexions dans Adobe Workfront Fusion](workfront-fusion/connections/connection-instruction-toc.md)
       * [Métadonnées de connexion](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [Créer une connexion à Adobe Workfront Fusion - Instructions de base](workfront-fusion/connections/connect-to-fusion-general.md)
@@ -2200,7 +2200,7 @@ ht-degree: 93%
       * [Afficher l’historique d’exécution d’un scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Afficher et résoudre les exécutions incomplètes dans Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
       * [Afficher et gérer les scénarios verrouillés dans  [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
-      * [ Mettre à jour un module vers une nouvelle version dans un  [!DNL Adobe Workfront Fusion] scénario](workfront-fusion/scenarios/update-module-to-new-version.md)
+      * [Mettre à jour un module vers une nouvelle version dans un scénario  [!DNL Adobe Workfront Fusion] ](workfront-fusion/scenarios/update-module-to-new-version.md)
       * [Planifier un scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Activer ou désactiver un scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Ajouter un filtre à un scénario dans Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2208,7 +2208,7 @@ ht-degree: 93%
       * [Générer un module à l’aide de l’AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Modèles de scénarios Adobe Workfront Fusion {#fusion-scenario-templates}
          * [Modèles de scénarios](workfront-fusion/scenarios/templates/fusion-templates.md)
-         * [[!DNL Fusion] - Aperçu des modèles](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
+         * [Vue d’ensemble des modèles [!DNL Fusion]](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Créer de nouveaux modèles dans Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
          * [Publier et partager des modèles Adobe Workfront Fusion](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Créer des scénarios avec les modèles Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
@@ -2231,7 +2231,7 @@ ht-degree: 93%
       * [Modules Adobe Campaign Classic](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Modules Adobe Experience Manager Assets](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Module Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
-      * [Adobe Firefly de modules](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
+      * [Modules Adobe Firefly](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
       * [Adobe I/O des modules d’événements](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Modules Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Modules Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
@@ -2339,9 +2339,9 @@ ht-degree: 93%
          * [Mettre à jour votre travail à l’aide du plug-in Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Marquer des éléments de travail comme terminés à l’aide du plug-in Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Consigner des heures à l’aide du plug-in Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [Gérer les notifications  [!DNL Adobe Workfront]  à partir d’Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [Gérer les notifications [!DNL Adobe Workfront] à partir d’Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Charger des documents et des épreuves avec le plug-in Adobe Workfront pour les applications Creative Cloud {#upload-docs-proofs-wf-cc}
-         * [Charger des documents et des épreuves à partir du  [!DNL Adobe Workfront plugin]  sur  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [Charger des documents et des épreuves à partir du [!DNL Adobe Workfront plugin] sur [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Charger des documents et des épreuves avec le plug-in Adobe Workfront pour les applications Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Charger des épreuves à partir de Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Charger des documents à partir de Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2691,7 +2691,7 @@ ht-degree: 93%
       * [Nouveautés de la version 6 de l’API](wf-api/api/new-api-version-6.md)
    * Informations générales sur l’API {#api-general-information}
       * [Informations générales sur l’API](wf-api/general/api-general.md)
-      * [Bases d’API](wf-api/general/api-basics.md)
+      * [Bases des API](wf-api/general/api-basics.md)
       * [Explorateur d’API](wf-api/general/api-explorer.md)
       * [Utiliser l’explorateur d’API](wf-api/general/using-api-explorer.md)
       * [Champs de texte enrichi dans l’API Adobe Workfront](wf-api/general/rich-text-field-api.md)
@@ -2739,7 +2739,7 @@ ht-degree: 93%
       * [Configuration des options pour OPTASK copyIssue](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
       * [Récupérer les informations relatives à la devise d’un projet lorsque la devise est nulle (non attribuée).](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
       * [L’utilisation de l’API pour ajouter un dossier lié n’est pas prise en charge.](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
-      * [L’action déplacement de document vers le dossier ne fonctionne pas.](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
+      * [L’action moveToFolder du document ne fonctionne pas.](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 * API ProofHQ {#proofhqpapi}
    * [API ProofHQ](proofhq-api/proofhq-api.md)
    * Général {#general}

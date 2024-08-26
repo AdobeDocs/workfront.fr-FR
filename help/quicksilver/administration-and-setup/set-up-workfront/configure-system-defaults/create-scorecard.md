@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Création d’une Fiche d’évaluation
-description: Une fiche d’évaluation mesure si un projet s’aligne sur les critères précédemment établis d’un portefeuille. Une fiche d’évaluation reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation. Les gestionnaires de Portfolios définissent généralement les questions et les réponses de la fiche d’évaluation afin de s’assurer qu’elles sont pertinentes et utiles lors de la définition des priorités et de la sélection du projet. Un administrateur  [!DNL Adobe Workfront] crée les fiches d’évaluation en fonction des recommandations des gestionnaires de portefeuille.
+description: Une carte de performance permet de mesurer l’adéquation d’un projet avec les critères précédemment établis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation. Les personnes gestionnaires de portfolios définissent généralement les questions et les réponses de la carte de performance afin de s’assurer qu’elles sont significatives et utiles lors de la hiérarchisation et de la sélection des projets. Un administrateur ou une administratrice  [!DNL Adobe Workfront]  élabore les cartes de performance sur la base des recommandations des personnes gestionnaires de portfolios.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 4%
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 4%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Une fiche d’évaluation mesure si un projet s’aligne sur les critères précédemment établis d’un portefeuille. Une fiche d&#39;évaluation reflète souvent la mission, les valeurs et les objectifs stratégiques d&#39;une organisation.
+Une carte de performance permet de mesurer l’adéquation d’un projet avec les critères précédemment établis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation.
 
-Les gestionnaires de Portfolios définissent généralement les questions et réponses de la fiche d’évaluation afin de s’assurer qu’elles sont significatives et utiles lors de la définition des priorités et de la sélection du projet. Un administrateur [!DNL Adobe Workfront] crée les fiches d’évaluation en fonction des recommandations des gestionnaires de portefeuille.
+Les personnes gestionnaires de portfolios définissent généralement les questions et les réponses de la carte de performance afin de s’assurer qu’elles sont significatives et utiles lors de la hiérarchisation et de la sélection des projets. Un administrateur ou une administratrice [!DNL Adobe Workfront] élabore les cartes de performance sur la base des recommandations des personnes gestionnaires de portfolios.
 
-Les questions et réponses choisies pour une fiche d’évaluation doivent être quantifiables afin de fournir une valeur d’alignement pour comparer différents projets.
+Les questions et les réponses choisies pour une carte de performance doivent être quantifiables afin de fournir une valeur d’alignement pour comparer différents projets.
 
 ## Conditions d’accès
 
@@ -39,9 +39,9 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>Actuel : [!UICONTROL Entreprise] ou version ultérieure</p> 
+   <td> <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p> 
    Ou
-   <p>Nouveau : [!UICONTROL Prime] ou version ultérieure</p>
+   <p>Nouveau : [!UICONTROL Prime] ou supérieur</p>
    </td> 
   </tr> 
   <tr> 
@@ -60,13 +60,13 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Fiches d’évaluation]**, puis sur **[!UICONTROL Nouvelle Fiche d’évaluation]** pour lancer le créateur de Fiche d’évaluation et créer une Fiche d’évaluation.
+1. Cliquez sur **[!UICONTROL Cartes de performance]**, puis sur **[!UICONTROL Nouvelle carte de performance]** pour lancer le créateur de cartes de performance et créer une carte de performance.
 
-1. Spécifiez un **[!UICONTROL nom de la Fiche d’évaluation]** et une **[!UICONTROL Description]**.
+1. Indiquez un **[!UICONTROL nom de carte de performance]** et une **[!UICONTROL description]**.
 
-   Le nom s’affiche lorsque vous associez la fiche d’évaluation au projet. La description s’affiche en regard du nom de la fiche d’évaluation dans la liste de la fiche d’évaluation.
+   Le nom s’affiche lorsque vous associez la carte de performance au projet. La description s’affiche à côté du nom de la carte de performance dans la liste des cartes de performance.
 
-1. Cliquez sur le menu déroulant **[!UICONTROL Ajouter une question]** pour ouvrir la section [!UICONTROL question de la fiche d’évaluation] , puis spécifiez les informations suivantes pour votre question :
+1. Cliquez sur le menu déroulant **[!UICONTROL Ajouter une question]** pour ouvrir la section [!UICONTROL Question de carte de performance], puis indiquez les informations suivantes pour votre question :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -74,38 +74,38 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Question]</td> 
-      <td>Saisissez la question que vous souhaitez inclure dans la fiche d’évaluation.</td> 
+      <td>Saisissez la question que vous souhaitez inclure dans la carte de performance.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Points]</td> 
-      <td>Saisissez le nombre maximal de points possibles pour cette question.</td> 
+      <td>Inscrivez le maximum de points possibles pour cette question.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Points négatifs]</td> 
-      <td>Sélectionnez cette option pour indiquer que [!DNL Workfront] doit soustraire au total des points possibles. Il n’est pas possible d’ajouter des scores négatifs au maximum possible d’une fiche d’évaluation.</td> 
+      <td role="rowheader">[!UICONTROL Negative Points]</td> 
+      <td>Sélectionnez cette option pour indiquer que [!DNL Workfront] doit être soustrait du total des points possibles. Les scores négatifs ne peuvent pas être ajoutés au nombre maximum de points possibles d’une carte de performance.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Display Type]</td> 
-      <td>Sélectionnez <strong>[!UICONTROL Value(0-100)]</strong> si vous souhaitez afficher un champ numérique dans la fiche d’évaluation où les utilisateurs peuvent spécifier une valeur comprise entre 0 et 100.<p>Ou, sélectionnez <strong>[!UICONTROL Liste déroulante]</strong> ou <strong>[!UICONTROL Boutons radio]</strong> pour créer une réponse que les utilisateurs peuvent spécifier à l’aide de ce contrôle. Cliquez sur <strong>[!UICONTROL Ajouter une réponse]</strong>, puis saisissez la <strong>[!UICONTROL Valeur]</strong> en points de pourcentage pour cette réponse, au cas où elle serait satisfaite. Si vous choisissez 100 %, le nombre de points attribués à cette question est entièrement atteint. Si vous souhaitez indiquer que cette réponse ne porte qu'une partie du montant total de points attribués à cette question, sélectionnez une valeur en pourcentage plus faible. Par exemple, si votre question est évaluée à 10 points et que vous souhaitez que cette réponse porte 5 de ces points, choisissez 50 % pour votre valeur.</p>
-      <p>Sélectionnez <strong>[!UICONTROL Par défaut]</strong> si vous souhaitez indiquer que cette réponse est la réponse par défaut.</strong></p>
+      <td>Sélectionnez <strong>[!UICONTROL Value(0-100)]</strong> si vous souhaitez afficher un champ numérique dans la carte de performance où les utilisateurs et utilisatrices peuvent spécifier une valeur comprise entre 0 et 100.<p>Vous pouvez également sélectionner <strong>[!UICONTROL Drop Down]</strong> ou <strong>[!UICONTROL Radio Buttons]</strong> pour créer une réponse que les utilisateurs et utilisatrices peuvent spécifier à l’aide de ce contrôle. Cliquez sur <strong>[!UICONTROL Add Answer]</strong>, puis saisissez la <strong>[!UICONTROL Value]</strong> en points de pourcentage pour cette réponse, au cas où elle serait satisfaite. Si vous choisissez 100 %, le nombre de points attribués à cette question est entièrement atteint. Si vous souhaitez indiquer que cette réponse ne représente qu’une partie du total des points attribués à cette question, sélectionnez un pourcentage inférieur. Par exemple, si votre question est évaluée à 10 points et que vous souhaitez que cette réponse rapporte 5 de ces points, choisissez 50 % pour votre valeur.</p>
+      <p>Sélectionnez <strong>[!UICONTROL Default]</strong> si vous souhaitez indiquer que cette réponse est celle par défaut.</strong></p>
      </tr> 
     </tbody> 
    </table>
 
-1. Cliquez sur **[!UICONTROL Ajouter une question]** pour ajouter d’autres questions et réponses à votre fiche d’évaluation, en suivant les mêmes étapes.
+1. Cliquez sur **[!UICONTROL Ajouter une question]** pour ajouter d’autres questions et réponses à votre carte de performance, en suivant les mêmes étapes.
 
    >[!NOTE]
    >
-   >Vous pouvez réorganiser les questions de votre fiche d’évaluation en les faisant glisser et en les déposant dans le bon ordre.
+   >Vous pouvez réorganiser les questions dans votre carte de performance en faisant glisser les questions dans le bon ordre.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé de saisir toutes les informations.
 
-   Cela crée la Fiche d’évaluation et les chefs de projet peuvent désormais la joindre à leur analyse de projet.
+   La carte de performance est ainsi créée et les personnes responsables de projet peuvent désormais l’annexer au business case de leur projet.
 
-## Application d’une fiche d’évaluation à un projet
+## Appliquer une carte de performance à un projet
 
-Un utilisateur disposant des autorisations [!UICONTROL manage] sur un projet peut appliquer une fiche d’évaluation à un projet, une fois la fiche d’évaluation créée par l’administrateur [!DNL Workfront].
+Une personne ayant les permissions de [!UICONTROL gestion] sur un projet peut appliquer une carte de performance à un projet, après que la carte de performance a été créée par l’administrateur ou administratrice [!DNL Workfront].
 
-Une fiche d’évaluation est ajoutée à un projet dans le cadre de la création d’un dossier commercial pour le projet. Pour plus d’informations sur l’ajout d’une fiche d’évaluation à un projet, voir [Application d’une fiche d’évaluation à un projet et génération d’une note d’alignement](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+Une carte de performance est ajoutée à un projet dans le cadre de la création d’un business case pour le projet. Pour plus d’informations sur l’ajout d’une carte de performance à un projet, voir [Appliquer une carte de performance à un projet et générer un score d’alignement](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Pour plus d’informations sur les autorisations de projet, voir [Partage d’un projet dans [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Pour plus d’informations sur les autorisations relatives aux projets, voir [Partager un projet dans  [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

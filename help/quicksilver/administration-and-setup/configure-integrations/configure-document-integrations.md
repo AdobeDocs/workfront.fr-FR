@@ -11,7 +11,7 @@ exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ En tant qu’ administrateur ou administratrice [!DNL Adobe Workfront], vous pou
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -148,7 +148,7 @@ Une fois l’intégration de document personnalisé créée, vous pouvez la rend
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authentication Type]</td> 
-      <td> <p>La méthode d'authentification utilisée pour passer des appels API autorisés pour l’intégration personnalisée.</p> 
+      <td> <p>La méthode d’authentification utilisée pour passer des appels API autorisés pour l’intégration personnalisée.</p> 
        <ul> 
         <li>Si vous choisissez <strong>[!UICONTROL OAuth]</strong>, passez à l’étape 5.</li> 
         <li>Si vous choisissez <strong>[!UICONTROL ApiKey]</strong>, passez à l’étape 6.</li> 
@@ -169,7 +169,7 @@ Une fois l’intégration de document personnalisé créée, vous pouvez la rend
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Token Endpoint URL]</td> 
-      <td>L'URL d'API complète utilisée pour récupérer les jetons OAuth.</td> 
+      <td>L’URL d’API complète utilisée pour récupérer les jetons OAuth.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client ID]</td> 

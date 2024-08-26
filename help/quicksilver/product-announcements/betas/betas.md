@@ -1,7 +1,7 @@
 ---
 navigation-topic: betas
 title: Programmes en version bêta
-description: Découvrez les versions bêta actuelles d’Adobe Workfront.
+description: Découvrez les versions bêta actuelles dans Adobe Workfront.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -9,15 +9,15 @@ exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
 source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 # Programmes en version bêta
 
-Les articles liés à cette page décrivent les programmes bêta actuels disponibles dans Adobe Workfront. Les fonctionnalités disponibles en version bêta peuvent ne pas être disponibles pour tous les clients.
+Les articles liés à cette page décrivent les programmes bêta actuels disponibles dans Adobe Workfront. Les fonctionnalités disponibles en version bêta peuvent ne pas être disponibles pour toutes les clientes et tous les clients.
 
-Les articles suivants contiennent des informations sur les fonctionnalités actuellement en version bêta :
+Les articles suivants contiennent des informations sur les fonctionnalités actuellement en version bêta :
 
 * [Vue d’ensemble des tableaux de bord de zone de travail](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 

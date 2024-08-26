@@ -2,14 +2,14 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Configuration de l’intégration [!UICONTROL Experience Manager Assets as a Cloud Service]
-description: Vous pouvez connecter votre travail à votre contenu dans  [!DNL Experience Manager Assets].
+description: Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manag
 
 >[!NOTE]
 >
->Vous pouvez également connecter plusieurs référentiels [!DNL Experience Manager Assets] entre un environnement [!UICONTROL Workfront] ou plusieurs environnements [!DNL Workfront] et un référentiel [!DNL Experience Manager Assets] dans les ID d’entreprise. Suivez les instructions de configuration de cet article pour chaque intégration que vous souhaitez configurer.
+>Vous pouvez également connecter plusieurs référentiels  entre un environnement Workfront ou plusieurs environnements  et un référentiel  dans les ID d’entreprise. [!DNL Experience Manager Assets][!DNL Workfront][!DNL Experience Manager Assets] Suivez les instructions de configuration de cet article pour chaque intégration que vous souhaitez configurer.
 
 ## Conditions d’accès
 
@@ -82,7 +82,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 Avant de commencer
 
-* Vous devez avoir [!DNL Workfront] et [!DNL Adobe Experience Manager Assets] associés à un ID d’entreprise dans [!DNL Adobe Admin Console]. Pour plus d’informations, voir [Différences d’administration en fonction de la plateforme ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* Vous devez avoir  et  associés à un ID d’entreprise dans . [!DNL Workfront][!DNL Adobe Experience Manager Assets][!DNL Adobe Admin Console] Pour plus d’informations, voir [Différences d’administration en fonction de la plateforme ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## Configurer les informations d’intégration
@@ -97,8 +97,8 @@ Avant de commencer
 
 1. Sélectionnez **[!UICONTROL Ajouter une intégration d’[!DNL Experience Manager]]**.
 1. Dans le champ **[!UICONTROL Nom]**, saisissez le nom que les utilisateurs et utilisatrices doivent voir lorsqu’ils ou elles interagissent avec cette intégration dans Workfront et Experience Manager Assets.
-1. Dans le champ **[!UICONTROL URL de navigation]**, le système renseigne automatiquement l’URL de navigation. Cette URL en lecture seule est utilisée pour créer un lien vers l’instance [!DNL Experience Manager] de votre entreprise depuis le [!UICONTROL Menu principal] pour un accès rapide.
-1. Choisissez un référentiel dans le menu déroulant Référentiel **[!UICONTROL [!DNL Experience Manager] Assets]**. Le système renseigne automatiquement les référentiels [!DNL Experience Manager] associés à l’ID d’entreprise auquel votre profil utilisateur ou utilisatrice est affecté.
+1. Dans le champ URL de navigation, le système renseigne automatiquement l’URL de navigation. **** Cette URL en lecture seule est utilisée pour créer un lien vers l’instance [!DNL Experience Manager] de votre entreprise depuis le [!UICONTROL Menu principal] pour un accès rapide.
+1. Choisissez un référentiel dans le menu déroulant Référentiel  Assets. **[!UICONTROL [!DNL Experience Manager]]** Le système renseigne automatiquement les référentiels [!DNL Experience Manager] associés à l’ID d’entreprise auquel votre profil utilisateur ou utilisatrice est affecté.
    ![choix du référentiel experience manager](assets/setup-information.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou passez à la section [Configurer les métadonnées (facultatif)](#set-up-metadata-optional) de cet article.
@@ -113,7 +113,7 @@ Vous pouvez mapper des données d’objet [!DNL Workfront] sur les champs des m�
 
 >[!IMPORTANT]
 >
->Vous ne pouvez mapper les métadonnées que dans une seule direction : de [!DNL Workfront] vers [!DNL Experience Manager]. Les métadonnées de documents liés à [!DNL Workfront] à partir d’[!DNL Experience Manager] ne peuvent pas être transférées vers [!DNL Workfront].
+>Vous ne pouvez mapper les métadonnées que dans une seule direction : de  vers . [!DNL Workfront][!DNL Experience Manager] Les métadonnées de documents liés à [!DNL Workfront] à partir d’[!DNL Experience Manager] ne peuvent pas être transférées vers [!DNL Workfront].
 
 ### Configurer les champs de métadonnées
 
@@ -136,13 +136,13 @@ Vous pouvez mapper n’importe quel champ pris en charge par Workfront à une ba
 * Les valeurs de champ Workfront mappées aux balises Experience Manager Assets doivent être toutes en minuscules, même si la balise dans Experience Manager Assets semble comporter des lettres majuscules.
 * Les valeurs de champ Workfront ne doivent pas inclure d’espaces.
 * La valeur de champ dans Workfront doit également inclure la structure de dossiers de la balise Experience Manager Assets.
-* Pour mapper plusieurs champs de texte d’une seule ligne à des balises, saisissez les valeurs de balise sous forme de liste séparée par des virgules dans la partie Workfront du mappage de métadonnées, et `xcm:keywords` dans la partie Experience Manager Assets. Chaque valeur de champ est mappée à une balise distincte. Vous pouvez utiliser un champ calculé pour combiner plusieurs champs Workfront en un seul champ de texte séparé par des virgules.
+* Pour mapper plusieurs champs de texte d’une seule ligne à des balises, saisissez les valeurs de balise sous forme de liste séparée par des virgules dans la partie Workfront du mappage de métadonnées, et  dans la partie Experience Manager Assets. `xcm:keywords` Chaque valeur de champ est mappée à une balise distincte. Vous pouvez utiliser un champ calculé pour combiner plusieurs champs Workfront en un seul champ de texte séparé par des virgules.
 * Vous pouvez mapper des valeurs à partir de champs de liste déroulante, de bouton radio ou de case à cocher en saisissant une liste des valeurs disponibles séparées par des virgules dans ce champ.
 
 
 >[!INFO]
 >
->**Exemple** : pour correspondre à la balise affichée dans la structure de dossiers ici, la valeur de champ dans Workfront doit être `landscapes:trees/spruce`. Notez les minuscules dans la valeur du champ Workfront.
+>**Exemple : pour correspondre à la balise affichée dans la structure de dossiers ici, la valeur de champ dans Workfront doit être .**`landscapes:trees/spruce` Notez les minuscules dans la valeur du champ Workfront.
 >
 >Si vous souhaitez que la balise soit située le plus à gauche dans l’arborescence des balises, elle doit être suivie d’un signe deux-points. Dans cet exemple, pour mapper la balise paysages, la valeur de champ dans Workfront est `landscapes:`.
 >
@@ -183,7 +183,7 @@ Vous pouvez mapper des champs Workfront intégrés et personnalisés à Experien
 
 ### Mapper les métadonnées des ressources
 
-Les métadonnées sont mappées lorsqu’une ressource est transférée à partir de [!DNL Workfront] pour la première fois. Les documents contenant des champs intégrés ou personnalisés sont automatiquement mappés aux champs spécifiés lors de la première envoi d’une ressource à [!DNL Experience Manager Assets].
+Les métadonnées sont mappées lorsqu’une ressource est transférée à partir de  pour la première fois. [!DNL Workfront] Les documents contenant des champs intégrés ou personnalisés sont automatiquement mappés aux champs spécifiés lors de la première envoi d’une ressource à [!DNL Experience Manager Assets].
 
 Pour mapper les métadonnées des ressources :
 
@@ -194,7 +194,7 @@ Pour mapper les métadonnées des ressources :
 
    >[!NOTE]
    >
-   >Vous pouvez mapper un seul champ [!DNL Workfront] à plusieurs champs [!UICONTROL Experience Manager Assets]. Vous ne pouvez pas mapper plusieurs champs [!DNL Workfront] à un seul champ [!DNL Experience Manager Assets].
+   >Vous pouvez mapper un seul champ  à plusieurs champs Experience Manager Assets. [!DNL Workfront] Vous ne pouvez pas mapper plusieurs champs [!DNL Workfront] à un seul champ [!DNL Experience Manager Assets].
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
 
 1. Dans le champ [!DNL Experience Manager Assets], recherchez dans les catégories prérenseignées ou saisissez au moins deux lettres dans le champ de recherche pour accéder à d’autres catégories.
@@ -272,7 +272,7 @@ Les workflows suivants sont disponibles dans l’intégration Adobe Experience�
       >
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
-   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez **Ajouter un dossier**. Renseignez les champs comme décrit à l’étape précédente.
+   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez Ajouter un dossier. **** Renseignez les champs comme décrit à l’étape précédente.
    1. Pour lier un dossier à Workfront, sélectionnez-le et cliquez sur l’icône **Créer un dossier lié** ![Link folder](assets/link-folder.png).
    1. (Facultatif) Pour modifier un dossier, sélectionnez-le, puis cliquez sur l’icône **Modifier le dossier** ![Edit icon](assets/edit-icon.png).
    1. (Facultatif) Pour supprimer un dossier, sélectionnez-le et cliquez sur l’icône **Supprimer le dossier** ![Delete folder](assets/delete-folder.png).

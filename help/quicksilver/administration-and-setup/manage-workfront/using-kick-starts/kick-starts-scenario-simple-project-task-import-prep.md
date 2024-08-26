@@ -12,7 +12,7 @@ exl-id: c095ce9d-b189-449b-bd13-2633837697ed
 source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -85,7 +85,7 @@ Les tâches parent héritent de la durée, du travail et du pourcentage terminé
 
 >[!NOTE]
 >
->Les instructions fournies dans ce scénario ne sont pas aussi explicites que les instructions détaillées fournies dans [Scénario Kickstart : préparation Kickstart pour les entreprises, groupes, rôles et utilisateurs et utilisatrices ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Il est supposé que vous avez déjà appris à rechercher et à copier des valeurs dans les feuilles Entreprise et Groupe. Par conséquent, ces étapes seront mentionnées, mais pas spécifiquement décrites.
+>Les instructions fournies dans ce scénario ne sont pas aussi explicites que les instructions détaillées fournies dans Scénario Kickstart : préparation Kickstart pour les entreprises, groupes, rôles et utilisateurs et utilisatrices . [](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md) Il est supposé que vous avez déjà appris à rechercher et à copier des valeurs dans les feuilles Entreprise et Groupe. Par conséquent, ces étapes seront mentionnées, mais pas spécifiquement décrites.
 
 1. Configurez.
 1. Importez des utilisateurs et utilisatrices.
@@ -278,7 +278,7 @@ Accédez à la page Kickstart. Sélectionnez les objets Entreprise, Groupe, Proj
 Ouvrez le fichier Workfront.xlsx que vous venez de télécharger. Accédez à la feuille de projet PROJ.
 
 ![](assets/im2.png)
-À moins que vous n’ayez déjà créé des projets dans Workfront, il doit être vide.
+À moins que vous n’ayez déjà créé des projets dans Workfront, elle devrait être vide.
 
 ![](assets/im10.png)
 
@@ -356,9 +356,9 @@ Définissez la durée de chaque tâche en saisissant le nombre d’heures, de jo
 
   | Type de durée | Valeur acceptable |
   |---|---|
-  | Calcul d&#39;affectation | A |
+  | Calcul d’affectation | A |
   | Calcul de travail | S |
-  | Piloté par l&#39;effort | Dés |
+  | Piloté par l’effort | Dés |
   | Simple | S |
 
 * Saisissez la représentation en nombres entiers du pourcentage terminé dans le champ setPercentComplete pour chaque tâche. Cette valeur ne doit pas inclure le symbole du pourcentage (%).

@@ -8,7 +8,7 @@ exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
 source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
 workflow-type: tm+mt
 source-wordcount: '1830'
-ht-degree: 44%
+ht-degree: 77%
 
 ---
 
@@ -28,7 +28,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.5 (16 mai 2024)</li><li>24.6 (13 juin 2024)</li><li>24.7 (18 juillet 2024)</li></ul> | <ul><li>24.7 (18 juillet 2024)</li></ul> |
+>| <ul><li>24.5 (16 mai 2024)</li><li>24.6 (13 juin 2024)</li><li>24.7 (18 juillet 2024)</li></ul> | <ul><li>24.7 (18 juillet 2024)</li></ul> |
 >
 >Pour plus d’informations sur le processus de version rapide, consultez [Activer ou désactiver le processus de version rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -97,23 +97,23 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> Déplacer des objets entre les environnements Workfront avec promotion d’environnement</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Déplacer des objets entre les environnements Workfront avec la promotion d’environnement</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>La promotion d’environnement vous permet de déplacer des objets d’un environnement Workfront vers un autre, par exemple d’un environnement de test vers un environnement de production. Vous pouvez configurer et tester des objets sans aucun risque pour les données et les enregistrements de votre entreprise. Vous pouvez ensuite déplacer ces objets en production sans avoir à les reconfigurer, ce qui vous permet de gagner du temps et vous évite d'avoir à les reconfigurer.</p>
+                        <p>La promotion d’environnement vous permet de déplacer des objets d’un environnement Workfront vers un autre, par exemple d’un environnement de sandbox vers un environnement de production. Vous pouvez configurer et tester des objets sans aucun risque pour les données et pour les enregistrements de votre organisation. Vous pouvez ensuite déplacer ces objets en production sans avoir à les reconfigurer, ce qui vous permet de gagner du temps et d’économiser des efforts.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version de production pour tous les clients : avec la version 24.6 (13 juin 2024)</p>
+                                <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.6 (13 juin 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Partager des formulaires et des champs personnalisés dans le concepteur de formulaire personnalisé</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Partager des formulaires personnalisés et des champs personnalisés dans le concepteur de formulaires personnalisés</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Vous pouvez désormais partager des formulaires personnalisés et des champs personnalisés dans le nouveau concepteur de formulaires. Cela permet une plus grande collaboration entre les utilisateurs sur les formulaires personnalisés.</p>
+                        <p>Vous pouvez désormais partager des formulaires personnalisés et des champs personnalisés dans le nouveau concepteur de formulaires. Cela permet une meilleure collaboration entre les utilisateurs et les utilisatrices concernant les formulaires personnalisés.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -121,16 +121,16 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version d’aperçu : vendredi 6 juin 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Version de production pour tous les clients : 13 juin</span></p>
+                                <p><span class="preview">Version de production pour l’ensemble des clientes et clients : 13 juin</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> Ajoutez un nouveau champ personnalisé à partir de la zone Champs</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Ajouter un nouveau champ personnalisé à partir de la zone Champs</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Vous pouvez désormais ajouter un nouveau champ ou widget personnalisé directement à partir de la zone Champs de Workfront, sans ouvrir de formulaire personnalisé pour créer le champ. Vous pouvez ainsi créer rapidement des champs personnalisés réutilisables.</p>
+                        <p>Vous pouvez désormais ajouter un nouveau champ personnalisé ou un widget directement à partir de la zone Champs dans Workfront, sans avoir à ouvrir de formulaire personnalisé pour créer le champ. Cela vous permet de créer rapidement des champs personnalisés réutilisables.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -145,9 +145,9 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Type de champ déroulant à sélection multiple disponible sur le concepteur de formulaire</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Type de champ de liste déroulante à sélection multiple disponible dans le concepteur de formulaires</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Pour vous aider à définir plus facilement des champs de liste déroulante, nous avons ajouté le champ Liste déroulante à sélection multiple au concepteur de formulaire personnalisé. Ce type de champ permet aux utilisateurs de choisir plusieurs options dans une liste déroulante.</p>
+                        <p>Pour vous aider à définir plus facilement les champs de liste déroulante, nous avons ajouté le champ de liste déroulante à sélection multiple au concepteur de formulaires personnalisés. Ce type de champ permet aux utilisateurs et aux utilisatrices de choisir plusieurs options dans une liste déroulante.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -155,7 +155,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version d’aperçu : mercredi 4 juin 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production pour tous les clients : 4 juin 2024</span></p>
+                                <p><span class="preview">Production pour l’ensemble des clientes et des clients : 4 juin 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -183,10 +183,10 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Champs de dépenses facturables et non facturables disponibles pour les projets et les tâches</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Pour vous aider à visualiser plus facilement les types de dépenses, les dépenses ont été séparées en dépenses facturables et non facturables sur les projets et les tâches. Vous pouvez ajouter les champs suivants aux vues et aux rapports :</p>
+                        <p>Pour vous aider à visualiser plus facilement les types de dépenses, les dépenses ont été séparées en dépenses facturables et non facturables dans les projets et les tâches. Vous pouvez ajouter les champs suivants aux vues et aux rapports :</p>
                         <ul>
                             <li><p>Coût prévu des dépenses facturables</p></li>
-                            <li><p>Coût des dépenses non facturables planifié</p></li>
+                            <li><p>Coût prévu des dépenses non facturables</p></li>
                             <li><p>Coût réel des dépenses non facturables</p></li>
                             <li><p>Coût réel des dépenses non facturables</p></li>
                         </ul>
@@ -197,7 +197,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version d’aperçu : samedi 10 mai 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production pour tous les clients : 10 mai 2024</span></p>
+                                <p><span class="preview">Production pour l’ensemble des clientes et des clients : 10 mai 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -263,9 +263,9 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifiez la tâche et publiez la Date et la condition de validation de la tâche à partir de l’en-tête ou de la section Détails</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifier la date d’engagement et la condition d’une tâche et d’un problème à partir de l’en-tête ou de la section Détails</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Pour faciliter la mise à jour des tâches et des problèmes, nous avons maintenant ajouté les champs Date de validation et Condition en tant qu’options à ajouter à la section En-têtes de tâche et de problème et Détails dans un modèle de mise en page. Les utilisateurs peuvent désormais mettre à jour ces champs à partir de l’en-tête ou de la section Détails d’une page lorsqu’ils sont affectés au modèle de mise en page modifié.</p>
+                        <p>Pour faciliter la mise à jour des tâches et des problèmes, nous avons désormais ajouté les champs Date d’engagement et Condition en tant qu’options à ajouter aux en-têtes de tâches et de problèmes et à la section Détails dans un modèle de mise en page. Les utilisateurs et les utilisatrices peuvent désormais mettre à jour ces champs à partir de l’en-tête ou de la section Détails d’une page lorsqu’ils sont affectés au modèle de mise en page modifié.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -273,7 +273,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version d’aperçu : vendredi 30 mai 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.6 (13 juin 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.6 (13 juin 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.7 (18 juillet 2024)</p>
@@ -284,7 +284,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations plus pertinentes ajoutées au workflow Nouvelle tâche</a></p>
-                        [!BADGE en production pour version rapide ]{type=Positif}
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet et dans une liste de tâches de projet.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -293,7 +293,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version d’aperçu : 13 février 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
@@ -304,7 +304,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p>
-                        [!BADGE en production pour version rapide ]{type=Positif}
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -313,7 +313,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version d’aperçu : 21 décembre 2023</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
@@ -352,7 +352,7 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version d’aperçu : vendredi 4 juillet 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production pour tous les clients : 4 juillet 2024</span></p>
+                                <p><span class="preview">Production pour l’ensemble des clientes et des clients : vendredi 4 juillet 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -378,9 +378,9 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Le temps de pause se reflète désormais dans l’équilibreur de charge de travail</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Les congés sont désormais reflétés dans l’équilibreur de charge de travail</a>.</p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Pour régler facilement le travail lorsque le responsable principal d’une tâche a programmé un congé, l’équilibreur de charge de travail réalloue désormais les heures aux utilisateurs principaux et secondaires lorsque la chronologie du projet est recalculée.</p>
+                        <p>Pour ajuster facilement le travail lorsque la personne cessionnaire principale d’une tâche a programmé un congé, l’équilibreur de charge de travail réalloue désormais les heures aux personnes principales et secondaires lorsque la chronologie du projet est recalculée.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -427,9 +427,9 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience désormais disponible pour plus d’organisations Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience est désormais disponible pour plus d’organisations Workfront</a>.</p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Pour permettre aux entreprises d’accéder aux avantages de l’expérience unifiée Adobe, nous avons commencé à la mettre à la disposition des clients Workfront existants. </p>
+                        <p>Pour permettre aux organisations d’accéder aux avantages d’Adobe Unified Experience, nous avons commencé à la mettre à la disposition des clientes et des clients Workfront existants. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -440,14 +440,14 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Production pour des clients spécifiés : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                          </ul>
-                         <span style="color: #ff0000;">L'Adobe Unified Shell est rendu disponible dans un déploiement par étapes. D’autres organisations seront intégrées à l’Adobe Unified Shell avec les versions 24.10 et 25.1. </p>
+                         <span style="color: #ff0000;">Adobe Unified Shell est mis à disposition selon un déploiement échelonné. Des organisations supplémentaires seront intégrées à Adobe Unified Shell avec les versions 24.10 et 25.1. </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Bouton d’aide supprimé de la barre de navigation principale</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Bouton Aide supprimé de la barre de navigation principale</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Pour unifier l’expérience pour les utilisateurs qui ne sont pas sur un Shell unifié, le bouton Aide de la barre de navigation principale a été supprimé. Ce bouton, qui n’est pas présent pour les utilisateurs de Shell unifié, est lié à la documentation de Workfront et a été redondant avec un bouton d’aide similaire disponible pour tous les utilisateurs dans le menu principal.</p>
+                        <p>Pour unifier l’expérience pour les utilisateurs et les utilisatrices qui ne sont pas sur Unified Shell, le bouton Aide de la barre de navigation principale a été supprimé. Ce bouton, qui n’est pas présent pour les utilisateurs et utilisatrices de Unified Shell, redirigeait vers la documentation de Workfront et était redondant avec le bouton d’aide similaire disponible pour toutes les personnes dans le menu principal.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -462,9 +462,9 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Amélioration de l’expérience de l’interface utilisateur pour les utilisateurs disposant d’un accès limité aux objets</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Amélioration de l’expérience d’utilisation pour les utilisateurs et les utilisatrices disposant d’un accès limité aux objets</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Lorsqu’un utilisateur n’a pas accès à un objet, il voit "Aucun accès" partout où ce nom s’affiche dans Workfront. Cette expérience améliorée s’applique également à l’API Workfront.</p>
+                        <p>Lorsqu’une personne n’a pas accès à un objet, le message « Pas d’accès » s’affiche partout où le nom de l’objet s’affiche dans Workfront. Cette expérience améliorée s’applique également à l’API Workfront.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -472,10 +472,10 @@ Le webinaire de la version 24.7 en direct a été annulé, mais vous pouvez touj
                                 <p>Version d’aperçu : jeudi 27 mars 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
-                                <p>Production pour une version trimestrielle : avec la version 24.7 (vendredi 18 juillet 2024)</p>
+                                <p>Production pour une version trimestrielle : avec la version 24.7 (18 juillet 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -525,7 +525,7 @@ Pour plus d’informations sur les nouveautés et les mises à jour, consultez l
 
 Pour plus d’informations sur les versions d’API, consultez [Contrôle de version des API et planification de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Mises à jour de maintenance pour Workfront 
+### Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées au cours de la version du troisième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
 

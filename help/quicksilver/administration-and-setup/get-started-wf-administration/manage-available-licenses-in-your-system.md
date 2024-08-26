@@ -11,7 +11,7 @@ exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
 source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '1212'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -53,19 +53,19 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 >[!NOTE]
 >
->Les déclarations suivantes s&#39;appliquent uniquement aux nouveaux plans.
+>Les instructions suivantes s’appliquent aux nouveaux forfaits uniquement.
 >
->Pour le plan Select :
+>Pour le forfait Select :
 >
->1. Les administrateurs système ne peuvent pas définir de limites pour les groupes d’accueil.
->2. Les administrateurs système ne peuvent afficher que le nombre total de licences utilisées pour tous les groupes d’accueil.
->3. Les administrateurs de groupe ne peuvent pas du tout accéder à la page Licences .
+>1. Les administrateurs et administratrices système ne peuvent pas définir de limites pour les groupes principaux.
+>2. Les administrateurs et administratrices système ne peuvent afficher que le nombre total de licences utilisées par tous les groupes principaux.
+>3. Les administrateurs et administratrices de groupes ne peuvent pas du tout accéder à la page Licences.
 >
->Pour les plans Prime et Ultimate :
+>Pour les forfaits Prime et Ultimate :
 >
->1. Les administrateurs système peuvent ajouter des groupes d’accueil à la page Licences pour afficher l’utilisation des licences de ces groupes, et ils peuvent également définir des limites de licence.
->2. Les administrateurs de groupe peuvent accéder à la page Licences et afficher l’utilisation des licences dans les groupes qu’ils gèrent et qui ont été ajoutées à la page Licences par les administrateurs système.
->3. Les administrateurs de groupe ne peuvent pas afficher d’informations pour d’autres groupes d’accueil ni ajouter de maximums.
+>1. Les administrateurs et administratrices système peuvent ajouter des groupes principaux à la page Licences pour afficher l’utilisation des licences de ces groupes. Ils peuvent également définir des limites de licence.
+>2. Les administrateurs et administratrices de groupes peuvent accéder à la page Licences et afficher l’utilisation des licences dans les groupes qu’ils gèrent et qui ont été ajoutées à la page Licences par les administrateurs et administratrices système.
+>3. Les administrateurs et administratrices de groupes ne peuvent pas afficher d’informations pour d’autres groupes principaux ni ajouter de nombres maximum.
 
 +++
 
@@ -100,7 +100,7 @@ Si votre entreprise dispose du module complémentaire Workfront Proof payant, l
 Si votre entreprise a acheté Objectifs Workfront, les informations de licence de ce produit s’affichent également ici. Dans ce cas, vous pouvez afficher les informations suivantes :
 
 * Nombre total de licences Objectifs Workfront achetées par votre entreprise
-* Nombre de licences Objectifs Workfront attribuées aux utilisateurs et utilisatrices Il s’agit du nombre d’utilisateurs et d’utilisatrices qui disposent au moins d’un accès en affichage aux objectifs dans leur niveau d’accès.
+* Nombre de licences Objectifs Workfront attribuées aux utilisateurs et utilisatrices. Il s’agit du nombre d’utilisateurs et d’utilisatrices qui disposent au moins d’un accès en affichage aux objectifs dans leur niveau d’accès.
 
 Pour plus d’informations sur Objectifs Workfront, consultez la section [Vue d’ensemble d’Adobe Objectifs Workfront](../../workfront-goals/goal-management/wf-goals-overview.md). Pour plus d’informations sur l’accès à Objectifs Workfront, consultez la section [Accorder l’accès à Adobe Objectifs Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
@@ -115,7 +115,7 @@ If an organization has other paid add-on products, their license information als
 
 >[!TIP]
 >
->Les utilisateurs et utilisatrices n’ayant pas d’accès d’administratif peuvent utiliser un rapport Groupe pour afficher le nombre de licences. Dans l&#39;onglet Rapport, créez un rapport de groupe et ajoutez les colonnes suivantes :
+>Les utilisateurs et utilisatrices n’ayant pas d’accès d’administratif peuvent utiliser un rapport Groupe pour afficher le nombre de licences. Dans l’onglet Rapport, créez un rapport de groupe et ajoutez les colonnes suivantes :
 >
 >* Limite du type de licence : limite pour la licence de travail
 >* Limite du type de licence : limite pour la licence de plan

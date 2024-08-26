@@ -3,7 +3,7 @@ title: Réinitialisation des préférences d’un utilisateur
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: En tant qu’administrateur Adobe Workfront, vous pouvez réinitialiser ou supprimer les paramètres de préférences utilisateur pour n’importe quel utilisateur du système Workfront. Les utilisateurs individuels peuvent également réinitialiser leurs propres paramètres de préférences utilisateur.
+description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez réinitialiser ou supprimer les paramètres des préférences d’un utilisateur ou d’une utilisatrice pour tout utilisateur ou toute utilisatrice du système Workfront. Les utilisateurs et utilisatrices individuels peuvent également réinitialiser leurs propres préférences.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 17%
+ht-degree: 98%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 17%
 
 <!-- Audited: 12/2023 -->
 
-En tant qu’administrateur Adobe Workfront, vous pouvez réinitialiser ou supprimer les paramètres de préférences utilisateur pour n’importe quel utilisateur du système Workfront.
+En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez réinitialiser ou supprimer les paramètres des préférences d’un utilisateur ou d’une utilisatrice pour tout utilisateur ou toute utilisatrice du système Workfront.
 
-Les utilisateurs individuels peuvent également réinitialiser leurs propres paramètres de préférences utilisateur.
+Les utilisateurs et utilisatrices individuels peuvent également réinitialiser leurs propres préférences.
 
 ## Conditions d’accès
 
@@ -56,70 +56,70 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 ## À propos des paramètres affectés
 
-Lorsque vous réinitialisez les préférences utilisateur, certaines préférences sont rétablies par défaut du système, tandis que d’autres sont effacées ou supprimées :
+Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une utilisatrice, certaines préférences sont ramenées à la valeur par défaut du système, tandis que d’autres sont effacées ou supprimées :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Preference</strong> </th> 
-   <th><strong>État après la réinitialisation</strong> </th> 
+   <th><strong>Préférences</strong> </th> 
+   <th><strong>Statut après la réinitialisation</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Vues</td> 
-   <td> <p> Restauration de la valeur par défaut du système</p> <p>Les vues existantes ne sont pas supprimées. Vous pouvez les sélectionner à nouveau.</p> </td> 
+   <td> <p> Revient à la valeur par défaut du système</p> <p>Les vues existantes ne sont pas supprimées. Vous pouvez les sélectionner à nouveau.</p> </td> 
   </tr> 
   <tr> 
    <td>Filtres</td> 
-   <td> <p>Restauration de la valeur par défaut du système</p> <p>Les filtres existants ne sont pas supprimés. Vous pouvez les sélectionner à nouveau.</p> </td> 
+   <td> <p>Revient à la valeur par défaut du système</p> <p>Les filtres existants ne sont pas supprimés. Vous pouvez les sélectionner à nouveau.</p> </td> 
   </tr> 
   <tr> 
    <td>Regroupements</td> 
-   <td> <p>Restauration de la valeur par défaut du système</p> <p>Les regroupements existants ne sont pas supprimés. Vous pouvez les sélectionner à nouveau.</p> </td> 
+   <td> <p>Revient à la valeur par défaut du système</p> <p>Les regroupements existants ne sont pas supprimés. Vous pouvez les sélectionner à nouveau.</p> </td> 
   </tr> 
   <tr> 
    <td>Liste des éléments récents</td> 
-   <td>Effacé</td> 
+   <td>Effacée</td> 
   </tr> 
   <tr> 
-   <td>Liste Favoris</td> 
-   <td>Non affecté</td> 
+   <td>Liste des favoris</td> 
+   <td>Non affectée</td> 
   </tr> 
   <tr> 
-   <td>Préférences utilisateur</td> 
-   <td> <p>Restauration de la valeur par défaut du système</p> <p>Les notifications par e-mail sont restaurées aux valeurs par défaut du système. Les notifications par défaut sont répertoriées dans les <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">notifications d’événement disponibles dans Adobe Workfront</a>.</p> </td> 
+   <td>Préférences de l’utilisateur ou de l’utilisatrice</td> 
+   <td> <p>Revient à la valeur par défaut du système</p> <p>Les notifications par e-mail reviennent aux valeurs par défaut du système. Les notifications par défaut sont répertoriées dans <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Notifications d’événements disponibles dans Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Onglets personnalisés définis par l’utilisateur</td> 
-   <td>Supprimé</td> 
+   <td>Onglets personnalisés définis par l’utilisateur ou l’utilisatrice</td> 
+   <td>Supprimés</td> 
   </tr> 
   <tr> 
-   <td>Options de navigation globale définies par l’utilisateur</td> 
-   <td>Redéfinissez la définition du modèle de mise en page ou la valeur par défaut du système si aucun modèle de mise en page n’est affecté.</td> 
+   <td>Options de navigation globale définies par l’utilisateur ou l’utilisatrice</td> 
+   <td>Reviennent à la définition du modèle de mise en page ou à la valeur par défaut du système si aucun modèle de mise en page n’est attribué.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## Réinitialisation des préférences utilisateur
+## Réinitialiser les préférences de l’utilisateur ou de l’utilisatrice
 
 {{step-1-to-setup}}
 
-1. Sélectionnez **Se connecter en tant que**.
-1. Commencez à saisir le nom de l’utilisateur dont vous souhaitez réinitialiser les préférences, puis cliquez sur le nom qui apparaît dans la liste déroulante.
-1. Sélectionnez **Log In**.
-1. Dans le champ URL situé en haut de votre navigateur web, ajoutez `/resetUser` après `workfront.com`.
+1. Sélectionnez **Connexion en tant que**.
+1. Commencez à saisir le nom de l’utilisateur ou de l’utilisatrice dont vous souhaitez réinitialiser les préférences, puis cliquez sur son nom lorsqu’il apparaît dans la liste déroulante.
+1. Sélectionnez **Connexion**.
+1. Dans le champ de l’URL en haut de votre navigateur web, ajoutez `/resetUser` après `workfront.com`.
 
    >[!NOTE]
    >
-   >Ceci est sensible à la casse. L&#39;U doit être majuscule et les autres caractères doivent être en minuscules. Par exemple :
+   >Ce champ est sensible à la casse. Le U doit être en majuscule et les autres caractères doivent être en minuscules. Par exemple :
    >
    >`https://company_domain.my.workfront.com/resetUser`
 
 1. Appuyez sur **Entrée**.
-1. Pour réinitialiser toutes les préférences utilisateur, sélectionnez **Réinitialiser**.
+1. Pour réinitialiser toutes les préférences de l’utilisateur ou de l’utilisatrice, sélectionnez **Réinitialiser**.
 
    Ou
 

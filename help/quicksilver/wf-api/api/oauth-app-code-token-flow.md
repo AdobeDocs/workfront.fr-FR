@@ -10,7 +10,7 @@ exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
 source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ Pour plus d’informations sur la création de l’application OAuth2, consultez
 
 >[!NOTE]
 >
->Vous pouvez avoir jusqu’à dix applications OAuth2 à la fois.
+>Vous pouvez avoir jusqu’à dix applications OAuth2 à la fois.
 
 ## Établir un lien vers la page Autoriser pour vos utilisateurs et utilisatrices
 
@@ -95,7 +95,7 @@ Pour que vos utilisateurs et utilisatrices se connectent avec OAuth2, procédez 
 
    ![](assets/consent-screen-350x227.png)
 
-1. Si la personne Autorise l’accès, la page redirige vers l’URL `redirect_url`. L’URL de redirection doit inclure les paramètres de requête suivants :
+1. Si la personne Autorise l’accès, la page redirige vers l’URL . `redirect_url` L’URL de redirection doit inclure les paramètres de requête suivants :
 
 * `code` : code d’autorisation nécessaire pour obtenir le jeton d’accès/d’actualisation
 * `domain` : domaine de votre entreprise. Exemple : dans `myorganization.my.workfront.com`, le domaine est `myorganization`
@@ -103,7 +103,7 @@ Pour que vos utilisateurs et utilisatrices se connectent avec OAuth2, procédez 
 
   >[!IMPORTANT]
   >
-  >Le `code` est valide uniquement pendant 2 minutes. Par conséquent, vous devez obtenir les jetons d’actualisation et d’accès dans le délai imparti.
+  >Le  est valide uniquement pendant 2 minutes. `code` Par conséquent, vous devez obtenir les jetons d’actualisation et d’accès dans le délai imparti.
 
 1. Lorsque vous disposez d’un code, vous pouvez demander des jetons d’actualisation et d’accès en envoyant le code avec les informations d’identification de l’application cliente au point d’entrée `/integrations/oauth2/api/v1/token`.
 
@@ -157,7 +157,7 @@ Pour que vos utilisateurs et utilisatrices se connectent avec OAuth2, procédez 
    }
    ```
 
-   Le jeton d’accès est le même que ```sessionID```, et il expire de la même manière que ```sessionID```.
+   Le jeton d’accès est le même que , et il expire de la même manière que . ```sessionID``````sessionID```
 
    >[!IMPORTANT]
    >

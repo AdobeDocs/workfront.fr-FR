@@ -9,7 +9,7 @@ exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -58,11 +58,11 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
    | Modèle | Description |
    |---------|----------|
    | Panorama de base | Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Trois colonnes sont fournies par défaut sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. |
-   | Panorama Kanban | Les colonnes suivantes sont fournies sur le panorama : Liste d’attente, Nouveau, En cours, Terminé et En attente. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser la liste d’attente, vous devez configurer des filtres pour la colonne de saisie. Pour plus d’informations, voir [Ajouter une colonne de saisie à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour consulter les politiques par défaut pour chaque colonne, cliquez sur le menu [!UICONTROL **Plus** ] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une de ces politiques prédéfinies. Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Panorama Kanban | Les colonnes suivantes sont fournies sur le panorama : Liste d’attente, Nouveau, En cours, Terminé et En attente. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser la liste d’attente, vous devez configurer des filtres pour la colonne de saisie. Pour plus d’informations, voir [Ajouter une colonne de saisie à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour consulter les politiques par défaut pour chaque colonne, cliquez sur le menu Plus  sur une colonne et sélectionnez Modifier. [!UICONTROL ****][!UICONTROL ****] Vous pouvez modifier l’une de ces politiques prédéfinies. Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Panorama rétrospectif | Les colonnes suivantes sont fournies sur le panorama : Qu’est-ce qui a bien fonctionné ? Qu’est-ce qui pourrait être amélioré ? Qui devons-nous célébrer ? Que pouvons-nous faire pour aller plus vite ? Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune politique de colonne n’est appliquée. |
    | Panorama dynamique | Les colonnes suivantes sont fournies sur le panorama : Non sélectionné, Nouveau, En cours, En attente et Terminé. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. (La colonne Non sélectionné peut être renommée mais pas supprimée. Cette colonne contient toutes les cartes dont le statut ne correspond à aucun des autres statuts de colonne.) <p>Les politiques de colonne par défaut attribuent des cartes aux colonnes en fonction de leur statut. Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
-1. Pour un panorama dynamique uniquement, suivez les étapes de l&#39;assistant de configuration :
+1. Pour un panorama dynamique uniquement, suivez les étapes de l’assistant de configuration :
 
    1. Saisissez un nom pour le panorama et cliquez sur [!UICONTROL **Suivant**].
    1. Recherchez et sélectionnez des [!UICONTROL **Projets**] [!DNL Workfront] pour intégrer des tâches et des problèmes au panorama.
@@ -70,13 +70,13 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
       Tous les objets apparaissent sur le panorama sous forme de cartes connectées.
 
-      Le compteur [!UICONTROL **Cartes en cours d’ajout**] indique le nombre de cartes qui seront sur le panorama. Par exemple, si vous sélectionnez un projet comportant 100 tâches et problèmes, le compteur affiche 100. Si vous ajoutez une affectation utilisateur ou utilisatrice et que cette personne est affectée à 5 tâches sur le projet, le compteur affiche 5.
+      Le compteur Cartes en cours d’ajout indique le nombre de cartes qui seront sur le panorama. [!UICONTROL ****] Par exemple, si vous sélectionnez un projet comportant 100 tâches et problèmes, le compteur affiche 100. Si vous ajoutez une affectation utilisateur ou utilisatrice et que cette personne est affectée à 5 tâches sur le projet, le compteur affiche 5.
 
       >[!NOTE]
       >
       >La limite de carte pour les panoramas dynamiques est de 700 tâches et de 700 problèmes, pour un total de 1 400 cartes. Un nombre élevé de cartes sur le panorama peut affecter les performances du panorama. Toutes les cartes archivées, qu’elles soient masquées ou visibles, sont comptabilisées dans cette limite.
 
-   1. (Facultatif) Sélectionnez [!UICONTROL **Ne pas archiver les cartes terminées**] pour afficher les tâches et les problèmes terminés sur le panorama sous la forme de cartes visibles dans la colonne Terminé. Lorsque cette option n’est pas sélectionnée, les cartes terminées au moment de la création du panorama sont importées sous la forme de cartes archivées.
+   1. (Facultatif) Sélectionnez Ne pas archiver les cartes terminées pour afficher les tâches et les problèmes terminés sur le panorama sous la forme de cartes visibles dans la colonne Terminé. [!UICONTROL ****] Lorsque cette option n’est pas sélectionnée, les cartes terminées au moment de la création du panorama sont importées sous la forme de cartes archivées.
 
       >[!NOTE]
       >

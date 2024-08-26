@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 keywords: create,group,subgroup,new
 navigation-topic: create-and-manage-groups
 title: Création d’un groupe
-description: En tant qu’administrateur Adobe Workfront, vous pouvez créer des groupes pour organiser les utilisateurs et les projets et attribuer des droits d’accès dans Workfront.
+description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des groupes pour organiser les personnes et les projets et pour attribuer des droits d’accès dans Workfront.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -12,7 +12,7 @@ exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
 source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '1658'
-ht-degree: 8%
+ht-degree: 99%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 8%
 DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.
 -->
 
-En tant qu’administrateur Adobe Workfront, vous pouvez créer des groupes pour organiser les utilisateurs et les projets et attribuer des droits d’accès dans Workfront. Pour plus d’informations, voir [Présentation des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez créer des groupes pour organiser les personnes et les projets et pour attribuer des droits d’accès dans Workfront. Pour plus d’informations, voir [Vue d’ensemble des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Chaque sous-groupe a besoin d’au moins un administrateur de groupe. Les administrateurs de groupe peuvent utiliser la page Groupes pour gérer leurs groupes au même endroit.
+Chaque sous-groupe a besoin d’au moins un administrateur ou une administratrice de groupes. Les administrateurs et administratrices de groupes peuvent utiliser la page Groupes pour gérer leurs groupes en un seul endroit.
 
-Si vous êtes administrateur de groupe ou administrateur Workfront, vous pouvez également créer des sous-groupes sous un groupe. Pour obtenir des instructions, voir [Création d’un sous-groupe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
+Si vous faites partie de l’équipe d’administration de groupes ou Workfront, vous pouvez également créer des sous-groupes au sein d’un groupe. Pour obtenir des instructions, voir [Créer un sous-groupe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,11 +53,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 +++
 
-## Création d’un groupe de niveau supérieur à partir de zéro
+## Créer un groupe de premier niveau à partir de zéro
 
-Ces étapes expliquent comment créer un nouveau groupe à partir de zéro. Pour plus d’informations sur la création d’un groupe ou d’un sous-groupe en copiant un groupe existant, voir [Création d’un groupe de niveau supérieur en copiant un groupe ou sous-groupe existant](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) dans cet article.
+Ces étapes expliquent comment créer un nouveau groupe à partir de zéro. Pour plus d’informations sur la création d’un groupe ou d’un sous-groupe par copie d’un groupe ou d’un sous-groupe existant, voir [Créer un groupe de premier niveau par copie d’un groupe ou d’un sous-groupe existant](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) dans cet article.
 
-Pour créer un groupe de niveau supérieur, vous devez être un administrateur Workfront.
+Vous devez faire partie de l’équipe d’administration de Workfront pour créer un groupe de premier niveau.
 
 {{step-1-to-setup}}
 
@@ -67,9 +67,9 @@ Pour créer un groupe de niveau supérieur, vous devez être un administrateur W
 
    >[!TIP]
    >
-   >Au bas de la liste des groupes, vous pouvez également cliquer sur **Ajouter d’autres groupes** pour ajouter un groupe en ligne, puis sur **Entrée** lorsque vous avez terminé d’ajouter les informations du groupe.
+   >Au bas de la liste des groupes, vous pouvez également cliquer sur **Ajouter plus de groupes** pour ajouter un groupe en ligne, puis cliquer sur **Entrée** lorsque vous avez terminé d’ajouter les informations relatives au groupe.
 
-1. Dans la zone **New Group** qui s’affiche, saisissez le nom du groupe.
+1. Dans la zone **Nouveau groupe** qui s’affiche, saisissez un nom pour le groupe.
 1. Indiquez les informations suivantes :
 
    <table style="table-layout:auto"> 
@@ -82,63 +82,63 @@ Pour créer un groupe de niveau supérieur, vous devez être un administrateur W
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
-      <td>Saisissez une description pour le groupe. Vous pouvez saisir jusqu’à 512 caractères.</td> 
+      <td>Saisissez une description pour le groupe. Vous pouvez saisir jusqu’à 512 caractères.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">En activité</td> 
-      <td> <p>(Activé par défaut) Active le groupe dans votre instance Workfront.</p> <p>Dans des champs de type anticipé comme celui illustré ci-dessous, lorsque des utilisateurs ordinaires recherchent un groupe pour le joindre à un objet ou pour le partager avec lui, seuls les groupes actifs s’affichent dans la liste.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Pour rationaliser cette opération pour vos utilisateurs, vous pouvez désactiver l’option Est active pour les groupes qui ne sont pas actuellement utilisés.</p> <p>Vous pouvez facilement afficher, filtrer et regrouper la liste Groupes en fonction de l’état actif ou inactif à l’aide de ce champ. Pour plus d’informations sur l’utilisation des vues, des filtres et des regroupements dans des listes, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Éléments de reporting : filtres, vues et regroupements</a>.</p> </td> 
+      <td role="rowheader">Est active</td> 
+      <td> <p>(Activé par défaut) Active le groupe dans votre instance Workfront.</p> <p>Dans les champs à remplissage automatique comme celui illustré ci-dessous, lorsque des utilisateurs et utilisatrices ordinaires recherchent un groupe pour le joindre à un objet ou pour partager un objet avec celui-ci, seuls les groupes actifs s’affichent dans la liste.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Pour simplifier cette opération pour vos utilisateurs et utilisatrices, vous pouvez désactiver l’option Est actif pour les groupes qui ne sont pas actuellement utilisés.</p> <p>Vous pouvez facilement afficher, filtrer et regrouper la liste des groupes en fonction de l’état actif ou inactif à l’aide de ce champ. Pour plus d’informations sur l’utilisation des vues, des filtres et des regroupements dans les listes, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Éléments de création de rapports : filtres, vues et regroupements</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Rendre ce groupe et ses sous-groupes publics</td> 
-      <td> <p>(Disponible uniquement si vous affichez les détails d’un groupe de niveau supérieur et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs du groupe ayant un accès utilisateur d’édition (qui ne sont pas administrateurs du groupe) d’ajouter ce groupe et ses sous-groupes au profil utilisateur des autres utilisateurs.</p> <p>Pour un groupe public, tout utilisateur (dans ou hors du groupe) disposant d’un accès utilisateur d’édition peut ajouter le groupe au profil d’autres utilisateurs. Ils ne peuvent pas le faire pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que sur le groupe parent supérieur d’une hiérarchie de groupes comportant plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de son paramètre.</p> <p><b>NOTE</b> :  
+      <td> <p>(Disponible uniquement si vous consultez les détails d’un groupe de niveau supérieur et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs et utilisatrices du groupe ayant un accès en modification (qui ne sont pas administrateurs ou administratrices du groupe) d’ajouter ce groupe et ses sous-groupes au profil d’autres utilisateurs et utilisatrices.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès en modification peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> <p><b>NOTE</b> :  
         <ul> 
-         <li>Vous ne pouvez pas rendre un sous-groupe public en lui-même, mais vous pouvez rendre son groupe parent de niveau supérieur public, ce qui rend également tous les sous-groupes du parent public.</li> 
-         <li>Un sous-groupe appartenant à un groupe public est public par défaut. Par conséquent, tout utilisateur disposant d’un accès utilisateur de modification peut également ajouter le sous-groupe à d’autres utilisateurs.</li> 
-        </ul> </p> <p>Si vous avez besoin d’informations sur l’accès nécessaire pour modifier les utilisateurs, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Octroi de l’accès aux utilisateurs</a>. Pour plus d’informations sur la modification des utilisateurs, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modification du profil d’un utilisateur</a>.</p> </td> 
+         <li>Vous ne pouvez pas rendre public un sous-groupe seul, mais vous pouvez rendre public son groupe parent de niveau supérieur, ce qui a pour effet de rendre également publics tous les sous-groupes du groupe parent.</li> 
+         <li>Un sous-groupe appartenant à un groupe public est public par défaut. Par conséquent, toute personne disposant d’un accès en modification peut également ajouter le sous-groupe à d’autres utilisateurs et utilisatrices.</li> 
+        </ul> </p> <p>Si vous avez besoin d’informations relatives à l’accès nécessaire pour modifier les utilisateurs et utilisatrices, voir la section Accorder l’accès aux utilisateurs et utilisatrices. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"></a> Pour plus d’informations sur la modification des utilisateurs et utilisatrices, voir la section <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Chef d’entreprise </td> 
-      <td> <p>Vous pouvez affecter un utilisateur en tant que chef d’entreprise à un groupe que vous gérez. Un chef d’entreprise est quelqu’un qui prend des décisions commerciales pour le groupe. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Présentation du chef d’entreprise</a><span>.</span></p> <p>Si la personne n’est pas déjà membre du groupe, l’ajout de son nom à ce champ les ajoute également au groupe.</p> <p><b>NOTE</b> :  
+      <td> <p>Vous pouvez désigner un utilisateur ou une utilisatrice Chef ou cheffe d’entreprise d’un groupe que vous gérez. Le chef ou la cheffe d’entreprise est la personne qui prend des décisions professionnelles pour le groupe. Pour plus d’informations, voir l’article <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Vue d’ensemble des chefs et cheffes d’entreprise</a><span>.</span></p> <p>Si la personne n’est pas encore membre du groupe, l’ajout de son nom dans ce champ l’ajoute également au groupe.</p> <p><b>NOTE</b> :  
         <ul> 
-         <li>Avant de pouvoir supprimer le chef d’entreprise d’un groupe, vous devez supprimer son nom du champ Chef d’entreprise .</li> 
-         <li>Si vous supprimez le nom du champ Business Leader , cet utilisateur reste membre du groupe, sauf si vous le supprimez. Pour plus d’informations sur la suppression d’une personne d’un groupe, reportez-vous à la section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Gestion des appartenances à un groupe</a> de l’article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Gérer un groupe</a>.</li> 
-        </ul> </p> <p>Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Présentation du chef de l’entreprise</a>.</p> </td> 
+         <li>Avant de pouvoir retirer le chef ou la cheffe d’entreprise d’un groupe, vous devez supprimer son nom du champ Chef et cheffe d’entreprise.</li> 
+         <li>Si vous supprimez le nom du champ Chef et cheffe d’entreprise, cette personne reste membre du groupe à moins que vous ne l’en retiriez. Pour savoir comment retirer une personne d’un groupe, voir la section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Gérer les membres d’un groupe</a> dans l’article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Gérer un groupe</a>.</li> 
+        </ul> </p> <p>Pour plus d’informations, voir l’article <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Vue d’ensemble des chefs et cheffes d’entreprise</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Membres du groupe et administrateurs de groupe</td> 
       <td>
-        <p>Pour ajouter des membres de groupe, commencez à saisir le nom d’un utilisateur ou d’un groupe que vous souhaitez ajouter, puis sélectionnez le nom qui s’affiche.</p> 
-        <p>Les utilisateurs et les groupes que vous ajoutez ont accès à tous les objets partagés avec le groupe.</p>
-        <p>Un groupe de niveau supérieur doit avoir au moins un administrateur de groupe. </p>
+        <p>Pour ajouter des membres à un groupe, commencez par taper le nom de la personne ou du groupe existant à ajouter, puis sélectionnez le nom lorsqu’il apparaît.</p> 
+        <p>Les personnes et les groupes que vous ajoutez ont accès à tous les objets partagés avec le groupe.</p>
+        <p>Un groupe de premier niveau doit avoir au moins un administrateur ou une administratrice de groupe. </p>
      </tr> 
      <tr> 
       <td role="rowheader">Rechercher des personnes et des groupes dans la liste</td> 
-      <td> Si vous devez trouver un utilisateur ou un groupe déjà affecté à ce groupe, vous pouvez saisir son nom ici et le sélectionner lorsqu’il apparaîtra.</td> 
+      <td> Si vous devez trouver un utilisateur, une utilisatrice ou un groupe déjà affecté à ce groupe, vous pouvez taper son nom ici et le sélectionner lorsqu’il apparaît.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Cliquez sur **Créer un groupe**.
 
-## Créer un groupe de niveau supérieur en copiant un groupe ou un sous-groupe existant {#create-a-top-level-group-by-copying-an-existing-group-or-subgroup}
+## Créer un groupe de premier niveau en copiant un groupe ou un sous-groupe existant {#create-a-top-level-group-by-copying-an-existing-group-or-subgroup}
 
-En tant qu’administrateur Workfront, vous pouvez créer un groupe de niveau supérieur en copiant un groupe ou un sous-groupe existant.
+En tant qu’administrateur ou administratrice Workfront, vous pouvez créer un nouveau groupe de premier niveau en copiant un groupe ou un sous-groupe existant.
 
-Gardez les éléments suivants à l’esprit lorsque vous souhaitez effectuer cette opération :
+Pour ce faire, gardez à l’esprit les éléments suivants :
 
-* Tous les membres et tous les sous-groupes appartenant au groupe existant sont copiés dans le nouveau groupe de niveau supérieur.
-* Les membres du groupe copié conservent les affectations qu’ils avaient dans le groupe d’origine. Par conséquent, les administrateurs de groupe du groupe d’origine sont également désignés comme administrateurs de groupe dans le groupe copié.
+* Tous les membres et tous les sous-groupes appartenant au groupe existant sont copiés dans le nouveau groupe de premier niveau.
+* Les membres du groupe copié conservent les affectations qu’ils avaient dans le groupe d’origine. Par conséquent, l’équipe d’administration du groupe d’origine est également désignée comme équipe d’administration de groupe dans le groupe copié.
 
-Pour créer un groupe de niveau supérieur en copiant un groupe ou un sous-groupe :
+Pour créer un nouveau groupe de premier niveau en copiant un groupe ou un sous-groupe, procédez comme suit :
 
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![](assets/groups-icon.png).
 
-   Dans la liste qui s’affiche, vous pouvez voir les groupes que vous gérez, ainsi que les sous-groupes qu’ils possèdent. Les administrateurs Adobe Workfront peuvent voir tous les groupes.
+   Dans la liste qui s’affiche, vous pouvez voir les groupes que vous gérez, ainsi que les sous-groupes qu’ils comportent. Les administrateurs et administratrices Adobe Workfront peuvent voir tous les groupes.
 
-1. Sélectionnez le groupe à copier, puis cliquez sur l’icône Copier ![](assets/copy-icon.png).
-1. Dans la zone **Copier le groupe** qui s’affiche, saisissez un **nom de groupe** pour le groupe copié.
+1. Sélectionnez le groupe que vous souhaitez copier, puis cliquez sur l’icône Copier ![](assets/copy-icon.png).
+1. Dans la zone **Copier le groupe** qui s’affiche, saisissez un **Nom de groupe** pour le groupe copié.
 
 1. Indiquez les informations suivantes :
 
@@ -152,46 +152,46 @@ Pour créer un groupe de niveau supérieur en copiant un groupe ou un sous-group
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
-      <td>Saisissez une description pour le groupe. Vous pouvez saisir jusqu’à 512 caractères.</td> 
+      <td>Saisissez une description pour le groupe. Vous pouvez saisir jusqu’à 512 caractères.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">En activité</td> 
-      <td> <p>(Activé par défaut) Active le groupe dans votre instance Workfront.</p> <p>Dans des champs de type anticipé comme celui illustré ci-dessous, lorsque des utilisateurs ordinaires recherchent un groupe pour le joindre à un objet ou pour le partager avec lui, seuls les groupes actifs s’affichent dans la liste.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Pour rationaliser cette opération pour vos utilisateurs, vous pouvez désactiver l’option Est active pour les groupes qui ne sont pas actuellement utilisés.</p> <p>Vous pouvez facilement afficher, filtrer et regrouper la liste Groupes en fonction de l’état actif ou inactif à l’aide de ce champ. Pour plus d’informations sur l’utilisation des vues, des filtres et des regroupements dans des listes, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Éléments de reporting : filtres, vues et regroupements</a>.</p>  </td> 
+      <td role="rowheader">Est active</td> 
+      <td> <p>(Activé par défaut) Active le groupe dans votre instance Workfront.</p> <p>Dans les champs à remplissage automatique comme celui illustré ci-dessous, lorsque des utilisateurs et utilisatrices ordinaires recherchent un groupe pour le joindre à un objet ou pour partager un objet avec celui-ci, seuls les groupes actifs s’affichent dans la liste.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Pour simplifier cette opération pour vos utilisateurs et utilisatrices, vous pouvez désactiver l’option Est actif pour les groupes qui ne sont pas actuellement utilisés.</p> <p>Vous pouvez facilement afficher, filtrer et regrouper la liste des groupes en fonction de l’état actif ou inactif à l’aide de ce champ. Pour plus d’informations sur l’utilisation des vues, des filtres et des regroupements dans les listes, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Éléments de création de rapports : filtres, vues et regroupements</a>.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Rendre ce groupe et ses sous-groupes publics</td> 
-      <td> <p>(Disponible uniquement si vous affichez les détails d’un groupe de niveau supérieur et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs du groupe ayant un accès utilisateur d’édition (qui ne sont pas administrateurs du groupe) d’ajouter ce groupe et ses sous-groupes au profil utilisateur des autres utilisateurs.</p> <p>Pour un groupe public, tout utilisateur (dans ou hors du groupe) disposant d’un accès utilisateur d’édition peut ajouter le groupe au profil d’autres utilisateurs. Ils ne peuvent pas le faire pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que sur le groupe parent supérieur d’une hiérarchie de groupes comportant plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de son paramètre.</p> <p><b>NOTE</b> :  
+      <td> <p>(Disponible uniquement si vous consultez les détails d’un groupe de niveau supérieur et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs et utilisatrices du groupe ayant un accès en modification (qui ne sont pas administrateurs ou administratrices du groupe) d’ajouter ce groupe et ses sous-groupes au profil d’autres utilisateurs et utilisatrices.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès en modification peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> <p><b>NOTE</b> :  
         <ul> 
-         <li>Vous ne pouvez pas rendre un sous-groupe public en lui-même, mais vous pouvez le rendre public en tant que groupe parent de niveau supérieur, ce qui rend également tous les sous-groupes du parent public.</li> 
-         <li>Un sous-groupe appartenant à un groupe public est public par défaut. Par conséquent, tout utilisateur disposant d’un accès utilisateur de modification peut également ajouter le sous-groupe à d’autres utilisateurs.</li> 
-        </ul> </p> <p>Si vous avez besoin d’informations sur l’accès nécessaire pour modifier les utilisateurs, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Octroi de l’accès aux utilisateurs</a>. Pour plus d’informations sur la modification des utilisateurs, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Modification du profil d’un utilisateur</a>.</p> </td> 
+         <li>Vous ne pouvez pas rendre public un sous-groupe seul, mais vous pouvez rendre public son groupe parent de niveau supérieur, ce qui a pour effet de rendre également publics tous les sous-groupes du groupe parent.</li> 
+         <li>Un sous-groupe appartenant à un groupe public est public par défaut. Par conséquent, toute personne disposant d’un accès en modification peut également ajouter le sous-groupe à d’autres utilisateurs et utilisatrices.</li> 
+        </ul> </p> <p>Si vous avez besoin d’informations relatives à l’accès nécessaire pour modifier les utilisateurs et utilisatrices, voir la section Accorder l’accès aux utilisateurs et utilisatrices. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override=""></a> Pour plus d’informations sur la modification des utilisateurs et utilisatrices, voir la section <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Chef d’entreprise </td> 
-      <td> <p>Vous pouvez affecter un utilisateur en tant que chef d’entreprise à un groupe que vous gérez. Un chef d’entreprise est quelqu’un qui prend des décisions commerciales pour le groupe. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Présentation du chef d’entreprise</a><span>.</span></p> <p>Si la personne n’est pas déjà membre du groupe, l’ajout de son nom à ce champ les ajoute également au groupe.</p> <p><b>NOTE</b> :  
+      <td> <p>Vous pouvez désigner un utilisateur ou une utilisatrice Chef ou cheffe d’entreprise d’un groupe que vous gérez. Le chef ou la cheffe d’entreprise est la personne qui prend des décisions professionnelles pour le groupe. Pour plus d’informations, voir l’article <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Vue d’ensemble des chefs et cheffes d’entreprise</a><span>.</span></p> <p>Si la personne n’est pas encore membre du groupe, l’ajout de son nom dans ce champ l’ajoute également au groupe.</p> <p><b>NOTE</b> :  
         <ul> 
-         <li>Avant de pouvoir supprimer le chef d’entreprise d’un groupe, vous devez supprimer son nom du champ Chef d’entreprise .</li> 
-         <li>Si vous supprimez le nom du champ Business Leader , cet utilisateur reste membre du groupe, sauf si vous le supprimez. Pour plus d’informations sur la suppression d’une personne d’un groupe, reportez-vous à la section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Gestion des appartenances à un groupe</a> de l’article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Gérer un groupe</a>.</li> 
-        </ul> </p> <p>Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Présentation du chef de l’entreprise</a>.</p> </td> 
+         <li>Avant de pouvoir retirer le chef ou la cheffe d’entreprise d’un groupe, vous devez supprimer son nom du champ Chef et cheffe d’entreprise.</li> 
+         <li>Si vous supprimez le nom du champ Chef et cheffe d’entreprise, cette personne reste membre du groupe à moins que vous ne l’en retiriez. Pour savoir comment retirer une personne d’un groupe, voir la section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Gérer les membres d’un groupe</a> dans l’article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Gérer un groupe</a>.</li> 
+        </ul> </p> <p>Pour plus d’informations, voir l’article <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Vue d’ensemble des chefs et cheffes d’entreprise</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Membres du groupe et administrateurs de groupe</td> 
       <td> 
        <ul> 
-        <li> <p>Membres du groupe : pour ajouter des utilisateurs et des groupes au groupe, commencez à saisir le nom d’un utilisateur ou d’un groupe que vous souhaitez ajouter, puis sélectionnez le nom qui s’affiche.</p> <p>Les utilisateurs et les groupes que vous ajoutez ont accès à tous les objets partagés avec le groupe.</p> </li> 
-        <li> <p>Administrateurs de groupe : tous les administrateurs de groupe du groupe d’origine sont également désignés comme administrateurs de groupe dans le groupe copié. Vous pouvez affecter un membre du groupe en tant qu’administrateur du groupe à l’aide du menu déroulant situé à droite du nom de l’utilisateur.</p> <p>Un groupe de niveau supérieur doit avoir au moins un administrateur de groupe.</p> </li> 
+        <li> <p>Membres du groupe : pour ajouter des utilisateurs, des utilisatrices et des groupes au groupe, commencez à saisir le nom de la personne ou du groupe à ajouter, puis sélectionnez son nom lorsqu’il s’affiche.</p> <p>Les personnes et les groupes que vous ajoutez ont accès à tous les objets partagés avec le groupe.</p> </li> 
+        <li> <p>Administrateurs et administratrices de groupe : les administrateurs et administratrices du groupe d’origine sont également désignés administrateurs et administratrices de groupe dans le groupe copié. Vous pouvez attribuer à une personne du groupe les droits d’administration de groupes à l’aide du menu déroulant situé à droite du nom de la personne.</p> <p>Un groupe de premier niveau doit avoir au moins un administrateur ou une administratrice de groupe.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Rechercher des personnes et des groupes dans la liste</td> 
-      <td> Si vous devez trouver un utilisateur ou un groupe déjà affecté à ce groupe, vous pouvez saisir son nom ici et le sélectionner lorsqu’il apparaîtra.</td> 
+      <td> Si vous devez trouver un utilisateur, une utilisatrice ou un groupe déjà affecté à ce groupe, vous pouvez taper son nom ici et le sélectionner lorsqu’il apparaît.</td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >* Si le groupe d’origine comporte des sous-groupes, ceux-ci sont ajoutés au nouveau groupe et leurs noms sont, par défaut, &quot;Nom du sous-groupe d’origine (Copier)&quot;.
-   >* Vous pouvez éliminer n’importe quel utilisateur ou sous-groupe du groupe d’origine en cliquant sur le X situé à droite du nom de l’utilisateur ou du sous-groupe.
+   >* Si le groupe d’origine comporte des sous-groupes, ceux-ci sont ajoutés au nouveau groupe et leur nom est, par défaut, « Nom du sous-groupe d’origine (Copie) ».
+   >* Vous pouvez retirer une personne ou un sous-groupe du groupe d’origine en cliquant sur le X à droite de son nom.
 
 1. Cliquez sur **Créer un groupe**.

@@ -9,7 +9,7 @@ exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
 source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 63%
+ht-degree: 84%
 
 ---
 
@@ -73,15 +73,15 @@ Vous pouvez mettre à jour manuellement la date d’engagement d’une tâche ou
 
 ## Conditions préalables
 
-Avant de pouvoir modifier la date de validation d’une tâche ou d’un problème, vous devez être affecté à la tâche ou au problème dont vous devez mettre à jour la date de validation.
+Avant de pouvoir modifier la date d’engagement d’une tâche ou d’un problème, l’objet (tâche ou problème) dont vous devez mettre à jour la date d’engagement doit vous être affecté.
 
 ## Mettre à jour les dates d’engagement pour les tâches et les problèmes
 
 
-Vous pouvez mettre à jour la date de validation d’une tâche ou d’un problème dans les zones suivantes de Workfront :
+Vous pouvez mettre à jour la date d’engagement d’une tâche ou d’un problème dans les zones suivantes de Workfront :
 
-* La section Détails d’une tâche ou d’un problème
-* En-tête de tâche ou de problème
+* Section Détails d’une tâche ou d’un problème
+* L’en-tête de tâche ou de problème.
 
   L’administrateur de Workfront ou de votre groupe doit ajouter la date de validation à l’en-tête de tâche ou de problème de votre modèle de mise en page pour l’afficher à partir de la tâche ou de la page de publication.
 Pour plus d’informations, voir [Personnaliser les en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
@@ -114,7 +114,7 @@ La mise à jour de la date d’engagement est identique pour les tâches et les 
 
 1. Cliquez sur **Enregistrer les modifications**.
 
-   Ce qui suit se produit après avoir apporté cette modification :
+   Voici ce qui se produit après avoir apporté cette modification :
 
    * La date d’engagement et la date d’achèvement prévue de la tâche ou du problème ne sont plus les mêmes.
 
@@ -123,7 +123,7 @@ La mise à jour de la date d’engagement est identique pour les tâches et les 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * Le ou la propriétaire du projet reçoit une notification intégrée à Workfront, selon laquelle vous avez suggéré une nouvelle date d’engagement pour la tâche ou le problème.
-   * Le propriétaire du projet est informé, dans la section Mises à jour, que vous avez suggéré une nouvelle date de validation et qu’il peut, à ce stade, mettre à jour la date d’achèvement planifiée de la tâche ou du problème pour qu’elle corresponde à la date de validation que vous avez suggérée.
+   * Dans la section Mises à jour, la personne propriétaire du projet est informée que vous avez suggéré une nouvelle date d’engagement et qu’elle peut, à ce stade, mettre à jour la date d’achèvement prévue de la tâche ou du problème pour qu’elle corresponde à la date d’engagement que vous avez suggérée.
 
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 

@@ -2,24 +2,24 @@
 product-area: documents
 navigation-topic: approvals
 title: Présentation de l’état de décision du document
-description: Les statuts de décision du document sont répertoriés et expliqués.
+description: Les statuts de décision des documents sont répertoriés et expliqués.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
 source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 5%
+ht-degree: 95%
 
 ---
 
 # Présentation de l’état de décision du document
 
-Vous pouvez afficher l’état du document directement dans la liste des documents :
+Vous pouvez afficher le statut du document directement dans la liste des documents :
 
 ![](assets/status-in-doc-list.png)
 
-Les statuts suivants sont disponibles :
+Les statuts possibles sont les suivants :
 
 <table>
             <col style="width: 50%;" />
@@ -32,7 +32,7 @@ Les statuts suivants sont disponibles :
                     <td>
                         <ul>
                             <li>
-                                Les réviseurs et les approbateurs ont été avertis, mais n’ont pas encore ouvert la ressource.
+                                Les personnes réviseuses et approbatrices ont été averties, mais n’ont pas encore ouvert la ressource.
                             </li>
                         </ul>
                     </td>
@@ -44,13 +44,13 @@ Les statuts suivants sont disponibles :
                     <td>
                         <ul>
                             <li>
-                                <p>Au moins un réviseur a consulté la ressource.</p>
+                                <p>Au moins une personne réviseuse a consulté la ressource.</p>
                             </li>
                             <li>
-                                <p>Au moins un réviseur n’a pas terminé sa révision</p>
+                                <p>Au moins une personne réviseuse n’a pas terminé sa révision.</p>
                             </li>
                             <li>
-                                <p>Aucun approbateur n’a été affecté à cette ressource.</p>
+                                <p>Aucune personne approbatrice n’a été affectée à cette ressource.</p>
                             </li>
                         </ul>
                     </td>
@@ -62,10 +62,10 @@ Les statuts suivants sont disponibles :
                     <td>
                         <ul>
                             <li>
-                                <p>Tous les opérateurs validants ont terminé leur vérification</p>
+                                <p>Toutes les personnes approbatrices ont terminé leur révision.</p>
                             </li>
                             <li>
-                                <p>Aucun approbateur n’a été affecté à cette ressource.</p>
+                                <p>Aucune personne approbatrice n’a été affectée à cette ressource.</p>
                             </li>
                         </ul>
                     </td>
@@ -76,11 +76,11 @@ Les statuts suivants sont disponibles :
                     <td>
                         <ul>
                             <li>
-                                <p>Toutes les approbations et révisions sont terminées</p>
+                                <p>Toutes les approbations et révisions sont terminées.</p>
                             </li>
                             <li>
-                                <p>Au moins un approbateur a pris la décision "Besoins en matière de travail"</p>
-                                <p>D’autres approbateurs peuvent avoir pris des décisions "Approuvé avec modifications" ou "Approuvé"
+                                <p>Au moins une personne approbatrice a pris la décision « A besoin d’être retravaillée ».</p>
+                                <p>D’autres personnes approbatrices peuvent avoir pris des décisions « Approuvé avec des modifications » ou « Approuvé ».
                             </li>
                         </ul>
                     </td>
@@ -91,11 +91,11 @@ Les statuts suivants sont disponibles :
                     <td>
                         <ul>
                             <li>
-                                <p>Toutes les approbations et révisions sont terminées</p>
+                                <p>Toutes les approbations et révisions sont terminées.</p>
                             </li>
                             <li>
-                                <p>Au moins un approbateur a pris la décision "Approuvé avec modifications"</p>
-                                <p>D’autres approbateurs peuvent avoir pris des décisions "Approuvé"
+                                <p>Au moins une personne approbatrice a pris la décision « Approuvé avec des modifications ».</p>
+                                <p>D’autres personnes approbatrices peuvent avoir pris des décisions « Approuvé ».
                             </li>
                         </ul>
                     </td>
@@ -106,10 +106,10 @@ Les statuts suivants sont disponibles :
                     <td>
                         <ul>
                             <li>
-                                <p>Toutes les approbations et révisions sont terminées</p>
+                                <p>Toutes les approbations et révisions sont terminées.</p>
                             </li>
                             <li>
-                                <p>Tous les approbateurs peuvent avoir pris des décisions de "Approuvé"
+                                <p>Toutes les personnes approbatrices peuvent avoir pris des décisions « Approuvé ».
                             </li>
                         </ul>
                     </td>

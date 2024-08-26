@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Modifier une vue en mode texte
-description: "REMARQUE : ajoutez une section dans cet article : /Content/Reports and Dashboard/Reports/Reporting Elements/create-customize-views.html *** Également, rédigez cette zone dans l’article Présentation du mode texte )"
+description: '« NOTE : ajoutez une section dans cet article : /Content/Reports and Dashboard/Reports/Reporting Elements/create-customize-views.html *** Faites également un brouillon de cette zone dans l’article Vue d’ensemble du mode Texte) »'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
 source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 <add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
 -->
 
-Vous pouvez modifier une vue dans une liste ou un rapport à l’aide du mode texte pour accéder à des champs qui ne sont pas disponibles dans l’interface standard et créer des vues plus complexes.
+Vous pouvez modifier une vue dans une liste ou un rapport à l’aide du mode Texte pour accéder à des champs qui ne sont pas disponibles dans l’interface standard et créer des vues plus complexes.
 
 ## Conditions d’accès
 
@@ -40,20 +40,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Nouvelle : standard </p>
-   <p>Actuelle : formule </p> </td> 
+   <p>Actuelle : formule </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers pour la modification des éléments de rapport dans un rapport</p> </td> 
+   <td> <p>Accès en modification aux filtres, aux vues et aux regroupements</p> <p>Accès en modification aux Rapports, Tableaux de bord et Calendriers pour modifier les éléments de rapport dans un rapport</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport pour modifier les vues d’un rapport</p> <p>Gérer les autorisations pour une vue pour la modifier</p> </td> 
+   <td> <p>Autorisations de gestion à un rapport pour modifier les vues d’un rapport</p> <p>Autorisations de gestion sur la vue pour la modifier</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. 
 Pour plus d’informations sur les exigences d’accès, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
@@ -62,28 +62,28 @@ Pour plus d’informations sur les exigences d’accès, voir [Conditions d’ac
 
 Avant de commencer à utiliser le mode texte dans un rapport ou une liste, assurez-vous toujours de bien connaître la syntaxe du mode texte Workfront.
 
-Pour plus d’informations, voir :
+Pour plus d’informations, voir :
 
-* [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Présentation de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Vue d’ensemble du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Vue d’ensemble de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Exemples de vues, de filtres et de regroupements personnalisés : index des articles](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## Mode Modifier le texte dans une vue
+## Modifier le mode Texte dans une vue
 
-La modification d’une vue en mode texte est identique pour les rapports et les listes. L’accès à la vue depuis un rapport ou depuis une liste diffère.
+La modification d’une vue en mode Texte est identique pour les rapports et les listes.L’accès à la vue depuis un rapport ou depuis une liste diffère.
 
 >[!TIP]
 >
->Nous vous recommandons de créer autant de vue que possible en mode standard, puis de la convertir en mode texte pour l’éditer.
+>Nous vous recommandons de créer autant de la vue que possible en mode standard, puis de la convertir en mode Texte pour la modifier.
 
-Pour plus d’informations sur la création de vues, voir [Présentation des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Pour plus d’informations sur la création de vues, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 Pour plus d’informations sur la création d’un rapport, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Utilisez l’une des méthodes suivantes :
 
-   1. Pour accéder à la vue à partir d’un rapport, accédez au rapport, puis cliquez sur l’onglet **Actions de rapport** > **Modifier** > **Colonnes (vue)**.
-   1. Pour accéder à la vue à partir d’une liste, accédez à la liste et, dans le menu déroulant **Afficher**, placez le pointeur de la souris sur la vue à modifier, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
+   1. Pour accéder à la vue depuis un rapport, accédez au rapport, puis cliquez sur l’onglet **Actions de rapport** > **Modifier** > **Colonnes (affichage)**.
+   1. Pour accéder à la vue depuis une liste, accédez à la liste. Depuis le menu déroulant **Vue**, placez le pointeur de la souris sur la vue à modifier, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
 
       Le créateur de vues s’ouvre.
 
@@ -91,21 +91,21 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
 
    Ou
 
-   Sélectionnez l’onglet **Colonnes (vues)** du créateur de rapports, puis sélectionnez une colonne.
+   Sélectionnez l’onglet **Colonnes (vue)** du créateur de rapports, puis sélectionnez une colonne.
 
    >[!TIP]
    >
-   >Pour modifier une vue en mode texte, vous devez modifier une colonne à la fois.
+   >Pour modifier une vue en mode Texte, vous devez modifier une colonne à la fois.
 
 1. Cliquez sur **Passer en mode Texte** dans le coin supérieur droit du créateur.
 
    >[!NOTE]
    >
-   >Lorsque vous modifiez une colonne en mode texte, Workfront ajoute la ligne de code `textmode=true` à la colonne. Cela indique que la colonne est modifiée en mode texte.
+   >Lorsque vous modifiez une colonne en mode Texte, Workfront ajoute la ligne de code  à la colonne. `textmode=true` Cela indique que la colonne est modifiée en mode Texte.
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
-   Le tableau suivant décrit les lignes clés dans une vue en mode texte :
+   Le tableau suivant décrit les lignes clés dans une vue en mode Texte :
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make this a snippet and add it to the grouping article too)</p>
@@ -201,14 +201,14 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
        </div>
 
    <div>
-      Les <code>aggregator. </code> lignes peuvent contenir un <code>valuefield </code> ou un <code>valueexpression</code>.
+      Les lignes <code>aggregator. </code> peuvent contenir un <code>valuefield </code> ou <code>valueexpression</code>.
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Cliquez sur **Appliquer** si vous souhaitez enregistrer vos modifications et continuer à modifier la vue.
-1. Cliquez sur **Enregistrer + Fermer** pour enregistrer votre rapport.
+1. Cliquez sur **Enregistrer et fermer** pour enregistrer votre rapport.
 
    Ou
 

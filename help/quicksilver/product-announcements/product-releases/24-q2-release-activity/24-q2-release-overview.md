@@ -8,22 +8,22 @@ exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
 source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
 source-wordcount: '2246'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
 # Vue d’ensemble de la version du deuxième trimestre 2024
 
-Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2024. Ces améliorations ont été apportées à l’environnement de production pour tous les clients de la version 24.4 des 10 et 11 avril 2024.
+Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2024. Ces améliorations ont été apportées à l’environnement de production pour l’ensemble des clientes et clients de la version 24.4 des 10 et 11 avril 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 À la place d’un webinaire sur la version, nous vous invitons à vous [inscrire à Adobe Summit](https://summit.adobe.com/na/) pour regarder les sessions Workfront suivantes :
 
-[L’avenir d’Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) le 26 mars 2024, pour avoir un aperçu de l’avenir de la planification stratégique et des workflows. Découvrez comment l’équipe Workfront prévoit de gérer les fonctionnalités métiers tout au long du cycle de vie marketing, le tout avec une approche centrée sur l’IA qui permet d’automatiser le travail, de simplifier les expériences utilisateurs et d’améliorer la productivité.
+[L’avenir d’Adobe Workfront le 26 mars 2024, pour avoir un aperçu de l’avenir de la planification stratégique et des workflows. ](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) Découvrez comment l’équipe Workfront prévoit de gérer les fonctionnalités métiers tout au long du cycle de vie marketing, le tout avec une approche centrée sur l’IA qui permet d’automatiser le travail, de simplifier les expériences utilisateurs et d’améliorer la productivité.
 
 [Présentation des calendriers et des outils marketing pour la planification des campagnes de bout en bout](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) le 28 mars 2024, pour en savoir plus sur les nouvelles fonctionnalités du produit conçues pour vous permettre de gérer et de visualiser les cycles de vie opérationnels de bout en bout.
 
-Vous pouvez également [afficher un fichier de PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} avec les mises en évidence de la version 24.4.
+Vous pouvez également [consulter un fichier PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} détaillant les nouveautés de la version 24.4.
 
 <span class="preview">Les fonctionnalités hors cycle (celles qui sont publiées en production avant la date de version du deuxième trimestre 2024) sont surlignées en jaune.</span>
 
@@ -360,7 +360,7 @@ Vous pouvez également [afficher un fichier de PDF](https://acrobat.adobe.com/id
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations plus pertinentes ajoutées au workflow Nouvelle tâche</a></p>
-                        <p>[!BADGE en production pour version rapide ]{type=Positif}</p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Nous avons ajouté la même fonctionnalité pour des affectations intelligentes plus pertinentes au champ Affectations dans la zone Nouvelle tâche lors de l’ajout d’une tâche à un projet et dans une liste de tâches de projet.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -369,7 +369,7 @@ Vous pouvez également [afficher un fichier de PDF](https://acrobat.adobe.com/id
                                 <p>Version d’aperçu : 13 février 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
@@ -380,7 +380,7 @@ Vous pouvez également [afficher un fichier de PDF](https://acrobat.adobe.com/id
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Affectations intelligentes plus pertinentes</a></p>
-                        <p>[!BADGE en production pour version rapide ]{type=Positif}</p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Nous avons modifié l’algorithme utilisé par Workfront pour calculer et suggérer des affectations intelligentes pour les tâches. Le nouvel algorithme s’applique aux zones suivantes de Workfront où vous affectez une tâche : listes de tâches, zone Affectations dans l’en-tête de la tâche, Accueil et panneau Résumé.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -389,7 +389,7 @@ Vous pouvez également [afficher un fichier de PDF](https://acrobat.adobe.com/id
                                 <p>Version d’aperçu : 21 décembre 2023</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.5 (16 mai 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
@@ -423,7 +423,7 @@ Vous pouvez également [afficher un fichier de PDF](https://acrobat.adobe.com/id
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 22 février 2024</p>
+                                <p>Version préliminaire : 12 octobre 2024</p>
                             </li>
                             <li>
                                 <p>Production pour une version rapide : avec la version 24.2 (15 février 2024)</p>
@@ -456,7 +456,7 @@ Vous pouvez également [afficher un fichier de PDF](https://acrobat.adobe.com/id
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelles expériences de commentaires ajoutées aux itérations</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>Pour vous offrir une expérience cohérente dans l’ensemble de l’application, nous avons ajouté la nouvelle expérience de commentaire aux itérations. </p>
+                        <p>Afin de vous offrir une expérience cohérente dans l’ensemble de l’application, nous avons ajouté la nouvelle expérience de commentaire aux itérations. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -664,7 +664,7 @@ Pour plus d’informations sur les nouveautés et les mises à jour, consultez l
 
 Pour plus d’informations sur les versions d’API, consultez [Contrôle de version des API et planification de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Mises à jour de maintenance pour Workfront 
+### Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
 

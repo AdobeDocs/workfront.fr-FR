@@ -3,7 +3,7 @@ title: Personnalisation des en-têtes d’objet à l’aide d’un modèle de mi
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: En tant qu’administrateur Adobe Workfront ou administrateur de groupe , vous pouvez utiliser un modèle de mise en page pour configurer les champs que les utilisateurs voient dans l’en-tête de l’objet lorsqu’ils ouvrent la page d’un objet.
+description: En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, vous pouvez utiliser un modèle de mise en page pour configurer les champs que les personnes voient dans l’en-tête de l’objet lorsqu’elles ouvrent la page de l’objet.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -11,17 +11,17 @@ exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
 source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 27%
+ht-degree: 98%
 
 ---
 
 # Personnaliser les en-têtes d’objet avec un modèle de disposition
 
-En tant qu’administrateur Adobe Workfront ou administrateur de groupe, vous pouvez utiliser un modèle de mise en page pour configurer les champs que les utilisateurs voient dans l’en-tête de l’objet lorsqu’ils ouvrent la page d’un objet.
+En tant qu’administrateur ou administratrice Adobe Workfront ou de groupes, vous pouvez utiliser un modèle de mise en page pour configurer les champs que les personnes voient dans l’en-tête de l’objet lorsqu’elles ouvrent la page d’un objet.
 
 >[!IMPORTANT]
 >
->La personnalisation des en-têtes d’objet est actuellement disponible pour les projets, les tâches et les problèmes.
+>La personnalisation des en-têtes d’objets est actuellement disponible pour les projets, les tâches et les problèmes.
 
 ![](assets/object-header-fields.png)
 
@@ -40,21 +40,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 <table>
   <tr>
-   <td><strong>Formule Adobe Workfront</strong>
+   <td><strong>Plan Adobe Workfront</strong>
    </td>
    <td>N’importe quelle
    </td>
   </tr>
   <tr>
-   <td><strong>Licence Adobe Workfront</strong>
+   <td><strong>Licence Adobe Workfront</strong>
    </td>
    <td>Plan
    </td>
   </tr>
   <tr>
-   <td><strong> Configurations de niveau d’accès</strong>
+   <td><strong>Configurations du niveau d’accès</strong>
    </td>
-   <td>Vous devez être un administrateur Workfront ou un administrateur de groupe.
+   <td>Vous devez être un administrateur ou une administratrice Workfront ou de groupes.
 <p>
    </td>
   </tr>
@@ -64,47 +64,47 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 
 +++
 
-## Personnalisation des en-têtes d’objet
+## Personnaliser les en-têtes d’objets
 
 1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Dans le menu déroulant **Personnaliser ce que les utilisateurs voient**, sélectionnez **Projets**, **Tâches** ou **Problèmes**.
+1. Dans le menu déroulant **Personnaliser ce que les personnes voient**, sélectionnez **Projets**, **Tâches** ou **Problèmes**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. Dans la section [!UICONTROL Champs d’en-tête] , placez le pointeur de la souris sur les champs affichés et effectuez l’une des opérations suivantes :
+1. Dans la section [!UICONTROL Champs d’en-tête], pointez sur les champs affichés et effectuez l’une des opérations suivantes :
    * Cliquez sur l’icône **x** pour supprimer un champ.
 
      Ou
 
-   * Cliquez sur l’icône **grab** et maintenez-la enfoncée pour faire glisser le champ vers un nouvel emplacement.
+   * Cliquez sur l’icône **main** et maintenez-la enfoncée pour faire glisser et déposer le champ à un nouvel emplacement.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
    ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
-1. L’en-tête d’un objet peut contenir jusqu’à cinq champs.
-Si cinq champs sont déjà sélectionnés, vous devez en supprimer un avant d’en ajouter un nouveau.
-1. Dans la zone **Ajouter un champ**, commencez à saisir le nom d’un champ Workfront non modifiable que vous souhaitez ajouter, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Le champ est ajouté à droite de la zone Ajouter un champ et s’affiche comme premier champ dans le coin supérieur gauche de l’en-tête de l’objet.
+1. L’en-tête d’un objet peut comporter jusqu’à cinq champs.
+Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ avant d’en ajouter un nouveau.
+1. Dans la zone **Ajouter un champ**, commencez à saisir le nom d’un champ Workfront non modifiable que vous souhaitez ajouter, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Le champ est ajouté immédiatement à droite de la zone Ajouter un champ et s’affiche comme le premier champ dans le coin supérieur gauche de l’en-tête de l’objet.
 
    >[!TIP]
    >
-   >* Vous pouvez uniquement ajouter des champs qui s’affichent dans la zone Aperçu de la section Détails de l’objet et qui ne sont pas modifiables. Les champs non modifiables sont des champs que les utilisateurs ne peuvent pas modifier manuellement. Elles sont automatiquement calculées par Workfront.
+   >* Vous ne pouvez ajouter que des champs qui s’affichent dans la zone Vue d’ensemble de la section Détails de l’objet et qui ne sont pas modifiables. Les champs non modifiables sont des champs que les personnes ne peuvent pas modifier manuellement. Ils sont calculés automatiquement par Workfront.
    >
-   >* Vous pouvez ajouter des champs modifiables qui font déjà partie des en-têtes par défaut (par exemple, Propriétaire du projet, État, Pourcentage terminé, Affectations).
+   >* Vous pouvez ajouter des champs modifiables qui font déjà partie des en-têtes par défaut (par exemple, Propriétaire du projet, Statut, Pourcentage terminé, Affectations).
    >
-   >* Lorsque vous ajoutez le champ &quot;Résolu par&quot; à l’en-tête d’un problème, le champ devient &quot;Résoudre un problème, une tâche ou un projet&quot;, lorsqu’un objet de résolution est associé au problème.
+   >* Lorsque vous ajoutez le champ « Résolu par » à l’en-tête d’un problème, le champ devient « Résolution du problème, de la tâche ou du projet », lorsqu’un objet de résolution est associé au problème.
 
 
    ![](assets/add-field-to-header-in-lt-list.png)
 
 
-1. (Facultatif) Faites glisser et déposez les champs ajoutés dans un autre ordre.
+1. (Facultatif) Faites glisser et déposez les champs ajoutés dans un ordre différent.
 
 1. Poursuivez la personnalisation du modèle de disposition.
 
    Ou
 
-   Si vous avez terminé de personnaliser, cliquez sur **Enregistrer**.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
 
    >[!TIP]
    >

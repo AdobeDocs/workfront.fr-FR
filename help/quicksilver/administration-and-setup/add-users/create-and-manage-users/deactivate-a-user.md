@@ -3,7 +3,7 @@ title: Désactivation ou réactivation d’un utilisateur
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: En tant qu’administrateur Workfront, vous pouvez désactiver ou réactiver un utilisateur.
+description: En tant qu’administrateur ou administratrice Workfront, vous pouvez désactiver ou réactiver un utilisateur ou une utilisatrice.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,11 +11,11 @@ exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 11%
+ht-degree: 99%
 
 ---
 
-# Désactivation ou réactivation d’un utilisateur
+# Désactiver ou réactiver un utilisateur ou une utilisatrice
 
 <!--Audited 2/2024-->
 
@@ -31,25 +31,25 @@ ht-degree: 11%
 
 -->
 
-Si un utilisateur quitte l’entreprise, vous devrez peut-être le supprimer d’Adobe Workfront. Ils ne doivent pas rester actifs dans le système, car cela créerait une confusion pour les autres utilisateurs lorsqu’ils les ajouteraient à des mises à jour ou leur attribueraient un travail. Lorsque vous désactivez un utilisateur, son nom n’est plus visible pour les autres utilisateurs qui recherchent des personnes dans le système.
+Si un utilisateur ou une utilisatrice quitte l’entreprise, vous devrez peut-être supprimer cette personne d’Adobe Workfront. Elle ne doit pas rester active dans le système, car cela créerait une confusion pour les autres utilisateurs ou utilisatrices lorsqu’ils ou elles l’ajoutent à des mises à jour ou lui affectent du travail. Lorsque vous désactivez une personne, les autres utilisateurs ou utilisatrices ne voient plus son nom lorsqu’ils ou elles recherchent des personnes dans le système.
 
-Les administrateurs peuvent voir les utilisateurs inactifs dans la zone Configuration .
+Les administrateurs ou administratrices peuvent voir les personnes inactives dans la zone Configuration.
 
-Vous pouvez réactiver un utilisateur à tout moment.
+Vous pouvez réactiver une personne à tout moment.
 
 >[!IMPORTANT]
 >
->Nous vous recommandons de désactiver les utilisateurs qui ont quitté l’organisation plutôt que de les supprimer. Si un utilisateur est supprimé, tout l’historique de Workfront associé à cet utilisateur est perdu. Cela inclut leurs affectations de travail, leur association aux notes, heures, documents et tous les autres objets qu’ils ont créés une fois.
+>Nous vous recommandons de désactiver les personnes qui ont quitté l’entreprise plutôt que de les supprimer. Si une personne est supprimée, tout l’historique associé à cette personne dans Workfront est perdu. Il s’agit de ses affectations de travail, de son association à des notes, des heures, des documents et tous les autres objets qu’elle a créés.
 >
->La désactivation d’un utilisateur dans Workfront supprime les licences de l’utilisateur pour Workfront et la vérification dynamique des balises. En outre, l’utilisateur ne peut plus se voir attribuer une tâche. Lorsqu’un utilisateur est désactivé, sa licence Workfront et sa licence de vérification peuvent être utilisées par un autre utilisateur. Toutes les autres informations du profil de l’utilisateur désactivé restent inchangées.
+>La désactivation d’une personne dans Workfront supprime ses licences sur Workfront et la relecture numérique. En outre, cette personne ne peut plus se voir affecter de travail. Lorsqu’une personne est désactivée, sa licence Workfront et sa licence de relecture deviennent disponibles pour un autre utilisateur ou une autre utilisatrice. Toutes les autres informations du profil de la personne désactivée restent inchangées.
 >
->Pour plus d’informations sur l’impact de la suppression et de la désactivation des utilisateurs, voir [Suppression des utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>Pour plus d’informations sur l’impact de la suppression et de la désactivation d’utilisateurs ou d’utilisatrices, voir [Supprimer des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,101 +78,101 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 ## Conditions préalables
 
-Avant de désactiver un administrateur Workfront ou un utilisateur sous licence Standard ou Plan, vous devez associer ses objets et activités à un autre utilisateur.
+Avant de désactiver un administrateur ou une administratrice Workfront, ou un utilisateur ou une utilisatrice de licence Standard ou Plan, vous devez associer ses objets et activités à une autre personne.
 
-Pour plus d’informations, voir [À propos de la désactivation des administrateurs Workfront et de la planification des utilisateurs de licence](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
+Pour plus d’informations, voir [À propos de la désactivation d’administrateurs ou d’administratrices Workfront et d’utilisateurs ou d’utilisatrices de licence de plan](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
 
 ## Désactiver un utilisateur ou une utilisatrice
 
-Lors de la désactivation d’un utilisateur, tenez compte des points suivants :
+Tenez compte des points suivants lorsque vous désactivez un utilisateur ou une utilisatrice :
 
-* L’utilisateur ne pourra pas accéder au système.
+* L’utilisateur ou l’utilisatrice ne pourra pas accéder au système.
 <!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
    * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.-->
-* Toutes les données associées à l’utilisateur seront conservées.
-* Vous pouvez attribuer une licence d’utilisateur désactivée à un autre utilisateur.
+* Toutes les données associées à l’utilisateur ou à l’utilisatrice seront conservées.
+* Vous pouvez attribuer la licence de l’utilisateur ou l’utilisatrice désactivé à une autre personne.
 
-Pour désactiver un utilisateur :
-
-{{step-1-to-users}}
-
-1. Sélectionnez un utilisateur, cliquez sur l&#39;icône **Plus** ![](assets/more-icon.png), puis sur **Désactiver**.
-
-1. Cliquez sur **Désactiver** dans la zone qui s’affiche.
-
-## Planification de la désactivation pour les utilisateurs
-
-En tant que responsable, vous pouvez souhaiter marquer les utilisateurs pour désactivation avant qu’ils ne quittent réellement votre entreprise. Par exemple, si vous travaillez avec un utilisateur contractuellement lié, il se trouve dans votre système pendant une période limitée et vous connaissez sa date de fin. Vous pouvez programmer leur désactivation à cette date.
-
-Les administrateurs de Workfront et les utilisateurs de la licence Plan peuvent voir la date de désactivation dans leur profil utilisateur.
-
-Pour planifier la désactivation d’un utilisateur :
+Pour désactiver un utilisateur ou une utilisatrice :
 
 {{step-1-to-users}}
 
-1. Sélectionnez le nom de l’utilisateur.
+1. Sélectionnez un utilisateur ou une utilisatrice, cliquez sur l’icône **Plus** ![](assets/more-icon.png), puis sur **Désactiver**.
+
+1. Cliquez sur **Désactiver** dans la boîte de dialogue qui apparaît.
+
+## Planifier la désactivation d’utilisateurs ou d’utilisatrices
+
+En tant que gestionnaire, vous pouvez marquer des utilisateurs ou utilisatrices afin de signaler leur désactivation avant qu’ils ou elles ne quittent effectivement votre entreprise. Par exemple, si vous travaillez avec une personne liée par contrat, elle est présente dans votre système pour une période limitée et vous connaissez sa date de fin de contrat. Vous pouvez planifier sa désactivation à cette date.
+
+Les administrateurs ou administratrices Workfront et les utilisateurs ou utilisatrices de licence Plan peuvent voir la date de désactivation dans leur profil d’utilisateur ou d’utilisatrice.
+
+Pour planifier la désactivation d’un utilisateur ou d’une utilisatrice :
+
+{{step-1-to-users}}
+
+1. Sélectionnez le nom de l’utilisateur ou l’utilisatrice.
 
    Ou
 
-   (Facultatif) Sélectionnez plusieurs utilisateurs pour les planifier en vue de leur désactivation en bloc.
+   (Facultatif) Sélectionnez plusieurs utilisateurs ou utilisatrices pour planifier leur désactivation en bloc.
 
 1. Cliquez sur l’icône Modifier ![](assets/edit-icon.png).
-1. Dans la zone Edit User qui s’affiche, cliquez sur **Resource Planning** pour accéder à cette zone.
-1. Activez l’option **Planifier la désactivation** .
+1. Dans la boîte de dialogue Modifier l’utilisateur ou l’utilisatrice qui s’affiche, cliquez sur **Planification des ressources** pour accéder à cette zone.
+1. Activez l’option **Planifier la désactivation**.
 
 1. Dans le calendrier qui s’affiche, indiquez la date et l’heure de la **Date de désactivation planifiée**.
 
    >[!NOTE]
    >
-   >* Dans la zone de temps, vous pouvez sélectionner uniquement des incréments d’une heure entière, et non des minutes.
-   >* Si vous sélectionnez une heure pour le jour en cours qui s’est écoulé, Workfront programmera la désactivation pour le jour suivant à 00h00. L’heure sélectionnée correspond au fuseau horaire de l’ordinateur de l’utilisateur qui planifie la désactivation.
+   >* Dans la zone de l’heure, vous ne pouvez sélectionner que des incréments d’heures entières, et non des minutes.
+   >* Si vous sélectionnez une heure pour la date du jour qui est passée, Workfront planifie la désactivation le jour suivant à 00 h 00. L’heure sélectionnée correspond au fuseau horaire de l’ordinateur de l’utilisateur ou l’utilisatrice qui planifie la désactivation.
 
 1. Cliquez sur **Enregistrer les modifications**.
 
-   L’utilisateur est désactivé le jour sélectionné après l’heure sélectionnée. Si vous avez sélectionné plusieurs utilisateurs à désactiver en bloc, tous les utilisateurs sélectionnés sont désactivés le jour sélectionné après l’heure sélectionnée.
+   La personne est désactivée le jour choisi, quelque temps après l’heure sélectionnée. Si vous avez sélectionné plusieurs utilisateurs ou utilisatrices à désactiver en bloc, toutes les personnes sélectionnées sont désactivées le jour choisi, quelque temps après l’heure sélectionnée.
 
-Nous vous recommandons de créer un rapport pour les utilisateurs que vous avez programmés pour la désactivation, afin de vous tenir informé des utilisateurs qui vont être désactivés. Il n’existe aucune confirmation que la désactivation s’est produite une fois les utilisateurs désactivés.
+Nous vous recommandons de créer un rapport sur les personnes dont vous avez planifié la désactivation, afin de connaître les personnes dont la désactivation est imminente. Il n’y a pas de confirmation que la désactivation a eu lieu après que les personnes ont été désactivées.
 
-## Réactiver un utilisateur
+## Réactiver un utilisateur ou une utilisatrice
 
 {{step-1-to-users}}
 
-1. Sélectionnez un utilisateur, cliquez sur l’icône Plus ![](assets/more-icon.png), puis sur **Activer**.
+1. Sélectionnez une personne, cliquez sur l’icône Plus ![](assets/more-icon.png), puis sur **Activer**.
 
-1. Attribuez un nouveau **niveau d&#39;accès** dans le menu déroulant, puis cliquez sur **Réactiver**.
+1. Affectez un nouveau **Niveau d’accès** dans le menu déroulant, puis cliquez sur **Réactiver**.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
 Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
 
-### Impact de la vérification lorsque vous réactivez un utilisateur
+### Impact sur la relecture lors de la réactivation d’un utilisateur ou d’une utilisatrice
 
-Les utilisateurs désactivés perdent leur rôle de vérification par défaut et leur licence de BAT (si vous utilisez un forfait hérité Workfront Premium). Si vous choisissez de réactiver l’utilisateur, vous devez :
+Les utilisateurs et utilisatrices désactivés perdent le rôle de relecture qui leur a été affecté par défaut et leur licence de relecture (si vous disposez d’une formule Workfront Premium héritée). Si vous décidez de réactiver l’utilisateur ou l’utilisatrice, vous devez effectuer les opérations suivantes :
 
-* Réaffectez la licence (si vous utilisez un forfait hérité Workfront Premium). Pour plus d’informations sur les plans de vérification de Workfront, voir [Accès aux fonctionnalités de vérification dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Vérifiez qu’ils disposent du rôle de BAT correct. Les utilisateurs de BAT réactivés se voient attribuer le rôle de BAT par défaut spécifié pour les nouveaux utilisateurs. Pour plus d’informations, voir [Configuration des rôles de vérification par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) .
+* Réaffectez la licence (si vous disposez d’un plan Workfront Premium hérité). Pour plus d’informations sur les formules de relecture de Workfront, voir [Accéder à la fonctionnalité de relecture dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* Vérifiez que la personne dispose du rôle de relecture approprié. Les utilisateurs et utilisatrices d’épreuve réactivés se voient affecter le rôle de relecture par défaut (si spécifié) pour les nouveaux utilisateurs et utilisatrices. Pour plus d’informations, voir [Configurer les rôles de relecture par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md).
 
-## À propos de la désactivation des administrateurs Workfront et des utilisateurs de licences Standard ou Plan
+## À propos de la désactivation d’administrateurs et d’administratrices Workfront et d’utilisateurs et d’utilisatrices de licence standard ou de plan
 
-Avant de désactiver un administrateur Workfront ou un utilisateur disposant d’une licence Plan, il est important de rechercher les objets et activités Workfront qui impliquent cette personne, puis de les associer à un autre administrateur Workfront ou de planifier un utilisateur de licence selon les besoins.
+Avant de désactiver un administrateur ou une administratrice Workfront ou un utilisateur ou une utilisatrice disposant d’une licence de plan, il est important de vérifier les objets et activités Workfront impliquant cette personne, puis de les associer à un autre administrateur ou à une autre administratrice Workfront ou à un autre utilisateur ou à une autre utilisatrice de licence de plan si nécessaire.
 
-Ces objets et activités peuvent inclure les éléments suivants :
+Ces objets et activités peuvent inclure les éléments suivants :
 
-* Tâches ou problèmes affectés à l’utilisateur
-* Projets détenus par l’utilisateur
-* Rapports configurés pour s’exécuter avec les droits d’accès de l’utilisateur
-* Modèles appartenant à l’utilisateur
-* Projets et modèles sur lesquels l’utilisateur a été défini comme gestionnaire de ressources
-* Règles de routage de la file d’attente des demandes sur lesquelles l’administrateur Workfront ou l’utilisateur de la licence Plan est le responsable par défaut
-* Processus de validation comportant une étape, y compris l’utilisateur (en particulier s’il était le seul approbateur sur l’étape)
-* Feuilles de calcul qui répertorient l’utilisateur en tant qu’approbateur
-* Profils de feuille de temps qui répertorient l’utilisateur en tant qu’approbateur
-* Vérification des processus automatisés qui incluent l’utilisateur
+* Tâches ou problèmes affectés à l’utilisateur ou l’utilisatrice.
+* Projets appartenant à l’utilisateur ou l’utilisatrice
+* Rapports configurés pour s’exécuter avec les droits d’accès de l’utilisateur ou l’utilisatrice
+* Modèles appartenant à l’utilisateur ou l’utilisatrice
+* Projets et modèles pour lesquels la personne a été désignée comme gestionnaire de ressources
+* Règles de transmission de la file d’attente des demandes pour lesquelles l’administrateur ou l’administratrice Workfront ou l’utilisateur ou l’utilisatrice de la licence de plan est la personne désignée par défaut
+* Processus d’approbation dont une étape inclut la personne (en particulier si elle était la seule personne approbatrice de l’étape)
+* Feuilles de temps qui désignent la personne en tant que personne approbatrice
+* Profils de feuille de temps qui désignent la personne en tant que personne approbatrice
+* Workflows automatisés de relecture qui incluent l’utilisateur ou l’utilisatrice
 
-## Impact de la planification des ressources lorsque vous planifiez la désactivation d’un utilisateur
+## Impact sur la planification des ressources lorsque vous planifiez la désactivation d’un utilisateur ou d’une utilisatrice
 
-Lorsque vous planifiez la désactivation d’un utilisateur, il n’apparaît plus dans le planificateur de ressources comme étant disponible pour les heures de budget. S’ils restent membres des groupes de ressources, ils apparaissent dans le planificateur de ressources, mais leur disponibilité est définie sur zéro heure à compter de la date de leur désactivation planifiée.
+Lorsque vous planifiez la désactivation d’une personne, celle-ci n’apparaît plus dans le planificateur de ressources comme étant disponible pour la budgétisation des heures. Si elle continue à faire partie des groupes de ressources, elle apparaît dans le planificateur de ressources, mais sa disponibilité est de zéro heure à partir de la date de sa désactivation planifiée.
 
-Le planificateur de ressources prend en compte tous les rôles de tâche des utilisateurs et les dates d’achèvement planifiées des tâches et calcule les ressources en conséquence.
+Le planificateur de ressources prend en compte toutes les fonctions des utilisateurs et des utilisatrices, les dates d’achèvement prévues des tâches et calcule les ressources en conséquence.
 
-Pour plus d’informations sur le planificateur de ressources, consultez la [présentation du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur le planificateur de ressources, voir [Vue d’ensemble du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).

@@ -1,6 +1,6 @@
 ---
-title: Répertorier et modifier les formulaires et widgets personnalisés ajoutés aux formulaires personnalisés
-description: Lorsque vous affichez la liste des formulaires personnalisés de votre entreprise, ainsi que les champs et widgets personnalisés qui y ont été ajoutés, vous pouvez utiliser les options de la barre d’outils pour modifier leurs propriétés, limiter avec qui ils sont partagés, les copier et les supprimer. Vous pouvez également afficher d’autres informations dans les colonnes qui s’affichent, comme les types d’objet auxquels chaque formulaire personnalisé est associé.
+title: Répertorier et modifier les formulaires personnalisés et les widgets ajoutés à des formulaires personnalisés
+description: Lorsque vous consultez la liste des formulaires personnalisés de votre entreprise, ainsi que les champs et widgets personnalisés qui y ont été ajoutés, vous pouvez utiliser les options de la barre d’outils pour modifier leurs propriétés, limiter avec qui ils sont partagés, les copier et les supprimer. Vous pouvez également afficher d’autres informations dans les colonnes qui s’affichent, comme les types d’objets auxquels chaque formulaire personnalisé est associé.
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -9,14 +9,14 @@ hide: true
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 18%
+ht-degree: 94%
 
 ---
 
 
-# Répertorier et modifier les formulaires et widgets personnalisés ajoutés aux formulaires personnalisés
+# Répertorier et modifier les formulaires personnalisés et les widgets ajoutés à des formulaires personnalisés
 
-Lorsque vous affichez la liste des formulaires personnalisés de votre entreprise, ainsi que les champs et widgets personnalisés qui y ont été ajoutés, vous pouvez utiliser les options de la barre d’outils pour modifier leurs propriétés, limiter avec qui ils sont partagés, les copier et les supprimer. Vous pouvez également afficher d’autres informations dans les colonnes qui s’affichent, comme les types d’objet auxquels chaque formulaire personnalisé est associé.
+Lorsque vous consultez la liste des formulaires personnalisés de votre entreprise, ainsi que les champs et widgets personnalisés qui y ont été ajoutés, vous pouvez utiliser les options de la barre d’outils pour modifier leurs propriétés, limiter avec qui ils sont partagés, les copier et les supprimer. Vous pouvez également afficher d’autres informations dans les colonnes qui s’affichent, comme les types d’objets auxquels chaque formulaire personnalisé est associé.
 
 Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -43,47 +43,47 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur Workfront.
+&#42;Pour connaître le forfait, le type de licence ou les configurations de niveau d’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## Liste et modification de formulaires personnalisés et d’éléments ajoutés à des formulaires personnalisés
+## Répertorier et modifier les formulaires personnalisés et les éléments ajoutés à des formulaires personnalisés
 
 1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
 
 1. Cliquez sur **Formulaires personnalisés**.
 
-   L’onglet **Forms** étant sélectionné, tous les formulaires personnalisés de votre entreprise sont répertoriés, ainsi que leurs descriptions, les types d’objets qui leur sont associés, les noms des utilisateurs qui les ont créés et s’ils sont actifs ou non dans le système.
+   Une fois l’onglet **Formulaires** sélectionné, tous les formulaires personnalisés de votre entreprise sont répertoriés, avec leurs descriptions, les types d’objets qui leur sont associés, les noms des utilisateurs et utilisatrices qui les ont créés et s’ils sont actifs ou non dans le système.
 
-   Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un formulaire personnalisé dans la liste, reportez-vous aux articles suivants :
+   Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un formulaire personnalisé dans la liste, voir les articles suivants :
 
    * [Concevoir un formulaire avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Partager un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
    * [Copier un formulaire personnalisé pour en créer un nouveau](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
-   * [Suppression ou désactivation d’un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+   * [Supprimer ou désactiver un formulaire personnalisé](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
-1. Cliquez sur l’onglet **Champs** .
+1. Cliquez sur l’onglet **Champs**.
 
-   Cet onglet répertorie les champs et widgets personnalisés que les utilisateurs de votre système ont ajoutés aux formulaires personnalisés, ainsi que des informations sur le type de chaque élément, des instructions et des détails sur celui-ci, et une liste des formulaires personnalisés qui le contiennent.
+   Cet onglet répertorie les champs personnalisés et les widgets que les utilisateurs et utilisatrices de votre système ont ajoutés aux formulaires personnalisés, ainsi que des informations sur le type de chaque élément, des instructions et des détails à son sujet, et une liste des formulaires personnalisés qui le contiennent.
 
-   Cette liste contient uniquement des éléments de formulaire personnalisés répondant à au moins l’un des critères suivants :
+   Cette liste ne contient que les éléments de formulaires personnalisés qui répondent à au moins un des critères suivants :
 
-   * Modification à l’échelle du système
-   * Visible à l’échelle du système
-   * Créé par vous
-   * Partagé avec vous, avec l’accès Afficher ou Gérer
+   * Modifiable à l’échelle du système
+   * Visibles à l’échelle du système
+   * Créés par vous
+   * Partagés avec vous, via un accès en affichage ou en gestion
 
    >[!NOTE]
    >
-   >Les sauts de section ne s’affichent pas dans l’onglet Champs .
+   >Les sauts de section ne sont pas affichés dans l’onglet Champs.
 
-   Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un élément dans la liste, reportez-vous aux articles suivants :
+   Pour plus d’informations sur ce que vous pouvez faire lorsque vous sélectionnez un élément dans la liste, voir les articles suivants :
 
    * [Ajouter ou modifier un champ personnalisé, un saut de section ou un widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Configuration du partage de champs et de widgets personnalisés dans un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [Supprimer un champ personnalisé ou un widget du système](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
-1. Sélectionnez l’onglet **Sections**, puis assurez-vous que **Groupe de paramètres** est sélectionné comme **Vue** pour la liste.
+1. Cliquez sur l’onglet **Sections**, puis assurez-vous que **Groupe de paramètres** est sélectionné comme **Vue** pour la liste.
 
-   Tous les sauts de section s’affichent dans cette vue, ainsi qu’une liste de formulaires personnalisés contenant chaque saut de section.
+   Tous les sauts de section s’affichent dans cette vue, accompagnés d’une liste des formulaires personnalisés contenant chaque saut de section.
 
    Pour plus d’informations sur la modification d’une section personnalisée que vous sélectionnez dans la liste, voir [Organisation et aperçu d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 

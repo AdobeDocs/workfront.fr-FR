@@ -9,7 +9,7 @@ exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1176'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour plus d’informations sur les informations contenues dans ce tableau, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +92,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche. Cliquez sur **Projets**, puis développez **Nouveau projet**.
+   * Cliquez sur l’icône Menu principal Menu principal dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône Menu principal Menu principal dans le coin supérieur gauche. ****![](/help/_includes/assets/main-menu-icon.png)****![](/help/_includes/assets/main-menu-icon-left-nav.png) Cliquez sur **Projets**, puis développez **Nouveau projet**.
    * Accédez à un portfolio, puis développez **Nouveau projet**.
 
      >[!TIP]
@@ -163,7 +163,7 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
 
    ![Zone Nouveau projet](assets/new-project-from-template-box.png)
 
-1. Si un champ est déjà rempli dans le modèle, il s’affiche dans la zone **Nouveau projet**. Vous pouvez modifier les valeurs pré-remplies pour qu’elles correspondent mieux à votre projet. Pour plus d’informations, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. Si un champ est déjà rempli dans le modèle, il s’affiche dans la zone Nouveau projet. **** Vous pouvez modifier les valeurs pré-remplies pour qu’elles correspondent mieux à votre projet. Pour plus d’informations, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 1. Cliquez sur **Créer un projet**.
 
    Tous les détails définis dans le modèle sont associés automatiquement au projet nouvellement créé si vous ne les avez pas modifiés à l’étape précédente.
@@ -185,7 +185,7 @@ Au lieu de commencer dans la zone Projets, vous pouvez créer un projet à parti
 
    ![Zone Nouveau projet](assets/new-project-from-template-box.png)
 
-   Si un champ est déjà rempli dans le modèle, il s’affiche dans la zone **Nouveau projet**. Vous pouvez modifier les valeurs pré-remplies pour qu’elles correspondent mieux à votre projet. Pour plus d’informations, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Si un champ est déjà rempli dans le modèle, il s’affiche dans la zone Nouveau projet. **** Vous pouvez modifier les valeurs pré-remplies pour qu’elles correspondent mieux à votre projet. Pour plus d’informations, voir [Modifier les projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Cliquez sur **Créer un projet**.
 

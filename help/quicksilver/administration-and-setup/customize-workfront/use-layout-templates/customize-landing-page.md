@@ -3,7 +3,7 @@ title: Personnalisation de la page d’entrée à l’aide d’un modèle de mis
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: En tant qu’administrateur de Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier la zone que les utilisateurs doivent voir chaque fois qu’ils se connectent à Workfront.
+description: En tant qu’administrateur ou administratrice Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier la zone que les personnes doivent voir chaque fois qu’elles se connectent à Workfront.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -11,13 +11,13 @@ exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
 source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 46%
+ht-degree: 97%
 
 ---
 
-# Personnaliser la landing page à l&#39;aide d&#39;un modèle de mise en page
+# Personnaliser la page de destination à l’aide d’un modèle de mise en page
 
-En tant qu’administrateur d’Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier la zone que les utilisateurs doivent voir chaque fois qu’ils se connectent à Workfront.
+En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier la zone que les personnes doivent voir chaque fois qu’elles se connectent à Workfront.
 
 Pour plus d’informations sur la création de modèles de disposition, voir [Créer et gérer des modèles de disposition](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -27,7 +27,7 @@ Après avoir configuré un modèle de disposition, vous devez l’attribuer à d
 
 >[!NOTE]
 >
->Lorsque Requêtes est défini comme page d’entrée, les utilisateurs contributeurs ou demandeurs affectés au modèle de mise en page voient la page d’accueil comme page d’entrée à la place. Il est recommandé de choisir une page d’entrée autre que Requêtes pour les modèles de mise en page destinés aux utilisateurs contributeurs ou demandeurs.
+>Lorsque Requêtes est défini comme page de destination, les contributeurs et contributrices, ou demandeurs et demandeuses, affectés au modèle de mise en page voient la page d’accueil comme page de destination à la place. Il est recommandé de choisir une page de destination autre que Requêtes pour les modèles de mise en page destinés aux contributeurs et contributrices, ou demandeurs et demandeuses.
 
 ## Conditions d’accès
 
@@ -60,17 +60,17 @@ Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p
 ## Personnaliser la page de destination
 
 1. Commencez à travailler sur un modèle de disposition, comme décrit dans la section [Créer et gérer des modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Dans la **zone de navigation supérieure**, cliquez sur **Sélectionner une page d’entrée**, puis sélectionnez la zone que les utilisateurs doivent voir lorsqu’ils se connectent.
+1. Dans le **zone de navigation supérieure**, cliquez sur **Sélectionner une page de destination**, puis sélectionnez la zone que les personnes doivent voir lorsqu’elles se connectent.
 
    >[!IMPORTANT]
    >
-   >La consultation des zones Scénarios et Objectifs nécessite des licences supplémentaires. Pour plus d’informations sur les objectifs Workfront, voir [Présentation des objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md) ou pour plus d’informations sur le planificateur de scénario Workfront, voir [Présentation du planificateur de scénario](../../../scenario-planner/scenario-planner-overview.md).
+   >La consultation des zones Scénarios et Objectifs nécessite des licences supplémentaires. Pour plus d’informations sur les Objectifs Workfront, voir [Vue d’ensemble des Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md), ou pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../../scenario-planner/scenario-planner-overview.md).
 
 1. Poursuivez la personnalisation du modèle de disposition.
 
    Ou
 
-   Si vous avez terminé de personnaliser, cliquez sur **Enregistrer**.
+   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
 
    >[!TIP]
    >

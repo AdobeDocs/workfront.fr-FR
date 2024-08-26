@@ -67,7 +67,7 @@ Idéalement, vous devez modifier un projet lorsque son statut est Planification.
  </tbody> 
 </table>
 
-*Pour plus d’informations sur les informations contenues dans ce tableau, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -448,7 +448,7 @@ Pour modifier les champs de la zone Finance :
        </ul></p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>Mode d'achèvement du sommaire</strong></td> 
+       <td role="rowheader"><strong>Mode d’achèvement du sommaire</strong></td> 
        <td> <p>Contrôlez la façon dont les tâches parents sont marquées comme terminées. Sélectionnez l’une des options suivantes : 
        <ul> 
        <li><strong>Automatique</strong> : les tâches parents sont marquées comme terminées et leur pourcentage terminé est mis à jour automatiquement, au fur et à mesure que les tâches enfants sont terminées et que le pourcentage terminé des tâches enfants est mis à jour. </li> 
@@ -477,7 +477,7 @@ Pour modifier les champs de la zone Finance :
        <li>Pour les tâches avec une contrainte de dates fixes, la date de début et la date d’achèvement prévues ne sont pas modifiées. </li> 
        </ul><p>La durée de la tâche n’est pas modifiée lorsque vous sélectionnez ce paramètre. Seules les dates prévues sont modifiées, en fonction de la contrainte de tâche. Pour plus d’informations sur les contraintes de tâches, consultez la section <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Vue d’ensemble des contraintes de tâches</a>. </p><p>- <strong>Ignorer les congés de l’utilisateur ou de l’utilisatrice dans la durée des tâches</strong> : lorsque cette option est sélectionnée, les dates prévues des tâches du projet restent telles qu’elles ont été planifiées à l’origine, même si la personne cessionnaire principale de la tâche a des jours de congé prévus pendant la durée de la tâche. </p><p>Tenez compte des éléments suivants lorsque vous sélectionnez l’une des options disponibles pour ce paramètre :</p> 
        <ul> 
-       <li><p>L'option par défaut de ce paramètre pour un nouveau projet est la même que la préférence de projet au niveau du système. </p><p>Pour plus d’informations sur les préférences de projet au niveau du système, consultez la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences des projets à l’échelle du système</a>. </p></li> 
+       <li><p>L’option par défaut de ce paramètre pour un nouveau projet est la même que la préférence de projet au niveau du système. </p><p>Pour plus d’informations sur les préférences de projet au niveau du système, consultez la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences des projets à l’échelle du système</a>. </p></li> 
        <li>Lorsque vous joignez un modèle à un projet existant, les paramètres du projet sont mis à jour pour correspondre à ceux du modèle. </li> 
        <li><p>Workfront décide des dates de tâches prévues à ajuster en fonction de la valeur de la contrainte de tâche. En fonction de cette contrainte, la date de début ou de fin prévue, ou les deux, peuvent être affectées ou rester inchangées. Par exemple, si la contrainte de tâche est Dates Fixes, les dates ne sont pas ajustées lorsque la personne cessionnaire principale prend des congés, même si l’option <strong>Prendre en compte les congés de l’utilisateur ou de l’utilisatrice dans la durée des tâches</strong> est sélectionnée. </p></li> 
        </ul></td> 
@@ -499,7 +499,7 @@ Pour modifier les champs de la zone Finance :
        <td>Sélectionnez cette option pour permettre aux taux de facturation au niveau de l’entreprise de remplacer les taux historiques des fonctions, à moins que ces taux ne soient marqués comme facturés. L’activation de cette option annule les taux historiques des fonctions, à moins qu’ils ne soient marqués comme facturés. <br>Pour plus d’informations, voir <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Remplacer les taux de facturation au niveau d’un projet par des taux de facturation au niveau de l’entreprise</a>.</td> 
       </tr> 
       <tr> 
-       <td role="rowheader"><strong>L'approbation pour ce projet demande du temps</strong></td> 
+       <td role="rowheader"><strong>L’approbation pour ce projet demande du temps</strong></td> 
        <td> <p> Sélectionnez cette option pour demander à la personne propriétaire du projet d’approuver le temps consigné sur le projet. Si vous utilisez les enregistrements de facturation et que vous sélectionnez cette option, seules les heures approuvées sur le projet apparaissent comme heures facturables disponibles pour les enregistrements de facturation. L’approbation du temps sur le projet est indépendante de l’approbation des feuilles de temps. </p> <p>Pour plus d’informations sur la demande de temps pour l’approbation pour un projet, voir <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Demander du temps pour l’approbation d’un projet</a>.</p> </td> 
       </tr> 
       <tr> 
@@ -519,7 +519,7 @@ Pour modifier les champs de la zone Finance :
        <td> <p> <p>Sélectionnez la notification de rappel qui doit être associée au projet. Vous devez configurer les notifications de rappel des projets pour que ce champ apparaisse lors de la modification d’un projet. Pour plus d’informations sur la configuration des notifications de rappel, voir <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurer les notifications de rappel</a>.</a></p> </p> </td> 
       </tr> 
       <tr data-mc-conditions=""> 
-       <td role="rowheader"><strong>Processus d'approbation</strong></td> 
+       <td role="rowheader"><strong>Processus d’approbation</strong></td> 
        <td> <p>Sélectionnez le processus d’approbation à associer au projet. Votre administrateur ou administratrice Workfront doit définir les processus d’approbation au niveau du système avant que vous puissiez les associer à des projets. <span>Toute personne disposant d’un accès administratif aux processus d’approbation peut également créer des processus d’approbation spécifiques à un groupe.</span> Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les éléments de travail</a>.</p> <p>Tenez compte des éléments suivants lorsque vous ajoutez des processus d’approbation : </p> 
        <ul> 
        <li>Seuls les processus d’approbation actifs sont affichés dans la liste. </li> 
@@ -585,7 +585,7 @@ Pour plus d’informations sur la manière dont ces paramètres affectent la cr�
 
    Cliquer sur **Enregistrer**.
 
-### Paramètres de l&#39;événement {#issue-settings}
+### Paramètres de l’événement {#issue-settings}
 
 1. Commencez à éditer votre projet comme décrit ci-dessus.
 1. Cliquez sur **Paramètres des problèmes** dans le panneau de gauche.
@@ -651,12 +651,12 @@ Pour plus d’informations sur la manière dont ces paramètres affectent la cr�
       <td><p>Choisissez parmi <strong>Afficher</strong>, <strong>Contribuer</strong> ou <strong>Gérer</strong> l’accès à la demande. Lorsque le projet est également une file d’attente des demandes et qu’une personne soumet une demande au projet, cet accès lui est accordé pour la demande qu’elle a soumise. Pour plus d’informations sur la configuration d’un projet en tant que file d’attente des demandes, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente des demandes</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>Les personnes appartenant à la même entreprise hériteront d'autorisations identiques pour toutes les demandes.</strong></td> 
+      <td role="rowheader"><strong>Les personnes appartenant à la même entreprise hériteront d’autorisations identiques pour toutes les demandes.</strong></td> 
       <td><p>Sélectionnez ce champ si vous souhaitez que les personnes d’une même entreprise aient le même accès à toutes les demandes du projet, qu’elles les aient soumises ou non.<br></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Lorsque quelqu’un reçoit l’accès à ce projet : indiquer l’accès par défaut pour...</strong></td> 
-      <td><p>Sélectionnez les options d’accès au projet à attribuer aux personnes, si le projet est partagé avec eux. Sélectionnez les options spécifiques pour leur accès si elles sont désignées comme <strong>Observateurs ou observatrices</strong>, <strong>Contributeurs ou contributrices</strong> ou encore <strong>Gestionnaires</strong> lorsque vous partagez le projet avec elles. </p><p>L’accès <strong>Supprimer</strong> dans le niveau d’autorisation <strong>Gérer</strong> détermine si les personnes peuvent supprimer le projet lui-même. Les personnes ayant un accès <strong>Gérer</strong> au projet peuvent supprimer des tâches et des problèmes dans le projet, que cette option soit sélectionnée ou non, si elles disposent des autorisations <strong>Gérer</strong> pour les tâches et les problèmes.</p></td> 
+      <td><p>Sélectionnez les options d’accès au projet à attribuer aux personnes, si le projet est partagé avec eux. Sélectionnez les options spécifiques pour leur accès si elles sont désignées comme <strong>Observateurs ou observatrices</strong>, <strong>Contributeurs ou contributrices</strong> ou encore <strong>Gestionnaires</strong> lorsque vous partagez le projet avec elles. </p><p>L’accès <strong>Supprimer</strong> dans le niveau d’autorisation <strong>Gérer</strong> détermine si les personnes peuvent supprimer le projet lui-même. Les personnes ayant un accès <strong>Gérer</strong> au projet peuvent supprimer des tâches et des problèmes dans le projet, que cette option soit sélectionnée ou non, si elles disposent des autorisations <strong>Gérer</strong> pour les tâches et les problèmes. </p></td> 
      </tr> 
     </tbody> 
    </table>

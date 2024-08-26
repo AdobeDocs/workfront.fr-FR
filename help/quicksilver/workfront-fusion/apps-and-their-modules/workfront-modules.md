@@ -12,23 +12,23 @@ exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
 source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
 workflow-type: tm+mt
 source-wordcount: '6280'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # Modules [!DNL Adobe Workfront]
 
-Utilisez le connecteur [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] pour automatiser vos processus dans [!DNL Workfront]. Si vous disposez d’une licence [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail et l’intégration], vous pouvez également l’utiliser pour vous connecter à des applications et services tiers.
+Utilisez le connecteur   pour automatiser vos processus dans . [!DNL Adobe Workfront Fusion][!DNL Adobe Workfront][!DNL Workfront] Si vous disposez d’une licence [!UICONTROL [!DNL Workfront Fusion] pour l’automatisation du travail et l’intégration], vous pouvez également l’utiliser pour vous connecter à des applications et services tiers.
 
-Le connecteur [!DNL Workfront] n’est pas pris en compte dans le nombre d’applications actives disponibles pour votre organisation. Tous les scénarios, même s’ils utilisent uniquement l’application [!DNL Workfront], ne sont pas pris en compte dans le nombre total de scénarios de votre entreprise.
+Le connecteur  n’est pas pris en compte dans le nombre d’applications actives disponibles pour votre organisation. [!DNL Workfront] Tous les scénarios, même s’ils utilisent uniquement l’application [!DNL Workfront], ne sont pas pris en compte dans le nombre total de scénarios de votre entreprise.
 
 Pour plus d’informations sur les applications et les scénarios disponibles pour votre entreprise, consultez [Organisations](../../workfront-fusion/organizations/organizations-and-teams.md#organiza2) dans [[!DNL Adobe Workfront Fusion] Organisations et équipes](../../workfront-fusion/organizations/organizations-and-teams.md).
 
-Si vous avez besoin d’instructions sur la création d’un scénario, consultez la section [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, consultez la section Créer un scénario dans . [ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) Pour plus d’informations sur les modules, consultez [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
  <col> 
@@ -45,17 +45,17 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigences de licence actuelle: aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait  [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter  et  pour utiliser les fonctionnalités décrites dans cet article. [!DNL Adobe Workfront][!DNL Adobe Workfront Fusion][!DNL Adobe Workfront]. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -141,7 +141,7 @@ Vous pouvez créer une connexion à votre compte [!DNL Workfront] directement à
 
 ## Modules [!DNL Workfront] et leurs champs
 
-Lorsque vous configurez des modules [!DNL Workfront], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Workfront] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez des [!DNL Workfront]modules ,[!DNL Workfront Fusion]  affiche les champs répertoriés ci-dessous. Des champs  supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. [!DNL Workfront] Un titre en gras dans un module indique un champ obligatoire.
 
 Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -198,7 +198,7 @@ Le module renvoie les champs standard associés à l’enregistrement, ainsi que
      </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL Events filters]</p> </td> 
-      <td> <p>Vous pouvez définir des filtres pour ne surveiller que les enregistrements qui répondent aux critères sélectionnés.</p> <p>Pour chaque filtre, saisissez le champ que le filtre doit évaluer, l’opérateur et la valeur que le filtre doit autoriser. Vous pouvez utiliser plusieurs filtres en ajoutant des règles ET.</p> <p>Remarque : vous ne pouvez pas modifier les filtres dans les webhooks [!DNL Workfront] existants. Pour configurer différents filtres pour les abonnements aux événements [!DNL Workfront], supprimez le webhook actuel et créez-en un nouveau.</p> <p>Pour plus d’informations sur les filtres d’événements, consultez <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">Filtres d’abonnement aux événements dans [!DNL Workfront] &gt; Modules [!UICONTROL Watch Events]</a> dans cet article.</p> </td> 
+      <td> <p>Vous pouvez définir des filtres pour ne surveiller que les enregistrements qui répondent aux critères sélectionnés.</p> <p>Pour chaque filtre, saisissez le champ que le filtre doit évaluer, l’opérateur et la valeur que le filtre doit autoriser. Vous pouvez utiliser plusieurs filtres en ajoutant des règles ET.</p> <p>Remarque : vous ne pouvez pas modifier les filtres dans les webhooks  existants. [!DNL Workfront] Pour configurer différents filtres pour les abonnements aux événements [!DNL Workfront], supprimez le webhook actuel et créez-en un nouveau.</p> <p>Pour plus d’informations sur les filtres d’événements, consultez <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">Filtres d’abonnement aux événements dans [!DNL Workfront] &gt; Modules [!UICONTROL Watch Events]</a> dans cet article.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Exclure les événements créés par cette connexion</td> 
@@ -278,7 +278,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>(S’affiche une fois que vous avez sélectionné un <strong>Filtre</strong>.) Sélectionnez le type d’enregistrement [!DNL Workfront] que le module doit surveiller.</p> <p>Par exemple, si vous souhaitez lancer le scénario chaque fois qu’un nouveau projet est créé, sélectionnez [!UICONTROL Project].</p> </td> 
+   <td> <p>(S’affiche une fois que vous avez sélectionné un Filtre.) <strong></strong> Sélectionnez le type d’enregistrement [!DNL Workfront] que le module doit surveiller.</p> <p>Par exemple, si vous souhaitez lancer le scénario chaque fois qu’un nouveau projet est créé, sélectionnez [!UICONTROL Project].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
@@ -356,11 +356,11 @@ Ce module d’action effectue l’une des conversions suivantes :
    <td> <p>Activez les options souhaitées lors de la conversion de l’objet. Des options sont disponibles selon l’objet que vous convertissez ou à partir duquel vous effectuez cette conversion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Copier des champs natifs]</td> 
+   <td>[!UICONTROL Copy native fields]</td> 
    <td> <p>Activez cette option pour copier les champs natifs de l’objet d’origine vers le nouvel objet.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Copier des formulaires personnalisés]</td> 
+   <td>[!UICONTROL Copy custom forms]</td> 
    <td> <p>Activez cette option pour copier les champs natifs de l’objet d’origine vers le nouvel objet.</p> </td> 
   </tr> 
  </tbody> 
@@ -370,7 +370,7 @@ Ce module d’action effectue l’une des conversions suivantes :
 
 +++ **[!UICONTROL Créer un enregistrement (joindre des formulaires personnalisés)]**
 
-Ce module d’action crée un objet, tel qu’un projet, une tâche ou un problème dans [!DNL Workfront] et vous permet d’ajouter un formulaire personnalisé au nouvel objet. Le module vous permet de sélectionner les champs de l’objet disponibles dans le module.
+Ce module d’action crée un objet, tel qu’un projet, une tâche ou un problème dans  et vous permet d’ajouter un formulaire personnalisé au nouvel objet. [!DNL Workfront] Le module vous permet de sélectionner les champs de l’objet disponibles dans le module.
 
 Vous spécifiez l’identifiant de l’enregistrement.
 
@@ -468,7 +468,7 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
 
 +++ **[!UICONTROL Appel API personnalisé]**
 
-Ce module d’action vous permet d’effectuer un appel authentifié personnalisé à l’API [!DNL Workfront]. Ainsi, vous pouvez créer une automatisation du flux de données qui ne peut pas être réalisée par les autres modules [!DNL Workfront].
+Ce module d’action vous permet d’effectuer un appel authentifié personnalisé à l’API . [!DNL Workfront] Ainsi, vous pouvez créer une automatisation du flux de données qui ne peut pas être réalisée par les autres modules [!DNL Workfront].
 
 Le module renvoie les informations suivantes :
 
@@ -477,7 +477,7 @@ Le module renvoie les informations suivantes :
 
   Les en-têtes de réponse dépendent de la requête HTTP que vous avez choisie lors de la configuration du module.
 
-* **[!UICONTROL Corps]** (objet) : selon la requête HTTP que vous avez choisie lors de la configuration du module, vous pouvez recevoir des données en retour. Ces données, telles que les données d’une requête GET, sont contenues dans cet objet.
+* **[!UICONTROL Corps (objet) : selon la requête HTTP que vous avez choisie lors de la configuration du module, vous pouvez recevoir des données en retour.]** Ces données, telles que les données d’une requête GET, sont contenues dans cet objet.
 
 Vous pouvez mapper ces informations dans les modules suivants du scénario.
 
@@ -493,7 +493,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Saisissez un chemin relatif à <code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code>.</p> </td> 
+   <td> <p>Saisissez un chemin relatif à<code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL API Version]</td> 
@@ -549,7 +549,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>ID</td> 
-   <td> <p>Saisissez l’identifiant [!DNL Workfront] unique de l’enregistrement que lem odule doit supprimer.</p> <p>Pour obtenir l’ID, ouvrez l’objet [!DNL Workfront] dans votre navigateur et copiez le texte à la fin de l’URL après « ID= .». Par exemple : https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Saisissez l’identifiant [!DNL Workfront] unique de l’enregistrement que lem odule doit supprimer.</p> <p>Pour obtenir l’ID, ouvrez l’objet  dans votre navigateur et copiez le texte à la fin de l’URL après « ID= .». [!DNL Workfront] Par exemple : https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type]</td> 
@@ -590,7 +590,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL Document ID]</td> 
-   <td> <p>Faites correspondre ou saisissez manuellement l’ID [!DNL Workfront] unique du document que le module doit télécharger.</p> <p>Pour obtenir l’ID, ouvrez l’objet [!DNL Workfront] dans votre navigateur et copiez le texte à la fin de l’URL après « ID= .». Par exemple : https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Faites correspondre ou saisissez manuellement l’ID [!DNL Workfront] unique du document que le module doit télécharger.</p> <p>Pour obtenir l’ID, ouvrez l’objet  dans votre navigateur et copiez le texte à la fin de l’URL après « ID= .». [!DNL Workfront] Par exemple : https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -621,7 +621,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
    <td>[!UICONTROL Action]</td> 
    <td> <p>Sélectionnez l’action que le module doit exécuter.</p> <p>Vous devrez peut-être remplir des champs supplémentaires, en fonction du [!UICONTROL Record Type] et de l’[!UICONTROL Action] que vous choisissez. Certaines combinaisons de ces deux paramètres peuvent ne nécessiter qu’un identifiant d’enregistrement, tandis que d’autres (telles que Projet pour le <strong>[!UICONTROL Record Type]</strong> et le [!UICONTROL Attach Template] pour l’<strong>[!UICONTROL Action]</strong>) requièrent des informations supplémentaires (comme un ID d’objet et un ID de modèle).</p> <p>Pour plus d’informations sur les champs individuels, voir <a href="http://developer.workfront.com/">Documentation destinée à l’équipe de développement pour Workfront</a>. <p><strong>Remarque</strong> : le site de documentation destinée à l’équipe de développement contient des informations uniquement jusqu’à la version 14 de l’API, mais contient toujours des informations précieuses pour les appels API. </p> 
     <ol> 
-     <li value="1"> <p>Sélectionnez le type d’enregistrement dans le volet de navigation de gauche de la page de documentation destinée à l’équipe de développement pour [!DNL Workfront]. Les types suivants possèdent leurs propres pages :</p> 
+     <li value="1"> <p>Sélectionnez le type d’enregistrement dans le volet de navigation de gauche de la page de documentation destinée à l’équipe de développement pour . [!DNL Workfront] Les types suivants possèdent leurs propres pages :</p> 
       <ul> 
        <li> <p>[!UICONTROL Projects]</p> </li> 
        <li> <p>[!UICONTROL Tasks]</p> </li> 
@@ -635,7 +635,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td>Saisissez ou mappez l’ID [!DNL Workfront] unique de l’enregistrement avec lequel vous souhaitez que le module interagisse.<p>Pour obtenir l’ID, ouvrez l’objet [!DNL Workfront] dans votre navigateur et copiez le texte à la fin de l’URL après « ID= ». Par exemple : https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
+   <td>Saisissez ou mappez l’ID [!DNL Workfront] unique de l’enregistrement avec lequel vous souhaitez que le module interagisse.<p>Pour obtenir l’ID, ouvrez l’objet  dans votre navigateur et copiez le texte à la fin de l’URL après « ID= ». [!DNL Workfront] Par exemple : https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -856,7 +856,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL Search criteria]</td> 
-   <td> <p>Renseignez le champ avec lequel vous souhaitez effectuer une recherche, l’opérateur que vous souhaitez utiliser dans votre requête et la valeur que vous recherchez dans le champ.</p> <p>Remarque : n’utilisez pas <code>username </code> dans vos critères de recherche. L’inclusion de <code>username </code> dans une requête API à [!DNL Workfront] connecte l’utilisateur ou l’utilisatrice à Workfront, et la recherche échoue.</p> <p>Remarque : <code>In</code> et <code>NotIn</code> fonctionnent avec des tableaux. Les entrées doivent être au format de tableau.</p></td> 
+   <td> <p>Renseignez le champ avec lequel vous souhaitez effectuer une recherche, l’opérateur que vous souhaitez utiliser dans votre requête et la valeur que vous recherchez dans le champ.</p> <p>Remarque : n’utilisez pas <code>username </code>dans vos critères de recherche. L’inclusion de <code>username </code> dans une requête API à [!DNL Workfront] connecte l’utilisateur ou l’utilisatrice à Workfront, et la recherche échoue.</p> <p>Remarque : <code>In</code> et <code>NotIn</code> fonctionnent avec des tableaux. Les entrées doivent être au format de tableau.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Outputs]</td> 
@@ -904,7 +904,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td>[!UICONTROL Search criteria]</td> 
-   <td> <p>Renseignez le champ avec lequel vous souhaitez effectuer une recherche, l’opérateur que vous souhaitez utiliser dans votre requête et la valeur que vous recherchez dans le champ.</p> <p>Remarque : n’utilisez pas <code>username </code> dans vos critères de recherche. L’inclusion de <code>username </code> dans une requête API à [!DNL Workfront] connecte l’utilisateur ou l’utilisatrice à Workfront, et la recherche échoue.</p> <p>Remarque : <code>In</code> et <code>NotIn</code> fonctionnent avec des tableaux. Les entrées doivent être au format de tableau.</p></td> 
+   <td> <p>Renseignez le champ avec lequel vous souhaitez effectuer une recherche, l’opérateur que vous souhaitez utiliser dans votre requête et la valeur que vous recherchez dans le champ.</p> <p>Remarque : n’utilisez pas <code>username </code>dans vos critères de recherche. L’inclusion de <code>username </code> dans une requête API à [!DNL Workfront] connecte l’utilisateur ou l’utilisatrice à Workfront, et la recherche échoue.</p> <p>Remarque : <code>In</code> et <code>NotIn</code> fonctionnent avec des tableaux. Les entrées doivent être au format de tableau.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Outputs]</td> 
@@ -948,7 +948,7 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
  </thead> 
  <tbody> 
   <tr> 
-   <td>Processus d'approbation</td> 
+   <td>Processus d’approbation</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -1116,7 +1116,7 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Approbation d'épreuve</td> 
+   <td>Approbation d’épreuve</td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
@@ -1227,7 +1227,7 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
  </thead> 
  <tbody> 
   <tr> 
-   <td>Processus d'approbation</td> 
+   <td>Processus d’approbation</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1636,7 +1636,7 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
  </thead> 
  <tbody> 
   <tr> 
-   <td>Processus d'approbation</td> 
+   <td>Processus d’approbation</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -1811,7 +1811,7 @@ Consultez la liste des types d’objets [!DNL Workfront] pour lesquels vous pouv
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Délégation d'utilisateur</td> 
+   <td>Délégation d’utilisateur</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -1828,11 +1828,11 @@ Nous vous recommandons de vérifier à nouveau que cela fonctionne comme vous l�
 >
 >Nous vous recommandons vivement d’utiliser des filtres d’abonnement aux événements dans vos modules [!UICONTROL Événements de contrôle].
 
-Le module [!UICONTROL Événements de contrôle] [!DNL Workfront] déclenche des scénarios basés sur un webhook qui crée un abonnement à un événement dans l’API [!DNL Workfront]. L’abonnement à un événement est un ensemble de données qui détermine quels événements sont envoyés au webhook. Par exemple, si vous configurez un module [!UICONTROL Événements de contrôle] qui surveille les problèmes, l’abonnement aux événements n’envoie que les événements liés aux problèmes.
+Le module Événements de contrôle  déclenche des scénarios basés sur un webhook qui crée un abonnement à un événement dans l’API . [!DNL Workfront][!DNL Workfront] L’abonnement à un événement est un ensemble de données qui détermine quels événements sont envoyés au webhook. Par exemple, si vous configurez un module [!UICONTROL Événements de contrôle] qui surveille les problèmes, l’abonnement aux événements n’envoie que les événements liés aux problèmes.
 
 En utilisant des filtres d’abonnement aux événements, les utilisateurs et utilisatrices de Fusion peuvent créer des abonnements aux événements qui correspondent mieux à leurs cas d’utilisation. Par exemple, vous pouvez configurer un abonnement à un événement dans l’API [!DNL Workfront] pour n’envoyer au webhook que les problèmes qui se trouvent dans un projet spécifique, ce qui garantit que le module [!UICONTROL Événements de contrôle] ne se déclenchera que pour les problèmes de ce projet. La possibilité de créer des déclencheurs plus étroits améliore la conception des scénarios en réduisant le nombre de déclencheurs non pertinents.
 
-Cela diffère de la mise en place d’un filtre dans le scénario [!DNL Workfront Fusion]. Sans filtre d’abonnement aux événements, votre webhook reçoit tous les événements liés au type d’objet que vous avez sélectionné. La plupart de ces événements ne sont pas pertinents pour le scénario et doivent être éliminés avant que le scénario ne puisse se poursuivre.
+Cela diffère de la mise en place d’un filtre dans le scénario . [!DNL Workfront Fusion] Sans filtre d’abonnement aux événements, votre webhook reçoit tous les événements liés au type d’objet que vous avez sélectionné. La plupart de ces événements ne sont pas pertinents pour le scénario et doivent être éliminés avant que le scénario ne puisse se poursuivre.
 
 Les opérateurs suivants sont disponibles dans le filtre Workfront > Événements de contrôle :
 

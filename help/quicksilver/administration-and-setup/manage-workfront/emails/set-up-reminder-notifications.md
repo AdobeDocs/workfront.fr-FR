@@ -1,6 +1,6 @@
 ---
 title: Configuration des notifications de rappel
-description: Les notifications de rappel génèrent des emails envoyés aux utilisateurs selon des critères spécifiés. Les notifications de rappel rappellent aux utilisateurs qu’une action doit être effectuée pour une tâche, un problème, un projet ou une feuille de temps.
+description: Les notifications de rappel génèrent des e-mails qui sont envoyés aux utilisateurs et utilisatrices selon des critères spécifiés. Les notifications de rappel rappellent aux utilisateurs et utilisatrices qu’une action doit être effectuée pour une tâche, un problème, un projet ou une feuille de temps.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
@@ -8,7 +8,7 @@ exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 83%
+ht-degree: 99%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 83%
 
 <!-- Audited: 1/2024 -->
 
-En tant qu’administrateur Workfront, vous pouvez créer des notifications de rappel pour les utilisateurs et les associer à des objets auxquels vous souhaitez que vos utilisateurs accordent une attention particulière.
+En tant qu’administrateur ou administratrice Workfront, vous pouvez créer des notifications de rappel pour les utilisateurs et utilisatrices et les associer à des objets auxquels vous souhaitez que les personnes accordent une attention particulière.
 
-Les notifications de rappel génèrent des emails envoyés aux utilisateurs selon des critères spécifiés. Les notifications de rappel rappellent aux utilisateurs qu’une action doit être effectuée pour une tâche, un problème, un projet ou une feuille de temps.
+Les notifications de rappel génèrent des e-mails qui sont envoyés aux utilisateurs et utilisatrices selon des critères spécifiés. Les notifications de rappel rappellent aux utilisateurs et utilisatrices qu’une action doit être effectuée pour une tâche, un problème, un projet ou une feuille de temps.
 
-Après avoir créé les notifications de rappel, les utilisateurs peuvent les associer manuellement aux tâches, telles que les projets, les tâches, les problèmes et les feuilles de temps. Pour plus d&#39;informations, voir [Joindre une notification de rappel à un objet](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
+Après la création des notifications de rappel, les utilisateurs et utilisatrices peuvent les associer manuellement aux éléments de travail tels que les projets, les tâches, les problèmes et les feuilles de temps. Pour plus d’informations, voir [Joindre une notification de rappel à un objet](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -59,7 +59,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-*Pour plus d’informations sur les informations contenues dans ce tableau, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -134,14 +134,14 @@ Pour plus d’informations sur la création d’un modèle d’e-mail, voir [Con
      </tr> 
      <tr> 
       <td role="rowheader">Destinataires</td> 
-      <td><p>En fonction de l’objet pour lequel la notification de rappel est envoyée, sélectionnez l’un des types d’utilisateurs suivants auxquels vous souhaitez envoyer la notification :</p>
+      <td><p>En fonction de l’objet pour lequel la notification de rappel est envoyée, sélectionnez l’un des types de personnes suivants auxquels vous souhaitez envoyer la notification :</p>
       <ul>
       <li>Affecté à</li>
       <li>Entré par</li>
-      <li>Équipe de projet (tous les utilisateurs de l’équipe de projet reçoivent un rappel)</li>
-      <li>Affectations de tâches dépendantes (les utilisateurs affectés à des tâches dépendantes reçoivent le rappel)</li>
+      <li>Équipe du projet (rappel reçu par toutes les personnes de l’équipe du projet)</li>
+      <li>Personnes cessionnaires de tâche dépendantes (rappel reçu par les personnes affectées à des tâches dépendantes)</li>
       <li>Propriétaire du projet</li>
-      <li>Affecté à (les utilisateurs affectés à une tâche ou à un problème reçoivent le rappel)</li>
+      <li>Affecté à (rappel reçu par les personnes affectées à une tâche ou à un problème)</li>
       <li>Propriétaire de feuille de temps</li>
       <li>Approbateur de feuilles de temps</li>
       <li>Gestionnaire du propriétaire de feuille de temps</li></ul>

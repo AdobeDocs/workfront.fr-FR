@@ -12,7 +12,7 @@ exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
 source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 75%
+ht-degree: 98%
 
 ---
 
@@ -27,32 +27,32 @@ Vous trouverez ici des informations sur la dernière version bêta, ainsi qu’u
 >Cette version bêta est maintenant fermée et nous n&#39;acceptons plus de nouveaux participants.
 
 
-## Mai 2024 : Mises à jour de la version Beta dans Workfront
+## Mai 2024 : Mises à jour de la version bêta dans Workfront
 
-Cette version de mai comprend les fonctionnalités suivantes :  
+Cette version de mai comprend les fonctionnalités suivantes : 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3429129/)
 
 ### Les projets Workfront sont automatiquement synchronisés avec Frame.io
 
-En fonction de vos commentaires, nous avons amélioré l’expérience et réduit les étapes nécessaires pour déclencher la création d’un Frame.io connecté.  Désormais, lorsque vous créez un projet dans Workfront, un projet correspondant est automatiquement créé dans Frame.io. 
+Sur la base de vos commentaires, nous avons amélioré l’expérience et réduit les étapes nécessaires pour déclencher la création d’un Frame.io connecté.  Désormais, lorsque vous créez un projet dans Workfront, un projet correspondant est automatiquement créé dans Frame.io. 
 
-### Amélioration de l’affectation des créatifs à votre projet Frame.io
+### Amélioration de l’affectation des personnes créatives à votre projet Frame.io
 
-Vous pouvez désormais facilement gérer qui doit avoir accès au projet Frame.io connecté. Les utilisateurs créatifs peuvent être marqués comme &quot;Frame.io activé&quot;, ce qui leur donnera automatiquement l’accès au projet Frame.io connecté lorsqu’ils seront affectés au projet Workfront.   
+Vous pouvez désormais facilement gérer qui doit avoir accès au projet Frame.io connecté. Les personnes créatives peuvent être marquées comme « Activé pour Frame.io », ce qui leur donnera automatiquement l’accès au projet Frame.io connecté lorsqu’elles seront affectées au projet Workfront.   
 
 ### Le nom du projet Frame.io est mis à jour lorsque le nom du projet Workfront change
 
 Dans le cadre de nos efforts pour améliorer la synchronisation des projets entre Workfront et Frame.io, les mises à jour des noms de projet Workfront sont désormais également répercutées dans Frame.io. 
 
-### État d’approbation dans la liste des documents
+### Statut d’approbation dans la liste des documents
 
-Effectuez facilement le suivi de l’état d’approbation d’un fichier directement à partir de la liste de documents. En un simple clic sur le statut général, accédez à une répartition détaillée de tous les participants impliqués dans le processus de validation, ainsi qu&#39;à leur statut individuel. De plus, rationalisez votre workflow en rappelant d’un seul clic aux approbateurs les plus performants, en veillant à obtenir des réponses opportunes et à une gestion efficace des documents. 
+Suivez facilement le statut d’approbation d’un fichier directement à partir de la liste de documents. En un simple clic sur le statut général, accédez à une répartition détaillée de toutes les personnes impliquées dans le processus d’approbation, ainsi qu’à leur statut individuel. De plus, rationalisez votre workflow en rappelant d’un seul clic aux approbateurs et approbatrices les plus performants, en veillant à obtenir des réponses opportunes et à une gestion efficace des documents. 
 
 
-## Mars 2024 : Mises à jour de la version Beta dans Frame.io
+## Mars 2024 : Mises à jour de la version bêta dans Frame.io
 
-+++ Développer pour afficher les fonctionnalités publiées en mars 2024
++++ Développer pour afficher les fonctionnalités publiées en mars 2024
 
 ### Ajout de plusieurs ressources de Frame.io à Workfront
 
@@ -64,7 +64,7 @@ Les éléments de menu permettant d’ajouter une ressource à Workfront ont ét
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Mars 2024 : Mises à jour de la version de Beta dans Workfront
+## Mars 2024 : Mises à jour de la version bêta dans Workfront
 
 Dans cette version bêta, nous avons apporté les améliorations suivantes :
 
@@ -110,9 +110,9 @@ Lorsqu’une nouvelle version de document est chargée, le cycle de révision su
 
 +++
 
-## Test des fonctionnalités
+## Tests des fonctionnalités
 
-Nous avons développé cette intégration pour permettre aux personnes créatives de continuer à utiliser leur outil de prédilection (CC ou Frame.io) pour créer du contenu et effectuer des révisions par des pairs, le tout sous la coupe de personnes responsables de projet chargées de coordonner le travail et d’initialiser et de suivre le processus de révision formel à partir de Workfront. Pour ce faire, vous pouvez utiliser le meilleur des deux mondes : les nouvelles approbations de document de Workfront pour la gestion des approbations de contenu, ainsi que les fonctionnalités de révision de contenu proposées par Frame.io. Les nouvelles approbations de documents et Frame.io formeront notre nouvelle expérience de révision et d’approbation de contenu de bout en bout.
+Nous avons développé cette intégration pour permettre aux personnes créatives de continuer à utiliser leur outil de prédilection (CC ou Frame.io) pour créer du contenu et effectuer des révisions par des pairs, le tout sous la coupe de personnes responsables de projet chargées de coordonner le travail et d’initialiser et de suivre le processus de révision formel à partir de Workfront. Pour ce faire, vous pouvez utiliser le meilleur des deux mondes : les nouvelles approbations de document de Workfront pour la gestion des approbations de contenu, ainsi que les fonctionnalités de révision de contenu proposées par Frame.io. Les nouvelles approbations de documents et Frame.io formeront notre nouvelle expérience de révision et d’approbation de contenu de bout en bout. 
 
 Pour vous permettre de tester facilement les nouvelles fonctionnalités du programme bêta, nous avons créé un nouveau compte de test Frame.io et nous l’avons connecté à un nouveau groupe appelé `Frame.io testing` dans votre environnement de prévisualisation ou de sandbox Workfront existant.
 

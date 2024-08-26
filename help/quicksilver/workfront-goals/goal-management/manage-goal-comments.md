@@ -9,7 +9,7 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -45,13 +45,13 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
  <tr> 
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
-   <p>Pour le nouveau plan et la nouvelle structure de licence :
-  <ul><li>Un plan ultime </li>
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li>
   Ou
-  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
-<p>Pour le plan actuel et la structure de licence : 
-<ul><li> A Pro ou version ultérieure </li>
-  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+  <li>Une licence supplémentaire pour Objectifs Adobe Workfront pour les forfaits Adobe Workfront Prime ou Select. </li></ul> </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
@@ -81,7 +81,7 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
  </tr>
  <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -101,8 +101,7 @@ Vous pouvez apporter des commentaires aux objectifs dans la section Mises à jou
 
 Vous pouvez répondre ou aimer un commentaire que vous avez rédigé ou que d’autres personnes ont rédigé dans cette zone.
 
-1. Cliquez sur l’icône **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l’icône **Menu Principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis sélectionnez **Objectifs**.
-La liste des objectifs s’affiche.
+1. Cliquez sur l’icône **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l’icône **Menu Principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis sélectionnez **Objectifs**. La liste des objectifs s’affiche.
 1. Recherchez l’objectif pour lequel vous souhaitez apporter un commentaire, puis cliquez sur son nom pour ouvrir la page de l’objectif.
 1. Cliquez sur **Mises à jour** dans le panneau de gauche.
 1. (Facultatif) Pour localiser un commentaire existant, commencez à saisir un mot-clé <!--or a user's name--> dans la zone **Recherche**, dans le coin supérieur droit de l’onglet **Commentaires**.

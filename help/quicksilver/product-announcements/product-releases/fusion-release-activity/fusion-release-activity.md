@@ -24,7 +24,7 @@ Pour plus d’informations sur l’utilisation de Workfront Fusion, voir [Adobe 
 
 ## Versions de Fusion en 2024
 
-### Août 2024
+### Août 2024
 
 * [Activité Version de Workfront Fusion : semaine du mardi 5 août 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur l’utilisation de Workfront Fusion, voir [Adobe 
 * [Activité Version de Workfront Fusion : semaine du mardi 8 juillet 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md)
 
 
-### Juin 2024
+### Juin 2024
 
 * [Activité Version de Workfront Fusion : semaine du mardi 17 juin 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-17.md)
 * [Activité Version de Workfront Fusion : semaine du mardi 3 juin 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)

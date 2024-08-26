@@ -2,7 +2,7 @@
 source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '2524'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 # Extraits de code
@@ -61,7 +61,7 @@ ht-degree: 94%
 
 ## Étape 1 - Cliquez sur l’image de votre profil - {#step1-click-profile-pic}
 
-1. Cliquez sur l’icône **[!UICONTROL Menu Principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis sur votre nom d’utilisateur ou d’utilisatrice en regard de l’image de votre profil. Ou (si disponible), cliquez sur l’image de votre profil dans la zone de navigation supérieure, puis cliquez sur **[!UICONTROL Profil Workfront]**.
+1. Cliquez sur l’icône Menu Principal Menu principal dans le coin supérieur droit d’Adobe Workfront, puis sur votre nom d’utilisateur ou d’utilisatrice en regard de l’image de votre profil. ****![](/help/_includes/assets/main-menu-icon.png) Ou (si disponible), cliquez sur l’image de votre profil dans la zone de navigation supérieure, puis cliquez sur **[!UICONTROL Profil Workfront]**.
 
 <!-- Admin and Setup -->
 
@@ -264,26 +264,26 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Planification]**.
 
-   La page d’entrée Planification Workfront s’ouvre.
+   La page de destination de la planification Workfront s’ouvre.
 
-1. (Facultatif et conditionnel) Si vous êtes administrateur Workfront, cliquez sur les onglets suivants :
+1. (Facultatif et le cas échéant) Si vous êtes administrateur ou administratrice Workfront, cliquez sur les onglets suivants :
 
-   * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés.
-   * **Autres espaces de travail** : affiche tous les espaces de travail dans la planification Workfront, y compris ceux partagés avec vous.
+   * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés.
+   * **Autres espaces de travail** : affiche tous les espaces de travail de la planification Workfront, y compris ceux partagés avec vous.
 
-   Pour tous les autres utilisateurs, tous les espaces de travail que vous avez créés ou que vous avez partagés avec vous s’affichent dans la zone **Espaces de travail**.
+   Pour l’ensemble des autres utilisateurs et utilisatrices, tous les espaces de travail que vous avez créés ou partagés avec vous s’affichent dans la zone **Espaces de travail**.
 
-## Intro important de la planification Workfront - {#planning-important-intro}
+## Introduction importante de la planification Workfront - {#planning-important-intro}
 
 >[!IMPORTANT]
 >
 >Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, Workfront Planning est à un stade d’accès anticipé, ouvert à un nombre limité de clients.
+>La planification Workfront est actuellement à l’étape d’accès anticipé et est limitée à un certain nombre de clientes et clients.
 >
 >Vous devez être une cliente ou un client Workfront pour utiliser ces fonctionnalités.
 >
->Si vous participez à cette étape, le représentant du compte vous en informera.
+>Si vous participez à cette étape, le représentant ou la représentante de votre compte vous en informera.
 >
 >Pour plus d’informations, voir [Vue d’ensemble d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -331,7 +331,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 ## Proof mobile - Menu Plus {#mobile-proof-more-menu}
 
-1. Ouvrez l’épreuve de document et sélectionnez le menu **[!UICONTROL Plus]** ![Menu Plus](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) dans le coin supérieur droit du document. Sélectionnez ensuite **[!UICONTROL Plus]**.
+1. Ouvrez l’épreuve de document et sélectionnez le menu Plus Menu Plus dans le coin supérieur droit du document. ****![](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) Sélectionnez ensuite **[!UICONTROL Plus]**.
 
 <!-- My Updates -->
 
@@ -422,7 +422,7 @@ Vous pouvez modifier le statut appliqué à l’élément de travail à l’aide
    >   * Tâches
    >   * Problème
    >   * Demande
-   >   * Modifier l&#39;ordre
+   >   * Modifier l’ordre
    >   * Rapport sur les bogues
 
    Si la tâche ou le problème est affecté à plusieurs utilisateurs et utilisatrices, l’option « J’ai fait ma part » s’affiche dans le menu déroulant, en plus des différents statuts choisis pour votre équipe.
@@ -441,11 +441,10 @@ Pour associer des utilisateurs et des utilisatrices à une équipe d’accueil 
 1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.\
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
-1. Dans la section **[!UICONTROL Organisation]**, sélectionnez le champ **[!UICONTROL Équipe d’accueil]**. Commencez à saisir le nom de l’équipe dont vous souhaitez associer les paramètres aux utilisateurs et utilisatrices. Cliquez sur le nom de l’équipe lorsque vous le voyez dans la liste.
+1. Dans la section Organisation, sélectionnez le champ Équipe d’accueil. ******** Commencez à saisir le nom de l’équipe dont vous souhaitez associer les paramètres aux utilisateurs et utilisatrices. Cliquez sur le nom de l’équipe lorsque vous le voyez dans la liste.
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**
-.
-Les utilisateurs et utilisatrices que vous avez sélectionnés sont maintenant associés à une équipe d’accueil.
+. Les utilisateurs et utilisatrices que vous avez sélectionnés sont maintenant associés à une équipe d’accueil. 
 Tous les paramètres de l’équipe, y compris les statuts associés au bouton Terminé, sont désormais visibles pour ces utilisateurs et utilisatrices.
 
 <!-- Timesheets -->
@@ -472,8 +471,8 @@ Tous les paramètres de l’équipe, y compris les statuts associés au bouton T
 
 ## Test du numéro d’extrait de code {#snippet-number-test}
 
-1. Il s&#39;agit d’une étape d’extrait de code, la première des deux.
-1. Il s&#39;agit d’une étape d’extrait de code, la seconde des deux.
+1. Il s’agit d’une étape d’extrait de code, la première des deux.
+1. Il s’agit d’une étape d’extrait de code, la seconde des deux.
 
 ![image](/help/_includes/assets/adobecclogo.png)
 

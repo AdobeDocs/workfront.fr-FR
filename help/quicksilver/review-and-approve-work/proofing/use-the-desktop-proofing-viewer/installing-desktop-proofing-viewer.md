@@ -9,7 +9,7 @@ exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
 source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ Si votre administrateur ou votre administratrice Workfront ou Workfront Proof a
 
 >[!TIP]
 >
->Vous pouvez utiliser la ligne de commande pour installer la visionneuse de relecture de bureau en exécutant la commande `Workfront Proof Setup 2.1.34.exe" /S`.
+>Vous pouvez utiliser la ligne de commande pour installer la visionneuse de relecture de bureau en exécutant la commande . `Workfront Proof Setup 2.1.34.exe" /S`
 
 1. Pour télécharger l’application, procédez de l’une des manières suivantes :
 
@@ -95,7 +95,7 @@ Si votre administrateur ou votre administratrice Workfront ou Workfront Proof a
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. Dans la zone d’avertissement de sécurité qui apparaît, cliquez sur **Exécuter**. La visionneuse de relecture de bureau s’installe et s’exécute automatiquement.
+1. Dans la zone d’avertissement de sécurité qui apparaît, cliquez sur Exécuter. **** La visionneuse de relecture de bureau s’installe et s’exécute automatiquement.
 1. (Le cas échéant) Si vous installez l’application à l’aide d’Internet Explorer, actualisez la page de lancement dans le navigateur après l’installation de l’application.
 1. Ouvrez une épreuve interactive à partir de la zone Documents.
 

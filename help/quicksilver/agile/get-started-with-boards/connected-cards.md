@@ -9,7 +9,7 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
 source-wordcount: '1492'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr>
    <td role="rowheader">Autorisations d’objet</td>
    <td><p>Autorisations d’affichage ou supérieures à une tâche ou à un problème Workfront</p>
-   <p><strong>Remarque : </strong> Les utilisateurs disposant des autorisations d’affichage pour une tâche ou un problème ne peuvent pas agir sur les cartes qui y sont connectées, y compris déplacer la carte vers une autre colonne du panorama. Les utilisateurs de l’affichage peuvent uniquement ouvrir la carte pour afficher ses propriétés et ouvrir la tâche ou le problème connecté. Pour demander un accès supplémentaire, ouvrez la tâche ou l’émission et demandez-y l’accès.</td>
+   <p><strong>Note : les personnes disposant d’autorisations d’affichage pour une tâche ou un problème ne peuvent pas agir sur les cartes qui y sont connectées, y compris déplacer la carte vers une autre colonne du panorama. </strong> Les personnes avec un accès en affichage peuvent uniquement ouvrir la carte pour afficher ses propriétés et ouvrir la tâche ou le problème connecté. Pour demander un accès supplémentaire, ouvrez la tâche ou le problème et demandez l’accès.</td>
   </tr>
  </tbody> 
 </table>
@@ -82,7 +82,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
    >[!NOTE]
    >
    >* Seuls les objets sur lesquels vous disposez d’autorisations d’accès sont disponibles dans les résultats de la recherche. Si un élément est grisé, cela signifie qu’il a déjà été ajouté au panorama.
-   >* Lorsque vous filtrez par **[!UICONTROL Projets dont je suis propriétaire]** ou **[!UICONTROL Projets auxquels je participe]**, les projets qui correspondent à un statut Terminé, Immobilisé ou Refusé ne sont pas inclus. Vous pouvez toujours rechercher ces projets avec le filtre **[!UICONTROL Tous]**.
+   >* Lorsque vous filtrez par Projets dont je suis propriétaire ou Projets auxquels je participe, les projets qui correspondent à un statut Terminé, Immobilisé ou Refusé ne sont pas inclus. ******** Vous pouvez toujours rechercher ces projets avec le filtre **[!UICONTROL Tous]**.
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.
 
@@ -109,7 +109,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td>La modification de la description modifie également la description sur l’objet [!DNL Workfront] connecté. Vous pouvez ajouter des URL dans la description ; elles deviennent des liens cliquables lorsque la carte est enregistrée.</td> 
+      <td>La modification de la description modifie également la description sur l’objet  connecté. [!DNL Workfront] Vous pouvez ajouter des URL dans la description ; elles deviennent des liens cliquables lorsque la carte est enregistrée.</td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
@@ -131,7 +131,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignments]</strong></td>
-      <td><p>Pour affecter d’autres personnes ou une équipe à la carte, cliquez sur <strong>[!UICONTROL Add Assignment]</strong> et commencez à saisir un nom dans le champ de recherche. Sélectionnez-le ensuite lorsqu’elle s’affiche dans la liste de résultats. Vous pouvez ajouter des personnes et des équipes. Une seule affectation d’équipe est autorisée sur une carte connectée.</p>
+      <td><p>Pour affecter d’autres personnes ou une équipe à la carte, cliquez sur [!UICONTROL Add Assignment] et commencez à saisir un nom dans le champ de recherche. <strong></strong> Sélectionnez-le ensuite lorsqu’elle s’affiche dans la liste de résultats. Vous pouvez ajouter des personnes et des équipes. Une seule affectation d’équipe est autorisée sur une carte connectée.</p>
       <p>Les personnes désignées que vous sélectionnez sont également affectées à la tâche ou au problème dans [!DNL Workfront].</p></td>
      </tr>
      <tr>
@@ -158,7 +158,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Documents]</strong></td>
-      <td>Pour un document existant, pointez sur la miniature du document, puis cliquez sur <strong>Aperçu</strong> pour afficher le fichier dans le navigateur ou sur <strong>Télécharger</strong> pour télécharger le fichier sur votre ordinateur. Pour un nouveau document, voir <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Ajouter des documents sur les cartes</a>.</td>
+      <td>Pour un document existant, pointez sur la miniature du document, puis cliquez sur Aperçu pour afficher le fichier dans le navigateur ou sur Télécharger pour télécharger le fichier sur votre ordinateur. <strong></strong><strong></strong> Pour un nouveau document, voir <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Ajouter des documents sur les cartes</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
@@ -166,7 +166,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Cliquez dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme. Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur ou l’utilisatrice ne doit pas nécessairement être membre du panorama. Les utilisateurs et utilisatrices tagués sur des cartes connectées recevront des notifications par e-mail.</p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
+      <td><p>Cliquez dans le champ [!UICONTROL New comment] et saisissez votre commentaire. <strong></strong> Utilisez les outils de formatage pour mettre le texte en forme. Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur ou l’utilisatrice ne doit pas nécessairement être membre du panorama. Les utilisateurs et utilisatrices tagués sur des cartes connectées recevront des notifications par e-mail.</p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
       <p>Pour plus d'informations sur les commentaires, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
      </tr>
      <tr> 
@@ -178,7 +178,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
    Utilisez le panneau de navigation de gauche pour vous déplacer entre les sections des champs des détails de la carte.
 
-1. Cliquez sur **[!UICONTROL Fermer]** pour revenir au panorama.
+1. Cliquez sur Fermer pour revenir au panorama. ****
 L’objet connecté, les personnes désignées, les balises, la date d’échéance, le compteur de liste de contrôle, l’estimation des heures et le statut s’affichent sur la carte.
 
    ![Carte ajoutée au panorama](assets/boards-connected-card-details-110922.png)

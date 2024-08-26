@@ -64,7 +64,7 @@ Pour effectuer les étapes décrites dans cet article et consigner les heures sp
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,7 +117,7 @@ Pour consigner des heures sur une feuille de temps :
 
 {{step1-click-main-menu}}
 
-1. Cliquez sur [!UICONTROL **Feuilles de temps**]. Votre feuille de temps actuelle s’affiche par défaut.
+1. Cliquez sur Feuilles de temps. [!UICONTROL ****] Votre feuille de temps actuelle s’affiche par défaut.
    ![Feuille de temps](assets/timesheet-redesigned-nwe.png)
 
 
@@ -182,7 +182,7 @@ ou
 
 1. (Facultatif) Cliquez sur l’icône de recherche ![](assets/search-icon.png) et commencez à saisir un mot-clé pour rechercher un projet, une tâche ou un problème dans la feuille de temps.
 
-1. (Facultatif) Si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre **Attribuer manuellement des fonctions aux entrées d’heure**, sélectionnez une fonction dans le menu déroulant. Le rôle spécifié lors de votre affectation à l’élément de travail s’affiche par défaut. Si aucune fonction ne vous est attribuée sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer les préférences de feuille de temps et d’heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. (Facultatif) Si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre Attribuer manuellement des fonctions aux entrées d’heure, sélectionnez une fonction dans le menu déroulant. **** Le rôle spécifié lors de votre affectation à l’élément de travail s’affiche par défaut. Si aucune fonction ne vous est attribuée sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer les préférences de feuille de temps et d’heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
    ![Consignation des heures de plusieurs rôles dans la feuille de temps](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
 
@@ -267,7 +267,7 @@ ou
    >
    >   Toutes les modifications que vous apportez à la feuille de temps sont enregistrées automatiquement.
 
-1. (Facultatif) Cliquez sur la ligne d’une tâche ou d’un problème, puis cliquez sur **Ouvrir le résumé** dans le coin supérieur droit de la feuille de temps pour ajouter une mise à jour ou mettre à jour des informations sur la tâche ou le problème. Le panneau Résumé s’ouvre à droite.
+1. (Facultatif) Cliquez sur la ligne d’une tâche ou d’un problème, puis cliquez sur Ouvrir le résumé dans le coin supérieur droit de la feuille de temps pour ajouter une mise à jour ou mettre à jour des informations sur la tâche ou le problème. **** Le panneau Résumé s’ouvre à droite.
 
    ![summary-panel-for-task-open-in-timesheet](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
@@ -279,7 +279,7 @@ ou
 
 1. Cliquez sur [!UICONTROL **Fermer le résumé**] pour fermer le panneau Résumé et revenir à la feuille de temps.
 
-1. (Facultatif) Cliquez sur [!UICONTROL **Mises à jour**] dans le panneau de gauche, puis ajoutez une mise à jour à la feuille de temps. Pour plus d’informations sur les mises à jour de Workfront, voir [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Cliquez sur Mises à jour dans le panneau de gauche, puis ajoutez une mise à jour à la feuille de temps. [!UICONTROL ****] Pour plus d’informations sur les mises à jour de Workfront, voir [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
@@ -287,11 +287,11 @@ ou
 
    * **Fermer** : fermez la feuille de temps lorsque vous l’avez mise à jour. Cette option n’est disponible que si votre feuille de temps n’est pas associée à un approbateur ou une approbatrice.
 
-   * **Soumettre à approbation :** cette option est disponible uniquement si la feuille de temps est associée à un approbateur ou une approbatrice. Enregistrez vos modifications et soumettez-les pour approbation. Vous pouvez ouvrir la feuille de temps après l’avoir fermée en cliquant sur **Rappeler**, si aucune validation n’a encore été effectuée. Pour plus d’informations, consultez [Soumettre une feuille de temps à approbation](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+   * **Soumettre à approbation :** cette option est disponible uniquement si la feuille de temps est associée à un approbateur ou une approbatrice. Enregistrez vos modifications et soumettez-les pour approbation. Vous pouvez ouvrir la feuille de temps après l’avoir fermée en cliquant sur Rappeler, si aucune validation n’a encore été effectuée. **** Pour plus d’informations, consultez [Soumettre une feuille de temps à approbation](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
    * **Refuser** : cette option s’affiche lorsque vous approuvez les feuilles de temps et que la feuille de temps vous a été envoyée pour approbation. En cliquant dessus, le statut de la feuille de temps passe à Refusé et la feuille de temps reste ouverte.
 
-   * **Approuver** : cette option s’affiche lorsque vous approuvez les feuilles de temps et que la feuille de temps vous a été envoyée pour approbation. En cliquant dessus, le statut de la feuille de temps passe à Approuvé et ferme la feuille de temps.
+   * **Approuver : cette option s’affiche lorsque vous approuvez les feuilles de temps et que la feuille de temps vous a été envoyée pour approbation.** En cliquant dessus, le statut de la feuille de temps passe à Approuvé et ferme la feuille de temps.
 
    >[!TIP]
    >
@@ -299,7 +299,7 @@ ou
 
 1. (Le cas échéant) Si vous avez fermé ou envoyé votre feuille de temps pour approbation, cliquez sur l’une des options suivantes :
 
-   * **Rouvrir** : cette option est disponible pour les feuilles de temps que vous avez déjà fermées et qui n’ont pas d’approbateurs ou d’approbatrices, ou les feuilles de temps qui ont déjà été approuvées. Rouvrez la feuille de temps pour modifier les entrées d’heure.
+   * **Rouvrir : cette option est disponible pour les feuilles de temps que vous avez déjà fermées et qui n’ont pas d’approbateurs ou d’approbatrices, ou les feuilles de temps qui ont déjà été approuvées.** Rouvrez la feuille de temps pour modifier les entrées d’heure.
    * **Rappeler** : cette option est disponible pour les feuilles de temps qui ont été soumises à validation mais qui n’ont pas encore été approuvées ou refusées. Cliquez sur **Rappeler** pour rouvrir la feuille de temps et modifier les entrées d’heure.
 
 #### Supprimer un élément de la feuille de temps
@@ -348,7 +348,7 @@ En outre, pour enregistrer l’heure d’un élément dans le widget Mon travail
 
 1. Accédez à la zone **Accueil**.
 1. Ajoutez le widget **Mon travail** à votre page Accueil.
-1. (Facultatif) Sélectionnez une tâche, un problème ou une requête dans une liste, puis cliquez sur **Travailler dessus**
+1. (Facultatif) Sélectionnez une tâche, un problème ou une demande dans une liste, puis cliquez sur **Travailler dessus**.
 1. Passez la souris sur la tâche ou le problème dont vous souhaitez consigner le temps, puis cliquez sur l’icône **Consigner le temps** ![](assets/log-time-icon-in-new-home.png) à droite des informations de la tâche.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
@@ -366,7 +366,7 @@ En outre, pour enregistrer l’heure d’un élément dans le widget Mon travail
 
 1. Dans le menu déroulant **Saisir les heures**, sélectionnez le type d’heure approprié.\
    Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [Définition des types d’heures et disponibilité](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. (Facultatif) Si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre **Attribuer manuellement des fonctions aux entrées d’heure**, sélectionnez une fonction dans le menu déroulant. Le rôle spécifié lors de votre affectation à l’élément de travail s’affiche par défaut. Si aucune fonction ne vous est attribuée sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer les préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. (Facultatif) Si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre Attribuer manuellement des fonctions aux entrées d’heure, sélectionnez une fonction dans le menu déroulant. **** Le rôle spécifié lors de votre affectation à l’élément de travail s’affiche par défaut. Si aucune fonction ne vous est attribuée sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer les préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Précisez le temps à consigner, puis cliquez sur **Consigner le temps**.
 
    Les heures consignées s’affichent dans la section Heures de l’objet, ainsi que dans votre feuille de temps.
@@ -428,7 +428,7 @@ vous devez disposer de tous les éléments suivants :
 
 * Une licence Plan avec accès administratif aux feuilles de temps et aux heures. Pour plus d’informations sur l’octroi de l’accès administratif aux feuilles de temps et aux heures, consultez [Octroyer aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * Autorisations Contribuer ou supérieures pour le projet avec accès aux heures de journal. Pour plus d’informations sur l’octroi d’autorisations sur les projets, consultez [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section **Feuille de temps et heures > Préférences** de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. Pour plus d’informations sur l’autorisation des utilisateurs et utilisatrices de consigner des heures directement dans des projets, consultez [Configurer les préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **** Pour plus d’informations sur l’autorisation des utilisateurs et utilisatrices de consigner des heures directement dans des projets, consultez [Configurer les préférences de feuille de temps et d’heure](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Pour consigner du temps dans la section Heures d’un projet, d’une tâche ou d’un problème :
 
@@ -456,20 +456,17 @@ Pour consigner du temps dans la section Heures d’un projet, d’une tâche ou 
 
 ### Panneau Résumé
 
-Vous pouvez consigner les heures consacrées aux tâches et aux problèmes dans le panneau Résumé.
-Consultez la [Vue d’ensemble du panneau Résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md) pour plus d’informations.
+Vous pouvez consigner les heures consacrées aux tâches et aux problèmes dans le panneau Résumé. Consultez la [Vue d’ensemble du panneau Résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md) pour plus d’informations.
 
 ![](assets/summary-hour-log.png)
 
 ### Panneaux {#boards}
 
-Vous pouvez consigner les heures consacrées aux cartes connectées sur un panorama Workfront. Il s’agit du même processus que la consignation d’heures pour une tâche ou un problème, et les heures enregistrées sur la carte sont enregistrées sur la tâche connectée ou le problème connecté.
-Pour plus d’informations, consultez [Utiliser des cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Vous pouvez consigner les heures consacrées aux cartes connectées sur un panorama Workfront. Il s’agit du même processus que la consignation d’heures pour une tâche ou un problème, et les heures enregistrées sur la carte sont enregistrées sur la tâche connectée ou le problème connecté. Pour plus d’informations, consultez [Utiliser des cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ### Application mobile {#mobile-app}
 
-Vous pouvez consigner les heures à partir de l’application mobile Workfront.
-Pour plus d’informations, consultez [Adobe Workfront pour Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) ou [Adobe Workfront pour iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+Vous pouvez consigner les heures à partir de l’application mobile Workfront. Pour plus d’informations, consultez [Adobe Workfront pour Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) ou [Adobe Workfront pour iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
 
 ## Modification des heures de connexion dans les listes et les rapports
 

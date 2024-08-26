@@ -9,7 +9,7 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -101,7 +101,7 @@ Tenez compte des points suivants lors de la localisation d’allocations quotidi
   >
   > Par exemple, une tâche peut avoir une durée de 2 jours, 2 heures prévues et une heure de début prévue à 12 h 00 le premier jour de la durée avec un utilisateur ou une utilisatrice et un planning de projet qui se termine à 17 h 00. La capacité de l’utilisateur ou de l’utilisatrice le premier jour est de 5 heures. La capacité de l’utilisateur ou de l’utilisatrice le deuxième jour est de 8 heures (si le planning commence à 9 h 00).
   >
-  >Workfront calcule l&#39;allocation des 2 heures sur les 2 jours de la durée à l&#39;aide de la formule suivante :
+  >Workfront calcule l’allocation des 2 heures sur les 2 jours de la durée à l’aide de la formule suivante :
   >
   >`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
   >
@@ -115,7 +115,7 @@ Tenez compte des points suivants lors de la localisation d’allocations quotidi
 
 * Deux utilisateurs et utilisatrices dans des fuseaux horaires ou avec des plannings différents de ceux des utilisateurs et utilisatrices affectés peuvent faire apparaître des allocations différentes à celles de deux utilisateurs et utilisatrices affichant les mêmes éléments de travail.
 
-* Lorsqu’un utilisateur a programmé des congés, le jour ou la partie de la journée s’affiche en arrière-plan gris et une icône d’avion indique le moment du congé. Si l’administrateur ou l’administratrice de Workfront a activé le paramètre Congés de l&#39;utilisateur dans la zone Configuration afin de prendre en compte les congés de l’utilisateur ou l’utilisatrice, les heures allouées sont déplacées vers le jour disponible suivant dans la chronologie. Si le paramètre est désactivé, les heures allouées restent sur le jour désigné de congés et l’utilisateur ou l’utilisatrice s’affiche comme étant surchargé. Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Lorsqu’un utilisateur a programmé des congés, le jour ou la partie de la journée s’affiche en arrière-plan gris et une icône d’avion indique le moment du congé. Si l’administrateur ou l’administratrice de Workfront a activé le paramètre Congés de l’utilisateur dans la zone Configuration afin de prendre en compte les congés de l’utilisateur ou l’utilisatrice, les heures allouées sont déplacées vers le jour disponible suivant dans la chronologie. Si le paramètre est désactivé, les heures allouées restent sur le jour désigné de congés et l’utilisateur ou l’utilisatrice s’affiche comme étant surchargé. Pour plus d’informations, voir [Configurer les préférences du projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
@@ -202,16 +202,16 @@ Dans le cadre du processus d’affectation de travail à des personnes, vous pou
 
 1. (Facultatif) Cliquez sur l’icône **Paramètres** ![](assets/gear-icon-settings.png) et sélectionnez l’une des options suivantes :
 
-   1. **Inclure les heures des problèmes**. Vous pouvez ainsi gérer les affectations de problèmes en plus des affectations de tâches.
-   1. **Afficher le travail terminé**. Cette option affiche les éléments qui ont été terminés et qui sont programmés pendant la chronologie dont vous gérez les affectations.
-   1. **Afficher le temps restant**. Le nombre total d’heures pour chaque personne (dans la ligne correspondante) change. Lorsque ce paramètre est activé, l’équilibreur de charge de travail affiche les heures disponibles pour chaque personne au lieu du nombre d’heures qui lui sont attribuées.
+   1. **Inclure les heures des problèmes.** Vous pouvez ainsi gérer les affectations de problèmes en plus des affectations de tâches.
+   1. **Afficher le travail terminé.** Cette option affiche les éléments qui ont été terminés et qui sont programmés pendant la chronologie dont vous gérez les affectations.
+   1. **Afficher le temps restant.** Le nombre total d’heures pour chaque personne (dans la ligne correspondante) change. Lorsque ce paramètre est activé, l’équilibreur de charge de travail affiche les heures disponibles pour chaque personne au lieu du nombre d’heures qui lui sont attribuées.
 
       >[!TIP]
       >
       >Lorsque ce paramètre est activé, la modification des attributions diminue le nombre total dans la ligne de la personne.
 
    1. **Projet** dans la section **Sélectionner le thème de couleurs**. Cette fonction permet d’afficher chaque projet et ses tâches respectives dans des couleurs uniques et facilite la compréhension des éléments appartenant au projet.
-   1. **Pourcentage** dans la section **Afficher l’affectation des utilisateurs dans**. Cette fonction affiche les affectations des personnes sous forme de valeur de pourcentage. La capacité de la personne selon le planning est considérée comme étant de 100 %. Par exemple, si une personne est associée à un planning de 8 heures par jour, 8 heures équivalent à une capacité de 100 %. Si vous souhaitez affecter à la personne un travail de 4 heures par jour, vous devez passer son affectation à 50 %.
+   1. **Pourcentage dans la section Afficher l’affectation des utilisateurs dans.****** Cette fonction affiche les affectations des personnes sous forme de valeur de pourcentage. La capacité de la personne selon le planning est considérée comme étant de 100 %. Par exemple, si une personne est associée à un planning de 8 heures par jour, 8 heures équivalent à une capacité de 100 %. Si vous souhaitez affecter à la personne un travail de 4 heures par jour, vous devez passer son affectation à 50 %.
 
       >[!NOTE]
       >
@@ -252,7 +252,7 @@ Dans le cadre du processus d’affectation de travail à des personnes, vous pou
 
      ![Icône en forme de verrou](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   Pour plus d’informations sur les conditions qui doivent être remplies pour mettre à jour le nombre d’heures prévues dans l’équilibreur de charge de travail, voir la section [Mettre à jour le nombre d’heures prévues de la tâche lors de la gestion des allocations des utilisateurs et utilisatrices](#update-task-planned-hours-when-managing-user-allocations) dans cet article. Pour plus d’informations sur les types de durée des tâches, voir [Vue d’ensemble de la durée et du type de durée des tâches](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Pour plus d’informations sur les conditions qui doivent être remplies pour mettre à jour le nombre d’heures prévues dans l’équilibreur de charge de travail, voir la section Mettre à jour le nombre d’heures prévues de la tâche lors de la gestion des allocations des utilisateurs et utilisatrices dans cet article. [](#update-task-planned-hours-when-managing-user-allocations) Pour plus d’informations sur les types de durée des tâches, voir [Vue d’ensemble de la durée et du type de durée des tâches](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Le cas échéant) Si la tâche est affectée à plusieurs personnes, répétez ces étapes pour chaque personne affectée à la tâche afin de mettre à jour les affectations de chaque personne.
 

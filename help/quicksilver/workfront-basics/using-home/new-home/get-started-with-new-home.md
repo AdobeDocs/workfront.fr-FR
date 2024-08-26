@@ -9,7 +9,7 @@ exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
 source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
 source-wordcount: '1140'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Pour plus d’informations sur l’ajout, le déplacement, le redimensionnement 
 Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’un résumé des informations qu’ils affichent :
 
 * **Mes tâches**\
-    Ce widget, qui constitue un excellent point de départ pour la gestion d’un grand nombre de tâches, affiche en un seul endroit l’ensemble des tâches, problèmes et demandes qui vous ont été attribués. Vous pouvez cliquer sur le bouton Travailler dessus pour commencer à travailler sur un élément ou sur le bouton Terminé pour le marquer comme terminé. Vous pouvez également mettre à jour des informations (état, condition, pourcentage terminé) sur les tâches et les problèmes, l’heure de journalisation et ajouter des mises à jour à partir du widget Mon travail.
+    Ce widget, qui constitue un excellent point de départ pour la gestion d’un grand nombre de tâches, affiche en un seul endroit l’ensemble des tâches, problèmes et demandes qui vous ont été attribués. Vous pouvez cliquer sur le bouton Travailler sur ce projet pour commencer à travailler sur un élément ou sur le bouton Terminé pour le marquer comme terminé. Vous pouvez également mettre à jour des informations (statut, condition, pourcentage terminé) sur les tâches et les problèmes, consigner des heures et ajouter des mises à jour à partir du widget Mon travail.
 
 * **Mes projets**\
     Affiche les projets que vous possédez ou ceux sur lesquels vous vous trouvez dans une liste. Vous pouvez utiliser des filtres, des vues ou des regroupements existants pour personnaliser la liste, ou créer un projet directement à partir du widget.
@@ -67,7 +67,7 @@ Vous trouverez ci-dessous les dix widgets actuellement disponibles, ainsi qu’
 
   >[!NOTE]
   >
-  >Vous devez disposer des autorisations nécessaires pour créer des tâches afin de créer des tâches dans le widget Tâches. Seules les tâches personnelles saisies par l’utilisateur actuel apparaîtront dans le widget.
+  >Vous devez disposer des autorisations nécessaires pour créer des tâches afin de créer des tâches dans le widget À faire. Seules les tâches personnelles saisies par l’utilisateur ou utilisatrice actuel apparaîtront dans le widget.
 
 Par défaut, la page d’accueil contient quelques widgets spécifiques en fonction de votre type de licence. Les tableaux ci-dessous indiquent les widgets que les utilisateurs et utilisatrices de chaque type de licence voient lorsqu’ils ou elles accèdent pour la première fois à la nouvelle page d’accueil.
 
@@ -142,7 +142,7 @@ Vous pouvez ajouter une petite touche personnelle à votre page d’accueil en s
 
    Le panneau Personnaliser s’ouvre.
 
-1. Dans la section **Arrière-plan** du panneau **Personnaliser**, cliquez sur la couleur que vous souhaitez sélectionner pour l’arrière-plan de votre page d’accueil. Vous pouvez également cliquer sur **Aucun** pour supprimer l’arrière-plan.
+1. Dans la section Arrière-plan du panneau Personnaliser, cliquez sur la couleur que vous souhaitez sélectionner pour l’arrière-plan de votre page d’accueil. ******** Vous pouvez également cliquer sur **Aucun** pour supprimer l’arrière-plan.
 
 ## Rétablir l’expérience d’accueil actuelle
 

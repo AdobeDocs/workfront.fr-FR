@@ -12,21 +12,21 @@ exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
 source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 23%
+ht-degree: 77%
 
 ---
 
-# Erreur : l’utilisateur avec provisionnement automatique ne peut pas se connecter.
+# Erreur : la personne auto-allouée ne peut pas se connecter.
 
-Lorsqu’un utilisateur muni d’un profil d’approvisionnement automatique tente de se connecter pour la première fois, il reçoit l’erreur suivante :
+Lorsqu’une personne auto-allouée tente de se connecter pour la première fois, elle reçoit l’erreur suivante :
 
 `Expect one user but found 0. ${subdomain} ${lane} ${email}`
 
 ## Problème
 
-Le système n’affecte pas au nouvel utilisateur un niveau d’accès.
+Le système n’affecte pas de niveau d’accès au nouvel utilisateur ou à la nouvelle utilisatrice.
 
-Par défaut, la mise en service automatique utilise le type de licence Request . S’il n’existe aucun niveau d’accès avec une licence Request , le système ne peut pas attribuer un niveau d’accès à l’utilisateur.
+Par défaut, l’auto-allocation utilise le type de licence Demande. Lorsqu’il n’existe aucun niveau d’accès avec une licence Demande, le système ne peut pas affecter de niveau d’accès à l’utilisateur ou à l’utilisatrice.
 
 ## Conditions d’accès
 
@@ -45,7 +45,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td>
-   <p>Nouvelle : standard</p>
+   <p>Nouvelle : standard</p>
    <p>ou</p>
    <p>Actuelle : formule</p></td> 
   </tr> 
@@ -62,15 +62,15 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 ## Solution
 
-Créez un niveau d’accès de base avec une licence Request :
+Créer un niveau d’accès de base avec une licence Demande :
 
-1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Niveaux d’accès]**.
+1. Accédez à **[!UICONTROL Configurer]** > **[!UICONTROL Niveaux d’accès]**.
 
-1. Cliquez sur **[!UICONTROL New Access Level]**.
-1. Saisissez un **[!UICONTROL Nom]**.
-1. Dans le menu déroulant **[!UICONTROL Type de licence]**, sélectionnez Demander.
+1. Cliquez sur **[!UICONTROL Nouveau niveau d’accès]**.
+1. Saisissez un **[!UICONTROL nom]**.
+1. Dans le menu déroulant **[!UICONTROL Type de licence]**, sélectionnez Demande.
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
-Après avoir créé un niveau d’accès avec une licence de demande, demandez à l’utilisateur de se connecter avec ses informations d’identification SSO.
+Après avoir créé un niveau d’accès avec une licence Demande, demandez à l’utilisateur ou à l’utilisatrice de se connecter avec ses identifiants SSO.
 
 

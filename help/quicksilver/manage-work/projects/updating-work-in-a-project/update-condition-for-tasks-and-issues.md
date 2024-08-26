@@ -9,7 +9,7 @@ exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
 source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 64%
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ La condition d’une tâche ou d’un problème est un indicateur qui y est plac
 
 Vous pouvez définir la condition d’une tâche ou d’un problème automatiquement ou manuellement.
 
-Les valeurs de condition auxquelles nous faisons référence dans cet article sont disponibles par défaut dans Workfront. Votre administrateur Adobe Workfront peut créer des conditions personnalisées pour votre environnement, comme décrit dans la section [Créer ou modifier une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Les valeurs de condition auxquelles nous faisons référence dans cet article sont disponibles par défaut dans Workfront. Votre administrateur ou administratrice Adobe Workfront peut créer des conditions personnalisées pour votre environnement, comme décrit dans [Créer ou modifier une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ## Conditions d’accès {#access-requirements}
 
@@ -71,21 +71,21 @@ Les valeurs de condition auxquelles nous faisons référence dans cet article so
 
 ## Conditions préalables
 
-Vous devez être affecté à une tâche ou à un problème pour pouvoir mettre à jour manuellement sa condition.
+Une tâche ou un problème doit vous être affecté pour pouvoir mettre à jour manuellement sa condition.
 
 ## Localiser la condition de tâches et de problèmes
 
 Les conditions s’affichent sous la forme d’un indicateur associé à des tâches ou des problèmes. Elles peuvent également être associées à un numéro qui peut s’afficher dans les rapports au lieu du libellé. Pour plus d’informations sur l’association de conditions à des numéros, voir [Créer ou modifier une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-Vous pouvez localiser la condition des tâches et des problèmes dans les zones suivantes de Workfront :
+Vous pouvez retrouver la condition des tâches et des problèmes dans les zones suivantes de Workfront :
 
 * La page Détails , une fois qu’un administrateur de Workfront ou de groupe l’a ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 * L’en-tête d’une tâche ou d’un problème, après qu’un administrateur de Workfront ou de groupe l’ait ajoutée à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser les en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-* Le panneau Résumé, une fois qu’un administrateur de Workfront ou de groupe l’a ajouté à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Panneau Résumé, une fois qu’un administrateur ou une administratrice Workfront ou de groupes l’a ajouté à votre modèle de mise en page. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-* Rapports et listes lorsque vous affichez le champ Condition dans une vue ou un groupement.
+* Les rapports et les listes lorsque vous affichez le champ Condition dans une vue ou un regroupement.
 
   >[!NOTE]
   >
@@ -129,7 +129,7 @@ Vous pouvez mettre à jour manuellement la condition des tâches et des problèm
 
 ### Mettre à jour la condition d’une tâche ou d’un problème dans l’en-tête de la tâche ou du problème
 
-1. (Conditionnel) Si votre administrateur Workfront ou de groupe a ajouté le champ Condition à l’en-tête de la tâche ou du problème de votre modèle de mise en page, cliquez sur le champ **Condition** dans l’en-tête et sélectionnez l’une des options suivantes :
+1. (Le cas échéant) Si votre administrateur ou administratrice Workfront ou de groupes a ajouté le champ Condition à l’en-tête de la tâche ou du problème de votre modèle de mise en page, cliquez sur le champ **Condition** dans l’en-tête et sélectionnez l’une des options suivantes :
    * Tout est en ordre
    * Certaines inquiétudes
    * Obstacles majeurs
@@ -139,11 +139,11 @@ Vous pouvez mettre à jour manuellement la condition des tâches et des problèm
 
 ### Mettre à jour la condition d’une tâche ou d’un problème dans la section Détails de la tâche ou du problème
 
-1. (Conditionnel) Si votre administrateur Workfront ou de groupe a ajouté le champ Condition à la section Détails d’une tâche ou d’un problème dans votre modèle de mise en page, cliquez sur **Détails** dans le panneau de gauche, puis cliquez sur **Condition de tâche** ou **Condition de problème** et sélectionnez l’une des options suivantes :
+1. (Le cas échéant) Si votre administrateur ou administratrice Workfront ou de groupes a ajouté le champ Condition à la section Détails d’une tâche ou d’un problème dans votre modèle de mise en page, cliquez sur **Détails** dans le panneau de gauche, puis cliquez sur **Condition de tâche** ou **Condition de problème** et sélectionnez l’une des options suivantes :
    * Tout est en ordre
    * Certaines inquiétudes
    * Obstacles majeurs
-1. Cliquez sur **Enregistrer les modifications**. La condition de la tâche ou du problème est mise à jour.
+1. Cliquez sur Enregistrer les modifications. **** La condition de la tâche ou du problème est mise à jour.
 
 ### Mettre à jour la condition d’une tâche ou d’un problème dans un rapport ou une liste
 

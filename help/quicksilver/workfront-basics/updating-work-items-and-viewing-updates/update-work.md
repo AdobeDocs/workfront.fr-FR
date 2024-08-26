@@ -9,7 +9,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '2984'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront pour communiq
 
 Les informations de cet article expliquent comment commenter et mettre à jour les informations liées aux projets, aux tâches et aux problèmes. Les utilisateurs et utilisatrices affectés ou les personnes abonnées à l’objet peuvent afficher votre mise à jour. Vous pouvez également baliser des utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour.
 
-L’ajout de commentaires à d’autres objets est similaire à la mise à jour des projets, des tâches et des problèmes. Pour plus d’informations sur les commentaires sur les cartes et les objectifs, consultez également les articles suivants :
+L’ajout de commentaires à d’autres objets est similaire à la mise à jour des projets, des tâches et des problèmes. Pour plus d’informations relatives aux commentaires sur les cartes et les objectifs, reportez-vous également aux articles suivants :
 
 * [Gérer les commentaires des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -232,7 +232,7 @@ You can add updates to the following objects:
 Cet article décrit comment mettre à jour un projet, des tâches ou des problèmes. La mise à jour de la plupart des autres objets est similaire.
 
 1. Recherchez l’objet à mettre à jour, puis cliquez sur son nom pour ouvrir sa page.
-1. Cliquez sur **Mises à jour** dans le panneau de gauche.
+1. Cliquez sur Mises à jour dans le panneau de gauche. ****
 L’onglet **Commentaires** est sélectionné par défaut.
 
    <!--
@@ -298,7 +298,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
 
    Les commentaires supplémentaires s’affichent en bas de l’écran.
 
-1. (Facultatif) Cliquez sur l’icône **J’aime** ![](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions « J’aime ».
+1. (Facultatif) Cliquez sur l’icône J’aime . ****![](assets/like-icon.png) L’icône se met à jour avec le nombre de mentions « J’aime ».
 1. (Le cas échéant et facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de personnes membres incluses dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 
    ![](assets/members-icons-expanded-unshimmed.png)
@@ -308,7 +308,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >Les noms des deux premières entités balisées s’affichent en regard de leurs avatars. Si plus de deux entités sont balisées, seuls le nom de la première et le nombre d’entités supplémentaires s’affichent.
 
 1. (Facultatif) Cliquez sur le nom d’un commentateur ou d’une commentatrice pour afficher son nom, son rôle et son adresse e-mail dans une zone d’informations. Cliquez à nouveau sur le nom du commentateur ou de la commentatrice dans la zone d’informations pour ouvrir son profil utilisateur.
-1. (Facultatif) Cliquez sur l’onglet **Activité du système** pour afficher les mises à jour consignées par le système. Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note relative à cette mise à jour et l’affiche dans l’onglet Activité du système.
+1. (Facultatif) Cliquez sur l’onglet Activité du système pour afficher les mises à jour consignées par le système. **** Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note relative à cette mise à jour et l’affiche dans l’onglet Activité du système.
 
    Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -316,7 +316,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >
    >Vous ne pouvez pas ajouter de commentaire à une mise à jour système. Cependant, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée ont été ajoutées à l’onglet Activité système en lecture seule. L’expérience de commentaire héritée a été supprimée de Workfront le 11 avril 2024.
 
-1. (Facultatif) Cliquez sur l’onglet **Tous** pour afficher les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit. Il s’agit d’un onglet en lecture seule.
+1. (Facultatif) Cliquez sur l’onglet Tous pour afficher les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit ****. Il s’agit d’un onglet en lecture seule.
 
    >[!TIP]
    >
@@ -583,7 +583,7 @@ Aucune personne utilisant Workfront (y compris l’administrateur ou l’adminis
 
 La section Mises à jour d’un objet Workfront affiche deux types d’informations :
 
-* **Mises à jour des utilisateurs et des utilisatrices :** les mises à jour des utilisateurs et des utilisatrices sont des commentaires que vous et d’autres personnes de votre système saisissez. Les mises à jour des utilisateurs et des utilisatrices s’affichent dans les onglets Commentaires et Tous de la section Mises à jour.
+* **Mises à jour des utilisateurs et des utilisatrices : les mises à jour des utilisateurs et des utilisatrices sont des commentaires que vous et d’autres personnes de votre système saisissez.** Les mises à jour des utilisateurs et des utilisatrices s’affichent dans les onglets Commentaires et Tous de la section Mises à jour.
 
   ![](assets/user-update-cl-350x277.png)
 

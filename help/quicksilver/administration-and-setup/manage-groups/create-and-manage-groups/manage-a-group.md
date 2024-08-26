@@ -1,10 +1,10 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: manage,group,edit,
+keywords: gérer,regrouper,modifier,
 navigation-topic: create-and-manage-groups
 title: Gestion d’un groupe
-description: En tant qu’administrateur de groupe, vous pouvez gérer un groupe que vous administrez à partir de la zone Groupes dans Configuration. S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
+description: En tant qu’administrateur ou administratrice de groupe, vous pouvez gérer un groupe que vous administrez à partir de la zone Groupes dans Configuration. S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -12,7 +12,7 @@ exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
 source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 9%
+ht-degree: 99%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 9%
 Though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.
 -->
 
-En tant qu’administrateur de groupe, vous pouvez gérer un groupe que vous administrez à partir de la zone Groupes dans Configuration. S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
+En tant qu’administrateur ou administratrice de groupe, vous pouvez gérer un groupe que vous administrez à partir de la zone Groupes dans Configuration. S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour l’administration de Workfront (pour n’importe quel groupe).
 
 >[!NOTE]
 >
->Lorsque vous êtes affecté en tant qu’administrateur d’un groupe, vous héritez du rôle d’administrateur de groupe pour tous les sous-groupes qui se trouvent en dessous. Les seuls utilisateurs pouvant gérer un sous-groupe sont les administrateurs de groupe pour le groupe supérieur et les administrateurs de groupe affectés au sous-groupe.
+>Lorsque vous devenez administrateur ou administratrice d’un groupe, vous héritez du rôle d’administrateur ou administratrice de groupes pour tous les sous-groupes qui lui sont subordonnés. Les seuls personnes qui peuvent gérer un sous-groupe sont les administrateurs et administratrices de groupes du groupe supérieur et les administrateurs et administratrices de groupes affectés au sous-groupe.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,15 +53,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 +++
 
-## Gestion des appartenances à un groupe
+## Gérer les membres d’un groupe
 
-Vous pouvez ajouter et supprimer des utilisateurs et d’autres groupes d’un groupe que vous administrez. Vous pouvez également affecter des membres du groupe en tant qu’administrateurs au groupe et gérer les informations de profil utilisateur des membres du groupe.
+Vous pouvez ajouter et supprimer des personnes et d’autres groupes d’un groupe que vous administrez. Vous pouvez également désigner des membres du groupe comme des administrateurs et administratrices du groupe et gérer les informations du profil d’utilisateur ou d’utilisatrice des membres du groupe.
 
-Pour obtenir des instructions, voir [Affichage et gestion des appartenances d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+Pour plus d’informations, voir [Afficher et gérer les membres d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
 
-## Gestion des détails d’un groupe
+## Gérer les détails d’un groupe
 
-Vous pouvez afficher et modifier la page Détails du groupe pour un groupe ou un sous-groupe que vous gérez. Cette page comprend une description du groupe, les noms des chefs d’entreprise et des administrateurs de groupe, ainsi qu’une option qui vous permet de rendre le groupe et tous ses sous-groupes publics ou privés. Et si votre niveau d’accès vous permet de gérer des formulaires personnalisés, vous pouvez joindre un formulaire personnalisé à un groupe.
+Vous pouvez afficher et modifier la page Détails du groupe d’un groupe ou d’un sous-groupe que vous gérez. Cette page comprend une description du groupe, les noms de la personne responsable d’entreprise et des administrateurs et administratrices du groupe, ainsi qu’une option permettant de rendre le groupe et tous ses sous-groupes publics ou privés. Et, si votre niveau d’accès vous permet de gérer des formulaires personnalisés, vous pouvez joindre un formulaire personnalisé à un groupe.
 
 <!--
 "and an option that allows you to deactivate or reactivate the group"
@@ -69,105 +69,105 @@ Vous pouvez afficher et modifier la page Détails du groupe pour un groupe ou un
 Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **Is active** option to the Details page!
 -->
 
-Pour obtenir des instructions, reportez-vous à la section [Affichage et gestion des détails d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
+Pour plus d’informations, voir [Afficher et gérer les détails d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
-## Modification, copie ou suppression d’un groupe
+## Modifier, copier ou supprimer un groupe
 
-Sans quitter la page principale d’un groupe que vous affichez, vous pouvez rapidement modifier, copier ou supprimer le groupe.
+Sans quitter la page principale d’un groupe que vous consultez, vous pouvez rapidement modifier, copier ou supprimer le groupe.
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Groups**.
+1. Cliquez sur **Groupes**.
 
-   Dans la liste qui s’affiche, vous pouvez voir les groupes que vous gérez, ainsi que les sous-groupes qu’ils possèdent. Les administrateurs Adobe Workfront peuvent voir tous les groupes.
+   Dans la liste qui s’affiche, vous pouvez voir les groupes que vous gérez, ainsi que les sous-groupes qu’ils comportent. Les administrateurs et administratrices Adobe Workfront peuvent voir tous les groupes.
 
-1. Sélectionnez le groupe, puis cliquez sur l&#39;icône Modifier ![](assets/edit-icon.png), Copier ![](assets/copy-icon.png) ou Supprimer ![](assets/delete.png) .
+1. Sélectionnez le groupe, puis cliquez sur l’icône Modifier ![](assets/edit-icon.png), Copier ![](assets/copy-icon.png) ou Supprimer ![](assets/delete.png).
 
-   Si vous avez besoin d’informations sur l’utilisation de la boîte qui s’affiche, reportez-vous à l’une des options suivantes :
+   Si vous avez besoin d’informations sur l’utilisation de la boîte qui s’affiche, consultez l’un des documents suivants :
 
-   * **Modifier** : [Afficher et gérer les détails d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+   * **Modifier** : [afficher et gérer les détails d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **Copier** : [Créez un groupe de niveau supérieur en copiant un groupe ou un sous-groupe existant](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) dans l’article [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   * **Copier** : [créez un groupe de premier niveau en copiant un groupe ou un sous-groupe existant](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) dans l’article [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-   * **Supprimer** : [Supprimer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+   * **Supprimer** : [supprimer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
 
-## Configuration des préférences de projet, de tâche et de problème pour un groupe
+## Configurer les préférences d’un groupe en matière de projets, de tâches et de problèmes
 
-Si vous êtes administrateur de groupe et que votre groupe a besoin de différents paramètres de projet, de tâche et de préférences d’émission par rapport à ceux définis au niveau du système, vous pouvez demander à l’administrateur Workfront de déverrouiller une préférence pour tous les groupes de l’entreprise. Une fois déverrouillé, vous (ainsi que les administrateurs de groupe pour tous les autres groupes) pouvez le configurer pour les groupes que vous gérez.
+Si vous gérez un groupe et que votre groupe a besoin de paramètres de préférences pour les projets, les tâches et les problèmes différents de ceux définis au niveau du système, vous pouvez demander à l’administrateur ou administratrice Workfront de déverrouiller une préférence pour tous les groupes dans l’ensemble de l’organisation. Une fois déverrouillée, vous (et les administrateurs et administratrices de groupes pour tous les autres groupes) pouvez la configurer pour les groupes que vous gérez.
 
-Pour obtenir des instructions, voir [Configuration des préférences de projet pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) et [Configuration des préférences de tâche et de problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+Pour plus d’informations, voir [Configurer les préférences d’un projet pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) et [Configurer les préférences d’une tâche ou d’un problème pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-## Liste, ajout et configuration de sous-groupes
+## Répertorier, ajouter et configurer des sous-groupes
 
-Vous pouvez créer, afficher, modifier, copier, renommer, exporter et supprimer des sous-groupes sous un groupe que vous administrez.
+Vous pouvez créer, afficher, modifier, copier, renommer, exporter et supprimer des sous-groupes sous un groupe que vous gérez.
 
-## Configurer des notifications d’événement pour un groupe
+## Configurer les notifications d’événements pour un groupe
 
-Si un administrateur Workfront vous offre la possibilité de configurer des notifications d’événement pour les groupes de votre entreprise, vous pouvez les configurer pour un groupe que vous administrez. Pour obtenir des instructions, reportez-vous à la section [Affichage et configuration des notifications d’événement pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Si un administrateur ou une administratrice Workfront déverrouille la possibilité de configurer les notifications d’événements pour les groupes de votre organisation, vous pouvez les configurer pour un groupe que vous gérez. Pour plus d’informations, voir [Afficher et configurer les notifications d’événements pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-## Création et personnalisation des états d’un groupe
+## Créer et personnaliser des statuts pour un groupe
 
-En tant qu’administrateur de groupe, vous pouvez créer des états personnalisés pour un groupe de niveau supérieur que vous gérez. Cela vous donne l’autonomie de votre groupe et vous aide à éliminer le besoin de dizaines de statuts personnalisés à l’échelle de l’entreprise. (Un administrateur Workfront peut également le faire, pour n’importe quel groupe.)
+En tant qu’administrateur ou administratrice de groupes, vous pouvez créer des statuts personnalisés pour un groupe de niveau supérieur que vous gérez. Cela donne de l’autonomie à votre groupe et contribue à éliminer le besoin de dizaines de statuts personnalisés à l’échelle de l’entreprise. (Un administrateur ou une administratrice Workfront peut également effectuer cette opération pour n’importe quel groupe).
 
-Vous pouvez également personnaliser les états système d’un groupe de niveau supérieur si un administrateur Workfront les a configurés pour autoriser la personnalisation.
+Vous pouvez également personnaliser les statuts du système pour un groupe de niveau supérieur si un administrateur ou une administratrice Workfront les a configurés pour permettre la personnalisation.
 
-Pour obtenir des instructions, voir [Création ou modification d’un état de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Pour plus d’informations, voir [Créer ou modifier un statut de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-## Utilisation des projets d’un groupe
+## Travailler sur les projets d’un groupe
 
-Dans la zone Groupes de la configuration, lorsque vous affichez la page principale d’un groupe que vous administrez, vous pouvez effectuer les opérations suivantes avec des projets :
+Dans la zone Groupes de Configuration, lorsque vous affichez la page principale d’un groupe que vous gérez, vous pouvez effectuer les opérations suivantes avec les projets :
 
-* répertorier et utiliser (modifier, copier, supprimer et exporter) les projets associés au groupe et à ses sous-groupes et qui ont été partagés avec vous ;
-* Création d’un projet pour le groupe
+* Répertorier et utiliser (modifier, copier, supprimer et exporter) les projets qui sont associés au groupe et à ses sous-groupes et qui ont été partagés avec vous.
+* Créer un projet pour le groupe
 
-Pour plus d’informations, voir [Création et modification des projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+Pour plus d’informations, voir [Créer et modifier les projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 ## Afficher et gérer les processus d’approbation d’un groupe
 
-Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher et utiliser les processus d’approbation pour lesquels les administrateurs du groupe, ou l’un de ses sous-groupes, ont un accès administratif.
+Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et utiliser les processus d’approbation pour lesquels les administrateurs et administratrices du groupe, ou l’un de ses sous-groupes, ont un accès administratif.
 
 Pour plus d’informations, voir [Processus d’approbation au niveau du groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
-## Affichage et gestion des modèles de disposition d’un groupe
+## Afficher et gérer les modèles de mise en page d’un groupe
 
-Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher et utiliser le modèle de mise en page pour lequel les administrateurs du groupe, ou de l’un de ses sous-groupes, disposent d’un accès administratif.
+Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et utiliser le modèle de disposition pour lequel l’équipe d’administration du groupe, ou de l’un de ses sous-groupes, dispose d’un accès administratif.
 
-Pour obtenir des instructions, reportez-vous à la section [Création et modification des modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Pour plus d’informations, voir [Créer et modifier les modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-## Affichage et gestion des plannings des membres du groupe
+## Afficher et gérer les plannings des membres du groupe
 
-Un administrateur de groupe créant une planification pour un groupe doit spécifier le groupe dont les administrateurs vont gérer la planification. En règle générale, il s’agit du groupe pour lequel la planification est en cours de création, mais il peut s’agir d’un groupe différent si l’administrateur du groupe gère plusieurs groupes et spécifie l’un des autres groupes à la place.
+Un administrateur ou une administratrice de groupes qui crée un planning pour un groupe doit spécifier le groupe dont les administrateurs et administratrices gèreront le planning. Il s’agit généralement du groupe pour lequel le planning est créé, mais il peut s’agir d’un groupe différent si l’administrateur ou administratrice de groupes gère plusieurs groupes et indique l’un d’entre eux à la place.
 
-Lorsque vous affichez la page principale d’un groupe que vous gérez, si le groupe est désigné comme celui dont les administrateurs peuvent modifier un planning, vous pouvez afficher et gérer le planning à partir de la page du groupe.
+Lorsque vous affichez la page principale d’un groupe que vous gérez, si le groupe est désigné comme celui dont les administrateurs et administratrices peuvent modifier un planning, vous pouvez afficher et gérer le planning à partir de la page du groupe.
 
-Pour plus d’informations, voir [Création et modification des plannings d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
+Pour plus d’informations, voir [Créer et modifier les plannings d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
-## Affichage et gestion des profils de feuille de temps des membres du groupe
+## Afficher et gérer les profils de feuilles de temps des membres du groupe
 
-Lorsque vous affichez la page principale d’un groupe que vous administrez, vous pouvez gérer les profils de feuille de temps que vous et les autres administrateurs du groupe (ou de l’un de ses sous-groupes) êtes autorisés à modifier. Pour plus d’informations, voir [Création et gestion des profils de feuille de temps d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
+Lorsque vous affichez la page principale d’un groupe que vous gérez, vous pouvez gérer les profils de feuilles de temps que vous et les autres administrateurs et administratrices du groupe, ou de l’un de ses sous-groupes, avez l’autorisation de modifier. Pour plus d’informations, voir [Créer et gérer les profils de feuilles de temps d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
 
-## Affichage et gestion des membres du sous-groupe d’un groupe
+## Afficher et gérer les membres des sous-groupes d’un groupe
 
-Lorsque vous affichez la page principale d’un groupe que vous administrez, vous pouvez afficher et gérer tous les utilisateurs des sous-groupes du groupe. Pour obtenir des instructions, voir [Affichage et gestion des membres de sous-groupe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Lorsque vous affichez la page principale d’un groupe que vous gérez, vous pouvez afficher et gérer toutes les personnes des sous-groupes du groupe. Pour plus d’informations, voir [Afficher et gérer les personnes membres d’un sous-groupe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
-## Affichage et gestion des équipes d’un groupe
+## Afficher et gérer les équipes d’un groupe
 
-Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher et travailler avec les équipes associées au groupe ou à l’un de ses sous-groupes.
+Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez consulter et travailler avec les équipes associées au groupe ou à l’un de ses sous-groupes.
 
-Pour obtenir des instructions, voir [Création et modification des équipes d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
+Pour plus d’informations, voir [Créer et modifier les équipes d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
 
-## Affichage et gestion des entreprises d’un groupe
+## Afficher et gérer les entreprises d’un groupe
 
-Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher et travailler avec les entreprises associées au groupe ou à l’un de ses sous-groupes. Pour plus d&#39;informations, voir [Création et modification des entreprises d&#39;un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md).
+Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez consulter et travailler avec les entreprises associées au groupe ou à l’un de ses sous-groupes. Pour plus d’informations, voir [Créer et modifier les entreprises d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md).
 
-## Affichage et gestion des portefeuilles et des programmes d’un groupe
+## Afficher et gérer les portfolios et les programmes d’un groupe
 
-Lorsque vous affichez un groupe que vous gérez dans la zone Groupes , vous pouvez afficher et utiliser des portefeuilles et des programmes lorsque les deux conditions suivantes sont vraies :
+Lorsque vous affichez un groupe que vous gérez dans la zone Groupes, vous pouvez afficher et travailler avec des portfolios et des programmes lorsque les deux conditions suivantes sont remplies :
 
-* Ils sont associés au groupe que vous affichez ou à l’un de ses sous-groupes.
-* Vous êtes autorisé à les afficher car vous les avez créés ou ils ont été partagés avec vous.
+* Ils sont associés au groupe que vous consultez ou à l’un de ses sous-groupes.
+* Vous disposez des autorisations de les consulter parce que vous les avez créés ou qu’ils ont été partagés avec vous.
 
-Pour plus d’informations, voir [Création et modification de projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) et [Création, modification et affichage des programmes d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+Pour plus d’informations, voir [Créer et modifier les projets d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) et [Créer, modifier et afficher les programmes d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
 ## Désactiver ou réactiver un groupe
 
@@ -179,8 +179,8 @@ Delete this section when they add the </span>
 
 -->
 
-Vous pouvez conserver un groupe dans son état actif par défaut ou le désactiver.
+Vous pouvez conserver un groupe dans son statut actif par défaut ou le désactiver.
 
-La désactivation d’un groupe peut s’avérer utile lorsqu’il n’est actuellement pas utilisé, car les utilisateurs ne le voient plus dans les champs de type avant lorsqu’ils recherchent un groupe qu’ils souhaitent associer à un autre objet.
+La désactivation d’un groupe peut être utile lorsqu’il n’est pas utilisé actuellement, car les personnes ne le voient plus dans les champs de saisie semi-automatique lorsqu’elles recherchent un groupe qu’elles veulent associer à un autre objet.
 
-Pour obtenir des instructions sur la façon de rendre un groupe inactif ou actif, voir [Désactivation ou réactivation d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+Pour savoir comment rendre un groupe inactif ou actif, voir [Désactiver ou réactiver un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).

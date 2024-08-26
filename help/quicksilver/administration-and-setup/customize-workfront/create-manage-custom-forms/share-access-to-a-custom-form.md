@@ -11,7 +11,7 @@ exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 76%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez configurer l’accès à un formulaire personnalisé pour contrôler
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +60,7 @@ Cependant, sur un objet pour lequel le formulaire personnalisé n’est pas déj
 * Une personne a partagé le formulaire personnalisé avec l’utilisateur ou l’utilisatrice ou avec son équipe, sa fonction, son groupe ou son entreprise, en accordant au moins des autorisations d’affichage avec l’option Joindre aux données personnalisées sélectionnée.
 * L’utilisateur ou l’utilisatrice dispose d’une licence de plan et son niveau d’accès permet l’accès administratif aux formulaires personnalisés.
 
-## Partage d’un formulaire personnalisé à partir de la liste des formulaires
+## Partager un formulaire personnalisé à partir de la liste des formulaires
 
 Plutôt que de laisser un formulaire personnalisé au statut de partage par défaut (décrit à la section [Accéder aux formulaires personnalisés](#access-to-custom-forms) de cet article), configurez des niveaux d’accès spécifiques au formulaire pour certaines personnes, fonctions, groupes, équipes et entreprises.
 
@@ -76,16 +76,16 @@ Plutôt que de laisser un formulaire personnalisé au statut de partage par déf
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">L'afficher</td> 
-      <td> <p>Possibilité d’afficher et de remplir le formulaire personnalisé sur les objets</p> <p><b>REMARQUE</b> : pour les utilisateurs disposant de licences légères et de contributeurs (ou de licences de travail, de révision et de demande), il s’agit de la plus haute option disponible.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
+      <td role="rowheader">L’afficher</td> 
+      <td> <p>Possibilité d’afficher et de remplir le formulaire personnalisé sur les objets</p> <p><b>NOTE</b> : pour les titulaires d’une licence Contribution et Light (ou travail, révision et demande), il s’agit de l’option la plus élevée disponible.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
        <ul> 
         <li><strong>Joindre à des données personnalisées</strong> : possibilité de joindre un formulaire personnalisé aux projets, tâches et problèmes pour lesquels les personnes disposent d’autorisations de gestion.</li> 
-        <li> <p><strong>Partager</strong> : possibilité de partager le formulaire personnalisé avec d’autres personnes du système.</p> <p>Les utilisateurs disposant d’une licence légère ou de contributeur (ou d’une licence Work, Review ou Request) peuvent partager un formulaire personnalisé uniquement par le biais de l’API ou d’un rapport de formulaires personnalisés.</p> </li>
+        <li> <p><strong>Partager</strong> : possibilité de partager le formulaire personnalisé avec d’autres personnes du système.</p> <p>Les titulaires d’une licence Contribution ou Light (ou travail, révision ou demande) peuvent partager un formulaire personnalisé uniquement par le biais de l’API ou d’un rapport de formulaires personnalisés.</p> </li>
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Le gérer</td> 
-      <td> <p>Disponible uniquement pour les utilisateurs disposant d’une licence Standard ou Plan. </p> <p>En plus de pouvoir ajouter le formulaire aux objets pour lesquels ils disposent d’un accès en modification, les personnes peuvent également modifier entièrement le formulaire personnalisé, y compris ajouter, modifier et supprimer des champs.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
+      <td> <p>Disponible uniquement pour les personnes titulaires d’une licence de plan ou standard. </p> <p>En plus de pouvoir ajouter le formulaire aux objets pour lesquels ils disposent d’un accès en modification, les personnes peuvent également modifier entièrement le formulaire personnalisé, y compris ajouter, modifier et supprimer des champs.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
        <ul> 
         <li> <p><strong>Joindre à des données personnalisées</strong> : possibilité de joindre un formulaire personnalisé aux projets, tâches et problèmes pour lesquels les personnes disposent d’autorisations de gestion.</p> </li> 
         <li><strong>Supprimer</strong> : supprime le formulaire personnalisé du système.</li> 
@@ -103,7 +103,7 @@ Plutôt que de laisser un formulaire personnalisé au statut de partage par déf
    >[!NOTE]
    >
    >* Lorsque vous affichez un formulaire personnalisé sur tout le système, vous autorisez uniquement les personnes à le consulter et à le remplir sur les objets auxquels ils sont affectés, et non à le joindre à d’autres objets. Vous pouvez accorder la possibilité de joindre le formulaire personnalisé à des objets à l’aide de l’option « Joindre aux données personnalisées », décrite à l’étape 5.
-   >* La plupart des entreprises souhaitent s’assurer que toutes les personnes du système peuvent remplir un formulaire personnalisé lorsqu’il est joint aux objets sur lesquels ils travaillent et afficher ses données dans les rapports. Si cela est vrai pour votre organisation, nous vous recommandons d’utiliser **Rendre visible cette image à l’échelle du système**. Lorsque l’option est configurée de cette manière, « Visible sur tout le système » s’affiche dans la boîte de dialogue :
+   >* La plupart des entreprises souhaitent s’assurer que toutes les personnes du système peuvent remplir un formulaire personnalisé lorsqu’il est joint aux objets sur lesquels ils travaillent et afficher ses données dans les rapports. Si votre entreprise et concernée, nous vous recommandons d’activer l’option **Rendre cet élément visible à l’échelle du système**. Lorsque l’option est configurée de cette manière, « Visible sur tout le système » s’affiche dans la boîte de dialogue :
    >   
    >![](assets/visible-system-wide-350x480.png)
    >   
@@ -111,14 +111,14 @@ Plutôt que de laisser un formulaire personnalisé au statut de partage par déf
 
 1. Cliquer sur **Enregistrer**.
 
-## Partage d’un formulaire personnalisé à partir du concepteur de formulaires
+## Partager un formulaire personnalisé à partir du créateur de formulaire
 
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Formulaires personnalisés**.
 1. Ouvrez un formulaire personnalisé ou créez un formulaire personnalisé.
-1. Cliquez sur **Partager** en haut à droite du concepteur de formulaire lorsque vous êtes prêt à partager le formulaire.
-1. Dans la zone qui s’affiche, sous **Accorder l’accès au formulaire personnalisé à**, commencez à saisir le nom de l’utilisateur, de l’équipe, du rôle de tâche, du groupe ou de la société avec lequel vous souhaitez partager le formulaire personnalisé, puis appuyez sur **Entrée** lorsque le nom s’affiche.
+1. Cliquez sur **Partager** en haut à droite du créateur de formulaire lorsque le formulaire est prêt à être partagé.
+1. Dans la zone qui s’affiche, sous **Accorder l’accès à un formulaire personnalisé**, commencez à saisir le nom de la personne, de l’équipe, de la fonction, du groupe ou de l’entreprise avec lequel vous souhaitez partager le formulaire personnalisé, puis appuyez sur **Entrée** lorsque le nom s’affiche.
 1. Pour ajuster l’accès de la personne, de l’équipe, de la fonction, du groupe ou de l’entreprise que vous venez d’ajouter, cliquez sur le menu déroulant à droite du nom, puis configurez l’une des options disponibles suivantes, ainsi que l’un de ses paramètres avancés :
 
    <table style="table-layout:auto"> 
@@ -126,16 +126,16 @@ Plutôt que de laisser un formulaire personnalisé au statut de partage par déf
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">L'afficher</td> 
-      <td> <p>Possibilité d’afficher et de remplir le formulaire personnalisé sur les objets</p> <p><b>REMARQUE</b> : pour les utilisateurs disposant de licences légères et de contributeurs (ou de licences de travail, de révision et de demande), il s’agit de la plus haute option disponible.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
+      <td role="rowheader">L’afficher</td> 
+      <td> <p>Possibilité d’afficher et de remplir le formulaire personnalisé sur les objets</p> <p><b>NOTE</b> : pour les titulaires d’une licence Contribution et Light (ou travail, révision et demande), il s’agit de l’option la plus élevée disponible.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
        <ul> 
         <li><strong>Joindre à des données personnalisées</strong> : possibilité de joindre un formulaire personnalisé aux projets, tâches et problèmes pour lesquels les personnes disposent d’autorisations de gestion.</li> 
-        <li> <p><strong>Partager</strong> : possibilité de partager le formulaire personnalisé avec d’autres personnes du système.</p> <p>Les utilisateurs disposant d’une licence légère ou de contributeur (ou d’une licence Work, Review ou Request) peuvent partager un formulaire personnalisé uniquement par le biais de l’API ou d’un rapport de formulaires personnalisés.</p> </li>
+        <li> <p><strong>Partager</strong> : possibilité de partager le formulaire personnalisé avec d’autres personnes du système.</p> <p>Les titulaires d’une licence Contribution ou Light (ou travail, révision ou demande) peuvent partager un formulaire personnalisé uniquement par le biais de l’API ou d’un rapport de formulaires personnalisés.</p> </li>
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Le gérer</td> 
-      <td> <p>Disponible uniquement pour les utilisateurs disposant d’une licence Standard ou Plan. </p> <p>En plus de pouvoir ajouter le formulaire aux objets pour lesquels ils disposent d’un accès en modification, les personnes peuvent également modifier entièrement le formulaire personnalisé, y compris ajouter, modifier et supprimer des champs.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
+      <td> <p>Disponible uniquement pour les personnes titulaires d’une licence de plan ou standard. </p> <p>En plus de pouvoir ajouter le formulaire aux objets pour lesquels ils disposent d’un accès en modification, les personnes peuvent également modifier entièrement le formulaire personnalisé, y compris ajouter, modifier et supprimer des champs.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
        <ul> 
         <li> <p><strong>Joindre à des données personnalisées</strong> : possibilité de joindre un formulaire personnalisé aux projets, tâches et problèmes pour lesquels les personnes disposent d’autorisations de gestion.</p> </li> 
         <li><strong>Supprimer</strong> : supprime le formulaire personnalisé du système.</li> 
@@ -145,17 +145,17 @@ Plutôt que de laisser un formulaire personnalisé au statut de partage par déf
     </tbody> 
    </table>
 
-1. (Facultatif) Répétez les étapes 5 à 6 pour ajouter d’autres noms à la liste et configurer leurs options.
-1. (Facultatif) Si vous souhaitez limiter l’accès au formulaire personnalisé (sur les objets auxquels il est associé) à ceux que vous avez spécifiés aux étapes précédentes, cliquez sur la flèche de liste déroulante sous **Qui a accès**, puis sélectionnez **Seules les personnes invitées peuvent accéder à**.
+1. (Facultatif) Répétez les étapes 5 et 6 pour ajouter d’autres noms à la liste et configurer leurs options.
+1. (Facultatif) Si vous souhaitez limiter l’accès au formulaire personnalisé (sur les objets auxquels il est associé) aux personnes que vous avez spécifiées aux étapes précédentes, cliquez sur la flèche de liste déroulante sous **Qui a accès**, puis sélectionnez **Accessible par les personnes invitées uniquement**.
 
-   Si vous changez d&#39;avis, vous pouvez sélectionner **Tout le monde dans le système peut voir**.
+   Si vous changez d’avis, vous pouvez sélectionner **Visible par tous dans le système**.
 
    >[!NOTE]
    >
    >* Lorsque vous affichez un formulaire personnalisé sur tout le système, vous autorisez uniquement les personnes à le consulter et à le remplir sur les objets auxquels ils sont affectés, et non à le joindre à d’autres objets. Vous pouvez accorder la possibilité de joindre le formulaire personnalisé à des objets à l’aide de l’option « Joindre aux données personnalisées », décrite à l’étape 6.
-   >* La plupart des entreprises souhaitent s’assurer que toutes les personnes du système peuvent remplir un formulaire personnalisé lorsqu’il est joint aux objets sur lesquels ils travaillent et afficher ses données dans les rapports. Si cela est vrai pour votre organisation, nous vous recommandons d’utiliser **Tous les utilisateurs du système peuvent afficher**. Lorsque l’option est configurée de cette manière, « Visible sur tout le système » s’affiche dans la boîte de dialogue :
+   >* La plupart des entreprises souhaitent s’assurer que toutes les personnes du système peuvent remplir un formulaire personnalisé lorsqu’il est joint aux objets sur lesquels ils travaillent et afficher ses données dans les rapports. Si votre entreprise est concernée, nous vous recommandons d’utiliser **Visible par tous dans le système**. Lorsque l’option est configurée de cette manière, « Visible sur tout le système » s’affiche dans la boîte de dialogue :
    >   
-   >![Partager le formulaire personnalisé](assets/share-custom-form-in-designer.png)
+   >![Partager un formulaire personnalisé](assets/share-custom-form-in-designer.png)
    >   
    >Si la confidentialité d’un formulaire personnalisé vous préoccupe, dans lequel les personnes peuvent saisir des données sensibles lorsqu’il est joint à certains objets, limitez le partage de ces *objets* plutôt que l’accès au formulaire lui-même.
 

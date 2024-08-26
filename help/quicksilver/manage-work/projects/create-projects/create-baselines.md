@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: create-projects
 title: Créer des références pour les projets
-description: Une ligne de base est un instantané de projet qui représente des éléments d’information clés inclus dans le plan initial du projet ou à tout moment pendant la durée du projet.
+description: Une référence est un instantané de projet qui représente des éléments d’information clés inclus dans le plan initial du projet ou à tout moment pendant la durée du projet.
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
 source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 7%
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 7%
 
 <!-- Audited: 12/2023 -->
 
-Une ligne de base est un instantané de projet qui représente des éléments d’information clés inclus dans le plan initial du projet ou à tout moment pendant la durée du projet.
+Une référence est un instantané de projet qui représente des éléments d’information clés inclus dans le plan initial du projet ou à tout moment pendant la durée du projet.
 
-Vous pouvez utiliser la ligne de base pour comparer ces informations du plan actuel au plan d’origine ou à tout autre moment dans le temps, afin d’identifier les tâches problématiques, les changements d’étendue et d’autres tendances au fil du temps.
+Tirez parti des références pour comparer les informations du plan actuel au plan d’origine, ou à tout autre moment dans le temps, afin d’identifier les tâches problématiques, la dégradation de la portée et d’autres tendances au fil du temps.
 
 ## Conditions d’accès
 
@@ -77,82 +77,82 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage des autorisations pour le projet ou version ultérieure pour afficher les lignes de base</p> <p>Gérer les autorisations du projet pour créer des lignes de base</p> </td> 
+   <td> <p>Autorisations d’affichage pour le projet ou supérieures, afin d’afficher les références</p> <p>Autorisations de gestion du projet, pour créer des références</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Pour plus d’informations sur les informations contenues dans ce tableau, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Observations relatives à l’utilisation des lignes de base
+## Remarques sur l’utilisation des références
 
-* Vous pouvez capturer plusieurs fois un instantané de la progression d’un projet au cours de sa durée de vie, créant ainsi plusieurs lignes de base.
-* Vous pouvez afficher les informations incluses dans les lignes de base d’un projet en créant une ligne de base ou en créant un rapport de ligne de base.
+* Vous pouvez capturer des instantanés d’un projet au cours de sa durée de vie afin de suivre sa progression, et créer ainsi plusieurs références.
+* Vous pouvez afficher les informations incluses dans les références d’un projet en créant une référence ou un rapport de référence.
 * Lorsque vous créez une référence, les informations de tâche sont également capturées sur les tâches de base de cette référence.
-* Vous pouvez afficher les informations des tâches de base en créant un rapport Tâche de ligne de base .
+* Vous pouvez consulter les informations sur les tâches de référence en créant un rapport de tâche de référence.
 
 >[!IMPORTANT]
 >
->Une ligne de base prend un instantané du nom, des dates et des informations financières du projet. La ligne de base n’inclut pas les valeurs des champs personnalisés du projet. Pour plus d’informations sur les informations financières incluses dans la ligne de base, reportez-vous à la section [Finance du projet inclus dans les lignes de base du projet](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>Une référence capture un instantané du nom, des dates et des informations financières du projet. La référence n’inclut pas les valeurs des champs personnalisés du projet. Pour plus d’informations sur les informations financières incluses dans la référence, voir [Informations financières du projet incluses dans les références du projet](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
-## Création d’une ligne de base
+## Créer une référence
 
-Vous pouvez créer une ligne de base comme suit :
+Pour créer une référence, procédez comme suit :
 
-* **Automatiquement** : votre administrateur Workfront ou un administrateur de groupe définit la préférence de projet pour Workfront afin de créer automatiquement une ligne de base lorsqu’un projet devient actuel. Lorsque ce paramètre est activé, une ligne de base est créée lorsque l’état du projet devient Actuel. Lorsque ce paramètre n’est pas activé, vous devez créer manuellement des lignes de base.
+* **Automatiquement** : votre administrateur ou administratrice Workfront ou de groupes définit les préférences de projet pour que Workfront crée automatiquement une référence lorsqu’un projet est actif. Lorsque ce paramètre est activé, une référence est créée lorsque le projet est actif. Lorsque ce paramètre n’est pas activé, vous devez créer manuellement des références.
 
-  Pour plus d’informations sur la configuration des préférences de projet et la configuration de la création automatique de la ligne de base, voir [ Configuration des préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Pour plus d’informations sur la configuration des préférences de projet et la configuration de la création automatique de références, consultez la section [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!CAUTION]
   >
-  >L’activation de ce paramètre crée automatiquement une ligne de base pour un projet chaque fois qu’un état de projet passe à Actuel. La première ligne de base créée est la ligne par défaut. Vous devez créer manuellement toutes les autres lignes de base pendant la durée du projet .
+  >L’activation de ce paramètre crée automatiquement une référence pour un projet chaque fois que le statut du projet passe à Actif. La première référence créée est celle par défaut. Vous devez créer manuellement toutes les autres références pendant la durée du projet.
 
-* **Manuellement** : vous pouvez créer de nouvelles lignes de base pour le projet au fur et à mesure que le projet progresse. Vous pouvez ensuite comparer des lignes de base pour voir l’évolution du projet au fil du temps.
+* **Manuellement** : vous pouvez créer de nouvelles références pour le projet au fur et à mesure de son évolution. Vous pouvez ensuite comparer des références pour suivre l’évolution du projet dans le temps.
 
-Pour créer une ligne de base :
+Pour créer une référence, procédez comme suit :
 
 1. Accédez à un projet.
-1. Dans le panneau de gauche, cliquez sur **Lignes de base**.
+1. Dans le panneau de gauche, cliquez sur **Références**.
 
    Ou
 
-   Cliquez sur **Afficher plus**, puis sur **Lignes de base**.
+   Cliquez sur **Afficher plus**, puis sur **Références**.
 
-   ![Section de base sur le projet](assets/baselines-section-on-project-with-header.png)
+   ![Section Références du projet](assets/baselines-section-on-project-with-header.png)
 
-1. Cliquez sur **Nouvelle ligne de base.**
-1. Indiquez le nom de la ligne de base.
-1. (Facultatif) S’il s’agit de la première ligne de base, vous pouvez la choisir comme valeur par défaut.
+1. Cliquez sur **Nouvelle référence.**
+1. Indiquez le nom de la référence.
+1. (Facultatif) S’il s’agit de la première référence, vous pouvez la choisir comme référence par défaut.
 1. Cliquer sur **Enregistrer**.
 
-   Par défaut, les informations suivantes s’affichent sur la ligne de base que vous avez créée :
+   Par défaut, les informations suivantes s’affichent sur la référence que vous avez créée :
 
-   * Nom de la ligne de base
-   * Date d’entrée de ligne de base
-   * Date de début planifiée du projet lorsque la ligne de base a été créée
-   * Date de début prévue du projet lorsque la ligne de base a été créée
-   * Durée réelle du projet lors de la création de la ligne de base
-   * % Terminé du projet lorsque la ligne de base a été créée
-   * Indicateur de ligne de base par défaut qui indique si une ligne de base est la ligne de base par défaut du projet.
+   * Nom de la référence
+   * Date de saisie de référence
+   * Date de début prévue pour le projet lorsque la référence a été créée.
+   * Date de début prévisionnelle pour le projet lorsque la référence a été créée.
+   * Durée réelle du projet lorsque la référence a été créée.
+   * % d’achèvement du projet lorsque la référence a été créée.
+   * Indicateur de référence par défaut qui indique si une référence est la référence par défaut du projet.
 
      >[!TIP]
      >
-     >Vous ne pouvez pas afficher les informations de deux lignes de base en même temps dans la même vue ou dans le même rapport. Vous pouvez uniquement afficher les informations d’une ligne de base donnée et de la ligne de base par défaut dans le même rapport. Vous pouvez modifier la ligne de base que vous considérez comme la ligne de base par défaut à tout moment pendant la durée du projet.
+     >Vous ne pouvez pas afficher les informations de deux références quelconques en même temps dans la même vue ou dans le même rapport. Vous pouvez uniquement afficher les informations d’une référence donnée et de la référence par défaut dans le même rapport. Vous pouvez modifier la référence que vous considérez être la référence par défaut à tout moment pendant la durée du projet.
 
-1. (Facultatif) Cliquez sur le bouton **Afficher** , puis créez une nouvelle vue ou modifiez la vue actuelle pour ajouter des champs à la vue et comparer des informations supplémentaires entre les lignes de base. Pour plus d’informations, voir [Création ou modification de vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. (Facultatif) Cliquez sur le bouton **Afficher**, puis créez une vue ou modifiez la vue actuelle pour lui ajouter des champs et comparer les informations supplémentaires entre les références. Pour plus d’informations, voir la section [Créer ou modifier des vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## Création d’un rapport de ligne de base ou de tâche de ligne de base
+## Créer un rapport de niveau de référence ou de tâche de référence
 
-Pour afficher des informations de base, vous pouvez également créer un rapport de ligne de base ou de tâche de ligne de base. Vous pouvez ainsi afficher un nombre indéfini de champs relatifs aux lignes de base ou aux tâches de base pour les comparer dans une vue.
+Pour afficher des informations de référence, vous pouvez également créer un rapport de niveau de référence ou de tâche de référence. Vous pouvez ainsi afficher n’importe quel nombre de champs relatifs aux références ou aux tâches de référence pour les comparer dans une vue.
 
 >[!TIP]
 >
->Vous devez créer une ligne de base avant de pouvoir créer un rapport de ligne de base ou de tâche de ligne de base.
+>Vous devez créer une référence avant de pouvoir créer un rapport de niveau de référence ou de tâche de référence.
 
 Pour plus d’informations sur la création d’un rapport, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Nous vous recommandons d’ajouter un regroupement Nom de projet à votre rapport Tâche de ligne de base ou Tâche de ligne de base afin de faciliter la lecture.
+Nous vous recommandons d’ajouter un regroupement Nom de projet à votre rapport de référence ou de tâche de référence afin de faciliter la lecture.
 
-Pour plus d’informations sur la création d’un groupement, voir [Création de groupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+Pour plus d’informations sur la création d’un regroupement, voir la section [Créer des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

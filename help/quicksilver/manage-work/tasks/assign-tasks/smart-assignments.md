@@ -10,7 +10,7 @@ exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
 source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -128,7 +128,7 @@ Le calcul du score de similarité et l’ordre dans lequel les affectations sont
 
   Par exemple, si Rémy a été affecté à une tâche similaire plus tôt aujourd’hui et qu’Ingrid a été affectée à une tâche similaire il y a deux jours, Rémy s’affiche en premier.
 
-* Les affectations identifiées dans cette phase sont répertoriées dans la section    **Affectations proposées** du champ Affectations pour les tâches.
+* Les affectations identifiées dans cette phase sont répertoriées dans la section **Affectations suggérées** du champ Affectations des tâches.
 
 * S’il n’existe aucune correspondance utilisant ce calcul, la deuxième phase des affectations intelligentes commence, qui est calculée à l’aide d’un autre algorithme.
 
@@ -140,14 +140,14 @@ Si la première étape des affectations intelligentes de tâche n’a trouvé au
 
 Pour plus d’informations, voir la section [Critères d’affectation intelligente pour les tâches et les problèmes](#smart-assignments-criteria-for-tasks-and-issues) de cet article.
 
-Les affectations identifiées au cours de cette phase sont répertoriées dans les sections **Utilisateurs et équipes**, **Affectations de rôles de tâche** et <span class="preview">**Taux des rôles de carte**</span> du champ Affectations. <span class="preview">Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Les affectations identifiées dans cette phase sont répertoriées dans les sections Utilisateurs, utilisatrices et équipes, Affectations de fonctions et Rôles de carte tarifaire du champ Affectations. ********<span class="preview">****</span> <span class="preview">Pour plus d’informations sur les cartes de taux, voir [Gestion des cartes de taux](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Critères d’affectation intelligente pour les tâches et les problèmes
 
 
 >[!NOTE]
 >
->Les critères suivants s’appliquent aux tâches uniquement lorsque la première phase du calcul d’affectation dynamique de tâche n’a trouvé aucune correspondance. Pour plus d’informations, voir la section [Première phase de calcul de l’affectation intelligente pour les tâches](#first-phase-of-smart-assignment-calculation-for-tasks) de cet article. Par défaut, les critères suivants s’appliquent toujours aux problèmes.
+>Les critères suivants s’appliquent aux tâches uniquement lorsque la première phase du calcul d’affectation dynamique de tâche n’a trouvé aucune correspondance. Pour plus d’informations, voir la section Première phase de calcul de l’affectation intelligente pour les tâches de cet article. [](#first-phase-of-smart-assignment-calculation-for-tasks) Par défaut, les critères suivants s’appliquent toujours aux problèmes.
 
 ![](assets/smart-assignments-issue-header.png)
 
