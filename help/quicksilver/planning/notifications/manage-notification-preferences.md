@@ -1,34 +1,98 @@
 ---
-title: Gestion des préférences de notification Adobe Workfront Planning
+title: Gérer les préférences de notification d’Adobe Workfront Planning
 description: Vous pouvez gérer vos préférences de notification pour Adobe Workfront Planning. Cet article décrit comment configurer vos préférences de notification.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 22%
+source-wordcount: '363'
+ht-degree: 29%
 
 ---
 
-# Gestion des préférences de notification Adobe Workfront Planning
+
+# Gérer les préférences de notification d’Adobe Workfront Planning
 
 {{planning-important-intro}}
 
 Lorsqu’une personne vous ajoute à un commentaire sur la page d’enregistrement, vous recevez un message in-app ainsi qu’une notification par e-mail concernant le commentaire.
 
->[!IMPORTANT]
->
->Votre entreprise doit être un client Adobe Unified Experience pour pouvoir recevoir des notifications de Workfront Planning.
->
->Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
 ## Conditions d’accès
 
-<!--ensure this is truly 'Any' license when we go to GA-->
-
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
+
+Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produits</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td> 
+<p>L’un des projets Workfront suivants est prévu :</p> 
+<ul><li>Sélectionner</li> 
+<li>Principal</li> 
+<li>Final</li></ul> 
+<p>La planification Workfront n’est pas disponible pour les plans Workfront hérités</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
+   <td> 
+<p>N’importe quelle </p> 
+<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
+   <td> 
+<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
+   <td><p><p>Standard, Clair ou Contributeur
+   <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Autorisations d’objet</p></td> 
+   <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Modèle de disposition</p></td> 
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--
+
+OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -39,51 +103,50 @@ Lorsqu’une personne vous ajoute à un commentaire sur la page d’enregistreme
     <tr>
 <tr>
 <td>
-   <p> Produit</p> </td>
+   <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> 
-   <p>Pour recevoir des notifications in-app de la planification Workfront et gérer les préférences de notification, l’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
+   <p> Adobe Workfront</p> 
+   <p>In order to receive in-app notifications from Workfront Planning and manage notification preferences, your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
- <td role="rowheader"><p>Accord Adobe Workfront</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Votre entreprise doit être inscrite à l’étape d’accès anticipé pour la planification Workfront </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Forfait Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>N’importe quelle</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
-   <p>N’importe quelle</p> 
+   <p>Any</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès dans Workfront Planning. </p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls in Workfront Planning. </p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Autorisations</p></td>
-   <td> <p>Autorisations d’affichage ou supérieures pour un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Votre administrateur ou administratrice Workfront ou de groupes doit ajouter la zone Planning dans votre modèle de disposition. Pour plus d’informations, voir <a href="/help/quicksilver/planning/access/access-overview.md">Vue d’ensemble des accès</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
-
-+++
+-->
 
 ## Gestion des préférences de notification
 
@@ -100,7 +163,7 @@ Pour plus d’informations sur les notifications Workfront Planning, consultez �
 
 
 
-<!--replace the first section of this article with this; also remove the IMPORTANT at the top to require Unified Experience - below - when BOTH IMS and non-IMS customers will receive notifications: 
+<!--OLD: notifications are not available to non-IMS customers: 
 
 When someone adds you to a comment in the record page, you may receive an in-app as well as an email notification about the comment. 
 

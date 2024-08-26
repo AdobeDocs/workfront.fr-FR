@@ -1,18 +1,21 @@
 ---
-title: "Adobe Workfront Planification - Informations générales : index de l’article"
+title: "Informations générales de la planification Adobe Workfront : index de l’article"
 description: En tant que personne responsable des opérations marketing, vous pouvez utiliser Adobe Workfront Planning pour organiser le travail de toutes vos équipes au cours du cycle de vie marketing. Les articles de cette section décrivent les concepts généraux de la planification Workfront, les bonnes pratiques pour la mettre en oeuvre et vous donnent un aperçu de certaines des fonctionnalités actuellement disponibles.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 29%
+ht-degree: 33%
 
 ---
 
-# Adobe Workfront Planning - Informations générales : index des articles
+
+
+# Informations sur Adobe Workfront Planning : index des articles
 
 En tant que personne responsable des opérations marketing, vous pouvez utiliser Adobe Workfront Planning pour organiser le travail de toutes vos équipes au cours du cycle de vie marketing. Les articles de cette section décrivent les concepts généraux de la planification Workfront, les bonnes pratiques pour la mettre en oeuvre et vous donnent un aperçu de certaines des fonctionnalités actuellement disponibles.
 
@@ -22,8 +25,8 @@ Consultez les articles suivants :
 * [Présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Principes de base des API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Présentation des limites des objets de la planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md)
-* [Activité de mise à jour en cours de la planification Adobe Workfront](/help/quicksilver/planning/general/release-activity.md)
-* [Archives de l’activité de planification Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Activité de mise à jour du calendrier Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md)
+* [Activité de mise à jour du calendrier Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Présentation des limites des objets de la planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md)
 
 

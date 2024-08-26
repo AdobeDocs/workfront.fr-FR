@@ -1,18 +1,20 @@
 ---
-title: Archives de l’activité de planification Adobe Workfront pour 2023
+title: Activité de publication de la planification Adobe Workfront pour 2023
 description: Les fonctionnalités d’Adobe Workfront Planning sont actuellement disponibles pour un nombre limité de clientes et de clients Workfront. Consultez régulièrement cet article pour en savoir plus sur les dernières fonctionnalités de planification publiées.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2950'
 ht-degree: 94%
 
 ---
 
 
-# Archives de l’activité de planification Adobe Workfront pour 2023
+# Activité de mise à jour du calendrier Adobe Workfront pour 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -20,24 +22,21 @@ ht-degree: 94%
 >
 >Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle offre d’Adobe Workfront.
 >
->Actuellement, Workfront Planning est à un stade d’accès anticipé, ouvert à un nombre limité de clients.
+>Vous devez acheter un plan de planification Workfront, en plus d’un plan Workfront, pour pouvoir accéder aux fonctionnalités de planification Workfront et les utiliser.
 >
->Vous devez être une cliente ou un client Workfront pour utiliser ces fonctionnalités.
->
->Si vous participez à cette étape, le représentant du compte vous en informera.
->
->Pour plus d’informations, voir [Vue d’ensemble d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir la liste complète des exigences d’accès à la planification Workfront, consultez la [présentation des accès](/help/quicksilver/planning/access/access-overview.md).
+>Pour une présentation de la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Cet article répertorie les fonctionnalités qui ont été publiées après le lancement du programme de planification Adobe Workfront, le 22 mai 2023 pour l’année 2023.
+Cet article répertorie les fonctionnalités qui ont été publiées en 2023 après le lancement du programme de planification Adobe Workfront, le 22 mai 2023.
 
-Pour plus d’informations sur les fonctionnalités publiées en 2024, voir [Activité de mise à jour en cours de la planification Adobe Workfront](/help/quicksilver/planning/general/release-activity.md).
+Pour plus d’informations sur les activités de mise à jour, voir également les articles suivants :
 
-Les fonctionnalités publiées sont répertoriées par ordre de publication, avec la version la plus récente en premier. Les clients qui participent au programme de planification Workfront peuvent accéder à toutes les fonctionnalités de leurs environnements de production.
+* [Activité de mise à jour de la planification Adobe Workfront : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) : pour plus d’informations sur l’activité de mise à jour actuelle de la planification Workfront.
 
-Entre mai 2023 et décembre 2023, toutes les fonctionnalités de cet article ont été publiées dans l’environnement Aperçu et Production.
+* [Activité de mise à jour de la planification Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md) : pour plus d’informations sur les fonctionnalités publiées en 2024, avant le lancement le 28 août 2024.
 
-La planification Workfront a été temporairement supprimée des environnements Aperçu et Sandbox depuis janvier 2024. Toutes les fonctionnalités documentées dans ces articles sont actuellement disponibles dans Production.
+Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier.
 
 ## Semaine du 25 décembre 2023
 

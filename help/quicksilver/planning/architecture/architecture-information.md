@@ -1,30 +1,17 @@
 ---
-title: '« Architecture : index des articles »'
+title: "Architecture : index de l’article"
 description: Les articles suivants décrivent comment configurer l’architecture d’Adobe Workfront Planning. Dans le cadre de cette configuration, vous découvrez comment créer des espaces de travail, des types d’enregistrements et des champs personnalisés pour mapper les workflows que vous souhaitez gérer dans Workfront Planning.
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 95%
 
 ---
 
-<!--
----
-title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User, Admin
-hide: yes
----
--->
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Architecture : index des articles
 
@@ -41,7 +28,7 @@ Les articles présentés dans les sections suivantes décrivent comment configur
 * [Présentation des espaces de travail](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md)
-* [Types d’enregistrement - Aperçu](/help/quicksilver/planning/architecture/overview-of-record-types.md)
+* [Vue d’ensemble des types d’enregistrement](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md)
 * [Modifier des types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [Types d’enregistrement connectés - Aperçu](/help/quicksilver/planning/architecture/connect-record-types-overview.md)

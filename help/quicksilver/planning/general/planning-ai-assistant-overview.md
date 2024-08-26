@@ -1,35 +1,22 @@
 ---
-title: Présentation de l’assistant de planification Adobe Workfront AI
+title: Présentation de l’assistant de planification AI d’Adobe Workfront
 description: Vous pouvez utiliser l’assistant d’IA pour générer, mettre à jour ou supprimer des enregistrements en fonction du contexte de page et de la structure d’enregistrement actuels. Les commandes de l’utilisateur et l’exécution de ces commandes par l’IA fonctionnent ensemble pour garantir que les modifications apportées par l’IA sont reflétées avec précision dans votre environnement.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 6%
+source-wordcount: '588'
+ht-degree: 5%
 
 ---
 
+
 # Présentation de l’assistant de planification Adobe Workfront AI
 
-<!-- update metadata above at GA-->
-
->[!IMPORTANT]
->
-><span class="preview">L’assistant Workfront AI a été temporairement supprimé et sera disponible ultérieurement.</span>
->Les informations de cet article se rapportent à la planification Adobe Workfront et à l’assistant Workfront AI (version bêta), qui sont de nouvelles offres d’Adobe Workfront.
->
->Actuellement, Workfront Planning est en phase d’accès anticipé et l’assistant Workfront AI est en phase bêta.
->
->La planification de Workfront et l’assistant d’IA (version bêta) sont ouverts à un nombre limité de clients.
->
->Vous devez être une cliente ou un client Workfront pour utiliser ces fonctionnalités.
->
->Si vous participez à cette étape, le représentant du compte vous en informera.
->
->Pour plus d’informations, voir [Vue d’ensemble d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+{{planning-important-intro}}
 
 Vous pouvez utiliser l’assistant d’IA pour générer, mettre à jour ou supprimer des enregistrements en fonction du contexte de page et de la structure d’enregistrements actuels.
 
@@ -37,7 +24,8 @@ Les commandes de l’utilisateur et l’exécution de ces commandes par l’IA f
 
 ## Remarques concernant l’assistant d’IA
 
-* Par défaut, l’assistant d’IA est disponible pour l’administrateur Workfront principal. Pour plus d’informations, voir [Configuration des informations de base pour votre système](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* L’assistant d’IA doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre entreprise. Pour plus d’informations, voir [Présentation de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+* Une fois que Workfront a activé l’assistant d’IA pour votre organisation, il est disponible pour l’administrateur Workfront principal. Pour plus d’informations, voir [Configurer les informations de base de votre système](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * L’administrateur Workfront doit activer l’assistant d’IA pour tous les autres utilisateurs. Pour plus d’informations, voir [Activation ou désactivation de l’assistant d’IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
@@ -71,7 +59,7 @@ Pour le moment, vous pouvez utiliser l’assistant d’IA pour effectuer les act
 * Supprimer des enregistrements
 * Restaurer les enregistrements que vous venez de supprimer
 
-## Accès à l’assistant d’IA
+## Accès à l’assistant d’IA dans la zone Planification
 
 1. Connectez-vous à Workfront, puis accédez à la zone **Planning**.
 

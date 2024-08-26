@@ -1,30 +1,17 @@
 ---
-title: '« Vues : index des articles »'
+title: "Vues : Index de l’article"
 description: Vous pouvez afficher les enregistrements Adobe Workfront Planning dans un tableau, une chronologie ou un calendrier. Les articles suivants décrivent comment créer et gérer des vues d’enregistrement Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
-<!--
----
-title: "Views: article index"
-description: You can display Adobe Workfront Planning records in a table, timeline, or calendar view. The following articles describe how you can create and manage Adobe Workfront Planning record views.
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User
-hide: yes
----
--->
-
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # Vues : index des articles
 

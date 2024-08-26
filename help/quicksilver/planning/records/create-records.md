@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
 source-wordcount: '1336'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -26,6 +26,7 @@ Vous pouvez créer des enregistrements en effectuant l’une des opérations sui
 * Copier et coller une liste d&#39;enregistrements d&#39;une liste externe
 * Les dupliquer
 * Créez-les au fur et à mesure que vous les connectez à partir d&#39;autres enregistrements
+  <!--* Create them by submitting a request form-->
 
 Cet article décrit comment créer des enregistrements.
 
@@ -75,7 +76,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
 <p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -200,7 +201,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
      Workfront télécharge automatiquement une miniature et une image de couverture vers chaque nouvel enregistrement. Vous pourrez modifier ces images ultérieurement. Pour plus d’informations, voir les articles suivants :
 
-      * [Ajout d’une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+      * [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
       * [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 1. Commencez à saisir des informations sur le nouvel enregistrement dans les champs que vous voyez dans la zone d’aperçu.
@@ -311,3 +312,13 @@ Pour créer des enregistrements lors de leur connexion à partir d&#39;autres en
 Ou
 Cliquez sur son nom pour ouvrir la page de détails et y ajouter des informations.
 
+<!--
+## Create records by submitting a request form
+
+After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+
+For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->

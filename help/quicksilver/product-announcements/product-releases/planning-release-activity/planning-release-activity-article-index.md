@@ -1,32 +1,17 @@
 ---
-title: "Activité de publication de la planification Adobe Workfront : index de l’article"
-description: Il s’agit d’une liste d’articles qui documentent l’activité de publication du produit Adobe Workfront Planning.
-recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
-workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 13%
-
----
-
-
-
-<!--update metadata:
----
 content-type: release-notes
-title: "Adobe Workfront Planning Release Activity: Article Index"
-description: This is the release activity for the Adobe Workfront Planning product. 
+title: "Activité de publication de la planification Adobe Workfront : index de l’article"
+description: Il s’agit de l’activité de mise à jour du produit Adobe Workfront Planning .
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
----
- -->
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 11%
 
-<!--add to TOC and miniTOC-->
+---
+
 
 # Activité de mise à jour de la planification Adobe Workfront : index des articles
 
@@ -42,6 +27,13 @@ hide: yes
 >Pour une présentation de la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Cet article contient une liste des notes de mise à jour sur l’activité du produit Adobe Workfront Planning.
+Cet article contient la liste des articles sur l’activité de publication du produit Adobe Workfront Planning.
 
 * [Activité de mise à jour du quatrième trimestre 2024 pour la planification Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+
+<!-- remove this after 25.1 and consider removing the pages too-->
+
+Pour obtenir la liste de toutes les fonctionnalités publiées avant la mise à disposition générale le 28 août 2024, consultez les articles suivants :
+
+* [Activité de mise à jour du calendrier Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md)
+* [Activité de mise à jour du calendrier Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)

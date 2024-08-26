@@ -1,19 +1,18 @@
 ---
-title: Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning
-description: Vous pouvez partager ou supprimer des autorisations sur un espace de travail ou une vue Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
+title: Présentation des autorisations de partage dans la planification Adobe Workfront
+description: Tous les utilisateurs de l’organisation ne disposent pas des mêmes droits d’accès et autorisations pour utiliser Adobe Workfront Planning. Cet article décrit des informations générales sur le partage ou la suppression d’autorisations dans un espace de travail ou une vue Adobe Workfront Planning.
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 46%
+source-wordcount: '867'
+ht-degree: 43%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
@@ -156,7 +155,7 @@ Vous devez autoriser les utilisateurs à accéder aux vues pour leur permettre d
 * Filtres
 * Visibilité du champ
 * Trier
-* Regroupement 
+* Regroupement
 * Hauteur de ligne
 * Paramètres
 
@@ -178,8 +177,6 @@ Voici les niveaux d’autorisation des vues et des éléments d’affichage :
 | Appliquer | ✓ |
 
 *Les utilisateurs doivent disposer d’autorisations d’affichage ou supérieures pour accéder à un espace de travail.
-
-
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |

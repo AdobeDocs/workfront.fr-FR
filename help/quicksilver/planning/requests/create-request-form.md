@@ -1,23 +1,25 @@
 ---
-title: Création d’un formulaire de demande dans Adobe Workfront Planning
-description: Après avoir sélectionné un type d’enregistrement dans la zone de planification Adobe Workfront, vous pouvez créer un formulaire de demande associé à ce type d’enregistrement et partager un lien avec celui-ci avec d’autres utilisateurs internes ou externes.
+title: Création et gestion d’un formulaire de requête dans Adobe Workfront Planning
+description: Après avoir sélectionné un type d’enregistrement dans la zone de planification Adobe Workfront, vous pouvez créer un formulaire de demande et l’associer à ce type d’enregistrement. Vous pouvez ensuite partager un lien vers ce lien avec d’autres utilisateurs internes ou externes. Les utilisateurs disposant d’un lien vers le formulaire peuvent renseigner les valeurs de champ qu’il contient et en l’envoyant, ils peuvent ajouter un nouvel enregistrement pour le type d’enregistrement qui lui est associé.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 20%
+source-wordcount: '1101'
+ht-degree: 16%
 
 ---
 
-# Création d’un formulaire de demande dans Adobe Workfront Planning
+# Création et gestion d’un formulaire de requête dans Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
 Après avoir sélectionné un type d’enregistrement dans la zone de planification Adobe Workfront, vous pouvez créer un formulaire de demande et l’associer à ce type d’enregistrement. Vous pouvez ensuite partager un lien vers ce lien avec d’autres utilisateurs internes ou externes. <!--double-check on the external part of it-->
+
+Les utilisateurs disposant d’un lien vers le formulaire peuvent renseigner les valeurs de champ qu’il contient et en l’envoyant, ils peuvent ajouter un nouvel enregistrement pour le type d’enregistrement qui lui est associé.
 
 ## Conditions d’accès
 
@@ -52,13 +54,14 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr>
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td>
    <td>
-<p>N’importe quelle </p>   </td>
+<p>N’importe quelle </p>  
+<p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </td>
 
 <tr>
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
 <p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p>
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
    </td>
 
 </tr>
@@ -117,31 +120,76 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
 1. Cliquez sur **Créer**. Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre.
 
+   ![](assets/campaigns-request-form-edit-mode.png)
+
    Le formulaire de demande contient les informations suivantes, par défaut :
 
+   * Tous les champs d’enregistrement disponibles dans la vue de tableau du type d’enregistrement sélectionné.
    * **Section par défaut** : il s’agit du saut de section par défaut appliqué par Workfront au formulaire de demande. La section Par défaut ne peut pas être renommée ni supprimée.
    * **Objet** : champ qui identifie la demande dans Workfront. Cette fonctionnalité n’est pas encore disponible.
    * Tous les champs associés au type d&#39;enregistrement.
 
    Les champs contenus dans le formulaire de demande seront visibles par tous ceux qui envoient une demande à ce type d’enregistrement.
 
-1. (Facultatif) Supprimez le champ **Objet**, car celui-ci n’est pas visible dans la planification Workfront. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Pointez sur les champs du formulaire à supprimer. Ils sont ajoutés à l’onglet **Champs** sur le côté gauche du formulaire.
-1. Cliquez sur un champ, puis utilisez les commandes situées à droite du formulaire pour définir les informations suivantes sur les champs :
+1. (Facultatif) Pointez sur les champs du formulaire que vous souhaitez supprimer, puis cliquez sur l’icône **x** pour les supprimer. Ils sont ajoutés à l’onglet **Champs** situé à gauche du formulaire.
+
+   Par exemple, supprimez le champ **Objet**, car celui-ci n’est pas visible dans la planification Workfront. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. Cliquez sur n’importe quel champ, puis utilisez les commandes situées à droite du formulaire pour définir sa taille, ou n’importe laquelle des informations suivantes concernant les champs :
 
    * **Libellé** : il s’agit du nom du champ tel qu’il apparaîtra sur le formulaire de demande. Cela ne modifie pas le nom du champ d’enregistrement.
    * **Instructions** : ajoutez des informations supplémentaires sur le champ.
    * **Créer un champ obligatoire** : lorsque cette option est sélectionnée, le champ doit avoir une valeur. Sinon, le formulaire ne peut pas être envoyé.
    * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué.
 
-1. Cliquez sur l’onglet Eléments de contenu situé à droite du formulaire, puis ajoutez l’un des éléments suivants :
+1. (Facultatif) Cliquez sur l’onglet **Eléments de contenu** sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
 
-   * Texte descriptif
-   * Saut de section
+   * **Texte descriptif**
+   * **Saut de section**
 
    Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+1. (Facultatif) Cliquez sur **Aperçu** pour afficher comment le formulaire s’affichera pour les autres utilisateurs lorsqu’ils l’utiliseront pour envoyer un nouvel enregistrement.
+1. Cliquez sur **Publish** pour publier le formulaire et obtenir un lien unique.
 
+   Les événements suivants se produisent :
+
+   * Le bouton Publish est supprimé.
+   * Le bouton **Annuler la publication** est ajouté au formulaire. Si vous cliquez dessus, le formulaire n’est pas accessible.
+   * Un bouton **Partager** est ajouté au formulaire.
+
+1. Cliquez sur **Partager** pour partager le formulaire avec d’autres personnes.
+
+   ![](assets/share-box-for-request-form.png)
+
+1. Sélectionnez l’une des options suivantes pour indiquer quels types d’utilisateurs peuvent accéder à ce formulaire :
+
+   * Toute personne disposant d’un accès en affichage ou supérieur à l’espace de travail
+   * Toute personne disposant d’un accès en contribution ou supérieur à l’espace de travail
+   * Toute personne disposant du lien
+
+   >[!IMPORTANT]
+   >
+   >Lorsque vous sélectionnez N’importe qui avec le lien, toute personne, même toute personne en dehors de votre entreprise sans compte Workfront, peut accéder au formulaire et envoyer un nouvel enregistrement.
+
+1. (Conditionnel) Si vous avez sélectionné **Toute personne ayant le lien** à l’étape précédente, sélectionnez la **date d’expiration du lien** dans le calendrier disponible. Une erreur s’affichera lorsque le lien arrivera à expiration. Vous devrez mettre à jour la date du lien pour pouvoir accéder à nouveau au formulaire.  <!--add info here about how long the expiration date should be; logged bug-->
+
+1. Cliquez sur **Enregistrer et copier le lien** pour enregistrer les détails de partage pour le formulaire.
+
+   Les options de partage de formulaire sont enregistrées et le lien est copié dans le presse-papiers. Vous pouvez maintenant le partager avec d’autres personnes.
+
+   Pour plus d’informations sur la création d’enregistrements à l’aide d’un lien vers un formulaire de demande, voir [Soumettre des demandes de planification Adobe Workfront](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Cliquez sur **Enregistrer** dans le coin inférieur droit de l’écran pour enregistrer le formulaire.
+1. Cliquez sur la flèche pointant vers la gauche située à gauche du nom du formulaire dans l’en-tête pour fermer le formulaire.
+
+   La page du type d’enregistrement s’ouvre.
+1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom du type d’enregistrement dans l’en-tête, puis effectuez l’une des opérations suivantes :
+   * Cliquez sur **Mettre à jour le formulaire de demande** pour apporter des modifications au formulaire de demande.
+   * Cliquez sur **Copier le lien vers le formulaire de demande** pour partager le lien vers le formulaire avec d’autres personnes.
+
+   >[!TIP]
+   >
+   >Il y a une indication que le lien est partagé publiquement lorsque c&#39;est le cas.
 
 
 

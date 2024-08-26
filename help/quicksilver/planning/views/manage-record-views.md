@@ -1,20 +1,20 @@
 ---
 title: Gérer les vues d’enregistrement
 description: Vous pouvez afficher les enregistrements dans une vue de tableau, chronologique ou de calendrier lors de l’utilisation d’Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 74%
+source-wordcount: '1212'
+ht-degree: 76%
 
 ---
 
-# Gérer les vues d’enregistrement
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Gérer les vues d’enregistrement
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Cet article présente les informations suivantes sur les vues d’enregistrement
 
 
 ## Conditions d’accès
-
-<!--Updated for GA-->
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
@@ -81,13 +79,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
 <p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td> <ul><li><p>Tout, pour afficher les informations de la planification Workfront</p></li>
+   <td> <ul><li><p>Standard, Clair ou Contributeur, pour afficher les informations de la planification Workfront</p></li>
    <li><p>Standard, pour créer des espaces de travail</p></li></ul>
    <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
