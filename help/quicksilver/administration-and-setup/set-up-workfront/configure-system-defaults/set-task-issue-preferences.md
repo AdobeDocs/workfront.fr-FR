@@ -118,7 +118,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader" [!UICONTROL>Lors de la conversion d’un problème en tâche]</td> 
+    <td role="rowheader">[!UICONTROL Lors de la conversion d’un problème en tâche]</td> 
     <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion d’un problème en tâche :</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task] : lors de la conversion d’un problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. </strong> Le statut du problème passe automatiquement à [!UICONTROL Closed] lorsque la tâche est terminée. Lorsque cette option est désélectionnée, le problème est supprimé.</p> <p><b>NOTE</b> :  <p>Les utilisateurs et les utilisatrices qui n’ont pas l’accès ou les autorisations nécessaires pour supprimer des problèmes ne pourront pas supprimer le problème pendant la conversion, quel que soit le statut de ce paramètre. Pour plus d’informations sur l’accès et les autorisations relatives aux problèmes, consultez ce qui suit :</p> 
