@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '939'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ Certaines lignes contiennent des informations intitulées &quot;Nouveau&quot; et
    <td role="rowheader">Forfait Adobe Workfront</td> 
    <td> Les plans Adobe Workfront se rapportent à l’ensemble des fonctionnalités achetées par votre entreprise. La plupart des fonctionnalités de Workfront sont disponibles dans tous les plans, à quelques exceptions près, notamment en ce qui concerne la planification stratégique et les contrôles d’entreprise. 
    <ul><li>Pour savoir quel plan Adobe Workfront votre organisation utilise, y compris si votre organisation est basée sur le modèle de package actuel ou nouveau, contactez votre administrateur Workfront.</li>
-   <li>Pour plus d’informations sur la façon dont un administrateur Workfront peut localiser le plan Workfront de votre entreprise, voir <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Affichage de la grappe de votre entreprise et du plan Workfront</a>.</li></ul> </td> 
+   <li>Pour plus d’informations sur la façon dont un administrateur Workfront peut localiser le plan Workfront de votre entreprise, voir <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Affichage de la grappe de votre entreprise et du plan Workfront</a>.</li><li>Pour plus d’informations sur les nouveaux plans Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
