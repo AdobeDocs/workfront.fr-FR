@@ -225,9 +225,8 @@ Vous pouvez partager des vues que vous avez créées ou des vues auxquelles vous
 
    La vue se met à jour avec une icône de personnes ![](assets/view-shared-with-others-people-icon.png) pour indiquer que la vue est désormais partagée avec d’autres utilisateurs.
 
-   >>
-   [!TIP]
-   >>
+   >[!TIP]
+   >
    Les vues sans personne ou icône globale sont des vues que vous avez créées et que vous ne partagez pas avec d’autres personnes. Les vues non partagées ne sont visibles que par vous.
 
 1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à la page du type d’enregistrement et l’afficher dans la vue sélectionnée.
@@ -269,8 +268,7 @@ Pour partager une vue publiquement dans Workfront Planning :
 
    La vue se met à jour avec une icône globale ![](assets/public-shared-view-icon-highlighted.png) pour indiquer que la vue est partagée publiquement.
 
-   >>
-   [!TIP]
+   >[!TIP]
    >
    >Les vues sans personne ou icône globale sont des vues que vous avez créées et que vous ne partagez pas avec d’autres personnes. Les vues non partagées ne sont visibles que par vous.
 
