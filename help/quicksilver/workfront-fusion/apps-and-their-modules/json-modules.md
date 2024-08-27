@@ -8,10 +8,10 @@ description: L’application JSON Adobe Workfront Fusion fournit des modules pou
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ L’application [!DNL Adobe Workfront Fusion] [!UICONTROL JSON] fournit des modu
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,17 +38,17 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigences de licence actuelle: aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
-   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait  [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter  et  pour utiliser les fonctionnalités décrites dans cet article. [!DNL Adobe Workfront][!DNL Adobe Workfront Fusion][!DNL Adobe Workfront]. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -88,7 +88,7 @@ Si le champ de chaîne JSON contient une collection `{ ... }`, la sortie est un 
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Si le champ de chaîne JSON contient un tableau `[ ... ]`, la sortie est une sé
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -119,7 +119,7 @@ Si le champ de chaîne JSON contient un tableau `[ ... ]`, la sortie est une sé
 
 ## Modules [!UICONTROL JSON] et leurs champs
 
-Lorsque vous configurez des modules [!DNL JSON], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En outre, d’autres champs JSON peuvent s’afficher, en fonction de facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez des [!DNL JSON]modules ,[!DNL Workfront Fusion]  affiche les champs répertoriés ci-dessous. En outre, d’autres champs JSON peuvent s’afficher, en fonction de facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
 Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -152,11 +152,11 @@ Ce module d’agrégation regroupe la sortie d’un module précédent dans JSON
    <td> <p> Indiquez si vous souhaitez mettre le fichier JSON en retrait à l’aide d’onglets, de deux espaces ou de quatre espaces.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Groupe [!UICONTROL par]</td> 
+   <td role="rowheader">[!UICONTROL Group by]</td> 
    <td>Définissez une expression selon laquelle vous souhaitez regrouper la sortie agrégée. Cette expression peut contenir un ou plusieurs éléments mappés. Les données agrégées sont ensuite séparées en groupes à l’aide de la valeur de cette expression. Chaque groupe génère un lot distinct avec une clé (l’expression évaluée) et une valeur (le texte agrégé). Vous pouvez utiliser la clé comme filtre dans les modules suivants.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Arrêter le traitement après une agrégation vide]</td> 
+   <td role="rowheader">[!UICONTROL Stop processing after an empty aggregation]</td> 
    <td>Activez cette option pour arrêter le scénario lorsqu’il n’y a aucun résultat.</td> 
   </tr> 
  </tbody> 
@@ -239,26 +239,26 @@ Ce module d’action transforme un objet en chaîne json.
 1. Connectez-vous au module [!UICONTROL JSON] > [!UICONTROL Créer JSON] après le module [!UICONTROL Agrégateur de tableau]. La configuration du module nécessite une structure de données qui décrit le format JSON. Cliquez sur **[!UICONTROL Ajouter]** pour ouvrir la configuration de la structure de données. La méthode la plus simple pour créer cette structure de données consiste à la générer automatiquement à partir d’un exemple JSON. Cliquez sur **[!UICONTROL Generator]** et collez votre exemple JSON dans le champ **[!UICONTROL Sample data]** :
 >
 **Exemple :**
->   
->```
->{
 >
->"books": [
->
->{
->
->"id": "ID",
->
->"title": "Title",
->
->"author": "Author"
->
->}
->
->]
->
->}
->```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Cliquer sur **[!UICONTROL Enregistrer]**. Le champ [!UICONTROL Spécification] de la structure de données contient désormais la structure générée.
 1. Remplacez le nom de votre structure de données par quelque chose de plus spécifique et cliquez sur **[!UICONTROL Enregistrer]**. Un champ correspondant à l’attribut de tableau racine apparaît comme champ mappable dans la configuration du module JSON.

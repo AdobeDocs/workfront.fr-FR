@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 34%
@@ -227,7 +227,7 @@ Vous pouvez partager des vues que vous avez créées ou des vues auxquelles vous
 
    >[!TIP]
    >
-   Les vues sans personne ou icône globale sont des vues que vous avez créées et que vous ne partagez pas avec d’autres personnes. Les vues non partagées ne sont visibles que par vous.
+   >Les vues sans personne ou icône globale sont des vues que vous avez créées et que vous ne partagez pas avec d’autres personnes. Les vues non partagées ne sont visibles que par vous.
 
 1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à la page du type d’enregistrement et l’afficher dans la vue sélectionnée.
 
@@ -237,7 +237,7 @@ Vous pouvez partager les vues que vous avez créées ou celles pour lesquelles v
 
 >[!IMPORTANT]
 >
-Seuls les utilisateurs disposant des autorisations Gérer pour un espace de travail peuvent partager publiquement les vues de l’espace de travail.
+>Seuls les utilisateurs disposant des autorisations Gérer pour un espace de travail peuvent partager publiquement les vues de l’espace de travail.
 
 
 Pour partager une vue publiquement dans Workfront Planning :

@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -53,7 +53,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès [!UICONTROL Administrateur système].<p>Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td> Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès [!UICONTROL Administrateur système].<p>Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p> <p><b>REMARQUE : si vous n’avez toujours pas un accès, demandez à l’administration  si elle a défini des restrictions supplémentaires dans votre niveau d’accès. </b>[!DNL Workfront] Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +97,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td> [!UICONTROL Mises À Jour], [!UICONTROL Documents], [!UICONTROL Task Details], [!UICONTROL Subtask], [!UICONTROL Issues], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Expenses], [!UICONTROL Predecessors]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Problème]</td> 
+      <td>[!UICONTROL Issue]</td> 
       <td>Nom d’un problème</td> 
       <td> [!UICONTROL Mises À Jour], [!UICONTROL Documents], [!UICONTROL Détails Du Problème], [!UICONTROL Hours], [!UICONTROL Approbations]</td> 
      </tr> 
@@ -117,7 +117,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>[!UICONTROL Tâches De Modèle], [!UICONTROL Détails Du Modèle], [!UICONTROL Mises À Jour], [!UICONTROL Documents], [!UICONTROL Risques], [!UICONTROL Dépenses], [!UICONTROL Personnes], [!UICONTROL Approbations], [!UICONTROL Taux De Facturation], [!UICONTROL [!UICONTROL Routage Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Tâche Modèle]</td> 
+      <td>[!UICONTROL Template Task]</td> 
       <td>Nom d’une tâche de modèle</td> 
       <td>[!UICONTROL Mises À Jour], [!UICONTROL Documents], [!UICONTROL Template Task Details], [!UICONTROL Subtasks], [!UICONTROL Expenses], [!UICONTROL Approvals], [!UICONTROL Predecessors]</td>
      </tr>
@@ -129,7 +129,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       </tr>
      --> 
      <tr> 
-      <td> [!UICONTROL Enregistrement de facturation]</td> 
+      <td> [!UICONTROL Billing Record]</td> 
       <td>Nom d’un enregistrement de facturation pour un projet</td> 
       <td>[!UICONTROL Détails de l’enregistrement de facturation], [!UICONTROL Heures facturables], [!UICONTROL Dépenses facturables], [!UICONTROL Recettes fixes]</td> 
      </tr> 
@@ -144,7 +144,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>[!UICONTROL Nouvelle requête], [!UICONTROL Demandes envoyées], [!UICONTROL Toutes les requêtes], [!UICONTROL Brouillons]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Tableaux de bord]</td> 
+      <td>[!UICONTROL Dashboards]</td> 
       <td>Nom d’un tableau de bord</td> 
       <td>[!UICONTROL Mes tableaux de bord], [!UICONTROL Tableaux de bord partagés], [!UICONTROL Tous les tableaux de bord]<p><b>REMARQUE</b> : si vous avez créé des onglets personnalisés pour la zone [!UICONTROL Rapports] à l’aide d’un modèle de mise en page dans [!DNL Adobe Workfront Classic], ils s’affichent au bas de cette liste. Pour les utilisateurs, ils s’affichent au bas du panneau de gauche dans la zone [!UICONTROL Tableaux de bord] .</p> </td> 
      </tr> 
@@ -164,7 +164,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>[!UICONTROL équilibreur de charge de travail], [!UICONTROL Mises à jour], [!UICONTROL Demandes d’équipe], [!UICONTROL Paramètres de l’équipe]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Itération]</td> 
+      <td>[!UICONTROL Iteration]</td> 
       <td>Nom d’une itération</td> 
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Stories], [!UICONTROL Custom Forms], [!UICONTROL Custom], [!UICONTROL Updates] </td> 
      </tr> 
@@ -202,10 +202,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >[!NOTE]
    >
    >Les 3 derniers éléments de la liste déroulante **[!UICONTROL Personnaliser ce que les utilisateurs voient]** ([!UICONTROL Listes], [!UICONTROL Accueil et résumé] et [!UICONTROL Marque]) servent à configurer des zones autres que le panneau de gauche. Pour plus d’informations à leur sujet, voir ces articles :
->   >   
-* [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Personnaliser [!UICONTROL Home] et [!UICONTROL Summary] à l&#39;aide d&#39;un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Adobe de marque [!DNL Workfront]  à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >
+   >* [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [Personnaliser [!UICONTROL Home] et [!UICONTROL Summary] à l&#39;aide d&#39;un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Adobe de marque [!DNL Workfront]  à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Facultatif) Si vous souhaitez ajouter un élément de panneau de gauche qui pointe vers l’un des tableaux de bord de votre entreprise, cliquez sur **[!UICONTROL Ajouter une section personnalisée]**, saisissez un **[!UICONTROL titre de section personnalisée]** pour l’élément, puis ajoutez le tableau de bord.
@@ -214,7 +214,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    >[!NOTE]
    >
-   Les utilisateurs peuvent ajouter des éléments de tableau de bord personnalisés à leur propre panneau de gauche. Lorsque vous ajoutez des éléments de tableau de bord personnalisés dans un modèle de disposition, vos éléments fusionnent avec les leurs, sans les remplacer ni les réinitialiser. Cela est également vrai si vous affectez des utilisateurs à un nouveau modèle de mise en page avec des éléments de tableau de bord personnalisés. Pour plus d’informations sur la façon dont les utilisateurs peuvent personnaliser le panneau de gauche, voir [Création d’onglets ou de sections personnalisés](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Les utilisateurs peuvent ajouter des éléments de tableau de bord personnalisés à leur propre panneau de gauche. Lorsque vous ajoutez des éléments de tableau de bord personnalisés dans un modèle de disposition, vos éléments fusionnent avec les leurs, sans les remplacer ni les réinitialiser. Cela est également vrai si vous affectez des utilisateurs à un nouveau modèle de mise en page avec des éléments de tableau de bord personnalisés. Pour plus d’informations sur la façon dont les utilisateurs peuvent personnaliser le panneau de gauche, voir [Création d’onglets ou de sections personnalisés](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    Pour plus d’informations sur les tableaux de bord, voir [Tableaux de bord](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
@@ -222,8 +222,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    Ou
 
-   Si vous avez terminé de personnaliser, cliquez sur **[!UICONTROL Enregistrer]**.
+   Si vous avez terminé la personnalisation, cliquez sur **[!UICONTROL Enregistrer]**.
 
    >[!TIP]
    >
-   Vous pouvez cliquer à tout moment sur [!UICONTROL Enregistrer] pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.
+   >Vous pouvez cliquer à tout moment sur [!UICONTROL Enregistrer] pour enregistrer votre progression, puis continuer à modifier le modèle ultérieurement.

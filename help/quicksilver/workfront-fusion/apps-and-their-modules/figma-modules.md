@@ -9,24 +9,24 @@ description: Avec les modules  [!DNL Adobe Workfront Fusion] Figma, vous pouvez 
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 18%
+source-wordcount: '2313'
+ht-degree: 20%
 
 ---
 
-# [!DNL Figma] Modules
+# Modules [!DNL Figma]
 
 Avec les modules [!DNL Adobe Workfront Fusion] [!DNL Figma], vous pouvez récupérer des listes de commentaires, de fichiers, de versions de fichiers ou de projets. Vous pouvez également publier un commentaire ou effectuer un appel vers l’API [!DNL Figma].
 
-Si vous avez besoin d’instructions sur la création d’un scénario, voir [Création d’un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Pour plus d’informations sur les modules, consultez [Modules dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
   <col/>
@@ -47,7 +47,7 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>
       <td>
-   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigences de licence actuelle: aucune exigence de licence [!DNL Workfront Fusion]</p>
    <p>Ou</p>
    <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
@@ -55,9 +55,9 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
     <tr>
       <td role="rowheader">Produit</td>
       <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Exigences du produit actuel : si vous disposez du forfait  [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter  et  pour utiliser les fonctionnalités décrites dans cet article. [!DNL Adobe Workfront][!DNL Adobe Workfront Fusion][!DNL Adobe Workfront]. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td>
     </tr>
   </tbody>
@@ -74,7 +74,7 @@ Pour utiliser des modules [!DNL Figma], vous devez disposer d’un compte [!DNL 
 
 ## Modules [!DNL Figma] et leurs champs
 
-Lorsque vous configurez des modules [!DNL Figma], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Figma] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez des [!DNL Figma]modules ,[!DNL Workfront Fusion]  affiche les champs répertoriés ci-dessous. Des champs  supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. [!DNL Figma] Un titre en gras dans un module indique un champ obligatoire.
 
 Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -95,7 +95,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 
 * [Lister des commentaires](#list-comments)
 
-* [Post d’un commentaire](#post-a-comment)
+* [Publication d’un commentaire](#post-a-comment)
 
 
 #### [!UICONTROL Supprimer un commentaire]
@@ -112,7 +112,7 @@ Ce module d’action supprime un seul commentaire d’un fichier.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ID de fichier]</td>
+      <td role="rowheader">[!UICONTROL File ID]</td>
       <td>Saisissez ou mappez l’identifiant du fichier à partir duquel vous souhaitez ajouter un commentaire. </td>
     </tr>
     <tr>
@@ -135,7 +135,7 @@ Ce module de recherche répertorie tous les commentaires associés à un seul fi
       <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Figma] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base.</a></p>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ID de fichier]</td>
+      <td role="rowheader">[!UICONTROL File ID]</td>
       <td>
         <p>Saisissez ou mappez l’identifiant du fichier pour lequel vous souhaitez récupérer les commentaires. </p>
         <ul>
@@ -156,7 +156,7 @@ Ce module de recherche répertorie tous les commentaires associés à un seul fi
 </table>
 
 
-#### [!UICONTROL Post a comment]
+#### [!UICONTROL Publier un commentaire]
 
 Ce module d’action publie un commentaire dans un fichier Figma.
 
@@ -169,7 +169,7 @@ Ce module d’action publie un commentaire dans un fichier Figma.
       <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Figma] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base.</a></p>
     </tr>
     <tr>
-      <td  role="rowheader">[!UICONTROL ID de fichier]</td>
+      <td  role="rowheader">[!UICONTROL File ID]</td>
       <td>
         <p>Saisissez ou mappez l’identifiant du fichier sur lequel vous souhaitez publier un commentaire. </p>
         <ul>
@@ -363,7 +363,7 @@ Ce module d’action récupère un seul fichier ou une seule image à partir d�
       <td>Sélectionnez le fichier à partir duquel vous souhaitez renvoyer JSON.</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>ID de noeud]</td>
+      <td role="rowheader">[!UICONTROL ID de noeud]</td>
       <td>
         <p>Saisissez les noeuds dont vous souhaitez que le module soit rendu.</p>
         <p>Pour chaque noeud dont vous souhaitez effectuer le rendu, cliquez sur <b>[!UICONTROL Ajouter]</b> et saisissez le texte du noeud.</p>
@@ -436,7 +436,7 @@ Ce module de recherche renvoie l’historique des versions d’un seul fichier d
       <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Figma] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base.</a></p>
     <tr>
-      <td role="rowheader">[!UICONTROL ID de fichier]</td>
+      <td role="rowheader">[!UICONTROL File ID]</td>
       <td>
         <p>Saisissez ou mappez l’identifiant du fichier pour lequel vous souhaitez récupérer l’historique des versions. </p>
         <ul>
@@ -469,7 +469,7 @@ Ce module de recherche renvoie une liste de tous les fichiers du projet spécifi
       <td> <p>Pour plus d'informations sur la connexion de votre compte [!DNL Figma] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Création d'une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base.</a></p>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ID de fichier]</td>
+      <td role="rowheader">[!UICONTROL File ID]</td>
       <td>
         <p>Saisissez ou mappez l’ID de projet pour lequel vous souhaitez récupérer les fichiers. </p>
         <ul>
@@ -591,7 +591,7 @@ Ce module d’action vous permet d’effectuer un appel authentifié personnalis
       <td>
         <p>Ajoutez les en-têtes de la requête sous la forme d’un objet JSON standard.</p>
         <p>Par exemple, <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] ajoute les en-têtes d’autorisation.</p>
+        <p>[!DNL Workfront Fusion] ajoute les en-têtes d’autorisation pour vous.</p>
       </td>
     </tr>
     <tr>
@@ -632,7 +632,7 @@ Ce module de déclenchement lance un scénario lorsque l’un des événements s
       <td role="rowheader">[!UICONTROL Webhook]</td>
       <td>
         <p>Sélectionnez le webhook que le module regarde.</p>
-        <p>Pour ajouter un nouveau webhook :</p>
+        <p>Pour ajouter un nouveau webhook :</p>
         <ol>
           <li value="1">
             <p>Cliquez sur <b>[!UICONTROL Ajouter]</b> en regard du champ [!UICONTROL Webhook].</p>

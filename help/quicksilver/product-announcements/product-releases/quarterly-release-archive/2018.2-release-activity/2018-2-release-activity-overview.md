@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1132'
 ht-degree: 2%
 
 ---
@@ -176,11 +176,11 @@ Cette fonctionnalité inclut :
 
 * Le gestionnaire de budget sera remplacé par le nouveau planificateur de ressources.
 
-  Pour plus d’informations, voir [Planification des ressources dans Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md) [.](https://support.workfront.com/hc/en-us/sections/115001049327)
+  Pour plus d’informations, voir [Resource Planning dans Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * La grille de ressources sera remplacée par le nouveau planificateur de ressources
 
-  Pour plus d’informations, voir [ [Planification des ressources dans Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md).](https://support.workfront.com/hc/en-us/sections/115001049327)
+  Pour plus d’informations, voir [Planification des ressources dans Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 * Les estimations de ressources sur l’analyse de cas seront remplacées par la nouvelle section Budget des ressources de l’analyse de cas dans le planificateur de ressources.
 

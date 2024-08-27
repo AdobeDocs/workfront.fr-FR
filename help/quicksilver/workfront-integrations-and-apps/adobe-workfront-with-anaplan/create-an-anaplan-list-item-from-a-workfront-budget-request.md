@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Créer un élément de liste  [!DNL Anaplan]  à partir d’une demande de budget  [!DNL Adobe Workfront]
+title: Créer un élément de liste [!DNL Anaplan] à partir d’une demande de budget [!DNL Adobe Workfront]
 description: Ce scénario d’intégration associe un projet  [!DNL Adobe Workfront] (campagne) à un élément  [!DNL Anaplan] de liste de budgets. Pour ce faire, ajoutez une requête de budget au projet  [!DNL Workfront] qui doit recevoir un financement. Ce scénario recherche les demandes de budget non traitées, puis exécute un processus pour créer un élément de liste de budget vide dans  [!DNL Anaplan] afin de lancer les processus d’allocation de budget dans Anaplan.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 6%
+source-wordcount: '807'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ Ce scénario d’intégration associe un projet [!DNL Adobe Workfront] (campagne
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,12 +38,12 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader" [!DNL>Licence Adobe Workfront Fusion**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td> <p>[!UICONTROL Fusion Workfront pour l’automatisation et l’intégration du travail] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</td> 
   </tr>
  </tbody> 
 </table>

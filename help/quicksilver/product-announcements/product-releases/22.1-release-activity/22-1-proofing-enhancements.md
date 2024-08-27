@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -45,10 +45,9 @@ Vous pouvez ajouter des réviseurs et des demandeurs aux BAT qui nécessitent un
 
 Tous les utilisateurs bénéficient également d’une meilleure connectivité entre Workfront et BAT. Désormais, lorsque vous désactivez un utilisateur ou mettez à jour son adresse électronique, vos mises à jour sont correctement répercutées dans la vérification lorsqu’elles sont modifiées dans Workfront.
 
-Pour plus d’informations, voir
+Pour plus d’informations, consultez les ressources suivantes :
 
 * [Présentation des rôles de BAT](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
-*  
 
 ## Améliorations de la signature électronique pour les bons à tirer
 
@@ -56,7 +55,7 @@ Nous avons facilité la signature électronique des bons à tirer pour les utili
 
 >[!IMPORTANT]
 >
->Pour signer électroniquement un BAT avec des informations d’identification SSO, vous devez configurer la connexion unique dans Workfront Proof. Pour plus d’informations sur l’activation de la connexion unique, voir [Configuration de la connexion unique pour les utilisateurs de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Pour signer électroniquement une épreuve avec des informations d’identification SSO, vous devez configurer le SSO dans Workfront Proof. Pour plus d’informations sur l’activation de la connexion unique, voir [Configuration de la connexion unique pour les utilisateurs de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
 Auparavant, les utilisateurs devaient utiliser les informations d’identification Workfront Proof, qui sont différentes de leurs informations d’identification Workfront.
 

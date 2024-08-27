@@ -6,10 +6,10 @@ description: Le module complémentaire  [!DNL Adobe Workfront] [!DNL Outlook] vo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
+source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 94%
+source-wordcount: '682'
+ht-degree: 91%
 
 ---
 
@@ -78,8 +78,8 @@ Le module complémentaire [!DNL Workfront] pour [!DNL Outlook] est pris en charg
 
 Workfront prend en charge les versions suivantes d’[!DNL Outlook] :
 
-* [!DNL Outlook 2013] ou ultérieure sur [!DNL Windows]
-* [!DNL  Outlook 2016] ou ultérieure sur [!DNL Windows]
+* [!DNL Outlook 2013] ou version ultérieure le [!DNL Windows]
+* [!DNL Outlook 2016] ou version ultérieure le [!DNL Windows]
 * [!DNL Outlook] sur [!DNL Mac] ([!DNL Microsoft 365])
 * [!DNL Outlook] sur [!DNL Windows] ([!DNL Microsoft 365])
 * [!DNL Outlook] sur le web
@@ -90,7 +90,7 @@ Lors de la configuration du client, vous devez sélectionner l’un des types de
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com]**** Si le client est configuré pour se connecter avec POP3 ou IMAP, le module complémentaire [!DNL Workfront] ne se charge pas.
+* [!DNL Outlook.com] Si le client est configuré pour se connecter avec POP3 ou IMAP, le module complémentaire [!DNL Workfront] ne se charge pas.
 
 ### Conditions requises pour le serveur de messagerie {#mail-server-requirements}
 
