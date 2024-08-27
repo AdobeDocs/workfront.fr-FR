@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des documents aux cartes connectées sur les pa
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 30%
+source-wordcount: '277'
+ht-degree: 25%
 
 ---
 
@@ -23,26 +23,36 @@ Vous pouvez ajouter des documents aux cartes connectées sur les panoramas Adobe
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
   </tr> 
-  <tr>
-   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td>
-   <td><p>Accès aux documents [!UICONTROL Modifier]</p><p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p></td>
+   <tr>
+   <td role="rowheader">Configurations du niveau d’accès</td>
+   <td>Accès aux documents à l’aide de l’option [!UICONTROL Modifier]</td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajout d’un document à une carte
 

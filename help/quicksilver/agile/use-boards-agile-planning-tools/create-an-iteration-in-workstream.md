@@ -2,15 +2,15 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: Créer une itération dans un flux de travail
+title: Création d’une itération dans un flux de travail
 description: Une itération est un temps défini réservé à la réalisation du travail. Certaines équipes agiles peuvent appeler une itération sprint.
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 10%
+source-wordcount: '412'
+ht-degree: 20%
 
 ---
 
@@ -18,30 +18,38 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->Les flux de travail ne sont disponibles que pour un groupe spécifique de clients.
+>Les flux de travail ne sont disponibles que pour un groupe spécifique de clientes et de clients.
 
 Une itération est un temps défini réservé à la réalisation du travail. Certaines équipes agiles peuvent appeler une itération sprint.
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Créer une itération dans un flux de travail
 
@@ -67,7 +75,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>Durée de l’itération, en jours, semaines ou mois.</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL Date de début]</strong></td> 
+      <td><strong>[!UICONTROL Start date]</strong></td> 
       <td>Date à laquelle l’itération commence. La date de fin est automatiquement renseignée en fonction de la durée d'itération.</td> 
      </tr> 
     </tbody> 

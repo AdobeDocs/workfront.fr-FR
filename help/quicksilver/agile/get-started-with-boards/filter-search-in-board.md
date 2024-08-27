@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Filtrer et rechercher dans un panorama
+title: Filtrage et recherche dans un panorama
 description: Vous pouvez filtrer un panorama pour n’afficher que certaines cartes.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 12%
+source-wordcount: '688'
+ht-degree: 34%
 
 ---
 
@@ -34,6 +34,8 @@ Lorsque des filtres sont appliqués, un indicateur s’affiche sur le panorama !
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -41,21 +43,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Filtrage d’un panorama par personne désignée
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
+{{step1-to-boards}}
+
 1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur [!UICONTROL **Filtrer**], développez la section [!UICONTROL Membres] et sélectionnez la ou les personnes dont vous souhaitez afficher les cartes. Vous pouvez également afficher les cartes non affectées.
 
@@ -86,9 +95,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![Filtrer par date d’échéance](assets/boards-filter-by-due-date-0822.png)
 
-## Filtrage d’un panorama pour afficher les cartes archivées
+## Filtrer un panorama pour afficher les cartes archivées
 
-Par défaut, seules les cartes actives sont affichées sur un panorama. Vous pouvez filtrer le panorama pour afficher également toutes les cartes archivées.
+Par défaut, seules les cartes actives sont affichées sur un panorama. Le panorama peut être également filtré pour afficher les cartes archivées.
 
 1. Accédez au panorama.
 1. Cliquez sur [!UICONTROL **Configurer**] à droite du panorama pour ouvrir le panneau Configurer.
@@ -96,15 +105,15 @@ Par défaut, seules les cartes actives sont affichées sur un panorama. Vous pou
 1. Activez [!UICONTROL **Afficher les cartes archivées sur le panorama**].
 1. Cliquez sur [!UICONTROL **Filtrer**], développez la section [!UICONTROL Cartes archivées] et sélectionnez **[!UICONTROL Cartes archivées]** pour afficher toutes les cartes archivées.
 
-   Le filtre affiche le nombre de cartes archivées.
+   Le filtre indique le nombre de cartes archivées.
 
    ![Filtrer les cartes archivées](assets/filter-by-archived-cards.png)
 
    >[!NOTE]
    >
-   >La section [!UICONTROL Cartes archivées] n’est pas disponible dans le filtre si vous n’avez pas activé le paramètre de configuration pour afficher les cartes archivées. Pour plus d’informations, voir [Personnaliser des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+   >La section [!UICONTROL Cartes archivées] n’est pas disponible dans le filtre si vous n’avez pas activé le paramètre de configuration permettant d’afficher les cartes archivées. Pour plus d’informations, voir [Personnaliser des champs affichés sur une carte](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-1. Sélectionnez à nouveau **[!UICONTROL Cartes archivées]** pour effacer l’option et afficher uniquement les cartes actives.
+1. Sélectionnez à nouveau **[!UICONTROL Cartes archivées]** pour effacer l’option et n’afficher que les cartes actives.
 
 ## Filtrage d’un panorama par connexion
 
@@ -137,7 +146,7 @@ Lorsque vous sélectionnez une option de tri, toutes les colonnes sont triées. 
 ## Recherche dans un panorama
 
 1. Accédez au panorama.
-1. Cliquez sur [!UICONTROL **Rechercher**] et saisissez un terme de recherche. Ensuite, appuyez sur Entrée.
+1. Cliquez sur [!UICONTROL **Rechercher**] et saisissez un terme de recherche. Appuyez ensuite sur Entrée.
 
    Toutes les cartes qui contiennent le terme de recherche s’affichent.
 

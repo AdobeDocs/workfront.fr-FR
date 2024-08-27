@@ -7,10 +7,10 @@ description: Vous pouvez configurer une limite de travail en cours pour chaque c
 author: Lisa
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: 09ab9912df9ad2ac30a461f22b585d633fc73b23
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 16%
+source-wordcount: '262'
+ht-degree: 26%
 
 ---
 
@@ -22,30 +22,37 @@ La limite de travaux en cours est simplement un avertissement visuel et ne vous 
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Définition de la limite de travail en cours sur une colonne
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Panoramas]**.
+{{step1-to-boards}}
+
 1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Recherchez la colonne à laquelle vous souhaitez ajouter la limite de travaux en cours.
 
@@ -55,7 +62,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Sous [!UICONTROL Stratégies de colonne], activez la stratégie **[!UICONTROL Travail en cours] limite** pour limiter le nombre de cartes pouvant être ajoutées à la colonne.
 1. Saisissez le nombre limite dans le champ **[!UICONTROL Définir la limite]** .
 
-   ![Limite de travail en cours pour la colonne](assets/boards-wip-limit-in-column.png)
+   ![Limite du travail en cours pour la colonne](assets/boards-wip-limit-in-column.png)
 
    Le nombre de cartes et la limite s’affichent en haut de la colonne. Si la colonne contient plus de cartes que la limite, le compteur devient rouge.
 

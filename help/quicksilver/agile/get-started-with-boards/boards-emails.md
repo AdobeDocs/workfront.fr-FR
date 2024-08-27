@@ -2,15 +2,15 @@
 filename: boards-emails
 content-type: reference
 navigation-topic: boards
-title: Notifications par e-mail et préférences des panoramas
+title: Notifications et préférences par e-mail des panoramas
 description: Les panoramas Adobe Workfront vous envoient un e-mail lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée.
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 20%
+source-wordcount: '220'
+ht-degree: 26%
 
 ---
 
@@ -22,26 +22,32 @@ Vous recevrez également un e-mail lorsque vous êtes balisé dans un commentair
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Définition des préférences pour les emails des panoramas
 

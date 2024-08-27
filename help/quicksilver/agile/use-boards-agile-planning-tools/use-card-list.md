@@ -2,15 +2,15 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: Utiliser la liste des cartes
+title: Utilisation de la liste de cartes
 description: Vous pouvez créer une liste de cartes sur un workflow et ajouter les cartes aux itérations.
 author: Lisa
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: d44eb048103e469bc072cc5287947fea471668b3
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 6%
+source-wordcount: '645'
+ht-degree: 13%
 
 ---
 
@@ -26,24 +26,32 @@ La liste de cartes peut fonctionner comme un journal de travail en retard pour l
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajout de cartes à la liste
 
@@ -73,7 +81,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
       <td>Sélectionnez l’état de la carte.</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL Itérations]</strong></td> 
+      <td><strong>[!UICONTROL Iterations]</strong></td> 
       <td>Sélectionnez une itération à laquelle attribuer la carte.</td> 
      </tr>
      <tr> 
@@ -108,7 +116,7 @@ Les cartes ne peuvent être archivées que depuis la carte d’itération. Lorsq
 ### Recherche dans la liste des cartes
 
 1. Accédez à la liste des cartes du flux de travail.
-1. Cliquez sur [!UICONTROL **Rechercher**] et saisissez un terme de recherche. Ensuite, appuyez sur Entrée.
+1. Cliquez sur [!UICONTROL **Rechercher**] et saisissez un terme de recherche. Appuyez ensuite sur Entrée.
 
    Toutes les cartes qui contiennent le terme de recherche s’affichent.
 Cliquez sur le X pour effacer la recherche.

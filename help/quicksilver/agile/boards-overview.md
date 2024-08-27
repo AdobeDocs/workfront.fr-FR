@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Vue d’ensemble des panoramas
+title: Présentation des panoramas
 description: Les panoramas Adobe Workfront sont des outils flexibles qui permettent une collaboration entre les équipes. Ils permettent d’accéder à un panorama partagé contenant des colonnes et des cartes.
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

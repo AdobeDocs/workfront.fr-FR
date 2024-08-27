@@ -2,19 +2,19 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Inclusion anticipée des fonctionnalités pour les  [!DNL Adobe Workfront] panoramas
+title: Fonctionnalité d’opt-in anticipé pour les  [!DNL Workfront] panoramas
 description: Lisez cet article pour en savoir plus sur l’ [!DNL Workfront Boards] opt-in des fonctionnalités avancées.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Accord préalable pour les [!DNL Adobe Workfront] [!UICONTROL panoramas]
+# Accord préalable pour les [!DNL Workfront] [!UICONTROL panoramas]
 
 L&#39;accord préalable pour la fonction [!DNL Adobe Workfront] [!UICONTROL Panoramas] a été lancé en juillet 2022.
 
@@ -199,10 +199,10 @@ Seuls les administrateurs [!DNL Workfront] peuvent souscrire à des fonctionnali
 1. Cliquez sur **[!UICONTROL Activer]**.
 1. Commencez à utiliser les premières fonctionnalités des panoramas.
 
-## Envoyer les commentaires
+## Envoyer des commentaires
 
 1. Dans un panorama, cliquez sur le bouton **[!UICONTROL Commentaires]** .
-1. Remplissez le formulaire, puis cliquez sur **[!UICONTROL Submit]**.
+1. Remplissez le formulaire, puis cliquez sur **[!UICONTROL Envoyer]**.
 
 ## FAQ sur l’opt-in des premières fonctionnalités
 

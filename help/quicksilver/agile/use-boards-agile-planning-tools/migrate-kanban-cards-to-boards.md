@@ -1,15 +1,15 @@
 ---
 content-type: reference
 navigation-topic: boards
-title: Migrer les cartes Kanban de l’équipe agile vers les panoramas Workfront
+title: Migration des cartes Kanban de l’équipe agile vers les panoramas Workfront
 description: Vous pouvez migrer vos tâches d’un panorama Kanban d’équipe agile vers un panorama Workfront nouveau ou existant.
 author: Lisa
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 13%
+source-wordcount: '380'
+ht-degree: 16%
 
 ---
 
@@ -23,26 +23,32 @@ Les cartes ne sont pas supprimées du panorama Kanban de l’équipe agile, et l
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td>
-   <td> <p>N’importe quelle</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td>
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td>
-  </tr>
- </tbody>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td> <p>N’importe quelle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Migration de cartes Kanban vers un nouveau panorama
 

@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Ajouter une carte ad hoc à un panorama
+title: Ajout d’une carte ad hoc à un panorama
 description: Vous pouvez rapidement ajouter une carte ad hoc à un panorama et l’affecter à un membre du panorama. La carte peut représenter une tâche, un problème, une personne, un groupe ou tout type d’élément que vous souhaitez inclure dans le panorama.
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 61eb51d458caebbb144112ad697f98f019f54918
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 32%
+source-wordcount: '892'
+ht-degree: 34%
 
 ---
 
@@ -23,32 +23,39 @@ Vous pouvez ajouter rapidement une carte à un panorama et l’affecter à un me
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajout d’une carte ad hoc avec des détails complets
 
 Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Adobe Workfront].
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe] Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
+{{step1-to-boards}}
+
 1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
 1. Cliquez sur **[!UICONTROL Ajouter une carte] > [!UICONTROL Nouvelle carte]**.
 
@@ -106,7 +113,7 @@ Une carte ad hoc n’est pas connectée à un élément de travail dans [!DNL Ad
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Cliquez dans le champ <strong>[!UICONTROL New comment]</strong> et saisissez votre commentaire. Utilisez les outils de formatage pour mettre le texte en forme. (Les images ne sont pas disponibles dans les commentaires sur les cartes ad hoc.) Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur n’a pas à être membre du panorama.</p><p><strong>REMARQUE :</strong> À l’heure actuelle, les utilisateurs balisés dans des commentaires sur des cartes ad hoc ne reçoivent pas de notification par courrier électronique.
+      <td><p>Cliquez dans le champ [!UICONTROL New comment] et saisissez votre commentaire. <strong></strong> Utilisez les outils de formatage pour mettre le texte en forme. (Les images ne sont pas disponibles dans les commentaires sur les cartes ad hoc.) Pour taguer une personne ou une équipe, utilisez la zone de recherche située au bas de la zone de commentaire. L’utilisateur n’a pas à être membre du panorama.</p><p><strong>REMARQUE :</strong> À l’heure actuelle, les utilisateurs balisés dans des commentaires sur des cartes ad hoc ne reçoivent pas de notification par courrier électronique.
       </p><p>Cliquez sur <strong>[!UICONTROL Submit]</strong> pour ajouter le commentaire à la carte.</p>
       <p>Pour plus d'informations sur les commentaires, voir <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Mise à jour du travail</a>.</p></td>
      </tr>

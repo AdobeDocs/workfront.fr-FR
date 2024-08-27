@@ -2,15 +2,15 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: Examiner les mesures de l’itération
+title: Mesures d’itération des révisions
 description: Les mesures sont disponibles pour chaque itération dans un workflow, sur la carte du processus d’itération.
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 11%
+source-wordcount: '243'
+ht-degree: 27%
 
 ---
 
@@ -18,30 +18,38 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->Les flux de travail ne sont disponibles que pour un groupe spécifique de clients.
+>Les flux de travail ne sont disponibles que pour un groupe spécifique de clientes et de clients.
 
 Les mesures sont disponibles pour chaque itération dans un workflow, sur le tableau de processus d’itération et le tableau de bord.
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vérification des mesures d’itération sur le panorama d’itération
 

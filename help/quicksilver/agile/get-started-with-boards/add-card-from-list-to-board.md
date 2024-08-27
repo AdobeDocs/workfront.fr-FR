@@ -1,27 +1,29 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Ajout de tâches ou de problèmes existants à un panorama ou à un workflow Adobe Workfront
+title: Ajout de tâches ou de problèmes existants à un panorama Workfront
 description: Vous pouvez ajouter n’importe quelle tâche ou problème à un panorama dans Adobe Workfront à partir d’une vue de liste ou de rapport.
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 9%
+source-wordcount: '600'
+ht-degree: 13%
 
 ---
 
-# Ajout de tâches ou de problèmes existants à un panorama ou à un workflow [!DNL Adobe Workfront]
+# Ajout de tâches ou de problèmes existants à un panorama [!DNL Workfront]
 
 >[!IMPORTANT]
 >
->Les flux de travail ne sont disponibles que pour un groupe spécifique de clients.
+>Les flux de travail ne sont disponibles que pour un groupe spécifique de clientes et de clients.
 
 Vous pouvez ajouter n’importe quelle tâche ou problème à un panorama ou à un workflow dans [!DNL Adobe Workfront] à partir d’une vue de liste ou de rapport, ou à partir des détails de l’objet.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -30,26 +32,33 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
    <td> <p>N’importe quelle</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td>
-   <td> <p>[!UICONTROL Work] ou version ultérieure</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td>
+   <td>
+   <p>Nouvelle : [!UICONTROL Standard]</p> 
+   <p>ou</p>
+   <p>Actuelle : [!UICONTROL Work] ou licence supérieure</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td>
-   <td> <p>Autorisations [!UICONTROL View] ou supérieures pour la tâche ou le problème</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td>
+   <td role="rowheader">Autorisations d’objet</td>
+   <td>Autorisations [!UICONTROL View] ou supérieures pour la tâche ou le problème </td>
   </tr>
  </tbody>
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajout de tâches ou de problèmes existants à un panorama ou à un workflow à partir d’une liste
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront].
-1. Choisissez l’une des options suivantes : **[!UICONTROL Projets]**, **[!UICONTROL Création de rapports]** ou **[!UICONTROL Tableaux de bord]**.
+{{step1-click-main-menu}}
+
+1. Choisissez l’une des options suivantes : **[!UICONTROL Projets]**, **[!UICONTROL Rapports]** ou **[!UICONTROL Tableaux de bord]**.
 1. Accédez au projet, au rapport ou au tableau de bord qui contient la tâche ou le problème que vous souhaitez ajouter au panorama ou au workflow.
 1. Sélectionnez une ou plusieurs tâches ou problèmes.
 
@@ -70,7 +79,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Ajout de tâches ou de problèmes existants à un panorama ou à un workflow à partir des détails de l’objet
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
+
 1. Cliquez sur [!UICONTROL **Projets**], puis sur le nom d’un projet pour l’ouvrir.
 1. Cliquez sur [!UICONTROL **Tâches**] ou [!UICONTROL **Problèmes**] dans le panneau de gauche.
 1. Cliquez sur la tâche, la sous-tâche ou le problème à ajouter à un panorama ou à un workflow.

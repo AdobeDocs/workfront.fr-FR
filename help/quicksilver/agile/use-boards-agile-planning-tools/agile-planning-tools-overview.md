@@ -2,15 +2,15 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Vue d’ensemble des outils de planification agile
+title: Présentation des outils de planification agile
 description: Lorsque vous créez un panorama à l’aide de cartes ad hoc et connectées, vous pouvez utiliser d’autres outils de planification agiles sur les panoramas.
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 35%
+ht-degree: 33%
 
 ---
 

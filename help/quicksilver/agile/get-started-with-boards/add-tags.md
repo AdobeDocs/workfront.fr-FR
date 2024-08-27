@@ -6,10 +6,10 @@ description: Vous pouvez ajouter des balises aux cartes pour indiquer visuelleme
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 20%
+source-wordcount: '556'
+ht-degree: 27%
 
 ---
 
@@ -23,26 +23,32 @@ Vous pouvez ajouter des balises aux cartes pour indiquer visuellement qu’elles
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Création de balises pour un panorama
 
@@ -64,13 +70,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 >[!IMPORTANT]
 >
->Les flux de travail ne sont disponibles que pour un groupe spécifique de clients.
+>Les flux de travail ne sont disponibles que pour un groupe spécifique de clientes et de clients.
 
 Les balises de workflow sont disponibles pour tous les panoramas d’un workflow.
 
 {{step1-to-boards}}
 
-1. Sur le tableau de bord, cliquez sur [!UICONTROL **Afficher le processus**] pour ouvrir un processus.
+1. Dans le tableau de bord, cliquez sur [!UICONTROL **Afficher le flux de travail**] pour ouvrir un flux de travail.
 1. Ouvrez un panorama. Cliquez sur le menu **[!UICONTROL Plus]** ![Plus de menu](assets/more-icon-spectrum.png) en regard du nom du panorama, puis sélectionnez **[!UICONTROL Gestionnaire de balises]**.
 
    Ou

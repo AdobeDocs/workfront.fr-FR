@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Gérer les sous-tâches sur les panoramas
+title: Gestion des sous-tâches sur les panoramas
 description: L’utilisation de sous-tâches sur les cartes vous permet d’établir une relation parent-enfant entre les tâches et de créer une hiérarchie de travail.
 author: Lisa
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 14%
+source-wordcount: '386'
+ht-degree: 20%
 
 ---
 
@@ -17,30 +17,36 @@ ht-degree: 14%
 
 L’utilisation de sous-tâches sur les cartes vous permet d’établir une relation parent-enfant entre les tâches et de créer une hiérarchie de travail. Une sous-tâche que vous ajoutez à une carte sur un panorama Workfront est également ajoutée à la tâche dans le projet Workfront. Pour plus d’informations sur les sous-tâches et les tâches au niveau du projet, voir [Créer des sous-tâches](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
-Les sous-tâches ne sont disponibles que sur les cartes connectées et ne le sont pas sur les problèmes. Pour plus d’informations sur les cartes connectées, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Les sous-tâches ne sont disponibles que sur les cartes connectées et ne le sont pas sur les problèmes. Pour plus d’informations sur les cartes connectées, consultez [Utiliser des cartes connectées sur des panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> 
+   <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
+   <p>ou</p>
+   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajout d’une sous-tâche à une carte
 
