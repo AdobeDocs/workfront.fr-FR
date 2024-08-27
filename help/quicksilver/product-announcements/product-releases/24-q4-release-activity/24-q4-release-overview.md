@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 47%
+source-wordcount: '1216'
+ht-degree: 44%
 
 ---
 
@@ -216,16 +216,14 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
             <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence au cours du quatrième trimestre 2024</a></p>
-                        <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai du quatrième trimestre 2024. Consultez les notes de mise à jour individuelles pour connaître les dates de publication spécifiques.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}"> Disponibilité générale de la planification Adobe Workfront </a></p>
+                        <p>Workfront Planning est disponible pour tous les clients qui ont acheté une licence Workfront Planning, en plus de leur licence Workfront. Pour plus d’informations sur la planification Workfront, contactez le représentant du compte.</p>
+                        <p>Pour obtenir les dernières informations sur la version de Workfront Planning chaque trimestre, reportez-vous à la section <a href="#workfront-planning-enhancements">Améliorations de la planification Workfront</a> ci-dessous.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : pendant tout le délai de publication du quatrième trimestre 2024</p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Version de production : passez en revue les notes de mise à jour pour connaître les dates spécifiques.</span></p>
+                                <p><span class="preview">Version de production pour tous les clients : 28 août 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -251,6 +249,22 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                             </li>
                         </ul>
                     </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence au cours du quatrième trimestre 2024</a></p>
+                        <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai du quatrième trimestre 2024. Consultez les notes de mise à jour individuelles pour connaître les dates de publication spécifiques.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Aperçu de la version : pendant tout le délai de publication du quatrième trimestre 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production : passez en revue les notes de mise à jour pour connaître les dates spécifiques.</span></p>
+                            </li>
+                        </ul>
+                    </td>
                 </tr>                            
            </tbody>
         </table>
@@ -260,6 +274,10 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
 ### Améliorations de Workfront Fusion
 
 Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de publication du quatrième trimestre 2024. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+### Améliorations de la planification Workfront
+
+De nouvelles fonctionnalités de la planification Workfront sont disponibles dans la production. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de mise à jour du quatrième trimestre 2024 d’Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md).
 
 ### Améliorations du planificateur de scénarios Workfront
 
