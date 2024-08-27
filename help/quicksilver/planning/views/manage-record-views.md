@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 76%
+source-wordcount: '1194'
+ht-degree: 75%
 
 ---
 
@@ -42,9 +42,9 @@ Cet article présente les informations suivantes sur les vues d’enregistrement
 
 ## Conditions d’accès
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,8 +85,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td> <ul><li><p>Standard, Clair ou Contributeur, pour afficher les informations de la planification Workfront</p></li>
-   <li><p>Standard, pour créer des espaces de travail</p></li></ul>
+   <td><p> Standard </p>
    <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
@@ -98,7 +97,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Autorisations de gestion d’une vue</p>  
-   <p>Affichage d’autorisations ou d’autorisations supérieures sur une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
+   <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 

@@ -1,14 +1,15 @@
 ---
 title: Créer des enregistrements
 description: Lors de l’utilisation d’Adobe Workfront Planning, un enregistrement est une instance d’un type d’enregistrement. Vous pouvez créer des enregistrements uniques pour chaque type d’enregistrement dans le calendrier Workfront en les ajoutant manuellement à la vue de tableau, en les important à partir d’une liste, en les dupliquant ou en les créant lorsque vous les connectez à d’autres enregistrements.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1336'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
@@ -36,8 +37,6 @@ Pour plus d’informations sur la gestion des enregistrements dans les vues de t
 * [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Conditions d’accès
-
-<!--Updated for GA-->
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 

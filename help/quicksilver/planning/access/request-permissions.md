@@ -3,10 +3,10 @@ title: Demande d’autorisations pour une vue ou un Workspace
 description: Vous pouvez demander des autorisations pour une vue ou un espace de travail vers lequel d’autres vous ont envoyé un lien qui n’a pas été partagé avec vous auparavant.
 hidefrontoc: true
 hide: true
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 17%
+source-wordcount: '504'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 author: Alina
 feature: Workfront Planning
-role: User
+role: User, Admin
 ---
 -->
 
@@ -27,6 +27,8 @@ role: User
 # Demande d’autorisations pour une vue ou un espace de travail
 
 Vous pouvez demander des autorisations pour une vue ou un espace de travail vers lequel d’autres vous ont envoyé un lien qui n’a pas été partagé avec vous auparavant.
+
+La demande d’autorisations à une vue est similaire à la demande d’autorisations à un espace de travail.
 
 ## Conditions d’accès
 
@@ -86,8 +88,10 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>  <p>Autorisations de gestion d’une vue</p>  
-   <p>Seuls les utilisateurs disposant des autorisations Manage (Gérer) pour un espace de travail peuvent partager une vue publiquement.</p></td> 
+   <td>  <p>Une fois votre demande d’autorisation accordée, vous pouvez obtenir les autorisations suivantes :</p>
+   <ul><li><p>Affichage ou gestion pour une vue</p></li>
+   <li><p>Affichage, Contribute ou gestion dans un espace de travail</p></li></ul>  
+   <p>Seuls les utilisateurs disposant des autorisations Manage (Gérer) pour un espace de travail et un affichage peuvent partager une vue publiquement.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -102,18 +106,30 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
 ## Demande d’autorisations pour un affichage ou un espace de travail
 
-Lorsqu’une personne partage avec vous un lien vers un espace de travail ou une vue à laquelle vous n’avez pas accès, le scénario suivant existe :
+La demande d’autorisations à une vue est similaire à la demande d’autorisations à un espace de travail.
+
+Lorsqu’une personne partage avec vous un lien vers un espace de travail ou une vue à laquelle vous n’avez pas accès :
 
 1. Cliquez sur le lien partagé avec vous pour la vue ou l&#39;espace de travail.
 
    Une page **Vous n&#39;avez pas d&#39;accès** s&#39;affiche pour vous informer que vous n&#39;avez pas accès à la vue ou à l&#39;espace de travail.
 
+   ![](assets/request-access-to-view.png)
+
 1. (Conditionnel) Si le lien partagé correspond à une vue pour un espace de travail auquel vous avez accès, cliquez sur **Ouvrir avec une vue existante**. Si vous êtes autorisé à accéder à l’espace de travail, la page de type enregistrement s’ouvre dans la vue par défaut.
 
-1. (Facultatif) Ajoutez un message personnalisé dans la zone disponible.
+1. (Facultatif et conditionnel) Si vous ne disposez pas des autorisations nécessaires pour afficher l’espace de travail, ajoutez un message personnalisé dans la zone disponible, puis cliquez sur **Demander l’accès**.
 
-1. Cliquez sur **Demander l’accès**.
+   Tous les utilisateurs disposant des autorisations de gestion pour la vue ou l’espace de travail reçoivent les notifications suivantes pour la demande d’accès :
+   * Une notification in-app
+     ![](assets/in-app-notification-for-access-request.png)
+   * Une notification électronique
+     ![](assets/email-notification-for-access-request.png)
 
-   Tous les utilisateurs disposant des autorisations Gérer pour la vue ou l’espace de travail reçoivent une notification par e-mail pour votre demande.
-1. Les utilisateurs qui ont reçu la notification par courrier électronique pour la demande d’accès accèdent à la vue ou à l’espace de travail et vous accordent des autorisations.
-1. Vous recevez une notification par courrier électronique vous informant que l’accès à la vue ou à l’espace de travail vous a été accordé. Vous pouvez accéder à la vue ou à l’espace de travail à partir de la notification électronique.
+   Pour plus d’informations sur l’octroi d’autorisations aux vues et aux espaces de travail, consultez les articles suivants :
+
+   * [Partager des vues](/help/quicksilver/planning/access/share-views.md)
+   * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
+1. (Conditionnel) Lorsque le gestionnaire d’affichage ou d’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail confirmant que les autorisations ont été accordées ou refusées. <!--check this - I was not able to test this-->
+
+

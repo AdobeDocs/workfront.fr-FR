@@ -1,18 +1,17 @@
 ---
 title: Présentation des enregistrements connectés
 description: Après avoir créé des connexions entre les types d’enregistrement, vous pouvez connecter des enregistrements individuels les uns aux autres. Cet article décrit les points à prendre en compte lors de la connexion d’enregistrements dans Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 29%
 
 ---
 
-
-<!--update metadata at GA-->
 
 # Présentation des enregistrements connectés
 

@@ -1,25 +1,22 @@
 ---
 title: Gestion des enregistrements dans la section Planification des objets Adobe Workfront
 description: Vous pouvez afficher les enregistrements de planification Workfront associés aux objets Adobe Workfront dans la section Planification d’un objet Workfront, dans le panneau de gauche.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
 
-<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
-
-
-# Gestion des enregistrements dans la section Planification des objets Adobe Workfront
+# Gérer des enregistrements dans la section Planning des objets Adobe Workfront
 
 {{planning-important-intro}}
 
@@ -34,8 +31,6 @@ La section Planification est disponible pour les objets Workfront suivants :
 * Company-->
 
 ## Conditions d’accès
-
-<!--Updated for GA-->
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
@@ -76,7 +71,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
 <p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p>
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
    </td>
 
 </tr>
@@ -158,13 +153,13 @@ La page des objets s’ouvre dans Workfront.
 1. (Facultatif) Commencez à modifier les champs dans la zone d’aperçu de l’enregistrement. Vos modifications sont enregistrées automatiquement.
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page de détails de l’enregistrement. La page de détails de l’enregistrement s’ouvre dans Workfront Planning.
 1. Pointez sur une carte d’enregistrement, puis cliquez sur l’icône de déconnexion d’enregistrement **-**, puis cliquez sur **Déconnecter**.
-Les événements suivants se produisent :
+Les événements suivants se produisent :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
    * L’objet Workfront est également supprimé du champ connecté de l’enregistrement de Workfront Planning.
    * Les valeurs des champs de recherche Workfront connectés à l’enregistrement Planning sont également supprimées.
 1. Cliquez sur **Connect** pour connecter plus d’enregistrements pour les types d’enregistrements connectés. Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
-   Les événements suivants se produisent :
+   Les événements suivants se produisent :
 
    * Les enregistrements sont immédiatement connectés à l’objet Workfront et s’affichent dans la section Planification .
    * L’objet Workfront est ajouté au champ connecté de l’enregistrement Workfront Planning.

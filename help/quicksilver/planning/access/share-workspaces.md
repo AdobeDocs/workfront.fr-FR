@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 80%
@@ -185,6 +185,30 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 1. Cliquez sur **Copier le lien** pour copier un lien vers l’espace de travail dans le presse-papiers.
 1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des personnes actives et se connecter à Workfront pour pouvoir accéder à l’espace de travail.
 1. Cliquer sur **Enregistrer**.
+
+<!--
+## Grant permissions to a workspace from a permission request
+
+Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 
+
+1. (Conditional) If you are are the manager of a workspace, you might receive a request from another user to access the view in the following areas:
+   
+   * An in-app notification
+      ![](assets/in-app-notification-for-access-request.png)
+   * An email notification
+      ![](assets/email-notification-for-access-request.png)
+1. (Conditional) From the notification area in Workfront, click the in-app notification
+   Or
+   From the email notification, click **View all notifications**, then click the notification in the list.
+
+   The **Pending access requests** box displays. 
+
+      ![](assets/notifications-list-approval-box.png)
+1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
+1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+
+   If you approved the request, the users are added to the sharing box of the workspace. 
+-->
 
 
 ## Supprimer des autorisations d’un espace de travail

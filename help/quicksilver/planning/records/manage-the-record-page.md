@@ -1,20 +1,20 @@
 ---
 title: Gestion de la mise en page de la page d’enregistrement
 description: Vous pouvez modifier la mise en page de l’aperçu des enregistrements et de la page dans Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Gestion de la mise en page de la page d’enregistrement
+# Gérer la mise en page de la page d’enregistrement
 
 {{planning-important-intro}}
 
@@ -35,8 +35,6 @@ Pour plus d’informations, voir les articles suivants :
 * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
 
 ## Conditions d’accès
-
-<!--Updated for GA-->
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
@@ -77,7 +75,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
 <p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p>
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p>
    </td>
 
 </tr>

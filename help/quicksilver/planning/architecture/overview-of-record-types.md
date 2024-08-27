@@ -1,20 +1,19 @@
 ---
-title: Types d’enregistrement - Aperçu
+title: Présentation des types d’enregistrement
 description: Les types d’enregistrement sont les blocs de construction d’un espace de travail Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Types d’enregistrement - Aperçu
+# Vue d’ensemble des types d’enregistrement
 
 {{planning-important-intro}}
 

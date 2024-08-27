@@ -1,28 +1,17 @@
 ---
-title: Connecter des types d’enregistrements
+title: Connexion à des types d’enregistrement
 description: Une façon d’indiquer comment les types d’enregistrements individuels sont associés les uns aux autres consiste à les connecter. En outre, vous pouvez connecter les types d’enregistrements Adobe Workfront Planning aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et utilisatrices et de garder leur attention sur une seule application.
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+feature: Workfront Planning
+role: User
+author: Alina
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: 743dbef27149f42ee2328e45a76be660657a75bb
 workflow-type: tm+mt
 source-wordcount: '2137'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
-<!-----
-title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
-hidefromtoc: yes
-hide: yes
-feature: Work management
-role: User
-author: Alina
---->
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Connecter des types d’enregistrements
 
@@ -46,8 +35,6 @@ Pour un exemple de connexion de types d&#39;enregistrements et d&#39;enregistrem
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
 ## Conditions d’accès
-
-<!--Updated for GA-->
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
@@ -86,7 +73,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
 <p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 

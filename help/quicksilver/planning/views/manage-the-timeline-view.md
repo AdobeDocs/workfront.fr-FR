@@ -1,30 +1,19 @@
 ---
 title: Gérer la vue chronologique
 description: Accédez aux enregistrements et modifiez-les dans une vue de chronologie sur la page de type d’enregistrement de la planification Adobe Workfront. Personnalisez la chronologie à l’aide de filtres, de regroupements et de paramètres. Utilisez la fonction Ventilation pour afficher les enregistrements connectés.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2621'
 ht-degree: 60%
 
 ---
 
 # Gérer la vue chronologique
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,11 +23,9 @@ Pour plus d’informations sur les vues d’enregistrement, consultez la section
 
 ## Conditions d’accès
 
-<!--Updated for GA-->
++++ Développez pour afficher les exigences d’accès à la planification Workfront.
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
-
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto"> 
 <col> 
@@ -73,14 +60,13 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
 <p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td> <ul><li><p>Tout, pour afficher les informations de la planification Workfront</p></li>
-   <li><p>Standard, pour créer des espaces de travail</p></li></ul>
+   <td><p> Standard </p>
    <p>La planification Workfront n’est pas disponible pour les licences Workfront héritées</p> 
   </td> 
   </tr> 
@@ -92,7 +78,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Autorisations de gestion d’une vue</p>  
-   <p>Affichage d’autorisations ou d’autorisations supérieures sur une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
+   <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -102,6 +88,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 * Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--OLD: 
 
@@ -161,7 +149,6 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Gérer une vue chronologique {#manage-a-timeline-view}
 

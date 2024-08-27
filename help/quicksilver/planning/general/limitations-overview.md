@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 46%
+source-wordcount: '309'
+ht-degree: 47%
 
 ---
 
@@ -30,8 +30,8 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Nombre de sections d’un espace de travail | 50 |
 | Nombre de types d’enregistrement d’un espace de travail | 1 000 (y compris les types d’enregistrement de toutes les sections et ceux créés lors de l’utilisation d’un modèle d’espace de travail) |
 | Nombre d’enregistrements d’un type d’enregistrement | 25 000 |
-| Nombre d&#39;enregistrements pour un espace de travail | 25 000 pour les clients avec le plan de planification <br> 500 000 pour les clients avec le plan Plus de planification |
-| Nombre total d&#39;enregistrements pour une instance de type Planification Workfront | 500 000 pour les clients ayant le plan de planification <br>2 millions pour les clients ayant le plan Plus de planification |
+| Nombre d&#39;enregistrements pour un espace de travail | 25 000 pour les clients ayant une planification <br> 500 000 pour les clients ayant une planification plus |
+| Nombre total d’enregistrements pour une instance de la planification Workfront | 500 000 pour les clients ayant le plan de planification <br>2 millions pour les clients ayant le plan Plus |
 | Nombre de champs d’un type d’enregistrement ou d’une taxonomie | 500 |
 | Nombre de caractères d’un champ de texte | 1 000 caractères |
 | Taille de fichier que vous pouvez coller dans un tableau de type enregistrement | 1 Mo |
