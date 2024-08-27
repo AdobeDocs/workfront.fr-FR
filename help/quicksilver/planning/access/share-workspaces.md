@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 80%
+source-wordcount: '668'
+ht-degree: 58%
 
 ---
 
@@ -186,29 +186,27 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des personnes actives et se connecter à Workfront pour pouvoir accéder à l’espace de travail.
 1. Cliquer sur **Enregistrer**.
 
-<!--
-## Grant permissions to a workspace from a permission request
+## Octroi d’autorisations à un espace de travail à partir d’une demande d’autorisation
 
-Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 
+Les utilisateurs qui accèdent à un lien vers un espace de travail auquel ils ne sont pas autorisés peuvent demander des autorisations sur l’espace de travail. Tous les utilisateurs disposant des autorisations Manage (Gérer) pour l’espace de travail reçoivent la demande d’autorisation et peuvent accorder ou refuser des autorisations.
 
-1. (Conditional) If you are are the manager of a workspace, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request.png)
-   * An email notification
-      ![](assets/email-notification-for-access-request.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. (Conditionnel) Si vous êtes le responsable d’un espace de travail, vous pouvez recevoir une demande d’un autre utilisateur pour accéder à la vue dans les zones suivantes :
 
-   The **Pending access requests** box displays. 
+   * Une notification in-app
+     ![](assets/in-app-notification-for-access-request.png)
+   * Une notification électronique
+     ![](assets/email-notification-for-access-request.png)
+1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app.
+Ou
+Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications**, puis cliquez sur la notification dans la liste.
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   La zone **Demandes d’accès en attente** s’affiche.
 
-   If you approved the request, the users are added to the sharing box of the workspace. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. Sélectionnez l’utilisateur pour lequel vous souhaitez approuver ou refuser l’autorisation, puis cliquez sur **Approuver tout** ou **Refuser tout**.
+1. Cliquez sur la flèche pointant vers la gauche de **Demandes d&#39;accès en attente**, puis cliquez sur **Enregistrer**.
+
+   Si vous avez approuvé la requête, les utilisateurs sont ajoutés à la boîte de partage de l’espace de travail. L’utilisateur qui demande l’autorisation reçoit une confirmation par email que sa demande a été approuvée. <!--will they also get an in-app notification??-->
 
 
 ## Supprimer des autorisations d’un espace de travail

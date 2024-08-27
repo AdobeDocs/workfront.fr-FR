@@ -1,10 +1,11 @@
 ---
 title: "Demandes de planification Adobe Workfront : index de l’article"
 description: Vous pouvez créer un formulaire de demande pour chaque type d’enregistrement, le partager avec les utilisateurs et ajouter de nouveaux enregistrements en remplissant et en envoyant le formulaire.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 7%
@@ -14,8 +15,6 @@ ht-degree: 7%
 # Demandes de planification Adobe Workfront : index des articles
 
 Vous pouvez créer un formulaire de demande pour chaque type d’enregistrement, le partager avec les utilisateurs et ajouter de nouveaux enregistrements en remplissant et en envoyant le formulaire.
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 Cette section contient les articles suivants :
 

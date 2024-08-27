@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '3451'
-ht-degree: 81%
+source-wordcount: '3609'
+ht-degree: 77%
 
 ---
 
@@ -449,34 +449,31 @@ Pour plus d’informations, voir [Vue d’ensemble des champs Formule](/help/qui
    >
    >* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le budget du projet dans la formule que vous créez pour le type d’enregistrement Activité .
 
-<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+1. Dans le champ **Format** , sélectionnez l’un des choix suivants pour identifier le format du résultat affiché dans le champ de type de formule :
 
-    * **Text**: The result of the formula field displays as plain text. 
-    * **Number**: The result of the formula field displays as a number. 
-    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
-    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
-    * **Tags**: The result of the formula field displays as a tag with the object's name. 
-    
-        >[!TIP]
-        >
-        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+   * **Texte** : le résultat du champ de formule s’affiche en texte brut.
+   * **Number** : le résultat du champ de formule s’affiche sous la forme d’un nombre.
+   * **Pourcentage** : le résultat du champ de formule s’affiche sous la forme d’un nombre suivi d’un symbole de pourcentage.
+   * **Devise** : le résultat du champ de formule s’affiche sous la forme d’un nombre précédé ou suivi d’un symbole monétaire.
+   * **Balises** : le résultat du champ de formule s’affiche sous la forme d’une balise avec le nom de l’objet.
 
-    * **Date**: The result of the formula field displays as a date. 
+     >[!TIP]
+     >
+     >Nous recommandons des balises pour les champs qui affichent des tableaux. Dans ce cas, chaque membre du tableau s’affiche sous la forme d’une balise distincte.
 
+     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
-        A preview of what the result will look like displays under the **Format** field. 
+   * **Date** : le résultat du champ de formule s’affiche sous la forme d’une date.
 
-        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     Un aperçu du résultat s’affiche sous le champ **Format**.
 
-        >[!WARNING]
-        >
-        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+     >[!WARNING]
+     >
+     >Si le résultat de la formule ne correspond pas au format sélectionné, le champ affiche un message d’erreur à l’emplacement où il s’affiche.
 
--->
 1. Cliquez sur **Créer**.
 
    Le nouveau champ de formule est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
-
 
 ### Personnes
 

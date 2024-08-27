@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 28%
+source-wordcount: '413'
+ht-degree: 24%
 
 ---
 
@@ -17,15 +17,14 @@ ht-degree: 28%
 
 {{planning-important-intro}}
 
-Lorsqu’une personne vous balise dans un commentaire d’enregistrement, vous pouvez recevoir une notification in-app pour cette balise.
+Vous pouvez recevoir des notifications in-app de la planification Workfront lorsque les scénarios suivants se présentent :
 
->[!IMPORTANT]
->
->Votre entreprise doit être un client Adobe Unified Experience pour pouvoir recevoir des notifications de Workfront Planning.
->
->Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+* Quelqu&#39;un vous marquera dans un commentaire d&#39;enregistrement
 
-Pour plus d’informations sur le balisage des autres dans un commentaire d’enregistrement, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
+  Pour plus d’informations sur le balisage des autres dans un commentaire d’enregistrement, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
+* Une personne demande votre autorisation d’accéder à une vue ou à un espace de travail.
+* Quelqu&#39;un confirme que votre accès a été accordé pour une vue ou un espace de travail <!--verify this-->
+* Quelqu&#39;un a refusé votre accès pour une vue ou un espace de travail. <!--verify this-->
 
 ## Conditions d’accès
 
@@ -158,7 +157,7 @@ OLD:
 +++
 -->
 
-## Gestion des notifications in-app
+## Gestion des notifications in-app lorsqu’un utilisateur vous balise dans un commentaire
 
 1. (Conditionnel) Après qu’un utilisateur vous ait marqué dans un commentaire sur un enregistrement, accédez à l’icône **Notifications** in-app ![](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
 
@@ -170,3 +169,8 @@ OLD:
 
 1. (Facultatif) Cliquez sur **Tout marquer comme lu** pour indiquer que vous avez lu toutes les notifications.
 1. (Facultatif) Cliquez sur **Afficher tout** pour accéder à la page **Notifications** dans Adobe Experience Cloud.
+
+
+## Gérer les notifications in-app lors de la demande, de l’octroi ou du refus d’autorisations pour une vue ou un espace de travail
+
+Pour plus d’informations sur la demande, l’octroi ou le refus d’accès à une vue ou à un espace de travail, voir [Demande d’accès à une vue ou à un espace de travail](/help/quicksilver/planning/access/request-permissions.md).

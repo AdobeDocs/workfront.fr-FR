@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1833'
-ht-degree: 57%
+source-wordcount: '1868'
+ht-degree: 56%
 
 ---
 
@@ -187,6 +187,10 @@ Vous pouvez modifier un enregistrement à partir des zones suivantes :
 * [À partir d’un objet Workfront dans la section Planification](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Modifier un enregistrement en ligne dans la vue de tableau d’un type d’enregistrement
+
+Lorsque vous modifiez des enregistrements à partir de la vue de table, il existe une indication du champ en cours de modification par d’autres utilisateurs au moment où vous affichez l’enregistrement.
+
+Pour plus d’informations, consultez la section [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
 {{step1-to-planning}}
 

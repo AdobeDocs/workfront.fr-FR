@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 63%
+source-wordcount: '590'
+ht-degree: 60%
 
 ---
 
@@ -162,17 +162,16 @@ OLD:
 * Vous pouvez mettre à jour le calcul d’un champ de formule après l’avoir enregistré, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
 * Vous devez ajouter les champs que vous référencez dans les formules tel qu’ils s’affichent dans l’interface de Workfront Planning.
 * Vous pouvez référencer uniquement les champs qui s’affichent dans la vue de tableau d’un type d’enregistrement ou sur la page des détails de l’enregistrement.
-<!--* You can format the result of a formula calculation by choosing from the following options:
+* Vous pouvez définir le format de la valeur d&#39;un calcul de formule en choisissant parmi les options de format suivantes :
 
-   * Text
-   * Number
-   * Percent
-   * Currency
-   * Tags
+   * Texte
+   * Nombre
+   * Pourcentage
+   * Devise
+   * Balises
    * Date
 
-   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
-
+  Pour plus d’informations, reportez-vous à la section &quot;Formule&quot; de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Formules prises en charge
 

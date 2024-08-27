@@ -4,11 +4,12 @@ title: "Activité de planification des versions Adobe Workfront pour la version 
 description: Il s’agit de l’activité de mise à jour du produit Adobe Workfront Planning pour le quatrième trimestre 2024.
 author: Alina
 feature: Product Announcements
+role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 8%
+source-wordcount: '291'
+ht-degree: 19%
 
 ---
 
@@ -40,6 +41,16 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >
 >Version d’aperçu et de production : 28 août 2024
 
-Workfront Planning est disponible pour tous les clients qui ont acheté une licence Workfront Planning, en plus de leur licence Workfront. Pour plus d’informations sur la planification Workfront, contactez le représentant du compte.
+Adobe Workfront Planning est une nouvelle offre d’Adobe Workfront. Workfront Planning a pour objectif d’offrir une visibilité complète sur les détails opérationnels d’une entreprise et de répondre aux questions métier critiques à chaque étape du cycle de vie de la gestion du travail.
+
+Voici quelques-unes des principales fonctionnalités de la planification Adobe Workfront :
+
+* Résolvez le problème du travail de planification à toutes les étapes et pour toutes les parties prenantes qui participent au processus de travail.
+
+* Personnalisez entièrement vos workflows, depuis le choix des types d’objets (ou des types d’enregistrement) utilisés par votre entreprise jusqu’à la configuration de l’interconnexion de ces objets.
+
+* Connectez-vous à des types d’objets provenant d’autres systèmes, créant ainsi une structure cohérente pour tous vos processus.
 
 Pour plus d’informations sur la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+
+Pour plus d’informations sur les fonctionnalités publiées dans Workfront Planning avant ce lancement, voir également [Activité de publication Adobe Workfront Planning pour 2024](/help/quicksilver/planning/general/release-activity.md).

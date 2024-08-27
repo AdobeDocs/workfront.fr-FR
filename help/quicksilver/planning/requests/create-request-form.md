@@ -1,13 +1,14 @@
 ---
 title: Création et gestion d’un formulaire de requête dans Adobe Workfront Planning
 description: Après avoir sélectionné un type d’enregistrement dans la zone de planification Adobe Workfront, vous pouvez créer un formulaire de demande et l’associer à ce type d’enregistrement. Vous pouvez ensuite partager un lien vers ce lien avec d’autres utilisateurs internes ou externes. Les utilisateurs disposant d’un lien vers le formulaire peuvent renseigner les valeurs de champ qu’il contient et en l’envoyant, ils peuvent ajouter un nouvel enregistrement pour le type d’enregistrement qui lui est associé.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 16%
+source-wordcount: '1138'
+ht-degree: 15%
 
 ---
 
@@ -17,9 +18,13 @@ ht-degree: 16%
 
 {{planning-important-intro}}
 
-Après avoir sélectionné un type d’enregistrement dans la zone de planification Adobe Workfront, vous pouvez créer un formulaire de demande et l’associer à ce type d’enregistrement. Vous pouvez ensuite partager un lien vers ce lien avec d’autres utilisateurs internes ou externes. <!--double-check on the external part of it-->
+Vous pouvez créer un formulaire de demande et l’associer à un type d’enregistrement dans Adobe Workfront Planning. Vous pouvez ensuite partager un lien vers ce lien avec d’autres utilisateurs internes ou externes.
 
-Les utilisateurs disposant d’un lien vers le formulaire peuvent renseigner les valeurs de champ qu’il contient et en l’envoyant, ils peuvent ajouter un nouvel enregistrement pour le type d’enregistrement qui lui est associé.
+Les utilisateurs disposant d’un lien vers le formulaire peuvent y mettre à jour les valeurs de champ et ajouter de nouveaux enregistrements en les envoyant.
+
+Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
+
+Pour plus d’informations sur l’envoi d’une demande à un type d’enregistrement pour créer un enregistrement, voir [Soumettre des demandes de planification Adobe Workfront pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -169,9 +174,11 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    >[!IMPORTANT]
    >
-   >Lorsque vous sélectionnez N’importe qui avec le lien, toute personne, même toute personne en dehors de votre entreprise sans compte Workfront, peut accéder au formulaire et envoyer un nouvel enregistrement.
+   >Lorsque vous sélectionnez **Toute personne disposant du lien**, tout le monde peut accéder au formulaire et envoyer un nouvel enregistrement, même les personnes en dehors de votre organisation qui n’ont pas de compte Workfront.
 
-1. (Conditionnel) Si vous avez sélectionné **Toute personne ayant le lien** à l’étape précédente, sélectionnez la **date d’expiration du lien** dans le calendrier disponible. Une erreur s’affichera lorsque le lien arrivera à expiration. Vous devrez mettre à jour la date du lien pour pouvoir accéder à nouveau au formulaire.  <!--add info here about how long the expiration date should be; logged bug-->
+1. (Conditionnel) Si vous avez sélectionné **Toute personne ayant le lien** à l’étape précédente, sélectionnez la **date d’expiration du lien** dans le calendrier disponible. Une erreur s’affichera lorsque le lien arrivera à expiration. Vous devrez mettre à jour la date du lien pour pouvoir accéder à nouveau au formulaire.
+
+   Vous pouvez sélectionner des dates futures dans les 180 jours à partir de la date actuelle.
 
 1. Cliquez sur **Enregistrer et copier le lien** pour enregistrer les détails de partage pour le formulaire.
 
@@ -190,6 +197,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    >[!TIP]
    >
    >Il y a une indication que le lien est partagé publiquement lorsque c&#39;est le cas.
+   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
 
 
 

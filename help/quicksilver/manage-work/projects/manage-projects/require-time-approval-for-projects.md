@@ -6,18 +6,16 @@ description: Demander du temps pour l’approbation d’un projet
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 16%
+source-wordcount: '761'
+ht-degree: 11%
 
 ---
 
 # Demander du temps pour l’approbation d’un projet
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN A TOOLTIP IN THE EDIT PROJECT MODAL) </p>
--->
+<!--audited: 08/2024-->
 
 Vous pouvez configurer le projet pour que les heures consignées par rapport au projet soient approuvées par le propriétaire du projet. Lorsqu’elles sont configurées de cette manière, les heures doivent d’abord être approuvées par le propriétaire du projet avant de pouvoir être utilisées sur un enregistrement de facturation.\
 Pour plus d’informations sur les enregistrements de facturation, consultez l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
@@ -40,19 +38,22 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Prévoyez le temps nécessaire à l’approbation du projet.</p>
-   <p>Passez en revue ou au-delà pour approuver les heures de connexion à un projet.</p>
+   <td> <p>Pour avoir le temps d’être approuvé sur le projet :</p>
+   <ul><li>Nouvelle : standard</li>
+   <li>Actuelle : formule</li></ul>
+
+<p>Pour approuver les heures connectées à un projet :</p>
+   <ul><li>Nouveau : Léger ou supérieur</li>
+   <li>Révision ou supérieur</li>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès à Projets ou version ultérieure</p> <p><b>NOTE</b>
-
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
-</tr> 
+   <td> <p>Modifier l’accès à Projets ou version ultérieure</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage des autorisations pour le projet ou version ultérieure</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Affichage des autorisations pour le projet ou version ultérieure</p>
   </tr> 
   <tr> 
    <td role="rowheader">Accès supplémentaire</td> 
@@ -63,7 +64,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
        <li>Si vous disposez des autorisations de gestion sur le projet, vous pouvez approuver ou rejeter les heures de connexion au projet par tout autre utilisateur.</li>
        <li> Si vous disposez d’un accès Contribute ou Afficher au projet, vous pourrez approuver ou rejeter uniquement les heures enregistrées par vous ou par tout autre utilisateur qui vous signale.<br></li>
       </ul></li> 
-     <li>Vous disposez d’une licence Plan avec un accès administratif aux Fiches horaires et heures. Dans ce cas :
+     <li>Vous disposez d’une licence Plan avec un accès administratif aux Fiches horaires et heures. Dans ce cas :
       <ul>
        <li>Vous pouvez approuver ou rejeter toutes les heures sur les projets que vous disposez au moins des autorisations nécessaires pour les afficher. </li>
       </ul></li> 
@@ -72,7 +73,7 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Demander du temps pour l’approbation d’un projet
 
@@ -90,22 +91,27 @@ Pour exiger l’approbation du chef de projet pendant des heures, procédez comm
 
 En tant que chef de projet, vous pouvez approuver ou rejeter les heures enregistrées pour les tâches, les problèmes ou le projet.
 
-La validation des heures au niveau du projet n’a aucun impact sur la feuille de temps des utilisateurs qui ont consigné les heures. Par exemple, les heures du projet peuvent être approuvées par le chef de projet, mais la feuille de temps doit encore être approuvée par le responsable de l’utilisateur ou l’approbateur de la feuille de temps. 
+La validation des heures au niveau du projet n’a aucun impact sur la feuille de temps des utilisateurs qui ont consigné les heures. Par exemple, les heures du projet peuvent être approuvées par le chef de projet, mais la feuille de temps doit encore être approuvée par le responsable de l’utilisateur ou l’approbateur de la feuille de temps.
 
-Si vous configurez un projet pour qu’il soit approuvé aux heures consignées, le chef de projet doit approuver les heures afin qu’elles puissent être incluses dans un enregistrement de facturation pour le projet. Pour plus d’informations sur la création d’enregistrements de facturation, consultez l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
+Si vous configurez un projet pour qu’il soit approuvé aux heures consignées, le chef de projet doit approuver les heures afin qu’elles puissent être incluses dans un enregistrement de facturation pour le projet. Pour plus d’informations sur la création d’enregistrements de facturation, voir l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Pour approuver ou rejeter des heures sur un projet :
 
 1. Accédez au projet.
-1. Cliquez sur la zone **Hours** dans le panneau de gauche. Elle peut se trouver sous la zone **Afficher plus**.
+1. Cliquez sur la zone **Hours** dans le panneau de gauche. Elle peut se trouver sous la zone **Afficher plus**.
 
 1. Les heures consignées pour les problèmes, les tâches et le projet s’affichent et doivent avoir le statut **Envoyé**.\
    Cliquez sur la zone située à gauche des entrées d’heure pour sélectionner les heures à valider.
 
-1. Cliquez sur **Approve**.\
+1. Cliquez sur l’icône **Approuver** ![](assets/approve-hours-icon.png) en haut de la liste des heures.\
    L’état des heures passe à **Approuvé**.\
    Si vous rejetez par la suite les heures approuvées, l’état des heures passe à **Non approuvé**.\
    Lorsque vous incluez les heures approuvées dans un enregistrement de facturation, l’état des heures passe à **Facturé et Approuvé**. Les heures ajoutées à un enregistrement de facturation ne peuvent pas être supprimées. Pour plus d’informations sur la création d’enregistrements de facturation, consultez l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Facultatif) Cliquez sur **Rejeter** pour rejeter les entrées d’heure sur le projet.\
+1. (Facultatif) Cliquez sur l’icône **Rejeter** ![](assets/reject-hours-icon.png) pour rejeter les entrées d’heure sur le projet.\
    L’état des heures passe à **Refusé**.
+
+   >[!NOTE]
+   >
+   >   Si les heures sélectionnées sont incluses dans un enregistrement de facturation qui a été marqué comme Facturé ou Facturé et Approuvé, les icônes Approuver et Rejeter ne s’affichent pas. Vous ne pouvez valider que les heures qui ne sont pas déjà facturées dans un enregistrement de facturation.
+

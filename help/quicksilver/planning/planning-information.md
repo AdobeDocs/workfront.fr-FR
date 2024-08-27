@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 3fe348250dae1af6cbb74c3704bc396d90ac378a
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 30%
+source-wordcount: '594'
+ht-degree: 28%
 
 ---
 
@@ -83,12 +83,10 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
    * Partager des enregistrements
    * Section Planification Workfront pour les objets Workfront
 
-<!--
-* [Adobe Workfront Planning Requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) contains the following information:
+* [Requêtes de planification Adobe Workfront : l’index d’article](/help/quicksilver/planning/requests/requests-article-index.md) contient les informations suivantes :
 
-    * How to create a request form for a record type.
-    * How users can submit a request to a record type request form and create records. 
--->
+   * Comment créer un formulaire de demande pour un type d’enregistrement.
+   * Comment les utilisateurs peuvent envoyer une demande à un formulaire de demande de type enregistrement et créer des enregistrements.
 
 * [Vues : l’index de l’article](/help/quicksilver/planning/views/views-information.md) contient les informations suivantes :
 

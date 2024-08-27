@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '2708'
-ht-degree: 73%
+source-wordcount: '2786'
+ht-degree: 71%
 
 ---
 
@@ -180,6 +180,7 @@ Pour gérer une vue de tableau, procédez comme suit :
    * [Filtres](#add-filters)
    * [Regroupement ](#add-groupings)
    * [Tri](#add-a-sort)
+   * [Activer l’indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
 
 
 ### Ajouter des colonnes (ou des champs) {#add-columns}
@@ -523,3 +524,11 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+### Activer l’indicateur de présence en temps réel
+
+Les avatars des autres utilisateurs qui modifient les informations d’enregistrement en même temps que vous les affichez dans le coin supérieur droit de toutes les vues d’enregistrement, par défaut.
+
+Lorsque vous affichez le mode Tableau, vous pouvez également afficher le champ qu’un autre utilisateur modifie au moment de l’affichage de l’enregistrement.
+
+Pour plus d’informations, voir la section &quot;Activer l’indicateur de présence en temps réel&quot; dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).

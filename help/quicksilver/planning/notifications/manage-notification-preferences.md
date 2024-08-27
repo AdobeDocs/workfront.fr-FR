@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 29%
+source-wordcount: '431'
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,11 @@ ht-degree: 29%
 
 {{planning-important-intro}}
 
-Lorsqu’une personne vous ajoute à un commentaire sur la page d’enregistrement, vous recevez un message in-app ainsi qu’une notification par e-mail concernant le commentaire.
+Vous pouvez recevoir une notification in-app ou par e-mail lorsque les actions suivantes se produisent dans Workfront Planning :
+
+* Quelqu&#39;un vous ajoute à un commentaire sur la page d&#39;enregistrement
+* Une personne demande l’autorisation d’accéder à un affichage ou à un espace de travail.
+* Quelqu&#39;un vous accorde ou vous refuse l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--test this - could not test before GA-->
 
 ## Conditions d’accès
 
@@ -90,6 +94,12 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
 +++
 
+
+Pour plus d’informations sur les notifications Workfront Planning, consultez également les articles suivants :
+
+* Pour plus d’informations sur les commentaires sur les enregistrements, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
+* Pour plus d’informations sur les notifications in-app de Workfront Planning, voir [Gestion des notifications in-app pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
+* Pour plus d’informations sur les notifications par e-mail de Workfront Planning, voir [Gestion des notifications par e-mail pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 <!--
 
 OLD: 
@@ -152,16 +162,18 @@ OLD:
 
 1. Connectez-vous à Workfront à l’aide de vos informations d’identification Adobe Experience Cloud.
 1. Cliquez sur l’icône **menu du compte** ![](assets/account-menu-icon-on-experience-cloud.png) dans le coin supérieur droit de l’écran, puis cliquez sur **Préférences**.
-1. Dans la section **Notifications** , cliquez sur **Workfront**, puis suivez les étapes de l’article suivant pour gérer vos préférences de notification pour la planification Workfront :
-   [ Préférences de compte et notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+1. Sous la section **Notifications**, cliquez sur **Workfront**.
+1. Sélectionnez les notifications que vous souhaitez recevoir.
+Ou
+Désélectionnez les notifications que vous souhaitez arrêter de recevoir.
 
-Pour plus d’informations sur les notifications Workfront Planning, consultez également les articles suivants :
+   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+1. Les notifications suivantes sont disponibles pour Workfront :
 
-* Pour plus d’informations sur les commentaires sur les enregistrements, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
-* Pour plus d’informations sur les notifications in-app de Workfront Planning, voir [Gestion des notifications in-app pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Pour plus d’informations sur les notifications par e-mail de Workfront Planning, voir [Gestion des notifications par e-mail pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+   * **Mentions** : vous recevez une notification lorsqu’un utilisateur vous balise dans un commentaire dans Workfront Planning
+   * **Demandes** : vous recevez une notification lorsqu’une personne demande l’autorisation d’un objet de planification Workfront
 
-
+   Pour plus d’informations sur la gestion des notifications, voir [ Préférences de compte et notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 

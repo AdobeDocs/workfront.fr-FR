@@ -1,11 +1,13 @@
 ---
 title: Demande d’autorisations pour une vue ou un Workspace
 description: Vous pouvez demander des autorisations pour une vue ou un espace de travail vers lequel d’autres vous ont envoyé un lien qui n’a pas été partagé avec vous auparavant.
-hidefrontoc: true
-hide: true
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 15%
 
 ---
@@ -130,6 +132,6 @@ Lorsqu’une personne partage avec vous un lien vers un espace de travail ou une
 
    * [Partager des vues](/help/quicksilver/planning/access/share-views.md)
    * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Conditionnel) Lorsque le gestionnaire d’affichage ou d’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail confirmant que les autorisations ont été accordées ou refusées. <!--check this - I was not able to test this-->
+1. (Conditionnel) Lorsque le gestionnaire d’affichage ou d’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail et une notification in-app confirmant que l’autorisation a été accordée. <!--check this - I was not able to test this-->
 
 

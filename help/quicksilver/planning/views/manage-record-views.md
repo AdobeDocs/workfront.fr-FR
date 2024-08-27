@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 75%
+source-wordcount: '1368'
+ht-degree: 66%
 
 ---
 
@@ -37,6 +37,7 @@ Cet article présente les informations suivantes sur les vues d’enregistrement
 * [Créer et modifier une vue](#create-or-edit-record-views)
 * [Supprimer une vue](#delete-views)
 * [Dupliquer une vue](#duplicate-views)
+* [Activer les indicateurs de présence en temps réel dans une vue](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -343,3 +344,22 @@ Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans
 
    La vue est dupliquée et le nom de la nouvelle vue suit le modèle suivant : `Original view's name (Copy)`. Le nouvel onglet de vue s’affiche à la fin de tous les onglets de vue.
 
+## Activation de l’indicateur de présence en temps réel dans une vue
+
+Les avatars des autres utilisateurs qui modifient les informations d’enregistrement en même temps que vous les affichez dans le coin supérieur droit de toutes les vues d’enregistrement, par défaut.
+
+Lorsque vous affichez le mode Tableau, vous pouvez également afficher le champ qu’un autre utilisateur modifie au moment de l’affichage de l’enregistrement.
+
+1. Accédez à une page de type enregistrement et ouvrez n’importe quelle vue.
+1. (Conditionnel) Si d’autres utilisateurs modifient simultanément les enregistrements du type sélectionné, leurs avatars s’affichent dans le coin supérieur droit de la vue.
+1. Cliquez sur le menu déroulant en regard des avatars, puis sélectionnez l’option **Afficher les collaborateurs** . Le bouton bascule est sélectionné par défaut.
+
+   ![](assets/show-collaborators-toggle-selected.png)
+
+1. (Conditionnel) Ouvrez une vue de tableau et le champ que quelqu’un modifie est encadré dans la couleur correspondant au contour de son avatar dans la vue de tableau.
+
+   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >Vous pouvez sélectionner la bascule **Afficher les collaborateurs** à partir de n’importe quelle vue. Le champ modifié est indiqué uniquement dans la vue de tableau.

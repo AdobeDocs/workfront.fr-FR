@@ -1,19 +1,18 @@
 ---
 title: Soumettre des demandes de planification Adobe Workfront
 description: Une fois qu’une personne a partagé avec vous un lien vers un formulaire de demande à partir d’une page de type enregistrement dans Adobe Workfront Planning, vous pouvez ajouter une requête pour créer des enregistrements pour le type d’enregistrement associé au formulaire de demande.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 12%
+source-wordcount: '659'
+ht-degree: 11%
 
 ---
 
 # Soumettre des demandes de planification Adobe Workfront pour créer des enregistrements
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -22,6 +21,10 @@ ht-degree: 12%
 Une fois qu’une personne a partagé avec vous un lien vers un formulaire de demande à partir d’une page de type enregistrement dans Adobe Workfront Planning, vous pouvez ajouter une requête pour créer des enregistrements pour le type d’enregistrement associé au formulaire de demande.
 
 Les utilisateurs de Workfront et les utilisateurs externes peuvent envoyer des requêtes à Planification des types d’enregistrement et créer des enregistrements. <!--double check on the external users-->
+
+Cet article décrit comment envoyer une demande d’ajout de nouveaux enregistrements à un type d’enregistrement.
+
+Pour plus d’informations sur la façon dont un gestionnaire d’espace de travail peut créer un formulaire de requête et l’associer à un type d’enregistrement, voir [Création et gestion d’un formulaire de requête dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Conditions d’accès
 
@@ -57,7 +60,6 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <td>
 <p>N’importe quelle </p>  
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </td>
-
 <tr>
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td>
    <td>
@@ -110,7 +112,7 @@ Les éléments suivants doivent être en place avant de pouvoir envoyer une requ
 * Le formulaire de demande doit être partagé avec un lien d’une manière accessible. Les scénarios suivants sont possibles :
 
    * Si vous disposez d’un compte Workfront, le lien a été partagé uniquement avec les personnes internes et vous avez accès à l’espace de travail. Les personnes en dehors de Workfront ne peuvent pas accéder à un lien partagé en interne.
-   * Si vous ne disposez pas d’un compte Workfront, le lien a été partagé avec des personnes externes. Les utilisateurs de Workfront peuvent également utiliser un lien partagé avec des personnes externes.
+   * Si vous ne disposez pas d’un compte Workfront, le lien a été partagé avec des personnes externes. Les utilisateurs de Workfront peuvent également accéder à un lien partagé avec des personnes externes.
 
 * Le lien vers le formulaire ne doit pas avoir expiré.
 

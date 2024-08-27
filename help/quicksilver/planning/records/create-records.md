@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 38%
+source-wordcount: '1450'
+ht-degree: 35%
 
 ---
 
@@ -23,11 +23,11 @@ Dans Adobe Workfront Planning, un enregistrement est une instance d’un type 
 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
-* Ajoutez-les à partir de la page de type enregistrement dans la vue de tableau.
+* Ajout d’enregistrements de la page de type enregistrement dans la vue de tableau
 * Copier et coller une liste d&#39;enregistrements d&#39;une liste externe
-* Les dupliquer
-* Créez-les au fur et à mesure que vous les connectez à partir d&#39;autres enregistrements
-  <!--* Create them by submitting a request form-->
+* Duplication d’enregistrements depuis une vue de tableau
+* Créer des enregistrements lors de leur connexion à partir d&#39;autres enregistrements
+* Créez-les en envoyant un formulaire de demande à un type d’enregistrement.
 
 Cet article décrit comment créer des enregistrements.
 
@@ -165,8 +165,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
 +++
 
-
-## Créez des enregistrements en les ajoutant à un type d&#39;enregistrement <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Créer des enregistrements en les ajoutant à un type d&#39;enregistrement dans une table de type enregistrement
 
 Vous pouvez créer des enregistrements dans la vue de tableau d’une page de type d’enregistrement.
 
@@ -311,13 +310,12 @@ Pour créer des enregistrements lors de leur connexion à partir d&#39;autres en
 Ou
 Cliquez sur son nom pour ouvrir la page de détails et y ajouter des informations.
 
-<!--
-## Create records by submitting a request form
+## Créer des enregistrements en envoyant un formulaire de demande à un type d’enregistrement
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+Après avoir créé un formulaire de demande pour un type d’enregistrement et partagé un lien avec celui-ci, vous pouvez envoyer une demande qui crée un enregistrement pour ce type d’enregistrement.
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+Les utilisateurs de Workfront et les utilisateurs externes à votre organisation peuvent envoyer des requêtes à Planification des types d’enregistrement et créer des enregistrements, s’ils disposent d’un lien vers le formulaire de requête.
 
-For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->
+Pour plus d’informations, voir [Soumettre des demandes de planification Adobe Workfront pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
