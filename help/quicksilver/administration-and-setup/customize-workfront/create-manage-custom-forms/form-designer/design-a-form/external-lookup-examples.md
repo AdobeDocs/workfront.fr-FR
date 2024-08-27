@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 55%
+source-wordcount: '1308'
+ht-degree: 52%
 
 ---
 
@@ -108,6 +108,16 @@ Cet exemple vous montre comment appeler l’API Workfront et importer les donné
 1. Cliquez sur **Appliquer**.
 
    Lorsque le formulaire personnalisé est ajouté à un objet Workfront, toutes les valeurs du champ &quot;Couleurs de la boîte de dialogue&quot; apparaissent dans la liste déroulante du champ de recherche externe.
+
+## Configuration d’un champ de recherche externe pour l’API de planification Workfront
+
+Un point de terminaison est disponible dans l’ [API de planification Workfront](/help/quicksilver/planning/general/planning-api-basics.md) pour rechercher des enregistrements par identifiant de type d’enregistrement via la méthode Get . Vous pouvez utiliser ce point de terminaison pour référencer des enregistrements de planification dans des champs de recherche externes.
+
+* **URL de l’API de base :** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
+* **Méthode HTTP :** Get
+* **Chemin JSON :** `$.records[*].data.{fieldID}`
+
+  **{fieldID}** est le champ à afficher dans les résultats de recherche externe sur le formulaire personnalisé pour les utilisateurs finaux.
 
 ## Configuration d’un champ de recherche externe pour une API publique
 
