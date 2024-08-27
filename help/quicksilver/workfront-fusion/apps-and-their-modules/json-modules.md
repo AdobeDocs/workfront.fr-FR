@@ -88,7 +88,7 @@ Si le champ de chaîne JSON contient une collection `{ ... }`, la sortie est un 
 >       "name" : "Peter",
 >
 >    
-   "ID" : 1
+>   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Si le champ de chaîne JSON contient un tableau `[ ... ]`, la sortie est une sé
 >   },
 >
 >  
- {
+> {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -238,27 +238,28 @@ Ce module d’action transforme un objet en chaîne json.
 >
 1. Connectez-vous au module [!UICONTROL JSON] > [!UICONTROL Créer JSON] après le module [!UICONTROL Agrégateur de tableau]. La configuration du module nécessite une structure de données qui décrit le format JSON. Cliquez sur **[!UICONTROL Ajouter]** pour ouvrir la configuration de la structure de données. La méthode la plus simple pour créer cette structure de données consiste à la générer automatiquement à partir d’un exemple JSON. Cliquez sur **[!UICONTROL Generator]** et collez votre exemple JSON dans le champ **[!UICONTROL Sample data]** :
 >
-**Exemple :**
+>     **Exemple :**
 >
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>     ```
+>     {
+>     
+>     "books": [
+>     
+>     {
+>     
+>     "id": "ID",
+>     
+>     "title": "Title",
+>     
+>     "author": "Author"
+>     
+>     }
+>     
+>     ]
+>     
+>     }
+>     
+>     ```
 >
 1. Cliquer sur **[!UICONTROL Enregistrer]**. Le champ [!UICONTROL Spécification] de la structure de données contient désormais la structure générée.
 1. Remplacez le nom de votre structure de données par quelque chose de plus spécifique et cliquez sur **[!UICONTROL Enregistrer]**. Un champ correspondant à l’attribut de tableau racine apparaît comme champ mappable dans la configuration du module JSON.
