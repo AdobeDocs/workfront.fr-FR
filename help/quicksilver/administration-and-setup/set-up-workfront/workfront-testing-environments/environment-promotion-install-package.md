@@ -8,12 +8,11 @@ description: La fonctionnalité de promotion de l’environnement est conçue po
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
+source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
 workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -35,7 +34,7 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td>Plan <strong>[!DNL Adobe Workfront]</strong>
    </td>
-   <td> Prime ou Ultimate (Nouveaux plans uniquement)
+   <td> Prime ou Ultimate (nouveaux plans uniquement)
    </td>
   </tr>
   <tr>
@@ -82,7 +81,7 @@ Pour plus d’informations sur les états, voir [États de promotion d’environ
 >* Pour installer un package, vous devez être connecté à l’environnement dans lequel vous souhaitez installer le package. Il s’agit de l’environnement dans lequel vous copiez des objets **vers**.
 
 1. Accédez à l’environnement dans lequel vous souhaitez installer le package.
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]** ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]**  ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **System** dans le volet de navigation de gauche, puis **Environment Promotion**.
 1. Sélectionnez le package dans la liste affichée.
 1. Pour chaque objet ayant une collision, sélectionnez la manière de résoudre la collision.

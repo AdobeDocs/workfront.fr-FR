@@ -8,18 +8,17 @@ description: La fonctionnalité Promotion environnementale vise à permettre de 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
 workflow-type: tm+mt
 source-wordcount: '2095'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Déplacer des objets entre des environnements [!DNL Workfront] à l’aide de l’API Promotion environnementale [!DNL Workfront]
 
-La fonctionnalité Promotion de l’environnement vous permet de déplacer des objets liés à la configuration d’un environnement à un autre. Vous pouvez déplacer ces objets à l’aide de l’API Workfront, comme décrit dans cet article.
+La fonctionnalité Promotion environnementale vous permet de déplacer des objets liés à la configuration d’un environnement à un autre. Vous pouvez déplacer ces objets à l’aide de l’API Workfront, comme décrit dans cet article.
 
 Pour obtenir des instructions sur le déplacement d’objets entre des environnements à l’aide de l’application Workfront, voir :
 
@@ -35,7 +34,7 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td>Plan <strong>[!DNL Adobe Workfront]</strong>
    </td>
-   <td> Prime ou Ultimate (Nouveaux plans uniquement)
+   <td> Prime ou Ultimate (nouveaux plans uniquement)
    </td>
   </tr>
   <tr>
@@ -56,7 +55,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 ## Conditions préalables
 
-Le point d’entrée Créer un package de promotion part du principe que vous avez déjà configuré l’environnement source. Cet appel API nécessite la création manuelle d’un mappage d’objets objCodes [!DNL Workfront] et de GUID d’objets. La structure spécifique de ce mappage est décrite ci-dessous.
+Le point d’entrée Créer un package de promotion part du principe que vous avez déjà configuré l’environnement source. Cet appel API nécessite la création manuelle d’un mappage d’objets objCodes  et de GUID d’objets. [!DNL Workfront] La structure spécifique de ce mappage est décrite ci-dessous.
 
 ## Objets pris en charge pour la promotion environnementale
 
@@ -117,7 +116,7 @@ La deuxième étape utilise le tableau `objectCollections` fourni dans le corps 
 >
 >Chaque élément du tableau contient une clé `objCode` qui correspond au code d’objet documenté dans l’explorateur d’API Workfront.
 >
->Chaque élément contient également une collection d’`entities`. Le champ `ID` est ainsi attendu. Il peut également accepter un attribut `name` facultatif pour permettre de savoir plus facilement ce que représente `ID`.
+>Chaque élément contient également une collection d’. `entities` Le champ  est ainsi attendu. `ID` Il peut également accepter un attribut `name` facultatif pour permettre de savoir plus facilement ce que représente `ID`.
 >
 >Pour obtenir la liste des codes d’objet pouvant être demandés dans la liste `objectCollections`, voir la section [Objets pris en charge pour la promotion environnementale](#supported-objects-for-environment-promotion) dans cet article.
 
@@ -916,17 +915,17 @@ _Vide_
 
 ## Remplacement
 
-C&#39;est un processus en trois étapes.
+Il s’agit d’un processus en 3 étapes.
 
-1. Création d’une carte de traduction (analogue à la phase de préparation de l’installation)
-1. Modifiez la carte de traduction générée, en définissant les champs `action` et `targetId` pour tout objet qu’ils souhaitent remplacer. L’action doit être `OVERWRITING` et `targetId` doit être l’uuid de l’objet qui doit être remplacé.
+1. Créez une carte de traduction (analogue à la phase de « préparation de l’installation »).
+1. Modifiez la carte de traduction générée, en définissant les champs  et  pour tout objet qui doit être remplacé. `action``targetId` L’action doit être `OVERWRITING`, et le `targetId` doit être l’UUID de l’objet qui doit être remplacé.
 1. Exécutez l’installation.
 
-* [Étape 1 - Création d’une carte de traduction](#step-1---create-a-translation-map)
-* [Étape 2 - Modification de la carte de traduction](#step-2---modify-the-translation-map)
-* [Étape 3 - Installation](#step-3---install)
+* [Étape 1 : créer une carte de traduction](#step-1---create-a-translation-map)
+* [Étape 2 : modifier la carte de traduction](#step-2---modify-the-translation-map)
+* [Étape 3 : installer](#step-3---install)
 
-### **Étape 1 - Création d’une carte de traduction**
+### **Étape 1 : créer une carte de traduction**
 
 #### URL
 
@@ -940,7 +939,7 @@ Aucun
 
 #### Réponse
 
-Une carte de traduction, avec un état `202 - OK`
+Une carte de traduction, avec un statut `202 - OK`
 
 ```json
 {
@@ -1013,19 +1012,19 @@ Une carte de traduction, avec un état `202 - OK`
 }
 ```
 
-### Étape 2 - Modification de la carte de traduction
+### Étape 2 : modifier la carte de traduction
 
-Il n’existe aucun point de terminaison pour cette étape.
+Il n’existe aucun point d’entrée pour cette étape.
 
-1. Dans la carte de traduction renvoyée dans [Etape 1 - Créer une carte de traduction](#step-1---create-a-translation-map), examinez la liste des objets qui seront installés.
-1. Mettez à jour le champ d’action sur chaque objet pour l’action d’installation souhaitée.
-1. Validez le `targetId` sur chaque objet. Si l’action définie est `USEEXISTING` ou `OVERWRITING`, `targetId` doit être défini sur l’UUID de l’objet cible dans l’environnement de destination. Pour toute autre action, le targetId doit être une chaîne vide.
+1. Dans la carte de traduction renvoyée dans l’[Étape 1 : créer une carte de traduction](#step-1---create-a-translation-map), examinez la liste des objets qui seront installés.
+1. Mettez à jour le champ d’action sur chaque objet en fonction de l’action d’installation souhaitée.
+1. Validez `targetId` sur chaque objet. Si l’action définie est `USEEXISTING` ou `OVERWRITING`, `targetId` doit être défini sur l’UUID de l’objet cible dans l’environnement de destination. Pour toute autre action, le targetId doit être une chaîne vide.
 
    >[!NOTE]
    >
    >`targetId` est déjà renseigné si une collision a été détectée.
 
-### **Étape 3 - Installation**
+### **Étape 3 : installer**
 
 #### URL
 
@@ -1035,7 +1034,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### Corps
 
-Il s’agit d’un objet avec un seul champ `translationMap`, qui doit être égal à la carte de traduction modifiée de [Etape 2 - Modifier la carte de traduction](#step-2---modify-the-translation-map).
+Il s’agit d’un objet avec un seul champ. `translationMap`, qui doit être égal à la carte de traduction modifiée de l’[Étape 2 : modifier la carte de traduction](#step-2---modify-the-translation-map).
 
 ```json
 {
@@ -1114,9 +1113,9 @@ Il s’agit d’un objet avec un seul champ `translationMap`, qui doit être ég
 
 #### Réponse
 
-La réponse inclut l’état `{uuid of the created installation}` et un état `202 - ACCEPTED`.
+La réponse comprend `{uuid of the created installation}` et un statut `202 - ACCEPTED`.
 
-Exemple : `b6aa0af8-3520-4b25-aca3-86793dff44a6`
+Exemple : `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 

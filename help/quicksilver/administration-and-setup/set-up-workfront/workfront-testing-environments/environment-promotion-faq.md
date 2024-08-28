@@ -8,10 +8,10 @@ description: Explorez les questions les plus fréquemment posées concernant la 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 16%
 
 ---
@@ -30,7 +30,7 @@ La promotion de l’environnement inter-domaines n’est actuellement pas prise 
 
 ### Réponse
 
-Non. La promotion de l’environnement est disponible pour les instances IMS et non IMSWorkfront.
+Non. La promotion de l’environnement est disponible pour les instances Workfront IMS et non IMS.
 
 ## Comment savoir si notre instance Workfront est sous une licence Prime ou Ultimate ?
 
@@ -73,4 +73,3 @@ La restauration est une priorité absolue et est actuellement en cours de dével
 * &quot;Utiliser existant&quot; est la même chose que &quot;sauter&quot; ou ignorer le déploiement, car il correspond à l’objet existant dans l’environnement cible et n’effectue aucune modification.
 * Pour ignorer les objets, il est recommandé de supprimer les
 tous les objets que vous ne souhaitez pas installer à partir du package de promotion ou directement depuis l’environnement source. Après avoir supprimé les objets, réassemblez le module.
-

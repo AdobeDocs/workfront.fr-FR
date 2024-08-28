@@ -8,12 +8,11 @@ description: La fonctionnalité de promotion de l’environnement est conçue po
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -33,7 +32,7 @@ Vous devez disposer des éléments suivants :
   <tr>
    <td>Plan <strong>[!DNL Adobe Workfront]</strong>
    </td>
-   <td> Prime ou Ultimate (Nouveaux plans uniquement)
+   <td> Prime ou Ultimate (nouveaux plans uniquement)
    </td>
   </tr>
   <tr>
@@ -55,7 +54,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 ## Créer un package
 
 1. Accédez à l’environnement dans lequel vous souhaitez créer le module. Il s’agit de l’environnement dans lequel vous copiez des objets **à partir de**.
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]** ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]**  ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **System** dans le volet de navigation de gauche, puis **Environment Promotion**.
 1. Cliquez sur **Créer un module**.
 
@@ -91,7 +90,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 ## Modifier ou assembler un package existant
 
 1. Accédez à l’environnement dans lequel vous souhaitez créer le module. Il s’agit de l’environnement dans lequel vous copiez des objets **à partir de**.
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]** ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]**  ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **System** dans le volet de navigation de gauche, puis **Environment Promotion**.
 1. Sélectionnez le package dans la liste affichée.
 1. (Conditionnel) Pour afficher les modules désactivés, activez l’option **Afficher les modules abandonnés** .
