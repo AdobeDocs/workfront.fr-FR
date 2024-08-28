@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
 workflow-type: tm+mt
-source-wordcount: '3297'
-ht-degree: 97%
+source-wordcount: '3336'
+ht-degree: 96%
 
 ---
 
@@ -111,8 +111,10 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
       <td role="rowheader">Préférences </td> 
       <td> 
        <ul> 
-      <li> <p><b>Fuseau horaire :</b> le fuseau horaire de la personne.</p> <p>Pour plus d’informations sur le travail en collaboration dans Workfront dans différents fuseaux horaires, voir <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Travailler sur plusieurs fuseaux horaires</a>.</p> </li> 
-       <li><b>Paramètre local des e-mails</b> : la langue préférée de l’utilisateur ou de l’utilisatrice pour la messagerie. Cela a une incidence sur le format des nombres et des dates dans les e-mails provenant de Workfront à cette personne.</li>
+      <li> <p><b>Fuseau horaire :</b> le fuseau horaire de la personne.</p> <p>Pour plus d’informations sur le travail en collaboration dans Workfront dans différents fuseaux horaires, voir <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Travailler sur plusieurs fuseaux horaires</a>.</p> </li>
+
+   <li><p><b>Paramètre local des e-mails</b> : la langue préférée de l’utilisateur ou de l’utilisatrice pour la messagerie. Cela a une incidence sur le format des nombres et des dates dans les e-mails provenant de Workfront à cette personne.</p>
+      <p><b>REMARQUE :</b> Lorsque votre organisation se trouve dans l’expérience unifiée de l’Adobe, les préférences linguistiques de l’utilisateur sont stockées dans son profil d’Adobe et la langue de l’email n’est pas utilisée. Pour plus d’informations sur l’accès à ces préférences, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li>
 
    <li><b>Recevoir des e-mails à partir de cet environnement de test</b> : cochez cette option si vous souhaitez recevoir des notifications par e-mail de l’environnement dans lequel vous êtes actuellement connecté.
       <p><b>NOTE</b></p>

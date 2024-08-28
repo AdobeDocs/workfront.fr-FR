@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 307bfb397555c7f9d424e429785dae36c639756a
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 4%
@@ -60,7 +60,7 @@ Vous pouvez activer un modèle lors de sa modification.
 
 Pour plus d’informations sur la modification de modèles, voir [Modifier des modèles de projet](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-## Processus d&#39;approbation
+## Processus d’approbation
 
 Un processus d’approbation doit être actif pour apparaître dans le champ [!UICONTROL Processus d’approbation] pour un projet, une tâche ou un problème.
 
@@ -76,7 +76,7 @@ Vous pouvez activer un chemin de jalon lors de la modification du chemin de jalo
 
 Pour plus d’informations sur la modification des chemins de jalon, voir [Création d’un chemin de jalon](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-## Formulaires personnalisés dans mon groupe
+## Formulaires personnalisés
 
 Un formulaire personnalisé doit être actif pour apparaître dans le champ [!UICONTROL Formulaire personnalisé] pour un autre objet.
 
@@ -123,3 +123,4 @@ Un rôle de tâche doit être actif pour apparaître dans tous les champs de typ
 Vous pouvez désactiver les rôles de tâche lorsque vous les modifiez.
 
 Pour plus d’informations sur la désactivation des rôles de tâche, voir [Désactivation des rôles de tâche](../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+

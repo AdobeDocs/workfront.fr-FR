@@ -4,11 +4,11 @@ navigation-topic: get-started-with-workfront
 title: Langues prises en charge dans Adobe Workfront
 description: Vous pouvez modifier la langue dans laquelle vous affichez Adobe Workfront et les e-mails provenant de Workfront, en ajustant les préférences linguistiques de votre navigateur et votre langue par défaut dans Workfront.
 feature: Get Started with Workfront
-author: Caroline
+author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1071'
 ht-degree: 3%
 
 ---
@@ -116,7 +116,7 @@ La langue du navigateur doit être modifiée pour chaque utilisateur.
 
 Consultez le menu &quot;Aide&quot; de votre navigateur pour obtenir des informations spécifiques sur la modification de la langue de votre navigateur.
 
-## Modification de la langue Adobe Experience Cloud
+### Modification de la langue Adobe Experience Cloud
 
 Si votre organisation se trouve sur IMS, la langue de votre profil Adobe Experience Cloud détermine la langue qui s’affiche dans Workfront.
 
@@ -149,6 +149,10 @@ Pour modifier les paramètres régionaux de l’e-mail Workfront par défaut :
 ### Modifier les paramètres régionaux de l’adresse électronique de l’utilisateur {#change-the-user-locale}
 
 Lorsque vous modifiez les paramètres régionaux de l’email de l’utilisateur, vous modifiez le format de langue, de date et de numéro utilisé dans les messages sortants. Ces paramètres remplacent les paramètres système sélectionnés dans la zone Informations sur le client de la configuration.
+
+>[!NOTE]
+>
+>Lorsque votre entreprise se trouve dans l’expérience unifiée Adobe, les préférences linguistiques sont stockées dans votre profil d’Adobe et les paramètres régionaux de l’email ne sont pas utilisés. Voir [Modification de la langue Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) dans cet article.
 
 Pour modifier les paramètres régionaux de l’adresse électronique de l’utilisateur :
 

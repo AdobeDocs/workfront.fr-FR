@@ -6,10 +6,10 @@ description: Votr profil  [!DNL Adobe Workfront]  contient des informations vous
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 99%
+source-wordcount: '3319'
+ht-degree: 98%
 
 ---
 
@@ -339,7 +339,8 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
-   <td>Indiquez ici votre langue préférée. Vous contrôlez ainsi le format de la langue, de la date et du nombre utilisé dans les e-mails sortants.</td> 
+   <td><p>Indiquez ici votre langue préférée. Vous contrôlez ainsi le format de la langue, de la date et du nombre utilisé dans les e-mails sortants.</p>
+   <p><strong>REMARQUE :</strong> lorsque votre organisation est activée sur l’expérience unifiée Adobe, les préférences linguistiques sont stockées dans votre profil Adobe et les paramètres régionaux de messagerie ne sont pas utilisés. Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Modifier la langue</a> Adobe Experience Cloud dans l’article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Langues prises en charge dans Adobe Workfront</a>.</p></td> 
   </tr>
 
 <tr> 
@@ -523,7 +524,7 @@ Pour joindre un formulaire personnalisé au profil d’une personne, vous devez 
 
 Toutes les personnes peuvent voir les formulaires personnalisés qui ont été associés à leurs profils.
 
-L’administration de [!DNL Workfront] doit configurer des formulaires personnalisés pour l’objet utilisateur ou utilisatrice afin que vous puissiez joindre un formulaire personnalisé au profil de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la création de formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+L’administration de [!DNL Workfront] doit configurer des formulaires personnalisés pour l’objet utilisateur ou utilisatrice afin que vous puissiez joindre un formulaire personnalisé au profil de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la création de formulaires personnalisés, voir [Conception d’un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Commentaires]
 
