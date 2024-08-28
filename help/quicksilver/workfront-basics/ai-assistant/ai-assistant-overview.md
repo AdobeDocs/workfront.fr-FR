@@ -4,18 +4,14 @@ content-type: reference
 description: Présentation de l’assistant AI
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '607'
 ht-degree: 6%
 
 ---
 
 # Présentation de l’assistant AI
-
->[!IMPORTANT]
->
->L’assistant Workfront AI a été temporairement supprimé et sera disponible ultérieurement.
 
 L’assistant Workfront AI vous aide à accomplir votre travail en proposant des informations et des suggestions dans l’application dans une conversation en langage naturel. L’assistant IA peut vous offrir une expérience professionnelle plus fluide en
 
@@ -47,6 +43,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 </table>
 
 Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).## Conditions préalables requises pour l’assistant AI
+
+## Conditions préalables à l’assistant AI
 
 Pour activer l’assistant d’IA pour votre organisation, **tous** des éléments suivants doivent s’appliquer :
 
