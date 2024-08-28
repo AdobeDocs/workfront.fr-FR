@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '7338'
+source-wordcount: '7432'
 ht-degree: 37%
 
 ---
@@ -28,28 +28,14 @@ ht-degree: 37%
 >Pour une présentation de la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-<!--[!IMPORTANT]
->
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
->
->Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
->
->You must be a Workfront customer to use these capabilities. 
->
->Your account representative will inform you if you are part of this stage.
->
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
->
->In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. -->
-
 Cet article répertorie les fonctionnalités qui ont été publiées dans Workfront Planning au cours de la première période d’accès en 2024.
 
-Les fonctionnalités publiées sont répertoriées par ordre de publication, avec la version la plus récente en premier. Les clients qui participent au programme de planification Workfront peuvent accéder à toutes les fonctionnalités de leurs environnements de production.
+Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier.
 
 Consultez également les articles suivants pour plus de fonctionnalités publiées pour la planification Workfront :
 
-* [L’activité de planification Adobe Workfront pour la version 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) répertorie les fonctionnalités publiées pendant la version bêta, en 2023.
-* [Activité de mise à jour de la planification Adobe Workfront : l’index de l’article ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) répertorie les fonctionnalités actuellement publiées dans Workfront Planning, après sa mise à disposition générale le 28 août 2024.
+* [Activité de mise à jour de la planification Adobe Workfront pour 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) pour les fonctionnalités publiées pendant la version bêta, en 2023.
+* [Activité de mise à jour de la planification Adobe Workfront : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) pour les fonctionnalités actuellement publiées dans Workfront Planning, après sa mise à disposition générale le 28 août 2024.
 
 ## Calendrier des versions de Workfront Planning
 
@@ -130,14 +116,6 @@ En tant que gestionnaire d&#39;espace de travail, vous pouvez maintenant défini
 
 Pour plus d’informations, reportez-vous à la section &quot;Formule&quot; de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-### Activation des notifications Workfront Planning pour les demandes d’accès
-
-Version préliminaire et de production : jeudi 28 août 2024
-
-Lorsque vous demandez l’accès à un espace de travail, l’utilisateur auprès duquel vous demandez l’accès reçoit une notification par courrier électronique à propos de la demande. Une fois la demande acceptée, vous recevez une notification par courrier électronique contenant une confirmation ou un refus de votre demande. Vous pouvez accéder à l’affichage ou à l’espace de travail à partir de la notification électronique, une fois l’autorisation accordée.
-
-Pour plus d’informations, voir [Demande d’autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md).
-
 ### Indicateurs de présence en temps réel dans une vue d’enregistrement
 
 Version préliminaire et de production : jeudi 28 août 2024
@@ -175,48 +153,43 @@ Pour plus d’informations, voir les articles suivants :
 * [Exemples de champs de recherche externe dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
 * [Principes de base des API de planification Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md)
 
-<!--
-### New Settings menu in the Calendar view
+### Nouveau menu Paramètres dans la vue Calendrier
 
-Preview and Production: August 28, 2024 
+Version préliminaire et de production : jeudi 28 août 2024
 
-There is a new Settings option with which you can personalize the look and feel of the record bars in the Calendar view. You can do the following: 
+Une nouvelle option Paramètres permet de personnaliser l’aspect des barres d’enregistrement dans la vue Calendrier. Vous pouvez effectuer les opérations suivantes :
 
-* Update the date and time of the records  
+* Mettre à jour la date et l&#39;heure des enregistrements
 
-* Update the bar style 
+* Mettre à jour le style de la barre
 
-* Change the color of the record bars or their groupings to match one of the following:  
+* Modifiez la couleur des barres d’enregistrement ou de leurs groupements pour qu’ils correspondent à l’un des éléments suivants :
 
-    * The color of the record type 
+   * La couleur du type d’enregistrement
 
-    * The color of a field that you select 
+   * La couleur d’un champ que vous sélectionnez
 
-    * The color of the grouping 
+   * La couleur du groupement
 
-    * No color (the default) 
+   * Aucune couleur (par défaut)
 
- When matching colors to a certain field, you can select only fields with color-coded options. 
+Lorsque vous associez des couleurs à un champ donné, vous ne pouvez sélectionner que les champs avec des options codées par couleurs.
 
- For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+Pour plus d’informations, consultez la section [Gérer la vue de calendrier](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
+### L’assistant d’IA a été réactivé pour la planification Workfront.
 
-### The AI Assistant has been re-enabled for Workfront Planning
+Production et aperçu : 28 août 2024
 
-Production and Preview: August 28, 2024
+L’assistant Workfront AI a été réactivé pour la zone Planification Workfront.
 
-The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+Pour plus d’informations sur l’assistant de planification Workfront AI, consultez la [présentation de l’assistant de planification Adobe Workfront AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
-For more information about the Workfront Planning AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
- 
+### Fonctionnalités de création de rapports pour la planification Workfront avec le tableau de bord du canevas
 
-### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
+Production et production : 28 août 2024
 
-Production and Production: August 28, 2024 
-
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-
--->
+Vous pouvez désormais afficher les informations de planification Workfront dans un rapport à l’aide du tableau de bord du canevas de Workfront. Pour plus d’informations, voir [Prise en main des tableaux de bord de canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
 ## Semaine du mardi 19 août 2024
 

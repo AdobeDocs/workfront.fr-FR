@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2951'
 ht-degree: 94%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 94%
 >Pour une présentation de la planification Workfront, consultez la [présentation de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Cet article répertorie les fonctionnalités qui ont été publiées en 2023 après le lancement du programme de planification Adobe Workfront, le 22 mai 2023.
+Cet article répertorie les fonctionnalités qui ont été publiées en 2023 après le lancement du programme bêta de planification Adobe Workfront, le 22 mai 2023.
 
 Pour plus d’informations sur les activités de mise à jour, voir également les articles suivants :
 
-* [Activité de mise à jour de la planification Adobe Workfront : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) : pour plus d’informations sur l’activité de mise à jour actuelle de la planification Workfront.
+* [Activité de mise à jour de la planification Adobe Workfront : index de l’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) pour plus d’informations sur l’activité de mise à jour actuelle de la planification Workfront.
 
-* [Activité de mise à jour de la planification Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md) : pour plus d’informations sur les fonctionnalités publiées en 2024, avant le lancement le 28 août 2024.
+* [Activité de mise à jour de la planification Adobe Workfront pour 2024](/help/quicksilver/planning/general/release-activity.md) pour plus d’informations sur les fonctionnalités publiées en 2024, avant la mise à disposition générale le 28 août 2024.
 
 Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel elles ont été publiées, avec la version la plus récente en premier.
 
