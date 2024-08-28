@@ -1,20 +1,18 @@
 ---
-title: Obtenir de l’aide à partir de l’assistant d’IA
+title: Obtenir de l’aide à partir de l’assistant IA
 content-type: reference
 description: Vous pouvez rapidement résumer les éléments de travail et les documents à l’aide de la fonctionnalité Résumer .
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
-# Obtenir de l’aide à partir de l’assistant d’IA
+# Obtenir de l’aide à partir de l’assistant IA
 
 L’assistant d’IA peut rechercher des informations dans la documentation de Workfront, ce qui évite d’avoir à vous rendre sur Adobe Experience League pour obtenir l’aide dont vous avez besoin.
 

@@ -1,20 +1,18 @@
 ---
-title: Résumer à l’aide de l’assistant d’IA
+title: Résumer à l’aide de l’assistant IA
 content-type: reference
 description: Vous pouvez rapidement résumer les éléments de travail et les documents à l’aide de la fonctionnalité Résumer .
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 19%
+ht-degree: 23%
 
 ---
 
-# Résumer à l’aide de l’assistant d’IA
+# Résumer à l’aide de l’assistant IA
 
 L’assistant d’IA Workfront peut résumer certains objets, ce qui vous donne une vue d’ensemble de l’intention ou des détails de l’objet.
 

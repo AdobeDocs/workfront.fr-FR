@@ -1,16 +1,14 @@
 ---
-title: Révision des formules de champ calculé à l’aide de l’assistant AI
+title: Vérifier des formules de champ calculé à l’aide de l’assistant AI
 content-type: reference
 description: Vous pouvez utiliser l’assistant d’intelligence artificielle pour résoudre les erreurs de vos expressions personnalisées non valides dans les champs calculés.
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
