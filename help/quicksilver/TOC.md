@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 816d45225f2d9c7fa91df901a945457c46af7945
+source-git-commit: 41fe217aee733e8382416366542845d90c1b10fd
 workflow-type: tm+mt
-source-wordcount: '14359'
-ht-degree: 96%
+source-wordcount: '14358'
+ht-degree: 95%
 
 ---
 
@@ -438,8 +438,8 @@ ht-degree: 96%
          * [Nouvelle expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Activité Version de la nouvelle expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Questions fréquentes sur la nouvelle expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Version bêta du lac de données Workfront {#data-lake-beta}
-         * [Informations sur la version bêta du lac de données Workfront](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+      * Workfront Data Connect bêta {#data-lake-beta}
+         * [Informations bêta sur Workfront Data Connect](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration et configuration {#administration-and-setup}
    * [Administration et configuration : index des articles](administration-and-setup/administration-and-setup.md)
    * Prise en main de l’administration {#get-started-administration}
@@ -1734,12 +1734,12 @@ ht-degree: 96%
       * [Afficher la visualisation d’activité des projets dans Analytique améliorée](enhanced-analytics/project-activity-overview.md)
       * [Afficher la visualisation d’arborescence du projet dans Analytique améliorée](enhanced-analytics/project-treemap-overview.md)
       * [Afficher la visualisation d’activité par équipe dans Analytique améliorée](enhanced-analytics/activity-by-team-overview.md)
-   * Lac de données Workfront {#data-lake}
-      * [Vue d’ensemble du lac de données Workfront](reports-and-dashboards/data-lake/data-lake-overview.md)
+   * Connexion aux données Workfront {#data-lake}
+      * [Présentation de Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Créer un compte de lecteur](reports-and-dashboards/data-lake/create-a-reader-account.md)
-      * [Établir une connexion au lac de données Workfront](reports-and-dashboards/data-lake/share-data-externally.md)
-      * [Dictionnaire de données du lac de données Workfront](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [Exemples de requêtes de lac de données Workfront de base](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Établissement d’une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
+      * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Exemples de requêtes de connexion aux données Workfront](reports-and-dashboards/data-lake/basic-query-examples.md)
 * Gérer les ressources {#manage-resources}
    * [Gérer des ressources](resource-mgmt/manage-resources.md)
    * Gestion des ressources {#resource-management}

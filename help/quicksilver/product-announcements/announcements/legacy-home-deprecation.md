@@ -5,9 +5,9 @@ title: Guide d’obsolescence de la page d’accueil
 description: Cette page contient des informations sur l’obsolescence prochaine de la page d’accueil héritée.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Nous recommandons aux administrateurs :
 
 1. Réaffectez le reste de vos utilisateurs à la nouvelle mise en page de la page d’accueil.
 
-Cela donnera dès que possible à vos utilisateurs le temps de s’adapter à la nouvelle expérience et de personnaliser leurs nouvelles pages d’accueil en fonction de leurs besoins.
+Cela donnera dès que possible à vos utilisateurs le temps de s’adapter à la nouvelle expérience et de personnaliser leurs nouvelles pages d’accueil en fonction de leurs besoins. Voir [Suppression, ajout et réorganisation de widgets dans la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) pour plus d’informations sur la manière dont un utilisateur peut personnaliser les widgets sur sa propre nouvelle page d’accueil.
 
 ### Suivez l’expérience d’accueil au fur et à mesure de son développement
 
@@ -74,7 +74,7 @@ Non, il sera complètement supprimé de l’application.
 
 Presque, à l’exception de :
 
-* Calendrier, qui est actuellement sur notre feuille de route pour la nouvelle page d’accueil.
+* Calendrier, qui figure actuellement sur notre feuille de route des priorités.
 
 * L’affichage des horodatages pour les dates d’échéance des objets n’est actuellement pas disponible.
 
