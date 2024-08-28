@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
-title: Vue d’ensemble du panorama Scrum
+title: Aperçu du panorama
 description: Le panorama d’anecdotes agiles de Scrum s’affiche avec l’état d’achèvement et le graphique de condensation.
 author: Lisa
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 0%

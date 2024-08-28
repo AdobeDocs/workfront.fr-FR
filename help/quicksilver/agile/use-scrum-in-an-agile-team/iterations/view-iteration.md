@@ -6,10 +6,10 @@ description: Vous pouvez afficher toutes les itérations d’une équipe donnée
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 12%
+source-wordcount: '236'
+ht-degree: 20%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 12%
 Vous pouvez afficher toutes les itérations d’une équipe donnée ou une itération individuelle. Les itérations affichent des données sur les articles, les problèmes et les documents contenus dans l’itération.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -28,21 +30,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Nouveau : [!UICONTROL Light] ou version ultérieure</p> 
+   ou
+   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Afficher les itérations affectées à une équipe donnée
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
@@ -55,7 +61,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    >**[!UICONTROL Itération actuelle]** s’affiche uniquement dans le panneau de gauche lorsqu’elle est affectée au modèle de mise en page et qu’il y a au moins une tâche ou un problème dans l’itération. Pour plus d’informations, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
-1. (Facultatif) Cliquez sur le nom de l’itération spécifique à afficher.\
-   Les articles d’itération s’affichent.
+1. (Facultatif) Cliquez sur le nom de l’itération spécifique à afficher.
+Les articles d’itération s’affichent.
 
    ![[!UICONTROL Articles en itération]](assets/iteration-stories-list-NWE.png)

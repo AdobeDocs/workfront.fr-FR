@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Utiliser un autre planning d’équipe pour les graphiques d’avancement.
+title: Utilisation d’une autre planification d’équipe pour les graphiques de Burndown
 description: Les plannings définis dans  [!DNL Adobe Workfront] affectent le graphique de la charge en excluant les jours de congé (week-ends et jours fériés) de la charge.
 author: Lisa
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 16%
+source-wordcount: '320'
+ht-degree: 27%
 
 ---
 
@@ -25,6 +25,8 @@ Pour plus d’informations sur l’utilisation du graphique de ventilation, cons
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
@@ -34,22 +36,27 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou version ultérieure</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
+   ou
+   <p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Utiliser un autre planning d’équipe pour les graphiques d’avancement.
 
 1. Assurez-vous que l&#39;administrateur [!DNL Workfront] a déjà créé la planification alternative, comme décrit dans la section [Créer une planification](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Equipes]**.
+
+{{step1-to-team}}
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 

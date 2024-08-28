@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Ajouter des tâches ou des problèmes existants au panorama Kanban
+title: Ajout de tâches ou de problèmes existants au panorama Kanban
 description: Si vous disposez de l’accès Gérer au projet, vous pouvez ajouter n’importe quelle tâche ou problème à un panorama Kanban.
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '288'
 ht-degree: 21%
 
 ---
@@ -22,36 +22,40 @@ Vous pouvez ajouter n’importe quelle tâche ou problème à un panorama [!UICO
 
 ## Conditions d’accès
 
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou version ultérieure</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou version ultérieure</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur [!DNL Workfront] s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la manière dont l’équipe d’administration [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
+   ou
+   <p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajouter des tâches ou des problèmes existants au panorama Kanban
 
 Pour ajouter une tâche ou un problème à un panorama [!UICONTROL Kanban] :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
 
-1. Choisissez l’une des options suivantes : **[!UICONTROL Projets]**, **[!UICONTROL Création de rapports]** ou **[!UICONTROL Tableaux de bord]**.
+1. Choisissez l’une des options suivantes : **[!UICONTROL Projets]**, **[!UICONTROL Rapports]** ou **[!UICONTROL Tableaux de bord]**.
 
 1. Accédez au projet, au rapport ou au tableau de bord qui contient la tâche ou le problème que vous souhaitez ajouter au tableau Kanban.
 1. Sélectionnez une ou plusieurs tâches ou problèmes.
@@ -60,7 +64,7 @@ Pour ajouter une tâche ou un problème à un panorama [!UICONTROL Kanban] :
 
    >[!NOTE]
    >
-   >Si vous ajoutez plusieurs équipes, la tâche ou le problème ne peut s’afficher que sur le panorama [!DNL kanban] d’une équipe. Il s’agit du panorama que vous choisissez à l’étape 5.
+   >Si vous ajoutez plusieurs équipes, la tâche ou le problème ne peut s’afficher que sur le panorama [!DNL kanban] d’une équipe. Voici le panorama que vous avez choisi précédemment.
 
 1. Si vous ajoutez des tâches, cliquez sur **[!UICONTROL Ajouter des articles]**.
 Ou

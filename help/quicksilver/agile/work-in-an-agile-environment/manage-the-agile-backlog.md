@@ -1,30 +1,30 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: Gérer la liste d’attente agile
-description: Les tâches et les problèmes peuvent être attribués à une équipe agile et ajoutés au journal de l’équipe sous forme d’articles, selon la méthodologie agile utilisée par l’équipe.
+title: Gestion du journal agile
+description: Les tâches et les problèmes peuvent être attribués à une équipe agile et ajoutés à la liste d’attente de l’équipe sous forme d’histoires, selon la méthodologie agile utilisée par l’équipe.
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 7%
+source-wordcount: '1360'
+ht-degree: 94%
 
 ---
 
 # Gérer la liste d’attente agile
 
-Les tâches suivantes peuvent être affectées à une équipe agile et ajoutées au journal de l’équipe en tant qu’articles, en fonction de la méthodologie agile utilisée par l’équipe :
+Les tâches suivantes peuvent être affectées à une équipe agile et ajoutées à la liste d’attente de l’équipe en tant qu’histoires, en fonction de la méthodologie agile utilisée par l’équipe :
 
-* **[!UICONTROL Équipes agiles de Scrum] :** les tâches et les problèmes peuvent être affectés à l’équipe agile et ajoutés au journal en souffrance.
-* **[!UICONTROL Équipes agiles Kanban] :** Les tâches peuvent être affectées à l’équipe agile et ajoutées au journal en souffrance. Les utilisateurs peuvent afficher le journal en souffrance directement à partir du tableau de bord agile, comme décrit dans la section [[!UICONTROL Ajout du journal] au tableau Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). L’équipe utilise ce journal pour prioriser et gérer sa file d’attente de travail.
+* **[!UICONTROL Équipes agile Scrum] :** les tâches et les problèmes peuvent être affectés à l’équipe agile et ajoutés à la liste d’attente.
+* **[!UICONTROL Équipes agile Kanban : les tâches peuvent être affectées à l’équipe agile et ajoutées à la liste d’attente. ]** Les utilisateurs et utilisatrices peuvent afficher la liste d’attente directement à partir du StoryBoard agile, comme décrit dans la section Ajouter la liste d’attente au tableau Kanban. [](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md) L’équipe utilise cette liste d’attente pour prioriser et gérer sa file d’attente de travail.
 
-Des tâches ou des problèmes peuvent être affectés à l’équipe (et par la suite ajoutés au journal de l’équipe) à partir de n’importe quel emplacement dans [!DNL Adobe Workfront]. Par exemple, une seule équipe peut se voir affecter des affectations de travail à partir de plusieurs projets.
+Les tâches ou les problèmes peuvent être affectés à l’équipe (et par la suite ajoutés à la liste d’attente de l’équipe) à partir de n’importe quel emplacement d’. [!DNL Adobe Workfront] Par exemple, une seule équipe peut se voir affecter du travail provenant de plusieurs projets.
 
 >[!NOTE]
 >
->Si vous ajoutez plusieurs équipes à un élément de journal, la tâche ou le problème s’affiche uniquement sur le journal de l’équipe principale. L’équipe principale est la première équipe affectée.
+>Si vous ajoutez plusieurs équipes à un élément de liste d’attente, la tâche ou le problème s’affiche uniquement sur la liste d’attente de l’équipe principale. L’équipe principale est la première équipe affectée.
 
 ## Conditions d’accès
 
@@ -39,20 +39,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
+   ou
+   <p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès</strong></td> 
-   <td> <p>Nouvelle : [!UICONTROL Standard]</p><p>Ou</p><p>Actuel : [!UICONTROL Worker] ou version ultérieure</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>[!UICONTROL Gérer] Accès au projet sur lequel se trouve l’article</p>  </td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td>Accès en [!UICONTROL Manage] au projet contenant l’histoire </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,78 +59,78 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 +++
 
-## Créer et gérer des articles en souffrance
+## Créer et gérer des histoires sur la liste d’attente
 
-* [Réorganiser les articles](#reorder-stories)
-* [[!UICONTROL Ventiler] articles](#break-down-stories)
-* [Modifier des articles](#edit-stories)
+* [Réorganiser les histoires](#reorder-stories)
+* [[!UICONTROL Ventiler] les histoires](#break-down-stories)
+* [Modifier les histoires](#edit-stories)
 
-### Réorganiser les articles {#reorder-stories}
+### Réorganiser les histoires {#reorder-stories}
 
-Vous pouvez réorganiser les articles dans la liste de journal en souffrance à l’aide de la méthode glisser-déposer.
+Vous pouvez réorganiser les histoires dans la liste d’attente à l’aide de la méthode du glisser-déposer.
 
-1. Accédez au journal agile dans lequel vous souhaitez réorganiser les articles.
-1. Dans le menu déroulant **[!UICONTROL Affichage]**, sélectionnez la vue **[!UICONTROL Backlog]** ou une vue personnalisée contenant la colonne **[!UICONTROL Ordre]**.
+1. Accédez à la liste d’attente agile dans lequel vous souhaitez réorganiser les histoires.
+1. Dans le menu déroulant **[!UICONTROL Affichage]**, sélectionnez la vue **[!UICONTROL Liste d’attente]** ou une vue personnalisée qui contient la colonne **[!UICONTROL Ordre]**.
 
    >[!NOTE]
    >
-   >Si une équipe agile est affectée à une tâche ou un problème et que le projet n’est pas dans un état correspondant à Actuel, il ne s’affiche pas dans le journal des travaux en souffrance. Toutefois, elles n’affectent pas le nombre de dossiers dans la colonne Ordre.
+   >Si une équipe agile est affectée à une tâche ou un problème et que le projet n’est pas dans un statut correspondant à Actuel, ils ne s’affichent pas dans la liste d’attente. Toutefois, ils affectent toujours le nombre d’éléments présents dans la liste d’attente dans la colonne Ordre.
 
-1. Sélectionnez un ou plusieurs articles, puis faites-les glisser dans l’ordre dans lequel vous souhaitez qu’ils apparaissent dans le journal.\
-   ![Faire glisser et déposer des éléments de journal en souffrance](assets/agile-backlog-drag-and-drop.png)
+1. Sélectionnez une ou plusieurs histoires, puis faites-les glisser dans l’ordre dans lequel vous souhaitez qu’elles apparaissent dans la liste d’attente.
+   ![Glisser-déposer des éléments de liste d’attente](assets/agile-backlog-drag-and-drop.png)
 
 ### Ventiler les histoires {#break-down-stories}
 
-Comme les articles dans un journal en souffrance varient en taille, les utilisateurs peuvent les ventiler en tailles exploitables pour une itération. La ventilation d’un article crée des sous-tâches sur la tâche que l’article représente, et remplace la tâche d’origine dans le journal. Une tâche parent ou ses sous-tâches peuvent être affectées à une équipe agile, mais les deux tâches ne peuvent pas être affectées simultanément à une équipe.
+Comme les histoires dans une  liste d’attente varient en taille, vous pouvez les ventiler en tailles exploitables pour une itération. La ventilation d’une histoire crée des sous-tâches sur la tâche que l’histoire représente, et remplace la tâche d’origine dans la liste d’attente. Une tâche parent ou ses sous-tâches peuvent être affectées à une équipe agile, mais les deux tâches ne peuvent pas être affectées simultanément à une équipe.
 
 >[!NOTE]
 >
->Tenez compte des limites suivantes lors de la ventilation d’articles :
+>Tenez compte des limites suivantes lors de la ventilation d’histoires :
 >
 >* Seules les histoires qui représentent des tâches peuvent être ventilées. Vous ne pouvez pas ventiler des histoires qui représentent des problèmes.
->* Les articles ne peuvent être ventilés que s’ils sont associés à un projet.
+>* Les histoires ne peuvent être ventilées que si elles sont associées à un projet.
 
 
-Pour raconter une histoire :
+Pour ventiler une histoire, procédez comme suit :
 
-1. Accédez au journal contenant l’article que vous souhaitez ventiler.
-1. Sélectionnez l’article que vous souhaitez ventiler, puis cliquez sur **[!UICONTROL Article de ventilation]**.\
-   La boîte de dialogue [!UICONTROL Histoire de ventilation] s’affiche.\
-   ![Boîte de dialogue d’article de ventilation](assets/backlog-breakdown-dialog.png)
+1. Accédez au journal contenant l’histoire que vous souhaitez ventiler.
+1. Sélectionnez l’article que vous souhaitez ventiler, puis cliquez sur **[!UICONTROL Article de ventilation]**.
+La boîte de dialogue [!UICONTROL Répartition de l’histoire] s’affiche.
+   ![Boîte de dialogue pour la ventilation d’histoires](assets/backlog-breakdown-dialog.png)
 
-1. Indiquez un nom et une estimation pour l’article, puis indiquez si l’article est prêt.
-1. Cliquez sur **[!UICONTROL Ajouter un article]** pour créer un autre article à partir de l’article d’origine.
+1. Spécifiez un nom et une estimation pour l’histoire, et indiquez si l’histoire est prête.
+1. Cliquez sur **[!UICONTROL Ajouter une histoire]** pour créer une autre histoire à partir de l’histoire originale.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-### Modifier des articles {#edit-stories}
+### Modifier les histoires {#edit-stories}
 
-Vous pouvez modifier des articles directement à partir des onglets [!UICONTROL Articles] ou [!UICONTROL Problèmes] dans le journal car vous modifiez en masse des tâches ou des problèmes dans un projet, comme décrit dans la section [Modifier les tâches en bloc](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) dans [Modifier les tâches](../../manage-work/tasks/manage-tasks/edit-tasks.md) et [Modifier les problèmes](../../manage-work/issues/manage-issues/edit-issues.md).
+Vous pouvez modifier les histoires directement à partir des onglets [!UICONTROL Histoires] ou [!UICONTROL Problèmes] dans la liste d’attente comme vous le feriez lorsque vous modifiez en masse les tâches ou les problèmes d’un projet, tel que décrit dans [Modifier les tâches en masse](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) dans les sections [Modifier les tâches](../../manage-work/tasks/manage-tasks/edit-tasks.md), et [Modifier les problèmes](../../manage-work/issues/manage-issues/edit-issues.md).
 
-## Créer de nouveaux articles sur le journal en souffrance {#create-new-stories-on-the-backlog}
+## Créer des histoires dans la liste d’attente {#create-new-stories-on-the-backlog}
 
-Vous pouvez créer de nouveaux articles sur le journal en souffrance en créant l’article directement à partir du journal, ou en affectant une tâche ou un problème existant à une équipe agile.
+Dans la liste d’attente, vous pouvez créer des histoires en créant l’histoire directement à partir de celle-ci, ou en assignant une tâche ou un problème existant à une équipe Agile.
 
-* [Création d’un article à partir du journal](#create-a-story-from-the-backlog)
+* [Créer une histoire dans la liste d’attente](#create-a-story-from-the-backlog)
 * [Affecter une tâche ou un problème à une équipe agile](#assign-a-task-or-issue-to-an-agile-team)
 
-### Création d’un article à partir du journal {#create-a-story-from-the-backlog}
+### Créer une histoire dans la liste d’attente {#create-a-story-from-the-backlog}
 
-Lorsque vous créez un article dans le journal, il est créé en tant que tâche ou problème dans un projet. Vous ne pouvez pas créer un article à partir du journal en souffrance comme problème.
+Lorsque vous créez une histoire dans la liste d’attente, elle est créée en tant que tâche ou problème dans un projet. Vous ne pouvez pas créer une histoire dans la liste d’attente en tant que problème.
 
-Pour créer un article à partir du journal :
+Pour créer une histoire dans la liste d’attente :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Équipes]**.
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant, ou recherchez une équipe dans la barre de recherche et sélectionnez-la lorsqu’elle s’affiche.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche et sélectionnez-la lorsqu’elle s’affiche.
 
-1. Sélectionnez **[!UICONTROL Backlog]** dans le panneau de gauche.
-1. Effectuez l’une des opérations suivantes, selon que vous souhaitez créer une tâche ou un problème :
+1. Sélectionnez **[!UICONTROL Liste d’attente]** dans le panneau de gauche.
+1. Effectuez l’une des opérations suivantes, selon que vous souhaitez créer une tâche ou un problème :
 
-   * **Pour créer une tâche :** Cliquez sur **[!UICONTROL Stories]**.
+   * **Pour créer une tâche :** cliquez sur **[!UICONTROL Histoires]**.
 
-   * **Pour créer un problème :** Cliquez sur **[!UICONTROL Problèmes]**.
+   * **Pour créer un problème :** cliquez sur **[!UICONTROL Problèmes]**.
 
-1. Cliquez sur **[!UICONTROL New Story]** ou **[!UICONTROL New Issue]** (Nouveau numéro).
+1. Cliquez sur **[!UICONTROL Nouvelle histoire]** ou **[!UICONTROL Nouveau problème]**.
 
 1. Indiquez les informations suivantes :
 
@@ -142,85 +140,83 @@ Pour créer un article à partir du journal :
     <tbody>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Story Name]</strong></td>
-      <td> Saisissez le nom de l’article.</td>
+      <td> Saisissez un nom pour l’histoire.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td>
-      <td>(Facultatif) Saisissez une description pour l’article.</td>
+      <td>(Facultatif) Saisissez une description pour l’histoire.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Ready]</strong></td>
-      <td> Indiquez si l’article est prêt à être ajouté à une itération. Ce paramètre est fourni uniquement à titre d’information. Les articles peuvent être ajoutés à une itération, quel que soit l’état de ce paramètre.</td>
+      <td> Indiquez si l’histoire est prête à être ajoutée à une itération. Ce paramètre est fourni uniquement à titre d’information. Les histoires peuvent être ajoutées à une itération, quel que soit le statut de ce paramètre.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
-      <td>Spécifiez une estimation point ou horaire pour l’article. Les estimations affectent le graphique de ventilation. Le graphique de condensation d’une itération n’est exact que si chaque article contient une estimation exacte. (Si vous fournissez une estimation du point, vous devez avoir déjà indiqué dans les paramètres de l’équipe combien d’heures chaque point représente.)</td>
+      <td role="rowheader"><strong>[!UICONTROL Estimate]</strong></td>
+      <td>Spécifiez une estimation point ou horaire pour l’histoire. Les estimations affectent le graphique d’avancement. Le graphique d’avancement d’une itération n’est exact que si chaque histoire contient une estimation exacte. (Si vous fournissez une estimation par point, vous devez avoir déjà indiqué dans les paramètres de l’équipe combien d’heures chaque point représente.)</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>
-      <td>Commencez à saisir le nom du projet dans lequel cet article sera créé, puis cliquez sur le nom qui apparaît dans la liste déroulante.<br>L’état du projet doit être défini sur [!UICONTROL Actuel]. Si l’état du projet est autre que [!UICONTROL Actuel], il ne s’affiche pas dans le menu déroulant.</td>
+      <td>Commencez à saisir le nom du projet dans lequel cette histoire sera créée, puis cliquez sur le nom qui apparaît dans la liste déroulante.<br>Le statut du projet doit être défini sur [!UICONTROL Current]. Si le statut du projet est autre que [!UICONTROL Current], il ne s’affiche pas dans le menu déroulant.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Tâche Parente]</strong></td>
-      <td>(Facultatif) Commencez à saisir le nom de la tâche parent à laquelle cet article est subordonné, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.</td>
+      <td role="rowheader"><strong>[!UICONTROL Parent Task]</strong></td>
+      <td>(Facultatif) Commencez à saisir le nom de la tâche parent à laquelle cettte histoire est subordonnée, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
-      <td> (Facultatif) Sélectionnez les formulaires personnalisés à ajouter à cet article.</td>
+      <td> (Facultatif) Sélectionnez les formulaires personnalisés à ajouter à cette histoire.</td>
      </tr>
     </tbody>
    </table>
 
-1. Cliquez sur **[!UICONTROL Enregistrer l’article]**.
+1. Cliquez sur **[!UICONTROL Enregistrer l’histoire]**.
 
 ### Affecter une tâche ou un problème à une équipe agile {#assign-a-task-or-issue-to-an-agile-team}
 
-Vous pouvez affecter une tâche ou un problème à une équipe agile. Une fois qu’elle a été affectée, la tâche ou le problème apparaît comme un nouvel article dans le journal de l’équipe.
+Vous pouvez affecter une tâche ou un problème à une équipe agile. Après son affectation, la tâche ou le problème apparaît comme une nouvelle histoire dans la liste d’attente de l’équipe.
 
-Pour affecter une tâche ou un problème à une équipe agile :
+Pour affecter une tâche ou un problème à une équipe agile :
 
 1. Accédez au projet contenant la tâche que vous souhaitez affecter.
 1. Sélectionnez la tâche ou le problème dans la liste.
 1. Cliquez sur **[!UICONTROL Modifier]**.
 1. Cliquez sur **[!UICONTROL Affectations]**.
-1. (Facultatif) Supprimez les personnes désignées existantes.
-1. Cliquez sur **[!UICONTROL Ajouter un cessionnaire]**.
+1. (Facultatif) Supprimez les personnes cessionnaires existantes.
+1. Cliquez sur **[!UICONTROL Ajouter une personne cessionnaire]**.
 1. Commencez à saisir le nom de l’équipe agile que vous souhaitez affecter à la tâche ou au problème, puis cliquez sur le nom de l’équipe lorsqu’il apparaît dans la liste déroulante.
-1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.\
-   La tâche ou le problème est désormais disponible dans le journal des travaux de l’équipe.
+1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**
+. La tâche ou le problème est désormais disponible dans la liste d’attente de l’équipe.
 
 ## Déplacer des articles dans ou hors du journal
 
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+* [Déplacer des histoires de la liste d’attente vers un panorama d’itération ou autre](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [Déplacer des histoires existantes vers la liste d’attente](#move-existing-stories-to-the-backlog)
+* [Exporter les histoires de la liste d’attente](#export-stories-from-the-backlog)
 
-* [Déplacer des articles du journal vers un panorama ou une itération](#move-stories-from-the-backlog-to-an-iteration-or--board)
-* [Déplacer les articles existants dans le journal](#move-existing-stories-to-the-backlog)
-* [Exporter des articles depuis le journal en souffrance](#export-stories-from-the-backlog)
+### Déplacer des histoires de la liste d’attente vers un panorama d’itération ou autre
 
-### Déplacer des articles du journal vers un panorama ou une itération
+1. Rendez-vous dans la liste d’attente de l’équipe agile.
+1. Sélectionnez les articles que vous souhaitez déplacer vers un panorama d’itération ou Kanban, puis cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Déplacer vers]**.
+Si vous déplacez l’histoire vers un panorama [!UICONTROL Kanban], le panorama [!UICONTROL Déplacer l’article vers le panorama Kanban] s’affiche.
+Si vous déplacez l’histoire vers une itération, la boîte de dialogue [!UICONTROL Déplacer l’histoire vers une itération] est affichée.
+   ![Boîte de dialogue Déplacer l’histoire](assets/agile-backlog-addtoiteration.png)
 
-1. Accédez au journal de l’équipe agile.
-1. Sélectionnez les articles que vous souhaitez déplacer vers un panorama d’itération ou Kanban, puis cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Déplacer vers]**.\
-   Si vous déplacez l’histoire vers un panorama [!UICONTROL Kanban], le panorama [!UICONTROL Déplacer l’article vers le panorama Kanban] s’affiche.\
-   Si vous déplacez l’article vers une itération, la boîte de dialogue [!UICONTROL Déplacer l’article vers une itération] s’affiche.\
-   ![Boîte de dialogue Déplacer l’article](assets/agile-backlog-addtoiteration.png)
+1. Utilisez l’une des méthodes suivantes :
 
-1. Effectuez l’une des opérations suivantes :
+   * **Pour les équipes Scrum :** dans le champ **[!UICONTROL Sélectionner l’itération]**, choisissez l’itération dans laquelle vous souhaitez déplacer les histoires.
 
-   * **Pour les équipes de déploiement :** Dans le champ **[!UICONTROL Sélectionner une itération]** , sélectionnez l’itération dans laquelle vous souhaitez déplacer les articles.
+   * **Pour les équipes Kanban : dans le champ Sélectionner le tableau Kanban, choisissez le tableau Kanban de votre équipe.****** (Les équipes Kanban ne peuvent avoir qu’un seul tableau [!UICONTROL Kanban].)
 
-   * **Pour les équipes de Kanban :** Dans le champ **[!UICONTROL Sélectionner le panorama de Kanban]**, sélectionnez le panorama [!UICONTROL Kanban] de votre équipe. (Les équipes de Kanban ne peuvent avoir qu’un seul panorama [!UICONTROL Kanban].)
+1. Cliquez sur **[!UICONTROL Déplacer l’histoire]**.
 
-1. Cliquez sur **[!UICONTROL Déplacer l’article]**.
+### Déplacer les histoires existantes vers la liste d’attente {#move-existing-stories-to-the-backlog}
 
-### Déplacer les articles existants dans le journal {#move-existing-stories-to-the-backlog}
+Si vous décidez que votre équipe n’est pas encore prête à travailler sur une histoire, vous pouvez déplacer l’histoire dans la liste d’attente.
 
-Si vous décidez que votre équipe n&#39;est pas encore prête à travailler sur une histoire, vous pouvez la réorganiser en retard.
+Pour plus d’informations, voir [Déplacer une histoire agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
-Pour plus d’informations, voir [Déplacer un article agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+### Exporter les histoires de la liste d’attente {#export-stories-from-the-backlog}
 
-### Exporter des articles depuis le journal en souffrance {#export-stories-from-the-backlog}
+Vous pouvez exporter une ou plusieurs histoires (y compris des tâches et des problèmes) directement à partir de la liste d’attente.
 
-Vous pouvez exporter un ou plusieurs articles (y compris des tâches et des problèmes) directement à partir du journal.
-
-Vous exportez des articles du journal de la même manière que vous exportez d’autres données dans [!DNL Workfront], comme décrit dans la section [Exporter des données](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Les histoires de la liste d’attente s’exportent de la même manière que d’autres données dans [!DNL Workfront], comme décrit dans [Exporter des données](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).

@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
-title: Déplacer une story agile
+title: Déplacer une histoire agile
 description: Vous pouvez déplacer une histoire agile vers une itération différente (pour les équipes Scrum) ou vers le journal en souffrance (pour les équipes Kanban et Scrum).
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 19%
+source-wordcount: '350'
+ht-degree: 20%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 19%
 Vous pouvez déplacer une histoire agile vers une itération différente (pour les équipes Scrum) ou vers le journal en souffrance (pour les équipes Kanban et Scrum).
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -28,25 +30,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Work] ou version ultérieure</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
+   ou
+   <p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
-   <td> <p>[!UICONTROL Worker] ou version ultérieure</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur [!DNL Workfront] s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>[!UICONTROL Gérer] Accès à l’article</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td>[!UICONTROL Gérer] Accès à l’article</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Déplacer un article d’une itération ou d’une planche Kanban vers le journal
 
@@ -57,12 +59,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    La boîte de dialogue **[!UICONTROL Déplacer l’article]** s’affiche.
 
-   ![Boîte de dialogue Déplacer l’article](assets/iteration-story-move.png)
+   ![Boîte de dialogue Déplacer l’histoire](assets/iteration-story-move.png)
 
-1. Sélectionnez le Backlog de *nom_de_l&#39;équipe*.\
-   Dans l&#39;exemple ci-dessus, le nom de l&#39;équipe est &#x200B; **Marketing.**
+1. Sélectionnez **Équipe_name&#39;s Backlog**.
+Dans l’exemple ci-dessus, le nom de l’équipe est **Marketing**.
 
-1. Cliquez sur **[!UICONTROL Déplacer l’article]**.
+1. Cliquez sur **[!UICONTROL Déplacer l’histoire]**.
 
 ## Déplacer une histoire vers une autre itération
 
@@ -79,12 +81,12 @@ Vous pouvez déplacer une histoire vers une autre itération pour votre équipe 
 
    La boîte de dialogue **[!UICONTROL Déplacer l’article]** s’affiche.
 
-   ![Boîte de dialogue Déplacer l’article](assets/iteration-story-move.png)
+   ![Boîte de dialogue Déplacer l’histoire](assets/iteration-story-move.png)
 
 1. Sélectionnez **[!UICONTROL Autre itération]**, puis, dans le menu déroulant, sélectionnez l’itération où vous souhaitez déplacer l’histoire.
 
    >[!NOTE]
    >
-   >L’élément de travail [!UICONTROL Date de début planifiée] et [!UICONTROL Date d’achèvement planifiée] sont affectés par un paramètre sur la page [!UICONTROL Modifier l’équipe]. Pour plus d’informations, reportez-vous à la section [[!UICONTROL Configuration] de la manière dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans l’article [Configurer le scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >L’élément de travail [!UICONTROL Date de début planifiée] et [!UICONTROL Date d’achèvement planifiée] sont affectés par un paramètre sur la page [!UICONTROL Modifier l’équipe]. Pour plus d’informations, reportez-vous à la section [[!UICONTROL Configuration] de la manière dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) dans l’article [Configurer le scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. Cliquez sur **[!UICONTROL Déplacer l’article]**.
+1. Cliquez sur **[!UICONTROL Déplacer l’histoire]**.

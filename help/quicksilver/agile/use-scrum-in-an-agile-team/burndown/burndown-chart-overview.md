@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Vue d’ensemble du graphique d’avancement agile
+title: Aperçu du graphique de Burndown mobile
 description: Le graphique de condensation fournit une représentation visuelle de l’avancement des articles dans l’itération ou le projet . Le taux de charge réel est mesuré par rapport au taux de charge idéal pour l’itération ou la chronologie du projet.
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%

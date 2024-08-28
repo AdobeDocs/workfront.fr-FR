@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: Créer une itération
+title: Création d’une itération
 description: Les itérations sont un élément clé pour les équipes agiles de Scrum dans la planification de la capacité de travail. [!DNL Adobe Workfront]  permet aux équipes agiles de Scrum de gérer leur travail en créant plusieurs itérations pour répondre aux besoins de l’équipe.
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 3%
+source-wordcount: '1051'
+ht-degree: 6%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 3%
 Les itérations sont un élément clé pour les équipes agiles de Scrum dans la planification de la capacité de travail. [!DNL Adobe Workfront] permet aux équipes agiles de Scrum de gérer leur travail en créant plusieurs itérations pour répondre aux besoins de l’équipe.
 
 ## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
 Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
@@ -28,30 +30,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>N’importe quelle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou niveau supérieur</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
+   <td> <p>Nouveau : [!UICONTROL Light] ou version ultérieure</p> 
+   ou
+   <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur [!DNL Workfront].
+Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ajouter une itération
 
 Utilisez la fonction [!UICONTROL Ajouter une itération] pour créer rapidement une itération et ajouter ultérieurement des tâches et des problèmes.
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Sur l’onglet **[!UICONTROL Itérations]**, cliquez sur **[!UICONTROL Ajouter une itération]**.\
+1. Sur l’onglet **[!UICONTROL Itérations]**, cliquez sur **[!UICONTROL Ajouter une itération]**.
    ![](assets/add-iteration-adobe-350x275.png)
 
-1. Indiquez les informations suivantes :
+1. Indiquez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -66,11 +72,11 @@ Utilisez la fonction [!UICONTROL Ajouter une itération] pour créer rapidement 
       <td>Ajoutez les objectifs dont vous disposez pour l’itération.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Date de début]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Start Date]</strong></td> 
       <td>Saisissez la date de début de l’itération.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Date de fin]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
       <td><p>Saisissez la date de fin de l’itération. [!DNL Workfront] recommande de définir une date de fin ne dépassant pas 4 semaines à compter de la date de début.</p><p>Conseil : Veillez à choisir un jour de travail comme date de fin. Le graphique de charge utilise uniquement les jours de travail dans ses calculs.<br>Par défaut, le graphique de ventilation utilise la planification par défaut pour définir les jours de travail (comme décrit dans la section <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>). Ou, pour incorporer des jours non ouvrés spécifiques à l’équipe, les équipes agiles peuvent choisir d’utiliser un autre planning (comme décrit dans "Définition d’un autre planning d’équipe pour les graphiques de Burndown" dans <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Créer une équipe agile</a>).</p></td> 
      </tr> 
      <tr> 
@@ -90,7 +96,7 @@ Utilisez la fonction [!UICONTROL Ajouter une itération] pour créer rapidement 
 
 Utilisez la fonction [!UICONTROL  Plan Iteration] pour créer une itération à l’aide des tâches de votre journal de bord.
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
@@ -107,7 +113,7 @@ Utilisez la fonction [!UICONTROL  Plan Iteration] pour créer une itération à 
       <td>Spécifiez un nom pour l’itération.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Date de début]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Start Date]</strong></td> 
       <td> Indiquez la date de début de l’itération.</td> 
      </tr> 
      <tr> 
@@ -129,10 +135,10 @@ Utilisez la fonction [!UICONTROL  Plan Iteration] pour créer une itération à 
     </tbody> 
    </table>
 
-1. (Facultatif) Sélectionnez des articles à ajouter à l’itération maintenant ou ignorez cette étape et ajoutez des articles à une itération ultérieurement. Les histoires qui se trouvent en haut du journal sont prioritaires. Les histoires sont surlignées en vert lorsqu’elles correspondent à la capacité ; elles sont surlignées en rouge si elles ne le sont pas.\
-   Vous pouvez ajouter des tâches et des problèmes à une seule itération :
+1. (Facultatif) Sélectionnez des articles à ajouter à l’itération maintenant ou ignorez cette étape et ajoutez des articles à une itération ultérieurement. Les histoires qui se trouvent en haut du journal sont prioritaires. Les histoires sont surlignées en vert lorsqu’elles correspondent à la capacité ; elles sont surlignées en rouge si elles ne le sont pas.
+Vous pouvez ajouter des tâches et des problèmes à une seule itération :
 
-   * **Pour ajouter des tâches à l’itération :** Sur l’onglet **[!UICONTROL Backlog]**, assurez-vous que l’onglet **[!UICONTROL Stories]** est sélectionné (cet onglet est sélectionné par défaut lors de l’affichage du backlog). Sélectionnez les articles à ajouter à l’itération.\
+   * **Pour ajouter des tâches à l’itération :** Sur l’onglet **[!UICONTROL Backlog]**, assurez-vous que l’onglet **[!UICONTROL Stories]** est sélectionné (cet onglet est sélectionné par défaut lors de l’affichage du backlog). Sélectionnez les articles à ajouter à l’itération.
 
      Lorsque vous ajoutez des tâches à une itération, la date de début de la tâche est calculée comme décrit dans la section [[!UICONTROL Comprendre] comment les dates de début de la tâche sont calculées lorsqu&#39;elles sont ajoutées à une itération](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
@@ -151,4 +157,4 @@ Lorsque vous ajoutez une tâche en tant qu’article à une itération, la contr
 
 La [!UICONTROL date de fin du projet] est utilisée à la place de   si la date de début du projet est postérieure à la date de début de l’itération et que la date de fin du projet est postérieure à la date de fin de l’itération.
 
-Vous pouvez configurer des équipes Scrum individuelles pour utiliser les dates du projet par défaut plutôt que les dates d’itération. Pour plus d’informations, reportez-vous à la section [Configuration de la manière dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans l’article [Configurer le graphique](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Vous pouvez configurer des équipes Scrum individuelles pour utiliser les dates du projet par défaut plutôt que les dates d’itération. Pour plus d’informations, reportez-vous à la section [Configuration de la manière dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) dans l’article [Configurer le graphique](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
