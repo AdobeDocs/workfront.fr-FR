@@ -1,28 +1,28 @@
 ---
-navigation-topic: data-lake-beta
-title: Informations sur la version bêta du lac de données Workfront
-description: Informations générales sur le lac de données Workfront bêta
+navigation-topic: data-connect-beta
+title: Informations bêta sur Workfront Data Connect
+description: Informations générales sur la version bêta de Workfront Data Connect
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 15%
+source-wordcount: '383'
+ht-degree: 23%
 
 ---
 
-# Informations sur la version bêta du lac de données Workfront
+# Informations bêta sur Workfront Data Connect
 
-Le lac de données Workfront est un nouvel outil en cours de développement qui fournit une interface dédiée permettant aux entreprises d’extraire des données pour les utiliser dans les outils d’analystes commerciaux les plus courants ou pour les stocker dans des entrepôts de données externes, sans avoir besoin de solutions d’API ou de fusion complexes. Cette page contient des informations sur la manière dont vous pouvez nous aider en testant et en fournissant des commentaires sur cet outil au cours de notre version bêta en cours.
+Workfront Data Connect est un nouvel outil en cours de développement qui fournit une interface dédiée permettant aux entreprises d’extraire des données pour les utiliser dans les outils d’analystes commerciaux les plus courants ou pour les stocker dans des entrepôts de données externes, sans avoir besoin de solutions d’API ou de fusion complexes. Cette page contient des informations sur la manière dont vous pouvez nous aider en testant et en fournissant des commentaires sur cet outil au cours de notre version bêta en cours.
 
-Pour plus d’informations sur l’utilisation du lac de données Workfront, consultez la [présentation du lac de données Workfront](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Pour plus d’informations sur l’utilisation de Workfront Data Connect, consultez la [présentation de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-**Planification Beta :**
+**Calendrier de la version bêta :**
 
 * Date de début de Beta - 15 avril 2024
-* Date de publication prévue - TBA
+* Date de publication prévue : à déterminer
 
 ## Participer à la version bêta
 
@@ -30,15 +30,15 @@ Pour plus d’informations sur l’utilisation du lac de données Workfront, con
 
 >[!IMPORTANT]
 >
->Vous devez être un administrateur système Workfront pour vous inscrire à la version bêta du lac de données Workfront.
+>Vous devez être un administrateur système Workfront pour vous inscrire à la version bêta de Data Connect.
 
 Pour inscrire votre organisation en version bêta, veuillez remplir et envoyer le formulaire à l’adresse suivante :
 
-[Inscription bêta du lac de données Workfront](https://adobe.ly/workfrontdatalake)
+[Inscription bêta de Workfront Data Connect](https://adobe.ly/workfrontdatalake)
 
 ### Fournir des commentaires
 
-Les commentaires sont appréciés au fur et à mesure que nous développons cet outil au cours de la version bêta. Veuillez suivre les instructions ci-dessous pour partager votre expérience avec nous.
+Vos commentaires sont appréciés et nous permettent d’apporter des améliorations à cet outil tout au long de la version bêta. Veuillez suivre les instructions ci-dessous pour partager votre expérience avec nous.
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Configuration**.
 
@@ -46,9 +46,9 @@ Les commentaires sont appréciés au fur et à mesure que nous développons cet 
 
 1. Cliquez sur le bouton **Envoyer un retour** au bas de la page, puis remplissez le formulaire avec vos commentaires.
 
-## Fonctionnalités planifiées
+## Fonctionnalités prévues
 
-Vous trouverez ci-dessous des listes d’objets actuellement pris en charge dans la version bêta, des objets que nous prévoyons d’ajouter à la version bêta et des fonctionnalités incluses dans notre future feuille de route pour le lac de données Workfront.
+Vous trouverez ci-dessous des listes d’objets actuellement pris en charge dans la version bêta, des objets que nous prévoyons d’ajouter à la prise en charge au cours de la version bêta et des fonctionnalités incluses dans notre future feuille de route pour Data Connect.
 
 ### Objets actuellement disponibles
 

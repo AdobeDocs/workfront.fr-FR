@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: Établissement d’une connexion au lac de données Workfront
+navigation-topic: data connect
+title: Établir une connexion au lac de données Workfront
 description: Le lac de données Workfront vous permet d’utiliser les données Workfront de votre entreprise avec les outils de renseignements commerciaux les plus courants ou de les stocker dans un entrepôt de données externe.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Établissement d’une connexion au lac de données Workfront
+# Établissement d’une connexion à Workfront Data Connect
 
-Le lac de données Workfront vous permet d’utiliser les données Workfront de votre entreprise avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
+Workfront Data Connect vous permet d’utiliser les données Workfront de votre entreprise avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
 
-Pour connecter vos données de lac de données Workfront à un produit externe, vous devez d’abord ajouter toutes les adresses IP requises à la liste autorisée, comme décrit dans la section [Ajout d’adresses IP à la liste autorisée](#add-ips-to-the-allowlist) ci-dessous. En outre, la plupart des produits nécessiteront des informations supplémentaires sur votre lac de données pour établir une connexion :
+Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord ajouter toutes les adresses IP requises à la liste autorisée, comme décrit dans la section [Ajout d’adresses IP à la liste autorisée](#add-ips-to-the-allowlist) ci-dessous. En outre, la plupart des produits nécessiteront des informations supplémentaires sur votre lac de données pour établir une connexion :
 
 | Nom du champ | Valeur |
 |---------------|-------------|
@@ -32,14 +32,13 @@ Pour connecter vos données de lac de données Workfront à un produit externe, 
 | Nom d’utilisateur | Nom d’utilisateur choisi lors de la création de la connexion (trouvé sur la page **Accès aux données** dans Workfront*) |
 | Mot de passe | Mot de passe choisi lors de la première connexion du Snowflake* |
 
-*Pour plus d’informations sur l’emplacement de la page **Data access** contenant vos connexions de lac de données, voir [Création d’un compte de lecteur (service) pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*Pour plus d’informations sur l’emplacement de la page **Data access** contenant vos connexions Data Connect, voir [ Création d’un compte de lecteur (service) pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
 >Une fois qu’une entrée est ajoutée à la liste autorisée IP, toutes les autres adresses IP ne sont plus autorisées. Assurez-vous d’avoir saisi toutes les adresses IP requises (pour les expériences de création et de lecture de votre outil de visualisation) avant de tenter d’utiliser l’outil. Dans le cas contraire, vous risquez de rencontrer une erreur concernant les informations d’identification incorrectes.
 >
 >Si vous ne disposez d’aucune adresse IP incluse dans votre liste autorisée mais que vous rencontrez toujours des problèmes de connexion à un outil de BI, vérifiez la configuration du serveur proxy pour l’outil de BI.
-
 
 ## Ajout d’adresses IP à la liste autorisée
 
