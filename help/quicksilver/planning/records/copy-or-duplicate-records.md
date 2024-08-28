@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 31%
@@ -175,7 +175,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
      ![](assets/more-menu-from-record-in-table-view.png)
 
-   * Sélectionnez un enregistrement, puis cliquez sur l’icône **Dupliquer** ![](assets/duplicate-icon-white-and-blue.png) de la barre d’outils située au bas de la page.
+   * Sélectionnez un enregistrement, puis cliquez sur l’icône **Dupliquer** ![](assets/duplicate-icon-white-and-blue.png) dans la barre d’outils située au bas de la page.
 
      ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
 

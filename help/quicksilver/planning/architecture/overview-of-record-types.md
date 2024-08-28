@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 78%
+source-wordcount: '260'
+ht-degree: 68%
 
 ---
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur la création de types d’enregistrement, voir [C
 * Lorsque vous créez un type d’enregistrement dans un espace de travail que vous avez entièrement créé, vous pouvez le placer dans n’importe quelle section que vous créez dans l’espace de travail.
 * Lorsque vous créez un type d’enregistrement, seuls vous et les personnes que vous autorisez à accéder à l’espace de travail pouvez afficher le type d’enregistrement.
 * Vous devez créer un espace de travail avant de pouvoir créer des types d’enregistrement pour l’espace de travail.
-* Un espace de travail peut contenir un total de 1 000 types d’enregistrement, quel que soit le nombre de sections de l’espace de travail. Cela inclut les types d’enregistrements que vous créez de A à Z ou qui sont créés lors de l’utilisation d’un modèle.
+* Pour connaître les limites concernant le nombre de types d’enregistrement que vous pouvez avoir dans un espace de travail ou une instance Workfront, consultez la [présentation des limites des objets Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
 
 <!--

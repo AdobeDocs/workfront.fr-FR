@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2714'
 ht-degree: 54%
 
 ---
@@ -102,7 +102,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
 <p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
-<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -225,7 +225,7 @@ Vous pouvez connecter des enregistrements à partir de Workfront Planning dans l
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 1. Cliquez sur la vignette d’un type d’enregistrement pour ouvrir la page du type d’enregistrement.
-1. Cliquez sur le nom d&#39;une vue **Table** pour l&#39;ouvrir.
+1. Cliquez sur le nom d’une vue de tableau pour l’ouvrir.
 1. (Facultatif) Ajoutez des enregistrements au type d’enregistrement que vous avez sélectionné en ajoutant une nouvelle ligne au tableau. Pour plus d’informations, consultez la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 1. (Conditionnel) Une fois que vous avez connecté le type d’enregistrement sélectionné à un autre type d’enregistrement, accédez à la colonne d’enregistrement lié et double-cliquez sur la cellule correspondant à l’enregistrement que vous souhaitez lier à d’autres enregistrements.
 
@@ -240,7 +240,7 @@ Vous pouvez connecter des enregistrements à partir de Workfront Planning dans l
 
    >[!TIP]
    >
-   >    Vous pouvez ouvrir la page d’un enregistrement en procédant comme suit dans la vue de tableau :
+   >    Vous pouvez ouvrir la page d’un enregistrement et connecter d’autres enregistrements en procédant comme suit dans la vue de tableau :
    >1. Cliquez sur le nom de l’enregistrement dans la vue.
    >1. Recherchez le champ d&#39;enregistrement lié et double-cliquez sur le champ (si des enregistrements sont déjà connectés).
    >Ou

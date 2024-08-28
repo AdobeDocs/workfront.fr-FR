@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '7432'
 ht-degree: 37%
@@ -179,7 +179,7 @@ Pour plus d’informations, consultez la section [Gérer la vue de calendrier](/
 
 ### L’assistant d’IA a été réactivé pour la planification Workfront.
 
-Production et aperçu : 28 août 2024
+Version préliminaire et de production : jeudi 28 août 2024
 
 L’assistant Workfront AI a été réactivé pour la zone Planification Workfront.
 
@@ -187,7 +187,7 @@ Pour plus d’informations sur l’assistant de planification Workfront AI, cons
 
 ### Fonctionnalités de création de rapports pour la planification Workfront avec le tableau de bord du canevas
 
-Production et production : 28 août 2024
+Version préliminaire et de production : jeudi 28 août 2024
 
 Vous pouvez désormais afficher les informations de planification Workfront dans un rapport à l’aide du tableau de bord du canevas de Workfront. Pour plus d’informations, voir [Prise en main des tableaux de bord de canevas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

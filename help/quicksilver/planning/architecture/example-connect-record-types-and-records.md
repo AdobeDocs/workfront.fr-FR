@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1801'
-ht-degree: 84%
+source-wordcount: '1949'
+ht-degree: 74%
 
 ---
 
@@ -44,12 +44,21 @@ Pour ce faire :
    * **Type d’enregistrement** : Product <!--did they change the casing here?-->
    * **Nom** : donnez un nom au nouveau champ. Par exemple, « Informations sur le produit ». Il s’agit du nom du champ d’enregistrement lié.
    * **Description** : ajoutez une description pour le nouveau champ. Par exemple, « Il s’agit des produits auxquels mes campagnes doivent être associées. » La description du champ s’affiche lorsque vous pointez sur le champ dans l’en-tête de colonne.
-   * **Autoriser les enregistrements multiples** : si vous laissez cette option sélectionnée, les utilisateurs et utilisatrices pourront sélectionner plusieurs enregistrements lorsque le champ de type d’enregistrement lié (Informations sur le produit) s’affichera sur les enregistrements d’origine (Campaigns). Dans notre cas, les utilisateurs et les utilisatrices peuvent sélectionner plusieurs produits à connecter à une seule campagne.
+   * **Type de connexion** : sélectionnez l’une des options suivantes :
+      * **Plusieurs à plusieurs** : les utilisateurs peuvent connecter une campagne à plusieurs produits et un produit à plusieurs campagnes.
+      * **Un à plusieurs** : les utilisateurs peuvent connecter une campagne à plusieurs produits et un produit à une seule campagne.
+      * **Plusieurs à un** : les utilisateurs peuvent connecter une campagne à un produit et un produit à plusieurs campagnes.
+      * **Un à un** : les utilisateurs peuvent connecter une campagne à un produit et un produit à une campagne.
+
+     >[!NOTE]
+     >
+     >L&#39;option **Type de connexion** n&#39;est pas disponible lors de la connexion d&#39;enregistrements à partir de différents espaces de travail ou lors de la connexion de ressources Experience Manager. Pour plus d’informations, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+   * **Enregistrer l’aspect** : désélectionnez le bouton bascule **Titre** si vous ne souhaitez pas afficher le nom des produits lors de leur ajout au champ Informations sur les produits de la campagne. Si cette option est activée, les enregistrements affichent la miniature et le titre. Le bouton bascule est activé par défaut.
    * **Sélectionner des champs de recherche** : si vous laissez cette option sélectionnée, la zone **Ajouter des champs de recherche** s’ouvre ensuite pour vous permettre de lier des champs Product au type d’enregistrement Campaign. Cliquez sur **Ignorer** pour ignorer cette étape et ajouter des champs de produit ultérieurement.
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Facultatif) Désélectionnez la bascule **Titre** dans la section **Apparence d’enregistrement** pour afficher uniquement l’image miniature de l’enregistrement dans les champs connectés. Si cette option est activée, les enregistrements affichent la miniature et le titre. Le bouton bascule est activé par défaut.
 1. (Conditionnel) Si vous avez sélectionné l’option **Sélectionner des champs de recherche** à l’étape précédente, dans la liste des champs associés au type d’enregistrement **Product**, cliquez sur l’icône **+** du champ **Budget**, puis sur **Ajouter des champs**. Un champ nommé **Budget (de Informations sur le produit)**, qui est le nom du champ lié, est créé. Toutes les informations relatives au budget du produit s’affichent dans ce champ pour les enregistrements de campagne.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
@@ -138,8 +147,12 @@ Pour ce faire :
    * **Type d’enregistrement** : Project (dans la sous-section Workfront)
    * **Nom** : donnez un nom au nouveau champ, par exemple « Informations sur le projet ».
    * **Description** : ajoutez une description pour le nouveau champ. Par exemple, « Il s’agit des projets auxquels mes campagnes doivent être associées. » La description s’affiche dans la vue de tableau, lorsque vous pointez sur le nom du champ dans l’en-tête de colonne.
-   * 
-      * **Autoriser les enregistrements multiples**: si vous laissez cette option sélectionnée, les utilisateurs et utilisatrices peuvent sélectionner plusieurs projets lorsque le champ de type de projet lié (Informations sur le projet) s’affiche sur les enregistrements d’origine (Campaigns).
+   * **Type de connexion** : sélectionnez l’une des options suivantes :
+      * **Plusieurs à plusieurs** : les utilisateurs peuvent connecter une campagne à plusieurs produits et un produit à plusieurs campagnes.
+      * **Un à plusieurs** : les utilisateurs peuvent connecter une campagne à plusieurs produits et un produit à une seule campagne.
+      * **Plusieurs à un** : les utilisateurs peuvent connecter une campagne à un produit et un produit à plusieurs campagnes.
+      * **Un à un** : les utilisateurs peuvent connecter une campagne à un produit et un produit à une campagne.
+   * **Lier uniquement les objets correspondant à ce critère** : sélectionnez un formulaire personnalisé dans le menu déroulant **Formulaire personnalisé**. Seuls les projets associés aux formulaires spécifiés peuvent être connectés aux campagnes. Vous pouvez sélectionner plusieurs formulaires.
    * **Sélectionner des champs de recherche**: si vous laissez cette option sélectionnée, la zone **Ajouter des champs de recherche** s’ouvre ensuite pour vous permettre de lier des champs Project au type d’enregistrement Campaign. Cliquez sur **Ignorer** pour ignorer cette étape et ajouter des champs Project ultérieurement.
 
    ![](assets/new-connection-tab-with-workfront-option.png)

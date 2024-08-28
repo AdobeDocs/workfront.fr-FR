@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 59%
+source-wordcount: '1989'
+ht-degree: 56%
 
 ---
 
@@ -95,7 +95,7 @@ Voici les fonctionnalités actuellement disponibles dans la planification Workfr
 * Réception de notifications in-app
 * Recevoir des notifications par e-mail
 * Ajout de miniatures et de pages de garde aux enregistrements
-* Afficher l’historique des modifications d’un enregistrement
+* Afficher l’historique des modifications sur un enregistrement
 * Formatage de texte enrichi pour les champs de paragraphe
 * Accès aux enregistrements de planification à partir d’objets Workfront
 * Connexion d’enregistrements de planification à partir d’objets Workfront
@@ -174,8 +174,6 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
 * **Espace de travail** : collection de types d’enregistrements qui définissent le cycle de vie opérationnel d’une certaine organisation. Un espace de travail est le cadre de travail d’une entité organisationnelle.
 
-  Une instance Workfront peut contenir au maximum 1 000 espaces de travail.
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Pour plus d’informations, consultez [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
@@ -204,9 +202,15 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront Planning est fourni avec un modèle d’espace de travail de vente, de marketing et de gestion des produits.
+  Adobe Workfront Planning contient les modèles suivants :
 
-  Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+   * De base : gestion marketing
+   * Avancé : Gestion marketing
+   * Entreprise : gestion marketing
+   * Gestion des ventes
+   * Gestion des produits
+
+  Pour plus d’informations, voir [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 * **Champs** : les champs sont des attributs que vous pouvez ajouter aux types d’enregistrements. Les champs contiennent des informations sur le type d’enregistrement. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -293,7 +297,7 @@ Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning�
 
   Voici les types de vue que vous pouvez appliquer à la page de type enregistrement :
 
-   * **Vue Tableau** : affiche les enregistrements et leurs champs, y compris les champs connectés et de recherche, dans un format de tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs d’enregistrement. Il s’agit de la vue par défaut.
+   * **Vue Tableau** : affiche les enregistrements et leurs champs, y compris les champs connectés et de recherche, dans un format de tableau. Les lignes du tableau sont les enregistrements individuels et les colonnes sont les champs d’enregistrement. La vue de tableau est la vue par défaut.
 
      ![](assets/table-view-example.png)
 
