@@ -5,7 +5,7 @@ description: Vous pouvez contrôler les niveaux d’accès de votre entreprise a
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: eee21282e894137df32e3d23e7affcc0f43abd02
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 42%
@@ -58,3 +58,4 @@ Pour activer l’assistant d’IA pour un niveau d’accès donné :
 1. Dans la zone Définir des restrictions supplémentaires, activez l’option **Activer l’assistant Workfront AI**.
 1. Cliquer sur **Enregistrer**.
 1. Répétez les étapes 3 à 6 pour chaque niveau d’accès pour lequel vous souhaitez activer l’assistant d’IA.
+

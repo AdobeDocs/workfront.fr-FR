@@ -4,7 +4,7 @@ content-type: reference
 description: Présentation de l’assistant AI
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 6%
@@ -113,4 +113,5 @@ Pour demander le contrat d’Adobe Gen AI :
 1. Saisissez le nom et l’adresse électronique de la personne de votre entreprise qui signera le contrat Adobe Gen AI.
 
    La convention sera alors transmise à cette personne pour signature. Une fois signé et renvoyé, l’assistant d’IA est activé pour votre entreprise.
+
 

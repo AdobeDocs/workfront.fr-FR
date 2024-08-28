@@ -5,7 +5,7 @@ description: Vous pouvez rapidement résumer les éléments de travail et les do
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 20%
@@ -55,3 +55,4 @@ Pour obtenir des informations ou des instructions à partir de la documentation 
 1. Affichez la réponse dans le panneau de l’assistant d’IA.
 1. (Facultatif) Si la réponse ne contient pas les informations dont vous avez besoin, affinez votre réponse et réessayez.
 1. (Facultatif et conditionnel) Si la réponse inclut un lien vers un article Adobe Experience League, cliquez sur le lien pour ouvrir l’article dans une nouvelle fenêtre.
+

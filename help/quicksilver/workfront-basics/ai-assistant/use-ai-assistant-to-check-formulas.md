@@ -5,7 +5,7 @@ description: Vous pouvez utiliser l’assistant d’intelligence artificielle po
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 16%
@@ -68,3 +68,4 @@ Pour réviser une expression de champ calculé non valide :
 >Nous vous recommandons de tester le champ calculé pour vous assurer qu’il récupère le résultat attendu.
 
 Pour plus d’informations sur les champs calculés dans Workfront, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+
