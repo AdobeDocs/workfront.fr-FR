@@ -2,20 +2,20 @@
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront
-description: Vous devez revoir régulièrement vos objectifs et mettre à jour leurs progrès pour vous assurer qu’ils ne sont pas en retard ou qu’ils ne risquent pas d’être atteints.
+description: Vous devez examiner régulièrement vos objectifs et actualiser leur progression pour vous assurer qu’ils ne prennent pas de retard et qu’ils ne risquent pas de ne pas être atteints.
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 10%
+source-wordcount: '691'
+ht-degree: 100%
 
 ---
 
 # Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront
 
-Vous devez revoir régulièrement vos objectifs et mettre à jour leurs progrès pour vous assurer qu’ils ne sont pas en retard ou qu’ils ne risquent pas d’être atteints.
+Vous devez examiner régulièrement vos objectifs et actualiser leur progression pour vous assurer qu’ils ne prennent pas de retard et qu’ils ne risquent pas de ne pas être atteints.
 
 <!--And: take this last sentence ^^ out when you update this for goal redesign production.-->
 
@@ -32,13 +32,12 @@ Vous devez disposer des éléments suivants :
  <tr> 
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
-   <p>Pour le nouveau plan et la nouvelle structure de licence :
-  <ul><li>Un plan ultime </li>
-  Ou
-  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
-<p>Pour le plan actuel et la structure de licence : 
-<ul><li> A Pro ou version ultérieure </li>
-  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
@@ -46,34 +45,34 @@ Vous devez disposer des éléments suivants :
  <td>
  <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+ <p> Nouvelle exigence de produit, une des options suivantes : </p>
 <ul>
-<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
-<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
+<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
  <p>Ou</p>
- <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès</td>
- <td> <p>Modifier l’accès aux objectifs</p></td>
+ <td> <p>Modifier l’accès aux Objectifs</p></td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
-  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
-  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
   <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
 <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -83,38 +82,38 @@ Vous devez disposer des éléments suivants :
 
 ## Conditions préalables
 
-Vous devez avoir un objectif actif avant de pouvoir commencer.
+Vous devez disposer d’un objectif actif avant de commencer.
 
 Vous ne pouvez pas mettre à jour la progression des objectifs qui sont des brouillons, inactifs ou fermés.
 
-## Observations relatives à la mise à jour des objectifs
+## Remarques relatives à la mise à jour des objectifs
 
-Tenez compte des points suivants lors de la mise à jour de la progression par rapport aux objectifs :
+Tenez compte des points suivants lorsque vous mettez à jour la progression d’objectifs :
 
-* Les objectifs de Workfront calculent automatiquement la progression d’un objectif lorsque vous mettez à jour ses indicateurs de progression.
+* Objectifs Workfront calcule automatiquement la progression d’un objectif lorsque vous mettez à jour ses indicateurs de progression.
 
   >[!TIP]
   >
-  >Vous ne pouvez pas mettre à jour la progression directement sur un objectif. Vous devez mettre à jour les indicateurs de progression de l&#39;objectif (activités, résultats, projets connectés) qui à leur tour mettent à jour la progression de l&#39;objectif. Pour mettre à jour la progression des projets, vous devez mettre à jour les tâches du projet.
+  >Vous ne pouvez pas mettre à jour directement la progression d’un objectif. Vous devez mettre à jour la progression des indicateurs de progression de l’objectif (activités, résultats, projets associés), qui à leur tour mettent à jour la progression de l’objectif. Pour mettre à jour la progression de projets, vous devez mettre à jour les tâches du projet.
 
-  Consultez également les articles suivants :
+  Voir aussi les articles suivants :
 
-   * Pour plus d’informations sur l’ajout d’activités aux objectifs, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-   * Pour plus d’informations sur l’ajout de résultats aux objectifs, voir [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * Pour plus d’informations sur la façon dont les objectifs de Workfront calculent la progression sur un objectif, voir [Présentation de la progression et de la condition de l’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Pour plus d’informations sur l’ajout d’activités aux objectifs, voir [Ajouter des activités aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   * Pour plus d’informations sur l’ajout de résultats aux objectifs, voir [Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+   * Pour plus d’informations sur la façon dont les Objectifs Workfront calcule la progression d’un objectif, voir [Vue d’ensemble de la progression et de la condition des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * Vous devez créer des objectifs et les activer avant de pouvoir mettre à jour leur progression.
 
-  Consultez également les articles suivants :
+  Voir aussi les articles suivants :
 
-   * Pour plus d’informations sur la création d’objectifs, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
-   * Pour plus d’informations sur l’activation des objectifs, voir [Activation des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
+   * Pour plus d’informations sur la création d’objectifs, voir [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+   * Pour plus d’informations sur l’activation des objectifs, voir [Activer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
   >
-  >Vous ne pouvez pas mettre à jour la progression des objectifs qui sont rédigés, fermés ou inactifs.
+  >Vous ne pouvez pas mettre à jour la progression des objectifs qui sont en brouillon, fermés ou inactifs.
 
-* La première fois que vous ou quelqu’un d’autre mettez à jour la progression d’un résultat ou d’une activité sur un objectif, l’objectif Changements de progression par rapport aux nouveaux objectifs et aux objectifs de Workfront commence à enregistrer la progression et les mises à jour de l’état de progression sur l’objectif.
+* La première fois que vous ou quelqu’un d’autre mettez à jour la progression d’un résultat ou d’une activité sur un objectif, la progression de l’objectif change par rapport aux nouveaux objectifs et Objectifs Workfront commence à enregistrer la progression et les mises à jour du statut de la progression sur l’objectif.
 
 <!--
 
@@ -243,34 +242,34 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 -->
 
-Pour mettre à jour les progrès réalisés par rapport aux objectifs :
+Pour mettre à jour la progression des objectifs :
 
 1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   Cela ouvre la liste des objectifs. Tous les objectifs auxquels vous avez accès s’affichent par défaut.
+   La liste des objectifs s’affiche. Tous les objectifs auxquels vous avez accès s’affichent par défaut.
 
-   Vous pouvez également cliquer sur Alignement de l’objectif dans le panneau de gauche.
+   Vous pouvez également cliquer sur Alignement des objectifs dans le panneau de gauche.
 
-1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir la page d’objectif.
+1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 
-   La liste Indicateurs de progression affiche tous les indicateurs de progression pour l’objectif que vous avez sélectionné.
+   La liste des indicateurs de progression affiche tous les indicateurs de progression pour l’objectif que vous avez sélectionné.
 
    >[!NOTE]
    >
-   >  * Vous pouvez uniquement mettre à jour les résultats et les activités.
-   >  * Vous devez mettre à jour les indicateurs de progression des objectifs pour enfants afin de montrer la progression par rapport aux objectifs pour enfants.
+   >  * Vous ne pouvez mettre à jour que les résultats et les activités.
+   >  * Vous devez mettre à jour les indicateurs de progression des objectifs enfant afin d’afficher la progression des objectifs enfant.
    >  * Vous devez mettre à jour les tâches sur les projets connectés pour afficher la progression des projets.
    >   
-   >    En retour, les progrès des objectifs pour enfants et les progrès des projets stimulent la progression de l&#39;objectif sélectionné.
+   >    À leur tour, la progression des objectifs enfant et la progression des projets entraînent la progression de l’objectif sélectionné.
 
 
-1. Pour mettre à jour la progression d’un résultat ou d’une activité, cliquez sur la valeur dans la colonne **Progression réelle** du résultat ou de l’activité et saisissez un nombre pour mettre à jour sa valeur, puis appuyez sur Entrée.
+1. Pour mettre à jour la progression d’un résultat ou d’une activité, cliquez sur la valeur dans la colonne **Progression en cours** du résultat ou de l’activité, saisissez un nombre pour mettre à jour la valeur, puis appuyez sur Entrée.
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
-   La barre de progression de l&#39;indicateur de progression dans la colonne Progression et la progression de l&#39;objectif dans l&#39;en-tête de l&#39;objectif sont mises à jour immédiatement.
+   La barre de progression de l’indicateur de progression dans la colonne Progression et la progression de l’objectif dans l’en-tête de l’objectif sont mises à jour immédiatement.
 

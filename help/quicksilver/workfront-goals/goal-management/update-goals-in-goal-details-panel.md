@@ -1,15 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Mise à jour des objectifs dans le panneau Détails de l’objectif dans les objectifs Adobe Workfront
-description: Vous pouvez mettre à jour les informations relatives à des objectifs individuels en accédant au panneau Détails de l’objectif .
+title: Mettre à jour des objectifs dans le panneau Détails sur l’objectif dans Objectifs Adobe Workfront
+description: Vous pouvez mettre à jour les informations relatives à des objectifs individuels en accédant au panneau Détails sur l’objectif.
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 12%
+source-wordcount: '638'
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 12%
 - update the description in the metadata above
 -->
 
-Vous pouvez mettre à jour les informations relatives à des objectifs individuels en accédant au panneau Détails de l’objectif .
+Vous pouvez mettre à jour les informations relatives à des objectifs individuels en accédant au panneau Détails sur l’objectif.
 
 >[!NOTE]
 >
->Vous ne pouvez pas mettre à jour les objectifs dont l’état est Fermé.
+>Vous ne pouvez pas mettre à jour les objectifs dont le statut est Fermé.
 
 
 ## Conditions d’accès
@@ -40,13 +40,12 @@ Vous devez disposer des éléments suivants :
  <tr> 
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
-   <p>Pour le nouveau plan et la nouvelle structure de licence :
-  <ul><li>Un plan ultime </li>
-  Ou
-  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
-<p>Pour le plan actuel et la structure de licence : 
-<ul><li> A Pro ou version ultérieure </li>
-  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
@@ -54,34 +53,34 @@ Vous devez disposer des éléments suivants :
  <td>
  <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+ <p> Nouvelle exigence de produit, une des options suivantes : </p>
 <ul>
-<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
-<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
+<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
  <p>Ou</p>
- <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès*</td>
- <td> <p>Modifier l’accès aux objectifs</p> </td>
+ <td> <p>Modifier l’accès aux Objectifs</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
-  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
-  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
   <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -89,7 +88,7 @@ Vous devez disposer des éléments suivants :
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Mise à jour des objectifs dans la section Détails des objectifs
+## Mettre à jour des objectifs dans la section Détails sur l’objectif
 
 Vous pouvez accéder à un objectif individuel à partir d’une liste d’objectifs.
 
@@ -180,43 +179,43 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Cliquez sur le nom d’un objectif dans la liste des objectifs, puis sur le nom d’un objectif.
 
-   Cela ouvre la section **Détails de l’objectif** sur la gauche.
+   Cela ouvre la section **Détails sur l’objectif** sur la gauche.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit, puis sur **Modifier tout** ou **Aperçu**
+1. Cliquez sur l’**icône Modifier** ![](assets/edit-icon.png) dans le coin supérieur droit, puis sur **Tout modifier** ou **Vue d’ensemble**.
 
    Ou
 
-   Commencez à saisir des informations dans l’un des champs modifiables de la section Détails de l’objectif . La section devient modifiable.
+   Commencez à saisir des informations dans l’un des champs modifiables de la section Détails sur l’objectif. La section devient modifiable.
 
    >[!IMPORTANT]
    >
-   >Tous les champs qui s’affichent dans la section Détails de l’objectif ne peuvent pas être modifiés. Workfront calcule certains champs et ils sont en lecture seule.
+   >Tous les champs qui s’affichent dans la section Détails sur l’objectif ne peuvent pas être modifiés. Workfront calcule certains champs et ceux-ci sont en lecture seule.
 
-1. Mettez à jour ou consultez les champs suivants :
+1. Mettez à jour ou vérifiez les champs suivants :
 
-   * **Description** : ajoutez ou mettez à jour des informations sur l’objectif.
-   * **Progression** : indique le pourcentage de l’objectif atteint jusqu’à présent. Vous ne pouvez pas mettre à jour manuellement la progression d’un objectif. Le progrès de l&#39;objectif est le calcul de tous les indicateurs de progrès.
-   * **Condition** : indique si l’objectif est nouveau et n’a pas encore été mis à jour, s’il doit être terminé à temps sur la cible ou s’il est en retard. Vous ne pouvez pas mettre à jour la condition d’un objectif. La condition de l’objectif est automatiquement calculée par Worfront.\
+   * **Description** : ajoutez ou mettez à jour des informations sur l’objectif.
+   * **Progression** : indique le pourcentage de l’objectif atteint jusqu’à présent. Vous ne pouvez pas mettre à jour manuellement la progression d’un objectif. La progression de l’objectif est le calcul de tous les indicateurs de progression.
+   * **Condition** : indique si l’objectif est nouveau et n’a pas encore été mis à jour, s’il est sur le point d’être terminé à temps ou s’il est en retard. Vous ne pouvez pas mettre à jour la condition d’un objectif. La condition de l’objectif est automatiquement calculée par Workfront.\
      Pour plus d’informations sur la condition et la progression de l’objectif, voir
-     [Présentation de la progression et de la condition de l’objectif dans les objectifs Adobe Workfront](../goal-management/calculate-goal-progress.md).
-   * **Status** : vous ne pouvez pas mettre à jour manuellement l’état d’un objectif. Pour plus d’informations, voir [Présentation de l’état des objectifs dans les objectifs Adobe Workfront](../goal-management/goal-status-overview.md).
-   * **Propriétaire de l’objectif** : cliquez pour mettre à jour le nom du propriétaire de l’objectif. Commencez à saisir le nom d’un utilisateur, d’une équipe, d’un groupe ou du nom de votre organisation, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Vous ne pouvez avoir qu&#39;un seul propriétaire pour un objectif.
-   * **Objectif parent** : commencez à saisir le nom d’un objectif que vous souhaitez définir comme parent de l’objectif que vous avez sélectionné. La progression de l’objectif sélectionné met automatiquement à jour la progression de l’objectif parent.
+     [Vue d’ensemble de la progression et de la condition des objectifs dans Objectifs Adobe Workfront](../goal-management/calculate-goal-progress.md).
+   * **Statut** : vous ne pouvez pas mettre à jour manuellement le statut d’un objectif. Pour plus d’informations, voir [Vue d’ensemble des statuts des objectifs dans Objectifs Adobe Workfront](../goal-management/goal-status-overview.md).
+   * **Personne propriétaire de l’objectif** : cliquez pour mettre à jour le nom de la personne propriétaire de l’objectif. Commencez à saisir le nom d’une personne, d’une équipe, d’un groupe ou le nom de votre organisation, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Vous ne pouvez avoir qu’une seule personne propriétaire pour un objectif.
+   * **Objectif parent** : commencez à saisir le nom d’un objectif que vous souhaitez définir comme parent de l’objectif que vous avez sélectionné. La progression de l’objectif sélectionné met automatiquement à jour la progression de l’objectif parent.
 
      >[!TIP]
      >
-     >Vous ne pouvez pas mettre à jour les informations suivantes sur un objectif parent :
+     >Vous ne pouvez pas mettre à jour les informations suivantes sur un objectif parent :
      >    * Période de l’objectif parent
      >    * Progression de l’objectif parent
-     >    * Propriétaire de l’objectif parent.
+     >    * Personne propriétaire de l’objectif parent
      >      
      >Vous devez mettre à jour ces informations sur l’objectif parent lui-même.
 
-   * **Période** : cliquez pour mettre à jour la période de l’objectif.\
+   * **Période** : cliquez pour mettre à jour la période de l’objectif.\
      Ou\
-     Sélectionnez **Activer les dates personnalisées** pour spécifier des dates pour les **dates de début** et **dates de fin** de l’objectif.
-   * **Notes de fermeture** : ce champ n’est visible que pour les objectifs dont l’état est Fermé. Les objectifs fermés ne peuvent pas être modifiés. La réouverture d’un objectif fermé supprime définitivement les notes de fin.
+     Sélectionnez **Activer les dates personnalisées** pour indiquer les dates de **Début** et de **Fin** de l’objectif.
+   * **Notes finales** : ce champ n’est visible que pour les objectifs dont le statut est Fermé. Les objectifs fermés ne peuvent pas être modifiés. La réouverture d’un objectif fermé supprime définitivement les notes finales.
 
 

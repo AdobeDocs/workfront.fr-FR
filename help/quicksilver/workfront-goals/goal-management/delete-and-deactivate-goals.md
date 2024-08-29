@@ -2,20 +2,20 @@
 product-previous: workfront-goals
 navigation-topic: old-workfront-goals-articles
 title: Supprimer et désactiver des objectifs dans Objectifs Adobe Workfront
-description: Lorsque vous commencez à travailler sur un objectif qui n’a plus d’importance dans votre entreprise, nous vous recommandons de le désactiver au lieu de le supprimer. La désactivation d’un objectif conserve ses informations historiques et vous donne la possibilité de les réactiver ultérieurement. Cependant, il arrive que la suppression d’un objectif ait un sens, afin que votre liste d’objectifs reste précise.
+description: Lorsque vous commencez à travailler sur un objectif et qu’il n’est plus pertinent pour votre organisation, nous vous recommandons de le désactiver au lieu de le supprimer. La désactivation d’un objectif permet de conserver son historique et vous donne la possibilité de le réactiver ultérieurement. Cependant, il peut arriver que la suppression d’un objectif soit judicieuse, afin que votre liste d’objectifs reste exacte.
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 11%
+source-wordcount: '668'
+ht-degree: 100%
 
 ---
 
 # Supprimer et désactiver des objectifs dans Objectifs Adobe Workfront
 
-Lorsque vous commencez à travailler sur un objectif qui n’a plus d’importance dans votre entreprise, nous vous recommandons de le désactiver au lieu de le supprimer. La désactivation d’un objectif conserve ses informations historiques et vous donne la possibilité de les réactiver ultérieurement. Cependant, il arrive que la suppression d’un objectif ait un sens, afin que votre liste d’objectifs reste précise.
+Lorsque vous commencez à travailler sur un objectif et qu’il n’est plus pertinent pour votre organisation, nous vous recommandons de le désactiver au lieu de le supprimer. La désactivation d’un objectif permet de conserver son historique et vous donne la possibilité de le réactiver ultérieurement. Cependant, il peut arriver que la suppression d’un objectif soit judicieuse, afin que votre liste d’objectifs reste exacte.
 
 ## Conditions d’accès
 
@@ -30,13 +30,12 @@ Vous devez disposer des éléments suivants :
  <tr> 
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
-   <p>Pour le nouveau plan et la nouvelle structure de licence :
-  <ul><li>Un plan ultime </li>
-  Ou
-  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
-<p>Pour le plan actuel et la structure de licence : 
-<ul><li> A Pro ou version ultérieure </li>
-  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
@@ -49,29 +48,29 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+ <p> Nouvelle exigence de produit, une des options suivantes : </p>
 <ul>
-<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
-<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
+<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
  <p>Ou</p>
- <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Niveau d’accès</p></td>
- <td> <p>Modifier l’accès aux objectifs</p> </td>
+ <td> <p>Modifier l’accès aux Objectifs</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
-  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
-  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
   <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -79,25 +78,25 @@ Vous devez disposer des éléments suivants :
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Désactivation des objectifs
+## Désactiver des objectifs
 
 Vous pouvez désactiver un objectif qui n’est plus pertinent et que vous souhaiterez peut-être réactiver à l’avenir.
 
-* [Remarques concernant la désactivation des objectifs](#considerations-when-deactivating-goals)
-* [Désactivation des objectifs](#deactivate-goals)
+* [Points à prendre en compte lors de la désactivation des objectifs](#considerations-when-deactivating-goals)
+* [Désactiver des objectifs](#deactivate-goals)
 
-### Remarques concernant la désactivation des objectifs
+### Points à prendre en compte lors de la désactivation des objectifs
 
-Gardez à l’esprit les éléments suivants lors de la désactivation des objectifs :
+N’oubliez pas les points suivants lorsque vous désactivez des objectifs :
 
-* Vous pouvez uniquement désactiver les objectifs à l’état Actif . Pour plus d’informations sur l’activation d’un objectif, voir [Activation des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
+* Vous ne pouvez désactiver que les objectifs ayant un statut actif. Pour plus d’informations sur l’activation d’un objectif, voir [Activer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!TIP]
   >
-  >Vous ne pouvez pas désactiver les objectifs à l’état En création .
+  >Vous ne pouvez pas désactiver les objectifs ayant un statut Brouillon.
 
 * Workfront arrête de calculer la progression des objectifs désactivés.
-* Les objectifs inactifs ne s’affichent plus ou ne sont plus pris en compte dans la section Graphiques des objectifs Workfront. Pour plus d’informations sur les graphiques des objectifs de Workfront, voir [Révision des graphiques pour comprendre les tendances de progression des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* Les objectifs inactifs ne s’affichent plus et ne sont plus pris en compte dans la section Graphiques d’Objectifs Workfront. Pour plus d’informations sur les graphiques d’Objectifs Workfront, voir [Réviser des graphiques pour comprendre les tendances de progression des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -105,7 +104,7 @@ Gardez à l’esprit les éléments suivants lors de la désactivation des objec
 * Vous pouvez modifier les informations relatives à l’objectif et à son alignement.
 * Vous pouvez réactiver un objectif précédemment désactivé.
 
-### Désactivation des objectifs
+### Désactiver des objectifs
 
 <!--
 Deactivating goals differs depending on which environment you use.
@@ -141,31 +140,31 @@ Deactivating goals differs depending on which environment you use.
 
 1. (Facultatif) Modifiez vos filtres pour n’afficher que les objectifs actifs.
 
-   Pour plus d’informations sur le filtrage des informations dans les objectifs Workfront, voir [Filtrage des informations dans les objectifs Adobe Workfront](../goal-management/filter-information-wf-goals.md).
+   Pour plus d’informations sur le filtrage des informations dans Objectifs Workfront, voir [Filtrer les informations dans Objectifs Adobe Workfront](../goal-management/filter-information-wf-goals.md).
 
 1. Cliquez sur un objectif actif.
 
-   La page d’objectif s’ouvre.
+   La page de l’objectif s’ouvre.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) situé à droite du nom de l’objectif, puis cliquez sur **Désactiver**.
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Désactiver**.
 
-1. L’objectif est désactivé et son état devient inactif.
+1. L’objectif est désactivé et son statut devient inactif.
 
 ## Supprimer des objectifs
 
-Vous pouvez supprimer des objectifs qui ne sont plus ou qui peuvent ne jamais être pertinents.
+Vous pouvez supprimer les objectifs qui ne sont plus pertinents ou qui pourraient ne jamais l’être.
 
-* [Considérations relatives à la suppression d’objectifs](#considerations-when-deleting-goals)
+* [Points à prendre en compte lors de la suppression d’objectifs](#considerations-when-deleting-goals)
 * [Supprimer des objectifs](#delete-goals)
 
-### Remarques concernant la suppression d’objectifs {#considerations-when-deleting-goals}
+### Points à prendre en compte lors de la suppression d’objectifs {#considerations-when-deleting-goals}
 
-* Vous pouvez supprimer des objectifs dans n’importe quel état, y compris les objectifs fermés.
+* Vous pouvez supprimer des objectifs quel que soit leur statut, y compris des objectifs clôturés.
 * Vous ne pouvez pas récupérer les objectifs supprimés.
-* Les activités de barre de progression manuelle et de résultats associées à l’objectif sont également supprimées.
-* Les projets associés aux objectifs ne sont pas supprimés, mais leur association à l’objectif est supprimée.
+* Les résultats et les activités de la barre de progression manuelle liés à l’objectif sont également supprimés.
+* Les projets associés à des objectifs ne sont pas supprimés, mais leur association avec l’objectif en question est supprimée.
 
 ### Supprimer des objectifs
 
@@ -189,15 +188,15 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Objectifs**.
+1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **Objectifs**.
 
    La liste des objectifs s’affiche.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-1. Cliquez sur le nom d’un objectif. Cela ouvre la page d’objectif.
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) situé à droite du nom de l’objectif, puis cliquez sur **Supprimer l’objectif**, puis sur **Supprimer**.
+1. Cliquez sur le nom d’un objectif. La page de l’objectif s’ouvre.
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Supprimer l’objectif**, puis sur **Supprimer**.
 
-   L’objectif, ses activités et ses résultats sont également supprimés et ne peuvent pas être récupérés. Les projets associés aux objectifs ou aux objectifs enfants ne sont pas supprimés.
+   L’objectif, ses activités et ses résultats sont également supprimés et ne peuvent pas être récupérés. Les projets associés à l’objectif ou aux objectifs enfant ne sont pas supprimés.
 
 

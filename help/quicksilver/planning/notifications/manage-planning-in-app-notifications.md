@@ -3,11 +3,12 @@ title: Gestion des notifications in-app de la planification Adobe Workfront
 description: Lorsqu’une personne vous balise dans un commentaire d’enregistrement, vous recevez une notification par courrier électronique pour cette balise.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '416'
 ht-degree: 24%
 
 ---
@@ -23,8 +24,7 @@ Vous pouvez recevoir des notifications in-app de la planification Workfront lors
 
   Pour plus d’informations sur le balisage des autres dans un commentaire d’enregistrement, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
 * Une personne demande votre autorisation d’accéder à une vue ou à un espace de travail.
-* Quelqu&#39;un confirme que votre accès a été accordé pour une vue ou un espace de travail <!--verify this-->
-* Quelqu&#39;un a refusé votre accès pour une vue ou un espace de travail. <!--verify this-->
+* Quelqu&#39;un confirme que votre accès a été accordé pour une vue ou un espace de travail <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Conditions d’accès
 
@@ -64,7 +64,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -170,7 +170,10 @@ OLD:
 1. (Facultatif) Cliquez sur **Tout marquer comme lu** pour indiquer que vous avez lu toutes les notifications.
 1. (Facultatif) Cliquez sur **Afficher tout** pour accéder à la page **Notifications** dans Adobe Experience Cloud.
 
+## Gérer les notifications in-app lors de la demande et de l’octroi des autorisations
 
-## Gérer les notifications in-app lors de la demande, de l’octroi ou du refus d’autorisations pour une vue ou un espace de travail
+Vous recevez des notifications in-app lorsqu’une personne vous demande ou vous accorde des autorisations pour une vue ou un espace de travail.
 
 Pour plus d’informations sur la demande, l’octroi ou le refus d’accès à une vue ou à un espace de travail, voir [Demande d’accès à une vue ou à un espace de travail](/help/quicksilver/planning/access/request-permissions.md).
+
+Pour plus d’informations sur la gestion de vos notifications Workfront Planning, voir [Gestion des préférences de notification Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

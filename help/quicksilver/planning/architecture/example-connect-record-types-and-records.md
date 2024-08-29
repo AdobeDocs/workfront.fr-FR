@@ -3,9 +3,10 @@ title: Exemple de connexion de types d’enregistrement et d’enregistrements
 description: Cet article décrit un exemple de création d’une connexion entre un type d’enregistrement Adobe Workfront Planning et un type d’objet de projet Workfront. Il décrit également comment vous pouvez connecter un enregistrement Workfront Planning à un projet individuel.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 74%

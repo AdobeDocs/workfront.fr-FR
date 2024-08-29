@@ -6,10 +6,10 @@ description: La condition d’une tâche ou d’un problème est un indicateur q
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -59,7 +59,7 @@ Les valeurs de condition auxquelles nous faisons référence dans cet article so
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
    <td> <p>Autorisations d’affichage ou supérieures sur les tâches et les problèmes pour afficher leur condition</p>
-   <p>Autorisations de gestion sur les tâches et les problèmes pour mettre à jour la condition</p>
+   <p>Autorisations Contribute sur les tâches et problèmes pour mettre à jour la condition</p>
   </td> 
   </tr> 
  </tbody> 

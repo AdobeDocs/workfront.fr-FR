@@ -2,25 +2,25 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Fermer et rouvrir desobjectifs dans Objectifs Adobe Workfront
-description: Vous pouvez fermer un objectif lorsque vous souhaitez indiquer que vous l’avez terminé ou que vous n’y travaillez plus car il est devenu obsolète.
+description: Vous pouvez fermer un objectif lorsque vous souhaitez indiquer que vous l’avez terminé ou que vous ne travaillez plus sur celui-ci parce qu’il est devenu obsolète.
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 8%
+source-wordcount: '933'
+ht-degree: 100%
 
 ---
 
 # Fermer et rouvrir desobjectifs dans Objectifs Adobe Workfront
 
-Vous pouvez fermer un objectif lorsque vous souhaitez indiquer les éléments suivants :
+Vous pouvez fermer un objectif lorsque vous souhaitez indiquer les éléments suivants :
 
-* L&#39;objectif est atteint, soit parce que vous l&#39;avez atteint, soit parce que la période s&#39;est écoulée.
-* Vous n&#39;y travaillez plus et ne prévoyez pas de le faire dans un avenir immédiat.
+* L’objectif est terminé, soit parce que vous l’avez atteint, soit parce que le délai est écoulé.
+* Vous ne travaillez plus dessus et ne prévoyez pas de le faire dans un avenir immédiat.
 
-Vous pouvez rouvrir les objectifs qui ont été fermés lorsqu’ils redeviennent pertinents.
+Vous pouvez rouvrir les objectifs qui ont été fermés lorsqu’ils deviennent à nouveau pertinents.
 
 ## Conditions d’accès
 
@@ -35,13 +35,12 @@ Vous devez disposer des éléments suivants :
  <tr> 
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
-   <p>Pour le nouveau plan et la nouvelle structure de licence :
-  <ul><li>Un plan ultime </li>
-  Ou
-  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
-<p>Pour le plan actuel et la structure de licence : 
-<ul><li> A Pro ou version ultérieure </li>
-  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
@@ -50,33 +49,33 @@ Vous devez disposer des éléments suivants :
  <td>
  <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+ <p> Nouvelle exigence de produit, une des options suivantes : </p>
 <ul>
-<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
-<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
+<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
  <p>Ou</p>
- <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <td role="rowheader">Niveau d’accès</td>
- <td> <p>Modifier l’accès aux objectifs</p> </td>
+ <td> <p>Modifier l’accès aux Objectifs</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
-  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
-  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
   <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
 <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -84,24 +83,24 @@ Vous devez disposer des éléments suivants :
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Remarques concernant la fermeture ou la réouverture d’objectifs
+## Éléments à prendre en compte concernant la fermeture ou la réouverture d’objectifs
 
-* Vous devez avoir accès à Modifier les objectifs dans votre niveau d’accès avant de pouvoir fermer et rouvrir les objectifs. Pour plus d’informations sur l’octroi de l’accès aux objectifs, voir [Accorder l’accès aux objectifs Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
-* Vous ne pouvez fermer que les objectifs actifs. Vous ne pouvez pas fermer les objectifs dont l’état est En création.
+* Vous devez avoir l’accès Modifier des objectifs dans votre niveau d’accès pour pouvoir fermer et rouvrir des objectifs. Pour plus d’informations sur l’octroi de l’accès à Objectifs, voir [Accorder l’accès à Objectifs Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+* Vous ne pouvez fermer que les objectifs actifs. Vous ne pouvez pas fermer les objectifs dont le statut est Brouillon.
 
-  Pour plus d’informations sur les états d’objectif, consultez la [présentation de l’état de l’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
+  Pour plus d’informations sur les statuts des objectifs, voir [Vue d’ensemble des statuts des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
 
-* Fermer les objectifs bloque sa progression et vous permet d’évaluer vos performances dans leur réalisation.
+* Fermer un objectif verrouille sa progression et vous permet d’évaluer vos performances concernant leur réalisation.
 
   >[!CAUTION]
   >
-  >Lors de la fermeture d’un objectif avec des objectifs de contribution actifs, sa progression change après la fermeture pour indiquer la progression des objectifs actifs de contribution. Pour plus d’informations sur l’alignement des objectifs, voir [Aligner les objectifs en les connectant dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  >Lors de la fermeture d’un objectif qui possède des objectifs de contribution actifs, sa progression est modifiée après sa fermeture afin d’indiquer la progression des objectifs de contribution actifs. Pour plus d’informations sur l’alignement des objectifs, voir [Aligner des objectifs en les connectant dans Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-* Mettez à jour les indicateurs de progression de l’objectif avant de fermer l’objectif pour vous assurer que l’objectif se termine avec une valeur de progression exacte. Si tous les indicateurs de progression ont été atteints, le pourcentage d’objectif terminé doit être de 100 % et votre objectif a été atteint. Pour plus d’informations sur la mise à jour de vos objectifs, voir [Mise à jour de la progression de l’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-* Conservez les commentaires finaux comme une mise à jour des objectifs que vous fermez. Pour plus d’informations sur l’ajout de commentaires aux objectifs, voir [Gestion des commentaires d’objectif dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+* Mettez à jour les indicateurs de progression de l’objectif avant de fermer l’objectif pour vous assurer que l’objectif se ferme avec une valeur de progression correcte. Si tous les indicateurs de progression sont atteints, le pourcentage d’accomplissement de l’objectif doit alors être de 100 % et votre objectif est atteint. Pour plus d’informations sur la mise à jour de vos objectifs, voir [Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Ajoutez vos commentaires finaux en tant que mise à jour pour les objectifs que vous fermez. Pour plus d’informations sur l’ajout de commentaires aux objectifs, voir [Gérer les commentaires des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 * Vous ne pouvez plus mettre à jour la progression des résultats et des activités sur un objectif que vous fermez.
 * Vous pouvez rouvrir un objectif fermé si vous souhaitez continuer à travailler dessus.
-* Si l’objectif n’a pas été atteint, pensez à copier la plupart de ses informations sur la prochaine période (trimestre ou année). Il s’agit d’une excellente option pour les objectifs qui sont identiques d’une période à l’autre ou pour les objectifs sur lesquels vous devrez peut-être encore travailler au cours de la prochaine période. Pour plus d’informations sur la copie des objectifs, voir [Copier les objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/copy-goals.md). Vous pouvez également mettre à jour la période sur l’objectif au lieu de la copier dans une autre période.
+* Si l’objectif n’a pas été atteint, pensez à copier la plupart de ses informations vers la prochaine période calendaire (trimestre ou année). Il s’agit d’une excellente option pour les objectifs qui sont identiques d’une période à l’autre ou pour les objectifs sur lesquels vous devrez peut-être encore travailler au cours de la prochaine période. Pour plus d’informations sur la copie d’objectifs, voir Copier des objectifs dans Objectifs Adobe Workfront. [](../../workfront-goals/goal-management/copy-goals.md) Vous pouvez également mettre à jour la période sur l’objectif au lieu de la copier dans une autre période.
 * Workfront supprime les commentaires d’un objectif fermé lorsque vous le rouvrez. Si vous devez conserver les commentaires, nous vous recommandons de copier l’objectif fermé, y compris les résultats qui lui sont associés, plutôt que de le rouvrir.
 
 
@@ -153,31 +152,31 @@ Closing goals differs depending on what environment you use.
 
 1. (Facultatif) Modifiez vos filtres pour n’afficher que les objectifs actifs.
 
-   Pour plus d’informations sur le filtrage des informations dans les objectifs Workfront, voir [Filtrage des informations dans les objectifs Adobe Workfront](../goal-management/filter-information-wf-goals.md).
+   Pour plus d’informations sur le filtrage des informations dans Objectifs Workfront, voir [Filtrer les informations dans Objectifs Adobe Workfront](../goal-management/filter-information-wf-goals.md).
 1. Cliquez sur un objectif actif.
 
-   La page d’objectif s’ouvre.
+   La page de l’objectif s’ouvre.
 
    ![](assets/goal-page-unshimmed.png)
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) situé à droite du nom de l’objectif, puis cliquez sur **Fermer**.
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de l’objectif, puis sur **Fermer**.
 
    L’objectif se ferme et vous recevez une confirmation dans le coin supérieur droit de l’écran.
 
    ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
-1. (Facultatif) Dans la boîte de confirmation, cliquez sur **Ajouter des notes de fermeture** pour ajouter des commentaires sur cet objectif et les raisons pour lesquelles vous devez le fermer.
-1. Ajoutez des notes de fermeture, puis cliquez sur **Ajouter des notes**.
+1. (Facultatif) Dans la zone de confirmation, cliquez sur **Ajouter des notes finales** pour ajouter des commentaires sur cet objectif et les raisons pour lesquelles vous devez le fermer.
+1. Saisissez des notes finales, puis cliquez sur **Ajouter les notes**.
 
    ![](assets/add-closing-notes-box-unshimmed.png)
 
-   Les commentaires s’affichent dans la section Détails de l’objectif de la page de l’objectif, dans la zone Notes de fermeture .
+   Les commentaires s’affichent dans la section Détails sur l’objectif de la page de l’objectif, dans la zone Notes finales.
 
    >[!NOTE]
    >
-   >Workfront supprime les notes de fermeture si vous rouvrez ultérieurement un objectif fermé.
+   >Workfront supprime les notes finales si vous rouvrez ultérieurement un objectif fermé.
 
 
-## Réouverture des objectifs
+## Rouvrir des objectifs
 
 Vous pouvez rouvrir les objectifs fermés si vous décidez qu’ils sont redevenus pertinents et que vous devez continuer à mettre à jour leur progression.
 
@@ -210,7 +209,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png)> **Objectifs** dans le coin supérieur droit.
+1. Cliquez sur l’icône de **Menu principal** ![](assets/main-menu-icon.png) > **Objectifs** dans le coin supérieur droit.
 
    La liste des objectifs s’affiche.
 
@@ -219,16 +218,16 @@ Reopening goals differs depending on what environment you use.
 
 1. (Facultatif) Modifiez vos filtres pour n’afficher que les objectifs fermés.
 
-   Pour plus d’informations sur le filtrage des informations dans les objectifs Workfront, voir [Filtrage des informations dans les objectifs Adobe Workfront](../goal-management/filter-information-wf-goals.md).
+   Pour plus d’informations sur le filtrage des informations dans Objectifs Workfront, voir [Filtrer les informations dans Objectifs Adobe Workfront](../goal-management/filter-information-wf-goals.md).
 1. Cliquez sur le nom d’un objectif fermé.
 
-   La page d’objectif s’ouvre.
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) situé à droite du nom de l’objectif, puis **Réouvrir** > **Réouvrir**.
+   La page de l’objectif s’ouvre.
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de l’objectif, puis **Rouvrir** > **Rouvrir**.
 
-   Les événements suivants se produisent :
-   * L’objectif est maintenant ouvert et a l’état Actif.
-   * La progression de l&#39;objectif est recalculée à partir de la date courante.
-   * Toutes les notes de fermeture sont supprimées de la page Détails de l’objectif . Les notes de fermeture supprimées ne peuvent pas être récupérées.
+   Les événements suivants se produisent :
+   * L’objectif est maintenant ouvert avec le statut Actif.
+   * La progression de l’objectif est recalculée à partir de la date actuelle.
+   * Toutes les notes finales sont supprimées de la page Détails sur l’objectif. Vous ne pouvez pas récupérer les notes finales supprimées.
 
 1. (Facultatif) Modifiez à nouveau vos filtres pour n’afficher que les objectifs actifs.
 

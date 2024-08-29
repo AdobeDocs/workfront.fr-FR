@@ -1,15 +1,15 @@
 ---
 title: "Notifications de planification Adobe Workfront : index de l’article"
-description: Lorsqu’une personne vous balise dans un commentaire d’enregistrement, vous pouvez recevoir des notifications par courrier électronique ou dans l’application pour cette balise. Le type de notification que vous recevez dépend de si votre société est ou non un client Adobe Unified Experience. Les articles suivants décrivent le type de notifications Workfront Planning que vous pouvez recevoir et comment gérer vos préférences.
+description: Vous pouvez recevoir un courrier électronique ou une notification in-app lorsqu’une personne vous balise dans un commentaire d’enregistrement, ou vous demande ou vous accorde des autorisations pour un affichage ou un espace de travail. Les articles suivants décrivent le type de notifications Workfront Planning que vous pouvez recevoir et comment gérer vos préférences en matière de notifications.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 12%
+source-wordcount: '127'
+ht-degree: 14%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 12%
 
 {{planning-important-intro}}
 
-Lorsqu’une personne vous balise dans un commentaire d’enregistrement, vous pouvez recevoir un courrier électronique ou une notification in-app pour cette balise.
-
-Le type de notification que vous recevez dépend de si votre société est ou non un client Adobe Unified Experience.
+Vous pouvez recevoir un courrier électronique ou une notification in-app lorsqu’une personne vous balise dans un commentaire d’enregistrement, ou vous demande ou vous accorde des autorisations pour un affichage ou un espace de travail.
 
 Les articles suivants décrivent le type de notifications Workfront Planning que vous pouvez recevoir et comment gérer vos préférences :
 

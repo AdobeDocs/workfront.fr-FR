@@ -3,20 +3,20 @@ product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront
-description: Les résultats mesurent la progression d’un objectif. Sans associer de résultats, d’activités ou d’objectifs alignés à un objectif, vous ne pouvez pas activer l’objectif et vous ne pouvez pas y enregistrer la progression.
+description: Les résultats mesurent la progression d’un objectif. L’activation de l’objectif et l’enregistrement des progrès réalisés ne sont possibles que si des résultats, des activités ou des objectifs alignés sont associés à l’objectif.
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 19%
+source-wordcount: '587'
+ht-degree: 100%
 
 ---
 
 # Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront
 
-Les résultats mesurent la progression d’un objectif. Sans associer de résultats, d’activités ou d’objectifs alignés à un objectif, vous ne pouvez pas activer l’objectif et vous ne pouvez pas y enregistrer la progression.
+Les résultats mesurent la progression d’un objectif. L’activation de l’objectif et l’enregistrement des progrès réalisés ne sont possibles que si des résultats, des activités ou des objectifs alignés sont associés à l’objectif.
 
 ## Conditions d’accès
 
@@ -31,13 +31,12 @@ Vous devez disposer des éléments suivants :
  <tr> 
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
-   <p>Pour le nouveau plan et la nouvelle structure de licence :
-  <ul><li>Un plan ultime </li>
-  Ou
-  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
-<p>Pour le plan actuel et la structure de licence : 
-<ul><li> A Pro ou version ultérieure </li>
-  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
@@ -45,34 +44,34 @@ Vous devez disposer des éléments suivants :
  <td>
  <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+ <p> Nouvelle exigence de produit, une des options suivantes : </p>
 <ul>
-<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
-<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
+<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
  <p>Ou</p>
- <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Niveau d’accès</p></td>
- <td> <p>Modifier l’accès aux objectifs</p>  </td>
+ <td> <p>Modifier l’accès aux Objectifs</p>  </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
-  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
-  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
   <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -85,12 +84,12 @@ Vous devez disposer des éléments suivants :
 Vous devez disposer des éléments suivants avant de commencer :
 
 * Un modèle de disposition qui inclut la zone Objectifs dans le menu principal.
-* Un objectif existant.
+* Objectif existant.
 
-  Pour plus d’informations sur la création d’objectifs, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+  Pour plus d’informations sur la création d’objectifs, voir la section [Créer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
->Un objectif ne peut pas comporter plus de 1 000 activités, résultats, projets ou objectifs alignés.
+>Un objectif ne peut pas dépasser 1 000 activités, résultats, projets et objectifs alignés.
 
 ## Ajouter un résultat à un objectif
 
@@ -140,36 +139,36 @@ Adding results to goals differs depending on which environment you use.
 
 1. Cliquez sur le menu principal ![](assets/main-menu-icon.png), puis sur **Objectifs**.
 
-1. Dans la **Liste des objectifs**, cliquez sur le nom d’un objectif pour ouvrir la page d’objectif.
+1. Pour ouvrir la page d’un objectif, cliquez sur son nom dans la **Liste des objectifs**.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
-1. Développez le menu déroulant **Nouvel indicateur de progression** , puis cliquez sur **Créer un résultat**.
+1. Développez le menu déroulant **Nouvel indicateur de progression**, puis cliquez sur **Créer un résultat**.
 
-   La boîte de dialogue Nouveau résultat s’affiche.
+   La boîte de dialogue « Nouveau résultat » s’affiche.
 
    ![](assets/new-result-box-unshimmed.png)
 
-1. Saisissez un nom pour le résultat dans le champ **Result name**. Il s’agit d’un champ obligatoire.
-1. (Facultatif) Supprimez votre nom du champ **Result owner** si vous souhaitez affecter le résultat à un autre utilisateur. Par défaut, vous êtes le propriétaire d’une activité que vous créez.
+1. Saisissez un nom pour le résultat dans le champ **Nom du résultat**. Il s’agit d’un champ obligatoire.
+1. (Facultatif) Supprimez votre nom du champ Personne propriétaire du résultat si vous souhaitez affecter le résultat à un autre utilisateur ou une autre utilisatrice. **** Par défaut, vous êtes la personne propriétaire d’une activité que vous créez.
 
    >[!NOTE]
    >
    >Vous ne pouvez pas affecter une équipe, un groupe ou l’entreprise en tant que propriétaire de résultat.
 
-1. Dans le **Comment voulez-vous mesurer votre résultat ?** , spécifiez les informations suivantes :
-   * **Type de valeur** : indique comment mesurer la progression du résultat. Vous pouvez mesurer la progression numériquement, avec une valeur de pourcentage ou en utilisant un montant en devise.
+1. Dans la zone **Comment voulez-vous mesurer votre résultat ?**, renseignez les informations suivantes :
+   * **Type de valeur**: indique comment mesurer la progression par rapport au résultat. Vous pouvez mesurer la progression de manière numérique, en pourcentage ou en utilisant une valeur en devise.
 
-     Sélectionnez un type de valeur parmi les options répertoriées dans le tableau suivant :
+     Sélectionnez un type de valeur parmi les options répertoriées dans le tableau suivant :
 
      | Type de valeur | Description |
      |---------------------------------------------------------|------------------|
      | Nombre | Valeur numérique |
      | % | Valeur en pourcentage |
-     | CN¥,DKK,KR,Mex$, R$, zverify, £, ¥ , € , ₹, ฿, MYR, $ | Valeurs de devise |
+     | CN¥, DKK, KR, Mex$, R, R$, zł, £, ¥, €, ₹, ฿, MYR, ₪, $ | Valeurs en devise |
 
-   * **Valeur initiale** : valeur du résultat au début, avant que toute progression ne soit enregistrée.
-   * **Valeur cible** : valeur que le résultat vise à obtenir lorsqu’il est considéré comme terminé.
+   * **Valeur initiale** : valeur initiale du résultat avant toute progression enregistrée.
+   * **Valeur cible** : valeur que le résultat vise à atteindre lorsqu’il est considéré comme terminé.
 1. Cliquez sur **Créer un résultat**.
 
-   Le résultat s&#39;affiche dans la section Indicateurs de progression de la page d&#39;objectif, sous le groupement Résultat .
+   Le résultat s’affiche dans la section des indicateurs de progression de la page d’objectifs, sous le regroupement « Résultats ».
 
-   Après avoir activé l’objectif, la progression de l’objectif se met automatiquement à jour lorsque vous mettez à jour la progression d’un résultat. Pour plus d’informations sur l’activation d’un objectif, voir [Activation des objectifs dans les objectifs Adobe Workfront](../goal-management/activate-goals.md).
+   Une fois l’objectif activé, sa progression est automatiquement actualisée lorsque vous mettez à jour la progression d’un résultat. Pour plus d’informations sur l’activation d’un objectif, voir [Activer des objectifs dans Objectifs Adobe Workfront](../goal-management/activate-goals.md).

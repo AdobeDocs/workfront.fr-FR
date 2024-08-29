@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 25%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez recevoir une notification in-app ou par e-mail lorsque les actions s
 
 * Quelqu&#39;un vous ajoute à un commentaire sur la page d&#39;enregistrement
 * Une personne demande l’autorisation d’accéder à un affichage ou à un espace de travail.
-* Quelqu&#39;un vous accorde ou vous refuse l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--test this - could not test before GA-->
+* Quelqu&#39;un vous accorde l&#39;autorisation d&#39;accéder à un affichage ou à un espace de travail <!--I could not test this but Isk confirmed-->
 
 ## Conditions d’accès
 
@@ -62,7 +62,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ Désélectionnez les notifications que vous souhaitez arrêter de recevoir.
 1. Les notifications suivantes sont disponibles pour Workfront :
 
    * **Mentions** : vous recevez une notification lorsqu’un utilisateur vous balise dans un commentaire dans Workfront Planning
-   * **Demandes** : vous recevez une notification lorsqu’une personne demande l’autorisation d’un objet de planification Workfront
+   * **Demandes** : vous recevez une notification lorsqu’une personne vous demande ou vous accorde l’autorisation d’accéder à un objet de planification Workfront
 
    Pour plus d’informations sur la gestion des notifications, voir [ Préférences de compte et notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

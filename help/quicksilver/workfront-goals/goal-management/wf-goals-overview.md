@@ -7,10 +7,10 @@ description: Les Objectifs Workfront vous aident à définir, communiquer et att
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 98%
+source-wordcount: '512'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 98%
 >   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
-
+> 
+>Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Les Objectifs Workfront vous aident à définir, communiquer et atteindre des résultats stratégiques en connectant la stratégie à l’exécution et à la diffusion du travail. Vous pouvez concentrer les efforts de chacun sur ce qui importe vraiment, rendre les progrès mesurables et permettre aux équipes d’atteindre des résultats extraordinaires. Les personnes peuvent faire de leur mieux en sachant que leurs contributions ont un impact significatif.
 
@@ -42,9 +43,9 @@ Pour plus d’informations sur les bonnes pratiques relatives à l’utilisation
 >
 >Les objectifs stratégiques que vous gérez à l’aide d’Objectifs Workfront ne doivent pas être confondus avec les objectifs à l’échelle du projet qui font partie du business case du projet. Pour plus d’informations sur les objectifs à l’échelle du projet, voir [Créer des objectifs de business case](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
-## Fonctionnalités incluses dans Objectifs Workfront
+## Fonctionnalités de Workfront Goals
 
-Les fonctionnalités suivantes sont actuellement incluses dans Objectifs Workfront :
+Les fonctionnalités suivantes sont incluses dans les objectifs de Workfront :
 
 * Créez des objectifs trimestriels ou annuels et affectez-les aux utilisateurs et utilisatrices, aux équipes, aux groupes ou à votre entreprise. Vous pouvez également personnaliser les chronologies d’objectif.
 

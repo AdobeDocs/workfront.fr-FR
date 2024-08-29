@@ -9,10 +9,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 97%
+source-wordcount: '1091'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Les informations de cet article font référence aux fonctionnalités qui ont été publiées dans le cadre de la nouvelle expérience de commentaires.
+>Les informations de cet article font référence aux fonctionnalités publiées dans le cadre de la nouvelle expérience de commentaires.
 >
 >Le programme beta pour la nouvelle expérience de commentaires a commencé en avril 2023 et s’est terminé en octobre 2023, avec la version d’octobre 2023.
 >
@@ -533,7 +533,7 @@ Voici un calendrier prévisionnel de la publication de la nouvelle expérience d
    * Publication de la nouvelle expérience de commentaire pour les cartes dans la zone Panoramas (comme seule expérience)
 * Au cours de la version du quatrième trimestre 2023 (version limitée, disponible uniquement pour les clientes et clients qui choisissent la version rapide) :
    * Publication de la nouvelle expérience de commentaire pour les modèles, les tâches de modèle, les programmes, les portfolios, les équipes, les utilisateurs et utilisatrices, et les feuilles de temps (comme seule expérience)
-   * Mise à jour de l’expérience de commentaire bêta pour les projets, les tâches, les problèmes et les documents, afin qu’elle devienne l’option par défaut Le libellé « bêta » est supprimé.
+   * Mise à jour de l’expérience de commentaire bêta pour les projets, les tâches, les problèmes et les documents, afin qu’elle devienne l’option par défaut. Le libellé « bêta » est supprimé.
 * Avec la version du quatrième trimestre 2023 (23.10) (26 octobre 2023) :
    * Publication de la nouvelle expérience de commentaire pour les modèles, les tâches de modèle, les programmes, les portfolios, les équipes, les utilisateurs et utilisatrices, et les feuilles de temps (comme seule expérience) pour les clientes et clients
    * Définition de la nouvelle expérience de commentaire pour les projets, les tâches, les problèmes et les documents comme l’option par défaut
@@ -544,7 +544,7 @@ Voici un calendrier prévisionnel de la publication de la nouvelle expérience d
 
    * Publication de toutes les fonctionnalités relatives à la nouvelle expérience de commentaire, à partir de cette date, dans les versions mensuelles et trimestrielles actuelles
 * Fin 2023 :
-   * Maintien de l’expérience de commentaire héritée comme option secondaire pour les objets suivants : projets, tâches, problèmes et documents La nouvelle expérience de commentaire est l’option par défaut pour les utilisateurs et utilisatrices de ces objets.
+   * Maintien de l’expérience de commentaire héritée comme option secondaire pour les objets suivants : projets, tâches, problèmes et documents. La nouvelle expérience de commentaire est l’option par défaut pour les utilisateurs et utilisatrices de ces objets.
    * Définition de la nouvelle expérience de commentaire comme la seule expérience pour tous les autres objets
 
   >[!NOTE]
@@ -553,7 +553,7 @@ Voici un calendrier prévisionnel de la publication de la nouvelle expérience d
 
 * Avec la version du deuxième trimestre 2024 (11 avril 2024) :
 
-  Supprimez l’option permettant de revenir au flux de commentaires hérité et de faire du nouveau flux de commentaires la seule expérience pour tous les objets.
+  Supprimer l’option permettant de revenir au flux de commentaires hérité et définissez le nouveau flux de commentaires comme la seule expérience pour tous les objets.
 
 ## Localiser la nouvelle expérience de commentaire
 

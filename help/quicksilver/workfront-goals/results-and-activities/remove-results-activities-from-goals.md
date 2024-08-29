@@ -3,14 +3,14 @@ product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Supprimer des indicateurs de progression des objectifs dans Objectifs Adobe Workfront
-description: Vous pouvez supprimer les résultats, les activités et les projets des objectifs d’Adobe Workfront, lorsqu’ils ne sont plus pertinents.
+description: Vous pouvez supprimer les résultats, les activités et les projets dans Objectifs Adobe Workfront, lorsqu’ils ne sont plus pertinents.
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 11%
+source-wordcount: '732'
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 11%
 
 Vous pouvez supprimer les résultats, les activités et les projets des objectifs s’ils ne sont plus pertinents.
 
-Pour plus d’informations sur la création d’objectifs et l’ajout de résultats et d’activités à ces objectifs, consultez les articles suivants :
+Pour plus d’informations sur la création d’objectifs et l’ajout de résultats et d’activités à ces objectifs, consultez les articles suivants :
 
-* [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-* [Ajouter des activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Ajouter des résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+* [Ajouter des activités aux objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Modifier des résultats et des activités dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
-Les objectifs peuvent également être alignés sur les objectifs parents, en devenant des objectifs enfants. Les objectifs pour les enfants sont également des indicateurs de progression des objectifs parents.
+Les objectifs peuvent également être alignés sur les objectifs parent et devenir des objectifs enfant. Les objectifs enfant sont également des indicateurs de progression des objectifs parent.
 
-Vous pouvez supprimer l’alignement entre les objectifs en supprimant la connexion entre eux. Pour plus d’informations, voir [Suppression de l’alignement d’objectif dans les objectifs Adobe Workfront](../goal-alignment/remove-goal-alignment.md).
+Vous pouvez supprimer l’alignement entre les objectifs en supprimant la connexion entre eux. Pour plus d’informations, consultez [Supprimer l’alignement d’objectif dans Objectifs Adobe Workfront](../goal-alignment/remove-goal-alignment.md).
 
 ## Conditions d’accès
 
@@ -45,13 +45,12 @@ Vous devez disposer des éléments suivants :
  <tr> 
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
-   <p>Pour le nouveau plan et la nouvelle structure de licence :
-  <ul><li>Un plan ultime </li>
-  Ou
-  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
-<p>Pour le plan actuel et la structure de licence : 
-<ul><li> A Pro ou version ultérieure </li>
-  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
@@ -59,34 +58,34 @@ Vous devez disposer des éléments suivants :
  <td>
  <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+ <p> Nouvelle exigence de produit, une des options suivantes : </p>
 <ul>
-<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
-<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
+<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
  <p>Ou</p>
- <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès</td>
- <td> <p>Modifier l’accès aux objectifs</p> </td>
+ <td> <p>Modifier l’accès aux Objectifs</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
-  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
-  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
   <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -96,18 +95,18 @@ Vous devez disposer des éléments suivants :
 
 ## Conditions préalables
 
-Un objectif doit être associé aux résultats, aux activités ou aux projets.
+Un objectif doit être associé à des résultats, des activités ou des projets.
 
 ## Considérations relatives à la suppression des résultats, des activités et de la déconnexion des projets des objectifs
 
 * Vous ne pouvez supprimer des résultats et des activités que des objectifs actifs.
 * Vous pouvez supprimer des résultats et des activités d’un objectif en les supprimant. Les résultats et activités supprimés ne peuvent pas être récupérés.
-* Lorsque vous supprimez le résultat ou l’activité d’un objectif, la progression du résultat supprimé ou de l’activité affecte la progression globale de l’objectif.
-* Vous ne pouvez pas supprimer un projet d’un objectif, mais vous pouvez le déconnecter de l’objectif. En déconnectant le projet de l’objectif, le pourcentage de réalisation du projet n’affecte plus la progression de l’objectif.
+* Lorsque vous supprimez le résultat ou l’activité d’un objectif, la progression du résultat ou de l’activité supprimé affecte la progression globale de l’objectif.
+* Vous ne pouvez pas supprimer un projet d’un objectif, mais vous pouvez le déconnecter de l’objectif. En déconnectant le projet de l’objectif, le pourcentage d’achèvement du projet n’affecte plus la progression de l’objectif.
 
-  Pour plus d’informations sur la façon dont les projets affectent la progression des objectifs, voir [Ajout de projets aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Pour plus d’informations sur la manière dont les projets affectent la progression des objectifs, consultez [Ajouter des projets aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-* Vous ne pouvez pas supprimer un résultat ou une activité d’un objectif et vous ne pouvez pas déconnecter un objectif ou un projet enfant, s’il s’agit du dernier indicateur de progression de l’objectif.
+* Vous ne pouvez pas supprimer un résultat ou une activité d’un objectif et vous ne pouvez pas déconnecter un objectif ou un projet enfant s’il s’agit du dernier indicateur de progression de l’objectif.
 * Si un projet est supprimé de la zone Projets et qu’il s’agit du dernier indicateur de progression d’un objectif, l’objectif devient inactif.
 
 ## Supprimer des résultats et des activités des objectifs
@@ -141,24 +140,24 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Objectifs**.
+1. Cliquez sur l’icône de **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, puis sur **Objectifs**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-   Cela ouvre la zone Objectifs de Workfront et la Liste des objectifs s’affiche par défaut.
+   Cela ouvre la zone Objectifs Workfront et la Liste des objectifs s’affiche par défaut.
 
 1. Cliquez sur le nom d’un objectif duquel vous souhaitez supprimer des résultats et des activités.
 
-   Cela ouvre la page d’objectif.
+   La page de l’objectif s’ouvre.
 
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 
 1. Sélectionnez un résultat ou une activité, puis cliquez sur l’icône **Supprimer** ![](assets/delete-icon.png) en haut de la liste.
 
-1. Cliquez sur **Supprimer** pour confirmer la suppression. Le résultat ou l&#39;activité est supprimé et ne peut pas être récupéré. Le pourcentage de fin de l’objectif est mis à jour pour exclure l’activité ou le résultat supprimé.
+1. Cliquez sur Supprimer pour confirmer la suppression. **** Le résultat ou l’activité est supprimé de manière irréversible. Le pourcentage terminé de l’objectif est mis à jour pour exclure l’activité ou le résultat supprimé.
 
 
-## Suppression de projets des objectifs
+## Supprimer des projets dans des objectifs
 
 <!--
 Dsconnecting projects from goals differs depending on the environment you use.
@@ -186,19 +185,19 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Cliquez sur l’icône **Menu principal** dans le coin supérieur droit, puis sur **Objectifs**.
+1. Cliquez sur l’icône de **Menu principal** dans le coin supérieur droit, puis sur **Objectifs**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   Cela ouvre la zone Objectifs de Workfront et la Liste des objectifs s’affiche par défaut.
+   Cela ouvre la zone Objectifs Workfront et la Liste des objectifs s’affiche par défaut.
 
 1. Cliquez sur le nom d’un objectif duquel vous souhaitez supprimer des résultats et des activités.
 
-   Cela ouvre la page d’objectif.
+   La page de l’objectif s’ouvre.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Sélectionnez un projet, puis cliquez sur l’icône **Déconnecter** ![](assets/disconnect-icon.png) en haut de la liste.
 1. Cliquez sur **Déconnecter** pour confirmer.
 
-   Le projet n’est plus connecté à l’objectif. Le pourcentage d’achèvement de l’objectif se met à jour pour exclure le projet déconnecté.
+   Le projet n’est plus connecté à l’objectif. Le pourcentage terminé de l’objectif se met à jour pour exclure le projet déconnecté.
 

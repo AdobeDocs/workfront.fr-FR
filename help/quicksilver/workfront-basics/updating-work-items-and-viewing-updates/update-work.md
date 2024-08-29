@@ -6,10 +6,10 @@ description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
-ht-degree: 100%
+source-wordcount: '3007'
+ht-degree: 97%
 
 ---
 
@@ -378,7 +378,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    1. Dans votre mise à jour, cliquez sur l’endroit où vous souhaitez insérer un lien.
    1. Sur la barre d’outils **Texte enrichi**, cliquez sur l’icône **Lien hypertexte** ![](assets/link-icon.png).
 
-   1. Dans la boîte de dialogue **Créer un lien** qui s’affiche, sous **URL**, saisissez ou collez l’URL de la source vers laquelle vous souhaitez rediriger.
+   1. Dans la zone **Créer un lien**, sous **URL**, saisissez ou collez l’URL de la source à laquelle vous souhaitez créer un lien.
 
    1. Sous **Texte à afficher**, saisissez ou collez le texte du lien.
    1. Cliquer sur **Enregistrer**.
@@ -386,7 +386,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 1. (Facultatif) Pour joindre une image à votre mise à jour, effectuez l’une des opérations suivantes :
 
    * Enregistrez l’image sur votre ordinateur, puis faites-la glisser et déposez-la dans la zone Nouveau commentaire.
-   * Copiez une copie d’écran de votre ordinateur, puis collez-la dans le commentaire.<!-- This is not available in the legacy commenting experience.-->
+   * Copiez une capture d’écran de votre ordinateur, puis collez-la dans le commentaire.
    * Cliquez sur l’icône **Ajouter une image** ![](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
 
 
@@ -399,7 +399,8 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >* Votre administrateur ou administratrice Workfront doit activer l’ajout d’images dans la section Préférences de mise à jour des flux de la zone d’interface de Workfront pour que vous puissiez voir les icônes Image et Ajouter une pièce jointe. Pour plus d’informations, consultez [Configuration des préférences pour les mises à jour des utilisateurs et utilisatrices](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* La taille maximale du fichier image est de 7 Mo. Les types de fichiers image pris en charge sont .jpg, .gif et .png.
    >* Les images sont accessibles à partir de la section Mises à jour d’un objet et sont également disponibles dans la zone Documents sous le menu principal.
-   >* Vous pouvez coller l’image en cliquant avec le bouton droit de la souris dans le nouveau commentaire, ou en appuyant sur les touches CTRL+V pour Windows (ou ⌘+V pour Mac) de votre clavier.
+   >Vous pouvez copier une capture d’écran de votre ordinateur à l’aide d’une combinaison clavier ou, par exemple, de la fonction Imprimer l’écran (sur les ordinateurs Windows).
+   >* Vous pouvez coller l’image en cliquant avec le bouton droit de la souris dans le nouveau commentaire, puis en cliquant sur **Coller** ou en appuyant sur CTRL L + V pour Windows (ou appuyer sur vert + V pour Mac) sur votre clavier.
    >* Vous pouvez envoyer une mise à jour avec une image et sans texte.
    >* Lorsque vous supprimez un commentaire qui contient une image, celle-ci est supprimée de la section Mises à jour, ainsi que de la zone Documents. L’image est également supprimée de la zone Documents lorsque vous modifiez un commentaire et supprimez l’image.
    >* Lorsqu’une personne supprime une image jointe à un commentaire de la zone Documents, elle est également supprimée du commentaire.

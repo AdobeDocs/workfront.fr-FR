@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '421'
 ht-degree: 24%
 
 ---
@@ -24,8 +24,8 @@ Vous pouvez recevoir des notifications par courrier électronique de la part de 
 
   Pour plus d’informations sur le balisage des autres dans un commentaire d’enregistrement, voir [Gestion des commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
 * Une personne demande votre autorisation d’accéder à une vue ou à un espace de travail.
-* Quelqu&#39;un confirme que votre accès a été accordé pour une vue ou un espace de travail <!--verify this-->
-* Quelqu&#39;un a refusé votre accès pour une vue ou un espace de travail. <!--verify this-->
+* Quelqu&#39;un confirme que votre accès a été accordé pour une vue ou un espace de travail <!--Isk confirmed that there is nno email for denying access but did not test-->
+
 
 ## Conditions d’accès
 
@@ -63,7 +63,7 @@ Vous pouvez recevoir des notifications par courrier électronique de la part de 
  <tr> 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
-<p>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à toutes les fonctionnalités de la planification Workfront.</p> 
+<p>L’instance Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -165,6 +165,10 @@ OLD:
 1. (Conditionnel) Si disponible, cliquez sur **Afficher toutes les notifications**. <!--check with Lilit - do non-IMS users have this button??-->
 La page **Notifications** s’ouvre dans Adobe Experience Cloud. Toutes les notifications de toutes les applications Adobe Experience Cloud s’affichent.
 
-## Gérer les notifications par courrier électronique lors de la demande, de l’octroi ou du refus d’autorisations pour une vue ou un espace de travail
+## Gestion des notifications par e-mail lors de la demande et de l’octroi des autorisations
+
+Vous recevez des notifications par courrier électronique lorsqu’une personne vous demande ou vous accorde des autorisations pour un affichage ou un espace de travail.
 
 Pour plus d’informations sur la demande, l’octroi ou le refus d’accès à une vue ou à un espace de travail, voir [Demande d’accès à une vue ou à un espace de travail](/help/quicksilver/planning/access/request-permissions.md).
+
+Pour plus d’informations sur la gestion de vos notifications Workfront Planning, voir [Gestion des préférences de notification Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

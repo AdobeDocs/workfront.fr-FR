@@ -1,15 +1,15 @@
 ---
 title: "Adobe Workfront Planification de l’accès : index de l’article"
-description: En tant qu’administrateur ou administratrice Workfront, vous devez autoriser vos utilisateurs et utilisatrices à utiliser Adobe Workfront Planning. Les articles suivants contiennent des informations sur les accès dont vos utilisateurs et utilisatrices ont besoin pour utiliser Workfront Planning.
+description: En tant qu’administrateur ou administratrice Workfront, vous devez autoriser vos utilisateurs et utilisatrices à utiliser Adobe Workfront Planning. Les articles suivants contiennent des informations sur les accès dont vos utilisateurs ont besoin pour utiliser Workfront Planning, ainsi que sur la manière de demander et d’accorder des autorisations lorsque les utilisateurs n’y ont pas accès.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 85%
+source-wordcount: '121'
+ht-degree: 63%
 
 ---
 

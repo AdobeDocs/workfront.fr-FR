@@ -1,42 +1,35 @@
 ---
 title: Demande d’autorisations pour une vue ou un Workspace
-description: Vous pouvez demander des autorisations pour une vue ou un espace de travail vers lequel d’autres vous ont envoyé un lien qui n’a pas été partagé avec vous auparavant.
+description: Lorsqu’une personne partage un lien vers une vue ou un espace de travail auquel vous n’avez pas accès, vous pouvez demander des autorisations pour pouvoir l’ouvrir. Cet article explique les étapes à suivre pour demander l’accès à un affichage ou à un espace de travail lorsque vous rencontrez un lien partagé que vous ne pouvez pas ouvrir.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 15%
+source-wordcount: '562'
+ht-degree: 14%
 
 ---
 
-
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
 
 # Demande d’autorisations pour une vue ou un espace de travail
 
-Vous pouvez demander des autorisations pour une vue ou un espace de travail vers lequel d’autres vous ont envoyé un lien qui n’a pas été partagé avec vous auparavant.
+Vous pouvez demander des autorisations pour une vue ou un espace de travail lorsqu’une personne partage un lien avec vous vers la vue ou l’espace de travail auquel vous n’avez pas accès.
 
 La demande d’autorisations à une vue est similaire à la demande d’autorisations à un espace de travail.
+
+Cet article décrit comment demander l’accès à une vue ou à un espace de travail lorsqu’une personne partage un lien avec vous et que vous ne pouvez pas accéder à la page partagée.
+
+Pour plus d’informations sur l’octroi d’autorisations aux vues et aux espaces de travail, consultez les articles suivants :
+
+* [Partager des vues](/help/quicksilver/planning/access/share-views.md)
+* [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès à la planification Workfront.
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments suivants :
 
@@ -128,10 +121,6 @@ Lorsqu’une personne partage avec vous un lien vers un espace de travail ou une
    * Une notification électronique
      ![](assets/email-notification-for-access-request.png)
 
-   Pour plus d’informations sur l’octroi d’autorisations aux vues et aux espaces de travail, consultez les articles suivants :
-
-   * [Partager des vues](/help/quicksilver/planning/access/share-views.md)
-   * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Conditionnel) Lorsque le gestionnaire d’affichage ou d’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail et une notification in-app confirmant que l’autorisation a été accordée. <!--check this - I was not able to test this-->
+1. (Conditionnel) Lorsque le gestionnaire d’affichage ou d’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail et une notification in-app confirmant que l’autorisation a été accordée. <!--check this - I was not able to test this, but Isk confirmed.-->
 
 

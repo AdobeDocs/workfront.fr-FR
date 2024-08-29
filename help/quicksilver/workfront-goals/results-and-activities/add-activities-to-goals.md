@@ -7,10 +7,10 @@ description: Les activités mesurent la progression d’un objectif. Sans résul
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 18%
+source-wordcount: '449'
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,12 @@ Vous devez disposer des éléments suivants :
  <tr> 
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
-   <p>Pour le nouveau plan et la nouvelle structure de licence :
-  <ul><li>Un plan ultime </li>
-  Ou
-  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
-<p>Pour le plan actuel et la structure de licence : 
-<ul><li> A Pro ou version ultérieure </li>
-  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
@@ -45,34 +44,34 @@ Vous devez disposer des éléments suivants :
  <td>
  <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+ <p> Nouvelle exigence de produit, une des options suivantes : </p>
 <ul>
-<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
-<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
+<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
  <p>Ou</p>
- <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès*</td>
- <td> <p>Modifier l’accès aux objectifs</p> </td>
+ <td> <p>Modifier l’accès aux Objectifs</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
-  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
-  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
   <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -84,15 +83,15 @@ Vous devez disposer des éléments suivants :
 
 Vous devez avoir un objectif existant pour y ajouter des activités.
 
-Pour plus d’informations sur la création d’objectifs, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+Pour plus d’informations sur la création d’objectifs, voir la section [Créer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
->Un objectif ne peut pas comporter plus de 1 000 activités, résultats ou objectifs alignés.
+>Un objectif ne peut pas avoir plus de 1 000 résultats, activités et objectifs alignés au total.
 
-Pour plus d’informations sur les activités, voir [Prise en main des résultats et des activités dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+Pour plus d’informations sur les activités, voir [Commencer avec les résultats et les activités dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
-## Ajout d’une activité à un objectif
+## Ajouter une activité à un objectif
 
 <!--
 Adding activities to goals differs depending on which environment you use.
@@ -145,17 +144,17 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Cliquez sur le **menu principal** ![](assets/main-menu-icon.png), puis sur **Objectifs**.
-1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.
+1. Cliquez sur le bouton **Menu principal** ![](assets/main-menu-icon.png), puis sur **Objectifs**.
+1. Dans la liste des objectifs, cliquez sur le nom d’un objectif pour ouvrir sa page.
 1. Cliquez sur **Indicateurs de progression** dans le panneau de gauche.
-1. Dans le menu déroulant Nouvel indicateur de progression , cliquez sur **Créer une activité**.
+1. Dans le menu déroulant Nouvel indicateur de progression, cliquez sur **Créer une activité**.
 
    La boîte de dialogue Nouvelle activité s’ouvre.
 
    ![](assets/new-activity-box-unshimmed.png)
 
-1. Saisissez un nom pour l’activité dans le champ Nom de l’activité . Il s’agit d’un champ obligatoire.
-1. (Facultatif) Supprimez votre nom du champ **Propriétaire de l’activité** si vous souhaitez affecter l’activité à un autre utilisateur. Par défaut, vous êtes le propriétaire d’une activité que vous créez.
+1. Saisissez un nom pour l’activité dans le champ Nom de l’activité. Il s’agit d’un champ obligatoire.
+1. (Facultatif) Supprimez votre nom du champ **Personne propriétaire de l’activité** si vous souhaitez affecter l’activité à un autre utilisateur ou une autre utilisatrice. Par défaut, vous êtes la personne propriétaire d’une activité que vous créez.
 
    >[!NOTE]
    >
@@ -163,7 +162,7 @@ Adding activities to goals differs depending on which environment you use.
 
 1. Cliquez sur **Créer une activité** pour l’enregistrer et l’ajouter à l’objectif sélectionné.
 
-   L’activité s’affiche dans la section Indicateurs de progression de la page d’objectif, sous le regroupement Activité .
+   L’activité s’affiche dans la section Indicateurs de progression de la page d’objectif, sous le regroupement Activité.
 
 
 

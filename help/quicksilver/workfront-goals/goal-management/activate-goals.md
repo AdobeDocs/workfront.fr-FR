@@ -2,24 +2,24 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Activer des objectifs dans Objectifs Adobe Workfront
-description: Lorsque vous créez un objectif, les objectifs Adobe Workfront l’enregistrent avec l’état Brouillon. Les objectifs élaborés ne font pas partie de la gestion des objectifs.
+description: Lorsque vous créez un objectif, Objectifs Adobe Workfront l’enregistre avec le statut Brouillon. Les brouillons d’objectifs ne font pas partie de la gestion des objectifs.
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 15%
+source-wordcount: '496'
+ht-degree: 100%
 
 ---
 
 # Activer des objectifs dans Objectifs Adobe Workfront
 
-Lorsque vous créez un objectif, les objectifs Adobe Workfront l’enregistrent avec l’état Brouillon. Les objectifs élaborés ne font pas partie de la gestion des objectifs.
+Lorsque vous créez un objectif, Objectifs Adobe Workfront l’enregistre avec le statut Brouillon. Les brouillons d’objectifs ne font pas partie de la gestion des objectifs.
 
-Pour suivre à quel point vous êtes proche de l’atteinte d’un objectif en mettant à jour sa progression, vous devez l’activer. L’état devient alors Actif.
+Pour savoir si vous êtes sur le point d’atteindre un objectif lorsque vous mettez à jour sa progression, vous devez l’activer. Son statut devient alors Actif.
 
-Pour plus d’informations sur la création d’un objectif, voir [Création d’objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+Pour plus d’informations sur la création d’un objectif, voir la section [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
@@ -39,13 +39,12 @@ Vous devez disposer des éléments suivants :
  <tr> 
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
-   <p>Pour le nouveau plan et la nouvelle structure de licence :
-  <ul><li>Un plan ultime </li>
-  Ou
-  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
-<p>Pour le plan actuel et la structure de licence : 
-<ul><li> A Pro ou version ultérieure </li>
-  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
@@ -53,34 +52,34 @@ Vous devez disposer des éléments suivants :
  <td>
  <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Présentation des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+ <p> Nouvelle exigence de produit, une des options suivantes : </p>
 <ul>
-<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
-<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
+<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
  <p>Ou</p>
- <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès</td>
- <td> <p>Modifier l’accès aux objectifs</p> </td>
+ <td> <p>Modifier l’accès aux Objectifs</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
-  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
-  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
   <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
 <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -91,34 +90,34 @@ Vous devez disposer des éléments suivants :
 
 ## Conditions préalables
 
-Pour activer un objectif, celui-ci doit être associé à un indicateur de progression tel qu’une activité, un résultat, un projet, ou être aligné sur un autre objectif actif.
+Pour activer un objectif, celui-ci doit être associé à un indicateur de progression, tel qu’une activité, un résultat ou un projet, ou être aligné sur un autre objectif actif.
 
-Effectuez au moins l’une des opérations suivantes pour activer un objectif :
+Pour pouvoir activer un objectif, procédez à au moins l’une des actions suivantes :
 
-* Ajouter un résultat à l’objectif
+* Ajoutez un résultat à l’objectif.
 
-  Pour plus d’informations, voir [Ajout de résultats aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Pour plus d’informations, voir la section [Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
-* Ajouter une activité à l’objectif
+* Ajoutez une activité à l’objectif.
 
-  Pour plus d’informations, voir [Ajout d’activités aux objectifs dans les objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Pour plus d’informations, voir la section [Ajouter des activités aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
-* Connexion d’un projet à l’objectif
+* Connectez un projet à l’objectif.
 
-  Pour plus d’informations, voir [Ajout de projets à des objectifs dans les objectifs Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+  Pour plus d’informations, voir la section [Ajouter des projets aux objectifs dans Objectifs Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
 
-* Aligner un autre objectif sur l’objectif que vous souhaitez activer
+* Alignez un autre objectif sur l’objectif que vous souhaitez activer.
 
-  Pour plus d’informations, voir [Aligner les objectifs en les connectant dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Pour plus d’informations, voir la section [Aligner des objectifs en les connectant dans Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Activer des objectifs
 
-Vous pouvez activer les objectifs que vous avez créés ou un objectif pour lequel vous disposez des autorisations de gestion .
+Vous pouvez activer des objectifs que vous avez créés ou un objectif pour lequel vous avez des autorisations en gestion.
 
-1. Accédez à un objectif que vous souhaitez activer. La page d’objectif s’ouvre.
+1. Accédez à un objectif que vous souhaitez activer. La page de l’objectif s’ouvre.
 
-1. Cliquez sur le menu **Plus** ![](../goal-management/assets/more-icon.png) situé à droite du nom de l’objectif, puis cliquez sur **Activer**.
+1. Cliquez sur le menu **Plus** ![](../goal-management/assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Activer**.
 
    ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
-   L’état de l’objectif passe à Actif. Vous pouvez maintenant suivre la progression de l’objectif et l’objectif s’affiche dans la section Archivage , ainsi que dans les sections Graphiques des objectifs de Workfront.
+   Le statut de l’objectif devient Actif. Vous pouvez désormais suivre la progression de l’objectif. Celui-ci s’affiche dans la section Enregistrer et est pris en compte dans les sections Graphiques d’Objectifs Workfront.

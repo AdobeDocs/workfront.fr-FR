@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 100%
@@ -33,9 +33,9 @@ ht-degree: 100%
 >
 >Le programme beta pour la nouvelle expérience de commentaires a commencé en avril 2023 et s’est terminé en octobre 2023, avec la version d’octobre 2023.
 > 
+>Toutes les fonctionnalités incluses dans la nouvelle expérience de commentaires sont disponibles pour les clientes et clients de l’environnement de production depuis le 11 avril 2024.
 >Pour plus d’informations, consultez [Nouvelle expérience de commentaire](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Toutes les fonctionnalités incluses dans la nouvelle expérience de commentaires sont disponibles pour les clientes et clients de l’environnement de production depuis le 11 avril 2024.
 
 ## Nouvel emplacement de l’expérience de commentaires et calendrier des versions
 

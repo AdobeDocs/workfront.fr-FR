@@ -7,14 +7,31 @@ description: Les objectifs d’Adobe Workfront sont accompagnés d’un ensemble
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 6%
+source-wordcount: '223'
+ht-degree: 33%
 
 ---
 
 # Activer les notifications d’Objectifs Adobe Workfront
+
+>[!IMPORTANT]
+>
+>Votre organisation doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
+>
+>* Pour la nouvelle structure de forfait et de licence :
+>
+>   * Formule Workfront ultime
+>    
+>* Pour la structure de forfait et de licence actuelle :
+>
+>   * Formule Workfront Pro ou ultérieure
+>   * Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
+>
+>Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
+> 
+>Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Les objectifs d’Adobe Workfront sont accompagnés d’un ensemble de notifications d’événement que vous pouvez activer pour votre compte. Ces notifications d’événement déclenchent une communication par e-mail chaque fois que la condition définie par l’événement est remplie.
 

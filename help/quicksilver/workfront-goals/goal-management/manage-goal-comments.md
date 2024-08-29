@@ -6,10 +6,10 @@ description: Vous pouvez apporter des commentaires à tous les objectifs que vou
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 96%
+source-wordcount: '311'
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
 
-Vous pouvez apporter des commentaires à tous les objectifs que vous pouvez visualiser dans les Objectifs Adobe Workfront.
+Vous pouvez ajouter des commentaires à tous les objectifs que vous pouvez afficher dans les objectifs Adobe Workfront.
 
 ## Conditions d’accès
 
@@ -46,9 +46,8 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
    <p>Pour la nouvelle structure de forfait et de licence :
-  <ul><li>Un forfait Ultimate </li>
-  Ou
-  <li>Une licence supplémentaire pour Objectifs Adobe Workfront pour les forfaits Adobe Workfront Prime ou Select. </li></ul> </p>
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
 <p>Pour la structure de forfait et de licence actuelle : 
 <ul><li> Un forfait Pro ou supérieur </li>
   <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
@@ -89,94 +88,89 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Conditions préalables
-
-Vous devez disposer des éléments suivants avant de commencer :
-
-* Un modèle de disposition qui inclut la zone Objectifs dans le menu principal.
-
 ## Gérer les commentaires des objectifs
 
 Vous pouvez apporter des commentaires aux objectifs dans la section Mises à jour de la page d’un objectif.
 
-Vous pouvez répondre ou aimer un commentaire que vous avez rédigé ou que d’autres personnes ont rédigé dans cette zone.
-
 1. Cliquez sur l’icône **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l’icône **Menu Principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis sélectionnez **Objectifs**. La liste des objectifs s’affiche.
 1. Recherchez l’objectif pour lequel vous souhaitez apporter un commentaire, puis cliquez sur son nom pour ouvrir la page de l’objectif.
 1. Cliquez sur **Mises à jour** dans le panneau de gauche.
-1. (Facultatif) Pour localiser un commentaire existant, commencez à saisir un mot-clé <!--or a user's name--> dans la zone **Recherche**, dans le coin supérieur droit de l’onglet **Commentaires**.
 
+   Pour plus d’informations sur la gestion des commentaires sur les objets Workfront, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+<!--   
+1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 
+   
    ![](assets/search-field-in-updates-tab-goals.png)
 
-   Le mot-clé <!--or user--> que vous avez recherché est mis en surbrillance et les commentaires où il apparait s’affichent en haut de la section Mises à jour.
+   The keyword (****or user****) you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
-   <!--change the NOTE below when functionality changes-->
 
-   >[!NOTE]
-   >
-   >Vous devez rechercher un mot inclus dans un commentaire ou une réponse. Vous ne pouvez pas rechercher d’utilisateurs, d’utilisatrices ou d’équipes balisés.
+      >[!NOTE]
+      >
+      >You must search for a word included in a comment or reply. You cannot search for a tagged user or team.
+   
+   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Pour plus d’informations, consultez la section [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer les résultats de la recherche et revenir à la mise à jour terminée.
-1. Sélectionnez l’onglet **Commentaires** dans le coin supérieur gauche de la zone Mises à jour.
-1. Commencez à saisir un commentaire dans la zone **Nouveau commentaire**.
-
+1. Click the **x** icon in the search field to clear the search results and return to the complete update.
+1. Click the **Comments** tab in the upper-left corner of the Updates area.
+1. Start entering a comment in the **New comment** box.
+         
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode brouillon, même après une déconnexion et une reconnexion. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont ignorés et ne peuvent pas être récupérés. Les brouillons de commentaires ne sont visibles que par l’utilisateur ou l’utilisatrice qui les saisit.
+   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
-1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
-   * Ctrl+Z (⌘+Z pour Mac) pour annuler une modification
-   * Ctrl+Y (⌘+Y pour Mac) pour rétablir une modification
-1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, à un lien hypertexte ou à une émoticône, utilisez n’importe quelle option de la barre d’outils Texte enrichi ou les icônes adjacentes. Pour plus d’informations, voir [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Facultatif) Dans la zone **Taguer des personnes ou des équipes**, commencez à saisir le nom ou l’adresse e-mail d’un utilisateur, d’une utilisatrice ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez votre choix lorsqu’il s’affiche dans la liste.
-1. Sélectionnez le bouton (bascule) **Réservé à mon entreprise** pour rendre le commentaire visible uniquement aux personnes de votre entreprise.
+1. (Optional) To undo or redo a change, use the following shortcut keys:
+      * CTRL + Z (⌘+z for Mac) to undo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change 
+1. (Optional) To add rich-text formatting to your update, a hyperlink, or an emoji, use any options on the Rich Text toolbar or the icons adjacent to it. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. Select the **Private to my company** toggle to make the comment visible only to people in your company. 
 
-   >[!TIP]
-   >
-   >Pour que cette option soit disponible dans la zone Mises à jour, une entreprise doit être spécifiée dans votre profil.
+      >[!TIP]
+      >
+      >You must have a Company specified in your profile to have this option available in the Updates area. 
 
-1. Cliquez sur **Soumettre**.
+1. Click **Submit**. 
 
-   >[!TIP]
-   >
-   >Si une autre personne envoie un commentaire sur l’élément que vous mettez à jour, une ligne rouge s’affiche avec un indicateur « Nouveau » pour vous informer des commentaires les plus récents, ainsi qu’une notification bleue au bas de l’écran pour indiquer le nombre de nouveaux commentaires.
-   >
-   >L’indicateur ne s’affiche qu’après l’envoi du commentaire sur l’élément, et non lorsque le commentaire est toujours en cours de composition.
-   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
-
-1. (Facultatif) Pour modifier un commentaire, cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite de l’icône J’aime, puis cliquez sur **Modifier**.
-1. Modifiez les informations dans le commentaire ou supprimez les utilisateurs balisés.
-Vous pouvez modifier votre commentaire dans les 15 minutes suivant son envoi. Un indicateur « modifié » est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été mis à jour.
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
+      >
+      >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
+      
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
+1. Edit the information in the comment or remove any of the tagged users. 
+   You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > * Un e-mail est généré pour informer les utilisateurs et utilisatrices de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun e-mail n’est généré après avoir modifié votre mise à jour.
+   > * An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
    >
-   > * L’horodatage correspond à la date du commentaire d’origine et non à la date de la dernière mise à jour.
+   > * The date stamp is the date of the original comment and not the date of the latest update. 
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur l’une des options suivantes pour copier des informations d’un commentaire dans le presse-papiers ou dans une nouvelle réponse :
+1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
 
-   * **Copier le lien** pour copier le lien d’une mise à jour, sans les réponses.
-   * **Copier le corps de texte** pour copier le texte d’une mise à jour.
-   * **Citer la réponse** pour ouvrir une nouvelle zone de commentaires où le commentaire d’origine est cité dans une nouvelle réponse et est marqué comme citation.
+      * **Copy link** to copy the link of an update, without the replies.
+      * **Copy body text** to copy the text of an update. 
+      * **Quote reply** to open a new comment box where the original comment is quoted in a new reply and is marked as a block quote.
 
-     Pour plus d’informations, consultez [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite d’un commentaire, puis cliquez sur **Supprimer** pour supprimer un commentaire que vous avez ajouté. Pour plus d’informations, consultez [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Facultatif) Cliquez sur **Répondre** pour répondre à un commentaire existant, puis suivez les étapes 5 à 9 ci-dessus. Pour plus d’informations sur la réponse aux mises à jour, consultez [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
-1. (Le cas échéant et facultatif) Si d’autres utilisateurs et utilisatrices ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour, cliquez sur **Affichage** à l’intérieur de la **bannière de nouveaux commentaires** bleue en bas de l’écran pour afficher ces commentaires.
-
+1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). (**********insure this stays accurate*********)
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
+   
    ![](assets/blue-new-comments-banner-with-view-button.png)
+   
+   Additional comments display at the bottom of the screen.
+1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
-   Les commentaires supplémentaires s’affichent en bas de l’écran.
-1. (Facultatif) Cliquez sur l’icône **J’aime** ![](assets/like-icon.png) pour aimer un commentaire qu’une autre personne a ajouté. L’icône se met à jour avec le nombre de mentions « J’aime ».
-
-1. (Facultatif) Cliquez sur l’onglet **Activité du système** pour afficher les mises à jour consignées par le système. Lorsqu’un objectif est mis à jour, Workfront génère une note à ce sujet et l’affiche dans l’onglet Activité du système. Workfront enregistre également une mise à jour du système lors de l’ajout d’un résultat, d’une activité ou d’un projet à l’objectif ou lorsqu’il est mis à jour. <!--ensure the casing on the tab has not changed-->
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
 
 

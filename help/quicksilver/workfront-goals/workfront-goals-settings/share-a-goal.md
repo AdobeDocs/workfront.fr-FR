@@ -2,24 +2,24 @@
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Partager un objectif dans Objectifs Workfront
-description: Lorsque vous partagez un objectif, vous accordez des autorisations de gestion à un objectif à une personne qui ne l’a pas créé.
+description: Lorsque vous partagez un objectif, vous accordez des autorisations de gestion d’un objectif à une personne qui ne l’a pas créé.
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 15%
+source-wordcount: '788'
+ht-degree: 100%
 
 ---
 
-# Partage d’un objectif dans les objectifs Adobe Workfront
+# Partager un objectif dans les Objectifs Adobe Workfront
 
-Lorsque vous partagez un objectif, vous accordez des autorisations de gestion à un objectif à une personne qui ne l’a pas créé.
+Lorsque vous partagez un objectif, vous accordez des autorisations de gestion d’un objectif à une personne qui ne l’a pas créé.
 
 ## Conditions d’accès
 
-Vous devez disposer des éléments suivants :
+Vous devez disposer des éléments suivants :
 
 <table style="table-layout:auto">
 <col>
@@ -30,13 +30,12 @@ Vous devez disposer des éléments suivants :
  <tr> 
    <td role="rowheader">Forfait Adobe Workfront*</td> 
    <td> 
-   <p>Pour le nouveau plan et la nouvelle structure de licence :
-  <ul><li>Un plan ultime </li>
-  Ou
-  <li>Une licence supplémentaire pour les objectifs Adobe Workfront pour les plans Prime ou Select Adobe Workfront. </li></ul> </p>
-<p>Pour le plan actuel et la structure de licence : 
-<ul><li> A Pro ou version ultérieure </li>
-  <li>Une licence Adobe Workfront Goals en plus d’une licence Workfront.</li></ul></p>
+   <p>Pour la nouvelle structure de forfait et de licence :
+  <ul><li>Un forfait Ultimate </li></ul>
+   </p>
+<p>Pour la structure de forfait et de licence actuelle : 
+<ul><li> Un forfait Pro ou supérieur </li>
+  <li>Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
@@ -49,29 +48,29 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence de produit, l’une des options suivantes : </p>
+ <p> Nouvelle exigence de produit, une des options suivantes : </p>
 <ul>
-<li>Un forfait Select ou Prime Adobe Workfront et une licence Adobe Workfront Goals supplémentaire.</li>
-<li>Un plan Workfront Ultimate qui inclut par défaut les objectifs de Workfront. </li></ul>
+<li>Un forfait Adobe Workfront Select ou Prime et une licence Objectifs Adobe Workfront supplémentaire.</li>
+<li>Un forfait Workfront Ultimate qui inclut Objectifs Workfront par défaut. </li></ul>
  <p>Ou</p>
- <p>Exigences actuelles du produit : formule Workfront et licence supplémentaire pour les objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Exigence de produit actuelle : un forfait Workfront et une licence supplémentaire pour Objectifs Adobe Workfront. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Niveau d’accès</td>
- <td> <p>Modifier l’accès aux objectifs</p> </td>
+ <td> <p>Modifier l’accès aux Objectifs</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
-  <p>Afficher ou des autorisations supérieures à l’objectif pour l’afficher</p>
-  <p>Gérer les autorisations sur l’objectif pour le modifier</p>
+  <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
+  <p>Autorisations de gestion sur l’objectif pour le modifier</p>
   <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
 <tr>
    <td role="rowheader"><p>Modèle de disposition</p></td>
-   <td> <p>Tous les utilisateurs, y compris les administrateurs de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
+   <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -79,9 +78,9 @@ Vous devez disposer des éléments suivants :
 
 *Pour plus d’informations, voir [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Observations relatives au partage des objectifs
+## Observations sur le partage des objectifs
 
-* Les utilisateurs peuvent disposer des autorisations suivantes pour atteindre un objectif :
+* Les utilisateurs et les utilisatrices peuvent disposer des autorisations suivantes pour accéder à un objectif :
 
   <table style="table-layout:auto"> 
    <col> 
@@ -90,31 +89,31 @@ Vous devez disposer des éléments suivants :
    </col> 
    <tbody> 
    <tr> 
-      <td role="rowheader"><p><b>Autorisations des objectifs</b></p></td> 
+      <td role="rowheader"><p><b>Autorisations sur les objectifs</b></p></td> 
       <td>
       <p><b>Description</b></p> </td> 
    </tr> 
    <tr> 
       <td role="rowheader"><p>Afficher</p></td> 
       <td>
-      <p>Les utilisateurs sont autorisés à afficher l’objectif, mais ils ne peuvent pas modifier les informations de l’objectif, ils ne peuvent pas ajouter ni modifier les informations des résultats, ni les activités, mettre à jour l’état ou supprimer l’objectif.</p>      
-      <p>Par défaut, tous les utilisateurs ayant accès aux objectifs peuvent afficher tous les objectifs du système. Les utilisateurs peuvent copier l’objectif s’ils disposent d’un accès Modifier aux objectifs à leur niveau d’accès.</p> </td> 
+      <p>Les utilisateurs et les utilisatrices ont le droit d’afficher l’objectif, mais n’ont pas l’autorisation de modifier ses informations, ni d’ajouter ou de modifier des informations sur ses résultats ou ses activités, ni mettre à jour son statut, ni le supprimer.</p>      
+      <p>Par défaut, l’ensemble des utilisateurs et des utilisatrices ayant accès aux objectifs peut afficher tous les objectifs du système. Les utilisateurs et les utilisatrices peuvent copier l’objectif si l’autorisation de modifier les objectifs leur a été accordée.</p> </td> 
    </tr> 
    <tr> 
       <td role="rowheader"><p>Gérer</p></td> 
-      <td> <p>Les utilisateurs peuvent modifier toutes les informations de l’objectif, y compris les résultats, ou les activités, y compris les supprimer.</p> 
-      <p>Seuls les créateurs d’objectifs ou les utilisateurs auxquels sont spécifiquement attribués les autorisations Gérer pour un objectif peuvent gérer un objectif.</p> 
-      Seuls les utilisateurs disposant des autorisations de gestion pour un objectif peuvent partager l’objectif avec d’autres afin de leur donner les autorisations de gestion pour l’objectif. </p> </td> 
+      <td> <p>Les utilisateurs et les utilisatrices peuvent modifier l’ensemble des informations concernant l’objectif, que ce soit les résultats ou les activités, et même les supprimer.</p> 
+      <p>Seules les personnes qui ont créé un objectif ou seuls les utilisateurs et utilisatrices qui ont reçu des autorisations spécifiques de gestion peuvent gérer un objectif.</p> 
+      Seuls les utilisateurs et les utilisatrices disposant d’autorisations de gestion pour un objectif peuvent partager l’objectif avec d’autres personnes afin de leur donner des autorisations de gestion pour l’objectif. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
-* Vous pouvez partager les types d’objectifs suivants avec d’autres personnes :
+* Vous pouvez partager les types d’objectifs suivants avec d’autres personnes :
 
-   * Un objectif que vous avez créé
-   * Objectif créé par une autre personne à laquelle vous avez été autorisé à gérer.
+   * Un objectif que vous avez créé.
+   * Un objectif créé par quelqu’un d’autre et que vous avez le droit de gérer.
 
-* Si vous disposez des autorisations de Gestion pour un objectif, vous pouvez modifier les autorisations sur l’objectif pour le créateur de l’objectif. Par défaut, ils disposent des autorisations Gérer lorsqu’ils créent l’objectif, mais vous pouvez modifier leurs autorisations en Afficher.
+* Si vous avez l’autorisation de gérer un objectif, vous pouvez modifier les autorisations accordées à la personne qui l’a créé. Par défaut, cette personne a des droits de gestion lorsqu’elle crée l’objectif, mais vous pouvez la faire passer à des droits d’affichage.
 
 ## Partager un objectif
 
@@ -125,32 +124,32 @@ Vous devez disposer des éléments suivants :
 
    La liste des objectifs s’affiche.
 
-1. Cliquez sur le nom d’un objectif dans la liste. La page d’objectif s’ouvre.
+1. Cliquez sur le nom d’un objectif dans la liste. La page de l’objectif s’ouvre.
 
-1. Cliquez sur l’icône **Plus** en regard du nom de l’objectif, puis cliquez sur **Partager**.
+1. Cliquez sur l’icône **Plus** à côté du nom de l’objectif, puis cliquez sur **Partager**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
-   La zone Accès à l’objectif s’affiche.
+   La case Accès à l’objectif s’affiche.
 
    ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Sélectionnez le paramètre **Gérer à l’échelle du système** pour accorder les autorisations de gestion à toutes les personnes du système ayant l’accès à Modifier les objectifs dans leur niveau d’accès. Cette option est désélectionnée par défaut pour tous les nouveaux objectifs.
-   * Commencez à saisir le nom d’un utilisateur auquel vous souhaitez attribuer des autorisations de gestion dans la zone **Autoriser l’accès à**. Sélectionnez le nom qui apparaîtra dans la liste.
+   * Sélectionnez le paramètre Gérer à l’échelle du système pour donner des autorisations de gestion à toutes les personnes du système qui disposent d’un accès en modification aux objectifs par le biais de leur niveau d’accès. **** Cette option est désélectionnée par défaut pour tous les nouveaux objectifs.
+   * Commencez à saisir le nom d’une personne à qui vous voulez donner les autorisations Gérer dans la zone Autoriser l’accès en gestion à. **** Sélectionnez le nom qui apparaîtra dans la liste.
 
      >[!TIP]
      >
-     >Vous ne pouvez partager un objectif qu’avec d’autres utilisateurs. Vous ne pouvez pas partager des objectifs avec des groupes, des équipes ou votre entreprise.
+     >Vous ne pouvez partager un objectif qu’avec d’autres personnes. Vous ne pouvez pas partager des objectifs avec des groupes, des équipes ou des entreprises.
 
 1. Cliquez sur **Partager**.
 
-   L’objectif est partagé avec les utilisateurs que vous avez spécifiés. Une étiquette &quot;à l’échelle du système&quot; ou le nom des utilisateurs qui disposent des autorisations de gestion pour l’objectif s’affiche dans le champ Accès à la gestion du panneau Détails de l’objectif .
+   L’objectif est partagé avec les personnes que vous avez spécifiées. Un libellé « À l’échelle du système » ou les noms des personnes qui ont des autorisations de gestion pour l’objectif s’affichent dans le champ Accès à la gestion dans le panneau Détails de l’objectif.
 
 ## Options d’autorisation des objectifs
 
-Le tableau suivant répertorie les autorisations que vous pouvez accorder lors du partage d’un objectif. Pour plus d’informations sur l’accès des utilisateurs en fonction de leur licence, voir [Accorder l’accès aux objectifs Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Le tableau suivant répertorie les autorisations que vous pouvez accorder lors du partage d’un objectif. Pour plus d’informations sur l’accès des personnes en fonction de leur licence, voir [Accorder l’accès à Objectifs Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -173,7 +172,7 @@ Le tableau suivant répertorie les autorisations que vous pouvez accorder lors d
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Affichage des résultats ou des activités</p> </td> 
+   <td> <p>Afficher des résultats ou des activités</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
@@ -188,7 +187,7 @@ Le tableau suivant répertorie les autorisations que vous pouvez accorder lors d
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Affichage des projets ajoutés en tant qu’activités** </td> 
+   <td>Afficher des projets ajoutés en tant qu’activités** </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -198,7 +197,7 @@ Le tableau suivant répertorie les autorisations que vous pouvez accorder lors d
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Modification de résultats ou d’activités</td> 
+   <td>Modifier des résultats ou des activités</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -218,23 +217,23 @@ Le tableau suivant répertorie les autorisations que vous pouvez accorder lors d
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Suppression de résultats ou d’activités</p> </td> 
+   <td> <p>Supprimer des résultats ou des activités</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td>Déconnexion des projets de l’objectif</td> 
+   <td>Déconnecter les projets de l’objectif</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Vous devez disposer de l’accès Modifier aux objectifs dans votre niveau d’accès pour pouvoir convertir les résultats et les activités en objectifs.
+* Vous devez disposer d’un accès en modification aux objectifs pour convertir les résultats et les activités en objectifs.
 
-**Vous devez avoir accès aux autorisations Afficher les projets et Afficher les projets ajoutés ou que vous souhaitez ajouter à l’objectif pour les afficher.
+** Vous devez disposer d’un accès en affichage aux projets et d’autorisations d’affichage des projets ajoutés ou que vous souhaitez ajouter à l’objectif pour les afficher.
 
-Pour plus d’informations sur le niveau d’accès aux projets, voir [Accorder l’accès aux projets](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Pour plus d’informations sur le niveau d’accès au projet, consultez la section [Accorder l’accès aux projets](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Pour plus d’informations sur les autorisations de projet, voir [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
