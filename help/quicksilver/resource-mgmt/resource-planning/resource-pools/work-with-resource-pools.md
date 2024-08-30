@@ -1,36 +1,36 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Vue d’ensemble des pools de ressources
-description: En tant que gestionnaire de ressources, vous pouvez gérer vos ressources en ajoutant des utilisateurs aux pools de ressources.
+title: Présentation des groupes de ressources
+description: En tant que personne chargée de la gestion des ressources, vous pouvez gérer vos ressources en ajoutant des utilisateurs et utilisatrices aux groupes de ressources.
 author: Lisa
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 2%
+ht-degree: 99%
 
 ---
 
-# Vue d’ensemble des pools de ressources
+# Vue d’ensemble des groupes de ressources
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.) </p>
 -->
 
-En tant que gestionnaire de ressources, vous pouvez gérer vos ressources en ajoutant des utilisateurs aux pools de ressources.
+En tant que personne chargée de la gestion des ressources, vous pouvez gérer vos ressources en ajoutant des utilisateurs et utilisatrices aux groupes de ressources.
 
-Une gestion efficace des ressources ne peut pas se produire sans renseigner vos groupes de ressources avec des utilisateurs et les associer à des projets. Il s’agit d’un prérequis pour l’utilisation de la fonctionnalité de planification des ressources.
+Pour une gestion efficace des ressources, associez vos groupes de ressources à des utilisateurs et utilisatrices ainsi qu’à des projets. Il s’agit d’une condition préalable à l’utilisation de la fonctionnalité de planification des ressources.
 
-Pour plus d’informations sur les conditions préalables requises pour pouvoir commencer à utiliser la planification des ressources, consultez la section &quot;Conditions préalables requises pour travailler dans le planificateur de ressources&quot; dans la [présentation du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur les conditions préalables à l’utilisation de la planification des ressources, consultez la section « Conditions préalables pour travailler dans le planificateur de ressources » dans l’article [Vue d’ensemble du planificateur de ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-Pour plus d’informations sur la création et la gestion des pools de ressources, consultez les articles suivants :
+Pour plus d’informations sur la création et la gestion des groupes de ressources, consultez les articles suivants :
 
-* [Créer des pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [ Association des pools de ressources aux projets et aux modèles](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [Associer des pools de ressources aux utilisateurs](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
-* [Supprimer des utilisateurs et des utilisatrices de pools de ressources](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
+* [Créer des groupes de ressources](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [Associer des groupes de ressources à des projets et des modèles](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [Associer des groupes de ressources à des utilisateurs et utilisatrices](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [Supprimer des personnes des groupes de ressources](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -66,30 +66,30 @@ If you still don't have access, ask your Workfront administrator if they set add
 </div>
 -->
 
-## Présentation des groupes de ressources
+## Vue d’ensemble des groupes de ressources
 
-* Un pool de ressources est un ensemble d’utilisateurs qui sont nécessaires en même temps pour la fin d’un projet.
-* Un pool de ressources peut être partagé entre plusieurs projets, programmes ou portefeuilles lorsqu’il est associé à tous les projets des programmes et portefeuilles.
-* Vous pouvez créer un pool de ressources et le remplir avec les utilisateurs existants lors de sa création, ou vous pouvez créer le pool de ressources et l’associer à un utilisateur existant ou à un nouvel utilisateur lors de la création ou de la modification de l’utilisateur.
-* Une fois que vous avez rempli vos groupes de ressources avec des utilisateurs, vous pouvez les associer aux projets et aux modèles, et gérer plus efficacement l’affectation de vos utilisateurs aux projets.
-* Vous pouvez associer autant de groupes de ressources que nécessaire à un projet, à un modèle ou à un utilisateur.
+* Pour achever un projet, un groupe de ressources rassemble dans une collection les utilisateurs et les utilisatrices qui sont nécessaires au même moment.
+* Quand un groupe de ressources est associé à tous les projets d’un programme ou d’un portfolio, il peut être utilisé pour plusieurs projets, programmes ou portfolios.
+* Lorsque vous créez un groupe de ressources, vous pouvez le renseigner ou l’affecter à des personnes utilisant ces ressources, nouvelles ou déjà existantes, alors que vous les créez ou les modifiez.
+* Après avoir renseigné les utilisateurs et utilisatrices de vos groupes de ressources, vous pouvez les associer aux projets et aux modèles pour mieux gérer leurs affectations.
+* Vous pouvez affecter autant de groupes de ressources que nécessaire à un projet, à un modèle ou à un utilisateur ou une utilisatrice.
 
-## Critères pour associer des utilisateurs à un pool de ressources
+## Critères pour affecter des utilisateurs et utilisatrices à un groupe de ressources
 
-Il existe plusieurs façons de structurer vos pools de ressources.
+Vous pouvez structurer vos groupes de ressources de plusieurs façons.
 
-Nous vous recommandons les approches suivantes :
+Nous vous recommandons les suivantes :
 
-* Tous les utilisateurs du même pool de ressources peuvent appartenir à la même équipe.
+* L’ensemble des utilisateurs et des utilisatrices du même groupe de ressources peuvent former la même équipe.
 
-  Par exemple, si vous souhaitez que tous les utilisateurs d’une équipe marketing soient disponibles pour un projet, vous souhaitez un pool de ressources marketing dans lequel vous ajoutez tous les utilisateurs de cette équipe. Vous pouvez ensuite associer le pool de ressources marketing aux projets auxquels les membres de cette équipe sont affectés.
+  Par exemple, si vous souhaitez que toutes les personnes membres de l’équipe marketing soient disponibles pour un projet, vous créez un groupe de ressources marketing auquel vous ajoutez tous les utilisateurs et utilisatrices de cette équipe. Vous pouvez ensuite affecter le groupe de ressources marketing aux projets auxquels les personnes membres de cette équipe sont affectées.
 
-* Vous pouvez demander à tous les utilisateurs du même pool de ressources de remplir des rôles similaires, en particulier si les rôles sont en forte demande et doivent être budgétés séparément.
+* Vous pouvez demander à tous les utilisateurs et utilisatrices du même groupe de ressources de remplir des rôles similaires, surtout si ces rôles sont très demandés et nécessitent un budget distinct.
 
-  Par exemple, vous pouvez disposer de ressources externes qui fonctionnent comme des consultants et que vous souhaitez voir disponibles pour un projet de temps à autre. Vous pouvez créer un pool de ressources pour les consultants que vous pouvez joindre à vos projets, dans lequel vous pouvez placer les deux utilisateurs qui sont des consultants internes ou externes.
+  Vous pourriez, par exemple, avoir des ressources de conseil externes que vous voulez rendre disponibles pour un projet de temps en temps. Vous pouvez créer un groupe de ressources de personnes travaillant dans le conseil et les affecter à vos projets, où vous pouvez inclure à la fois des personnes internes ou externes en tant qu’utilisateurs et utilisatrices.
 
-* Vous pouvez également créer des groupes de ressources par département ou centre de coûts.
-* Il est déconseillé d’ajouter tous les utilisateurs du système à un pool de ressources si vous disposez d’un grand nombre d’utilisateurs ou si vous gérez des ressources pour un grand nombre de projets à la fois.
+* Vous pouvez également créer des groupes de ressources par service ou centre de coûts.
+* Évitez d’ajouter tous les utilisateurs et utilisatrices du système à un groupe de ressources si leur nombre est important ou si vous gérez les ressources de nombreux projets en même temps.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 98%
+source-wordcount: '407'
+ht-degree: 88%
 
 ---
 
@@ -27,30 +27,30 @@ Les utilisateurs et utilisatrices individuels peuvent également réinitialiser 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouvelle : standard</p>
+   <td><p>Nouveau : Standard</p>
        <p>ou</p>
-       <p>Actuelle : formule</p></td>
+       <p>Actuel : formule</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Préférences</strong> </th> 
+   <th><strong>Préférence</strong> </th> 
    <th><strong>Statut après la réinitialisation</strong> </th> 
   </tr> 
  </thead> 
@@ -98,7 +98,7 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
   </tr> 
   <tr> 
    <td>Options de navigation globale définies par l’utilisateur ou l’utilisatrice</td> 
-   <td>Reviennent à la définition du modèle de mise en page ou à la valeur par défaut du système si aucun modèle de mise en page n’est attribué.</td> 
+   <td>Reviennent à la définition du modèle de disposition ou à la valeur par défaut du système si aucun modèle de disposition n’est attribué.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,14 +109,26 @@ Lorsque vous réinitialisez les préférences d’un utilisateur ou d’une util
 
 1. Sélectionnez **Connexion en tant que**.
 1. Commencez à saisir le nom de l’utilisateur ou de l’utilisatrice dont vous souhaitez réinitialiser les préférences, puis cliquez sur son nom lorsqu’il apparaît dans la liste déroulante.
-1. Sélectionnez **Connexion**.
-1. Dans le champ de l’URL en haut de votre navigateur web, ajoutez `/resetUser` après `workfront.com`.
+1. Sélectionnez **Se connecter**.
+1. Si votre entreprise n’a pas été intégrée à l’expérience unifiée Adobe, procédez comme suit :
 
-   >[!NOTE]
-   >
-   >Ce champ est sensible à la casse. Le U doit être en majuscule et les autres caractères doivent être en minuscules. Par exemple :
-   >
-   >`https://company_domain.my.workfront.com/resetUser`
+   * Dans le champ de l’URL en haut de votre navigateur web, ajoutez `/resetUser` après `workfront.com`.
+
+     >[!NOTE]
+     >
+     >Ce champ est sensible à la casse. Le U doit être en majuscule et les autres caractères doivent être en minuscules. Par exemple :
+     >
+     >`https://company_domain.my.workfront.com/resetUser`
+
+1. Si votre entreprise a été intégrée à l’expérience unifiée Adobe, procédez comme suit :
+
+   * Dans le champ URL situé en haut de votre navigateur web, ajoutez `/resetUser` après `workfront`.
+
+     >[!NOTE]
+     >
+     >Ce champ est sensible à la casse. Le U doit être en majuscule et les autres caractères doivent être en minuscules. Par exemple :
+     >
+     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Appuyez sur **Entrée**.
 1. Pour réinitialiser toutes les préférences de l’utilisateur ou de l’utilisatrice, sélectionnez **Réinitialiser**.
