@@ -1,24 +1,24 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Gérer les éléments sur lesquels travaille votre équipe
-description: Vous pouvez afficher un calendrier des tâches et des problèmes sur lesquels votre équipe travaille actuellement. Vous pouvez affecter des éléments non attribués, ajuster les affectations actuelles, ajuster les affectations actuelles, etc.
+title: Gérer les activités de votre équipe
+description: Vous pouvez consulter un calendrier des tâches et des problèmes sur lesquels votre équipe travaille actuellement. Vous pouvez affecter des éléments non affectés, ajuster les affectations en cours, ajuster les attributions en cours, etc.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 13%
+ht-degree: 93%
 
 ---
 
-# Gérer les éléments sur lesquels travaille votre équipe
+# Gérer le travail de votre équipe
 
-Vous pouvez voir la liste des éléments sur lesquels votre équipe travaille dans la section [!UICONTROL Requêtes d’équipe] de votre équipe.
+Vous pouvez consulter la liste des éléments sur lesquels votre équipe travaille dans la section [!UICONTROL Demandes de l’équipe] de votre équipe.
 
-Vous pouvez affecter des éléments non attribués, ajuster les affectations actuelles, ajuster les affectations actuelles, etc. dans la section [!UICONTROL équilibreur de charge de travail] de votre équipe.
+Vous pouvez affecter des éléments non affectés, ajuster les affectations en cours, ajuster les allocations en cours, et plus encore dans la section [!UICONTROL Équilibreur de charge de travail] de votre équipe.
 
-Pour plus d’informations sur la gestion du travail assigné à votre équipe, voir [[!UICONTROL équilibreur de charge de travail]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Pour plus d’informations sur la gestion du travail affecté à votre équipe, voir [[!UICONTROL Équilibreur de charge de travail]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ![](assets/team-page-with-team-requests-and-balancer-sections-left.png)

@@ -1,56 +1,61 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Modifier les paramètres des équipes
+title: Modifier les paramètres de l’équipe
 description: Les administrateurs Workfront et les utilisateurs disposant d’une licence Plan ou Travail peuvent modifier les paramètres de l’équipe.
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 10%
+source-wordcount: '494'
+ht-degree: 40%
 
 ---
 
 # Modifier les paramètres des équipes
 
-En tant qu&#39;administrateur [!DNL Adobe Workfront] ou utilisateur disposant d&#39;une licence [!UICONTROL Plan] ou [!UICONTROL Work], vous pouvez modifier les [!UICONTROL paramètres de l&#39;équipe].
+En tant qu&#39;administrateur [!DNL Adobe Workfront] ou utilisateur disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Travail], vous pouvez modifier les [!UICONTROL Paramètres de l&#39;équipe].
 
 Vous pouvez ajouter des utilisateurs à une équipe, définir le modèle de mise en page de l’équipe et définir comment l’état est enregistré lorsqu’une équipe termine les tâches.
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
-   <td> <p>N’importe quelle</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
-   <td> <p>Travail ou supérieure</p> </td> 
+   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td>
+   <p>Nouveau : Standard</p>
+   <p>ou</p>
+   <p>Actuellement : Travail ou licence supérieure</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur [!DNL Workfront].
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modifier les paramètres des équipes
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **[!UICONTROL Equipes]**.
+{{step1-to-team}}
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Changer d&#39;équipe]** ![Icône Changer d&#39;équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
+1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
 1. Cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-icon.png), puis sélectionnez **[!UICONTROL Modifier]**.
 
-   Seuls les membres de l’équipe ayant une licence [!UICONTROL Plan] ou [!UICONTROL Travail] voient cette option.
+   Seuls les membres de l’équipe qui disposent d’une licence de [!UICONTROL plan] ou de [!UICONTROL travail] peuvent voir cette option.
 
    Si vous devez disposer de l’option [!UICONTROL Modifier] mais que vous ne la voyez pas, demandez à votre administrateur Workfront de vérifier que [!UICONTROL Paramètres de l’équipe] est visible dans le modèle de mise en page pour [!UICONTROL Équipe de déploiement], [!UICONTROL Équipe de Kanban] ou [!UICONTROL Équipe de chute d’eau].
 
@@ -64,9 +69,9 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
      >[!NOTE]
      >
-     >Lorsqu’une équipe est affectée à un groupe ou à un sous-groupe, les administrateurs de groupe de ce groupe ou de ce sous-groupe peuvent gérer l’équipe sans en être membre. Les administrateurs de groupe peuvent accéder à la zone Équipes à partir du menu principal et cliquer sur la flèche [!UICONTROL Changer d’équipe] ![Icône Changer d’équipe](assets/switch-team-icon.png) pour répertorier toutes les équipes affectées aux groupes qu’ils gèrent.
+     >Lorsqu’une équipe est affectée à un groupe ou à un sous-groupe, l’équipe d’administration peut se charger de la gestion sans en être membre. Les administrateurs de groupe peuvent accéder à la zone Équipes à partir du menu principal et cliquer sur la flèche [!UICONTROL Changer d’équipe] ![Icône Changer d’équipe](assets/switch-team-icon.png) pour répertorier toutes les équipes affectées aux groupes qu’ils gèrent.
 
-     Vous pouvez vous assurer que vous associez le groupe de droite à l’équipe en pointant dessus et en cliquant sur l’icône d’information ![](assets/info-icon.png) qui s’affiche à côté. Cette option permet d’afficher une infobulle contenant des informations sur le groupe, telles que la hiérarchie des groupes qui le précèdent et ses administrateurs et administratrices.
+     Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe en pointant dessus et en cliquant sur l’icône d’information ![](assets/info-icon.png) qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.
 
    * Désignation du propriétaire de l’équipe
    * Ajout et suppression de membres de l’équipe
@@ -82,7 +87,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * Remplacez le bouton [!UICONTROL Work On It] par un bouton [!UICONTROL Start]. Pour plus d’informations sur la configuration du bouton [!UICONTROL Démarrer], voir [Remplacer le bouton Travailler dessus par un bouton [!UICONTROL Démarrer]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Personnalisez le bouton **[!UICONTROL Terminé]** . Pour plus d’informations sur la personnalisation du bouton [!UICONTROL Terminé], voir :
 
-      * [Configurez le bouton [!UICONTROL Terminé] pour les tâches](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-      * [Configuration du bouton [!UICONTROL Terminé] pour les problèmes](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+      * [Configurer le bouton [!UICONTROL Terminé] pour les tâches](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+      * [Configurer le bouton [!UICONTROL Terminé] pour les problèmes](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
