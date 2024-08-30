@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Cet exemple montre comment composer une requête pour renvoyer vos données pers
 
 ### Scénario :
 
-Votre entreprise qui utilise un formulaire personnalisé nommé Intégration financière. Le formulaire est joint à chaque projet et contient les champs suivants :
+Votre entreprise utilise un formulaire personnalisé nommé Intégration financière. Le formulaire est joint à chaque projet et contient les champs suivants :
 
 * **Business Unit** - Champ personnalisé contenant une chaîne.
 * **ProjectID** - Champ personnalisé contenant une chaîne numérique.

@@ -4,10 +4,10 @@ description: Améliorations apportées aux administrateurs au quatrième trimest
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 6%
+source-wordcount: '290'
+ht-degree: 4%
 
 ---
 
@@ -17,11 +17,24 @@ Cette page décrit toutes les améliorations apportées à l’administrateur à
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2024, consultez la [présentation de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Restauration des packages de promotion d’environnement
+
+>[!NOTE]
+>
+>Aperçu de la version : 29 août 2024 ; Production pour une version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour une version trimestrielle : avec la version 24.10 (octobre 2024)
+>
+
+Pour rendre la promotion de l’environnement plus flexible et plus facile à utiliser, nous avons activé la fonctionnalité de restauration. Vous pouvez désormais restaurer les packages en moins de 24 heures, ce qui vous permet de restaurer plus facilement les configurations précédentes qui ont été affectées par un package de promotion d’environnement.
+
+Auparavant, les configurations étaient restaurées manuellement ou par le biais d’un autre module de promotion d’environnement.
+
+Pour plus d’informations sur la restauration d’un package de promotion d’environnement, voir [Restauration d’un package de promotion d’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md).
+
 ## Le bouton Disposition du concepteur de formulaire personnalisé permet d’afficher deux ou trois colonnes.
 
 >[!NOTE]
 >
->Aperçu de la version : 12 août 2024 ; Production pour une version rapide avec la version 24.9 (septembre 2024) ; Production pour une version trimestrielle : À déterminer
+>Aperçu de la version : 12 août 2024 ; Production pour une version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour une version trimestrielle : À déterminer
 >
 >_Cette fonctionnalité fait partie d’une version par étapes et sera disponible pour un nombre limité de clients en septembre. Il restera dans l’environnement Aperçu pendant une longue période pendant que nous recueillons les commentaires._
 

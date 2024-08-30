@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 44%
+source-wordcount: '1300'
+ht-degree: 43%
 
 ---
 
@@ -26,7 +26,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.8 (août 2024)</li><li>24.9 (septembre 2024)</li><li>24.10 (octobre 2024)</li></ul> | <ul><li>24.10 (octobre 2024)</li></ul> |
+>| <ul><li>24.8 (15 août 2024)</li><li>24.9 (12 septembre 2024)</li><li>24.10 (octobre 2024)</li></ul> | <ul><li>24.10 (octobre 2024)</li></ul> |
 >
 >Notez que pour la version finale de chaque trimestre (24.10 ce trimestre), les utilisateurs de la version rapide recevront la version un jour plus tôt.
 >
@@ -58,6 +58,25 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Restauration des packages de promotion d’environnement</a></p>
+                        <p>Pour rendre la promotion de l’environnement plus flexible et plus facile à utiliser, nous avons activé la fonctionnalité de restauration. Vous pouvez désormais restaurer les packages en moins de 24 heures, ce qui vous permet de restaurer plus facilement les configurations précédentes qui ont été affectées par un package de promotion d’environnement.</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : vendredi 29 août 2024</p>
+                            </li>
+                            <li>
+                                <p>Production pour une version rapide : avec la version 24.9 (12 septembre 2024)</p>
+                            </li>
+                            <li>
+                                <p>Version de production pour tous les clients : avec la version 24.10 (octobre 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Le bouton Disposition sur le concepteur de formulaire personnalisé accepte deux ou trois colonnes</a></p>
                         <p>Un bouton "Disposition" sur le concepteur de formulaire personnalisé vous permet de choisir parmi une zone de travail de deux ou trois colonnes. Le concepteur de formulaire d’origine utilise trois colonnes et les paramètres de champ s’affichent dans la colonne à l’extrême droite. Si vous sélectionnez deux colonnes, les paramètres du champ s’affichent en regard de la bibliothèque de champs dans la colonne située à l’extrême gauche.</p>
                     </td>
@@ -67,7 +86,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                                 <p>Version d’aperçu : mardi 12 août 2024</p>
                             </li>
                             <li>
-                                <p>Production pour une version rapide : avec la version 24.9 (septembre 2024)</p>
+                                <p>Production pour une version rapide : avec la version 24.9 (12 septembre 2024)</p>
                             </li>
                             <li>
                                 <p>Version de production pour tous les clients : à déterminer</p>
@@ -192,6 +211,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Mise à jour Chromium pour la visionneuse de vérification de l’appli de bureau</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Nous mettons à niveau la visionneuse de vérification de l’appli de bureau afin qu’elle prenne en charge Chromium 126.0.6478.127, ce qui résoudra les problèmes liés aux éléments de l’interface utilisateur dans les bons à tirer interactifs.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -217,6 +237,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}"> Disponibilité générale de la planification Adobe Workfront </a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Workfront Planning est disponible pour tous les clients qui ont acheté une licence Workfront Planning, en plus de leur licence Workfront. Pour plus d’informations sur la planification Workfront, contactez le représentant du compte.</p>
                         <p>Pour obtenir les dernières informations sur la version de Workfront Planning chaque trimestre, reportez-vous à la section <a href="#workfront-planning-enhancements">Améliorations de la planification Workfront</a> ci-dessous.</p>
                     </td>
@@ -231,6 +252,7 @@ Les <span class="preview">fonctionnalités hors cycle (celles qui sont publiées
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Assistant d’Adobe d’IA disponible dans Workfront</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Afin de vous faciliter la tâche, nous avons ajouté l’assistant AI d’Adobe à Workfront. L’assistant IA peut vous aider en procédant comme suit :</p>
                         <ul>
                             <li>Résumer les éléments de travail et les documents, ce qui vous permet d’acquérir rapidement une compréhension générale des tâches, des projets et des ressources.</li>
