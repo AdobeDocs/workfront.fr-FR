@@ -5,7 +5,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+recommendations: noDisplay, noCatalog
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 89%
@@ -26,9 +27,9 @@ Les articles suivants décrivent comment créer et gérer des enregistrements et
 * [Supprimer des enregistrements](/help/quicksilver/planning/records/delete-records.md)
 * [Partager des enregistrements](/help/quicksilver/planning/records/share-records.md)
 * [Présentation des enregistrements connectés](/help/quicksilver/planning/records/connected-records-overview.md)
-* [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
+* [Connect records](/help/quicksilver/planning/records/connect-records.md)
 * [Duplication d&#39;enregistrements](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
-* [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md)
+* [Gérer les commentaires des enregistrements](/help/quicksilver/planning/records/manage-record-comments.md)
 * [Vue d’ensemble de la section Historique](/help/quicksilver/planning/records/history-section-overview.md)
 * [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 * [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)

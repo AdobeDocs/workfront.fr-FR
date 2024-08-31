@@ -4,8 +4,9 @@ description: Les articles suivants décrivent comment configurer l’architectur
 author: Alina
 feature: Workfront Planning
 role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 95%
@@ -32,9 +33,9 @@ Les articles présentés dans les sections suivantes décrivent comment configur
 * [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md)
 * [Modifier des types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [Types d’enregistrement connectés - Aperçu](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
-* [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Exemple de connexion de types d’enregistrements et d’enregistrements](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
 * [Supprimer des espaces de travail](/help/quicksilver/planning/architecture/delete-workspaces.md)
-* [Modifier des espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md)
+* [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Supprimer des types d’enregistrements](/help/quicksilver/planning/architecture/delete-record-types.md)
 

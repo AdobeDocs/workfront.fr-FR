@@ -5,7 +5,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+recommendations: noDisplay, noCatalog
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 28%
@@ -57,7 +58,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 
    * Licences Workfront et autorisations de planification
    * Planification des autorisations de partage
-   * Partager des vues
+   * Partager des affichages
    * Partage des espaces de travail (types d’enregistrement, enregistrements et champs)
 
 * [Architecture : l’index de l’article](/help/quicksilver/planning/architecture/architecture-information.md) contient les informations suivantes :
@@ -76,7 +77,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 * [Enregistrements : l’index de l’article](/help/quicksilver/planning/records/records-information.md) contient les informations suivantes :
 
    * Créer, modifier et supprimer des enregistrements
-   * Connecter des enregistrements
+   * Connect records
    * Ajout d’une image de couverture ou d’une miniature à un enregistrement
    * Gestion de la mise en page d’une page d’enregistrement
    * Enregistrement des commentaires et de l’historique

@@ -4,8 +4,9 @@ description: Une façon d’indiquer comment les types d’enregistrements indiv
 feature: Workfront Planning
 role: User
 author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 53%
@@ -55,7 +56,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -66,7 +67,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -90,17 +91,17 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations de gestion d’un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’elles n’ont pas créés.</p></td> 
+   <td>   <p>Autorisations de gestion pour un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p></td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modèle de disposition</p></td> 
+   <td role="rowheader"><p>Modèle de mise en page</p></td> 
    <td> <p>Tous les utilisateurs, y compris les administrateurs Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planification dans le menu principal. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!-- OLD: 
 
@@ -162,7 +163,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 +++
 
 
-## Connecter des types d’enregistrements
+## Connecter les types d’enregistrements
 
 <!--when changes here, also update the article for "Connect records"-->
 
@@ -174,7 +175,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    Dans un espace de travail, développez la flèche pointant vers le bas située à droite du nom d’un espace de travail existant, recherchez un espace de travail, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. Cliquez sur la vignette d’un type d’enregistrement pour ouvrir la page du type d’enregistrement.
-1. Cliquez sur l’icône **+** dans le coin supérieur droit de la vue Tableau, puis cliquez sur l’onglet **Nouvelle connexion**.
+1. Cliquez sur l’icône **+** dans le coin supérieur droit de la vue tableau, puis cliquez sur l’onglet **Nouvelle connexion**.
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
@@ -252,7 +253,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    >
    > Vous devez créer des formulaires personnalisés dans Workfront pour les objets sélectionnés avant qu’ils ne s’affichent dans cette liste.
 
-1. (Le cas échéant) Si vous avez choisi de vous connecter à Experience Manager Assets, sélectionnez un référentiel dans le menu déroulant **Référentiel Experience Manager** dans la section **Lier des ressources à partir du référentiel suivant**. Il s’agit d’un champ obligatoire. Seuls les référentiels auxquels vous avez accès dans Experience Manager Assets s’affichent dans ce champ.
+1. (Le cas échéant) Si vous avez choisi de vous connecter à Experience Manager Assets, sélectionnez un référentiel dans le menu déroulant **Référentiel Experience Manager** dans la section **Lier des ressources à partir du référentiel suivant**. Champ obligatoire. Seuls les référentiels auxquels vous avez accès dans Experience Manager Assets s’affichent dans ce champ.
 
    >[!NOTE]
    >
@@ -268,21 +269,21 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
 1. Cliquez sur **Créer**.
 
-1. (Le cas échéant) Si vous avez sélectionné le paramètre **Sélectionner un champ de recherche**, la zone **Ajouter des champs de recherche** s’ouvre.
+1. (Le cas échéant) Si vous avez sélectionné le paramètre **Sélectionner des champs de recherche**, la boîte de dialogue **Ajouter des champs de recherche** s’ouvre.
 
-   Cliquez sur le bouton **+** pour ajouter des champs à partir de la zone **Champs non sélectionnés**.
+   Cliquez sur l’icône **+** pour ajouter des champs à partir de la zone **Champs non sélectionnés**.
 
    Ou
 
-   Cliquez sur le bouton **-** pour supprimer des champs de la zone **Champs sélectionnés**.
+   Cliquez sur l’icône **-** pour supprimer des champs de la zone **Champs sélectionnés**.
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
-   Les valeurs des champs connectés sont renseignées automatiquement une fois que vous avez lié des enregistrements ou des objets.
+   Les valeurs des champs connectés se remplissent automatiquement lorsque vous liez des enregistrements ou des objets.
 
    >[!IMPORTANT]
    >
-   >    Toute personne disposant d’autorisations d’affichage ou supérieures sur l’espace de travail peut afficher les informations dans les champs liés, indépendamment de ses autorisations ou de son niveau d’accès dans l’application des types d’objets liés.
+   >    Toute personne disposant d’autorisations Afficher ou d’autorisations supérieures dans l’espace de travail peut consulter les informations contenues dans les champs liés, quels que soient ses autorisations ou son niveau d’accès dans l’application des types d’objets liés.
 
 
 1. (Facultatif) Cliquez sur **Ignorer** pour ignorer l’ajout de champs à partir de l’enregistrement ou du type d’objet lié. Le **Nom** ou le **Titre** de l’enregistrement lié est le seul champ visible dans la vue de table du type d’enregistrement à partir duquel vous vous connectez.
@@ -305,15 +306,15 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    >[!NOTE]
    >
-   > Les agrégateurs ne sont pas disponibles lors de la connexion des types d’enregistrement à Experience Manager Assets.
+   > Les agrégateurs ne sont pas disponibles lors de la connexion des types d’enregistrements à Experience Manager Assets.
 
    Sélectionnez l’une des options suivantes :
 
    * **Aucun** : affiche les valeurs provenant de plusieurs enregistrements séparés par des virgules. Il s’agit de la sélection par défaut.
-   * **MAX** : affiche la valeur la plus élevée parmi toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ d’enregistrement lié.
-   * **MIN** : affiche la valeur la plus basse parmi toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ d’enregistrement lié.
-   * **SOM**: affiche le total de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ d’enregistrement lié.
-   * **MOY** : affiche la moyenne de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ d’enregistrement lié.
+   * **MAX** : affiche la valeur la plus élevée de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ de l’enregistrement lié.
+   * **MIN** : affiche la valeur la plus basse de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ de l’enregistrement lié.
+   * **SOMME** : affiche le total de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ de l’enregistrement lié.
+   * **MOY** : affiche la moyenne de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ de l’enregistrement lié.
    * **UNIQUE** : supprime les doublons des valeurs de champ de recherche et n’affiche que les valeurs uniques. Cette option n’est pas disponible pour les types de champ suivants :
       * Paragraphe
       * Case à cocher
@@ -321,23 +322,23 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    >[!NOTE]
    >
-   >Vous pouvez, par exemple, lier l’enregistrement Produit (enregistrement lié) de l’enregistrement Campagne (enregistrement d’origine) et le nommer « champ de produit ». Vous pouvez également choisir de lier le champ Budget de l’enregistrement Produit à partir de l’enregistrement Campagne et de l’appeler « Budget produit ». Si vous avez le droit de sélectionner plusieurs enregistrements dans le &quot;champ Produit&quot;, vous pouvez sélectionner le Produit 1 dont le budget est de 100 000 € et le Produit 2 dont le budget est de 110 000 €, et le Produit 3 dont le budget est de 100 000 €. Vous pouvez afficher les informations budgétaires suivantes dans le champ lié à partir de l’enregistrement d’origine, en fonction de l’agrégateur choisi :
+   >Par exemple, vous pouvez lier l’enregistrement du produit (enregistrement lié) à l’enregistrement de la campagne (enregistrement original) et le nommer « Champ produit ». Vous pouvez également choisir de lier le champ Budget de l’enregistrement du produit à l’enregistrement de la campagne et de l’appeler « Budget du produit ». Si vous avez le droit de sélectionner plusieurs enregistrements dans le &quot;champ Produit&quot;, vous pouvez sélectionner le Produit 1 dont le budget est de 100 000 € et le Produit 2 dont le budget est de 110 000 €, et le Produit 3 dont le budget est de 100 000 €. Selon l’agrégateur que vous avez choisi, vous pouvez consulter les informations suivantes sur le budget dans le champ lié de l’enregistrement original :
    >
    >* **Aucun** : 100 000 $, 110 000 $, 100 000 $
    >* **MAX** : 110 000 $
-   >* **MIN** : 100 000 €
+   >* **MIN** : 100 000 $
    >* **SUM** : 310 000 $
    >* **AVG** : 103 000,33 $
    >* **UNIQUE** : 100 000 $
    >
 
-1. (Facultatif) Utilisez l’icône **rechercher** ![](assets/search-icon.png) pour rechercher un champ.
+1. (Facultatif) Utilisez l’icône **Rechercher** ![](assets/search-icon.png) pour rechercher un champ.
 
 1. Cliquez sur **Ajouter des champs** pour enregistrer vos modifications.
 
    Les éléments suivants sont ajoutés :
 
-   * Champ de l’enregistrement lié au type d’enregistrement à partir duquel vous créez un lien. Le champ d’enregistrement lié affiche les enregistrements individuels du type d’enregistrement lié, une fois que vous les avez ajoutés manuellement. Pour plus d’informations sur l’ajout d’enregistrements, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md). Le nom du champ d’enregistrement lié est le nom que vous avez sélectionné à l’étape 6. <!--accurate-->
+   * Un champ de l’enregistrement lié sur le type d’enregistrement à partir duquel vous créez un lien. Le champ d’enregistrement lié affichera les enregistrements individuels du type d’enregistrement lié, après les avoir ajoutés manuellement. Pour plus d’informations sur l’ajout d’enregistrements, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md). Le nom du champ de l’enregistrement lié est celui que vous avez sélectionné à l’étape 6.<!--accurate-->
 
    * Champ (ou champ) lié(e) qui affiche des informations sur l’enregistrement ou les types d’objet liés après avoir ajouté manuellement les enregistrements ou les objets dans le champ d’enregistrement lié. Les champs de recherche ne sont créés que lorsque le paramètre **Sélectionner les champs de recherche** est sélectionné lors de la création de la connexion. Les champs de recherche sont automatiquement nommés selon ce modèle :
 
@@ -356,7 +357,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 1. (Facultatif et le cas échéant) À partir de la vue de tableau du type d’enregistrement d’origine ou d’enregistrement lié, cliquez sur la flèche du bas dans l’en-tête des champs d’enregistrement liés, puis sélectionnez l’une des options suivantes :
 
    * **Modifier le champ** : vous pouvez mettre à jour le **nom** et les informations **Description** du champ.
-   * **Modifier les champs de recherche** : ajoutez ou supprimez l’un des champs de l’enregistrement lié.
+   * **Modifier les champs de recherche** : ajoutez ou supprimez un ou plusieurs champs de l’enregistrement lié.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 

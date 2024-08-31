@@ -4,8 +4,9 @@ description: Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Plann
 author: Alina
 feature: Workfront Planning
 role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 98%
@@ -35,11 +36,11 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui refl�
 
 * Les champs associés à un type d’enregistrement ne peuvent pas être ajoutés à un autre type d’enregistrement. <!-- this will change when they open the Field library tab when creating a field-->
 
-* Vous pouvez créer des champs manuellement ou automatiquement de la manière suivante :
+* Vous pouvez créer des champs manuellement ou automatiquement des manières suivantes :
 
    * Manuellement :
 
-      * En ajoutant des colonnes dans la vue de tableau d’une page de type enregistrement. Les colonnes du tableau sont les champs associés au type d’enregistrement. Il s’agit des mêmes champs que ceux affichés sur la page d’un enregistrement.
+      * En ajoutant des colonnes dans la vue tableau d’une page de type enregistrement. Les colonnes du tableau sont les champs associés au type d’enregistrement. Il s’agit des mêmes champs que ceux affichés sur la page d’un enregistrement.
 
         Vous ne pouvez pas créer de champs à partir de la page de l’enregistrement.
 
@@ -59,7 +60,7 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui refl�
       * Description
       * Date de début
       * Date de fin
-      * Statut. Les valeurs par défaut des statuts d’enregistrement sont les suivantes :
+      * Statut. Les valeurs par défaut des statuts des enregistrements sont les suivantes :
          * Développement
          * Prévu
          * Actif
