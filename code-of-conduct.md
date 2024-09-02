@@ -1,7 +1,7 @@
 ---
 source-git-commit: 13e44d1840385b0de4308cf11cb1b45334a576ce
-workflow-type: tm+mt
-source-wordcount: '431'
+workflow-type: ht
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Ce Code de conduite s’applique à la fois aux espaces de projet et aux espaces
 ## Application
 
 Tout cas de comportement abusif, de harcèlement ou tout autre comportement inacceptable peut être signalé en prenant contact avec l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Toutes les plaintes seront examinées et feront l’objet d’une enquête, et auront une réponse jugée nécessaire et adaptée aux circonstances. L’équipe du projet est tenue de respecter la confidentialité de la personne signalant l’incident.
-Des informations supplémentaires sur les stratégies d’application spécifiques peuvent être publiées séparément.
+Des informations supplémentaires sur les politiques d’application spécifiques peuvent être publiées séparément.
 
 Les responsables du projet qui ne respectent pas ou n’appliquent pas de bonne foi le Code de conduite peuvent faire face à des répercussions temporaires ou permanentes, telles que décidées par d’autres membres de la direction du projet.
 
