@@ -44,14 +44,14 @@ Vous devez disposer des éléments suivants :
    </td>
   </tr>
    <tr>
-   <td>Configurations du niveau d’accès
+   <td>Configurations des niveaux d’accès
    </td>
-   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront].
+   <td>Vous devez être administrateur ou administratrice [!DNL Workfront].
    </td>
   </tr>
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
@@ -81,7 +81,7 @@ Pour plus d’informations sur les états, voir [États de promotion d’environ
 >* Pour installer un package, vous devez être connecté à l’environnement dans lequel vous souhaitez installer le package. Il s’agit de l’environnement dans lequel vous copiez des objets **vers**.
 
 1. Accédez à l’environnement dans lequel vous souhaitez installer le package.
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]**  ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **System** dans le volet de navigation de gauche, puis **Environment Promotion**.
 1. Sélectionnez le package dans la liste affichée.
 1. Pour chaque objet ayant une collision, sélectionnez la manière de résoudre la collision.
@@ -133,6 +133,6 @@ Cette fonctionnalité affecte les objets parents et enfants suivants :
 | Projet | Tâche<br>QueueDef (définition de file d’attente)<br>Règle de routing |
 | Modèle | TemplateTask<br>QueueDef (Définition de la file d’attente)<br>RoutingRule |
 | Paramètre (champ de formulaire personnalisé) | ParameterOption (option de champ de formulaire personnalisé) |
-| CalendarInfo | Section du calendrier |
+| CalendarInfo | CalendarSection |
 | QueueDef (définition de file d’attente) | QueueTopicGroup<br>QueueTopic |
 

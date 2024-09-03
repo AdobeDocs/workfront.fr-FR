@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Prise en main de la planification des ressources
-description: Vous pouvez utiliser des outils de planification des ressources pour gérer vos rôles d’emploi, leur disponibilité et l’affectation générale aux projets en fonction de cette disponibilité.
+title: Commencer avec la planification des ressources
+description: Vous pouvez utiliser des outils de planification des ressources pour gérer vos fonctions, leur disponibilité et l’affectation générale aux projets en fonction de cette disponibilité.
 author: Alina
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# Prise en main de la planification des ressources
+# Commencer avec la planification des ressources
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -23,49 +23,49 @@ ht-degree: 6%
 </div>
 -->
 
-Vous pouvez utiliser les outils de gestion des ressources d’Adobe Workfront pour prévoir l’allocation de vos ressources afin de vous assurer que vos projets sont distribués à temps et selon le budget. Pour une présentation de la gestion des ressources dans Workfront, voir [Prise en main de la gestion des ressources](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+Vous pouvez utiliser les outils de gestion des ressources d’Adobe Workfront pour prévoir l’affectation de vos ressources afin de vous assurer que vos projets sont distribués à temps et selon le budget. Pour une vue d’ensemble de la gestion des ressources dans Workfront, voir [Commencer avec la gestion des ressources](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-Vous pouvez utiliser des outils de planification des ressources pour gérer vos rôles d’emploi, leur disponibilité et l’affectation générale aux projets en fonction de cette disponibilité.
+Vous pouvez utiliser des outils de planification des ressources pour gérer vos fonctions, leur disponibilité et l’affectation générale aux projets en fonction de cette disponibilité.
 
-L’affectation générale des utilisateurs au budget des projets ne les affecte pas au travail réel (tâches et problèmes). Vous devez affecter vos ressources à l’utilisation de l’équilibreur de charge de travail.
+L’affectation générale des personnes au budget des projets ne les affecte pas au travail réel (tâches et problèmes). Vous devez affecter vos ressources à des travaux en utilisant l’équilibreur de charge de travail.
 
-Pour plus d’informations sur la planification des ressources dans Workfront à l’aide de l’équilibreur de charge de travail, consultez la [présentation de l’équilibreur de charge de travail](../workload-balancer/overview-workload-balancer.md).
+Pour plus d’informations sur la planification des ressources dans Workfront à l’aide de l’équilibreur de charge de travail, voir [Vue d’ensemble de l’équilibreur de charge de travail](../workload-balancer/overview-workload-balancer.md).
 
 ## Outils de planification des ressources dans Workfront
 
-Pour allouer du temps pour vos ressources pour les projets auxquels vous prévoyez de les affecter, vous pouvez utiliser les outils suivants :
+Pour bugdéter les heures de vos ressources pour les projets auxquels vous prévoyez de les affecter, vous pouvez utiliser les outils suivants :
 
-* Pour établir les budgets et les priorités de plusieurs projets au niveau du système : utilisez le planificateur de ressources au niveau du système.
+* Pour établir les budgets et les priorités de plusieurs projets au niveau du système : utilisez le planificateur de ressources au niveau du système.
 
-  Vous pouvez accéder au planificateur de ressources en vous rendant dans la section du planificateur de la zone Ressource .
+  Vous pouvez accéder au planificateur de ressources en vous rendant dans la section Planificateur de la zone Ressources.
 
-  Pour plus d’informations sur le planificateur de ressources, consultez la [présentation du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Pour plus d’informations sur le planificateur de ressources, voir [Vue d’ensemble du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Pour les affectations de budget pour un seul projet : utilisez le planificateur Ressource au niveau du projet dans la zone Budget des ressources de l’Analyse de cas d’un projet. Pour plus d’informations sur la planification des ressources pour un projet, consultez l’article [Ressources budgétaires dans l’analyse de cas ](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* Pour les affectations de budget pour un seul projet : utilisez le planificateur de ressources au niveau du projet dans la zone Budget des ressources du business case d’un projet. Pour plus d’informations sur la planification des ressources pour un projet, voir l’article [Budgéter les ressources dans le business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Pour gérer les utilisateurs et les organiser en pools basés sur des compétences communes ou une structure ministérielle, puis gérer leurs affectations pour les projets auxquels ils sont affectés, vous devez créer des pools de ressources. Pour plus d’informations sur la création de pools de ressources, voir [Création de pools de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Pour gérer les personnes et les organiser en groupes basés sur des compétences communes ou une structure de services, puis gérer leurs affectations pour les projets auxquels elles sont affectées, vous devez créer des groupes de ressources.Pour plus d’informations sur la création de groupes de ressources, voir [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
   >[!TIP]
   >
-  >La zone Resource Budget d’un projet est le planificateur de ressources au niveau du projet. Lorsque vous budgétez des ressources dans l’Analyse de cas d’un projet, les informations sont également répercutées dans le planificateur de ressources au niveau du système.
+  >La zone Établissement du budget de ressources d’un projet est le planificateur de ressources au niveau du projet. Lorsque vous budgétez des ressources dans le business case d’un projet, les informations sont également répercutées dans le planificateur de ressources au niveau du système.
 
-* Pour gérer les ressources à un niveau élevé, dans plusieurs initiatives et aligner votre travail avec la stratégie de votre entreprise, utilisez le planificateur de scénario Adobe Workfront. Le planificateur de scénario nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../scenario-planner/scenario-planner-overview.md).
+* Pour gérer les ressources à un niveau élevé et dans plusieurs initiatives, et aligner votre travail avec la stratégie de votre entreprise, utilisez le planificateur de scénarios Adobe Workfront. Le planificateur de scénarios nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../scenario-planner/scenario-planner-overview.md).
 
-  Vous pouvez utiliser le planificateur de ressources au niveau du système, pour plusieurs projets, ainsi que pour les ressources de budget d’un seul projet dans la zone Budget des ressources de l’analyse de performances. Pour plus d’informations sur la planification des ressources pour un projet dans l’analyse de cas, voir [Ressources budgétaires dans l’analyse de cas](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Vous pouvez utiliser le planificateur de ressources au niveau du système, pour plusieurs projets, ainsi que pour budgéter les ressources d’un seul projet dans la zone Établissement du budget de ressources du business case. Pour plus d’informations sur la budgétisation des ressources pour un projet dans le business case, voir [Budgéter les ressources dans le business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## Objectif des outils de planification des ressources
 
-* À l’aide du planificateur de ressources, vous pouvez effectuer les opérations suivantes :
+* À l’aide du planificateur de ressources, vous pouvez effectuer les opérations suivantes :
 
-   * Classez vos projets par ordre de priorité afin de décider quels projets doivent recevoir en premier lieu des ressources. (Uniquement dans le planificateur de ressources)
-   * Comprenez la disponibilité de vos ressources en fonction du planning de vos utilisateurs.
-   * l’heure du budget, l’éditeur de texte enrichi ou les allocations de coûts pour vos ressources (utilisateurs et rôles de tâche) pour les projets auxquels ils sont affectés ;
+   * Classer vos projets par ordre de priorité afin de décider quels projets doivent recevoir en premier lieu des ressources. (Uniquement dans le planificateur de ressources)
+   * Comprendre la disponibilité de vos ressources en fonction du planning de vos utilisateurs et utilisatrices.
+   * Budgéter les affectations d’heures, de temps complet ou de coûts pour vos ressources (personnes et fonctions) pour les projets auxquels elles sont affectées.
 
-  Pour plus d’informations sur l’utilisation du planificateur de ressources, reportez-vous à l’article [Présentation du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Pour plus d’informations sur l’utilisation du planificateur de ressources, consultez l’article [Vue d’ensemble du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* À l’aide du planificateur de scénario, vous pouvez élaborer des plans au niveau de l’entreprise pour plusieurs initiatives qui exposent les résultats stratégiques globaux de votre entreprise. Pour plus d’informations, voir [Prise en main du planificateur de scénario](../../scenario-planner/get-started-with-scenario-planning.md).
+* À l’aide du planificateur de scénarios, vous pouvez élaborer des plans au niveau de l’entreprise pour plusieurs initiatives qui exposent les résultats stratégiques globaux de votre entreprise. Pour plus d’informations, voir [Commencer avec le planificateur de scénarios](../../scenario-planner/get-started-with-scenario-planning.md).
 
-  Le planificateur de scénario nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../scenario-planner/scenario-planner-overview.md).
+  Le planificateur de scénarios nécessite une licence supplémentaire. Pour plus d’informations sur le planificateur de scénarios Workfront, voir [Vue d’ensemble du planificateur de scénarios](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

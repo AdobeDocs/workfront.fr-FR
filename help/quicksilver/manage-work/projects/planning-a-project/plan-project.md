@@ -22,53 +22,53 @@ ht-degree: 98%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-Un projet est un élément de travail volumineux dans Adobe Workfront. Vous pouvez diviser un projet en tâches, qui sont des éléments de travail plus petits. Les tâches peuvent être affectées à des utilisateurs et utilisatrices ou à des équipes, qui seront chargés de les mener à bien. Lorsque toutes les personnes terminent leurs tâches, le projet est terminé.
+Un projet est un élément de travail volumineux dans Adobe Workfront. Vous pouvez ventiler un projet en tâches qui sont des éléments de travail plus petits, comme des tâches. Les tâches peuvent être affectées à des utilisateurs et des utilisatrices ou à des équipes qui peuvent être responsables de leur réalisation. Lorsque tous les utilisateurs et toutes les utilisatrices terminent leurs tâches, le projet est également terminé.
 
-Outre la planification de vos tâches dans un projet, la planification de projets nécessite une élaboration minutieuse. Qu’il s’agisse de déterminer les impacts économiques ou de tenir compte de la disponibilité des ressources, de nombreux éléments des projets nécessitent une attention particulière.
+En plus de l’organisation des tâches d’un projet, de nombreux autres détails sont à prendre en compte dans la planification de projets. Qu’il s’agisse d’analyser les impacts financiers ou de tenir compte de la disponibilité des ressources, de nombreux aspects des projets demandent une attention particulière.
 
 ## Définir la portée du projet
 
-La planification de projet consiste à déterminer exactement les principaux objectifs que vous devez atteindre pour terminer le projet.
+La planification du projet consiste à déterminer exactement les principaux objectifs que vous devez atteindre pour terminer le projet.
 
-Dans les phases initiales d’un projet, vous n’avez peut-être pas encore déterminé si vous deviez donner le feu vert ou non. Il peut ne pas être rentable, ou vous n’avez pas les ressources nécessaires. Au cours de cette étape de planification, vous pouvez créer un projet dans Workfront sans ajouter de tâches et définir son statut sur Planification.
+Dans les phases initiales d’un projet, il se peut que vous n’ayez pas encore déterminé si vous devez effectivement réaliser le projet. Il n’est peut-être pas rentable de le réaliser, ou vous n’avez peut-être pas les ressources nécessaires. Au cours de cette étape de planification, vous pouvez créer un projet dans Workfront sans ajouter de tâches et définir le statut sur planning.
 
-Pour plus d’informations sur la création de projet, consultez l’article [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
+Pour plus d’informations sur la création d’un projet, consultez l’article [Créer un projet](../../../manage-work/projects/create-projects/create-project.md).
 
-Posez-vous les questions suivantes avant de planifier un projet :
+Tenez compte des questions suivantes avant de planifier un projet :
 
 * Quels sont les objectifs obligatoires et lesquels sont facultatifs ?
-* Disposez-vous de suffisamment de temps pour atteindre tous les objectifs ou uniquement les objectifs principaux ?
-* Avez-vous assez de budget pour atteindre tous les objectifs maintenant ?
+* Disposez-vous de suffisamment de temps pour atteindre tous les objectifs ou seulement les objectifs principaux ?
+* Disposez-vous d’un budget suffisant pour atteindre tous les objectifs ?
 
-Effectuez le business case d’un projet pour définir vos objectifs et vous assurer que votre projet s’aligne sur la stratégie de votre entreprise.
+À l’aide du business case d’un projet, vous pouvez définir vos objectifs et vous assurer que votre projet s’aligne sur la stratégie de votre entreprise.
 
-Pour plus d’informations sur la définition d’un business case pour un projet, consultez l’article [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Pour plus d’informations sur la définition d’un business case pour un projet, reportez-vous à l’article [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Après avoir défini la portée globale du projet, vous pouvez déterminer si vous souhaitez lancer le projet et commencer à le planifier.
+Après avoir défini la portée globale du projet, vous pouvez déterminer si vous souhaitez entreprendre le projet et commencer à le planifier.
 
-## Planification préliminaire du projet
+## Planification préliminaire d’un projet
 
-* [Définir les dates de début et de fin du projet](#define-the-start-and-completion-date-of-the-project)
+* [Définir les dates de début et d’achèvement du projet](#define-the-start-and-completion-date-of-the-project)
 * [Définir le planning du projet](#define-the-project-schedule)
 * [Gérer les informations supplémentaires nécessaires à la planification du projet](#manage-additional-information-needed-for-planning-the-project)
 
-### Définir les dates de début et de fin du projet {#define-the-start-and-completion-date-of-the-project}
+### Définir les dates de début et d’achèvement du projet {#define-the-start-and-completion-date-of-the-project}
 
-Lorsque vous planifiez un projet, l’une des premières choses que vous devez déterminer est la chronologie : quand le projet peut-il commencer et quand doit-il se terminer ? Déterminez s’il existe une échéance fixe pour l’achèvement du projet ou si vous devez fixer un point de départ et lancer le projet.
+Lorsque vous planifiez un projet, l’une des premières choses que vous devez déterminer est la chronologie : la date à partir de laquelle le projet peut commencer et la date à laquelle il doit s’achever. Déterminez s’il existe une date limite pour l’achèvement du projet ou si vous devez fixer un point de départ et progresser à partir de là.
 
-Vous pouvez planifier un projet à partir d’une date de début ou d’une date de fin. Vous pouvez définir cet attribut lors de la création initiale du projet, et vous pouvez le modifier à tout moment en modifiant votre projet.
+Vous pouvez planifier un projet à partir d’une date de début ou d’une date d’achèvement. Vous pouvez spécifier cet attribut lors de la création du projet et le changer ultérieurement en modifiant les détails du projet.
 
 ### Définir le planning du projet {#define-the-project-schedule}
 
-Vous devez déterminer un planning et l’associer au projet, ainsi qu’aux personnes responsables de l’exécution des tâches du projet.
+Vous devez déterminer un planning et l’associer au projet, ainsi qu’aux utilisateurs et utilisatrices responsables de l’exécution des tâches du projet.
 
-Envisagez de définir les éléments suivants dans le planning :
+Envisagez de définir les éléments suivants dans un planning :
 
 * Vacances
 * Congés
-* Nombre d’heures disponibles pour le travail au cours d’une journée ou d’une semaine
+* Nombre d’heures disponibles pour travailler au cours d’une journée ou d’une semaine
 
-Il est important de savoir quand les personnes sont disponibles pour travailler afin de mieux suivre l’avancement des tâches de votre projet.
+Comprendre les plages de disponibilité des utilisateurs et des utilisatrices permet de mieux appréhender le statut de progression de vos tâches sur le projet.
 
 Vous pouvez créer plusieurs plannings de projet et appliquer un planning par défaut au projet. Des plannings personnalisés supplémentaires peuvent être appliqués à différentes personnes.
 
@@ -78,17 +78,17 @@ Pour plus d’informations sur les plannings, consultez l’article [Créer un p
 
 Lors de la planification d’un projet, d’autres informations doivent être configurées avant de pouvoir commencer à travailler sur le projet.
 
-Posez-vous les questions suivantes :
+Envisagez de poser les questions suivantes :
 
-* Existe-t-il une réglementation qui vous oblige à conserver un enregistrement des événements et des processus ? Si tel est le cas, quelles données devez-vous suivre ?\
-  Workfront vous permet d’enregistrer les modifications, les modifications de portée, les modifications de statut et les actions afin que vous puissiez vous conformer aux réglementations spécifiques à votre secteur d’activité.\
+* Y a-t-il une réglementation qui vous impose de conserver un enregistrement des événements et des processus ? Si tel est le cas, quels sont les éléments que vous avez l’obligation de suivre ?\
+  Workfront vous permet d’enregistrer les modifications, les changements de portée, les changements de statut et les actions afin que vous puissiez vous conformer aux réglementations spécifiques à votre secteur d’activité.\
   Pour plus d’informations sur la définition des mises à jour à suivre dans Workfront, consultez l’article [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-* Existe-t-il des informations pour lesquelles vous devez effectuer un suivi, mais qui n’ont pas de champ dédié dans Workfront pour les stocker ? Si tel est le cas, créez un formulaire personnalisé pour les projets ou les tâches dans lesquels vous pouvez stocker ces informations.\
+* Existe-t-il des informations que vous devez suivre et pour lesquelles il n’existe pas de champ de stockage dans Workfront ? Si oui, créez des formulaires personnalisés pour les projets ou les tâches dans lesquels vous pouvez stocker ces informations.\
   Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Existe-t-il des points de contrôle d’approbation qui doivent être accordés avant que le travail sur un projet puisse continuer ? Si oui, créez des processus d’approbation pour les projets ou les tâches que vous pouvez utiliser lors de la création de votre projet.\
-  Pour plus d’informations sur les processus d’approbation, voir l’article [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* Des points de contrôle d’approbation doivent-ils être accordés avant de pouvoir poursuivre le travail ? Si oui, créez des processus d’approbation pour les projets ou les tâches que vous pouvez utiliser lors de la création de votre projet.\
+  Pour plus d’informations sur la création de processus d’approbation, voir l’article [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Créer la chronologie du projet
 
@@ -99,30 +99,30 @@ Pour plus d’informations sur la création de tâches sur un projet, voir la se
 
 Tenez compte des points suivants lors de la création de la chronologie du projet :
 
-* Répartissez les objectifs plus importants entre des tâches enfants et définissez leurs dates de début et d’achèvement.
+* Répartissez les objectifs plus importants en tâches enfants et définissez leurs dates de début et d’achèvement.
 * Déterminez si vos objectifs dépendent d’autres objectifs.
 
-  Vous pouvez configurer ces dépendances comme des tâches antérieures.
+  Vous pouvez configurer ces dépendances en tant que tâches antérieures.
 
-  Par exemple, vous pouvez avoir un projet de construction d’un immeuble d’appartements. L’un de vos objectifs comprend la plomberie et un autre la préparation des fondations. L’une de vos tâches de plomberie consiste à se raccorder la canalisation d’eau de la ville et cela doit être fait avant de préparer les fondations. Cependant, la plupart des autres tâches de plomberie ne peuvent être effectuées qu’après la préparation des fondations. Dans ce cas, vous devez envisager d’utiliser des tâches antérieures pour savoir quand un objectif peut commencer une fois sa condition préalable terminée.
+  Par exemple, vous pouvez avoir un projet de construction d’un immeuble d’appartements. L’un de vos objectifs comprend la plomberie et l’autre les fondations. L&#39;une de vos tâches de plomberie consiste à se raccorder à la canalisation d’eau de la ville et cela doit être fait avant de faire les fondations. Cependant, la plupart des autres tâches de plomberie ne peuvent être effectuées qu’après les fondations. Dans ce cas, vous devez envisager d’utiliser des tâches antérieures pour savoir quand un objectif peut commencer une fois sa condition préalable terminée.
 
-  Lorsque vous utilisez des tâches parents pour organiser des objectifs, vous pouvez créer une tâche pour chaque objectif principal et ajouter des sous-tâches lorsque vous atteignez le stade de la répartition des objectifs principaux entre des tâches individuelles. Cela permet de conserver les tâches qui font partie de l’objectif organisé dans le projet.
+  Lorsque vous utilisez des tâches parents pour organiser des objectifs, vous pouvez créer une tâche pour chaque objectif principal et ajouter des sous-tâches lorsque vous atteignez le stade de la division des objectifs principaux en tâches individuelles. Cela permet de conserver les tâches qui font partie de l’objectif organisé dans le projet.
 
   Pour plus d’informations sur les tâches antérieures, voir [Vue d’ensemble des tâches antérieures](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-* Tenez compte des objectifs les plus importants pour votre projet et marquez-les comme des tâches jalons.
+* Tenez compte des objectifs les plus importants pour votre projet et marquez-les comme des tâches jalonnées.
 
-  Nous vous recommandons d’utiliser des tâches parents comme jalons.
+  Nous vous recommandons d’utiliser les tâches parents comme des jalons.
 
-  Pour plus d’informations sur l’utilisation de tâches jalons, voir [Créer un chemin jalonné](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Pour plus d’informations sur l’utilisation des tâches jalonnées, voir [Créer un chemin jalonné](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-* Définissez une chronologie pour chaque objectif. Si vous utilisez des tâches parentes, chaque tâche enfant doit avoir une date de début et une date d’achèvement définies. Le temps entre la première date de début d’une tâche et la dernière date d’achèvement d’une tâche sur le même projet donne la chronologie du projet.
+* Définissez une chronologie pour chaque objectif. Si vous utilisez des tâches parents, des dates de début et d’achèvement doivent être définies pour chaque tâche enfant. L’intervalle entre la première date de début et la dernière date d’achèvement d’une tâche sur le même projet donne la chronologie du projet.
 
 ## Définir des tâches {#define-tasks}
 
 Lorsque vous définissez les objectifs de votre projet et les tâches qui y sont associées, vous créez la chronologie du projet.
 
-Vous pouvez créer des tâches sur un projet de la manière suivante :
+Vous pouvez créer des tâches dans un projet des manières suivantes :
 
 * Ajoutez des tâches à un projet dans la modification en ligne.
 * Utilisez un modèle avec des tâches de modèle définies et ajoutez-le à votre projet.
@@ -141,17 +141,17 @@ Lors de la définition de tâches, tenez compte des points suivants :
 * Définissez la relation d’antériorité entre les tâches.
 * Associez un chemin jalonné au projet et associez un jalon à sa tâche respective.
 
-  Pour plus d’informations sur l’utilisation de tâches jalons, voir l’article [Créer un chemin jalonné](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Pour plus d’informations sur l’utilisation des tâches jalonnées, voir l’article [Créer un chemin jalonné](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Définissez la quantité de travail nécessaire pour terminer chaque tâche. Ceci est capturé dans le champ Nombre d’heures prévues de chaque tâche.
 
-  Pour plus d’informations sur les heures prévues, voir l’article [Vue d’ensemble des heures prévues](../../../manage-work/tasks/task-information/planned-hours.md).
+  Pour plus d’informations sur le nombre d’heures prévues, voir l’article [Vue d’ensemble du nombre d’heures prévues](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* Affectez chaque tâche à un utilisateur ou une utilisatrice ou à une équipe chargé de l’exécuter.
-* Vérifiez la disponibilité des utilisateurs et utilisatrices que vous affectez aux tâches. Assurez-vous qu’ils ou elles sont libres de travailler et non surchargés afin qu’ils ou elles puissent effectuer les tâches qui leur sont affectées. Si les utilisateurs et utilisatrices sont surchargés ou s’ils ou elles ont des congés dans leurs plannings, prenez l’une des mesures suivantes :
+* Attribuez chaque tâche à un utilisateur ou une utilisatrice ou à une équipe chargé de l’exécuter.
+* Vérifiez la disponibilité des utilisateurs et utilisatrices auxquels vous attribuez les tâches. Assurez-vous qu’ils ou elles sont libres de travailler et ne sont pas surchargés afin qu’ils ou elles puissent effectuer les tâches qui leur sont attribuées. Si les utilisateurs et utilisatrices sont surchargés ou s’ils ou elles ont de congés dans leurs plannings, tenez compte des points suivants :
 
    * Réduisez le nombre d’heures prévues de chaque tâche.
-   * Ajoutez d’autres utilisateurs et utilisatrices à une tâche pour vous assurer qu’elle peut être terminée dans le délai qui lui est alloué.
+   * Ajoutez d’autres personnes à une tâche pour vous assurer qu’elle peut être accomplie pendant le temps qui lui est atrribué.
    * Réaffectez les tâches aux utilisateurs et utilisatrices qui sont disponibles sans aucune autre contrainte.\
      Pour plus d’informations sur la planification des ressources de votre projet, voir l’article [Planification des ressources : index des articles](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Pour plus d’informations sur la planification de vos ressources pour accomplir le travail sur un projet, voir [Vue d’ensemble de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

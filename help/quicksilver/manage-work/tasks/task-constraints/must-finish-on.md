@@ -2,52 +2,52 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Présentation de la contrainte de tâche : Doit se terminer sur"
-description: Vous pouvez utiliser la contrainte de tâche À terminer le (MFO) pour planifier la fin d’une tâche à une date spécifique.
+title: '« Vue d’ensemble de la contrainte de tâche : Il Faut Finir Le »'
+description: Vous pouvez utiliser la contrainte de tâche Il Faut Finir Le (MFO) pour planifier la fin d’une tâche à une date spécifique.
 author: Alina
 feature: Work Management
 exl-id: 9e546a0f-7f7a-4f1c-9d9d-aa3cea377fdf
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble des contraintes de tâches : Doit se terminer le
+# Vue d’ensemble de la contrainte de tâche : Il Faut Finir Le
 
-Vous pouvez utiliser la contrainte de tâche À terminer le (MFO) pour planifier la fin d’une tâche à une date spécifique.
+Vous pouvez utiliser la contrainte de tâche Il Faut Finir Le (MFO) pour planifier la fin d’une tâche à une date spécifique.
 
-La contrainte Doit se terminer à la date et à l’heure spécifiées dans le champ **Date d’achèvement planifiée** .
+La contrainte Il Faut Finir Le planifie un tâche pour qu’elle se termine exactement à l’heure et à la date spécifiées dans le champ **Date d’achèvement prévue**.
 
 >[!TIP]
 >
->La mise à jour manuelle de la date d’achèvement planifiée d’une tâche modifie la contrainte de la tâche à l’état &quot;À terminer&quot;.
+>La mise à jour manuelle de la Date d’achèvement prévue d’une tâche modifie la contrainte de la tâche en lui donnant le statut Il Faut Finir Le.
 
-## Présentation de la contrainte de tâche À terminer
+## Vue d’ensemble de la contrainte de tâche Il Faut Finir Le
 
-Tenez compte de ce qui suit lors de la planification d’une tâche avec une contrainte Doit se terminer sur :
+Tenez compte de ce qui suit lors de la planification d’une tâche avec une contrainte Il Faut Finir Le :
 
-* Les relations avec le prédécesseur ne forcent pas la replanification de la tâche. Adobe Workfront ignore essentiellement les relations précédentes.
-* La tâche s’affiche sous la forme **À risque** si les prédécesseurs commencent à courir ou sont en retard.
+* Les relations de tâche antérieure ne forcent pas la replanification de la tâche. Adobe Workfront ignore pour l’essentiel les relations avec la tâche antérieure.
+* La tâche s’affiche comme **En danger** si les tâches antérieures commencent à prendre du retard ou sont en retard.
 
-* Lorsque vous déplacez ou copiez une tâche avec une contrainte MFO vers un autre projet, la contrainte de la tâche ou des dates du projet peut changer en fonction des dates de contrainte et des dates de début et de fin du projet. Les scénarios suivants sont possibles :
+* Lorsque vous déplacez ou copiez une tâche avec une contrainte MFO vers un autre projet, la contrainte de tâche ou les dates du projet peuvent changer en fonction des dates de contrainte et des dates de début et de fin du projet. Les scénarios suivants sont possibles :
 
-   * Lorsque le projet de destination est planifié à partir du début :
+   * Lorsque le projet de destination est planifié à partir du début :
 
-      * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la contrainte de tâche passe à Dès que possible.
-      * Lorsque la date de contrainte de la tâche est postérieure à la date de fin planifiée du projet, la date de fin prévue du projet est modifiée pour correspondre à la date de contrainte d’achèvement de la tâche.
+      * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la contrainte de tâche passe à Aussi Tôt Que Possible.
+      * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement prévue du projet, la date d’achèvement prévue du projet est modifiée pour correspondre à la date de contrainte d’achèvement de la tâche.
 
-      * Lorsque le projet de destination est planifié à partir de la fin :
+      * Lorsque le projet de destination est planifié à partir de l’achèvement :
 
-         * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement du projet, la contrainte de la tâche passe à Aussi tard que possible.
-         * Lorsque la date de contrainte de la tâche est antérieure à la date de début planifiée du projet, la date de début planifiée du projet change pour correspondre à la date de contrainte de début de la tâche.
+         * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement du projet, la contrainte de la tâche passe à Aussi Tard Que Possible.
+         * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la date de début prévue du projet change pour correspondre à la date de contrainte de début de la tâche.
 
-      * Quelle que soit la planification du projet, lorsque la date de contrainte de la tâche se trouve dans les dates de début et de fin du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
+      * Quel que soit le planning du projet, lorsque la date de contrainte de la tâche se trouve entre les dates de début et d’achèvement du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
 
-  Pour plus d’informations sur le déplacement des tâches, voir [Déplacer les tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mise à jour de la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

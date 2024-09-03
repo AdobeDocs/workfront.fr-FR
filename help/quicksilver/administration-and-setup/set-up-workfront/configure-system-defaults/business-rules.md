@@ -11,11 +11,11 @@ exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '1078'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Création et modification de règles de fonctionnement
+# Créer et modifier des règles métier
 
 Une règle de fonctionnement vous permet d’appliquer la validation aux objets Workfront et d’empêcher les utilisateurs de créer, modifier ou supprimer un objet lorsque certaines conditions sont remplies. Les règles métier permettent d’améliorer la qualité des données et l’efficacité opérationnelle en empêchant les actions susceptibles de compromettre l’intégrité des données.
 
@@ -42,7 +42,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr> 
-   <td>Forfait Adobe Workfront</td> 
+   <td>Formule Adobe Workfront</td> 
    <td>Final</td> 
   </tr> 
   <tr> 
@@ -50,13 +50,13 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <td>Standard</td> 
   </tr> 
   <tr> 
-   <td>Configurations du niveau d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td>Administrateur ou administratrice système</td> 
   </tr>  
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,7 +108,7 @@ IF(
 
    Si vous sélectionnez **Non**, la règle est enregistrée comme inactive et vous pouvez l’activer ultérieurement.
 
-1. Sélectionnez un **Déclencheur** pour la règle de fonctionnement. Les options sont les suivantes :
+1. Sélectionnez un **Déclencheur** pour la règle de fonctionnement. Les options sont les suivantes :
 
    * **Lors de la création de l’objet :** La règle est appliquée lorsqu’un utilisateur tente de créer un objet.
    * **Lors de la modification d’objet :** La règle est appliquée lorsqu’un utilisateur tente de modifier un objet.

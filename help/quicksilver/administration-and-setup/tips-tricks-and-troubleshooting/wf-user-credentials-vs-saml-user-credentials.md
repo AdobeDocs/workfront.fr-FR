@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Informations d’identification d’utilisateur Adobe Workfront et informations d’identification d’utilisateur SAML
-description: Après la création de l’utilisateur, vous pouvez modifier l’utilisateur et activer l’option "Autoriser uniquement l’authentification SAML 2.0" afin que son utilisateur et son mot de passe soient contrôlés par le système SAML. Lorsque cette option est activée, l’utilisateur n’est autorisé à se connecter que par SAML.
+description: Après la création de l’utilisateur ou de l’utilisatrice, vous pouvez modifier l’utilisateur ou l’utilisatrice et activer l’option « Autoriser uniquement l’authentification SAML 2.0 » afin que son utilisateur ou utilisatrice et son mot de passe soient contrôlés par le système SAML. Lorsque cette option est activée, l’utilisateur n’est autorisé à se connecter que par SAML.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,20 +12,20 @@ exl-id: faa55b09-10c3-48e6-8b39-33f9feb0a335
 source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
-# Informations d’identification de l’utilisateur Adobe Workfront et informations d’identification de l’utilisateur SAML
+# Informations d’identification de l’utilisateur ou utilisatrice Adobe Workfront et informations d’identification de l’utilisateur ou utilisatrice SAML
 
-Cet article se concentre spécifiquement sur [!DNL Adobe Workfront] et SAML et ne couvre pas d’autres méthodes d’authentification SSO.
+Cet article porte spécifiquement sur [!DNL Adobe Workfront] et SAML et ne couvre pas d’autres méthodes d’authentification SSO.
 
-Dans une base de données, [!DNL Workfront] stocke l’adresse électronique de chaque utilisateur comme nom d’utilisateur [!DNL Workfront], ainsi que son mot de passe [!DNL Workfront]. Ces informations d’identification sont répliquées dans les sandbox Aperçu et Actualisation personnalisée.
+Dans une base de données, [!DNL Workfront] stocke l’adresse e-mail des utilisateurs et utilisatrices comme leur nom d’utilisateur ou d’utilisatrice [!DNL Workfront], ainsi que leur mot de passe [!DNL Workfront]. Ces informations d’identification sont répliquées dans les sandbox de prévisualisation et d’actualisation personnalisée.
 
-Lors de la création de l’utilisateur, si [!DNL Workfront] détecte que SAML 2.0 est configuré, l’utilisateur dispose par défaut de l’option &quot;Autoriser uniquement l’authentification SAML 2.0&quot;. Si la case &quot;Envoyer un email d’invitation à cette personne&quot; est activée, [!DNL Workfront] désactive &quot;Uniquement autoriser l’authentification SAML 2.0&quot; et masque cette option. Une fois que l’option &quot;Envoyer un courrier électronique d’invitation à cette personne&quot; est activée, l’utilisateur devient un utilisateur [!DNL Workfront] non SAML.
+Lors de la création de l’utilisateur ou utilisatrice, si [!DNL Workfront] détecte que SAML 2.0 est configuré, il définit par défaut « Autoriser uniquement l’authentification SAML 2.0 » pour l’utilisateur ou l’utilisatrice. Si la case « Envoyer un e-mail d’invitation à cette personne » est cochée, [!DNL Workfront] désactive l’option « Autoriser uniquement l’authentification SAML 2.0 » et masque cette option. Une fois que l’option « Envoyer un e-mail d’invitation à cette personne » est activée, l’utilisateur ou l’utilisatrice devient un utilisateur ou une utilisatrice [!DNL Workfront] non SAML.
 
-Après la création de l’utilisateur, vous pouvez modifier l’utilisateur et activer l’authentification **[!UICONTROL Uniquement Autoriser l’authentification SAML 2.0]** afin que l’utilisateur et le mot de passe soient contrôlés par le système SAML.
+Après la création de l’utilisateur ou utilisatrice, vous pouvez le ou la modifier et activer **[!UICONTROL Autoriser uniquement l’authentification SAML 2.0]** afin que son utilisateur ou utilisatrice et son mot de passe soient contrôlés par le système SAML.
 
-Une fois cela fait, l’utilisateur peut se connecter uniquement via SAML. Lorsqu’ils accèdent à l’URL [!DNL Workfront], ils sont automatiquement redirigés vers le système SAML et invités à saisir leur nom d’utilisateur et leur mot de passe SAML.
+Une fois cela fait, l’utilisateur ou utilisatrice peut se connecter uniquement via SAML. Lorsque la personne accède à l’URL [!DNL Workfront], elle est automatiquement redirigée vers le système SAML et est invitée à saisir son nom d’utilisateur ou d’utilisatrice et son mot de passe SAML.
 
-Les informations d’identification SAML sont stockées dans un système SAML externe, tel que Microsoft des ADFS, et non dans Workfront.
+Les informations d’identification SAML sont stockées dans un système SAML externe, tel que l’ADFS de Microsoft, et non dans Workfront.

@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: fusion
+keywords: Fusion
 navigation-topic: workfront-fusion-navigation-topic
 title: Modèle de tableau d’accès à Fusion
 description: Modèle de tableau d’accès à Fusion
@@ -14,7 +14,7 @@ exl-id: 511c0831-a23f-4fbd-8c06-e4276c1c140d
 source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '13'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

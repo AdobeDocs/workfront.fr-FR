@@ -4,7 +4,7 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: États des tâches du système
-description: Les trois états de tâches système intégrés dans Workfront sont obligatoires, ce qui signifie que vous pouvez les déverrouiller, les renommer et les réorganiser, mais vous ne pouvez pas les masquer ni les supprimer. Vous pouvez également ajouter de nouveaux états de tâches système pour répondre aux besoins de votre entreprise. La modification de l’état d’une tâche est généralement un processus manuel, mais parfois l’état d’une tâche est modifié automatiquement, en fonction d’autres facteurs qui se produisent dans le système.
+description: Les trois statuts de tâches du système intégrés dans Workfront sont obligatoires, ce qui signifie que vous pouvez les déverrouiller, les renommer et les réorganiser, mais vous ne pouvez pas les masquer ou les supprimer. Vous pouvez également ajouter de nouveaux statuts de tâches du système pour répondre aux besoins de votre organisation. La modification du statut d’une tâche est généralement un processus manuel, mais il arrive que le statut d’une tâche soit modifié automatiquement, en fonction d’autres facteurs intervenant dans le système.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,19 +12,19 @@ exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
 source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
-# Statuts des tâches du système
+# Statuts de tâches du système
 
-Les trois états de tâches système intégrés dans Workfront sont obligatoires, ce qui signifie que vous pouvez les déverrouiller, les renommer et les réorganiser, mais vous ne pouvez pas les masquer ni les supprimer.
+Les trois statuts de tâches du système intégrés dans Workfront sont obligatoires, ce qui signifie que vous pouvez les déverrouiller, les renommer et les réorganiser, mais vous ne pouvez pas les masquer ou les supprimer.
 
-Vous pouvez également ajouter de nouveaux états de tâches système pour répondre aux besoins de votre entreprise.
+Vous pouvez également ajouter de nouveaux statuts de tâches du système pour répondre aux besoins de votre organisation.
 
-La modification de l’état d’une tâche est généralement un processus manuel. Cependant, certains moments sont décrits dans la liste suivante lorsque l’état d’une tâche est automatiquement modifié, en fonction d’autres facteurs qui se produisent dans le système.
+La modification du statut d’une tâche est généralement un processus manuel. Toutefois, dans certains cas décrits dans la liste suivante, le statut d’une tâche est modifié automatiquement, en fonction d’autres facteurs intervenant dans le système.
 
-Les états de tâche suivants sont fournis avec votre instance Workfront :
+Les statuts de tâches suivants sont fournis avec votre instance Workfront :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,26 +32,26 @@ Les états de tâche suivants sont fournis avec votre instance Workfront :
  <col> 
  <thead> 
   <tr> 
-   <th>Statut de la tâche système</th> 
-   <th>Lorsque cet état se produit</th> 
-   <th>Actions qui se produisent lorsqu’une tâche est dans cet état</th> 
+   <th>Statut de tâche du système</th> 
+   <th>Lorsque ce statut se produit :</th> 
+   <th>Actions qui se produisent lorsqu’une tâche a ce statut :</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Nouveau (état requis)</td> 
-   <td>Il s’agit de l’état par défaut de chaque tâche nouvellement créée.</td> 
-   <td>Si la tâche se trouve sur un projet dont l’état est Actuel, la tâche s’affiche dans l’onglet Requêtes de travail des utilisateurs affectés aux tâches. Les utilisateurs peuvent maintenant commencer à travailler sur la tâche.</td> 
+   <td>Nouveau (statut obligatoire)</td> 
+   <td>Il s’agit du statut par défaut de toute tâche qui vient d’être créée.</td> 
+   <td>Si la tâche se trouve dans un projet dont le statut est Actuel, la tâche s’affiche dans l’onglet Demandes de travail des utilisateurs et utilisatrices affectés aux tâches. Les utilisateurs et utilisatrices peuvent maintenant commencer à travailler sur la tâche.</td> 
   </tr> 
   <tr> 
-   <td>En cours (statut requis)</td> 
-   <td>Vous pouvez placer une tâche dans cet état pour indiquer que le travail sur cette tâche a commencé.</td> 
-   <td> <p>Lorsque vous marquez une tâche comme En cours, la tâche affiche une valeur pour la Date de début réelle.</p> <p>L’état d’avancement de la tâche n’est pas enregistré tant que vous n’avez pas mis à jour manuellement le pourcentage d’achèvement de la tâche.</p> </td> 
+   <td>En cours (statut obligatoire)</td> 
+   <td>Vous pouvez donner ce statut à une tâche pour indiquer que le travail sur cette tâche a commencé.</td> 
+   <td> <p>Lorsque vous marquez une tâche comme En cours, la tâche affiche une valeur pour la date de début effective.</p> <p>La progression de la tâche n’est pas enregistrée tant que vous n’avez pas mis à jour manuellement le pourcentage terminé de la tâche.</p> </td> 
   </tr> 
   <tr> 
-   <td>Terminé (état requis)</td> 
-   <td> <p>Vous pouvez marquer manuellement la fin d’une tâche lorsque celle-ci est terminée.</p> <p>Lorsque le mode de suivi d’une tâche est défini sur Terminé automatiquement, la tâche est automatiquement marquée Terminée lorsqu’elle atteint la Date d’achèvement planifiée.</p> </td> 
-   <td> <p>Lorsqu’une tâche est terminée, le pourcentage d’achèvement de la tâche est marqué comme 100 %. La tâche est supprimée de la liste de travail de la personne désignée dans la zone Accueil une fois qu’elle est terminée.</p> <p>Lorsque vous marquez une tâche comme terminée, la tâche affiche une valeur pour la Date de fin réelle.</p> <p><b>REMARQUE</b> : si la tâche présente des problèmes incomplets et que vous définissez l’état de la tâche sur Terminé, l’état passe automatiquement à Terminé - Problèmes en attente.</p> </td> 
+   <td>Terminée (statut obligatoire)</td> 
+   <td> <p>Vous pouvez marquer manuellement une tâche comme terminée lorsque le travail est achevé.</p> <p>Lorsque le mode de suivi d’une tâche est défini sur Achèvement automatique, la tâche est automatiquement marquée comme terminée lorsqu’elle atteint la date d’achèvement prévue.</p> </td> 
+   <td> <p>Lorsqu’une tâche est achevée, le pourcentage terminé de la tâche apparaît sur 100 %. La tâche est supprimée de la liste de travail de la personne assignée dans la zone d’accueil lorsqu’elle est terminée.</p> <p>Lorsque vous marquez une tâche comme Terminée, la tâche affiche une valeur pour la date d’achèvement effective.</p> <p><b>NOTE</b> : si la tâche a des problèmes incomplets et que vous changez le statut de la tâche sur Terminée, le statut devient automatiquement Terminée - Problèmes en attente.</p> </td> 
   </tr> 
  </tbody> 
 </table>

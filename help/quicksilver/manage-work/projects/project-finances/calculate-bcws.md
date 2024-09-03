@@ -3,72 +3,72 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculer le coût budgété du travail prévu (BCWS)
-description: Également appelé Valeur planifiée, le coût budgété du travail planifié (BCWS) est une mesure de performances du projet qui représente le montant de la tâche qui doit être terminée au moment où cette mesure est calculée.
+description: Également appelé Valeur prévue, le coût budgété du travail prévu (BCWS) est une mesure de performances du projet qui représente le montant de la tâche qui devrait avoir été achevée au moment où cette mesure est calculée.
 author: Alina
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
 source-git-commit: 1d5de5ff0ebebd84482507c71730cfbd05c513a5
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
 # Calculer le coût budgété du travail prévu (BCWS)
 
-## Présentation du coût des travaux planifiés (BCWS)
+## Vue d’ensemble du coût budgété du travail prévu (BCWS)
 
-Également appelé Valeur planifiée, le coût budgété du travail planifié (BCWS) est une mesure de performances du projet qui représente le montant de la tâche qui doit être terminée au moment où cette mesure est calculée.
+Également appelé Valeur prévue, le coût budgété du travail prévu (BCWS) est une mesure de performances du projet qui représente le montant de la tâche qui devrait avoir été achevée au moment où cette mesure est calculée.
 
-Adobe Workfront calcule le coût du travail planifié (BCWS) budgété pour les projets et les tâches.
+Adobe Workfront calcule le coût budgété du travail prévu (BCWS) pour les projets et les tâches.
 
-Tenez compte de ce qui suit lorsque vous passez en revue les valeurs du BCWS sur une tâche ou un projet :
+Tenez compte des éléments suivants lorsque vous passez en revue les valeurs du coût budgété du travail prévu sur une tâche ou un projet :
 
-* Workfront calcule le BCWS d’une tâche en fonction de votre configuration pour la méthode d’index de performance (PIM) du projet.
+* Workfront calcule le coût budgété du travail prévu d’une tâche en fonction de votre configuration de la méthode d’indice de performances (PIM) du projet.
 
-  Vous pouvez configurer votre projet pour calculer le PIM en heures ou en coûts, et le BCWS est également calculé à l’aide des mêmes valeurs.
+  Vous pouvez configurer votre projet pour calculer la PIM en heures ou en coûts, et le coût budgété du travail prévu est également calculé à l’aide des mêmes valeurs.
 
-  Pour plus d’informations sur la configuration du mode de calcul du BCWS, consultez la section [Configuration du mode de calcul du BCWS](#configure-how-bcws-is-calculated) de cet article.
+  Pour plus d’informations sur la configuration du mode de calcul du BCWS, consultez la section [Configurer le calcul du BCWS](#configure-how-bcws-is-calculated) de cet article.
 
-* Workfront calcule le BCWS d’un projet en ajoutant toutes les valeurs du BCWS de toutes les tâches parentes et des tâches individuelles du projet.
+* Workfront calcule le BCWS d’un projet en ajoutant toutes les valeurs du BCWS de toutes les tâches parents et des tâches individuelles du projet.
 
   Les valeurs des tâches enfants ne sont pas ajoutées au BCWS du projet.
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p>Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Accès en modification aux projets</p> <p>Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations de gestion pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## Configuration du calcul du BCWS {#configure-how-bcws-is-calculated}
+## Configurer le mode de calcul du BCWS {#configure-how-bcws-is-calculated}
 
-Vous pouvez configurer le calcul du BCWS en heures ou en coûts en configurant la méthode de calcul de l’index de performance (PIM) du projet.
+Vous pouvez configurer le mode de calcul du BCWS en heures ou en coûts en configurant la méthode d’indice de performances (PIM) du projet.
 
 1. Accédez à un projet et cliquez sur **Détails du projet** dans le panneau de gauche.
-1. Dans la zone **Finance**, recherchez le champ **Méthode d’index de performance** et double-cliquez dessus pour le modifier.
+1. Dans la zone **Finances**, recherchez la **Méthode d’indice de performances** et double-cliquez dessus pour la modifier.
 
    ![](assets/pim-options-hour-cost-based-nwe.png)
 
@@ -76,17 +76,17 @@ Vous pouvez configurer le calcul du BCWS en heures ou en coûts en configurant l
 
    | Option | Exécution du calcul |
    |---|---|
-   | Basé sur les heures | Workfront calcule le BCWS à l’aide des Heures planifiées des tâches. |
-   | Basé sur les coûts | Workfront calcule le CWS à l’aide du coût planifié des tâches. |
+   | Basé sur les heures | Workfront calcule le BCWS à l’aide du nombre d’heures prévues des tâches. |
+   | Basé sur les coûts | Workfront calcule le BCWS à l’aide du coût prévu des tâches. |
 
 
 1. Cliquez sur **Enregistrer les modifications**.
 
    Le BCWS des tâches sur le projet est calculé en heures ou en coûts.
 
-## Calculer BCWS
+## Calculer le BCWS
 
-Workfront calcule le coût du travail planifié (BCWS) budgété pour les tâches ou les projets à l’aide des formules suivantes :
+Workfront calcule le coût budgété du travail prévu (BCWS) pour les tâches ou les projets à l’aide des formules suivantes :
 
 ```
 Task BCWS = Planned Percent Complete x Task Budget
@@ -96,28 +96,28 @@ Task BCWS = Planned Percent Complete x Task Budget
 Project BCWS = SUM(BCWS values of all parent and individual tasks)
 ```
 
-Les valeurs utilisées dans ce calcul sont les suivantes :
+Les valeurs utilisées dans ce calcul sont les suivantes :
 
 | Valeur utilisée | Description de la valeur utilisée |
 |---|---|
-| Pourcentage prévu terminé | C&#39;est ce que devrait être le pourcentage de réalisation de la tâche en regardant le temps écoulé entre le début de la tâche et aujourd&#39;hui. |
-| Budget des tâches | Il s’agit de la valeur de Heures planifiées ou Coût planifié de la tâche. |
+| Pourcentage terminé prévu | Il s’agit du pourcentage terminé prévu de la tâche en fonction du temps écoulé entre le début de la tâche et aujourd’hui. |
+| Budget de la tâche | Il s’agit de la valeur du nombre d’heures prévues ou du coût prévu de la tâche. |
 
-Par exemple, si nous sommes le 12 février aujourd’hui et qu’une tâche est planifiée pour durer du 10 au 20 février, la tâche doit être terminée à 20 % aujourd’hui. Si le budget de la tâche (coût planifié) est de 10 000 $, le CWS de la tâche est :
+Par exemple, si nous sommes aujourd’hui le 12 février et qu’une tâche est programmée du 10 au 20 février, le pourcentage terminé de la tâche doit être de 20 % à la date d’aujourd’hui. Si le budget de la tâche (coût prévu) est de 10 000 €, le BCWS de la tâche est de :
 
 ```
 Task BCWS = 20% x $10,000 = $2,000
 ```
 
-## Localisation du BCWS pour un projet ou une tâche
+## Localiser le BCWS pour un projet ou une tâche
 
-Vous pouvez afficher la valeur du Coût budgétaire des travaux planifiés dans un rapport ou une liste, en ajoutant la colonne BCWS à votre vue.
+Vous pouvez afficher la valeur du Coût budgété du travail prévu dans un rapport ou une liste, en ajoutant la colonne BCWS à votre vue.
 
 1. Accédez à une liste de tâches ou de projets.
-1. Développez le menu **Affichage** et sélectionnez **Nouvelle vue** ou **Personnaliser la vue**.
+1. Développez le menu **Vue** et sélectionnez **Nouvelle vue** ou **Personnaliser la vue**.
 
 1. Cliquez sur **Ajouter une colonne**.
-1. Dans le champ **Afficher dans cette colonne :**, commencez à saisir **BCWS** et cliquez pour le sélectionner lorsqu’il s’affiche dans la liste.
+1. Dans le champ **Afficher dans cette colonne :**, commencez à saisir **BCWS** et cliquez dessus pour le sélectionner lorsqu’il s’affiche dans la liste.
 
    ![](assets/bcws-in-project-view.png)
 

@@ -20,7 +20,7 @@ ht-degree: 93%
 Cette section contient les articles suivants :
 
 * [Se connecter à  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
-* [Se déconnecter de  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
+* [Se déconnecter d’ [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
 * [Recevoir des invitations par e-mail et créer un mot de passe pour  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
 * [Créer un compte dans  [!DNL Adobe Workfront]  en tant qu’utilisateur ou utilisatrice externe](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
 * [Réinitialiser votre mot de passe](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)

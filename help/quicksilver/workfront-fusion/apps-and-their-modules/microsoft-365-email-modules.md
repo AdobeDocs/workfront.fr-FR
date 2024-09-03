@@ -2,10 +2,10 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: Connecteur
+keywords: connecteur
 navigation-topic: apps-and-their-modules
-title: E-mail Microsoft Office 365
-description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent la messagerie e-mail Microsoft Office 365, ainsi que les connecter à plusieurs applications et services tiers.
+title: Messagerie e-mail Microsoft Office 365
+description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez automatiser les workflows qui utilisent la messagerie e-mail Microsoft Office 365, ainsi que la connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
@@ -18,25 +18,25 @@ ht-degree: 82%
 
 # Modules [!DNL Microsoft Office 365 Email]
 
-Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent la [!UICONTROL messagerie e-mail Microsoft Office 365], ainsi que les connecter à plusieurs applications et services tiers.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent la [!UICONTROL messagerie e-mail Microsoft Office 365], ainsi que la connecter à plusieurs applications et services tiers.
 
-Pour utiliser la messagerie e-mail Microsoft Office 365 avec , il est nécessaire de disposer d’un compte Office 365. [!DNL Adobe Workfront Fusion] Rendez-vous sur www.office.com pour en créer un.
+Pour utiliser la [!UICONTROL messagerie e-mail Microsoft Office 365] avec [!DNL Adobe Workfront Fusion], il est nécessaire de disposer d’un [!UICONTROL compte Office 365]. Rendez-vous sur www.office.com pour en créer un.
 
-Pour savoir comment connecter votre compte [!UICONTROL Office 365] à [!DNL Workfront Fusion], voir [Créer une connexion à  [!DNL Adobe Workfront Fusion]  - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md).
+Pour savoir comment connecter votre compte [!UICONTROL Office 365] à [!DNL Workfront Fusion], consultez la section [Créer une connexion à  [!DNL Adobe Workfront Fusion]  - Instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md).
 
 Après avoir donné votre accord, vous faites l’objet d’une redirection vers la page d’administration de [!UICONTROL Workfront Fusion] où vous pouvez continuer l’élaboration de votre scénario.
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
-  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td>
+  <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
@@ -45,33 +45,33 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelle: aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigences de licence actuelles : aucune exigence de licence [!DNL Workfront Fusion] requise.</p>
    <p>Ou</p>
-   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait  [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter  et  pour utiliser les fonctionnalités décrites dans cet article. [!DNL Adobe Workfront][!DNL Adobe Workfront Fusion][!DNL Adobe Workfront]. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
-Pour utiliser des modules [!DNL Microsoft Office 365 Email], vous devez disposer d’un compte [!DNL Microsoft Office 365 Email].
+Pour utiliser les modules [!DNL Microsoft Office 365 Email], vous devez disposer d’un compte [!DNL Microsoft Office 365 Email].
 
 
 
-## Connexion du service [!DNL Office 365 Email] à [!DNL Workfront Fusion]
+## Connexion du service [!DNL Office 365 Email] à [!DNL Workfront Fusion].
 
 Pour obtenir des instructions sur la connexion de votre compte [!DNL Office 365 Email] à [!UICONTROL Workfront Fusion], voir [Créer une connexion à [!UICONTROL Adobe Workfront Fusion] : instructions de base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -83,9 +83,9 @@ Pour obtenir des instructions sur la connexion de votre compte [!DNL Office 365 
 
 ## Modules [!DNL Microsoft Office 365 Email] et leurs champs
 
-Lorsque vous configurez des [!DNL Microsoft Office 365 Email]modules ,[!DNL Workfront Fusion]  affiche les champs répertoriés ci-dessous. Des champs  supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. [!DNL Microsoft Office 365 Email] Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez les modules [!DNL Microsoft Office 365 Email], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces derniers, des champs [!DNL Microsoft Office 365 Email] supplémentaires peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez la section [Mapper des informations d’un module à l’autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -115,7 +115,7 @@ Crée et envoie un e-mail.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Pour savoir comment connecter votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subject]</td> 
@@ -131,7 +131,7 @@ Crée et envoie un e-mail.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Importance]</td> 
-   <td> <p>Sélectionner l’importance de l’e-mail</p> 
+   <td> <p>Sélectionnez l’importance de l’e-mail</p> 
     <ul> 
      <li>[!UICONTROL Low]</li> 
      <li>[!UICONTROL Normal]</li> 
@@ -142,7 +142,7 @@ Crée et envoie un e-mail.
    <td role="rowheader"> <p>[!UICONTROL To Recipients]</p> </td> 
    <td> <p>Ajoutez l’adresse e-mail à laquelle vous souhaitez envoyer les messages :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -150,7 +150,7 @@ Crée et envoie un e-mail.
    <td role="rowheader"> <p>[!UICONTROL CC Recipients]</p> </td> 
    <td> <p>Ajoutez les personnes destinataires qui doivent recevoir une copie du message :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -158,7 +158,7 @@ Crée et envoie un e-mail.
    <td role="rowheader"> <p>[!UICONTROL Bcc Recipients]</p> </td> 
    <td> <p>Ajoutez les personnes destinataires que vous souhaitez mettre en copie du message, dont l’adresse e-mail sera masquée des autres personnes destinataires :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -172,7 +172,7 @@ Crée et envoie un e-mail.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Internet Message Headers]</td> 
-   <td> <p>Ajoutez les en-têtes du message.</p> 
+   <td> <p>Ajouter les en-têtes du message.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom de l’en-tête</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez une valeur pour l’en-tête.</p> </li> 
@@ -191,7 +191,7 @@ Crée et envoie un e-mail.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Pour savoir comment connecter votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subject]</td> 
@@ -207,7 +207,7 @@ Crée et envoie un e-mail.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Importance]</td> 
-   <td> <p>Sélectionner l’importance de l’e-mail</p> 
+   <td> <p>Sélectionnez l’importance de l’e-mail</p> 
     <ul> 
      <li>[!UICONTROL Low]</li> 
      <li>[!UICONTROL Normal]</li> 
@@ -218,7 +218,7 @@ Crée et envoie un e-mail.
    <td role="rowheader"> <p>[!UICONTROL To Recipients]</p> </td> 
    <td> <p>Ajoutez l’adresse e-mail à laquelle vous souhaitez envoyer les messages :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -226,7 +226,7 @@ Crée et envoie un e-mail.
    <td role="rowheader"> <p>[!UICONTROL CC Recipients]</p> </td> 
    <td> <p>Ajoutez les personnes destinataires qui doivent recevoir une copie du message :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -234,7 +234,7 @@ Crée et envoie un e-mail.
    <td role="rowheader"> <p>[!UICONTROL Bcc Recipients]</p> </td> 
    <td> <p>Ajoutez les personnes destinataires que vous souhaitez mettre en copie du message, dont l’adresse e-mail sera masquée des autres personnes destinataires :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -248,7 +248,7 @@ Crée et envoie un e-mail.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Internet Message Headers]</td> 
-   <td> <p>Ajoutez les en-têtes du message.</p> 
+   <td> <p>Ajouter les en-têtes du message.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom de l’en-tête</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez une valeur pour l’en-tête.</p> </li> 
@@ -258,7 +258,7 @@ Crée et envoie un e-mail.
    <td> <p> Pour utiliser une adresse email partagée, saisissez l'adresse ici. L’utilisateur dont les informations d’identification sont utilisées dans la connexion utilisée pour ce module doit avoir accès au dossier partagé.<p>Laissez ce champ vide pour utiliser l’adresse électronique du propriétaire de la connexion.</p></p> </td> 
   </tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -323,7 +323,7 @@ Déplace un e-mail vers un dossier sélectionné de la boîte de réception.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Pour savoir comment connecter votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Message ID]</td> 
@@ -358,7 +358,7 @@ Permet de rechercher des messages sur la base de critères spécifiques.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Saisissez votre requête. Pour plus d’informations sur la manière d’écrire une requête de recherche, voir l’article du support [!DNL Microsoft] <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Rechercher des courriers et des personnes dans [!DNL Outlook.com]</a>.</td> 
+   <td>Saisissez votre requête de recherche. Pour plus d’informations sur la manière d’écrire une requête de recherche, voir l’article de support [!DNL Microsoft] <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Rechercher des courriers et des personnes dans [!DNL Outlook.com]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Order by]</td> 
@@ -372,7 +372,7 @@ Permet de rechercher des messages sur la base de critères spécifiques.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Saisissez le nombre maximum de messages que [!DNL Workfront Fusion] doit renvoyer au cours d’un cycle d’exécution de scénario.</p> </td> 
+   <td> <p>Saisissez le nombre maximum de messages que [!DNL Workfront Fusion] doit renvoyer pendant un cycle d’exécution de scénario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -387,7 +387,7 @@ Se déclenche lors de la réception ou de l’envoi d’un e-mail.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Pour savoir comment connecter votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour savoir comment connecter votre compte [!DNL Office 365] à [!DNL Workfront Fusion], consultez la section <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Watch Messages]</p> </td> 
@@ -404,11 +404,11 @@ Se déclenche lors de la réception ou de l’envoi d’un e-mail.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Saisissez votre requête. Pour plus d’informations sur la manière d’écrire une requête, voir l’article du support [!DNL Microsoft] <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Rechercher des courriers et des personnes dans [!DNL Outlook.com]</a>.</td> 
+   <td>Saisissez votre requête de recherche. Pour plus d’informations sur la manière d’écrire une requête de recherche, voir l’article de support [!DNL Microsoft] <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Rechercher des courriers et des personnes dans [!DNL Outlook.com]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Saisissez le nombre maximum de messages que [!DNL Workfront Fusion] doit renvoyer au cours d’un cycle d’exécution de scénario.</p> </td> 
+   <td> <p>Saisissez le nombre maximum de messages que [!DNL Workfront Fusion] doit renvoyer pendant un cycle d’exécution de scénario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -429,7 +429,7 @@ Permet de créer un e-mail.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Pour savoir comment connecter votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subject]</td> 
@@ -445,7 +445,7 @@ Permet de créer un e-mail.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Importance]</td> 
-   <td> <p>Sélectionner l’importance de l’e-mail</p> 
+   <td> <p>Sélectionnez l’importance de l’e-mail</p> 
     <ul> 
      <li>[!UICONTROL Low]</li> 
      <li>[!UICONTROL Normal]</li> 
@@ -456,7 +456,7 @@ Permet de créer un e-mail.
    <td role="rowheader"> <p>[!UICONTROL To Recipients]</p> </td> 
    <td> <p>Ajoutez les personnes destinataires auxquelles vous souhaitez envoyer les messages :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -464,15 +464,15 @@ Permet de créer un e-mail.
    <td role="rowheader"> <p>[!UICONTROL CC Recipients]</p> </td> 
    <td> <p>Ajoutez les personnes destinataires qui doivent recevoir une copie du message :</p> 
     <ul> 
-     <li> <p><strong>Nom</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>Nom</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>Adresse e-mail</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Personnes destinataires Cci</p> </td> 
+   <td role="rowheader"> <p>Destinataires Cci</p> </td> 
    <td> <p>Ajoutez les personnes destinataires que vous souhaitez mettre en copie du message, dont l’adresse e-mail sera masquée des autres personnes destinataires :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -548,7 +548,7 @@ Met à jour un message existant.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Importance]</td> 
-   <td> <p>Sélectionner l’importance de l’e-mail</p> 
+   <td> <p>Sélectionnez l’importance de l’e-mail</p> 
     <ul> 
      <li>[!UICONTROL Low]</li> 
      <li>[!UICONTROL Normal]</li> 
@@ -559,7 +559,7 @@ Met à jour un message existant.
    <td role="rowheader"> <p>[!UICONTROL To Recipients]</p> </td> 
    <td> <p>Ajoutez l’adresse e-mail à laquelle vous souhaitez envoyer les messages :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -567,7 +567,7 @@ Met à jour un message existant.
    <td role="rowheader"> <p>[!UICONTROL CC Recipients]</p> </td> 
    <td> <p>Ajoutez les personnes destinataires qui doivent recevoir une copie du message :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -575,7 +575,7 @@ Met à jour un message existant.
    <td role="rowheader"> <p>[!UICONTROL Bcc Recipients]</p> </td> 
    <td> <p>Ajoutez les personnes destinataires que vous souhaitez mettre en copie du message, dont l’adresse e-mail sera masquée des autres personnes destinataires :</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisir le nom du contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Saisissez le nom du contact.</p> </li> 
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Saisissez l’adresse e-mail du contact.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -695,11 +695,11 @@ Ce module vous permet d’effectuer un appel API personnalisé.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Pour savoir comment connecter votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
+   <td> <p>Pour les instructions concernant la connexion de votre compte [!DNL Office 365] à [!DNL Workfront Fusion], voir <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Créer une connexion à [!DNL Adobe Workfront Fusion] - Instructions de base</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Saisissez un chemin d’accès relatif à . <code>https://graph.microsoft.com</code> Exemple :<code> /v1.0/me/messages</code></p> </td> 
+   <td> <p>Saisissez un chemin relatif à <code>https://graph.microsoft.com</code>. Exemple :<code> /v1.0/me/messages</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
@@ -707,15 +707,15 @@ Ce module vous permet d’effectuer un appel API personnalisé.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Ajoutez les en-têtes de la requête sous la forme d’un objet JSON standard, par exemple . <code>{"Content-type":"application/json"}</code> [!DNL Workfront Fusion] ajoute les en-têtes d’autorisation pour vous.</p> </td> 
+   <td> <p>Ajoutez les en-têtes de la requête sous la forme d’un objet JSON standard. Par exemple : <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] ajoute les en-têtes d’autorisation.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p> Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> </td> 
+   <td> <p> Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note :  <p>Lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre fichier JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

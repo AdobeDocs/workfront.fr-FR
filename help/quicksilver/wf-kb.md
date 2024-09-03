@@ -6,7 +6,7 @@ description: .
 source-git-commit: b326ae3023b32ace7b1f5d4584de20cab89cdbe5
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 18%
 # Base de connaissances Workfront
 
 * [Administration et configuration](administration-and-setup/administration-and-setup.md)
-* [Principes de base d’Adobe Workfront](workfront-basics/workfront-basics.md)
+* [Concepts de base d’Adobe Workfront](workfront-basics/workfront-basics.md)
 * [Personnes, équipes et groupes](people-teams-and-groups/people-teams-and-groups.md)
 * [Gérer les ressources](resource-mgmt/manage-resources.md)
 * [Agile](agile/agile.md)
 * [Gérer le travail](manage-work/manage-work.md)
-* [Réviser et approuver le travail](review-and-approve-work/review-and-approve-work.md)
+* [Vérifier et approuver un travail](review-and-approve-work/review-and-approve-work.md)
 * [Documents](documents/documents-overview.md)
 * [Rapports](reports-and-dashboards/reports-and-dashboards-overview.md)
 
@@ -27,8 +27,8 @@ ht-degree: 18%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 
-* [Fiches horaires : index de l’article](timesheets/timesheets-all.md)
-* [Intégrations Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
+* [Feuilles de temps : index des articles](timesheets/timesheets-all.md)
+* [Intégrations Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Workfront Proof](workfront-proof/workfront-proof.md)
 * [Annonces sur les produits](product-announcements/product-announcements.md)

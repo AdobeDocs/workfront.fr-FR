@@ -3,319 +3,319 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: Profils d’autorisations d’épreuve dans l’épreuve Workfront
-description: En tant qu’administrateur Workfront ou administrateur Workfront Proof, vous pouvez affecter un profil d’autorisations de BAT à un utilisateur afin de spécifier les fonctionnalités de vérification que l’utilisateur aura pour tous les bons à tirer du système. Pour plus d’informations sur la configuration du profil d’autorisation de BAT d’un utilisateur, voir Configuration du profil d’autorisation de BAT d’un utilisateur dans Workfront Proof .
+title: Profils des autorisations d’épreuve dans Workfront Proof
+description: En tant que personne membre de l’administration Workfront ou de l’administration Workfront Proof, vous pouvez assigner un profil d’autorisation pour l’épreuve à un utilisateur ou à une utilisatrice afin de spécifier ses droits pour toutes les épreuves du système. Pour plus d’informations sur la configuration du profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice, consultez la section « Configurer le profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice dans Workfront Proof ».
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
 source-wordcount: '1764'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Profils d’autorisations de BAT dans [!DNL Workfront Proof]
+# Profils d’autorisation pour l’épreuve dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-En tant qu’administrateur [!DNL Workfront] ou [!DNL Workfront Proof], vous pouvez affecter un profil d’autorisations de BAT à un utilisateur afin de spécifier les fonctionnalités de vérification que l’utilisateur aura pour tous les bons à tirer du système. Pour plus d’informations sur la configuration du profil d’autorisation de BAT d’un utilisateur, voir [Configuration du profil d’autorisation de BAT d’un utilisateur dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md).
+En tant que personne membre de l’administration [!DNL Workfront] ou de l’administration [!DNL Workfront Proof], vous pouvez assigner un profil d’autorisation pour l’épreuve à un utilisateur ou à une utilisatrice afin de spécifier ses droits pour toutes les épreuves du système. Pour plus d’informations sur la configuration du profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice, consultez la section [Configurer le profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md).
 
 >[!NOTE]
 >
->Vous pouvez également effectuer les opérations suivantes :
+>Vous pouvez également effectuer les opérations suivantes :
 >
->* Octroi aux utilisateurs de rôles spécifiques sur des bons à tirer individuels. Pour plus d’informations sur les rôles de BAT, voir [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
->* Créez des profils personnalisés pour les utilisateurs de votre entreprise. Pour plus d’informations, voir [Configuration de profils personnalisés dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+>* Accorder aux utilisateurs et aux utilisatrices des rôles spécifiques sur des épreuves individuelles. Pour plus d’informations sur les rôles d’épreuve, consultez la section [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+>* Créez des profils personnalisés pour les utilisateurs et utilisatrices de votre organisation. Pour plus d’informations, consultez la section [Configurer des profils personnalisés dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
 >
 
-Le tableau suivant affiche les autorisations disponibles pour chaque profil d’autorisations de BAT.
+Le tableau suivant présente les autorisations disponibles pour chaque profil d’autorisation pour l’épreuve.
 
-| **Éléments propres** |  |  |  |  | **Autres éléments d’utilisateurs** |  |  | **Admin** | **Facturation** |
+| **Éléments propres** |  |  |  |  | **Éléments d’autres utilisateurs et utilisatrices** |  |  | **Administration** | **Facturation** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **Ajouter** | **Afficher** | **Modifier** | **Supprimer** | **Afficher** | **Modifier** | **Supprimer** | **Modifier et supprimer** | **Modifier** |
-| Administrateur de facturation | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |
+| Administration de la facturation | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |
 | Administration | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |
 | Superviseur | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |
 | Gestionnaire | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |   |   |   |
 | Observateur |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| Visiteur |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Visiteur ou visiteuse |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-Tenez compte des points suivants concernant les rôles et les autorisations :
+Tenez compte de ce qui suit concernant les rôles et les autorisations :
 
-* Les autorisations de profil attribuées concernent uniquement les utilisateurs et les éléments de votre propre compte. L’exception concerne les comptes satellites, où l’administrateur et l’administrateur de facturation des comptes principaux (hub) peuvent accéder aux paramètres du compte et les gérer, ainsi que leur facturation, à partir du niveau du compte central.
-* Les administrateurs et administrateurs de facturation peuvent supprimer des utilisateurs. Cette opération ne peut être effectuée que dans les paramètres du compte.
-* Lorsque les administrateurs et les administrateurs de facturation affichent les bons à tirer qui sont possédés par d’autres utilisateurs dans leur compte, ils les voient avec le rôle de réviseur.
-* En utilisant le rôle Lecture seule, les administrateurs de facturation et les administrateurs peuvent accéder aux BAT dans des dossiers partagés avec eux ou dans des dossiers créés par eux.
+* Les autorisations de profil attribuées ne concernent que les utilisateurs et utilisatrices et les éléments de votre propre compte. L’exception concerne les comptes satellites, pour lesquels l’équipe d’administration et la personne responsable de la facturation des comptes principaux (hub) peuvent accéder et gérer les paramètres et la facturation de ces comptes à partir du niveau du compte hub.
+* Les équipes d’administration et la personne chargée de la facturation peuvent supprimer des utilisateurs et utilisatrices. Cette opération ne peut être effectuée que dans les paramètres du compte.
+* Lorsque les équipes d’administration et les personnes responsables de la facturation consultent des épreuves appartenant à d’autres utilisateurs et utilisatrices de leur compte, elles les consultent avec le rôle de réviseur ou réviseuse.
+* En utilisant le rôle Lecture seule, les équipes d’administration et les personnes responsables de la facturation peuvent accéder aux épreuves dans les dossiers partagés avec eux ou dans les dossiers qu’elles ont créés.
 
-Les sections suivantes décrivent chaque profil et les autorisations associées au profil dans une configuration [!DNL Workfront Proof] standard :
+Les sections suivantes décrivent chaque profil et ses autorisations associées dans une configuration standard de [!DNL Workfront Proof] :
 
-* [Administrateur de facturation](#billing-administrator)
-* [Administrateur](#administrator)
-* [Superviseur](#supervisor)
-* [Manager](#manager)
-* [Observateur](#observer)
-* [Visitor](#visitor)
-* [Invité](#guest)
+* [Personne responsable de la facturation](#billing-administrator)
+* [Équipe d’administration](#administrator)
+* [Superviseur ou superviseuse](#supervisor)
+* [Personne responsable](#manager)
+* [Observateur ou observatrice](#observer)
+* [Visiteur ou visiteuse](#visitor)
+* [Personne invitée](#guest)
 
-## Administrateur de facturation {#billing-administrator}
+## Personne responsable de la facturation {#billing-administrator}
 
-Les administrateurs de facturation ont accès aux [paramètres du compte dans la  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] page de facturation](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et disposent des autorisations suivantes :
+Les personnes responsables de facturation ont accès aux [paramètres du compte sur la page de facturation  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et disposent des autorisations suivantes :
 
-![](assets/cleaner2.png) Peut générer des bons à tirer, télécharger des fichiers et créer des dossiers. Pour plus d’informations, voir [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Télécharger des fichiers et du contenu web dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) et [Créer des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![](assets/cleaner2.png) Peut générer des épreuves, charger des fichiers et créer des dossiers. Pour plus d’informations, voir [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Charger des fichiers et du contenu web dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), et [Créer des dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Peut afficher, modifier et supprimer ses propres BAT et fichiers qu’ils créent.
+![](assets/cleaner2.png) Peut afficher, modifier et supprimer ses propres épreuves et les fichiers créés par soi-même.
 
-![](assets/cleaner2.png)Peut afficher, modifier et supprimer les bons à tirer et les fichiers créés par tous les utilisateurs de l’entreprise.
+![](assets/cleaner2.png) Peut afficher, modifier et supprimer les épreuves et les fichiers créés par tous les utilisateurs et utilisatrices de l’organisation.
 
-![](assets/cleaner2.png)Peut supprimer les dossiers publics des autres utilisateurs. Pour plus d’informations, voir [Gestion des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![](assets/cleaner2.png) Peut supprimer les dossiers publics d’autres utilisateurs et utilisatrices. Pour plus d’informations, voir [Gérer les dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Dispose de droits d’édition sur tous les BAT créés dans le compte.
+![](assets/cleaner2.png) A des droits de modification sur toutes les épreuves créées dans le compte.
 
-![](assets/cleaner2.png)Peut être défini comme propriétaire de zone de dépôt. Pour plus d’informations, voir [Configuration de la zone de dépôt dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![](assets/cleaner2.png) Peut devenir la personne propriétaire de la zone de dépôt. Pour plus d’informations, voir [Configurer la zone de dépôt dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Peut accéder à la page de facturation et modifier les détails de facturation. Pour plus d’informations, voir [La  [!DNL Workfront Proof] page de facturation](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![](assets/cleaner2.png) Peut accéder à la page de facturation et modifier les détails de la facturation. Pour plus d’informations, voir [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-![](assets/cleaner2.png)Peut accéder à la page Paramètres du compte et modifier les détails du compte. Pour plus d’informations, voir [Paramètres du compte dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![](assets/cleaner2.png) Peut accéder à la page Paramètres du compte et modifier les détails du compte. Pour plus d’informations, voir [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png)Peut vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![](assets/cleaner2.png) Peut vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png)Peut ajouter, modifier et supprimer des utilisateurs.
+![](assets/cleaner2.png) Peut ajouter, modifier et supprimer des utilisateurs et utilisatrices.
 
-![](assets/cleaner2.png)Peut créer des groupes et ajouter de nouveaux contacts.
+![](assets/cleaner2.png) Peut créer des groupes et ajouter des nouveaux contacts.
 
-![](assets/cleaner2.png)Peut supprimer des contacts.
+![](assets/cleaner2.png) Peut supprimer des contacts.
 
-![](assets/cleaner2.png) Peut modifier les bons à tirer s’ils ne contiennent aucune réponse.
+![](assets/cleaner2.png) Peut modifier les épreuves qui ne comportent pas de réponse.
 
-![](assets/no2.png)Impossible de modifier les réponses du BAT.
+![](assets/no2.png) Ne peut pas modifier les réponses aux épreuves.
 
-![](assets/no2.png)Impossible de supprimer les dossiers privés des autres utilisateurs. Pour plus d’informations, voir [Gestion des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![](assets/no2.png) Ne peut pas supprimer les dossiers privés d’autres utilisateurs et utilisatrices. Pour plus d’informations, voir [Gérer les dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-Pour plus d’informations sur les paramètres du compte, voir [Paramètres du compte dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+Pour plus d’informations sur les paramètres du compte, voir [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-Pour plus d’informations sur la facturation, voir [La  [!DNL Workfront Proof] page de facturation](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+Pour plus d’informations sur la facturation, voir [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-### Administrateur {#administrator}
+### Administrateur ou administratrice {#administrator}
 
-Les administrateurs ont accès aux [Paramètres du compte](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) et disposent des autorisations suivantes :
+Les administrateurs et les administratrices ont accès aux [paramètres du compte](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) et disposent des autorisations suivantes :
 
-![](assets/cleaner2.png) Peut créer des BAT, télécharger des fichiers et créer des dossiers. Pour plus d’informations, voir [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Télécharger des fichiers et du contenu web dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) et [Créer des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![](assets/cleaner2.png) Peut créer des épreuves, charger des fichiers et créer des dossiers. Pour plus d’informations, consultez les sections [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Transférer des fichiers et du contenu web vers  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), et [Créer des dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png) Peut afficher, modifier et supprimer les bons à tirer et les fichiers qu’ils ont créés.
+![](assets/cleaner2.png) Peut afficher, modifier et supprimer les épreuves et les fichiers créés par soi-même.
 
-![](assets/cleaner2.png)Peut afficher, modifier et supprimer les bons à tirer et les fichiers créés par tous les utilisateurs de l’entreprise.
+![](assets/cleaner2.png) Peut afficher, modifier et supprimer les épreuves et les fichiers créés par l’ensemble des utilisateurs et des utilisatrices de l’organisation.
 
-![](assets/cleaner2.png)Peut supprimer les dossiers publics des autres utilisateurs. Pour plus d’informations, voir [Gestion des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![](assets/cleaner2.png) Peut supprimer les dossiers publics d’autres utilisateurs et utilisatrices. Pour plus d’informations, consultez la section [Gérer des dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Dispose de droits d’édition sur tous les BAT créés dans le compte.
+![](assets/cleaner2.png) A des droits de modification sur toutes les épreuves créées dans le compte.
 
-![](assets/cleaner2.png)Peut être défini comme propriétaire de zone de dépôt. Pour plus d’informations, voir [Configuration de la zone de dépôt dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![](assets/cleaner2.png) Peut devenir la personne propriétaire de la zone de dépôt. Pour plus d’informations, consultez la section [Configurer la zone de dépôt dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Peut accéder à la page Paramètres du compte et modifier les détails du compte. Pour plus d’informations, voir [Paramètres du compte dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![](assets/cleaner2.png) Peut accéder à la page des paramètres du compte et modifier les détails du compte. Pour plus d’informations, voir [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png)Peut vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![](assets/cleaner2.png) Peut vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png)Peut ajouter, modifier et supprimer des utilisateurs.
+![](assets/cleaner2.png) Peut ajouter, modifier et supprimer des utilisateurs et utilisatrices.
 
-![](assets/cleaner2.png)Peut créer des groupes et ajouter de nouveaux contacts.
+![](assets/cleaner2.png) Peut créer des groupes et ajouter des nouveaux contacts.
 
-![](assets/cleaner2.png)Peut supprimer des contacts.
+![](assets/cleaner2.png) Peut supprimer des contacts.
 
-![](assets/cleaner2.png) Peut modifier les bons à tirer s’ils ne contiennent aucune réponse.
+![](assets/cleaner2.png) Peut modifier les épreuves qui ne comportent pas de réponse.
 
-![](assets/no2.png)Impossible de modifier les réponses du BAT.
+![](assets/no2.png) Ne peut pas modifier les réponses aux épreuves.
 
-![](assets/no2.png)Impossible de supprimer les dossiers privés des autres utilisateurs. Pour plus d’informations, voir [Gestion des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![](assets/no2.png) Ne peut pas supprimer les dossiers privés d’autres utilisateurs et utilisatrices. Pour plus d’informations, consultez la section [Gérer des dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Impossible d&#39;accéder à la page Facturation ou de modifier les détails de facturation. Pour plus d’informations, voir [La  [!DNL Workfront Proof] page de facturation](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![](assets/no2.png) Ne peut pas accéder à la page de facturation ou modifier les détails de la facturation. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Superviseur {#supervisor}
 
-Les superviseurs disposent des autorisations suivantes :
+Les personnes responsables disposent des autorisations suivantes :
 
-![](assets/cleaner2.png) Peut créer des BAT, télécharger des fichiers et créer des dossiers. Pour plus d’informations, voir [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Télécharger des fichiers et du contenu web dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) et [Créer des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![](assets/cleaner2.png) Peut créer des épreuves, charger des fichiers et créer des dossiers. Pour plus d’informations, consultez les sections [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Transférer des fichiers et du contenu web vers  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) et [Créer des dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Peut afficher, modifier et supprimer ses propres BAT et fichiers qu’ils ont créés.
+![](assets/cleaner2.png) Peut visualiser, modifier et supprimer ses propres épreuves et les fichiers créés par soi-même.
 
-![](assets/cleaner2.png)Peut afficher, modifier et supprimer les bons à tirer et les fichiers créés par tous les utilisateurs de l’entreprise.
+![](assets/cleaner2.png) Peut afficher, modifier et supprimer les épreuves et les fichiers créés par l’ensemble des utilisateurs et des utilisatrices de l’organisation.
 
-![](assets/cleaner2.png)Peut supprimer les dossiers publics des autres utilisateurs. Pour plus d’informations, voir [Gestion des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![](assets/cleaner2.png) Peut supprimer les dossiers publics d’autres utilisateurs et utilisatrices. Pour plus d’informations, consultez la section [Gérer des dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Dispose de droits d’édition sur tous les BAT créés dans le compte.
+![](assets/cleaner2.png) A des droits de modification sur toutes les épreuves créées dans le compte.
 
-![](assets/cleaner2.png)Peut être défini comme propriétaire de zone de dépôt. Pour plus d’informations, voir [Configuration de la zone de dépôt dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![](assets/cleaner2.png) Peut devenir la personne propriétaire de la zone de dépôt. Pour plus d’informations, consultez la section [Configurer la zone de dépôt dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Peut créer des groupes et ajouter de nouveaux contacts.
+![](assets/cleaner2.png) Peut créer des groupes et ajouter de nouveaux contacts.
 
-![](assets/cleaner2.png)Peut supprimer des contacts.
+![](assets/cleaner2.png) Peut supprimer des contacts.
 
-![](assets/cleaner2.png) Peut modifier les bons à tirer s’ils ne contiennent aucune réponse.
+![](assets/cleaner2.png) Peut modifier les épreuves qui ne comportent pas de réponse.
 
-![](assets/no2.png)Impossible de modifier les réponses du BAT.
+![](assets/no2.png) Ne peut pas modifier les réponses aux épreuves.
 
-![](assets/no2.png)Impossible de supprimer les dossiers privés des autres utilisateurs. Pour plus d’informations, voir [Dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
+![](assets/no2.png) Ne peut pas supprimer les dossiers privés d’autres utilisateurs et utilisatrices. Pour plus d’informations, consultez la section [Dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-![](assets/no2.png) Impossible d&#39;accéder à la page de facturation ou aux paramètres du compte. Pour plus d’informations, voir [La  [!DNL Workfront Proof] page de facturation](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et les [paramètres du compte dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![](assets/no2.png) Ne peut accéder à la page de facturation ou aux paramètres du compte. Pour plus d’informations, consultez [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Impossible d’ajouter, de modifier ou de supprimer des utilisateurs.
+![](assets/no2.png) Ne peut ajouter, modifier ou supprimer des utilisateurs et utilisatrices.
 
-![](assets/no2.png)Impossible de vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![](assets/no2.png) Ne peut pas vider la corbeille. Pour plus d’informations, consultez la section [Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 ### Gestionnaire {#manager}
 
-Les gestionnaires disposent des autorisations suivantes :
+Les personnes gestionnaires disposent des autorisations suivantes :
 
-![](assets/cleaner2.png) Peut créer des BAT, télécharger des fichiers et créer des dossiers. Pour plus d’informations, voir [Générer des bons à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Télécharger des fichiers et du contenu web dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) et [Créer des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![](assets/cleaner2.png) Peut créer des épreuves, charger des fichiers et créer des dossiers. Pour plus d’informations, consultez la section [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Charger des fichiers et du contenu web dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), et [Créer des dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Peut afficher, modifier et supprimer les propres BAT et fichiers qu’ils créent ou qu’ils détiennent.
+![](assets/cleaner2.png) Peut afficher, modifier et supprimer ses propres épreuves et les fichiers créés par ses soins ou qui lui appartiennent.
 
-![](assets/cleaner2.png)Peut afficher, réviser et approuver les BAT d’autres utilisateurs qui sont explicitement partagés avec eux (droits en lecture seule sur tout ce qui se trouve dans un dossier partagé). Pour plus d’informations, voir [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![](assets/cleaner2.png) Peut voir, examiner et approuver les épreuves d’autres utilisateurs et utilisatrices qui sont explicitement partagées avec soi-même (droits de lecture seule sur tout ce qui se trouve dans un dossier partagé). Pour plus d’informations, voir [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Peut créer des groupes et ajouter un nouveau contact.
+![](assets/cleaner2.png) Peut créer des groupes et ajouter un nouveau contact.
 
-![](assets/no2.png)Impossible d’afficher, de modifier ou de supprimer les bons à tirer et les fichiers créés par d’autres utilisateurs de l’organisation.
+![](assets/no2.png) Ne peut pas afficher, modifier ou supprimer les épreuves et les fichiers créés par d’autres utilisateurs et utilisatrices de l’organisation.
 
-![](assets/no2.png)Impossible de modifier les BAT ou les réponses.
+![](assets/no2.png) Ne peut pas modifier les épreuves ou les réponses.
 
-![](assets/no2.png)Impossible de supprimer les dossiers privés des autres utilisateurs. Pour plus d’informations, voir [Gestion des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![](assets/no2.png) Ne peut pas supprimer les dossiers privés d’autres utilisateurs et utilisatrices. Pour plus d’informations, voir [Gérer les dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Impossible de supprimer les dossiers publics des autres utilisateurs. Pour plus d’informations, voir [Gestion des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![](assets/no2.png) Ne peut pas supprimer les dossiers publics d’autres utilisateurs et utilisatrices. Pour plus d’informations, voir [Gérer les dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png) Impossible d&#39;accéder à la page de facturation ou aux paramètres du compte. Pour plus d’informations, voir [La  [!DNL Workfront Proof] page de facturation](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et les [paramètres du compte dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![](assets/no2.png) Ne peut pas accéder à la page de facturation ou aux paramètres du compte. Pour plus d’informations, voir [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Ne peut pas être défini comme propriétaire de la zone de dépôt. Pour plus d’informations, voir [Configuration de la zone de dépôt dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![](assets/no2.png) Ne peut pas devenir la personne propriétaire de la zone de dépôt. Pour plus d’informations, voir [Configurer la zone de dépôt dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Impossible de vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![](assets/no2.png) Ne peut pas vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Impossible d’ajouter, de modifier ou de supprimer des utilisateurs.
+![](assets/no2.png) Ne peut pas ajouter, modifier ou supprimer des utilisateurs et utilisatrices.
 
-![](assets/no2.png)Impossible de supprimer les contacts.
+![](assets/no2.png) Ne peut pas supprimer des contacts.
 
 ### Observateur {#observer}
 
-Les observateurs disposent des autorisations suivantes :
+Les observateurs et observatrices disposent des autorisations suivantes :
 
-![](assets/cleaner2.png)Peut afficher, réviser et approuver les BAT d’autres utilisateurs qui sont explicitement partagés avec eux (droits en lecture seule sur tout ce qui se trouve dans un dossier partagé). Pour plus d’informations, voir [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![](assets/cleaner2.png) Peut voir, examiner et approuver les épreuves d’autres utilisateurs et utilisatrices qui sont explicitement partagées avec soi-même (droits de lecture sur tout ce qui se trouve dans un dossier partagé). Pour plus d’informations, voir [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Peut afficher les fichiers qui sont explicitement partagés avec eux.
+![](assets/cleaner2.png) Peut consulter les fichiers qui sont explicitement partagés avec soi-même.
 
-![](assets/cleaner2.png) Peut afficher les contacts et les groupes
+![](assets/cleaner2.png) Peut afficher les contacts et les groupes.
 
-![](assets/no2.png)Impossible de créer des bons à tirer, de charger des fichiers et de créer des dossiers. Pour plus d’informations, voir [Téléchargement de fichiers et de contenu web vers [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![](assets/no2.png) Ne peut pas créer des épreuves, charger des fichiers ni créer des dossiers. Pour plus d’informations, voir [Charger des fichiers et du contenu web dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Impossible d’afficher, de modifier ou de supprimer les bons à tirer et les fichiers créés par d’autres utilisateurs de l’organisation.
+![](assets/no2.png) Ne peut pas afficher, modifier ou supprimer les épreuves et les fichiers créés par d’autres utilisateurs et utilisatrices de l’organisation.
 
-![](assets/no2.png)Impossible de modifier les BAT ou les réponses.
+![](assets/no2.png) Ne peut pas modifier les épreuves ou les réponses.
 
-![](assets/no2.png)Impossible de supprimer les éléments créés dans l’organisation.
+![](assets/no2.png) Ne peut pas supprimer des éléments créés dans l’organisation.
 
-![](assets/no2.png) Impossible d&#39;accéder à la page de facturation ou aux paramètres du compte. Pour plus d’informations, voir [La  [!DNL Workfront Proof] page de facturation](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et les [paramètres du compte dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![](assets/no2.png) Ne peut pas accéder à la page de facturation ou aux paramètres du compte. Pour plus d’informations, voir [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Ne peut pas être défini comme propriétaire de la zone de dépôt. Pour plus d’informations, voir [Configuration de la zone de dépôt dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![](assets/no2.png) Ne peut pas devenir la personne propriétaire de la zone de dépôt. Pour plus d’informations, voir [Configurer la zone de dépôt dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Impossible de vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![](assets/no2.png) Ne peut pas vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Impossible d’ajouter, de modifier ou de supprimer des utilisateurs.
+![](assets/no2.png) Ne peut pas ajouter, modifier ou supprimer des utilisateurs et utilisatrices.
 
-![](assets/no2.png)Impossible de créer des groupes ou d’ajouter de nouveaux contacts.
+![](assets/no2.png) Ne peut pas créer des groupes ou ajouter de nouveaux contacts.
 
-![](assets/no2.png)Impossible de supprimer les contacts.
-
->[!NOTE]
->
->Les menus et fonctions disponibles pour les observateurs sont limités.
->
->* Les observateurs ne voient pas le menu En-tête ou Nouveau vert dans leur tableau de bord.
->* Les observateurs ne voient pas les liens suivants dans leurs paramètres : Paramètres du compte, Facturation
->
-
-### Visiteur {#visitor}
-
-Les visiteurs disposent des autorisations suivantes :
-
-![](assets/cleaner2.png)Peut afficher, réviser et approuver les BAT d’autres utilisateurs qui sont explicitement partagés avec eux (droits en lecture seule sur tout ce qui se trouve dans un dossier partagé). Pour plus d’informations, voir [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
-
-![](assets/cleaner2.png)Peut afficher les fichiers qui sont explicitement partagés avec eux.
-
-![](assets/no2.png) Impossible d’afficher les contacts et les groupes
-
-![](assets/no2.png)Impossible de créer des bons à tirer, de charger des fichiers et de créer des dossiers. Pour plus d’informations, voir [Téléchargement de fichiers et de contenu web vers [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
-
-![](assets/no2.png)Impossible d’afficher, de modifier ou de supprimer les bons à tirer et les fichiers créés par d’autres utilisateurs de l’organisation.
-
-![](assets/no2.png)Impossible de modifier les BAT ou les réponses.
-
-![](assets/no2.png)Impossible de supprimer les éléments créés dans l’organisation.
-
-![](assets/no2.png) Impossible d&#39;accéder à la page de facturation ou aux paramètres du compte. Pour plus d’informations, voir [La  [!DNL Workfront Proof] page de facturation](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et les [paramètres du compte dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
-
-![](assets/no2.png)Ne peut pas être défini comme propriétaire de la zone de dépôt. Pour plus d’informations, voir [Configuration de la zone de dépôt dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
-
-![](assets/no2.png)Impossible de vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
-
-![](assets/no2.png)Impossible d’ajouter, de modifier ou de supprimer des utilisateurs.
-
-![](assets/no2.png)Impossible de créer des groupes ou d’ajouter de nouveaux contacts.
-
-![](assets/no2.png)Impossible de supprimer les contacts.
+![](assets/no2.png) Ne peut pas supprimer des contacts.
 
 >[!NOTE]
 >
->Les menus et fonctions disponibles pour les visiteurs sont limités.
+>Les menus et les fonctions disponibles pour les observateurs et observatrices sont limités.
 >
->* Le menu En-tête ou Nouveau vert n’apparaît pas dans le tableau de bord des visiteurs.
->* Les liens suivants ne s’affichent pas dans les paramètres des visiteurs : Paramètres du compte, Facturation
+>* Les observateurs et observatrices ne voient pas le menu d’en-tête ou le menu vert Nouveau dans leur tableau de bord.
+>* Les observateurs et observatrices ne voient pas les liens suivants dans leurs paramètres : Paramètres du compte, Facturation.
 >
 
-### Invité {#guest}
+### Visiteur ou visiteuse {#visitor}
 
-Le profil d’invité permet d’accéder aux bons à tirer pour les réviseurs qui n’ont pas leur propre compte Workfront Proof. Les invités peuvent accéder aux BAT partagés avec eux directement via leur email de notification.
+Les visiteurs et visiteuses disposent des autorisations suivantes :
 
-![](assets/cleaner2.png) Peut afficher, réviser et approuver les bons à tirer qui sont explicitement partagés avec eux.
+![](assets/cleaner2.png) Peut voir, examiner et approuver les épreuves d’autres utilisateurs et utilisatrices qui sont explicitement partagées avec soi-même (droits de lecture seule sur tout ce qui se trouve dans un dossier partagé). Pour plus d’informations, voir [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Peut afficher les fichiers qui sont explicitement partagés avec eux.
+![](assets/cleaner2.png) Peut consulter les fichiers qui sont explicitement partagés avec soi-même.
 
-![](assets/no2.png)Impossible d’accéder au tableau de bord.
+![](assets/no2.png) Ne peut pas afficher les contacts et les groupes.
 
-![](assets/no2.png)Les dossiers ne peuvent pas être partagés avec eux. Pour plus d’informations, voir [Gestion des dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![](assets/no2.png) Ne peut pas créer des épreuves, charger des fichiers ni créer des dossiers. Pour plus d’informations, voir [Charger des fichiers et du contenu web dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Ne peut pas être ajouté en tant qu’auteurs ou modérateurs aux bons à tirer. Pour plus d’informations, voir [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![](assets/no2.png) Ne peut pas afficher, modifier ou supprimer les épreuves et les fichiers créés par d’autres utilisateurs et utilisatrices de l’organisation.
+
+![](assets/no2.png) Ne peut pas modifier les épreuves ou les réponses.
+
+![](assets/no2.png) Ne peut pas supprimer des éléments créés dans l’organisation.
+
+![](assets/no2.png) Ne peut pas accéder à la page de facturation ou aux paramètres du compte. Pour plus d’informations, voir [la page de facturation  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) et la section [Paramètres du compte dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+
+![](assets/no2.png) Ne peut pas devenir la personne propriétaire de la zone de dépôt. Pour plus d’informations, voir [Configurer la zone de dépôt dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+
+![](assets/no2.png) Ne peut pas vider la corbeille. Pour plus d’informations, voir [Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+
+![](assets/no2.png) Ne peut pas ajouter, modifier ou supprimer des utilisateurs et utilisatrices.
+
+![](assets/no2.png) Ne peut pas créer des groupes ou ajouter de nouveaux contacts.
+
+![](assets/no2.png) Ne peut pas supprimer des contacts.
 
 >[!NOTE]
 >
->Les clients ne sont pas des utilisateurs de Workfront Proof, ils ne peuvent donc pas voir tous les bons à tirer partagés avec eux dans leur propre tableau de bord.
+>Les menus et les fonctions disponibles pour les visiteurs et visiteuses sont limités.
+>
+>* Les visiteurs et visiteuses ne voient pas le menu d’en-tête ou le menu vert Nouveau dans leur tableau de bord.
+>* Les liens suivants ne s’affichent pas dans les paramètres des visiteurs et visiteuses : Paramètres du compte, Facturation
+>
 
-## Modification du profil d’autorisation de BAT d’un utilisateur
+### Personne invitée {#guest}
 
-Les administrateurs et les administrateurs de facturation peuvent modifier les profils d’autorisation de tous les utilisateurs du compte.
+Le profil Personne invitée sert à accorder l’accès aux épreuves aux personnes chargées de la révision qui ne disposent pas de compte Workfront Proof. Les personnes invitées peuvent accéder aux épreuves partagées avec elles directement via leurs notifications personnelles par e-mail.
 
-1. Pour trouver l’utilisateur à modifier, effectuez l’une des opérations suivantes :
+![](assets/cleaner2.png) Peut consulter, réviser et approuver les épreuves explicitement partagées avec soi-même.
 
-   * Accédez à **[!UICONTROL Paramètres du compte]**, puis cliquez sur l’onglet **[!UICONTROL Utilisateurs]**.
+![](assets/cleaner2.png) Peut consulter les fichiers explicitement partagés avec soi-même.
 
-   * Accédez à la page **[!UICONTROL Contacts]** .
+![](assets/no2.png) Ne peut pas accéder au tableau de bord.
 
-1. Cliquez sur le nom de l’utilisateur dont vous souhaitez modifier les autorisations. ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+![](assets/no2.png) Ne peut pas recevoir de dossiers partagés. Pour plus d’informations, voir [Gérer les dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-1. Cliquez sur le menu déroulant **[!UICONTROL Profil d’autorisations]** et sélectionnez un nouveau profil d’autorisation. :
-
-   ![Capture d’écran_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
-
-   Les profils d’autorisation sont Administrateur, Superviseur, Gestionnaire et Observateur.
-
-1. Cliquez n’importe où en dehors du menu pour enregistrer.
+![](assets/no2.png) Ne peut pas faire l’objet d’un ajout aux épreuves en tant que personne chargée de la création ou de la modération. Pour plus d’informations, voir [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 >[!NOTE]
 >
->Les administrateurs ne peuvent pas affecter le profil Administrateur de facturation. Vous trouverez une liste des modifications de profil dans les journaux suivants :
+>Les personnes invitées ne sont pas des utilisateurs et utilisatrices de Workfront Proof, elles ne peuvent donc pas consulter toutes les épreuves partagées avec elles dans leur propre tableau de bord.
+
+## Modifier le profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice
+
+Les administrateurs et administratrices de facturation peuvent modifier les profils d’autorisation de tous les utilisateurs et utilisatrices du compte.
+
+1. Pour trouver l’utilisateur ou l’utilisatrice à modifier, effectuez l’une des opérations suivantes :
+
+   * Naviguez vers **[!UICONTROL Paramètres du compte]**, puis cliquez sur l’onglet **[!UICONTROL Utilisateurs et utilisatrices]**.
+
+   * Accédez à la page **[!UICONTROL Contacts]**.
+
+1. Cliquez sur le nom de l’utilisateur ou de l’utilisatrice dont vous souhaitez modifier les autorisations. ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+
+1. Cliquez sur le menu déroulant **[!UICONTROL Profil d’autorisation]** et sélectionnez un nouveau profil d’autorisation.
+
+   ![Screenshot_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
+
+   Les profils d’autorisation sont Administration, Supervision, Gestion et Observation.
+
+1. Cliquez en dehors du menu pour enregistrer.
+
+>[!NOTE]
 >
->* Logs de l’activité Compte
->* Journal du profil de l’utilisateur (accessible uniquement à cet utilisateur)
+>Les administrateurs et administratrices ne peuvent pas affecter le profil Administration de facturation. Vous trouverez une liste des modifications de profil dans les journaux suivants :
+>
+>* Journaux de l’activité Compte
+>* Journal du profil de l’utilisateur ou de l’utilisatrice (accessible uniquement à cette personne)
 >
 
-Pour plus d’informations sur les journaux d’activité, voir [Présentation du  [!DNL Workfront Proof] journal d’audit d’activité](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
+Pour plus d’informations sur les journaux d’activité, voir [Comprendre le journal d’audit d’activité  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).

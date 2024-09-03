@@ -3,7 +3,7 @@ title: Connexion en tant qu’autre utilisateur
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: En tant qu’administrateur ou administratrice Adobe Workfront, vous devrez parfois accéder à Workfront au nom d’un autre utilisateur ou d’une autre utilisatrice.
+description: En tant qu’administrateur ou administratrice Adobe Workfront, il peut arriver que vous deviez accéder à Workfront au nom d’une autre personne.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
 source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 97%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-En tant qu’administrateur ou administratrice Adobe Workfront, vous devrez parfois accéder à Workfront au nom d’un autre utilisateur ou d’une autre utilisatrice.
+En tant qu’administrateur ou administratrice Adobe Workfront, il peut arriver que vous deviez accéder à Workfront au nom d’une autre personne.
 
-Ou bien, en tant qu’administrateur ou administratrice de groupe, vous devrez peut-être accéder à Workfront au nom d’un utilisateur ou d’une utilisatrice membre d’un groupe que vous gérez.
+Ou, en tant qu’administrateur ou administratrice de groupe, vous pouvez avoir besoin d’accéder à Workfront au nom d’une personne membre d’un groupe que vous gérez.
 
-Par exemple, si une tâche ne peut pas progresser tant qu’un utilisateur ou une utilisatrice en vacances n’a pas effectué une certaine action, vous pouvez vous connecter en tant que cet utilisateur ou cette utilisatrice et effectuer l’action à sa place.
+Par exemple, si une tâche ne peut pas progresser tant qu’une personne en vacances n’a pas effectué une certaine action, vous pouvez vous connecter en tant que cette personne et effectuer l’action à sa place.
 
 <!--
 <note type="note">
@@ -42,9 +42,9 @@ Some users, such as executives, need to be able to control which administrators 
 
 >[!NOTE]
 >
->Une intégration de document pouvant se connecter à des fichiers personnels privés, les administrateurs et administratrices ne peuvent pas accéder aux intégrations de document lorsqu’ils sont connectés en tant qu’autre utilisateur ou autre utilisatrice.
+>Étant donné qu&#39;une intégration de documents peut se connecter à des fichiers personnels privés, les administrateurs et administratrices ne peuvent pas accéder aux intégrations de documents tout en ayant une connexion en tant qu’autre utilisateur ou utilisatrice.
 >
->Pour plus d’informations sur les intégrations de documents, voir [Configurer les intégrations de documents](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>Pour plus d’informations sur les intégrations de documents, voir [Configurer les intégrations de documents](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Conditions d’accès
 
@@ -57,18 +57,18 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle : standard</p>
-   <p>Actuelle : formule</p></td> 
+   <td> <p>Nouveau : Standard</p>
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Avec le niveau d’accès Administrateur ou administratrice système, vous pouvez vous connecter comme n’importe qui. Pour plus d’informations sur ce niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif complet à une personne</a>. </p> <p>Avec un niveau d’accès Planificateur, vous pouvez vous connecter en tant qu’utilisateur ou utilisatrice avec un niveau de licence inférieur si le paramètre <b>Utilisateurs et utilisatrices</b> du niveau d’accès est configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>Remarque</b> : parmi ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont l’utilisateur ou l’utilisatrice est membre.</p> 
+   <td> <p>Avec le niveau d’accès Administration système, vous pouvez vous connecter en tant que n’importe qui. Pour plus d’informations sur ce niveau d'accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder à une personne un accès administratif complet</a>. </p> <p>Avec un niveau d’accès Planification, vous pouvez vous connecter en tant que personne ayant un niveau de licence inférieur si le paramètre <b>Utilisateurs et utilisatrices</b> du niveau d’accès est configuré sur l’accès <b>Modification</b>, avec <b>Création</b> et au moins l’une des deux options <b>Administration des utilisateurs et utilisatrices</b> activées sous <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b>NOTE</b> : parmi ces deux options, si l’option <b>Administration des utilisateurs et utilisatrices (utilisateurs et utilisatrices de groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont la personne est membre.</p> 
    <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -80,11 +80,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 ## Se connecter et effectuer des actions en tant qu’autre utilisateur ou utilisatrice
 
-1. Connectez-vous à Workfront en tant qu’administrateur ou administratrice Workfront ou administrateur ou administratrice de groupe.
+1. Connectez-vous à Workfront en tant qu’administrateur ou administratrice Workfront ou de groupe.
 
    >[!NOTE]
    >
-   >* Si vous êtes administrateur ou administratrice de groupe, vous ne pouvez vous connecter qu’en tant qu’utilisateurs ou utilisatrices dans les groupes que vous gérez. En outre, l’autorisation Administration des utilisateurs (utilisateurs du groupe) doit être activée dans votre niveau d’accès :
+   >* Si vous êtes administrateur ou administratrice de groupe, vous ne pouvez vous connecter qu’en tant qu’utilisateur ou utilisatrice des groupes que vous gérez. En outre, l’autorisation Administration des utilisateurs et utilisatrices (utilisateurs et utilisatrices de groupe) doit être activée dans votre niveau d’accès :
    >   
    >  ![](assets/group-admin-user.png)
    >   
@@ -96,15 +96,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 1. Dans le panneau de gauche, cliquez sur **Connexion en tant que**.
 
-1. Dans la zone **Utilisateurs** de l’onglet **Connexion en tant que**, commencez à saisir le nom de l’utilisateur ou de l’utilisatrice, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
+1. Dans la boîte **Utilisateurs et utilisatrices** de l&#39;onglet **Se connecter en tant que**, commencez à saisir le nom de la personne, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante.
 
-   L’utilisateur ou l’utilisatrice doit disposer d’un niveau d’accès défini dans Workfront. Vous ne pouvez pas vous connecter au système Workfront en tant qu’utilisateur ou utilisatrice ne disposant pas de droits de connexion.
+   La personne doit avoir un niveau d’accès défini dans Workfront. Vous ne pouvez pas vous connecter au système Workfront en tant que personne n’ayant pas les droits de connexion.
 
    >[!NOTE]
    >
-   >Les administrateurs et administratrices de groupe peuvent se connecter uniquement en tant qu’utilisateurs et utilisatrices membres des groupes qu’ils gèrent. Ils ne peuvent pas se connecter en tant qu’administrateur ou administratrice Workfront.
+   >Les administrateurs et administratrices de groupe ne peuvent se connecter qu’en tant que personnes membres des groupes gérés. Ils et elles ne peuvent pas se connecter en tant qu’administrateur ou administratrice Workfront.
 
-1. Cliquez sur **Connexion**.
+1. Cliquez sur **Se connecter.**
 
    <!--
    <p> Might come in a future story:</p>
@@ -131,20 +131,20 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    </div>
    -->
 
-   Lorsque vous êtes connecté en tant qu’autre utilisateur ou utilisatrice, une notification s’affiche en haut de l’écran pour l’indiquer.
+   Lors de votre connexion en tant qu’un autre utilisateur ou qu’une autre utilisatrice, une notification s’affiche en haut de l’écran pour l’indiquer.
 
-1. Après avoir effectué les actions nécessaires en tant qu’utilisateur ou utilisatrice, cliquez sur **Déconnexion**.
+1. Après avoir effectué les actions nécessaires en tant qu’un autre utilisateur ou qu’une autre utilisatrice, cliquez sur **Se déconnecter.**
 
-## Suivre et réaliser un audit de l’activité lorsqu’un administrateur ou une administratrice est connecté en tant qu’autre utilisateur ou utilisatrice
+## Suivre et réaliser un audit de l’activité lorsqu’un administrateur ou une administratrice se connecte en tant qu’un autre utilisateur ou qu’une autre utilisatrice
 
-Workfront fournit des mécanismes pour suivre et réaliser un audit de l’activité lorsque l’administrateur ou l’administratrice est connecté en tant qu’autre utilisateur ou autre utilisatrice.
+Workfront fournit des mécanismes de suivi et de réalisation d’audit des activités qui ont lieu lorsque l’administrateur se connecte en tant qu’un autre utilisateur ou qu’une autre utilisatrice.
 
-Lorsque vous vous connectez en tant qu’autre utilisateur ou utilisatrice, la date de dernière connexion de cet utilisateur ou de cette utilisatrice prend la date à laquelle l’administrateur ou l’administratrice système ou de groupe se connecte en tant que cet utilisateur ou cette utilisatrice.
+Lorsque vous vous connectez en tant qu’un autre utilisateur ou qu’une autre utilisatrice, la date de dernière connexion de cette personne est modifiée pour correspondre à la date à laquelle l’administrateur ou administratrice du système ou du groupe se connecte en tant qu’un autre utilisateur ou qu’une autre utilisatrice.
 
-* [Afficher des indicateurs sur les éléments](#view-indicators-on-items)
-* [Afficher des informations sur l’audit](#view-audit-information)
+* [Visualiser les indicateurs sur les éléments](#view-indicators-on-items)
+* [Afficher les informations d’audit](#view-audit-information)
 
-### Afficher des indicateurs sur les éléments {#view-indicators-on-items}
+### Visualiser les indicateurs sur les éléments {#view-indicators-on-items}
 
 Lorsque vous vous connectez à Workfront en tant qu’autre utilisateur ou utilisatrice et exécutez une action, Workfront indique clairement que toute action que vous effectuez est effectuée par vous au nom de l’utilisateur ou l’utilisatrice sous lequel ou laquelle vous êtes connecté.
 
@@ -152,15 +152,15 @@ Par exemple, si vous commentez un élément lors de votre connexion en tant qu�
 
 ### Afficher des informations sur l’audit {#view-audit-information}
 
-1. Connectez-vous à Workfront en tant qu’administrateur ou administratrice Workfront ou administrateur ou administratrice de groupe.
+1. Connectez-vous à Workfront en tant qu’administrateur ou administratrice Workfront ou de groupe.
 1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
 
-1. Cliquez sur **Connexion en tant que**, puis sur l’onglet **Journal d’accès** .
+1. Cliquez sur **Se connecter en tant que**, puis cliquez sur l’onglet **Accéder au journal**.
 
-   Chaque fois qu’un administrateur ou une administratrice système ou de groupe se connecte à Workfront en tant qu’autre utilisateur ou autre utilisatrice, l’événement est consigné dans le journal d’audit. En outre, toutes les actions pouvant être auditées alors que l’administrateur ou l’administratrice est connecté en tant qu’autre utilisateur ou autre utilisatrice sont consignées dans le journal d’audit.
+   Chaque fois qu’un administrateur ou une administratrice système ou de groupe se connecte à Workfront en tant qu’un autre utilisateur ou qu’une autre utilisatrice, l’événement est enregistré dans le journal d’audit. En outre, toutes les actions vérifiables qui ont lieu lorsque l’administrateur ou administratrice se connecte en tant qu’un autre utilisateur ou qu’une autre utilisatrice sont enregistrées dans le journal d’audit.
 
 1. (Facultatif) Vous pouvez filtrer les résultats affichés dans le journal d’audit de la manière suivante :
 
-   * Par l’utilisateur ou l’utilisatrice qui s’est connecté.
-   * Par l’utilisateur ou l’utilisatrice qui s’est connecté en tant que.
-   * Par date.
+   * Par personne qui s’est connectée
+   * Par personne qui s’est connectée en tant que
+   * Par date

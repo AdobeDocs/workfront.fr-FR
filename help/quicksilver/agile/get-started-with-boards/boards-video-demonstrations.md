@@ -3,14 +3,14 @@ filename: boards-video-demonstrations
 content-type: reference
 navigation-topic: boards
 title: Démonstrations vidéo des panoramas Workfront
-description: Ces vidéos vous présentent les différents types de panoramas disponibles dans Adobe Workfront et vous montrent des exemples d’utilisation des panoramas dans votre travail quotidien.
+description: Ces vidéos vous présentent les différents types de panoramas disponibles dans Adobe Workfront et vous montrent des exemples d’utilisation des panoramas dans votre travail quotidien.
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
 source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 1%
+ht-degree: 97%
 
 ---
 
@@ -18,50 +18,50 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-Ces vidéos vous présentent les différents types de panoramas disponibles dans Adobe Workfront et vous montrent des exemples d’utilisation des panoramas dans votre travail quotidien.
+Ces vidéos vous présentent les différents types de panoramas disponibles dans Adobe Workfront et vous montrent des exemples d’utilisation des panoramas dans votre travail quotidien.
 
 ## Types de panoramas
 
 ### Panorama de base
 
-Un panorama simple ou de base vous permet de commencer rapidement à utiliser des panoramas pour effectuer le suivi du travail. Les colonnes par défaut sont incluses dans le modèle. Vous pouvez ajouter des cartes et attribuer du travail.
+Un panorama de base, ou simple, vous permet de commencer rapidement à utiliser des panoramas pour suivre votre travail. Les colonnes par défaut sont incluses dans le modèle, et vous pouvez ajouter des cartes et attribuer du travail.
 
-[Affichez une démonstration vidéo d’un panorama de base.](https://video.tv.adobe.com/v/3416382/){target=_blank}
+[Regardez une démonstration vidéo d’un panorama de base.](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
 ### Panorama Kanban
 
-Un panorama kanban peut contenir un journal en souffrance, ou une colonne d’ingestion, configuré avec des filtres pour intégrer les tâches et les problèmes de Workfront au panorama.
+Un panorama Kanban peut contenir une liste d’attente, ou une colonne d’entrée, configurée avec des filtres pour amener les tâches et les problèmes de Workfront sur le panorama.
 
-[Afficher une démonstration vidéo d’un panorama kanban.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+[Regardez une démonstration vidéo d’un panorama Kanban.](https://video.tv.adobe.com/v/3416383/){target=_blank}
 
 ### Panorama dynamique
 
-Un panorama dynamique vous permet de remplir automatiquement un panorama avec des cartes basées sur un projet Workfront. Grâce aux filtres, les cartes sont ajoutées aux colonnes en fonction de leur état.
+Un panorama dynamique vous permet de remplir automatiquement un panorama avec des cartes basées sur un projet Workfront. Grâce aux filtres, les cartes sont ajoutées aux colonnes en fonction de leur statut.
 
-[ Affichez une démonstration vidéo d’un panorama dynamique.](https://video.tv.adobe.com/v/3422404/){target=_blank}
+[Regardez une démonstration vidéo d’un panorama dynamique.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
-### Carte mobile
+### Panorama mobile
 
-Les panoramas sont disponibles dans l’application mobile Adobe Workfront. Lorsque vous mettez à jour des cartes dans l’application mobile, ces mises à jour sont synchronisées avec Workfront.
+Les panoramas sont disponibles dans l’application mobile Adobe Workfront. Lorsque vous mettez à jour des cartes dans l’application mobile, ces mises à jour sont synchronisées avec Workfront.
 
-[Affichez une démonstration vidéo d&#39;un panorama mobile.](https://video.tv.adobe.com/v/3416379/){target=_blank}
+[Regardez une démonstration vidéo d’un panorama mobile.](https://video.tv.adobe.com/v/3416379/){target=_blank}
 
 ## Exemples d’utilisation des panoramas
 
-### Panorama présentant &quot;mes tâches&quot;
+### Panorama affichant « mes tâches »
 
-Vous pouvez utiliser la colonne d’admission pour afficher les tâches qui vous sont affectées à un seul endroit. Lorsque de nouvelles tâches sont affectées dans Workfront, elles sont automatiquement ajoutées à la colonne d’entrée.
+Vous pouvez utiliser la colonne d’entrée pour afficher les tâches qui vous sont assignées en un seul endroit. Lorsque de nouvelles tâches sont assignées dans Workfront, elles sont automatiquement ajoutées à la colonne d’entrée.
 
-[Affichez une démonstration vidéo d’un panorama &quot;mes tâches&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
+[Regardez une démonstration vidéo d’un panorama « mes tâches ».](https://video.tv.adobe.com/v/3416378/){target=_blank}
 
-### Tableau de planification
+### Panorama de planification
 
-Les conseils d’administration peuvent vous aider à planifier le travail pour vous-même ou pour votre équipe sur une période donnée.
+Les panoramas peuvent vous aider à planifier votre travail ou celui de votre équipe sur une période donnée.
 
-[Affichez une démonstration vidéo d’un panorama de planification.](https://video.tv.adobe.com/v/3416380/){target=_blank}
+[Regardez une démonstration vidéo d’un panorama de planification.](https://video.tv.adobe.com/v/3416380/){target=_blank}
 
-### Gestion hybride du travail
+### Gestion du travail hybride
 
-Certaines équipes peuvent préférer travailler sur un panorama, tandis que d’autres préfèrent les vues de projet Workfront. Comme les cartes connectées sur un panorama sont synchronisées avec les tâches et les problèmes de Workfront, vous pouvez toujours afficher les détails les plus récents, quel que soit l’affichage que vous utilisez.
+Certaines équipes préfèrent travailler sur un panorama tandis que d’autres préfèrent les vues de projet de Workfront. Comme les cartes connectées sur un panorama sont synchronisées avec les tâches et les problèmes de Workfront, vous pouvez toujours voir les détails les plus récents, quelle que soit la vue que vous utilisez.
 
-[Affichez une démonstration vidéo de la gestion de travail hybride.](https://video.tv.adobe.com/v/3416381/){target=_blank}
+[Regardez une démonstration vidéo de la gestion hybride du travail.](https://video.tv.adobe.com/v/3416381/){target=_blank}

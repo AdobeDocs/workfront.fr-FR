@@ -23,7 +23,7 @@ Cet article décrit comment demander l’accès à une vue ou à un espace de tr
 
 Pour plus d’informations sur l’octroi d’autorisations aux vues et aux espaces de travail, consultez les articles suivants :
 
-* [Partager des vues](/help/quicksilver/planning/access/share-views.md)
+* [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
 * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
 
@@ -48,7 +48,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -59,7 +59,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -95,7 +95,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -118,7 +118,7 @@ Lorsqu’une personne partage avec vous un lien vers un espace de travail ou une
    Tous les utilisateurs disposant des autorisations de gestion pour la vue ou l’espace de travail reçoivent les notifications suivantes pour la demande d’accès :
    * Une notification in-app
      ![](assets/in-app-notification-for-access-request.png)
-   * Une notification électronique
+   * Notification par e-mail
      ![](assets/email-notification-for-access-request.png)
 
 1. (Conditionnel) Lorsque le gestionnaire d’affichage ou d’espace de travail vous accorde des autorisations pour l’affichage ou l’espace de travail, vous recevez une notification par e-mail et une notification in-app confirmant que l’autorisation a été accordée. <!--check this - I was not able to test this, but Isk confirmed.-->

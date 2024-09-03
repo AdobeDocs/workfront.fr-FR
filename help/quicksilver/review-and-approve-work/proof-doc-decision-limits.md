@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Présentation des documents et des BAT limités pour les utilisateurs non payants 
-description: Les décisions relatives aux épreuves et aux documents sont limitées pour toutes les licences Workfront non payantes. Les limites sont réinitialisées chaque mois pour chaque personne.
+title: Vue d’ensemble du statut de décision limitée des documents et de l’épreuve pour les utilisateurs et utilisatrices non payants
+description: Les décisions concernant les épreuves et les documents sont limitées pour toutes les licences Workfront non payantes. Limites réinitialisées chaque mois selon l’utilisateur ou l’utilisatrice.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 # Vue d’ensemble du statut de décision limitée des documents et de l’épreuve pour les utilisateurs et utilisatrices non payants
 
-Les décisions concernant les BAT et les documents sont limitées pour toutes les licences Workfront non payantes sur les nouveaux plans. Pour plus d’informations, consultez la section [Vue d’ensemble des licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Les décisions concernant les épreuves et les documents sont limitées pour toutes les licences Workfront non payantes sur les nouveaux plans. Pour plus d’informations, voir [Vue d’ensemble des nouvelles licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-Limites réinitialisées chaque mois selon l’utilisateur. Les limites de décision pour chaque licence varient en fonction du plan sur lequel vous vous trouvez :
+Limites réinitialisées chaque mois selon l’utilisateur ou l’utilisatrice. Les limites de décision pour chaque licence varient en fonction du type de formule donc vous disposez :
 
 <table>
   <tr>
@@ -25,7 +25,7 @@ Limites réinitialisées chaque mois selon l’utilisateur. Les limites de déci
    </td>
    <td><strong>Externe</strong> 
    </td>
-   <td><strong>Contributeur</strong> 
+   <td><strong>Contributeur ou contributrice</strong> 
    </td>
    <td><strong>Light</strong> 
    </td>
@@ -62,19 +62,19 @@ Limites réinitialisées chaque mois selon l’utilisateur. Les limites de déci
   </tr>
 </table>
 
-## Utilisateurs externes
+## Utilisateurs et utilisatrices externes
 
-Si un utilisateur externe atteint sa limite de décision, il ne perdra pas l’accès à Workfront et pourra toujours prendre des décisions. Adobe Workfront évalue les dépassements.
+Si un utilisateur ou une utilisatrice externe atteint sa limite de décision, son accès à Workfront sera toujours disponible et il lui sera toujours possible de prendre des décisions. Adobe Workfront évaluera les dépassements.
 
-## Utilisateurs contributeurs
+## Contributeurs et contributrices
 
-Une fois qu’un utilisateur disposant d’une licence de contributeur atteint sa limite de décision, il est automatiquement mis à niveau vers la licence Light avec un BAT illimité et des décisions de document. Pour plus d’informations sur la licence Light, consultez la section [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) (Niveau d’accès léger) de l’article [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) (Aperçu des niveaux d’accès).
+Une fois qu’une personne disposant d’une licence de contributeur ou de contributrice atteint sa limite de décision, elle est automatiquement mise à niveau vers la licence Light avec des décisions relatives aux épreuves et documents illimitées. Pour plus d’informations sur la licence Light, voir [Niveau d’accès de la licence Light](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) dans l’article [Vue d’ensemble des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 >[!NOTE]
 >
->L’administrateur de Workfront recevra une notification par e-mail concernant cette mise à niveau.
+>L’administrateur ou administratrice Workfront recevra une notification par e-mail concernant cette mise à niveau.
 
 
-## Affichage du nombre de décisions pour un utilisateur
+## Afficher le nombre de décisions pour un utilisateur ou une utilisatrice
 
-Vous pouvez afficher le nombre de décisions d’un utilisateur dans la zone Utilisateurs de Workfront. Pour plus d’informations, voir [Affichage du nombre de décisions pour tous les utilisateurs](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+Vous pouvez afficher le nombre de décisions d’un utilisateur ou d’une utilisatrice dans la zone Utilisateurs et utilisatrices de Workfront. Pour plus d’informations, voir [Afficher le nombre de décisions pour tous les utilisateurs et utilisatrices](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

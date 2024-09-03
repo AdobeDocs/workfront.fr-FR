@@ -9,7 +9,7 @@ exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -25,21 +25,21 @@ Dans la zone Configuration de Workfront, les personnes disposant d’une licence
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle : standard</p> 
+   <td> <p>Nouveau : Standard</p> 
    <p>ou</p>
-   <p>Actuelle : formule</p>
+   <p>Actuel : formule</p>
    </td> 
   </tr> 
  </tbody> 

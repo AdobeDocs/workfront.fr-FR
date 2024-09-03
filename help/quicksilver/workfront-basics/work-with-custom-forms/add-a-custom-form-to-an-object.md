@@ -40,42 +40,42 @@ Vous pouvez ajouter un formulaire personnalisé uniquement aux types d’objets 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Pour effectuer les actions décrites dans cet article, vous devez disposer de l’accès suivant :
+Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
 <tr> 
   <td role="rowheader">Licence Adobe Workfront</td> 
-  <td> <p>Nouvelle : contributeur ou contributrice ou supérieure </p>
+  <td> <p>Nouvelle : contributeur ou supérieure </p>
  <p>ou</p> 
-<p>Actuelle : demande ou supérieure </p> 
+<p>Actuelle : demande ou niveau supérieur </p> 
 </td> 
  </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux objets pour lesquels vous gérez des formulaires personnalisés</p>
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux objets pour lesquels vous gérez des formulaires personnalisés</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion sur l’objet pour lequel vous souhaitez joindre un formulaire personnalisé.</p> <p>Autorisations d’affichage ou supérieures sur le formulaire personnalisé, avec l’autorisation de <b>Joindre aux données personnalisées</b> des objets (projets, tâches et problèmes). Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Partager un formulaire personnalisé</a>.</p> <p>Important : si vous ne disposez pas d’une licence de plan avec accès administratif aux formulaires personnalisés, vous devez disposer d’autorisations spécifiques pour au moins afficher le formulaire personnalisé, comme décrit dans la section <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Partager un formulaire personnalisé</a>. Ces autorisations doivent vous être accordées même si le formulaire est visible à l’échelle du système. </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations de gestion pour l’objet pour lequel vous souhaitez joindre un formulaire personnalisé.</p> <p>Autorisations Afficher ou supérieures sur le formulaire personnalisé, avec l’autorisation de <b>Joindre aux données personnalisées</b> des objets (projets, tâches et problèmes). Pour plus d’informations, voir <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Partager un formulaire personnalisé</a>.</p> <p>Important : si vous ne disposez pas d’une licence Plan avec accès administratif aux formulaires personnalisés, vous devez disposer d’autorisations spécifiques pour au moins afficher le formulaire personnalisé, comme décrit dans la section <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Partager un formulaire personnalisé</a>. Ces autorisations doivent vous être accordées même si le formulaire est visible à l’échelle du système. </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Conditions préalables
 
-Votre administrateur ou administratrice Workfront ou une personne disposant d’une licence de plan et d’un accès administratif aux formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement avant que vous ne puissiez les ajouter aux objets. Pour plus d’informations, voir [Concevoir un formulaire à l’aide du créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Votre administrateur ou administratrice Workfront ou une personne disposant d’une licence Plan et d’un accès administratif à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement avant que vous ne puissiez les ajouter aux objets. Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Ajouter un formulaire personnalisé à un objet
 
@@ -87,7 +87,7 @@ Vous pouvez ajouter un formulaire personnalisé à un objet de deux manières :
 ### Ajouter un formulaire personnalisé à un objet en modifiant l’objet {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Accédez à l’objet dans lequel vous souhaitez ajouter le formulaire personnalisé.
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis sur **Modifier** ![](assets/edit-icon.png).
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur **Modifier** ![](assets/edit-icon.png).
 1. Cliquez sur **Formulaires personnalisés** > **Ajouter des formulaires**, puis sélectionnez jusqu’à 10 formulaires dans le menu déroulant.
 
 1. (Facultatif) Mettez à jour les informations dans les champs modifiables du formulaire personnalisé.
@@ -125,13 +125,13 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 >L’ajout de formulaires personnalisés à des objets est identique pour tous les objets, à l’exception des projets.
 >
->Pour plus d’informations sur l’ajout de formulaires personnalisés à des projets en masse, voir l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
+>Pour plus d’informations sur l’ajout de formulaires personnalisés à des projets en masse, reportez-vous à l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. Accédez à une liste d’objets.
 1. Sélectionnez plusieurs objets dans la liste.
 
-1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis sur l’icône **Modifier** ![](assets/edit-icon.png).
+1. Cliquez sur le menu **Plus** ![](assets/more-icon.png), puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png).
 
    Ou
 

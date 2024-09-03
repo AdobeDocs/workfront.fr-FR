@@ -1,37 +1,37 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experience-manager-asset-essentials
-title: Dissocier ou supprimer des ressources et des dossiers d’Experience Manager Assets ou Assets Essentials
-description: Vous pouvez dissocier ou supprimer des éléments liés à Workfront d’Adobe Experience Manager Assets.
+title: Dissocier ou supprimer des ressources et des dossiers d’Experience Manager Assets ou d’Assets Essentials
+description: Vous pouvez annuler le lien ou supprimer des éléments liés à Workfront d’Adobe Experience Manager Assets.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
 source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
-# Dissocier ou supprimer des ressources et des dossiers d’Experience Manager Assets ou Assets Essentials
+# Dissocier ou supprimer des ressources et des dossiers d’Experience Manager Assets ou d’Assets Essentials
 
-Vous pouvez dissocier ou supprimer des éléments liés à Workfront d’Adobe Experience Manager Assets.
+Vous pouvez annuler le lien ou supprimer des éléments liés à Workfront d’Adobe Experience Manager Assets.
 
-## Suppression d’un document ou d’un dossier lié dans Workfront
+## Supprimer un document ou un dossier lié dans Workfront
 
-Lorsque vous supprimez un document ou un dossier lié dans Workfront, il est dissocié de Experience Manager Assets et supprimé uniquement dans Workfront. Le document ou la ressource n’est pas affecté dans Experience Manager Assets.
+Lorsque vous supprimez un document ou un dossier lié dans Workfront, le lien avec Experience Manager Assets est annulé et le document est supprimé uniquement dans Workfront. Le document ou la ressource n’est pas affecté dans Experience Manager Assets.
 
 1. Sélectionnez le document ou le dossier lié, puis cliquez sur **Supprimer**.
-1. Dans la boîte de confirmation qui s’affiche, cliquez sur **Oui, annulez la liaison**.
+1. Dans la boîte de dialogue de confirmation qui s’affiche, cliquez sur **Oui, annuler le lien**.
 
-   Le document n’est plus lié au site Workfront. Elle n’est pas affectée dans l’application externe.
+   Le document n’est plus lié au site Workfront. Il n’est pas affecté dans l’application externe.
 
-## Suppression d’un document ou d’un dossier lié dans Adobe Experience Manager
+## Supprimer un document ou un dossier lié dans Adobe Experience Manager
 
-Lorsque vous supprimez un document ou un dossier lié de l’application externe, le document ou le dossier reste dans le système Workfront jusqu’à ce que vous le supprimiez de Workfront.
+Lorsque vous supprimez un document ou un dossier lié de l’application externe, le document ou le dossier reste dans le système Workfront jusqu’à ce que vous le supprimiez dans Workfront.
 
-* Pour supprimer une ressource d’Adobe Experience Manager as a Cloud Service, voir [Suppression d’une ressource](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en#delete-assets) dans la documentation Adobe Experience Manager as a Cloud Service.
-* Pour supprimer une ressource de Adobe Experience Manager Assets Essentials, reportez-vous à la section [Suppression de ressources ou de dossiers](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=en#delete-assets) de la documentation Adobe Experience Manager Assets Essentials.
+* Pour supprimer une ressource d’Adobe Experience Manager as a Cloud Service, voir [Supprimer des ressources](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) dans la documentation Adobe Experience Manager as a Cloud Service.
+* Pour supprimer une ressource d’Adobe Experience Manager Assets Essentials, voir [Supprimer des ressources ou des dossiers](https://experienceleague.adobe.com/fr/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) dans la documentation Adobe Experience Manager Assets Essentials.
 
 
 

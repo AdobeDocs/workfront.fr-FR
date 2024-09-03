@@ -23,8 +23,8 @@ Vous pouvez collaborer sur les enregistrements Adobe Workfront Planning en ajo
 
 Le panneau de droite d’un enregistrement affiche les sections suivantes :
 
-* **Commentaires** : affiche les commentaires et réponses ajoutées aux enregistrements.
-* **Historique** : affiche les modifications apportées aux champs d’enregistrement et enregistrées par le système. Pour plus d’informations, voir [Vue d’ensemble de la section Historique](/help/quicksilver/planning/records/history-section-overview.md).
+* **Commentaires** : affiche les commentaires et réponses que les utilisateurs et les utilisatrices ajoutent aux enregistrements.
+* **Historique** : affiche les modifications enregistrées dans le système que les utilisateurs et les utilisatrices apportent aux champs des enregistrements. Pour plus d’informations, consultez la [Vue d’ensemble de la section Historique](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Conditions d’accès
 
@@ -47,7 +47,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -58,7 +58,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -82,8 +82,8 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> </td> 
+   <td>   <p>Autorisations d’affichage ou supérieures à un espace de travail</a> </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -92,7 +92,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -193,66 +193,66 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 1. Cliquez sur une carte de type enregistrement.
 La page de type enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
-1. Choisissez une vue de tableau dans le menu déroulant **Affichage**.
+1. Choisissez une vue en tableau dans le menu déroulant **Affichage**.
 1. Cliquez sur le nom d’un enregistrement dans la vue de tableau.
 
    La page **Détails** de l’enregistrement s’ouvre. La zone Commentaires s’ouvre par défaut dans le panneau de droite.
 
-1. (Le cas échéant) Si le panneau de droite ne s’ouvre pas par défaut, cliquez sur l’icône **Afficher les commentaires** ![](assets/show-comments-icon.png) dans le coin supérieur droit pour ouvrir la section Commentaires.
+1. (Le cas échéant) Si le panneau de droite ne s’ouvre pas par défaut, cliquez sur l’icône **Afficher les commentaires** ![](assets/show-comments-icon.png) dans le coin supérieur droit pour ouvrir la section des commentaires.
 
-1. Commencez à saisir un commentaire dans la zone **Nouveau commentaire**.
+1. Commencez à saisir un commentaire dans la boîte **Nouveau commentaire**.
 
    ![](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
-   >Lorsque vous quittez la section Commentaires avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode brouillon, même après une déconnexion et une reconnexion. Toutes les images ajoutées au commentaire sont également enregistrées dans le brouillon. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont ignorés et ne peuvent pas être récupérés. Les brouillons de commentaires ne sont visibles que par l’utilisateur ou l’utilisatrice qui les saisit.
+   >Lorsque vous quittez la section Commentaires avant de terminer la saisie et d’envoyer un commentaire, le commentaire reste en mode brouillon sur la page, même après votre déconnexion et reconnexion. Toutes les images ajoutées au commentaire sont également enregistrées dans le brouillon. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont éliminés et ne peuvent pas être récupérés. Les commentaires en mode brouillon ne sont visibles que par l’utilisateur ou l’utilisatrice qui les saisit.
 
 1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
-   * Ctrl+Z (⌘+Z pour Mac) pour annuler une modification
-   * Ctrl+Y (⌘+Y pour Mac) pour rétablir une modification
-1. (Facultatif) Ajoutez **@** suivi du nom d’une personne pour la taguer dans la mise à jour.
+   * Ctrl+Z (⌘+z pour Mac) pour annuler une modification
+   * Ctrl+Y (⌘+y pour Mac) pour rétablir la modification
+1. (Facultatif) Ajoutez **@** suivi du nom d’un utilisateur ou d’une utilisatrice pour identifier une personne dans la mise à jour.
 
    <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
 
-1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour afin d’améliorer votre contenu. Pour plus d’informations, voir la section Utiliser du texte enrichi dans une mise à jour Workfront dans l’article [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Utilisez les options de la barre d’outils de texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour, afin d’améliorer votre contenu. Pour plus d’informations, reportez-vous à la section « Utiliser du texte enrichi dans une mise à jour Workfront » de l’article [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]
    >
-   >Si un autre utilisateur ou une autre utilisatrice soumet un commentaire sur le même élément que celui que vous mettez à jour, une ligne rouge avec un indicateur « Nouveau » s’affiche pour vous informer des commentaires plus récents.
+   >Si une autre personne envoie un commentaire au même élément que celui que vous mettez à jour, une ligne rouge s’affiche avec un indicateur « Nouveau » pour vous informer des commentaires les plus récents.
    >
-   >L’indicateur ne s’affiche qu’après la soumission du commentaire sur l’élément, et non lorsque le commentaire est en cours de rédaction.
+   >L’indicateur s’affiche uniquement après l’envoi du commentaire sur l’élément, et non tant que le commentaire est toujours en train d’être composé.
    >
    >![](assets/new-line-indicator-comments.png)
 
-1. Cliquez sur **Soumettre** pour ajouter la mise à jour à l’enregistrement.
-1. (Facultatif) Pour modifier un commentaire, cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis sur **Modifier**.
+1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’enregistrement.
+1. (Facultatif) Pour modifier un commentaire, cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission.
+   >Vous ne pouvez modifier votre commentaire qu’au cours des 15 minutes suivant son envoi.
 
-1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez une des personnes balisées. Un indicateur « modifié » est ajouté à gauche du commentaire.
+1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez l’une des personnes mentionnées. Un indicateur « modifié » est ajouté à gauche du commentaire.
 
    >[!TIP]
    >
-   >Les commentaires de l’année en cours n’affichent pas l’année dans la date et l’heure. Survolez la date et l’heure pour afficher la date complète, année incluse.
+   >Les commentaires de l’année en cours n’affichent pas l’année dans l’horodatage. Le survol d’un horodatage affiche la date complète, année incluse.
 
-1. (Facultatif - Le cas échéant) Pour rechercher un commentaire existant, commencez à saisir un mot-clé dans la zone de recherche, dans le coin supérieur droit de la zone **Commentaires**.
+1. (Facultatif et le cas échéant) Pour rechercher un commentaire existant, commencez à saisir un mot-clé dans la zone de recherche située dans le coin supérieur droit de la zone **Commentaires**.
 
    ![](assets/search-box-for-comments-area.png)
 
-1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse...** pour répondre à un commentaire existant, puis suivez les étapes 4 à 8 ci-dessus.<!--(**************accurate??***********)-->
+1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse ...**, pour répondre à un commentaire existant, puis suivez les étapes 4 à 8 ci-dessus. <!--(**************accurate??***********)-->
 
-1. (Le cas échéant - Facultatif) Si d’autres personnes ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Commentaires pendant que vous ajoutiez vos commentaires, cliquez sur **Afficher** à l’intérieur de la **bannière des nouveaux commentaires** en bas de l’écran pour les afficher.
+1. (Le cas échéant et facultatif) Si d’autres personnes ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Commentaires pendant que vous ajoutiez vos commentaires, cliquez sur **Afficher** dans la **nouvelle bannière de commentaires** en bas de l’écran pour afficher ces commentaires.
 
    ![](assets/new-comments-banner-on-record.png)
 
-   Les commentaires supplémentaires s’affichent en bas de l’écran.
+   D’autres commentaires s’affichent en bas de l’écran.
 
-1. (Facultatif) Cliquez sur l’icône **J’aime** pour aimer une mise à jour ou indiquer que vous l’avez lue. L’icône se met à jour avec le nombre de mentions « J’aime ».
-1. (Le cas échéant - Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur les avatars des personnes incluses dans la mise à jour pour afficher une liste avec laquelle le commentaire saisi est partagé.
-1. (Facultatif) Cliquez sur l’icône **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis sur l’une des options suivantes pour copier une information d’un commentaire :
+1. (Facultatif) Cliquez sur l’icône **J’aime** pour aimer une mise à jour ou confirmer que vous l’avez lue. L’icône se met à jour avec le nombre de mentions « J’aime ».
+1. (Le cas échéant et facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur les avatars des personnes incluses dans la mise à jour pour afficher la liste des utilisateurs et utilisatrices avec qui le commentaire est partagé.
+1. (Facultatif) Cliquez sur l’icône **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, cliquez sur l’une des options suivantes pour copier une information d’un commentaire :
 
    * **Copier le lien** : copie un lien vers le commentaire dans le presse-papiers.
    * **Copier le corps de texte** : copie le texte du commentaire dans le presse-papiers.
@@ -260,7 +260,7 @@ La page de type enregistrement s’ouvre et tous les enregistrements de ce type 
 
    Pour plus d’informations, consultez la section [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Cliquez sur l’icône **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis cliquez sur **Supprimer** pour supprimer le commentaire.
-1. (Facultatif) Cliquez sur l’icône **Masquer les commentaires** ![](assets/hide-comments-icon.png) pour fermer le panneau droit.
+1. (Facultatif) Cliquez sur l’icône **Masquer les commentaires** ![](assets/hide-comments-icon.png) pour fermer le panneau de droite.
 
 ## Vue d’ensemble de la section Historique
 

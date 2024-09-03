@@ -8,32 +8,32 @@ exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # Améliorations de la page d’accueil du premier trimestre 2024
 
-Cette page décrit toutes les améliorations de l’accueil apportées à la version du premier trimestre 2024 de l’environnement Aperçu. Ces améliorations seront rendues disponibles dans l’environnement de production avec la version du premier trimestre 2024.
+Cette page décrit toutes les améliorations de la page d’accueil apportées à la version du premier trimestre 2024 de l’environnement de prévisualisation. Si indiqué, ces améliorations seront disponibles dans l’environnement de production avec la version du premier trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication Premier trimestre 2024, reportez-vous à la [présentation de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2024, consultez l’article [Vue d’ensemble de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-## Nouveau widget Autorisations en attente disponible
+## Nouveau widget « Approbations en attente » disponible
 
-Pour faciliter l’affichage de l’état des approbations et des révisions pour les projets que vous détenez, nous avons ajouté un nouveau widget Autorisations en attente à l’accueil. Ici, vous pouvez voir la liste des utilisateurs affectés à l’approbation ou à la révision de documents sur les projets que vous détenez, consulter l’état de leur révision ou approbation, et rappeler aux réviseurs et aux approbateurs de terminer leur révision ou approbation.
+Pour faciliter l’affichage du statut des approbations et des révisions pour les projets dont vous êtes responsable, nous avons ajouté un nouveau widget « Approbations en attente » sur la page d’accueil. Vous pouvez y consulter la liste des utilisateurs et des utilisatrices ayant pour mission d’approuver ou de réviser des documents sur des projets qui vous appartiennent, voir le statut de leur révision ou de leur approbation et rappeler aux réviseurs et réviseuses de terminer ces tâches si nécessaire.
 
-Pour plus d’informations sur les widgets d’accueil, voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur les widgets de la page d’accueil, consultez la section [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Contrôles administrateur pour la nouvelle page d’accueil à l’aide des modèles de mise en page
+## Contrôles d’administration pour la nouvelle page d’accueil à l’aide des modèles de mise en page
 
-Les administrateurs peuvent désormais personnaliser la nouvelle page d’accueil pour les utilisateurs à l’aide de modèles de mise en page. Les options de personnalisation incluent la sélection des widgets obligatoires et de leur position, le choix d’un arrière-plan et des options spécifiques aux widgets pour le choix des filtres et des groupes disponibles (ainsi que la définition des valeurs par défaut).
+Les administrateurs et les administratrices peuvent désormais personnaliser le nouvel Accueil pour les utilisateurs et les utilisatrices à l’aide de modèles de disposition. Les options de personnalisation comprennent la sélection des widgets obligatoires et leur position, le choix d’un arrière-plan et des options spécifiques aux widgets pour choisir les filtres et les groupes disponibles (et définir les valeurs par défaut).
 
-Notez que les choix de modèle de mise en page administrateur remplacent la personnalisation de chaque utilisateur. En d’autres termes, lorsque des modifications sont enregistrées dans un modèle de mise en page, la nouvelle page d’accueil des utilisateurs de ce modèle est modifiée pour correspondre au modèle de mise en page et les sélections de widget existantes sont placées en bas de la page. Bien que les widgets sélectionnés par l’administrateur puissent être repositionnés par un utilisateur, ils ne peuvent pas être supprimés.
+Notez que les paramètres de mise en page définis par votre administration l’emportent sur les personnalisations individuelles des utilisateurs et des utilisatrices. Lorsque vous enregistrez des modifications sur un modèle de mise en page, tous les utilisateurs et toutes les utilisatrices de ce modèle verront leur page d’accueil mise à jour pour refléter ces changements, et leurs widgets sélectionnés seront repositionnés en bas de la page. Bien que les widgets sélectionnés par l’administration puissent être repositionnés par un utilisateur ou par une utilisatrice, ils ne peuvent pas être supprimés.
 
-Pour plus d’informations, voir [Personnaliser la nouvelle page d’accueil à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Pour plus d’informations, consultez la section [Personnaliser la nouvelle page d’accueil à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
-## Les boutons d’action rapide Mon travail ont été modifiés pour s’afficher uniquement lorsque la souris passe dessus.
+## Les boutons d’action rapide « Mon travail » ont été modifiés pour ne s’afficher que lorsque vous placez le pointeur de la souris sur un élément de travail.
 
-Pour améliorer les performances, les boutons d’action rapide disponibles dans le widget Mon travail ne s’affichent désormais que lorsqu’un élément de travail est survolé avec la souris.
+Pour améliorer les performances, les boutons d’action rapide disponibles dans le widget Mon travail ne s’affichent désormais que lorsque vous placez le pointeur de la souris sur un élément de travail.
 
-Pour plus d’informations sur les boutons d’action rapide disponibles dans le widget Mon travail, voir [Prise en main de la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Pour plus d’informations sur les boutons d’action rapide disponibles dans le widget « Mon travail », consultez la section [Commencer avec la nouvelle page d’accueil](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

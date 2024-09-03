@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Téléchargement de documents à partir d’Illustrator
-description: Vous pouvez télécharger vos panoramas d’art en tant que documents pour un examen et une approbation rapides ou simplement les stocker dans Adobe Workfront.
+title: Charger des documents depuis Illustrator
+description: Vous pouvez charger vos panoramas d’art en tant que documents pour un examen et une approbation rapides ou simplement les stocker dans Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
 source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
-# Téléchargement de documents depuis [!DNL Illustrator]
+# Charger des documents depuis [!DNL Illustrator]
 
-Vous pouvez télécharger vos projets sous forme de documents pour une révision et une approbation rapides ou simplement pour les stocker dans [!DNL Adobe Workfront].
+Vous pouvez charger vos projets sous forme de documents pour les réviser et les approuver rapidement ou simplement les stocker dans [!DNL Adobe Workfront].
 
 ## Conditions d’accès
 
@@ -40,27 +40,27 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    <td>Vous devez disposer d’une licence [!DNL Adobe Creative Cloud] en plus d’une licence [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux [!UICONTROL Documents]</p> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur [!DNL Workfront] s’il définit des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux [!UICONTROL Documents]</p> <p>Note : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration [!DNL Workfront] si des restrictions supplémentaires sont définies pour votre niveau d’accès. Pour plus d’informations sur la manière dont l’administration [!DNL Workfront] peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichez l’accès ou une version ultérieure à l’objet dans lequel vous souhaitez charger un document.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Accès en affichage ou supérieur à l’objet dans lequel vous souhaitez charger un document.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
 
 +++
 
 ## Conditions préalables
 
-* Vous devez installer [!DNL Adobe Workfront for design and video] avant de pouvoir télécharger des documents à partir de [!DNL Illustrator].
+* Vous devez installer [!DNL Adobe Workfront for design and video] avant de pouvoir charger des documents depuis [!DNL Illustrator].
 
-  Pour obtenir des instructions, voir [Installation [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
-## Télécharger des documents vers [!DNL Illustrator]
+## Charger des documents vers [!DNL Illustrator]
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
@@ -69,14 +69,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger un document.
 1. Cliquez sur l’icône **[!UICONTROL Document]** ![](assets/documents.png) dans la barre de navigation.
 
-1. Cliquez sur **[!UICONTROL New File]** près du bas du module externe.
-1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
-1. Sélectionnez le **[!UICONTROL Type de ressource]** dans le menu déroulant.
-1. Ouvrez la boîte de dialogue **[!UICONTROL Définir les paramètres du fichier d’exportation]** , puis configurez les options d’exportation souhaitées en fonction du type de ressource sélectionné ci-dessus.
+1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du plug-in.
+1. (Facultatif) Saisir un commentaire dans la zone **[!UICONTROL Mises à jour]**.
+1. Choisissez le **[!UICONTROL Type de ressource]** dans le menu déroulant.
+1. Ouvrez la boîte de dialogue **[!UICONTROL Définir les paramètres d’export de fichier]**, puis configurez les options d’export souhaitées en fonction du type de ressource sélectionné ci-dessus.
 
    ![](assets/file-export-settings.png)
-1. Cliquez sur **[!UICONTROL Télécharger]**.
-Le document apparaît dans la zone [!UICONTROL Documents] du module externe et de l’appli de bureau.
+1. Cliquez sur **[!UICONTROL Charger]**.
+Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.
 
 >[!NOTE]
 >

@@ -10,13 +10,13 @@ exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
 source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
 # Ajouter un module de déclenchement à un scénario de base
 
-Les modules de déclenchement sont placés au début d’un scénario. Ces modules commencent une exécution de scénario lorsque des critères spécifiques ont été modifiés dans un service donné. La modification peut être la création de nouveaux enregistrements, la suppression d’un enregistrement, la mise à jour d’un enregistrement, etc.
+Les modules de déclenchement sont placés au début d’un scénario. Ces modules commencent une exécution de scénario lorsque des critères spécifiques ont été modifiés dans un service donné. La modification peut consister en la création d’enregistrements, la suppression d’un enregistrement, la mise à jour d’un enregistrement, etc.
 
 Les modules d’interrogation vérifient le service à un intervalle de temps défini et renvoient des informations sur les modifications qui se sont produites au cours de cet intervalle. Si aucune modification n’a été apportée, le déclencheur n’exécute pas le scénario.
 
@@ -70,7 +70,7 @@ Le premier module ayant été remplacé, le deuxième module doit être mappé a
 ### Tester et activer
 
 1. Accédez à l’environnement Workfront auquel Fusion se connecte et ajoutez un problème.
-1. Cliquez sur **[!UICONTROL Exécuter une seule fois]** dans le coin inférieur gauche de l’éditeur de scénario.
+1. Cliquez sur **[!UICONTROL Exécuter une fois]** dans le coin inférieur gauche de l’éditeur de scénario.
 1. Examinez la sortie pour vous assurer que le scénario s’est exécuté comme prévu.
 1. Lorsque vous êtes satisfait que le scénario fonctionne comme prévu, cliquez sur le bouton **Planification** situé dans le coin inférieur gauche de l’écran pour activer **On**.
 
@@ -79,7 +79,7 @@ Le premier module ayant été remplacé, le deuxième module doit être mappé a
 
    >[!IMPORTANT]
    >
-   >Enregistrez à intervalles réguliers lorsque vous affinez et testez un scénario.
+   >Sauvegardez souvent lorsque vous affinez et testez un scénario.
 
 ## Ressources
 

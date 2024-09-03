@@ -9,7 +9,7 @@ exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 43%
+ht-degree: 88%
 
 ---
 
@@ -25,27 +25,27 @@ Vous pouvez ajouter d’autres approbateurs ou réviseurs à une ressource ou à
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Affichage ou accès supérieur pour Projets, Tâches, Problèmes, Modèles, Portfolios, Programmes, Rapports, Tableaux de bord, Calendriers et Documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Affichage ou accès supérieur pour Projets, Tâches, Problèmes, Modèles, Portfolios, Programmes, Rapports, Tableaux de bord, Calendriers et Documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Visualiser l'accès ou l'accès supérieur à l'objet associé à la validation ou à l'accès à la demande </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Afficher ou avoir un accès supérieur à l’objet associé à l’approbation ou à l’accès à la demande </p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,11 +56,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Ajout d’approbateurs ou de réviseurs supplémentaires à partir de la page Détails du document
 
-1. Accédez à la page du document en cliquant sur le nom du document, puis sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou un réviseur dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
+1. Accédez à la page du document en cliquant sur le nom du document, puis sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou une approbatrice ou un réviseur ou une réviseuse dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
 
-1. Sélectionnez **Validations** dans le volet de gauche. Tous les approbateurs et réviseurs existants sont répertoriés ici.
+1. Sélectionnez **Approbations** dans le volet de navigation de gauche. Tous les approbateurs, approbatrices, réviseurs et réviseuses existants sont répertoriés ici.
 
-1. Pour ajouter un approbateur, assurez-vous que la case **Approbateur** est cochée, puis commencez à saisir le nom dans la zone de texte **Réviseurs** . Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant de saisir le texte.
+1. Pour ajouter un approbateur ou une approbatrice, assurez-vous que la case **Personne approbatrice** est cochée, vous pouvez ensuite saisir du texte dans la zone de texte **Personnes réviseuses**. Vous pouvez ajouter des utilisateurs et des utilisatrices ou des équipes Workfront en utilisant leur nom. Si vous souhaitez plutôt ajouter un réviseur ou une réviseuse, décochez simplement la case **Personne approbatrice** avant la saisie.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 
@@ -68,11 +68,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
 
-1. Cliquez sur le document dont vous avez besoin et le volet Résumé du document s’ouvre.
+1. Cliquez sur le document dont vous avez besoin, le volet Résumé du document s’ouvre alors.
 
-1. Sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou un réviseur dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
+1. Sélectionnez la version du document à laquelle vous souhaitez ajouter un approbateur ou une approbatrice ou un réviseur ou une réviseuse dans la liste déroulante des versions. La version la plus récente est sélectionnée par défaut.
 
-1. Faites défiler l’écran jusqu’à la section **Validations** du volet Résumé du document, où sont répertoriés tous les approbateurs et réviseurs existants. Pour ajouter un approbateur, assurez-vous que la case **Approbateur** est cochée, puis commencez à saisir le nom dans la zone de texte **Réviseurs** . Vous pouvez ajouter des utilisateurs ou des équipes Workfront par nom. Si vous souhaitez ajouter un réviseur, désélectionnez simplement la case **Approbateur** avant de saisir le texte.
+1. Faites défiler l’écran vers le bas jusqu’à la section **Approbations** dans le volet Résumé du document, où sont répertoriés tous les approbateurs, approbatrices, réviseurs et réviseuses existants. Pour ajouter un approbateur ou une approbatrice, assurez-vous que la case **Personne approbatrice** est cochée, vous pouvez ensuite saisir du texte dans la zone de texte **Personnes réviseuses**. Vous pouvez ajouter des utilisateurs et des utilisatrices ou des équipes Workfront en utilisant leur nom. Si vous souhaitez plutôt ajouter un réviseur ou une réviseuse, décochez simplement la case **Personne approbatrice** avant la saisie.
 
 1. Répétez l’étape précédente pour ajouter d’autres approbateurs, approbatrices, réviseurs ou réviseuses.
 

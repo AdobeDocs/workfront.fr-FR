@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Notification des BAT et rappel - Aperçu
-description: En savoir plus sur les notifications de BAT et les rappels.
+title: Vue d’ensemble des notifications et des rappels d’épreuve
+description: En savoir plus sur les notifications et les rappels d’épreuve.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 028a1a01-40fa-4b09-912a-b9f522c49df9
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 45%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture à l’intérieur d’ [!DNL Adobe Workfront], voir [Relecture](../../review-and-approve-work/proofing/proofing.md).
 
 Cette section contient les sous-sections suivantes :
 

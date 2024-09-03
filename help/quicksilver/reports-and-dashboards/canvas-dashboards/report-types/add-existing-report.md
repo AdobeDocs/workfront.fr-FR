@@ -1,7 +1,7 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Ajout d’un rapport existant à un tableau de bord Zone de travail
+title: Ajouter un rapport existant à un tableau de bord de zones de travail
 description: Les rapports créés à l’aide de l’outil Rapports Adobe Workfront peuvent être ajoutés à un tableau de bord Zone de travail.
 author: Nolan
 feature: Reports and Dashboards
@@ -9,11 +9,11 @@ exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
 source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 23%
+ht-degree: 35%
 
 ---
 
-# Ajout d’un rapport existant à un tableau de bord Zone de travail
+# Ajouter un rapport existant à un tableau de bord de zones de travail
 
 >[!IMPORTANT]
 >
@@ -25,32 +25,32 @@ Pour obtenir des informations générales sur l’ajout et la disposition de rap
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Nouvelle : standard
+   <td>Nouveau : Standard
    <p>ou</p>
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’accès Modifier pour les tableaux de bord.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Ajout d’un rapport existant à un tableau de bord Zone de travail
+## Ajouter un rapport existant à un tableau de bord de zones de travail
 
 >[!IMPORTANT]
 >

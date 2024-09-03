@@ -10,7 +10,7 @@ exl-id: 6d053968-1578-4c20-b2a7-43634481696f
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
@@ -23,16 +23,16 @@ Lors de la modification en ligne de dates dans une liste d’objets, le calendri
 
 ## Cause
 
-L’affichage de la fenêtre du navigateur a été modifié pour s’afficher dans un niveau de zoom supérieur à 100 %.
+L’affichage de la fenêtre du navigateur a été modifié pour apparaître avec un niveau de zoom supérieur à 100 %.
 
 ## Solution
 
-Vous devez définir le niveau de zoom sur 100 % ou moins dans votre navigateur.
+Vous devez définir le niveau de zoom sur 100 % ou moins dans votre navigateur.
 
 La modification du niveau de zoom sur votre navigateur dépend du navigateur utilisé.
 
-Pour modifier le niveau de zoom dans Google Chrome :
+Pour modifier le niveau de zoom dans Google Chrome, procédez comme suit :
 
 1. Dans une fenêtre de navigateur, accédez à **Affichage**.
-1. Cliquez sur **Zoom avant** pour réduire le niveau de zoom dans la fenêtre du navigateur actuel.\
+1. Cliquez sur **Zoom avant** pour réduire l’échelle dans la fenêtre de navigateur active.\
    La zone d’affichage de votre navigateur est réduite.

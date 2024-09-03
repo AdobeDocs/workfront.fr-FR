@@ -1,6 +1,6 @@
 ---
-title: Activité Publication de fusion Workfront :&nbsp;Semaine du 2 août 2021
-description: Activité Publication de fusion Workfront :&nbsp;Semaine du 2 août 2021
+title: Activité Version Adobe Workfront Fusion : semaine du 2 août 2021
+description: Activité Version Adobe Workfront Fusion : semaine du 2 août 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -10,17 +10,17 @@ hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
-# Activité Publication de fusion Workfront : Semaine du 2 août 2021
+# Activité Version d’Adobe Workfront Fusion : semaine du 2 août 2021
 
-Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 2 août 2021.
+Cette page décrit toutes les améliorations apportées à Adobe Workfront Fusion au cours de la semaine du 2 août 2021.
 
-Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Pour obtenir la liste de toutes les modifications récentes, voir [Activité de publication d’Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
+Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-vous à la page [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) et recherchez toutes les mises à jour intitulées Mise à jour de maintenance de Workfront Fusion.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -45,23 +45,23 @@ Pour obtenir la liste des correctifs récents dans Workfront Fusion, reportez-v
 </div>
 -->
 
-## Nouvelles fonctions disponibles dans le panneau Mappage
+## Nouvelles fonctions disponibles dans le panneau de mappage
 
 Deux nouvelles fonctions sont désormais disponibles dans le panneau de mappage.
 
-* Nouvelle fonction de date et d’heure : dateDifference
+* Nouvelle fonction de date et d’heure : dateDifference
 
-  Afin de faciliter le calcul des intervalles de temps dans vos scénarios, nous avons ajouté la nouvelle fonction de date et d’heure &quot;dateDifference&quot;. Cette fonction prend deux dates ou heures et une unité de temps et renvoie le temps entre les dates ou heures, exprimé dans l’unité de temps choisie.
+  Pour faciliter le calcul des intervalles de temps dans les scénarios, la nouvelle fonction de date et d’heure « dateDifference » a été ajoutée. Cette fonction prend deux dates ou heures et une unité de temps, et renvoie le temps écoulé entre les dates ou heures, exprimé dans l’unité de temps choisie.
 
-  Auparavant, les différences de date et d’heure ne pouvaient être calculées que par une formule saisie par l’utilisateur.
+  Auparavant, les différences de date et d’heure ne pouvaient être calculées que par une formule saisie par l’utilisateur ou l’utilisatrice.
 
-  Pour plus d’informations, voir [Fonctions de date et d’heure dans Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
+  Pour plus d’informations, consultez la section [Fonctions de date et d’heure dans Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
 
-* Nouvelle fonction de tableau : arrayDifference
+* Nouvelle fonction de tableau : arrayDifference
 
-  Cette fonction prend deux tableaux et renvoie un nouveau tableau. Vous pouvez sélectionner le type de nouveau tableau renvoyé par le module :
+  Cette fonction prend deux tableaux et renvoie un nouveau tableau. Vous pouvez sélectionner le type de nouveau tableau renvoyé par le module :
 
-   * Tableau d’éléments d’un tableau qui ne sont pas contenus dans l’autre
+   * Tableau d’éléments d’un tableau qui ne sont pas contenus dans l’autre.
    * Tableau d’éléments contenus dans un tableau ou un autre, mais pas les deux.
 
-  Pour plus d’informations, voir [Fonctions de tableau dans Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).
+  Pour plus d’informations, consultez la section [Fonctions de tableau dans Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).

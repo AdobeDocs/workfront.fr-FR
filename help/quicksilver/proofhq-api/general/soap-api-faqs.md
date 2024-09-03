@@ -9,67 +9,67 @@ exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Questions fréquentes sur l’API SOAP
 
-## Comment créer mon premier BAT de fichier ?
+## Comment créer ma première épreuve de fichier ?
 
-Il comprend 3 étapes simples :
+Il suffit de trois étapes simples :
 
-**Étape 1** : téléchargez le fichier vers Workfront Proof en l’envoyant via une requête Post à  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Nous vous renverrons le hachage du fichier - c&#39;est très important ! Notez qu’à ce stade, vous ne verrez rien dans votre compte, tout ce que vous avez fait jusqu’à présent est de nous envoyer le fichier mais ne nous a pas dit quoi en faire.
+**Étape 1** : chargez le fichier sur Workfront Proof en l’envoyant via une requête POST à [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Nous vous renverrons le hachage du fichier, c’est très important ! Notez qu’à ce stade, vous ne verrez rien sur votre compte, car vous n’avez fait que nous envoyer le fichier sans nous dire ce qu’il fallait en faire.
 
-**Étape 2** : si vous ne disposez pas encore d’ID de session, obtenez-en un à l’aide des méthodes doLogin() ou getSessionID() . Utilisez la première pour vous connecter à l’aide de l’adresse électronique et du mot de passe d’un utilisateur ou la seconde méthode si vous disposez de l’adresse électronique et du jeton d’authentification de l’utilisateur.
+**Étape 2** : si vous n’avez pas encore d’identifiant de session, obtenez-en un en utilisant les méthodes doLogin() ou getSessionID(). Utilisez la première méthode pour vous « connecter » à l’aide de l’adresse e-mail et du mot de passe de l’utilisateur ou utilisatrice, ou la seconde si vous disposez de l’adresse e-mail et du jeton d’authentification de l’utilisateur ou utilisatrice.
 
-**Étape 3 :** Il est maintenant temps de créer votre BAT. Utilisez la méthode createProof() et envoyez-nous au moins les champs requis (il n’y en a actuellement que 5). Assurez-vous de définir le paramètre Hash sur le hachage de fichier renvoyé lors de l’&quot;étape 1&quot;, car cela nous permet de déterminer le fichier à utiliser lors de la création de votre BAT.
+**Étape 3 :** il est maintenant temps de créer votre épreuve. Utilisez la méthode createProof() et envoyez-nous au moins les champs obligatoires (actuellement, il n’y en a que 5). Veillez à ce que le paramètre Hachage corresponde au hachage du fichier renvoyé lors de l’étape 1, car cela nous permet de déterminer le fichier à utiliser lors de la création de votre épreuve.
 
-Si vous vous connectez maintenant à votre compte, vous verrez le BAT.
+Si vous vous connectez maintenant à votre compte, vous verrez l’épreuve.
 
-## Comment créer mon premier BAT d’instantané web ?
+## Comment créer ma première épreuve instantanée web ?
 
-Il s’agit de deux étapes simples :
+Il suffit de suivre deux étapes simples 
 
-**Étape 1** : si vous n’avez pas encore d’ID de session, obtenez-en un à l’aide des méthodes doLogin() ou getSessionID() . Utilisez la première pour vous connecter à l’aide de l’adresse électronique et du mot de passe d’un utilisateur ou la seconde méthode si vous disposez de l’adresse électronique et du jeton d’authentification de l’utilisateur.
+**Étape 1** : si vous n’avez pas encore d’identifiant de session, obtenez-en un en utilisant les méthodes doLogin() ou getSessionID(). Utilisez la première méthode pour vous « connecter » à l’aide de l’adresse e-mail et du mot de passe de l’utilisateur ou utilisatrice, ou la seconde si vous disposez de l’adresse e-mail et du jeton d’authentification de l’utilisateur ou utilisatrice.
 
-**Étape 2 :**Il est maintenant temps de créer votre BAT. Utilisez la méthode createProof() et envoyez-nous au moins les champs requis (il n’y en a actuellement que 5). Assurez-vous de définir le paramètre Hash sur &quot;web&quot; et le paramètre SourceName comme URL de la page web que vous souhaitez capturer.
+**Étape 2 :**il est maintenant temps de créer votre épreuve. Utilisez la méthode createProof() et envoyez-nous au moins les champs obligatoires (actuellement, il n’y en a que 5). Veillez à définir le paramètre Hachage sur « web » et le paramètre SourceName en tant qu’URL de la page web que vous souhaitez capturer.
 
-Si vous vous connectez maintenant à votre compte, vous verrez le BAT.
+Si vous vous connectez maintenant à votre compte, vous verrez l’épreuve.
 
-## Quelle est la différence entre un bon à tirer et une version ?
+## Quelle est la différence entre une épreuve et une version ?
 
-Dans Workfront Proof, les versions s’affichent sous la forme d’un BAT unique. Cliquez sur une version spécifique de l’interface utilisateur web pour afficher les détails de cette version. En réalité, chaque version est un bon à tirer distinct et l’interface utilisateur Web les affiche ensemble.
+Dans Workfront Proof, les versions sont affichées comme une seule épreuve. En cliquant sur une version spécifique dans l’interface utilisateur web, les détails de cette version s’affichent. En réalité, chaque version est une épreuve distincte et l’interface utilisateur web les affiche ensemble.
 
-Du point de vue de l’API, chaque version est un bon à tirer distinct et les bons à tirer sont liés par leurs identifiants.
+Du point de vue de l’API, chaque version est une épreuve distincte et les épreuves sont reliées entre elles par leurs identifiants.
 
-**createProof()** crée toujours **version 1** du BAT. Supposons que, dans notre exemple, l’identifiant renvoyé pour ce BAT &quot;100&quot; soit.
+**createProof()** créera toujours la **version 1** de l’épreuve. Supposons, pour notre exemple, que l’identifiant renvoyé pour cette épreuve soit « 100 ».
 
-Lors de l’utilisation de **createProofVersion()**, envoyez toujours l’identifiant de la version précédente. Si nous voulons créer **version 2** sur le BAT &quot;100&quot;, nous **transmettons &quot;100&quot; pour le paramètre ParentFileID** . Cela indique au système que ce BAT doit être la version 2 de l’ensemble. La méthode renvoie un identifiant de BAT unique. Par exemple, supposons qu’il s’agisse de &quot;101&quot;.
+Lorsque vous utilisez **createProofVersion()**, envoyez toujours l’identifiant de la version précédente. Si nous voulons créer la **version 2** sur l’épreuve « 100 », nous **passons « 100 » pour le paramètre ParentFileID**. Cela indique au système que cette épreuve doit être la version 2 de l’ensemble. La méthode renvoie un numéro d’identification d’épreuve unique, pour notre exemple, disons « 101 ».
 
-Si une troisième version, c&#39;est-à-dire **version 3**, vous devrez à nouveau appeler **createProofVersion()** et cette fois **transmettre &quot;101&quot; pour le ParentFileID** qui assurera que la liste liée des versions est correctement créée.
+Si une troisième version, c’est-à-dire la **version 3**, est nécessaire, vous devez appeler à nouveau **createProofVersion()** et, cette fois, **transmettre « 101 » pour le paramètre ParentFileID**, ce qui garantira que la liste liée des versions est correctement créée.
 
-## Dois-je obtenir un nouvel ID de session avant chaque appel ?
+## Dois-je obtenir un nouvel identifiant de session avant chaque appel ?
 
-Il est important de souligner que chaque ID de session est essentiellement un utilisateur exécutant les actions. 
+Il est important de souligner que chaque identifiant de session correspond essentiellement à une personne effectuant les actions. 
 
-Vous n’avez pas besoin d’obtenir un nouvel ID de session avant chaque appel à l’API et il restera valide pendant 24 heures. Le délai d’expiration est réinitialisé chaque fois que vous effectuez un appel vers l’API.
+Il n’est pas nécessaire d’obtenir un nouvel identifiant de session avant chaque appel API et il restera valide pendant 24 heures. Le délai d’expiration est réinitialisé chaque fois que vous faites un appel API.
 
-## Qu’est-ce qu’un BAT / une URL personnelle ?
+## Qu’est-ce qu’une épreuve / URL personnelle ?
 
-**Team/Public** : chaque version de BAT possède une URL d’équipe (publique) unique. S’il est activé, le BAT s’ouvre en mode lecture seule. Vous pouvez obtenir l’URL de l’équipe à l’aide de la méthode [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) .
+**Équipe/Publique** : chaque version d’épreuve a une URL d’équipe (publique) unique. Si cette option est activée, l’épreuve s’ouvrira en mode Lecture seule. Vous pouvez obtenir l’URL de l’équipe en utilisant la méthode [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html).
 
-**Personnelle** : une URL personnelle est unique pour chaque réviseur et version de BAT. Si un jeu de BAT contient 3 versions et qu’un validant se trouve sur toutes les versions, le validant aura 3 URL personnelles uniques. Une URL personnelle ouvre la version du BAT avec le validant déjà identifié et doit donc être sécurisé et ne pas être partagé. Vous pouvez obtenir des URL personnelles en appelant la méthode [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) , puis en effectuant une itération sur chaque  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) et obtention du paramètre &quot;proof_url&quot;.
+**Personnelle** : une URL personnelle est unique pour chaque réviseur et réviseuse, et chaque version d’épreuve. Si un ensemble d’épreuves contient 3 versions et qu’un réviseur ou une réviseuse participe à toutes les versions, cette personne aura 3 URL personnelles uniques. Une URL personnelle ouvre la version d’épreuve avec le réviseur ou la réviseuse déjà identifié et doit donc être conservée en toute sécurité et ne pas être partagée. Les URL personnelles peuvent être obtenues en appelant la méthode [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html), puis en itérant chaque [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) et en obtenant le paramètre « proof_url ».
 
-## >Comment inclure des paramètres personnalisés lors de l’ouverture de l’épreuve de miniature ?
+## Comment inclure des paramètres personnalisés lors de l’ouverture d’une mini-épreuve ?
 
-L’épreuve en miniature vous permet d’incorporer l’outil de vérification dans votre propre page. Un paramètre &quot;referer&quot; peut être inclus dans le fichier minima afin de fournir une URL de redirection lorsqu’un utilisateur clique sur le bouton de fermeture dans le fichier minima. Vous pouvez inclure un certain nombre de paramètres personnalisés dans cette URL de redirection en les ajoutant à l’aide du caractère &quot;&amp;&quot; échappé, par exemple %26.
+La mini-épreuve vous permet d’intégrer l’outil de relecture dans votre propre page. Un paramètre « référent » peut être inclus dans la mini-épreuve afin de fournir une URL de redirection lorsqu’un utilisateur ou une utilisatrice clique sur le bouton de fermeture dans la mini-épreuve. Vous pouvez inclure un nombre illimité de paramètres personnalisés dans cette URL de redirection en les ajoutant à l’aide du caractère d’échappement « &amp; », par exemple %26.
 
-Par exemple, l’URL infaillible
-`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` doit être codé en tant que 
+Par exemple, l’URL de mini-épreuve
+`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` doit être encodée comme
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` pour que les paramètres personnalisés soient transmis.
 
-## Comment créer un client de service Web Java ?
+## Comment créer un client de service web Java ?
 
-[Cette vidéo](https://screencast.com/t/xsSNrqs5b) explique comment créer un client de service Web Java à l’aide d’Eclipse et de la définition WSDL Workfront Proof.
+[Cette vidéo](https://screencast.com/t/xsSNrqs5b) montre comment créer un client de service web Java à l’aide d’Eclipse et de la définition WSDL de Workfront Proof.
 

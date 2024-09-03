@@ -5,7 +5,7 @@ product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Questions fréquentes à propos des débuts
-description: Trouvez des réponses aux questions fréquentes sur l’importation et l’exportation de données Workfront à l’aide de Démarrages de session.
+description: Trouvez les réponses aux questions fréquemment posées sur l’import et l’export de données Workfront à l’aide des Kickstarts.
 author: LIsa
 feature: System Setup and Administration
 role: Admin
@@ -13,53 +13,53 @@ exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
 source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 1%
+ht-degree: 98%
 
 ---
 
-# Questions fréquentes à propos des débuts
+# Questions fréquentes à propos de Kick-Starts
 
-Vous trouverez ci-dessous les questions fréquemment posées à propos des débuts :
+Les questions les plus fréquemment posées sur les Kickstarts sont les suivantes :
 
-## Pourquoi cette erreur s’affiche-t-elle lorsque j’essaie d’importer un fichier de démarrage rapide : &quot;Votre fichier était correct, mais rien n’a été importé ?&quot;
-
-### Réponse
-
-L’un des trois éléments suivants peut ne pas figurer dans le fichier de démarrage :
-
-1. La colonne **isNew** doit être définie sur **TRUE** pour tous les éléments que vous souhaitez importer. **isNew** doit être **TRUE** car vous ne pouvez importer de nouvelles données qu’avec un coup de pied-de-départ. Vous ne pouvez pas modifier des données existantes par le biais du démarrage rapide. Vous pouvez avoir d’autres lignes dans la feuille de calcul avec **isNew = FALSE**, mais ces lignes ne seront pas importées.
-
-1. &#x200B; Le fichier doit comporter une ligne vide avant le démarrage des en-têtes de vos données.
-1. &#x200B; Les feuilles Excel doivent avoir le ou les noms appropriés.
-
-Lorsque vous travaillez avec les Kick-Starts, nous vous recommandons d’abord télécharger le modèle de démarrage rapide, de le renseigner manuellement avec les données correctes, puis de l’importer à nouveau dans Adobe Workfront.
-
-Pour plus d’informations sur l’importation correcte des données dans Workfront à l’aide de démarrage rapide, voir [Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
-
-## Pourquoi cette erreur s’affiche-t-elle lorsque j’essaie d’importer les heures dans Workfront à l’aide d’un fichier de démarrage rapide : &quot;Utilisateur avec la ou les valeurs de clé primaire &quot;null&quot; introuvable&quot; ?&quot;
+## Pourquoi est-ce que je reçois cette erreur lorsque j’essaie d’importer un fichier Kickstart : « Votre fichier est correct, mais rien n’a été importé » ?
 
 ### Réponse
 
-L’erreur fait référence au GUID de l’utilisateur associé aux heures.
+L’un des trois éléments suivants peut manquer dans le fichier Kickstart :
 
-Pour résoudre ce problème :
+1. La colonne **isNew** doit avoir la valeur **TRUE** pour tous les éléments que vous souhaitez importer. **isNew** doit avoir la valeur **TRUE**, car vous ne pouvez importer de nouvelles données qu’avec un Kickstart. Vous ne pouvez pas modifier des données existantes via Kickstart. Vous pouvez avoir d’autres lignes dans la feuille de calcul avec **isNew = FALSE**, mais ces lignes ne seront pas importées.
 
-1. Exportez un modèle de démarrage rapide vierge pour l’objet **Hours** uniquement.\
-   Pour plus d’informations sur l’exportation d’un fichier de démarrage rapide vierge, voir &quot;Exportation du modèle de démarrage rapide&quot; dans [Importation de données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+1. Le fichier doit comporter une ligne vide avant le début des en-têtes de vos données.
+1. Les feuilles Excel doivent avoir les noms corrects.
 
-1. Copiez manuellement les données du démarrage initial et collez-les dans le fichier vide.\
-   Effectuez cette opération pour chaque colonne.
-1. Essayez de réimporter le nouveau fichier.\
-   L’importation du lancement doit réussir.
+Lorsque vous travaillez avec des Kickstarts, nous vous recommandons de télécharger d’abord le modèle Kickstart, de le remplir manuellement avec les données correctes, puis de le réimporter dans Adobe Workfront.
 
-## Pourquoi le champ Pays n’est-il pas renseigné sur le profil utilisateur dans un import de démarrage rapide ?
+Pour plus d’informations sur l’import de données correctes dans Workfront à l’aide de Kickstarts, voir [Importer des données dans Adobe Workfront à l’aide d’un modèle Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+## Pourquoi est-ce que je reçois cette erreur lorsque j’essaie d’importer des heures dans Workfront à l’aide d’un fichier Kickstart : « Utilisateur ou utilisatrice aux valeurs de clé primaire « null » introuvable » ?
+
+### Réponse
+
+L’erreur se réfère au GUID de la personne associée aux heures.
+
+Afin d’y remédier, procédez comme suit :
+
+1. Exporter un modèle Kickstart vierge pour l’objet **Heures** uniquement.\
+   Pour plus d’informations sur l’export d’un fichier Kickstart vierge, voir « Exporter le modèle Kickstart » dans [Importer des données dans Adobe Workfront à l’aide d’un modèle Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+1. Copiez manuellement les données du Kickstart d’origine et collez-les dans le fichier vide.\
+   Procédez ainsi pour chaque colonne.
+1. Essayez d’importer à nouveau le fichier.\
+   Le Kickstart devrait être importé sans encombre.
+
+## Pourquoi le champ Pays ne s’affiche-t-il pas dans le profil d’utilisateur ou d’utilisatrice lors d’un import de Kickstart ?
 
 ### Problème
 
-Lors de l’import d’un coup de pied-de-pied de l’utilisateur avec le champ **setCountry**, ces données ne sont pas transmises au pays sur le profil utilisateur.
+Lors de l’import d’un Kickstart d’utilisateur ou d’utilisatrice avec le champ **setCountry**, ces données ne sont pas transférées dans le pays indiqué sur le profil de la personne.
 
 ### Réponse
 
-Si l’utilisateur est activé pour Unified User Management (UUM) ou Adobe Identity Management System (IMS), le champ **Country** accepte uniquement les valeurs de code de pays (par exemple, US, GB, IN). Vérifiez que le champ **setCountry** de votre modèle de démarrage rapide utilise des valeurs de code de pays avant l’importation.
+Si la personne est activée pour la gestion unifiée des utilisateurs et utilisatrices (UUM) ou le système de gestion des identités Adobe (IMS), le champ **Pays** n’accepte que les codes de pays comme valeurs (par exemple, US, GB, IN). Vérifiez que le champ **setCountry** de votre modèle Kickstart utilise des codes de pays comme valeurs avant de procéder à l’import.
 
-Pour plus d’informations sur l’importation correcte des données dans Workfront à l’aide de démarrage rapide, voir [Importer des données dans Adobe Workfront à l’aide d’un modèle de démarrage rapide](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Pour plus d’informations sur l’import de données correctes dans Workfront à l’aide de Kickstarts, voir [Importer des données dans Adobe Workfront à l’aide d’un modèle Kickstart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

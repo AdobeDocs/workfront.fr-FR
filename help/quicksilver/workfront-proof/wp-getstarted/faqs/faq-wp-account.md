@@ -3,78 +3,78 @@ content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
-title: FAQ -  [!DNL Workfront Proof] compte
-description: Pour ouvrir un nouveau compte, accédez à la page d’inscription aux tests et ouvrez un compte d’évaluation. Un membre de notre équipe vous contactera alors pour vous aider à prendre en main [!DNL Workfront Proof].
+title: Questions fréquentes - Compte  [!DNL Workfront Proof]
+description: Pour ouvrir un nouveau compte, rendez-vous sur la page d’inscription à l’essai et ouvrez un compte d’essai. Une personne membre de notre équipe prendra ensuite contact avec vous pour vous aider à commencer avec  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
 source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# FAQ - compte [!DNL Workfront Proof]
+# Questions fréquentes - Compte [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-## Comment ouvrir un nouveau compte [!DNL Workfront Proof] ?
+## Comment ouvrir un nouveau compte [!DNL Workfront Proof] ?
 
-Pour ouvrir un nouveau compte, accédez à la [page d’inscription à l’évaluation](https://www.proofhq.com/html/free-trial.html) et ouvrez un compte d’évaluation. Un membre de notre équipe vous contactera alors pour vous aider à prendre en main [!DNL Workfront Proof].
+Pour ouvrir un nouveau compte, rendez-vous sur la [page d’inscription à l’essai](https://www.proofhq.com/html/free-trial.html) et ouvrez un compte d’essai. Une personne membre de notre équipe prendra ensuite contact avec vous pour vous aider à commencer avec [!DNL Workfront Proof].
 
-Si vous connaissez déjà le système et souhaitez souscrire à un forfait payant, accédez à *[!UICONTROL Paramètres]* *>* *[!UICONTROL Facturation]* et mettez à niveau votre compte vers l’un de nos forfaits payants.
+Si vous connaissez déjà le système et que vous souhaitez vous abonner à une formule payante, rendez-vous sur *[!UICONTROL Paramètres]* *>* *[!UICONTROL Facturation]* et mettez votre compte à niveau vers l’une de nos formules payantes.
 
-## Comment ajouter des personnes à mon compte ?
+## Comment ajouter des personnes à mon compte ?
 
-Les administrateurs et les administrateurs de facturation peuvent ajouter des utilisateurs à un compte. Les utilisateurs disposent de leurs propres tableaux de bord qui les aident à gérer leur travail et à créer des bons à tirer et des fichiers dans le compte.
+Les personnes chargées de l’administratrion et celles chargées de l’administration de la facturation peuvent ajouter des utilisateurs et utilisatrices à un compte. Les utilisateurs et utilisatrices disposent de leurs propres tableaux de bord qui les aident à gérer leur travail et peuvent créer des épreuves et des fichiers dans le compte.
 
-Veuillez consulter la section [Créer des utilisateurs à l’aide de [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) pour savoir comment ajouter des utilisateurs à un compte.
+Veuillez consulter [Créer des utilisateurs et utilisatrices à l’aide de  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) pour savoir comment ajouter des personnes à un compte.
 
-## J&#39;ai oublié mon mot de passe, que puis-je faire ?
+## J’ai oublié mon mot de passe, que puis-je faire ?
 
-Accédez à la [page de connexion](https://app.proofhq.com/login) et cliquez sur *[!UICONTROL Mot de passe oublié]*. Nous vous enverrons par courrier électronique un lien de réinitialisation qui vous permettra de modifier votre mot de passe.
+Accédez à la [page de connexion](https://app.proofhq.com/login) et cliquez sur *[!UICONTROL Mot de passe oublié]*. Nous vous enverrons par e-mail un lien de réinitialisation qui vous permettra de modifier votre mot de passe.
 
-## Pourquoi les profils d’autorisation sont-ils importants ?
+## Pourquoi les profils d’autorisation sont-ils importants ?
 
-Les profils d’autorisation définissent les accès des utilisateurs aux différents éléments de votre compte. C’est important si vous ne souhaitez pas que les personnes puissent voir les bons à tirer d’autres personnes ou si vous ne souhaitez pas qu’elles aient accès aux [!UICONTROL Paramètres du compte] ou à la [!UICONTROL Facturation]. Veuillez consulter l’article [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) pour savoir quels profils sont disponibles dans [!DNL Workfront Proof].
+Les profils d’autorisation définissent l’accès des personnes aux différents éléments de votre compte. Ceci est important si vous ne voulez pas que les personnes puissent voir les épreuves des autres ou si vous ne voulez pas qu’elles aient accès aux [!UICONTROL Paramètres du compte] ou à la [!UICONTROL Facturation]. Veuillez consulter l’article [Profils d’autorisation d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) pour voir quels profils sont disponibles dans [!DNL Workfront Proof].
 
-Si vous devez affiner un peu plus les autorisations, vous pouvez envisager les profils personnalisés. Il s’agit d’une fonctionnalité [!UICONTROL Unlimited] qui vous permet de créer vos propres profils avec des autorisations personnalisées. Pour plus d’informations, reportez-vous à l’article [[!UICONTROL Créer et gérer des profils personnalisés à l’aide de [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) .
+Si vous souhaitez affiner un peu plus les autorisations, vous pouvez envisager des profils personnalisés. Il s’agit d’une fonctionnalité [!UICONTROL illimitée] qui vous permet de créer vos propres profils avec des autorisations personnalisées. Pour plus de détails, veuillez consulter l’article [[!UICONTROL Créer et gérer des profils personnalisés à l’aide de  [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
 
-## Quelle est la différence entre un rôle de BAT et un profil d’autorisation ?
+## Quelle est la différence entre un rôle d’épreuve et un profil d’autorisation ?
 
-Les rôles de BAT définissent les actions que les réviseurs doivent être en mesure de réaliser sur un BAT (commentaires, prise de décisions, etc.).
+Les rôles d’épreuve définissent les actions que les réviseurs et réviseuses doivent pouvoir entreprendre sur une épreuve (commenter, prendre des décisions, etc.).
 
-Les profils d’autorisation définissent les actions que les utilisateurs doivent pouvoir prendre dans votre compte (création de BAT, modification des BAT d’autres personnes, gestion des paramètres du compte, etc.).
+Les profils d’autorisation définissent les actions que les utilisateurs et utilisatrices doivent pouvoir effectuer dans votre compte (création d’épreuves, modification des épreuves d’autres personnes, gestion des paramètres du compte, etc.).
 
-## Comment organiser mes bons à tirer ?
+## Comment organiser mes épreuves ?
 
-La méthode la plus courante pour organiser les bons à tirer et les fichiers consiste à créer une structure de dossiers dans votre compte. Vous pouvez avoir autant de dossiers et de sous-dossiers que nécessaire.
+La façon la plus courante d’organiser les épreuves et les fichiers consiste à créer une structure de dossiers dans votre compte. Vous pouvez avoir autant de dossiers et de sous-dossiers que vous le souhaitez.
 
-Par exemple, vous pouvez créer des dossiers distincts pour chaque client, puis différents sous-dossiers pour chaque projet. Vous pouvez également créer des dossiers pour les projets et créer différents sous-dossiers pour différentes ressources. Si vous préférez, les créateurs de BAT peuvent simplement créer chacun leur propre dossier pour les bons à tirer qu’ils ont créés. Les dossiers sont décrits dans l’article [Dossiers dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) .
+Par exemple, vous pouvez créer des dossiers distincts pour chaque client ou cliente, puis des sous-dossiers différents pour chaque projet. Vous pouvez également créer des dossiers pour les projets et créer des sous-dossiers différents pour les différentes ressources. Si vous préférez, les créateurs et créatrices d’épreuves peuvent simplement créer chacun leur propre dossier pour les épreuves qu’ils ont créées. Les dossiers sont décrits dans l’article [Dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-*Les balises* sont une autre manière d’organiser les bons à tirer et les fichiers dans votre compte. Vous pouvez appliquer plusieurs balises à vos bons à tirer et fichiers afin de les utiliser pour les noms de projet, les types de contenu, les noms de client, etc. Vous pouvez rechercher le compte à l’aide de balises, puis effectuer différentes actions sur les résultats de votre recherche. Vous pouvez également les utiliser dans vos vues personnalisées. Consultez l’article [[!UICONTROL Créer et gérer des balises] dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) pour en savoir plus sur les balises.
+Les *balises* sont une autre façon d’organiser les épreuves et les fichiers dans votre compte. Vous pouvez appliquer plusieurs balises à vos épreuves et à vos fichiers, de sorte que vous pouvez les utiliser pour les noms de projets, les types de contenu, les noms de clientes et clients, etc. Vous pouvez effectuer des recherches dans le compte à l’aide de balises, puis exécuter différentes actions en fonction des résultats de votre recherche. Vous pouvez également les utiliser dans vos vues personnalisées. Consultez l’article [[!UICONTROL Créer et gérer des balises] dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) pour en savoir plus sur les balises.
 
-## Comment puis-je donner un tableau de bord à mes clients ?
+## Comment puis-je donner un tableau de bord à mes clientes et clients ?
 
-Vous pouvez configurer un compte satellite à leur place. Les satellites sont des comptes distincts gérés depuis le compte central. Vous pouvez avoir plusieurs satellites attachés au même hub.
+Vous pouvez leur créer un compte satellite. Les satellites sont des comptes distincts qui sont gérés à partir du compte hub. Plusieurs satellites peuvent être reliés au même hub.
 
-Cette configuration vous permet de donner un tableau de bord à vos clients sans avoir à les ajouter à votre propre compte. C&#39;est un excellent moyen de s&#39;assurer que vos clients ne voient que les informations qu&#39;ils sont censés voir : les utilisateurs de comptes satellites ne voient aucun détail du compte hub (ou tout autre satellite rattaché au même hub). Les comptes satellites sont expliqués plus loin dans la section [Comptes satellites dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
+Cette configuration vous permet de donner un tableau de bord à vos clientes et clients sans avoir à ajouter ces derniers à votre propre compte. C’est un excellent moyen de s’assurer que vos clientes et clients ne voient que les informations qu’ils sont censés voir : les utilisateurs et utilisatrices du compte satellite ne voient aucun détail du compte hub (ou de tout autre satellite rattaché au même hub). Les comptes satellites sont expliqués plus en détail dans [Comptes satellites dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
 
-## Puis-je créer des rapports à l’aide de [!DNL Workfront Proof] ?
+## Puis-je créer des rapports à l’aide de [!DNL Workfront Proof] ?
 
-Les vues personnalisées disponibles dans les éditions [!UICONTROL Enterprise] et [!UICONTROL Unlimited] vous permettent de créer vos propres vues dans le compte. Vous pouvez choisir les informations à inclure dans cette vue, les filtres à utiliser et le mode de tri des informations. Il s’agit d’un outil idéal pour effectuer le suivi des bons à tirer et des fichiers dans votre compte, mais il peut également être utilisé comme outil de création de rapports. Les vues personnalisées peuvent être exportées vers un fichier [!DNL Excel], ce qui vous permet de traiter les données plus avant.
+Les vues personnalisées disponibles dans les éditions [!UICONTROL Entreprise] et [!UICONTROL Illimité] vous permettent de créer vos propres vues dans le compte. Vous pouvez choisir les informations que vous souhaitez inclure dans cette vue, les filtres que vous souhaitez utiliser et la manière de trier les informations. C’est un outil formidable pour suivre les épreuves et les fichiers de votre compte, mais il peut également être utilisé comme outil de création de rapports : les vues personnalisées peuvent être exportées vers un fichier [!DNL Excel], ce qui vous permet de traiter les données de manière plus approfondie.
 
-Des instructions détaillées sont disponibles sur la page [Créer et gérer des vues personnalisées dans [!DNL Workfront Proof] BAT](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) .
+Des instructions détaillées sont disponibles sur la page [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
-## Que puis-je faire si quelqu&#39;un supprime une preuve par accident ?
+## Que puis-je faire si une personne supprime une épreuve par accident ?
 
-Lorsqu’un BAT est supprimé, il est déplacé dans le dossier [!UICONTROL Corbeille] de la barre latérale. Ne vous inquiétez pas si vous avez supprimé quelque chose par erreur - si vous avez pu supprimer un BAT, vous pouvez également le récupérer à partir de la corbeille. Allez simplement à la [!UICONTROL Corbeille], sélectionnez le BAT que vous avez supprimé et cliquez sur *[!UICONTROL Restaurer]*.
+Lorsqu’une épreuve est supprimée, elle est déplacée vers le dossier [!UICONTROL Corbeille] dans la barre latérale. Ne vous inquiétez pas si vous avez supprimé quelque chose par erreur. Si vous avez pu supprimer une épreuve, vous pouvez également la récupérer dans la Corbeille. Il suffit d’accéder à la [!UICONTROL Corbeille], de sélectionner l’épreuve que vous avez supprimée et de cliquer sur *[!UICONTROL Restaurer]*.
 
-Pour plus d’informations sur le dossier Corbeille, reportez-vous à l’article [Restaurer et vider la corbeille dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) .
+De plus amples informations sur le dossier Corbeille sont disponibles dans l’article [Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-## Comment payer mon abonnement [!DNL Workfront Proof] ?
+## Comment puis-je régler mon abonnement à [!DNL Workfront Proof] ?
 
-Les abonnements mensuels sont payants uniquement par carte de crédit. Les abonnements annuels ont le choix entre une carte de crédit et un transfert bancaire. <!--Visit the [Account Payment in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->
+Les abonnements mensuels sont réglés uniquement par carte de crédit. Les abonnements annuels peuvent être réglés par carte de crédit ou par virement bancaire. <!--Visit the [Account Payment in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->

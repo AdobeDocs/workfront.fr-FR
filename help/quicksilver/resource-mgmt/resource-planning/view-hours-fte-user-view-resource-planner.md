@@ -2,89 +2,89 @@
 content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
-title: Afficher les heures disponibles, prévues et effectives ou ETP dans le planificateur de ressources lors de l’utilisation de la vue Utilisateur ou utilisatrice
-description: Afficher les heures disponibles, planifiées et réelles ou l’éditeur de texte enrichi dans le planificateur de ressources lors de l’utilisation de l’affichage des utilisateurs dans le programme de recherche (RP), par exemple "budget des ressources dans le programme de recherche" ou "Gestion des ressources dans le programme de recherche". etc.. - ou peut nécessiter une réutilisation à partir d’un autre POV?!)"
+title: Afficher les heures disponibles, prévues et effectives ou le temps complet dans le planificateur de ressources lors de l’utilisation de la vue utilisateur
+description: Affichez les heures disponibles, prévues et effectives ou le temps complet dans le planificateur de ressources lors de l’utilisation de la vue utilisateur du planificateur de ressources, par exemple « Planification dans le planificateur de ressources », « Établissement du budget des ressources dans le planificateur de ressources » ou « Gérer les ressources dans le planificateur de ressources », etc. Peut nécessiter une définition à partir d’un autre point de vue.
 author: Alina
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '1739'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Afficher les heures disponibles, prévues et effectives ou ETP dans le planificateur de ressources lors de l’utilisation de la vue Utilisateur ou utilisatrice
+# Afficher les heures disponibles, prévues et effectives ou le temps complet dans le planificateur de ressources lors de l’utilisation de la vue utilisateur
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Consider renaming this article (probably split already) to something other than "Planning" in the RP" - maybe "budgeting resources in the RP" or "Managing Resources in the RP." etc... - or might need to be repurposed from another POV?!)</p>
 -->
 
-Outre la planification des ressources dans les vues Projet et Rôle, vous pouvez utiliser la vue Utilisateur du planificateur de ressources Adobe Workfront pour afficher des informations sur les valeurs Heures prévues, Disponibles et Réelles ou ETR pour les projets et les ressources.
+Outre la planification des ressources dans les vues Projet et Rôle, vous pouvez utiliser la vue utilisateur du planificateur de ressources Adobe Workfront pour afficher des informations sur les valeurs Heures prévues, Heures disponibles et Heures effectives ou de temps complet pour les projets et les ressources.
 
-## Vue d’ensemble de l’utilisateur dans le planificateur de ressources
+## Vue d’ensemble de la vue utilisateur dans le planificateur de ressources
 
-Tenez compte de ce qui suit lors de l’affichage des informations Heures ou ETR dans le planificateur de ressources :
+Tenez compte de ce qui suit lors de l’affichage des heures ou des informations de temps complet dans le planificateur de ressources :
 
-* Vous pouvez afficher les heures disponibles et planifiées ou les informations de l’éditeur de texte enrichi pour les utilisateurs, les rôles de tâche et les projets dans toutes les vues du planificateur de ressources.
-* Vous ne pouvez afficher les informations suivantes que dans la vue Utilisateur :
+* Vous pouvez afficher les heures disponibles et les heures prévues ou les informations de temps complet des personnes, des fonctions et des projets dans toutes les vues du planificateur de ressources.
+* Vous ne pouvez afficher les informations suivantes que dans la vue utilisateur :
 
-   * Différence entre le nombre d’heures planifiées ou l’ETR et le nombre d’heures disponibles ou d’ETR. Vous pouvez ensuite budgéter l’allocation de vos utilisateurs en fonction de cette différence dans les vues Projet et Rôle .
-   * Heures réelles ou ETR.
+   * Différence entre le nombre d’heures prévue ou le temps complet et le nombre d’heures disponibles ou le temps complet. Vous pouvez ensuite budgéter l’affectation de vos personnes en fonction de cette différence dans les vues de projet et de rôle.
+   * Heures effectives ou temps complet.
 
-* Vous pouvez afficher la différence entre l’utilisateur disponible et le nombre d’heures planifiées ou l’éditeur de texte enrichi sous la forme d’un nombre ou d’un pourcentage dans la vue Utilisateur.
-* Vous ne pouvez pas afficher les informations dans la vue Utilisateur par coût.
-* Adobe Workfront renseigne les heures disponibles ou l’éditeur de texte enrichi en fonction du temps de travail associé aux utilisateurs dans leurs plannings.\
-  Les utilisateurs non associés à un planning affichent la disponibilité selon le planning par défaut.\
-  Pour plus d’informations sur la planification par défaut, voir [Création d’une planification](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+* Vous pouvez afficher la différence entre la personne disponible et le nombre d’heures prévues ou le temps complet sous la forme d’un nombre ou d’un pourcentage dans la vue utilisateur.
+* Vous ne pouvez pas afficher les informations dans la vue utilisateur par coût.
+* Adobe Workfront renseigne les heures disponibles ou le temps complet en fonction du temps de travail associé aux personnes dans leurs plannings.\
+  Les personnes non associées à un planning affichent la disponibilité selon le planning par défaut.\
+  Pour plus d’informations sur le planning par défaut, voir [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-* Workfront renseigne les informations Heures planifiées ou ETR à partir des Heures planifiées sur les tâches et les problèmes des projets.
-* Workfront renseigne la valeur Heures réelles avec le temps réel consigné dans les tâches et les problèmes par les utilisateurs qui leur sont affectés. Cela inclut le temps de connexion à un projet.
-* Dans la vue Utilisateur, vous pouvez effectuer les opérations suivantes :
+* Workfront renseigne le nombre d’heures prévues ou le temps complet à partir du nombre d’heures prévues sur les tâches et les problèmes des projets.
+* Workfront renseigne les heures effectives avec le temps effectif consigné dans les tâches et les problèmes par les personnes qui y sont affectées. Cela inclut le temps consigné sur un projet.
+* Dans la vue utilisateur, vous pouvez effectuer les opérations suivantes :
 
-   * Développez chaque utilisateur pour afficher la liste des projets auxquels cet utilisateur est affecté.
+   * Développer chaque personne de sorte à afficher la liste des projets auxquels elle est affectée.
 
      >[!NOTE]
      >
-     >Seuls les utilisateurs associés aux projets inclus dans les filtres peuvent être développés.
+     >Seules les personnes associées aux projets inclus dans les filtres peuvent être développées.
 
-   * Développez chaque projet pour afficher la liste des rôles de tâche que l’utilisateur peut remplir sur ces projets.
-   * Développez chaque rôle pour afficher la liste des tâches auxquelles l’utilisateur est affecté.
+   * Développer chaque projet pour afficher la liste des fonctions que la personne peut remplir sur ces projets.
+   * Développer chaque rôle de sorte à afficher la liste des tâches auxquelles la personne est affectée.
 
-  Si aucun rôle de travail n’est associé aux utilisateurs, leurs heures disponibles, planifiées et réelles ou leur éditeur de texte enrichi sont répertoriées dans la section **Aucun rôle** .\
-  Pour plus d’informations sur les champs et les éléments qui s’affichent lors de l’application de la vue Utilisateur au planificateur de ressources, voir la section &quot;Projet/Rôle/Sélection de la vue utilisateur&quot; dans la [présentation de la navigation du planificateur de ressources](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Si aucune fonction n’est associée aux personnes, leurs heures disponibles, prévues et effectives ou leur temps complet sont répertoriés dans la section **Aucun rôle**.\
+  Pour plus d’informations sur les champs et les éléments qui s’affichent lors de l’application de la vue utilisateur au planificateur de ressources, voir la section Projet/Rôle/Sélection de la vue utilisateur dans [Vue d’ensemble de la navigation dans le planificateur de ressources](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-## Présentation des champs visibles dans la vue utilisateur du planificateur de ressources
+## Vue d’ensemble des champs visibles dans la vue utilisateur du planificateur de ressources
 
-Reportez-vous aux tableaux suivants pour comprendre les informations affichées dans la vue Utilisateur du planificateur de ressources. Les informations s’affichent dans les valeurs Heures ou ETR.
+Reportez-vous aux tableaux suivants pour comprendre les informations affichées dans la vue utilisateur du planificateur de ressources. Les informations s’affichent en heures ou temps complet.
 
 * [Colonne AVL (disponible)](#the-avl-available-column)
-* [Colonne PLN (planifiée)](#the-pln-planned-column)
-* [Colonne ACT (Réel)](#The%C2%A0ACT)
-* [Colonne DIF (Différence)](#the-dif-difference-column)
-* [Colonne % (Pourcentage d’affectation des heures planifiées)](#the-planned-hours-allocation-percentage-column)
+* [Colonne PLN (prévu)](#the-pln-planned-column)
+* [Colonne ACT (réel)](#The%C2%A0ACT)
+* [Colonne DIF (différence)](#the-dif-difference-column)
+* [Colonne % (pourcentage d’attribution des heures prévues)](#the-planned-hours-allocation-percentage-column)
 
-### La colonne AVL (Disponible) {#the-avl-available-column}
+### Colonne AVL (Disponible) {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Affiché Par</strong> </td> 
+   <td><strong>Affiché par</strong> </td> 
    <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
   <tr> 
    <td>l’utilisateur ou de l’utilisatrice</td> 
-   <td>Total des heures disponibles ou de l’éditeur de texte enrichi pour l’utilisateur selon son planning. </td> 
+   <td>Total des heures disponibles ou temps complet de la personne selon son planning. </td> 
   </tr> 
   <tr> 
    <td>Projet</td> 
-   <td>Ces informations ne sont pas disponibles pour le projet lorsque la vue Utilisateur est appliquée au planificateur de ressources. </td> 
+   <td>Ces informations ne sont pas disponibles pour le projet lorsque la vue utilisateur est appliquée au planificateur de ressources. </td> 
   </tr> 
   <tr> 
    <td>Rôle</td> 
-   <td> <p>Total des heures disponibles ou de l’éditeur de texte enrichi pour le rôle, en fonction du planning de l’utilisateur et du <strong>pourcentage de disponibilité de l’éditeur de texte enrichi</strong> du rôle.</p> </td> 
+   <td> <p>Total des heures disponibles ou temps complet pour le rôle, en fonction du planning de la personne et du <strong>Pourcentage de disponibilité en temps complet</strong> du rôle.</p> </td> 
   </tr> 
   <tr> 
    <td>Tâche ou problème</td> 
@@ -93,114 +93,114 @@ Reportez-vous aux tableaux suivants pour comprendre les informations affichées 
  </tbody> 
 </table>
 
-Pour plus d’informations sur le mode de calcul de la disponibilité des utilisateurs et des rôles en fonction du planning de l’utilisateur et du pourcentage de disponibilité de l’éditeur de texte enrichi du rôle, voir [Présentation du calcul des heures et de l’éditeur de texte enrichi pour les utilisateurs et les rôles dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Pour plus d’informations sur le mode de calcul de la disponibilité des personnes et des rôles en fonction du planning de chaque personne et du pourcentage de disponibilité en temps complet, voir [Vue d’ensemble du calcul des heures et du temps complet pour les personnes et les rôles dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-### Colonne PLN (planifiée) {#the-pln-planned-column}
+### Colonne PLN (prévu) {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Affiché Par</strong> </td> 
+   <td><strong>Affiché par</strong> </td> 
    <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
   <tr> 
    <td>l’utilisateur ou de l’utilisatrice</td> 
-   <td> Total des heures planifiées ou de l’éditeur de texte enrichi pour toutes les tâches ou tous les problèmes affectés à l’utilisateur sur tous les projets.<br><p>Cela inclut les tâches et les problèmes qui sont affectés à l’utilisateur, mais qui ne sont associés à aucun rôle de tâche, ainsi que les tâches ou les problèmes qui ne se trouvent pas sur les projets que vous avez accès à Gérer.</p><p>Lorsque l’allocation utilisateur des heures a été modifiée à l’aide de l’équilibreur de charge de travail, les données du planificateur de ressource peuvent être affectées si les dates sélectionnées ne contiennent qu’une partie d’une tâche ou d’un problème. Pour plus d’informations sur la modification des attributions pour les utilisateurs, voir <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestion des affectations des utilisateurs dans l’équilibreur de charge de travail</a> . </p></td> 
+   <td> Total du nombre d’heures prévues ou du temps complet pour toutes les tâches ou problèmes affectés à l’utilisateur ou à l’utilisatrice sur tous les projets.<br><p>Cela inclut les tâches et les problèmes qui sont affectés à l’utilisateur ou à l’utilisatrice, mais qui ne sont associés à aucune fonction, ainsi que les tâches ou les problèmes qui ne font pas partie des projets que vous avez le droit de gérer.</p><p>Lorsque l’affectation des heures des utilisateurs et des utilisatrices a été modifiée à l’aide de l’équilibreur de charge de travail, les données du planificateur de ressources peuvent être affectées si les dates sélectionnées ne contiennent qu’une partie d’une tâche ou d’un problème. Pour plus d’informations sur la modification des affectations pour les utilisateurs et les utilisatrices, consultez la section <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gérer les affectations pour les utilisateurs et les utilisatrices dans l’équilibreur de charge de travail</a>. </p></td> 
   </tr> 
   <tr> 
    <td>Projet</td> 
-   <td> Total des heures planifiées ou de l’éditeur de texte enrichi de toutes les tâches et problèmes affectés à un utilisateur spécifique du projet.<br><p>Remarque : Cela n’inclut pas les heures planifiées ou l’éditeur de texte enrichi des tâches ou des problèmes qui ne sont attribués à aucun utilisateur. </p></td> 
+   <td> Total du nombre d’heures prévues ou de l’équivalent temps complet pour toutes les tâches et problèmes affectés à un utilisateur ou à une utilisatrice spécifique du projet.<br><p>Note : cela n’inclut pas le nombre d’heures prévues ou l’équivalent temps complet des tâches ou des problèmes qui ne sont affectés à personne. </p></td> 
   </tr> 
   <tr> 
    <td>Rôle</td> 
-   <td> <p>Total des heures planifiées ou de l’éditeur de texte enrichi de toutes les tâches et problèmes affectés à l’utilisateur dans ce rôle sur le projet.</p> <p> <p>Remarque : Cela n’inclut pas les heures planifiées ou l’éditeur de texte enrichi des tâches ou des problèmes affectés à ce rôle, mais pas à cet utilisateur dans ce rôle. </p> </p> </td> 
+   <td> <p>Total du nombre d’heures prévues ou de l’équivalent temps complet pour toutes les tâches et tous les problèmes affectés à un utilisateur ou à une utilisatrice dans ce rôle pour le projet.</p> <p> <p>Note : cela n’inclut pas le nombre d’heures prévues ou l’équivalent temps complet des tâches ou des problèmes qui sont affectés à ce rôle mais ne sont affectés à personne dans ce rôle. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Tâche ou problème</td> 
-   <td>Heures planifiées ou ETR associées à la tâche ou au problème du projet.</td> 
+   <td>Nombre d’heures prévues ou équivalent temps complet associé à la tâche ou au problème du projet.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Tenez compte des points suivants lors de l’affichage des heures planifiées :
+Tenez compte des points suivants lors de l’affichage du nombre d’heures prévues :
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is a snippet converted to text because there are difference from project/ role views and the user view (users with no pools DO show in user view)</p>
 -->
 
-* Les Heures planifiées sont réparties de manière égale à chaque jour dans la Durée des tâches et des problèmes pour chaque ressource qui leur est affectée. La durée de la tâche ou du problème est basée sur les dates de début et de fin planifiées et inclut chaque jour calendaire de cette période.\
-  Workfront prend en compte le planning de l’utilisateur ou du projet lors de la distribution des heures planifiées aux utilisateurs ou aux projets. Dans ce cas, les heures planifiées sont réparties de manière égale entre chaque jour dans la Durée des tâches ou des problèmes, à l’exception des week-ends, jours de congé et des exceptions de planification.
+* Le nombre d’heures prévues est réparti de manière égale sur chaque jour dans la durée des tâches et des problèmes pour chaque ressource qui lui est affectée. La durée de la tâche ou du problème est basée sur les dates de début et de fin prévues et inclut chaque jour calendaire de cette période.\
+  Workfront prend en compte le planning de l’utilisateur ou de l’utilisatrice ou du projet lors de la répartition du nombre d’heures prévues entre les utilisateurs et les utilisatrices ou les projets. Dans ce cas, le nombre d’heures prévues est réparti de manière égale entre chaque jour dans la durée des tâches ou des problèmes, à l’exception des week-ends, jours de congé et des exceptions d’horaire.
 
-  Si, par exemple, vous affichez le planificateur de ressources par semaine et que vous avez des tâches qui s’étendent sur plusieurs semaines sur des projets, le nombre d’heures planifiées par semaine dépend du nombre de jours de cette semaine qui font partie de la durée de la tâche. Cela fonctionne de la même manière lors de l’affichage du planificateur de ressources par mois ou par trimestre et lorsque les tâches s’étendent sur plusieurs mois ou trimestres.\
-  Les jours du week-end, les exceptions de planification et les jours de congé sont exclus de cette distribution.
+  Si, par exemple, vous affichez le planificateur de ressources par semaine et que vous avez des tâches qui durent plusieurs semaines pour des projets, le nombre d’heures prévues par semaine dépend du nombre de jours de cette semaine qui fait partie de la durée de la tâche. Cela fonctionne de la même manière lors de l’affichage du planificateur de ressources par mois ou par trimestre et lorsque les tâches durent plusieurs mois ou trimestres.\
+  Les jours du week-end, les exceptions d’horaire et les jours de congé sont exclus de cette répartition.
 
-* Les catégories de tâches suivantes sont incluses dans le calcul des Heures planifiées pour chaque ressource :
+* Les catégories de tâches suivantes sont incluses dans le calcul du nombre d’heures prévues pour chaque ressource :
 
-   * tâches affectées aux utilisateurs dans les groupes de ressources, les rôles de tâche ou les équipes du projet.
+   * Tâches affectées aux utilisateurs et utilisatrices dans les groupes de ressources, les fonctions ou les équipes du projet.
 
      >[!TIP]
      >
-     >Si des tâches sont affectées à des équipes, leur attribution apparaît sous les sections **Aucun rôle** et **Aucun utilisateur** . Vous pouvez voir les Heures planifiées associées aux équipes, mais vous ne pouvez pas budgéter les heures, car aucun rôle ni utilisateur n’est associé aux tâches.
+     >Si des tâches sont affectées à des équipes, leur affectation apparaît sous les sections **Aucun rôle** et **Aucune personne**. Vous pouvez voir le nombre d’heures prévues associé aux équipes, mais vous ne pouvez pas budgéter les heures, car aucun rôle ni aucunpersonne n’a de tâches affectées.
 
-* Les heures planifiées dans le planificateur de ressources n’incluent pas les heures planifiées associées aux éléments suivants :
+* Le nombre d’heures prévues dans le planificateur de ressources n’inclut pas le nombre d’heures prévues associé aux éléments suivants :
 
-   * tâches parentes
-   * tâches non affectées
-   * problèmes, lorsque le paramètre **Inclure les heures à partir des problèmes** est désactivé.
+   * Tâches parent
+   * Tâches non affectées
+   * Problèmes, lorsque le paramètre **Inclure les heures des problèmes** est désactivé.
 
-* Les heures planifiées ne s’affichent pas dans le planificateur de ressources si la durée de la tâche ou du problème est nulle.
-* Les heures planifiées associées aux utilisateurs désactivés ne s’affichent pas.
+* Le nombre d’heure prévues ne s’affiche pas dans le planificateur de ressources si la durée de la tâche ou du problème est nulle.
+* Le nombre d’heures prévues associé aux utilisateurs et utilisatrices désactivés ne s’affiche pas.
 
-Pour plus d’informations sur les heures planifiées et l’éditeur de texte enrichi dans le planificateur de ressources, voir [Aperçu des heures, de l’éditeur de texte enrichi et des informations sur les coûts dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Pour plus d’informations sur le nombre d’heures prévues et le temps complet dans le planificateur de ressources, consultez la section [Vue d’ensemble des heures, de l’équivalent temps complet et des coûts dans les vues de projet et de rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-### La colonne ACT (Réel)
+### Colonne ACT (Réel)
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Affiché Par</strong> </td> 
+   <td><strong>Affiché par</strong> </td> 
    <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
   <tr> 
    <td>l’utilisateur ou de l’utilisatrice </td> 
-   <td> <p>Heure consignée par l’utilisateur sur toutes les tâches ou tous les problèmes qui lui sont affectés.</p> <p>Cela inclut les éléments suivants :</p> 
+   <td> <p>Temps consigné par l’utilisateur ou l’utilisatrice concernant l’ensemble des tâches et problèmes affectés.</p> <p>Cela inclut les éléments suivants :</p> 
     <ul> 
-     <li>Tâches et problèmes affectés à l’utilisateur, mais non associés à un rôle de tâche.</li> 
-     <li>Tâches et problèmes qui ne concernent pas les projets pour lesquels vous avez accès à l’option Gérer . </li> 
-    </ul> <p>Cela inclut le temps de connexion au projet uniquement lorsque l’utilisateur est affecté à des tâches ou à des problèmes sur ce projet.  </p> </td> 
+     <li>Tâches et problèmes affectés à l’utilisateur ou l’utilisatrice, mais qui ne sont pas associés à une fonction.</li> 
+     <li>Tâches et problèmes qui ne concernent pas les projets pour lesquels vous avez accès à l’option de gestion. </li> 
+    </ul> <p>Cela inclut le temps consigné pour le projet uniquement lorsque des tâches ou des problèmes sur ce projet sont affectés à un utilisateur ou une utilisatrice.  </p> </td> 
   </tr> 
   <tr> 
    <td>Projet </td> 
-   <td> <p>Heure consignée par l’utilisateur pour toutes les tâches et tous les problèmes qui lui sont affectés sur le projet.</p> <p>Cela inclut le moment où ils se sont connectés directement au projet.</p> <p>Cela ne comprend pas les éléments suivants :</p> 
+   <td> <p>Temps consigné par l’utilisateur ou l’utilisatrice concernant l’ensemble des tâches et problèmes affectés.</p> <p>Cela inclut tout le temps directement consigné dans le projet.</p> <p>Cela ne comprend pas les éléments suivants :</p> 
     <ul> 
-     <li> <p>Heure de connexion aux tâches et problèmes qui ne sont attribués à aucun utilisateur. </p> </li> 
-     <li> <p>Heure de connexion aux tâches parentes. </p> </li> 
+     <li> <p>Temps consigné pour les tâches et problèmes pour lesquels aucune affectation d’utilisateur ou d’utilisatrice n’a été faite. </p> </li> 
+     <li> <p>Temps consigné pour les tâches parent. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Rôle</td> 
-   <td> <p>Heure de connexion à toutes les tâches ou problèmes affectés à l’utilisateur dans ce rôle. </p> <p>Cela ne comprend pas les éléments suivants :</p> 
+   <td> <p>Temps consigné par l’utilisateur ou par l’utilisatrice dans ce rôle concernant l’ensemble des tâches et problèmes affectés. </p> <p>Cela ne comprend pas les éléments suivants :</p> 
     <ul> 
-     <li>Heure de connexion aux tâches et problèmes affectés à ce rôle, mais pas à cet utilisateur dans ce rôle.</li> 
-     <li>Heure de connexion directe au projet ou aux tâches parentes. </li> 
+     <li>Heures consignées pour les tâches et problèmes affectés à ce rôle, mais pas pour cet utilisateur ou cette utilisatrice occupant ce rôle.</li> 
+     <li>Heures consignées directement pour le projet ou les tâches parent. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Tâche ou problème </td> 
-   <td> <p>Heure de connexion aux tâches et problèmes par l’utilisateur qui lui est également affecté. </p> </td> 
+   <td> <p>Heures consignées pour les tâches et problèmes par la personne qui leur est également affectée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!IMPORTANT]
 >
->L’heure consignée s’affiche dans la période correspondant à la Date d’entrée de l’heure, quelle que soit la période de la tâche, du problème ou du projet où les heures sont consignées.
+>Les heures consignées s’affichent dans le délai correspondant à la Date d’entrée de l’entrée d’heure, quel que soit le délai de la tâche, du problème ou du projet dont les heures sont consignées.
 
-Pour plus d’informations sur les heures réelles, voir [Afficher les heures réelles](../../manage-work/tasks/task-information/actual-hours.md).
+Pour plus d’informations sur les heures effectives, voir [Afficher les heures effectives](../../manage-work/tasks/task-information/actual-hours.md).
 
 ### Colonne DIF (Différence) {#the-dif-difference-column}
 
@@ -209,12 +209,12 @@ Pour plus d’informations sur les heures réelles, voir [Afficher les heures r�
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Affiché Par</strong> </td> 
+   <td><strong>Affiché par</strong> </td> 
    <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
   <tr> 
    <td>l’utilisateur ou de l’utilisatrice</td> 
-   <td> <p>Différence entre les heures disponibles et planifiées ou l’ETR de l’utilisateur. </p> <p>La différence Heure ou ETR est calculée à l’aide de la formule suivante :</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>Remarque : Si la valeur s’affiche en chiffres rouges négatifs, l’utilisateur est surchargé. </p> </p> </td> 
+   <td> <p>Différence entre le nombre d’heures disponibles et prévues ou le temps complet de l’utilisateur ou de l’utilisatrice. </p> <p>La différence d’heure ou de temps complet est calculée à l’aide de la formule suivante :</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>Remarque : si la valeur s’affiche en chiffres rouges négatifs, l’utilisateur ou l’utilisatrice est en suraffectation. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Projet</td> 
@@ -222,7 +222,7 @@ Pour plus d’informations sur les heures réelles, voir [Afficher les heures r�
   </tr> 
   <tr> 
    <td>Rôle</td> 
-   <td> <p>Différence entre les heures disponibles et planifiées ou l’éditeur de texte enrichi du rôle de tâche. </p> <p>La différence Heure ou ETR est calculée à l’aide de la formule suivante :</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Remarque : Si la valeur est affichée en chiffres rouges négatifs, le rôle est suralloué. </p> </p> </td> 
+   <td> <p>Différence entre les heures disponibles et prévues ou le temps complet de la fonction. </p> <p>La différence d’heure ou de temps complet est calculée à l’aide de la formule suivante :</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Remarque : si la valeur est affichée en chiffres rouges négatifs, le rôle est en suraffectation. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Tâche ou problème</td> 
@@ -231,27 +231,27 @@ Pour plus d’informations sur les heures réelles, voir [Afficher les heures r�
  </tbody> 
 </table>
 
-### Colonne % (Pourcentage d’affectation des heures planifiées) {#the-planned-hours-allocation-percentage-column}
+### Colonne % (pourcentage d’attribution des heures prévues) {#the-planned-hours-allocation-percentage-column}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Affiché Par</strong> </td> 
+   <td><strong>Affiché par</strong> </td> 
    <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
   <tr> 
    <td>l’utilisateur ou de l’utilisatrice</td> 
-   <td> <p>Allocation des heures planifiées ou de l’éditeur de texte enrichi en pourcentage des heures disponibles. Le pourcentage de l’allocation des heures planifiées est calculé à l’aide de la formule suivante :</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>Le même calcul est utilisé pour les valeurs de l’éditeur de texte enrichi. </p> </td> 
+   <td> <p>Attribution des heures prévues ou du temps complet en pourcentage des heures disponibles. Le pourcentage d’attribution des heures prévues est calculé à l’aide de la formule suivante :</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>Le même calcul est utilisé pour les valeurs du temps complet. </p> </td> 
   </tr> 
   <tr> 
    <td>Projet</td> 
-   <td>Ces informations ne sont pas disponibles pour le projet lors de l’application de la vue <strong>Vue par l’utilisateur</strong> au planificateur de ressources.</td> 
+   <td>Ces informations ne sont pas disponibles pour le projet lors de l’application de la vue <strong>Afficher par utilisateur et utilisatrice</strong> sur le planificateur de ressources.</td> 
   </tr> 
   <tr> 
    <td>Rôle</td> 
-   <td> Allocation des heures planifiées ou de l’éditeur de texte enrichi en pourcentage des heures disponibles. <p>Le pourcentage de l’allocation des heures planifiées est calculé à l’aide de la formule suivante :</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>Le même calcul est utilisé pour les valeurs de l’éditeur de texte enrichi.</p></td> 
+   <td> Attribution des heures prévues ou du temps complet en pourcentage des heures disponibles. <p>Le pourcentage d’attribution des heures prévues est calculé à l’aide de la formule suivante :</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>Le même calcul est utilisé pour les valeurs du temps complet.</p></td> 
   </tr> 
   <tr> 
    <td>Tâche ou problème</td> 
@@ -260,9 +260,9 @@ Pour plus d’informations sur les heures réelles, voir [Afficher les heures r�
  </tbody> 
 </table>
 
-Si la valeur de l’heure planifiée ou de l’éditeur de texte enrichi est zéro, le pourcentage d’allocation est de 0 %. Si la valeur de l’heure disponible ou de l’éditeur de texte enrichi est égale à zéro, le pourcentage d’allocation ne peut pas être calculé.
+Si la valeur des heures prévues ou du temps complet est de zéro, le pourcentage d’attribution est de 0 %. Si la valeur des heures disponibles ou du temps complet est de zéro, le pourcentage d’attribution ne peut pas être calculé.
 
-Pour plus d’informations sur les heures planifiées et l’éditeur de texte enrichi, ainsi que sur leur affichage dans le planificateur de ressources, voir [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Pour plus d’informations sur les heures prévues et le temps complet, ainsi que sur leur affichage dans le planificateur de ressources, voir [Établir le budget des ressources dans le planificateur de ressources à l’aide des vues de projet et de rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this table is ideal but it does not render in Markdown) </p>

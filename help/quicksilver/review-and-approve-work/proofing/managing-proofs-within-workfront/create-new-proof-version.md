@@ -2,93 +2,93 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Créer une version d’une épreuve
-description: Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer un énorme défi. Workfront simplifie ce processus en vous permettant de créer et de comparer plusieurs versions d’un BAT.
+description: Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer être un énorme défi. Workfront simplifie ce processus en vous permettant de créer et de comparer plusieurs versions d’une épreuve.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
 source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
 source-wordcount: '1734'
-ht-degree: 4%
+ht-degree: 99%
 
 ---
 
 # Créer une version d’une épreuve
 
-Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer un énorme défi. Workfront simplifie ce processus en vous permettant de créer et de comparer plusieurs versions d’un BAT.
+Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer être un énorme défi. Workfront simplifie ce processus en vous permettant de créer et de comparer plusieurs versions d’une épreuve.
 
-Tenez compte des informations suivantes lorsque vous créez une version d’un BAT :
+Tenez compte des informations suivantes lorsque vous créez une version d’une épreuve :
 
-* Vous pouvez autoriser un utilisateur à voir une version mais pas une autre. À l’inverse, si vous partagez une version ultérieure avec un utilisateur, celui-ci ne peut pas voir les versions antérieures, sauf si vous revenez en arrière et accordez explicitement à l’utilisateur l’accès à ces versions antérieures.
-* Pour créer une nouvelle version d&#39;un BAT, vous devez disposer des droits d&#39; édition sur le BAT.
+* Vous pouvez autoriser une personne à voir une version mais pas une autre. À l’inverse, si vous partagez une version ultérieure avec une personne, celle-ci ne peut pas voir les versions antérieures, sauf si vous revenez en arrière et accordez explicitement à la personne l’accès à ces versions antérieures.
+* Pour créer une version d’une épreuve, vous devez disposer des droits de modification sur l’épreuve.
 
-  Voir [Gérer les rôles de BAT dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) et [Profils d’autorisations de BAT dans Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) pour plus d’informations sur les personnes disposant de droits de modification sur un BAT.
+  Voir [Gérer les rôles des épreuves dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) et [Profils d’autorisations d’épreuves dans Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) pour obtenir plus d’informations sur qui dispose de droits de modification sur une épreuve.
 
-  Pour plus d’informations sur le partage des versions de BAT, voir  [Partager un BAT dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+  Pour plus d’informations sur le partage des versions d’une épreuve, voir [Partager une épreuve dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
->Si un BAT est créé dans Adobe Workfront, toutes les nouvelles versions créées pour ce BAT doivent également être créées dans Workfront. Vous ne pouvez pas créer de version d’un BAT dans Workfront Proof si ce BAT a été créé dans Workfront.
+>Si une épreuve est créée dans Adobe Workfront, toutes les nouvelles versions créées pour cette épreuve doivent également être créées dans Workfront. Vous ne pouvez pas créer de version d’une épreuve dans Workfront Proof si cette épreuve a été créée dans Workfront.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Formule héritée : Select ou Premium</p> <p>Pour plus d’informations sur la relecture de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
-   <td>Manager ou version ultérieure</td> 
+   <td>Manager ou version supérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander un accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation d’épreuve dont vous disposez, contactez votre équipe d’administration Workfront ou Workfront Proof.
 
 +++
 
-## Création d’une version d’un BAT dans Workfront
+## Créer une version d’une épreuve dans Workfront
 
-Il existe plusieurs façons de charger une nouvelle version de BAT dans Workfront. Les paramètres de BAT par défaut peuvent être transférés ou non depuis la version précédente, selon la méthode que vous choisissez :
+Il existe plusieurs façons de charger une nouvelle version d’épreuve dans Workfront. Les paramètres par défaut de l’épreuve peuvent être transférés ou non depuis la version précédente, selon la méthode que vous choisissez :
 
-* **Générer automatiquement des bons à tirer lors du téléchargement des documents** : les paramètres de BAT par défaut ne sont pas transférés. Si ce paramètre est activé dans votre profil utilisateur, les paramètres de BAT par défaut ne sont pas transférés lorsque vous faites glisser et déposez une nouvelle version.
-* **Créer un BAT > Simple** : les paramètres de BAT par défaut ne sont pas transférés. Si vous sélectionnez Simple lors de la création d’une version de BAT, les paramètres par défaut du BAT ne sont pas transférés de la version précédente.
-* **Ajouter > Version > Bon à tirer** : les paramètres par défaut du BAT sont transférés de la version précédente.
-* **Créer un BAT > Avancé** : les paramètres par défaut du BAT sont transférés depuis la version précédente.
+* **Générer automatiquement des épreuves lors du chargement de documents** : les paramètres par défaut de l’épreuve ne sont pas transférés. Si ce paramètre est activé dans votre profil d’utilisation, les paramètres par défaut de l’épreuve ne sont pas transférés lorsque vous faites glisser et déposez une nouvelle version.
+* **Créer une épreuve > Simple** : les paramètres par défaut de l’épreuve ne sont pas transférés. Si vous sélectionnez Simple lors de la création d’une version d’épreuve, les paramètres par défaut de l’épreuve ne sont pas transférés de la version précédente.
+* **Ajouter > Version > Épreuve** : les paramètres par défaut de l’épreuve sont transférés depuis la version précédente.
+* **Créer une épreuve > Avancé** : les paramètres par défaut de l’épreuve sont transférés depuis la version précédente.
 
   <table>
   <tbody>
   <tr>
   <td>Générer des épreuves automatiquement lors du chargement de documents</td>
-  <td>Les paramètres de BAT par défaut ne sont pas reportés. Si ce paramètre est activé dans votre profil utilisateur, les paramètres de BAT par défaut ne sont pas transférés lorsque vous faites glisser et déposez une nouvelle version.</td>
+  <td>Les paramètres par défaut de l’épreuve ne sont pas transférés. Si ce paramètre est activé dans votre profil d’utilisation, les paramètres par défaut de l’épreuve ne sont pas transférés lorsque vous faites glisser et déposez une nouvelle version.</td>
   </tr>
   <tr>
-  <td>Créer un BAT &gt; Simple</td>
-  <td>Les paramètres de BAT par défaut ne sont pas reportés. Si vous sélectionnez Simple lors de la création d’une version de BAT, les paramètres par défaut du BAT ne sont pas transférés de la version précédente.</td>
+  <td>Créer une épreuve &gt; Simple</td>
+  <td>Les paramètres par défaut de l’épreuve ne sont pas transférés. Si vous sélectionnez Simple lors de la création d’une version d’épreuve, les paramètres par défaut de l’épreuve ne sont pas transférés de la version précédente.</td>
   </tr>
   <tr>
-  <td>Ajouter &gt; Version &gt; Bon à tirer</td>
-  <td>Les paramètres de BAT par défaut sont transférés depuis la version précédente.</td>
+  <td>Ajouter &gt; Version &gt; Épreuve</td>
+  <td>Les paramètres par défaut de l’épreuve sont transférés depuis la version précédente.</td>
   </tr>
   <tr>
-  <td>Créer un BAT &gt; Avancé</td>
-  <td>Les paramètres de BAT par défaut sont transférés depuis la version précédente.</td>
+  <td>Créer une épreuve &gt; Avancé</td>
+  <td>Les paramètres par défaut de l’épreuve sont transférés depuis la version précédente.</td>
   </tr>
   </tbody>
   </table>
@@ -96,85 +96,85 @@ Il existe plusieurs façons de charger une nouvelle version de BAT dans Workfron
 
 
 
-Pour créer une version d&#39;un BAT :
+Pour créer une version d’une épreuve, procédez comme suit :
 
-1. Ouvrez la liste des documents contenant le BAT.
-1. A partir du système de fichiers de votre ordinateur, placez un nouveau fichier sur le BAT.
+1. Ouvrez la liste des documents contenant l’épreuve.
+1. À partir du système de fichiers de votre ordinateur, faites glisser et déposez un nouveau fichier sur l’épreuve.
 
    Ou
 
-   Sélectionnez la ligne où le BAT est répertorié, cliquez sur **Ajouter un nouveau** > **Version**, puis cliquez sur l’option que vous souhaitez utiliser pour ajouter la nouvelle version du BAT.
+   Sélectionnez la ligne où l’épreuve est répertoriée, puis cliquez sur **Ajouter** > **Version**, puis cliquez sur l’option que vous souhaitez utiliser pour ajouter la nouvelle version de l’épreuve.
 
    ![](assets/add-new-version-350x185.png)
 
-## Créer une version d’un BAT à partir de la visionneuse de vérification de performance (Workfront Proof uniquement)
+## Créer une version d’une épreuve à partir de la visionneuse de relecture (Workfront Proof uniquement)
 
-Si vous utilisez le Workfront Proof autonome, vous pouvez créer une nouvelle version d’un BAT contenant un seul fichier ou une capture web. 
+Si vous utilisez la version autonome de Workfront Proof, vous pouvez créer une nouvelle version d’une épreuve contenant un seul fichier ou une capture web. 
 
 >[!NOTE]
 >
->Si votre compte est en formule Entreprise et que vous téléchargez plusieurs fichiers ou captures web, ils sont automatiquement combinés dans une seule nouvelle version. Pour plus d’informations, voir [Création d’un BAT multipage](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) .
+>Si votre compte est en formule Entreprise et que vous téléchargez plusieurs fichiers ou captures web, ils sont automatiquement combinés dans une seule nouvelle version. Veuillez consulter [Créer une épreuve de plusieurs pages](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) pour plus d’informations.
 
-Pour créer une version d’un BAT dans Workfront Proof :
+Pour créer une version d’une épreuve dans Workfront Proof :
 
 1. Ouvrez l’épreuve.
-1. Cliquez sur le menu déroulant **Version** dans le coin supérieur gauche, puis sur **+ Nouvelle version** dans la zone qui s’affiche.
+1. Cliquez sur le menu déroulant de la **Version** dans le coin supérieur gauche, puis cliquez sur **+ Nouvelle version** dans la zone qui s’affiche.
 
-   Sur la page **Nouvelle version de BAT de** qui s’affiche, vous pouvez voir tous les réviseurs de la version précédente, y compris leurs rôles et leurs paramètres de notification électronique. Vous pouvez facilement modifier les rôles et notifications des réviseurs existants ou supprimer les réviseurs existants de la nouvelle version de cette page.
+   Sur la page **Nouvelle version de l’épreuve** qui s’affiche, vous pouvez voir tous les réviseurs et toutes réviseuses de la version précédente, y compris leurs rôles et leurs paramètres de notification par e-mail. Vous pouvez facilement modifier les rôles et notifications des réviseurs et réviseuses existants ou supprimer les réviseurs et réviseuses existants de la nouvelle version sur cette page.
 
-1. Sous **Ajouter des fichiers**, téléchargez un fichier en tant que nouvelle version du BAT en le faisant glisser et en le déposant sur votre ordinateur ou en cliquant sur **parcourir** et en sélectionnant le fichier de votre choix. Vous pouvez saisir un **nom du bon à tirer** pour la version ou laisser cette zone vide pour utiliser le même nom de fichier avec un numéro de version ajouté à la fin.
+1. Sous **Ajouter des fichiers**, chargez un fichier en tant que nouvelle version de l’épreuve en faisant un glisser-déposer depuis votre ordinateur ou en cliquant sur **parcourir** et en sélectionnant le fichier de votre choix. Vous pouvez saisir un **Nom d’épreuve** pour la version ou laissez ce champ vide pour utiliser le même nom de fichier avec un numéro de version ajouté à la fin.
 
    Ou
 
-   Capturez une page web en tant que nouvelle version du BAT en saisissant une URL.
+   Capturez une page web en tant que nouvelle version de l’épreuve en saisissant une URL.
 
    >[!NOTE]
    >
-   >Le glisser-déposer est disponible uniquement avec les navigateurs qui prennent entièrement en charge HTML5. Cela exclut Internet Explorer 7 à 9 et Safari.
+   >Le glisser-déposer est disponible uniquement avec les navigateurs qui prennent entièrement en charge HTML5. Cela exclut Internet Explorer 7 à 9 et Safari.
 
-1. Sous **Workflow**, effectuez l’une des modifications suivantes pour spécifier les réviseurs pour cette version du BAT.
+1. Sous **Workflow**, effectuez l’une des modifications suivantes pour spécifier les réviseurs et réviseuses pour cette version de l’épreuve.
 
-   Les réviseurs de la version précédente sont remplacés par les réviseurs que vous ajoutez.
+   Les réviseurs et réviseuses de la version précédente sont remplacés par les réviseurs et réviseuses que vous ajoutez.
 
-   * Remplacez le **propriétaire** de la version par un autre utilisateur de votre compte.\
-     Pour plus d’informations sur les autorisations de propriétaire, voir [Profils d’autorisations de BAT dans Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * Modifiez la **Personne propriétaire** de la version en une autre personne de votre compte.\
+     Pour plus d’informations sur les autorisations de la personne propriétaire, voir [Profils d’autorisations d’épreuve dans Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-   * En utilisant le **nom du contact ou l&#39;adresse email pour ajouter une boîte de destinataire**, ajoutez les réviseurs à la version. Vous pouvez spécifier un **rôle BAT** et un type **Alertes par email** pour chaque destinataire.
+   * En utilisant la **zone Saisir le nom ou l’adresse e-mail du contact auquel ajouter une personne destinataire**, ajoutez des réviseurs et des réviseuses à la version. Vous pouvez définir un **Rôle d’épreuve** et un type d’**Alertes par e-mail** pour chaque personne destinataire.
 
-     Pour plus d’informations sur l’ajout de groupes au BAT, voir  [Ajouter des groupes à un bon à tirer](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md). Pour plus d’informations sur les rôles, voir [Gestion des rôles de BAT dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+     Pour plus d’informations sur l’ajout de groupes à l’épreuve, voir [Ajouter des groupes à une épreuve](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).Pour plus d’informations sur les rôles, voir [Gérer les rôles d’épreuve dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
      >[!NOTE]
      >
-     >Si le créateur ou le propriétaire de  Si l&#39;email du BAT [BAT Made ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) est désactivé par défaut (dans leurs paramètres personnels), ils ne recevront aucun email Bon à tirer ou Nouveau BAT même si la case Notifier les personnes par email est cochée sur la page Nouveau BAT. Pour plus d’informations sur les notifications par e-mail, voir [Configuration des paramètres de notification par e-mail dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Voir aussi [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) et [New BAT email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+     >Si la personne créatrice ou propriétaire de l’épreuve a l’option [E-mail d’épreuve effectuée](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) désactivée par défaut (dans ses paramètres personnels), elle ne recevra aucun e-mail Épreuve ou Nouvelle épreuve, même si la case à cocher Notifier les personnes par e-mail est cochée sur la page de la nouvelle épreuve. Pour plus d’informations sur les notifications par e-mail, voir [Configurer les paramètres de notification par e-mail dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).Voir aussi [E-mail d’épreuve effectuée](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) et [E-mail de nouvelle épreuve](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-   * Définissez une date limite de BAT pour la version.
-   * Passez la souris sur le nom d’un réviseur pour afficher les décisions qu’il a prises sur une version précédente.
+   * Définissez une date d’échéance pour la relecture pour la version.
+   * Passez la souris sur le nom d’une personne réviseuse pour afficher les décisions qu’elle a prises sur une version précédente.
 
-1. Sous **Notification par e-mail**, effectuez l’une des opérations suivantes :
+1. Sous **Notification par e-mail**, effectuez l’une des opérations suivantes :
 
-   * Indiquez si vous souhaitez informer les réviseurs de la nouvelle version.\
-     Votre sélection sera enregistrée dans la section Activité de la page Détails du BAT. Pour plus d’informations, voir [Gestion des détails du BAT dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * Indiquez si vous souhaitez informer les réviseurs et réviseuses de la nouvelle version.\
+     Votre sélection sera enregistrée dans la section Activité de la page de détails de l’épreuve. Pour plus d’informations, voir [Gérer les détails de l’épreuve dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
    * Ajoutez un objet et un message personnalisés.
 
-1. Dans la section **Organization** , effectuez l’une des opérations suivantes : 
+1. Dans la section **Entreprise**, effectuez l’une des opérations suivantes :
 
-   * Appliquez une ou plusieurs balises au BAT. Pour plus d’informations, voir [Création et gestion des balises dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).\
-     Notez que les balises sont également héritées de la version précédente du BAT. Si vous ajoutez une nouvelle balise à la nouvelle version, les versions précédentes sont également balisées.
+   * Appliquez une ou plusieurs balises à l’épreuve. Pour plus d’informations, voir [Créer et gérer des balises dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).\
+     Notez que les balises sont également héritées de la version précédente de l’épreuve. Si vous ajoutez une nouvelle balise à la nouvelle version, les versions précédentes sont également balisées.
 
-   * Ajoutez la version à un dossier. Pour plus d’informations, voir [Gestion des dossiers dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) . Le dossier sera copié depuis la version précédente du BAT. Si vous sélectionnez un autre dossier, l&#39;ensemble du BAT (toutes versions) sera déplacé.
+   * Ajoutez la version à un dossier. Voir [Gérer les dossiers dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) pour plus d’informations. Le dossier sera copié à partir de la version précédente de l’épreuve. Si vous sélectionnez un autre dossier, l’épreuve entière (toutes les versions) sera déplacée.
 
-   * Les administrateurs de facturation et les administrateurs peuvent rendre le champ de dossier obligatoire pour l’ensemble du compte dans l’onglet Paramètres . Voir pour plus d’informations.
+   * Les administrateurs et administratrices de facturation et les équipes d’administration peuvent rendre le champ Dossier obligatoire pour l’ensemble du compte dans l’onglet Paramètres. Consultez pour plus d’informations.
 
-1. Sous Paramètres de BAT, effectuez l’une des modifications suivantes :
+1. Sous Paramètres de l’épreuve, effectuez l’une des modifications ci-dessous :
 
-   * Exiger une connexion sur le BAT
-   * Exiger des signatures électroniques sur le BAT (abonnement Entreprise uniquement)
-   * Verrouiller le BAT lorsque toutes les décisions sont prises
-   * Autoriser ou bloquer le téléchargement du fichier d’origine
-   * Partage public du BAT, y compris les paramètres de partage public
-   * Abonnement au BAT\
-     Les sélections effectuées dans cette section seront affichées dans la page Détails du BAT (où certains champs peuvent être modifiés). Pour plus d’informations, voir [Gestion des détails du BAT dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * Exiger une connexion pour accéder à une épreuve
+   * Exiger des signatures électroniques sur une épreuve (formule Entreprise uniquement)
+   * Verrouiller une épreuve lorsque toutes les décisions sont prises.
+   * Autoriser ou bloquer le téléchargement du fichier original
+   * Partager publiquement l’épreuve, y compris les paramètres de partage public
+   * Abonnement à l’épreuve\
+     Les sélections effectuées dans cette section seront affichées dans la page de détails d’une épreuve (où certains champs peuvent être modifiés). Pour plus d’informations, consultez la section [Gérer les détails d’une épreuve dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>
@@ -223,23 +223,23 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 </ol>
 -->
 
-## A propos du message Nouvelle version
+## À propos des messages dans la nouvelle version
 
-Si un objet/message personnalisé était inclus dans la version précédente du BAT, il s’affichera par défaut sur la page Nouvelle version. Vous pouvez effectuer les opérations suivantes :
+Si un objet ou un message personnalisé est inclus dans la version précédente de l’épreuve, il s’affiche par défaut sur la page Nouvelle version. Vous pouvez :
 
 * Modifiez l’objet et le message.
-* Désélectionnez la case Notifier les personnes par courrier électronique, ce qui signifie qu’aucun courrier électronique ne sera envoyé aux réviseurs pour les informer qu’ils disposent d’une nouvelle version à réviser.
+* Désélectionnez la case « Notifier par e-mail ». Aucun e-mail n’est alors envoyé aux personnes chargées de votre révision pour les informer d’une nouvelle version à réviser.
 
   >[!NOTE]
   >
   >Ceci n’est pas affecté par un objet/message personnalisé par défaut enregistré dans vos paramètres personnels.
 
-Si un objet et un message par défaut sont enregistrés dans vos paramètres personnels, cela aura un impact sur le message affiché par défaut sur la page Nouvelle version :
+Si vous avez enregistré un objet et un message par défaut dans vos paramètres personnels, le message affiché par défaut sur la page Nouvelle version est affecté :
 
-* Si vous choisissez d&#39;avertir vos réviseurs par e-mail de la version précédente du BAT à l&#39;aide de l&#39;e-mail standard (par exemple, aucun objet/message personnalisé), votre objet/message personnalisé par défaut (vos paramètres personnels) s&#39;affichera sur la page Nouvelle version. Vous pouvez ensuite modifier l’objet et le message personnalisés ou désélectionner la case Notifier les personnes par email (ce qui signifie qu’aucun email ne sera envoyé à vos réviseurs pour les informer qu’ils disposent d’une nouvelle version à réviser).
-* Si vous choisissez de ne pas notifier vos réviseurs par email pour la version précédente du BAT (par exemple, aucun email standard ou personnalisé), la page Nouvelle version ne contiendra aucun message par défaut. Pour informer les réviseurs de la nouvelle version, cliquez sur le lien Envoyer un message , qui affichera votre objet/message personnalisé par défaut (selon vos paramètres personnels). Vous pouvez ensuite modifier l’objet et le message personnalisés, si nécessaire.
+* Si vous choisissez de notifier les personnes chargées de votre révision de la version précédente de l’épreuve en utilisant un e-mail standard (par exemple, sans objet/message personnalisé), vos objet/message personnalisés par défaut (vos paramètres personnels) s’affichent sur la page Nouvelle version. Vous pouvez ensuite modifier l’objet et le message personnalisé ou désélectionner la case de notification des personnes par e-mail (aucun e-mail n’est alors envoyé aux personnes chargées de votre révision pour les informer d’une nouvelle version à réviser).
+* Si vous choisissez de ne pas notifier les personnes chargées de votre révision de la version précédente de l’épreuve par e-mail standard (par exemple, pas d’e-mail standard ou personnalisé), la nouvelle version n’inclut pas de message par défaut. Pour notifier les personnes chargées de votre révision de la nouvelle version, cliquez sur le lien « Envoyer un message ». Vos objet/message personnalisés par défaut (selon vos paramètres personnels) s’affichent. Vous pouvez ensuite modifier l’objet et le message personnalisés si nécessaire.
 
-Si aucun objet et message par défaut n’est enregistré dans vos paramètres personnels, les éléments suivants s’affichent sur la page Nouvelle version :
+Si vous n’avez pas enregistré d’objet et de message par défaut dans vos paramètres personnels, le texte suivant s’affiche sur la nouvelle version :
 
-* Si vous choisissez d&#39;avertir vos réviseurs par email pour la version précédente du BAT à l&#39;aide de l&#39;email standard (par exemple, aucun objet/message personnalisé), l&#39;option Avertir les personnes par email sera sélectionnée par défaut sur la page Nouvelle version. Pour ajouter un message personnalisé, cliquez sur le lien.
-* Si vous choisissez de ne pas notifier vos réviseurs par email pour la version précédente du BAT (par exemple, aucun email standard ou personnalisé), la page Nouvelle version ne contiendra aucun message par défaut. Pour notifier les opérateurs validants de la nouvelle version, cliquez sur le lien Envoyer un message . Vous pouvez ensuite ajouter un objet et un message personnalisés en cliquant sur le lien Ajouter un message personnalisé .
+* Si vous choisissez de notifier les personnes chargées de votre révision de la version précédente de l’épreuve en utilisant un e-mail standard (par exemple, sans objet/message personnalisé), l’option de notification des personnes par e-mail est sélectionnée par défaut sur la page Nouvelle version. Pour ajouter un message personnalisé, cliquez sur le lien.
+* Si vous choisissez de ne pas notifier les personnes chargées de votre révision de la version précédente de l’épreuve par e-mail standard (par exemple, pas d’e-mail standard ou personnalisé), la nouvelle version n’inclut pas de message par défaut. Pour notifier les personnes chargées de votre révision de la nouvelle version, cliquez sur le lien « Envoyer un message ». Vous pouvez ensuite ajouter un objet et un message personnalisés en cliquant sur le lien « Ajouter un message personnalisé ».

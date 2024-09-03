@@ -11,7 +11,7 @@ exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -26,17 +26,17 @@ PUT /rename
 
 ## Paramètres de requête
 
-| Nom  | Description |
+| Nom | Description |
 |---|---|
-| id | ID du document ou du dossier à renommer |
-| name  | Nom du nouveau document ou dossier |
+| ID | Identifiant du document ou du dossier à renommer |
+| Nom | Nouveau nom du document ou du dossier |
 
 
 ## Réponse
 
-Chaîne JSON indiquant la réussite ou l’échec, comme indiqué dans la section Gestion des erreurs ci-dessous.
+Chaîne JSON indiquant le succès ou l’échec, tel que spécifié dans la section Gestion des erreurs ci-dessous.
 
-**Exemple :** PUT https://www.acme.com/api/rename
+**Exemple :** PUT https://www.acme.com/api/rename
 
 ```
 -------------------------------
@@ -48,7 +48,7 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 -------------------------------
 ```
 
-renvoie
+returns
 
 ```
 {status: "success"

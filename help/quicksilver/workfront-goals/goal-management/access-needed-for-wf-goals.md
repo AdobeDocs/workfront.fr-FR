@@ -2,7 +2,7 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Conditions d’utilisation d’Objectifs Workfront
+title: Conditions d’utilisation d’Objectifs Workfront
 description: Votre administrateur ou administratrice Adobe Workfront doit s’assurer que certaines conditions sont remplies avant que vous puissiez accéder à Objectifs Adobe Workfront.
 author: Alina
 feature: Workfront Goals
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 ---
 
-# Conditions d’utilisation d’Objectifs Workfront
+# Conditions d’utilisation d’Objectifs Workfront
 
 Votre administrateur ou administratrice Adobe Workfront doit s’assurer que toutes les conditions suivantes sont remplies avant que vous puissiez accéder à Objectifs Adobe Workfront :
 
@@ -27,21 +27,21 @@ Votre administrateur ou administratrice Adobe Workfront doit s’assurer que to
 
 >[!NOTE]
 >
->Les personnes disposant d’un type de licence Externe ne peuvent pas accéder à Objectifs Workfront.
+>Les utilisateurs disposant d’un type de licence Externe ne peuvent pas accéder aux Objectifs Workfront.
 
-* Accordez-vous un accès à Objectifs Workfront dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès à Objectifs Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+* Accordez-vous un accès aux Objectifs dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux Objectifs Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
-* Attribuez-vous le modèle de mise en page qui inclut la zone Objectifs dans le menu principal.
+* Attribuez-vous le modèle de disposition qui inclut la zone Objectifs dans le menu principal.
 
   >[!NOTE]
   >
-  >Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal.
+  >Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de disposition incluant la zone Objectifs dans le menu principal.
 
-  Pour plus d’informations, voir la section [Ajouter Objectifs Workfront à un modèle de mise en page](#add-workfront-goals-to-a-layout-template) dans cet article.
+  Pour plus d’informations, voir la section [Ajouter Objectifs Workfront à un modèle de disposition](#add-workfront-goals-to-a-layout-template) dans cet article.
 
 * Si vous devez modifier des objectifs que vous n’avez pas vous-même créés, l’auteur ou l’autrice de l’objectif doit partager les objectifs avec vous et vous accorder les autorisations de gestion.
 
-  Pour plus d’informations, voir la section [Partager des objectifs individuels avec d’autres personnes](#share-individual-goals-with-other-users) dans cet article.
+  Pour plus d’informations, voir la section [Partager des objectifs individuels avec d’autres utilisateurs et utilisatrices](#share-individual-goals-with-other-users) dans cet article.
 
 ## Obtenir l’accès d’entreprise à Objectifs Workfront {#obtain-workfront-goals-organization-access}
 
@@ -73,37 +73,37 @@ Selon le plan Workfront actuellement utilisé par votre entreprise, les scénari
    * Vérifier
    * Demande
 
-Une fois que votre administrateur ou administratrice Workfront vous a accordé l’un de ces types de licences, il ou elle doit également vous donner accès à Objectifs Workfront dans votre niveau d’accès. Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Accorder l’accès à Objectifs Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Une fois que votre administrateur ou administratrice Workfront vous a accordé l’un de ces types de licences, il ou elle doit également vous donner accès à Objectifs dans votre niveau d’accès. Pour plus d’informations sur l’accès à Objectifs, voir [Accorder l’accès à Objectifs Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
-En tant qu’administrateur ou administratrice Workfront, vous pouvez désormais vérifier le nombre de licences Objectifs Workfront dans votre système et savoir combien d’entre elles sont activées. Pour plus d’informations, consultez [Gérer les licences disponibles dans votre système](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+En tant qu’administrateur ou administratrice Workfront, vous pouvez désormais vérifier le nombre de licences Objectifs Workfront dans votre système et savoir combien d’entre elles sont activées. Pour plus d’informations, voir [Gérer les licences disponibles dans votre système](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 >[!NOTE]
 >
->Workfront vous permet d’attribuer plus de licences Objectifs Workfront que votre contrat ne le permet. Cependant, lorsque vous attribuez plus de licences que ce que votre contrat Objectifs Workfront prévoit, une personne gestionnaire de compte Workfront vous contactera pour vous informer que vous avez dépassé le quota de votre contrat.
+>Workfront vous permet d’attribuer plus de licences Objectifs Workfront que celles que vous avez achetées. Cependant, si vous attribuez plus de licences que ce que votre contrat Objectifs Workfront autorise, une personne responsable de votre compte Workfront vous contactera pour vous informer que votre nombre contractuel est dépassé.
 
-## Ajouter Objectifs Workfront à un modèle de mise en page {#add-workfront-goals-to-a-layout-template}
+## Ajouter Objectifs Workfront à un modèle de disposition {#add-workfront-goals-to-a-layout-template}
 
-Votre administrateur ou administratrice Workfront ou de groupes doit vous attribuer un modèle de mise en page qui comprend la zone Objectifs dans le menu principal afin que vous puissiez accéder à Objectifs Workfront.
+Votre administrateur ou administratrice Workfront ou de groupes doit vous attribuer un modèle de disposition qui comprend la zone Objectifs dans le menu principal afin que vous puissiez accéder à Objectifs Workfront.
 
 ![](assets/layout-template-align-highlighted-350x220.png)
 
-Votre administrateur ou administratrice Workfront ou de groupes peut également ajouter les éléments suivants à votre modèle de mise en page afin que vous puissiez facilement accéder à Objectifs Workfront :
+Votre administrateur ou administratrice Workfront ou votre administrateur ou administratrice de groupes peut également ajouter les éléments suivants à votre modèle de disposition afin que vous puissiez facilement accéder à Objectifs Workfront :
 
 * Onglet épinglé
 * Faire de la zone Objectifs votre page de destination
 
-Pour plus d’informations sur la mise à jour du modèle de mise en page, voir les articles suivants :
+Pour plus d’informations sur la mise à jour du modèle de disposition, voir les articles suivants :
 
-* [Créer et gérer des modèles de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
-* [Personnaliser le menu principal à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+* [Créer et gérer des modèles de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
+* [Personnaliser le menu principal à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [Personnaliser les pages épinglées à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [Personnaliser la page de destination à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [Affecter des personnes à un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+* [Affecter des utilisateurs et utilisatrices à un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
 ## Partager des objectifs individuels avec d’autres personnes {#share-individual-goals-with-other-users}
 
 Par défaut, toutes les personnes qui disposent au moins d’un accès en affichage à Objectifs dans leur niveau d’accès peuvent afficher tous les objectifs dans Workfront.
 
-Toute personne disposant d’un accès en modification à Objectifs peut créer des objectifs et obtenir automatiquement un accès en gestion sur les objectifs qu’elle crée. Si elle doit modifier les objectifs d’autres personnes, la personne titulaire des autorisations de gestion sur ces objectifs doit partager avec celles-ci les objectifs qu’elles n’ont pas créés.
+Toute personne disposant d’un accès en modification à Objectifs peut créer des objectifs et obtenir automatiquement un accès en gestion sur les objectifs qu’elle crée. Si elle doit modifier les objectifs d’autres utilisateurs ou utilisatrices, une personne disposant des autorisations de gestion sur ces objectifs doit partager avec eux ou elles les objectifs qu’ils ou elles n’ont pas créés.
 
-Pour plus d’informations sur le partage d’objectifs avec des utilisateurs et utilisatrices et leur attribuer des autorisations de gestion, voir [Partager un objectif dans Objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+Pour plus d’informations sur le partage d’objectifs avec des utilisateurs et utilisatrices et leur attribuer des autorisations de gestion, voir [Partager un objectif dans Objectifs Workfront](../../workfront-goals/workfront-goals-settings/share-a-goal.md).

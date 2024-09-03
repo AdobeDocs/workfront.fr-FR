@@ -2,60 +2,60 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Vue d’ensemble de la durée initiale de la tâche et du nombre d’heures prévues à l’origine
-description: Dans le cadre de la planification d’un projet, vous devez déterminer les valeurs des heures planifiées et de la durée (ou de la durée planifiée) de chaque tâche du projet.
+title: Vue d’ensemble de la durée initiale de la tâche et des heures prévues à l’origine
+description: Dans le cadre de la planification d’un projet, vous devez déterminer les valeurs du nombre d’heures prévues et de la durée (ou durée prévue) de chaque tâche du projet.
 author: Alina
 feature: Work Management
 exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble de la durée initiale de la tâche et du nombre d’heures prévues à l’origine
+# Vue d’ensemble de la durée initiale de la tâche et des heures prévues à l’origine
 
-Dans le cadre de la planification d’un projet, vous devez déterminer les valeurs des heures planifiées et de la durée (ou de la durée planifiée) de chaque tâche du projet.
+Dans le cadre de la planification d’un projet, vous devez déterminer les valeurs du nombre d’heures prévues et de la durée (ou durée prévue) de chaque tâche du projet.
 
-Pour plus d’informations sur les heures planifiées pour les tâches, voir [Aperçu des heures planifiées](../../../manage-work/tasks/task-information/planned-hours.md).
+Pour plus d’informations sur le nombre d’heures prévues des tâches, voir [Vue d’ensemble du nombre d’heures prévues](../../../manage-work/tasks/task-information/planned-hours.md).
 
-Pour plus d’informations sur la durée de la tâche, voir [Présentation de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Pour plus d’informations sur la durée des tâches, voir [Vue d’ensemble de la durée des tâches et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-Vous pouvez voir ces valeurs dans l’onglet Détails de la tâche ou lors de la modification d’une tâche.
+Vous pouvez consulter ces valeurs dans l’onglet Détails de la tâche ou lors de la modification d’une tâche.
 
-Si vous créez une vue pour une liste de tâches ou un rapport de tâches, vous pouvez également voir les champs Heures planifiées d’origine et Durée d’origine pour les tâches.
+Si vous créez une vue pour une liste de tâches ou un rapport de tâches, vous pouvez également voir les champs Nombre d’heures prévues initial et Durée d’origine pour les tâches.
 
 ## Nombre d’heures prévues à l’origine
 
-Les Heures planifiées initiales d’une tâche représentent le nombre d’Heures planifiées qu’une tâche avait à l’origine avant de devenir une tâche parent. Lorsqu’une tâche devient une tâche parent, les Heures planifiées des tâches enfants sont cumulées à la tâche parent pour indiquer les Heures planifiées du parent.
+Le nombre d’heures prévues initial d’une tâche représente le nombre d’heures prévues qu’une tâche avait à l’origine avant de devenir une tâche parent. Lorsqu’une tâche devient une tâche parent, le nombre d’heures prévues des tâches enfants est reporté sur la tâche parent afin d’indiquer le nombre d’heures prévues de la tâche parent.
 
-En affichant le champ Heures planifiées d’origine dans un rapport de tâche ou une liste, vous pouvez voir le nombre d’heures planifiées d’origine avant que la tâche n’hérite du nombre d’heures planifiées de ses enfants.
+En affichant le champ Nombre d’heures prévues initial dans un rapport ou une liste de tâches, vous pouvez voir le nombre initial d’heures prévues avant que la tâche n’hérite du nombre d’heures prévues de ses tâches enfants.
 
 >[!NOTE]
 >
->Lorsque vous créez une tâche, le nombre d’heures initialement planifiées est nul. Si la tâche devient une tâche parente, la valeur de ce champ est renseignée avec le nombre d’ Heures planifiées de la tâche avant qu’elle ne soit remplacée par un parent. Cette valeur reste dans ce champ même si la tâche revient à une tâche autonome.
+>Lorsque vous créez une tâche, le nombre d’heures prévues initial est égal à zéro. Si la tâche devient une tâche parent, la valeur de ce champ est remplie avec le nombre d’heures prévues de la tâche avant qu’elle ne devienne une tâche parent. Cette valeur reste dans ce champ même lorsque la tâche redevient une tâche autonome.
 
 ## Durée originale
 
-La Durée d’origine d’une tâche est la Durée qu’une tâche avait à l’origine avant de devenir une tâche mère, en minutes. Lorsqu’une tâche devient parent, la Durée entre la Date de début planifiée du premier enfant et la Date de fin planifiée du dernier enfant est cumulée à la tâche parent et devient la Durée de la tâche parent. Cette opération remplace la Durée de la tâche d’origine.
+La durée initiale d’une tâche est la durée que la tâche avait à l’origine avant de devenir une tâche parent, en minutes. Lorsqu’une tâche devient un parent, la durée entre la date de début prévue du premier enfant et la date d’achèvement prévue du dernier enfant est reportée sur la tâche parent et devient la durée de la tâche parent. Cela remplace la durée de la tâche originale.
 
-En affichant le champ Durée d’origine dans un rapport ou une liste de tâches, vous pouvez voir le nombre de jours d’origine de la durée de la tâche avant qu’elle n’hérite de la durée de ses enfants.
+En affichant le champ Durée initiale dans un rapport ou une liste de tâches, vous pouvez voir le nombre original de jours pour la durée de la tâche avant qu’elle n’hérite de la durée de ses tâches enfants.
 
 >[!NOTE]
 >
->Lorsque vous créez une tâche, la durée d’origine est zéro. Si la tâche devient une tâche parente, la valeur de ce champ est renseignée avec la Durée de la tâche avant qu’elle ne soit remplacée par un parent. Cette valeur reste dans ce champ même si la tâche revient à une tâche autonome. Cette valeur s’affiche en minutes.
+>Lorsque vous créez une tâche, la durée initiale est égale à zéro. Si la tâche devient une tâche parent, la valeur de ce champ est remplie avec la durée de la tâche avant qu’elle ne devienne une tâche parent. Cette valeur reste dans ce champ même lorsque la tâche redevient une tâche autonome. Cette valeur s’affiche en minutes.
 
 ## Exemple
 
-Par exemple, lorsque deux tâches sont des tâches autonomes, leur durée d’origine et leurs heures planifiées originales sont nulles.
+Par exemple, lorsque deux tâches sont autonomes, leur durée initiale et leur nombre d’heures prévues initial ont nuls.
 
-![original_scheduled_hours_and_duration_without_parent.png](assets/original-planned-hours-and-duration-without-parent-350x38.png)
+![original_planned_hours_and_duration_without_parent.png](assets/original-planned-hours-and-duration-without-parent-350x38.png)
 
-Lorsque la première tâche devient le parent de la seconde tâche, les champs Durée d’origine et Heures planifiées d’origine sont renseignés avec les valeurs de la Durée et Heures planifiées de la tâche avant qu’elle ne devienne parent. La Durée d’origine s’affiche en minutes. La Durée et les Heures planifiées de l’enfant deviennent la Durée et les Heures planifiées du parent.
+Lorsque la première tâche devient le parent de la seconde, les champs Durée initiale et Nombre d’heures prévues initial sont remplis avec les valeurs de la Durée et du Nombre d’heures prévues de la tâche avant qu’elle ne devienne le parent. La durée initiale est affichée en minutes. La durée et le nombre d’heures prévues de l’enfant deviennent la durée et le nombre d’heures prévues du parent.
 
-![ original_and_scheduled_hours_with_a_parent_task.png{1](assets/original-and-planned-hours-with-a-parent-task-350x38.png)
+![original_and_planned_hours_with_a_parent_task.png](assets/original-and-planned-hours-with-a-parent-task-350x38.png)
 
-Lorsque le parent redevient une tâche autonome, la durée et les heures planifiées reviennent aux valeurs d’origine, tandis que la durée d’origine et les heures planifiées d’origine restent renseignées. Ils ne reviennent pas à zéro.
+Lorsque le parent redevient une tâche autonome, la durée et le nombre d’heures prévues reprennent leurs valeurs d’origine, tandis que la durée et le nombre d’heures prévues d’lrigine restent renseignées. Ils ne reviennent pas à zéro.
 
-![original_duration_and_scheduled_hours_after_reversion_of_a_parent.png](assets/original-duration-and-planned-hours-after-reversal-of-a-parent-350x39.png)
+![original_duration_and_planned_hours_after_reversal_of_a_parent.png](assets/original-duration-and-planned-hours-after-reversal-of-a-parent-350x39.png)

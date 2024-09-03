@@ -37,18 +37,18 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : contributeur ou contributrice ou supérieure </p>
+   <td> <p>Nouvelle : contributeur ou supérieure </p>
         <p>ou</p> 
-        <p>Actuel : [!UICONTROL Request] ou supérieure </p></td> 
+        <p>Actuelle : [!UICONTROL Request] ou supérieure </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,10 +97,10 @@ Lorsque vous supprimez une colonne d’un panorama, elle ne peut pas être récu
 
 Vous pouvez utiliser un paramètre de configuration pour afficher le nombre de cartes dans chaque colonne.
 
-Si vous utilisez la limite du travail en cours (WIP) sur une colonne, aucun compteur de cartes distinct n’est ajouté. Pour plus d’informations sur les limites de travail en cours, voir [Gérer la limite du [!UICONTROL travail en cours] (WIP) sur un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+Si vous utilisez la limite de travaux en cours sur une colonne, aucun compteur de cartes distinct n’est ajouté. Pour plus d’informations sur les limites de travail en cours, voir [Gérer la limite du [!UICONTROL travail en cours] (WIP) sur un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. Accédez au panorama.
-1. Cliquez sur **[!UICONTROL Configurer]** à droite du panorama pour ouvrir le panneau Configurer.
+1. Cliquez sur **[!UICONTROL Configurer]** à droite du panorama pour ouvrir le panneau de configuration.
 1. Développez **[!UICONTROL Colonne]**.
 1. Activez **[!UICONTROL Afficher le nombre de cartes d’une colonne]**.
 
@@ -128,7 +128,7 @@ Une carte reste dans la colonne où elle a été placée si le statut de la cart
 >En outre, pour tous les types de panoramas, si vous déplacez une carte d’une colonne à une autre colonne au statut identique, la carte revient dans la colonne d’origine lorsque vous actualisez le panorama.
 
 1. Accédez au panorama.
-1. Cliquez sur le menu **[!UICONTROL Plus]** ![More menu](assets/more-icon-spectrum.png) dans la colonne, puis sélectionnez **[!UICONTROL Modifier]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]** ![menu Plus](assets/more-icon-spectrum.png) dans la colonne, puis sélectionnez **[!UICONTROL Modifier]**.
 
    La zone [!UICONTROL Paramètres] s’affiche. Le **[!UICONTROL Nom de la colonne]** vous permet de savoir pour quelle colonne vous définissez des paramètres.
 
@@ -150,14 +150,14 @@ Une carte reste dans la colonne où elle a été placée si le statut de la cart
 
       Lorsqu’une carte est déplacée vers cette colonne, [!DNL Workfront] tente d’abord d’appliquer le statut personnalisé (par exemple, Résolu). Si le statut personnalisé sélectionné n’est pas disponible pour cette carte, vous pouvez choisir un autre statut correspondant au statut du système (à l’étape b ci-dessus). Pour plus d’informations sur les statuts, consultez la section [Vue d’ensemble des statuts](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
-      En outre, si le statut de la tâche ou du problème connecté passe au statut personnalisé ou système défini dans la politique de colonne, la carte est automatiquement déplacée dans la colonne.
+      En outre, si le statut de la tâche connectée ou du problème connecté est modifié dans le statut personnalisé ou système défini dans la politique de colonne, la carte est automatiquement déplacée dans la colonne.
 
-1. (Facultatif) Définir une valeur pour les cessionnaires de la carte :
+1. (Facultatif) Définir une valeur pour les personnes cessionnaires de la carte :
 
-   1. Sélectionnez la case à cocher **[!UICONTROL Cessionnaires]**.
+   1. Sélectionnez la case à cocher **[!UICONTROL Personnes cessionnaires]**.
    1. Sélectionnez une action.
 
-      * **[!UICONTROL Ajouter des personnes cessionnaires] :** les personnes cessionnaires que vous sélectionnez sont ajoutées à la liste existante des personnes cessionnaires sur une carte lorsqu’elle est déplacée vers cette colonne.
+      * **[!UICONTROL Ajouter des personnes cessionnaires] :** les personnes cessionnaires que vous sélectionnez sont ajoutées à la liste existante des personnes affectées à une carte lorsqu’elle est déplacée vers cette colonne.
       * **[!UICONTROL Remplacer les personnes cessionnaires] :** les personnes cessionnaires que vous sélectionnez remplacent toutes les autres et deviennent les seules personnes cessionnaires de la carte lorsqu’elle est déplacée vers cette colonne.
 
    1. Cliquez sur [!UICONTROL **Ajouter une affectation**] et recherchez un utilisateur ou une utilisatrice. Sélectionnez les personnes cessionnaires dans les résultats de recherche. Vous pouvez choisir parmi les équipes de Workfront et l’ensemble des utilisateurs et des utilisatrices disponibles.
@@ -169,14 +169,14 @@ Une carte reste dans la colonne où elle a été placée si le statut de la cart
    1. Sélectionnez la case à cocher **[!UICONTROL Cartes]**.
    1. Sélectionnez une action.
 
-      * **[!UICONTROL Ajouter sur les balises] :** les balises que vous sélectionnez sont ajoutées à la liste des balises existantes sur une carte lorsqu’elle est déplacée dans cette colonne.
+      * **[!UICONTROL Ajouter sur les balises] :** les balises que vous sélectionnez sont ajoutées à la liste des balises existantes sur une carte lorsqu’elles sont déplacées dans cette colonne.
       * **[!UICONTROL Remplacer les balises]:** les balises que vous sélectionnez remplacent toutes les autres et deviennent les seules balises de la carte lorsqu’elle est déplacée vers cette colonne.
 
    1. Sélectionnez les balises dans la liste déroulante. Vous pouvez choisir parmi les balises disponibles déjà créées dans le [!UICONTROL gestionnaire de balises]. Pour plus d’informations sur l’ajout de nouvelles balises, consultez la section [Ajouter des balises](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Balises de colonne](assets/boards-column-tags.png)
 
-1. Activez la politique **[!UICONTROL Limite de travail en cours]** pour limiter le nombre de cartes pouvant être ajoutées à la colonne. Saisissez ensuite le nombre limite dans le champ **[!UICONTROL Définir la limite]**.
+1. Activez la politique **[!UICONTROL Limite du travail en cours]** pour limiter le nombre de cartes à ajouter à la colonne. Saisissez ensuite le nombre limite dans le champ **[!UICONTROL Définir la limite]**.
 
    ![Limite du travail en cours pour la colonne](assets/boards-wip-limit-in-column.png)
 

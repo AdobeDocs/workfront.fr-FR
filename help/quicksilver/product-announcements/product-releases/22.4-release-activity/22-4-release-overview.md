@@ -9,30 +9,31 @@ exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '3271'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 # Vue d’ensemble de la version 22.4
 
-Cette page fournit des informations sur les fonctionnalités incluses dans la version 22.4.
+Cette page fournit des informations sur les fonctionnalités incluses dans la version 22.4.
 
-Ces améliorations ont été apportées à l’environnement de production avec la version 22.4 des 6 et 7 octobre 2022.
+Ces améliorations ont été apportées à l’environnement de production avec la version 22.4 des 6 et 7 octobre 2022.
 
-## Améliorations Adobe Workfront
+## Améliorations apportées à Adobe Workfront
 
-* [Améliorations d’administration](#administrator-enhancements)
+* [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 
-* [Améliorations des projets](#project-enhancements)
+* [Améliorations apportées aux projets](#project-enhancements)
 
-* [Améliorations rapides](#agile-enhancements)
+* [Améliorations de la méthode Agile](#agile-enhancements)
 
-* [Améliorations de la gestion des ressources](#resource-management-enhancements)
+* [Amélioration apportées à la gestion des ressources.
+](#resource-management-enhancements)
 
 * [Autres améliorations](#other-enhancements)
 
 
-### Améliorations d’administration
+### Améliorations apportées aux administrateurs et administratrices
 
 <table>
             <col style="width: 50%;" />
@@ -45,52 +46,52 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>            
 <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Utiliser des états déverrouillés dans un processus de validation
-</a></p> <p>Cette fonctionnalité a été supprimée de la version de production 22.3. Cette fonctionnalité devrait être mise en production ultérieurement.</p> 
-<p>Pour vous permettre de mieux contrôler les processus et les états de validation dans votre système, nous avons rendu possible la création d'un processus de validation basé sur un état système déverrouillé. De plus, vous pouvez désormais déverrouiller tout statut déjà utilisé dans un processus de validation. Auparavant, un état système utilisé dans un processus de validation devait être verrouillé. Cela l’a rendu disponible pour tous les groupes, sans possibilité de le supprimer ou de le renommer, de sorte que les administrateurs de groupes ne puissent pas rationaliser la liste des états de leur groupe en fonction de leurs besoins spécifiques.</p>   
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Utiliser des statuts Déverrouillé dans des processus d’approbation
+</a></p> <p>Cette fonctionnalité a été supprimée de la version de production 22.3. Cette fonctionnalité devrait être mise en production ultérieurement.</p> 
+<p>Pour vous permettre de mieux contrôler les processus et les statuts d’approbation dans votre système, nous avons autorisé la création d’un processus d’approbation basé sur un statut de système déverrouillé. De plus, vous pouvez désormais déverrouiller tout statut déjà utilisé dans un processus d’approbation. Auparavant, un statut système utilisé dans un processus d’approbation devait être verrouillé. Cela le rendait disponible pour tous les groupes, sans possibilité de le supprimer ou de le renommer. Les équipes d’administration de groupe ne pouvaient donc pas rationaliser la liste des statuts de leur groupe en fonction de leurs besoins spécifiques.</p>   
    </td> 
-    <td> <p><b>Disponible sur ces dates :</b> </p> 
+    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Version d’aperçu : vendredi 2 juin 2022<br></p> </li> 
-     <li> <p>Version de production : vendredi 15 septembre 2022</p> </li> 
+     <li> <p>Version préliminaire : 2 juin 2022<br></p> </li> 
+     <li> <p>Version de production : 15 septembre 2022</p> </li> 
     </ul>  </td>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migration vers l’Adobe d’une expérience unifiée</a> </p>
-                        <p>Si votre organisation a été intégrée à Adobe Admin Console, votre instance Workfront sera migrée vers l’Adobe Expérience unifiée avec la version 22.4.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migration vers Adobe Unified Experience</a> </p>
+                        <p>Si votre organisation a été intégrée à Adobe Admin Console, votre instance Workfront sera migrée vers Adobe Unified Experience avec la version 22.4.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : S.O.<br /></p>
+                                <p>Version préliminaire : S/O<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4 <span style="color: #ff0000;">Cette migration a été reportée au 1er trimestre 2023 au 2e trimestre. </span></p>
+                                <p>Version de production : avec la version 22.4 <span style="color: #ff0000;">Cette migration a été reportée aux 1er et 2e trimestres 2023.</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Icône Plan directeur dans le menu principal désormais contrôlée par les modèles de mise en page</a></p>
-                        <p>Les administrateurs système peuvent désormais ajouter ou supprimer l’icône Plan directeur dans le menu principal via la configuration du modèle de mise en page. Cela permet de mieux contrôler qui peut parcourir le catalogue de plans directeurs.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">L’icône Plans directeurs du menu principal est désormais contrôlée par le biais de modèles de mise en page</a>.</p>
+                        <p>L’équipe d’administration système peut désormais ajouter ou supprimer l’icône Plan directeur dans le menu principal via la configuration du modèle de disposition. Il est ainsi plus facile de contrôler les personnes qui peuvent parcourir le catalogue de plans directeurs.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 25 août 2022<br /></p>
+                                <p>Version préliminaire : 25 août 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -98,17 +99,17 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Personnalisation de l’en-tête du problème</a></p>
-                        <p>En tant qu’administrateur Workfront ou de groupe, vous pouvez désormais personnaliser les champs qui s’affichent dans l’en-tête d’un problème lorsque vous utilisez un modèle de mise en page. Cette mise à jour comprend plusieurs améliorations, notamment la possibilité de supprimer ou de réorganiser des champs existants de l’en-tête du problème et d’ajouter de nouveaux champs de présentation du problème non modifiables.</p>
+                        <p>En tant qu’administrateur ou administratrice Workfront ou de groupes, vous pouvez désormais personnaliser les champs qui s’affichent dans l’en-tête d’un problème lorsque vous utilisez un modèle de disposition. Cette mise à jour comprend plusieurs améliorations, notamment la possibilité de supprimer ou de réorganiser les champs existants de l’en-tête du problème et d’ajouter de nouveaux champs non modifiables pour la vue d’ensemble du problème.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 8 septembre 2022<br /></p>
+                                <p>Version préliminaire : 8 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -116,49 +117,50 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Personnalisation de l’en-tête de tâche</a></p>
-                        <p>En tant qu’administrateur Workfront ou de groupe, vous pouvez désormais personnaliser les champs qui s’affichent dans l’en-tête d’une tâche lorsque vous utilisez un modèle de mise en page. Cette mise à jour comprend plusieurs améliorations, notamment la possibilité de supprimer ou de réorganiser des champs existants de l’en-tête de la tâche et d’ajouter de nouveaux champs non modifiables Présentation de la tâche.</p>
+                        <p>En tant qu’administrateur ou administratrice de Workfront ou de groupes, vous pouvez désormais personnaliser les champs qui s’affichent dans l’en-tête d’une tâche lorsque vous utilisez un modèle de mise en page. Cette mise à jour comprend plusieurs améliorations, notamment la possibilité de supprimer ou de réorganiser les champs existants dans l’en-tête de tâche et d’ajouter de nouveaux champs non modifiables dans la vue d’ensemble de la tâche.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 25 août 2022<br /></p>
+                                <p>Version préliminaire : 25 août 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> Inclusion anticipée des dernières fonctionnalités sur les panoramas</a> </p>
-                        <p>Nous sommes ravis d’ouvrir de nouvelles fonctionnalités de panoramas pour l’accord préalable des fonctionnalités. Cet outil facultatif est disponible pour toutes les organisations.</p>
-                        <p>Seul un administrateur Workfront peut souscrire aux premières fonctionnalités. Lorsque l’administrateur choisit de se connecter aux nouvelles fonctionnalités, tous les utilisateurs de l’entreprise y sont inscrits et les fonctionnalités supplémentaires sont activées dans votre environnement Workfront de production.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Inclusion anticipée des dernières fonctionnalités sur les panoramas</a> </p>
+                        <p>Nous sommes ravis d’ouvrir de nouvelles fonctionnalités de panoramas pour l’inclusion préalable des fonctionnalités. Cette option n’est pas disponible pour toutes les organisations.</p>
+                        <p>Seulement un administrateur ou une administratrice Workfront peut activer les fonctionnalités anticipées. Lorsque l’administrateur ou l’administratrice active les fonctionnalités anticipées, les personnes appartenant à l’entreprise peuvent en bénéficier et les fonctionnalités supplémentaires sont activées dans votre environnement de production Workfront.</p>
                     </td>
-                    <td><b>Disponible sur ces dates :</b>
+                    <td><b>Disponible à ces dates :</b>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : samedi 22 juillet 2022 <br /></p>
+                                <p>Version préliminaire : 22 juillet 2022 <br /></p>
                             </li>
                             <li>
-                                <p>Version de production : 28 juillet 2022</p>
+                                <p>Version de production : 28 juillet 2022</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">L’éditeur de calcul de champ de formulaire personnalisé affiche les informations d’erreur
-</a></p></p> <p>La modification des calculs pour les champs personnalisés est désormais plus facile avec des informations d’erreur utiles indiquées directement dans le calcul. Lorsque vous créez un champ calculé dans un formulaire personnalisé, les erreurs sont surlignées en rose. Lorsque vous passez le curseur sur la partie mise en surbrillance, une info-bulle s’affiche pour décrire le problème.</p>
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">L’éditeur de calcul de champ de formulaire personnalisé affiche les informations d’erreur.
+</a></p></p> <p>La modification des calculs pour les champs personnalisés est désormais plus facile avec des informations d’erreur utiles indiquées directement dans le calcul. Lorsque vous créez un champ calculé dans un formulaire personnalisé, les erreurs sont surlignées en rose. Lorsque vous pointez sur la partie mise en surbrillance, une info-bulle s’affiche pour décrire le problème.</p>
 </td>
-    <td><b>Disponible sur ces dates :</b>
+    <td><b>Disponible à ces dates :</b>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : pendant la période de publication de la version 22.3 <br /></p>
+                                <p>Version préliminaire : pendant la période de publication de la version 22.3 <br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4
+</p>
                             </li>
                         </ul>
                     </td> 
@@ -166,7 +168,7 @@ Ces améliorations ont été apportées à l’environnement de production avec 
             </tbody>
         </table>
 
-### Améliorations des projets
+### Améliorations apportées aux projets
 
 <table>
             <col style="width: 50%;" />
@@ -183,14 +185,14 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                     </td>
                 </tr>
 <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Les détails du prédécesseur sont désormais disponibles.
+   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Les détails des tâches antérieures sont désormais disponibles.
 </a></p> 
-<p>Pour afficher les détails des prédécesseurs d’une tâche, vous pouvez maintenant passer la souris sur le numéro du prédécesseur dans la colonne Prédécesseurs . La zone Détails affiche la tâche et le projet prédécesseur référencés, les dates de début et de fin prévues pour la tâche précédente et le nombre de prédécesseurs et de successeurs de la tâche précédente. Vous pouvez développer les détails du projet pour afficher plus d’informations sur le projet. Des informations supplémentaires sont incluses pour les prédécesseurs sur plusieurs projets.</p>   
+<p>Pour afficher les détails des tâches antérieures d’une tâche, vous pouvez maintenant passer la souris sur le numéro de la tâche antérieure dans la colonne Tâches antérieures. La zone Détails affiche la tâche antérieure et le projet référencés, les dates de début et de fin prévues pour la tâche antérieure et le nombre de tâches antérieures et ultérieures de la tâche antérieure. Vous pouvez développer les détails du projet pour afficher plus d’informations sur le projet. Des informations supplémentaires sont incluses pour les projets transversaux antérieurs.</p>   
    </td> 
-    <td> <p><b>Disponible sur ces dates :</b> </p> 
+    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Version d’aperçu : samedi 9 septembre 2022 <br></p> </li> 
-     <li> <p>Version de production : avec la version 22.4</p> </li> 
+     <li> <p>Version préliminaire : 9 septembre 2022 <br></p> </li> 
+     <li> <p>Version de production : avec la version 22.4</p> </li> 
      </td>
   </tr>                
 <tr data-mc-conditions=""> 
@@ -198,121 +200,122 @@ Ces améliorations ont été apportées à l’environnement de production avec 
 </a></p> 
 <p>Pour vous offrir une plus grande flexibilité dans la gestion des tâches et des problèmes, nous avons permis d’affecter plusieurs équipes à une tâche ou à un problème. Auparavant, une seule équipe pouvait être affectée à une tâche ou à un problème.
 
-Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’équilibreur de charge de travail de la zone Équipes.</p>
+Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l’équilibreur de charge de travail de la zone Équipes.</p>
 </td> 
-    <td> <p><b>Disponible sur ces dates :</b> </p> 
+    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
-     <li> <p>Version d’aperçu : samedi 2 septembre 2022<br></p> </li> 
-     <li> <p>Version de production : avec la version 22.4</p> </li> 
+     <li> <p>Version préliminaire : 2 septembre 2022<br></p> </li> 
+     <li> <p>Version de production : avec la version 22.4</p> </li> 
     </ul> 
     </td>
   </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Sélection intelligente d’utilisateurs pour les rôles de projet dans les zones Modifier et Détails</a> </p>
-                        <p>Nous avons amélioré l’affichage des utilisateurs lorsque vous les ajoutez aux champs de projet Propriétaire du projet, Parrain du projet et Gestionnaire de ressources dans la boîte de dialogue Modifier et la section Détails du projet.</p>
-                        <p>Désormais, lorsque vous ajoutez un utilisateur à l’un de ces champs dans les zones Modifier ou Détails, en plus de son nom et de son avatar, son Rôle de Principal et son email s’affichent également. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.</p>
-                        <p><b>REMARQUE :</b> D’autres champs utilisateur pour les projets, les tâches et les problèmes seront mis à jour avec cette fonctionnalité dans les prochaines versions.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Sélection intelligente de personnes pour les rôles de projet dans les zones Modifier et Détails</a> </p>
+                        <p>Nous avons amélioré la façon dont les utilisateurs et utilisatrices s’affichent lorsque vous les ajoutez aux champs Personne propriétaire du projet, Personne sponsor du projet et Personne gestionnaire des ressources à partir de la zone Modifier et de la section Détails du projet.</p>
+                        <p>Désormais, lorsque vous ajoutez une personne à l’un de ces champs dans les zones Modifier ou Détails, son rôle principal et son e-mail s’affichent en plus de son nom et de son avatar. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.</p>
+                        <p><b>NOTE :</b> les champs utilisateur supplémentaires pour les projets, les tâches et les problèmes seront mis à jour avec cette fonctionnalité dans les prochaines versions.</p>
                     </td>
-                    <td><b>Disponible sur ces dates :</b>
+                    <td><b>Disponible à ces dates :</b>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 25 août 2022</p>
+                                <p>Version préliminaire : 25 août 2022</p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Les champs de date calculée sont toujours enregistrés en fonction du temps universel coordonné (UTC)</a> </p>
-                        <p>Désormais, vous pouvez être certain que toutes les fonctions de date dans les champs calculés fonctionnent de manière cohérente et produisent le même résultat pour tout le monde, indépendamment de la manière dont une expression de données personnalisée est mise à jour ou de l’endroit où les utilisateurs collaborent sur l’objet dans le monde entier. </p>
-                        <p>Tous les calculs sont désormais calculés et enregistrés selon une norme (temps universel coordonné), et non selon les configurations de fuseau horaire définies pour l’instance de votre entreprise et votre profil utilisateur individuel. Cependant, les calculs sont affichés dans un formulaire personnalisé en fonction des fuseaux horaires individuels définis dans le navigateur de chaque utilisateur.</p>
-                        <p>Auparavant, les paramètres d’heure dans les calculs étaient source de confusion lorsqu’ils variaient selon les situations suivantes :</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Les champs calculés de date sont toujours enregistrés en fonction du temps universel coordonné (UTC).</a> </p>
+                        <p>Désormais, vous savez que toutes les fonctions de date dans les champs calculés fonctionnent de manière cohérente et produisent le même résultat pour tout le monde, indépendamment de la manière dont une expression de données personnalisées est mise à jour ou de l’endroit où les personnes collaborent sur l’objet dans le monde entier. </p>
+                        <p>Tous les calculs sont désormais calculés et enregistrés selon une norme, le temps universel coordonné (UTC), et non selon les configurations de fuseau horaire définies pour l’instance de votre entreprise et votre profil utilisateur individuel. Cependant, les calculs sont affichés dans un formulaire personnalisé en fonction des fuseaux horaires individuels définis dans le navigateur de chaque personne.</p>
+                        <p>Auparavant, les paramètres d’heure dans les calculs étaient source de confusion lorsqu’ils variaient selon les situations suivantes :</p>
                         <ul>
                             <li>
-                                <p>Si quelqu’un recalcule une expression de champ calculée à l’aide de "Mettre à jour les calculs précédents" sur le créateur de formulaires, les résultats de la fonction de date sont déterminés par le fuseau horaire UTC de votre entreprise.</p>
+                                <p>Si quelqu’un recalculait une expression de champ calculée à l’aide de « Mettre à jour les calculs précédents » sur le créateur de formulaires, les résultats de la fonction de date étaient déterminés par le fuseau horaire UTC de votre entreprise.</p>
                             </li>
                             <li>
-                                <p>Si un utilisateur a modifié l’objet et que l’expression du champ calculé était recalculée, les résultats de la fonction de date étaient déterminés par le fuseau horaire local de l’utilisateur. Dans ce scénario, le champ Date calculée entraîne également le calcul en fonction du UTC.</p>
+                                <p>Si quelqu’un modifiait l’objet et que l’expression du champ calculé était recalculée, les résultats de la fonction de date étaient déterminés par le fuseau horaire local de la personne. Dans ce scénario, le champ Date calculée entraîne également le calcul en fonction du UTC.</p>
                             </li>
                         </ul>
-                        <p>Pour plus d’informations, voir <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref" xrefformat="{para}">Utilisation des fuseaux horaires</a>.</p>
+                        <p>Pour plus d’informations, consultez <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref" xrefformat="{para}">Travailler sur plusieurs fuseaux horaires</a>.</p>
                     </td>
-                    <td><b>Disponible sur ces dates :</b>
+                    <td><b>Disponible à ces dates :</b>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 18 août 2022</p>
+                                <p>Version préliminaire : 18 août 2022</p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4
+</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de filtrage pour les projets, les tâches et les problèmes (Beta)</a> </p>
-                        <p>Le filtrage dans les listes de projets, de tâches et de problèmes a été repensé afin de vous aider à créer et partager rapidement des filtres. Les fonctionnalités incluent :</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience de filtrage pour les projets, les tâches et les problèmes (version bêta)</a> </p>
+                        <p>Le filtrage dans les listes de projets, de tâches et de problèmes a été repensé afin de vous aider à créer et partager rapidement des filtres. Les fonctionnalités incluent :</p>
                         <ul>
                             <li>
-                                <p>Interface intuitive de "créateur bêta" pour créer un nouveau filtre</p>
+                                <p>Une interface intuitive de « création bêta » pour créer un filtre</p>
                             </li>
                             <li>
                                 <p>La possibilité de marquer un filtre comme favori</p>
                             </li>
                             <li>
-                                <p>Empilement des filtres (application de plusieurs filtres enregistrés)</p>
+                                <p>Empiler des filtres (appliquer plusieurs filtres enregistrés)</p>
                             </li>
                             <li>
-                                <p>Duplication de filtres</p>
+                                <p>Dupliquer des filtres</p>
                             </li>
                             <li>
-                                <p>Partage de filtres</p>
+                                <p>Partager des filtres</p>
                             </li>
                             <li>
-                                <p>Suppression des filtres partagés avec vous</p>
+                                <p>Supprimer des filtres partagés avec vous</p>
                             </li>
                         </ul>
-                        <p>La nouvelle expérience de filtrage est également disponible dans les listes de feuilles de temps et dans le planificateur de scénario.</p>
-                        <p>Le mode Texte reste disponible pour l’édition avancée de filtres, et les administrateurs système peuvent toujours attribuer des filtres par défaut à tous les utilisateurs par le biais des modèles de mise en page.</p>
+                        <p>La nouvelle expérience de filtrage est également disponible dans les listes de feuilles de temps et dans le planificateur de scénarios.</p>
+                        <p>Le mode Texte reste disponible pour l’édition avancée de filtres, et les administrateurs et administratrices système peuvent toujours attribuer des filtres par défaut à toutes les personnes par le biais des modèles de disposition.</p>
                     </td>
-                    <td><b>Disponible sur ces dates :</b>
+                    <td><b>Disponible à ces dates :</b>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 21 juillet 2022<br /></p>
+                                <p>Version préliminaire : 21 juillet 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : 4 août 2022 </p>
+                                <p>Version de production : 4 août 2022 </p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> Améliorations apportées aux formulaires personnalisés : Adobe XD et le filtre rapide</a>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations des formulaires personnalisés : Adobe XD et filtre rapide</a>
                         </p>
-                        <p>Sur la base de vos commentaires, nous avons introduit les améliorations suivantes afin d’améliorer votre expérience de gestion des formulaires personnalisés :
+                        <p>Sur la base de vos commentaires, nous avons introduit les améliorations suivantes afin d’améliorer votre expérience de gestion des formulaires personnalisés :
 
 </p>
 <ol>
-<li>Ajoutez un fichier Adobe XD pour rendre un formulaire personnalisé plus visuel et informatif. Lorsque le formulaire est joint à un objet, les utilisateurs qui l’utilisent peuvent afficher et interagir avec le fichier XD depuis le formulaire.
+<li>Ajoutez un fichier Adobe XD pour rendre un formulaire personnalisé plus visuel et informatif. Lorsque le formulaire est joint à un objet, les personnes qui l’utilisent peuvent afficher et interagir avec le fichier XD depuis le formulaire.
 </li>
-<li>Utilisez le filtre rapide pour localiser facilement des éléments dans la liste de champs et de formulaires personnalisés modernisés. Profitez également d’une apparence améliorée lors de la gestion de vos formulaires et champs.
+<li>Utilisez le filtre rapide pour localiser facilement des éléments dans la liste de champs et de formulaires personnalisés modernisés. Profitez également d’un aspect amélioré lors de la gestion de vos formulaires et champs.
 </li>
 </ol>
                     </td>
                     <td>
-                        <p><b>Disponible sur ces dates :</b>
+                        <p><b>Disponible à ces dates :</b>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 4 août 2022 <br /></p>
+                                <p>Version préliminaire : 4 août 2022 <br /></p>
                             </li>
                             <li>
-                                <p>Version de production : 11 août 2022</p>
+                                <p>Version de production : 11 août 2022</p>
                             </li>
                         </ul>
                     </td>
@@ -320,7 +323,7 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
             </tbody>
         </table>
 
-### Améliorations rapides
+### Améliorations de la méthode Agile
 
 <table>
             <col style="width: 50%;" />
@@ -338,87 +341,87 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Colonne d’entrée disponible sur les panoramas</a></p>
-                        <p>Vous pouvez désormais ajouter une colonne d’entrée à un panorama. Cette colonne récupère automatiquement les tâches et les problèmes du panorama lorsqu’ils sont ajoutés dans Workfront, en fonction des filtres que vous définissez.</p>
-                        <p>La colonne d’entrée peut servir de colonne de journal pour une équipe Kanban, un emplacement d’entrée pour une équipe d’assistance afin de voir les problèmes lorsqu’ils sont ajoutés à une file d’attente de demandes ou tout autre objectif dont vous avez besoin.</p>
-                        <p>Une seule colonne d’ingestion est autorisée sur un panorama.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Colonne de saisie disponible sur les panoramas</a></p>
+                        <p>Vous pouvez désormais ajouter une colonne de saisie à un panorama. Cette colonne permet d’ajouter automatiquement des tâches et des problèmes au panorama au fur et à mesure qu’ils sont ajoutés dans Workfront, en fonction des filtres que vous définissez.</p>
+                        <p>La colonne de saisie peut servir de colonne de liste d’attente pour une équipe Kanban, d’emplacement de saisie pour une équipe d’assistance afin de voir les problèmes au fur et à mesure qu’ils sont ajoutés à une file d’attente des demandes, ou pour toute autre raison dont vous avez besoin.</p>
+                        <p>Une seule colonne de saisie est autorisée sur un panorama.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 8 septembre 2022<br /></p>
+                                <p>Version préliminaire : 8 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour l’opt-in anticipé : vendredi 15 septembre 2022</p>
-                                <p>Version de production pour tous les clients : avec la version 22.4</p>
+                                <p>Version de production pour l’opt-in anticipé : 15 septembre 2022</p>
+                                <p>Version de production pour tous les clientes et clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Panneau de filtrage mis à jour dans les panoramas</a></p>
-                        <p>Les icônes de filtre et de recherche d’un panorama ont été déplacées à gauche de l’écran. Lorsque vous cliquez sur l’icône de filtre, un panneau s’ouvre à gauche pour afficher toutes les options de filtre.</p>
-                        <p>Auparavant, les filtres s’affichaient dans une liste déroulante sur le côté droit du panorama.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Mise à jour du panneau Filtre dans les panoramas</a></p>
+                        <p>Les icônes de filtre et de recherche sur un panorama ont été déplacées vers la gauche de l’écran. Lorsque vous cliquez sur l’icône de filtre, un panneau s’ouvre sur la gauche pour afficher toutes les options de filtre.</p>
+                        <p>Auparavant, les filtres étaient affichés dans une liste déroulante sur le côté droit du panorama.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 8 septembre 2022<br /></p>
+                                <p>Version préliminaire : 8 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour l’opt-in anticipé : vendredi 15 septembre 2022</p>
-                                <p>Version de production pour tous les clients : avec la version 22.4</p>
+                                <p>Version de production pour l’opt-in anticipé : 15 septembre 2022</p>
+                                <p>Version de production pour tous les clientes et clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}"> Utilisez des groupes sur un panorama pour créer des couloirs </a></p>
-                        <p>Vous pouvez désormais regrouper des cartes sur un panorama par personne désignée ou par balise. Lorsque vous sélectionnez une option de regroupement, les cartes s’affichent au format couloir. Les cartes ou cartes non affectées sans balises apparaissent dans leur propre couloir.</p>
-                        <p>Vous pouvez également définir ce qui se produit lorsqu’une carte est déplacée d’un groupe à un autre. La personne désignée ou la balise dans le groupe auquel la carte est déplacée peut être ajoutée aux personnes désignées/balises existantes ou remplacer les autres personnes désignées/balises de la carte.</p>
-                        <p>Les cartes de la colonne d’ingestion ne sont pas incluses dans un groupe.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Utiliser des groupes sur un panorama pour créer des couloirs</a></p>
+                        <p>Vous pouvez désormais regrouper les cartes sur un panorama par personne assignée ou par balise. Lorsque vous sélectionnez une option de regroupement, les cartes apparaissent sous la forme d’un couloir. Les cartes non attribuées ou sans balise apparaissent dans leur propre couloir.</p>
+                        <p>Vous pouvez également définir ce qui se passe lorsqu’une carte est déplacée d’un groupe à un autre. La personne assignée ou la balise du groupe vers lequel la carte est déplacée peut être ajoutée aux personnes assignées/balises existantes ou remplacer les autres personnes assignées/balises de la carte.</p>
+                        <p>Les cartes qui se trouvent dans la colonne de saisie ne sont pas incluses dans un groupe.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : samedi 9 septembre 2022<br /></p>
+                                <p>Version préliminaire : 9 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations des éléments de liste de contrôle sur les panoramas</a> </p>
-                        <p>L’ouverture d’un élément de liste de contrôle sur une carte vous permet désormais d’ajouter des informations plus détaillées sur l’élément, notamment une description, une date d’échéance, des personnes désignées et une estimation. Vous pouvez également copier un élément de liste de contrôle, qui n’était pas disponible auparavant.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Amélioration des éléments de la liste de contrôle sur les panoramas</a> </p>
+                        <p>L’ouverture d’un élément de la liste de contrôle sur une carte permet désormais d’ajouter des informations plus détaillées sur l’élément, notamment une description, une date d’échéance, des personnes assignées et une estimation. Vous pouvez également copier un élément de la liste de contrôle qui n’était pas disponible auparavant.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : jeudi 17 août 2022<br /></p>
+                                <p>Version préliminaire : 17 août 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour l’opt-in anticipé : vendredi 25 août 2022</p>
-                                <p>Version de production pour tous les clients : avec la version 22.4</p>
+                                <p>Publication en production pour l’opt-in anticipé : 25 août 2022</p>
+                                <p>Version de production pour tous les clientes et clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajouter une équipe à un panorama ou une carte</a> </p>
-                        <p>Vous pouvez désormais ajouter une équipe en tant que membre du panorama. Les membres individuels de l’équipe ne sont plus ajoutés lorsque vous ajoutez une équipe au panorama, bien que tous les membres de l’équipe aient accès au panorama.</p>
-                        <p>Après avoir ajouté l’équipe au panorama, vous pouvez l’affecter aux cartes. Sur les cartes connectées, une seule affectation d’équipe est autorisée. Sur les cartes ad hoc, vous pouvez affecter plusieurs équipes.
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajouter une équipe à un panorama ou à une carte</a> </p>
+                        <p>Vous pouvez désormais ajouter une équipe en tant que membre du panorama. Les membres de l’équipe ne sont plus ajoutés lorsque vous ajoutez une équipe au panorama, bien que l’ensemble des membres de l’équipe ait accès au panorama.</p>
+                        <p>Après avoir ajouté l’équipe au panorama, vous pouvez lui attribuer des cartes. Sur les cartes connectées, une seule affectation d’équipe est autorisée. Pour les cartes ad hoc, vous pouvez affecter plusieurs équipes.
                         </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -426,51 +429,52 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 4 août 2022<br /></p>
+                                <p>Version préliminaire : 4 août 2022
+<br /></p>
                             </li>
                             <li>
-                                <p>Version de production pour l’opt-in anticipé : vendredi 11 août 2022</p>
-                                <p>Version de production pour tous les clients : avec la version 22.4</p>
+                                <p>Publication en production pour l’opt-in anticipé : 11 août 2022</p>
+                                <p>Version de production pour tous les clientes et clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Limite de travail en cours désormais disponible sur les colonnes du panorama</a> </p>
-                        <p>Vous pouvez maintenant définir une limite de travail en cours pour n’importe quelle colonne d’un panorama. Lorsque vous activez une limite de travail en cours, un compteur s’affiche sur la colonne avec le nombre actuel de cartes et la limite. Le compteur devient rouge si la colonne contient plus de cartes que la limite. Il s’agit simplement d’un avertissement visuel qui vous empêche d’ajouter plus de cartes que la limite.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La limite du travail en cours est désormais disponible sur les colonnes des panoramas</a> </p>
+                        <p>Vous pouvez désormais fixer une limite de travail en cours (WIP) pour n’importe quelle colonne d’un panorama. Lorsque vous activez une limite WIP, un compteur apparaît dans la colonne avec le nombre actuel de cartes et la limite. Le compteur devient rouge si la colonne contient plus de cartes que la limite. Il s’agit simplement d’un avertissement visuel et il ne vous est pas interdit d’ajouter plus de cartes que la limite.</p>
                     </td>
-                    <td><b>Disponible sur ces dates :</b>
+                    <td><b>Disponible à ces dates :</b>
                         <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : samedi 22 juillet 2022 <br /></p>
+                                <p>Version préliminaire : 22 juillet 2022 <br /></p>
                             </li>
                             <li>
-                                <p>Mise à jour de la production pour l’inclusion anticipée : 28 juillet 2022</p>
-                                <p>Version de production pour tous les clients : avec la version 22.4</p>
+                                <p>Publication en production pour l’opt-in anticipé : 28 juillet 2022</p>
+                                <p>Version de production pour tous les clientes et clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Champ d’estimation ajouté aux cartes</a> </p>
-                        <p>Un nouveau champ Estimation sur les cartes ad hoc et connectées vous permet de saisir le nombre estimé d’heures pour la carte à remplir. Il s’agit d’une entrée manuelle, et non d’une valeur calculée, et la valeur ne peut pas être supérieure à 99. L’estimation est affichée sur la carte du panorama et dans les détails de la carte.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajout du champ Estimation aux cartes</a> </p>
+                        <p>Un nouveau champ Estimation sur les cartes ad hoc et connectées vous permet de saisir le nombre d’heures estimé pour la réalisation de la carte. Il s’agit d’une saisie manuelle, et non d’une valeur calculée. La valeur ne peut être supérieure à 99. L’estimation s’affiche sur la carte du panorama et dans les détails de la carte.</p>
                     </td>
                     <td>
-                        <p><b>Disponible sur ces dates :</b>
+                        <p><b>Disponible à ces dates :</b>
                         <p>
   </p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : samedi 22 juillet 2022 <br /></p>
+                                <p>Version préliminaire : 22 juillet 2022 <br /></p>
                             </li>
                             <li>
-                                <p>Mise à jour de la production pour l’inclusion anticipée : 28 juillet 2022</p>
-                                <p>Version de production pour tous les clients : avec la version 22.4</p>
+                                <p>Publication en production pour l’opt-in anticipé : 28 juillet 2022</p>
+                                <p>Version de production pour tous les clientes et clients : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -478,7 +482,8 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
             </tbody>
         </table>
 
-### Améliorations de la gestion des ressources
+### Amélioration apportées à la gestion des ressources.
+
 
 <table>
             <col style="width: 50%;" />
@@ -490,78 +495,78 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de sortie</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Afficher tous les utilisateurs pour l’équilibreur de charge de travail d’un projet</a></p>
-                        <p>Pour que vous puissiez avoir une visibilité sur tous les utilisateurs du système et sur leur capacité sans quitter l’équilibreur de charge de travail d’un projet, nous avons ajouté une option "Afficher tous les utilisateurs". Lorsqu’il est activé, l’équilibreur de charge de travail du projet affiche tous les utilisateurs du système dans la zone de travail attribué. Grâce à cette amélioration, vous pouvez facilement identifier qui doit être affecté à une tâche répertoriée dans la zone Travail non attribué.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Afficher tous les utilisateurs et utilisatrices de l’équilibreur de charge de travail d’un projet</a></p>
+                        <p>Pour que vous puissiez avoir une visibilité sur tous les utilisateurs ou utilisatrices du système et sur leur capacité sans quitter l’équilibreur de charge de travail d’un projet, nous avons ajouté une option « Afficher tous les utilisateurs et utilisatrices ». Lorsqu’elle est activée, l’équilibreur de charge de travail du projet affiche tous les utilisateurs et utilisatrices du système dans la zone Travail attribué. Grâce à cette amélioration, vous pouvez facilement identifier qui doit être affecté à un travail répertorié dans la zone Travail non attribué.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 8 septembre 2022<br /></p>
+                                <p>Version préliminaire : 8 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Afficher tous les utilisateurs avec un rôle de tâche sélectionné dans l’équilibreur de charge de travail lors de l’affectation de travail en masse</a></p>
-                        <p>Pour faciliter la recherche de la bonne personne lors du remplacement des rôles de tâche par des utilisateurs dans l’équilibreur de charge de travail en masse, nous avons amélioré la façon dont la liste des utilisateurs disponibles est renseignée. Vous pouvez maintenant afficher tous les utilisateurs du système qui peuvent remplir le rôle sélectionné dans deux zones distinctes de la même liste d’utilisateurs :</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Afficher toutes les personnes ayant une fonction sélectionnée dans l’équilibreur de charge de travail lors de l’affectation de travail en masse</a></p>
+                        <p>Pour faciliter la recherche de la bonne personne lors du remplacement des fonctions par des personnes dans l’équilibreur de charge de travail en bloc, nous avons amélioré la façon dont la liste des utilisateurs ou utilisatrices disponibles est renseignée. Désormais, vous pouvez afficher toutes les personnes du système qui peuvent remplir le rôle sélectionné dans deux zones distinctes de la même liste d’utilisateurs et utilisatrices :</p>
                         <ul>
                             <li>
-                                <p>La première zone (Affectations suggérées) affiche les utilisateurs identifiés par la logique Affectations intelligentes .<br /></p>
+                                <p>La première zone (Affectations suggérées) affiche les personnes identifiées par la logique Affectations intelligentes.<br /></p>
                             </li>
                             <li>
-                                <p>La seconde zone (Autres affectations) affiche tous les utilisateurs pouvant remplir le rôle sélectionné.</p>
+                                <p>La deuxième zone (Autres affectations) affiche toutes les personnes qui peuvent remplir le rôle sélectionné.</p>
                             </li>
                         </ul>
-                        <p>Avant cette amélioration, vous ne pouviez afficher que la liste des utilisateurs pouvant être affectés selon la logique Affectations intelligentes .</p>
+                        <p>Avant cette amélioration, vous ne pouviez afficher que la liste des personnes pouvant être affectées selon la logique Affectations intelligentes.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 8 septembre 2022<br /></p>
+                                <p>Version préliminaire : 8 septembre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations de l’équilibreur de charge de travail pour les utilisateurs de licence de travail et les paramètres de problème</a></p>
-                        <p>Les améliorations suivantes ont été apportées à l’équilibreur de charge de travail, en vue de l’obsolescence des outils de planification :</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées à l’équilibreur de charge de travail pour les personnes disposant d’une licence Travail et les paramètres de problème</a></p>
+                        <p>Les améliorations suivantes ont été apportées à l’équilibreur de charge de travail, en vue de l’obsolescence des outils de planification :</p>
                         <ul>
                             <li>
-                                <p>Les utilisateurs de licences de travail peuvent désormais ajuster les allocations lors de l’utilisation de l’équilibreur de charge de travail d’un projet.<br /></p>
+                                <p>Les utilisateurs et utilisatrices de licences de travail peuvent désormais ajuster les affectations lors de l’utilisation de l’équilibreur de charge de travail d’un projet.<br /></p>
                             </li>
                             <li>
-                                <p>Les problèmes s’affichent dans la zone de travail Non affecté lors de l’activation du paramètre "Inclure les heures d’après les problèmes".</p>
+                                <p>Les problèmes s’affichent dans la zone de travail non assigné lorsque le paramètre « Inclure les heures des problèmes » est activé.</p>
                             </li>
                         </ul>
-                        <p>Avant ces améliorations, seuls les utilisateurs de la licence du forfait pouvaient ajuster les affectations utilisateur et les problèmes affichés uniquement dans la zone de travail attribué.</p>
+                        <p>Avant ces améliorations, seuls les utilisateurs et utilisatrices de la licence de plan pouvaient ajuster les affectations d’utilisateur ou utilisatrice et les problèmes s’affichaient uniquement dans la zone Travail attribué.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 25 août 2022<br /></p>
+                                <p>Version préliminaire : 25 août 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -581,22 +586,22 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’apparence pendant la période de publication de la version 22.4</a> </p>
-                        <p>Des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront sont effectuées dans le délai de publication de la version 22.4. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation. </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Mises à jour de l’aspect pendant la période de publication de la version 22.4</a> </p>
+                        <p>Des mises à jour mineures de l’aspect de diverses zones de l’application Adobe Workfront sont effectuées dans le cadre de la chronologie de publication de la version 22.4. Ces améliorations seront disponibles dans l’environnement de production au moins deux semaines après le lancement de la version préliminaire. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : pendant toute la période de la version 22.4<br /></p>
+                                <p>Version préliminaire : tout au long de la chronologie de la version 22.4<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : au moins 2 semaines après la publication dans Aperçu (sauf indication contraire)</p>
+                                <p>Version de production : au minimum deux semaines après la publication en prévisualisation (sauf indication contraire).</p>
                             </li>
                         </ul>
                     </td>
@@ -604,16 +609,16 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for InDesign</a> <span style="color: #ff0000;"> Nouveau en production !</span> </p>
-                        <p>Ce module externe peut désormais être installé dans InDesign. Il vous permet d’accéder aux détails de l’élément de travail, de collaborer avec des collègues dans la zone Mises à jour et d’envoyer des bons à tirer pour la révision, sans quitter XD. Rendez-vous sur le marché Adobe Creative Cloud pour télécharger le module externe dès aujourd’hui. </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront pour InDesign</a> <span style="color: #ff0000;"> Nouveau en production</span> </p>
+                        <p>Ce plug-in peut désormais être installé dans InDesign. Il vous permet d’accéder aux détails des éléments de travail, de collaborer avec les personnes avec qui vous travaillez dans la zone des mises à jour et de soumettre des épreuves pour révision, le tout sans quitter XD. Accédez à la marketplace Adobe Creative Cloud pour télécharger le plug-in dès aujourd’hui. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Aperçu de la version : S.O.<br /></p>
+                                <p>Version préliminaire : S/O<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : vendredi 6 octobre 2022</p>
+                                <p>Version de production : 6 octobre 2022</p>
                             </li>
                         </ul>
                     </td>
@@ -621,73 +626,73 @@ Remarque : Cette fonctionnalité n’est actuellement pas disponible dans l’é
                 <tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Synchroniser les métadonnées d’objet avec l’intégration Experience Manager Assets native</a> </p>
-                        <p>Désormais, les champs de portefeuille, de programme, de projet, de tâche, de problème et de document de Workfront se mettent automatiquement à jour lorsque le champ est modifié dans Workfront.</p>
-                        <p>Pour permettre la synchronisation automatique des métadonnées d’objet, vous devez activer le bouton de synchronisation des métadonnées d’objet pour vos intégrations dans Configuration &gt; Intégrations Experience Manager.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Synchroniser les métadonnées des objets avec l’intégration native d’Experience Manager Assets</a> </p>
+                        <p>Désormais, les champs de portfolio, programme, projet, tâche, problème et document Workfront se mettent à jour automatiquement quand le champ est modifié dans Workfront.</p>
+                        <p>Pour synchroniser automatiquement les métadonnées d’objets, vous devez activer le bouton (bascule) « Synchroniser les métadonnées d’objets » pour vos intégrations dans Configuration &gt; Intégrations Experience Manager.</p>
                         <p>Auparavant, seuls les champs de projet étaient automatiquement mis à jour.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 6 octobre 2022<br /></p>
+                                <p>Version préliminaire : 6 octobre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : jeudi 26 octobre 2022</p>
+                                <p>Version de production : 26 octobre 2022</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Diffusions de métadonnées pour les objets parents de programme et de portefeuille</a></p>
-                        <p>Désormais, lorsqu’une ressource est d’abord envoyée à Experience Manager Assets ou aux Assets Essentials, toutes les métadonnées configurées pour mapper des objets parents de programme et de portefeuille sont également envoyées.</p>
-                        <p>Auparavant, seules les données de projet parentes étaient envoyées.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Envois de métadonnées pour les objets parent du programme et du portfolio</a></p>
+                        <p>Désormais, lorsqu’une ressource est envoyée pour la première fois à Experience Manager Assets ou Assets Essentials, toutes les métadonnées configurées pour mapper les objets parent des programmes et des portfolios sont également envoyées.</p>
+                        <p>Auparavant, seules les données des projet parent étaient envoyées.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : vendredi 6 octobre 2022<br /></p>
+                                <p>Version préliminaire : 6 octobre 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : jeudi 26 octobre 2022</p>
+                                <p>Version de production : 26 octobre 2022</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Campagnes Workfront (Beta)</a> </p>
-                        <p>Nous introduisons un nouvel objet dans Adobe Workfront qui a le potentiel de modifier la façon dont vous gérez le travail. </p>
-                        <p>Les campagnes Workfront permettent d’organiser dans un nouveau conteneur de travail des projets issus de différents portefeuilles et programmes.
-Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’aperçu avec la version 22.3.</p>
-<p>Ce nouveau conteneur va évoluer dans les prochaines versions pour connecter les objets de travail actuellement gérés dans des silos distincts.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Campagnes Workfront (version bêta)</a> </p>
+                        <p>Nous introduisons un nouvel objet dans Adobe Workfront qui a le potentiel de modifier la façon dont vous gérez le travail. </p>
+                        <p>Les campagnes Workfront vous permettent d’organiser des projets provenant de différents portfolios et programmes dans un nouveau conteneur de travail.
+Les campagnes ont été publiées en juillet 2022 dans la version préliminaire bêta 22.3.</p>
+<p>Ce nouveau conteneur évoluera dans les prochaines versions pour relier des objets de travail qui sont actuellement gérés dans des silos séparés.</p>
 
     &lt;/td>
-    &lt;td>&lt;p>&lt;b>Disponible à ces dates :&lt;/b>&lt;/p>
+    &lt;td>&lt;p>&lt;b>Disponible à ces dates :&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>Aperçu de la version :&amp;#160;Pendant toute la période de publication de la version 22.4&lt;br />&lt;/p>
+    &lt;p>Version préliminaire : tout au long de la période de lancement de la version 22.4&lt;/p>
     &lt;/li>
     &lt;li>
-    &lt;p>#160:;À déterminer&lt;/p>
+    &lt;p>Version de production : à déterminer&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Description étendue de l’équipe&lt;/a> p>
-    &lt;p>Dans la zone Équipes, vous pouvez désormais afficher la description complète de l’équipe en cliquant sur la description pour l’afficher dans une fenêtre contextuelle. Vous pouvez cliquer sur n’importe quelle URL dans la description dans la fenêtre contextuelle. Vous pouvez alors cliquer dans le texte de description pour la modifier (si vous avez accès aux paramètres de l’équipe).&lt;/p>
-    &lt;p>Auparavant, le fait de faire défiler la description dans une zone étroite était le seul moyen d’afficher tout le contenu.&lt;/p>
-<p>Cette amélioration de la description s’applique aux équipes agiles et non agiles.</p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Description développée des équipes&lt;/a>&lt;/p>
+    &lt;p>Dans la zone Équipes, vous pouvez désormais afficher la description complète des équipes en cliquant sur la description pour l’afficher dans une fenêtre pop-up. Les URL figurant dans la description sont cliquables dans le pop-up et vous pouvez cliquer sur le texte de la description pour le modifier (si vous avez accès à la modification des paramètres de l’équipe).&lt;/p>
+    &lt;p>Auparavant, la seule manière d’afficher l’intégralité du contenu était de faire défiler la description dans une zone étroite.&lt;/p>
+<p>Cette amélioration de la description s’applique aux équipes Agile ou non.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
                             <li>
-                                <p>Version d’aperçu : 11 août 2022<br /></p>
+                                <p>Version préliminaire : 11 août 2022<br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -697,80 +702,80 @@ Les campagnes ont été publiées en juillet 2022 dans la version bêta de l’a
 
 ## Annonces
 
-### Mise à niveau de la visionneuse de vérification de l’appli de bureau vers la dernière version
+### Mise à niveau de la visionneuse de relecture de bureau vers la version la plus récente
 
-Nous avons publié une nouvelle version de la visionneuse de vérification de l’appli de bureau. Cette mise à niveau contient une modification technique qui nécessite que tous les utilisateurs agissent. Les actions nécessaires dépendent du système d’exploitation de chaque utilisateur :
+Nous avons lancé une nouvelle version de la visionneuse de relecture de bureau. Cette mise à niveau contient une modification technique qui nécessite une action de la part de tous les utilisateurs et utilisatrices. Les actions nécessaires dépendent du système d’exploitation de chaque personne :
 
-* Pour effectuer la mise à niveau vers la dernière version, les utilisateurs de Mac doivent réinstaller manuellement la visionneuse de vérification de l’appli de bureau . Pour obtenir de l’aide sur la réinstallation, reportez-vous à la section Installation de la visionneuse de vérification de l’appli de bureau . Une fois réinstallé, les futures mises à jour de la visionneuse de vérification de l’appli de bureau seront automatiques.
+* Les personnes utilisant Mac doivent réinstaller manuellement la visionneuse de relecture de bureau pour la mise à niveau vers la dernière version. Pour obtenir de l’aide, consultez la section Installer la visionneuse de relecture de bureau. Après sa réinstallation, les futures mises à jour de la visionneuse de relecture de bureau seront automatiques.
 
-* Les utilisateurs de Windows seront automatiquement mis à niveau vers la dernière version lors du lancement de la visionneuse de vérification de l’appli de bureau avant le 25 juillet. Si les utilisateurs de Windows ne parviennent pas à ouvrir la visionneuse de vérification de l’appli de bureau avant le 25, ils devront réinstaller manuellement la visionneuse pour obtenir la mise à niveau.
+* Les personnes utilisant Windows verront leur visionneuse de relecture de bureau automatiquement mise à niveau vers la dernière version si elles la lancent avant le 25 juillet. Si les personnes utilisant Windows ne parviennent pas à ouvrir la visionneuse de relecture de bureau avant le 25 juillet, elles devront la réinstaller manuellement pour bénéficier de la mise à niveau.
 
 
-Avec cette mise à niveau, la visionneuse de vérification de l’appli de bureau prend en charge la version 98 de Chrome pour une plus grande compatibilité avec les bons à tirer interactifs.
+Avec cette mise à jour, la visionneuse de relecture de bureau prendra en charge la version 98 de Chrome pour une meilleure compatibilité avec les épreuves interactives.
 
 ### Améliorations de Workfront Fusion
 
-Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de version 22.4. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité Version d’Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production à un rythme différent du calendrier de publication de la version 22.4. Pour plus d’informations sur les dernières fonctionnalités, consultez la section [Activité de version d’Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-### Améliorations apportées au planificateur de scénario de travail
+### Améliorations du planificateur de scénarios Workfront
 
-Aucune mise à jour du planificateur de scénario n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour du planificateur de scénarios à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
-### Améliorations de l’épreuve Workfront
+### Améliorations de Workfront Proof
 
-Aucune mise à jour de l’épreuve Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour de Workfront Proof à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
 ### Améliorations des Objectifs Workfront
 
-Aucune mise à jour des Objectifs Workfront n’est disponible à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
+Il n’y a pas de mise à jour des Objectifs Workfront à ce stade de la version. Cette zone sera mise à jour lorsque des mises à jour seront disponibles.
 
-### API version 14
+### Version 14 de l’API
 
-Pour l’API version 14, nous avons modifié certaines ressources et points d’entrée. Certaines des modifications participent à la prise en charge des nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
+Pour la version 14 de l’API, nous avons modifié certaines ressources et certains points d’entrée. Certains des changements prennent en charge de nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
 
-Pour plus d’informations sur les nouveautés et les mises à jour, consultez les [Nouveautés de l’API version 14](/help/quicksilver/wf-api/api/new-api-version-14.md).
+Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 14 de l’API](/help/quicksilver/wf-api/api/new-api-version-14.md).
 
-Pour plus d’informations sur les versions d’API, consultez [Contrôle de version des API et planification de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Mises à jour de maintenance pour Workfront 
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, consultez [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors du lancement de la version 22.3, consultez la section [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-### Webinaire sur la version 22.4
+### Webinaire sur la version 22.4
 
-Le webinaire de la version 22.4 aura lieu le jeudi 22 septembre 2022 à 9 heures (heure d’été du Pacifique). Vous pouvez [vous inscrire au webinaire ici](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+Le webinaire sur la version 22.4 aura lieu le jeudi 22 septembre 2022 à 9 h 00 PDT. Vous pouvez [vous inscrire au webinaire ici](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
-### Mises à jour de formation
+### Mise à jour des formations
 
-Découvrez les dernières mises à jour apportées aux programmes de formation, aux parcours de formation, aux vidéos et aux guides de chaque version de produit Adobe Workfront. Pour plus d’informations, consultez la [page des mises à jour de la version de formation](https://one.workfront.com/s/training-release-updates).
+Découvrez les dernières mises à jour des programmes et parcours de formation, des vidéos et des guides pour chaque version du produit Adobe Workfront. Pour plus d’informations, consultez la [page des mises à jour des versions des formations](https://one.workfront.com/s/training-release-updates).
 
-### Suppression de la fonctionnalité avec la version 22.4
+### Fonctionnalités supprimées avec la version 22.4
 
-Les fonctionnalités suivantes seront supprimées avec la version 22.4 de production :
+Les fonctionnalités suivantes seront supprimées lors de la mise en production de la version 22.4 :
 
-* Contrôles de liste (à partir de la zone Interface de la configuration)
+* Contrôles de liste (à partir de la zone d’interface dans Configuration)
 
 >[!NOTE]
 >
->L’obsolescence des contrôles de liste a été reportée jusqu’à la version 22.4. La date d’obsolescence sera annoncée dans les futures communications.
+>L’obsolescence des contrôles de liste a été reportée après le lancement de la version 22.4. La date d’obsolescence sera annoncée dans de futures communications.
 
 
 * Planificateur de ressources
 
 >[!NOTE]
 >
->L’obsolescence du planificateur de ressources a été reportée peu de temps après la version 22.4.
+>L’abandon du planificateur de ressources a été reporté jusqu’à ce que la version 22.4 soit disponible.
 
 L’équilibreur de charge de travail remplace le planificateur de ressources.
 
-* Intégration de zoom
+* Intégration du zoom
 
-### Suppression de la fonctionnalité après la version 22.4
+### Fonctionnalité supprimée après la version 22.4
 
-La fonctionnalité suivante sera supprimée en novembre 2022 :
+La fonction suivante sera supprimée en novembre 2022 :
 
-* Type d’événement SHARE dans l’API Event Subscriptions.
+* Type d’événement SHARE dans l’API d’abonnement aux événements.
 
-  Ce type d’événement permettait aux clients de déterminer à quel moment les autorisations pour les objets étaient mises à jour.
+  Ce type d’événement permet aux clientes et clients de surveiller la mise à jour des autorisations sur les objets.
 
-  Pour plus d’informations sur les abonnements à des événements, ainsi que sur d’autres types d’événement qui continueront à être pris en charge, voir [API d’abonnement à un événement](/help/quicksilver/wf-api/general/event-subs-api.md)
+  Pour plus d’informations sur les abonnements aux événements, ainsi que sur d’autres types d’événement qui continueront à être pris en charge, consultez [API d’abonnement aux événements](/help/quicksilver/wf-api/general/event-subs-api.md).

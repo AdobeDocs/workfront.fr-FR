@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Prise en main des résultats et des activités dans Objectifs Adobe Workfront
+title: Commencer avec les résultats et les activités dans les Objectifs Adobe Workfront
 description: Vous devez ajouter des résultats, des activités ou des objectifs alignés à un objectif pour pouvoir l’activer. Le statut de l’objectif est alors mis à jour, passant de Brouillon à Actif, et la progression de l’objectif commence à être enregistrée.
 author: Alina
 feature: Workfront Goals
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 ---
 
-# Prise en main des résultats et des activités dans Objectifs Adobe Workfront
+# Commencer avec les résultats et les activités dans les Objectifs Adobe Workfront
 
 >[!IMPORTANT]
 >
@@ -31,9 +31,9 @@ ht-degree: 98%
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
 > 
->Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Lorsque vous créez un objectif, celui-ci prend le statut Brouillon. Pour plus d’informations sur la création d’objectifs, voir [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+Lorsque vous créez un objectif, celui-ci prend le statut Brouillon. Pour plus d’informations sur la création d’objectifs, voir la section [Créer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 Pour commencer à enregistrer la progression d’un objectif, vous devez l’activer. Pour activer votre objectif et faire passer son statut sur Actif, vous devez d’abord y ajouter les éléments suivants :
 
@@ -49,7 +49,7 @@ Une fois qu’au moins l’un de ces éléments a été ajouté, vous pouvez act
 >
 > Un objectif ne peut pas avoir plus de 1 000 activités, résultats, projets ou objectifs alignés au total.</span>
 
-Cet article propose une vue d’ensemble des activités et des résultats. Pour plus d’informations sur l’alignement des objectifs, voir la section [Alignement des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Pour plus d’informations sur la connexion de projets à des objectifs, voir la section [Ajouter des projets aux objectifs dans Objectifs Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+Cet article propose une vue d’ensemble des activités et des résultats. Pour plus d’informations sur l’alignement des objectifs, voir la section [Aligner des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Pour plus d’informations sur la connexion de projets avec des objectifs, voir la section [Ajouter des projets aux objectifs dans les Objectifs Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Vue d’ensemble des résultats
 
@@ -59,7 +59,7 @@ Cet article propose une vue d’ensemble des activités et des résultats. Pour 
 
 Les résultats mesurent la progression de votre objectif ou la proximité avec cet objectif. En tant que propriétaire de l’objectif, vous pouvez également posséder le résultat. Un résultat de votre objectif peut également être affecté à une autre personne.
 
-Pour plus d’informations sur l’ajout de résultats aux objectifs, voir la section [Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+Pour plus d’informations sur l’ajout de résultats aux objectifs, voir la section [Ajouter des résultats aux objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 Vous pouvez ajouter des résultats à vos propres objectifs ou aux objectifs qui appartiennent à d’autres entités de votre organisation.
 
@@ -86,7 +86,7 @@ This will have additional types in the future - add another section for types?
 
 Les activités, comme les résultats, sont spécifiques et mesurables, et incluent généralement un indicateur de pourcentage de réalisation. En tant que propriétaire de l’objectif, vous pouvez également posséder les activités qui lui sont associées. Une activité relative à votre objectif peut également être affectée à une autre personne.
 
-Pour plus d’informations sur l’ajout d’activités à des objectifs, voir la section [Ajouter des activités aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+Pour plus d’informations sur l’ajout d’activités à des objectifs, voir la section [Ajouter des activités aux objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 Tenez compte des points suivants lorsque vous associez des activités à vos objectifs :
 
@@ -121,9 +121,9 @@ Pour plus d’informations sur les résultats et les activités, consultez la li
 
 Les résultats, les activités et les projets sont des indicateurs de progression des objectifs.
 
-Il existe des différences entre la manière dont vous gérez les projets et celle dont vous gérez les résultats et les activités. Pour plus d’informations sur l’ajout de projets à des objectifs, consultez [Ajouter des activités aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Pour plus d’informations sur les projets liés aux objectifs, consultez [Ajouter des projets aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Il existe des différences dans la manière dont vous gérez les projets par rapport à la manière dont vous gérez les résultats et les activités. Pour plus d’informations sur l’ajout de projets à des objectifs, consultez [Ajouter des activités aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Pour plus d’informations sur les projets liés aux objectifs, consultez [Ajouter des projets aux objectifs dans Objectifs Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-En plus des résultats, des activités et des projets, vous pouvez également associer des objectifs enfant à un objectif. Les objectifs enfant sont également un type d’indicateur de progression pour un objectif. Pour plus d’informations, consultez [Aligner des objectifs en les connectant dans Objectifs Adobe Workfrontt](../goal-alignment/align-goals-by-connecting-them.md). La progression des indicateurs de progression de l’objectif enfant détermine également la progression de l’objectif parent.
+En plus des résultats, des activités et des projets, vous pouvez également associer des objectifs enfants à un objectif. Les objectifs enfants sont également un type d’indicateur de progression pour un objectif. Pour plus d’informations, consultez [Aligner des objectifs en les connectant ensemble dans Objectifs Adobe Workfront](../goal-alignment/align-goals-by-connecting-them.md). La progression des indicateurs de progression de l’objectif enfant détermine également la progression de l’objectif parent.
 
 Le tableau suivant affiche les similitudes et les différences entre les résultats, les activités et les projets, en tant qu’indicateurs d’objectif :
 
@@ -170,13 +170,13 @@ Le tableau suivant affiche les similitudes et les différences entre les résult
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Ils doivent être mis à jour manuellement dans Objectifs Workfront.</td> 
+   <td>Ils doivent être mis à jour manuellement dans Objectifs Workfront.</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Ils doivent se terminer à la date de fin de l’objectif.</td> 
+   <td>Ils se terminent à la date de fin de l’objectif.</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

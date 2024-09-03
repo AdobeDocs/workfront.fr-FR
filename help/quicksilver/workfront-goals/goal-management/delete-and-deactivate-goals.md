@@ -41,9 +41,9 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>
- <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ <p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> </td>
+ <p>Licence actuelle : demande ou niveau supérieur</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
@@ -65,11 +65,11 @@ Vous devez disposer des éléments suivants :
   <div>
   <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
   <p>Autorisations de gestion sur l’objectif pour le modifier</p>
-  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
@@ -140,7 +140,7 @@ Deactivating goals differs depending on which environment you use.
 
 1. (Facultatif) Modifiez vos filtres pour n’afficher que les objectifs actifs.
 
-   Pour plus d’informations sur le filtrage des informations dans Objectifs Workfront, voir [Filtrer les informations dans Objectifs Adobe Workfront](../goal-management/filter-information-wf-goals.md).
+   Pour plus d’informations sur le filtrage des informations dans les Objectifs Workfront, voir [Filtrer des informations dans les Objectifs Adobe Workfront](../goal-management/filter-information-wf-goals.md).
 
 1. Cliquez sur un objectif actif.
 
@@ -197,6 +197,6 @@ Deleting  goals differs depending on which environment you use.
 1. Cliquez sur le nom d’un objectif. La page de l’objectif s’ouvre.
 1. Cliquez sur le menu **Plus** ![](assets/more-icon.png) à droite du nom de l’objectif, puis cliquez sur **Supprimer l’objectif**, puis sur **Supprimer**.
 
-   L’objectif, ses activités et ses résultats sont également supprimés et ne peuvent pas être récupérés. Les projets associés à l’objectif ou aux objectifs enfant ne sont pas supprimés.
+   L’objectif, ses activités et ses résultats sont également supprimés et ne peuvent pas être récupérés. Les projets associés à l’objectif ou aux objectifs enfants ne sont pas supprimés.
 
 

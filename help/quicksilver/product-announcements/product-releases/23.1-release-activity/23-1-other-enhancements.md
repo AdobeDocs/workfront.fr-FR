@@ -1,6 +1,6 @@
 ---
-title: Autres améliorations (version 23.1)
-description: Autres améliorations (version 23.1)
+title: 23.1 Autres améliorations
+description: 23.1 Autres améliorations
 author: Courtney
 draft: Probably
 feature: Product Announcements
@@ -9,91 +9,91 @@ exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Autres améliorations (version 23.1)
+# 23.1 Autres améliorations
 
-Cette page décrit toutes les autres améliorations apportées à la version 23.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 16 janvier 2023.
+Cette page décrit toutes les autres améliorations apportées à la version 23.1 de l’environnement de prévisualisation. Ces améliorations seront disponibles dans l’environnement de production au cours de la semaine du 16 janvier 2023.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 23.1, consultez la [présentation de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Pour consulter la liste de tous les changements disponibles avec la version 23.1, voir [Vue d’ensemble de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
-## Présentation de l’ajout d’Illustrator à Adobe Workfront pour le module externe de conception et vidéo
+## Présentation de l’ajout d’Illustrator à Adobe Workfront pour le plug-in de conception et vidéo
 
-Nous sommes ravis d’annoncer l’extension de notre module externe Adobe Workfront for InDesign pour inclure Adobe Illustrator.
+Nous avons le plaisir d’annoncer l’extension de notre plug-in Adobe Workfront pour InDesign pour inclure Adobe Illustrator.
 
-Le module externe mis à jour, Adobe Workfront pour la conception et la vidéo, prend désormais en charge InDesign, Illustrator, Premiere Pro et After Effects.
+Le plug-in mis à jour, Adobe Workfront pour la conception et la vidéo, prend désormais en charge InDesign, Illustrator, Premiere Pro et After Effects.
 
-Ce module externe vous permet d’accéder aux détails de l’élément de travail, de collaborer avec des collègues dans la zone Mises à jour et de consigner le temps de connexion sans quitter votre application de Creative Cloud préférée.
+Ce plug-in vous permet d’accéder aux détails des éléments de travail, de collaborer avec les personnes avec qui vous travaillez dans la zone Mises à jour et de consigner des heures, tout cela sans quitter votre application Creative Cloud préférée.
 
-Téléchargez [Adobe Workfront for design and video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) sur le Marketplace dès aujourd’hui.
+Téléchargez [Adobe Workfront pour la conception et la vidéo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) sur Marketplace dès maintenant.
 
-Les administrateurs peuvent également [créer un package avec les modules externes](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) de l’Admin Console et le déployer vers les utilisateurs de manière gérée ou autonome.
+Les administrateurs et administratrices peuvent également [créer un package avec les plug-ins](https://helpx.adobe.com/fr/enterprise/using/manage-extensions.html) à partir de l’Admin Console et déployer pour les utilisateurs et utilisatrices de manière gérée ou auto-gérée.
 
-## Amélioration de l’expérience de filtrage généralement disponible dans Adobe Workfront
+## Expérience de filtrage améliorée disponible dans Adobe Workfront
 
-Une mise à niveau de l’expérience de filtrage a été publiée en version bêta publique sur les listes de projets, de tâches et de problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés. (Pour consulter toutes ces listes, reportez-vous à la [note de mise à jour sur les mises à jour de l’apparence 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
+Une mise à niveau de l’expérience de filtrage a été publiée en version bêta publique sur les listes des projets, des tâches et des problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés. (Pour consulter toutes ces listes, voir les [notes de mise à jour de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
 
-Dans le cadre d’une &quot;suite rapide&quot; à la version 23.1, l’expérience de filtrage améliorée sera généralement disponible et deviendra le créateur de filtres standard dans la période février/mars 2023.
+Dans le cadre d’une « suite rapide » à la version 23.1, l’expérience de filtrage améliorée sera généralement disponible et deviendra la créatrice de filtres standard en février/mars 2023.
 
-Les éléments suivants seront disponibles dans Workfront avant que les filtres améliorés ne soient généralement disponibles :
+Les éléments suivants seront disponibles dans Workfront avant que les filtres améliorés ne soient généralement disponibles :
 
 * La fonctionnalité de configuration de filtre global sera ajoutée à la page de configuration des filtres.
 * La possibilité d’ajouter et de supprimer des filtres système par défaut sera ajoutée aux modèles de mise en page.
-* Les contrôles de liste seront obsolètes.
+* Les contrôles de listes deviendront obsolètes.
 
 Ces fonctionnalités corrigent les problèmes liés aux listes de filtres traités qui n’apparaissent pas correctement dans les filtres bêta publics.
 
 Vous pouvez toujours accéder aux filtres hérités sur les listes en les activant dans le panneau des filtres. À l’avenir, les filtres hérités seront abandonnés des listes, mais ils resteront disponibles dans les rapports, car les filtres améliorés ne sont pas disponibles dans les rapports.
 
-Pour plus d’informations sur les filtres améliorés et une démonstration vidéo, consultez la [note de mise à jour bêta publique des filtres](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Pour plus d’informations sur les filtres améliorés et une démonstration vidéo, voir [notes de mise à jour sur les filtres publics bêta](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
-## Nouvelle fonctionnalité de contrôle de liste dans Interface > Filtres, Vues et Regroupements
+## Nouvelle fonctionnalité de contrôle de liste dans Interface > Filtres, vues et regroupements
 
-Nous avons ajouté la fonctionnalité de contrôle de liste aux pages Filtres, Vues et Groupements de la zone Configuration. Vous pouvez y activer ou désactiver des filtres, des vues et des regroupements pour le modèle de mise en page.
+Nous avons ajouté la fonctionnalité de contrôle de liste aux pages Filtres, Vues et Regroupements de la zone Configuration. Vous pouvez y activer ou désactiver des filtres, des vues et des regroupements pour le modèle de mise en page.
 
-Pour plus d’informations, voir [Créer, modifier et partager des filtres, des vues et des regroupements par défaut](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+Pour plus d’informations, voir [Créer, modifier et partager des filtres, vues et regroupements par défaut](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412057/){target=_blank}
+[Regarder une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
-## Présentation d’Adobe Workfront pour la conception et la vidéo
+## Présentation d’Adobe Workfront pour la conception et la vidéo
 
-Nous sommes ravis d’annoncer l’extension de notre module externe Adobe Workfront for InDesign pour inclure Adobe Premiere Pro et After Effects. Le module externe sera renommé Adobe Workfront pour conception et vidéo.
+C’est avec joie que nous vous annonçons l’extension de notre plug-in Adobe Workfront pour InDesign prenant en charge Adobe Premiere Pro et After Effects. Le plug-in sera renommé Adobe Workfront pour la conception et la vidéo.
 
-Le module externe mis à jour, Adobe Workfront pour la conception et la vidéo, prend désormais en charge l’InDesign, le Premiere Pro et After Effects, avec Illustrator bientôt disponible.
+Le plug-in mis à jour, Adobe Workfront pour la conception et la vidéo, prend désormais en charge InDesign, Premiere Pro et After Effects et, bientôt, Illustrator.
 
-Ce module externe vous permet d’accéder aux détails de l’élément de travail, de collaborer avec des collègues dans la zone Mises à jour et de consigner le temps de connexion sans quitter votre application de Creative Cloud préférée.
+Ce plug-in vous permet d’accéder aux détails des éléments de travail, de collaborer avec les personnes avec qui vous travaillez dans la zone Mises à jour et de consigner des heures, tout cela sans quitter votre application Creative Cloud préférée.
 
-Téléchargez [Adobe Workfront for design and video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) sur la marketplace aujourd’hui.
+Téléchargez [Adobe Workfront pour la conception et la vidéo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) sur Marketplace dès maintenant.
 
-Les administrateurs peuvent également [créer un package avec les modules externes](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) de l’Admin Console et le déployer vers les utilisateurs de manière gérée ou autonome.
+Les administrateurs et administratrices peuvent également [créer un package avec les plug-ins](https://helpx.adobe.com/fr/enterprise/using/manage-extensions.html) à partir de l’Admin Console et déployer pour les utilisateurs et les utilisatrices de manière gérée ou auto-gérée.
 
-## Accès à l’aide de Workfront pour les clients sur l’Adobe d’une expérience unifiée
+## Accès à l’aide de Workfront pour les clientes et clients sur Adobe Unified Experience
 
 >[!NOTE]
 >
->Cette fonctionnalité s’applique uniquement aux clients qui sont intégrés à Adobe Unified Experience for Workfront.
+>Cette fonctionnalité s’applique uniquement aux clientes et clients qui utilisent Adobe Unified Experience pour Workfront.
 
-Si votre organisation a été intégrée à Adobe Admin Console et à l’expérience unifiée Adobe pour Workfront, la barre de navigation de Workfront n’inclut plus de lien vers &quot;Aide&quot;.
+Si votre organisation a été intégrée à Adobe Admin Console et à Adobe Unified Experience pour Workfront, la barre de navigation de Workfront n’inclut plus de lien vers « Aide ».
 
-Vous pouvez accéder à l’aide de Workfront sur Adobe Experience League de deux manières :
+Vous pouvez accéder à l’aide de Workfront sur Adobe Experience League de deux manières :
 
-* Le menu principal à gauche de la barre de navigation de Workfront contient un lien d’aide en bas de la page
+* Le menu principal à gauche de la barre de navigation de Workfront contient un lien d’aide en bas de la page.
 * L’icône en forme de point d’interrogation dans la zone de navigation supérieure fournit des liens vers l’aide, l’assistance et les commentaires.
 
-Pour plus d’informations, voir [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) ou [Accès à l’aide d’Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Pour plus d’informations, voir [Adobe Unified Experience pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) ou [Accéder à l’aide d’Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
-## Renommer les pin&#39;s et créer une nouvelle expérience lors de la suppression des pin&#39;s
+## Renommer les épingles et créer une nouvelle expérience lors de la suppression d’épingles
 
-Les mises à jour suivantes sont désormais disponibles pour les pin&#39;s :
+Les mises à jour suivantes sont désormais disponibles pour les épingles :
 
-* Renommer les pin&#39;s existants
+* Renommer les épingles existantes
 
 * Expérience améliorée lors de la suppression d’une épingle
 
-Les options permettant de renommer une épingle et de la supprimer s’affichent dans le menu déroulant lorsque vous pointez dessus.
+Les options permettant de renommer une épingle et de la supprimer s’affichent dans le menu déroulant lorsque vous passez la souris dessus.
 
-Pour plus d’informations, voir [Epingler des pages pour personnaliser votre espace de travail](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+Pour plus d’informations, voir [Épingler des pages pour personnaliser votre espace de travail](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412389/){target=_blank}
+[Regarder une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412389/){target=_blank}

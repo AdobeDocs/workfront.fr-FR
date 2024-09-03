@@ -2,38 +2,38 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Affichage de l’état et de l’avancement d’un BAT dans  [!DNL Workfront Proof]
-description: La progression du BAT indique le travail effectué sur un BAT depuis le moment où vous envoyez le BAT aux validants jusqu'au moment où ils prennent une décision sur le BAT.
+title: Afficher la progression et le statut d’une épreuve dans  [!DNL Workfront Proof]
+description: La progression de la relecture indique le travail effectué sur une épreuve entre le moment où vous envoyez l’épreuve aux personnes réviseuses et le moment où elles prennent une décision sur l’épreuve.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Affichage de l’état et de l’avancement d’un BAT dans [!DNL Workfront Proof]
+# Afficher la progression et le statut d’une épreuve dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-## Compréhension de la progression du BAT
+## Comprendre la progression de la relecture
 
-La progression du BAT indique le travail effectué sur un BAT depuis le moment où vous envoyez le BAT aux validants jusqu&#39;au moment où ils prennent une décision sur le BAT.
+La progression de la relecture indique le travail effectué sur une épreuve entre le moment où vous envoyez l’épreuve aux personnes réviseuses et le moment où elles prennent une décision sur l’épreuve.
 
 * [Icônes de progression](#progress-icons)
-* [Niveaux de progression de la preuve](#levels-of-proof-progress)
+* [Niveaux de progression de la relecture](#levels-of-proof-progress)
 
 ### Icônes de progression {#progress-icons}
 
-Les icônes de progression, S, O, C et D, apparaissent dans la barre de progression pour indiquer la progression du BAT.
+Les icônes de progression, S, O, C et D, apparaissent dans la barre de progression pour indiquer la progression de la relecture.
 
-![BAT_edit_existing_progress.png](assets/proof-edit-existing-progress-350x78.png)
+![proof_edit_existing_progress.png](assets/proof-edit-existing-progress-350x78.png)
 
-Ils indiquent les informations suivantes sur un BAT :
+Elles indiquent les informations suivantes sur une épreuve :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,50 +47,50 @@ Ils indiquent les informations suivantes sur un BAT :
  <tbody> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-sent-icon.png" alt="proof_progress_sent_icon.png"> </p> </td> 
-   <td> <p><strong>Envoyé</strong>. Le BAT a été envoyé aux réviseurs.</p> </td> 
+   <td> <p><strong>Envoyée</strong>. L’épreuve a été envoyée aux personnes réviseuses.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-opened-icon.png" alt="proof_progress_opened_icon.png"> </p> <p> </p> </td> 
-   <td> <p><strong>Ont ouvert</strong>. Un réviseur a ouvert la page Détails du BAT ou a ouvert le BAT lui-même dans la visionneuse de BAT.</p> </td> 
+   <td> <p><strong>Ouverte</strong>. Une personne réviseuse a ouvert la page Détails de l’épreuve ou a ouvert l’épreuve elle-même dans la visionneuse de relecture.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-comment-icon.png" alt="proof_progress_comment_icon.png"> </p> </td> 
-   <td> <p><strong>Comments</strong>. Les validants (utilisateurs qui peuvent faire des commentaires) ont fait des commentaires sur le BAT.</p> <p>Si aucun validant n'est désigné pour le BAT, cette icône ne s'affiche pas.</p> </td> 
+   <td> <p><strong>Commentaires</strong>. Les personnes réviseuses (personnes qui peuvent faire des commentaires) ont fait des commentaires sur l’épreuve.</p> <p>Si aucune personne réviseuse n’est désignée pour l’épreuve, cette icône ne s’affiche pas.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt="proof_progress_décision_icon.png"> </p> </td> 
-   <td> <p><strong>Décision</strong>. Un validant a pris une décision sur le BAT.</p> <p>Si aucun approbateur (décideur) n’est désigné pour le BAT, cette icône ne s’affiche pas. </p> </td> 
+   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt="proof_progress_decision_icon.png"> </p> </td> 
+   <td> <p><strong>Décision</strong>. Une personne réviseuses a pris une décision sur l’épreuve.</p> <p>Si aucune personne approbatrice (preneuse de décision) n’est désignée pour l’épreuve, cette icône ne s’affiche pas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ces icônes peuvent apparaître dans les couleurs suivantes pour indiquer certaines informations sur la progression du BAT :
+Ces icônes peuvent apparaître dans les couleurs suivantes pour indiquer certaines informations sur la progression de l’épreuve :
 
-* **Vert**. Terminé.
-* **Blanc**. Non terminé.
-* **Orange**. Non terminé et délai inférieur à 24 heures.
-* **Rouge**. Ne pas terminer et dépasser la date limite.
+* **Vert**. Terminée.
+* **Blanc**. Non terminée.
+* **Orange**. Non terminée et échéance inférieure à 24 heures.
+* **Rouge**. Non terminée et échéance dépassée.
 
-### Niveaux de progression de la preuve {#levels-of-proof-progress}
+### Niveaux de progression de la relecture {#levels-of-proof-progress}
 
-Workfront Proof utilise les icônes de progression pour suivre la progression d’un BAT à chacun des niveaux suivants :
+Workfront Proof utilise les icônes de progression pour suivre la progression d’une épreuve à chacun des niveaux suivants :
 
-* Pour chaque validant, en fonction de l&#39;activité de cette personne sur le BAT.
-* Pour chaque étape, en fonction de la progression du validant sur l’étape qui est le plus en retard dans le processus de vérification. Pour plus d’informations, voir [Présentation des étapes de workflow automatisées](../../../review-and-approve-work/proofing/proofing-overview/stages.md).
-* Pour le BAT, basé sur l&#39;état d&#39;avancement de l&#39;étape (groupe de validants) qui est le plus en retard dans le processus de vérification.
+* Pour chaque personne réviseuse, en fonction de l’activité de cette personne sur l’épreuve.
+* Pour chaque étape, en fonction de la progression de la personne réviseuse sur l’étape qui est le plus en retard dans le processus de relecture. Pour plus d’informations, voir [Vue d’ensemble des étapes de workflow automatisé](../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+* Pour l’épreuve, en fonction de la progression de l’étape (groupe de personnes réviseuses) qui est le plus en retard dans le processus de relecture.
 
-Pour un exemple de la manière dont [!DNL Workfront Proof] détermine la progression à l’aide de l’opérateur validant ou de l’étape la plus en retard, supposons que trois opérateurs validants sur un BAT doivent prendre une décision. Si deux d&#39;entre eux ont pris leur décision mais que le troisième ne l&#39;a pas fait, la barre de progression du BAT n&#39;affiche pas le D en vert en raison de la décision en suspens.
+Pour un exemple de la façon dont [!DNL Workfront Proof] détermine la progression à l’aide de la personne réviseuse ou de l’étape qui est le plus en retard, supposons que trois personnes réviseuses sur une épreuve doivent prendre une décision. Si deux d’entre elles ont pris leur décision mais que la troisième ne l’a pas fait, la barre de progression de l’épreuve n’affiche pas le D en vert en raison de la décision en suspens.
 
-Si le paramètre [!UICONTROL Principal Decision Maker] est sélectionné sur un BAT et que le décideur principal envoie une décision, le D dans la barre de progression du BAT devient vert pour tous les réviseurs, car aucune autre décision n’est requise.
+Si le paramètre [!UICONTROL Personne décisionnaire principale] est sélectionné sur une épreuve et que la personne décisionnaire principale envoie une décision, le D dans la barre de progression de l’épreuve devient vert pour toutes les personnes réviseuses, car aucune autre décision n’est requise.
 
-De même, si le paramètre [!UICONTROL Une seule décision requise] est sélectionné sur un BAT et que tout validant envoie une décision, le D dans la barre de progression du BAT devient vert pour tous les réviseurs, car aucune autre décision n’est requise.
+De même, si le paramètre [!UICONTROL Une seule décision requise] est sélectionné sur une épreuve et qu’une personne réviseuse envoie une décision, le D dans la barre de progression de l’épreuve devient vert pour toutes les personnes réviseuses, car aucune autre décision n’est requise.
 
-## Compréhension de l’état du BAT
+## Compréhension du statut de l’épreuve
 
-Le statut du BAT affiche le statut des décisions requises pour le BAT.
+Le statut de l’épreuve affiche le statut des décisions requises pour l’épreuve.
 
-![BAT_edit_existing_status.png](assets/proof-edit-existing-status-350x78.png)\
-Les options d’état standard sont les suivantes :
+![proof_edit_existing_status.png](assets/proof-edit-existing-status-350x78.png)\
+Les options de statut standard sont les suivantes :
 
 * En attente
 * Approuvé
@@ -98,30 +98,30 @@ Les options d’état standard sont les suivantes :
 * Modifications requises
 * Non pertinent
 
-Si des décisions personnalisées sont configurées dans votre compte, les options d’état reflètent vos paramètres de décision personnalisés.
+Si des décisions personnalisées sont configurées dans votre compte, les options de statut reflètent vos paramètres de décision personnalisée.
 
-Le statut du BAT dépend du participant au &quot;pire cas&quot;. Par exemple, supposons qu’il y ait trois décisions sur le BAT : deux ont le statut **Accepted** et l’un a le statut **Refusé**. La décision &quot;pire cas&quot; du Refusé annule les autres décisions et le statut global du BAT est affiché comme **Refusé**.
+Le statut de l’épreuve dépend du participant du « pire cas ». Par exemple, supposons qu’il y ait trois décisions sur l’épreuve : deux ont le statut **Acceptée** et la troisième a le statut **Rejetée**. La décision du « pire cas de Rejetée annule les autres décisions et le statut général de l’épreuve est indiqué comme **Rejeté**.
 
-## Progression et état de l’affichage {#viewing-progress-and-status}
+## Affichage de la progression et du statut {#viewing-progress-and-status}
 
-Vous pouvez afficher la progression et l’état des BAT, des étapes et des réviseurs à chaque étape.
+Vous pouvez afficher la progression et le statut des épreuves, des étapes et des réviseurs et réviseuses à chaque étape.
 
-* [Résumé du BAT](#proof-summary)
+* [Résumé de l’épreuve](#proof-summary)
 * [Menu Actions de l’étape](#stage-actions-menu)
-* [Dans la section [!UICONTROL Résumé], vous pouvez également accéder aux menus des actions des réviseurs, à condition que vous disposiez des droits d&#39;édition sur le BAT. Pour plus d’informations, voir Profils d’autorisations de BAT dans Workfront Proof et Gestion des rôles de BAT dans Workfront Proof. Le menu [!UICONTROL Actions de réviseur] (1) s’affiche lorsque vous passez la souris sur les détails du réviseur et vous permet d’effectuer les opérations suivantes :](#in-the-summary-section-you-can-also-access-the-reviewer-actions-menus-provided-you-have-edit-rights-on-the-proof-for-more-information-see-proof-permissions-profiles-in-workfront-proof-and-manage-proof-roles-in-workfront-proof-the-reviewer-actions-menu-1-appears-when-you-hover-over-the-reviewer-s-details-and-allows-you-to)
-* [Menu Actions de BAT](#proof-actions-menu)
+* [Dans la section [!UICONTROL Résumé], vous pouvez également accéder aux menus des actions des réviseurs et réviseuses, à condition que vous disposiez des droits de modification sur l’épreuve. Pour plus d’informations, voir Profils d’autorisations d’épreuve dans Workfront Proof et Gérer les rôles d’épreuve dans Workfront Proof. Le menu [!UICONTROL Actions du réviseur ou de la réviseuse] (1) s’affiche lorsque vous pointez sur les détails du réviseur ou de la réviseuse et vous permet d’effectuer les opérations suivantes :](#in-the-summary-section-you-can-also-access-the-reviewer-actions-menus-provided-you-have-edit-rights-on-the-proof-for-more-information-see-proof-permissions-profiles-in-workfront-proof-and-manage-proof-roles-in-workfront-proof-the-reviewer-actions-menu-1-appears-when-you-hover-over-the-reviewer-s-details-and-allows-you-to)
+* [Menu des actions de l’épreuve](#proof-actions-menu)
 
-### Résumé du BAT {#proof-summary}
+### Résumé de l’épreuve {#proof-summary}
 
-Chaque BAT du dossier comporte un résumé extensible qui vous permet d’afficher et de modifier rapidement les détails du BAT.
+Chaque épreuve du dossier comporte un résumé extensible qui vous permet d’afficher et de modifier rapidement les détails de l’épreuve.
 
-Pour développer ou réduire la synthèse :
+Pour développer ou réduire le résumé :
 
-1. Cliquez sur la flèche située à gauche du BAT en mode Tableau de bord ou Liste.
+1. Cliquez sur la flèche située à gauche de l’épreuve en mode Tableau de bord ou Liste.
 
-![Summary_extensible.png](assets/summary-expandable-350x68.png)
+![Summary_expandable.png](assets/summary-expandable-350x68.png)
 
-Le résumé comprend les éléments suivants :
+Le résumé comprend les éléments suivants :
 
 * Workflow (2)
 * Version (3)
@@ -129,77 +129,77 @@ Le résumé comprend les éléments suivants :
 * État (5)\
    ![summary_2.png](assets/summary-2-350x160.png)
 
-Dans le résumé, vous pouvez visualiser et modifier les détails suivants de votre BAT :
+Dans le résumé, vous pouvez afficher et modifier les détails suivants de votre épreuve :
 
-* Proof progress (1)
+* Progression de la relecture (1)
 * Progression de chaque étape (2)
-* Date limite de mise en service de la scène (3)
-* Détails du réviseur :
+* Date d’échéance définie pour l’étape (3)
+* Détails du réviseur ou de la réviseuse :
 
-   * Nombre de commentaires et de réponses de chaque réviseur (4)
-   * Progression de chaque validant (5)
-   * Décision (si une décision a inclus des signatures électroniques, une icône s’affiche en regard de la décision l’indiquant.) (6)
-   * Rôle sur le BAT (7)
-   * Paramètres des alertes par email (8)
+   * Nombre de commentaires et de réponses de chaque réviseur et réviseuse (4)
+   * Progression de chaque réviseur et réviseuse (5)
+   * Décision (si une décision a inclus des signatures électroniques, une icône indiquant cette information s’affiche en regard de la décision.) (6)
+   * Rôle sur l’épreuve (7)
+   * Paramètres des alertes par e-mail (8)
 
 >[!NOTE]
 >
->La possibilité de modifier les détails du BAT dépend de vos droits sur le BAT (voir [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer les rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>Votre capacité à modifier les détails de l’épreuve dépend de vos droits sur l’épreuve (voir [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer les rôles d’épreuve dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 ![summary_details_3.png](assets/summary-details-3-350x160.png)
 
-### Menu [!UICONTROL Actions intermédiaires]  {#stage-actions-menu}
+### Menu [!UICONTROL Actions de l’étape]  {#stage-actions-menu}
 
-Chaque étape de votre workflow comporte un menu distinct, qui vous permet d’effectuer des actions en bloc liées aux réviseurs de cette étape.
+Chaque étape de votre workflow comporte un menu distinct, qui vous permet d’effectuer des actions en masse liées aux réviseurs et réviseuses de cette étape.
 
-Le menu [!UICONTROL Actions dans l’environnement intermédiaire] s’affiche lorsque vous passez la souris sur la section dans l’environnement intermédiaire (1) et vous permet de
+Le menu [!UICONTROL Actions de l’étape] s’affiche lorsque vous pointez sur la section Étape (1) et vous permet de
 
-* [!UICONTROL Message all] (2)
+* [!UICONTROL Envoyer un message à tous] (2)
 * [!UICONTROL Partager] (3)
 * [!UICONTROL Supprimer l’étape] (4)
 
 >[!NOTE]
 >
->La disponibilité de ces options dépend de vos droits sur le BAT (voir [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer les rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>La disponibilité de ces options dépend de vos droits sur l’épreuve (voir [Profils d’autorisations d’épreuve de dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 ![Stage_actions_menu.png](assets/stage-actions-menu-350x161.png)
 
-Dans la section Résumé, vous pouvez également accéder aux menus des actions des réviseurs, à condition que vous disposiez des droits d&#39;édition sur le BAT. Pour plus d’informations, voir [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer les rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Le menu Actions du réviseur (1) s’affiche lorsque vous passez la souris sur les détails du réviseur et vous permet d’effectuer les opérations suivantes :
+Dans la section Résumé, vous pouvez également accéder aux menus des actions des personnes en charge de la révision à condition que vous disposiez des droits de modification sur l’épreuve. Pour plus d’informations, voir [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer des rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Le menu Actions du réviseur ou de la réviseuse (1) s’affiche lorsque vous passez la souris sur les détails du réviseur ou de la réviseuse et vous permet d’effectuer les opérations suivantes :
 
-* Envoyer un message au validant (2)
-* Modifier les détails du validant (3) : permet de modifier le nom d’affichage, le rôle du BAT et l’alerte par e-mail de ce validant.
-* En faire le propriétaire du BAT (4)
-* En faire le principal décideur (5)
-* Retirer du BAT (6)
+* Envoyer un message à la personne en charge de la révision (2)
+* Modifier les détails de la personne en charge de la révision (3) : permet de modifier le nom d’affichage, le rôle dans l’épreuve et l’alerte par e-mail de cette personne.
+* En faire la personne propriétaire de l’épreuve (4)
+* En faire la principale personne décisionnaire (5)
+* Retirer de l’épreuve (6)
 
 >[!NOTE]
 >
->La visibilité de ces options dépend de vos droits sur le BAT (voir [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer les rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>La visibilité de ces options dépend de vos droits sur l’épreuve (voir [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer des rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 ![Reviewer_actions_menu.png](assets/reviewer-actions-menu-350x135.png)
 
-### Menu Actions de BAT {#proof-actions-menu}
+### Menu des actions de l’épreuve {#proof-actions-menu}
 
-Chaque BAT dispose également d’un menu (1) qui vous permet d’effectuer les actions suivantes :
+Chaque épreuve dispose également d’un menu (1) qui vous permet d’effectuer les actions suivantes :
 
-* Vous pouvez accéder à la page Détails du BAT (2)
-* Partager le BAT avec d&#39;autres personnes (3)
-* Envoyer un message aux réviseurs (4)
-* Créer une nouvelle version du BAT (5)
-* Copier le BAT (6)
+* Vous pouvez accéder à la page Détails de l’épreuve (2)
+* Partager l’épreuve avec d&#39;autres personnes (3)
+* Envoyer un message aux personnes en charge de la révision (4)
+* Créer une nouvelle version de l’épreuve (5)
+* Copier l’épreuve (6)
 * Télécharger le fichier d’origine (7)
-* Partage de liens de BAT (8)
+* Partager les liens de l’épreuve (8)
 * Imprimer les commentaires (9)
-* Demander un résumé Excel du BAT (10)
-* Verrouiller le BAT (11)
-* Supprimer le BAT (12)
+* Demander un résumé Excel de l’épreuve (10)
+* Verrouiller l’épreuve (11)
+* Supprimer l’épreuve (12)
 
 ![Proof_actions_menu__1_.png](assets/proof-actions-menu--1--350x158.png)
 
 >[!NOTE]
 >
->La disponibilité de ces options dépend de vos droits sur le BAT (voir [Profils d’autorisations de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer les rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>La disponibilité de ces options dépend de vos droits sur l’épreuve (voir [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) et [Gérer des rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-Pour plus d’informations sur l’affichage de la progression et de l’état du BAT dans [!DNL Workfront], voir [Affichage de la progression et de l’état](#viewing-progress-and-status).
+Pour plus d’informations sur l’affichage de la progression et du statut de l’épreuve dans [!DNL Workfront], voir [Voir la progression et le statut](#viewing-progress-and-status).
 
-Pour plus d’informations sur l’affichage de la progression et de l’état dans la visionneuse de vérification de l’appli de bureau, voir [Révision d’un workflow dans la visionneuse de vérification de l’orthographe](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).
+Pour plus d’informations sur l’affichage de la progression et du statut dans la visionneuse de relecture de l’application de bureau, voir [Vérifier un workflow dans la visionneuse de relecture](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).

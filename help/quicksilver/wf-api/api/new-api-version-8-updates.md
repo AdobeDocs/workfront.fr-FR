@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Mises à jour de la version 8 de l’API
-description: Affichez les mises à jour de l’API version 8.
+title: Mises à jour de la version 8 de l’API
+description: Affichez les mises à jour de la version 8 de l’API.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,19 +10,19 @@ exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# Mises à jour de la version 8 de l’API
+# Mises à jour de la version 8 de l’API
 
 ## Ressources mises à jour
 
-Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Adobe Workfront. Pour afficher les ressources qui sont nouvelles de la version 8, reportez-vous à la section [Nouveautés de l’API version 8](../../wf-api/api/new-api-version-8.md). Les modifications apportées à une ressource sont indiquées de la manière suivante :
+Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Adobe Workfront. Pour afficher les nouvelles ressources de la version 8, voir [Nouveautés de la version 8 de l’API](../../wf-api/api/new-api-version-8.md). Les modifications apportées à une ressource sont indiquées de la manière suivante :
 
-* Les ajouts sont simplement répertoriés
+* Les ajouts sont simplement énumérés.
 * Les suppressions sont indiquées par un texte barré.
-* Les modifications sont signalées dans la note suivant le tableau .
+* Les modifications sont signalées dans la note après le tableau.
 
 ### AccessRequest
 
@@ -32,7 +32,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications des valeurs possibles
 
 ### AccessRule<sup>1</sup> 
 
@@ -44,8 +44,8 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicateur supprimé : REPORTABLE\
-<sup>2</sup> Modifications apportées aux valeurs possibles
+<sup>1</sup> Indicateur supprimé : REPORTABLE\
+<sup>2</sup> Modifications des valeurs possibles
 
 ### Approbation
 
@@ -58,8 +58,8 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles\
-<sup>2</sup>Indicateurs ajoutés : DYNAMIC, LAZY_READ et NOT_GROUPABLE
+<sup>1</sup>Modifications des valeurs possibles\
+<sup>2</sup>Ajout d’indicateurs : DYNAMIC, LAZY_READ et NOT_GROUPABLE
 
 ### Affectation
 
@@ -80,7 +80,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### CustomerPreferences
 
@@ -90,7 +90,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### DocumentApproval
 
@@ -100,7 +100,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Indicateur ajouté : NOT_FILTERABLE
+<sup>1</sup>Indicateur ajouté : NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -114,7 +114,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   |   | propriétaires |   |   |   |   |
+|   |   | Propriétaires |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -126,7 +126,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Indicateur ajouté : NOT_FILTERABLE
+<sup>1</sup>Indicateur ajouté : NOT_FILTERABLE
 
 ### Itération
 
@@ -152,21 +152,21 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### TâcheOp
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
-| backlogOrder | itération |   |   |   |   |   |
+| backlogOrder | iteration |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
-| estimation |   |   |   |   |   |   |
+| estimate |   |   |   |   |   |   |
 | iterationID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Portfolio
 
@@ -176,7 +176,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Programme
 
@@ -186,7 +186,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Projet
 
@@ -196,20 +196,20 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### ProofApproval
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| approverID | approbateur |   |   |   |   |   |
+| approverID | approver |   |   |   |   |   |
 | documentVersionID | documentVersion |   |   |   |   |   |
 | ID<sup>1</sup> |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Indicateur ajouté : NOT_FILTERABLE
+<sup>1</sup>Indicateur ajouté : NOT_FILTERABLE
 
 ### QueueDef
 
@@ -220,7 +220,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Taux
 
@@ -232,7 +232,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-### RéservéTime
+### ReservedTime
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -258,13 +258,13 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Equipe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| agileMéthodology |   |   |   |   |   |   |
+| agileMethodology |   |   |   |   |   |   |
 | autoAddNextStory |   |   |   |   |   |   |
 | includeIssues |   |   |   |   |   |   |
 | TeamStoryBoardIssueStatuses |   |   |   |   |   |   |
@@ -288,7 +288,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 Mettre à jour
 
@@ -298,7 +298,7 @@ Mettre à jour
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### l’utilisateur ou de l’utilisatrice
 
@@ -320,7 +320,7 @@ Mettre à jour
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles
+<sup>1</sup>Modifications des valeurs possibles
 
 ### Travail
 
@@ -333,5 +333,5 @@ Mettre à jour
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Modifications apportées aux valeurs possibles\
-<sup>2</sup>Indicateurs ajoutés : DYNAMIC, LAZY_READ et NOT_GROUPABLE
+<sup>1</sup>Modifications des valeurs possibles\
+<sup>2</sup>Ajout d’indicateurs : DYNAMIC, LAZY_READ et NOT_GROUPABLE

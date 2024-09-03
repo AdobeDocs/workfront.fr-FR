@@ -40,23 +40,23 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>N’importe quelle</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td>
-   <p>Nouvelle : standard</p>
+   <p>Nouveau : Standard</p>
    <p>ou</p>
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>Vous devez être administrateur ou administratrice [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,6 +71,6 @@ Créer un niveau d’accès de base avec une licence Demande :
 1. Dans le menu déroulant **[!UICONTROL Type de licence]**, sélectionnez Demande.
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
 
-Après avoir créé un niveau d’accès avec une licence Demande, demandez à l’utilisateur ou à l’utilisatrice de se connecter avec ses identifiants SSO.
+Après avoir créé un niveau d’accès avec une licence Demande, demandez à l’utilisateur ou l’utilisatrice de se connecter avec ses identifiants SSO.
 
 

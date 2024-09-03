@@ -28,7 +28,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez configurer les préférences de votre système Workfront, notamment :
 
 * L’accès à Workfront à partir d’applications mobiles et d’autres applications intégrées
-* Les règles d’incorporation de Workfront dans un iframe
+* Règles d’incorporation de Workfront dans un iframe
 
 Les modifications apportées aux préférences système ont un impact sur toutes les personnes présentes dans le système et sur leur expérience dans Workfront.
 
@@ -38,30 +38,30 @@ Nous vous recommandons de configurer vos préférences système lors de l’impl
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouvelle : standard</p>
+   <td><p>Nouveau : Standard</p>
    <p>ou</p>
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,11 +86,11 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
       <td>Vous permet d’incorporer Workfront dans un iframe.<p>Cette option est désactivée par défaut.</p><p><b>IMPORTANT</b> : l’affichage d’une application web dans un iframe rend l’application vulnérable aux attaques par détournement de clic.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Autoriser l’authentification SAML 2.0 dans les modules complémentaires Office 365</td> 
+      <td role="rowheader">Autoriser l'authentification SAML 2.0 dans les modules complémentaires Office 365</td> 
       <td> <p>Vous permet d’incorporer Workfront dans un iframe uniquement pour les modules complémentaires Office 365 lorsque Workfront est intégré à une solution d’authentification unique SAML 2.0. </p> <p>Cette option est activée par défaut.</p> <p><b>NOTE</b> : si vous activez l’option ci-dessus, <strong>Autoriser l’incorporation de Workfront dans un iframe</strong>, l’option <strong>Autoriser l’authentification SAML 2.0 dans les modules complémentaires Office 365</strong> est activée et grisée.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Activer l’utilisation des informations de session lors de la création d’URL de page externe</td> 
+      <td role="rowheader">Activer l’utilisation des informations de session lors de la création d’URL de page externe.</td> 
       <td> <p>Permet aux utilisateurs et utilisatrices d’utiliser les informations d’ID de session d’un site lors de l’ajout d’une page externe à un tableau de bord.</p> <p>Cette option n’est pas sécurisée et est désactivée par défaut. Il est recommandé d’utiliser OAuth à la place pour les intégrations.</p> <p>Pour plus d’informations sur l’ajout de pages externes à un tableau de bord, consultez la section <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporer une page web externe dans un tableau de bord</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -98,7 +98,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
       <td> <p>Permet aux utilisateurs et utilisatrices d’accéder aux applications mobiles (Workfront View pour les applications iPad et téléphones portables) et à l’application Workfront Outlook.</p> <p>Cette option est activée par défaut. </p> <p>Pour plus d’informations sur Workfront View, consultez la section <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Utiliser Adobe Workfront View</a>. Pour plus d’informations sur les applications mobiles, consultez la section <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Utiliser l’application mobile Adobe Workfront : index des articles</a>.</p> <p>Pour plus d’informations sur le plug-in Outlook, consultez la section <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Configurer Adobe Workfront pour Outlook</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Collaborer avec des personnes sans compte Workfront en utilisant leur adresse e-mail</p> </td> 
+      <td role="rowheader"> <p>Collaborer avec des personnes sans les comptes Workfront en utilisant leur adresse e-mail</p> </td> 
       <td>Permet aux utilisateurs et utilisatrices de Workfront de partager certains éléments avec des personnes sans compte Workfront en incluant leur adresse e-mail au lieu de leur nom. Les utilisateurs et utilisatrices peuvent partager les éléments suivants avec des utilisateurs et utilisatrices externes à l’aide de leur adresse e-mail :
        <ul>
         <li>Document<br></li>
@@ -108,7 +108,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
        </ul><p>Cette option est activée par défaut.</p> <p><b>Important</b> : le niveau d’accès Utilisateur ou utilisatrice externe n’est pas disponible dans votre instance Workfront si cette option est désactivée. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveaux d’accès intégrés</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Exiger des utilisateurs et utilisatrices externes de s’inscrire avec un mot de passe</td> 
+      <td role="rowheader">Demander aux utilisateurs et aux utilisatrices externes de s’inscrire avec un mot de passe</td> 
       <td> <p>Exige que les utilisateurs et utilisatrices externes s’inscrivent avant de pouvoir afficher des éléments dans Workfront. Cette option est désactivée par défaut. Lorsque vous activez cette option, les personnes sans compte Workfront qui sont incluses dans certaines mises à jour via leurs adresses e-mail sont invitées à créer un compte avant de pouvoir afficher l’élément dans lequel elles sont incluses. Cela leur crée un compte d’utilisateur ou d’utilisatrice externe.</p> <p>Cette option est désactivée par défaut.</p> </td> 
      </tr> 
      <tr> 

@@ -2,87 +2,87 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Gestion des versions de BAT dans  [!DNL Workfront Proof]
-description: Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer un énorme défi. [!DNL Workfront Proof] simplifie ce processus en vous permettant de créer et de comparer plusieurs versions d’un BAT.
+title: Gérer les versions d’épreuves dans  [!DNL Workfront Proof]
+description: Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer être un énorme défi. [!DNL Workfront Proof]  simplifie ce processus en vous permettant de créer et de comparer les différentes versions d’une épreuve.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Gestion des versions de BAT dans [!DNL Workfront Proof]
+# Gérer des versions d’épreuves dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer un énorme défi. [!DNL Workfront Proof] simplifie ce processus en vous permettant de créer et de comparer plusieurs versions d’un BAT.
+Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer être un énorme défi. [!DNL Workfront Proof] simplifie ce processus en vous permettant de créer et de comparer les différentes versions d’une épreuve.
 
-Le nombre de versions d’un BAT que vous pouvez créer n’est pas limité. Ainsi, si vous devez passer en revue de nombreuses révisions avec un client pour obtenir une approbation finale, toutes les versions créées peuvent être visualisées et facilement gérées dans [!DNL Workfront Proof].
+Le nombre de versions d’une épreuve que vous pouvez créer n’est pas limité. Si l’obtention de l’approbation finale nécessite de parcourir plusieurs révisions avec un client ou une cliente, il est possible d’afficher et de gérer aisément toutes les versions produites dans [!DNL Workfront Proof].
 
-Les autorisations sont spécifiques à une version. Vous pouvez donc accorder à une personne l’autorisation d’afficher une version, mais pas une autre. Inversement, si vous partagez une version ultérieure avec une personne, elle ne pourra pas voir les versions antérieures, sauf si vous revenez en arrière et les ajoutez explicitement à ces versions précédentes.
+Les autorisations sont spécifiques à une version. Vous pouvez donc accorder à une personne l’autorisation d’afficher une version, mais pas une autre. Cependant, si vous partagez une révision plus récente avec quelqu’un, cette personne ne pourra pas accéder aux versions précédentes à moins que vous ne choisissiez de les intégrer spécifiquement à cette nouvelle version.
 
-Pour créer une nouvelle version d’un BAT, vous devez disposer des droits d’édition sur le BAT.
+Pour créer une version d’une épreuve, vous devez disposer des droits de modification sur l’épreuve.
 
-Pour plus d’informations sur qui dispose des droits de modification sur un BAT, voir [Gérer les rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) . Voir pour en savoir plus sur la création de versions.
+Pour obtenir plus d’informations sur les personnes ayant des droits de modification sur une épreuve, voir [Gérer les rôles des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Consultez la rubrique pour en savoir plus sur la création de versions.
 
-## Affichage des versions de BAT dans la visionneuse de vérification
+## Afficher les versions d’une épreuve dans la visionneuse de relecture
 
-Le nom complet de la version que vous affichez s’affiche en haut à gauche de la visionneuse de vérification. Toutes les autres versions du BAT s’afficheront sous forme de numéros de version uniquement.
+Le nom complet de la version que vous affichez apparaît en haut à gauche de la visionneuse de relecture. Toutes les autres versions de l’épreuve s’afficheront sous forme de numéros de version uniquement.
 
-1. Ouvrez un BAT dans la visionneuse de vérification, comme décrit dans la section [Ouverture d’un BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md).
-1. Dans la visionneuse de BAT, cliquez sur le numéro de version situé à droite du nom du BAT.
+1. Ouvrez une épreuve dans la visionneuse de relecture, comme décrit dans la section [Ouvrir une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md).
+1. Dans la visionneuse de relecture, cliquez sur le numéro de version situé à droite du nom de l’épreuve.
 1. Pour afficher l’autre version, cliquez sur son nom dans le menu qui s’affiche lorsque vous cliquez sur le numéro de version.
-1. Pour comparer deux versions, cliquez sur l&#39;icône **[!UICONTROL Comparer les bons à tirer]** .\
+1. Pour comparer deux versions, cliquez sur l’icône **[!UICONTROL Comparer les épreuves]**.\
    ![Compare_Proofs_button.png](assets/compare-proofs-button.png)\
-   S’il existe plusieurs versions du BAT, vous pouvez sélectionner les deux versions que vous souhaitez comparer en cliquant sur le numéro de version approprié dans chaque côté de l’écran partagé du mode de comparaison.
+   S’il existe plusieurs versions de l’épreuve, vous pouvez sélectionner les deux versions que vous souhaitez comparer en cliquant sur le numéro de version approprié de chaque côté de l’écran partagé du mode de comparaison.
 
-Pour plus d’informations sur la vérification des BAT dans une visionneuse de BAT, voir [Vérification d’un BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+Pour plus d’informations sur la révision des épreuves dans une visionneuse de relecture, voir [Réviser une épreuve](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
 
-## Accès aux versions de BAT via la page Détails du BAT
+## Accéder aux versions d’une épreuve via la page de détails de l’épreuve
 
-Vous pouvez accéder à toutes les versions d&#39;un BAT à partir de la page Détails du BAT .
+Vous pouvez accéder à toutes les versions d’une épreuve via la page de détails de l’épreuve.
 
-1. Ouvrez la page Détails du BAT pour un BAT, comme décrit dans la section [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Cliquez sur l’onglet correspondant aux onglets de version en haut de la page, puis cliquez sur **[!UICONTROL Aller à BAT]** pour ouvrir la version souhaitée dans la visionneuse de vérification.\
+1. Ouvrez la page de détails de l’épreuve, comme décrit dans la section [Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Cliquez sur l’onglet correspondant aux onglets des versions en haut de la page, puis cliquez sur **[!UICONTROL Accéder à l’épreuve]** pour ouvrir la version souhaitée dans la visionneuse de relecture.\
    ![Version_tabs_on_Proof_Details_page.png](assets/version-tabs-on-proof-details-page-350x205.png)
 
-## Liaison de versions de BAT
+## Lier des versions d’épreuve
 
-Si votre BAT comporte plusieurs versions, la version précédente du BAT est généralement appelée BAT parent.
+Si votre épreuve comporte plusieurs versions, sa version précédente est généralement appelée épreuve parent.
 
-Si vous souhaitez modifier le BAT parent (version précédente) en un autre BAT dans votre compte, ou connecter un seul BAT à un autre BAT dans votre compte (en tant que nouvelle version de l’autre BAT), vous pouvez le faire facilement en procédant comme suit :
+Si vous souhaitez remplacer l’épreuve parent (version précédente) par une autre épreuve dans votre compte, ou connecter une épreuve unique à une autre épreuve dans votre compte (en tant que nouvelle version de l’autre épreuve), vous pouvez le faire facilement en procédant comme suit :
 
-1. Ouvrez la page Détails du BAT pour un BAT, comme décrit dans la section [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Modifier la version précédente]**.
+1. Ouvrez la page des détails de l’épreuve, comme décrit dans la section [Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Modifier la version précédente]**.
 
-1. Dans la zone **[!UICONTROL Modifier la version précédente]** qui s&#39;affiche, sélectionnez le BAT que vous souhaitez définir comme BAT parent (version précédente).\
-   Si vous avez besoin d’aide pour trouver le BAT dans la liste, vous pouvez trier les colonnes en cliquant sur l’en-tête de colonne.
+1. Dans la zone **[!UICONTROL Modifier la version précédente]** qui s’affiche, sélectionnez l’épreuve que vous souhaitez définir comme épreuve parent (version précédente).\
+   Si vous avez besoin d’aide pour trouver l’épreuve dans la liste, vous pouvez trier les colonnes en cliquant sur l’en-tête de colonne.
 
-1. Cliquez sur **[!UICONTROL Modifier la version précédente]** en bas de la boîte pour connecter les versions.
+1. Cliquez sur **[!UICONTROL Modifier la version précédente]** en bas de la zone pour connecter les versions.
 
 >[!NOTE]
 >
->Lorsque vous connectez un BAT à un autre BAT de votre compte (en tant que nouvelle version), [!DNL Workfront Proof] verrouille le BAT qui est désormais la version précédente.
+>Lorsque vous connectez une épreuve à une autre dans votre compte (en tant que nouvelle version), [!DNL Workfront Proof] verrouille l’épreuve qui est désormais la version précédente.
 
-## Suppression de liens vers des versions de BAT
+## Supprimer les liens entre les versions d’une épreuve
 
-Vous pouvez dissocier le BAT que vous affichez actuellement de son BAT parent (version précédente) sans le lier à un autre BAT de votre compte :
+Vous pouvez dissocier l’épreuve en cours d’affichage de son épreuve parent (version précédente) sans avoir à la lier à une autre épreuve de votre compte.
 
-1. Ouvrez la page Détails du BAT pour un BAT, comme décrit dans la section [Gérer les détails du BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Supprimer le lien vers la version précédente]**.
+1. Ouvrez la page de détails de l’épreuve, comme décrit dans la section [Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Supprimer le lien avec la version précédente]**.
 
-   * Seule la dernière version peut être dissociée (déconnectée) de l’ensemble des versions. Cela deviendra alors une preuve unique.
-   * Si vous devez insérer une version entre deux versions existantes, vous pouvez dissocier toutes les versions du même BAT et les réassocier dans l&#39;ordre approprié.
+   * Seule la dernière version peut être dissociée (déconnectée) de l’ensemble des versions. Elle deviendra alors une épreuve unique.
+   * Si vous devez insérer une version entre deux versions existantes, vous pouvez dissocier toutes les versions de la même épreuve et les relier dans l’ordre approprié.
 
-## À propos des jeux de versions et des limites de BAT
+## À propos des jeux de versions et des limites d’épreuves
 
-Chaque ensemble de cinq versions est compté comme un BAT par rapport à votre limite de BAT totale.
+Chaque jeu de cinq versions est comptabilisé comme une épreuve par rapport à votre limite totale d’épreuves.
 
-Par exemple, si vous téléchargez cinq versions d’une conception (y compris la version d’origine), cela compte comme un bon à tirer. Si vous chargez six versions d’une conception, cela compte comme deux bons à tirer. Onze versions comptent comme trois bons à tirer, etc.
+Par exemple, si vous chargez cinq versions d’une conception (y compris la version d’origine), cela compte comme une épreuve. Si vous chargez six versions d’une conception, cela compte comme deux épreuves. Onze versions comptent comme trois épeuves, etc.
 
-Pour les fichiers audio-visuels, chaque nouvelle version est considérée comme un nouveau BAT.
+Pour les fichiers audiovisuels, chaque nouvelle version compte comme une nouvelle épreuve.

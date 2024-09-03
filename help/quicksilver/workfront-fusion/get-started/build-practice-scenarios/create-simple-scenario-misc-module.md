@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Création d’un scénario simple dans [!DNL Adobe Workfront Fusion]
-description: Découvrez comment créer un scénario d’automatisation simple avec Adobe Workfront Fusion. Les scénarios d’automatisation automatisent les processus Workfront, notamment la manipulation et la transformation des données. Cet exemple vous guide tout au long du processus de création d’un scénario qui recherche un problème, puis le convertit en projet.
+description: Découvrez comment créer un scénario d’automatisation simple avec Adobe Workfront Fusion. Les scénarios d’automatisation permettent d’automatiser les processus Workfront, y compris la manipulation et la transformation des données. Cet exemple vous guide tout au long du processus de création d’un scénario qui recherche un problème, puis le convertit en projet.
 author: Becky
 hide: true
 hidefromtoc: true
@@ -17,7 +17,7 @@ ht-degree: 35%
 
 # Création d’un scénario de base dans [!DNL Adobe Workfront Fusion]
 
-[!DNL Adobe Workfront Fusion] vise à automatiser vos processus afin que vous puissiez vous concentrer sur de nouvelles tâches, plutôt que de répéter les mêmes tâches encore et encore. L’application fonctionne en reliant les actions au sein et entre les applications et les services, pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
+Le rôle d’[!DNL Adobe Workfront Fusion] consiste à automatiser vos processus afin que vous puissiez vous concentrer sur de nouvelles tâches, plutôt que de répéter les mêmes tâches encore et encore. La plateforme fonctionne en liant les actions dans et entre les applications et les services pour créer un scénario qui transfère et transforme vos données automatiquement. Le scénario que vous créez recherche les données dans une application ou un service et traite ces données pour obtenir le résultat souhaité.
 
 Cet exemple vous guide tout au long du processus de création d’un scénario qui recherche un problème dans Workfront et le convertit en projet.
 
@@ -61,7 +61,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 -->
 
-## Créer un scénario de test
+## Créer un scénario pratique
 
 ### Commencer à créer le scénario
 
@@ -74,7 +74,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    <!--picture?-->
 
 1. Sélectionnez le nom d’espace réservé **[!UICONTROL Nouveau scénario]** dans le coin supérieur gauche, puis saisissez un nom.
-1. Passez à l’étape [Ajouter et configurer le premier module](#add-and-configure-the-first-module) ci-dessous.
+1. Passez à la section [Ajouter et configurer le premier module](#add-and-configure-the-first-module) ci-dessous.
 
 ### Ajouter et configurer le premier module
 
@@ -107,24 +107,24 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
       **[!UICONTROL Name]** est disponible dans la liste si vous commencez à saisir le mot &quot;[!UICONTROL name]&quot;.
    1. Pour l’opérateur, cliquez sur la flèche de liste déroulante en regard de **Exist** et remplacez-la par [!UICONTROL **Contains (insensible à la casse)**].
 
-      Cela permet au module de rechercher des projets dont le nom contient les mots de votre choix, même si vous ne saisissez pas l’intégralité du nom, ou si vous saisissez le nom avec une casse incorrecte (toutes les majuscules, par exemple).
+      Cela permet au module de trouver des projets dont le nom contient les mots que vous avez choisis, même si vous ne saisissez pas le nom en entier ou si vous saisissez le nom avec une casse incorrecte (par exemple, tout en majuscules).
    1. Dans le dernier champ sous [!UICONTROL Critères de recherche], saisissez un mot ou une expression qui figure dans le nom du problème que vous recherchez.
 
-1. Dans la liste **[!UICONTROL Sorties]**, sélectionnez les champs que le module doit générer. Pour cet exemple, sélectionnez les champs **[!UICONTROL ID]** et **[!UICONTROL Nom]**.
+1. Dans la liste Sorties, sélectionnez les champs que le module doit générer. **** Pour cet exemple, sélectionnez les champs **[!UICONTROL ID]** et **[!UICONTROL Nom]**.
 
    >[!TIP]
    >
-   >Utilisez les raccourcis clavier **Cmd+F** ([!DNL Mac]OS) ou **Ctrl+F** (système d’exploitation [!DNL Windows]) pour trouver rapidement un champ.
+   >Vous pouvez utiliser **Cmd+F** (système d’exploitation [!DNL Mac]) ou **Ctrl+F** (système d’exploitation [!DNL Windows]) pour trouver rapidement un champ.
 
 1. Cliquez sur **[!UICONTROL OK]** pour enregistrer la configuration du module.
 
 1. Cliquez avec le bouton droit sur le module, cliquez sur **[!UICONTROL Renommer]**, puis saisissez un nom qui décrit ce que vous souhaitez que le module fasse (par exemple &quot;Rechercher un problème)&quot;, puis cliquez sur **[!UICONTROL OK]**.
 
-   Le nom apparaît juste en dessous du module. En dessous du nom, [!DNL Workfront Fusion] présente une brève description du type d’action effectuée par le module.
+   Le nom apparaît juste en dessous du module. En dessous, [!DNL Workfront Fusion] inclut une brève description du type d’action effectuée par le module.
 
    ![](assets/)
 
-1. Passez à l’étape [Ajouter et configurer le deuxième module](#add-and-configure-the-second-module).
+1. Continuez avec [Ajouter et configurer le deuxième module](#add-and-configure-the-second-module).
 
 ## Ajouter et configurer le deuxième module
 
@@ -150,7 +150,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    >[!TIP]
    >
-   >Utilisez les raccourcis clavier **Cmd+F** ([!DNL Mac]OS) ou **Ctrl+F** (système d’exploitation [!DNL Windows]) pour trouver rapidement un champ.
+   >Vous pouvez utiliser **Cmd+F** (système d’exploitation [!DNL Mac]) ou **Ctrl+F** (système d’exploitation [!DNL Windows]) pour trouver rapidement un champ.
 
 1. Cliquez sur **[!UICONTROL OK]** pour enregistrer la configuration du module.
 
@@ -160,48 +160,48 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Tester le scénario
 
-Avant d’activer votre scénario, il est important de le tester en l’exécutant au moins une fois et en consultant les résultats. Vous pouvez ainsi comprendre le flux des données dans le scénario et rechercher les erreurs.
+Avant d’activer votre scénario, il est important de le tester en l’exécutant au moins une fois et en visualisant les résultats. Cela vous permet de comprendre comment les données circulent dans le scénario et de détecter les éventuelles erreurs.
 
 Pour ce scénario, un test réussi permet de localiser le problème et de le convertir en projet.
 
-1. Cliquez sur **[!UICONTROL Exécuter une seule fois]** dans le coin inférieur gauche de l’éditeur de scénario.
+1. Cliquez sur **[!UICONTROL Exécuter une fois]** dans le coin inférieur gauche de l’éditeur de scénario.
 1. Une fois le scénario en cours d’exécution terminé, cliquez sur la bulle au-dessus du premier module pour afficher des informations sur le lot de données traité par le module, y compris les données extraites du problème renvoyé par le module.
 
 1. Cliquez sur la bulle d’inspection d’exécution au-dessus du deuxième module pour voir l’entrée (le problème) et la sortie (le projet converti).
 
    Pour plus d’informations sur les données des bulles d’inspection, voir :
 
-   * Pour obtenir des informations générales, voir [Flux d’exécution du scénario dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
-   * Pour plus d’informations sur les lots traités, voir [Exécution, cycles et phases d’un scénario [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+   * Pour obtenir des informations générales, consultez la section [Flux d’exécution d’un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   * Pour plus d’informations sur les lots traités, consultez la section [Exécution, cycles et phases d’un scénario [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 1. Dans [!DNL Workfront Fusion], cliquez sur **[!UICONTROL Enregistrer]** près du coin inférieur gauche pour enregistrer la progression sur le scénario.
 
    >[!IMPORTANT]
    >
-   >Enregistrez à intervalles réguliers lorsque vous affinez et testez un scénario.
+   >Sauvegardez souvent lorsque vous affinez et testez un scénario.
 
 >[!TIP]
 >
->Nous recommandons d’ajouter des notes sur chaque module pour indiquer ses objectifs.
+>Nous vous recommandons d’ajouter des notes sur chaque module, ce qui est facultatif mais utile.
 >
->1. Cliquez avec le bouton droit sur un module [!DNL Workfront], puis cliquez sur **[!UICONTROL Ajouter une note]**.
->1. Dans la note qui s’affiche, saisissez une description générale du module.
+>1. Cliquez avec le bouton droit de la souris sur un module [!DNL Workfront], puis cliquez sur **[!UICONTROL Ajouter une note]**.
+>1. Dans la note qui s’affiche, saisissez un aperçu du module.
 >
 >    Vous pouvez ajouter plusieurs notes pour un module.
 >
->1. Fermez la zone **[!UICONTROL Remarques]**.
+>1. Fermez la zone **[!UICONTROL Notes]**.
 >
->     Après avoir ajouté une note à un scénario, un point orange s’affiche sur l’icône **[!UICONTROL Remarques]** ![](assets/notes-icon-w-dot.png) au bas de l’éditeur de scénario.
+>     Après avoir ajouté une note à un scénario, un point orange s’affiche sur l’icône **[!UICONTROL Notes]**![](assets/notes-icon-w-dot.png) au bas de l’éditeur de scénario.
 >
->1. Cliquez sur l’icône **[!UICONTROL Remarques]** ![](assets/notes-icon-w-dot.png) pour afficher vos notes.
+>1. Cliquez sur l’icône **[!UICONTROL Notes]** ![](assets/notes-icon-w-dot.png) pour afficher vos notes.
 >
 
 ## Activer le scénario
 
 La dernière étape de la création d’un scénario consiste à l’activer.
 
-Comme ce scénario recherche un problème spécifique, il n’est pas nécessaire de l’activer. L’activation d’un scénario entraîne son exécution selon un planning ou lorsqu’une action spécifique se produit dans une application. Une fois que vous avez activé un scénario, celui-ci s’exécute par défaut toutes les 15 minutes. Vous pouvez modifier ce paramètre en définissant le moment et la fréquence d’exécution.
+Comme ce scénario recherche un problème spécifique, il n’est pas nécessaire de l’activer. L’activation d’un scénario entraîne son exécution selon un planning ou lorsqu’une action spécifique se produit dans une application. Une fois que vous avez activé un scénario, celui-ci s’exécute par défaut toutes les 15 minutes. Vous pouvez modifier cela en définissant quand et à quelle fréquence vous souhaitez qu’il s’exécute.
 
-Pour plus d’informations sur l’activation de scénarios, voir [Activer ou désactiver un scénario dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+Pour plus d’informations sur l’activation des scénarios, voir [Activer ou désactiver un scénario dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 Pour plus d’informations sur les plannings, voir [Planifier un scénario dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).

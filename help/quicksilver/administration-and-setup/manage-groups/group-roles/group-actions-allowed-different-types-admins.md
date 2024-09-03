@@ -19,7 +19,7 @@ ht-degree: 99%
 
 Ce tableau répertorie les activités d’administration disponibles pour :
 
-* un administrateur ou une administratrice Adobe Workfront gérant le système Workfront (pour effectuer les comparaisons) ;
+* un administrateur ou une administratrice Adobe Workfront gérant le système Workfront (pour effectuer les comparaisons) ;
 * un administrateur ou une administratrice de groupes gérant un groupe de niveau supérieur ;
 * un administrateur ou une administratrice de groupes gérant un sous-groupe.
 
@@ -140,7 +140,7 @@ Ce tableau répertorie les activités d’administration disponibles pour :
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Créer et modifier des entreprises</td> 
+   <td>Créer et gérer des entreprises</td> 
    <td>✓ </td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -164,7 +164,7 @@ Ce tableau répertorie les activités d’administration disponibles pour :
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Créer et gérer des priorités, des gravités et des conditions</td> 
+   <td>Créer et gérer des priorités, des gravités, des conditions</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -218,7 +218,7 @@ Ce tableau répertorie les activités d’administration disponibles pour :
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Importer et exporter des données à l’aide de Kickstarts</td> 
+   <td>Importer et exporter des données à l’aide de Kickstart</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
@@ -226,9 +226,9 @@ Ce tableau répertorie les activités d’administration disponibles pour :
  </tbody> 
 </table>
 
-&#42; Dans le niveau d’accès de l’administrateur ou de l’administratrice du groupes, **Modifier** doit être sélectionné pour le paramètre **Utilisateurs et utilisatrices** avec **Utilisateur administrateur ou utilisatrice administratrice (utilisateurs et utilisatrices de groupe)** sélectionné dans **Ajuster vos paramètres** ![](assets/gear-icon-in-access-levels.png). Pour plus d’informations, voir la section [Configurer l’accès des utilisateurs et des utilisatrices pour la modification d’utilisateurs et d’utilisatrices à l’aide d’un niveau d’accès personnalisé](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) dans l’article [Accorder un accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; Dans le niveau d’accès de l’administrateur ou de l’administratrice du groupe, **Modifier** doit être sélectionné pour le paramètre **Utilisateurs et utilisatrices** avec **Utilisateur administrateur ou utilisatrice administratrice (utilisateurs et utilisatrices de groupe)** sélectionné dans **Ajuster vos paramètres** ![](assets/gear-icon-in-access-levels.png). Pour plus d’informations, voir la section [Configurer l’accès des utilisateurs et des utilisatrices pour la modification d’utilisateurs et d’utilisatrices à l’aide d’un niveau d’accès personnalisé](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) dans l’article [Accorder un accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-&#42;&#42; Dans le niveau d’accès de l’administrateur ou de l’administratrice de groupes, l’accès à cette action doit être activé. Pour plus d’informations, voir [Accorder aux utilisateurs et aux utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+&#42;&#42; Dans le niveau d’accès de l’administrateur ou de l’administratrice du groupe, l’accès à cette action doit être activé. Pour plus d’informations, voir [Accorder aux utilisateurs et aux utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 &#42;&#42;&#42; Les activités suivantes font partie des Contrôles d’entreprise avancés et ne sont pas disponibles pour la formule Select. Seules les organisations ayant acheté les formules Prime ou Ultimate peuvent accéder à ces fonctionnalités. Voir la page de la tarification et de packaging Adobe Workfront pour plus d’informations sur les formules. [](https://business.adobe.com/products/workfront/pricing.html) (Pour les organisations qui utilisent les anciennes formules, le tableau ci-dessus indique les activités pour les administrateurs et les administratrices de groupes et de sous-groupes.)
 

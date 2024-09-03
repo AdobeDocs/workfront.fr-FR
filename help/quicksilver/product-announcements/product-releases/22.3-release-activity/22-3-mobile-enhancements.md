@@ -1,6 +1,6 @@
 ---
-title: mises à jour mobiles pendant la période de la version 22.3
-description: mises à jour mobiles pendant la période de la version 22.3
+title: mises à jour de l’application mobile pendant la période de publication de la version 22.3
+description: mises à jour de l’application mobile pendant la période de publication de la version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,27 +9,27 @@ exl-id: eb62baf2-109c-4b50-8cd1-415d3c40c7ed
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Améliorations apportées à l’application mobile (version 22.3)
+# 22.3 Améliorations des appareils mobiles
 
-Cette page décrit toutes les améliorations apportées à Mobile avec la version 22.3 de l’environnement Aperçu. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, consultez la [présentation de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Cette page décrit toutes les améliorations de l’application mobile apportées à l’environnement de prévisualisation avec la version 22.3. Ces améliorations ont été apportées à l’environnement de production au cours de la semaine du 11 juillet 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.3, voir [Vue d’ensemble de la version 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
-## Améliorations de la vérification de l’application mobile
+## Améliorations de la relecture dans l’application mobile
 
 >[!NOTE]
 >
->Ces fonctionnalités seront généralement disponibles dans Apple App Store et Google Play Store de mi-juillet à fin juillet 2022.
+>Ces fonctionnalités seront disponibles dans l’App Store d’Apple et le Google Play Store entre la mi-juillet et la fin juillet 2022.
 
 
-L’application mobile Adobe Workfront vous permet désormais d’afficher les pièces jointes aux commentaires de BAT et d’ajouter de nouvelles pièces jointes. Les types de fichiers pris en charge pour les pièces jointes sont les images, les documents et les vidéos.
+L’application mobile Adobe Workfront vous permet désormais d’afficher les pièces jointes aux commentaires des épreuves et d’ajouter de nouvelles pièces jointes. Vous pouvez joindre des fichiers de type image, document ou vidéo.
 
-Vous pouvez également marquer d’autres utilisateurs de BAT dans les commentaires et les réponses. Toute personne que vous marquez reçoit une notification par courrier électronique.
+Vous pouvez également taguer d’autres utilisateurs et d’autres utilisatrices de l’épreuve dans les commentaires et les réponses. Toute personne que vous taguez reçoit une notification par e-mail.
 
-Les articles suivants seront mis à jour lorsque l’application sera publiée dans les boutiques d’applications :
+Les articles suivants seront mis à jour lorsque l’application sera publiée dans les boutiques d’applications :
 
-* [Commentaire sur les bons à tirer dans Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
+* [Commentaire sur les épreuves dans Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
 
-* [Commentaire sur les bons à tirer dans iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
+* [Commentaire sur les épreuves dans iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)

@@ -49,26 +49,26 @@ Vous pouvez réactiver une personne à tout moment.
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des éléments suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>  <p>Nouvelle : standard </p> <p>Ou </p><p>Actuelle : formule </p>   </td> 
+   <td>  <p>Nouveau : Standard </p> <p>Ou </p><p>Actuel : formule </p>   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont l’utilisateur est membre.</p> <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, consultez <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès d’administration complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administratrion des utilisateurs et utilisatrices (utilisateurs et utilisatrices du groupe)</b> est activée, vous devez être administrateur ou administratrice de groupes d’un groupe dont l’utilisateur ou l’utilisatrice est membre.</p> <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -80,7 +80,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 Avant de désactiver un administrateur ou une administratrice Workfront, ou un utilisateur ou une utilisatrice de licence Standard ou Plan, vous devez associer ses objets et activités à une autre personne.
 
-Pour plus d’informations, voir [À propos de la désactivation d’administrateurs ou d’administratrices Workfront et d’utilisateurs ou d’utilisatrices de licence de plan](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
+Pour plus d’informations, voir [À propos de la désactivation d’administrateurs ou d’administratrices Workfront et d’utilisateurs ou d’utilisatrices de licence Plan](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
 
 ## Désactiver un utilisateur ou une utilisatrice
 
@@ -102,11 +102,11 @@ Pour désactiver un utilisateur ou une utilisatrice :
 
 ## Planifier la désactivation d’utilisateurs ou d’utilisatrices
 
-En tant que gestionnaire, vous pouvez marquer des utilisateurs ou utilisatrices afin de signaler leur désactivation avant qu’ils ou elles ne quittent effectivement votre entreprise. Par exemple, si vous travaillez avec une personne liée par contrat, elle est présente dans votre système pour une période limitée et vous connaissez sa date de fin de contrat. Vous pouvez planifier sa désactivation à cette date.
+En tant que gestionnaire, vous pouvez marquer des utilisateurs ou utilisatrices afin de signaler leur désactivation avant qu’ils ou elles ne quittent effectivement votre entreprise. Par exemple, si vous travaillez avec une personne liée par contrat, elle est présent dans votre système pour une période limitée et vous connaissez sa date de fin de contrat. Vous pouvez planifier sa désactivation à cette date.
 
 Les administrateurs ou administratrices Workfront et les utilisateurs ou utilisatrices de licence Plan peuvent voir la date de désactivation dans leur profil d’utilisateur ou d’utilisatrice.
 
-Pour planifier la désactivation d’un utilisateur ou d’une utilisatrice :
+Pour planifier la désactivation d’une personne :
 
 {{step-1-to-users}}
 
@@ -147,29 +147,29 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 ### Impact sur la relecture lors de la réactivation d’un utilisateur ou d’une utilisatrice
 
-Les utilisateurs et utilisatrices désactivés perdent le rôle de relecture qui leur a été affecté par défaut et leur licence de relecture (si vous disposez d’une formule Workfront Premium héritée). Si vous décidez de réactiver l’utilisateur ou l’utilisatrice, vous devez effectuer les opérations suivantes :
+Les utilisateurs et utilisatrices désactivés perdent le rôle de relecture qui leur a été affecté par défaut et leur licence de relecture (si vous disposez d’un plan Workfront Premium hérité). Si vous décidez de réactiver l’utilisateur ou l’utilisatrice, vous devez :
 
-* Réaffectez la licence (si vous disposez d’un plan Workfront Premium hérité). Pour plus d’informations sur les formules de relecture de Workfront, voir [Accéder à la fonctionnalité de relecture dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Vérifiez que la personne dispose du rôle de relecture approprié. Les utilisateurs et utilisatrices d’épreuve réactivés se voient affecter le rôle de relecture par défaut (si spécifié) pour les nouveaux utilisateurs et utilisatrices. Pour plus d’informations, voir [Configurer les rôles de relecture par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md).
+* Réaffecter la licence (si vous disposez d’un plan Workfront Premium hérité). Pour plus d’informations sur les plans de relecture de Workfront, voir [Accéder à la fonctionnalité de relecture dans Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* Vérifiez que la personne dispose du rôle d’épreuve approprié. Les utilisateurs et utilisatrices d’épreuve réactivés se voient affecter le rôle d’épreuve par défaut (si spécifié) pour les nouveaux utilisateurs et utilisatrices. Pour plus d’informations, voir [Configurer les rôles de relecture par défaut](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md).
 
-## À propos de la désactivation d’administrateurs et d’administratrices Workfront et d’utilisateurs et d’utilisatrices de licence standard ou de plan
+## À propos de la désactivation d’administrateurs et d’administratrices Workfront et d’utilisateurs et d’utilisatrices de licence Standard ou Plan
 
-Avant de désactiver un administrateur ou une administratrice Workfront ou un utilisateur ou une utilisatrice disposant d’une licence de plan, il est important de vérifier les objets et activités Workfront impliquant cette personne, puis de les associer à un autre administrateur ou à une autre administratrice Workfront ou à un autre utilisateur ou à une autre utilisatrice de licence de plan si nécessaire.
+Avant de désactiver un administrateur ou une administratrice Workfront ou un utilisateur ou une utilisatrice disposant d’une licence Plan, il est important de vérifier les objets et activités Workfront impliquant cette personne, puis de les associer à un autre administrateur ou à une autre administratrice Workfront ou à un autre utilisateur ou à une autre utilisatrice de licence Plan si nécessaire.
 
 Ces objets et activités peuvent inclure les éléments suivants :
 
 * Tâches ou problèmes affectés à l’utilisateur ou l’utilisatrice.
-* Projets appartenant à l’utilisateur ou l’utilisatrice
-* Rapports configurés pour s’exécuter avec les droits d’accès de l’utilisateur ou l’utilisatrice
-* Modèles appartenant à l’utilisateur ou l’utilisatrice
-* Projets et modèles pour lesquels la personne a été désignée comme gestionnaire de ressources
-* Règles de transmission de la file d’attente des demandes pour lesquelles l’administrateur ou l’administratrice Workfront ou l’utilisateur ou l’utilisatrice de la licence de plan est la personne désignée par défaut
-* Processus d’approbation dont une étape inclut la personne (en particulier si elle était la seule personne approbatrice de l’étape)
-* Feuilles de temps qui désignent la personne en tant que personne approbatrice
-* Profils de feuille de temps qui désignent la personne en tant que personne approbatrice
-* Workflows automatisés de relecture qui incluent l’utilisateur ou l’utilisatrice
+* Projets appartenant à l’utilisateur ou l’utilisatrice.
+* Rapports configurés pour s’exécuter avec les droits d’accès de l’utilisateur ou l’utilisatrice.
+* Modèles appartenant à l’utilisateur ou l’utilisatrice.
+* Projets et modèles pour lesquels la personne a été désignée comme personne gestionnaire de ressources.
+* Règles de routage de la file d’attente des demandes pour lesquelles l’administrateur ou l’administratrice Workfront ou l’utilisateur ou l’utilisatrice de la licence Plan est la personne désignée par défaut.
+* Processus d’approbation dont une étape inclut la personne (en particulier si elle était la seule personne approbatrice de l’étape).
+* Feuilles de temps qui désignent la personne en tant que personne approbatrice.
+* Profils de feuille de temps qui désignent la personne en tant que personne approbatrice.
+* Workflows automatisés de relecture qui incluent l’utilisateur ou l’utilisatrice.
 
-## Impact sur la planification des ressources lorsque vous planifiez la désactivation d’un utilisateur ou d’une utilisatrice
+## Impact sur la planification des ressources lorsque vous planifiez la désactivation d’un utilisateur ou d’une utilisatrice.
 
 Lorsque vous planifiez la désactivation d’une personne, celle-ci n’apparaît plus dans le planificateur de ressources comme étant disponible pour la budgétisation des heures. Si elle continue à faire partie des groupes de ressources, elle apparaît dans le planificateur de ressources, mais sa disponibilité est de zéro heure à partir de la date de sa désactivation planifiée.
 

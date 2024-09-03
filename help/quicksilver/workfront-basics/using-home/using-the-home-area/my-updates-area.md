@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Utiliser la zone Mes mises à jour
-description: La zone [!UICONTROL Mes mises à jour] vous permet d’examiner rapidement les approbations en attente de votre décision ou les conversations auxquelles vous participez.
+description: Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour consulter rapidement les approbations en attente de votre décision ou les conversations auxquelles vous avez participé.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
 source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 92%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
 -->
 
-La zone [!UICONTROL Mes mises à jour] vous permet d’examiner rapidement les approbations en attente de votre décision ou les conversations auxquelles vous participez.
+Vous pouvez utiliser la zone [!UICONTROL Mes mises à jour] pour consulter rapidement les approbations en attente de votre décision ou les conversations auxquelles vous avez participé.
 
-En tant que titulaire d’une licence de [!UICONTROL Révision], vous trouverez la zone [!UICONTROL Mes mises à jour] dans le [!UICONTROL Menu Principal] par défaut et la zone [!UICONTROL Mes mises à jour] est la page de destination par défaut.
+En tant que personne disposant d’une licence de [!UICONTROL Révision], vous pouvez trouver la zone [!UICONTROL Mes mises à jour] dans le [!UICONTROL Menu principal] par défaut et la zone [!UICONTROL Mes mises à jour] est la page de destination par défaut pour vous.
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront], consultez la section [[!DNL Adobe Workfront] Vue d’ensemble des licences](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront], voir [[!DNL Adobe Workfront] Vue d’ensemble des licences](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-Si vous avez un type de licence autre que Révision, l’administrateur ou l’administratrice [!DNL Workfront] ou de groupe doit ajouter la zone [!UICONTROL Mes mises à jour] à votre modèle de mise en page pour l’afficher dans le menu principal. Pour plus d’informations, consultez la section [Personnaliser le [!UICONTROL Menu Principal] à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Si vous disposez d’un type de licence différent de Révision, l’administrateur ou administratrice [!DNL Workfront] ou de groupes doit ajouter la zone [!UICONTROL Mes mises à jour] à votre modèle de mise en page pour qu’elle s’affiche dans le menu principal. Pour plus d’informations, voir [Personnaliser le [!UICONTROL Menu principal] à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
@@ -56,15 +56,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-* Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront]. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice . [!DNL Workfront] Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Conditions préalables
 
 Vous devez disposer des éléments suivants avant de commencer :
 
-* Si vous avez une licence [!DNL Workfront] autre que [!UICONTROL Révision], votre administrateur ou administratrice [!DNL Workfront] ou de groupe doit ajouter la zone [!UICONTROL Mes mises à jour] au [!UICONTROL Menu Principal] à l’aide d’un modèle de mise en page et vous attribuer ce modèle.
+* Si vous disposez d’une licence [!DNL Workfront] autre que [!UICONTROL Révision], votre administrateur ou administratrice [!DNL Workfront] ou de groupes doit ajouter la zone [!UICONTROL Mes mises à jour] au [!UICONTROL Menu principal] à l’aide d’un modèle de mise en page et vous affecter à ce modèle.
 
-* Pour les titulaires d’une licence de révision, la zone [!UICONTROL Mes mises à jour] s’affiche par défaut dans le [!UICONTROL Menu Principal].
+* Les personnes utilisant une licence Révision peuvent consulter la zone [!UICONTROL Mes mises à jour] dans leur [!UICONTROL Menu principal] par défaut.
 
 ## Accéder à la zone [!UICONTROL Mes mises à jour]
 
@@ -82,7 +82,7 @@ Vous devez disposer des éléments suivants avant de commencer :
 
    >[!TIP]
    >
-   >Les cinq premières approbations ou demandes d’accès s’affichent par défaut. Les approbations restantes s’affichent sur les pages suivantes. Vous pouvez afficher un maximum de 2 000 approbations dans la zone [!UICONTROL Mes mises à jour].
+   >Les cinq premières approbations ou demandes d’accès s’affichent par défaut. Les autres approbations s’affichent sur des pages supplémentaires. Vous pouvez afficher un maximum de 2000 approbations dans la zone [!UICONTROL Mes mises à jour].
 
    ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
@@ -96,22 +96,22 @@ Vous devez disposer des éléments suivants avant de commencer :
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
-      <td>Approbations qui vous sont soumises ou qui vous ont été déléguées par une autre personne. Pour plus d’informations sur la délégation des approbations, consultez la section <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Déléguer une demande d’approbation</a>. </td> 
+      <td>Approbations qui vous sont soumises ou qui vous sont déléguées par une autre personne. Pour plus d’informations sur la délégation d’approbations, voir <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Déléguer une demande d’approbation</a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Delegated Approvals]</strong></td> 
-      <td>Approbations qui vous ont été déléguées par une autre personne </td> 
+      <td>Approbations qui vous sont déléguées par une autre personne. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL My Approvals]</strong></td> 
-      <td> <p>Approbations qui vous ont été envoyées. </p> <p>Pour plus d’informations sur l’approbation d’éléments, consultez la section <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approuver le travail</a>.</p> </td> 
+      <td> <p>Approbations qui vous sont soumises. </p> <p>Pour plus d’informations sur l’approbation des éléments, voir <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approbation du travail</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Pour approuver ou rejeter un élément ou suggérer des modifications à un document avant d’approuver, procédez comme suit :
+1. Pour approuver ou rejeter un élément ou suggérer des modifications à un document avant de l’approuver, procédez comme suit :
 
-   1. (Facultatif) Cliquez sur l’icône **menu déroulant** ![](assets/down-arrow-blue.png) en regard de votre décision d’approbation (**[!UICONTROL Approuver]**, **[!UICONTROL Modifications]**,**[!UICONTROL Rejeter]**), puis ajoutez un commentaire et cliquez sur **[!UICONTROL Ajouter]**.
+   1. (Facultatif) Cliquez sur l’icône **liste déroulante** ![](assets/down-arrow-blue.png) en regard de votre décision d’approbation (**[!UICONTROL Approuver]**, **[!UICONTROL Modifications]**,**[!UICONTROL Rejeter]**) et ajoutez un commentaire, puis cliquez sur **[!UICONTROL Ajouter]**.
 
       Ou
 
@@ -121,9 +121,9 @@ Vous devez disposer des éléments suivants avant de commencer :
 
       >[!NOTE]
       >
-      >L’option [!UICONTROL Modifications] s’affiche uniquement pour les approbations de documents.
+      >L’option [!UICONTROL Modifications] ne s’affiche que pour les approbations de documents.
 
-      Selon l’icône déroulante que vous avez sélectionnée, l’élément est approuvé, rejeté ou, dans le cas d’une approbation de document, approuvé avec une demande de modification supplémentaire.
+      Selon l’icône de la liste déroulante que vous avez sélectionnée, l’élément est approuvé, rejeté ou, dans le cas de l’approbation d’un document, approuvé avec une demande de modifications supplémentaires.
 
       >[!TIP]
       >
@@ -134,7 +134,7 @@ Vous devez disposer des éléments suivants avant de commencer :
       >
       >Pour plus d’informations sur l’approbation du travail, consultez la section [Approuver le travail](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-1. Cliquez sur **[!UICONTROL Accorder l’accès]** pour accorder la demande d’accès qui vous a été envoyée.
+1. Cliquer sur **[!UICONTROL Accorder l’accès]** pour accorder la demande d’accès qui vous a été soumise.
 
    Ou
 
@@ -142,9 +142,9 @@ Vous devez disposer des éléments suivants avant de commencer :
 
    ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Ignorer]** pour effacer la demande d’accès de votre liste d’approbation sans l’accorder.
-1. Cliquez sur **[!UICONTROL Déléguer mes approbations]** pour déléguer les approbations qui vous ont été envoyées si vous n’êtes pas en mesure de prendre des décisions d’approbation pendant une certaine période. Pour plus d’informations sur la délégation des approbations, consultez la section [Déléguer une demande d’approbation](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
-1. Faites défiler l’écran jusqu’à la zone **[!UICONTROL Mentions]** sous vos approbations. Vous y trouverez tous les éléments qui mentionnent votre nom dans une conversation.
+1. (Facultatif) Cliquez sur **[!UICONTROL Ignorer]** pour supprimer la demande d’accès de votre liste d’approbation sans l’accorder.
+1. Cliquez sur **[!UICONTROL Déléguer mes approbations]** pour déléguer les approbations qui vous ont été soumises si vous n’êtes pas disponible pour prendre des décisions d’approbation pendant un certain temps. Pour plus d’informations sur la délégation d’approbations, voir [Déléguer une demande d’approbation](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+1. Faites défiler jusqu’à la zone **[!UICONTROL Mentions]** située sous vos approbations. Ici, vous pouvez voir tous les éléments dans lesquels vous avez été inclus dans une conversation.
 
    ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
@@ -152,13 +152,13 @@ Vous devez disposer des éléments suivants avant de commencer :
    >
    >Les 50 premières mentions s’affichent par défaut.
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Afficher d’autres mises à jour]** pour afficher d’autres mentions.
-1. (Facultatif) Cliquez sur **[!UICONTROL Répondre]** pour répondre à un commentaire, puis effectuez l’une des opérations suivantes :
+1. (Facultatif) Cliquez sur **[!UICONTROL Afficher davantage de mises à jour]** pour afficher d’autres mentions.
+1. (Facultatif) Cliquez sur **[!UICONTROL Répondre]** pour répondre à un commentaire et effectuez l’une des opérations suivantes :
    * Commencer à saisir une réponse
-   * Utilisez la barre d’outils Texte enrichi pour mettre en forme le texte, ajouter des liens, des listes, des émoticônes, des guillemets ou des images à votre message.
-   * Ajoutez des utilisateurs ou des équipes pour les avertir de votre réponse.
+   * Utilisez la barre d’outils de texte enrichi pour mettre en forme votre texte, ajouter des liens, des listes, des émoticônes, des citations ou des images à votre message.
+   * Ajoutez des utilisateurs, des utilisatrices ou des équipes pour les avertir de votre réponse.
 
-     Une fois la réponse ajoutée, cliquez de nouveau sur **[!UICONTROL Répondre]**.
+     Une fois la réponse ajoutée, cliquez sur **[!UICONTROL Répondre]** encore une fois.
 
      ![](assets/reply-in-the-my-updates-area.png)
 1. (Facultatif) Cliquez sur **[!UICONTROL Épingler la page active]** pour épingler la zone [!UICONTROL Mes mises à jour] dans votre navigation supérieure.

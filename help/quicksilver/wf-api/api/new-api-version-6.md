@@ -10,7 +10,7 @@ exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 37%
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| ID | client |   |   |   |   | Ajouter |
+| ID | customer |   |   |   |   | Ajouter |
 | customerID | projet |   |   |   |   | Nombre |
 | projectID | resourceManager |   |   |   |   | Supprimer |
-| resourceManagerID | modèle |   |   |   |   | Get |
-| templateID |   |   |   |   |   | Rapport  |
-|   |   |   |   |   |   | Rechercher  |
+| resourceManagerID | modèle |   |   |   |   | Obtenir |
+| templateID |   |   |   |   |   | Rapport |
+|   |   |   |   |   |   | Rechercher |
 
 
-### Nouvelles
+### Ews
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | fileName |   |   |   |   | charger |   |
-| handle |   |   |   |   |   |   |
+| gérer |   |   |   |   |   |   |
 | objCode |   |   |   |   |   |   |
 
 
@@ -46,14 +46,14 @@ ht-degree: 37%
 | ID |   |   |   | checkDelete | customLabels | Ajouter |
 |   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Nombre |
 |   |   |   |   | removeCustomLabel |   | Supprimer |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obtenir |
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Recherche |
 
 
 ## Objets mis à jour
 
-Modifications apportées aux objets existants : les ajouts sont simplement répertoriés, les suppressions ont été réalisées, les modifications apportées aux objets existants comportent une note jointe après le tableau.
+Modifications apportées aux objets existants : les ajouts sont simplement répertoriés, les suppressions sont barrées, les modifications apportées aux objets existants comportent une note jointe après le tableau.
 
 ### Mettre à jour
 
@@ -66,9 +66,9 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications des valeurs possibles
 
-L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
+<sup>2</sup> L’attribut hasFilters a été remplacé par true.
 
  
 
@@ -76,7 +76,7 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| completedHours |   | resourceSuperviseurs | resourceManagerIDs |   |   |   |
+| completedHours |   | resourceManagers | resourceManagerIDs |   |   |   |
 | constraintDate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
@@ -84,13 +84,13 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Date de validation ajoutée
+<sup>1</sup> Validation de date ajoutée
 
-<sup>2</sup> L’indicateur NOT_FILTERABLE a été ajouté
+<sup>2</sup> Indicateur NOT_FILTERABLE ajouté
 
  
 
-### Processus d&#39;approbation
+### Processus d’approbation
 
 |   | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|---|
@@ -100,7 +100,7 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
  
 
-### Étape de validation
+### Étape d’approbation
 
  
 
@@ -110,7 +110,7 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications apportées aux valeurs possibles
 
  
 
@@ -120,9 +120,9 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 |---|---|---|---|---|---|---|
 | approvedStatus |   |   |   |   |   | Ajouter |
 | approvedStatusLabel |   |   |   |   |   | Nombre |
-| comment |   |   |   |   |   | Supprimer |
-| entryByID |   |   |   |   |   | Modifier |
-| entryDate |   |   |   |   |   | Get |
+| commentaire |   |   |   |   |   | Supprimer |
+| enteredByID |   |   |   |   |   | Modifier |
+| entryDate |   |   |   |   |   | Obtenir |
 | globalPathID |   |   |   |   |   | Rapport |
 | isPrivate |   |   |   |   |   | Recherche |
 | lastUpdateDate |   |   |   |   |   |   |
@@ -131,13 +131,13 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Remplacé
+<sup>1</sup> Remplacé par « pouvant faire l’objet d’un rapport »
 
-<sup>2</sup> Ajout de la validation de longueur maximale
+<sup>2</sup> Ajout d’un programme de validation de longueur maximale
 
  
 
-### Objet Work Service
+### Objet Service de travail
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -146,9 +146,9 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Date de validation ajoutée
+<sup>1</sup> Validation de date ajoutée
 
-<sup>2</sup> Ajout de l’indicateur non filtrable
+<sup>2</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -164,7 +164,7 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
  
 
-### Ligne de base 
+### Référence 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -172,7 +172,7 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Ajout de l’indicateur non filtrable
+<sup>1</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -184,7 +184,7 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Ajout de l’indicateur non filtrable
+<sup>1</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -196,9 +196,9 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
 {style="table-layout:auto"}
 
-<sup>1</sup> ajout de l’indicateur de champ NO_TIME
+<sup>1</sup> Indicateur de champ NO_TIME ajouté
 
-### Événement de Burndown 
+### Événement d’avancement
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -209,7 +209,7 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
  
 
-### Catégorie 
+### Catégorie
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -220,7 +220,7 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
  
 
-Énumération personnalisée 
+Énumération personnalisée
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -232,18 +232,18 @@ L&#39;attribut <sup>2</sup> hasFilters a été remplacé par true
 
  
 
-Document 
+Document
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
+| `checkedOutByID` | `checkedOutBy`  |   | isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
  
 
-Taux d’Exchange 
+Taux de change
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -251,7 +251,7 @@ Taux d’Exchange 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modification du programme de validation PRECISION pour 8 à 9
+<sup>1</sup> Changement du programme de validation PRECISION de 8 à 9
 
  
 
@@ -273,7 +273,7 @@ Taux d’Exchange 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications apportées aux valeurs possibles
 
  
 
@@ -285,9 +285,9 @@ Taux d’Exchange 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> marqué comme RESTORABLE
+<sup>1</sup> Marqué comme RESTORABLE
 
-<sup>2</sup> Ajout de l’indicateur non filtrable
+<sup>2</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -296,7 +296,7 @@ Taux d’Exchange 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
-| isOriginalPlannedHoursSet |   | resourceSuperviseurs | resourceManagerIDs  |   |   |   |
+| isOriginalPlannedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
 | originalWorkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
 | work |   |   |   |   |   |   |
@@ -304,9 +304,9 @@ Taux d’Exchange 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> marqué comme RESTORABLE et RESOURCE_MANAGEABLE
+<sup>1</sup> Marqué comme RESTORABLE et RESOURCE_MANAGEABLE
 
-<sup>2</sup> Ajout de l’indicateur non filtrable
+<sup>2</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -319,11 +319,11 @@ Taux d’Exchange 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> marqué comme RESTORABLE
+<sup>1</sup> Marqué comme RESTORABLE
 
 <sup>2</sup> Ajout du programme de validation AT_DATE_YEAR_BEFORE
 
-<sup>3</sup> Ajout de l’indicateur non filtrable
+<sup>3</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -338,15 +338,15 @@ Taux d’Exchange 
 
  
 
-### Template<sup>1</sup> 
+### Modèle<sup>1</sup> 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   |   | resourceSuperviseurs | resourceManagerIDs |   |   |   |
+|   |   | resourceManagers | resourceManagerIDs |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> marqué comme RESTORABLE et RESOURCE_MANAGEABLE
+<sup>1</sup> Marqué comme RESTORABLE et RESOURCE_MANAGEABLE
 
 ### Tâche de modèle<sup>1</sup> 
 
@@ -356,9 +356,9 @@ Taux d’Exchange 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> marqué comme RESTORABLE
+<sup>1</sup> Marqué comme RESTORABLE
 
-<sup>2</sup> Ajout de l’indicateur non filtrable
+<sup>2</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -374,7 +374,7 @@ Taux d’Exchange 
 
  
 
-### Note de l’utilisateur
+### Note de l’utilisateur ou utilisatrice
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -384,7 +384,7 @@ Taux d’Exchange 
 
 <sup>1</sup> Valeurs possibles modifiées
 
-<sup>2</sup> avec des filtres modifiés en `[true]`
+<sup>2</sup> contient des filtres modifiés en `[true]`
 
  
 

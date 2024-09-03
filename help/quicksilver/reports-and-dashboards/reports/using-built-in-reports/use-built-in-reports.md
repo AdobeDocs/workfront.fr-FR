@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: reports
 title: Utiliser les rapports intégrés
-description: Découvrez comment utiliser les rapports natifs.
+description: Découvrez comment utiliser les rapports intégrés.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -10,7 +10,7 @@ exl-id: 478747bc-82b4-45c5-bd64-57e370c86567
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 27%
 
 Cette section contient les articles suivants :
 
-* [Icônes d’état intégrées dans les vues](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
-* [Utiliser des rapports intégrés Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
-* [Présentation du rapport d’utilisation des ressources](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* [Programme de création de rapports de base pour la nouvelle expérience Workfront](https://one.workfront.com/s/basic-report-creation-program)
+* [Icônes de statut intégré dans les vues](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
+* [Utiliser les rapports intégrés d&#39;Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [Vue d’ensemble du rapport sur l’utilisation des ressources](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
+* [Programme de création d’un rapport de base pour la nouvelle expérience Workfront](https://experienceleague.adobe.com/fr/docs/workfront-course-map/using/learning-programs/basic-report-creation-program)

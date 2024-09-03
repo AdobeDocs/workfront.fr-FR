@@ -34,30 +34,30 @@ En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez cr�
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Nouvelle : standard
+   <td>Nouveau : Standard
    <p>ou</p>
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p></td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,21 +108,21 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
       <td>Ajoutez de nouvelles entreprises et modifiez les entreprises existantes dans Workfront.<br><p>Sans cet accès, les utilisateurs et utilisatrices peuvent uniquement afficher les entreprises existantes.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Formulaires personnalisés</td> 
+      <td role="rowheader">Formulaires personnalisés dans mon groupe</td> 
       <td>Créez et gérez tous les formulaires personnalisés de leur groupe. <br><p>Sans cet accès, les personnes peuvent uniquement joindre des formulaires existants aux objets auxquels elles disposent d’un accès en contribution ou en gestion.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Taux de change</td> 
-      <td> Ajoutez une nouvelle devise dans Workfront. <p>Sans cet accès, l’utilisateur et utilisatrice peuvent uniquement ajouter une devise existante à un projet qu’ils créent.</p> </td> 
+      <td> Ajouter une nouvelle devise dans Workfront <p>Sans cet accès, l’utilisateur et utilisatrice peuvent ajouter une devise existante uniquement à un projet qu’ils créent.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Frais</td> 
-      <td>Affichez toutes les dépenses sur les objets dans Workfront.<p>Sans cet accès, l’utilisateur et l’utilisatrice ne peuvent afficher que les éléments suivants :</p>
+      <td>Afficher toutes les dépenses sur les objets dans Workfront.<p>Sans cet accès, l’utilisateur et l’utilisatrice ne peuvent afficher que les éléments suivants :</p>
        <ul>
         <li>Dépenses sur les projets, tâches ou problèmes qu’ils gèrent.</li>
         <li>Leurs propres dépenses.</li>
         <li>Les dépenses de leurs subordonnés.</li>
-       </ul><p><b>Note</b> : cela ne permet pas à l’utilisateur ou utilisatrice de créer de nouveaux types de dépenses.</p></td> 
+       </ul><p><b>NOTE</b> : cela ne permet pas à l’utilisateur ou utilisatrice de créer de nouveaux types de dépenses.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fonctions</td> 
@@ -132,12 +132,12 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
         <li>Ajouter des fonctions</li> 
         <li>Modifier les taux de facturation et de coûts du rôle</li> 
        </ul> 
-       <p>Pour obtenir des informations importantes sur l’accès aux données financières disponibles pour un utilisateur ou une utilisatrice standard ou planificateur et planificatrice disposant d’un accès administratif aux fonctions, voir <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Utilisateurs et utilisatrices standard ou planificateurs et planificatrices ayant un accès administratif aux fonctions</a>.</p>
+       <p>Pour obtenir des informations importantes sur l’accès aux données financières disponibles pour un utilisateur ou une utilisatrice standard ou de type planificateur disposant d’un accès administratif aux fonctions, voir <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Utilisateurs et utilisatrices standard ou de type planificateur disposant d’un accès administratif aux fonctions</a>.</p>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Jalons dans mon groupe</td> 
-      <td>Affichez tous les chemins de jalons du système sous le menu Chemins de jalons dans Configuration. Les utilisateurs et utilisatrices peuvent également modifier ou supprimer les chemins de jalons appartenant à leurs groupes. Les utilisateurs et utilisatrices ne peuvent pas gérer (modifier ou supprimer) les chemins de jalons qui ne sont affectés à aucun de leurs groupes.<p>Sans cet accès, les utilisateurs et utilisatrices peuvent uniquement afficher les chemins de jalons existants et les appliquer aux projets pour lesquels ils ont un accès en gestion.</p></td> 
+      <td>Affichez tous les chemins de jalons du système sous le menu Chemins de jalons dans Configuration. Les utilisateurs et utilisatrices peuvent également modifier ou supprimer les chemins de jalons appartenant à leurs groupes. Les utilisateurs et utilisatrices ne peuvent pas gérer (modifier ou supprimer) les chemins jalonnés qui ne sont affectés à aucun de leurs groupes.<p>Sans cet accès, les utilisateurs et utilisatrices peuvent uniquement afficher les chemins de jalons existants et les appliquer aux projets pour lesquels ils ont un accès en gestion.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Notifications de rappel</td> 
@@ -147,10 +147,10 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
       <td role="rowheader">Feuilles de temps et heures</td> 
       <td> Les administrateurs et administratrices de groupes peuvent affecter des profils de feuille de temps aux utilisateurs et utilisatrices dans les groupes et sous-groupes qu’ils gèrent. <p>Si cette option n’est pas activée, les administrateurs et administratrices de groupes ne peuvent pas affecter de profils de feuille de temps à d’autres utilisateurs et utilisatrices dans les groupes et sous-groupes qu’ils gèrent, bien qu’ils puissent les créer.</p> <p>Tous les autres utilisateurs et utilisatrices disposant d’une licence Standard ou Plan peuvent afficher toutes les heures et les feuilles de temps dans Workfront.</p> <p>Si cette option n’est pas activée, les utilisateurs et utilisatrices peuvent afficher les heures uniquement sur :</p> 
        <ul> 
-        <li>Les projets, tâches ou problèmes qu’ils gèrent</li> 
-        <li>Leur propre feuille de temps</li> 
-        <li>Une feuille de temps d’une personne qui leur est subordonnée</li> 
-        <li>Une feuille de temps qu’ils approuvent</li> 
+        <li>Les projets, tâches ou problèmes qu’ils gèrent.</li> 
+        <li>Leur propre feuille de temps.</li> 
+        <li>La feuille de temps d’une personne qui leur est subordonnée.</li> 
+        <li>Une feuille de temps qu’ils approuvent.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -160,23 +160,23 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
    >[!IMPORTANT]
    >
-   >Pour les utilisateurs et utilisatrices externes tels que les fournisseurs (toute personne ne faisant pas partie de votre organisation), nous vous recommandons de restreindre l’accès aux tâches, projets, mises à jour, annonces, autres sociétés, équipes et groupes.
+   >Pour les utilisateurs et utilisatrices externes tels que les fournisseurs (toute personne ne faisant pas partie de votre organisation), nous vous recommandons de restreindre l’accès aux tâches, projets, mises à jour, annonces, autres entreprises, équipes et groupes.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Ne jamais donner accès au projet complet en cas d’affectation à une tâche ou un événement</td> 
-      <td> Permet d’empêcher les utilisateurs et utilisatrices affectés à des tâches ou des problèmes d’obtenir des autorisations pour le projet parent, même si les autorisations du projet le permettent.<p>Pour plus d’informations sur la configuration des autorisations sur un projet, voir la section <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> dans l’article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifier des projets</a>.</p></td> 
+      <td role="rowheader">Ne jamais donner accès au projet complet en cas d'affectation à une tâche ou un événement</td> 
+      <td> Permet d’empêcher les utilisateurs et utilisatrices affectés à des tâches ou des problèmes d’obtenir également des autorisations pour le projet parent, même si les autorisations du projet le permettent.<p>Pour plus d’informations sur la configuration des autorisations sur un projet, voir la section <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> dans l’article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifier des projets</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Ne jamais hériter l’accès aux documents depuis des projets, des tâches, des événements, etc...</td> 
+      <td role="rowheader">Ne jamais hériter l'accès aux documents depuis des projets, des tâches, des événements, etc...</td> 
       <td>Empêche les documents d’hériter des autorisations définies sur leur objet parent.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Afficher uniquement les mises à jour dans lesquelles ils ont été inclus dans la conversation</td> 
-      <td> Permet aux utilisateurs et utilisatrices de n’afficher que les commentaires pour lesquels leur nom ou le nom de leur équipe a été inclus. <p> <p><b>NOTE</b> : cela empêche les utilisateurs et utilisatrices de s’abonner aux éléments dans Workfront. Pour plus d’informations sur l’abonnement aux éléments, voir <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">S’abonner aux éléments dans Adobe Workfront</a>.</p> </p> </td> 
+      <td> Permet aux utilisateurs et utilisatrices de n’afficher que les commentaires pour lesquels leur nom ou le nom de leur équipe a été inclus. <p> <p><b>NOTE</b> : cela empêche les utilisateurs et utilisatrices de s’abonner aux éléments dans Workfront. Pour plus d’informations sur l’abonnement aux éléments, voir <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">S’abonner aux éléments dans Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ne jamais autoriser les utilisateurs à supprimer les commentaires </td> 
@@ -184,40 +184,40 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
      </tr> 
      <tr> 
       <td role="rowheader">Afficher uniquement les entreprises, les groupes et les équipes auxquels ils appartiennent</td> 
-      <td>Permet aux utilisateurs et utilisatrices d’afficher et de partager des éléments uniquement avec les entreprises, les groupes et les équipes auxquels ils appartiennent.<p><strong>REMARQUE</strong> : les utilisateurs et les utilisatrices disposant de licences Demandeur ou demandeuse ne peuvent pas voir les entreprises auxquelles ils n’appartiennent pas, même si cette option est sélectionnée.</td> 
+      <td>Permet aux utilisateurs et utilisatrices d’afficher et de partager des éléments uniquement avec les entreprises, les groupes et les équipes auxquels ils appartiennent.<p><strong>NOTE</strong> : les utilisateurs et utilisatrices disposant de licences Demandeur ne peuvent pas afficher les sociétés auxquelles ils n’appartiennent pas, même si cette option est sélectionnée.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ne jamais autoriser que les heures prévues ou les heures réelles soient visibles</td> 
-      <td>Empêche les utilisateurs et les utilisatrices de voir les heures prévues et les heures effectives des éléments de travail auxquelles ils ont accès. Ils peuvent, toutefois, voir les heures effectives qu’ils consignent eux-mêmes ou les heures consignées par une personne subordonnée.</td> 
+      <td>Empêche les personnes de voir les heures prévues et les heures effectives auxquelles elles ont accès. Elles peuvent, toutefois, voir les heures effectives qu’elles consignent elles-mêmes ou les heures consignées par une personne subordonnée.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ne jamais autoriser les utilisateurs à supprimer les annonces</td> 
-      <td>Empêche les utilisateurs et les utilisatrices de supprimer des annonces dans le Centre des annonces. Pour plus d’informations, consultez <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Envoyer des annonces</a>.</td> 
+      <td>Empêche les personnes de supprimer des annonces dans le Centre des annonces. Pour plus d’informations, voir <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Envoyer des annonces</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Le cas échéant et facultatif) Si votre système Workfront est configuré pour des utilisateurs et des utilisatrices appartenant à plusieurs entreprises, limitez la visibilité aux autres utilisateurs et aux autres utilisatrices en fonction de l’entreprise à laquelle ils appartiennent dans la section **Les personnes d’autres entreprises ne devraient pouvoir visualiser que les utilisateurs et utilisatrices de**.
+1. (Le cas échéant et facultatif) Si votre système Workfront est configuré pour les personnes appartenant à plusieurs entreprises, limitez la visibilité aux autres personnes en fonction de l’entreprise à laquelle elles appartiennent dans la section **Les personnes d’autres entreprises ne devraient pouvoir visualiser que les utilisateurs et utilisatrices de**.
 
-   Vous pouvez ajouter une restriction aux utilisateurs et aux utilisatrices afin qu’ils ne voient que les utilisateurs et les utilisatrices de leur propre entreprise ou de l’entreprise que vous avez désignée comme entreprise principale. L’entreprise principale représente généralement votre compte Workfront où la plupart de vos utilisateurs et utilisatrices travaillent. Pour plus d’informations sur l’entreprise principale, consultez [Créer et modifier des entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Vous pouvez empêcher les personness d’afficher uniquement les utilisateurs et utilisatrices de leur propre entreprise ou de l’entreprise que vous avez désignée comme entreprise principale. L’entreprise principale représente généralement votre compte Workfront où travaillent la plupart de vos utilisateurs et utilisatrices. Pour plus d’informations sur l’entreprise principale, voir [Créer et modifier des entreprises](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >
-   >Si deux utilisateurs ou utilisatrices appartiennent à deux entreprises différentes, mais qu’ils peuvent tous deux voir les utilisateurs et utilisatrices de l’entreprise principale, ils peuvent voir la zone Mises à jour associée à l’entreprise principale.
+   >Si deux personnes appartiennent à deux entreprises différentes, mais qu’elles peuvent toutes deux voir les utilisateurs et utilisatrices de l’entreprise principale, elles peuvent voir la zone Mises à jour associée à l’entreprise principale.
 
-1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et zones dans le niveau d’accès sur lequel vous travaillez, continuez vers l’un des articles répertoriés dans [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), tels que [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et zones du niveau d’accès sur lequel vous travaillez, continuez avec l’un des articles répertoriés dans la section [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), par exemple [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Cliquer sur **Enregistrer**.
 
-   Une fois le niveau d’accès créé, vous pouvez l’affecter à un utilisateur ou une utilisatrice (sauf s’il s’agit du niveau d’accès Administrateur ou administratrice système).
+   Une fois le niveau d’accès créé, vous pouvez l’affecter à une personne (sauf s’il s’agit d’un niveau d’accès administrateur ou administratrice système).
 
-   Pour plus d’informations, consultez [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Pour plus d’informations, voir [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Pour plus d’informations sur la manière dont un administrateur ou une administratrice Adobe affecte un niveau d’accès Administrateur ou administratrice système à un utilisateur ou à une utilisatrice, consultez [Accorder un accès d’administration complet à un utilisateur ou à une utilisatrice](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Pour plus d’informations sur la manière dont un administrateur ou une administratrice d’Adobe affecte un niveau d’accès administrateur ou administratrice système à une personne, voir [Accorder un accès administratif intégral à une personne](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Utilisateurs et utilisatrices standard ou planificateurs et planificatrices ayant un accès d’administration aux fonctions {#planner-users}
+## Utilisateurs et utilisatrices standard ou planificateurs et planificatrices ayant un accès administratif aux fonctions {#planner-users}
 
-Si vous accordez à un utilisateur ou à une utilisatrice standard ou à un planificateur ou à une planificatrice l’accès d’administration aux fonctions, le paramètre Modifier les taux de facturation et de coûts de la fonction est automatiquement activé pour cette personne.
+Si vous accordez à une personne disposant d’une licence Standard ou Planification l’accès administratif aux fonctions, le paramètre Modifier la facturation et les taux de coût du rôle est automatiquement activé pour cette personne.
 
-Par la suite, si vous désactivez l’accès d’administration aux fonctions pour l’utilisateur ou l’utilisatrice, celles-ci restent visibles pour cette personne, car le paramètre Modifier les taux de facturation et de coûts de la fonction est toujours activé.
+Par la suite, si vous désactivez l’accès administratif aux fonctions pour la personne, les fonctions sont toujours visibles par elle, car le paramètre Modifier la facturation et le taux de coût du rôle est toujours activé.
 
-Si cela se produit et que vous devez supprimer l’accès de l’utilisateur ou de l’utilisatrice permettant d’afficher les fonctions, désactivez le paramètre d’autorisation Modifier les taux de facturation et de coûts de la fonction pour cette personne. Pour obtenir des instructions, consultez [Accorder l’accès aux données financières](grant-access-financial.md).
+Si cela se produit et que vous devez supprimer l’accès de l’utilisateur ou de l’utilisatrice à l’affichage des fonctions, désactivez le paramètre d’autorisation Modifier la facturation et les taux de dépense du rôle pour cette personne. Pour obtenir des instructions, voir [Accorder l’accès aux données financières](grant-access-financial.md).

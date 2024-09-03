@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Création d’une Fiche d’évaluation
-description: Une carte de performance permet de mesurer l’adéquation d’un projet avec les critères précédemment établis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation. Les personnes gestionnaires de portfolios définissent généralement les questions et les réponses de la carte de performance afin de s’assurer qu’elles sont significatives et utiles lors de la hiérarchisation et de la sélection des projets. Un administrateur ou une administratrice  [!DNL Adobe Workfront]  élabore les cartes de performance sur la base des recommandations des personnes gestionnaires de portfolios.
+description: Une carte de performance permet de mesurer l’adéquation d’un projet avec les critères précédemment établis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation. Les gestionnaires de portfolios définissent généralement les questions et les réponses de la carte de performance afin de s’assurer qu’elles sont significatives et utiles lors de la hiérarchisation et de la sélection des projets. Un administrateur ou une administratrice  [!DNL Adobe Workfront]  élabore les cartes de performance sur la base des recommandations des gestionnaires de portfolios.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 Une carte de performance permet de mesurer l’adéquation d’un projet avec les critères précédemment établis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation.
 
-Les personnes gestionnaires de portfolios définissent généralement les questions et les réponses de la carte de performance afin de s’assurer qu’elles sont significatives et utiles lors de la hiérarchisation et de la sélection des projets. Un administrateur ou une administratrice [!DNL Adobe Workfront] élabore les cartes de performance sur la base des recommandations des personnes gestionnaires de portfolios.
+Les gestionnaires de portfolios définissent généralement les questions et les réponses de la carte de performance afin de s’assurer qu’elles sont significatives et utiles lors de la hiérarchisation et de la sélection des projets. Un administrateur ou une administratrice [!DNL Adobe Workfront] élabore les cartes de performance sur la base des recommandations des gestionnaires de portfolios.
 
 Les questions et les réponses choisies pour une carte de performance doivent être quantifiables afin de fournir une valeur d’alignement pour comparer différents projets.
 
@@ -38,7 +38,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
    <td> <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p> 
    Ou
    <p>Nouveau : [!UICONTROL Prime] ou supérieur</p>
@@ -86,7 +86,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Display Type]</td> 
-      <td>Sélectionnez <strong>[!UICONTROL Value(0-100)]</strong> si vous souhaitez afficher un champ numérique dans la carte de performance où les utilisateurs et utilisatrices peuvent spécifier une valeur comprise entre 0 et 100.<p>Vous pouvez également sélectionner <strong>[!UICONTROL Drop Down]</strong> ou <strong>[!UICONTROL Radio Buttons]</strong> pour créer une réponse que les utilisateurs et utilisatrices peuvent spécifier à l’aide de ce contrôle. Cliquez sur <strong>[!UICONTROL Add Answer]</strong>, puis saisissez la <strong>[!UICONTROL Value]</strong> en points de pourcentage pour cette réponse, au cas où elle serait satisfaite. Si vous choisissez 100 %, le nombre de points attribués à cette question est entièrement atteint. Si vous souhaitez indiquer que cette réponse ne représente qu’une partie du total des points attribués à cette question, sélectionnez un pourcentage inférieur. Par exemple, si votre question est évaluée à 10 points et que vous souhaitez que cette réponse rapporte 5 de ces points, choisissez 50 % pour votre valeur.</p>
+      <td>Sélectionnez <strong>[!UICONTROL Value(0-100)]</strong> si vous souhaitez afficher un champ numérique dans la carte de performance où les utilisateurs et utilisatrices peuvent spécifier une valeur comprise entre 0 et 100.<p>Vous pouvez également sélectionner <strong>[!UICONTROL Drop Down]</strong> ou <strong>[!UICONTROL Radio Buttons]</strong> pour créer une réponse que les utilisateurs et utilisatrices peuvent spécifier à l’aide de ce contrôle. Cliquez sur <strong>[!UICONTROL Add Answer]</strong>, puis saisissez la <strong>[!UICONTROL Value]</strong> en points de pourcentage pour cette réponse, au cas où elle serait satisfaite. Si vous choisissez 100 %, le nombre de points attribués à cette question est entièrement atteint. Si vous souhaitez indiquer que cette réponse ne représente qu’une partie du total des points attribués à cette question, sélectionnez un pourcentage inférieur. Par exemple, si votre question est évaluée à 10 points et que vous souhaitez que cette réponse rapporte 5 de ces points, choisissez 50 % pour votre valeur.</p>
       <p>Sélectionnez <strong>[!UICONTROL Default]</strong> si vous souhaitez indiquer que cette réponse est celle par défaut.</strong></p>
      </tr> 
     </tbody> 
@@ -100,7 +100,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé de saisir toutes les informations.
 
-   La carte de performance est ainsi créée et les personnes responsables de projet peuvent désormais l’annexer au business case de leur projet.
+   La carte de performance est ainsi créée et les responsables de projet peuvent désormais l’annexer au business case de leur projet.
 
 ## Appliquer une carte de performance à un projet
 

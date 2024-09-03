@@ -3,50 +3,50 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
-title: E-mail d’épreuve tardif
-description: L'email Bon à tirer est envoyé aux destinataires lorsqu'un BAT se rapproche de la date limite d'envoi ou atteint la date limite d'envoi. Ces types d’emails ne peuvent pas être désactivés au niveau du BAT, mais peuvent être configurés au niveau du compte et des paramètres personnels de l’utilisateur.
+title: E-mail d’épreuve en retard
+description: L’e-mail d’épreuve en retard est envoyé aux personnes destinataires lorsqu’une épreuve est proche de la date d’échéance ou si elle atteint la date d’échéance. Ces types d’e-mails ne peuvent pas être désactivés au niveau de l’épreuve, mais peuvent être configurés au niveau du compte et des paramètres personnels de l’utilisateur ou de l’utilisatrice.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23eb75a7-d7b7-4043-afba-cf45c86ab1ae
 source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# [!UICONTROL  Email de retard ]
+# E-mail d’[!UICONTROL épreuve en retard]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-L&#39;email [!UICONTROL BAT tardif] est envoyé aux destinataires lorsqu&#39;un BAT se rapproche de l&#39;échéance ou atteint l&#39;échéance. Ces types d’emails ne peuvent pas être désactivés au niveau du BAT, mais peuvent être configurés au niveau du compte et des paramètres personnels de l’utilisateur.
+L’e-mail d’[!UICONTROL épreuve en retard] est envoyé aux personnes destinataires lorsqu’une épreuve est proche de la date d’échéance ou si elle atteint la date d’échéance. Ces types d’e-mails ne peuvent pas être désactivés au niveau de l’épreuve, mais peuvent être configurés au niveau du compte et des paramètres personnels de l’utilisateur ou de l’utilisatrice.
 
-* [!UICONTROL Les emails de retard de BAT] sont automatiquement envoyés aux réviseurs lorsqu’un BAT atteint son délai d’expiration et que toutes les révisions ou décisions n’ont pas été prises.
+* Les e-mails d’[!UICONTROL épreuve en retard] sont automatiquement envoyés aux réviseurs et réviseuses lorsqu’une épreuve atteint sa date d’échéance et qu’il reste des révisions à effectuer ou des décisions à prendre.
 
-  Ces emails sont activés par défaut et ne peuvent pas être ajustés pour l’ensemble des comptes, mais les utilisateurs peuvent les désactiver dans leurs paramètres de Bon à tirer par défaut.
+  Ces e-mails sont activés par défaut et ne peuvent pas être paramétrés pour l’ensemble des comptes, mais les utilisateurs et utilisatrices peuvent les désactiver dans leurs paramètres de relecture par défaut.
 
-* Les emails à risque sont envoyés aux opérateurs validants lorsqu&#39;un BAT est proche de la date limite d&#39;envoi. Ils sont désactivés par défaut et peuvent être activés dans les [!UICONTROL Paramètres du compte]. Une fois activés, ils peuvent également être ajustés dans les [!UICONTROL valeurs par défaut du correctif].
+* Les e-mails À risque sont envoyés aux réviseurs et réviseuses lorsqu’une épreuve est proche de sa date d’échéance. Ceux-ci sont désactivés par défaut et peuvent être activés dans les [!UICONTROL Paramètres du compte]. Une fois activés, ils peuvent également être configurés dans les [!UICONTROL Paramètres par défaut de relecture].
 
 Ces notifications ne peuvent pas être personnalisées.
 
-Les personnes qui seront averties sont les suivantes :
+Les personnes qui recevront des notifications sont les suivantes :
 
-* Le propriétaire, uniquement lorsque l’alerte [!UICONTROL Email] lorsque les bons à tirer sont en retard, est activé dans les [!UICONTROL  valeurs par défaut de vérification du propriétaire].
-* Tout approbateur qui n’a pas encore pris sa décision sur le BAT. Pour plus d’informations sur les décisions, voir [Prise d’une décision sur un BAT dans la visionneuse de correctifs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
+* La personne propriétaire, uniquement si l’alerte par [!UICONTROL e-mail] lorsque les épreuves sont en retard est activée dans les [!UICONTROL Paramètres par défaut de relecture de la personne propriétaire].
+* Tout approbateur ou toute approbatrice qui n’a pas encore pris sa décision sur l’épreuve. Pour plus d’informations sur les décisions, consultez [Prendre une décision sur une épreuve dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
 >
->Si les notifications par e-mail sont désactivées par défaut dans les [!UICONTROL Paramètres du compte], aucun [!UICONTROL  e-mail de retard de BAT] ne sera envoyé même si les réviseurs et les approbateurs n&#39;ont pas encore soumis leurs commentaires et décisions. Vous pouvez également désactiver les [!UICONTROL BAT tardif] dans les valeurs par défaut de la vérification.
+>Si les notifications par e-mail sont désactivées par défaut dans les [!UICONTROL Paramètres du compte], aucun e-mail d’[!UICONTROL épreuve en retard] ne sera envoyé, même si les réviseurs et réviseuses et les approbateurs et approbatrices n’ont pas encore envoyé leurs commentaires et leurs décisions. Vous pouvez également désactiver les e-mails d’[!UICONTROL épreuve en retard] dans les paramètres par défaut de relecture.
 
-Tenez compte des points suivants concernant les notifications de BAT :
+Tenez compte des points suivants concernant les notifications relatives aux épreuves :
 
-* Votre administrateur [!DNL Workfront] ou [!DNL Workfront Proof] peut inclure le logo de votre entreprise dans vos notifications par e-mail, comme expliqué dans la section [Marque du  [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
-* Si vous devez partager plusieurs BAT avec les mêmes réviseurs et que vous ne souhaitez pas qu’ils reçoivent plusieurs emails, vous pouvez les télécharger simultanément. Tous les validants reçoivent un email détaillant tous les BAT et une URL personnelle pour chaque BAT.
+* Votre administrateur ou administratrice [!DNL Workfront] ou votre administrateur ou administratrice [!DNL Workfront Proof] peut inclure le logo de votre organisation dans vos notifications par e-mail, comme expliqué dans [Représenter une marque dans le site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+* Si vous devez partager plusieurs épreuves avec les mêmes réviseurs et réviseuses et que vous ne souhaitez pas qu’ils reçoivent plusieurs e-mails, vous pouvez charger celles-ci simultanément. Tous les réviseurs et réviseuses reçoivent un e-mail détaillant toutes les épreuves et une URL personnelle pour chaque épreuve.
 
   >[!NOTE]
   >
-  >Le créateur des BAT reçoit un email [!UICONTROL BAT fait] distinct pour chacun des BAT créés. Pour plus d’informations, voir le [courrier électronique [!UICONTROL BAT fait]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
+  >La personne créatrice des épreuves reçoit un e-mail d’[!UICONTROL épreuve créée] pour chacune des épreuves créées. Pour plus d’informations, consultez [l’e-mail d’[!UICONTROL épreuve créée]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
 
-* Si vous ou vos réviseurs ne recevez pas de notification par e-mail attendue, consultez la section [Configuration [!DNL Workfront Proof] des emails pour éviter les filtres de spam](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).
+* Si vous ou vos réviseurs et réviseuses ne recevez pas une notification par e-mail prévue, consultez [Configurer les e-mails  [!DNL Workfront Proof]  afin d’éviter les filtres anti-spam](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
 title: Présentation des chefs d’entreprise
-description: Dans un groupe, le chef d’entreprise est la personne qui prend les décisions pour le groupe concernant les objectifs, les stratégies, le budget, l’embauche, etc. Par exemple, dans une organisation qui dispose d’un directeur du marketing, cette personne sera probablement le chef d’entreprise du marketing.
+description: Dans un groupe, la personne responsable commerciale est celle qui prend les décisions pour le groupe concernant les objectifs, les stratégies, le budget, l’embauche, etc. Par exemple, dans une organisation qui dispose d’un directeur ou d’une directrice du marketing, cette personne sera probablement la personne responsable commerciale pour le marketing.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -11,21 +11,21 @@ exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
 source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 7%
+ht-degree: 99%
 
 ---
 
-# Vue d’ensemble de la personne responsable commerciale
+# Vue d’ensemble de la personne chef d’entreprise
 
-Dans un groupe, le chef d’entreprise est la personne qui prend les décisions pour le groupe concernant les objectifs, les stratégies, le budget, l’embauche, etc. Par exemple, dans une organisation qui dispose d’un directeur du marketing, cette personne sera probablement le chef d’entreprise du marketing.
+Dans un groupe, la personne responsable commerciale est celle qui prend les décisions pour le groupe concernant les objectifs, les stratégies, le budget, l’embauche, etc. Par exemple, dans une organisation qui dispose d’un directeur ou d’une directrice du marketing, cette personne sera probablement la personne responsable commerciale pour le marketing.
 
-En tant qu’administrateur de groupe, vous pouvez affecter un utilisateur en tant que chef d’entreprise à un groupe ou à un sous-groupe que vous administrez. S’il existe des groupes au-dessus du groupe que vous gérez, leur équipe d’administration peut également le faire pour votre groupe. Il en va de même pour les administrateurs de Workfront (pour n’importe quel groupe). Pour obtenir des instructions, voir [Création d’un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+En tant qu’administrateur ou administratrice de groupes, vous pouvez affecter une personne en tant que responsable commerciale à un groupe ou à un sous-groupe que vous administrez. S’il existe des groupes au-dessus du groupe que vous gérez, leurs administrateurs et administratrices peuvent également le faire pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe). Pour obtenir des instructions, voir [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-Si vous avez besoin d’informations générales sur les groupes, consultez la [présentation des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Si vous avez besoin d’informations générales sur les groupes, voir [Vue d’ensemble des groupes](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 >[!NOTE]
 >
->Contrairement à l’administrateur de groupe d’un groupe, le chef d’entreprise n’a pas la possibilité d’afficher ou de modifier des configurations ou des appartenances pour le groupe.
+>Contrairement à l’administrateur ou l’administratrice de groupes, la personne responsable commerciale n’a pas la possibilité d’afficher ou de modifier des configurations ou des appartenances pour le groupe.
 
 <!--
 >DRAFTED IN FLARE:
@@ -33,16 +33,16 @@ Si vous avez besoin d’informations générales sur les groupes, consultez la [
 >
 -->
 
-## Utilisation du champ Responsable métier dans les rapports
+## Utiliser le champ Personne responsable commerciale dans les rapports
 
-Un utilisateur créant un rapport pour un groupe peut inclure le champ Responsable de l’entreprise dans un filtre, une vue ou un regroupement.
+Une personne créant un rapport pour un groupe peut inclure le champ Personne responsable commerciale dans un filtre, une vue ou un regroupement.
 
 Par exemple :
 
-* Filtrez par chef d’entreprise pour répertorier les groupes auxquels cette personne est affectée en tant que chef d’entreprise.
-* Ajoutez un champ Responsable de service à une Vue pour répertorier les noms de tous les chefs de service affectés aux groupes dans une liste. Vous pouvez cliquer sur un nom pour accéder au profil utilisateur de ce chef d’entreprise ou modifier ce nom.
-* Groupe par un champ Responsable d’entreprise pour répertorier les groupes en fonction de leurs chefs d’entreprise.
+* Filtrez par personne responsable commerciale pour répertorier les groupes auxquels cette personne est affectée en tant que responsable commerciale.
+* Ajoutez un champ Personne responsable commerciale à une Vue pour répertorier les noms de toutes les personnes responsables commerciales affectées aux groupes dans une liste. Vous pouvez cliquer sur un nom pour accéder au profil utilisateur ou utilisatrice de cette personne responsable commerciale ou modifier ce nom.
+* Utilisez un champ Personne responsable commerciale pour répertorier les groupes en fonction de leur personne responsable commerciale.
 
-En outre, le champ Business Leader est inclus dans la vue par défaut dans la colonne de liste des rapports.
+En outre, le champ Personne responsable commerciale est inclus dans la vue par défaut dans la colonne de liste des rapports.
 
-Pour plus d’informations, voir [Éléments de reporting : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Pour plus d’informations, voir [Éléments de reporting : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).

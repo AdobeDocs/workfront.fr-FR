@@ -41,7 +41,7 @@ Vous devez accorder aux utilisateurs des autorisations distinctes pour les vues,
 | Clair ou contributeur | <p>Les utilisateurs peuvent afficher les espaces de travail partagés avec eux, ainsi que les types d’enregistrement, les enregistrements et les champs de ces espaces de travail.</p> <br> <p>Les utilisateurs peuvent afficher les vues partagées avec eux, mais ils ne peuvent pas créer les leurs. </p><br> <p>Les utilisateurs ne peuvent pas créer, modifier ou supprimer des espaces de travail, des types d’enregistrement, des enregistrements ou des champs.</p> |
 
 *Workfront Planning n’est pas disponible pour les licences Workfront héritées.
-Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 <!--OLD 
@@ -62,7 +62,7 @@ Les administrateurs système peuvent afficher tous les espaces de travail du sys
 
 >[!INFO]
 >
->**EXEMPLE :**
+>**EXEMPLE**
 >
 >Les contributeurs ou les utilisateurs de licence légère ne peuvent pas contribuer aux espaces de travail et à leurs objets ni les gérer.
 >
@@ -77,7 +77,7 @@ Seuls les utilisateurs disposant d’une licence Standard peuvent disposer des a
 
 >[!INFO]
 >
->**EXEMPLE :**
+>**EXEMPLE**
 >
 >Les contributeurs ou les utilisateurs de licence légère ne peuvent pas gérer les vues. Ils peuvent appliquer des filtres, des classements ou des regroupements temporaires aux vues auxquelles ils ont accès.
 >

@@ -3,14 +3,14 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Activer les notifications d’Objectifs Adobe Workfront
-description: Les objectifs d’Adobe Workfront sont accompagnés d’un ensemble de notifications d’événement prédéfinies que vous pouvez activer pour votre compte. Ces notifications d’événement déclenchent une communication par e-mail chaque fois que la condition définie par l’événement est remplie.
+description: Objectifs Adobe Workfront est accompagné d’un ensemble de notifications d’événement prédéfini que vous pouvez activer pour votre compte. Ces notifications d’événement déclenchent une communication par e-mail chaque fois que la condition définie par l’événement est remplie.
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
 source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 33%
+ht-degree: 95%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 33%
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
 > 
->Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Les objectifs d’Adobe Workfront sont accompagnés d’un ensemble de notifications d’événement que vous pouvez activer pour votre compte. Ces notifications d’événement déclenchent une communication par e-mail chaque fois que la condition définie par l’événement est remplie.
+Objectifs Adobe Workfront est accompagné d’un ensemble de notifications d’événement que vous pouvez activer pour votre compte. Ces notifications d’événement déclenchent une communication par e-mail chaque fois que la condition définie par l’événement est remplie.
 
-Pour plus d’informations sur les notifications que vous pouvez activer pour les objectifs Workfront, voir [Notifications : objectifs](../../workfront-basics/using-notifications/notifications-goals.md).
+Pour plus d’informations sur les notifications que vous pouvez activer pour Objectifs Workfront, voir [Notifications : Objectifs](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Pour plus d’informations sur la gestion des notifications dans Adobe Workfront, voir [Modification de vos propres notifications électroniques](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations sur la gestion des notifications dans Adobe Workfront, voir [Modifier vos propres notifications par e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -136,8 +136,8 @@ A personal goal is a goal where you are designated as the owner.
 </div>
 -->
 
-## Exemple de notification électronique pour Workfront Goals
+## Exemple de notification par e-mail pour Objectifs Workfront
 
-Lorsque l’événement défini par la notification que vous avez activée se produit, vous recevez un courrier électronique décrivant l’événement. Voici un exemple de courrier électronique vous informant que vous êtes désigné propriétaire d’un nouvel objectif :
+Lorsque l’événement défini par la notification que vous avez activée se produit, vous recevez un e-mail décrivant l’événement. Voici un exemple d’e-mail vous informant qu’un nouvel objectif vous a été affecté en tant que personne propriétaire :
 
 ![](assets/wf-align-notification-email-350x164.png)

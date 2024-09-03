@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Améliorations de la gestion des ressources (version 2019.2)
-description: Cette page décrit toutes les améliorations de la gestion des ressources incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
+title: 2019.2 Améliorations de la gestion des ressources
+description: Cette page décrit toutes les améliorations de la gestion des ressources incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,61 +10,61 @@ exl-id: b9c1a628-030b-437e-b609-5ab3e608fa31
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Améliorations de la gestion des ressources (version 2019.2)
+# 2019.2 Améliorations de la gestion des ressources
 
-Cette page décrit toutes les améliorations de la gestion des ressources incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
+Cette page décrit toutes les améliorations de la gestion des ressources incluses dans la version 2019.2. Cette fonctionnalité devrait être disponible dans l’environnement de production au cours de la semaine du 20 mai 2019.
 
-Pour obtenir la liste de toutes les modifications apportées à la version 2019.2, consultez la [présentation de l’activité de version 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Pour consulter la liste de toutes les modifications apportées à la version 2019.2, voir [Vue d’ensemble de l’activité de version 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
-## Afficher la priorité des Portfolios dans le planificateur de ressources
+## Afficher la priorité du portfolio dans le planificateur de ressources
 
-Vous pouvez maintenant activer un paramètre dans le planificateur de ressources qui vous permet d’afficher la priorité du projet en fonction du portefeuille auquel il est affecté. La priorité du portefeuille s’affiche en regard de la priorité du planificateur de ressources du projet.
+Vous pouvez désormais activer un paramètre dans le planificateur de ressources qui vous permet d’afficher la priorité du projet en fonction du portfolio auquel il est affecté. La priorité du portfolio s’affiche en regard de la priorité du planificateur de ressources du projet.
 
-Avant cette amélioration, vous ne pouviez pas afficher la priorité de portefeuille d’un projet dans le planificateur de ressources.
+Avant cette amélioration, vous ne pouviez pas afficher la priorité du portfolio d’un projet dans le planificateur de ressources.
 
-Pour plus d’informations sur l’activation de ce paramètre, voir la section [Paramètres](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) de la section [Présentation des zones du planificateur de ressources](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Pour plus d’informations sur l’activation de ce paramètre, voir la section [Paramètres](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) de la documentation [Comprendre les zones du planificateur de ressources](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-## Partage de filtres dans le planificateur de ressources
+## Partager des filtres dans le planificateur de ressources
 
-Vous pouvez désormais partager des filtres que vous créez dans le planificateur de ressources avec des utilisateurs, des équipes, des groupes, des rôles de tâche ou des entreprises sélectionnés.
+Vous pouvez désormais partager des filtres que vous créez dans le planificateur de ressources avec des utilisateurs et utilisatrices, des équipes, des groupes, des fonctions ou des entreprises sélectionnés.
 
-Avant cette amélioration, les filtres que vous avez créés étaient visibles par tous les utilisateurs qui pouvaient accéder au planificateur de ressources.
+Avant cette amélioration, les filtres que vous créiez étaient visibles pour tous les utilisateurs et utilisatrices qui pouvaient accéder au planificateur de ressources.
 
-Pour plus d’informations sur le filtrage dans le planificateur de ressources, voir [Filtrage du contenu dans le planificateur de ressources](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Pour plus d’informations sur le filtrage dans le planificateur de ressources, voir [Filtrer le contenu dans le planificateur de ressources](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Nouveau niveau d’accès à la gestion des ressources
 
-Nous introduisons un nouveau niveau d’accès pour la gestion des ressources. Les utilisateurs disposant d’une licence de formule pourront recevoir l’accès Modifier à la gestion des ressources, ce qui leur permettra d’effectuer les opérations suivantes :
+Nous introduisons un nouveau niveau d’accès pour la gestion des ressources. Les utilisateurs et utilisatrices disposant d’une licence de plan pourront recevoir l’accès à la modification de la gestion des ressources, ce qui leur permettra d’effectuer les opérations suivantes :
 
-* Hiérarchiser des projets dans le planificateur de ressources
+* Définir la priorité des projets dans le planificateur de ressources
 * Ressources budgétaires dans les outils de planification des ressources
 * Gérer les pools de ressources
 
-Les utilisateurs disposant d’une licence de travail et de révision auront accès à Afficher pour ce niveau d’accès.
+Les utilisateurs et utilisatrices disposant d’une licence de travail et de révision auront accès à Afficher pour ce niveau d’accès.
 
-Grâce à cette modification, la gestion des pools de ressources fait désormais partie du niveau d’accès Gestion des ressources . Avant cette mise à jour, l’accès à la gestion des pools de ressources était répertorié dans le cadre de l’accès administratif pour la licence du planificateur.
+Grâce à cette modification, la gestion des groupes de ressources fait désormais partie du niveau d’accès de gestion des ressources. Avant cette mise à jour, l’accès à la gestion des groupes de ressources était répertorié comme faisant partie de l’accès administratif pour la licence de planification.
 
-En outre, avec cette modification, il n’est plus nécessaire d’être désigné comme gestionnaire de ressources sur un projet. Toutefois, un accès correct à la gestion des ressources est nécessaire pour pouvoir gérer les ressources.
+En outre, avec cette modification, il n’est plus nécessaire de posséder la désignation de personne gestionnaire de ressources sur un projet. Toutefois, un accès correct à la gestion des ressources est nécessaire pour pouvoir gérer les ressources.
 
-Pour plus d’informations sur le nouvel accès requis pour les ressources de budget, voir [Accès aux ressources budgétaires nécessaire](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Pour plus d’informations sur le nouvel accès requis pour la budgétisation des ressources, voir [Accès requis aux ressources budgétaires](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Pour plus d’informations sur le nouveau niveau d’accès à Resource Management, voir [Présentation de l’accès à Resource Management](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Pour plus d’informations sur le nouveau niveau d’accès à la gestion des ressources, voir [Comprendre l’accès à la gestion des ressources](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
-## Classer les projets par priorités de Portfolio dans le planificateur de ressources
+## Classer les projets par priorités de portfolio dans le planificateur de ressources
 
-Vous pouvez désormais classer les projets par priorité de leur portefeuille dans le planificateur de ressources.
+Vous pouvez désormais classer les projets par priorité du portfolio dans le planificateur de ressources.
 
-Avant cette amélioration, vous ne pouviez afficher que la priorité du portefeuille dans le planificateur de ressources et classer les projets par priorité uniquement.
+Avant cette amélioration, vous ne pouviez afficher que la priorité du portfolio dans le planificateur de ressources et classer les projets par priorité uniquement.
 
-Pour plus d’informations sur l’ordre des projets par priorité de portefeuille dans le planificateur de ressources, voir [Hiérarchisation des projets dans le planificateur de ressources](../../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+Pour plus d’informations sur l’ordre des projets par priorité de portfolio dans le planificateur de ressources, voir [Définir la priorité des projets dans le planificateur de ressources](../../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
-## Amélioration des filtres de la planification des ressources
+## Amélioration du filtre du planificateur des ressources
 
-L’expérience de filtrage dans le planificateur de ressources est désormais plus simple lorsque vous ajoutez un nouveau champ (Groupe) aux critères de filtrage intégrés. Vous pouvez désormais trouver les filtres les plus utilisés dans les options natives.
+L’expérience de filtrage dans le planificateur de ressources est désormais plus simple lorsque vous ajoutez un nouveau champ (Groupe) aux critères de filtre intégrés. Vous pouvez désormais trouver les filtres les plus utilisés dans les options intégrées.
 
-Pour plus d’informations sur les filtres dans le planificateur de ressources, voir [Filtrage du contenu dans le planificateur de ressources](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Pour plus d’informations sur les filtres dans le planificateur de ressources, voir [Filtrer le contenu dans le planificateur de ressources](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 

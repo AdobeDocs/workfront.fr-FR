@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Mettre à jour les dates d’engagement pour les tâches et les problèmes
-description: Vous pouvez mettre à jour manuellement la date d’engagement d’une tâche ou d’un problème qui vous incombe. Pour plus d’informations sur les dates d’engagement dans Adobe Workfront, voir Vue d’ensemble des dates d’engagement.
+description: Vous pouvez mettre à jour manuellement la date d’engagement d’un objet (tâche ou problème) qui vous est affecté. Pour plus d’informations sur les dates d’engagement dans Adobe Workfront, voir Vue d’ensemble de la date d’engagement.
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
 source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 84%
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 84%
 
 <span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
-Vous pouvez mettre à jour manuellement la date d’engagement d’une tâche ou d’un problème qui vous incombe. Pour plus d’informations sur les dates d’engagement dans Adobe Workfront, voir [Vue d’ensemble des dates d’engagement](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Vous pouvez mettre à jour manuellement la date d’engagement d’un objet (tâche ou problème) qui vous est affecté. Pour plus d’informations sur les dates d’engagement dans Adobe Workfront, voir [Vue d’ensemble de la date d’engagement](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## Conditions d’accès
 
@@ -37,8 +37,8 @@ Vous pouvez mettre à jour manuellement la date d’engagement d’une tâche ou
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
@@ -46,28 +46,28 @@ Vous pouvez mettre à jour manuellement la date d’engagement d’une tâche ou
    Nouveau :
    <ul>
    <li><p>Standard pour les tâches</p> </li>
-   <li><p>Contributeur ou supérieur pour les problèmes</p></li>
+   <li><p>Contribution ou licence supérieure pour les problèmes</p></li>
    </ul>
    Actuel :
 <ul>
-   <li><p>Travail ou supérieur pour les tâches</p></li> 
-   <li><p>Requête ou supérieure pour les problèmes</p></li>
+   <li><p>Travail ou licence supérieure plus pour les tâches</p></li> 
+   <li><p>Demande ou niveau supérieur pour les problèmes</p></li>
 </ul>
 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Accès en modification aux tâches et problèmes</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès en modification aux tâches et aux problèmes</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations liées à la tâche ou au problème</p> </td> 
+   <td> <p>Autorisations de gestion sur la tâche ou le problème</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,10 +81,10 @@ Avant de pouvoir modifier la date d’engagement d’une tâche ou d’un probl�
 Vous pouvez mettre à jour la date d’engagement d’une tâche ou d’un problème dans les zones suivantes de Workfront :
 
 * Section Détails d’une tâche ou d’un problème
-* L’en-tête de tâche ou de problème.
+* L’en-tête de la tâche ou du problème
 
   L’administrateur de Workfront ou de votre groupe doit ajouter la date de validation à l’en-tête de tâche ou de problème de votre modèle de mise en page pour l’afficher à partir de la tâche ou de la page de publication.
-Pour plus d’informations, voir [Personnaliser les en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Pour plus d’informations, voir [Personnaliser les en-têtes d’objets à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 La mise à jour de la date d’engagement est identique pour les tâches et les problèmes.
 
@@ -100,14 +100,14 @@ La mise à jour de la date d’engagement est identique pour les tâches et les 
 
 1. Accédez à une tâche ou à un problème affectés à vous-même en tant que **Propriétaire**.
 
-   Pour plus d’informations sur la définition du ou de la propriétaire de la tâche pour un problème ou une tâche, voir la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) dans l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   Pour plus d’informations sur la définition de la personne propriétaire de la tâche pour un problème ou une tâche, consultez la section [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) dans l’article [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 1. (Conditionnel et facultatif) Si votre administrateur Workfront ou de groupe a ajouté la date de validation à l’en-tête de la tâche ou du problème, cliquez sur le champ **Date de validation** dans l’en-tête, puis sélectionnez une date dans le calendrier. Si la date de validation ne figure pas dans l’en-tête, procédez comme suit.
 
    ![](assets/commit-date-task-header.png)
 
 1. Cliquez sur **Détails de la tâche** ou **Détails du problème** dans le panneau de gauche.
-1. Cliquez sur **Vue d’ensemble** pour l’étendre.
+1. Cliquez sur **Vue d’ensemble** pour développer la section.
 1. Mettez à jour le champ **Date d’engagement**.
 
    ![](assets/task-commit-date-edit-highlighted-details-page.png)

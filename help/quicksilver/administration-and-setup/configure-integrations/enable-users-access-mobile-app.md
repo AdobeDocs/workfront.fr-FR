@@ -4,7 +4,7 @@ product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Vous pouvez activer ou désactiver l'accès à l'application mobile  [!DNL Adobe Workfront] .
+description: Vous pouvez activer ou désactiver l’accès à l’application mobile  [!DNL Adobe Workfront] .
 author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
@@ -12,13 +12,13 @@ exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
 source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 45%
+ht-degree: 96%
 
 ---
 
-# Permettre aux utilisateurs et utilisatrices d’accéder à l’application mobile
+# Permettre aux utilisateurs et aux utilisatrices d’accéder à l’application mobile
 
-Vous pouvez activer ou désactiver l&#39;accès à l&#39;application mobile [!DNL Adobe Workfront].
+Vous pouvez activer ou désactiver l’accès à l’application mobile [!DNL Adobe Workfront].
 
 ## Conditions d’accès
 
@@ -32,34 +32,34 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>N’importe quelle</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices</a>.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas un accès, demandez à l’administration [!DNL Workfront] si elle a défini des restrictions supplémentaires dans votre niveau d’accès. Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice [!DNL Workfront]. Pour plus d’informations, consultez <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder à un utilisateur ou à une utilisatrice un accès d’administration complet</a>.</p> <p><b>REMARQUE</b> : si vous ne disposez toujours pas de l’accès, demandez à votre administrateur ou administratrice [!DNL Workfront] si des restrictions supplémentaires ont été définies concernant votre niveau d’accès. Pour plus d’informations sur la manière dont l’administration [!DNL Workfront]  peut modifier votre niveau d’accès, consultez la section <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Permettre aux utilisateurs et utilisatrices d’accéder à l’application mobile
+## Permettre aux utilisateurs et aux utilisatrices d’accéder à l’application mobile
 
 {{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Configuration],** dans le coin supérieur droit de la page.
 
-1. Développez **[!UICONTROL System],**, puis cliquez sur **[!UICONTROL Preferences].**
+1. Développez **[!UICONTROL Système],** puis cliquez sur **[!UICONTROL Préférences].**
 
-1. Sélectionnez le paramètre **[!UICONTROL Permettre aux utilisateurs d&#39;utiliser les applications mobiles Workfront et le paramètre [!DNL Workfront Outlook] Add-in]** pour permettre aux utilisateurs d&#39;utiliser [!DNL Workfront] avec l&#39;application mobile [!DNL Workfront] ou d&#39;installer et d&#39;utiliser [!DNL Workfront] pour Outlook.\
+1. Sélectionnez le paramètre **[!UICONTROL Permettre aux utilisateurs et aux utilisatrices d’utiliser les applications mobiles Workfront et le module complémentaire [!DNL Workfront Outlook]]** pour permettre aux utilisateurs et aux utilisatrices d’utiliser [!DNL Workfront] avec l’application mobile [!DNL Workfront] ou d’installer et d’utiliser [!DNL Workfront] for Outlook.\
    Cette option est activée par défaut.
 
 1. Cliquez sur **[!UICONTROL Enregistrer].**
 
-Pour plus d’informations sur l’utilisation de l’application mobile [!DNL Workfront] une fois qu’elle est activée pour le site, voir [Utilisation de l’application mobile  [!DNL Adobe Workfront] .](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
+Pour plus d’informations sur l’utilisation de l’application mobile [!DNL Workfront] une fois qu’elle a été activée pour le site, consultez [Utiliser l’application mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
-Pour plus d&#39;informations sur l&#39;utilisation de [!DNL Workfront for Outlook], consultez la section [Utilisation [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) .
+Pour plus d’informations sur l’utilisation de [!DNL Workfront for Outlook], consultez la section [Utiliser  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).

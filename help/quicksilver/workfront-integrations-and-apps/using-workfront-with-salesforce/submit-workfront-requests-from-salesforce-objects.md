@@ -1,33 +1,33 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
-title: Envoi de  [!DNL Adobe Workfront]  demandes provenant d'objets  [!DNL Salesforce]
-description: Après l’installation de  [!DNL Adobe Workfront] pour [!DNL Salesforce], you can submit [!DNL Workfront] demandes provenant de [!DNL Salesforce] Opportunités et comptes. Cette fonctionnalité existe dans les frameworks d’expérience classique et d’éclair.
+title: Soumettre des demandes  [!DNL Adobe Workfront]  à partir d’objets  [!DNL Salesforce]
+description: Après avoir installé  [!DNL Adobe Workfront]  pour les demandes  [!DNL Salesforce], you can submit [!DNL Workfront]  à partir d’opportunités et de comptes  [!DNL Salesforce] . Cette fonctionnalité est disponible dans les frameworks d’expérience Classic et Lightning.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
 source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
 workflow-type: tm+mt
 source-wordcount: '544'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# Envoi de [!DNL Adobe Workfront] demandes provenant d&#39;objets [!DNL Salesforce]
+# Soumettre des demandes [!DNL Adobe Workfront] à partir d’objets [!DNL Salesforce]
 
-Après avoir installé [!DNL Adobe Workfront for Salesforce], vous pouvez envoyer des requêtes [!DNL Workfront] provenant de [!DNL Salesforce] opportunités et comptes. Cette fonctionnalité existe dans les structures [!DNL Classic] et [!DNL Lightning Experience].
+Après avoir installé [!DNL Adobe Workfront for Salesforce], vous pouvez soumettre des demandes [!DNL Workfront] à partir d’opportunités et de comptes [!DNL Salesforce]. Cette fonctionnalité est disponible dans les frameworks [!DNL Classic] et [!DNL Lightning Experience].
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour utiliser les fonctionnalités décrites dans cet article :
+Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des accès suivants :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>[!DNL Adobe Workfront] forfait*</p></td> 
-   <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] formule*</p></td> 
+   <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>[!DNL Adobe Workfront] licence*</p></td> 
@@ -40,76 +40,76 @@ Vous devez disposer des accès suivants pour utiliser les fonctionnalités décr
 
 ## Conditions préalables
 
-Pour envoyer une requête [!DNL Workfront] d&#39;une opportunité ou d&#39;un compte [!DNL Salesforce], vérifiez que vous disposez des éléments suivants dans votre environnement :
+Pour envoyer une demande [!DNL Workfront] à partir d’une opportunité ou d’un compte [!DNL Salesforce], vérifiez que vous disposez des éléments suivants dans votre environnement :
 
-* Votre administrateur [!DNL Workfront] a installé [!DNL Workfront for Salesforce].\
-   Pour plus d&#39;informations sur l&#39;installation de [!DNL Workfront for Salesforce], voir [Installation [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+* Votre équipe d’administration [!DNL Workfront] a installé [!DNL Workfront for Salesforce].\
+   Pour plus d’informations sur l’installation de [!DNL Workfront for Salesforce], voir [Installer [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
-* Votre administrateur [!DNL Workfront] a ajouté la section [!DNL Workfront] à vos mises en page [!UICONTROL Opportunity] et [!UICONTROL Account].\
-   Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à une mise en page, voir [Configuration de la section  [!DNL Adobe Workfront] pour les  [!DNL Salesforce] utilisateurs](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+* Votre équipe d’administration [!DNL Workfront] a ajouté la section [!DNL Workfront] à vos dispositions de page [!UICONTROL Opportunité] et [!UICONTROL Compte].\
+   Pour plus d’informations sur l’ajout de la section [!DNL Workfront] à une disposition de page, voir [Configurer la section  [!DNL Adobe Workfront]  pour les utilisateurs et utilisatrices  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-* Vous disposez d&#39;un compte [!DNL Workfront] et vous pouvez vous y connecter à partir de la section [!DNL Workfront] de votre opportunité ou compte.\
-   Une fois connecté, vous pouvez voir l’onglet [!UICONTROL Nouvelles requêtes] où vous pouvez commencer à saisir des requêtes.
+* Vous avez un compte [!DNL Workfront] et vous pouvez vous y connecter à partir de la section [!DNL Workfront] dans votre opportunité ou votre compte.\
+   Après la connexion, vous pouvez voir l’onglet [!UICONTROL Nouvelles demandes] dans lequel vous pouvez commencer à saisir des demandes.
 
-## Envoyer [!DNL Workfront] demandes de [!DNL Salesforce]
+## Soumettre des demandes [!DNL Workfront] à partir de [!DNL Salesforce]
 
 1. Accédez à une opportunité ou à un compte dans Salesforce.
-1. Accédez à la section [!DNL Workfront] .
-1. Dans l’onglet **[!UICONTROL Nouvelles requêtes]** , sélectionnez un type de requête dans le menu déroulant **[!UICONTROL Sélectionner un type de requête]** .
+1. Accédez à la section [!DNL Workfront].
+1. Dans l’onglet **[!UICONTROL Nouvelles demandes]**, sélectionnez un type de demande dans le menu déroulant **[!UICONTROL Sélectionner un type de demande]**.
 
-   Vous pouvez voir les mêmes files d’attente de requête que celles que vous avez accès à voir dans Workfront.
+   Vous pouvez voir les mêmes files d’attente de demandes que celles auxquelles vous avez accès dans Workfront.
 
-1. Renseignez tout d’abord les champs disponibles pour votre requête.
+1. Renseignez tout d’abord les champs disponibles de votre demande.
 
-   L&#39;envoi d&#39;une demande de [!DNL Salesforce] est identique à l&#39;envoi d&#39;une demande dans l&#39;application web [!DNL Workfront].
+   Soumettre une demande à partir de [!DNL Salesforce] revient à soumettre une demande dans l’application web [!DNL Workfront].
 
    >[!NOTE]
    >
-   >Le téléchargement d’un document à l’aide du module externe [!DNL Workfront] dans [!DNL Salesforce] est temporairement indisponible.
+   >Le chargement d’un document à l’aide du plug-in [!DNL Workfront] dans [!DNL Salesforce] est temporairement indisponible.
 
-   Continuez à suivre les étapes décrites dans [Créer et envoyer [!DNL Adobe Workfront] requêtes](../../manage-work/requests/create-requests/create-submit-requests.md).
+   Continuez à suivre les étapes décrites dans [Créer et soumettre des demandes  [!DNL Adobe Workfront] ](../../manage-work/requests/create-requests/create-submit-requests.md).
 
 1. Cliquez sur **[!UICONTROL Soumettre]**.
 
-## Affichage de [!DNL Workfront] requêtes
+## Afficher les demandes [!DNL Workfront]
 
 1. Accédez à une opportunité ou à un compte dans [!DNL Salesforce].
-1. Accédez à la section **[!DNL Workfront]** .
+1. Accédez à la section **[!DNL Workfront]**.
 
    >[!NOTE]
    >
-   >Selon la façon dont votre administrateur [!DNL Workfront] a configuré cette section, elle peut porter un nom différent.
+   >Selon la manière dont votre équipe d’administration [!DNL Workfront] a configuré cette section, elle peut porter un nom différent.
 
-1. Sélectionnez l’onglet **[!UICONTROL Demandes envoyées]** .
+1. Sélectionnez l’onglet **[!UICONTROL Demandes envoyées]**.
 
-   Vous pouvez afficher toutes les requêtes que vous ou d’autres avez envoyées à partir de cette opportunité ou de ce compte dans cet onglet. Les requêtes envoyées à cette file d’attente de requêtes dans l’application web ne s’affichent pas dans cette liste dans [!DNL Salesforce].
+   Vous pouvez afficher toutes les demandes que vous ou d’autres personnes avez envoyées depuis cette opportunité ou ce compte dans cet onglet. Les demandes envoyées vers cette file d’attente des demandes dans l’application web ne s’affichent pas dans cette liste dans [!DNL Salesforce].
 
    >[!NOTE]
    >
-   >Les requêtes envoyées à cette file d’attente de requêtes dans l’application web ne s’affichent pas dans cette liste dans Salesforce.
+   >Les demandes envoyées vers cette file d’attente des demandes dans l’application web ne s’affichent pas dans cette liste dans Salesforce.
 
    ![salesforce_submit_requests.png](assets/salesforce-submitted-requests-350x58.png)
 
-   Vous pouvez afficher les informations suivantes sur les demandes envoyées :
+   Vous pouvez afficher les informations suivantes sur les demandes envoyées :
 
-   * Nom des requêtes (dans la colonne [!UICONTROL Objet])
+   * Nom de la requête (dans la colonne [!UICONTROL Objet])
    * Numéro de référence
    * Type de demande
    * Statut
-   * Envoyé à la date
-   * Demandé par nom
-   * Attribué à Nom\
+   * Date d’envoi
+   * Nom de la personne ayant effectué la demande
+   * Nom de la personne à laquelle la demande est attribuée
 
-     Lorsque ces informations sont mises à jour dans [!DNL Workfront], elles sont également mises à jour dans cette liste.
+     Lorsque vous mettez à jour ces informations dans [!DNL Workfront], elles sont également mises à jour dans cette liste.
 
-1. (Facultatif) Cliquez sur le nom de la requête pour l’ouvrir dans [!DNL Workfront].
+1. (Facultatif) Cliquez sur le nom de la demande pour l’ouvrir dans [!DNL Workfront].
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Aller à[!DNL Salesforce]]** pour accéder à l’opportunité ou au compte où le problème provient des zones suivantes de Workfront :
+1. (Facultatif) Cliquez sur **[!UICONTROL Accéder à[!DNL Salesforce]]** pour accéder à l’opportunité ou au compte d’où provient le problème dans les zones suivantes de Workfront :
 
-   * Dans la section [!UICONTROL Details] du problème
-   * Dans le panneau Résumé lors de la sélection du problème dans une liste, après avoir cliqué sur [!UICONTROL Ouvrir le résumé] ![](assets/summary-panel-icon.png) dans la barre d’outils de la liste.
-   * Dans l’en-tête du problème, lorsque le champ [!UICONTROL Intégrations] est disponible. L’administrateur du système ou du groupe doit ajouter le champ [!UICONTROL Intégrations] à votre modèle de mise en page pour afficher le lien Atteindre Salesforce dans l’en-tête du problème. Pour plus d’informations, consultez la section [Personnaliser les en-têtes d’objet à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+   * Dans la section [!UICONTROL Détails] du problème
+   * Dans le panneau Résumé, lors de la sélection du problème dans une liste, après avoir cliqué sur [!UICONTROL Ouvrir le résumé] ![](assets/summary-panel-icon.png) dans la barre d’outils de la liste.
+   * Dans l’en-tête du problème, lorsque le champ [!UICONTROL Intégrations] est disponible. Votre administrateur ou administratrice système ou groupe doit ajouter le champ [!UICONTROL Intégrations] à votre modèle de mise en page pour afficher le lien Accéder à Salesforce dans l’en-tête du problème. Pour plus d’informations, consultez [Personnaliser les en-têtes d’objet à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]
    >
-   >Le lien [!UICONTROL Aller à Salesforce] est visible par tous les utilisateurs de [!DNL Workfront] qui peuvent afficher le problème. Vous devez disposer d’un compte [!DNL Salesforce] pour pouvoir accéder à l’opportunité ou au compte [!DNL Salesforce] où le problème a été consigné.
+   >Le lien [!UICONTROL Accéder à Salesforce] est visible pour tous les utilisateurs et utilisatrices [!DNL Workfront] qui peuvent afficher le problème. Vous devez disposer d’un compte [!DNL Salesforce] pour pouvoir accéder à l’opportunité ou au compte [!DNL Salesforce] où le problème a été consigné.

@@ -1,6 +1,6 @@
 ---
-title: Mises à jour de l’apparence pendant la période de publication du quatrième trimestre 2024
-description: Mises à jour de l’apparence pendant la période de publication du quatrième trimestre 2024
+title: Mises à jour de l’apparence et de la convivialité au cours des versions publiées au quatrième trimestre 2024
+description: Mises à jour de l’apparence et de la convivialité au cours des versions publiées au quatrième trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,15 +8,15 @@ exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
 source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
-# Mises à jour de l’apparence pendant la période de publication du quatrième trimestre 2024
+# Mises à jour de l’apparence et de la convivialité au cours des versions publiées au quatrième trimestre 2024
 
-Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication du quatrième trimestre 2024.
+Cette page décrit les mises à jour mineures apportées à l’apparence et à la convivialité de diverses parties de l’application Adobe Workfront dans le cadre des versions publiées au cours du quatrième trimestre 2024.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version du quatrième trimestre 2024, consultez la [présentation de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Pour une liste de tous les changements disponibles avec la version du quatrième trimestre 2024, consultez l’article [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Mises à jour de la fonctionnalité de recherche et de ressenti pour la page Préférences système
 
@@ -52,7 +52,7 @@ Pour plus d’informations, voir [Création de pools de ressources](/help/quicks
 
 >[!NOTE]
 >
->Version d’aperçu : 26 juillet 2024 ; version de production pour tous les clients : 8 août 2024
+>Version de prévisualisation : samedi 26 juillet 2024. Version de production pour l’ensemble des clientes et clients : vendredi 8 août 2024.
 
 Le message de confirmation de suppression de tâche que les utilisateurs voient lors de la suppression d’une tâche a été mis à jour vers une conception plus moderne et cohérente avec d’autres zones de Workfront.
 

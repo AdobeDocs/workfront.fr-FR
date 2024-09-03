@@ -2,86 +2,86 @@
 product-area: projects
 navigation-topic: financials
 title: Gérer les dépenses liées à un projet
-description: Le processus de création et de gestion des dépenses est le même pour les dépenses liées aux projets et aux tâches. Les dépenses qui sont ajoutées au projet dans l'Analyse de cas sont ajoutées à l'onglet Dépenses en tant que dépenses prévues. Pour plus d’informations sur l’analyse de cas, voir l’article Créer une analyse de cas pour un projet .
+description: Le processus de création et de gestion des dépenses est le même pour les dépenses liées à un projet ou à une tâche. Toutes les dépenses ajoutées au projet dans le business case sont ajoutées à l’onglet Dépenses en tant que dépenses prévues. Pour plus d’informations sur le business case, voir l’article Créer un business case pour un projet.
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
 source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 20%
+ht-degree: 97%
 
 ---
 
 # Gérer les dépenses liées à un projet
 
-Le processus de création et de gestion des dépenses est le même pour les dépenses liées aux projets et aux tâches. Les dépenses qui sont ajoutées au projet dans l&#39;Analyse de cas sont ajoutées à l&#39;onglet Dépenses en tant que dépenses prévues. Pour plus d’informations sur l’analyse de cas, consultez l’article [Créer une analyse de cas pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Le processus de création et de gestion des dépenses est le même pour les dépenses liées à un projet ou à une tâche. Toutes les dépenses ajoutées au projet dans le business case sont ajoutées à l’onglet Dépenses en tant que dépenses prévues. Pour plus d’informations sur le business case, voir l’article [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Le montant total de vos dépenses de toutes les tâches et le projet contribue au coût total du projet. Le montant prévu des dépenses contribue au coût prévu du projet et le montant réel des dépenses contribue au coût réel du projet.
+Le montant total de vos dépenses pour toutes les tâches et le projet contribue au coût total du projet. Le montant prévu des dépenses contribue au coût prévu du projet, et le montant réel des dépenses contribue au coût réel du projet.
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Travail ou supérieure </p> </td> 
+   <td> <p>Travail ou supérieur </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets et aux données financières</p> <p><b>NOTE</b> </p>
-   <p> Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Accès en modification aux projets et aux données financières</p> <p><b>NOTE</b> </p>
+   <p> Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Contribute ou supérieures pour le projet avec autorisation d’afficher ou de gérer Finance</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations de contribution ou de niveau supérieur sur le projet avec des autorisations d’affichage ou de gestion sur les finances</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
 
 ## Ajouter des frais
 
-1. Positionnez-vous au niveau du projet où vous souhaitez renseigner vos dépenses.\
+1. Accédez au projet pour lequel vous souhaitez saisir des dépenses.\
    Si vous souhaitez ajouter des dépenses à une tâche, accédez plutôt à une tâche. 
 1. Cliquez sur **Afficher plus**, puis sur **Dépenses**.
-1. Cliquez sur **Ajouter une dépense** .
+1. Cliquez sur **Ajouter une dépense**.
 La boîte de dialogue **Ajouter une dépense** s’affiche.
-1. Mettez à jour les éléments suivants :
+1. Mettez à jour les informations suivantes :
 
-   * **Description :** Description de la dépense.
+   * **Description :** description de la dépense.
 
-   * **Type de dépense :** (Obligatoire) Sélectionnez la catégorie qui décrit le mieux la dépense.
-   * **Tâche :** commencez à saisir le nom de la tâche à laquelle cette dépense est associée, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
-   * **Montant planifié :** Montant prévu inscrit au budget pour la dépense.\
-     Cela a une incidence sur le coût budgété du projet.
+   * **Type de dépense :** (obligatoire) sélectionnez la catégorie qui décrit le mieux la dépense.
+   * **Tâche :** commencez à saisir le nom de la tâche à laquelle cette dépense est associée, puis cliquez dessus lorsqu’elle apparaît dans la liste déroulante.
+   * **Montant prévu :** montant budgété prévu pour la dépense.\
+     Cela affecte le coût budgété du projet.
 
-   * **Montant réel :** montant auquel la dépense a réellement coûté.\
-     Cela affecte le coût réel du projet.
+   * **Montant réel :** ce que la dépense a réellement coûté.\
+     Cela a une incidence sur le coût réel du projet.
 
-   * **Date planifiée :** date attendue de la dépense. Vous pouvez saisir la date dans le champ à l’aide du format *mm/jj/aa* ou cliquer sur l’icône Calendrier  ![](assets/calendar-icon.png) et sélectionnez la date de manière dynamique.
+   * **Date prévue :** date prévue à laquelle aura lieu la dépense. Vous pouvez saisir la date dans le champ en utilisant le format *mm/jj/aa*, ou vous pouvez cliquer sur l’icône du calendrier ![](assets/calendar-icon.png) et sélectionner la date de manière dynamique.
 
-   * **Date de paiement :** date à laquelle la dépense a été payée.
-   * **Facturable :** Sélectionnez cette option si vous souhaitez facturer cette dépense. Il est important de classer une dépense comme facturable lors de la création d&#39;enregistrements de facturation.
-   * **Remboursable :** Sélectionnez cette option si la dépense doit être remboursée. Vous pouvez alors marquer la dépense comme remboursée une fois la dépense remboursée.
+   * **Date du règlement :** date à laquelle la dépense a été payée.
+   * **Facturable :** sélectionnez cette option si vous souhaitez facturer cette dépense. Il est important de classer une dépense dans la catégorie des dépenses facturables lors de la création d’enregistrements de facturation.
+   * **Remboursable :** sélectionnez cette option si la dépense doit être remboursée. Vous pouvez ensuite marquer la dépense comme remboursée une fois le remboursement effectué.
 
-1. Sélectionnez un **formulaire personnalisé** et spécifiez toutes les informations supplémentaires requises. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à une dépense. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Sélectionnez un **formulaire personnalisé** et spécifiez toute information supplémentaire requise. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à une dépense. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, consultez l’article [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Enregistrer les modifications**.
 
 ## Supprimer des dépenses
 
-1. Accédez au projet dans lequel vous souhaitez supprimer les dépenses.
-1. Cliquez sur **Afficher plus**, puis sur **Dépenses**.
-1. Sélectionnez les dépenses à supprimer, puis cliquez sur **Supprimer** ![Supprimer](assets/delete.png).
+1. Accédez au projet dans lequel vous souhaitez supprimer des dépenses.
+1. Cliquez sur **Afficher plus**, puis cliquez sur **Dépenses**.
+1. Sélectionnez les dépenses que vous souhaitez supprimer, puis cliquez sur **Supprimer** ![Supprimer](assets/delete.png).
 
-1. Cliquez sur **Oui, le supprimer** pour confirmer la suppression.
+1. Cliquez sur **Oui, supprimer** pour confirmer la suppression.

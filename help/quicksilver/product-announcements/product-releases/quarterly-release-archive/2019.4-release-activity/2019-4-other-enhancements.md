@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-4-release-activity
-title: Autres améliorations (version 2019.4)
-description: Cette page décrit les différentes améliorations apportées à la version 2019.4. Il sera disponible dans l’environnement de production la semaine du 11 novembre 2019.
+title: Autres améliorations de la version 2019.4
+description: Cette page décrit les différentes améliorations apportées à la version 2019.4. Elle sera disponible dans l’environnement de production la semaine du 11 novembre 2019.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,21 +10,21 @@ exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Autres améliorations (version 2019.4)
+# Autres améliorations de la version 2019.4
 
-Cette page décrit les différentes améliorations apportées à la version 2019.4. Il sera disponible dans l’environnement de production la semaine du 11 novembre 2019.
+Cette page décrit les différentes améliorations apportées à la version 2019.4. Elle sera disponible dans l’environnement de production la semaine du 11 novembre 2019.
 
-Pour obtenir la liste de toutes les modifications apportées en 2019.4, consultez la [présentation de la version 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées par la version 2019.4, voir [Vue d’ensemble de la version 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong> Démarrez un workflow de vérification automatisée à partir d’un document CC Adobe </strong> <p>Sans quitter Adobe CC, vous pouvez lancer un processus de vérification automatique pour un document Adobe CC que vous avez créé. Pour plus d’informations, reportez-vous à la section <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Générer un BAT à partir d’Illustrator ou d’un InDesign</a> de l’article <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Utilisation de l’extension Workfront pour Illustrator et l’InDesign</a>.</p> </td> 
+   <td> <strong>Démarrer un workflow de relecture automatisé à partir d’un document Adobe CC</strong> <p>Sans quitter Adobe CC, vous pouvez démarrer un processus de relecture automatique pour un document Adobe CC que vous avez créé. Pour plus d’informations, consultez la section <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Générer une épreuve à partir d’Illustrator ou d’InDesign</a> dans l’article <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Utiliser l’extension Workfront pour Illustrator et InDesign</a>.</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -50,37 +50,37 @@ Pour obtenir la liste de toutes les modifications apportées en 2019.4, consulte
    </tr>
   --> 
   <tr> 
-   <td> <strong>Empêcher la duplication des adresses électroniques</strong> <p>Vous ne pouvez plus utiliser la même adresse électronique lors de la création de plusieurs utilisateurs dans Workfront, même si ces adresses électroniques varient selon la casse. Par exemple, vous ne pouvez pas créer un utilisateur avec l’adresse électronique JohnDoe@example.com et un autre avec l’adresse électronique johndoe@example.com. </p> <p>Avant cette modification, la création d’utilisateurs avec des adresses électroniques correspondantes qui différaient uniquement par cas était prise en charge. </p> <p>Remarque : Les utilisateurs existants avec des adresses électroniques correspondantes qui ne diffèrent que par casse devront être mis à jour à une date ultérieure. Si des utilisateurs d’une instance Workfront ont des adresses électroniques correspondantes qui ne diffèrent que par la casse, Workfront vous contactera avec des informations supplémentaires et une chronologie du moment où celles-ci doivent être mises à jour.</p> </td> 
+   <td> <strong>Empêcher les doublons d’adresses e-mail</strong> <p>Dans Workfront, vous ne pouvez plus enregistrer plusieurs utilisateurs et utilisatrices avec une adresse e-mail identique, même en modifiant la casse des lettres. Par exemple, vous ne pouvez pas créer un utilisateur ou une utilisatrice avec l’adresse e-mail PierreDurand@exemple.com et un autre utilisateur ou une autre utilisatrice avec l’adresse e-mail pierredurand@exemple.com. </p> <p>Avant cette modification, il était possible de créer des utilisateurs et des utilisatrices dont les adresses e-mail correspondaient et ne différaient que par la casse des lettres. </p> <p>Note : les comptes existants des utilisateurs et des utilisatrices ayant des adresses e-mail similaires et ne différant que par la casse des lettres devront être actualisés ultérieurement. Workfront vous informera et vous communiquera une chronologie s’il est découvert que des utilisateurs et des utilisatrices de la même instance ont des adresses e-mail qui ne diffèrent que par la casse des lettres.</p> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <strong> Types d’objet supplémentaires disponibles pour les champs de type devant dans un formulaire personnalisé</strong> 
-     <p>Désormais, lorsque vous créez un champ personnalisé Type, vous pouvez associer les types d’objet suivants au champ : Utilisateur, Société, Groupe, Rôle de tâche, Portfolio, Programme, Projet et Modèle.</p> 
-     <p>Auparavant, vous pouviez uniquement associer le type d’objet Utilisateur à un champ personnalisé Type.</p> 
+     <strong>Types d’objet supplémentaires disponibles pour les champs de saisie semi-automatique dans un formulaire personnalisé</strong> 
+     <p>Désormais, en configurant un champ personnalisé de saisie semi-automatique, il est possible de le lier aux types d’objet tels qu’Utilisateur ou utilisatrice, Société, Groupe, Fonction, Portfolio, Programme, Projet et Modèle.</p> 
+     <p>Auparavant, vous pouviez uniquement associer le type d’objet Utilisateur ou utilisatrice à un champ personnalisé de saisie semi-automatique.</p> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Nom de fichier de la dernière version d’un document affiché</strong> <p>Désormais, lorsque vous téléchargez une version de document avec un nom de fichier différent de celui de la version existante, le nouveau nom de fichier s’affiche dans Workfront.</p> <p>Auparavant, lorsque vous ajoutiez une nouvelle version avec un nom de fichier différent, le nom de fichier de la version précédente continuait à s’afficher dans Workfront.</p> <p>Pour plus d’informations, voir <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">Téléchargement d’une nouvelle version d’un document</a>.</p> </td> 
+   <td> <strong>Nom de fichier de la dernière version d’un document affiché</strong> <p>Désormais, si vous chargez une version de document sous un nom de fichier différent de celui de la version actuelle, Workfront affichera le nouveau nom.</p> <p>Auparavant, lorsque vous ajoutiez une nouvelle version avec un nom de fichier différent, le nom de fichier de la version précédente continuait à s’afficher dans Workfront.</p> <p>Pour plus d’informations, consultez la section <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">Charger une nouvelle version d’un document</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Ajouter un filtre à un champ Type dans un formulaire personnalisé</strong> <p>Désormais, lorsque vous ajoutez un champ Type à un formulaire personnalisé, vous pouvez ajouter un filtre pour limiter les objets disponibles lorsque quelqu’un utilise le champ. Par exemple, vous pouvez limiter le champ de sorte que l’utilisateur ne puisse sélectionner que les membres des équipes marketing et ventes de votre organisation.</p> <p>Pour plus d’informations, voir la section Créer et ajouter un nouveau champ dans l’article Création d’un Forms personnalisé .</p> </td> 
+   <td> <strong>Ajouter un filtre à un champ de saisie semi-automatique dans un formulaire personnalisé</strong> <p>Désormais, lorsque vous ajoutez un champ de saisie semi-automatique à un formulaire personnalisé, vous pouvez ajouter un filtre pour limiter les objets disponibles lorsqu’une personne utilise le champ. Par exemple, vous pouvez limiter le champ de sorte que la personne ne puisse sélectionner que les personnes membres des équipes de marketing et de ventes de votre organisation.</p> <p>Pour plus d’informations, voir la section Créer et ajouter un nouveau champ dans l’article Créer des formulaires personnalisés.</p> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <strong>Modifier le type d'affichage d'un champ dans un formulaire personnalisé</strong> 
+     <strong>Modifier le type d’affichage d’un champ dans un formulaire personnalisé</strong> 
      <p>Vous pouvez désormais modifier le type d’affichage d’un champ dans un formulaire personnalisé.</p> 
-     <p>Par exemple, si vous avez créé un champ de cases à cocher, vous pouvez le transformer en champ de liste déroulante ou en champ de boutons radio. Ces trois types d’affichage de champ sont interchangeables.</p> 
-     <p>Si vous avez créé un champ de texte d’une seule ligne, vous pouvez également le remplacer par un champ de texte de paragraphe. Ces deux types d’affichage de champ sont interchangeables.</p> 
-     <p>Auparavant, pour modifier le type d’affichage d’un champ personnalisé, vous deviez créer un nouveau champ et supprimer l’ancien champ. Il fallait pour cela transférer des données, ce qui prenait souvent du temps.</p> 
+     <p>Par exemple, si vous avez créé un champ de cases à cocher, vous pouvez le transformer en champ de liste déroulante ou en champ de boutons radio. Ces trois types d’affichage sont interchangeables.</p> 
+     <p>Si vous avez créé un champ de texte d’une seule ligne, vous pouvez également le remplacer par un champ de texte de paragraphe. Ces deux types d’affichage sont interchangeables.</p> 
+     <p>Auparavant, pour modifier le type d’affichage d’un champ personnalisé, il fallait créer un champ et supprimer l’ancien. Cela nécessitait le transfert de données, ce qui prenait souvent beaucoup de temps.</p> 
     </div> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <strong>Créer un temps d’arrêt des calendriers et des rapports</strong> 
-     <p>Vous pouvez désormais voir le temps de pause de l’utilisateur pour une meilleure planification et une meilleure exécution. Vous pouvez également ajouter de nouveaux rapports et calendriers de désactivation à vos tableaux de bord pour une vue en temps réel de la disponibilité des utilisateurs.</p> 
+     <strong>Créer des calendriers et des rapports sur les congés</strong> 
+     <p>Vous pouvez maintenant consulter les congés des utilisateurs et des utilisatrices pour améliorer la planification et l’exécution. Vous pouvez également ajouter de nouveaux rapports et calendriers de congés à vos tableaux de bord pour obtenir une vue en temps réel de la disponibilité des utilisateurs et des utilisatrices.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

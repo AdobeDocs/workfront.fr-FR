@@ -11,7 +11,7 @@ exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 93%
 
 En tant qu’administrateur ou administratice Adobe Workfront, vous pouvez configurer des rappels automatiques pour déclencher des notifications par e-mail lorsque toutes les tâches ou tous les problèmes sont dus, en retard ou approchant de la date d’achèvement prévue. Une fois ces paramètres configurés, les utilisateurs et utilisatrices ne peuvent pas désactiver les rappels automatiques.
 
-Pour les notifications en retard, l’e-mail est envoyé de nuit jusqu’à ce que la tâche ou le problème soit terminé(e).
+Pour les notifications de retard, l’e-mail est envoyé chaque nuit jusqu’à ce que la tâche ou le problème soit terminé.
 
 Un rappel automatique peut être envoyé à une ou plusieurs des personnes destinataires suivantes :
 
 * La personne affectée à une tâche ou à un problème.
-* La personne responsable directe de cette personne.
+* La personne responsable directe ou de cette personne.
 * La personne responsable de la personne responsable directe.
 
 >[!NOTE]
@@ -37,22 +37,22 @@ Un rappel automatique peut être envoyé à une ou plusieurs des personnes desti
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Administrateur ou administratrice système</p> </td> 
   </tr> 
  </tbody> 
@@ -101,11 +101,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
    ![](assets/time-increments-for-automatic-reminder.png)
 
-1. Cliquez sur **Enregistrer**.
+1. Cliquer sur **Enregistrer**.
 
 ## Recevoir des rappels automatiques
 
-Si vous êtes l’entité désignée dans une notification de rappel automatique, vous recevez un e-mail lorsque la date d’échéance spécifiée est atteinte. Pour les notifications en retard, l’e-mail est envoyé de nuit jusqu’à ce que la tâche ou le problème soit terminé(e).
+Si vous êtes l’entité désignée dans une notification de rappel automatique, vous recevez un e-mail lorsque la date d’échéance spécifiée est atteinte. Pour les notifications de retard, l’e-mail est envoyé chaque nuit jusqu’à ce que la tâche ou le problème soit terminé.
 
 Les tâches avec certains types de dépendances peuvent être diffusées après la date de début spécifiée, même si elles sont en retard. Par exemple, si une tâche possède une tâche antérieure avec une dépendance Finish-Start (fs), elle ne sera pas incluse dans l’e-mail, même si elle a dépassé la date de début spécifiée, car vous ne pouvez pas démarrer la tâche tant que la tâche antérieure n’est pas terminée.
 

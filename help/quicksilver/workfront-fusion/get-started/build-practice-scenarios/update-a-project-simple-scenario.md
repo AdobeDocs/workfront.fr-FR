@@ -10,7 +10,7 @@ exl-id: f4588063-024f-4520-986e-45342a6b6777
 source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -77,8 +77,8 @@ Lorsque ce scénario convertit une requête en projet, le nom du projet est iden
 
    >[!IMPORTANT]
    >
-   >Enregistrez à intervalles réguliers lorsque vous affinez et testez un scénario.
+   >Sauvegardez souvent lorsque vous affinez et testez un scénario.
 
 ## Ressources :
 
-* [Mise en correspondance des éléments à l’aide de fonctions dans [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/mapping/map-information-between-modules.md)
+* [Mapper des éléments à l’aide de fonctions dans  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/mapping/map-information-between-modules.md)

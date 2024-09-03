@@ -2,131 +2,131 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Configuration des paramètres de BAT dans [!DNL Workfront Proof]
-description: Vous pouvez configurer un BAT que vous créez ou modifiez dans des BAT.
+title: Configurer les paramètres des épreuves dans  [!DNL Workfront Proof]
+description: Vous pouvez configurer une épreuve que vous créez ou modifiez dans la section épreuves.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Configuration des paramètres de BAT dans [!DNL Workfront Proof]
+# Configurer les paramètres d’épreuve dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-Vous pouvez configurer un BAT que vous créez ou modifiez de l’une des manières suivantes :
-
->[!NOTE]
->
->Vous pouvez configurer ces paramètres pour tous les nouveaux BAT que vous créez. Pour plus d’informations, poursuivez votre lecture.
-
-## Verrouillage du BAT lors de la dernière décision
-
-Vous pouvez définir un état de BAT à verrouiller lorsque l’approbateur final prend sa décision. Cela s’avère utile si vous souhaitez vous assurer que vos réviseurs ne pourront pas revenir au BAT et ajouter des commentaires supplémentaires ou modifier leurs décisions.
-
-1. Créez un BAT, comme décrit dans la section [Générer des BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
-   Ou\
-   Ouvrez la page Détails du bon à tirer pour un BAT existant, comme décrit dans la section [Gérer les détails du bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-
-1. Pour un nouveau BAT, sous **[!UICONTROL Paramètres du BAT]**, sélectionnez **[!UICONTROL Verrouiller le BAT lorsque toutes les décisions requises sont prises]**.\
-   Ou\
-   Pour un BAT existant, sous **[!UICONTROL Paramètres]**, sélectionnez **[!UICONTROL Verrouiller le BAT lorsque toutes les décisions sont prises]**.
-
-Pour plus d’informations sur les décisions, voir [Prise d’une décision sur un BAT dans la visionneuse de correctifs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
-
-## Identification requise de tous les utilisateurs qui vérifient le BAT
-
-[!DNL Workfront Proof] est une des choses géniales que n&#39;importe qui peut passer en revue un bon à tirer, vous n&#39;avez pas besoin d&#39;avoir votre propre [!DNL Workfront Proof] pour le faire. Les destinataires reçoivent un email avec une URL personnelle qui les amène directement à la page du BAT, sans qu&#39;ils aient à se connecter à [!DNL Workfront Proof].
-
-Cependant, si vous avez besoin de niveaux de sécurité supérieurs pour votre processus de révision et d’approbation, vous pouvez utiliser l’option de connexion requise au BAT. Cela signifie que seuls [!DNL Workfront Proof] utilisateurs peuvent être ajoutés au BAT. Et ils doivent saisir leur email et leur mot de passe avant d&#39;y accéder.
+Vous pouvez configurer une épreuve que vous créez ou modifiez de l’une des manières suivantes :
 
 >[!NOTE]
 >
->* *Pour que quelqu&#39;un se connecte au BAT (lorsque la connexion requise a été activée), il doit avoir été ajouté au BAT.*
->* *Si la connexion requise est activée, les abonnements ne peuvent pas être activés.*
+>Vous pouvez configurer ces paramètres pour toutes les nouvelles épreuves que vous créez. Pour plus d’informations, voir :
 
-Pour exiger la connexion de tous les utilisateurs qui vérifient le BAT :
+## Verrouiller une épreuve lors de la dernière décision
 
-1. Créez un BAT, comme décrit dans la section [Générer des BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+Vous pouvez définir l’état d’une épreuve sur verrouillée lorsque la personne approbatrice finale prend sa décision. Cela s’avère utile si vous souhaitez vous assurer que vos réviseurs et réviseuses ne puissent pas revenir sur l’épreuve et ajouter des commentaires supplémentaires ou modifier leurs décisions.
+
+1. Créez une nouvelle épreuve, comme décrit dans la section [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    Ou\
-   Ouvrez la page Détails du bon à tirer pour un BAT existant, comme décrit dans la section [Gérer les détails du bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Ouvrez la page Détails de l’épreuve pour une épreuve existante, comme décrit dans la section [Gérer les détails d’une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. Pour un nouveau BAT, sous **[!UICONTROL Paramètres du BAT]**, sélectionnez **[!UICONTROL Require login]**.\
+1. Pour une nouvelle épreuve, dans **[!UICONTROL Paramètres des épreuves]**, sélectionnez **[!UICONTROL Verrouiller l’épreuve lorsque toutes les décisions requises ont été prises]**.\
    Ou\
-   Pour un BAT existant, sous **[!UICONTROL Settings]**, sélectionnez **[!UICONTROL Login required]**.
+   Pour une épreuve existante, dans **[!UICONTROL Paramètres]**, sélectionnez **[!UICONTROL Verrouiller l’épreuve lorsque toutes les décisions ont été prises]**.
 
-## Exiger une seule décision pour le BAT
+Pour plus d’informations sur les décisions, consultez [Prendre une décision sur une épreuve dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
-Ce paramètre est utile lorsque vous avez simplement besoin d’une personne d’un groupe, d’un service ou d’une entreprise pour prendre une décision sur le BAT.
+## Rendre la connexion obligatoire pour toutes les personnes chargées de réviser l’épreuve
 
-Même si vous attribuez le rôle d’approbateur ou de réviseur et d’approbateur à plusieurs personnes, une fois qu’une personne prend une décision sur un BAT, le statut du BAT est mis à jour (conformément à la décision prise). Pour plus d’informations sur l’état du BAT, voir [Affichage de l’état et de l’état d’un BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
+Un des avantages de [!DNL Workfront Proof] est que n’importe quelle personne peut réviser une épreuve, vous n’avez pas besoin de disposer de votre propre [!DNL Workfront Proof] pour le faire. Les personnes destinataires reçoivent un e-mail avec une URL personnelle qui les dirige directement vers la page de l’épreuve, sans avoir besoin de se connecter à [!DNL Workfront Proof].
 
-1. Créez un BAT, comme décrit dans la section [Générer des BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+Cependant, si vous avez besoin de niveaux de sécurité supérieurs pour votre processus de révision et d’approbation, vous pouvez utiliser l’option Connexion requise pour l’épreuve. Cela signifie que seules les personnes utilisant [!DNL Workfront Proof] peuvent être ajoutées à l’épreuve. Elles doivent également saisir leur adresse e-mail et leur mot de passe avant de pouvoir y accéder.
+
+>[!NOTE]
+>
+>* *Pour se connecter à l’épreuve (lorsque l’option Connexion requise a été activée), la personne doit avoir été ajoutée à l’épreuve.*
+>* *Si l’option Connexion requise est activée, les abonnements ne peuvent pas être activés.*
+
+Pour exiger une connexion de la part de tous les utilisateurs et utilisatrices qui révisent l’épreuve :
+
+1. Créez une nouvelle épreuve, comme décrit dans la section [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    Ou\
-   Ouvrez la page Détails du bon à tirer pour un BAT existant, comme décrit dans la section [Gérer les détails du bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Ouvrez la page Détails de l’épreuve pour une épreuve existante, comme décrit dans la section [Gérer les détails d’une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. Pour un nouveau BAT, sous **[!UICONTROL Workflow]**, sélectionnez **[!UICONTROL Exiger une seule décision pour cette étape]**.\
+1. Pour une nouvelle épreuve, dans **[!UICONTROL Paramètres d’épreuve]**, sélectionnez **[!UICONTROL Connexion requise]**.\
    Ou\
-   Pour un BAT existant, sous **[!UICONTROL Paramètres]**, sélectionnez **[!UICONTROL Une seule décision requise]**.
+   Pour une épreuve existante, dans **[!UICONTROL Paramètres]**, sélectionnez **[!UICONTROL Connexion requise]**.
 
-Pour plus d’informations sur les décisions, voir [Prise d’une décision sur un BAT dans la visionneuse de correctifs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof).
+## Exiger une seule décision pour l’épreuve
 
-## Exiger la signature électronique des décisions
+Ce paramètre est utile lorsque vous avez seulement besoin d’une personne d’un groupe, d’un service ou d’une entreprise pour prendre une décision sur l’épreuve.
 
-Vous pouvez exiger une signature électronique de tout réviseur qui prend une décision sur le BAT pour fournir son email et son mot de passe. Lorsqu’un réviseur affiche une invite de décision lui demandant de saisir son adresse électronique et son mot de passe et de confirmer sa décision. Pour plus d’informations, voir [Comprendre les signatures électroniques dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
+Même si vous attribuez le rôle de personne approbatrice ou de personne réviseuse et approbatrice à plusieurs personnes, dès qu’une personne prend une décision sur une épreuve, l’état de l’épreuve est mis à jour (conformément à la décision prise). Pour plus d’informations sur l’état de l’épreuve, voir [Afficher l’état et l’avancement d’une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
 
-1. Créez un BAT, comme décrit dans la section [Générer des BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+1. Créez une épreuve, comme décrit dans la section [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    Ou\
-   Ouvrez la page Détails du bon à tirer pour un BAT existant, comme décrit dans la section [Gérer les détails du bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Ouvrez la page Détails de l’épreuve pour une épreuve existante, comme décrit dans la section [Gérer les détails d’une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. Pour un nouveau BAT, sous **[!UICONTROL Paramètres du BAT]**, sélectionnez **[!UICONTROL Exiger la signature électronique des décisions]**.\
+1. Pour une nouvelle épreuve, dans **[!UICONTROL Workflow]**, sélectionnez **[!UICONTROL Exiger une seule décision pour cette étape]**.\
    Ou\
-   Pour un BAT existant, sous **[!UICONTROL Paramètres]**, sélectionnez **[!UICONTROL Exiger que les décisions soient signées électroniquement]**.
+   Pour une épreuve existante, dans **[!UICONTROL Paramètres]**, sélectionnez **[!UICONTROL Une seule décision requise]**.
 
-Pour plus d&#39;informations sur les décisions, voir [Configuration des options de décision d&#39;approbation dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+Pour plus d’informations sur les décisions, consultez [Prendre une décision sur une épreuve dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof).
 
-## Interdire aux utilisateurs de télécharger le fichier original
+## Exiger que les décisions soient signées de manière électronique
 
-Vous pouvez empêcher les validants sur un BAT de télécharger le fichier d&#39;origine à partir duquel un BAT a été créé.
+Vous pouvez exiger une signature électronique de toute personne chargée de la révision prenant une décision sur l’épreuve, et qu’elles fournissent leur adresse e-mail et leur mot de passe. Lorsqu’un réviseur ou une réviseuse prend une décision, un message apparaît lui demandant de saisir son adresse électronique et son mot de passe et de confirmer sa décision. Pour plus d’informations, consultez [Présentation des signatures électroniques dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md).
 
-1. Créez un BAT, comme décrit dans la section [Générer des BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+1. Créez une épreuve, comme décrit dans la section [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    Ou\
-   Ouvrez la page Détails du bon à tirer pour un BAT existant, comme décrit dans la section [Gérer les détails du bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Ouvrez la page Détails de l’épreuve d’une épreuve existante, comme décrit dans la section [Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. Pour un nouveau BAT, sous **[!UICONTROL Paramètres du BAT]**, désélectionnez **[!UICONTROL Télécharger le fichier d’origine]**.\
+1. Pour une nouvelle épreuve, sous **[!UICONTROL Paramètres d’épreuve]**, sélectionnez **[!UICONTROL Exiger que les décisions soient signées de manière électronique]**.\
    Ou\
-   Pour un BAT existant, sous **[!UICONTROL Settings]**, sélectionnez **[!UICONTROL Download of original file]**.
+   Pour une épreuve existante, sous **[!UICONTROL Paramètres]**, sélectionnez **[!UICONTROL Exiger que les décisions soient signées de manière électronique]**.
 
-## Autoriser d’autres utilisateurs à s’abonner au BAT
+Pour plus d’informations sur les décisions, voir [Configurer les options de décision d’approbation dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 
-L’abonnement est un paramètre avancé qui fonctionne avec l’URL du bon à tirer et le BAT.
+## Interdire aux utilisateurs et utilisatrices de télécharger le fichier d’origine
 
-Par défaut, les personnes qui n&#39;ont pas été spécifiquement ajoutées au BAT et qui utilisent l&#39;URL du BAT ou le BAT pour y accéder ne peuvent afficher que le BAT en mode Lecture seule. Les personnes qui sont déjà réviseurs sur le BAT peuvent se connecter à l’aide de leur adresse électronique. Pour plus d’informations, voir [Gestion des rôles de BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+Vous pouvez empêcher les approbateurs et approbatrices d’une épreuve de télécharger le fichier d’origine à partir duquel une épreuve a été créée.
 
-L&#39;inscription au BAT permet aux personnes qui n&#39;ont pas été explicitement ajoutées au BAT de s&#39;inscrire au BAT (c&#39;est-à-dire de s&#39;ajouter au BAT). Le rôle et l’alerte par courrier électronique que vous sélectionnez leur seront alors attribués dans les paramètres d’abonnement.
-
-Si l&#39;inscription a été activée sur un BAT, les champs ci-dessous deviennent actifs :
-
-* **[!UICONTROL Validation d’abonné requise]** - L’abonné doit cliquer sur un lien dans un email pour accéder à un BAT\
-   Cette option signifie que la personne qui s&#39;abonne n&#39;aura pas un accès immédiat au BAT, mais qu&#39;elle aura un lien vers le BAT dans un email. La validation des abonnés a pour but de s’assurer que la personne a saisi une adresse électronique correcte à laquelle elle a accès.
-
-* **[!UICONTROL Rôle par défaut pour les nouveaux abonnés]** : il s’agit du rôle de BAT par défaut qui sera attribué à tous les réviseurs qui s’abonnent au BAT.
-* **[!UICONTROL Alerte par défaut pour les nouveaux abonnés]** : il s’agit de l’alerte par défaut qui sera attribuée à tous les réviseurs qui s’abonnent au BAT.
-
-Voir aussi [S’abonner à un bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
-
-Pour permettre à d’autres utilisateurs de s’abonner à un BAT :
-
-1. Créez un BAT, comme décrit dans la section [Générer des BAT dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+1. Créez une épreuve, comme décrit dans la section [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    Ou\
-   Ouvrez la page Détails du bon à tirer pour un BAT existant, comme décrit dans la section [Gérer les détails du bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Ouvrez la page Détails de l’épreuve pour une épreuve existante, comme décrit dans la section [Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. Pour un nouveau BAT, sous **[!UICONTROL Paramètres du BAT]**, désélectionnez **[!UICONTROL Abonnez-vous au BAT via une URL publique ou un code incorporé]**.\
+1. Pour une nouvelle épreuve, sous **[!UICONTROL Paramètres d’épreuve]**, désélectionnez **[!UICONTROL Télécharger le fichier d’origine]**.\
    Ou\
-   Pour un BAT existant, sous **[!UICONTROL Settings]**, sélectionnez **[!UICONTROL Subscription]**.
+   Pour une épreuve existante, sous **[!UICONTROL Paramètres]**, sélectionnez **[!UICONTROL Télécharger le fichier d’origine]**.
+
+## Autoriser d’autres utilisateurs et utilisatrices à s’abonner à l’épreuve
+
+L’abonnement est un paramètre avancé qui fonctionne avec l’URL de l’épreuve et la mini-épreuve.
+
+Par défaut, les personnes qui n’ont pas été spécifiquement ajoutées à l’épreuve et qui utilisent l’URL de l’épreuve ou la mini-épreuve pour y accéder ne peuvent qu’afficher l’épreuve en mode Lecture seule. Les personnes qui sont déjà approbateurs ou approbatrices sur l’épreuve peuvent se connecter via leur adresse e-mail. Pour plus d’informations, voir [Gérer les rôles de épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+
+L’activation de l’inscription à l’épreuve permet aux personnes qui n’y ont pas été explicitement ajoutées de s’y inscrire (c’est-à-dire de s’ajouter à l’épreuve). Elles recevront alors le rôle et l’alerte e-mail que vous leur avez attribués dans les paramètres d’abonnement.
+
+Si l’inscription a été activée sur une épreuve, les champs ci-dessous deviennent actifs :
+
+* **[!UICONTROL Validation d’abonnement requise]** : la personne abonnée doit cliquer sur un lien dans un e-mail pour accéder à une épreuve.\
+   En sélectionnant cette option, la personne qui s’abonne ne disposera pas d’un accès immédiat à l’épreuve, mais recevra un lien vers l’épreuve par e-mail. La validation d’abonnement a pour but de s’assurer que la personne a saisi une adresse e-mail correcte à laquelle elle a accès.
+
+* **[!UICONTROL Rôle par défaut pour les nouvelles personnes abonnées]** : il s’agit du rôle de l’épreuve par défaut qui sera attribué à tous les approbateurs et à toutes les approbatrices qui s’abonnent à l’épreuve.
+* **[!UICONTROL Alerte e-mail par défaut pour les nouveaux abonnés]** : il s’agit de l’alerte e-mail par défaut qui sera affectée à tous les approbateurs et toutes les approbatrices qui s’abonnent à l’épreuve.
+
+Voir aussi [S’abonner à une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
+
+Pour permettre à d’autres utilisateurs et utilisatrices de s’abonner à une épreuve :
+
+1. Créez une épreuve, comme décrit dans la section [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+   Ou\
+   Ouvrez la page Détails de l’épreuve pour une épreuve existante, comme décrit dans la section [Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+1. Pour une nouvelle épreuve, sous **[!UICONTROL Paramètres d’épreuve]**, désélectionnez **[!UICONTROL S’abonner à l’épreuve via une URL publique ou un code intégré]**.\
+   Ou\
+   Pour une épreuve existante, sous **[!UICONTROL Paramètres]**, sélectionnez **[!UICONTROL Abonnement]**.

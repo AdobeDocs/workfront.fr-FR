@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront
+title: Ajouter des résultats aux objectifs dans les Objectifs Adobe Workfront
 description: Les résultats mesurent la progression d’un objectif. L’activation de l’objectif et l’enregistrement des progrès réalisés ne sont possibles que si des résultats, des activités ou des objectifs alignés sont associés à l’objectif.
 author: Alina
 feature: Workfront Goals
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Ajouter des résultats aux objectifs dans Objectifs Adobe Workfront
+# Ajouter des résultats aux objectifs dans les Objectifs Adobe Workfront
 
 Les résultats mesurent la progression d’un objectif. L’activation de l’objectif et l’enregistrement des progrès réalisés ne sont possibles que si des résultats, des activités ou des objectifs alignés sont associés à l’objectif.
 
@@ -42,9 +42,9 @@ Vous devez disposer des éléments suivants :
  <tr>
  <td role="rowheader">Licence Adobe Workfront*</td>
  <td>
- <p>Nouvelle licence : contributeur ou contributrice ou supérieure</p>
+ <p>Nouvelle licence : contributeur ou contributrice ou niveau supérieur</p>
  Ou
- <p>Licence actuelle : demande ou supérieure</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
+ <p>Licence actuelle : demande ou niveau supérieur</p> <p>Pour plus d’informations, voir <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
@@ -66,11 +66,11 @@ Vous devez disposer des éléments suivants :
   <div>
   <p>Autorisations d’affichage ou de niveau supérieur sur l’objectif pour l’afficher</p>
   <p>Autorisations de gestion sur l’objectif pour le modifier</p>
-  <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
@@ -81,12 +81,12 @@ Vous devez disposer des éléments suivants :
 
 ## Conditions préalables
 
-Vous devez disposer des éléments suivants avant de commencer :
+Vous devez disposer des éléments suivants avant de pouvoir démarrer :
 
 * Un modèle de disposition qui inclut la zone Objectifs dans le menu principal.
 * Objectif existant.
 
-  Pour plus d’informations sur la création d’objectifs, voir la section [Créer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+  Pour plus d’informations sur la création d’objectifs, consultez la section [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >Un objectif ne peut pas dépasser 1 000 activités, résultats, projets et objectifs alignés.
@@ -147,15 +147,15 @@ Adding results to goals differs depending on which environment you use.
 
    ![](assets/new-result-box-unshimmed.png)
 
-1. Saisissez un nom pour le résultat dans le champ **Nom du résultat**. Il s’agit d’un champ obligatoire.
-1. (Facultatif) Supprimez votre nom du champ Personne propriétaire du résultat si vous souhaitez affecter le résultat à un autre utilisateur ou une autre utilisatrice. **** Par défaut, vous êtes la personne propriétaire d’une activité que vous créez.
+1. Saisissez un nom pour le résultat dans le champ **Nom du résultat**. Champ obligatoire.
+1. (Facultatif) Supprimez votre nom du champ **Personne propriétaire du résultat** si vous souhaitez affecter le résultat à un autre utilisateur ou une autre utilisatrice. Par défaut, vous êtes la personne propriétaire d’une activité que vous créez.
 
    >[!NOTE]
    >
    >Vous ne pouvez pas affecter une équipe, un groupe ou l’entreprise en tant que propriétaire de résultat.
 
 1. Dans la zone **Comment voulez-vous mesurer votre résultat ?**, renseignez les informations suivantes :
-   * **Type de valeur**: indique comment mesurer la progression par rapport au résultat. Vous pouvez mesurer la progression de manière numérique, en pourcentage ou en utilisant une valeur en devise.
+   * **Type de valeur** : indique comment mesurer la progression par rapport au résultat. Vous pouvez mesurer la progression de manière numérique, en pourcentage ou en utilisant une valeur en devise.
 
      Sélectionnez un type de valeur parmi les options répertoriées dans le tableau suivant :
 
@@ -171,4 +171,4 @@ Adding results to goals differs depending on which environment you use.
 
    Le résultat s’affiche dans la section des indicateurs de progression de la page d’objectifs, sous le regroupement « Résultats ».
 
-   Une fois l’objectif activé, sa progression est automatiquement actualisée lorsque vous mettez à jour la progression d’un résultat. Pour plus d’informations sur l’activation d’un objectif, voir [Activer des objectifs dans Objectifs Adobe Workfront](../goal-management/activate-goals.md).
+   Une fois l’objectif activé, sa progression est automatiquement actualisée lorsque vous mettez à jour la progression d’un résultat. Pour plus d’informations sur l’activation d’un objectif, consultez la section [Activer des objectifs dans Objectifs Adobe Workfront](../goal-management/activate-goals.md).

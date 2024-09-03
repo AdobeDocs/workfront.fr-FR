@@ -3,7 +3,7 @@ title: Journaux d’audit
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: En tant qu’administrateur Adobe Workfront, vous pouvez effectuer le suivi des modifications utilisateur déclenchées dans le système au cours des 90 derniers jours à l’aide des journaux d’audit.
+description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez effectuer le suivi des modifications utilisateur déclenchées dans le système au cours des 90 derniers jours à l’aide des journaux d’audit.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 4%
+ht-degree: 98%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 4%
 
 <!--Audited: 01/2024-->
 
-En tant qu’administrateur Adobe Workfront, vous pouvez effectuer le suivi des modifications utilisateur déclenchées dans le système au cours des 90 derniers jours à l’aide des journaux d’audit décrits ci-dessous.
+En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez effectuer le suivi des modifications utilisateur déclenchées dans le système au cours des 90 derniers jours à l’aide des journaux d’audit décrits ci-dessous.
 
-Pour plus d’informations sur l’affichage et le filtrage de ce que vous souhaitez voir dans ces journaux d’audit, voir [Affichage et exportation des journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Pour plus d’informations sur l’affichage et le filtrage de ce que vous souhaitez voir dans ces journaux d’audit, voir [Afficher et exporter des journaux d’audit](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Informations disponibles dans un journal d’audit
 
-Les champs suivants sont enregistrés dans chaque entrée du journal d’audit :
+Les champs suivants sont enregistrés dans chaque entrée du journal d’audit :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit :
  <tbody> 
   <tr> 
    <td role="rowheader">Date et heure</td> 
-   <td>Lorsque l’action s’est produite.</td> 
+   <td>Moment où l’action s’est produite.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type de journal</td> 
@@ -41,11 +41,11 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit :
   </tr> 
   <tr> 
    <td role="rowheader">Nom d'utilisateur</td> 
-   <td> <p>Nom de l’utilisateur qui a exécuté l’action.</p> </td> 
+   <td> <p>Nom de l’utilisateur ou l’utilisatrice qui a effectué l’action.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Action</td> 
-   <td> Actions effectuées par l’utilisateur, telles que Modifier, Créer et Supprimer. </td> 
+   <td> Actions effectuées, telles que Modifier, Créer et Supprimer. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objet</td> 
@@ -57,7 +57,7 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit :
   </tr> 
   <tr> 
    <td role="rowheader">Adresse IP</td> 
-   <td> <p>Adresse IP de l’utilisateur qui a exécuté l’action au moment de l’action.</p> <p>L’adresse IP n’est pas disponible pour certaines actions système.</p> </td> 
+   <td> <p>Adresse IP de la personne ayant exécuté l’action au moment de l’action.</p> <p>L’adresse IP n’est pas disponible pour certaines actions système.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,61 +70,61 @@ Les champs suivants sont enregistrés dans chaque entrée du journal d’audit :
 * [Champ personnalisé](#custom-field)
 * [Formulaires personnalisés](#custom-forms)
 * [Section personnalisée](#custom-section)
-* [Taux d’Exchange](#exchange-rate)
+* [Taux de change](#exchange-rate)
 * [Groupe](#group)
-* [Rôles de tâche](#job-roles)
+* [Fonctions](#job-roles)
 * [Tentative de connexion](#login-attempt)
 * [Priorité](#priority)
-* [Préférences du projet](#project-preference)
+* [Préférence du projet](#project-preference)
 * [Gravité](#severity)
 * [Statut](#status)
-* [Préférences Tâches et problèmes](#tasks-issues-preferences)
+* [Préférences des tâches et des problèmes](#tasks-issues-preferences)
 * [l’utilisateur ou de l’utilisatrice](#user)
 
 ### Niveau d’accès {#access-level}
 
-Le système génère une entrée de journal de niveau d’accès lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal de niveau d’accès lorsqu’une personne effectue l’une des actions suivantes :
 
 * Crée un niveau d’accès
-* Supprime un niveau d&#39;accès
-* Modifie un niveau d’accès :
+* Supprime un niveau d’accès
+* Modifie un niveau d’accès :
 
-   * Modification du type de licence
-   * Modifie les autorisations en ce qui concerne les projets, tâches, problèmes, Portfolios, programmes, rapports, documents, utilisateurs ou modèles.
+   * Modifie le type de licence
+   * Modifie les autorisations en ce qui concerne les projets, tâches, problèmes, Portfolios, programmes, rapports, documents, utilisateurs, utilisatrices ou modèles
 
      >[!NOTE]
      >
-     >Le système n’enregistre aucune modification des autorisations dans les données financières ou dans les types d’accès suivants : Afficher et Modifier.
+     >Le système n’enregistre aucune modification des autorisations dans les données financières ou dans les types d’accès suivants : Afficher et Modifier.
      >
-     >Par exemple, si un utilisateur passe du type d’accès Planificateur Vue à Modifier, le système n’affiche pas les informations contenues dans le menu déroulant Régler vos paramètres .
+     >Par exemple, si une personne passe le type d’accès Planificateur ou planificatrice d’Afficher à Modifier, le système n’affiche pas les informations contenues dans le menu déroulant Affiner vos paramètres.
 
 ### Entreprise {#company}
 
-Le système génère une entrée de journal d’audit de l’entreprise lorsqu’un utilisateur effectue l’une des opérations suivantes :
+Le système génère une entrée de journal d’audit d’une entreprise lorsqu’un utilisateur ou une utilisatrice effectue l’une des opérations suivantes :
 
-* Création d’une entreprise
-* Modifie une société :
+* Crée une entreprise.
+* Modifie une entreprise :
 
-   * Renomme
-   * Ajoute ou supprime des membres
-   * Ajoute, modifie ou supprime la valeur dans son champ Groupe .
-   * Ajoute ou modifie un taux de facturation d’entreprise pour un rôle de tâche
-   * Suppression d’un taux de facturation d’entreprise pour un rôle de tâche
+   * Modifie le nom.
+   * Ajoute ou supprime des personnes membres.
+   * Ajoute, modifie ou supprime la valeur dans son champ Groupe.
+   * Ajoute ou modifie un taux de facturation d’entreprise pour une fonction.
+   * Supprime un taux de facturation d’entreprise pour une fonction.
    * Définit cette variable comme entreprise principale pour l’organisation.
-   * Joindre ou supprimer un formulaire personnalisé
+   * Joint ou supprime un formulaire personnalisé.
 
-* Suppression d’une entreprise
+* Supprime une entreprise.
 
-Pour plus d’informations sur les états, voir [Présentation des états](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Pour plus d’informations sur les statuts, voir [Vue d’ensemble des statuts](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Condition {#condition}
 
-Le système génère une entrée de journal de contrôle des conditions lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit d’une condition lorsqu’un utilisateur ou une utilisatrice effectue l’une des opérations suivantes :
 
 * Crée une condition.
-* Modifie une condition :
+* Modifie une condition :
 
-   * Modifie le nom
+   * Modifie le nom.
    * Modifie la couleur
    * Définit comme valeur par défaut
    * Modifie ou supprime la description de la condition.
@@ -132,206 +132,206 @@ Le système génère une entrée de journal de contrôle des conditions lorsqu�
 
 * Supprime une condition.
 
-Pour plus d’informations sur la configuration des rôles de tâche, voir [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Pour plus d’informations sur la configuration des fonctions, voir [Créer ou modifier une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ### Champ personnalisé {#custom-field}
 
-Le système génère une entrée de journal d’audit Champ personnalisé lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit d’un champ personnalisé lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 
-* Crée un champ personnalisé
-* Modifie un champ personnalisé :
+* Crée un champ personnalisé.
+* Modifie un champ personnalisé :
 
-   * Modifie le nom, le libellé, les instructions ou le format
-   * Modification du type d’affichage
+   * Modifie le nom, le libellé, les instructions ou le format.
+   * Modifie le type d’affichage.
 
-     Cette option est disponible uniquement si le champ est de l’un des types suivants : une seule ligne, un paragraphe, une liste déroulante, une case à cocher, un bouton radio.
+     Cette option est disponible uniquement si le champ est de l’un des types suivants : une seule ligne, paragraphe, liste déroulante, case à cocher, case d’option.
 
-   * Modification de la taille du champ
+   * Modifie la taille du champ.
 
-     Cette option est disponible uniquement si le champ est de l’un des types suivants : une seule ligne, un paragraphe, du texte avec formatage.
+     Cette option est disponible uniquement si le champ est de l’un des types suivants : une seule ligne, paragraphe, texte avec formatage.
 
    * Ajoute, supprime ou masque un choix de champ.
-   * Modifie une valeur ou une étiquette de choix de champ
+   * Modifie une valeur ou un libellé de choix de champ.
    * Configure le choix du champ à sélectionner ou non par défaut.
-   * Configure un champ de liste déroulante pour permettre plusieurs sélections ou une sélection unique.
-   * Configure un champ de date pour afficher ou non l’heure
+   * Configure un champ déroulant pour permettre plusieurs sélections ou une sélection unique.
+   * Configure un champ de date pour afficher ou non l’heure.
    * Modifie l’hyperlien ou modifie la valeur d’un champ de texte descriptif.
 
-* Supprime un champ personnalisé
-* Partage d’un champ personnalisé
+* Supprime un champ personnalisé.
+* Partage un champ personnalisé.
 
 ### Formulaires personnalisés {#custom-forms}
 
-Le système génère une entrée de journal d’audit Forms personnalisé lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit de formulaire personnalisé lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 
-* Crée un formulaire personnalisé
-* Modifie un formulaire personnalisé :
+* Modifie un formulaire personnalisé.
+* Modifie un formulaire personnalisé :
 
-   * Modification du nom ou de la description
-   * Active ou désactive la fonction est active
-   * Ajoute ou supprime un champ ou une section
-   * Pour une section personnalisée, modifie un paramètre sous Paramètres supplémentaires
+   * Modifie le nom ou la description.
+   * Active ou désactive la fonction Est actif.
+   * Ajoute ou supprime un champ ou une section.
+   * Pour une section personnalisée, modifie un paramètre sous Paramètres supplémentaires.
    * Remplace un champ par obligatoire ou non obligatoire.
-   * Modification d’un calcul dans un champ personnalisé
-   * Masque ou affiche la formule associée à un champ calculé dans le texte de survol Instructions
-   * Active ou désactive la mise à jour des calculs précédents
-   * Ajoute ou modifie une logique de saut ou une logique d’affichage
+   * Modifie un calcul dans un champ personnalisé.
+   * Masque ou affiche la formule associée à un champ calculé dans le texte de survol Instructions.
+   * Active ou désactive la mise à jour des calculs précédents.
+   * Ajoute ou modifie une logique de saut ou une logique d’affichage.
 
      <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
-* Suppression d’un formulaire personnalisé
-* Partage d’un formulaire personnalisé
+* Modifie un formulaire personnalisé.
+* Partage un formulaire personnalisé.
 
 ### Section personnalisée {#custom-section}
 
-Le système génère une entrée de journal d’audit Section personnalisée lorsqu’un utilisateur effectue l’une des actions suivantes dans un formulaire personnalisé :
+Le système génère une entrée de journal d’audit Section personnalisée lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes dans un formulaire personnalisé :
 
-* Crée une section personnalisée
-* Modification du nom ou de la description d’une section personnalisée
-* Suppression d’une section personnalisée
+* Crée une section personnalisée.
+* Modifie le nom ou de la description d’une section personnalisée.
+* Supprime une section personnalisée.
 
 Pour plus d’informations sur les sections personnalisées dans les formulaires personnalisés, voir [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Taux de change {#exchange-rate}
 
-Le système génère une entrée de journal d’audit de taux d’Exchange lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit Taux de change lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 
-* Crée un taux d&#39;exchange
-* Change un taux d’exchange :
+* Crée un taux de change.
+* Modifie un taux de change :
 
-   * Ajoute une devise
-   * Modification du taux de la devise
+   * Ajoute une devise.
+   * Modifie le taux de la devise.
    * Définit la devise comme devise de base (par défaut) pour tous les projets et rapports du système.
 
-* Supprime un taux d&#39;exchange
+* Supprime un taux de change.
 
-Pour plus d&#39;informations sur la configuration des taux d&#39;exchange, voir [Configuration des taux d&#39;exchange](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Pour plus d’informations sur la configuration des taux de change, voir [Configurer les taux de change](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### Groupe {#group}
 
-Le système génère une entrée de journal d’audit de groupe lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit Groupe lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 
-* Crée un groupe
-* Supprime un groupe
-* Modifie un groupe :
+* Crée un groupe.
+* Supprime un groupe.
+* Modifie un groupe :
 
-   * Ajoute ou supprime des utilisateurs
-   * Ajoute ou supprime des sous-groupes
+   * Ajoute ou supprime des utilisateurs et utilisatrices.
+   * Ajoute ou supprime des sous-groupes.
 
 ### Fonctions {#job-roles}
 
-Le système génère une entrée de journal d’audit des rôles de tâche lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit Fonctions lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 
-* Crée un rôle de tâche
-* Modifie un rôle de tâche :
+* Crée une fonction.
+* Modifie une fonction :
 
-   * Modifie le nom
-   * Ajoute, modifie ou supprime la description
-   * Ajoute, modifie ou supprime le coût horaire (coût/heure).
-   * Ajoute, modifie ou supprime le taux de facturation (facturation/heures).
+   * Modifie le nom.
+   * Ajoute, modifie ou supprime la description.
+   * Ajoute, modifie ou supprime le coût par heure (Coût/heure).
+   * Ajoute, modifie ou supprime le taux de facturation (Fact/Hr.).
 
-* Supprime un rôle de tâche
+* Supprime une fonction.
 
-Pour plus d’informations sur la configuration des rôles de tâche, voir [Création et gestion des rôles de tâche](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Pour plus d’informations sur la configuration des fonctions, voir [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Tentative de connexion {#login-attempt}
 
-Le système génère une entrée de journal de contrôle de tentative de connexion lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit Tentative de connexion lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 
-* Se connecte, se déconnecte ou échoue à une tentative de connexion dans Workfront (dans un navigateur et dans l’application mobile).
-* Connexion, déconnexion ou échec d’une tentative de connexion dans une intégration Workfront (Workfront pour Slack et Workfront pour Salesforce, par exemple)
-* Se connecter ou se déconnecter de l’API Workfront
+* Se connecte, se déconnecte ou effectue une tentative de connexion qui échoue dans Workfront (dans un navigateur et dans l’application mobile).
+* Se connecte, se déconnecte ou effectue une tentative de connexion qui échoue dans une intégration Workfront (Workfront pour Slack et Workfront pour Salesforce, par exemple).
+* Se connecte ou se déconnecte de l’API Workfront.
 
-Les journaux de tentative de connexion ne sont pas enregistrés lorsqu’un administrateur Workfront utilise la fonction Se connecter en tant que .
+Les journaux de tentative de connexion n’enregistrent pas lorsqu’un administrateur ou une administratrice Workfront utilise la fonction Connexion en tant que.
 
 >[!NOTE]
 >
->Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+>Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 
 ### Priorité {#priority}
 
-Le système génère une entrée de journal d’audit de priorité lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit Priorité lorsqu’un utilisateur ou une utilisatrice effectue l’une des actions suivantes :
 
-* Crée une priorité
-* Modifie une priorité :
+* Crée une priorité.
+* Modifie une priorité :
 
-   * Modifie le nom
+   * Modifie le nom.
    * Modifie la couleur
    * Définit comme valeur par défaut
-   * Ajoute, modifie ou supprime la description de la priorité.
+   * Ajoute, modifie ou supprime la description de la priorité
    * Masque ou affiche la priorité
 
 * Supprime une priorité
 
-Pour plus d’informations sur la configuration des priorités, voir [Création et personnalisation des priorités](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Pour plus d’informations sur la configuration des priorités, voir [Créer et personnaliser les priorités](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Préférence du projet {#project-preference}
 
-Le système génère une entrée de journal d’audit Préférences du projet lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit Préférences du projet lorsqu’une personne effectue l’une des actions suivantes :
 
-* Crée un trimestre personnalisé
-* Modifie une préférence de projet :
+* Crée un calendrier personnalisé
+* Modifie une préférence de projet :
 
-   * Verrouille ou déverrouille-la
-   * Modifie l’un de ses paramètres.
-   * Active, désactive ou modifie le
-   * Modification d’un calcul de chronologie
+   * La verrouille ou déverrouille
+   * Modifie l’un de ses paramètres
+   * L’active, la désactive ou la modifie
+   * Modifie un calcul de chronologie
 
 * Supprime un trimestre personnalisé
 
-Pour plus d’informations sur les préférences du projet, voir [Configuration des préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Pour plus d’informations sur les préférences de projet, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ### Gravité {#severity}
 
-Le système génère une entrée de journal d’audit de gravité lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit de gravité lorsqu’une personne effectue l’une des actions suivantes :
 
 * Crée une gravité de problème
-* Modifie une gravité de problème :
+* Modifie une gravité de problème :
 
-   * Modifie le nom
+   * Modifie le nom.
    * Modifie la couleur
    * Définit comme valeur par défaut
-   * Modifications ou suppression de la description de la gravité
+   * Modifie ou supprime la description de la gravité
    * Masque ou affiche la gravité
 
 * Supprime une gravité de problème
 
-Pour plus d’informations sur la configuration des rôles de tâche, voir [Création ou personnalisation de la gravité des problèmes](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Pour plus d’informations sur la configuration des fonctions, voir [Créer ou personnaliser la gravité des problèmes](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 ### Statut {#status}
 
-Le système génère une entrée de journal d’audit d’état lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit Statut lorsqu’une personne effectue l’une des actions suivantes :
 
-* Crée un état au niveau du système ou du groupe.
-* Modifie un état au niveau du système ou du groupe :
+* Crée un statut au niveau du système ou du groupe
+* Modifie un statut au niveau du système ou du groupe :
 
-   * Renomme
-   * Rend l’état par défaut
-   * Verrouille ou déverrouille-la
-   * Masque ou annule cette opération
-   * Modification de la couleur ou de la description
+   * Modifie le nom.
+   * Fait du statut le statut par défaut
+   * La verrouille ou déverrouille
+   * Le masque ou annule son masquage
+   * Modifie la couleur ou la description
 
-* Supprime un état au niveau du système ou du groupe.
+* Supprime un statut au niveau du système ou du groupe
 
-Pour plus d’informations sur les états, voir [Présentation des états](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Pour plus d’informations sur les statuts, voir [Vue d’ensemble des statuts](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Préférences des tâches et des événements {#tasks-issues-preferences}
 
-Le système génère une entrée de journal d’audit des préférences Tâches et problèmes lorsqu’un utilisateur modifie une préférence Tâches et problèmes de l’une des manières suivantes :
+Le système génère une entrée de journal d’audit des préférences relatives aux tâches et problèmes lorsqu’une personne modifie une préférence relative aux tâches et problèmes de l’une des manières suivantes :
 
 * Verrouille ou déverrouille une préférence
-* Modification du paramètre d’une préférence
-* Modification d’un paramètre Accès pour les tâches, les problèmes ou les requêtes
+* Modifie le paramètre d’une préférence
+* Modifie un paramètre Accès pour les tâches, les problèmes ou les requêtes
 
-Pour plus d’informations sur les préférences de tâche et de problème, voir [Configuration des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Pour plus d’informations sur les préférences relatives aux tâches et problèmes, voir [Configurer les préférences en matière de tâches et de problèmes à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### l’utilisateur ou de l’utilisatrice {#user}
 
-Le système génère une entrée de journal d’audit utilisateur lorsqu’un utilisateur effectue l’une des actions suivantes :
+Le système génère une entrée de journal d’audit utilisateur lorsqu’une personne effectue l’une des actions suivantes :
 
-* Création d’un utilisateur
+* Crée une personne
 
   <!--
   DRAFTED IN FLARE:
@@ -341,9 +341,9 @@ Le système génère une entrée de journal d’audit utilisateur lorsqu’un ut
 
   >[!NOTE]
   >
-  >Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
+  >Cette option n’est pas disponible si votre organisation a été intégrée à Adobe Admin Console. Consultez votre administrateur ou administratrice réseau ou informatique si vous avez besoin de plus d’informations.
 
-* Suppression d’un utilisateur
-* Modification du niveau d’accès, de la société, de l’équipe ou du groupe d’un utilisateur
-* Active un utilisateur
-* Désactive un utilisateur
+* Supprime une personne
+* Modifie le niveau d’accès, l’entreprise, l’équipe ou le groupe d’une personne.
+* Active une personne.
+* Désactive une personne.

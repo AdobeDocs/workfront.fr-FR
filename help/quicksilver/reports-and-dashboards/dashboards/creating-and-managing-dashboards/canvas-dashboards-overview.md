@@ -1,6 +1,6 @@
 ---
-title: Présentation des tableaux de bord de canevas
-description: Vous pouvez créer des tableaux de bord Canevas qui intègrent des visualisations Canevas de rapports aux rapports traditionnels et offrent de nouvelles options de mise en page.
+title: Vue d’ensemble des tableaux de bord de zone de travail
+description: Vous pouvez créer des tableaux de bord de zones de travail qui intègrent des visualisations de zones de travail de reporting dans des rapports traditionnels et offrent de nouvelles options de disposition.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
@@ -8,65 +8,65 @@ exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
 source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Présentation des tableaux de bord de canevas
+# Vue d’ensemble des tableaux de bord de zone de travail
 
 <!-- Audited: 12/2023 -->
 
-Les tableaux de bord de canevas, une fonctionnalité en cours de développement pour les tableaux de bord, offre une nouvelle option pour créer des tableaux de bord efficaces dans Workfront. Les tableaux de bord du canevas de rapports permettent d’inclure facilement des visualisations du canevas de rapports dans les rapports existants, offrant ainsi plus de flexibilité et de nouvelles options de mise en page.
+Tableaux de bord de zones de travail, une nouvelle fonctionnalité en cours de développement pour les tableaux de bord, offrent une nouvelle option pour créer des tableaux de bord performants dans Workfront. Avec les tableaux de bord de zones de travail, il est plus facile d’inclure les visualisations de la zone de travail de reporting dans les rapports existants, offrant ainsi plus de flexibilité et de nouvelles options de disposition.
 
-Cette fonctionnalité est en cours de développement et ne prend pas encore en charge :
-* pages externes
-* intégration de calendrier
-* rapports générés
-* distribution par le biais de modèles de mise en page
+Cette fonctionnalité est en cours de développement et ne prend pas encore en charge :
+* les pages externes
+* l’intégration de calendrier
+* les rapports générés
+* la distribution par le biais de modèles de mise en page
 
-Pour obtenir la liste complète des fonctionnalités qui ont été ajoutées aux tableaux de bord Canvas, voir [Tableaux de bord Canvas : activité de publication](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
+Pour obtenir la liste complète des fonctionnalités qui ont été ajoutées aux tableaux de bord de zones de travail, consultez la section [Tableaux de bord de zones de travail : activité Version.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
-## Accéder aux tableaux de bord de canevas
+## Accéder aux tableaux de bord de zones de travail
 
-Une nouvelle option Tableaux de bord de canevas dans le panneau gauche de la page d’entrée des tableaux de bord existants peut être activée pour accéder aux tableaux de bord de canevas. Cette option de menu est désactivée par défaut et doit être activée pour y accéder. Voir les instructions ci-dessous pour plus d’informations sur l’activation de l’option de menu et la navigation vers celle-ci.
+Une nouvelle option « Tableaux de bord de zones de travail » dans le panneau gauche de la page de destination des tableaux de bord existants peut être activée pour accéder aux tableaux de bord de zones de travail. Cette option de menu est désactivée par défaut et doit être activée pour y donner accès. Voir les instructions ci-dessous pour savoir comment activer l’option de menu et y accéder.
 
-### Ajout de tableaux de bord de canevas au panneau de gauche Tableaux de bord
+### Ajouter l’option « Tableaux de bord de zones de travail » au panneau de gauche des tableaux de bord
 
 >[!IMPORTANT]
 >
->Vous devez disposer au moins des droits d’affichage pour les rapports et les tableaux de bord afin de basculer l’élément Tableaux de bord du canevas dans le modèle de mise en page.
+>Pour activer/désactiver l’élément « Tableaux de bord de zones de travail » dans le modèle de mise en page, il est nécessaire d’avoir au moins les droits d’affichage pour les rapports et les tableaux de bord.
 
-1. Commencez à travailler sur le modèle de mise en page dans lequel vous souhaitez activer les tableaux de bord de la zone de travail, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Commencez à travailler sur le modèle de mise en page dans lequel vous souhaitez activer les tableaux de bord de zones de travail, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Cliquez sur le menu déroulant **Personnaliser ce que les utilisateurs voient**, puis cliquez sur **Tableaux de bord**.
+1. Cliquez sur le menu déroulant **Personnaliser ce que les utilisateurs et les utilisatrices voient**, puis cliquez sur **Tableaux de bord**.
 
-1. Dans la liste **Panneau de gauche** qui s’affiche ci-dessous, cliquez sur l’icône ![](assets/delete-secondary-nav-item.png) en regard de **Tableaux de bord de canevas**. L’icône passera à ![](assets/add-secondary-nav-item.png) pour indiquer qu’elle est désormais visible dans le panneau de gauche Tableaux de bord .
+1. Dans la liste du **panneau de gauche** qui s’affiche ci-dessous, cliquez sur l’icône ![](assets/delete-secondary-nav-item.png) à côté des **tableaux de bord des zones de travail**. L’icône devient ![](assets/add-secondary-nav-item.png) pour indiquer qu’elle est désormais visible dans le panneau de gauche des tableaux de bord.
 
-1. Cliquez sur **Enregistrer** en bas de l’écran.
+1. Cliquez sur **Enregistrer** au bas de l’écran.
 
-### Ouvrir les tableaux de bord de canevas
+### Ouvrez les tableaux de bord de zones de travail.
 
-1. Assurez-vous d’avoir activé l’option Tableaux de bord de canevas dans votre modèle de mise en page. Voir **Ajout de tableaux de bord de canevas au menu Tableaux de bord** ci-dessus pour obtenir des instructions.
+1. Assurez-vous d’avoir activé l’option des tableaux de bord de zones de travail dans votre modèle de mise en page. Consultez la section **Ajouter des tableaux de bord de zones de travail au menu des tableaux de bord** ci-dessus pour obtenir des instructions.
 
-1. Cliquez sur l’icône du menu principal ![](assets/main-menu-icon.png), puis sur **Tableaux de bord**.
+1. Cliquez sur l’icône ![](assets/main-menu-icon.png) du menu principal, puis cliquez sur **Tableaux de bord**.
 
-1. Dans le panneau de gauche, cliquez sur **Tableaux de bord de la zone de travail**.
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
 
-## Utilisation des tableaux de bord de zone de travail
+## Utiliser les tableaux de bord de zones de travail
 
-### Créer un tableau de bord de canevas
+### Créer un tableau de bord de zones de travail
 
-1. Ouvrez les tableaux de bord du canevas comme décrit dans la section **Open Canvas Dashboard** ci-dessus.
+1. Ouvrez les tableaux de bord de zones de travail comme décrit dans la section **Ouvrir les tableaux de bord de zones de travail** ci-dessus.
 
-1. Cliquez sur **+ Nouveau tableau de bord**
+1. Cliquez sur **+ Nouveau tableau de bord.**
 
 1. Cliquez sur **Sans titre** dans le coin supérieur gauche pour saisir un nom pour le tableau de bord.
 
-1. Cliquez sur **Terminé** dans le coin supérieur droit pour enregistrer votre nouveau tableau de bord ou commencez à ajouter des widgets comme décrit dans **Ajout d’un rapport à un tableau de bord de zone de travail** ci-dessous.
+1. Cliquez sur **Terminé** dans le coin supérieur droit pour enregistrer votre nouveau tableau de bord ou commencer à ajouter des widgets comme décrit dans la section ci-dessous **Ajouter un rapport à un tableau de bord de zones de travail** 
 
-### Ajout d’un rapport à un tableau de bord Zone de travail
+### Ajouter un rapport à un tableau de bord de zones de travail
 
-1. Ouvrez les tableaux de bord du canevas comme décrit dans la section **Open Canvas Dashboard** ci-dessus.
+1. Ouvrez les tableaux de bord de zones de travail comme décrit dans la section ci-dessus **Ouvrir les tableaux de bord de zones de travail**.
 
 1. Cliquez sur le tableau de bord auquel vous souhaitez ajouter un rapport à partir de la liste des tableaux de bord.
 
@@ -78,17 +78,17 @@ Une nouvelle option Tableaux de bord de canevas dans le panneau gauche de la pag
 
 1. Les widgets sélectionnés s’affichent dans le tableau de bord. Cliquez sur **Configuration** au centre d’un widget pour choisir le rapport qui s’affichera.
 
-1. Commencez à saisir le nom du rapport que vous souhaitez afficher dans le champ **Rechercher le rapport** . Lorsque le rapport s’affiche dans la liste, cliquez sur l’icône **Liste du rapport** ou **Rapport de graphique** en regard de son nom pour afficher les informations de ce rapport dans le format de votre choix.
+1. Commencez à saisir le nom du rapport que vous souhaitez afficher dans le champ **Rechercher un rapport**. Lorsque le rapport s’affiche dans la liste, cliquez sur l’icône **Rapport sur les listes** ou **Rapport sur les graphiques** à côté de son nom pour afficher les informations de ce rapport dans le format de votre choix.
 
 >[!WARNING]
-> Bien que l’ajout de plusieurs widgets qui affichent des informations issues du même rapport soit actuellement possible, il est recommandé de n’afficher chaque rapport qu’une seule fois, car cela peut affecter les performances du tableau de bord.
+> Bien qu’il soit actuellement possible d’ajouter plusieurs widgets affichant des informations issues du même rapport, il est recommandé de n’afficher chaque rapport qu’une seule fois, car cela peut affecter les performances du tableau de bord.
 
-### Modification d’un widget dans un tableau de bord de zone de travail
+### Modifier un widget dans un tableau de bord de zones de travail
 
-1. Ouvrez les tableaux de bord du canevas comme décrit dans la section **Open Canvas Dashboard** ci-dessus.
+1. Ouvrez les tableaux de bord de zones de travail comme décrit dans la section **Ouvrir les tableaux de bord de zones de travail** ci-dessus.
 
 1. Cliquez sur le tableau de bord que vous souhaitez modifier dans la liste des tableaux de bord.
 
-1. (Facultatif) Pour redimensionner un widget, faites glisser l’icône **Redimensionner** dans le coin inférieur gauche du widget jusqu’à la taille souhaitée.
+1. (Facultatif) Pour redimensionner un widget, effectuez un glisser-déposer de l’icône **Redimensionner** dans le coin inférieur gauche du widget à la taille souhaitée.
 
-1. (Facultatif) Pour repositionner un widget, faites glisser l’espace blanc bordant du widget jusqu’à la position relative souhaitée sur le tableau de bord.
+1. (Facultatif) Pour déplacer un widget, faites glisser l’espace blanc autour du widget jusqu’à la position souhaitée sur le tableau de bord.

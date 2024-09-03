@@ -24,7 +24,7 @@ ht-degree: 99%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-En tant qu’administrateur ou administratrice Adobe Workfront ou administrateur ou administratrice de groupes, vous pouvez créer et modifier des modèles de mise en page pour personnaliser les éléments de mise en page suivants dans Workfront pour vos utilisateurs et utilisatrices :
+En tant qu’administrateur ou administratrice Adobe Workfront ou administrateur ou administratrice de groupes, vous pouvez créer et modifier des modèles de disposition pour personnaliser les éléments de disposition suivants dans Workfront pour vos utilisateurs et utilisatrices :
 
 * Menu principal
 * Panneau de navigation de gauche
@@ -35,44 +35,44 @@ En tant qu’administrateur ou administratrice Adobe Workfront ou administrateu
 
 Après avoir créé ou modifié un modèle de mise en page, vous pouvez l’affecter à des utilisateurs et utilisatrices individuels, à des équipes, à des groupes ou à des fonctions.
 
-La mise en page par défaut de Workfront de chaque personne dépend de son niveau d’accès et de son type de licence. Par exemple, certaines personnes peuvent ne pas voir certaines zones du menu principal. Pour plus d’informations, voir [À propos de la mise en page par défaut d’Adobe Workfront](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+La disposition par défaut de Workfront de chaque personne dépend de son niveau d’accès et de son type de licence. Par exemple, certaines personnes peuvent ne pas voir certaines zones du menu principal. Pour plus d’informations, voir [À propos de la disposition par défaut d’Adobe Workfront](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Nouvelle : standard</p>
+   <td><p>Nouveau : Standard</p>
    Ou
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Pour effectuer ces étapes au niveau du système, vous devez disposer du niveau d’accès Administrateur ou administratrice système.</p>
-<p>Pour les exécuter pour un groupe, vous devez être responsable de ce groupe.</p> <p><b>NOTE</b> :</p> <p>Si vous n’y avez pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires ont été définies pour votre niveau d’accès.
+<p>Pour les exécuter pour un groupe, vous devez être une personne responsable de ce groupe.</p> <p><b>NOTE</b> :</p> <p>Si vous n’y avez pas accès, demandez à l’administration Workfront si des restrictions supplémentaires ont été définies pour votre niveau d’accès.
 
-Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
+Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Remarques relatives à la création et à la gestion des modèles de mise en page
+## Considérations relatives à la création et à la gestion des modèles de mise en page
 
-* Les utilisateurs et utilisatrices peuvent personnaliser quelques zones de leur propre mise en page. Lorsque vous modifiez un modèle de mise en page, vos modifications s’intègrent à toutes les personnalisations effectuées, sans les écraser ni les réinitialiser. Il en va de même si vous attribuez un nouveau modèle de mise en page à des utilisateurs ou utilisatrices.
-* Les administrateurs et administratrices de groupes et les personnes disposant d’une licence de plan qui peuvent modifier d’autres utilisateurs et utilisatrices peuvent ajouter des modèles de mise en page au niveau du système et du groupe aux personnes qu’ils peuvent gérer lorsqu’ils modifient leur profil.
+* Les utilisateurs et utilisatrices peuvent personnaliser quelques zones de leur propre disposition. Lorsque vous modifiez un modèle de mise en page, vos modifications s’intègrent à toutes les personnalisations effectuées, sans les écraser ni les réinitialiser. Il en va de même si vous attribuez un nouveau modèle de mise en page à des utilisateurs ou utilisatrices.
+* Les administrateurs et administratrices de groupes et les personnes disposant d’une licence Plan qui peuvent modifier d’autres utilisateurs et utilisatrices peuvent ajouter des modèles de mise en page au niveau du système et du groupe aux personnes qu’ils peuvent gérer lorsqu’ils modifient leur profil.
 * Les administrateurs et administratrices de groupes ne peuvent pas attribuer de modèles de mise en page à des fonctions ou à des équipes.
 
 Pour plus d’informations sur les modèles de mise en page, voir [Modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
@@ -91,26 +91,26 @@ Pour plus d’informations sur les modèles de mise en page, voir [Modèles de m
 
    Ou
 
-   Cliquez sur le nom du modèle de mise en page que vous souhaitez modifier.
+   Cliquez sur le nom du modèle de disposition que vous souhaitez modifier.
 
-1. Si vous créez un modèle de mise en page, saisissez le **nom du modèle de mise en page** et (facultatif) sa **description**.
+1. Si vous créez un nouveau modèle de mise en page, saisissez le **nom du modèle de mise en page** et (facultatif) sa **description**.
 
 1. Personnalisez des zones de l’interface d’utilisation, tel que décrit dans les articles suivants :
 
    * [Personnaliser le menu principal à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
    * [Personnaliser le panneau de gauche à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-   * [Personnaliser les pages épinglées à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+   * [Personnaliser des pages épinglées à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [Personnaliser la vue Détails à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Personnaliser l’accueil et le résumé à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Personnaliser l’accueil et le résumé à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Personnaliser la page de destination à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-   * [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   * [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+   * [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   * [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
 1. Continuez à tester votre modèle de mise en page et mettez-le à la disposition des personnes, comme décrit dans les articles ci-dessous :
 
-   * [Tester un nouveau modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
-   * [Octroyer un accès d’administration à un modèle de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
-   * [Affecter des personnes à un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+   * [Tester un nouveau modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+   * [Accorder un accès administratif pour un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
+   * [Affecter des utilisateurs et utilisatrices à un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
 >[!TIP]
 >

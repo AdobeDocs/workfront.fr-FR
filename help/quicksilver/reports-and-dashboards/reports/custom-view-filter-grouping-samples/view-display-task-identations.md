@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '« Vue : afficher les mises en retrait de tâches dans une liste de tâches »'
+title: '« Vue : afficher les mises en retrait de tâche dans une liste de tâches »'
 description: Dans cette vue de tâche, vous pouvez ajouter du code à la colonne Nom de la tâche pour afficher les tâches mises en retrait selon la structure de répartition du travail du projet.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Vue : afficher les mises en retrait de tâches dans une liste de tâches
+# Vue : afficher les mises en retrait de tâche dans une liste de tâches
 
 Dans cette vue de tâche, vous pouvez ajouter du code à la colonne Nom de la tâche pour afficher les tâches mises en retrait selon la structure de répartition du travail du projet.
 
@@ -22,44 +22,44 @@ Dans cette vue de tâche, vous pouvez ajouter du code à la colonne Nom de la t�
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Demander la modification d’une vue </p>
-   <p>Prévoir la modification d’un rapport</p> </td> 
+   <td> <p>Demander la modification d’un affichage </p>
+   <p>Prévoir de modifier un rapport</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, vues et groupes pour modifier une vue</p> <p><b>NOTE</b>
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, affichages et groupes pour modifier un affichage</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## Afficher les retraits de tâche dans une colonne d’une liste de tâches
+## Afficher les mises en retraits de tâche dans une colonne de liste de tâches
 
 1. Accédez à une liste de tâches.
 1. Dans le menu déroulant **Vue**, cliquez sur **Nouvelle vue**.
 
-1. Cliquez sur **Ajouter une colonne** et commencez à saisir « Nom de la tâche » dans le champ **Afficher dans cette colonne**, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
+1. Cliquez sur **Ajouter une colonne** et commencez à saisir « Nom de la tâche » dans le champ **Afficher dans cette colonne** puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
-1. Dans la nouvelle colonne, cliquez sur **Basculer en mode texte**.
+1. Dans la nouvelle colonne, cliquez sur **Passer en mode texte**.
 1. Pointez sur la zone de mode de texte, puis cliquez sur **Cliquer pour modifier le texte**.
 1. Supprimez le texte que vous trouvez dans la ligne `valuefield=` et remplacez-le par le code suivant :
 

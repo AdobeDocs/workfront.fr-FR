@@ -7,15 +7,15 @@ recommendations: noDisplay, noCatalog
 source-git-commit: f5db7d32242ca11bf9e13dcd49b7e93369c03cab
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 8%
+ht-degree: 38%
 
 ---
 
 # Améliorations de l’intégration au quatrième trimestre 2024
 
-Cette page décrit toutes les améliorations de l’intégration apportées à la version du quatrième trimestre 2024 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
+Cette page décrit toutes les améliorations apportées aux intégrations dans la version du quatrième trimestre 2024 de l’environnement de prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2024, consultez la [présentation de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2024, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Améliorations de l’expérience de connexion à l’intégration Outlook
 

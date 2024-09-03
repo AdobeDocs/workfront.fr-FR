@@ -7,13 +7,13 @@ exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
 source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 # Exporter un rapport dans la zone de travail de reporting
 
-Vous pouvez exporter un rapport entier (ou un bloc spécifique) dans un format de fichier adapté à vos besoins. Vous pouvez exporter vers :
+Vous pouvez exporter un rapport entier (ou un bloc spécifique) dans un format de fichier adapté à vos besoins. Vous pouvez exporter aux formats suivants :
 
 * PDF (actuellement désactivé)
 * CSV
@@ -22,20 +22,20 @@ Vous pouvez exporter un rapport entier (ou un bloc spécifique) dans un format d
 
 ## Conditions préalables
 
-Avant de commencer, vous devez vous inscrire à la version bêta du canevas de création de rapports. Pour plus d’informations, reportez-vous à la section [Présentation du canevas de rapports bêta : présentation](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Avant de commencer, vous devez vous inscrire à la version bêta de la zone de travail de reporting. Pour plus d’informations, voir [Version bêta de la zone de travail de reporting : vue d’ensemble](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Exporter un rapport
 
 1. Accédez au rapport à exporter.
-1. Dans l&#39;en-tête du rapport, cliquez sur l&#39;icône **Plus** ![](assets/more-icon-27x15.png), cliquez sur **Exporter**, puis sélectionnez le format de fichier que vous souhaitez créer.
+1. Dans l’en-tête du rapport, cliquez sur l’icône **Plus** ![](assets/more-icon-27x15.png), cliquez sur **Exporter**, puis sélectionnez le format de fichier à créer.
 
    >[!NOTE]
    >
-   >Tenez compte des points suivants concernant vos fichiers exportés :
+   >Tenez compte des points suivants concernant vos fichiers exportés :
    >
    >   * Si vous exportez un rapport contenant plusieurs tableaux au format XLSX, le fichier exporté contient une feuille distincte pour chaque tableau.
    >   * Si vous exportez un rapport contenant plusieurs tableaux au format CSV, le résultat exporté est un dossier compressé contenant un fichier distinct pour chaque tableau.
-   >   * Si vous exportez un tableau contenant des lignes groupées au format CSV, le fichier CSV comprend toutes les lignes, mais elles ne sont pas affichées dans les groupes.
+   >   * Si vous exportez un tableau contenant des lignes regroupées au format CSV, le fichier CSV comprend toutes les lignes, mais elles ne sont pas affichées dans les groupes.
    >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.

@@ -3,7 +3,7 @@ title: Définition d’une condition personnalisée comme valeur par défaut pou
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-description: Lorsqu’un utilisateur clique sur Travailler dessus ou ajoute un commentaire de mise à jour à une nouvelle tâche à laquelle il a été affecté (sans définir manuellement une condition pour la tâche), Adobe Workfront affiche la condition par défaut pour les tâches, qui est configurée dans Configuration. Il en va de même pour les problèmes.
+description: Lorsqu’une personne clique sur Travailler sur ce projet ou ajoute un commentaire de mise à jour à une nouvelle tâche qui lui a été assignée (sans définir manuellement une condition pour la tâche), Adobe Workfront affiche la condition par défaut pour les tâches, qui est configurée dans Configuration. Il en est de même pour les problèmes.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,61 +11,61 @@ exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
 source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 18%
+ht-degree: 97%
 
 ---
 
 # Définir une condition personnalisée comme condition par défaut pour les tâches et les problèmes
 
-Lorsqu’un utilisateur clique sur Travailler dessus ou ajoute un commentaire de mise à jour à une nouvelle tâche à laquelle il a été affecté (sans définir manuellement une condition pour la tâche), Adobe Workfront affiche la condition par défaut pour les tâches, qui est configurée dans Configuration. Il en va de même pour les problèmes.
+Lorsqu’une personne clique sur Travailler sur ce projet ou ajoute un commentaire de mise à jour à une nouvelle tâche qui lui a été assignée (sans définir manuellement une condition pour la tâche), Adobe Workfront affiche la condition par défaut pour les tâches, qui est configurée dans Configuration. Il en est de même pour les problèmes.
 
-Workfront utilise la condition intégrée Going Smoothly comme condition par défaut pour les tâches et, séparément, pour les problèmes. En tant qu’administrateur Workfront, vous pouvez définir la condition par défaut de ces deux types d’objets sur une condition personnalisée que vous avez créée.
+Workfront utilise la condition intégrée « Tout est en ordre » comme condition par défaut pour les tâches et, séparément, pour les problèmes. En tant qu’administrateur ou administratrice Workfront, vous pouvez remplacer la condition par défaut de ces deux types d’objets par une condition personnalisée que vous avez créée.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice de Workfront.</p> <p><b>REMARQUE</b> : si vous n’avez toujours pas l’accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> <p><b>NOTE</b> : si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Définissez une condition personnalisée comme condition par défaut pour les tâches ou pour les problèmes :
+## Définissez une condition personnalisée comme condition par défaut pour les tâches ou les problèmes :
 
 {{step-1-to-setup}}
 
 1. Cliquez sur **Préférences du projet** > **Conditions**.
 
-1. Cliquez sur l’onglet **Tâches** ou **Problèmes** .
+1. Cliquez sur l’onglet **Tâches** ou **Problèmes**.
 
 1. Cliquez sur **Définir les conditions par défaut**.
-1. Dans le menu déroulant, cliquez sur la condition personnalisée que vous souhaitez utiliser comme condition par défaut pour les tâches (ou problèmes).
+1. Dans le menu déroulant, cliquez sur la condition personnalisée que vous souhaitez utiliser comme condition par défaut pour les tâches (ou les problèmes).
 1. Cliquer sur **Enregistrer**.
 
 >[!NOTE]
 >
->* Un utilisateur affecté à une tâche ou à un problème, ou disposant des autorisations Manage (Gérer), peut modifier sa condition manuellement. Pour plus d’informations, voir [Mise à jour de la condition pour les tâches et les problèmes](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
->* Les trois conditions par défaut pour les tâches et les problèmes fournis avec Workfront se présentent comme suit : En douceur, Quelques préoccupations et Blocs de route majeurs. Vous ne pouvez pas masquer ni supprimer ces conditions, mais vous pouvez modifier leurs noms et leurs couleurs. Vous pouvez également en créer de nouveaux à utiliser à la place, comme décrit dans [Création ou modification d’une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+>* Une personne assignée à une tâche ou à un problème, ou qui dispose des droits de gestion pour cette tâche ou ce problème, peut modifier sa condition manuellement. Pour plus d’informations, voir [Mettre à jour la condition pour les tâches et les problèmes](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+>* Les trois conditions par défaut pour les tâches et les problèmes qui sont fournies avec Workfront sont : Tout est en ordre, Quelques inquiétudes et Obstacles majeurs. Vous ne pouvez pas masquer ou supprimer ces conditions, mais vous pouvez modifier leurs noms et leurs couleurs. Vous pouvez également créer de nouvelles conditions pour remplacer les précédentes, tel que décrit dans [Créer ou modifier une condition personnalisée](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 >
 
-Pour plus d’informations sur la configuration d’une condition personnalisée comme condition par défaut pour les projets, voir [Définition d’une condition personnalisée comme condition par défaut pour les projets](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
+Pour plus d’informations sur la configuration d’une condition personnalisée comme condition par défaut pour les projets, voir [Définir une condition personnalisée comme condition par défaut pour les projets](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
 Pour plus d’informations sur les conditions personnalisées, voir [Conditions personnalisées](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

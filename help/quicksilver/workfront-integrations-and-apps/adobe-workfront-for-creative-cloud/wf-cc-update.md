@@ -2,20 +2,20 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Mettre à jour votre travail dans Adobe Photoshop
-description: Vous pouvez mettre à jour votre travail à l’aide du module externe Adobe Workfront.
+description: Vous pouvez mettre à jour votre travail à l’aide du plug-in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
 source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
-# Mettez à jour votre travail à l’aide du module externe [!DNL Adobe Workfront]
+# Mettre à jour votre travail à l’aide du plug-in [!DNL Adobe Workfront]
 
-Vous pouvez mettre à jour votre travail à partir de l’une des applications [!DNL Adobe Creative Cloud] suivantes :
+Vous pouvez mettre à jour votre travail à partir des applications [!DNL Adobe Creative Cloud] suivantes :
 
 {{cc-app-list}}
 
@@ -45,12 +45,12 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>[!UICONTROL Affichage] accès à l’objet que vous souhaitez mettre à jour. </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Accès [!UICONTROL View] à l’objet que vous souhaitez mettre à jour. </p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez l’administration [!DNL Workfront].
 
 +++
 
@@ -60,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Publier une mise à jour
 
-Vous pouvez mettre à jour votre travail à partir des zones suivantes du module externe :
+Vous pouvez mettre à jour votre travail à partir des zones suivantes du plug-in :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,17 +82,17 @@ Vous pouvez mettre à jour votre travail à partir des zones suivantes du module
  </tbody> 
 </table>
 
-Pour publier une mise à jour :
+Pour publier une mise à jour :
 
 1. Cliquez sur l’icône **[!UICONTROL Menu]** dans le coin supérieur droit, puis sélectionnez **[!UICONTROL Liste de travail]**. Vous pouvez également utiliser le menu pour accéder aux objets parents.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Dans la **[!UICONTROL liste de travail]**, sélectionnez l’élément de travail sur lequel vous devez publier une mise à jour.
+1. Dans la **[!UICONTROL Liste de travail]**, sélectionnez l’élément de travail sur lequel vous devez publier une mise à jour.
 1. Cliquez sur **[!UICONTROL Mettre à jour]** dans la barre de navigation.\
    ![](assets/photoshop-update-350x295.png)
 
 1. Cliquez sur **[!UICONTROL Nouvelle mise à jour]**.
 1. Saisissez votre mise à jour.
-1. (Facultatif) Pour baliser un utilisateur, saisissez le symbole @ et le nom de l’utilisateur, puis choisissez son nom dans le menu déroulant.
-1. Cliquez sur **[!UICONTROL Submit]**. Les mises à jour sont synchronisées avec l’application web Adobe Workfront en temps réel.
+1. (Facultatif) Pour taguer une personne, saisissez le symbole @ et le nom de la personne, puis choisissez son nom dans le menu déroulant.
+1. Cliquez sur **[!UICONTROL Envoyer]**. Les mises à jour sont synchronisées en temps réel avec l’application web Adobe Workfront.

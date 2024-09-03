@@ -1,7 +1,7 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Gérer les heures d’attribution des utilisateurs et utilisatrices ou des rôles sur les tâches
+title: Gérer les heures d’affectation des personnes et des rôles sur les tâches
 description: Lors de l’affectation de personnes ou de rôles à une tâche, un certain nombre d’heures de travail leur sont allouées pour accomplir la tâche. Vous pouvez modifier manuellement le nombre d’heures allouées à chaque personne ou fonction lors de l’affectation à une tâche, lorsque le type de durée de la tâche est Simple.
 author: Alina
 feature: Work Management
@@ -13,7 +13,7 @@ ht-degree: 89%
 
 ---
 
-# Gérer les heures d’attribution des utilisateurs et utilisatrices ou des rôles sur les tâches
+# Gérer les heures d’affectation des personnes et des rôles sur les tâches
 
 ## Conditions d’accès
 
@@ -24,21 +24,21 @@ ht-degree: 89%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle : standard </p>
+   <td> <p>Nouveau : Standard </p>
    <p>Actuellement : Travail ou licence supérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux tâches</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux tâches</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de contribution ou de niveau supérieur pour une tâche</p> <p>Autorisations de modification pour mettre à jour les heures allouées dans la zone Modifier la tâche</p> </td> 
+   <td> <p>Autorisations de contribution ou de niveau supérieur pour une tâche</p> <p>Modifier les autorisations pour mettre à jour les heures d’affectation dans la boîte de modification de la tâche</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,15 +47,15 @@ ht-degree: 89%
 
 +++
 
-## Points à prendre en compte lors de la modification des heures allouées d’une tâche
+## Considérations relatives à la modification des heures allouées à une tâche
 
 >[!IMPORTANT]
 >
->Après avoir modifié manuellement les allocations pour chaque affectation sur les tâches, le nombre d’heures prévues des tâches peut être mis à jour en conséquence. Pour plus d’informations, voir la section [Mettre à jour le nombre d’heures prévues de la tâche lors de la gestion des allocations des utilisateurs et utilisatrices](../../../manage-work/tasks/task-information/planned-hours.md#update) dans l’article [Vue d’ensemble du nombre d’heures prévues](../../../manage-work/tasks/task-information/planned-hours.md).
+>Après avoir modifié manuellement les allocations pour chaque affectation sur les tâches, le nombre d’heures prévues des tâches peut être mis à jour en conséquence. Pour plus d’informations, voir la section [Mettre à jour le nombre d’heures prévues de la tâche lors de la gestion des allocations pour les utilisateurs et utilisatrice](../../../manage-work/tasks/task-information/planned-hours.md#update) dans l’article [Vue d’ensemble du nombre d’heures prévues](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Le total des heures allouées aux ressources individuelles affectées à la tâche représente le nombre total d’heures prévues de la tâche.
 * Si une personne ou un rôle reçoit une affectation à une tâche, le nombre d’heures allouées à la personne ou au rôle correspond au nombre d’heures prévues de la tâche.
-* En cas d’affectations multiples, chaque personne ou fonction se voit attribuer un nombre égal d’heures pour travailler sur la tâche, par défaut, si le type de durée de la tâche est Simple. Pour plus d’informations, consultez les articles suivants :
+* En cas d’affectations multiples, chaque personne ou fonction se voit attribuer un nombre égal d’heures pour travailler sur la tâche, par défaut, si le type de durée de la tâche est simple. Pour plus d’informations, consultez les articles suivants :
 
    * [Vue d’ensemble de la durée des tâches et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [Vue d’ensemble du type de durée : simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
@@ -63,7 +63,7 @@ ht-degree: 89%
 * Lorsque la tâche possède un type de durée simple, vous pouvez modifier manuellement le nombre d’heures allouées pour chaque utilisateur ou rôle de tâche afin d’indiquer que certains des personnes désignées peuvent avoir plus de temps pour travailler sur une tâche que d’autres.
 * Vous ne pouvez pas modifier le nombre d’heures allouées aux équipes affectées aux tâches.
 * Vous ne pouvez pas modifier manuellement les allocations des personnes ou des fonctions pour les problèmes.
-* Vous pouvez également gérer les allocations quotidiennes, hebdomadaires ou mensuelles des personnes pour les tâches ou les problèmes en utilisant l’équilibreur de charge de travail. Pour plus d’informations, voir [Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* Vous pouvez également gérer les allocations quotidiennes, hebdomadaires ou mensuelles des personnes pour les tâches ou les problèmes en utilisant l’équilibreur de charge de travail. Pour plus d’informations, voir [Gérer les allocations des utilisateurs dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Modifier les heures allouées à une personne ou un rôle pour une tâche
 
@@ -72,10 +72,10 @@ ht-degree: 89%
 
    Ou
 
-   Cliquez sur la zone **Affectations** dans l’en-tête de la tâche, puis cliquez sur **Avancé**.
+   Cliquez sur la zone **Affectations** dans l’en-tête de la tâche, puis cliquez sur **Avancé**.
 
 1. Assurez-vous que le **type de durée** de la tâche est **Simple**.
-1. Modifiez les Allocations pour chaque personne cessionnaire de tâche. **** Il s’agit d’allocations globales pour chaque affectation à cette tâche, pour toute la durée de la tâche. Cela peut également mettre à jour le nombre total d’heures prévues de la tâche.
+1. Modifiez les **Allocations** pour chaque cessionnaire de tâche. Il s’agit d’allocations globales pour chaque affectation à cette tâche, pour toute la durée de la tâche. Cela peut également mettre à jour le nombre total d’heures prévues de la tâche.
 
    ![Modifier les attributions](assets/advanced-assignments-duration-type-allocations.png)
 

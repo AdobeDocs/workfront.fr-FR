@@ -1,97 +1,97 @@
 ---
-title: Application mobile de l’épreuve Workfront
-description: Découvrez l’application mobile Workfront Proof.
+title: Application mobile de Workfront Proof
+description: Découvrez l’application mobile Workfront Proof.
 hide: true
 hidefromtoc: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
 source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Application mobile de l’épreuve Workfront
+# Application mobile de Workfront Proof
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture à l’intérieur d’[!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-Téléchargez l’application [!DNL Workfront Proof] depuis Apple App Store ou Google Store pour qu’elle soit productive où que vous soyez. L’application [!DNL Workfront Proof] dispose des fonctionnalités suivantes sur iPhone et iPod Touch :
+Téléchargez l’application [!DNL Workfront Proof] à partir d’Apple App Store ou de Google Store pour un maximum de productivité où que vous soyez. L’application [!DNL Workfront Proof] dispose des fonctionnalités suivantes sur iPhone et iPod Touch :
 
-* Affichage, révision et approbation de BAT statiques et audio-visuels
-* Afficher, ajouter et répondre aux commentaires
-* Gérer vos BAT via votre tableau de bord et vos vues
+* Afficher, réviser et approuver des épreuves statiques et audio-visuelles
+* Afficher, ajouter et répondre à des commentaires
+* Gérer vos épreuves via votre tableau de bord et vos vues
 
-Vous n’avez pas besoin d’être un utilisateur de [!DNL Workfront Proof] (c’est-à-dire de disposer de vos propres informations de connexion) pour passer en revue et approuver un BAT via l’application iOS. Tant que vous téléchargez l’application sur votre appareil iOS et accédez à votre URL personnelle via votre application de messagerie iOS, vous pouvez la consulter et l’approuver en déplacement.
+Vous n’avez pas besoin d’être utilisateur ou utilisatrice de [!DNL Workfront Proof] (c’est-à-dire de posséder vos propres informations de connexion) pour réviser et approuver une épreuve via l’application iOS. Tant que vous téléchargez l’application sur votre appareil iOS et accédez à votre URL personnelle via votre application d’e-mail iOS, vous pouvez réviser et approuver en déplacement.
 
 ## Exigences relatives aux périphériques
 
-Nécessite iOS 7.0 ou version ultérieure. Android 4.0 et versions ultérieures. Compatible avec iPhone, iPad et iPod touch.
+Nécessite iOS 7.0 ou une version ultérieure. Android 4.0 et versions ultérieures. Compatible avec iPhone, iPad et iPod Touch.
 
-## Téléchargement et installation de l’application
+## Télécharger et installer l’application
 
 >[!IMPORTANT]
 >
->L’application mobile Workfront Proof n’est plus prise en charge et est disponible en l’état.  Aucun problème dans l’application ne sera résolu.
+>L’application mobile Workfront Proof n’est plus prise en charge et est disponible en l’état.  Aucun problème dans l’application ne sera résolu.
 
-Pour les appareils iOS, veillez à désinstaller l’application [!DNL Workfront Proof] précédente pour les appareils iOS avant d’installer la nouvelle application.
+Pour les appareils iOS, veillez à désinstaller la précédente application [!DNL Workfront Proof] pour les appareils iOS avant d’installer la nouvelle application.
 
 L’application [!DNL Workfront Proof] détecte automatiquement le type d’appareil que vous utilisez. Si vous souhaitez utiliser l’application sur votre tablette, voir [[!DNL Workfront Proof] application mobile pour tablettes](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
 
 >[!NOTE]
 >
->Il n’est pas possible de consulter des fichiers ou des fichiers audio de SWF, tels que MP3 sur les appareils iOS, en raison des limitations logicielles des appareils mobiles. Si vous souhaitez passer en revue un BAT créé à partir d’un fichier de SWF ou d’un fichier audio sur un appareil mobile, convertissez-le dans un format pris en charge avant de le transférer vers [!DNL Workfront Proof].
+>Il n’est pas possible de consulter des fichiers SWF ou des fichiers audio, tels que MP3, sur les appareils iOS, en raison des limitations logicielles des appareils mobiles. Si vous souhaitez réviser une épreuve créée à partir d’un fichier SWF ou d’un fichier audio sur un appareil mobile, convertissez-le dans un format pris en charge avant de le charger sur [!DNL Workfront Proof].
 
-## Prise en main de l’application
+## Commencer avec l’application
 
-Vous n’avez pas besoin d’être un utilisateur [!DNL Workfront Proof] pour commencer à utiliser l’application. Installez simplement l’application sur votre appareil et cliquez sur un lien **[!UICONTROL Atteindre le bon à tirer]** dans votre notification électronique. L’application démarre et charge automatiquement le BAT.
+Il n’est pas nécessaire d’être un utilisateur ou une utilisatrice de [!DNL Workfront Proof] pour commencer à utiliser l’application. Installez simplement l’application sur votre appareil et cliquez sur un lien **[!UICONTROL Accéder à l’épreuve]** dans votre notification par e-mail. L’application démarre et charge automatiquement l’épreuve.
 
-Si vous êtes un utilisateur [!DNL Workfront Proof], vous pouvez vous connecter à l’application avant d’ouvrir un bon à tirer. L’application vous permet de parcourir tous les bons à tirer partagés avec vous et de passer facilement d’un formulaire à l’autre.
+Si vous êtes utilisateur ou utilisatrice de [!DNL Workfront Proof], vous pouvez vous connecter à l’application avant d’ouvrir une épreuve. L’application vous permet de parcourir toutes les épreuves partagées avec vous et de passer facilement de l’une à l’autre.
 
 1. Ouvrez l’application.
-1. Saisissez votre adresse électronique et votre mot de passe, puis appuyez sur **[!UICONTROL Login]**.
+1. Saisissez votre adresse e-mail et votre mot de passe, puis appuyez sur **[!UICONTROL Connexion]**.
 
    Ou
 
    Utilisez l’authentification unique, si elle est configurée sur votre compte [!DNL Workfront Proof].
 
-   Vous pouvez utiliser l&#39;option **[!UICONTROL Mot de passe oublié]** si vous ne vous souvenez pas de votre mot de passe.
+   Vous pouvez utiliser l’option **[!UICONTROL Mot de passe oublié]** si vous ne vous souvenez pas de votre mot de passe.
 
-## Le tableau de bord
+## Tableau de bord
 
-Une fois que vous êtes connecté à votre compte [!DNL Workfront Proof], le tableau de bord s’affiche. Ici, vous pouvez facilement accéder à vos bons à tirer. Vous pouvez ouvrir l’une des vues disponibles, Mes bons à tirer et Tous les bons à tirer. Vous pouvez également appuyer sur le nom de l’un de vos BAT récents pour accéder directement à la visionneuse de BAT.
+Après votre connexion à votre compte [!DNL Workfront Proof], le tableau de bord s’affiche. Ici, vous pouvez facilement accéder à vos épreuves. Vous pouvez ouvrir l’une des vues disponibles, Mes épreuves et Toutes les épreuves. Vous pouvez également appuyer sur le nom de l’une de vos épreuves récentes pour accéder directement à la visionneuse de relecture.
 
-Par défaut, le tableau de bord ouvre la vue Total des bons à tirer . Cette vue affiche tous les bons à tirer dont vous êtes le propriétaire ou qui ont été partagés avec vous. Vous pouvez modifier la vue en appuyant sur la barre supérieure de la page pour ouvrir un menu déroulant contenant les options [!UICONTROL À l’heure ], [!UICONTROL À risque], [!UICONTROL En retard] et [!UICONTROL Récent]. Pour ouvrir un BAT dans n’importe quelle vue, faites défiler la liste vers le bas pour trouver le BAT de votre choix, puis appuyez sur son nom pour accéder à la visionneuse de BAT.
+Par défaut, le tableau de bord ouvre la vue Total des épreuves. Cette vue affiche toutes les épreuves dont vous êtes propriétaire ou qui ont été partagées avec vous. Vous pouvez modifier l’affichage en appuyant sur la barre supérieure de la page pour ouvrir un menu déroulant contenant les options [!UICONTROL À l’heure], [!UICONTROL À risque], [!UICONTROL En retard] et [!UICONTROL Récent]. Pour ouvrir une épreuve dans n’importe quelle vue, faites défiler la liste vers le bas pour trouver l’épreuve de votre choix, puis appuyez sur son nom pour accéder à la visionneuse de relecture.
 
-![Capture d&#39;écran_2016-04-28-20-05-34a.png](assets/screenshot-2016-04-28-20-05-34a-350x535.png)
+![Screenshot_2016-04-28-20-05-34a.png](assets/screenshot-2016-04-28-20-05-34a-350x535.png)
 
-| **Sur l’affichage de l’heure** | Affiche tous les bons à tirer actifs de votre compte que vous êtes autorisé à voir et qui ne comportent aucune date limite ou qui se trouvent dans un délai supérieur à 24 heures. |
+| **Vue À l’heure** | Affiche toutes les épreuves actives de votre compte que vous avez l’autorisation de voir et qui ne comportent aucune date d’échéance ou pour lesquelles il reste plus de 24 heures avant la date d’échéance. |
 |---|---|
-| **À l’affichage des risques** | Affiche tous les bons à tirer pour lesquels la date limite est inférieure à 24 heures. |
-| **Affichage en retard** | Répertorie tous les BAT pour lesquels toutes les actions pour lesquelles la date limite n’est pas respectée ne sont pas terminées. |
-| **Vue récente** | Inclut les bons à tirer récemment consultés par vous-même et que vous détenez, ainsi que les autorisations à afficher selon vos autorisations de profil et qui ont été partagés avec vous. Cette vue affiche uniquement les bons à tirer que vous avez vous-même ouverts (via la visionneuse [!DNL Workfront Proof] ou via la page Détails du bon à tirer). |
-| **Lien d’email** | Pour ouvrir un BAT à partir de votre email, ouvrez simplement l&#39;email dans votre application de messagerie, cliquez sur le lien du bouton [!UICONTROL Aller au BAT] dans l&#39;email (1) et vous serez redirigé vers le BAT dans l&#39;application [!DNL Workfront Proof]. |
+| **Vue À risque** | Affiche toutes les épreuves pour lesquelles il reste moins de 24 heures avant la date d’échéance. |
+| **Vue En retard** | Répertorie toutes les épreuves dont toutes les actions ne sont pas terminées et pour lesquelles le délai est déjà dépassé. |
+| **Vue Récent** | Comprend les épreuves auxquelles vous avez récemment accédé et qui vous appartiennent, que vous avez le droit d’afficher conformément aux autorisations de votre profil et qui ont été partagées avec vous. Cette vue n’affiche que les épreuves que vous avez vous-même ouvertes (soit via la visionneuse [!DNL Workfront Proof], soit via la page de détails de l’épreuve). |
+| **Lien dans l’e-mail** | Pour ouvrir une épreuve à partir de votre e-mail, ouvrez simplement l’e-mail dans votre application de messagerie, cliquez sur le lien [!UICONTROL Aller vers l’épreuve] dans l’e-mail (1) et vous accéderez à l’épreuve dans l’application [!DNL Workfront Proof]. |
 
 {style="table-layout:auto"}
 
-## Vérification d’un BAT statique dans l’application
+## Réviser une épreuve statique dans l’application
 
-Lorsque vous ouvrez un BAT dans l’application mobile, vous pouvez effectuer les opérations suivantes :
+Lorsque vous ouvrez une épreuve dans l’application mobile, vous pouvez effectuer les opérations suivantes :
 
-* Lecture et réponse aux commentaires laissés par les autres validants (1 - le chiffre visible sur l&#39;icône indique le nombre de commentaires laissés sur le BAT, si aucun commentaire n&#39;a été laissé sur le BAT, ce bouton affichera 0 et sera grisé).
-* Ajouter des commentaires et des annotations (2).
-* La visibilité du bouton Commentaire et Décision dépend de votre rôle de BAT.
-* Prenez une décision (3).
-* Accédez au menu (4).
-* Mettez le BAT à l’échelle en pinçant l’écran.
+* Lire et répondre à des commentaires laissés par les autres personnes ayant révisé l’épreuve (1 - le chiffre visible dans l’icône indique le nombre de commentaires laissés sur l’épreuve ; si aucun commentaire n’a été laissé sur l’épreuve, ce bouton affichera 0 et sera grisé).
+* Ajouter des commentaires et des balises (2).
+* La visibilité du bouton des commentaires et des décisions dépend de votre rôle d’épreuve.
+* Prendre une décision (3).
+* Accéder au menu (4).
+* Mettre l’épreuve à l’échelle en pinçant l’écran.
   ![IMG_0223.png](assets/img-0223-350x541.png)
 
-## Ajout de commentaires et de réponses
+## Ajouter des commentaires et des réponses
 
-1. Lorsque vous avez ouvert un BAT, appuyez sur le bouton **[!UICONTROL Ajouter un commentaire]** (1).
+1. Lorsque vous avez ouvert une épreuve, appuyez sur le bouton **[!UICONTROL Ajouter un commentaire]** (1).
 
-   ![appuyez_the_comment_button.png](assets/tap-the-comment-button-350x541.png)
+   ![tap_the_comment_button.png](assets/tap-the-comment-button-350x541.png)
 
 1. Saisissez votre commentaire (2).
 
@@ -99,9 +99,9 @@ Lorsque vous ouvrez un BAT dans l’application mobile, vous pouvez effectuer le
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-## Lecture et réponse aux commentaires
+## Lire et répondre à des commentaires
 
-1. Ouvrez le BAT, puis appuyez sur l’icône de légende dans le coin supérieur droit pour afficher la liste de commentaires (1) et choisir le commentaire à réviser.
+1. Ouvrez l’épreuve, puis appuyez sur l’icône d’appel dans le coin supérieur droit pour afficher la liste des commentaires (1) et choisissez le commentaire que vous souhaitez consulter.
 1. Appuyez sur l’épingle pour ouvrir le commentaire qui lui est associé (2).
 
    ![read_comment.png](assets/read-comment-350x543.png)
@@ -109,78 +109,78 @@ Lorsque vous ouvrez un BAT dans l’application mobile, vous pouvez effectuer le
 1. Effectuez l’une des opérations suivantes :
 
    * Pour répondre à un commentaire, appuyez sur le bouton **[!UICONTROL Répondre]** (3).
-   * Pour revenir à l’image du BAT, appuyez sur l’icône [!UICONTROL callout] .
+   * Pour revenir à l’image d’épreuve, appuyez sur l’icône d’[!UICONTROL appel].
    * Pour afficher le commentaire complet et ses réponses, appuyez sur le commentaire lui-même.
 
-     ![response_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
+     ![reply_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
 
-   * Pour appliquer une action à un commentaire :
+   * Pour appliquer une action à un commentaire, procédez comme suit :
 
       1. Ouvrez un commentaire.
-      1. Appuyez sur **[!UICONTROL Répondre]**.
-      1. Ouvrez le menu [!UICONTROL actions] sur le côté droit du champ de texte (1).
-      1. Appuyez sur **[!UICONTROL Ajouter une action]** (2).
+      1. Cliquez sur **[!UICONTROL Répondre]**.
+      1. Ouvrez le menu des [!UICONTROL actions] sur le côté droit du champ de texte (1).
+      1. Cliquez sur **[!UICONTROL Ajouter une action]** (2).
 
          ![actions_on_comments.png](assets/actions-on-comments-350x543.png)
 
-         Pour plus d’informations sur les actions, voir [Utilisation d’actions sur les commentaires de BAT](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+         Pour plus d’informations sur les actions, consultez la section [Utiliser des actions sur les commentaires d’une épreuve](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
 ## Ajouter des balises
 
-Vous pouvez ajouter une annotation (par exemple, une zone surlignant une zone du BAT) et saisir un commentaire associé à cette annotation. Vous pouvez également faire un commentaire sans ajouter de marque-up. Et vous pouvez ajouter plusieurs annotations à un seul commentaire.
+Vous pouvez ajouter une balise (par exemple, un cadre mettant en évidence une zone de l’épreuve) et saisir un commentaire qui sera joint à la balise. Vous pouvez également faire un commentaire sans ajouter de balise. Vous pouvez également ajouter plusieurs balises à un seul commentaire.
 
-1. Sur un BAT que vous avez ouvert, appuyez sur **Ajouter un commentaire** (1).
+1. Sur l’épreuve que vous avez ouverte, cliquez sur **Ajouter un commentaire** (1).
 
-   ![appuyez_the_add_comment_button.png](assets/tap-the-add-comment-button-350x541.png)
+   ![tap_the_add_comment_button.png](assets/tap-the-add-comment-button-350x541.png)
 
-1. Choisissez entre le [!UICONTROL mode Panoramique] (2), l&#39;[!UICONTROL outil de rectangle] (3), le [!UICONTROL dessin à main libre] (4) ou l&#39;outil [!UICONTROL flèche] (5)).
+1. Choisissez entre le [!UICONTROL mode panoramique] (2), l’[!UICONTROL outil rectangle] (3), le [!UICONTROL dessin à main levée] (4), ou l’outil [!UICONTROL flèche] (5).
 
-   Vous pouvez également modifier la couleur de la ligne de l’annotation (6).
+   Vous pouvez également modifier la couleur de la ligne de la balise (6).
 
-1. Pour tracer une annotation sur le BAT, appuyez sur l&#39;écran puis déplacez votre doigt sur le BAT.
+1. Pour dessiner une balise sur l’épreuve, touchez l’écran et déplacez votre doigt sur l’épreuve.
 
-   Vous n’avez pas besoin d’ajouter du texte pour enregistrer vos balises (7).
+   Vous n’avez pas besoin d’ajouter du texte pour enregistrer votre balise (7).
 
-1. Appuyez sur **[!UICONTROL Annuler]** (8) si vous souhaitez ignorer vos balises .
+1. Cliquez sur **[!UICONTROL Annuler]** (8) si vous souhaitez supprimer vos balises.
 
    ![adding_a_markup.png](assets/adding-a-markup-350x543.png)
 
-   Le fait de marquer une zone du BAT ouvre automatiquement le champ de commentaire. Vous pouvez supprimer les balises créées en appuyant sur la croix située en regard de la forme (9).
+   Baliser une zone de l’épreuve ouvre automatiquement le champ de commentaire. Vous pouvez supprimer les balises créées en appuyant sur la croix située en regard de la forme balisée (9).
 
-   ![remove_a_markup.png](assets/removing-a-markup-350x543.png)
+   ![removing_a_markup.png](assets/removing-a-markup-350x543.png)
 
-## Prendre des décisions sur un BAT
+## Prendre des décisions sur une épreuve
 
-1. Ouvrez le BAT dans la visionneuse de BAT et appuyez sur le bouton [!UICONTROL Décision] (1).
+1. Ouvrez l’épreuve dans la visionneuse de relecture, puis appuyez sur le bouton [!UICONTROL Décision] (1).
 
-   ![décision_button.png](assets/decision-button-350x542.png)
+   ![decision_button.png](assets/decision-button-350x542.png)
 
 1. Appuyez sur la décision que vous souhaitez soumettre (2).
-1. Appuyez sur **[!UICONTROL Enregistrer]** pour envoyer votre décision.
+1. Appuyez sur **[!UICONTROL Enregistrer]** pour soumettre votre décision.
 
-   ![submit_décision.png](assets/submit-decision-350x543.png)
+   ![submit_decision.png](assets/submit-decision-350x543.png)
 
    >[!NOTE]
    >
-   >* Si un message contextuel de décision est défini sur le compte dans lequel le BAT a été créé, il apparaît également dans l’application iOS lorsqu’une décision est prise sur un BAT.
-   >* Si vous définissez des motifs de décision, ils s’afficheront sur l’écran [!UICONTROL Soumettre votre décision] pour que vous puissiez choisir.
+   >* Si un message pop-up de décision est défini sur le compte dans lequel l’épreuve a été créée, il apparaît également dans l’application iOS lorsqu’une décision est prise sur une épreuve.
+   >* Si vous définissez des motifs de décision, ils s’affichent sur l’écran [!UICONTROL Soumettre votre décision] pour que vous puissiez les choisir.
 
 
-   Si vous avez déjà soumis une décision et que vous souhaitez la modifier ou la supprimer, vous pouvez facilement le faire. Après avoir envoyé une décision, une nouvelle option, **[!UICONTROL Supprimer ma décision]** (6), apparaît sur l’écran [!UICONTROL Envoyer votre décision].
+   Si vous avez déjà soumis une décision et que vous souhaitez la modifier ou la supprimer, vous pouvez facilement le faire. Après la soumission d’une décision, une nouvelle option, **[!UICONTROL Supprimer ma décision]** (6), apparaît sur l’écran [!UICONTROL Soumettre votre décision].
 
-   ![remove_décision.png](assets/remove-decision-350x543.png)
+   ![remove_decision.png](assets/remove-decision-350x543.png)
 
-## Vérification d’un BAT audio ou vidéo dans l’application
+## Réviser une épreuve audio ou vidéo dans l’application
 
-La vérification d’un BAT audio-vidéo dans l’application iOS est tout aussi simple que la révision d’un fichier statique :
+La révision d’une épreuve audio ou vidéo dans l’application iOS est tout aussi simple que la révision d’un fichier statique :
 
-1. Appuyez sur le bouton [!UICONTROL play/pause] pour lire ou suspendre la vidéo (1).
-1. Pour parcourir la vidéo, appuyez sur la barre [!UICONTROL navigation] (2).
-1. Pour laisser un commentaire, appuyez sur le bouton **[!UICONTROL Commentaire]** (3), puis suivez les instructions décrites ci-dessus.
+1. Appuyez sur le bouton [!UICONTROL lecture/pause] pour lire ou mettre en pause la vidéo (1).
+1. Pour parcourir la vidéo, appuyez sur la barre de [!UICONTROL navigation] (2).
+1. Pour laisser un commentaire, appuyez sur le bouton **[!UICONTROL Commenter]** (3), puis suivez les instructions décrites ci-dessus.
 
-   Les commentaires ou les annotations laissés sur le BAT seront marqués par des épingles le long de la barre de navigation (4).
+   Les commentaires ou les balises laissés sur l’épreuve seront marqués par des épingles le long de la barre de navigation (4).
 
-1. Si vous souhaitez consulter les commentaires laissés sur le BAT, appuyez sur le bouton **[!UICONTROL Commentaires]** (5), puis suivez les instructions décrites ci-dessus.
-1. Pour prendre une décision, appuyez sur le bouton **[!UICONTROL Decision]** (6), puis suivez les instructions ci-dessus.
+1. Si vous souhaitez consulter les commentaires laissés sur l’épreuve, appuyez sur le bouton **[!UICONTROL Commentaires]** (5), puis suivez les instructions décrites ci-dessus.
+1. Pour prendre une décision, appuyez sur le bouton **[!UICONTROL Décision]** (6), puis suivez les instructions ci-dessus.
 
-   ![AV_BAT.png](assets/av-proof-350x545.png)
+   ![AV_proof.png](assets/av-proof-350x545.png)

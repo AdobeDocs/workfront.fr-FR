@@ -1,23 +1,23 @@
 ---
 content-type: overview;how-to-procedural
 product-area: projects
-keywords: analytics,metrics,project,advanced,tasks,assignee,complete,status,pending,prochain
+keywords: analyse, mesures, projet, amélioré, tâches, personne cessionnaire, complet, statut, en retard, à venir
 navigation-topic: manage-projects
 title: Vue d’ensemble des mesures du projet
-description: Les mesures de projet vous donnent une visualisation de ce qui se passe dans un projet, ce qui vous permet d’évaluer rapidement les besoins et l’état d’un projet. Découvrez comment interpréter la zone Mesures dans le panneau de gauche d’un projet.
+description: Les mesures de projet vous permettent de visualiser le déroulement d’un projet et ainsi d’évaluer rapidement ses besoins et son statut d’avancement. Découvrez comment interpréter la zone Mesures dans le panneau de gauche d’un projet.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
 source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
 workflow-type: tm+mt
 source-wordcount: '1266'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # Vue d’ensemble des mesures du projet
 
-Les mesures de projet vous donnent une vue d’ensemble au format graphique des performances d’un projet.
+Les mesures de projet vous offrent une vue d’ensemble, sous forme de graphique, du déroulement d’un projet.
 
 ## Conditions d’accès
 
@@ -26,8 +26,8 @@ Les mesures de projet vous donnent une vue d’ensemble au format graphique des 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Forfait Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Workfront*</td> 
@@ -35,149 +35,149 @@ Les mesures de projet vous donnent une vue d’ensemble au format graphique des 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès*</td> 
-   <td> <p>Affichage de l’accès aux projets</p> <p><b>NOTE</b>
+   <td> <p>Afficher l’accès aux projets</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur l’accès aux projets, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Accorder l’accès aux projets</a>. Pour plus d’informations sur la façon dont un administrateur ou une administratrice de Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>. </p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur l’accès aux projets, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Accorder l’accès aux projets</a>. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Affichage des autorisations d’un projet</p> <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Afficher les autorisations d’un projet</p> <p> Pour plus d’informations sur les autorisations de projet, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Partager un projet dans Adobe Workfront</a>.</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
 ## Conditions préalables
 
-Pour accéder à la zone Mesures à partir du panneau de gauche d’un projet, vous devez :
+Pour accéder à la zone Mesures via le panneau de gauche d’un projet, vous devez procéder comme suit :
 
-* Activez l’option Mesures du panneau de gauche dans la zone Projets de votre modèle de mise en page.
+* Activer l’option Mesures du panneau de gauche dans la zone Projets de votre modèle de mise en page.
 
-  Pour savoir comment un administrateur Workfront ou un administrateur de groupe peut personnaliser le panneau de gauche avec un modèle de mise en page, voir [ Personnalisation du panneau de gauche à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+  Pour savoir comment l’administration de Workfront ou de groupes peut personnaliser le panneau de gauche à l’aide d’un modèle de mise en page, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
-## Présentation de la zone Mesures du projet
+## Vue d’ensemble de la zone Mesures de projet
 
-Les mesures de projet vous donnent une visualisation de ce qui se passe dans un projet, ce qui vous permet d’évaluer rapidement les besoins et l’état d’un projet.
+Les mesures de projet vous permettent de visualiser le déroulement d’un projet et ainsi d’évaluer rapidement ses besoins et son statut d’avancement.
 
 ![](assets/project-metrics-full-screen-350x238.png)
 
-Dans la zone Mesures , vous pouvez consulter l’intégrité globale d’un projet, ainsi que :
+Dans la zone Mesures, vous pouvez consulter l’intégrité globale d’un projet, ainsi que les éléments suivants :
 
-* Emplacement où le travail est actif ou bloqué
-* Qui a des tâches ouvertes qui lui sont affectées
-* Détails sur les tâches ou les problèmes en retard ou proches de la date d’achèvement planifiée
+* Les endroits où le travail est actif ou interrompu.
+* Les personnes auxquelles des éléments de travail ouverts ont été affectés.
+* Les détails sur les tâches ou problèmes en retard ou proches de la date d’achèvement prévue.
 
-Vous pouvez également consulter chaque graphique pour examiner de plus près les tâches ou les problèmes d’une catégorie spécifique.
+Vous pouvez également approfondir chaque graphique pour examiner de plus près les tâches ou problèmes d’une catégorie spécifique.
 
-Pour en savoir plus sur l’analyse de ces tâches ou problèmes, voir [Affichage des détails des mesures](#view-metrics-details).
+Pour en savoir plus sur l’examen de ces tâches ou problèmes, voir [Afficher les détails des mesures](#view-metrics-details).
 
 >[!TIP]
 >
->Pour afficher les mesures à un niveau supérieur pour un groupe de projets au sein d’un programme, d’un portefeuille, etc., accédez à la zone Analyses améliorées.\
->Pour en savoir plus sur l’analyse améliorée, consultez la [présentation de l’analyse améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>Pour consulter les mesures à un niveau supérieur pour un groupe de projets au sein d’un programme, d’un portfolio, etc., accédez à la zone Analytique améliorée.\
+>Pour en savoir plus sur l’Analytique améliorée, voir [Vue d’ensemble de l’Analytique améliorée](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-## IPC de projet
+## KPI de projet
 
-Les indicateurs de performances clés (IPC) s’affichent en haut de la zone Mesures.
+Les indicateurs clés de performance (KPI) s’affichent en haut de la zone Mesures.
 
 ![](assets/project-metrics-kpis-350x52.png)
 
-Ces indicateurs de performance clés sont répartis dans les catégories suivantes :
+Ces KPI sont répartis dans les catégories suivantes :
 
-| Tâches terminées | **Tâches terminées** affiche le nombre de tâches dont l’état est Terminé. Ce nombre inclut également les tâches dont l’état personnalisé est égal à Complete. |
+| Tâches terminées | **Tâches terminées** indique le nombre de tâches dont le statut est Terminé. Ce nombre inclut également les tâches dont le statut personnalisé correspond à « Terminé ». |
 |---|---|
-| Tâches incomplètes | **Tâches incomplètes** affiche le nombre de tâches qui ne sont pas dans un état Terminé ou Fermé ou un état qui correspond à Terminé. |
-| Tâches en retard | **Tâches en retard** affiche le nombre de tâches dépassant la date d’achèvement planifiée et n’ayant pas le statut Terminé ou Fermé ou dont l’état est Terminé ou Fermé. |
-| Tâches totales | **Total des tâches** affiche le nombre total de tâches dans le projet. |
+| Tâches incomplètes | **Tâches incomplètes** indique le nombre de tâches dont le statut n’est pas Terminé ou Clos, ni un statut équivalent à Terminé. |
+| Tâches en retard | **Tâches en retard** indique le nombre de tâches dont la date d’achèvement prévue est dépassée et dont le statut n’est pas Terminé ou Clos, ou équivalent. |
+| Total de tâches | **Total de tâches** indique le nombre total de tâches dans le projet. |
 
 >[!TIP]
 >
->Pour afficher une liste des tâches d’un indicateur de performance clé spécifique, cliquez sur ce dernier. Dans cette liste, vous pouvez cliquer sur une tâche spécifique pour afficher plus de détails dans un nouvel onglet.\
+>Pour afficher la liste des éléments de travail d’un KPI spécifique, cliquez sur ce dernier. Dans cette liste, vous pouvez cliquer sur un élément de travail spécifique pour afficher plus de détails dans un nouvel onglet.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Pour plus d’informations, voir [Afficher les détails des mesures](#view-metrics-details).
+>Pour plus d’informations, consultez la section [Afficher les détails des mesures](#view-metrics-details).
 
-## Graphique de la barre de tâches ou de problèmes
+## Graphe à barres des tâches ou des problèmes
 
-Dans le graphique à barres qui s’affiche sous les indicateurs de performance clés du projet, vous pouvez consulter l’état ou la priorité des tâches du projet. La vue Tâche est sélectionnée par défaut.
+Dans le graphe à barres qui apparaît sous les KPI du projet, vous pouvez consulter le statut ou la priorité des éléments de travail du projet. La vue des tâches est sélectionnée par défaut.
 
-Lorsque l’état est sélectionné dans ce graphique, vous pouvez afficher tous les états des tâches ou des problèmes d’un projet. Chaque état est regroupé dans une barre du graphique. Tous les états système par défaut et les états personnalisés s’affichent dans ce graphique.
+Lorsque le statut est sélectionné dans ce graphe, vous pouvez visualiser tous les statuts des tâches ou des problèmes d’un projet. Chaque statut est représenté par une barre dans le graphe. Tous les statuts du système par défaut et personnalisés s’affichent dans ce graphe.
 
 ![](assets/project-metrics-task-issue-by-status-350x120.png)
 
-Lorsque la priorité est sélectionnée dans ce graphique, vous pouvez afficher toutes les priorités des tâches ou des problèmes d’un projet.
+Lorsque la priorité est sélectionnée dans ce graphe, vous pouvez visualiser toutes les priorités des tâches ou des problèmes d’un projet.
 
 ![](assets/project-metrics-task-issue-by-priority-350x121.png)
 
 >[!TIP]
 >
->Pour afficher la liste des tâches ayant un état ou une priorité spécifique, cliquez sur une barre du graphique. Dans cette liste, vous pouvez cliquer sur une tâche spécifique pour afficher plus de détails dans un nouvel onglet.\
+>Pour afficher une liste des éléments de travail ayant un statut ou une priorité spécifique, cliquez sur une barre du graphique. Dans cette liste, vous pouvez cliquer sur un élément de travail spécifique pour afficher plus de détails dans un nouvel onglet.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Pour plus d’informations, voir [Afficher les détails des mesures](#view-metrics-details).
+>Pour plus d’informations, consultez la section [Afficher les détails des mesures](#view-metrics-details).
 
-## Graphique en anneau
+## Graphe en anneau
 
-Le graphique en anneau situé sous les indicateurs de performance clés du projet vous permet de consulter le rapport entre les tâches terminées et les tâches incomplètes dans un projet.
+Le graphe en anneau situé sous les KPI du projet vous permet d’évaluer le rapport entre les éléments de travail terminés et les éléments de travail incomplets dans un projet.
 
 ![](assets/tasks-issues-by-complete-status-350x250.png)
 
-Dans le menu déroulant situé au-dessus du graphique, vous pouvez sélectionner :
+Dans le menu déroulant au-dessus du graphe, vous pouvez sélectionner ce qui suit :
 
-| Toutes les tâches | La sélection de **tâches** vous indique le nombre total de tâches dans le projet, ainsi que le rapport entre les tâches terminées et incomplètes. |
+| Toutes les tâches | La sélection de **tâches** vous indique le nombre total de tâches dans le projet, ainsi que le rapport entre les tâches terminées et les tâches incomplètes. |
 |---|---|
 | Tous les problèmes | La sélection de **problèmes** vous indique le nombre total de problèmes dans le projet, ainsi que le rapport entre les problèmes terminés et incomplets. |
 
 >[!TIP]
 >
->Pour afficher la liste des tâches terminées ou incomplètes, cliquez sur cette section dans le graphique en anneau. Dans cette liste, vous pouvez cliquer sur une tâche spécifique pour afficher plus de détails dans un nouvel onglet.\
+>Pour afficher une liste des éléments de travail terminés ou incomplets, cliquez sur la section appropriée dans le graphe en anneau. Dans cette liste, vous pouvez cliquer sur un élément de travail spécifique pour afficher plus de détails dans un nouvel onglet.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Pour plus d’informations, voir [Afficher les détails des mesures](#view-metrics-details).
+>Pour plus d’informations, consultez la section [Afficher les détails des mesures](#view-metrics-details).
 
-## Graphique à barres cessionnaire
+## Graphe à barres des personnes cessionnaires
 
-Le graphique à barres représentant les personnes désignées indique le nombre de tâches affectées à chaque personne du projet. Ce nombre varie en fonction de la catégorie sélectionnée dans le menu déroulant.
+Le graphe à barres des personnes cessionnaires indique le nombre de tâches affectées à chaque personne dans le projet. Ce nombre varie en fonction de la catégorie sélectionnée dans le menu déroulant.
 
 ![](assets/tasks-issues-by-assignee-350x104.png)
 
-Vous pouvez choisir de consulter les affectations de tâches pour un projet dans les catégories suivantes :
+Vous pouvez choisir de consulter les affectations de tâches d’un projet dans les catégories suivantes :
 
-| Terminé | La sélection de **Terminé** indique le nombre de tâches affectées à chaque utilisateur ayant été terminées. |
+| Terminé | L’élément **Terminé** indique le nombre de tâches affectées à chaque personne qui ont été menées à terme. |
 |---|---|
-| Incomplet | La sélection de **Incomplet** indique le nombre de tâches affectées à chaque utilisateur qui n’ont pas encore été terminées. |
-| À venir | La sélection de **Prochaine** indique le nombre de tâches affectées à chaque utilisateur qui n’ont pas encore atteint la date de début planifiée. |
-| Échu | La sélection de **Overdue** indique le nombre de tâches affectées à chaque utilisateur qui ont dépassé la date planifiée d’achèvement et n’ont pas encore été terminées. |
+| Incomplet | L’élément **Incomplet** indique le nombre de tâches affectées à chaque personne qui n’ont pas encore été menées à terme. |
+| À venir | L’élément **À venir** indique le nombre de tâches affectées à chaque personne qui n’ont pas encore atteint la date de début prévue. |
+| Échu | L’élément **En retard** indique le nombre de tâches affectées à chaque personne qui ont dépassé la date d’achèvement prévue et qui n’ont pas encore été achevées. |
 
 >[!TIP]
 >
->Pour afficher la liste des tâches de la catégorie sélectionnée qui sont affectées à un utilisateur spécifique, cliquez sur la barre en regard de son nom dans le graphique. Dans cette liste, vous pouvez cliquer sur une tâche spécifique pour afficher plus de détails dans un nouvel onglet.\
+>Pour afficher la liste des éléments de travail de la catégorie sélectionnée qui sont affectés à une personne spécifique, cliquez sur la barre située en regard du nom de la personne dans le tableau. Dans cette liste, vous pouvez cliquer sur un élément de travail spécifique pour afficher plus de détails dans un nouvel onglet.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Pour plus d’informations, voir [Afficher les détails des mesures](#view-metrics-details).
+>Pour plus d’informations, consultez la section [Afficher les détails des mesures](#view-metrics-details).
 
 ## Afficher les détails des mesures {#view-metrics-details}
 
-Vous pouvez interagir avec les graphiques de la zone Mesures pour examiner différents aspects d’un graphique ou examiner de plus près les tâches et les problèmes d’un graphique.
+Vous pouvez interagir avec les graphes de la zone Mesures pour visualiser le contenu ou examiner les tâches et les problèmes qu’ils contiennent.
 
-1. Accédez au projet pour lequel vous souhaitez afficher les mesures.
+1. Accédez au projet pour lequel vous souhaitez consulter les mesures.
 1. Dans le panneau de gauche, cliquez sur **Afficher plus** pour afficher d’autres sections, puis cliquez sur **Mesures**.\
-   Les graphiques de la zone Mesures affichent par défaut des informations relatives aux tâches.\
+   Les graphes de la zone Mesures affichent par défaut des informations sur les tâches.\
    ![](assets/metrics-section-350x298.png)
 
-1. (Conditionnel) Si une flèche de liste déroulante s’affiche sur un graphique, cliquez sur l’icône **Flèche de liste déroulante** ![](assets/dropdown-arrow.png) du graphique et sélectionnez l’option de votre choix dans le menu.\
-   Pour plus d&#39;informations sur les options qui apparaissent dans les menus de chaque graphique, reportez-vous à la section correspondante ci-dessus.
+1. (Le cas échéant) Si une flèche déroulante s’affiche sur un graphe, cliquez sur l’icône **Flèche déroulante** ![](assets/dropdown-arrow.png) du graphe et sélectionnez l’option souhaitée dans le menu.\
+   Pour plus d’informations sur les options disponibles dans les menus de chaque graphe, consultez la section correspondante ci-dessus.
 
-1. (Facultatif) Pour examiner de plus près les tâches ou les problèmes d’une mesure de la page, procédez comme suit :
+1. (Facultatif) Pour examiner de plus près les tâches ou les problèmes relatifs à n’importe quelle mesure de la page, procédez comme suit :
 
-   1. Cliquez sur l’élément (tâches affectées à un utilisateur spécifique, problèmes avec une priorité élevée ou toutes tâches en retard) pour lequel vous souhaitez afficher des détails.
+   1. Cliquez sur l’élément (par exemple, les tâches affectées à un utilisateur ou une utilisatrice spécifique, les problèmes ayant une priorité élevée ou toutes les tâches en retard) dont vous souhaitez voir les détails.
 
       Une liste de tâches ou de problèmes s’affiche.
 
       ![](assets/completed-tasks-dialog-350x75.png)
 
-   1. Utilisez les flèches au bas de la liste pour localiser la tâche ou le problème à examiner.
+   1. Utilisez les flèches en bas de la liste pour localiser la tâche ou le problème que vous souhaitez examiner.
 
       Ou
 
-      Sélectionnez un nombre spécifique pour afficher les tâches ou les problèmes sur une page spécifique.
+      Sélectionnez un numéro de page spécifique pour afficher les tâches ou les problèmes sur la page correspondante.
 
       ![](assets/pagination-300x152.png)
 
@@ -185,8 +185,8 @@ Vous pouvez interagir avec les graphiques de la zone Mesures pour examiner diff�
 
       La tâche ou le problème s’ouvre dans un nouvel onglet.
 
-1. (Facultatif) Pour exporter le tableau de bord des mesures du projet vers un fichier .png, cliquez sur l’icône **Exporter** ![](assets/export.png), puis sélectionnez **Exporter en tant que PNG** dans le menu déroulant.
+1. (Facultatif) Pour exporter le tableau de bord des mesures du projet dans un fichier .png, cliquez sur l’icône **Exporter** ![](assets/export.png), puis sélectionnez **Exporter au format PNG** dans le menu déroulant.
 
    >[!TIP]
    >
-   >Lorsque vous exportez le tableau de bord, le fichier exporté n’inclut que ce qui s’affiche actuellement dans la fenêtre d’affichage. Pour inclure certains éléments dans le fichier exporté, vous devrez peut-être faire défiler la page vers le haut ou vers le bas ou ajuster les paramètres de zoom de votre navigateur.
+   >Lorsque vous exportez le tableau de bord, le fichier exporté ne contient que ce qui est affiché actuellement dans votre viewport. Pour inclure certains éléments dans le fichier exporté, il se peut que vous deviez faire défiler la page vers le haut ou vers le bas ou ajuster les paramètres de zoom de votre navigateur.

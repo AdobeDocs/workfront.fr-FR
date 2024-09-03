@@ -1,8 +1,8 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Gérer les commentaires des objectifs dans les Objectifs Adobe Workfront
-description: Vous pouvez apporter des commentaires à tous les objectifs que vous pouvez visualiser dans les Objectifs Adobe Workfront.
+title: Gérer les commentaires sur les objectifs dans Objectifs Adobe Workfront
+description: Vous pouvez ajouter des commentaires à tous les objectifs que vous pouvez afficher dans Objectifs Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 ---
 
-# Gérer les commentaires des objectifs dans les Objectifs Adobe Workfront
+# Gérer les commentaires sur les objectifs dans Objectifs Adobe Workfront
 
 <!--Audited: 01/2024-->
 
@@ -34,7 +34,7 @@ Vous pouvez ajouter des commentaires à tous les objectifs que vous pouvez affic
 
 ## Conditions d’accès
 
-Pour effectuer les actions décrites dans cet article, vous devez disposer de l’accès suivant :
+Vous devez disposer des droits d’accès suivants pour effectuer les actions décrites dans cet article :
 
 <table style="table-layout:auto">
 <col>
@@ -56,30 +56,30 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
  <tr>
  <td role="rowheader">Licence Adobe Workfront</td>
  <td>
- <p>N’importe quelle</td>
+ <p>Tous</td>
  </tr>
  <tr>
  <td role="rowheader">Produit*</td>
  <td>
- <p> Nouvelle exigence du produit : si vous disposez du forfait Adobe Workfront Select ou Prime, vous devez également acheter une licence Objectifs Adobe Workfront supplémentaire. Les Objectifs Workfront sont inclus dans le forfait Workfront Ultimate.</p>
+ <p> Nouvelle exigence en matière de produit : si vous disposez d’une formule Select ou Prime Adobe Workfront, vous devez acheter en plus une licence Objectifs Adobe Workfront. Les Objectifs Workfront sont inclus dans la formule Workfront Ultimate.</p>
  Ou
- <p>Exigences actuelles du produit : vous devez obtenir une licence supplémentaire pour les Objectifs Adobe Workfront afin d’accéder aux fonctionnalités décrites dans cet article. </p> <p>Pour plus d’informations, consultez la section <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Exigences pour l’utilisation des Objectifs Workfront</a>. </p> </td>
+ <p>Exigence actuelle du produit : vous devez acheter en plus une licence Objectifs Adobe Workfront pour accéder aux fonctionnalités décrites dans cet article. </p> <p>Pour plus d’informations, consultez <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Conditions d’utilisation des Objectifs Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Configuration du niveau d’accès</td>
- <td> <p>Affichage ou accès supérieur pour les Objectifs</p> </td>
+ <td> <p>Accès en affichage ou accès supérieur aux Objectifs</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Autorisations d’objet</td>
  <td>
   <div>
-  <p>Affichage ou autorisations supérieures pour l’objectif</p>
-  <p>Par défaut, les utilisateurs et utilisatrices n’ont pas accès aux objectifs. </p>
- <p>Pour plus d’informations sur le partage des objectifs, consultez <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans les Objectifs Workfront</a>. </p>
+  <p>Autorisations d’affichage ou autorisations supérieures pour l’objectif</p>
+  <p>Par défaut, les utilisateurs et les utilisatrices n’ont pas accès aux objectifs. </p>
+ <p>Pour plus d’informations sur le partage des objectifs, voir <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Partager un objectif dans Objectifs Workfront</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modèle de disposition</p></td>
+   <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> <p>Toutes les personnes, y compris les administrateurs et administratrices Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Objectifs dans le menu principal. </p>  
 </td>
   </tr>
@@ -90,10 +90,11 @@ Pour effectuer les actions décrites dans cet article, vous devez disposer de l�
 
 ## Gérer les commentaires des objectifs
 
-Vous pouvez apporter des commentaires aux objectifs dans la section Mises à jour de la page d’un objectif.
+Vous pouvez ajouter des commentaires aux objectifs dans la section des mises à jour de la page de l’objectif.
 
-1. Cliquez sur l’icône **Menu Principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l’icône **Menu Principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis sélectionnez **Objectifs**. La liste des objectifs s’affiche.
-1. Recherchez l’objectif pour lequel vous souhaitez apporter un commentaire, puis cliquez sur son nom pour ouvrir la page de l’objectif.
+1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l’icône **Menu principal** ![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Objectifs**.
+La liste des objectifs s’ouvre.
+1. Localisez l’objectif pour lequel vous souhaitez ajouter des commentaires, puis cliquez sur son nom pour ouvrir la page de l’objectif.
 1. Cliquez sur **Mises à jour** dans le panneau de gauche.
 
    Pour plus d’informations sur la gestion des commentaires sur les objets Workfront, voir [Mise à jour du travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

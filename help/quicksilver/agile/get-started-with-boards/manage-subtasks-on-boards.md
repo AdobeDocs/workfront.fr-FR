@@ -2,22 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Gestion des sous-tâches sur les panoramas
-description: L’utilisation de sous-tâches sur les cartes vous permet d’établir une relation parent-enfant entre les tâches et de créer une hiérarchie de travail.
+description: L’utilisation de sous-tâches sur des cartes permet d’établir une relation parent-enfant entre les tâches et de créer une hiérarchie de travail.
 author: Lisa
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
 source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 20%
+ht-degree: 98%
 
 ---
 
 # Gérer les sous-tâches sur les panoramas
 
-L’utilisation de sous-tâches sur les cartes vous permet d’établir une relation parent-enfant entre les tâches et de créer une hiérarchie de travail. Une sous-tâche que vous ajoutez à une carte sur un panorama Workfront est également ajoutée à la tâche dans le projet Workfront. Pour plus d’informations sur les sous-tâches et les tâches au niveau du projet, voir [Créer des sous-tâches](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+L’utilisation de sous-tâches sur des cartes permet d’établir une relation parent-enfant entre les tâches et de créer une hiérarchie de travail. Une sous-tâche que vous ajoutez à une carte sur un panorama Workfront est également ajoutée à la tâche dans le projet Workfront. Pour plus d’informations sur les sous-tâches et les tâches au niveau du projet, consultez [Créer des sous-tâches](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
-Les sous-tâches ne sont disponibles que sur les cartes connectées et ne le sont pas sur les problèmes. Pour plus d’informations sur les cartes connectées, consultez [Utiliser des cartes connectées sur des panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Les sous-tâches ne sont disponibles que sur les cartes connectées et ne sont pas disponibles sur les problèmes. Pour plus d’informations sur les cartes connectées, consultez [Utiliser des cartes connectées sur des panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Conditions d’accès
 
@@ -31,51 +31,51 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront]</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td> 
    <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
    <p>ou</p>
-   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ajout d’une sous-tâche à une carte
+## Ajouter une sous-tâche à une carte
 
 {{step1-to-boards}}
 
 1. Accédez à un panorama. Pour plus d’informations, voir [Créer ou modifier un panorama](../../agile/get-started-with-boards/create-edit-board.md).
-1. Cliquez sur la carte pour ouvrir la zone [!UICONTROL Card Details].
+1. Cliquez sur la carte pour ouvrir la zone [!UICONTROL Détails de la carte].
 
    Ou
 
-   Cliquez sur le menu **[!UICONTROL Plus]** ![Plus de menu](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Modifier]**.
+   Cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) de la carte et sélectionnez **[!UICONTROL Modifier]**.
 
-   Toutes les sous-tâches existantes pour cette tâche apparaissent sur la carte dans la section Sous-tâche , au-dessus des éléments de liste de contrôle. Cliquez sur l’icône [!UICONTROL **Rechercher**] pour rechercher une sous-tâche.
+   Toutes les sous-tâches existantes pour cette tâche apparaissent sur la carte dans la section Sous-tâche, au-dessus des éléments de la liste de contrôle. Cliquez sur l’icône [!UICONTROL **Rechercher**] pour rechercher une sous-tâche.
 
 1. Pour ajouter une nouvelle sous-tâche, cliquez sur [!UICONTROL **Ajouter une sous-tâche**]. Saisissez ensuite le titre de la sous-tâche et appuyez sur Entrée.
 
-   Le compteur en haut de la liste indique le nombre de sous-tâches terminées et le nombre total de sous-tâches.
+   Le compteur situé en haut de la liste indique le nombre de sous-tâches terminées et le nombre total de sous-tâches.
 
-1. Cliquez sur ![Icône Détails](assets/checklist-chevron.png) pour ouvrir la boîte de détails des sous-tâches. Le nom de la sous-tâche s’affiche en haut.
+1. Cliquez sur l’![icône Détails](assets/checklist-chevron.png) pour ouvrir la zone de détails de la sous-tâche. Le nom de la sous-tâche apparaît en haut.
 1. (Facultatif) Ajoutez les détails de la sous-tâche.
 
-   Ces informations sont également ajoutées à la sous-tâche dans le projet [!DNL Workfront].
+   Cette information est également ajoutée à la sous-tâche dans le projet [!DNL Workfront].
 
-   Tous les champs d’une carte connectée sont disponibles sur les détails de la sous-tâche, y compris les sous-tâches supplémentaires. Pour plus d’informations sur l’un de ces champs, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   Tous les champs d’une carte connectée sont disponibles dans les détails de la sous-tâche, y compris les sous-tâches supplémentaires. Pour plus d’informations sur l’un ou l’autre de ces champs, consultez [Utiliser des cartes connectées sur des panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 1. Cliquez sur **[!UICONTROL Fermer]** pour revenir aux détails de la carte et à la liste complète des sous-tâches.
 
-   Vous pouvez également utiliser le chemin de navigation situé en haut des détails de la sous-tâche pour naviguer dans la hiérarchie.
+   Vous pouvez également utiliser les chemins de navigation situés au-dessus des détails de la sous-tâche pour naviguer dans la hiérarchie.
 
-   Les personnes désignées et la date d’échéance apparaissent dans la sous-tâche de la liste.
+   Les personnes cessionnaires et la date d’échéance apparaissent sur la sous-tâche dans la liste.
 
-1. Pour copier une sous-tâche, cliquez sur le menu **[!UICONTROL Plus]** ![Plus de menu](assets/more-icon-spectrum.png) sur l’élément et sélectionnez **[!UICONTROL Copier]**.
+1. Pour copier une sous-tâche, cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) sur l’élément et sélectionnez **[!UICONTROL Copier]**.

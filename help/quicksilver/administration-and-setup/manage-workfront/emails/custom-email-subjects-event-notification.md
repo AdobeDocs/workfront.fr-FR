@@ -9,7 +9,7 @@ exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Certaines notifications d’événement ont plusieurs lignes d’objet, ce qui s
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,21 +44,21 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
    <td> <p>Planificateur ou version ultérieure, avec accès administratif aux notifications de rappel</p> <p>Pour plus d’informations sur l’octroi d’un accès administratif à un utilisateur ou une utilisatrice de plan, voir la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Octroyer un accès administratif à certaines zones</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration Workfront.
 
 +++
 
@@ -70,7 +70,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Cliquez sur l’onglet **Notifications d’événement**.
 1. Cliquez sur le nom de la notification d’événement à personnaliser pour ouvrir la zone **Notification d’événement**.
-1. Dans le **Objet du courrier électronique** , modifiez le texte et les champs, y compris les champs personnalisés, dans l’objet de l’email.
+1. Dans la zone **Ligne d’objet de l’e-mail**, modifiez le texte et les champs, y compris les champs personnalisés, de l’objet de l’e-mail.
 
    Les noms des champs ajoutés doivent correspondre à la syntaxe « camel case » de notre structure de base de données. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 

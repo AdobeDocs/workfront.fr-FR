@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de la version 15 de l’API
-description: Adobe Workfront a publié la version 14 de l’API le mercredi 14 juin 2022. La version 15 de l’API comprend les modifications suivantes par rapport à la version 14.
+title: Nouveautés de la version 15 de l’API
+description: Adobe Workfront a publié l’API version 14 le 14 juin 2022. La version 15 de l’API présente les changements suivants par rapport à la version 14.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,13 +10,13 @@ exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2286'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
-# Nouveautés de la version 15 de l’API
+# Nouveautés de la version 15 de l’API
 
-Adobe Workfront a publié la version 15 de l’API le mercredi 14 juin 2022. La version 15 de l’API comprend les modifications suivantes par rapport à la version 14.
+Adobe Workfront a publié l’API version 15 le 14 juin 2022. La version 15 de l’API présente les changements suivants par rapport à la version 14.
 
 ## Ressources ajoutées
 
@@ -34,9 +34,9 @@ Adobe Workfront a publié la version 15 de l’API le mercredi 14 juin 2022. L
 
 ### Initiative (INITIV)
 
-L’objet Initiative crée des estimations dans le planificateur de scénarios de Workfront pour le type et le nombre de rôles de tâche, les coûts fixes et l’avantage planifié.
+L’objet Initiative crée des estimations dans le planificateur de scénarios Workfront pour le type et le nombre de fonctions, les coûts fixes et le bénéfice prévu.
 
-Pour plus d’informations sur les initiatives, consultez la [présentation des initiatives dans le planificateur de scénario](../../scenario-planner/initiatives-overview.md).
+Pour plus d’informations sur les initiatives, voir [Vue d’ensemble des initiatives dans le planificateur de scénarios](../../scenario-planner/initiatives-overview.md).
 
 <table>
   <col/>
@@ -49,7 +49,7 @@ Pour plus d’informations sur les initiatives, consultez la [présentation des 
           <li>
             <p><b>customerID</b>
             </p>
-            <p>C'est un objet interne.</p>
+            <p>Il s’agit d’un objet interne.</p>
           </li>
           <li>
             <p><b>duration</b>
@@ -62,24 +62,24 @@ Pour plus d’informations sur les initiatives, consultez la [présentation des 
             <p>Date d’achèvement prévue de l’initiative.</p>
           </li>
           <li>
-            <p><b>informatiquesByID</b>
+            <p><b>entryByID</b>
             </p>
-            <p>Identifiant associé à l’utilisateur qui a envoyé la demande.</p>
+            <p>Identifiant associé à l’utilisateur ou l’utilisatrice qui a envoyé la demande.</p>
           </li>
           <li>
             <p><b>ID</b>
             </p>
-            <p>ID associé à l’action.</p>
+            <p>Identifiant associé à l’action</p>
           </li>
           <li>
-            <p><b>InitiativeID</b>
+            <p><b>initiativeID</b>
             </p>
-            <p>ID associé à l’initiative.</p>
+            <p>Identifiant associé à l’initiative.</p>
           </li>
           <li>
             <p><b>lastPublishedDate</b>
             </p>
-            <p>Date de la dernière publication de l’initiative dans le planificateur de scénario Workfront.</p>
+            <p>Date de la dernière publication de l’initiative dans le planificateur de scénarios Workfront.</p>
           </li>
           <li>
             <p><b>name</b>
@@ -89,7 +89,7 @@ Pour plus d’informations sur les initiatives, consultez la [présentation des 
           <li>
             <p><b>planID</b>
             </p>
-            <p>ID du plan associé à l’initiative.</p>
+            <p>Identifiant du plan associé à l’initiative.</p>
           </li>
           <li>
             <p><b>planName</b>
@@ -102,9 +102,9 @@ Pour plus d’informations sur les initiatives, consultez la [présentation des 
             <p>Identifiant du projet associé à l’initiative.</p>
           </li>
           <li>
-            <p><b>scénarioID</b>
+            <p><b>scenarioID</b>
             </p>
-            <p>Identifiant du scénario dans le planificateur de scénario Workfront associé à l’initiative.</p>
+            <p>Identifiant du scénario dans le planificateur de scénarios Workfront associé à l’initiative.</p>
           </li>
           <li>
             <p><b>startDate</b>
@@ -123,7 +123,7 @@ Pour plus d’informations sur les initiatives, consultez la [présentation des 
             </p>
           </li>
           <li>
-            <p><b>informatiquesBy</b>
+            <p><b>enteredBy</b>
             </p>
           </li>
           <li>
@@ -221,7 +221,7 @@ L’objet IssueDef représente un ensemble de données concernant le format des 
 
 ### ObjectIntegration (OBJINT)
 
-Dans certains cas, il est possible de lier des tâches Workfront directement à des objets d’un produit logiciel externe. L’objet ObjectIntegration représente ce lien.
+Dans certains cas, il est possible de lier des éléments de travail Workfront directement aux objets d’un logiciel externe. L’objet ObjectIntegration représente ce lien.
 
 <table>
   <col/>
@@ -234,7 +234,7 @@ Dans certains cas, il est possible de lier des tâches Workfront directement à 
           <li>
             <p><b>customerID</b>
             </p>
-            <p>C'est un objet interne.</p>
+            <p>Il s’agit d’un objet interne.</p>
           </li>
           <li>
             <p><b>entryDate</b>
@@ -249,7 +249,7 @@ Dans certains cas, il est possible de lier des tâches Workfront directement à 
           <li>
             <p><b>integrationType</b>
             </p>
-            <p>Le logiciel externe avec lequel l’objet ObjectIntegration crée un lien. Les valeurs possibles sont les suivantes :</p>
+            <p>Logiciel externe avec lequel l’objet ObjectIntegration crée un lien. Les valeurs possibles sont les suivantes :</p>
             <ul>
               <li>
                 <p>JIRA</p>
@@ -336,7 +336,7 @@ L’objet TaskDef représente un ensemble de données concernant le format des t
       <td>
         <ul>
           <li>
-            <p><b>autoCalcScheduleHours </b>
+            <p><b>autoCalcPlannedHours</b>
             </p>
           </li>
           <li>
@@ -351,7 +351,7 @@ L’objet TaskDef représente un ensemble de données concernant le format des t
       <td >
         <ul>
           <li>
-            <p><b>defaultApprovalProcess </b>
+            <p><b>defaultApprovalProcess</b>
             </p>
           </li>
         </ul>
@@ -362,8 +362,7 @@ L’objet TaskDef représente un ensemble de données concernant le format des t
       <td>
         <ul>
           <li>
-            <p><b>objectCategories
-</b>
+            <p><b>objectCategories</b>
             </p>
           </li>
         </ul>
@@ -410,7 +409,7 @@ L’objet TaskDef représente un ensemble de données concernant le format des t
             </p>
           </li>
           <li>
-            <p><b>requestDate</b>
+            <p><b>requestedDate</b>
             </p>
           </li>
           <li>
@@ -441,7 +440,7 @@ L’objet TaskDef représente un ensemble de données concernant le format des t
             </p>
           </li>
           <li>
-            <p><b>demandeur</b>
+            <p><b>requestor</b>
             </p>
           </li>
           <li>
@@ -540,7 +539,7 @@ L’objet TaskDef représente un ensemble de données concernant le format des t
 
 ## Ressources supprimées
 
-Aucune ressource n’a été supprimée pour l’API version 15.
+Aucune ressource n’a été supprimée pour l’API version 15.
 
 ## Ressources modifiées
 
@@ -554,7 +553,7 @@ Aucune ressource n’a été supprimée pour l’API version 15.
 
 * [Approval (APPROVAL)](#Approval)
 
-* [Category (CTGY)](#Category)
+* [Catégorie (CTGY)](#Category)
 
 * [CategoryParameter (CTGYPA)](#Category2)
 
@@ -578,23 +577,23 @@ Aucune ressource n’a été supprimée pour l’API version 15.
 
 * [Programme (PRGM)](#Program)
 
-* [Project (PROJ)](#Project)
+* [Projet (PROJ)](#Project)
 
 * [QueueDef (QUED)](#QueueDef)
 
 * [ScoreCardQuestion (SCOREQ)](#ScoreCar)
 
-* [Task (TASK)](#Task)
+* [Tâche (TASK)](#Task)
 
-* [Template (TMPL)](#Template)
+* [Modèle (TMPL)](#Template)
 
 * [Timesheet (TSHET)](#Timeshee)
 
-* [Vue (UIVIEW)](#View)
+* [View (UIVIEW)](#View)
 
 * [Update (UPDATE)](#Update)
 
-* [Utilisateur (USER)](#User)
+* [Utilisateur ou utilisatrice (USER)](#User)
 
 * [UserNote (USRNOT)](#UserNote)
 
@@ -602,7 +601,7 @@ Aucune ressource n’a été supprimée pour l’API version 15.
 
 ### AccessLevel (ACSLVL)
 
-Un objet AccessLevel est associé à des utilisateurs et décrit le jeu d’autorisations AccessLevel qui déterminent ce à quoi l’utilisateur peut accéder.
+Un objet AccessLevel est associé à des personnes et décrit le jeu d’autorisations AccessLevelPermissions qui déterminent ce à quoi la personne peut accéder.
 
 Pour plus d’informations sur les niveaux d’accès, voir [Niveaux d’accès](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
@@ -649,10 +648,10 @@ Un objet AccessLevelPermissions représente une autorisation spécifique d’acc
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Éditer les équipes sur lesquelles je travaille)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Modifier les équipes auxquelles j’appartiens)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN (Éditer les équipes dans les groupes que je gère (administrateurs de groupe uniquement)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (Modifier les équipes dans les groupes que je gère (administrateurs et administratrices de groupes uniquement))</p>
               </li>
             </ul>
           </li>
@@ -661,10 +660,10 @@ Un objet AccessLevelPermissions représente une autorisation spécifique d’acc
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Éditer les équipes sur lesquelles je travaille)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Modifier les équipes auxquelles j’appartiens)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN (Éditer les équipes dans les groupes que je gère (administrateurs de groupe uniquement)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (Modifier les équipes dans les groupes que je gère (administrateurs et administratrices de groupes uniquement))</p>
               </li>
             </ul>
           </li>
@@ -673,10 +672,10 @@ Un objet AccessLevelPermissions représente une autorisation spécifique d’acc
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Éditer les équipes sur lesquelles je travaille)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Modifier les équipes auxquelles j’appartiens)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN (Éditer les équipes dans les groupes que je gère (administrateurs de groupe uniquement)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (Modifier les équipes dans les groupes que je gère (administrateurs et administratrices de groupes uniquement))</p>
               </li>
             </ul>
           </li>
@@ -688,7 +687,7 @@ Un objet AccessLevelPermissions représente une autorisation spécifique d’acc
 
 ### AccessRequest (ACSREQ)
 
-Si un utilisateur ou une utilisatrice n’a pas accès à un objet Workfront dont il ou elle a besoin, il ou elle peut demander l’accès à cet objet. L’objet AccessRequest représente cette demande.
+Si une personne n’a pas accès à un objet Workfront dont elle a besoin, elle peut demander l’accès à cet objet. L’objet AccessRequest représente cette requête.
 
 <table>
   <col/>
@@ -699,20 +698,20 @@ Si un utilisateur ou une utilisatrice n’a pas accès à un objet Workfront don
       <td>
         <ul>
           <li>
-            <p><b>action</b> (chaîne)</p>
+            <p><b>action</b> (string)</p>
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Éditer les équipes sur lesquelles je travaille)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Modifier les équipes auxquelles j’appartiens)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN (Éditer les équipes dans les groupes que je gère (administrateurs de groupe uniquement)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (Modifier les équipes dans les groupes que je gère (administrateurs et administratrices de groupes uniquement))</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>autoShareAction</b> (chaîne)</p>
-            <p>Ajout de la valeur possible suivante :</p>
+            <p><b>autoShareAction</b> (string)</p>
+            <p>Ajout de la valeur possible suivante :</p>
             <ul>
               <li>
                 <p>WDL</p>
@@ -727,7 +726,7 @@ Si un utilisateur ou une utilisatrice n’a pas accès à un objet Workfront don
 
 ### AccessRule (ACSRUL)
 
-Un objet AccessRule représente un jeu de règles dans les niveaux d’accès personnalisés qui détermine comment les utilisateurs et les utilisatrices peuvent partager les projets qu’ils ou elles créent.
+Un objet AccessRule représente un jeu de règles dans les niveaux d’accès personnalisés qui détermine comment les personnes peuvent partager les projets qu’elles créent.
 
 <table>
   <col/>
@@ -742,10 +741,10 @@ Un objet AccessRule représente un jeu de règles dans les niveaux d’accès pe
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Éditer les équipes sur lesquelles je travaille)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Modifier les équipes auxquelles j’appartiens)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN (Éditer les équipes dans les groupes que je gère (administrateurs de groupe uniquement)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (Modifier les équipes dans les groupes que je gère (administrateurs et administratrices de groupes uniquement))</p>
               </li>
             </ul>
           </li>
@@ -754,10 +753,10 @@ Un objet AccessRule représente un jeu de règles dans les niveaux d’accès pe
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Éditer les équipes sur lesquelles je travaille)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Modifier les équipes auxquelles j’appartiens)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN (Éditer les équipes dans les groupes que je gère (administrateurs de groupe uniquement)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (Modifier les équipes dans les groupes que je gère (administrateurs et administratrices de groupes uniquement))</p>
               </li>
             </ul>
           </li>
@@ -766,10 +765,10 @@ Un objet AccessRule représente un jeu de règles dans les niveaux d’accès pe
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Éditer les équipes sur lesquelles je travaille)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Modifier les équipes auxquelles j’appartiens)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN (Éditer les équipes dans les groupes que je gère (administrateurs de groupe uniquement)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (Modifier les équipes dans les groupes que je gère (administrateurs et administratrices de groupes uniquement))</p>
               </li>
             </ul>
           </li>
@@ -781,7 +780,7 @@ Un objet AccessRule représente un jeu de règles dans les niveaux d’accès pe
 
 ### Approval (APPROVAL)
 
-Un élément de travail donné, tel qu’une tâche, un document ou une feuille de temps, peut exiger qu’un superviseur ou une superviseuse, ou un autre utilisateur ou une autre utilisatrice, valide l’élément de travail. Un objet Approval représente l’action de validation d’un élément de travail.
+Un élément de travail donné, tel qu’une tâche, un document ou une feuille de temps, peut exiger qu’une personne en charge de la supervision ou une autre personne valide l’élément de travail. Un objet Approbation représente l’action de validation d’un élément de travail.
 
 <table>
   <col/>
@@ -792,7 +791,7 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
       <td>
         <ul>
           <li>
-            <p><b> resourcePlannerBudgetedHours </b>
+            <p><b>resourcePlannerBudgetedHours</b>
             </p>
           </li>
         </ul>
@@ -805,18 +804,18 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
           <li>
             <p><b>initiative</b>
             </p>
-            <p>Ajouté.</p>
-            <p>L’objet Initiative crée des estimations dans le planificateur de scénarios de Workfront pour le type et le nombre de rôles de tâche, les coûts fixes et l’avantage planifié. </p>
+            <p>Ajout.</p>
+            <p>L’objet Initiative crée des estimations dans le planificateur de scénarios Workfront pour le type et le nombre de fonctions, les coûts fixes et le bénéfice prévu. </p>
           </li>
           <li>
             <p><b>issueDef</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
           <li>
             <p><b>taskDef</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -826,11 +825,10 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
       <td>
         <ul>
           <li>
-            <p style="font-weight: bold;"><b> objectIntegrations
-</b>
+            <p style="font-weight: bold;"><b>objectIntegrations</b>
             </p>
-            <p style="font-weight: normal;">Ajouté.</p>
-            <p>Dans certains cas, il est possible de lier des tâches Workfront directement à des objets d’un produit logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
+            <p style="font-weight: normal;">Ajout.</p>
+            <p>Dans certains cas, il est possible de lier des éléments de travail Workfront directement aux objets d’un logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
           </li>
         </ul>
       </td>
@@ -838,7 +836,7 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
   </tbody>
 </table>
 
-### Category (CTGY)
+### Catégorie (CTGY)
 
 Un objet Category est un formulaire personnalisé.
 
@@ -851,8 +849,8 @@ Un objet Category est un formulaire personnalisé.
       <td>
         <ul>
           <li>
-            <p><b>catObjCode</b> (chaîne)</p>
-            <p>Ajout de la valeur possible suivante :</p>
+            <p><b>catObjCode</b> (string)</p>
+            <p>Ajout de la valeur possible suivante :</p>
             <ul>
               <li>
                 <p>GROUP (Groupe)</p>
@@ -861,10 +859,10 @@ Un objet Category est un formulaire personnalisé.
           </li>
           <li>
             <p><b>objTypes</b> (string[])</p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
             <p style="font-weight: normal;">Ce paramètre est un tableau d’objets possibles auxquels le formulaire personnalisé peut être joint. Il a été ajouté pour prendre en charge la possibilité de joindre un formulaire personnalisé à plusieurs types d’objets.</p>
-            <p>Valeurs possibles : </p>
-            <p>CMPY, PORT, PRGM, PROJ, TÂCHE, OPTASK, UTILISATEUR, DOCU, EXPNS, ITRN, BILL, GROUPE</p>
+            <p>Valeurs possibles : </p>
+            <p>CMPY, PORT, PRGM, PROJ, TASK, OPTASK, USER, DOCU, EXPNS, ITRN, BILL, GROUP</p>
           </li>
         </ul>
       </td>
@@ -875,10 +873,10 @@ Un objet Category est un formulaire personnalisé.
         <ul>
           <li>
             <p><b>objTypes</b> (string[])</p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
             <p style="font-weight: normal;">Ce paramètre est un tableau d’objets possibles auxquels le formulaire personnalisé peut être joint. Il a été ajouté pour prendre en charge la possibilité de joindre un formulaire personnalisé à plusieurs types d’objets.</p>
-            <p>Valeurs possibles : </p>
-            <p>CMPY, PORT, PRGM, PROJ, TÂCHE, OPTASK, UTILISATEUR, DOCU, EXPNS, ITRN, BILL, GROUPE</p>
+            <p>Valeurs possibles : </p>
+            <p>CMPY, PORT, PRGM, PROJ, TASK, OPTASK, USER, DOCU, EXPNS, ITRN, BILL, GROUP</p>
           </li>
         </ul>
       </td>
@@ -899,17 +897,17 @@ Un objet Category est un formulaire personnalisé.
           <li>
             <p><b>hideFormulaFromDescription</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
           <li>
             <p><b>journaledObjCodes</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
           <li>
             <p><b>rawCustomExpression</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -919,7 +917,7 @@ Un objet Category est un formulaire personnalisé.
 
 ### CustomerPreferences (CUSTPR)
 
-Un objet CustomerPreferences représente l’ensemble des préférences définies par un client pour son instance de Workfront.
+Un objet CustomerPreferences représente l’ensemble des préférences définies par un client ou une cliente pour son instance de Workfront.
 
 <table>
   <col/>
@@ -932,14 +930,14 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
           <li>
             <p><b>name</b>
             </p>
-            <p>Ajout des valeurs suivantes :</p>
+            <p>Ajout des valeurs suivantes :</p>
             <ul>
               <li>
-                <p><code>password:sharePointV2IntegrationEnabled</code> (Intégration SharePoint (API Graph) activée)</p>
+                <p><code>password:sharePointV2IntegrationEnabled</code> (Intégration (API Graph) SharePoint activée)</p>
                 <p>Cette valeur prend en charge l’intégration SharePoint mise à jour.</p>
               </li>
               <li>
-                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (Autoriser les utilisateurs à créer des projets sans utiliser de modèle)</p>
+                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (Autoriser les utilisateurs et utilisatrices à créer des projets sans utiliser de modèle)</p>
               </li>
               <li>
                 <p><code>project.mgmt:taskissue.delegate</code> (config.taskissue.delegate)</p>
@@ -954,15 +952,15 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
 
 ### DocumentFolder (DOCFDR)
 
-Les documents peuvent être organisés en dossiers. Vous pouvez créer des dossiers personnels dans votre zone Documents personnels. L’objet DocumentFolder représente l’un de ces dossiers.
+Les documents peuvent être organisés en dossiers. Vous pouvez créer des dossiers personnels dans votre zone personnelle Documents. L’objet DocumentFolder représente l’un de ces dossiers.
 
 L’objet DocumentFolder a ajouté l’indicateur `SHARABLE`.
 
 ### DocumentVersion (DOCV)
 
-Un objet DocumentVersion représente une version spécifique d’un fichier (comme du matériel écrit, des images ou d’autres formes d’informations).
+Un objet DocumentVersion représente une version spécifique d’un fichier (comme du contenu écrit, des images ou d’autres formes d’informations).
 
-Pour plus d’informations sur les versions de document, voir [Téléchargement d’une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
+Pour plus d’informations sur les versions de documents, voir [Charger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
 
 <table>
   <col/>
@@ -975,10 +973,10 @@ Pour plus d’informations sur les versions de document, voir [Téléchargement 
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>Ajout de la valeur suivante : </p>
+            <p>Ajout de la valeur suivante : </p>
             <ul>
               <li>
-                <p><code>SHAREPOINT_V2</code> (SharePoint (API Graph))</p>
+                <p><code>SHAREPOINT_V2</code> ((API Graph) SharePoint)</p>
                 <p>Cette valeur prend en charge l’intégration SharePoint mise à jour.</p>
               </li>
             </ul>
@@ -991,11 +989,11 @@ Pour plus d’informations sur les versions de document, voir [Téléchargement 
 
 ### Groupe (GROUP)
 
-Un objet Group représente un ensemble d’utilisateurs et d’équipes. Les groupes représentent souvent la structure du Ministère.
+Un objet Group représente un ensemble d’utilisateurs et utilisatrices et d’équipes. Les groupes représentent souvent la structure des services.
 
 Pour plus d’informations sur les groupes, voir Groupes et équipes.
 
-L’objet Group a ajouté l’indicateur `DATA_EXTENDIBLE`
+L’objet Group a ajouté l’indicateur `DATA_EXTENDIBLE`.
 
 <table>
   <col/>
@@ -1004,17 +1002,17 @@ L’objet Group a ajouté l’indicateur `DATA_EXTENDIBLE`
     <tr>
       <td role="rowheader">Champs directs</td>
       <td>
-        <p>Les champs suivants ont été ajoutés :</p>
+        <p>Les champs suivants ont été ajoutés :</p>
         <ul>
           <li>
             <p><b>categoryID</b>
             </p>
-            <p>Une catégorie est un formulaire personnalisé. Ce paramètre a été ajouté pour prendre en charge la possibilité d’ajouter des Forms personnalisées aux objets de groupe. </p>
+            <p>Une catégorie est un formulaire personnalisé. Ce paramètre a été ajouté pour prendre en charge la possibilité d’ajouter des formulairess personnalisés aux objets Group. </p>
           </li>
           <li>
             <p><b>isActive</b>
             </p>
-            <p>Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets.</p>
+            <p>Il s’agit d’un paramètre booléen qui a la valeur true si un objet est actif et false s’il ne l’est pas. Les objets définis comme actifs apparaissent dans les menus déroulants et les champs de saisie et peuvent être attachés à d’autres objets.</p>
           </li>
         </ul>
       </td>
@@ -1022,7 +1020,7 @@ L’objet Group a ajouté l’indicateur `DATA_EXTENDIBLE`
     <tr>
       <td role="rowheader">Champs de référence</td>
       <td >
-        <p>Les champs suivants ont été ajoutés :</p>
+        <p>Les champs suivants ont été ajoutés :</p>
         <ul>
           <li>
             <p><b>approver</b>
@@ -1033,7 +1031,7 @@ L’objet Group a ajouté l’indicateur `DATA_EXTENDIBLE`
             </p>
           </li>
           <li>
-            <p><b>demandeur</b>
+            <p><b>requestor</b>
             </p>
           </li>
           <li>
@@ -1046,7 +1044,7 @@ L’objet Group a ajouté l’indicateur `DATA_EXTENDIBLE`
     <tr>
       <td role="rowheader">Champs de collection</td>
       <td>
-        <p>Les champs suivants ont été ajoutés :</p>
+        <p>Les champs suivants ont été ajoutés :</p>
         <ul>
           <li>
             <p><b>objectCategories</b>
@@ -1055,7 +1053,7 @@ L’objet Group a ajouté l’indicateur `DATA_EXTENDIBLE`
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>Dans certains cas, il est possible de lier des tâches Workfront directement à des objets d’un produit logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
+            <p>Dans certains cas, il est possible de lier des éléments de travail Workfront directement aux objets d’un logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
           </li>
         </ul>
       </td>
@@ -1063,12 +1061,12 @@ L’objet Group a ajouté l’indicateur `DATA_EXTENDIBLE`
     <tr>
       <td role="rowheader">Champs par défaut</td>
       <td >
-        <p>Le champ suivant a été ajouté :</p>
+        <p>Le champ suivant a été ajouté :</p>
         <ul>
           <li>
             <p><b>isActive</b>
             </p>
-            <p>Il s’agit d’un paramètre booléen dont la valeur est true si un objet est actif et false dans le cas contraire. Les objets définis sur Actif s’affichent dans des menus déroulants et des champs de type avant et peuvent être associés à d’autres objets.</p>
+            <p>Il s’agit d’un paramètre booléen qui a la valeur true si un objet est actif et false s’il ne l’est pas. Les objets définis comme actifs apparaissent dans les menus déroulants et les champs de saisie et peuvent être attachés à d’autres objets.</p>
           </li>
         </ul>
       </td>
@@ -1076,12 +1074,12 @@ L’objet Group a ajouté l’indicateur `DATA_EXTENDIBLE`
     <tr>
       <td role="rowheader">Actions</td>
       <td>
-        <p>Les champs suivants ont été ajoutés :</p>
+        <p>Les champs suivants ont été ajoutés :</p>
         <ul>
           <li>
             <p><b>calculateDataExtension</b>
             </p>
-            <p>Cette action recalcule les expressions dans les champs de formulaire personnalisés.</p>
+            <p>Cette action recalcule les expressions dans les champs des formulaires personnalisés.</p>
           </li>
           <li>
             <p><b>completeGroupInfo</b>
@@ -1103,7 +1101,7 @@ L’objet Group a ajouté l’indicateur `DATA_EXTENDIBLE`
 
 ### JournalEntry (JRNLE)
 
-L’objet JournalEntry peut être configuré pour consigner des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être consigné dans le cadre de l’objet d’entrée du journal, une entrée du journal correspondante est créée chaque fois que ce champ est modifié.
+L’objet JournalEntry peut être configuré pour enregistrer des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être enregistré dans le cadre de l’objet JournalEntry, une entrée de journal correspondante est créée chaque fois que ce champ est modifié.
 
 <table>
   <col/>
@@ -1114,7 +1112,7 @@ L’objet JournalEntry peut être configuré pour consigner des informations sur
       <td>
         <p><b>changeType</b>
         </p>
-        <p>Ajout de la valeur suivante : </p>
+        <p>Ajout de la valeur suivante : </p>
         <ul>
           <li>
             <p>DW (Téléchargement)</p>
@@ -1142,10 +1140,10 @@ Pour plus d’informations sur les dossiers liés, voir Lier des documents à pa
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>Ajout de la valeur suivante : </p>
+            <p>Ajout de la valeur suivante : </p>
             <ul>
               <li>
-                <p><code>SHAREPOINT_V2</code> (SharePoint (API Graph))</p>
+                <p><code>SHAREPOINT_V2</code> ((API Graph) SharePoint)</p>
                 <p>Cette valeur prend en charge l’intégration SharePoint mise à jour.</p>
               </li>
             </ul>
@@ -1158,7 +1156,7 @@ Pour plus d’informations sur les dossiers liés, voir Lier des documents à pa
 
 ### OpTask / Problème (OPTASK)
 
-Un objet OpTask est généralement appelé un Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Les ordres de modification, les demandes et les bogues sont également des problèmes.
+Un objet OpTask est généralement appelé Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de centre d’assistance. Les ordres de modification, les requêtes et les bugs sont également des problèmes.
 
 <table>
   <col/>
@@ -1167,7 +1165,7 @@ Un objet OpTask est généralement appelé un Problème. Un problème est un él
     <tr>
       <td role="rowheader">Actions</td>
       <td>
-        <p>Les actions suivantes ont été ajoutées :</p>
+        <p>Les actions suivantes ont été ajoutées :</p>
         <ul>
           <li>
             <p><b>bulkMoveWithOptions</b>
@@ -1178,7 +1176,7 @@ Un objet OpTask est généralement appelé un Problème. Un problème est un él
             </p>
           </li>
         </ul>
-        <p>L’action suivante a été modifiée :</p>
+        <p>L’action suivante a été modifiée :</p>
         <ul>
           <li>
             <p><b>copyIssue</b>
@@ -1202,14 +1200,14 @@ Un objet de paramètre est un champ personnalisé.
     <tr>
       <td role="rowheader">Champs directs</td>
       <td>
-        <p>Le champ suivant a été ajouté :</p>
+        <p>Le champ suivant a été ajouté :</p>
         <ul>
           <li>
             <p><b>fieldDefinition</b>
             </p>
           </li>
         </ul>
-        <p>Les champs suivants ont été modifiés :</p>
+        <p>Les champs suivants ont été modifiés :</p>
         <ul>
           <li>
             <p><b>dataType</b>
@@ -1231,7 +1229,7 @@ Un objet de paramètre est un champ personnalisé.
 
 ### Portfolio (PORT)
 
-Un objet de Portfolio est un ensemble de projets qui rivalisent pour les mêmes ressources, généralement de l’argent ou des personnes pour les compléter.
+Un objet Portfolio est un ensemble de projets qui rivalisent pour les mêmes ressources, généralement de l’argent ou des personnes pour les mener à bien.
 
 <table>
   <col/>
@@ -1303,9 +1301,9 @@ Un objet de programme est un sous-ensemble de projets d’un portfolio, où des 
   </tbody>
 </table>
 
-### Project (PROJ)
+### Projet (PROJ)
 
-Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Project représente un groupe de tâches avec un objectif commun et spécifique.
+Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Projet représente un groupe de tâches avec un objectif commun et spécifique.
 
 <table>
   <col/>
@@ -1329,7 +1327,7 @@ Les projets sont des éléments de travail dans Workfront et sont un bloc de cr�
           <li>
             <p><b>initiative</b>
             </p>
-            <p>L’objet Initiative crée des estimations dans le planificateur de scénarios de Workfront pour le type et le nombre de rôles de tâche, les coûts fixes et l’avantage planifié. </p>
+            <p>L’objet Initiative crée des estimations dans le planificateur de scénarios Workfront pour le type et le nombre de fonctions, les coûts fixes et le bénéfice prévu. </p>
           </li>
           <li>
             <p><b>issueDef</b>
@@ -1349,7 +1347,7 @@ Les projets sont des éléments de travail dans Workfront et sont un bloc de cr�
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>Dans certains cas, il est possible de lier des tâches Workfront directement à des objets d’un produit logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
+            <p>Dans certains cas, il est possible de lier des éléments de travail Workfront directement aux objets d’un logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
           </li>
         </ul>
       </td>
@@ -1359,9 +1357,9 @@ Les projets sont des éléments de travail dans Workfront et sont un bloc de cr�
 
 ### QueueDef (QUED)
 
-Un objet QueueDef représente une file d’attente, à savoir un projet qui a été publié dans la zone Centre d’assistance pour permettre aux utilisateurs et utilisatrices d’y envoyer des problèmes.
+Un objet QueueDef représente une file d’attente, qui est un projet qui a été publié dans la zone Centre d’assistance pour permettre aux utilisateurs et utilisatrices de lui soumettre des problèmes.
 
-Pour plus d’informations sur les files d’attente de requête, voir [Création d’une file d’attente de requête](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Pour plus d’informations sur les files d’attente des demandes, voir [Créer une file d’attente des demandes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table>
   <col/>
@@ -1377,10 +1375,10 @@ Pour plus d’informations sur les files d’attente de requête, voir [Créatio
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Éditer les équipes sur lesquelles je travaille)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Modifier les équipes auxquelles j’appartiens)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN (Éditer les équipes dans les groupes que je gère (administrateurs de groupe uniquement)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (Modifier les équipes dans les groupes que je gère (administrateurs et administratrices de groupes uniquement))</p>
               </li>
             </ul>
           </li>
@@ -1390,10 +1388,10 @@ Pour plus d’informations sur les files d’attente de requête, voir [Créatio
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Éditer les équipes sur lesquelles je travaille)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Modifier les équipes auxquelles j’appartiens)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN (Éditer les équipes dans les groupes que je gère (administrateurs de groupe uniquement)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN (Modifier les équipes dans les groupes que je gère (administrateurs et administratrices de groupes uniquement))</p>
               </li>
             </ul>
           </li>
@@ -1405,9 +1403,9 @@ Pour plus d’informations sur les files d’attente de requête, voir [Créatio
 
 ### ScoreCardQuestion (SCOREQ)
 
-Un objet ScoreCardQuestion représente une question qui a été ajoutée à une Fiche d’évaluation. Ces questions sont généralement définies par le responsable du Portfolio et leurs réponses permettent au responsable de comprendre dans quelle mesure un projet s’aligne sur les objectifs du portefeuille.
+Un objet ScoreCardQuestion représente une question qui a été ajoutée à une carte de performance. Ces questions sont généralement définies par la personne gestionnaire du portfolio et leurs réponses lui permettent de comprendre dans quelle mesure un projet s’aligne sur les objectifs du portfolio.
 
-Pour plus d’informations sur les questions de la Fiche d’évaluation, voir [Création d’une Fiche d’évaluation](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Pour plus d’informations sur les questions relatives aux cartes de performance, voir [Créer une carte de performance](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 <table>
   <col/>
@@ -1428,9 +1426,9 @@ Pour plus d’informations sur les questions de la Fiche d’évaluation, voir [
   </tbody>
 </table>
 
-### Task (TASK)
+### Tâche (TASK)
 
-Un objet Task représente un élément de travail qui doit être exécuté en tant qu’étape vers la réalisation d’un objectif final (achèvement d’un projet).
+Un objet Task représente un élément de travail qui doit être exécuté comme une étape vers la réalisation d’un objectif final (achèvement d’un projet).
 
 <table>
   <col/>
@@ -1443,7 +1441,7 @@ Un objet Task représente un élément de travail qui doit être exécuté en ta
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>Dans certains cas, il est possible de lier des tâches Workfront directement à des objets d’un produit logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
+            <p>Dans certains cas, il est possible de lier des éléments de travail Workfront directement aux objets d’un logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
           </li>
         </ul>
       </td>
@@ -1451,9 +1449,9 @@ Un objet Task représente un élément de travail qui doit être exécuté en ta
   </tbody>
 </table>
 
-### Template (TMPL)
+### Modèle (TMPL)
 
-Un objet Template représente un modèle pour un projet. Les projets peuvent être créés à partir de modèles pour gagner du temps. Un modèle contient une équipe et des tâches qui seront copiées dans tout projet créé à partir du modèle.
+Un objet Template représente un modèle de projet. Les projets peuvent être créés à partir de modèles pour gagner du temps. Un modèle contient une équipe et des tâches qui seront copiées dans tout projet créé à partir du modèle.
 
 <table>
   <col/>
@@ -1479,7 +1477,7 @@ Un objet Template représente un modèle pour un projet. Les projets peuvent êt
 
 ### Timesheet (TSHET)
 
-Un objet Timesheet représente une feuille de temps virtuelle qui permet aux utilisateurs et utilisatrices de saisir les heures effectives travaillées pour les heures de tâches, projets et types de frais.
+Un objet Timesheet représente une feuille de temps virtuelle qui permet aux utilisateurs et utilisatrices de saisir les heures effectives travaillées pour les tâches, les projets et les types d’heures supplémentaires.
 
 <table>
   <col/>
@@ -1488,7 +1486,7 @@ Un objet Timesheet représente une feuille de temps virtuelle qui permet aux uti
     <tr>
       <td role="rowheader">Champs principaux</td>
       <td>
-        <p>Le champ suivant a été supprimé :</p>
+        <p>Le champ suivant a été supprimé :</p>
         <ul>
           <li>
             <p><b>objCode</b>
@@ -1500,7 +1498,7 @@ Un objet Timesheet représente une feuille de temps virtuelle qui permet aux uti
   </tbody>
 </table>
 
-### Vue (UIVIEW)
+### View (UIVIEW)
 
 <table>
   <col/>
@@ -1513,10 +1511,10 @@ Un objet Timesheet représente une feuille de temps virtuelle qui permet aux uti
           <li>
             <p><b>uiviewType</b>
             </p>
-            <p>Les valeurs possibles suivantes ont été supprimées :</p>
+            <p>Les valeurs possibles suivantes ont été supprimées :</p>
             <ul>
               <li>
-                <p><code>FOUR_COL</code> (Mise en page à quatre colonnes)</p>
+                <p><code>FOUR_COL</code> (Mise en page Quatre colonnes)</p>
               </li>
               <li>
                 <p><code>UPDATES</code> (Mises à jour)</p>
@@ -1525,31 +1523,31 @@ Un objet Timesheet représente une feuille de temps virtuelle qui permet aux uti
                 <p><code>UPDATESTOOLBAR_FEED</code> (Mises à jour)</p>
               </li>
               <li>
-                <p><code>WORKINGON</code> (En cours)</p>
+                <p><code>WORKINGON</code> (En train de travailler sur)</p>
               </li>
               <li>
                 <p><code>CUSTOMDATA</code> (Données personnalisées)</p>
               </li>
               <li>
-                <p><code>CUSTOMDATA_UPDATE</code> (Mise à jour de données personnalisées)</p>
+                <p><code>CUSTOMDATA_UPDATE</code> (Mettre à jour les données personnalisées)</p>
               </li>
               <li>
-                <p><code>STATUS_UPDATE</code> (Mise à jour de l’état)</p>
+                <p><code>STATUS_UPDATE</code> (Mise à jour du statut)</p>
               </li>
               <li>
-                <p><code>OPTASK_STATUS_UPDATE</code> (Mise à jour de l’état)</p>
+                <p><code>OPTASK_STATUS_UPDATE</code> (Mise à jour du statut)</p>
               </li>
               <li>
-                <p><code>PROJ_STATUS_UPDATE</code> (Mise à jour de l’état)</p>
+                <p><code>PROJ_STATUS_UPDATE</code> (Mise à jour du statut)</p>
               </li>
               <li>
-                <p><code>PROJECT_TIMEENTRY</code> (Mise à jour de l’état)</p>
+                <p><code>PROJECT_TIMEENTRY</code> (Mise à jour du statut)</p>
               </li>
               <li>
-                <p><code>DLIST</code> (Liste des détails)</p>
+                <p><code>DLIST</code> (Liste détaillée)</p>
               </li>
               <li>
-                <p><code>DLIST_SECTION</code> (Section Liste détaillée)</p>
+                <p><code>DLIST_SECTION</code> (Section de liste détaillée)</p>
               </li>
             </ul>
           </li>
@@ -1582,7 +1580,7 @@ Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir
   </tbody>
 </table>
 
-### Utilisateur (USER)
+### Utilisateur ou utilisatrice (USER)
 
 Un objet User représente une personne disposant d’un compte dans Workfront qui peut se connecter et interagir avec le système.
 
@@ -1637,10 +1635,10 @@ Un objet UserNote est une notification.
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
               <li>
-                <p><code>DUP </code>(Demande de BAT d’un document)</p>
+                <p><code>DUP </code>(a demandé que vous relisiez un document)</p>
               </li>
               <li>
-                <p><code>DUV </code>(Permet d’afficher un document)</p>
+                <p><code>DUV </code>(vous autorise à afficher un document)</p>
               </li>
             </ul>
           </li>
@@ -1652,7 +1650,7 @@ Un objet UserNote est une notification.
 
 ### Work (WORK)
 
-Un objet Work est une interface commune dont Task et OpTask héritent tous deux, et partage le code commun entre les deux.
+Un objet Work est une interface commune dont Task et OpTask héritent tous deux et qui partage le code commun entre les deux.
 
 <table>
   <col/>
@@ -1665,7 +1663,7 @@ Un objet Work est une interface commune dont Task et OpTask héritent tous deux,
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>Dans certains cas, il est possible de lier des tâches Workfront directement à des objets d’un produit logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
+            <p>Dans certains cas, il est possible de lier des éléments de travail Workfront directement aux objets d’un logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
           </li>
         </ul>
       </td>

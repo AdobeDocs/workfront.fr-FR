@@ -1,6 +1,6 @@
 ---
-title: Mises à jour de l’expérience utilisateur (version 22.4)
-description: Mises à jour de l’expérience utilisateur (version 22.4)
+title: Mises à jour de l’aspect pendant la période de publication de la version 22.4
+description: Mises à jour de l’aspect pendant la période de publication de la version 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,56 +9,56 @@ exl-id: e5c347ef-aa14-4607-bf30-11b2812ff40d
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
-# Mises à jour de l’expérience utilisateur (version 22.4)
+# Mises à jour de l’apparence pendant la période de publication de la version 22.4
 
-Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées dans le délai de publication de la version 22.4. Ces améliorations seront rendues disponibles dans l’environnement de production au moins 2 semaines après la publication de la version de prévisualisation.
+Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées pendant la période de publication de la version 22.4. Ces améliorations seront disponibles dans l’environnement de production au moins deux semaines après le lancement de la version préliminaire.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, consultez la [présentation de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, voir [Vue d’ensemble de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## Découvrez et ressentez les mises à jour de la page des licences
+## Mises à jour de l’aspect de la page des licences
 
 Nous avons déplacé d’importantes informations de licence dans le coin supérieur droit de la page et mis à jour l’aspect du texte et des boutons pour qu’ils correspondent à d’autres zones de Workfront.
 
-Pour plus d’informations, voir [Gestion des licences disponibles dans votre système](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Pour plus d’informations, voir [Gérer les licences disponibles dans votre système](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
-## Mise à jour des listes dans la zone Forms personnalisée
+## Mise à jour des listes de la zone Formulaires personnalisés
 
 >[!NOTE]
 >
->Version d’aperçu : 21 juillet 2022 ; version de production : 18 août 2022
+>Version préliminaire : 21 juillet 2022 ; version de production : 18 août 2022
 
-Dans la zone Forms personnalisée, l’aspect des listes est désormais plus moderne dans la plupart des autres listes de Workfront. Cette mise à jour ajoute le filtre rapide, qui permet de répertorier uniquement les formulaires personnalisés que vous devez réviser, modifier ou partager.
+Dans la zone Formulaires personnalisés, l’aspect des listes est désormais plus moderne, comme dans la plupart des autres listes Workfront. Cette mise à jour ajoute le filtre rapide, qui permet de répertorier uniquement les formulaires personnalisés que vous devez réviser, modifier ou partager.
 
 ## Listes et rapports mis à jour
 
-Les barres d’outils des listes et rapports suivants ont désormais une apparence moderne et permettent de gérer rapidement les objets dans Adobe Workfront.
+Les barres d’outils des listes et rapports suivants ont désormais un aspect moderne et permettent de gérer rapidement les objets dans Adobe Workfront.
 
-### Version d’aperçu : 28 juillet 2022 ; version de production : avec version 22.4
+### Version préliminaire : 28 juillet 2022 ; version de production : avec la version 22.4
 
-Liste Groupes de rubriques de la file d’attente de projet
+Liste Groupes de rubriques de la file d’attente de projets
 
-### Version d’aperçu : 21 juillet 2022 ; version de production : avec version 22.4
+### Version préliminaire : 21 juillet 2022 ; version de production : avec la version 22.4
 
-Liste des heures de problème
+Liste des heures relatives au problème
 
-Liste Heures de tâche
+Liste des heures relatives à la tâche
 
-Liste de prédécesseurs de tâches
+Liste des tâches antérieures
 
-Liste des rubriques de la file d’attente des projets
+Liste des rubriques de la file d’attente de projets
 
-Liste des enregistrements de facturation de projet
+Liste des enregistrements de facturation du projet
 
-Liste des règles de routage de projet
+Liste des règles de routage du projet
 
-Liste des heures facturables des enregistrements de facturation de projet
+Liste des heures facturables des enregistrements de facturation du projet
 
-Liste des lignes de base du projet
+Liste des références du projet
 
 Liste des risques du projet
 
-Liste Groupes de rubriques de la file d’attente de projet
+Liste Groupes de rubriques de la file d’attente de projets

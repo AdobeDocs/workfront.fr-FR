@@ -10,7 +10,7 @@ exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
 source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
@@ -20,145 +20,145 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina:KEEP THIS:***Linked to: Configuring My Settings, Editing User Accounts, Planning in the Resource Planner -- *** Some of this documentation is also duplicated in this article (Scheduling): https://support.workfront.com/hc/en-us/articles/360000557174)</p>
 -->
 
-Vous pouvez afficher l’allocation et la disponibilité de vos ressources dans le planificateur de ressources par heure, ETR ou Coût.\
+Vous pouvez afficher l’attribution et la disponibilité de vos ressources dans le planificateur de ressources par heure, ETP ou coût.\
 Pour plus d’informations sur le calcul des coûts dans le planificateur de ressources, voir [Calculer les coûts dans le planificateur de ressources](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
-&quot;FTE&quot; signifie &quot;équivalent temps plein&quot;. Il s’agit d’une mesure du temps qui représente le nombre d’heures consacrées au travail réel au cours d’une journée ou d’une semaine pour un utilisateur ou un rôle de tâche.
+« ETP » signifie équivalent temps plein. Il s’agit d’une mesure du temps qui représente le nombre d’heures consacrées au travail réel au cours d’une journée ou d’une semaine pour une personne ou une fonction.
 
-Les ensembles d’informations sur les ressources suivants sont calculés différemment dans le planificateur de ressources :
+Les ensembles d’informations sur les ressources suivants sont calculés différemment dans le planificateur de ressources :
 
-* Les valeurs des heures disponibles ou de l’éditeur de texte enrichi sont calculées selon la manière dont votre administrateur système configure les préférences de gestion des ressources dans votre système.\
-  Pour plus d’informations sur le mode de calcul des valeurs des heures disponibles et de l’éditeur de texte enrichi, voir [Calculer les heures disponibles ou l’éditeur de texte enrichi pour les utilisateurs et les rôles de tâche dans le planificateur de ressources](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
-  Pour plus d’informations sur la définition des préférences de gestion des ressources pour le système Adobe Workfront, voir [Configuration des préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* Les valeurs des heures disponibles ou ETP sont calculées selon la manière dont votre administrateur ou administratrice système configure les préférences de gestion des ressources dans votre système.\
+  Pour plus d’informations sur le calcul des valeurs d’heures disponibles et d’ETP, voir [Calculer les heures disponibles ou d’ETP pour les personnes et les fonctions dans le planificateur de ressources](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
+  Pour plus d’informations sur la définition des préférences de gestion des ressources pour le système Adobe Workfront, voir [Configurer les préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* Toutes les autres valeurs de l’éditeur de texte enrichi sont calculées selon la planification par défaut du système.\
-  Pour plus d’informations sur l’affichage de toutes les autres valeurs dans le planificateur de ressources lors de l’utilisation de l’éditeur de texte enrichi, voir la section [ Calculer toutes les autres valeurs d’heure et d’éditeur de texte enrichi pour les utilisateurs et les rôles de tâche dans le planificateur de ressources ](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) de cet article.
+* Toutes les autres valeurs ETP sont calculées selon la planification par défaut du système.\
+  Pour plus d’informations sur l’affichage de toutes les autres valeurs dans le planificateur de ressources lors de l’utilisation d’ETP, voir la section [Calculer toutes les autres valeurs d’heures et d’ETP pour les personnes et les fonctions dans le planificateur de ressources](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) dans cet article.
 
-Il est important de comprendre ce qu’est l’éditeur de texte enrichi pour chacun de vos utilisateurs et leurs rôles professionnels afin de gérer précisément vos ressources au fur et à mesure que vous les affectez pour qu’elles fonctionnent.
+Il est important de comprendre ce qu’est ETP pour chacun de vos utilisateurs et utilisatrices et leurs fonctions afin de gérer précisément vos ressources au fur et à mesure que vous les affectez à un travail.
 
-## Calcul des heures disponibles ou de l’éditeur de texte enrichi pour les utilisateurs et les rôles de tâche dans le planificateur de ressources {#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner}
+## Calculer les heures disponibles ou l’ETP pour les personnes et les fonctions dans le planificateur de ressources {#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner}
 
-* [Calcul des heures disponibles et de l’éditeur de texte enrichi pour un utilisateur dans le planificateur de ressources](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
-* [Calcul des heures disponibles et de l’éditeur de texte enrichi pour un rôle de tâche dans le planificateur de ressources](#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner)
-* [Calcul des heures disponibles et de l’éditeur de texte enrichi pour un utilisateur dans le planificateur de ressources (exemple)](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example)
+* [Calculer les heures disponibles et l’ETP pour une personne dans le planificateur de ressources](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
+* [Calculer les heures disponibles et l’ETP pour une fonction dans le planificateur de ressources](#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner)
+* [Calculer les heures disponibles et l’ETP pour une personne dans le planificateur de ressources (exemple)](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example)
 
-### Calcul des heures disponibles et de l’éditeur de texte enrichi pour un utilisateur dans le planificateur de ressources {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner}
+### Calculer les heures disponibles et l’ETP pour une personne dans le planificateur de ressources {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner}
 
-L’administrateur de Workfront détermine le mode de calcul de l’heure disponible pour un utilisateur en sélectionnant d’utiliser l’une des options suivantes dans la zone Resource Management de la section Configuration :
+L’administrateur ou administratrice Workfront détermine le mode de calcul des heures disponibles pour une personne en choisissant d’utiliser l’une des options suivantes dans la zone Gestion des ressources de Configuration :
 
-* Planification par défaut du système et de l’éditeur de texte enrichi de l’utilisateur.
-* Planification de l’utilisateur.
+* Le planning par défaut du système et de l’ETP de la personne.
+* Le planning de la personne.
 
-![Paramètre système pour les plannings utilisateur](assets/setup-resource-mgmt.png)
+![Paramètre du système pour les plannings des personnes](assets/setup-resource-mgmt.png)
 
 >[!NOTE]
 >
->Cela détermine comment calculer la disponibilité des ressources au niveau du système. Pour plus d’informations sur la définition des préférences de gestion des ressources pour le système, voir [Configuration des préférences de gestion des ressources](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+>Cela détermine comment calculer la disponibilité des ressources au niveau du système. Pour plus d’informations sur la définition des préférences de gestion des ressources pour le système, voir [Configurer les préférences de gestion des ressources](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-Selon la configuration de ce paramètre, la disponibilité des utilisateurs dans le planificateur de ressources (heures et disponibilité de l’éditeur de texte enrichi) est calculée à l’aide des méthodes suivantes :
+Selon la configuration de ce paramètre, la disponibilité des personnes dans le planificateur de ressources (disponibilité en heures et ETP) est calculée à l’aide des méthodes suivantes :
 
-* **The Default Schedule** : la planification par défaut du système et de l’utilisateur FTE sont utilisées pour déterminer les valeurs Hours disponibles et FTE pour l’utilisateur dans le planificateur de ressources. Le planning de l’utilisateur est ignoré. Dans ce cas :
+* **Planning par défaut** : le planning par défaut du système et l’ETP de la personne sont utilisés pour déterminer les valeurs des heures disponibles et de l’ETP pour la personne dans le planificateur de ressources. Le planning de la personne est ignoré. Dans ce cas :
 
-   * Les **Heures disponibles** du planificateur de ressources sont calculées à l’aide de la formule suivante :
+   * Les **Heures disponibles** dans le planificateur de ressources sont calculées à l’aide de la formule suivante :
 
      `User Available Hours = Default Schedule Hours * User FTE value`
 
-     Par exemple, si la planification par défaut comporte 40 heures par semaine disponibles pour le travail et que l’utilisateur est 0,5, l’utilisateur peut travailler 20 heures par semaine dans le planificateur de ressources.
+     Par exemple, si le planning par défaut comporte 40 heures par semaine disponibles pour le travail et que l’ETP de la personne est 0,5, cette dernière peut travailler 20 heures par semaine dans le planificateur de ressources.
 
-     Pour plus d’informations sur les plannings, y compris la planification par défaut, voir [Créer une planification](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Pour plus d’informations sur les planifications, y compris la planification par défaut, voir [Créer un planning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   * L’ **éditeur de texte enrichi disponible** pour l’utilisateur dans le planificateur de ressources est identique à l’éditeur de texte enrichi spécifié dans les paramètres utilisateur.
+   * L’**ETP disponible** pour la personne dans le planificateur de ressources est identique à l’ETP spécifié dans les paramètres de la personne.
 
-     Par exemple, si l’éditeur de texte enrichi de l’utilisateur est 0.5 dans les paramètres utilisateur, l’éditeur de texte enrichi disponible de l’utilisateur est 0.5 dans le planificateur de ressources. Pour plus d’informations sur la valeur de l’éditeur de texte enrichi tel qu’il s’affiche dans les paramètres utilisateur, voir [Modification du profil d’un utilisateur](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     Par exemple, si l’ETP de la personne est 0,5 dans ses paramètres, l’ETP disponible de la personne est 0,5 dans le planificateur de ressources. Pour plus d’informations sur la valeur de l’ETP de la personne tel qu’il s’affiche dans les paramètres de l’utilisateur ou de l’utilisatrice, voir [Modifier le profil d’une personne](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* **Planification de l’utilisateur** : la planification de l’utilisateur est utilisée pour déterminer la disponibilité de l’utilisateur dans le planificateur de ressources. La valeur de l’utilisateur FTE est ignorée. Dans ce cas :
+* **Planning de la personne** : le planning de la personne est utilisé pour déterminer la disponibilité de cette dernière dans le planificateur de ressources. La valeur de l’ETP de la personne est ignorée. Dans ce cas :
 
-   * Les **Heures disponibles** du planificateur de ressources sont identiques à celles du planning de l’utilisateur.
+   * Les **Heures disponibles** dans le planificateur de ressources sont identiques à celles du planning de la personne.
 
-     Par exemple, si le planning de l’utilisateur dispose de 40 heures de travail par semaine, l’utilisateur peut travailler 40 heures par semaine dans le planificateur de ressources.
+     Par exemple, si le planning de la personne affiche 40 heures de disponibilité pour le travail par semaine, la personne peut travailler 40 heures par semaine dans le planificateur de ressources.
 
-   * Le **FTE disponible** dans le planificateur de ressources est calculé à l’aide de la formule suivante :
+   * L’**ETP disponible** dans le planificateur de ressources est calculé par la formule suivante :
 
      `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-     Par exemple, si le planning de l’utilisateur dispose de 20 heures de travail et que le planning par défaut dans Workfront dispose de 40 heures de travail, l’éditeur de texte enrichi de l’utilisateur est de 0,5.
+     Par exemple, si le planning de la personne affiche 20 heures de disponibilité pour le travail et que le planning par défaut dans Workfront est de 40 heures de disponibilité pour le travail, l’ETP de la personne est de 0,5.
 
-     Pour plus d’informations sur les plannings, y compris la planification par défaut, voir [Créer une planification](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
->[!NOTE]
->
->Si l’utilisateur n’est pas associé à une planification, les Heures disponibles pour l’utilisateur sont calculées à l’aide de la Planification par défaut.
-
-### Calcul des heures disponibles et de l’éditeur de texte enrichi pour un rôle de tâche dans le planificateur de ressources {#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner}
-
-Vous devez d’abord calculer la disponibilité de l’utilisateur, puis la disponibilité de chacun de ses rôles de travail.
-
-La disponibilité des rôles de tâche dans le planificateur de ressources prend en compte la disponibilité totale de l’utilisateur et le **pourcentage de disponibilité de l’éditeur de texte enrichi** associé à chaque rôle de l’utilisateur.\
-![percent_of_fte_disponibilité_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
-
-Pour plus d’informations sur l’association d’une valeur **Pourcentage de disponibilité de l’éditeur de texte enrichi** à un rôle de tâche pour un utilisateur, voir [Modification du profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-
-Par exemple, si la valeur des heures disponibles pour un utilisateur est de 40 et qu’il peut remplir un rôle de Principal pendant 75 % de ce temps, et un autre rôle pendant 25 % de ce temps, le planificateur de ressources indique que la valeur **Hours disponibles** pour le rôle de Principal pendant une semaine est de 30 heures et que la valeur **Heures disponibles** pour l’autre rôle est de 10 heures . Dans ce cas, l’éditeur de texte enrichi pour le rôle de Principal est 0,75 et l’éditeur de texte enrichi pour l’autre rôle est 0,25.
+     Pour plus d’informations sur les plannings, y compris le planning par défaut, voir [Créer un planning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
->Le temps total disponible pour l’utilisateur est calculé par l’une des deux méthodes décrites dans la section [Calcul des heures disponibles et de l’éditeur de texte enrichi pour un utilisateur dans la planification des ressources](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) de cet article.
+>Si la personne n’est pas associée à un planning, les heures disponibles pour elle sont calculées à l’aide du planning par défaut.
 
-Lorsque vous affichez le planificateur de ressources dans la vue Rôle, la disponibilité d’un rôle de tâche correspond à la disponibilité totale de tous les utilisateurs pouvant remplir ce rôle de tâche.\
-Pour plus d’informations sur la disponibilité des ressources dans le planificateur de ressources, consultez la [présentation du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+### Calculer les heures disponibles et l’ETP pour une fonction dans le planificateur de ressources {#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner}
 
-### Calcul des heures disponibles et de l’éditeur de texte enrichi pour un utilisateur dans le planificateur de ressources (exemple) {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example}
+Vous devez d’abord calculer la disponibilité de la personne, puis la disponibilité de chacune de ses fonctions.
 
-Le tableau suivant illustre le mode de calcul des heures disponibles et de l’éditeur de texte enrichi disponibles pour l’utilisateur dans le planificateur de ressources, selon la méthode utilisée par l’administrateur système pour le calcul de l’éditeur de texte enrichi dans les préférences de gestion des ressources.
+La disponibilité des fonctions dans le planificateur de ressources prend en compte la disponibilité totale de la personne et le **pourcentage de disponibilité ETP** associé à chaque fonction de la personne.\
+![percent_of_fte_availlability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
 
-Pour cet exemple, nous utilisons les chiffres suivants :
+Pour plus d’informations sur l’association d’un **pourcentage de disponibilité ETP** à une fonction pour une personne, voir [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Une planification système par défaut de 40 heures
-* Planification de 20 heures pour l’utilisateur
-* Un éditeur de texte enrichi de 0.8
+Par exemple, si la valeur des heures disponibles pour une personne est de 40 et qu’elle peut remplir un rôle principal pendant 75 % de ce temps, et un autre rôle pendant 25 % de ce temps, le planificateur de ressources indique que la valeur des **Heures disponibles** pour le rôle principal pour une semaine est de 30 heures et que la valeur des **Heures disponibles** pour l’autre rôle est de 10 heures. Dans ce cas, l’ETP rôle principal est 0,75 et l’ETP de l’autre rôle est 0,25.
 
-| Méthode de calcul de l’éditeur de texte enrichi (paramètre système) | **Heures à partir de la planification de l’utilisateur** | **Heures à partir de la planification par défaut** | **Champ d’éditeur de texte enrichi de l’utilisateur** | **Heures disponibles dans le planificateur de ressources** | **Éditeur de texte enrichi disponible dans le planificateur de ressources** |
+>[!NOTE]
+>
+>Le temps total disponible de la personne est calculé par l’une des deux méthodes décrites dans la section [Calculer les heures disponibles et l’ETP pour une personne dans le planificateur de ressources](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) dans cet article.
+
+Lorsque vous affichez le planificateur de ressources dans la vue Rôle, la disponibilité d’une fonction correspond à la disponibilité totale de tous les utilisateurs et utilisatrices pouvant remplir cette fonction.\
+Pour plus d’informations sur la disponibilité des ressources dans le planificateur de ressources, voir [Vue d’ensemble du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+
+### Calculer les heures disponibles et l’ETP pour une personne dans le planificateur de ressources (exemple) {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example}
+
+Le tableau suivant illustre la manière de calculer les heures disponibles et l’équivalent temps complet disponible d’un utilisateur ou d’une utilisatrice dans le planificateur de ressources, selon la méthode utilisée par l’administrateur ou l’administratrice système pour le calcul de l’équivalent temps complet dans les préférences de gestion des ressources.
+
+Pour cet exemple, nous utilisons les chiffres suivants :
+
+* Planning système par défaut de 40 heures
+* Planning de l’utilisateur ou de l’utilisatrice de 20 heures
+* Équivalent temps complet de l’utilisateur ou de l’utilisatrice de 0,8
+
+| Méthode de calcul de l’équivalent temps complet (paramètre système) | **Heures du planning de l’utilisateur ou de l’utilisatrice** | **Heures du planning par défaut** | **Champ Équivalent temps complet de l’utilisateur ou de l’utilisatrice** | **Heures disponibles dans le planificateur de ressources** | **Équivalent temps complet disponible dans le planificateur de ressources** |
 |---|---|---|---|---|---|
-| **La Planification Par Défaut** | Ignoré | 40 | 0,8 | **32** (calculé) | **0.8** |
-| **Planification de l’utilisateur** | 20 | 40 | Ignoré | **20** | **0.5** (calculé) |
+| **Planning par défaut** | Ignoré | 40 | 0,8 | **32** (calculé) | **0,8** |
+| **Planning de l’utilisateur ou de l’utilisatrice** | 20 | 40 | Ignoré | **20** | **0,5** (calculé) |
 
-Les exceptions de planification et les congés peuvent avoir une incidence sur le nombre d’heures planifiées ou sur l’éditeur de texte enrichi. Pour plus d’informations, voir [Configurer les préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Les exceptions de planning et les congés peuvent avoir une incidence sur le nombre d’heures prévues ou sur l’équivalent temps complet. Pour plus d’informations, voir [Configurer les préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-Exemple d’affichage du planificateur de ressource par utilisateur et heures :
+Exemple d’affichage du planificateur de ressource par utilisateur ou utilisatrice et par heures :
 
-![Affichage du planificateur de ressources par utilisateur et heures](assets/resource-planner-by-user-by-hours.png)
+![Affichage du planificateur de ressources par utilisateur ou utilisatrice et par heures](assets/resource-planner-by-user-by-hours.png)
 
-Exemple d’affichage du planificateur de ressources par utilisateur et éditeur de texte enrichi :
+Exemple d’affichage du planificateur de ressources par utilisateur ou utilisatrice et par équivalent temps complet :
 
-![Affichage du planificateur de ressources par utilisateur et FTE](assets/resource-planner-by-user-by-fte.png)
+![Affichage du planificateur de ressources par utilisateur ou utilisatrice et par équivalent temps complet](assets/resource-planner-by-user-by-fte.png)
 
-## Calcul de toutes les autres valeurs d’heure et d’éditeur de texte enrichi pour les utilisateurs et les rôles de tâche dans le planificateur de ressources {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
+## Calculer toutes les autres valeurs d’heure et d’équivalent temps complet pour les utilisateurs et utilisatrices et les fonctions dans le planificateur de ressources {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
 
-Outre les heures disponibles ou l’éditeur de texte enrichi, les informations temporelles suivantes s’affichent également dans le planificateur de ressources :
+Outre les heures disponibles ou l’équivalent temps complet, les informations temporelles suivantes s’affichent également dans le planificateur de ressources :
 
 * Heures prévues
 * Heures budgétées
-* Variance horaire
+* Écart d’heures
 * Heures nettes\
-  Pour plus d’informations sur ces valeurs, voir [Aperçu des heures, de l’ETR et des informations de coût dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+  Pour plus d’informations sur ces valeurs, voir [Vue d’ensemble des heures, de l’équivalent temps complet et des coûts dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
-* Différence horaire\
-  Pour plus d’informations sur ce que représente cette valeur, voir [Aperçu des heures, de l’EPT et des informations de coût dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+* Différence d’heure\
+  Pour plus d’informations sur ce que représente cette valeur, voir [Vue d’ensemble des heures, de l’équivalent temps complet et des coûts dans les vues Projet et Rôle du planificateur de ressources](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-Vous pouvez afficher les mêmes informations dans le planificateur de ressources sous forme d’éditeur de texte enrichi ou d’heures.
+Vous pouvez afficher les mêmes informations dans le planificateur de ressources sous forme d’équivalent temps complet ou d’heures.
 
-Workfront utilise la formule suivante pour afficher toutes les autres valeurs sous forme d’éditeur de texte enrichi dans le planificateur de ressources :
+Workfront utilise la formule suivante pour afficher toutes les autres valeurs sous forme d’équivalent temps complet dans le planificateur de ressources :
 
 `FTE = Resource Planner Hours/ Default Schedule Hours`
 
 >[!NOTE]
 >
->Le planning de l’utilisateur est ignoré lors du calcul de l’éditeur de texte enrichi pour toutes les valeurs, à l’exception des valeurs d’AVL disponibles dans le planificateur de ressources. Seul le Planning par défaut est pris en compte pour le calcul.
+>Le planning de l’utilisateur ou de l’utilisatrice est ignoré lors du calcul de l’équivalent temps complet pour toutes les valeurs, à l’exception des valeurs d’équivalent temps complet disponibles (AVL) dans le planificateur de ressources. Seul le planning par défaut est pris en compte pour le calcul.
 
-Ce calcul s&#39;applique aux valeurs suivantes :
+Ce calcul s’applique aux valeurs suivantes :
 
-* ETR planifié (PLN)
-* ETR (BDG) budgété
-* Variance de l’éditeur de texte enrichi (VAR)
-* NET FTE
-* Différence FTE (DIF)
+* Équivalent temps complet prévu (PLN)
+* Équivalent temps complet budgété (BDG)
+* Variance de l’équivalent temps complet (VAR)
+* Équivalent temps complet NET
+* Différence d’équivalent temps complet (DIF)

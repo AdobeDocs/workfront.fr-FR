@@ -62,7 +62,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -73,7 +73,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -97,7 +97,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations de gestion d’une vue</p>  
+   <td>   <p>Gérer les autorisations pour une vue</p>  
    <p>Afficher les autorisations d’une vue pour modifier temporairement les paramètres d’affichage</p> </td> 
   </tr> 
 <tr> 
@@ -107,7 +107,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -209,12 +209,12 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 | Ajouter des champs en tant que nouvelles colonnes dans la vue | ✓ |               |         |
 | Copier des lignes d’une liste externe et les coller dans un tableau | ✓ |               |          |
 | Afficher des enregistrements dans une chronologie |            | ✓ |             |
-| Filtrer les enregistrements | ✓ | ✓ | ✓ |
+| Filtrer des enregistrements | ✓ | ✓ | ✓ |
 | Afficher des enregistrements sur un calendrier |           |              | ✓ |
-| Regrouper des enregistrements | ✓ | ✓ |
-| Trier des enregistrements | ✓ |              |
-| Attribuer des codes couleurs aux enregistrements |           | ✓ | ✓ |
-| Attribuer des codes couleurs aux regroupements |           | ✓ |
+| Regrouper les enregistrements | ✓ | ✓ |
+| Trier les enregistrements | ✓ |              |
+| Attribuer des couleurs aux enregistrements |           | ✓ | ✓ |
+| Attribuer des couleurs aux regroupements |           | ✓ |
 | Rechercher des enregistrements spécifiques | ✓ | ✓ |
 | Partager la vue avec d’autres | ✓ | ✓ | ✓ |
 | Ouvrir la page de l’enregistrement à partir de la vue. | ✓ | ✓ |    |
@@ -229,9 +229,9 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-   La page du type d’enregistrement s’ouvre.
+   La page de type d’enregistrement s’ouvre.
 
    Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
 
@@ -272,7 +272,7 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
    >[!TIP]
    >
-   >    Vous pouvez sélectionner des champs de date d’enregistrement ou des champs de date de recherche à partir des types d’enregistrement ou d’objet connectés. Vous devez utiliser des agrégateurs pour les champs de date (MAX ou MIN) lorsque vous sélectionnez des champs de recherche comme dates de début et de fin pour les vues de calendrier et de calendrier. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    Vous pouvez sélectionner des champs de date d’enregistrement ou des champs de date de recherche à partir des types d’enregistrement ou d’objet connectés. Vous devez utiliser des agrégateurs pour les champs de date (MAX ou MIN) lorsque vous sélectionnez des champs de recherche comme dates de début et de fin pour les vues de calendrier et de calendrier. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Cliquez sur **Créer**.
 
@@ -301,9 +301,9 @@ Le tableau suivant présente les similitudes et les différences entre les vues 
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-   La page du type d’enregistrement s’ouvre.
+   La page de type d’enregistrement s’ouvre.
 
    Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.
 
@@ -332,7 +332,7 @@ Les autorisations de partage de la vue d’origine ne sont pas transférées à 
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
    La page de type enregistrement s’ouvre.
 Par défaut, tous les enregistrements du type sélectionné s&#39;affichent dans la vue de tableau.

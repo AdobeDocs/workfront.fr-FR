@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Impossible de consigner des heures pour des dates ultérieures
-description: Vous ne pouvez pas consigner les heures des dates futures pour les projets, tâches ou problèmes, car les champs sont désactivés.
+description: Vous ne pouvez pas enregistrer des heures pour des dates futures sur des projets, des tâches ou des problèmes car les champs sont désactivés.
 author: Alina
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b

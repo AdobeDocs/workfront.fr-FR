@@ -47,7 +47,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td>
    <td>
 <p>L’un des projets Workfront suivants est prévu :</p>
 <ul><li>Sélectionner</li>
@@ -59,7 +59,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr>
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td>
    <td>
-<p>N’importe quelle </p>  
+<p>Tous </p>  
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </td>
 
 <tr>
@@ -101,7 +101,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
  </tbody>
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -113,9 +113,9 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type d’enregistrement. Pour plus d’informations sur la création d’un type d’enregistrement, voir [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   La page de type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre dans la vue de tableau.
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre dans la vue de tableau.
 
 1. Cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande**.
 1. Mettez à jour le nom du formulaire de requête. Par défaut, le nom du formulaire est **Formulaire de demande sans titre**. <!--check this; you logged a bug to rename it to this but was it fixed?-->
@@ -189,7 +189,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 1. Cliquez sur **Enregistrer** dans le coin inférieur droit de l’écran pour enregistrer le formulaire.
 1. Cliquez sur la flèche pointant vers la gauche située à gauche du nom du formulaire dans l’en-tête pour fermer le formulaire.
 
-   La page du type d’enregistrement s’ouvre.
+   La page de type d’enregistrement s’ouvre.
 1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) situé à droite du nom du type d’enregistrement dans l’en-tête, puis effectuez l’une des opérations suivantes :
    * Cliquez sur **Mettre à jour le formulaire de demande** pour apporter des modifications au formulaire de demande.
    * Cliquez sur **Copier le lien vers le formulaire de demande** pour partager le lien vers le formulaire avec d’autres personnes.

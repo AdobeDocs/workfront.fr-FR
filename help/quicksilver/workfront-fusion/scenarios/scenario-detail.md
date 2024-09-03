@@ -16,21 +16,21 @@ ht-degree: 96%
 
 # Détails du scénario dans [!DNL Adobe Workfront Fusion]
 
-La page Détails du scénario est la page d’accueil d’un scénario spécifique. Elle permet d’accéder à des informations spécifiques pour le scénario représenté sur la page.
+La page Détails du scénario correspond à la page d’accueil d’un scénario spécifique. Elle permet d’accéder à des informations spécifiques pour le scénario représenté sur la page.
 
-Elle vous permet également d’accéder à l’[éditeur de scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), où vous pouvez modifier le scénario.
+Elle vous permet également d’accéder à l’[éditeur de scénario [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), dans lequel vous pouvez modifier le scénario.
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!DNL Pro] ou supérieur</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>[!DNL Pro] ou une version ultérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -43,27 +43,27 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez la section licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Ouvrez la page [!UICONTROL Détails du scénario] :
 
-1. Cliquez sur l’onglet **[!UICONTROL Scénario]** dans le panneau de gauche, puis cliquez sur un scénario sur lequel vous souhaitez obtenir des détails.
+1. Cliquez sur l’onglet **[!UICONTROL Scenario]** dans le panneau de gauche, puis sur un scénario dont vous souhaitez obtenir des détails.
 
    Ou
 
-   Si vous travaillez sur le scénario dans l’[éditeur de scénario dan s [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), cliquez sur la flèche gauche ![](assets/exit-editing-arrow.png) près du coin supérieur gauche de la fenêtre.
+   Si vous travaillez sur le scénario dans l’[éditeur de scénario [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), cliquez sur la flèche gauche ![](assets/exit-editing-arrow.png) dans le coin supérieur gauche de la fenêtre.
 
-1. Sur la page qui s’affiche, vous pouvez consulter les éléments répertoriés dans le tableau ci-dessous.
+1. Sur la page qui s’affiche, vous pouvez passer en revue les éléments énumérés dans le tableau ci-dessous.
 
    ![](assets/scenario-detail-350x207.png)
 
@@ -81,10 +81,10 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL History] (onglet) </td> 
-      <td> <p>Ouvrez cet onglet pour afficher un historique du scénario, y compris toute modification. </p> <p>L’onglet [!UICONTROL History] fournit également l’historique d’exécution des scénarios de chaque exécution, qui comprend les éléments suivants :</p> 
+      <td> <p>Ouvrez cet onglet pour consulter l’historique du scénario, y compris les modifications apportées. </p> <p>L’onglet [!UICONTROL History] fournit également l’historique de l’exécution de chaque scénario, qui comprend les éléments suivants :</p> 
        <ul> 
         <li>Statut de chaque exécution (succès ou erreur)</li> 
-        <li>Durée d’exécution</li> 
+        <li>Durée de l’exécution</li> 
         <li>Nombre d’opérations</li> 
         <li>Taille du transfert de données</li> 
         <li>Lien vers des informations détaillées</li> 
@@ -92,7 +92,7 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Incomplete executions]</td> 
-      <td> <p>Cet onglet fournit des informations sur les exécutions incomplètes du scénario. Il comprend les informations suivantes pour chaque exécution incomplète :</p> 
+      <td> <p>Cet onglet fournit des informations sur les éventuelles exécutions incomplètes du scénario. Il comprend les informations suivantes pour chaque exécution incomplète :</p> 
        <ul> 
         <li>Date de création</li> 
         <li>Taille du transfert de données</li> 
@@ -102,16 +102,16 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Activate scenario] (bouton Activé/Désactivé)</td> 
-      <td>Une fois qu’un scénario est créé, il doit être activé pour qu’il s’exécute selon son planning. En cliquant sur le bouton Activé/Désactivé près du coin supérieur droit, vous pouvez activer ou désactiver le scénario. Une fois activé, le scénario s’exécute selon son planning.</td> 
+      <td role="rowheader">[!UICONTROL Activate scenario] (bouton On/Off)</td> 
+      <td>Une fois qu’un scénario est créé, il doit être activé pour qu’il s‘exécute conformément à son calendrier. En cliquant sur le bouton On/Off situé dans le coin supérieur droit, vous pouvez activer ou désactiver le scénario. Une fois activé, le scénario s’exécute selon son planning.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Edit]</td> 
-      <td>Cliquez sur ce bouton dans le coin supérieur droit pour ouvrir l’éditeur de scénario pour travailler sur votre scénario.</td> 
+      <td>Cliquez sur ce bouton dans le coin supérieur droit pour ouvrir l’éditeur de scénario, où vous pouvez travailler sur votre scénario.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Options]</td> 
-      <td> <p>Ce menu vous fournit des options supplémentaires sans avoir à ouvrir l’éditeur de scénario. Il s’agit notamment des options suivantes :</p> 
+      <td> <p>Ce menu vous offre des options supplémentaires sans avoir à ouvrir l’éditeur de scénario. Notamment :</p> 
        <ul> 
         <li>[!UICONTROL Scheduling]</li> 
         <li>[!UICONTROL Rename]</li> 
@@ -121,15 +121,15 @@ Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consu
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Currently running]</td> 
-      <td>Cette zone affiche des informations relatives à l’exécution en cours d’exécution.</td> 
+      <td>Cette zone affiche des informations relatives à l’exécution en cours.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL History] (zone)</p> <p> </p> </td> 
-      <td> <p>Cette zone affiche des informations relatives aux dernières exécutions du scénario. Pour chaque exécution, elle affiche les informations suivantes :</p> 
+      <td> <p>Cette zone affiche des informations relatives aux dernières exécutions du scénario. Pour chaque exécution, elle affiche les éléments suivants :</p> 
        <ul> 
-        <li>La date d’exécution</li> 
-        <li>Le statut (succès ou échec)</li> 
-        <li>Durée d’exécution</li> 
+        <li>Date d’exécution</li> 
+        <li>Statut (succès ou échec)</li> 
+        <li>Durée de l’exécution</li> 
         <li>Taille du transfert de données</li> 
         <li>Lien vers des informations détaillées</li> 
        </ul> </td> 

@@ -1,177 +1,177 @@
 ---
 content-type: overview
 navigation-topic: use-the-home-area
-title: Prise en main de [!UICONTROL Home]
-description: La zone [!UICONTROL Accueil] est votre guichet unique pour trouver les tâches, les problèmes et les approbations qui vous ont été attribués. Il existe deux manières d'afficher votre travail dans la zone [!UICONTROL Accueil], que ce soit à partir de la [!UICONTROL liste de travail] ou du [!UICONTROL calendrier].
+title: Commencer avec l’[!UICONTROL Accueil]
+description: 'La zone [!UICONTROL Accueil] est votre guichet unique pour trouver les tâches, les problèmes et les approbations qui vous ont été affectés. Il existe deux façons de consulter votre travail dans la zone [!UICONTROL Accueil] : soit à partir de la [!UICONTROL liste de travail], soit à partir du [!UICONTROL calendrier].'
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Prise en main de [!UICONTROL Home]
+# Commencer avec l’[!UICONTROL Accueil]
 
 <!--Audited: 12/2023-->
 
-Cet article décrit un aperçu de la zone [!UICONTROL Home] actuelle dans [!DNL Adobe Workfront]. Pour plus d&#39;informations sur l&#39;utilisation de la nouvelle [!UICONTROL page d&#39;accueil], voir [Prise en main de la nouvelle page d&#39;accueil](../new-home/get-started-with-new-home.md).
+Cet article présente une vue d’ensemble de la zone [!UICONTROL Accueil] actuelle dans [!DNL Adobe Workfront]. Pour plus d’informations sur le travail dans la nouvelle zone [!UICONTROL Accueil], voir [Commencer avec la nouvelle zone Accueil](../new-home/get-started-with-new-home.md).
 
-Il existe deux façons d&#39;afficher votre travail dans la zone [!UICONTROL Home] actuelle :
+Il y a deux façons de voir votre travail dans la zone [!UICONTROL Accueil] actuelle :
 
 * À partir de la [!UICONTROL liste de travail]
-* Dans le [!UICONTROL calendrier].
+* À partir du [!UICONTROL calendrier].
 
 ## [!UICONTROL Liste de travail]
 
-Vous pouvez afficher toutes les tâches qui vous sont assignées à un seul emplacement, dans la [!UICONTROL liste de tâches] :
+Vous pouvez visualiser tous les travaux qui vous ont été affectés en un seul endroit, dans la [!UICONTROL liste de travail] :
 
-![[!UICONTROL Liste de travail] panneaux](assets/worklist-and-right-panel-home.png)
+![[!UICONTROL Panneaux Liste de travail]](assets/worklist-and-right-panel-home.png)
 
-Passez en revue les sections suivantes de la zone [!UICONTROL Accueil] actuelle, comme indiqué dans l’image ci-dessus :
+Passez en revue les sections suivantes dans la zone [!UICONTROL Accueil], tel qu’illustré sur l’image ci-dessus :
 
-* **A** : utilisez le panneau de gauche pour filtrer, trier et sélectionner la tâche qui vous est assignée.
+* **A** : utilisez le panneau de gauche pour filtrer, trier et sélectionner le travail qui vous est affecté.
 
-* **B** : après avoir sélectionné un élément de travail dans le panneau de gauche, utilisez le panneau de droite pour interagir avec des champs personnalisés, effectuer des mises à jour et consigner le temps.
+* **B** : après avoir sélectionné un élément de travail dans le panneau de gauche, utilisez le panneau de droite pour interagir avec les champs personnalisés, effectuer des mises à jour et consigner le temps passé sur un travail.
 
-Pour plus d’informations sur l’utilisation de la [!UICONTROL liste de travail à domicile], consultez les articles suivants :
+Pour plus d’informations sur l’utilisation de la [!UICONTROL liste de travail de la zone Accueil], voir les articles suivants :
 
-* [Afficher les éléments dans la [!UICONTROL liste de travail] de la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
-* [Créez des tâches à partir de la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [Afficher les éléments de la [!UICONTROL liste de travail] dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+* [Créer des éléments de travail à partir de la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
 ## [!UICONTROL Calendrier]
 
-Vous pouvez visualiser votre travail en affichant le moment où les tâches sont à venir et vous pouvez bloquer le temps nécessaire pour les terminer, en consultant votre travail dans le [!UICONTROL calendrier] de la zone [!UICONTROL Accueil] :
+Vous pouvez visualiser votre travail en affichant les éléments de travail et vous pouvez bloquer du temps pour les terminer, en passant en revue votre travail dans le [!UICONTROL calendrier] dans la zone [!UICONTROL Accueil] :
 
 ![](assets/calendar-home-nwe-350x114.png)
 
-Passez en revue les sections suivantes de la zone [!UICONTROL Accueil] actuelle, comme indiqué dans l’image ci-dessus :
+Passez en revue les sections suivantes dans la zone [!UICONTROL Accueil], tel qu’illustré sur l’image ci-dessus :
 
-* **A** : utilisez la vue [!UICONTROL Calendrier] pour créer une carte visuelle du travail que vous devez effectuer. Il vous suffit de cliquer et de faire glisser des éléments de travail de la [!UICONTROL liste de travail] vers le [!UICONTROL calendrier] pour bloquer le temps de travail.
+* **A** : utilisez la vue [!UICONTROL Calendrier] pour créer une carte visuelle du travail que vous devez accomplir. Il suffit de cliquer et de faire glisser les éléments de travail de la [!UICONTROL liste de travail] vers le [!UICONTROL calendrier] pour bloquer du temps pour travailler.
 
-* **B** : utilisez l’option de synchronisation du [!UICONTROL calendrier] pour vous synchroniser avec votre calendrier [!DNL Outlook]. Gérez vos réunions et travaillez au même endroit.
+* **B** : utilisez l’option de synchronisation du [!UICONTROL calendrier] pour vous synchroniser avec votre calendrier [!DNL Outlook]. Gérer les réunions et le travail à un seul endroit.
 
-* **C** : utilisez le bouton [!UICONTROL Détails] pour ouvrir un nouveau panneau de droite où vous pouvez afficher plus d’informations sur l’élément de travail.
+* **C** : utilisez le bouton [!UICONTROL Détails] pour ouvrir un nouveau panneau de droite où vous pourrez obtenir plus d’informations sur l’élément de travail.
 
-* **D** : utilisez la barre d’échéance pour effectuer le suivi du moment où le travail qui vous est assigné doit être effectué.
+* **D** : utilisez la barre de date d’échéance pour garder une trace de la date d’échéance des travaux qui vous ont été affectés.
 
-Pour plus d’informations sur l’utilisation du calendrier d’accueil, voir [Utilisation de la vue [!UICONTROL Calendrier d’accueil]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+Pour plus d’informations sur l’utilisation du calendrier de la zone Accueil, voir [Utiliser la vue du [!UICONTROL calendrier de la zone Accueil]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
 ## Trouver votre travail
 
-La zone [!UICONTROL Accueil] est votre guichet unique pour trouver les tâches, les problèmes et les approbations qui vous ont été attribués. Les options de filtrage, de regroupement et de tri fonctionnent ensemble pour vous aider à organiser vos tâches comme vous le souhaitez. Vous pouvez utiliser des regroupements pour regrouper des éléments, des filtres pour vous concentrer sur le travail qui doit être terminé et enfin, un tri pour répertorier les éléments dans l’ordre croissant ou décroissant de votre regroupement.
+La zone [!UICONTROL Accueil] est votre guichet unique pour trouver les tâches, les problèmes et les approbations qui vous ont été affectés. Les options de filtrage, de regroupement et de tri se combinent pour vous aider à organiser vos éléments de travail comme vous le souhaitez. Vous pouvez utiliser les regroupements pour regrouper les éléments et les filtres pour vous concentrer sur le travail à effectuer ainsi que le tri pour classer les éléments dans l’ordre croissant ou décroissant de votre regroupement.
 
 >[!NOTE]
 >
->Les options de filtrage et de tri sont stockées dans le navigateur. Si vous utilisez systématiquement le même navigateur sur le même ordinateur (et que vous n’effacez pas les données du site), les filtres et le tri ne changeront pas, mais si vous changez de navigateur ou d’ordinateur, les filtres et le tri seront différents.
+>Les options de filtre et de tri sont stockées dans le navigateur. Si vous utilisez toujours le même navigateur sur le même ordinateur (et que vous n’effacez pas les données du site), les filtres et le tri ne changeront pas, mais si vous changez de navigateur ou d’ordinateur, les filtres et le tri seront différents.
 
-### Regrouper des tâches similaires avec des regroupements
+### Regrouper les éléments de travail similaires à l’aide des regroupements
 
-Vous pouvez utiliser des regroupements pour afficher comme des éléments sous un en-tête commun dans la liste de travail. Vous pouvez regrouper des éléments en procédant comme suit :
+Vous pouvez utiliser les regroupements pour afficher des éléments similaires dans un en-tête commun dans la liste de travail. Vous pouvez regrouper les éléments en fonction des éléments suivants :
 
-* [!UICONTROL Achèvement planifié]
-* [!UICONTROL Début planifié]
-* [!UICONTROL Date de validation]
+* [!UICONTROL Date d’achèvement prévue]
+* [!UICONTROL Date de début prévue]
+* [!UICONTROL Date d’engagement]
 * [!UICONTROL Projet]
 * [!UICONTROL Ma priorité]
 
-Pour plus d’informations sur l’utilisation des regroupements, voir [Affichage des éléments dans la [!UICONTROL liste de travail] dans la [!UICONTROL zone d’accueil]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Pour plus d’informations sur l’utilisation des regroupements, voir [Afficher des éléments dans la [!UICONTROL liste de travail] dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
 
-### Restreindre la cible d’action avec des filtres
+### Réduire votre champ d’action grâce à des filtres
 
-Le filtre [!UICONTROL Liste de travail] vous permet de vous concentrer uniquement sur des tâches spécifiques.
+Le filtre [!UICONTROL Liste de travail] vous permet de vous concentrer sur des éléments de travail spécifiques.
 
-Vous trouverez ci-dessous des exemples de filtrage des éléments que vous affichez dans la page d’accueil :
+Les exemples suivants illustrent la manière dont vous pouvez filtrer les éléments affichés dans la zone Accueil :
 
-* Filtrez par type d’élément et état.
+* Filtrez par type d’article et par état.
 
-  Par exemple, si vous souhaitez afficher toutes les tâches, vous pouvez sélectionner le filtre [!UICONTROL Tâches] . Si vous souhaitez être plus précis et afficher uniquement les tâches sur lesquelles vous êtes prêt à commencer à travailler, sélectionnez les filtres [!UICONTROL Prêt à démarrer] sous le filtre [!UICONTROL Tâches] .
+  Par exemple, si vous souhaitez afficher toutes les tâches, vous pouvez sélectionner le filtre [!UICONTROL Tâches]. Si vous souhaitez être plus spécifique et n’afficher que les tâches sur lesquelles vous pouvez commencer à travailler, sélectionnez les filtres [!UICONTROL Prêt à démarrer] dans le filtre [!UICONTROL Tâches].
 
-* Filtrage par type d’élément uniquement.
+* Filtrez par type d’élément uniquement.
 
-  Par exemple, vous pouvez sélectionner [!UICONTROL Problèmes] pour afficher tous les problèmes dans tous les états ([!UICONTROL Travail sur] ou [!UICONTROL Demandé]) ou [!UICONTROL Approbations] pour afficher tous les éléments de travail, les demandes d’accès, la feuille de temps, le document et les approbations de BAT.
+  Par exemple, vous pouvez sélectionner [!UICONTROL Problèmes] pour voir tous les problèmes dans tous les états ([!UICONTROL En train de travailler sur] ou [!UICONTROL Demandé]), ou [!UICONTROL Approbations] pour voir toutes les approbations d’éléments de travail, de demandes d’accès, de feuilles de temps, de documents et d’épreuves.
 
-Pour plus d’informations sur l’utilisation des filtres, voir [Afficher les éléments dans la [!UICONTROL liste de travail] dans la [!UICONTROL zone d’accueil]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Pour plus d’informations sur l’utilisation des filtres, voir [Afficher des éléments dans la [!UICONTROL liste de travail] dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
-### Accéder au travail assigné à votre équipe
+### Accéder au travail affecté à votre équipe
 
-La zone [!UICONTROL Accueil] possède un groupe permanent ([!UICONTROL Demandes d’équipe]) qui affiche les tâches et les problèmes affectés à vos équipes. Les équipes s’affichent dans cette section. Cliquez sur le nom d’une équipe pour ouvrir la page Demandes d’équipe de cette équipe.
+La zone [!UICONTROL Accueil] comporte un regroupement permanent ([!UICONTROL Demandes de l’équipe]) qui affiche les tâches et les problèmes affectés à vos équipes. Les équipes s’affichent dans cette section. En cliquant sur le nom d’une équipe, vous ouvrez sa page Demandes de l’équipe.
 
 >[!NOTE]
 >
->Les options de filtrage et de tri n’affectent pas le regroupement [!UICONTROL Requêtes d’équipe]. Ce regroupement est visible tant que du travail est assigné à votre équipe.
+>Les options de filtre et de tri n’affectent pas le regroupement [!UICONTROL Demandes de l’équipe]. Ce regroupement est visible tant que vous avez du travail affecté à votre équipe.
 
-Pour plus d’informations sur l’accès aux demandes de l’équipe, consultez l’article [[!UICONTROL Gérer] les demandes de travail et d’équipe dans la [!UICONTROL zone d’accueil]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+Pour plus d’informations sur l’accès aux demandes de l’équipe, voir l’article [[!UICONTROL Gérer] le travail et les demandes de l’équipe dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
 ![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
 
-### Surveiller les travaux que vous avez envoyés
+### Surveiller le travail que vous avez soumis
 
-Gardez une trace du travail que vous avez soumis pour approbation directement à partir de la [!UICONTROL liste de travail]. Il existe un groupe permanent pour les [!UICONTROL approbations que j&#39;ai envoyées] lorsque vous sélectionnez l&#39;affichage des [!UICONTROL approbations] dans la [!UICONTROL liste de travail]. Vous pouvez rappeler à l’approbateur le travail qui doit être approuvé. Vous pouvez également rappeler l’approbation si nécessaire.
+Suivez le travail que vous avez soumis pour approbation directement à partir de la [!UICONTROL liste de travail]. Il existe un regroupement permanent pour les [!UICONTROL Approbations que j’ai envoyées] lorsque vous choisissez d’afficher les [!UICONTROL Approbations] dans la [!UICONTROL liste de travail]. Vous pouvez rappeler à l’approbateur ou à l’approbatrice le travail à approuver. Vous pouvez également rappeler l’approbation si nécessaire.
 
 >[!NOTE]
 >
->Le filtre et le tri n’affectent pas le regroupement [!UICONTROL Validations que j’ai envoyées]. Ce groupement est visible tant que le travail est en attente d&#39;approbation.
+>Le filtre et le tri n’affectent pas le regroupement [!UICONTROL Approbations que j’ai envoyées]. Ce regroupement est visible tant que vous avez du travail en attente d’approbation.
 >
->Le nombre d’approbations défini dans le filtre [!UICONTROL Validations] n’affiche pas le nombre d’éléments que vous avez soumis pour approbation. Le filtre [!UICONTROL Validations] affiche uniquement les éléments en attente de votre approbation.
+>Le nombre d’approbations dans le filtre [!UICONTROL Approbations] n’affiche pas le nombre d’éléments que vous avez soumis pour approbation. Le filtre [!UICONTROL Approbations] affiche uniquement les éléments en attente de votre approbation.
 
 ![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
 
-## Définir la priorité de ce qui est important pour vous
+## Accorder la priorité à ce qui est important pour vous
 
-La [!UICONTROL liste de travail] vous permet de faire surface et de hiérarchiser les tâches importantes pour vous avec le regroupement [!UICONTROL Ma priorité]. Vous pouvez ajouter jusqu’à 20 éléments à votre liste [!UICONTROL Ma priorité].
+La [!UICONTROL liste de travail] vous permet de faire apparaître et de classer par ordre de priorité les travaux qui sont importants pour vous grâce au regroupement [!UICONTROL Ma priorité]. Vous pouvez ajouter jusqu’à 20 éléments à votre liste [!UICONTROL Ma priorité].
 
 >[!NOTE]
 >
->Toutes les tâches ajoutées à [!UICONTROL Ma priorité] sont visibles par vous uniquement et personne ne peut donner la priorité au travail pour vous.
+>Les travaux ajoutés à [!UICONTROL Ma priorité] ne sont visibles que par vous, et personne ne peut les hiérarchiser à votre place.
 
-Pour plus d&#39;informations sur l&#39;utilisation de [!UICONTROL My Priority], consultez la section [ Priorisation du travail dans la [!UICONTROL zone d&#39;accueil] ](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+Pour plus d’informations sur l’utilisation de [!UICONTROL Ma priorité], voir [Hiérarchiser le travail dans la zone [!UICONTROL Accueil]](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
 ![](assets/prioritizing-in-home-group-by-drop-down-nwe-350x412.png)
 
-## Obtenir le résultat
+## Effectuer le travail
 
-Après avoir cliqué sur le nom d’un élément dans la [!UICONTROL liste de travail], utilisez le panneau de droite dans [!UICONTROL Accueil] pour mettre à jour et terminer votre travail.
+Après avoir cliqué sur le nom d’un élément de la [!UICONTROL liste de travail], utilisez le panneau de droite dans [!UICONTROL Accueil] pour mettre à jour et terminer votre travail.
 
 ### Travailler dans un espace personnalisé
 
-Votre administrateur [!DNL Workfront] peut ajouter jusqu&#39;à 16 champs personnalisés aux éléments de la [!UICONTROL liste de travail] pour faciliter la recherche et la mise à jour des informations dont vous avez besoin. La plupart des champs étant modifiables, il n’est pas nécessaire de naviguer dans l’élément de travail.
+Votre équipe d’administration [!DNL Workfront] peut ajouter jusqu’à 16 champs personnalisés aux éléments de la [!UICONTROL liste de travail] pour faciliter la recherche et la mise à jour des informations dont vous avez besoin. La plupart des champs sont modifiables, de sorte qu’il n’est pas nécessaire de naviguer dans l’élément de travail.
 
-Pour mettre à jour l’un des champs de cette zone, cliquez simplement sur un champ. Si le champ est modifiable, vous pouvez le modifier dans le panneau de droite.
+Pour mettre à jour l’un des champs de cette zone, il suffit de cliquer dessus. Si le champ est modifiable, vous pouvez le modifier dans le panneau de droite.
 
 >[!NOTE]
 >
->Vous ne pouvez pas mettre à jour la [!UICONTROL Date de validation] si ce champ est ajouté à un élément de travail à partir d’un modèle de mise en page.
+>Vous ne pouvez pas mettre à jour la [!UICONTROL Date d’engagement] si ce champ est ajouté à un élément de travail à partir d’un modèle de mise en page.
 
 ![](assets/16-fields-home-350x137.png)
 
-### Mettre à jour les autres avec des informations importantes
+### Communiquer aux autres des informations importantes
 
-Communiquez rapidement et efficacement avec d’autres personnes de la zone [!UICONTROL Home]. En utilisant la zone de commentaires d’un élément de travail, vous pouvez poser des questions, avertir les autres des mises à jour récentes ou répondre aux commentaires directs depuis la zone [!UICONTROL Accueil]. Vous pouvez, en outre, mettre à jour les progrès réalisés en procédant comme suit :
+Communiquez de manière rapide et efficace avec d’autres personnes à partir de la zone [!UICONTROL Accueil]. La zone de commentaires d’un élément de travail vous permet de poser des questions, d’informer d’autres personnes des mises à jour récentes ou de répondre à des commentaires directs à partir de la zone [!UICONTROL Accueil]. En outre, vous pouvez informer d’autres personnes des progrès que vous réalisez en effectuant les actions suivantes :
 
-* Mise à jour de la [!UICONTROL date de validation] dans la zone de commentaire
+* Mettre à jour la [!UICONTROL Date d’engagement] dans la zone de commentaires
 
   >[!NOTE]
   >
-  >   Il s’agit du seul endroit où vous pouvez mettre à jour la date de validation dans la page d’accueil.
+  >   C’est le seul endroit où vous pouvez mettre à jour la date d’engagement dans la zone Accueil.
 
-* Création de rapports sur votre ressenti en ajoutant un commentaire ou en mettant à jour la [!UICONTROL condition] d’un élément
-* Mise à jour de la barre de pourcentage complète
+* Partager votre ressenti en ajoutant un commentaire ou en mettant à jour le [!UICONTROL Statut] d’un élément
+* Mettre à jour la barre de pourcentage terminé
 
-Pour plus d&#39;informations sur la communication dans la zone [!UICONTROL Accueil], voir [Mise à jour du travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations sur la communication dans la zone [!UICONTROL Accueil], voir [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ![](assets/updates-home-350x198.png)
 
-### Consignez votre heure
+### Consigner vos heures
 
-Gardez une trace des heures que vous avez passées à travailler sur des tâches individuelles. Vous pouvez choisir un type d’heure général, tel que [!UICONTROL Heure de la tâche], ou choisir un type d’heure spécifique au projet configuré par votre administrateur [!DNL Workfront].
+Suivez les heures que vous avez consacrées à des éléments de travail particuliers. Vous pouvez choisir un type d’heure général, tel que [!UICONTROL Durée de la tâche], ou un type d’heure spécifique à un projet, défini par votre équipe d’administration [!DNL Workfront].
 
-Pour plus d’informations sur la façon de se connecter à la zone [!UICONTROL Home], reportez-vous à la section [Home](../../../timesheets/create-and-manage-timesheets/log-time.md#home) de l’article [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Pour plus d’informations sur la consignation des heures dans la zone [!UICONTROL Accueil], voir la section [Accueil](../../../timesheets/create-and-manage-timesheets/log-time.md#home) dans l’article [Consigner des heures](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ![](assets/log-time-home-350x181.png)

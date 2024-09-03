@@ -3,7 +3,7 @@ title: Ajouter ou supprimer des types d’objet d’un formulaire personnalisé 
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Vous pouvez ajouter ou supprimer des types d’objets de formulaires personnalisés à l’aide du créateur de formulaire.
+description: Vous pouvez ajouter ou supprimer des types d’objet de formulaires personnalisés à l’aide du créateur de formulaire.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -11,13 +11,13 @@ exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
 source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
 # Ajout ou suppression de types d’objet d’un formulaire personnalisé existant
 
-Vous pouvez ajouter ou supprimer des types d’objets d’un formulaire personnalisé existant à l’aide du créateur de formulaire.
+Vous pouvez ajouter ou supprimer des types d’objet d’un formulaire personnalisé existant à l’aide du créateur de formulaire.
 
 ## Conditions d’accès
 
@@ -30,36 +30,36 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Forfait Adobe Workfront</p> </td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader"> <p>Formule Adobe Workfront</p> </td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Nouvelle : standard</p>
+   <p>Nouveau : Standard</p>
    <p>ou</p>
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
    <td><p>Accès administratif aux formulaires personnalisés</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ajouter des types d’objets à un formulaire personnalisé existant
+## Ajouter des types d’objet à un formulaire personnalisé existant
 
-Vous pouvez ajouter d’autres types d’objets au formulaire pour pouvoir le joindre à plusieurs objets.
+Vous pouvez ajouter d’autres types d’objet au formulaire pour les joindre à plusieurs objets.
 
 >[!NOTE]
 >
->Les autorisations de saut de section peuvent être affectées par le type d’objet. L’autorisation de modification limitée pour les sauts de section de formulaire personnalisés est disponible uniquement pour les types d’objets Projet, Tâche, Problème et Utilisateur ou Utilisatrice.
+>Les autorisations de saut de section peuvent être affectées par le type d’objet. L’autorisation « Modification limitée » pour les sauts de section de formulaires personnalisés est disponible uniquement pour les types d’objets « Projet », « Tâche », « Problème » et « Utilisateur ou Utilisatrice ».
 >
->Pour plus d’informations, voir [Comment plusieurs types d’objets peuvent affecter les autorisations de sauts de section](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
+>Pour plus d’informations, consultez la section [Comment plusieurs types d’objets peuvent affecter les autorisations de sauts de section](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
 
 {{step-1-to-setup}}
@@ -74,21 +74,21 @@ Vous pouvez ajouter d’autres types d’objets au formulaire pour pouvoir le jo
 
    ![](assets/add-new-object.png)
 
-1. Cliquez sur **Enregistrer et fermer**.
+1. Cliquez sur **Enregistrer + Fermer**.
 
    >[!TIP]
    >
-   >Vous pouvez cliquer sur **Appliquer** à tout moment de la création d’un formulaire personnalisé pour enregistrer vos modifications et garder le formulaire ouvert.
+   >À tout moment de la création d’un formulaire personnalisé, vous pouvez cliquer sur **Appliquer** pour enregistrer vos modifications et garder le formulaire ouvert.
 
 ## Supprimer des types d’objets sur un formulaire personnalisé
 
-Vous pouvez supprimer des types d’objets d’un formulaire personnalisé existant. Un formulaire personnalisé doit comporter au moins un type d’objet.
+Vous pouvez supprimer des types d’objet d’un formulaire personnalisé existant. Un formulaire personnalisé doit comporter au moins un type d’objet.
 
 >[!CAUTION]
 >
->Si des personnes ont déjà joint le formulaire personnalisé à des objets du type que vous souhaitez supprimer et y ont ajouté des données, ces données sont définitivement supprimées lorsque vous supprimez ce type d’objet sur le formulaire. Cela peut inclure des informations historiques dont les utilisateurs et les utilisatrices auront besoin ultérieurement.
+>Si des personnes ont déjà joint le formulaire personnalisé à des objets du type que vous souhaitez supprimer et y ont ajouté des données, ces données sont définitivement supprimées lorsque vous supprimez ce type d’objet sur le formulaire. Il peut inclure des informations d’historique dont les utilisateurs et utilisatrices auront besoin ultérieurement.
 >
->En règle générale, il est recommandé de réduire au minimum le nombre de fois où vous modifiez un formulaire personnalisé déjà utilisé. Il n’existe pas de système de notification pour informer les personnes qui utilisent le formulaire personnalisé de vos modifications.
+>En règle générale, il est recommandé de réduire au minimum le nombre de fois où vous modifiez un formulaire personnalisé déjà utilisé. Il n’existe pas de système de notification pour alerter les personnes qui utilisent le formulaire personnalisé au sujet de vos modifications.
 
 Pour supprimer un type d’objet :
 

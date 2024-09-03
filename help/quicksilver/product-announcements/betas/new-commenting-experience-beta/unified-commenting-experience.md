@@ -2,7 +2,7 @@
 product-area: betas
 navigation-topic: new-commenting-experience-beta
 title: Nouvelle expérience de commentaire
-description: Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets.
+description: Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour comprend une nouvelle interface, de nouvelles fonctionnalités et des performances améliorées dans la section Mises à jour de certains objets.
 author: Alina
 feature: Product Announcements
 role: User
@@ -38,14 +38,14 @@ ht-degree: 98%
 
 ## Fonctionnalités
 
-La nouvelle expérience de commentaire comprend des améliorations et des modifications apportées à la section Mises à jour des objets Adobe Workfront.
+La nouvelle expérience de commentaire comprend des améliorations et des modifications de la section Mises à jour des objets Adobe Workfront.
 
-Les améliorations suivantes ont été apportées à la nouvelle expérience de commentaires :
+Parmi les améliorations apportées à la nouvelle expérience de commentaire, on peut citer les suivantes :
 
-* Amélioration des performances et de l’expérience utilisateur
-* Séparation des commentaires et des mises à jour de l’activité du système
-* Indicateur en temps réel lorsque de nouveaux commentaires sont ajoutés à un objet
-* Modification des commentaires après leur envoi
+* Amélioration des performances et de l’expérience client
+* Séparation des commentaires des utilisateurs et utilisatrices des mises à jour de l’activité du système
+* Indicateur en temps réel lors de l’ajout de nouveaux commentaires à un objet
+* Modification des commentaires après leur soumission
 
 Les fonctionnalités suivantes ont été supprimées ou seront obsolètes dans la nouvelle expérience :
 
@@ -55,8 +55,8 @@ Les fonctionnalités suivantes ont été supprimées ou seront obsolètes dans l
   Nous vous recommandons également d’ajouter ces champs dans le panneau Résumé des tâches et des problèmes afin de pouvoir y accéder facilement à partir des listes, de la page d’accueil, de l’équilibreur Workfront ou d’une feuille de temps.
 * Possibilité de modifier le formulaire personnalisé
 * L’information « au nom de &lt; nom d’utilisateur ou d’utilisatrice > », lorsqu’un administrateur ou une administratrice Workfront ou de groupe se connecte en tant qu’autre utilisateur ou utilisatrice et ajoute un commentaire en son nom, avait été supprimée. Elle a été rétablie le 19 octobre 2023.
-* L’option Demander l’approbation lorsque vous taguez des personnes en ajoutant un commentaire à un document.
-* Le paramètre « Afficher le pourcentage terminé pour le statut de la mise à jour » lors de la modification de la zone de profil d’un utilisateur est supprimé. La fonctionnalité de mise à jour du pourcentage terminé d’une tâche ou d’un problème a été supprimée.
+* Option « Demander l’approbation » lorsque vous taguez des personnes en ajoutant un commentaire à un document.
+* Le paramètre « Afficher le pourcentage terminé pour le statut de la mise à jour » lors de la modification de la zone de profil d’un utilisateur ou d’une utilisatrice sera supprimé. La fonctionnalité de mise à jour du pourcentage terminé d’une tâche ou d’un problème a été supprimée.
 
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
@@ -79,21 +79,21 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
 
 <table>
   <tr>
-   <td><strong>Fonctionnalité </strong>
+   <td><strong>Fonctionnalité</strong>
    </td>
-   <td><strong>Existe dans l’ancienne expérience de commentaire </strong>
+   <td><strong>Existe dans l’ancienne expérience de commentaire.</strong>
    </td>
-   <td><strong>Existe dans la nouvelle expérience de commentaire </strong>
+   <td><strong>Existe dans la nouvelle expérience de commentaire.</strong>
    </td>
-   <td><strong>Sera introduit dans la nouvelle expérience de commentaire </strong>
+   <td><strong>Sera introduite dans la nouvelle expérience de commentaire.</strong>
    </td>
-   <td><strong>Date d’introduction dans la nouvelle expérience de commentaire </strong>
+   <td><strong>Date d’introduction dans la nouvelle expérience de commentaire</strong>
    </td>
-   <td><strong>En recherche </strong>
+   <td><strong>Dans la recherche</strong>
    </td>
   </tr>
   <tr>
-   <td>Créer/lire/répondre/supprimer des commentaires 
+   <td>Créer/lire/répondre à/supprimer des commentaires 
    </td>
    <td>✓ 
   </td>
@@ -107,7 +107,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Texte enrichi (hors citations et émoticônes)
+   <td>Texte enrichi (à l’exclusion des citations et des emojis)
    </td>
    <td>✓ 
    </td>
@@ -122,7 +122,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
   </tr>
 
 <tr>
-   <td>Texte enrichi (émoticônes)
+   <td>Texte enrichi (emojis)
    </td>
    <td>✓ 
    </td>
@@ -137,7 +137,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
   </tr>
 
 <tr>
-   <td>Texte enrichi (citation en bloc)
+   <td>Texte enrichi (citations)
    </td>
    <td>✓ 
    </td>
@@ -152,7 +152,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
   </tr>
   <tr>
 <tr>
-   <td> Commentaires de citations
+   <td> Commentaires sur les citations
    </td>
    <td>✓ 
    </td>
@@ -166,7 +166,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Réaction aux commentaires (J’aime) 
+   <td>Réagir aux commentaires (J’aime) 
    </td>
    <td>✓ 
    </td>
@@ -208,7 +208,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Supprimer des personnes participant au thread
+   <td>Supprimer des participantes et participants au thread
    </td>
    <td> 
    </td>
@@ -224,7 +224,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
 
 
 <tr>
-   <td>Taguer automatiquement toutes les personnes participant au thread
+   <td>Taguer automatiquement tous les participantes et participants au thread
    </td>
    <td> 
    </td>
@@ -239,7 +239,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
   </tr>
 
 <tr>
-   <td>Commentaires privés à une entreprise 
+   <td>Commentaires privés d’une entreprise 
    </td>
    <td>✓ 
    </td>
@@ -267,7 +267,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Désactiver les mises à jour système 
+   <td>Désactiver les mises à jour du système 
    </td>
    <td>✓ 
    </td>
@@ -295,7 +295,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Enregistrement des brouillons de commentaires lorsque vous quittez la page 
+   <td>Sauvegarde des brouillons de commentaires lors de la navigation hors de la page 
    </td>
    <td>✓ 
    </td>
@@ -309,7 +309,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Voir les nouveaux commentaires en temps réel (notamment le moment où un commentaire est supprimé)
+   <td>Voir les nouveaux commentaires en temps réel (y compris lors de la suppression d’un commentaire)
    </td>
    <td> 
    </td>
@@ -341,7 +341,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
    <td>✓ 
    </td>
-   <td> Remplacé par le lien Copier
+   <td> Remplacé par Copier le lien
    </td>
    <td> 
    </td>
@@ -351,11 +351,11 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
   <tr>
-   <td>Copier le lien de commentaire 
+   <td>Copier le lien du commentaire 
    </td>
    <td>✓ 
    </td>
-   <td> Remplacé par le lien Copier
+   <td> Remplacé par Copier le lien
    </td>
    <td> 
    </td>
@@ -423,7 +423,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
   </tr>
 
 <tr>
-   <td>Glisser-déposer des images dans un commentaire
+   <td>Faire glisser et déposer des images dans un commentaire
    </td>
    <td> ✓
    </td>
@@ -466,7 +466,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
 <tr>
-   <td>Répondre aux mises à jour 
+   <td>Répondre aux mises à jour du système 
    </td>
    <td> ✓
    </td>
@@ -480,7 +480,7 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
    </td>
   </tr>
 <tr>
-   <td>Afficher « au nom de » lors de l’ajout de commentaires par une autre personne connectée
+   <td>Afficher « pour le compte de » lors de l’ajout de commentaires avec une connexion au nom d’une autre personne
    </td>
    <td> ✓
    </td>
@@ -514,42 +514,42 @@ Le tableau suivant illustre les fonctionnalités qui seront disponibles dans la 
 
 >[!IMPORTANT]
 >
->Pour plus d’informations sur les fonctionnalités disponibles dans la nouvelle expérience de commentaires au cours de la période bêta, voir [Activité des versions de la nouvelle expérience de commentaires bêta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>Pour plus d’informations sur les fonctionnalités ajoutées à la nouvelle expérience de commentaire pendant la période de version bêta, voir [Activité de version bêta de la nouvelle expérience de commentaire](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
->Pour plus d’informations sur la gestion des mises à jour des objets Workfront, consultez [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>Pour plus d’informations sur la gestion des mises à jour des objets Workfront, voir [Mettre à jour le travail](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-Vous trouverez ci-dessous un calendrier prévisionnel avec les jalons clés de la publication de la nouvelle expérience de commentaires dans l’environnement de production. Outre les jalons ci-dessous, nous continuerons à améliorer l’expérience de commentaires grâce à des améliorations plus modestes.
+Voici une chronologie prévisionnel avec des étapes clés pour le lancement de la nouvelle expérience de commentaire dans l’environnement de production. En plus des étapes ci-dessous, nous continuerons à améliorer l’expérience de commentaire en y apportant de petites améliorations.
 
-Pour plus d’informations sur les fonctionnalités publiées pour la nouvelle expérience de commentaires après la fin de la période bêta, consultez la page de vue d’ensemble de la version actuelle.
+Pour plus d’informations sur les fonctionnalités de la nouvelle expérience de commentaire après la clôture de la période de version bêta, voir la page de vue d’ensemble de la version actuelle.
 
-Voici un calendrier prévisionnel de la publication de la nouvelle expérience de commentaire :
+Voici le calendrier prévisionnel pour le lancement de la nouvelle expérience de commentaire :
 
 * Avec la version 23.2 (6 avril 2023) :
-   * Lancement de l’expérience de commentaire bêta pour les problèmes
-   * Publication de la nouvelle expérience de commentaire pour les objectifs (comme seule expérience)
-* Avec la version 23.3 (20 juillet 2023) :
-   * Lancement de l’expérience de commentaire bêta pour les projets, les tâches et les documents
-   * Publication de la nouvelle expérience de commentaire pour les cartes dans la zone Panoramas (comme seule expérience)
-* Au cours de la version du quatrième trimestre 2023 (version limitée, disponible uniquement pour les clientes et clients qui choisissent la version rapide) :
-   * Publication de la nouvelle expérience de commentaire pour les modèles, les tâches de modèle, les programmes, les portfolios, les équipes, les utilisateurs et utilisatrices, et les feuilles de temps (comme seule expérience)
-   * Mise à jour de l’expérience de commentaire bêta pour les projets, les tâches, les problèmes et les documents, afin qu’elle devienne l’option par défaut. Le libellé « bêta » est supprimé.
-* Avec la version du quatrième trimestre 2023 (23.10) (26 octobre 2023) :
-   * Publication de la nouvelle expérience de commentaire pour les modèles, les tâches de modèle, les programmes, les portfolios, les équipes, les utilisateurs et utilisatrices, et les feuilles de temps (comme seule expérience) pour les clientes et clients
-   * Définition de la nouvelle expérience de commentaire pour les projets, les tâches, les problèmes et les documents comme l’option par défaut
+   * Lancer la version bêta de l’expérience de commentaire pour les problèmes
+   * Lancer la nouvelle expérience de commentaire pour les objectifs (comme expérience unique)
+* Avec la version 23.3 (20 juillet 2023) :
+   * Lancer la version bêta de l’expérience de commentaire pour les projets, les tâches et les documents.
+   * Lancer la nouvelle expérience de commentaire pour les cartes dans la zone des panoramas (comme expérience unique)
+* Lors de la version du quatrième trimestre 2023 (version limitée, uniquement pour les clientes et clients ayant choisi la version rapide) :
+   * Lancer la nouvelle expérience de commentaire pour les modèles, les tâches des modèles, les programmes, les portfolios, les équipes, les utilisateurs et utilisatrices et les feuilles de temps (comme expérience unique)
+   * Mettre à jour la version bêta de l’expérience de commentaire pour les projets, les tâches, les problèmes et les documents afin qu’elle devienne l’option par défaut. Le libellé « Version bêta » est supprimé.
+* Avec la version du quatrième trimestre 2023 (23.10) (26 octobre 2023)
+   * Lancer la nouvelle expérience de commentaire pour les modèles, les tâches des modèles, les programmes, les portfolios, les équipes, les utilisateurs et utilisatrices et les feuilles de temps (comme expérience unique) pour tous les clientes et clients.
+   * Faire de la nouvelle expérience de commentaire pour les projets, les tâches, les problèmes et les documents l’option par défaut.
 
   >[!IMPORTANT]
   >
-  >    Cela mettra fin à l’étape bêta de la nouvelle expérience de commentaire.
+  >    Cette étape clôturera la phase de version bêta de la nouvelle expérience de commentaire.
 
-   * Publication de toutes les fonctionnalités relatives à la nouvelle expérience de commentaire, à partir de cette date, dans les versions mensuelles et trimestrielles actuelles
-* Fin 2023 :
-   * Maintien de l’expérience de commentaire héritée comme option secondaire pour les objets suivants : projets, tâches, problèmes et documents. La nouvelle expérience de commentaire est l’option par défaut pour les utilisateurs et utilisatrices de ces objets.
-   * Définition de la nouvelle expérience de commentaire comme la seule expérience pour tous les autres objets
+   * Incluez toutes les fonctionnalités publiées pour la nouvelle expérience de commentaire à partir de cette date dans les versions mensuelles et trimestrielles normales actuelles.
+* Fin de l’année 2023 :
+   * Conserver l’expérience de commentaire héritée comme option secondaire pour les objets suivants : projets, tâches, problèmes et documents. La nouvelle expérience de commentaire est l’option par défaut pour tous les utilisateurs et utilisatrices de ces objets.
+   * Faire de la nouvelle expérience de commentaire la seule expérience pour tous les autres objets.
 
   >[!NOTE]
   >
-  >    Les itérations conserveront l’expérience de commentaire héritée. La nouvelle expérience de commentaire ne sera pas disponible pour les itérations.
+  >    Les itérations continueront à utiliser l’expérience de commentaire héritée. La nouvelle expérience de commentaire ne sera pas disponible pour les itérations.
 
 * Avec la version du deuxième trimestre 2024 (11 avril 2024) :
 

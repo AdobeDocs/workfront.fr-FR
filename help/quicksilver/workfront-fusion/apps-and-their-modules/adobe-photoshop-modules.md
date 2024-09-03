@@ -2,7 +2,7 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: Connecteur
+keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules Adobe Photoshop
 description: Avec les modules Adobe Photoshop, vous pouvez lancer un scénario de fusion Adobe Workfront basé sur les événements de votre compte Adobe Photoshop, créer, lire ou mettre à jour des contrats et d’autres enregistrements, rechercher des enregistrements à l’aide de critères que vous avez définis et télécharger des documents.
@@ -12,33 +12,33 @@ exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
 source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
 workflow-type: tm+mt
 source-wordcount: '4308'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
 # Modules [!DNL Adobe Photoshop]
 
-Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Photoshop] et les connecter à plusieurs applications et services tiers.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL Adobe Photoshop] et le connecter à plusieurs applications et services tiers.
 
 
-Si vous avez besoin d’instructions sur la création d’un scénario, voir [Création d’un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Pour plus d’informations sur les modules, voir [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Conditions d’accès
 
 +++**Développez pour afficher les exigences d’accès à la fonctionnalité de cet article.**
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] formule*</td>
       <td>
-        <p>[!UICONTROL Pro] ou un forfait supérieur</p>
+        <p>[!UICONTROL Pro] ou version supérieure</p>
       </td>
     </tr>
     <tr>
@@ -50,19 +50,19 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td>
       <td >
-        <p>[!UICONTROL Fusion Workfront pour l’automatisation et l’intégration du travail]</p>
+        <p>[!UICONTROL Workfront Fusion for Work Automation and Integration]</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">Produit</td>
-      <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td>
+      <td>Votre organisation doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</td>
     </tr>
     </tr>
   </tbody>
 </table>
 
 
-&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice de [!DNL Workfront].
 
 &#42;&#42;Pour plus d’informations sur les [!DNL Adobe Workfront Fusion] licences, voir [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -70,17 +70,17 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
 
 ## Conditions préalables
 
-Avant de pouvoir utiliser le connecteur [!DNL Adobe Photoshop], vous devez vous assurer que les conditions préalables suivantes sont remplies :
+Avant d’utiliser le connecteur [!DNL Adobe Photoshop], vous devez vous assurer que les conditions préalables suivantes sont remplies :
 
-* Vous devez avoir un compte [!DNL Adobe Photoshop] actif.
+* Vous devez disposer d’un compte [!DNL Adobe Photoshop].
 
 ## Créer une connexion à [!DNL Adobe Photoshop]
 
-Pour créer une connexion pour vos modules [!DNL Adobe Photoshop] :
+Pour créer une connexion pour vos modules [!DNL Adobe Photoshop], procédez comme suit :
 
-1. Cliquez sur **[!UICONTROL Ajouter]** en regard de la zone Connexion.
+1. Cliquez sur **[!UICONTROL Ajouter]** en regard de la case Connexion.
 
-1. Renseignez les champs suivants :
+1. Remplissez les champs suivants :
 
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -91,7 +91,7 @@ Pour créer une connexion pour vos modules [!DNL Adobe Photoshop] :
         <tr>
         <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
-          <p>Nommez cette connexion.</p>
+          <p>Saisissez un nom pour cette connexion.</p>
         </td>
         </tr>
         <tr>
@@ -100,21 +100,21 @@ Pour créer une connexion pour vos modules [!DNL Adobe Photoshop] :
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Entrez votre [0} [!UICONTROL Client Secret]. [!DNL Adobe] Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
+        <td>Saisissez votre [!UICONTROL Client Secret] [!DNL Adobe]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL ID du compte technique]</td>
-        <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID de compte technique]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL Technical account ID]</td>
+        <td>Saisissez votre [!UICONTROL Technical account ID] [!DNL Adobe]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL ID d’organisation]</td>
-        <td>Saisissez votre [!DNL Adobe] [!UICONTROL ID d’organisation]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL Organization ID]</td>
+        <td>Saisissez votre [!UICONTROL Organization ID] [!DNL Adobe]. Vous pouvez le trouver dans la section de détails [!UICONTROL Credentials] de la variable [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Clé privée]</td>
+        <td role="rowheader">[!UICONTROL Private key]</td>
         <td>
-          <p>Entrez la clé privée qui a été générée lors de la création de vos informations d’identification dans le [!DNL Adobe Developer Console]. </p>
-          <p>Pour extraire votre clé privée ou votre certificat :</p>
+          <p>Saisissez la clé privée générée lors de la création de vos informations d’identification dans l’[!DNL Adobe Developer Console]. </p>
+          <p>Pour extraire votre clé privée ou votre certificat privé, procédez comme suit :</p>
           <ol>
             <li value="1">
               <p>Cliquez sur <b>[!UICONTROL Extract]</b>.</p>
@@ -123,7 +123,7 @@ Pour créer une connexion pour vos modules [!DNL Adobe Photoshop] :
               <p>Sélectionnez le type de fichier que vous extrayez.</p>
             </li>
             <li value="3">
-              <p>Sélectionnez le fichier contenant la clé privée ou le certificat.</p>
+              <p>Sélectionnez le fichier contenant la clé privée ou le certificat privé.</p>
             </li>
             <li value="4">
               <p>Saisissez le mot de passe du fichier.</p>
@@ -141,9 +141,9 @@ Pour créer une connexion pour vos modules [!DNL Adobe Photoshop] :
 
 ## Modules [!DNL Adobe Photoshop] et leurs champs
 
-Lorsque vous configurez des modules [!DNL Adobe Photoshop], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Adobe Photoshop] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez les modules [!DNL Adobe Photoshop], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces derniers, des champs [!DNL Adobe Photoshop] supplémentaires peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mapper des informations d’un module à l’autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -158,7 +158,7 @@ Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’af
 * [Exécuter les actions Photoshop (JSON)](#execute-photoshop-actions-json)
 * [Exécuter le recadrage de produit](#execute-product-crop)
 * [Obtention des informations sur le calque](#get-layer-info)
-* [Effectuer un appel API personnalisé](#make-a-custom-api-call)
+* [Effectuer un appel API personnalisé.](#make-a-custom-api-call)
 * [Suppression de l’arrière-plan](#remove-background)
 * [Remplacement d’un objet dynamique](#replace-a-smart-object)
 * [Redimensionner une image](#resize-an-image)
@@ -174,7 +174,7 @@ Ce module d’action applique diverses modifications au niveau du document et du
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -288,7 +288,7 @@ Ce module d’action applique diverses modifications au niveau du document et du
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
     </tr>
     </tbody>
 </table>
@@ -305,7 +305,7 @@ Ce module d’action corrige automatiquement la couleur de l’image spécifiée
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -347,7 +347,7 @@ Ce module d’action corrige automatiquement la couleur de l’image spécifiée
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
     </tr>
     </tbody>
 </table>
@@ -363,7 +363,7 @@ Ce module d’action convertit un fichier en JPEG, PNG, PSD ou TIFF.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -411,7 +411,7 @@ Ce module d’action convertit un fichier en JPEG, PNG, PSD ou TIFF.
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
     </tr>
     </tbody>
 </table>
@@ -428,7 +428,7 @@ Ce module d’action renvoie un fichier PNG avec un mât appliqué autour de l�
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -455,7 +455,7 @@ Ce module d’action renvoie un fichier PNG avec un mât appliqué autour de l�
    <td> Saisissez ou mappez l’URL ou le chemin d’accès de l’emplacement de stockage du fichier de masque. Cela n'est nécessaire que si vous n'avez pas choisi Stockage interne Fusion pour le stockage en sortie.</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Remplacer]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Indiquez si le fichier nouvellement modifié remplacera tout fichier de sortie qui existe déjà. Cela s’applique uniquement aux fichiers dans le stockage Adobe.</p>
       </td>
@@ -494,7 +494,7 @@ Ce module d’action renvoie un fichier PNG avec un mât appliqué autour de l�
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
     </tr>
     </tbody>
 </table>
@@ -515,7 +515,7 @@ Ce module d’action modifie les calques de texte sur un fichier Photoshop.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Stockage du fichier d’entrée]</td>
@@ -563,7 +563,7 @@ Ce module d’action modifie les calques de texte sur un fichier Photoshop.
    <td> Sélectionnez le type de fichier pour le fichier modifié. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Remplacer]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Indiquez si le fichier nouvellement modifié remplacera tout fichier de sortie qui existe déjà.</p>
       </td>
@@ -589,7 +589,7 @@ Ce module d’action exécute des actions Photoshop à l’aide de commandes JSO
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -640,7 +640,7 @@ Ce module d’action exécute des actions Photoshop à l’aide de commandes JSO
    <td> Sélectionnez le type de fichier pour le fichier modifié. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Remplacer]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Indiquez si le fichier nouvellement modifié remplacera tout fichier de sortie qui existe déjà.</p>
       </td>
@@ -685,7 +685,7 @@ Ce module d’action exécute des actions Photoshop à l’aide de commandes JSO
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
     </tr>
       </tbody>
 </table>
@@ -700,7 +700,7 @@ Ce module d’action exécute un flou de profondeur sur le fichier sélectionné
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Stockage du fichier d’entrée]</td>
@@ -733,13 +733,13 @@ Ce module d’action exécute un flou de profondeur sur le fichier sélectionné
    <td> Sélectionnez le type de fichier pour le fichier modifié. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Autres champs]</td>
+      <td role="rowheader">[!UICONTROL Other fields]</td>
       <td>
         <p>Pour plus d’informations sur les autres options de flou de profondeur, voir <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">Execute Depth Blur </a> dans la documentation de l’API Adobe Photoshop.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Remplacer]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Indiquez si le fichier nouvellement modifié remplacera tout fichier de sortie qui existe déjà.</p>
       </td>
@@ -763,7 +763,7 @@ Ce module d’action exécute une action Photoshop sur l’image sélectionnée.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Stockage du fichier d’entrée]</td>
@@ -826,7 +826,7 @@ Ce module d’action exécute une action Photoshop sur l’image sélectionnée.
    <td> Sélectionnez le type de fichier pour le fichier modifié. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Remplacer]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Indiquez si le fichier nouvellement modifié remplacera tout fichier de sortie qui existe déjà.</p>
       </td>
@@ -850,7 +850,7 @@ Ce module d’action exécute Recadrage de produit sur l’image sélectionnée.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Stockage du fichier d’entrée]</td>
@@ -878,7 +878,7 @@ Ce module d’action exécute Recadrage de produit sur l’image sélectionnée.
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Hauteur]</p>
+        <p>[!UICONTROL Height]</p>
       </td>
    <td> Saisissez ou mappez la hauteur de remplissage à ajouter. </td> 
     </tr>
@@ -901,7 +901,7 @@ Ce module d’action exécute Recadrage de produit sur l’image sélectionnée.
    <td> Sélectionnez le type de fichier pour le fichier modifié. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Remplacer]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Indiquez si le fichier nouvellement modifié remplacera tout fichier de sortie qui existe déjà.</p>
       </td>
@@ -925,7 +925,7 @@ Ce module d’action récupère les informations de calque du fichier de PSD sp�
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Stockage du fichier d’entrée]</td>
@@ -948,7 +948,7 @@ Ce module d’action récupère les informations de calque du fichier de PSD sp�
   </tbody>
 </table>
 
-### Effectuer un appel API personnalisé
+### Effectuer un appel API personnalisé.
 
 Ce module d’action effectue un appel personnalisé à l’API Photoshop.
 
@@ -958,7 +958,7 @@ Ce module d’action effectue un appel personnalisé à l’API Photoshop.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
@@ -977,7 +977,7 @@ Ce module d’action effectue un appel personnalisé à l’API Photoshop.
       <td>
         <p>Ajoutez les en-têtes de la requête sous la forme d’un objet JSON standard.</p>
         <p>Par exemple, <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] ajoute automatiquement des en-têtes d’autorisation.</p>
+        <p>[!DNL Workfront Fusion] Ajoute automatiquement des en-têtes d’autorisation.</p>
       </td>
     </tr>
     <tr>
@@ -988,7 +988,7 @@ Ce module d’action effectue un appel personnalisé à l’API Photoshop.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note :  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets à l’extérieur de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -1005,7 +1005,7 @@ Ce module d’action identifie le sujet principal de votre image et supprime l�
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -1032,7 +1032,7 @@ Ce module d’action identifie le sujet principal de votre image et supprime l�
    <td> Saisissez ou mappez l’URL ou le chemin d’accès de l’emplacement de stockage du nouveau fichier.  Cela n'est nécessaire que si vous n'avez pas choisi Stockage interne Fusion pour le stockage en sortie.</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Remplacer]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Indiquez si le fichier nouvellement modifié remplacera tout fichier de sortie qui existe déjà. Cela s’applique uniquement aux fichiers dans le stockage Adobe.</p>
       </td>
@@ -1071,7 +1071,7 @@ Ce module d’action identifie le sujet principal de votre image et supprime l�
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
     </tr>
     </tbody>
 </table>
@@ -1088,7 +1088,7 @@ Ce module d’action remplace un objet dynamique dans un calque de PSD et génè
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -1142,7 +1142,7 @@ Ce module d’action remplace un objet dynamique dans un calque de PSD et génè
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
     </tr>
     </tbody>
 </table>
@@ -1159,7 +1159,7 @@ Cette action redimensionne une image en utilisant les mêmes proportions.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Storage]</td>
@@ -1198,7 +1198,7 @@ Cette action redimensionne une image en utilisant les mêmes proportions.
    <td>Lorsque la largeur est de 0, la valeur Max. avec peut être fournie pour obtenir la taille. La largeur maximale est prioritaire, car elle est inférieure à la largeur du document.</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Remplacer]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Indiquez si le fichier nouvellement modifié remplacera tout fichier de sortie qui existe déjà. Cela s’applique uniquement aux fichiers dans le stockage Adobe.</p>
       </td>
@@ -1222,7 +1222,7 @@ Ce module d’action ajoute un filigrane à l’image sélectionnée.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer la connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
+      <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Photoshop], voir <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Créer une connexion à [!DNL Adobe Photoshop]</a> dans cet article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Stockage de base/d’entrée)]</td>
@@ -1305,7 +1305,7 @@ Ce module d’action ajoute un filigrane à l’image sélectionnée.
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
     </tr>
     </tbody>
 </table>

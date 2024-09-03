@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: Version R1 finale
-description: Activité Version 2018.3
+description: Activité Version 2018.3
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,57 +10,57 @@ exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Version R1 finale
 
-La fonctionnalité suivante n’est actuellement pas disponible dans Aperçu ou Beta, mais est actuellement disponible dans l’environnement de production dans R1 :
+La fonctionnalité suivante n’est actuellement pas disponible dans la version bêta ou préliminaire, mais est actuellement disponible dans l’environnement de production dans R1 :
 
-## Décisions d’approbation pour les bons à tirer de la zone de travail My Work Area (Workfront)
+## Prendre des décisions d’approbation pour les épreuves à partir de la zone Mon travail (Workfront)
 
-Désormais, lorsqu’un utilisateur vous ajoute à un BAT et lui accorde le rôle d’approbateur ou de réviseur et d’approbateur (soit à partir de l’application BATHQ autonome, soit à l’aide d’un workflow automatisé dans Workfront ), la demande de validation s’affiche dans l’onglet Approbations de votre zone de travail Mes tâches. Vous pouvez ensuite afficher le BAT et prendre une décision d’approbation sur le BAT directement depuis Workfront.
+Désormais, lorsqu’un utilisateur ou une utilisatrice vous ajoute à une épreuve et lui accorde le rôle de personne approbatrice ou de personne approbatrice et chargée de la révision (soit à partir de l’application ProofHQ autonome, soit à l’aide d’un workflow automatisé dans Workfront), la demande d’approbation s’affiche dans l’onglet Approbations de votre zone de travail Mon travail. Vous pouvez ensuite afficher l’épreuve et prendre une décision d’approbation sur l’épreuve directement à partir de Workfront.
 
-Pour plus d’informations sur l’ajout d’utilisateurs à un BAT à l’aide du processus automatisé, voir [Partage d’un BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) dans [Partage d’un BAT dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+Pour plus d’informations sur l’ajout d’utilisateurs et d’utilisatrices à une épreuve à l’aide d’un workflow automatisé, voir [Partager une épreuve dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) dans [Partager une épreuve dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-Pour plus d’informations sur la façon de prendre des décisions d’approbation dans la zone Mon travail, voir [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) dans [Valider le travail](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Pour plus d’informations sur la façon de prendre des décisions d’approbation depuis la zone Mon travail, voir [Approuver du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) dans [Approuver du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-## Rapport sur les approbations de la vérification dans la zone de travail Mes (Workfront)
+## Créer un rapport sur les approbations de relecture dans la zone Mon travail (Workfront)
 
-Vous pouvez maintenant créer un rapport basé sur l’objet Validation de BAT. Ce rapport vous permet de rendre compte des validations de BAT effectuées par les utilisateurs dans les zones Mon travail où des décisions n’ont pas encore été prises.
+Vous pouvez désormais créer un rapport basé sur l’objet Approbation d’épreuve. Ce rapport vous permet de créer un rapport sur les approbations d’épreuve des zones Mon travail des utilisateurs et utilisatrices où des décisions n’ont pas encore été prises.
 
-Les rapports de validation des BAT contiennent les informations suivantes :
+Les rapports d’approbation d’épreuve contiennent les informations suivantes :
 
 * Document soumis à approbation
-* Nom de l’approbateur
-* Version du BAT
+* Nom de la personne chargée de l’approbation
+* Version de l’épreuve
 * ID de l&#39;épreuve
-* Date de création du BAT
+* Date de création de l’épreuve
 
 Vous accédez à cette approbation lors de la création d’un rapport basé sur un objet, comme décrit dans la section [Créer un rapport personnalisé](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Pour plus d’informations sur le rapport d’objet Approbations de BAT, reportez-vous à la section [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) de la section [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Pour plus d’informations sur le rapport d’objet Approbations d’épreuves, voir la section [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) dans [Comprendre les objets dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## Générer automatiquement une nouvelle version d’un BAT de document à l’aide de la fonction glisser-déposer (Workfront)
+## Générer automatiquement une nouvelle version d’une épreuve de document à l’aide de la fonction glisser-déposer (Workfront)
 
-Lorsque vous utilisez la méthode glisser-déposer pour ajouter une nouvelle version d’un document nécessitant une vérification, un BAT est généré automatiquement. Le BAT dispose des mêmes options et workflows que le BAT d’origine ou la version précédente.
+Lorsque vous utilisez la méthode glisser-déposer pour ajouter une nouvelle version d’un document nécessitant une relecture, une épreuve est générée automatiquement. L’épreuve dispose des mêmes options et workflows que l’épreuve d’origine ou la version précédente.
 
-Auparavant, lorsque vous ajoutiez une nouvelle version du document, le BAT n’était pas généré automatiquement sur la nouvelle version et vous deviez générer à nouveau le BAT pour la nouvelle version.
+Auparavant, lorsque vous ajoutiez une nouvelle version du document, l’épreuve n’était pas générée automatiquement sur la nouvelle version et vous deviez générer à nouveau l’épreuve pour la nouvelle version.
 
-Lorsque vous utilisez le menu Plus de documents pour charger une nouvelle version, un BAT n’est pas généré automatiquement.
+Lorsque vous utilisez le menu Plus des documents pour charger une nouvelle version, une épreuve n’est pas générée automatiquement.
 
-Pour plus d’informations, voir  dans
+Pour plus d’informations, voir la section dans
 
-## Activation de l’accès direct à BAT par tous les utilisateurs de la vérification de performance à partir de l’interface de Workfront (Workfront)
+## Activer l’accès direct à ProofHQ pour toutes les personnes de la relecture à partir de l’interface de Workfront (Workfront)
 
-Vous pouvez maintenant permettre à tous les utilisateurs de la vérification de votre système d’accéder en toute transparence à votre compte BATHQ Premium directement depuis l’interface de Workfront. Lorsque cette option est activée, tous les utilisateurs de l’authentification voient une icône BATHQ dans la barre de navigation globale qui les dirige vers le site BATHQ.
+Vous pouvez désormais permettre à tous les utilisateurs et utilisatrices de relecture de votre système d’accéder en toute transparence à votre compte ProofHQ Premium directement depuis l’interface de Workfront. Lorsque cette option est activée, tous les utilisateurs et utilisatrices de relecture voient une icône ProofHQ dans la barre de navigation globale qui les dirige vers le site ProofHQ.
 
-Cette option n’est pas activée par défaut. Pour activer cette option, contactez le support technique de Workfront et demandez cet accès pour tous les utilisateurs de vérification de performance de votre système.
+Cette option n’est pas activée par défaut. Pour activer cette option, contactez l’assistance technique de Workfront et demandez cet accès pour tous les utilisateurs et utilisatrices de relecture de votre système.
 
-Pour plus d’informations, voir [Accès à Workfront Proof à partir d’Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) dans  [Accédez à Workfront Proof à partir d’Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Pour plus d’informations, voir [Accéder à Workfront Proof à partir d’Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) dans [Accéder à Workfront Proof à partir d’Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
-Avant cette modification, seul l’administrateur de Workfront pouvait accéder directement au site BAT depuis l’interface de Workfront.
+Avant cette modification, seulement l’administrateur ou l’administratrice de Workfront pouvait accéder directement au site ProofHQ depuis l’interface de Workfront.
 
 ## Nouvelle option pour la connexion sécurisée TLS pour le courrier sortant (Workfront)
 
@@ -70,83 +70,83 @@ Avant cette amélioration, vous ne pouviez activer la messagerie sortante que pa
 
 Pour plus d’informations sur la configuration de votre messagerie sortante, voir .
 
-## Nouveau champ pour la gestion des emails dans l’environnement de test de prévisualisation
+## Nouveau champ pour la gestion des e-mails dans l’environnement de prévisualisation de sandbox
 
-Workfront désactive désormais toutes les communications par courrier électronique à partir de l’environnement Preview Sandbox et de l’environnement d’actualisation personnalisée. Si vous souhaitez recevoir des notifications par courrier électronique de la part des environnements de prévisualisation Sandbox ou d’actualisation personnalisée, vous devez activer cette fonctionnalité dans vos paramètres utilisateur.
+Workfront désactive désormais toutes les communications par e-mail depuis l’environnement de prévisualisation de sandbox et l’environnement à actualisation personnalisée. Si vous souhaitez recevoir des notifications par e-mail depuis des environnements de prévisualisation de sandbox ou à actualisation personnalisée, vous devez activer cette fonctionnalité dans vos paramètres d’utilisateur ou d’utilisatrice.
 
-Pour plus d’informations, voir les informations suivantes :
+Pour plus d’informations, consultez ce qui suit :
 
-* [L’environnement Sandbox d’aperçu Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) dans [L’environnement Sandbox d’aperçu Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+* [Environnement de prévisualisation de sandbox Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) dans [Environnement de prévisualisation de sandbox Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-* &quot;Réception d’emails à partir de l’environnement de test d’actualisation personnalisée&quot; dans [L’environnement de test d’actualisation personnalisée Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* « Recevoir des e-mails du sandbox à actualisation personnalisée » dans [Environnement de sandbox à actualisation personnalisée Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
-## Outlook pour Office 365 (Workfront)
+## Outlook pour Office 365 (Workfront)
 
 Le module complémentaire Workfront pour Outlook 365 est désormais disponible. 
 
-Pour plus d’informations sur l’utilisation du module complémentaire, voir [Utilisation du module complémentaire Workfront avec Outlook pour Office 365.](https://support.workfront.com/hc/en-us/sections/205046167)
+Pour plus d’informations sur l’utilisation du module complémentaire, voir [Utiliser le module complémentaire Workfront avec Outlook pour Office 365.](https://support.workfront.com/hc/fr-fr/sections/205046167)
 
-## Recherche dans l’application mobile (Workfront)
+## Rechercher dans l’application mobile (Workfront)
 
-Vous pouvez désormais rechercher des objets dans l’application mobile, comme vous le faites dans l’application web. La nouvelle fonctionnalité de recherche recherche recherche d’abord les éléments de la liste Éléments récents, ainsi que les objets qui ont été précédemment téléchargés sur votre périphérique mobile. La liste des éléments récents est la même que celle que vous voyez dans l’application web.
+Vous pouvez désormais rechercher des objets dans l’application mobile, comme dans l’application web. La nouvelle fonctionnalité de recherche recherche d’abord les éléments de la liste Éléments récents, ainsi que les objets qui ont été précédemment téléchargés sur votre équipement mobile. La liste des éléments récents est la même que celle que vous voyez dans l’application web.
 
 >[!NOTE]
 >
->Cette fonctionnalité sera disponible la première semaine de mai 2017.
+>Cette fonctionnalité est disponible depuis la première semaine de mai 2017.
 
-Pour plus d’informations sur l’application mobile, voir la section &quot;Recherche dans Mobile&quot; dans  
+Pour plus d’informations sur l’application mobile, voir la section Recherche mobile dans
 
-## Aide améliorée dans l’application mobile : Tutorials (Workfront)
+## Aide améliorée dans l’application mobile : tutoriels (Workfront)
 
-À compter de la version mobile d’avril, de nouveaux écrans de tutoriels vous guideront tout au long de votre expérience mobile. Lorsque vous vous connectez à l’application mobile pour la première fois et que vous utilisez une fonctionnalité pour la première fois, un bref tutoriel s’affiche, expliquant le fonctionnement de cette fonctionnalité. Le tutoriel ne s’affiche qu’une seule fois, la première fois que vous utilisez une fonction spécifique.
+À compter de la version mobile d’avril, de nouveaux écrans de tutoriels vous guideront tout au long de votre expérience mobile. Lorsque vous vous connectez à l’application mobile pour la première fois et que vous utilisez une fonctionnalité pour la première fois, un bref tutoriel s’affiche, expliquant son fonctionnement. Le tutoriel ne s’affiche qu’une seule fois, la première fois que vous utilisez une fonction spécifique.
 
 Pour plus d’informations sur l’application mobile, voir .
 
 ## Recherche dans les documents PDF (ProofHQ)
 
-Vous pouvez désormais effectuer des recherches dans des documents PDF, des documents de bureau et des pages web statiques.
+Vous pouvez désormais effectuer des recherches dans des documents PDF, des documents Office et des pages web statiques.
 
-Pour plus d’informations, voir  [Recherche de contenu dans un BAT](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+Pour plus d’informations, voir [Rechercher du contenu dans une épreuve](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
 
 ## Mise à jour de la barre de navigation globale (ProofHQ)
 
-Les comptes ProofHQ Premium intégrés à Workfront voient maintenant les améliorations suivantes apportées à la barre de navigation globale dans ProofHQ :
+Les comptes ProofHQ Premium intégrés à Workfront voient maintenant les améliorations suivantes apportées à la barre de navigation globale dans ProofHQ :
 
-* Nouvelle image de profil utilisateur 
+* Nouvelle image de profil utilisateur
 * Aspect mis à jour
 
 ## Inclure des informations supplémentaires dans les vues personnalisées (ProofHQ)
 
-Vous pouvez désormais inclure les informations supplémentaires suivantes dans les vues personnalisées :
+Vous pouvez désormais inclure les informations supplémentaires suivantes dans les vues personnalisées :
 
-* **Données au niveau du destinataire**\
-  Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux données au niveau du destinataire : Rôle, Position, Alertes par e-mail, Mon délai, Date d’ajout au bon à tirer et Recherche de destinataire.\
-  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-* **Données de vérification**\
-  Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux données de vérification : Nombre de commentaires (toutes versions), Taille sur disque, Type de BAT, Nombre de fichiers par version, Données de pièce jointe du commentaire (taille sur le disque, nom de fichier) et Filtrage par sous-dossier.\
-  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-* **Données de niveau intermédiaire liées aux workflows automatisés**\
-  Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives à des étapes individuelles des processus automatisés : état SOCD, échéances d’évaluation, nom d’étape actif, nom d’étape suivant, nom d’étape et modèle.\
-  Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+* **Données au niveau des personnes destinataires**\
+  Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux données au niveau des personnes destinataires : Rôle, Position, Alertes par e-mail, Mon délai, Date d’ajout à l’épreuve et Recherche de personne destinataire.\
+  Pour plus d’informations, voir [Créer et gérer les vues personnalisées dans Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+* **Données de relecture**\
+  Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux données de relecture : Nombre de commentaires (toutes versions), Taille sur disque, Type d’épreuve, Nombre de fichiers par version, Données de pièce jointe du commentaire (taille sur le disque, nom de fichier) et Filtrage par sous-dossier.\
+  Pour plus d’informations, voir [Créer et gérer les vues personnalisées dans Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+* **Données d’étape liées aux workflows automatisés**\
+  Vous pouvez configurer des vues personnalisées afin d’inclure les colonnes suivantes relatives aux étapes individuelles des workflows automatisés : Statut SOCD, Échéances d’étapes, Nom d’étape actif, Nom d’étape suivant, Nom d’étape et Modèle.\
+  Pour plus d’informations, voir [Créer et gérer les vues personnalisées dans Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
-## Améliorations des rapports de vérification (anciennement Analytics) (ProofHQ)
+## Améliorations des rapports de relecture (anciennement Analytics) (ProofHQ)
 
-La fonctionnalité de création de rapports (anciennement appelée Analytics) contient les améliorations suivantes :
+La fonctionnalité de création de rapports (anciennement Analytics) contient les améliorations suivantes :
 
-* Nouveaux types de rapports par défaut :
+* Nouveaux types de rapports par défaut :
 
-   * Délai d’exécution de la preuve
-   * Pourcentage d&#39;approbation en retard
-   * Première activité de preuve
+   * Délai d’exécution de l’épreuve
+   * Pourcentage d’approbation en retard
+   * Heure de la première activité d’épreuve
    * Nombre de commentaires et de réponses
 
-* Imprimer les rapports
+* Impression des rapports
 * Aspect mis à jour
 
-## Affichage de la fonctionnalité BATHQ dans l’environnement d’aperçu (BATHQ)
+## Afficher la fonctionnalité ProofHQ dans l’environnement de prévisualisation (ProofHQ)
 
-Les fonctionnalités publiées sur BATHQ seront d’abord disponibles pour le test dans l’environnement Aperçu avant la publication dans l’environnement de production.
+Les fonctionnalités liées à ProofHQ seront d’abord disponibles pour le test dans l’environnement de prévisualisation avant leur publication dans l’environnement de production.
 
-Ce nouveau workflow de publication de la fonctionnalité Aperçu avant production vous permettra d’être mieux préparé aux futures mises à jour de votre environnement de production BATHQ.
+Ce nouveau workflow de prévisualisation des fonctionnalités avant leur production permet de mieux vous préparer aux futures mises à jour de votre environnement de production ProofHQ.
 
-Pour plus d’informations sur l’environnement d’aperçu de BATHQ, voir [Aperçu de l’environnement de test Sandbox - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+Pour plus d’informations sur l’environnement de prévisualisation de ProofHQ, voir [Prévisualiser l’environnement de test Sandbox - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).

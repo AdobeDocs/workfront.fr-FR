@@ -10,13 +10,13 @@ exl-id: 2887a0e2-039e-4e29-823d-82809f217045
 source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 19%
+ht-degree: 66%
 
 ---
 
 # Parcourir la nouvelle expérience dans Workfront Fusion
 
-Workfront Fusion a été mis à jour pour les utilisateurs qui n’accèdent pas à Fusion via Adobe Experience Cloud. La nouvelle interface utilisateur de Fusion offre une expérience plus transparente avec d’autres produits Adobe et facilite la transition de vos utilisateurs vers Adobe Experience Cloud.
+Workfront Fusion a été mis à jour pour les utilisateurs et utilisatrices qui n’accèdent pas à Fusion via Adobe Experience Cloud. La nouvelle interface d’utilisation de Fusion offre une expérience plus transparente avec les autres produits Adobe et facilite la transition de vos utilisateurs et utilisatrices vers Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,15 @@ Workfront Fusion a été mis à jour pour les utilisateurs qui n’accèdent pas
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -47,26 +47,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigence de produit hérité : votre organisation doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur [!DNL Workfront Fusion].
+* Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront Fusion].
 
-## Naviguer [!DNL Workfront Fusion]
+## Parcourir [!DNL Workfront Fusion]
 
-Les menus [!UICONTROL Organisation] et [!UICONTROL Équipe] se trouvent dans le panneau de navigation de gauche de Fusion. Si vous êtes administrateur [!DNL Workfront Fusion], le menu [!UICONTROL Administration] s’affiche également ici.
+Les menus [!UICONTROL Organisation] et [!UICONTROL Équipe] se trouvent dans le panneau de navigation de gauche de Fusion. Si vous êtes un administrateur ou une administratrice [!DNL Workfront Fusion], votre menu [!UICONTROL Administration] s’affiche également ici.
 
-Pour changer d’équipe, cliquez sur le nom de l’équipe en haut de la page, puis sélectionnez l’équipe. Le sélecteur d’équipe s’affiche uniquement sur les pages propres à une équipe, telles qu’un créateur de scénarios ou la page [!UICONTROL Connexions].
+Pour changer d’équipe, cliquez sur le nom de l’équipe en haut de la page, puis sélectionnez l’équipe. Cela s’affiche uniquement sur les pages qui sont spécifiques à une équipe, comme le créateur de scénario ou la page [!UICONTROL Connexions].
 
-Pour changer d’organisation, cliquez sur son nom dans le coin supérieur droit de l’écran, puis sélectionnez l’organisation.
+Pour changer d’organisation, cliquez sur le nom de l’organisation dans le coin supérieur droit de l’écran, puis sélectionnez l’organisation.
 
-## Accès à votre profil et à vos préférences
+## Accéder à votre profil et à vos préférences
 
-Vous pouvez accéder à vos options de profil et de préférence en cliquant sur l’image de votre profil dans la zone de navigation supérieure.
+Vous pouvez accéder à vos options de profil et de préférences en cliquant sur votre photo de profil dans la zone de navigation supérieure.
 
 Sous votre profil, vous pouvez afficher les onglets suivants :
 
@@ -75,6 +75,6 @@ Sous votre profil, vous pouvez afficher les onglets suivants :
 * **[!UICONTROL API]** : ici, vous pouvez copier des jetons d’API existants ou en créer de nouveaux.
 
 
-## Accès à vos notifications
+## Accéder à vos notifications
 
-Pour afficher vos notifications, cliquez sur l’icône Notifications ![ icône Notifications ](assets/notifications-icon.png) près du coin supérieur droit de l’écran. Un point rouge sur l’icône Notifications indique que vous avez des notifications ou des annonces non lues.
+Pour afficher vos notifications, cliquez sur l’icône Notifications ![Icône Notifications](assets/notifications-icon.png) près du coin supérieur droit de l’écran. Un point rouge sur l’icône Notifications indique que vous avez des notifications ou des annonces non lues.

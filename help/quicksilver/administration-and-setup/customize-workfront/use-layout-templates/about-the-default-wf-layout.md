@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: La disposition par défaut correspond à la disposition du menu principal, du panneau de gauche, ainsi qu’aux vues, aux regroupements et aux filtres avant qu’un administrateur ou une administratrice Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
+description: La disposition par défaut correspond à la disposition du menu principal, du panneau de gauche, ainsi qu’aux vues, aux regroupements et aux filtres avant qu’un administrateur ou une administratrice Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 # À propos de la disposition Adobe Workfront par défaut
 
-La disposition par défaut est la disposition du menu principal ![](assets/main-menu-icon.png), le panneau de gauche, ainsi que les vues, les regroupements et les filtres avant que l’administration d’Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
+La disposition par défaut correspond à la disposition du menu principal ![](assets/main-menu-icon.png), du panneau de gauche, ainsi qu’aux vues, aux regroupements et aux filtres avant qu’un administrateur ou une administratrice Adobe Workfront ne procède à des modifications à l’aide d’un modèle de mise en page.
 
 Pour plus d’informations sur la manière dont un administrateur ou une administratrice Workfront peut modifier la disposition par défaut d’un utilisateur ou d’une utilisatrice en lui attribuant un modèle de mise en page, voir [Attribuer un modèle de mise en page à des utilisateurs et des utilisatrices](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -187,7 +187,7 @@ Le tableau suivant indique les éléments du panneau de gauche affichés par dé
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Feuilles de temps | Approuver</strong> </td> 
+   <td><strong>Feuilles de temps | Approuver</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 

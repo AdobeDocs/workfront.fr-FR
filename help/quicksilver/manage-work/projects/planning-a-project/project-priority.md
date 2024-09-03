@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Comprendre et mettre à jour les priorités du projet
-description: Il existe plusieurs façons d’utiliser les priorités des projets et elles ne communiquent pas entre elles. Nous vous recommandons de sélectionner l’une des priorités des projets qui correspond à vos besoins et de vous y référer lorsque vous classez l’importance de vos projets.
+title: Comprendre et mettre à jour les priorités des projets
+description: Il existe plusieurs façons d’utiliser les priorités des projets et elles ne communiquent pas entre elles. Nous vous recommandons de sélectionner l’une des priorités des projets qui correspond à vos besoins et d’y faire référence lorsque vous catégorisez l’importance de vos projets.
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Comprendre et mettre à jour les priorités du projet
+# Comprendre et mettre à jour les priorités des projets
 
 Il existe plusieurs façons d’utiliser les priorités des projets et elles ne communiquent pas entre elles. Nous vous recommandons de sélectionner l’une des priorités des projets qui correspond à vos besoins et de vous y référer lorsque vous classez l’importance de vos projets.
 
@@ -49,29 +49,29 @@ Il existe plusieurs façons d’utiliser les priorités des projets et elles ne 
  </tbody> 
 </table>
 -->
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux projets</p> <p><b>NOTE</b>
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Accès en modification aux projets</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations de gestion pour le projet</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +100,7 @@ Vous pouvez définir une priorité pour les projets dans Workfront. La définiti
 
 Tenez compte des points suivants lorsque vous sélectionnez une priorité pour vos projets :
 
-* L’administration de Workfront définit les priorités disponibles dans Workfront. Une fois créées, elles peuvent être associées à des projets dans le champ Priorité.
+* Votre équipe d’administration Workfront définit les priorités disponibles dans Workfront. Une fois créées, elles peuvent être associées à des projets dans le champ Priorité.
 
   Pour plus d’informations sur la création de priorités dans Workfront, consultez l’article [Créer et personnaliser des priorités](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
@@ -111,13 +111,13 @@ Tenez compte des points suivants lorsque vous sélectionnez une priorité pour v
 * Les tâches et les problèmes ont également des priorités, mais les priorités relatives aux tâches, problèmes et projets fonctionnent de manière indépendante. Vous pouvez avoir un problème de priorité élevée ou une tâche de priorité moyenne dans un projet de priorité faible.
 * Vous pouvez mettre à jour la priorité des projets dans les zones suivantes de Workfront :
 
-   * Dans la boîte de dialogue **Modifier le projet**
-   * Dans l’onglet **Détails du projet** d’un projet
-   * Dans une liste de projets ou un rapport
+   * Dans la boîte de dialogue **Modifier le projet**.
+   * Dans l’onglet **Détails du projet** d’un projet.
+   * Dans une liste de projets ou un rapport.
 
-## Mettre à jour le champ Priorité du projet
+## Mettre à jour le champ Priorité d’un projet
 
-1. Accédez au projet pour lequel vous souhaitez mettre à jour la priorité.
+1. Accédez au projet dont vous souhaitez mettre à jour la priorité.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
 1. Cliquez sur l’icône **Modifier** ![](assets/qs-edit-icon.png) dans le coin supérieur droit de la zone Détails du projet, puis sur **Vue d’ensemble**.
 
@@ -136,4 +136,4 @@ Tenez compte des points suivants lorsque vous sélectionnez une priorité pour v
 
 1. Cliquez sur **Enregistrer les modifications**.
 
-   Consultez d&#39;autres utilisateurs et utilisatrices et mettez-vous d’accord sur ce que chaque niveau de priorité signifie pour le projet.
+   Vous devez communiquer avec les autres utilisateurs et utilisatrices et comprendre ce que chaque niveau de priorité représente pour le projet.

@@ -10,7 +10,7 @@ exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
@@ -18,51 +18,51 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture à l’intérieur d’[!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
 <p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make this work for PiW</p>
 -->
 
-Pendant le processus de révision et d&#39;approbation, vous pouvez envoyer un message à l&#39;un ou tous les réviseurs sur un BAT afin de leur rappeler de terminer leur révision ou de fournir d&#39;autres informations sur le BAT. Vous pouvez envoyer l’email de rappel par défaut ou ajouter votre propre message personnalisé.
+Pendant le processus de révision et d’approbation, vous pouvez envoyer un message à l’une ou à l’ensemble des personnes chargées de la révision sur une épreuve afin de leur rappeler de terminer leur révision ou de fournir d’autres informations sur l’épreuve. Vous pouvez envoyer l’e-mail de rappel par défaut ou ajouter votre propre message personnalisé.
 
-L’email de rappel par défaut contient les informations suivantes :
+L’e-mail de rappel par défaut contient les informations suivantes :
 
-* Lien personnel vers le BAT
-* Miniature de l’image de BAT
-* Les détails du BAT suivants :
+* Lien personnel vers l’épreuve
+* Miniature de l’image de l’épreuve
+* Détails de l’épreuve suivants :
 
-   * Nom de l&#39;épreuve
+   * Nom de l’épreuve
    * Numéro de version
    * Nom du dossier (le cas échéant)
-   * Liste des validants et leur état d&#39;avancement sur le BAT
+   * Liste des réviseurs et réviseuses et leur progression sur l’épreuve
 
-Vous pouvez également rappeler à quelqu’un plusieurs bons à tirer qui ont été partagés avec lui. Pour plus d’informations, voir [Rappel d’un réviseur à propos des affectations dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
+Vous pouvez également rappeler à une personne plusieurs épreuves qui ont été partagées avec elle. Pour plus d’informations, voir [Rappeler à un réviseur ou à une réviseuse ses affectations dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
 
-## Envoyer un message aux réviseurs sur un bon à tirer
+## Envoyer un message aux réviseurs et réviseuses d’une épreuve
 
-1. Dans n’importe quelle vue de liste ou sur le [!UICONTROL tableau de bord], cliquez sur le menu **[!UICONTROL Plus]** (trois points) pour le BAT, puis sur **[!UICONTROL Message]**.
+1. Dans n’importe quelle vue de liste ou sur le [!UICONTROL Tableau de bord], cliquez sur le menu **[!UICONTROL Plus]** (trois points) de l’épreuve, puis sur **[!UICONTROL Message]**.
 
-1. Dans la zone **[!UICONTROL Message]** qui s&#39;affiche, sélectionnez les destinataires de votre choix.
+1. Dans la zone **[!UICONTROL Message]** qui s’affiche, sélectionnez les personnes destinataires de votre choix.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Si vous souhaitez utiliser le message [!DNL Workfront Proof] par défaut, cliquez sur **[!UICONTROL Ignorer le message personnalisé]**, puis sur **[!UICONTROL Envoyer]**.\
+   * Si vous souhaitez utiliser le message [!DNL Workfront Proof] par défaut, cliquez sur **[!UICONTROL Ignorer le message personnalisé]**, puis sur **[!UICONTROL Envoyer]**.
 
-     Le message par défaut rappelle aux opérateurs validants qu&#39;ils ont été ajoutés au BAT et indique la date limite d&#39;envoi du BAT.
+     Le message par défaut rappelle aux réviseurs et réviseuses qu’ils ont été ajoutés à l’épreuve et indique l’échéance de l’épreuve.
 
-   * Si vous souhaitez créer votre propre message personnalisé, saisissez un **[!UICONTROL Objet]** et le **[!UICONTROL Message],**, puis cliquez sur **[!UICONTROL Envoyer].** &#x200B; Un email de rappel personnalisé contient les mêmes informations que l’email de rappel par défaut, mais il inclut également votre objet personnalisé et votre message personnalisé dans le corps de l’email.
+   * Si vous souhaitez créer votre propre message personnalisé, saisissez un **[!UICONTROL Objet]** et le **[!UICONTROL Message],** puis cliquez sur **[!UICONTROL Envoyer].** Un e-mail de rappel personnalisé contient les mêmes informations que l’e-mail de rappel par défaut, mais il inclut également votre ligne d’objet personnalisé et votre message personnalisé dans le corps de l’e-mail.
 
-## Envoi d’un message aux réviseurs sur une scène
+## Envoyer un message aux réviseurs et réviseuses d’une étape
 
-1. Dans n’importe quel mode Liste ou dans le tableau de bord, cliquez sur le menu **[!UICONTROL Plus]** (trois points) pour le BAT, puis cliquez sur **[!UICONTROL Afficher les détails du BAT]**.
+1. Dans n’importe quelle vue de liste ou sur le Tableau de bord, cliquez sur le menu **[!UICONTROL Plus]** (trois points) de l’épreuve, puis sur **[!UICONTROL Afficher les détails de l’épreuve]**.
 
-1. Sous **[!UICONTROL Workflow,]** dans le coin supérieur droit de l’étape, cliquez sur le menu **[!UICONTROL Plus]** (à trois points) de l’étape, puis cliquez sur **[!UICONTROL Message all]** dans le menu déroulant.
+1. Sous **[!UICONTROL Workflow]** dans le coin supérieur droit de l’étape, cliquez sur le menu **[!UICONTROL Plus]** (trois points) de l’étape, puis sur **[!UICONTROL Envoyer un message à toutes les personnes]** dans le menu déroulant.
 
-1. Dans la zone **[!UICONTROL Message]** qui s&#39;affiche, sélectionnez les destinataires de votre choix.
+1. Dans la zone **[!UICONTROL Message]** qui s’affiche, sélectionnez les personnes destinataires de votre choix.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Si vous souhaitez utiliser le message [!DNL Workfront Proof] par défaut, cliquez sur **[!UICONTROL Ignorer le message personnalisé]**, puis sur **[!UICONTROL Envoyer]**.\
+   * Si vous souhaitez utiliser le message [!DNL Workfront Proof] par défaut, cliquez sur **[!UICONTROL Ignorer le message personnalisé]**, puis sur **[!UICONTROL Envoyer]**.
 
-     Le message par défaut rappelle aux opérateurs validants qu&#39;ils ont été ajoutés au BAT et indique la date limite d&#39;envoi du BAT.
+     Le message par défaut rappelle aux réviseurs et réviseuses qu’ils ont été ajoutés à l’épreuve et indique l’échéance de l’épreuve.
 
-   * Si vous souhaitez créer votre propre message personnalisé, saisissez un **[!UICONTROL Objet]** et le **[!UICONTROL Message],**, puis cliquez sur **[!UICONTROL Envoyer].** &#x200B; Un email de rappel personnalisé contient les mêmes informations que l’email de rappel par défaut, mais il inclut également votre objet personnalisé et votre message personnalisé dans le corps de l’email.
+   * Si vous souhaitez créer votre propre message personnalisé, saisissez un **[!UICONTROL Objet]** et le **[!UICONTROL Message],** puis cliquez sur **[!UICONTROL Envoyer].** Un e-mail de rappel personnalisé contient les mêmes informations que l’e-mail de rappel par défaut, mais il inclut également votre ligne d’objet personnalisé et votre message personnalisé dans le corps de l’e-mail.

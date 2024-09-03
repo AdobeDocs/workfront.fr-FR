@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de la version 9 de l’API
-description: Il s’agit d’une liste des ressources nouvelles de la version 9 de l’API. Pour obtenir la liste des mises à jour apportées aux ressources de la version 9, veuillez consulter Mises à jour de l’API version 9 .
+title: Nouveautés de la version 9 de l’API
+description: Il s’agit d’une liste de ressources nouvelles pour la version 9 de l’API. Pour consulter la liste des mises à jour apportées aux ressources de la version 9, veuillez visiter la page Mises à jour de la version 9 de l’API.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,15 +10,15 @@ exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
-# Nouveautés de la version 9 de l’API
+# Nouveautés de la version 9 de l’API
 
 ## Nouvelles ressources
 
-Voici une liste des ressources qui sont nouvelles de la version 9 de l’API. Pour obtenir la liste des mises à jour apportées aux ressources de la version 9, consultez la page [Mises à jour de l’API version 9](../../wf-api/api/new-api-version-9-updates.md)
+Il s’agit d’une liste de ressources nouvelles pour la version 9 de l’API. Pour consulter la liste des mises à jour apportées aux ressources de la version 9, veuillez visiter les [Mises à jour de la version 9 de l’API](../../wf-api/api/new-api-version-9-updates.md).
 
 ### AccessLevel
 
@@ -93,7 +93,7 @@ Voici une liste des ressources qui sont nouvelles de la version 9 de l’API. Po
 
 {style="table-layout:auto"}
 
-### Section du calendrier
+### CalendarSection
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -140,4 +140,4 @@ Voici une liste des ressources qui sont nouvelles de la version 9 de l’API. Po
 
  
 
-Cette liste a été divisée en deux moitiés. Pour consulter la seconde moitié, reportez-vous à la section [Nouveautés de l’API version 9 (suite)](../../wf-api/api/new-api-version-9-continue.md). Pour afficher la liste des mises à jour de la version 9, consultez la page [Mises à jour de l’API version 9](../../wf-api/api/new-api-version-9-updates.md)
+Cette liste a été partagée en deux parties. Pour voir la seconde moitié, veuillez consulter [Nouveautés de la version 9 de l’API (suite)](../../wf-api/api/new-api-version-9-continue.md). Pour consulter la liste des mises à jour de la version 9, veuillez visiter [Mises à jour de la version 9 de l’API](../../wf-api/api/new-api-version-9-updates.md)

@@ -3,54 +3,54 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Vue d’ensemble de l’équipe d’un projet
-description: Les utilisateurs associés à un projet dans une certaine capacité forment l’équipe du projet. Les utilisateurs répertoriés sous la zone Personnes d’un projet sont les utilisateurs qui constituent l’équipe du projet.
+description: Les personnes associées à un projet dans une certaine capacité forment l’équipe du projet. Les utilisateurs et utilisatrices répertoriés dans la zone Personnes d’un projet constituent l’équipe du projet.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
 source-git-commit: 1b2180fd33da153c7f8b698cd17df2eb10669ce9
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # Vue d’ensemble de l’équipe d’un projet
 
-Les utilisateurs associés à un projet dans une certaine capacité forment l’équipe du projet. Les utilisateurs répertoriés sous la zone Personnes d’un projet sont les utilisateurs qui constituent l’équipe du projet. Par exemple, les utilisateurs qui sont affectés au projet ou le propriétaire du projet font partie de l’équipe du projet.
+Les personnes associées à un projet dans une certaine capacité forment l’équipe du projet. Les utilisateurs et utilisatrices répertoriés dans la zone Personnes d’un projet constituent l’équipe du projet. Par exemple, les personnes qui sont affectées au projet ou la personne propriétaire du projet font partie de l’équipe du projet.
 
-## Membres de l’équipe de projet
+## Personnes membres de l’équipe du projet
 
-Vous pouvez affecter des utilisateurs à une équipe de projet manuellement ou automatiquement. Pour plus d’informations, voir la section &quot;Ajout d’utilisateurs à une équipe de projet&quot; dans l’article [Gérer l’équipe de projet](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+Vous pouvez affecter des personnes à une équipe de projet manuellement ou de manière automatique. Pour plus d’informations, voir la section « Ajout de personnes à une équipe de projet » dans l’article [Gérer l’équipe de projet](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
-Lorsque vous ajoutez manuellement des utilisateurs à l’équipe de projet, ils reçoivent les autorisations d’affichage du projet ainsi que les tâches, problèmes et documents du projet.
+Lorsque vous ajoutez manuellement des personnes à l’équipe de projet, elles reçoivent les autorisations d’affichage sur le projet ainsi que sur les tâches, problèmes et documents du projet.
 
-## Notifications aux membres de l’équipe de projet
+## Notifications aux personnes membres de l’équipe de projet
 
-Selon les notifications par e-mail activées par votre administrateur Adobe Workfront, les utilisateurs d’une équipe de projet sont informés de diverses actions sur un projet. Pour plus d&#39;informations sur l&#39;activation des notifications par e-mail, voir [Configuration des notifications d&#39;événement pour tous les membres du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Selon les notifications par e-mail activées par votre administrateur ou administratrice Adobe Workfront, les personnes d’une équipe de projet sont informées de diverses actions sur un projet. Pour plus d’informations sur l’activation des notifications par e-mail, voir [Configurer des notifications d’événement pour toutes les personnes du système](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 >[!NOTE]
 >
->Veillez à mettre à jour l’appartenance à l’équipe de projet afin d’éviter d’envoyer des notifications aux utilisateurs qui n’ont pas besoin d’informations sur un projet.
+>Veillez à mettre à jour l’appartenance à l’équipe de projet afin d’éviter d’envoyer des notifications aux personnes qui n’ont pas besoin d’informations sur un projet.
 
 ## Approbations basées sur les rôles
 
-Pour utiliser les approbations basées sur les rôles sur un projet, les utilisateurs doivent être affectés à l’équipe du projet et avoir le rôle de tâche approprié affecté dans leur profil utilisateur.
+Pour utiliser les approbations basées sur les rôles sur un projet, les personnes doivent être affectées à l’équipe du projet et s’être fait attribuer la fonction appropriée dans leur profil utilisateur ou utilisatrice.
 
-Pour plus d’informations sur l’ajout d’un utilisateur à l’équipe de projet et sur l’affectation d’un rôle de tâche, reportez-vous aux articles suivants :
+Pour plus d’informations sur l’ajout d’une personne à l’équipe de projet et sur l’attribution d’une fonction, reportez-vous aux articles suivants :
 
 * [Gérer l’équipe de projet](../../../manage-work/projects/planning-a-project/manage-project-team.md)
 * [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
-Si vous ne souhaitez pas que l’utilisateur soit membre de l’équipe du projet pour les approbations basées sur les rôles, vous pouvez le contrôler dans les paramètres d’approbation. Pour plus d’informations, voir [Configuration des paramètres d’approbation globale](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+Si vous ne souhaitez pas que la personne soit membre de l’équipe du projet pour les approbations basées sur les rôles, vous pouvez contrôler cela dans les paramètres d’approbation. Pour plus d’informations, voir [Configurer les paramètres d’approbation globaux](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-## Filtre Projets actifs
+## Filtre Projets auxquels je participe
 
-Si un utilisateur est répertorié dans la zone Personnes d’un projet, ce projet s’affiche lorsqu’il applique le filtre Projets actifs dans une liste de projets ou un rapport de projet.
+Si une personne est répertoriée dans la zone Personnes d’un projet, ce projet s’affiche lorsque cette personne applique le filtre Projets auxquels je participe dans une liste de projets ou un rapport de projet.
 
-Vous pouvez voir si le filtre Projets actif est sélectionné dans l’en-tête de la zone Projets . Vous pouvez l’appliquer à partir du panneau Filtres ou de l’en-tête.
+Vous pouvez voir si le filtre Projets auxquels je participe est sélectionné dans l’en-tête de la zone Projets. Vous pouvez l’appliquer à partir du panneau Filtres ou de l’en-tête.
 
 ![](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >
->Si vous êtes l’auteur d’un projet, celui-ci reste répertorié dans la liste Projets auxquels je suis inscrit, même si votre nom n’apparaît pas dans la zone Personnes du projet ou si votre nom a été supprimé de cette liste.
+>Si vous êtes créateur ou créatrice d’un projet, celui-ci reste répertorié dans la liste Projets auxquels je participe, même si votre nom n’apparaît pas dans la zone Personnes du projet ou si votre nom a été supprimé de cette liste.

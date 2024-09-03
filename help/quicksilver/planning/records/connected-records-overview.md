@@ -38,7 +38,7 @@ Pour plus d’informations sur la connexion des enregistrements entre eux ou à 
   Les valeurs des champs de recherche renseignent l’enregistrement de planification Workfront à partir duquel vous effectuez la liaison automatique après leur mise à jour sur l’enregistrement ou l’objet d’origine.
 
 * Toute personne ayant accès à Workfront Planning et disposant d’autorisations d’affichage ou supérieures à l’espace de travail peut voir les connexions que vous effectuez entre des enregistrements ou entre des enregistrements et des objets d’autres applications. Elles peuvent afficher les enregistrements et les objets connectés, quelles que soient leurs autorisations dans les applications auxquelles vous vous connectez.
-* Vous pouvez afficher et modifier les connexions de toutes les autres personnes, si vous disposez d’autorisations de gestion pour l’espace de travail dans lequel se trouvent les enregistrements connectés.
+* Vous pouvez afficher et modifier les connexions de toutes les autres personnes, si vous disposez des autorisations de gestion sur l’espace de travail dans lequel se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement à un ou plusieurs objets à partir d’une autre application. Pour plus d’informations, reportez-vous à la section &quot;Types de connexions&quot; de l’article [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Zones où connecter les enregistrements

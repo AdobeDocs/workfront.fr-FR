@@ -26,7 +26,7 @@ Les articles suivants contiennent des informations sur l’accès dont vos utili
 * [Vue d’ensemble des accès](/help/quicksilver/planning/access/access-overview.md)
 * [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
 * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
-* [Partager des vues](/help/quicksilver/planning/access/share-views.md)
+* [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
 * [Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 * [Demande d’autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md)
 

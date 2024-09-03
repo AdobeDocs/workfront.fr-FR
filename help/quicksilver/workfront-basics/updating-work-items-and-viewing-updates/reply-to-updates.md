@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Répondre aux mises à jour
-description: Lorsqu’une personne ajoute ou répond à une mise à jour d’un objet de travail, sa réponse apparaît dans le fil de communication de la section Mises à jour de l’objet. Vous pouvez ajouter une réponse à une mise à jour ou ajouter une mention « J’aime » si vous disposez de l’accès visuel à l’objet.
+description: Lorsqu’une personne ajoute ou répond à une mise à jour sur un objet de travail, sa réponse apparaît dans le thread de communication de la section des mises à jour de l’objet. Vous pouvez ajouter une réponse à une mise à jour ou ajouter une mention « J’aime » si vous disposez de l’accès en affichage de l’objet.
 author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
@@ -11,7 +11,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -43,25 +43,25 @@ ht-degree: 89%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-Lorsqu’une personne répond à un commentaire ou à une mise à jour système sur un objet de travail, sa réponse apparaît dans le fil de communication des onglets Commentaires et Tous dans la section Mises à jour de l’objet.
+Lorsqu’une personne répond à un commentaire ou à une mise à jour système sur un objet de travail, sa réponse apparaît dans le thread de communication des onglets Commentaires et Tous de la section Mises à jour de l’objet.
 
 >[!IMPORTANT]
 >
 >Il n’est pas possible de répondre aux mises à jour du système dans l’onglet Activité du système. Toutes les réponses aux mises à jour système effectuées dans l’ancienne expérience de commentaires avant le 11 avril 2024 s’affichent en lecture seule.
 
-Cet article décrit comment répondre aux commentaires de la plupart des objets dans Workfront. Pour connaître les différences entre les sections Mises à jour de divers objets, consultez la [présentation de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Cet article décrit comment répondre aux commentaires de la plupart des objets dans Workfront. Pour plus d’informations sur les différences entre les sections Mises à jour des divers objets Workfront, voir [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Forfait Adobe Workfront</strong></td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
@@ -70,11 +70,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuration du niveau d’accès</strong></td> 
-   <td> <p>Afficher ou modifier l’accès de l’objet sur lequel la mise à jour est activée</p> </td> 
+   <td> <p>Accès Afficher ou Modifier à l’objet mis à jour</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Accès à l’affichage de l’objet</p> </td> 
+   <td> <p>Accès Afficher à l’objet</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,7 +83,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Répondre à une mise à jour ou à une réponse dans Workfront
 
-Vous pouvez répondre à un commentaire dans le fil d’un objet que vous pouvez afficher. Vous pouvez également vous connecter en tant qu’administrateur ou administratrice Workfront ou de groupes et répondre à un commentaire au nom d’un autre utilisateur ou d’une autre utilisatrice. Pour plus d’informations, voir [Se connecter en tant qu’un autre utilisateur ou qu’une autre utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Vous pouvez répondre à un commentaire dans le thread d’un objet que vous pouvez afficher ou vous connecter en tant qu’administrateur ou administratrice Workfront ou de groupes et répondre à un commentaire au nom d’un autre utilisateur ou d’une autre utilisatrice. Pour plus d’informations, consultez la section [Se connecter en tant qu’autre utilisateur ou autre utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 ### Répondre à un commentaire
 
@@ -94,24 +94,24 @@ La réponse à un commentaire dans la section Mises à jour d’un objet est sim
 
    Ou
 
-   Sélectionnez l’onglet **Tous**, puis cliquez sur **Répondre dans les commentaires** pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. Vous ne pouvez pas répondre dans l’onglet Tous.
+   Sélectionnez l’onglet Tous, puis cliquez sur Répondre dans les commentaires pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. ******** Vous ne pouvez pas répondre dans l’onglet Tous.
 
-1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur **Citer la réponse**. Le texte de la mise à jour précédente apparaît dans la zone de saisie, marquée d’une ligne grise verticale.
-1. Cliquez sur **Répondre**.
+1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu Plus dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur Citer la réponse. ******** Le texte de la mise à jour précédente apparaît dans la zone de saisie, marqué d’une ligne grise verticale.
+1. Cliquez sur **Répondre**.
 
    ![](assets/reply-to-update-empty-box.png)
 
-   Vous pouvez voir les utilisateurs et les utilisatrices qui participent activement à la conversation en bas de la zone **Ajouter une réponse…** et vous pouvez en ajouter d’autres ou supprimer les personnes qui ne sont plus pertinentes. Ces personnes, ainsi que toutes celles qui sont abonnées à l’objet, reçoivent une notification chaque fois qu’une mise à jour ou une réponse est apportée à l’objet. Vous pouvez également baliser d’autres utilisateurs et utilisatrices pour les inclure dans votre réponse.  Pour baliser davantage d’utilisateurs et d’utilisatrices, consultez la section [Baliser d’autres personnes lors des mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Vous pouvez voir les utilisateurs et les utilisatrices qui participent activement à la conversation en bas de la zone **Ajouter une réponse...** et vous pouvez en ajouter d’autres ou supprimer les personnes qui ne sont plus pertinentes. Ces utilisateurs et utilisatrices, ainsi que toutes les personnes abonnées à l’objet, reçoivent une notification chaque fois qu’une mise à jour ou une réponse est apportée à l’objet. Vous pouvez également taguer d’autres utilisateurs et d’autres utilisatrices pour les inclure dans votre réponse.  Pour taguer davantage d’utilisateurs et d’utilisatrices, consultez la section [Taguer d’autres personnes dans les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    >[!TIP]
    >
-   >   Pour ajouter des réponses supplémentaires à une réponse existante, vous pouvez commencer à saisir du texte dans la zone **Ajouter une réponse ...** ou cliquer sur **Répondre** sur le commentaire original. Votre réponse est ajoutée à la fin du fil de commentaires.
+   >   Pour ajouter des réponses supplémentaires à une réponse existante, vous pouvez commencer à saisir un texte dans la zone **Ajouter une réponse...** ou cliquer sur **Répondre** sur le commentaire original. Votre réponse est ajoutée à la fin du thread.
 
-1. Commencez à saisir votre réponse et utilisez toutes les options supplémentaires de la barre d’outils Texte enrichi. Pour plus d’informations sur l’utilisation du texte enrichi ou d’autres fonctionnalités de mise à jour, consultez la section [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
+1. Commencez à saisir votre réponse et utilisez toutes les options supplémentaires de la barre d’outils de texte enrichi. Pour plus d’informations sur l’utilisation du texte enrichi ou d’autres fonctionnalités de mise à jour, consultez la section [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. Cliquez sur **Soumettre** pour enregistrer la réponse.
 
-1. (Facultatif) Cliquez sur le menu **Plus**![](assets/more-menu.png) dans le coin supérieur droit du commentaire auquel vous souhaitez répondre pour afficher des options supplémentaires. Pour plus d’informations, consultez la section [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire auquel vous souhaitez répondre pour plus d’options de gestion de la réponse. Pour plus d’informations, consultez la section [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
@@ -138,14 +138,14 @@ La réponse à un commentaire dans la section Mises à jour d’un objet est sim
 
 ## Répondre à une mise à jour à partir d’une notification par e-mail
 
-Selon le mode de configuration de vos notifications d’e-mail, vous pouvez recevoir une notification par e-mail lorsqu’une mise à jour est effectuée sur certains objets auxquels vous avez accès.
+Selon le mode de configuration de vos notifications par e-mail, vous pouvez recevoir une notification par e-mail lorsqu’une mise à jour est effectuée sur certains objets auxquels vous avez accès.
 
-Pour répondre à une mise à jour à partir d’une notification par e-mail, procédez de l’une des manières suivantes :
+Vous pouvez répondre à une mise à jour à partir d’une notification par e-mail de la manière suivante :
 
-* Répondez à l’e-mail que vous avez reçu. Votre e-mail de réponse est ajouté en tant que réponse Workfront au commentaire d’origine.
-* Utilisez le bouton Commentaire dans l’e-mail pour revenir à Workfront et répondre à la mise à jour dans la zone Mises à jour.
+* Répondez à l’e-mail que vous recevez. Votre e-mail de réponse est ajouté en tant que réponse Workfront au commentaire d’origine.
+* Utilisez le bouton Commenter dans l’e-mail pour revenir à Workfront et répondre à la mise à jour dans la zone Mises à jour.
 
-Voici un exemple de notification par e-mail déclenchée suite à une mise à jour effectuée dans l’onglet Mises à jour d’une tâche :
+Voici un exemple de notification par e-mail déclenchée suite à une mise à jour effectuée dans l’onglet des mises à jour d’une tâche :
 
 ![email.png](assets/email-350x202.png)
 

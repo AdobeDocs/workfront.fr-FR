@@ -28,29 +28,29 @@ Vous pouvez supprimer un projet dans une liste de projets ou au niveau du projet
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Forfait Adobe Workfront</p> </td> 
-   <td>N’importe quelle</td> 
+   <td> <p>Formule Adobe Workfront</p> </td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td> <p>Licence Adobe Workfront*</p> </td> 
-   <td> <p>Nouvelle licence : standard </p>
+   <td> <p>Nouvelle licence : Standard </p>
    <p>Licence actuelle : plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Configuration du niveau d’accès</td> 
-   <td> <p>Accès en modification aux projets avec la possibilité de créer et de supprimer des projets</p> </td> 
+   <td> <p>Modifier l’accès aux projets avec la possibilité de créer et de supprimer des projets</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p>Accès en modification aux projets, tâches et problèmes avec la possibilité de supprimer des projets, des tâches et des problèmes</p> </td> 
+   <td> <p>Modifier l’accès aux projets, tâches et problèmes avec la possibilité de supprimer des projets, des tâches et des problèmes</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,10 +61,10 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 ## Comprendre le processus de suppression de projets
 
-* [Limites de la suppression de projets](#limitations-for-deleting-projects)
+* [Restrictions relatives à la suppression de projets](#limitations-for-deleting-projects)
 * [Impact de la suppression de projets](#the-impact-of-deleting-projects)
 
-### Limites de la suppression de projets  {#limitations-for-deleting-projects}
+### Limites de suppression de projets  {#limitations-for-deleting-projects}
 
 * Les éléments supprimés seront déplacés vers la Corbeille pendant 30 jours et ne pourront être récupérés que par l’administrateur ou administratrice système.
 
@@ -72,7 +72,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 * Si le projet a des tâches ou des problèmes avec des heures consignées, l’administrateur ou administratrice Workfront ou de groupes doit autoriser la suppression de ces tâches en configurant les préférences de tâches et de problèmes dans votre instance Workfront pour que vous puissiez supprimer le projet qui contient les tâches.
 
-  Pour plus d’informations sur l’activation de la suppression des tâches, problèmes ou projets comportant des heures consignées, voir [Configurer les préférences en matière de tâches et de problèmes à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Pour plus d’informations sur l’activation de la suppression de tâches, de problèmes ou de projets pour lesquels des heures sont consignées, voir la section « Suppression » dans [Configurer les préférences de tâches et de problèmes à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -101,16 +101,16 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
    * Taux de facturation
    * Enregistrements de facturation
 
-     Vous ne pouvez pas supprimer un projet dont le statut est Facturé pour les enregistrements de facturation. Pour plus d’informations, consultez [Créer des enregistrements de facturation](../../projects/project-finances/create-billing-records.md).
+     Vous ne pouvez pas supprimer un projet dont le statut est Facturé pour les enregistrements de facturation. Pour plus d’informations, voir [Créer des enregistrements de facturation](../../projects/project-finances/create-billing-records.md).
 
-* Selon la manière dont votre administrateur ou administratrice Workfront configure les préférences de suppression de projet, tâche ou problème dans les préférences de feuilles de temps et d’heures de votre instance Workfront, les heures consignées pour les tâches, les problèmes ou le projet sont traitées de l’une des manières suivantes lors de la suppression du projet :
+* Selon la manière dont votre administrateur ou administratrice Workfront configure les préférences de suppression de projet, tâche ou problème dans les préférences de feuilles de temps et heures de votre instance Workfront, les heures enregistrées pour les tâches, les problèmes ou le projet sont traitées de l’une des manières suivantes lors de la suppression du projet :
 
    * Les heures restent sur la feuille de temps comme heures générales.
    * Les heures sont supprimées et seront restaurées si le projet est un jour restauré.
 
-  Pour plus d’informations sur la configuration des préférences de suppression des heures consignées sur les problèmes, voir [Configurer les préférences de feuilles de temps et d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Pour plus d’informations sur la configuration des préférences de suppression pour les heures enregistrées relatives aux problèmes, voir [Configurer des préférences de feuille de temps et heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-* Si le projet que vous supprimez est lié à une initiative dans le planificateur de scénarios Workfront, ce qui suit s’applique :
+* Si le projet que vous supprimez est lié à une initiative dans le planificateur de scénarios Workfront :
 
    * L’initiative reste sur le plan, mais le lien vers le projet est supprimé.
    * Si le projet que vous supprimez est lié à la seule initiative publiée d’un plan, l’indication que le plan a été publié est également supprimée.
@@ -120,15 +120,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
      Pour plus d’informations sur les projets liés aux initiatives dans le planificateur de scénarios, voir [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Si le projet est également une activité pour un objectif dans les Objectifs Workfront, ce qui suit s’applique :
+* Si le projet est également une activité pour un objectif dans les Objectifs Workfront :
 
    * Le projet est supprimé de l’objectif. La progression indiquée sur l’objectif par le projet est également supprimée.
 
    * Si vous récupérez le projet supprimé, le projet est également restauré en tant qu’activité de l’objectif.
 
-     Cela nécessite une licence supplémentaire. Pour plus d’informations sur Objectifs Workfront, voir [Vue d’ensemble d’Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     Cela nécessite une licence supplémentaire. Pour plus d’informations sur les Objectifs Workfront, voir [Vue d’ensemble des Objectifs Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     Pour plus d’informations sur l’association de projets à des objectifs, voir [Ajouter des projets aux objectifs dans Objectifs Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     Pour plus d’informations sur l’association de projets à des objectifs, voir [Ajouter des projets aux objectifs dans les Objectifs Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Supprimer un projet dans une liste
 
@@ -144,7 +144,7 @@ Vous pouvez supprimer des projets d’une liste de projets.
 ## Supprimer un projet au niveau du projet
 
 1. Accédez au projet que vous souhaitez supprimer.
-1. Cliquez sur l’icône **Plus** ![](assets/qs-more-menu.png) à droite du nom du projet, puis cliquez sur **Supprimer le projet**.
+1. Cliquez sur l’icôone **Plus** ![](assets/qs-more-menu.png) à droite du nom du projet, puis cliquez sur **Supprimer le projet**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 

@@ -3,42 +3,42 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Modules Archive
-description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez connecter une archive, telle qu’un fichier compressé, à plusieurs applications et services tiers. Vous pouvez, par exemple, configurer un scénario qui
+title: Modules Archive
+description: Dans un scénario  [!DNL Adobe Workfront Fusion] , vous pouvez connecter une archive, comme un fichier compressé, à plusieurs applications et services tiers. Par exemple, vous pouvez configurer un scénario qui fait ce qui suit.
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
 source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
-# [!UICONTROL Archiver] modules
+# Modules d’[!UICONTROL archive]
 
-Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez utiliser une archive, telle qu’un fichier compressé, dans votre scénario, ce qui vous permet de l’utiliser dans vos automatisations ou intégrations.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez utiliser une archive, comme un fichier compressé, dans votre scénario, ce qui vous permet de l’utiliser dans vos automatismes ou vos intégrations.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, consultez la section [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Pour plus d’informations sur les modules, voir [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## Modules [!UICONTROL Archive] et leurs champs
+## Modules d’[!UICONTROL archive] et leurs champs
 
-Lorsque vous configurez les modules [!UICONTROL Archive], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de cela, d’autres champs [!UICONTROL Archive] peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez des modules d’[!UICONTROL archive], [!DNL Workfront Fusion] affiche les champs énumérés ci-dessous. En plus de ces champs, d’autres champs d’[!UICONTROL archive] peuvent s’afficher, en fonction de facteurs tels que votre niveau d’accès à l’application ou au service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mapper des informations d’un module à l’autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 * [[!UICONTROL Extraire une archive]](#extract-an-archive)
 * [[!UICONTROL Créer une archive]](#create-an-archive)
-* [[!UICONTROL Inflate]](#inflate)
-* [[!UICONTROL Deflate]](#deflate)
+* [[!UICONTROL Gonfler]](#inflate)
+* [[!UICONTROL Dégonfler]](#deflate)
 
 ## [!UICONTROL Extraire une archive]
 
-Ce module d’action extrait un fichier que vous identifiez à partir d’une archive.
+Ce module d’action extrait d’une archive un fichier que vous avez identifié.
 
-Le module renvoie l’ID du fichier et tous les champs associés, ainsi que les valeurs et les champs personnalisés auxquels la connexion a accès. Vous pouvez mapper ces informations dans les modules suivants du scénario.
+Le module renvoie l’ID du fichier et tous les champs associés, ainsi que les valeurs et les champs personnalisés auxquels la connexion a accès. Vous pouvez mettre en correspondance ces informations dans les modules suivants du scénario.
 
 <table style="table-layout:auto">
  <col> 
@@ -46,50 +46,50 @@ Le module renvoie l’ID du fichier et tous les champs associés, ainsi que les 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
-   <td> <p> Sélectionnez le fichier à extraire. Ce fichier peut être mappé à partir d’un module précédent (tel que le module [!DNL Workfront] &gt;[!UICONTROL Télécharger un document] ).</p>  </td> 
+   <td> <p> Sélectionnez le fichier à extraire. Ce fichier peut être mappé à partir d’un module précédent (tel que le module [!DNL Workfront] &gt; [!UICONTROL Download a document]).</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!INFO]
 >
->**Exemple :** Obtenez le fichier ZIP du dossier [!DNL Dropbox] défini (par exemple, Archives), extrayez-le à l’aide du module [!UICONTROL Archive] et envoyez les fichiers extraits à l’adresse électronique souhaitée en tant que pièces jointes au module [!UICONTROL Email] ou [!DNL Gmail].
+>**Exemple :** récupérez le fichier ZIP dans le dossier [!DNL Dropbox] défini (par exemple, Archives), extrayez-le à l’aide du module [!UICONTROL Archive] et envoyez les fichiers extraits à l’adresse e-mail souhaitée sous forme de pièces jointes à l’aide du module [!UICONTROL E-mail] ou [!DNL Gmail].
 >
 >![](assets/example-dropbox-350x134.png)
 
 ## [!UICONTROL Créer une archive]
 
-Ce module d&#39;agrégation ajoute les fichiers souhaités à une archive [!UICONTROL ZIP] ou [!UICONTROL TAR].
+Ce module agrégateur ajoute les fichiers souhaités à une archive [!UICONTROL ZIP] ou [!UICONTROL TAR].
 
-Lors de la configuration de ce module, les champs suivants s’affichent.
+Lorsque vous configurez ce module, les champs suivants s’affichent.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Module [!UICONTROL Source]</td> 
+   <td>[!UICONTROL Source module]</td> 
    <td> <p> Sélectionnez le module à partir duquel vous souhaitez récupérer les fichiers.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Type] </td> 
-   <td> <p>Indiquez si vous souhaitez ajouter des fichiers à une archive [!UICONTROL ZIP] ou à une archive [!UICONTROL TAR].</p> </td> 
+   <td> <p>Sélectionnez si vous souhaitez ajouter des fichiers à une archive [!UICONTROL ZIP] ou à une archive [!UICONTROL TAR].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Comment]</td> 
-   <td>Saisissez un commentaire à ajouter à l’archive.</td> 
+   <td>Saisissez un commentaire que vous souhaitez ajouter à l’archive.</td> 
   </tr> 
   <tr> 
-   <td>Groupe [!UICONTROL par]</td> 
-   <td> <p>Définissez une expression selon laquelle vous souhaitez regrouper la sortie agrégée. Cette expression peut contenir un ou plusieurs éléments mappés. Les données agrégées seront ensuite séparées en groupes à l’aide de la valeur de cette expression. Chaque groupe génère un lot distinct avec une clé (l’expression évaluée) et une valeur (le texte agrégé). Vous pouvez utiliser la clé comme filtre dans les modules suivants.</p> </td> 
+   <td>[!UICONTROL Group by]</td> 
+   <td> <p>Définissez une expression selon laquelle vous souhaitez regrouper la sortie agrégée. Cette expression peut contenir un ou plusieurs éléments mappés. Les données agrégées seront ensuite séparées en groupes à l’aide de la valeur de cette expression. Chaque groupe se présente sous la forme d’un lot distinct avec une clé (l’expression évaluée) et une valeur (le texte agrégé). Vous pouvez utiliser la clé comme filtre dans les modules suivants.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Arrêter le traitement après une agrégation vide]</td> 
+   <td>[!UICONTROL Stop processing after an empty aggregation]</td> 
    <td>Sélectionnez cette option pour arrêter le scénario lorsqu’il n’y a aucun résultat.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Nom de l’archive]</td> 
-   <td> <p> Saisissez le nom de l’archive créée. N’ajoutez pas d’extension.</p> </td> 
+   <td>[!UICONTROL Archive name]</td> 
+   <td> <p> Saisissez un nom pour l’archive créée. N’ajoutez pas d’extension.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
@@ -100,13 +100,13 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 >[!INFO]
 >
->**Exemple :** Regardez les emails entrants à l’aide du module [!DNL Gmail] >[!UICONTROL Regarder les emails] . Si un email est reçu, ses pièces jointes sont itérées dans des lots individuels, puis archivées dans le fichier [!DNL ZIP] et enregistrées dans le dossier de Dropbox défini.
+>**Exemple :** surveillez les e-mails entrants à l’aide du module [!DNL Gmail] > [!UICONTROL Surveiller les e-mails]. Si un e-mail est reçu, ses pièces jointes sont itérées en lots individuels, puis archivées dans le fichier [!DNL ZIP] et enregistrées dans le dossier Dropbox défini.
 >
 >![](assets/example-gmail-350x102.png)
 
-## [!UICONTROL Inflate]
+## [!UICONTROL Gonfler]
 
-Ce module du transformateur décompresse les données binaires à l’aide d’un algorithme d’inflation.
+Ce module transformateur décompresse les données binaires à l’aide d’un algorithme d’inflation.
 
 <table style="table-layout:auto">
  <col> 
@@ -119,9 +119,9 @@ Ce module du transformateur décompresse les données binaires à l’aide d’u
  </tbody> 
 </table>
 
-## [!UICONTROL Deflate]
+## [!UICONTROL Dégonfler]
 
-Ce module du transformateur compresse les données binaires à l’aide d’un algorithme de déflation.
+Ce module de transformation compresse les données binaires à l’aide d’un algorithme de déflation.
 
 <table style="table-layout:auto">
  <col> 
@@ -129,7 +129,7 @@ Ce module du transformateur compresse les données binaires à l’aide d’un a
  <tbody> 
   <tr> 
    <td>[!UICONTROL Data] </td> 
-   <td> <p>Saisissez ou mappez les données que vous souhaitez compresser à l’aide de la fonction dégonfler .</p> </td> 
+   <td> <p>Saisissez ou mappez les données que vous souhaitez compresser à l’aide de la fonction dégonfler.</p> </td> 
   </tr> 
  </tbody> 
 </table>

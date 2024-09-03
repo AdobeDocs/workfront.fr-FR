@@ -11,7 +11,7 @@ exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
 source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
 source-wordcount: '2242'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -47,19 +47,19 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Accorder l’accès administratif complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être administrateur ou administratrice d’un groupe dont l’utilisateur est membre.</p> <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> dans un niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. Pour plus d’informations, consultez <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Octroyer un accès d’administration complet à un utilisateur ou une utilisatrice</a>. </p> </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Parmi ces deux options, si l’option <b>Administratrion des utilisateurs et utilisatrices (utilisateurs et utilisatrices du groupe)</b> est activée, vous devez être administrateur ou administratrice de groupes d’un groupe dont l’utilisateur ou l’utilisatrice est membre.</p> <p>Pour plus d’informations sur le paramètre <b>Utilisateurs et utilisatrices</b> d’un niveau d’accès, consultez <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Octroyer un accès aux utilisateurs et utilisatrices</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -90,7 +90,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
      </tr> 
      <tr> 
       <td role="rowheader">Notifications</td> 
-      <td>Sélectionnez les notifications par e-mail qui doivent être activées pour le nouvel utilisateur ou la nouvelle utilisatrice.<p>Vous pouvez sélectionner des notifications instantanées ou une synthèse des notifications quotidienne. Toutes les synthèses de notifications quotidiennes sont envoyées peu après la même heure pour tous les utilisateurs et utilisatrices sélectionnés. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">Configurer les notifications d’événements pour tous les utilisateurs et utilisatrices du système</a>.</p></td> 
+      <td>Sélectionnez les notifications par e-mail qui doivent être activées pour le nouvel utilisateur ou la nouvelle utilisatrice.<p>Vous pouvez sélectionner des notifications instantanées ou une synthèse des notifications quotidienne. Toutes les synthèses de notifications quotidiennes sont envoyées peu après la même heure pour tous les utilisateurs et utilisatrices sélectionnés. Pour plus d’informations, consultez <a href="../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">Configurer les notifications d’événements pour tous les utilisateurs et utilisatrices du système</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Accès</td> 
@@ -102,15 +102,15 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
         </p> 
         <p>Lorsque vous attribuez un niveau d’accès à des utilisateurs et des utilisatrices, vous pouvez attribuer un niveau égal ou inférieur à votre propre niveau d’accès. (Par exemple, si votre niveau d’accès est Planificateur, vous ne pouvez pas attribuer le niveau d’accès Administrateur.) </p>
         <p>Cependant, vous ne pouvez pas attribuer un niveau d’accès inférieur au vôtre si l’administrateur ou l’administratrice Workfront a accordé des autorisations pour le niveau d’accès qui ne sont pas également activées pour le vôtre (via les paramètres d’affinage, comme décrit dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>).</p> 
-        <p>Pour plus d’informations sur les niveaux d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configurer l’accès à Adobe Workfront</a>.</p> 
+        <p>Pour plus d’informations sur les niveaux d’accès, consultez <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configurer l’accès à Adobe Workfront</a>.</p> 
          </li> 
         <li> 
         <p><b>Modèle de disposition</b> : choisissez un modèle de disposition pour les utilisateurs et les utilisatrices. Le modèle de disposition attribué aux utilisateurs et aux utilisatrices est prioritaire sur tout modèle de disposition affecté à leur groupe principal, à leur équipe principale ou à leur fonction principale. Pour plus d’informations sur la priorité d’affectation des modèles de disposition, voir <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Créer et gérer des modèles de disposition</a>.</p> 
-        <p><b>REMARQUE</b> : la liste des modèles de disposition disponibles dans ce champ dépend de votre accès :
+        <p><b>NOTE</b> : la liste des modèles de disposition disponibles dans ce champ dépend de votre accès :
           <ul>
-           <li>En tant qu’administrateur ou administratrice de Workfront, vous pouvez consulter tous les modèles de mise en page au niveau du système et du groupe.</li>
+           <li>En tant qu’administrateur ou administratrice Workfront, vous pouvez consulter tous les modèles de mise en page au niveau du système et du groupe.</li>
            <li>En tant qu’administrateur ou administratrice de groupes, vous pouvez voir les modèles de disposition au niveau du système, ainsi que ceux associés aux groupes que vous gérez.</li>
-           <li><p>Si vous disposez d’une licence Planificateur et d’un accès à la modification des utilisateurs et utilisatrices, vous ne pouvez voir que les modèles de disposition au niveau du système. </p>
+           <li><p>Si vous disposez d’une licence de planification et d’un accès à la modification des utilisateurs et utilisatrices, vous ne pouvez voir que les modèles de disposition au niveau du système. </p>
            <p>Pour plus d’informations sur les modèles de disposition au niveau du groupe, voir <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Créer et gérer des modèles de disposition</a>.</p>
            </li>
           </ul></p> 
@@ -150,7 +150,7 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
    <li>
        <b>Temps de travail</b> : représente le pourcentage du temps équivalent temps plein (FTE) que la personne peut consacrer au travail effectif, hors durée supplémentaire. Le temps de travail doit être un nombre décimal inférieur ou égal à 1 et ne peut pas être égal à 0. Par exemple, une disponibilité de 20 % pour le travail effectif serait de 0,2.
 
-   La valeur par défaut de ce champ est 1, ce qui indique que la personne consacre la totalité de son FTE au travail réel lié au projet.
+   La valeur par défaut de ce champ est 1, ce qui indique que la personne consacre la totalité de son équivalent temps complet au travail réel lié au projet.
 
    Le système utilise ce nombre pour calculer la disponibilité de la personne quant au travail réel lié au projet.
 
@@ -162,28 +162,28 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
    <b>CONSEIL</b>
 
-   Définissez la valeur Temps de travail sur 1 pour indiquer que la personne est disponible pour effectuer le travail lié au projet pendant la totalité de son équivalent temps plein.
+   Définissez la valeur Temps de travail sur 1 pour indiquer que la personne est disponible pour effectuer le travail lié au projet pendant la totalité de son équivalent temps complet.
    </li>
 
    <li><b>Planifier la désactivation</b> : cochez cette case pour programmer la désactivation des personnes après un certain temps.</li> 
        <li><b>Date de désactivation planifiée</b> : date après laquelle les personnes sont désactivées. Pour plus d’informations sur la planification de la désactivation des personnes, voir la section <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Planifier la désactivation des utilisateurs et utilisatrices</a> dans <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactiver ou réactiver un utilisateur ou une utilisatrice</a>.</li> 
        <li> <p><b>Rôle principal</b> : rôle principal de la personne dans Workfront. Par défaut, l’ensemble des tâches et problèmes auxquels les personnes sont affectées sont également affectés à cette fonction. Les fonctions sont essentielles à la gestion des ressources. Pour plus d’informations sur les fonctions, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.</p> <p>Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence Plan avec un accès utilisateur administratif, ou si vous êtes un administrateur ou une administratrice Workfront. Pour plus d’informations sur la configuration des personnes disposant d’un accès administratif, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
-       <li>(Le cas échéant) Si vous avez sélectionné un <b>Rôle principal</b>, le champ <b>Pourcentage de disponibilité FTE</b> s’affiche. Spécifiez le pourcentage de temps affecté à cette fonction dans le planning des utilisateurs et utilisatrices. La valeur par défaut du pourcentage de disponibilité FTE pour le rôle principal est de 100 %.</li> 
-       <li> <p><b>Autres rôles</b> : les utilisateurs et les utilisatrices peuvent exercer plusieurs fonctions dans Workfront. Les fonctions sont essentielles à la gestion des ressources. Une personne peut remplir un nombre illimité de fonctions. Toutefois, nous recommandons de ne pas affecter un nombre excessivement élevé de fonctions à une personne, car la gestion des ressources pourrait devenir trop complexe pour ces personnes.</p> <p>Pour plus d’informations sur les fonctions, voir <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.</p> <p>Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence Plan avec un accès utilisateur administratif, ou si vous êtes un administrateur ou une administratrice Workfront. Pour plus d’informations sur la configuration des personnes disposant d’un accès administratif, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
-       <li> <p>(Facultatif) Si vous avez sélectionné un ou plusieurs <b>Autres rôles</b>, le champ <b>Pourcentage de disponibilité FTE</b> s’affiche pour chaque rôle. Spécifiez le pourcentage de temps affecté à chaque fonction dans le planning des personnes. La valeur par défaut du pourcentage de disponibilité FTE pour les autres rôles est de 0 %.</p> <p><b>REMARQUE</b> :  
+       <li>(Facultatif) Si vous avez sélectionné un <b>Rôle principal</b>, le champ <b>Pourcentage de disponibilité équivalent temps complet</b> s’affiche. Spécifiez le pourcentage de temps affecté à cette fonction dans le planning des utilisateurs et utilisatrices. La valeur par défaut du pourcentage de disponibilité équivalent temps complet pour le rôle principal est de 100 %.</li> 
+       <li> <p><b>Autres rôles</b> : les utilisateurs et les utilisatrices peuvent exercer plusieurs fonctions dans Workfront. Les fonctions sont essentielles à la gestion des ressources. Une personne peut remplir un nombre illimité de fonctions. Toutefois, nous recommandons de ne pas affecter un nombre excessivement élevé de fonctions à une personne, car la gestion des ressources pourrait devenir trop complexe pour ces personnes.</p> <p>Pour plus d’informations sur les fonctions, consultez la section <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.</p> <p>Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence Plan avec un accès utilisateur administratif, ou si vous êtes un administrateur ou une administratrice Workfront. Pour plus d’informations sur la configuration des utilisateurs et utilisatrices disposant d’un accès administratif, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</p> </li> 
+       <li> <p>(Facultatif) Si vous avez sélectionné un ou plusieurs <b>Autres rôles</b>, le champ <b>Pourcentage de disponibilité équivalent temps complet</b> s’affiche pour chaque rôle. Spécifiez le pourcentage de temps affecté à chaque fonction dans le planning des personnes. La valeur par défaut du pourcentage de disponibilité équivalent temps complet pour les autres rôles est de 0 %.</p> <p><b>NOTE</b> :  
        <ul> 
-       <li>si d’autres rôles ont une disponibilité FTE de 0 %, ils ne s’affichent pas dans le planificateur de ressources, sauf si ces rôles comprennent des tâches affectées à la personne.</li> 
-       <li> <p>La somme de tous les pourcentages de disponibilité FTE pour tous les rôles doit être égale à 100 %. Chaque pourcentage de disponibilité FTE calcule les heures disponibles pour chaque rôle par personne dans le planificateur de ressources. Les heures disponibles pour chaque rôle par personne dépendent du temps disponible pour la personne.</p> <p>Le temps disponible pour la personne est calculé par Workfront en fonction de la méthode sélectionnée par l’administration Workfront pour calculer le FTE dans les préférences de gestion des ressources.</p> <p>Pour plus d’informations sur le calcul de la disponibilité de la personne, voir <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Vue d’ensemble du calcul des heures et du FTE pour les personnes et les rôles dans le planificateur de ressources</a>.</p> <p>Pour plus d’informations sur la configuration des préférences de gestion des ressources, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurer les préférences de gestion des ressources</a>.</p> </li> 
+       <li>si d’autres rôles ont une disponibilité équivalent temps complet de 0 %, ils ne s’affichent pas dans le planificateur de ressources, sauf si ces rôles comprennent des tâches affectées à la personne.</li> 
+       <li> <p>La somme de tous les pourcentages de disponibilité équivalent temps complet pour tous les rôles doit être égale à 100 %. Chaque pourcentage de disponibilité équivalent temps complet calcule les heures disponibles pour chaque rôle par personne dans le planificateur de ressources. Les heures disponibles pour chaque rôle par personne dépendent du temps disponible pour la personne.</p> <p>Le temps disponible pour la personne est calculé par Workfront en fonction de la méthode sélectionnée par l’administration Workfront pour calculer l’équivalent temps complet dans les préférences de gestion des ressources.</p> <p>Pour plus d’informations sur le calcul de la disponibilité de la personne, consultez la section <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Vue d’ensemble du calcul des heures et de l’équivalent temps complet pour les personnes et les rôles dans le planificateur de ressources</a>.</p> <p>Pour plus d’informations sur la configuration des préférences de gestion des ressources, consultez la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurer les préférences de gestion des ressources</a>.</p> </li> 
        </ul> </p> </li> 
-       <li> <p><b>Planning</b> : associez un planning pour les utilisateurs et utilisatrices. Le planning des utilisateurs et des utilisatrices calcule la chronologie des tâches auxquelles ces personnes sont affectées.</p> <p>L’administration Workfront ou un administrateur ou une administratrice de groupes doit créer un planning avant de pouvoir l’associer à des personnes.</p> <p>Sélectionnez un planning au niveau du système ou d’un groupe pour l’affecter aux personnes sélectionnées.</p> <p>Pour plus d’informations sur les plannings au niveau du système et du groupe, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>.</p> <p><b>IMPORTANT</b> : Workfront utilise le planning d’une personne uniquement lorsque le paramètre « Calculer la disponibilité des ressources avec » est défini sur « Le planning de la personne ». Pour plus d’informations sur la manière dont le paramètre « Calculer la disponibilité des ressources avec » affecte le planning utilisé pour la gestion des ressources, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurer les préférences de la gestion des ressources</a>.</p> </li> 
+       <li> <p><b>Planning</b> : associez un planning pour les utilisateurs et utilisatrices. Le planning des utilisateurs et des utilisatrices calcule la chronologie des tâches auxquelles ces personnes sont affectées.</p> <p>L’administration Workfront ou un administrateur ou une administratrice de groupes doit créer un planning avant de pouvoir l’associer à des personnes.</p> <p>Sélectionnez un planning au niveau du système ou d’un groupe pour l’affecter aux personnes sélectionnées.</p> <p>Pour plus d’informations sur les plannings au niveau du système et du groupe, consultez la section <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Créer un planning</a>.</p> <p><b>IMPORTANT</b> : Workfront utilise le planning d’une personne uniquement lorsque le paramètre « Calculer la disponibilité des ressources avec » est défini sur « Le planning de la personne ». Pour plus d’informations sur la manière dont le paramètre « Calculer la disponibilité des ressources avec » affecte le planning utilisé pour la gestion des ressources, consultez la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurer les préférences de la gestion des ressources</a>.</p> </li> 
        <li> <p><b>Profil de feuille de temps</b> : associez un profil de feuille de temps aux personnes. Les feuilles de temps sont ainsi générées automatiquement pour les personnes.</p> 
-       <p><b>REMARQUE</b> :  
+       <p><b>NOTE</b> :  
        <ul> 
-       <li>la liste des profils de feuilles de temps disponibles dans ce champ dépend de votre accès :
+       <li>La liste des profils de feuilles de temps disponibles dans ce champ dépend de votre accès :
        <ul>
        <li>En tant qu’administrateur ou administratrice Workfront, vous pouvez voir tous les profils de feuilles de temps au niveau du système et du groupe.</li>
        <li><p>En tant qu’administrateur ou administratrice de groupes, vous pouvez voir les profils de feuille de temps au niveau du système, ainsi que ceux associés aux groupes que vous gérez.</p></li>
-       <li><p>En tant qu’utilisateur ou utilisatrice disposant d’une licence Planificateur et d’un accès à la modification des utilisateurs et des utilisatrices, vous ne pouvez voir que les profils de feuilles de temps au niveau du système.</p></li>
+       <li><p>En tant qu’utilisateur ou utilisatrice disposant d’une licence de planification et d’un accès à la modification des utilisateurs et des utilisatrices, vous ne pouvez voir que les profils de feuille de temps au niveau du système.</p></li>
        </ul></li> 
        <li>Si vous êtes administrateur ou administratrice de groupes, toutes les personnes que vous modifiez doivent être membres d’un groupe que vous gérez.</li> 
        </ul> </p> </li> 
@@ -191,11 +191,11 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
        <li> <p><b>Types d’heures disponibles</b> : sélectionnez les types d’heures qui doivent être disponibles pour la personne. Ces types d’heures sont visibles partout dans Workfront où les personnes peuvent consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne.</p> 
        <p>Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Définition des types d’heures et disponibilité</a>.</p> 
        </li> 
-       <li> <b>FTE</b> : il s’agit de l’équivalent temps plein de la personne. Workfront utilise ce nombre pour calculer la disponibilité de la personne en fonction du planning par défaut uniquement lorsque les préférences de gestion des ressources au niveau du système sont définies sur « Le planning par défaut ».
+       <li> <b>Équivalent temps complet</b> : il s’agit de l’équivalent temps complet de l’utilisateur ou de l’utilisatrice. Workfront utilise ce nombre pour calculer la disponibilité de la personne en fonction du planning par défaut uniquement lorsque les préférences de gestion des ressources au niveau du système sont définies sur « Le planning par défaut ».
 
-   <p>Le FTE indique le temps que la personne peut consacrer au travail. Cela comprend les durées supplémentaires, ainsi que le temps consacré au travail sur les projets. Par exemple, le temps passé en réunion ou en formation est également inclus dans le FTE.</p>
+   <p>L’équivalent temps complet indique le temps que la personne peut consacrer au travail. Cela comprend les durées supplémentaires, ainsi que le temps consacré au travail sur les projets. Par exemple, le temps passé en réunion ou en formation est également inclus dans l’équivalent temps complet.</p>
 
-   Le FTE doit être un nombre décimal inférieur ou égal à 1 et ne peut pas être égal à 0. Par exemple, si la valeur du FTE est de 0,5 et que l’horaire par défaut dans Workfront est de 40 heures, la personne est disponible 20 heures par semaine.
+   L’équivalent temps complet doit être un nombre décimal inférieur ou égal à 1 et ne peut pas être égal à 0. Par exemple, si la valeur de l’équivalent temps complet est de 0,5 et que l’horaire par défaut dans Workfront est de 40 heures, la personne est disponible 20 heures par semaine.
 
    La valeur par défaut de ce champ est 1.
 
@@ -203,15 +203,14 @@ Vous devez disposer des éléments suivants pour effectuer les étapes décrites
 
    Workfront calcule la disponibilité d’une personne en fonction des préférences de gestion des ressources dans votre zone de configuration.
 
-
    Si les préférences de gestion des ressources au niveau du système sont définies sur le planning de la personne, la valeur que vous spécifiez ici est ignorée et la personne est considérée comme étant disponible selon ce qui est spécifié dans son planning.
 
-   Pour plus d’informations, voir <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurer les préférences de gestion des ressources</a>.
+   Pour plus d’informations, consultez la section <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurer les préférences de gestion des ressources</a>.
 
    Pour plus d’informations sur la création de plannings dans Workfront, voir <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Créer un planning</a>.
    </li> 
-       <li> <p><b>Pools de ressources</b> : associez les utilisateurs et utilisatrices aux pools de ressources.</p> <p><b>NOTE</b> : seuls les pools de ressources communs à tous les utilisateurs et utilisatrices sélectionnés apparaissent dans ce champ. Si les utilisateurs et utilisatrices sélectionnés n’ont pas de pools de ressources partagés, ce champ est vide. Si ce champ est vide, les pools de ressources que vous spécifiez ici remplaceront leurs pools de ressources individuels.</p> 
-       <p>Pour plus d’informations sur les pools de ressources, voir <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">Vue d’ensemble des pools de ressources</a>.</p> </li> 
+       <li> <p><b>Groupes de ressources</b> : associez les utilisateurs et utilisatrices aux groupes de ressources.</p> <p><b>NOTE</b> : seuls les groupes de ressources communs à tous les utilisateurs et utilisatrices sélectionnés apparaissent dans ce champ. Si les utilisateurs et utilisatrices sélectionnés n’ont pas de groupes de ressources partagés, ce champ est vide. Si ce champ est vide, les groupes de ressources que vous spécifiez ici remplaceront leurs groupes de ressources individuels.</p> 
+       <p>Pour plus d’informations sur les groupes de ressources, voir <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">Vue d’ensemble des groupes de ressources</a>.</p> </li> 
        <li><b>Coûts par heure</b> : le montant des coûts par heure pour l’utilisateur ou l’utilisatrice. </li> 
        <li><b>Facturation par heure</b> : le montant de la facturation par heure pour l’utilisateur ou l’utilisatrice.</li> 
        <li><b>Formulaires personnalisés</b> : associez un formulaire personnalisé existant aux utilisateurs et utilisatrices. Vous devez créer un formulaire personnalisé avant de pouvoir l’associer à un utilisateur ou une utilisatrice. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations sur la création de formulaires personnalisés, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Concevoir un formulaire avec le concepteur de formulaires</a>.</li> 

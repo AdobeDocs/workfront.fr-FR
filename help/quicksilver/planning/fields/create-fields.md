@@ -26,12 +26,12 @@ ht-degree: 77%
 
 Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour des types d’enregistrements. Vous pouvez ensuite associer les champs à des enregistrements Workfront Planning afin d’améliorer les informations d’enregistrement.
 
-Vous devez créer des types d’enregistrements avant de pouvoir créer des champs à associer à ceux-ci. Pour plus d’informations, voir [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+Vous devez créer des types d’enregistrements avant de pouvoir créer des champs à associer à ceux-ci. Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 Vous pouvez créer des champs de la manière suivante dans la planification Workfront :
 
 * À partir de zéro
-* En connectant des types d’enregistrements
+* En connectant des types d’enregistrement
 * En créant un type d’enregistrement
 * En créant un espace de travail à partir d’un modèle
   <!--* By importing record types using an Excel or CSV file-->
@@ -59,7 +59,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -70,7 +70,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -94,17 +94,17 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations de gestion d’un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’elles n’ont pas créés.</p> </td> 
+   <td>   <p>Autorisations de gestion pour un espace de travail</a> </p>  
+   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modèle de disposition</p></td> 
+   <td role="rowheader"><p>Modèle de mise en page</p></td> 
    <td> <p>Toutes les personnes, y compris les administrateurs et administratrices de Workfront, doivent se voir attribuer un modèle de mise en page incluant la zone Planning dans le menu principal. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -182,11 +182,11 @@ OLD:
 
 1. Cliquez sur la carte d’un type d’enregistrement.
 
-   Tous les enregistrements existants associés au type d’enregistrement s’affichent dans les lignes de la vue du tableau.
+   Tous les enregistrements existants associés au type d’enregistrement s’affichent dans les lignes de la vue Tableau.
 
    >[!TIP]
    >
-   >    Si aucun enregistrement ne s’affiche, il se peut que vous n’ayez encore aucun enregistrement ou qu’un filtre soit appliqué pour limiter ce que vous voyez à l’écran.
+   >    Si aucun enregistrement ne s’affiche, il se peut que vous n’ayez encore aucun enregistrement ou qu’un filtre appliqué limite ce que vous voyez à l’écran.
 
    Tous les champs existants associés au type d&#39;enregistrement s&#39;affichent dans les colonnes de la vue de tableau.
 
@@ -199,7 +199,7 @@ OLD:
    Ou
 
    Pointez sur l’en-tête d’une colonne, cliquez sur la flèche pointant vers le bas située après le nom du champ, puis cliquez sur **Insérer à gauche** ou **Insérer à droite** pour ajouter le nouveau champ.
-1. Dans l’onglet **Nouveau champ**, recherchez un type de champ dans la zone **Type de champ** ou sélectionnez parmi les types de champs suivants :
+1. Dans l’onglet **Nouveau champ**, recherchez un type de champ dans la case **Type de champ** ou effectuez une sélection parmi les types de champ suivants :
 
    * [Texte à une ligne](#single-line-text)
    * [Paragraphe](#paragraph)
@@ -219,21 +219,21 @@ OLD:
 
    >[!IMPORTANT]
    >
-   >    Une fois enregistré, vous ne pouvez pas modifier le type de champ du champ.
+   >    Une fois enregistré, vous ne pouvez pas modifier le type de champ.
 
 1. Poursuivez en ajoutant chaque champ, comme décrit dans les sections ci-dessous.
 
 ### Texte à une ligne {#single-line-text}
 
-Les champs de texte à une ligne capturent des informations alphanumériques limitées. Vous pouvez, par exemple, capturer les informations du ou de la propriétaire, partie prenante, équipe ou entité organisationnelle dans un champ de texte à une ligne. Le contenu d’un champ de texte à une ligne peut contenir jusqu’à 250 caractères. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+Les champs de texte d’une seule ligne capturent des informations alphanumériques limitées. Vous pouvez, par exemple, capturer les informations de la personne propriétaire, des parties prenantes, de l’équipe ou de l’entité organisationnelle dans un champ de texte d’une seule ligne. Le contenu d’un champ de texte d’une seule ligne peut avoir jusqu’à 250 caractères. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Texte à une ligne**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Texte à une ligne**.
 
    ![](assets/single-line-text-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
-   * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez l’en-tête de colonne du champ dans un tableau.
+   * **Nom** : nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous pointez sur l’en-tête de colonne d’un champ dans un tableau.
 1. Cliquez sur **Créer**.
 
    Le nouveau champ d&#39;une seule ligne est ajouté en colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
@@ -241,21 +241,21 @@ Les champs de texte à une ligne capturent des informations alphanumériques lim
 
 ### Paragraphe {#paragraph}
 
-Les champs de paragraphe capturent des informations alphanumériques supplémentaires sur un enregistrement, semblables au champ Description.
+Les champs de paragraphe capturent des informations alphanumériques supplémentaires sur un enregistrement, comme le champ Description.
 
 >[!TIP]
 >
->* Le contenu d’un champ de paragraphe peut contenir jusqu’à 1 000 caractères.
+>* Le contenu d’un champ de paragraphe peut avoir jusqu’à 1 000 caractères.
 >
->* Vous pouvez utiliser la mise en forme Texte enrichi pour améliorer le contenu des champs de paragraphe lorsqu’ils s’affichent dans la vue du tableau ou la page Détails d’un enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+>* Vous pouvez utiliser la mise en forme Texte enrichi pour améliorer le contenu des champs de paragraphe lorsqu’ils s’affichent dans la vue Tableau ou la page Détails d’un enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Paragraphe**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Paragraphe**.
 
    ![](assets/paragraph-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
-   * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nom** : nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
 1. Cliquez sur **Créer**.
 
@@ -266,20 +266,20 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 
 Vous pouvez utiliser un champ à sélection multiple pour capturer des informations supplémentaires dans n’importe quel format en sélectionnant plusieurs options dans un menu déroulant.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Sélection multiple**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection multiple**.
 
    ![](assets/multi-select-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
-   * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nom** : nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
-   * **Choix** : options disponibles pour sélection dans le menu déroulant après l’enregistrement du champ. Vous pouvez avoir des nombres et des lettres pour le nom de chaque choix.
-1. Cliquez sur **Ajouter un choix** pour ajouter autant de choix que nécessaire. Le nombre de choix que vous pouvez ajouter à un champ à sélection multiple n’est pas limité.
+   * **Choix** : options disponibles pour la sélection dans le menu déroulant après l’enregistrement du champ. Vous pouvez avoir des nombres et des lettres pour le nom de chaque choix.
+1. Cliquez sur **Ajouter un choix** pour ajouter autant de choix que nécessaire. Le nombre de choix que vous pouvez ajouter à un champ à sélection multiple est illimité.
 1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option
    **Trier les choix dans l’ordre alphabétique** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatif) Pour supprimer un choix, cliquez sur l’icône **x** située à droite.
-1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleur et personnaliser la couleur de chaque option.
+1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleurs et personnaliser la couleur de chaque option.
 1. Cliquez sur **Créer**.
 
    Le nouveau champ à sélection multiple est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
@@ -288,29 +288,29 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
 Les champs à sélection unique capturent des informations supplémentaires dans n’importe quel format en sélectionnant une option dans un menu déroulant.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Sélection unique**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection simple**.
 
    ![](assets/single-select-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
-   * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nom** : nom du type de champ, tel qu’il apparaîtra dans un tableau ou dans la page Détails de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
-   * **Choix** : options disponibles pour sélection dans le menu déroulant après l’enregistrement du champ. Vous pouvez avoir des nombres et des lettres pour le nom de chaque choix.
+   * **Choix** : options disponibles pour la sélection dans le menu déroulant après l’enregistrement du champ. Vous pouvez avoir des nombres et des lettres pour le nom de chaque choix.
 
 1. Cliquez sur **Ajouter un choix** pour ajouter autant de choix que nécessaire. Le nombre de choix que vous pouvez ajouter à un champ à sélection unique n’est pas limité.
-1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option **Trier les choix dans l’ordre alphabétique** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (Facultatif) Faites glisser et déposez manuellement chaque choix dans l’ordre souhaité, ou sélectionnez l’option **Trier les choix de A-Z** si vous souhaitez que les choix soient automatiquement répertoriés dans l’ordre alphabétique. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Facultatif) Pour supprimer un choix, cliquez sur l’icône **x** située à droite.
-1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleur et personnaliser la couleur de chaque option.
+1. Cliquez sur l’échantillon de couleur à gauche d’un choix pour développer le sélecteur de couleurs et personnaliser la couleur de chaque option.
 1. Cliquez sur **Créer**.
 
    Le nouveau champ à sélection unique est ajouté en tant que colonne au type d&#39;enregistrement et ses valeurs peuvent être associées à des enregistrements.
 
 ### Date {#date}
 
-Vous pouvez utiliser un champ date pour capturer des informations supplémentaires au format de date et d’heure.
+Vous pouvez utiliser un champ de date pour capturer des informations supplémentaires au format date et heure.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Date**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Date**.
 
    ![](assets/date-field-type.png)
 
@@ -321,12 +321,12 @@ Vous pouvez utiliser un champ date pour capturer des informations supplémentair
    * **Format de date** : type de format de date à afficher dans ce champ. <!--update this casing - submitted bug for it-->
 
      Sélectionnez l’un des formats suivants :
-      * **Paramètre local** : correspond aux paramètre local de votre navigateur.
+      * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
       * **Standard** : 05/16/2023
       * **Long** : 16 mai 2023
       * **Européen** : 16/05/2023
       * **ISO** : 2023-05-16
-   * **Inclure un champ horaire** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--update this setting name - submitted bug for it to be changed-->
+   * **Inclure un champ de l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--update this setting name - submitted bug for it to be changed-->
 
      Sélectionnez l’une des options suivantes :
 
@@ -339,9 +339,9 @@ Vous pouvez utiliser un champ date pour capturer des informations supplémentair
 
 ### Nombre {#number}
 
-Les types de champs Nombre capturent des informations au format numérique.
+Les types de champ Nombre capturent les informations au format numérique.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Nombre**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Nombre**.
 
    ![](assets/number-field-type.png)
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -349,7 +349,7 @@ Les types de champs Nombre capturent des informations au format numérique.
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
    * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
-   * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les nombres négatifs dans ce champ. Cette option est désélectionnée par défaut.
+   * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les nombres négatifs dans ce champ. Cette option n’est pas sélectionnée par défaut.
 
    >[!NOTE]
    >
@@ -361,9 +361,9 @@ Les types de champs Nombre capturent des informations au format numérique.
 
 ### Pourcentage {#percentage}
 
-Les types de champs Pourcentage capturent des informations au format numérique, suivies d’un signe de pourcentage.
+Les types de champ en pourcentage capturent les informations au format numérique, suivis d’un signe de pourcentage.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Pourcentage**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Pourcentage**.
 
    ![](assets/percentage-field-type.png)
 
@@ -371,7 +371,7 @@ Les types de champs Pourcentage capturent des informations au format numérique,
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
    * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
-   * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les valeurs en pourcentage négatives dans ce champ. Cette option est désélectionnée par défaut.
+   * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les valeurs en pourcentage négatif dans ce champ. Cette option n’est pas sélectionnée par défaut.
 
    >[!NOTE]
    >
@@ -383,18 +383,18 @@ Les types de champs Pourcentage capturent des informations au format numérique,
 
 ### Devise {#currency}
 
-Les types de champs Devise capturent des informations au format numérique, précédées d’un symbole de devise.
+Les types de champ de devise capturent les informations dans un format numérique précédé d’un symbole monétaire.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Devise**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Devise**.
 
    ![](assets/currency-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom**: nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
-   * **Devise** : type de devise que vous souhaitez afficher dans ce champ. Il s’agit d’une liste de devises selon l’Organisation internationale de normalisation (ISO).
+   * **Devise** : type de devise à afficher dans ce champ. Il s’agit d’une liste de devises selon l’Organisation internationale de normalisation (ISO).
    * **Précision** : nombre de décimales que vous souhaitez enregistrer pour le champ. Vous pouvez afficher jusqu’à 6 décimales.
-   * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les valeurs de devise négatives dans ce champ. Cette option est désélectionnée par défaut.
+   * **Autoriser les nombres négatifs** : sélectionnez cette option si vous souhaitez autoriser les valeurs de devise négatives dans ce champ. Cette option n’est pas sélectionnée par défaut.
 
    >[!NOTE]
    >
@@ -406,9 +406,9 @@ Les types de champs Devise capturent des informations au format numérique, pré
 
 ### Case à cocher
 
-Vous pouvez utiliser le type de champ Case à cocher pour ajouter une option à case à cocher unique à un enregistrement. Vous pouvez utiliser ce champ pour indiquer un attribut ou un statut spécifique pour cet enregistrement. Par exemple, vous pouvez l’utiliser en tant qu’indicateur pour le suivi de l’achèvement, de l’approbation ou de tout autre attribut binaire pour chaque enregistrement.
+Vous pouvez utiliser le type de champ Case à cocher pour ajouter une seule option de case à cocher à un enregistrement. Vous pouvez utiliser ce champ pour indiquer un attribut ou un statut spécifique pour cet enregistrement particulier. Vous pouvez l’utiliser, par exemple, comme indicateur pour suivre l’achèvement, l’approbation ou tout autre attribut binaire de chaque enregistrement.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Case à cocher**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Case à cocher**.
 
    ![](assets/checkbox-field-type.png)
 
@@ -421,21 +421,21 @@ Vous pouvez utiliser le type de champ Case à cocher pour ajouter une option à 
 
 ### Formule
 
-Les champs Formule génèrent une nouvelle valeur en utilisant les valeurs existantes d’autres champs d’un type d’enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
+Les champs de type formule génèrent une nouvelle valeur en utilisant des valeurs existantes provenant d’autres champs d’un type d’enregistrement et une fonction qui indique comment les valeurs existantes doivent être calculées.
 
-Pour plus d’informations, voir [Vue d’ensemble des champs Formule](/help/quicksilver/planning/fields/formula-fields.md).
+Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/quicksilver/planning/fields/formula-fields.md).
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Formule**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Formule**.
 
    ![](assets/new-formula-field-with-list-of-expressions.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
 
-   * **Nom** : saisissez un nom pour le nouveau champ.
+   * **Nom** : saisissez le nom du nouveau champ.
    * **Description** : ajoutez des informations sur le nouveau champ.
    * **Formule** : commencez à saisir au moins un caractère pour accéder à une expression, puis sélectionnez-la lorsqu’elle s’affiche dans la liste.
 
-1. Cliquez sur l’expression sélectionnée pour montrer la définition et afficher sa mise en forme.
+1. Cliquez sur l’expression sélectionnée pour afficher la définition et afficher sa mise en forme.
 
    ![](assets/description-of-formula-expression.png)
 
@@ -445,7 +445,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs Formule](/help/qui
 
    >[!NOTE]
    >
-   >* Vous ne pouvez pas ajouter de champs de type multi-sélection dans une formule.
+   >* Vous ne pouvez pas ajouter de champs de type Sélection multiple dans une formule.
    >
    >* Vous pouvez référencer un champ situé à 4 niveaux au maximum du type d’enregistrement actif. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité et que l’activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le budget du projet dans la formule que vous créez pour le type d’enregistrement Activité .
 
@@ -477,16 +477,16 @@ Pour plus d’informations, voir [Vue d’ensemble des champs Formule](/help/qui
 
 ### Personnes
 
-Vous pouvez utiliser le type de champ Personnes pour ajouter une <!--, job role, or team--> d’un utilisateur ou d’une utilisatrice à un enregistrement. Il s’agit d’un champ de type anticipé, et vous pouvez ajouter uniquement les utilisateurs<!--, roles, or teams--> qui existent déjà dans votre instance Workfront.
+Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur ou une utilisatrice<!--, job role, or team--> à un enregistrement. Il s’agit d’un champ de type anticipé, et vous pouvez ajouter uniquement les utilisateurs<!--, roles, or teams--> qui existent déjà dans votre instance Workfront.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Personnes**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Personnes**.
 
    ![](assets/people-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du type de champ, tel qu’il apparaît dans un tableau ou la page de l’enregistrement.
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
-   * **Autoriser plusieurs valeurs** : sélectionnez cette option si vous souhaitez permettre aux utilisateurs et utilisatrices d’ajouter plusieurs personnes dans ce champ. Cette option est désélectionnée par défaut.
+   * **Autoriser plusieurs valeurs** : sélectionnez cette option si vous souhaitez permettre aux personnes d’ajouter plusieurs utilisateurs et utilisatrices dans ce champ. Cette option n’est pas sélectionnée par défaut.
 
    >[!NOTE]
    >
@@ -500,7 +500,7 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter une <!--, job role,
 
 Vous pouvez utiliser le type de champ Créé par pour ajouter à un enregistrement la personne qui a créé l’enregistrement. Il s’agit d’un champ en lecture seule qui s’affiche automatiquement avec le nom de la personne connectée lors de la création de l’enregistrement.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Créé par**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Créé par**.
 
    ![](assets/created-by-field-type.png)
 
@@ -511,14 +511,14 @@ Vous pouvez utiliser le type de champ Créé par pour ajouter à un enregistreme
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ « Créé par » est ajouté en tant que colonne au type d’enregistrement et ses valeurs sont préremplies avec le nom de la personne qui a créé chaque enregistrement.
+   Le nouveau champ de type Créé par est ajouté en tant que colonne au type d’enregistrement et ses valeurs sont préremplies avec le nom de la personne qui a créé chaque enregistrement.
 
 
 ### Date de création
 
-Vous pouvez utiliser le type de champ Date de création pour ajouter à un enregistrement la date à laquelle l’enregistrement a été créé. Il s’agit d’un champ en lecture seule qui est automatiquement renseigné avec la date (et éventuellement l’heure) de création de l’enregistrement.
+Vous pouvez utiliser le type de champ Date de création pour ajouter à un enregistrement la date à laquelle l’enregistrement a été créé. Il s’agit d’un champ en lecture seule qui est automatiquement renseigné avec la date (et éventuellement avec l’heure) de création de l’enregistrement.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Date de création**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Date de création**.
 
    ![](assets/created-date-field-type.png)
 
@@ -530,12 +530,12 @@ Vous pouvez utiliser le type de champ Date de création pour ajouter à un enreg
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
    * **Format de date** : sélectionnez l’un des formats suivants :
 
-      * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
+      * **Paramètre local** : correspond au paramètre local de votre navigateur.
       * **Standard** : 05/16/2023
       * **Long** : 16 mai 2023
       * **Européen** : 16/05/2023
       * **ISO** : 2023-05-16
-   * **Inclure un champ horaire** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--submitted a UI text change for this - check the UI-->
+   * **Inclure un champ de l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--submitted a UI text change for this - check the UI-->
 
      Sélectionnez l’une des options suivantes :
 
@@ -549,9 +549,9 @@ Vous pouvez utiliser le type de champ Date de création pour ajouter à un enreg
 
 ### Dernière modification par
 
-Vous pouvez utiliser le type de champ Dernière modification par pour ajouter à un enregistrement la personne qui a modifié l’enregistrement pour la dernière fois. Il s’agit d’un champ en lecture seule qui s’affiche automatiquement avec le nom de la personne connectée lors de la dernière mise à jour de l’enregistrement.
+Vous pouvez utiliser le champ Dernière modification par type pour ajouter à un enregistrement la personne qui a modifié l’enregistrement pour la dernière fois. Il s’agit d’un champ en lecture seule qui se remplit automatiquement avec le nom de la personne connectée lors de la dernière mise à jour de l’enregistrement.
 
-1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Dernière modification par**.
+1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Dernière modification par**.
 
    ![](assets/last-modified-by-field-type.png)
 
@@ -562,12 +562,12 @@ Vous pouvez utiliser le type de champ Dernière modification par pour ajouter à
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ de type Dernière modification par est ajouté en tant que colonne au type d’enregistrement et ses valeurs sont préremplies avec le nom de la personne qui a modifié chaque enregistrement pour la dernière fois.
+   Le nouveau champ de type Dernière modification par est ajouté en colonne au type d’enregistrement et ses valeurs sont préremplies avec le nom de la personne qui a modifié chaque enregistrement pour la dernière fois.
 
 
 ### Date de dernière modification
 
-Vous pouvez utiliser le type de champ Date de dernière modification pour ajouter à un enregistrement la date de dernière modification d’un enregistrement. Il s’agit d’un champ en lecture seule qui s’affiche automatiquement avec la date (et éventuellement l’heure) de la dernière modification de l’enregistrement.
+Vous pouvez utiliser le type de champ Date de dernière modification pour ajouter à un enregistrement la date de dernière modification d’un enregistrement. Il s’agit d’un champ en lecture seule qui s’affiche automatiquement avec la date (et éventuellement avec l’heure) de la dernière modification de l’enregistrement.
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) de cet article, puis sélectionnez le type de champ **Date de création**.
 
@@ -581,12 +581,12 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
    * **Description** : informations complémentaires sur le champ. La description d’un champ s’affiche lorsque vous survolez la colonne du champ dans un tableau.
    * **Format de date** : sélectionnez l’un des formats suivants :
 
-      * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
+      * **Paramètre local** : correspond au paramètre local de votre navigateur.
       * **Standard** : 05/16/2023
       * **Long** : 16 mai 2023
       * **Européen** : 16/05/2023
       * **ISO** : 2023-05-16
-   * **Inclure un champ horaire** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--submitted a UI text change for this - check the UI-->
+   * **Inclure un champ de l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. <!--submitted a UI text change for this - check the UI-->
 
      Sélectionnez l’une des options suivantes :
 
@@ -595,7 +595,7 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
 
 1. Cliquez sur **Créer**.
 
-   Le nouveau champ de type Date de dernière modification est ajouté en tant que colonne au type d’enregistrement et ses valeurs sont préremplies avec la date (ou la date et l’heure) de la dernière modification de l’enregistrement.
+   Le nouveau champ de type Date de la dernière modification est ajouté en tant que colonne au type d’enregistrement et ses valeurs sont préremplies avec la date (ou la date et l’heure) de la dernière modification de l’enregistrement.
 
 ## Créer des champs en connectant des types d’enregistrement
 

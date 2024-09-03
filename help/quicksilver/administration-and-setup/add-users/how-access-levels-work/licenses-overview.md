@@ -3,9 +3,9 @@ title: Présentation des nouvelles licences
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: license, type
+keywords: licence,type
 navigation-topic: access-levels
-description: Votre entreprise a acheté un certain nombre de licences lors de son acquisition d’Adobe Workfront. En tant qu’administrateur ou administratrice Workfront, vous attribuez l’un des trois types de nouvelles licences Workfront à chaque personne lorsque vous lui attribuez un niveau d’accès.
+description: Votre entreprise a acheté un certain nombre de licences lors de l’acquisition d’Adobe Workfront. En tant qu’administrateur ou administratrice Workfront, vous donnez l’un des 3 types de nouvelles licences Workfront à chaque personne l’utilisant dès que vous lui affectez un niveau d’accès.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -27,35 +27,35 @@ Votre entreprise a acheté un certain nombre de licences lors de son acquisition
 
 Les deux types de nouvelles licences Workfront permettent différents niveaux d’accès à Workfront. Chaque niveau d’accès est associé à l’une de ces licences.
 
-Au lieu d’attribuer une licence à une personne, vous lui attribuez le niveau d’accès associé à cette licence.
+Au lieu d’attribuer une licence à un utilisateur ou à une utilisatrice, vous lui accordez le niveau d’accès associé à cette licence.
 
-Ce tableau et ce diagramme présentent les principaux niveaux d’accès à Workfront :
+Ce tableau et ce diagramme montrent les principaux niveaux d’accès à Workfront :
 
 | Licence | Niveau d’accès associé |
 |--- |--- |
-| Standard | Administration système, standard |
+| Standard | Administration système, Standard |
 | Léger | Léger |
 | Contributeur | Contributeur |
 | Externe* | Utilisateur ou utilisatrice externe |
 
 >[!NOTE]
 >
->La licence externe n’est pas une licence payante. Elle est principalement conçue pour partager des documents avec des personnes qui n’utilisent pas Workfront. Pour plus d’informations, voir [Vue d’ensemble des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>La licence Externe n’est pas une licence payante. Elle est conçue principalement pour partager des documents avec des personnes qui n’utilisent pas Workfront. Pour plus d’informations, consultez la section [Vue d’ensemble des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
-## Comment une licence définit un niveau d’accès
+## Comment une licence définit un niveau d’accès.
 
-La licence associée à un niveau d’accès détermine la portée globale des fonctionnalités disponibles dans le niveau d’accès.
+La licence associée à un niveau d’accès détermine l’étendue globale des fonctionnalités disponibles dans ce niveau d’accès.
 
-Vous pouvez copier un niveau d’accès par défaut et personnaliser la copie selon vos besoins pour vos utilisateurs et utilisatrices. Dans le cadre des fonctionnalités autorisées par la licence pour le niveau d’accès copié, vous pouvez ajuster les paramètres d’accès pour répondre aux besoins de l’utilisateur ou de l’utilisatrice.
+Vous pouvez copier un niveau d’accès par défaut et personnaliser la copie en fonction des besoins de vos utilisateurs et de vos utilisatrices. Dans le cadre des fonctionnalités autorisées par la licence pour le niveau d’accès copié, vous pouvez ajuster les paramètres d’accès pour répondre aux besoins de l’utilisateur ou de l’utilisatrice.
 
-Pour plus d’informations, voir [Vue d’ensemble des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) et [Créer ou modifier les niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Pour plus d’informations, consultez les sections [Vue d’ensemble des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) et [Créer ou modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Nombre de licences
 
-Lorsque vous attribuez un niveau d’accès à une personne, le nombre de licences disponibles diminue de 1.
+Lorsque vous accordez un niveau d’accès à un utilisateur ou à une utilisatrice, le nombre de licences disponibles est réduit d’1.
 
-Par exemple, si vous attribuez le niveau d’accès standard à une personne, votre nombre de licences standard disponibles diminue de 1.
+Par exemple, si vous attribuez le niveau d’accès Standard à un utilisateur ou à une utilisatrice, le nombre de licences Standard disponibles est réduit d’1.
 
-Vous pouvez afficher les licences et les niveaux d’accès attribués à vos utilisateurs et utilisatrices. Pour plus d’informations, voir [Répertorier les niveaux d’accès et les licences des utilisateurs et utilisatrices](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+Vous pouvez consulter les licences et les niveaux d’accès affectés à vos utilisateurs et à vos utilisatrices. Pour plus d’informations, consultez la section [Liste des niveaux d’accès et des licences de vos utilisateurs et de vos utilisatrices](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Pour plus d’informations sur la gestion de vos licences, voir [Gérer les licences disponibles dans votre système](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Pour plus d’informations sur la gestion de vos licences, consultez la section [Gérer les licences disponibles dans votre système](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

@@ -1,6 +1,6 @@
 ---
 title: Suppression d’enregistrements
-description: Vous pouvez supprimer les enregistrements que vous ou un autre utilisateur ou une autre utilisatrice avez créés. Vous ne pouvez pas récupérer des enregistrements supprimés.
+description: Vous pouvez supprimer des enregistrements que vous ou une autre personne avez créés. Vous ne pouvez pas récupérer les enregistrements supprimés.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -41,7 +41,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -52,7 +52,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -76,8 +76,8 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations Contribuer ou supérieures pour à un espace de travail</a> </p>  
-   <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> </td> 
+   <td>   <p>Autorisations de contribution ou de niveau supérieur pour un espace de travail</a> </p>  
+   <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modèle de disposition</p></td> 
@@ -86,7 +86,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -153,12 +153,12 @@ OLD
 
 -->
 
-## Considérations relatives à la suppression d’enregistrements
+## Considérations sur la suppression des enregistrements
 
-* Vous pouvez supprimer les enregistrements que vous ou un autre utilisateur ou une autre utilisatrice avez créés.
-* Vous ne pouvez pas récupérer des enregistrements supprimés. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
-* Si les enregistrements supprimés sont liés à d&#39;autres enregistrements, les enregistrements liés ne sont pas supprimés, mais les informations de l’enregistrement supprimé sont également supprimées.
-* Vous ne pouvez pas supprimer des enregistrements en masse. <!--this will probably change-->
+* Vous pouvez supprimer des enregistrements que vous ou une autre personne avez créés.
+* Vous ne pouvez pas récupérer les enregistrements supprimés.<!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* Lorsque des enregistrements supprimés sont liés à d’autres enregistrements, ces enregistrements liés restent intacts, bien que les informations de l’enregistrement supprimé soient éliminées.
+* Vous ne pouvez pas supprimer des enregistrements en masse.<!--this will probably change-->
 * Vous ne pouvez pas supprimer des enregistrements à partir de la vue de chronologie.
 
 ## Supprimer des enregistrements
@@ -176,13 +176,13 @@ Vous pouvez supprimer un enregistrement à partir des zones suivantes :
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
    La page du type d’enregistrement s’ouvre.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Dans une vue de tableau, cliquez sur le nom d’un enregistrement.
-   * Dans la vue de tableau, pointez sur le nom d’un enregistrement, cliquez sur le menu **Plus** ![](assets/more-menu.png), puis sur **Afficher**.
+   * À partir d’une vue en tableau, cliquez sur le nom d’un enregistrement.
+   * Dans la vue en tableau, pointez sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** ![](assets/more-menu.png), puis sur **Vue**.
 
      ![](assets/contextual-menu-for-record-row.png)
    * Dans une vue de chronologie, cliquez sur une barre d’un enregistrement.
@@ -192,9 +192,9 @@ Vous pouvez supprimer un enregistrement à partir des zones suivantes :
 1. Cliquez sur le menu **Plus** ![](assets/more-menu.png) à droite du nom de l’enregistrement, cliquez sur **Supprimer**, puis à nouveau sur **Supprimer** pour confirmer.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-L’enregistrement est supprimé et ne peut pas être récupéré.
+L’enregistrement est supprimé et ne peut être récupéré.
 
-### Supprimer un enregistrement à partir de la vue de tableau de type d’enregistrement
+### Supprimer un enregistrement de la vue en tableau d’un type enregistrement
 
 {{step1-to-planning}}
 
@@ -202,9 +202,9 @@ L’enregistrement est supprimé et ne peut pas être récupéré.
 
    L’espace de travail s’ouvre et les types d’enregistrement s’affichent sous forme de cartes.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-   La page du type d’enregistrement s’ouvre.
+   La page de type d’enregistrement s’ouvre.
 1. (Conditionnel) Dans le menu déroulant **Afficher** situé dans le coin supérieur gauche du tableau, sélectionnez une vue de tableau. Il s’agit de la vue par défaut, sauf si vous avez visualisé le type d’enregistrement dans la vue Chronologique lors de votre dernier accès.
 
    Les enregistrements associés au type d’enregistrement sélectionné s’affichent dans la vue Tableau.
@@ -221,5 +221,5 @@ L’enregistrement est supprimé et ne peut pas être récupéré.
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir la suppression d’un enregistrement :
 
-   * Ctrl+Z (⌘+Z pour Mac) pour annuler une modification
-   * Ctrl+Maj+Z (⌘+Maj+Z pour Mac) pour rétablir une modification
+   * CTRL + Z (⌘ + Z pour Mac) pour annuler une modification
+   * CTRL + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir une modification

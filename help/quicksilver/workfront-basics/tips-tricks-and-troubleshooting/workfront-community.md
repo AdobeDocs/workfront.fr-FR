@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Communauté  [!DNL Adobe Workfront]
-description: La communauté Adobe  [!DNL Workfront]  est un groupe en ligne de plus de 10 000 utilisateurs et utilisatrices  [!DNL Workfront] . Grâce à cette communauté, vous vous tenez à jour sur les versions de produits, découvrez les événements clientes et clients et échangez avec d’autres personnes sur les produits et services  [!DNL Workfront] . Vous trouvez ainsi des réponses à vos questions et établissez des liens avec d’autres personnes clientes de  [!DNL Workfront] .
+description: La communauté Adobe  [!DNL Workfront]  est un groupe en ligne de plus de 10 000 utilisateurs et utilisatrices  [!DNL Workfront] . Grâce à cette communauté, vous vous tenez à jour sur les versions de produits, découvrez les événements clients et échangez avec d’autres personnes sur les produits et services  [!DNL Workfront] . Vous trouvez ainsi des réponses à vos questions et établissez des liens avec d’autres personnes clientes de  [!DNL Workfront] .
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
 source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Communauté [!DNL Adobe Workfront]
 
-La communauté Adobe [!DNL Workfront] est un groupe en ligne de plus de 10 000 utilisateurs et utilisatrices [!DNL Workfront]. Grâce à cette communauté, vous vous tenez à jour sur les versions de produits, découvrez les événements clientes et clients et échangez avec d’autres personnes sur les produits et services [!DNL Workfront]. Vous trouvez ainsi des réponses à vos questions et établissez des liens avec d’autres personnes clientes de [!DNL Workfront].
+La communauté Adobe [!DNL Workfront] est un groupe en ligne de plus de 10 000 utilisateurs et utilisatrices [!DNL Workfront]. Grâce à cette communauté, vous vous tenez à jour sur les versions de produits, découvrez les événements clients et échangez avec d’autres personnes sur les produits et services [!DNL Workfront]. Vous trouvez ainsi des réponses à vos questions et établissez des liens avec d’autres personnes clientes de [!DNL Workfront].
 
 <!--
 <img src="assets/screen-shot-2018-09-06-at-11.38.27-am-350x112.png" alt="Screen_Shot_2018-09-06_at_11.38.27_AM.png" style="width: 350;height: 112;" data-mc-conditions="QuicksilverOrClassic.Draft mode">

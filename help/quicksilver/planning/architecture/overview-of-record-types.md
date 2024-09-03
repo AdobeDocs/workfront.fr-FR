@@ -35,7 +35,7 @@ Pour plus d’informations sur la création de types d’enregistrement, voir [C
 
 * Lorsque vous créez un type d’enregistrement dans un espace de travail que vous avez entièrement créé, vous pouvez le placer dans n’importe quelle section que vous créez dans l’espace de travail.
 * Lorsque vous créez un type d’enregistrement, seuls vous et les personnes que vous autorisez à accéder à l’espace de travail pouvez afficher le type d’enregistrement.
-* Vous devez créer un espace de travail avant de pouvoir créer des types d’enregistrement pour l’espace de travail.
+* Vous devez créer un espace de travail avant de pouvoir créer des types d’enregistrement pour cet espace de travail.
 * Pour connaître les limites concernant le nombre de types d’enregistrement que vous pouvez avoir dans un espace de travail ou une instance Workfront, consultez la [présentation des limites des objets Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
 

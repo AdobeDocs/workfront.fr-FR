@@ -2,22 +2,22 @@
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Modification de l’ordre des articles sur le Scrum Board
-description: L’ordre dans lequel les articles apparaissent sur le panorama n’indique pas la priorité. Cependant, cela peut affecter la priorité perçue en rendant les articles plus visibles. Par défaut, les articles s’affichent par ordre alphabétique dans chaque colonne [!UICONTROL status] du tableau de bord.
+description: L’ordre dans lequel les histoires apparaissent sur le storyboard n’est pas lié à leur priorité. Cependant, cela peut affecter la priorité perçue en rendant les histoires plus visibles. Par défaut, les histoires s’affichent par ordre alphabétique dans chaque colonne [!UICONTROL Statut] sur le storyboard.
 author: Lisa
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
 source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 14%
+ht-degree: 97%
 
 ---
 
-# Modifier l’ordre des articles sur le panorama [!UICONTROL Scrum]
+# Modifier l’ordre des histoires sur le panorama [!UICONTROL Scrum]
 
-L’ordre dans lequel les articles apparaissent sur le panorama n’indique pas la priorité. Cependant, cela peut affecter la priorité perçue en rendant les articles plus visibles. Par défaut, les articles s’affichent par ordre alphabétique dans chaque colonne d’état du tableau de bord. (Les histoires avec couloirs sont affichées en haut de l&#39;échiquier, et les histoires sans couloirs sont affichées séparément sous n&#39;importe quel couloir.)
+L’ordre dans lequel les histoires apparaissent sur le storyboard n’est pas lié à leur priorité. Cependant, cela peut affecter la priorité perçue en rendant les histoires plus visibles. Par défaut, les histoires s’affichent par ordre alphabétique dans chaque colonne Statut du storyboard. (Les histoires avec couloirs sont affichées en haut du storyboard, et les histoires sans couloir sont affichées séparément sous n’importe quel couloir.)
 
-Lorsque vous réorganisez des colonnes sur le tableau de bord, toutes les modifications que vous apportez sont enregistrées dans l’itération ou le projet. Les modifications sont donc conservées la prochaine fois que vous ou un autre utilisateur le consultera. (Les modifications que vous effectuez ne sont pas annulées lors de l’effacement du cache du navigateur.)
+Lorsque vous réorganisez des colonnes sur le storyboard, toutes les modifications que vous apportez sont enregistrées dans l’itération ou le projet. Les modifications sont donc conservées lors de la prochaine consultation par vous ou une autre personne. (Les modifications que vous effectuez ne sont pas annulées lors de l’effacement du cache du navigateur.)
 
 ## Conditions d’accès
 
@@ -29,32 +29,32 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
    ou
-   <p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
+   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Modifier l’ordre des articles dans une itération
+## Modifier l’ordre des histoires dans une itération
 
 {{step1-to-team}}
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
-1. Accédez à l’itération ou au projet qui contient les articles que vous souhaitez réorganiser.
-1. Faites glisser une carte d’article ou un couloir vers l’emplacement vertical souhaité dans une colonne d’état du panorama d’articles.
+1. Accédez à l’itération ou au projet qui contient les histoires que vous souhaitez réorganiser.
+1. Faites glisser la carte d’une histoire ou un couloir vers l’emplacement vertical souhaité dans une colonne de statut du storyboard.
 
-## Modification de l’ordre des articles dans un projet
+## Modifier l’ordre des histoires dans un projet
 
-Contrairement aux itérations agiles, vous ne pouvez pas modifier l’ordre des narrations lors de l’affichage d’un projet dans une vue agile. Pour modifier l’ordre des articles d’un projet, vous devez afficher le projet dans une vue standard.
+Contrairement aux itérations Agile, vous ne pouvez pas modifier l’ordre des histoires lors de l’affichage d’un projet dans une vue Agile. Pour modifier l’ordre des histoires d’un projet, vous devez afficher le projet dans une vue standard.
 
-Pour plus d’informations sur la façon de modifier la vue du projet, voir [[!UICONTROL Gérer un projet] dans la [!UICONTROL vue Agile]](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Au lieu de sélectionner une vue agile, sélectionnez une vue standard.
+Pour savoir comment modifier l’affichage du projet, voir [[!UICONTROL Gérer un projet] en [!UICONTROL vue ]Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Au lieu de sélectionner une vue Agile, sélectionnez une vue standard.

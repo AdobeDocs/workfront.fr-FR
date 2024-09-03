@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
 title: "Gestion utilisateur : index de l’article"
-description: Vous pouvez ajouter des personnes dans Adobe Workfront en créant des utilisateurs et utilisatrices individuels à partir de zéro ou en copiant des personnes existantes.
+description: Vous pouvez ajouter des personnes dans Adobe Workfront en créant des utilisateurs individuels et utilisatrices individuelles à partir de zéro ou en copiant des personnes existantes.
 author: Lisa
 feature: System Setup and Administration
 role: Admin

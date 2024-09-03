@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Les règles de routage contrôlent ce qu’Adobe Workfront fait des problèmes lorsqu’ils sont soumis à une file d’attente des demandes. Pour plus d’informations sur la création de files d’attente des demandes, voir [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Les règles de routage envoient les problèmes aux personnes ou aux fonctions spécifiques les mieux équipées pour résoudre la demande ou le problème soumis. Les règles de routage sont généralement associées à des rubriques de file d’attente, qui sont utilisées pour contrôler la règle de routage qui sera appliquée au problème ou à la demande.
+Les règles de routage envoient les problèmes aux personnes ou aux fonctions spécifiques les mieux équipées pour résoudre le problème ou la demande soumis. Les règles de routage sont généralement associées à des rubriques de file d’attente, qui sont utilisées pour contrôler la règle de routage qui sera appliquée au problème ou à la demande.
 
 ## Conditions d’accès
 
@@ -57,26 +57,26 @@ Les règles de routage envoient les problèmes aux personnes ou aux fonctions sp
 </table>
 -->
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-    <p>Nouvelle : standard</p>
+    <p>Nouveau : Standard</p>
     <p>ou</p>
-    <p>Actuelle : formule</p></td> 
+    <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td>
-   <td> <p>Modifier l’accès aux projets</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td>
+   <td> <p>Accès en modification aux projets</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -85,14 +85,14 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Créer une règle de routage
 
 1. Accédez au projet dans lequel vous souhaitez ajouter les règles de routage pour vos demandes.
-1. Cliquez sur Règles de routage dans le panneau de gauche. **** Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Règles de routage**.
+1. Cliquez sur **Règles de routage** dans le panneau de gauche. Vous devrez peut-être cliquer sur **Afficher plus**, puis sur **Règles de routage**.
 1. Cliquez sur **Nouvelle règle de routage** pour ajouter la nouvelle règle.
 1. Saisissez les informations suivantes pour la règle de routage :
 
@@ -141,8 +141,8 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 1. Cliquer sur **Enregistrer**.
 
-   Ce processus ne définit que la règle de routage. Pour garantir que le problème est acheminé lorsqu’il est soumise à la file d’attente des demandes, vous devez sélectionner la règle de routage dans l’onglet **Détails de la file d’attente** sous **Route par défaut**.
+   Ce processus ne définit que la règle de routage. Pour garantir que le problème est acheminé lorsqu’il est soumise à la file d’attente, vous devez sélectionner la règle de transmission dans l’onglet **Détails de la file d’attente** sous **Route par défaut**.
 
-   Pour plus d’informations sur l’ajout d’une route par défaut à une file d’attente des demandes, voir [Créer une file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Pour plus d’informations sur l’ajout d’une route par défaut à une file d’attente, voir [Créer une file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-   Si vous souhaitez associer plusieurs règles de routage à la file d’attente, vous devez créer plusieurs rubriques de file d’attente et associer chacune d’elles à une règle de routage distincte. Pour plus d’informations sur la création d’une rubrique de file d’attente, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Si vous souhaitez associer plusieurs règles de transmission à la file d’attente, vous devez créer plusieurs rubriques de file d’attente et associer chacune d’elles à une règle de transmission distincte. Pour plus d’informations sur la création d’une rubrique de file d’attente, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

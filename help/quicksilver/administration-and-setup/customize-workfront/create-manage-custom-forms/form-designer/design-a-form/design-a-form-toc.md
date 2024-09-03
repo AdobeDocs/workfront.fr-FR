@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: Vous pouvez concevoir un formulaire personnalisé que les utilisateurs peuvent joindre à un objet Workfront. Les utilisateurs et utilisatrices qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
+description: Vous pouvez concevoir un formulaire personnalisé que les utilisateurs et les utilisatrices peuvent joindre à un objet Workfront. Les utilisateurs et utilisatrices qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -13,7 +13,7 @@ exl-id: 091edfd8-8b69-4a56-9dae-ec73828a3f64
 source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 34%
+ht-degree: 49%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 34%
 
 Cette section contient les articles suivants :
 
-* [Concevoir un formulaire avec le créateur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+* [Concevoir un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 * [Conception d’un formulaire à partir d’une copie](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
 * [Ajouter des champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 * [Ajouter une logique d’affichage et ignorer la logique dans un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)

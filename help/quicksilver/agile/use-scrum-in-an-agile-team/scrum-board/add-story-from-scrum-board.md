@@ -2,24 +2,24 @@
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Ajout d’articles et de problèmes à partir du panorama de défilement
-description: Vous pouvez rapidement créer un article ou un problème directement à partir du panneau de défilement, ou ajouter un article ou un problème existant à partir du panneau.
+description: Vous pouvez rapidement créer une histoire ou un problème directement à partir du panorama Scrum, ou ajouter une histoire existante ou un problème existant à partir du panorama.
 author: Lisa
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
 source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 15%
+ht-degree: 98%
 
 ---
 
-# Ajout d’articles et de problèmes sur le panorama [!UICONTROL Scrum]
+# Ajouter des histoires et des problèmes à partir du panorama [!UICONTROL Scrum]
 
-Vous pouvez rapidement créer un article ou un problème directement à partir du panneau de défilement, ou ajouter un article ou un problème existant à partir du panneau.
+Vous pouvez rapidement créer une histoire ou un problème directement à partir du panorama Scrum, ou ajouter une histoire existante ou un problème existant à partir du panorama.
 
 >[!NOTE]
 >
->L’élément de travail [!UICONTROL Date de début planifiée] et [!UICONTROL Date d’achèvement planifiée] sont affectés par un paramètre sur la page [!UICONTROL Modifier l’équipe]. Pour plus d’informations, reportez-vous à la section [[!UICONTROL Configuration] de la manière dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans l’article [Configurer le scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>La [!UICONTROL Date de début planifiée] et la [!UICONTROL Date d’achèvement prévue] de l’élément de travail sont affectées par un paramètre de la page [!UICONTROL Modifier l’équipe]. Pour plus d’informations, voir la section [[!UICONTROL Configurer] l’application des dates lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans l’article [Configurer Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Conditions d’accès
 
@@ -31,38 +31,38 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
    ou
-   <p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
+   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>[!UICONTROL Gérer] Accès au projet sur lequel se trouve la tâche ou le problème </td> 
+   <td>Accès [!UICONTROL Manage] au projet sur lequel se trouve la tâche ou le problème. </td> 
   </tr>
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Création d’un article ou d’un problème à partir du panorama Scrum
+## Créer une histoire ou un problème à partir du panorama Scrum
 
 {{step1-to-team}}
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
-1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour choisir une itération spécifique ou **[!UICONTROL Itération actuelle]**.
-1. Cliquez sur **[!UICONTROL Ajouter]** sur le côté droit de la carte de flux et sélectionnez **[!UICONTROL Nouvelle histoire]** ou **[!UICONTROL Nouveau problème]**.
-1. Dans la boîte de dialogue **[!UICONTROL New]** , ajoutez les informations suivantes :
+1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour sélectionner une itération spécifique, ou sélectionnez **[!UICONTROL Itération actuelle]**.
+1. Cliquez sur **[!UICONTROL Ajouter]** sur le côté droit du panneau Scrum et sélectionnez **[!UICONTROL Nouvelle histoire]** ou **[!UICONTROL Nouveau problème]**.
+1. Dans la boîte de dialogue **[!UICONTROL Nouveau]**, ajoutez les informations suivantes :
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Name]</strong></td>
-        <td>(Obligatoire) Nom de l’article ou du problème.</td>
+        <td>(Obligatoire) Nom de l’histoire ou du problème.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Description]</strong></td>
@@ -74,18 +74,18 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
     </tr>
     <tr>
         <td><strong>[!UICONTROL Parent Project]</strong></td>
-        <td>(Obligatoire) Projet dans lequel le nouvel article ou problème est stocké. Commencez à saisir le nom d’un projet, puis sélectionnez-le lorsqu’il s’affiche dans la liste.</td>
+        <td>(Obligatoire) Projet dans lequel la nouvelle histoire ou le nouveau problème sera stocké(e). Commencez à saisir le nom d’un projet, puis sélectionnez-le lorsqu’il s’affiche dans la liste.</td>
     </tr>
    </table>
 
-1. Cliquez sur **[!UICONTROL Ajouter un article]** ou **[!UICONTROL Ajouter un problème]**.
+1. Cliquez sur **[!UICONTROL Ajouter un histoire]** ou **[!UICONTROL Ajouter un problème]**.
 
-## Ajoutez un article ou un problème existant à partir du panorama [!UICONTROL Scrum]
+## Ajouter une histoire existante ou un problème existant à partir du panorama [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
 1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe Scrum dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
-1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour choisir une itération spécifique ou **[!UICONTROL Itération actuelle]**.
-1. Cliquez sur **[!UICONTROL Ajouter]** sur le côté droit de la carte Scrum et sélectionnez **[!UICONTROL Article existant]** ou **[!UICONTROL Problème existant]**.
-1. Dans la boîte de dialogue **[!UICONTROL Ajouter un article existant depuis le journal]**, commencez à saisir le nom d’un article ou d’un problème, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
-1. Cliquez sur **[!UICONTROL Ajouter un article]** ou **[!UICONTROL Ajouter un problème]**.
+1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Itérations]** pour sélectionner une itération spécifique, ou sélectionnez **[!UICONTROL Itération actuelle]**.
+1. Cliquez sur **[!UICONTROL Ajouter]** sur le côté droit du panorama Scrum et sélectionnez **[!UICONTROL Histoire existante]** ou **[!UICONTROL Problème existant]**.
+1. Dans la boîte de dialogue **[!UICONTROL Ajouter un élément existant depuis la liste d’attente]**, commencez à saisir le nom d’une histoire ou d’un problème, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+1. Cliquez sur **[!UICONTROL Ajouter une histoire]** ou **[!UICONTROL Ajouter un problème]**.

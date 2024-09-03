@@ -10,17 +10,17 @@ exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # Format des messages sortants pour les abonnements aux événements
 
-Avec la version 2017.3 d’Adobe Workfront, le format des messages sortants pour les abonnements aux événements va changer afin d’améliorer les performances et d’optimiser l’utilisation des abonnements aux événements pour vos intégrations.
+Avec la version 2017.3 d’Adobe Workfront, le format des messages sortants pour les abonnements aux événements va changer afin d’améliorer les performances et d’optimiser l’utilisation des abonnements aux événements pour vos intégrations.
 
 ## Mises à jour du format du message sortant
 
-Les modifications suivantes seront apportées au format du message sortant :
+Les modifications suivantes seront apportées au format du message sortant :
 
 * Les messages sortants comprennent les éléments oldState et newState pour une ressource Workfront.
 
@@ -28,18 +28,18 @@ Les modifications suivantes seront apportées au format du message sortant :
 
 * Le champ de métadonnées eventTime sera ajouté à tous les messages sortants.
 
-  Ce champ indique, en Nanoseconds et EpochSeconds, l’heure à laquelle un événement s’est produit. Utilisez eventTime lors de la commande d’événements traités par votre intégration.
+  Ce champ indique, en Nanoseconds et EpochSeconds, l’heure à laquelle un événement s’est produit. Utilisez eventTime lors de la mise en ordre d’événements traités par votre intégration.
 
-* Le champ propriétaire:companyID référencé sur la ressource REMARQUE sera supprimé.
+* Le champ propriétaire:companyID référencé sur la ressource NOTE sera supprimé.
 * L’objet référencé currentVersion de la ressource DOCU (document) est supprimé.
 
-Si vous utilisez actuellement les abonnements aux événements Workfront, vous devrez mettre à jour vos intégrations Workfront avant la version 2017.3 pour tenir compte de ces modifications.
+Si vous utilisez actuellement les abonnements aux événements Workfront, vous devrez mettre à jour vos intégrations Workfront avant la version 2017.3 pour tenir compte de ces modifications.
 
 Pour en savoir plus sur les abonnements aux événements, voir [API d’abonnement à un événement](../../wf-api/general/event-subs-api.md).
 
 ## Exemples de formats de message anciens et nouveaux
 
-L’ancien message CREATE suivant ne sera plus utilisé après la version 2017.3 :
+L’ancien format CREATE message suivant ne sera plus utilisé après la version 2017.3 :
 
 ```
 {
@@ -73,7 +73,7 @@ L’ancien message CREATE suivant ne sera plus utilisé après la version 2017.3
 }
 ```
 
-Le nouveau format suivant CREATE message sera utilisé après la version 2017.3 :
+Le nouveau format CREATE message suivant sera utilisé après la version 2017.3 :
 
 ```
 {
@@ -111,7 +111,7 @@ Le nouveau format suivant CREATE message sera utilisé après la version 2017.3 
    "oldState": {}
 ```
 
-L’ancien message UPDATE suivant ne sera plus utilisé après la publication de la version 2017.3 :
+L’ancien format UPDATE message suivant ne sera plus utilisé après la publication de la version 2017.3 :
 
 ```
 {
@@ -147,7 +147,7 @@ L’ancien message UPDATE suivant ne sera plus utilisé après la publication de
  }
 ```
 
-Le nouveau message UPDATE suivant sera utilisé après la version 2017.3 :
+Le nouveau format UPDATE message suivant sera utilisé après la version 2017.3 :
 
 ```
 {

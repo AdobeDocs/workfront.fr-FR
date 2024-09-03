@@ -2,31 +2,31 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Présentation de la contrainte de tâche : dès que possible"
-description: Dès que possible, une contrainte de tâche place l’heure de début de la tâche aussi près que possible du début du projet.
+title: '« Vue d’ensemble des contraintes de tâche : Aussi tôt que possible »'
+description: Aussi tôt que possible est une contrainte de tâche qui place l’heure de début de la tâche aussi près que possible du début du projet.
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble des contraintes de tâches : Aussi Tôt Que Possible
+# Vue d’ensemble des contraintes de tâche : Aussi tôt que possible
 
-Dès que possible, une contrainte de tâche place l’heure de début de la tâche aussi près que possible du début du projet.
+Aussi tôt que possible est une contrainte de tâche qui place l’heure de début de la tâche aussi près que possible du début du projet.
 
-## Observations relatives à l’utilisation de la contrainte Dès que possible
+## Remarques relatives à l’utilisation de la contrainte Aussi tôt que possible
 
-* Dès que possible, la contrainte par défaut est définie si un projet utilise un mode de planification de la planification à partir de la date de début et si la date de début par défaut du système pour une nouvelle tâche est définie sur Basé sur la date planifiée du projet.
+* Aussi tôt que possible est la contrainte par défaut si un projet utilise un mode de planification à partir de la date de début et si la date de début par défaut du système pour une nouvelle tâche est définie sur Basée sur la date prévue du projet.
 
-* Si un projet utilise un mode de planification de Planification à partir de la date de début et si la date de début par défaut du système ou du groupe d’une nouvelle tâche est définie sur Aujourd’hui, alors la contrainte de tâche par défaut est Début au plus tôt.
+* Si un projet utilise un mode de planification à partir de la date de début et si la date de début par défaut du système ou du groupe pour une nouvelle tâche est définie sur Aujourd’hui, alors la contrainte de tâche par défaut est Commencer au plus tôt.
 
-  Pour plus d’informations sur l’emplacement où définir la contrainte par défaut pour une nouvelle tâche, reportez-vous à la section [Configuration de la tâche à l’échelle du système et préférences de publication](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Pour plus d’informations sur l’emplacement où définir la contrainte par défaut pour une nouvelle tâche, consultez la section [Configurer des préférences de tâche et de problème à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Pour plus d’informations sur la mise à jour de la contrainte de tâche sur une tâche, voir [Mise à jour de la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Pour plus d’informations sur la mise à jour d’une contrainte de tâche, voir [Mettre à jour la contrainte de tâche d’une tâche](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -42,24 +42,24 @@ Pour plus d’informations sur la mise à jour de la contrainte de tâche sur un
 </div>
 -->
 
-## Différence entre le plus tôt temps disponible et le plus tôt possible
+## Différence entre Première heure disponible et Aussi tôt que possible
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
 -->
 
-La contrainte Heure disponible la plus ancienne diffère de la contrainte Dès que possible lorsque tous les critères suivants existent :
+La contrainte Première heure disponible diffère de la contrainte Aussi tôt que possible lorsque tous les critères suivants sont remplis :
 
 * Le projet est planifié à partir de la fin.
-* Les tâches du projet ont une relation de prédécesseur.
-* La tâche du prédécesseur présente une contrainte de tâche flexible.
+* Les tâches du projet ont une relation de tâche antérieure.
+* La tâche antérieure a une contrainte de tâche flexible.
 
-Dans ce cas :
+Dans ce cas :
 
-* **Temps disponible le plus tôt :** L’utilisation de la contrainte Temps disponible le plus tôt sur la tâche qui lui succède donne la priorité à la contrainte flexible du prédécesseur.
+* **Première heure disponible :** l’utilisation de la contrainte Première heure disponible sur la tâche ultérieure donne la priorité à la contrainte flexible de la tâche antérieure.
 
-  Supposons, par exemple, que la tâche A soit un prédécesseur de la tâche B. La tâche B a la contrainte Temps disponible la plus ancienne et la tâche A la contrainte Aussi tardive que possible. Dans ce cas, la tâche est planifiée aussi près que possible de la fin du projet.
+  Supposons, par exemple, que la tâche A soit antérieure à la tâche B. La tâche B a la contrainte Première heure disponible et la tâche A la contrainte Aussi tard que possible. Dans ce cas, la tâche est planifiée aussi près que possible de l’achèvement du projet.
 
-* **Dès que possible :** Dans ce scénario, l’utilisation de la contrainte Dès que possible sur la tâche qui lui succède donne la priorité à la tâche qui lui succède.
+* **Aussi tôt que possible :** dans ce scénario, l’utilisation de la contrainte Aussi tôt que possible sur la tâche ultérieure lui donne la priorité.
 
-  Supposons, par exemple, que la tâche A soit un prédécesseur de la tâche B. La tâche B a la contrainte Dès que possible et la tâche A la contrainte Aussi tardive que possible. Dans ce cas, la tâche est planifiée aussi près que possible du début du projet.
+  Supposons, par exemple, que la tâche A soit antérieure à la tâche B. La tâche B a la contrainte Aussi tôt que possible et la tâche A la contrainte Aussi tard que possible. Dans ce cas, la tâche est planifiée aussi près que possible du début du projet.

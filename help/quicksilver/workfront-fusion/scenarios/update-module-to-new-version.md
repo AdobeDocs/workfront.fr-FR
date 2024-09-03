@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Mise à jour d’un module vers une nouvelle version dans un scénario  [!DNL Adobe Workfront Fusion]
+title: Mettre à jour un module vers une nouvelle version dans un scenario  [!DNL Adobe Workfront Fusion]
 description: Comme les applications auxquelles Workfront Fusion se connecte peuvent mettre à jour ou publier une nouvelle version, il est parfois nécessaire que Fusion publie des modules mis à jour pour ces applications.
 author: Becky
 feature: Workfront Fusion
@@ -10,7 +10,7 @@ exl-id: 1475a247-47eb-4fe3-98dc-50df242167e7
 source-git-commit: c846fab08113f30431def6321a9d31aea1bb642d
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 

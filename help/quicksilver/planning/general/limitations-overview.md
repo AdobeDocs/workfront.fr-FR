@@ -32,11 +32,11 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Nombre d’enregistrements d’un type d’enregistrement | 25 000 |
 | Nombre d&#39;enregistrements pour un espace de travail | 25 000 pour les clients ayant une planification <br> 500 000 pour les clients ayant une planification plus |
 | Nombre total d’enregistrements pour une instance de la planification Workfront | 500 000 pour les clients ayant le plan de planification <br>2 millions pour les clients ayant le plan Plus |
-| Nombre de champs d’un type d’enregistrement ou d’une taxonomie | 500 |
-| Nombre de caractères d’un champ de texte | 1 000 caractères |
-| Taille de fichier que vous pouvez coller dans un tableau de type enregistrement | 1 Mo |
-| Taille de fichier que vous pouvez importer via l’API pour un tableau de type enregistrement | 1,5 Mo |
-| Taux auquel les demandes d’API peuvent être effectuées | 200 demandes par minute |
+| Nombre de champs pour un type d’enregistrement ou une taxonomie | 500 |
+| Nombre de caractères pour un champ de texte | 1 000 caractères |
+| Taille du fichier que vous pouvez coller dans un tableau de type d’enregistrement | 1 Mo |
+| Taille du fichier que vous pouvez importer via l’API pour un tableau de type d’enregistrement | 1,5 Mo |
+| Vitesse à laquelle les demandes d’API peuvent être effectuées | 200 demandes par minute |
 | Nombre de vues qu’un utilisateur peut créer pour un type d’enregistrement | 100 |
 
 *Nous vous recommandons de ne pas avoir trop d’espaces de travail, car ils peuvent devenir difficiles à gérer et vos workflows peuvent être trop fragmentés.

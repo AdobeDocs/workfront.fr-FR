@@ -1,21 +1,21 @@
 ---
-title: Améliorations apportées aux administrateurs au quatrième trimestre 2024
-description: Améliorations apportées aux administrateurs au quatrième trimestre 2024
+title: Améliorations apportées à l’administration du quatrième trimestre 2024
+description: Améliorations apportées à l’administration du quatrième trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 4%
+ht-degree: 23%
 
 ---
 
-# Améliorations apportées aux administrateurs au quatrième trimestre 2024
+# Améliorations apportées à l’administration du quatrième trimestre 2024
 
-Cette page décrit toutes les améliorations apportées à l’administrateur à la version du quatrième trimestre 2024 de l’environnement Aperçu. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
+Cette page décrit toutes les améliorations apportées à l’administration dans l’environnement de prévisualisation par la version du quatrième trimestre 2024. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2024, consultez la [présentation de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Pour une liste de tous les changements disponibles à ce stade du cycle de publication de la version du quatrième trimestre 2024, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Restauration des packages de promotion d’environnement
 

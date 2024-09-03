@@ -22,8 +22,7 @@ Vous pouvez partager une vue avec d’autres personnes pour travailler en collab
 
 >[!IMPORTANT]
 >
->* L’octroi d’autorisations à un espace de travail ne donne pas à d’autres personnes les autorisations d’accès aux vues sur les pages de type enregistrement. Vous devez accorder des autorisations pour des vues individuelles dans une page de type d’enregistrement afin de les partager avec d’autres personnes.
-
+>* L’octroi d’autorisations à un espace de travail ne donne pas à d’autres personnes les autorisations d’accès aux vues sur les pages de type enregistrement. Vous devez accorder des autorisations pour des vues individuelles dans une page de type enregistrement afin de les partager avec d’autres personnes.
 >
 >* L’octroi d’autorisations à une vue ne modifie pas les autorisations d’affichage des enregistrements. Les autorisations d’enregistrement sont accordées par le partage des espaces de travail.
 >
@@ -61,7 +60,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
    <li><p> Planification d’Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Formule Adobe Workfront*</p></td> 
    <td> 
 <p>L’un des projets Workfront suivants est prévu :</p> 
 <ul><li>Sélectionner</li> 
@@ -72,7 +71,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 <tr> 
    <td role="rowheader"><p>Formule de planification Adobe Workfront*</p></td> 
    <td> 
-<p>N’importe quelle </p> 
+<p>Tous </p> 
 <p>Pour plus d’informations sur les éléments inclus dans chaque plan de planification Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Prix et package Adobe Workfront</a>. </p> 
    </td> 
  <tr> 
@@ -96,7 +95,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>  <p>Autorisations de gestion d’une vue</p>  
+   <td>  <p>Gérer les autorisations pour une vue</p>  
    <p>Seuls les utilisateurs disposant des autorisations Manage (Gérer) pour un espace de travail peuvent partager une vue publiquement.</p></td> 
   </tr> 
 <tr> 
@@ -106,7 +105,7 @@ Pour pouvoir accéder à Workfront Planning, vous devez disposer des éléments 
 </tbody> 
 </table>
 
-* Pour plus d’informations sur les exigences d’accès à Workfront, consultez les [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour plus d’informations sur les exigences d’accès à Workfront, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--OLD: 
 
@@ -207,7 +206,7 @@ Vous pouvez partager des vues que vous avez créées ou des vues auxquelles vous
    * **Seules les personnes invitées peuvent accéder à** : vous devez spécifier les utilisateurs ou les groupes avec lesquels vous souhaitez partager la vue. Il s’agit de l’option par défaut.
    * **Tous les utilisateurs de l’espace de travail peuvent afficher** : tous les utilisateurs disposant d’autorisations d’affichage ou supérieures sur les espaces de travail peuvent accéder à la vue.
 
-1. Dans le champ **Accorder l’accès à la vue à**, commencez à saisir le nom d’une personne ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. Dans le champ **Accorder l’accès à la vue à**, commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, ou d’un groupe, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -219,7 +218,7 @@ Vous pouvez partager des vues que vous avez créées ou des vues auxquelles vous
 
      Les administrateurs système reçoivent toujours les autorisations Gérer pour les vues partagées avec eux.
 
-1. Cliquez sur **Copier le lien** pour copier un lien vers la vue dans le presse-papiers.
+1. Cliquez sur **Copier le lien** pour copier un lien vers la vue dans votre presse-papiers.
 1. Cliquer sur **Enregistrer**.
 
    La vue se met à jour avec une icône de personnes ![](assets/view-shared-with-others-people-icon.png) pour indiquer que la vue est désormais partagée avec d’autres utilisateurs.
@@ -228,7 +227,7 @@ Vous pouvez partager des vues que vous avez créées ou des vues auxquelles vous
    >
    >Les vues sans personne ou icône globale sont des vues que vous avez créées et que vous ne partagez pas avec d’autres personnes. Les vues non partagées ne sont visibles que par vous.
 
-1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à la page du type d’enregistrement et l’afficher dans la vue sélectionnée.
+1. Partagez le lien copié avec d’autres personnes. Les utilisateurs et utilisatrices qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à la page du type d’enregistrement et l’afficher dans la vue sélectionnée.
 
 ## Partage des autorisations sur une vue publique
 
@@ -282,7 +281,7 @@ Les utilisateurs qui accèdent à un lien vers une vue pour laquelle ils ne disp
 
    * Une notification in-app
      ![](assets/in-app-notification-for-access-request-for-view.png)
-   * Une notification électronique
+   * Notification par e-mail
      ![](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app.
 Ou
@@ -296,11 +295,11 @@ Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications
 
    Si vous avez approuvé la requête, les utilisateurs sont ajoutés à la boîte de partage de la vue. L’utilisateur qui demande l’autorisation reçoit une confirmation par email que sa demande a été approuvée. <!--will they also get an in-app notification??-->
 
-## Supprimer des autorisations d’une vue
+## Supprimer les autorisations pour une vue
 
 {{step1-to-planning}}
 
-1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage, puis cliquez sur une carte de type enregistrement. La page du type d’enregistrement s’affiche.
+1. Ouvrez l’espace de travail dont vous souhaitez arrêter le partage, puis cliquez sur une carte de type enregistrement. Cela ouvre la page du type d’enregistrement.
 1. Passez la souris sur le nom de l’onglet de la vue à partir de laquelle vous souhaitez supprimer le partage et cliquez sur le menu **Plus** ![](assets/more-menu.png), puis cliquez sur **Partager**.
 1. Pour supprimer le partage interne d’une vue, procédez comme suit :
 

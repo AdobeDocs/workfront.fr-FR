@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: Bon à tirer d’un PowerPoint avec une vidéo incorporée
+title: Relire un PowerPoint avec une vidéo incorporée
 description: Vous pouvez vérifier un BAT pour un PowerPoint avec une vidéo incorporée à l’aide de la visionneuse de vérification de l’appli de bureau.
 author: Courtney
 feature: Digital Content and Documents
@@ -10,11 +10,11 @@ exl-id: b648e273-8062-492d-91b0-2333da095fc5
 source-git-commit: c1ff2136b6f1d4425ef3380615c7da0e0150834c
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Bon à tirer d’un PowerPoint avec une vidéo incorporée
+# Relire un PowerPoint avec une vidéo incorporée
 
 Vous pouvez vérifier un BAT pour un PowerPoint avec une vidéo incorporée à l’aide de la visionneuse de vérification de l’appli de bureau.
 

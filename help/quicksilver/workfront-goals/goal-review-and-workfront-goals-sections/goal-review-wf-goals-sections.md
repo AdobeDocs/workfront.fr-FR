@@ -2,8 +2,8 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Réviser les objectifs et les sections d’Objectifs Adobe Workfront
-description: Dans les articles suivants, vous trouverez des informations sur la révision des objectifs et sur les sections dans lesquelles vous pouvez gérer les objectifs dans Adobe Workfront.
+title: Révision des objectifs et sections d’Objectifs Adobe Workfront
+description: Dans les articles suivants, vous trouverez des informations sur la révision des objectifs et sur les sections dans lesquelles vous pouvez gérer les objectifs dans Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 ---
 
-# Réviser les objectifs et les sections d’Objectifs Adobe Workfront
+# Révision des objectifs et sections d’Objectifs Adobe Workfront
 
 >[!IMPORTANT]
 >
@@ -31,11 +31,11 @@ ht-degree: 93%
 >
 >Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
 > 
->Pour plus d’informations sur l’accès à Objectifs Workfront, voir [Conditions requises pour utiliser Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Pour plus d’informations sur l’accès aux Objectifs Workfront, voir la section [Conditions requises pour utiliser les Objectifs Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Cette section contient les articles suivants :
 
-* [Vue d’ensemble des sections d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
-* [Gérer les objectifs dans la liste des objectifs d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
-* [Mettre à jour la progression des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [Réviser des graphiques pour comprendre les tendances de progression des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
+* [Vue d’ensemble des sections d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
+* [Gérer les objectifs dans la liste des objectifs d’Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
+* [Mettre à jour la progression des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [Examiner les graphiques pour comprendre les tendances de la progression des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)

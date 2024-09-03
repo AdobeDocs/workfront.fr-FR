@@ -12,7 +12,7 @@ exl-id: 899641a0-a104-4be9-b423-34a32e985b53
 source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -37,7 +37,7 @@ Fusion AI peut actuellement générer des modules qui se connectent aux applicat
 * Graphique Microsoft
 * Adobe Maestro
 * Adobe Analytics
-* Services Adobe PDF
+* Services Adobe PDF
 * Adobe Marketo
 * Adobe de Frame.io
 * Dropbox

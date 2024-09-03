@@ -3,105 +3,105 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Regrouper un rapport en fonction d’un champ personnalisé à sélection multiple
-description: Vous ne pouvez regrouper par valeur dans un champ personnalisé à sélection multiple dans un rapport Adobe Workfront qu’en mode texte.
+description: Le regroupement par valeur dans un champ personnalisé à sélection multiple dans un rapport Adobe Workfront n’est possible qu’en mode texte.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
 source-wordcount: '544'
-ht-degree: 24%
+ht-degree: 95%
 
 ---
 
 # Regrouper un rapport en fonction d’un champ personnalisé à sélection multiple
 
-Vous ne pouvez regrouper par valeur dans un champ personnalisé à sélection multiple dans un rapport Adobe Workfront qu’en mode texte.
+Le regroupement par valeur dans un champ personnalisé à sélection multiple dans un rapport Adobe Workfront n’est possible qu’en mode texte.
 
-Voici quelques exemples de champs personnalisés à sélection multiple :
+Quelques exemples de champs personnalisés multi-sélection incluent :
 
 * Cases à cocher
-* Menus déroulants à sélection multiple
+* Menus déroulants multi-sélection
 
-Pour plus d’informations sur l’utilisation du mode texte, consultez l’article [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Pour plus d’informations sur l’utilisation du mode texte, voir l’article [Vue d’ensemble du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-## Remarques concernant le regroupement par un champ personnalisé à sélection multiple
+## Considérations sur le regroupement basé sur un champ personnalisé à sélection multiple
 
-* Vous ne pouvez pas créer de graphique pour un rapport qui utilise un regroupement en mode texte. Vous devez créer un champ calculé supplémentaire qui fait référence au champ personnalisé à sélection multiple pour également associer le rapport à la valeur du champ personnalisé à sélection multiple.
+* Il est impossible de créer un graphique pour un rapport utilisant un regroupement en mode texte. Pour associer le rapport à la valeur d’un champ personnalisé à sélection multiple, vous devez créer un champ calculé supplémentaire se référant à ce champ.
 
-  Pour plus d’informations, voir [Créer un rapport selon un champ personnalisé à sélection multiple](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
-* Les éléments pour lesquels l’un des choix est sélectionné ne sont comptabilisés qu’une seule fois.
+  Pour plus d’informations, consultez la section [Représenter graphiquement un rapport en fonction d’un champ personnalisé à sélection multiple](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+* Les éléments pour lesquels l’un des choix est sélectionné ne sont comptés qu’une seule fois.
 
-  Par exemple, si vous disposez d’un champ personnalisé Case à cocher avec les options Choix 1 et Choix 2 et que vous joignez le formulaire aux tâches, les tâches pour lesquelles Choix 1 et Choix 2 sont sélectionnées sont regroupées séparément des tâches pour lesquelles seul Choix 1 ou Choix 2 est sélectionné.
+  Par exemple, si vous avez un champ personnalisé de type case à cocher avec les options Choix 1 et Choix 2 et que vous liez ce formulaire aux tâches, celles pour lesquelles Choix 1 et Choix 2 sont sélectionnés seront regroupées distinctement de celles où seul Choix 1 ou Choix 2 est sélectionné.
 
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Demande de modification d’un groupement </p>
-   <p>Prévoir la modification d’un rapport</p> </td> 
+   <td> <p>Demander à modifier un regroupement </p>
+   <p>Prévoir de modifier un rapport</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Editer l'accès aux Filtres, Vues, Groupements pour modifier un groupement</p> <p><b>NOTE</b>
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier un rapport</p> <p>Modifier l’accès aux filtres, vues et regroupements pour modifier un regroupement</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire, consultez <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## Regrouper un rapport par des champs personnalisés à sélection multiple
+## Regrouper un rapport par champs personnalisés à sélection multiple
 
-Pour pouvoir effectuer un groupement selon un champ personnalisé à sélection multiple, les prérequis suivants doivent être remplis :
+Pour pouvoir regrouper un rapport selon un champ personnalisé à sélection multiple, les prérequis suivants doivent être remplis :
 
 * Créez le champ personnalisé à sélection multiple dans un formulaire personnalisé.\
   Pour plus d’informations sur la création de formulaires personnalisés et l’ajout de champs personnalisés, reportez-vous à l’article [Concevoir un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Associez le formulaire personnalisé aux objets.
+* Joignez le formulaire personnalisé aux objets.
 * Renseignez le champ personnalisé à sélection multiple avec une valeur sur chaque objet. 
 
-Pour regrouper un champ personnalisé à sélection multiple dans un rapport :
+Pour regrouper un champ personnalisé à sélection multiple dans un rapport, procédez comme suit :
 
-1. Créez un rapport ou modifiez un rapport existant dans lequel vous souhaitez ajouter un groupement pour un champ personnalisé à sélection multiple.\
-   Pour plus d’informations sur la création de rapports, reportez-vous à l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Créez un rapport ou modifiez un rapport existant dans lequel vous souhaitez ajouter un regroupement pour un champ personnalisé à sélection multiple.\
+   Pour plus d’informations sur la création de rapports, consultez l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Sélectionnez l&#39;onglet **Groupings** .
-1. Cliquez sur **Passer en mode Texte**.
+1. Sélectionnez l’onglet **Regroupements**.
+1. Cliquez sur **Basculer en mode texte**.
 
-1. Sélectionnez le texte dans la zone **Regrouper votre rapport** et remplacez-le par le code suivant :
+1. Sélectionnez le texte dans la zone **Regrouper votre rapport** et remplacez-le par le code suivant :
 
    <pre>
-   group.0.displayname=Nom du champ personnalisé à sélection multiple
-   group.0.valueexpression={DE:Multi-select Custom Field Name}
-   group.0.valueformat=HTML
-   group.0.textmode=true
+   group.0.displayname=Multi-select Custom Field Name
+group.0.valueexpression={DE:Multi-select Custom Field Name}
+group.0.valueformat=HTML
+group.0.textmode=true
    </pre>
 
-1. Remplacez &quot;Nom de champ personnalisé à sélection multiple&quot; par le nom réel de votre champ personnalisé à sélection multiple, tel qu’il apparaît dans Workfront.
-1. Cliquez sur **Enregistrer et Fermer**.
+1. Remplacez « Multi-select Custom Field Name » par le nom réel de votre champ personnalisé à sélection multiple, tel qu’il apparaît dans Workfront.
+1. Cliquez sur **Enregistrer et fermer**.
 
    Les objets du rapport sont regroupés selon les valeurs du champ personnalisé à sélection multiple.
 
    ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
-   Le nom des regroupements du rapport correspond au nom du champ personnalisé à sélection multiple, suivi des valeurs sélectionnées dans le champ.
+   Les noms des regroupements du rapport sont les noms des champs personnalisés à sélection multiple suivis des valeurs sélectionnées dans le champ.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -3,7 +3,7 @@ title: Aperçu de Forms personnalisé
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Vous pouvez créer un formulaire personnalisé que les utilisateurs et utilisatrices peuvent attacher à un objet Adobe Workfront. Les utilisateurs et utilisatrices qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
+description: Vous pouvez créer un formulaire personnalisé que les utilisateurs et utilisatrices peuvent attacher à un objet Adobe Workfront. Les utilisateurs et utilisatrices qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -23,9 +23,9 @@ ht-degree: 65%
 
 {{form-designer-default}}
 
-Vous pouvez créer un formulaire personnalisé que les utilisateurs et utilisatrices peuvent attacher à un objet Adobe Workfront. Les utilisateurs et utilisatrices qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
+Vous pouvez créer un formulaire personnalisé que les utilisateurs et utilisatrices peuvent attacher à un objet Adobe Workfront. Les utilisateurs et utilisatrices qui travaillent sur l’objet peuvent remplir le formulaire personnalisé pour fournir des informations sur l’objet.
 
-Par exemple, vous pouvez joindre un formulaire personnalisé appelé « Recherche de contenu marketing » à un projet afin que les utilisateurs et les utilisatrices du projet puissent demander du contenu marketing pour le projet :
+Par exemple, vous pouvez attacher un formulaire personnalisé appelé « Recherche de contenu marketing » à un projet afin que les utilisateurs et les utilisatrices du projet puissent demander du contenu marketing pour le projet :
 
 ![](assets/see-image-details-page.png)
 
@@ -35,7 +35,7 @@ Le concepteur de formulaire dispose d’un espace de travail de style zone de tr
 
 <span class="preview">Un bouton **Disposition** (non affiché dans cette image) vous permet de choisir parmi une zone de travail de deux ou trois colonnes. Le bouton indique la mise en page actuellement sélectionnée. La mise en page à trois colonnes affiche les paramètres des champs dans la colonne située à l’extrême droite. Dans la mise en page à deux colonnes, les paramètres de champ s’affichent en regard de la bibliothèque de champs dans la colonne située à l’extrême gauche.</span>
 
-Pour plus d’informations, voir [Concevoir un formulaire à l’aide du créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations, voir [Concevoir un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ![Exemple de créateur de formulaires](assets/form-designer-example.png)
 
@@ -68,15 +68,15 @@ Vous pouvez ajouter les types de champs personnalisés suivants à un formulaire
 
 >[!NOTE]
 >
->Pour effectuer le suivi des modifications de champ dans les flux de mise à jour, accédez à Configuration > Interface > Mettre à jour les flux. Pour plus d’informations, consultez [Configurer les mises à jour système](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+>Pour effectuer le suivi des modifications de champ dans les flux de mise à jour, accédez à Configuration > Interface > Mettre à jour les flux. Pour plus d’informations, consultez la section [Configurer les mises à jour du système](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-## Objets auxquels les utilisateurs et les utilisatrices peuvent joindre un formulaire personnalisé.
+## Objets auxquels les utilisateurs et les utilisatrices peuvent associer un formulaire personnalisé
 
 Lorsque vous créez un formulaire personnalisé, vous pouvez le configurer pour qu’il soit utilisé avec plusieurs types d’objets.
 
 Les utilisateurs et utilisatrices peuvent associer des formulaires personnalisés aux types d’objets suivants :
 
-* Projet (y compris les business cases)
+* Projet (y compris les Business Cases)
 * Tâche
 * Problème (y compris la file d’attente des demandes)
 * Entreprise

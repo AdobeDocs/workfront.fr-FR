@@ -2,39 +2,39 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: Connecteur
+keywords: connecteur
 navigation-topic: apps-and-their-modules
 title: Modules OpenAI (ChatGPT)
-description: Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser les workflows qui utilisent OpenAIT (ChatGPT) et les connecter à plusieurs applications et services tiers.
+description: Dans un scénario Adobe Workfront Fusion, vous pouvez automatiser les workflows qui utilisent OpenAI (ChatGPT), et le connecter à plusieurs applications et services tiers.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
 source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '1320'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 # Modules [!DNL OpenAI (ChatGPT & DALL-E)]
 
-Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL OpenAI (ChatGPT & DALL-E)] et les connecter à plusieurs applications et services tiers.
+Dans un scénario [!DNL Adobe Workfront Fusion], vous pouvez automatiser les workflows qui utilisent [!DNL OpenAI (ChatGPT & DALL-E)] et le connecter à plusieurs applications et services tiers.
 
-Si vous avez besoin d’instructions sur la création d’un scénario, voir [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si vous avez besoin d’instructions sur la création d’un scénario, consultez [Créer un scénario dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Pour plus d’informations sur les modules, consultez [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Pour plus d’informations sur les modules, voir [Modules dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
-  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td>
+  <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
@@ -46,25 +46,25 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</td> 
+   <td>Votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
-Pour utiliser les modules [!DNL OpenAI (ChatGPT & DALL-E)], vous devez disposer d&#39;un compte [!DNL OpenAI], incluant une clé API et un ID d&#39;organisation.
+Pour utiliser les modules [!DNL OpenAI (ChatGPT & DALL-E)], vous devez disposer d’un compte [!DNL OpenAI] ainsi que d’une clé API et d’un ID d’organisation.
 
-## Connexion de [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]
+## Connexion d’[!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]
 
-Vous pouvez créer une connexion à votre compte [!DNL OpenAI (ChatGPT & DALL-E)] directement depuis un module [!DNL OpenAI (ChatGPT & DALL-E)].
+Vous pouvez créer une connexion à votre compte [!DNL OpenAI (ChatGPT & DALL-E)] directement à partir d’un module [!DNL OpenAI (ChatGPT & DALL-E)].
 
-1. Dans un module [!DNL OpenAI (ChatGPT & DALL-E)], cliquez sur **[!UICONTROL Ajouter]** en regard du champ [!UICONTROL Connexion].
-1. Renseignez les informations suivantes :
+1. Dans n’importe quel module [!DNL OpenAI (ChatGPT & DALL-E)], cliquez sur **[!UICONTROL Ajouter]** à côté du champ [!UICONTROL Connection].
+1. Saisissez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -75,12 +75,12 @@ Vous pouvez créer une connexion à votre compte [!DNL OpenAI (ChatGPT & DALL-E)
       <td> <p>Saisissez un nom pour la nouvelle connexion.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Clé API]</td> 
-      <td>Vous pouvez localiser votre clé d’API dans les paramètres utilisateur d’OpenAI.</td> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
+      <td>Vous pouvez trouver votre clé API dans vos paramètres d’utilisateur ou d’utilisatrice d’OpenAI.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID d’organisation] </td> 
-      <td>Vous pouvez trouver votre ID d’organisation sur votre page Paramètres de l’organisation dans OpenAI.</td> 
+      <td role="rowheader">[!UICONTROL Organization ID]</td> 
+      <td>Vous pouvez trouver l’ID de votre organisation sur la page des paramètres de votre organisation dans OpenAI.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -90,17 +90,17 @@ Vous pouvez créer une connexion à votre compte [!DNL OpenAI (ChatGPT & DALL-E)
 
 ## Modules [!DNL OpenAI (ChatGPT & DALL-E)] et leurs champs
 
-Lorsque vous configurez des modules [!DNL OpenAI (ChatGPT & DALL-E)], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL OpenAI (ChatGPT & DALL-E)] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez les modules [!DNL OpenAI (ChatGPT & DALL-E)], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces derniers, des champs [!DNL OpenAI (ChatGPT & DALL-E)] supplémentaires peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mapper des informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-### Création d’une fin
+### Créer un achèvement
 
 >[!IMPORTANT]
 >
->Ce module a été abandonné.
+>Ce module est obsolète.
 
 <!--
 
@@ -131,9 +131,9 @@ This action module creates a completion for the provided prompt or chat.
 
 -->
 
-### Création d’une modération
+### Créer une modération
 
-Ce module d’action détermine si le texte enfreint la politique de contenu d’OpenAI.
+Ce module d’action détermine si un texte viole la politique de confidentialité d’OpenAI.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -141,22 +141,22 @@ Ce module d’action détermine si le texte enfreint la politique de contenu d�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, reportez-vous à la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connexion [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, consultez <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connexion d’[!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input]</td> 
-   <td> Pour chaque exemple de texte à inclure, cliquez sur <b>Ajouter un élément</b> et saisissez ou mappez le texte. Incluez l’échantillon de texte entier.</td> 
+   <td> Pour chaque échantillon de texte que vous souhaitez inclure, cliquez sur <b>Ajouter un élément</b> et saisissez ou mappez le texte. Incluez l’intégralité de l’exemple de texte.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Model]</td> 
-   <td> Saisissez ou mappez l’identifiant du modèle à utiliser. Vous pouvez utiliser le module Get models pour afficher tous vos modèles disponibles. </td> 
+   <td> Saisissez ou mappez l’ID du modèle à utiliser. Vous pouvez utiliser le module Obtenir des modèles pour voir tous les modèles disponibles. </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Création d’une modification
+### Créer une modification
 
-Ce module d’action renvoie une version modifiée d’une invite que vous fournissez, en suivant vos instructions.
+Ce module d’action renvoie une version modifiée d’une invite que vous avez fournie, en suivant vos instructions.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,28 +164,28 @@ Ce module d’action renvoie une version modifiée d’une invite que vous fourn
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, reportez-vous à la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connexion [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, voir la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecter [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Model]</td> 
-   <td> Saisissez ou mappez l’identifiant du modèle à utiliser. Vous pouvez utiliser le module Get models pour afficher tous vos modèles disponibles. </td> 
+   <td> Saisissez ou mappez l’ID du modèle à utiliser. Vous pouvez utiliser le module Obtenir des modèles pour voir tous les modèles disponibles. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input]</td> 
-   <td> Saisissez ou mappez le texte à modifier. </td> 
+   <td> Saisissez ou mappez le texte que vous souhaitez modifier. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Instruction]</td> 
-   <td> Saisissez ou mappez les instructions pour la modification. Exemple : "Corrigez les fautes d’orthographe." </td> 
+   <td> Saisissez ou mappez les instructions relatives à la modification. Exemple : « Corrigez les fautes d’orthographe ». </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Paramètres avancés]</td> 
-   <td> <p>Pour plus d’informations sur les paramètres avancés facultatifs de ce module, voir les informations sur la création de modifications dans la <a href="https://platform.openai.com/docs/api-reference/edits/create" class="MCXref xref">documentation de l’API OpenAI</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Advanced settings]</td> 
+   <td> <p>Pour plus d’informations sur les paramètres avancés facultatifs de ce module, voir les informations sur la création de modifications dans la <a href="https://platform.openai.com/docs/api-reference/edits/create" class="MCXref xref">documentation de l’API OpenAI</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Création d’une incorporation
+### Créer une incorporation
 
 Ce module d’action crée un vecteur d’incorporation représentant le texte d’entrée.
 
@@ -195,30 +195,30 @@ Ce module d’action crée un vecteur d’incorporation représentant le texte d
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, reportez-vous à la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connexion [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, voir la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecter [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Model]</td> 
-   <td> Saisissez ou mappez l’identifiant du modèle à utiliser. Vous pouvez utiliser le module Get models pour afficher tous vos modèles disponibles. </td> 
+   <td> Saisissez ou mappez l’ID du modèle à utiliser. Vous pouvez utiliser le module Obtenir des modèles pour voir tous les modèles disponibles. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Texte d’entrée à incorporer]</td> 
-   <td> Saisissez ou mappez le texte à incorporer. </td> 
+   <td role="rowheader">[!UICONTROL Input text to embed]</td> 
+   <td> Saisissez ou mappez le texte que vous souhaitez incorporer. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL User ID]</td> 
-   <td> Saisissez ou mappez un identifiant unique représentant votre utilisateur final, qui peut aider OpenAI à surveiller et détecter les abus. </td> 
+   <td> Saisissez ou mappez un identifiant unique représentant votre utilisateur final ou utilisatrice finale, qui peut aider OpenAI à surveiller et à détecter les abus. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> Saisissez ou mappez le nombre maximal de modifications que le module doit effectuer au cours de chaque cycle d’exécution de scénario.</td> 
+   <td> Saisissez ou mappez le nombre maximum de modifications que vous souhaitez voir prises en charge par le module lors de chaque cycle d’exécution de scénario.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Créer l’achèvement de la conversation
+### Créer un achèvement de chat
 
-Avec une liste de messages décrivant une conversation, ce module d’action renvoie une réponse.
+Si l’on considère une liste de messages décrivant une conversation, ce module d’action renvoie une réponse.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -226,25 +226,25 @@ Avec une liste de messages décrivant une conversation, ce module d’action ren
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, reportez-vous à la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connexion [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, voir la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecter [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Model]</td> 
-   <td> Saisissez ou mappez l’identifiant du modèle à utiliser. Vous pouvez utiliser le module Get models pour afficher tous vos modèles disponibles. </td> 
+   <td> Saisissez ou mappez l’ID du modèle à utiliser. Vous pouvez utiliser le module Obtenir des modèles pour voir tous les modèles disponibles. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Messages]</td> 
-   <td>Les messages décrivent la conversation jusqu'à présent. Pour chaque message à ajouter, cliquez sur <b>Ajouter un élément</b> et renseignez les éléments suivants :
+   <td>Les messages décrivent la conversation jusqu’à présent. Pour chaque message que vous souhaitez ajouter, cliquez sur <b>Ajouter un élément</b> et remplissez les champs suivants :
    <ul>
-   <li> <b>Rôle</b> : sélectionnez le rôle de l’auteur de ce message.</li>
-   <li> <b>Contenu</b> : entrez ou mappez le contenu de ce message.</li>
-   <li> <b>Nom</b> : saisissez ou mappez le nom de l’auteur de ce message. Le nom peut contenir des lettres majuscules et minuscules, des chiffres et des traits de soulignement. La longueur maximale du nom est de 64 caractères.</li>
+   <li> <b>Rôle</b> : sélectionnez le rôle de l’auteur ou de l’autrice de ce message.</li>
+   <li> <b>Contenu</b> : saisissez ou mappez le contenu de ce message.</li>
+   <li> <b>Nom</b> : entrez ou mappez le nom de l’auteur ou de l’autrice de ce message. Le nom peut contenir des lettres majuscules et minuscules, des chiffres et des traits de soulignement. La longueur maximale du nom est de 64 caractères.</li>
    </ul>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Paramètres avancés]</td> 
-   <td> <p>Pour plus d’informations sur les paramètres avancés facultatifs de ce module, consultez les informations sur la création de sessions de chat dans la <a href="https://platform.openai.com/docs/api-reference/chat/create" class="MCXref xref">documentation de l’API OpenAI</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Advanced settings]</td> 
+   <td> <p>Pour plus d’informations sur les paramètres avancés facultatifs de ce module, voir les informations sur la création d’achèvements de chat dans la <a href="https://platform.openai.com/docs/api-reference/chat/create" class="MCXref xref">documentation de l’API OpenAI</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,23 +296,23 @@ Ce module d’action génère ou manipule des images avec des modèles Dall-E.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, reportez-vous à la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connexion [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, voir la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecter [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Description textuelle de l’image désirée]</td> 
-   <td> Saisissez ou mappez une description de l’image souhaitée. La longueur maximale de la description est de 1 000 caractères. 
+   <td role="rowheader">[!UICONTROL Text description of the desired image]</td> 
+   <td> Saisissez ou mappez une description de l’image souhaitée. La longueur maximale de la description est de 1 000 caractères. 
  </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL Paramètres avancés]</td> 
+   <td role="rowheader">[!UICONTROL Advanced settings]</td> 
    <td> <p>Pour plus d’informations sur les paramètres avancés facultatifs de ce module, voir les informations sur la création d’images dans la <a href="https://platform.openai.com/docs/api-reference/images/create" class="MCXref xref">documentation de l’API OpenAI</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Obtention de modèles
+### Obtenir des modèles
 
-Ce module répertorie et décrit les différents modèles disponibles dans l’API OpenAI.
+Ce module énumère et décrit les différents modèles disponibles dans l’API OpenAI.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -320,22 +320,22 @@ Ce module répertorie et décrit les différents modèles disponibles dans l’A
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, reportez-vous à la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connexion [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, voir la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecter [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Action]</td> 
    <td> Indiquez si vous souhaitez obtenir une liste de tous les modèles ou récupérer un modèle spécifique.
     <ul>
-    <li><p><b>Modèles de liste </b></p><p>Cette action répertorie les modèles actuellement disponibles et fournit des informations de base sur chacun d’eux, telles que le propriétaire et la disponibilité.</p></li>
-    <li><p><b>Récupération du modèle </b></p><p>Saisissez ou mappez l’identifiant du modèle que vous souhaitez récupérer. </p></li>
+    <li><p><b>Lister les modèles </b></p><p>Cette action répertorie les modèles actuellement disponibles et fournit des informations de base sur chacun d’entre eux, telles que la personne propriétaire et la disponibilité.</p></li>
+    <li><p><b>Récupérer le modèle </b></p><p>Saisissez ou mappez l’ID du modèle que vous souhaitez récupérer. </p></li>
    </ul>
  </td> 
  </tbody> 
 </table>
 
-### Lancer un appel API personnalisé
+### Effectuer un appel API personnalisé
 
-Ce module d’action est une requête HTTP personnalisée à l’API OpenAI.
+Ce module d’action envoie une requête HTTP personnalisée à l’API OpenAI.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -343,11 +343,11 @@ Ce module d’action est une requête HTTP personnalisée à l’API OpenAI.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, reportez-vous à la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connexion [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, voir <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecter [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Saisissez un chemin relatif à <code>https://api.openai.com/v1/</code>. </p> </td> 
+   <td> <p>Saisir un chemin relatif à <code>https://api.openai.com/v1/</code> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
@@ -355,15 +355,15 @@ Ce module d’action est une requête HTTP personnalisée à l’API OpenAI.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Ajoutez les en-têtes de la requête sous la forme d’un objet JSON standard.</p> <p>Par exemple, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion ajoute automatiquement les en-têtes d’autorisation.</p> </td> 
+   <td> <p>Ajoutez les en-têtes de la requête sous la forme d’un objet JSON standard.</p> <p>Par exemple, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion ajoute automatiquement les en-têtes d’autorisation.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> <p>Par exemple : <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Ajoutez la requête pour l’appel API sous la forme d’un objet JSON standard.</p> <p>Par exemple : <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Remarque :  <p>lors de l’utilisation d’instructions conditionnelles telles que <code>if</code> dans votre JSON, placez les guillemets en dehors de l’instruction conditionnelle.</p> 
+   <td> <p>Ajoutez le contenu du corps de l’appel API sous la forme d’un objet JSON standard.</p> <p>Note :  <p>Lorsque vous utilisez des instructions conditionnelles telles que <code>if</code> dans votre JSON, placez des guillemets à l’extérieur de l’instruction conditionnelle.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -407,9 +407,9 @@ This action modules converts audio to text.
 
 -->
 
-### Gestion des fichiers
+### Gérer les fichiers
 
-Ce module d’action répertorie, supprime ou récupère des fichiers ou du contenu de fichier.
+Ce module d’action permet de répertorier, de supprimer ou de récupérer des fichiers ou un contenu de fichier.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -417,22 +417,22 @@ Ce module d’action répertorie, supprime ou récupère des fichiers ou du cont
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, reportez-vous à la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connexion [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, voir la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecter [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Action]</td> 
    <td> Sélectionnez l’action que vous souhaitez effectuer. 
   </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL ID de fichier]</td> 
-   <td> Si vous supprimez un fichier ou que vous récupérez un contenu de fichier ou de fichier, saisissez ou mappez l’identifiant du fichier. 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td> Si vous supprimez un fichier, ou si vous récupérez un fichier ou un contenu de fichier, entrez ou mappez l’ID du fichier. 
   </tr> 
 </tbody>
 </table>
 
-### Gestion des réglages
+### Gérer les réglages fins
 
-Gérez des tâches d’optimisation pour personnaliser un modèle en fonction de vos données de formation spécifiques.
+Gérez les traitements de réglage fin pour adapter un modèle à vos données d’apprentissage spécifiques.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -440,22 +440,22 @@ Gérez des tâches d’optimisation pour personnaliser un modèle en fonction de
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, reportez-vous à la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connexion [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> de cet article.</p> </td> 
+   <td> <p>Pour obtenir des instructions sur la connexion de votre compte [!DNL OpenAI (ChatGPT & DALL-E)] à Workfront Fusion, voir la section <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecter [!DNL OpenAI (ChatGPT & DALL-E)] à [!DNL Workfront Fusion]</a> dans cet article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Sélectionner l’opération]</td> 
+   <td role="rowheader">[!UICONTROL Select the operation]</td> 
    <td> Sélectionnez l’action que vous souhaitez effectuer.
    <ul>
-   <li><p>Ajuster un modèle à partir d’un jeu de données</p><p>Saisissez ou mappez une description pour l’image souhaitée.</p>
-     <li><p>Obtenir des informations sur une tâche d’optimisation</p><p>Saisissez ou mappez l’identifiant de la tâche.</p>
-   <li><p>Annulation d’une tâche d’optimisation</p><p>Saisissez ou mappez l’identifiant de la tâche.</p>
-   <li><p>Annulation d’une tâche d’optimisation</p><p>Saisissez ou mappez l’identifiant de la tâche.</p>
-   <li><p>Obtenir des mises à jour d’état pour une tâche d’optimisation</p><p>Saisissez ou mappez l’identifiant de la tâche, puis indiquez si vous souhaitez diffuser ces mises à jour.</p>
-   <li><p>Suppression d’un modèle affiné</p><p>Saisissez ou mappez l’identifiant du modèle que vous souhaitez supprimer.</p>
+   <li><p>Affiner un modèle à partir d’un jeu de données</p><p>Saisissez ou mappez une description pour l’image souhaitée.</p>
+     <li><p>Obtenir des informations sur un traitement de réglage fin</p><p>Saisissez ou mappez l’identifiant du traitement.</p>
+   <li><p>Annuler un traitement de réglage fin</p><p>Saisissez ou mappez l’identifiant du traitement.</p>
+   <li><p>Annuler un traitement de réglage fin</p><p>Saisissez ou mappez l’identifiant du traitement.</p>
+   <li><p>Obtenir des mises à jour du statut pour un traitement de réglage fin</p><p>Saisissez ou mappez l’ID du traitement et indiquez si vous souhaitez diffuser ces mises à jour en continu.</p>
+   <li><p>Supprimer un modèle affiné</p><p>Saisissez ou mappez l’ID du modèle que vous souhaitez supprimer.</p>
  </ul> 
   </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL ID de fichier]</td> 
-   <td> Si vous supprimez un fichier ou que vous récupérez un contenu de fichier ou de fichier, saisissez ou mappez l’identifiant du fichier. 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td> Si vous supprimez un fichier, ou si vous récupérez un fichier ou un contenu de fichier, entrez ou mappez l’ID du fichier. 
   </tr> 
 </tbody>

@@ -3,57 +3,57 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
-title: E-mail fait par épreuve
-description: Un email de BAT effectué n’est envoyé au créateur du BAT que lorsqu’il a créé un BAT. Si une personne a créé un BAT et a désigné une autre personne comme propriétaire, seul le nouveau propriétaire reçoit également le courrier électronique Bon à tirer. Le créateur et/ou le propriétaire n’en obtiendra pas ; ils reçoivent uniquement l’e-mail BAT fait . Pour plus d’informations sur l’email Nouveau BAT, voir la section Email du BAT.
+title: E-mail Épreuve effectuée
+description: Un e-mail Épreuve effectuée est envoyé à la personne à l’origine de l’épreuve uniquement lorsqu’elle a créé une épreuve. Si une personne a créé une épreuve et a désigné une autre personne comme propriétaire, seule la nouvelle personne propriétaire reçoit également l’e-mail Épreuve effectuée. La personne créatrice et/ou la personne propriétaire n’en reçoivent pas ; elles ne reçoivent que l’e-mail Épreuve effectée. Pour plus d’informations sur l’e-mail Nouvelle épreuve, voir E-mail Nouvelle épreuve.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a6bfe471-2032-4b74-8316-584f923e8651
 source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# L&#39;email [!UICONTROL BAT Made]
+# E-mail [!UICONTROL Épreuve effectuée]
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d&#39;informations sur la vérification à l&#39;intérieur de [!DNL Adobe Workfront], voir [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-Un email [!UICONTROL BAT fait] n&#39;est envoyé au créateur du BAT que lorsqu&#39;il a créé un BAT. Si une personne a créé un BAT et en a fait un autre propriétaire, seul le nouveau propriétaire reçoit également l’e-mail [!UICONTROL BAT fait]. Le créateur et/ou le propriétaire n’en obtiendra pas un ; ils reçoivent uniquement l’e-mail [!UICONTROL BAT fait]. Pour plus d’informations sur l’e-mail [!UICONTROL New Proof], voir [[!UICONTROL New BAT] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+Un e-mail [!UICONTROL Épreuve effectuée] est envoyé à la personne à l’origine de l’épreuve uniquement lorsqu’elle a créé une épreuve. Si une personne a créé une épreuve et a désigné une autre personne comme propriétaire, seul la nouvelle personne propriétaire reçoit également l’e-mail [!UICONTROL Épreuve effectuée]. La personne créatrice et/ou la personne propriétaire n’en recevront pas ; elles ne recevront que l’e-mail [!UICONTROL Épreuve effectuée]. Pour plus d’informations sur l’e-mail [!UICONTROL Nouvelle épreuve], voir [[!UICONTROL E-mail Nouvelle épreuve]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-Les utilisateurs peuvent désactiver les emails [!UICONTROL BAT fait] dans leurs paramètres de profil, comme expliqué ci-dessous.
+Les utilisateurs et utilisatrices peuvent désactiver les e-mails [!UICONTROL Épreuve effectuée] dans les paramètres de leur profil, comme expliqué ci-dessous.
 
 >[!NOTE]
 >
-> Si les emails [!UICONTROL BAT fait] du créateur ou du propriétaire du BAT sont désactivés par défaut dans leurs paramètres personnels, il ne recevra aucun email [!UICONTROL BAT fait] ou [!UICONTROL Nouveau BAT], même si la case [!UICONTROL Notifier les personnes par email] est cochée sur la page [!UICONTROL Nouveau BAT].
+> Si la personne créatrice ou la personne propriétaire de l’épreuve a désactivé par défaut les e-mails [!UICONTROL Épreuve effectuée] dans ses paramètres personnels, elle ne recevra aucun e-mail [!UICONTROL Épreuve effectuée] ou [!UICONTROL Nouvelle épreuve], même si la case [!UICONTROL Notifier les personnes par e-mail] est cochée sur la page [!UICONTROL Nouvelle épreuve].
 
 ![Proof_Made_Email.png](assets/proof-made-email-350x214.png)
 
-Un email [!UICONTROL BAT fait] contient votre message personnel (si vous en incluez un) et les détails de BAT suivants :
+L’e-mail [!UICONTROL Épreuve effectuée] comprend votre message personnel (si vous en avez un) et les détails suivants concernant l’épreuve :
 
-* Nom de l&#39;épreuve
-* Lien personnel vers le BAT
+* Nom de l’épreuve
+* Lien personnel vers l’épreuve
 * Numéro de version
-* Miniature du BAT
+* Miniature de l’épreuve
 * Avancement de l&#39;épreuve
-* Un lien pour partager le BAT avec une autre personne
-* Vous pouvez ainsi partager l’URL du BAT et/ou le lien de téléchargement du fichier d’origine.
+* Lien pour partager l’épreuve avec une autre personne
+* Cela vous permet de partager l’URL de l’épreuve et/ou le lien de téléchargement du fichier original.
 
 >[!NOTE]
 >
-> Le partage de liens de BAT ne permet pas d&#39;ajouter explicitement des validants au BAT, vous ne partagerez que l&#39;URL publique du BAT et le destinataire recevra un accès en lecture seule au BAT.
+> Le partage de liens d’épreuves ne vous permet pas d’ajouter explicitement des personnes réviseuses à l’épreuve, vous ne partagez que l’URL publique de l’épreuve et la personne destinataire reçoit un accès en lecture seule à l’épreuve.
 
-Pour plus d’informations, voir [Partager un bon à tirer dans [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) .
+Voir [Partager une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) pour plus d’informations.
 
-Si vous ne souhaitez pas que ce lien apparaisse sur l&#39;email de votre destinataire, désactivez les paramètres de [!UICONTROL Partage public] sur le BAT ([!UICONTROL Télécharger le fichier d&#39;origine] et [!UICONTROL URL publique]).
+Si vous ne souhaitez pas que ce lien apparaisse dans l’e-mail de votre personne destinataire, vous devez désactiver les paramètres [!UICONTROL Partage public] de l’épreuve ([!UICONTROL Télécharger le fichier original] et [!UICONTROL URL publique]).
 
-## Désactivation de l’email [!UICONTROL BAT fait]
+## Désactiver l’e-mail [!UICONTROL Épreuve effectuée]
 
-1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres personnels]**, ouvrez l’onglet **** Paramètres de vérification par défaut, puis cliquez sur **[!UICONTROL Désactiver]** en regard de **[!UICONTROL Confirmation par e-mail lorsque les bons à tirer sont prêts]**.
+1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres personnels]**, ouvrez l’onglet **[!UICONTROL Paramètres de relecture par défaut]**, puis cliquez sur **[!UICONTROL Désactiver]** à côté de **[!UICONTROL Confirmation par e-mail lorsque les épreuves sont prêtes]**.
 
-1. ![Proof_Made_-_proofing_defaul.png](assets/proof-made---proofing-defaults-350x103.png)
+1. ![Proof_Made_-_proofing_defaults.png](assets/proof-made---proofing-defaults-350x103.png)
 
-1. Voir [Configuration des paramètres de notification électronique dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) pour des instructions plus détaillées.
-1. Si les notifications par e-mail sont désactivées par défaut dans les [!UICONTROL paramètres du compte], le créateur ou le propriétaire du BAT ne recevra aucun e-mail [!UICONTROL BAT fait] ou [!UICONTROL Nouveau BAT], même s’il est activé dans leurs paramètres personnels et que la case [!UICONTROL Notifier les personnes par e-mail] est cochée sur la page [!UICONTROL Nouveau BAT].
+1. Voir [Configurer les paramètres de notification par e-mail dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) pour des instructions plus détaillées.
+1. Si les notifications par e-mail sont désactivées par défaut dans [!UICONTROL Paramètres du compte], la personne créatrice ou la personne propriétaire de l’épreuve ne recevra aucun e-mail [!UICONTROL Épreuve effectuée] ou [!UICONTROL Nouvelle épreuve], même si cette option est activée dans ses paramètres personnels et que la case [!UICONTROL Notifier les personnes par e-mail] est cochée sur la page [!UICONTROL Nouvelle épreuve].

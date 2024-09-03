@@ -1,6 +1,6 @@
 ---
-title: Autres améliorations (version 22.4)
-description: Autres améliorations (version 22.4)
+title: Autres améliorations de la version 22.4
+description: Autres améliorations de la version 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -9,84 +9,84 @@ exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Autres améliorations (version 22.4)
+# Autres améliorations de la version 22.4
 
-Cette page décrit toutes les autres améliorations apportées à la version 22.4 de l’environnement Aperçu. Ces améliorations seront disponibles la semaine du 3 octobre 2022.
+Cette page décrit les autres améliorations apportées à la version 22.4 de l’environnement de prévisualisation. Ces améliorations seront disponibles dans la semaine du 3 octobre 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, consultez la [présentation de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles avec la version 22.4, voir [Vue d’ensemble de la version 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## Adobe Workfront pour InDesign
+## Adobe Workfront pour InDesign
 
-Ce module externe peut désormais être installé dans InDesign. Il vous permet d’accéder aux détails de l’élément de travail, de collaborer avec des collègues dans la zone Mises à jour et d’envoyer des bons à tirer pour la révision, sans quitter XD. Rendez-vous sur le marché Adobe Creative Cloud pour télécharger le module externe dès aujourd’hui.
+Ce plug-in peut désormais être installé dans InDesign. Il vous permet d’accéder aux détails des éléments de travail, de collaborer avec les personnes avec qui vous travaillez dans la zone des mises à jour et de soumettre des épreuves pour révision, le tout sans quitter XD. Accédez à la marketplace Adobe Creative Cloud pour télécharger le plug-in dès aujourd’hui.
 
-Pour plus d’informations sur le module externe, voir [[!DNL Adobe Workfront] module externe pour [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Pour plus d’informations sur le plug-in, consultez la section Plug-in [[!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
-[Téléchargez Adobe Workfront pour InDesign sur le marché aujourd’hui](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[Téléchargez Adobe Workfront pour InDesign sur la marketplace dès aujourd’hui](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Les administrateurs peuvent également [créer un package avec les modules externes](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) de l’Admin Console et le déployer vers les utilisateurs de manière gérée ou autonome.
+L’équipe d’administration peut également [créer un package avec les plug-ins](https://helpx.adobe.com/fr/enterprise/using/manage-extensions.html) à partir d’Admin Console et le déployer auprès des utilisateurs et des utilisatrices, soit de manière gérée, soit de manière autogérée.
 
-## Synchronisation des métadonnées d’objet avec l’intégration Experience Manager Assets native
+## Synchroniser les métadonnées d’objets avec l’intégration native d’Experience Manager Assets
 
-Désormais, les champs de portefeuille, de programme, de projet, de tâche, de problème et de document de Workfront se mettent automatiquement à jour lorsque le champ est modifié dans Workfront.
+Désormais, les champs de portfolio, programme, projet, tâche, problème et document Workfront se mettent à jour automatiquement quand le champ est modifié dans Workfront.
 
-Pour permettre la synchronisation automatique des métadonnées d’objet, vous devez activer le bouton de synchronisation des métadonnées d’objet pour vos intégrations dans Configuration > Intégrations Experience Manager.
+Pour synchroniser automatiquement les métadonnées d’objets, vous devez activer le bouton (bascule) « Synchroniser les métadonnées d’objets » pour vos intégrations dans Configuration > Intégrations Experience Manager.
 
 Auparavant, seuls les champs de projet étaient automatiquement mis à jour.
 
-Pour plus d’informations, voir [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Pour plus d’informations, consultez la section [Configurer l’intégration Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-## Purge des métadonnées pour les objets parents de programme et de portefeuille
+## Envois de métadonnées pour les objets parent du programme et du portfolio
 
-Désormais, lorsqu’une ressource est d’abord envoyée à Experience Manager Assets ou aux Assets Essentials, toutes les métadonnées configurées pour mapper des objets parents de programme et de portefeuille sont également envoyées.
+Désormais, lorsqu’une ressource est envoyée pour la première fois à Experience Manager Assets ou Assets Essentials, toutes les métadonnées configurées pour mapper les objets parent des programmes et des portfolios sont également envoyées.
 
-Auparavant, seules les données de projet parentes étaient envoyées.
+Auparavant, seules les données des projet parent étaient envoyées.
 
-Pour plus d’informations, voir [Envoi d’un document à Experience Manager Assets ou Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+Pour plus d’informations, consultez la section [Envoyer un document à Experience Manager Assets ou Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
 
-## Description étendue de l’équipe
+## Description développée de l’équipe
 
-Dans la zone Équipes, vous pouvez désormais afficher la description complète de l’équipe en cliquant sur la description pour l’afficher dans une fenêtre contextuelle. Vous pouvez cliquer sur n’importe quelle URL dans la description dans la fenêtre contextuelle. Vous pouvez alors cliquer dans le texte de description pour la modifier (si vous avez accès aux paramètres de l’équipe).
+Dans la zone « Équipes », vous pouvez désormais afficher la description complète de l’équipe en cliquant sur la description pour l’afficher dans un pop-up. Les URL figurant dans la description sont cliquables dans le pop-up et vous pouvez cliquer sur le texte de la description pour le modifier (si vous avez accès à la modification des paramètres de l’équipe).
 
-Auparavant, le fait de faire défiler la description dans une zone étroite était le seul moyen d’afficher tout le contenu.
+Auparavant, la seule manière d’afficher l’intégralité du contenu était de faire défiler la description dans une zone étroite.
 
-Cette amélioration de la description s’applique aux équipes agiles et non agiles.
+Cette amélioration de la description s’applique aux équipes Agile ou non.
 
-Pour plus d’informations, voir [Création d’une équipe](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Pour plus d’informations, consultez la section [Créer une équipe](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-## Campagnes Workfront (Beta) : une nouvelle façon de gérer votre travail
-
->[!NOTE]
->
->Cette fonctionnalité a été introduite à l’origine pour Preview lors du cycle de publication de la version 22.3.
+## Campagnes Workfront (version bêta) : une nouvelle façon de gérer votre travail
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible uniquement en version bêta et est actuellement en cours de construction. Nous continuerons à ajouter des fonctionnalités pour le workflow de Campaign avec les prochaines versions. La participation au programme bêta des campagnes Workfront est volontaire.
+>Cette fonctionnalité a été introduite à l’origine en prévisualisation lors du cycle de publication de la version 22.3.
 
-Nous introduisons un nouvel objet dans Adobe Workfront qui a le potentiel de modifier la façon dont vous gérez le travail.
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible uniquement en version bêta et est actuellement en cours de construction. Nous continuerons à ajouter des fonctionnalités pour le workflow Campagnes avec les prochaines versions. La participation au programme bêta de Campagnes de Workfront est volontaire.
 
-Les campagnes Workfront permettent d’organiser dans un nouveau conteneur de travail des projets issus de différents portefeuilles et programmes. Ce nouveau conteneur va évoluer dans les prochaines versions afin d’inclure éventuellement tous les objets de travail actuellement gérés dans des silos distincts.
+Nous introduisons un nouvel objet dans Adobe Workfront qui a le potentiel de modifier la façon dont vous gérez le travail.
 
-Les fonctionnalités suivantes sont incluses dans cette version :
+Les campagnes Workfront vous permettent d’organiser des projets provenant de différents portfolios et programmes dans un nouveau conteneur de travail. Ce nouveau conteneur évoluera dans les prochaines versions pour éventuellement inclure tous les objets de travail actuellement gérés dans des silos distincts.
 
-* Un nouvel objet Workfront appelé Campaign
+Les fonctionnalités suivantes sont incluses dans cette version :
 
-* Nouvelle zone Campagnes (Beta) dans le menu principal
+* Nouvel objet Workfront appelé « Campagnes »
 
-* Liste des campagnes dans la zone Campagnes
+* Nouvelle zone « Campagnes » (version bêta) dans le menu principal
 
-* Page Détails d’une campagne qui affiche des informations supplémentaires sur une campagne
+* Liste des campagnes dans la zone « Campagnes »
+
+* Page « Détails d’une campagne » qui affiche des informations supplémentaires sur une campagne.
 
 * Possibilité d’ajouter des projets à une campagne
 
 * Possibilité de modifier des informations sur une campagne
 
-* Possibilité de renommer l’objet Campaign à partir du modèle de mise en page
+* Possibilité de renommer l’objet Campagne à partir du modèle de mise en page
 
-  Les administrateurs système et groupe Workfront peuvent ajouter la zone Campagnes (Beta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour tous les utilisateurs affectés au modèle. Une fois disponible, n’importe qui dans Workfront peut créer une campagne.
+  Les personnes chargées de l’administration du système et des groupes Workfront peuvent ajouter la zone « Campagnes » (version bêta) dans le menu principal d’un modèle de mise en page. Elle est ainsi disponible pour l’ensemble des utilisateurs et des utilisatrices à qui le modèle est affecté. Une fois disponible, n’importe quelle personne dans Workfront peut créer une campagne.
 
 

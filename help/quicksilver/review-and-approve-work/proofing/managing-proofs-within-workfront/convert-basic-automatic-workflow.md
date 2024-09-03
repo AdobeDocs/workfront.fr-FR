@@ -2,60 +2,60 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Convertir un workflow de base en workflow automatisé sur une épreuve
-description: Si vous êtes le propriétaire du BAT, vous pouvez convertir le workflow de base d’un BAT existant en workflow automatisé.
+description: Si vous êtes la personne propriétaire de l’épreuve, vous pouvez convertir le workflow de base d’une épreuve existante en workflow automatisé.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c676c696-ab7d-415b-bf5e-5d0335a3920f
 source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
 # Convertir un workflow de base en workflow automatisé sur une épreuve
 
-Si vous êtes le propriétaire du BAT, vous pouvez convertir le workflow de base d’un BAT existant en workflow automatisé.
+Si vous êtes la personne propriétaire de l’épreuve, vous pouvez convertir le workflow de base d’une épreuve existante en workflow automatisé.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Plan hérité : Premium</p> <p>Pour plus d’informations sur l’accès à la relecture avec les différents plans, voir la section <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
-   <td>Manager ou version ultérieure</td> 
+   <td>Manager ou version supérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation d’épreuve dont vous disposez, contactez votre administrateur ou administratrice Workfront ou Workfront Proof.
 
 +++
 
 ## Convertir un workflow de base en workflow automatisé
 
-1. Dans la liste des documents, placez le pointeur de la souris sur le document, puis cliquez sur **Processus de vérification** lorsqu’il s’affiche.
-1. Près du coin supérieur droit d’Adobe Workfront, cliquez sur **Convertir en processus automatisé**.
+1. Dans la liste des documents, passez la souris sur le document, puis cliquez sur **Workflow de relecture** lorsqu’il s’affiche.
+1. Dans le coin supérieur droit d’Adobe Workfront, cliquez sur **Convertir en workflow automatisé**.
 1. Cliquez sur **Nouvelle étape** dans le coin supérieur droit de l’écran.
-1. Indiquez les informations suivantes :
+1. Indiquez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -63,42 +63,42 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Nom</strong> </td> 
-      <td>Ajoutez un nom pour votre scène.</td> 
+      <td>Ajoutez un nom pour votre étape.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Deadline</strong> </td> 
-      <td>Choisissez une date d'échéance.</td> 
+      <td role="rowheader"><strong>Date d’échéance</strong> </td> 
+      <td>Déterminez une date d’échéance.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p><strong>Activer l’étape</strong> </p> </td> 
-      <td>Choisissez quand l’étape doit s’activer.</td> 
+      <td>Déterminez quand l’étape doit s’activer.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong> Options de date limite</strong> </td> 
-      <td>Sélectionnez le mode de déclenchement de l’échéance.</td> 
+      <td role="rowheader"><strong>Options de date d’échéance</strong> </td> 
+      <td>Sélectionnez le mode de déclenchement de la date d’échéance.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Verrouiller l’étape</strong> </td> 
-      <td>Choisissez si la scène doit être verrouillée.</td> 
+      <td>Déterminez si l’étape doit être verrouillée.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Décideur de Principal</strong> </td> 
-      <td>Indiquez le décideur principal.</td> 
+      <td role="rowheader"><strong>Personne décisionnaire principale</strong> </td> 
+      <td>Indiquez la personne décisionnaire principale.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Décision</strong> </td> 
-      <td>Choisissez si une seule décision est requise. </td> 
+      <td>Déterminez si une seule décision est requise. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Privacy</strong> </td> 
-      <td>Choisissez si la scène est privée.</td> 
+      <td role="rowheader"><strong>Confidentialité</strong> </td> 
+      <td>Déterminez si l’étape est privée.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Ajouter des utilisateurs</strong> </td> 
-      <td>Saisissez un nom de contact ou une adresse email, choisissez le rôle du BAT, puis configurez les alertes par email.</td> 
+      <td role="rowheader"><strong>Ajouter des utilisateurs et utilisatrices</strong> </td> 
+      <td>Saisissez un nom de contact ou une adresse e-mail, choisissez le rôle d’épreuve, puis configurez les alertes par e-mail.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Cliquez sur **Ajouter une étape**.
-1. (Facultatif) Répétez les étapes 3 et 4 jusqu’à ce que vous soyez satisfait de votre workflow.
+1. (Facultatif) Répétez les étapes 3 et 4 jusqu’à ce que votre workflow vous apporte satisfaction.

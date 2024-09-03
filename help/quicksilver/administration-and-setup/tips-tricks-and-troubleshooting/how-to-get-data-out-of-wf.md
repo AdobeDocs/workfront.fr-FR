@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Exporter des données historiques d’Adobe Workfront : avantages et inconvénients"
-description: Cet article explique les avantages et inconvénients de 4 options que vous pouvez utiliser pour exporter des données historiques à partir de Workfront.
+description: Cet article explique les avantages et les inconvénients de 4 options que vous pouvez utiliser pour exporter des données historiques à partir de Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,15 +12,15 @@ exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
 source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 0%
+ht-degree: 72%
 
 ---
 
-# Exporter les données historiques de [!DNL Adobe Workfron]t : avantages et inconvénients
+# Exporter des données historiques à partir d’[!DNL Adobe Workfron]t : avantages et inconvénients
 
 Cet article explique les avantages et inconvénients de quatre options que vous pouvez utiliser pour exporter des données historiques à partir de [!DNL Workfront].
 
-## Utilisation de l’un de nos partenaires
+## Faire appel à l’un de nos partenaires
 
 [!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) dispose d’une application conviviale (leur [solution d’instantané de Workfront](https://store.atappstore.com/product/workfront-snapshot/)) qui vous permet de télécharger vos données vous-même. Une visionneuse facultative (leur solution [Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/)) vous permet d’afficher facilement vos données hors ligne.
 
@@ -30,34 +30,34 @@ Cet article explique les avantages et inconvénients de quatre options que vous 
 
 * **Coûts :** Pour plus d’informations, rendez-vous sur [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
-## Demandez un fichier de vidage de données [!DNL Postgres] à notre équipe Base de données
+## Demander un fichier dump de données [!DNL Postgres] à notre équipe chargée des bases de données
 
-Votre gestionnaire de compte peut envoyer une demande à notre équipe de base de données pour exporter un fichier de vidage de base de données (.dmp [!DNL Postgres]) avec vos données. Une demande supplémentaire sera envoyée à notre équipe AOS pour récupérer tous vos documents stockés.
+Votre personne représentante de compte peut demander à notre équipe chargée des bases de données d’exporter un fichier dump de la base de données (fichier [!DNL Postgres] .dmp) contenant vos données. Une demande supplémentaire sera adressée à notre équipe AOS pour récupérer tous les documents stockés.
 
-* **Avantages** : vous obtenez l’intégralité de la charge de données, y compris des champs personnalisés, ainsi que des documents stockés dans le système.
+* **Avantages** : vous obtenez l’ensemble de vos données, y compris les champs personnalisés, ainsi que les documents stockés dans le système.
 
-* **Inconvénients** : Le fichier de la base de données est difficile à lire : il n’est pas possible de lire ce fichier, sauf si vous le chargez dans une base de données [!DNL Postgres] et rétablissez les relations entre les tables. Les documents sont stockés sur un serveur de fichiers distinct et doivent être extraits séparément à l’aide d’un processus distinct de l’équipe AOS. Ce faisant, les documents n’ont aucune organisation et ils sont tous référencés par leur GUID.
+* **Inconvénients** : le fichier de base de données est difficile à lire : il est impossible de lire ce fichier à moins de le charger dans une base de données [!DNL Postgres] et de rétablir les relations entre les tableaux. Les documents sont stockés sur un serveur de fichiers distinct et doivent être extraits séparément par l’équipe AOS. Ce faisant, les documents ne sont pas organisés et sont tous référencés par leur GUID.
 
-* **Coût** : un coût est associé à ce téléchargement, selon le temps nécessaire à l’équipe pour créer le fichier. Pour plus d’informations ou pour lancer ce processus, contactez AEM/CAE.
+* **Coût** : ce téléchargement a un coût, qui dépend du temps nécessaire à l’équipe pour créer le fichier. Consultez votre personne représentante de compte pour plus d’informations ou pour entamer ce processus.
 
-## Exporter via [!UICONTROL Kick-Starts]
+## Exporter via des [!UICONTROL Kickstarts]
 
-Que vous ayez ou non des heures de consulting à distance, vous pouvez utiliser l’un de nos consultants pour exporter vos données sous la forme de rapports ou de [!UICONTROL kick-starts], ou vous pouvez exécuter ces rapports vous-même :
+Que vous disposiez ou non d’heures de conseil à distance, vous pouvez faire appel à l’une de nos personnes consultantes pour exporter vos données sous la forme de rapports ou de [!UICONTROL Kickstarts], ou vous pouvez exécuter ces rapports vous-même :
 
-* **Avantages** : les rapports sont faciles à lire et peuvent être importés dans diverses applications. Ils peuvent être personnalisés pour inclure n’importe quel groupe et affichage de votre choix.
+* **Avantages** : les rapports sont faciles à lire et peuvent être importés dans une variété d’applications ; ils peuvent être personnalisés pour inclure les regroupements et les vues que vous souhaitez.
 
-* **Inconvénients** : les documents devront être téléchargés séparément.
+* **Inconvénients** : les documents devront être téléchargés séparément.
 
-* **Coût** : gratuit si vous pouvez exécuter vous-même les rapports (vous n’avez besoin que d’une connexion administrateur système) ou si vous pouvez utiliser les heures de consulting à distance qui restent. Si vous souhaitez acheter des services de conseil à distance pour cela, veuillez contacter votre AEM/CAE.
+* **Coût** : cela est gratuit si vous pouvez exécuter les rapports vous-même (tout ce dont vous avez besoin est d’une connexion en tant qu’administrateur ou administratrice système), ou si vous pouvez utiliser les heures de conseil à distance restantes. Si l’achat d’un service de conseil à distance vous intéresse, veuillez en parler à votre personne représentante de compte.
 
-  Pour plus d&#39;informations sur l&#39;utilisation de Kick-Starts pour exporter des données, voir [Exporter des données de [!DNL Adobe Workfront] via [!UICONTROL Kick-Starts]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+  Pour plus d’informations sur l’utilisation de Kickstarts pour exporter des données, voir [Exporter des données à partir d’ [!DNL Adobe Workfront]  via des [!UICONTROL Kickstarts]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-## Utilisation de notre API ouverte
+## Utiliser notre API ouverte
 
-si vous disposez des ressources appropriées dans votre organisation, il peut créer une API personnalisée pour récupérer toutes vos données de Workfront :
+Si vous avez les bonnes ressources dans votre organisation, elles peuvent créer une API personnalisée pour récupérer toutes vos données à partir de Workfront :
 
-* **Avantages** : vous contrôlez les exportations du système.
+* **Avantages** : vous contrôlez ce qui est exporté par le système.
 
-* **Inconvénients** : le temps passé sur votre côté, et vous devrez trouver des ressources pour coder l’API et effectuer l’exportation.
+* **Inconvénients** : le temps que cela prend est à votre charge, et vous devrez trouver des ressources pour coder l’API et effectuer l’export.
 
-* **Coût** : interne à votre organisation.
+* **Coût** : interne à votre organisation.

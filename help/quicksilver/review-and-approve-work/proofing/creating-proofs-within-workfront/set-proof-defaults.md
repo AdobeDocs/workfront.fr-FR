@@ -1,122 +1,122 @@
 ---
 product-area: documents
 navigation-topic: create-proofs-within-workfront
-title: Configurer les valeurs par défaut personnelles de relecture
-description: Vous pouvez définir des paramètres par défaut de BAT personnels qui s’appliquent aux BAT que vous créez. Ces valeurs par défaut sont appliquées chaque fois que vous générez un nouveau BAT ou téléchargez une nouvelle version de BAT dans Workfront.
+title: Configurer les valeurs personnelles de relecture par défaut
+description: Vous pouvez définir des paramètres personnels de relecture par défaut qui s’appliquent aux épreuves que vous créez. Ces valeurs par défaut sont appliquées chaque fois que vous générez une première épreuve ou que vous téléchargez une nouvelle version d’épreuve dans Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
 source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# Configurer les valeurs par défaut personnelles de relecture
+# Configurer les valeurs personnelles de relecture par défaut
 
-Vous pouvez définir des paramètres par défaut de BAT personnels qui s’appliquent aux BAT que vous créez. Ces valeurs par défaut sont appliquées chaque fois que vous générez un nouveau BAT ou téléchargez une nouvelle version de BAT dans Workfront.
+Vous pouvez définir des paramètres personnels de relecture par défaut qui s’appliquent aux épreuves que vous créez. Ces valeurs par défaut sont appliquées chaque fois que vous générez une première épreuve ou que vous téléchargez une nouvelle version d’épreuve dans Workfront.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélection ou supérieure</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Plan hérité : Select ou supérieur</p> <p>Pour plus d’informations sur la relecture de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
-   <td>Manager ou version ultérieure</td> 
+   <td>Manager ou version supérieure</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation d’épreuve dont vous disposez, contactez votre administrateur ou administratrice Workfront ou Workfront Proof.
 
 +++
 
-## Configurer les valeurs par défaut personnelles de relecture
+## Configurer les valeurs personnelles de relecture par défaut
 
 {{step1-to-proofing}}
 
-1. Dans le coin supérieur droit, cliquez sur votre avatar, puis sélectionnez **Paramètres personnels**.
-1. Sélectionnez l&#39;onglet **Valeurs par défaut de la vérification** , puis spécifiez les informations suivantes :
+1. Dans le coin supérieur droit, cliquez sur votre avatar et sélectionnez **Paramètres personnels**.
+1. Sélectionnez l’onglet **Valeurs de relecture par défaut**, puis spécifiez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td colspan="2"><strong> Paramètres de notification par défaut</strong> </td> 
+      <td colspan="2"><strong>Paramètres de notification par e-mail par défaut</strong> </td> 
      </tr> 
      <tr> 
-      <td>Alerte par défaut</td> 
-      <td>Sélectionnez la fréquence à laquelle l’utilisateur reçoit les mises à jour par courrier électronique. Sélectionnez Toutes les activités, Réponses à mes commentaires, Décisions, Décision finale, Résumé horaire, Résumé quotidien ou Désactivé.</td> 
+      <td>Alerte e-mail par défaut</td> 
+      <td>Sélectionnez la fréquence à laquelle l’utilisateur ou l’utilisatrice reçoit des mises à jour par e-mail. Sélectionnez Toutes les activités, Réponses à mes commentaires, Décisions, Décision finale, Résumé horaire, Résumé quotidien ou Désactivé.</td> 
      </tr> 
      <tr> 
-      <td>Alertes par défaut pour les nouveaux réviseurs invités</td> 
-      <td>Sélectionnez la fréquence à laquelle les réviseurs invités reçoivent les mises à jour des emails. Les options sont identiques à celles de l’alerte par défaut.</td> 
+      <td>Alerte e-mail par défaut pour les nouveaux réviseurs et réviseuses invités</td> 
+      <td>Sélectionnez la fréquence à laquelle les réviseurs et réviseuses invités reçoivent des mises à jour par e-mail. Les options sont les mêmes que pour l’alerte par e-mail par défaut.</td> 
      </tr> 
      <tr> 
-      <td>Notification de nouveau BAT</td> 
-      <td>Choisissez de recevoir une notification lorsque vous êtes ajouté à un BAT.</td> 
+      <td>Nouvelle notification d’épreuve</td> 
+      <td>Choisissez de recevoir une notification lorsqu’une épreuve vous est affectée.</td> 
      </tr> 
      <tr> 
-      <td colspan="2"><strong>Paramètres du message</strong> </td> 
+      <td colspan="2"><strong>Paramètres des messages</strong> </td> 
      </tr> 
      <tr> 
-      <td>Modèle d’objet de BAT</td> 
-      <td>Saisissez ce que vous souhaitez que les utilisateurs voient dans l’objet d’un email lorsque vous partagez un BAT avec eux.</td> 
+      <td>Modèle d’objet d’épreuve</td> 
+      <td>Tapez ce que vous voulez que les utilisateurs et les utilisatrices voient dans l’objet d’un e-mail lorsque vous partagez une épreuve avec eux.</td> 
      </tr> 
      <tr> 
-      <td>Modèle de message de BAT</td> 
-      <td>Saisissez ce que vous souhaitez que les utilisateurs voient dans le corps d’un email lorsque vous partagez un BAT avec eux.</td> 
+      <td>Modèle de message d’épreuve</td> 
+      <td>Tapez ce que vous voulez que les utilisateurs et les utilisatrices voient dans le corps d’un e-mail lorsque vous partagez une épreuve avec eux.</td> 
      </tr> 
      <tr> 
-      <td colspan="2"><strong>Paramètres par défaut du BAT</strong> </td> 
+      <td colspan="2"><strong>Paramètres d’épreuve par défaut</strong> </td> 
      </tr> 
      <tr> 
-      <td>Verrouiller le BAT lorsque toutes les décisions sont prises</td> 
-      <td>Choisissez de verrouiller automatiquement le BAT contre d’autres modifications une fois toutes les décisions prises.</td> 
+      <td>Verrouiller l’épreuve lorsque toutes les décisions sont prises</td> 
+      <td>Choisissez de verrouiller automatiquement l’épreuve pour empêcher toute modification une fois que toutes les décisions ont été prises.</td> 
      </tr> 
      <tr> 
-      <td>Seule une décision doit être prise</td> 
-      <td>Choisissez de n'exiger qu'une seule décision sur un BAT.</td> 
+      <td>Ne demander qu’une seule décision</td> 
+      <td>Choisissez de ne demander qu’une seule décision pour une épreuve.</td> 
      </tr> 
      <tr> 
-      <td>Connexion requise</td> 
-      <td> <p>Choisissez de rendre le BAT disponible uniquement pour les utilisateurs disposant des informations de connexion Workfront Proof.</p> <p>Remarque : Les informations d’identification Workfront Proof peuvent être différentes de celles de Workfront, sauf si l’utilisateur de votre société se connecte au service d’authentification unique. Nous vous recommandons d’utiliser cette fonctionnalité uniquement si l’authentification unique de votre entreprise est utilisée.</p> </td> 
+      <td>Connexion obligatoire</td> 
+      <td> <p>Choisissez de rendre la preuve accessible uniquement aux utilisateurs et utilisatrices disposant des informations de connexion à Workfront Proof.</p> <p>Note : les informations d’identification Workfront Proof peuvent être différentes de vos informations d’identification Workfront, à moins que votre entreprise n’utilise la SSO. Nous vous recommandons d’utiliser cette fonction uniquement si votre entreprise utilise la SSO.</p> </td> 
      </tr> 
      <tr> 
       <td>Abonnement activé</td> 
-      <td>Autoriser les réviseurs externes à l’organisation à s’inscrire au BAT via l’URL publique ou le code intégré. Lorsque cette option est sélectionnée, l'abonné doit cliquer sur un lien dans un email pour accéder à un BAT. Sélectionnez cette option pour obliger le validant externe à cliquer sur un lien dans l'email pour accéder au BAT. Cette option est activée par défaut si l'option Partage public est sélectionnée et appliquée à tous les BAT créés par cet utilisateur. </td> 
+      <td>Permettre aux réviseurs et réviseuses externes à l’organisation de s’inscrire à l’épreuve via l’URL publique ou le code intégré. Lorsque cette option est sélectionnée, la personne abonnée doit cliquer sur un lien dans un e-mail pour accéder à une épreuve. Sélectionnez cette option pour demander au réviseur ou à la réviseuse externe de cliquer sur un lien dans l’e-mail pour accéder à l’épreuve. Cette option est activée par défaut si l’option Partage public est sélectionnée et s’applique à toutes les épreuves créées par cet utilisateur ou cette utilisatrice. </td> 
      </tr> 
      <tr> 
-      <td>Rôle par défaut pour les nouveaux réviseurs invités</td> 
-      <td>Sélectionnez un rôle de BAT par défaut pour les réviseurs invités. Les options sont identiques à celles du rôle BAT par défaut.</td> 
+      <td>Rôle par défaut pour les nouveaux réviseurs et réviseuses invités</td> 
+      <td>Sélectionnez un rôle d’épreuve par défaut pour les réviseurs et réviseuses invités. Les options sont les mêmes que celles du rôle d’épreuve par défaut.</td> 
      </tr> 
      <tr> 
-      <td>Téléchargement par bloc du fichier d’origine</td> 
-      <td>Choisissez d’empêcher les utilisateurs de télécharger le fichier original. </td> 
+      <td>Bloquer le téléchargement du fichier original</td> 
+      <td>Choisissez d’empêcher les utilisateurs et les utilisatrices de télécharger le fichier original. </td> 
      </tr> 
      <tr> 
-      <td>Mon rôle de BAT par défaut</td> 
-      <td>Choisissez votre rôle de BAT par défaut. </td> 
+      <td>Mon rôle d’épreuve par défaut</td> 
+      <td>Choisissez votre rôle d’épreuve par défaut. </td> 
      </tr> 
      <tr> 
       <td>Ma couleur de balisage par défaut</td> 
-      <td>Sélectionnez la couleur de balisage par défaut. </td> 
+      <td>Choisissez votre couleur de balisage par défaut. </td> 
      </tr> 
     </tbody> 
    </table>

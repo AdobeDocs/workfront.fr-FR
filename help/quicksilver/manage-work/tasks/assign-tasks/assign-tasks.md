@@ -1,7 +1,7 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Affecter des tâches
+title: Attribuer des tâches
 description: Vous pouvez affecter des tâches aux utilisateurs et utilisatrices, fonctions ou équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 author: Alina
 feature: Work Management, Tasks
@@ -20,11 +20,11 @@ ht-degree: 97%
 
 <!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles sont disponibles uniquement dans l’environnement de prévisualisation pour toutes les clientes et tous les clients ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver le versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur la version actuelle, voir [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
+<span class="preview">Pour plus d’informations sur la version actuelle, consultez la section [Vue d’ensemble de la version du quatrième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Vous pouvez affecter des tâches aux utilisateurs et aux utilisatrices, aux fonctions ou aux équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 
@@ -34,8 +34,8 @@ Vous pouvez affecter des tâches aux utilisateurs et aux utilisatrices, aux fonc
 >
 >Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
 >
->* Réaffectez l’élément de travail aux ressources actives.
->* Associez les personnes d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
+>* Réaffectez la tâche aux ressources actives.
+>* Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
 >
 
 Le nombre d’utilisateurs et d’utilisatrices à qui une tâche a été affectée et le planning de la personne propriétaire peuvent modifier les dates prévues pour une tâche, entraînant ainsi des modifications dans la chronologie du projet. Pour plus d’informations sur l’impact de l’affectation de plusieurs utilisateurs et utilisatrices à une tâche, consultez la section [Vue d’ensemble de la modification des affectations de tâches](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
@@ -46,13 +46,13 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
 * [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Créer des affectations intelligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Modifier les affectations de plusieurs utilisateurs et utilisatrices dans une liste de tâches](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
-* [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
+* [Modifier plusieurs affectations d’utilisateurs et d’utilisatrices dans une liste de tâches](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+* [Modifier des tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Vue d’ensemble de la planification d’un projet](../../../manage-work/projects/planning-a-project/plan-project.md)
 * [Vue d’ensemble de la date d’achèvement prévue de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [Définir la date d’achèvement prévue du projet](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
-* [Vue d’ensemble de l’affectation du travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Conditions d’accès
 
@@ -65,18 +65,18 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle : standard</p>
+   <td> <p>Nouveau : Standard</p>
    <p>Actuellement : Travail ou licence supérieure</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Accès en modification pour les projets et les tâches</p> <p>Accès en affichage ou de niveau supérieur pour les utilisateurs et utilisatrices</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Modifier l’accès aux projets et tâches</p> <p>Accès en affichage de niveau supérieur aux utilisateurs et utilisatrices</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -89,11 +89,11 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
 *Pour plus d’informations, voir [Exigences d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Remarques relatives à plusieurs affectations pour les fonctions, les équipes et les utilisateurs et utilisatrices
+## Considérations relatives à plusieurs affectations pour les fonctoins, les équipes et les utilisateurs et utilisatrices
 
 Tenez compte des points suivants lorsque vous affectez plusieurs ressources à un élément de travail :
 
-* Les utilisateurs et utilisatrices peuvent avoir plusieurs fonctions associées à leur profil. Pour plus d’informations sur l’association d’utilisateurs et d’utilisatrices à des fonctions, consultez la section [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Les utilisateurs et utilisatrices peuvent avoir plusieurs fonctions associées à leur profil. Pour plus d’informations sur l’affectation de fonctions à des utilisateurs et utilisatrices, consultez la section [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Si vous affectez plusieurs utilisateurs et utilisatrices à une tâche ou à un problème, la première personne sélectionnée est désignée automatiquement comme propriétaire de la tâche ou du problème.
 Pour plus d’informations sur la modification de cette option, consultez les informations sur l’option « Principal » dans l’article [Créer des affectations avancées](create-advanced-assignments.md).
@@ -117,9 +117,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    <td>Fonctions</td>
    <td><p>Si vous affectez une tâche ou un problème à une ou plusieurs fonctions et à un utilisateur ou à une utilisatrice, suivez les règles suivantes pour affecter cette fonction à l’utilisateur ou à l’utilisatrice supplémentaire :</p>
      <ul>
-      <li>Si une seule fonction est affectée et qu’elle correspond à la fonction principale de l’utilisateur ou de l’utilisatrice (configuré dans son profil), la tâche ou le problème est affecté uniquement à cet utilisateur ou à cette utilisatrice.</li>
-      <li>Si plusieurs fonctions sont affectées et qu’au moins l’une d’elles correspond à une fonction de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté à cet utilisateur ou à cette utilisatrice (la fonction est choisie de manière aléatoire s’il y a plusieurs correspondances), ainsi que tout autre fonction affectée.</li>
-      <li>Si au moins une fonction est affectée et qu’aucune correspondance n’est trouvée avec les fonctions de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté à la fois à la fonction ou aux fonctions et à l’utilisateur ou l’utilisatrice.</li>
+      <li>Si une seule fonction est affectée et qu’elle correspond au rôle principal de l’utilisateur ou de l’utilisatrice (configuré dans son profil), la tâche ou le problème est affecté(e) uniquement à cet utilisateur ou à cette utilisatrice.</li>
+      <li>Si plusieurs fonctions sont affectées et qu’au moins l’une d’elles correspond à une fonction de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté(e) à cet utilisateur ou à cette utilisatrice (la fonction est choisie de manière aléatoire s’il y a plusieurs correspondances), ainsi que tout autre fonction affectée.</li>
+      <li>Si au moins une fonction est affectée et qu’aucune correspondance n’est trouvée avec les fonctions de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté(e) à la fois à la fonction ou aux fonctions et à l’utilisateur ou l’utilisatrice.</li>
      </ul>
    <p>Pour plus d’informations sur la fonction principale ou les autres fonctions d’un utilisateur ou d’une utilisatrice, consultez la section <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</p>
    </td> 
@@ -154,14 +154,14 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’une fonction ou d’une équipe que vous souhaitez affecter, puis cliquez dessus lorsqu’il apparaît dans la liste.
+   * Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’un rôle ou d’une équipe que vous souhaitez affecter, puis cliquez sur celui-ci lorsqu’il apparaît dans la liste.
 
 
      >[!TIP]
      >
-     >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, la fonction principale de la personne ou son adresse e-mail pour faire la distinction entre les personnes portant des noms identiques. Les personnes doivent être associées à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
+     >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail, pour faire la distinction entre les utilisateurs et utilisatrices portant le même nom. Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
      >
-     >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, consultez la section [Accorder l’accès aux utilisateurs et aux utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
      ><span class="preview">Lors de l’ajout d’une affectation de fonction, vous pouvez rechercher la fonction ou l’emplacement. Sélectionnez une fonction parmi la liste des fonctions pour utiliser le taux de facturation par défaut pour l’affectation ou sélectionnez une fonction Carte tarifaire pour utiliser le taux de facturation de la carte tarifaire. Pour plus d’informations sur les cartes tarifaires, consultez la section [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
@@ -209,11 +209,11 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 
      >[!TIP]
      >
-     >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, la fonction principale de la personne ou son adresse e-mail pour faire la distinction entre les personnes portant des noms identiques. Les personnes doivent être associées à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
+     >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail, pour faire la distinction entre les utilisateurs et utilisatrices portant le même nom. Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
      >
-     >Pour pouvoir voir les adresses e-mail des utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     >Pour que les utilisateurs et utilisatrices puissent afficher les e-mails de leurs utilisateurs et utilisatrices, le paramètre Afficher les coordonnées doit être activé dans votre niveau d’accès. Pour plus d’informations, voir la section [Accorder l’accès aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">Lors de l’ajout d’une affectation de fonction, vous pouvez rechercher la fonction ou l’emplacement. Sélectionnez un rôle de tâche pour utiliser le taux de facturation par défaut pour l’affectation ou un rôle de tâche Carte de taux pour utiliser le taux de facturation dans la carte de taux. Pour plus d’informations sur les cartes tarifaires, consultez la section [Gérer les cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Lors de l’ajout d’une affectation de fonction, vous pouvez effectuer une recherche sur la fonction ou l’emplacement. Sélectionnez un rôle de tâche pour utiliser le taux de facturation par défaut pour l’affectation ou un rôle de tâche Carte de taux pour utiliser le taux de facturation dans la carte de taux. Pour plus d’informations sur les cartes tarifaires, voir la section [Gérer des cartes tarifaires](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
 1. (Le cas échéant) Lorsqu’elle est visible dans le champ **Affectations**, cliquez sur l’icône **Personnes** en haut à droite de la zone des affectations pour ouvrir la zone **Affectations avancées** et créer des affectations avancées.
@@ -222,13 +222,13 @@ Pour affecter des tâches dans une liste, procédez comme suit :
    there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
    -->
 
-   Pour plus d’informations, voir [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+   Pour plus d’informations, voir la section [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
    >Vous ne pouvez pas créer d’affectations avancées à partir des champs Affecté à ou Affecté.
 
-1. Après avoir ajouté les cessionnaires à la tâche, appuyez sur Entrée ou cliquez n’importe où sur la page pour enregistrer vos modifications si vous avez sélectionné Enregistrement automatique. Sinon, cliquez sur **Enregistrer**.
+1. Après avoir ajouté les personnes cessionnaires à la tâche, appuyez sur Entrée ou cliquez n’importe où sur la page pour enregistrer vos modifications si vous avez sélectionné Enregistrement automatique. Sinon, cliquez sur **Enregistrer**.
 
 ## Affecter plusieurs tâches à une personne
 
@@ -250,7 +250,7 @@ Pour affecter des tâches dans une liste, procédez comme suit :
    >
    >Si l’une des tâches est déjà affectée, les ressources que vous indiquez ici sont ajoutées aux tâches au lieu de remplacer les ressources existantes sur les tâches.
 
-1. (Facultatif) Sélectionnez la case d’option dans la colonne **Propriétaire de la tâche** pour indiquer la ressource qui est la personne cessionnaire principale ou la personne propriétaire de la tâche, lorsque vous affectez plusieurs ressources à la tâche. Cette option n’est pas disponible pour les équipes.
+1. (Facultatif) Sélectionnez la case d’option dans la colonne **Personne propriétaire de la tâche** pour indiquer la ressource qui est la personne cessionnaire principale ou la personne propriétaire de la tâche, lorsque vous affectez plusieurs ressources à la tâche. Cette option n’est pas disponible pour les équipes.
 1. (Le cas échéant) Spécifiez le **% d’affectation** pour chaque ressource affectée à la tâche si toutes les tâches sélectionnées ont un type de durée Piloté par l’effort ou Calcul d’affectation. Cela indique le temps que ces ressources doivent consacrer à l’exécution de la tâche. Cette option n’est disponible que pour les utilisateurs et utilisatrices et les fonctions.
 
    Ou
@@ -259,19 +259,19 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez pas spécifier le pourcentage d’allocation ou le nombre d’heures par ressource si les tâches que vous avez sélectionnées ont des types de durée différents.
+   >Vous ne pouvez pas spécifier le pourcentage d’affectation ni le nombre d’heures par ressource si les tâches que vous avez sélectionnées ont des types de durée différents ou si les tâches que vous avez sélectionnées ont des types de durée différents.
 
-   Pour des informations sur les types de durée des tâches, voir [Vue d’ensemble de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Pour plus d’informations sur le type de durée des tâches, voir la section [Vue d’ensemble de la durée de la tâche et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Facultatif) Sélectionnez un rôle que la personne doit remplir dans la tâche à partir du menu déroulant **Choisir un rôle** de la colonne **Rôle de la personne cessionnaire** lorsque vous affectez des personnes à des tâches. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle principal de la personne.
+1. (Facultatif) Sélectionnez un rôle que l’utilisateur ou l’utilisatrice doit remplir dans la tâche à partir du menu déroulant **Choisir un rôle** dans la colonne **Rôle de la personne cessionnaire** lorsque vous affectez des personnes à des tâches. Si vous ne sélectionnez pas de rôle, Workfront sélectionne automatiquement le rôle principal de l’utilisateur ou l’utilisatrice.
 
 1. (Facultatif) Si vous souhaitez supprimer des personnes cessionnaires existantes de toutes les tâches, effectuez l’une des opérations suivantes :
 
-   1. Commencez à saisir le nom d’une personne, d’un rôle ou d’une équipe à supprimer de la tâche, puis sélectionnez-le lorsqu’il apparaît dans la liste et cliquez sur **Supprimer la personne cessionnaire** pour supprimer d’autres personnes cessionnaires.
-   1. Cliquez sur **Supprimer tous les personnes cessionnaires existantes** pour supprimer toutes les personnes cessionnaires de toutes les tâches sélectionnées.
+   1. Commencez par saisir le nom d’une personne, d’un rôle ou d’une équipe à supprimer de la tâche, puis sélectionnez-le lorsqu’il apparaît dans la liste et cliquez sur **Supprimer la personne cessionnaire** pour supprimer d’autres personnes cessionnaires.
+   1. Cliquez sur **Supprimer toutes les personnes cessionnaires existantes** pour supprimer toutes les personnes cessionnaires de toutes les tâches sélectionnées.
 
 1. Cliquez sur **Enregistrer les modifications**.
-1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans la liste des tâches, cliquez sur l’une de ces colonnes et sélectionnez une tâche, puis cliquez sur l’**Icône X** en regard du nom d’une personne cessionnaire pour la supprimer de la tâche.
+1. (Facultatif et le cas échéant) Lorsque les champs Affecté à ou Affectations s’affichent dans la liste des tâches, cliquez dans l’une de ces colonnes pour une tâche, puis cliquez sur **l’Icône X** en regard du nom d’une personne cessionnaire pour la supprimer de la tâche.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

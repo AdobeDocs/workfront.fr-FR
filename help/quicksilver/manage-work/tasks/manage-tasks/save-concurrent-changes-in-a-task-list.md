@@ -2,43 +2,43 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Vue d’ensemble de l’enregistrement des modifications simultanées dans une liste de tâches
-description: Lorsque vous modifiez des tâches dans une liste, vous pouvez utiliser des paramètres d’enregistrement distincts pour indiquer si vous souhaitez que vos modifications soient enregistrées automatiquement lors de la modification manuelle des tâches dans une liste.
+description: Lorsque vous modifiez des tâches dans une liste, vous pouvez utiliser des paramètres d’enregistrement distincts pour indiquer si vous souhaitez que vos modifications soient enregistrées automatiquement ou manuellement lorsque vous modifiez les tâches d’une liste.
 author: Alina
 feature: Work Management
 exl-id: dff52425-4711-40a8-8f40-205d75c506ef
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # Vue d’ensemble de l’enregistrement des modifications simultanées dans une liste de tâches
 
-Lorsque vous modifiez des tâches dans une liste, vous pouvez utiliser des paramètres d’enregistrement distincts pour indiquer si vous souhaitez que vos modifications soient enregistrées automatiquement lors de la modification manuelle des tâches dans une liste.
+Lorsque vous modifiez des tâches dans une liste, vous pouvez utiliser des paramètres d’enregistrement distincts pour indiquer si vous souhaitez que vos modifications soient enregistrées automatiquement ou manuellement lorsque vous modifiez les tâches d’une liste.
 
-Pour plus d’informations sur l’édition de tâches dans une liste de tâches, voir l’article [Modifier les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Pour plus d’informations sur la modification des tâches dans une liste de tâches, voir l’article [Modifier les tâches d’une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-Parfois, des conflits peuvent apparaître si deux utilisateurs apportent des modifications à la même tâche.
+Parfois, des conflits peuvent apparaître si deux personnes effectuent des modifications sur les mêmes tâches.
 
-Tenez compte des points suivants lors de l’édition de tâches dans une liste de tâches :
+Tenez compte des éléments suivants lorsque vous modifiez des tâches dans une liste de tâches :
 
-* Adobe Workfront enregistre les modifications que vous apportez aux tâches immédiatement lorsque vous choisissez d’enregistrer vos modifications automatiquement si le type de mise à jour du projet est Automatique ou Automatique ou Changement. Pour plus d’informations sur les différents types de mises à jour pour les projets, consultez la section [Sélectionner le type de mise à jour du projet](../../../manage-work/projects/manage-projects/select-project-update-type.md).
-* Workfront met à jour les informations de la liste sur laquelle vous travaillez toutes les minutes avec les modifications que d’autres utilisateurs peuvent apporter n’importe où ailleurs dans le système. Vous obtenez ainsi toujours les informations les plus récentes sur les tâches.
+* Adobe Workfront enregistre immédiatement les modifications que vous apportez aux tâches lorsque vous choisissez d’enregistrer vos modifications automatiquement si le type de mise à jour du projet est Automatique ou Automatique ou En cas de modification. Pour plus d’informations sur le type de mise à jour des projets, voir [Sélectionner le type de mise à jour du projet](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Workfront met à jour les informations de la liste sur laquelle vous travaillez toutes les minutes avec les modifications que d’autres utilisateurs et utilisatrices peuvent apporter ailleurs dans le système. Cela vous garantit de toujours disposer des informations les plus récentes sur les tâches.
 
-Les scénarios suivants se produisent lorsque plusieurs utilisateurs modifient les mêmes tâches :
+Les scénarios suivants se produisent lorsque plusieurs utilisateurs et utilisatrices modifient les mêmes tâches :
 
-* **Un utilisateur enregistre automatiquement les modifications dans une liste de tâches et un autre manuellement** : si un utilisateur (utilisateur A) enregistre les modifications manuellement pendant que l’utilisateur B modifie les mêmes tâches, mais enregistre automatiquement les modifications apportées, les modifications en direct effectuées par l’utilisateur B sont mises à jour toutes les minutes dans la liste de l’utilisateur A. En cas de conflit entre les modifications effectuées par les deux utilisateurs, l’utilisateur qui enregistre manuellement (utilisateur A) voit un message d’avertissement avant de pouvoir enregistrer les modifications. Le message d’avertissement affiche les éléments présentant les modifications en conflit. Actuellement, l’utilisateur A peut choisir de conserver ses modifications (qui remplacent les modifications apportées par l’utilisateur B) ou de les ignorer (qui conserve les modifications apportées par l’utilisateur B).
+* **Une personne enregistre automatiquement les modifications dans une liste de tâches et une autre le fait manuellement** : si une personne A enregistre des modifications manuellement alors que la personne B modifie les mêmes tâches mais enregistre ses modifications automatiquement, les modifications apportées par la personne B sont mises à jour dans la liste de la personne A chaque minute. En cas de conflit entre les modifications apportées par les deux personnes, celle qui enregistre manuellement (personne A) reçoit un message d’avertissement avant de pouvoir enregistrer ses modifications. Le message d’avertissement indique les éléments pour lesquels les modifications sont contradictoires. À ce moment-là, la personne A peut choisir de conserver ses modifications (ce qui remplace les modifications apportées par la personne B) ou de les rejeter (ce qui conserve les modifications apportées par la personne B).
 
 >[!NOTE]
 >
->Lorsque vous choisissez d’ignorer les modifications que vous avez apportées, cela s’applique à toutes les modifications et pas seulement à celles qui ont un conflit avec les modifications effectuées par un autre utilisateur.
+>Lorsque vous choisissez de rejeter vos modifications, cela s’applique à toutes les modifications et non pas seulement à celles qui sont en conflit avec les modifications effectuées par l’autre personne.
 
-* **Plusieurs utilisateurs enregistrent manuellement les modifications dans une liste de tâches** : si plusieurs utilisateurs qui apportent des modifications à des tâches dans une liste enregistrent manuellement en même temps, Workfront enregistre les modifications effectuées par l’utilisateur qui enregistre en premier. L’enregistrement de ces modifications ne doit pas rencontrer de conflit. Workfront compare ensuite les modifications effectuées par tous les autres utilisateurs avec les informations qu’il a déjà enregistrées et affiche un avertissement sur les modifications en conflit pour les autres utilisateurs avant qu’ils puissent enregistrer leurs informations.
+* **Plusieurs personnes enregistrent manuellement les modifications d’une liste de tâches** : si plusieurs personnes qui modifient les tâches d’une liste enregistrent manuellement en même temps, Workfront enregistre les modifications apportées par la personne qui enregistre en premier. L’enregistrement de ces modifications ne devrait pas entraîner de conflits. Workfront compare ensuite les modifications apportées par toutes les autres personnes avec les informations déjà enregistrées et affiche un avertissement sur les modifications conflictuelles aux autres personnes avant qu’elles puissent enregistrer leurs informations.
 
 >[!IMPORTANT]
 >
->Lorsque vous choisissez de conserver vos modifications par rapport à toutes les autres modifications, toutes celles-ci sont enregistrées, sauf si les tâches dans lesquelles vous avez apporté des modifications ont été supprimées par un autre utilisateur. Dans ce cas, le message d’avertissement vous informe que les modifications que vous avez apportées aux tâches supprimées sont perdues.
+>Lorsque vous choisissez de conserver vos modifications par rapport à toutes les autres modifications, toutes vos modifications sont enregistrées, sauf si les tâches que vous avez modifiées ont été supprimées par une autre personne. Dans ce cas, le message d’avertissement vous informe que les modifications apportées aux tâches supprimées sont perdues.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 

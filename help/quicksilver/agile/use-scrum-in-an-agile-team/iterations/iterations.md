@@ -21,7 +21,7 @@ Les articles suivants décrivent comment utiliser des itérations dans un enviro
 
 * [Vue d’ensemble des itérations](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
 * [Créer une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-* [Créer une story agile dans une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
-* [Ajouter des utilisateurs et utilisatrices à une itération existante](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
+* [Créer une histoire Agile dans une itération](../../../agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+* [Ajouter des histoires à une itération existante](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
 * [Afficher une itération](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
 * [Supprimer une itération](../../../agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)

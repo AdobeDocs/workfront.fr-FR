@@ -1,6 +1,6 @@
 ---
-title: Améliorations apportées à l’administration (version 23.2)
-description: Améliorations apportées à l’administration (version 23.2)
+title: 23.2 Améliorations pour l’administration
+description: 23.2 Améliorations pour l’administration
 author: Courtney
 draft: Probably
 feature: Product Announcements
@@ -9,46 +9,46 @@ exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
 source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 33%
+ht-degree: 98%
 
 ---
 
-# Améliorations apportées à l’administration (version 23.2)
+# 23.2 Améliorations pour l’administration
 
-Cette page décrit toutes les améliorations apportées par l’administrateur à la version 23.2 de l’environnement Aperçu. Ces améliorations seront mises à disposition dans l’environnement de production avec la version 23.2.
+Cette page décrit toutes les améliorations administratives apportées à l’environnement de prévisualisation avec la version 23.2. Ces améliorations seront mises à disposition dans l’environnement de production avec la version 23.2.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version 23.2, voir l’article [Vue d’ensemble de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication 23.2, voir l’article [Vue d’ensemble de la version 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Mappage des valeurs de champ Workfront aux balises dans Experience Manager Assets
+## Mapper les valeurs des champs Workfront aux balises dans Experience Manager Assets
 
-Vous pouvez désormais classer et rechercher rapidement des ressources en fonction des données de Workfront.  Vous pouvez mapper ces données dans le cadre de votre configuration de métadonnées dans l’intégration de Workfront for Experience Manager Assets.
+Vous pouvez désormais classer et rechercher rapidement des ressources en fonction des données de Workfront.  Vous pouvez mapper ces données dans le cadre de votre configuration de métadonnées dans l’intégration Workfront pour Experience Manager Assets.
 
-Auparavant, le mappage des données Workfront aux balises Experience Manager Assets n’était pas disponible.
+Auparavant, le mappage des données Workfront aux balises Experience Manager Assets n’était pas disponible.
 
-Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets as a Cloud Service, [Configurez l’ [!UICONTROL intégration Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets as a Cloud Service, consultez la section [Configurer l’intégration d’[!UICONTROL Experience Manager Assets as a Cloud Service] ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets Essentials, [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets Essentials, consultez la section [Configurer l’intégration d’Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## Créer des formulaires personnalisés avec la nouvelle version bêta du concepteur de formulaires
+## Créer des formulaires personnalisés avec la nouvelle version bêta du créateur de formulaire
 
-Disponible désormais dans une version bêta publique, le nouveau concepteur de formulaire dispose d’un nouvel espace de travail de type zone de travail qui vous permet d’afficher simultanément les champs, la zone de travail et les paramètres de champ.
+Le nouveau créateur de formulaires, désormais disponible en version bêta publique, dispose d’un nouvel espace de travail de type zone de travail qui vous permet de visualiser en même temps les champs, la zone de travail et les paramètres des champs.
 
-Avec le nouveau concepteur de formulaires, nous avons ajouté la possibilité d’utiliser
+Avec le nouveau créateur de formulaires, nous avons ajouté la possibilité de :
 
-* **Copier un champ** : vous pouvez désormais copier des champs existants en cliquant sur l’icône Copier dans les champs directement depuis la zone de travail.
+* **Copier un champ** : vous pouvez maintenant copier des champs existants en cliquant sur l’icône « Copier » sur les champs directement à partir de la zone de travail.
 
-* **Utiliser une section par défaut** : si la personne à l’origine du formulaire n’a pas ajouté de section en haut du formulaire, une section Par défaut est désormais visible dans la zone de travail, de sorte que les utilisateurs et utilisatrices puissent ajuster les autorisations pour les champs auxquels aucune section personnalisée n’est affectée.
+* **Utiliser une section par défaut** : lorsque le créateur ou la créatrice du formulaire n’a pas inséré de section en haut du formulaire, une section par défaut apparaît maintenant dans la zone de travail pour que les utilisateurs et les utilisatrices puissent accorder des autorisations aux champs sans section personnalisée affectée.
 
-* **Modifier la taille du texte descriptif** : vous pouvez désormais choisir des petites, moyennes ou grandes tailles pour les champs de texte descriptif. Vous pouvez également les utiliser sur la même ligne avec d’autres champs. <span style="color: #ff0000;"> La modification de la taille du texte descriptif a été temporairement retardée, mais sera bientôt disponible.</span></li>
+* **Modifier la taille des champs de texte descriptif** : vous pouvez désormais attribuer une taille petite, moyenne ou grande aux champs de texte descriptif. Vous pouvez également les utiliser sur la même ligne que d’autres champs. <span style="color: #ff0000;">Modifier la taille du texte descriptif a été temporairement retardé, mais sera bientôt disponible.</span></li>
 
 Pour plus d’informations, voir [Présentation des formulaires personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 [Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
-## Renommer les pin’s dans le modèle de mise en page
+## Renommer les épingles dans le modèle de mise en page
 
-Vous pouvez désormais renommer les pin’s dans un modèle de mise en page afin qu’ils aient plus de sens pour vos utilisateurs, au lieu d’utiliser le nom par défaut de la page épinglée. Les broches créées par les administrateurs s’affichent pour tous les utilisateurs affectés au modèle de mise en page, et les utilisateurs ne peuvent pas renommer ces broches.
+Dans un modèle de mise en page, vous pouvez désormais renommer les épingles pour les rendre plus significatives pour vos utilisateurs ou vos utilisatrices, au lieu d’utiliser le nom par défaut de la page épinglée. Les épingles créées par l’équipe d’administration sont visibles pour l’ensemble des utilisateurs et des utilisatrices du modèle de mise en page et ne peuvent pas être renommées par ces utilisateurs et ces utilisatrices.
 
-Pour plus d’informations, voir [Personnalisation des pages épinglées à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Pour plus d&#39;informations sur la façon dont les utilisateurs peuvent renommer leurs pages personnelles épinglées, reportez-vous à la section [Pages d&#39;épingle pour personnaliser votre espace de travail](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+Pour plus d’informations, consultez la section [Personnaliser les pages épinglées à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Pour plus d’informations sur la manière dont les utilisateurs et les utilisatrices peuvent renommer leurs pages personnelles épinglées, consultez la section [Épingler des pages pour personnaliser votre espace de travail](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3414364/){target=_blank}
+[Regarder une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3414364/){target=_blank}

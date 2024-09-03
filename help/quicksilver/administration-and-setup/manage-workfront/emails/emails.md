@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Les e-mails dans Adobe Workfront se composent de notifications, de rappels et d’invitations d’utilisateurs et d’utilisatrices. Les administrateurs et administratrices système sont chargés de définir de nombreux paramètres d’e-mail. Cependant, d’autres utilisateurs et utilisatrices (en fonction du niveau d’accès) peuvent bénéficier de l’utilisation de fonctionnalités d’e-mail pour gérer leur propre communication sur le travail.
 
-Les e-mails dans Workfront (internes et externes) sont variés et dynamiques. Des communications automatiques peuvent être envoyées aux utilisateurs et utilisatrices concernant le retard de certaines tâches. Les notifications peuvent être définies pour un élément de travail spécifique afin de rappeler à l’utilisateur ou à l’utilisatrice lorsqu’une tâche approche une date d’échéance. Des invitations peuvent être configurées pour permettre aux utilisateurs et utilisatrices d’établir leurs propres mots de passe, plutôt que de demander à l’administrateur ou à l’administratrice système de les gérer.
+Les e-mails dans Workfront (internes et externes) sont variés et dynamiques. Des communications automatiques informant lorsque les tâches sont en retard peuvent être envoyées aux utilisateurs et utilisatrices. Les notifications peuvent être définies pour un élément de travail spécifique afin de rappeler à l’utilisateur ou à l’utilisatrice lorsqu’une tâche approche une date d’échéance. Des invitations peuvent être configurées pour permettre aux utilisateurs et utilisatrices d’établir leurs propres mots de passe, plutôt que de demander à l’administrateur ou à l’administratrice système de les gérer.
 
 Avec toutes les options disponibles pour définir la manière dont les utilisateurs et utilisatrices reçoivent et affichent la communication dans Workfront, la création et l’utilisation d’e-mails soutiennent la gestion du travail de votre entreprise et offrent une visibilité à 360 degrés du travail.
 
@@ -38,4 +38,4 @@ Cette section contient les articles suivants :
 * [Configurer des rappels automatiques](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
 * [Configurer des modèles d’e-mail](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)
 * [Autoriser les e-mails à partir de l’application Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
-* [Gérer les invitations par e-mail pour les nouveaux utilisateurs et utilisatrices](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
+* [Gérer les invitations par e-mail aux nouveaux utilisateurs et utilisatrices](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)

@@ -40,11 +40,11 @@ Les fonctionnalités publiées sont répertoriées dans l’ordre dans lequel el
 
 ## Semaine du 25 décembre 2023
 
-### Effectuer une recherche dans la vue chronologique
+### Recherche dans la vue chronologique
 
 Prévisualisation et production : 27 décembre 2023
 
-Vous pouvez désormais rechercher rapidement un enregistrement à l’aide d’un mot-clé dans la vue chronologique. Vous pouvez utiliser des mots-clés et des caractères spéciaux de n’importe quel champ visible à l’écran pour trouver un enregistrement. Pour plus d’informations, consultez la section [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Vous pouvez désormais rechercher un mot-clé pour trouver rapidement un enregistrement dans la vue chronologique. Vous pouvez utiliser des mots-clés et des caractères spéciaux provenant de tous les champs visibles à l’écran pour rechercher un enregistrement. Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semaine du 18 décembre 2023
 
@@ -54,13 +54,13 @@ Prévisualisation et production pour l’ensemble des clientes et des clients :
 
 >[!NOTE]
 >
->Les fonctionnalités suivantes seront disponibles dans la version de production de janvier 2024 :
+>Les fonctionnalités suivantes seront disponibles en production à partir de la version de janvier 2024 :
 >
 >* Rechercher des commentaires
 >
 >* Copier et coller des images
 >
->* Faire glisser des images et les déposer
+>* Glisser-déposer des images
 >
 >Pour en savoir plus, consultez la [Vue d’ensemble de la version du premier trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
@@ -86,7 +86,7 @@ Vous pouvez désormais utiliser Adobe Workfront Fusion pour vous connecter aux
 
 * Obtenir une liste d’enregistrements par type d’enregistrement
 
-* Supprimer ou obtenir une liste des types d’enregistrement
+* Supprimer ou obtenir une liste de types d’enregistrements
 
 * Rechercher des enregistrements
 
@@ -106,11 +106,11 @@ Vous pouvez désormais choisir le champ que vous souhaitez afficher dans la prem
 
 Avant cette amélioration, le champ Nom d’un enregistrement s’affichait toujours dans la première colonne de la vue de tableau et ne pouvait pas être placé à un autre endroit.
 
-Avec cette amélioration, notez les points suivants :
+Dans le cadre de cette amélioration, il convient de noter ce qui suit :
 
-* Par défaut, la colonne ou le champ Nom est toujours la première colonne d’un tableau.
+* La colonne ou le champ Nom est toujours la première colonne d’un tableau, par défaut.
 
-* Vous pouvez choisir n’importe quel champ des types suivants comme champ principal et remplacer le champ Nom dans la première colonne :
+* Vous pouvez choisir n’importe quel champ parmi les types suivants comme champ principal et remplacer le champ Nom dans la première colonne :
 
    * Texte à une ligne
 
@@ -118,7 +118,7 @@ Avec cette amélioration, notez les points suivants :
 
    * Formule
 
-* Le champ principal d’une vue de tableau est toujours figé et ne peut pas être déplacé, sauf si vous définissez un autre champ comme champ principal.
+* Le champ principal d’une vue de tableau est toujours gelé et ne peut pas être déplacé, sauf si vous définissez un autre champ comme champ principal.
 
 * Vous pouvez modifier le champ principal à partir d’un en-tête de colonne non principal.
 
@@ -152,7 +152,7 @@ Une fois la connexion établie, les fonctionnalités suivantes sont disponibles 
 
 * Vous pouvez cliquer sur le nom de la ressource dans la vue de tableau de l’enregistrement de fonctionnalité de planification à partir du champ d’enregistrement connecté, puis afficher une fenêtre contextuelle contenant la miniature de la ressource et plusieurs champs clés. Dans la fenêtre contextuelle, vous pouvez accéder à la visionneuse de ressource dans Experience Manager et en afficher tous les détails.
 
-Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Semaine du 4 décembre 2023
 
@@ -163,7 +163,7 @@ Prévisualisation et production : 5 décembre 2023
 Vous pouvez désormais copier et coller des informations d’un champ dans un autre de même type dans une vue de tableau de type d’enregistrement. Cette fonctionnalité est maintenant prise en charge pour les types de champs suivants :
 
 * Personnes
-* Champs d’enregistrement lié
+* Champs d’enregistrement liés
 
 Tenez compte des points suivants :
 
@@ -173,7 +173,7 @@ Tenez compte des points suivants :
 
 * Vous ne pouvez pas copier et coller des valeurs de champ pour les champs qui s’affichent dans la zone Détails d’un enregistrement.
 
-Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+Pour plus d’informations, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 Pour plus d’informations sur les champs liés, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -191,19 +191,19 @@ Tenez compte des points suivants :
 
 * Vous ne pouvez pas copier et coller des valeurs de champ pour les champs qui s’affichent dans la zone Détails d’un enregistrement.
 
-* Vous ne pouvez pas copier et coller des valeurs de champ pour les types de champs suivants :
+* Vous ne pouvez pas copier et coller les valeurs des champs suivants :
 
    * Personnes
 
    * Champs système
 
-   * Champs liés créés suite à la connexion d’enregistrements
+   * Champs liés créés à la suite de la connexion d’enregistrements
 
-Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+Pour plus d’informations, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 ## Semaine du 6 novembre 2023
 
-### Regroupement pour la vue de tableau
+### Regrouper pour la vue de tableau
 
 Prévisualisation et production : 7 novembre 2023
 
@@ -213,7 +213,7 @@ Pour plus d’informations, voir [Gérer la vue de tableau](/help/quicksilver/pl
 
 ## Semaine du 30 octobre 2023
 
-### Nouveaux types de champs pour les champs d’utilisateur et d’utilisatrice et de date afin de capturer les personnes qui ont créé ou modifié pour la dernière fois un enregistrement ou à quelle date
+### Nouveaux types de champs pour les champs Personnes et Dates afin de déterminer qui a créé ou modifié un enregistrement pour la dernière fois ou à quelle date.
 
 Prévisualisation et production : 30 octobre 2023
 
@@ -227,7 +227,7 @@ Nous avons introduit les types de champs suivants pour les enregistrements de fo
 
 * Date de dernière modification
 
-Les valeurs de champ des champs créés à partir de ces types de champs sont en lecture seule et capturent le nom de l’utilisateur ou de l’utilisatrice qui a créé ou modifié pour la dernière fois un enregistrement, ou la date à laquelle l’enregistrement a été créé ou modifié pour la dernière fois.
+Les valeurs des champs créés à partir de ces types de champs sont en lecture seule et capturent le nom de la personne qui a créé ou modifié en dernier un enregistrement, ou la date à laquelle l’enregistrement a été créé ou modifié en dernier.
 
 Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -247,68 +247,68 @@ Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilv
 
 Prévisualisation et production : 2 novembre 2023
 
-Nous avons amélioré la navigation dans la vue de tableau d’une page de type d’enregistrement.
+Nous avons amélioré la navigation dans la vue de tableau d’une page de type enregistrement.
 
-Voici quelques-unes des ces améliorations :
+Voici quelques-unes des améliorations apportées :
 
-* Utilisez la touche de tabulation de votre clavier pour parcourir les colonnes et les lignes du tableau.
+* Utilisez la touche de tabulation de votre clavier pour naviguer dans les colonnes et les lignes du tableau.
 
 * Ajoutez un nouvel enregistrement à partir de n’importe quelle position de colonne. Avant cette amélioration, vous ne pouviez ajouter un enregistrement qu’à partir de la première colonne.
 
-* Utilisez la combinaison de touches du clavier Maj + Entrée pour ajouter un nouvel enregistrement (ou une nouvelle ligne) dans le tableau.
+* Utilisez la combinaison de touches Maj + Entrée pour ajouter un nouvel enregistrement (ou une nouvelle ligne) dans le tableau.
 
-Pour plus d’informations, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
+Pour plus d’informations, consultez [Connecter les enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
 ## Semaine du 16 octobre 2023
 
-### Nouveau type de champ Personnes
+### Nouveau type de champ « Personnes »
 
 Prévisualisation et production : 16 octobre 2023
 
-Vous pouvez désormais ajouter un champ de type Personnes aux types d’enregistrements de fonctionnalités de planification. Vous pouvez utiliser des champs de type Personnes pour associer des utilisateurs et utilisatrices existants à un enregistrement. Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+Vous pouvez désormais ajouter un champ de type Personnes aux types d’enregistrements de fonctionnalités de planification. Vous pouvez utiliser des champs de type Personnes pour associer des utilisateurs et utilisatrices existants à un enregistrement. Pour plus d’informations, consultez la section [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-### Format de texte enrichi pour les champs Paragraphe
+### Format de texte enrichi pour les champs de texte de paragraphe
 
-Prévisualisation et production : 16 octobre 2023
+Pévisualisation et production : 16 octobre 2023
 
 Nous avons ajouté des contrôles de format de texte enrichi pour les champs de type Paragraphe. Vous pouvez mettre en forme vos champs de paragraphe à l’aide du texte enrichi dans la vue de tableau d’un type d’enregistrement ou dans la page d’enregistrement. Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 
-### Codes de couleurs d’enregistrement et de regroupement pour la vue de chronologie
+### Code couleur pour les enregistrements et les regroupements dans la vue chronologique
 
 Prévisualisation et production : 19 octobre 2023
 
-Vous pouvez désormais coder par couleur les barres d’enregistrement et les regroupements dans la vue de chronologie.
+Vous pouvez désormais attribuer un code couleur aux barres d’enregistrement et aux regroupements dans la vue chronologique.
 
-Vous trouverez ci-dessous des options pour les couleurs que vous pouvez choisir d’afficher pour les barres d’enregistrement et les regroupements dans la vue de chronologie :
+Les options suivantes concernent les couleurs que vous pouvez choisir d’afficher pour les barres d’enregistrement et les regroupements dans la vue chronologique :
 
-* Les regroupements peuvent correspondre aux couleurs suivantes :
+* Les regroupements peuvent être assortis aux couleurs suivantes :
 
    * Gris (par défaut)
 
-   * La couleur du champ sur lequel vous regroupez
+   * Couleur du champ par lequel vous effectuez le regroupement.
 
-* Les barres peuvent correspondre aux couleurs suivantes :
+* Les barres peuvent être assorties aux couleurs suivantes :
 
-   * La couleur du type d’enregistrement
+   * Couleur du type d’enregistrement
 
-   * La couleur d’un champ que vous sélectionnez
+   * Couleur d’un champ que vous sélectionnez.
 
-   * La couleur du groupement
+   * Couleur du regroupement
 
-   * Aucune couleur (par défaut)
+   * Pas de couleur (par défaut)
 
-Lorsque vous associez des couleurs à un champ donné, vous ne pouvez sélectionner que les champs avec des options codées par couleurs.
+Lorsque vous associez des couleurs à un champ donné, vous pouvez ne sélectionner que les champs avec des options de code couleur.
 
-Pour plus d’informations, voir [Gérer la vue de chronologie](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Pour plus d’informations, consultez la section [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semaine du 9 octobre 2023
 
-### Rechercher dans la vue de tableau
+### Rechercher dans la vue en tableau
 
 Prévisualisation et production : 9 octobre 2023
 
-Vous pouvez désormais rechercher un mot-clé pour trouver rapidement un enregistrement dans la vue de tableau. Vous pouvez utiliser des mots-clés et des caractères spéciaux de n’importe quel champ visible à l’écran pour trouver un enregistrement. Pour plus d’informations, voir [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+Vous pouvez désormais rechercher un mot-clé pour trouver rapidement un enregistrement dans la vue en tableau. Vous pouvez utiliser des mots-clés et des caractères spéciaux provenant de tous les champs visibles à l’écran pour rechercher un enregistrement. Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semaine du 18 septembre 2023
 
@@ -316,7 +316,7 @@ Vous pouvez désormais rechercher un mot-clé pour trouver rapidement un enregis
 
 Prévisualisation et production : 20 septembre 2023
 
-Vous pouvez désormais réorganiser une ou plusieurs lignes (ou enregistrements) dans la vue de tableau d’une page de type d’enregistrement. Pour plus d’informations, voir [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+Vous pouvez désormais réorganiser une ou plusieurs lignes (ou enregistrements) dans la vue en tableau d’une page de type d’enregistrement. Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semaine du 4 septembre 2023
 
@@ -338,26 +338,26 @@ Tenez compte des points suivants :
 
   Pour plus d’informations, consultez les articles suivants :
 
-   * [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
+   * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 
-### Prise en charge des URL pour les champs de texte à une ligne
+### Prise en charge de l’URL pour les champs de texte d’une seule ligne
 
 Prévisualisation et production : 7 septembre 2023
 
-Pour une meilleure visibilité lors de l’utilisation de liens dans la vue de tableau, nous avons ajouté la prise en charge des URL dans les champs de texte à une ligne. Grâce aux URL vers d’autres sites web ou lecteurs externes lors de la mise à jour d’un champ de texte à une ligne, vous pouvez désormais les identifier comme des liens et cliquer dessus dans le tableau. Avant cette amélioration, les liens s’affichaient sous forme de texte.
+Pour augmenter la visibilité des liens dans la vue en tableau, la prise en charge des URL a été ajoutée aux champs de texte d’une seule ligne. Lorsque vous intégrez des URL vers des sites web externes dans un champ de texte d’une ligne, le système les transforme en liens cliquables accessibles à partir de la vue en tableau. Avant cette amélioration, les liens s’affichaient sous forme de texte.
 
 ## Semaine du 28 août 2023
 
-### Menu de visibilité des champs de la barre d’outils Vue de tableau
+### Menu de visibilité des champs pour la barre d’outils de la vue en tableau
 
 Prévisualisation et production : 31 août 2023
 
-Pour afficher les informations appropriées sur un jeu d’enregistrements donné, en particulier si vous avez l’intention de partager la vue avec d’autres personnes qui doivent voir certains champs d’un type d’enregistrement mais pas tous, vous pouvez désormais sélectionner les champs (ou colonnes) à afficher et ceux à masquer dans la vue de tableau.
+Pour afficher les informations correctes d’un ensemble donné d’enregistrements, en particulier si vous avez l’intention de partager la vue avec d’autres personnes qui doivent voir certains champs d’un type d’enregistrement, mais pas tous, vous pouvez désormais sélectionner les champs (ou colonnes) à afficher et ceux à masquer dans la vue en tableau.
 
-Vous pouvez masquer ou afficher des champs individuels de chaque en-tête des colonnes de champs, ou vous pouvez gérer tous les champs du type d’enregistrement à partir d’un paramètre de la barre d’outils de la vue de tableau.
+Vous pouvez masquer ou afficher des champs individuels à partir de chaque en-tête des colonnes de champs, ou gérer tous les champs du type d’enregistrement à partir d’un paramètre de la barre d’outils de la vue en tableau.
 
-Pour plus d’informations, voir [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semaine du 21 août 2023
 
@@ -373,26 +373,26 @@ Vous pouvez désormais associer un enregistrement de capacités de planification
 
 ### Nouvelle fonctionnalité de tri pour la vue de tableau
 
-Version préliminaire et de production : 24 août 2023
+Prévisualisation et production : 24 août 2023
 
-Vous pouvez désormais trier les enregistrements dans la vue de tableau d’une page de type d’enregistrement.
-Les capacités suivantes sont désormais disponibles :
+Vous pouvez désormais trier les enregistrements dans la vue en tableau d’une page de type d’enregistrement.
+Les possibilités suivantes sont désormais disponibles :
 
-* Tri au niveau du tableau, où vous pouvez trier simultanément plusieurs champs.
-* Tri au niveau de la colonne ou du champ, où vous pouvez trier selon un champ individuel à la fois.
+* Trier au niveau du tableau, ce qui permet de trier sur plusieurs champs en même temps.
+* Trier au niveau d’une colonne ou d’un champ, ce qui permet de trier un champ à la fois.
 
-### Améliorations de la vue chronologique : nouvelle apparence pour les regroupements et basculement entre la vue standard etcompacte
+### Améliorations de la vue chronologique : nouvel aspect des regroupements et basculement entre la vue compacte et la vue standard.
 
-Version préliminaire et de production : 24 août 2023
+Prévisualisation et production : 24 août 2023
 
-Les améliorations suivantes ont été apportées à la vue chronologique :
+Nous avons apporté les améliorations suivantes à la vue chronologique :
 
-* Vous pouvez maintenant afficher la vue chronologique dans les modes suivants :
+* Vous pouvez désormais afficher la vue chronologique dans les modes suivants :
 
-   * Standard : affiche les enregistrements dans des lignes distinctes.
-   * Compact : affiche les enregistrements dont les dates ne se croisent pas sur la même ligne.
+   * Standard : affiche les enregistrements sur des lignes séparées.
+   * Compact : affiche les enregistrements dont les dates ne se chevauchent pas sur la même ligne.
 
-* Nous avons modifié l’apparence des lignes de regroupement dans la vue chronologique afin qu’elles s’affichent au-dessus de la chronologie des enregistrements qu’elles contiennent. Avant cette amélioration, les lignes de regroupement s’affichaient sur toute la longueur de la chronologie.
+* Nous avons modifié l’aspect des lignes de regroupement dans la vue chronologique afin qu’elles s’affichent au-dessus de la chronologie des enregistrements qu’elles contiennent. Avant cette amélioration, les lignes de regroupement s’affichaient sur toute la longueur de la chronologie.
 
 ## Semaine du 14 août 2023
 
@@ -400,7 +400,7 @@ Les améliorations suivantes ont été apportées à la vue chronologique :
 
 Vous pouvez désormais réorganiser les colonnes dans la vue du tableau. Tenez compte des points suivants lors de la réorganisation des colonnes :
 
-* Le champ Nom est toujours le premier champ de la vue de tableau d’une page de type d’enregistrement.
+* Le champ de nom est toujours le premier champ de la vue en tableau d’une page de type d’enregistrement.
 
 * Vous ne pouvez pas déplacer le champ Nom vers une autre position.
 
@@ -408,39 +408,39 @@ Vous pouvez désormais réorganiser les colonnes dans la vue du tableau. Tenez c
 
 ### Défilement horizontal pour la vue chronologique
 
-Vous pouvez désormais faire défiler horizontalement dans la vue chronologique d’un type d’enregistrement.
+Vous pouvez désormais faire défiler horizontalement la vue chronologique d’un type d’enregistrement.
 
 ## Semaine du 7 août 2023
 
-### Importer des types d’enregistrement à partir d’un fichier Excel
+### Importer des types d’enregistrements à partir d’un fichier Excel
 
-Version préliminaire et de production : 10 août 2023
+Prévisualisation et production : 10 août 2023
 
-Vous pouvez désormais importer un fichier Excel pour créer des types d’enregistrement dans un espace de travail. Les feuilles du fichier deviennent les types d’enregistrement et les colonnes du fichier deviennent leurs champs respectifs.
+Vous pouvez désormais importer un fichier Excel pour créer des types d’enregistrements dans un espace de travail. Les feuilles du fichier deviennent les types d’enregistrements et les colonnes du fichier deviennent leurs champs respectifs.
 
-### Expérience améliorée pour l’association des types d’enregistrement et des projets
+### Amélioration de l’expérience de connexion entre les types d’enregistrements et les projets
 
-Version préliminaire et de production : 10 août 2023
+Prévisualisation et production : 10 août 2023
 
-Nous avons amélioré la manière dont vous associez les types d’enregistrement, y compris l’association aux projets Workfront. Dans le cadre de cette amélioration, nous avons apporté les modifications suivantes lors de l’ajout d’un champ pour un type d’enregistrement à partir de la vue de tableau :
+Nous avons amélioré le processus de connexion des types d’enregistrements, notamment ceux reliés aux projets Workfront. Dans le cadre de ces améliorations, nous avons effectué les ajustements suivants pour l’ajout de champs à un type d’enregistrement via la vue en tableau :
 
-* Suppression du champ Type de relation de l’onglet « Nouveau champ ».
+* Suppression du champ de type « Relation » de l’onglet « Nouveau champ ».
 
-* Ajoutez un onglet « Nouvelle connexion » dans lequel vous pouvez sélectionner directement le type d’enregistrement ou d’objet auquel vous souhaitez vous connecter, rendant ainsi inutile l’utilisation d’un champ de type Relation.
+* Nous avons introduit un onglet « Nouvelle connexion » permettant de choisir directement le type d’enregistrement ou d’objet pour la connexion, supprimant ainsi le besoin d’un champ « Type de relation ».
 
 ## Semaine du 10 juillet 2023
 
-### Mettre à jour l’apparence d’un type d’enregistrement
+### Mise à jour de l’apparence d’un type d’enregistrement
 
-Version préliminaire et de production : 13 juillet 2023
+Prévisualisation et production : 13 juillet 2023
 
-Vous pouvez désormais sélectionner une icône personnalisée pour un type d’enregistrement et une couleur personnalisée pour l’icône de type d’enregistrement.
+Vous pouvez désormais choisir une icône personnalisée et définir une couleur spécifique pour cette icône pour chaque type d’enregistrement.
 
 ### Nouveau type de champ de case à cocher
 
 Version préliminaire et de production : 13 juillet 2023
 
-Vous pouvez désormais ajouter un type de champ de case à cocher aux types d’enregistrement de la capacité de planification. Vous pouvez utiliser un champ de type de case à cocher pour ajouter une seule option de case à cocher à un enregistrement. Vous pouvez utiliser ce champ pour indiquer un attribut ou un statut spécifique pour cet enregistrement. Par exemple, vous pouvez l’utiliser en tant qu’indicateur pour le suivi de l’achèvement, de l’approbation ou de tout autre attribut binaire pour chaque enregistrement.
+Vous pouvez désormais ajouter un type de champ de case à cocher aux types d’enregistrement de la capacité de planification. Vous pouvez utiliser un champ de type de case à cocher pour ajouter une seule option de case à cocher à un enregistrement. Vous pouvez utiliser ce champ pour indiquer un attribut ou un statut spécifique pour cet enregistrement particulier. Vous pouvez l’utiliser, par exemple, comme indicateur pour suivre l’achèvement, l’approbation ou tout autre attribut binaire de chaque enregistrement.
 
 ## Semaine du 26 juin 2023
 
@@ -470,8 +470,8 @@ Vous pouvez désormais connecter un enregistrement de fonctionnalités de planif
 
 ## Semaine du 29 mai 2023
 
-### Exigence de deux dates pour la création d’une vue de chronologie
+### Deux dates sont requises pour générer une vue chronologique.
 
 Prévisualisation et production : 31 mai 2023
 
-Pour créer une vue de chronologie, au moins deux champs de date doivent être associés à un type d’enregistrement.
+Afin de générer une vue chronologique, au moins deux champs de date doivent être associés à un type d’enregistrement spécifique.

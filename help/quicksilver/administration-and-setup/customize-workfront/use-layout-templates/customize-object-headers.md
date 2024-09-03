@@ -29,20 +29,20 @@ Pour plus d’informations sur la création de modèles de disposition, voir [Cr
 
 Pour plus d’informations sur les modèles de disposition pour les groupes, voir [Créer et modifier des modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Après avoir configuré un modèle de disposition, vous devez l’attribuer à des utilisateurs et utilisatricess pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de disposition à des utilisateurs et utilisatrices, voir [Attribuer un modèle de disposition à des utilisateurs et utilisatrices](../use-layout-templates/assign-users-to-layout-template.md).
+Après avoir configuré un modèle de mise en page, vous devez l’affecter aux utilisateurs et utilisatrices pour que les modifications que vous avez apportées soient visibles par d’autres personnes. Pour plus d’informations sur l’attribution d’un modèle de disposition aux utilisateurs et utilisatrices, voir [Affecter des utilisateurs et utilisatrices à un modèle de disposition](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 
 <table>
   <tr>
-   <td><strong>Plan Adobe Workfront</strong>
+   <td><strong>Formule Adobe Workfront</strong>
    </td>
-   <td>N’importe quelle
+   <td>Tous
    </td>
   </tr>
   <tr>
@@ -60,7 +60,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr>
 </table>
 
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir [Créer ou modifier les niveaux d’accès personnalisés](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir [Créer ou modifier des niveaux d’accès personnalisés](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 +++
 
@@ -84,13 +84,13 @@ Si vous n’avez toujours pas accès, demandez à votre administrateur ou admini
 
 1. L’en-tête d’un objet peut comporter jusqu’à cinq champs.
 Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ avant d’en ajouter un nouveau.
-1. Dans la zone **Ajouter un champ**, commencez à saisir le nom d’un champ Workfront non modifiable que vous souhaitez ajouter, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Le champ est ajouté immédiatement à droite de la zone Ajouter un champ et s’affiche comme le premier champ dans le coin supérieur gauche de l’en-tête de l’objet.
+1. Dans la case **Ajouter un champ**, commencez à saisir le nom d’un champ Workfront non modifiable que vous souhaitez ajouter, puis sélectionnez-le lorsqu’il s’affiche dans la liste. Le champ est ajouté immédiatement à droite de la zone Ajouter un champ et s’affiche comme le premier champ dans le coin supérieur gauche de l’en-tête de l’objet.
 
    >[!TIP]
    >
    >* Vous ne pouvez ajouter que des champs qui s’affichent dans la zone Vue d’ensemble de la section Détails de l’objet et qui ne sont pas modifiables. Les champs non modifiables sont des champs que les personnes ne peuvent pas modifier manuellement. Ils sont calculés automatiquement par Workfront.
    >
-   >* Vous pouvez ajouter des champs modifiables qui font déjà partie des en-têtes par défaut (par exemple, Propriétaire du projet, Statut, Pourcentage terminé, Affectations).
+   >* Vous pouvez ajouter des champs modifiables qui font déjà partie des en-têtes par défaut (par exemple, Personne propriétaire du projet, Statut, Pourcentage terminé, Affectations).
    >
    >* Lorsque vous ajoutez le champ « Résolu par » à l’en-tête d’un problème, le champ devient « Résolution du problème, de la tâche ou du projet », lorsqu’un objet de résolution est associé au problème.
 
@@ -100,11 +100,11 @@ Si vous avez déjà sélectionné cinq champs, vous devez supprimer un champ av
 
 1. (Facultatif) Faites glisser et déposez les champs ajoutés dans un ordre différent.
 
-1. Poursuivez la personnalisation du modèle de disposition.
+1. Poursuivez la personnalisation du modèle de mise en page.
 
    Ou
 
-   Si vous avez terminé la personnalisation, cliquez sur **Enregistrer**.
+   Si vous avez terminé de personnaliser, cliquez sur **Enregistrer**.
 
    >[!TIP]
    >

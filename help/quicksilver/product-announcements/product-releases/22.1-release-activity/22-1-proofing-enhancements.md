@@ -9,13 +9,13 @@ exl-id: c76c2dba-1497-414a-8979-712f093efd73
 source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # Améliorations de la relecture (version 22.1)
 
-Cette page décrit toutes les améliorations de la mise à jour de la version 22.1 de l’environnement Aperçu. Ces améliorations seront disponibles dans l’environnement de production.
+Cette page décrit toutes les améliorations apportées à la relecture avec la version 22.1 de l’environnement de prévisualisation. Ces améliorations seront disponibles dans l’environnement de production.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -23,50 +23,50 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-la semaine du 17 janvier 2022.
+Semaine du 17 janvier 2022.
 
-Pour obtenir la liste de toutes les modifications disponibles avec la version 22.1, consultez la [présentation de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Pour consulter la liste de tous les changements disponibles avec la version 22.1, voir [Vue d’ensemble de la version 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
-## Amélioration des fonctionnalités de vérification pour les réviseurs et les demandeurs
+## Amélioration des fonctionnalités de relecture pour les réviseurs et réviseuses et les demandeurs et demandeuses
 
 >[!NOTE]
 >
->Disponible pour les clients de la zone EMEA avec la vérification intégrée créée avant le 6 juillet 2021 uniquement. Cette fonctionnalité s’affiche dans Aperçu dans un déploiement par étapes commençant le 13 janvier et se terminant le 17 janvier pour les clients suivants : >
->* Clients de la zone EMEA avec un contrôle à la fois intégré et autonome
->* Clients de la zone EMEA avec vérification intégrée créée après le 6 juillet 2021
->* Tous les clients américains
+>Disponible pour les clientes et clients de la zone EMEA avec une relecture intégrée créée avant le 6 juillet 2021 uniquement. Ces fonctionnalités seront disponibles en prévisualisation dans un déploiement progressif débutant le 13 janvier et se terminant le 17 janvier pour les clientes et clients suivants :
+>* Clientes et clients de la zone EMEA avec une relecture intégrée et autonome
+>* Clientes et clients de la zone EMEA avec une relecture intégrée créée après le 6 juillet 2021
+>* L’ensemble des clientes et clients américains
 >
 
-Pour offrir une expérience plus intégrée entre Workfront et BAT, nous avons apporté plusieurs améliorations aux fonctionnalités de vérification pour les réviseurs et les demandeurs :
+Afin d’offrir une expérience plus intégrée entre Workfront et Workfront Proof, nous avons apporté plusieurs améliorations concernant les capacités de relecture pour les personnes réviseuses et demandeuses :
 
-Vous pouvez accorder des rôles de modérateur ou d’auteur à n’importe quel utilisateur de Workfront, qu’il dispose d’une licence de vérification, en lui accordant des droits supplémentaires, comme l’application d’actions ou la résolution de commentaires.
+Vous pouvez attribuer des rôles de modération ou de création à n’importe quelle personne dans Workfront, qu’elle ait ou non une licence de relecture, ce qui lui donne des droits supplémentaires, comme l’application d’actions ou la résolution de commentaires.
 
-Vous pouvez ajouter des réviseurs et des demandeurs aux BAT qui nécessitent une connexion ou qui doivent être signés électroniquement.
+Vous pouvez ajouter des personnes réviseuses et demandeuses aux épreuves qui nécessitent une connexion ou qui doivent être signées électroniquement.
 
-Tous les utilisateurs bénéficient également d’une meilleure connectivité entre Workfront et BAT. Désormais, lorsque vous désactivez un utilisateur ou mettez à jour son adresse électronique, vos mises à jour sont correctement répercutées dans la vérification lorsqu’elles sont modifiées dans Workfront.
+Toutes les personnes bénéficient également d’une meilleure connectivité entre Workfront et Workfront Proof. Désormais, lors de la désactivation d’une personne ou de la mise à jour de son adresse e-mail, vos mises à jour sont correctement reflétées dans la relecture lorsqu’elles sont modifiées dans Workfront.
 
 Pour plus d’informations, consultez les ressources suivantes :
 
-* [Présentation des rôles de BAT](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [Vue d’ensemble des rôles d’épreuve](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 
-## Améliorations de la signature électronique pour les bons à tirer
+## Améliorations de la signature électronique pour les épreuves
 
-Nous avons facilité la signature électronique des bons à tirer pour les utilisateurs. Désormais, les utilisateurs peuvent utiliser leurs informations d’identification Workfront pour signer une décision sur un BAT.
+Nous avons facilité la signature électronique des épreuves par les utilisateurs et utilisatrices. Désormais, les utilisateurs et utilisatrices peuvent utiliser leurs informations d’identification Workfront pour signer une décision sur une épreuve.
 
 >[!IMPORTANT]
 >
->Pour signer électroniquement une épreuve avec des informations d’identification SSO, vous devez configurer le SSO dans Workfront Proof. Pour plus d’informations sur l’activation de la connexion unique, voir [Configuration de la connexion unique pour les utilisateurs de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Pour signer électroniquement une épreuve avec des informations d’identification SSO, vous devez configurer le SSO dans Workfront Proof. Pour plus d’informations sur l’activation de l’authentification unique (SSO), voir [Configurer l’authentification unique pour les utilisateurs et utilisatrices de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
-Auparavant, les utilisateurs devaient utiliser les informations d’identification Workfront Proof, qui sont différentes de leurs informations d’identification Workfront.
+Auparavant, les utilisateurs et utilisatrices devaient utiliser les identifiants Workfront Proof, qui sont différents de leurs identifiants Workfront.
 
-Pour plus d’informations, voir [Présentation de la sécurité du BAT](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+Pour plus d’informations, voir [Vue d’ensemble de la sécurité des épreuves](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
 
 ## Mise à niveau de la visionneuse de bureau
 
-Nous avons mis à niveau la visionneuse de vérification de l’appli de bureau afin de prendre en charge jusqu’à Chrome version 91 pour une plus grande compatibilité avec les bons à tirer interactifs.
+Nous avons mis à jour la visionneuse de relecture de bureau pour qu’elle prenne en charge la version 91 de Chrome afin d’améliorer la compatibilité avec les épreuves interactives.
 
 >[!IMPORTANT]
 >
->Les utilisateurs de Windows doivent réinstaller manuellement la visionneuse de bureau pour effectuer la mise à niveau vers la dernière version. Ensuite, les futures mises à jour de la visionneuse de vérification de l’appli de bureau seront automatiques. Pour obtenir de l’aide sur la réinstallation, voir [Installation de la visionneuse de vérification de l’appli de bureau](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Les utilisateurs et utilisatrices de Windows doivent réinstaller manuellement la visionneuse de bureau pour passer à la dernière version. Ensuite, les futures mises à jour de la visionneuse de relecture de bureau seront automatiques. Pour obtenir de l’aide pour l’installation, voir [Installer la visionneuse de relecture de bureau](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
-Les utilisateurs de Mac seront automatiquement mis à niveau vers la dernière version.
+La mise à jour vers la dernière version sera automatique pour les utilisateurs et utilisatrices Mac.

@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-description: En tant qu’administrateur d’Adobe Workfront, vous pouvez accorder aux utilisateurs l’accès à l’affichage ou à la modification d’objets en leur attribuant un niveau d’accès.
+description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez accorder aux utilisateurs l’accès en affichage ou en modification aux objets en leur attribuant un niveau d’accès.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -13,17 +13,17 @@ exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
 source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 36%
+ht-degree: 97%
 
 ---
 
-# Configurer l’accès à Adobe Workfront
+# Configurer l’accès à Adobe Workfront
 
-Ces articles expliquent comment, en tant qu’administrateur d’Adobe Workfront, vous pouvez accorder aux utilisateurs l’accès à l’affichage ou à la modification d’objets en leur attribuant un niveau d’accès.
+Ces articles expliquent comment, en tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez accorder aux utilisateurs et utilisatrices l’accès en affichage ou en modification aux objets en leur attribuant un niveau d’accès.
 
 * [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
-* [Octroyer à un utilisateur un accès administratif complet](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
-* [Octroyer aux utilisateurs un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+* [Accorder à un utilisateur ou à une utilisatrice un accès administratif intégral](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
+* [Accorder un accès administratif à certaines zones aux utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
 * [Accorder l’accès aux projets](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
 * [Accorder l’accès aux problèmes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
@@ -42,5 +42,5 @@ Ces articles expliquent comment, en tant qu’administrateur d’Adobe Workfront
 
 ## Voir aussi
 
-* Pour obtenir des informations générales sur les niveaux d’accès, voir [Fonctionnement des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
-* Pour plus d’informations sur la façon dont les utilisateurs peuvent partager des objets, en accordant des autorisations d’affichage et de modification à ces objets, voir [ Octroi et demande des autorisations aux objets ](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) et [Fonctionnement des niveaux d’accès et des autorisations](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* Pour des informations générales sur les niveaux d’accès, voir [Fonctionnement des niveaux d’accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+* Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices peuvent partager des objets entre eux, en accordant des autorisations d’afficher et de modifier ces objets, voir [Accorder et demander des autorisations sur des objets](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) et [Fonctionnement des niveaux d’accès et des autorisations ensemble](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).

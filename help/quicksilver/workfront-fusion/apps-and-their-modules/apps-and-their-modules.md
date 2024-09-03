@@ -2,7 +2,7 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: Connecteur
+keywords: connecteur
 navigation-topic: workfront-fusion-2-0
 title: Applications et leurs modules
 description: Adobe Workfront Fusion propose actuellement des connecteurs dédiés aux applications de cette liste. Si l’application avec laquelle vous souhaitez travailler ne figure pas dans cette liste, vous pouvez vous y connecter à l’aide des modules HTTP, SOAP ou JSON.
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe Workfront Fusion peut se connecter à presque tous les services web. Cela ne se limite pas qu’aux applications de cette liste. Si l’application avec laquelle vous souhaitez travailler ne dispose pas d’un connecteur préconfiguré, vous pouvez utiliser ces modules pour vous connecter directement au service web :
+>Adobe Workfront Fusion peut se connecter à presque tous les services web. Elle n’est pas limitée aux seules applications de cette liste. Si l’application avec laquelle vous souhaitez travailler ne dispose pas d’un connecteur préconfiguré, vous pouvez utiliser ces modules pour vous connecter directement au service web :
 >
 >* Modules [[!UICONTROL HTTP] ](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 >* Module [[!UICONTROL SOAP] ](../../workfront-fusion/apps-and-their-modules/soap-module.md)
@@ -51,7 +51,7 @@ Cette section contient les articles suivants :
 * [[!DNL Adobe Target] modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
 * [[!DNL Airtable] modules](../../workfront-fusion/apps-and-their-modules/airtable-modules.md)
 * [[!DNL Allocadia] modules](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md)
-* [[!DNL Anaplan] Modules](../../workfront-fusion/apps-and-their-modules/anaplan-modules.md)
+* Modules [[!DNL Anaplan]  ](../../workfront-fusion/apps-and-their-modules/anaplan-modules.md)
 * Modules [[!UICONTROL Archive] ](../../workfront-fusion/apps-and-their-modules/archive-modules.md)
 * [[!DNL AWS S3] modules](../../workfront-fusion/apps-and-their-modules/aws-s3-modules.md)
 * [[!DNL Azure Active Directory] modules](../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
@@ -69,7 +69,7 @@ Cette section contient les articles suivants :
 * [Modules e-mail](../../workfront-fusion/apps-and-their-modules/email-modules.md)
 * [[!UICONTROL Encryptor]](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md)
 * [Modules [!DNL Figma]](../../workfront-fusion/apps-and-their-modules/figma-modules.md)
-* [Contrôle des flux dans Adobe Workfront Fusion](../../workfront-fusion/apps-and-their-modules/flow-control.md)
+* [Contrôle du flux dans Adobe Workfront Fusion](../../workfront-fusion/apps-and-their-modules/flow-control.md)
 * [Modules [!DNL Frame.io]](../../workfront-fusion/apps-and-their-modules/frame-io-modules.md)
 * [Modules [!UICONTROL FTP]](../../workfront-fusion/apps-and-their-modules/ftp-modules.md)
 * [Modules [!DNL GitHub]](../../workfront-fusion/apps-and-their-modules/github.md)
@@ -82,14 +82,14 @@ Cette section contient les articles suivants :
 * [[!DNL Google Sheets] modules](../../workfront-fusion/apps-and-their-modules/google-sheets-modules.md)
 * [[!DNL Google Slides] modules](../../workfront-fusion/apps-and-their-modules/google-slides-modules.md)
 * [[!DNL Google Team Drive] modules](../../workfront-fusion/apps-and-their-modules/google-team-drive-modules.md)
-* [[!UICONTROL Modules ]HTTP](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
+* Modules [[!UICONTROL HTTP]](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 * [[!DNL HubSpot CRM] modules](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
 * [Modules d’image](../../workfront-fusion/apps-and-their-modules/image-module.md)
 * [[!DNL Jira] Modules de logiciel](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
 * [Modules [!UICONTROL JSON]](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 * [Module [!UICONTROL JWT]](../../workfront-fusion/apps-and-their-modules/jwt-modules.md)
 * [[!DNL MariaDB] modules](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md)
-* Modules [[!UICONTROL Markdown]](../../workfront-fusion/apps-and-their-modules/markdown-modules.md)
+* Modules [[!UICONTROL Markdown]](../../workfront-fusion/apps-and-their-modules/markdown-modules.md)
 * [[!DNL Marketo] modules](../../workfront-fusion/apps-and-their-modules/marketo-modules.md)
 * [Mathématiques](../../workfront-fusion/apps-and-their-modules/math-module.md)
 * [[!DNL Microsoft Dynamics 365] modules](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)

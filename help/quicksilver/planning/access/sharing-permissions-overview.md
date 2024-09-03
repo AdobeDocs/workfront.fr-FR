@@ -28,7 +28,7 @@ Pour plus d’informations sur le partage d’espaces de travail ou de vues, voi
 
 * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
-* [Partager des vues](/help/quicksilver/planning/access/share-views.md)
+* [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
 
 ## Objets que vous pouvez partager dans Adobe Workfront Planning
 
@@ -107,7 +107,7 @@ Voici les niveaux d’autorisations des espaces de travail :
 
 ### Autorisations de type d’enregistrement
 
-Les autorisations relatives au type d’enregistrement sont héritées lorsque vous accordez des autorisations sur l’espace de travail.
+Les autorisations relatives au type d’enregistrement sont héritées lorsque vous accordez des autorisations à l’espace de travail.
 
 Voici les niveaux d’autorisations pour les types d’enregistrements :
 
@@ -121,7 +121,7 @@ Voici les niveaux d’autorisations pour les types d’enregistrements :
 
 ### Autorisations d’enregistrement
 
-Les autorisations d’enregistrement sont héritées lorsque vous accordez des autorisations sur l’espace de travail.
+Les autorisations d’enregistrement sont héritées lorsque vous accordez des autorisations à l’espace de travail.
 
 Voici les niveaux d’autorisation des enregistrements :
 
@@ -135,8 +135,8 @@ Voici les niveaux d’autorisation des enregistrements :
 
 ### Autorisations de champ
 
-Les autorisations de champ sont héritées lorsque vous accordez des autorisations sur l’espace de travail.
-Les autorisations suivantes se réfèrent aux champs eux-mêmes et non aux valeurs associées à chaque champ. Pour modifier les valeurs des champs, vous devez disposer des autorisations de modification des enregistrements.
+Les autorisations de champ sont héritées lorsque vous accordez des autorisations à l’espace de travail.
+Les autorisations suivantes se réfèrent aux champs eux-mêmes et non aux valeurs associées à chaque champ. Pour modifier les valeurs des champs, vous devez avoir les autorisations de modifier les enregistrements.
 
 |        | Gérer | Contribuer | Afficher |
 |--------|--------|------------|-------|
@@ -146,16 +146,16 @@ Les autorisations suivantes se réfèrent aux champs eux-mêmes et non aux valeu
 | Afficher | ✓ | ✓ | ✓ |
 
 
-### Autorisations de vue
+### Autorisations d’affichage
 
-Vous devez accorder des autorisations distinctes sur les vues d’enregistrement. Accorder des autorisations sur l’espace de travail n’accorde pas d’autorisations su les vues d’enregistrement de l’espace de travail.
+Vous devez accorder des autorisations distinctes aux vues d’enregistrement. Accorder des autorisations à l’espace de travail n’accorde pas d’autorisations aux vues d’enregistrement de l’espace de travail.
 
 Vous devez autoriser les utilisateurs à accéder aux vues pour leur permettre d’accéder aux éléments de vue suivants :
 
 * Filtres
 * Visibilité du champ
 * Trier
-* Regroupement
+* Regroupement 
 * Hauteur de ligne
 * Paramètres
 
