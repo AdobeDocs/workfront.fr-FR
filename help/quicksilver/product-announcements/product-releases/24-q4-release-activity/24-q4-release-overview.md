@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 52%
+source-wordcount: '1361'
+ht-degree: 51%
 
 ---
 
@@ -206,6 +206,24 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                     <td>
                         <p><span class="bold">Dates de publication</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Correctif vierge pour les utilisateurs Windows de la visionneuse de vérification de l’appli de bureau</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>Correction d’un problème lié à la nouvelle version 2.1.36 de la visionneuse de vérification de l’appli de bureau, en raison duquel certains utilisateurs de Windows voyaient un écran vide après l’ouverture de la visionneuse. </p>
+                        <p>Nouvelle version pour les utilisateurs de Windows : 2.1.37</p>
+                    </td>
+                    <td><p><b>Disponible à ces dates :</b></p>
+                        <ul>
+                            <li>
+                                <p>Version d’aperçu : 30 août 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Version de production pour tous les clients : 30 août 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

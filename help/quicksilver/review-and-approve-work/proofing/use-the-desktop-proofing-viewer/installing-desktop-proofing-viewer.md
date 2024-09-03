@@ -6,7 +6,7 @@ description: La visionneuse de relecture de bureau, conçue principalement pour 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
+source-git-commit: fef88c495fc7a634a70db4db767a9e380eff6228
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 99%
@@ -63,8 +63,8 @@ Si ce n’est pas le cas, vous pouvez suivre les étapes ci-dessous.
 
 1. Pour télécharger l’application, procédez de l’une des manières suivantes :
 
-   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de la production Mac pour la visionneuse de relecture de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
-   * Si vous utilisez l’environnement de prévisualisation, cliquez sur [Téléchargement de la prévisualisation Mac pour la visionneuse de relecture de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
+   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de la production Mac pour la visionneuse de relecture de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.36.pkg)
+   * Si vous utilisez l’environnement de prévisualisation, cliquez sur [Téléchargement de la prévisualisation Mac pour la visionneuse de relecture de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.36.pkg)
 
 1. Ouvrez le fichier que vous venez de télécharger pour démarrer l’installation.
 1. Dans la zone d’installation qui apparaît, cliquez sur **Continuer**, puis sur **Installer**.
@@ -87,8 +87,8 @@ Si votre administrateur ou votre administratrice Workfront ou Workfront Proof a 
 
 1. Pour télécharger l’application, procédez de l’une des manières suivantes :
 
-   * Dans l’environnement de production, cliquez sur [téléchargement de production Windows pour la visionneuse de relecture de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
-   * Dans l’environnement de prévisualisation, cliquez sur [Téléchargement de prévisualisation Windows pour la visionneuse de relecture de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
+   * Dans l’environnement de production, cliquez sur [téléchargement de production Windows pour la visionneuse de relecture de bureau.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.37.exe)
+   * Dans l’environnement de prévisualisation, cliquez sur [Téléchargement de prévisualisation Windows pour la visionneuse de relecture de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.37.exe)
 
 1. Ouvrez le fichier que vous venez de télécharger pour démarrer l’installation.
 1. Dans la zone d’installation qui apparaît, ouvrez le fichier que vous venez de télécharger pour démarrer l’installation.
