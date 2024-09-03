@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2622'
 ht-degree: 60%
 
 ---
@@ -403,7 +403,7 @@ Vous pouvez afficher les enregistrements connectés dans la vue de chronologie d
 * Vous pouvez afficher les enregistrements ou les objets connectés sous les enregistrements du type d’enregistrement sélectionné dans la vue de la chronologie.
 * Vous pouvez afficher les éléments suivants dans la vue de chronologie à l’aide de la fonction Ventilation :
    * Enregistrements Workfront Planning connectés au type d&#39;enregistrement sélectionné.
-   * Types d’objets Workfront (************* ou AEM Assets *************) connectés au type d’enregistrement sélectionné.
+   * Types d’objet Workfront ou ressources Experience Manager connectées au type d’enregistrement sélectionné.
    * Workfront Planning enregistre ou objets d&#39;une autre application connectés à des enregistrements connectés au type d&#39;enregistrement sélectionné.
 
      Par exemple, vous pouvez connecter des campagnes à des portefeuilles. En outre, vous pouvez connecter un autre type d’enregistrement, &quot;produits&quot;, aux projets, ainsi qu’aux campagnes. Lorsque vous créez la vue de chronologie de campagne, vous pouvez ventiler les campagnes par portfolios, produits et projets.

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 24%
+source-wordcount: '442'
+ht-degree: 23%
 
 ---
 
@@ -64,6 +64,7 @@ Vous pouvez recevoir des notifications par courrier électronique de la part de 
    <td role="rowheader"><p>Plateforme Adobe Workfront</p></td> 
    <td> 
 <p>L’instance Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe.</p> 
+<p>Les utilisateurs de votre entreprise ne reçoivent des notifications de Workfront Planning que lorsque votre entreprise est intégrée à l’expérience unifiée Adobe. </p>
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
    </td> 
    </tr> 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '7432'
+source-wordcount: '7462'
 ht-degree: 37%
 
 ---
@@ -98,6 +98,11 @@ Prévisualisation et production : jeudi 28 août 2024
 Lorsque vous demandez l’accès à un espace de travail ou à une vue, l’utilisateur auprès duquel vous demandez l’accès reçoit une notification par courrier électronique à propos de la demande. Une fois la demande acceptée, vous recevez une notification par e-mail confirmant que votre demande a été approuvée.
 
 Vous pouvez accéder à l’affichage ou à l’espace de travail à partir de la notification électronique, une fois l’autorisation accordée.  <!--see if they also get an in-app notification-->
+
+>[!NOTE]
+>
+>Votre organisation doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent demander et accorder des autorisations à un affichage ou à un espace de travail à partir d’une demande d’autorisation.
+
 
 Pour plus d’informations, voir [Demande d’autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md).
 

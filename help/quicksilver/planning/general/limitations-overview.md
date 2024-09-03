@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 47%
+source-wordcount: '330'
+ht-degree: 42%
 
 ---
 
@@ -33,7 +33,9 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Nombre d&#39;enregistrements pour un espace de travail | 25 000 pour les clients ayant une planification <br> 500 000 pour les clients ayant une planification plus |
 | Nombre total d’enregistrements pour une instance de la planification Workfront | 500 000 pour les clients ayant le plan de planification <br>2 millions pour les clients ayant le plan Plus |
 | Nombre de champs pour un type d’enregistrement ou une taxonomie | 500 |
-| Nombre de caractères pour un champ de texte | 1 000 caractères |
+| Nombre de caractères d’un champ de texte d’une seule ligne | 1 000 caractères |
+| Nombre de caractères d’un champ de paragraphe | 100 000 caractères |
+| Nombre de champs de paragraphe pour un type d’enregistrement | 20 champs de paragraphe |
 | Taille du fichier que vous pouvez coller dans un tableau de type d’enregistrement | 1 Mo |
 | Taille du fichier que vous pouvez importer via l’API pour un tableau de type d’enregistrement | 1,5 Mo |
 | Vitesse à laquelle les demandes d’API peuvent être effectuées | 200 demandes par minute |

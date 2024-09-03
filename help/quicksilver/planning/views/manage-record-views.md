@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 66%
+source-wordcount: '1392'
+ht-degree: 64%
 
 ---
 
@@ -356,10 +356,12 @@ Lorsque vous affichez le mode Tableau, vous pouvez également afficher le champ 
 
    ![](assets/show-collaborators-toggle-selected.png)
 
-1. (Conditionnel) Ouvrez une vue de tableau et le champ que quelqu’un modifie est encadré dans la couleur correspondant au contour de son avatar dans la vue de tableau.
+1. (Conditionnel) Ouvrez une vue de tableau et le champ que l’autre personne est en train de modifier est mis en surbrillance dans la couleur correspondant au contour de son avatar dans la vue de tableau.
+
+   Si la couleur de surbrillance de l’avatar est grise, l’utilisateur a arrêté de modifier activement l’enregistrement il y a plus de 30 secondes.
 
    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >
-   >Vous pouvez sélectionner la bascule **Afficher les collaborateurs** à partir de n’importe quelle vue. Le champ modifié est indiqué uniquement dans la vue de tableau.
+   >Vous pouvez sélectionner la bascule **Afficher les collaborateurs** à partir de n’importe quelle vue. Le champ actuellement modifié par d’autres champs n’est présenté que dans la vue Tableau.
