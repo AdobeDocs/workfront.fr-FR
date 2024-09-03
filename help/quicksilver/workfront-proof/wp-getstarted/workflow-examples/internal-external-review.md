@@ -8,7 +8,7 @@ description: Découvrez comment utiliser Workfront Proof pour les révisions en
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 84eb5bda612ee518a195190349427c706994030b
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%

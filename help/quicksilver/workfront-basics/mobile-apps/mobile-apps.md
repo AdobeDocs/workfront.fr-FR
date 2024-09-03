@@ -8,7 +8,7 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 053acea8-6c55-4974-af1f-c339c19f7f6a
-source-git-commit: 84eb5bda612ee518a195190349427c706994030b
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 100%

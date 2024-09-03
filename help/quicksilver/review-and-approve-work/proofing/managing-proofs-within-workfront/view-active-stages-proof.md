@@ -6,7 +6,7 @@ description: Vous pouvez visualiser les étapes actives actuelles d’une épreu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: db32ca28-d475-4050-b04f-c7c82f79918a
-source-git-commit: 84eb5bda612ee518a195190349427c706994030b
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%

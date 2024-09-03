@@ -6,7 +6,7 @@ description: Vous pouvez utiliser la vue Calendrier dans la zone [!UICONTROL Acc
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 07b33b56-ae57-4ae5-890e-c21feae1c4fd
-source-git-commit: 84eb5bda612ee518a195190349427c706994030b
+source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 100%
