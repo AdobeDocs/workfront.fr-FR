@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 98%
+source-wordcount: '604'
+ht-degree: 89%
 
 ---
 
@@ -104,11 +104,13 @@ Pour les exécuter pour un groupe, vous devez être une personne gestionnaire de
 1. Dans la section **Détails**, pour personnaliser ce que voient les utilisateurs et utilisatrices dans la vue Détails, effectuez l’une des opérations suivantes :
 
    * Faites glisser les en-têtes de section ![](assets/move-icon---dots.png) pour modifier leur ordre.
-   * Activez ou désactivez des options sous **Vue d’ensemble** et **Formulaires personnalisés** pour les afficher ou les masquer.
+   * Activez ou désactivez des options dans les différentes zones (par exemple **Aperçu**, **Finance** et **Forms personnalisée**) pour les afficher ou les masquer.
 
      Si vous masquez tous les champs de l’une de ces sections, la section entière est masquée.
 
-     Tous les champs sont activés par défaut.
+     Tous les champs sont activés par défaut. Vous pouvez cocher ou décocher la case **Tout sélectionner** dans une zone pour afficher ou masquer tous les champs de cette zone.
+
+   ![Vue Détails dans le modèle de mise en page](assets/layout-template-details-view.png)
 
 1. Poursuivez la personnalisation du modèle de mise en page.
 
