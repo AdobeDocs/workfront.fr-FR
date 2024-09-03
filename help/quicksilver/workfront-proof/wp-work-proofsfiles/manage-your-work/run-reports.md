@@ -32,8 +32,7 @@ Vous pouvez facilement consulter le nombre d’épreuves créées dans votre com
 La disponibilité des rapports dépend du type de votre compte [!DNL Workfront Proof] et des niveaux d’autorisation de l’utilisateur ou de l’utilisatrice.
 
 * [Conditions préalables pour le compte](#account-prerequisites)
-* [&#128279;](#user-prerequisites)Conditions préalables pour les utilisateurs et utilisatrices
-
+* [Conditions préalables pour les utilisateurs et utilisatrices](#user-prerequisites)
 
 ### Conditions préalables pour le compte {#account-prerequisites}
 
