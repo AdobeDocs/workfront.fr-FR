@@ -3,14 +3,14 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: Création d’une itération dans un flux de travail
-description: Une itération est un temps défini réservé à la réalisation du travail. Certaines équipes agiles peuvent appeler une itération sprint.
+description: Une itération est la durée affectée à la réalisation d’un travail. Certaines équipes Agile peuvent employer le terme sprint pour désigner les itérations.
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 20%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 20%
 >
 >Les flux de travail ne sont disponibles que pour un groupe spécifique de clientes et de clients.
 
-Une itération est un temps défini réservé à la réalisation du travail. Certaines équipes agiles peuvent appeler une itération sprint.
+Une itération est la durée affectée à la réalisation d’un travail. Certaines équipes Agile peuvent employer le terme sprint pour désigner les itérations.
 
 ## Conditions d’accès
 
@@ -34,20 +34,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront]</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td> 
    <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
    <p>ou</p>
-   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,50 +55,50 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 {{step1-to-boards}}
 
-1. Ouvrez le workflow dans lequel vous souhaitez ajouter l’itération. Pour ouvrir un workflow, cliquez sur [!UICONTROL **Afficher le workflow**].
-1. Créez une itération à l’aide de l’une des méthodes suivantes :
+1. Ouvrez le flux de travail dans lequel vous souhaitez ajouter l’itération. Pour ouvrir un flux de travail, cliquez sur [!UICONTROL **Afficher le flux de travail**].
+1. Créez une itération à l’aide de l’une des méthodes suivantes :
 
-   * Dans l’onglet Liste des cartes, dans la vue itération, cliquez sur [!UICONTROL **Créer une itération**].
+   * Dans l’onglet Liste des cartes, dans la vue de l’itération, cliquez sur [!UICONTROL **Créer une itération**].
    * Dans l’onglet Liste des cartes, en mode Liste, cliquez sur [!UICONTROL **Créer une itération**].
-   * Dans l’onglet Panoramas, cliquez sur [!UICONTROL **Ajouter un panorama**] et sélectionnez [!UICONTROL **Processus d’itération**] comme modèle de panorama. Ouvrez ensuite le tableau d’itération et cliquez sur [!UICONTROL **Configurer les itérations**].
+   * Dans l’onglet Panoramas, cliquez sur [!UICONTROL **Ajouter un panorama**] et sélectionnez [!UICONTROL **Processus d’itération**] comme modèle de panorama. Ouvrez ensuite le panneau d’itération, puis cliquez sur [!UICONTROL **Configurer des itérations**].
 
-1. Dans la boîte de dialogue Détails de l’itération , ajoutez les informations suivantes :
+1. Dans la boîte de dialogue Détails de l’itération, ajoutez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[!UICONTROL Nom de l’itération]</strong></td> 
-      <td>Nom de l’itération, par exemple "Sprint 1".</td> 
+      <td><strong>[!UICONTROL Iteration name]</strong></td> 
+      <td>Nom de l’itération, par exemple « Sprint 1 ».</td> 
      </tr> 
      <tr> 
-      <td><strong>[!UICONTROL Longueur de l’itération]</strong></td> 
+      <td><strong>[!UICONTROL Iteration length]</strong></td> 
       <td>Durée de l’itération, en jours, semaines ou mois.</td> 
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Start date]</strong></td> 
-      <td>Date à laquelle l’itération commence. La date de fin est automatiquement renseignée en fonction de la durée d'itération.</td> 
+      <td>Date de début de l’itération. La date de fin est automatiquement renseignée en fonction de la durée d’itération.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Cliquer sur [!UICONTROL **Enregistrer**].
 
-   L’itération apparaît désormais dans la vue itération de la liste des cartes et dans la zone des mesures de la carte.
+   L’itération apparaît désormais dans la vue de l’itération de la liste des cartes et dans la zone Mesures du panorama d’itération.
 
-   Pour ajouter des cartes à une itération, reportez-vous à la section [Utilisation de la liste de cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Pour ajouter des cartes à une itération, consultez la section [Utiliser la liste des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## Modifier une itération existante
 
-1. Pour ouvrir un workflow, cliquez sur [!UICONTROL **Afficher le workflow**].
-1. Ouvrez l’itération à l’aide de l’une des méthodes suivantes :
+1. Pour ouvrir un flux de travail, cliquez sur [!UICONTROL **Afficher le flux de travail**].
+1. Ouvrez l’itération à l’aide de l’une des méthodes suivantes :
 
-   * Dans l’onglet Liste des cartes, dans la vue itération, cliquez sur l’icône [!UICONTROL **Détails de l’itération**] ![Détails de l’itération](assets/iteration-details-button.png).
-   * Sur le panneau d’itération, cliquez sur l’icône [!UICONTROL **Détails de l’itération**] ![Détails de l’itération](assets/iteration-details-button.png) dans la zone des mesures en haut à droite.
+   * Dans l’onglet Liste des cartes, dans la vue de l’itération, cliquez sur l’icône [!UICONTROL **Détails de l’itération**] ![Détails de l’itération](assets/iteration-details-button.png).
+   * Dans la panorama d’itération, cliquez sur l’icône [!UICONTROL **Détails de l’itération**] ![Détails de l’itération](assets/iteration-details-button.png) dans la zone Mesures en haut à droite.
 
-1. Dans le panneau [!UICONTROL  Iteration Configuration] , modifiez l’itération selon vos besoins.
-1. Pour modifier le nom de l’itération, développez [!UICONTROL **Iteration details**].
+1. Dans le panneau [!UICONTROL Configuration de l’itération], modifiez l’itération selon vos besoins.
+1. Pour modifier le nom de l’itération, développez le menu [!UICONTROL **Détails de l’itération**].
 
-   Une fois qu&#39;une itération a commencé, vous ne pouvez modifier que le nom de l&#39;itération et non les dates ou la durée de l&#39;itération.
+   Une fois qu’une itération a commencé, vous pouvez encore modifier le nom de l’itération, mais plus les dates ou la durée.
 
 <!--   
 
@@ -123,6 +123,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## Supprimer une itération
 
-1. Cliquez sur l’onglet [!UICONTROL **Liste de cartes**] du workflow et ouvrez la vue itération.
-1. Cliquez sur l&#39;icône **Supprimer** ![Icône Supprimer](assets/delete.png) en regard de l&#39;itération.
-1. Cliquez sur [!UICONTROL **Supprimer l&#39;itération**] dans le message de confirmation.
+1. Sélectionnez l’onglet [!UICONTROL **Liste des cartes**] dans le flux de travail et ouvrez la vue de l’itération.
+1. Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png) en regard de l’itération.
+1. Cliquez sur [!UICONTROL **Supprimer l’itération**] dans le message de confirmation qui s’affiche.

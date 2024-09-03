@@ -18,19 +18,19 @@ ht-degree: 100%
 
 # Modules [!DNL Adobe Campaign]
 
-Avec les modules [!DNL Adobe Campaign], vous pouvez lancer un scènario [!DNL Adobe Workfront Fusion] selon les événements de votre compte [!DNL Adobe Campaign v7/v8], créer, lire ou mettre à jour des enregistrements, rechercher des enregistrements à l’aide des critères que vous définissez et effectuer des appels API personnalisés.
+Avec les modules [!DNL Adobe Campaign], vous pouvez démarrer un scénario [!DNL Adobe Workfront Fusion] selon les événements de votre compte [!DNL Adobe Campaign v7/v8], créer, lire ou mettre à jour des enregistrements, rechercher des enregistrements à l’aide des critères que vous définissez et effectuer des appels API personnalisés.
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td> 
-   <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td> 
+   <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td> 
@@ -39,25 +39,25 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigences de licence actuelles : aucune exigence de licence [!DNL Workfront Fusion] requise.</p>
    <p>Ou</p>
-   <p>Exigence de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>Exigences de licence héritées : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
@@ -70,12 +70,12 @@ Vous devez ajouter les adresses IP Fusion à [!DNL Adobe Campaign].
 
 >[!IMPORTANT]
 >
->Il est vivement recommandé de créer une connexion serveur à serveur. Adobe Campaign a mis à jour son API afin d’accepter uniquement les connexions serveur à serveur. Si vous vous connectez à la version 8 de Campaign ou ultérieure, vous **devez** créer une connexion serveur à serveur.
+>Il est vivement recommandé de créer une connexion serveur à serveur. Adobe Campaign a mis à jour son API pour n’accepter que les connexions de serveur à serveur. Si vous vous connectez à la version 8 ou ultérieure de Campaign, vous **devez** créez une connexion serveur à serveur.
 >
->Pour plus d’informations sur les nouvelles exigences de connexion de Campaign, voir [Migration des opérateurs techniques Campaign vers l’Adobe Developer Console](https://experienceleague.adobe.com/fr/docs/campaign/technotes-ac/tn-new/ims-migration) dans la documentation de Campaign.
+>Pour plus d’informations sur les nouvelles exigences de connexion de Campaign, voir [Migration des opérateurs techniques Campaign vers Adobe Developer Console](https://experienceleague.adobe.com/fr/docs/campaign/technotes-ac/tn-new/ims-migration) dans la documentation de Campaign.
 
-1. Dans un module [!DNL Adobe Campaign], cliquez sur **[!UICONTROL Ajouter]** en regard du champ [!UICONTROL Connexion].
-1. Renseignez les champs suivants :
+1. Dans n’importe quel module [!DNL Adobe Campaign], cliquez sur **[!UICONTROL Ajouter]** en regard du champ [!UICONTROL Connexion].
+1. Remplissez les champs suivants :
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
       </col>
@@ -91,7 +91,7 @@ Vous devez ajouter les adresses IP Fusion à [!DNL Adobe Campaign].
         <tr>
           <td role="rowheader">[!UICONTROL Connection name]</td>
           <td>
-            <p>Nommez cette connexion.</p>
+            <p>Saisissez un nom pour cette connexion.</p>
           </td>
         </tr>
         <tr>
@@ -100,7 +100,7 @@ Vous devez ajouter les adresses IP Fusion à [!DNL Adobe Campaign].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Username]</td>
-          <td>Si vous créez une connexion de base, saisissez votre nom d’utilisateur ou d’utilisatrice Adobe Campaign.</td>
+          <td>Si vous créez une connexion de base, saisissez votre nom d’utilisateur ou d’utilisatrice Adobe Campaign.</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Password]</td>
@@ -108,29 +108,29 @@ Vous devez ajouter les adresses IP Fusion à [!DNL Adobe Campaign].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Si vous créez une connexion serveur à serveur, saisissez votre [!UICONTROL Client ID] [!DNL Adobe]. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] de l’[!DNL Adobe Developer Console].</td>
+          <td>Si vous créez une connexion serveur à serveur, saisissez votre [!UICONTROL Client ID] [!DNL Adobe]. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] d’[!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Si vous créez une connexion serveur à serveur, saisissez [!UICONTROL Client Secret] [!DNL Adobe]. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] d’[!DNL Adobe Developer Console].
+          <td>Si vous créez une connexion serveur à serveur, saisissez votre [!UICONTROL Client Secret] [!DNL Adobe]. Vous pouvez le trouver dans la section [!UICONTROL Credentials details] de l’[!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Environment]</td>
-          <td>Indiquez si vous vous connectez à un environnement de production ou hors production.
+          <td>Indiquez si votre connexion est établie à un environnement de production ou hors production.
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Type]</td>
-          <td>Choisissez si vous vous connectez à un compte de service ou à un compte personnel.
+          <td>Indiquez si vous vous connectez à un compte de service ou à un compte personnel.
         </tr>
    </tbody>
     </table>
-1. Cliquez sur **[!UICONTROL Continuer]** pour créer la connexion et retourner au module.
+1. Cliquez sur **[!UICONTROL Continuer]** pour créer la connexion et revenez au module.
 
 ## Modules [!DNL Adobe Campaign] et leurs champs
 
-Lorsque vous configurez des modules [!DNL Adobe Campaign], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. Des champs [!DNL Adobe Campaign] supplémentaires peuvent également s’afficher, en fonction des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez les modules [!DNL Adobe Campaign], [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En plus de ces derniers, des champs [!DNL Adobe Campaign] supplémentaires peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mapper des informations d’un module à l’autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -150,11 +150,11 @@ Ce module de déclenchement planifié lance un scénario lorsqu’un enregistrem
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Pour plus d’informations sur l’établissement d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer la connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
+   <td>Pour obtenir des instructions sur la création d’une connexion à [!DNL Adobe Campaign], voir <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Créer une connexion à [!DNL Adobe Campaign]</a> dans cet article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
-   <td>Indiquez si vous souhaitez rechercher de nouveaux enregistrements, des enregistrements mis à jour ou les deux.</td> 
+   <td>Indiquez si vous souhaitez surveiller les nouveaux enregistrements, les enregistrements mis à jour ou les deux.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -170,7 +170,7 @@ Ce module de déclenchement planifié lance un scénario lorsqu’un enregistrem
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -179,7 +179,7 @@ Ce module de déclenchement planifié lance un scénario lorsqu’un enregistrem
 ### Actions
 
 * [[!UICONTROL Créer un enregistrement]](#create-a-record)
-* [[!UICONTROL Effectuer un appel d’API personnalisé]](#make-a-custom-api-call)
+* [[!UICONTROL Effectuer un appel API personnalisé]](#make-a-custom-api-call)
 * [[!UICONTROL Supprimer un enregistrement]](#delete-record)
 * [[!UICONTROL Exécuter une action]](#perform-an-action)
 * [[!UICONTROL Lire un enregistrement]](#-read-a-record)
@@ -188,7 +188,7 @@ Ce module de déclenchement planifié lance un scénario lorsqu’un enregistrem
 
 #### [!UICONTROL Créer un enregistrement]
 
-Ce module d’action crée un nouvel enregistrement dans [!DNL Adobe Campaign].
+Ce module d’action crée un enregistrement dans [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -200,11 +200,11 @@ Ce module d’action crée un nouvel enregistrement dans [!DNL Adobe Campaign].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Sélectionner le type d’enregistrement [!DNL Adobe Campaign] à créer.</td> 
+   <td>Sélectionnez le type d’enregistrement [!DNL Adobe Campaign] à créer.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fields] </td> 
-   <td>Sélectionnez les champs pour lesquels définir des valeurs lors de la création de l’enregistrement, puis remplissez les valeurs souhaitées pour ces champs. Les champs varient en fonction du type d’enregistrement sélectionné.</td> 
+   <td>Sélectionnez les champs pour lesquels vous souhaitez définir des valeurs lors de la création de l’enregistrement, puis renseignez les valeurs de ces champs. Les champs varient en fonction du type d’enregistrement sélectionné.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Custom fields]</td> 
@@ -215,7 +215,7 @@ Ce module d’action crée un nouvel enregistrement dans [!DNL Adobe Campaign].
 
 #### [!UICONTROL Effectuer un appel API personnalisé]
 
-Ce module lance un appel personnalisé à l’API [!DNL Adobe Campaign].
+Ce module effectue un appel API personnalisé à l’API [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
   <col/>
@@ -227,7 +227,7 @@ Ce module lance un appel personnalisé à l’API [!DNL Adobe Campaign].
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Action]</td>
-      <td><p>Sélectionnez l’action que l’appel API doit exécuter.</p>
+      <td><p>Sélectionnez l’action que vous souhaitez que l’appel API effectue.</p>
       <p>[!UICONTROL Execute query]</p>
       <p>[!UICONTROL Write]</p>
       <p>[!UICONTROL Get entity if more recent]</p>
@@ -245,13 +245,13 @@ Ce module lance un appel personnalisé à l’API [!DNL Adobe Campaign].
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL XML Body]</td>
-   <td> <p>Ajoutez le contenu du corps de l’appel API au format XML, sans l’élément session. </td>     </tr>
+   <td> <p>Ajoutez le contenu du corps de l’appel API au format XML, sans l’élément de session. </td>     </tr>
   </tbody>
 </table>
 
 #### [!UICONTROL Supprimer l’enregistrement]
 
-Ce module d’action supprime un seul enregistrement de [!DNL Adobe Campaign].
+Ce module d’action supprime un seul enregistrement d’[!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -263,11 +263,11 @@ Ce module d’action supprime un seul enregistrement de [!DNL Adobe Campaign].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Sélectionnez le type de ressource que vous souhaitez supprimer.</td> 
+   <td>Sélectionnez le type de ressource à supprimer.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Saisissez ou mappez l’identifiant de la ressource que vous souhaitez supprimer.</td> 
+   <td>Saisissez ou mappez l’ID de la ressource que vous souhaitez supprimer.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -277,7 +277,7 @@ Ce module d’action supprime un seul enregistrement de [!DNL Adobe Campaign].
 
 Ce module d’action exécute une action sélectionnée sur un objet dans l’API [!DNL Adobe Campaign].
 
-Pour plus d’informations sur des actions et des champs spécifiques, voir la Documentation de l’API [[!DNL Adobe Campaign] ](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
+Pour plus d’informations sur des actions et des champs spécifiques, voir Documentation de l’API [[!DNL Adobe Campaign] ](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=fr).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -304,7 +304,7 @@ Pour plus d’informations sur des actions et des champs spécifiques, voir la D
 
 #### [!UICONTROL Lire un enregistrement]
 
-Ce module d’action lit un enregistrement à partir de [!DNL Adobe Campaign].
+Ce module d’action lit un enregistrement à partir d’[!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -316,11 +316,11 @@ Ce module d’action lit un enregistrement à partir de [!DNL Adobe Campaign].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Sélectionnez le type d’enregistrement [!DNL Adobe Campaign] à lire.</td> 
+   <td>Sélectionnez le type d’enregistrement [!DNL Adobe Campaign] que vous souhaitez lire.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
-   <td>Saisissez ou mappez l’ID unique de l’enregistrement à lire.</td> 
+   <td>Saisissez ou mapper l’ID de l’enregistrement que vous souhaitez lire.</td> 
   </tr> 
  <tr> 
    <td role="rowheader">[!UICONTROL Fields to include in output] </td> 
@@ -334,7 +334,7 @@ Ce module d’action lit un enregistrement à partir de [!DNL Adobe Campaign].
 </table>
 
 
-#### [!UICONTROL S’abonner ou se désabonner]
+#### [!UICONTROL Abonner ou désabonner]
 
 Ce module d’action abonne une personne à un service d’information ou la désabonne.
 
@@ -348,15 +348,15 @@ Ce module d’action abonne une personne à un service d’information ou la dé
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subscribe or unsubscribe]</td> 
-   <td>Indiquez si vous souhaitez vous abonner au service d’information ou vous désabonner.</td> 
+   <td>Indiquez si vous souhaitez vous abonner au service d’information ou vous en désabonner.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Service name]</td> 
-   <td>Sélectionnez le service auquel vous souhaitez vous abonner ou duquel vous souhaitez vous désabonner.</td> 
+   <td>Sélectionnez le service auquel vous souhaitez vous abonner ou dont vous souhaitez vous désabonner.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Recipient email address] </td> 
-   <td>Saisissez ou mappez l’adresse e-mail de la personne que vous souhaitez abonne au service d’information ou désabonner.</td> 
+   <td>Saisissez ou mappez l’adresse e-mail de la personne que vous souhaitez abonner au service d’information ou que vous souhaitez désabonner de ce service.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,11 +375,11 @@ Ce module d’action met à jour un seul enregistrement dans [!DNL Adobe Campaig
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Sélectionnez le type d’enregistrement [!DNL Adobe Campaign] que vous souhaitez que le module crée.</td> 
+   <td>Sélectionnez le type d’enregistrement [!DNL Adobe Campaign] à créer.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
-   <td>Saisissez ou mappez l’identifiant de l’enregistrement que vous souhaitez mettre à jour.</td> 
+   <td>Saisissez ou mappez l’ID de l’enregistrement que vous souhaitez mettre à jour.</td> 
   </tr> 
 <tr> 
    <td role="rowheader">[!UICONTROL Fields] </td> 
@@ -408,11 +408,11 @@ Ce module de recherche renvoie des enregistrements en fonction des critères sp�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Sélectionnez le type d’enregistrement [!DNL Adobe Campaign] que vous souhaitez que le module crée.</td> 
+   <td>Sélectionnez le type d’enregistrement [!DNL Adobe Campaign] à créer.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td>Saisissez ou mappez le nombre maximal d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
+   <td>Saisissez ou mappez le nombre maximum d’enregistrements que le module doit renvoyer pour chaque cycle d’exécution du scénario.</td> 
   </tr> 
  </tbody> 
 </table>

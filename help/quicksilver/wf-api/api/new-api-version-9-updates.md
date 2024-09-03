@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Mises à jour de la version 9 de l’API
+title: Mises à jour de la version 9 de l’API
 description: Ressources mises à jour
 author: Becky
 feature: Workfront API
@@ -10,19 +10,19 @@ exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
-# Mises à jour de la version 9 de l’API
+# Mises à jour de la version 9 de l’API
 
 ## Ressources mises à jour
 
-Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Adobe Workfront. Pour afficher les ressources qui sont nouvelles de la version 9, vous pouvez consulter les sections [Nouveautés de l’API version 9](../../wf-api/api/new-api-version-9.md) et [Nouveautés de l’API version 9 (suite)](../../wf-api/api/new-api-version-9-continue.md). Les modifications apportées à une ressource sont indiquées de la manière suivante :
+Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Adobe Workfront. Pour afficher les ressources nouvelles de la version 9, vous pouvez accéder à [Nouveautés de la version 9 de l’API](../../wf-api/api/new-api-version-9.md) et [Nouveautés de la version 9 de l’API (suite)](../../wf-api/api/new-api-version-9-continue.md). Les modifications apportées à une ressource sont indiquées de la manière suivante :
 
-* Les ajouts sont simplement répertoriés
+* Les ajouts sont simplement énumérés.
 * Les suppressions sont indiquées par un texte barré.
-* Les modifications sont signalées dans la note suivant le tableau .
+* Les modifications sont signalées dans la note après le tableau.
 
 ### AgileWork
 
@@ -33,8 +33,8 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicateur supprimé : REPORTABLE\
-<sup>2</sup> Indicateur supprimé : NOT_GROUPABLE
+<sup>1</sup> Indicateur supprimé : REPORTABLE\
+<sup>2</sup> Indicateur supprimé : NOT_GROUPABLE
 
 ### Approbation
 
@@ -55,7 +55,7 @@ Affectation
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Champ ajouté : lockToRole
+<sup>1</sup> Champ ajouté : lockToRole
 
 ### CustomerPreferences
 
@@ -65,7 +65,7 @@ Affectation
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications apportées à possibleValues
 
 ### Heure
 
@@ -121,7 +121,7 @@ Affectation
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicateur supprimé : REPORTABLE
+<sup>1</sup> Indicateur supprimé : REPORTABLE
 
 ### Planning
 

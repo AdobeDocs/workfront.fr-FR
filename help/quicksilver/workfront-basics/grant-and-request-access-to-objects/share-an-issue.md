@@ -2,36 +2,36 @@
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Partager un problème
-description: Votre administrateur Adobe Workfront permet aux utilisateurs d’accéder aux problèmes d’affichage ou de modification lorsqu’ils attribuent des niveaux d’accès. Pour plus d’informations sur l’octroi de l’accès aux problèmes, voir Octroi de l’accès aux problèmes.
+description: Votre administrateur ou administratrice Adobe Workfront accorde aux utilisateurs et utilisatrices l’accès à l’affichage ou à la modification des problèmes lorsque des niveaux d’accès leur sont attribués. Pour plus d’informations sur l’octroi d’un accès aux problèmes, voir Accorder l’accès aux problèmes.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # Partager un problème
 
-Votre administrateur Adobe Workfront permet aux utilisateurs d’accéder aux problèmes d’affichage ou de modification lorsqu’ils attribuent des niveaux d’accès. Pour plus d’informations sur l’octroi de l’accès aux problèmes, voir [Octroi de l’accès aux problèmes](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
+Votre administrateur ou administratrice Adobe Workfront accorde aux utilisateurs et utilisatrices l’accès à l’affichage ou à la modification des problèmes lorsque des niveaux d’accès leur sont attribués. Pour plus d’informations sur l’octroi de l’accès aux problèmes, voir [Accorder l’accès aux problèmes](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
-Outre le niveau d’accès que les utilisateurs reçoivent, vous pouvez leur accorder des autorisations pour Afficher, Contribute ou Gérer des problèmes spécifiques que vous avez accès au partage. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Comment les niveaux d’accès et les autorisations fonctionnent ensemble](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+En plus du niveau d’accès accordé aux utilisateurs et utilisatrices, vous pouvez également leur accorder des autorisations pour afficher, contribuer ou gérer des problèmes spécifiques que vous pouvez partager. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Comment les niveaux d’accès et les autorisations fonctionnent ensemble](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Les autorisations sont spécifiques à un élément dans Workfront et définissent les actions que vous pouvez effectuer sur cet élément.
 
-## Considérations sur les problèmes de partage
+## Considérations relatives au partage de problèmes
 
-Outre les considérations ci-dessous, reportez-vous également à la section [Présentation des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Outre les considérations ci-dessous, voir également [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
->Un administrateur Workfront peut ajouter ou supprimer des autorisations à n’importe quel élément du système, pour tous les utilisateurs, sans en être le propriétaire.
+>Une équipe d’administration Workfront peut ajouter ou supprimer des autorisations à tous les éléments du système, pour toutes les personnes, sans être la personne propriétaire de ces éléments.
 
-* Par défaut, le créateur d’un problème dispose des autorisations Manage (Gérer).
-* Vous pouvez partager des problèmes individuellement ou plusieurs d’entre eux à la fois. Les problèmes de partage sont identiques au partage d’autres éléments dans Workfront. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partage d’un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Vous pouvez accorder les autorisations suivantes à un problème : 
+* La personne qui crée un problème dispose par défaut d’autorisations de gestion.
+* Vous pouvez partager un ou plusieurs problèmes à la fois. Le partage des problèmes est identique au partage d’autres éléments dans Workfront. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Vous pouvez accorder les autorisations suivantes pour un problème : 
 
    * Afficher
 
@@ -42,38 +42,38 @@ Outre les considérations ci-dessous, reportez-vous également à la section [Pr
      ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
 
    * Contribuer\
-     ![contribuer_on_issue.png](assets/contribute-on-issue-156x205.png)
+     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
-* Lorsque vous partagez un problème, tous les documents associés au problème héritent des mêmes autorisations.
+* Lorsque vous partagez un problème, tous les documents associés à ce problème héritent des mêmes autorisations.
 
-  L’administrateur de Workfront peut indiquer si les documents doivent hériter des autorisations des objets de niveau supérieur au niveau d’accès de l’utilisateur. Pour plus d’informations sur la limitation des autorisations héritées sur les documents, voir [Création ou modification de niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  L’administrateur ou l’administratrice Workfront peut indiquer si les documents doivent hériter des autorisations des objets supérieurs dans le niveau d’accès de l’utilisateur ou de l’utilisatrice. Pour plus d’informations sur la restriction des autorisations héritées sur les documents, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Vous pouvez supprimer les autorisations héritées d’un problème. Pour plus d’informations, voir [Suppression des autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Vous pouvez supprimer les autorisations héritées d’un problème. Pour plus d’informations, voir [Supprimer les autorisations des objets](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-## Méthodes de partage d’un problème
+## Façons de partager un problème
 
-* Manuellement, ce qui revient à partager n’importe quel autre objet dans Workfront. Pour plus d’informations sur le partage d’objets dans Workfront, voir [Partage d’un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Automatiquement, en effectuant l’une des opérations suivantes :
+* Manuellement, ce qui est similaire au partage de tout autre objet dans Workfront.Pour plus d’informations sur le partage d’objets dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Automatiquement, en effectuant l’une des opérations suivantes :
 
-   * Spécifiez les autorisations sur l’un des objets parents du problème : projet, programme ou portfolio. Les problèmes héritent des autorisations de leurs objets parents. Pour plus d’informations sur l’affichage des autorisations héritées sur les objets, voir [Affichage des autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Ajoutez des entités au partage de projet sur un modèle utilisé pour créer le projet sur lequel porte le problème. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partage d’un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Spécifier les autorisations sur l’un des objets parents du problème : projet, programme ou portfolio. Les problèmes héritent des autorisations de leurs objets parents. Pour plus d’informations sur l’affichage des autorisations héritées sur les objets, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+   * Ajouter des entités au partage de projet sur un modèle utilisé pour créer le projet sur lequel porte le problème. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Spécifiez les autorisations pour tous les problèmes d’un projet lorsque vous le modifiez. Pour plus d’informations sur la gestion de l’accès aux problèmes ou aux requêtes du projet en fonction des autorisations d’un utilisateur sur le projet, reportez-vous à la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) de l’article [Modifier les projets](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Spécifier les autorisations sur tous les problèmes d’un projet lorsque vous modifiez le projet. Pour plus d’informations sur la gestion de l’accès aux problèmes ou aux demandes sur le projet en fonction des autorisations d’un utilisateur ou d’une utilisatrice sur le projet, voir la section [](../../manage-work/projects/manage-projects/edit-projects.md#access) dans l’article [Modifier des projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >Si vous ne spécifiez pas les autorisations de problème que les utilisateurs doivent posséder lorsqu’ils sont affectés aux problèmes du projet, ils reçoivent par défaut les mêmes autorisations que celles dont ils disposent sur le projet.
+     >Si vous ne spécifiez pas les autorisations que vous souhaitez que les personnnes possèdent lorsque les problèmes du projet leur sont affectés, elles reçoivent par défaut les mêmes autorisations que celles qu’elles ont sur le projet.
 
-   * Spécifiez les autorisations que les utilisateurs reçoivent sur les problèmes qu’ils envoient dans une file d’attente de demandes lors de la création d’une file d’attente de demandes. Pour plus d’informations, voir [Création d’une file d’attente de requêtes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * Lors de la création d’une file d’attente des demandes, spécifiez les autorisations que les personnes reçoivent sur les problèmes qu’elles soumettent dans une file d’attente des demandes. Pour plus d’informations, voir [Créer une file d’attente des demandes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
      >[!IMPORTANT]
      >
-     >Les autorisations sont accordées différemment selon que le projet est publié ou non en tant que file d’attente de demandes :
+     >Les autorisations sont accordées différemment selon que le projet est publié ou non en tant que file d’attente des demandes :
      >
      >   
      >   
-     >   * Lorsqu’un utilisateur envoie une demande à un projet publié en tant que file d’attente de demandes, les utilisateurs Contact de Principal et Entré par se voient accorder l’autorisation spécifiée.
-     >   * Lorsqu’un utilisateur envoie une requête à un projet qui n’est pas publié en tant que file d’attente de requêtes, le contact de Principal (s’il est différent de Entré par l’utilisateur) se voit accorder l’autorisation spécifiée, et l’utilisateur Entré par se voit octroyer les autorisations de gestion du problème.
+     >   * Lorsqu’un utilisateur ou une utilisatrice soumet une demande à un projet publié en tant que file d’attente des demandes, les personnes Contact principal et Entré par se voient accorder l’autorisation spécifiée.
+     >   * Lorsqu’une personne soumet une demande pour un projet qui n’est pas publié en tant que file d’attente des demandes, le contact principal (si différent de la personne Entré par) se voit accorder l’autorisation spécifiée, et la personne Entré par se voit accorder les autorisations de gestion du problème.
      >   
      >
 
@@ -132,9 +132,9 @@ Outre les considérations ci-dessous, reportez-vous également à la section [Pr
 </div>
 -->
 
-## Autorisations de problème
+## Autorisations pour les problèmes
 
-Le tableau suivant affiche les autorisations que vous pouvez accorder aux utilisateurs lorsqu’ils peuvent afficher, Contribute ou gérer un problème :
+Le tableau suivant indique les autorisations que vous pouvez accorder aux personnes lorsqu’elles sont autorisées à afficher, contribuer ou gérer un problème :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -145,7 +145,7 @@ Le tableau suivant affiche les autorisations que vous pouvez accorder aux utilis
   <tr> 
    <td><strong>Actions</strong> </td> 
    <td><strong>Gérer</strong> </td> 
-   <td><strong>Contribute</strong> </td> 
+   <td><strong>Contribuer</strong> </td> 
    <td><strong>Afficher</strong> </td> 
   </tr> 
   <tr> 
@@ -155,22 +155,22 @@ Le tableau suivant affiche les autorisations que vous pouvez accorder aux utilis
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Supprimer </td> 
+   <td>Supprimer</td> 
    <td>✓</td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Joindre un formulaire personnalisé</td> 
    <td>✓</td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modifier les champs personnalisés</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Approuver le problème</td> 
@@ -179,10 +179,10 @@ Le tableau suivant affiche les autorisations que vous pouvez accorder aux utilis
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Ajouter Un Processus D’Approbation</td> 
+   <td>Ajouter un processus d’approbation</td> 
    <td>✓</td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ajouter des documents</td> 
@@ -206,37 +206,37 @@ Le tableau suivant affiche les autorisations que vous pouvez accorder aux utilis
    <td>Consigner les heures</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Convertir en projet*</td> 
    <td>✓</td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Assignation</td> 
+   <td>Accepter l’affectation</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Mises à jour/commentaires</td> 
+   <td>Mises à jour / commentaires</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Modifier les dates planifiées</td> 
+   <td>Modifier les dates prévues</td> 
    <td>✓</td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Créer des affectations</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Partager</td> 
@@ -253,4 +253,4 @@ Le tableau suivant affiche les autorisations que vous pouvez accorder aux utilis
  </tbody> 
 </table>
 
-&#42;Contrôlé par les niveaux d’accès et les autorisations du projet.
+&#42;Contrôlé par les niveaux d’accès et les autorisations sur le projet.

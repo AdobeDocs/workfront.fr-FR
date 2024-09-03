@@ -2,14 +2,14 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Exporter une liste de feuilles de temps
-description: En tant que gestionnaire des personnes ou approbateur de feuilles de temps, vous devrez peut-être télécharger une liste de feuilles de temps pour afficher rapidement des informations sur les feuilles de temps des personnes dont vous êtes responsable. Pour ce faire, vous pouvez exporter une liste de feuilles de temps.
+description: En tant que personne responsable du personnel ou de l’approbation des feuilles de temps, vous devrez peut-être télécharger une liste des feuilles de temps pour consulter rapidement des informations sur les feuilles de temps des personnes dont vous êtes responsable. Pour ce faire, vous pouvez exporter une liste de feuilles de temps.
 author: Alina
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
 source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 20%
+ht-degree: 97%
 
 ---
 
@@ -17,29 +17,29 @@ ht-degree: 20%
 
 <!--Audited: 8/2024-->
 
-En tant que gestionnaire des personnes ou approbateur de feuilles de temps, vous devrez peut-être télécharger une liste de feuilles de temps pour afficher rapidement des informations sur les feuilles de temps des personnes dont vous êtes responsable. Pour ce faire, vous pouvez exporter une liste de feuilles de temps.
+En tant que personne responsable du personnel ou de l’approbation des feuilles de temps, vous devrez peut-être télécharger une liste des feuilles de temps pour consulter rapidement des informations sur les feuilles de temps des personnes dont vous êtes responsable. Pour ce faire, vous pouvez exporter une liste de feuilles de temps.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouveau : Léger ou supérieur </p>
-   <p>Actuel : révision ou supérieur </p>
+   <td> <p>Nouveau : Light ou supérieur </p>
+   <p>Actuel : Révision ou supérieur </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Affichage ou accès supérieur aux tâches et aux problèmes </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,58 +89,58 @@ La zone **Fiches horaires** s’ouvre.
 
 ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Facultatif) Cliquez sur l’icône **search** ![](assets/search-icon.png) et saisissez un mot-clé et recherchez une feuille de temps spécifique. Par exemple, vous pouvez rechercher une période de temps définie ou le nom du propriétaire.
+1. (Facultatif) Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png), saisissez un mot-clé et recherchez une feuille de temps spécifique. Par exemple, vous pouvez rechercher une période de feuille de temps ou le nom de la personne propriétaire.
 
-1. (Facultatif) Pour mettre à jour le filtre dans la liste des feuilles de temps, effectuez l’une des opérations suivantes :
+1. (Facultatif) Pour mettre à jour le filtre dans la liste des feuilles de temps, effectuez l’une des opérations suivantes :
 
    * Sélectionnez **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez.
 
      Ou
 
-     Sélectionnez **Mes feuilles de calcul** pour n’afficher que vos feuilles de calcul.
+     Sélectionnez **Mes feuilles de temps** pour afficher uniquement vos feuilles de temps.
 
-     Cela applique les filtres Mes approbations de feuille de temps ou Ma feuille de temps à la liste des feuilles de temps.
+     Cela applique à la liste des feuilles de temps les filtres « Mes approbations de feuille de temps » ou « Mes feuilles de temps ».
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Cliquez sur l’icône Filtrer ![](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Création ou modification de filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Cliquez sur l’icône Filtre ![](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Les options Mes approbations de feuille de temps et Mes feuilles de temps ne s’affichent pas en haut de la liste de feuille de temps ni dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé les filtres Mes approbations de feuille de temps et Mes feuilles de temps des commandes de liste de la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, voir les articles suivants :
+   >Si l’équipe d’administration de Workfront ou de groupes a supprimé les filtres « Mes approbations de feuilles de temps » et « Mes feuilles de temps » des contrôles de liste de la zone de configuration ou de votre modèle de mise en page, les options correspondantes ne s’afficheront pas en haut de la liste des feuilles de temps ou dans la liste des filtres.Pour plus d’informations, consultez les articles suivants :
    >
    >   
    >   
-   >   * [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Facultatif) Cliquez sur les icônes **View** ![](assets/view-icon.png) ou **Grouping** ![](assets/grouping.png) pour appliquer une autre vue ou un autre regroupement ou en créer un nouveau.
+1. (Facultatif) Cliquez sur les icônes **Vue** ![](assets/view-icon.png) ou **Regroupement** ![](assets/grouping.png) pour appliquer une autre vue ou un autre regroupement ou en créer de nouveaux.
 
-   Pour plus d’informations sur la création de filtres, de vues ou de regroupements, consultez les articles suivants :
+   Pour plus d’informations sur la création de filtres, de vues ou de regroupements, voir les articles suivants :
 
-   * [Création ou modification de filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-   * [Créer ou modifier des vues dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+   * [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [Créer ou modifier des vues dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Créer des regroupements dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Sélectionnez les feuilles de temps à exporter, puis cliquez sur l&#39;icône **Export** ![](assets/export-38x15.png) .
+1. Sélectionnez les feuilles de temps à exporter, puis cliquez sur l’icône **Exporter** ![](assets/export-38x15.png).
 
    ![](assets/all-timesheets-list-with-export-button-nwe-350x262.png)
 
-1. Sélectionnez le type de fichier vers lequel vous souhaitez exporter la liste des feuilles de temps à partir des options suivantes :
+1. Sélectionnez le type de fichier vers lequel vous souhaitez exporter la liste des feuilles de temps à partir des options suivantes :
 
-   * PDF Ladscape
-   * Portrait PDF
-   * Autres tailles du PDF
+   * PDF - Paysage
+   * PDF - Portrait
+   * Autres formats de PDF
    * Excel
    * Excel (xlsx)
    * Délimité par des tabulations
 
-   Une liste de feuilles de temps est téléchargée sur votre ordinateur au format sélectionné et contient les informations suivantes :
+   Une liste de feuilles de temps est téléchargée sur votre ordinateur au format sélectionné et contient les informations suivantes :
 
    * Période
    * Nom du propriétaire
    * Total des heures
-   * Montant des heures supplémentaires
-   * Noms des approbateurs
+   * Quantité d’heures supplémentaires
+   * Noms des approbateurs et approbatrices
    * Statut

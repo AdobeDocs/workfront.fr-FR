@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de la version 7 de l’API
+title: Nouveautés de la version 7 de l’API
 description: Collections
 author: Becky
 feature: Workfront API
@@ -10,15 +10,15 @@ exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# Nouveautés de la version 7 de l’API
+# Nouveautés de la version 7 de l’API
 
 ## Nouveaux objets
 
-### Proof Bean
+### Épreuve Bean
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -66,7 +66,7 @@ ht-degree: 46%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Count </td> 
+   <td>Nombre</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -75,7 +75,7 @@ ht-degree: 46%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Supprimer </td> 
+   <td>Supprimer</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -93,7 +93,7 @@ ht-degree: 46%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Rapport </td> 
+   <td>Rapport</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -102,7 +102,7 @@ ht-degree: 46%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Rechercher </td> 
+   <td>Rechercher</td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,7 +114,7 @@ ht-degree: 46%
 | ID |   |   |   |   |   | Ajouter |
 |   |   |   |   |   |   | Nombre |
 |   |   |   |   |   |   | Supprimer |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obtenir |
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Recherche |
 
@@ -125,7 +125,7 @@ ht-degree: 46%
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Nombre |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obtenir |
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Recherche |
 
@@ -141,7 +141,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | Nombre |
 |   |   |   |   |   |   | Supprimer |
 |   |   |   |   |   |   | Modifier |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obtenir |
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Recherche |
 
@@ -154,7 +154,7 @@ ht-degree: 46%
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | groupID | groupe |   |   |   |   |   |
-| isOwner  | user  |   |   |   |   |   |
+| isOwner  | utilisateur ou utilisatrice |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -170,7 +170,7 @@ ht-degree: 46%
 |   |   |   |   |   |   | Nombre |
 |   |   |   |   |   |   | Supprimer |
 |   |   |   |   |   |   | Modifier |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Obtenir |
 |   |   |   |   |   |   | Rapport |
 |   |   |   |   |   |   | Recherche |
 |   |   |   |   |   |   | Remplacer |
@@ -183,12 +183,12 @@ ht-degree: 46%
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| ID | client | utilisateurs |   |   |   | Ajouter |
+| ID | customer | utilisateurs |   |   |   | Ajouter |
 | customerID  | entryBy  |   |   |   |   | Nombre |
-| description  | lastUpdatedBy  |   |   |   |   | Supprimer |
-| entryByID  |   |   |   |   |   | Modifier |
-| entryDate  |   |   |   |   |   | Get |
-| extRefID  |   |   |   |   |   | Rapport |
+| description | lastUpdatedBy  |   |   |   |   | Supprimer |
+| entryByID |   |   |   |   |   | Modifier |
+| entryDate |   |   |   |   |   | Obtenir |
+| extRefID |   |   |   |   |   | Rapport |
 | lastUpdateDate |   |   |   |   |   | Recherche |
 | lastUpdateByID |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
@@ -202,9 +202,9 @@ ht-degree: 46%
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Nombre |
-| articleName  |   |   |   |   |   | Get |
+| articleName  |   |   |   |   |   | Obtenir |
 | pageID  |   |   |   |   |   | Rapport |
-| url  |   |   |   |   |   | Recherche |
+| url  |   |   |   |   |   | Recherche |
 
 {style="table-layout:auto"}
 
@@ -216,7 +216,7 @@ ht-degree: 46%
 
 ## Objets mis à jour
 
-Modifications apportées aux objets existants : les ajouts sont simplement répertoriés, les suppressions ont été réalisées, les modifications apportées aux objets existants comportent une note jointe après le tableau.
+Modifications apportées aux objets existants : les ajouts sont simplement répertoriés, les suppressions sont barrées, les modifications apportées aux objets existants comportent une note jointe après le tableau.
 
 ### UpdateBean
 
@@ -226,7 +226,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles 
+<sup>1</sup> Modifications des valeurs possibles 
 
  
 
@@ -244,11 +244,11 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 ### AccessRule<sup>1</sup>
 
-<sup>1</sup> marqué comme pouvant être rapporté
+<sup>1</sup> Marqué comme pouvant être signalé
 
  
 
-### Processus d&#39;approbation
+### Processus d’approbation
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -256,9 +256,9 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-  
+ 
 
-### Chemin d’approbation<sup>1</sup>
+### Chemin d’approbation <sup>1</sup>
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -272,7 +272,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
  
 
-### Objet Work Service
+### Objet Service de travail
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -282,9 +282,9 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Date de validation ajoutée
+<sup>1</sup> Validation de date ajoutée
 
-<sup>2</sup> Ajout de l’indicateur non filtrable
+<sup>2</sup> Indicateur Not_Filterable ajouté
 
  
 
@@ -292,17 +292,17 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+| workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Le champ ajouté includeIssues
+<sup>1</sup> Champ includeIssues ajouté
 
  
 
-### Client 
+### Client ou cliente
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -310,21 +310,21 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles 
+<sup>1</sup> Modifications des valeurs possibles 
 
  
 
-### Énumération personnalisée 
+### Énumération personnalisée
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| groupID  |   |   |   |   |   |   |
+| groupID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
  
 
-### Document 
+### Document
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -334,7 +334,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
  
 
-### DocumentVersion 
+### DocumentVersion
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -348,12 +348,12 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| isPublic |  layoutTemplate | userGroups  |   |   |   |   |
+| isPublic | layoutTemplate | userGroups |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modification du programme de validation PRECISION pour 8 à 9
+<sup>1</sup> Changement du programme de validation PRECISION de 8 à 9
 
  
 
@@ -364,8 +364,8 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 |   |   |   |   |   | defaultOpTaskHourType |   |
 |   |   |   |   |   | defaultProjectHourType |   |
 |   |   |   |   |   | defaultTaskHourType  |   |
-|   |   |   |   |   | globalHourTypes  |   |
-|   |   |   |   |   | objectHourTypes  |   |
+|   |   |   |   |   | globalHourTypes |   |
+|   |   |   |   |   | objectHourTypes |   |
 
 {style="table-layout:auto"}
 
@@ -379,11 +379,11 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications apportées aux valeurs possibles
 
  
 
-### Optask (issue)
+### Optask (problème)
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -423,7 +423,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |  queueTopicID |   |
+|   |   |   |   |   | queueTopicID |   |
 
 {style="table-layout:auto"}
 
@@ -433,7 +433,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   |   |   |   |  updateLastViewedObject |   |   |
+|   |   |   |   | updateLastViewedObject |   |   |
 
 {style="table-layout:auto"}
 
@@ -443,7 +443,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   | assignMultiple  |   |   |
+| approvalCompletionDate |   |   |   | assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
@@ -459,7 +459,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Le type est passé de Int à Double 
+<sup>1</sup> Changement du type de Ent à Double
 
  
 
@@ -491,15 +491,15 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
    <td> </td> 
    <td>
     <code>roles</code> </td> 
-   <td> rôles</td> 
+   <td>roles</td> 
    <td>addMobileDevice</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">}timesheetProfileHourTypes</span> </td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
    <td> </td> 
    <td>getAvailableActions</td> 
    <td> </td> 
@@ -544,11 +544,11 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
  </tbody> 
 </table>
 
-### Note de l’utilisateur
+### Note de l’utilisateur ou utilisatrice
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| `acknowledgedmentIDs` |   |   |   |  unackknowMany |   |   |
+| `acknowledgedmentIDs` |   |   |   | unackknowledgeMany |   |   |
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
@@ -562,7 +562,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement répe
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|  name |   |   |   |   |   |   |
+| name |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 

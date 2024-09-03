@@ -112,13 +112,13 @@ Lorsqu’une nouvelle version de document est chargée, le cycle de révision su
 
 ## Tests des fonctionnalités
 
-Nous avons développé cette intégration pour permettre aux personnes créatives de continuer à utiliser leur outil de prédilection (CC ou Frame.io) pour créer du contenu et effectuer des révisions par des pairs, le tout sous la coupe de personnes responsables de projet chargées de coordonner le travail et d’initialiser et de suivre le processus de révision formel à partir de Workfront. Pour ce faire, vous pouvez utiliser le meilleur des deux mondes : les nouvelles approbations de document de Workfront pour la gestion des approbations de contenu, ainsi que les fonctionnalités de révision de contenu proposées par Frame.io. Les nouvelles approbations de documents et Frame.io formeront notre nouvelle expérience de révision et d’approbation de contenu de bout en bout. 
+Nous avons développé cette intégration pour permettre aux personnes créatives de continuer à utiliser leur outil de prédilection (CC ou Frame.io) pour créer du contenu et effectuer des révisions par des pairs, le tout sous la coupe de personnes responsables de projet chargées de coordonner le travail et d’initialiser et de suivre le processus de révision formel à partir de Workfront. Pour ce faire, vous pouvez utiliser le meilleur des deux solutions : les nouvelles approbations de documents Workfront pour la gestion des approbations de contenu, ainsi que les fonctionnalités de révision de contenu proposées par Frame.io. Les nouvelles approbations de documents et Frame.io formeront notre nouvelle expérience de révision et d’approbation de contenu de bout en bout. 
 
 Pour vous permettre de tester facilement les nouvelles fonctionnalités du programme bêta, nous avons créé un nouveau compte de test Frame.io et nous l’avons connecté à un nouveau groupe appelé `Frame.io testing` dans votre environnement de prévisualisation ou de sandbox Workfront existant.
 
 ### Instructions détaillées sur les tests
 
-Pour les personnes participantes qui souhaitent tester des fonctionnalités supplémentaires, nous avons créé un scénario de test plus poussé. Un guide pour ce scénario de test détaillé peut être téléchargé ici : [Présentation détaillée du scénario de test détaillé WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
+Pour les personnes participantes qui souhaitent tester des fonctionnalités supplémentaires, nous avons créé un scénario de test plus poussé. Vous pouvez télécharger un guide pour ce scénario de test détaillé ici : [Présentation du scénario de test détaillé WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 
 
 ## Vidéo de démonstration

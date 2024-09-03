@@ -10,25 +10,25 @@ exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # Charger des fichiers via l’API
 
-Vous pouvez charger des fichiers à l’aide des API Workfront à l’aide d’outils d’API, tels que Postman, ou à l’aide de commandes cURL simples.
+Vous pouvez charger des fichiers en utilisant les API Workfront avec des outils d’API, tels que Postman, ou avec de simples commandes cURL.
 
-Pour télécharger des documents, reportez-vous aux instructions de la section **Téléchargement de documents** dans Workfront [Comportement Post](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Vous pouvez également utiliser ces mêmes instructions pour les demandes cURL.
+Pour charger des documents, voir les instructions pour **Charger des documents** dans [Comportement de la requête POST](/help/quicksilver/wf-api/general/api-basics.md#post-behavior) dans Workfront. Vous pouvez également utiliser ces mêmes instructions pour les requêtes cURL.
 
-**Lorsque vous utilisez des outils d’API pour charger des fichiers, suivez ces instructions :**
+**Lorsque vous utilisez les outils d’API pour charger des fichiers, suivez les instructions suivantes :**
 
-* Utilisez l’option de votre outil d’API pour télécharger votre fichier. Il s’agit souvent d’un bouton **Choisir le fichier** sur l’écran de demande.
+* Utilisez l’option de votre outil d’API pour charger votre fichier. Il y a souvent un bouton **Choisir un fichier** sur l’écran de la requête.
 
-* Utilisez la méthode HTTP du POST pour effectuer la requête de téléchargement du fichier.
+* Utilisez la méthode HTTP POST pour demander le chargement du fichier.
 
-* Votre requête doit générer une réponse qui inclut une valeur pour son gestionnaire.
+* Votre requête doit donner lieu à une réponse qui contient une valeur pour son pseudo.
 
-* Utilisez la valeur handle, le type d’objet et la valeur GUID pour objID dans un payload JSON pour effectuer un appel ultérieur. Il s’agit de la création de l’objet pour votre fichier, comme dans l’exemple suivant :
+* Utilisez la valeur du pseudo, le type d’objet et la valeur du GUID pour l’objID dans un payload JSON pour effectuer un appel ultérieur. Il s’agit de créer l’objet pour votre fichier, comme dans l’exemple suivant :
 
 ```
 }
@@ -40,6 +40,6 @@ Pour télécharger des documents, reportez-vous aux instructions de la section *
 }
 ```
 
-Vous devriez recevoir un identifiant pour l’objet dans la réponse.
+Vous devriez recevoir un ID pour l’objet dans la réponse.
 
 Pour plus d’informations, reportez-vous à l’aide de l’outil d’API spécifique que vous utilisez.

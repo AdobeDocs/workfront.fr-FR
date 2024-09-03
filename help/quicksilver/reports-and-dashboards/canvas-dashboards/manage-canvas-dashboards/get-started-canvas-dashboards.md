@@ -1,7 +1,7 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
-title: Prise en main des tableaux de bord de zone de travail
+title: Commencer avec les tableaux de bord de zones de travail
 description: Instructions de base pour l’utilisation des tableaux de bord de la zone de travail, notamment comment accéder à votre liste de tableaux de bord de la zone de travail, ainsi que comment les créer et les modifier.
 author: Nolan
 feature: Reports and Dashboards
@@ -9,11 +9,11 @@ exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
 source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
-# Prise en main des tableaux de bord de zone de travail
+# Commencer avec les tableaux de bord de zones de travail
 
 >[!IMPORTANT]
 >
@@ -33,17 +33,17 @@ Les tableaux de bord de canevas vous permettent de visualiser facilement vos don
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 
-1. Dans le panneau de gauche, cliquez sur **Tableaux de bord de la zone de travail**.
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord Zone de travail**.
 
 1. Une liste de vos tableaux de bord de canevas s’affiche sous l’onglet **Mes tableaux de bord**. Cliquez sur le nom d’un tableau de bord de zone de travail pour l’ouvrir. Vous pouvez également voir Tableaux de bord de canevas qui ont été partagés avec vous dans l’onglet **Tableaux de bord partagés**, ainsi que tous les autres tableaux de bord de votre instance Adobe Workfront dans l’onglet **Tous les tableaux de bord**.
 
 1. (Facultatif) Pour revenir à la liste des tableaux de bord Canvas à partir d’un tableau de bord Canvas ouvert, cliquez sur **Tableaux de bord** dans le coin supérieur gauche de la page.
 
-## Créer un tableau de bord de canevas
+## Créer un tableau de bord de zones de travail
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 
-1. Dans le panneau de gauche, cliquez sur **Tableaux de bord de la zone de travail**.
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord Zone de travail**.
 
 1. Cliquez sur le bouton **+ Nouveau tableau de bord** dans le coin supérieur droit de la page.
 

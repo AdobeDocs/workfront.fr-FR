@@ -2,14 +2,14 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Approuver une feuille de temps
-description: Le processus d’approbation des feuilles de temps permet aux gestionnaires de connaître les heures de travail de leurs rapports directs. Les approbateurs peuvent vérifier que tout le temps enregistré a été alloué dans les zones appropriées et qu’un nombre suffisant d’heures a été enregistré pour la période.
+description: Le processus d’approbation des feuilles de temps permet aux personnes responsables d’avoir une visibilité sur les heures de travail des personnes travaillant sous leur supervision directe. Les personnes approbatrices peuvent vérifier que toutes les heures consignées ont été affectées aux domaines corrects et qu’un nombre suffisant d’heures a été consigné pour la période.
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
 source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 9%
+ht-degree: 75%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 9%
 
 <!--Audited: 8/2024-->
 
-Le processus d’approbation des feuilles de temps permet aux gestionnaires de connaître les heures de travail de leurs rapports directs. Les approbateurs peuvent vérifier que tout le temps enregistré a été alloué dans les zones appropriées et qu’un nombre suffisant d’heures a été enregistré pour la période.
+Le processus d’approbation des feuilles de temps permet aux personnes responsables d’avoir une visibilité sur les heures de travail des personnes travaillant sous leur supervision directe. Les personnes approbatrices peuvent vérifier que toutes les heures consignées ont été affectées aux domaines corrects et qu’un nombre suffisant d’heures a été consigné pour la période.
 
-Adobe Workfront permet de configurer les approbations de la feuille de temps pour la prise en charge dans cette zone.
+Adobe Workfront offre la possibilité de configurer les approbations des feuilles de temps pour aider dans ce domaine.
 
-Pour plus d&#39;informations sur l&#39;envoi d&#39;une feuille de temps, voir [Envoi d&#39;une feuille de temps pour approbation](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+Pour plus d’informations sur la soumission d’une feuille de temps, voir [Soumettre une feuille de temps pour approbation](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,15 +36,15 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Forfait Adobe Workfront</p></td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader"><p>Formule Adobe Workfront</p></td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront*</p></td> 
-   <td> <p>Nouvelle : standard</p>
-   <p>Actuelle : formule </p> 
+   <td> <p>Nouveau : Standard</p>
+   <p>Actuel : formule </p> 
    <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Accès administratif aux feuilles de calcul et aux heures </p> </td> 
   </tr>
 
@@ -57,58 +57,58 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 +++
 
-## Désignation des approbateurs de feuille de temps
+## Désigner les personnes approbatrices des feuilles de temps
 
-En règle générale, les feuilles de temps sont approuvées par les gestionnaires fonctionnels ou par le personnel des ressources humaines. Les feuilles de temps ne sont généralement pas approuvées par les chefs de projet. Les chefs de projet peuvent approuver le temps de connexion aux projets, mais les chefs d’équipe ou de ressources humaines doivent approuver les feuilles de temps.
+En règle générale, les feuilles de temps sont approuvées par les personnes responsables fonctionnelles ou le personnel des ressources humaines. Les feuilles de temps ne sont généralement pas approuvées par les chefs de projet. Les chefs de projet peuvent approuver le temps de connexion aux projets, mais les chefs d’équipe ou de ressources humaines doivent approuver les feuilles de temps.
 
 Un approbateur de feuille de temps est défini lors de la création du profil de feuille de temps. Vous devez disposer d’une licence Plan pour être désigné comme approbateur.
 
-Pour plus d’informations sur la désignation des approbateurs de feuille de temps, reportez-vous à la section [Création ou modification d’un profil de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) dans l’article [Création, modification et affectation de profils de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Pour plus d’informations sur la désignation des personnes approbatrices des feuilles de temps, voir la section [Créer ou modifier un profil de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) dans l’article [Créer, modifier et attribuer des profils de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Approuver une feuille de temps
 
-Vous pouvez approuver toute feuille de temps qui a été envoyée lorsque vous avez été désigné comme approbateur. Lorsqu’une feuille de temps est soumise à approbation, elle est répertoriée dans la zone **Approbations** de votre page **Accueil**. Pour plus d’informations, voir [Valider le travail](../../review-and-approve-work/manage-approvals/approving-work.md).
+Vous pouvez approuver toutes les feuilles de temps qui ont été soumises et pour lesquelles vous êtes une personne approbatrice. Lorsqu’une feuille de temps est soumise à approbation, elle est répertoriée dans la zone **Approbations** de votre page **Accueil**. Pour plus d’informations, voir [Approuver un travail](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Si l’administrateur Workfront a activé les gestionnaires d’événements Approbation de la feuille de temps pour l’utilisateur et Rejet de la feuille de temps vers l’utilisateur, vous en êtes informé une fois la feuille de temps approuvée ou rejetée. Pour plus d’informations sur l’activation des notifications d’événement, voir [Types de notification d’événement](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Si l’administrateur ou administratrice Workfront a activé les gestionnaires d’événements Approbation de la feuille de temps à l’utilisateur ou utilisatrice et Rejet de la feuille de temps à l’utilisateur ou utilisatrice, vous recevez une notification lorsque la feuille de temps est approuvée ou rejetée. Pour plus d’informations sur l’activation des notifications d’événements, voir [Types de notifications d’événements](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Pour valider une feuille de temps :
+Pour approuver une feuille de temps :
 
 {{step1-to-timesheets}}
 
 La zone **Fiches horaires** s’ouvre.
 
-1. Sélectionnez l’option **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez.
+1. Sélectionnez **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous avez approuvées.
 
    Ou
 
-   Sélectionnez le filtre **Mes approbations de feuille de temps** en haut de la liste de la feuille de temps.
+   Sélectionnez le filtre **Mes approbations de feuille de temps** en haut de la liste des feuilles de temps.
 
    ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >L’option Mes approbations de feuille de temps ne s’affiche pas en haut de la liste des feuilles de temps ni dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé le filtre Mes approbations de feuille de temps des commandes de liste de la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, voir les articles suivants :
+   >L’option Mes approbations de feuille de temps ne s’affiche pas en haut de la liste des feuilles de temps ni dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé le filtre Mes approbations de feuille de temps des commandes de liste de la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, voir les articles suivants :
    >
    >   
    >   
-   >   * [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Facultatif) Cliquez sur l’icône **search** ![](assets/search-icon.png) en haut de la liste des feuilles de temps et saisissez un mot-clé pour localiser une feuille de temps spécifique. Vous pouvez rechercher une période, ou le nom d’un propriétaire ou d’un approbateur.
+1. (Facultatif) Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png) en haut de la liste des feuilles de temps et tapez un mot-clé pour localiser une feuille de temps spécifique. Vous pouvez rechercher une période, le nom d’une personne propriétaire ou d’une personne approbatrice.
 1. Cliquez sur la période de la feuille de temps que vous souhaitez approuver. La feuille de temps s’ouvre.
 
    >[!TIP]
    >
-   >Les feuilles de temps en attente d’approbation ont le statut [!UICONTROL Envoyé].
+   >Les feuilles de temps en attente d’approbation ont le statut suivant : [!UICONTROL Soumis].
 
 
-1. Cliquez sur **Approve**
+1. Cliquez sur **Approuver**.
 
    Ou
 
    Si vous souhaitez rejeter la feuille de temps, cliquez sur **Rejeter** dans le coin inférieur gauche de la feuille de temps.
 
-   S’il est approuvé, l’état de la feuille de temps passe à **Fermé**.
+   En cas d’approbation, le statut de la feuille de temps devient **Clos**.
 
-   Si elle est rejetée, l’état de la feuille de temps passe à **Rejected**.
+   En cas de rejet, le statut de la feuille de temps devient **Rejeté**.

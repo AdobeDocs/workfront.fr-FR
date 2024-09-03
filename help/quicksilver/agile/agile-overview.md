@@ -3,47 +3,47 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Aperçu agile
-description: Agile est une méthodologie de travail qui permet aux équipes d'effectuer de petites quantités de travail gérables à un rythme cohérent. Dans Agile, les équipes gèrent les articles sur un tableau de bord ou un journal en souffrance, et non les tâches d’un projet. [!DNL Adobe Workfront]  fournit des outils qui aident les équipes à travailler de manière agile.
+description: Agile est une méthodologie de travail qui permet aux équipes d’effectuer de petites quantités de travail gérables à un rythme cohérent. Dans Agile, les équipes gèrent les histoires sur une liste d’attente ou un storyboard, et non les tâches d’un projet. [!DNL Adobe Workfront]  fournit des outils qui aident les équipes à travailler de manière Agile.
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
 source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
-# Vue d’ensemble de la méthode agile
+# Vue d’ensemble d’Agile
 
-Agile est une méthodologie de travail qui permet aux équipes d&#39;effectuer de petites quantités de travail gérables à un rythme cohérent. Dans Agile, les équipes gèrent les articles sur un tableau de bord ou un journal en souffrance, et non les tâches d’un projet. [!DNL Adobe Workfront] fournit des outils qui aident les équipes à travailler de manière agile.
+Agile est une méthodologie de travail qui permet aux équipes d’effectuer de petites quantités de travail gérables à un rythme cohérent. Dans Agile, les équipes gèrent les histoires sur une liste d’attente ou un storyboard, et non les tâches d’un projet. [!DNL Adobe Workfront] fournit des outils qui aident les équipes à travailler de manière Agile.
 
-Les panoramas [!DNL Workfront] sont des outils simples mais flexibles pour la collaboration en équipe. Pour plus d’informations sur les panoramas, reportez-vous à la section [Présentation des panoramas](../agile/boards-overview.md).
+Les panoramas [!DNL Workfront] sont des outils simples mais flexibles pour la collaboration en équipe. Pour plus d’informations sur les panoramas, voir [Vue d’ensemble des panoramas](../agile/boards-overview.md).
 
-D’autres outils avancés d’équipe mobile utilisent Kanban ou Scrum. Pour plus d’informations sur les méthodologies Kanban et Scrum, reportez-vous à la section [Choix d’une méthodologie agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) de l’article [Créer une équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+D’autres outils avancés d’équipe Agile utilisent Kanban ou Scrum. Pour plus d’informations sur les méthodologies Kanban et Scrum, voir la section [Choisir une méthodologie Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) dans l’article [Créer une équipe Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Pour commencer à utiliser la version agile avancée de Workfront :
+Pour commencer à utiliser la version Agile avancée de Workfront :
 
-1. Créez une équipe agile.
+1. Créez une équipe Agile.
 
-   Pour plus d&#39;informations, reportez-vous à la section [Créer une équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) ou [Convertir une équipe existante en équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) de l&#39;article [Créer une équipe agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+   Pour plus d’informations, voir la section [Créer une équipe Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) ou [Convertir une équipe existante en équipe Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) dans l’article [Créer une équipe Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-1. Configurez l’équipe agile pour utiliser Kanban ou Scrum.
+1. Configurez l’équipe Agile pour utiliser Kanban ou Scrum.
 
    Pour plus d’informations, voir [Configurer Kanban](../agile/get-started-with-agile-in-workfront/configure-kanban.md) ou [Configurer Scrum](../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. Équipes de Kanban : gérez le journal et construisez la carte [!UICONTROL Kanban].
+1. Équipes Kanban : gérez la liste d’attente et créez le tableau [!UICONTROL Kanban].
 
-   Pour plus d’informations, reportez-vous aux sections [Gérer le journal agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) et [Présentation de Kanban](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
+   Pour plus d’informations, voir [Gérer la liste d’attente Agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) et [Vue d’ensemble de Kanban](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
 
-1. Équipes de scrum : gérez le journal, créez une itération et créez le panorama [!UICONTROL Scrum].
+1. Équipes Scrum : gérez la liste d’attente, créez une itération et créez le tableau [!UICONTROL Scrum].
 
-   Pour plus d’informations, reportez-vous aux sections [Gérer le journal agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Aperçu des itérations](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) et [Aperçu du panorama de scrum](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
+   Pour plus d’informations, voir [Gérer la liste d’attente Agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Vue d’ensemble des itérations](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) et [Vue d’ensemble du panorama Scrum](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
 
-1. Ajoutez les tâches des projets au journal ou au tableau de bord de l’équipe.
+1. Ajoutez les tâches des projets à la liste d’attente ou au storyboard de l’équipe.
 
-   Pour plus d’informations, reportez-vous aux sections [Gérer le journal agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [ Ajouter des tâches ou des problèmes existants au [!UICONTROL panorama Kanban]](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md) et [Ajouter des articles à une itération existante](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   Pour plus d’informations, voir [Gérer la liste d’attente Agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Ajouter des tâches ou des problèmes existants au tableau [!UICONTROL Kanban]](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md) et [Ajouter des histoires à une itération existante](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
-## Utilisation d’Agile sur un projet
+## Utiliser Agile sur un projet
 
-Vous pouvez tirer parti de fonctionnalités agiles pour votre projet sans les défis administratifs qui accompagnent généralement les pratiques agiles (comme la gestion du retard d’une équipe, la création d’itérations, etc.). Pour plus d’informations, voir [Gestion d’un projet dans la vue agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Vous pouvez tirer profit des fonctionnalités Agile pour votre projet sans les défis administratifs qui accompagnent généralement les pratiques Agile (comme la gestion de la liste d’attente d’une équipe, la création d’itérations, etc.). Pour plus d’informations, voir [Gérer un projet dans une vue Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

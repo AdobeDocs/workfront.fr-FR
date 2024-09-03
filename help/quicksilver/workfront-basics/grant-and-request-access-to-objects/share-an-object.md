@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Votre personne chargée de l’administration d’Adobe Workfront permet aux utilisateurs et utilisatrices d’afficher ou de modifier des objets lorsqu’elle attribue des niveaux d’accès. Pour plus d’informations sur l’octroi d’accès aux objets, voir [Créer ou modifier les niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Outre le niveau d’accès accordé aux utilisateurs et utilisatrices, vous pouvez leur accorder des autorisations pour afficher ou modifier des objets spécifiques que vous avez créés ou dont vous avez l’accès en partage. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Outre le niveau d’accès accordé aux utilisateurs et utilisatrices, vous pouvez leur accorder des autorisations pour afficher ou modifier des objets spécifiques que vous avez créés ou dont vous avez l’accès en partage. Pour plus d’informations sur les niveaux d’accès et les autorisations, voir [Comment les niveaux d’accès et les autorisations fonctionnent ensemble](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Les autorisations sont spécifiques à un élément dans Workfront et définissent les actions que vous pouvez effectuer sur cet élément.
 
@@ -47,7 +47,7 @@ Pour plus d’informations sur le partage de tous les autres objets dans Workfro
 
   En outre, voir [Partager des rapports, des tableaux de bord et des calendriers](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) pour obtenir des informations générales sur le partage de rapports, de tableaux de bord et de calendriers.
 
-* Pour les filtres, les vues et les regroupements, voir [Partager un filtre, une vue ou un regroupement](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Pour les filtres, les vues et les regroupements, voir [Partager un filtre, un affichage ou un regroupement](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * Pour les dossiers de documents, voir [Partager un dossier de documents](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * Pour les plans, voir [Partage d’un plan dans le planificateur de scénarios](../../scenario-planner/share-a-plan.md).
 
@@ -64,19 +64,19 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Nouvelle licence : standard</p> 
+   <td> <p>Nouvelle licence : Standard</p> 
    Ou
-   <p>Licence actuelle : travail ou supérieure</p>
+   <p>Licence actuelle : Travail ou version supérieure</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td> <p>Accès d’affichage ou supérieur aux objets que vous souhaitez partager.</p> </td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td> <p>Accès Affichage ou supérieur aux objets que vous souhaitez partager.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
@@ -85,7 +85,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
  </tbody> 
 </table>
 
-* Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, consultez les [Conditions d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront. Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Partager un projet, une tâche ou un problème à partir de sa page
 
@@ -203,7 +203,7 @@ Pour partager des objets, vous devez disposer des éléments suivants :
 
 1. (Facultatif) Répétez l’étape 3 pour chaque utilisateur ou utilisatrice, équipe, rôle ou groupe pour qui vous souhaitez accorder l’accès à l’objet.
 
-1. Spécifiez les autorisations pour chaque utilisateur ou utilisatrice, équipe, rôle, groupe ou société que vous avez ajouté à l’étape 3 en cliquant sur le menu déroulant, puis en sélectionnant le niveau d’autorisation à accorder.
+1. Spécifiez les autorisations pour chaque utilisateur ou utilisatrice, équipe, rôle, groupe ou société que vous avez ajouté(e) à l’étape 3 en cliquant sur le menu déroulant, puis en sélectionnant le niveau d’autorisation à accorder.
 
    Pour supprimer des autorisations d’un objet, voir [Supprimer les autorisations des objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 

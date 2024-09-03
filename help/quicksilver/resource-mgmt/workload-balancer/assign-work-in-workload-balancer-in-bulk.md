@@ -1,7 +1,7 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Affecter du travail en bloc dans l’équilibreur de charge de travail
+title: Attribuer du travail en bloc à l’aide de l’équilibreur de charge de travail
 description: Vous pouvez affecter des ressources à plusieurs tâches et problèmes en bloc à l’aide de l’équilibreur de charge de travail Adobe Workfront.
 author: Lisa
 feature: Resource Management
@@ -9,11 +9,11 @@ exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '1499'
-ht-degree: 5%
+ht-degree: 92%
 
 ---
 
-# Affecter du travail en bloc dans l’équilibreur de charge de travail
+# Attribuer du travail en bloc à l’aide de l’équilibreur de charge de travail
 
 <!--Audited: 07/2024-->
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 Vous pouvez affecter des ressources à plusieurs tâches et problèmes en bloc à l’aide de l’équilibreur de charge de travail Adobe Workfront.
 
-Pour des informations générales sur l’affectation de travail aux utilisateurs à l’aide de l’équilibreur de charge de travail, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Pour des informations générales sur l’attribution de travail aux utilisateurs et utilisatrices à l’aide de l’équilibreur de charge de travail, voir [Vue d’ensemble de l’attribution de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Conditions d’accès
 
@@ -34,23 +34,23 @@ Pour des informations générales sur l’affectation de travail aux utilisateur
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle </p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> 
-   <p>Nouvelle : standard</p>
+   <p>Nouveau : Standard</p>
    <p>Actuel :</p>
    <ul>
-   <li><p>Planifiez l’utilisation de l’équilibreur de charge de travail dans la zone Ressource .</p></li>
-   <li><p>Fonctionnement lors de l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet</p></li></ul>
+   <li><p>Plan, pour l’utilisation de l’équilibreur de charge de travail dans la zone Ressources.</p></li>
+   <li><p>Travail, pour l’utilisation de l’équilibreur de charge de travail d’une équipe ou d’un projet.</p></li></ul>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Niveau d’accès</td> 
-   <td> <p>Accès en modification aux éléments suivants :</p> 
+   <td> <p>Modifiez l’accès aux éléments suivants :</p> 
     <ul> 
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Projets</p> </li> 
@@ -62,7 +62,7 @@ Pour des informations générales sur l’affectation de travail aux utilisateur
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations Contribute ou supérieures aux projets, tâches et problèmes qui incluent l’attribution des tâches</p> </td> 
+   <td> <p>Autorisations Contribuer ou supérieures aux projets, tâches et problèmes qui incluent la création d’affectations.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,36 +71,36 @@ Pour des informations générales sur l’affectation de travail aux utilisateur
 
 +++
 
-## Considérations pour effectuer des affectations en bloc dans l’équilibreur de charge de travail
+## Remarques sur les affectations en masse dans l’équilibreur de charge de travail
 
-* Vous pouvez rapidement gérer les affectations d’utilisateurs pour plusieurs tâches et problèmes sur un ou plusieurs projets. Les modifications d’affectations sont immédiatement visibles dans l’équilibreur de charge de travail.
-* Vous ne pouvez pas affecter de ressources aux éléments de travail terminés ou aux éléments qui se trouvent sur un projet terminé.
-* Vous pouvez effectuer les opérations suivantes lorsque vous affectez des utilisateurs en bloc :
+* Vous pouvez rapidement gérer les affectations d’utilisateurs et d’utilisatrices pour plusieurs tâches et problèmes sur un ou plusieurs projets. Les modifications d’affectations sont immédiatement visibles dans l’équilibreur de charge de travail.
+* Vous ne pouvez pas affecter de ressources aux éléments de travail terminés ou aux éléments qui se trouvent dans un projet terminé.
+* Vous pouvez effectuer les opérations suivantes lorsque vous affectez des utilisateurs et utilisatrices en masse :
 
-   * Affectez un utilisateur à toutes les tâches actuellement affectées à un rôle de tâche.
-   * Remplacer les affectations d’utilisateurs entre les utilisateurs.
-   * Annulez l’affectation d’un utilisateur à toutes ses tâches.
+   * Affecter un utilisateur ou une utilisatrice à tous les éléments de travail actuellement affectés à une fonction.
+   * Remplacer les affectations entre les utilisateurs et utilisatrices.
+   * Annuler l’affectation d’un utilisateur ou d’une utilisiatrice à tous ses éléments de travail.
 
 **EXEMPLES**
 
-* Il vous incombe d’effectuer des affectations d’utilisateurs sur plusieurs nouveaux projets. Les projets ont été créés à l’origine à partir de modèles et les rôles de tâche sont déjà affectés aux différentes tâches des projets. Vous souhaitez affecter un utilisateur spécifique, Jackie Simms, à toutes les tâches actuellement affectées à un rôle de tâche. Vous pouvez utiliser la fonction Assign pour affecter ces tâches à Jackie Simms.
-* 45 tâches sur 3 projets différents sont affectées à Jackie Simms. Jackie quitte l’entreprise et vous devez maintenant réaffecter ses tâches à un autre utilisateur. Vous pouvez utiliser la fonction Remplacer pour affecter ces tâches à la nouvelle personne.
-* 10 tâches sur 2 projets différents sont affectées à un autre utilisateur, Rick Kuvec. Vous vous rendez compte que Rick a été affecté à ces tâches par erreur, mais vous ne savez pas à qui elles doivent être affectées pour le moment. Vous devez annuler l’affectation simultanée de Rick à toutes les tâches. Vous pouvez utiliser la fonction Annuler l’affectation pour supprimer Rick de ces tâches.
+* Vous devez effectuer des affectations d’utilisateurs et utilisatrices sur plusieurs nouveaux projets. Les projets ont été créés à partir de modèles et les fonctions sont déjà affectées aux différentes tâches des projets. Vous souhaitez affecter une utilisatrice spécifique, Jackie Simms, à toutes les tâches actuellement affectées à une fonction. Vous pouvez utiliser la fonction Affecter pour affecter ces tâches à Jackie Simms.
+* 45 tâches sur 3 projets différents sont affectées à Jackie Simms. Jackie quitte l’entreprise et vous devez maintenant réaffecter ses tâches à une autre personne. Vous pouvez utiliser la fonction Remplacer pour affecter ces tâches à la nouvelle personne.
+* 10 tâches sur 2 projets différents sont affectées à un autre utilisateur, Rick Kuvec. Vous vous rendez compte que Rick a été affecté à ces tâches par erreur, mais vous ne savez pas à qui elles doivent être affectées pour le moment. Vous devez annuler l’affectation de Rick à toutes les tâches en même temps. Vous pouvez utiliser la fonction Annuler l’affectation pour retirer Rick de ces tâches.
 
-## Affectation du travail en masse dans l’équilibreur de charge de travail
+## Attribuer du travail en masse dans l’équilibreur de charge de travail
 
-1. Accédez à l’équilibreur de charge de travail où vous souhaitez affecter le travail.
+1. Accédez à l’équilibreur de charge de travail auquel vous souhaitez attribuer du travail.
 
-   Vous pouvez affecter du travail aux utilisateurs à l’aide de l’équilibreur de charge de travail dans la zone Ressource, au niveau du projet ou au niveau de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localisation de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Vous pouvez attribuer du travail aux utilisateurs et utilisatrices à l’aide de l’équilibreur de charge de travail dans la zone Ressources, au niveau du projet ou de l’équipe. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail dans Workfront, voir [Localiser l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
-1. Cliquez sur **Affectations en bloc** ![](assets/bulk-assignments-wb.png) en haut de l’équilibreur de charge de travail.
+1. Cliquez sur **Affectations groupées** ![](assets/bulk-assignments-wb.png) en haut de l’équilibreur de charge de travail.
 
-   Le panneau Affectations en bloc s’ouvre à droite de l’équilibreur de charge de travail.
+   Le panneau Affectations groupées s’ouvre à droite de l’équilibreur de charge de travail.
 
-1. (Conditionnel) Si vous accédez à l’équilibreur de charge de travail à partir de la zone Ressource ou pour une équipe, développez le menu déroulant **Projet : nom** et utilisez les modificateurs de filtre pour sélectionner le ou les projets pour lesquels vous souhaitez effectuer des affectations. Vous pouvez sélectionner les projets par Nom (il s’agit de l’option par défaut) ou par État.
+1. (Le cas échéant) Si vous accédez à l’équilibreur de charge de travail à partir de la zone Ressources ou pour une équipe, développez le menu déroulant **Projet : nom** et utilisez les modificateurs de filtre pour sélectionner le ou les projets pour lesquels vous souhaitez effectuer des affectations. Vous pouvez sélectionner les projets par nom (option par défaut) ou par statut.
 
-Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Filtres et modificateurs de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 >[!NOTE]
 >
@@ -108,30 +108,30 @@ Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Filt
 
 ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
-1. (Facultatif) Cliquez sur **Sélectionner les tâches de projet** pour sélectionner la ou les tâches pour lesquelles vous souhaitez effectuer des affectations, puis, dans le menu déroulant **Tâche : nom**, sélectionnez les tâches par nom (c’est l’option par défaut) ou État et utilisez les modificateurs de filtre pour rechercher des tâches spécifiques.
+1. (Facultatif) Cliquez sur **Sélectionner les tâches de projet** pour sélectionner la ou les tâches pour lesquelles vous souhaitez effectuer des affectations, puis dans le menu déroulant **Tâche : nom**, sélectionnez les tâches par nom (option par défaut) ou par statut et utilisez les modificateurs de filtre pour rechercher des tâches spécifiques.
 
-Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Filtres et modificateurs de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Modificateurs de filtre et de condition](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 >[!NOTE]
 >
->Vous ne pouvez pas sélectionner de tâches avec l’état Terminé .
+>Vous ne pouvez pas sélectionner de tâches dont le statut est Terminé.
 
 ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
 >[!TIP]
 >
->Laissez cette sélection vide si vous souhaitez effectuer des affectations en bloc pour les problèmes ainsi que pour les tâches.
+>Laissez cette sélection vide si vous souhaitez effectuer des affectations groupées pour les problèmes ainsi que pour les tâches.
 
 1. (Facultatif) Cliquez sur l’icône **Supprimer** ![](assets/delete.png) en regard de l’un des critères sélectionnés.
 
    Ou
 
-   Cliquez sur **Effacer tout** dans le coin supérieur droit du panneau Affectations en bloc pour supprimer toutes les sélections.
+   Cliquez sur **Effacer tout** dans le coin supérieur droit du panneau Affectations groupées pour supprimer toutes les sélections.
 
-1. Sélectionnez l’une des options suivantes et procédez comme suit :
+1. Sélectionnez l’une des options suivantes et procédez comme suit :
 
-   * [Attribuer un utilisateur](#assign-user)
-   * [Remplacer l’utilisateur](#replace-user)
+   * [Affecter un utilisateur ou une utilisatrice](#assign-user)
+   * [Remplacer un utilisateur ou une utilisatrice](#replace-user)
    * [Annuler l’affectation de l’utilisateur](#unassign-user)
 
    >[!TIP]
@@ -140,107 +140,107 @@ Pour plus d’informations sur les modificateurs de filtre Workfront, voir [Filt
 
 ### Affecter un utilisateur {#assign-user}
 
-Lorsque vous affectez un utilisateur à l’aide d’affectations en bloc dans l’équilibreur de charge de travail, les événements suivants se produisent :
+Lorsque vous affectez un utilisateur ou une utilisatrice à l’aide d’affectations groupées dans l’équilibreur de charge de travail, les événements suivants se produisent :
 
-* Un utilisateur est affecté à toutes les tâches actuellement affectées à un rôle spécifié dans les projets sélectionnés.
-* L’utilisateur n’est pas affecté aux types de tâches suivants :
+* Tous les éléments de travail actuellement affectés à un rôle spécifié dans les projets sélectionnés sont affectés à un utilisateur ou une utilisatrice.
+* Les types d’éléments de travail suivants ne sont pas affectés à l’utilisateur ou à l’utilisatrice :
 
-   * Éléments déjà affectés à un utilisateur.
+   * Éléments déjà affectés à un utilisateur ou une utilisatrice.
    * Éléments terminés.
 
-* Si l’utilisateur que vous avez sélectionné n’est pas associé au rôle spécifié, le rôle est remplacé par l’utilisateur dans son rôle de Principal.
+* Si la personne que vous avez sélectionnée n’est pas associée au rôle spécifié, le rôle est remplacé par la personne dans son rôle principal.
 
-Pour affecter un utilisateur aux tâches précédemment affectées à des rôles de tâche :
+Pour affecter un utilisateur ou une utilisatrice aux éléments de travail précédemment affectés à des fonctions, procédez comme suit :
 
-1. Commencez à attribuer des tâches à l’aide des affectations en bloc dans l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Attribuer**.
+1. Commencez à affecter des éléments de travail à l’aide des affectations groupées dans l’équilibreur de charge de travail tel que décrit ci-dessus, puis sélectionnez **Affecter**.
 
-1. Dans le champ **Affectation de rôle** , cliquez sur la flèche déroulante pour effectuer un choix dans une liste de rôles. Seuls les rôles affectés actuellement dans les projets spécifiés s’affichent. Il s’agit d’un champ obligatoire.
+1. Dans le champ **Affectation des rôles**, cliquez sur la flèche déroulante pour effectuer un choix dans une liste de rôles. Seuls les rôles affectés actuellement dans les projets spécifiés s’affichent. Champ obligatoire.
 
    ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-1. Dans le champ **Utilisateur à affecter** , cliquez sur la flèche de liste déroulante pour choisir parmi une liste d’utilisateurs suggérés ou pour saisir le nom d’un autre utilisateur.
+1. Dans le champ **Utilisateur ou utilisatrice à affecter**, cliquez sur la flèche déroulante pour choisir parmi les personnes suggérées ou pour saisir le nom d’un autre utilisateur ou d’une autre utilisatrice.
 
-   Sélectionnez des utilisateurs dans les zones suivantes :
+   Sélectionnez des utilisateurs et utilisatrices dans les zones suivantes :
 
-   * **Assignations proposées** : utilisateurs pouvant remplir le rôle sélectionné et qui correspondent aux critères des affectations intelligentes. Consultez [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md) pour en savoir plus.
-   * **Autres affectations** : tous les utilisateurs du système qui peuvent remplir le rôle sélectionné.
+   * **Affectations suggérées** : utilisateurs et utilisatrices pouvant remplir le rôle sélectionné et correspondant aux critères des affectations intelligentes. Pour plus d’informations, voir [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Autres affectations** : tous les utilisateurs et toutes les utilisatrices du système pouvant remplir le rôle sélectionné.
 
      >[!TIP]
      >
-     >Seuls les 50 premiers utilisateurs sont répertoriés dans la zone Autres affectations .
+     >Seules les 50 premières personnes sont répertoriées dans la zone Autres affectations.
 
 
-   Après avoir sélectionné un utilisateur, Workfront affiche une note indiquant le nombre d’éléments auxquels l’utilisateur que vous avez spécifié sera affecté et le rôle de tâche qu’il remplacera.
+   Après avoir sélectionné un utilisateur ou une utilisatrice, Workfront affiche une note indiquant le nombre d’éléments auxquels la personne que vous avez spécifiée sera affectée et la fonction qu’elle remplacera.
 
    >[!TIP]
    >
-   >Tous les rôles de l’utilisateur s’affichent dans la liste, sous son nom.
+   >Tous les rôles de l’utilisateur ou de l’utilisatrice s’affichent dans la liste, sous son nom.
 
 
-1. Cliquez sur **Attribuer**.
+1. Cliquez sur **Affecter**.
 
    Les rôles spécifiés sont remplacés par les utilisateurs que vous avez sélectionnés.
 
-   Vous recevez une confirmation indiquant le nombre de tâches pour lesquelles le rôle sélectionné a été remplacé par l’utilisateur sélectionné.
+   Vous recevez une confirmation indiquant le nombre d’éléments de travail pour lesquels le rôle sélectionné a été remplacé par la personne sélectionnée.
 
    ![](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
 ### Remplacer l’utilisateur {#replace-user}
 
-Vous pouvez remplacer un utilisateur déjà affecté à des tâches par un autre utilisateur dans les projets sélectionnés.
+Vous pouvez remplacer une personne déjà affectée à des éléments de travail par un autre utilisateur ou une autre utilisatrice dans les projets sélectionnés.
 
-Lorsque vous remplacez un utilisateur par un autre en utilisant les affectations en bloc dans l’équilibreur de charge de travail, les événements suivants se produisent :
+Lorsque vous remplacez une personne par une autre en utilisant les affectations groupées dans l’équilibreur de charge de travail, les événements suivants se produisent :
 
-* L’utilisateur de remplacement est affecté à toutes les tâches actuellement affectées à un utilisateur d’origine dans les projets sélectionnés.
+* La personne de remplacement est affectée à tous les éléments de travail actuellement affectés à un utilisateur ou une utilisatrice d’origine dans les projets sélectionnés.
 
-* Le nouvel utilisateur n’est affecté à aucune tâche déjà marquée comme terminée.
-* Si le rôle associé au premier utilisateur ne correspond à aucun des rôles du deuxième utilisateur, le second utilisateur est affecté à son rôle de Principal.
+* Aucun élément de travail déjà marqué comme terminé n’est affecté au nouvel utilisateur ou à la nouvelle utilisatrice.
+* Si le rôle associé au premier utilisateur ou à la première utilisatrice ne correspond à aucun des rôles de la deuxième personne, la troisième personne est affectée à son rôle principal.
 
-Pour remplacer un utilisateur par un autre utilisateur :
+Pour remplacer un utilisateur ou une utilisatrice par une autre personne, procédez comme suit :
 
-1. Commencez à attribuer des tâches dans l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Remplacer**.
-1. Dans le champ **Utilisateur actuellement affecté** , cliquez sur la flèche de liste déroulante pour effectuer un choix dans une liste d’utilisateurs. Seuls les utilisateurs affectés actuellement à des tâches incomplètes dans les projets spécifiés s’affichent. Il s’agit d’un champ obligatoire.
+1. Commencez à affecter des éléments de travail dans l’équilibreur de charge de travail tel que décrit ci-dessus et sélectionnez **Remplacer**.
+1. Dans le champ **Personne affectée actuellement**, cliquez sur la flèche déroulante pour effectuer un choix dans la liste des utilisateurs et utilisatrices. Seules les personnes affectées actuellement à des éléments de travail incomplets dans les projets spécifiés s’affichent. Champ obligatoire.
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. Dans le champ **Utilisateur à affecter** , cliquez sur la flèche de liste déroulante pour choisir parmi une liste d’utilisateurs suggérés ou pour saisir un autre nom d’utilisateur. Les utilisateurs répertoriés dans la liste correspondent par défaut aux critères des affectations intelligentes. Consultez [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md) pour en savoir plus.
+1. Dans le champ **Personne à affecter**, cliquez sur la flèche déroulante pour choisir parmi la liste des personnes suggérées ou pour saisir un autre nom d’utilisateur ou d’utilisatrice. Les utilisateurs répertoriés dans la liste correspondent par défaut aux critères des affectations intelligentes. Pour en savoir plus, consultez la section [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-   Workfront affiche une note sur le nombre d’éléments dans lesquels l’utilisateur affecté remplacera le second utilisateur et les rôles qu’il remplacera.
+   Workfront affiche une note relative au nombre d’éléments pour lesquels la personne affectée remplacera la deuxième personne et les rôles qu’elle remplacera.
 
    ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
 1. Cliquez sur **Remplacer**.
 
-   Le premier utilisateur sélectionné est remplacé par le second utilisateur de toutes les tâches du projet sélectionné.
+   La première personne sélectionnée est remplacée par la deuxième personne dans tous les éléments de travail du projet sélectionné.
 
-   Vous recevez une confirmation indiquant le nombre de tâches pour lesquelles l’affectation d’origine de l’utilisateur a été remplacée par le second utilisateur sélectionné.
+   Vous recevez une confirmation par rapport au nombre d’éléments de travail pour lesquelles l’affectation d’origine de l’utilisateur ou de l’utilisatrice a été remplacée par la deuxième personne sélectionnée.
 
 ### Annuler l’affectation de l’utilisateur {#unassign-user}
 
-Vous pouvez annuler l’affectation d’un utilisateur à toutes les tâches auxquelles il est affecté dans les projets sélectionnés.
+Vous pouvez annuler l’affectation d’une personne à toutes les tâches dont elle a reçu l’affectation dans les projets sélectionnés.
 
-Lorsque vous annulez l’affectation d’un utilisateur de toutes ses affectations à l’aide des affectations en bloc dans l’équilibreur de charge de travail, les événements suivants se produisent :
+Lorsque vous annulez l’affectation d’un utilisateur ou d’une utilisatrice de toutes ses affectations à l’aide des affectations groupées dans l’équilibreur de charge de travail, les événements suivants se produisent :
 
 * L’utilisateur spécifié est supprimé de toutes les tâches auxquelles il est affecté.
-* Si l’utilisateur non affecté est associé à des rôles de tâche, les rôles de tâche restent attribués aux tâches lorsque l’utilisateur est supprimé.
+* Si la personne non affectée est associée à des fonctions, les fonctions demeurent affectées aux éléments de travail lors de la suppression de la personne.
 
-* Si l’utilisateur spécifié est affecté aux tâches terminées, il reste affecté à ces tâches.
+* Si la personne spécifiée est affectée aux éléments de travail terminés, la personne demeure affectée à ces éléments de travail.
 
-Pour plus d’informations sur les affectations d’utilisateurs et de rôles de tâche, voir [Présentation de l’affectation de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Pour plus d’informations sur les affectations d’utilisateurs et d’utilisatrices et de fonctions, voir [Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Pour annuler l’affectation d’un utilisateur aux tâches des projets sélectionnés ou aux tâches ou problèmes sélectionnés auxquels il est affecté :
+Pour annuler l’affectation d’un utilisateur ou d’une utilisatrice à des éléments de travail dans les projets sélectionnés ou pour les tâches ou problèmes sélectionnés auxquels la personne est affectée, procédez comme suit :
 
-1. Commencez à attribuer des tâches dans l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Annuler l’affectation**.
+1. Commencez à attribuer des éléments de travail dans l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Annuler l’affectation**.
 
-1. Dans le champ **Utilisateur à annuler l’affectation**, cliquez sur la flèche de liste déroulante pour effectuer un choix dans une liste d’utilisateurs. Seuls les utilisateurs affectés actuellement à des tâches incomplètes dans les projets spécifiés s’affichent. Il s’agit d’un champ obligatoire.
+1. Dans le champ **Personne à affecter**, cliquez sur la flèche déroulante et choisissez dans la liste d’utilisateurs et d’utilisatrices. Seuls les utilisateurs et utilisatrices affectés actuellement à des tâches incomplètes dans les projets spécifiés s’affichent. Champ obligatoire.
 
    ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
-   Workfront affiche une note sur le nombre d’éléments pour lesquels l’utilisateur affecté actuellement ne sera pas affecté.
+   Workfront affiche une note par rapport au nombre d’éléments dont la personne affectée actuellement se verra annuler l’affectation.
 
    ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
-1. Cliquez sur **Annuler l’affectation**.\
-   Vous recevez une confirmation sur le nombre de tâches pour lesquelles l’utilisateur spécifié a été supprimé.
+1. Cliquez sur **Annuler l’affectation**.\
+   Vous recevez une confirmation par rapport au nombre d’éléments de travail dont la personne spécifiée a été supprimée.
 
 

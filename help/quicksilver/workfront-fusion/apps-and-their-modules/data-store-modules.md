@@ -3,41 +3,41 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Modules de stockage de données
-description: Un  [!DNL Adobe Workfront Fusion] entrepôt de données, similaire à une base de données ou à un tableau simple, peut stocker des données de scénarios, ce qui permet de transférer des données entre des scénarios individuels ou des exécutions de scénarios. Vous pouvez utiliser un magasin de données pour stocker de nouvelles données provenant de différents systèmes lors de la synchronisation.
+title: Modules de magasin de données
+description: Un magasin de données  [!DNL Adobe Workfront Fusion] , similaire à une base de données ou à un tableau simple, peut stocker des données de scénarios, ce qui permet de transférer des données entre des scénarios individuels ou des exécutions de scénarios. Vous pouvez utiliser un magasin de données pour stocker de nouvelles données provenant de différents systèmes lors de la synchronisation.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
-# [!UICONTROL Modules Entrepôt de données]
+# Modules de [!UICONTROL magasin de données]
 
-Un entrepôt de données [!DNL Adobe Workfront Fusion], similaire à une base de données ou à un tableau simple, peut stocker des données de scénarios, ce qui permet de transférer des données entre des scénarios individuels ou des exécutions de scénarios. Vous pouvez utiliser un magasin de données pour stocker de nouvelles données provenant de différents systèmes lors de la synchronisation.
+Un magasin de données [!DNL Adobe Workfront Fusion], similaire à une base de données ou à un tableau simple, peut stocker des données de scénarios, ce qui permet de transférer des données entre des scénarios individuels ou des exécutions de scénarios. Vous pouvez utiliser un magasin de données pour stocker de nouvelles données provenant de différents systèmes lors de la synchronisation.
 
-Les modules d’entrepôt de données vous permettent d’ajouter, de remplacer, de mettre à jour, de récupérer, de supprimer, de rechercher ou de compter des enregistrements dans votre entrepôt de données [!DNL Adobe Workfront Fusion].
+Les modules de magasin de données vous permettent d’ajouter, de remplacer, de mettre à jour, de récupérer, de supprimer, de rechercher ou de comptabiliser des enregistrements dans votre magasin de données [!DNL Adobe Workfront Fusion].
 
-Pour plus d’informations sur la création, la modification et la résolution des problèmes liés aux entrepôts de données, voir [Stockages de données dans [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Pour plus d’informations sur la création, la modification et la résolution des problèmes des magasins de données, voir [Magasins de données dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md).
 
-Pour obtenir une vidéo d’introduction aux magasins de données dans Workfront Fusion, voir :
+Pour une vidéo de présentation des entrepôts de données dans Workfront Fusion, voir :
 
-* [Magasins de données](https://video.tv.adobe.com/v/3427029/){target=_blank}
+* [Entrepôts de données](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Conditions d’accès
 
-Pour utiliser les fonctionnalités décrites dans cet article, vous devez disposer des éléments suivants :
+Vous devez disposer des accès suivants pour utiliser les fonctionnalités de cet article :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] forfait*</td>
-  <td> <p>[!UICONTROL Pro] ou un forfait supérieur</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] formule*</td>
+  <td> <p>[!UICONTROL Pro] ou version supérieure</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licence*</td>
@@ -46,64 +46,64 @@ Pour utiliser les fonctionnalités décrites dans cet article, vous devez dispos
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licence**</td> 
    <td>
-   <p>Exigences de licence actuelle : aucune exigence de licence [!DNL Workfront Fusion]</p>
+   <p>Exigences de licence actuelles : aucune exigence de licence [!DNL Workfront Fusion] requise.</p>
    <p>Ou</p>
-   <p>Exigences de licence héritée : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Exigences en matière de licences héritées : [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
    <td>
-   <p>Exigences du produit actuel : si vous disposez du forfait [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article. [!DNL Workfront Fusion] est inclus dans le forfait [!DNL Workfront] [!UICONTROL Ultimate].</p>
+   <p>Conditions requises du produit actuel : si vous disposez de la formule [!DNL Adobe Workfront] [!UICONTROL Select] ou [!UICONTROL Prime], votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi que [!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article. [!DNL Workfront Fusion] est inclus dans la formule [!DNL Workfront] [!UICONTROL Ultimate].</p>
    <p>Ou</p>
-   <p>Exigences du produit hérité : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] et [!DNL Adobe Workfront] pour utiliser les fonctionnalités décrites dans cet article.</p>
+   <p>Exigences liées aux produits hérités : votre entreprise doit acheter [!DNL Adobe Workfront Fusion] ainsi qu’[!DNL Adobe Workfront] pour utiliser la fonctionnalité décrite dans cet article.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
-Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], consultez les [[!DNL Adobe Workfront Fusion] licences](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Pour plus d’informations sur les licences [!DNL Adobe Workfront Fusion], voir Licences [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Conditions préalables
 
-Pour utiliser les modules [!UICONTROL Data Store], vous devez d’abord créer un entrepôt de données.
+Pour utiliser des modules de [!UICONTROL Magasin de données], vous devez d’abord créer un magasin de données.
 
-Pour plus d’informations sur la création d’entrepôts de données, voir [Entrepôts de données dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Pour plus d’informations sur la création de magasins de données, voir [Magasins de données dans [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md).
 
-## Modules [!UICONTROL Entrepôt de données] et leurs champs
+## Modules de [!UICONTROL Magasin de données] et leurs champs
 
-Lorsque vous configurez les modules de l’entrepôt de données, [!DNL Workfront Fusion] affiche les champs répertoriés ci-dessous. En outre, d’autres champs de l’entrepôt de données peuvent s’afficher, selon des facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
+Lorsque vous configurez des modules de magasin de données, [!DNL Workfront Fusion] affiche les champs listés ci-dessous. En plus de ces derniers, d’autres champs du magasin de données peuvent s’afficher, en fonction de facteurs tels que votre niveau d’accès dans l’application ou le service. Un titre en gras dans un module indique un champ obligatoire.
 
-Si le bouton de mappage situé au-dessus d’un champ ou d’une fonction s’affiche, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, consultez [Mapper les informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si le bouton « Mapper » apparaît au-dessus d’un champ ou d’une fonction, vous pouvez l’utiliser pour définir des variables et des fonctions pour ce champ. Pour plus d’informations, voir [Mapper des informations d’un module à un autre dans  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-Tous les modules [!UICONTROL Data Store] sont des modules de type Action.
+Tous les modules de [!UICONTROL Magasin de données] sont des modules de type Action.
 
-* [Ajout/remplacement d’un enregistrement](#addreplace-a-record)
+* [Ajouter/remplacer un enregistrement](#addreplace-a-record)
 * [Mettre à jour un enregistrement](#update-a-record)
-* [Obtention d’un enregistrement](#get-a-record)
-* [Vérification de l’existence d’un enregistrement](#check-the-existence-of-a-record)
-* [Suppression d’un enregistrement](#delete-a-record)
+* [Obtenir un enregistrement](#get-a-record)
+* [Vérifier l’existence d’un enregistrement](#check-the-existence-of-a-record)
+* [Supprimer un enregistrement](#delete-a-record)
 * [Supprimer tous les enregistrements](#delete-all-records)
-* [Enregistrements de recherche](#search-records)
-* [Nombre d’enregistrements](#count-records)
+* [Rechercher des enregistrements](#search-records)
+* [Comptabiliser des enregistrements](#count-records)
 
-### [!UICONTROL Ajouter/Remplacer un enregistrement]
+### [!UICONTROL Ajouter/remplacer un enregistrement]
 
 Ce module d’action ajoute ou remplace un enregistrement.
 
-Vous spécifiez l’entrepôt de données et la clé de l’enregistrement.
+Vous spécifiez le magasin de données et la clé de l’enregistrement.
 
-Le module renvoie l’identifiant de l’enregistrement et de tous les champs associés, ainsi que les champs personnalisés et les valeurs auxquels la connexion a accès. Vous pouvez mapper ces informations dans les modules suivants du scénario.
+Le module renvoie l’identifiant de l’enregistrement et de tous les champs associés, ainsi que les champs personnalisés et les valeurs auxquels la connexion a accès. Vous pouvez mettre en correspondance ces informations dans les modules suivants du scénario.
 
 >[!NOTE]
 >
->Le module renvoie une erreur lorsque vous essayez d’ajouter l’enregistrement qui se trouve déjà dans l’entrepôt de données sous le même nom et que l’option [!UICONTROL Remplacer un enregistrement existant] est désactivée.
+>Le module renvoie une erreur lorsque vous essayez d’ajouter l’enregistrement qui se trouve déjà dans le magasin de données sous le même nom et l’option [!UICONTROL Écraser un enregistrement existant] est désactivée.
 
-Lors de la configuration de ce module, les champs suivants s’affichent.
+Lorsque vous configurez ce module, les champs suivants s’affichent.
 
 <table style="table-layout:auto">
  <col> 
@@ -111,15 +111,15 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Data store]</td> 
-   <td> <p> Sélectionnez ou ajoutez l’entrepôt de données dans lequel vous souhaitez créer un enregistrement. </p> </td> 
+   <td> <p> Sélectionnez ou ajoutez le magasin de données dans lequel vous souhaitez créer un enregistrement. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Key] </td> 
-   <td> <p>Saisissez la clé unique de l’enregistrement que vous souhaitez que le module ajoute ou remplace. La clé peut être utilisée ultérieurement pour récupérer l’enregistrement. Si vous laissez ce champ vide, une clé est générée automatiquement.</p> </td> 
+   <td> <p>Saisissez la clé unique de l’enregistrement que le module doit ajouter ou remplacer. La clé peut être utilisée ultérieurement pour récupérer l’enregistrement. Si vous laissez ce champ vide, une clé est générée automatiquement.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Remplacer un enregistrement existant] </td> 
-   <td> <p>Activez cette option pour remplacer l’enregistrement. L’enregistrement que vous souhaitez remplacer doit être spécifié dans le champ Clé ci-dessus.</p> </td> 
+   <td>[!UICONTROL Overwrite an existing record] </td> 
+   <td> <p>Activez cette option pour écraser l’enregistrement. L’enregistrement que vous souhaitez écraser doit être spécifié dans le champ Clé ci-dessus.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record] </td> 
@@ -132,11 +132,11 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 Ce module d’action met à jour un enregistrement.
 
-Vous spécifiez l’entrepôt de données et la clé de l’enregistrement.
+Vous spécifiez le magasin de données et la clé de l’enregistrement.
 
-Le module renvoie l’identifiant de l’enregistrement et de tous les champs associés, ainsi que les champs personnalisés et les valeurs auxquels la connexion a accès. Vous pouvez mapper ces informations dans les modules suivants du scénario.
+Le module renvoie l’ID de l’enregistrement et tous les champs associés, ainsi que les champs personnalisés et les valeurs auxquels la connexion accède. Vous pouvez mettre en correspondance ces informations dans les modules suivants du scénario.
 
-Lors de la configuration de ce module, les champs suivants s’affichent.
+Lorsque vous configurez ce module, les champs suivants s’affichent.
 
 <table style="table-layout:auto">
  <col> 
@@ -144,15 +144,15 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Data store]</td> 
-   <td> <p> Sélectionnez ou ajoutez l’entrepôt de données dans lequel vous souhaitez créer un enregistrement. </p> </td> 
+   <td> <p> Sélectionnez ou ajoutez le magasin de données dans lequel vous souhaitez créer un enregistrement. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Key] </td> 
    <td> <p>Saisissez la clé unique de l’enregistrement que le module doit mettre à jour.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Insérer l’enregistrement manquant] </td> 
-   <td> <p>Activez cette option pour créer un nouvel enregistrement si l’enregistrement avec la clé spécifiée n’existe pas déjà.</p> </td> 
+   <td>[!UICONTROL Insert missing record] </td> 
+   <td> <p>Activez cette option pour créer un enregistrement si l’enregistrement avec la clé spécifiée n’existe pas déjà.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record]</td> 
@@ -165,9 +165,9 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
 
 Ce module d’action récupère un enregistrement.
 
-Vous spécifiez l’entrepôt de données et la clé de l’enregistrement.
+Vous spécifiez le magasin de données et la clé de l’enregistrement.
 
-Le module renvoie l’identifiant de l’enregistrement et de tous les champs associés, ainsi que les champs personnalisés et les valeurs auxquels la connexion a accès. Vous pouvez mapper ces informations dans les modules suivants du scénario.
+Le module renvoie l’identifiant de l’enregistrement et de tous les champs associés, ainsi que les champs personnalisés et les valeurs auxquels la connexion a accès. Vous pouvez mettre en correspondance ces informations dans les modules suivants du scénario.
 
 <table style="table-layout:auto">
  <col> 
@@ -175,7 +175,7 @@ Le module renvoie l’identifiant de l’enregistrement et de tous les champs as
  <tbody> 
   <tr> 
    <td>[!UICONTROL Data store]</td> 
-   <td> <p> Sélectionnez l’entrepôt de données duquel vous souhaitez récupérer un enregistrement.</p> </td> 
+   <td> <p> Sélectionnez le magasin de données à partir duquel vous souhaitez récupérer un enregistrement.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Key] </td> 
@@ -184,11 +184,11 @@ Le module renvoie l’identifiant de l’enregistrement et de tous les champs as
  </tbody> 
 </table>
 
-### [!UICONTROL Vérifier l&#39;existence d&#39;un enregistrement]
+### [!UICONTROL Vérifier l’existence d’un enregistrement]
 
-Ce module d’action indique s’il existe un enregistrement particulier.
+Ce module d’action indique si un enregistrement spécifique existe.
 
-Vous spécifiez l’entrepôt de données et la clé de l’enregistrement.
+Vous spécifiez le magasin de données et la clé de l’enregistrement.
 
 <table style="table-layout:auto">
  <col> 
@@ -196,11 +196,11 @@ Vous spécifiez l’entrepôt de données et la clé de l’enregistrement.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Data store] </td> 
-   <td> <p>Sélectionnez l’entrepôt de données à vérifier pour l’existence de l’enregistrement.</p> </td> 
+   <td> <p>Sélectionnez le magasin de données dans lequel l’existence de l’enregistrement doit être vérifiée.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Key] </td> 
-   <td> <p>Saisissez la clé unique de l’enregistrement que vous souhaitez que le module vérifie l’existence.</p> </td> 
+   <td> <p>Saisissez la clé unique de l’enregistrement dont le module doit vérifier l’existence.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,9 +209,9 @@ Vous spécifiez l’entrepôt de données et la clé de l’enregistrement.
 
 Ce module d’action supprime un enregistrement.
 
-Vous spécifiez l’entrepôt de données et la clé de l’enregistrement.
+Vous spécifiez le magasin de données et la clé de l’enregistrement.
 
-Le module renvoie l’identifiant de l’enregistrement et de tous les champs associés, ainsi que les champs personnalisés et les valeurs auxquels la connexion a accès. Vous pouvez mapper ces informations dans les modules suivants du scénario.
+Le module renvoie l’ID de l’enregistrement et tous les champs associés, ainsi que les champs personnalisés et les valeurs auxquels la connexion accède. Vous pouvez mettre en correspondance ces informations dans les modules suivants du scénario.
 
 <table style="table-layout:auto">
  <col> 
@@ -219,7 +219,7 @@ Le module renvoie l’identifiant de l’enregistrement et de tous les champs as
  <tbody> 
   <tr> 
    <td>[!UICONTROL Data store] </td> 
-   <td> <p>Sélectionnez l’entrepôt de données à vérifier pour l’existence de l’enregistrement.</p> </td> 
+   <td> <p>Sélectionnez le magasin de données dans lequel l’existence de l’enregistrement doit être vérifiée.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Key] </td> 
@@ -230,9 +230,9 @@ Le module renvoie l’identifiant de l’enregistrement et de tous les champs as
 
 ### [!UICONTROL Supprimer tous les enregistrements]
 
-Ce module d’action supprime tous les enregistrements d’un entrepôt de données spécifique.
+Ce module d’action supprime tous les enregistrements d’un magasin de données spécifique.
 
-Vous spécifiez l’entrepôt de données.
+Vous spécifiez le magasin de données.
 
 <table style="table-layout:auto">
  <col> 
@@ -240,18 +240,18 @@ Vous spécifiez l’entrepôt de données.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Data store] </td> 
-   <td> <p>Sélectionnez l’entrepôt de données dans lequel vous souhaitez supprimer tous les enregistrements.</p> </td> 
+   <td> <p>Sélectionnez le magasin de données dans lequel vous souhaitez supprimer tous les enregistrements.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Enregistrements de recherche]
+### [!UICONTROL Rechercher des enregistrements]
 
-Ce module de recherche recherche recherche les enregistrements d’un objet de l’entrepôt de données correspondant à la requête que vous spécifiez.
+Ce module de recherche recherche des enregistrements d’un objet dans un magasin de données qui correspondent à la requête de recherche que vous avez spécifiée.
 
-Vous pouvez mapper ces informations dans les modules suivants du scénario.
+Vous pouvez mettre en correspondance ces informations dans les modules suivants du scénario.
 
-Lors de la configuration de ce module, les champs suivants s’affichent.
+Lorsque vous configurez ce module, les champs suivants s’affichent.
 
 <table style="table-layout:auto">
  <col> 
@@ -259,7 +259,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Data store]</td> 
-   <td> <p> Sélectionnez l’entrepôt de données à rechercher.</p> </td> 
+   <td> <p> Sélectionnez le magasin de données dans lequel vous souhaitez effectuer une recherche.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Filter]</p> </td> 
@@ -267,26 +267,26 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Sort]</p> </td> 
-   <td> <p style="font-weight: normal;">Pour chaque champ par lequel vous souhaitez trier, renseignez les champs suivants :</p> <p style="font-weight: bold;">[!UICONTROL Key]</p> <p>Sélectionnez le nom de la colonne selon laquelle vous souhaitez trier les résultats.</p> <p style="font-weight: bold;">[!UICONTROL Ordre]</p> <p>Indiquez si vous souhaitez trier les résultats dans l’ordre croissant ou décroissant.</p> </td> 
+   <td> <p style="font-weight: normal;">Pour chaque champ en fonction duquel vous souhaitez effectuer un tri, renseignez les champs suivants :</p> <p style="font-weight: bold;">[!UICONTROL Key]</p> <p>Sélectionnez le nom de la colonne en fonction de laquelle vous souhaitez trier les résultats.</p> <p style="font-weight: bold;">[!UICONTROL Order]</p> <p>Indiquez si vous souhaitez trier les résultats par ordre croissant ou décroissant.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
-   <td> <p> Définissez le nombre maximal de résultats de recherche [!DNL Workfront Fusion] renvoyés au cours d’un cycle d’exécution.</p> </td> 
+   <td> <p> Définissez le nombre maximal de résultats de recherche que [!DNL Workfront Fusion] renvoie pour un seul cycle d’exécution.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Poursuivre l’exécution de l’itinéraire même si le module ne renvoie aucun résultat]</td> 
-   <td> <p> S’il est activé, l’itinéraire dont fait partie ce module continue le traitement même si ce module ne renvoie aucun résultat.</p> </td> 
+   <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
+   <td> <p> Si cette option est activée, l’itinéraire dont fait partie ce module continue le traitement même si ce module ne renvoie aucun résultat.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Count Records]
+### [!UICONTROL Comptabiliser des enregistrements]
 
-Ce module d’action numérote les enregistrements dans un entrepôt de données.
+Ce module d’action compte les enregistrements dans un magasin de données.
 
-Vous spécifiez l’entrepôt de données.
+Vous spécifiez le magasin de données.
 
-Lors de la configuration de ce module, les champs suivants s’affichent.
+Lorsque vous configurez ce module, les champs suivants s’affichent.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -294,7 +294,7 @@ Lors de la configuration de ce module, les champs suivants s’affichent.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Data store] </td> 
-   <td> <p>Sélectionnez l’entrepôt de données contenant les enregistrements à comptabiliser.</p> </td> 
+   <td> <p>Sélectionnez le magasin de données qui contient les enregistrements à comptabiliser.</p> </td> 
   </tr> 
  </tbody> 
 </table>

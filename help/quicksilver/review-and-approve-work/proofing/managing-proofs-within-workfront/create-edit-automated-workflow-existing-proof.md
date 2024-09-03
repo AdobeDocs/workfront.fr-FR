@@ -2,149 +2,149 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Créer ou modifier un workflow automatisé pour une épreuve existante
-description: Les processus automatisés facilitent la gestion du processus de révision si votre processus est complexe ou si vous envoyez régulièrement du contenu à des fins de révision à des groupes de personnes identiques. Lorsque vous créez un BAT avec un workflow automatisé, le BAT passe de l’étape à l’étape jusqu’à l’approbation finale. Les participants sont avertis lorsque c’est à leur tour de réviser le document.
+description: Les workflows automatisés facilitent la gestion du processus de révision si votre processus est complexe ou si vous envoyez régulièrement du contenu pour révision aux mêmes groupes de personnes. Lorsque vous créez une épreuve avec un workflow automatisé, l’épreuve passe d’une étape à l’autre jusqu’à l’approbation finale. Les personnes participantes sont averties lorsque c’est à leur tour de réviser le document.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
 source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
 source-wordcount: '1236'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # Créer ou modifier un workflow automatisé pour une épreuve existante
 
-Les processus automatisés facilitent la gestion du processus de révision si votre processus est complexe ou si vous envoyez régulièrement du contenu à des fins de révision à des groupes de personnes identiques. Lorsque vous créez un BAT avec un workflow automatisé, le BAT passe de l’étape à l’étape jusqu’à l’approbation finale. Les participants sont avertis lorsque c’est à leur tour de réviser le document.
+Les workflows automatisés facilitent la gestion du processus de révision si votre processus est complexe ou si vous envoyez régulièrement du contenu pour révision aux mêmes groupes de personnes.Lorsque vous créez une épreuve avec un workflow automatisé, l’épreuve passe d’une étape à l’autre jusqu’à l’approbation finale. Les personnes participantes sont averties lorsque c’est à leur tour de réviser le document.
 
-Pour plus d’informations sur la création d’un workflow automatisé pour un nouveau BAT, voir [Création d’un BAT avancé avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+Pour plus d’informations sur la création d’un workflow automatisé pour une nouvelle épreuve, voir [Créer une épreuve avancée avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Plan hérité : Premium</p> <p>Pour plus d’informations sur l’accès à la relecture avec les différents plans, voir la section <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
-   <td>Manager ou version ultérieure</td> 
+   <td>Manager ou version supérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation d’épreuve dont vous disposez, contactez votre administrateur ou administratrice de Workfront ou Workfront Proof.
 
 +++
 
-## Créez ou modifiez un workflow automatisé pour un BAT existant :
+## Créez ou modifiez un workflow automatisé pour une épreuve existante :
 
-1. Passez la souris sur le document dans la zone Documents, puis cliquez sur Processus de vérification.
+1. Passez la souris sur le document dans la zone Documents, puis cliquez sur Workflow de relecture.
 
    Ou
 
-   Si vous vérifiez le BAT dans la visionneuse de vérification, cliquez sur **Workflow** ![](assets/workflow-icon-proofing-viewer.png) dans le panneau de gauche, puis cliquez sur l’icône Modifier ![](assets/edit-icon-proofing-viewer.png) pour ouvrir les paramètres de workflow automatisé du BAT.
+   Si vous vérifiez l’épreuve dans la visionneuse de relecture, cliquez sur **Workflow** ![](assets/workflow-icon-proofing-viewer.png) dans le panneau de gauche, puis cliquez sur l’icône Modifier ![](assets/edit-icon-proofing-viewer.png) pour ouvrir les paramètres de workflow automatisé de l’épreuve.
 
-1. (Conditionnel) Si le BAT utilise actuellement un processus de base (sans étapes), cliquez sur **Convertir en processus automatisé** dans l’écran qui s’affiche.
+1. (Le cas échéant) Si l’épreuve utilise actuellement un workflow de base (sans étapes), cliquez sur **Convertir en workflow automatisé** dans l’écran qui s’affiche.
 
    >[!NOTE]
    >
    >Vous ne pouvez pas modifier la première étape lorsque vous passez d’un workflow de base à un workflow automatisé, mais vous pouvez ajouter et configurer de nouvelles étapes.
 
-1. Conditionnel) Pour utiliser un modèle de workflow automatisé créé et partagé avec vous par l’administrateur Adobe Workfront, cliquez sur **Ajouter un modèle**, sélectionnez le modèle dans la zone qui s’affiche, puis cliquez sur **Ajouter un modèle**.
+1. (Le cas échéant) Pour utiliser un modèle de workflow automatisé que l’équipe d’administration Adobe Workfront a créé et partagé avec vous, cliquez sur **Ajouter un modèle**, sélectionnez le modèle dans la zone qui s’affiche, puis cliquez sur **Ajouter un modèle**.
 
-   Pour plus d’informations, voir [À propos de l’utilisation des modèles de workflow automatisés](#about-using-automated-workflow-templates) dans cet article.
+   Pour plus d’informations, voir [À propos de l’utilisation des modèles de workflow automatisé](#about-using-automated-workflow-templates) dans cet article.
 
-1. Ajoutez une étape au workflow automatisé :
+1. Ajoutez une étape au workflow automatisé :
 
    1. Cliquez sur **Nouvelle étape** près du coin supérieur droit.
-   1. Dans la zone qui s’affiche, saisissez un **nom** pour l’étape.
-   1. (Facultatif) Définissez une échéance pour la scène.
-   1. Dans la section **Activer l’étape** , choisissez comment activer l’étape :
+   1. Dans la zone qui s’affiche, saisissez un **Nom** pour l’étape.
+   1. (Facultatif) Définissez une échéance pour l’étape.
+   1. Dans la section **Activer l’étape**, choisissez le mode d’activation de l’étape :
 
 
       <table>
       <tbody>
       <tr>
-      <td><strong>Lors de la création du BAT</strong></td>
-      <td>L'étape devient active automatiquement car le BAT a déjà été créé.</td>
+      <td><strong>Lors de la création des épreuves</strong></td>
+      <td>L’étape devient active automatiquement, car l’épreuve a déjà été créée.</td>
       </tr>
       <tr>
       <td><strong>Lorsque l'étape précédente est arrivée à échéance</strong></td>
-      <td>Cliquez sur l’étape précédente dans la liste déroulante <strong>Etape parente</strong> .</td>
+      <td>Cliquez sur l’étape précédente dans la liste déroulante <strong>Étape parent</strong>.</td>
       </tr>
       <tr>
       <td><strong>À une date et une heure spécifiques</strong></td>
-      <td>Cliquez sur la zone <strong>On</strong> pour sélectionner la date, puis cliquez sur la zone située à droite pour sélectionner l’heure.</td>
+      <td>Cliquez sur la case <strong>Activé</strong> pour sélectionner la date, puis sur la case à droite pour sélectionner l’heure.</td>
       </tr>
       <tr>
-      <td><strong>Toutes les décisions sont approuvées ou approuvées avec des modifications sur l’étape parent</strong></td>
-      <td>Cliquez sur la scène parente dans la liste déroulante <strong>Etape parente</strong> .</td>
+      <td><strong>Toutes les décisions sont approuvées ou approuvées avec des modifications sur l’étape parent.</strong></td>
+      <td>Cliquez sur l’étape parent dans la liste déroulante <strong>Étape parent</strong>.</td>
       </tr>
       <tr>
-      <td><strong>Toutes les décisions sont approuvées sur l’étape parent</strong></td>
-      <td>Cliquez sur la scène parente dans la liste déroulante <strong>Etape parente</strong> .</td>
+      <td><strong>Toutes les décisions sont approuvées sur l’étape parent.</strong></td>
+      <td>Cliquez sur l’étape parent dans la liste déroulante <strong>Étape parent</strong>.</td>
       </tr>
       <tr>
-      <td><strong>Toutes les décisions sont prises</strong></td>
-      <td>Cliquez sur la scène parente dans la liste déroulante <strong>Etape parente</strong> .</td>
+      <td><strong>Toutes les décisions sont prises.</strong></td>
+      <td>Cliquez sur l’étape parent dans la liste déroulante des <strong>Étapes parent</strong>.</td>
       </tr>
       </tbody>
       </table>
 
 
-   1. Saisissez le nom du contact ou l&#39;adresse email, puis configurez les paramètres pour les réviseurs de l&#39;étape.
+   1. Saisissez le nom du contact ou l’adresse e-mail, puis configurez les paramètres pour les réviseurs et réviseuses de l’étape.
 
-      Pour plus d’informations sur l’ajout de réviseurs, voir [À propos de l’ajout de réviseurs à une étape](#about-adding-reviewers-to-a-stage) dans cet article.
+      Pour plus d’informations sur l’ajout de réviseurs et réviseuses, voir [À propos de l’ajout de réviseurs et réviseuses à une étape](#about-adding-reviewers-to-a-stage) dans cet article.
 
-   1. Utilisez l’une des options suivantes pour configurer davantage l’étape :
+   1. Utilisez l’une des options suivantes pour configurer davantage l’étape :
 
       <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
         <tr>
-         <td role="rowheader"><strong> Options de date limite</strong> </td>
-         <td><p>Pour définir une échéance pour l’étape, cliquez sur une option dans la liste déroulante <strong>Options de date</strong>. Ensuite, sous <strong>Deadline</strong>, effectuez l’une des opérations suivantes :</p>
+         <td role="rowheader"><strong>Options de date d’échéance</strong> </td>
+         <td><p>Pour définir une échéance pour l’étape, cliquez sur une option dans la liste déroulante des <strong>Options de date d’échéance</strong>. Ensuite, sous <strong>Date d’échéance</strong>, effectuez l’une des opérations suivantes :</p>
           <ul>
-           <li>Si vous choisissez <strong>Définir la date spécifique</strong> : sélectionnez la date d'échéance et l'heure de votre choix.</li>
-           <li>Si vous choisissez <strong>Calculer à partir de la date d’activation de l’étape</strong> : sélectionnez le nombre de jours ouvrés à ajouter à la date d’activation de l’étape pour déterminer l’échéance.</li>
+           <li>Si vous choisissez <strong>Définir la date spécifique</strong> : sélectionnez la date et l’heure d’échéance de votre choix.</li>
+           <li>Si vous choisissez <strong>Calculer à partir de la date d’activation de l’étape</strong> : sélectionnez le nombre de jours ouvrés à ajouter à la date d’activation de l’étape pour déterminer l’échéance.</li>
           </ul></td>
         </tr>
         <tr>
          <td role="rowheader">Verrouiller l’étape</td>
-         <td>Spécifiez quand la scène peut être verrouillée. </td>
+         <td>Spécifiez quand l’étape peut être verrouillée. </td>
         </tr>
         <tr>
          <td role="rowheader">Décisionnaire principal</td>
-         <td><p>Sélectionnez le décideur de Principal sur l’étape (disponible uniquement après avoir ajouté au moins une personne à l’étape qui dispose du rôle Bon à tirer d’approbateur ou d’un rôle d’approbateur supérieur). Si vous sélectionnez un décideur de Principal, l’option <strong>Une seule décision requise</strong> est désactivée à cette étape.</p></td>
+         <td><p>Sélectionnez la personne décisionnaire principale sur l’étape (disponible uniquement après avoir ajouté au moins une personne à l’étape qui dispose d’un rôle de relecture d’approbation ou supérieur). Si vous sélectionnez une personne décisionnaire principale, l’option <strong>Une seule décision requise</strong> est désactivée sur cette étape.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Une seule décision requise</td>
-         <td>Met fin à l’ensemble du processus de révision lorsque l’un des décideurs prend une décision.<p>Cette option n’est pas disponible si vous avez désigné un utilisateur dans le menu déroulant <strong>Décideur de Principal</strong> .</p></td>
+         <td>Met fin à l’ensemble du processus de révision lorsque l’une des personnes décisionnaires prend une décision.<p>Cette option n’est pas disponible si vous avez désigné un utilisateur ou une utilisatrice dans le menu déroulant des <strong>Personnes décisionnaires principales</strong>.</p></td>
         </tr>
         <tr>
-         <td role="rowheader">Etape privée</td>
-         <td>Permet uniquement aux personnes suivantes d’afficher les commentaires et les décisions pris à cette étape : superviseurs, administrateurs Adobe Workfront et administrateurs Workfront Proof</td>
+         <td role="rowheader">Étape privée</td>
+         <td>Permet uniquement aux personnes suivantes d’afficher les commentaires et les décisions prises à cette étape : superviseurs ou superviseuses, administrateurs ou administratrices Adobe Workfront et administrateurs ou administratrices Workfront Proof.</td>
         </tr>
         <tr>
          <td role="rowheader">Notifier les personnes par e-mail</td>
-         <td>Alerte les réviseurs avec une notification par email lorsqu'ils se chargent de l'exécution du BAT.</td>
+         <td>Alerte les réviseurs et réviseuses avec une notification par e-mail lorsqu’il vient leur tour de travailler sur une épreuve.</td>
         </tr>
        </tbody>
       </table>
@@ -153,28 +153,28 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
 
 1. Répétez l’étape précédente si nécessaire pour ajouter d’autres étapes.
 
-   Lorsque vous ajoutez des étapes au processus automatisé, un diagramme s’affiche à l’écran pour les représenter :
+   Lorsque vous ajoutez des étapes au processus automatisé, un diagramme s’affiche à l’écran pour les représenter :
 
    ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
-1. Lorsque vous avez terminé d’ajouter des scènes, cliquez sur **Terminé**.
+1. Lorsque vous avez terminé d’ajouter des étapes, cliquez sur **Terminé**.
 
-## À propos de l’utilisation des modèles de processus automatisés {#about-using-automated-workflow-templates}
+## À propos de l’utilisation des modèles de workflow automatisés {#about-using-automated-workflow-templates}
 
-Tenez compte des points suivants lorsque vous utilisez un modèle de workflow automatisé :
+Tenez compte des points suivants lorsque vous utilisez un modèle de workflow automatisé :
 
-1. Les paramètres d’un modèle de workflow automatisé déterminent ce que vous pouvez faire avec le workflow automatisé pour un BAT. Par exemple, si le bouton Ajouter une scène est désactivé dans le modèle, il n’est pas visible car vous travaillez avec les paramètres de workflow automatisé du BAT.
-1. Lorsqu’une personne est ajoutée à un niveau dans un modèle de workflow automatisé, mais également déjà présente en tant que validant sur le BAT, l’application du modèle supprime le validant de l’étape. Si vous n’ajoutez pas d’autre réviseur à l’étape, un message vous invite à en ajouter un.
-1. Votre capacité à modifier un modèle de workflow automatisé dépend des paramètres de modèle configurés par l’administrateur de Workfront, comme décrit dans la section . Si la possibilité de modifier le modèle est désactivée, seul le propriétaire du modèle peut le modifier.
+1. Les paramètres d’un modèle de workflow automatisé déterminent ce que vous pouvez faire avec le workflow automatisé pour une épreuve. Par exemple, si le bouton Ajouter une étape est désactivé dans le modèle, il n’est pas visible lorsque vous travaillez avec les paramètres de workflow automatisé de l’épreuve.
+1. Lorsqu’une personne est ajoutée à une étape dans un modèle de workflow automatisé, mais qu’elle est déjà présente en tant que réviseur ou réviseuse sur l’épreuve, l’application du modèle supprime le réviseur ou la réviseuse de l’étape. Si vous n’ajoutez pas d’autre réviseur ou réviseuse à l’étape, un message vous invite à le faire.
+1. Votre capacité à modifier un modèle de workflow automatisé dépend des paramètres de modèle configurés par l’équipe d’administration Workfront, comme décrit dans . Si la possibilité de modifier le modèle est désactivée, seul la personne propriétaire du modèle peut le modifier.
 
-## A propos de l’ajout de réviseurs à une étape {#about-adding-reviewers-to-a-stage}
+## À propos de l’ajout de réviseurs et réviseuses à une étape {#about-adding-reviewers-to-a-stage}
 
-Tenez compte des points suivants lors de l’ajout de réviseurs à une étape :
+Tenez compte des points suivants lors de l’ajout de réviseurs et réviseuses à une étape :
 
-* Une fois que vous avez ajouté un utilisateur à une étape, vous pouvez configurer les paramètres de cet utilisateur sur le BAT, tels que le rôle du BAT et les autorisations supplémentaires qu’il doit posséder, ainsi que le type d’alertes par e-mail qu’il recevra lorsque des personnes auront commenté et pris des décisions sur le BAT.
-* Vous pouvez faire glisser un ou plusieurs utilisateurs d’une étape vers une autre. Vous pouvez faire glisser les utilisateurs directement vers une autre étape ou faire glisser les utilisateurs vers une étape sur le diagramme **Étapes**. Pour sélectionner plusieurs utilisateurs, appuyez sur Maj+Ctrl (sous Windows) ou Maj+Commande (sous Mac).
-* Vous ne pouvez ajouter un validant qu&#39;une seule fois à un BAT, ce qui signifie que vous ne pouvez pas ajouter la même personne à plusieurs étapes du BAT.
-* Les réviseurs qui ne sont pas ajoutés à une scène privée ne peuvent pas voir cette scène sur le BAT ou les commentaires faits à cette étape.
-* Par défaut, l’ajout d’un utilisateur à un environnement intermédiaire lui donne accès pour afficher le BAT à partir du moment où le BAT est créé.
+* Une fois que vous avez ajouté une personne à une étape, vous pouvez configurer les paramètres de cette personne sur l’épreuve, tels que le rôle de l’épreuve et les autorisations supplémentaires qu’elle doit posséder, ainsi que le type d’alertes par e-mail qu’elle recevra lorsque des personnes auront commenté et pris des décisions sur l’épreuve.
+* Vous pouvez faire glisser une ou plusieurs personnes d’une étape vers une autre. Vous pouvez faire glisser les personnes directement vers une autre étape, ou vous pouvez les faire glisser vers une étape sur le diagramme des **Étapes**. Pour sélectionner plusieurs utilisateurs et utilisatrices, appuyez sur Maj+Ctrl (sous Windows) ou Maj+Commande (sous Mac).
+* Vous ne pouvez ajouter un réviseur ou une réviseuse qu’une seule fois à une épreuve, ce qui signifie que vous ne pouvez pas ajouter la même personne à plusieurs étapes de l’épreuve.
+* Les réviseurs et réviseuses qui ne sont pas ajoutés à une étape privée ne peuvent pas voir cette étape sur l’épreuve ou les commentaires faits à cette étape.
+* Par défaut, l’ajout d’une personne à une étape lui donne accès pour afficher l’épreuve à partir du moment où l’épreuve est créée.
 
-  Votre administrateur Workfront peut empêcher les utilisateurs d’accéder au BAT jusqu’à ce que le workflow entre dans l’étape où l’utilisateur a été ajouté. Pour plus d’informations, voir  dans .
+  Votre équipe d’administration Workfront peut empêcher les utilisateurs et utilisatrices d’accéder à l’épreuve jusqu’à ce que le workflow entre dans l’étape où sont ajoutés les utilisateurs et utilisatrices. Pour plus d’informations, voir .

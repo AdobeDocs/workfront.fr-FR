@@ -3,14 +3,14 @@ content-type: overview
 product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Configurer les congés
-description: Il est important d’indiquer dans Adobe Workfront le moment où un délai de pause approuvé se produit, car cela affecte votre planning et affecte les dates d’achèvement prévues des tâches auxquelles vous êtes affecté.
+description: Dans Adobe Workfront, il est important d’indiquer les congés approuvés, car ils ont une incidence sur votre planning et sur les dates d’achèvement prévues des tâches qui vous ont été affectées.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
 source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 13%
 
 <!-- Audited: 12/2023 -->
 
-[!DNL Adobe Workfront] n’est pas conçu pour répliquer ou remplacer vos systèmes existants pour gérer, accumuler et effectuer le suivi du temps libre.
+[!DNL Adobe Workfront] n’est pas conçu pour reproduire ou remplacer les systèmes existants de votre organisation pour la gestion, l’accumulation ou le suivi des congés personnels.
 
-Cependant, il est important d’indiquer le moment où un congé approuvé a lieu, car cela affecte à la fois votre planning et les [!UICONTROL Dates d’achèvement prévues] des tâches auxquelles vous êtes affecté.
+Cependant, il est important d’indiquer les congés approuvés, car ils ont une incidence sur votre planning et sur les [!UICONTROL dates d’achèvement prévues] des tâches qui vous ont été affectées.
 
-Par exemple, si vous êtes affecté à une tâche qui doit durer deux semaines et que vous prévoyez de prendre trois jours de congé pendant cette période, [!DNL Workfront] ajoute trois jours à la chronologie de la tâche pour tenir compte du temps de congé.
+Par exemple, si une tâche vous est affectée pour une durée de deux semaines et que vous prévoyez de prendre trois jours de congé pendant cette période, [!DNL Workfront] ajoute trois jours à la chronologie de la tâche pour tenir compte de ces congés.
 
-Les outils de gestion des ressources utilisent également votre temps de congé personnel pour indiquer quand vous êtes disponible pour le travail planifié.
+Les outils de gestion des ressources utilisent également vos congés pour indiquer vos disponibilités de travail.
 
 >[!NOTE]
 >
->Pour garantir qu’aucune incohérence ne se produise avec les dates pour lesquelles vous planifiez votre heure de congé, nous vous recommandons de faire correspondre le fuseau horaire de votre profil utilisateur à celui de votre planification. Pour plus d’informations, consultez les articles suivants :
+>Pour éviter toute incohérence dans les dates auxquelles vous planifiez vos congés, nous vous recommandons de faire correspondre le fuseau horaire de votre profil d’utilisateur ou d’utilisatrice à celui de votre planning. Pour plus d’informations, consultez les articles suivants :
 >
 >* [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
->* [Modifier le profil d’un utilisateur](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+>* [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,37 +46,37 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>N’importe quelle</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouveau : Standard (pour configurer votre temps de congé personnel)</p>
+   <td> <p>Nouveau : licence Standard (pour configurer vos congés)</p>
         <p>ou</p>
-        <p>Actuel : travail ou plus (pour configurer votre temps de congé personnel)</p> </td>
+        <p>Actuellement : licence Travail ou licence supérieure (pour configurer vos congés)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
-   <td>[!UICONTROL Manager] avec accès à [!UICONTROL Modifier l’utilisateur] (pour apporter des modifications au calendrier des jours fériés des autres utilisateurs)<br>
-   <strong>REMARQUE : </strong> Si un responsable modifie le calendrier des heures de congé personnel d’un autre utilisateur, toutes les entrées sont affichées dans le fuseau horaire de l’utilisateur et non dans celui du responsable.</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
+   <td>[!UICONTROL Manager] avec accès en [!UICONTROL Edit User] (pour modifier le calendrier des congés d’autres utilisateurs ou utilisatrices)<br>
+   <strong>NOTE :</strong> si une personne responsable de la gestion modifie le calendrier des congés d’un autre utilisateur ou d’une autre utilisatrice, toutes les entrées sont affichées dans le fuseau horaire de l’utilisateur ou de l’utilisatrice et non dans celui de la personne responsable.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Configurer un temps de pause personnel dans [!DNL Workfront]
+## Configurer les congés dans [!DNL Workfront]
 
 {{step1-click-profile-pic}}
 
-1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Time Off]**.
-1. Sélectionnez la date de votre jour de congé personnel.
+1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Congés]**.
+1. Sélectionnez la date souhaitée pour vos congés.
 
-   ![Calendrier des congés personnels](assets/personal-time-off-calendar.png)
+   ![Calendrier des congés](assets/personal-time-off-calendar.png)
 
-1. Sélectionnez **[!UICONTROL Toute la journée]** si vous prenez un jour de congé.
+1. Sélectionnez **[!UICONTROL Toute la journée]**, si vous prenez une journée entière de congés.
 
-   Laissez la case décochée si vous prenez moins d’une journée de congé et indiquez les heures de début et de fin de votre congé.
+   Si vous prenez moins d’une journée entière de congé, ne cochez pas la case et indiquez les heures de début et de fin de votre congé.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-   Votre temps de pause est désormais visible dans l’ensemble du système [!DNL Workfront] dans les outils de gestion des ressources tels que le planificateur de ressource et l’équilibreur de charge de travail. Lorsqu’une tâche vous est affectée pendant cette période, une info-bulle informe l’utilisateur que vous avez planifié un congé.
+   Vos congés sont désormais visibles sur l’ensemble du système [!DNL Workfront] dans les outils de gestion des ressources tels que le planificateur de ressources et l’équilibreur de charge de travail. Si du travail vous est affecté pendant cette période, une info-bulle informe l’utilisateur ou l’utilisatrice que vous avez programmé des congés.

@@ -1,69 +1,69 @@
 ---
 navigation-topic: use-lists
-title: Prise en main des listes dans [!DNL Adobe Workfront]
-description: Vous pouvez afficher des listes d’objets dans  [!DNL Adobe Workfront] pour obtenir des informations à leur sujet, telles que leurs dates de début et d’échéance, les utilisateurs qui leur sont affectés et d’autres objets qui leur sont associés.
+title: Commencer avec les listes dans  [!DNL Adobe Workfront]
+description: Vous pouvez consulter des listes d’objets sur  [!DNL Adobe Workfront]  afin d’obtenir des informations à leur sujet, telles que leurs dates de début et d’échéance, les utilisateurs et utilisatrices qui leur sont affectés et les autres objets qui leur sont associés.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
 source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
 workflow-type: tm+mt
 source-wordcount: '2388'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Prise en main des listes dans [!DNL Adobe Workfront]
+# Commencer avec les listes dans [!DNL Adobe Workfront]
 
-Vous pouvez afficher des listes d’objets dans [!DNL Adobe Workfront] pour obtenir des informations à leur sujet, telles que leurs dates de début et d’échéance, les utilisateurs qui leur sont affectés et d’autres objets qui leur sont associés.
+Vous pouvez consulter des listes d’objets sur [!DNL Adobe Workfront] pour obtenir des informations sur ces derniers, telles que leurs dates de début et d’échéance, les utilisateurs et utilisatrices qui leur sont affectés et les autres objets qui leur sont associés.
 
-Voici quelques caractéristiques de listes dans [!DNL Workfront] :
+Voici quelques caractéristiques des listes dans [!DNL Workfront] :
 
-* Les listes sont actualisées automatiquement toutes les cinq minutes afin de mettre à jour les informations que d’autres utilisateurs du système mettent à jour ailleurs.
-* Certaines zones de [!DNL Workfront] sont préconfigurées avec des listes d’objets par défaut.
+* Les listes sont actualisées automatiquement toutes les cinq minutes pour mettre à jour les informations que d’autres utilisateurs et utilisatrices du système sont en train de mettre à jour ailleurs.
+* Certaines zones dans [!DNL Workfront] sont préconfigurées avec des listes d’objets par défaut.
 
   Vous pouvez personnaliser la plupart de ces listes préconfigurées.
 
-* Un administrateur [!DNL Workfront] peut créer des listes personnalisées à appliquer à différentes zones de [!DNL Workfront].
+* Un administrateur ou une administratrice de [!DNL Workfront] peut créer des listes personnalisées à appliquer à diverses zones de [!DNL Workfront].
 
-  Pour plus d’informations sur la création de listes au niveau du système, consultez l’article [Créer, modifier et partager des filtres, des vues et des regroupements par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  Pour plus d’informations sur la création de listes au niveau du système, voir l’article [Créer, modifier et partager des filtres, des vues et des regroupements par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
    <td> <p>[!UICONTROL Request] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
-   <td> <p>[!UICONTROL Affichage] ou accès supérieur à des filtres, vues, regroupements</p> <P>Pour les éléments de la zone [!UICONTROL Configuration], vous avez besoin d’un accès administratif pour l’élément ou le niveau d’accès [!UICONTROL Administrateur système].</P> <p>Remarque : Si vous n’avez toujours pas accès à , demandez à votre administrateur [!DNL Workfront] s’il définit des restrictions supplémentaires à votre niveau d’accès.<br>Pour plus d'informations sur la façon dont un administrateur [!DNL Workfront] peut modifier votre niveau d'accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Création ou modification de niveaux d'accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
+   <td> <p>Accès [!UICONTROL View] ou un accès supérieur aux filtres, aux vues et aux regroupements</p> <P>Pour les éléments de la zone [!UICONTROL Setup], vous devez disposer d’un accès administratif pour l’élément ou d’un niveau d’accès [!UICONTROL System Administrator].</P> <p>Note : si vous n’avez toujours pas d’accès, demandez à votre administrateur ou administratrice [!DNL Workfront] si des restrictions supplémentaires ont été définies dans votre niveau d’accès.<br>Pour savoir comment un administrateur ou une administratrice [!DNL Workfront] peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>[!UICONTROL Vue] ou autorisations supérieures avec accès au partage</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td>
+   <td> <p>Autorisations [!UICONTROL View] ou supérieures avec accès au partage</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez vote administrateur ou administratrice [!DNL Workfront].
+Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre équipe d’administration [!DNL Workfront].
 
 ## Listes d’objets
 
-Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez trouver dans [!DNL Workfront] et certaines des zones où elles s’affichent par défaut lorsque vous disposez des droits d’affichage d’un objet.
+Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez trouver sur [!DNL Workfront] et certaines des zones où elles s’affichent par défaut lorsque vous avez le droit d’afficher un objet.
 
 >[!NOTE]
 >
->* Cette liste n&#39;est pas exhaustive. Chacune de ces listes d’objets peut également apparaître sur un rapport ou un tableau de bord. Par exemple, un rapport Projet ou un tableau de bord contenant un rapport Projet affiche également une liste de projets.
->* Dans cette liste, &quot;select&quot; signifie que vous devez cliquer sur le nom de l’élément, et non sur la case à cocher située à gauche du nom.
+>* Cette liste n’est pas exhaustive. Chacune de ces listes d’objets peut également apparaître dans un rapport ou un tableau de bord. Par exemple, un rapport de projet ou un tableau de bord contenant un rapport de projet affiche également une liste de projets.
+>* Dans cette liste, « sélectionner » signifie que vous devez cliquer sur le nom de l’élément, et non sur la case à cocher située à gauche du nom.
 
 
 <table style="table-layout:auto"> 
@@ -71,76 +71,76 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
  <col> 
  <thead> 
   <tr> 
-   <th><strong>[!DNL Workfront] list</strong></th> 
+   <th><strong>[!DNL Workfront] Liste</strong></th> 
    <th><strong>Emplacement de la liste d’objets</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Liste des portefeuilles</td> 
+   <td>Liste de portfolios</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolio]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Liste des programmes</td> 
+   <td>Liste de programmes</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL sélectionner un portefeuille] &gt;[!UICONTROL Programmes]</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programmes]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt; [!UICONTROL Programs]</p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programs]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Liste des projets</td> 
+   <td>Liste de projets</td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL sélectionner un portefeuille] &gt;[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL sélectionner un portefeuille] &gt;[!UICONTROL Programmes] &gt;[!UICONTROL sélectionner un programme] &gt;[!UICONTROL Projets]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt; [!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt; [!UICONTROL Programs] &gt; [!UICONTROL select a program] &gt; [!UICONTROL Projects]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Liste des tâches</td> 
+   <td>Liste de tâches</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projets] &gt;[!UICONTROL sélectionner un projet] &gt; [!UICONTROL Tâches]</p> </li> 
-     <li> <p>[!UICONTROL Projets] &gt;[!UICONTROL sélectionner un projet] &gt;[!UICONTROL Tâches] &gt;[!UICONTROL sélectionner une tâche] &gt;[!UICONTROL Sous-tâches]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL sélectionner un projet] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL sélectionner une tâche] &gt; [!UICONTROL Predecessors*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks] &gt; [!UICONTROL select a task] &gt; [!UICONTROL Subtasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks] &gt; [!UICONTROL select a task] &gt; [!UICONTROL Predecessors*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Liste des problèmes</td> 
+   <td>Liste de problèmes</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projets] &gt; [!UICONTROL sélectionner] un projet &gt;[!UICONTROL Problèmes]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL sélectionner un projet] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL sélectionner une tâche] &gt; [!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projets] &gt;[!UICONTROL sélectionner un projet] &gt;[!UICONTROL Tâches] &gt;[!UICONTROL sélectionner une tâche] &gt;[!UICONTROL Sous-tâches] &gt;[!UICONTROL sélectionner une tâche] &gt; [!UICONTROL Problèmes]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] a project &gt; [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks] &gt; [!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks] &gt; [!UICONTROL select a task] &gt; [!UICONTROL Subtasks] &gt; [!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des rapports</td> 
    <td> 
     <ul> 
-     <li> <p>  [!UICONTROL Rapports]  </p> </li> 
+     <li> <p>  [!UICONTROL Reports]  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Liste des tableaux de bord</td> 
+   <td>Liste des tableaux de bords</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Tableaux de bord]</p> </li> 
+     <li> <p>[!UICONTROL Dashboards]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des itérations</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Équipes] &gt; [!UICONTROL Itérations]</p> </li> 
+     <li> <p>[!UICONTROL Teams] &gt; [!UICONTROL Iterations]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Liste des utilisateurs</td> 
+   <td>Liste des utilisateurs et des utilisatrices</td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Users]</p> </li> 
@@ -151,115 +151,115 @@ Vous trouverez ci-dessous quelques types de listes d’objets que vous pouvez tr
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL sélectionner un portefeuille] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt; [!UICONTROL sélectionner un portefeuille] &gt;[!UICONTROL Programmes] &gt;[!UICONTROL sélectionner un programme] &gt;[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projets] &gt;[!UICONTROL sélectionner un projet] &gt;[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projets] &gt;[!UICONTROL sélectionner un projet] &gt;[!UICONTROL Tâches] &gt;[!UICONTROL sélectionner une tâche] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projets] &gt; [!UICONTROL sélectionner] un projet &gt; [!UICONTROL Problèmes] &gt; [!UICONTROL sélectionner un problème] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL select a program] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Issues] &gt;[!UICONTROL select an issue] &gt; [!UICONTROL Documents]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des feuilles de temps</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Feuille de calcul] s &gt; [!UICONTROL Toutes les feuilles de calcul]*</p> </li> 
+     <li> <p>[!UICONTROL Timesheet] s  &gt; [!UICONTROL All Timesheets]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des taux de facturation</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projets] &gt;[!UICONTROL sélectionner un projet] &gt;[!UICONTROL Taux de facturation*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Billing Rates*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des enregistrements de facturation</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projets] &gt; [!UICONTROL sélectionner un projet] &gt; [!UICONTROL Enregistrements de facturation]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Billing Records]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des risques</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projets] &gt;[!UICONTROL sélectionner un projet] &gt;[!UICONTROL Risques]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Risks]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des dépenses</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projets] &gt;[!UICONTROL sélectionner] un projet &gt;[!UICONTROL Dépenses]</p> </li> 
-     <li> <p>[!UICONTROL Projets] &gt; [!UICONTROL sélectionner un projet] &gt;[!UICONTROL Tâches] &gt;[!UICONTROL sélectionner une tâche] &gt;[!UICONTROL Dépenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select] a project &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des entrées d’heure</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projets] &gt;[!UICONTROL sélectionner] un projet</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL sélectionner un projet] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL sélectionner une tâche] &gt;[!UICONTROL HEURES]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL sélectionner] un projet &gt;[!UICONTROL Issues] &gt;[!UICONTROL Select] un problème &gt;[!UICONTROL Hours]</p> </li>
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Hours]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Issues] &gt;[!UICONTROL select an issue] &gt;[!UICONTROL Hours]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
    <td>Liste des formulaires personnalisés</td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Configuration] &gt;[!UICONTROL Forms personnalisée] </li> 
+     <li>[!UICONTROL Setup] &gt;[!UICONTROL Custom Forms] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
     <td>Liste des groupes ou sous-groupes</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Configuration] &gt; [!UICONTROL Groupes]</p> </li>
-     <li> <p>[!UICONTROL Configuration] &gt;[!UICONTROL Groupes] &gt;[!UICONTROL Sélectionner le groupe parent] &gt;[!UICONTROL Sous-groupes] </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups]</p> </li>
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL select the parent group] &gt;[!UICONTROL Subgroups] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste des équipes</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Configuration] &gt;[!UICONTROL Équipes]</p> </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Teams]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>Liste des entreprises</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Configuration] &gt;[!UICONTROL Sociétés]</p> </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Companies]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
-   <td>Liste des plannings</td> 
+   <td>Liste des planifications</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Configuration] &gt;[!UICONTROL Planifications]</p> </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Schedules]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
-   <td>Liste des modèles de mise en page</td> 
+   <td>Liste des modèles de disposition</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Configuration] &gt;[!UICONTROL Modèles de mise en page]</p> </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Layout Templates]</p> </li> 
     </ul> </td> 
   </tr>
  </tbody> 
 </table>
 
-Vous ne pouvez pas personnaliser la liste dans la zone spécifiée. Un administrateur [!DNL Workfront] peut créer une liste personnalisée au niveau du système ou vous pouvez créer un rapport pour cet objet si votre niveau d’accès vous permet d’accéder aux rapports de modification.
+Vous ne pouvez pas personnaliser la liste dans la zone spécifiée. Un administrateur ou une administratrice [!DNL Workfront] peut créer une liste personnalisée au niveau du système, ou vous pouvez créer un rapport pour cet objet si votre niveau d’accès vous permet de modifier des rapports.
 
-## Eléments de liste
+## Éléments de liste
 
-Une liste contient certains éléments qui définissent son format et les informations qui s’affichent. Vous trouverez plusieurs éléments de liste système disponibles par défaut. Vous pouvez également créer des éléments personnalisés en fonction de vos besoins.
+Une liste contient certains éléments qui définissent son format et les informations qui s’affichent. Plusieurs éléments de liste de système sont disponibles par défaut. Vous pouvez également créer des éléments personnalisés pour répondre à vos besoins.
 
 >[!NOTE]
 >
->Lorsque vous sélectionnez un nouveau filtre, une nouvelle vue ou un nouveau regroupement dans une liste, cette sélection est conservée même si vous vous déconnectez de [!DNL Workfront] ou fermez votre navigateur.
+>Lorsque vous sélectionnez un nouveau filtre, une nouvelle vue ou un nouveau regroupement dans une liste, cette sélection est conservée même si vous vous déconnectez de [!DNL Workfront] ou si vous fermez votre navigateur.
 
-Voici les éléments d&#39;une liste :
+Les éléments d’une liste sont les suivants :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -273,35 +273,35 @@ Voici les éléments d&#39;une liste :
  <tbody> 
   <tr> 
    <td><strong>[!UICONTROL Filter]</strong></td> 
-   <td> <p>Les filtres conservent dans une liste des informations inutiles, en fonction des critères que vous spécifiez. </p> <p>Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Présentation des filtres</a>.</p> </td> 
+   <td> <p>Les filtres éliminent les informations inutiles d’une liste, en fonction des critères que vous spécifiez. </p> <p>Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Vue d’ensemble des filtres</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL View]</strong></td> 
-   <td> <p>Les vues définissent les champs (colonnes) que vous affichez à l’écran.</p> <p>Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Présentation des vues dans [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Les vues définissent les champs (colonnes) à afficher à l’écran.</p> <p>Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Vue d’ensemble des vues dans [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL Groupement]</strong></td> 
-   <td> <p>Les groupes séparent les objets de la liste en zones en fonction des critères que vous spécifiez.</p> <p>Par exemple, les problèmes d’une liste peuvent s’afficher dans des sections par statut ou par priorité.</p> <p>Vous pouvez avoir jusqu’à trois couches de groupement dans un groupement standard et vous pouvez ajouter une quatrième couche si vous configurez un groupement en mode texte.</p> <p>Pour plus d'informations sur les groupements, consultez la <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">présentation des groupements dans [!DNL Adobe Workfront]</a>.</p> <p>Pour plus d’informations sur le mode texte, voir <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Présentation du mode texte</a>.</p> </td> 
+   <td><strong>[!UICONTROL Grouping]</strong></td> 
+   <td> <p>Les regroupements séparent les objets de la liste en zones en fonction des critères que vous spécifiez.</p> <p>Par exemple, les problèmes d’une liste peuvent être affichés dans des sections par statut ou par priorité.</p> <p>Vous pouvez avoir jusqu’à trois couches de regroupements dans un groupement standard, et vous pouvez ajouter une quatrième couche si vous configurez un regroupement en mode Texte.</p> <p>Pour plus d’informations sur les regroupements, voir <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Vue d’ensemble des regroupements dans [!DNL Adobe Workfront]</a>.</p> <p>Pour plus d’informations sur le mode Texte, voir <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Vue d’ensemble du mode Texte</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Par défaut, ces éléments s’affichent en haut de chaque liste. Ils sont collants et ne bougent pas lorsque vous faites défiler la liste. Pointez sur l’icône de chaque élément pour l’identifier.
+Ces éléments s’affichent par défaut en haut de chaque liste. Ils sont épinglés et ne se déplacent pas lorsque vous faites défiler la liste. Passez la souris sur l’icône de chaque élément pour l’identifier.
 
 ![](assets/nwe-list-elements.png)
 
-Vous pouvez personnaliser des éléments de liste dans les zones suivantes et les partager avec d’autres utilisateurs :
+Vous pouvez personnaliser les éléments de la liste dans les domaines suivants et les partager avec d’autres personnes :
 
-* Toute liste système par défaut trouvée dans la section [Prise en main des listes dans  [!DNL Adobe Workfront]](#default-workfront-lists) de cet article
-* Tout rapport partagé avec vous
+* Toute liste par défaut du système trouvée dans la section [Commencer avec les listes dans  [!DNL Adobe Workfront]](#default-workfront-lists) dans cet article.
+* Tout rapport partagé avec vous.
 
-Les éléments de création des listes sont identiques à ceux des rapports.
+Les éléments constitutifs des listes sont les mêmes que ceux des rapports.
 
-Pour plus d’informations sur la création et la personnalisation des éléments de création des listes et des rapports, voir [Éléments de création de rapports : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Pour plus d’informations sur la création et la personnalisation des éléments constitutifs des listes et des rapports, voir [Éléments de rapport : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-## Actions de liste
+## Répertorier des actions
 
-Vous pouvez effectuer les actions suivantes dans une liste :
+Vous pouvez effectuer les actions suivantes dans une liste :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -314,31 +314,31 @@ Vous pouvez effectuer les actions suivantes dans une liste :
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Modification en ligne</strong> </td> 
-   <td> <p>Modifiez les objets et leurs informations directement dans la liste.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Modification en ligne d’éléments dans une liste dans [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td><strong>Modifier en ligne</strong> </td> 
+   <td> <p>Modifiez les objets et leurs informations directement dans la liste.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Modifier en ligne les éléments d’une liste dans [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>Mise à jour avec le [!UICONTROL Summary]</strong> </td> 
-   <td> <p>Mettez à jour les tâches et les problèmes au niveau du projet à l’aide du panneau [!UICONTROL Résumé].</p> <p>Conseil : Le résumé n’est pas disponible pour tous les objets et il n’est pas disponible dans les rapports Tâche ou Problème .</p> <p>Pour plus d’informations, consultez <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Vue d’ensemble du résumé</a>.</p> </td> 
+   <td><strong>Mettre à jour avec le [!UICONTROL Summary]</strong> </td> 
+   <td> <p>Mettez à jour les tâches et les problèmes au niveau du projet en utilisant le panneau [!UICONTROL Summary].</p> <p>Conseil : le résumé n’est pas disponible pour tous les objets et il n’est pas disponible dans les rapports sur les tâches ou les problèmes.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Vue d’ensemble du résumé</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Personnaliser l’affichage de liste</strong> </td> 
-   <td> <p>Personnalisez l’aspect d’une liste, la disposition des colonnes, l’ordre de tri des éléments ou le nombre d’éléments qui s’affichent.</p> <p>Remarque : Les modifications que vous apportez au nombre d’éléments à afficher sur une page sont annulées lorsque vous vous déconnectez de [!DNL Workfront] ou fermez votre navigateur. Les modifications peuvent également être annulées après une période de 8 heures.</p> <p>Pour plus d'informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modification de l'affichage d'une liste</a>.</p> </td> 
+   <td><strong>Personnaliser l’affichage de la liste</strong> </td> 
+   <td> <p>Personnalisez l’aspect et la convivialité d’une liste, la disposition des colonnes, l’ordre de tri des éléments ou le nombre d’éléments affichés.</p> <p>Remarque : les modifications apportées au nombre d’éléments à afficher sur une page sont annulées lorsque vous vous déconnectez de [!DNL Workfront] ou que vous fermez votre navigateur. Les modifications peuvent également être annulées après une période de 8 heures.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modifier l’affichage d’une liste</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Filtre rapide</strong> </td> 
-   <td> <p>Appliquez un filtre rapide pour rechercher uniquement les éléments qui vous intéressent afin de pouvoir rapidement les vérifier, les mettre à jour ou les partager avec d’autres personnes.</p> <p>Important : Vous pouvez trouver les éléments qui contiennent un mot de recherche à l’aide du filtre rapide, que cet élément soit visible à l’écran ou s’affiche après avoir fait défiler la page vers le bas. Lorsque vous utilisez les fonctionnalités de recherche de votre navigateur, vous ne pouvez trouver que les éléments déjà visibles à l’écran. Si votre liste comporte plusieurs pages, les filtres rapides ne recherchent que les éléments de la page active.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Appliquer le filtre rapide à une liste</a>.</p> </td> 
+   <td> <p>Appliquez un filtre rapide pour ne trouver que les éléments qui sont importants pour vous afin de pouvoir les consulter, les mettre à jour ou les partager rapidement avec d’autres personnes.</p> <p>Important : le filtre rapide vous permet de trouver des éléments contenant un mot de recherche, que cet élément soit visible sur votre écran ou qu’il s’affiche après avoir défilé jusqu’au bas de la page. Lorsque vous utilisez les fonctions de recherche de votre navigateur, vous ne pouvez trouver que des éléments déjà visibles à l’écran. Si votre liste comporte plusieurs pages, les filtres rapides ne recherchent que les éléments de la page en cours.</p> <p>Pour plus d’informations, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Appliquer le filtre rapide à une liste</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Export</strong> </td> 
-   <td> <p>Exportez une liste d’objets de [!DNL Workfront]. Lorsqu’une liste contient plus de 2 000 éléments, l’exportation de la liste est le seul moyen de passer en revue tous les éléments d’une page.</p> <p>Pour plus d'informations sur l'export d'une liste, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Export d'une liste</a>. Pour plus d’informations sur les formats et les limites d’exportation, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a>.</p> </td> 
+   <td><strong>Exporter</strong> </td> 
+   <td> <p>Exportez une liste d’objets à partir de [!DNL Workfront]. Lorsqu’une liste contient plus de 2 000 éléments, l’exportation de la liste est le seul moyen de consulter tous les éléments sur une seule page.</p> <p>Pour plus d’informations sur l’exportation d’une liste, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Exporter une liste</a>. Pour plus d’informations sur les formats et les limites d’export, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exporter des données</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Barre d’outils Liste
+### Barre d’outils de la liste
 
-Le tableau suivant répertorie de nombreuses icônes disponibles dans la barre d’outils et indique ce qui se passe lorsque vous cliquez dessus :
+Le tableau suivant répertorie un grand nombre d’icônes disponibles dans la barre d’outils et indique ce qui se passe lorsque vous cliquez dessus :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -348,22 +348,22 @@ Le tableau suivant répertorie de nombreuses icônes disponibles dans la barre d
   <tr> 
    <td><strong>Icône</strong></td> 
    <td><strong>Description</strong></td> 
-   <td><strong>En cliquant</strong></td> 
+   <td><strong>En cas de clic</strong></td> 
   </tr> 
   <tr> 
    <td> <img src="assets/add-icon-plus-in-circle.png"> </td> 
-   <td>[!UICONTROL Ajouter un élément ou un utilisateur]</td> 
-   <td>Ouvrez d’autres options, y compris l’ajout d’un nouvel élément ou d’un nouvel utilisateur.</td> 
+   <td>[!UICONTROL Add item or user]</td> 
+   <td>Ouvrez plus d’options, y compris l’ajout d’un nouvel élément ou d’un nouvel utilisateur ou d’une nouvelle utilisatrice.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-insert-task-above-icon-in-new-toolbar.png"> </td> 
-   <td>[!UICONTROL Insérer la tâche ci-dessus]</td> 
-   <td> <p>Insérez une tâche au-dessus de la tâche sélectionnée.</p> <p>Cette option est disponible uniquement pour les tâches. </p> </td> 
+   <td>[!UICONTROL Insert task above]</td> 
+   <td> <p>Insérez une tâche au-dessus de la tâche sélectionnée.</p> <p>Cette option n’est disponible que pour les tâches. </p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-insert-task-below-icon-in-new-toolbar.png"> </td> 
-   <td>[!UICONTROL Insérer la tâche ci-dessous]</td> 
-   <td> <p>Insérez une tâche sous la tâche sélectionnée.</p> <p>Cette option est disponible uniquement pour les tâches. </p> </td> 
+   <td>[!UICONTROL Insert task below]</td> 
+   <td> <p>Insérez une tâche sous la tâche sélectionnée.</p> <p>Cette option n’est disponible que pour les tâches. </p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/edit-icon.png"> </td> 
@@ -372,18 +372,18 @@ Le tableau suivant répertorie de nombreuses icônes disponibles dans la barre d
   </tr> 
   <tr> 
    <td> <img src="assets/copy-icon.png"> </td> 
-   <td>[!UICONTROL Copie]</td> 
+   <td>[!UICONTROL Copy]</td> 
    <td>Copiez l’élément sélectionné.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/delete.png"> </td> 
    <td>[!UICONTROL Delete]</td> 
-   <td>Supprimer l’élément sélectionné.</td> 
+   <td>Supprimez l’élément sélectionné.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-add-to-iteration-icon-in-new-toolbar-for-issues.png"> </td> 
-   <td>[!UICONTROL Ajouter à]</td> 
-   <td> <p>Ouvrez la boîte de dialogue pour ajouter le problème sélectionné à une itération.</p> <p>Cette option est disponible uniquement pour les problèmes.</p> </td> 
+   <td>[!UICONTROL Add to]</td> 
+   <td> <p>Ouvrez la boîte de dialogue pour ajouter le problème sélectionné à une itération.</p> <p>Cette option n’est disponible que pour les problèmes.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/share-icon.png"> </td> 
@@ -392,63 +392,63 @@ Le tableau suivant répertorie de nombreuses icônes disponibles dans la barre d
   </tr> 
   <tr> 
    <td> <img src="assets/qs-indent-outdent-tasks-icon-in-new-toolbar.png"> </td> 
-   <td>[!UICONTROL Tâches de retrait et de retrait] </td> 
-   <td> <p>Retrait ou retrait de la tâche sélectionnée. </p> <p>Cette option est disponible uniquement pour les tâches. </p> </td> 
+   <td>[!UICONTROL Indent and outdent tasks] </td> 
+   <td> <p>Créez un alinéa ou un retrait pour la tâche sélectionnée. </p> <p>Cette option n’est disponible que pour les tâches. </p> </td> 
   </tr> 
   <tr> 
    <td><img src="assets/more-icon.png"></a> </td> 
-   <td>[!UICONTROL Plus]</td> 
-   <td>Ouvrir les options supplémentaires de l’élément sélectionné.</td> 
+   <td>[!UICONTROL More]</td> 
+   <td>Ouvrez des options supplémentaires pour l’élément sélectionné.</td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/search-icon.png"> </p> </td> 
-   <td> <p>[!UICONTROL Filtre rapide] </p> </td> 
-   <td> <p>Ouvrez la zone de recherche de filtre rapide pour rechercher des éléments dans la liste affichée.</p> </td> 
+   <td> <p>[!UICONTROL Quick filter] </p> </td> 
+   <td> <p>Ouvrez la zone de recherche de filtre rapide pour trouver des éléments dans la liste affichée.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
    <td>[!UICONTROL Export]</td> 
-   <td>Exportez la liste dans des fichiers PDF, Excel ou séparés par des tabulations.</td> 
+   <td>Exportez la liste vers des fichiers PDF, Excel ou délimités par des tabulations.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
    <td>[!UICONTROL Agile View]</td> 
-   <td>Affichez la liste en mode Agile.<br>Cette option est disponible uniquement pour les tâches.</td> 
+   <td>Affichez la liste dans la vue Agile.<br>Cette option n’est disponible que pour les tâches.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
-   <td>[!UICONTROL Graphique de Gantt]</td> 
-   <td> <p>Affichez la liste dans la vue [!UICONTROL Gantt Chart].</p> <p>Cette option est disponible uniquement pour les projets et les tâches.</p> </td> 
+   <td>[!UICONTROL Gantt Chart]</td> 
+   <td> <p>Affichez la liste dans la vue [!UICONTROL Gantt Chart].</p> <p>Cette option n’est disponible que pour les projets et les tâches.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
-   <td>Menu déroulant [!UICONTROL Filtrer]</td> 
-   <td> <p>Affichez une liste de filtres et d’autres options pour gérer les filtres, y compris en créer un. </p> <p>Sur un petit écran, le nom du filtre est remplacé par l’icône de filtre. Un point bleu s’affiche sur l’icône Filtrer lorsque vous appliquez un filtre autre que "[!UICONTROL Tout]".</p> </td> 
+   <td>Menu déroulant des [!UICONTROL Filter].</td> 
+   <td> <p>Affichez une liste de filtres et des options supplémentaires pour gérer les filtres, y compris pour créer un filtre. </p> <p>Sur un petit écran, le nom du filtre est remplacé par l’icône du filtre. Un point bleu s’affiche sur l’icône Filtre lorsque vous appliquez un filtre autre que « [!UICONTROL All] ».</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-   <td>Menu déroulant [!UICONTROL Vue]</td> 
-   <td> <p>Affichez une liste de vues et d’autres options pour gérer les vues, y compris en créer une. </p> <p>Sur un petit écran, le nom de la vue est remplacé par l’icône [!UICONTROL Vue]. Un point bleu s’affiche sur l’icône [!UICONTROL Vue] lorsque vous appliquez une vue autre que "[!UICONTROL Standard]".</p> </td> 
+   <td>Menu déroulant des [!UICONTROL View].</td> 
+   <td> <p>Affichez une liste de vues et des options supplémentaires pour gérer les vues, y compris pour créer une vue. </p> <p>Sur un petit écran, le nom de la vue est remplacé par l’icône [!UICONTROL view]. Un point bleu s’affiche sur l’icône [!UICONTROL View] lorsque vous appliquez une vue autre que « [!UICONTROL Standard] ».</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-   <td>Menu déroulant [!UICONTROL Groupement]</td> 
-   <td> <p>Affichez une liste de regroupements et d’autres options pour gérer les regroupements, y compris en créer un. </p> <p>Sur un petit écran, le nom du groupement est remplacé par l’icône [!UICONTROL regroupement] . Un point bleu s’affiche sur l’icône [!UICONTROL Groupement] lorsque vous appliquez un autre regroupement que "[!UICONTROL Rien]".</p> </td> 
+   <td>Menu déroulant de [!UICONTROL Grouping]</td> 
+   <td> <p>Affichez une liste de regroupements et des options supplémentaires pour gérer les regroupements, y compris pour créer un regroupement. </p> <p>Sur un petit écran, le nom du regroupement est remplacé par l’icône [!UICONTROL grouping]. Un point bleu s’affiche sur l’icône [!UICONTROL Grouping] lorsque vous appliquez un regroupement autre que « [!UICONTROL Nothing] ».</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
-   <td> <p>[!UICONTROL Mode Plan]</p> </td> 
-   <td> <p>Choisissez si vous souhaitez enregistrer automatiquement ou manuellement les modifications que vous effectuez dans une liste de tâches. </p> <p>Pour plus d’informations sur l’édition des tâches dans une liste, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Modifier les tâches dans une liste</a>. </p> <p>Cette option est disponible uniquement pour les tâches.</p> </td> 
+   <td> <p>[!UICONTROL Plan mode]</p> </td> 
+   <td> <p>Choisissez si vous souhaitez enregistrer automatiquement ou manuellement les modifications apportées à une liste de tâches. </p> <p>Pour plus d’informations sur la modification des tâches dans une liste, voir <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Modifier les tâches dans une liste</a>. </p> <p>Cette option n’est disponible que pour les tâches.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Summary]</td> 
-   <td> <p>Affichez ou masquez la zone [!UICONTROL Summary] pour l’élément sélectionné.</p> <p>Cette option est disponible uniquement pour les tâches et les problèmes.</p> <p>Pour plus d’informations sur le panneau [!UICONTROL Summary] dans la nouvelle expérience [!DNL Adobe Workfront], voir <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
+   <td> <p>Affiche ou masque la case [!UICONTROL Summary] pour l’élément sélectionné.</p> <p>Cette option n’est disponible que pour les tâches et les problèmes.</p> <p>Pour plus d’informations sur le panneau [!UICONTROL Summary] dans la nouvelle expérience [!DNL Adobe Workfront], voir <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Vue d’ensemble du résumé</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
-   <td>[!UICONTROL Supprimer]</td> 
-   <td>Supprimez quelque chose de la liste. Par exemple, en tant qu’administrateur de groupe gérant les appartenances à un groupe ou à un sous-groupe, supprimez un membre du groupe comme expliqué dans la section <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">Afficher et gérer les appartenances à un groupe</a>.</td> 
+   <td>[!UICONTROL Remove]</td> 
+   <td>Supprimez un élément de la liste. Par exemple, en tant qu’administrateur ou administratrice de groupes gérant les personnes membres d’un groupe ou d’un sous-groupe, vous pouvez supprimer une personne membre d’un groupe comme expliqué dans <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">Afficher et gérer les personnes membres d’un groupe</a>.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
@@ -458,11 +458,11 @@ Le tableau suivant répertorie de nombreuses icônes disponibles dans la barre d
  </tbody> 
 </table>
 
-## Différence entre listes et rapports
+## Différence entre les listes et les rapports
 
 Les listes et les rapports sont des grilles qui contiennent des informations sur un type d’objet.
 
-Le tableau suivant présente les similitudes et les différences entre les listes et les rapports :
+Le tableau suivant présente les similitudes et les différences entre les listes et les rapports :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -477,17 +477,17 @@ Le tableau suivant présente les similitudes et les différences entre les liste
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>N’importe qui peut les créer</p> </td> 
+   <td> <p>N’importe quelle personne peut les créer.</p> </td> 
    <td><span>✓*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Seul un administrateur [!DNL Workfront] et des utilisateurs possédant une licence [!UICONTROL Plan] peuvent les créer.</p> </td> 
+   <td> <p>Seuls un administrateur ou une administratrice [!DNL Workfront] et les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Plan] peuvent les créer.</p> </td> 
    <td> </td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Un ensemble par défaut est disponible dans [!DNL Workfront]</p> </td> 
+   <td> <p>Un jeu par défaut est disponible auprès de [!DNL Workfront]</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -502,7 +502,7 @@ Le tableau suivant présente les similitudes et les différences entre les liste
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez les partager avec d’autres utilisateurs.</p> </td> 
+   <td> <p>Vous pouvez les partager avec d’autres utilisateurs et utilisatrices.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -517,42 +517,42 @@ Le tableau suivant présente les similitudes et les différences entre les liste
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez exporter vers les formats .pdf, [!DNL Excel] et Délimité par des onglets.</p> </td> 
+   <td> <p>Vous pouvez exporter vers les formats .pdf, [!DNL Excel] et texte séparé par des tabulations.</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez les planifier pour diffusion dans un email.</p> </td> 
+   <td> <p>Vous pouvez planifier leur diffusion dans un e-mail.</p> </td> 
    <td> </td> 
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez ajouter à un modèle de disposition</p> </td> 
+   <td> <p>Vous pouvez les ajouter à un modèle de mise en page.</p> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez les ajouter aux sections personnalisées </p> </td> 
+   <td> <p>Vous pouvez les ajouter à des sections personnalisées. </p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez les ajouter à un tableau de bord</p> </td> 
+   <td> <p>Vous pouvez les ajouter à un tableau de bord.</p> </td> 
    <td> ✓*** </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez utiliser des invites pour personnaliser ce qu’elles affichent.</p> </td> 
+   <td> <p>Vous pouvez utiliser les invites pour personnaliser ce qu’elles affichent.</p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez les afficher sous forme de graphique.</p> </td> 
+   <td> <p>Vous pouvez les afficher dans un graphique.</p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Vous pouvez y insérer des objets de modification.</p> </td> 
+   <td> <p>Vous pouvez y modifier des objets en ligne.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -561,19 +561,19 @@ Le tableau suivant présente les similitudes et les différences entre les liste
 
 Vous devez avoir accès aux filtres, aux vues et aux regroupements pour pouvoir les créer. Pour plus d’informations, voir [Accorder l’accès aux filtres, aux vues et aux regroupements](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-Pour pouvoir les créer, vous devez avoir accès aux filtres, vues et regroupements, ainsi qu’aux rapports, tableaux de bord et calendriers. Pour plus d’informations, voir [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Vous devez avoir accès aux filtres, aux vues et aux regroupements ainsi qu’aux rapports, aux tableaux de bord et aux calendriers pour pouvoir les créer. Pour plus d’informations, voir [Accorder l’accès aux rapports, tableaux de bord et calendriers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-Vous ne pouvez personnaliser les listes des rapports placés sur un tableau de bord que si l’auteur du rapport a configuré les éléments de liste pour qu’ils soient visibles dans le tableau de bord.
+Vous pouvez personnaliser les listes des rapports placés sur un tableau de bord uniquement si la personne qui a créé le rapport a configuré les éléments de la liste pour qu’ils soient visibles sur le tableau de bord.
 
 >[!NOTE]
 >
->Vous ne pouvez pas ajouter une liste à un tableau de bord sans créer de rapport et l’ajouter au tableau de bord en premier.
+>Vous ne pouvez pas ajouter une liste à un tableau de bord sans créer un rapport et l’ajouter au tableau de bord au préalable.
 
-Pour plus d’informations sur la création d’un rapport, voir [Création d’un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Pour plus d’informations sur la création de sections personnalisées, voir [Création d’onglets ou de sections personnalisés](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+Pour plus d’informations sur la création d’un rapport, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Pour plus d’informations sur la création de sections personnalisées, voir [Créer des onglets ou des sections personnalisés](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
-## Différence entre les listes mises à jour et héritées
+## Différence entre les listes mises à jour et les listes héritées
 
-Il existe deux types de listes dans [!DNL Workfront] :
+Il existe deux types de listes dans [!DNL Workfront] :
 
 * Listes héritées
 
@@ -583,14 +583,14 @@ Il existe deux types de listes dans [!DNL Workfront] :
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-Les deux types de listes apparaissent dans le [!DNL Adobe Workfront].
+Les deux types de listes figurent dans [!DNL Adobe Workfront].
 
-Toutes les listes et tous les rapports de [!DNL Adobe Workfront] sont des listes mises à jour, à l’exception des éléments suivants :
+Toutes les listes et tous les rapports figurant dans [!DNL Adobe Workfront] sont des listes mises à jour, à l’exception des listes suivantes :
 
-* Listes dans la zone [!UICONTROL Setup]
+* Listes dans la zone [!UICONTROL Configuration]
 * Listes dans la zone [!UICONTROL Rapports]
 
-Le tableau suivant présente certaines des différences entre les listes héritées et mises à jour dans [!DNL Workfront] :
+Le tableau suivant présente certaines des différences entre les listes héritées et les listes mises à jour dans [!DNL Workfront] :
 
 <!--
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
@@ -605,28 +605,28 @@ Le tableau suivant présente certaines des différences entre les listes hérit�
    <td><b>Listes mises à jour</b></td> 
   </tr> 
   <tr> 
-   <td> <p>Polices héritées, en-têtes de colonne, modèle de couleur de regroupement bleu</p> </td> 
-   <td> <p>Polices mises à jour, en-têtes de colonne, jeu de couleurs de regroupement gris</p> </td> 
+   <td> <p>Polices héritées, en-têtes de colonnes, schéma de couleur bleue pour les regroupements</p> </td> 
+   <td> <p>Polices mises à jour, en-têtes de colonnes et schéma de couleur grise pour les regroupements</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Modification en ligne plus lente</p> </td> 
    <td> <p>Modification en ligne plus rapide</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Afficher les <strong>100</strong> éléments par défaut</p> </td> 
-   <td> <p>Afficher <strong>Tous</strong> ou jusqu’à <strong>2 000</strong> éléments par défaut</p> </td> 
+   <td> <p>Afficher <strong>100</strong> éléments par défaut</p> </td> 
+   <td> <p>Afficher <strong>Tous</strong> ou jusqu’à <strong>2 000</strong> éléments par défaut</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Utilisez Ctrl+F pour rechercher des éléments dans une liste.</p> </td> 
-   <td> <p>Utilisez des filtres rapides pour trouver rapidement des informations dans une liste volumineuse.</p> <p>Pour plus d'informations sur l'utilisation de filtres rapides dans les listes, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Appliquer le filtre rapide à une liste</a>.</p> </td> 
+   <td> <p>Utiliser CTRL + F pour rechercher des éléments dans une liste</p> </td> 
+   <td> <p>Utiliser des filtres rapides pour trouver rapidement des informations dans une grande liste</p> <p>Pour plus d’informations sur l’utilisation des filtres rapides dans les listes, voir <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Appliquer le filtre rapide à une liste</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Vous ne pouvez pas insérer des champs personnalisés avec la mise en forme de texte enrichi.</td> 
-   <td> <p>Le texte des champs personnalisés avec mise en forme peut être configuré pour autoriser le gras, l’italique, le soulignement, les puces, la numérotation, les liens hypertexte et les guillemets de bloc.</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Concevoir un formulaire à l’aide du créateur de formulaire</a>.</p> </td> 
+   <td>Vous ne pouvez pas modifier en ligne les champs personnalisés avec un formatage de texte riche.</td> 
+   <td> <p>Le texte des champs personnalisés avec mise en forme peut être configuré pour autoriser les caractères gras, italiques, soulignés, les puces, la numérotation, les liens hypertextes et les guillemets.</p> <p>Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Concevoir un formulaire avec le créateur de formulaire</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>La mise en forme conditionnelle peut modifier la couleur du texte des liens dans une liste.</td> 
-   <td>Impossible d’appliquer des modifications de couleur de texte aux liens d’une liste</td> 
+   <td>La mise en forme conditionnelle permet de modifier la couleur du texte des liens dans une liste.</td> 
+   <td>Impossible d’appliquer des changements de couleur de texte aux liens d’une liste</td> 
   </tr> 
  </tbody> 
 </table>

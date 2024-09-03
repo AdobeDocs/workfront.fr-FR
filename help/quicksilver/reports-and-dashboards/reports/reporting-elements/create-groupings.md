@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Créer des regroupements dans Adobe Workfront
-description: Vous pouvez créer entièrement un groupement personnalisé ou personnaliser un groupement existant.
+description: Vous pouvez créer un regroupement personnalisé à partir de zéro ou personnaliser un regroupement existant.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
@@ -19,55 +19,55 @@ ht-degree: 22%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
 -->
 
-Les résultats d’un rapport ou d’une liste peuvent être organisés avec un groupement. Les groupes classent les informations en fonction d’un élément d’information particulier.
+Les résultats d’un rapport ou d’une liste peuvent être organisés avec un regroupement. Les regroupements classent les informations en fonction d’un élément d’information particulier.
 
-Vous pouvez créer entièrement un groupement personnalisé ou personnaliser un groupement existant. Suivez les étapes ci-dessous pour créer entièrement un groupement.
+Vous pouvez créer un regroupement personnalisé à partir de zéro ou personnaliser un regroupement existant. Suivez les étapes ci-dessous pour créer un regroupement à partir de zéro.
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Forfait Adobe Workfront*</strong></td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader"><strong>Formule Adobe Workfront*</strong></td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
    <td> <p>Requête ou supérieure </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations des niveau d’accès*</strong></td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Editer l'accès aux Rapports, Tableaux de bord, Calendriers pour créer un regroupement dans un rapport</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurations du niveau d’accès*</strong></td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Accès Modifier aux Rapports, Tableaux de bord et Calendriers pour créer un regroupement dans un rapport</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Gérer les autorisations d’un rapport pour modifier un groupement dans un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Autorisations de gestion relatives à un rapport pour modifier un regroupement dans un rapport</p> <p>Pour plus d’informations sur les demandes d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès à des objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## Création d’un groupement
+## Créer un regroupement
 
-1. Accédez au rapport ou à la liste dans laquelle vous souhaitez créer votre groupement personnalisé.
-1. Cliquez sur l’icône **Groupement** .
+1. Accédez au rapport ou à la liste dans laquelle vous souhaitez créer votre regroupement personnalisé.
+1. Cliquez sur l’icône **Regroupement**.
 
-   ![Sélectionner un nouveau groupement](assets/newgrouping-nwe-standard-350x304.png)
+   ![Sélection d’un nouveau regroupement](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Cliquez sur **New Grouping**.
-Créateur d’interface pour la création des lancements de regroupement.
+1. Cliquez sur **Nouveau regroupement**.
+Le créateur d’interface pour la création du regroupement s’ouvre.
 
-1. Dans la section **Aperçu du groupement** , cliquez sur **Ajouter un groupement** pour définir la manière dont vous souhaitez que les informations du rapport soient organisées. Vous trouverez ci-dessous un aperçu du regroupement dans le rapport.
+1. Dans la section **Prévisualisation du regroupement**, cliquez sur **Ajouter un regroupement** pour définir le mode d’organisation des informations du rapport. Vous trouverez ci-dessous un aperçu de ce à quoi ressemble un regroupement dans le rapport.
 
 1. Commencez à saisir le nom du champ qui représente la manière dont vous souhaitez organiser les informations dans le rapport, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
-1. (Facultatif et conditionnel) Lors de la création d’un groupement dans une liste mise à jour, sélectionnez **Réduire ce groupement par défaut** si vous souhaitez que les résultats du groupement s’affichent réduits plutôt que développés. Ce paramètre est désactivé par défaut et les résultats du groupement s’affichent toujours dans la liste étendue.
+1. (Facultatif et le cas échéant) Lors de la création d’un regroupement dans une liste mise à jour, sélectionnez **Réduire ce regroupement par défaut** si vous souhaitez que les résultats du regroupement s’affichent de manière réduite plutôt que développée.Ce paramètre est désactivé par défaut et les résultats du regroupement s’affichent toujours dans la liste étendue.
 
-   Pour plus d’informations sur les listes mises à jour et héritées, voir la section [La différence entre les listes mises à jour et héritées](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) dans l’article [Prise en main des listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   Pour plus d’informations sur les listes mises à jour et héritées, consultez la section [Différence entre les listes mises à jour et héritées](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) dans l’article [Commencer avec les listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -75,21 +75,21 @@ Créateur d’interface pour la création des lancements de regroupement.
 
    >[!TIP]
    >
-   >* Lorsque vous ajustez manuellement les groupements lors de l&#39;affichage d&#39;une liste, Workfront mémorise vos préférences manuelles jusqu&#39;à ce que vous vous déconnectiez. Lorsque vous vous reconnectez, la liste s’affiche en fonction de ce paramètre.
-   >* Les résultats d’un regroupement s’affichent toujours plus après leur accès à partir d’un élément de graphique ou d’une liste héritée. Dans ce cas, ce paramètre est ignoré.
+   >* Lorsque vous ajustez manuellement les regroupements lors de l’affichage d’une liste, Workfront mémorise vos préférences manuelles jusqu’à ce que vous vous déconnectiez. Lorsque vous vous reconnectez, la liste s’affiche en fonction de ce paramètre.
+   >* Les résultats d’un regroupement s’affichent toujours de façon développée après que l’on y a accédé à partir d’un élément de graphique ou d’une liste héritée. Dans ce genre de cas, ce paramètre est ignoré.
 
-1. Répétez les étapes 4, 5 et 6 pour définir des regroupements supplémentaires.\
-   Vous pouvez définir jusqu’à trois groupes pour organiser les informations. Vous pouvez organiser davantage vos informations avec jusqu’à quatre regroupements en créant un rapport de matrice. Pour plus d’informations sur les rapports de matrice, voir [Création d’un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+1. Répétez les étapes 4, 5 et 6 pour définir des regroupements supplémentaires.\
+   Vous pouvez définir jusqu’à trois regroupements pour organiser les informations. Vous pouvez organiser vos informations encore davantage en utilisant jusqu’à quatre regroupements grâce à un rapport de matrice. Pour plus d’informations sur les rapports de matrice, voir la section [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Cliquez sur **Enregistrer le groupement**.
+1. Cliquez sur **Enregistrer le regroupement**.
 
 ## Informations supplémentaires
 
-Voir aussi :
+Voir aussi :
 
-* [Présentation des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-* [ Éléments de création de rapports : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-* [Modifier des regroupements existants](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
+* [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Éléments de création de rapports : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Modifier les regroupements existants](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

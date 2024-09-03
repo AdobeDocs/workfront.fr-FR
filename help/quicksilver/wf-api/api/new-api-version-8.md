@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de la version 8 de l’API
-description: Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour obtenir la liste des mises à jour apportées aux ressources de la version 8, consultez Mises à jour de l’API version 8 .
+title: Nouveautés de l’API version 8
+description: Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour obtenir la liste des mises à jour apportées aux ressources de la version 8, consultez Mises à jour de l’API version 8.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,26 +10,26 @@ exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# Nouveautés de la version 8 de l’API
+# Nouveautés de l’API version 8
 
 ## Nouvelles ressources
 
-Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour obtenir la liste des mises à jour apportées aux ressources de la version 8, consultez la page [Mises à jour de l’API version 8](../../wf-api/api/new-api-version-8-updates.md)
+Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour obtenir la liste des mises à jour apportées aux ressources de la version 8, consultez la page [Mises à jour de l’API version 8](../../wf-api/api/new-api-version-8-updates.md)
 
 **AgileWork**
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| backlogOrder | client |   |   | bulkCopy  |   | COPY |
-| color | itération  |   |   |   |   | COUNT |
+| backlogOrder | customer |   |   | bulkCopy |   | COPY |
+| color | iteration |   |   |   |   | COUNT |
 | customerID | lastUpdatedBy |   |   |   |   | SUPPRIMER |
-| estimation | opTask |   |   |   |   | MODIFIER |
-| ID | projet |   |   |   |   | GET  |
-| isReady | storyboardParent |   |   |   |   | RAPPORT |
+| estimate | opTask |   |   |   |   | MODIFIER |
+| ID | projet |   |   |   |   | GET |
+| isReady | storyboardParent |   |   |   |   | REPORT |
 | iterationID | tâche |   |   |   |   | SEARCH |
 | lastUpdateDate | équipe |   |   |   |   |   |
 | lastUpdatedByID |   |   |   |   |   |   |
@@ -39,8 +39,8 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour ob
 | projectID |   |   |   |   |   |   |
 | storyBoardOrder |   |   |   |   |   |   |
 | storyBoardParentID |   |   |   |   |   |   |
-| taskID  |   |   |   |   |   |   |
-| TeamID |   |   |   |   |   |   |
+| taskID |   |   |   |   |   |   |
+| teamID |   |   |   |   |   |   |
 | type |   |   |   |   |   |   |
 | uiObjCode |   |   |   |   |   |   |
 | uiObjectID |   |   |   |   |   |   |
@@ -51,9 +51,9 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour ob
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| deprecationRelease |   |   |   |   |   | COUNT  |
-| removeRelease |   |   |   |   |   | GET |
-| versionName |   |   |   |   |   | RAPPORT |
+| deprecationRelease |   |   |   |   |   | COUNT |
+| removalRelease |   |   |   |   |   | GET |
+| versionName |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -62,12 +62,12 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour ob
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | AJOUTER |
+| ID |   |   |   |   |   | ADD |
 | name |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | SUPPRIMER |
-|   |   |   |   |   |   | MODIFIER |
+|   |   |   |   |   |   | EDIT |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | RAPPORT |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -98,12 +98,12 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour ob
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| allocationDate |   |   |   |   |   | AJOUTER |
-| recordsHours |   |   |   |   |   | COUNT |
-| scheduledBudgetedHours |   |   |   |   |   | SUPPRIMER |
-| projectID |   |   |   |   |   | MODIFIER |
+| allocationDate |   |   |   |   |   | ADD |
+| budgetedHours |   |   |   |   |   | COUNT |
+| plannedBudgetedHours |   |   |   |   |   | SUPPRIMER |
+| projectID |   |   |   |   |   | EDIT |
 | roleID |   |   |   |   |   | GET |
-| userID |   |   |   |   |   | RAPPORT |
+| userID |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -112,23 +112,23 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour ob
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | AJOUTER |
+| ID |   |   |   |   |   | ADD |
 | name |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | SUPPRIMER |
-|   |   |   |   |   |   | MODIFIER |
+|   |   |   |   |   |   | EDIT |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | RAPPORT |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
-**RichTextRemarque**
+**RichTextNote**
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | RAPPORT |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -137,11 +137,11 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour ob
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|  ID |   |   |   | addSubscribers | subscribers | AJOUTER |
-|   |   |   |   | removeSubscribers |   | COUNT  |
+| ID |   |   |   | addSubscribers | subscribers | ADD |
+|   |   |   |   | removeSubscribers |   | COUNT |
 |   |   |   |   | subscribes |   | SUPPRIMER |
-|   |   |   |   | se désabonne |   | GET |
-|   |   |   |   |   |   | RAPPORT |
+|   |   |   |   | unsubscribes |   | GET |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}

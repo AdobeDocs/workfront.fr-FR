@@ -2,76 +2,76 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Envoyer des e-mails aux réviseurs et réviseuses d’une épreuve
-description: Pendant le processus de révision et d'approbation, vous pouvez envoyer un message à l'un ou tous les réviseurs sur un BAT. Les messages sont un moyen facile de rappeler aux opérateurs validants de terminer la vérification d'un BAT ou de fournir d'autres informations relatives au BAT.
+description: Au cours du processus de révision et d’approbation, vous pouvez envoyer un message à un réviseur ou une réviseuse d’une épreuve, ou bien à l’ensemble. Les messages sont un moyen facile de rappeler aux réviseurs et réviseuses de terminer leur révision d’une épreuve ou de fournir d’autres informations relatives à l’épreuve.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
 source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 # Envoyer des e-mails aux réviseurs et réviseuses d’une épreuve
 
-Pendant le processus de révision et d&#39;approbation, vous pouvez envoyer un message à l&#39;un ou tous les réviseurs sur un BAT. Les messages sont un moyen facile de rappeler aux opérateurs validants de terminer la vérification d&#39;un BAT ou de fournir d&#39;autres informations relatives au BAT.
+Au cours du processus de révision et d’approbation, vous pouvez envoyer un message à un réviseur ou une réviseuse d’une épreuve, ou bien à l’ensemble. Les messages sont un moyen facile de rappeler aux réviseurs et réviseuses de terminer leur révision d’une épreuve ou de fournir d’autres informations relatives à l’épreuve.
 
-Vous pouvez choisir d’envoyer un email de rappel générique ou d’envoyer un message personnalisé à l’un des utilisateurs ou à tous les utilisateurs associés à une étape donnée.
+Vous pouvez choisir d’envoyer un e-mail de rappel générique ou d’envoyer un message personnalisé à une ou à toutes les personnes associése à une étape donnée.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Formule héritée : Select ou Premium</p> <p>Pour plus d’informations sur la relecture de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
-   <td>Manager ou version ultérieure</td> 
+   <td>Manager ou version supérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Rôle de BAT</td> 
-   <td>Auteur ou modérateur</td> 
+   <td role="rowheader">Rôle de l’épreuve</td> 
+   <td>Auteur ou autrice, ou modérateur ou modératrice</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation d’épreuve dont vous disposez, contactez votre administrateur ou administratrice Workfront ou Workfront Proof.
 
 +++
 
-## Envoyer des emails aux utilisateurs sur un BAT
+## Envoyer des e-mails aux utilisateurs et utilisatrices d’une épreuve
 
-1. Recherchez le document correspondant au BAT qui contient les utilisateurs que vous souhaitez envoyer par message.
-1. Passez la souris sur le document, puis cliquez sur **Processus de vérification**.
+1. Recherchez le document de l’épreuve qui contient les utilisateurs et utilisatrices à qui vous voulez envoyer un message.
+1. Pointez sur le document, puis cliquez sur **Workflow de relecture**.
 
    ![](assets/proof-workflow-doc-list-350x92.png)
 
-1. Pour envoyer un message à tous les utilisateurs sur la scène, cliquez sur le menu **Plus** sur la scène et choisissez **Message All**.
+1. Pour envoyer un message à l’ensemble des utilisateurs et utilisatrices de l’étape, cliquez sur le menu **Plus** sur l’étape et choisissez **Envoyer un message à tous**.
 
    ![](assets/message-stage-350x122.png)
 
-1. Pour envoyer un message à un utilisateur individuel, cliquez sur le menu **Plus** en regard de l’utilisateur et sélectionnez **Message**.
+1. Pour envoyer un message à une personne en particulier, cliquez sur le menu **Plus** à côté de la personne et choisissez **Envoyer un message**.
 
    ![](assets/message-user-350x121.png)
 
-1. Dans la section **Détails du message** , spécifiez les informations suivantes :
+1. Dans la section **Détails du message**, spécifiez les informations suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,25 +79,25 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
     <tbody> 
      <tr> 
       <td role="rowheader">Notifier les personnes par e-mail</td> 
-      <td>Cette option ne peut pas être désélectionnée. Tous les utilisateurs reçoivent le message par email.</td> 
+      <td>Cette option ne peut pas être désélectionnée. L’ensemble des utilisateurs et utilisatrices reçoivent le message par e-mail.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ignorer le message personnalisé</td> 
-      <td> <p>Cliquez sur <strong>Ignorer le message personnalisé</strong> si vous souhaitez inclure uniquement le contenu d’email par défaut.</p> <p>L’email de rappel par défaut contient les informations suivantes :</p> 
+      <td> <p>Cliquez sur <strong>Ignorer le message personnalisé</strong> si vous souhaitez inclure uniquement le contenu de l’e-mail par défaut.</p> <p>L’e-mail de rappel par défaut contient les informations suivantes :</p> 
        <ul> 
-        <li>Lien personnel vers la vignette du BAT<br>Miniature de l'image du BAT<br></li> 
-        <li>Les détails du BAT suivants : le nom du BAT, le numéro de version, le nom du dossier (le cas échéant), ainsi qu'une liste des validants et leur état d'avancement sur le BAT.</li> 
+        <li>Lien personnel vers l’épreuve<br>Mignature de l’image de l’épreuve<br></li> 
+        <li>Les informations suivantes sur l’épreuve : nom de l’épreuve, numéro de version, nom du dossier (le cas échéant), liste des réviseurs et réviseuses et leur progression dans l’épreuve.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Objet</td> 
-      <td>Saisissez l’objet du message.</td> 
+      <td>Tapez l’objet du message.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Message</td> 
-      <td>Saisissez le contenu de votre message.</td> 
+      <td>Tapez le contenu de votre message.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Cliquez sur **Envoyer.**
+1. Cliquez sur **Envoyer**.

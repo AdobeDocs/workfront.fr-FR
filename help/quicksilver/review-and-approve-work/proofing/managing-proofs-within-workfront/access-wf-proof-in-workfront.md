@@ -2,19 +2,19 @@
 product-previous: workfront-proof;workfront
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Accéder à l’épreuve Workfront à partir d’Adobe Workfront
-description: Vous pouvez accéder rapidement à votre compte Workfront Proof directement à partir de l’interface Adobe Workfront sans vous connecter à Workfront Proof.
+title: Accéder à Workfront Proof à partir d’Adobe Workfront
+description: Vous pouvez accéder rapidement à votre compte Workfront Proof directement à partir de l’interface d’Adobe Workfront sans vous connecter à Workfront Proof.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
 source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 5%
+ht-degree: 72%
 
 ---
 
-# Accéder à l’épreuve Workfront à partir d’Adobe Workfront
+# Accéder à Workfront Proof à partir d’Adobe Workfront
 
 Vous pouvez accéder rapidement à votre compte Workfront Proof directement à partir de l’interface Adobe Workfront sans avoir à vous connecter à Workfront Proof lorsque les conditions suivantes sont remplies :
 
@@ -22,26 +22,26 @@ Vous pouvez accéder rapidement à votre compte Workfront Proof directement à p
 
   Vous disposez d’une licence Workfront Proof. (Vous n’avez pas besoin d’être administrateur Workfront Proof.)
 
-* Vous disposez des droits d’administration dans Workfront et la vérification est activée sur votre compte utilisateur Workfront.
+* Vous disposez des droits d’administration dans Workfront et la relecture est activée sur votre compte d’utilisateur ou d’utilisatrice Workfront.
 
   Ou
 
-  Vous contactez le service clientèle de Workfront et demandez cet accès à tous les utilisateurs de vérification de performance de votre système, quelles que soient les autorisations dont ils disposent.
+  Vous contactez le service clientèle de Workfront et demandez cet accès pour tous les utilisateurs et utilisatrices de relecture de votre système, quelles que soient les autorisations dont ils disposent.
 
-  Pour plus d’informations, reportez-vous à la section [Activation de l’accès à Workfront Proof par tous les utilisateurs de la vérification dynamique des balises dans Workfront](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) de cet article.
+  Pour plus d’informations, voir [Permettre à tous les utilisateurs et toutes les utilisatrices de relecture d’accéder à Workfront Proof à partir de Workfront](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) dans cet article.
 
-Si vous ne pouvez pas accéder à Workfront Proof comme décrit dans cette section, contactez votre administrateur Workfront.
+Si vous ne pouvez pas accéder à Workfront Proof comme décrit dans cette section, contactez votre administrateur ou votre administratrice Workfront.
 
-## Accès à Workfront Proof à partir de Workfront {#access-workfront-proof-from-workfront}
+## Accéder à Workfront Proof à partir de Workfront {#access-workfront-proof-from-workfront}
 
-Par défaut, seuls les utilisateurs disposant de droits d’administration dans Workfront peuvent accéder à Workfront Proof comme décrit dans cette section.
+Par défaut, seuls les utilisateurs et les utilisatrices disposant de droits d’administration dans Workfront peuvent accéder à Workfront Proof, comme décrit dans cette section.
 
 {{step1-to-proofing}}
 
-Vous êtes automatiquement connecté à votre compte Workfront Proof Premium.
+La connexion à votre compte Workfront Proof Premium est automatique.
 
-Pour plus d’informations sur les fonctionnalités disponibles une fois connecté à votre compte Workfront Proof Premium, consultez le [site d’aide de Workfront](https://support.workfront.com).
+Pour plus d’informations sur les fonctionnalités disponibles une fois la connexion à votre compte Workfront Proof Premium établie, consultez le [site d’aide de Workfront](https://support.workfront.com).
 
-## Activation de l’accès de tous les utilisateurs de la vérification dynamique des balises à Workfront Proof dans Workfront {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
+## Permettre à tous les utilisateurs et toutes les utilisatrices de relecture d’accéder à Workfront Proof à partir de Workfront {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
 
-Par défaut, seuls les utilisateurs disposant de droits d’administration dans Workfront peuvent accéder à Workfront Proof comme décrit dans [Accès à Workfront Proof à partir de Workfront](#access-workfront-proof-from-workfront)
+Par défaut, seuls les utilisateurs et les utilisatrices disposant de droits d’administration dans Workfront peuvent accéder à Workfront Proof, comme décrit dans la section [Accéder à Workfront Proof à partir de Workfront](#access-workfront-proof-from-workfront).

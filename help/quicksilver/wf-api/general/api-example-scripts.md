@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: Scripts d’exemple de l’API
-description: Exemples de scripts FAPI
+title: Exemples de scripts pour l’API
+description: Exemples de scripts FAPI
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,34 +10,34 @@ exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Scripts d’exemple de l’API
+# Exemples de scripts pour l’API
 
-## Exemples d’API Adobe Workfront
+## Exemples d’API Adobe Workfront
 
-Voici des exemples de différents langages de programmation utilisés pour interagir avec l’API RESTful de Workfront. Chaque exemple effectue les opérations suivantes :
+Voici des exemples de différents langages de programmation utilisés pour interagir avec l’API RESTful de Workfront. Chaque exemple effectue les opérations suivantes :
 
-* Établit une connexion
-* Récupère les informations utilisateur connectées
-* Projets de requêtes
-* Création d’un projet
-* Récupère le projet
-* Mises à jour du projet
-* Supprime le projet
-* Déconnexion
+* Établir une connexion
+* Récupérer des informations sur la personne connectée
+* Interroger des projets
+* Créer un projet
+* Récupérer le projet
+* Mettre à jour le projet
+* Supprimer le projet
+* Se déconnecter
 
-Vous pouvez télécharger ces exemples sur la page Workfront Github :  [https://github.com/Workfront](https://github.com/Workfront)
+Vous pouvez télécharger ces exemples sur la page Github de Workfront : [https://github.com/Workfront](https://github.com/Workfront).
 
-Pour localiser des exemples dans le référentiel, saisissez `example` dans la zone **Rechercher un référentiel...**.
+Pour trouver des exemples dans le référentiel, saisissez `example` dans la zone **Trouver un référentiel...**.
 
 >[!NOTE]
 >
->Toute utilisation de l’API doit être testée dans l’environnement bêta de Workfront avant d’être exécutée dans l’environnement de production. Si un client utilise l’API pour un processus que Workfront considère raisonnablement comme pesant sur le logiciel On-Demand (c.-à-d. que le processus cause un effet matériellement négatif sur les performances du logiciel pour les autres clients), Workfront se réserve le droit de demander au client d’interrompre ce processus et, si le client ne se conforme pas et que le problème persiste, Workfront se réserve le droit de mettre fin au processus.
+>Toute utilisation de l’API doit être testée dans l’environnement bêta de Workfront avant d’être exécutée dans l’environnement de production. Si un client ou une cliente utilise l’API pour un processus dont Workfront estime raisonnablement qu’il s’agit d’une charge pour le logiciel à la demande (c’est-à-dire que le processus a un effet négatif important sur les performances du logiciel pour d’autres clientes et clients), Workfront se réserve le droit de demander à la personne d’interrompre ce processus et, si le client ou la cliente ne se conforme pas à la demande et que le problème persiste, Workfront se réserve le droit d’interrompre le processus.
 
 >[!IMPORTANT]
 >
->Ce logiciel est fourni &quot;en l’état&quot;, sans aucune garantie, explicite ou implicite, y compris, mais sans s’y limiter, les garanties de qualité marchande, d’adéquation à un usage particulier et de non-violation. En aucun cas les auteurs ou les détenteurs de droits d’auteur ne sont tenus responsables d’aucune réclamation, dommage ou autre responsabilité, que ce soit dans une action contractuelle, délictuelle ou autre, résultant de, en dehors ou en rapport avec le logiciel ou l’utilisation ou d’autres transactions dans le logiciel.
+>Ce logiciel est fourni « en l’état », sans aucune garantie d’aucune sorte, expresse ou implicite, y compris, mais sans s’y limiter, les garanties de qualité marchande, d’adéquation à un objectif particulier et de non-infraction. En aucun cas les auteurs et autrices ou les personnes détentrices des droits d’auteur ne peuvent être tenus pour responsables en cas de réclamations, dommages et intérêts ou autres responsabilités, occasionnés par une action en responsabilité contractuelle ou délictuelle ou autrement, issus du logiciel ou en lien avec celui-ci ou avec son utilisation ou avec d’autres interactions avec le logiciel.

@@ -2,27 +2,27 @@
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Ajout d’articles à une itération existante
-description: Vous pouvez ajouter des articles à une itération de plusieurs façons.
+description: Vous pouvez ajouter des histoires à une itération de plusieurs façons.
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 11%
+ht-degree: 88%
 
 ---
 
-# Ajouter des utilisateurs et utilisatrices à une itération existante
+# Ajouter des histoires à une itération existante
 
-Vous pouvez ajouter des articles à une itération de l’une des manières suivantes :
+Vous pouvez ajouter des histoires à une itération de l’une des manières suivantes :
 
-* À partir du journal après la création de l’itération, comme décrit dans la section [Déplacer des articles du journal vers une itération ou [!UICONTROL panorama Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) de [Gérer le journal agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* À partir de la liste d’attente après la création de l’itération, comme décrit dans les sections [Déplacer des histoires de la liste d’attente vers une itération ou Panorama [!UICONTROL Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) de l’article [Gérer la liste d’attente Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-* Sur la page [!UICONTROL Détails] de la tâche ou du problème individuel
+* Dans la page [!UICONTROL Détails] de la tâche ou du problème individuel.
 * À partir d’une tâche ou d’une liste de problèmes
 * À partir d’un rapport
-* Depuis un tableau de bord
+* À partir d’un tableau de bord
 
 ## Conditions d’accès
 
@@ -34,77 +34,77 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td> <p>Nouvelle : [!UICONTROL Standard]</p> 
    ou
-   <p>Actuelle : [!UICONTROL Work] ou licence supérieure</p> </td> 
+   <p>Actuelle : [!UICONTROL Work] ou niveau supérieur</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td>Accès en [!UICONTROL Manage] au projet contenant l’histoire </td> 
+   <td>[!UICONTROL Manage] l’accès au projet sur lequel se trouve l’histoire </td> 
   </tr>
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Comprendre comment l’ajout d’articles affecte les dates des tâches
+## Comprendre l’impact de l’ajout d’histoires sur les dates des tâches
 
-Par défaut, lorsque vous ajoutez une tâche existante à une itération, les [!UICONTROL Date de début planifiée] et [!UICONTROL Date de fin planifiée] de la tâche sont définies comme suit :
+Par défaut, lorsque vous ajoutez une tâche existante à une itération, les [!UICONTROL Date de début prévue] et [!UICONTROL Date d’achèvement prévue] de la tâche sont définies comme suit :
 
-### Tâche [!UICONTROL Date de début planifiée]
+### [!UICONTROL Date de début prévue] de la tâche
 
-* La tâche utilise la Date de début de l&#39;itération lorsque :
+* La tâche utilise la date de début de l’itération lorsque :
 
-   * Le projet n’a pas de [!UICONTROL Date de début planifiée] définie.
-   * La [!UICONTROL date de début planifiée] du projet est *avant* ou *le* date de début de l’itération.
+   * Le projet n’a pas de [!UICONTROL Date de début prévue] définie.
+   * La [!UICONTROL Date de début prévue] du projet est *antérieure* ou *égale* à la date de début de l’itération.
 
-* La tâche utilise la [!UICONTROL date de début planifiée] du projet lorsque :
+* La tâche utilise la [!UICONTROL Date de début prévue] du projet lorsque :
 
-   * La [!UICONTROL date de début planifiée] du projet est *après* la date de début de l’itération.
+   * La [!UICONTROL Date de début prévue] du projet est *postérieure* à la date de début de l’itération.
 
-### Tâche [!UICONTROL Date d’achèvement planifiée]
+### [!UICONTROL Date d’achèvement prévue] de la tâche
 
-* La tâche utilise la Date de fin de l’itération lorsque :
+* La tâche utilise la date de fin de l’itération lorsque :
 
-   * Le projet n’a pas de [!UICONTROL Date d’achèvement planifiée] définie.
-   * La [!UICONTROL date de début planifiée] du projet est *avant ou le* la date de début de l’itération ou la [!UICONTROL date d’achèvement planifiée] du projet est *avant ou le* la date de fin de l’itération.
+   * Le projet n’a pas de [!UICONTROL Date d’achèvement prévue] définie.
+   * La [!UICONTROL Date de début prévue] du projet est *antérieure ou égale* à la date de début de l’itération ou la [!UICONTROL Date d’achèvement prévue] du projet est *antérieure ou égale* à la date de fin de l’itération.
 
-* La tâche utilise la [!UICONTROL date d’achèvement planifiée] du projet lorsque :
+* La tâche utilise la [!UICONTROL Date d’achèvement prévue] du projet lorsque :
 
-   * La [!UICONTROL date de début planifiée] du projet est *après* la date de début de l’itération et la [!UICONTROL date d’achèvement planifiée] du projet est *après* la date de fin de l’itération.
+   * La [!UICONTROL Date de début prévue] du projet est *postérieure* à la date de début de l’itération et la [!UICONTROL Date d’achèvement prévue] du projet est *postérieure* à la date de fin de l’itération.
 
-Vous pouvez configurer des équipes Scrum individuelles pour utiliser les dates du projet par défaut plutôt que les dates d’itération. Pour plus d’informations, reportez-vous à la section [Configuration de la manière dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) dans l’article [Configurer le graphique](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Vous pouvez configurer des équipes Scrum individuelles de manière à utiliser les dates du projet par défaut plutôt que les dates d’itération. Pour plus d’informations, consultez la section [Configurer l’application des dates lors de l’ajout d’éléments de travail à une itération](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) de l’article [Configurer Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-## Ajouter un article à une itération existante
+## Ajouter une histoire à une itération existante
 
-Vous pouvez ajouter n’importe quelle tâche ou problème à n’importe quelle itération si vous disposez de l’option Gérer pour accéder au projet. Gardez les éléments suivants à l’esprit lorsque vous déplacez une tâche ou un problème vers une itération :
+Vous pouvez ajouter une tâche ou un problème à n’importe quelle itération si vous disposez de la gestion de l’accès au projet. Gardez les éléments suivants à l’esprit lorsque vous déplacez une tâche ou un problème vers une itération :
 
-* Si vous ajoutez plusieurs équipes, la tâche ou le problème ne peut s’afficher que sur l’itération d’une équipe. Il s’agit de l’itération choisie à l’étape 3 ci-dessous.
+* Si vous ajoutez plusieurs équipes, la tâche ou le problème ne peut s’afficher que sur l’itération d’une équipe. Il s’agit de l’itération choisie à l’étape 3 ci-dessous.
 * Si la tâche ou le problème est assigné à une équipe agile et déplacé vers l’itération d’une autre équipe, l’affectation de l’équipe ne change pas.
 * Si la tâche ou le problème n’est pas assigné à une équipe, la tâche ou le problème est assigné à l’équipe propriétaire de l’itération.
-* Vous ne pouvez pas ajouter de tâches parents à l’itération. Si vous ajoutez des tâches enfants, la tâche parente apparaît sur le panneau Scrum sous la forme d’un couloir.
+* Vous ne pouvez pas ajouter de tâches parents à l’itération. Si vous ajoutez des tâches enfants, la tâche parent apparaît sur le panorama Scrum sous la forme d’un couloir.
 
 >[!IMPORTANT]
 >
->Une fois que la tâche est déplacée vers l’itération, vous ne pouvez pas mettre à jour le [!UICONTROL type de durée] ou la [!UICONTROL contrainte de tâche]. [!UICONTROL Le type de durée] est défini sur [!UICONTROL Simple] et [!UICONTROL Contrainte de tâche] est défini sur [!UICONTROL Dates fixes] pour conserver la chronologie de la tâche cohérente avec la chronologie de l’itération.
+>Une fois que la tâche est déplacée vers l’itération, vous ne pouvez pas mettre à jour le [!UICONTROL Type de durée] ou la [!UICONTROL Contrainte de tâche]. Le [!UICONTROL Type de durée] est défini sur [!UICONTROL Simple] et la [!UICONTROL Contrainte de tâche] est définie sur [!UICONTROL Dates fixes] afin que la chronologie de la tâche reste cohérente avec la chronologie de l’itération.
 
 1. Ouvrez la tâche ou le problème que vous souhaitez ajouter à une itération.
 Ou
 Accédez au projet, au rapport ou au tableau de bord qui contient la tâche ou le problème que vous souhaitez ajouter à une itération. Sélectionnez ensuite une ou plusieurs tâches ou problèmes.
 
 1. Cliquez sur **[!UICONTROL Plus]** ![](assets/more-icon.png) > **[!UICONTROL Ajouter à l’itération]**.
-Vous ne pouvez pas affecter de tâches ou de problèmes affectés à des équipes non agiles.
+Vous ne pouvez pas attribuer des tâches ou des problèmes affectés à des équipes non agiles.
 
 1. Dans la zone **[!UICONTROL Ajouter à]**, commencez à saisir le nom de l’itération, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
    >[!NOTE]
    >
-   >Vous pouvez déplacer un article d’une itération existante vers une nouvelle itération.
+   >Vous pouvez déplacer une histoire d’une itération existante vers une nouvelle itération.
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.

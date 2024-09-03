@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Mettre à jour le travail
-description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (projet, tâche ou problème) pour communiquer sur la progression de l’objet. Les utilisateurs et utilisatrices affectés ou les personnes abonnées à l’objet peuvent afficher votre mise à jour. Vous pouvez également baliser des utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour.
+description: Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront (projet, tâche ou problème) pour communiquer sur la progression de l’objet. Les utilisateurs et utilisatrices affectés ou abonnés à l’objet peuvent afficher votre mise à jour. Vous pouvez également taguer les utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
@@ -53,7 +53,7 @@ ht-degree: 97%
 
 Vous pouvez ajouter une mise à jour sur un objet Adobe Workfront pour communiquer avec les autres sur la progression de l’objet. Pour plus d’informations sur les objets auxquels vous pouvez ajouter des mises à jour dans Workfront, voir [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Les informations de cet article expliquent comment commenter et mettre à jour les informations liées aux projets, aux tâches et aux problèmes. Les utilisateurs et utilisatrices affectés ou les personnes abonnées à l’objet peuvent afficher votre mise à jour. Vous pouvez également baliser des utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour.
+Les informations de cet article expliquent comment commenter et mettre à jour les informations liées aux projets, aux tâches et aux problèmes. Les utilisateurs et utilisatrices affectés ou les personnes abonnées à l’objet peuvent afficher votre mise à jour. Vous pouvez également taguer les utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour.
 
 L’ajout de commentaires à d’autres objets est similaire à la mise à jour des projets, des tâches et des problèmes. Pour plus d’informations relatives aux commentaires sur les cartes et les objectifs, reportez-vous également aux articles suivants :
 
@@ -71,7 +71,7 @@ L’ajout de commentaires à d’autres objets est similaire à la mise à jour 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,53 +80,53 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Forfait Adobe Workfront</strong></td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
-   <p>Actuel : licence de demande ou supérieure pour les problèmes et les documents ; licence de révision ou supérieure pour tous les autres objets</p>
-   <p>Nouveau : licence de contribution ou supérieure pour les problèmes et les documents ; licence légère (Light) ou supérieure pour tous les autres objets</p> 
+   <p>Actuel : demande ou version ultérieure pour les problèmes et les documents ; révision ou version ultérieure pour tous les autres objets</p>
+   <p>Nouveau : contributeur ou version ultérieure pour les problèmes et les documents : Light ou supérieur pour tous les autres objets</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurations du niveau d’accès</strong></td> 
-   <td> <p>Afficher ou modifier l’accès de l’objet sur lequel la mise à jour est activée</p></td> 
+   <td role="rowheader"><strong>Configurations des niveaux d’accès</strong></td> 
+   <td> <p>Accès Afficher ou Modifier à l’objet mis à jour</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorisations d’objet</strong></td> 
-   <td> <p>Accès à l’affichage de l’objet</p></td> 
+   <td> <p>Accès Afficher à l’objet</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Remarques relatives à la mise à jour du travail
+## Observations relatives à la mise à jour des travaux
 
-* Vous pouvez ajouter des commentaires à la plupart des objets dans Adobe Workfront dans la section Mises à jour. Pour plus d’informations sur les objets qui affichent la section Mises à jour, consultez [Vue d’ensemble de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+* Vous pouvez ajouter des commentaires à la plupart des objets dans Adobe Workfront dans la section Mises à jour. Pour plus d’informations sur les objets qui affichent la section Mises à jour, voir [Vue d’ensemble de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 * Vous pouvez ajouter des commentaires aux objets Workfront à partir d’autres applications intégrées à Workfront ou à partir de l’application mobile Workfront.
 
   Toutes les applications intégrées à Workfront ne peuvent pas ajouter de commentaires aux objets Workfront.
 
-  Toutes les fonctionnalités disponibles dans la section Mises à jour d’un objet dans Workfront ne le sont pas dans d’autres applications lors de l’accès aux objets Workfront à partir de l’application. Par exemple, les fonctionnalités de texte enrichi ou la définition d’un commentaire réservé à l’entreprise d’une personne peuvent ne pas être disponibles lors de l’ajout de commentaires à un objet Workfront à partir d’une application tierce.
+  Toutes les fonctions disponibles dans la section Mises à jour d’un objet dans Workfront ne sont pas disponibles dans d’autres applications lors de l’accès aux objets Workfront à partir de l’application. Par exemple, les fonctionnalités de texte enrichi ou la définition d’un commentaire privé pour la société d’une personne peuvent ne pas être disponibles lors de l’ajout de commentaires à un objet Workfront à partir d’une application tierce.
 
-* Vous pouvez communiquer sur la progression d’un objet Workfront (projet, tâche ou problème) lorsque vous commentez l’objet. Les utilisateurs et utilisatrices affectés ou les personnes abonnées à l’objet peuvent recevoir une notification concernant votre mise à jour. Toute personne disposant d’un accès Afficher à l’objet peut consulter votre mise à jour.
+* Vous pouvez communiquer sur la progression d’un objet Workfront (projet, tâche ou problème) lorsque vous faites des commentaires sur l’objet. Les utilisateurs et utilisatrices affectés ou abonnés à l’objet peuvent recevoir une notification à propos de votre mise à jour. Les utilisateurs et utilisatrices disposant de l’accès Afficher à l’objet peuvent consulter votre mise à jour.
 
-* Vous pouvez baliser des utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour. Les utilisateurs etu utilisatrices balisés reçoivent une notification in-app et un e-mail concernant votre mise à jour.
+* Vous pouvez taguer les utilisateurs et utilisatrices pour attirer leur attention sur la mise à jour. Les utilisateurs et utilisatrices tagués reçoivent une notification in-app et un e-mail concernant votre mise à jour.
 
   >[!TIP]
   >
-  >Les personnes propriétaires de commentaires sont automatiquement taguées. Pour plus d’informations, consultez [Baliser d’autres personnes sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+  >Les personnes propriétaires de commentaires sont automatiquement taguées. Pour plus d’informations, voir [Taguer d’autres personnes lors de mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 
-* Vous pouvez ajouter un commentaire à un objet que vous pouvez afficher ou vous connecter en tant qu’administrateur ou administratrice Workfront ou de groupes et ajouter un commentaire au nom d’un autre utilisateur ou d’une autre utilisatrice. Pour plus d’informations, consultez [Se connecter en tant qu’autre utilisateur ou utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* Vous pouvez ajouter un commentaire à un objet que vous pouvez afficher ou vous connecter en tant qu’administrateur ou administratrice Workfront ou de groupe et ajouter un commentaire au nom d’un autre utilisateur ou d’une autre utilisatrice. Pour plus d’informations, voir [Se connecter en tant qu’un autre utilisateur ou qu’une autre utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-* Vous pouvez ajouter une mise à jour à des projets, tâches et problèmes à partir des zones suivantes de Workfront :
+* Vous pouvez ajouter une mise à jour aux projets, aux tâches et aux problèmes dans les zones suivantes de Workfront :
 
    * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
    * Dans la zone Accueil (pour les tâches et les problèmes)
@@ -251,61 +251,61 @@ L’onglet **Commentaires** est sélectionné par défaut.
 
    >[!TIP]
    >
-   >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode brouillon, même après une déconnexion et une reconnexion. Toutes les images ajoutées au commentaire sont également enregistrées dans le brouillon. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont ignorés et ne peuvent pas être récupérés. Les brouillons de commentaires ne sont visibles que par l’utilisateur ou l’utilisatrice qui les saisit.
+   >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode brouillon, même après une déconnexion et une reconnexion. Toutes les images ajoutées au commentaire sont également enregistrées dans le brouillon. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont éliminés et ne peuvent pas être récupérés. Les commentaires en mode brouillon ne sont visibles que par l’utilisateur ou l’utilisatrice qui les saisit.
 
 1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
-   * Ctrl+Z (⌘+Z pour Mac) pour annuler une modification
-   * Ctrl+Y (⌘+Y pour Mac) pour rétablir une modification
+   * Ctrl+Z (⌘+z pour Mac) pour annuler une modification
+   * Ctrl+Y (⌘+y pour Mac) pour rétablir la modification
 
-1. (Facultatif) Dans la zone **Taguer des personnes ou des équipes**, commencez à saisir le nom ou l’adresse e-mail d’un utilisateur ou d’une utilisatrice ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-le lorsqu’il apparaît dans la liste.
-1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour afin d’améliorer votre contenu. Pour plus d’informations, consultez la section [Utiliser du texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
+1. (Facultatif) Dans la zone **Mentionner des personnes ou des équipes**, commencez à saisir le nom ou l’adresse électronique d’un utilisateur, d’une utilisatrice ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis effectuez une sélection lorsqu’il ou elle s’affiche dans la liste.
+1. (Facultatif) Utilisez les options de la barre d’outils de texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour, afin d’améliorer votre contenu. Pour plus d’informations, voir [Utiliser du texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 
    >[!TIP]
    >
-   >Si un autre utilisateur ou une autre utilisatrice soumet un commentaire sur le même élément que celui que vous mettez à jour, une ligne rouge avec un indicateur « Nouveau » s’affiche pour vous informer des commentaires plus récents.
+   >Si une autre personne envoie un commentaire au même élément que celui que vous mettez à jour, une ligne rouge s’affiche avec un indicateur « Nouveau » pour vous informer des commentaires les plus récents.
    >
-   >L’indicateur ne s’affiche qu’après la soumission du commentaire sur l’élément, et non lorsque le commentaire est en cours de rédaction.
+   >L’indicateur s’affiche uniquement après l’envoi du commentaire sur l’élément, et non tant que le commentaire est toujours en train d’être composé.
    >
-   >L’indicateur « Nouveau » ne s’affiche que lorsque la personne qui a saisi une nouvelle mise à jour, ainsi que celle qui a saisi une mise à jour, utilisent toutes les deux la nouvelle expérience de commentaire.
+   >L’indicateur « Nouveau » s’affiche uniquement lorsque la personne qui a saisi une nouvelle mise à jour, ainsi que celle qui saisit actuellement une mise à jour, utilisent toutes deux la nouvelle expérience de commentaire.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. Cliquez sur **Soumettre** pour ajouter la mise à jour à l’objet Workfront.
+1. Cliquez sur **Envoyer** pour ajouter la mise à jour à l’objet Workfront.
 1. (Facultatif) Pour modifier un commentaire, cliquez sur le menu **Plus** ![](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis sur **Modifier**.
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission.
+   >Vous ne pouvez modifier votre commentaire qu’au cours des 15 minutes suivant son envoi.
 
-1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez une des personnes balisées. Un indicateur « Modifié » est ajouté à gauche de la date et de l’heure qui indiquent quand le commentaire a été saisi.
+1. Modifiez les informations du commentaire, ajoutez ou supprimez des images ou supprimez l’une des personnes mentionnées. Un indicateur « Modifié » est ajouté à gauche de l’horodatage qui s’affiche lorsque le commentaire a été saisi.
 
    >[!TIP]
    >
-   >Les commentaires de l’année en cours n’affichent pas l’année dans la date et l’heure. Survolez la date et l’heure pour afficher la date complète, année incluse.
+   >Les commentaires de l’année en cours n’affichent pas l’année dans l’horodatage. Le survol d’un horodatage affiche la date complète, année incluse.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >* Un e-mail est généré pour informer les utilisateurs et utilisatrices de votre mise à jour uniquement lorsque vous envoyez la mise à jour d’origine. Aucun e-mail n’est généré après avoir modifié votre mise à jour.
-   >* La date et l’heure en regard du commentaire correspondent à la date du commentaire d’origine, et non à celle de la dernière modification.
-   >* Lorsque vous ajoutez un commentaire au nom d’une autre personne (lorsque vous vous connectez en tant qu’autre utilisateur ou utilisatrice, en tant qu’administrateur ou administratrice Workfront ou de groupes), vous ne pouvez pas modifier le commentaire si votre connexion est effectuée au nom de l’autre personne. Vous ne pouvez modifier le commentaire qu’après votre déconnexion au nom de l’autre personne et votre reconnexion en votre nom.
+   >* Un e-mail est généré pour informer les utilisateurs et utilisatrices de votre mise à jour, uniquement lorsque vous envoyez la mise à jour d’origine. Aucun e-mail n’est généré après que vous avez modifié votre mise à jour.
+   >* L’horodatage en regard du commentaire correspond à la date du commentaire d’origine, et non à celle de la dernière modification.
+   >* Lorsque vous ajoutez un commentaire au nom d’une autre personne (lorsque vous vous connectez avec un autre identifiant en tant qu’administrateur ou administratrice Workfront ou de groupe), vous ne pouvez pas le modifier en cas de connexion en tant l’autre utilisateur ou utilisatrice. Vous ne pouvez modifier le commentaire que si vous vous déconnectez en tant que cet autre utilisateur ou cette autre utilisatrice et que vous vous reconnectez sous votre propre identifiant.
 
-1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse...** pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, consultez [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse...** pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-1. (Le cas échéant et facultatif) Si d’autres utilisateurs et utilisatrices ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour pendant que vous ajoutiez vos commentaires, cliquez sur **Afficher** à l’intérieur de la **bannière de nouveaux commentaires** bleue en bas de l’écran pour afficher ces commentaires.
+1. (Le cas échéant - Facultatif) Si d’autres personnes ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour pendant que vous ajoutiez vos commentaires, cliquez sur **Afficher** à l’intérieur de la **bannière bleue des nouveaux commentaires** en bas de l’écran pour les afficher.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
-   Les commentaires supplémentaires s’affichent en bas de l’écran.
+   D’autres commentaires s’affichent en bas de l’écran.
 
 1. (Facultatif) Cliquez sur l’icône J’aime . ****![](assets/like-icon.png) L’icône se met à jour avec le nombre de mentions « J’aime ».
-1. (Le cas échéant et facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de personnes membres incluses dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
+1. (Le cas échéant - Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
-   >Les noms des deux premières entités balisées s’affichent en regard de leurs avatars. Si plus de deux entités sont balisées, seuls le nom de la première et le nombre d’entités supplémentaires s’affichent.
+   >Les noms des deux premières entités mentionnées s’affichent en regard de leurs avatars. Si plus de deux entités sont mentionnées, seul le nom de la première et le nombre d’entités supplémentaires s’affichent.
 
 1. (Facultatif) Cliquez sur le nom d’un commentateur ou d’une commentatrice pour afficher son nom, son rôle et son adresse e-mail dans une zone d’informations. Cliquez à nouveau sur le nom du commentateur ou de la commentatrice dans la zone d’informations pour ouvrir son profil utilisateur.
 1. (Facultatif) Cliquez sur l’onglet Activité du système pour afficher les mises à jour consignées par le système. **** Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note relative à cette mise à jour et l’affiche dans l’onglet Activité du système.
@@ -327,34 +327,34 @@ L’onglet **Commentaires** est sélectionné par défaut.
 Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y ajoutant divers éléments, tels que des émoticônes, des liens ou des images.
 
 1. Accédez à la zone **Mises à jour** d’un objet Workfront et commencez à saisir un commentaire.
-1. (Facultatif) Pour ajouter une mise en forme de texte enrichi à votre mise à jour, utilisez un quelconque attribut de la barre d’outils **Texte enrichi** pendant la saisie.
+1. (Facultatif) Pour ajouter un formatage de texte enrichi à votre mise à jour, utilisez n’importe quel attribut de la barre d’outils **Texte enrichi** à mesure que vous tapez.
 
    ![](assets/rich-text-toolbar.png)
 
-   | **Attribut** | **Bouton de barre d’outils** | **Raccourcis clavier Mac** | **Raccourcis clavier Windows** |
+   | **Attribut** | **Bouton Barre d’outils** | **Raccourcis clavier Mac** | **Raccourcis clavier Windows** |
    |---|---|---|---|
-   | Gras | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
-   | Italique | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
-   | Souligner | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | <br>Pour ouvrir la boîte de dialogue Ajouter des liens : ⌘+K</br> <br>Pour coller un lien sur le texte sélectionné : ⌘+V</br> | <br>Pour ouvrir la boîte de dialogue Ajouter des liens : Ctrl+K</br> <br>Pour coller un lien sur le texte sélectionné : Ctrl+V</br> |
-   | Liste à puces | ![mceclip6.png](assets/mceclip6.png) | ⌘+Maj+8 | Ctrl+Maj+8 |
-   | Liste numérotée | ![mceclip5.png](assets/mceclip5.png) | ⌘+Maj+7 | Ctrl+Maj+7 |
+   | Gras | ![](assets/mceclip10.png) | ⌘ + b | Ctrl + B |
+   | Italique | ![mceclip9.png](assets/mceclip9.png) | ⌘ + i | Ctrl + I |
+   | Souligner | ![mceclip8.png](assets/mceclip8.png) | ⌘ + u | Ctrl + U |
+   | Lien hypertexte | ![mceclip7.png](assets/mceclip7.png) | <br>Pour ouvrir la zone Ajouter des liens : ⌘ + K</br> <br>Pour coller un lien sur le texte sélectionné : ⌘ + V</br> | <br>Pour ouvrir la zone Ajouter des liens : Ctrl + K</br> <br>Pour coller un lien sur le texte sélectionné : Ctrl + V</br> |
+   | Liste à puces | ![mceclip6.png](assets/mceclip6.png) | ⌘ + Maj + 8 | Ctrl + Maj + 8 |
+   | Liste numérotée | ![mceclip5.png](assets/mceclip5.png) | ⌘ + Maj + 7 | Ctrl + Maj + 7 |
 
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
-   Pour arrêter la mise en forme du texte, désélectionnez l’attribut sur la barre d’outils **Texte enrichi**.
+   Pour arrêter le formatage du texte, désélectionnez l’attribut sur la barre d’outils **Texte enrichi**.
 
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
    >[!NOTE]
    >
-   >* La mise en forme apparaît également dans toutes les notifications par e-mail contenant votre mise à jour que les utilisateurs et utilisatrices reçoivent.
-   >* La mise en forme de texte enrichi appliquée à une mise à jour dans un e-mail n’apparaît pas sur la mise à jour lorsque celle-ci est affichée dans l’onglet Mises à jour.
-   >* Si votre entreprise utilise Workfront avec Internet Explorer, le texte formaté collé dans une mise à jour perd sa mise en forme de texte enrichi et s’affiche en texte brut. Vous pouvez reformater le texte à l’aide des attributs de la barre d’outils Texte enrichi.
-   >* La mise en forme de texte enrichi n’est pas disponible pour les mises à jour effectuées dans la zone Feuilles de temps ou pour les objets Note et Dernière condition affichés dans un rapport.
+   >* Le formatage s’affiche également dans toutes les notifications par e-mail contenant votre mise à jour que les utilisateurs et utilisatrices reçoivent.
+   >* Le formatage de texte enrichi appliqué à une mise à jour dans un e-mail ne s’affiche pas sur la mise à jour lorsqu’il est affiché dans l’onglet Mises à jour.
+   >* Si votre entreprise utilise Workfront avec Internet Explorer, tout texte formaté collé dans une mise à jour perd sa mise en forme de texte enrichi et s’affiche en tant que texte brut. Vous pouvez reformater le texte à l’aide des attributs de la barre d’outils Texte enrichi.
+   >* Le formatage de texte enrichi n’est pas disponible pour les mises à jour effectuées dans la zone Feuilles de temps ou pour les objets Remarque et Dernière condition affichés dans un rapport.
 
    <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
@@ -366,16 +366,16 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
    >[!NOTE]
    >
-   >* Workfront ne remplace pas les émoticônes de ponctuation telles que « :) » par des émoticônes.
-   >* Les émoticônes ne sont pas disponibles pour les objets Note et Dernière condition affichés dans un rapport.
-   >* La fonctionnalité d’émoticône de Workfront utilise des caractères Unicode. En tant que tels, elle ne s’affiche donc que sur les navigateurs et les systèmes d’exploitation qui prennent en charge les points du code Unicode. Les utilisateurs et utilisatrices d’une version de plateforme, de navigateur ou de système d’exploitation différente de la vôtre peuvent ne pas avoir accès aux mêmes émoticônes.
-   >* Une émoticône non prise en charge est représentée par un carré noir ou blanc.
+   >* Workfront ne remplace pas les émoticônes faites de ponctuation telles que :) par des émoticônes.
+   >* Les émoticônes ne sont pas disponibles pour les objets Remarque et Dernière condition affichés dans un rapport.
+   >* La fonction d’émoticône de Workfront utilise des caractères Unicode et, de ce fait, s’affiche uniquement sur les navigateurs et les systèmes d’exploitation qui prennent en charge les points de code Unicode. Les utilisateurs et utilisatrices utilisant une plateforme, un navigateur ou une version de système d’exploitation différente de la vôtre peuvent ne pas avoir accès aux mêmes émoticônes.
+   >* Une émoticône non prise en charge est représentée par un bloc noir ou blanc.
    >* Windows 7 ne prend en charge que les émoticônes en noir et blanc.
-   >* Les émoticônes appliquées à une mise à jour par e-mail n’apparaissent pas sur la mise à jour lorsque celle-ci est affichée dans la zone Mises à jour.
+   >* Les émoticônes qui sont appliquées à une mise à jour effectuée par e-mail ne s’affichent pas sur la mise à jour lorsqu’elles sont affichées dans la zone Mises à jour.
 
-1. (Facultatif) Pour ajouter un lien d’URL vers des sources d’informations supplémentaires :
+1. (Facultatif) Pour ajouter un lien URL vers des sources d’informations supplémentaires :
 
-   1. Dans votre mise à jour, cliquez sur l’endroit où vous souhaitez insérer un lien.
+   1. Cliquez dans la mise à jour où vous souhaitez insérer un lien.
    1. Sur la barre d’outils **Texte enrichi**, cliquez sur l’icône **Lien hypertexte** ![](assets/link-icon.png).
 
    1. Dans la zone **Créer un lien**, sous **URL**, saisissez ou collez l’URL de la source à laquelle vous souhaitez créer un lien.
@@ -396,9 +396,9 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
-   >* Votre administrateur ou administratrice Workfront doit activer l’ajout d’images dans la section Préférences de mise à jour des flux de la zone d’interface de Workfront pour que vous puissiez voir les icônes Image et Ajouter une pièce jointe. Pour plus d’informations, consultez [Configuration des préférences pour les mises à jour des utilisateurs et utilisatrices](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+   >* Votre administrateur ou administratrice Workfront doit activer l’ajout d’images dans la section Mettre à jour les préférences des flux de la zone Interface Workfront avant de pouvoir voir les icônes Image ou Ajouter une pièce jointe. Pour plus d’informations, voir [Configurer des préférences pour les mises à jour des utilisateurs et utilisatrices](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* La taille maximale du fichier image est de 7 Mo. Les types de fichiers image pris en charge sont .jpg, .gif et .png.
-   >* Les images sont accessibles à partir de la section Mises à jour d’un objet et sont également disponibles dans la zone Documents sous le menu principal.
+   >* Les images sont accessibles à partir de la section Mises à jour d’un objet et elles sont également disponibles dans la zone Documents sous le menu principal.
    >Vous pouvez copier une capture d’écran de votre ordinateur à l’aide d’une combinaison clavier ou, par exemple, de la fonction Imprimer l’écran (sur les ordinateurs Windows).
    >* Vous pouvez coller l’image en cliquant avec le bouton droit de la souris dans le nouveau commentaire, puis en cliquant sur **Coller** ou en appuyant sur CTRL L + V pour Windows (ou appuyer sur vert + V pour Mac) sur votre clavier.
    >* Vous pouvez envoyer une mise à jour avec une image et sans texte.
@@ -409,7 +409,7 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 
 1. (Facultatif) Pour afficher une image dans la mise à jour existante, effectuez l’une des opérations suivantes :
 
-   * Cliquez sur l’icône **Aperçu** ![](assets/previewimageicon-31x31.png) sur la miniature de l’image pour ouvrir l’image en taille réelle dans un nouvel onglet du navigateur.
+   * Cliquez sur l’icône **Prévisualisation** ![](assets/previewimageicon-31x31.png) sur la miniature de l’image pour ouvrir l’image en taille réelle dans un nouvel onglet du navigateur.
    * Cliquez sur l’icône **Télécharger** ![](assets/downloadimageicon.png) sur la miniature de l’image pour télécharger l’image.
 
 1. Cliquez sur **Soumettre** pour ajouter votre commentaire.
@@ -419,21 +419,21 @@ Vous pouvez améliorer vos mises à jour en utilisant du texte enrichi ou en y a
 Vous pouvez rechercher un commentaire ou une réponse dans la section Mises à jour d’un objet.
 
 1. Accédez à la section **Mises à jour** d’un objet.
-1. Commencez à saisir un mot-clé <!--or a user's name --> dans la zone **Rechercher** dans le coin supérieur droit de l’onglet **Commentaires**.
+1. Commencez à saisir un mot-clé <!--or a user's name --> dans la boîte de dialogue **Rechercher** dans le coin supérieur droit de l’onglet **Commentaires**.
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    >[!NOTE]
    >
-   >Vous ne pouvez rechercher que des mots qui sont contenus dans le texte d’un commentaire ou d’une réponse. Vous ne pouvez pas rechercher les noms d’utilisateurs et utilisatrices ou d’équipes balisés dans une mise à jour.
+   >Vous ne pouvez rechercher que les mots qui appartiennent au texte d’un commentaire ou d’une réponse. Vous ne pouvez pas rechercher les noms des utilisateurs et utilisatrices ou des équipes tagués dans une mise à jour.
 
    ![Rechercher dans des mises à jour](assets/updates-all-tabs-with-search-field.png)
 
-   Le mot-clé <!--or user--> que vous avez recherché est mis en surbrillance et les commentaires qui le contiennent s’affichent en haut de la section Mises à jour.
+   Le mot-clé <!--or user--> que vous recherchez est mis en surbrillance et les commentaires qui le contiennent s’affichent en haut de la section Mises à jour.
 
-   Workfront recherche dans l’ensemble du flux de mise à jour de l’objet, en dehors des commentaires visibles à l’écran.
+   Workfront recherche l’intégralité du flux de mise à jour de l’objet, en dehors des commentaires visibles à l’écran.
 
-1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer les résultats de la recherche et revenir à tous les commentaires.
+1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer les résultats de recherche et revenir à tous les commentaires.
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
@@ -465,31 +465,31 @@ L’option Copier le lien copie le lien du commentaire ou du thread dans le pres
 
 1. Accédez à la mise à jour dont vous souhaitez copier le lien.
 
-1. Cliquez sur le menu **Plus**, puis sur **Copier le lien**.
+1. Cliquez sur le menu **Plus** , puis cliquez sur **Copier le lien**.
 
-1. Collez le lien que vous avez copié à l’étape précédente dans un e-mail ou une autre application pour le partager avec d’autres personnes. Le lien partagé ouvre le commentaire à partir duquel vous avez partagé le lien.
+1. Collez le lien que vous avez copié à l’étape précédente dans un e-mail ou dans une autre application pour le partager avec d’autres personnes. Le lien partagé ouvre le commentaire à partir duquel vous avez partagé le lien.
 
    >[!TIP]
    >
-   >Lorsque vous partagez le lien d’une conversation sur un objet enfant à partir d’un objet de niveau supérieur, le lien ouvre le thread dans la zone Mises à jour de l’objet de niveau supérieur.
+   >Lorsque vous partagez le lien d’une conversation sur un objet enfant à partir d’un objet de rang supérieur, le lien ouvre le thread dans la zone Mises à jour de l’objet de rang supérieur.
    >
    >Par exemple, si vous copiez le lien d’un commentaire de tâche dans la zone Mises à jour du projet, le commentaire ouvre la page du projet.
 
 #### Copier le texte du message
 
-L’option Copier le corps de texte copie le texte d’une mise à jour spécifique dans le presse-papiers.
+L’option Copier le corps du texte copie le texte d’une mise à jour spécifique dans le presse-papiers.
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le menu **Plus**, puis sur **Copier le corps de texte**.
+1. Cliquez sur le menu **Plus**, puis sur **Copier le texte du corps**.
 
 #### Citer la réponse
 
-L’option Citer la réponse copie le commentaire d’origine dans une nouvelle réponse sous forme de citation.
+L’option Citer la réponse copie le commentaire d’origine dans une nouvelle réponse sous forme de bloc de citation.
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez copier.
-1. Cliquez sur le menu **Plus**, puis sur **Citer la réponse**.
+1. Cliquez sur le menu **Plus** puis sur **Citer la réponse**.
 
-   Une nouvelle zone de commentaire s’ouvre et la réponse citée est incluse dans le nouveau commentaire et est marquée comme une citation.
+   Une nouvelle zone de commentaire s’ouvre. La réponse entre guillemets est ensuite incluse dans le nouveau commentaire et marquée comme un bloc de citation.
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
@@ -558,9 +558,9 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 ## Supprimer une mise à jour ou une réponse
 
-En fonction de l’accès que l’administrateur ou l’administratrice Workfront vous accorde, vous pouvez être en mesure de supprimer des mises à jour que vous avez ajoutées dans l’onglet Mises à jour d’un objet. Pour plus d’informations, consultez [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) dans l’article [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+En fonction de l’accès que l’administrateur ou l’administratrice Workfront vous accorde, vous pouvez être en mesure de supprimer des mises à jour que vous avez ajoutées dans l’onglet Mises à jour d’un objet. Pour plus d’informations, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) dans l’article [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Aucune personne utilisant Workfront (y compris l’administrateur ou l’administratrice Workfront) ne peut supprimer les mises à jour effectuées par une autre personne. Cependant, si le niveau d’accès d’une personne lui permet de supprimer ses propres mises à jour, l’administrateur ou l’administratrice Workfront peut se connecter au nom de cette personne et supprimer les mises à jour qu’elle a effectuées. Pour plus d’informations, consultez [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) et [Se connecter en tant qu’autre utilisateur ou utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Aucun utilisateur ou aucune utilisatrice Workfront (y compris l’administrateur ou l’administratrice Workfront) ne peut supprimer les mises à jour effectuées par un autre utilisateur ou une autre utilisatrice. Cependant, si le niveau d’accès d’un utilisateur ou d’une utilisatrice lui permet de supprimer ses propres mises à jour, l’administrateur ou l’administratrice Workfront peut se connecter en tant qu’utilisateur ou utilisatrice et supprimer les mises à jour qu’il ou elle a effectuées. Pour plus d’informations, voir [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) et [Se connecter en tant qu’un autre utilisateur ou qu’une autre utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Accédez à la mise à jour ou à la réponse que vous souhaitez supprimer.
 1. Cliquez sur le menu **Plus** en regard de la mise à jour ou de la réponse à supprimer, puis sur **Supprimer**.
@@ -571,13 +571,13 @@ Aucune personne utilisant Workfront (y compris l’administrateur ou l’adminis
 
    >[!NOTE]
    >
-   >La suppression d’une mise à jour à laquelle une image est jointe supprime à la fois le commentaire et l’image. Pour plus d’informations, consultez [Utiliser du texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
+   >La suppression d’une mise à jour avec une image jointe supprime à la fois le commentaire et l’image. Pour plus d’informations, voir la section [Utiliser du texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
 
    Lorsque des réponses sont associées au commentaire que vous supprimez, il est indiqué que le commentaire a été supprimé avec le nom de l’utilisateur ou de l’utilisatrice qui l’a supprimé.
 
    ![](assets/removed-comment-indicator-new-experience.png)
 
-   Les commentaires supprimés le sont immédiatement de Workfront. Un utilisateur ou une utilisatrice qui utilise la section Mises à jour voit la suppression d’un commentaire par une autre personne en temps réel.
+   Les commentaires supprimés sont immédiatement retirés de Workfront. Un utilisateur ou une utilisatrice qui utilise la section Mises à jour voit un commentaire supprimé par un autre utilisateur ou une autre utilisatrice en temps réel.
 
 
 ## Passer en revue les mises à jour système
@@ -592,14 +592,14 @@ La section Mises à jour d’un objet Workfront affiche deux types d’informat
 
   ![](assets/system-updates-cl-350x277.png)
 
-  Les administrateurs et administratrices Workfront peuvent déterminer ce qui est suivi dans les mises à jour du système, comme décrit dans la section [Mises à jour suivies par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Vous pouvez également filtrer les mises à jour ou activités système afin de n’afficher que les mises à jour des utilisateurs et utilisatrices pour tous les objets.
+  Les administrateurs et administratrices Workfront peuvent déterminer ce qui est suivi dans les mises à jour du système, comme décrit dans la section [Mises à jour suivies par le système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Vous pouvez également filtrer les mises à jour système ou les activités afin de n’afficher que les mises à jour d’utilisateur ou d’utilisatrice pour tous les objets.
 
   Les objets suivants ne comportent pas de mises à jour générées par le système :
 
    * Equipe
    * Modèle
    * Tâche de modèle
-   * Carte ad hoc
+   * Carte personnelle
 
 Pour plus d’informations sur les mises à jour système dans la section Mises à jour, voir [Vue d’ensemble de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

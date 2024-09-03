@@ -1,7 +1,7 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
-title: Ajout, suppression ou organisation de rapports dans un tableau de bord de zone de travail
+title: Ajouter, supprimer ou organiser des rapports dans un tableau de bord de zones de travail
 description: Une fois que vous avez créé un tableau de bord Zone de travail, vous pouvez y ajouter des rapports qui afficheront les données Adobe Workfront dans différents formats. Ces rapports peuvent être déplacés et redimensionnés sur la zone de travail à votre convenance.
 author: Nolan
 feature: Reports and Dashboards
@@ -9,11 +9,11 @@ exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
 source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
-# Ajout, suppression ou organisation de rapports dans un tableau de bord de zone de travail
+# Ajouter, supprimer ou organiser des rapports dans un tableau de bord de zones de travail
 
 >[!IMPORTANT]
 >
@@ -23,34 +23,34 @@ Une fois que vous avez créé un tableau de bord Zone de travail, vous pouvez y 
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td>N’importe quelle</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td>Nouvelle : standard
+   <td>Nouveau : Standard
    <p>ou</p>
-   <p>Actuelle : formule</p></td> 
+   <p>Actuel : formule</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations du niveau d’accès</td> 
+   <td role="rowheader">Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’accès Modifier pour les tableaux de bord.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ajout de rapports à un tableau de bord de zone de travail
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 
 1. Dans le panneau de gauche, cliquez sur **Tableaux de bord de la zone de travail**, puis cliquez sur le nom du tableau de bord de la zone de travail auquel vous souhaitez ajouter un rapport.
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 ## Déplacer ou redimensionner des rapports dans un tableau de bord de zone de travail
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 
 1. Dans le panneau de gauche, cliquez sur **Tableaux de bord de la zone de travail**, puis cliquez sur le nom du tableau de bord de la zone de travail que vous souhaitez modifier.
 
@@ -80,7 +80,7 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
 ## Suppression d’un rapport d’un tableau de bord de zone de travail
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Tableaux de bord**.
 
 1. Dans le panneau de gauche, cliquez sur **Tableaux de bord de canevas**, puis sur le nom du tableau de bord de canevas qui contient le rapport que vous souhaitez supprimer.
 

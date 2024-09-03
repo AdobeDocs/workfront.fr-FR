@@ -1,69 +1,69 @@
 ---
-title: Le site  [!DNL Adobe Workfront] Status
-description: Vous pouvez consulter l’intégrité de la plateforme  [!DNL Workfront] , y compris les incidents, les fenêtres de maintenance planifiées et l’état actuel de toutes les  [!DNL Workfront] grappes en accédant au site  [!DNL Workfront Status] .
+title: Site des statuts  [!DNL Adobe Workfront]
+description: Pour consulter l’intégrité de la plateforme  [!DNL Workfront] , y compris les incidents, les fenêtres de maintenance planifiées et le statut actuel de tous les clusters  [!DNL Workfront] , accédez au site  [!DNL Workfront Status]
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
 source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Le site [!DNL Adobe Workfront] Status
+# Site des statuts [!DNL Adobe Workfront]
 
 <!-- Audited: 1/2024 -->
 
-## Présentation du site État
+## Vue d’ensemble du site des statuts
 
-Vous pouvez consulter l’état de la plateforme [!DNL Workfront], y compris les incidents, les fenêtres de maintenance planifiées et l’état actuel de toutes les grappes [!DNL Workfront] en accédant au site [!DNL Workfront Status].
+Pour consulter l’intégrité de la plateforme [!DNL Workfront], y compris les incidents, les fenêtres de maintenance planifiées et le statut actuel de tous les clusters [!DNL Workfront], accédez au site [!DNL Workfront Status].
 
-Vous avez accès aux informations suivantes sur le site État :
+Vous avez accès aux informations suivantes sur le site des statuts :
 
 * Statistiques des performances du système en temps réel
-* Planifier la maintenance
-* Informations sur les protections utilisées par [!DNL Workfront] pour protéger les données utilisateur
+* Programmer la maintenance prévue
+* Informations sur les mécanismes de sécuritsation employés par [!DNL Workfront] pour protéger les données des utilisateurs et utilisatrices
 * Statuts de vulnérabilité nommés
 
-## Afficher les mises à jour de statut [!DNL Adobe Workfront]
+## Afficher les mises à jour des statuts [!DNL Adobe Workfront]
 
-Vous pouvez afficher les mises à jour d’état sur le site [!DNL Adobe] Status.
+Vous pouvez afficher les mises à jour des statuts du site des statuts [!DNL Adobe].
 
-1. Saisissez [status.adobe.com](https://status.adobe.com/) dans votre navigateur pour accéder au site État.
+1. Saisissez [status.adobe.com](https://status.adobe.com/) dans votre navigateur pour accéder au site des statuts.
 
-1. Sélectionnez **[!UICONTROL Experience Cloud]**.
-1. Faites défiler l’écran vers le bas et sélectionnez **[!UICONTROL Adobe Workfront]** dans la liste des solutions.
+1. Sélectionnez **[!UICONTROL Experience Cloud]**.
+1. Faites défiler la page vers le bas et sélectionnez **[!UICONTROL Adobe Workfront]** de la liste des solutions.
 
-## Abonner ou gérer votre abonnement
+## S’abonner ou gérer son abonnement
 
-Pour vous abonner au site État ou gérer votre abonnement après vous être déjà abonné :
+Pour vous inscrire au site des statuts ou gérer votre abonnement existant :
 
 1. Accédez à [status.adobe.com](https://status.adobe.com/).
-1. Dans la barre d’état, sélectionnez **[!UICONTROL Gérer les abonnements]**.
+1. Dans la barre des statuts, sélectionnez **[!UICONTROL Gérer les abonnements]**.
    ![](assets/manage-subs.png)
-1. Si vous disposez d’un compte existant, connectez-vous au compte ; dans le cas contraire, créez un compte.
-1. Cliquez sur le bouton **[!UICONTROL Créer des abonnements]** .
-1. Sélectionnez **[!UICONTROL Adobe Workfront]** sous l’en-tête **[!UICONTROL Experience Cloud]**, puis cliquez sur **[!UICONTROL Continuer]**.
-1. Sélectionnez vos préférences régionales et de type d’événement, puis cliquez sur **[!UICONTROL Continuer]**.
+1. Si vous disposez d’un compte existant, connectez-vous à ce compte ; sinon, créez un compte.
+1. Cliquez sur le bouton **[!UICONTROL Créer des abonnements]**.
+1. Sélectionnez **[!UICONTROL Adobe Workfront]** sous l’en-tête **[!UICONTROL Experience Cloud]**, puis cliquez sur **[!UICONTROL Continuer]**.
+1. Sélectionnez vos préférences en matière de région et de type d’événement, puis cliquez sur **[!UICONTROL Continuer]**.
 1. Cliquez sur **[!UICONTROL Terminé]** pour confirmer votre abonnement.
 
-## Présentation des vulnérabilités nommées
+## Comprendre les vulnérabilités nommées
 
-### Qu’est-ce qu’une vulnérabilité nommée ? {#what-is-a-named-vulnerability}
+### Qu’est-ce qu’une vulnérabilité nommée ? {#what-is-a-named-vulnerability}
 
-En matière de sécurité informatique, une vulnérabilité est une faiblesse qui permet à un attaquant de réduire la stabilité, la sécurité ou l&#39;intégrité d&#39;un système.
+Dans le domaine de la sécurité informatique, une vulnérabilité représente une faille qui permet à une entité attaquante de compromettre la stabilité, la sécurité ou l’intégrité d’un système.
 
-Les chercheurs en vulnérabilité et les créateurs d’exploitation nomment leurs projets en interne pour faciliter leur référence (par exemple, [!DNL ShellShock], [!DNL Heartbleed], [!DNL POODLE] et [!DNL WannaCry]/[!DNL Petya]). Lorsqu&#39;une vulnérabilité a un impact à grande échelle, ces noms deviennent publics lorsque les vulnérabilités sont divulguées.
+Les chercheurs de failles et les concepteurs d’exploits donnent à leurs projets un nom interne facilitant leur référencement, (par exemple, [!DNL ShellShock], [!DNL Heartbleed], [!DNL POODLE], et [!DNL WannaCry]/[!DNL Petya]). Lorsqu’une faille a un impact significatif, ces noms deviennent publics au moment de la divulgation des vulnérabilités.
 
-### Comment afficher les vulnérabilités nommées identifiées par [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
+### Comment visualiser les vulnérabilités nommées identifiées par [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Accédez à [status.adobe.com](https://status.adobe.com/), puis cliquez sur **[!UICONTROL Security]**.
+1. Accédez à [status.adobe.com](https://status.adobe.com/), puis cliquez sur **[!UICONTROL Sécurité]**.
 
-## Pourquoi est-ce important ? {#why-is-this-important}
+## Pourquoi est-ce important ? {#why-is-this-important}
 
-Les administrateurs réseau soucieux de la sécurité doivent connaître le site État et les vulnérabilités nommées identifiées par Workfront.
+Toute personne chargée de l’administration du réseau et consciente de l’importance de la sécurité devrait être familière avec le site des statuts ainsi que les vulnérabilités identifiées par Workfront.
 
-Lorsque des vulnérabilités d’impact importantes sont divulguées, il est impératif de s’assurer que vos fournisseurs sont informés et de garder vos données protégées.
+En cas de divulgation de vulnérabilités à fort impact, il est crucial de vérifier que vos fournisseurs sont informés et prennent les mesures nécessaires pour protéger vos données.
 
-Le site État propose un journal actuel de ces vulnérabilités que vous pouvez atteindre à tout moment, où vous pouvez éviter d’attendre en enregistrant un ticket ou en contactant votre gestionnaire de compte pour obtenir ces informations.
+Le site des statuts offre un journal actualisé de ces vulnérabilités que vous pouvez consulter à tout moment, vous dispensant ainsi de créer un ticket ou de contacter votre personne gestionnaire de compte pour obtenir ces informations.

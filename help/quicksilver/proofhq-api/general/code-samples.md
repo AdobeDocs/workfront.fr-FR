@@ -1,6 +1,6 @@
 ---
-title: Exemples de code
-description: Exemples de code
+title: Échantillons de code
+description: Échantillons de code
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
@@ -11,12 +11,12 @@ hidefromtoc: true
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '18'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# Exemples de code
+# Échantillons de code
 
-SOUS CONSTRUCTION
+EN COURS DE DÉVELOPPEMENT
 
-Des exemples de code pour l’API ProofHQ sont actuellement en construction.
+Des exemples de code pour l’API ProofHQ sont actuellement en cours de développement.

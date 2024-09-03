@@ -3,41 +3,41 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Dépannage pour les autorisations de gestionnaire d’épreuve Workfront
-description: Les profils d’autorisation disponibles dans  [!DNL Adobe] Workfront pour les utilisateurs de la vérification sont Administrateur, Superviseur et Gestionnaire.
+title: Résolution des problèmes d’autorisations de gestion Workfront Proof
+description: Les profils d’autorisation disponibles dans  [!DNL Adobe]  Workfront pour les utilisateurs et utilisatrices de la relecture Workfront sont Administration, Supervision et Gestion.
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
 source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Résolution des problèmes d’autorisations [!UICONTROL [!DNL Workfront] du Gestionnaire de BAT]
+# Résolutions des problèmes d’autorisations de gestion [!UICONTROL [!DNL Workfront] Proof]
 
-Vous trouverez ci-dessous les profils d’autorisation disponibles dans [!DNL Adobe Workfront] pour les utilisateurs de la vérification :
+Vous trouverez ci-dessous les profils d’autorisation disponibles dans [!DNL Adobe Workfront] pour les utilisateurs et utilisatrices de la relecture :
 
-* [!UICONTROL Administrateur]
-* [!UICONTROL Superviseur]
-* [!UICONTROL Manager]
+* [!UICONTROL Administration]
+* [!UICONTROL Superviseur ou superviseuse]
+* [!UICONTROL Gestion]
 
 <!--For detailed information about these options and how to configure them, see .-->
 
-Lors de l’octroi d’autorisations [!UICONTROL Manager] à un utilisateur, les informations de dépannage suivantes sont disponibles :
+Lorsqu’un utilisateur ou une utilisatrice reçoit les autorisations de [!UICONTROL gestion], les informations de dépannage suivantes sont disponibles :
 
-* **PROBLÈME :** Les utilisateurs disposant des autorisations [!UICONTROL Manager] ne peuvent pas afficher les bons à tirer créés par d’autres utilisateurs. À la place, ils voient l’écran [!UICONTROL Accès refusé].
+* **PROBLÈME :** les utilisateurs et utilisatrices avec des autorisations de [!UICONTROL gestion] ne peuvent pas afficher les épreuves créées par d’autres personnes. Au lieu de cela, ils voient l’écran [!UICONTROL Accès refusé].
 
   ![](assets/access-denied-350x161.png)
 
-  **SOLUTION :** Les utilisateurs disposant des autorisations [!UICONTROL Manager] doivent être explicitement ajoutés aux bons à tirer. Les bons à tirer doivent toujours être créés à partir de la fenêtre [!UICONTROL Options de vérification avancées] et les utilisateurs doivent toujours être ajoutés à partir de cette option.
+  **SOLUTION :** les utilisateurs et utilisatrices avec des autorisations de [!UICONTROL gestion] doivent être explicitement ajoutés aux épreuves. Les épreuves doivent toujours être créées à partir des [!UICONTROL Options de relecture avancée] et les utilisateurs et utilisatrices doivent toujours être ajoutés via cette option.
 
-* **PROBLÈME :** Les utilisateurs disposant des autorisations [!UICONTROL Manager] ne peuvent pas ajouter de versions de BAT aux bons à tirer créés par d’autres utilisateurs (ils peuvent éventuellement envoyer un BAT dans l’ensemble de documents, mais les versions ne seraient PAS connectées à l’ensemble d’origine créé par un autre utilisateur).\
-   **SOLUTION :** Les utilisateurs disposant d’autorisations [!UICONTROL Manager] peuvent envoyer les versions au BAT d’un autre utilisateur uniquement si l’utilisateur disposant d’autorisations [!UICONTROL Manager] lorsque les deux conditions suivantes sont réunies :
+* **PROBLÈME :** les utilisateurs et utilisatrices avec des autorisations de [!UICONTROL gestion] ne peuvent pas ajouter de versions aux épreuves créées par d’autres personnes (ils peuvent éventuellement envoyer une épreuve dans l’ensemble de documents, mais les versions ne seraient PAS connectées à l’ensemble d’origine créé par une autre personne).\
+   **SOLUTION :** les personnes avec des autorisations de [!UICONTROL gestion] ne peuvent envoyer les versions à l’épreuve d’une autre personne que si les personnes disposant des autorisations de [!UICONTROL gestion] remplissent les deux conditions suivantes :
 
-   * Explicitement ajouté aux bons à tirer
-   * Défini comme [!UICONTROL Auteurs] (rôle de BAT) sur les bons à tirer
+   * Elles ont été explicitement ajoutées aux épreuves.
+   * Elles ont été définies comme [!UICONTROL Auteurs et autrices] (rôle d’épreuve) sur les épreuves.
 
-* **PROBLÈME :** Les utilisateurs disposant des autorisations [!UICONTROL Manager] ne peuvent pas modifier les commentaires d’autres utilisateurs sur un BAT qu’ils ne détiennent pas ou qu’ils n’ont pas créé.\
-   **SOLUTION :** Si les utilisateurs disposant des autorisations [!UICONTROL Manager] ne possèdent pas les bons à tirer, mais doivent pouvoir modifier les commentaires, ajoutez-les en tant que [!UICONTROL Auteurs] (ou [!UICONTROL Modérateurs]).\
-   Ces trois types d’autorisations sont disponibles dans [!DNL Workfront] pour les licences de type [!UICONTROL Planner], [!UICONTROL Worker], [!UICONTROL Requester], [!UICONTROL Reviewer]. L’administrateur système ou l’administrateur utilisateur de [!DNL Workfront] peut modifier les profils des utilisateurs et y ajuster les autorisations [!DNL Workfront Proof].
+* **PROBLÈME :** les utilisateurs et utilisatrices avec des autorisations de [!UICONTROL gestion] ne peuvent pas modifier les commentaires d’autres personnes sur une épreuve qu’ils ne possèdent pas ou qu’ils n’ont pas créée.\
+   **SOLUTION :** si les utilisateurs et utilisatrices disposant d’autorisations de [!UICONTROL gestion] ne sont pas propriétaires des épreuves, mais qu’ils doivent pouvoir modifier les commentaires, ajoutez-les en tant qu’[!UICONTROL Auteurs et autrices] (ou [!UICONTROL Modérateurs et modératrices]).\
+   Ces trois types d’autorisations sont disponibles dans [!DNL Workfront] pour les types de licences [!UICONTROL Planification], [!UICONTROL Personne employée], [!UICONTROL Demande], [!UICONTROL Révision]. Les administrateurs et administratrices système ou des utilisateurs et utilisatrices dans [!DNL Workfront] peuvent modifier les profils des utilisateurs et utilisatrices et ajuster les autorisations [!DNL Workfront Proof] à partir des profils.

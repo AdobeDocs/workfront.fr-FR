@@ -2,8 +2,8 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Exécution d’une action personnalisée
-description: Exécution d’une action personnalisée
+title: Effectuer une action personnalisée
+description: Effectuer une action personnalisée
 author: Becky
 feature: Workfront API
 role: Developer
@@ -11,18 +11,18 @@ exl-id: a18b6b97-ee1e-4ad2-a4e1-00a644a0f4f2
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 
-# Effectuer une action personnalisée (pas encore implémenté)
+# Exécuter une action personnalisée (pas encore implémentée)
 
-Ce point de terminaison permet à un utilisateur Adobe Workfront (ou à un événement de workflow automatisé) d’effectuer une action dans le système externe. Le point d’entrée /customAction accepte un paramètre &quot;name&quot;, qui permet au fournisseur webhook d’implémenter plusieurs opérations personnalisées.
+Ce point d’entrée permet à un utilisateur ou une utilisatrice Adobe Workfront (ou à un événement de workflow automatisé) d’effectuer une action dans le système externe. Le point d’entrée /customAction accepte un paramètre « nom », qui permet au fournisseur du webhook de mettre en œuvre plusieurs opérations personnalisées.
 
-Le fournisseur de webhook enregistre des actions personnalisées avec Workfront en incluant les actions dans la réponse /serviceInfo sous customActions. Workfront charge cette liste lors de la configuration ou de l’actualisation du fournisseur webhook sous Configuration > Documents > Intégrations personnalisées.
+Le fournisseur du webhook enregistre les actions personnalisées avec Workfront en incluant les actions dans la réponse /serviceInfo dans customActions. Workfront charge cette liste lors de la configuration ou de l’actualisation du fournisseur du webhook dans Configuration > Documents > Intégrations personnalisées.
 
-Les utilisateurs peuvent déclencher l’action personnalisée en sélectionnant la section située sous &quot;Actions de document&quot;.
+Les utilisateurs et utilisatrices peuvent déclencher l’action personnalisée en sélectionnant la section dans « Actions sur le document ».
 
 **URL**
 
@@ -35,22 +35,22 @@ GET /customAction
  <col> 
  <thead> 
   <tr> 
-   <th>Nom </th> 
+   <th>Nom</th> 
    <th>Description</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>name</p> </td> 
-   <td> <p>Identifiant spécifiant le type d’action à effectuer. Cette valeur correspond à l’une des valeurs customAction répertoriées par le point d’entrée /serviceInfo .</p> </td> 
+   <td> <p>Identifiant spécifiant le type d’action à effectuer. Cette valeur correspond à l’une des valeurs customAction répertoriées par le point d’entrée /serviceInfo.</p> </td> 
   </tr> 
   <tr> 
-   <td>documentId </td> 
-   <td>Identifiant du document de travail pour lequel l’action est en cours d’exécution.</td> 
+   <td>documentId</td> 
+   <td>Identifiant du document Workfront pour lequel l’action est effectuée.</td> 
   </tr> 
   <tr> 
-   <td>documentVersionId </td> 
-   <td> Identifiant de version de document du plan de travail pour lequel l’action est effectuée.</td> 
+   <td>documentVersionId</td> 
+   <td>Identifiant de la version du document Workfront pour lequel l’action est effectuée.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ GET /customAction
 
 ## Réponse
 
-Chaîne JSON indiquant la réussite ou l’échec, comme indiqué dans la section Gestion des erreurs ci-dessous. En cas d’échec (c.-à-d. status = &quot;failure&quot;), Workfront affiche le message d’erreur fourni à l’utilisateur.
+Chaîne JSON indiquant le succès ou l’échec, tel que spécifié dans la section Gestion des erreurs ci-dessous. En cas d’échec (c’est-à-dire si le statut = «échec »), Workfront affichera le message d’erreur envoyé à l’utilisateur ou l’utilisatrice.
 
 **Exemple :**
 

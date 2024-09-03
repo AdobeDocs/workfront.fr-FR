@@ -11,7 +11,7 @@ exl-id: b56ec13a-1ee1-4bef-b39b-e625d00e4952
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ PUT /delete
 
 ## Paramètres de requête
 
-| Nom  | Description |
+| Nom | Description |
 |---|---|
-| documentId  | ID du document à supprimer |
-| folderId  |  ID de dossier à supprimer |
+| documentId | Identifiant du document à supprimer |
+| folderId | Identifiant du dossier à supprimer |
 
 
 
 ## Réponse
 
-Chaîne JSON indiquant la réussite ou l’échec, comme indiqué dans la section Gestion des erreurs ci-dessous.
+Chaîne JSON indiquant le succès ou l’échec, tel que spécifié dans la section Gestion des erreurs ci-dessous.
 
 ### Exemple
 

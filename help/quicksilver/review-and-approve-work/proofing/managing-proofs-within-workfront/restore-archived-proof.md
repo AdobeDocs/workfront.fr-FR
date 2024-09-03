@@ -2,55 +2,55 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Restaurer une épreuve archivée
-description: Un BAT est automatiquement archivé lorsqu’il n’est pas ouvert pendant 60 jours consécutifs. Les bons à tirer archivés s’affichent toujours dans la liste des documents de la même manière qu’avant l’archivage du BAT.
+description: Une épreuve est automatiquement archivée lorsqu’elle n’est pas ouverte pendant 60 jours consécutifs. Les épreuves archivées restent visibles dans la liste des documents, comme avant leur archivage.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
 source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # Restaurer une épreuve archivée
 
-Un BAT est automatiquement archivé lorsqu’il n’est pas ouvert pendant 60 jours consécutifs. Les bons à tirer archivés s’affichent toujours dans la liste des documents de la même manière qu’avant l’archivage du BAT.
+Une épreuve est automatiquement archivée lorsqu’elle n’est pas ouverte pendant 60 jours consécutifs. Les épreuves archivées restent visibles dans la liste des documents, comme avant leur archivage.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Formule héritée : Select ou Premium</p> <p>Pour plus d’informations sur la relecture de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Accès au BAT </td> 
-   <td>Invité ou version ultérieure</td> 
+   <td role="rowheader">Accès à l’épreuve </td> 
+   <td>Invité ou invitée ou niveau supérieur</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; Pour connaître le plan ou l&#39;accès au BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+&#42;Pour connaître la formule ou l’accès à l’épreuve dont vous disposez, contactez l’équipe d’administration de Workfront ou de Workfront Proof.
 
 +++
 
 ## Restaurer une épreuve archivée
 
-Tout utilisateur, même les réviseurs invités, peut restaurer un BAT archivé.
+Toutes les personnes, même les personnes invitées chargées de la révision, peuvent restaurer une épreuve archivée.
 
-1. Accédez au document contenant le BAT archivé auquel vous souhaitez accéder.
-1. Cliquez sur **Ouvrir le BAT**.
+1. Accédez au document contenant l’épreuve archivée à laquelle vous souhaitez accéder.
+1. Cliquez sur **Ouvrir l’épreuve**.
 
-   Une page s’affiche, expliquant que le BAT a été archivé.
+   Une page s’affiche, expliquant que l’épreuve a été archivée.
 
-1. Cliquez sur **Désarchiver** pour désarchiver le BAT.
-1. Actualisez le navigateur, puis cliquez de nouveau sur **BAT**.
+1. Cliquez sur **Désarchiver** pour désarchiver l’épreuve.
+1. Actualisez le navigateur, puis cliquez sur **Épreuve** encore une fois.

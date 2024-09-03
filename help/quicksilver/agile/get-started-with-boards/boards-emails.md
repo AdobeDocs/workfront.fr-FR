@@ -3,22 +3,22 @@ filename: boards-emails
 content-type: reference
 navigation-topic: boards
 title: Notifications et préférences par e-mail des panoramas
-description: Les panoramas Adobe Workfront vous envoient un e-mail lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée.
+description: Les panoramas Adobe Workfront vous envoient un e-mail lorsque vous faites l’objet d’un ajout à un panorama et lorsqu’une carte vous est attribuée.
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
 source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 26%
+ht-degree: 97%
 
 ---
 
 # Notifications par e-mail et préférences des panoramas
 
-[!DNL Adobe Workfront] [!UICONTROL Panoramas] vous envoie un courrier électronique lorsque vous êtes ajouté à un panorama et lorsqu’une carte vous est attribuée. Les notifications sont activées par défaut et vous pouvez sélectionner dans les préférences de votre panorama les emails que vous souhaitez recevoir.
+Les [!UICONTROL panoramas] [!DNL Adobe Workfront] vous envoient un e-mail lorsque vous faites l’objet d’un ajout à un panorama et lorsqu’une carte vous est attribuée. Les notifications sont activées par défaut et vous pouvez sélectionner dans les préférences de vos panoramas les e-mails que vous souhaitez recevoir.
 
-Vous recevrez également un e-mail lorsque vous êtes balisé dans un commentaire sur une carte connectée, selon les paramètres de votre notification électronique. Pour plus d’informations, voir [Modification de vos propres notifications électroniques](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Actuellement, les utilisateurs balisés dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par courrier électronique.
+Vous recevrez également un e-mail lorsque vous faites l’objet d’un tag dans un commentaire sur une carte connectée, selon vos paramètres de notification par e-mail. Pour plus d’informations, consultez [Modifier vos propres notifications par e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Actuellement, les utilisateurs et utilisatrices tagués dans les commentaires sur les cartes ad hoc ne reçoivent pas de notification par e-mail.
 
 ## Conditions d’accès
 
@@ -32,33 +32,33 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront]</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td> 
    <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
    <p>ou</p>
-   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Définition des préférences pour les emails des panoramas
+## Définir les préférences pour les e-mails des panoramas
 
 {{step1-to-boards}}
 
 1. Cliquez sur [!UICONTROL **Préférences**] dans le tableau de bord des panoramas.
-1. Indiquez si vous souhaitez recevoir des e-mails pour être ajouté à un panorama et affecté à une carte.
+1. Indiquez si vous souhaitez recevoir des e-mails lorsque vous faites l’objet d’un ajout à un panorama et d’une affectation à une carte.
 
-   ![Préférences de messagerie des panoramas](assets/boards-email-preferences.png)
+   ![Préférences pour les e-mails des panoramas](assets/boards-email-preferences.png)
 
-   Les préférences que vous définissez pour les emails s’appliquent à tous vos panoramas.
+   Les préférences que vous définissez pour les e-mails s’appliquent à tous vos panoramas.
 
 <!--
 

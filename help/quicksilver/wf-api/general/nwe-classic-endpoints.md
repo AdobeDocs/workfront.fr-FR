@@ -7,7 +7,7 @@ role: Developer
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -21,31 +21,31 @@ ht-degree: 63%
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>[Any, Pro, Business, Enterprise] ou version ultérieure</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>[Any, Pro, Business, Enterprise] ou de niveau supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>[Demande, révision, travail, plan] ou version ultérieure</p> </td> 
+   <td> <p>[Request, Review, Work, Plan] ou de niveau supérieur</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
-   <td>[Spécifiez les informations spéciales sur les produits. Supprimez cette ligne si la fonctionnalité se trouve dans Workfront Proper]</td> 
+   <td>[Précisez les informations spéciales sur le produit. Supprimez cette ligne si la fonctionnalité est effectivement dans Workfront.]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
    <td> <p>[Insérer toutes les configurations de niveau d’accès nécessaires] <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         Example: Edit access to Documents 
       </MadCap:conditionalText>
-     --></p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> <!--
+     --></p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
@@ -53,11 +53,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>[Insérez les autorisations nécessaires et spécifiez l’objet] <!--
+   <td> <p>[Insérer les autorisations nécessaires et indiquer l’objet] <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         Example: View access or higher on Documents 
       </MadCap:conditionalText>
-     --></p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+     --></p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir la section <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Avant de commencer, vous devez
 <p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong> <br>Use a bullet list to describe the prerequisites needed to complete the task or tasks below. If there are no prerequisites, delete the entire section. </p>
 -->
 
-* [Liste des prérequis]
+* [Lister les conditions préalables]
 
 ## [Titre de la tâche]
 

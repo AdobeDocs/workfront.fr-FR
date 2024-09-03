@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Créer une épreuve pour un document
-description: Vous pouvez générer un BAT pour un document au moment où vous le téléchargez vers Workfront. Vous pouvez également générer un BAT pour un document déjà téléchargé dans Adobe Workfront ou pour une nouvelle version d’un BAT déjà téléchargé dans Workfront.
+description: Vous pouvez générer une épreuve pour un document au moment où vous le chargez dans Workfront. Vous pouvez également générer une épreuve pour un document déjà téléchargé dans Adobe Workfront ou pour une nouvelle version d’une épreuve déjà présente dans Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
 source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 12%
 
 <!-- Audited: 1/2024 -->
 
-Vous pouvez générer un BAT pour un document au moment où vous le téléchargez vers Workfront.
+Vous pouvez générer une épreuve pour un document au moment où vous le chargez dans Workfront.
 
-Vous pouvez également générer un BAT pour un document déjà téléchargé dans Adobe Workfront ou pour une nouvelle version d’un BAT déjà téléchargé dans Workfront.
+Vous pouvez également générer une épreuve pour un document déjà téléchargé dans Adobe Workfront ou pour une nouvelle version d’une épreuve déjà présente dans Workfront.
 
 <!--
 If a proof fails to generate after following the steps described in the following sections, see [Troubleshoot proof creation failures](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/troubleshooting-proof-creation-failures.md).
@@ -29,104 +29,104 @@ If a proof fails to generate after following the steps described in the followin
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
    <td> 
    <p>Nouveau : Tous </p>
-   <p>Actuel : Pro ou supérieur</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <p>Actuel : Pro ou supérieur</p> <p>Formule héritée : Select ou Premium</p> <p>Pour plus d’informations sur la relecture de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Nouvelle : standard</p>
-   <p>Actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <p>Nouveau : Standard</p>
+   <p>Actuelle : travail ou plan</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
-   <td>Manager ou version ultérieure</td> 
+   <td>Manager ou version supérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux documents</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Télécharger un document et créer un BAT
+## Charger un document et créer une épreuve
 
-1. Accédez au projet, à la tâche ou au problème où vous souhaitez créer un BAT.
-1. Cliquez sur l’onglet **Documents** .
+1. Accédez au projet, à la tâche ou au problème pour qui vous souhaitez créer une épreuve.
+1. Cliquez sur l’onglet **Documents**.
 1. Cliquez sur Documents ![](assets/document-icon.png) dans le panneau de gauche.
-1. Cliquez sur **Ajouter nouveau**, puis sur **Bon à tirer** dans le menu qui s’affiche.
+1. Cliquez sur **Ajouter**, puis sur **Épreuve** dans le menu qui apparaît.
 
    >[!TIP]
    >
-   >Vous pouvez activer le paramètre **Générer automatiquement des bons à tirer lors du téléchargement de documents** dans votre profil utilisateur pour automatiser ce processus. Pour plus d’informations, voir [Configuration de mes paramètres](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
+   >Vous pouvez activer le paramètre **Générer automatiquement des épreuves lors du chargement de documents** dans votre profil d’utilisateur ou d’utilisatrice pour automatiser ce processus. Pour plus d’informations, voir [Configurer mes paramètres](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-1. Dans la page **New BAT** qui s’affiche, vous pouvez
+1. Dans la page **Nouvelle épreuve** qui s’affiche, vous pouvez effectuer ce qui suit :
 
-   * [Créer un BAT avancé avec un workflow de base](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   * [Créer une épreuve avancée avec un workflow de base](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Créer une épreuve avancée avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
-## Télécharger un document et créer une version d’un BAT
+## Charger un document et créer une nouvelle version d’une épreuve
 
-1. Accédez au projet, à la tâche ou au problème où vous souhaitez créer une nouvelle version d’un BAT existant.
-1. Cliquez sur l’onglet **Documents** .
+1. Accédez au projet, à la tâche ou au problème pour qui vous souhaitez créer une nouvelle version d’une épreuve existante.
+1. Cliquez sur l’onglet **Documents**.
 1. Sélectionnez le document dans lequel vous souhaitez ajouter une nouvelle version.
-1. Cliquez sur **Ajouter nouveau** > **Version** > **Bon à tirer**.
-1. Dans la page **Nouvelle version de BAT** qui s’affiche, vous pouvez
+1. Cliquez sur **Ajouter** > **Version** > **Épreuve**.
+1. Dans la page **Nouvelle version d’épreuve** qui s’affiche, vous pouvez effectuer ce qui suit :
 
-   * [Créer un BAT avancé avec un workflow de base](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   * [Créer une épreuve avancée avec un workflow de base](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Créer une épreuve avancée avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
-## Utilisez le glisser-déposer pour générer un BAT simple pour une nouvelle version.
+## Faire glisser et déposer pour générer une épreuve simple pour une nouvelle version
 
-Vous pouvez faire glisser et déposer un document depuis votre système de fichiers (tel que votre bureau) pour créer un BAT ou une nouvelle version d’un BAT existant. Le BAT contient les paramètres suivants, selon que vous créez un BAT ou une nouvelle version :
+Vous pouvez faire glisser et déposer un document à partir de votre système de fichiers (comme votre bureau) pour créer une épreuve ou une nouvelle version d’une épreuve existante. L’épreuve contient les paramètres suivants, selon que vous créez une épreuve ou une nouvelle version :
 
-* **Nouveau BAT :** Crée un BAT simple qui est partagé uniquement avec vous. Vous pouvez modifier les paramètres de partage après la création du BAT, comme décrit dans la section [Modifier les paramètres du BAT](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+* **Nouvelle épreuve :** crée une épreuve simple qui n’est partagée qu’avec vous.Vous pouvez modifier les paramètres de partage après la création de l’épreuve, comme décrit dans [Modifier les paramètres de l’épreuve](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
-* **Nouvelle version du BAT existant :** crée une nouvelle version avec les mêmes paramètres de BAT que la version précédente.
+* **Nouvelle version d’une épreuve existante :** crée une nouvelle version avec les mêmes paramètres d’épreuve que la version précédente.
 
-Pour utiliser la fonction glisser-déposer afin de générer un nouveau BAT ou une nouvelle version de BAT :
+Pour utiliser la fonction glisser-déposer afin de générer une nouvelle épreuve ou une nouvelle version d’épreuve :
 
-1. Assurez-vous que les bons à tirer sont configurés pour être générés automatiquement, comme décrit dans la section .
-1. Passez à la  [Ajoutez des documents à Adobe Workfront à partir de votre système de fichiers](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), ce qui explique la méthode de glisser-déposer pour ajouter des documents. 
+1. Assurez-vous que les épreuves sont configurées pour être générées automatiquement, comme décrit dans .
+1. Passez à [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), dans lequel est expliqué comment ajouter des documents à l’aide de la fonction glisser-déposer.
 
-## Créer un BAT pour un document existant
+## Créer une épreuve pour un document existant
 
-1. Accédez au projet, à la tâche ou à l’emplacement où vous souhaitez obtenir le BAT, puis cliquez sur la section **Documents** .
-1. Passez la souris sur le document, puis cliquez sur le lien **Créer un bon à tirer** qui apparaît sous le nom du document.
+1. Accédez au projet, à la tâche ou au problème pour qui vous souhaitez créer une épreuve, puis cliquez sur la section **Documents**.
+1. Passez la souris sur le document, puis cliquez sur le lien **Créer une épreuve** qui apparaît sous le nom du document.
 
    >[!NOTE]
    >
-   >Si **Générer automatiquement des bons à tirer lors du téléchargement de documents** est activé dans votre profil utilisateur, le système crée automatiquement un bon à tirer simple.
+   >Si vous avez activé l’option **Générer automatiquement des épreuves lors du chargement de documents** dans votre profil utilisateur, le système crée automatiquement une épreuve simple.
 
-1. Sélectionnez l’une des options suivantes :
+1. Choisissez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Bon à tirer simple</td> 
-      <td>Cette option crée un BAT sans workflow associé et applique les paramètres de BAT par défaut. Vous pouvez mettre à jour les paramètres de BAT par défaut ou ajouter un workflow après avoir créé le BAT. Pour plus d’informations sur les paramètres du BAT, voir <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Modifier les paramètres du BAT</a>.</td> 
+      <td role="rowheader">Épreuve simple</td> 
+      <td>Cette option crée une épreuve sans workflow associé et applique les paramètres d’épreuve par défaut. Vous pouvez mettre à jour les paramètres d’épreuve par défaut ou ajouter un workflow après avoir créé l’épreuve. Pour plus d’informations sur les paramètres d’épreuve, consultez <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Modification des paramètres d’épreuve</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Bon à tirer avancé</td> 
-      <td> <p>Cette option vous permet de configurer un workflow de base ou avancé et de modifier les paramètres du BAT que vous créez. Pour plus d’informations, voir </p> 
+      <td role="rowheader">Épreuve avancée</td> 
+      <td> <p>Cette option vous permet de configurer un workflow de base ou avancé et de modifier les paramètres de l’épreuve que vous créez. Pour plus d’informations, consultez les ressources suivantes : </p> 
        <ul> 
-        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Créer un BAT avancé avec un workflow de base</a> </p> </li> 
-        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Créer un BAT avancé avec un workflow automatisé</a> </p> </li> 
+        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Créer une épreuve avancée avec un workflow de base</a> </p> </li> 
+        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Créer une épreuve avancée avec un workflow automatisé</a> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

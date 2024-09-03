@@ -2,8 +2,8 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Authentification de Document Webhooks
-description: Authentification de Document Webhooks
+title: Authentification pour Document Webhooks
+description: Authentification pour Document Webhooks
 author: Becky
 feature: Workfront API
 role: Developer
@@ -11,30 +11,30 @@ exl-id: 2303c202-27c7-4922-a613-e9824910504c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Authentification de Document Webhooks
+# Authentification pour Document Webhooks
 
 ## Authentification
 
-Les webhooks de documents Adobe Workfront prennent en charge deux formes d’authentification différentes : OAuth2 et ApiKey. Dans les deux cas, Workfront transmet des jetons d’authentification dans l’en-tête lors d’un appel API.
+Adobe Workfront Document Webhooks prend en charge deux formes d’authentification différentes : OAuth2 et ApiKey. Dans les deux cas, Workfront transmet des jetons d’authentification dans l’en-tête lors d’un appel API.
 
 ### OAuth2
 
-OAuth2 permet à Workfront d’effectuer des appels API autorisés à un fournisseur de webhook au nom d’un utilisateur. Avant cela, l’utilisateur doit connecter son compte de fournisseur de documents externe à Workfront et octroyer Workfront.
+OAuth2 permet à Workfront d’effectuer des appels API autorisés à un fournisseur de webhooks au nom d’un utilisateur ou d’une utilisatrice. Avant cela, l’utilisateur ou l’utilisatrice doit connecter son compte de fournisseur de documents externe à Workfront et octroyer à Workfront l’accès
 
-l&#39;accès pour agir en leur nom. Ce processus de prise en main ne se produit qu’une seule fois pour chaque utilisateur. Voici comment cela fonctionne :
+pour agir en son nom. Ce processus de liaison ne s’opère qu’une seule fois pour chaque personne. Voici comment cela fonctionne :
 
-1. L’utilisateur commence à connecter l’intégration webhook à son compte. Pour ce faire, cliquez sur la liste déroulante &quot;Ajouter un document&quot; > &quot;Ajouter un service&quot; > Nom de l’intégration personnalisée.
-1. Workfront navigue dans l’URL d’authentification de l’utilisateur, ce qui peut l’inviter à se connecter au fournisseur de documents externe. Cette page est hébergée par le fournisseur webhook ou le système externe de gestion des documents. Dans ce cas, Workfront ajoute un paramètre &quot;state&quot; à l’URL d’authentification. Cette valeur doit être retransmise à Workfront en ajoutant la même valeur à l’URI de retour Workfront à l’étape ci-dessous.
-1. Une fois connecté au système externe (ou si l’utilisateur est déjà connecté), il est dirigé vers une page &quot;Authentification&quot;, ce qui explique que Workfront demande l’accès pour effectuer un ensemble d’actions pour le compte de l’utilisateur.
-1. Si l’utilisateur clique sur le bouton &quot;Autoriser&quot;, le navigateur effectue une redirection vers l’ URI de redirection Workfront , en ajoutant &quot;code=`<code>`&quot; à la chaîne de requête. Selon la spécification OAuth2, ce jeton est de courte durée. La chaîne de requête doit également comporter le paramètre &quot;state=`<sent_by_workfront>`&quot; suivant.
-1. Workfront traite cette requête et effectue un appel API vers l’URL du point de terminaison du jeton avec le code d’autorisation.
-1. L’URL Token Endpoint renvoie un jeton d’actualisation et un jeton d’accès.
-1. Workfront stocke ces jetons et fournit entièrement l’intégration de webhook pour cet utilisateur.
-1. À partir de ce moment, Workfront pourra effectuer des appels API autorisés au fournisseur webhook. Lors de ces appels, Workfront enverra le jeton d’accès dans l’en-tête de requête HTTP comme illustré ci-dessous :
+1. La personne commence la procédure de connexion de l’intégration webhook à son compte. La méthode actuelle pour effectuer cette opération consiste à cliquer sur la liste déroulante « Ajouter un document » > « Ajouter un service » > Nom de l’intégration personnalisée.
+1. Workfront dirige la personne vers l’URL d’authentification, ce qui peut l’inviter à se connecter au fournisseur de documents externe. Cette page est hébergée par le fournisseur de webhooks ou le système externe de gestion des documents. Dans ce cas, Workfront ajoute le paramètre « state » à l’URL d’authentification. Cette valeur doit être renvoyée à Workfront en ajoutant la même valeur à l’URI de retour Workfront lors de l’étape ci-dessous.
+1. Une fois connectée au système externe (ou si elle est déjà connectée), la personne est dirigée vers une page « Authentification », ce qui explique pourquoi Workfront demande l’accès pour effectuer une série d’actions pour le compte de la personne.
+1. Si l’utilisateur ou l’utilisatrice clique sur le bouton « Autoriser », le navigateur redirige vers l’URI de redirection Workfront, en ajoutant « code=`<code>` » à la chaîne de requête. Du fait de la spécification OAuth2, ce jeton est de courte durée. La chaîne de requête doit également comporter le paramètre « state=`<sent_by_workfront>` ».
+1. Workfront traite cette requête et effectue un appel API vers l’URL de point d’entrée du jeton avec le code d’autorisation.
+1. L’URL de point d’entrée du jeton renvoie un jeton d’actualisation et un jeton d’accès.
+1. Workfront stocke ces jetons et fournit une intégration des webhooks complète pour cette personne.
+1. Désormais, Workfront peut effectuer des appels API autorisés vers le fournisseur de webhooks.Lors de ces appels, Workfront envoie le jeton d’accès dans l’en-tête de requête HTTP comme indiqué ci-dessous :
 
    ```
    -------------------------------  
@@ -42,11 +42,11 @@ l&#39;accès pour agir en leur nom. Ce processus de prise en main ne se produit 
    -------------------------------
    ```
 
-1. Si le jeton d’accès a expiré, Workfront appelle l’URL du point d’entrée du jeton pour récupérer un nouveau jeton d’accès, puis tente de nouveau l’appel API autorisé avec le nouveau jeton d’accès.
+1. Si le jeton d’accès a expiré, Workfront appelle l’URL de point d’entrée du jeton pour récupérer un nouveau jeton d’accès, puis effectue une nouvelle tentative d’appel API autorisé avec le nouveau jeton d’accès.
 
 ### ApiKey
 
-Il est beaucoup plus simple d’effectuer des appels API autorisés à un fournisseur webhook à l’aide d’une ApiKey que OAuth2. Lors d’un appel API, Workfront transmet simplement le nom d’utilisateur ApiKey et Workfront dans l’en-tête de la requête HTTP : 
+Il est beaucoup plus simple d’effectuer des appels API autorisés vers un fournisseur de webhooks avec ApiKey plutôt qu’avec OAuth2. Lors d’un appel API, Workfront transmet simplement les noms d’utilisateur ou d’utilisatrice ApiKey et Workfront dans l’en-tête de la requête HTTP :
 
 ```
 -------------------------------
@@ -58,7 +58,7 @@ username: johndoe@foo.com
 -------------------------------
 ```
 
-Le fournisseur Webhook peut utiliser le nom d’utilisateur pour appliquer des autorisations spécifiques à l’utilisateur. Cela fonctionne mieux lorsque les deux systèmes se connectent à LDAP à l’aide de l’authentification unique (SSO).
+Le fournisseur de webhooks peut utiliser le nom d’utilisateur ou d’utilisatrice pour accorder des autorisations spécifiques à l’utilisateur ou l’utilisatrice. L’efficacité est optimale lorsque les deux systèmes se connectent à LDAP à l’aide de l’authentification unique (SSO).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

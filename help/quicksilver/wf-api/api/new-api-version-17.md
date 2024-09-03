@@ -2,7 +2,7 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Nouveautés de la version 17 de l’API
-description: Adobe Workfront a publié la version 17 de l’API le jeudi 6 avril 2022. La version 17 de l’API comprend les modifications suivantes par rapport à la version 15.
+description: Adobe Workfront a publié la version 17 de l’API le 6 avril 2022. La version 17 de l’API comprend les modifications suivantes par rapport à la version 15.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,13 +10,13 @@ exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
 # Nouveautés de la version 17 de l’API
 
-Adobe Workfront a publié la version 17 de l’API le vendredi 12 octobre 2023. La version 17 de l’API comprend les modifications suivantes par rapport à la version 16.
+Adobe Workfront a publié la verison 17 de l’API le 12 octobre 2023. La versions 17 de l’API comprend les modifications suivantes par rapport à la version 16.
 
 ## Ressources ajoutées
 
@@ -28,7 +28,7 @@ Adobe Workfront a publié la version 17 de l’API le vendredi 12 octobre 2023
 
 ### ExternalDocument (EXTDOC)
 
-Un objet ExternalDocument est un document ou une autre ressource numérique qui se trouve dans un fournisseur de stockage de documents externe à Workfront. Ces ressources peuvent être liées à et depuis Workfront.
+Un objet ExternalDocument est un document ou une autre ressource numérique qui se trouve chez un fournisseur de stockage de documents externe à Workfront. Ces ressources peuvent être liées à Workfront.
 
 <table>
   <col/>
@@ -160,7 +160,7 @@ Un objet ExternalDocument est un document ou une autre ressource numérique qui 
       <td role="rowheader">Champs de référence</td>
       <td>
         <ul>
-          <li><p><b>client</b></p></li>
+          <li><p><b>customer</b></p></li>
           <li><p><b>utilisateur</b></p></li>
         </ul>
       </td>
@@ -179,11 +179,11 @@ Un objet ExternalDocument est un document ou une autre ressource numérique qui 
 
 ## Ressources supprimées
 
-Aucune ressource n’a été supprimée pour la version 17 de l’API.
+Aucune ressource n’a été supprimée pour l’API version 17.
 
 ## Ressources modifiées
 
-Les ressources suivantes ont été modifiées pour l’API version 17.
+Les ressources suivantes ont été modifiées pour l’API version 17.
 
 <!--
 
@@ -203,13 +203,13 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 ### Baseline (BLIN)
 
-Les références sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés, la progression, et les valeurs de coût et de revenu.
+Les niveaux de référence sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés et la progression, ainsi que les valeurs des coûts et des revenus.
 
 L’objet Baseline a supprimé l’indicateur **INLINE_EDITABLE**.
 
 ### BillingRecord (BILL)
 
-Un objet BillingRecord enregistre les recettes, les heures ou les dépenses qui peuvent être facturées. Ces informations peuvent être utilisées pour créer des factures dans un système comptable externe.
+Un objet BillingRecord enregistre les revenus, les heures ou les dépenses qui peuvent être facturées. Ces informations peuvent être utilisées pour créer des factures dans un système comptable externe.
 
 L’objet BillingRecord a supprimé l’indicateur **INLINE_EDITABLE**.
 
@@ -221,9 +221,9 @@ A Category object is a custom form.
 
 -->
 
-### Société (CMPY)
+### Entreprise (CMPY)
 
-Un objet Société représente une organisation composée d’un ensemble de personnes.
+Un objet Company représente une organisation composée d’un ensemble de personnes.
 
 <table>
   <col/>
@@ -236,7 +236,7 @@ Un objet Société représente une organisation composée d’un ensemble de per
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>Supprimé</p>
+            <p>Supprimés</p>
           </li>
         </ul>
       </td>
@@ -246,7 +246,7 @@ Un objet Société représente une organisation composée d’un ensemble de per
 
 ### CustomerPreferences (CUSTPR)
 
-Un objet CustomerPreferences représente l’ensemble des préférences définies par un client pour son instance de Workfront.
+Un objet CustomerPreferences représente l’ensemble des préférences définies par un client ou une cliente pour son instance de Workfront.
 
 <table>
   <col/>
@@ -259,7 +259,7 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
           <li>
             <p><b>name</b>
             </p>
-            <p>Ajout de la valeur possible "config.defaultToNewHomeDescription" (customer:config.defaultToNewHome)&gt;/p?<p>Cela permet à une entreprise de faire de la nouvelle expérience d’accueil la nouvelle expérience par défaut pour ses utilisateurs.</p>
+            <p>Ajout de la valeur possible « config.defaultToNewHomeDescription » (customer:config.defaultToNewHome)&gt;/p?<p>Cela permet à une organisation de faire de la nouvelle expérience d’accueil la nouvelle expérience par défaut de ses utilisateurs et utilisatrices.</p>
           </li>
         </ul>
       </td>
@@ -269,7 +269,7 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
 
 ### DocumentVersion (DOCV)
 
-Un objet DocumentVersion représente une version spécifique d’un fichier (comme du matériel écrit, des images ou d’autres formes d’informations).
+Un objet DocumentVersion représente une version spécifique d’un fichier (comme du contenu écrit, des images ou d’autres formes d’informations).
 
 <table>
   <col/>
@@ -282,12 +282,12 @@ Un objet DocumentVersion représente une version spécifique d’un fichier (com
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>Ajout de la valeur possible "Frame.io" (FRAMEIO)</p>
+            <p>Ajout de la valeur possible « Frame.io »" (FRAMEIO)</p>
           </li>
           <li>
             <p><b>fileType</b>
             </p>
-            <p>Ajout de la valeur possible "enum.filetype.site" (site)</p>
+            <p>Ajout de la valeur possible « enum.filetype.site » (site)</p>
           </li>
         </ul>
       </td>
@@ -297,7 +297,7 @@ Un objet DocumentVersion représente une version spécifique d’un fichier (com
 
 ### ExchangeRate (EXRATE)
 
-Un objet ExchangeRate représente un taux d’exchange de devise configuré dans Workfront. Les objets ExchangeRate ne sont pas dynamiques.
+Un objet ExchangeRate représente un taux de change de devise configuré dans Workfront. Les objets ExchangeRate ne sont pas dynamiques.
 
 <table>
   <col/>
@@ -305,7 +305,7 @@ Un objet ExchangeRate représente un taux d’exchange de devise configuré dans
   <tbody>
     <tr>
       <td role="rowheader">Champs directs</td>
-      <td>Les champs suivants ont été ajoutés :
+      <td>Les champs suivants ont été ajoutés :
         <ul>
           <li><p><b>endDate</b></p></li>
           <li><p><b>startDate</b></p></li>
@@ -317,22 +317,22 @@ Un objet ExchangeRate représente un taux d’exchange de devise configuré dans
       <td>
         <ul>
           <li><p><b>getCustomerCurrencies</b></p></li>
-          <p>Ajouté.</p>
+          <p>Ajout.</p>
        </ul>
       </td>
     </tr>
  </tbody>
 </table>
 
-### Dépenses (EXPNS)
+### Expense (EXPNS)
 
-Les dépenses représentent les frais non liés au travail qui pourraient être engagés pendant la durée de vie d&#39;un projet.
+Les dépenses représentent les coûts non liés à la main-d’œuvre qui peuvent être engagés pendant la durée de vie d’un projet.
 
 L’objet Expense a supprimé l’indicateur **INLINE_EDITABLE**.
 
 ### Groupe (GROUP)
 
-Un objet Group représente un ensemble d’utilisateurs et d’équipes. Les groupes représentent souvent la structure du Ministère.
+Un objet Group représente un ensemble d’utilisateurs et utilisatrices et d’équipes. Les groupes représentent souvent la structure des services.
 
 <table>
   <col/>
@@ -345,7 +345,7 @@ Un objet Group représente un ensemble d’utilisateurs et d’équipes. Les gro
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>Supprimé</p>
+            <p>Supprimés</p>
           </li>
         </ul>
       </td>
@@ -353,22 +353,22 @@ Un objet Group représente un ensemble d’utilisateurs et d’équipes. Les gro
  </tbody>
 </table>
 
-### Heure (HEURE)
+### Hour (HOUR)
 
-Un objet Hour représente une heure consignée par un utilisateur sur une feuille de temps.
+Un objet Hour représente une heure enregistrée par un utilisateur ou une utilisatrice sur une feuille de temps.
 
 L’objet Hour a supprimé l’indicateur **INLINE_EDITABLE**.
 
-### Itération (ITRN)
+### Iteration (ITRN)
 
-Un objet Itération représente une seule itération Agile. Les itérations sont des périodes discrètes utilisées pour planifier et compléter des histoires Agile.
+Un objet Iteration représente une seule itération Agile. Les itérations sont des périodes discrètes utilisées pour planifier et compléter des histoires Agile.
 
-L’objet Itération a supprimé l’indicateur **INLINE_EDITABLE**.
+L’objet Iteration a supprimé l’indicateur **INLINE_EDITABLE**.
 
 
 ### JournalEntry (JRNLE)
 
-L’objet JournalEntry peut être configuré pour consigner des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être consigné dans le cadre de l’objet d’entrée du journal, une entrée du journal correspondante est créée chaque fois que ce champ est modifié.
+L’objet JournalEntry peut être configuré pour enregistrer des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être enregistré dans le cadre de l’objet JournalEntry, une entrée de journal correspondante est créée chaque fois que ce champ est modifié.
 
 <table>
   <col/>
@@ -383,19 +383,19 @@ L’objet JournalEntry peut être configuré pour consigner des informations sur
             </p>
             <p>Ajout des valeurs possibles suivantes :</p>
             <ul>
-              <li>Ajout de l’approbateur (AAA)</li>
-              <li>Ajout d’un réviseur (AAR)</li>
-              <li>Suppression du réviseur (ARR)</li>
-              <li>Approbateur supprimé (ARA)</li>
+              <li>Ajout d’un approbateur ou d’une approbatrice (AAA)</li>
+              <li>Ajout d’un réviseur ou d’une réviseuse (AAR)</li>
+              <li>Suppression du réviseur ou de la réviseuse (ARR)</li>
+              <li>Suppression de l’approbateur ou de l’approbatrice (ARA)</li>
               <li>Décision approuvée (ADA)</li>
-              <li>Décision approuvée avec modifications (ADC)</li>
-              <li>Les besoins de décision fonctionnent (ADN)</li>
+              <li>Décision approuvée avec des modifications (ADC)</li>
+              <li>La décision doit être retravaillée (ADN)</li>
               <li>Décision révoquée (MARC)</li>
-              <li>Approbateur modifié (AAC)</li>
-              <li>Réviseur modifié (ARC)</li>
+              <li>Modification de l’approbateur ou de l’approbatrice (AAC)</li>
+              <li>Modification du réviseur ou de la réviseuse (ARC)</li>
               <li>Révision terminée (RDC)</li>
               <li>Révision révoquée (RDR)</li>
-              <li>Publish (PUB)</li>
+              <li>Publier (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -406,9 +406,9 @@ L’objet JournalEntry peut être configuré pour consigner des informations sur
 
 ### Kanban Board (KNBNBD)
 
-Un panorama Kanban est utilisé pour effectuer le suivi des tâches dans un environnement agile.
+Un panorama Kanban est utilisé pour suivre les tâches dans un environnement agile.
 
-L’objet Kanban Board a supprimé l’indicateur **INLINE_EDITABLE**.
+L’objet Panorama Kanban a supprimé l’indicateur **INLINE_EDITABLE**.
 
 
 ### LinkedFolder (LNKFDR)
@@ -426,7 +426,7 @@ Un objet LinkedFolder représente un dossier lié à un fournisseur de documents
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>Ajout de la valeur possible "Frame.io (FRAMEIO)</p>
+            <p>Ajout de la valeur possible Frame.io (FRAMEIO)</p>
           </li>
         </ul>
       </td>
@@ -436,19 +436,19 @@ Un objet LinkedFolder représente un dossier lié à un fournisseur de documents
 
 ### OpTask / Problème (OPTASK)
 
-Un objet OpTask est généralement appelé un Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Les ordres de modification, les demandes et les bogues sont également des problèmes.
+Un objet OpTask est généralement appelé Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de centre d’assistance. Les ordres de modification, les requêtes et les bugs sont également des problèmes.
 
-L’objet Issue a supprimé l’indicateur **INLINE_EDITABLE**.
+L’objet Problème a supprimé l’indicateur **INLINE_EDITABLE**.
 
-### Project (PROJ)
+### Projet (PROJ)
 
-Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Project représente un groupe de tâches avec un objectif commun et spécifique.
+Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Projet représente un groupe de tâches avec un objectif commun et spécifique.
 
-L’objet Project a supprimé l’indicateur **INLINE_EDITABLE**.
+L’objet Projet a supprimé l’indicateur **INLINE_EDITABLE**.
 
 ### ProjectUser (PRTU)
 
-Un objet ProjectUser représente un utilisateur associé à un projet spécifique.
+Un objet ProjectUser représente une personne associée à un projet spécifique.
 
 <table>
   <col/>
@@ -461,7 +461,7 @@ Un objet ProjectUser représente un utilisateur associé à un projet spécifiqu
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -473,7 +473,7 @@ Un objet ProjectUser représente un utilisateur associé à un projet spécifiqu
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -489,7 +489,7 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 -->
 
-### Rate (RATE)
+### Taux (RATE)
 
 Un objet Rate représente un taux de facturation dans Workfront.
 
@@ -501,14 +501,14 @@ L’objet Rate a supprimé l’indicateur **INLINE_EDITABLE**.
   <tbody>
     <tr>
       <td role="rowheader">Actions</td>
-      <td>Les actions suivantes ont été ajoutées pour prendre en charge la fonctionnalité Carte de taux :
+      <td>Les actions suivantes ont été ajoutées pour prendre en charge la fonctionnalité Carte tarifaire :
         <ul>
           <li><p><b>deleteRateForRole</b></p></li>
           <li><p><b>editRatesForRole</b></p></li>
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>L'action <b>setRatesForRole</b> a été modifiée pour ajouter les champs suivants :
+        <p>L’action <b>setRatesForRole</b> a été modifiée pour ajouter les champs suivants :
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>
@@ -519,15 +519,15 @@ L’objet Rate a supprimé l’indicateur **INLINE_EDITABLE**.
  </tbody>
 </table>
 
-### Risque (RISQUE)
+### Risque (RISK)
 
-Un objet Risk représente un événement possible qui peut empêcher la fin d’un projet à temps ou dans les limites du budget. Lors de la phase de planification, des risques sont ajoutés aux projets pour identifier les obstacles potentiels avant l’approbation des travaux.
+Un objet Risk représente un événement possible qui peut empêcher un projet de se terminer dans les délais ou dans le respect un budget. Lors de la phase de planification, des risques sont ajoutés aux projets pour identifier les obstacles potentiels avant l’approbation d’un travail.
 
-L’objet Risk a supprimé l’indicateur **INLINE_EDITABLE**.
+L&#39;objet Risk a retiré l’indicateur **INLINE_EDITABLE**.
 
-### Rôle/Rôle de tâche (RÔLE)
+### Rôle/Fonction (ROLE)
 
-Un objet Rôle (rôle de tâche) représente une capacité fonctionnelle ou un ensemble de compétences qu’un utilisateur peut remplir, tel que Designer ou Gestionnaire de produits.
+Un objet Rôle (fonction) représente une capacité fonctionnelle ou un ensemble de compétences qu’un utilisateur ou une utilisateur peut remplir, tel que Designer ou Chef ou Cheffe de produits.
 
 <table>
   <col/>
@@ -540,7 +540,7 @@ Un objet Rôle (rôle de tâche) représente une capacité fonctionnelle ou un e
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>Supprimé</p>
+            <p>Supprimés</p>
           </li>
         </ul>
       </td>
@@ -548,15 +548,15 @@ Un objet Rôle (rôle de tâche) représente une capacité fonctionnelle ou un e
  </tbody>
 </table>
 
-### Task (TASK)
+### Tâche (TASK)
 
-Un objet Task représente un élément de travail qui doit être exécuté en tant qu’étape vers la réalisation d’un objectif final (achèvement d’un projet).
+Un objet Task représente un élément de travail qui doit être exécuté comme une étape vers la réalisation d’un objectif final (achèvement d’un projet).
 
 L’objet Task a supprimé l’indicateur **INLINE_EDITABLE**.
 
-### Équipe (TEAMOB)
+### Team (TEAMOB)
 
-Un objet Équipe est un ensemble d’utilisateurs pouvant être affectés à un élément de travail.
+Un objet Team est un ensemble d’utilisateurs et d’utilisatrices pouvant être affectés à un élément de travail.
 
 <table>
   <col/>
@@ -569,7 +569,7 @@ Un objet Équipe est un ensemble d’utilisateurs pouvant être affectés à un 
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>Supprimé</p>
+            <p>Supprimés</p>
           </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ Un objet Équipe est un ensemble d’utilisateurs pouvant être affectés à un 
 
 ### TeamMember (TEAMMB)
 
-Un objet TeamMember est un utilisateur associé à une équipe spécifique.
+Un objet TeamMember est une personne associée à une équipe spécifique.
 
 <table>
   <col/>
@@ -592,7 +592,7 @@ Un objet TeamMember est un utilisateur associé à une équipe spécifique.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -604,7 +604,7 @@ Un objet TeamMember est un utilisateur associé à une équipe spécifique.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -625,7 +625,7 @@ Un objet TeamMember est un utilisateur associé à une équipe spécifique.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -637,7 +637,7 @@ Un objet TeamMember est un utilisateur associé à une équipe spécifique.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -647,7 +647,7 @@ Un objet TeamMember est un utilisateur associé à une équipe spécifique.
 
 ### Timesheet (TSHET)
 
-Un objet Timesheet représente une feuille de temps virtuelle qui permet aux utilisateurs et utilisatrices de saisir les heures effectives travaillées pour les heures de tâches, projets et types de frais.
+Un objet Timesheet représente une feuille de temps virtuelle qui permet aux utilisateurs et utilisatrices de saisir les heures effectives travaillées pour les tâches, les projets et les types d’heures supplémentaires.
 
 <table>
   <col/>
@@ -660,7 +660,7 @@ Un objet Timesheet représente une feuille de temps virtuelle qui permet aux uti
           <li>
             <p><b>objCode</b>
             </p>
-            <p>Supprimé</p>
+            <p>Supprimés</p>
           </li>
         </ul>
       </td>
@@ -683,21 +683,21 @@ Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir
           <li>
             <p><b>changeType</b>
             </p>
-            <p>Ajout des valeurs suivantes :</p>
+            <p>Ajout des valeurs suivantes :</p>
             <ul>
-              <li>Ajout de l’approbateur (assetapprovalAddApprover)</li>
-              <li>Ajout d’un réviseur (assetapprovalAddReviewer)</li>
-              <li>Approbateur supprimé (assetapprovalRemoveApprover)</li>
-              <li>Suppression du réviseur (assetapprovalRemoveReviewer)</li>
+              <li>Ajout d’un approbateur ou d’une approbatrice (assetapprovalAddApprover)</li>
+              <li>Ajout d’un réviseur ou d’une réviseuse (assetapprovalAddReviewer)</li>
+              <li>Suppression de l’approbateur ou de l’approbatrice (assetapprovalRemoveApprover)</li>
+              <li>Suppression du réviseur ou de la réviseuse (assetapprovalRemoveReviewer)</li>
               <li>Décision approuvée (assetapprovalDecisionApproval)</li>
-              <li>La décision doit fonctionner (assetapprovalDecisionNeedsWork)</li>
-              <li>Décision approuvée avec modifications (assetapprovalDecisionApprovalChanges)</li>
+              <li>La décision doit être retravaillée (assetapprovalDecisionNeedsWork)</li>
+              <li>Décision approuvée avec des modifications (assetapprovalDecisionApprovalChanges)</li>
               <li>Décision révoquée (assetapprovalDecisionRevoked)</li>
-              <li>Approbateur modifié (assetapprovalApproverChanged)</li>
-              <li>Réviseur modifié (assetapprovalReviewerChanged)</li>
+              <li>Modification de l’approbateur ou de l’approbatrice (assetapprovalApproverChanged)</li>
+              <li>Modification du réviseur ou de la réviseuse (assetapprovalReviewerChanged)</li>
               <li>Révision terminée (assetapprovalReviewerDecisionComplete)</li>
               <li>Révision révoquée (assetapprovalReviewerDecisionRevoked)</li>
-              <li>Erreur d'envoi de document externe (externalDocumentSendError)</li>
+              <li>Erreur d’envoi de document externe (externalDocumentSendError)</li>
               <li>Version du document publiée (documentVersionPublish)</li>
               <li>Workflow du dossier lié (linkedFolderWorkflow)</li>
             </ul>
@@ -708,7 +708,7 @@ Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir
   </tbody>
  </table>
 
-### Utilisateur (USER)
+### Utilisateur ou utilisatrice (USER)
 
 Un objet User représente une personne disposant d’un compte dans Workfront qui peut se connecter et interagir avec le système.
 
@@ -725,7 +725,7 @@ L’objet User a supprimé l’indicateur **INLINE_EDITABLE**.
           <li>
             <p><b>workTime</b>
             </p>
-            <p>Ce champ a été ajouté. Il s’agit d’un nombre compris entre 0 et 1 qui représente le pourcentage de temps qu’un utilisateur peut consacrer chaque jour à des tâches de projet (sans frais généraux). Une valeur de 1 signifie que l’utilisateur peut passer 100 % de son temps à travailler sur un projet.</p>
+            <p>Ce champ a été ajouté. Il s’agit d’un nombre compris entre 0 et 1 qui représente le pourcentage de temps qu’un utilisateur ou une utilisatrice peut consacrer chaque jour à travailler sur le projet (hors heures supplémentaires). Une valeur de 1 signifie que l’utilisateur ou l’utilisatrice peut passer 100 % de son temps à travailler sur un projet.</p>
           </li>
         </ul>
       </td>
@@ -757,7 +757,7 @@ L’objet User a supprimé l’indicateur **INLINE_EDITABLE**.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -769,7 +769,7 @@ L’objet User a supprimé l’indicateur **INLINE_EDITABLE**.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -792,27 +792,27 @@ Un objet UserNote est une notification.
           <li>
             <p><b>changeType</b>
             </p>
-            <p>Ajout des valeurs suivantes :</p>
+            <p>Ajout des valeurs suivantes :</p>
             <ul>
-              <li>Le document nécessite votre approbation (AAA)</li>
-              <li>Le document nécessite votre révision (AAR).</li>
-              <li>Document n’a plus besoin de votre approbation (ARA)</li>
-              <li>Document n’a plus besoin de votre révision (ARR)</li>
-              <li>Approbation requise du document (ATA) par l’utilisateur</li>
-              <li>Examen des besoins du document (utilisateur) (ATR)</li>
-              <li>Document n’a plus besoin de la validation (RTA) de l’utilisateur</li>
-              <li>Le document n’a plus besoin de révision (RTR) (utilisateur).</li>
+              <li>Le document a besoin de votre approbation (AAA).</li>
+              <li>Le document a besoin d’être examiné (AAR).</li>
+              <li>Le document n’a plus besoin de votre approbation (ARA).</li>
+              <li>Le document n’a plus besoin d’être examiné (ARR).</li>
+              <li>Le document a besoin de l’approbation de (utilisateur ou utilisatrice) (ATA).</li>
+              <li>Le document a besoin d’être examiné par (utilisateur ou utilisatrice) (ATR).</li>
+              <li>Le document n’a plus besoin de l’approbation de (utilisateur ou utilisatrice) (RTA).</li>
+              <li>Le document n’a plus besoin d’être examiné par (utilisateur ou utilisatrice) (RTR).</li>
               <li>Document approuvé (ADA)</li>
-              <li>Document approuvé avec modifications (ADC)</li>
-              <li>Travail sur les documents nécessaires (ADN)</li>
-              <li>(Utilisateur) a marqué (document) comme approuvé. Votre approbation n'est plus nécessaire. (AAN)</li>
-              <li>(Utilisateur) a marqué (document) comme approuvé avec les modifications. Votre approbation n'est plus nécessaire. (ACN)</li>
-              <li>(Utilisateur) a marqué (document) comme le travail nécessaire. Votre approbation n'est plus nécessaire. (AWN)</li>
-              <li>Le document a besoin de votre révision maintenant plutôt que de votre approbation (AAC).</li>
-              <li>Le document a besoin de votre approbation maintenant plutôt que d'une révision (ADN).</li>
-              <li>Document révisé (RDC)</li>
-              <li>Document révisé (TRC)</li>
-              <li>(Utilisateur) a examiné (document) comme terminé. Votre examen n’est plus nécessaire. (TRN)</li>
+              <li>Document approuvé avec des modifications (ADC)</li>
+              <li>Le document a besoin d’être retravaillé (ADN).</li>
+              <li>(Utilisateur ou utilisatrice) a marqué (document) comme approuvé. Votre approbation n’est plus nécessaire. (AAN)</li>
+              <li>(Utilisateur ou utilisatrice) a marqué (document) comme approuvé avec des modifications. Votre approbation n’est plus nécessaire. (ACN)</li>
+              <li>(Utilisateur ou utilisatrice) a marqué (document) comme devant être retravaillé. Votre approbation n’est plus nécessaire. (AWN)</li>
+              <li>Le document a besoin d’être examiné maintenant plutôt que d’être approuvé (AAC).</li>
+              <li>Le document a besoin d’être approuvé maintenant plutôt que d’être examiné (ADN).</li>
+              <li>Document examiné (RDC)</li>
+              <li>Document examiné (TRC)</li>
+              <li>(Utilisateur ou utilisatrice) a examiné (document) et l’a signalé comme terminé. Votre examen n’est plus nécessaire. (TRN)</li>
             </ul>
           </li>
         </ul>
@@ -834,7 +834,7 @@ Un objet UserNote est une notification.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>
@@ -846,7 +846,7 @@ Un objet UserNote est une notification.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Ajouté.</p>
+            <p>Ajout.</p>
           </li>
         </ul>
       </td>

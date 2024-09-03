@@ -2,73 +2,73 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Rapport : tâche combinée et publication Afficher et Regroupement"
-description: Ce rapport d’élément de travail présente les tâches et les problèmes sur lesquels les utilisateurs ont accepté de travailler dans un rapport. Il est préférable d’utiliser un regroupement personnalisé.
+title: '« Rapport : vue et regruopement des tâches et des problèmes combinés »'
+description: Ce rapport des éléments de travail affiche les tâches et les problèmes que les utilisateurs et les utilisatrices ont accepté de traiter. Il est préférable de le combiner avec un regroupement personnalisé.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
-# Rapport : combinaison de la vue des tâches et des problèmes et regroupement
+# Rapport : vue et regroupement des tâches et des problèmes combinés
 
-Ce rapport d’élément de travail présente les tâches et les problèmes sur lesquels les utilisateurs ont accepté de travailler dans un rapport. Il est préférable d’utiliser un regroupement personnalisé.
+Ce rapport unique des éléments de travail affiche les tâches et les problèmes que les utilisateurs et les utilisatrices ont accepté de traiter. Il est préférable de le combiner avec un regroupement personnalisé.
 
-Ce rapport utilise `sharecol=true` dans la vue pour combiner plusieurs champs sous le même en-tête de colonne. Pour plus d’informations sur la balise `sharecol`, voir [Affichage : fusionner les informations de plusieurs colonnes dans une colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Ce rapport utilise `sharecol=true` dans la vue pour combiner plusieurs champs sous le même en-tête de colonne. Pour plus d’informations sur la balise `sharecol`, consultez la section [Vue : fusionner des informations provenant de plusieurs colonnes dans une colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
-> La vue Élément de travail affiche uniquement les tâches et les problèmes qui ont été acceptés par les utilisateurs qui leur sont affectés. Ce rapport n’affiche pas les tâches qui n’ont pas été déplacées des listes Requêtes de travail ou Requêtes d’équipe vers la liste de travail de l’utilisateur.
+>La vue des éléments de travail n’affiche que les tâches et les problèmes que les personnes affectées ont accepté de traiter. Ce rapport n’affiche pas les éléments de travail qui n’ont pas été transférés des listes « Demandes de travail » ou « Demandes de l’équipe » vers la liste « En train de travailler sur » des utilisateurs et utilisatrices.
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Modification de l’accès aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p><b>NOTE</b>
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Accès en modification aux rapports, tableaux de bord et calendriers</p> <p>Modifier l’accès aux filtres, vues et groupes</p> <p><b>NOTE</b>
 
-Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si des restrictions supplémentaires à votre niveau d’accès ont été appliquées. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td>
+Si vous n’avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront si votre niveau d’accès est soumis à des restrictions supplémentaires. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td> <p>Gérer les autorisations d’un rapport</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le forfait, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
+&#42;Pour connaître le plan, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou administratrice Workfront.
 
-## Création d’un rapport avec une tâche combinée et publication Affichage et Regroupement
+## Créer un rapport avec une vue et un regroupement des tâches et des problèmes combinés
 
-Pour créer un rapport avec cette vue :
+Pour créer un rapport utilisant cette vue :
 
-1. Dans le **menu principal** ![](assets/main-menu-icon.png), cliquez sur **Rapports**.
+1. Dans le **Menu principal** ![](assets/main-menu-icon.png), cliquez sur **Rapports**.
 
-1. Cliquez sur **Nouveau rapport** et sélectionnez l’objet **Élément de travail** dans le menu déroulant.
+1. Cliquez sur **Nouveau rapport** et sélectionnez dans le menu déroulant l’objet **Élément de travail**.
 
-1. Dans la zone **Aperçu des colonnes**, cliquez sur l’en-tête de la seule colonne affichée.
-1. Cliquez sur **Passer en mode Texte**.
-1. Placez le pointeur de la souris sur la zone de mode Texte, puis cliquez sur **Cliquez pour modifier le texte**.
-1. Supprimez le texte que vous trouvez dans la zone **Text Mode** et remplacez-le par le code suivant :
+1. Dans la zone **Aperçu de la colonne**, cliquez sur l’en-tête de la seule colonne affichée.
+1. Cliquez sur **Basculer en mode texte**.
+1. Placez la souris sur la zone du mode texte et cliquez sur **Cliquer pour modifier le texte**.
+1. Supprimez le texte qui se trouve dans la zone **Mode texte** et remplacez-le par le code suivant :
 
    ```
    column.0.description=Task or Issue 
@@ -259,9 +259,9 @@ Pour créer un rapport avec cette vue :
    column.15.width=1
    ```
 
-1. (Facultatif) Cliquez sur **Groupings** pour ajouter un groupement au rapport.
-1. (Facultatif) Si vous ajoutez un groupement, cliquez sur **Passer en mode Texte**.
-1. (Facultatif) Remplacez le texte à l’intérieur de la zone de mode de texte de groupement par le code suivant :
+1. (Facultatif) Cliquez sur **Regroupements** pour ajouter un regroupement au rapport.
+1. (Facultatif) Si vous ajoutez un regroupement, cliquez sur **Basculer en mode texte**.
+1. (Facultatif) Remplacez le texte à l’intérieur de la zone de mode texte de regroupement par le code suivant :
 
    ```
    group.0.name=
@@ -270,6 +270,6 @@ Pour créer un rapport avec cette vue :
    textmode=true
    ```
 
-   Ce regroupement regroupe toutes les tâches et tous les problèmes ensemble.
+   Ce regroupement réunit toutes les tâches et tous les problèmes.
 
 1. Cliquez sur **Enregistrer + Fermer**.

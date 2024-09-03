@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: approvals
 title: Programme Alpha – Approbations des documents
-description: Nous sommes ravis d’annoncer le lancement de notre programme Alpha pour l’approbation des documents. Vous trouverez ci-dessous des informations sur la dernière version d’Alpha, ainsi qu’une brève présentation vidéo pour vous aider à commencer.
+description: Nous avons la plaisir d’annoncer le lancement de notre programme alpha pour l’approbation des documents. Vous trouverez ici des informations sur la dernière version alpha ainsi qu’une brève vidéo de présentation pour vous aider à démarrer.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 # Programme Alpha – Approbations des documents
 
-Nous sommes ravis d’annoncer le lancement de notre programme Alpha pour l’approbation des documents. Vous trouverez ci-dessous des informations sur la dernière version d’Alpha, ainsi qu’une brève présentation vidéo pour vous aider à commencer.
+Nous avons la plaisir d’annoncer le lancement de notre programme alpha pour l’approbation des documents. Vous trouverez ici des informations sur la dernière version alpha ainsi qu’une brève vidéo de présentation pour vous aider à démarrer.
 
 ## Configuration initiale
 
-Pour accéder à cette version d’Alpha, l’équipe produit doit vous ajouter à Alpha dans l’environnement de prévisualisation. Si nécessaire, contactez votre gestionnaire de compte ou de succès client et cliente pour demander à participer.
+Pour participer à cette version alpha, veuillez vous assurer de votre ajout à la version alpha en prévisualisation par l’équipe produit. Si ce n’est pas le cas, veuillez contacter la personne chargée de la gestion de votre succès client ou de votre compte et demander votre ajout.
 
 ## Dernière version
 
@@ -42,11 +42,11 @@ Regardez la vidéo de présentation complète ci-dessous :
 
 ## Alpha version 6 - Janvier 2024
 
-Alpha version 6 bénéficie des améliorations suivantes :
+Dans cette 6e version alpha, nous avons effectué ce qui suit :
 
-* Amélioration de l’expérience de l’ajout de participantes et de participants à l’aide d’une nouvelle fenêtre contextuelle afin d’empêcher l’ajout accidentel de personnes et leur notification ultérieure.
-* Ajout d’un nouveau widget « Approbations en attente » qui affiche toutes les approbations en attente pour les projets que vous possédez, y compris la possibilité de voir tous ceux qui sont en attente d’approbation, leur statut et la possibilité d’envoyer un rappel à toute personne qui n’a pas encore pris de décision.
-* Ajout d’une nouvelle action « Terminer mon examen » pour toutes les personnes réviseuses, afin d’indiquer qu’elles ont terminé leur tâche.
+* Amélioration de l’expérience d’ajout de personnes participantes grâce à une nouvelle fenêtre pop-up permettant d’éviter d’ajouter accidentellement des personnes et que ces dernières soient notifiées.
+* Ajout d’un nouveau widget « Approbations en attente » qui affiche toutes les approbations en cours pour les projets que vous possédez, y compris la possibilité de voir tous ceux qui sont sur l’approbation, leur statut et la possibilité d’envoyer un rappel à toute personne n’ayant pas encore pris de décision.
+* Ajout d’une nouvelle action « Terminer mon examen » pour tous les réviseurs et réviseuses, que ces derniers peuvent utiliser pour indiquer qu’ils ont terminé leur étape.
 
 Regardez la vidéo de présentation complète ci-dessous :
 
@@ -54,52 +54,52 @@ Regardez la vidéo de présentation complète ci-dessous :
 
 ### Alpha version 5 - Septembre 2023
 
-Alpha version 5 bénéficie des améliorations suivantes :
+Dans cette 5e version alpha, nous avons effectué ce qui suit :
 
-* Amélioration de la liste affichant les personnes approbatrices et réviseuses.
-* Ajout de la possibilité d’envoyer un rappel aux personnes approbatrices qui n’ont pas encore pris de décision d’approbation.
-* Ajout de la possibilité d’afficher les membres individuels de l’équipe dans la liste d’approbation.
-* Ajout de la possibilité d’ajouter des personnes approbatrices externes.
-* Amélioration de l’affichage pour les personnes approbatrices externes permettant de prévisualiser, télécharger et commenter un document.
+* Amélioration de la liste affichant les personnes responsables de l’approbation et de la révision.
+* Ajout de la possibilité d’envoyer un rappel aux approbateurs et approbatrices n’ayant pas encore pris de décision d’approbation.
+* Ajout de la possibilité d’afficher les personnes membres individuelles de l’équipe dans la liste d’approbation.
+* Ajout de la possibilité d’ajouter des approbateurs et approbatrices externes.
+* Amélioration de l’affichage permettant aux approbateurs et approbatrices externes de prévisualiser, de télécharger et de commenter un document.
 
-Regardez la [présentation vidéo](https://video.tv.adobe.com/v/3424613/){target=_blank}.
+Regardez la [vidéo de présentation](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
-### Alpha version 4 - Mai 2023
+### Version alpha 4 : mai 2023
 
-Dans Alpha version 4, avant de passer en production uniquement pour un groupe sélectionné de clientes et de clients, nous avons intégré des notifications dans l’en-tête de Workfront, dans le flux de mise à jour et par e-mail. Notez que les notifications par e-mail sont réservées à l’environnement de production et ne sont pas visibles dans votre environnement de prévisualisation. <!--If you're interested in having this release implemented in your production environment on June 14th, please reach out to me directly at jbarron@adobe.com.-->
+Dans cette quatrième version alpha, avant le lancement en production pour un groupe restreint de clientes et clients, nous avons incorporé des notifications dans l’en-tête de Workfront, dans le flux de mises à jour et dans les e-mails. Veuillez noter que les notifications par e-mails sont exclusives à l’environnement de production et ne sont pas visibles dans votre environnement de prévisualisation. <!--If you're interested in having this release implemented in your production environment on June 14th, please reach out to me directly at jbarron@adobe.com.-->
 
-Cette étape prouve que nos efforts portent leurs fruits et nous regardons l’avenir avec beaucoup d’enthousiasme !
+Nous nous réjouissons de ce jalon important et attendons avec impatience la suite des événements.
 
-Regardez la [présentation vidéo](https://video.tv.adobe.com/v/3420094/){target=_blank}.
+Regardez la [vidéo de présentation](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
-### Alpha version 3 - Mars 2023
+### Version alpha 3 : mars 2023
 
-Dans Alpha version 3, nous avons tenu compte de vos commentaires et nous avons introduit des messages de succès qui s’affichent lorsque vous réalisez des actions comme l’ajout ou la suppression de personnes approbatrices et réviseuses. En outre, cette version offre une meilleure visibilité des approbations en attente, qui peuvent désormais être visualisées sur les pages Accueil et Mes mises à jour, afin de permettre d’approuver en toute facilité des documents directement à partir de ces pages.
+Dans cette troisième version Alpha, nous avons tenu compte de vos commentaires en introduisant des messages de succès qui s’affichent à l’issue d’actions telles que l’ajout ou la suppression de personnes responsables de l’approbation et de la révision. En outre, cette version offre une meilleure visibilité des approbations en attente, qui peuvent désormais être visualisées sur les pages Accueil et Mes mises à jour, ce qui permet aux personnes d’approuver facilement les documents directement à partir de ces pages.
 
-Regardez la [présentation vidéo](https://video.tv.adobe.com/v/3417854/){target=_blank}.
+Regardez la [vidéo de présentation](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
-### Alpha version 2 - Janvier 2023
+### Version alpha 2 : janvier 2023
 
-Avec Alpha version 2, vous pouvez ajouter des personnes et des équipes en tant que personnes réviseuses ou approbatrices et prendre des décisions d’approbation directement à partir de la page des détails du document.
+Avec cette version alpha 2, vous pouvez ajouter des personnes et des équipes en tant que responsables de la révision ou de l’approbation et prendre des décisions d’approbation directement à partir de la page des détails du document.
 
-Regardez la [présentation vidéo](https://video.tv.adobe.com/v/3413941){target=_blank}.
+Regardez la [vidéo de présentation](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
-### Alpha version 1 - Novembre 2022
+### Version alpha 1 : novembre 2022
 
-Regardez nos [présentations vidéo](https://video.tv.adobe.com/v/3412837){target=_blank} et n’hésitez pas à nous faire part de vos commentaires si vous le souhaitez !
+Regardez notre [vidéo de présentation](https://video.tv.adobe.com/v/3412837){target=_blank} et n’hésitez pas à nous suivre si vous le souhaitez.
 
-Pour ce faire, configurez les éléments suivants dans votre environnement de prévisualisation :
+Si vous souhaitez suivre la vidéo, les éléments suivants doivent être configurés dans votre environnement de prévisualisation :
 
-* Ajouter des utilisateurs et des utilisatrices :
-   * Angela - Approbatrice
-   * Andrew - Approbateur
-   * Alice - Approbatrice
-   * Rick - Réviseur
-   * Rachel - Réviseuse
-* Ajouter une équipe nommée « Dream Team » et inclure
-   * Andrew - Approbateur
-   * Alice - Approbatrice
+* Ajouter des personnes :
+   * Angela approbatrice
+   * Andrew approbateur
+   * Alice approbatrice
+   * Rick réviseur
+   * Rachel réviseuse
+* Ajouter une équipe appelée « Dream Team » et inclure
+   * Andrew approbateur
+   * Alice approbatrice
 
 ## Envoyer des commentaires
 
-Nous apprécions votre contribution et pensons que votre point de vue est essentiel pour nous aider à créer le meilleur produit possible. Si vous voulez nous faire part de commentaires spécifiques sur ce qui serait nécessaire pour que votre entreprise adopte cette solution en production, envoyez-les nous à l’adresse [jbarron@adobe.com](mailto:jbarron@adobe.com).
+Nous apprécions votre contribution et pensons que votre point de vue est essentiel pour nous aider à créer le meilleur produit possible. Si vous avez des commentaires spécifiques sur ce qui serait nécessaire pour que votre entreprise adopte cette solution dans la production, veuillez les envoyer à [jbarron@adobe.com](mailto:jbarron@adobe.com).

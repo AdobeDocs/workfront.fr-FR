@@ -11,14 +11,14 @@ exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 
 # Enregistrer une intégration de webhook
 
-Les administrateurs Adobe Workfront peuvent ajouter une intégration webhook personnalisée pour leur entreprise en accédant à Configuration > Documents > Intégrations personnalisées dans Workfront. Sur la page Intégration personnalisée de Configuration, les administrateurs peuvent afficher une liste des intégrations Webhook de document existantes. Depuis cette page, les intégrations peuvent être ajoutées, modifiées, activées et désactivées.
+Les administrateurs et administratrices Adobe Workfront peuvent ajouter une intégration webhook personnalisée pour leur entreprise en accédant à Configuration > Documents > Intégrations personnalisées dans Workfront. À partir de la page Intégration personnalisée de la configuration, les administrateurs et administratrices peuvent afficher une liste des intégrations de webhook de documents existantes. Cette page permet d’ajouter, de modifier, d’activer et de désactiver des intégrations.
 
 Pour ajouter une intégration, cliquez sur **Ajouter une intégration personnalisée**.
 
@@ -28,7 +28,7 @@ Pour ajouter une intégration, cliquez sur **Ajouter une intégration personnali
 
 ## Champs disponibles
 
-Lors de l’ajout d’une intégration, l’administrateur saisit les valeurs des champs suivants.
+Lors de l’ajout d’une intégration, l’administrateur ou administratrice saisit les valeurs des champs suivants.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ Lors de l’ajout d’une intégration, l’administrateur saisit les valeurs de
   </tr> 
   <tr> 
    <td>URL API de base</td> 
-   <td> <p>Emplacement de l’API de rappel. Lors d’appels au système externe, Workfront ajoute simplement le nom du point de terminaison à cette adresse. Par exemple, si l’administrateur a saisi l’URL de l’API de base " https://www.mycompany.com/api/v1", Workfront utilise l’URL suivante pour obtenir les métadonnées d’un document : https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
+   <td> <p>Emplacement de l’API de rappel. Lors des appels au système externe, Workfront ajoutera simplement le nom du point d’entrée à cette adresse. Par exemple, si l’administrateur ou administratrice a saisi l’URL de l’API de base, « https://www.mycompany.com/api/v1 », Workfront utilisera l’URL suivante pour obtenir les métadonnées d’un document : https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
   </tr> 
   <tr> 
    <td>Paramètres de requête</td> 
@@ -58,27 +58,27 @@ Lors de l’ajout d’une intégration, l’administrateur saisit les valeurs de
   </tr> 
   <tr> 
    <td>URL d'authentification</td> 
-   <td> <p>(OAuth2 uniquement) URL complète utilisée pour l’authentification de l’utilisateur. Workfront accède aux utilisateurs à cette adresse dans le cadre du processus d’approvisionnement OAuth. Remarque : Workfront ajoute un paramètre "state" à la chaîne de requête. Le fournisseur doit transmettre cette information à Workfront en l’ajoutant à l’URI de redirection Workfront.</p> </td> 
+   <td> <p>(OAuth2 uniquement) L’URL complète utilisée pour l’authentification de l’utilisateur ou utilisatrice. Workfront dirigera les utilisateurs et utilisatrices vers cette adresse dans le cadre du processus d’approvisionnement OAuth. Remarque : Workfront ajoutera un paramètre « state » à la chaîne de requête. Le fournisseur doit le renvoyer à Workfront en l’ajoutant à l’URI de redirection de Workfront.</p> </td> 
   </tr> 
   <tr> 
    <td>URL de jeton de point d’entrée</td> 
-   <td> <p>(OAuth2 uniquement) URL complète de l’API utilisée pour récupérer les jetons OAuth2. Il est hébergé par le fournisseur webhook ou le fournisseur de document externe</p> </td> 
+   <td> <p>(OAuth2 uniquement) L’URL d’API complète utilisée pour récupérer les jetons OAuth2. Elle est hébergée par le fournisseur de webhook ou le fournisseur de documents externes.</p> </td> 
   </tr> 
   <tr> 
    <td>ID client</td> 
-   <td>(OAuth2 uniquement) ID client OAuth2 pour cette intégration</td> 
+   <td>(OAuth2 uniquement) ID du client OAuth2 pour cette intégration.</td> 
   </tr> 
   <tr> 
    <td>Clé secrète client</td> 
-   <td> <p>(OAuth2 uniquement) Secret client OAuth2 pour cette intégration</p> </td> 
+   <td> <p>(OAuth2 uniquement) Secret du client OAuth2 pour cette intégration.</p> </td> 
   </tr> 
   <tr> 
    <td>URI de redirection Workfront</td> 
-   <td>(OAuth2 uniquement) Il s’agit d’un champ en lecture seule généré par Workfront. Cette valeur est utilisée pour enregistrer cette intégration auprès du fournisseur de documents externe. Remarque : Comme décrit ci-dessus pour l’URL d’authentification, le fournisseur doit ajouter le paramètre "state" et sa valeur à la chaîne de requête lors de l’exécution de la redirection.</td> 
+   <td>(OAuth2 uniquement) Ce champ est en lecture seule et est généré par Workfront. Cette valeur est utilisée pour enregistrer cette intégration auprès du fournisseur de documents externes. Note : comme décrit ci-dessus pour l’URL d’authentification, le fournisseur doit ajouter le paramètre « state » et sa valeur à la chaîne de requête lors de la redirection.</td> 
   </tr> 
   <tr> 
    <td>ApiKey</td> 
-   <td> <p>(ApiKey uniquement) Utilisé pour effectuer des appels API autorisés au fournisseur webhook. Clé API émise par le fournisseur webhook.</p> </td> 
+   <td> <p>(ApiKey uniquement) Utilisé pour effectuer des appels API autorisés vers le fournisseur de webhooks. La clé API émise par le fournisseur de webhooks.</p> </td> 
   </tr> 
  </tbody> 
 </table>

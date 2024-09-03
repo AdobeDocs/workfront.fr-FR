@@ -17,12 +17,12 @@ ht-degree: 100%
 
 <!-- Audited: April 2024-->
 
-Selon le mode de configuration de vos notifications d’e-mail, vous pouvez recevoir une notification par e-mail lorsqu’une mise à jour est effectuée sur certains objets auxquels vous avez accès.
+Selon le mode de configuration de vos notifications par e-mail, vous pouvez recevoir une notification par e-mail lorsqu’une mise à jour est effectuée sur certains objets auxquels vous avez accès.
 
-Pour répondre à une mise à jour à partir d’une notification par e-mail, procédez de l’une des manières suivantes :
+Vous pouvez répondre à une mise à jour à partir d’une notification par e-mail de la manière suivante :
 
-* Utilisez le bouton Commentaire dans l’e-mail pour revenir à Workfront et répondre à la mise à jour dans la zone Mises à jour.
-* Répondez à l’e-mail que vous avez reçu. Votre e-mail de réponse est ajouté en tant que réponse Workfront au commentaire d’origine.
+* Utilisez le bouton Commenter dans l’e-mail pour revenir à Workfront et répondre à la mise à jour dans la zone Mises à jour.
+* Répondez à l’e-mail que vous recevez. Votre e-mail de réponse est ajouté en tant que réponse Workfront au commentaire d’origine.
 
 <!--
 >[!NOTE]
@@ -44,15 +44,15 @@ Vous pouvez répondre à un e-mail Workfront généré à partir de commentaires
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Forfait Adobe Workfront</strong></td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader"><strong>Formule Adobe Workfront</strong></td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront*</strong></td> 
@@ -85,7 +85,7 @@ Lorsque vous recevez une notification par e-mail, vous pouvez ouvrir rapidement 
 
 1. Accédez à la mise à jour à laquelle vous souhaitez ajouter une réponse.
 
-   En plus de voir les utilisateurs et utilisatrices qui participent activement à la conversation, vous pouvez voir les personnes taguées dans chaque réponse en haut de ce thread de mise à jour. Ces utilisateurs et utilisatrices, ainsi que toutes les personnes abonnées à l’objet, reçoivent une notification chaque fois qu’une mise à jour ou une réponse est publiée sur l’objet. Pour baliser davantage d’utilisateurs et d’utilisatrices, consultez la section [Baliser d’autres personnes lors des mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   En plus de voir les utilisateurs et utilisatrices qui participent activement à la conversation, vous pouvez voir les personnes taguées dans chaque réponse en haut de ce thread de mise à jour. Ces utilisateurs et utilisatrices, ainsi que toutes les personnes abonnées à l’objet, reçoivent une notification chaque fois qu’une mise à jour ou une réponse est publiée sur l’objet. Pour taguer davantage d’utilisateurs et d’utilisatrices, voir [Taguer d’autres personnes sur les mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 1. Cliquez sur **Répondre**, saisissez votre réponse, puis cliquez sur **Répondre**.
 

@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nouveautés de la version 10 de l’API
+title: Nouveautés de la version 10 de l’API
 description: Ressources mises à jour
 author: Becky
 feature: Workfront API
@@ -10,11 +10,11 @@ exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
-# Nouveautés de la version 10 de l’API
+# Nouveautés de la version 10 de l’API
 
 * [Nouvelles ressources](#new-resources)
 * [Ressources mises à jour](#updated-resources)
@@ -26,7 +26,7 @@ ht-degree: 42%
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |   | AJOUTER |
+|   |   |   |   |   |   | ADD |
 |   |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SEARCH |
@@ -37,12 +37,12 @@ ht-degree: 42%
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | AJOUTER |
-|   |   |   |   |   |   | COUNT  |
-|   |   |   |   |   |   | DELETE  |
-|   |   |   |   |   |   | MODIFIER  |
-|   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | RAPPORT  |
+| ID |   |   |   |   |   | ADD |
+|   |   |   |   |   |   | COUNT |
+|   |   |   |   |   |   | DELETE |
+|   |   |   |   |   |   | EDIT |
+|   |   |   |   |   |   | GET |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -52,9 +52,9 @@ ht-degree: 42%
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | COUNT |
-|   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | RAPPORT  |
-|   |   |   |   |   |   | RECHERCHE  |
+|   |   |   |   |   |   | GET |
+|   |   |   |   |   |   | REPORT |
+|   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
@@ -62,24 +62,24 @@ ht-degree: 42%
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | AJOUTER |
+| ID |   |   |   |   |   | ADD |
 |   |   |   |   |   |   | COUNT |
-|   |   |   |   |   |   | DELETE  |
-|   |   |   |   |   |   | MODIFIER  |
-|   |   |   |   |   |   | GET  |
-|   |   |   |   |   |   | RAPPORT  |
-|   |   |   |   |   |   | RECHERCHE  |
+|   |   |   |   |   |   | DELETE |
+|   |   |   |   |   |   | EDIT |
+|   |   |   |   |   |   | GET |
+|   |   |   |   |   |   | REPORT |
+|   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
-### LicenseTypeGroupLimit
+### LicenceTypeGroupLimit
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| customerID | client |   |   |   |   |   |
+| customerID | customer |   |   |   |   |   |
 | groupID | groupe |   |   |   |   |   |
 | planLimit |   |   |   |   |   |   |
-| usedLicences |   |   |   |   |   |   |
+| usedLicenses |   |   |   |   |   |   |
 | worklimit |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
@@ -90,12 +90,12 @@ ht-degree: 42%
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| customerID | client |   |   |   |   | AJOUTER |
+| customerID | customer |   |   |   |   | ADD |
 | edTime | utilisateur |   |   |   |   | COUNT |
 | firstDayOfWeek |   |   |   |   |   | SUPPRIMER |
-| ID |   |   |   |   |   | MODIFIER |
+| ID |   |   |   |   |   | EDIT |
 | showPTO |   |   |   |   |   | GET |
-| startTime |   |   |   |   |   | RAPPORT |
+| startTime |   |   |   |   |   | REPORT |
 | userID |   |   |   |   |   | SEARCH |
 | workDate |   |   |   |   |   |   |
 
@@ -103,23 +103,23 @@ ht-degree: 42%
 
 **Ressources mises à jour**
 
-Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Workfront. Les modifications apportées à une ressource sont indiquées comme suit :
+Les ressources existantes suivantes ont été mises à jour avec cette version de l’API Workfront. Les modifications apportées à une ressource sont indiquées comme suit :
 
-* Les ajouts sont simplement répertoriés
+* Les ajouts sont simplement énumérés.
 * Les suppressions sont indiquées par un texte barré.
-* Les modifications sont répertoriées dans la note après le tableau.
+* Les modifications sont énumérées dans la note qui suit le tableau.
 
 ### Approbation
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
+| kanbanFlag |  |  | pendingApproval `<sup>1</sup>` |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
-| priorityColor  |   |   |   |   |   |   |
-| projectBudgetedCost  |   |   |   |   |   |   |
-| projectNetValue  |   |   |   |   |   |   |
-| projectRoi  |   |   |   |   |   |   |
-| resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
+| priorityColor |   |   |   |   |   |   |
+| projectBudgetedCost |   |   |   |   |   |   |
+| projectNetValue |   |   |   |   |   |   |
+| projectRoi |   |   |   |   |   |   |
+| ressourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -134,7 +134,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-`<sup>1</sup>` validateur ajouté LESS_THAN_EQUAL
+`<sup>1</sup>`Ajout du programme de validation LESS_THAN_EQUAL
 
 ### BudgetedHour
 
@@ -154,7 +154,7 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications des valeurs possibles
 
 ### DocMetadataLinkGroup
 
@@ -191,7 +191,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications des valeurs possibles
 
 Frais
 
@@ -205,7 +205,7 @@ Frais
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
+|   | licenceTypeLimit |   |   | addRemoveLicenseTypeLimits |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
 {style="table-layout:auto"}
@@ -218,7 +218,7 @@ Frais
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Modifications apportées aux valeurs possibles
+<sup>1</sup> Modifications des valeurs possibles
 
 ### TâcheOp
 
@@ -228,7 +228,7 @@ Frais
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Le type est passé de null à boolean
+<sup>1</sup> Type modifié de nul en booléen
 
 ### PortalSection
 
@@ -251,10 +251,10 @@ Frais
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| projectBudgetedCost  |   |   |   | linkExternalObject  |   |   |
+| projectBudgetedCost |   |   |   | linkExternalObject  |   |   |
 | projectNetValue |   |   |   | unlinkExternalObject |   |   |
-| projectRoi |   |   |   |   |   |   |
-| resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
+| projetRoi |   |   |   |   |   |   |
+| ressourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -274,7 +274,7 @@ Frais
 
 {style="table-layout:auto"}
 
-<sup>1</sup>MONNAIE DU validateur ajoutée
+<sup>1</sup>Programme de validation CURRENCY ajouté
 
 ### Tâche
 
@@ -282,7 +282,7 @@ Frais
 |---|---|---|---|---|---|---|
 | kanbanFlag |   |   |   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
-| priorityColor  |   |   |   |   |   |   |
+| priorityColor |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -296,7 +296,7 @@ Frais
 
 {style="table-layout:auto"}
 
-<sup>1</sup> validateur ajouté LESS_THAN
+<sup>1</sup> Programme de validation LESS_THAN ajouté
 
 ### TeamAssignment
 
@@ -326,17 +326,17 @@ Frais
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> change les valeurs possibles
+<sup>1</sup> Modifications des valeurs possibles
 
 ### l’utilisateur ou de l’utilisatrice
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   | accessLevel  |   |   |   |   |   |
+|   | accessLevel |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -348,19 +348,19 @@ Frais
 
 {style="table-layout:auto"}
 
-<sup>1</sup> change les valeurs possibles
+<sup>1</sup> Modifications des valeurs possibles
 
 ### Travail
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup> |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
-| priorityColor  |   |   |   |   |   |   |
+| priorityColor |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Le type est passé de null à boolean
+<sup>1</sup> Type modifié de nul à booléen
 
 ## Ressources supprimées {#removed-resources}
 
@@ -368,12 +368,12 @@ Frais
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| allocationDate |   |   |   |   |   | AJOUTER  |
-| recordsHours |   |   |   |   |   | COUNT  |
-| ID |   |   |   |   |   | DELETE  |
-| scheduledBudgetedHours |   |   |   |   |   | MODIFIER  |
-| projectID |   |   |   |   |   | GET  |
-| roleID |   |   |   |   |   | RAPPORT  |
+| allocationDate |   |   |   |   |   | ADD  |
+| budgetedHours |   |   |   |   |   | COUNT |
+| ID |   |   |   |   |   | DELETE |
+| plannedBudgetedHours |   |   |   |   |   | EDIT |
+| projectID |   |   |   |   |   | GET |
+| roleID |   |   |   |   |   | REPORT |
 | userID |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}

@@ -10,11 +10,11 @@ exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
 source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 2%
+ht-degree: 29%
 
 ---
 
-# Types de rapports du tableau de bord du canevas
+# Vue d’ensemble des types de rapports du tableau de bord de zones de travail
 
 >[!IMPORTANT]
 >
@@ -24,9 +24,9 @@ Il existe plusieurs rapports que vous pouvez ajouter à un tableau de bord Zone 
 
 * Rapports existants (rapports créés à l’aide de l’outil de reporting)
 * Rapports graphiques (comprend des graphiques à barres, à colonnes, à courbes et à secteurs)
-* Rapports IPC
+* Rapports sur les indicateurs clés de performance
 * Rapports sur les tableaux
-* Rapports de validations en attente
+* Rapports sur les approbations en attente
 
 Pour obtenir des informations générales sur l’ajout et la disposition de rapports sur un tableau de bord de zone de travail, voir [Ajout, suppression ou organisation de rapports dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Pour plus d&#39;informations sur l&#39;ajout et la mise en forme de types de rapports spécifiques, reportez-vous à l&#39;index de l&#39;article ci-dessous.
 
@@ -34,8 +34,8 @@ Pour obtenir des informations générales sur l’ajout et la disposition de rap
 
 Cette section contient les articles suivants :
 
-* [Ajout d’un rapport existant à un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-* [Création d’un rapport sur les indicateurs de performance clés dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-* [Créer un rapport de graphique dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-* [Créer un rapport de tableau dans un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-* [Ajout d’un rapport d’approbations en attente à un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+* [Ajouter un rapport existant à un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+* [Créer un rapport de KPI dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+* [Créer un rapport de graphique dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+* [Créer un rapport de tableau dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+* [Ajouter un rapport d’approbations en attente à un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)

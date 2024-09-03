@@ -2,70 +2,70 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: Vue d’ensemble du workflow automatisé
-description: Les processus automatisés vous permettent de créer une série d’étapes de révision séquentielles ou parallèles, d’établir des dépendances entre ces étapes et de limiter leur visibilité à certains utilisateurs. S’il existe des étapes interdépendantes dans votre processus de révision, les workflows automatisés déplacent automatiquement votre BAT au cours des étapes, en informant les réviseurs et les approbateurs concernés tout au long du processus.
+title: Vue d’ensemble des workflows automatisés
+description: Les workflows automatisés vous permettent de créer une série d’étapes de révision séquentielles ou parallèles, d’établir des dépendances entre ces étapes et de limiter leur visibilité à certains utilisateurs et utilisatrices. S’il existe des étapes interdépendantes dans votre processus de révision, les workflows automatisés déplacent automatiquement votre épreuve au travers des étapes, en informant les réviseurs et réviseuses et les approbateurs et approbatrices concernés tout au long du processus.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d643970a-c00c-4fb4-94bc-fca4e090dcc9
 source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble du workflow automatisé
+# Vue d’ensemble des workflows automatisés
 
 <!-- Audited: 01/2024 -->
 
-Les processus automatisés vous permettent de créer une série d’étapes de révision séquentielles ou parallèles, d’établir des dépendances entre ces étapes et de limiter leur visibilité à certains utilisateurs. S’il existe des étapes interdépendantes dans votre processus de révision, les workflows automatisés déplacent automatiquement votre BAT au cours des étapes, en informant les réviseurs et les approbateurs concernés tout au long du processus. Pour plus d’informations sur la configuration d’un workflow automatisé, voir [Création d’un BAT avancé avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+Les workflows automatisés vous permettent de créer une série d’étapes de révision séquentielles ou parallèles, d’établir des dépendances entre ces étapes et de limiter leur visibilité à certains utilisateurs et utilisatrices. S’il existe des étapes interdépendantes dans votre processus de révision, les workflows automatisés déplacent automatiquement votre épreuve au travers des étapes, en informant les réviseurs et réviseuses et les approbateurs et approbatrices concernés tout au long du processus. Pour plus d’informations sur la configuration d’un workflow automatisé, consultez [Créer une épreuve avancée avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-**Exemples :** Les workflows automatisés vous aident à gérer des processus de révision de BAT complexes tels que :
+**Exemples :** les workflows automatisés vous aident à gérer des processus de révision d’épreuves complexes tels que :
 
-* Lorsque différents groupes ou opérateurs validants doivent consulter le contenu dans un ordre spécifique
-* Lorsqu’il existe des dépendances entre l’activité des utilisateurs lorsqu’ils examinent le contenu
-* Lorsque le contenu est révisé régulièrement par les mêmes groupes de personnes
-* Quand contrôler la période pendant laquelle les réviseurs examinent le contenu
-* Lorsque vous souhaitez que certaines activités de révision restent privées
+* Lorsque différents groupes ou réviseurs et réviseuses doivent consulter le contenu dans un ordre spécifique.
+* Lorsqu’il existe des dépendances dans l’activité des utilisateurs et des utilisatrices lors de la révision du contenu.
+* Lorsque du contenu est révisé régulièrement par les mêmes groupes de personnes.
+* Lorsque vous souhaitez contrôler la période pendant laquelle les réviseurs et réviseuses peuvent consulter le contenu.
+* Lorsque vous souhaitez que certaines activités de révision restent privées.
 
 ## Étapes
 
-Pour chaque étape du processus automatisé, vous pouvez configurer des paramètres tels qu’une échéance pour l’étape, un verrou sur l’étape, un réviseur défini comme décideur de l’étape et un paramètre de confidentialité permettant uniquement à certaines personnes d’afficher les commentaires des réviseurs sur l’étape.
+Pour chaque étape du workflow automatisé, vous pouvez configurer des paramètres tels qu’une date d’échéance pour l’étape, un verrouillage de l’étape, un réviseur ou une réviseuse défini comme personne décideuse pour l’étape et un paramètre de confidentialité qui permet de restreindre à certaines personnes uniquement la consultation des commentaires des réviseurs et réviseuses sur l’étape.
 
-Les étapes peuvent être activées manuellement, lors de la création du BAT, lors de l’atteinte d’une échéance, d’une date et d’une heure spécifiques ou lorsqu’une décision est prise sur la scène parent.
+Les étapes peuvent être activées manuellement, lors de la création de l’épreuve, lorsqu’une date d’échéance est atteinte, à une date et une heure spécifiques ou lorsqu’une décision est prise sur l’étape parent.
 
-Les étapes peuvent être verrouillées manuellement, ainsi que lorsque l’étape suivante commence ou lorsque toutes les décisions sont prises sur l’étape. Vous pouvez également choisir de ne jamais verrouiller une scène.
+Les étapes peuvent être verrouillées manuellement, lorsque l’étape suivante débute, ou lorsque toutes les décisions ont été prises sur l’étape. Vous pouvez également choisir de ne jamais verrouiller une étape.
 
-Vous pouvez nommer un décideur principal pour une étape. La décision de cette personne rend inutiles toutes les autres décisions pour l’étape.
+Vous pouvez affecter une personne décideuse principale à une étape. La décision de cette personne rend toutes les autres décisions prises sur l’étape inutiles.
 
-De même, vous pouvez choisir de n’exiger qu’une seule décision pour une étape. Lorsque vous procédez de la sorte, le processus de révision de l’étape est marqué comme terminé une fois que l’un des destinataires a pris sa décision sur l’étape.
+Vous pouvez également choisir de n’exiger qu’une seule décision pour une étape. Lorsque vous choisissez cette option, le processus de révision de l’étape est indiqué comme terminé dès que n’importe quelle personne destinataire prend une décision sur l’étape.
 
-Vous pouvez notifier tous les réviseurs de leur invitation à réviser le contenu au début du processus de révision, ou vous pouvez demander à chaque réviseur d’être informé uniquement lorsque son étape est activée.
+Vous pouvez notifier tous les réviseurs et réviseuses de leur invitation à réviser le contenu lors du démarrage du processus de révision, ou vous pouvez choisir que chaque réviseur et réviseuse soit informé uniquement lors de l’activation de son étape.
 
-## Etapes privées
+## Étapes privées
 
-Par défaut, les commentaires laissés par les réviseurs à toutes les étapes sont visibles pour tous ceux qui visualisent le contenu et reçoivent des notifications par e-mail et des résumés de commentaires sur le processus de révision.
+Par défaut, les commentaires laissés par les réviseurs et réviseuses sur toutes les étapes sont visibles pour tous ceux qui révisent le contenu et qui reçoivent des notifications par e-mail et des résumés des commentaires concernant le processus de révision.
 
-Si vous souhaitez empêcher certains groupes de réviseurs de voir les commentaires d’autres réviseurs, vous pouvez créer des scènes privées.
+Si vous souhaitez empêcher certains groupes de réviseurs et réviseuses de voir les commentaires d’autres réviseurs et réviseuses, vous pouvez créer des étapes privées.
 
-Les scènes privées ne sont visibles que par les réviseurs ajoutés à ces scènes. Elles sont également visibles par les utilisateurs disposant de droits d’édition sur le BAT ou de droits d’édition sur tous les éléments créés dans le compte Adobe Workfront de votre entreprise (superviseur et supérieur, ou les utilisateurs disposant de profils personnalisés pour lesquels la modification des informations d’autres personnes est activée).
+Les étapes privées ne sont visibles que par les réviseurs et réviseuses ajoutés à ces étapes. Elles sont également visibles par les utilisateurs et utilisatrices disposant de droits d’édition sur l’épreuve ou de droits d’édition sur tous les éléments créés dans le compte Adobe Workfront de votre entreprise (rôle Superviseur et supérieur, ou utilisateurs et utilisatrices disposant de profils personnalisés pour lesquels la modification des informations d’autres personnes est activée).
 
-Les commentaires ajoutés par les participants de la scène privée ne sont pas inclus dans les notifications par email et les résumés des commentaires du BAT demandés par quiconque n’a pas les droits de les afficher.
+Les commentaires ajoutés par les participantes et les participants de l’étape privée ne sont pas inclus dans les notifications par e-mail et dans les résumés des commentaires de l’épreuve demandés par quiconque ne possède pas le droit de les consulter.
 
 ## Diagramme de workflow
 
-Le diagramme de workflow est une représentation visuelle du processus de révision de votre BAT. Il vous montre l’ordre des scènes et les dépendances entre les scènes lorsque vous créez ou affichez les détails d’un BAT. Toutes les scènes privées s’affichent avec un symbole de clé.
+Le diagramme de workflow est une représentation visuelle du processus de révision de votre épreuve. Il vous indique l’ordre des étapes et les dépendances entre les étapes lorsque vous créez une épreuve ou consultez les détails d’une épreuve. Toutes les étapes privées s’affichent avec un symbole en forme de clé.
 
-![intro-to-aw-example-diagramme.png](assets/intro-to-aw-example-diagram-350x199.png)
+![intro-to-aw-example-diagram.png](assets/intro-to-aw-example-diagram-350x199.png)
 
-Dans les bons à tirer en direct, les dépendances des étapes s’affichent avec une ligne grise en pointillé pour les étapes inactives ou une ligne noire continue pour les étapes actives. Les étapes s’affichent en vert si le processus de validation a été terminé dans le délai spécifié. Les étapes approchant leurs échéances s’affichent en orange et les étapes au-delà de leurs échéances s’affichent en rouge.
+Dans les épreuves actives, les dépendances des étapes s’affichent avec une ligne grise en pointillés pour les étapes inactives ou une ligne noire continue pour les étapes actives. Les étapes s’affichent en vert si le processus d’approbation a été terminé dans le délai spécifié. Les étapes dont la date d’échéance approche s’affichent en orange et les étapes qui ont dépassé leur date d’échéance s’affichent en rouge.
 
 ![workflow_2.png](assets/workflow-2-350x183.png)
 
-## Modèles de workflow automatisés
+## Modèles de workflows automatisés
 
-Si votre entreprise utilise le même processus de révision pour plusieurs BAT, votre administrateur Workfront peut créer des modèles de workflow automatisé pour faciliter la création des BAT. Vous pouvez choisir un modèle de workflow automatisé lorsque vous configurez un BAT pour ajouter les phases et les validants de ce modèle au BAT. Vous pouvez modifier le modèle appliqué au BAT si nécessaire avant et après la création du BAT.
+Si votre organisation utilise le même processus de révision pour plusieurs épreuves, votre administrateur ou administratrice Workfront peut créer des modèles de workflows automatisés pour faciliter la création des épreuves. Vous pouvez choisir un modèle de workflow automatisé lorsque vous configurez une épreuve pour lui ajouter les étapes et les réviseurs et réviseuses de ce modèle. Vous pouvez modifier si nécessaire le modèle appliqué à l’épreuve avant et après la création de l’épreuve.
 
-Votre administrateur Workfront peut créer un nombre illimité de modèles en fonction des besoins de votre entreprise.
+Votre administrateur ou administratrice Workfront peut créer un nombre illimité de modèles en fonction des besoins de votre entreprise.
 
-Pour en savoir plus sur la création, l’utilisation et la gestion des modèles, consultez votre administrateur Workfront.
+Pour en savoir plus sur la création, l’utilisation et la gestion de modèles, contactez votre administrateur ou administratrice Workfront.

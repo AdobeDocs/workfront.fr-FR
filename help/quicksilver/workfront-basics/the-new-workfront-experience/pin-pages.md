@@ -1,14 +1,14 @@
 ---
 navigation-topic: the-new-workfront-experience
 title: Épingler des pages pour personnaliser votre espace de travail
-description: Vous pouvez épingler votre travail le plus important  [!DNL Adobe Workfront] pour une visibilité accrue, une meilleure organisation et un accès plus rapide. Les pages épinglées sont toujours accessibles depuis le haut d’une page dans Workfront.
+description: Vous pouvez épingler votre travail le plus important dans  [!DNL Adobe Workfront]  pour une visibilité accrue, une meilleure organisation et un accès plus rapide. Les pages épinglées sont toujours accessibles depuis le haut d’une page dans Workfront.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 7%
 
 Vous pouvez épingler votre travail le plus important dans [!DNL Adobe Workfront] pour une visibilité accrue, une meilleure organisation et un accès plus rapide. Les pages épinglées sont toujours accessibles depuis le haut d’une page dans Workfront.
 
-Vous pouvez être affecté à un modèle de mise en page dont les pages sont déjà épinglées (comme décrit dans la section [Personnaliser les pages épinglées à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Il n’est pas possible de renommer ou de supprimer ces pin’s prédéfinis. Toutes les pages que vous épinglez s’affichent à droite des pin’s prédéfinis.
+Un modèle de mise en page peut vous être attribué avec des pages déjà épinglées (tel que décrit dans la section [Personnaliser des pages épinglées à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Ces épingles prédéfinies ne peuvent être ni renommées ni supprimées. Toutes les pages que vous épinglez s’affichent à droite des épingles prédéfinies.
 
 ## Conditions d’accès
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,8 +29,8 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] forfait*</strong></td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] formule*</strong></td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence*</strong></td> 
@@ -39,64 +39,64 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-&#42;Pour savoir quel plan ou type de licence vous avez, contactez votre administrateur [!DNL Workfront].
+&#42;Pour connaître le type de plan ou de licence dont vous disposez, contactez votre administrateur ou administratrice [!DNL Workfront].
 
 ## Épingler une page
 
 1. Accédez à la page que vous souhaitez épingler.
 
-   Il peut s’agir de n’importe quel élément de travail, tel qu’un projet, une tâche, une file d’attente de demandes, etc.
+   Il peut s’agir de n’importe quel élément de travail, tel qu’un projet, une tâche, une file d’attente des demandes, etc.
 
-1. Cliquez sur **[!UICONTROL épingler la page active]** en haut de la page.
+1. Cliquez sur **[!UICONTROL Épingler la page actuelle]** en haut de la page.
 
-   La page épinglée est désormais accessible en haut de n’importe quelle page de [!DNL Workfront].
+   La page épinglée est désormais accessible en haut de n’importe quelle page dans [!DNL Workfront].
 
-## Accès à une page épinglée
+## Accéder à une page épinglée
 
 1. En haut d’une page, cliquez sur la page épinglée à afficher.
 
    >[!TIP]
    >
-   >Passez la souris sur une page épinglée pour afficher le nom complet et la description.
+   >Passez la souris sur une page épinglée pour afficher son nom complet et sa description.
 
    Ou
 
-   Si de nombreuses pages sont épinglées, vous devrez peut-être cliquer sur le menu **[!UICONTROL Plus]** ![](assets/more-icon-spectrum.png) pour afficher d’autres pages épinglées.
+   Si de nombreuses pages sont épinglées, vous devrez peut-être cliquer dans le menu **[!UICONTROL Plus]** ![](assets/more-icon-spectrum.png) pour afficher d’autres pages épinglées.
 
    La page épinglée s’affiche.
 
-## Renommer les pages imprimées
+## Renommer les pages épinglées
 
 Vous pouvez modifier le nom d’une page épinglée pour qu’elle ait plus de signification pour vous.
 
-1. Passez la souris sur la page épinglée dans le volet de navigation supérieur ou sur le **[!UICONTROL menu Plus]**.
-1. Cliquez sur la flèche en regard du nom de la épingle et sélectionnez **[!UICONTROL Renommer la épingle]**.
+1. Passez la souris sur la page épinglée dans le volet de navigation supérieur ou dans le **[!UICONTROL menu Plus]**.
+1. Cliquez sur la flèche en regard du nom de l’épingle et sélectionnez **[!UICONTROL Renommer l’épingle]**.
 
-   ![Renommer le pin](assets/rename-remove-pin.png)
+   ![Renommer l’épingle](assets/rename-remove-pin.png)
 
-1. Saisissez le nouveau nom d’épingle, puis cliquez sur l’icône en forme de coche ou appuyez sur Entrée.
+1. Saisissez le nouveau nom de l’épingle et cliquez sur l’icône de la coche ou appuyez sur Entrée.
 
-   ![Cliquez sur la coche pour renommer la pin](assets/rename-pin-click-checkmark.png)
+   ![Cliquez sur la case cochée pour renommer l’épingle](assets/rename-pin-click-checkmark.png).
 
-   Une petite fenêtre contextuelle s’affiche pendant plusieurs secondes après avoir cliqué sur la coche ou appuyé sur Entrée, ce qui vous permet d’annuler la modification du nom de la épingle avant qu’elle ne soit enregistrée.
+   Une petite fenêtre pop-up apparaît pendant quelques secondes après que vous avez cliqué sur la coche ou appuyé sur Entrée, vous permettant d‘annuler la modification du nom de l’épingle avant qu’elle ne soit enregistrée.
 
 ## Réorganiser les pages épinglées
 
 Vous pouvez réorganiser l’ordre d’affichage des pages épinglées.
 
-1. Passez la souris sur la page épinglée dans le volet de navigation supérieur ou sur le **[!UICONTROL menu Plus]**. Lorsque vous voyez le curseur manuel, cliquez sur l’épingle et faites-le glisser dans l’ordre souhaité.
+1. Passez la souris sur la page épinglée dans le volet de navigation supérieur ou dans le **[!UICONTROL menu Plus]**. Lorsque vous voyez le curseur manuel, cliquez sur l’épingle et faites-la glisser dans l’ordre souhaité.
 
    Vos modifications seront automatiquement enregistrées et mémorisées la prochaine fois que vous accéderez à Workfront.
 
-## Suppression d’une page épinglée
+## Supprimer une page épinglée
 
 1. Cliquez sur la page épinglée que vous souhaitez désépingler.
-1. Cliquez sur **[!UICONTROL Décocher la page active]** en haut de l’écran.
+1. Cliquez sur **[!UICONTROL Désépingler la page actuelle]** en haut de l’écran.
 
    Ou
 
    Cliquez sur la flèche en regard du nom de l’épingle et sélectionnez **[!UICONTROL Supprimer l’épingle]**.
 
-   ![Supprimer le pin](assets/rename-remove-pin.png)
+   ![Supprimer l’épingle](assets/rename-remove-pin.png)
 
-   La page n’est plus accessible depuis le haut d’une page de [!DNL Workfront].
+   La page n’est plus accessible depuis le haut d’une page dans [!DNL Workfront].

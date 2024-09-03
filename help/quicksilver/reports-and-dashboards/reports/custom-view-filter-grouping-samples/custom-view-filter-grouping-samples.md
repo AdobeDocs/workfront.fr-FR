@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: "Affichage personnalisé, filtrage et regroupement d’exemples : index de l’article"
-description: Cette section fournit des exemples d’affichages, de filtres et de regroupements personnalisés que vous pouvez utiliser dans votre compte Adobe Workfront.
+title: '« Exemples de vues personnalisées, de filtres et de regroupements : index des articles »'
+description: Cette section présente des exemples de vues, filtres et regroupements personnalisés que vous pouvez utiliser dans votre compte Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -11,7 +11,7 @@ exl-id: beac1ea6-a983-4d12-8972-91150914f731
 source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>
 -->
 
-Cette section fournit des exemples d’affichages, de filtres et de regroupements personnalisés que vous pouvez utiliser dans votre compte Adobe Workfront. Sauf indication contraire, ces exemples ne peuvent pas être créés uniquement à l’aide de l’interface de mode standard et ne peuvent être créés qu’à l’aide de l’interface de mode texte. Pour plus d’informations sur le mode texte, voir [Présentation du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Cette section présente des exemples de vues, filtres et regroupements personnalisés que vous pouvez utiliser dans votre compte Adobe Workfront. Sauf indication contraire, ces exemples ne peuvent pas être construits en utilisant uniquement l’interface du mode standard et ne peuvent être construits qu’en utilisant l’interface du mode texte. Pour plus d’informations sur le mode texte, voir [Vue d’ensemble du mode texte](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;below, drafted because not sure if the links are currently working - April 2022)</p>
@@ -35,56 +35,56 @@ Cette section fournit des exemples d’affichages, de filtres et de regroupement
 
 ## Exemples de vues personnalisées
 
-* [Affichage : afficher le nom des tâches parentes sous la forme de majuscules](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
-* [Vue : Heures réelles par rapport aux heures planifiées dans la même colonne d’une tâche Vue](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
-* [Vue : société et groupe d’accueil de l’utilisateur affecté](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
-* [Vue : variance de ligne de base pour la durée et le travail planifié dans une vue de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
-* [Affichage : calculer le coût des heures supplémentaires dans une vue de feuille de temps](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
-* [Affichage : calculer les différences d’heure et de date](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
-* [Vue : afficher le résultat d&#39;un calcul entre deux champs dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
-* [Vue : ajouter une liste de successeurs de tâches dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-* [Affichage et regroupement : afficher la durée réelle du projet agrégée par la moyenne dans un groupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
-* [Affichage : détails combinés de la tâche et des problèmes dans une liste Heure](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
-* [Affichage : afficher une image au lieu d&#39;une chaîne dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-* [Vue : affiche les objets qui ne sont pas inclus dans l’interface standard](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [Affichage : afficher les informations de problème d’origine sur les listes de tâches et de projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
-* [Vue : afficher les informations sur le programme et le Portfolio dans une vue de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
-* [Affichage : afficher les retraits de tâche dans une liste de tâches](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-* [Affichage : rapport de document avec lien vers un BAT](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
-* [Vue : modifier de manière permanente la largeur d’une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
-* [Affichage : détails utilisateur étendus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
-* [Affichage : masquer le contenu d’une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
-* [Affichage : heures avec les informations sur la tâche parente](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
-* [Affichage : problèmes avec les informations d’approbation](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
-* [Affichage : problèmes avec le nom de l’entreprise de l’expéditeur](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
-* [Affichage : problèmes liés à la résolution des détails de l’objet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
-* [Vue : fusionner les informations de plusieurs colonnes dans une seule colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
-* [Affichage : vue de projet à plusieurs lignes](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
-* [Affichage : détails du problème d’origine des tâches et des projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
-* [Vue : afficher la relation parent-enfant dans une tâche en mettant en retrait les tâches](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
-* [Vue : Heures planifiées par rapport aux Heures réelles par affectation dans une vue de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
-* [Vue : détails du prédécesseur](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
-* [Affichage : projet avec tous les utilisateurs et rôles de l’équipe de projet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
-* [Affichage : liste des utilisateurs de projet avec des rôles de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
+* [Vue : afficher le nom des tâches parent en majuscules](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
+* [Vue : heures effectives par rapport aux heures prévues dans la même colonne d’une vue de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
+* [Vue : entreprise et groupe principal de la personne affectée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
+* [Vue : écart de référence pour la durée et le travail prévu dans une vue de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
+* [Vue : calculer le coût des heures supplémentaires dans la vue d’une feuille de temps](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
+* [Vue : calculer les différences d’heure et de date](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
+* [Vue : afficher le résultat d’un calcul entre deux champs dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+* [Vue : ajouter une liste de successeurs de tâches dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
+* [Vue et regroupement : afficher la durée réelle du projet agrégée par la moyenne dans un regroupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+* [Vue : détails des tâches et des problèmes combinés dans une liste d’heures](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
+* [Vue : afficher une image au lieu d’une chaîne de caractères dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
+* [Vue : afficher les objets qui ne sont pas inclus dans l’interface standard](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+* [Vue : afficher les informations sur le problème original dans les listes de tâches et de projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [Vue : afficher les informations relatives au programme et au portfolio dans une vue de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+* [Vue : afficher les indentations des tâches dans une liste de tâches](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+* [Vue : rapport de document avec lien vers une épreuve](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
+* [Vue : modifier de façon permanente la largeur d’une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
+* [Vue : détails développés concernant l’utilisateur ou l’utilisatrice](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
+* [Vue : masquer le contenu d’une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+* [Vue : heures avec informations sur les tâches parent](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
+* [Vue : problèmes liés aux informations d’approbation](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
+* [Vue : problèmes liés au nom de l’entreprise du créateur ou de la créatrice](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
+* [Vue : problèmes avec détails de l’objet de résolution](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
+* [Vue : fusionner les informations provenant de plusieurs colonnes dans une colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
+* [Vue : vue Projet à plusieurs lignes](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
+* [Vue : détails du problème d’origine pour les tâches et les projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
+* [Vue : afficher la relation parent-enfant dans une tâche en appliquant une indentation aux tâches](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
+* [Vue : nombre d’heures prévues par rapport aux heures effectives par affectation dans une vue de tâche](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
+* [Vue : détails de la tâche antérieure](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
+* [Vue : projet avec toutes les personnes et tous les rôles de l’équipe de projet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
+* [Vue : liste des utilisateurs et utilisatrices du projet avec les fonctions](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
 * [Vue : supprimer le lien vers un objet dans une colonne](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md" class="MCXref xref" xrefformat="{para}">View: report delivery details</a> </p> </li>
   -->
 
-* [Affichage : éléments de rapport utilisés dans les rapports](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
+* [Vue : éléments de rapport utilisés dans les rapports](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
 * [Vue : objets résolvables dans un rapport de tâche ou de projet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md" class="MCXref xref" xrefformat="{para}">View: Resource Pool quick links</a> </p> </li>
   -->
 
-* [Affichage : afficher les tâches parents jusqu’à 4 niveaux de profondeur](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
-* [Affichage : chemin d’envoi pour les problèmes](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
-* [Affichage : tâche avec variance de toutes les dates](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
-* [Vue : tâches affectées par les exceptions de planification](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
-* [Affichage : URL externe utilisant le champ de données personnalisé](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
-* [Affichage : pourcentage du rôle de l’utilisateur dans la disponibilité de l’éditeur de texte enrichi](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
+* [Vue : afficher les tâches parent jusqu’à 4 niveaux de profondeur](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
+* [Vue : chemin de soumission des problèmes](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
+* [Vue : tâche avec variance de toutes les dates](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
+* [Vue : tâches affectées par des exceptions de planning](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
+* [Vue : URL externe utilisant un champ de données personnalisé](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
+* [Vue : pourcentage de disponibilité ETP de fonction d’utilisateur ou d’utilisatrice](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
 * [Vue : congés personnels d’utilisateur ou d’utilisatrice](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
 
   <!--
@@ -93,43 +93,43 @@ Cette section fournit des exemples d’affichages, de filtres et de regroupement
 
 ## Exemples de filtres personnalisés
 
-* [Filtre : afficher les prédécesseurs de plusieurs projets incomplets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
-* [Filtre : afficher les successeurs de plusieurs projets incomplets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
-* [Filtre : afficher vos projets en cours en attente d’approbation](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
-* [Filtre : afficher uniquement les éléments dont l’état d’approbation est ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
-* [Filtre : éliminer les éléments d’une liste en comparant deux champs](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
-* [Filtre : afficher les tâches parentes](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
-* [Filtre : rapport Approbation de BAT pour omettre les versions précédentes du BAT](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
-* [Filtre : créer plusieurs règles de filtrage qui référencent le même champ (&quot;instructions AND&quot;)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
-* [Filtre : afficher les rapports planifiés pour la diffusion](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
+* [Filtre : afficher les projets transversaux antérieurs incomplets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+* [Filtre : afficher les projets transversaux ultérieurs incomplets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+* [Filtre : afficher vos projets en cours en attente d’approbation](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
+* [Filtre : afficher uniquement les éléments ayant un statut d’approbation](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
+* [Filtre : éliminer des éléments d’une liste en comparant deux champs](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
+* [Filtre : afficher les tâches parent](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
+* [Filtre : pour que le rapport d’approbation des épreuves ne tienne pas compte des versions antérieures des épreuves.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
+* [Filtre : créer plusieurs règles de filtrage qui font référence au même champ (instructions « AND »).](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+* [Filtre : afficher les rapports dont la diffusion est planifiée.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
 * [Filtre : afficher les éléments par statut de même nom lorsque les statuts sont associés à des groupes différents](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 
 ## Exemples de regroupements personnalisés
 
-* [Regrouper un rapport par un champ personnalisé à sélection multiple](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
-* [Groupement : groupe d&#39;accueil du propriétaire du projet dans une liste d&#39;heures](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [Regroupement : groupement de tâches à 4 niveaux pour le propriétaire du Portfolio, le propriétaire du programme, le propriétaire du projet et l’état du projet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
-* [Groupement : ajouter un quatrième groupement à une liste](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
-* [Regroupement : organisez les résultats de la liste par une valeur calculée commune à tous les objets du groupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
-* [Regroupement : affiche le résultat de l&#39;agrégation de plusieurs valeurs calculées dans un groupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
-* [Regroupement : indiquez si les résultats d&#39;un groupement doivent être réduits ou développés à l&#39;aide du mode texte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
-* [Regroupement : ventilation du pourcentage du projet 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
-* [Regroupement : ventilation du pourcentage du projet 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
-* [Regroupement : projets par date d&#39;entrée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
-* [Groupement : sponsor du projet pour les heures{1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
-* [Groupement : parrain de projet pour une liste de tâches](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
-* [Regroupement : modifiez le nom d&#39;affichage dans un groupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-* [Groupement : groupe d&#39;accueil du propriétaire du projet dans une liste d&#39;heures](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [Regroupement : ventilation du pourcentage de la tâche 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
-* [Regroupement : ventilation du pourcentage de la tâche 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
-* [Regroupement : tâches par porfolio, programme et projet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
+* [Regrouper un rapport en fonction d’un champ personnalisé à sélection multiple](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
+* [Regroupement : groupe principal de la personne propriétaire du projet dans une liste d’heures](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
+* [Regroupement : regroupement de tâches sur 4 niveaux pour la personne propriétaire du portfolio, la personne propriétaire du programme, la personne propriétaire du projet et le statut du projet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+* [Regroupement : ajouter un quatrième regroupement à une liste](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
+* [Regroupement : organiser les résultats d’une liste en fonction d’une valeur calculée commune à tous les objets du regroupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [Regroupement : afficher le résultat de l’agrégation de plusieurs valeurs calculées dans un regroupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
+* [Regroupement : indiquer si les résultats d’un regroupement doivent être réduits ou développés en mode texte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [Regroupement : répartition en pourcentage d’un projet (1)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
+* [Regroupement : répartition en pourcentage d’un projet (2)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
+* [Regroupement : projets par date d’entrée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
+* [Regroupement : sponsor du projet pour les heures](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
+* [Regroupement : sponsor du projet pour une liste de tâches](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
+* [Regroupement : modifier le nom d’affichage dans un regroupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
+* [Regroupement : groupe principal de la personne propriétaire du projet dans une liste d’heures](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
+* [Regroupement : répartition en pourcentage des tâches (1)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
+* [Regroupement : répartition en pourcentage des tâches (2)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
+* [Regroupement : tâches par portfolio, programme et projet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
 
-## Autres éléments et rapports personnalisés
+## Autres éléments de rapports personnalisés et rapports personnalisés
 
-* [ Rapports ou listes : afficher les utilisateurs associés à un objet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
-* [Rapport : Heure budgétée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
-* [Rapport : tâche combinée et numéro Affichage et regroupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
-* [Représentation graphique d’un rapport en fonction d’un champ personnalisé à sélection multiple](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
+* [Rapports ou listes : afficher les utilisateurs et les utilisatrices associés à un objet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
+* [Rapport : heures budgétées](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
+* [Rapport : vue et regroupement des tâches et des problèmes combinés](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
+* [Tracer un graphique de rapport en fonction d’un champ personnalisé multi-sélection](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

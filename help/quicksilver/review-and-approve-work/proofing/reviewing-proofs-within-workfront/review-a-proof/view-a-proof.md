@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Afficher le contenu d’une épreuve
-description: Découvrez comment afficher le contenu dans un BAT.
+title: Afficher le contenu dans une épreuve
+description: Apprenez à afficher le contenu d’une épreuve.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 13%
+ht-degree: 96%
 
 ---
 
-# Afficher le contenu d’une épreuve
+# Afficher le contenu dans une épreuve
 
 Vous pouvez utiliser la visionneuse de vérification pour afficher et marquer les fichiers dans Workfront.
 
@@ -26,144 +26,144 @@ Vous pouvez utiliser la visionneuse de vérification pour afficher et marquer le
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : sélectionnez ou Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Formule héritée : Select ou Premium</p> <p>Pour plus d’informations sur la relecture de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
-   <td>Manager ou version ultérieure</td> 
+   <td>Manager ou version supérieure</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander l’accès aux objets</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux documents</p> <p>Pour plus d’informations sur la demande d’accès supplémentaire, voir <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Demander un accès aux objets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation d’épreuve dont vous disposez, contactez votre administrateur ou administratrice Workfront ou Workfront Proof.
 
 +++
 
-## Modifier l&#39;affichage de votre BAT
+## Modifier l’affichage de votre épreuve
 
-Vous pouvez afficher un BAT statique qui contient plusieurs pages en une seule vue, dans une vue continue ou dans une vue magazine.
+Vous pouvez afficher une épreuve statique contenant plusieurs pages dans une vue unique, dans une vue continue ou dans une vue magazine.
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-1. Recherchez le BAT dont vous avez besoin, puis cliquez sur **Ouvrir le BAT**.
+1. Recherchez l’épreuve dont vous avez besoin, puis cliquez sur **Ouvrir l’épreuve**.
 
-1. Recherchez les options d’affichage dans la zone supérieure gauche de la visionneuse de vérification.\
+1. Dans la partie supérieure gauche de la visionneuse de relecture, repérez les options de visualisation.\
    ![changing_the_view.png](assets/changing-the-view-350x213.png)
 
-1. Cliquez sur l’une des options suivantes :
+1. Cliquez sur l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Affichage unique</td> 
-      <td>Affiche une seule page à la fois. Cliquez sur la miniature de la page à afficher ou appuyez sur les touches fléchées Gauche et Droite pour naviguer entre les pages.<br><img src="assets/proof-static-view-single.png" alt="proof_static_view_single.png"></td> 
+      <td role="rowheader">Vue unique</td> 
+      <td>Affiche une seule page à la fois. Cliquez sur la miniature de la page que vous souhaitez afficher ou appuyez sur les touches fléchées gauche et droite pour naviguer entre les pages.<br><img src="assets/proof-static-view-single.png" alt="proof_static_view_single.png"></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vue continue</td> 
-      <td>Affiche toutes les pages dans une seule vue empilée. Cliquez sur la miniature de la page à afficher ou appuyez sur les touches fléchées Gauche et Droite pour faire défiler toutes les pages vers le haut ou vers le bas dans une vue continue.<br><img src="assets/proof-static-view-continuous.png" alt="proof_static_view_continuous.png"></td> 
+      <td>Affiche toutes les pages dans une seule vue empilée.Cliquez sur la miniature de la page que vous souhaitez afficher ou appuyez sur les touches fléchées gauche et droite pour faire défiler toutes les pages vers le haut ou vers le bas dans une vue continue.<br><img src="assets/proof-static-view-continuous.png" alt="proof_static_view_continuous.png"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mode Magazine</td> 
-      <td>Affiche toutes les pages en une seule vue de magazine (côte à côte et empilée). Cliquez sur la miniature de la page à afficher ou appuyez sur les touches fléchées Gauche et Droite pour faire défiler toutes les pages.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
+      <td role="rowheader">Vue magazine</td> 
+      <td>Affiche toutes les pages dans une seule vue magazine (côte à côte et empilées).Cliquez sur la miniature de la page que vous souhaitez afficher ou appuyez sur les touches fléchées gauche et droite pour faire défiler toutes les pages.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
      </tr> 
     </tbody> 
    </table>
 
-## Utilisation de miniatures
+## Utiliser des miniatures
 
-Le panneau des miniatures s’affiche sur le côté gauche de la visionneuse de vérification. Vous pouvez utiliser la zone des miniatures pour parcourir le BAT. Les miniatures sont particulièrement utiles lorsqu’un BAT contient plusieurs pages.
+Le panneau des miniatures s’affiche sur le côté gauche de la visionneuse de relecture. Vous pouvez utiliser la zone des miniatures pour naviguer dans l’épreuve. Les miniatures sont particulièrement utiles lorsqu’une épreuve contient plusieurs pages.
 
 * [Masquer et afficher le panneau des miniatures](#hide-and-display-the-thumbnails-panel)
-* [Zoom et panoramique dans la vue miniature](#zoom-and-pan-in-the-thumbnail-view)
+* [Zoomer et effectuer un panoramique dans l’affichage des miniatures](#zoom-and-pan-in-the-thumbnail-view)
 
 ### Masquer et afficher le panneau des miniatures {#hide-and-display-the-thumbnails-panel}
 
 Le panneau des miniatures s’affiche par défaut. Vous pouvez masquer ou ajuster la taille du panneau.
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-1. Recherchez le BAT dont vous avez besoin, puis cliquez sur **Ouvrir le BAT**.
+1. Trouvez l’épreuve dont vous avez besoin, puis cliquez sur **Ouvrir l’épreuve**.
 
-1. Cliquez sur l’icône **Miniature** dans le coin supérieur gauche de la visionneuse de vérification.\
+1. Cliquez sur l’icône **Miniature** dans le coin supérieur gauche de la visionneuse de relecture.\
    ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
 
-1. (Facultatif) Cliquez à nouveau sur l’icône Miniature pour afficher le panneau Miniatures.
+1. (Facultatif) Cliquez à nouveau sur l’icône Miniature pour afficher le panneau des miniatures.
 
    >[!TIP]
    >
-   >Vous pouvez placer le pointeur de la souris sur le bord droit du panneau des miniatures pour redimensionner le panneau.
+   >Vous pouvez pointer sur le bord droit du panneau des miniatures pour le redimensionner.
 
-### Zoom et panoramique dans la vue miniature {#zoom-and-pan-in-the-thumbnail-view}
+### Zoomer et effectuer un panoramique dans l’affichage des miniatures {#zoom-and-pan-in-the-thumbnail-view}
 
-La zone de zoom du panneau des miniatures affiche la zone du BAT que vous êtes en train de consulter. Vous pouvez ajuster le zoom dans la zone de miniature ou effectuer un panoramique sur la zone pour afficher une autre partie du BAT.
+La zone de zoom dans le panneau des miniatures affiche la zone de l’épreuve que vous êtes en train de visualiser. Vous pouvez ajuster le zoom dans la zone des miniatures ou effectuer un panoramique pour visualiser une autre partie de l’épreuve.
 
-Pour effectuer un zoom et un panoramique dans la vue miniature :
+Pour effectuer un zoom et un panoramique dans l’affichage des miniatures, procédez comme suit :
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-1. Recherchez le BAT dont vous avez besoin, puis cliquez sur **Ouvrir le BAT**.
+1. Trouvez l’épreuve dont vous avez besoin, puis cliquez sur **Ouvrir l’épreuve**.
 
-1. Localisez la zone de zoom active dans le panneau des miniatures.\
+1. Localisez la zone de zoom actuelle dans le panneau des miniatures.\
    La zone de zoom s’affiche sous la forme d’un cadre bleu autour des bords de la miniature.
 
    ![zoom_thumbnail_-_frame.png](assets/zoom-thumbnail---frame-350x215.png)
 
-1. Pour ajuster la taille de la zone de zoom, faites glisser le coin inférieur droit de la zone de zoom jusqu’à obtenir la taille souhaitée.
-1. Pour déplacer la zone de zoom vers une autre partie du BAT, faites glisser la zone de zoom jusqu’à ce qu’elle couvre la partie du BAT que vous souhaitez afficher.
+1. Pour ajuster la taille de la zone de zoom, faites glisser le coin inférieur droit de la zone de zoom jusqu’à ce qu’elle atteigne la taille souhaitée.
+1. Pour déplacer la zone de zoom vers une autre partie de l’épreuve, faites glisser la zone de zoom jusqu’à ce qu’elle couvre la partie de l’épreuve que vous souhaitez visualiser.
 
-## Faire pivoter un BAT
+## Faire pivoter une épreuve
 
-Vous pouvez faire pivoter le BAT dans la visionneuse de vérification. Lorsque vous faites pivoter un BAT qui contient plusieurs pages, toutes les pages sont pivotées simultanément.
-
-1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-1. Recherchez le BAT dont vous avez besoin, puis cliquez sur **Ouvrir le BAT**.
-
-1. Cliquez sur l’icône **Rotation** au bas de la visionneuse de vérification.
-
-   ![BAT_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
-
-   Le BAT est pivoté de 90 degrés chaque fois que vous cliquez sur l’icône **Rotation** .
-
-## Zoom et panoramique sur un BAT
-
-Vous pouvez ajuster le pourcentage de zoom lors de l’affichage du BAT. Lorsque vous affichez un BAT avec un pourcentage de zoom plus élevé, l’option Panoramique vous permet d’utiliser le curseur pour accéder à différentes zones du BAT.
+Vous pouvez faire pivoter l’épreuve dans la visionneuse de relecture. Lorsque vous faites pivoter une épreuve contenant plusieurs pages, toutes les pages sont pivotées simultanément.
 
 1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
-1. Recherchez le BAT dont vous avez besoin, puis cliquez sur **Ouvrir le BAT**.
+1. Trouvez l’épreuve dont vous avez besoin, puis cliquez sur **Ouvrir l’épreuve**.
 
-1. Effectuez l’une des opérations suivantes pour ajuster le pourcentage de zoom du BAT :
+1. Cliquez sur l’icône **Faire pivoter** en bas de la visionneuse de relecture.
 
-   * Cliquez sur l’icône **Zoom**, puis cliquez sur le BAT pour afficher le BAT à un niveau de zoom supérieur, ou faites glisser le curseur sur une zone du BAT pour afficher uniquement cette zone.
+   ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-     ![change_zoom_percent.png](assets/change-zoom-percentage-350x36.png)
+   L’épreuve pivote de 90 degrés chaque fois que vous cliquez sur l’icône **Faire pivoter**.
 
-   * Cliquez sur le pourcentage de zoom actuel, cliquez sur un nouveau pourcentage de zoom ou cliquez sur **Ajuster à la largeur**, **Ajuster à la hauteur** ou **Ajuster à la page**.
+## Zoomer et effectuer un panoramique sur une épreuve
 
-     ![zoom_pourcentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+Vous pouvez ajuster le pourcentage de zoom lors de la visualisation de l’épreuve. Lorsque vous visualisez une épreuve avec un pourcentage de zoom plus élevé, l’option Panoramique vous permet d’utiliser le curseur pour naviguer dans différentes zones de l’épreuve.
+
+1. Accédez au projet, à la tâche ou au problème qui contient le document, puis sélectionnez **Documents**.
+1. Trouvez l’épreuve dont vous avez besoin, puis cliquez sur **Ouvrir l’épreuve**.
+
+1. Effectuez l’une des opérations suivantes pour ajuster le pourcentage de zoom de l’épreuve :
+
+   * Cliquez sur l’icône **Zoom**, puis cliquez sur l’épreuve pour l’afficher à une échelle plus grande ou faites glisser le curseur sur une zone de l’épreuve pour n’afficher que cette zone.
+
+     ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+
+   * Cliquez sur le pourcentage de zoom actuel, puis sur un nouveau pourcentage de zoom ou sur **Ajuster à la largeur**, **Ajuster à la hauteur** ou **Ajuster à la page**.
+
+     ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
    * Cliquez sur les icônes **Plus** ou **Moins** pour augmenter ou diminuer le pourcentage de zoom.
 
-     ![change_zoom_percent_-_plus_moins.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. Si vous devez effectuer un panoramique sur une certaine zone du BAT vidéo, cliquez sur l’icône **Panoramique** , puis faites glisser le BAT selon vos besoins.
+1. Si vous avez besoin d’effectuer un panoramique sur une certaine zone de l’épreuve vidéo, cliquez sur l’icône **Panoramique**, puis faites glisser l’épreuve comme vous le souhaitez.
 
    ![change_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
 
    >[!TIP]
    >
-   >Pour basculer facilement entre les outils Zoom et Panoramique, maintenez la barre d’espace enfoncée lorsque vous utilisez l’icône Zoom pour effectuer un panoramique.
+   >Pour passer facilement de l’outil Zoom à l’outil Panoramique, maintenez la barre d’espace enfoncée lorsque vous utilisez l’icône Zoom pour effectuer un panoramique.

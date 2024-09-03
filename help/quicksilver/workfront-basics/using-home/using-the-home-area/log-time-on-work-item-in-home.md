@@ -1,8 +1,8 @@
 ---
 product-area: projects;calendars
 navigation-topic: use-the-home-area
-title: Consigner du temps sur un élément de travail à partir de la zone d’accueil
-description: Vous pouvez consigner des heures sur n’importe quel élément de travail dans la [!UICONTROL Liste de travail] de la zone [!UICONTROL Accueil]. Pour plus d’informations, consultez la section [!UICONTROL Accueil] de l’article Consigner des heures.
+title: Consigner les heures passées sur un élément de travail à partir de la zone Accueil
+description: Vous pouvez consigner des heures sur n’importe quel élément de travail dans la [!UICONTROL liste de travail] de la zone [!UICONTROL Accueil]. Pour plus d’informations, voir la section [!UICONTROL Accueil] dans l’article Consigner les heures.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: e68f4200-dbcb-4a2f-a2f7-45fb968684cc
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 ---
 
-# Consigner des heures sur un élément de travail à partir de la zone [!UICONTROL Accueil]
+# Consigner les heures passées sur un élément de travail à partir de la zone [!UICONTROL Accueil]
 
 Vous pouvez consigner des heures sur n’importe quel élément de travail dans la [!UICONTROL Liste de travail] de la zone [!UICONTROL Accueil]. Pour plus d’informations, voir [Consigner des heures](../../../timesheets/create-and-manage-timesheets/log-time.md).

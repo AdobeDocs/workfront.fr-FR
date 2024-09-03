@@ -2,8 +2,8 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Créer un dossier avec Document Webhooks
-description: Créer un dossier avec Document Webhooks
+title: Créer un dossier avec des webhooks de document
+description: Créer un dossier avec des webhooks de document
 author: Becky
 feature: Workfront API
 role: Developer
@@ -11,12 +11,12 @@ exl-id: 50905915-58c9-4b50-b8a1-133833884a88
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 
-# Créer un dossier avec Document Webhooks
+# Créer un dossier avec des webhooks de document
 
 Crée un dossier dans un répertoire donné.
 
@@ -28,15 +28,15 @@ POST /createFolder
 
 | **Nom** | **Description** |
 |---|---|
-| parentId  | ID de dossier dans lequel le dossier doit être créé |
-| name  | Nom du nouveau dossier |
+| parentId | Identifiant du dossier dans lequel le dossier doit être créé |
+| name | Nom du nouveau dossier |
 
 
 
 
 **Réponse**
 
-Métadonnées du dossier nouvellement créé, telles que définies par le point de terminaison /metadata .
+Métadonnées du dossier nouvellement créé, telles que définies par le point d’entrée /metadata.
 
 ## Exemple
 
@@ -48,7 +48,7 @@ name=New Folder
 -------------------------------
 ```
 
-renvoie
+returns
 
 ```
 {title:"New Folder",br /> kind:"folder"

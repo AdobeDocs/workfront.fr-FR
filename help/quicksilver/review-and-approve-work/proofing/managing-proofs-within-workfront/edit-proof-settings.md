@@ -2,66 +2,66 @@
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: Modifier les paramètres des épreuves
-description: Vous pouvez modifier les paramètres du BAT à tout moment après avoir créé un BAT.
+description: Vous pouvez modifier les paramètres de l’épreuve que vous avez créée à tout moment.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
 source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 # Modifier les paramètres des épreuves
 
-Vous pouvez modifier les paramètres du BAT à tout moment après avoir créé un BAT.
+Vous pouvez modifier les paramètres de l’épreuve que vous avez créée à tout moment.
 
 ## Conditions d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront*</td> 
-   <td> <p>Formule actuelle : Pro ou supérieure</p> <p>ou</p> <p>Formule héritée : Premium</p> <p>Pour plus d’informations sur la vérification de l’accès avec les différents plans, voir <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accès aux fonctionnalités de vérification dans Workfront</a>.</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront*</td> 
+   <td> <p>Plan actuel : Pro ou version supérieure</p> <p>ou</p> <p>Plan hérité : Premium</p> <p>Pour plus d’informations sur l’accès à la relecture avec les différents plans, voir la section <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accéder aux fonctionnalités de relecture dans Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront*</td> 
-   <td> <p>Plan actuel : travail ou plan</p> <p>Formule héritée : Toutes (la vérification doit être activée pour l’utilisateur).</p> </td> 
+   <td> <p>Plan actuel : travail ou plan</p> <p>Plan hérité : n’importe lequel (la relecture doit être activée pour l’utilisateur ou l’utilisatrice)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profil d'autorisation pour l'épreuve </td> 
-   <td>Manager ou version ultérieure</td> 
+   <td>Manager ou version supérieure</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Rôle de l’épreuve</td> 
-   <td>Auteur ou modérateur</td> 
+   <td>Auteur ou autrice, ou modérateur ou modératrice</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux documents</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont l’administration Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Pour connaître le plan, le rôle ou le profil d’autorisation de BAT dont vous disposez, contactez votre administrateur Workfront ou Workfront Proof.
+&#42;Pour connaître le plan, le rôle ou le profil d’autorisation d’épreuve dont vous disposez, contactez votre administrateur ou administratrice Workfront ou Workfront Proof.
 
 +++
 
 ## Modifier les paramètres des épreuves
 
-Certains paramètres peuvent être verrouillés si l’administrateur Workfront les a désactivés au niveau du compte.
+Certains paramètres peuvent être verrouillés si l’équipe d’administration Workfront les a désactivés au niveau du compte.
 
-1. Accédez au projet, à la tâche ou à l’emplacement où vous souhaitez obtenir le BAT, puis cliquez sur l’onglet **Documents** .
-1. Placez le pointeur de la souris sur le BAT, puis cliquez sur **Document Details**.
-1. Dans le panneau de gauche, cliquez sur **Paramètres de la visionneuse de vérification**.
-1. Ajustez les paramètres suivants :
+1. Accédez au projet, à la tâche ou au problème pour qui vous souhaitez créer une épreuve, puis cliquez sur l’onglet **Documents**.
+1. Survolez l’épreuve avec la souris, puis cliquez sur **Détails du document**.
+1. Dans le panneau de gauche, cliquez sur **Paramètres de la visionneuse de relecture**.
+1. Ajustez les paramètres suivants :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -69,11 +69,11 @@ Certains paramètres peuvent être verrouillés si l’administrateur Workfront 
     <tbody> 
      <tr> 
       <td role="rowheader">Authentification requise. Impossible de partager cette épreuve avec des utilisateurs invités</td> 
-      <td> <p>Si vous avez besoin de niveaux de sécurité plus élevés pour votre processus de révision et d’approbation, vous pouvez utiliser l’option de connexion requise au BAT. Cela signifie que seuls les utilisateurs de Workfront peuvent être ajoutés au BAT. Il doit saisir son email et son mot de passe avant d'y accéder.</p> <p>Remarque : <em style="font-style: normal;"> Si la connexion requise est activée, les abonnements ne peuvent pas être activés.</em> </p> </td> 
+      <td> <p>Si vous avez besoin de niveaux de sécurité supérieurs pour votre processus de révision et d’approbation, vous pouvez utiliser l’option Connexion requise pour l’épreuve. Cela signifie que seules les personnes utilisant Workfront peuvent être ajoutées à l’épreuve. Elles doivent également saisir leur adresse e-mail et leur mot de passe avant de pouvoir y accéder.</p> <p>Note : <em style="font-style: normal;">si l’option Connexion requise est activée, les abonnements ne peuvent pas être activés.</em> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exiger que les décisions soient signées de manière électronique</td> 
-      <td> <p>Vous pouvez exiger la signature électronique de tout réviseur qui prend une décision sur le BAT. Lorsqu’un réviseur prend une décision, une invite s’affiche, lui demandant de saisir son email et son mot de passe et de confirmer sa décision. <!--
+      <td> <p>Vous pouvez exiger une signature électronique de toute personne chargée de la révision prenant une décision sur l’épreuve. Lorsqu’un réviseur ou une réviseuse prend une décision, un message apparaît, lui demandant de saisir son adresse électronique et son mot de passe et de confirmer sa décision. <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information, see 
           <a href="../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md" class="MCXref xref">Understanding electronic signatures in Workfront Proof</a>
@@ -81,24 +81,24 @@ Certains paramètres peuvent être verrouillés si l’administrateur Workfront 
         --></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Verrouiller le BAT lorsque toutes les décisions requises sont prises</td> 
-      <td> <p>Vous pouvez définir un état de BAT à verrouiller lorsque l’approbateur final prend sa décision. Cela s’avère utile si vous souhaitez vous assurer que vos réviseurs ne pourront pas revenir au BAT et ajouter des commentaires supplémentaires ou modifier leurs décisions.</p> </td> 
+      <td role="rowheader">Verrouiller l’épreuve lorsque toutes les décisions requises sont prises.</td> 
+      <td> <p>Vous pouvez définir l’état d’une épreuve sur verrouillée lorsque la personne approbatrice finale prend sa décision. Cela s’avère utile si vous souhaitez vous assurer que vos réviseurs et réviseuses ne puissent pas revenir sur l’épreuve et ajouter des commentaires supplémentaires ou modifier leurs décisions.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Autoriser le téléchargement du fichier original</td> 
-      <td> <p>Vous pouvez permettre aux réviseurs sur un BAT de télécharger le fichier d'origine à partir duquel un BAT a été créé. Cette option est activée par défaut.</p> </td> 
+      <td> <p>Vous pouvez autoriser les approbateurs et approbatrices d’une épreuve à télécharger le fichier d’origine à partir duquel une épreuve a été créée. Cette option est activée par défaut.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">autoriser le partage de l'épreuve via une URL publique ou un code intégré</td> 
-      <td>Vous pouvez permettre aux utilisateurs de partager le BAT avec une URL publique ou un code intégré. </td> 
+      <td>Vous pouvez permettre aux utilisateurs et utilisatrices de partager l’épreuve avec une URL publique ou un code intégré. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Autoriser l'abonnement à l'épreuve via une URL publique ou un code intégré</td> 
-      <td> <p>L'inscription au BAT permet aux personnes qui n'ont pas été explicitement ajoutées au BAT de s'inscrire au BAT (c'est-à-dire de s'ajouter au BAT). Le rôle et l’alerte par courrier électronique que vous sélectionnez leur seront alors attribués dans les paramètres d’abonnement.</p> <p>Si l'inscription a été activée sur un BAT, les champs ci-dessous deviennent actifs :</p> 
+      <td> <p>L’activation de l’inscription à l’épreuve permet aux personnes qui n’y ont pas été explicitement ajoutées de s’y inscrire (c’est-à-dire de s’ajouter à l’épreuve). Elles recevront alors le rôle et l’alerte e-mail que vous leur avez attribués dans les paramètres d’abonnement.</p> <p>Si l’inscription a été activée sur une épreuve, les champs ci-dessous deviennent actifs :</p> 
        <ul> 
-        <li><strong>Validation de l’abonné requise</strong> - L’abonné doit cliquer sur un lien dans un email pour accéder à un BAT<br>La sélection de cette option signifie que la personne qui s’abonne n’aura pas un accès immédiat au BAT, mais qu’elle aura un lien vers le BAT dans un email. La validation des abonnés a pour but de s’assurer que la personne a saisi une adresse électronique correcte à laquelle elle a accès.</li> 
-        <li><strong>Rôle par défaut pour les nouveaux abonnés -</strong> Il s’agit du rôle de BAT par défaut qui sera attribué à tous les réviseurs qui s’abonnent au BAT.</li> 
-        <li><strong>Alerte par défaut pour les nouveaux abonnés</strong> : il s’agit de l’alerte par défaut qui sera attribuée à tous les réviseurs qui s’abonnent au BAT.</li> 
+        <li><strong>Validation d’abonnement requise</strong> : la personne abonnée doit cliquer sur un lien dans un e-mail pour accéder à une épreuve.<br> En sélectionnant cette option, la personne qui s’abonne ne disposera pas d’un accès immédiat à l’épreuve, mais recevra un lien vers l’épreuve par e-mail. La validation d’abonnement a pour but de s’assurer que la personne a saisi une adresse e-mail correcte à laquelle elle a accès.</li> 
+        <li><strong>Rôle par défaut pour les nouvelles personnes abonnées</strong> : il s’agit du rôle de l’épreuve par défaut qui sera attribué à tous les approbateurs et à toutes les approbatrices qui s’abonnent à l’épreuve.</li> 
+        <li><strong>Alerte e-mail par défaut pour les nouvelles personnes abonnées</strong> : il s’agit de l’alerte e-mail par défaut qui sera affectée à tous les approbateurs et toutes les approbatrices qui s’abonnent à l’épreuve.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 

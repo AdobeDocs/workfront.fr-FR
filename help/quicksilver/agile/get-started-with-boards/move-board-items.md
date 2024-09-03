@@ -9,7 +9,7 @@ exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
 source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 31%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 31%
 
 Vous pouvez déplacer une carte dans n’importe quelle colonne du panorama ou la copier.
 
-Si des stratégies de colonne sont activées pour la mise à jour des valeurs de champ, l’état, les personnes désignées et les balises peuvent être mis à jour automatiquement lorsque vous déplacez une carte d’une colonne à une autre. Pour plus d’informations, voir « Définir des paramètres et des politiques de colonne » dans l’article [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Si des politiques de colonne sont activées pour la mise à jour des valeurs de champ, le statut, les personnes cessionnaires et les balises peuvent être mis à jour automatiquement lorsque vous déplacez une carte d’une colonne à une autre. Pour plus d’informations, voir « Définition des paramètres et des politiques de colonne » dans l’article [Gérer les colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 >[!NOTE]
 >
@@ -35,20 +35,20 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront]</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
    <td> 
    <p>Nouvelle : [!UICONTROL Contributor] ou niveau supérieur</p> 
    <p>ou</p>
-   <p>Actuel : [!UICONTROL Request] ou supérieure</p>
+   <p>Actuelle : [!UICONTROL Request] ou supérieure</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,13 +61,13 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
    Ou
 
-   Cliquez sur le menu **[!UICONTROL Plus]** ![Plus de menu](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Déplacer]**. Ensuite, dans la zone **[!UICONTROL Déplacer un élément]**, choisissez une autre colonne et sélectionnez **[!UICONTROL Déplacer]**.
+   Cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Déplacer]**. Ensuite, dans la boîte **[!UICONTROL Déplacer un élément]**, choisissez une autre colonne et sélectionnez **[!UICONTROL Déplacer]**.
 
-   ![Déplacer la carte](assets/boards-move-card-350x217.png)
+   ![Déplacer une carte](assets/boards-move-card-350x217.png)
 
    >[!NOTE]
    >
-   >Lorsque vous utilisez la zone **[!UICONTROL Déplacer l’élément]**, la carte est toujours déplacée en haut de la colonne.
+   >Lorsque vous utilisez la zone **[!UICONTROL Déplacer un élément]**, la carte est toujours déplacée en haut de la colonne.
 
 ## Déplacer des cartes vers le haut ou le bas d’une colonne
 
@@ -76,9 +76,9 @@ Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requ
 
    Ou
 
-   Cliquez sur le menu **[!UICONTROL Plus]** ![Plus de menu](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Haut de la colonne]** ou **[!UICONTROL Bas de la colonne]**.
+   Cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Haut de la colonne]** ou **[!UICONTROL Bas de colonne]**.
 
-   ![Plus de menu](assets/boards-moremenu-350x329.png)
+   ![Menu Plus](assets/boards-moremenu-350x329.png)
 
 ## Copier une carte
 
@@ -89,8 +89,8 @@ La copie d’une carte ad hoc duplique tous les champs de la carte, y compris le
 >Vous ne pouvez pas copier de cartes connectées.
 
 1. Accédez au panorama.
-1. Cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Plus de menu]](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Copier]**.
+1. Cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Menu Plus]](assets/more-icon-spectrum.png) sur la carte, puis sélectionnez **[!UICONTROL Copier]**.
 
-   ![Plus de menu](assets/boards-moremenu-350x329.png)
+   ![Menu Plus](assets/boards-moremenu-350x329.png)
 
-   Une nouvelle carte est ajoutée dans la même colonne avec le titre &quot;Copie de - [nom de la carte d’origine]&quot;.
+   Une nouvelle carte est ajoutée dans la même colonne avec le titre « Copie de - [nom de la carte d’origine]. »

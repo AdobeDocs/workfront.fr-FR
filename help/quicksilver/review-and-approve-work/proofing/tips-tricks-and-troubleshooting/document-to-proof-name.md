@@ -9,7 +9,7 @@ exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
 source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ Certains documents ne peuvent pas être convertis en BAT.
 
 ## Cause
 
-Certains caractères ne peuvent pas figurer dans le nom des fichiers chargés vers Workfront. Si le nom d’un fichier contient l’un des caractères suivants, ces caractères sont supprimés du nom du fichier lorsque celui-ci est chargé : `! # % * \ | ' " / ? < > { } [ ]`.
+Certains caractères ne peuvent pas figurer dans le nom des fichiers téléchargés vers Workfront. Si le nom d’un fichier contient l’un des caractères suivants, ces caractères sont supprimés du nom du fichier lorsque celui-ci est téléchargé : `! # % * \ | ' " / ? < > { } [ ]`.
 
 Si un nom de document est mis à jour pour inclure un caractère non valide après le téléchargement initial, la génération du BAT échoue.
 

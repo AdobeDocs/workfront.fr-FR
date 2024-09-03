@@ -9,11 +9,11 @@ exl-id: 74515723-3822-425a-aa9e-970af63f9189
 source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 11%
+ht-degree: 93%
 
 ---
 
-# Suppression de plans dans le [!DNL Scenario Planner]
+# Supprimer des plans dans le [!DNL Scenario Planner]
 
 Vous pouvez supprimer les plans que vous avez créés. Vous ne pouvez pas supprimer les plans qui sont partagés avec vous.
 
@@ -26,29 +26,29 @@ Vous pouvez supprimer les plans que vous avez créés. Vous ne pouvez pas suppri
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] forfait*</p> </td> 
-   <td> <p>Actuel : [!UICONTROL Entreprise] ou version ultérieure</p>
+   <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
+   <td> <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p>
    <p>Nouveau : Ultimate </p>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
-   <td> <p>Nouveau : Léger ou supérieur</p> 
+   <td> <p>Nouveau : Light ou supérieur</p> 
    <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
    <td> 
    <p>Pour les plans Workfront actuels : </p>
-   <p>Vous devez acheter une licence supplémentaire pour le [!DNL Adobe Workfront Scenario Planner] afin d’accéder aux fonctionnalités décrites dans cet article.</p> <p>Pour plus d’informations sur l’accès et les autorisations pour [!DNL Workfront Scenario Planner], voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
+   <p>Vous devez acheter une licence supplémentaire pour qu’[!DNL Adobe Workfront Scenario Planner] puisse accéder aux fonctionnalités décrites dans cet article.</p> <p>Pour plus d’informations sur l’accès et les autorisations pour [!DNL Workfront Scenario Planner], voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
-   <td> <p>Accès à l’accès à la fonction [!UICONTROL Modifier] [!DNL Scenario Planner]</p> </td> 
+   <td> <p>Accès [!UICONTROL Edit] à [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Autorisations d’objet </p> </td> 
-   <td> <p>Autorisations [!UICONTROL Gérer] pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à un plan, voir <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à un plan dans le [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Autorisations [!UICONTROL Manage] pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à un plan, consultez <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à un plan dans le [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,50 +66,50 @@ Vous pouvez supprimer les plans que vous avez créés. Vous ne pouvez pas suppri
 Vous pouvez supprimer un plan ou supprimer un scénario dans un plan.
 
 * [Supprimer des plans](#delete-plans)
-* [Suppression de scénarios](#delete-scenarios)
+* [Supprimer des scénarios](#delete-scenarios)
 
 ### Supprimer les plans
 
 >[!IMPORTANT]
 >
->Tenez compte des points suivants lors de la suppression de plans :
+>Tenez compte des points suivants lors de la suppression de plans :
 >
->* Toutes les informations relatives au plan sont également supprimées. Cela inclut tous les scénarios et toutes les initiatives associés au plan, y compris des informations sur les rôles et les coûts de l&#39;emploi. Ces informations ne peuvent pas être récupérées.
->* Si le plan contient un scénario publié, les projets liés aux initiatives supprimées sont préservés et la zone [!DNL Scenario Planner] reste dans la section [!UICONTROL Détails du projet] .
+>* Toutes les informations relatives au plan sont également supprimées. Cela inclut tous les scénarios et toutes les initiatives associés au plan, y compris des informations sur les fonctions et les coûts. Ces informations ne peuvent pas être récupérées.
+>* Si le plan contient un scénario publié, les projets liés aux initiatives supprimées sont préservés et la zone [!DNL Scenario Planner] reste dans la section [!UICONTROL Détails du projet].
 >
->  Pour plus d’informations sur la publication d’initiatives dans des projets, voir [Mise à jour ou création de projets en publiant des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  Pour plus d’informations sur la publication d’initiatives dans des projets, consultez [Mettre à jour ou créer des projets en publiant des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-Pour supprimer un plan :
+Pour supprimer un plan :
 
 {{step1-to-scenario-planner}}
 
 Une liste des plans s’affiche.
 
-1. Cliquez sur le nom d&#39;un plan pour l&#39;ouvrir.
-1. Cliquez sur le **[!UICONTROL menu Plus]** ![](assets/more-menu.png) situé à droite du nom du plan, puis cliquez sur **[!UICONTROL Supprimer]** > **[!UICONTROL Oui, supprimez-le]**.
+1. Cliquez sur le nom d’un plan pour l’ouvrir.
+1. Cliquez sur le **[!UICONTROL menu Plus]** ![](assets/more-menu.png) à droite du nom du plan, puis sur **[!UICONTROL Supprimer]** > **[!UICONTROL Oui, supprimer]**.
 
    Le plan est supprimé et vous revenez à la liste des plans.
 
-### Suppression de scénarios {#delete-scenarios}
+### Supprimer des scénarios {#delete-scenarios}
 
 >[!IMPORTANT]
 >
->Tenez compte des points suivants lors de la suppression d’un scénario :
+>Tenez compte des points suivants lors de la suppression d’un scénario :
 >
->* La suppression d’un scénario supprime toutes les initiatives et leurs informations du scénario. S’ils sont copiés vers d’autres scénarios, les initiatives restent dans les autres scénarios.
->* Lors de la suppression d’un scénario, le scénario suivant reprend le numéro du scénario supprimé et l’ordre de comptage est conservé. Par exemple, si vous supprimez le scénario 4, le scénario 5 devient le scénario 4.
->* Si certaines initiatives du scénario sont publiées, le projet lié à l’initiative est conservé et la zone du planificateur de scénario reste sur les projets liés.
+>* La suppression d’un scénario supprime toutes les initiatives et leurs informations du scénario. Si elles sont copiées vers d’autres scénarios, les initiatives restent dans les autres scénarios.
+>* Lors de la suppression d’un scénario, le scénario suivant reprend le numéro du scénario supprimé et l’ordre de comptage est conservé. Par exemple, si vous supprimez le scénario 4, le scénario 5 devient le scénario 4.
+>* Si certaines initiatives du scénario sont publiées, le projet lié à l’initiative est conservé et la zone du planificateur de scénarios reste sur les projets liés.
 >* Si les initiatives publiées existent dans un autre scénario, elles restent sur ce scénario, y compris leur lien vers le projet. La publication de ces initiatives à partir des autres scénarios met à jour les projets liés avec de nouvelles informations issues de ces scénarios.
 >
->  Pour plus d’informations sur la publication d’initiatives dans des projets, voir [Mise à jour ou création de projets en publiant des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  Pour plus d’informations sur la publication d’initiatives dans des projets, consultez [Mettre à jour ou créer des projets en publiant des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-Pour supprimer un scénario :
+Pour supprimer un scénario :
 
 1. Accédez au plan pour lequel vous souhaitez supprimer un scénario.
 
-   Par défaut, le scénario Initial s’affiche.
+   Par défaut, c’est le scénario initial qui s’affiche.
 
-1. Cliquez sur **[!UICONTROL Comparer des scénarios]**.
+1. Cliquez sur **[!UICONTROL Comparer les scénarios]**.
 1. Dans le coin supérieur droit de la carte du scénario, cliquez sur le menu **[!UICONTROL Plus]** ![](assets/more-menu.png), puis sur **[!UICONTROL Supprimer]**.
 
    Le scénario est supprimé.

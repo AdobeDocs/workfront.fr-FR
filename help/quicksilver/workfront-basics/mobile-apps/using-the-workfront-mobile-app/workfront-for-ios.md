@@ -3,26 +3,26 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront pour iOS
-description: L’application  [!DNL Adobe Workfront]  vous permet d’accéder à votre travail sur n’importe quel appareil iOS. Vous pouvez installer et utiliser l’application mobile  [!DNL Workfront] sur les téléphones et tablettes exécutant iOS 10 ou une version ultérieure. Une application mobile  [!DNL Workfront] dédiée est disponible pour iPhone et iPad.
+description: L’application  [!DNL Adobe Workfront]  vous permet d’accéder à votre travail sur n’importe quel appareil iOS. Vous pouvez installer et utiliser l’application mobile  [!DNL Workfront]  sur téléphones et tablettes exécutant iOS 10 ou une version ultérieure. Une application mobile  [!DNL Workfront]  dédiée est disponible pour iPhone et iPad.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
 source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Workfront] pour [!DNL iOS]
 
-L’application [!DNL Adobe Workfront] vous permet d’accéder à votre travail sur n’importe quel appareil [!DNL iOS]. Vous pouvez installer et utiliser l’application mobile [!DNL Workfront] sur les téléphones et tablettes exécutant iOS 10 ou une version ultérieure. Une application mobile [!DNL Workfront] dédiée est disponible pour [!DNL iPhone] et [!DNL iPad].
+L’application [!DNL Adobe Workfront] vous permet d’accéder à votre travail sur n’importe quel appareil [!DNL iOS]. Vous pouvez installer et utiliser l’application mobile [!DNL Workfront] sur téléphones et tablettes exécutant iOS 10 ou une version ultérieure. Une application mobile [!DNL Workfront] dédiée est disponible pour [!DNL iPhone] et [!DNL iPad].
 
-Pour plus d’informations sur la connexion à l’application mobile, reportez-vous à la section [Connexion à l’application mobile [!UICONTROL Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) de l’article [Connexion à [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Pour plus d’informations sur la connexion à l’application mobile, voir la section [Se connecter à l’application mobile [!UICONTROL Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) dans l’article [Se connecter à  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## [!UICONTROL Accueil]
 
-La zone [!UICONTROL Accueil] vous permet de travailler directement sur les tâches, les problèmes et les approbations qui vous sont assignés. Dans la zone [!UICONTROL Accueil] de l’application, vous pouvez :
+La zone [!UICONTROL Accueil] vous permet de travailler directement sur les tâches, les problèmes et les approbations qui vous sont affectés. À partir de la zone [!UICONTROL Accueil] de l’application, vous pouvez effectuer les actions suivantes :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,38 +31,38 @@ La zone [!UICONTROL Accueil] vous permet de travailler directement sur les tâch
   <tr> 
    <td> 
     <ul> 
-     <li>Commencer à travailler sur les tâches et les problèmes</li> 
-     <li>Marquer les tâches et les problèmes comme [!UICONTROL Terminé]</li> 
-     <li>Réaffectation de tâches et de problèmes</li> 
-     <li>Modification de la [!UICONTROL Date de validation]</li> 
+     <li>Commencer à travailler sur des tâches et des problèmes.</li> 
+     <li>Marquer des tâches et problèmes comme [!UICONTROL Done].</li> 
+     <li>Réaffecter des tâches et des problèmes.</li> 
+     <li>Modifier la [!UICONTROL Commit Date].</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Mise à jour des statuts des tâches et des problèmes</li> 
-     <li>Post dans la zone Mises à jour</li> 
-     <li>Affichage des documents</li> 
-     <li>Ajout de photos</li> 
-     <li> <p>Créer une requête ou une tâche rapide</p> <p>Remarque : Les tâches rapides créées à l’accueil sont des tâches personnelles, sauf si vous choisissez d’affecter un projet.</p> </li> 
+     <li>Mettre à jour les statuts des tâches et des problèmes.</li> 
+     <li>Publier dans la zone Mises à jour.</li> 
+     <li>Afficher des documents.</li> 
+     <li>Joindre des photos.</li> 
+     <li> <p>Créer une demande ou une tâche rapide.</p> <p>Remarque : les tâches rapides créées dans la zone d’accueil sont des tâches personnelles, à moins que vous ne choisissiez d’attribuer un projet.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir les sections [[!UICONTROL Widgets de zone d’accueil]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) et [[!UICONTROL Mon travail] dans l’application mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Pour plus d’informations, voir [[!UICONTROL Widgets de la zone d’accueil]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) et la section [[!UICONTROL Mon travail] de l’application mobile ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![Zone d’accueil](assets/mobile-home-area.png)
 
 ## [!UICONTROL Panoramas]
 
-La zone [!UICONTROL Panoramas] vous permet d’accéder à vos [!DNL Workfront] panoramas.
+La zone [!UICONTROL Panoramas] vous permet d’accéder à vos panoramas [!DNL Workfront].
 
-![Surface de panoramas](assets/mobile-all-boards-displayed.png)
+![Zone Panoramas](assets/mobile-all-boards-displayed.png)
 
 Pour plus d’informations, voir [[!DNL Adobe Workfront] [!UICONTROL Panoramas] pour mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL Projets]
 
-La zone [!UICONTROL Projets] vous permet d’interagir avec et de gérer les [!UICONTROL projets] que vous possédez et les projets sur lesquels vous vous trouvez. Dans la zone des projets de l’application, vous pouvez :
+La zone [!UICONTROL Projets] vous permet d’interagir avec et de gérer les [!UICONTROL projets] que vous possédez et les projets auxquels vous participez. Depuis la zone des projets de l’application, vous pouvez effectuer les opérations suivantes :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,26 +72,26 @@ La zone [!UICONTROL Projets] vous permet d’interagir avec et de gérer les [!U
    <td> 
     <ul> 
      <li>Mettre à jour le statut du projet</li> 
-     <li>Affichage des détails importants d’un projet</li> 
-     <li>Post dans la zone [!UICONTROL Updates]</li> 
-     <li>Conversion de tâches, de problèmes et de requêtes en projets</li> 
+     <li>Afficher les détails importants du projet.</li> 
+     <li>Publier dans la zone [!UICONTROL Updates].</li> 
+     <li>Convertir des tâches, des problèmes et des demandes en projets.</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Interaction avec les tâches et les problèmes du projet</li> 
-     <li>Affichage des documents</li> 
-     <li>Ajout de photos</li> 
-     <li> <p>Création d’une tâche rapide</p> <p>Remarque : les tâches créées dans un projet sont automatiquement affectées au projet dans lequel vous vous trouvez. </p> </li> 
+     <li>Interagir avec des tâches et des problèmes de projet.</li> 
+     <li>Afficher des documents.</li> 
+     <li>Joindre des photos.</li> 
+     <li> <p>Créer une tâche rapide.</p> <p>Remarque : les tâches créées dans un projet sont automatiquement affectées au projet auquel vous participez. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-![Zone de projets](assets/mobile-projects-area.png)
+![Zone Projets](assets/mobile-projects-area.png)
 
 ## Approbations
 
-La zone [!UICONTROL Approbations] vous permet d’afficher et d’approuver les [!UICONTROL approbations] qui vous ont été attribuées ou qui vous ont été déléguées. Depuis la zone des validations, vous pouvez valider :
+La zone [!UICONTROL Approbations] vous permet d’afficher et d’approuver les [!UICONTROL approbations] qui vous ont été affectées ou déléguées. À partir de la zone des approbations, vous pouvez approuver ce qui suit :
 
 <table style="table-layout:auto">
  <col>
@@ -113,24 +113,24 @@ La zone [!UICONTROL Approbations] vous permet d’afficher et d’approuver les 
  </tbody>
 </table>
 
-Pour plus d’informations sur les approbations, voir [Validations dans l’ [!DNL Adobe Workfront] application mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Pour plus d’informations sur les approbations, voir [Approbations dans l’application mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Pour plus d&#39;informations sur l&#39;examen et l&#39;approbation des bons à tirer, voir [Vérification et prise de décisions sur les bons à tirer dans l&#39; [!DNL Adobe Workfront] application mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Pour plus d’informations sur la révision et l’approbation d’épreuves, voir [Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Liste des approbations dans l’application mobile](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL Notifications]
 
-La zone [!UICONTROL Notifications] vous permet d’afficher les notifications in-app et de répondre à ces notifications pour votre travail.
+La zone [!UICONTROL Notifications] vous permet d’afficher les notifications de votre travail et d’y répondre.
 
 >[!NOTE]
->Les hyperliens ne sont pas disponibles dans les notifications de mise à jour, sauf si l’intégralité du contenu d’une note est un lien hypertexte sans texte d’affichage.
+>Les hyperliens ne sont pas disponibles dans les notifications de mise à jour, sauf si le contenu entier d’une note est un hyperlien sans texte d’affichage.
 
 ![Zone de notifications](assets/mobile-notifications-area.png)
 
 ## [!UICONTROL Demandes]
 
-La zone [!UICONTROL Requêtes] vous permet d’afficher des détails sur les requêtes. Dans la zone [!UICONTROL Demandes] de l’application, vous pouvez :
+La zone [!UICONTROL Requêtes] vous permet de visualiser les détails des requêtes. Dans la zone [!UICONTROL Requêtes] de l’application, vous pouvez effectuer les actions suivantes :
 
 <table style="table-layout:auto">
  <col>
@@ -139,34 +139,34 @@ La zone [!UICONTROL Requêtes] vous permet d’afficher des détails sur les req
   <tr>
    <td>
     <ul>
-     <li>Réaffecter la requête</li>
-     <li>Mettre à jour l’état</li>
-     <li>Ajuster la priorité</li>
+     <li>Réaffecter la requête.</li>
+     <li>Mettre à jour le statut.</li>
+     <li>Ajuster la priorité.</li>
     </ul> </td>
    <td>
     <ul>
-     <li>Post dans la zone [!UICONTROL Updates]</li>
-     <li>Affichage des documents</li>
-     <li>Ajout de photos</li>
-     <li>Enregistrement d’une requête en tant que brouillon</li>
+     <li>Publier dans la zone [!UICONTROL Updates].</li>
+     <li>Afficher des documents.</li>
+     <li>Joindre des photos.</li>
+     <li>Enregistrer une requête comme brouillon.</li>
     </ul> </td>
   </tr>
  </tbody>
 </table>
 
-![Zone de requêtes](assets/mobile-requests-area.png)
+![Zone Demandes](assets/mobile-requests-area.png)
 
 ## Feuilles de temps
 
-La zone [!UICONTROL timesheets] vous permet d’afficher des détails sur vos feuilles de temps. Dans la zone [!UICONTROL Fiches horaires] de l’application, vous pouvez :
+La zone [!UICONTROL Feuilles de temps] vous permet d’afficher les détails de vos feuilles de temps. Dans la zone [!UICONTROL Feuilles de temps] de l’application, vous pouvez effectuer les actions suivantes :
 
-* Post dans la zone [!UICONTROL Mises à jour]
-* Ajuster les types d’heures
-* Modification de l’heure à laquelle vous êtes connecté
-* Entrer des commentaires sur votre feuille de temps
-* Fermer la feuille de temps
+* Publier dans la zone [!UICONTROL Mises à jour]
+* Ajuster les types d’heures.
+* Modifier le temps consigné.
+* Saisir un commentaire sur votre feuille de temps.
+* Fermer votre feuille de temps.
 
-![Zone de feuilles de calcul ](assets/mobile-timesheets-area.png)
+![Zone Feuilles de temps](assets/mobile-timesheets-area.png)
 
 ## [!UICONTROL Favoris]
 
@@ -176,19 +176,19 @@ Vous pouvez accéder aux éléments existants à partir du menu Favoris et ajout
 
 ## [!UICONTROL Contacts]
 
-La zone [!UICONTROL Contacts] vous permet de consulter les coordonnées de tous les utilisateurs de votre entreprise.
+La zone [!UICONTROL Contacts] vous permet d’afficher les informations de contact de tous les utilisateurs et utilisatrices de votre entreprise.
 
-![Zone de contacts](assets/mobile-contacts-area.png)
+![Zone Contacts](assets/mobile-contacts-area.png)
 
 ## [!UICONTROL Configuration]
 
-La zone [!UICONTROL Configuration] vous permet d’effectuer les opérations suivantes :
+La zone [!UICONTROL Configuration] vous permet d’effectuer les actions suivantes :
 
-* Gestion des paramètres
-* Afficher les équipes affectées
-* Configuration des préférences de sécurité
+* Gérer vos paramètres.
+* Afficher les équipes affectées.
+* Configurer les préférences de sécurité.
 * Envoyer des commentaires
-* Accès au contenu de l’aide
+* Accéder au contenu de l’aide.
 * Déconnexion
 
-![Zone de configuration](assets/ios-configuration-area.png)
+![Zone Configuration](assets/ios-configuration-area.png)

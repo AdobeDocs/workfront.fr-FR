@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -25,16 +25,16 @@ Il existe des différences clés dans le workflow lors de l’utilisation conjoi
 
 * Les détails envoyés, ouverts, de commentaire, de décision (SOCD) dans la liste des documents sont liés à la vérification et ne reflètent pas l’état de décision du document.
 
-## Télécharger un document et créer un BAT
+## Charger un document et créer une épreuve
 
-1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un nouveau document.
+1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un document.
 1. Cliquez sur l’onglet **Documents** , puis sur le menu déroulant **Ajouter nouveau** .
 Ou
 Faites glisser et déposez le document dans la liste des documents.
 
    >[!NOTE]
    >
-   >Si **Générer automatiquement des bons à tirer lors du téléchargement de documents** est activé dans votre profil utilisateur, le système crée automatiquement un bon à tirer simple.
+   >Si vous avez activé l’option **Générer automatiquement des épreuves lors du chargement de documents** dans votre profil utilisateur, le système crée automatiquement une épreuve simple.
 
 1. Passez la souris sur le document, puis cliquez sur le lien **Créer un bon à tirer** qui apparaît sous le nom du document, et sélectionnez **Bon à tirer simple**. Vous devez créer un BAT simple car vous n&#39;utiliserez pas le workflow de validation des validations.
 

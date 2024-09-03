@@ -123,7 +123,7 @@ Un objet AccessLevelPermissions représente une autorisation spécifique d’acc
 
 ### AccessRequest (ACSREQ)
 
-Si un utilisateur ou une utilisatrice n’a pas accès à un objet Workfront dont il ou elle a besoin, il ou elle peut demander l’accès à cet objet. L’objet AccessRequest représente cette demande.
+Si une personne n’a pas accès à un objet Workfront dont elle a besoin, elle peut demander l’accès à cet objet. L’objet AccessRequest représente cette requête.
 
 <table>
   <col/>
@@ -166,7 +166,7 @@ Si un utilisateur ou une utilisatrice n’a pas accès à un objet Workfront don
 
 ### AccessRule (ACSRUL)
 
-Un objet AccessRule représente un jeu de règles dans les niveaux d’accès personnalisés qui détermine comment les utilisateurs et les utilisatrices peuvent partager les projets qu’ils ou elles créent.
+Un objet AccessRule représente un jeu de règles dans les niveaux d’accès personnalisés qui détermine comment les personnes peuvent partager les projets qu’elles créent.
 
 <table>
   <col/>
@@ -259,7 +259,7 @@ Un objet AccessRule représente un jeu de règles dans les niveaux d’accès pe
 
 ### Approval (APPROVAL)
 
-Un élément de travail donné, tel qu’une tâche, un document ou une feuille de temps, peut exiger qu’un superviseur ou une superviseuse, ou un autre utilisateur ou une autre utilisatrice, valide l’élément de travail. Un objet Approval représente l’action de validation d’un élément de travail.
+Un élément de travail donné, tel qu’une tâche, un document ou une feuille de temps, peut exiger qu’une personne en charge de la supervision ou une autre personne valide l’élément de travail. Un objet Approbation représente l’action de validation d’un élément de travail.
 
 <table>
   <col/>
@@ -327,7 +327,7 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
 
 ### Baseline (BLIN)
 
-Les références sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés, la progression, et les valeurs de coût et de revenu.
+Les niveaux de référence sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés, la progression, et les valeurs de coût et de revenu.
 
 <table>
   <col/>
@@ -367,7 +367,7 @@ Les références sont des instantanés de ce à quoi ressemblaient les performan
 
 ### BaselineTask (BSTSK)
 
-Les références sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés, la progression, et les valeurs de coût et de revenu. Lorsque vous créez une référence, les informations de tâche sont également capturées sur les tâches de base de cette référence.
+Les références sont des instantanés de ce à quoi ressemblaient les performances d’un projet à un moment donné dans le temps. Elles stockent des informations clés sur le projet, telles que les dates clés et la progression, ainsi que les valeurs des coûts et des revenus. Lorsque vous créez une référence, les informations de tâche sont également capturées sur les tâches de base de cette référence.
 
 <table>
   <col/>
@@ -582,7 +582,7 @@ Un objet Document représente un fichier (tel qu’un support écrit, des images
 
 ### JournalEntry (JRNLE)
 
-L’objet JournalEntry peut être configuré pour consigner des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être consigné dans le cadre de l’objet d’entrée du journal, une entrée du journal correspondante est créée chaque fois que ce champ est modifié.
+L’objet JournalEntry peut être configuré pour enregistrer des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Lorsqu’un champ est configuré pour être enregistré dans le cadre de l’objet JournalEntry, une entrée de journal correspondante est créée chaque fois que ce champ est modifié.
 
 <table>
   <col/>
@@ -619,7 +619,7 @@ L’objet JournalEntry peut être configuré pour consigner des informations sur
 
 ### OpTask (OPTASK)
 
-Un objet OpTask est généralement appelé un Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de service d’assistance. Les ordres de modification, les demandes et les bogues sont également des problèmes.
+Un objet OpTask est généralement appelé un Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de centre d’assistance. Les ordres de modification, les requêtes et les bugs sont également des problèmes.
 
 <table>
   <col/>
@@ -661,7 +661,7 @@ Un objet OpTask est généralement appelé un Problème. Un problème est un él
 
 ### Project (PROJ)
 
-Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Project représente un groupe de tâches avec un objectif commun et spécifique.
+Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Projet représente un groupe de tâches avec un objectif commun et spécifique.
 
 <table>
   <col/>
@@ -868,7 +868,7 @@ Un objet Rate représente un taux de facturation dans Workfront.
 
 ### Task (TASK)
 
-Un objet Task représente un élément de travail qui doit être exécuté en tant qu’étape vers la réalisation d’un objectif final (achèvement d’un projet).
+Un objet Task représente un élément de travail qui doit être exécuté comme une étape vers la réalisation d’un objectif final (achèvement d’un projet).
 
 <table>
   <col/>
@@ -922,7 +922,7 @@ Un objet Task représente un élément de travail qui doit être exécuté en ta
 
 ### Template (TMPL)
 
-Un objet Template représente un modèle pour un projet. Les projets peuvent être créés à partir de modèles pour gagner du temps. Un modèle contient une équipe et des tâches qui seront copiées dans tout projet créé à partir du modèle.
+Un objet Template représente un modèle de projet. Les projets peuvent être créés à partir de modèles pour gagner du temps. Un modèle contient une équipe et des tâches qui seront copiées dans tout projet créé à partir du modèle.
 
 <table>
   <col/>
@@ -1026,7 +1026,7 @@ Un objet TemplateTask représente une tâche qui fait partie d’un modèle. Les
 
 ### Timesheet (TSHET)
 
-Un objet Timesheet représente une feuille de temps virtuelle qui permet aux utilisateurs et utilisatrices de saisir les heures effectives travaillées pour les heures de tâches, projets et types de frais.
+Un objet Timesheet représente une feuille de temps virtuelle qui permet aux utilisateurs et utilisatrices de saisir les heures effectives travaillées pour les tâches, les projets et les types d’heures supplémentaires.
 
 <table>
   <tbody>
@@ -1122,7 +1122,7 @@ Un objet UserPrefValue représente une préférence utilisateur ou utilisatrice.
 
 ### Work (WORK)
 
-Un objet Work est une interface commune dont Task et OpTask héritent tous deux, et partage le code commun entre les deux.
+Un objet Work est une interface commune dont Task et OpTask héritent tous deux et qui partage le code commun entre les deux.
 
 <table>
   <col/>

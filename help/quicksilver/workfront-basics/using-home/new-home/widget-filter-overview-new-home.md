@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -218,7 +218,7 @@ Vous pouvez utiliser les filtres suivants dans le widget Mes problèmes :
     <td>Affiche les problèmes que je possède</td>
   </tr>
   <tr>
-    <td>Ouvrir</td>
+    <td>Ouvertes</td>
     <td>Affiche les problèmes qui n’ont pas de date de fin.</td>
   </tr>
   <tr>

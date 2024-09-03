@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Afficher : afficher les informations de problème d’origine sur les listes de tâches et de projets"
-description: Vous pouvez afficher les informations du problème d’origine dans une vue des listes de tâches et de projets, une fois le problème converti en tâches et projets dans la liste.
+title: '« Vue : afficher les informations sur le problème original dans les listes de tâches et de projets »'
+description: Vous pouvez afficher des informations sur le problème original dans une vue des listes de tâches et de projets, après que le problème a été converti en tâches et en projets dans la liste.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
-# Vue : afficher les informations sur le problème d’origine dans les listes de tâches et de projets
+# Vue : afficher les informations sur le problème original dans les listes de tâches et de projets
 
-Vous pouvez afficher les informations suivantes du problème d’origine dans une vue des listes de tâches et de projets, une fois le problème converti en tâches et projets dans la liste :
+Vous pouvez afficher les informations suivantes du problème d’origine sur une vue des listes de tâches et de projets, après que le problème a été converti en tâches et projets dans la liste :
 
 * Nom du problème converti
 * Date d&#39;entrée de l&#39;événement converti
-* Nom de l’auteur du problème converti
+* Nom du créateur ou de la créatrice du problème converti
 
-Pour plus d’informations sur la création d’une vue à l’aide du créateur de rapports standard, voir [Aperçu des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Pour plus d’informations sur la création d’une vue à l’aide du Report Builder standard, consultez la section [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-![task_and_project_list_with_original_issue_info.png{1](assets/task-and-project-list-with-original-issue-info-350x59.png)
+![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Pour plus d’informations sur l’inclusion d’informations supplémentaires sur les problèmes dans les listes de projets et de tâches, voir également [Affichage : détails des problèmes d’origine pour les tâches et les projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Pour plus d’informations sur l’inclusion d’informations supplémentaires sur les problèmes dans les listes de projets et les listes de tâches, consultez également la section [Vue : détails du problème d’origine pour les tâches et les projets](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

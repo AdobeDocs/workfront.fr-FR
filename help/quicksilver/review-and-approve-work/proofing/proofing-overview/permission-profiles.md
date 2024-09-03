@@ -1,31 +1,31 @@
 ---
 content-type: overview
 product-area: documents
-keywords: BAT,permission
+keywords: épreuve, autorisation
 navigation-topic: proofing-overview
-title: Vue d’ensemble du profil d’autorisation d’épreuve
-description: Les profils d’autorisation de BAT déterminent les autorisations globales dont disposent les utilisateurs sur tous les bons à tirer de votre compte. Les profils d’autorisation de BAT sont attribués aux utilisateurs dans leur profil utilisateur. Les profils d’autorisation de BAT diffèrent des rôles de BAT.
+title: Vue d’ensemble du profil d’autorisation des épreuves
+description: Les profils d’autorisation d’épreuve déterminent les autorisations globales dont disposent les utilisateurs et utilisatrices sur toutes les épreuves de votre compte. Les profils d’autorisation d’épreuve sont attribués aux utilisateurs et utilisatrices dans leur profil. Les profils d’autorisation d’épreuve diffèrent des rôles d’épreuve.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
 source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Vue d’ensemble du profil d’autorisation d’épreuve
+# Vue d’ensemble du profil d’autorisation des épreuves
 
 <!--Audited: 12/2023-->
 
-Les profils d’autorisation de BAT déterminent les autorisations globales dont disposent les utilisateurs sur tous les bons à tirer de votre compte. Les profils d’autorisation de BAT sont attribués aux utilisateurs dans leur profil utilisateur.
+Les profils d’autorisation d’épreuve déterminent les autorisations globales dont disposent les utilisateurs et utilisatrices sur toutes les épreuves de votre compte. Les profils d’autorisation d’épreuve sont attribués aux utilisateurs et utilisatrices dans leur profil.
 
-Les profils d’autorisation de BAT diffèrent des rôles de BAT. Pour plus d’informations sur les rôles de BAT, consultez la [présentation des rôles de BAT](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Les profils d’autorisation d’épreuve diffèrent des rôles d’épreuve. Pour plus d’informations sur les rôles d’épreuve, voir [Vue d’ensemble des rôles d’épreuve](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
->Si vous êtes administrateur, vous pouvez créer des profils personnalisés pour les utilisateurs de votre entreprise. Pour plus d’informations, voir [Configuration de profils personnalisés dans Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+>Si vous êtes administrateur ou administratrice, vous pouvez créer des profils personnalisés pour les utilisateurs et utilisatrices de votre entreprise. Pour plus d’informations, voir [Configurer des profils personnalisés dans Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -40,9 +40,9 @@ Les profils d’autorisation de BAT diffèrent des rôles de BAT. Pour plus d’
 </ul>
 -->
 
-## Profils d’autorisation de preuve
+## Profils d’autorisation d’épreuve
 
-Le tableau suivant affiche les autorisations disponibles pour chaque profil d’autorisation de BAT.
+Le tableau suivant affiche les autorisations disponibles pour chaque profil d’autorisation d’épreuve.
 
 <table>
   <tr>
@@ -50,9 +50,9 @@ Le tableau suivant affiche les autorisations disponibles pour chaque profil d’
    </td>
    <td colspan="4" ><strong>Éléments propres</strong>
    </td>
-   <td colspan="3" ><strong>Autres éléments d’utilisateurs</strong>
+   <td colspan="3" ><strong>Éléments d’autres personnes</strong>
    </td>
-   <td><strong>Admin</strong>
+   <td><strong>Administration</strong>
    </td>
   </tr>
   <tr>
@@ -137,76 +137,76 @@ Le tableau suivant affiche les autorisations disponibles pour chaque profil d’
   </tr>
 </table>
 
-### Administrateur
+### Administrateur ou administratrice
 
-Les administrateurs ont accès aux [Paramètres du compte](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) et disposent des autorisations suivantes :
+Les administrateurs et administratrices ont accès aux [Paramètres du compte](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) et disposent des autorisations suivantes :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Les administrateurs peuvent :</td> 
-   <td>Les administrateurs ne peuvent pas :</td> 
+   <td>Les administrateurs et administratrices peuvent effectuer les opérations suivantes :</td> 
+   <td>Les administrateurs et administratrices ne peuvent pas effectuer les opérations suivantes :</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Créer des bons à tirer, charger des fichiers et créer des dossiers</p> </li> 
-     <li> <p>Afficher, modifier et supprimer les BAT et les fichiers qu’ils ont créés</p> </li> 
-     <li> <p>Afficher, modifier et supprimer les bons à tirer et les fichiers créés par tous les utilisateurs de l’entreprise</p> </li> 
-     <li> <p>Suppression des dossiers publics d’autres utilisateurs</p> </li> 
-     <li> <p>Modifier tous les BAT créés dans le compte</p> </li> 
-     <li> <p>Être défini comme propriétaire de zone de dépôt*</p> </li> 
-     <li> <p>Accédez à la page Paramètres du compte et modifiez les détails du compte.</p> </li> 
+     <li> <p>Créer des épreuves, télécharger des fichiers et créer des dossiers.</p> </li> 
+     <li> <p>Afficher, modifier et supprimer les épreuves et les fichiers qu’ils ont créés.</p> </li> 
+     <li> <p>Afficher, modifier et supprimer les épreuves et les fichiers créés par tous les utilisateurs et utilisatrices de l’entreprise.</p> </li> 
+     <li> <p>Supprimer les dossiers publics des autres utilisateurs et utilisatrices</p> </li> 
+     <li> <p>Modifier toutes les épreuves créées dans le compte.</p> </li> 
+     <li> <p>Être définis comme personne propriétaire de zone de dépôt*.</p> </li> 
+     <li> <p>Accéder à la page Paramètres du compte et modifier les détails du compte.</p> </li> 
      <li> <p>Vider la corbeille</p> </li> 
-     <li> <p>Ajout, modification et suppression d’utilisateurs</p> </li> 
-     <li> <p>Créer des groupes et ajouter de nouveaux contacts</p> </li> 
-     <li> <p>Supprimer des contacts</p> </li> 
-     <li> <p>Editer les BAT s'il n'y a pas de réponse</p> </li> 
+     <li> <p>Ajouter, modifier et supprimer des utilisateurs et utilisatrices.</p> </li> 
+     <li> <p>Créer des groupes et ajouter de nouveaux contacts.</p> </li> 
+     <li> <p>Supprimer des contacts.</p> </li> 
+     <li> <p>Modifier les épreuves si elles n’ont pas de réponse.</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Modifiez les réponses du BAT.</p> </li> 
-     <li> <p>Suppression des dossiers privés des autres utilisateurs</p> </li> 
-     <li> <p>Accédez à la page Facturation ou modifiez les détails de facturation</p> </li> 
+     <li> <p>Modifier les réponses aux épreuves.</p> </li> 
+     <li> <p>Supprimer les dossiers privés des autres utilisateurs et utilisatrices.</p> </li> 
+     <li> <p>Accéder à la page Facturation ou modifier les détails de facturation.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Disponible uniquement dans le produit autonome Workfront Proof.
+&#42;Disponible uniquement dans le produit autonome Workfront Proof.
 
 ### Superviseur
 
-Les superviseurs disposent des autorisations suivantes :
+Les personnes responsables disposent des autorisations suivantes :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Les superviseurs peuvent :</td> 
-   <td>Les superviseurs ne peuvent pas :</td> 
+   <td>Les personnes responsables peuvent effectuer les opérations suivantes :</td> 
+   <td>Les personnes responsables ne peuvent pas effectuer les opérations suivantes :</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Créer des bons à tirer, charger des fichiers et créer des dossiers</p> </li> 
-     <li> <p>Afficher, modifier et supprimer les BAT et les fichiers qu’ils ont créés</p> </li> 
-     <li> <p>Afficher, modifier et supprimer les bons à tirer et les fichiers créés par tous les utilisateurs de l’entreprise</p> </li> 
-     <li> <p>Suppression des dossiers publics d’autres utilisateurs</p> </li> 
-     <li> <p>Modifier tous les BAT créés dans le compte</p> </li> 
-     <li> <p>Créer des groupes et ajouter de nouveaux contacts</p> </li> 
-     <li> <p>Supprimer des contacts</p> </li> 
-     <li> <p>Editer les BAT s'il n'y a pas de réponse</p> </li> 
+     <li> <p>Créer des épreuves, télécharger des fichiers et créer des dossiers.</p> </li> 
+     <li> <p>Afficher, modifier et supprimer les épreuves et les fichiers qu’ils ont créés.</p> </li> 
+     <li> <p>Afficher, modifier et supprimer les épreuves et les fichiers créés par tous les utilisateurs et utilisatrices de l’entreprise.</p> </li> 
+     <li> <p>Supprimer les dossiers publics des autres utilisateurs et utilisatrices</p> </li> 
+     <li> <p>Modifier toutes les épreuves créées dans le compte.</p> </li> 
+     <li> <p>Créer des groupes et ajouter de nouveaux contacts.</p> </li> 
+     <li> <p>Supprimer des contacts.</p> </li> 
+     <li> <p>Modifier les épreuves si elles n’ont pas de réponse.</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Modifiez les réponses du BAT.</p> </li> 
-     <li> <p>Suppression des dossiers privés d’autres utilisateurs</p> </li> 
-     <li> <p>Accédez à la page Facturation ou modifiez les détails de facturation</p> </li> 
-     <li> <p>Ajout, modification ou suppression d’utilisateurs</p> </li> 
+     <li> <p>Modifier les réponses aux épreuves.</p> </li> 
+     <li> <p>Supprimer les dossiers privés des autres utilisateurs et utilisatrices.</p> </li> 
+     <li> <p>Accéder à la page Facturation ou modifier les détails de facturation.</p> </li> 
+     <li> <p>Ajouter, modifier ou supprimer des utilisateurs et utilisatrices.</p> </li> 
      <li> <p>Vider la corbeille</p> </li> 
     </ul> </td> 
   </tr> 
@@ -215,32 +215,32 @@ Les superviseurs disposent des autorisations suivantes :
 
 ### Gestionnaire
 
-Les gestionnaires disposent des autorisations suivantes :
+Les personnes gestionnaires disposent des autorisations suivantes :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Les responsables peuvent :</td> 
-   <td>Les gestionnaires ne peuvent pas :</td> 
+   <td>Les personnes gestionnaires peuvent effectuer les opérations suivantes :</td> 
+   <td>Les personnes gestionnaires ne peuvent pas effectuer les opérations suivantes :</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Créer des bons à tirer, charger des fichiers et créer des dossiers</p> </li> 
-     <li> <p>Afficher, modifier et supprimer les BAT et les fichiers qu’ils ont créés</p> </li> 
-     <li> <p>Voir, réviser et approuver les BAT d’autres utilisateurs qui sont explicitement partagés avec eux (droits en lecture seule sur tous les éléments d’un dossier partagé).</p> </li> 
-     <li> <p>Modifier tous les BAT créés dans le compte</p> </li> 
-     <li> <p>Créer des groupes et ajouter de nouveaux contacts</p> </li> 
+     <li> <p>Créer des épreuves, télécharger des fichiers et créer des dossiers.</p> </li> 
+     <li> <p>Afficher, modifier et supprimer les épreuves et les fichiers qu’ils ont créés.</p> </li> 
+     <li> <p>Voir, réviser et approuver les épreuves des autres utilisateurs et utilisatrices qui sont explicitement partagées avec elles (droits en lecture seule sur tous les éléments d’un dossier partagé).</p> </li> 
+     <li> <p>Modifier toutes les épreuves créées dans le compte.</p> </li> 
+     <li> <p>Créer des groupes et ajouter de nouveaux contacts.</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Affichez, modifiez ou supprimez des BAT et des fichiers créés par d’autres utilisateurs de l’entreprise. </p> </li><li><p>Modifiez les réponses du BAT.</p> </li> 
-     <li> <p>Suppression des dossiers privés ou publics d’autres utilisateurs</p> </li> 
-     <li> <p>Accédez à la page Facturation ou modifiez les détails de facturation</p> </li> 
-     <li> <p>Ajout, modification ou suppression d’utilisateurs</p> </li> 
-     <li> <p> Supprimer des contacts</p> </li> 
+     <li> <p>Afficher, modifier ou supprimer des épreuves et des fichiers créés par d’autres utilisateurs et utilisatrices de l’entreprise. </p> </li><li><p>Modifier les réponses aux épreuves.</p> </li> 
+     <li> <p>Supprimer les dossiers privés ou publics des autres utilisateurs et utilisatrices.</p> </li> 
+     <li> <p>Accéder à la page Facturation ou modifier les détails de facturation.</p> </li> 
+     <li> <p>Ajouter, modifier ou supprimer des utilisateurs et utilisatrices.</p> </li> 
+     <li> <p> Supprimer des contacts.</p> </li> 
      <li> <p>Vider la corbeille</p> </li> 
     </ul> </td> 
   </tr> 

@@ -30,44 +30,44 @@ Pour plus d’informations sur l’application de la mise en forme conditionnell
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Forfait Adobe Workfront</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Nouvelle : standard </p> 
+   <td> <p>Nouveau : Standard </p> 
    <p>Ou</p>
-   <p>Actuelle : formule</p> 
+   <p>Actuel : formule</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveau d’accès*</td> 
-   <td> <p>Accès en modification aux filtres, aux vues et aux regroupements</p> <p>Accès en modification aux rapports, tableaux de bord et calendriers pour modifier les vues d’un rapport</p> </td> 
+   <td role="rowheader">Configurations du niveau d’accès*</td> 
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Accès en modification aux rapports, tableaux de bord et calendriers pour modifier les vues d’un rapport</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 
-   <td> <p>Autorisations de gestion à un rapport pour modifier les vues d’un rapport</p> <p>Autorisations de gestion sur la vue pour la modifier</p> </td> 
+   <td> <p>Autorisations de gestion à un rapport pour modifier les vues d’un rapport</p> <p>Gérer les autorisations d’une vue pour la modifier</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
 ## Mise en forme conditionnelle en mode texte
 
-Le mode Texte permet de créer des vues, des filtres, des regroupements et des invites plus complexes en vous offrant la possibilité d’utiliser des champs qui ne sont pas disponibles dans l’interface standard.
+Le mode texte vous permet de créer des vues, des filtres, des regroupements et des invites plus complexes en vous permettant d’utiliser des champs qui ne sont pas disponibles dans l’interface standard.
 
-Pour obtenir une liste complète de tous nos champs pouvant faire l’objet d’un rapport, consultez la section [Explorateur d’API](../../../wf-api/general/api-explorer.md).
+Pour obtenir une liste complète de tous nos champs pouvant faire l’objet d’un rapport, voir la section [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
 Pour plus d’informations sur l’utilisation de la syntaxe du mode texte, voir [Vue d’ensemble de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
@@ -75,7 +75,7 @@ Vous pouvez également utiliser le mode texte pour mettre en forme les vues dans
 
 >[!NOTE]
 >
-> L’utilisation du style CSS pour personnaliser la mise en forme conditionnelle n’est pas prise en charge. Au lieu de cela, vous devez utiliser les options de mise en forme prédéfinies disponibles dans Adobe Workfront.
+> L’utilisation du style CSS pour personnaliser la mise en forme conditionnelle n’est pas prise en charge. Au lieu de cela, vous devez utiliser les options de mise en forme prédéfinies disponibles dans Adobe Workfront.
 
 ## Ajouter une mise en forme conditionnelle aux vues
 
@@ -90,7 +90,7 @@ Pour ajouter une mise en forme conditionnelle à une vue dans l’interface en m
 1. Cliquez sur **Basculer en mode texte**.
 1. Dans la zone **Afficher dans cette colonne :**, cliquez sur **Cliquez pour modifier le texte**.
 1. Ajoutez les exemples de code fournis dans [Mettre en forme les vues à l’aide du mode texte](#format-views-using-text-mode) au bas du texte dans la colonne que vous avez sélectionnée.
-1. Cliquez sur **Enregistrer**, puis sur **Enregistrer la vue**.
+1. Cliquez sur **Enregistrer**, puis sur **Enregistrer l’affichage**.
 
 ## Mettre en forme les vues à l’aide du mode texte {#format-views-using-text-mode}
 
@@ -107,20 +107,20 @@ Vous devez vous familiariser avec l’interface du mode texte avant de pouvoir a
 Vous pouvez personnaliser les éléments suivants d’une colonne lorsque vous utilisez la mise en forme conditionnelle dans une vue :
 
 * [En-têtes de colonnes](#column-headers)
-* [Mettre en forme des dates](#format-dates)
-* [Mettre en forme des nombres](#format-numbers)
+* [Format des dates](#format-dates)
+* [Format des nombres](#format-numbers)
 
 #### En-têtes de colonnes {#column-headers}
 
-Pour modifier l’en-tête de colonne affiché, ajoutez le code suivant à votre colonne : . `displayname= [Name of column]` Par exemple, pour nommer une colonne Personne propriétaire du projet, le code serait le suivant :
+Pour modifier l’en-tête de colonne affiché, ajoutez le code suivant à votre colonne : `displayname= [Name of column]`. Par exemple, pour nommer une colonne Personne propriétaire du projet, le code texte serait le suivant :
 
 `displayname=Project Owner`
 
-#### Mettre en forme des dates {#format-dates}
+#### Formater les dates {#format-dates}
 
 Les dates peuvent être configurées pour être affichées dans différents formats.
 
-Pour plus d’informations, consulter [Mettre en forme les dates dans des rapports en mode texte](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
+Pour plus d’informations, voir [Formater les dates dans les rapports en mode texte](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -179,11 +179,11 @@ Pour plus d’informations, consulter [Mettre en forme les dates dans des rappor
 </div>
 -->
 
-#### Mettre en forme des nombres {#format-numbers}
+#### Format des nombres {#format-numbers}
 
-Vous pouvez mettre en forme les valeurs numériques pour afficher les informations qui répondent le mieux à vos besoins dans vos rapports.
+Vous pouvez formater les valeurs numériques pour afficher les informations qui répondent le mieux à vos besoins en matière de rapports.
 
-Pour plus d’informations, consultez [Mettre en forme les nombres, les devises et les pourcentages dans des rapports en mode texte](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
+Pour plus d’informations, voir [Formater les nombres, les devises et les pourcentages dans les rapports en mode texte](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -243,9 +243,9 @@ Pour plus d’informations, consultez [Mettre en forme les nombres, les devises 
 </div>
 -->
 
-### Règles de colonne {#column-rules}
+### Règles de la colonne {#column-rules}
 
-Les règles de colonne permettent d’ajouter des images, des couleurs, des mises en forme et des remplacements de texte dans une vue. Les règles de colonne peuvent être établies indépendamment ou peuvent contenir plusieurs conditions pour une même colonne.
+Les règles de colonne permettent d’ajouter des images, des couleurs, des mises en forme et des remplacements de texte dans une vue. Les règles de colonne peuvent être établies indépendamment ou peuvent contenir plusieurs conditions pour une colonne.
 
 * [Mise en forme conditionnelle](#conditional-formatting)
 * [Plusieurs formats conditionnels](#multiple-conditional-formats)
@@ -255,14 +255,14 @@ Les règles de colonne permettent d’ajouter des images, des couleurs, des mise
 
 #### Mise en forme conditionnelle {#conditional-formatting}
 
-Une instruction de mode texte spécifique doit être appliquée lors de l’incorporation de couleurs ou lors de la mise en forme de texte.
+Une instruction spécifique au mode de texte doit être appliquée lors de l’incorporation de couleur ou du formatage du texte.
 
 >[!NOTE]
 >
 >La mise en forme conditionnelle peut ne pas être prise en charge dans les colonnes fusionnées.\
->Pour plus d’informations sur la fusion de colonnes en mode texte, consultez [Vue : fusionner des informations de plusieurs colonnes en une seule colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>Pour plus d’informations sur la fusion de colonnes en mode texte, voir [Vue : informations sur la fusion de plusieurs colonnes en une colonne partagée](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
-Insérez le code suivant dans n’importe quelle colonne à l’endroit où vous souhaitez ajouter une mise en forme conditionnelle :
+Insérez le code suivant dans n’importe quelle colonne à laquelle vous souhaitez ajouter une mise en forme conditionnelle :
 
 ```
 styledef.case.0.comparison.leftmethod= [field name]
@@ -278,11 +278,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->La ligne de code `styledef.case.0.comparison.icon` est toujours « false », sauf si vous utilisez des icônes.
+>La ligne `styledef.case.0.comparison.icon` est toujours fausse, sauf si vous travaillez avec des icônes.
 >
->La ligne de code `styledef.case.0.comparison.truetext` est toujours vide, sauf si vous utilisez du texte de remplacement.
+>La ligne `styledef.case.0.comparison.truetext` reste toujours vide, sauf si vous travaillez avec du texte de remplacement.
 >
->La ligne de code `styledef.case.0.comparison.righttext` est vide lorsque le qualificateur est « notblank ».
+>La ligne `styledef.case.0.comparison.righttext` est vide lorsque le qualificateur est notblank.
 
 Par exemple, si vous voulez afficher le nom de l’entreprise en vert dans un rapport de projet, vous pouvez utiliser le code suivant :
 
@@ -300,23 +300,23 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 
 >[!NOTE]
 >
->* Cette instruction peut être appliquée à la colonne Nom de l’entreprise, mais aussi à n’importe quelle autre colonne du rapport. Le texte vert ne s’affiche que si le projet est associé à une entreprise. N’oubliez pas que `[field name]`, `[value]` et `[qualifier]` déterminent si les conditions appliquées s’affichent ou non sur la colonne.
->* Pour les qualificateurs, nous avons recommandé d’utiliser `cicontains` plutôt que `equal`. Par défaut,  recherche les numéros d’ID. `equal` En utilisant le qualificateur `cicontains`, vous pouvez accéder aux éléments par leur nom.
+>* Si cette instruction peut s’appliquer à la colonne Nom de l’entreprise, elle peut également s’appliquer à n’importe quelle autre colonne du rapport. Le texte vert ne s’affiche que si le projet est associé à une entreprise. N’oubliez pas que `[field name]`, `[value]` et `[qualifier]` déterminent si l’introduction de conditions s’affiche ou non sur la colonne.
+>* Pour les qualificateurs, nous avons recommandé d’utiliser `cicontains` plutôt que `equal`. Par défaut, `equal` recherche les numéros d’identification. En utilisant le qualificateur `cicontains`, vous pouvez accéder aux éléments par leur nom.
 
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
 ![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
 
-Qu’une couleur du texte, un alignement, un style de police ou une couleur d’arrière-plan soient appliqués à un mode texte, la même instruction (indiquée ci-dessus) est utilisée.
+Qu’une couleur du texte, un alignement, un style de police ou une couleur d’arrière-plan soient appliqués à un mode texte, la même instruction (illustrée ci-dessus) est utilisée.
 
-Les lignes suivantes doivent être modifiées pour refléter la mise en forme correspondante nécessaire pour la colonne :
+Les lignes suivantes doivent être modifiées pour refléter le formatage correspondant nécessaire pour la colonne :
 
 ```
 styledef.case.0.comparison.trueproperty.0.name= [format option]
 styledef.case.0.comparison.trueproperty.0.value= [format style]
 ```
 
-Utilisez les tableaux suivants pour identifier les lignes à modifier et les valeurs à spécifier pour définir le style de mise en forme de votre colonne :
+Utilisez les tableaux suivants pour identifier les lignes à modifier et les valeurs à spécifier pour définir le style de format de votre colonne :
 
 | **Couleur du texte** | **Line: textcolor=** |
 |---|---|
@@ -361,9 +361,9 @@ Utilisez les tableaux suivants pour identifier les lignes à modifier et les val
 
 #### Plusieurs formats conditionnels {#multiple-conditional-formats}
 
-Vous pouvez appliquer plusieurs styles de mise en forme à une instruction. L’instruction de base reste inchangée et toutes les expressions de mise en forme supplémentaires sont ajoutées à l’instruction.
+Vous pouvez appliquer plusieurs styles de mise en forme à une instruction. L’instruction de base reste inchangée et toutes les instructions de formatage supplémentaires sont ajoutées à l’instruction.
 
-Par exemple, en utilisant l’instruction précédente pour inclure le texte du nom de l’entreprise en vert et en gras. L’instruction est rédigée à l’aide du code suivant :
+Par exemple, en utilisant l’instruction précédente pour inclure le nom de l’entreprise dans le texte vert en gras. L’instruction est rédigée à l’aide du code suivant :
 
 ```
 styledef.case.0.comparison.leftmethod=company:name
@@ -381,13 +381,13 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 
 >[!NOTE]
 >
->Lorsque vous incluez plus d’une expression de mise en forme conditionnelle, il est nécessaire d’identifier numériquement chaque expression dans l’instruction. Remarquez que l’expression 0 et l’expression 1 ont été identifiées.
+>Lorsque vous incluez plus d’une instruction de mise en forme conditionnelle, il est nécessaire d’identifier numériquement chaque expression dans l’instruction. Remarquez que l’expression 0 et l’expression 1 ont été identifiées.
 
 #### Appliquer du texte {#apply-text}
 
 Si vous souhaitez remplacer les valeurs par défaut qui apparaissent dans une colonne par une valeur de votre choix, vous pouvez le faire en appliquant du texte à la colonne.
 
-Par exemple, dans un rapport de projet, définir la valeur de la colonne « Date de début prévue » pour qu’au lieu d’afficher la date de début prévue pour le projet, elle affiche le texte « Pas aujourd’hui ». Utilisez le code suivant pour la colonne « Date de début prévue » :
+Par exemple, dans un rapport sur les projets, définissez la valeur de la colonne « Date de début prévue » pour qu’au lieu d’afficher la date de début prévue pour le projet, elle affiche le texte « Pas aujourd’hui ». Utilisez le code suivant pour la colonne « Date de début prévue » :
 
 ```
 case.0.comparison.leftmethod=plannedStartDate
@@ -408,13 +408,13 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->Les lignes commençant par `case.0.` utilisent des comparaisons de cas pour identifier l’utilisation du texte. Les lignes commençant par `styledef.case.0.` sont les premières instructions de mise en forme conditionnelle où l’utilisation du texte est identifiée par le biais de l’expression `truetext`. Veillez à renseigner une valeur pour `truetext`, plutôt que de le laisser vide.
+>Les lignes commençant par `case.0.` utilisent des comparaisons de cas pour identifier l’utilisation du texte. Les lignes commençant par `styledef.case.0.` sont les premières instructions de mise en forme conditionnelle où l’utilisation du texte est identifiée par le biais de l’expression `truetext`. Veillez à donner une valeur à `truetext`, plutôt que de la laisser vide.
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
 ![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png)
 
-#### Appliquer des mises en forme aux lignes {#apply-row-formats}
+#### Appliquer des formats aux lignes {#apply-row-formats}
 
 Si vous souhaitez appliquer une condition à l’ensemble de la ligne, utilisez le code suivant avec le code de votre colonne :
 
@@ -458,7 +458,7 @@ image.case.0.comparison.icon=true
 image.case.0.comparison.truetext=
 ```
 
-Par exemple, dans un rapport de projet, vous souhaitez créer une colonne dans laquelle vous affichez un visage mécontent pour chaque date d’achèvement prévue qui ne correspond pas à la date d’aujourd’hui. Utilisez le code en mode texte suivant pour ajouter l’icône à votre colonne :
+Par exemple, dans un rapport sur les projets, vous souhaitez créer une colonne dans laquelle vous affichez un visage renfrogné pour chaque date d’achèvement prévue qui ne correspond pas à la date d’aujourd’hui. Utilisez le code en mode texte suivant pour ajouter l’icône à votre colonne :
 
 
 ```
@@ -473,17 +473,17 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 >[!NOTE]
 >
->Remarquez que l’instruction utilise l’expression `icon=true`. Cette instruction est également différente des autres instructions de mise en forme conditionnelle, car elle n’utilise pas le format `style.def`, mais un format d’image unique.
+>Remarquez que l’instruction utilise l’expression `icon=true`. Cette instruction est également différente des autres instructions de mise en forme conditionnelle, car elle n’utilise pas le format `style.def`, mais plutôt un format d’image unique.
 
 ![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
 
 ![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png)
 
-Pour utiliser les images disponibles, appliquez le code suivant et les valeurs suivantes :
+Pour utiliser les images disponibles, appliquez le code et les valeurs suivants :
 
 | **Icône** | **Line: image.case.0.comparison.truetext=** |
 |---|---|
-| Visage mécontent ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Visage renfrogné ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
 | Visage heureux ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
 | Drapeau bleu ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
 | Drapeau vert ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
@@ -502,19 +502,19 @@ Pour utiliser les images disponibles, appliquez le code suivant et les valeurs s
 
 {style="table-layout:auto"}
 
-### Mettre en forme une `valueexpression` avec des conditions {#conditionally-format-a-valueexpression}
+### Formater une `valueexpression` sous conditions {#conditionally-format-a-valueexpression}
 
-Pour afficher une valeur calculée dans une colonne, vous pouvez remplacer la ligne de code `valuefield` dans la colonne par une `valueexpression`. Une valeur calculée vous permet d’afficher une nouvelle valeur pour un objet sur la base du calcul entre deux champs existants de ce même objet.
+Pour afficher une valeur calculée dans une colonne, vous pouvez remplacer la ligne de code `valuefield` dans la colonne par une `valueexpression`. Une valeur calculée permet d’afficher une nouvelle valeur pour un objet sur la base du calcul entre deux champs existants sur ce même objet.
 
-Pour plus d’informations sur la mise en forme de `valueexpression line`, consultez [Vue d’ensemble de la syntaxe du mode texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Pour plus d’informations sur le formatage de `valueexpression line`, voir [Vue d’ensemble de la syntaxe du mode Texte](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-Vous ne pouvez pas mettre en forme de manière conditionnelle une colonne qui contient une ligne de code . `valueexpression` Au lieu de cela, vous pouvez ajouter un champ personnalisé calculé à un formulaire personnalisé et l’associer aux objets que vous affichez dans le rapport. Vous pouvez ensuite mettre en forme de manière conditionnelle les colonnes affichant ce champ.
+Vous ne pouvez pas formater de manière conditionnelle une colonne qui contient une ligne de code `valueexpression`. Au lieu de cela, vous pouvez ajouter un champ personnalisé calculé à un formulaire personnalisé et l’associer aux objets que vous affichez dans le rapport. Vous pouvez ensuite formater de manière conditionnelle les colonnes affichant ce champ.
 
 Pour plus d’informations sur les champs personnalisés calculés, voir [Ajout de champs calculés à un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-## Ajouter une valeur d’agrégateur dans une colonne en mode texte
+## Ajouter une valeur d’agrégateur dans une colonne en mode Texte
 
-Nous vous recommandons de créer d’abord la colonne dans l’interface du créateur, d’ajouter la valeur de l’agrégateur dans cette interface, puis de modifier la colonne en mode texte.
+Nous vous recommandons de créer d’abord la colonne dans l’interface du constructeur, d’y ajouter la valeur de l’agrégateur, puis de modifier la colonne en mode Texte.
 
 Tenez compte des éléments suivants lorsque vous ajoutez des agrégateurs à une colonne en mode texte :
 
@@ -524,8 +524,8 @@ Tenez compte des éléments suivants lorsque vous ajoutez des agrégateurs à un
    * Date
    * Devise
 
-* Vous pouvez ajouter un agrégateur à une colonne qui affiche un calcul. La valeur agrégée s’affiche dans le regroupement de la vue ou du rapport. Pour plus d’informations, consultez [Regroupement : afficher le résultat de l’agrégation de plusieurs valeurs calculées dans un regroupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
-* Les lignes de code pour la définition de la colonne doivent être identiques aux lignes de code introduisant l’agrégateur et précédées par « agrégateur ». Par exemple, si vous avez une colonne dans laquelle vous affichez le nombre d’heures prévues d’un projet, le mode texte des lignes principales de la colonne est le suivant :
+* Vous pouvez ajouter un agrégateur à une colonne qui affiche un calcul. La valeur agrégée s’affiche dans le regroupement de la vue ou du rapport. Pour plus d’informations, voir [Regroupement : afficher le résultat de l’agrégation de plusieurs valeurs calculées dans un regroupement](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+* Les lignes de code pour la définition de la colonne doivent être identiques aux lignes de code introduisant l’agrégateur et précédées par « agrégateur ». Par exemple, si vous avez une colonne dans laquelle vous affichez le nombre d’heures prévues d’un projet, le mode Texte des lignes principales de la colonne est le suivant :
 
 ```
   valuefield=workRequired
@@ -538,6 +538,6 @@ Lorsque vous souhaitez agréger les valeurs de toutes les lignes dans le regroup
 
 `aggregator.valueformat=compound` (la ligne `aggregator.valueformat` doit avoir la même valeur que la `valueformat` qui décrit la colonne)
 
-`aggregator.function=SUM` (il s’agit d’une ligne obligatoire qui indique comment vous souhaitez agréger la colonne. Dans ce cas, additionnez toutes les heures prévues individuelles en un seul nombre dans la ligne de regroupement).
+`aggregator.function=SUM` (il s’agit d’une ligne obligatoire qui indique comment vous souhaitez agréger la colonne. Dans ce cas, vous souhaitez ajouter toutes le nombre d’heures prévues individuelles en un seul nombre dans la ligne de regroupement).
 
-`aggregator.displayformat=minutesAsHoursString` (étant donné que les heures sont stockées dans Workfront en minutes, il est nécessaire d’indiquer le `displayformat` pour les heures lorsqu’elles sont stockées en minutes).
+`aggregator.displayformat=minutesAsHoursString` (parce que les heures sont stockées dans Workfront en minutes, nous voulons indiquer le `displayformat` pour les heures lorsqu’elles sont stockées en minutes).

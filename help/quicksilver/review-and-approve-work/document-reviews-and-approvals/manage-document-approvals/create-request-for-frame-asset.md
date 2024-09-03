@@ -12,7 +12,7 @@ exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
 source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 30%
+ht-degree: 33%
 
 ---
 
@@ -81,7 +81,7 @@ You must have the following access to perform the steps in this article:
 
 ## Créer une demande de révision ou d’approbation à partir de la page Détails du document
 
-1. Passez la souris sur le document, puis cliquez sur **Document Details**.
+1. Pointez sur le document, puis cliquez sur **Détails du document**.
    ![](assets/doc-details.png)
 
 1. Près du nom du document, sélectionnez la version du document pour laquelle vous souhaitez créer une approbation. La dernière version est sélectionnée par défaut.

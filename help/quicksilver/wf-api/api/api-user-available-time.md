@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: wf-api
-title: Obtention de l’API de temps disponible pour les utilisateurs
-description: Obtention de l’API de temps disponible pour les utilisateurs
+title: Obtenir l’API des heures disponibles pour les personnes
+description: Obtenir l’API des heures disponibles pour les personnes
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,15 +10,15 @@ exl-id: fa37920a-c08b-4af3-9896-7e4044834860
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# API de temps disponible pour les utilisateurs
+# API des heures disponibles pour les personnes
 
-**URI : task/api/v15.0/user/getUsersAvailableTime**
+**URI : attask/api/v15.0/user/getUsersAvailableTime**
 
-Le point de terminaison de l’heure disponible de l’utilisateur récupère les données sur l’heure disponible de l’utilisateur. Cela permet des intégrations pour l’agrégation des données en fonction des attributs utilisateur et des intervalles de temps.
+Le point d’entrée des heures disponibles des personnes récupère les données sur les heures disponibles de la personne. Cela permet des intégrations pour l’agrégation des données en fonction des attributs de la personne et des intervalles de temps.
 
 ## Exemple de requête
 
@@ -26,13 +26,13 @@ Le point de terminaison de l’heure disponible de l’utilisateur récupère le
 
 ## Paramètres de requête
 
-* **userIDs** : tableau de chaînes. Obligatoire. Exemple : `"61a9cc0500002f9fdaa7a6f824f557e1"`.
+* **userIDs** : séquence de chaînes de caractères. Requis. Exemple : `"61a9cc0500002f9fdaa7a6f824f557e1"`.
 
-* **fromDate** : datetime. chaîne. Obligatoire. Exemple : `"2022-07-10T00:00:00"`.
+* **fromDate** : datetime. Chaîne de caractères. Requis. Exemple : `"2022-07-10T00:00:00"`.
 
-* **toDate** : datetime. chaîne. Obligatoire. Exemple `"2022-07-20T23:59:59"`.
+* **toDate** : datetime. Chaîne de caractères. Requis. Exemple `"2022-07-20T23:59:59"`.
 
-## Exemple de réponse :
+## Exemple de réponse :
 
 ```
 {
@@ -75,5 +75,5 @@ Le point de terminaison de l’heure disponible de l’utilisateur récupère le
 
 ## Paramètres de réponse
 
-* **AVL** : heures disponibles réelles. Tableau de nombres.
-* **PAVL** : heures disponibles pures pour la planification qui n’incluent pas les jours non ouvrés ni le temps d’arrêt de l’utilisateur. Chaîne.
+* **AVL** : heures disponibles réelles. Tableau de nombres.
+* **PAVL** : nombre d’heures pures disponibles pour la planification qui n’inclut pas les jours non ouvrés ni les jours de congé de la personne. Chaîne de caractères.

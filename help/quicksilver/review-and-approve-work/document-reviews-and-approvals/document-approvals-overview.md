@@ -19,7 +19,7 @@ ht-degree: 60%
 >
 >Le contenu de cet article fait référence à la fonctionnalité d’approbation de document mise à jour, disponible uniquement pour des comptes spécifiques. Pour plus d’informations sur les processus d’approbation standard, reportez-vous aux articles répertoriés dans la section [Approbations de travail](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Les nouvelles approbations de documents consistent en une reconception complète du processus d’approbation existant en cours d’élaboration pour Adobe Workfront. Actuellement disponible dans une version limitée, elle est conçue pour être une solution pratique et efficace pour les entreprises qui nécessitent un engagement complet des parties prenantes et des approbations de documents spécifiques aux versions. Sa conception réfléchie et ses nouvelles fonctionnalités ciblées facilitent la collaboration, la clarté des rôles et le contrôle des versions dans le processus d’approbation, ce qui accroît l’efficacité et la responsabilité.
+Les nouvelles approbations de documents consistent en une reconception complète du processus d’approbation existant en cours d’élaboration pour Adobe Workfront. Actuellement disponible en version limitée, celle-ci est conçue comme une solution pratique et efficace pour les entreprises qui ont besoin d’un engagement complet de la part des parties prenantes et d’approbations de documents spécifiques à une version. Sa conception réfléchie et ses nouvelles fonctionnalités simplifient la collaboration, la clarté des rôles et le contrôle des versions dans le processus d’approbation, améliorant ainsi l’efficacité et la prise de responsabilité.
 
 ## Principales différences par rapport aux validations de documents héritées et à la vérification de l’identité
 
@@ -46,7 +46,7 @@ Avec de nouvelles validations de document, vous pouvez :
 * Affichage de plusieurs indicateurs de performances clés pour vos approbations dans les widgets d’accueil de Workfront
 * Utilisation des tableaux de bord de canevas pour afficher les détails des rapports sur les nouvelles approbations de documents
 
-## Utilisation de la nouvelle approbation de documents
+## Utiliser la nouvelle approbation de documents
 
 Pour les utilisateurs qui souhaitent créer ou gérer des approbations de documents, reportez-vous aux articles répertoriés dans [ Configuration et gestion des approbations de ressources et de documents : article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
@@ -57,21 +57,21 @@ Pour les utilisateurs qui souhaitent réviser ou approuver des documents pour le
 >[!VIDEO](https://video.tv.adobe.com/v/3420544/)
 
 * **Participation inclusive des parties prenantes**\
-    La nouvelle approbation de documents permet d’inclure des contributeurs et contributrices individuels et des équipes entières dans le processus d’approbation. Faciliter cette plus large participation permet d’assurer un engagement complet des parties prenantes et favorise un environnement décisionnel plus informé et plus collaboratif.
+    Les nouvelles approbations de documents permettent d’inclure des contributeurs et contributrices individuels et des équipes entières dans le processus d’approbation. Faciliter une telle participation plus large garantit un engagement complet des parties prenantes et favorise un environnement décisionnel mieux informé et plus collaboratif.
 
-* **Différents rôles de révision et d’approbation**\
-    La nouvelle approbation de documents est conçue pour reconnaître et respecter les différents rôles du processus d’approbation. En permettant d’identifier et de désigner les réviseurs et réviseuses, c’est-à-dire les personnes informées de la possibilité de fournir des commentaires, mais qui n’ont pas autorité pour prendre des décisions, la qualité des commentaires est améliorée tout en maintenant la clarté de l’autorité d’approbation finale.
+* **Rôles de révision et d’approbation différenciés**\
+    La nouvelle approbation de documents est conçue pour reconnaître et respecter les différents rôles au sein du processus d’approbation. En offrant la possibilité d’identifier et de désigner des réviseurs et des réviseuses (c’est-à-dire des utilisateurs et des utilisatrices qui reçoivent une notification leur enjoignant à laisser des commentaires mais qui n’ont pas de pouvoir de décision), la qualité des commentaires est améliorée et la clarté concernant l’autorité d’approbation finale est conservée.
 
-* **Approbations spécifiques aux versions**\
-    La nature itérative du développement de documents conduit souvent à plusieurs versions du même document. La nouvelle approbation de documents prend en charge cette réalité en fournissant des chaînes d’approbation uniques pour chaque version d’un document. Cela permet aux personnes de charger une nouvelle version et d’ajouter de nouveaux approbateurs et approbatrices, ou réviseurs et réviseuses, selon les besoins, garantissant ainsi que les commentaires et l’approbation sont spécifiques à la version du document et en éliminant toute confusion potentielle.
+* **Approbations spécifiques à une version**\
+    La nature itérative de l’élaboration des documents conduit souvent à de multiples versions d’un même document. La nouvelle approbation de documents tient compte de cette réalité en proposant des chaînes d’approbation uniques pour chaque version d’un document. Cela permet aux utilisateurs et aux utilisatrices de charger une nouvelle version et d’ajouter de nouveaux approbateurs et approbatrices, ou de nouveaux réviseurs et réviseuses si nécessaire, pour ainsi garantir que les commentaires et l’approbation sont spécifiques à la version du document, éliminant toute confusion potentielle.
 
 * **Journaux d’audit**\
-    Grâce à la nouvelle approbation de documents, un journal d’audit de toutes les activités d’approbation est conservé dans le flux d’activités, ce qui constitue une ressource précieuse pour les références futures et la conformité.
+    Avec la nouvelle approbation de documents, un journal d’audit de toutes les activités d’approbation est conservé dans le flux d’activité, ce qui constitue une ressource précieuse pour les références et la conformité futures.
 
-## Calendrier des versions
+## Plan de publication
 
-Nous publions plusieurs versions de la nouvelle approbation de documents. Outre l’ajout de nouvelles fonctionnalités, nous allons également augmenter le nombre de comptes pour lesquels de nouvelles approbations de document sont disponibles avec chaque version.
+Nous répartissons la mise à disposition de la nouvelle approbation de documents aux utilisateurs et aux utilisatrices sur plusieurs versions. Outre l’ajout de nouvelles fonctionnalités, nous allons également augmenter le nombre de comptes pour lesquels de nouvelles approbations de document sont disponibles avec chaque version.
 
-Si vous souhaitez que la nouvelle approbation de documents soit activée dans votre environnement de production, contactez votre gestionnaire de compte stratégique ou de succès client.
+Si vous souhaitez que la nouvelle approbation de documents soit activée dans votre environnement de production, veuillez contacter votre personne responsable du succès client ou votre personne gestionnaire de compte stratégique.
 
 

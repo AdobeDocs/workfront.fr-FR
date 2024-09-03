@@ -18,7 +18,7 @@ ht-degree: 90%
 
 <!--Audited: 04/2024-->
 
-[!DNL Scenario Planner] a des exigences de licence supplémentaires. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], consultez [Vue d’ensemble du  [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md).
+[!DNL Scenario Planner] a des exigences de licence supplémentaires. Pour plus d’informations sur [!DNL Workfront Scenario Planner], consultez [Vue d’ensemble du  [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md).
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
@@ -78,45 +78,45 @@ Vous devez vous assurer que toutes les conditions suivantes sont remplies avant 
 
 Non seulement, votre entreprise doit acquérir la licence appropriée pour le [!DNL Workfront Scenario Planner], mais votre administrateur ou administratrice [!DNL Workfront] doit également vous attribuer les droits d’accès et de configuration suivants afin que vous puissiez afficher le [!DNL Workfront Scenario Planner] et les informations associées :
 
-* Niveau d’accès en [!UICONTROL affichage] au [!DNL Scenario Planner] ou accès supérieur.
+* Niveau d’accès en [!UICONTROL affichage] pour [!DNL Scenario Planner] ou accès supérieur.
 
   Pour plus d’informations sur le niveau d’accès au [!DNL Scenario Planner], consultez [Accorder l’accès au  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-* Niveau d’accès en [!UICONTROL affichage] pour les [!UICONTROL données financières] ou accès supérieur si vous devez également consulter des informations financières sur le plan et les initiatives. Les informations financières comprennent notamment les budgets, les coûts ou les taux de fonctions.
+* Niveau d’accès en [!UICONTROL affichage] pour les [!UICONTROL données financières] ou accès supérieur si vous devez également consulter des informations financières sur le plan et les initiatives. Les informations financières comprennent notamment les budgets, les coûts ou les taux de de fonctions.
 
-  Pour plus d’informations sur le niveau d’accès aux [!UICONTROL données financières], voir [Accorder l’accès aux données financières](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Pour plus d’informations sur le niveau d’accès aux [!UICONTROL données financières], consultez [Accorder l’accès aux données financières](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
   >[!TIP]
   >
   >Les [!UICONTROL demandeurs et demandeuses], mais aussi les [!UICONTROL utilisateurs et utilisatrices externes] n’ont pas le niveau d’accès nécessaire pour afficher le [!DNL Scenario Planner].
 
-* Autorisations d’affichage du forfait. Pour plus d’informations sur les autorisations nécessaires pour accéder aux forfaits et initiatives que vous n’avez pas créés, voir [Autorisations nécessaires pour accéder aux forfaits et aux initiatives](#permissions-needed-to-access-plans-and-initiatives) dans cet article.
+* Autorisations d’affichage du plan. Pour plus d’informations sur les autorisations nécessaires pour accéder aux plans et initiatives que vous n’avez pas créés, consultez la section [Autorisations nécessaires pour accéder aux plans et aux initiatives](#permissions-needed-to-access-plans-and-initiatives) dans cet article.
 
-## Accès nécessaire pour gérer les forfaits et les initiatives
+## Accès nécessaire pour gérer les plans et les initiatives
 
-Votre administrateur ou administratrice [!DNL Workfront] doit vous accorder l’accès suivant afin que vous puissiez gérer les forfaits et leurs informations dans le [!DNL Scenario Planner] :
+Votre administrateur ou administratrice [!DNL Workfront] doit vous accorder l’accès suivant afin que vous puissiez gérer les plans et leurs informations dans le [!DNL Scenario Planner] :
 
-* Type de licence [!UICONTROL Formule] ou [!UICONTROL Travail] avec accès en modification au [!DNL Scenario Planner].
+* Type de licence [!UICONTROL Plan] ou [!UICONTROL Travail] avec accès en modification pour le [!DNL Scenario Planner].
 
-  Aucun autre type de licence n’a accès à la gestion des forfaits.
+  Aucun autre type de licence n’a accès à la gestion des plans.
 
-  Pour plus d’informations sur l’octroi de l’accès au [!DNL Scenario Planner] selon le niveau d’accès, voir [Accorder l’accès au  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Pour plus d’informations sur l’octroi de l’accès au [!DNL Scenario Planner] selon le niveau d’accès, consultez [Accorder l’accès au  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-* Type de licence [!UICONTROL Formule] avec un accès en [!UICONTROL modification] aux [!UICONTROL données financières], si vous devez également mettre à jour les informations financières sur la formule.
+* Type de licence [!UICONTROL Plan] avec un accès en [!UICONTROL modification] aux [!UICONTROL données financières], si vous devez également mettre à jour les informations financières sur le plan.
 
-  Voici quelques exemples d’informations financières que vous pouvez modifier : [!UICONTROL Budget], [!UICONTROL Bénéfice prévu] et [!UICONTROL Coûts fixes].
+  Voici quelques exemples d’informations financières que vous pouvez modifier : [!UICONTROL Budget], [!UICONTROL Bénéfice prévu], et [!UICONTROL Coûts fixes].
 
   >[!TIP]
   >
-  >Seules les personnes titulaires d’une licence [!UICONTROL Forfait] ont un accès en [!UICONTROL modification] aux [!UICONTROL données financières].
+  >Seules les personnes titulaires d’une licence [!UICONTROL Plan] ont un accès en [!UICONTROL modification] aux [!UICONTROL données financières].
 
-  Pour plus d’informations sur le niveau d’accès aux [!UICONTROL données financières], voir [Accorder l’accès aux données financières](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Pour plus d’informations sur le niveau d’accès aux [!UICONTROL données financières], consultez [Accorder l’accès aux données financières](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-* Autorisations de gestion pour un forfait que vous n’avez pas créé. Pour plus d’informations sur les autorisations nécessaires pour accéder aux forfaits et initiatives que vous n’avez pas créés, voir la section [Autorisations nécessaires pour accéder aux forfaits et aux initiatives](#permissions-needed-to-access-plans-and-initiatives) dans cet article.
+* Autorisations de gestion pour un plan que vous n’avez pas créé. Pour plus d’informations sur les autorisations nécessaires pour accéder aux plans et initiatives que vous n’avez pas créés, voir la section [Autorisations nécessaires pour accéder aux plans et aux initiatives](#permissions-needed-to-access-plans-and-initiatives) dans cet article.
 
-## Autorisations nécessaires pour accéder aux forfaits et aux initiatives
+## Autorisations nécessaires pour accéder aux plans et aux initiatives
 
-Les niveaux d’accès fonctionnent avec les autorisations dans [!DNL Workfront] pour vous donner une visibilité sur les forfaits et les initiatives que vous n’avez pas créés. Outre le niveau d’accès correct pour accéder au [!DNL Scenario Planner], vous devez également disposer des autorisations appropriées pour le forfait que vous souhaitez afficher ou gérer, si vous n’êtes pas à l’origine de ces forfaits.
+Les niveaux d’accès fonctionnent avec les autorisations dans [!DNL Workfront] pour vous donner une visibilité sur les plans et les initiatives que vous n’avez pas créés. Outre le niveau d’accès correct pour accéder au [!DNL Scenario Planner], vous devez également disposer des autorisations appropriées pour le plan que vous souhaitez afficher ou gérer, si vous n’êtes pas à l’origine de ces plans.
 
 Tous les utilisateurs, y compris les administrateurs système, n’ont accès qu’aux plans qu’ils ont créés.
 
@@ -124,11 +124,11 @@ Pour afficher les plans créés par d’autres utilisateurs, ils doivent partage
 
 * Partager le plan avec vous
 
-  Pour plus d’informations sur le partage de forfaits, voir [Partager un forfait dans le  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+  Pour plus d’informations sur le partage de plans, voir [Partager un plan dans le  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
 
 * Envoyer un lien vers un plan qu’il a créé
 
-  Si un utilisateur ou une utilisatrice partage un lien vers un forfait, mais sans partager le forfait, vous pouvez demander des autorisations pour le forfait. Pour plus d’informations sur la demande d’autorisations pour les forfaits, voir [Demander l’accès à un forfait dans le  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+  Si un utilisateur ou une utilisatrice partage un lien vers un plan, mais sans partager le plan, vous pouvez demander des autorisations pour le plan. Pour plus d’informations sur la demande d’autorisations pour les plans, voir [Demander l’accès à un plan dans le  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 
 >[!NOTE]
 >

@@ -1,25 +1,25 @@
 ---
 product-area: enterprise-scenario-planner-product-area
-keywords: publier,plans,projets,scénario,scénarios
+keywords: publier, plans, projets, scénario, scénarios
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios
-description: Vous pouvez créer des projets à partir d’initiatives existantes et également mettre à jour des projets précédemment liés à des initiatives en publiant des scénarios dans le planificateur de scénarios Adobe Workfront.
+description: Vous pouvez créer des projets à partir d’initiatives existantes et mettre à jour des projets précédemment liés à des initiatives en publiant des scénarios dans le planificateur de scénarios d’Adobe Workfront.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
 source-wordcount: '1663'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
 # Mettre à jour ou créer des projets en publiant des initiatives dans le [!DNL Scenario Planner]
 
-La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Planner] effectue les opérations suivantes :
+La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Planner] permet d’obtenir les résultats suivants :
 
 * Crée des projets à partir des initiatives du scénario et les relie entre eux.
-* Met à jour les projets déjà liés aux initiatives du scénario avec les informations de l’initiative liée. Les projets peuvent également être liés à des initiatives lorsque vous les importez dans un plan. Pour plus d’informations, voir [Importer des projets dans des plans dans le  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+* Met à jour les projets déjà liés à des initiatives du scénario avec des informations provenant de l’initiative liée. Les projets peuvent également être liés à des initiatives lorsque vous les importez dans un plan. Pour plus d’informations, voir [Importer des projets vers des plans dans le  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
 
 ## Conditions d’accès
 
@@ -30,21 +30,21 @@ La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Plan
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] forfait*</p> </td> 
-   <td> <p>Actuel : [!UICONTROL Entreprise] ou version ultérieure</p>
+   <td> <p>[!DNL Adobe Workfront] formule*</p> </td> 
+   <td> <p>Actuel : [!UICONTROL Business] ou de niveau supérieur</p>
    <p>Nouveau : Ultimate </p>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licence*</p> </td> 
-   <td> <p>Nouveau : Léger ou supérieur</p> 
+   <td> <p>Nouveau : Light ou supérieur</p> 
    <p>Actuel : [!UICONTROL Révision] ou version ultérieure</p> </td> 
   </tr> 
   <tr> 
    <td>Produit* </td> 
    <td> 
    <p>Pour les plans Workfront actuels : </p>
-   <p>Vous devez acheter une licence supplémentaire pour le [!DNL Adobe Workfront Scenario Planner] afin d’accéder aux fonctionnalités décrites dans cet article.</p> <p>Pour plus d’informations sur l’accès et les autorisations pour [!DNL Workfront Scenario Planner], voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
+   <p>Vous devez acheter une licence supplémentaire pour qu’[!DNL Adobe Workfront Scenario Planner] puisse accéder aux fonctionnalités décrites dans cet article.</p> <p>Pour plus d’informations sur l’accès et les autorisations pour [!DNL Workfront Scenario Planner], voir <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accès nécessaire pour utiliser le [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Niveau d’accès </td> 
@@ -55,7 +55,7 @@ La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Plan
    <td> <ul> 
      <li>Autorisations [!UICONTROL Manage] pour le plan </li> 
      <li>Autorisations [!UICONTROL Manage] pour les projets publiés</li> 
-    </ul> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à un plan, voir <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à un plan dans le [!DNL Scenario Planner]</a>.</p> </td> 
+    </ul> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à un plan, consultez <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à un plan dans le [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,23 +73,23 @@ Avant de commencer :
 
 ## Considérations relatives à la publication d’initiatives dans des projets
 
-* Vous ne pouvez publier qu’un seul scénario à partir d’un plan.
-* Une initiative ne peut être liée qu’à un seul projet.
-* Un projet peut être lié à plusieurs initiatives lorsque les initiatives appartiennent à différents plans.
+* Vous ne pouvez publier qu’un seul scénario par plan.
+* Une seule initiative ne peut être liée qu’à un seul projet.
+* Un projet peut être lié à plus d’une seule initiative lorsque les initiatives appartiennent à des plans différents.
 
   >[!TIP]
   >
-  >Lorsqu’un projet existe sur plusieurs plans et que vous publiez des informations sur le projet à partir de tous les plans, la dernière publication remplace les informations du [!DNL Scenario Planner] existantes sur le projet.
+  >Lorsqu’un projet existe dans plusieurs plans et que vous publiez des informations sur le projet à partir de tous les plans, la dernière publication écrase les informations existantes du [!DNL Scenario Planner] à propos du projet.
 
-* Si des initiatives ont été créées sur le plan en important des projets dans le plan, la publication de l’initiative met également à jour les projets liés avec les informations de l’initiative.
+* Si des initiatives ont été créées dans le plan en important des projets dans ce dernier, la publication de l’initiative met également à jour les projets liés avec les informations relatives à l’initiative.
 
   >[!TIP]
   >
-  >Vous pouvez importer le même projet dans plusieurs plans. La publication peut remplacer les informations d’initiative sur un projet lié à plusieurs initiatives.
+  >Vous pouvez importer le même projet dans plusieurs plans. La publication peut écraser les informations relatives à une initiative dans un projet lié à plusieurs initiatives.
 
-  Pour plus d’informations sur la création d’initiatives par import de projets, voir [Importer des projets dans des plans dans le  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Pour plus d’informations sur la création d’initiatives par l’import de projets, voir [Importer des projets dans des plans dans le  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* Les modifications apportées au projet ne sont pas reflétées dans l’initiative liée.
+* Les modifications apportées au projet ne sont pas transférées à l’initiative liée.
 
 
 
@@ -97,11 +97,11 @@ Avant de commencer :
 
 >[!IMPORTANT]
 >
->Si vous apportez des modifications aux initiatives du plan, y compris la résolution de conflits, vous devez republier l’initiative pour que les nouvelles informations soient visibles sur le projet. Ces informations ne s’affichent sur les projets liés aux initiatives que lorsque vous publiez l’initiative correspondante. Pour plus d’informations sur la résolution des conflits entre les initiatives, voir [Résoudre les conflits d’initiative dans le  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+>Si vous apportez des modifications aux initiatives du plan, y compris si vous résolvez des conflits, vous devez republier l’initiative pour que les nouvelles informations soient visibles dans le projet. Ces informations ne s’affichent dans les projets liés aux initiatives que lorsque vous publiez l’initiative correspondante. Pour plus d’informations sur la résolution des conflits entre les initiatives, voir [Résoudre les conflits d’initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
 {{step1-to-scenario-planner}}
 
-1. (Facultatif et le cas échéant) Si vous souhaitez publier à partir d’un plan existant, cliquez sur l’icône **[!UICONTROL Filtrer]** ![](assets/filter-nwepng.png) dans le coin supérieur droit du plan et sélectionnez l’une des options suivantes :
+1. (Facultatif et le cas échéant) Si vous souhaitez publier à partir d’un plan existant, cliquez sur l’icône **[!UICONTROL Filtre]** ![](assets/filter-nwepng.png) dans le coin supérieur droit du plan et sélectionnez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -109,7 +109,7 @@ Avant de commencer :
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL All]</td> 
-      <td>Affiche tous les plans que vous possédez ou qui ont été partagés avec vous. Il s’agit du paramètre par défaut. </td> 
+      <td>Affiche tous les plans que vous possédez ou qui sont partagés avec vous. Il s’agit de la valeur par défaut. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL My plans]</td> 
@@ -117,42 +117,42 @@ Avant de commencer :
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Shared with me]</td> 
-      <td> <p>Affiche les plans que vous n’avez pas créés mais qui ont été partagés avec vous.</p> <p>Important : pour publier les plans partagés avec vous, vous devez disposer d’autorisations de [!UICONTROL Manage]. </p> </td> 
+      <td> <p>Affiche les plans que vous n’avez pas créés mais qui sont partagés avec vous.</p> <p>Important : vous devez disposez des autorisations [!UICONTROL Manage] pour les plans partagés avec vous afin de pouvoir les publier. </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Rechercher]** ![](assets/search-icon.png) et commencez à saisir le nom d’un plan pour le trouver rapidement dans la liste.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Rechercher]** ![](assets/search-icon.png) et commencez à saisir le nom d’un plan pour le retrouver rapidement dans la liste.
 1. (Le cas échéant) Pour publier à partir d’un nouveau plan, créez un plan.
 
-   Pour plus d’informations sur la création de plans, consultez la section [Créer et modifier des plans dans le [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   Pour plus d’informations sur la création de plans, voir [Créer et modifier des plans dans le  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-1. (Facultatif) Cliquez sur le nom d’un plan existant et créez des scénarios pour le plan.
+1. (Facultatif) Cliquez sur le nom d’un plan existant et créez de nouveaux scénarios pour ce plan.
 
-   Pour plus d’informations sur la création de scénarios pour un plan, consultez la section [Créer et comparer des scénarios de plan dans le [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+   Pour plus d’informations sur la création de scénarios pour un plan, voir [Créer et comparer des scénarios de plan dans le  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
-1. (Facultatif) Mettez à jour les initiatives d’un plan existant ou nouveau ou créez-les.
+1. (Facultatif) Mettez à jour les initiatives d’un plan existant ou d’un nouveau plan, ou créez-en de nouvelles.
 
-   Pour plus d’informations sur la création d’initiatives, consultez la section [Créer et modifier des initiatives dans le [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   Pour plus d’informations sur la création d’initiatives, voir [Créer et modifier des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 1. Cliquez sur **[!UICONTROL Enregistrer le plan]**.
 1. Sélectionnez le scénario que vous souhaitez publier dans le menu déroulant **[!UICONTROL Scénario initial]**, puis cliquez sur **[!UICONTROL Aller à Publier]** ![](assets/go-to-publish-button-icon.png) dans le coin supérieur droit.
 
    Ou
 
-   Cliquez sur **[!UICONTROL Comparer les scénarios]**, pointez sur la carte de scénario à partir de laquelle vous souhaitez publier, puis cliquez sur **[!UICONTROL Aller à Publier]** ![](assets/go-to-publish-button-icon.png).
+   Cliquez sur **[!UICONTROL Comparer les scénarios]**, passez la souris sur la carte de scénario à partir de laquelle vous souhaitez publier, puis cliquez sur **[!UICONTROL Aller à Publier]** ![](assets/go-to-publish-button-icon.png).
 
-   La page [!UICONTROL Publier les initiatives] s’affiche avec la liste de toutes les initiatives du scénario. Si l’une des initiatives a été précédemment publiée, l’icône du projet ![](assets/project-icon-sp.png) s’affiche après leur nom et la date de la **[!UICONTROL Dernière publication]** est renseignée dans la liste.
+   La page [!UICONTROL Publier les initiatives] s’affiche et affiche une liste de toutes les initiatives du scénario. Si l’une des initiatives a déjà été publiée, l’icône du projet ![](assets/project-icon-sp.png) s’affiche après son nom et la date de la **[!UICONTROL dernière publication]** est renseignée dans la liste.
 
    >[!TIP]
    >
-   >Les initiatives créées par l’import de projets affichent également l’icône du projet ![](assets/project-icon-sp.png) à droite de leur nom.
+   >Les initiatives créées par l’import de projets affichent également l’icône de projet ![](assets/project-icon-sp.png) à droite de leur nom.
 
    ![](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. (Facultatif et le cas échéant) Si vous souhaitez publier à partir d’un plan existant, cliquez sur l’icône **[!UICONTROL Filtrer]** ![](assets/filter-nwepng.png) dans le coin supérieur droit du plan et sélectionnez l’une des options suivantes :
+1. (Facultatif et le cas échéant) Si vous souhaitez publier à partir d’un plan existant, cliquez sur l’icône **[!UICONTROL Filtre]** ![](assets/filter-nwepng.png) dans le coin supérieur droit du plan et sélectionnez l’une des options suivantes :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -164,7 +164,7 @@ Avant de commencer :
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Published]</td> 
-      <td>Affiche les initiatives que vous ou une autre personne avez publiées précédemment. </td> 
+      <td>Affiche les initiatives que vous ou un autre utilisateur ou une autre utilisatrice avez déjà publiées. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Unpublished]</td> 
@@ -175,33 +175,33 @@ Avant de commencer :
 
    ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Rechercher]** ![](assets/search-icon.png) et commencez à saisir le nom d’une initiative pour la trouver rapidement dans la liste.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Rechercher]** ![](assets/search-icon.png) et commencez à saisir le nom d’une initiative pour la retrouver rapidement dans la liste.
 1. Sélectionnez une ou plusieurs initiatives à publier et créez ou mettez à jour des projets à partir de celles-ci, puis cliquez sur **[!UICONTROL Publier les initiatives]**.
 
-   Un nouveau projet est alors créé à partir de chaque initiative sélectionnée ou les projets connectés existants sont mis à jour, si les initiatives publiées étaient déjà liées à un projet.
+   Cela crée un nouveau projet à partir de chaque initiative sélectionnée ou met à jour les projets connectés existants, si les initiatives publiées étaient déjà liées à un projet.
 
    >[!TIP]
    >
    >Les nouveaux projets portent le même nom que les initiatives publiées.
 
-1. (Le cas échéant) Effectuez l’une des opérations suivantes :
+1. (Le cas échéant) Utilisez l’une des méthodes suivantes :
 
-   * Si vous avez publié une seule initiative, cliquez sur **[!UICONTROL Voir le projet associé]** pour ouvrir le projet créé ou mis à jour à partir de l’initiative.
-   * Si vous avez publié plusieurs initiatives, cliquez sur **[!UICONTROL Voir les projets associés]** pour ouvrir la liste des projets publiés à partir des différentes initiatives. [!DNL Workfront] applique par défaut le filtre Projets du [!DNL Scenario Planner] à la liste des projets. Les derniers projets publiés s’affichent en haut de la liste.
+   * Si vous avez publié une initiative, cliquez sur **[!UICONTROL Voir le projet associé]** pour ouvrir le projet créé ou mis à jour à partir de l’initiative.
+   * Si vous avez publié plus d’une initiative, cliquez sur **[!UICONTROL Voir les projets associés]** pour ouvrir une liste des projets publiés à partir d’initiatives. [!DNL Workfront] applique par défaut le filtre de projets du [!DNL Scenario Planner] à la liste des projets. Les projets publiés le plus récemment apparaissent en tête de liste.
 
      ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
-1. Accédez aux sections suivantes pour afficher les informations sur l’initiative du projet :
+1. Accédez aux zones suivantes pour consulter les informations des initiatives du projet :
 
-   * **Section [!UICONTROL Mises à jour]** : une mise à jour de publication indique que le projet a été créé ou mis à jour à partir de l’initiative. La mise à jour contient le nom de l’initiative qui a créé ou mis à jour le projet et le nom lié du plan qui contient l’initiative. Cliquez sur le nom du plan dans la mise à jour pour l’ouvrir dans le [!DNL Scenario Planner].
+   * **Section [!UICONTROL Mises à jour]** : une mise à jour est publiée pour indiquer que le projet a été créé ou mis à jour à partir de l’initiative. La mise à jour contient le nom de l’initiative qui a créé ou mis à jour le projet et le nom lié du plan qui contient l’initiative. Vous pouvez cliquer sur le nom du plan dans la mise à jour pour ouvrir le plan dans le [!DNL Scenario Planner].
 
      ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
-   * **Zone [!UICONTROL Vue d’ensemble] de la section [!UICONTROL Détails du projet]** : une nouvelle section [!DNL Scenario Planner] est créée dans cette zone qui contient les informations de l’initiative liée.
+   * **Zone [!UICONTROL Vue d’ensemble] de la section [!UICONTROL Détails du projet]** : une nouvelle section du [!DNL Scenario Planner] est créée dans cette zone et contient des informations sur l’initiative liée.
 
      ![](assets/scenario-planner-on-project-details-350x135.png)
 
-     Les informations suivantes sur l’initiative sont publiées dans la zone [!DNL Scenario Planner] de la section [!UICONTROL Détails du projet] :
+     Les informations suivantes sur l’initiative sont publiées dans la zone du [!DNL Scenario Planner] de la section [!UICONTROL Détails du projet] :
 
      <table style="table-layout:auto"> 
       <col> 
@@ -217,7 +217,7 @@ Avant de commencer :
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative Start Date]</span> </td> 
-        <td><span>Premier jour du mois de début de l’initiative, lorsque le projet est lié à une initiative.</span> </td> 
+        <td><span>Premier jour du mois du début de l’initiative, lorsque le projet est lié à une initiative.</span> </td> 
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative End Date]</span> </td> 
@@ -225,54 +225,54 @@ Avant de commencer :
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative Job Roles in FTEs and Hours]</span> </td> 
-        <td> <p>Informations sur les fonctions associées et leur affectations de temps pour l’initiative. Cela inclut :</p> 
+        <td> <p>Informations sur les fonctions associées et leur temps alloué à l’initiative. Cela inclut les éléments suivants :</p> 
          <ul> 
           <li>Nom de la fonction</li> 
-          <li>Nombre d’ETP</li> 
-          <li> <p>Nombre d’heures pour tous les ETP</p> <p>Vous pouvez estimer le nombre de fonctions nécessaires à votre plan ou à votre initiative à l’aide d’heures ou d’EPT.</p> <p>Pour plus d’informations, voir <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créer et modifier des plans dans le planificateur de scénarios</a>. </p> </li> 
+          <li>Nombre d’équivalents temps complet</li> 
+          <li> <p>Nombre d’heures pour tous les équivalents temps complet</p> <p>Vous pouvez estimer le nombre de fonctions nécessaires pour votre plan ou votre initiative en utilisant des heures ou des équivalents temps complet.</p> <p>Pour plus d’informations, voir <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Créer et modifier des plans dans le planificateur de scénarios</a>. </p> </li> 
          </ul> 
       <p><b>CONSEIL</b>
 
-     Si le nombre de fonctions est différent pour chaque mois de l’initiative, ce champ affiche le nombre maximum de rôles requis pour l’initiative. Par exemple, si vous avez besoin d’un consultant ou d’une consultante pour janvier et de deux pour février, la colonne affiche 2ETP et le nombre d’heures correspondant pour 2 ETR pour tous les mois.</p> </td>
+     Si le nombre de fonctions est différent pour chaque mois de l’initiative, ce champ affiche le nombre maximum de fonctions nécessaires à l’initiative. Par exemple, si vous avez besoin d’une seule personne consultante pour janvier et de deux pour février, la colonne affiche 2 équivalents temps complet et le nombre d’heures correspondant à 2 équivalents temps complet pour tous les mois.</p> </td>
      </tr> 
       </tbody> 
      </table>
 
      >[!NOTE]
      >
-     >Tous les utilisateurs et utilisatrices disposant d’un accès en [!UICONTROL Affichage] au projet peuvent afficher la section [!DNL Scenario Planner] dans la zone [!UICONTROL Vue d’ensemble]. Vous pouvez vérifier si cette zone s’affiche dans la section [!UICONTROL Détails] à l’aide d’un modèle de disposition. Si aucun modèle de disposition n’est associé aux utilisateurs et utilisatrices, cette zone s’affiche par défaut.
+     >Tous les utilisateurs et utilisatrices disposant de l’accès [!UICONTROL Afficher] peuvent voir la section [!DNL Scenario Planner] dans la zone [!UICONTROL Vue d’ensemble]. Vous pouvez contrôler l’affichage de cette zone dans la section [!UICONTROL Détails] en utilisant un modèle de disposition. Si aucun modèle de disposition n’est associé aux utilisateurs et aux utilisatrices, cette zone s’affiche par défaut.
      >
      >   
      >   
      >   * Pour plus d’informations sur l’ajout ou la suppression de zones dans la section [!UICONTROL Détails] à l’aide d’un modèle de disposition, voir [Personnaliser la vue [!UICONTROL Détails] à l’aide d’un modèle de disposition](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
-     >   * Pour plus d’informations sur l’affichage d’informations dans la zone [!UICONTROL Vue d’ensemble] des [!UICONTROL Détails du projet], voir [[!UICONTROL Gérer les] informations dans la zone [!UICONTROL Vue d’ensemble] du projet](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >   * Pour plus d’informations sur l’affichage des informations dans la zone [!UICONTROL Vue d’ensemble] des [!UICONTROL Détails du projet], voir [[!UICONTROL Gérer] les informations dans la zone [!UICONTROL Vue d’ensemble] du projet](../manage-work/projects/manage-projects/understand-project-overview-area.md).
      >   
      >
 
-   * **Le panneau [!UICONTROL Affectation des rôles] de l’[!UICONTROL Équilibreur de charge de travail] ou la liste des tâches du projet** : les informations sur l’affectation des rôles de l’initiative sont renseignées dans cette zone, en plus de l’affectation des rôles sur le projet.
+   * **Panneau [!UICONTROL Affectation des rôles] dans l’[!UICONTROL Équilibreur de charge de travail] ou la liste des tâches du projet** : des informations relatives à l’affectation des rôles dans l’initiative s’affichent dans cette zone, en plus des affectations de rôles dans le projet.
 
      Pour plus d’informations, voir [Vue d’ensemble de la réconciliation des affectations de ressources entre les projets et les initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
      ![](assets/role-allocation-panel-350x174.png)
 
-     Une modification apportée aux dates ou aux ressources du projet n’affecte pas l’initiative correspondante ni les zones du projet qui contiennent les informations sur l’initiative.
+     Toute modification des dates ou des ressources du projet n’affecte pas l’initiative correspondante ni aucune des zones du projet contenant des informations sur l’initiative.
 
-   * **La zone [!UICONTROL Établissement du budget de ressources] de l’[!UICONTROL Analyse de rentabilité] du projet** : nouvelle option de gestion des ressources de projet utilisant des informations du [!DNL Scenario Planner] ajoutée dans la zone [!UICONTROL Établissement du budget de ressources] de l’[!UICONTROL Analyse de rentabilité] du projet.
+   * **Zone [!UICONTROL Établissement du budget de ressources] du [!UICONTROL Business case] du projet** : une nouvelle option de gestion des ressources du projet à l’aide des informations du [!DNL Scenario Planner] est ajoutée dans la zone [!UICONTROL Établissement du budget de ressources] du [!UICONTROL Business case] du projet.
 
-     Pour plus d’informations, voir [Budgétiser les ressources dans l’[!UICONTROL Analyse de rentabilité] à l’aide du  [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+     Pour plus d’informations, voir [Budgétisation des ressources dans le [!UICONTROL Business case] à l’aide du  [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
      ![](assets/sp-in-business-case-selected-350x110.png)
 
-1. (Facultatif) Passez en revue les informations suivantes dans le [!DNL Scenario Planner] après avoir publié un scénario :
+1. (Facultatif) Consultez les informations suivantes concernant le [!DNL Scenario Planner] après avoir publié un scénario :
 
-   * Le scénario publié devient le premier scénario une fois que vous avez publié des initiatives à partir de celui-ci.
+   * Le scénario publié devient le premier scénario lorsque vous publiez des initiatives à partir de celui-ci.
    * Vous ne pouvez pas publier à partir d’un autre scénario après avoir publié un scénario au moins une fois.
-   * L’option [!UICONTROL Aller à Publier] est supprimée de tous les autres scénarios une fois qu’au moins une initiative a été publiée à partir d’un scénario.
-   * Un indicateur vert s’affiche en regard des icônes de projet des initiatives publiées dans le plan.
+   * L’option [!UICONTROL Aller à Publier] est supprimée de tous les autres scénarios dès qu’au moins une initiative a été publiée à partir d’un scénario.
+   * Un indicateur vert s’affiche à côté des icônes du projet des initiatives publiées dans le plan.
 
      ![](assets/indicator-for-published-initiative-icon-350x119.png)
 
-   * Un indicateur vert « Publié » s’affiche en haut du scénario et sur la carte du scénario ; le champ Publié est renseigné sur la carte du scénario pour indiquer le nombre d’initiatives du scénario qui ont été publiées.
+   * Un indicateur vert « Publié » s’affiche en haut du scénario et sur la carte du scénario, et le champ « Publié » est renseigné sur la carte du scénario, indiquant le nombre d’initiatives du scénario qui ont été publiées.
 
      ![](assets/published-scenario-highlighted-350x632.png)
 
@@ -280,7 +280,7 @@ Avant de commencer :
      >
      >Si tous les projets publiés à partir des initiatives du scénario sont supprimés, l’indication que le scénario a été publié est supprimée. Pour plus d’informations, voir [Supprimer des projets](../manage-work/projects/manage-projects/delete-projects.md).
 
-1. (Facultatif) Mettez à jour les informations sur l’initiative et répétez le processus décrit ci-dessus pour republier l’initiative et mettre à jour les informations de l’initiative sur le projet lié.
+1. (Facultatif) Mettre à jour les informations sur l’initiative et répéter le processus décrit ci-dessus pour republier l’initiative et mettre à jour les informations des initiatives pour le projet lié.
 
    Pour plus d’informations sur la modification d’initiatives, voir [Créer et modifier des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 

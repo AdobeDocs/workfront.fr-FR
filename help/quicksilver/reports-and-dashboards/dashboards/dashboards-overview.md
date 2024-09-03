@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: dashboards
 navigation-topic: reports-and-dashboards
 title: Tableaux de bord
-description: Les tableaux de bord sont des collections de rapports dans Adobe Workfront. Consultez ces sections pour mieux comprendre les tableaux de bord dans Workfront.
+description: Les tableaux de bord sont des collections de rapports dans Adobe Workfront. Consultez ces zones pour mieux comprendre les tableaux de bord dans Workfront.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -11,7 +11,7 @@ exl-id: e4ee3729-a39d-4d1f-971f-4eb557d151d4
 source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 

@@ -19,7 +19,7 @@ ht-degree: 91%
 
 [!DNL Adobe Workfront] permet aux équipes Agile d’effectuer leur travail de manière progressive et organisée.
 
-Tout utilisateur ou utilisatrice de l’entreprise peut voir l’équipe Agile et afficher tous les composants agiles de l’équipe, y compris la liste d’attente, les itérations, le storyboard et les histoires individuelles. Toutefois, seules les personnes membres de l’équipe disposant d’un accès [!UICONTROL Modifier] au travail peuvent apporter des modifications au travail affecté à l’équipe.
+Tout utilisateur ou utilisatrice de l’entreprise peut voir l’équipe Agile et afficher tous les composants agiles de l’équipe, y compris la liste d’attente, les itérations, le storyboard et les histoires individuelles. Toutefois, seuls les membres de l’équipe disposant d’un accès [!UICONTROL Modifier] au travail peuvent apporter des modifications au travail affecté à l’équipe.
 
 [!DNL Workfront] prend en charge les méthodologies Agile suivantes :
 
@@ -41,11 +41,11 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>N’importe quelle</p> </td> 
+   <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licence</td> 
-   <td> <p>Nouvelle : standard</p>
+   <td> <p>Nouveau : Standard</p>
    Actuel : 
    <ul><li><p>[!UICONTROL Plan] pour créer une nouvelle équipe Agile</p></li> 
    <li><p>[!UICONTROL Work] ou supérieure pour convertir une équipe en équipe Agile</p></li></ul> </td> 
@@ -53,26 +53,26 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  </tbody> 
 </table>
 
-Pour plus d’informations sur ce tableau, consultez [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Choisir une méthodologie agile
+## Choisir une méthodologie Agile
 
-Vous pouvez utiliser une méthodologie agile Scrum ou Kanban pour votre équipe Agile. Chaque méthodologie présente divers avantages. Le fonctionnement de votre équipe Agile détermine la méthodologie agile que vous choisissez d’utiliser.
+Vous pouvez utiliser une méthodologie agile Scrum ou Kanban pour votre équipe Agile. Chaque méthodologie présente divers avantages. Le fonctionnement de votre équipe Agile détermine la méthodologie Agile que vous choisissez d’utiliser.
 
-Les méthodologies agile Scrum et Kanban dans [!DNL Workfront] vous permettent de déplacer des histoires dans un storyboard pour indiquer un changement de statut et la progression de l’histoire.
+Les méthodologies Agile Scrum et Kanban dans [!DNL Workfront] vous permettent de déplacer des histoires dans un storyboard pour indiquer un changement de statut et la progression de l’histoire.
 
-Les méthodologes agile Scrum et Kanban dans [!DNL Workfront] diffèrent de la manière suivante :
+Les méthodologes Agile Scrum et Kanban dans [!DNL Workfront] diffèrent de la manière suivante :
 
 ### Avantages de l’utilisation de Kanban dans [!DNL Workfront]
 
-La méthodologie agile [!DNL Kanban] dans [!DNL Workfront] vous permet de déplacer plus facilement les histoires sur un storyboard agile tout en limitant la quantité de travail en cours. Il n’y a pas de date de début et de fin lors de l’utilisation de la méthodologie agile [!DNL Kanban].
+La méthodologie Agile [!DNL Kanban] dans [!DNL Workfront] vous permet de déplacer plus facilement les histoires sur un storyboard agile tout en limitant la quantité de travail en cours. Il n’y a pas de date de début et de fin lors de l’utilisation de la méthodologie Agile [!DNL Kanban].
 
 Les fonctionnalités suivantes prennent en charge cette méthodologie :
 
 * Affichez le journal en souffrance sur le tableau de bord agile [!DNL Kanban].
-Pour plus d’informations, voir [Ajouter la liste d’attente au tableau [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
+Pour plus d’informations, voir [Ajouter la liste d’attente au storyboard [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
 * Configurez les éléments sur le journal en attente pour qu’ils soient automatiquement ajoutés au panorama d’articles agile [!UICONTROL Kanban] lorsque d’autres éléments sont déplacés vers un état qui correspond à Terminé.
 Pour plus d’informations, voir la section [Configurer des histoires à ajouter automatiquement à partir de la liste d’attente](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) dans l’article [Configurer Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
@@ -82,7 +82,7 @@ Pour plus d’informations, voir [Gérer la limite de travail en cours (WIP) sur
 
 ### Avantages de l’utilisation de Scrum dans [!DNL Workfront]
 
-La méthodologie agile Scrum dans [!DNL Workfront] vous permet d’ajouter un ensemble d’histoires à une itération agile et de créer un storyboard pour cette itération. L’itération est basée sur les dates de début et de fin que vous définissez.
+La méthodologie Agile Scrum dans [!DNL Workfront] vous permet d’ajouter un ensemble d’histoires à une itération agile et de créer un storyboard pour cette itération. L’itération est basée sur les dates de début et de fin que vous définissez.
 
 Les fonctionnalités suivantes prennent en charge cette méthodologie :
 
@@ -96,7 +96,7 @@ Pour plus d’informations, consultez la [présentation d’un graphique de cond
 
 {{step1-to-team}}
 
-1. Cliquez sur le bouton **[!UICONTROL Changer d’équipe]** icon ![Icône Changer l’équipe](assets/switch-team-icon.png), puis cliquez sur **[!UICONTROL Créer une équipe]**.
+1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]**![Icône Changer d’équipe](assets/switch-team-icon.png), puis cliquez sur **[!UICONTROL Créer une nouvelle équipe]**.
 
    ![Sélectionnez Créer une équipe.](assets/create-new-team-350x198.png)
 
@@ -129,7 +129,7 @@ Pour plus d’informations, consultez la [présentation d’un graphique de cond
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Team Members]</strong> </td> 
-      <td>Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice à ajouter à l’équipe, puis sélectionnez le nom lorsqu’il apparaît dans la liste déroulante.<br>Répétez cette procédure pour ajouter plusieurs utilisateurs et utilisatrices à l’équipe.<br>Étant donné que les utilisateurs et utilisatrices peuvent appartenir à plusieurs équipes, ils peuvent appartenir à des équipes agiles et non agiles.</td> 
+      <td>Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice à ajouter à l’équipe, puis sélectionnez le nom lorsqu’il apparaît dans la liste déroulante.<br>Répétez cette procédure pour ajouter plusieurs utilisateurs et utilisatrices à l’équipe.<br>Comme les utilisateurs et utilisatrices peuvent appartenir à plusieurs équipes, ils peuvent appartenir à des équipes agiles et non agiles.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
@@ -152,10 +152,10 @@ Vous pouvez convertir une équipe existante en équipe agile :
 
 {{step1-to-team}}
 
-1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez-en une dans la barre de recherche.
+1. Cliquez sur l’icône **[!UICONTROL Changer d’équipe]** ![Icône Changer d’équipe](assets/switch-team-icon.png), puis sélectionnez une nouvelle équipe dans le menu déroulant ou recherchez une équipe dans la barre de recherche.
 
 1. Sélectionnez l’équipe que vous souhaitez convertir en équipe agile.
-1. Cliquez sur le menu **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
+1. Cliquez sur le bouton **[!UICONTROL Plus]**, puis sélectionnez **[!UICONTROL Modifier]**.
 
    Seuls les membres de l’équipe disposant d’une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Work] peuvent voir cette option.
    ![](assets/edit-team-settings-350x205.png)

@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Calendrier des versions de l’API et de l’assistance
-description: Calendrier des versions de l’API et de l’assistance
+title: Planification du contrôle de version de l’API et de l’assistance
+description: Planification du contrôle de version de l’API et de l’assistance
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Calendrier des versions de l’API et de l’assistance
+# Planification du contrôle de version de l’API et de l’assistance
 
 
 
@@ -31,7 +31,7 @@ Le tableau suivant présente le planning de publication et d’assistance pour l
  <thead> 
   <tr> 
    <th><strong>Version</strong> </th> 
-   <th><strong>Publication</strong> </th> 
+   <th><strong>Version</strong> </th> 
    <th><strong>* Non pris en charge</strong> </th> 
   </tr> 
  </thead> 

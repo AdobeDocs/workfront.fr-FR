@@ -57,7 +57,7 @@ Pour plus d&#39;informations, voir [Configuration de l&#39; [!DNL Workfront] et 
 ![](assets/Frame-enabled-user.png)
 
 
-### Création d’un projet connecté à Frame.io
+### Créer un projet connecté à Frame.io
 
 Une fois que le compte Frame.io par défaut est ajouté et que les utilisateurs de Frame.io sont désignés, les coordinateurs de projet peuvent créer des projets Workfront connectés à Frame.io. Lorsque vous créez un projet connecté, vous pouvez :
 

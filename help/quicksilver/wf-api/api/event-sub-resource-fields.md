@@ -10,15 +10,15 @@ exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c815ce839e32cc060cd839272bc3d06938b4137a
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # Champs de ressources de l’abonnement à un événement
 
-Les champs de ressource d’abonnement à un événement représentent des déclencheurs pour les événements qui entraînent l’envoi d’un message sortant vers un point de terminaison configuré par un abonnement à un événement. Lorsqu’un champ de ressource est modifié, un événement UPDATE est déclenché.
+Les champs de ressources de l’abonnement à un événement sont des déclencheurs qui provoquent l’envoi par l’abonnement aux événements d’un message sortant vers un point d’entrée configuré. La modification d’un champ de ressource déclenche un événement de mise à jour.
 
-Le tableau suivant répertorie les champs disponibles pour les ressources d’abonnement aux événements :
+Le tableau suivant répertorie les champs disponibles pour les ressources de l’abonnement à un événement :
 
 <table style="table-layout:auto"> 
  <col> 
@@ -142,7 +142,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>TeamID</td> 
+   <td>teamID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -152,7 +152,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Ce champ a été supprimé le 26 octobre 2023."}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Ce champ a été supprimé le 26 octobre 2023."}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -177,7 +177,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entryByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -227,7 +227,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Tableau de bord</td> 
    <td>PTLTAB</td> 
-   <td>ID d’accesseur</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -257,7 +257,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Remarque : LastUpdateDate ne déclenche un événement que la première fois qu’il est mis à jour au cours de chaque journée. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>Note : LastUpdateDate ne déclenche un événement que la première fois qu’il est mis à jour chaque jour. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -287,7 +287,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Document</td> 
    <td>DOCU</td> 
-   <td>ID d’accesseur</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -452,7 +452,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td><span>DocumentVersion</span> </td> 
    <td><span>DOCV</span> </td> 
-   <td><span>ID d’accès</span> </td> 
+   <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -487,7 +487,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>informatiquesByID</span> </td> 
+   <td><span>entryByID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -532,7 +532,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>BATApprovalStatusID</span> </td> 
+   <td><span>proofApprovalStatusID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -542,42 +542,42 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>BATDeadlineDate</span> </td> 
+   <td><span>proofDeadlineDate</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>BATDecision</span> </td> 
+   <td><span>proofDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>BATID</span> </td> 
+   <td><span>proofID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>BATName</span> </td> 
+   <td><span>proofName</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>BATOwnerID</span> </td> 
+   <td><span>proofOwnerID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>BATPages</span> </td> 
+   <td><span>proofPages</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>BATProgress</span> </td> 
+   <td><span>proofProgress</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>BATStageID</span> </td> 
+   <td><span>proofStageID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -587,12 +587,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Frais</td> 
    <td>EXPNS</td> 
-   <td> realAmount </td> 
+   <td> actualAmount </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> realUnitAmount </td> 
+   <td> actualUnitAmount </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -627,7 +627,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entryByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -642,7 +642,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>dépenseTypeID</td> 
+   <td>expenseTypeID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -662,12 +662,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> isReemboursable </td> 
+   <td> isReimbursable </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> isReremboursement </td> 
+   <td> isReimbursed </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -702,17 +702,17 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>scheduledAmount</td> 
+   <td>plannedAmount</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>scheduledDate</td> 
+   <td>plannedDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>scheduledUnitAmount</td> 
+   <td>plannedUnitAmount</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -776,7 +776,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   </tr> 
   <tr> 
    <td>champ</td> 
-   <td>CHAMP</td> 
+   <td>FIELD</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -807,7 +807,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> FormuleOptions </td> 
+   <td> formulaOptions </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -867,12 +867,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Heure</td> 
    <td>HOUR</td> 
-   <td>ID d’accesseur</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> realCost </td> 
+   <td> actualCost </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1007,7 +1007,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Problème</td> 
    <td>OPTASK</td> 
-   <td>ID d’accesseur</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1042,7 +1042,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entryByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1152,7 +1152,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>rejetIssueID</td> 
+   <td>rejectionIssueID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1172,7 +1172,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>resolveObjID</td> 
+   <td>resolvingObjID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1207,12 +1207,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>submitByID</td> 
+   <td>submittedByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>TeamID</td> 
+   <td>teamID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1222,7 +1222,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Note</td> 
    <td>NOTE</td> 
-   <td>ID d’accesseur</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1402,12 +1402,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Portfolio</td> 
    <td>PORT</td> 
-   <td>ID d’accesseur</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>alignScoreCardID</td> 
+   <td>alignmentScoreCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1427,7 +1427,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entryByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1482,7 +1482,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Programme</td> 
    <td>PRGM</td> 
-   <td>ID d’accesseur</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1502,7 +1502,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entryByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1562,12 +1562,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Projet</td> 
    <td>PROJ</td> 
-   <td>ID d’accesseur</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>alignScoreCardID</td> 
+   <td>alignmentScoreCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1577,7 +1577,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>attachmentRateCardID </td> 
+   <td>attachedRateCardID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1592,12 +1592,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>convertiOpTaskID</td> 
+   <td>convertedOpTaskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>convertiOpTaskOriginatorID</td> 
+   <td>convertedOpTaskOriginatorID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1627,7 +1627,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entryByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1732,7 +1732,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>rejetIssueID</td> 
+   <td>rejectionIssueID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1762,7 +1762,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>submitByID</td> 
+   <td>submittedByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1772,7 +1772,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>TeamID</td> 
+   <td>teamID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1787,7 +1787,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td><span>ProofApproval</span> </td> 
    <td><span>PRFAPL</span> </td> 
-   <td><span>ID d’accès</span> </td> 
+   <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1822,7 +1822,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>isAwaitDecision</span> </td> 
+   <td><span>isAwaitingDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1832,7 +1832,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>BATCreationDate</span> </td> 
+   <td><span>proofCreationDate</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1841,7 +1841,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   </tr> 
   <tr> 
    <td>Enregistrement</td> 
-   <td>ENREGISTRER</td> 
+   <td>RECORD</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -1862,7 +1862,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>id</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1937,7 +1937,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>id</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1957,7 +1957,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>autorisation</td> 
+   <td>permission</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1982,7 +1982,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Rapport</td> 
    <td>PTLSEC</td> 
-   <td>ID d’accesseur</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2002,7 +2002,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entryByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2057,7 +2057,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>preferredID</td> 
+   <td>preferenceID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2096,8 +2096,8 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   </tr> 
   <tr> 
    <td>Tâche</td> 
-   <td>TÂCHE</td> 
-   <td>ID d’accesseur</td> 
+   <td>TASK</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2122,12 +2122,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>convertiOpTaskID</td> 
+   <td>convertedOpTaskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>convertiOpTaskOriginatorID</td> 
+   <td>convertedOpTaskOriginatorID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2147,7 +2147,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entryByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2257,7 +2257,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>rejetIssueID</td> 
+   <td>rejectionIssueID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2282,12 +2282,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>submitByID</td> 
+   <td>submittedByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>TeamID</td> 
+   <td>teamID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2302,7 +2302,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td>Modèle</td> 
    <td>TMPL</td> 
-   <td>ID d’accesseur</td> 
+   <td>accessorIDs</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2337,7 +2337,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entryByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2452,7 +2452,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>TeamID</td> 
+   <td>teamID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2532,12 +2532,12 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>hoursHours</td> 
+   <td>overtimeHours</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>régulierHours</td> 
+   <td>regularHours</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2566,7 +2566,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   </tr> 
   <tr> 
    <td>l’utilisateur ou de l’utilisatrice</td> 
-   <td>UTILISATEUR</td> 
+   <td>USER</td> 
    <td>accessLevelID</td> 
   </tr> 
   <tr> 
@@ -2607,7 +2607,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>entryByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2767,7 +2767,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>id</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2782,7 +2782,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>autorisation</td> 
+   <td>permission</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2802,4 +2802,4 @@ Le tableau suivant répertorie les champs disponibles pour les ressources d’ab
  </tbody> 
 </table>
 
-&#42;Une valeur parameterValue est une valeur de champ personnalisée associée à diverses ressources Workfront (ou objets). Un message sortant d’abonnement à un événement comprend une liste complète de paramètreValues (champs personnalisés) renseignées.
+&#42;Une valeur parameterValue est une valeur de champ personnalisé associée à diverses ressources (ou objets) Workfront. Un message sortant d’abonnement à un événement comprend une liste complète de parameterValues (champs personnalisés) renseignées.

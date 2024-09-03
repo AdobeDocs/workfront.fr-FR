@@ -2,24 +2,24 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Vue d’ensemble des statuts et de la progression de la relecture
-description: Vous pouvez afficher des informations sur l’avancement d’un BAT tout au long du processus de révision et un résumé global de l’état de décision du BAT dans la zone Documents .
+description: Vous pouvez afficher des informations sur la progression d’une épreuve tout au long du processus de révision et un résumé global du statut de décision de l’épreuve dans la zone Documents.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 # Vue d’ensemble des statuts et de la progression de la relecture
 
-Vous pouvez afficher des informations sur l’avancement d’un BAT tout au long du processus de révision et un résumé global de l’état de décision du BAT dans la zone Documents .
+Vous pouvez afficher des informations sur la progression d’une épreuve tout au long du processus de révision et un résumé global du statut de décision de l’épreuve dans la zone Documents.
 
-## Présentation de la progression du BAT
+## Vue d’ensemble de la progression de la relecture
 
-La progression de la preuve indique le travail effectué sur un BAT depuis le moment où vous envoyez le BAT aux destinataires jusqu’au moment où ils prennent une décision sur le BAT. Les icônes de progression, S, O, C et D, apparaissent à côté du nom du BAT et fournissent des informations sur la progression du BAT.
+La progression de la relecture indique le travail effectué sur une épreuve entre le moment où vous envoyez l’épreuve aux personnes destinataires et le moment où elles prennent une décision sur l’épreuve. Les icônes de progression, S, O, C et D, apparaissent en regard du nom de l’épreuve et fournissent des informations sur la progression de la relecture.
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -35,29 +35,29 @@ La progression de la preuve indique le travail effectué sur un BAT depuis le mo
  <tbody> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>Envoyé</strong> </p> </td> 
-   <td> <p>Le BAT a été envoyé aux destinataires affectés.</p> </td> 
+   <td> <p>L’épreuve a été envoyée aux personnes destinataires concernées.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Ayant ouvert</strong> </p> </td> 
-   <td> <p>Tous les destinataires attribués ouvrent la page des détails du BAT ou du BAT.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Ouvert</strong> </p> </td> 
+   <td> <p>Toutes les personnes destinataires concernées ouvrent l’épreuve ou la page des détails de l’épreuve.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Commentaires effectués</strong> </p> </td> 
-   <td> <p>Tous les destinataires assignés font au moins un commentaire sur le BAT.</p> <p>Si aucun opérateur validant n'est affecté au BAT, l'icône <strong>C</strong> n'apparaît pas dans la barre de progression.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Commentaire saisi</strong> </p> </td> 
+   <td> <p>Toutes les personnes destinataires concernées saisissent au moins un commentaire sur l’épreuve.</p> <p>Si aucun réviseur ou aucune réviseuse n’a été affecté à l’épreuve, l’icône <strong>C</strong> n’apparaît pas dans la barre de progression.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Décision prise</strong> </p> </td> 
-   <td> <p>Tous les approbateurs affectés prennent une décision sur le BAT, Tous les approbateurs affectés prennent une décision sur le BAT, sauf si le créateur du BAT indique qu’une seule décision est nécessaire.</p> <p>Si aucun approbateur (décideur) n’est désigné pour le BAT, l’icône <strong>D</strong> n’apparaît pas dans la barre de progression. </p> </td> 
+   <td> <p>Tous les approbateurs et toutes les approbatrices concernés prennent une décision sur l’épreuve, tous les approbateurs et toutes les approbatrices concernés prennent une décision sur l’épreuve, sauf si l’auteur ou l’autrice de l’épreuve indique qu’une seule décision est nécessaire.</p> <p>Si aucun approbateur ou aucune approbatrice (décideur ou décideuse) n’est désigné pour l’épreuve, l’icône <strong>D</strong> n’apparaît pas dans la barre de progression.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Les icônes de progression peuvent apparaître dans les couleurs suivantes pour indiquer certaines informations sur la progression du BAT :
+Les icônes de progression peuvent apparaître dans les couleurs suivantes pour indiquer certaines informations sur la progression de l’épreuve :
 
-* **Vert** : Terminé.
-* **Blanc** : non terminé.
-* **Orange** : incomplet et délai inférieur à 24 heures.
-* **Rouge** : non terminé et dépassé l’échéance.
+* **Vert** : terminé.
+* **Blanc** : non terminé.
+* **Orange** : non terminé et échéance inférieure à 24 heures.
+* **Rouge** : non terminé et échéance dépassée.
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -91,13 +91,13 @@ Les icônes de progression peuvent apparaître dans les couleurs suivantes pour 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Similarly, if the Only One Decision Required setting is selected on a proof and any reviewer submits a decision, the D in the proof progress bar turns&nbsp;green for all reviewers because no other decisions are required.</p>
 -->
 
-## Aperçu de l’état du BAT
+## Vue d’ensemble des statuts de l’épreuve
 
-Le statut du BAT affiche le statut des décisions requises pour le BAT. Le statut du BAT dépend du participant au &quot;pire cas&quot;. Par exemple, supposons qu’il y ait trois décisions sur le BAT : deux ont le statut **Accepted** et l’un a le statut **Refusé**. La décision &quot;pire cas&quot; de **Refusé** annule les autres décisions et l’état global du BAT est affiché comme **Refusé**. 
+Le statut de l’épreuve indique le statut des décisions requises pour l’épreuve. Le statut de l’épreuve dépend du participant ou de la participante dans le « pire cas ». Par exemple, supposons qu’il y ait trois décisions sur l’épreuve : deux ont le statut **Accepté** et une a le statut **Rejeté**. La décision dans le « pire cas » **Rejeté** est prioritaire sur les autres décisions et le statut global de l’épreuve est affiché comme **Rejeté**.
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
-Les options d’état standard sont les suivantes :
+Les options de statut standard sont les suivantes :
 
 * En attente
 * Approuvé
@@ -105,7 +105,7 @@ Les options d’état standard sont les suivantes :
 * Modifications requises
 * Non pertinent
 
-Si des décisions personnalisées sont configurées dans votre compte, les options d’état reflètent vos paramètres de décision personnalisés.
+Si des décisions personnalisées sont configurées dans votre compte, les options de statut reflètent vos paramètres de décision personnalisés.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Viewing proof progress and status</h2>
